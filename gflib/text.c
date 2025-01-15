@@ -79,7 +79,7 @@ static const u8 sWindowVerticalScrollSpeeds[] = {
 static const struct GlyphWidthFunc sGlyphWidthFuncs[] =
 {
     { FONT_SMALL,        GetGlyphWidth_Small },
-    { FONT_NORMAL,       GetGlyphWidth_Normal },
+    { FONT_TALL,         GetGlyphWidth_Normal },
     { FONT_SHORT,        GetGlyphWidth_Short },
     { FONT_SHORT_COPY_1, GetGlyphWidth_Short },
     { FONT_SHORT_COPY_2, GetGlyphWidth_Short },
@@ -125,7 +125,7 @@ static const struct FontInfo sFontInfos[] =
         .bgColor = 1,
         .shadowColor = 3,
     },
-    [FONT_NORMAL] = {
+    [FONT_TALL] = {
         .fontFunction = FontFunc_Normal,
         .maxLetterWidth = 6,
         .maxLetterHeight = 16,
@@ -210,7 +210,7 @@ static const struct FontInfo sFontInfos[] =
 static const u8 sMenuCursorDimensions[][2] =
 {
     [FONT_SMALL]        = { 8,  12 },
-    [FONT_NORMAL]       = { 8,  15 },
+    [FONT_TALL]         = { 8,  15 },
     [FONT_SHORT]        = { 8,  14 },
     [FONT_SHORT_COPY_1] = { 8,  14 },
     [FONT_SHORT_COPY_2] = { 8,  14 },
@@ -660,7 +660,7 @@ static u16 FontFunc_Normal(struct TextPrinter *textPrinter)
 
     if (subStruct->hasFontIdBeenSet == FALSE)
     {
-        subStruct->fontId = FONT_NORMAL;
+        subStruct->fontId = FONT_TALL;
         subStruct->hasFontIdBeenSet = TRUE;
     }
     return RenderText(textPrinter);
@@ -1094,7 +1094,7 @@ static u16 RenderText(struct TextPrinter *textPrinter)
         case FONT_SMALL:
             DecompressGlyph_Small(currChar, textPrinter->japanese);
             break;
-        case FONT_NORMAL:
+        case FONT_TALL:
             DecompressGlyph_Normal(currChar, textPrinter->japanese);
             break;
         case FONT_SHORT:

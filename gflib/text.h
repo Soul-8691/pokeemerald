@@ -9,7 +9,7 @@
 
 enum {
     FONT_SMALL,
-    FONT_NORMAL,
+    FONT_TALL,
     FONT_SHORT,
     FONT_SHORT_COPY_1,
     FONT_SHORT_COPY_2,
@@ -18,6 +18,8 @@ enum {
     FONT_NARROW,
     FONT_SMALL_NARROW, // Very similar to FONT_SMALL, some glyphs are narrower
 };
+
+#define FONT_NORMAL FONT_TALL
 
 // Return values for font functions
 enum {
