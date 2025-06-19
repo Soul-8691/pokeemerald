@@ -1,0 +1,16 @@
+#ifndef GUARD_CONSTANTS_YGO_H
+#define GUARD_CONSTANTS_YGO_H
+
+#define CARD_NONE 0
+#define CARD_DARK_MAGICIAN 1
+
+#define EFFECT_NONE 0
+
+#define TYPE_NORMAL 0
+
+#define ATTRIBUTE_NONE 0
+#define ATTRIBUTE_DARK 1
+
+#define RACE_SPELLCASTER 0
+
+#endif  // GUARD_CONSTANTS_YGO_H
