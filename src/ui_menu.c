@@ -34,6 +34,7 @@
 #include "constants/field_weather.h"
 #include "constants/songs.h"
 #include "constants/rgb.h"
+#include "ygo_graphics.h"
 
 /*
  * 
@@ -104,9 +105,9 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
     DUMMY_WIN_TEMPLATE,
 };
 
-static const u32 sMenuTiles[] = INCBIN_U32("graphics/ui_menu/tiles.4bpp.lz");
-static const u32 sMenuTilemap[] = INCBIN_U32("graphics/ui_menu/tilemap.bin.lz");
-static const u16 sMenuPalette[] = INCBIN_U16("graphics/ui_menu/palette.gbapal");
+static const u32 sMenuTiles[] = INCBIN_U32("graphics/cards/dark_magician/pic_large_tiles.4bpp.lz");
+static const u32 sMenuTilemap[] = INCBIN_U32("graphics/cards/dark_magician/pic_large_tiles.bin.lz");
+static const u16 sMenuPalette[] = INCBIN_U16("graphics/cards/dark_magician/pic_large_tiles.gbapal");
 
 enum Colors
 {
