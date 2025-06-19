@@ -95,19 +95,19 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
     [WINDOW_1] = 
     {
         .bg = 0,            // which bg to print text on
-        .tilemapLeft = 4,   // position from left (per 8 pixels)
-        .tilemapTop = 3,    // position from top (per 8 pixels)
-        .width = 10,        // width (per 8 pixels)
-        .height = 3,        // height (per 8 pixels)
-        .paletteNum = 15,   // palette index to use for text
+        .tilemapLeft = 0,   // position from left (per 8 pixels)
+        .tilemapTop = 0,    // position from top (per 8 pixels)
+        .width = 8,        // width (per 8 pixels)
+        .height = 8,        // height (per 8 pixels)
+        .paletteNum = 0,   // palette index to use for text
         .baseBlock = 1,     // tile start in VRAM
     },
     DUMMY_WIN_TEMPLATE,
 };
 
-static const u32 sMenuTiles[] = INCBIN_U32("graphics/cards/dark_magician/pic_large_tiles.4bpp.lz");
+static const u8 sMenuTiles[] = INCBIN_U8("graphics/cards/dark_magician/pic_small.4bpp");
 static const u32 sMenuTilemap[] = INCBIN_U32("graphics/cards/dark_magician/pic_large_tiles.bin.lz");
-static const u16 sMenuPalette[] = INCBIN_U16("graphics/cards/dark_magician/pic_large_tiles.gbapal");
+static const u16 sMenuPalette[] = INCBIN_U16("graphics/cards/dark_magician/pic_small.gbapal");
 
 enum Colors
 {
@@ -296,18 +296,16 @@ static bool8 Menu_LoadGraphics(void)
     {
     case 0:
         ResetTempTileDataBuffers();
-        DecompressAndCopyTileDataToVram(1, sMenuTiles, 0, 0, 0);
+        // DecompressAndCopyTileDataToVram(1, sMenuTiles, 0, 0, 0);
         sMenuDataPtr->gfxLoadState++;
         break;
     case 1:
         if (FreeTempTileDataBuffersIfPossible() != TRUE)
         {
-            LZDecompressWram(sMenuTilemap, sBg1TilemapBuffer);
             sMenuDataPtr->gfxLoadState++;
         }
         break;
     case 2:
-        LoadPalette(sMenuPalette, 0, 32);
         sMenuDataPtr->gfxLoadState++;
         break;
     default:
@@ -341,7 +339,9 @@ static void PrintToWindow(u8 windowId, u8 colorIdx)
     u8 y = 1;
     
     FillWindowPixelBuffer(windowId, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-    AddTextPrinterParameterized4(windowId, 1, x, y, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, str);
+    // AddTextPrinterParameterized4(windowId, 1, x, y, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, str);
+    LoadPalette(sMenuPalette, 0, 32);
+    BlitBitmapToWindow(windowId, sMenuTiles, 0, 0, 64, 64);
     PutWindowTilemap(windowId);
     CopyWindowToVram(windowId, 3);
 }
