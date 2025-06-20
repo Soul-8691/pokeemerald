@@ -600,6 +600,7 @@ int main(int argc, char **argv)
         { "8bpp", "png", HandleGbaToPngCommand },
         { "png", "1bpp", HandlePngToGbaCommand },
         { "png", "4bpp", HandlePngToGbaCommand },
+        { "png", "6bpp", HandlePngToGbaCommand },
         { "png", "8bpp", HandlePngToGbaCommand },
         { "png", "gbapal", HandlePngToGbaPaletteCommand },
         { "png", "pal", HandlePngToJascPaletteCommand },

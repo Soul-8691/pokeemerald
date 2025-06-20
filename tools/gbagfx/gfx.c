@@ -177,6 +177,63 @@ static void ConvertToTiles4Bpp(unsigned char *src, unsigned char *dest, int numT
 	}
 }
 
+static void ConvertToTiles6Bpp(unsigned char *pixels, unsigned char *bits) {
+    int pos = 0;
+    int b1, b2, b3, b4, b5, b6;
+    int ofs = 0;
+    int counterDown = 800;
+    int counter = 0;
+    do {
+        for (int i=0; i<8; i++) {
+            /*    BPP6 Linear:
+                *     byte 1: 0000 0011
+                byte 2: 1111 2222
+                byte 3: 2233 3333
+                byte 4: 4444 4455
+                byte 5: 5555 6666
+                byte 6: 6677 7777
+                */
+
+            // do one row
+            b1 = (pixels[pos++] & 63) << 2;
+            b1 |= (pixels[pos] & 48) >> 4;
+            
+            b2 = (pixels[pos++] & 15) << 4;
+            b2 |= (pixels[pos] & 60) >> 2;
+            
+            b3 = (pixels[pos++] & 3) << 6;
+            b3 |= (pixels[pos++] & 63);
+            
+            
+            b4 = (pixels[pos++] & 63) << 2;
+            b4 |= (pixels[pos] & 48) >> 4;
+            
+            b5 = (pixels[pos++] & 15) << 4;
+            b5 |= (pixels[pos] & 60) >> 2;
+            
+            b6 = (pixels[pos++] & 3) << 6;
+            b6 |= (pixels[pos++] & 63);
+            
+            
+            bits[ofs++] = (int)b6; // byte 1: 0000 0011
+            bits[ofs++] = (int)b5; // byte 2: 1111 2222
+            bits[ofs++] = (int)b4; // byte 3: 2233 3333
+            bits[ofs++] = (int)b3; // byte 4: 4444 4455
+            bits[ofs++] = (int)b2; // byte 5: 5555 6666
+            bits[ofs++] = (int)b1; // byte 6: 6677 7777
+            pos += 64;
+            --counterDown;
+            counter++;
+        }
+        if (counter != 80)
+            pos -= 64*9 - 8;
+        else {
+            counter = 0;
+            pos -= 64;
+        }
+    } while (counterDown);
+}
+
 static void ConvertToTiles8Bpp(unsigned char *src, unsigned char *dest, int numTiles, int metatilesWide, int metatileWidth, int metatileHeight, bool invertColors)
 {
 	int subTileX = 0;
@@ -449,6 +506,9 @@ void WriteTileImage(char *path, enum NumTilesMode numTilesMode, int numTiles, in
 		break;
 	case 4:
 		ConvertToTiles4Bpp(image->pixels, buffer, maxNumTiles, metatilesWide, metatileWidth, metatileHeight, invertColors);
+		break;
+	case 6:
+		ConvertToTiles6Bpp(image->pixels, buffer);
 		break;
 	case 8:
 		ConvertToTiles8Bpp(image->pixels, buffer, maxNumTiles, metatilesWide, metatileWidth, metatileHeight, invertColors);

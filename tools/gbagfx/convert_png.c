@@ -84,6 +84,7 @@ void ReadPng(char *path, struct Image *image)
     FILE *fp = PngReadOpen(path, &png_ptr, &info_ptr);
 
     int bit_depth = png_get_bit_depth(png_ptr, info_ptr);
+    if (image->bitDepth == 6) bit_depth = 6;
 
     int color_type = png_get_color_type(png_ptr, info_ptr);
 

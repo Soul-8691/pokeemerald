@@ -183,8 +183,8 @@ static void Menu_VBlankCB(void)
 static const struct CompressedSpriteSheet sSpriteSheet_DarkMagician[] =
 {
     {
-        .data = gCardPicSmall_DarkMagician,
-        .size = 64*64,
+        .data = gCardPicLarge_DarkMagician,
+        .size = 80*80,
         .tag = 60000
     },
     {},
@@ -218,6 +218,28 @@ static const struct OamData sCardLeftOamData =
     .affineParam = 0,
 };
 
+// Sprite data for sVersionBannerLeftSpriteTemplate / sVersionBannerRightSpriteTemplate
+#define sAlphaBlendIdx data[0]
+#define sParentTaskId  data[1]
+#define tSkipToNext data[1]
+#define VERSION_BANNER_Y_GOAL 66
+
+static void SpriteCB_CardLeft(struct Sprite *sprite)
+{
+    if (gTasks[sprite->sParentTaskId].tSkipToNext)
+    {
+        sprite->oam.objMode = ST_OAM_OBJ_NORMAL;
+        sprite->y = VERSION_BANNER_Y_GOAL;
+    }
+    else
+    {
+        if (sprite->y != VERSION_BANNER_Y_GOAL)
+            sprite->y++;
+        if (sprite->sAlphaBlendIdx != 0)
+            sprite->sAlphaBlendIdx--;
+    }
+}
+
 static const struct SpriteTemplate sCardLeftSpriteTemplate =
 {
     .tileTag = TAG_CARD,
@@ -226,7 +248,7 @@ static const struct SpriteTemplate sCardLeftSpriteTemplate =
     .anims = sCardLeftAnimTable,
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
-    .callback = NULL,
+    .callback = SpriteCB_CardLeft,
 };
 
 static bool8 Menu_DoGfxSetup(void)
