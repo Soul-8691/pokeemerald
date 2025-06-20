@@ -253,8 +253,8 @@ static bool8 Menu_DoGfxSetup(void)
         LoadPalette(sMenuPalette, OBJ_PLTT_ID(0), PLTT_SIZE_4BPP*4);
         // Create left side of version banner
         spriteId = CreateSprite(&sCardLeftSpriteTemplate, 32, 32, 0);
-        // gSprites[spriteId].sheetTileStart = 0;
-        // SetSpriteSheetFrameTileNum(&gSprites[spriteId]);
+        gSprites[spriteId].sheetTileStart = 0;
+        SetSpriteSheetFrameTileNum(&gSprites[spriteId]);
         gSprites[spriteId].callback = SpriteCallbackDummy;
         gMain.state++;
         break;
