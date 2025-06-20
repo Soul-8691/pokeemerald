@@ -183,8 +183,8 @@ static void Menu_VBlankCB(void)
 static const struct CompressedSpriteSheet sSpriteSheet_DarkMagician[] =
 {
     {
-        .data = gCardPicLarge_DarkMagician,
-        .size = MON_PIC_SIZE,
+        .data = gCardPicSmall_DarkMagician,
+        .size = 64*64,
         .tag = 60000
     },
     {},
