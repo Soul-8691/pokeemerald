@@ -3,6 +3,8 @@
 
 extern const u32 gCardPicLarge_DarkMagician[];
 extern const u32 gCardPicLarge_DarkMagician_4bpp[];
+extern const u32 gCardPicLarge_DarkMagician_Big[];
+extern const u8 gCardPicLarge_DarkMagician_4bpp_Big[];
 extern const u32 gCardPicSmall_DarkMagician[];
 extern const u32 gCardPicSmall_DarkMagician_4bpp[];
 extern const u32 gCardIconSquare_DarkMagician[];

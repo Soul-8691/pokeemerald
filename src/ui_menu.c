@@ -107,9 +107,9 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
     DUMMY_WIN_TEMPLATE,
 };
 
-static const u32 sMenuTiles[] = INCBIN_U32("graphics/cards/dark_magician/pic_large_tiles.8bpp.lz");
+static const u32 sMenuTiles[] = INCBIN_U32("graphics/cards/dark_magician/dark_magician.4bpp.lz");
 static const u32 sMenuTilemap[] = INCBIN_U32("graphics/cards/dark_magician/pic_large_tiles.bin");
-static const u16 sMenuPalette[] = INCBIN_U16("graphics/cards/dark_magician/pic_large.gbapal");
+static const u16 sMenuPalette[] = INCBIN_U16("graphics/cards/dark_magician/pic_large_4bpp.gbapal");
 
 enum Colors
 {
@@ -183,7 +183,7 @@ static void Menu_VBlankCB(void)
 static const struct CompressedSpriteSheet sSpriteSheet_DarkMagician[] =
 {
     {
-        .data = gCardPicLarge_DarkMagician,
+        .data = gCardPicLarge_DarkMagician_Big,
         .size = 80*80,
         .tag = 60000
     },
@@ -272,11 +272,10 @@ static bool8 Menu_DoGfxSetup(void)
         ResetSpriteData();
         ResetTasks();
         LoadCompressedSpriteSheet(&sSpriteSheet_DarkMagician[0]);
-        LoadPalette(sMenuPalette, OBJ_PLTT_ID(0), PLTT_SIZE_4BPP*4);
-        // Create left side of version banner
-        spriteId = CreateSprite(&sCardLeftSpriteTemplate, 32, 32, 0);
-        gSprites[spriteId].sheetTileStart = 0;
-        SetSpriteSheetFrameTileNum(&gSprites[spriteId]);
+        // LoadPalette(sMenuPalette, OBJ_PLTT_ID(0), PLTT_SIZE_4BPP*4);
+        // spriteId = CreateSprite(&sCardLeftSpriteTemplate, 32, 32, 0);
+        // gSprites[spriteId].sheetTileStart = 0;
+        // SetSpriteSheetFrameTileNum(&gSprites[spriteId]);
         gSprites[spriteId].callback = SpriteCallbackDummy;
         gMain.state++;
         break;
@@ -424,8 +423,8 @@ static void PrintToWindow(u8 windowId, u8 colorIdx)
     
     FillWindowPixelBuffer(windowId, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
     // AddTextPrinterParameterized4(windowId, 1, x, y, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, str);
-    // BlitBitmapToWindow(windowId, gCardPicSmall_DarkMagician, 0, 0, 64, 64);
-    // LoadPalette(sMenuPalette, 0, 32);
+    BlitBitmapToWindow(windowId, gCardPicLarge_DarkMagician_4bpp_Big, 0, 0, 64, 64);
+    LoadPalette(sMenuPalette, 0, 32);
     PutWindowTilemap(windowId);
     CopyWindowToVram(windowId, 3);
 }
