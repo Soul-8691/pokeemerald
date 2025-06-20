@@ -36,7 +36,7 @@
 #include "constants/rgb.h"
 #include "ygo_graphics.h"
 
-#define TAG_CARD 1000
+#define TAG_CARD 60000
 
 /*
  * 
@@ -187,7 +187,7 @@ static const struct CompressedSpriteSheet sSpriteSheet_DarkMagician[] =
     {
         .data = gCardPicLarge_DarkMagician_Big,
         .size = 80*80,
-        .tag = 60000
+        .tag = TAG_CARD
     },
     {},
 };
@@ -254,9 +254,9 @@ static bool8 Menu_DoGfxSetup(void)
         LoadCompressedSpriteSheet(&sSpriteSheet_DarkMagician[0]);
         LoadPalette(sCardPalLarge_DarkMagician, OBJ_PLTT_ID(0), PLTT_SIZE_4BPP*4);
         // LoadPalette(sCardPalLarge_DarkMagician_4bpp, OBJ_PLTT_ID(0), PLTT_SIZE_4BPP);
-        spriteId = CreateSprite(&sCardLeftSpriteTemplate, 32, 32, 0);
-        gSprites[spriteId].sheetTileStart = 0;
-        SetSpriteSheetFrameTileNum(&gSprites[spriteId]);
+        spriteId = CreateBigSprite(&sCardLeftSpriteTemplate, 0, 0, 0);
+        // gSprites[spriteId].sheetTileStart = 0;
+        // SetSpriteSheetFrameTileNum(&gSprites[spriteId]);
         gSprites[spriteId].callback = SpriteCallbackDummy;
         gMain.state++;
         break;
