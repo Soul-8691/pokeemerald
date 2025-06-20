@@ -54,7 +54,7 @@ static void AddSpritesToOamBuffer(void);
 static u8 CreateSpriteAt(u8 index, const struct SpriteTemplate *template, s16 x, s16 y, u8 subpriority);
 static void ResetOamMatrices(void);
 static void ResetSprite(struct Sprite *sprite);
-static s16 AllocSpriteTiles(u16 tileCount);
+s16 AllocSpriteTiles(u16 tileCount);
 static void RequestSpriteFrameImageCopy(u16 index, u16 tileNum, const struct SpriteFrameImage *images);
 static void ResetAllSprites(void);
 static void BeginAnim(struct Sprite *sprite);
@@ -1756,4 +1756,168 @@ bool8 AddSubspritesToOamBuffer(struct Sprite *sprite, struct OamData *destOam, u
     }
 
     return 0;
+}
+
+static const s8 sOffsetVecTableChildren[5][2] =
+{
+    {   // upper left
+        -8,  -8
+    },
+    {   // bottom left
+        -8,  24
+    },
+    {   // upper right
+        32,  -24
+    },
+    {   // middle right
+        32,  0
+    },
+    {   // bottom right
+        32,  24
+    },
+};
+
+u8 CreateBigSpriteAt(u8 index, const struct SpriteTemplate *template, s16 x, s16 y, u8 subpriority)
+{
+    u8 ic;
+    struct Sprite *spriteA = &gSprites[index];
+    struct Sprite *spriteB = &gSprites[index + 1];
+    struct Sprite *spriteC = &gSprites[index + 2];
+    struct Sprite *spriteD = &gSprites[index + 3];
+    struct Sprite *spriteE = &gSprites[index + 4];
+
+    ResetSprite(spriteA);
+    ResetSprite(spriteB);
+    ResetSprite(spriteC);
+    ResetSprite(spriteD);
+    ResetSprite(spriteE);
+    
+    spriteA->inUse = TRUE;
+    spriteA->animBeginning = TRUE;
+    spriteA->affineAnimBeginning = TRUE;
+    spriteA->usingSheet = TRUE;
+
+    spriteA->subpriority = subpriority;
+    spriteA->oam = *template->oam;
+    spriteA->anims = template->anims;
+    spriteA->affineAnims = template->affineAnims;
+    spriteA->template = template;
+    spriteA->callback = template->callback;
+    spriteB->subpriority = subpriority;
+    spriteB->oam = *template->oam;
+    spriteB->anims = template->anims;
+    spriteB->affineAnims = template->affineAnims;
+    spriteB->template = template;
+    spriteB->callback = SpriteCallbackDummy;
+    spriteC->subpriority = subpriority;
+    spriteC->oam = *template->oam;
+    spriteC->anims = template->anims;
+    spriteC->affineAnims = template->affineAnims;
+    spriteC->template = template;
+    spriteC->callback = SpriteCallbackDummy;
+    spriteD->subpriority = subpriority;
+    spriteD->oam = *template->oam;
+    spriteD->anims = template->anims;
+    spriteD->affineAnims = template->affineAnims;
+    spriteD->template = template;
+    spriteD->callback = SpriteCallbackDummy;
+    spriteE->subpriority = subpriority;
+    spriteE->oam = *template->oam;
+    spriteE->anims = template->anims;
+    spriteE->affineAnims = template->affineAnims;
+    spriteE->template = template;
+    spriteE->callback = SpriteCallbackDummy;
+
+    spriteA->x = x;
+    spriteA->y = y;
+    for(ic = 0; ic < 4; ic++){
+        gSprites[index + ic + 1].x = x + sOffsetVecTableChildren[ic + 1][0];
+        gSprites[index + ic + 1].y = y + sOffsetVecTableChildren[ic + 1][1];
+    }
+
+    spriteA->oam.shape = 0; //square
+    spriteA->oam.size = 3; //64x64
+    spriteB->oam.shape = 1; //Horizantal
+    spriteB->oam.size = 3; //64x32
+    spriteC->oam.shape = 2; //vertical
+    spriteC->oam.size = 2; //16x32
+    spriteD->oam.shape = 0; //vertical
+    spriteD->oam.size = 1; //16x16
+    spriteE->oam.shape = 2; //vertical
+    spriteE->oam.size = 2; //16x32
+
+    CalcCenterToCornerVec(spriteA, spriteA->oam.shape, spriteA->oam.size, spriteA->oam.affineMode);
+    CalcCenterToCornerVec(spriteB, spriteB->oam.shape, spriteB->oam.size, spriteB->oam.affineMode);
+    CalcCenterToCornerVec(spriteC, spriteC->oam.shape, spriteC->oam.size, spriteC->oam.affineMode);
+    CalcCenterToCornerVec(spriteD, spriteD->oam.shape, spriteD->oam.size, spriteD->oam.affineMode);
+    CalcCenterToCornerVec(spriteE, spriteE->oam.shape, spriteE->oam.size, spriteE->oam.affineMode);
+
+    if (template->tileTag == 0xFFFF)
+    {
+        s16 tileNum;
+        spriteA->images = template->images;
+        tileNum = AllocSpriteTiles((u8)(CARD_PIC_SIZE / TILE_SIZE_4BPP)); //allocate for a 80x80 sprite
+        if (tileNum == -1)
+        {
+            ResetSprite(spriteA);
+            ResetSprite(spriteB);
+            ResetSprite(spriteC);
+            ResetSprite(spriteD);
+            ResetSprite(spriteE);
+            return MAX_SPRITES;
+        }
+        spriteA->oam.tileNum = tileNum;
+        spriteA->usingSheet = FALSE;
+        spriteA->sheetTileStart = 0;
+    }
+    else
+    {
+        spriteA->sheetTileStart = GetSpriteTileStartByTag(template->tileTag);
+        SetSpriteSheetFrameTileNum(spriteA);
+    }
+        spriteB->usingSheet = spriteA->usingSheet;
+        spriteB->sheetTileStart = spriteA->sheetTileStart + 0x30;
+        spriteB->oam.tileNum = spriteA->oam.tileNum + 0x30;
+        spriteB->images = spriteA->images + 0x600;
+        spriteC->usingSheet = spriteA->usingSheet;
+        spriteC->sheetTileStart = spriteA->sheetTileStart + 0x50;
+        spriteC->oam.tileNum = spriteA->oam.tileNum + 0x50;
+        spriteC->images = spriteA->images + 0xA00;
+        spriteD->usingSheet = spriteA->usingSheet;
+        spriteD->sheetTileStart = spriteA->sheetTileStart + 0x58;
+        spriteD->oam.tileNum = spriteA->oam.tileNum + 0x58;
+        spriteD->images = spriteA->images + 0xB00;
+        spriteE->usingSheet = spriteA->usingSheet;
+        spriteE->sheetTileStart = spriteA->sheetTileStart + 0x5C;
+        spriteE->oam.tileNum = spriteA->oam.tileNum + 0x5C;
+        spriteE->images = spriteA->images + 0xB80;
+
+    if (spriteA->oam.affineMode & ST_OAM_AFFINE_ON_MASK)
+        InitSpriteAffineAnim(spriteA);
+
+
+    if (template->paletteTag != 0xFFFF){
+        spriteA->oam.paletteNum = IndexOfSpritePaletteTag(template->paletteTag);
+    }
+    spriteB->inUse = TRUE;
+    spriteC->inUse = TRUE;
+    spriteD->inUse = TRUE;
+    spriteE->inUse = TRUE;
+    return index;
+}
+
+u8 CreateBigSprite(const struct SpriteTemplate *template, s16 x, s16 y, u8 subpriority)
+{
+    u8 i;
+    u8 ret = 0;
+    for (i = 0; i < MAX_SPRITES; i++){
+        if (!gSprites[i].inUse){
+            if(++ret == 5){
+                return CreateBigSpriteAt(i - 4, template, x, y, subpriority);
+            }
+        }else{
+            ret = 0;
+        }
+    }
+    return MAX_SPRITES;
 }

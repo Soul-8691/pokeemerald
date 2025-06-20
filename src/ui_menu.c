@@ -36,6 +36,8 @@
 #include "constants/rgb.h"
 #include "ygo_graphics.h"
 
+#define TAG_CARD 1000
+
 /*
  * 
  */
@@ -105,9 +107,9 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
     DUMMY_WIN_TEMPLATE,
 };
 
-static const u8 sMenuTiles[] = INCBIN_U8("graphics/cards/dark_magician/pic_small.4bpp");
-static const u32 sMenuTilemap[] = INCBIN_U32("graphics/cards/dark_magician/pic_large_tiles.bin.lz");
-static const u16 sMenuPalette[] = INCBIN_U16("graphics/cards/dark_magician/pic_small.gbapal");
+static const u32 sMenuTiles[] = INCBIN_U32("graphics/cards/dark_magician/pic_large_tiles.8bpp.lz");
+static const u32 sMenuTilemap[] = INCBIN_U32("graphics/cards/dark_magician/pic_large_tiles.bin");
+static const u16 sMenuPalette[] = INCBIN_U16("graphics/cards/dark_magician/pic_large.gbapal");
 
 enum Colors
 {
@@ -178,9 +180,60 @@ static void Menu_VBlankCB(void)
     TransferPlttBuffer();
 }
 
+static const struct CompressedSpriteSheet sSpriteSheet_DarkMagician[] =
+{
+    {
+        .data = gCardPicLarge_DarkMagician,
+        .size = MON_PIC_SIZE,
+        .tag = 60000
+    },
+    {},
+};
+
+static const union AnimCmd sCardLeftAnimSequence[] =
+{
+    ANIMCMD_FRAME(0, 30),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd *const sCardLeftAnimTable[] =
+{
+    sCardLeftAnimSequence,
+};
+
+static const struct OamData sCardLeftOamData =
+{
+    .y = DISPLAY_HEIGHT,
+    .affineMode = ST_OAM_AFFINE_OFF,
+    .objMode = ST_OAM_OBJ_NORMAL,
+    .mosaic = FALSE,
+    .bpp = ST_OAM_8BPP,
+    .shape = SPRITE_SHAPE(64x64),
+    .x = 0,
+    .matrixNum = 0,
+    .size = SPRITE_SIZE(64x64),
+    .tileNum = 0,
+    .priority = 0,
+    .paletteNum = 0,
+    .affineParam = 0,
+};
+
+static const struct SpriteTemplate sCardLeftSpriteTemplate =
+{
+    .tileTag = TAG_CARD,
+    .paletteTag = TAG_CARD,
+    .oam = &sCardLeftOamData,
+    .anims = sCardLeftAnimTable,
+    .images = NULL,
+    .affineAnims = gDummySpriteAffineAnimTable,
+    .callback = NULL,
+};
+
 static bool8 Menu_DoGfxSetup(void)
 {
     u8 taskId;
+    u8 spriteId;
+    s16 tileNum = AllocSpriteTiles((u8)(CARD_PIC_SIZE / TILE_SIZE_8BPP)); //allocate for a 80x80 sprite
     switch (gMain.state)
     {
     case 0:
@@ -196,6 +249,13 @@ static bool8 Menu_DoGfxSetup(void)
         ResetPaletteFade();
         ResetSpriteData();
         ResetTasks();
+        LoadCompressedSpriteSheet(&sSpriteSheet_DarkMagician[0]);
+        LoadPalette(sMenuPalette, OBJ_PLTT_ID(0), PLTT_SIZE_4BPP*4);
+        // Create left side of version banner
+        spriteId = CreateSprite(&sCardLeftSpriteTemplate, 32, 32, 0);
+        // gSprites[spriteId].sheetTileStart = 0;
+        // SetSpriteSheetFrameTileNum(&gSprites[spriteId]);
+        gSprites[spriteId].callback = SpriteCallbackDummy;
         gMain.state++;
         break;
     case 2:
@@ -302,10 +362,12 @@ static bool8 Menu_LoadGraphics(void)
     case 1:
         if (FreeTempTileDataBuffersIfPossible() != TRUE)
         {
+            // LZDecompressWram(sMenuTilemap, sBg1TilemapBuffer);
             sMenuDataPtr->gfxLoadState++;
         }
         break;
     case 2:
+        // LoadPalette(sMenuPalette, 0, 32);
         sMenuDataPtr->gfxLoadState++;
         break;
     default:
@@ -340,8 +402,8 @@ static void PrintToWindow(u8 windowId, u8 colorIdx)
     
     FillWindowPixelBuffer(windowId, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
     // AddTextPrinterParameterized4(windowId, 1, x, y, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, str);
-    LoadPalette(sMenuPalette, 0, 32);
-    BlitBitmapToWindow(windowId, sMenuTiles, 0, 0, 64, 64);
+    // BlitBitmapToWindow(windowId, gCardPicSmall_DarkMagician, 0, 0, 64, 64);
+    // LoadPalette(sMenuPalette, 0, 32);
     PutWindowTilemap(windowId);
     CopyWindowToVram(windowId, 3);
 }

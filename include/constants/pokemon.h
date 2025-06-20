@@ -262,6 +262,7 @@
 #define MON_PIC_WIDTH 64
 #define MON_PIC_HEIGHT 64
 #define MON_PIC_SIZE (MON_PIC_WIDTH * MON_PIC_HEIGHT / 2)
+#define CARD_PIC_SIZE (80 * 80 / 2)
 
 // Most Pokémon have 2 frames (a default and an alternate for their animation).
 // There are 4 exceptions:

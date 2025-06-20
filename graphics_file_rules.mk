@@ -306,6 +306,12 @@ $(TITLESCREENGFXDIR)/pokemon_logo.gbapal: %.gbapal: %.pal
 $(TITLESCREENGFXDIR)/emerald_version.8bpp: %.8bpp: %.png
 	$(GFX) $< $@ -mwidth 8 -mheight 4
 
+graphics/cards/dark_magician/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
+graphics/cards/dark_magician/pic_large.8bpp: %.8bpp: %.png
+	$(GFX) $< $@ -mwidth 8 -mheight 8
+
 graphics/pokemon_jump/bg.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 63 -Wnum_tiles
 
