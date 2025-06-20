@@ -109,7 +109,9 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
 
 static const u32 sMenuTiles[] = INCBIN_U32("graphics/ui_menu/tiles.4bpp.lz");
 static const u32 sMenuTilemap[] = INCBIN_U32("graphics/ui_menu/tilemap.bin.lz");
-static const u16 sMenuPalette[] = INCBIN_U16("graphics/cards/dark_magician/pic_large.gbapal");
+static const u16 sMenuPalette[] = INCBIN_U16("graphics/ui_menu/palette.gbapal");
+static const u16 sCardPalLarge_DarkMagician[] = INCBIN_U16("graphics/cards/dark_magician/pic_large.gbapal");
+static const u16 sCardPalLarge_DarkMagician_4bpp[] = INCBIN_U16("graphics/cards/dark_magician/pic_large_4bpp.gbapal");
 
 enum Colors
 {
@@ -250,7 +252,8 @@ static bool8 Menu_DoGfxSetup(void)
         ResetSpriteData();
         ResetTasks();
         LoadCompressedSpriteSheet(&sSpriteSheet_DarkMagician[0]);
-        LoadPalette(sMenuPalette, OBJ_PLTT_ID(0), PLTT_SIZE_4BPP*4);
+        LoadPalette(sCardPalLarge_DarkMagician, OBJ_PLTT_ID(0), PLTT_SIZE_4BPP*4);
+        // LoadPalette(sCardPalLarge_DarkMagician_4bpp, OBJ_PLTT_ID(0), PLTT_SIZE_4BPP);
         spriteId = CreateSprite(&sCardLeftSpriteTemplate, 32, 32, 0);
         gSprites[spriteId].sheetTileStart = 0;
         SetSpriteSheetFrameTileNum(&gSprites[spriteId]);
@@ -401,8 +404,8 @@ static void PrintToWindow(u8 windowId, u8 colorIdx)
     
     FillWindowPixelBuffer(windowId, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
     // AddTextPrinterParameterized4(windowId, 1, x, y, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, str);
-    // BlitBitmapToWindow(windowId, gCardPicLarge_DarkMagician_4bpp_Big, 0, 0, 64, 64);
-    // LoadPalette(sMenuPalette, 0, 32);
+    // BlitBitmapToWindow(windowId, gCardPicLarge_DarkMagician_Big_4bpp, 0, 0, 64, 64);
+    // LoadPalette(sCardPalLarge_DarkMagician_4bpp, 0, 32);
     PutWindowTilemap(windowId);
     CopyWindowToVram(windowId, 3);
 }

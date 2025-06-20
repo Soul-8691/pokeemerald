@@ -40,3 +40,7 @@ prefabs.json
 *.js
 /pokeemerald-*.png
 /pokeemerald_modern-*.png
+/tools/gbagfx/*.png
+/tools/gbagfx/*.pal
+/tools/gbagfx/*.4bpp
+/tools/gbagfx/*.8bpp
