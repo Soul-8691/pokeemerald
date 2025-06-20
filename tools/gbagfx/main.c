@@ -586,92 +586,72 @@ void HandleHuffDecompressCommand(char *inputPath, char *outputPath, int argc UNU
     free(uncompressedData);
 }
 
+#define TILE_SIZE 64
+#define TILES_PER_ROW 10
+
+int tile_index(int x, int y) {
+    return y * TILES_PER_ROW + x;
+}
+
+void copy_tile(unsigned char *dst, unsigned char *src, int index) {
+    memcpy(dst, src + index * TILE_SIZE, TILE_SIZE);
+}
+
 void HandleBigSpriteCommand(char *inputPath, char *outputPath, int argc UNUSED, char **argv UNUSED)
 {
     int size;
     unsigned char *fileContents = ReadWholeFile(inputPath, &size);
+    unsigned char *outputContents = malloc(80 * 80); // 6400 bytes
 
-    // if (size != 3200)
-    //     FATAL_ERROR("Input (\"%s\") for BigSprite conversion not 80px\n", inputPath);
+    int index = 0;
 
-    unsigned char *outputContents = malloc(80 * 80 / 2);
+    // 64x64 sprite (tiles 0-7 in rows 0-7)
+    for (int y = 0; y < 8; y++) {
+        for (int x = 0; x < 8; x++) {
+            copy_tile(outputContents + index, fileContents, tile_index(x, y));
+            index += TILE_SIZE;
+        }
+    }
 
-    unsigned int indexI = 0;
-    unsigned int index0 = 0;
-    unsigned int index1 = 64 * 64 / 2;
-    unsigned int index2 = index1 + 16 * 32 / 2;
-    unsigned int index3 = index2 + 16 * 32 / 2;
-    unsigned int index4 = index3 + 16 * 32 / 2;
-    unsigned int index5 = index4 + 16 * 32 / 2;
+    // 32x16 A (row 8, columns 0–3)
+    for (int y = 8; y < 10; y++) {
+        for (int x = 0; x < 4; x++) {
+            copy_tile(outputContents + index, fileContents, tile_index(x, y));
+            index += TILE_SIZE;
+        }
+    }
 
-    //  To 64x64 0
-    for (int i = 0; i < 64*4; i++)
-        outputContents[index0++] = fileContents[indexI++];
-    //  To 16x32 1
-    for (int i = 0; i < 64; i++)
-        outputContents[index1++] = fileContents[indexI++];
-    //  To 64x64 0
-    for (int i = 0; i < 64*4; i++)
-        outputContents[index0++] = fileContents[indexI++];
-    //  To 16x32 1
-    for (int i = 0; i < 64; i++)
-        outputContents[index1++] = fileContents[indexI++];
-    //  To 64x64 0
-    for (int i = 0; i < 64*4; i++)
-        outputContents[index0++] = fileContents[indexI++];
-    //  To 16x32 1
-    for (int i = 0; i < 64; i++)
-        outputContents[index1++] = fileContents[indexI++];
-    //  To 64x64 0
-    for (int i = 0; i < 64*4; i++)
-        outputContents[index0++] = fileContents[indexI++];
-    //  To 16x32 1
-    for (int i = 0; i < 64; i++)
-        outputContents[index1++] = fileContents[indexI++];
+    // 32x16 B (row 8, columns 4–7)
+    for (int y = 8; y < 10; y++) {
+        for (int x = 4; x < 8; x++) {
+            copy_tile(outputContents + index, fileContents, tile_index(x, y));
+            index += TILE_SIZE;
+        }
+    }
 
-    //  To 64x64 0
-    for (int i = 0; i < 64*4; i++)
-        outputContents[index0++] = fileContents[indexI++];
-    //  To 16x32 2
-    for (int i = 0; i < 64; i++)
-        outputContents[index2++] = fileContents[indexI++];
-    //  To 64x64 0
-    for (int i = 0; i < 64*4; i++)
-        outputContents[index0++] = fileContents[indexI++];
-    //  To 16x32 2
-    for (int i = 0; i < 64; i++)
-        outputContents[index2++] = fileContents[indexI++];
-    //  To 64x64 0
-    for (int i = 0; i < 64*4; i++)
-        outputContents[index0++] = fileContents[indexI++];
-    //  To 16x32 2
-    for (int i = 0; i < 64; i++)
-        outputContents[index2++] = fileContents[indexI++];
-    //  To 64x64 0
-    for (int i = 0; i < 64*4; i++)
-        outputContents[index0++] = fileContents[indexI++];
-    //  To 16x32 2
-    for (int i = 0; i < 64; i++)
-        outputContents[index2++] = fileContents[indexI++];
+    // 16x32 A (tile column 8, rows 0–3)
+    for (int y = 0; y < 4; y++) {
+        for (int x = 8; x < 10; x++) {
+            copy_tile(outputContents + index, fileContents, tile_index(x, y));
+            index += TILE_SIZE;
+        }
+    }
 
-    //  To 32x16 3
-    for (int i = 0; i < 64*2; i++)
-        outputContents[index3++] = fileContents[indexI++];
-    //  To 32x16 4
-    for (int i = 0; i < 64*2; i++)
-        outputContents[index4++] = fileContents[indexI++];
-    //  To 16x16 5
-    for (int i = 0; i < 64; i++)
-        outputContents[index5++] = fileContents[indexI++];
-    //  To 32x16 3
-    for (int i = 0; i < 64*2; i++)
-        outputContents[index3++] = fileContents[indexI++];
-    //  To 32x16 4
-    for (int i = 0; i < 64*2; i++)
-        outputContents[index4++] = fileContents[indexI++];
-    //  To 16x16 5
-    for (int i = 0; i < 64; i++)
-        outputContents[index5++] = fileContents[indexI++];
+    // 16x32 B (tile column 8, rows 4–7)
+    for (int y = 4; y < 8; y++) {
+        for (int x = 8; x < 10; x++) {
+            copy_tile(outputContents + index, fileContents, tile_index(x, y));
+            index += TILE_SIZE;
+        }
+    }
+
+    // 16x16 (bottom-right)
+    for (int y = 8; y < 10; y++) {
+        for (int x = 8; x < 10; x++) {
+            copy_tile(outputContents + index, fileContents, tile_index(x, y));
+            index += TILE_SIZE;
+        }
+    }
 
     WriteWholeFile(outputPath, outputContents, size);
 
@@ -690,9 +670,9 @@ int main(int argc, char **argv)
     {
         { "1bpp", "png", HandleGbaToPngCommand },
         { "4bpp", "png", HandleGbaToPngCommand },
-        { "4bpp", "big", HandleBigSpriteCommand },
+        { "4bpp", "4bpp", HandleBigSpriteCommand },
         { "8bpp", "png", HandleGbaToPngCommand },
-        { "8bpp", "big", HandleBigSpriteCommand },
+        { "8bpp", "8bpp", HandleBigSpriteCommand },
         { "png", "1bpp", HandlePngToGbaCommand },
         { "png", "4bpp", HandlePngToGbaCommand },
         { "png", "6bpp", HandlePngToGbaCommand },

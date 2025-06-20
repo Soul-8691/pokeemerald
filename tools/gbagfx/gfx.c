@@ -465,6 +465,56 @@ void ReadTileImage(char *path, int tilesWidth, int metatileWidth, int metatileHe
 	free(buffer);
 }
 
+static void ConvertToTiles4BppBig(unsigned char *src, unsigned char *dest, int images)
+{
+	int subTileX = 0;
+	int subTileY = 0;
+	int metatileX = 0;
+	int metatileY = 0;
+	int pitch = 10 * 4;
+
+	for (int im = 0; im < images; im++) {
+		metatileX = 0;
+		metatileY = im * 10;
+		for (int i = 0; i < 80; i++) { //64x80 part
+			for (int j = 0; j < 8; j++) {
+				int srcY = metatileY * 8 + j;
+
+				for (int k = 0; k < 4; k++) {
+					int srcX = metatileX * 4 + k;
+					unsigned char srcPixelPair = src[srcY * pitch + srcX];
+					unsigned char leftPixel = srcPixelPair >> 4;
+					unsigned char rightPixel = srcPixelPair & 0xF;
+
+					*dest++ = (rightPixel << 4) | leftPixel;
+				}
+			}
+
+			AdvanceMetatilePosition(&subTileX, &subTileY, &metatileX, &metatileY, 8, 1, 1);
+		}
+
+		metatileX = 0;
+		metatileY = im * 10;
+		for (int i = 0; i < 20; i++) { //16x80 part
+			for (int j = 0; j < 8; j++) {
+				int srcY = metatileY * 8 + j;
+
+				for (int k = 0; k < 4; k++) {
+					int srcX = (metatileX + 8) * 4 + k;
+					unsigned char srcPixelPair = src[srcY * pitch + srcX];
+					if(metatileX >= 2) srcPixelPair = 0;
+					unsigned char leftPixel = srcPixelPair >> 4;
+					unsigned char rightPixel = srcPixelPair & 0xF;
+
+					*dest++ = (rightPixel << 4) | leftPixel;
+				}
+			}
+
+			AdvanceMetatilePosition(&subTileX, &subTileY, &metatileX, &metatileY, 2, 1, 1);
+		}
+	}
+}
+
 void WriteTileImage(char *path, enum NumTilesMode numTilesMode, int numTiles, int metatileWidth, int metatileHeight, struct Image *image, bool invertColors)
 {
 	int tileSize = image->bitDepth * 8;
@@ -505,6 +555,11 @@ void WriteTileImage(char *path, enum NumTilesMode numTilesMode, int numTiles, in
 		ConvertToTiles1Bpp(image->pixels, buffer, maxNumTiles, metatilesWide, metatileWidth, metatileHeight, invertColors);
 		break;
 	case 4:
+		if (image->width == 80 && ((image->height % 80) == 0))
+		{
+			ConvertToTiles4BppBig(image->pixels, buffer, image->height / 80);
+		}
+		else
 		ConvertToTiles4Bpp(image->pixels, buffer, maxNumTiles, metatilesWide, metatileWidth, metatileHeight, invertColors);
 		break;
 	case 6:
