@@ -140,6 +140,9 @@ for data in card_info_data['data']:
                 im = Image.open(image)
                 im.thumbnail(size, Image.Resampling.LANCZOS)
                 master.paste(im, box=(0,1))
+                master.save(outfile, "PNG")
+                subprocess.run(['./magick', outfile, '-colors', "17", '-define', 'png:exclude-chunk=bKGD', outfile])
+                master = Image.open(outfile)
                 master = master.convert(
                     "P", palette=Image.ADAPTIVE, colors=15
                 )
@@ -155,6 +158,9 @@ for data in card_info_data['data']:
                 im = Image.open(image)
                 im.thumbnail(size, Image.Resampling.LANCZOS)
                 master.paste(im, box=(1,0))
+                master.save(outfile, "PNG")
+                subprocess.run(['./magick', outfile, '-colors', "17", '-define', 'png:exclude-chunk=bKGD', outfile])
+                master = Image.open(outfile)
                 master = master.convert(
                     "P", palette=Image.ADAPTIVE, colors=15
                 )
