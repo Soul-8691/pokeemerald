@@ -5,6 +5,7 @@
 #include "malloc.h"
 #include "sprite.h"
 #include "constants/items.h"
+#include "ygo_graphics.h"
 
 // EWRAM vars
 EWRAM_DATA u8 *gItemIconDecompressionBuffer = NULL;
@@ -55,7 +56,7 @@ const struct SpriteTemplate gItemIconSpriteTemplate =
 // code
 bool8 AllocItemIconTemporaryBuffers(void)
 {
-    gItemIconDecompressionBuffer = Alloc(0x120);
+    gItemIconDecompressionBuffer = Alloc(0x180);
     if (gItemIconDecompressionBuffer == NULL)
         return FALSE;
 
@@ -79,7 +80,7 @@ void CopyItemIconPicTo4x4Buffer(const void *src, void *dest)
 {
     u8 i;
 
-    for (i = 0; i < 3; i++)
+    for (i = 0; i < 4; i++)
         CpuCopy16(src + i * 96, dest + i * 128, 0x60);
 }
 
