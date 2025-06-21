@@ -16,5 +16,12 @@ extern const u32 gCardIconLarge_DarkMagician[];
 extern const u32 gCardIconLargePalette_DarkMagician[];
 extern const u32 gCardIconSmall_DarkMagician[];
 extern const u32 gCardIconSmallPalette_DarkMagician[];
+extern const u32 gCardPicLarge_BlueEyesWhiteDragon_Big[];
+extern const u32 gCardIconSquare_BlueEyesWhiteDragon[];
+extern const u32 gCardIconSquarePalette_BlueEyesWhiteDragon[];
+extern const u32 gCardIconLarge_BlueEyesWhiteDragon[];
+extern const u32 gCardIconLargePalette_BlueEyesWhiteDragon[];
+extern const u32 gCardIconSmall_BlueEyesWhiteDragon[];
+extern const u32 gCardIconSmallPalette_BlueEyesWhiteDragon[];
 
 #endif //GUARD_YGO_GRAPHICS_H

@@ -3,6 +3,7 @@
 
 #define CARD_NONE 0
 #define CARD_DARK_MAGICIAN 1
+#define CARD_BLUE_EYES_WHITE_DRAGON 2
 
 #define EFFECT_NONE 0
 
@@ -10,7 +11,9 @@
 
 #define ATTRIBUTE_NONE 0
 #define ATTRIBUTE_DARK 1
+#define ATTRIBUTE_LIGHT 2
 
 #define RACE_SPELLCASTER 0
+#define RACE_DRAGON 0
 
 #endif  // GUARD_CONSTANTS_YGO_H
