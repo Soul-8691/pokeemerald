@@ -99,9 +99,9 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
     [WINDOW_1] = 
     {
         .bg = 0,            // which bg to print text on
-        .tilemapLeft = 10,   // position from left (per 8 pixels)
+        .tilemapLeft = 0,   // position from left (per 8 pixels)
         .tilemapTop = 0,    // position from top (per 8 pixels)
-        .width = 22,        // width (per 8 pixels)
+        .width = 32,        // width (per 8 pixels)
         .height = 20,        // height (per 8 pixels)
         .paletteNum = 15,   // palette index to use for text
         .baseBlock = 1,     // tile start in VRAM
@@ -396,12 +396,11 @@ static void Menu_InitWindows(void)
 
 #include "data/ygo/card_info.h"
 
-static const u8 sText_MyMenu[] = _("My Menu");
 static void PrintToWindow(u8 windowId, u8 colorIdx)
 {
     const u8 *cardName = gCardInfo[CARD_DARK_MAGICIAN].name;
     const u8 *cardDescription = gCardInfo[CARD_DARK_MAGICIAN].description;
-    u8 x = 2;
+    u8 x = 82;
     u8 y = 0;
     
     FillWindowPixelBuffer(windowId, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
