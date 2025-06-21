@@ -34,7 +34,9 @@
 #include "constants/field_weather.h"
 #include "constants/songs.h"
 #include "constants/rgb.h"
+#include "ygo.h"
 #include "ygo_graphics.h"
+#include "constants/ygo.h"
 
 #define TAG_CARD 60000
 
@@ -97,11 +99,11 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
     [WINDOW_1] = 
     {
         .bg = 0,            // which bg to print text on
-        .tilemapLeft = 0,   // position from left (per 8 pixels)
+        .tilemapLeft = 10,   // position from left (per 8 pixels)
         .tilemapTop = 0,    // position from top (per 8 pixels)
-        .width = 8,        // width (per 8 pixels)
-        .height = 8,        // height (per 8 pixels)
-        .paletteNum = 0,   // palette index to use for text
+        .width = 22,        // width (per 8 pixels)
+        .height = 20,        // height (per 8 pixels)
+        .paletteNum = 15,   // palette index to use for text
         .baseBlock = 1,     // tile start in VRAM
     },
     DUMMY_WIN_TEMPLATE,
@@ -253,10 +255,7 @@ static bool8 Menu_DoGfxSetup(void)
         ResetTasks();
         LoadCompressedSpriteSheet(&sSpriteSheet_DarkMagician[0]);
         LoadPalette(sCardPalLarge_DarkMagician, OBJ_PLTT_ID(0), PLTT_SIZE_4BPP*4);
-        // LoadPalette(sCardPalLarge_DarkMagician_4bpp, OBJ_PLTT_ID(0), PLTT_SIZE_4BPP);
         spriteId = CreateBigSprite(&sCardLeftSpriteTemplate, 0, 0, 0);
-        // gSprites[spriteId].sheetTileStart = 0;
-        // SetSpriteSheetFrameTileNum(&gSprites[spriteId]);
         gSprites[spriteId].callback = SpriteCallbackDummy;
         gMain.state++;
         break;
@@ -395,17 +394,22 @@ static void Menu_InitWindows(void)
     ScheduleBgCopyTilemapToVram(2);
 }
 
+#include "data/ygo/card_info.h"
+
 static const u8 sText_MyMenu[] = _("My Menu");
 static void PrintToWindow(u8 windowId, u8 colorIdx)
 {
-    const u8 *str = sText_MyMenu;
-    u8 x = 1;
-    u8 y = 1;
+    const u8 *cardName = gCardInfo[CARD_DARK_MAGICIAN].name;
+    const u8 *cardDescription = gCardInfo[CARD_DARK_MAGICIAN].description;
+    u8 x = 2;
+    u8 y = 0;
     
     FillWindowPixelBuffer(windowId, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-    // AddTextPrinterParameterized4(windowId, 1, x, y, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, str);
-    // BlitBitmapToWindow(windowId, gCardPicLarge_DarkMagician_Big_4bpp, 0, 0, 64, 64);
+    // BlitBitmapToWindow(windowId, gCardPicLarge_DarkMagician_4bpp, 0, 0, 64, 64);
     // LoadPalette(sCardPalLarge_DarkMagician_4bpp, 0, 32);
+    AddTextPrinterParameterized4(windowId, 1, x, y, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, cardName);
+    AddTextPrinterParameterized4(windowId, 1, x, y + 16, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, cardDescription);
+    LoadPalette(sMenuPalette, 0, 32);
     PutWindowTilemap(windowId);
     CopyWindowToVram(windowId, 3);
 }

@@ -1,5 +1,5 @@
 const u8 gCardName_DarkMagician[] = _("Dark Magician");
-const u8 gCardDescription_DarkMagician[] = _("The ultimate wizard in terms of attack and defense.");
+const u8 gCardDescription_DarkMagician[] = _("The ultimate wizard in terms\nof attack and defense.");
 const u8 gCardPassword_DarkMagician[] = _("46986414");
 
 const struct CardInfo gCardInfo[] =
@@ -11,8 +11,8 @@ const struct CardInfo gCardInfo[] =
         .name = gCardName_DarkMagician,
         .description = gCardDescription_DarkMagician,
         .password = gCardPassword_DarkMagician,
-        .picLarge = gCardPicLarge_DarkMagician,
-        .picSmall = gCardPicSmall_DarkMagician,
+        .picLarge = gCardPicLarge_DarkMagician_Big,
+        .picSmall = gCardPicSmall_DarkMagician_4bpp,
         .iconSquare = gCardIconSquare_DarkMagician,
         .iconLarge = gCardIconLarge_DarkMagician,
         .iconSmall = gCardIconSmall_DarkMagician,
