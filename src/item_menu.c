@@ -1040,7 +1040,7 @@ static void PrintItemDescription(int itemIndex)
     }
     FillWindowPixelBuffer(WIN_DESCRIPTION, PIXEL_FILL(0));
     if (itemId != ITEM_DECK_BUILDER)
-        BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, str, 3, 1, 0, 0, 0, COLORID_NORMAL);
+        BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, str, 3, 0, 0, 0, 0, COLORID_NORMAL);
     else
         BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, cardName, 3, 4, 0, 0, 0, COLORID_NORMAL);
 }

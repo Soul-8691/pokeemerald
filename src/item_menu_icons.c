@@ -597,8 +597,8 @@ void AddBagItemIconSprite(u16 itemId, u8 id)
             *spriteId = iconSpriteId;
             if (itemId != ITEM_DECK_BUILDER)
             {
-                gSprites[iconSpriteId].x2 = 24;
-                gSprites[iconSpriteId].y2 = 80;
+                gSprites[iconSpriteId].x2 = 20;
+                gSprites[iconSpriteId].y2 = 44;
             }
             else
             {
