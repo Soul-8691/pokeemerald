@@ -84,11 +84,11 @@ const struct SpriteTemplate gItemIconLargeSpriteTemplate =
 // code
 bool8 AllocItemIconTemporaryBuffers(void)
 {
-    gItemIconDecompressionBuffer = Alloc(0x600);
+    gItemIconDecompressionBuffer = Alloc(0x180); // 0x600
     if (gItemIconDecompressionBuffer == NULL)
         return FALSE;
 
-    gItemIcon4x4Buffer = AllocZeroed(0x800);
+    gItemIcon4x4Buffer = AllocZeroed(0x200); // 0x800
     if (gItemIcon4x4Buffer == NULL)
     {
         Free(gItemIconDecompressionBuffer);
@@ -115,8 +115,10 @@ void CopyItemIconPicTo4x4Buffer(const void *src, void *dest, u16 itemId)
     }
     else
     {
-        for (i = 0; i < 16; i++)
-            CpuCopy16(src + i * 128, dest + i * 256, 0x80);
+        // for (i = 0; i < 16; i++)
+        //     CpuCopy16(src + i * 128, dest + i * 256, 0x80);
+        for (i = 0; i < 4; i++)
+            CpuCopy16(src + i * 96, dest + i * 128, 0x60);
     }
 }
 
@@ -139,7 +141,7 @@ u8 AddItemIconSprite(u16 tilesTag, u16 paletteTag, u16 itemId)
         if (itemId != ITEM_DECK_BUILDER)
             spriteSheet.size = 0x200;
         else
-            spriteSheet.size = 0x800;
+            spriteSheet.size = 0x200; // 0x800
         spriteSheet.tag = tilesTag;
         LoadSpriteSheet(&spriteSheet);
 
@@ -151,7 +153,8 @@ u8 AddItemIconSprite(u16 tilesTag, u16 paletteTag, u16 itemId)
         if (itemId != ITEM_DECK_BUILDER)
             CpuCopy16(&gItemIconSpriteTemplate, spriteTemplate, sizeof(*spriteTemplate));
         else
-            CpuCopy16(&gItemIconLargeSpriteTemplate, spriteTemplate, sizeof(*spriteTemplate));
+            // CpuCopy16(&gItemIconLargeSpriteTemplate, spriteTemplate, sizeof(*spriteTemplate));
+            CpuCopy16(&gItemIconSpriteTemplate, spriteTemplate, sizeof(*spriteTemplate));
         spriteTemplate->tileTag = tilesTag;
         spriteTemplate->paletteTag = paletteTag;
         spriteId = CreateSprite(spriteTemplate, 0, 0, 0);
@@ -182,7 +185,7 @@ u8 AddCustomItemIconSprite(const struct SpriteTemplate *customSpriteTemplate, u1
         if (itemId != ITEM_DECK_BUILDER)
             spriteSheet.size = 0x200;
         else
-            spriteSheet.size = 0x800;
+            spriteSheet.size = 0x200; // 0x800
         spriteSheet.tag = tilesTag;
         LoadSpriteSheet(&spriteSheet);
 

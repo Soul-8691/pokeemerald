@@ -598,8 +598,10 @@ void AddBagItemIconSprite(u16 itemId, u8 id)
             }
             else
             {
-                gSprites[iconSpriteId].x2 = 38;
-                gSprites[iconSpriteId].y2 = 84;
+                // gSprites[iconSpriteId].x2 = 38;
+                // gSprites[iconSpriteId].y2 = 84;
+                gSprites[iconSpriteId].x2 = 24;
+                gSprites[iconSpriteId].y2 = 80;
             }
         }
     }
