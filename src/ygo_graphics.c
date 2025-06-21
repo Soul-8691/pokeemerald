@@ -10,6 +10,7 @@ const u32 gCardPicSmall_DarkMagician[] = INCBIN_U32("graphics/cards/dark_magicia
 const u32 gCardPicSmall_DarkMagician_4bpp[] = INCBIN_U32("graphics/cards/dark_magician/pic_small_4bpp.4bpp.lz");
 const u32 sCardPalSmall_DarkMagician_4bpp[] = INCBIN_U16("graphics/cards/dark_magician/pic_small_4bpp.gbapal.lz");
 const u32 gCardIconSquare_DarkMagician[] = INCBIN_U32("graphics/cards/dark_magician/icon_square.4bpp.lz");
+const u32 gCardIconSquarePalette_DarkMagician[] = INCBIN_U32("graphics/cards/dark_magician/icon_square.gbapal.lz");
 const u32 gCardIconLarge_DarkMagician[] = INCBIN_U32("graphics/cards/dark_magician/icon_large.4bpp.lz");
 const u32 gCardIconLargePalette_DarkMagician[] = INCBIN_U32("graphics/cards/dark_magician/icon_large.gbapal.lz");
 const u32 gCardIconSmall_DarkMagician[] = INCBIN_U32("graphics/cards/dark_magician/icon_small.4bpp.lz");

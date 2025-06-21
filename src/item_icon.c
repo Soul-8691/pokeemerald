@@ -84,7 +84,7 @@ const struct SpriteTemplate gItemIconLargeSpriteTemplate =
 // code
 bool8 AllocItemIconTemporaryBuffers(void)
 {
-    gItemIconDecompressionBuffer = Alloc(0x180); // 0x600
+    gItemIconDecompressionBuffer = Alloc(0x200); // 0x600
     if (gItemIconDecompressionBuffer == NULL)
         return FALSE;
 
@@ -118,7 +118,7 @@ void CopyItemIconPicTo4x4Buffer(const void *src, void *dest, u16 itemId)
         // for (i = 0; i < 16; i++)
         //     CpuCopy16(src + i * 128, dest + i * 256, 0x80);
         for (i = 0; i < 4; i++)
-            CpuCopy16(src + i * 96, dest + i * 128, 0x60);
+            CpuCopy16(src + i * 128, dest + i * 128, 0x80);
     }
 }
 
