@@ -804,24 +804,14 @@ static void BagMenu_InitBGs(void)
     SetGpuReg(REG_OFFSET_BLDCNT, 0);
 }
 
-static const struct CompressedSpriteSheet sCardPicSmall_DarkMagician_4bpp_SpriteSheet =
+static const struct CompressedSpriteSheet sCardPicSmall_DarkMagician_SpriteSheet =
 {
-    gCardPicSmall_DarkMagician_4bpp, 64*64/2, TAG_CARD
+    gCardPicSmall_DarkMagician_4bpp, 64*64, TAG_CARD
 };
 
 const struct CompressedSpritePalette gCardPalSmall_DarkMagician_Table =
 {
-    sCardPalSmall_DarkMagician, TAG_CARD
-};
-
-static const struct CompressedSpriteSheet sSpriteSheet_DarkMagician[] =
-{
-    {
-        .data = gCardPicSmall_DarkMagician_4bpp,
-        .size = 64*64,
-        .tag = TAG_CARD
-    },
-    {},
+    sCardPalSmall_DarkMagician_4bpp, TAG_CARD
 };
 
 static bool8 LoadBagMenu_Graphics(void)
@@ -849,14 +839,13 @@ static bool8 LoadBagMenu_Graphics(void)
         break;
     case 3:
         if (IsWallysBag() == TRUE || gSaveBlock2Ptr->playerGender == MALE)
-            LoadCompressedSpriteSheet(&gBagMaleSpriteSheet);
+            LoadCompressedSpriteSheet(&gBagMaleSpriteSheet); // sCardPicSmall_DarkMagician_SpriteSheet
         else
             LoadCompressedSpriteSheet(&gBagFemaleSpriteSheet);
         gBagMenu->graphicsLoadState++;
         break;
     case 4:
-        LoadCompressedSpritePalette(&gBagPaletteTable);
-        // LoadPalette(sCardPalSmall_DarkMagician, OBJ_PLTT_ID(0), PLTT_SIZE_4BPP);
+        LoadCompressedSpritePalette(&gBagPaletteTable); // gCardPalSmall_DarkMagician_Table
         gBagMenu->graphicsLoadState++;
         break;
     default:
