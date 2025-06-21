@@ -409,9 +409,9 @@ static const struct WindowTemplate sDefaultBagWindows[] =
     [WIN_DESCRIPTION] = {
         .bg = 0,
         .tilemapLeft = 0,
-        .tilemapTop = 13,
+        .tilemapTop = 7,
         .width = 14,
-        .height = 6,
+        .height = 12,
         .paletteNum = 1,
         .baseBlock = 0x117,
     },
@@ -422,7 +422,7 @@ static const struct WindowTemplate sDefaultBagWindows[] =
         .width = 8,
         .height = 2,
         .paletteNum = 1,
-        .baseBlock = 0x1A1,
+        .baseBlock = 0x1DD,
     },
     [WIN_TMHM_INFO_ICONS] = {
         .bg = 0,
@@ -431,7 +431,7 @@ static const struct WindowTemplate sDefaultBagWindows[] =
         .width = 5,
         .height = 6,
         .paletteNum = 12,
-        .baseBlock = 0x16B,
+        .baseBlock = 0x1BF,
     },
     [WIN_TMHM_INFO] = {
         .bg = 0,
@@ -1007,12 +1007,29 @@ static void BagMenu_ItemPrintCallback(u8 windowId, u32 itemIndex, u8 y)
     }
 }
 
+enum Colors_
+{
+    FONT_BLACK,
+    FONT_WHITE,
+    FONT_RED,
+    FONT_BLUE,
+};
+static const u8 sMenuWindowFontColors_[][3] = 
+{
+    [FONT_BLACK]  = {TEXT_COLOR_TRANSPARENT,  TEXT_COLOR_DARK_GRAY,  TEXT_COLOR_LIGHT_GRAY},
+    [FONT_WHITE]  = {TEXT_COLOR_TRANSPARENT,  TEXT_COLOR_WHITE,  TEXT_COLOR_DARK_GRAY},
+    [FONT_RED]   = {TEXT_COLOR_TRANSPARENT,  TEXT_COLOR_RED,        TEXT_COLOR_LIGHT_GRAY},
+    [FONT_BLUE]  = {TEXT_COLOR_TRANSPARENT,  TEXT_COLOR_BLUE,       TEXT_COLOR_LIGHT_GRAY},
+};
+
 static void PrintItemDescription(int itemIndex)
 {
     const u8 *str;
+    u16 itemId = BagGetItemIdByPocketPosition(gBagPosition.pocket + 1, itemIndex);
+    const u8 *cardName = gCardInfo[CARD_DARK_MAGICIAN].name;
     if (itemIndex != LIST_CANCEL)
     {
-        str = GetItemDescription(BagGetItemIdByPocketPosition(gBagPosition.pocket + 1, itemIndex));
+        str = GetItemDescription(itemId);
     }
     else
     {
@@ -1022,7 +1039,10 @@ static void PrintItemDescription(int itemIndex)
         str = gStringVar4;
     }
     FillWindowPixelBuffer(WIN_DESCRIPTION, PIXEL_FILL(0));
-    BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, str, 3, 1, 0, 0, 0, COLORID_NORMAL);
+    if (itemId != ITEM_DECK_BUILDER)
+        BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, str, 3, 1, 0, 0, 0, COLORID_NORMAL);
+    else
+        BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, cardName, 3, 4, 0, 0, 0, COLORID_NORMAL);
 }
 
 static void BagMenu_PrintCursor(u8 listTaskId, u8 colorIndex)

@@ -393,8 +393,6 @@ static void Menu_InitWindows(void)
     ScheduleBgCopyTilemapToVram(2);
 }
 
-#include "data/ygo/card_info.h"
-
 static void PrintToWindow(u8 windowId, u8 colorIdx)
 {
     const u8 *cardName = gCardInfo[CARD_DARK_MAGICIAN].name;

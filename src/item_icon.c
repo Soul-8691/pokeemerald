@@ -5,7 +5,11 @@
 #include "malloc.h"
 #include "sprite.h"
 #include "constants/items.h"
+#include "ygo.h"
 #include "ygo_graphics.h"
+#include "constants/ygo.h"
+#include "constants/characters.h"
+#include "menu.h"
 
 // EWRAM vars
 EWRAM_DATA u8 *gItemIconDecompressionBuffer = NULL;

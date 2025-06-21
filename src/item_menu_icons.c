@@ -10,6 +10,10 @@
 #include "sprite.h"
 #include "window.h"
 #include "constants/items.h"
+#include "ygo.h"
+#include "ygo_graphics.h"
+#include "constants/ygo.h"
+#include "menu.h"
 
 enum {
     TAG_BAG_GFX = 100,
@@ -600,8 +604,8 @@ void AddBagItemIconSprite(u16 itemId, u8 id)
             {
                 // gSprites[iconSpriteId].x2 = 38;
                 // gSprites[iconSpriteId].y2 = 84;
-                gSprites[iconSpriteId].x2 = 24;
-                gSprites[iconSpriteId].y2 = 80;
+                gSprites[iconSpriteId].x2 = 20;
+                gSprites[iconSpriteId].y2 = 44;
             }
         }
     }
