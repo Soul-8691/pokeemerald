@@ -113,8 +113,6 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
 static const u32 sMenuTiles[] = INCBIN_U32("graphics/ui_menu/tiles.4bpp.lz");
 static const u32 sMenuTilemap[] = INCBIN_U32("graphics/ui_menu/tilemap.bin.lz");
 static const u16 sMenuPalette[] = INCBIN_U16("graphics/ui_menu/palette.gbapal");
-static const u16 sCardPalLarge_DarkMagician[] = INCBIN_U16("graphics/cards/dark_magician/pic_large.gbapal");
-static const u16 sCardPalLarge_DarkMagician_4bpp[] = INCBIN_U16("graphics/cards/dark_magician/pic_large_4bpp.gbapal");
 
 enum Colors
 {

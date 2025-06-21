@@ -14,6 +14,23 @@ EWRAM_DATA u8 *gItemIcon4x4Buffer = NULL;
 // const rom data
 #include "data/item_icon_table.h"
 
+static const struct OamData sOamData_ItemIconLarge =
+{
+    .y = 0,
+    .affineMode = ST_OAM_AFFINE_OFF,
+    .objMode = ST_OAM_OBJ_NORMAL,
+    .mosaic = FALSE,
+    .bpp = ST_OAM_4BPP,
+    .shape = SPRITE_SHAPE(64x64),
+    .x = 0,
+    .matrixNum = 0,
+    .size = SPRITE_SIZE(64x64),
+    .tileNum = 0,
+    .priority = 1,
+    .paletteNum = 2,
+    .affineParam = 0
+};
+
 static const struct OamData sOamData_ItemIcon =
 {
     .y = 0,
@@ -53,14 +70,25 @@ const struct SpriteTemplate gItemIconSpriteTemplate =
     .callback = SpriteCallbackDummy,
 };
 
+const struct SpriteTemplate gItemIconLargeSpriteTemplate =
+{
+    .tileTag = 0,
+    .paletteTag = 0,
+    .oam = &sOamData_ItemIconLarge,
+    .anims = sSpriteAnimTable_ItemIcon,
+    .images = NULL,
+    .affineAnims = gDummySpriteAffineAnimTable,
+    .callback = SpriteCallbackDummy,
+};
+
 // code
 bool8 AllocItemIconTemporaryBuffers(void)
 {
-    gItemIconDecompressionBuffer = Alloc(0x180);
+    gItemIconDecompressionBuffer = Alloc(0x600);
     if (gItemIconDecompressionBuffer == NULL)
         return FALSE;
 
-    gItemIcon4x4Buffer = AllocZeroed(0x200);
+    gItemIcon4x4Buffer = AllocZeroed(0x800);
     if (gItemIcon4x4Buffer == NULL)
     {
         Free(gItemIconDecompressionBuffer);
@@ -76,12 +104,20 @@ void FreeItemIconTemporaryBuffers(void)
     Free(gItemIcon4x4Buffer);
 }
 
-void CopyItemIconPicTo4x4Buffer(const void *src, void *dest)
+void CopyItemIconPicTo4x4Buffer(const void *src, void *dest, u16 itemId)
 {
     u8 i;
 
-    for (i = 0; i < 4; i++)
-        CpuCopy16(src + i * 96, dest + i * 128, 0x60);
+    if (itemId != ITEM_DECK_BUILDER)
+    {
+        for (i = 0; i < 3; i++)
+            CpuCopy16(src + i * 96, dest + i * 128, 0x60);
+    }
+    else
+    {
+        for (i = 0; i < 16; i++)
+            CpuCopy16(src + i * 128, dest + i * 256, 0x80);
+    }
 }
 
 u8 AddItemIconSprite(u16 tilesTag, u16 paletteTag, u16 itemId)
@@ -98,9 +134,12 @@ u8 AddItemIconSprite(u16 tilesTag, u16 paletteTag, u16 itemId)
         struct SpriteTemplate *spriteTemplate;
 
         LZDecompressWram(GetItemIconPicOrPalette(itemId, 0), gItemIconDecompressionBuffer);
-        CopyItemIconPicTo4x4Buffer(gItemIconDecompressionBuffer, gItemIcon4x4Buffer);
+        CopyItemIconPicTo4x4Buffer(gItemIconDecompressionBuffer, gItemIcon4x4Buffer, itemId);
         spriteSheet.data = gItemIcon4x4Buffer;
-        spriteSheet.size = 0x200;
+        if (itemId != ITEM_DECK_BUILDER)
+            spriteSheet.size = 0x200;
+        else
+            spriteSheet.size = 0x800;
         spriteSheet.tag = tilesTag;
         LoadSpriteSheet(&spriteSheet);
 
@@ -109,7 +148,10 @@ u8 AddItemIconSprite(u16 tilesTag, u16 paletteTag, u16 itemId)
         LoadCompressedSpritePalette(&spritePalette);
 
         spriteTemplate = Alloc(sizeof(*spriteTemplate));
-        CpuCopy16(&gItemIconSpriteTemplate, spriteTemplate, sizeof(*spriteTemplate));
+        if (itemId != ITEM_DECK_BUILDER)
+            CpuCopy16(&gItemIconSpriteTemplate, spriteTemplate, sizeof(*spriteTemplate));
+        else
+            CpuCopy16(&gItemIconLargeSpriteTemplate, spriteTemplate, sizeof(*spriteTemplate));
         spriteTemplate->tileTag = tilesTag;
         spriteTemplate->paletteTag = paletteTag;
         spriteId = CreateSprite(spriteTemplate, 0, 0, 0);
@@ -135,9 +177,12 @@ u8 AddCustomItemIconSprite(const struct SpriteTemplate *customSpriteTemplate, u1
         struct SpriteTemplate *spriteTemplate;
 
         LZDecompressWram(GetItemIconPicOrPalette(itemId, 0), gItemIconDecompressionBuffer);
-        CopyItemIconPicTo4x4Buffer(gItemIconDecompressionBuffer, gItemIcon4x4Buffer);
+        CopyItemIconPicTo4x4Buffer(gItemIconDecompressionBuffer, gItemIcon4x4Buffer, itemId);
         spriteSheet.data = gItemIcon4x4Buffer;
-        spriteSheet.size = 0x200;
+        if (itemId != ITEM_DECK_BUILDER)
+            spriteSheet.size = 0x200;
+        else
+            spriteSheet.size = 0x800;
         spriteSheet.tag = tilesTag;
         LoadSpriteSheet(&spriteSheet);
 

@@ -11,6 +11,47 @@
 #include "window.h"
 #include "constants/items.h"
 
+#define TAG_CARD 60000
+
+static const union AnimCmd sCardAnimSequence[] =
+{
+    ANIMCMD_FRAME(0, 30),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd *const sCardAnimTable[] =
+{
+    sCardAnimSequence,
+};
+
+static const struct OamData sCardOamData =
+{
+    .y = 0,
+    .affineMode = ST_OAM_AFFINE_OFF,
+    .objMode = ST_OAM_OBJ_NORMAL,
+    .mosaic = FALSE,
+    .bpp = ST_OAM_4BPP,
+    .shape = SPRITE_SHAPE(64x64),
+    .x = 0,
+    .matrixNum = 0,
+    .size = SPRITE_SIZE(64x64),
+    .tileNum = 0,
+    .priority = 0,
+    .paletteNum = 0,
+    .affineParam = 0,
+};
+
+static const struct SpriteTemplate sCardSpriteTemplate =
+{
+    .tileTag = TAG_CARD,
+    .paletteTag = TAG_CARD,
+    .oam = &sCardOamData,
+    .anims = sCardAnimTable,
+    .images = NULL,
+    .affineAnims = gDummySpriteAffineAnimTable,
+    .callback = NULL,
+};
+
 enum {
     TAG_BAG_GFX = 100,
     TAG_ROTATING_BALL_GFX,
@@ -546,8 +587,16 @@ void AddBagItemIconSprite(u16 itemId, u8 id)
         if (iconSpriteId != MAX_SPRITES)
         {
             *spriteId = iconSpriteId;
-            gSprites[iconSpriteId].x2 = 24;
-            gSprites[iconSpriteId].y2 = 80;
+            if (itemId != ITEM_DECK_BUILDER)
+            {
+                gSprites[iconSpriteId].x2 = 24;
+                gSprites[iconSpriteId].y2 = 80;
+            }
+            else
+            {
+                gSprites[iconSpriteId].x2 = 38;
+                gSprites[iconSpriteId].y2 = 84;
+            }
         }
     }
 }

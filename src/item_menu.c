@@ -51,7 +51,11 @@
 #include "constants/items.h"
 #include "constants/rgb.h"
 #include "constants/songs.h"
+#include "ygo.h"
+#include "ygo_graphics.h"
+#include "constants/ygo.h"
 
+#define TAG_CARD 60000
 #define TAG_POCKET_SCROLL_ARROW 110
 #define TAG_BAG_SCROLL_ARROW    111
 
@@ -800,6 +804,26 @@ static void BagMenu_InitBGs(void)
     SetGpuReg(REG_OFFSET_BLDCNT, 0);
 }
 
+static const struct CompressedSpriteSheet sCardPicSmall_DarkMagician_4bpp_SpriteSheet =
+{
+    gCardPicSmall_DarkMagician_4bpp, 64*64/2, TAG_CARD
+};
+
+const struct CompressedSpritePalette gCardPalSmall_DarkMagician_Table =
+{
+    sCardPalSmall_DarkMagician, TAG_CARD
+};
+
+static const struct CompressedSpriteSheet sSpriteSheet_DarkMagician[] =
+{
+    {
+        .data = gCardPicSmall_DarkMagician_4bpp,
+        .size = 64*64,
+        .tag = TAG_CARD
+    },
+    {},
+};
+
 static bool8 LoadBagMenu_Graphics(void)
 {
     switch (gBagMenu->graphicsLoadState)
@@ -832,6 +856,7 @@ static bool8 LoadBagMenu_Graphics(void)
         break;
     case 4:
         LoadCompressedSpritePalette(&gBagPaletteTable);
+        // LoadPalette(sCardPalSmall_DarkMagician, OBJ_PLTT_ID(0), PLTT_SIZE_4BPP);
         gBagMenu->graphicsLoadState++;
         break;
     default:
