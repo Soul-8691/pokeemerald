@@ -1,0 +1,207 @@
+import requests
+import json
+import os
+import subprocess
+from PIL import Image
+
+f = open("YGOProDeck_Card_Info.json", "w")
+url = "https://db.ygoprodeck.com/api/v7/cardinfo.php"
+res = requests.get(url)
+data = json.dumps(res.json(), indent=4)
+f.write(data)
+f.close()
+
+def move_palette_color(img, old_index, new_index):
+    """
+    Moves a color at old_index in the image_cropped's palette to new_index.
+
+    Args:
+        image_cropped_path: Path to the paletted image_cropped.
+        old_index: Index of the color to move.
+        new_index: Index to move the color to.
+    """
+    if img.mode != "P":
+        raise ValueError("Image must be in paletted (P) mode.")
+
+    palette = img.getpalette()
+    if palette is None:
+      raise ValueError("Image must have a palette.")
+
+    # Extract the color to move
+    color_to_move = [57, 255, 20]
+
+    # Remove the color from its old position
+    del palette[old_index * 3: old_index * 3 + 3]
+
+    # Insert the color at the new position
+    palette[new_index * 3: new_index * 3] = color_to_move
+
+    # Update the palette
+    img.putpalette(palette)
+
+    # If old_index < new_index, shift pixel values down
+    if old_index < new_index:
+      for x in range(img.width):
+        for y in range(img.height):
+          if img.getpixel((x, y)) == old_index:
+            img.putpixel((x, y), 256 if new_index == 256 else new_index)
+          elif img.getpixel((x,y)) > old_index and img.getpixel((x,y)) <= new_index:
+            img.putpixel((x, y), img.getpixel((x,y)) - 1)
+    # If old_index > new_index, shift pixel values up
+    elif old_index > new_index:
+      for x in range(img.width):
+        for y in range(img.height):
+          if img.getpixel((x, y)) == old_index:
+            img.putpixel((x, y), new_index)
+          elif img.getpixel((x,y)) >= new_index and img.getpixel((x,y)) < old_index:
+            img.putpixel((x, y), img.getpixel((x,y)) + 1)
+    
+    return img
+
+card_names = ['Dark Magician', 'Blue-Eyes White Dragon', 'Red-Eyes Black Dragon']
+
+card_info_data = open('YGOProDeck_Card_Info.json')
+card_info_data = json.load(card_info_data)
+card_info = {}
+for data in card_info_data['data']:
+    card_name = data['name']
+    if card_name in card_names:
+        for card_image_cropped in data['card_images']:
+            card_id = str(card_image_cropped['id'])
+            image_cropped_url = 'https://images.ygoprodeck.com/images/cards/' + card_id + '.jpg'
+            image_cropped_url_cropped = 'https://images.ygoprodeck.com/images/cards_cropped/' + card_id + '.jpg'
+            res = requests.get(image_cropped_url)
+            image = 'Artwork/' + card_name + '_' + card_id + '.jpg'
+            if not os.path.exists(image):
+                with open(image, 'wb') as file:
+                    file.write(res.content)
+            res = requests.get(image_cropped_url_cropped)
+            image_cropped = 'Artwork/' + card_name + '_' + card_id + '_Cropped.jpg'
+            if not os.path.exists(image_cropped):
+                with open(image_cropped, 'wb') as file:
+                    file.write(res.content)
+            outfile = 'Sprites/' + card_name + '_' + card_id + '_64x64_6bpp.png'
+            if not os.path.exists(outfile):
+                size = 64, 64
+                im = Image.open(image_cropped)
+                im.thumbnail(size, Image.Resampling.LANCZOS)
+                im = im.convert(
+                    "P", palette=Image.ADAPTIVE, colors=63
+                )
+                im = move_palette_color(im, 63, 0)
+                im.save(outfile, "PNG")
+            outfile = 'Sprites/' + card_name + '_' + card_id + '_64x64_4bpp.png'
+            if not os.path.exists(outfile):
+                size = 64, 64
+                im = Image.open(image_cropped)
+                im.thumbnail(size, Image.Resampling.LANCZOS)
+                im = im.convert(
+                    "P", palette=Image.ADAPTIVE, colors=15
+                )
+                im = move_palette_color(im, 15, 0)
+                im.save(outfile, "PNG")
+            outfile = 'Sprites/' + card_name + '_' + card_id + '_80x80_6bpp.png'
+            if not os.path.exists(outfile):
+                size = 80, 80
+                im = Image.open(image_cropped)
+                im.thumbnail(size, Image.Resampling.LANCZOS)
+                im = im.convert(
+                    "P", palette=Image.ADAPTIVE, colors=63
+                )
+                im = move_palette_color(im, 63, 0)
+                im.save(outfile, "PNG")
+            outfile = 'Sprites/' + card_name + '_' + card_id + '_80x80_4bpp.png'
+            if not os.path.exists(outfile):
+                size = 80, 80
+                im = Image.open(image_cropped)
+                im.thumbnail(size, Image.Resampling.LANCZOS)
+                im = im.convert(
+                    "P", palette=Image.ADAPTIVE, colors=15
+                )
+                im = move_palette_color(im, 15, 0)
+                im.save(outfile, "PNG")
+            size = 32, 32
+            outfile = 'Sprites/Icons/Original/' + card_name + '_' + card_id + '_32x32.png'
+            if not os.path.exists(outfile):
+                im = Image.open(image_cropped)
+                im.thumbnail(size, Image.Resampling.LANCZOS)
+                im = im.convert(
+                    "P", palette=Image.ADAPTIVE, colors=15
+                )
+                im = move_palette_color(im, 15, 0)
+                im.save(outfile, "PNG")
+            size = 32, 46
+            outfile = 'Sprites/Icons/Original/' + card_name + '_' + card_id + '_32x46.png'
+            if not os.path.exists(outfile):
+                im = Image.open(image)
+                im.thumbnail(size, Image.Resampling.LANCZOS)
+                im = im.convert(
+                    "P", palette=Image.ADAPTIVE, colors=15
+                )
+                im = move_palette_color(im, 15, 0)
+                im.save(outfile, "PNG")
+            size = 22, 32
+            outfile = 'Sprites/Icons/Original/' + card_name + '_' + card_id + '_22x32.png'
+            if not os.path.exists(outfile):
+                im = Image.open(image)
+                im.thumbnail(size, Image.Resampling.LANCZOS)
+                im = im.convert(
+                    "P", palette=Image.ADAPTIVE, colors=15
+                )
+                im = move_palette_color(im, 15, 0)
+                im.save(outfile, "PNG")
+            # master = Image.new(
+                # mode='RGBA',
+                # size=(32, 64),
+                # color=(57,255,20,0))
+            # palette = 'pal0.png'
+            # palette = Image.open(palette)
+            # master = master.convert("RGB").quantize(palette=palette)
+            # outfile = 'Sprites/Icons/' + card_name + '_' + card_id + '_Pal0.png'
+            # im = im.convert(
+                # "P", palette=Image.ADAPTIVE, colors=16
+            # )
+            # # if not os.path.exists(outfile):
+            # im.save(outfile, "PNG")
+            # im = im.convert("RGB").quantize(palette=palette)
+            # master.paste(im, box=(0,0))
+            # master.paste(im, box=(0,32))
+            # master.save(outfile, "PNG")
+            # palette = 'pal1.png'
+            # palette = Image.open(palette)
+            # master = master.convert("RGB").quantize(palette=palette)
+            # size = 32, 32
+            # outfile = 'Sprites/Icons/Original/' + card_name + '_' + card_id + '.png'
+            # # if not os.path.exists(outfile):
+            # im = Image.open(image_cropped)
+            # im.thumbnail(size, Image.Resampling.LANCZOS)
+            # im.save(outfile, "PNG")
+            # outfile = 'Sprites/Icons/' + card_name + '_' + card_id + '_Pal1.png'
+            # im = im.convert(
+                # "P", palette=Image.ADAPTIVE, colors=16
+            # )
+            # # if not os.path.exists(outfile):
+            # im.save(outfile, "PNG")
+            # im = im.convert("RGB").quantize(palette=palette)
+            # master.paste(im, box=(0,0))
+            # master.paste(im, box=(0,32))
+            # master.save(outfile, "PNG")
+            # palette = 'pal2.png'
+            # palette = Image.open(palette)
+            # master = master.convert("RGB").quantize(palette=palette)
+            # size = 32, 32
+            # outfile = 'Sprites/Icons/Original/' + card_name + '_' + card_id + '.png'
+            # # if not os.path.exists(outfile):
+            # im = Image.open(image_cropped)
+            # im.thumbnail(size, Image.Resampling.LANCZOS)
+            # im.save(outfile, "PNG")
+            # outfile = 'Sprites/Icons/' + card_name + '_' + card_id + '_Pal2.png'
+            # im = im.convert(
+                # "P", palette=Image.ADAPTIVE, colors=16
+            # )
+            # # if not os.path.exists(outfile):
+            # im.save(outfile, "PNG")
+            # im = im.convert("RGB").quantize(palette=palette)
+            # master.paste(im, box=(0,0))
+            # master.paste(im, box=(0,32))
+            # master.save(outfile, "PNG")
