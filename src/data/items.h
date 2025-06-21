@@ -692,26 +692,30 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },
 
-    [ITEM_035] =
+    [ITEM_DARK_MAGICIAN] =
     {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
+        .name = _("D Magician"),
+        .itemId = ITEM_DARK_MAGICIAN,
         .price = 0,
         .description = sDummyDesc,
-        .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .importance = 1,
+        .registrability = TRUE,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },
 
-    [ITEM_036] =
+    [ITEM_BLUE_EYES_WHITE_DRAGON] =
     {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
+        .name = _("B Eyes WD"),
+        .itemId = ITEM_BLUE_EYES_WHITE_DRAGON,
         .price = 0,
         .description = sDummyDesc,
-        .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .importance = 1,
+        .registrability = TRUE,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },
 
     [ITEM_037] =

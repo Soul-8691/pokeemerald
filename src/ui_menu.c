@@ -395,7 +395,7 @@ static void Menu_InitWindows(void)
 
 static void PrintToWindow(u8 windowId, u8 colorIdx)
 {
-    const u8 *cardName = gCardInfo[CARD_DARK_MAGICIAN].name;
+    const u8 *cardName = gCardInfo[CARD_DARK_MAGICIAN].nameShort;
     const u8 *cardDescription = gCardInfo[CARD_DARK_MAGICIAN].description;
     u8 x = 82;
     u8 y = 0;

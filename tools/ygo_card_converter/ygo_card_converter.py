@@ -131,25 +131,35 @@ for data in card_info_data['data']:
                 im = move_palette_color(im, 15, 0)
                 im.save(outfile, "PNG")
             size = 32, 46
+            master = Image.new(
+                mode='RGBA',
+                size=(32, 48),
+                color=(57,255,20,0))
             outfile = 'Sprites/Icons/Original/' + card_name + '_' + card_id + '_32x46.png'
             if not os.path.exists(outfile):
                 im = Image.open(image)
                 im.thumbnail(size, Image.Resampling.LANCZOS)
-                im = im.convert(
+                master.paste(im, box=(0,1))
+                master = master.convert(
                     "P", palette=Image.ADAPTIVE, colors=15
                 )
-                im = move_palette_color(im, 15, 0)
-                im.save(outfile, "PNG")
+                master = move_palette_color(master, 15, 0)
+                master.save(outfile, "PNG")
             size = 22, 32
+            master = Image.new(
+                mode='RGBA',
+                size=(24, 32),
+                color=(57,255,20,0))
             outfile = 'Sprites/Icons/Original/' + card_name + '_' + card_id + '_22x32.png'
             if not os.path.exists(outfile):
                 im = Image.open(image)
                 im.thumbnail(size, Image.Resampling.LANCZOS)
-                im = im.convert(
+                master.paste(im, box=(1,0))
+                master = master.convert(
                     "P", palette=Image.ADAPTIVE, colors=15
                 )
-                im = move_palette_color(im, 15, 0)
-                im.save(outfile, "PNG")
+                master = move_palette_color(master, 15, 0)
+                master.save(outfile, "PNG")
             # master = Image.new(
                 # mode='RGBA',
                 # size=(32, 64),

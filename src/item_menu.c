@@ -1026,9 +1026,10 @@ static void PrintItemDescription(int itemIndex)
 {
     const u8 *str;
     u16 itemId = BagGetItemIdByPocketPosition(gBagPosition.pocket + 1, itemIndex);
-    const u8 *cardName = gCardInfo[CARD_DARK_MAGICIAN].name;
-    u16 cardAtk = gCardInfo[CARD_DARK_MAGICIAN].atk * 10;
-    u16 cardDef = gCardInfo[CARD_DARK_MAGICIAN].def * 10;
+    u16 card = CardIdMapping[itemId];
+    const u8 *cardName = gCardInfo[card].nameShort;
+    u16 cardAtk = gCardInfo[card].atk * 10;
+    u16 cardDef = gCardInfo[card].def * 10;
     if (itemIndex != LIST_CANCEL)
     {
         str = GetItemDescription(itemId);
@@ -1041,8 +1042,8 @@ static void PrintItemDescription(int itemIndex)
         str = gStringVar4;
     }
     FillWindowPixelBuffer(WIN_DESCRIPTION, PIXEL_FILL(0));
-    if (itemId != ITEM_DECK_BUILDER)
-        BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, str, 3, 0, 0, 0, 0, COLORID_NORMAL);
+    if (card > NUM_CARDS)
+        BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, str, 3, 4, 0, 0, 0, COLORID_NORMAL);
     else
     {
         BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, cardName, 3, 4, 0, 0, 0, COLORID_NORMAL);

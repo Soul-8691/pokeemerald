@@ -4,6 +4,7 @@
 #define CARD_NONE 0
 #define CARD_DARK_MAGICIAN 1
 #define CARD_BLUE_EYES_WHITE_DRAGON 2
+#define NUM_CARDS 2
 
 #define EFFECT_NONE 0
 

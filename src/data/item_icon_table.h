@@ -57,8 +57,8 @@ const u32 *const gItemIconTable[ITEMS_COUNT + 1][2] =
     [ITEM_GREEN_SHARD] = {gItemIcon_Shard, gItemIconPalette_GreenShard},
     // ????????
     [ITEM_DECK_BUILDER] = {gCardIconSquare_DarkMagician, gCardIconSquarePalette_DarkMagician},
-    [ITEM_035] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
-    [ITEM_036] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
+    [ITEM_DARK_MAGICIAN] = {gCardIconSquare_DarkMagician, gCardIconSquarePalette_DarkMagician},
+    [ITEM_BLUE_EYES_WHITE_DRAGON] = {gCardIconSquare_BlueEyesWhiteDragon, gCardIconSquarePalette_BlueEyesWhiteDragon},
     [ITEM_037] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
     [ITEM_038] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
     [ITEM_039] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},

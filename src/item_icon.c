@@ -111,8 +111,9 @@ void FreeItemIconTemporaryBuffers(void)
 void CopyItemIconPicTo4x4Buffer(const void *src, void *dest, u16 itemId)
 {
     u8 i;
+    u16 card = CardIdMapping[itemId];
 
-    if (itemId != ITEM_DECK_BUILDER)
+    if (card > NUM_CARDS)
     {
         for (i = 0; i < 3; i++)
             CpuCopy16(src + i * 96, dest + i * 128, 0x60);
@@ -138,11 +139,12 @@ u8 AddItemIconSprite(u16 tilesTag, u16 paletteTag, u16 itemId)
         struct SpriteSheet spriteSheet;
         struct CompressedSpritePalette spritePalette;
         struct SpriteTemplate *spriteTemplate;
+        u16 card = CardIdMapping[itemId];
 
         LZDecompressWram(GetItemIconPicOrPalette(itemId, 0), gItemIconDecompressionBuffer);
         CopyItemIconPicTo4x4Buffer(gItemIconDecompressionBuffer, gItemIcon4x4Buffer, itemId);
         spriteSheet.data = gItemIcon4x4Buffer;
-        if (itemId != ITEM_DECK_BUILDER)
+        if (card > NUM_CARDS)
             spriteSheet.size = 0x200;
         else
             spriteSheet.size = 0x200; // 0x800
@@ -154,7 +156,7 @@ u8 AddItemIconSprite(u16 tilesTag, u16 paletteTag, u16 itemId)
         LoadCompressedSpritePalette(&spritePalette);
 
         spriteTemplate = Alloc(sizeof(*spriteTemplate));
-        if (itemId != ITEM_DECK_BUILDER)
+        if (card != 0)
             CpuCopy16(&gItemIconSpriteTemplate, spriteTemplate, sizeof(*spriteTemplate));
         else
             // CpuCopy16(&gItemIconLargeSpriteTemplate, spriteTemplate, sizeof(*spriteTemplate));
@@ -182,11 +184,12 @@ u8 AddCustomItemIconSprite(const struct SpriteTemplate *customSpriteTemplate, u1
         struct SpriteSheet spriteSheet;
         struct CompressedSpritePalette spritePalette;
         struct SpriteTemplate *spriteTemplate;
+        u16 card = CardIdMapping[itemId];
 
         LZDecompressWram(GetItemIconPicOrPalette(itemId, 0), gItemIconDecompressionBuffer);
         CopyItemIconPicTo4x4Buffer(gItemIconDecompressionBuffer, gItemIcon4x4Buffer, itemId);
         spriteSheet.data = gItemIcon4x4Buffer;
-        if (itemId != ITEM_DECK_BUILDER)
+        if (card > NUM_CARDS)
             spriteSheet.size = 0x200;
         else
             spriteSheet.size = 0x200; // 0x800

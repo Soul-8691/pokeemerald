@@ -49,8 +49,8 @@ InsideOfTruck_EventScript_SetIntroFlagsFemale::
 
 InsideOfTruck_EventScript_MovingBox::
 	@ msgbox InsideOfTruck_Text_BoxPrintedWithMonLogo, MSGBOX_SIGN
-	additem ITEM_DECK_BUILDER
-	additem ITEM_TM01
+	additem ITEM_DARK_MAGICIAN
+	additem ITEM_BLUE_EYES_WHITE_DRAGON
 	end
 
 InsideOfTruck_Text_BoxPrintedWithMonLogo:
