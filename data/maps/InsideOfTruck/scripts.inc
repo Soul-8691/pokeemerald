@@ -50,6 +50,7 @@ InsideOfTruck_EventScript_SetIntroFlagsFemale::
 InsideOfTruck_EventScript_MovingBox::
 	@ msgbox InsideOfTruck_Text_BoxPrintedWithMonLogo, MSGBOX_SIGN
 	additem ITEM_DECK_BUILDER
+	additem ITEM_TM01
 	end
 
 InsideOfTruck_Text_BoxPrintedWithMonLogo:

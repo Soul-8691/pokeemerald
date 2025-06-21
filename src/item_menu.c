@@ -411,7 +411,7 @@ static const struct WindowTemplate sDefaultBagWindows[] =
         .tilemapLeft = 0,
         .tilemapTop = 7,
         .width = 14,
-        .height = 12,
+        .height = 11,
         .paletteNum = 1,
         .baseBlock = 0x117,
     },
@@ -422,7 +422,7 @@ static const struct WindowTemplate sDefaultBagWindows[] =
         .width = 8,
         .height = 2,
         .paletteNum = 1,
-        .baseBlock = 0x1DD,
+        .baseBlock = 0x1CF,
     },
     [WIN_TMHM_INFO_ICONS] = {
         .bg = 0,
@@ -431,7 +431,7 @@ static const struct WindowTemplate sDefaultBagWindows[] =
         .width = 5,
         .height = 6,
         .paletteNum = 12,
-        .baseBlock = 0x1BF,
+        .baseBlock = 0x1B1,
     },
     [WIN_TMHM_INFO] = {
         .bg = 0,
@@ -440,7 +440,7 @@ static const struct WindowTemplate sDefaultBagWindows[] =
         .width = 4,
         .height = 6,
         .paletteNum = 12,
-        .baseBlock = 0x189,
+        .baseBlock = 0x1DF,
     },
     [WIN_MESSAGE] = {
         .bg = 1,
