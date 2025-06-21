@@ -41,6 +41,7 @@
 #include "constants/item_effects.h"
 #include "constants/items.h"
 #include "constants/songs.h"
+#include "event_scripts.h"
 
 static void SetUpItemUseCallback(u8);
 static void FieldCB_UseItemOnField(void);
@@ -1137,3 +1138,15 @@ void ItemUseOutOfBattle_CannotUse(u8 taskId)
 }
 
 #undef tUsingRegisteredKeyItem
+
+static void Task_AccessDeckBuilder(u8 taskId)
+{
+    ScriptContext_SetupScript(EventScript_AccessDeckBuilder);
+    DestroyTask(taskId);
+}
+
+void ItemUseOutOfBattle_DeckBuilder(u8 taskId)
+{
+    sItemUseOnFieldCB = Task_AccessDeckBuilder;
+    SetUpItemUseOnFieldCallback(taskId);
+}

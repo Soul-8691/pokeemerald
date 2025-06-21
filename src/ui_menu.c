@@ -37,6 +37,7 @@
 #include "ygo.h"
 #include "ygo_graphics.h"
 #include "constants/ygo.h"
+#include "field_camera.h"
 
 #define TAG_CARD 60000
 
@@ -154,7 +155,7 @@ void Menu_Init(MainCallback callback)
     
     // initialize stuff
     sMenuDataPtr->gfxLoadState = 0;
-    sMenuDataPtr->savedCallback = callback;
+    sMenuDataPtr->savedCallback = CB2_ReturnToField;
     
     SetMainCallback2(Menu_RunSetup);
 }
@@ -419,7 +420,7 @@ static void Task_MenuWaitFadeIn(u8 taskId)
         gTasks[taskId].func = Task_MenuMain;
 }
 
-static void Task_MenuTurnOff(u8 taskId)
+void Task_MenuTurnOff(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
 

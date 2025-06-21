@@ -577,6 +577,7 @@ gStdScripts_End::
 	.include "data/scripts/trainer_battle.inc"
 	.include "data/scripts/new_game.inc"
 	.include "data/scripts/hall_of_fame.inc"
+	.include "data/scripts/ygo.inc"
 
 EventScript_WhiteOut::
 	call EverGrandeCity_HallOfFame_EventScript_ResetEliteFour
@@ -991,6 +992,19 @@ Common_EventScript_RemoveStaticPokemon::
 	removeobject VAR_LAST_TALKED
 	fadescreenswapbuffers FADE_FROM_BLACK
 	release
+	end
+
+EventScript_LeaveDeckBuilder::
+	callnative Task_MenuTurnOff
+	releaseall
+	end
+
+EventScript_AccessDeckBuilder::
+	playse SE_PC_LOGIN
+	msgbox gText_DeckBuilderOpened, MSGBOX_DEFAULT
+	callnative Menu_Init
+	waitstate
+	goto EventScript_LeaveDeckBuilder
 	end
 
 Common_EventScript_LegendaryFlewAway::

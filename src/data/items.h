@@ -679,15 +679,17 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },
 
-    [ITEM_034] =
+    [ITEM_DECK_BUILDER] =
     {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
+        .name = _("DeckBuilder"),
+        .itemId = ITEM_DECK_BUILDER,
         .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .description = sDeckBuilderDesc,
+        .importance = 1,
+        .registrability = TRUE,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },
 
     [ITEM_035] =
