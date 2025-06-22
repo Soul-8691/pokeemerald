@@ -103,6 +103,7 @@ enum {
     WIN_TMHM_INFO,
     WIN_MESSAGE, // Identical to ITEMWIN_MESSAGE. Unused?
     WIN_UPPER,
+    WIN_UPPER_2,
 };
 
 // Item list ID for toSwapPos to indicate an item is not currently being swapped
@@ -455,10 +456,19 @@ static const struct WindowTemplate sDefaultBagWindows[] =
         .bg = 0,
         .tilemapLeft = 0,
         .tilemapTop = 3,
-        .width = 14,
+        .width = 7,
         .height = 4,
         .paletteNum = 7,
         .baseBlock = 0x16B,
+    },
+    [WIN_UPPER_2] = {
+        .bg = 0,
+        .tilemapLeft = 7,
+        .tilemapTop = 3,
+        .width = 7,
+        .height = 4,
+        .paletteNum = 8,
+        .baseBlock = 0x187,
     },
     DUMMY_WIN_TEMPLATE,
 };
@@ -1033,12 +1043,24 @@ const u16 *const sCardAttributeIconPals[NUM_CARDS + 1] =
     [ATTRIBUTE_LIGHT] = gLightIconPal,
 };
 
+const u8 *const sCardRaceIcons[NUM_CARDS + 1] =
+{
+    [RACE_SPELLCASTER] = gSpellcasterIcon,
+    [RACE_DRAGON] = gDragonIcon,
+};
+
+const u16 *const sCardRaceIconPals[NUM_CARDS + 1] =
+{
+    [RACE_SPELLCASTER] = gSpellcasterIconPal,
+    [RACE_DRAGON] = gDragonIconPal,
+};
 static void PrintItemDescription(int itemIndex)
 {
     const u8 *str;
     u16 itemId = BagGetItemIdByPocketPosition(gBagPosition.pocket + 1, itemIndex);
     u16 card = CardIdMapping[itemId];
     u8 attribute = gCardInfo[card].attribute;
+    u8 race = gCardInfo[card].race;
     const u8 *cardName = gCardInfo[card].nameShort;
     u16 cardAtk = gCardInfo[card].atk * 10;
     u16 cardDef = gCardInfo[card].def * 10;
@@ -1055,6 +1077,7 @@ static void PrintItemDescription(int itemIndex)
     }
     FillWindowPixelBuffer(WIN_DESCRIPTION, PIXEL_FILL(0));
     FillWindowPixelBuffer(WIN_UPPER, PIXEL_FILL(0));
+    FillWindowPixelBuffer(WIN_UPPER_2, PIXEL_FILL(0));
     if (card == 0)
         BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, str, 3, 4, 0, 0, 0, COLORID_NORMAL);
     else
@@ -1066,8 +1089,12 @@ static void PrintItemDescription(int itemIndex)
         ConvertIntToDecimalStringN(gStringVar1, cardDef, STR_CONV_MODE_RIGHT_ALIGN, 4);
         StringExpandPlaceholders(gStringVar4, gText_xDef);
         BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, gStringVar4, 3, 36, 0, 0, 0, COLORID_NORMAL);
-        BlitBitmapToWindow(WIN_UPPER, sCardAttributeIcons[attribute], 36, 6, 16, 16);
-        LoadPalette(sCardAttributeIconPals[attribute], BG_PLTT_ID(7), 32);
+        BlitBitmapToWindow(WIN_UPPER, sCardRaceIcons[race], 38, 8, 16, 16);
+        LoadPalette(sCardRaceIconPals[race], BG_PLTT_ID(7), 32);
+        BlitBitmapToWindow(WIN_UPPER_2, sCardAttributeIcons[attribute], 0, 6, 16, 16);
+        LoadPalette(sCardAttributeIconPals[attribute], BG_PLTT_ID(8), 32);
+        CopyWindowToVram(WIN_UPPER, COPYWIN_FULL);
+        CopyWindowToVram(WIN_UPPER_2, COPYWIN_FULL);
     }
 }
 
@@ -1339,7 +1366,7 @@ static void ReturnToItemList(u8 taskId)
     ClearWindowTilemap(WIN_TMHM_INFO);
     PutWindowTilemap(WIN_DESCRIPTION);
     PutWindowTilemap(WIN_UPPER);
-    CopyWindowToVram(WIN_UPPER, COPYWIN_FULL);
+    PutWindowTilemap(WIN_UPPER_2);
     ScheduleBgCopyTilemapToVram(0);
     gTasks[taskId].func = Task_BagMenu_HandleInput;
 }
@@ -1386,6 +1413,7 @@ static void SwitchBagPocket(u8 taskId, s16 deltaBagPocketId, bool16 skipEraseLis
         ClearWindowTilemap(WIN_ITEM_LIST);
         ClearWindowTilemap(WIN_DESCRIPTION);
         ClearWindowTilemap(WIN_UPPER);
+        ClearWindowTilemap(WIN_UPPER_2);
         DestroyListMenuTask(tListTaskId, &gBagPosition.scrollPosition[gBagPosition.pocket], &gBagPosition.cursorPosition[gBagPosition.pocket]);
         ScheduleBgCopyTilemapToVram(0);
         gSprites[gBagMenu->spriteIds[ITEMMENUSPRITE_ITEM + (gBagMenu->itemIconSlot ^ 1)]].invisible = TRUE;
@@ -1453,7 +1481,7 @@ static void Task_SwitchBagPocket(u8 taskId)
         tListTaskId = ListMenuInit(&gMultiuseListMenuTemplate, gBagPosition.scrollPosition[gBagPosition.pocket], gBagPosition.cursorPosition[gBagPosition.pocket]);
         PutWindowTilemap(WIN_DESCRIPTION);
         PutWindowTilemap(WIN_UPPER);
-        CopyWindowToVram(WIN_UPPER, COPYWIN_FULL);
+        PutWindowTilemap(WIN_UPPER_2);
         PutWindowTilemap(WIN_POCKET_NAME);
         ScheduleBgCopyTilemapToVram(0);
         CreatePocketScrollArrowPair();
@@ -1709,6 +1737,7 @@ static void OpenContextMenu(u8 taskId)
     {
         ClearWindowTilemap(WIN_DESCRIPTION);
         ClearWindowTilemap(WIN_UPPER);
+        ClearWindowTilemap(WIN_UPPER_2);
         PrintTMHMMoveData(gSpecialVar_ItemId);
         PutWindowTilemap(WIN_TMHM_INFO_ICONS);
         PutWindowTilemap(WIN_TMHM_INFO);

@@ -174,7 +174,7 @@ u8 AddItemIconSprite(u16 tilesTag, u16 paletteTag, u16 itemId)
         LoadCompressedSpritePalette(&spritePalette);
 
         spriteTemplate = Alloc(sizeof(*spriteTemplate));
-        if (card != 0)
+        if (card)
             CpuCopy16(&gItemIconSpriteTemplate, spriteTemplate, sizeof(*spriteTemplate));
         else
             // CpuCopy16(&gItemIconLargeSpriteTemplate, spriteTemplate, sizeof(*spriteTemplate));
