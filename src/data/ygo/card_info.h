@@ -20,7 +20,7 @@ const struct CardInfo gCardInfo[] =
         .iconSquare = gCardIconSquare_DarkMagician,
         .iconLarge = gCardIconLarge_DarkMagician,
         .iconSmall = gCardIconSmall_DarkMagician,
-        .effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+        .effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
         .type = TYPE_NORMAL,
         .attribute = ATTRIBUTE_DARK,
         .level = 7,
@@ -28,6 +28,7 @@ const struct CardInfo gCardInfo[] =
         .def = 210,
         .race = RACE_SPELLCASTER,
         .id = 4041,
+        .archetypesSeries = {ARCHETYPE_DARK_MAGICIAN, ARCHETYPE_NONE, ARCHETYPE_NONE},
     },
     [CARD_BLUE_EYES_WHITE_DRAGON] =
     {
@@ -40,7 +41,7 @@ const struct CardInfo gCardInfo[] =
         .iconSquare = gCardIconSquare_BlueEyesWhiteDragon,
         .iconLarge = gCardIconLarge_BlueEyesWhiteDragon,
         .iconSmall = gCardIconSmall_BlueEyesWhiteDragon,
-        .effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+        .effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
         .type = TYPE_NORMAL,
         .attribute = ATTRIBUTE_LIGHT,
         .level = 8,
@@ -48,5 +49,6 @@ const struct CardInfo gCardInfo[] =
         .def = 250,
         .race = RACE_DRAGON,
         .id = 4007,
+        .archetypesSeries = {ARCHETYPE_BLUE_EYES, ARCHETYPE_NONE, ARCHETYPE_NONE},
     }
 };

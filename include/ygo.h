@@ -12,14 +12,15 @@ struct CardInfo
     /* 0x18 */ const u32 *iconSquare;
     /* 0x1C */ const u32 *iconLarge;
     /* 0x20 */ const u32 *iconSmall;
-    /* 0x24 */ u16 effects[10];
-    /* 0x38 */ u32 type:3;
-    /* 0x38 */ u32 attribute:3;
-    /* 0x38 */ u32 level:4;
-    /* 0x39 */ u32 atk:9;
-    /* 0x3A */ u32 def:9;
-    /* 0x3A */ u8 race;
-    /* 0x3B */ u16 id;
+    /* 0x24 */ u16 effects[8];
+    /* 0x34 */ u32 type:3;
+    /* 0x34 */ u32 attribute:3;
+    /* 0x34 */ u32 level:4;
+    /* 0x35 */ u32 atk:9;
+    /* 0x36 */ u32 def:9;
+    /* 0x37 */ u8 race;
+    /* 0x38 */ u16 id;
+    /* 0x3A */ u16 archetypesSeries[3];
 };
 
 extern const struct CardInfo gCardInfo[];
