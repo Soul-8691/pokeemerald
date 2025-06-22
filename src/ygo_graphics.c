@@ -1,14 +1,14 @@
 #include "global.h"
 
 const u32 gCardPicLarge_DarkMagician[] = INCBIN_U32("graphics/cards/dark_magician/pic_large.8bpp.lz");
-const u16 sCardPalLarge_DarkMagician[] = INCBIN_U16("graphics/cards/dark_magician/pic_large.gbapal");
+const u16 gCardPalLarge_DarkMagician[] = INCBIN_U16("graphics/cards/dark_magician/pic_large.gbapal");
 const u32 gCardPicLarge_DarkMagician_4bpp[] = INCBIN_U32("graphics/cards/dark_magician/pic_large_4bpp.4bpp.lz");
-const u16 sCardPalLarge_DarkMagician_4bpp[] = INCBIN_U16("graphics/cards/dark_magician/pic_large_4bpp.gbapal");
+const u16 gCardPalLarge_DarkMagician_4bpp[] = INCBIN_U16("graphics/cards/dark_magician/pic_large_4bpp.gbapal");
 const u32 gCardPicLarge_DarkMagician_Big[] = INCBIN_U32("graphics/cards/dark_magician/pic_large_big.8bpp.lz");
 const u32 gCardPicLarge_DarkMagician_Big_4bpp[] = INCBIN_U32("graphics/cards/dark_magician/pic_large_4bpp_big.4bpp.lz");
 const u32 gCardPicSmall_DarkMagician[] = INCBIN_U32("graphics/cards/dark_magician/pic_small.8bpp.lz");
 const u32 gCardPicSmall_DarkMagician_4bpp[] = INCBIN_U32("graphics/cards/dark_magician/pic_small_4bpp.4bpp.lz");
-const u32 sCardPalSmall_DarkMagician_4bpp[] = INCBIN_U16("graphics/cards/dark_magician/pic_small_4bpp.gbapal.lz");
+const u32 gCardPalSmall_DarkMagician_4bpp[] = INCBIN_U16("graphics/cards/dark_magician/pic_small_4bpp.gbapal.lz");
 const u32 gCardIconSquare_DarkMagician[] = INCBIN_U32("graphics/cards/dark_magician/icon_square.4bpp.lz");
 const u32 gCardIconSquarePalette_DarkMagician[] = INCBIN_U32("graphics/cards/dark_magician/icon_square.gbapal.lz");
 const u32 gCardIconLarge_DarkMagician[] = INCBIN_U32("graphics/cards/dark_magician/icon_large.4bpp.lz");
@@ -16,6 +16,7 @@ const u32 gCardIconLargePalette_DarkMagician[] = INCBIN_U32("graphics/cards/dark
 const u32 gCardIconSmall_DarkMagician[] = INCBIN_U32("graphics/cards/dark_magician/icon_small.4bpp.lz");
 const u32 gCardIconSmallPalette_DarkMagician[] = INCBIN_U32("graphics/cards/dark_magician/icon_small.gbapal.lz");
 const u32 gCardPicLarge_BlueEyesWhiteDragon_Big[] = INCBIN_U32("graphics/cards/blue_eyes_white_dragon/pic_large_big.8bpp.lz");
+const u16 gCardPalLarge_BlueEyesWhiteDragon[] = INCBIN_U16("graphics/cards/blue_eyes_white_dragon/pic_large.gbapal");
 const u32 gCardIconSquare_BlueEyesWhiteDragon[] = INCBIN_U32("graphics/cards/blue_eyes_white_dragon/icon_square.4bpp.lz");
 const u32 gCardIconSquarePalette_BlueEyesWhiteDragon[] = INCBIN_U32("graphics/cards/blue_eyes_white_dragon/icon_square.gbapal.lz");
 const u32 gCardIconLarge_BlueEyesWhiteDragon[] = INCBIN_U32("graphics/cards/blue_eyes_white_dragon/icon_large.4bpp.lz");

@@ -183,10 +183,15 @@ static void Menu_VBlankCB(void)
     TransferPlttBuffer();
 }
 
-static const struct CompressedSpriteSheet sSpriteSheet_DarkMagician[] =
+static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 {
     {
         .data = gCardPicLarge_DarkMagician_Big,
+        .size = 80*80,
+        .tag = TAG_CARD
+    },
+    {
+        .data = gCardPicLarge_BlueEyesWhiteDragon_Big,
         .size = 80*80,
         .tag = TAG_CARD
     },
@@ -237,6 +242,7 @@ static bool8 Menu_DoGfxSetup(void)
     u8 taskId;
     u8 spriteId;
     s16 tileNum = AllocSpriteTiles((u8)(CARD_PIC_SIZE / TILE_SIZE_8BPP)); //allocate for a 80x80 sprite
+    u16 card = CardIdMapping[gSpecialVar_ItemId];
     switch (gMain.state)
     {
     case 0:
@@ -252,8 +258,8 @@ static bool8 Menu_DoGfxSetup(void)
         ResetPaletteFade();
         ResetSpriteData();
         ResetTasks();
-        LoadCompressedSpriteSheet(&sSpriteSheet_DarkMagician[0]);
-        LoadPalette(sCardPalLarge_DarkMagician, OBJ_PLTT_ID(0), PLTT_SIZE_4BPP*4);
+        LoadCompressedSpriteSheet(&sSpriteSheet_Cards[card - 1]);
+        LoadPalette(gCardInfo[card].pal, OBJ_PLTT_ID(0), PLTT_SIZE_4BPP*4);
         spriteId = CreateBigSprite(&sCardLeftSpriteTemplate, 0, 0, 0);
         gSprites[spriteId].callback = SpriteCallbackDummy;
         gMain.state++;
@@ -395,14 +401,15 @@ static void Menu_InitWindows(void)
 
 static void PrintToWindow(u8 windowId, u8 colorIdx)
 {
-    const u8 *cardName = gCardInfo[CARD_DARK_MAGICIAN].nameShort;
-    const u8 *cardDescription = gCardInfo[CARD_DARK_MAGICIAN].description;
+    u16 card = CardIdMapping[gSpecialVar_ItemId];
+    const u8 *cardName = gCardInfo[gSpecialVar_ItemId].nameShort;
+    const u8 *cardDescription = gCardInfo[gSpecialVar_ItemId].description;
     u8 x = 82;
     u8 y = 0;
     
     FillWindowPixelBuffer(windowId, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
     // BlitBitmapToWindow(windowId, gCardPicLarge_DarkMagician_4bpp, 0, 0, 64, 64);
-    // LoadPalette(sCardPalLarge_DarkMagician_4bpp, 0, 32);
+    // LoadPalette(gCardPalLarge_DarkMagician_4bpp, 0, 32);
     AddTextPrinterParameterized4(windowId, 1, x, y, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, cardName);
     AddTextPrinterParameterized4(windowId, 1, x, y + 16, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, cardDescription);
     LoadPalette(sMenuPalette, 0, 32);

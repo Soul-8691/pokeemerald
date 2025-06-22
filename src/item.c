@@ -14,6 +14,7 @@
 #include "battle_pyramid_bag.h"
 #include "constants/items.h"
 #include "constants/hold_effects.h"
+#include "constants/ygo.h"
 
 static bool8 CheckPyramidBagHasItem(u16 itemId, u16 count);
 static bool8 CheckPyramidBagHasSpace(u16 itemId, u16 count);
@@ -926,6 +927,7 @@ u8 GetItemType(u16 itemId)
 
 ItemUseFunc GetItemFieldFunc(u16 itemId)
 {
+    u16 card = CardIdMapping[itemId];
     return gItems[SanitizeItemId(itemId)].fieldUseFunc;
 }
 
