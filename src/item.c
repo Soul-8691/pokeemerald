@@ -927,7 +927,6 @@ u8 GetItemType(u16 itemId)
 
 ItemUseFunc GetItemFieldFunc(u16 itemId)
 {
-    u16 card = CardIdMapping[itemId];
     return gItems[SanitizeItemId(itemId)].fieldUseFunc;
 }
 

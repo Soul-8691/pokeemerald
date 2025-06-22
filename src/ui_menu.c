@@ -68,7 +68,7 @@ static bool8 Menu_InitBgs(void);
 static void Menu_FadeAndBail(void);
 static bool8 Menu_LoadGraphics(void);
 static void Menu_InitWindows(void);
-static void PrintToWindow(u8 windowId, u8 colorIdx);
+static void PrintToWindow(u8 windowId, u8 colorIdx, u16 card);
 static void Task_MenuWaitFadeIn(u8 taskId);
 static void Task_MenuMain(u8 taskId);
 
@@ -153,7 +153,7 @@ void Menu_Init(MainCallback callback)
     
     // initialize stuff
     sMenuDataPtr->gfxLoadState = 0;
-    sMenuDataPtr->savedCallback = CB2_ReturnToField;
+    sMenuDataPtr->savedCallback = CB2_ReturnToBagMenuPocket;
     
     SetMainCallback2(Menu_RunSetup);
 }
@@ -286,7 +286,7 @@ static bool8 Menu_DoGfxSetup(void)
         gMain.state++;
         break;
     case 5:
-        PrintToWindow(WINDOW_1, FONT_WHITE);
+        PrintToWindow(WINDOW_1, FONT_WHITE, card);
         taskId = CreateTask(Task_MenuWaitFadeIn, 0);
         BlendPalettes(0xFFFFFFFF, 16, RGB_BLACK);
         gMain.state++;
@@ -399,19 +399,18 @@ static void Menu_InitWindows(void)
     ScheduleBgCopyTilemapToVram(2);
 }
 
-static void PrintToWindow(u8 windowId, u8 colorIdx)
+static void PrintToWindow(u8 windowId, u8 colorIdx, u16 card)
 {
-    u16 card = CardIdMapping[gSpecialVar_ItemId];
-    const u8 *cardName = gCardInfo[gSpecialVar_ItemId].nameShort;
-    const u8 *cardDescription = gCardInfo[gSpecialVar_ItemId].description;
+    const u8 *cardName = gCardInfo[card].name;
+    const u8 *cardDescription = gCardInfo[card].description;
     u8 x = 82;
     u8 y = 0;
     
     FillWindowPixelBuffer(windowId, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
     // BlitBitmapToWindow(windowId, gCardPicLarge_DarkMagician_4bpp, 0, 0, 64, 64);
     // LoadPalette(gCardPalLarge_DarkMagician_4bpp, 0, 32);
-    AddTextPrinterParameterized4(windowId, 1, x, y, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, cardName);
-    AddTextPrinterParameterized4(windowId, 1, x, y + 16, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, cardDescription);
+    AddTextPrinterParameterized4(windowId, FONT_NARROW, x, y, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, cardName);
+    AddTextPrinterParameterized4(windowId, FONT_NARROW, x, y + 16, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, cardDescription);
     LoadPalette(sMenuPalette, 0, 32);
     PutWindowTilemap(windowId);
     CopyWindowToVram(windowId, 3);

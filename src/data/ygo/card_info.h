@@ -2,7 +2,7 @@ const u8 gCardName_DarkMagician[] = _("Dark Magician");
 const u8 gCardNameShort_DarkMagician[] = _("Dark Magician");
 const u8 gCardPassword_DarkMagician[] = _("46986414");
 const u8 gCardName_BlueEyesWhiteDragon[] = _("Blue-Eyes White Dragon");
-const u8 gCardNameShort_BlueEyesWhiteDragon[] = _("B. Eyes White Dragon");
+const u8 gCardNameShort_BlueEyesWhiteDragon[] = _("B. Eyes W. Dragon");
 const u8 gCardPassword_BlueEyesWhiteDragon[] = _("89631139");
 
 const struct CardInfo gCardInfo[] =

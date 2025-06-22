@@ -335,10 +335,8 @@ static void BuildNormalStartMenu(void)
         AddStartMenuAction(MENU_ACTION_POKENAV);
     }
     
-    // if (FlagGet(FLAG_SYS_CARDS_GET))
-    //     AddStartMenuAction(MENU_ACTION_UI_MENU);
-
-    AddStartMenuAction(MENU_ACTION_UI_MENU);
+    if (FlagGet(FLAG_SYS_CARDS_GET))
+        AddStartMenuAction(MENU_ACTION_UI_MENU);
 
     AddStartMenuAction(MENU_ACTION_PLAYER);
     AddStartMenuAction(MENU_ACTION_SAVE);
