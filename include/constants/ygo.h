@@ -15,6 +15,6 @@
 #define ATTRIBUTE_LIGHT 2
 
 #define RACE_SPELLCASTER 0
-#define RACE_DRAGON 0
+#define RACE_DRAGON 1
 
 #endif  // GUARD_CONSTANTS_YGO_H

@@ -1021,14 +1021,16 @@ static const u8 sMenuWindowFontColors_[][3] =
     [FONT_BLUE]  = {TEXT_COLOR_TRANSPARENT,  TEXT_COLOR_BLUE,       TEXT_COLOR_LIGHT_GRAY},
 };
 
-const u8 *const sCardAttributeIcons[NUM_CARDS] =
+const u8 *const sCardAttributeIcons[NUM_CARDS + 1] =
 {
     [ATTRIBUTE_DARK] = gDarkIcon,
+    [ATTRIBUTE_LIGHT] = gLightIcon,
 };
 
-const u16 *const sCardAttributeIconPals[NUM_CARDS] =
+const u16 *const sCardAttributeIconPals[NUM_CARDS + 1] =
 {
     [ATTRIBUTE_DARK] = gDarkIconPal,
+    [ATTRIBUTE_LIGHT] = gLightIconPal,
 };
 
 static void PrintItemDescription(int itemIndex)
