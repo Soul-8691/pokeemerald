@@ -24,5 +24,10 @@ extern const u32 gCardIconLarge_BlueEyesWhiteDragon[];
 extern const u32 gCardIconLargePalette_BlueEyesWhiteDragon[];
 extern const u32 gCardIconSmall_BlueEyesWhiteDragon[];
 extern const u32 gCardIconSmallPalette_BlueEyesWhiteDragon[];
+extern const u8 gDarkIcon[];
+extern const u16 gDarkIconPal[];
+extern const u32 gSpellcasterIcon[];
+extern const u32 gFusionMaterialIcon[];
+extern const u32 gStarIcon[];
 
 #endif //GUARD_YGO_GRAPHICS_H

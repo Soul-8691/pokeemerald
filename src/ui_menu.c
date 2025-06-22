@@ -407,7 +407,7 @@ static void PrintToWindow(u8 windowId, u8 colorIdx, u16 card)
     u8 y = 0;
     
     FillWindowPixelBuffer(windowId, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-    // BlitBitmapToWindow(windowId, gCardPicLarge_DarkMagician_4bpp, 0, 0, 64, 64);
+    // BlitBitmapToWindow(windowId, gCardPicLarge_DarkMagician, 0, 0, 64, 64);
     // LoadPalette(gCardPalLarge_DarkMagician_4bpp, 0, 32);
     AddTextPrinterParameterized4(windowId, FONT_NARROW, x, y, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, cardName);
     AddTextPrinterParameterized4(windowId, FONT_NARROW, x, y + 16, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, cardDescription);
