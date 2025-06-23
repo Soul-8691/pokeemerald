@@ -1,9 +1,7 @@
 const u8 gCardName_DarkMagician[] = _("Dark Magician");
 const u8 gCardNameShort_DarkMagician[] = _("Dark Magician");
-const u8 gCardPassword_DarkMagician[] = _("46986414");
 const u8 gCardName_BlueEyesWhiteDragon[] = _("Blue-Eyes White Dragon");
 const u8 gCardNameShort_BlueEyesWhiteDragon[] = _("B. Eyes W. Dragon");
-const u8 gCardPassword_BlueEyesWhiteDragon[] = _("89631139");
 
 const struct CardInfo gCardInfo[] =
 {
@@ -14,7 +12,7 @@ const struct CardInfo gCardInfo[] =
         .name = gCardName_DarkMagician,
         .nameShort = gCardNameShort_DarkMagician,
         .description = gCardDescription_DarkMagician,
-        .password = gCardPassword_DarkMagician,
+        .password = _("46986414"),
         .pic = gCardPicLarge_DarkMagician_Big,
         .pal = gCardPalLarge_DarkMagician,
         .iconSquare = gCardIconSquare_DarkMagician,
@@ -35,7 +33,7 @@ const struct CardInfo gCardInfo[] =
         .name = gCardName_BlueEyesWhiteDragon,
         .nameShort = gCardNameShort_BlueEyesWhiteDragon,
         .description = gCardDescription_BlueEyesWhiteDragon,
-        .password = gCardPassword_BlueEyesWhiteDragon,
+        .password = _("89631139"),
         .pic = gCardPicLarge_BlueEyesWhiteDragon_Big,
         .pal = gCardPalLarge_BlueEyesWhiteDragon,
         .iconSquare = gCardIconSquare_BlueEyesWhiteDragon,

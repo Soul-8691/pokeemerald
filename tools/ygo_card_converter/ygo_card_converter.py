@@ -6,7 +6,7 @@ from PIL import Image
 import re
 
 f = open("YGOProDeck_Card_Info.json", "w")
-url = "https://db.ygoprodeck.com/api/v7/cardinfo.php"
+url = "https://db.ygoprodeck.com/api/v7/cardinfo.php?misc=yes"
 res = requests.get(url)
 data = json.dumps(res.json(), indent=4)
 f.write(data)
@@ -65,6 +65,15 @@ card_info_data = open('YGOProDeck_Card_Info.json')
 card_info_data = json.load(card_info_data)
 card_info = {}
 gCardInfo = ''
+YGO = ''
+for data in card_info_data['data']:
+    card_name = data['name']
+    if card_name in card_names:
+        gCardInfo += ('const u8 gCardName_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("' + card_name + '");\n'
+                  + 'const u8 gCardNameShort_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("'
+         + card_name + '");\n')
+        YGO += 'const u8 gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("' + data['desc'].replace('"', '').replace('\r\n', '').replace('\n', '').replace("''", '') + '");\n'
+gCardInfo += '\n'
 for data in card_info_data['data']:
     card_name = data['name']
     if card_name in card_names:
@@ -173,13 +182,13 @@ for data in card_info_data['data']:
                   + '\t\t.name = gCardName_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
                   + '\t\t.nameShort = gCardNameShort_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
                   + '\t\t.description = gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
+                  + '\t\t.password = _("' + str(data['id']) + '"),\n'
                   + '\t\t.pic = gCardPicLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '_Big,\n'
                   + '\t\t.pal = gCardPalLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
                   + '\t\t.iconSquare = gCardIconSquare_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
                   + '\t\t.iconLarge = gCardIconLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
                   + '\t\t.iconSmall = gCardIconSmall_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
                   + '\t\t.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},\n'
-                  + '\t\t.password = ' + str(data['id']) + ',\n'
                   + ("\t\t.type = TYPE_" + re.sub(r'\W+', '_', data['type'].replace(" Monster", "").replace(" Card", "")).upper() + ",\n"))
         try:
             gCardInfo += ("\t\t.attribute = ATTRIBUTE_" + data['attribute'] + ",\n"
@@ -193,9 +202,11 @@ for data in card_info_data['data']:
                       +  "\t\t.atk = 0,\n"
                       + "\t\t.def = 0,\n"
                       + "\t\t.race = RACE_NONE,\n")
-        gCardInfo += ("\t\t.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},\n"
-                      + "\t\t.id = 0,\n"
+        gCardInfo += ("\t\t.id = " + str(data['misc_info'][0]['konami_id']) + ",\n"
+                      + "\t\t.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},\n"
                       + '\t},\n')
 
 gCardInfo_Output = open('card_info.h', 'w')
 gCardInfo_Output.write(gCardInfo)
+YGO_Output = open('ygo.h', 'w')
+YGO_Output.write(YGO)
