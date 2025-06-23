@@ -73,6 +73,7 @@ YGO_Graphics_C = ''
 YGO_Constants = ''
 Item_Constants = ''
 Items = ''
+YGO_C = ''
 card_counter = 1
 for data in card_info_data['data']:
     card_name = data['name']
@@ -80,7 +81,8 @@ for data in card_info_data['data']:
         gCardInfo += ('const u8 gCardName_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("' + card_name + '");\n'
                   + 'const u8 gCardNameShort_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("'
          + card_name[:12] + '");\n')
-        YGO += 'const u8 gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("' + textwrap.fill(data['desc'].replace('"', '').replace('\r\n', '').replace('\n', '').replace("''", ''), width=30).replace('\n', '\\n') + '");\n'
+        YGO_C += 'const u8 gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("' + textwrap.fill(data['desc'].replace('"', '').replace('\r\n', '').replace('\n', '').replace("''", ''), width=30).replace('\n', '\\n') + '");\n'
+        YGO += 'extern const u8 gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
         YGO_Graphics += ('extern const u32 gCardPicLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '_Big[];\n'
                      + 'extern const u16 gCardPalLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
                      + 'extern const u32 gCardIconSquare_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
@@ -247,3 +249,5 @@ Item_Constants_Output = open('include/constants/items.h', 'w')
 Item_Constants_Output.write(Item_Constants)
 Items_Output = open('src/data/items.h', 'w')
 Items_Output.write(Items)
+YGO_C_Output = open('src/ygo.c', 'w')
+YGO_C_Output.write(YGO_C)
