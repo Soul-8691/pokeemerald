@@ -66,6 +66,7 @@ card_info_data = json.load(card_info_data)
 card_info = {}
 gCardInfo = ''
 YGO = ''
+YGO_Graphics = ''
 for data in card_info_data['data']:
     card_name = data['name']
     if card_name in card_names:
@@ -73,6 +74,15 @@ for data in card_info_data['data']:
                   + 'const u8 gCardNameShort_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("'
          + card_name + '");\n')
         YGO += 'const u8 gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("' + data['desc'].replace('"', '').replace('\r\n', '').replace('\n', '').replace("''", '') + '");\n'
+        YGO_Graphics += ('extern const u32 gCardPicLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '_Big[];\n'
+                     + 'extern const u16 gCardPalLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
+                     + 'extern const u32 gCardIconSquare_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
+                     + 'extern const u32 gCardIconSquarePalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
+                     + 'extern const u32 gCardIconLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
+                     + 'extern const u32 gCardIconLargePalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
+                     + 'extern const u32 gCardIconSmall_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
+                     + 'extern const u32 gCardIconSmallPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n')
+
 gCardInfo += '\n'
 for data in card_info_data['data']:
     card_name = data['name']
@@ -210,3 +220,5 @@ gCardInfo_Output = open('card_info.h', 'w')
 gCardInfo_Output.write(gCardInfo)
 YGO_Output = open('ygo.h', 'w')
 YGO_Output.write(YGO)
+YGO_Graphics_Output = open('include/ygo_graphics.h', 'w')
+YGO_Graphics_Output.write(YGO_Graphics)
