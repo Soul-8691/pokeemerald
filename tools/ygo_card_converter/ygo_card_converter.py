@@ -67,6 +67,8 @@ card_info = {}
 gCardInfo = ''
 YGO = ''
 YGO_Graphics = ''
+ItemIconTable = ''
+YGO_Graphics_C = ''
 for data in card_info_data['data']:
     card_name = data['name']
     if card_name in card_names:
@@ -82,6 +84,15 @@ for data in card_info_data['data']:
                      + 'extern const u32 gCardIconLargePalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
                      + 'extern const u32 gCardIconSmall_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
                      + 'extern const u32 gCardIconSmallPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n')
+        ItemIconTable += '\t[ITEM_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']).upper() + '] = {gCardIconSquare_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ', gCardIconSquarePalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '},\n'
+        YGO_Graphics_C += ('const u32 gCardPicLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '_Big[] = INCBIN_U32("graphics/cards/' + re.sub(r'[^a-zA-Z0-9]', '', data['name'].replace(' ', 'xxx')).replace('xxx', '_').lower() + '/pic_large_big.8bpp.lz");\n'
+                      + 'const u16 gCardPalLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U16("graphics/cards/' + re.sub(r'[^a-zA-Z0-9]', '', data['name'].replace(' ', 'xxx')).replace('xxx', '_').lower() + '/pic_large.gbapal");\n'
+                      + 'const u32 gCardIconSquare_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'[^a-zA-Z0-9]', '', data['name'].replace(' ', 'xxx')).replace('xxx', '_').lower() + '/icon_square.4bpp.lz");\n'
+                      + 'const u32 gCardIconSquarePalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'[^a-zA-Z0-9]', '', data['name'].replace(' ', 'xxx')).replace('xxx', '_').lower() + '/icon_square.gbapal.lz");\n'
+                      + 'const u32 gCardIconLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'[^a-zA-Z0-9]', '', data['name'].replace(' ', 'xxx')).replace('xxx', '_').lower() + '/icon_large.4bpp.lz");\n'
+                      + 'const u32 gCardIconLargePalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'[^a-zA-Z0-9]', '', data['name'].replace(' ', 'xxx')).replace('xxx', '_').lower() + '/icon_large.gbapal.lz");\n'
+                      + 'const u32 gCardIconSmall_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'[^a-zA-Z0-9]', '', data['name'].replace(' ', 'xxx')).replace('xxx', '_').lower() + '/icon_small.4bpp.lz");\n'
+                      + 'const u32 gCardIconSmallPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'[^a-zA-Z0-9]', '', data['name'].replace(' ', 'xxx')).replace('xxx', '_').lower() + '/icon_small.gbapal.lz");\n')
 
 gCardInfo += '\n'
 for data in card_info_data['data']:
@@ -216,9 +227,13 @@ for data in card_info_data['data']:
                       + "\t\t.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},\n"
                       + '\t},\n')
 
-gCardInfo_Output = open('card_info.h', 'w')
+gCardInfo_Output = open('include/card_info.h', 'w')
 gCardInfo_Output.write(gCardInfo)
-YGO_Output = open('ygo.h', 'w')
+YGO_Output = open('include/ygo.h', 'w')
 YGO_Output.write(YGO)
 YGO_Graphics_Output = open('include/ygo_graphics.h', 'w')
 YGO_Graphics_Output.write(YGO_Graphics)
+ItemIconTable_Output = open('src/data/item_icon_table.h', 'w')
+ItemIconTable_Output.write(ItemIconTable)
+YGO_Graphics_C_Output = open('src/ygo_graphics.c', 'w')
+YGO_Graphics_C_Output.write(YGO_Graphics_C)
