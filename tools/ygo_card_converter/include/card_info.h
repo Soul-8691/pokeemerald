@@ -5,7 +5,7 @@ const u8 gCardNameShort_DarkMagician[] = _("Dark Magicia");
 const u8 gCardName_RedEyesBlackDragon[] = _("Red-Eyes Black Dragon");
 const u8 gCardNameShort_RedEyesBlackDragon[] = _("Red-Eyes Bla");
 
-	[BLUE_EYES_WHITE_DRAGON] =
+	[CARD_BLUE_EYES_WHITE_DRAGON] =
 	{
 		.name = gCardName_BlueEyesWhiteDragon,
 		.nameShort = gCardNameShort_BlueEyesWhiteDragon,
@@ -26,7 +26,7 @@ const u8 gCardNameShort_RedEyesBlackDragon[] = _("Red-Eyes Bla");
 		.id = 4007,
 		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
 	},
-	[DARK_MAGICIAN] =
+	[CARD_DARK_MAGICIAN] =
 	{
 		.name = gCardName_DarkMagician,
 		.nameShort = gCardNameShort_DarkMagician,
@@ -47,7 +47,7 @@ const u8 gCardNameShort_RedEyesBlackDragon[] = _("Red-Eyes Bla");
 		.id = 4041,
 		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
 	},
-	[RED_EYES_BLACK_DRAGON] =
+	[CARD_RED_EYES_BLACK_DRAGON] =
 	{
 		.name = gCardName_RedEyesBlackDragon,
 		.nameShort = gCardNameShort_RedEyesBlackDragon,

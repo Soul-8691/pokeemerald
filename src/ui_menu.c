@@ -195,6 +195,11 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
         .size = 80*80,
         .tag = TAG_CARD
     },
+    {
+        .data = gCardPicLarge_RedEyesBlackDragon_Big,
+        .size = 80*80,
+        .tag = TAG_CARD
+    },
     {},
 };
 

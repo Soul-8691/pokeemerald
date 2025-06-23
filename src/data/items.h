@@ -692,20 +692,9 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },
 
-    [ITEM_DARK_MAGICIAN] =
+	[ITEM_BLUE_EYES_WHITE_DRAGON] =
     {
-        .name = _("D Magician"),
-        .itemId = ITEM_DARK_MAGICIAN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
-    },
-
-    [ITEM_BLUE_EYES_WHITE_DRAGON] =
-    {
-        .name = _("B Eyes WD"),
+        .name = _("BlueEyesWh"),
         .itemId = ITEM_BLUE_EYES_WHITE_DRAGON,
         .price = 0,
         .description = sDummyDesc,
@@ -714,15 +703,26 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },
 
-    [ITEM_037] =
+	[ITEM_DARK_MAGICIAN] =
     {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
+        .name = _("DarkMagici"),
+        .itemId = ITEM_DARK_MAGICIAN,
         .price = 0,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_RED_EYES_BLACK_DRAGON] =
+    {
+        .name = _("RedEyesBla"),
+        .itemId = ITEM_RED_EYES_BLACK_DRAGON,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },
 
     [ITEM_038] =

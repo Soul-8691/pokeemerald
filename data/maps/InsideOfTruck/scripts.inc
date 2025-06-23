@@ -51,6 +51,7 @@ InsideOfTruck_EventScript_MovingBox::
 	@ msgbox InsideOfTruck_Text_BoxPrintedWithMonLogo, MSGBOX_SIGN
 	additem ITEM_DARK_MAGICIAN
 	additem ITEM_BLUE_EYES_WHITE_DRAGON
+	additem ITEM_RED_EYES_BLACK_DRAGON
 	end
 
 InsideOfTruck_Text_BoxPrintedWithMonLogo:

@@ -91,22 +91,22 @@ for data in card_info_data['data']:
                      + 'extern const u32 gCardIconLargePalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
                      + 'extern const u32 gCardIconSmall_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
                      + 'extern const u32 gCardIconSmallPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n')
-        ItemIconTable += '\t[ITEM_' + re.sub(r'[^a-zA-Z0-9]', '', data['name'].replace(' ', 'xxx')).replace('xxx', '_').upper() + '] = {gCardIconSquare_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ', gCardIconSquarePalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '},\n'
-        YGO_Graphics_C += ('const u32 gCardPicLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '_Big[] = INCBIN_U32("graphics/cards/' + re.sub(r'[^a-zA-Z0-9]', '', data['name'].replace(' ', 'xxx')).replace('xxx', '_').lower() + '/pic_large_big.8bpp.lz");\n'
-                      + 'const u16 gCardPalLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U16("graphics/cards/' + re.sub(r'[^a-zA-Z0-9]', '', data['name'].replace(' ', 'xxx')).replace('xxx', '_').lower() + '/pic_large.gbapal");\n'
-                      + 'const u32 gCardIconSquare_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'[^a-zA-Z0-9]', '', data['name'].replace(' ', 'xxx')).replace('xxx', '_').lower() + '/icon_square.4bpp.lz");\n'
-                      + 'const u32 gCardIconSquarePalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'[^a-zA-Z0-9]', '', data['name'].replace(' ', 'xxx')).replace('xxx', '_').lower() + '/icon_square.gbapal.lz");\n'
-                      + 'const u32 gCardIconLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'[^a-zA-Z0-9]', '', data['name'].replace(' ', 'xxx')).replace('xxx', '_').lower() + '/icon_large.4bpp.lz");\n'
-                      + 'const u32 gCardIconLargePalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'[^a-zA-Z0-9]', '', data['name'].replace(' ', 'xxx')).replace('xxx', '_').lower() + '/icon_large.gbapal.lz");\n'
-                      + 'const u32 gCardIconSmall_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'[^a-zA-Z0-9]', '', data['name'].replace(' ', 'xxx')).replace('xxx', '_').lower() + '/icon_small.4bpp.lz");\n'
-                      + 'const u32 gCardIconSmallPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'[^a-zA-Z0-9]', '', data['name'].replace(' ', 'xxx')).replace('xxx', '_').lower() + '/icon_small.gbapal.lz");\n')
-        YGO_Constants += '#define CARD_' + re.sub(r'[^a-zA-Z0-9]', '', data['name'].replace(' ', 'xxx')).replace('xxx', '_').upper() + ' ' + str(card_counter) + '\n'
-        Item_Constants += '#define ITEM_' + re.sub(r'[^a-zA-Z0-9]', '', data['name'].replace(' ', 'xxx')).replace('xxx', '_').upper() + ' ' + str(card_counter + 376) + '\n'
+        ItemIconTable += '\t[ITEM_' + re.sub(r'\W+', '_', data['name']).upper() + '] = {gCardIconSquare_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ', gCardIconSquarePalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '},\n'
+        YGO_Graphics_C += ('const u32 gCardPicLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '_Big[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/pic_large_big.8bpp.lz");\n'
+                      + 'const u16 gCardPalLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U16("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/pic_large_big.gbapal");\n'
+                      + 'const u32 gCardIconSquare_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/pic_tiny.4bpp.lz");\n'
+                      + 'const u32 gCardIconSquarePalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/pic_tiny.gbapal.lz");\n'
+                      + 'const u32 gCardIconLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/icon_large.4bpp.lz");\n'
+                      + 'const u32 gCardIconLargePalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/icon_large.gbapal.lz");\n'
+                      + 'const u32 gCardIconSmall_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/icon_small.4bpp.lz");\n'
+                      + 'const u32 gCardIconSmallPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/icon_small.gbapal.lz");\n')
+        YGO_Constants += '#define CARD_' + re.sub(r'\W+', '_', data['name']).upper() + ' ' + str(card_counter) + '\n'
+        Item_Constants += '#define ITEM_' + re.sub(r'\W+', '_', data['name']).upper() + ' ' + str(card_counter + 376) + '\n'
         card_counter += 1
-        Items += '''\t[ITEM_''' + re.sub(r'[^a-zA-Z0-9]', '', data['name'].replace(' ', 'xxx')).replace('xxx', '_').upper() + '''] =
+        Items += '''\t[ITEM_''' + re.sub(r'\W+', '_', data['name']).upper() + '''] =
     {
         .name = _("''' + re.sub(r'[^a-zA-Z0-9]', '', data['name'])[:10] + '''"),
-        .itemId = ITEM_''' + re.sub(r'[^a-zA-Z0-9]', '', data['name'].replace(' ', 'xxx')).replace('xxx', '_').upper() + ''',
+        .itemId = ITEM_''' + re.sub(r'\W+', '_', data['name']).upper() + ''',
         .price = 0,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
@@ -133,7 +133,7 @@ for data in card_info_data['data']:
             if not os.path.exists(image_cropped):
                 with open(image_cropped, 'wb') as file:
                     file.write(res.content)
-            folder_path = 'graphics/cards/' + data['name'].replace(' ', 'xxx').replace('xxx', '_').lower()
+            folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
             if not os.path.exists(folder_path):
                 os.mkdir(folder_path)
             outfile = folder_path + '/pic_large_big.png'
@@ -150,10 +150,10 @@ for data in card_info_data['data']:
                 subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.pal')])
                 subprocess.run(['../gbagfx/gbagfx', outfile.replace('.png', '.8bpp'), outfile.replace('.png', '.8bpp')])
                 subprocess.run(['../gbagfx/gbagfx', outfile.replace('.png', '.8bpp'), outfile.replace('.png', '.png'), '-palette', outfile.replace('.png', '.pal'), '-mwidth', '10'])
-            folder_path = 'graphics/cards/' + data['name'].replace(' ', 'xxx').replace('xxx', '_').lower()
+            folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
             if not os.path.exists(folder_path):
                 os.mkdir(folder_path)
-            outfile = folder_path + '/pic_square.png'
+            outfile = folder_path + '/pic_tiny.png'
             if not os.path.exists(outfile):
                 im = Image.open(image_cropped)
                 im.thumbnail(size, Image.Resampling.LANCZOS)
@@ -167,7 +167,7 @@ for data in card_info_data['data']:
                 mode='RGBA',
                 size=(32, 48),
                 color=(57,255,20,0))
-            folder_path = 'graphics/cards/' + data['name'].replace(' ', 'xxx').replace('xxx', '_').lower()
+            folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
             if not os.path.exists(folder_path):
                 os.mkdir(folder_path)
             outfile = folder_path + '/icon_large.png'
@@ -188,7 +188,7 @@ for data in card_info_data['data']:
                 mode='RGBA',
                 size=(24, 32),
                 color=(57,255,20,0))
-            folder_path = 'graphics/cards/' + data['name'].replace(' ', 'xxx').replace('xxx', '_').lower()
+            folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
             if not os.path.exists(folder_path):
                 os.mkdir(folder_path)
             outfile = folder_path + '/icon_small.png'
@@ -204,7 +204,7 @@ for data in card_info_data['data']:
                 master = move_palette_color(master, 15, 0)
                 master.save(outfile, "PNG")
                 subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
-        gCardInfo += ("\t[" + re.sub(r'\W+', '_', data['name']).upper() + "] =\n"
+        gCardInfo += ("\t[CARD_" + re.sub(r'\W+', '_', data['name']).upper() + "] =\n"
                   + "\t{\n"
                   + '\t\t.name = gCardName_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
                   + '\t\t.nameShort = gCardNameShort_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
