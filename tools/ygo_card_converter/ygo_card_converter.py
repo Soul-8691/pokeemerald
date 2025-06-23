@@ -112,27 +112,10 @@ for data in card_info_data['data']:
             if not os.path.exists(image_cropped):
                 with open(image_cropped, 'wb') as file:
                     file.write(res.content)
-            outfile = 'Sprites/' + card_name + '_' + card_id + '_64x64_6bpp.png'
-            if not os.path.exists(outfile):
-                size = 64, 64
-                im = Image.open(image_cropped)
-                im.thumbnail(size, Image.Resampling.LANCZOS)
-                im = im.convert(
-                    "P", palette=Image.ADAPTIVE, colors=63
-                )
-                im = move_palette_color(im, 63, 0)
-                im.save(outfile, "PNG")
-            outfile = 'Sprites/' + card_name + '_' + card_id + '_64x64_4bpp.png'
-            if not os.path.exists(outfile):
-                size = 64, 64
-                im = Image.open(image_cropped)
-                im.thumbnail(size, Image.Resampling.LANCZOS)
-                im = im.convert(
-                    "P", palette=Image.ADAPTIVE, colors=15
-                )
-                im = move_palette_color(im, 15, 0)
-                im.save(outfile, "PNG")
-            outfile = 'Sprites/' + card_name + '_' + card_id + '_80x80_6bpp.png'
+            folder_path = 'graphics/cards/' + data['name'].replace(' ', 'xxx').replace('xxx', '_').lower()
+            if not os.path.exists(folder_path):
+                os.mkdir(folder_path)
+            outfile = folder_path + '/pic_large_big.png'
             if not os.path.exists(outfile):
                 size = 80, 80
                 im = Image.open(image_cropped)
@@ -142,18 +125,14 @@ for data in card_info_data['data']:
                 )
                 im = move_palette_color(im, 63, 0)
                 im.save(outfile, "PNG")
-            outfile = 'Sprites/' + card_name + '_' + card_id + '_80x80_4bpp.png'
-            if not os.path.exists(outfile):
-                size = 80, 80
-                im = Image.open(image_cropped)
-                im.thumbnail(size, Image.Resampling.LANCZOS)
-                im = im.convert(
-                    "P", palette=Image.ADAPTIVE, colors=15
-                )
-                im = move_palette_color(im, 15, 0)
-                im.save(outfile, "PNG")
-            size = 32, 32
-            outfile = 'Sprites/Icons/Original/' + card_name + '_' + card_id + '_32x32.png'
+                subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.8bpp')])
+                subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.pal')])
+                subprocess.run(['../gbagfx/gbagfx', outfile.replace('.png', '.8bpp'), outfile.replace('.png', '.8bpp')])
+                subprocess.run(['../gbagfx/gbagfx', outfile.replace('.png', '.8bpp'), outfile.replace('.png', '.png'), '-palette', outfile.replace('.png', '.pal'), '-mwidth', '10'])
+            folder_path = 'graphics/cards/' + data['name'].replace(' ', 'xxx').replace('xxx', '_').lower()
+            if not os.path.exists(folder_path):
+                os.mkdir(folder_path)
+            outfile = folder_path + '/pic_square.png'
             if not os.path.exists(outfile):
                 im = Image.open(image_cropped)
                 im.thumbnail(size, Image.Resampling.LANCZOS)
@@ -167,37 +146,43 @@ for data in card_info_data['data']:
                 mode='RGBA',
                 size=(32, 48),
                 color=(57,255,20,0))
-            outfile = 'Sprites/Icons/Original/' + card_name + '_' + card_id + '_32x46.png'
+            folder_path = 'graphics/cards/' + data['name'].replace(' ', 'xxx').replace('xxx', '_').lower()
+            if not os.path.exists(folder_path):
+                os.mkdir(folder_path)
+            outfile = folder_path + '/icon_large.png'
             if not os.path.exists(outfile):
                 im = Image.open(image)
                 im.thumbnail(size, Image.Resampling.LANCZOS)
                 master.paste(im, box=(0,1))
                 master.save(outfile, "PNG")
-                subprocess.run(['./magick', outfile, '-colors', "17", '-define', 'png:exclude-chunk=bKGD', outfile])
                 master = Image.open(outfile)
                 master = master.convert(
                     "P", palette=Image.ADAPTIVE, colors=15
                 )
                 master = move_palette_color(master, 15, 0)
                 master.save(outfile, "PNG")
+                subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
             size = 22, 32
             master = Image.new(
                 mode='RGBA',
                 size=(24, 32),
                 color=(57,255,20,0))
-            outfile = 'Sprites/Icons/Original/' + card_name + '_' + card_id + '_22x32.png'
+            folder_path = 'graphics/cards/' + data['name'].replace(' ', 'xxx').replace('xxx', '_').lower()
+            if not os.path.exists(folder_path):
+                os.mkdir(folder_path)
+            outfile = folder_path + '/icon_small.png'
             if not os.path.exists(outfile):
                 im = Image.open(image)
                 im.thumbnail(size, Image.Resampling.LANCZOS)
                 master.paste(im, box=(1,0))
                 master.save(outfile, "PNG")
-                subprocess.run(['./magick', outfile, '-colors', "17", '-define', 'png:exclude-chunk=bKGD', outfile])
                 master = Image.open(outfile)
                 master = master.convert(
                     "P", palette=Image.ADAPTIVE, colors=15
                 )
                 master = move_palette_color(master, 15, 0)
                 master.save(outfile, "PNG")
+                subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
         gCardInfo += ("\t[" + re.sub(r'\W+', '_', data['name']).upper() + "] =\n"
                   + "\t{\n"
                   + '\t\t.name = gCardName_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'

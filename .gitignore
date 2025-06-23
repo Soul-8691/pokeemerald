@@ -45,13 +45,8 @@ prefabs.json
 /tools/gbagfx/*.4bpp
 /tools/gbagfx/*.8bpp
 /tools/ygo_card_converter/Artwork/*.jpg
-/tools/ygo_card_converter/Sprites/*.png
-/tools/ygo_card_converter/Sprites/Icons/*.png
-/tools/ygo_card_converter/Sprites/Icons/Original/*.png
-/tools/ygo_card_converter/Sprites/*.pal
-/tools/ygo_card_converter/Sprites/Icons/*.pal
-/tools/ygo_card_converter/Sprites/*.4bpp
-/tools/ygo_card_converter/Sprites/Icons/*.4bpp
-/tools/ygo_card_converter/Sprites/*.8bpp
-/tools/ygo_card_converter/Sprites/Icons/*.8bpp
+/tools/ygo_card_converter/graphics/cards/*/*.png
+/tools/ygo_card_converter/graphics/cards/*/*.pal
+/tools/ygo_card_converter/graphics/cards/*/*.4bpp
+/tools/ygo_card_converter/graphics/cards/*/*.8bpp
 *.Identifier
