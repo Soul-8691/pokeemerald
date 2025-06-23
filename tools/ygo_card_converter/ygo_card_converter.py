@@ -74,6 +74,7 @@ YGO_Constants = ''
 Item_Constants = ''
 Items = ''
 YGO_C = ''
+UI_Menu = ''
 card_counter = 1
 for data in card_info_data['data']:
     card_name = data['name']
@@ -114,8 +115,15 @@ for data in card_info_data['data']:
         .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },\n
 '''
+        UI_Menu += '''    {
+        .data = gCardPicLarge_''' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '''_Big,
+        .size = 80*80,
+        .tag = TAG_CARD
+    },\n'''
 
 gCardInfo += '\n'
+YGO_C += '\n'
+card_counter = 1
 for data in card_info_data['data']:
     card_name = data['name']
     if card_name in card_names:
@@ -233,6 +241,8 @@ for data in card_info_data['data']:
         gCardInfo += ("\t\t.id = " + str(data['misc_info'][0]['konami_id']) + ",\n"
                       + "\t\t.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},\n"
                       + '\t},\n')
+        YGO_C += '    [ITEM_' + re.sub(r'\W+', '_', data['name']).upper() + '] = ' + str(card_counter) + ',\n'
+        card_counter += 1
 
 gCardInfo_Output = open('include/card_info.h', 'w')
 gCardInfo_Output.write(gCardInfo)
@@ -252,3 +262,5 @@ Items_Output = open('src/data/items.h', 'w')
 Items_Output.write(Items)
 YGO_C_Output = open('src/ygo.c', 'w')
 YGO_C_Output.write(YGO_C)
+UI_Menu_Output = open('src/ui_menu.c', 'w')
+UI_Menu_Output.write(UI_Menu)
