@@ -694,7 +694,7 @@ const struct Item gItems[] =
 
 	[ITEM_BLUE_EYES_WHITE_DRAGON] =
     {
-        .name = _("BlueEyesWh"),
+        .name = _("BlueEyesWhite"),
         .itemId = ITEM_BLUE_EYES_WHITE_DRAGON,
         .price = 0,
         .description = sDummyDesc,
@@ -705,7 +705,7 @@ const struct Item gItems[] =
 
 	[ITEM_DARK_MAGICIAN] =
     {
-        .name = _("DarkMagici"),
+        .name = _("DarkMagicia"),
         .itemId = ITEM_DARK_MAGICIAN,
         .price = 0,
         .description = sDummyDesc,
@@ -716,7 +716,7 @@ const struct Item gItems[] =
 
 	[ITEM_RED_EYES_BLACK_DRAGON] =
     {
-        .name = _("RedEyesBla"),
+        .name = _("RedEyesBlackD"),
         .itemId = ITEM_RED_EYES_BLACK_DRAGON,
         .price = 0,
         .description = sDummyDesc,

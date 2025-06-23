@@ -186,12 +186,12 @@ static void Menu_VBlankCB(void)
 static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 {
     {
-        .data = gCardPicLarge_DarkMagician_Big,
+        .data = gCardPicLarge_BlueEyesWhiteDragon_Big,
         .size = 80*80,
         .tag = TAG_CARD
     },
     {
-        .data = gCardPicLarge_BlueEyesWhiteDragon_Big,
+        .data = gCardPicLarge_DarkMagician_Big,
         .size = 80*80,
         .tag = TAG_CARD
     },

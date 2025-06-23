@@ -105,7 +105,7 @@ for data in card_info_data['data']:
         card_counter += 1
         Items += '''\t[ITEM_''' + re.sub(r'\W+', '_', data['name']).upper() + '''] =
     {
-        .name = _("''' + re.sub(r'[^a-zA-Z0-9]', '', data['name'])[:10] + '''"),
+        .name = _("''' + re.sub(r'[^a-zA-Z0-9]', '', data['name'])[:13] + '''"),
         .itemId = ITEM_''' + re.sub(r'\W+', '_', data['name']).upper() + ''',
         .price = 0,
         .description = sDummyDesc,
@@ -150,6 +150,7 @@ for data in card_info_data['data']:
                 subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.pal')])
                 subprocess.run(['../gbagfx/gbagfx', outfile.replace('.png', '.8bpp'), outfile.replace('.png', '.8bpp')])
                 subprocess.run(['../gbagfx/gbagfx', outfile.replace('.png', '.8bpp'), outfile.replace('.png', '.png'), '-palette', outfile.replace('.png', '.pal'), '-mwidth', '10'])
+            size = 32, 32
             folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
             if not os.path.exists(folder_path):
                 os.mkdir(folder_path)
