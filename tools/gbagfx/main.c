@@ -670,7 +670,7 @@ int main(int argc, char **argv)
     {
         { "1bpp", "png", HandleGbaToPngCommand },
         { "4bpp", "png", HandleGbaToPngCommand },
-        { "4bpp", "4bpp", HandleBigSpriteCommand },
+        { "4bpp", "4bpp", HandleGbaToPngCommand },
         { "8bpp", "png", HandleGbaToPngCommand },
         { "8bpp", "8bpp", HandleBigSpriteCommand },
         { "png", "1bpp", HandlePngToGbaCommand },

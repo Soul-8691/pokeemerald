@@ -3,6 +3,7 @@ import json
 import os
 import subprocess
 from PIL import Image
+import re
 
 f = open("YGOProDeck_Card_Info.json", "w")
 url = "https://db.ygoprodeck.com/api/v7/cardinfo.php"
@@ -63,6 +64,7 @@ card_names = ['Dark Magician', 'Blue-Eyes White Dragon', 'Red-Eyes Black Dragon'
 card_info_data = open('YGOProDeck_Card_Info.json')
 card_info_data = json.load(card_info_data)
 card_info = {}
+gCardInfo = ''
 for data in card_info_data['data']:
     card_name = data['name']
     if card_name in card_names:
@@ -166,58 +168,34 @@ for data in card_info_data['data']:
                 )
                 master = move_palette_color(master, 15, 0)
                 master.save(outfile, "PNG")
-            # master = Image.new(
-                # mode='RGBA',
-                # size=(32, 64),
-                # color=(57,255,20,0))
-            # palette = 'pal0.png'
-            # palette = Image.open(palette)
-            # master = master.convert("RGB").quantize(palette=palette)
-            # outfile = 'Sprites/Icons/' + card_name + '_' + card_id + '_Pal0.png'
-            # im = im.convert(
-                # "P", palette=Image.ADAPTIVE, colors=16
-            # )
-            # # if not os.path.exists(outfile):
-            # im.save(outfile, "PNG")
-            # im = im.convert("RGB").quantize(palette=palette)
-            # master.paste(im, box=(0,0))
-            # master.paste(im, box=(0,32))
-            # master.save(outfile, "PNG")
-            # palette = 'pal1.png'
-            # palette = Image.open(palette)
-            # master = master.convert("RGB").quantize(palette=palette)
-            # size = 32, 32
-            # outfile = 'Sprites/Icons/Original/' + card_name + '_' + card_id + '.png'
-            # # if not os.path.exists(outfile):
-            # im = Image.open(image_cropped)
-            # im.thumbnail(size, Image.Resampling.LANCZOS)
-            # im.save(outfile, "PNG")
-            # outfile = 'Sprites/Icons/' + card_name + '_' + card_id + '_Pal1.png'
-            # im = im.convert(
-                # "P", palette=Image.ADAPTIVE, colors=16
-            # )
-            # # if not os.path.exists(outfile):
-            # im.save(outfile, "PNG")
-            # im = im.convert("RGB").quantize(palette=palette)
-            # master.paste(im, box=(0,0))
-            # master.paste(im, box=(0,32))
-            # master.save(outfile, "PNG")
-            # palette = 'pal2.png'
-            # palette = Image.open(palette)
-            # master = master.convert("RGB").quantize(palette=palette)
-            # size = 32, 32
-            # outfile = 'Sprites/Icons/Original/' + card_name + '_' + card_id + '.png'
-            # # if not os.path.exists(outfile):
-            # im = Image.open(image_cropped)
-            # im.thumbnail(size, Image.Resampling.LANCZOS)
-            # im.save(outfile, "PNG")
-            # outfile = 'Sprites/Icons/' + card_name + '_' + card_id + '_Pal2.png'
-            # im = im.convert(
-                # "P", palette=Image.ADAPTIVE, colors=16
-            # )
-            # # if not os.path.exists(outfile):
-            # im.save(outfile, "PNG")
-            # im = im.convert("RGB").quantize(palette=palette)
-            # master.paste(im, box=(0,0))
-            # master.paste(im, box=(0,32))
-            # master.save(outfile, "PNG")
+        gCardInfo += ("\t[" + re.sub(r'\W+', '_', data['name']).upper() + "] =\n"
+                  + "\t{\n"
+                  + '\t\t.name = gCardName_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
+                  + '\t\t.nameShort = gCardNameShort_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
+                  + '\t\t.description = gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
+                  + '\t\t.pic = gCardPicLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '_Big,\n'
+                  + '\t\t.pal = gCardPalLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
+                  + '\t\t.iconSquare = gCardIconSquare_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
+                  + '\t\t.iconLarge = gCardIconLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
+                  + '\t\t.iconSmall = gCardIconSmall_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
+                  + '\t\t.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},\n'
+                  + '\t\t.password = ' + str(data['id']) + ',\n'
+                  + ("\t\t.type = TYPE_" + re.sub(r'\W+', '_', data['type'].replace(" Monster", "").replace(" Card", "")).upper() + ",\n"))
+        try:
+            gCardInfo += ("\t\t.attribute = ATTRIBUTE_" + data['attribute'] + ",\n"
+                       + "\t\t.level = " + str(data['level']) + ",\n"
+                       + "\t\t.atk = " + str(int(data['atk']/10)) + ",\n"
+                       + "\t\t.def = " + str(int(data['def']/10)) + ",\n"
+                       + "\t\t.race = RACE_" + re.sub(r'\W+', '_', data['race']).upper() + ",\n")
+        except:
+            gCardInfo += ("\t\t.attribute = ATTRIBUTE_NONE,\n"
+                      + "\t\t.level = 0,\n"
+                      +  "\t\t.atk = 0,\n"
+                      + "\t\t.def = 0,\n"
+                      + "\t\t.race = RACE_NONE,\n")
+        gCardInfo += ("\t\t.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},\n"
+                      + "\t\t.id = 0,\n"
+                      + '\t},\n')
+
+gCardInfo_Output = open('card_info.h', 'w')
+gCardInfo_Output.write(gCardInfo)
