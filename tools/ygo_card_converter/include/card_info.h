@@ -1,9 +1,9 @@
 const u8 gCardName_BlueEyesWhiteDragon[] = _("Blue-Eyes White Dragon");
-const u8 gCardNameShort_BlueEyesWhiteDragon[] = _("Blue-Eyes White Dragon");
+const u8 gCardNameShort_BlueEyesWhiteDragon[] = _("Blue-Eyes Wh");
 const u8 gCardName_DarkMagician[] = _("Dark Magician");
-const u8 gCardNameShort_DarkMagician[] = _("Dark Magician");
+const u8 gCardNameShort_DarkMagician[] = _("Dark Magicia");
 const u8 gCardName_RedEyesBlackDragon[] = _("Red-Eyes Black Dragon");
-const u8 gCardNameShort_RedEyesBlackDragon[] = _("Red-Eyes Black Dragon");
+const u8 gCardNameShort_RedEyesBlackDragon[] = _("Red-Eyes Bla");
 
 	[BLUE_EYES_WHITE_DRAGON] =
 	{

@@ -4,6 +4,7 @@ import os
 import subprocess
 from PIL import Image
 import re
+import textwrap
 
 f = open("YGOProDeck_Card_Info.json", "w")
 url = "https://db.ygoprodeck.com/api/v7/cardinfo.php?misc=yes"
@@ -78,8 +79,8 @@ for data in card_info_data['data']:
     if card_name in card_names:
         gCardInfo += ('const u8 gCardName_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("' + card_name + '");\n'
                   + 'const u8 gCardNameShort_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("'
-         + card_name + '");\n')
-        YGO += 'const u8 gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("' + data['desc'].replace('"', '').replace('\r\n', '').replace('\n', '').replace("''", '') + '");\n'
+         + card_name[:12] + '");\n')
+        YGO += 'const u8 gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("' + textwrap.fill(data['desc'].replace('"', '').replace('\r\n', '').replace('\n', '').replace("''", ''), width=30).replace('\n', '\\n') + '");\n'
         YGO_Graphics += ('extern const u32 gCardPicLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '_Big[];\n'
                      + 'extern const u16 gCardPalLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
                      + 'extern const u32 gCardIconSquare_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
@@ -102,7 +103,7 @@ for data in card_info_data['data']:
         card_counter += 1
         Items += '''\t[ITEM_''' + re.sub(r'[^a-zA-Z0-9]', '', data['name'].replace(' ', 'xxx')).replace('xxx', '_').upper() + '''] =
     {
-        .name = _("''' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '''"),
+        .name = _("''' + re.sub(r'[^a-zA-Z0-9]', '', data['name'])[:10] + '''"),
         .itemId = ITEM_''' + re.sub(r'[^a-zA-Z0-9]', '', data['name'].replace(' ', 'xxx')).replace('xxx', '_').upper() + ''',
         .price = 0,
         .description = sDummyDesc,
