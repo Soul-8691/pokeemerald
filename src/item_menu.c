@@ -1273,7 +1273,7 @@ static void PrintItemDescription(int itemIndex)
     else
     {
         BagMenu_Print(WIN_DESCRIPTION, FONT_SMALL_NARROWER, cardName, 3, 4, 0, 0, 0, COLORID_NORMAL);
-        ConvertIntToDecimalStringN(gStringVar1, card, STR_CONV_MODE_LEFT_ALIGN, 2);
+        ConvertIntToDecimalStringN(gStringVar1, cardLevel, STR_CONV_MODE_LEFT_ALIGN, 2);
         StringExpandPlaceholders(gStringVar4, gText_xLevel);
         BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, gStringVar4, 3, 20, 0, 0, 0, COLORID_NORMAL);
         ConvertIntToDecimalStringN(gStringVar1, cardAtk, STR_CONV_MODE_LEFT_ALIGN, 4);
@@ -1672,6 +1672,7 @@ static void SwitchBagPocket(u8 taskId, s16 deltaBagPocketId, bool16 skipEraseLis
 static void Task_SwitchBagPocket(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
+    u16 card = CardIdMapping[gSpecialVar_ItemId];
 
     if (!MenuHelpers_IsLinkActive() && !IsWallysBag())
     {
@@ -1708,8 +1709,11 @@ static void Task_SwitchBagPocket(u8 taskId)
         LoadBagItemListBuffers(gBagPosition.pocket);
         tListTaskId = ListMenuInit(&gMultiuseListMenuTemplate, gBagPosition.scrollPosition[gBagPosition.pocket], gBagPosition.cursorPosition[gBagPosition.pocket]);
         PutWindowTilemap(WIN_DESCRIPTION);
-        PutWindowTilemap(WIN_UPPER);
-        PutWindowTilemap(WIN_UPPER_2);
+        if (card != 0)
+        {
+            PutWindowTilemap(WIN_UPPER);
+            PutWindowTilemap(WIN_UPPER_2);
+        }
         PutWindowTilemap(WIN_POCKET_NAME);
         ScheduleBgCopyTilemapToVram(0);
         CreatePocketScrollArrowPair();
@@ -2984,7 +2988,7 @@ static const u8 sText_SortItemsHow[] = _("Sort items how?");
 static const u8 sText_Name[] = _("name");
 static const u8 sText_Type[] = _("type");
 static const u8 sText_Amount[] = _("amount");
-static const u8 sText_Id[] = _("id");
+static const u8 sText_Id[] = _("ID");
 static const u8 sText_Level[] = _("level");
 static const u8 sText_Atk[] = _("ATK");
 static const u8 sText_Def[] = _("DEF");
