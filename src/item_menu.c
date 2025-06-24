@@ -123,9 +123,9 @@ enum {
 enum {
     WIN_ITEM_LIST,
     WIN_DESCRIPTION,
+    WIN_POCKET_NAME,
     WIN_UPPER,
     WIN_UPPER_2,
-    WIN_POCKET_NAME,
     WIN_TMHM_INFO_ICONS,
     WIN_TMHM_INFO,
 };
@@ -1264,12 +1264,15 @@ static void PrintItemDescription(int itemIndex)
     FillWindowPixelBuffer(WIN_DESCRIPTION, PIXEL_FILL(0));
     FillWindowPixelBuffer(WIN_UPPER, PIXEL_FILL(0));
     FillWindowPixelBuffer(WIN_UPPER_2, PIXEL_FILL(0));
-    if (card == 0)
+    if (card == 0) {
         BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, str, 3, 4, 0, 0, 0, COLORID_NORMAL);
+        ClearWindowTilemap(WIN_UPPER);
+        ClearWindowTilemap(WIN_UPPER_2);
+    }
     else
     {
         BagMenu_Print(WIN_DESCRIPTION, FONT_SMALL_NARROWER, cardName, 3, 4, 0, 0, 0, COLORID_NORMAL);
-        ConvertIntToDecimalStringN(gStringVar1, cardLevel, STR_CONV_MODE_LEFT_ALIGN, 2);
+        ConvertIntToDecimalStringN(gStringVar1, card, STR_CONV_MODE_LEFT_ALIGN, 2);
         StringExpandPlaceholders(gStringVar4, gText_xLevel);
         BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, gStringVar4, 3, 20, 0, 0, 0, COLORID_NORMAL);
         ConvertIntToDecimalStringN(gStringVar1, cardAtk, STR_CONV_MODE_LEFT_ALIGN, 4);
@@ -2772,7 +2775,7 @@ static void LoadBagMenuTextWindows(void)
     LoadMessageBoxGfx(0, 10, BG_PLTT_ID(13));
     ListMenuLoadStdPalAt(BG_PLTT_ID(12), 1);
     LoadPalette(&gStandardMenuPalette, BG_PLTT_ID(15), PLTT_SIZE_4BPP);
-    for (i = 0; i <= WIN_POCKET_NAME; i++)
+    for (i = 0; i <= WIN_UPPER_2; i++)
     {
         FillWindowPixelBuffer(i, PIXEL_FILL(0));
         PutWindowTilemap(i);
