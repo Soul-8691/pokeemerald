@@ -60,6 +60,7 @@ enum WindowIds
 //==========EWRAM==========//
 static EWRAM_DATA struct MenuResources *sMenuDataPtr = NULL;
 static EWRAM_DATA u8 *sBg1TilemapBuffer = NULL;
+static EWRAM_DATA u8 *sBg2TilemapBuffer = NULL;
 
 //==========STATIC=DEFINES==========//
 static void Menu_RunSetup(void);
@@ -110,9 +111,12 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
     DUMMY_WIN_TEMPLATE,
 };
 
-static const u32 sMenuTiles[] = INCBIN_U32("graphics/ui_menu/tiles.4bpp.lz");
-static const u32 sMenuTilemap[] = INCBIN_U32("graphics/ui_menu/tilemap.bin.lz");
-static const u16 sMenuPalette[] = INCBIN_U16("graphics/ui_menu/palette.gbapal");
+static const u32 sMenuTiles[] = INCBIN_U32("graphics/cards/details_bg.8bpp.lz");
+static const u32 sMenuTilemap[] = INCBIN_U32("graphics/cards/details_bg.bin.lz");
+static const u16 sMenuPalette[] = INCBIN_U16("graphics/cards/details_bg.gbapal");
+static const u32 sBackgroundTiles[] = INCBIN_U32("graphics/cards/background.4bpp.lz");
+static const u32 sBackgroundTilemap[] = INCBIN_U32("graphics/cards/background.bin.lz");
+static const u16 sBackgroundPalette[] = INCBIN_U16("graphics/cards/background.gbapal");
 
 enum Colors
 {
@@ -265,7 +269,7 @@ static bool8 Menu_DoGfxSetup(void)
         ResetTasks();
         LoadCompressedSpriteSheet(&sSpriteSheet_Cards[card - 1]);
         LoadPalette(gCardInfo[card].pal, OBJ_PLTT_ID(0), PLTT_SIZE_4BPP*4);
-        spriteId = CreateBigSprite(&sCardLeftSpriteTemplate, 0, 0, 0);
+        spriteId = CreateBigSprite(&sCardLeftSpriteTemplate, 16, 32, 0);
         gSprites[spriteId].callback = SpriteCallbackDummy;
         gMain.state++;
         break;
@@ -318,6 +322,7 @@ static void Menu_FreeResources(void)
 {
     try_free(sMenuDataPtr);
     try_free(sBg1TilemapBuffer);
+    try_free(sBg2TilemapBuffer);
     FreeAllWindowBuffers();
 }
 
@@ -346,10 +351,14 @@ static bool8 Menu_InitBgs(void)
     sBg1TilemapBuffer = AllocZeroed(BG_SCREEN_SIZE);
     if (sBg1TilemapBuffer == NULL)
         return FALSE;
+    sBg2TilemapBuffer = AllocZeroed(BG_SCREEN_SIZE);
+    if (sBg2TilemapBuffer == NULL)
+        return FALSE;
     
     ResetBgsAndClearDma3BusyFlags(0);
     InitBgsFromTemplates(0, sMenuBgTemplates, NELEMS(sMenuBgTemplates));
     SetBgTilemapBuffer(1, sBg1TilemapBuffer);
+    SetBgTilemapBuffer(2, sBg2TilemapBuffer);
     ScheduleBgCopyTilemapToVram(1);
     ScheduleBgCopyTilemapToVram(2);
     
@@ -367,18 +376,30 @@ static bool8 Menu_LoadGraphics(void)
     {
     case 0:
         ResetTempTileDataBuffers();
-        // DecompressAndCopyTileDataToVram(1, sMenuTiles, 0, 0, 0);
+        // if (FreeTempTileDataBuffersIfPossible() != TRUE)
+        // {
+        //     DecompressAndCopyTileDataToVram(1, sMenuTiles, 0, 0, 1);
+        // }
+        // else
+        //     LZDecompressWram(sMenuTiles, sBg1TilemapBuffer);
+        DecompressAndCopyTileDataToVram(1, sBackgroundTiles, 0, 0, 0);
+        // DecompressAndCopyTileDataToVram(2, sMenuTiles, 0, 0, 0);
         sMenuDataPtr->gfxLoadState++;
         break;
     case 1:
         if (FreeTempTileDataBuffersIfPossible() != TRUE)
         {
-            // LZDecompressWram(sMenuTilemap, sBg1TilemapBuffer);
+            // DecompressAndCopyTileDataToVram(1, sMenuTilemap, 0, 0, 1);
+            LZDecompressWram(sBackgroundTilemap, sBg1TilemapBuffer);
+            // CopyToBgTilemapBuffer(1, sMenuTilemap, 0, 0);
+            // LZDecompressWram(sMenuTilemap, sBg2TilemapBuffer);
             sMenuDataPtr->gfxLoadState++;
         }
+        // else
+        //     LZDecompressWram(sMenuTilemap, sBg1TilemapBuffer);
         break;
     case 2:
-        // LoadPalette(sMenuPalette, 0, 32);
+        LoadPalette(sBackgroundPalette, 0, 32);
         sMenuDataPtr->gfxLoadState++;
         break;
     default:
@@ -408,7 +429,7 @@ static void PrintToWindow(u8 windowId, u8 colorIdx, u16 card)
 {
     const u8 *cardName = gCardInfo[card].name;
     const u8 *cardDescription = gCardInfo[card].description;
-    u8 x = 82;
+    u8 x = 116;
     u8 y = 0;
     
     FillWindowPixelBuffer(windowId, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
@@ -416,7 +437,7 @@ static void PrintToWindow(u8 windowId, u8 colorIdx, u16 card)
     // LoadPalette(gCardPalLarge_DarkMagician_4bpp, 0, 32);
     AddTextPrinterParameterized4(windowId, FONT_SMALL_NARROWER, x, y, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, cardName);
     AddTextPrinterParameterized4(windowId, FONT_SMALL_NARROWER, x, y + 16, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, cardDescription);
-    LoadPalette(sMenuPalette, 0, 32);
+    LoadPalette(sMenuPalette, 16, 64);
     PutWindowTilemap(windowId);
     CopyWindowToVram(windowId, 3);
 }

@@ -4,9 +4,9 @@
 #include "ygo_graphics.h"
 #include "constants/items.h"
 
-const u8 gCardDescription_BlueEyesWhiteDragon[] = _("This legendary dragon is a powerful\nengine of destruction. Virtually\ninvincible, very few have faced this\nawesome creature and lived to tell the\ntale.");
-const u8 gCardDescription_DarkMagician[] = _("The ultimate wizard in terms of attack\nand defense.");
-const u8 gCardDescription_RedEyesBlackDragon[] = _("A ferocious dragon with a deadly attack.");
+const u8 gCardDescription_BlueEyesWhiteDragon[] = _("This legendary dragon is a\npowerful engine of\ndestruction. Virtually\ninvincible, very few have\nfaced this awesome creature\nand lived to tell the tale.");
+const u8 gCardDescription_DarkMagician[] = _("The ultimate wizard in terms\nof attack and defense.");
+const u8 gCardDescription_RedEyesBlackDragon[] = _("A ferocious dragon with a\ndeadly attack.");
 
 const u8 CardIdMapping[] = 
 {

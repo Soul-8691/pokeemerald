@@ -1758,25 +1758,6 @@ bool8 AddSubspritesToOamBuffer(struct Sprite *sprite, struct OamData *destOam, u
     return 0;
 }
 
-static const s8 sOffsetVecTableChildren[5][2] =
-{
-    {   // upper left
-        -8,  -8
-    },
-    {   // bottom left
-        -8,  24
-    },
-    {   // upper right
-        32,  -24
-    },
-    {   // middle right
-        32,  0
-    },
-    {   // bottom right
-        32,  24
-    },
-};
-
 u8 CreateBigSpriteAt(u8 index, const struct SpriteTemplate *template, s16 x, s16 y, u8 subpriority)
 {
     u8 ic;
@@ -1843,8 +1824,8 @@ u8 CreateBigSpriteAt(u8 index, const struct SpriteTemplate *template, s16 x, s16
     gSprites[1].x = x;
     gSprites[1].y = y + 64;
     gSprites[2].x = x + 32;
-    gSprites[2].y = x + 64;
-    gSprites[3].x = y + 64;
+    gSprites[2].y = y + 64;
+    gSprites[3].x = x + 64;
     gSprites[3].y = y;
     gSprites[4].x = x + 64;
     gSprites[4].y = y + 32;
