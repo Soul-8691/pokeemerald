@@ -25,6 +25,10 @@ struct LoadedSaveData
  /*0x00F0*/ struct ItemSlot pokeBalls[BAG_POKEBALLS_COUNT];
  /*0x0130*/ struct ItemSlot TMsHMs[BAG_TMHM_COUNT];
  /*0x0230*/ struct ItemSlot berries[BAG_BERRIES_COUNT];
+ /*0x0000*/ struct ItemSlot trunk[BAG_TRUNK_COUNT];
+ /*0x0000*/ struct ItemSlot mainDeck[BAG_MAIN_DECK_COUNT];
+ /*0x0000*/ struct ItemSlot extraDeck[BAG_EXTRA_DECK_COUNT];
+ /*0x0000*/ struct ItemSlot sideDeck[BAG_SIDE_DECK_COUNT];
  /*0x02E8*/ struct Mail mail[MAIL_COUNT];
 };
 
@@ -213,6 +217,22 @@ void LoadPlayerBag(void)
     for (i = 0; i < BAG_ITEMS_COUNT; i++)
         gLoadedSaveData.items[i] = gSaveBlock1Ptr->bagPocket_Items[i];
 
+    // load player items.
+    for (i = 0; i < BAG_TRUNK_COUNT; i++)
+        gLoadedSaveData.trunk[i] = gSaveBlock1Ptr->bagPocket_Trunk[i];
+
+    // load player items.
+    for (i = 0; i < BAG_MAIN_DECK_COUNT; i++)
+        gLoadedSaveData.mainDeck[i] = gSaveBlock1Ptr->bagPocket_MainDeck[i];
+
+    // load player items.
+    for (i = 0; i < BAG_EXTRA_DECK_COUNT; i++)
+        gLoadedSaveData.extraDeck[i] = gSaveBlock1Ptr->bagPocket_ExtraDeck[i];
+
+    // load player items.
+    for (i = 0; i < BAG_SIDE_DECK_COUNT; i++)
+        gLoadedSaveData.sideDeck[i] = gSaveBlock1Ptr->bagPocket_SideDeck[i];
+
     // load player key items.
     for (i = 0; i < BAG_KEYITEMS_COUNT; i++)
         gLoadedSaveData.keyItems[i] = gSaveBlock1Ptr->bagPocket_KeyItems[i];
@@ -244,6 +264,22 @@ void SavePlayerBag(void)
     // save player items.
     for (i = 0; i < BAG_ITEMS_COUNT; i++)
         gSaveBlock1Ptr->bagPocket_Items[i] = gLoadedSaveData.items[i];
+
+    // save player items.
+    for (i = 0; i < BAG_TRUNK_COUNT; i++)
+        gSaveBlock1Ptr->bagPocket_Trunk[i] = gLoadedSaveData.trunk[i];
+
+    // save player items.
+    for (i = 0; i < BAG_MAIN_DECK_COUNT; i++)
+        gSaveBlock1Ptr->bagPocket_MainDeck[i] = gLoadedSaveData.mainDeck[i];
+
+    // save player items.
+    for (i = 0; i < BAG_EXTRA_DECK_COUNT; i++)
+        gSaveBlock1Ptr->bagPocket_ExtraDeck[i] = gLoadedSaveData.extraDeck[i];
+
+    // save player items.
+    for (i = 0; i < BAG_SIDE_DECK_COUNT; i++)
+        gSaveBlock1Ptr->bagPocket_SideDeck[i] = gLoadedSaveData.sideDeck[i];
 
     // save player key items.
     for (i = 0; i < BAG_KEYITEMS_COUNT; i++)

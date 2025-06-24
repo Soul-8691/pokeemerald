@@ -1028,6 +1028,10 @@ struct SaveBlock1
     /*0x650*/ struct ItemSlot bagPocket_PokeBalls[BAG_POKEBALLS_COUNT];
     /*0x690*/ struct ItemSlot bagPocket_TMHM[BAG_TMHM_COUNT];
     /*0x790*/ struct ItemSlot bagPocket_Berries[BAG_BERRIES_COUNT];
+    /*0x560*/ struct ItemSlot bagPocket_Trunk[BAG_TRUNK_COUNT];
+    /*0x560*/ struct ItemSlot bagPocket_MainDeck[BAG_MAIN_DECK_COUNT];
+    /*0x560*/ struct ItemSlot bagPocket_SideDeck[BAG_SIDE_DECK_COUNT];
+    /*0x560*/ struct ItemSlot bagPocket_ExtraDeck[BAG_EXTRA_DECK_COUNT];
     /*0x848*/ struct Pokeblock pokeblocks[POKEBLOCKS_COUNT];
     #ifndef FREE_EXTRA_SEEN_FLAGS
     /*0x988*/ u8 seen1[NUM_DEX_FLAG_BYTES];   //52 bytes

@@ -251,7 +251,7 @@ for data in card_info_data['data']:
         .itemId = ITEM_''' + re.sub(r'\W+', '_', data['name']).upper() + ''',
         .price = 0,
         .description = sDummyDesc,
-        .pocket = POCKET_ITEMS,
+        .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },\n

@@ -66,7 +66,11 @@
                             max(BAG_BERRIES_COUNT,           \
                             max(BAG_ITEMS_COUNT,             \
                             max(BAG_KEYITEMS_COUNT,          \
-                                BAG_POKEBALLS_COUNT))))) + 1)
+                            max(BAG_TRUNK_COUNT,             \
+                            max(BAG_MAIN_DECK_COUNT,         \
+                            max(BAG_EXTRA_DECK_COUNT,        \
+                            max(BAG_SIDE_DECK_COUNT,         \
+                                BAG_POKEBALLS_COUNT))))))))) + 1)
 
 // Up to 8 item slots can be visible at a time
 #define MAX_ITEMS_SHOWN 8
@@ -992,13 +996,13 @@ static bool8 LoadBagMenu_Graphics(void)
         break;
     case 3:
         if (IsWallysBag() == TRUE || gSaveBlock2Ptr->playerGender == MALE)
-            LoadCompressedSpriteSheet(&gBagMaleSpriteSheet); // sCardPicSmall_DarkMagician_SpriteSheet
+            LoadCompressedSpriteSheet(&gBagMaleSpriteSheet);
         else
             LoadCompressedSpriteSheet(&gBagFemaleSpriteSheet);
         gBagMenu->graphicsLoadState++;
         break;
     case 4:
-        LoadCompressedSpritePalette(&gBagPaletteTable); // gCardPalSmall_DarkMagician_Table
+        LoadCompressedSpritePalette(&gBagPaletteTable);
         gBagMenu->graphicsLoadState++;
         break;
     default:
@@ -1679,7 +1683,6 @@ static void SwitchBagPocket(u8 taskId, s16 deltaBagPocketId, bool16 skipEraseLis
 static void Task_SwitchBagPocket(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
-    u16 card = CardIdMapping[gSpecialVar_ItemId];
 
     if (!MenuHelpers_IsLinkActive() && !IsWallysBag())
     {
@@ -1735,9 +1738,9 @@ static void DrawItemListBgRow(u8 y)
 static void DrawPocketIndicatorSquare(u8 x, bool8 isCurrentPocket)
 {
     if (!isCurrentPocket)
-        FillBgTilemapBufferRect_Palette0(2, 0x1017, x + 5, 3, 1, 1);
+        FillBgTilemapBufferRect_Palette0(2, 0x1017, x + 4, 3, 1, 1);
     else
-        FillBgTilemapBufferRect_Palette0(2, 0x102B, x + 5, 3, 1, 1);
+        FillBgTilemapBufferRect_Palette0(2, 0x102B, x + 4, 3, 1, 1);
     ScheduleBgCopyTilemapToVram(2);
 }
 
@@ -1935,6 +1938,10 @@ static void OpenContextMenu(u8 taskId)
             switch (gBagPosition.pocket)
             {
             case ITEMS_POCKET:
+            case TRUNK_POCKET:
+            case MAIN_DECK_POCKET:
+            case EXTRA_DECK_POCKET:
+            case SIDE_DECK_POCKET:
                 gBagMenu->contextMenuItemsPtr = gBagMenu->contextMenuItemsBuffer;
                 if (card == 0)
                 {
@@ -3777,6 +3784,22 @@ static void SortItemsInBag(u8 pocket, u8 type)
     case ITEMS_POCKET:
         itemMem = gSaveBlock1Ptr->bagPocket_Items;
         itemAmount = BAG_ITEMS_COUNT;
+        break;
+    case TRUNK_POCKET:
+        itemMem = gSaveBlock1Ptr->bagPocket_Trunk;
+        itemAmount = BAG_TRUNK_COUNT;
+        break;
+    case MAIN_DECK_POCKET:
+        itemMem = gSaveBlock1Ptr->bagPocket_MainDeck;
+        itemAmount = BAG_MAIN_DECK_COUNT;
+        break;
+    case EXTRA_DECK_POCKET:
+        itemMem = gSaveBlock1Ptr->bagPocket_ExtraDeck;
+        itemAmount = BAG_EXTRA_DECK_COUNT;
+        break;
+    case SIDE_DECK_POCKET:
+        itemMem = gSaveBlock1Ptr->bagPocket_SideDeck;
+        itemAmount = BAG_SIDE_DECK_COUNT;
         break;
     case KEYITEMS_POCKET:
         itemMem = gSaveBlock1Ptr->bagPocket_KeyItems;

@@ -284,6 +284,10 @@ const u8 gText_PokeBallsPocket[] = _("POKé BALLS");
 const u8 gText_TMHMPocket[] = _("TMs & HMs");
 const u8 gText_BerriesPocket[] = _("BERRIES");
 const u8 gText_KeyItemsPocket[] = _("KEY ITEMS");
+const u8 gText_TrunkPocket[] = _("TRUNK");
+const u8 gText_MainDeckPocket[] = _("MAIN DECK");
+const u8 gText_ExtraDeckPocket[] = _("SIDE DECK");
+const u8 gText_SideDeckPocket[] = _("EXTRA DECK");
 
 const u8 *const gPocketNamesStringsTable[] =
 {
@@ -291,7 +295,11 @@ const u8 *const gPocketNamesStringsTable[] =
     [BALLS_POCKET] = gText_PokeBallsPocket,
     [TMHM_POCKET]  = gText_TMHMPocket,
     [BERRIES_POCKET] = gText_BerriesPocket,
-    [KEYITEMS_POCKET] = gText_KeyItemsPocket
+    [KEYITEMS_POCKET] = gText_KeyItemsPocket,
+    [TRUNK_POCKET] = gText_TrunkPocket,
+    [MAIN_DECK_POCKET] = gText_MainDeckPocket,
+    [EXTRA_DECK_POCKET] = gText_ExtraDeckPocket,
+    [SIDE_DECK_POCKET] = gText_SideDeckPocket,
 };
 
 const u8 gText_NumberItem_TMBerry[] = _("{NO}{STR_VAR_1}{CLEAR 0x07}{STR_VAR_2}");
