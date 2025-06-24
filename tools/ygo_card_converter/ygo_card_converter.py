@@ -13,6 +13,18 @@ data = json.dumps(res.json(), indent=4)
 f.write(data)
 f.close()
 
+formats = ['Yugi-Kaiba', 'Critter', 'Treasure', 'Imperial', 'Android', 'Joey-Pegasus', 'Fiber', 'Yata', 'Scientist', 'Vampire', 'Chaos', 'Warrior', 'Goat', 'Cyber', 'Reaper']
+
+highest_usage = {}
+for format in formats:
+   highest_usage[format] = 0
+
+with open('FL.json', 'r') as f:
+    data = json.load(f)
+    for card in data:
+        if card['Format'] in formats and card['Usage (Weighted)'] > highest_usage[card['Format']]:
+           highest_usage[card['Format']] = card['Usage (Weighted)']
+
 def move_palette_color(img, old_index, new_index):
     """
     Moves a color at old_index in the image_cropped's palette to new_index.
@@ -284,6 +296,7 @@ for data in card_info_data['data']:
                 master = move_palette_color(master, 15, 0)
                 master.save(outfile, "PNG")
                 subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
+        card = data['name']
         gCardInfo += ("\t[CARD_" + re.sub(r'\W+', '_', data['name']).upper() + "] =\n"
                   + "\t{\n"
                   + '\t\t.name = gCardName_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
@@ -310,9 +323,13 @@ for data in card_info_data['data']:
                       + "\t\t.def = 0,\n"
                       + "\t\t.race = RACE_NONE,\n")
         gCardInfo += ("\t\t.id = " + str(data['misc_info'][0]['konami_id']) + ",\n"
-                      + "\t\t.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},\n"
-                      + "\t\t.priceYK = 0,\n"
-                      + "\t\t.priceCritter = 0,\n"
+                      + "\t\t.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},\n")
+        with open('FL.json', 'r') as f:
+            data_ = json.load(f)
+            for card_ in data_:
+                if card_['Card'] == card and card_['Format'] == 'Yugi-Kaiba':
+                      gCardInfo += "\t\t.priceYK = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+        gCardInfo += ("\t\t.priceCritter = 0,\n"
                       + "\t\t.priceTreasure = 0,\n"
                       + "\t\t.priceImperial = 0,\n"
                       + "\t\t.priceAndroid = 0,\n"
