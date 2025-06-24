@@ -98,6 +98,8 @@ enum {
     ACTION_BY_ID,
     ACTION_BY_PRICE_YK,
     ACTION_BY_PRICE_CRITTER,
+    ACTION_BY_PRICE_TREASURE,
+    ACTION_BY_PRICE_IMPERIAL,
     ACTION_DUMMY,
 };
 
@@ -233,6 +235,8 @@ static void ItemMenu_SortByAmount(u8 taskId);
 static void ItemMenu_SortById(u8 taskId);
 static void ItemMenu_SortByPriceYK(u8 taskId);
 static void ItemMenu_SortByPriceCritter(u8 taskId);
+static void ItemMenu_SortByPriceTreasure(u8 taskId);
+static void ItemMenu_SortByPriceImperial(u8 taskId);
 static void SortBagItems(u8 taskId);
 static void Task_SortFinish(u8 taskId);
 static void SortItemsInBag(u8 pocket, u8 type);
@@ -244,6 +248,8 @@ static s8 CompareItemsByType(struct ItemSlot* itemSlot1, struct ItemSlot* itemSl
 static s8 CompareItemsById(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
 static s8 CompareItemsByPriceYK(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
 static s8 CompareItemsByPriceCritter(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
+static s8 CompareItemsByPriceTreasure(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
+static s8 CompareItemsByPriceImperial(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
 
 static const struct BgTemplate sBgTemplates_ItemMenu[] =
 {
@@ -305,6 +311,8 @@ static const u8 sMenuText_ById[] = _("ID");
 static const u8 sMenuText_ByNumber[] = _("Number");
 static const u8 sMenuText_ByPriceYK[] = _("Yugi-Kaiba");
 static const u8 sMenuText_ByPriceCritter[] = _("Critter");
+static const u8 sMenuText_ByPriceTreasure[] = _("Treasure");
+static const u8 sMenuText_ByPriceImperial[] = _("Imperial");
 static const u8 sText_NothingToSort[] = _("There's nothing to sort!");
 static const struct MenuAction sItemMenuActions[] = {
     [ACTION_USE]               = {gMenuText_Use,      ItemMenu_UseOutOfBattle},
@@ -327,6 +335,8 @@ static const struct MenuAction sItemMenuActions[] = {
     [ACTION_BY_ID]             = {sMenuText_ById,     ItemMenu_SortById},
     [ACTION_BY_PRICE_YK]       = {sMenuText_ByPriceYK, ItemMenu_SortByPriceYK},
     [ACTION_BY_PRICE_CRITTER]  = {sMenuText_ByPriceCritter, ItemMenu_SortByPriceCritter},
+    [ACTION_BY_PRICE_TREASURE]  = {sMenuText_ByPriceTreasure, ItemMenu_SortByPriceTreasure},
+    [ACTION_BY_PRICE_IMPERIAL]  = {sMenuText_ByPriceImperial, ItemMenu_SortByPriceImperial},
     [ACTION_DUMMY]             = {gText_EmptyString2, NULL}
 };
 
@@ -511,8 +521,8 @@ static const struct WindowTemplate sContextMenuWindowTemplates[] =
 {
     [ITEMWIN_1x1] = {
         .bg = 1,
-        .tilemapLeft = 22,
-        .tilemapTop = 17,
+        .tilemapLeft = 1,
+        .tilemapTop = 13,
         .width = 7,
         .height = 2,
         .paletteNum = 15,
@@ -520,8 +530,8 @@ static const struct WindowTemplate sContextMenuWindowTemplates[] =
     },
     [ITEMWIN_1x2] = {
         .bg = 1,
-        .tilemapLeft = 22,
-        .tilemapTop = 15,
+        .tilemapLeft = 1,
+        .tilemapTop = 12,
         .width = 7,
         .height = 4,
         .paletteNum = 15,
@@ -529,8 +539,8 @@ static const struct WindowTemplate sContextMenuWindowTemplates[] =
     },
     [ITEMWIN_2x2] = {
         .bg = 1,
-        .tilemapLeft = 15,
-        .tilemapTop = 15,
+        .tilemapLeft = 1,
+        .tilemapTop = 12,
         .width = 14,
         .height = 4,
         .paletteNum = 15,
@@ -538,10 +548,19 @@ static const struct WindowTemplate sContextMenuWindowTemplates[] =
     },
     [ITEMWIN_2x3] = {
         .bg = 1,
-        .tilemapLeft = 15,
-        .tilemapTop = 13,
+        .tilemapLeft = 1,
+        .tilemapTop = 11,
         .width = 14,
         .height = 6,
+        .paletteNum = 15,
+        .baseBlock = 0x21D,
+    },
+    [ITEMWIN_2x4] = {
+        .bg = 1,
+        .tilemapLeft = 1,
+        .tilemapTop = 10,
+        .width = 14,
+        .height = 8,
         .paletteNum = 15,
         .baseBlock = 0x21D,
     },
@@ -1860,8 +1879,10 @@ static void OpenContextMenu(u8 taskId)
         PrintContextMenuItems(BagMenu_AddWindow(ITEMWIN_1x2));
     else if (gBagMenu->contextMenuNumItems == 4)
         PrintContextMenuItemGrid(BagMenu_AddWindow(ITEMWIN_2x2), 2, 2);
-    else
+    else if (gBagMenu->contextMenuNumItems == 6)
         PrintContextMenuItemGrid(BagMenu_AddWindow(ITEMWIN_2x3), 2, 3);
+    else
+        PrintContextMenuItemGrid(BagMenu_AddWindow(ITEMWIN_2x4), 2, 4);
 }
 
 static void PrintContextMenuItems(u8 windowId)
@@ -1978,8 +1999,10 @@ static void RemoveContextWindow(void)
         BagMenu_RemoveWindow(ITEMWIN_1x2);
     else if (gBagMenu->contextMenuNumItems == 4)
         BagMenu_RemoveWindow(ITEMWIN_2x2);
-    else
+    else if (gBagMenu->contextMenuNumItems == 6)
         BagMenu_RemoveWindow(ITEMWIN_2x3);
+    else
+        BagMenu_RemoveWindow(ITEMWIN_2x4);
 }
 
 static void ItemMenu_UseOutOfBattle(u8 taskId)
@@ -2804,6 +2827,8 @@ enum BagSortOptions
     SORT_BY_ID, //greatest->least
     SORT_BY_PRICE_YK, //greatest->least
     SORT_BY_PRICE_CRITTER, //greatest->least
+    SORT_BY_PRICE_TREASURE, //greatest->least
+    SORT_BY_PRICE_IMPERIAL, //greatest->least
 };
 enum ItemSortType
 {
@@ -2840,6 +2865,8 @@ static const u8 sText_Amount[] = _("amount");
 static const u8 sText_Id[] = _("id");
 static const u8 sText_PriceYK[] = _("yugi-kaiba");
 static const u8 sText_PriceCritter[] = _("critter");
+static const u8 sText_PriceTreasure[] = _("treasure");
+static const u8 sText_PriceImperial[] = _("imperial");
 static const u8 sText_ItemsSorted[] = _("Items sorted by {STR_VAR_1}!");
 static const u8 *const sSortTypeStrings[] = 
 {
@@ -2849,6 +2876,8 @@ static const u8 *const sSortTypeStrings[] =
     [SORT_BY_ID] = sText_Id,
     [SORT_BY_PRICE_YK] = sText_PriceYK,
     [SORT_BY_PRICE_CRITTER] = sText_PriceCritter,
+    [SORT_BY_PRICE_TREASURE] = sText_PriceTreasure,
+    [SORT_BY_PRICE_IMPERIAL] = sText_PriceImperial,
 };
 
 static const u8 sBagMenuSortItems[] =
@@ -2858,6 +2887,8 @@ static const u8 sBagMenuSortItems[] =
     ACTION_BY_ID,
     ACTION_BY_PRICE_YK,
     ACTION_BY_PRICE_CRITTER,
+    ACTION_BY_PRICE_TREASURE,
+    ACTION_BY_PRICE_IMPERIAL,
     ACTION_CANCEL,
 };
 
@@ -3348,8 +3379,10 @@ static void AddBagSortSubMenu(void)
         PrintContextMenuItems(BagMenu_AddWindow(ITEMWIN_1x2));
     else if (gBagMenu->contextMenuNumItems == 4)
         PrintContextMenuItemGrid(BagMenu_AddWindow(ITEMWIN_2x2), 2, 2);
-    else
+    else if (gBagMenu->contextMenuNumItems == 6)
         PrintContextMenuItemGrid(BagMenu_AddWindow(ITEMWIN_2x3), 2, 3);
+    else
+        PrintContextMenuItemGrid(BagMenu_AddWindow(ITEMWIN_2x4), 2, 4);
 }
 
 static void Task_LoadBagSortOptions(u8 taskId)
@@ -3396,6 +3429,18 @@ static void ItemMenu_SortByPriceCritter(u8 taskId)
 {
     gTasks[taskId].tSortType = SORT_BY_PRICE_CRITTER; //greatest->least
     StringCopy(gStringVar1, sSortTypeStrings[SORT_BY_PRICE_CRITTER]);
+    gTasks[taskId].func = SortBagItems;
+}
+static void ItemMenu_SortByPriceTreasure(u8 taskId)
+{
+    gTasks[taskId].tSortType = SORT_BY_PRICE_TREASURE; //greatest->least
+    StringCopy(gStringVar1, sSortTypeStrings[SORT_BY_PRICE_TREASURE]);
+    gTasks[taskId].func = SortBagItems;
+}
+static void ItemMenu_SortByPriceImperial(u8 taskId)
+{
+    gTasks[taskId].tSortType = SORT_BY_PRICE_IMPERIAL; //greatest->least
+    StringCopy(gStringVar1, sSortTypeStrings[SORT_BY_PRICE_IMPERIAL]);
     gTasks[taskId].func = SortBagItems;
 }
 
@@ -3478,6 +3523,12 @@ static void SortItemsInBag(u8 pocket, u8 type)
         break;
     case SORT_BY_PRICE_CRITTER:
         MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceCritter);
+        break;
+    case SORT_BY_PRICE_TREASURE:
+        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceTreasure);
+        break;
+    case SORT_BY_PRICE_IMPERIAL:
+        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceImperial);
         break;
     default:
         MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByType);
@@ -3621,6 +3672,56 @@ static s8 CompareItemsByPriceCritter(struct ItemSlot* itemSlot1, struct ItemSlot
 
     price1 = gCardInfo[card1].priceCritter;
     price2 = gCardInfo[card2].priceCritter;
+
+    if (price1 < price2)
+        return 1;
+    else if (price1 > price2)
+        return -1;
+
+    return CompareItemsAlphabetically(itemSlot1, itemSlot2); //Items are of same price so sort alphabetically
+}
+
+static s8 CompareItemsByPriceTreasure(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2)
+{
+    u16 item1 = itemSlot1->itemId;
+    u16 item2 = itemSlot2->itemId;
+    u16 card1 = CardIdMapping[item1];
+    u16 card2 = CardIdMapping[item2];
+    u16 price1;
+    u16 price2;
+
+    if (item1 < 377)
+        return 1;
+    else if (item2 < 377)
+        return -1;
+
+    price1 = gCardInfo[card1].priceTreasure;
+    price2 = gCardInfo[card2].priceTreasure;
+
+    if (price1 < price2)
+        return 1;
+    else if (price1 > price2)
+        return -1;
+
+    return CompareItemsAlphabetically(itemSlot1, itemSlot2); //Items are of same price so sort alphabetically
+}
+
+static s8 CompareItemsByPriceImperial(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2)
+{
+    u16 item1 = itemSlot1->itemId;
+    u16 item2 = itemSlot2->itemId;
+    u16 card1 = CardIdMapping[item1];
+    u16 card2 = CardIdMapping[item2];
+    u16 price1;
+    u16 price2;
+
+    if (item1 < 377)
+        return 1;
+    else if (item2 < 377)
+        return -1;
+
+    price1 = gCardInfo[card1].priceImperial;
+    price2 = gCardInfo[card2].priceImperial;
 
     if (price1 < price2)
         return 1;

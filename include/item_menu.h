@@ -26,6 +26,7 @@ enum {
     ITEMWIN_1x2,
     ITEMWIN_2x2,
     ITEMWIN_2x3,
+    ITEMWIN_2x4,
     ITEMWIN_MESSAGE,
     ITEMWIN_YESNO_LOW,
     ITEMWIN_YESNO_HIGH,
@@ -72,7 +73,7 @@ struct BagMenu
     u8 pocketScrollArrowsTask;
     u8 pocketSwitchArrowsTask;
     const u8 *contextMenuItemsPtr;
-    u8 contextMenuItemsBuffer[6];
+    u8 contextMenuItemsBuffer[4];
     u8 contextMenuNumItems;
     u8 numItemStacks[POCKETS_COUNT];
     u8 numShownItems[POCKETS_COUNT];
