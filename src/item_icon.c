@@ -160,10 +160,7 @@ u8 AddItemIconSprite(u16 tilesTag, u16 paletteTag, u16 itemId)
         LZDecompressWram(GetItemIconPicOrPalette(itemId, 0), gItemIconDecompressionBuffer);
         CopyItemIconPicTo4x4Buffer(gItemIconDecompressionBuffer, gItemIcon4x4Buffer, itemId);
         spriteSheet.data = gItemIcon4x4Buffer;
-        if (card > NUM_CARDS)
-            spriteSheet.size = 0x200;
-        else
-            spriteSheet.size = 0x200; // 0x800
+        spriteSheet.size = 0x200;
         spriteSheet.tag = tilesTag;
         LoadSpriteSheet(&spriteSheet);
 
@@ -205,10 +202,7 @@ u8 AddCustomItemIconSprite(const struct SpriteTemplate *customSpriteTemplate, u1
         LZDecompressWram(GetItemIconPicOrPalette(itemId, 0), gItemIconDecompressionBuffer);
         CopyItemIconPicTo4x4Buffer(gItemIconDecompressionBuffer, gItemIcon4x4Buffer, itemId);
         spriteSheet.data = gItemIcon4x4Buffer;
-        if (card > NUM_CARDS)
-            spriteSheet.size = 0x200;
-        else
-            spriteSheet.size = 0x200; // 0x800
+        spriteSheet.size = 0x200;
         spriteSheet.tag = tilesTag;
         LoadSpriteSheet(&spriteSheet);
 

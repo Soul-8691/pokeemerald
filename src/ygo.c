@@ -129,6 +129,7 @@ const u8 gCardDescription_ZombyratheDark[] = _("This card cannot attack your\nop
 
 const u8 CardIdMapping[] = 
 {
+    [ITEM_NONE] = 0,
     [ITEM_4_STARRED_LADYBUG_OF_DOOM] = 1,
     [ITEM_7_COLORED_FISH] = 2,
     [ITEM_AIRKNIGHT_PARSHATH] = 3,

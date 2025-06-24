@@ -123,11 +123,11 @@ enum {
 enum {
     WIN_ITEM_LIST,
     WIN_DESCRIPTION,
+    WIN_UPPER,
+    WIN_UPPER_2,
     WIN_POCKET_NAME,
     WIN_TMHM_INFO_ICONS,
     WIN_TMHM_INFO,
-    WIN_UPPER,
-    WIN_UPPER_2,
 };
 
 // Item list ID for toSwapPos to indicate an item is not currently being swapped
@@ -1290,8 +1290,8 @@ static void PrintItemDescription(int itemIndex)
             BlitBitmapToWindow(WIN_UPPER_2, sCardAttributeIcons[attribute], 0, 6, 16, 16);
             LoadPalette(sCardAttributeIconPals[attribute], BG_PLTT_ID(8), 32);
         }
-        CopyWindowToVram(WIN_UPPER, COPYWIN_FULL);
-        CopyWindowToVram(WIN_UPPER_2, COPYWIN_FULL);
+        CopyWindowToVram(WIN_UPPER, COPYWIN_GFX);
+        CopyWindowToVram(WIN_UPPER_2, COPYWIN_GFX);
     }
 }
 
