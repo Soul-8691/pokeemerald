@@ -117,6 +117,7 @@ enum {
     ACTION_BY_PRICE_VENDOR_1,
     ACTION_BY_PRICE_VENDOR_2,
     ACTION_BY_PRICE_VENDOR_3,
+    ACTION_DESCRIPTION,
     ACTION_DUMMY,
 };
 
@@ -380,6 +381,7 @@ static const u8 sMenuText_ByPriceReaper[] = _("Reaper");
 static const u8 sMenuText_ByPriceVendor1[] = _("Vendor 1");
 static const u8 sMenuText_ByPriceVendor2[] = _("Vendor 2");
 static const u8 sMenuText_ByPriceVendor3[] = _("Vendor 3");
+static const u8 sMenuText_Description[] = _("Description");
 static const u8 sText_NothingToSort[] = _("There's nothing to sort!");
 static const struct MenuAction sItemMenuActions[] = {
     [ACTION_USE]               = {gMenuText_Use,      ItemMenu_UseOutOfBattle},
@@ -421,6 +423,7 @@ static const struct MenuAction sItemMenuActions[] = {
     [ACTION_BY_PRICE_VENDOR_1]  = {sMenuText_ByPriceVendor1, ItemMenu_SortByPriceVendor1},
     [ACTION_BY_PRICE_VENDOR_2]  = {sMenuText_ByPriceVendor2, ItemMenu_SortByPriceVendor2},
     [ACTION_BY_PRICE_VENDOR_3]  = {sMenuText_ByPriceVendor3, ItemMenu_SortByPriceVendor3},
+    [ACTION_DESCRIPTION]       = {sMenuText_Description, ItemMenu_UseOutOfBattle},
     [ACTION_DUMMY]             = {gText_EmptyString2, NULL}
 };
 
@@ -429,6 +432,10 @@ static const struct MenuAction sItemMenuActions[] = {
 static const u8 sContextMenuItems_ItemsPocket[] = {
     ACTION_USE,         ACTION_GIVE,
     ACTION_TOSS,        ACTION_CANCEL
+};
+
+static const u8 sContextMenuCards_ItemsPocket[] = {
+    ACTION_DESCRIPTION, ACTION_CANCEL
 };
 
 static const u8 sContextMenuItems_KeyItemsPocket[] = {
@@ -616,7 +623,7 @@ static const struct WindowTemplate sContextMenuWindowTemplates[] =
         .bg = 1,
         .tilemapLeft = 1,
         .tilemapTop = 13,
-        .width = 7,
+        .width = 8,
         .height = 4,
         .paletteNum = 15,
         .baseBlock = 0x21D,
@@ -1709,11 +1716,6 @@ static void Task_SwitchBagPocket(u8 taskId)
         LoadBagItemListBuffers(gBagPosition.pocket);
         tListTaskId = ListMenuInit(&gMultiuseListMenuTemplate, gBagPosition.scrollPosition[gBagPosition.pocket], gBagPosition.cursorPosition[gBagPosition.pocket]);
         PutWindowTilemap(WIN_DESCRIPTION);
-        if (card != 0)
-        {
-            PutWindowTilemap(WIN_UPPER);
-            PutWindowTilemap(WIN_UPPER_2);
-        }
         PutWindowTilemap(WIN_POCKET_NAME);
         ScheduleBgCopyTilemapToVram(0);
         CreatePocketScrollArrowPair();
@@ -1854,6 +1856,7 @@ static void CancelItemSwap(u8 taskId)
 
 static void OpenContextMenu(u8 taskId)
 {
+    u16 card = CardIdMapping[gSpecialVar_ItemId];
     switch (gBagPosition.location)
     {
     case ITEMMENULOCATION_BATTLE:
@@ -1933,8 +1936,17 @@ static void OpenContextMenu(u8 taskId)
             {
             case ITEMS_POCKET:
                 gBagMenu->contextMenuItemsPtr = gBagMenu->contextMenuItemsBuffer;
-                gBagMenu->contextMenuNumItems = ARRAY_COUNT(sContextMenuItems_ItemsPocket);
-                memcpy(&gBagMenu->contextMenuItemsBuffer, &sContextMenuItems_ItemsPocket, sizeof(sContextMenuItems_ItemsPocket));
+                if (card == 0)
+                {
+                    gBagMenu->contextMenuNumItems = ARRAY_COUNT(sContextMenuItems_ItemsPocket);
+                    memcpy(&gBagMenu->contextMenuItemsBuffer, &sContextMenuItems_ItemsPocket, sizeof(sContextMenuItems_ItemsPocket));
+                }
+                else
+                {
+                    gBagMenu->contextMenuNumItems = ARRAY_COUNT(sContextMenuCards_ItemsPocket);
+                    memcpy(&gBagMenu->contextMenuItemsBuffer, &sContextMenuCards_ItemsPocket, sizeof(sContextMenuCards_ItemsPocket));
+                    
+                }
                 if (ItemIsMail(gSpecialVar_ItemId) == TRUE)
                     gBagMenu->contextMenuItemsBuffer[0] = ACTION_CHECK;
                 break;
@@ -2023,6 +2035,7 @@ static void Task_ItemContext_SingleRow(u8 taskId)
     if (MenuHelpers_ShouldWaitForLinkRecv() != TRUE)
     {
         s8 selection = Menu_ProcessInputNoWrap();
+        u16 card = CardIdMapping[gSpecialVar_ItemId];
         switch (selection)
         {
         case MENU_NOTHING_CHOSEN:
