@@ -266,6 +266,9 @@ bool8 AddBagItem(u16 itemId, u16 count)
         else
             slotCapacity = MAX_BERRY_CAPACITY;
 
+        if (itemId > 376)
+            slotCapacity = 3;
+
         for (i = 0; i < itemPocket->capacity; i++)
         {
             if (newItems[i].itemId == itemId)
