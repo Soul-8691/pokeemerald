@@ -1,7 +1,29 @@
+	[ITEM_4_STARRED_LADYBUG_OF_DOOM] =
+    {
+        .name = _("4StarredLadyb"),
+        .itemId = ITEM_4_STARRED_LADYBUG_OF_DOOM,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
 	[ITEM_7_COLORED_FISH] =
     {
         .name = _("7ColoredFish"),
         .itemId = ITEM_7_COLORED_FISH,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_AIRKNIGHT_PARSHATH] =
+    {
+        .name = _("AirknightPars"),
+        .itemId = ITEM_AIRKNIGHT_PARSHATH,
         .price = 0,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
@@ -20,10 +42,43 @@
         .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },
 
+	[ITEM_ASURA_PRIEST] =
+    {
+        .name = _("AsuraPriest"),
+        .itemId = ITEM_ASURA_PRIEST,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_BANISHER_OF_THE_LIGHT] =
+    {
+        .name = _("Banisherofthe"),
+        .itemId = ITEM_BANISHER_OF_THE_LIGHT,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
 	[ITEM_BATTLE_OX] =
     {
         .name = _("BattleOx"),
         .itemId = ITEM_BATTLE_OX,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_BAZOO_THE_SOUL_EATER] =
+    {
+        .name = _("BazootheSoulE"),
+        .itemId = ITEM_BAZOO_THE_SOUL_EATER,
         .price = 0,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
@@ -64,10 +119,43 @@
         .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },
 
+	[ITEM_BUSTER_BLADER] =
+    {
+        .name = _("BusterBlader"),
+        .itemId = ITEM_BUSTER_BLADER,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_CALL_OF_THE_HAUNTED] =
+    {
+        .name = _("CalloftheHaun"),
+        .itemId = ITEM_CALL_OF_THE_HAUNTED,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
 	[ITEM_CANNON_SOLDIER] =
     {
         .name = _("CannonSoldier"),
         .itemId = ITEM_CANNON_SOLDIER,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_CEASEFIRE] =
+    {
+        .name = _("Ceasefire"),
+        .itemId = ITEM_CEASEFIRE,
         .price = 0,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
@@ -86,10 +174,54 @@
         .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },
 
+	[ITEM_CONFISCATION] =
+    {
+        .name = _("Confiscation"),
+        .itemId = ITEM_CONFISCATION,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
 	[ITEM_CRASS_CLOWN] =
     {
         .name = _("CrassClown"),
         .itemId = ITEM_CRASS_CLOWN,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_CREATURE_SWAP] =
+    {
+        .name = _("CreatureSwap"),
+        .itemId = ITEM_CREATURE_SWAP,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_CYBER_JAR] =
+    {
+        .name = _("CyberJar"),
+        .itemId = ITEM_CYBER_JAR,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_DARK_BALTER_THE_TERRIBLE] =
+    {
+        .name = _("DarkBalterthe"),
+        .itemId = ITEM_DARK_BALTER_THE_TERRIBLE,
         .price = 0,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
@@ -130,6 +262,28 @@
         .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },
 
+	[ITEM_DARK_NECROFEAR] =
+    {
+        .name = _("DarkNecrofear"),
+        .itemId = ITEM_DARK_NECROFEAR,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_DELINQUENT_DUO] =
+    {
+        .name = _("DelinquentDuo"),
+        .itemId = ITEM_DELINQUENT_DUO,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
 	[ITEM_DREAM_CLOWN] =
     {
         .name = _("DreamClown"),
@@ -141,10 +295,54 @@
         .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },
 
+	[ITEM_DUST_TORNADO] =
+    {
+        .name = _("DustTornado"),
+        .itemId = ITEM_DUST_TORNADO,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_EXCHANGE] =
+    {
+        .name = _("Exchange"),
+        .itemId = ITEM_EXCHANGE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_EXILED_FORCE] =
+    {
+        .name = _("ExiledForce"),
+        .itemId = ITEM_EXILED_FORCE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
 	[ITEM_EXODIA_THE_FORBIDDEN_ONE] =
     {
         .name = _("ExodiatheForb"),
         .itemId = ITEM_EXODIA_THE_FORBIDDEN_ONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_FIBER_JAR] =
+    {
+        .name = _("FiberJar"),
+        .itemId = ITEM_FIBER_JAR,
         .price = 0,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
@@ -196,10 +394,54 @@
         .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },
 
+	[ITEM_GEMINI_ELF] =
+    {
+        .name = _("GeminiElf"),
+        .itemId = ITEM_GEMINI_ELF,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_GIANT_GERM] =
+    {
+        .name = _("GiantGerm"),
+        .itemId = ITEM_GIANT_GERM,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_GIANT_RAT] =
+    {
+        .name = _("GiantRat"),
+        .itemId = ITEM_GIANT_RAT,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
 	[ITEM_GIANT_SOLDIER_OF_STONE] =
     {
         .name = _("GiantSoldiero"),
         .itemId = ITEM_GIANT_SOLDIER_OF_STONE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_GIANT_TRUNADE] =
+    {
+        .name = _("GiantTrunade"),
+        .itemId = ITEM_GIANT_TRUNADE,
         .price = 0,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
@@ -218,10 +460,87 @@
         .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },
 
+	[ITEM_GOBLIN_ATTACK_FORCE] =
+    {
+        .name = _("GoblinAttackF"),
+        .itemId = ITEM_GOBLIN_ATTACK_FORCE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_GRACEFUL_CHARITY] =
+    {
+        .name = _("GracefulChari"),
+        .itemId = ITEM_GRACEFUL_CHARITY,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_HARPIE_S_FEATHER_DUSTER] =
+    {
+        .name = _("HarpiesFeathe"),
+        .itemId = ITEM_HARPIE_S_FEATHER_DUSTER,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
 	[ITEM_HEAVY_STORM] =
     {
         .name = _("HeavyStorm"),
         .itemId = ITEM_HEAVY_STORM,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_IMPERIAL_ORDER] =
+    {
+        .name = _("ImperialOrder"),
+        .itemId = ITEM_IMPERIAL_ORDER,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_INJECTION_FAIRY_LILY] =
+    {
+        .name = _("InjectionFair"),
+        .itemId = ITEM_INJECTION_FAIRY_LILY,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_JAR_OF_GREED] =
+    {
+        .name = _("JarofGreed"),
+        .itemId = ITEM_JAR_OF_GREED,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_JINZO] =
+    {
+        .name = _("Jinzo"),
+        .itemId = ITEM_JINZO,
         .price = 0,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
@@ -266,6 +585,17 @@
     {
         .name = _("Kuriboh"),
         .itemId = ITEM_KURIBOH,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_KYCOO_THE_GHOST_DESTROYER] =
+    {
+        .name = _("KycootheGhost"),
+        .itemId = ITEM_KYCOO_THE_GHOST_DESTROYER,
         .price = 0,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
@@ -328,6 +658,17 @@
         .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },
 
+	[ITEM_MAGIC_CYLINDER] =
+    {
+        .name = _("MagicCylinder"),
+        .itemId = ITEM_MAGIC_CYLINDER,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
 	[ITEM_MAGIC_JAMMER] =
     {
         .name = _("MagicJammer"),
@@ -383,6 +724,17 @@
         .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },
 
+	[ITEM_MECHANICALCHASER] =
+    {
+        .name = _("Mechanicalcha"),
+        .itemId = ITEM_MECHANICALCHASER,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
 	[ITEM_MIRROR_FORCE] =
     {
         .name = _("MirrorForce"),
@@ -405,10 +757,32 @@
         .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },
 
+	[ITEM_MORPHING_JAR] =
+    {
+        .name = _("MorphingJar"),
+        .itemId = ITEM_MORPHING_JAR,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
 	[ITEM_MUKA_MUKA] =
     {
         .name = _("MukaMuka"),
         .itemId = ITEM_MUKA_MUKA,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_MYSTIC_TOMATO] =
+    {
+        .name = _("MysticTomato"),
+        .itemId = ITEM_MYSTIC_TOMATO,
         .price = 0,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
@@ -438,10 +812,54 @@
         .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },
 
+	[ITEM_NIMBLE_MOMONGA] =
+    {
+        .name = _("NimbleMomonga"),
+        .itemId = ITEM_NIMBLE_MOMONGA,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_NOBLEMAN_OF_CROSSOUT] =
+    {
+        .name = _("NoblemanofCro"),
+        .itemId = ITEM_NOBLEMAN_OF_CROSSOUT,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
 	[ITEM_OOKAZI] =
     {
         .name = _("Ookazi"),
         .itemId = ITEM_OOKAZI,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_PAINFUL_CHOICE] =
+    {
+        .name = _("PainfulChoice"),
+        .itemId = ITEM_PAINFUL_CHOICE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_PENGUIN_KNIGHT] =
+    {
+        .name = _("PenguinKnight"),
+        .itemId = ITEM_PENGUIN_KNIGHT,
         .price = 0,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
@@ -464,6 +882,17 @@
     {
         .name = _("PotofGreed"),
         .itemId = ITEM_POT_OF_GREED,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_PREMATURE_BURIAL] =
+    {
+        .name = _("PrematureBuri"),
+        .itemId = ITEM_PREMATURE_BURIAL,
         .price = 0,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
@@ -537,6 +966,28 @@
         .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },
 
+	[ITEM_RUSH_RECKLESSLY] =
+    {
+        .name = _("RushRecklessl"),
+        .itemId = ITEM_RUSH_RECKLESSLY,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_RYU_SENSHI] =
+    {
+        .name = _("RyuSenshi"),
+        .itemId = ITEM_RYU_SENSHI,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
 	[ITEM_SANGAN] =
     {
         .name = _("Sangan"),
@@ -559,10 +1010,43 @@
         .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },
 
+	[ITEM_SINISTER_SERPENT] =
+    {
+        .name = _("SinisterSerpe"),
+        .itemId = ITEM_SINISTER_SERPENT,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
 	[ITEM_SKULL_KNIGHT] =
     {
         .name = _("SkullKnight"),
         .itemId = ITEM_SKULL_KNIGHT,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_SKULL_LAIR] =
+    {
+        .name = _("SkullLair"),
+        .itemId = ITEM_SKULL_LAIR,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_SNATCH_STEAL] =
+    {
+        .name = _("SnatchSteal"),
+        .itemId = ITEM_SNATCH_STEAL,
         .price = 0,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
@@ -581,10 +1065,43 @@
         .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },
 
+	[ITEM_SOLEMN_WISHES] =
+    {
+        .name = _("SolemnWishes"),
+        .itemId = ITEM_SOLEMN_WISHES,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
 	[ITEM_SOUL_EXCHANGE] =
     {
         .name = _("SoulExchange"),
         .itemId = ITEM_SOUL_EXCHANGE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_SPEAR_DRAGON] =
+    {
+        .name = _("SpearDragon"),
+        .itemId = ITEM_SPEAR_DRAGON,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_ST_JOAN] =
+    {
+        .name = _("StJoan"),
+        .itemId = ITEM_ST_JOAN,
         .price = 0,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
@@ -614,10 +1131,76 @@
         .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },
 
+	[ITEM_THE_FIEND_MEGACYBER] =
+    {
+        .name = _("TheFiendMegac"),
+        .itemId = ITEM_THE_FIEND_MEGACYBER,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_THE_FORCEFUL_SENTRY] =
+    {
+        .name = _("TheForcefulSe"),
+        .itemId = ITEM_THE_FORCEFUL_SENTRY,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET] =
+    {
+        .name = _("TheLastWarrio"),
+        .itemId = ITEM_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_THOUSAND_EYES_RESTRICT] =
+    {
+        .name = _("ThousandEyesR"),
+        .itemId = ITEM_THOUSAND_EYES_RESTRICT,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
 	[ITEM_THUNDER_DRAGON] =
     {
         .name = _("ThunderDragon"),
         .itemId = ITEM_THUNDER_DRAGON,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_TIME_SEAL] =
+    {
+        .name = _("TimeSeal"),
+        .itemId = ITEM_TIME_SEAL,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_TORRENTIAL_TRIBUTE] =
+    {
+        .name = _("TorrentialTri"),
+        .itemId = ITEM_TORRENTIAL_TRIBUTE,
         .price = 0,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
@@ -669,6 +1252,28 @@
         .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },
 
+	[ITEM_UNITED_WE_STAND] =
+    {
+        .name = _("UnitedWeStand"),
+        .itemId = ITEM_UNITED_WE_STAND,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_UPSTART_GOBLIN] =
+    {
+        .name = _("UpstartGoblin"),
+        .itemId = ITEM_UPSTART_GOBLIN,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
 	[ITEM_WABOKU] =
     {
         .name = _("Waboku"),
@@ -706,6 +1311,28 @@
     {
         .name = _("WitchoftheBla"),
         .itemId = ITEM_WITCH_OF_THE_BLACK_FOREST,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_YATA_GARASU] =
+    {
+        .name = _("YataGarasu"),
+        .itemId = ITEM_YATA_GARASU,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_ZOMBYRA_THE_DARK] =
+    {
+        .name = _("ZombyratheDar"),
+        .itemId = ITEM_ZOMBYRA_THE_DARK,
         .price = 0,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
