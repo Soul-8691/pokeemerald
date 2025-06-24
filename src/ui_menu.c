@@ -1011,6 +1011,30 @@ static void Menu_InitWindows(void)
     ScheduleBgCopyTilemapToVram(2);
 }
 
+enum {
+    COLORID_NORMAL,
+    COLORID_POCKET_NAME,
+    COLORID_GRAY_CURSOR,
+    COLORID_UNUSED,
+    COLORID_TMHM_INFO,
+    COLORID_NONE = 0xFF
+};
+
+static const u8 sFontColorTableUI[][3] = {
+                            // bgColor, textColor, shadowColor
+    [COLORID_NORMAL]      = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_WHITE,      TEXT_COLOR_LIGHT_GRAY},
+    [COLORID_POCKET_NAME] = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_WHITE,      TEXT_COLOR_RED},
+    [COLORID_GRAY_CURSOR] = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_LIGHT_GRAY, TEXT_COLOR_GREEN},
+    [COLORID_UNUSED]      = {TEXT_COLOR_DARK_GRAY,   TEXT_COLOR_WHITE,      TEXT_COLOR_LIGHT_GRAY},
+    [COLORID_TMHM_INFO]   = {TEXT_COLOR_TRANSPARENT, TEXT_DYNAMIC_COLOR_5,  TEXT_DYNAMIC_COLOR_1}
+};
+
+static void PrintSmallNarrowTextCentered(u8 windowId, u8 left, u8 colorId, const u8 *string)
+{
+    left = (left * 4) - (GetStringWidth(FONT_SMALL_NARROW, string, -1) / 2u);
+    AddTextPrinterParameterized3(windowId, FONT_SMALL_NARROW, left, 144, sFontColorTableUI[colorId], 0, string);
+}
+
 static void PrintToWindow(u8 windowId, u8 colorIdx, u16 card)
 {
     const u8 *cardName = gCardInfo[card].name;
@@ -1021,7 +1045,8 @@ static void PrintToWindow(u8 windowId, u8 colorIdx, u16 card)
     FillWindowPixelBuffer(windowId, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
     // BlitBitmapToWindow(windowId, gCardPicLarge_DarkMagician, 0, 0, 64, 64);
     // LoadPalette(gCardPalLarge_DarkMagician_4bpp, 0, 32);
-    AddTextPrinterParameterized4(windowId, FONT_SMALL_NARROWER, x, y, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, cardName);
+    PrintSmallNarrowTextCentered(windowId, 94, COLORID_NORMAL, cardName);
+    // AddTextPrinterParameterized4(windowId, FONT_SMALL_NARROWER, x, y, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, cardName);
     AddTextPrinterParameterized4(windowId, FONT_SMALL_NARROWER, x, y + 16, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, cardDescription);
     LoadPalette(sMenuPalette, 16, 64);
     PutWindowTilemap(windowId);
