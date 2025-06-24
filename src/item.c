@@ -25,7 +25,8 @@ EWRAM_DATA struct BagPocket gBagPockets[POCKETS_COUNT] = {0};
 #include "ygo.h"
 #include "data/items.h"
 
-static u16 GetBagItemQuantity(u16 *quantity)
+// code
+u16 GetBagItemQuantity(u16 *quantity)
 {
     return gSaveBlock2Ptr->encryptionKey ^ *quantity;
 }

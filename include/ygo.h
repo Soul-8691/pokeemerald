@@ -18,9 +18,10 @@ struct CardInfo
     /* 0x39 */ u32 level:4;
     /* 0x39 */ u32 atk:9;
     /* 0x3A */ u32 def:9;
-    /* 0x3B */ u8 race;
-    /* 0x3C */ u16 id;
-    /* 0x3E */ u16 archetypesSeries[3];
+    /* 0x3C */ u8 race;
+    /* 0x3D */ u8 unused;
+    /* 0x3E */ u16 id;
+    /* 0x40 */ u16 archetypesSeries[3];
 };
 
 extern const struct CardInfo gCardInfo[];
