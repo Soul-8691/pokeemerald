@@ -1082,7 +1082,7 @@ static void PrintItemDescription(int itemIndex)
         BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, str, 3, 4, 0, 0, 0, COLORID_NORMAL);
     else
     {
-        BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, cardName, 3, 4, 0, 0, 0, COLORID_NORMAL);
+        BagMenu_Print(WIN_DESCRIPTION, FONT_SMALL_NARROWER, cardName, 3, 4, 0, 0, 0, COLORID_NORMAL);
         ConvertIntToDecimalStringN(gStringVar1, cardAtk, STR_CONV_MODE_RIGHT_ALIGN, 4);
         StringExpandPlaceholders(gStringVar4, gText_xAtk);
         BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, gStringVar4, 3, 20, 0, 0, 0, COLORID_NORMAL);
