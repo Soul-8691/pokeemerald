@@ -323,7 +323,7 @@ static void Menu_FreeResources(void)
 {
     try_free(sMenuDataPtr);
     try_free(sBg1TilemapBuffer);
-    try_free(sBg2TilemapBuffer);
+    // try_free(sBg2TilemapBuffer);
     FreeAllWindowBuffers();
 }
 
@@ -352,14 +352,14 @@ static bool8 Menu_InitBgs(void)
     sBg1TilemapBuffer = AllocZeroed(BG_SCREEN_SIZE);
     if (sBg1TilemapBuffer == NULL)
         return FALSE;
-    sBg2TilemapBuffer = AllocZeroed(BG_SCREEN_SIZE);
-    if (sBg2TilemapBuffer == NULL)
-        return FALSE;
+    // sBg2TilemapBuffer = AllocZeroed(BG_SCREEN_SIZE);
+    // if (sBg2TilemapBuffer == NULL)
+    //     return FALSE;
     
     ResetBgsAndClearDma3BusyFlags(0);
     InitBgsFromTemplates(0, sMenuBgTemplates, NELEMS(sMenuBgTemplates));
     SetBgTilemapBuffer(1, sBg1TilemapBuffer);
-    SetBgTilemapBuffer(2, sBg2TilemapBuffer);
+    // SetBgTilemapBuffer(2, sBg2TilemapBuffer);
     ScheduleBgCopyTilemapToVram(1);
     ScheduleBgCopyTilemapToVram(2);
     
@@ -378,14 +378,14 @@ static bool8 Menu_LoadGraphics(void)
     case 0:
         ResetTempTileDataBuffers();
         DecompressAndCopyTileDataToVram(1, sBackgroundTiles, 0, 0, 0);
-        DecompressAndCopyTileDataToVram(2, sMenuTiles, 0, 0, 0);
+        // DecompressAndCopyTileDataToVram(2, sMenuTiles, 0, 0, 0);
         sMenuDataPtr->gfxLoadState++;
         break;
     case 1:
         if (FreeTempTileDataBuffersIfPossible() != TRUE)
         {
             LZDecompressWram(sBackgroundTilemap, sBg1TilemapBuffer);
-            LZDecompressWram(sMenuTilemap, sBg2TilemapBuffer);
+            // LZDecompressWram(sMenuTilemap, sBg2TilemapBuffer);
             sMenuDataPtr->gfxLoadState++;
         }
         break;
