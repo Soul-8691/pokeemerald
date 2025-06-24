@@ -4,13 +4,63 @@
 #include "ygo_graphics.h"
 #include "constants/items.h"
 
+const u8 gCardDescription_AquaMadoor[] = _("A wizard of the waters that\nconjures a liquid wall to\ncrush any enemies that oppose\nhim.");
 const u8 gCardDescription_BlueEyesWhiteDragon[] = _("This legendary dragon is a\npowerful engine of\ndestruction. Virtually\ninvincible, very few have\nfaced this awesome creature\nand lived to tell the tale.");
+const u8 gCardDescription_ChangeofHeart[] = _("Target 1 monster your opponent\ncontrols; take control of it\nuntil the End Phase.");
+const u8 gCardDescription_DarkHole[] = _("Destroy all monsters on the\nfield.");
 const u8 gCardDescription_DarkMagician[] = _("The ultimate wizard in terms\nof attack and defense.");
+const u8 gCardDescription_ExodiatheForbiddenOne[] = _("If you have Right Leg of the\nForbidden One, Left Leg of the\nForbidden One, Right Arm of\nthe Forbidden One and Left Arm\nof the Forbidden One in\naddition to this card in your\nhand, you win the Duel.");
+const u8 gCardDescription_Fissure[] = _("Destroy the 1 face-up monster\nyour opponent controls that\nhas the lowest ATK (your\nchoice, if tied).");
+const u8 gCardDescription_FlameSwordsman[] = _("Flame Manipulator + Masaki the\nLegendary Swordsman");
+const u8 gCardDescription_GaiatheDragonChampion[] = _("Gaia The Fierce Knight + Curse\nof Dragon");
+const u8 gCardDescription_GaiaTheFierceKnight[] = _("A knight whose horse travels\nfaster than the wind. His\nbattle-charge is a force to be\nreckoned with.");
+const u8 gCardDescription_GiantSoldierofStone[] = _("A giant warrior made of stone.\nA punch from this creature has\nearth-shaking results.");
+const u8 gCardDescription_JustDesserts[] = _("Inflict 500 damage to your\nopponent for each monster they\ncontrol.");
+const u8 gCardDescription_LeftArmoftheForbiddenOne[] = _("A forbidden left arm sealed by\nmagic. Whosoever breaks this\nseal will know infinite power.");
+const u8 gCardDescription_LeftLegoftheForbiddenOne[] = _("A forbidden left leg sealed by\nmagic. Whosoever breaks this\nseal will know infinite power.");
+const u8 gCardDescription_MonsterReborn[] = _("Target 1 monster in either GY;\nSpecial Summon it.");
+const u8 gCardDescription_MysticalElf[] = _("A delicate elf that lacks\noffense, but has a terrific\ndefense backed by mystical\npower.");
+const u8 gCardDescription_Polymerization[] = _("Fusion Summon 1 Fusion Monster\nfrom your Extra Deck, using\nmonsters from your hand or\nfield as Fusion Material.");
+const u8 gCardDescription_PotofGreed[] = _("Draw 2 cards.");
+const u8 gCardDescription_Raigeki[] = _("Destroy all monsters your\nopponent controls.");
 const u8 gCardDescription_RedEyesBlackDragon[] = _("A ferocious dragon with a\ndeadly attack.");
+const u8 gCardDescription_RightArmoftheForbiddenOne[] = _("A forbidden right arm sealed\nby magic. Whosoever breaks\nthis seal will know infinite\npower.");
+const u8 gCardDescription_RightLegoftheForbiddenOne[] = _("A forbidden right leg sealed\nby magic. Whosoever breaks\nthis seal will know infinite\npower.");
+const u8 gCardDescription_SoulExchange[] = _("Target 1 monster your opponent\ncontrols; this turn, if you\nTribute a monster, you must\nTribute that target, as if you\ncontrolled it. You cannot\nconduct your Battle Phase the\nturn you activate this card.");
+const u8 gCardDescription_SummonedSkull[] = _("A fiend with dark powers for\nconfusing the enemy. Among the\nFiend-Type monsters, this\nmonster boasts considerable\nforce.(This card is always\ntreated as an Archfiend card.)");
+const u8 gCardDescription_SwordsofRevealingLight[] = _("After this card's activation,\nit remains on the field, but\nyou must destroy it during the\nEnd Phase of your opponent's\n3rd turn. When this card is\nactivated: If your opponent\ncontrols a face-down monster,\nflip all monsters they control\nface-up. While this card is\nface-up on the field, your\nopponent's monsters cannot\ndeclare an attack.");
+const u8 gCardDescription_TrapHole[] = _("When your opponent Normal or\nFlip Summons 1 monster with\n1000 or more ATK: Target that\nmonster; destroy that target.");
+const u8 gCardDescription_UltimateOffering[] = _("During your Main Phase or your\nopponent's Battle Phase: You\ncan pay 500 Life Points;\nimmediately after this effect\nresolves, Normal Summon/Set 1\nmonster.");
+const u8 gCardDescription_WallofIllusion[] = _("If this card is attacked by a\nmonster, after damage\ncalculation: Return that\nmonster to the hand.");
 
 const u8 CardIdMapping[] = 
 {
-    [ITEM_BLUE_EYES_WHITE_DRAGON] = 1,
-    [ITEM_DARK_MAGICIAN] = 2,
-    [ITEM_RED_EYES_BLACK_DRAGON] = 3,
+    [ITEM_AQUA_MADOOR] = 1,
+    [ITEM_BLUE_EYES_WHITE_DRAGON] = 2,
+    [ITEM_CHANGE_OF_HEART] = 3,
+    [ITEM_DARK_HOLE] = 4,
+    [ITEM_DARK_MAGICIAN] = 5,
+    [ITEM_EXODIA_THE_FORBIDDEN_ONE] = 6,
+    [ITEM_FISSURE] = 7,
+    [ITEM_FLAME_SWORDSMAN] = 8,
+    [ITEM_GAIA_THE_DRAGON_CHAMPION] = 9,
+    [ITEM_GAIA_THE_FIERCE_KNIGHT] = 10,
+    [ITEM_GIANT_SOLDIER_OF_STONE] = 11,
+    [ITEM_JUST_DESSERTS] = 12,
+    [ITEM_LEFT_ARM_OF_THE_FORBIDDEN_ONE] = 13,
+    [ITEM_LEFT_LEG_OF_THE_FORBIDDEN_ONE] = 14,
+    [ITEM_MONSTER_REBORN] = 15,
+    [ITEM_MYSTICAL_ELF] = 16,
+    [ITEM_POLYMERIZATION] = 17,
+    [ITEM_POT_OF_GREED] = 18,
+    [ITEM_RAIGEKI] = 19,
+    [ITEM_RED_EYES_BLACK_DRAGON] = 20,
+    [ITEM_RIGHT_ARM_OF_THE_FORBIDDEN_ONE] = 21,
+    [ITEM_RIGHT_LEG_OF_THE_FORBIDDEN_ONE] = 22,
+    [ITEM_SOUL_EXCHANGE] = 23,
+    [ITEM_SUMMONED_SKULL] = 24,
+    [ITEM_SWORDS_OF_REVEALING_LIGHT] = 25,
+    [ITEM_TRAP_HOLE] = 26,
+    [ITEM_ULTIMATE_OFFERING] = 27,
+    [ITEM_WALL_OF_ILLUSION] = 28,
 };

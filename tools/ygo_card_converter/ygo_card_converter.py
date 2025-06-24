@@ -60,7 +60,36 @@ def move_palette_color(img, old_index, new_index):
     
     return img
 
-card_names = ['Dark Magician', 'Blue-Eyes White Dragon', 'Red-Eyes Black Dragon']
+card_names = [
+    'Dark Magician',
+    'Blue-Eyes White Dragon',
+    'Red-Eyes Black Dragon',
+    'Flame Swordsman',
+    'Gaia The Fierce Knight',
+    'Trap Hole',
+    'Polymerization',
+    'Pot of Greed',
+    'Exodia the Forbidden One',
+    'Left Arm of the Forbidden One',
+    'Left Leg of the Forbidden One',
+    'Right Arm of the Forbidden One',
+    'Right Leg of the Forbidden One',
+    'Change of Heart',
+    'Dark Hole',
+    'Fissure',
+    'Monster Reborn',
+    'Raigeki',
+    'Swords of Revealing Light',
+    'Giant Soldier of Stone',
+    'Summoned Skull',
+    'Soul Exchange',
+    'Wall of Illusion',
+    'Ultimate Offering',
+    'Aqua Madoor',
+    'Gaia the Dragon Champion',
+    'Just Desserts',
+    'Mystical Elf',
+]
 
 card_info_data = open('YGOProDeck_Card_Info.json')
 card_info_data = json.load(card_info_data)
@@ -230,7 +259,7 @@ for data in card_info_data['data']:
                   + '\t\t.iconLarge = gCardIconLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
                   + '\t\t.iconSmall = gCardIconSmall_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
                   + '\t\t.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},\n'
-                  + ("\t\t.type = TYPE_" + re.sub(r'\W+', '_', data['type'].replace(" Monster", "").replace(" Card", "")).upper() + ",\n"))
+                  + ("\t\t.type = TYPE_" + re.sub(r'\W+', '_', data['type']).upper() + ",\n"))
         try:
             gCardInfo += ("\t\t.attribute = ATTRIBUTE_" + data['attribute'] + ",\n"
                        + "\t\t.level = " + str(data['level']) + ",\n"

@@ -24,9 +24,34 @@ struct CardInfo
 };
 
 extern const struct CardInfo gCardInfo[];
+extern const u8 gCardDescription_AquaMadoor[];
 extern const u8 gCardDescription_BlueEyesWhiteDragon[];
+extern const u8 gCardDescription_ChangeofHeart[];
+extern const u8 gCardDescription_DarkHole[];
 extern const u8 gCardDescription_DarkMagician[];
+extern const u8 gCardDescription_ExodiatheForbiddenOne[];
+extern const u8 gCardDescription_Fissure[];
+extern const u8 gCardDescription_FlameSwordsman[];
+extern const u8 gCardDescription_GaiatheDragonChampion[];
+extern const u8 gCardDescription_GaiaTheFierceKnight[];
+extern const u8 gCardDescription_GiantSoldierofStone[];
+extern const u8 gCardDescription_JustDesserts[];
+extern const u8 gCardDescription_LeftArmoftheForbiddenOne[];
+extern const u8 gCardDescription_LeftLegoftheForbiddenOne[];
+extern const u8 gCardDescription_MonsterReborn[];
+extern const u8 gCardDescription_MysticalElf[];
+extern const u8 gCardDescription_Polymerization[];
+extern const u8 gCardDescription_PotofGreed[];
+extern const u8 gCardDescription_Raigeki[];
 extern const u8 gCardDescription_RedEyesBlackDragon[];
+extern const u8 gCardDescription_RightArmoftheForbiddenOne[];
+extern const u8 gCardDescription_RightLegoftheForbiddenOne[];
+extern const u8 gCardDescription_SoulExchange[];
+extern const u8 gCardDescription_SummonedSkull[];
+extern const u8 gCardDescription_SwordsofRevealingLight[];
+extern const u8 gCardDescription_TrapHole[];
+extern const u8 gCardDescription_UltimateOffering[];
+extern const u8 gCardDescription_WallofIllusion[];
 extern const u8 CardIdMapping[];
 
 #endif // GUARD_YGO_H
