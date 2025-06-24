@@ -126,7 +126,6 @@ enum {
     WIN_POCKET_NAME,
     WIN_TMHM_INFO_ICONS,
     WIN_TMHM_INFO,
-    WIN_MESSAGE, // Identical to ITEMWIN_MESSAGE. Unused?
     WIN_UPPER,
     WIN_UPPER_2,
 };
@@ -656,7 +655,7 @@ static const struct WindowTemplate sContextMenuWindowTemplates[] =
         .width = 27,
         .height = 4,
         .paletteNum = 15,
-        .baseBlock = 0x1B1,
+        .baseBlock = 0x259,
     },
     [ITEMWIN_YESNO_LOW] = { // Yes/No tucked in corner, for toss confirm
         .bg = 1,
@@ -3738,7 +3737,7 @@ static void Task_SortFinish(u8 taskId)
 
     if (gMain.newKeys & (A_BUTTON | B_BUTTON))
     {
-        RemoveItemMessageWindow(4);
+        RemoveItemMessageWindow(ITEMWIN_MESSAGE);
         ReturnToItemList(taskId);
     }
 }
