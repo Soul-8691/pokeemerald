@@ -96,10 +96,27 @@ enum {
     ACTION_BY_TYPE,
     ACTION_BY_AMOUNT,
     ACTION_BY_ID,
+    ACTION_BY_LEVEL,
+    ACTION_BY_ATK,
+    ACTION_BY_DEF,
     ACTION_BY_PRICE_YK,
     ACTION_BY_PRICE_CRITTER,
     ACTION_BY_PRICE_TREASURE,
     ACTION_BY_PRICE_IMPERIAL,
+    ACTION_BY_PRICE_ANDROID,
+    ACTION_BY_PRICE_JP,
+    ACTION_BY_PRICE_FIBER,
+    ACTION_BY_PRICE_YATA,
+    ACTION_BY_PRICE_SCIENTIST,
+    ACTION_BY_PRICE_VAMPIRE,
+    ACTION_BY_PRICE_CHAOS,
+    ACTION_BY_PRICE_WARRIOR,
+    ACTION_BY_PRICE_GOAT,
+    ACTION_BY_PRICE_CYBER,
+    ACTION_BY_PRICE_REAPER,
+    ACTION_BY_PRICE_VENDOR_1,
+    ACTION_BY_PRICE_VENDOR_2,
+    ACTION_BY_PRICE_VENDOR_3,
     ACTION_DUMMY,
 };
 
@@ -233,10 +250,27 @@ static void ItemMenu_SortByName(u8 taskId);
 static void ItemMenu_SortByType(u8 taskId);
 static void ItemMenu_SortByAmount(u8 taskId);
 static void ItemMenu_SortById(u8 taskId);
+static void ItemMenu_SortByLevel(u8 taskId);
+static void ItemMenu_SortByAtk(u8 taskId);
+static void ItemMenu_SortByDef(u8 taskId);
 static void ItemMenu_SortByPriceYK(u8 taskId);
 static void ItemMenu_SortByPriceCritter(u8 taskId);
 static void ItemMenu_SortByPriceTreasure(u8 taskId);
 static void ItemMenu_SortByPriceImperial(u8 taskId);
+static void ItemMenu_SortByPriceAndroid(u8 taskId);
+static void ItemMenu_SortByPriceJP(u8 taskId);
+static void ItemMenu_SortByPriceFiber(u8 taskId);
+static void ItemMenu_SortByPriceYata(u8 taskId);
+static void ItemMenu_SortByPriceScientist(u8 taskId);
+static void ItemMenu_SortByPriceVampire(u8 taskId);
+static void ItemMenu_SortByPriceChaos(u8 taskId);
+static void ItemMenu_SortByPriceWarrior(u8 taskId);
+static void ItemMenu_SortByPriceGoat(u8 taskId);
+static void ItemMenu_SortByPriceCyber(u8 taskId);
+static void ItemMenu_SortByPriceReaper(u8 taskId);
+static void ItemMenu_SortByPriceVendor1(u8 taskId);
+static void ItemMenu_SortByPriceVendor2(u8 taskId);
+static void ItemMenu_SortByPriceVendor3(u8 taskId);
 static void SortBagItems(u8 taskId);
 static void Task_SortFinish(u8 taskId);
 static void SortItemsInBag(u8 pocket, u8 type);
@@ -246,10 +280,27 @@ static s8 CompareItemsAlphabetically(struct ItemSlot* itemSlot1, struct ItemSlot
 static s8 CompareItemsByMost(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
 static s8 CompareItemsByType(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
 static s8 CompareItemsById(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
+static s8 CompareItemsByLevel(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
+static s8 CompareItemsByAtk(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
+static s8 CompareItemsByDef(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
 static s8 CompareItemsByPriceYK(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
 static s8 CompareItemsByPriceCritter(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
 static s8 CompareItemsByPriceTreasure(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
 static s8 CompareItemsByPriceImperial(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
+static s8 CompareItemsByPriceAndroid(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
+static s8 CompareItemsByPriceJP(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
+static s8 CompareItemsByPriceFiber(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
+static s8 CompareItemsByPriceYata(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
+static s8 CompareItemsByPriceScientist(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
+static s8 CompareItemsByPriceVampire(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
+static s8 CompareItemsByPriceChaos(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
+static s8 CompareItemsByPriceWarrior(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
+static s8 CompareItemsByPriceGoat(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
+static s8 CompareItemsByPriceCyber(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
+static s8 CompareItemsByPriceReaper(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
+static s8 CompareItemsByPriceVendor1(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
+static s8 CompareItemsByPriceVendor2(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
+static s8 CompareItemsByPriceVendor3(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
 
 static const struct BgTemplate sBgTemplates_ItemMenu[] =
 {
@@ -309,10 +360,27 @@ static const u8 sMenuText_ByType[] = _("Type");
 static const u8 sMenuText_ByAmount[] = _("Amount");
 static const u8 sMenuText_ById[] = _("ID");
 static const u8 sMenuText_ByNumber[] = _("Number");
+static const u8 sMenuText_ByLevel[] = _("Level");
+static const u8 sMenuText_ByAtk[] = _("ATK");
+static const u8 sMenuText_ByDef[] = _("DEF");
 static const u8 sMenuText_ByPriceYK[] = _("Yugi-Kaiba");
 static const u8 sMenuText_ByPriceCritter[] = _("Critter");
 static const u8 sMenuText_ByPriceTreasure[] = _("Treasure");
 static const u8 sMenuText_ByPriceImperial[] = _("Imperial");
+static const u8 sMenuText_ByPriceAndroid[] = _("Android");
+static const u8 sMenuText_ByPriceJP[] = _("Joey-Pegasus");
+static const u8 sMenuText_ByPriceFiber[] = _("Fiber");
+static const u8 sMenuText_ByPriceYata[] = _("Yata");
+static const u8 sMenuText_ByPriceScientist[] = _("Scientist");
+static const u8 sMenuText_ByPriceVampire[] = _("Vampire");
+static const u8 sMenuText_ByPriceChaos[] = _("Chaos");
+static const u8 sMenuText_ByPriceWarrior[] = _("Warrior");
+static const u8 sMenuText_ByPriceGoat[] = _("Goat");
+static const u8 sMenuText_ByPriceCyber[] = _("Cyber");
+static const u8 sMenuText_ByPriceReaper[] = _("Reaper");
+static const u8 sMenuText_ByPriceVendor1[] = _("Vendor 1");
+static const u8 sMenuText_ByPriceVendor2[] = _("Vendor 2");
+static const u8 sMenuText_ByPriceVendor3[] = _("Vendor 3");
 static const u8 sText_NothingToSort[] = _("There's nothing to sort!");
 static const struct MenuAction sItemMenuActions[] = {
     [ACTION_USE]               = {gMenuText_Use,      ItemMenu_UseOutOfBattle},
@@ -333,10 +401,27 @@ static const struct MenuAction sItemMenuActions[] = {
     [ACTION_BY_TYPE]           = {sMenuText_ByType,   ItemMenu_SortByType},
     [ACTION_BY_AMOUNT]         = {sMenuText_ByAmount, ItemMenu_SortByAmount},
     [ACTION_BY_ID]             = {sMenuText_ById,     ItemMenu_SortById},
+    [ACTION_BY_LEVEL]          = {sMenuText_ByLevel,     ItemMenu_SortByLevel},
+    [ACTION_BY_ATK]            = {sMenuText_ByAtk,     ItemMenu_SortByAtk},
+    [ACTION_BY_DEF]            = {sMenuText_ByDef,     ItemMenu_SortByDef},
     [ACTION_BY_PRICE_YK]       = {sMenuText_ByPriceYK, ItemMenu_SortByPriceYK},
     [ACTION_BY_PRICE_CRITTER]  = {sMenuText_ByPriceCritter, ItemMenu_SortByPriceCritter},
     [ACTION_BY_PRICE_TREASURE]  = {sMenuText_ByPriceTreasure, ItemMenu_SortByPriceTreasure},
     [ACTION_BY_PRICE_IMPERIAL]  = {sMenuText_ByPriceImperial, ItemMenu_SortByPriceImperial},
+    [ACTION_BY_PRICE_ANDROID]  = {sMenuText_ByPriceAndroid, ItemMenu_SortByPriceAndroid},
+    [ACTION_BY_PRICE_JP]  = {sMenuText_ByPriceJP, ItemMenu_SortByPriceJP},
+    [ACTION_BY_PRICE_FIBER]  = {sMenuText_ByPriceFiber, ItemMenu_SortByPriceFiber},
+    [ACTION_BY_PRICE_YATA]  = {sMenuText_ByPriceYata, ItemMenu_SortByPriceYata},
+    [ACTION_BY_PRICE_SCIENTIST]  = {sMenuText_ByPriceScientist, ItemMenu_SortByPriceScientist},
+    [ACTION_BY_PRICE_VAMPIRE]  = {sMenuText_ByPriceVampire, ItemMenu_SortByPriceVampire},
+    [ACTION_BY_PRICE_CHAOS]  = {sMenuText_ByPriceChaos, ItemMenu_SortByPriceChaos},
+    [ACTION_BY_PRICE_WARRIOR]  = {sMenuText_ByPriceWarrior, ItemMenu_SortByPriceWarrior},
+    [ACTION_BY_PRICE_GOAT]  = {sMenuText_ByPriceGoat, ItemMenu_SortByPriceGoat},
+    [ACTION_BY_PRICE_CYBER]  = {sMenuText_ByPriceCyber, ItemMenu_SortByPriceCyber},
+    [ACTION_BY_PRICE_REAPER]  = {sMenuText_ByPriceReaper, ItemMenu_SortByPriceReaper},
+    [ACTION_BY_PRICE_VENDOR_1]  = {sMenuText_ByPriceVendor1, ItemMenu_SortByPriceVendor1},
+    [ACTION_BY_PRICE_VENDOR_2]  = {sMenuText_ByPriceVendor2, ItemMenu_SortByPriceVendor2},
+    [ACTION_BY_PRICE_VENDOR_3]  = {sMenuText_ByPriceVendor3, ItemMenu_SortByPriceVendor3},
     [ACTION_DUMMY]             = {gText_EmptyString2, NULL}
 };
 
@@ -555,12 +640,12 @@ static const struct WindowTemplate sContextMenuWindowTemplates[] =
         .paletteNum = 15,
         .baseBlock = 0x21D,
     },
-    [ITEMWIN_2x4] = {
+    [ITEMWIN_3x8] = {
         .bg = 1,
         .tilemapLeft = 1,
-        .tilemapTop = 10,
-        .width = 14,
-        .height = 8,
+        .tilemapTop = 1,
+        .width = 21,
+        .height = 16,
         .paletteNum = 15,
         .baseBlock = 0x21D,
     },
@@ -1877,12 +1962,12 @@ static void OpenContextMenu(u8 taskId)
         PrintContextMenuItems(BagMenu_AddWindow(ITEMWIN_1x1));
     else if (gBagMenu->contextMenuNumItems == 2)
         PrintContextMenuItems(BagMenu_AddWindow(ITEMWIN_1x2));
-    else if (gBagMenu->contextMenuNumItems == 4)
+    else if (gBagMenu->contextMenuNumItems <= 4)
         PrintContextMenuItemGrid(BagMenu_AddWindow(ITEMWIN_2x2), 2, 2);
-    else if (gBagMenu->contextMenuNumItems == 6)
+    else if (gBagMenu->contextMenuNumItems <= 6)
         PrintContextMenuItemGrid(BagMenu_AddWindow(ITEMWIN_2x3), 2, 3);
     else
-        PrintContextMenuItemGrid(BagMenu_AddWindow(ITEMWIN_2x4), 2, 4);
+        PrintContextMenuItemGrid(BagMenu_AddWindow(ITEMWIN_3x8), 3, 8);
 }
 
 static void PrintContextMenuItems(u8 windowId)
@@ -1997,12 +2082,12 @@ static void RemoveContextWindow(void)
         BagMenu_RemoveWindow(ITEMWIN_1x1);
     else if (gBagMenu->contextMenuNumItems == 2)
         BagMenu_RemoveWindow(ITEMWIN_1x2);
-    else if (gBagMenu->contextMenuNumItems == 4)
+    else if (gBagMenu->contextMenuNumItems <= 4)
         BagMenu_RemoveWindow(ITEMWIN_2x2);
-    else if (gBagMenu->contextMenuNumItems == 6)
+    else if (gBagMenu->contextMenuNumItems <= 6)
         BagMenu_RemoveWindow(ITEMWIN_2x3);
     else
-        BagMenu_RemoveWindow(ITEMWIN_2x4);
+        BagMenu_RemoveWindow(ITEMWIN_3x8);
 }
 
 static void ItemMenu_UseOutOfBattle(u8 taskId)
@@ -2825,10 +2910,27 @@ enum BagSortOptions
     SORT_BY_TYPE,
     SORT_BY_AMOUNT, //greatest->least
     SORT_BY_ID, //greatest->least
+    SORT_BY_LEVEL, //greatest->least
+    SORT_BY_ATK, //greatest->least
+    SORT_BY_DEF, //greatest->least
     SORT_BY_PRICE_YK, //greatest->least
     SORT_BY_PRICE_CRITTER, //greatest->least
     SORT_BY_PRICE_TREASURE, //greatest->least
     SORT_BY_PRICE_IMPERIAL, //greatest->least
+    SORT_BY_PRICE_ANDROID, //greatest->least
+    SORT_BY_PRICE_JP, //greatest->least
+    SORT_BY_PRICE_FIBER, //greatest->least
+    SORT_BY_PRICE_YATA, //greatest->least
+    SORT_BY_PRICE_SCIENTIST, //greatest->least
+    SORT_BY_PRICE_VAMPIRE, //greatest->least
+    SORT_BY_PRICE_CHAOS, //greatest->least
+    SORT_BY_PRICE_WARRIOR, //greatest->least
+    SORT_BY_PRICE_GOAT, //greatest->least
+    SORT_BY_PRICE_CYBER, //greatest->least
+    SORT_BY_PRICE_REAPER, //greatest->least
+    SORT_BY_PRICE_VENDOR_1, //greatest->least
+    SORT_BY_PRICE_VENDOR_2, //greatest->least
+    SORT_BY_PRICE_VENDOR_3, //greatest->least
 };
 enum ItemSortType
 {
@@ -2863,10 +2965,27 @@ static const u8 sText_Name[] = _("name");
 static const u8 sText_Type[] = _("type");
 static const u8 sText_Amount[] = _("amount");
 static const u8 sText_Id[] = _("id");
+static const u8 sText_Level[] = _("level");
+static const u8 sText_Atk[] = _("atk");
+static const u8 sText_Def[] = _("def");
 static const u8 sText_PriceYK[] = _("yugi-kaiba");
 static const u8 sText_PriceCritter[] = _("critter");
 static const u8 sText_PriceTreasure[] = _("treasure");
 static const u8 sText_PriceImperial[] = _("imperial");
+static const u8 sText_PriceAndroid[] = _("android");
+static const u8 sText_PriceJP[] = _("joey-pegasus");
+static const u8 sText_PriceFiber[] = _("fiber");
+static const u8 sText_PriceYata[] = _("yata");
+static const u8 sText_PriceScientist[] = _("scientist");
+static const u8 sText_PriceVampire[] = _("vampire");
+static const u8 sText_PriceChaos[] = _("chaos");
+static const u8 sText_PriceWarrior[] = _("warrior");
+static const u8 sText_PriceGoat[] = _("goat");
+static const u8 sText_PriceCyber[] = _("cyber");
+static const u8 sText_PriceReaper[] = _("reaper");
+static const u8 sText_PriceVendor1[] = _("vendor 1");
+static const u8 sText_PriceVendor2[] = _("vendor 2");
+static const u8 sText_PriceVendor3[] = _("vendor 3");
 static const u8 sText_ItemsSorted[] = _("Items sorted by {STR_VAR_1}!");
 static const u8 *const sSortTypeStrings[] = 
 {
@@ -2874,10 +2993,27 @@ static const u8 *const sSortTypeStrings[] =
     [SORT_BY_TYPE] = sText_Type,
     [SORT_BY_AMOUNT] = sText_Amount,
     [SORT_BY_ID] = sText_Id,
+    [SORT_BY_LEVEL] = sText_Level,
+    [SORT_BY_ATK] = sText_Atk,
+    [SORT_BY_DEF] = sText_Def,
     [SORT_BY_PRICE_YK] = sText_PriceYK,
     [SORT_BY_PRICE_CRITTER] = sText_PriceCritter,
     [SORT_BY_PRICE_TREASURE] = sText_PriceTreasure,
     [SORT_BY_PRICE_IMPERIAL] = sText_PriceImperial,
+    [SORT_BY_PRICE_ANDROID] = sText_PriceAndroid,
+    [SORT_BY_PRICE_JP] = sText_PriceJP,
+    [SORT_BY_PRICE_FIBER] = sText_PriceFiber,
+    [SORT_BY_PRICE_YATA] = sText_PriceYata,
+    [SORT_BY_PRICE_SCIENTIST] = sText_PriceScientist,
+    [SORT_BY_PRICE_VAMPIRE] = sText_PriceVampire,
+    [SORT_BY_PRICE_CHAOS] = sText_PriceChaos,
+    [SORT_BY_PRICE_WARRIOR] = sText_PriceWarrior,
+    [SORT_BY_PRICE_GOAT] = sText_PriceGoat,
+    [SORT_BY_PRICE_CYBER] = sText_PriceCyber,
+    [SORT_BY_PRICE_REAPER] = sText_PriceReaper,
+    [SORT_BY_PRICE_VENDOR_1] = sText_PriceVendor1,
+    [SORT_BY_PRICE_VENDOR_2] = sText_PriceVendor2,
+    [SORT_BY_PRICE_VENDOR_3] = sText_PriceVendor3,
 };
 
 static const u8 sBagMenuSortItems[] =
@@ -2885,11 +3021,27 @@ static const u8 sBagMenuSortItems[] =
     ACTION_BY_NAME,
     ACTION_BY_AMOUNT,
     ACTION_BY_ID,
+    ACTION_BY_LEVEL,
+    ACTION_BY_ATK,
+    ACTION_BY_DEF,
     ACTION_BY_PRICE_YK,
     ACTION_BY_PRICE_CRITTER,
     ACTION_BY_PRICE_TREASURE,
     ACTION_BY_PRICE_IMPERIAL,
-    ACTION_CANCEL,
+    ACTION_BY_PRICE_ANDROID,
+    ACTION_BY_PRICE_JP,
+    ACTION_BY_PRICE_FIBER,
+    ACTION_BY_PRICE_YATA,
+    ACTION_BY_PRICE_SCIENTIST,
+    ACTION_BY_PRICE_VAMPIRE,
+    ACTION_BY_PRICE_CHAOS,
+    ACTION_BY_PRICE_WARRIOR,
+    ACTION_BY_PRICE_GOAT,
+    ACTION_BY_PRICE_CYBER,
+    ACTION_BY_PRICE_REAPER,
+    ACTION_BY_PRICE_VENDOR_1,
+    ACTION_BY_PRICE_VENDOR_2,
+    ACTION_BY_PRICE_VENDOR_3,
 };
 
 static const u8 sBagMenuSortKeyItems[] =
@@ -3377,12 +3529,12 @@ static void AddBagSortSubMenu(void)
     
     if (gBagMenu->contextMenuNumItems == 2)
         PrintContextMenuItems(BagMenu_AddWindow(ITEMWIN_1x2));
-    else if (gBagMenu->contextMenuNumItems == 4)
+    else if (gBagMenu->contextMenuNumItems <= 4)
         PrintContextMenuItemGrid(BagMenu_AddWindow(ITEMWIN_2x2), 2, 2);
-    else if (gBagMenu->contextMenuNumItems == 6)
+    else if (gBagMenu->contextMenuNumItems <= 6)
         PrintContextMenuItemGrid(BagMenu_AddWindow(ITEMWIN_2x3), 2, 3);
     else
-        PrintContextMenuItemGrid(BagMenu_AddWindow(ITEMWIN_2x4), 2, 4);
+        PrintContextMenuItemGrid(BagMenu_AddWindow(ITEMWIN_3x8), 3, 8);
 }
 
 static void Task_LoadBagSortOptions(u8 taskId)
@@ -3419,6 +3571,24 @@ static void ItemMenu_SortById(u8 taskId)
     StringCopy(gStringVar1, sSortTypeStrings[SORT_BY_ID]);
     gTasks[taskId].func = SortBagItems;
 }
+static void ItemMenu_SortByLevel(u8 taskId)
+{
+    gTasks[taskId].tSortType = SORT_BY_LEVEL; //greatest->least
+    StringCopy(gStringVar1, sSortTypeStrings[SORT_BY_LEVEL]);
+    gTasks[taskId].func = SortBagItems;
+}
+static void ItemMenu_SortByAtk(u8 taskId)
+{
+    gTasks[taskId].tSortType = SORT_BY_ATK; //greatest->least
+    StringCopy(gStringVar1, sSortTypeStrings[SORT_BY_ATK]);
+    gTasks[taskId].func = SortBagItems;
+}
+static void ItemMenu_SortByDef(u8 taskId)
+{
+    gTasks[taskId].tSortType = SORT_BY_DEF; //greatest->least
+    StringCopy(gStringVar1, sSortTypeStrings[SORT_BY_DEF]);
+    gTasks[taskId].func = SortBagItems;
+}
 static void ItemMenu_SortByPriceYK(u8 taskId)
 {
     gTasks[taskId].tSortType = SORT_BY_PRICE_YK; //greatest->least
@@ -3441,6 +3611,90 @@ static void ItemMenu_SortByPriceImperial(u8 taskId)
 {
     gTasks[taskId].tSortType = SORT_BY_PRICE_IMPERIAL; //greatest->least
     StringCopy(gStringVar1, sSortTypeStrings[SORT_BY_PRICE_IMPERIAL]);
+    gTasks[taskId].func = SortBagItems;
+}
+static void ItemMenu_SortByPriceAndroid(u8 taskId)
+{
+    gTasks[taskId].tSortType = SORT_BY_PRICE_ANDROID; //greatest->least
+    StringCopy(gStringVar1, sSortTypeStrings[SORT_BY_PRICE_ANDROID]);
+    gTasks[taskId].func = SortBagItems;
+}
+static void ItemMenu_SortByPriceJP(u8 taskId)
+{
+    gTasks[taskId].tSortType = SORT_BY_PRICE_JP; //greatest->least
+    StringCopy(gStringVar1, sSortTypeStrings[SORT_BY_PRICE_JP]);
+    gTasks[taskId].func = SortBagItems;
+}
+static void ItemMenu_SortByPriceFiber(u8 taskId)
+{
+    gTasks[taskId].tSortType = SORT_BY_PRICE_FIBER; //greatest->least
+    StringCopy(gStringVar1, sSortTypeStrings[SORT_BY_PRICE_FIBER]);
+    gTasks[taskId].func = SortBagItems;
+}
+static void ItemMenu_SortByPriceYata(u8 taskId)
+{
+    gTasks[taskId].tSortType = SORT_BY_PRICE_YATA; //greatest->least
+    StringCopy(gStringVar1, sSortTypeStrings[SORT_BY_PRICE_YATA]);
+    gTasks[taskId].func = SortBagItems;
+}
+static void ItemMenu_SortByPriceScientist(u8 taskId)
+{
+    gTasks[taskId].tSortType = SORT_BY_PRICE_SCIENTIST; //greatest->least
+    StringCopy(gStringVar1, sSortTypeStrings[SORT_BY_PRICE_SCIENTIST]);
+    gTasks[taskId].func = SortBagItems;
+}
+static void ItemMenu_SortByPriceVampire(u8 taskId)
+{
+    gTasks[taskId].tSortType = SORT_BY_PRICE_VAMPIRE; //greatest->least
+    StringCopy(gStringVar1, sSortTypeStrings[SORT_BY_PRICE_VAMPIRE]);
+    gTasks[taskId].func = SortBagItems;
+}
+static void ItemMenu_SortByPriceChaos(u8 taskId)
+{
+    gTasks[taskId].tSortType = SORT_BY_PRICE_CHAOS; //greatest->least
+    StringCopy(gStringVar1, sSortTypeStrings[SORT_BY_PRICE_CHAOS]);
+    gTasks[taskId].func = SortBagItems;
+}
+static void ItemMenu_SortByPriceWarrior(u8 taskId)
+{
+    gTasks[taskId].tSortType = SORT_BY_PRICE_WARRIOR; //greatest->least
+    StringCopy(gStringVar1, sSortTypeStrings[SORT_BY_PRICE_WARRIOR]);
+    gTasks[taskId].func = SortBagItems;
+}
+static void ItemMenu_SortByPriceGoat(u8 taskId)
+{
+    gTasks[taskId].tSortType = SORT_BY_PRICE_GOAT; //greatest->least
+    StringCopy(gStringVar1, sSortTypeStrings[SORT_BY_PRICE_GOAT]);
+    gTasks[taskId].func = SortBagItems;
+}
+static void ItemMenu_SortByPriceCyber(u8 taskId)
+{
+    gTasks[taskId].tSortType = SORT_BY_PRICE_CYBER; //greatest->least
+    StringCopy(gStringVar1, sSortTypeStrings[SORT_BY_PRICE_CYBER]);
+    gTasks[taskId].func = SortBagItems;
+}
+static void ItemMenu_SortByPriceReaper(u8 taskId)
+{
+    gTasks[taskId].tSortType = SORT_BY_PRICE_REAPER; //greatest->least
+    StringCopy(gStringVar1, sSortTypeStrings[SORT_BY_PRICE_REAPER]);
+    gTasks[taskId].func = SortBagItems;
+}
+static void ItemMenu_SortByPriceVendor1(u8 taskId)
+{
+    gTasks[taskId].tSortType = SORT_BY_PRICE_VENDOR_1; //greatest->least
+    StringCopy(gStringVar1, sSortTypeStrings[SORT_BY_PRICE_VENDOR_1]);
+    gTasks[taskId].func = SortBagItems;
+}
+static void ItemMenu_SortByPriceVendor2(u8 taskId)
+{
+    gTasks[taskId].tSortType = SORT_BY_PRICE_VENDOR_2; //greatest->least
+    StringCopy(gStringVar1, sSortTypeStrings[SORT_BY_PRICE_VENDOR_2]);
+    gTasks[taskId].func = SortBagItems;
+}
+static void ItemMenu_SortByPriceVendor3(u8 taskId)
+{
+    gTasks[taskId].tSortType = SORT_BY_PRICE_VENDOR_3; //greatest->least
+    StringCopy(gStringVar1, sSortTypeStrings[SORT_BY_PRICE_VENDOR_3]);
     gTasks[taskId].func = SortBagItems;
 }
 
@@ -3518,6 +3772,15 @@ static void SortItemsInBag(u8 pocket, u8 type)
     case SORT_BY_ID:
         MergeSort(itemMem, 0, itemAmount - 1, CompareItemsById);
         break;
+    case SORT_BY_LEVEL:
+        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByLevel);
+        break;
+    case SORT_BY_ATK:
+        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByAtk);
+        break;
+    case SORT_BY_DEF:
+        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByDef);
+        break;
     case SORT_BY_PRICE_YK:
         MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceYK);
         break;
@@ -3529,6 +3792,48 @@ static void SortItemsInBag(u8 pocket, u8 type)
         break;
     case SORT_BY_PRICE_IMPERIAL:
         MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceImperial);
+        break;
+    case SORT_BY_PRICE_ANDROID:
+        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceAndroid);
+        break;
+    case SORT_BY_PRICE_JP:
+        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceJP);
+        break;
+    case SORT_BY_PRICE_FIBER:
+        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceFiber);
+        break;
+    case SORT_BY_PRICE_YATA:
+        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceYata);
+        break;
+    case SORT_BY_PRICE_SCIENTIST:
+        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceScientist);
+        break;
+    case SORT_BY_PRICE_VAMPIRE:
+        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceVampire);
+        break;
+    case SORT_BY_PRICE_CHAOS:
+        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceChaos);
+        break;
+    case SORT_BY_PRICE_WARRIOR:
+        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceWarrior);
+        break;
+    case SORT_BY_PRICE_GOAT:
+        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceGoat);
+        break;
+    case SORT_BY_PRICE_CYBER:
+        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceCyber);
+        break;
+    case SORT_BY_PRICE_REAPER:
+        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceReaper);
+        break;
+    case SORT_BY_PRICE_VENDOR_1:
+        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceVendor1);
+        break;
+    case SORT_BY_PRICE_VENDOR_2:
+        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceVendor2);
+        break;
+    case SORT_BY_PRICE_VENDOR_3:
+        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceVendor3);
         break;
     default:
         MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByType);
@@ -3631,6 +3936,81 @@ static s8 CompareItemsById(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot
     return 0; //Will never be reached
 }
 
+static s8 CompareItemsByLevel(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2)
+{
+    u16 item1 = itemSlot1->itemId;
+    u16 item2 = itemSlot2->itemId;
+    u16 card1 = CardIdMapping[item1];
+    u16 card2 = CardIdMapping[item2];
+    u16 price1;
+    u16 price2;
+
+    if (item1 < 377)
+        return 1;
+    else if (item2 < 377)
+        return -1;
+
+    price1 = gCardInfo[card1].level;
+    price2 = gCardInfo[card2].level;
+
+    if (price1 < price2)
+        return 1;
+    else if (price1 > price2)
+        return -1;
+
+    return CompareItemsAlphabetically(itemSlot1, itemSlot2); //Items are of same price so sort alphabetically
+}
+
+static s8 CompareItemsByAtk(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2)
+{
+    u16 item1 = itemSlot1->itemId;
+    u16 item2 = itemSlot2->itemId;
+    u16 card1 = CardIdMapping[item1];
+    u16 card2 = CardIdMapping[item2];
+    u16 price1;
+    u16 price2;
+
+    if (item1 < 377)
+        return 1;
+    else if (item2 < 377)
+        return -1;
+
+    price1 = gCardInfo[card1].atk;
+    price2 = gCardInfo[card2].atk;
+
+    if (price1 < price2)
+        return 1;
+    else if (price1 > price2)
+        return -1;
+
+    return CompareItemsAlphabetically(itemSlot1, itemSlot2); //Items are of same price so sort alphabetically
+}
+
+static s8 CompareItemsByDef(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2)
+{
+    u16 item1 = itemSlot1->itemId;
+    u16 item2 = itemSlot2->itemId;
+    u16 card1 = CardIdMapping[item1];
+    u16 card2 = CardIdMapping[item2];
+    u16 price1;
+    u16 price2;
+
+    if (item1 < 377)
+        return 1;
+    else if (item2 < 377)
+        return -1;
+
+    price1 = gCardInfo[card1].def;
+    price2 = gCardInfo[card2].def;
+
+    if (price1 < price2)
+        return 1;
+    else if (price1 > price2)
+        return -1;
+
+    return CompareItemsAlphabetically(itemSlot1, itemSlot2); //Items are of same price so sort alphabetically
+}
+
 static s8 CompareItemsByPriceYK(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2)
 {
     u16 item1 = itemSlot1->itemId;
@@ -3722,6 +4102,356 @@ static s8 CompareItemsByPriceImperial(struct ItemSlot* itemSlot1, struct ItemSlo
 
     price1 = gCardInfo[card1].priceImperial;
     price2 = gCardInfo[card2].priceImperial;
+
+    if (price1 < price2)
+        return 1;
+    else if (price1 > price2)
+        return -1;
+
+    return CompareItemsAlphabetically(itemSlot1, itemSlot2); //Items are of same price so sort alphabetically
+}
+
+static s8 CompareItemsByPriceAndroid(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2)
+{
+    u16 item1 = itemSlot1->itemId;
+    u16 item2 = itemSlot2->itemId;
+    u16 card1 = CardIdMapping[item1];
+    u16 card2 = CardIdMapping[item2];
+    u16 price1;
+    u16 price2;
+
+    if (item1 < 377)
+        return 1;
+    else if (item2 < 377)
+        return -1;
+
+    price1 = gCardInfo[card1].priceAndroid;
+    price2 = gCardInfo[card2].priceAndroid;
+
+    if (price1 < price2)
+        return 1;
+    else if (price1 > price2)
+        return -1;
+
+    return CompareItemsAlphabetically(itemSlot1, itemSlot2); //Items are of same price so sort alphabetically
+}
+
+static s8 CompareItemsByPriceJP(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2)
+{
+    u16 item1 = itemSlot1->itemId;
+    u16 item2 = itemSlot2->itemId;
+    u16 card1 = CardIdMapping[item1];
+    u16 card2 = CardIdMapping[item2];
+    u16 price1;
+    u16 price2;
+
+    if (item1 < 377)
+        return 1;
+    else if (item2 < 377)
+        return -1;
+
+    price1 = gCardInfo[card1].priceJoeyPegasus;
+    price2 = gCardInfo[card2].priceJoeyPegasus;
+
+    if (price1 < price2)
+        return 1;
+    else if (price1 > price2)
+        return -1;
+
+    return CompareItemsAlphabetically(itemSlot1, itemSlot2); //Items are of same price so sort alphabetically
+}
+
+static s8 CompareItemsByPriceFiber(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2)
+{
+    u16 item1 = itemSlot1->itemId;
+    u16 item2 = itemSlot2->itemId;
+    u16 card1 = CardIdMapping[item1];
+    u16 card2 = CardIdMapping[item2];
+    u16 price1;
+    u16 price2;
+
+    if (item1 < 377)
+        return 1;
+    else if (item2 < 377)
+        return -1;
+
+    price1 = gCardInfo[card1].priceFiber;
+    price2 = gCardInfo[card2].priceFiber;
+
+    if (price1 < price2)
+        return 1;
+    else if (price1 > price2)
+        return -1;
+
+    return CompareItemsAlphabetically(itemSlot1, itemSlot2); //Items are of same price so sort alphabetically
+}
+
+static s8 CompareItemsByPriceYata(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2)
+{
+    u16 item1 = itemSlot1->itemId;
+    u16 item2 = itemSlot2->itemId;
+    u16 card1 = CardIdMapping[item1];
+    u16 card2 = CardIdMapping[item2];
+    u16 price1;
+    u16 price2;
+
+    if (item1 < 377)
+        return 1;
+    else if (item2 < 377)
+        return -1;
+
+    price1 = gCardInfo[card1].priceYata;
+    price2 = gCardInfo[card2].priceYata;
+
+    if (price1 < price2)
+        return 1;
+    else if (price1 > price2)
+        return -1;
+
+    return CompareItemsAlphabetically(itemSlot1, itemSlot2); //Items are of same price so sort alphabetically
+}
+
+static s8 CompareItemsByPriceScientist(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2)
+{
+    u16 item1 = itemSlot1->itemId;
+    u16 item2 = itemSlot2->itemId;
+    u16 card1 = CardIdMapping[item1];
+    u16 card2 = CardIdMapping[item2];
+    u16 price1;
+    u16 price2;
+
+    if (item1 < 377)
+        return 1;
+    else if (item2 < 377)
+        return -1;
+
+    price1 = gCardInfo[card1].priceScientist;
+    price2 = gCardInfo[card2].priceScientist;
+
+    if (price1 < price2)
+        return 1;
+    else if (price1 > price2)
+        return -1;
+
+    return CompareItemsAlphabetically(itemSlot1, itemSlot2); //Items are of same price so sort alphabetically
+}
+
+static s8 CompareItemsByPriceVampire(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2)
+{
+    u16 item1 = itemSlot1->itemId;
+    u16 item2 = itemSlot2->itemId;
+    u16 card1 = CardIdMapping[item1];
+    u16 card2 = CardIdMapping[item2];
+    u16 price1;
+    u16 price2;
+
+    if (item1 < 377)
+        return 1;
+    else if (item2 < 377)
+        return -1;
+
+    price1 = gCardInfo[card1].priceVampire;
+    price2 = gCardInfo[card2].priceVampire;
+
+    if (price1 < price2)
+        return 1;
+    else if (price1 > price2)
+        return -1;
+
+    return CompareItemsAlphabetically(itemSlot1, itemSlot2); //Items are of same price so sort alphabetically
+}
+
+static s8 CompareItemsByPriceChaos(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2)
+{
+    u16 item1 = itemSlot1->itemId;
+    u16 item2 = itemSlot2->itemId;
+    u16 card1 = CardIdMapping[item1];
+    u16 card2 = CardIdMapping[item2];
+    u16 price1;
+    u16 price2;
+
+    if (item1 < 377)
+        return 1;
+    else if (item2 < 377)
+        return -1;
+
+    price1 = gCardInfo[card1].priceChaos;
+    price2 = gCardInfo[card2].priceChaos;
+
+    if (price1 < price2)
+        return 1;
+    else if (price1 > price2)
+        return -1;
+
+    return CompareItemsAlphabetically(itemSlot1, itemSlot2); //Items are of same price so sort alphabetically
+}
+
+static s8 CompareItemsByPriceWarrior(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2)
+{
+    u16 item1 = itemSlot1->itemId;
+    u16 item2 = itemSlot2->itemId;
+    u16 card1 = CardIdMapping[item1];
+    u16 card2 = CardIdMapping[item2];
+    u16 price1;
+    u16 price2;
+
+    if (item1 < 377)
+        return 1;
+    else if (item2 < 377)
+        return -1;
+
+    price1 = gCardInfo[card1].priceWarrior;
+    price2 = gCardInfo[card2].priceWarrior;
+
+    if (price1 < price2)
+        return 1;
+    else if (price1 > price2)
+        return -1;
+
+    return CompareItemsAlphabetically(itemSlot1, itemSlot2); //Items are of same price so sort alphabetically
+}
+
+static s8 CompareItemsByPriceGoat(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2)
+{
+    u16 item1 = itemSlot1->itemId;
+    u16 item2 = itemSlot2->itemId;
+    u16 card1 = CardIdMapping[item1];
+    u16 card2 = CardIdMapping[item2];
+    u16 price1;
+    u16 price2;
+
+    if (item1 < 377)
+        return 1;
+    else if (item2 < 377)
+        return -1;
+
+    price1 = gCardInfo[card1].priceGoat;
+    price2 = gCardInfo[card2].priceGoat;
+
+    if (price1 < price2)
+        return 1;
+    else if (price1 > price2)
+        return -1;
+
+    return CompareItemsAlphabetically(itemSlot1, itemSlot2); //Items are of same price so sort alphabetically
+}
+
+static s8 CompareItemsByPriceCyber(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2)
+{
+    u16 item1 = itemSlot1->itemId;
+    u16 item2 = itemSlot2->itemId;
+    u16 card1 = CardIdMapping[item1];
+    u16 card2 = CardIdMapping[item2];
+    u16 price1;
+    u16 price2;
+
+    if (item1 < 377)
+        return 1;
+    else if (item2 < 377)
+        return -1;
+
+    price1 = gCardInfo[card1].priceCyber;
+    price2 = gCardInfo[card2].priceCyber;
+
+    if (price1 < price2)
+        return 1;
+    else if (price1 > price2)
+        return -1;
+
+    return CompareItemsAlphabetically(itemSlot1, itemSlot2); //Items are of same price so sort alphabetically
+}
+
+static s8 CompareItemsByPriceReaper(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2)
+{
+    u16 item1 = itemSlot1->itemId;
+    u16 item2 = itemSlot2->itemId;
+    u16 card1 = CardIdMapping[item1];
+    u16 card2 = CardIdMapping[item2];
+    u16 price1;
+    u16 price2;
+
+    if (item1 < 377)
+        return 1;
+    else if (item2 < 377)
+        return -1;
+
+    price1 = gCardInfo[card1].priceReaper;
+    price2 = gCardInfo[card2].priceReaper;
+
+    if (price1 < price2)
+        return 1;
+    else if (price1 > price2)
+        return -1;
+
+    return CompareItemsAlphabetically(itemSlot1, itemSlot2); //Items are of same price so sort alphabetically
+}
+
+static s8 CompareItemsByPriceVendor1(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2)
+{
+    u16 item1 = itemSlot1->itemId;
+    u16 item2 = itemSlot2->itemId;
+    u16 card1 = CardIdMapping[item1];
+    u16 card2 = CardIdMapping[item2];
+    u16 price1;
+    u16 price2;
+
+    if (item1 < 377)
+        return 1;
+    else if (item2 < 377)
+        return -1;
+
+    price1 = gCardInfo[card1].price1;
+    price2 = gCardInfo[card2].price1;
+
+    if (price1 < price2)
+        return 1;
+    else if (price1 > price2)
+        return -1;
+
+    return CompareItemsAlphabetically(itemSlot1, itemSlot2); //Items are of same price so sort alphabetically
+}
+
+static s8 CompareItemsByPriceVendor2(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2)
+{
+    u16 item1 = itemSlot1->itemId;
+    u16 item2 = itemSlot2->itemId;
+    u16 card1 = CardIdMapping[item1];
+    u16 card2 = CardIdMapping[item2];
+    u16 price1;
+    u16 price2;
+
+    if (item1 < 377)
+        return 1;
+    else if (item2 < 377)
+        return -1;
+
+    price1 = gCardInfo[card1].price2;
+    price2 = gCardInfo[card2].price2;
+
+    if (price1 < price2)
+        return 1;
+    else if (price1 > price2)
+        return -1;
+
+    return CompareItemsAlphabetically(itemSlot1, itemSlot2); //Items are of same price so sort alphabetically
+}
+
+static s8 CompareItemsByPriceVendor3(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2)
+{
+    u16 item1 = itemSlot1->itemId;
+    u16 item2 = itemSlot2->itemId;
+    u16 card1 = CardIdMapping[item1];
+    u16 card2 = CardIdMapping[item2];
+    u16 price1;
+    u16 price2;
+
+    if (item1 < 377)
+        return 1;
+    else if (item2 < 377)
+        return -1;
+
+    price1 = gCardInfo[card1].price3;
+    price2 = gCardInfo[card2].price3;
 
     if (price1 < price2)
         return 1;
