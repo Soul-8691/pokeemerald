@@ -92,6 +92,7 @@ static const struct BgTemplate sMenuBgTemplates[] =
         .bg = 2,    // this bg loads the UI tilemap
         .charBaseIndex = 0,
         .mapBaseIndex = 28,
+        .paletteMode = 1,
         .priority = 0
     }
 };
@@ -376,27 +377,17 @@ static bool8 Menu_LoadGraphics(void)
     {
     case 0:
         ResetTempTileDataBuffers();
-        // if (FreeTempTileDataBuffersIfPossible() != TRUE)
-        // {
-        //     DecompressAndCopyTileDataToVram(1, sMenuTiles, 0, 0, 1);
-        // }
-        // else
-        //     LZDecompressWram(sMenuTiles, sBg1TilemapBuffer);
         DecompressAndCopyTileDataToVram(1, sBackgroundTiles, 0, 0, 0);
-        // DecompressAndCopyTileDataToVram(2, sMenuTiles, 0, 0, 0);
+        DecompressAndCopyTileDataToVram(2, sMenuTiles, 0, 0, 0);
         sMenuDataPtr->gfxLoadState++;
         break;
     case 1:
         if (FreeTempTileDataBuffersIfPossible() != TRUE)
         {
-            // DecompressAndCopyTileDataToVram(1, sMenuTilemap, 0, 0, 1);
             LZDecompressWram(sBackgroundTilemap, sBg1TilemapBuffer);
-            // CopyToBgTilemapBuffer(1, sMenuTilemap, 0, 0);
-            // LZDecompressWram(sMenuTilemap, sBg2TilemapBuffer);
+            LZDecompressWram(sMenuTilemap, sBg2TilemapBuffer);
             sMenuDataPtr->gfxLoadState++;
         }
-        // else
-        //     LZDecompressWram(sMenuTilemap, sBg1TilemapBuffer);
         break;
     case 2:
         LoadPalette(sBackgroundPalette, 0, 32);
