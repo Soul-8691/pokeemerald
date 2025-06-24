@@ -1031,29 +1031,54 @@ static const u8 sMenuWindowFontColors_[][3] =
     [FONT_BLUE]  = {TEXT_COLOR_TRANSPARENT,  TEXT_COLOR_BLUE,       TEXT_COLOR_LIGHT_GRAY},
 };
 
-const u8 *const sCardAttributeIcons[NUM_CARDS + 1] =
+const u8 *const sCardAttributeIcons[NUM_ATTRIBUTES + 1] =
 {
     [ATTRIBUTE_DARK] = gDarkIcon,
     [ATTRIBUTE_LIGHT] = gLightIcon,
+    [ATTRIBUTE_FIRE] = gFireIcon,
+    [ATTRIBUTE_WATER] = gWaterIcon,
+    [ATTRIBUTE_EARTH] = gEarthIcon,
 };
 
-const u16 *const sCardAttributeIconPals[NUM_CARDS + 1] =
+const u16 *const sCardAttributeIconPals[NUM_ATTRIBUTES + 1] =
 {
     [ATTRIBUTE_DARK] = gDarkIconPal,
     [ATTRIBUTE_LIGHT] = gLightIconPal,
+    [ATTRIBUTE_FIRE] = gFireIconPal,
+    [ATTRIBUTE_WATER] = gWaterIconPal,
+    [ATTRIBUTE_EARTH] = gEarthIconPal,
 };
 
-const u8 *const sCardRaceIcons[NUM_CARDS + 1] =
+const u8 *const sCardRaceIcons[NUM_RACES + 1] =
 {
     [RACE_SPELLCASTER] = gSpellcasterIcon,
     [RACE_DRAGON] = gDragonIcon,
+    [RACE_ROCK] = gRockIcon,
+    [RACE_WARRIOR] = gWarriorIcon,
+    [RACE_FIEND] = gFiendIcon,
 };
 
-const u16 *const sCardRaceIconPals[NUM_CARDS + 1] =
+const u16 *const sCardRaceIconPals[NUM_RACES + 1] =
 {
     [RACE_SPELLCASTER] = gSpellcasterIconPal,
     [RACE_DRAGON] = gDragonIconPal,
+    [RACE_ROCK] = gRockIconPal,
+    [RACE_WARRIOR] = gWarriorIconPal,
+    [RACE_FIEND] = gFiendIconPal,
 };
+
+const u8 *const sCardTypeIcons[NUM_TYPES + 1] =
+{
+    [TYPE_SPELL_CARD] = gSpellIcon,
+    [TYPE_TRAP_CARD] = gTrapIcon,
+};
+
+const u16 *const sCardTypeIconPals[NUM_TYPES + 1] =
+{
+    [TYPE_SPELL_CARD] = gSpellIconPal,
+    [TYPE_TRAP_CARD] = gTrapIconPal,
+};
+
 static void PrintItemDescription(int itemIndex)
 {
     const u8 *str;
@@ -1061,6 +1086,7 @@ static void PrintItemDescription(int itemIndex)
     u16 card = CardIdMapping[itemId];
     u8 attribute = gCardInfo[card].attribute;
     u8 race = gCardInfo[card].race;
+    u8 type = gCardInfo[card].type;
     const u8 *cardName = gCardInfo[card].nameShort;
     u16 cardAtk = gCardInfo[card].atk * 10;
     u16 cardDef = gCardInfo[card].def * 10;
@@ -1089,10 +1115,18 @@ static void PrintItemDescription(int itemIndex)
         ConvertIntToDecimalStringN(gStringVar1, cardDef, STR_CONV_MODE_RIGHT_ALIGN, 4);
         StringExpandPlaceholders(gStringVar4, gText_xDef);
         BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, gStringVar4, 3, 36, 0, 0, 0, COLORID_NORMAL);
-        BlitBitmapToWindow(WIN_UPPER, sCardRaceIcons[race], 38, 8, 16, 16);
-        LoadPalette(sCardRaceIconPals[race], BG_PLTT_ID(7), 32);
-        BlitBitmapToWindow(WIN_UPPER_2, sCardAttributeIcons[attribute], 0, 6, 16, 16);
-        LoadPalette(sCardAttributeIconPals[attribute], BG_PLTT_ID(8), 32);
+        if (type == TYPE_SPELL_CARD || type == TYPE_TRAP_CARD)
+        {
+            BlitBitmapToWindow(WIN_UPPER, sCardTypeIcons[type], 38, 8, 16, 16);
+            LoadPalette(sCardTypeIconPals[type], BG_PLTT_ID(7), 32);
+        }
+        else
+        {
+            BlitBitmapToWindow(WIN_UPPER, sCardRaceIcons[race], 38, 8, 16, 16);
+            LoadPalette(sCardRaceIconPals[race], BG_PLTT_ID(7), 32);
+            BlitBitmapToWindow(WIN_UPPER_2, sCardAttributeIcons[attribute], 0, 6, 16, 16);
+            LoadPalette(sCardAttributeIconPals[attribute], BG_PLTT_ID(8), 32);
+        }
         CopyWindowToVram(WIN_UPPER, COPYWIN_FULL);
         CopyWindowToVram(WIN_UPPER_2, COPYWIN_FULL);
     }
