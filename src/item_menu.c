@@ -1268,6 +1268,7 @@ static void PrintItemDescription(int itemIndex)
         BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, str, 3, 4, 0, 0, 0, COLORID_NORMAL);
         ClearWindowTilemap(WIN_UPPER);
         ClearWindowTilemap(WIN_UPPER_2);
+        ScheduleBgCopyTilemapToVram(0);
     }
     else
     {
@@ -1295,6 +1296,9 @@ static void PrintItemDescription(int itemIndex)
         }
         CopyWindowToVram(WIN_UPPER, COPYWIN_GFX);
         CopyWindowToVram(WIN_UPPER_2, COPYWIN_GFX);
+        PutWindowTilemap(WIN_UPPER);
+        PutWindowTilemap(WIN_UPPER_2);
+        ScheduleBgCopyTilemapToVram(0);
     }
 }
 
