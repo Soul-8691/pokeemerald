@@ -1001,7 +1001,7 @@ EventScript_LeaveDeckBuilder::
 
 EventScript_AccessDeckBuilder::
 	playse SE_PC_LOGIN
-	msgbox gText_DeckBuilderOpened, MSGBOX_DEFAULT
+	@msgbox gText_DeckBuilderOpened, MSGBOX_DEFAULT
 	callnative Menu_Init
 	waitstate
 	goto EventScript_LeaveDeckBuilder

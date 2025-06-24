@@ -75,6 +75,8 @@ Item_Constants = ''
 Items = ''
 YGO_C = ''
 UI_Menu = ''
+Scripts = ''
+Graphics_File_Rules = ''
 card_counter = 1
 for data in card_info_data['data']:
     card_name = data['name']
@@ -93,6 +95,7 @@ for data in card_info_data['data']:
                      + 'extern const u32 gCardIconSmall_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
                      + 'extern const u32 gCardIconSmallPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n')
         ItemIconTable += '\t[ITEM_' + re.sub(r'\W+', '_', data['name']).upper() + '] = {gCardIconSquare_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ', gCardIconSquarePalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '},\n'
+        Scripts += '\tadditem ITEM_' + re.sub(r'\W+', '_', data['name']).upper() + '\n'
         YGO_Graphics_C += ('const u32 gCardPicLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '_Big[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/pic_large_big.8bpp.lz");\n'
                       + 'const u16 gCardPalLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U16("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/pic_large_big.gbapal");\n'
                       + 'const u32 gCardIconSquare_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/pic_tiny.4bpp.lz");\n'
@@ -120,6 +123,8 @@ for data in card_info_data['data']:
         .size = 80*80,
         .tag = TAG_CARD
     },\n'''
+        Graphics_File_Rules += 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '''/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64\n\n'''
 
 gCardInfo += '\n'
 YGO_C += '\n'
@@ -264,3 +269,7 @@ YGO_C_Output = open('src/ygo.c', 'w')
 YGO_C_Output.write(YGO_C)
 UI_Menu_Output = open('src/ui_menu.c', 'w')
 UI_Menu_Output.write(UI_Menu)
+Scripts_Output = open('scripts.inc', 'w')
+Scripts_Output.write(Scripts)
+Graphics_File_Rules_Output = open('graphics_file_rules.mk', 'w')
+Graphics_File_Rules_Output.write(Graphics_File_Rules)
