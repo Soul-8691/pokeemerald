@@ -1201,6 +1201,11 @@ const u8 *const sCardRaceIcons[NUM_RACES + 1] =
     [RACE_FISH] = gFishIcon,
     [RACE_THUNDER] = gLightningIcon,
     [RACE_MACHINE] = gMachineIcon,
+    [RACE_PLANT] = gPlantIcon,
+    [RACE_FAIRY] = gFairyIcon,
+    [RACE_AQUA] = gAquaIcon,
+    [RACE_BEAST] = gBeastIcon,
+    [RACE_REPTILE] = gReptileIcon,
 };
 
 const u16 *const sCardRaceIconPals[NUM_RACES + 1] =
@@ -1215,6 +1220,11 @@ const u16 *const sCardRaceIconPals[NUM_RACES + 1] =
     [RACE_FISH] = gFishIconPal,
     [RACE_THUNDER] = gLightningIconPal,
     [RACE_MACHINE] = gMachineIconPal,
+    [RACE_PLANT] = gPlantIconPal,
+    [RACE_FAIRY] = gFairyIconPal,
+    [RACE_AQUA] = gAquaIconPal,
+    [RACE_BEAST] = gBeastIconPal,
+    [RACE_REPTILE] = gReptileIconPal,
 };
 
 const u8 *const sCardTypeIcons[NUM_TYPES + 1] =
