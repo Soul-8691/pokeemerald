@@ -13,9 +13,9 @@ struct CardInfo
     /* 0x20 */ const u32 *iconLarge;
     /* 0x24 */ const u32 *iconSmall;
     /* 0x28 */ u16 effects[8];
-    /* 0x38 */ u32 type:3;
+    /* 0x38 */ u32 type:5;
     /* 0x38 */ u32 attribute:3;
-    /* 0x38 */ u32 level:4;
+    /* 0x39 */ u32 level:4;
     /* 0x39 */ u32 atk:9;
     /* 0x3A */ u32 def:9;
     /* 0x3B */ u8 race;

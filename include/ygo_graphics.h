@@ -231,6 +231,8 @@ extern const u8 gLightIcon[];
 extern const u16 gLightIconPal[];
 extern const u8 gEarthIcon[];
 extern const u16 gEarthIconPal[];
+extern const u8 gWindIcon[];
+extern const u16 gWindIconPal[];
 extern const u8 gFireIcon[];
 extern const u16 gFireIconPal[];
 extern const u8 gWaterIcon[];

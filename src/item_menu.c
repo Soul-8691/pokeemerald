@@ -1038,6 +1038,7 @@ const u8 *const sCardAttributeIcons[NUM_ATTRIBUTES + 1] =
     [ATTRIBUTE_FIRE] = gFireIcon,
     [ATTRIBUTE_WATER] = gWaterIcon,
     [ATTRIBUTE_EARTH] = gEarthIcon,
+    [ATTRIBUTE_WIND] = gWindIcon,
 };
 
 const u16 *const sCardAttributeIconPals[NUM_ATTRIBUTES + 1] =
@@ -1047,6 +1048,7 @@ const u16 *const sCardAttributeIconPals[NUM_ATTRIBUTES + 1] =
     [ATTRIBUTE_FIRE] = gFireIconPal,
     [ATTRIBUTE_WATER] = gWaterIconPal,
     [ATTRIBUTE_EARTH] = gEarthIconPal,
+    [ATTRIBUTE_WIND] = gWindIconPal,
 };
 
 const u8 *const sCardRaceIcons[NUM_RACES + 1] =
