@@ -329,21 +329,35 @@ for data in card_info_data['data']:
             for card_ in data_:
                 if card_['Card'] == card and card_['Format'] == 'Yugi-Kaiba':
                       gCardInfo += "\t\t.priceYK = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-        gCardInfo += ("\t\t.priceCritter = 0,\n"
-                      + "\t\t.priceTreasure = 0,\n"
-                      + "\t\t.priceImperial = 0,\n"
-                      + "\t\t.priceAndroid = 0,\n"
-                      + "\t\t.priceJoeyPegasus = 0,\n"
-                      + "\t\t.priceFiber = 0,\n"
-                      + "\t\t.priceYata = 0,\n"
-                      + "\t\t.priceScientist = 0,\n"
-                      + "\t\t.priceVampire = 0,\n"
-                      + "\t\t.priceChaos = 0,\n"
-                      + "\t\t.priceWarrior = 0,\n"
-                      + "\t\t.priceGoat = 0,\n"
-                      + "\t\t.priceCyber = 0,\n"
-                      + "\t\t.priceReaper = 0,\n"
-                      + "\t\t.price1 = 0,\n"
+                if card_['Card'] == card and card_['Format'] == 'Critter':
+                      gCardInfo += "\t\t.priceCritter = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+                if card_['Card'] == card and card_['Format'] == 'Treasure':
+                      gCardInfo += "\t\t.priceTreasure = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+                if card_['Card'] == card and card_['Format'] == 'Imperial':
+                      gCardInfo += "\t\t.priceImperial = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+                if card_['Card'] == card and card_['Format'] == 'Android':
+                      gCardInfo += "\t\t.priceAndroid = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+                if card_['Card'] == card and card_['Format'] == 'Joey-Pegasus':
+                      gCardInfo += "\t\t.priceJoeyPegasus = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+                if card_['Card'] == card and card_['Format'] == 'Fiber':
+                      gCardInfo += "\t\t.priceFiber = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+                if card_['Card'] == card and card_['Format'] == 'Yata':
+                      gCardInfo += "\t\t.priceYata = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+                if card_['Card'] == card and card_['Format'] == 'Scientist':
+                      gCardInfo += "\t\t.priceScientist = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+                if card_['Card'] == card and card_['Format'] == 'Vampire':
+                      gCardInfo += "\t\t.priceVampire = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+                if card_['Card'] == card and card_['Format'] == 'Chaos':
+                      gCardInfo += "\t\t.priceChaos = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+                if card_['Card'] == card and card_['Format'] == 'Warrior':
+                      gCardInfo += "\t\t.priceWarrior = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+                if card_['Card'] == card and card_['Format'] == 'Goat':
+                      gCardInfo += "\t\t.priceGoat = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+                if card_['Card'] == card and card_['Format'] == 'Cyber':
+                      gCardInfo += "\t\t.priceCyber = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+                if card_['Card'] == card and card_['Format'] == 'Reaper':
+                      gCardInfo += "\t\t.priceReaper = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+        gCardInfo += ("\t\t.price1 = 0,\n"
                       + "\t\t.price2 = 0,\n"
                       + "\t\t.price3 = 0,\n"
                       + '\t},\n')
