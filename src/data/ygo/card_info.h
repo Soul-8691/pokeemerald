@@ -1,13 +1,29 @@
+const u8 gCardName_7ColoredFish[] = _("7 Colored Fish");
+const u8 gCardNameShort_7ColoredFish[] = _("7 Colored Fish");
 const u8 gCardName_AquaMadoor[] = _("Aqua Madoor");
 const u8 gCardNameShort_AquaMadoor[] = _("Aqua Madoor");
+const u8 gCardName_BattleOx[] = _("Battle Ox");
+const u8 gCardNameShort_BattleOx[] = _("Battle Ox");
+const u8 gCardName_Bickuribox[] = _("Bickuribox");
+const u8 gCardNameShort_Bickuribox[] = _("Bickuribox");
+const u8 gCardName_BlackSkullDragon[] = _("Black Skull Dragon");
+const u8 gCardNameShort_BlackSkullDragon[] = _("Black Skull Dragon");
 const u8 gCardName_BlueEyesWhiteDragon[] = _("Blue-Eyes White Dragon");
 const u8 gCardNameShort_BlueEyesWhiteDragon[] = _("Blue-Eyes White Dragon");
+const u8 gCardName_CannonSoldier[] = _("Cannon Soldier");
+const u8 gCardNameShort_CannonSoldier[] = _("Cannon Soldier");
 const u8 gCardName_ChangeofHeart[] = _("Change of Heart");
 const u8 gCardNameShort_ChangeofHeart[] = _("Change of Heart");
+const u8 gCardName_CrassClown[] = _("Crass Clown");
+const u8 gCardNameShort_CrassClown[] = _("Crass Clown");
+const u8 gCardName_DarkElf[] = _("Dark Elf");
+const u8 gCardNameShort_DarkElf[] = _("Dark Elf");
 const u8 gCardName_DarkHole[] = _("Dark Hole");
 const u8 gCardNameShort_DarkHole[] = _("Dark Hole");
 const u8 gCardName_DarkMagician[] = _("Dark Magician");
 const u8 gCardNameShort_DarkMagician[] = _("Dark Magician");
+const u8 gCardName_DreamClown[] = _("Dream Clown");
+const u8 gCardNameShort_DreamClown[] = _("Dream Clown");
 const u8 gCardName_ExodiatheForbiddenOne[] = _("Exodia the Forbidden One");
 const u8 gCardNameShort_ExodiatheForbiddenOne[] = _("Exodia the Forbidden O");
 const u8 gCardName_Fissure[] = _("Fissure");
@@ -20,16 +36,50 @@ const u8 gCardName_GaiaTheFierceKnight[] = _("Gaia The Fierce Knight");
 const u8 gCardNameShort_GaiaTheFierceKnight[] = _("Gaia The Fierce Knight");
 const u8 gCardName_GiantSoldierofStone[] = _("Giant Soldier of Stone");
 const u8 gCardNameShort_GiantSoldierofStone[] = _("Giant Soldier of Stone");
+const u8 gCardName_GigaTechWolf[] = _("Giga-Tech Wolf");
+const u8 gCardNameShort_GigaTechWolf[] = _("Giga-Tech Wolf");
+const u8 gCardName_HeavyStorm[] = _("Heavy Storm");
+const u8 gCardNameShort_HeavyStorm[] = _("Heavy Storm");
+const u8 gCardName_JiraiGumo[] = _("Jirai Gumo");
+const u8 gCardNameShort_JiraiGumo[] = _("Jirai Gumo");
+const u8 gCardName_JudgeMan[] = _("Judge Man");
+const u8 gCardNameShort_JudgeMan[] = _("Judge Man");
 const u8 gCardName_JustDesserts[] = _("Just Desserts");
 const u8 gCardNameShort_JustDesserts[] = _("Just Desserts");
+const u8 gCardName_Kuriboh[] = _("Kuriboh");
+const u8 gCardNameShort_Kuriboh[] = _("Kuriboh");
+const u8 gCardName_LaJinntheMysticalGenieoftheLamp[] = _("La Jinn the Mystical Genie of the Lamp");
+const u8 gCardNameShort_LaJinntheMysticalGenieoftheLamp[] = _("La Jinn the Mystical G");
+const u8 gCardName_LabyrinthTank[] = _("Labyrinth Tank");
+const u8 gCardNameShort_LabyrinthTank[] = _("Labyrinth Tank");
+const u8 gCardName_LastWill[] = _("Last Will");
+const u8 gCardNameShort_LastWill[] = _("Last Will");
 const u8 gCardName_LeftArmoftheForbiddenOne[] = _("Left Arm of the Forbidden One");
 const u8 gCardNameShort_LeftArmoftheForbiddenOne[] = _("Left Arm of the Forbid");
 const u8 gCardName_LeftLegoftheForbiddenOne[] = _("Left Leg of the Forbidden One");
 const u8 gCardNameShort_LeftLegoftheForbiddenOne[] = _("Left Leg of the Forbid");
+const u8 gCardName_MagicJammer[] = _("Magic Jammer");
+const u8 gCardNameShort_MagicJammer[] = _("Magic Jammer");
+const u8 gCardName_MagicianofFaith[] = _("Magician of Faith");
+const u8 gCardNameShort_MagicianofFaith[] = _("Magician of Faith");
+const u8 gCardName_ManEaterBug[] = _("Man-Eater Bug");
+const u8 gCardNameShort_ManEaterBug[] = _("Man-Eater Bug");
+const u8 gCardName_MaskofDarkness[] = _("Mask of Darkness");
+const u8 gCardNameShort_MaskofDarkness[] = _("Mask of Darkness");
+const u8 gCardName_MaskedSorcerer[] = _("Masked Sorcerer");
+const u8 gCardNameShort_MaskedSorcerer[] = _("Masked Sorcerer");
+const u8 gCardName_MirrorForce[] = _("Mirror Force");
+const u8 gCardNameShort_MirrorForce[] = _("Mirror Force");
 const u8 gCardName_MonsterReborn[] = _("Monster Reborn");
 const u8 gCardNameShort_MonsterReborn[] = _("Monster Reborn");
+const u8 gCardName_MukaMuka[] = _("Muka Muka");
+const u8 gCardNameShort_MukaMuka[] = _("Muka Muka");
 const u8 gCardName_MysticalElf[] = _("Mystical Elf");
 const u8 gCardNameShort_MysticalElf[] = _("Mystical Elf");
+const u8 gCardName_NeotheMagicSwordsman[] = _("Neo the Magic Swordsman");
+const u8 gCardNameShort_NeotheMagicSwordsman[] = _("Neo the Magic Swordsma");
+const u8 gCardName_Ookazi[] = _("Ookazi");
+const u8 gCardNameShort_Ookazi[] = _("Ookazi");
 const u8 gCardName_Polymerization[] = _("Polymerization");
 const u8 gCardNameShort_Polymerization[] = _("Polymerization");
 const u8 gCardName_PotofGreed[] = _("Pot of Greed");
@@ -38,25 +88,70 @@ const u8 gCardName_Raigeki[] = _("Raigeki");
 const u8 gCardNameShort_Raigeki[] = _("Raigeki");
 const u8 gCardName_RedEyesBlackDragon[] = _("Red-Eyes Black Dragon");
 const u8 gCardNameShort_RedEyesBlackDragon[] = _("Red-Eyes Black Dragon");
+const u8 gCardName_Reinforcements[] = _("Reinforcements");
+const u8 gCardNameShort_Reinforcements[] = _("Reinforcements");
 const u8 gCardName_RightArmoftheForbiddenOne[] = _("Right Arm of the Forbidden One");
 const u8 gCardNameShort_RightArmoftheForbiddenOne[] = _("Right Arm of the Forbi");
 const u8 gCardName_RightLegoftheForbiddenOne[] = _("Right Leg of the Forbidden One");
 const u8 gCardNameShort_RightLegoftheForbiddenOne[] = _("Right Leg of the Forbi");
+const u8 gCardName_RobbinGoblin[] = _("Robbin' Goblin");
+const u8 gCardNameShort_RobbinGoblin[] = _("Robbin' Goblin");
+const u8 gCardName_Sangan[] = _("Sangan");
+const u8 gCardNameShort_Sangan[] = _("Sangan");
+const u8 gCardName_SevenToolsoftheBandit[] = _("Seven Tools of the Bandit");
+const u8 gCardNameShort_SevenToolsoftheBandit[] = _("Seven Tools of the Ban");
+const u8 gCardName_SkullKnight[] = _("Skull Knight");
+const u8 gCardNameShort_SkullKnight[] = _("Skull Knight");
+const u8 gCardName_SolemnJudgment[] = _("Solemn Judgment");
+const u8 gCardNameShort_SolemnJudgment[] = _("Solemn Judgment");
 const u8 gCardName_SoulExchange[] = _("Soul Exchange");
 const u8 gCardNameShort_SoulExchange[] = _("Soul Exchange");
 const u8 gCardName_SummonedSkull[] = _("Summoned Skull");
 const u8 gCardNameShort_SummonedSkull[] = _("Summoned Skull");
 const u8 gCardName_SwordsofRevealingLight[] = _("Swords of Revealing Light");
 const u8 gCardNameShort_SwordsofRevealingLight[] = _("Swords of Revealing Li");
+const u8 gCardName_ThunderDragon[] = _("Thunder Dragon");
+const u8 gCardNameShort_ThunderDragon[] = _("Thunder Dragon");
 const u8 gCardName_TrapHole[] = _("Trap Hole");
 const u8 gCardNameShort_TrapHole[] = _("Trap Hole");
+const u8 gCardName_TributetotheDoomed[] = _("Tribute to the Doomed");
+const u8 gCardNameShort_TributetotheDoomed[] = _("Tribute to the Doomed");
+const u8 gCardName_TwinHeadedThunderDragon[] = _("Twin-Headed Thunder Dragon");
+const u8 gCardNameShort_TwinHeadedThunderDragon[] = _("Twin-Headed Thunder Dr");
 const u8 gCardName_UltimateOffering[] = _("Ultimate Offering");
 const u8 gCardNameShort_UltimateOffering[] = _("Ultimate Offering");
+const u8 gCardName_Waboku[] = _("Waboku");
+const u8 gCardNameShort_Waboku[] = _("Waboku");
 const u8 gCardName_WallofIllusion[] = _("Wall of Illusion");
 const u8 gCardNameShort_WallofIllusion[] = _("Wall of Illusion");
+const u8 gCardName_WhiteMagicalHat[] = _("White Magical Hat");
+const u8 gCardNameShort_WhiteMagicalHat[] = _("White Magical Hat");
+const u8 gCardName_WitchoftheBlackForest[] = _("Witch of the Black Forest");
+const u8 gCardNameShort_WitchoftheBlackForest[] = _("Witch of the Black For");
 
 const struct CardInfo gCardInfo[] =
 {
+	[CARD_7_COLORED_FISH] =
+	{
+		.name = gCardName_7ColoredFish,
+		.nameShort = gCardNameShort_7ColoredFish,
+		.description = gCardDescription_7ColoredFish,
+		.password = _("23771716"),
+		.pic = gCardPicLarge_7ColoredFish_Big,
+		.pal = gCardPalLarge_7ColoredFish,
+		.iconSquare = gCardIconSquare_7ColoredFish,
+		.iconLarge = gCardIconLarge_7ColoredFish,
+		.iconSmall = gCardIconSmall_7ColoredFish,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_NORMAL_MONSTER,
+		.attribute = ATTRIBUTE_WATER,
+		.level = 4,
+		.atk = 180,
+		.def = 80,
+		.race = RACE_FISH,
+		.id = 4446,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
 	[CARD_AQUA_MADOOR] =
 	{
 		.name = gCardName_AquaMadoor,
@@ -76,6 +171,69 @@ const struct CardInfo gCardInfo[] =
 		.def = 200,
 		.race = RACE_SPELLCASTER,
 		.id = 4219,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
+	[CARD_BATTLE_OX] =
+	{
+		.name = gCardName_BattleOx,
+		.nameShort = gCardNameShort_BattleOx,
+		.description = gCardDescription_BattleOx,
+		.password = _("5053103"),
+		.pic = gCardPicLarge_BattleOx_Big,
+		.pal = gCardPalLarge_BattleOx,
+		.iconSquare = gCardIconSquare_BattleOx,
+		.iconLarge = gCardIconLarge_BattleOx,
+		.iconSmall = gCardIconSmall_BattleOx,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_NORMAL_MONSTER,
+		.attribute = ATTRIBUTE_EARTH,
+		.level = 4,
+		.atk = 170,
+		.def = 100,
+		.race = RACE_BEAST_WARRIOR,
+		.id = 4032,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
+	[CARD_BICKURIBOX] =
+	{
+		.name = gCardName_Bickuribox,
+		.nameShort = gCardNameShort_Bickuribox,
+		.description = gCardDescription_Bickuribox,
+		.password = _("25655502"),
+		.pic = gCardPicLarge_Bickuribox_Big,
+		.pal = gCardPalLarge_Bickuribox,
+		.iconSquare = gCardIconSquare_Bickuribox,
+		.iconLarge = gCardIconLarge_Bickuribox,
+		.iconSmall = gCardIconSmall_Bickuribox,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_FUSION_MONSTER,
+		.attribute = ATTRIBUTE_DARK,
+		.level = 7,
+		.atk = 230,
+		.def = 200,
+		.race = RACE_FIEND,
+		.id = 4391,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
+	[CARD_BLACK_SKULL_DRAGON] =
+	{
+		.name = gCardName_BlackSkullDragon,
+		.nameShort = gCardNameShort_BlackSkullDragon,
+		.description = gCardDescription_BlackSkullDragon,
+		.password = _("11901678"),
+		.pic = gCardPicLarge_BlackSkullDragon_Big,
+		.pal = gCardPalLarge_BlackSkullDragon,
+		.iconSquare = gCardIconSquare_BlackSkullDragon,
+		.iconLarge = gCardIconLarge_BlackSkullDragon,
+		.iconSmall = gCardIconSmall_BlackSkullDragon,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_FUSION_MONSTER,
+		.attribute = ATTRIBUTE_DARK,
+		.level = 9,
+		.atk = 320,
+		.def = 250,
+		.race = RACE_DRAGON,
+		.id = 4223,
 		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
 	},
 	[CARD_BLUE_EYES_WHITE_DRAGON] =
@@ -99,6 +257,27 @@ const struct CardInfo gCardInfo[] =
 		.id = 4007,
 		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
 	},
+	[CARD_CANNON_SOLDIER] =
+	{
+		.name = gCardName_CannonSoldier,
+		.nameShort = gCardNameShort_CannonSoldier,
+		.description = gCardDescription_CannonSoldier,
+		.password = _("11384280"),
+		.pic = gCardPicLarge_CannonSoldier_Big,
+		.pal = gCardPalLarge_CannonSoldier,
+		.iconSquare = gCardIconSquare_CannonSoldier,
+		.iconLarge = gCardIconLarge_CannonSoldier,
+		.iconSmall = gCardIconSmall_CannonSoldier,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_EFFECT_MONSTER,
+		.attribute = ATTRIBUTE_DARK,
+		.level = 4,
+		.atk = 140,
+		.def = 130,
+		.race = RACE_MACHINE,
+		.id = 4518,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
 	[CARD_CHANGE_OF_HEART] =
 	{
 		.name = gCardName_ChangeofHeart,
@@ -118,6 +297,48 @@ const struct CardInfo gCardInfo[] =
 		.def = 0,
 		.race = RACE_NONE,
 		.id = 4860,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
+	[CARD_CRASS_CLOWN] =
+	{
+		.name = gCardName_CrassClown,
+		.nameShort = gCardNameShort_CrassClown,
+		.description = gCardDescription_CrassClown,
+		.password = _("93889755"),
+		.pic = gCardPicLarge_CrassClown_Big,
+		.pal = gCardPalLarge_CrassClown,
+		.iconSquare = gCardIconSquare_CrassClown,
+		.iconLarge = gCardIconLarge_CrassClown,
+		.iconSmall = gCardIconSmall_CrassClown,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_EFFECT_MONSTER,
+		.attribute = ATTRIBUTE_DARK,
+		.level = 4,
+		.atk = 135,
+		.def = 140,
+		.race = RACE_FIEND,
+		.id = 4101,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
+	[CARD_DARK_ELF] =
+	{
+		.name = gCardName_DarkElf,
+		.nameShort = gCardNameShort_DarkElf,
+		.description = gCardDescription_DarkElf,
+		.password = _("21417692"),
+		.pic = gCardPicLarge_DarkElf_Big,
+		.pal = gCardPalLarge_DarkElf,
+		.iconSquare = gCardIconSquare_DarkElf,
+		.iconLarge = gCardIconLarge_DarkElf,
+		.iconSmall = gCardIconSmall_DarkElf,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_EFFECT_MONSTER,
+		.attribute = ATTRIBUTE_DARK,
+		.level = 4,
+		.atk = 200,
+		.def = 80,
+		.race = RACE_SPELLCASTER,
+		.id = 4557,
 		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
 	},
 	[CARD_DARK_HOLE] =
@@ -160,6 +381,27 @@ const struct CardInfo gCardInfo[] =
 		.def = 210,
 		.race = RACE_SPELLCASTER,
 		.id = 4041,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
+	[CARD_DREAM_CLOWN] =
+	{
+		.name = gCardName_DreamClown,
+		.nameShort = gCardNameShort_DreamClown,
+		.description = gCardDescription_DreamClown,
+		.password = _("13215230"),
+		.pic = gCardPicLarge_DreamClown_Big,
+		.pal = gCardPalLarge_DreamClown,
+		.iconSquare = gCardIconSquare_DreamClown,
+		.iconLarge = gCardIconLarge_DreamClown,
+		.iconSmall = gCardIconSmall_DreamClown,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_EFFECT_MONSTER,
+		.attribute = ATTRIBUTE_EARTH,
+		.level = 3,
+		.atk = 120,
+		.def = 90,
+		.race = RACE_WARRIOR,
+		.id = 4126,
 		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
 	},
 	[CARD_EXODIA_THE_FORBIDDEN_ONE] =
@@ -288,6 +530,90 @@ const struct CardInfo gCardInfo[] =
 		.id = 4080,
 		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
 	},
+	[CARD_GIGA_TECH_WOLF] =
+	{
+		.name = gCardName_GigaTechWolf,
+		.nameShort = gCardNameShort_GigaTechWolf,
+		.description = gCardDescription_GigaTechWolf,
+		.password = _("8471389"),
+		.pic = gCardPicLarge_GigaTechWolf_Big,
+		.pal = gCardPalLarge_GigaTechWolf,
+		.iconSquare = gCardIconSquare_GigaTechWolf,
+		.iconLarge = gCardIconLarge_GigaTechWolf,
+		.iconSmall = gCardIconSmall_GigaTechWolf,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_NORMAL_MONSTER,
+		.attribute = ATTRIBUTE_FIRE,
+		.level = 4,
+		.atk = 120,
+		.def = 140,
+		.race = RACE_MACHINE,
+		.id = 4418,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
+	[CARD_HEAVY_STORM] =
+	{
+		.name = gCardName_HeavyStorm,
+		.nameShort = gCardNameShort_HeavyStorm,
+		.description = gCardDescription_HeavyStorm,
+		.password = _("19613556"),
+		.pic = gCardPicLarge_HeavyStorm_Big,
+		.pal = gCardPalLarge_HeavyStorm,
+		.iconSquare = gCardIconSquare_HeavyStorm,
+		.iconLarge = gCardIconLarge_HeavyStorm,
+		.iconSmall = gCardIconSmall_HeavyStorm,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_SPELL_CARD,
+		.attribute = ATTRIBUTE_NONE,
+		.level = 0,
+		.atk = 0,
+		.def = 0,
+		.race = RACE_NONE,
+		.id = 4891,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
+	[CARD_JIRAI_GUMO] =
+	{
+		.name = gCardName_JiraiGumo,
+		.nameShort = gCardNameShort_JiraiGumo,
+		.description = gCardDescription_JiraiGumo,
+		.password = _("94773007"),
+		.pic = gCardPicLarge_JiraiGumo_Big,
+		.pal = gCardPalLarge_JiraiGumo,
+		.iconSquare = gCardIconSquare_JiraiGumo,
+		.iconLarge = gCardIconLarge_JiraiGumo,
+		.iconSmall = gCardIconSmall_JiraiGumo,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_EFFECT_MONSTER,
+		.attribute = ATTRIBUTE_EARTH,
+		.level = 4,
+		.atk = 220,
+		.def = 10,
+		.race = RACE_INSECT,
+		.id = 4373,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
+	[CARD_JUDGE_MAN] =
+	{
+		.name = gCardName_JudgeMan,
+		.nameShort = gCardNameShort_JudgeMan,
+		.description = gCardDescription_JudgeMan,
+		.password = _("30113682"),
+		.pic = gCardPicLarge_JudgeMan_Big,
+		.pal = gCardPalLarge_JudgeMan,
+		.iconSquare = gCardIconSquare_JudgeMan,
+		.iconLarge = gCardIconLarge_JudgeMan,
+		.iconSmall = gCardIconSmall_JudgeMan,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_NORMAL_MONSTER,
+		.attribute = ATTRIBUTE_EARTH,
+		.level = 6,
+		.atk = 220,
+		.def = 150,
+		.race = RACE_WARRIOR,
+		.id = 4039,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
 	[CARD_JUST_DESSERTS] =
 	{
 		.name = gCardName_JustDesserts,
@@ -307,6 +633,90 @@ const struct CardInfo gCardInfo[] =
 		.def = 0,
 		.race = RACE_NONE,
 		.id = 4865,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
+	[CARD_KURIBOH] =
+	{
+		.name = gCardName_Kuriboh,
+		.nameShort = gCardNameShort_Kuriboh,
+		.description = gCardDescription_Kuriboh,
+		.password = _("40640057"),
+		.pic = gCardPicLarge_Kuriboh_Big,
+		.pal = gCardPalLarge_Kuriboh,
+		.iconSquare = gCardIconSquare_Kuriboh,
+		.iconLarge = gCardIconLarge_Kuriboh,
+		.iconSmall = gCardIconSmall_Kuriboh,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_EFFECT_MONSTER,
+		.attribute = ATTRIBUTE_DARK,
+		.level = 1,
+		.atk = 30,
+		.def = 20,
+		.race = RACE_FIEND,
+		.id = 4064,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
+	[CARD_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP] =
+	{
+		.name = gCardName_LaJinntheMysticalGenieoftheLamp,
+		.nameShort = gCardNameShort_LaJinntheMysticalGenieoftheLamp,
+		.description = gCardDescription_LaJinntheMysticalGenieoftheLamp,
+		.password = _("97590747"),
+		.pic = gCardPicLarge_LaJinntheMysticalGenieoftheLamp_Big,
+		.pal = gCardPalLarge_LaJinntheMysticalGenieoftheLamp,
+		.iconSquare = gCardIconSquare_LaJinntheMysticalGenieoftheLamp,
+		.iconLarge = gCardIconLarge_LaJinntheMysticalGenieoftheLamp,
+		.iconSmall = gCardIconSmall_LaJinntheMysticalGenieoftheLamp,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_NORMAL_MONSTER,
+		.attribute = ATTRIBUTE_DARK,
+		.level = 4,
+		.atk = 180,
+		.def = 100,
+		.race = RACE_FIEND,
+		.id = 4385,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
+	[CARD_LABYRINTH_TANK] =
+	{
+		.name = gCardName_LabyrinthTank,
+		.nameShort = gCardNameShort_LabyrinthTank,
+		.description = gCardDescription_LabyrinthTank,
+		.password = _("99551425"),
+		.pic = gCardPicLarge_LabyrinthTank_Big,
+		.pal = gCardPalLarge_LabyrinthTank,
+		.iconSquare = gCardIconSquare_LabyrinthTank,
+		.iconLarge = gCardIconLarge_LabyrinthTank,
+		.iconSmall = gCardIconSmall_LabyrinthTank,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_FUSION_MONSTER,
+		.attribute = ATTRIBUTE_DARK,
+		.level = 7,
+		.atk = 240,
+		.def = 240,
+		.race = RACE_MACHINE,
+		.id = 4376,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
+	[CARD_LAST_WILL] =
+	{
+		.name = gCardName_LastWill,
+		.nameShort = gCardNameShort_LastWill,
+		.description = gCardDescription_LastWill,
+		.password = _("85602018"),
+		.pic = gCardPicLarge_LastWill_Big,
+		.pal = gCardPalLarge_LastWill,
+		.iconSquare = gCardIconSquare_LastWill,
+		.iconLarge = gCardIconLarge_LastWill,
+		.iconSmall = gCardIconSmall_LastWill,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_SPELL_CARD,
+		.attribute = ATTRIBUTE_NONE,
+		.level = 0,
+		.atk = 0,
+		.def = 0,
+		.race = RACE_NONE,
+		.id = 4885,
 		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
 	},
 	[CARD_LEFT_ARM_OF_THE_FORBIDDEN_ONE] =
@@ -351,6 +761,132 @@ const struct CardInfo gCardInfo[] =
 		.id = 4024,
 		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
 	},
+	[CARD_MAGIC_JAMMER] =
+	{
+		.name = gCardName_MagicJammer,
+		.nameShort = gCardNameShort_MagicJammer,
+		.description = gCardDescription_MagicJammer,
+		.password = _("77414722"),
+		.pic = gCardPicLarge_MagicJammer_Big,
+		.pal = gCardPalLarge_MagicJammer,
+		.iconSquare = gCardIconSquare_MagicJammer,
+		.iconLarge = gCardIconLarge_MagicJammer,
+		.iconSmall = gCardIconSmall_MagicJammer,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_TRAP_CARD,
+		.attribute = ATTRIBUTE_NONE,
+		.level = 0,
+		.atk = 0,
+		.def = 0,
+		.race = RACE_NONE,
+		.id = 4862,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
+	[CARD_MAGICIAN_OF_FAITH] =
+	{
+		.name = gCardName_MagicianofFaith,
+		.nameShort = gCardNameShort_MagicianofFaith,
+		.description = gCardDescription_MagicianofFaith,
+		.password = _("31560081"),
+		.pic = gCardPicLarge_MagicianofFaith_Big,
+		.pal = gCardPalLarge_MagicianofFaith,
+		.iconSquare = gCardIconSquare_MagicianofFaith,
+		.iconLarge = gCardIconLarge_MagicianofFaith,
+		.iconSmall = gCardIconSmall_MagicianofFaith,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_FLIP_EFFECT_MONSTER,
+		.attribute = ATTRIBUTE_LIGHT,
+		.level = 1,
+		.atk = 30,
+		.def = 40,
+		.race = RACE_SPELLCASTER,
+		.id = 4434,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
+	[CARD_MAN_EATER_BUG] =
+	{
+		.name = gCardName_ManEaterBug,
+		.nameShort = gCardNameShort_ManEaterBug,
+		.description = gCardDescription_ManEaterBug,
+		.password = _("54652250"),
+		.pic = gCardPicLarge_ManEaterBug_Big,
+		.pal = gCardPalLarge_ManEaterBug,
+		.iconSquare = gCardIconSquare_ManEaterBug,
+		.iconLarge = gCardIconLarge_ManEaterBug,
+		.iconSmall = gCardIconSmall_ManEaterBug,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_FLIP_EFFECT_MONSTER,
+		.attribute = ATTRIBUTE_EARTH,
+		.level = 2,
+		.atk = 45,
+		.def = 60,
+		.race = RACE_INSECT,
+		.id = 4507,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
+	[CARD_MASK_OF_DARKNESS] =
+	{
+		.name = gCardName_MaskofDarkness,
+		.nameShort = gCardNameShort_MaskofDarkness,
+		.description = gCardDescription_MaskofDarkness,
+		.password = _("28933734"),
+		.pic = gCardPicLarge_MaskofDarkness_Big,
+		.pal = gCardPalLarge_MaskofDarkness,
+		.iconSquare = gCardIconSquare_MaskofDarkness,
+		.iconLarge = gCardIconLarge_MaskofDarkness,
+		.iconSmall = gCardIconSmall_MaskofDarkness,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_FLIP_EFFECT_MONSTER,
+		.attribute = ATTRIBUTE_DARK,
+		.level = 2,
+		.atk = 90,
+		.def = 40,
+		.race = RACE_FIEND,
+		.id = 4108,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
+	[CARD_MASKED_SORCERER] =
+	{
+		.name = gCardName_MaskedSorcerer,
+		.nameShort = gCardNameShort_MaskedSorcerer,
+		.description = gCardDescription_MaskedSorcerer,
+		.password = _("10189126"),
+		.pic = gCardPicLarge_MaskedSorcerer_Big,
+		.pal = gCardPalLarge_MaskedSorcerer,
+		.iconSquare = gCardIconSquare_MaskedSorcerer,
+		.iconLarge = gCardIconLarge_MaskedSorcerer,
+		.iconSmall = gCardIconSmall_MaskedSorcerer,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_EFFECT_MONSTER,
+		.attribute = ATTRIBUTE_DARK,
+		.level = 4,
+		.atk = 90,
+		.def = 140,
+		.race = RACE_SPELLCASTER,
+		.id = 4226,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
+	[CARD_MIRROR_FORCE] =
+	{
+		.name = gCardName_MirrorForce,
+		.nameShort = gCardNameShort_MirrorForce,
+		.description = gCardDescription_MirrorForce,
+		.password = _("44095762"),
+		.pic = gCardPicLarge_MirrorForce_Big,
+		.pal = gCardPalLarge_MirrorForce,
+		.iconSquare = gCardIconSquare_MirrorForce,
+		.iconLarge = gCardIconLarge_MirrorForce,
+		.iconSmall = gCardIconSmall_MirrorForce,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_TRAP_CARD,
+		.attribute = ATTRIBUTE_NONE,
+		.level = 0,
+		.atk = 0,
+		.def = 0,
+		.race = RACE_NONE,
+		.id = 4887,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
 	[CARD_MONSTER_REBORN] =
 	{
 		.name = gCardName_MonsterReborn,
@@ -372,6 +908,27 @@ const struct CardInfo gCardInfo[] =
 		.id = 4842,
 		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
 	},
+	[CARD_MUKA_MUKA] =
+	{
+		.name = gCardName_MukaMuka,
+		.nameShort = gCardNameShort_MukaMuka,
+		.description = gCardDescription_MukaMuka,
+		.password = _("46657337"),
+		.pic = gCardPicLarge_MukaMuka_Big,
+		.pal = gCardPalLarge_MukaMuka,
+		.iconSquare = gCardIconSquare_MukaMuka,
+		.iconLarge = gCardIconLarge_MukaMuka,
+		.iconSmall = gCardIconSmall_MukaMuka,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_EFFECT_MONSTER,
+		.attribute = ATTRIBUTE_EARTH,
+		.level = 2,
+		.atk = 60,
+		.def = 30,
+		.race = RACE_ROCK,
+		.id = 4522,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
 	[CARD_MYSTICAL_ELF] =
 	{
 		.name = gCardName_MysticalElf,
@@ -391,6 +948,48 @@ const struct CardInfo gCardInfo[] =
 		.def = 200,
 		.race = RACE_SPELLCASTER,
 		.id = 4008,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
+	[CARD_NEO_THE_MAGIC_SWORDSMAN] =
+	{
+		.name = gCardName_NeotheMagicSwordsman,
+		.nameShort = gCardNameShort_NeotheMagicSwordsman,
+		.description = gCardDescription_NeotheMagicSwordsman,
+		.password = _("50930991"),
+		.pic = gCardPicLarge_NeotheMagicSwordsman_Big,
+		.pal = gCardPalLarge_NeotheMagicSwordsman,
+		.iconSquare = gCardIconSquare_NeotheMagicSwordsman,
+		.iconLarge = gCardIconLarge_NeotheMagicSwordsman,
+		.iconSmall = gCardIconSmall_NeotheMagicSwordsman,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_NORMAL_MONSTER,
+		.attribute = ATTRIBUTE_LIGHT,
+		.level = 4,
+		.atk = 170,
+		.def = 100,
+		.race = RACE_SPELLCASTER,
+		.id = 4881,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
+	[CARD_OOKAZI] =
+	{
+		.name = gCardName_Ookazi,
+		.nameShort = gCardNameShort_Ookazi,
+		.description = gCardDescription_Ookazi,
+		.password = _("19523799"),
+		.pic = gCardPicLarge_Ookazi_Big,
+		.pal = gCardPalLarge_Ookazi,
+		.iconSquare = gCardIconSquare_Ookazi,
+		.iconLarge = gCardIconLarge_Ookazi,
+		.iconSmall = gCardIconSmall_Ookazi,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_SPELL_CARD,
+		.attribute = ATTRIBUTE_NONE,
+		.level = 0,
+		.atk = 0,
+		.def = 0,
+		.race = RACE_NONE,
+		.id = 4352,
 		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
 	},
 	[CARD_POLYMERIZATION] =
@@ -477,6 +1076,27 @@ const struct CardInfo gCardInfo[] =
 		.id = 4088,
 		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
 	},
+	[CARD_REINFORCEMENTS] =
+	{
+		.name = gCardName_Reinforcements,
+		.nameShort = gCardNameShort_Reinforcements,
+		.description = gCardDescription_Reinforcements,
+		.password = _("17814387"),
+		.pic = gCardPicLarge_Reinforcements_Big,
+		.pal = gCardPalLarge_Reinforcements,
+		.iconSquare = gCardIconSquare_Reinforcements,
+		.iconLarge = gCardIconLarge_Reinforcements,
+		.iconSmall = gCardIconSmall_Reinforcements,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_TRAP_CARD,
+		.attribute = ATTRIBUTE_NONE,
+		.level = 0,
+		.atk = 0,
+		.def = 0,
+		.race = RACE_NONE,
+		.id = 4849,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
 	[CARD_RIGHT_ARM_OF_THE_FORBIDDEN_ONE] =
 	{
 		.name = gCardName_RightArmoftheForbiddenOne,
@@ -517,6 +1137,111 @@ const struct CardInfo gCardInfo[] =
 		.def = 30,
 		.race = RACE_SPELLCASTER,
 		.id = 4023,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
+	[CARD_ROBBIN_GOBLIN] =
+	{
+		.name = gCardName_RobbinGoblin,
+		.nameShort = gCardNameShort_RobbinGoblin,
+		.description = gCardDescription_RobbinGoblin,
+		.password = _("88279736"),
+		.pic = gCardPicLarge_RobbinGoblin_Big,
+		.pal = gCardPalLarge_RobbinGoblin,
+		.iconSquare = gCardIconSquare_RobbinGoblin,
+		.iconLarge = gCardIconLarge_RobbinGoblin,
+		.iconSmall = gCardIconSmall_RobbinGoblin,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_TRAP_CARD,
+		.attribute = ATTRIBUTE_NONE,
+		.level = 0,
+		.atk = 0,
+		.def = 0,
+		.race = RACE_NONE,
+		.id = 4876,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
+	[CARD_SANGAN] =
+	{
+		.name = gCardName_Sangan,
+		.nameShort = gCardNameShort_Sangan,
+		.description = gCardDescription_Sangan,
+		.password = _("26202165"),
+		.pic = gCardPicLarge_Sangan_Big,
+		.pal = gCardPalLarge_Sangan,
+		.iconSquare = gCardIconSquare_Sangan,
+		.iconLarge = gCardIconLarge_Sangan,
+		.iconSmall = gCardIconSmall_Sangan,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_EFFECT_MONSTER,
+		.attribute = ATTRIBUTE_DARK,
+		.level = 3,
+		.atk = 100,
+		.def = 60,
+		.race = RACE_FIEND,
+		.id = 4054,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
+	[CARD_SEVEN_TOOLS_OF_THE_BANDIT] =
+	{
+		.name = gCardName_SevenToolsoftheBandit,
+		.nameShort = gCardNameShort_SevenToolsoftheBandit,
+		.description = gCardDescription_SevenToolsoftheBandit,
+		.password = _("3819470"),
+		.pic = gCardPicLarge_SevenToolsoftheBandit_Big,
+		.pal = gCardPalLarge_SevenToolsoftheBandit,
+		.iconSquare = gCardIconSquare_SevenToolsoftheBandit,
+		.iconLarge = gCardIconLarge_SevenToolsoftheBandit,
+		.iconSmall = gCardIconSmall_SevenToolsoftheBandit,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_TRAP_CARD,
+		.attribute = ATTRIBUTE_NONE,
+		.level = 0,
+		.atk = 0,
+		.def = 0,
+		.race = RACE_NONE,
+		.id = 4863,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
+	[CARD_SKULL_KNIGHT] =
+	{
+		.name = gCardName_SkullKnight,
+		.nameShort = gCardNameShort_SkullKnight,
+		.description = gCardDescription_SkullKnight,
+		.password = _("2504891"),
+		.pic = gCardPicLarge_SkullKnight_Big,
+		.pal = gCardPalLarge_SkullKnight,
+		.iconSquare = gCardIconSquare_SkullKnight,
+		.iconLarge = gCardIconLarge_SkullKnight,
+		.iconSmall = gCardIconSmall_SkullKnight,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_FUSION_MONSTER,
+		.attribute = ATTRIBUTE_DARK,
+		.level = 7,
+		.atk = 265,
+		.def = 225,
+		.race = RACE_SPELLCASTER,
+		.id = 4713,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
+	[CARD_SOLEMN_JUDGMENT] =
+	{
+		.name = gCardName_SolemnJudgment,
+		.nameShort = gCardNameShort_SolemnJudgment,
+		.description = gCardDescription_SolemnJudgment,
+		.password = _("41420027"),
+		.pic = gCardPicLarge_SolemnJudgment_Big,
+		.pal = gCardPalLarge_SolemnJudgment,
+		.iconSquare = gCardIconSquare_SolemnJudgment,
+		.iconLarge = gCardIconLarge_SolemnJudgment,
+		.iconSmall = gCardIconSmall_SolemnJudgment,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_TRAP_CARD,
+		.attribute = ATTRIBUTE_NONE,
+		.level = 0,
+		.atk = 0,
+		.def = 0,
+		.race = RACE_NONE,
+		.id = 4861,
 		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
 	},
 	[CARD_SOUL_EXCHANGE] =
@@ -582,6 +1307,27 @@ const struct CardInfo gCardInfo[] =
 		.id = 4354,
 		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
 	},
+	[CARD_THUNDER_DRAGON] =
+	{
+		.name = gCardName_ThunderDragon,
+		.nameShort = gCardNameShort_ThunderDragon,
+		.description = gCardDescription_ThunderDragon,
+		.password = _("31786629"),
+		.pic = gCardPicLarge_ThunderDragon_Big,
+		.pal = gCardPalLarge_ThunderDragon,
+		.iconSquare = gCardIconSquare_ThunderDragon,
+		.iconLarge = gCardIconLarge_ThunderDragon,
+		.iconSmall = gCardIconSmall_ThunderDragon,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_EFFECT_MONSTER,
+		.attribute = ATTRIBUTE_LIGHT,
+		.level = 5,
+		.atk = 160,
+		.def = 150,
+		.race = RACE_THUNDER,
+		.id = 4431,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
 	[CARD_TRAP_HOLE] =
 	{
 		.name = gCardName_TrapHole,
@@ -601,6 +1347,48 @@ const struct CardInfo gCardInfo[] =
 		.def = 0,
 		.race = RACE_NONE,
 		.id = 4836,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
+	[CARD_TRIBUTE_TO_THE_DOOMED] =
+	{
+		.name = gCardName_TributetotheDoomed,
+		.nameShort = gCardNameShort_TributetotheDoomed,
+		.description = gCardDescription_TributetotheDoomed,
+		.password = _("79759861"),
+		.pic = gCardPicLarge_TributetotheDoomed_Big,
+		.pal = gCardPalLarge_TributetotheDoomed,
+		.iconSquare = gCardIconSquare_TributetotheDoomed,
+		.iconLarge = gCardIconLarge_TributetotheDoomed,
+		.iconSmall = gCardIconSmall_TributetotheDoomed,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_SPELL_CARD,
+		.attribute = ATTRIBUTE_NONE,
+		.level = 0,
+		.atk = 0,
+		.def = 0,
+		.race = RACE_NONE,
+		.id = 4856,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
+	[CARD_TWIN_HEADED_THUNDER_DRAGON] =
+	{
+		.name = gCardName_TwinHeadedThunderDragon,
+		.nameShort = gCardNameShort_TwinHeadedThunderDragon,
+		.description = gCardDescription_TwinHeadedThunderDragon,
+		.password = _("54752875"),
+		.pic = gCardPicLarge_TwinHeadedThunderDragon_Big,
+		.pal = gCardPalLarge_TwinHeadedThunderDragon,
+		.iconSquare = gCardIconSquare_TwinHeadedThunderDragon,
+		.iconLarge = gCardIconLarge_TwinHeadedThunderDragon,
+		.iconSmall = gCardIconSmall_TwinHeadedThunderDragon,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_FUSION_MONSTER,
+		.attribute = ATTRIBUTE_LIGHT,
+		.level = 7,
+		.atk = 280,
+		.def = 210,
+		.race = RACE_THUNDER,
+		.id = 4619,
 		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
 	},
 	[CARD_ULTIMATE_OFFERING] =
@@ -624,6 +1412,27 @@ const struct CardInfo gCardInfo[] =
 		.id = 4851,
 		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
 	},
+	[CARD_WABOKU] =
+	{
+		.name = gCardName_Waboku,
+		.nameShort = gCardNameShort_Waboku,
+		.description = gCardDescription_Waboku,
+		.password = _("12607053"),
+		.pic = gCardPicLarge_Waboku_Big,
+		.pal = gCardPalLarge_Waboku,
+		.iconSquare = gCardIconSquare_Waboku,
+		.iconLarge = gCardIconLarge_Waboku,
+		.iconSmall = gCardIconSmall_Waboku,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_TRAP_CARD,
+		.attribute = ATTRIBUTE_NONE,
+		.level = 0,
+		.atk = 0,
+		.def = 0,
+		.race = RACE_NONE,
+		.id = 4886,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
 	[CARD_WALL_OF_ILLUSION] =
 	{
 		.name = gCardName_WallofIllusion,
@@ -643,6 +1452,48 @@ const struct CardInfo gCardInfo[] =
 		.def = 185,
 		.race = RACE_FIEND,
 		.id = 4880,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
+	[CARD_WHITE_MAGICAL_HAT] =
+	{
+		.name = gCardName_WhiteMagicalHat,
+		.nameShort = gCardNameShort_WhiteMagicalHat,
+		.description = gCardDescription_WhiteMagicalHat,
+		.password = _("15150365"),
+		.pic = gCardPicLarge_WhiteMagicalHat_Big,
+		.pal = gCardPalLarge_WhiteMagicalHat,
+		.iconSquare = gCardIconSquare_WhiteMagicalHat,
+		.iconLarge = gCardIconLarge_WhiteMagicalHat,
+		.iconSmall = gCardIconSmall_WhiteMagicalHat,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_EFFECT_MONSTER,
+		.attribute = ATTRIBUTE_LIGHT,
+		.level = 3,
+		.atk = 100,
+		.def = 70,
+		.race = RACE_SPELLCASTER,
+		.id = 4120,
+		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
+	},
+	[CARD_WITCH_OF_THE_BLACK_FOREST] =
+	{
+		.name = gCardName_WitchoftheBlackForest,
+		.nameShort = gCardNameShort_WitchoftheBlackForest,
+		.description = gCardDescription_WitchoftheBlackForest,
+		.password = _("78010363"),
+		.pic = gCardPicLarge_WitchoftheBlackForest_Big,
+		.pal = gCardPalLarge_WitchoftheBlackForest,
+		.iconSquare = gCardIconSquare_WitchoftheBlackForest,
+		.iconLarge = gCardIconLarge_WitchoftheBlackForest,
+		.iconSmall = gCardIconSmall_WitchoftheBlackForest,
+		.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},
+		.type = TYPE_EFFECT_MONSTER,
+		.attribute = ATTRIBUTE_DARK,
+		.level = 4,
+		.atk = 110,
+		.def = 120,
+		.race = RACE_SPELLCASTER,
+		.id = 4580,
 		.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},
 	},
 };

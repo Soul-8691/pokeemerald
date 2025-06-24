@@ -306,19 +306,43 @@ $(TITLESCREENGFXDIR)/pokemon_logo.gbapal: %.gbapal: %.pal
 $(TITLESCREENGFXDIR)/emerald_version.8bpp: %.8bpp: %.png
 	$(GFX) $< $@ -mwidth 8 -mheight 4
 
+graphics/cards/7_colored_fish/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
 graphics/cards/aqua_madoor/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
+graphics/cards/battle_ox/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
+graphics/cards/bickuribox/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
+graphics/cards/black_skull_dragon/pic_large.gbapal: %.gbapal: %.pal
 	$(GFX) $< $@ -num_colors 64
 
 graphics/cards/blue_eyes_white_dragon/pic_large.gbapal: %.gbapal: %.pal
 	$(GFX) $< $@ -num_colors 64
 
+graphics/cards/cannon_soldier/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
 graphics/cards/change_of_heart/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
+graphics/cards/crass_clown/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
+graphics/cards/dark_elf/pic_large.gbapal: %.gbapal: %.pal
 	$(GFX) $< $@ -num_colors 64
 
 graphics/cards/dark_hole/pic_large.gbapal: %.gbapal: %.pal
 	$(GFX) $< $@ -num_colors 64
 
 graphics/cards/dark_magician/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
+graphics/cards/dream_clown/pic_large.gbapal: %.gbapal: %.pal
 	$(GFX) $< $@ -num_colors 64
 
 graphics/cards/exodia_the_forbidden_one/pic_large.gbapal: %.gbapal: %.pal
@@ -339,7 +363,31 @@ graphics/cards/gaia_the_fierce_knight/pic_large.gbapal: %.gbapal: %.pal
 graphics/cards/giant_soldier_of_stone/pic_large.gbapal: %.gbapal: %.pal
 	$(GFX) $< $@ -num_colors 64
 
+graphics/cards/giga_tech_wolf/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
+graphics/cards/heavy_storm/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
+graphics/cards/jirai_gumo/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
+graphics/cards/judge_man/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
 graphics/cards/just_desserts/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
+graphics/cards/kuriboh/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
+graphics/cards/la_jinn_the_mystical_genie_of_the_lamp/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
+graphics/cards/labyrinth_tank/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
+graphics/cards/last_will/pic_large.gbapal: %.gbapal: %.pal
 	$(GFX) $< $@ -num_colors 64
 
 graphics/cards/left_arm_of_the_forbidden_one/pic_large.gbapal: %.gbapal: %.pal
@@ -348,10 +396,37 @@ graphics/cards/left_arm_of_the_forbidden_one/pic_large.gbapal: %.gbapal: %.pal
 graphics/cards/left_leg_of_the_forbidden_one/pic_large.gbapal: %.gbapal: %.pal
 	$(GFX) $< $@ -num_colors 64
 
+graphics/cards/magic_jammer/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
+graphics/cards/magician_of_faith/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
+graphics/cards/man_eater_bug/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
+graphics/cards/mask_of_darkness/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
+graphics/cards/masked_sorcerer/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
+graphics/cards/mirror_force/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
 graphics/cards/monster_reborn/pic_large.gbapal: %.gbapal: %.pal
 	$(GFX) $< $@ -num_colors 64
 
+graphics/cards/muka_muka/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
 graphics/cards/mystical_elf/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
+graphics/cards/neo_the_magic_swordsman/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
+graphics/cards/ookazi/pic_large.gbapal: %.gbapal: %.pal
 	$(GFX) $< $@ -num_colors 64
 
 graphics/cards/polymerization/pic_large.gbapal: %.gbapal: %.pal
@@ -366,10 +441,28 @@ graphics/cards/raigeki/pic_large.gbapal: %.gbapal: %.pal
 graphics/cards/red_eyes_black_dragon/pic_large.gbapal: %.gbapal: %.pal
 	$(GFX) $< $@ -num_colors 64
 
+graphics/cards/reinforcements/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
 graphics/cards/right_arm_of_the_forbidden_one/pic_large.gbapal: %.gbapal: %.pal
 	$(GFX) $< $@ -num_colors 64
 
 graphics/cards/right_leg_of_the_forbidden_one/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
+graphics/cards/robbin_goblin/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
+graphics/cards/sangan/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
+graphics/cards/seven_tools_of_the_bandit/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
+graphics/cards/skull_knight/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
+graphics/cards/solemn_judgment/pic_large.gbapal: %.gbapal: %.pal
 	$(GFX) $< $@ -num_colors 64
 
 graphics/cards/soul_exchange/pic_large.gbapal: %.gbapal: %.pal
@@ -381,13 +474,31 @@ graphics/cards/summoned_skull/pic_large.gbapal: %.gbapal: %.pal
 graphics/cards/swords_of_revealing_light/pic_large.gbapal: %.gbapal: %.pal
 	$(GFX) $< $@ -num_colors 64
 
+graphics/cards/thunder_dragon/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
 graphics/cards/trap_hole/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
+graphics/cards/tribute_to_the_doomed/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
+graphics/cards/twin_headed_thunder_dragon/pic_large.gbapal: %.gbapal: %.pal
 	$(GFX) $< $@ -num_colors 64
 
 graphics/cards/ultimate_offering/pic_large.gbapal: %.gbapal: %.pal
 	$(GFX) $< $@ -num_colors 64
 
+graphics/cards/waboku/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
 graphics/cards/wall_of_illusion/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
+graphics/cards/white_magical_hat/pic_large.gbapal: %.gbapal: %.pal
+	$(GFX) $< $@ -num_colors 64
+
+graphics/cards/witch_of_the_black_forest/pic_large.gbapal: %.gbapal: %.pal
 	$(GFX) $< $@ -num_colors 64
 
 graphics/pokemon_jump/bg.4bpp: %.4bpp: %.png
