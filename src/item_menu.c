@@ -423,7 +423,7 @@ static const struct WindowTemplate sDefaultBagWindows[] =
         .width = 8,
         .height = 2,
         .paletteNum = 1,
-        .baseBlock = 0x1C1,
+        .baseBlock = 0x1A1,
     },
     [WIN_TMHM_INFO_ICONS] = {
         .bg = 0,
@@ -432,7 +432,7 @@ static const struct WindowTemplate sDefaultBagWindows[] =
         .width = 5,
         .height = 6,
         .paletteNum = 12,
-        .baseBlock = 0x1A3,
+        .baseBlock = 0x16B,
     },
     [WIN_TMHM_INFO] = {
         .bg = 0,
@@ -441,34 +441,25 @@ static const struct WindowTemplate sDefaultBagWindows[] =
         .width = 4,
         .height = 6,
         .paletteNum = 12,
-        .baseBlock = 0x1D1,
-    },
-    [WIN_MESSAGE] = {
-        .bg = 1,
-        .tilemapLeft = 2,
-        .tilemapTop = 15,
-        .width = 27,
-        .height = 4,
-        .paletteNum = 15,
-        .baseBlock = 0x1A3,
+        .baseBlock = 0x189,
     },
     [WIN_UPPER] = {
         .bg = 0,
-        .tilemapLeft = 0,
+        .tilemapLeft = 3,
         .tilemapTop = 3,
-        .width = 7,
+        .width = 4,
         .height = 4,
         .paletteNum = 7,
-        .baseBlock = 0x16B,
+        .baseBlock = 0x1B1,
     },
     [WIN_UPPER_2] = {
         .bg = 0,
         .tilemapLeft = 7,
         .tilemapTop = 3,
-        .width = 7,
+        .width = 4,
         .height = 4,
         .paletteNum = 8,
-        .baseBlock = 0x187,
+        .baseBlock = 0x1C1,
     },
     DUMMY_WIN_TEMPLATE,
 };
@@ -1119,12 +1110,12 @@ static void PrintItemDescription(int itemIndex)
         BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, gStringVar4, 3, 36, 0, 0, 0, COLORID_NORMAL);
         if (type == TYPE_SPELL_CARD || type == TYPE_TRAP_CARD)
         {
-            BlitBitmapToWindow(WIN_UPPER, sCardTypeIcons[type], 38, 8, 16, 16);
+            BlitBitmapToWindow(WIN_UPPER, sCardTypeIcons[type], 14, 8, 16, 16);
             LoadPalette(sCardTypeIconPals[type], BG_PLTT_ID(7), 32);
         }
         else
         {
-            BlitBitmapToWindow(WIN_UPPER, sCardRaceIcons[race], 38, 8, 16, 16);
+            BlitBitmapToWindow(WIN_UPPER, sCardRaceIcons[race], 14, 8, 16, 16);
             LoadPalette(sCardRaceIconPals[race], BG_PLTT_ID(7), 32);
             BlitBitmapToWindow(WIN_UPPER_2, sCardAttributeIcons[attribute], 0, 6, 16, 16);
             LoadPalette(sCardAttributeIconPals[attribute], BG_PLTT_ID(8), 32);

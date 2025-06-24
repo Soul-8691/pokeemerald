@@ -131,17 +131,15 @@ void CopyItemIconPicTo4x4Buffer(const void *src, void *dest, u16 itemId)
     u8 i;
     u16 card = CardIdMapping[itemId];
 
-    if (card > NUM_CARDS)
+    if (card < NUM_CARDS + 1 && card != 0)
     {
-        for (i = 0; i < 3; i++)
-            CpuCopy16(src + i * 96, dest + i * 128, 0x60);
+        for (i = 0; i < 4; i++)
+            CpuCopy16(src + i * 128, dest + i * 128, 0x80);
     }
     else
     {
-        // for (i = 0; i < 16; i++)
-        //     CpuCopy16(src + i * 128, dest + i * 256, 0x80);
-        for (i = 0; i < 4; i++)
-            CpuCopy16(src + i * 128, dest + i * 128, 0x80);
+        for (i = 0; i < 3; i++)
+            CpuCopy16(src + i * 96, dest + i * 128, 0x60);
     }
 }
 

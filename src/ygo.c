@@ -137,4 +137,5 @@ const u8 CardIdMapping[] =
     [ITEM_WALL_OF_ILLUSION] = 63,
     [ITEM_WHITE_MAGICAL_HAT] = 64,
     [ITEM_WITCH_OF_THE_BLACK_FOREST] = 65,
+    [ITEM_LIST_END] = 0,
 };
