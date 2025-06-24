@@ -3027,6 +3027,7 @@ extern const u8 gText_PkmnsNickname[];
 extern const u8 gText_TellHimTheWords[];
 
 // YGO
+extern const u8 gText_xLevel[];
 extern const u8 gText_xAtk[];
 extern const u8 gText_xDef[];
 

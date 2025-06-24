@@ -550,7 +550,7 @@ static const struct WindowTemplate sDefaultBagWindows[] =
         .tilemapLeft = 0,
         .tilemapTop = 7,
         .width = 14,
-        .height = 6,
+        .height = 8,
         .paletteNum = 1,
         .baseBlock = 0x117,
     },
@@ -561,7 +561,7 @@ static const struct WindowTemplate sDefaultBagWindows[] =
         .width = 8,
         .height = 2,
         .paletteNum = 1,
-        .baseBlock = 0x1A1,
+        .baseBlock = 0x1BD,
     },
     [WIN_TMHM_INFO_ICONS] = {
         .bg = 0,
@@ -570,7 +570,7 @@ static const struct WindowTemplate sDefaultBagWindows[] =
         .width = 5,
         .height = 6,
         .paletteNum = 12,
-        .baseBlock = 0x16B,
+        .baseBlock = 0x187,
     },
     [WIN_TMHM_INFO] = {
         .bg = 0,
@@ -579,7 +579,7 @@ static const struct WindowTemplate sDefaultBagWindows[] =
         .width = 4,
         .height = 6,
         .paletteNum = 12,
-        .baseBlock = 0x189,
+        .baseBlock = 0x1A5,
     },
     [WIN_UPPER] = {
         .bg = 0,
@@ -588,7 +588,7 @@ static const struct WindowTemplate sDefaultBagWindows[] =
         .width = 4,
         .height = 4,
         .paletteNum = 7,
-        .baseBlock = 0x1B1,
+        .baseBlock = 0x1CD,
     },
     [WIN_UPPER_2] = {
         .bg = 0,
@@ -597,7 +597,7 @@ static const struct WindowTemplate sDefaultBagWindows[] =
         .width = 4,
         .height = 4,
         .paletteNum = 8,
-        .baseBlock = 0x1C1,
+        .baseBlock = 0x1ED,
     },
     DUMMY_WIN_TEMPLATE,
 };
@@ -1250,6 +1250,7 @@ static void PrintItemDescription(int itemIndex)
     const u8 *cardName = gCardInfo[card].nameShort;
     u16 cardAtk = gCardInfo[card].atk * 10;
     u16 cardDef = gCardInfo[card].def * 10;
+    u8 cardLevel = gCardInfo[card].level;
     if (itemIndex != LIST_CANCEL)
     {
         str = GetItemDescription(itemId);
@@ -1269,12 +1270,15 @@ static void PrintItemDescription(int itemIndex)
     else
     {
         BagMenu_Print(WIN_DESCRIPTION, FONT_SMALL_NARROWER, cardName, 3, 4, 0, 0, 0, COLORID_NORMAL);
-        ConvertIntToDecimalStringN(gStringVar1, cardAtk, STR_CONV_MODE_RIGHT_ALIGN, 4);
-        StringExpandPlaceholders(gStringVar4, gText_xAtk);
+        ConvertIntToDecimalStringN(gStringVar1, cardLevel, STR_CONV_MODE_LEFT_ALIGN, 2);
+        StringExpandPlaceholders(gStringVar4, gText_xLevel);
         BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, gStringVar4, 3, 20, 0, 0, 0, COLORID_NORMAL);
-        ConvertIntToDecimalStringN(gStringVar1, cardDef, STR_CONV_MODE_RIGHT_ALIGN, 4);
-        StringExpandPlaceholders(gStringVar4, gText_xDef);
+        ConvertIntToDecimalStringN(gStringVar1, cardAtk, STR_CONV_MODE_LEFT_ALIGN, 4);
+        StringExpandPlaceholders(gStringVar4, gText_xAtk);
         BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, gStringVar4, 3, 36, 0, 0, 0, COLORID_NORMAL);
+        ConvertIntToDecimalStringN(gStringVar1, cardDef, STR_CONV_MODE_LEFT_ALIGN, 4);
+        StringExpandPlaceholders(gStringVar4, gText_xDef);
+        BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, gStringVar4, 3, 52, 0, 0, 0, COLORID_NORMAL);
         if (type == TYPE_SPELL_CARD || type == TYPE_TRAP_CARD)
         {
             BlitBitmapToWindow(WIN_UPPER, sCardTypeIcons[type], 14, 8, 16, 16);
