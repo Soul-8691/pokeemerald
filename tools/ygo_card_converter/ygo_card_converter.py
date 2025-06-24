@@ -311,6 +311,24 @@ for data in card_info_data['data']:
                       + "\t\t.race = RACE_NONE,\n")
         gCardInfo += ("\t\t.id = " + str(data['misc_info'][0]['konami_id']) + ",\n"
                       + "\t\t.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},\n"
+                      + "\t\t.priceYK = 0,\n"
+                      + "\t\t.priceCritter = 0,\n"
+                      + "\t\t.priceTreasure = 0,\n"
+                      + "\t\t.priceImperial = 0,\n"
+                      + "\t\t.priceAndroid = 0,\n"
+                      + "\t\t.priceJoeyPegasus = 0,\n"
+                      + "\t\t.priceFiber = 0,\n"
+                      + "\t\t.priceYata = 0,\n"
+                      + "\t\t.priceScientist = 0,\n"
+                      + "\t\t.priceVampire = 0,\n"
+                      + "\t\t.priceChaos = 0,\n"
+                      + "\t\t.priceWarrior = 0,\n"
+                      + "\t\t.priceGoat = 0,\n"
+                      + "\t\t.priceCyber = 0,\n"
+                      + "\t\t.priceReaper = 0,\n"
+                      + "\t\t.price1 = 0,\n"
+                      + "\t\t.price2 = 0,\n"
+                      + "\t\t.price3 = 0,\n"
                       + '\t},\n')
         YGO_C += '    [ITEM_' + re.sub(r'\W+', '_', data['name']).upper() + '] = ' + str(card_counter) + ',\n'
         card_counter += 1
