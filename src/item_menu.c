@@ -96,6 +96,8 @@ enum {
     ACTION_BY_TYPE,
     ACTION_BY_AMOUNT,
     ACTION_BY_ID,
+    ACTION_BY_PRICE_YK,
+    ACTION_BY_PRICE_CRITTER,
     ACTION_DUMMY,
 };
 
@@ -229,6 +231,8 @@ static void ItemMenu_SortByName(u8 taskId);
 static void ItemMenu_SortByType(u8 taskId);
 static void ItemMenu_SortByAmount(u8 taskId);
 static void ItemMenu_SortById(u8 taskId);
+static void ItemMenu_SortByPriceYK(u8 taskId);
+static void ItemMenu_SortByPriceCritter(u8 taskId);
 static void SortBagItems(u8 taskId);
 static void Task_SortFinish(u8 taskId);
 static void SortItemsInBag(u8 pocket, u8 type);
@@ -238,6 +242,8 @@ static s8 CompareItemsAlphabetically(struct ItemSlot* itemSlot1, struct ItemSlot
 static s8 CompareItemsByMost(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
 static s8 CompareItemsByType(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
 static s8 CompareItemsById(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
+static s8 CompareItemsByPriceYK(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
+static s8 CompareItemsByPriceCritter(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
 
 static const struct BgTemplate sBgTemplates_ItemMenu[] =
 {
@@ -297,6 +303,8 @@ static const u8 sMenuText_ByType[] = _("Type");
 static const u8 sMenuText_ByAmount[] = _("Amount");
 static const u8 sMenuText_ById[] = _("ID");
 static const u8 sMenuText_ByNumber[] = _("Number");
+static const u8 sMenuText_ByPriceYK[] = _("Yugi-Kaiba");
+static const u8 sMenuText_ByPriceCritter[] = _("Critter");
 static const u8 sText_NothingToSort[] = _("There's nothing to sort!");
 static const struct MenuAction sItemMenuActions[] = {
     [ACTION_USE]               = {gMenuText_Use,      ItemMenu_UseOutOfBattle},
@@ -317,6 +325,8 @@ static const struct MenuAction sItemMenuActions[] = {
     [ACTION_BY_TYPE]           = {sMenuText_ByType,   ItemMenu_SortByType},
     [ACTION_BY_AMOUNT]         = {sMenuText_ByAmount, ItemMenu_SortByAmount},
     [ACTION_BY_ID]             = {sMenuText_ById,     ItemMenu_SortById},
+    [ACTION_BY_PRICE_YK]       = {sMenuText_ByPriceYK, ItemMenu_SortByPriceYK},
+    [ACTION_BY_PRICE_CRITTER]  = {sMenuText_ByPriceCritter, ItemMenu_SortByPriceCritter},
     [ACTION_DUMMY]             = {gText_EmptyString2, NULL}
 };
 
@@ -2792,6 +2802,8 @@ enum BagSortOptions
     SORT_BY_TYPE,
     SORT_BY_AMOUNT, //greatest->least
     SORT_BY_ID, //greatest->least
+    SORT_BY_PRICE_YK, //greatest->least
+    SORT_BY_PRICE_CRITTER, //greatest->least
 };
 enum ItemSortType
 {
@@ -2826,6 +2838,8 @@ static const u8 sText_Name[] = _("name");
 static const u8 sText_Type[] = _("type");
 static const u8 sText_Amount[] = _("amount");
 static const u8 sText_Id[] = _("id");
+static const u8 sText_PriceYK[] = _("yugi-kaiba");
+static const u8 sText_PriceCritter[] = _("critter");
 static const u8 sText_ItemsSorted[] = _("Items sorted by {STR_VAR_1}!");
 static const u8 *const sSortTypeStrings[] = 
 {
@@ -2833,6 +2847,8 @@ static const u8 *const sSortTypeStrings[] =
     [SORT_BY_TYPE] = sText_Type,
     [SORT_BY_AMOUNT] = sText_Amount,
     [SORT_BY_ID] = sText_Id,
+    [SORT_BY_PRICE_YK] = sText_PriceYK,
+    [SORT_BY_PRICE_CRITTER] = sText_PriceCritter,
 };
 
 static const u8 sBagMenuSortItems[] =
@@ -2840,6 +2856,8 @@ static const u8 sBagMenuSortItems[] =
     ACTION_BY_NAME,
     ACTION_BY_AMOUNT,
     ACTION_BY_ID,
+    ACTION_BY_PRICE_YK,
+    ACTION_BY_PRICE_CRITTER,
     ACTION_CANCEL,
 };
 
@@ -3368,6 +3386,18 @@ static void ItemMenu_SortById(u8 taskId)
     StringCopy(gStringVar1, sSortTypeStrings[SORT_BY_ID]);
     gTasks[taskId].func = SortBagItems;
 }
+static void ItemMenu_SortByPriceYK(u8 taskId)
+{
+    gTasks[taskId].tSortType = SORT_BY_PRICE_YK; //greatest->least
+    StringCopy(gStringVar1, sSortTypeStrings[SORT_BY_PRICE_YK]);
+    gTasks[taskId].func = SortBagItems;
+}
+static void ItemMenu_SortByPriceCritter(u8 taskId)
+{
+    gTasks[taskId].tSortType = SORT_BY_PRICE_CRITTER; //greatest->least
+    StringCopy(gStringVar1, sSortTypeStrings[SORT_BY_PRICE_CRITTER]);
+    gTasks[taskId].func = SortBagItems;
+}
 
 static void SortBagItems(u8 taskId)
 {
@@ -3403,7 +3433,7 @@ static void Task_SortFinish(u8 taskId)
 static void SortItemsInBag(u8 pocket, u8 type)
 {
     struct ItemSlot* itemMem;
-    u16 itemAmount;
+    u8 itemAmount;
     s8 (*func)(struct ItemSlot*, struct ItemSlot*);
 
     switch (pocket)
@@ -3442,6 +3472,12 @@ static void SortItemsInBag(u8 pocket, u8 type)
         break;
     case SORT_BY_ID:
         MergeSort(itemMem, 0, itemAmount - 1, CompareItemsById);
+        break;
+    case SORT_BY_PRICE_YK:
+        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceYK);
+        break;
+    case SORT_BY_PRICE_CRITTER:
+        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceCritter);
         break;
     default:
         MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByType);
@@ -3542,6 +3578,56 @@ static s8 CompareItemsById(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot
         return 1;
 
     return 0; //Will never be reached
+}
+
+static s8 CompareItemsByPriceYK(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2)
+{
+    u16 item1 = itemSlot1->itemId;
+    u16 item2 = itemSlot2->itemId;
+    u16 card1 = CardIdMapping[item1];
+    u16 card2 = CardIdMapping[item2];
+    u16 price1;
+    u16 price2;
+
+    if (item1 < 377)
+        return 1;
+    else if (item2 < 377)
+        return -1;
+
+    price1 = gCardInfo[card1].priceYK;
+    price2 = gCardInfo[card2].priceYK;
+
+    if (price1 < price2)
+        return 1;
+    else if (price1 > price2)
+        return -1;
+
+    return CompareItemsAlphabetically(itemSlot1, itemSlot2); //Items are of same price so sort alphabetically
+}
+
+static s8 CompareItemsByPriceCritter(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2)
+{
+    u16 item1 = itemSlot1->itemId;
+    u16 item2 = itemSlot2->itemId;
+    u16 card1 = CardIdMapping[item1];
+    u16 card2 = CardIdMapping[item2];
+    u16 price1;
+    u16 price2;
+
+    if (item1 < 377)
+        return 1;
+    else if (item2 < 377)
+        return -1;
+
+    price1 = gCardInfo[card1].priceCritter;
+    price2 = gCardInfo[card2].priceCritter;
+
+    if (price1 < price2)
+        return 1;
+    else if (price1 > price2)
+        return -1;
+
+    return CompareItemsAlphabetically(itemSlot1, itemSlot2); //Items are of same price so sort alphabetically
 }
 
 static s8 CompareItemsByMost(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2)
