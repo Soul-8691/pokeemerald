@@ -679,10 +679,10 @@ static void CB2_InitYGODuelInternal(void)
         gBattleEnvironment = BATTLE_ENVIRONMENT_BUILDING;
 
     InitBattleBgsVideo();
-    LoadBattleTextboxAndBackground();
+    DrawMainBattleBackground();
     ResetSpriteData();
     ResetTasks();
-    DrawBattleEntryBackground();
+    // DrawBattleEntryBackground();
     FreeAllSpritePalettes();
     gReservedSpritePaletteCount = MAX_BATTLERS_COUNT;
     SetVBlankCallback(VBlankCB_Battle);

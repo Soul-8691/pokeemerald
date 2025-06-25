@@ -727,7 +727,8 @@ void BattleInitBgsAndWindows(void)
         gBattleScripting.windowsType = B_WIN_TYPE_NORMAL;
     }
 
-    InitWindows(gBattleWindowTemplates[gBattleScripting.windowsType]);
+    if (!(gBattleTypeFlags & BATTLE_TYPE_YGO))
+        InitWindows(gBattleWindowTemplates[gBattleScripting.windowsType]);
     DeactivateAllTextPrinters();
 }
 
@@ -1202,10 +1203,16 @@ void DrawBattleEntryBackground(void)
 
         if (GetCurrentMapBattleScene() == MAP_BATTLE_SCENE_NORMAL)
         {
-            LZDecompressVram(gDuelBGTiles, (void *)(BG_CHAR_ADDR(1)));
-            LZDecompressVram(gDuelBGTilemap, (void *)(BG_SCREEN_ADDR(28)));
-            // LZDecompressVram(sBattleEnvironmentTable[gBattleEnvironment].entryTileset, (void *)(BG_CHAR_ADDR(1)));
-            // LZDecompressVram(sBattleEnvironmentTable[gBattleEnvironment].entryTilemap, (void *)(BG_SCREEN_ADDR(28)));
+            if (gBattleTypeFlags & BATTLE_TYPE_YGO)
+            {
+                LZDecompressVram(gDuelBGTiles, (void *)(BG_CHAR_ADDR(1)));
+                LZDecompressVram(gDuelBGTilemap, (void *)(BG_SCREEN_ADDR(28)));
+            }
+            else
+            {
+                LZDecompressVram(sBattleEnvironmentTable[gBattleEnvironment].entryTileset, (void *)(BG_CHAR_ADDR(1)));
+                LZDecompressVram(sBattleEnvironmentTable[gBattleEnvironment].entryTilemap, (void *)(BG_SCREEN_ADDR(28)));
+            }
         }
         else
         {
@@ -1261,8 +1268,10 @@ bool8 LoadChosenBattleElement(u8 caseId)
             {
             default:
             case MAP_BATTLE_SCENE_NORMAL:
-                LZDecompressVram(gDuelBGTiles, (void *)(BG_CHAR_ADDR(2)));
-                // LZDecompressVram(sBattleEnvironmentTable[gBattleEnvironment].tileset, (void *)(BG_CHAR_ADDR(2)));
+                if (gBattleTypeFlags & BATTLE_TYPE_YGO)
+                    LZDecompressVram(gDuelBGTiles, (void *)(BG_CHAR_ADDR(2)));
+                else
+                    (sBattleEnvironmentTable[gBattleEnvironment].tileset, (void *)(BG_CHAR_ADDR(2)));
                 break;
             case MAP_BATTLE_SCENE_GYM:
                 LZDecompressVram(gBattleEnvironmentTiles_Building, (void *)(BG_CHAR_ADDR(2)));
@@ -1324,8 +1333,10 @@ bool8 LoadChosenBattleElement(u8 caseId)
             {
             default:
             case MAP_BATTLE_SCENE_NORMAL:
-                LZDecompressVram(gDuelBGTiles, (void *)(BG_SCREEN_ADDR(26)));
-                // LZDecompressVram(sBattleEnvironmentTable[gBattleEnvironment].tilemap, (void *)(BG_SCREEN_ADDR(26)));
+                if (gBattleTypeFlags & BATTLE_TYPE_YGO)
+                    LZDecompressVram(gDuelBGTiles, (void *)(BG_SCREEN_ADDR(26)));
+                else
+                    LZDecompressVram(sBattleEnvironmentTable[gBattleEnvironment].tilemap, (void *)(BG_SCREEN_ADDR(26)));
                 break;
             case MAP_BATTLE_SCENE_GYM:
                 LZDecompressVram(gBattleEnvironmentTilemap_Building, (void *)(BG_SCREEN_ADDR(26)));
@@ -1387,8 +1398,10 @@ bool8 LoadChosenBattleElement(u8 caseId)
             {
             default:
             case MAP_BATTLE_SCENE_NORMAL:
-                LoadCompressedPalette(gDuelBGPalette, BG_PLTT_ID(0), PLTT_SIZE_4BPP);
-                // LoadCompressedPalette(sBattleEnvironmentTable[gBattleEnvironment].palette, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
+                if (gBattleTypeFlags & BATTLE_TYPE_YGO)
+                    LoadCompressedPalette(gDuelBGPalette, BG_PLTT_ID(0), PLTT_SIZE_4BPP);
+                else
+                    LoadCompressedPalette(sBattleEnvironmentTable[gBattleEnvironment].palette, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
                 break;
             case MAP_BATTLE_SCENE_GYM:
                 LoadCompressedPalette(gBattleEnvironmentPalette_BuildingGym, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);

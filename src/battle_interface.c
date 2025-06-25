@@ -2554,7 +2554,8 @@ static u8 *AddTextPrinterAndCreateWindowOnHealthbox(const u8 *str, u32 x, u32 y,
     u8 color[3];
     struct WindowTemplate winTemplate = sHealthboxWindowTemplate;
 
-    winId = AddWindow(&winTemplate);
+    if (!(gBattleTypeFlags & BATTLE_TYPE_YGO))
+        winId = AddWindow(&winTemplate);
     FillWindowPixelBuffer(winId, PIXEL_FILL(bgColor));
 
     color[0] = bgColor;
