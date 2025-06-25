@@ -679,8 +679,7 @@ static void CB2_InitYGODuelInternal(void)
         gBattleEnvironment = BATTLE_ENVIRONMENT_BUILDING;
 
     InitBattleBgsVideo();
-    // LoadBattleTextboxAndBackground();
-    LoadDuelBackgrounds();
+    LoadBattleTextboxAndBackground();
     ResetSpriteData();
     ResetTasks();
     DrawBattleEntryBackground();
@@ -1075,7 +1074,8 @@ static void CB2_HandleStartBattle(void)
             ShowBg(1);
             ShowBg(2);
             ShowBg(3);
-            FillAroundBattleWindows();
+            if (!VarGet(VAR_YGO_BATTLE))
+                FillAroundBattleWindows();
             gBattleCommunication[MULTIUSE_STATE] = 1;
         }
         if (gWirelessCommType)
@@ -1112,7 +1112,8 @@ static void CB2_HandleStartBattle(void)
             if (!(gBattleTypeFlags & BATTLE_TYPE_RECORDED))
                 gBattleTypeFlags |= BATTLE_TYPE_IS_MASTER;
             gBattleCommunication[MULTIUSE_STATE] = 15;
-            SetAllPlayersBerryData();
+            if (!VarGet(VAR_YGO_BATTLE))
+                SetAllPlayersBerryData();
         }
         break;
     case 2:
