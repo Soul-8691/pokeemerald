@@ -64,6 +64,7 @@
 extern const struct BgTemplate gBattleBgTemplates[];
 extern const struct WindowTemplate *const gBattleWindowTemplates[];
 
+static void CB2_InitYGODuelInternal(void);
 static void CB2_InitBattleInternal(void);
 static void CB2_PreInitMultiBattle(void);
 static void CB2_PreInitIngamePlayerPartnerBattle(void);
@@ -593,7 +594,11 @@ void CB2_InitBattle(void)
     AllocateMonSpritesGfx();
     RecordedBattle_ClearFrontierPassFlag();
 
-    if (gBattleTypeFlags & BATTLE_TYPE_MULTI)
+    if (gBattleTypeFlags & BATTLE_TYPE_YGO)
+    {
+        CB2_InitYGODuelInternal();
+    }
+    else if (gBattleTypeFlags & BATTLE_TYPE_MULTI)
     {
         if (gBattleTypeFlags & BATTLE_TYPE_RECORDED)
         {
@@ -614,6 +619,99 @@ void CB2_InitBattle(void)
     {
         CB2_InitBattleInternal();
     }
+}
+
+static void CB2_InitYGODuelInternal(void)
+{
+    s32 i;
+
+    SetHBlankCallback(NULL);
+    SetVBlankCallback(NULL);
+
+    CpuFill32(0, (void *)(VRAM), VRAM_SIZE);
+
+    SetGpuReg(REG_OFFSET_MOSAIC, 0);
+    SetGpuReg(REG_OFFSET_WIN0H, DISPLAY_WIDTH);
+    SetGpuReg(REG_OFFSET_WIN0V, WIN_RANGE(DISPLAY_HEIGHT / 2, DISPLAY_HEIGHT / 2 + 1));
+    SetGpuReg(REG_OFFSET_WININ, 0);
+    SetGpuReg(REG_OFFSET_WINOUT, 0);
+
+    gBattle_WIN0H = DISPLAY_WIDTH;
+
+    if (gBattleTypeFlags & BATTLE_TYPE_INGAME_PARTNER && gPartnerTrainerId != TRAINER_STEVEN_PARTNER)
+    {
+        gBattle_WIN0V = DISPLAY_HEIGHT - 1;
+        gBattle_WIN1H = DISPLAY_WIDTH;
+        gBattle_WIN1V = 32;
+    }
+    else
+    {
+        gBattle_WIN0V = WIN_RANGE(DISPLAY_HEIGHT / 2, DISPLAY_HEIGHT / 2 + 1);
+        ScanlineEffect_Clear();
+
+        for (i = 0; i < DISPLAY_HEIGHT / 2; i++)
+        {
+            gScanlineEffectRegBuffers[0][i] = 0xF0;
+            gScanlineEffectRegBuffers[1][i] = 0xF0;
+        }
+
+        for (; i < DISPLAY_HEIGHT; i++)
+        {
+            gScanlineEffectRegBuffers[0][i] = 0xFF10;
+            gScanlineEffectRegBuffers[1][i] = 0xFF10;
+        }
+
+        ScanlineEffect_SetParams(sIntroScanlineParams16Bit);
+    }
+
+    ResetPaletteFade();
+    gBattle_BG0_X = 0;
+    gBattle_BG0_Y = 0;
+    gBattle_BG1_X = 0;
+    gBattle_BG1_Y = 0;
+    gBattle_BG2_X = 0;
+    gBattle_BG2_Y = 0;
+    gBattle_BG3_X = 0;
+    gBattle_BG3_Y = 0;
+
+    gBattleEnvironment = BattleSetup_GetEnvironmentId();
+    if (gBattleTypeFlags & BATTLE_TYPE_RECORDED)
+        gBattleEnvironment = BATTLE_ENVIRONMENT_BUILDING;
+
+    InitBattleBgsVideo();
+    LoadBattleTextboxAndBackground();
+    ResetSpriteData();
+    ResetTasks();
+    DrawBattleEntryBackground();
+    FreeAllSpritePalettes();
+    gReservedSpritePaletteCount = MAX_BATTLERS_COUNT;
+    SetVBlankCallback(VBlankCB_Battle);
+    SetUpBattleVarsAndBirchZigzagoon();
+
+    if (gBattleTypeFlags & BATTLE_TYPE_MULTI && gBattleTypeFlags & BATTLE_TYPE_BATTLE_TOWER)
+        SetMainCallback2(CB2_HandleStartMultiPartnerBattle);
+    else if (gBattleTypeFlags & BATTLE_TYPE_MULTI && gBattleTypeFlags & BATTLE_TYPE_INGAME_PARTNER)
+        SetMainCallback2(CB2_HandleStartMultiPartnerBattle);
+    else if (gBattleTypeFlags & BATTLE_TYPE_MULTI)
+        SetMainCallback2(CB2_HandleStartMultiBattle);
+    else
+        SetMainCallback2(CB2_HandleStartBattle);
+
+    if (!(gBattleTypeFlags & (BATTLE_TYPE_LINK | BATTLE_TYPE_RECORDED)))
+    {
+        CreateNPCTrainerParty(&gEnemyParty[0], gTrainerBattleOpponent_A, TRUE);
+        if (gBattleTypeFlags & BATTLE_TYPE_TWO_OPPONENTS)
+            CreateNPCTrainerParty(&gEnemyParty[PARTY_SIZE / 2], gTrainerBattleOpponent_B, FALSE);
+        SetWildMonHeldItem();
+    }
+
+    gMain.inBattle = TRUE;
+    gSaveBlock2Ptr->frontier.disableRecordBattle = FALSE;
+
+    for (i = 0; i < PARTY_SIZE; i++)
+        AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
+
+    gBattleCommunication[MULTIUSE_STATE] = 0;
 }
 
 static void CB2_InitBattleInternal(void)
@@ -3597,10 +3695,7 @@ static void BattleIntroPrintOpponentSendsOut(void)
     }
     else if (gBattleTypeFlags & BATTLE_TYPE_RECORDED_LINK)
     {
-        if (gBattleTypeFlags & BATTLE_TYPE_RECORDED_IS_MASTER)
-            position = B_POSITION_OPPONENT_LEFT;
-        else
-            position = B_POSITION_PLAYER_LEFT;
+        position = B_POSITION_PLAYER_LEFT;
     }
     else
     {
@@ -3621,10 +3716,7 @@ static void BattleIntroOpponent2SendsOutMonAnimation(void)
     }
     else if (gBattleTypeFlags & BATTLE_TYPE_RECORDED_LINK)
     {
-        if (gBattleTypeFlags & BATTLE_TYPE_RECORDED_IS_MASTER)
-            position = B_POSITION_OPPONENT_RIGHT;
-        else
-            position = B_POSITION_PLAYER_RIGHT;
+        position = B_POSITION_PLAYER_RIGHT;
     }
     else
     {
@@ -3651,10 +3743,7 @@ static void BattleIntroOpponent1SendsOutMonAnimation(void)
     {
         if (gBattleTypeFlags & BATTLE_TYPE_RECORDED_LINK)
         {
-            if (gBattleTypeFlags & BATTLE_TYPE_RECORDED_IS_MASTER)
-                position = B_POSITION_OPPONENT_LEFT;
-            else
-                position = B_POSITION_PLAYER_LEFT;
+            position = B_POSITION_PLAYER_LEFT;
         }
         else
         {
@@ -3724,10 +3813,7 @@ static void BattleIntroPrintPlayerSendsOut(void)
         }
         else if (gBattleTypeFlags & BATTLE_TYPE_RECORDED_LINK)
         {
-            if (gBattleTypeFlags & BATTLE_TYPE_RECORDED_IS_MASTER)
-                position = B_POSITION_PLAYER_LEFT;
-            else
-                position = B_POSITION_OPPONENT_LEFT;
+            position = B_POSITION_OPPONENT_LEFT;
         }
         else
         {
@@ -3751,10 +3837,7 @@ static void BattleIntroPlayer2SendsOutMonAnimation(void)
     }
     else if (gBattleTypeFlags & BATTLE_TYPE_RECORDED_LINK)
     {
-        if (gBattleTypeFlags & BATTLE_TYPE_RECORDED_IS_MASTER)
-            position = B_POSITION_PLAYER_RIGHT;
-        else
-            position = B_POSITION_OPPONENT_RIGHT;
+        position = B_POSITION_OPPONENT_RIGHT;
     }
     else
     {
@@ -3787,10 +3870,7 @@ static void BattleIntroPlayer1SendsOutMonAnimation(void)
     }
     else if (gBattleTypeFlags & BATTLE_TYPE_RECORDED_LINK)
     {
-        if (gBattleTypeFlags & BATTLE_TYPE_RECORDED_IS_MASTER)
-            position = B_POSITION_PLAYER_LEFT;
-        else
-            position = B_POSITION_OPPONENT_LEFT;
+        position = B_POSITION_OPPONENT_LEFT;
     }
     else
     {

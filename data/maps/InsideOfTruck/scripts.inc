@@ -194,6 +194,11 @@ InsideOfTruck_EventScript_MovingBox::
 	additem ITEM_ZOMBYRA_THE_DARK
 	end
 
+InsideOfTruck_EventScript_MovingBox2::
+	setvar VAR_YGO_BATTLE, 1
+	trainerbattle_no_intro TRAINER_STEVEN, MeteorFalls_StevensCave_Text_StevenDefeat
+	end
+
 InsideOfTruck_Text_BoxPrintedWithMonLogo:
 	.string "The box is printed with a POKéMON logo.\p"
 	.string "It's a POKéMON brand moving and\n"

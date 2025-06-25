@@ -175,28 +175,13 @@ static void InitSinglePlayerBtlControllers(void)
         {
             if (gBattleTypeFlags & BATTLE_TYPE_RECORDED_LINK)
             {
-                if (gBattleTypeFlags & BATTLE_TYPE_RECORDED_IS_MASTER)
-                {
-                    gBattleMainFunc = BeginBattleIntro;
+                gBattlerControllerFuncs[B_BATTLER_1] = SetControllerToRecordedPlayer;
+                gBattlerPositions[B_BATTLER_1] = B_POSITION_PLAYER_LEFT;
 
-                    gBattlerControllerFuncs[B_BATTLER_0] = SetControllerToRecordedPlayer;
-                    gBattlerPositions[B_BATTLER_0] = B_POSITION_PLAYER_LEFT;
+                gBattlerControllerFuncs[B_BATTLER_0] = SetControllerToRecordedOpponent;
+                gBattlerPositions[B_BATTLER_0] = B_POSITION_OPPONENT_LEFT;
 
-                    gBattlerControllerFuncs[B_BATTLER_1] = SetControllerToRecordedOpponent;
-                    gBattlerPositions[B_BATTLER_1] = B_POSITION_OPPONENT_LEFT;
-
-                    gBattlersCount = 2;
-                }
-                else // see how the banks are switched
-                {
-                    gBattlerControllerFuncs[B_BATTLER_1] = SetControllerToRecordedPlayer;
-                    gBattlerPositions[B_BATTLER_1] = B_POSITION_PLAYER_LEFT;
-
-                    gBattlerControllerFuncs[B_BATTLER_0] = SetControllerToRecordedOpponent;
-                    gBattlerPositions[B_BATTLER_0] = B_POSITION_OPPONENT_LEFT;
-
-                    gBattlersCount = 2;
-                }
+                gBattlersCount = 2;
             }
             else
             {
