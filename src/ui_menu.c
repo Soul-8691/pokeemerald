@@ -59,8 +59,7 @@ enum WindowIds
 
 //==========EWRAM==========//
 static EWRAM_DATA struct MenuResources *sMenuDataPtr = NULL;
-static EWRAM_DATA u8 *sBg1TilemapBuffer = NULL;
-static EWRAM_DATA u8 *sBg2TilemapBuffer = NULL;
+static EWRAM_DATA u8 *sTilemapBuffers[2];
 
 //==========STATIC=DEFINES==========//
 static void Menu_RunSetup(void);
@@ -85,15 +84,15 @@ static const struct BgTemplate sMenuBgTemplates[] =
     {
         .bg = 1,    // this bg loads the UI tilemap
         .charBaseIndex = 3,
-        .mapBaseIndex = 30,
-        .priority = 2
+        .mapBaseIndex = 29,
+        .paletteMode = 1,
+        .priority = 0
     },
     {
         .bg = 2,    // this bg loads the UI tilemap
-        .charBaseIndex = 0,
-        .mapBaseIndex = 28,
-        .paletteMode = 1,
-        .priority = 0
+        .charBaseIndex = 6,
+        .mapBaseIndex = 20,
+        .priority = 2
     }
 };
 
@@ -1022,8 +1021,8 @@ static bool8 Menu_DoGfxSetup(void)
 static void Menu_FreeResources(void)
 {
     try_free(sMenuDataPtr);
-    try_free(sBg1TilemapBuffer);
-    // try_free(sBg2TilemapBuffer);
+    try_free(sTilemapBuffers[0]);
+    try_free(sTilemapBuffers[1]);
     FreeAllWindowBuffers();
 }
 
@@ -1049,22 +1048,23 @@ static void Menu_FadeAndBail(void)
 static bool8 Menu_InitBgs(void)
 {
     ResetAllBgsCoordinates();
-    sBg1TilemapBuffer = AllocZeroed(BG_SCREEN_SIZE);
-    if (sBg1TilemapBuffer == NULL)
+    sTilemapBuffers[0] = AllocZeroed(BG_SCREEN_SIZE);
+    if (sTilemapBuffers[0] == NULL)
         return FALSE;
-    // sBg2TilemapBuffer = AllocZeroed(BG_SCREEN_SIZE);
-    // if (sBg2TilemapBuffer == NULL)
-    //     return FALSE;
+    sTilemapBuffers[1] = AllocZeroed(BG_SCREEN_SIZE);
+    if (sTilemapBuffers[1] == NULL)
+        return FALSE;
     
     ResetBgsAndClearDma3BusyFlags(0);
     InitBgsFromTemplates(0, sMenuBgTemplates, NELEMS(sMenuBgTemplates));
-    SetBgTilemapBuffer(1, sBg1TilemapBuffer);
-    // SetBgTilemapBuffer(2, sBg2TilemapBuffer);
+    SetBgTilemapBuffer(1, sTilemapBuffers[0]);
+    SetBgTilemapBuffer(2, sTilemapBuffers[1]);
     ScheduleBgCopyTilemapToVram(1);
     ScheduleBgCopyTilemapToVram(2);
     
     SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_OBJ_1D_MAP | DISPCNT_OBJ_ON);
     SetGpuReg(REG_OFFSET_BLDCNT, 0);
+    SetGpuReg(REG_OFFSET_BG1CNT, BGCNT_256COLOR);
     ShowBg(0);
     ShowBg(1);
     ShowBg(2);
@@ -1077,20 +1077,21 @@ static bool8 Menu_LoadGraphics(void)
     {
     case 0:
         ResetTempTileDataBuffers();
-        DecompressAndCopyTileDataToVram(1, sBackgroundTiles, 0, 0, 0);
-        // DecompressAndCopyTileDataToVram(2, sMenuTiles, 0, 0, 0);
+        DecompressAndCopyTileDataToVram(2, sBackgroundTiles, 0, 0, 0);
+        DecompressAndCopyTileDataToVram(1, sMenuTiles, 0, 0, 0);
         sMenuDataPtr->gfxLoadState++;
         break;
     case 1:
         if (FreeTempTileDataBuffersIfPossible() != TRUE)
         {
-            LZDecompressWram(sBackgroundTilemap, sBg1TilemapBuffer);
-            // LZDecompressWram(sMenuTilemap, sBg2TilemapBuffer);
+            LZDecompressWram(sBackgroundTilemap, sTilemapBuffers[1]);
+            LZDecompressWram(sMenuTilemap, sTilemapBuffers[0]);
             sMenuDataPtr->gfxLoadState++;
         }
         break;
     case 2:
-        LoadPalette(sBackgroundPalette, 0, 32);
+        LoadPalette(sBackgroundPalette, 48, 32);
+        SetBgTilemapPalette(2, 0, 0, DISPLAY_TILE_WIDTH, DISPLAY_TILE_HEIGHT, 3);
         sMenuDataPtr->gfxLoadState++;
         break;
     default:
@@ -1153,7 +1154,7 @@ static void PrintToWindow(u8 windowId, u8 colorIdx, u16 card)
     PrintSmallNarrowTextCentered(windowId, 94, COLORID_NORMAL, cardName);
     // AddTextPrinterParameterized4(windowId, FONT_SMALL_NARROWER, x, y, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, cardName);
     AddTextPrinterParameterized4(windowId, FONT_SMALL_NARROWER, x, y + 16, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, cardDescription);
-    LoadPalette(sMenuPalette, 16, 64);
+    LoadPalette(sMenuPalette, 0, 32*3);
     PutWindowTilemap(windowId);
     CopyWindowToVram(windowId, 3);
 }
