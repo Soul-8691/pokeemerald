@@ -3488,7 +3488,7 @@ static void BattleIntroPrepareBackgroundSlide(void)
         gActiveBattler = GetBattlerAtPosition(0);
         BtlController_EmitIntroSlide(B_COMM_TO_CONTROLLER, gBattleEnvironment);
         MarkBattlerForControllerExec(gActiveBattler);
-        gBattleMainFunc = BattleIntroDrawTrainersOrMonsSprites;
+        gBattleMainFunc = HandleTurnActionSelectionState;
         gBattleCommunication[MULTIUSE_STATE] = 0;
         gBattleCommunication[SPRITES_INIT_STATE1] = 0;
     }
