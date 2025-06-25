@@ -55,6 +55,9 @@ struct MenuResources
 enum WindowIds
 {
     WINDOW_1,
+    WINDOW_2,
+    WINDOW_3,
+    WINDOW_4,
 };
 
 //==========EWRAM==========//
@@ -79,14 +82,14 @@ static const struct BgTemplate sMenuBgTemplates[] =
         .bg = 0,    // windows, etc
         .charBaseIndex = 0,
         .mapBaseIndex = 31,
-        .priority = 1
+        .priority = 0
     }, 
     {
         .bg = 1,    // this bg loads the UI tilemap
         .charBaseIndex = 3,
         .mapBaseIndex = 29,
         .paletteMode = 1,
-        .priority = 0
+        .priority = 1
     },
     {
         .bg = 2,    // this bg loads the UI tilemap
@@ -101,12 +104,42 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
     [WINDOW_1] = 
     {
         .bg = 0,            // which bg to print text on
-        .tilemapLeft = 0,   // position from left (per 8 pixels)
-        .tilemapTop = 0,    // position from top (per 8 pixels)
-        .width = 32,        // width (per 8 pixels)
-        .height = 20,        // height (per 8 pixels)
+        .tilemapLeft = 14,   // position from left (per 8 pixels)
+        .tilemapTop = 2,    // position from top (per 8 pixels)
+        .width = 17,        // width (per 8 pixels)
+        .height = 13,        // height (per 8 pixels)
         .paletteNum = 15,   // palette index to use for text
         .baseBlock = 1,     // tile start in VRAM
+    },
+    [WINDOW_2] = 
+    {
+        .bg = 0,            // which bg to print text on
+        .tilemapLeft = 8,   // position from left (per 8 pixels)
+        .tilemapTop = 0,    // position from top (per 8 pixels)
+        .width = 5,        // width (per 8 pixels)
+        .height = 4,        // height (per 8 pixels)
+        .paletteNum = 8,   // palette index to use for text
+        .baseBlock = 0xDE,     // tile start in VRAM
+    },
+    [WINDOW_3] = 
+    {
+        .bg = 0,            // which bg to print text on
+        .tilemapLeft = 13,   // position from left (per 8 pixels)
+        .tilemapTop = 0,    // position from top (per 8 pixels)
+        .width = 4,        // width (per 8 pixels)
+        .height = 2,        // height (per 8 pixels)
+        .paletteNum = 7,   // palette index to use for text
+        .baseBlock = 0xF2,     // tile start in VRAM
+    },
+    [WINDOW_4] = 
+    {
+        .bg = 0,            // which bg to print text on
+        .tilemapLeft = 0,   // position from left (per 8 pixels)
+        .tilemapTop = 18,    // position from top (per 8 pixels)
+        .width = 32,        // width (per 8 pixels)
+        .height = 2,        // height (per 8 pixels)
+        .paletteNum = 15,   // palette index to use for text
+        .baseBlock = 0xFA,     // tile start in VRAM
     },
     DUMMY_WIN_TEMPLATE,
 };
@@ -146,6 +179,82 @@ static const u8 sMenuWindowFontColors[][3] =
     [FONT_WHITE]  = {TEXT_COLOR_TRANSPARENT,  TEXT_COLOR_WHITE,  TEXT_COLOR_DARK_GRAY},
     [FONT_RED]   = {TEXT_COLOR_TRANSPARENT,  TEXT_COLOR_RED,        TEXT_COLOR_LIGHT_GRAY},
     [FONT_BLUE]  = {TEXT_COLOR_TRANSPARENT,  TEXT_COLOR_BLUE,       TEXT_COLOR_LIGHT_GRAY},
+};
+
+const u8 *const sCardAttributeIcons_[NUM_ATTRIBUTES + 1] =
+{
+    [ATTRIBUTE_DARK] = gDarkIcon,
+    [ATTRIBUTE_LIGHT] = gLightIcon,
+    [ATTRIBUTE_FIRE] = gFireIcon,
+    [ATTRIBUTE_WATER] = gWaterIcon,
+    [ATTRIBUTE_EARTH] = gEarthIcon,
+    [ATTRIBUTE_WIND] = gWindIcon,
+};
+
+const u16 *const sCardAttributeIconPals_[NUM_ATTRIBUTES + 1] =
+{
+    [ATTRIBUTE_DARK] = gDarkIconPal,
+    [ATTRIBUTE_LIGHT] = gLightIconPal,
+    [ATTRIBUTE_FIRE] = gFireIconPal,
+    [ATTRIBUTE_WATER] = gWaterIconPal,
+    [ATTRIBUTE_EARTH] = gEarthIconPal,
+    [ATTRIBUTE_WIND] = gWindIconPal,
+};
+
+const u8 *const sCardRaceIcons_[NUM_RACES + 1] =
+{
+    [RACE_SPELLCASTER] = gSpellcasterIcon,
+    [RACE_DRAGON] = gDragonIcon,
+    [RACE_ROCK] = gRockIcon,
+    [RACE_WARRIOR] = gWarriorIcon,
+    [RACE_FIEND] = gFiendIcon,
+    [RACE_INSECT] = gBugIcon,
+    [RACE_BEAST_WARRIOR] = gBeastWarriorIcon,
+    [RACE_FISH] = gFishIcon,
+    [RACE_THUNDER] = gLightningIcon,
+    [RACE_MACHINE] = gMachineIcon,
+    [RACE_PLANT] = gPlantIcon,
+    [RACE_FAIRY] = gFairyIcon,
+    [RACE_AQUA] = gAquaIcon,
+    [RACE_BEAST] = gBeastIcon,
+    [RACE_REPTILE] = gReptileIcon,
+    [RACE_ZOMBIE] = gZombieIcon,
+    [RACE_WINGED_BEAST] = gWingedBeastIcon,
+    [RACE_PYRO] = gPyroIcon,
+};
+
+const u16 *const sCardRaceIconPals_[NUM_RACES + 1] =
+{
+    [RACE_SPELLCASTER] = gSpellcasterIconPal,
+    [RACE_DRAGON] = gDragonIconPal,
+    [RACE_ROCK] = gRockIconPal,
+    [RACE_WARRIOR] = gWarriorIconPal,
+    [RACE_FIEND] = gFiendIconPal,
+    [RACE_INSECT] = gBugIconPal,
+    [RACE_BEAST_WARRIOR] = gBeastWarriorIconPal,
+    [RACE_FISH] = gFishIconPal,
+    [RACE_THUNDER] = gLightningIconPal,
+    [RACE_MACHINE] = gMachineIconPal,
+    [RACE_PLANT] = gPlantIconPal,
+    [RACE_FAIRY] = gFairyIconPal,
+    [RACE_AQUA] = gAquaIconPal,
+    [RACE_BEAST] = gBeastIconPal,
+    [RACE_REPTILE] = gReptileIconPal,
+    [RACE_ZOMBIE] = gZombieIconPal,
+    [RACE_WINGED_BEAST] = gWingedBeastIconPal,
+    [RACE_PYRO] = gPyroIconPal,
+};
+
+const u8 *const sCardTypeIcons_[NUM_TYPES + 1] =
+{
+    [TYPE_SPELL_CARD] = gSpellIcon,
+    [TYPE_TRAP_CARD] = gTrapIcon,
+};
+
+const u16 *const sCardTypeIconPals_[NUM_TYPES + 1] =
+{
+    [TYPE_SPELL_CARD] = gSpellIconPal,
+    [TYPE_TRAP_CARD] = gTrapIconPal,
 };
 
 //==========FUNCTIONS==========//
@@ -1148,9 +1257,18 @@ static void Menu_InitWindows(void)
     ScheduleBgCopyTilemapToVram(0);
     
     FillWindowPixelBuffer(WINDOW_1, 0);
+    FillWindowPixelBuffer(WINDOW_2, 0);
+    FillWindowPixelBuffer(WINDOW_3, 0);
+    FillWindowPixelBuffer(WINDOW_4, 0);
     LoadUserWindowBorderGfx(WINDOW_1, 720, 14 * 16);
     PutWindowTilemap(WINDOW_1);
+    PutWindowTilemap(WINDOW_2);
+    PutWindowTilemap(WINDOW_3);
+    PutWindowTilemap(WINDOW_4);
     CopyWindowToVram(WINDOW_1, 3);
+    CopyWindowToVram(WINDOW_2, 3);
+    CopyWindowToVram(WINDOW_3, 3);
+    CopyWindowToVram(WINDOW_4, 3);
     
     ScheduleBgCopyTilemapToVram(2);
 }
@@ -1176,23 +1294,22 @@ static const u8 sFontColorTableUI[][3] = {
 static void PrintSmallNarrowTextCentered(u8 windowId, u8 left, u8 colorId, const u8 *string)
 {
     left = (left * 4) - (GetStringWidth(FONT_SMALL_NARROW, string, -1) / 2u);
-    AddTextPrinterParameterized3(windowId, FONT_SMALL_NARROW, left, 144, sFontColorTableUI[colorId], 0, string);
+    AddTextPrinterParameterized3(windowId, FONT_SMALL_NARROW, left, 0, sFontColorTableUI[colorId], 0, string);
 }
 
 static void PrintToWindow(u8 windowId, u8 colorIdx, u16 card)
 {
     const u8 *cardName = gCardInfo[card].name;
     const u8 cardType = gCardInfo[card].type;
+    const u8 race = gCardInfo[card].race;
+    const u8 attribute = gCardInfo[card].attribute;
     const u8 *cardDescription = gCardInfo[card].description;
-    u8 x = 116;
+    u8 x = 0;
     u8 y = 0;
     
     FillWindowPixelBuffer(windowId, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-    // BlitBitmapToWindow(windowId, gCardPicLarge_DarkMagician, 0, 0, 64, 64);
-    // LoadPalette(gCardPalLarge_DarkMagician_4bpp, 0, 32);
-    PrintSmallNarrowTextCentered(windowId, 94, COLORID_NORMAL, cardName);
-    // AddTextPrinterParameterized4(windowId, FONT_SMALL_NARROWER, x, y, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, cardName);
-    AddTextPrinterParameterized4(windowId, FONT_SMALL_NARROWER, x, y + 16, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, cardDescription);
+    PrintSmallNarrowTextCentered(WINDOW_4, 94, COLORID_NORMAL, cardName);
+    AddTextPrinterParameterized4(windowId, FONT_SMALL_NARROWER, x, y, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, cardDescription);
     if (cardType == TYPE_NORMAL_MONSTER)
         LoadPalette(sNormalMonsterPalette, 0, 32*3);
     else if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER)
@@ -1206,8 +1323,32 @@ static void PrintToWindow(u8 windowId, u8 colorIdx, u16 card)
     else if (cardType == TYPE_RITUAL_MONSTER || cardType == TYPE_RITUAL_EFFECT_MONSTER)
         LoadPalette(sRitualMonsterPalette, 0, 32*3);
     SetBgTilemapPalette(2, 0, 0, DISPLAY_TILE_WIDTH, DISPLAY_TILE_HEIGHT, 3);
+    FillWindowPixelBuffer(WINDOW_2, PIXEL_FILL(0));
+    FillWindowPixelBuffer(WINDOW_3, PIXEL_FILL(0));
+    if (cardType == TYPE_SPELL_CARD || cardType == TYPE_TRAP_CARD)
+    {
+        BlitBitmapToWindow(WINDOW_2, sCardTypeIcons_[cardType], 22, 6, 16, 16);
+        LoadPalette(sCardTypeIconPals_[cardType], BG_PLTT_ID(8), 32);
+    }
+    else
+    {
+        BlitBitmapToWindow(WINDOW_3, sCardRaceIcons_[race], 6, 0, 16, 16);
+        LoadPalette(sCardRaceIconPals_[race], BG_PLTT_ID(7), 32);
+        BlitBitmapToWindow(WINDOW_2, sCardAttributeIcons_[attribute], 22, 6, 16, 16);
+        LoadPalette(sCardAttributeIconPals_[attribute], BG_PLTT_ID(8), 32);
+    }
     PutWindowTilemap(windowId);
+    PutWindowTilemap(WINDOW_2);
+    PutWindowTilemap(WINDOW_3);
+    PutWindowTilemap(WINDOW_4);
     CopyWindowToVram(windowId, 3);
+    CopyWindowToVram(WINDOW_2, 3);
+    CopyWindowToVram(WINDOW_3, 3);
+    CopyWindowToVram(WINDOW_4, 3);
+    ScheduleBgCopyTilemapToVram(0);
+    ScheduleBgCopyTilemapToVram(1);
+    ScheduleBgCopyTilemapToVram(2);
+    ScheduleBgCopyTilemapToVram(3);
 }
 
 static void Task_MenuWaitFadeIn(u8 taskId)
