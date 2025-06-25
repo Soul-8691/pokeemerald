@@ -406,7 +406,7 @@ for data in card_info_data['data']:
                       + "\t\t.def = 0,\n"
                       + "\t\t.race = RACE_NONE,\n")
         gCardInfo += ("\t\t.id = " + str(data['misc_info'][0]['konami_id']) + ",\n"
-                      + "\t\t.archetypesSeries = {ARCHETYPE_NONE, ARCHETYPE_NONE, ARCHETYPE_NONE},\n")
+                      + "\t\t.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},\n")
         with open('FL.json', 'r') as f:
             data_ = json.load(f)
             for card_ in data_:
