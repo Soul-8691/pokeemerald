@@ -126,6 +126,9 @@ static const u16 sTrapCardPalette[] = INCBIN_U16("graphics/cards/trap_card.gbapa
 static const u32 sFusionMonsterTiles[] = INCBIN_U32("graphics/cards/fusion_monster.8bpp.lz");
 static const u32 sFusionMonsterTilemap[] = INCBIN_U32("graphics/cards/fusion_monster.bin.lz");
 static const u16 sFusionMonsterPalette[] = INCBIN_U16("graphics/cards/fusion_monster.gbapal");
+static const u32 sRitualMonsterTiles[] = INCBIN_U32("graphics/cards/ritual_monster.8bpp.lz");
+static const u32 sRitualMonsterTilemap[] = INCBIN_U32("graphics/cards/ritual_monster.bin.lz");
+static const u16 sRitualMonsterPalette[] = INCBIN_U16("graphics/cards/ritual_monster.gbapal");
 static const u32 sBackgroundTiles[] = INCBIN_U32("graphics/cards/background.4bpp.lz");
 static const u32 sBackgroundTilemap[] = INCBIN_U32("graphics/cards/background.bin.lz");
 static const u16 sBackgroundPalette[] = INCBIN_U16("graphics/cards/background.gbapal");
@@ -1102,6 +1105,8 @@ static bool8 Menu_LoadGraphics(void)
             DecompressAndCopyTileDataToVram(1, sTrapCardTiles, 0, 0, 0);
         else if (cardType == TYPE_FUSION_MONSTER)
             DecompressAndCopyTileDataToVram(1, sFusionMonsterTiles, 0, 0, 0);
+        else if (cardType == TYPE_RITUAL_MONSTER || cardType == TYPE_RITUAL_EFFECT_MONSTER)
+            DecompressAndCopyTileDataToVram(1, sRitualMonsterTiles, 0, 0, 0);
         sMenuDataPtr->gfxLoadState++;
         break;
     case 1:
@@ -1118,6 +1123,8 @@ static bool8 Menu_LoadGraphics(void)
                 LZDecompressWram(sTrapCardTilemap, sTilemapBuffers[0]);
             else if (cardType == TYPE_FUSION_MONSTER)
                 LZDecompressWram(sFusionMonsterTilemap, sTilemapBuffers[0]);
+            else if (cardType == TYPE_RITUAL_MONSTER || cardType == TYPE_RITUAL_EFFECT_MONSTER)
+                LZDecompressWram(sRitualMonsterTilemap, sTilemapBuffers[0]);
             sMenuDataPtr->gfxLoadState++;
         }
         break;
@@ -1196,6 +1203,8 @@ static void PrintToWindow(u8 windowId, u8 colorIdx, u16 card)
         LoadPalette(sTrapCardPalette, 0, 32*3);
     else if (cardType == TYPE_FUSION_MONSTER)
         LoadPalette(sFusionMonsterPalette, 0, 32*3);
+    else if (cardType == TYPE_RITUAL_MONSTER || cardType == TYPE_RITUAL_EFFECT_MONSTER)
+        LoadPalette(sRitualMonsterPalette, 0, 32*3);
     SetBgTilemapPalette(2, 0, 0, DISPLAY_TILE_WIDTH, DISPLAY_TILE_HEIGHT, 3);
     PutWindowTilemap(windowId);
     CopyWindowToVram(windowId, 3);
