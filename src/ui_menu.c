@@ -111,9 +111,12 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
     DUMMY_WIN_TEMPLATE,
 };
 
-static const u32 sMenuTiles[] = INCBIN_U32("graphics/cards/details_bg.8bpp.lz");
-static const u32 sMenuTilemap[] = INCBIN_U32("graphics/cards/details_bg.bin.lz");
-static const u16 sMenuPalette[] = INCBIN_U16("graphics/cards/details_bg.gbapal");
+static const u32 sNormalMonsterTiles[] = INCBIN_U32("graphics/cards/normal_monster.8bpp.lz");
+static const u32 sNormalMonsterTilemap[] = INCBIN_U32("graphics/cards/normal_monster.bin.lz");
+static const u16 sNormalMonsterPalette[] = INCBIN_U16("graphics/cards/normal_monster.gbapal");
+static const u32 sEffectMonsterTiles[] = INCBIN_U32("graphics/cards/effect_monster.8bpp.lz");
+static const u32 sEffectMonsterTilemap[] = INCBIN_U32("graphics/cards/effect_monster.bin.lz");
+static const u16 sEffectMonsterPalette[] = INCBIN_U16("graphics/cards/effect_monster.gbapal");
 static const u32 sBackgroundTiles[] = INCBIN_U32("graphics/cards/background.4bpp.lz");
 static const u32 sBackgroundTilemap[] = INCBIN_U32("graphics/cards/background.bin.lz");
 static const u16 sBackgroundPalette[] = INCBIN_U16("graphics/cards/background.gbapal");
@@ -1073,25 +1076,32 @@ static bool8 Menu_InitBgs(void)
 
 static bool8 Menu_LoadGraphics(void)
 {
+    u16 card = CardIdMapping[gSpecialVar_ItemId];
+    u8 cardType = gCardInfo[card].type;
     switch (sMenuDataPtr->gfxLoadState)
     {
     case 0:
         ResetTempTileDataBuffers();
         DecompressAndCopyTileDataToVram(2, sBackgroundTiles, 0, 0, 0);
-        DecompressAndCopyTileDataToVram(1, sMenuTiles, 0, 0, 0);
+        if (cardType == TYPE_NORMAL_MONSTER)
+            DecompressAndCopyTileDataToVram(1, sNormalMonsterTiles, 0, 0, 0);
+        else if (cardType == TYPE_EFFECT_MONSTER)
+            DecompressAndCopyTileDataToVram(1, sEffectMonsterTiles, 0, 0, 0);
         sMenuDataPtr->gfxLoadState++;
         break;
     case 1:
         if (FreeTempTileDataBuffersIfPossible() != TRUE)
         {
             LZDecompressWram(sBackgroundTilemap, sTilemapBuffers[1]);
-            LZDecompressWram(sMenuTilemap, sTilemapBuffers[0]);
+            if (cardType == TYPE_NORMAL_MONSTER)
+                LZDecompressWram(sNormalMonsterTilemap, sTilemapBuffers[0]);
+            else if (cardType == TYPE_EFFECT_MONSTER)
+                LZDecompressWram(sEffectMonsterTilemap, sTilemapBuffers[0]);
             sMenuDataPtr->gfxLoadState++;
         }
         break;
     case 2:
         LoadPalette(sBackgroundPalette, 48, 32);
-        SetBgTilemapPalette(2, 0, 0, DISPLAY_TILE_WIDTH, DISPLAY_TILE_HEIGHT, 3);
         sMenuDataPtr->gfxLoadState++;
         break;
     default:
@@ -1144,6 +1154,7 @@ static void PrintSmallNarrowTextCentered(u8 windowId, u8 left, u8 colorId, const
 static void PrintToWindow(u8 windowId, u8 colorIdx, u16 card)
 {
     const u8 *cardName = gCardInfo[card].name;
+    const u8 cardType = gCardInfo[card].type;
     const u8 *cardDescription = gCardInfo[card].description;
     u8 x = 116;
     u8 y = 0;
@@ -1154,7 +1165,11 @@ static void PrintToWindow(u8 windowId, u8 colorIdx, u16 card)
     PrintSmallNarrowTextCentered(windowId, 94, COLORID_NORMAL, cardName);
     // AddTextPrinterParameterized4(windowId, FONT_SMALL_NARROWER, x, y, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, cardName);
     AddTextPrinterParameterized4(windowId, FONT_SMALL_NARROWER, x, y + 16, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, cardDescription);
-    LoadPalette(sMenuPalette, 0, 32*3);
+    if (cardType == TYPE_NORMAL_MONSTER)
+        LoadPalette(sNormalMonsterPalette, 0, 32*3);
+    else if (cardType == TYPE_EFFECT_MONSTER)
+        LoadPalette(sEffectMonsterPalette, 0, 32*3);
+    SetBgTilemapPalette(2, 0, 0, DISPLAY_TILE_WIDTH, DISPLAY_TILE_HEIGHT, 3);
     PutWindowTilemap(windowId);
     CopyWindowToVram(windowId, 3);
 }
