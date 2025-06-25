@@ -4582,6 +4582,17 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },
 
+	[ITEM_ARMED_DRAGON_LV5] =
+    {
+        .name = _("ArmedDragonLV"),
+        .itemId = ITEM_ARMED_DRAGON_LV5,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_TRUNK,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
 	[ITEM_ASURA_PRIEST] =
     {
         .name = _("AsuraPriest"),
@@ -4637,6 +4648,17 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },
 
+	[ITEM_BLACK_LUSTER_SOLDIER] =
+    {
+        .name = _("BlackLusterSo"),
+        .itemId = ITEM_BLACK_LUSTER_SOLDIER,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_TRUNK,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
 	[ITEM_BLACK_SKULL_DRAGON] =
     {
         .name = _("BlackSkullDra"),
@@ -4648,10 +4670,32 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },
 
+	[ITEM_BLAST_WITH_CHAIN] =
+    {
+        .name = _("BlastwithChai"),
+        .itemId = ITEM_BLAST_WITH_CHAIN,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_TRUNK,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
 	[ITEM_BLUE_EYES_WHITE_DRAGON] =
     {
         .name = _("BlueEyesWhite"),
         .itemId = ITEM_BLUE_EYES_WHITE_DRAGON,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_TRUNK,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_BOOK_OF_MOON] =
+    {
+        .name = _("BookofMoon"),
+        .itemId = ITEM_BOOK_OF_MOON,
         .price = 0,
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
@@ -4813,10 +4857,32 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },
 
+	[ITEM_DARK_RULER_HA_DES] =
+    {
+        .name = _("DarkRulerHaDe"),
+        .itemId = ITEM_DARK_RULER_HA_DES,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_TRUNK,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
 	[ITEM_DELINQUENT_DUO] =
     {
         .name = _("DelinquentDuo"),
         .itemId = ITEM_DELINQUENT_DUO,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_TRUNK,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_DON_ZALOOG] =
+    {
+        .name = _("DonZaloog"),
+        .itemId = ITEM_DON_ZALOOG,
         .price = 0,
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
@@ -5022,6 +5088,50 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },
 
+	[ITEM_GRANMARG_THE_ROCK_MONARCH] =
+    {
+        .name = _("GranmargtheRo"),
+        .itemId = ITEM_GRANMARG_THE_ROCK_MONARCH,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_TRUNK,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_GRAVEKEEPER_S_ASSAILANT] =
+    {
+        .name = _("GravekeepersA"),
+        .itemId = ITEM_GRAVEKEEPER_S_ASSAILANT,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_TRUNK,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_GRAVEKEEPER_S_SPEAR_SOLDIER] =
+    {
+        .name = _("GravekeepersS"),
+        .itemId = ITEM_GRAVEKEEPER_S_SPEAR_SOLDIER,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_TRUNK,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_GRAVEKEEPER_S_SPY] =
+    {
+        .name = _("GravekeepersS"),
+        .itemId = ITEM_GRAVEKEEPER_S_SPY,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_TRUNK,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
 	[ITEM_HARPIE_S_FEATHER_DUSTER] =
     {
         .name = _("HarpiesFeathe"),
@@ -5114,6 +5224,17 @@ const struct Item gItems[] =
     {
         .name = _("JustDesserts"),
         .itemId = ITEM_JUST_DESSERTS,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_TRUNK,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_KING_TIGER_WANGHU] =
+    {
+        .name = _("KingTigerWang"),
+        .itemId = ITEM_KING_TIGER_WANGHU,
         .price = 0,
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
@@ -5275,10 +5396,43 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },
 
+	[ITEM_METAMORPHOSIS] =
+    {
+        .name = _("Metamorphosis"),
+        .itemId = ITEM_METAMORPHOSIS,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_TRUNK,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_MIRAGE_OF_NIGHTMARE] =
+    {
+        .name = _("MirageofNight"),
+        .itemId = ITEM_MIRAGE_OF_NIGHTMARE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_TRUNK,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
 	[ITEM_MIRROR_FORCE] =
     {
         .name = _("MirrorForce"),
         .itemId = ITEM_MIRROR_FORCE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_TRUNK,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_MOBIUS_THE_FROST_MONARCH] =
+    {
+        .name = _("MobiustheFros"),
+        .itemId = ITEM_MOBIUS_THE_FROST_MONARCH,
         .price = 0,
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
@@ -5341,10 +5495,32 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },
 
+	[ITEM_NECROVALLEY] =
+    {
+        .name = _("Necrovalley"),
+        .itemId = ITEM_NECROVALLEY,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_TRUNK,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
 	[ITEM_NEO_THE_MAGIC_SWORDSMAN] =
     {
         .name = _("NeotheMagicSw"),
         .itemId = ITEM_NEO_THE_MAGIC_SWORDSMAN,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_TRUNK,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_NIGHTMARE_WHEEL] =
+    {
+        .name = _("NightmareWhee"),
+        .itemId = ITEM_NIGHTMARE_WHEEL,
         .price = 0,
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
@@ -5451,6 +5627,17 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },
 
+	[ITEM_REAPER_ON_THE_NIGHTMARE] =
+    {
+        .name = _("ReaperontheNi"),
+        .itemId = ITEM_REAPER_ON_THE_NIGHTMARE,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_TRUNK,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
 	[ITEM_RED_EYES_BLACK_DRAGON] =
     {
         .name = _("RedEyesBlackD"),
@@ -5495,6 +5682,17 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },
 
+	[ITEM_RING_OF_DESTRUCTION] =
+    {
+        .name = _("RingofDestruc"),
+        .itemId = ITEM_RING_OF_DESTRUCTION,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_TRUNK,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
 	[ITEM_ROBBIN_GOBLIN] =
     {
         .name = _("RobbinGoblin"),
@@ -5521,6 +5719,17 @@ const struct Item gItems[] =
     {
         .name = _("RyuSenshi"),
         .itemId = ITEM_RYU_SENSHI,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_TRUNK,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_SACRED_PHOENIX_OF_NEPHTHYS] =
+    {
+        .name = _("SacredPhoenix"),
+        .itemId = ITEM_SACRED_PHOENIX_OF_NEPHTHYS,
         .price = 0,
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
@@ -5638,6 +5847,17 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
     },
 
+	[ITEM_SPIRIT_REAPER] =
+    {
+        .name = _("SpiritReaper"),
+        .itemId = ITEM_SPIRIT_REAPER,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_TRUNK,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
 	[ITEM_ST_JOAN] =
     {
         .name = _("StJoan"),
@@ -5697,6 +5917,17 @@ const struct Item gItems[] =
     {
         .name = _("TheLastWarrio"),
         .itemId = ITEM_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_TRUNK,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+    },
+
+	[ITEM_THESTALOS_THE_FIRESTORM_MONARCH] =
+    {
+        .name = _("ThestalostheF"),
+        .itemId = ITEM_THESTALOS_THE_FIRESTORM_MONARCH,
         .price = 0,
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
