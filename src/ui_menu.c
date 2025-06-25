@@ -117,6 +117,9 @@ static const u16 sNormalMonsterPalette[] = INCBIN_U16("graphics/cards/normal_mon
 static const u32 sEffectMonsterTiles[] = INCBIN_U32("graphics/cards/effect_monster.8bpp.lz");
 static const u32 sEffectMonsterTilemap[] = INCBIN_U32("graphics/cards/effect_monster.bin.lz");
 static const u16 sEffectMonsterPalette[] = INCBIN_U16("graphics/cards/effect_monster.gbapal");
+static const u32 sSpellCardTiles[] = INCBIN_U32("graphics/cards/spell_card.8bpp.lz");
+static const u32 sSpellCardTilemap[] = INCBIN_U32("graphics/cards/spell_card.bin.lz");
+static const u16 sSpellCardPalette[] = INCBIN_U16("graphics/cards/spell_card.gbapal");
 static const u32 sBackgroundTiles[] = INCBIN_U32("graphics/cards/background.4bpp.lz");
 static const u32 sBackgroundTilemap[] = INCBIN_U32("graphics/cards/background.bin.lz");
 static const u16 sBackgroundPalette[] = INCBIN_U16("graphics/cards/background.gbapal");
@@ -1085,8 +1088,10 @@ static bool8 Menu_LoadGraphics(void)
         DecompressAndCopyTileDataToVram(2, sBackgroundTiles, 0, 0, 0);
         if (cardType == TYPE_NORMAL_MONSTER)
             DecompressAndCopyTileDataToVram(1, sNormalMonsterTiles, 0, 0, 0);
-        else if (cardType == TYPE_EFFECT_MONSTER)
+        else if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER)
             DecompressAndCopyTileDataToVram(1, sEffectMonsterTiles, 0, 0, 0);
+        else if (cardType == TYPE_SPELL_CARD)
+            DecompressAndCopyTileDataToVram(1, sSpellCardTiles, 0, 0, 0);
         sMenuDataPtr->gfxLoadState++;
         break;
     case 1:
@@ -1095,8 +1100,10 @@ static bool8 Menu_LoadGraphics(void)
             LZDecompressWram(sBackgroundTilemap, sTilemapBuffers[1]);
             if (cardType == TYPE_NORMAL_MONSTER)
                 LZDecompressWram(sNormalMonsterTilemap, sTilemapBuffers[0]);
-            else if (cardType == TYPE_EFFECT_MONSTER)
+            else if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER)
                 LZDecompressWram(sEffectMonsterTilemap, sTilemapBuffers[0]);
+            else if (cardType == TYPE_SPELL_CARD)
+                LZDecompressWram(sSpellCardTilemap, sTilemapBuffers[0]);
             sMenuDataPtr->gfxLoadState++;
         }
         break;
@@ -1167,8 +1174,10 @@ static void PrintToWindow(u8 windowId, u8 colorIdx, u16 card)
     AddTextPrinterParameterized4(windowId, FONT_SMALL_NARROWER, x, y + 16, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, cardDescription);
     if (cardType == TYPE_NORMAL_MONSTER)
         LoadPalette(sNormalMonsterPalette, 0, 32*3);
-    else if (cardType == TYPE_EFFECT_MONSTER)
+    else if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER)
         LoadPalette(sEffectMonsterPalette, 0, 32*3);
+    else if (cardType == TYPE_SPELL_CARD)
+        LoadPalette(sSpellCardPalette, 0, 32*3);
     SetBgTilemapPalette(2, 0, 0, DISPLAY_TILE_WIDTH, DISPLAY_TILE_HEIGHT, 3);
     PutWindowTilemap(windowId);
     CopyWindowToVram(windowId, 3);
