@@ -1206,7 +1206,7 @@ static bool8 Menu_LoadGraphics(void)
         DecompressAndCopyTileDataToVram(2, sBackgroundTiles, 0, 0, 0);
         if (cardType == TYPE_NORMAL_MONSTER)
             DecompressAndCopyTileDataToVram(1, sNormalMonsterTiles, 0, 0, 0);
-        else if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER)
+        else if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER || cardType == TYPE_SPIRIT_MONSTER)
             DecompressAndCopyTileDataToVram(1, sEffectMonsterTiles, 0, 0, 0);
         else if (cardType == TYPE_SPELL_CARD)
             DecompressAndCopyTileDataToVram(1, sSpellCardTiles, 0, 0, 0);
@@ -1224,7 +1224,7 @@ static bool8 Menu_LoadGraphics(void)
             LZDecompressWram(sBackgroundTilemap, sTilemapBuffers[1]);
             if (cardType == TYPE_NORMAL_MONSTER)
                 LZDecompressWram(sNormalMonsterTilemap, sTilemapBuffers[0]);
-            else if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER)
+            else if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER || cardType == TYPE_SPIRIT_MONSTER)
                 LZDecompressWram(sEffectMonsterTilemap, sTilemapBuffers[0]);
             else if (cardType == TYPE_SPELL_CARD)
                 LZDecompressWram(sSpellCardTilemap, sTilemapBuffers[0]);
@@ -1312,7 +1312,7 @@ static void PrintToWindow(u8 windowId, u8 colorIdx, u16 card)
     AddTextPrinterParameterized4(windowId, FONT_SMALL_NARROWER, x, y, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, cardDescription);
     if (cardType == TYPE_NORMAL_MONSTER)
         LoadPalette(sNormalMonsterPalette, 0, 32*3);
-    else if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER)
+    else if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER || cardType == TYPE_SPIRIT_MONSTER)
         LoadPalette(sEffectMonsterPalette, 0, 32*3);
     else if (cardType == TYPE_SPELL_CARD)
         LoadPalette(sSpellCardPalette, 0, 32*3);
