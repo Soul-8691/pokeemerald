@@ -4,6 +4,10 @@ const u32 gBattleTextboxTiles[] = INCBIN_U32("graphics/battle_interface/textbox.
 const u32 gBattleTextboxPalette[] = INCBIN_U32("graphics/battle_interface/textbox.gbapal.lz");
 const u32 gBattleTextboxTilemap[] = INCBIN_U32("graphics/battle_interface/textbox_map.bin.lz");
 
+const u32 gDuelBGTiles[] = INCBIN_U32("graphics/cards/duel_bg.4bpp.lz");
+const u32 gDuelBGPalette[] = INCBIN_U32("graphics/cards/duel_bg.gbapal.lz");
+const u32 gDuelBGTilemap[] = INCBIN_U32("graphics/cards/duel_bg.bin.lz");
+
 const u32 gMonStillFrontPic_CircledQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/circled/front.4bpp.lz");
 const u32 gMonBackPic_CircledQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/circled/back.4bpp.lz");
 const u32 gMonPalette_CircledQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/circled/normal.gbapal.lz");

@@ -24,6 +24,7 @@
 #include "constants/rgb.h"
 #include "constants/songs.h"
 #include "constants/trainers.h"
+#include "ygo_graphics.h"
 
 struct BattleBackground
 {
@@ -864,6 +865,16 @@ void LoadBattleTextboxAndBackground(void)
     LoadCompressedPalette(gBattleTextboxPalette, BG_PLTT_ID(0), 2 * PLTT_SIZE_4BPP);
     LoadBattleMenuWindowGfx();
     DrawMainBattleBackground();
+}
+
+void LoadDuelBackgrounds(void)
+{
+    LZDecompressVram(gDuelBGTiles, (void *)(BG_CHAR_ADDR(0)));
+    CopyToBgTilemapBuffer(0, gDuelBGTilemap, 0, 0);
+    CopyBgTilemapBufferToVram(0);
+    LoadCompressedPalette(gDuelBGPalette, BG_PLTT_ID(0), PLTT_SIZE_4BPP);
+    // LoadBattleMenuWindowGfx();
+    // DrawMainBattleBackground();
 }
 
 static void DrawLinkBattleParticipantPokeballs(u8 taskId, u8 multiplayerId, u8 bgId, u8 destX, u8 destY)

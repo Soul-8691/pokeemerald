@@ -679,7 +679,8 @@ static void CB2_InitYGODuelInternal(void)
         gBattleEnvironment = BATTLE_ENVIRONMENT_BUILDING;
 
     InitBattleBgsVideo();
-    LoadBattleTextboxAndBackground();
+    // LoadBattleTextboxAndBackground();
+    LoadDuelBackgrounds();
     ResetSpriteData();
     ResetTasks();
     DrawBattleEntryBackground();
