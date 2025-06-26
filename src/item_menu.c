@@ -541,6 +541,7 @@ static const struct MenuAction sItemMenuActions[] = {
     [ACTION_BY_PRICE_GLADIATOR]  = {sMenuText_ByPriceGladiator, ItemMenu_SortByPriceGladiator},
     [ACTION_BY_PRICE_TELEDAD]  = {sMenuText_ByPriceTeleDAD, ItemMenu_SortByPriceTeleDAD},
     [ACTION_BY_PRICE_CAT]  = {sMenuText_ByPriceCat, ItemMenu_SortByPriceCat},
+    [ACTION_BY_PRICE_EDISON]  = {sMenuText_ByPriceEdison, ItemMenu_SortByPriceEdison},
     [ACTION_BY_PRICE_FROG]  = {sMenuText_ByPriceFrog, ItemMenu_SortByPriceFrog},
     [ACTION_BY_PRICE_STARSTRIKE]  = {sMenuText_ByPriceStarstrike, ItemMenu_SortByPriceStarstrike},
     [ACTION_BY_PRICE_TENGU]  = {sMenuText_ByPriceTengu, ItemMenu_SortByPriceTengu},
