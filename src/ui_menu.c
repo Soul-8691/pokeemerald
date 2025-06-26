@@ -159,8 +159,8 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
         .bg = 0,            // which bg to print text on
         .tilemapLeft = 14,   // position from left (per 8 pixels)
         .tilemapTop = 2,    // position from top (per 8 pixels)
-        .width = 17,        // width (per 8 pixels)
-        .height = 15,        // height (per 8 pixels)
+        .width = 16,        // width (per 8 pixels)
+        .height = 16,        // height (per 8 pixels)
         .paletteNum = 15,   // palette index to use for text
         .baseBlock = 1,     // tile start in VRAM
     },
@@ -172,7 +172,7 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
         .width = 5,        // width (per 8 pixels)
         .height = 4,        // height (per 8 pixels)
         .paletteNum = 8,   // palette index to use for text
-        .baseBlock = 0x100,     // tile start in VRAM
+        .baseBlock = 0x101,     // tile start in VRAM
     },
     [WINDOW_3] = 
     {
@@ -182,7 +182,7 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
         .width = 4,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
         .paletteNum = 7,   // palette index to use for text
-        .baseBlock = 0x114,     // tile start in VRAM
+        .baseBlock = 0x115,     // tile start in VRAM
     },
     [WINDOW_4] = 
     {
@@ -192,7 +192,7 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
         .width = 32,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
         .paletteNum = 15,   // palette index to use for text
-        .baseBlock = 0x11C,     // tile start in VRAM
+        .baseBlock = 0x11D,     // tile start in VRAM
     },
     [WINDOW_5] = 
     {
@@ -202,7 +202,7 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
         .width = 5,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
         .paletteNum = 15,   // palette index to use for text
-        .baseBlock = 0x15C,     // tile start in VRAM
+        .baseBlock = 0x15D,     // tile start in VRAM
     },
     [WINDOW_6] = 
     {
@@ -212,7 +212,7 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
         .width = 4,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
         .paletteNum = 15,   // palette index to use for text
-        .baseBlock = 0x166,     // tile start in VRAM
+        .baseBlock = 0x167,     // tile start in VRAM
     },
     [WINDOW_7] = 
     {
@@ -222,7 +222,7 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
         .width = 10,        // width (per 8 pixels)
         .height = 3,        // height (per 8 pixels)
         .paletteNum = 15,   // palette index to use for text
-        .baseBlock = 0x16E,     // tile start in VRAM
+        .baseBlock = 0x16F,     // tile start in VRAM
     },
     DUMMY_WIN_TEMPLATE,
 };
