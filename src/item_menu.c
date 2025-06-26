@@ -1403,6 +1403,10 @@ const u8 *const gCardTypeText[NUM_TYPES + 1] =
     [TYPE_UNION_EFFECT_MONSTER] = gText_UnionEffect,
     [TYPE_NORMAL_MONSTER] = gText_NormalMonster,
     [TYPE_TOON_MONSTER] = gText_Toon,
+    [TYPE_XYZ_MONSTER] = gText_XYZ,
+    [TYPE_SYNCHRO_MONSTER] = gText_Synchro,
+    [TYPE_TUNER_MONSTER] = gText_Tuner,
+    [TYPE_SYNCHRO_TUNER_MONSTER] = gText_SynchroTuner,
 };
 
 const u8 gSupportedTypes[NUM_TYPES + 1] =
@@ -1418,6 +1422,10 @@ const u8 gSupportedTypes[NUM_TYPES + 1] =
     [TYPE_UNION_EFFECT_MONSTER] = 1,
     [TYPE_NORMAL_MONSTER] = 1,
     [TYPE_TOON_MONSTER] = 1,
+    [TYPE_XYZ_MONSTER] = 1,
+    [TYPE_SYNCHRO_MONSTER] = 1,
+    [TYPE_TUNER_MONSTER] = 1,
+    [TYPE_SYNCHRO_TUNER_MONSTER] = 1,
 };
 
 static void PrintItemDescription(int itemIndex)

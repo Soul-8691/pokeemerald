@@ -3041,5 +3041,9 @@ extern const u8 gText_NormalMonster[];
 extern const u8 gText_Spirit[];
 extern const u8 gText_UnionEffect[];
 extern const u8 gText_Toon[];
+extern const u8 gText_Tuner[];
+extern const u8 gText_XYZ[];
+extern const u8 gText_Synchro[];
+extern const u8 gText_SynchroTuner[];
 
 #endif // GUARD_STRINGS_H

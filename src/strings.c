@@ -1843,3 +1843,7 @@ const u8 gText_FlipEffect[] = _("Flip Effect");
 const u8 gText_Spirit[] = _("Spirit");
 const u8 gText_UnionEffect[] = _("Union/Effect");
 const u8 gText_Toon[] = _("Toon");
+const u8 gText_Tuner[] = _("Tuner");
+const u8 gText_XYZ[] = _("XYZ");
+const u8 gText_Synchro[] = _("Synchro");
+const u8 gText_SynchroTuner[] = _("Synchro/Tuner");
