@@ -5665,6 +5665,8 @@ static bool8 Menu_LoadGraphics(void)
             DecompressAndCopyTileDataToVram(1, sFusionMonsterTiles, 0, 0, 0);
         else if (cardType == TYPE_RITUAL_MONSTER || cardType == TYPE_RITUAL_EFFECT_MONSTER)
             DecompressAndCopyTileDataToVram(1, sRitualMonsterTiles, 0, 0, 0);
+        else
+            DecompressAndCopyTileDataToVram(1, sNormalMonsterTiles, 0, 0, 0);
         sMenuDataPtr->gfxLoadState++;
         break;
     case 1:
@@ -5683,6 +5685,8 @@ static bool8 Menu_LoadGraphics(void)
                 LZDecompressWram(sFusionMonsterTilemap, sTilemapBuffers[0]);
             else if (cardType == TYPE_RITUAL_MONSTER || cardType == TYPE_RITUAL_EFFECT_MONSTER)
                 LZDecompressWram(sRitualMonsterTilemap, sTilemapBuffers[0]);
+            else
+                LZDecompressWram(sNormalMonsterTilemap, sTilemapBuffers[0]);
             sMenuDataPtr->gfxLoadState++;
         }
         break;
@@ -5793,6 +5797,8 @@ static void PrintToWindow(u8 windowId, u8 colorIdx, u16 card)
         LoadPalette(sFusionMonsterPalette, 0, 32*3);
     else if (cardType == TYPE_RITUAL_MONSTER || cardType == TYPE_RITUAL_EFFECT_MONSTER)
         LoadPalette(sRitualMonsterPalette, 0, 32*3);
+    else
+        LoadPalette(sNormalMonsterPalette, 0, 32*3);
     SetBgTilemapPalette(2, 0, 0, DISPLAY_TILE_WIDTH, DISPLAY_TILE_HEIGHT, 3);
     FillWindowPixelBuffer(WINDOW_2, PIXEL_FILL(0));
     FillWindowPixelBuffer(WINDOW_3, PIXEL_FILL(0));

@@ -215,7 +215,7 @@ static const struct FontInfo sFontInfos[] =
     [FONT_SMALL_NARROWER] = {
         .fontFunction = FontFunc_SmallNarrower,
         .maxLetterWidth = 5,
-        .maxLetterHeight = 12,
+        .maxLetterHeight = 8,
         .letterSpacing = 0,
         .lineSpacing = 0,
         .fgColor = 2,
@@ -244,7 +244,7 @@ static const u8 sMenuCursorDimensions[][2] =
     [FONT_BRAILLE]      = { 8,  16 },
     [FONT_NARROW]       = { 8,  15 },
     [FONT_SMALL_NARROW] = { 8,   8 },
-    [FONT_SMALL_NARROWER] = { 8,   12 },
+    [FONT_SMALL_NARROWER] = { 8,   8 },
     [FONT_BOLD]         = {}
 };
 

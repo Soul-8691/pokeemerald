@@ -1697,9 +1697,9 @@ u8 InitMenuActionGrid(u8 windowId, u8 optionWidth, u8 columns, u8 rows, u8 initi
     sMenu.minCursorPos = 0;
     sMenu.maxCursorPos = (columns * rows) - 1;
     sMenu.windowId = windowId;
-    sMenu.fontId = FONT_SMALL_NARROWER;
+    sMenu.fontId = FONT_NORMAL;
     sMenu.optionWidth = optionWidth;
-    sMenu.optionHeight = 12;
+    sMenu.optionHeight = 16;
     sMenu.columns = columns;
     sMenu.rows = rows;
 
