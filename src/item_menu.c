@@ -279,6 +279,7 @@ static void SortBagItems(u8 taskId);
 static void Task_SortFinish(u8 taskId);
 static void SortItemsInBag(u8 pocket, u16 type);
 static void MergeSort(struct ItemSlot* array, u32 low, u32 high, s8 (*comparator)(struct ItemSlot*, struct ItemSlot*));
+static void BubbleSort(struct ItemSlot* array, u32 maxItems, s8 (*comparator)(struct ItemSlot*, struct ItemSlot*));
 static void Merge(struct ItemSlot* array, u32 low, u32 mid, u32 high, s8 (*comparator)(struct ItemSlot*, struct ItemSlot*));
 static s8 CompareItemsAlphabetically(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
 static s8 CompareItemsByMost(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
@@ -3802,46 +3803,37 @@ static void Task_SortFinish(u8 taskId)
 static void SortItemsInBag(u8 pocket, u16 type)
 {
     struct ItemSlot* itemMem;
-    u16 itemAmount;
+    u32 itemAmount = gBagMenu->numItemStacks[pocket];
     s8 (*func)(struct ItemSlot*, struct ItemSlot*);
 
     switch (pocket)
     {
     case ITEMS_POCKET:
         itemMem = gSaveBlock1Ptr->bagPocket_Items;
-        itemAmount = BAG_ITEMS_COUNT;
         break;
     case TRUNK_POCKET:
         itemMem = gSaveBlock1Ptr->bagPocket_Trunk;
-        itemAmount = BAG_TRUNK_COUNT;
         break;
     case MAIN_DECK_POCKET:
         itemMem = gSaveBlock1Ptr->bagPocket_MainDeck;
-        itemAmount = BAG_MAIN_DECK_COUNT;
         break;
     case EXTRA_DECK_POCKET:
         itemMem = gSaveBlock1Ptr->bagPocket_ExtraDeck;
-        itemAmount = BAG_EXTRA_DECK_COUNT;
         break;
     case SIDE_DECK_POCKET:
         itemMem = gSaveBlock1Ptr->bagPocket_SideDeck;
-        itemAmount = BAG_SIDE_DECK_COUNT;
         break;
     case KEYITEMS_POCKET:
         itemMem = gSaveBlock1Ptr->bagPocket_KeyItems;
-        itemAmount = BAG_KEYITEMS_COUNT;
         break;
     case BALLS_POCKET:
         itemMem = gSaveBlock1Ptr->bagPocket_PokeBalls;
-        itemAmount = BAG_POKEBALLS_COUNT;
         break;
     case BERRIES_POCKET:
         itemMem = gSaveBlock1Ptr->bagPocket_Berries;
-        itemAmount = BAG_BERRIES_COUNT;
         break;
     case TMHM_POCKET:
         itemMem = gSaveBlock1Ptr->bagPocket_TMHM;
-        itemAmount = BAG_TMHM_COUNT;
         break;
     default:
         return;
@@ -3850,79 +3842,79 @@ static void SortItemsInBag(u8 pocket, u16 type)
     switch (type)
     {
     case SORT_ALPHABETICALLY:
-        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsAlphabetically);
+        BubbleSort(itemMem, itemAmount - 1, CompareItemsAlphabetically);
         break;
     case SORT_BY_AMOUNT:
-        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByMost);
+        BubbleSort(itemMem, itemAmount - 1, CompareItemsByMost);
         break;
     case SORT_BY_ID:
-        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsById);
+        BubbleSort(itemMem, itemAmount - 1, CompareItemsById);
         break;
     case SORT_BY_LEVEL:
-        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByLevel);
+        BubbleSort(itemMem, itemAmount - 1, CompareItemsByLevel);
         break;
     case SORT_BY_ATK:
-        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByAtk);
+        BubbleSort(itemMem, itemAmount - 1, CompareItemsByAtk);
         break;
     case SORT_BY_DEF:
-        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByDef);
+        BubbleSort(itemMem, itemAmount - 1, CompareItemsByDef);
         break;
     case SORT_BY_PRICE_YK:
-        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceYK);
+        BubbleSort(itemMem, itemAmount - 1, CompareItemsByPriceYK);
         break;
     case SORT_BY_PRICE_CRITTER:
-        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceCritter);
+        BubbleSort(itemMem, itemAmount - 1, CompareItemsByPriceCritter);
         break;
     case SORT_BY_PRICE_TREASURE:
-        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceTreasure);
+        BubbleSort(itemMem, itemAmount - 1, CompareItemsByPriceTreasure);
         break;
     case SORT_BY_PRICE_IMPERIAL:
-        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceImperial);
+        BubbleSort(itemMem, itemAmount - 1, CompareItemsByPriceImperial);
         break;
     case SORT_BY_PRICE_ANDROID:
-        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceAndroid);
+        BubbleSort(itemMem, itemAmount - 1, CompareItemsByPriceAndroid);
         break;
     case SORT_BY_PRICE_JP:
-        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceJP);
+        BubbleSort(itemMem, itemAmount - 1, CompareItemsByPriceJP);
         break;
     case SORT_BY_PRICE_FIBER:
-        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceFiber);
+        BubbleSort(itemMem, itemAmount - 1, CompareItemsByPriceFiber);
         break;
     case SORT_BY_PRICE_YATA:
-        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceYata);
+        BubbleSort(itemMem, itemAmount - 1, CompareItemsByPriceYata);
         break;
     case SORT_BY_PRICE_SCIENTIST:
-        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceScientist);
+        BubbleSort(itemMem, itemAmount - 1, CompareItemsByPriceScientist);
         break;
     case SORT_BY_PRICE_VAMPIRE:
-        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceVampire);
+        BubbleSort(itemMem, itemAmount - 1, CompareItemsByPriceVampire);
         break;
     case SORT_BY_PRICE_CHAOS:
-        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceChaos);
+        BubbleSort(itemMem, itemAmount - 1, CompareItemsByPriceChaos);
         break;
     case SORT_BY_PRICE_WARRIOR:
-        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceWarrior);
+        BubbleSort(itemMem, itemAmount - 1, CompareItemsByPriceWarrior);
         break;
     case SORT_BY_PRICE_GOAT:
-        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceGoat);
+        BubbleSort(itemMem, itemAmount - 1, CompareItemsByPriceGoat);
         break;
     case SORT_BY_PRICE_CYBER:
-        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceCyber);
+        BubbleSort(itemMem, itemAmount - 1, CompareItemsByPriceCyber);
         break;
     case SORT_BY_PRICE_REAPER:
-        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceReaper);
+        BubbleSort(itemMem, itemAmount - 1, CompareItemsByPriceReaper);
         break;
     case SORT_BY_PRICE_VENDOR_1:
-        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceVendor1);
+        BubbleSort(itemMem, itemAmount - 1, CompareItemsByPriceVendor1);
         break;
     case SORT_BY_PRICE_VENDOR_2:
-        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceVendor2);
+        BubbleSort(itemMem, itemAmount - 1, CompareItemsByPriceVendor2);
         break;
     case SORT_BY_PRICE_VENDOR_3:
-        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByPriceVendor3);
+        BubbleSort(itemMem, itemAmount - 1, CompareItemsByPriceVendor3);
         break;
     default:
-        MergeSort(itemMem, 0, itemAmount - 1, CompareItemsByType);
+        BubbleSort(itemMem, itemAmount - 1, CompareItemsByType);
         break;
     }
 }
@@ -3938,6 +3930,23 @@ static void MergeSort(struct ItemSlot* array, u32 low, u32 high, s8 (*comparator
     MergeSort(array, low, mid, comparator); //Sort left half.
     MergeSort(array, mid + 1, high, comparator); //Sort right half.
     Merge(array, low, mid, high, comparator); //Merge results.
+}
+
+static void BubbleSort(struct ItemSlot* array, u32 maxItems, s8 (*comparator)(struct ItemSlot*, struct ItemSlot*))
+{
+    u32 i, j;
+    struct ItemSlot* itemSlot1;
+    struct ItemSlot* itemSlot2;
+    struct ItemSlot tmp;
+
+    for (i = 0; i < maxItems; i++) {
+        itemSlot1 = &array[i];
+        for (j = i + 1; j < maxItems; j++) {
+            itemSlot2 = &array[j];
+            if (comparator(itemSlot1, itemSlot2) > 0)
+                SWAP(*itemSlot1, *itemSlot2, tmp);
+        }
+    }
 }
 
 static void Merge(struct ItemSlot* array, u32 low, u32 mid, u32 high, s8 (*comparator)(struct ItemSlot*, struct ItemSlot*))
