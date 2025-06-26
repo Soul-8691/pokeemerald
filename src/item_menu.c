@@ -2255,7 +2255,7 @@ static void Task_ItemContext_MultipleRows(u8 taskId)
         }
         else if (JOY_NEW(DPAD_LEFT) || GetLRKeysPressed() == MENU_L_PRESSED)
         {
-            if ((cursorPos & 1) && IsValidContextMenuPos(cursorPos - 1))
+            if ((cursorPos % 4) > 0 && IsValidContextMenuPos(cursorPos - 1))
             {
                 PlaySE(SE_SELECT);
                 ChangeMenuGridCursorPosition(MENU_CURSOR_DELTA_LEFT, MENU_CURSOR_DELTA_NONE);
@@ -2263,7 +2263,7 @@ static void Task_ItemContext_MultipleRows(u8 taskId)
         }
         else if (JOY_NEW(DPAD_RIGHT) || GetLRKeysPressed() == MENU_R_PRESSED)
         {
-            if (!(cursorPos & 1) && IsValidContextMenuPos(cursorPos + 1))
+            if ((cursorPos % 4) < (4 - 1) && IsValidContextMenuPos(cursorPos + 1))
             {
                 PlaySE(SE_SELECT);
                 ChangeMenuGridCursorPosition(MENU_CURSOR_DELTA_RIGHT, MENU_CURSOR_DELTA_NONE);
@@ -3209,7 +3209,7 @@ static const u8 sText_Type[] = _("type");
 static const u8 sText_Amount[] = _("amount");
 static const u8 sText_Attribute[] = _("attribute");
 static const u8 sText_CardType[] = _("card type");
-static const u8 sText_Race[] = _("racee");
+static const u8 sText_Race[] = _("race");
 static const u8 sText_Id[] = _("ID");
 static const u8 sText_Level[] = _("level");
 static const u8 sText_Atk[] = _("ATK");
