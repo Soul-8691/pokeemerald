@@ -108,6 +108,8 @@ enum WindowIds
     WINDOW_2,
     WINDOW_3,
     WINDOW_4,
+    WINDOW_5,
+    WINDOW_6,
 };
 
 //==========EWRAM==========//
@@ -190,6 +192,26 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
         .height = 2,        // height (per 8 pixels)
         .paletteNum = 15,   // palette index to use for text
         .baseBlock = 0xFA,     // tile start in VRAM
+    },
+    [WINDOW_5] = 
+    {
+        .bg = 0,            // which bg to print text on
+        .tilemapLeft = 3,   // position from left (per 8 pixels)
+        .tilemapTop = 15,    // position from top (per 8 pixels)
+        .width = 5,        // width (per 8 pixels)
+        .height = 2,        // height (per 8 pixels)
+        .paletteNum = 15,   // palette index to use for text
+        .baseBlock = 0x13A,     // tile start in VRAM
+    },
+    [WINDOW_6] = 
+    {
+        .bg = 0,            // which bg to print text on
+        .tilemapLeft = 8,   // position from left (per 8 pixels)
+        .tilemapTop = 15,    // position from top (per 8 pixels)
+        .width = 4,        // width (per 8 pixels)
+        .height = 2,        // height (per 8 pixels)
+        .paletteNum = 15,   // palette index to use for text
+        .baseBlock = 0x144,     // tile start in VRAM
     },
     DUMMY_WIN_TEMPLATE,
 };
@@ -1326,15 +1348,21 @@ static void Menu_InitWindows(void)
     FillWindowPixelBuffer(WINDOW_2, 0);
     FillWindowPixelBuffer(WINDOW_3, 0);
     FillWindowPixelBuffer(WINDOW_4, 0);
+    FillWindowPixelBuffer(WINDOW_5, 0);
+    FillWindowPixelBuffer(WINDOW_6, 0);
     LoadUserWindowBorderGfx(WINDOW_1, 720, 14 * 16);
     PutWindowTilemap(WINDOW_1);
     PutWindowTilemap(WINDOW_2);
     PutWindowTilemap(WINDOW_3);
     PutWindowTilemap(WINDOW_4);
+    PutWindowTilemap(WINDOW_5);
+    PutWindowTilemap(WINDOW_6);
     CopyWindowToVram(WINDOW_1, 3);
     CopyWindowToVram(WINDOW_2, 3);
     CopyWindowToVram(WINDOW_3, 3);
     CopyWindowToVram(WINDOW_4, 3);
+    CopyWindowToVram(WINDOW_5, 3);
+    CopyWindowToVram(WINDOW_6, 3);
     
     ScheduleBgCopyTilemapToVram(2);
 }
@@ -1370,12 +1398,23 @@ static void PrintToWindow(u8 windowId, u8 colorIdx, u16 card)
     const u8 race = gCardInfo[card].race;
     const u8 attribute = gCardInfo[card].attribute;
     const u8 *cardDescription = gCardInfo[card].description;
+    const u16 cardAtk = gCardInfo[card].atk * 10;
+    const u16 cardDef = gCardInfo[card].def * 10;
     u8 x = 0;
     u8 y = 0;
     
     FillWindowPixelBuffer(windowId, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
     PrintSmallNarrowTextCentered(WINDOW_4, 94, COLORID_NORMAL, cardName);
     AddTextPrinterParameterized4(windowId, FONT_SMALL_NARROWER, x, y, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, cardDescription);
+    if (cardType != TYPE_SPELL_CARD && cardType != TYPE_TRAP_CARD)
+    {
+        ConvertIntToDecimalStringN(gStringVar1, cardAtk, STR_CONV_MODE_LEFT_ALIGN, 4);
+        StringExpandPlaceholders(gStringVar4, gText_xAtk);
+        AddTextPrinterParameterized4(WINDOW_5, FONT_SMALL_NARROWER, 2, 5, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
+        ConvertIntToDecimalStringN(gStringVar1, cardDef, STR_CONV_MODE_LEFT_ALIGN, 4);
+        StringExpandPlaceholders(gStringVar4, gText_xDef);
+        AddTextPrinterParameterized4(WINDOW_6, FONT_SMALL_NARROWER, 0, 5, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
+    }
     if (cardType == TYPE_NORMAL_MONSTER)
         LoadPalette(sNormalMonsterPalette, 0, 32*3);
     else if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER || cardType == TYPE_SPIRIT_MONSTER)
@@ -1407,10 +1446,14 @@ static void PrintToWindow(u8 windowId, u8 colorIdx, u16 card)
     PutWindowTilemap(WINDOW_2);
     PutWindowTilemap(WINDOW_3);
     PutWindowTilemap(WINDOW_4);
+    PutWindowTilemap(WINDOW_5);
+    PutWindowTilemap(WINDOW_6);
     CopyWindowToVram(windowId, 3);
     CopyWindowToVram(WINDOW_2, 3);
     CopyWindowToVram(WINDOW_3, 3);
     CopyWindowToVram(WINDOW_4, 3);
+    CopyWindowToVram(WINDOW_5, 3);
+    CopyWindowToVram(WINDOW_6, 3);
     ScheduleBgCopyTilemapToVram(0);
     ScheduleBgCopyTilemapToVram(1);
     ScheduleBgCopyTilemapToVram(2);
