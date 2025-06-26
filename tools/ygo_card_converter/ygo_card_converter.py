@@ -1357,7 +1357,6 @@ for data in card_info_data['data']:
                   + "\t\t.priceVendor2 = 0,\n"
                   + "\t\t.priceVendor3 = 0,\n"
                   + "\t\t.priceVendor4 = 0,\n"
-                  + "\t\t.priceVendor5 = 0,\n"
                   + '\t},\n')
         YGO_C += '    [ITEM_' + re.sub(r'\W+', '_', data['name']).upper() + '] = ' + str(card_counter) + ',\n'
         card_counter += 1
