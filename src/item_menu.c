@@ -1263,7 +1263,7 @@ static void PrintItemDescription(int itemIndex)
     u8 attribute = gCardInfo[card].attribute;
     u8 race = gCardInfo[card].race;
     u8 type = gCardInfo[card].type;
-    const u8 *cardName = gCardInfo[card].nameShort;
+    const u8 *cardName = gCardInfo[card].nameShortBag;
     u16 cardAtk = gCardInfo[card].atk * 10;
     u16 cardDef = gCardInfo[card].def * 10;
     u8 cardLevel = gCardInfo[card].level;
