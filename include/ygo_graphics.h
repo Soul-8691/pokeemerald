@@ -1197,7 +1197,8 @@ extern const u8 gSpellIcon[];
 extern const u16 gSpellIconPal[];
 extern const u8 gTrapIcon[];
 extern const u16 gTrapIconPal[];
-extern const u32 gFusionMaterialIcon[];
-extern const u32 gStarIcon[];
+extern const u16 gFusionMaterialIconPal[];
+extern const u8 gStarIcon[];
+extern const u16 gStarIconPal[];
 
 #endif //GUARD_YGO_GRAPHICS_H

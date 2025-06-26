@@ -40,6 +40,56 @@
 #include "field_camera.h"
 
 #define TAG_CARD 60000
+#define TAG_ICON 60001
+
+static const union AnimCmd sStarAnimSequence[] =
+{
+    ANIMCMD_FRAME(0, 0),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd *const sStarAnimTable[] =
+{
+    sStarAnimSequence,
+};
+
+static const struct OamData sStarData =
+{
+    .y = DISPLAY_HEIGHT,
+    .affineMode = ST_OAM_AFFINE_OFF,
+    .objMode = ST_OAM_OBJ_NORMAL,
+    .mosaic = FALSE,
+    .bpp = ST_OAM_4BPP,
+    .shape = SPRITE_SHAPE(8x8),
+    .x = 0,
+    .matrixNum = 0,
+    .size = SPRITE_SIZE(8x8),
+    .tileNum = 0,
+    .priority = 0,
+    .paletteNum = 0,
+    .affineParam = 0,
+};
+
+static const struct SpriteTemplate sStarSpriteTemplate =
+{
+    .tileTag = TAG_ICON,
+    .paletteTag = TAG_ICON,
+    .oam = &sStarData,
+    .anims = sStarAnimTable,
+    .images = NULL,
+    .affineAnims = gDummySpriteAffineAnimTable,
+    .callback = NULL,
+};
+
+static const struct SpriteSheet sSpriteSheet_Icons[] =
+{
+    {
+        .data = gStarIcon,
+        .size = 8*8/2,
+        .tag = TAG_ICON
+    },
+    {},
+};
 
 /*
  * 
@@ -1070,12 +1120,18 @@ static const struct SpriteTemplate sCardLeftSpriteTemplate =
     .callback = NULL,
 };
 
+static const struct SpritePalette sIcon_SpritePalettes[] =
+{
+    {gStarIconPal,     TAG_ICON},
+};
+
 static bool8 Menu_DoGfxSetup(void)
 {
     u8 taskId;
     u8 spriteId;
-    s16 tileNum = AllocSpriteTiles((u8)(CARD_PIC_SIZE / TILE_SIZE_8BPP)); //allocate for a 80x80 sprite
+    u32 i;
     u16 card = CardIdMapping[gSpecialVar_ItemId];
+    u8 level = gCardInfo[card].level;
     switch (gMain.state)
     {
     case 0:
@@ -1095,6 +1151,16 @@ static bool8 Menu_DoGfxSetup(void)
         LoadPalette(gCardInfo[card].pal, OBJ_PLTT_ID(0), PLTT_SIZE_4BPP*4);
         spriteId = CreateBigSprite(&sCardLeftSpriteTemplate, 16, 32, 0);
         gSprites[spriteId].callback = SpriteCallbackDummy;
+        LoadSpriteSheet(&sSpriteSheet_Icons[0]);
+        LoadSpritePaletteInSlot(&sIcon_SpritePalettes[0], 4);
+        for (i = 0; i < level; i++)
+        {
+            if (level < 12)
+                spriteId = CreateSprite(&sStarSpriteTemplate, 96 - (i * 8), 25, 0);
+            else
+                spriteId = CreateSprite(&sStarSpriteTemplate, 96 - (i * 7), 25, 0);
+            gSprites[spriteId].callback = SpriteCallbackDummy;
+        }
         gMain.state++;
         break;
     case 2:
