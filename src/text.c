@@ -94,6 +94,7 @@ static const struct GlyphWidthFunc sGlyphWidthFuncs[] =
     { FONT_NARROW,       GetGlyphWidth_Narrow },
     { FONT_SMALL_NARROW, GetGlyphWidth_SmallNarrow },
     { FONT_SMALL_NARROWER, GetGlyphWidth_SmallNarrower },
+    { FONT_SMALL_NARROWER_2, GetGlyphWidth_SmallNarrower },
 };
 
 struct
@@ -221,6 +222,15 @@ static const struct FontInfo sFontInfos[] =
         .fgColor = 2,
         .bgColor = 1,
     },
+    [FONT_SMALL_NARROWER_2] = {
+        .fontFunction = FontFunc_SmallNarrower,
+        .maxLetterWidth = 5,
+        .maxLetterHeight = 12,
+        .letterSpacing = 0,
+        .lineSpacing = 0,
+        .fgColor = 2,
+        .bgColor = 1,
+    },
     [FONT_BOLD] = {
         .fontFunction = NULL,
         .maxLetterWidth = 8,
@@ -245,6 +255,7 @@ static const u8 sMenuCursorDimensions[][2] =
     [FONT_NARROW]       = { 8,  15 },
     [FONT_SMALL_NARROW] = { 8,   8 },
     [FONT_SMALL_NARROWER] = { 8,   8 },
+    [FONT_SMALL_NARROWER_2] = { 8,   12 },
     [FONT_BOLD]         = {}
 };
 
@@ -1167,6 +1178,9 @@ static u16 RenderText(struct TextPrinter *textPrinter)
             DecompressGlyph_SmallNarrow(currChar, textPrinter->japanese);
             break;
         case FONT_SMALL_NARROWER:
+            DecompressGlyph_SmallNarrower(currChar, textPrinter->japanese);
+            break;
+        case FONT_SMALL_NARROWER_2:
             DecompressGlyph_SmallNarrower(currChar, textPrinter->japanese);
             break;
         case FONT_BRAILLE:

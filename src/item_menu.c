@@ -734,8 +734,8 @@ static const struct WindowTemplate sDefaultBagWindows[] =
         .bg = 0,
         .tilemapLeft = 7,
         .tilemapTop = 3,
-        .width = 4,
-        .height = 4,
+        .width = 3,
+        .height = 3,
         .paletteNum = 8,
         .baseBlock = 0x1F9,
     },
@@ -751,7 +751,7 @@ static const struct WindowTemplate sContextMenuWindowTemplates[] =
         .width = 7,
         .height = 2,
         .paletteNum = 15,
-        .baseBlock = 0x21D,
+        .baseBlock = 0x202,
     },
     [ITEMWIN_1x2] = {
         .bg = 1,
@@ -760,7 +760,7 @@ static const struct WindowTemplate sContextMenuWindowTemplates[] =
         .width = 8,
         .height = 4,
         .paletteNum = 15,
-        .baseBlock = 0x21D,
+        .baseBlock = 0x202,
     },
     [ITEMWIN_2x2] = {
         .bg = 1,
@@ -769,7 +769,7 @@ static const struct WindowTemplate sContextMenuWindowTemplates[] =
         .width = 14,
         .height = 4,
         .paletteNum = 15,
-        .baseBlock = 0x21D,
+        .baseBlock = 0x202,
     },
     [ITEMWIN_2x3] = {
         .bg = 1,
@@ -778,16 +778,16 @@ static const struct WindowTemplate sContextMenuWindowTemplates[] =
         .width = 14,
         .height = 6,
         .paletteNum = 15,
-        .baseBlock = 0x21D,
+        .baseBlock = 0x202,
     },
     [ITEMWIN_4x12] = {
         .bg = 1,
         .tilemapLeft = 1,
         .tilemapTop = 1,
-        .width = 21,
-        .height = 12,
+        .width = 28,
+        .height = 18,
         .paletteNum = 15,
-        .baseBlock = 0x21D,
+        .baseBlock = 0x202,
     },
     [ITEMWIN_MESSAGE] = {
         .bg = 1,
@@ -796,7 +796,7 @@ static const struct WindowTemplate sContextMenuWindowTemplates[] =
         .width = 27,
         .height = 4,
         .paletteNum = 15,
-        .baseBlock = 0x259,
+        .baseBlock = 0x202,
     },
     [ITEMWIN_YESNO_LOW] = { // Yes/No tucked in corner, for toss confirm
         .bg = 1,
@@ -805,7 +805,7 @@ static const struct WindowTemplate sContextMenuWindowTemplates[] =
         .width = 5,
         .height = 4,
         .paletteNum = 15,
-        .baseBlock = 0x21D,
+        .baseBlock = 0x202,
     },
     [ITEMWIN_YESNO_HIGH] = { // Yes/No higher up, positioned above a lower message box
         .bg = 1,
@@ -814,7 +814,7 @@ static const struct WindowTemplate sContextMenuWindowTemplates[] =
         .width = 5,
         .height = 4,
         .paletteNum = 15,
-        .baseBlock = 0x21D,
+        .baseBlock = 0x202,
     },
     [ITEMWIN_QUANTITY] = { // Used for quantity of items to Toss/Deposit
         .bg = 1,
@@ -823,7 +823,7 @@ static const struct WindowTemplate sContextMenuWindowTemplates[] =
         .width = 5,
         .height = 2,
         .paletteNum = 15,
-        .baseBlock = 0x21D,
+        .baseBlock = 0x202,
     },
     [ITEMWIN_QUANTITY_WIDE] = { // Used for quantity and price of items to Sell
         .bg = 1,
@@ -832,7 +832,7 @@ static const struct WindowTemplate sContextMenuWindowTemplates[] =
         .width = 10,
         .height = 2,
         .paletteNum = 15,
-        .baseBlock = 0x245,
+        .baseBlock = 0x202,
     },
     [ITEMWIN_MONEY] = {
         .bg = 1,
@@ -841,7 +841,7 @@ static const struct WindowTemplate sContextMenuWindowTemplates[] =
         .width = 10,
         .height = 2,
         .paletteNum = 15,
-        .baseBlock = 0x231,
+        .baseBlock = 0x202,
     },
 };
 
@@ -2182,18 +2182,18 @@ static void OpenContextMenu(u8 taskId)
     else if (gBagMenu->contextMenuNumItems <= 6)
         PrintContextMenuItemGrid(BagMenu_AddWindow(ITEMWIN_2x3), 2, 3);
     else
-        PrintContextMenuItemGrid(BagMenu_AddWindow(ITEMWIN_4x12), 3, 9);
+        PrintContextMenuItemGrid(BagMenu_AddWindow(ITEMWIN_4x12), 4, 12);
 }
 
 static void PrintContextMenuItems(u8 windowId)
 {
-    PrintMenuActionTexts(windowId, FONT_NARROW, 8, 1, 0, 16, gBagMenu->contextMenuNumItems, sItemMenuActions, gBagMenu->contextMenuItemsPtr);
+    PrintMenuActionTexts(windowId, FONT_SMALL_NARROWER_2, 8, 1, 0, 16, gBagMenu->contextMenuNumItems, sItemMenuActions, gBagMenu->contextMenuItemsPtr);
     InitMenuInUpperLeftCornerNormal(windowId, gBagMenu->contextMenuNumItems, 0);
 }
 
 static void PrintContextMenuItemGrid(u8 windowId, u8 columns, u8 rows)
 {
-    PrintMenuActionGrid(windowId, FONT_NARROW, 8, 1, 56, columns, rows, sItemMenuActions, gBagMenu->contextMenuItemsPtr);
+    PrintMenuActionGrid(windowId, FONT_SMALL_NARROWER_2, 8, 1, 56, columns, rows, sItemMenuActions, gBagMenu->contextMenuItemsPtr);
     InitMenuActionGrid(windowId, 56, columns, rows, 0);
 }
 
@@ -3314,29 +3314,29 @@ static const u8 sBagMenuSortItems[] =
     ACTION_BY_PRICE_GOAT,
     ACTION_BY_PRICE_CYBER,
     ACTION_BY_PRICE_REAPER,
-    // ACTION_BY_PRICE_CHAOS_RETURN,
-    // ACTION_BY_PRICE_DEMISE,
-    // ACTION_BY_PRICE_TROOPER,
-    // ACTION_BY_PRICE_ZOMBIE,
-    // ACTION_BY_PRICE_PERFECT_CIRCLE,
-    // ACTION_BY_PRICE_DAD_RETURN,
-    // ACTION_BY_PRICE_GLADIATOR,
-    // ACTION_BY_PRICE_TELEDAD,
-    // ACTION_BY_PRICE_CAT,
-    // ACTION_BY_PRICE_EDISON,
-    // ACTION_BY_PRICE_FROG,
-    // ACTION_BY_PRICE_STARSTRIKE,
-    // ACTION_BY_PRICE_TENGU,
-    // ACTION_BY_PRICE_DINO_RABBIT,
-    // ACTION_BY_PRICE_WIND_UP,
-    // ACTION_BY_PRICE_MIAMI,
-    // ACTION_BY_PRICE_MEADOWLANDS,
-    // ACTION_BY_PRICE_BABY_RULER,
-    // ACTION_BY_PRICE_RAVINE_RULER,
-    // ACTION_BY_PRICE_FIRE_WATER,
-    // ACTION_BY_PRICE_HAT,
-    // ACTION_BY_PRICE_VEGAS,
-    // ACTION_BY_PRICE_CUSTOM,
+    ACTION_BY_PRICE_CHAOS_RETURN,
+    ACTION_BY_PRICE_DEMISE,
+    ACTION_BY_PRICE_TROOPER,
+    ACTION_BY_PRICE_ZOMBIE,
+    ACTION_BY_PRICE_PERFECT_CIRCLE,
+    ACTION_BY_PRICE_DAD_RETURN,
+    ACTION_BY_PRICE_GLADIATOR,
+    ACTION_BY_PRICE_TELEDAD,
+    ACTION_BY_PRICE_CAT,
+    ACTION_BY_PRICE_EDISON,
+    ACTION_BY_PRICE_FROG,
+    ACTION_BY_PRICE_STARSTRIKE,
+    ACTION_BY_PRICE_TENGU,
+    ACTION_BY_PRICE_DINO_RABBIT,
+    ACTION_BY_PRICE_WIND_UP,
+    ACTION_BY_PRICE_MIAMI,
+    ACTION_BY_PRICE_MEADOWLANDS,
+    ACTION_BY_PRICE_BABY_RULER,
+    ACTION_BY_PRICE_RAVINE_RULER,
+    ACTION_BY_PRICE_FIRE_WATER,
+    ACTION_BY_PRICE_HAT,
+    ACTION_BY_PRICE_VEGAS,
+    ACTION_BY_PRICE_CUSTOM,
 };
 
 static const u8 sBagMenuSortKeyItems[] =
@@ -3829,7 +3829,7 @@ static void AddBagSortSubMenu(void)
     else if (gBagMenu->contextMenuNumItems <= 6)
         PrintContextMenuItemGrid(BagMenu_AddWindow(ITEMWIN_2x3), 2, 3);
     else
-        PrintContextMenuItemGrid(BagMenu_AddWindow(ITEMWIN_4x12), 3, 9);
+        PrintContextMenuItemGrid(BagMenu_AddWindow(ITEMWIN_4x12), 4, 12);
 }
 
 static void Task_LoadBagSortOptions(u8 taskId)

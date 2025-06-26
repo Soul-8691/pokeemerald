@@ -15,11 +15,6 @@
 // EWRAM vars
 EWRAM_DATA u8 *gItemIconDecompressionBuffer = NULL;
 EWRAM_DATA u8 *gItemIcon4x4Buffer = NULL;
-EWRAM_DATA u8 *gCardAttributeBuffer = NULL;
-EWRAM_DATA u8 *gCardAttributeDecompressionBuffer = NULL;
-EWRAM_DATA u8 *gCardRaceBuffer = NULL;
-EWRAM_DATA u8 *gFusionMaterialBuffer = NULL;
-EWRAM_DATA u8 *gArchetypeBuffer = NULL;
 
 // const rom data
 #include "data/item_icon_table.h"
@@ -77,17 +72,6 @@ bool8 AllocItemIconTemporaryBuffers(void)
         return FALSE;
     }
 
-    gCardAttributeBuffer = AllocZeroed(0x80); // 0x800
-    if (gCardAttributeBuffer == NULL)
-        return FALSE;
-
-    gCardAttributeDecompressionBuffer = AllocZeroed(0x80); // 0x800
-    if (gCardAttributeBuffer == NULL)
-    {
-        Free(gCardAttributeBuffer);
-        return FALSE;
-    }
-
     return TRUE;
 }
 
@@ -95,7 +79,6 @@ void FreeItemIconTemporaryBuffers(void)
 {
     Free(gItemIconDecompressionBuffer);
     Free(gItemIcon4x4Buffer);
-    Free(gCardAttributeBuffer);
 }
 
 void CopyItemIconPicTo4x4Buffer(const void *src, void *dest, u16 itemId)

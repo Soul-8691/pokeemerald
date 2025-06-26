@@ -1563,7 +1563,7 @@ u8 InitMenuInUpperLeftCorner(u8 windowId, u16 itemCount, u8 initialCursorPos, bo
     sMenu.minCursorPos = 0;
     sMenu.maxCursorPos = itemCount - 1;
     sMenu.windowId = windowId;
-    sMenu.fontId = FONT_NORMAL;
+    sMenu.fontId = FONT_SMALL_NARROWER_2;
     sMenu.optionHeight = 16;
     sMenu.APressMuted = APressMuted;
 
@@ -1697,9 +1697,9 @@ u8 InitMenuActionGrid(u8 windowId, u8 optionWidth, u8 columns, u8 rows, u8 initi
     sMenu.minCursorPos = 0;
     sMenu.maxCursorPos = (columns * rows) - 1;
     sMenu.windowId = windowId;
-    sMenu.fontId = FONT_NORMAL;
+    sMenu.fontId = FONT_SMALL_NARROWER_2;
     sMenu.optionWidth = optionWidth;
-    sMenu.optionHeight = 16;
+    sMenu.optionHeight = 12;
     sMenu.columns = columns;
     sMenu.rows = rows;
 
