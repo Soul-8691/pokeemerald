@@ -780,12 +780,12 @@ static const struct WindowTemplate sContextMenuWindowTemplates[] =
         .paletteNum = 15,
         .baseBlock = 0x21D,
     },
-    [ITEMWIN_4x11] = {
+    [ITEMWIN_4x12] = {
         .bg = 1,
         .tilemapLeft = 1,
         .tilemapTop = 1,
         .width = 28,
-        .height = 17,
+        .height = 18,
         .paletteNum = 15,
         .baseBlock = 0x21D,
     },
@@ -2166,7 +2166,7 @@ static void OpenContextMenu(u8 taskId)
     else if (gBagMenu->contextMenuNumItems <= 6)
         PrintContextMenuItemGrid(BagMenu_AddWindow(ITEMWIN_2x3), 2, 3);
     else
-        PrintContextMenuItemGrid(BagMenu_AddWindow(ITEMWIN_4x11), 4, 11);
+        PrintContextMenuItemGrid(BagMenu_AddWindow(ITEMWIN_4x12), 4, 12);
 }
 
 static void PrintContextMenuItems(u8 windowId)
@@ -2287,7 +2287,7 @@ static void RemoveContextWindow(void)
     else if (gBagMenu->contextMenuNumItems <= 6)
         BagMenu_RemoveWindow(ITEMWIN_2x3);
     else
-        BagMenu_RemoveWindow(ITEMWIN_4x11);
+        BagMenu_RemoveWindow(ITEMWIN_4x12);
 }
 
 static void ItemMenu_UseOutOfBattle(u8 taskId)
@@ -3813,7 +3813,7 @@ static void AddBagSortSubMenu(void)
     else if (gBagMenu->contextMenuNumItems <= 6)
         PrintContextMenuItemGrid(BagMenu_AddWindow(ITEMWIN_2x3), 2, 3);
     else
-        PrintContextMenuItemGrid(BagMenu_AddWindow(ITEMWIN_4x11), 4, 11);
+        PrintContextMenuItemGrid(BagMenu_AddWindow(ITEMWIN_4x12), 4, 12);
 }
 
 static void Task_LoadBagSortOptions(u8 taskId)
