@@ -110,6 +110,7 @@ enum WindowIds
     WINDOW_4,
     WINDOW_5,
     WINDOW_6,
+    WINDOW_7,
 };
 
 //==========EWRAM==========//
@@ -212,6 +213,16 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
         .height = 2,        // height (per 8 pixels)
         .paletteNum = 15,   // palette index to use for text
         .baseBlock = 0x144,     // tile start in VRAM
+    },
+    [WINDOW_7] = 
+    {
+        .bg = 0,            // which bg to print text on
+        .tilemapLeft = 1,   // position from left (per 8 pixels)
+        .tilemapTop = 0,    // position from top (per 8 pixels)
+        .width = 10,        // width (per 8 pixels)
+        .height = 3,        // height (per 8 pixels)
+        .paletteNum = 15,   // palette index to use for text
+        .baseBlock = 0x14C,     // tile start in VRAM
     },
     DUMMY_WIN_TEMPLATE,
 };
@@ -1350,6 +1361,7 @@ static void Menu_InitWindows(void)
     FillWindowPixelBuffer(WINDOW_4, 0);
     FillWindowPixelBuffer(WINDOW_5, 0);
     FillWindowPixelBuffer(WINDOW_6, 0);
+    FillWindowPixelBuffer(WINDOW_7, 0);
     LoadUserWindowBorderGfx(WINDOW_1, 720, 14 * 16);
     PutWindowTilemap(WINDOW_1);
     PutWindowTilemap(WINDOW_2);
@@ -1357,12 +1369,14 @@ static void Menu_InitWindows(void)
     PutWindowTilemap(WINDOW_4);
     PutWindowTilemap(WINDOW_5);
     PutWindowTilemap(WINDOW_6);
+    PutWindowTilemap(WINDOW_7);
     CopyWindowToVram(WINDOW_1, 3);
     CopyWindowToVram(WINDOW_2, 3);
     CopyWindowToVram(WINDOW_3, 3);
     CopyWindowToVram(WINDOW_4, 3);
     CopyWindowToVram(WINDOW_5, 3);
     CopyWindowToVram(WINDOW_6, 3);
+    CopyWindowToVram(WINDOW_7, 3);
     
     ScheduleBgCopyTilemapToVram(2);
 }
@@ -1394,6 +1408,7 @@ static void PrintSmallNarrowTextCentered(u8 windowId, u8 left, u8 colorId, const
 static void PrintToWindow(u8 windowId, u8 colorIdx, u16 card)
 {
     const u8 *cardName = gCardInfo[card].name;
+    const u8 *cardNameShort = gCardInfo[card].nameShort;
     const u8 cardType = gCardInfo[card].type;
     const u8 race = gCardInfo[card].race;
     const u8 attribute = gCardInfo[card].attribute;
@@ -1405,6 +1420,7 @@ static void PrintToWindow(u8 windowId, u8 colorIdx, u16 card)
     
     FillWindowPixelBuffer(windowId, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
     PrintSmallNarrowTextCentered(WINDOW_4, 94, COLORID_NORMAL, cardName);
+    AddTextPrinterParameterized4(WINDOW_7, FONT_SMALL_NARROWER, 6, 6, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, cardNameShort);
     AddTextPrinterParameterized4(windowId, FONT_SMALL_NARROWER, x, y, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, cardDescription);
     if (cardType != TYPE_SPELL_CARD && cardType != TYPE_TRAP_CARD)
     {
@@ -1448,12 +1464,14 @@ static void PrintToWindow(u8 windowId, u8 colorIdx, u16 card)
     PutWindowTilemap(WINDOW_4);
     PutWindowTilemap(WINDOW_5);
     PutWindowTilemap(WINDOW_6);
+    PutWindowTilemap(WINDOW_7);
     CopyWindowToVram(windowId, 3);
     CopyWindowToVram(WINDOW_2, 3);
     CopyWindowToVram(WINDOW_3, 3);
     CopyWindowToVram(WINDOW_4, 3);
     CopyWindowToVram(WINDOW_5, 3);
     CopyWindowToVram(WINDOW_6, 3);
+    CopyWindowToVram(WINDOW_7, 3);
     ScheduleBgCopyTilemapToVram(0);
     ScheduleBgCopyTilemapToVram(1);
     ScheduleBgCopyTilemapToVram(2);
