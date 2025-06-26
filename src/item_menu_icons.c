@@ -23,7 +23,6 @@ enum {
 };
 #define TAG_BERRY_CHECK_CIRCLE_GFX 10000
 #define TAG_BERRY_PIC_PAL 30020
-#define TAG_CARD 60000
 
 struct CompressedTilesPal
 {
@@ -134,50 +133,6 @@ static const union AffineAnimCmd *const sBagAffineAnimCmds[] =
 {
     [ANIM_BAG_NORMAL] = sSpriteAffineAnim_BagNormal,
     [ANIM_BAG_SHAKE]  = sSpriteAffineAnim_BagShake
-};
-
-static const union AnimCmd sCardAnimSequence[] =
-{
-    ANIMCMD_FRAME(0, 4),
-    ANIMCMD_END,
-};
-
-static const union AnimCmd *const sCardAnimTable[] =
-{
-    [POCKET_NONE]       = sCardAnimSequence,
-    [POCKET_ITEMS]      = sCardAnimSequence,
-    [POCKET_POKE_BALLS] = sCardAnimSequence,
-    [POCKET_TM_HM]      = sCardAnimSequence,
-    [POCKET_BERRIES]    = sCardAnimSequence,
-    [POCKET_KEY_ITEMS]  = sCardAnimSequence,
-};
-
-static const struct OamData sCardOamData =
-{
-    .y = 0,
-    .affineMode = ST_OAM_AFFINE_NORMAL,
-    .objMode = ST_OAM_OBJ_NORMAL,
-    .mosaic = FALSE,
-    .bpp = ST_OAM_4BPP,
-    .shape = SPRITE_SHAPE(64x64),
-    .x = 0,
-    .matrixNum = 0,
-    .size = SPRITE_SIZE(64x64),
-    .tileNum = 0,
-    .priority = 1,
-    .paletteNum = 0,
-    .affineParam = 0,
-};
-
-static const struct SpriteTemplate sCardSpriteTemplate =
-{
-    .tileTag = TAG_CARD,
-    .paletteTag = TAG_CARD,
-    .oam = &sCardOamData,
-    .anims = sCardAnimTable,
-    .images = NULL,
-    .affineAnims = sBagAffineAnimCmds,
-    .callback = NULL,
 };
 
 const struct CompressedSpriteSheet gBagMaleSpriteSheet =
@@ -490,7 +445,7 @@ void RemoveBagSprite(u8 id)
 void AddBagVisualSprite(u8 bagPocketId)
 {
     u8 *spriteId = &gBagMenu->spriteIds[ITEMMENUSPRITE_BAG];
-    *spriteId = CreateSprite(&sBagSpriteTemplate, 68, 66, 0); // sCardSpriteTemplate
+    *spriteId = CreateSprite(&sBagSpriteTemplate, 68, 66, 0);
     SetBagVisualPocketId(bagPocketId, FALSE);
 }
 

@@ -24,23 +24,6 @@ EWRAM_DATA u8 *gArchetypeBuffer = NULL;
 // const rom data
 #include "data/item_icon_table.h"
 
-static const struct OamData sOamData_ItemIconMini =
-{
-    .y = 0,
-    .affineMode = ST_OAM_AFFINE_OFF,
-    .objMode = ST_OAM_OBJ_NORMAL,
-    .mosaic = FALSE,
-    .bpp = ST_OAM_4BPP,
-    .shape = SPRITE_SHAPE(16x16),
-    .x = 0,
-    .matrixNum = 0,
-    .size = SPRITE_SIZE(16x16),
-    .tileNum = 0,
-    .priority = 1,
-    .paletteNum = 2,
-    .affineParam = 0
-};
-
 static const struct OamData sOamData_ItemIcon =
 {
     .y = 0,
@@ -74,17 +57,6 @@ const struct SpriteTemplate gItemIconSpriteTemplate =
     .tileTag = 0,
     .paletteTag = 0,
     .oam = &sOamData_ItemIcon,
-    .anims = sSpriteAnimTable_ItemIcon,
-    .images = NULL,
-    .affineAnims = gDummySpriteAffineAnimTable,
-    .callback = SpriteCallbackDummy,
-};
-
-const struct SpriteTemplate gItemIconMiniSpriteTemplate =
-{
-    .tileTag = 0,
-    .paletteTag = 0,
-    .oam = &sOamData_ItemIconMini,
     .anims = sSpriteAnimTable_ItemIcon,
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
@@ -169,11 +141,7 @@ u8 AddItemIconSprite(u16 tilesTag, u16 paletteTag, u16 itemId)
         LoadCompressedSpritePalette(&spritePalette);
 
         spriteTemplate = Alloc(sizeof(*spriteTemplate));
-        if (card)
-            CpuCopy16(&gItemIconSpriteTemplate, spriteTemplate, sizeof(*spriteTemplate));
-        else
-            // CpuCopy16(&gItemIconLargeSpriteTemplate, spriteTemplate, sizeof(*spriteTemplate));
-            CpuCopy16(&gItemIconSpriteTemplate, spriteTemplate, sizeof(*spriteTemplate));
+        CpuCopy16(&gItemIconSpriteTemplate, spriteTemplate, sizeof(*spriteTemplate));
         spriteTemplate->tileTag = tilesTag;
         spriteTemplate->paletteTag = paletteTag;
         spriteId = CreateSprite(spriteTemplate, 0, 0, 0);

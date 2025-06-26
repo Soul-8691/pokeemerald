@@ -560,7 +560,7 @@ static const struct WindowTemplate sDefaultBagWindows[] =
         .tilemapLeft = 0,
         .tilemapTop = 8,
         .width = 14,
-        .height = 8,
+        .height = 10,
         .paletteNum = 1,
         .baseBlock = 0x117,
     },
@@ -571,7 +571,7 @@ static const struct WindowTemplate sDefaultBagWindows[] =
         .width = 8,
         .height = 2,
         .paletteNum = 1,
-        .baseBlock = 0x1BD,
+        .baseBlock = 0x1D9,
     },
     [WIN_TMHM_INFO_ICONS] = {
         .bg = 0,
@@ -580,7 +580,7 @@ static const struct WindowTemplate sDefaultBagWindows[] =
         .width = 5,
         .height = 6,
         .paletteNum = 12,
-        .baseBlock = 0x187,
+        .baseBlock = 0x1A3,
     },
     [WIN_TMHM_INFO] = {
         .bg = 0,
@@ -589,7 +589,7 @@ static const struct WindowTemplate sDefaultBagWindows[] =
         .width = 4,
         .height = 6,
         .paletteNum = 12,
-        .baseBlock = 0x1A5,
+        .baseBlock = 0x1C1,
     },
     [WIN_UPPER] = {
         .bg = 0,
@@ -598,7 +598,7 @@ static const struct WindowTemplate sDefaultBagWindows[] =
         .width = 4,
         .height = 4,
         .paletteNum = 7,
-        .baseBlock = 0x1CD,
+        .baseBlock = 0x1E9,
     },
     [WIN_UPPER_2] = {
         .bg = 0,
@@ -607,7 +607,7 @@ static const struct WindowTemplate sDefaultBagWindows[] =
         .width = 4,
         .height = 4,
         .paletteNum = 8,
-        .baseBlock = 0x1ED,
+        .baseBlock = 0x1F9,
     },
     DUMMY_WIN_TEMPLATE,
 };
@@ -1259,6 +1259,21 @@ const u16 *const sCardTypeIconPals[NUM_TYPES + 1] =
     [TYPE_TRAP_CARD] = gTrapIconPal,
 };
 
+const u8 *const gCardTypeText[NUM_TYPES + 1] =
+{
+    [TYPE_SPELL_CARD] = gText_Spell,
+    [TYPE_TRAP_CARD] = gText_Trap,
+    [TYPE_SPIRIT_MONSTER] = gText_Spirit,
+    [TYPE_EFFECT_MONSTER] = gText_Effect,
+    [TYPE_FLIP_EFFECT_MONSTER] = gText_FlipEffect,
+    [TYPE_RITUAL_MONSTER] = gText_Ritual,
+    [TYPE_RITUAL_EFFECT_MONSTER] = gText_RitualEffect,
+    [TYPE_FUSION_MONSTER] = gText_Fusion,
+    [TYPE_UNION_EFFECT_MONSTER] = gText_UnionEffect,
+    [TYPE_NORMAL_MONSTER] = gText_NormalMonster,
+    [TYPE_TOON_MONSTER] = gText_Toon,
+};
+
 static void PrintItemDescription(int itemIndex)
 {
     const u8 *str;
@@ -1315,6 +1330,7 @@ static void PrintItemDescription(int itemIndex)
             BlitBitmapToWindow(WIN_UPPER_2, sCardAttributeIcons[attribute], 0, 6, 16, 16);
             LoadPalette(sCardAttributeIconPals[attribute], BG_PLTT_ID(8), 32);
         }
+        BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, gCardTypeText[type], 3, 68, 0, 0, 0, COLORID_NORMAL);
         CopyWindowToVram(WIN_UPPER, COPYWIN_GFX);
         CopyWindowToVram(WIN_UPPER_2, COPYWIN_GFX);
         PutWindowTilemap(WIN_UPPER);

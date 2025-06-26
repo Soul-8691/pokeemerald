@@ -1827,6 +1827,19 @@ const u8 gText_Answer[] = _("ANSWER");
 const u8 gText_PokeBalls[] = _("POKé BALLS");
 const u8 gText_Berry[] = _("BERRY");
 const u8 gText_Berries[] = _("BERRIES");
+
+// YGO
 const u8 gText_xLevel[] = _("Level/{STR_VAR_1}");
 const u8 gText_xAtk[] = _("ATK/{STR_VAR_1}");
 const u8 gText_xDef[] = _("DEF/{STR_VAR_1}");
+const u8 gText_Spell[] = _("Spell");
+const u8 gText_Trap[] = _("Trap");
+const u8 gText_Effect[] = _("Effect");
+const u8 gText_NormalMonster[] = _("Normal");
+const u8 gText_Fusion[] = _("Fusion");
+const u8 gText_RitualEffect[] = _("Ritual/Effect");
+const u8 gText_Ritual[] = _("Ritual");
+const u8 gText_FlipEffect[] = _("Flip Effect");
+const u8 gText_Spirit[] = _("Spirit");
+const u8 gText_UnionEffect[] = _("Union/Effect");
+const u8 gText_Toon[] = _("Toon");
