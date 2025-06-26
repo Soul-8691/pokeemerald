@@ -101,6 +101,7 @@ enum {
     ACTION_BY_AMOUNT,
     ACTION_BY_ATTRIBUTE,
     ACTION_BY_CARD_TYPE,
+    ACTION_BY_RACE,
     ACTION_BY_ID,
     ACTION_BY_LEVEL,
     ACTION_BY_ATK,
@@ -257,6 +258,7 @@ static void ItemMenu_SortByType(u8 taskId);
 static void ItemMenu_SortByAmount(u8 taskId);
 static void ItemMenu_SortByAttribute(u8 taskId);
 static void ItemMenu_SortByCardType(u8 taskId);
+static void ItemMenu_SortByRace(u8 taskId);
 static void ItemMenu_SortById(u8 taskId);
 static void ItemMenu_SortByLevel(u8 taskId);
 static void ItemMenu_SortByAtk(u8 taskId);
@@ -290,6 +292,7 @@ static s8 CompareItemsByMost(struct ItemSlot* itemSlot1, struct ItemSlot* itemSl
 static s8 CompareItemsByType(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
 static s8 CompareItemsByAttribute(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
 static s8 CompareItemsByCardType(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
+static s8 CompareItemsByRace(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
 static s8 CompareItemsById(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
 static s8 CompareItemsByLevel(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
 static s8 CompareItemsByAtk(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
@@ -370,6 +373,7 @@ static const u8 sMenuText_ByName[] = _("Name");
 static const u8 sMenuText_ByType[] = _("Type");
 static const u8 sMenuText_ByAttribute[] = _("Attribute");
 static const u8 sMenuText_ByCardType[] = _("Card Type");
+static const u8 sMenuText_ByRace[] = _("Race");
 static const u8 sMenuText_ByAmount[] = _("Amount");
 static const u8 sMenuText_ById[] = _("ID");
 static const u8 sMenuText_ByNumber[] = _("Number");
@@ -416,6 +420,7 @@ static const struct MenuAction sItemMenuActions[] = {
     [ACTION_BY_AMOUNT]         = {sMenuText_ByAmount, ItemMenu_SortByAmount},
     [ACTION_BY_ATTRIBUTE]      = {sMenuText_ByAttribute, ItemMenu_SortByAttribute},
     [ACTION_BY_CARD_TYPE]      = {sMenuText_ByCardType, ItemMenu_SortByCardType},
+    [ACTION_BY_RACE]         = {sMenuText_ByRace, ItemMenu_SortByRace},
     [ACTION_BY_ID]             = {sMenuText_ById,      ItemMenu_SortById},
     [ACTION_BY_LEVEL]          = {sMenuText_ByLevel,     ItemMenu_SortByLevel},
     [ACTION_BY_ATK]            = {sMenuText_ByAtk,     ItemMenu_SortByAtk},
@@ -2052,13 +2057,13 @@ static void OpenContextMenu(u8 taskId)
 
 static void PrintContextMenuItems(u8 windowId)
 {
-    PrintMenuActionTexts(windowId, FONT_NARROW, 8, 1, 0, 16, gBagMenu->contextMenuNumItems, sItemMenuActions, gBagMenu->contextMenuItemsPtr);
+    PrintMenuActionTexts(windowId, FONT_SMALL_NARROWER, 8, 1, 0, 16, gBagMenu->contextMenuNumItems, sItemMenuActions, gBagMenu->contextMenuItemsPtr);
     InitMenuInUpperLeftCornerNormal(windowId, gBagMenu->contextMenuNumItems, 0);
 }
 
 static void PrintContextMenuItemGrid(u8 windowId, u8 columns, u8 rows)
 {
-    PrintMenuActionGrid(windowId, FONT_NARROW, 8, 1, 56, columns, rows, sItemMenuActions, gBagMenu->contextMenuItemsPtr);
+    PrintMenuActionGrid(windowId, FONT_SMALL_NARROWER, 8, 1, 56, columns, rows, sItemMenuActions, gBagMenu->contextMenuItemsPtr);
     InitMenuActionGrid(windowId, 56, columns, rows, 0);
 }
 
@@ -2992,6 +2997,7 @@ enum BagSortOptions
     SORT_BY_AMOUNT, //greatest->least
     SORT_BY_ATTRIBUTE,
     SORT_BY_CARD_TYPE,
+    SORT_BY_RACE,
     SORT_BY_ID, //greatest->least
     SORT_BY_LEVEL, //greatest->least
     SORT_BY_ATK, //greatest->least
@@ -3049,6 +3055,7 @@ static const u8 sText_Type[] = _("type");
 static const u8 sText_Amount[] = _("amount");
 static const u8 sText_Attribute[] = _("attribute");
 static const u8 sText_CardType[] = _("card type");
+static const u8 sText_Race[] = _("racee");
 static const u8 sText_Id[] = _("ID");
 static const u8 sText_Level[] = _("level");
 static const u8 sText_Atk[] = _("ATK");
@@ -3079,6 +3086,7 @@ static const u8 *const sSortTypeStrings[] =
     [SORT_BY_AMOUNT] = sText_Amount,
     [SORT_BY_ATTRIBUTE] = sText_Attribute,
     [SORT_BY_CARD_TYPE] = sText_CardType,
+    [SORT_BY_RACE] = sText_Race,
     [SORT_BY_ID] = sText_Id,
     [SORT_BY_LEVEL] = sText_Level,
     [SORT_BY_ATK] = sText_Atk,
@@ -3110,6 +3118,7 @@ static const u8 sBagMenuSortItems[] =
     ACTION_BY_AMOUNT,
     ACTION_BY_ATTRIBUTE,
     ACTION_BY_CARD_TYPE,
+    ACTION_BY_RACE,
     ACTION_BY_ID,
     ACTION_BY_LEVEL,
     ACTION_BY_ATK,
@@ -3131,7 +3140,6 @@ static const u8 sBagMenuSortItems[] =
     ACTION_BY_PRICE_REAPER,
     ACTION_BY_PRICE_VENDOR_1,
     ACTION_BY_PRICE_VENDOR_2,
-    ACTION_BY_PRICE_VENDOR_3,
 };
 
 static const u8 sBagMenuSortKeyItems[] =
@@ -3667,6 +3675,12 @@ static void ItemMenu_SortByCardType(u8 taskId)
     StringCopy(gStringVar1, sSortTypeStrings[SORT_BY_CARD_TYPE]);
     gTasks[taskId].func = SortBagItems;
 }
+static void ItemMenu_SortByRace(u8 taskId)
+{
+    gTasks[taskId].tSortType = SORT_BY_RACE;
+    StringCopy(gStringVar1, sSortTypeStrings[SORT_BY_RACE]);
+    gTasks[taskId].func = SortBagItems;
+}
 static void ItemMenu_SortById(u8 taskId)
 {
     gTasks[taskId].tSortType = SORT_BY_ID; //greatest->least
@@ -3890,6 +3904,9 @@ static void SortItemsInBag(u8 pocket, u16 type)
     case SORT_BY_CARD_TYPE:
         BubbleSort(itemMem, itemAmount - 1, CompareItemsByCardType);
         break;
+    case SORT_BY_RACE:
+        BubbleSort(itemMem, itemAmount - 1, CompareItemsByRace);
+        break;
     case SORT_BY_ATK:
         BubbleSort(itemMem, itemAmount - 1, CompareItemsByAtk);
         break;
@@ -4088,6 +4105,31 @@ static s8 CompareItemsByCardType(struct ItemSlot* itemSlot1, struct ItemSlot* it
     if (type1 > type2)
         return 1;
     else if (type1 < type2)
+        return -1;
+
+    return CompareItemsAlphabetically(itemSlot1, itemSlot2); //Items are of same price so sort alphabetically
+}
+
+static s8 CompareItemsByRace(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2)
+{
+    u16 item1 = itemSlot1->itemId;
+    u16 item2 = itemSlot2->itemId;
+    u16 card1 = CardIdMapping[item1];
+    u16 card2 = CardIdMapping[item2];
+    u8 race1;
+    u8 race2;
+
+    if (item1 < 377)
+        return 1;
+    else if (item2 < 377)
+        return -1;
+
+    race1 = gCardInfo[card1].race;
+    race2 = gCardInfo[card2].race;
+
+    if (race1 > race2)
+        return 1;
+    else if (race1 < race2)
         return -1;
 
     return CompareItemsAlphabetically(itemSlot1, itemSlot2); //Items are of same price so sort alphabetically
