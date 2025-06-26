@@ -136,7 +136,7 @@ enum {
 };
 
 // Item list ID for toSwapPos to indicate an item is not currently being swapped
-#define NOT_SWAPPING 0xFF
+#define NOT_SWAPPING 651
 
 struct ListBuffer1 {
     struct ListMenuItem subBuffers[MAX_POCKET_ITEMS];
@@ -277,7 +277,7 @@ static void ItemMenu_SortByPriceVendor2(u8 taskId);
 static void ItemMenu_SortByPriceVendor3(u8 taskId);
 static void SortBagItems(u8 taskId);
 static void Task_SortFinish(u8 taskId);
-static void SortItemsInBag(u8 pocket, u8 type);
+static void SortItemsInBag(u8 pocket, u16 type);
 static void MergeSort(struct ItemSlot* array, u32 low, u32 high, s8 (*comparator)(struct ItemSlot*, struct ItemSlot*));
 static void Merge(struct ItemSlot* array, u32 low, u32 mid, u32 high, s8 (*comparator)(struct ItemSlot*, struct ItemSlot*));
 static s8 CompareItemsAlphabetically(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
@@ -3783,10 +3783,10 @@ static void Task_SortFinish(u8 taskId)
     }
 }
 
-static void SortItemsInBag(u8 pocket, u8 type)
+static void SortItemsInBag(u8 pocket, u16 type)
 {
     struct ItemSlot* itemMem;
-    u8 itemAmount;
+    u16 itemAmount;
     s8 (*func)(struct ItemSlot*, struct ItemSlot*);
 
     switch (pocket)
@@ -4552,8 +4552,8 @@ static s8 CompareItemsByMost(struct ItemSlot* itemSlot1, struct ItemSlot* itemSl
 static s8 CompareItemsByType(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2)
 {
     //Null items go last
-    u8 type1 = (itemSlot1->itemId == ITEM_NONE) ? 0xFF : sItemsByType[itemSlot1->itemId];
-    u8 type2 = (itemSlot2->itemId == ITEM_NONE) ? 0xFF : sItemsByType[itemSlot2->itemId];
+    u16 type1 = (itemSlot1->itemId == ITEM_NONE) ? 0xFF : sItemsByType[itemSlot1->itemId];
+    u16 type2 = (itemSlot2->itemId == ITEM_NONE) ? 0xFF : sItemsByType[itemSlot2->itemId];
 
     if (type1 < type2)
         return -1;

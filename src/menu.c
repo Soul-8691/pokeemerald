@@ -1098,7 +1098,7 @@ s8 Menu_ProcessInputNoWrapAround_other(void)
     return MENU_NOTHING_CHOSEN;
 }
 
-void PrintMenuActionTextsAtPos(u8 windowId, u8 fontId, u8 left, u8 top, u8 lineHeight, u8 itemCount, const struct MenuAction *menuActions)
+void PrintMenuActionTextsAtPos(u8 windowId, u8 fontId, u8 left, u8 top, u8 lineHeight, u16 itemCount, const struct MenuAction *menuActions)
 {
     u8 i;
     for (i = 0; i < itemCount; i++)
@@ -1106,7 +1106,7 @@ void PrintMenuActionTextsAtPos(u8 windowId, u8 fontId, u8 left, u8 top, u8 lineH
     CopyWindowToVram(windowId, COPYWIN_GFX);
 }
 
-static void UNUSED PrintMenuActionTextsWithSpacing(u8 windowId, u8 fontId, u8 left, u8 top, u8 lineHeight, u8 itemCount, const struct MenuAction *menuActions, u8 letterSpacing, u8 lineSpacing)
+static void UNUSED PrintMenuActionTextsWithSpacing(u8 windowId, u8 fontId, u8 left, u8 top, u8 lineHeight, u16 itemCount, const struct MenuAction *menuActions, u8 letterSpacing, u8 lineSpacing)
 {
     u8 i;
     for (i = 0; i < itemCount; i++)
@@ -1114,12 +1114,12 @@ static void UNUSED PrintMenuActionTextsWithSpacing(u8 windowId, u8 fontId, u8 le
     CopyWindowToVram(windowId, COPYWIN_GFX);
 }
 
-static void UNUSED PrintMenuActionTextsAtTop(u8 windowId, u8 fontId, u8 lineHeight, u8 itemCount, const struct MenuAction *menuActions)
+static void UNUSED PrintMenuActionTextsAtTop(u8 windowId, u8 fontId, u8 lineHeight, u16 itemCount, const struct MenuAction *menuActions)
 {
     PrintMenuActionTextsAtPos(windowId, fontId, GetFontAttribute(fontId, FONTATTR_MAX_LETTER_WIDTH), 1, lineHeight, itemCount, menuActions);
 }
 
-void PrintMenuActionTexts(u8 windowId, u8 fontId, u8 left, u8 top, u8 letterSpacing, u8 lineHeight, u8 itemCount, const struct MenuAction *menuActions, const u8 *actionIds)
+void PrintMenuActionTexts(u8 windowId, u8 fontId, u8 left, u8 top, u8 letterSpacing, u8 lineHeight, u16 itemCount, const struct MenuAction *menuActions, const u8 *actionIds)
 {
     u8 i;
     struct TextPrinterTemplate printer;
@@ -1146,7 +1146,7 @@ void PrintMenuActionTexts(u8 windowId, u8 fontId, u8 left, u8 top, u8 letterSpac
     CopyWindowToVram(windowId, COPYWIN_GFX);
 }
 
-static void UNUSED PrintMenuActionTextsAtTopById(u8 windowId, u8 fontId, u8 lineHeight, u8 itemCount, const struct MenuAction *menuActions, const u8 *actionIds)
+static void UNUSED PrintMenuActionTextsAtTopById(u8 windowId, u8 fontId, u8 lineHeight, u16 itemCount, const struct MenuAction *menuActions, const u8 *actionIds)
 {
     PrintMenuActionTexts(windowId, fontId, GetFontAttribute(fontId, FONTATTR_MAX_LETTER_WIDTH), 1, GetFontAttribute(fontId, FONTATTR_LETTER_SPACING), lineHeight, itemCount, menuActions, actionIds);
 }
@@ -1554,7 +1554,7 @@ static s8 UNUSED Menu_ProcessGridInputRepeat(void)
     return MENU_NOTHING_CHOSEN;
 }
 
-u8 InitMenuInUpperLeftCorner(u8 windowId, u8 itemCount, u8 initialCursorPos, bool8 APressMuted)
+u8 InitMenuInUpperLeftCorner(u8 windowId, u16 itemCount, u8 initialCursorPos, bool8 APressMuted)
 {
     s32 pos;
 
@@ -1578,12 +1578,12 @@ u8 InitMenuInUpperLeftCorner(u8 windowId, u8 itemCount, u8 initialCursorPos, boo
 }
 
 // There is no muted version of this function, so the version that plays sound when A is pressed is the "Normal" one.
-u8 InitMenuInUpperLeftCornerNormal(u8 windowId, u8 itemCount, u8 initialCursorPos)
+u8 InitMenuInUpperLeftCornerNormal(u8 windowId, u16 itemCount, u8 initialCursorPos)
 {
     return InitMenuInUpperLeftCorner(windowId, itemCount, initialCursorPos, FALSE);
 }
 
-void PrintMenuTable(u8 windowId, u8 itemCount, const struct MenuAction *menuActions)
+void PrintMenuTable(u8 windowId, u16 itemCount, const struct MenuAction *menuActions)
 {
     u32 i;
 
@@ -1593,7 +1593,7 @@ void PrintMenuTable(u8 windowId, u8 itemCount, const struct MenuAction *menuActi
     CopyWindowToVram(windowId, COPYWIN_GFX);
 }
 
-void PrintMenuActionTextsInUpperLeftCorner(u8 windowId, u8 itemCount, const struct MenuAction *menuActions, const u8 *actionIds)
+void PrintMenuActionTextsInUpperLeftCorner(u8 windowId, u16 itemCount, const struct MenuAction *menuActions, const u8 *actionIds)
 {
     u8 i;
     struct TextPrinterTemplate printer;
