@@ -99,6 +99,8 @@ enum {
     ACTION_BY_NAME,
     ACTION_BY_TYPE,
     ACTION_BY_AMOUNT,
+    ACTION_BY_ATTRIBUTE,
+    ACTION_BY_CARD_TYPE,
     ACTION_BY_ID,
     ACTION_BY_LEVEL,
     ACTION_BY_ATK,
@@ -253,6 +255,8 @@ static void Task_LoadBagSortOptions(u8 taskId);
 static void ItemMenu_SortByName(u8 taskId);
 static void ItemMenu_SortByType(u8 taskId);
 static void ItemMenu_SortByAmount(u8 taskId);
+static void ItemMenu_SortByAttribute(u8 taskId);
+static void ItemMenu_SortByCardType(u8 taskId);
 static void ItemMenu_SortById(u8 taskId);
 static void ItemMenu_SortByLevel(u8 taskId);
 static void ItemMenu_SortByAtk(u8 taskId);
@@ -284,6 +288,8 @@ static void Merge(struct ItemSlot* array, u32 low, u32 mid, u32 high, s8 (*compa
 static s8 CompareItemsAlphabetically(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
 static s8 CompareItemsByMost(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
 static s8 CompareItemsByType(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
+static s8 CompareItemsByAttribute(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
+static s8 CompareItemsByCardType(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
 static s8 CompareItemsById(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
 static s8 CompareItemsByLevel(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
 static s8 CompareItemsByAtk(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
@@ -362,6 +368,8 @@ static const struct ListMenuTemplate sItemListMenu =
 
 static const u8 sMenuText_ByName[] = _("Name");
 static const u8 sMenuText_ByType[] = _("Type");
+static const u8 sMenuText_ByAttribute[] = _("Attribute");
+static const u8 sMenuText_ByCardType[] = _("Card Type");
 static const u8 sMenuText_ByAmount[] = _("Amount");
 static const u8 sMenuText_ById[] = _("ID");
 static const u8 sMenuText_ByNumber[] = _("Number");
@@ -406,7 +414,9 @@ static const struct MenuAction sItemMenuActions[] = {
     [ACTION_BY_NAME]           = {sMenuText_ByName,   ItemMenu_SortByName},
     [ACTION_BY_TYPE]           = {sMenuText_ByType,   ItemMenu_SortByType},
     [ACTION_BY_AMOUNT]         = {sMenuText_ByAmount, ItemMenu_SortByAmount},
-    [ACTION_BY_ID]             = {sMenuText_ById,     ItemMenu_SortById},
+    [ACTION_BY_ATTRIBUTE]      = {sMenuText_ByAttribute, ItemMenu_SortByAttribute},
+    [ACTION_BY_CARD_TYPE]      = {sMenuText_ByCardType, ItemMenu_SortByCardType},
+    [ACTION_BY_ID]             = {sMenuText_ById,      ItemMenu_SortById},
     [ACTION_BY_LEVEL]          = {sMenuText_ByLevel,     ItemMenu_SortByLevel},
     [ACTION_BY_ATK]            = {sMenuText_ByAtk,     ItemMenu_SortByAtk},
     [ACTION_BY_DEF]            = {sMenuText_ByDef,     ItemMenu_SortByDef},
@@ -651,12 +661,12 @@ static const struct WindowTemplate sContextMenuWindowTemplates[] =
         .paletteNum = 15,
         .baseBlock = 0x21D,
     },
-    [ITEMWIN_3x8] = {
+    [ITEMWIN_3x9] = {
         .bg = 1,
         .tilemapLeft = 1,
         .tilemapTop = 1,
         .width = 23,
-        .height = 16,
+        .height = 18,
         .paletteNum = 15,
         .baseBlock = 0x21D,
     },
@@ -2037,7 +2047,7 @@ static void OpenContextMenu(u8 taskId)
     else if (gBagMenu->contextMenuNumItems <= 6)
         PrintContextMenuItemGrid(BagMenu_AddWindow(ITEMWIN_2x3), 2, 3);
     else
-        PrintContextMenuItemGrid(BagMenu_AddWindow(ITEMWIN_3x8), 3, 8);
+        PrintContextMenuItemGrid(BagMenu_AddWindow(ITEMWIN_3x9), 3, 9);
 }
 
 static void PrintContextMenuItems(u8 windowId)
@@ -2158,7 +2168,7 @@ static void RemoveContextWindow(void)
     else if (gBagMenu->contextMenuNumItems <= 6)
         BagMenu_RemoveWindow(ITEMWIN_2x3);
     else
-        BagMenu_RemoveWindow(ITEMWIN_3x8);
+        BagMenu_RemoveWindow(ITEMWIN_3x9);
 }
 
 static void ItemMenu_UseOutOfBattle(u8 taskId)
@@ -2980,6 +2990,8 @@ enum BagSortOptions
     SORT_ALPHABETICALLY,
     SORT_BY_TYPE,
     SORT_BY_AMOUNT, //greatest->least
+    SORT_BY_ATTRIBUTE,
+    SORT_BY_CARD_TYPE,
     SORT_BY_ID, //greatest->least
     SORT_BY_LEVEL, //greatest->least
     SORT_BY_ATK, //greatest->least
@@ -3035,6 +3047,8 @@ static const u8 sText_SortItemsHow[] = _("Sort items how?");
 static const u8 sText_Name[] = _("name");
 static const u8 sText_Type[] = _("type");
 static const u8 sText_Amount[] = _("amount");
+static const u8 sText_Attribute[] = _("attribute");
+static const u8 sText_CardType[] = _("card type");
 static const u8 sText_Id[] = _("ID");
 static const u8 sText_Level[] = _("level");
 static const u8 sText_Atk[] = _("ATK");
@@ -3063,6 +3077,8 @@ static const u8 *const sSortTypeStrings[] =
     [SORT_ALPHABETICALLY] = sText_Name,
     [SORT_BY_TYPE] = sText_Type,
     [SORT_BY_AMOUNT] = sText_Amount,
+    [SORT_BY_ATTRIBUTE] = sText_Attribute,
+    [SORT_BY_CARD_TYPE] = sText_CardType,
     [SORT_BY_ID] = sText_Id,
     [SORT_BY_LEVEL] = sText_Level,
     [SORT_BY_ATK] = sText_Atk,
@@ -3089,8 +3105,11 @@ static const u8 *const sSortTypeStrings[] =
 
 static const u8 sBagMenuSortItems[] =
 {
+    ACTION_BY_TYPE,
     ACTION_BY_NAME,
     ACTION_BY_AMOUNT,
+    ACTION_BY_ATTRIBUTE,
+    ACTION_BY_CARD_TYPE,
     ACTION_BY_ID,
     ACTION_BY_LEVEL,
     ACTION_BY_ATK,
@@ -3605,7 +3624,7 @@ static void AddBagSortSubMenu(void)
     else if (gBagMenu->contextMenuNumItems <= 6)
         PrintContextMenuItemGrid(BagMenu_AddWindow(ITEMWIN_2x3), 2, 3);
     else
-        PrintContextMenuItemGrid(BagMenu_AddWindow(ITEMWIN_3x8), 3, 8);
+        PrintContextMenuItemGrid(BagMenu_AddWindow(ITEMWIN_3x9), 3, 9);
 }
 
 static void Task_LoadBagSortOptions(u8 taskId)
@@ -3634,6 +3653,18 @@ static void ItemMenu_SortByAmount(u8 taskId)
 {
     gTasks[taskId].tSortType = SORT_BY_AMOUNT; //greatest->least
     StringCopy(gStringVar1, sSortTypeStrings[SORT_BY_AMOUNT]);
+    gTasks[taskId].func = SortBagItems;
+}
+static void ItemMenu_SortByAttribute(u8 taskId)
+{
+    gTasks[taskId].tSortType = SORT_BY_ATTRIBUTE;
+    StringCopy(gStringVar1, sSortTypeStrings[SORT_BY_ATTRIBUTE]);
+    gTasks[taskId].func = SortBagItems;
+}
+static void ItemMenu_SortByCardType(u8 taskId)
+{
+    gTasks[taskId].tSortType = SORT_BY_CARD_TYPE;
+    StringCopy(gStringVar1, sSortTypeStrings[SORT_BY_CARD_TYPE]);
     gTasks[taskId].func = SortBagItems;
 }
 static void ItemMenu_SortById(u8 taskId)
@@ -3853,6 +3884,12 @@ static void SortItemsInBag(u8 pocket, u16 type)
     case SORT_BY_LEVEL:
         BubbleSort(itemMem, itemAmount - 1, CompareItemsByLevel);
         break;
+    case SORT_BY_ATTRIBUTE:
+        BubbleSort(itemMem, itemAmount - 1, CompareItemsByAttribute);
+        break;
+    case SORT_BY_CARD_TYPE:
+        BubbleSort(itemMem, itemAmount - 1, CompareItemsByCardType);
+        break;
     case SORT_BY_ATK:
         BubbleSort(itemMem, itemAmount - 1, CompareItemsByAtk);
         break;
@@ -4004,6 +4041,56 @@ static s8 CompareItemsAlphabetically(struct ItemSlot* itemSlot1, struct ItemSlot
     }
 
     return 0; //Will never be reached
+}
+
+static s8 CompareItemsByAttribute(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2)
+{
+    u16 item1 = itemSlot1->itemId;
+    u16 item2 = itemSlot2->itemId;
+    u16 card1 = CardIdMapping[item1];
+    u16 card2 = CardIdMapping[item2];
+    u8 attribute1;
+    u8 attribute2;
+
+    if (item1 < 377)
+        return 1;
+    else if (item2 < 377)
+        return -1;
+
+    attribute1 = gCardInfo[card1].attribute;
+    attribute2 = gCardInfo[card2].attribute;
+
+    if (attribute1 > attribute2)
+        return 1;
+    else if (attribute1 < attribute2)
+        return -1;
+
+    return CompareItemsAlphabetically(itemSlot1, itemSlot2); //Items are of same price so sort alphabetically
+}
+
+static s8 CompareItemsByCardType(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2)
+{
+    u16 item1 = itemSlot1->itemId;
+    u16 item2 = itemSlot2->itemId;
+    u16 card1 = CardIdMapping[item1];
+    u16 card2 = CardIdMapping[item2];
+    u8 type1;
+    u8 type2;
+
+    if (item1 < 377)
+        return 1;
+    else if (item2 < 377)
+        return -1;
+
+    type1 = gCardInfo[card1].type;
+    type2 = gCardInfo[card2].type;
+
+    if (type1 > type2)
+        return 1;
+    else if (type1 < type2)
+        return -1;
+
+    return CompareItemsAlphabetically(itemSlot1, itemSlot2); //Items are of same price so sort alphabetically
 }
 
 static s8 CompareItemsById(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2)
