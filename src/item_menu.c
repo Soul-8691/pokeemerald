@@ -486,7 +486,7 @@ static const u8 sMenuText_ByPriceRavineRuler[] = _("Ravine Ruler");
 static const u8 sMenuText_ByPriceFireWater[] = _("Fire-Water");
 static const u8 sMenuText_ByPriceHAT[] = _("HAT");
 static const u8 sMenuText_ByPriceVegas[] = _("Vegas");
-static const u8 sMenuText_ByPriceCustom[] = _("Custom");
+static const u8 sMenuText_ByPriceCustom[] = _("WCT06");
 static const u8 sMenuText_ByPriceVendor1[] = _("Vendor 1");
 static const u8 sMenuText_ByPriceVendor2[] = _("Vendor 2");
 static const u8 sMenuText_ByPriceVendor3[] = _("Vendor 3");
@@ -5587,8 +5587,8 @@ static s8 CompareItemsByPriceCustom(struct ItemSlot* itemSlot1, struct ItemSlot*
     else if (item2 < 377)
         return -1;
 
-    price1 = gCardInfo[card1].priceCustom;
-    price2 = gCardInfo[card2].priceCustom;
+    price1 = gCardInfo[card1].priceWCT06;
+    price2 = gCardInfo[card2].priceWCT06;
 
     if (price1 < price2)
         return 1;

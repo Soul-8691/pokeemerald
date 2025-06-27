@@ -63,11 +63,11 @@ struct CardInfo
     /* 0x7D */ u32 priceFireWater:10;
     /* 0x7D */ u32 priceHAT:10;
     /* 0x7E */ u32 priceVegas:10;
+    /* 0x80 */ u32 priceWCT06:10;
     /* 0x80 */ u32 priceCustom:10;
     /* 0x81 */ u32 priceVendor1:10;
     /* 0x82 */ u32 priceVendor2:10;
     /* 0x84 */ u32 priceVendor3:10;
-    /* 0x85 */ u32 priceVendor4:10;
 };
 
 extern const struct CardInfo gCardInfo[];

@@ -25,6 +25,14 @@ with open('FL.json', 'r') as f:
         if card['Format'] in formats and card['Usage (Weighted)'] > highest_usage[card['Format']]:
            highest_usage[card['Format']] = card['Usage (Weighted)']
 
+wct06_ranks = {}
+with open('wct06.json', 'r') as f:
+    data = json.load(f)
+    for card in data:
+        wct06_ranks[card['Card']] = 1
+        if card['Rank']:
+           wct06_ranks[card['Card']] = card['Rank']
+
 def move_palette_color(img, old_index, new_index):
     """
     Moves a color at old_index in the image_cropped's palette to new_index.
@@ -813,11 +821,12 @@ for data in card_info_data['data']:
                       gCardInfo += "\t\t.priceHAT = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
                 if card_['Card'] == card and card_['Format'] == 'Vegas':
                       gCardInfo += "\t\t.priceVegas = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+        if card in wct06_ranks:
+                      gCardInfo += "\t\t.priceWCT06 = " + str((wct06_ranks[card]) * 50) + ",\n"
         gCardInfo += ("\t\t.priceCustom = 0,\n"
                   + "\t\t.priceVendor1 = 0,\n"
                   + "\t\t.priceVendor2 = 0,\n"
                   + "\t\t.priceVendor3 = 0,\n"
-                  + "\t\t.priceVendor4 = 0,\n"
                   + '\t},\n')
         YGO_C += '    [ITEM_' + re.sub(r'\W+', '_', data['name']).upper() + '] = ' + str(card_counter) + ',\n'
         card_counter += 1

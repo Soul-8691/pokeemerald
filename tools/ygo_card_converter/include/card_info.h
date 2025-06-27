@@ -1433,11 +1433,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceYata = 61,
 		.priceChaos = 37,
 		.pricePerfectCircle = 20,
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_7_COLORED_FISH] =
 	{
@@ -1462,11 +1462,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceCritter = 136,
 		.priceDADReturn = 5,
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_A_LEGENDARY_OCEAN] =
 	{
@@ -1490,11 +1490,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 5387,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceWarrior = 29,
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_ABYSS_SOLDIER] =
 	{
@@ -1520,11 +1520,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceWarrior = 101,
 		.priceGoat = 31,
 		.priceCyber = 23,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_AIRKNIGHT_PARSHATH] =
 	{
@@ -1552,11 +1552,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceScientist = 100,
 		.priceWarrior = 29,
 		.priceGoat = 7,
+		.priceWCT06 = 600,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_AMAZONESS_ARCHER] =
 	{
@@ -1594,7 +1594,6 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_AMPHIBIOUS_BUGROTH_MK_3] =
 	{
@@ -1617,11 +1616,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_MACHINE,
 		.id = 5893,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_ANTI_SPELL_FRAGRANCE] =
 	{
@@ -1655,11 +1654,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceTengu = 22,
 		.priceBabyRuler = 19,
 		.priceVegas = 72,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_AQUA_MADOOR] =
 	{
@@ -1684,11 +1683,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceYK = 545,
 		.priceCritter = 37,
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_AQUA_SPIRIT] =
 	{
@@ -1715,11 +1714,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceMeadowlands = 319,
 		.priceFireWater = 93,
 		.priceVegas = 43,
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_ARCHFIEND_SOLDIER] =
 	{
@@ -1745,11 +1744,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVampire = 53,
 		.priceChaos = 96,
 		.priceChaosReturn = 21,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_ARSENAL_BUG] =
 	{
@@ -1772,11 +1771,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_INSECT,
 		.id = 5033,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_ARSENAL_SUMMONER] =
 	{
@@ -1799,11 +1798,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_SPELLCASTER,
 		.id = 5703,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_ASURA_PRIEST] =
 	{
@@ -1835,11 +1834,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceChaosReturn = 188,
 		.priceDemise = 42,
 		.priceZombie = 17,
+		.priceWCT06 = 600,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_AXE_OF_DESPAIR] =
 	{
@@ -1864,11 +1863,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceAndroid = 26,
 		.priceJoeyPegasus = 24,
+		.priceWCT06 = 800,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_BANISHER_OF_THE_LIGHT] =
 	{
@@ -1894,11 +1893,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceTreasure = 622,
 		.priceImperial = 452,
 		.priceAndroid = 26,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_BARREL_BEHIND_THE_DOOR] =
 	{
@@ -1929,7 +1928,6 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_BATTLE_FOOTBALLER] =
 	{
@@ -1952,11 +1950,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_MACHINE,
 		.id = 5702,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_BATTLE_OX] =
 	{
@@ -1980,11 +1978,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 4032,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceYK = 943,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_BAZOO_THE_SOUL_EATER] =
 	{
@@ -2015,11 +2013,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceDemise = 100,
 		.priceZombie = 86,
 		.pricePerfectCircle = 59,
+		.priceWCT06 = 950,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_BERSERK_GORILLA] =
 	{
@@ -2045,11 +2043,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceChaos = 7,
 		.priceWarrior = 58,
 		.priceGoat = 48,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_BICKURIBOX] =
 	{
@@ -2082,11 +2080,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceGoat = 20,
 		.priceChaosReturn = 73,
 		.pricePerfectCircle = 39,
+		.priceWCT06 = 450,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_BIG_BANG_SHOT] =
 	{
@@ -2110,11 +2108,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 5669,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceGoat = 7,
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_BIG_SHIELD_GARDNA] =
 	{
@@ -2144,11 +2142,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceChaosReturn = 21,
 		.priceZombie = 34,
 		.priceDADReturn = 14,
+		.priceWCT06 = 600,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_BIG_TUSKED_MAMMOTH] =
 	{
@@ -2171,11 +2169,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_BEAST,
 		.id = 6245,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_BLACK_ILLUSION_RITUAL] =
 	{
@@ -2201,11 +2199,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceChaos = 22,
 		.priceGoat = 7,
 		.priceDemise = 17,
+		.priceWCT06 = 500,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING] =
 	{
@@ -2239,11 +2237,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceMeadowlands = 83,
 		.priceFireWater = 28,
 		.priceVegas = 43,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_BLACK_PENDANT] =
 	{
@@ -2266,11 +2264,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_NONE,
 		.id = 4317,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 500,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_BLACK_SKULL_DRAGON] =
 	{
@@ -2311,7 +2309,6 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_BLADE_KNIGHT] =
 	{
@@ -2337,11 +2334,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceWarrior = 203,
 		.priceGoat = 313,
 		.priceCyber = 45,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_BLAST_WITH_CHAIN] =
 	{
@@ -2367,11 +2364,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceFiber = 16,
 		.priceYata = 152,
 		.priceWarrior = 58,
+		.priceWCT06 = 500,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_BLAZING_INPACHI] =
 	{
@@ -2394,11 +2391,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_PYRO,
 		.id = 5876,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_BLINDLY_LOYAL_GOBLIN] =
 	{
@@ -2421,11 +2418,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_WARRIOR,
 		.id = 5714,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_BLOCK_ATTACK] =
 	{
@@ -2448,11 +2445,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_NONE,
 		.id = 4874,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 400,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_BLOWBACK_DRAGON] =
 	{
@@ -2480,11 +2477,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceCyber = 15,
 		.priceReaper = 21,
 		.priceZombie = 6,
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_BLUE_EYES_ULTIMATE_DRAGON] =
 	{
@@ -2516,11 +2513,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceGladiator = 41,
 		.priceTeleDAD = 27,
 		.priceFrog = 4,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_BLUE_EYES_WHITE_DRAGON] =
 	{
@@ -2547,11 +2544,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceRavineRuler = 10,
 		.priceFireWater = 176,
 		.priceHAT = 49,
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_BOOK_OF_LIFE] =
 	{
@@ -2584,11 +2581,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceFrog = 8,
 		.priceStarstrike = 12,
 		.priceTengu = 22,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_BOOK_OF_MOON] =
 	{
@@ -2641,11 +2638,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceFireWater = 333,
 		.priceVegas = 565,
 		.priceHAT = 148,
+		.priceWCT06 = 950,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_BOOK_OF_TAIYOU] =
 	{
@@ -2670,11 +2667,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceVampire = 53,
 		.priceChaos = 111,
+		.priceWCT06 = 900,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_BOTTOMLESS_TRAP_HOLE] =
 	{
@@ -2724,11 +2721,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceFireWater = 722,
 		.priceVegas = 1000,
 		.priceHAT = 787,
+		.priceWCT06 = 950,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_BOWGANIAN] =
 	{
@@ -2751,11 +2748,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_MACHINE,
 		.id = 5687,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 450,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_BRAIN_CONTROL] =
 	{
@@ -2792,11 +2789,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceCat = 907,
 		.priceEdison = 867,
 		.priceFrog = 747,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_BREAKER_THE_MAGICAL_WARRIOR] =
 	{
@@ -2837,11 +2834,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceTengu = 54,
 		.priceMiami = 27,
 		.priceRavineRuler = 5,
+		.priceWCT06 = 950,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_BROWW_HUNTSMAN_OF_DARK_WORLD] =
 	{
@@ -2869,11 +2866,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceWindUp = 71,
 		.priceMiami = 27,
 		.priceFireWater = 28,
+		.priceWCT06 = 450,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_BRRON_MAD_KING_OF_DARK_WORLD] =
 	{
@@ -2896,11 +2893,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_FIEND,
 		.id = 6503,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_BUSTER_BLADER] =
 	{
@@ -2924,11 +2921,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 4983,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceWarrior = 14,
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_BYSER_SHOCK] =
 	{
@@ -2952,11 +2949,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 5300,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceGoat = 14,
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_CALL_OF_THE_HAUNTED] =
 	{
@@ -3009,11 +3006,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceFireWater = 56,
 		.priceVegas = 101,
 		.priceHAT = 197,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_CANNON_SOLDIER] =
 	{
@@ -3048,11 +3045,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceWarrior = 29,
 		.priceGoat = 27,
 		.priceCat = 12,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_CARD_DESTRUCTION] =
 	{
@@ -3102,11 +3099,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceMiami = 27,
 		.priceMeadowlands = 42,
 		.priceBabyRuler = 509,
+		.priceWCT06 = 350,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_CASTLE_OF_DARK_ILLUSIONS] =
 	{
@@ -3130,11 +3127,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 4089,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceAndroid = 13,
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_CASTLE_WALLS] =
 	{
@@ -3158,11 +3155,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 4850,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceYK = 41,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_CATAPULT_TURTLE] =
 	{
@@ -3190,11 +3187,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceChaos = 7,
 		.priceWarrior = 101,
 		.priceDinoRabbit = 21,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_CEASEFIRE] =
 	{
@@ -3239,11 +3236,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceStarstrike = 18,
 		.priceWindUp = 36,
 		.priceRavineRuler = 15,
+		.priceWCT06 = 900,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_CHAIN_DISAPPEARANCE] =
 	{
@@ -3273,11 +3270,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceStarstrike = 67,
 		.priceDinoRabbit = 31,
 		.priceRavineRuler = 5,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_CHAIN_ENERGY] =
 	{
@@ -3304,11 +3301,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceFiber = 116,
 		.priceYata = 61,
 		.priceGoat = 7,
+		.priceWCT06 = 900,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_CHAINSAW_INSECT] =
 	{
@@ -3331,11 +3328,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_INSECT,
 		.id = 6599,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_CHANGE_OF_HEART] =
 	{
@@ -3370,11 +3367,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVampire = 1000,
 		.priceChaos = 978,
 		.priceWarrior = 913,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_CHAOS_EMPEROR_DRAGON_ENVOY_OF_THE_END] =
 	{
@@ -3398,11 +3395,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 5860,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceChaos = 1000,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_CHAOS_SORCERER] =
 	{
@@ -3442,11 +3439,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceMeadowlands = 42,
 		.priceFireWater = 14,
 		.priceVegas = 22,
+		.priceWCT06 = 900,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_CHARCOAL_INPACHI] =
 	{
@@ -3469,11 +3466,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_PYRO,
 		.id = 6093,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_CHARUBIN_THE_FIRE_KNIGHT] =
 	{
@@ -3507,11 +3504,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceDemise = 8,
 		.priceZombie = 17,
 		.pricePerfectCircle = 39,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_CHIRON_THE_MAGE] =
 	{
@@ -3536,11 +3533,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceChaosReturn = 94,
 		.priceDemise = 25,
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_CIPHER_SOLDIER] =
 	{
@@ -3581,7 +3578,6 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_COLD_WAVE] =
 	{
@@ -3617,11 +3613,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceEdison = 44,
 		.priceFrog = 621,
 		.priceStarstrike = 564,
+		.priceWCT06 = 800,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_COMMAND_KNIGHT] =
 	{
@@ -3644,11 +3640,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_WARRIOR,
 		.id = 5017,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_COMPULSORY_EVACUATION_DEVICE] =
 	{
@@ -3690,11 +3686,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceFireWater = 333,
 		.priceVegas = 435,
 		.priceHAT = 443,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_CONFISCATION] =
 	{
@@ -3731,11 +3727,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceChaosReturn = 1000,
 		.priceDemise = 725,
 		.priceTrooper = 944,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_CRASS_CLOWN] =
 	{
@@ -3760,11 +3756,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceCritter = 49,
 		.priceTreasure = 22,
+		.priceWCT06 = 450,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_CREATURE_SWAP] =
 	{
@@ -3805,11 +3801,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceFrog = 4,
 		.priceDinoRabbit = 21,
 		.priceMiami = 18,
+		.priceWCT06 = 950,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_CRUSH_CARD_VIRUS] =
 	{
@@ -3844,7 +3840,6 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL] =
 	{
@@ -3876,11 +3871,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceMeadowlands = 14,
 		.priceBabyRuler = 50,
 		.priceRavineRuler = 10,
+		.priceWCT06 = 600,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_CYBER_BLADER] =
 	{
@@ -3908,11 +3903,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceZombie = 17,
 		.pricePerfectCircle = 59,
 		.priceDADReturn = 9,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_CYBER_DRAGON] =
 	{
@@ -3957,11 +3952,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceBabyRuler = 19,
 		.priceVegas = 159,
 		.priceHAT = 33,
+		.priceWCT06 = 950,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_CYBER_END_DRAGON] =
 	{
@@ -3994,11 +3989,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceDADReturn = 81,
 		.priceGladiator = 55,
 		.priceWindUp = 71,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_CYBER_HARPIE_LADY] =
 	{
@@ -4022,11 +4017,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 5239,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceVegas = 14,
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_CYBER_JAR] =
 	{
@@ -4062,11 +4057,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceGoat = 163,
 		.priceCyber = 136,
 		.priceReaper = 219,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_CYBER_SAURUS] =
 	{
@@ -4109,7 +4104,6 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_CYBER_TWIN_DRAGON] =
 	{
@@ -4142,11 +4136,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceDADReturn = 77,
 		.priceGladiator = 73,
 		.priceFrog = 4,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_CYBER_STEIN] =
 	{
@@ -4174,11 +4168,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceCyber = 424,
 		.priceReaper = 240,
 		.priceChaosReturn = 323,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_D_D_ASSAILANT] =
 	{
@@ -4215,7 +4209,6 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_D_D_CRAZY_BEAST] =
 	{
@@ -4238,11 +4231,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_BEAST,
 		.id = 5593,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 800,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_D_D_SURVIVOR] =
 	{
@@ -4274,11 +4267,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceStarstrike = 6,
 		.priceTengu = 32,
 		.priceMeadowlands = 42,
+		.priceWCT06 = 800,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_D_D_TRAINER] =
 	{
@@ -4306,7 +4299,6 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_D_D_WARRIOR_LADY] =
 	{
@@ -4346,11 +4338,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceEdison = 15,
 		.priceFrog = 23,
 		.priceStarstrike = 48,
+		.priceWCT06 = 950,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DARK_BALTER_THE_TERRIBLE] =
 	{
@@ -4390,11 +4382,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceDADReturn = 72,
 		.priceGladiator = 5,
 		.priceFrog = 4,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DARK_BLADE] =
 	{
@@ -4418,11 +4410,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 5581,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceScientist = 33,
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DARK_BLADE_THE_DRAGON_KNIGHT] =
 	{
@@ -4455,11 +4447,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.pricePerfectCircle = 39,
 		.priceDADReturn = 14,
 		.priceGladiator = 18,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DARK_DEAL] =
 	{
@@ -4483,11 +4475,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 6517,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceCat = 6,
+		.priceWCT06 = 500,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DARK_ELF] =
 	{
@@ -4513,11 +4505,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceCritter = 86,
 		.priceAndroid = 38,
 		.priceEdison = 15,
+		.priceWCT06 = 400,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DARK_FLARE_KNIGHT] =
 	{
@@ -4550,11 +4542,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceDemise = 17,
 		.pricePerfectCircle = 10,
 		.priceGladiator = 5,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DARK_HOLE] =
 	{
@@ -4600,11 +4592,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceFireWater = 583,
 		.priceVegas = 826,
 		.priceHAT = 885,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DARK_MAGIC_CURTAIN] =
 	{
@@ -4627,11 +4619,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_NONE,
 		.id = 4830,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DARK_MAGICIAN] =
 	{
@@ -4656,11 +4648,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceScientist = 33,
 		.priceWarrior = 14,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DARK_MAGICIAN_OF_CHAOS] =
 	{
@@ -4692,11 +4684,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.pricePerfectCircle = 147,
 		.priceDADReturn = 865,
 		.priceGladiator = 151,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DARK_MIMIC_LV1] =
 	{
@@ -4720,11 +4712,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 6101,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceReaper = 31,
+		.priceWCT06 = 900,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DARK_MIMIC_LV3] =
 	{
@@ -4752,11 +4744,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceZombie = 103,
 		.priceDADReturn = 14,
 		.priceTengu = 11,
+		.priceWCT06 = 900,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DARK_PALADIN] =
 	{
@@ -4787,11 +4779,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceTrooper = 19,
 		.priceZombie = 6,
 		.pricePerfectCircle = 20,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DARK_RULER_HA_DES] =
 	{
@@ -4819,11 +4811,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceScientist = 33,
 		.priceVampire = 53,
 		.priceReaper = 177,
+		.priceWCT06 = 800,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DARK_SCORPION_CHICK_THE_YELLOW] =
 	{
@@ -4846,11 +4838,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_WARRIOR,
 		.id = 5718,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 500,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DARK_SCORPION_CLIFF_THE_TRAP_REMOVER] =
 	{
@@ -4882,7 +4874,6 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DARK_WORLD_LIGHTNING] =
 	{
@@ -4908,11 +4899,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceChaosReturn = 94,
 		.priceDemise = 25,
 		.priceTrooper = 56,
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DARKFIRE_DRAGON] =
 	{
@@ -4958,11 +4949,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceDADReturn = 5,
 		.priceEdison = 67,
 		.priceMeadowlands = 14,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DE_SPELL] =
 	{
@@ -4987,11 +4978,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceYK = 244,
 		.priceCritter = 74,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DECK_DEVASTATION_VIRUS] =
 	{
@@ -5027,11 +5018,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceBabyRuler = 94,
 		.priceRavineRuler = 19,
 		.priceFireWater = 46,
+		.priceWCT06 = 600,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DEEPSEA_SHARK] =
 	{
@@ -5057,11 +5048,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceCritter = 160,
 		.priceTreasure = 67,
 		.priceImperial = 143,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE] =
 	{
@@ -5095,11 +5086,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceDADReturn = 9,
 		.priceGladiator = 68,
 		.priceCat = 56,
+		.priceWCT06 = 900,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DELINQUENT_DUO] =
 	{
@@ -5133,11 +5124,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceChaos = 933,
 		.priceGoat = 898,
 		.priceCyber = 909,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DES_DENDLE] =
 	{
@@ -5160,11 +5151,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_PLANT,
 		.id = 5589,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DES_KOALA] =
 	{
@@ -5196,11 +5187,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceTrooper = 37,
 		.priceDADReturn = 18,
 		.priceCat = 6,
+		.priceWCT06 = 850,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DES_LACOODA] =
 	{
@@ -5223,11 +5214,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_ZOMBIE,
 		.id = 5427,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 850,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DES_WOMBAT] =
 	{
@@ -5256,11 +5247,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceDemise = 158,
 		.priceTrooper = 111,
 		.priceZombie = 52,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DESERT_SUNLIGHT] =
 	{
@@ -5284,11 +5275,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 6068,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceGoat = 34,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DIAN_KETO_THE_CURE_MASTER] =
 	{
@@ -5312,11 +5303,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 4348,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceYK = 16,
+		.priceWCT06 = 400,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DIMENSION_FUSION] =
 	{
@@ -5347,11 +5338,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceZombie = 52,
 		.pricePerfectCircle = 29,
 		.priceDADReturn = 851,
+		.priceWCT06 = 550,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DON_ZALOOG] =
 	{
@@ -5387,11 +5378,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceZombie = 29,
 		.pricePerfectCircle = 10,
 		.priceDADReturn = 5,
+		.priceWCT06 = 850,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DOOM_DOZER] =
 	{
@@ -5417,11 +5408,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceReaper = 10,
 		.priceDemise = 175,
 		.priceZombie = 34,
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DOOMCALIBER_KNIGHT] =
 	{
@@ -5455,7 +5446,6 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DRAGGED_DOWN_INTO_THE_GRAVE] =
 	{
@@ -5482,11 +5472,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceWindUp = 71,
 		.priceMiami = 27,
 		.priceFireWater = 28,
+		.priceWCT06 = 500,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DRAGON_S_MIRROR] =
 	{
@@ -5509,11 +5499,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_NONE,
 		.id = 6433,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DRAGON_S_RAGE] =
 	{
@@ -5536,11 +5526,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_NONE,
 		.id = 5347,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DRAGONESS_THE_WICKED_KNIGHT] =
 	{
@@ -5583,11 +5573,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceTrooper = 56,
 		.priceDADReturn = 9,
 		.priceEdison = 30,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DREAM_CLOWN] =
 	{
@@ -5611,11 +5601,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 4126,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceCritter = 12,
+		.priceWCT06 = 450,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DRILLROID] =
 	{
@@ -5644,11 +5634,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceZombie = 57,
 		.pricePerfectCircle = 20,
 		.priceDADReturn = 5,
+		.priceWCT06 = 850,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DROP_OFF] =
 	{
@@ -5673,11 +5663,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceYata = 30,
 		.priceGoat = 61,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DUNAMES_DARK_WITCH] =
 	{
@@ -5700,11 +5690,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_FAIRY,
 		.id = 4786,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_DUST_TORNADO] =
 	{
@@ -5759,11 +5749,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceRavineRuler = 92,
 		.priceFireWater = 250,
 		.priceVegas = 304,
+		.priceWCT06 = 800,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_EARTHBOUND_SPIRIT] =
 	{
@@ -5787,11 +5777,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 5226,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceAndroid = 38,
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_ELECTRIC_SNAKE] =
 	{
@@ -5815,11 +5805,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 4469,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceYata = 162,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_ELEMENTAL_HERO_CLAYMAN] =
 	{
@@ -5847,7 +5837,6 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_ELEMENTAL_HERO_FLAME_WINGMAN] =
 	{
@@ -5881,7 +5870,6 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_ELEMENTAL_HERO_WILDHEART] =
 	{
@@ -5912,7 +5900,6 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_EMERGENCY_PROVISIONS] =
 	{
@@ -5940,11 +5927,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceChaosReturn = 31,
 		.priceZombie = 6,
 		.priceMiami = 9,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_EMISSARY_OF_THE_AFTERLIFE] =
 	{
@@ -5968,11 +5955,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 6038,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceCyber = 45,
+		.priceWCT06 = 500,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_EMPRESS_JUDGE] =
 	{
@@ -6009,7 +5996,6 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_ENEMY_CONTROLLER] =
 	{
@@ -6053,11 +6039,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceMeadowlands = 14,
 		.priceBabyRuler = 63,
 		.priceRavineRuler = 39,
+		.priceWCT06 = 900,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_EXARION_UNIVERSE] =
 	{
@@ -6081,11 +6067,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 5452,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceCyber = 182,
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_EXCHANGE] =
 	{
@@ -6113,11 +6099,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceChaos = 22,
 		.priceGoat = 7,
 		.priceBabyRuler = 19,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_EXCHANGE_OF_THE_SPIRIT] =
 	{
@@ -6144,7 +6130,6 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_EXILED_FORCE] =
 	{
@@ -6183,11 +6168,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.pricePerfectCircle = 186,
 		.priceDADReturn = 36,
 		.priceGladiator = 18,
+		.priceWCT06 = 950,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_EXODIA_THE_FORBIDDEN_ONE] =
 	{
@@ -6212,11 +6197,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceCritter = 111,
 		.priceJoeyPegasus = 71,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_FAKE_TRAP] =
 	{
@@ -6248,7 +6233,6 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_FAMILIAR_POSSESSED_AUSSA] =
 	{
@@ -6271,11 +6255,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_SPELLCASTER,
 		.id = 6507,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_FAMILIAR_POSSESSED_ERIA] =
 	{
@@ -6298,11 +6282,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_SPELLCASTER,
 		.id = 6508,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_FAMILIAR_POSSESSED_HIITA] =
 	{
@@ -6325,11 +6309,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_SPELLCASTER,
 		.id = 6509,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_FAMILIAR_POSSESSED_WYNN] =
 	{
@@ -6352,11 +6336,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_SPELLCASTER,
 		.id = 6510,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_FIBER_JAR] =
 	{
@@ -6385,11 +6369,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVampire = 842,
 		.priceChaos = 711,
 		.priceWarrior = 522,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_FIEND_SKULL_DRAGON] =
 	{
@@ -6427,11 +6411,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceZombie = 6,
 		.pricePerfectCircle = 29,
 		.priceDADReturn = 14,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_FINAL_FLAME] =
 	{
@@ -6459,7 +6443,6 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_FISSURE] =
 	{
@@ -6500,11 +6483,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceEdison = 81,
 		.priceFrog = 96,
 		.priceStarstrike = 6,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_FLAME_GHOST] =
 	{
@@ -6547,11 +6530,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceDADReturn = 9,
 		.priceEdison = 7,
 		.priceVegas = 29,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_FLAME_SWORDSMAN] =
 	{
@@ -6586,11 +6569,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceGoat = 7,
 		.priceZombie = 17,
 		.priceGladiator = 5,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_FLOWER_WOLF] =
 	{
@@ -6620,11 +6603,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceJoeyPegasus = 24,
 		.priceFiber = 8,
 		.priceYata = 30,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_FLYING_KAMAKIRI_1] =
 	{
@@ -6650,11 +6633,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceReaper = 31,
 		.priceZombie = 6,
 		.pricePerfectCircle = 29,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_FUSILIER_DRAGON_THE_DUAL_MODE_BEAST] =
 	{
@@ -6680,11 +6663,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceGoat = 7,
 		.priceCyber = 121,
 		.priceBabyRuler = 31,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_FUSIONIST] =
 	{
@@ -6725,11 +6708,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceMeadowlands = 14,
 		.priceRavineRuler = 5,
 		.priceHAT = 16,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GAGAGIGO] =
 	{
@@ -6752,11 +6735,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_REPTILE,
 		.id = 5759,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GAIA_POWER] =
 	{
@@ -6780,11 +6763,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 4932,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceTreasure = 22,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GAIA_THE_DRAGON_CHAMPION] =
 	{
@@ -6821,11 +6804,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.pricePerfectCircle = 10,
 		.priceDADReturn = 5,
 		.priceGladiator = 5,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GATLING_DRAGON] =
 	{
@@ -6857,11 +6840,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.pricePerfectCircle = 88,
 		.priceDADReturn = 14,
 		.priceGladiator = 14,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GEAR_GOLEM_THE_MOVING_FORTRESS] =
 	{
@@ -6884,11 +6867,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_MACHINE,
 		.id = 4757,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GEARFRIED_THE_IRON_KNIGHT] =
 	{
@@ -6914,11 +6897,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceFiber = 16,
 		.priceYata = 152,
 		.priceWarrior = 87,
+		.priceWCT06 = 600,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GEMINI_ELF] =
 	{
@@ -6945,11 +6928,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceJoeyPegasus = 786,
 		.priceFiber = 620,
 		.priceYata = 475,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GIANT_GERM] =
 	{
@@ -6977,11 +6960,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceFiber = 116,
 		.priceYata = 91,
 		.priceReaper = 31,
+		.priceWCT06 = 600,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GIANT_ORC] =
 	{
@@ -7006,11 +6989,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceGoat = 14,
 		.priceCat = 37,
+		.priceWCT06 = 500,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GIANT_RAT] =
 	{
@@ -7047,11 +7030,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.pricePerfectCircle = 59,
 		.priceFrog = 19,
 		.priceWindUp = 24,
+		.priceWCT06 = 950,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GIANT_RED_SEASNAKE] =
 	{
@@ -7074,11 +7057,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_AQUA,
 		.id = 4453,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GIANT_SOLDIER_OF_STONE] =
 	{
@@ -7105,11 +7088,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceCritter = 494,
 		.priceTreasure = 111,
 		.priceImperial = 95,
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GIANT_TRUNADE] =
 	{
@@ -7154,11 +7137,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceEdison = 200,
 		.priceFrog = 655,
 		.priceStarstrike = 255,
+		.priceWCT06 = 900,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GIGA_TECH_WOLF] =
 	{
@@ -7182,11 +7165,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 4418,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceCritter = 86,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GIGANTES] =
 	{
@@ -7214,11 +7197,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceChaosReturn = 21,
 		.priceTrooper = 37,
 		.priceWindUp = 12,
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GIL_GARTH] =
 	{
@@ -7241,11 +7224,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_FIEND,
 		.id = 5491,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GILASAURUS] =
 	{
@@ -7270,11 +7253,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceScientist = 400,
 		.priceWarrior = 87,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GILTIA_THE_D_KNIGHT] =
 	{
@@ -7304,11 +7287,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceWarrior = 72,
 		.priceGoat = 48,
 		.priceChaosReturn = 10,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GOBLIN_ATTACK_FORCE] =
 	{
@@ -7339,11 +7322,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceWarrior = 87,
 		.priceGoat = 7,
 		.priceReaper = 10,
+		.priceWCT06 = 550,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GOBLIN_ELITE_ATTACK_FORCE] =
 	{
@@ -7366,11 +7349,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_FIEND,
 		.id = 6418,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 600,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GOKIPON] =
 	{
@@ -7393,11 +7376,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_INSECT,
 		.id = 6597,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 600,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GOLEM_SENTRY] =
 	{
@@ -7422,11 +7405,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceGoat = 7,
 		.pricePerfectCircle = 20,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GORA_TURTLE] =
 	{
@@ -7449,11 +7432,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_AQUA,
 		.id = 5411,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GRACEFUL_CHARITY] =
 	{
@@ -7485,11 +7468,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceGoat = 1000,
 		.priceCyber = 1000,
 		.priceChaosReturn = 1000,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GRAVEKEEPER_S_ASSAILANT] =
 	{
@@ -7514,11 +7497,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceYata = 71,
 		.priceStarstrike = 67,
+		.priceWCT06 = 600,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GRAVEKEEPER_S_GUARD] =
 	{
@@ -7552,11 +7535,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceCat = 99,
 		.priceFrog = 4,
 		.priceStarstrike = 6,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GRAVEKEEPER_S_SPEAR_SOLDIER] =
 	{
@@ -7580,11 +7563,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 5512,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceYata = 71,
+		.priceWCT06 = 600,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GRAVEKEEPER_S_SPY] =
 	{
@@ -7628,11 +7611,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceFrog = 23,
 		.priceStarstrike = 152,
 		.priceTengu = 32,
+		.priceWCT06 = 850,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GRAVEKEEPER_S_WATCHER] =
 	{
@@ -7662,7 +7645,6 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GRAVITY_BIND] =
 	{
@@ -7694,11 +7676,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceZombie = 190,
 		.pricePerfectCircle = 88,
 		.priceDADReturn = 14,
+		.priceWCT06 = 900,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GREAT_WHITE] =
 	{
@@ -7722,11 +7704,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 4066,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceYK = 73,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GUARDIAN_SPHINX] =
 	{
@@ -7750,11 +7732,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 5422,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceYata = 30,
+		.priceWCT06 = 800,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GYAKU_GIRE_PANDA] =
 	{
@@ -7785,11 +7767,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceTrooper = 37,
 		.priceZombie = 17,
 		.pricePerfectCircle = 59,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_GYAKUTENNO_MEGAMI] =
 	{
@@ -7813,11 +7795,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 4096,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceYK = 187,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_HALLOWED_LIFE_BARRIER] =
 	{
@@ -7843,11 +7825,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceWarrior = 87,
 		.priceZombie = 23,
 		.priceDADReturn = 14,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_HANE_HANE] =
 	{
@@ -7871,11 +7853,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 4547,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceYK = 130,
+		.priceWCT06 = 350,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_HARPIE_S_FEATHER_DUSTER] =
 	{
@@ -7904,11 +7886,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceScientist = 1000,
 		.priceVampire = 1000,
 		.priceChaos = 1000,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_HEAVY_STORM] =
 	{
@@ -7962,11 +7944,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceMiami = 946,
 		.priceMeadowlands = 1000,
 		.priceBabyRuler = 1000,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_HIERACOSPHINX] =
 	{
@@ -7989,11 +7971,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_ROCK,
 		.id = 6321,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 800,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_HORN_OF_HEAVEN] =
 	{
@@ -8020,11 +8002,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceTreasure = 22,
 		.priceTengu = 22,
 		.priceBabyRuler = 13,
+		.priceWCT06 = 450,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_HOWLING_INSECT] =
 	{
@@ -8047,11 +8029,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_INSECT,
 		.id = 6117,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_HUMANOID_SLIME] =
 	{
@@ -8074,11 +8056,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_AQUA,
 		.id = 5060,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_HYDROGEDDON] =
 	{
@@ -8106,11 +8088,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceDemise = 200,
 		.priceZombie = 69,
 		.pricePerfectCircle = 29,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_HYPER_HAMMERHEAD] =
 	{
@@ -8133,11 +8115,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_DINOSAUR,
 		.id = 5888,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_IMPERIAL_ORDER] =
 	{
@@ -8168,11 +8150,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceScientist = 1000,
 		.priceVampire = 947,
 		.priceChaos = 1000,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_INABA_WHITE_RABBIT] =
 	{
@@ -8196,11 +8178,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 5374,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceDemise = 17,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_INDOMITABLE_FIGHTER_LEI_LEI] =
 	{
@@ -8223,11 +8205,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_BEAST_WARRIOR,
 		.id = 6421,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 600,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_INJECTION_FAIRY_LILY] =
 	{
@@ -8265,11 +8247,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceZombie = 11,
 		.pricePerfectCircle = 20,
 		.priceFrog = 4,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_INPACHI] =
 	{
@@ -8292,11 +8274,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_MACHINE,
 		.id = 5508,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_INSECT_KNIGHT] =
 	{
@@ -8321,11 +8303,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceDemise = 150,
 		.priceZombie = 34,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_ISLAND_TURTLE] =
 	{
@@ -8348,11 +8330,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_AQUA,
 		.id = 5146,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_JAR_OF_GREED] =
 	{
@@ -8392,11 +8374,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceEdison = 74,
 		.priceWindUp = 36,
 		.priceVegas = 58,
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_JINZO] =
 	{
@@ -8442,11 +8424,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceFrog = 19,
 		.priceTengu = 11,
 		.priceDinoRabbit = 10,
+		.priceWCT06 = 900,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_JIRAI_GUMO] =
 	{
@@ -8473,11 +8455,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceTreasure = 311,
 		.priceAndroid = 38,
 		.priceGoat = 48,
+		.priceWCT06 = 500,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_JOWGEN_THE_SPIRITUALIST] =
 	{
@@ -8505,11 +8487,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceGoat = 48,
 		.priceBabyRuler = 101,
 		.priceRavineRuler = 10,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_JUDGE_MAN] =
 	{
@@ -8533,11 +8515,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 4039,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceYK = 480,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_JUST_DESSERTS] =
 	{
@@ -8573,11 +8555,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceZombie = 17,
 		.priceWindUp = 36,
 		.priceRavineRuler = 15,
+		.priceWCT06 = 900,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_KAISER_SEA_HORSE] =
 	{
@@ -8600,11 +8582,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_SEA_SERPENT,
 		.id = 5409,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_KARBONALA_WARRIOR] =
 	{
@@ -8640,11 +8622,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceZombie = 17,
 		.pricePerfectCircle = 10,
 		.priceDADReturn = 5,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_KARMA_CUT] =
 	{
@@ -8671,11 +8653,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceEdison = 7,
 		.priceTengu = 11,
 		.priceRavineRuler = 10,
+		.priceWCT06 = 600,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_KING_DRAGUN] =
 	{
@@ -8706,11 +8688,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceTrooper = 74,
 		.pricePerfectCircle = 88,
 		.priceDADReturn = 18,
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_KING_OF_THE_SWAMP] =
 	{
@@ -8733,11 +8715,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_AQUA,
 		.id = 6044,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_KING_TIGER_WANGHU] =
 	{
@@ -8776,11 +8758,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceTengu = 32,
 		.priceWindUp = 12,
 		.priceMiami = 9,
+		.priceWCT06 = 950,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_KURIBOH] =
 	{
@@ -8815,11 +8797,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceChaosReturn = 219,
 		.priceDemise = 42,
 		.priceZombie = 11,
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_KWAGAR_HERCULES] =
 	{
@@ -8848,7 +8830,6 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_KYCOO_THE_GHOST_DESTROYER] =
 	{
@@ -8901,11 +8882,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceFireWater = 28,
 		.priceVegas = 58,
 		.priceHAT = 16,
+		.priceWCT06 = 950,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP] =
 	{
@@ -8931,11 +8912,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceYK = 976,
 		.priceCritter = 864,
 		.priceAndroid = 38,
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_LABYRINTH_TANK] =
 	{
@@ -8970,11 +8951,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceGoat = 7,
 		.priceChaosReturn = 42,
 		.pricePerfectCircle = 10,
+		.priceWCT06 = 500,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_LADY_NINJA_YAE] =
 	{
@@ -8997,11 +8978,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_WARRIOR,
 		.id = 5972,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 600,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_LAST_WILL] =
 	{
@@ -9034,11 +9015,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceCyber = 227,
 		.priceReaper = 469,
 		.priceChaosReturn = 812,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_LEFT_ARM_OF_THE_FORBIDDEN_ONE] =
 	{
@@ -9063,11 +9044,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceCritter = 111,
 		.priceJoeyPegasus = 71,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_LEFT_LEG_OF_THE_FORBIDDEN_ONE] =
 	{
@@ -9093,11 +9074,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceCritter = 111,
 		.priceJoeyPegasus = 71,
 		.priceBabyRuler = 19,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_LEGENDARY_JUJITSU_MASTER] =
 	{
@@ -9133,11 +9114,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceEdison = 44,
 		.priceFrog = 38,
 		.priceStarstrike = 18,
+		.priceWCT06 = 850,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_LEVEL_LIMIT_AREA_B] =
 	{
@@ -9172,11 +9153,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceDinoRabbit = 31,
 		.priceWindUp = 24,
 		.priceMiami = 117,
+		.priceWCT06 = 900,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_LEVIA_DRAGON_DAEDALUS] =
 	{
@@ -9199,11 +9180,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_SEA_SERPENT,
 		.id = 5895,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_LIGHT_OF_INTERVENTION] =
 	{
@@ -9227,11 +9208,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 4957,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceGoat = 20,
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_LIGHTNING_VORTEX] =
 	{
@@ -9270,11 +9251,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceStarstrike = 12,
 		.priceTengu = 22,
 		.priceBabyRuler = 57,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_LIMITER_REMOVAL] =
 	{
@@ -9311,11 +9292,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceStarstrike = 18,
 		.priceWindUp = 71,
 		.priceMeadowlands = 42,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_LUSTER_DRAGON] =
 	{
@@ -9338,11 +9319,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_DRAGON,
 		.id = 5644,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MAD_DOG_OF_DARKNESS] =
 	{
@@ -9365,11 +9346,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_BEAST,
 		.id = 5872,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MAGE_POWER] =
 	{
@@ -9396,11 +9377,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceJoeyPegasus = 71,
 		.priceFiber = 23,
 		.priceBabyRuler = 6,
+		.priceWCT06 = 950,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MAGIC_CYLINDER] =
 	{
@@ -9443,11 +9424,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceEdison = 44,
 		.priceWindUp = 36,
 		.priceRavineRuler = 15,
+		.priceWCT06 = 950,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MAGIC_JAMMER] =
 	{
@@ -9477,11 +9458,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceChaos = 7,
 		.priceTrooper = 37,
 		.priceCat = 6,
+		.priceWCT06 = 500,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MAGICAL_DIMENSION] =
 	{
@@ -9504,11 +9485,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_NONE,
 		.id = 5752,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MAGICAL_MERCHANT] =
 	{
@@ -9537,11 +9518,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceChaosReturn = 94,
 		.priceDemise = 67,
 		.priceZombie = 69,
+		.priceWCT06 = 800,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MAGICAL_SCIENTIST] =
 	{
@@ -9568,11 +9549,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVampire = 895,
 		.priceChaos = 689,
 		.priceWarrior = 478,
+		.priceWCT06 = 950,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MAGICIAN_OF_FAITH] =
 	{
@@ -9612,11 +9593,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceChaosReturn = 703,
 		.priceZombie = 345,
 		.pricePerfectCircle = 59,
+		.priceWCT06 = 850,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MAGICIAN_S_CIRCLE] =
 	{
@@ -9639,11 +9620,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_NONE,
 		.id = 6168,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MAGICIAN_S_VALKYRIA] =
 	{
@@ -9670,7 +9651,6 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MAIDEN_OF_THE_AQUA] =
 	{
@@ -9693,11 +9673,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_AQUA,
 		.id = 5026,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MAKYURA_THE_DESTRUCTOR] =
 	{
@@ -9720,11 +9700,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_WARRIOR,
 		.id = 5285,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MAN_EATER_BUG] =
 	{
@@ -9753,11 +9733,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceImperial = 905,
 		.priceAndroid = 90,
 		.priceJoeyPegasus = 167,
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MANJU_OF_THE_TEN_THOUSAND_HANDS] =
 	{
@@ -9784,11 +9764,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceGoat = 20,
 		.priceDemise = 200,
 		.priceZombie = 34,
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MANTICORE_OF_DARKNESS] =
 	{
@@ -9811,11 +9791,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_BEAST_WARRIOR,
 		.id = 5881,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MARAUDING_CAPTAIN] =
 	{
@@ -9839,11 +9819,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 5318,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceVampire = 53,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MASK_OF_DARKNESS] =
 	{
@@ -9873,11 +9853,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceGoat = 7,
 		.pricePerfectCircle = 59,
 		.priceGladiator = 110,
+		.priceWCT06 = 400,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MASK_OF_RESTRICT] =
 	{
@@ -9910,11 +9890,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceEdison = 163,
 		.priceFrog = 375,
 		.priceStarstrike = 18,
+		.priceWCT06 = 900,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MASKED_DRAGON] =
 	{
@@ -9938,11 +9918,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 6118,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceStarstrike = 18,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MASKED_SORCERER] =
 	{
@@ -9971,11 +9951,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceAndroid = 77,
 		.priceYata = 20,
 		.priceWarrior = 14,
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MASTER_OF_OZ] =
 	{
@@ -10008,11 +9988,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.pricePerfectCircle = 10,
 		.priceDADReturn = 5,
 		.priceBabyRuler = 6,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MATAZA_THE_ZAPPER] =
 	{
@@ -10036,11 +10016,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 5898,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceGoat = 7,
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MECHANICALCHASER] =
 	{
@@ -10065,11 +10045,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceTreasure = 844,
 		.priceImperial = 1000,
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MEGAMORPH] =
 	{
@@ -10098,11 +10078,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceDemise = 150,
 		.priceZombie = 52,
 		.priceEdison = 22,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MERMAID_KNIGHT] =
 	{
@@ -10125,11 +10105,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_AQUA,
 		.id = 5967,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MESSENGER_OF_PEACE] =
 	{
@@ -10161,11 +10141,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceTengu = 43,
 		.priceWindUp = 71,
 		.priceMiami = 117,
+		.priceWCT06 = 900,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_METAL_DRAGON] =
 	{
@@ -10199,11 +10179,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceChaos = 44,
 		.priceGoat = 14,
 		.priceChaosReturn = 42,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_METAL_REFLECT_SLIME] =
 	{
@@ -10227,11 +10207,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 5686,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceCat = 12,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_METAMORPHOSIS] =
 	{
@@ -10265,11 +10245,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceChaosReturn = 375,
 		.priceDemise = 225,
 		.priceTrooper = 56,
+		.priceWCT06 = 900,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MILUS_RADIANT] =
 	{
@@ -10294,11 +10274,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceGoat = 7,
 		.priceReaper = 31,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MINAR] =
 	{
@@ -10322,11 +10302,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 4540,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceTreasure = 133,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MIND_CONTROL] =
 	{
@@ -10369,11 +10349,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceFireWater = 306,
 		.priceVegas = 565,
 		.priceHAT = 689,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MINE_GOLEM] =
 	{
@@ -10396,11 +10376,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_ROCK,
 		.id = 6327,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MIRACLE_RESTORING] =
 	{
@@ -10423,11 +10403,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_NONE,
 		.id = 5681,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MIRAGE_DRAGON] =
 	{
@@ -10451,11 +10431,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 6196,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceZombie = 11,
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MIRAGE_OF_NIGHTMARE] =
 	{
@@ -10483,11 +10463,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVampire = 895,
 		.priceChaos = 933,
 		.priceWarrior = 304,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MIRROR_FORCE] =
 	{
@@ -10543,11 +10523,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceRavineRuler = 320,
 		.priceFireWater = 153,
 		.priceVegas = 196,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MOAI_INTERCEPTOR_CANNONS] =
 	{
@@ -10570,11 +10550,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_ROCK,
 		.id = 6323,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MOBIUS_THE_FROST_MONARCH] =
 	{
@@ -10611,11 +10591,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceTeleDAD = 135,
 		.priceCat = 43,
 		.priceStarstrike = 30,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MONSTER_GATE] =
 	{
@@ -10644,11 +10624,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceZombie = 17,
 		.pricePerfectCircle = 29,
 		.priceDADReturn = 108,
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MONSTER_REBORN] =
 	{
@@ -10693,11 +10673,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceMiami = 1000,
 		.priceMeadowlands = 875,
 		.priceBabyRuler = 358,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MONSTER_REINCARNATION] =
 	{
@@ -10727,11 +10707,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceCat = 130,
 		.priceEdison = 22,
 		.priceTengu = 11,
+		.priceWCT06 = 500,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MORPHING_JAR] =
 	{
@@ -10777,11 +10757,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceEdison = 22,
 		.priceFrog = 11,
 		.priceWindUp = 36,
+		.priceWCT06 = 950,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MOTHER_GRIZZLY] =
 	{
@@ -10808,11 +10788,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceWarrior = 43,
 		.priceReaper = 104,
 		.priceFrog = 4,
+		.priceWCT06 = 900,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MUKA_MUKA] =
 	{
@@ -10836,11 +10816,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 4522,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceCritter = 852,
+		.priceWCT06 = 450,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MUSICIAN_KING] =
 	{
@@ -10874,11 +10854,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceWarrior = 14,
 		.priceTrooper = 56,
 		.priceEdison = 22,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MYSTIC_SWORDSMAN_LV2] =
 	{
@@ -10909,11 +10889,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceDemise = 17,
 		.priceZombie = 6,
 		.priceGladiator = 46,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MYSTIC_SWORDSMAN_LV4] =
 	{
@@ -10936,11 +10916,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_WARRIOR,
 		.id = 6104,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MYSTIC_TOMATO] =
 	{
@@ -10984,11 +10964,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceDADReturn = 59,
 		.priceTeleDAD = 90,
 		.priceCat = 136,
+		.priceWCT06 = 950,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MYSTICAL_ELF] =
 	{
@@ -11012,11 +10992,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 4008,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceYK = 350,
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MYSTICAL_SPACE_TYPHOON] =
 	{
@@ -11074,11 +11054,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceFireWater = 1000,
 		.priceVegas = 942,
 		.priceHAT = 885,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_MYSTIK_WOK] =
 	{
@@ -11110,11 +11090,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceTrooper = 37,
 		.pricePerfectCircle = 10,
 		.priceRavineRuler = 5,
+		.priceWCT06 = 500,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_NECROVALLEY] =
 	{
@@ -11142,11 +11122,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceStarstrike = 121,
 		.priceTengu = 22,
 		.priceWindUp = 48,
+		.priceWCT06 = 600,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_NEEDLE_CEILING] =
 	{
@@ -11184,11 +11164,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceFireWater = 56,
 		.priceVegas = 130,
 		.priceHAT = 49,
+		.priceWCT06 = 450,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_NEKO_MANE_KING] =
 	{
@@ -11220,7 +11200,6 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_NEO_BUG] =
 	{
@@ -11245,11 +11224,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceDemise = 117,
 		.priceZombie = 29,
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_NEO_THE_MAGIC_SWORDSMAN] =
 	{
@@ -11273,11 +11252,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 4881,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceYK = 943,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_NEWDORIA] =
 	{
@@ -11309,11 +11288,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceDemise = 8,
 		.priceZombie = 11,
 		.pricePerfectCircle = 10,
+		.priceWCT06 = 900,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_NIGHT_ASSAILANT] =
 	{
@@ -11345,11 +11324,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceWindUp = 107,
 		.priceMiami = 108,
 		.priceMeadowlands = 42,
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_NIGHTMARE_WHEEL] =
 	{
@@ -11375,11 +11354,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceYata = 91,
 		.priceGoat = 54,
 		.priceReaper = 21,
+		.priceWCT06 = 900,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_NIGHTMARE_S_STEELCAGE] =
 	{
@@ -11404,11 +11383,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceDemise = 8,
 		.priceZombie = 6,
+		.priceWCT06 = 800,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_NIMBLE_MOMONGA] =
 	{
@@ -11442,11 +11421,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceTrooper = 56,
 		.priceZombie = 17,
 		.pricePerfectCircle = 59,
+		.priceWCT06 = 600,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_NIN_KEN_DOG] =
 	{
@@ -11469,11 +11448,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_BEAST_WARRIOR,
 		.id = 5704,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_NINJA_GRANDMASTER_SASUKE] =
 	{
@@ -11502,11 +11481,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceReaper = 83,
 		.priceChaosReturn = 42,
 		.priceGladiator = 5,
+		.priceWCT06 = 950,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_NOBLEMAN_OF_CROSSOUT] =
 	{
@@ -11561,11 +11540,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceFireWater = 19,
 		.priceVegas = 58,
 		.priceHAT = 98,
+		.priceWCT06 = 950,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_NOBLEMAN_OF_EXTERMINATION] =
 	{
@@ -11596,11 +11575,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceEdison = 15,
 		.priceFrog = 23,
 		.priceStarstrike = 30,
+		.priceWCT06 = 800,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_OFFERINGS_TO_THE_DOOMED] =
 	{
@@ -11630,11 +11609,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceEdison = 22,
 		.priceBabyRuler = 6,
 		.priceVegas = 43,
+		.priceWCT06 = 500,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_OJAMA_KING] =
 	{
@@ -11668,11 +11647,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceDADReturn = 5,
 		.priceGladiator = 14,
 		.priceBabyRuler = 6,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_OJAMA_TRIO] =
 	{
@@ -11707,11 +11686,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceDADReturn = 27,
 		.priceWindUp = 36,
 		.priceRavineRuler = 15,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_OOKAZI] =
 	{
@@ -11735,11 +11714,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 4352,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceYK = 423,
+		.priceWCT06 = 450,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_OPPRESSED_PEOPLE] =
 	{
@@ -11762,11 +11741,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_AQUA,
 		.id = 5579,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_OPTICLOPS] =
 	{
@@ -11789,11 +11768,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_FIEND,
 		.id = 5309,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_PAINFUL_CHOICE] =
 	{
@@ -11826,11 +11805,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVampire = 632,
 		.priceChaos = 978,
 		.priceWarrior = 783,
+		.priceWCT06 = 950,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_PALADIN_OF_WHITE_DRAGON] =
 	{
@@ -11853,11 +11832,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_DRAGON,
 		.id = 5600,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_PENGUIN_KNIGHT] =
 	{
@@ -11882,11 +11861,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceAndroid = 115,
 		.priceJoeyPegasus = 48,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_PHOENIX_WING_WIND_BLAST] =
 	{
@@ -11926,11 +11905,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceFireWater = 46,
 		.priceVegas = 29,
 		.priceHAT = 49,
+		.priceWCT06 = 800,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_PIKERU_S_CIRCLE_OF_ENCHANTMENT] =
 	{
@@ -11954,11 +11933,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 6224,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceWarrior = 72,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_PINCH_HOPPER] =
 	{
@@ -11981,11 +11960,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_INSECT,
 		.id = 4772,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 600,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_PITCH_BLACK_POWER_STONE] =
 	{
@@ -12008,11 +11987,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_NONE,
 		.id = 5668,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_POISON_OF_THE_OLD_MAN] =
 	{
@@ -12043,11 +12022,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceZombie = 17,
 		.priceStarstrike = 12,
 		.priceRavineRuler = 15,
+		.priceWCT06 = 500,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_POLYMERIZATION] =
 	{
@@ -12071,11 +12050,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 4837,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceCritter = 86,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_POT_OF_AVARICE] =
 	{
@@ -12116,11 +12095,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceMiami = 595,
 		.priceMeadowlands = 750,
 		.priceBabyRuler = 19,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_POT_OF_GENEROSITY] =
 	{
@@ -12143,11 +12122,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_NONE,
 		.id = 6436,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_POT_OF_GREED] =
 	{
@@ -12184,11 +12163,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceWarrior = 1000,
 		.priceGoat = 1000,
 		.priceCyber = 1000,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_PREMATURE_BURIAL] =
 	{
@@ -12230,11 +12209,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.pricePerfectCircle = 794,
 		.priceDADReturn = 973,
 		.priceGladiator = 890,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_PREVENT_RAT] =
 	{
@@ -12257,11 +12236,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_BEAST,
 		.id = 4261,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_PRICKLE_FAIRY] =
 	{
@@ -12284,11 +12263,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_PLANT,
 		.id = 5891,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_PRINCESS_OF_TSURUGI] =
 	{
@@ -12314,11 +12293,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceTreasure = 133,
 		.priceFiber = 8,
 		.priceYata = 20,
+		.priceWCT06 = 850,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_PROTECTOR_OF_THE_SANCTUARY] =
 	{
@@ -12344,11 +12323,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceGoat = 20,
 		.priceDADReturn = 23,
 		.priceWindUp = 12,
+		.priceWCT06 = 900,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_PUNISHED_EAGLE] =
 	{
@@ -12378,11 +12357,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVampire = 53,
 		.priceChaos = 7,
 		.priceWarrior = 58,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_PYRAMID_TURTLE] =
 	{
@@ -12415,11 +12394,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceEdison = 44,
 		.priceFrog = 11,
 		.priceTengu = 22,
+		.priceWCT06 = 900,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_RAIGEKI] =
 	{
@@ -12453,11 +12432,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceScientist = 1000,
 		.priceVampire = 1000,
 		.priceChaos = 1000,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_RAIGEKI_BREAK] =
 	{
@@ -12498,11 +12477,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceRavineRuler = 330,
 		.priceFireWater = 102,
 		.priceVegas = 43,
+		.priceWCT06 = 900,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_REAPER_ON_THE_NIGHTMARE] =
 	{
@@ -12541,11 +12520,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceDADReturn = 23,
 		.priceGladiator = 151,
 		.priceEdison = 22,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_REASONING] =
 	{
@@ -12579,11 +12558,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceWindUp = 18,
 		.priceMiami = 27,
 		.priceHAT = 98,
+		.priceWCT06 = 600,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_RECKLESS_GREED] =
 	{
@@ -12618,11 +12597,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceWindUp = 143,
 		.priceRavineRuler = 117,
 		.priceVegas = 87,
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_REFLECT_BOUNDER] =
 	{
@@ -12647,11 +12626,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceChaos = 89,
 		.priceCyber = 136,
+		.priceWCT06 = 900,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_REINFORCEMENT_OF_THE_ARMY] =
 	{
@@ -12704,11 +12683,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceFireWater = 111,
 		.priceVegas = 174,
 		.priceHAT = 197,
+		.priceWCT06 = 950,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_REINFORCEMENTS] =
 	{
@@ -12733,11 +12712,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceYK = 976,
 		.priceCritter = 37,
+		.priceWCT06 = 400,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_RELINQUISHED] =
 	{
@@ -12763,11 +12742,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceChaos = 30,
 		.priceGoat = 14,
 		.priceDemise = 33,
+		.priceWCT06 = 500,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_RELOAD] =
 	{
@@ -12793,11 +12772,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceChaos = 37,
 		.priceWarrior = 87,
 		.priceBabyRuler = 19,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_REMOVE_TRAP] =
 	{
@@ -12822,11 +12801,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceYK = 138,
 		.priceCritter = 12,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_RESCUE_CAT] =
 	{
@@ -12858,11 +12837,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceCat = 352,
 		.priceEdison = 44,
 		.priceFrog = 494,
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_RETURN_FROM_THE_DIFFERENT_DIMENSION] =
 	{
@@ -12902,11 +12881,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceMiami = 27,
 		.priceMeadowlands = 42,
 		.priceRavineRuler = 772,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_RIGHT_ARM_OF_THE_FORBIDDEN_ONE] =
 	{
@@ -12931,11 +12910,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceCritter = 111,
 		.priceJoeyPegasus = 71,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_RIGHT_LEG_OF_THE_FORBIDDEN_ONE] =
 	{
@@ -12960,11 +12939,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceCritter = 111,
 		.priceJoeyPegasus = 71,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_RING_OF_DESTRUCTION] =
 	{
@@ -12996,11 +12975,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceCyber = 955,
 		.priceDemise = 925,
 		.priceTrooper = 1000,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_RISING_AIR_CURRENT] =
 	{
@@ -13024,11 +13003,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 4935,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.pricePerfectCircle = 20,
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_ROARING_OCEAN_SNAKE] =
 	{
@@ -13067,7 +13046,6 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_ROBBIN_GOBLIN] =
 	{
@@ -13092,11 +13070,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceCritter = 568,
 		.priceTreasure = 178,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_ROULETTE_BARREL] =
 	{
@@ -13121,11 +13099,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceChaos = 15,
 		.priceGoat = 7,
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_ROYAL_DECREE] =
 	{
@@ -13174,11 +13152,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceBabyRuler = 101,
 		.priceRavineRuler = 204,
 		.priceFireWater = 28,
+		.priceWCT06 = 950,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_ROYAL_MAGICAL_LIBRARY] =
 	{
@@ -13202,11 +13180,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 5658,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceDADReturn = 14,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_ROYAL_OPPRESSION] =
 	{
@@ -13245,7 +13223,6 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_RUSH_RECKLESSLY] =
 	{
@@ -13271,11 +13248,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceTreasure = 289,
 		.priceDemise = 17,
 		.priceZombie = 6,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_RYU_KOKKI] =
 	{
@@ -13301,11 +13278,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceReaper = 21,
 		.priceZombie = 138,
 		.priceDADReturn = 9,
+		.priceWCT06 = 900,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_RYU_SENSHI] =
 	{
@@ -13344,11 +13321,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceDADReturn = 18,
 		.priceFrog = 4,
 		.priceBabyRuler = 6,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SABER_BEETLE] =
 	{
@@ -13371,11 +13348,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_INSECT,
 		.id = 6601,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 600,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SACRED_CRANE] =
 	{
@@ -13400,11 +13377,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceWarrior = 58,
 		.priceGoat = 34,
+		.priceWCT06 = 550,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SACRED_PHOENIX_OF_NEPHTHYS] =
 	{
@@ -13429,11 +13406,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceReaper = 31,
 		.priceFireWater = 9,
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SAKURETSU_ARMOR] =
 	{
@@ -13468,11 +13445,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.pricePerfectCircle = 20,
 		.priceFrog = 8,
 		.priceBabyRuler = 19,
+		.priceWCT06 = 950,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SALVAGE] =
 	{
@@ -13504,11 +13481,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceFireWater = 65,
 		.priceVegas = 43,
 		.priceHAT = 16,
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SAND_MOTH] =
 	{
@@ -13531,11 +13508,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_ROCK,
 		.id = 6610,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SANGAN] =
 	{
@@ -13587,11 +13564,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceDinoRabbit = 844,
 		.priceWindUp = 393,
 		.priceMiami = 459,
+		.priceWCT06 = 950,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SANWITCH] =
 	{
@@ -13626,11 +13603,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceCat = 6,
 		.priceTengu = 11,
 		.priceBabyRuler = 6,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SASUKE_SAMURAI] =
 	{
@@ -13658,11 +13635,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVampire = 88,
 		.priceChaos = 7,
 		.priceReaper = 10,
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SASUKE_SAMURAI_4] =
 	{
@@ -13687,11 +13664,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceReaper = 10,
 		.priceZombie = 17,
+		.priceWCT06 = 600,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SCAPEGOAT] =
 	{
@@ -13739,11 +13716,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceTengu = 226,
 		.priceMeadowlands = 42,
 		.priceRavineRuler = 24,
+		.priceWCT06 = 900,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SEA_SERPENT_WARRIOR_OF_DARKNESS] =
 	{
@@ -13766,11 +13743,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_SEA_SERPENT,
 		.id = 5874,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SECOND_COIN_TOSS] =
 	{
@@ -13793,11 +13770,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_NONE,
 		.id = 5391,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 550,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SECRET_BARREL] =
 	{
@@ -13830,11 +13807,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceZombie = 34,
 		.priceWindUp = 36,
 		.priceRavineRuler = 15,
+		.priceWCT06 = 900,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SELF_DESTRUCT_BUTTON] =
 	{
@@ -13858,11 +13835,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 5916,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceWarrior = 72,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SERIAL_SPELL] =
 	{
@@ -13886,11 +13863,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 6206,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceWarrior = 87,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SERPENTINE_PRINCESS] =
 	{
@@ -13913,11 +13890,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_REPTILE,
 		.id = 5025,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SEVEN_TOOLS_OF_THE_BANDIT] =
 	{
@@ -13958,11 +13935,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceRavineRuler = 39,
 		.priceFireWater = 46,
 		.priceVegas = 87,
+		.priceWCT06 = 550,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SHINING_ANGEL] =
 	{
@@ -13990,11 +13967,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceWarrior = 43,
 		.priceGoat = 41,
 		.priceChaosReturn = 52,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SHRINK] =
 	{
@@ -14030,7 +14007,6 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SILLVA_WARLORD_OF_DARK_WORLD] =
 	{
@@ -14059,11 +14035,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceDinoRabbit = 10,
 		.priceWindUp = 48,
 		.priceMiami = 18,
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SILPHEED] =
 	{
@@ -14087,11 +14063,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 5832,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceReaper = 21,
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SINISTER_SERPENT] =
 	{
@@ -14123,11 +14099,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceWarrior = 391,
 		.priceGoat = 571,
 		.priceCyber = 455,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SKILL_DRAIN] =
 	{
@@ -14171,11 +14147,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceRavineRuler = 359,
 		.priceFireWater = 250,
 		.priceHAT = 148,
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SKILLED_DARK_MAGICIAN] =
 	{
@@ -14203,11 +14179,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceWarrior = 14,
 		.priceGoat = 7,
 		.priceReaper = 10,
+		.priceWCT06 = 900,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SKILLED_WHITE_MAGICIAN] =
 	{
@@ -14231,11 +14207,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 5648,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceWarrior = 14,
+		.priceWCT06 = 850,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SKULL_DOG_MARRON] =
 	{
@@ -14258,11 +14234,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_BEAST,
 		.id = 6095,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SKULL_KNIGHT] =
 	{
@@ -14299,7 +14275,6 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SKULL_LAIR] =
 	{
@@ -14326,11 +14301,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceJoeyPegasus = 262,
 		.priceFiber = 109,
 		.priceDemise = 33,
+		.priceWCT06 = 550,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SKY_SCOUT] =
 	{
@@ -14357,7 +14332,6 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SLATE_WARRIOR] =
 	{
@@ -14382,11 +14356,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceVampire = 35,
 		.priceReaper = 31,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SMASHING_GROUND] =
 	{
@@ -14429,11 +14403,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceDinoRabbit = 42,
 		.priceMiami = 45,
 		.priceRavineRuler = 10,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SNATCH_STEAL] =
 	{
@@ -14472,11 +14446,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceChaosReturn = 1000,
 		.priceDemise = 950,
 		.priceTrooper = 944,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SOLEMN_JUDGMENT] =
 	{
@@ -14530,11 +14504,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceMiami = 784,
 		.priceMeadowlands = 375,
 		.priceBabyRuler = 415,
+		.priceWCT06 = 950,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SOLEMN_WISHES] =
 	{
@@ -14562,11 +14536,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceJoeyPegasus = 48,
 		.priceFiber = 31,
 		.priceYata = 40,
+		.priceWCT06 = 500,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SOUL_EXCHANGE] =
 	{
@@ -14609,11 +14583,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceStarstrike = 48,
 		.priceTengu = 11,
 		.priceDinoRabbit = 21,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SOUL_TIGER] =
 	{
@@ -14636,11 +14610,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_BEAST,
 		.id = 5813,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SPEAR_CRETIN] =
 	{
@@ -14664,11 +14638,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 4923,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceTreasure = 133,
+		.priceWCT06 = 600,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SPEAR_DRAGON] =
 	{
@@ -14695,11 +14669,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceYata = 20,
 		.priceWarrior = 43,
 		.priceGoat = 14,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SPELL_CANCELLER] =
 	{
@@ -14729,11 +14703,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceZombie = 29,
 		.priceDADReturn = 171,
 		.priceBabyRuler = 25,
+		.priceWCT06 = 450,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SPELL_REPRODUCTION] =
 	{
@@ -14757,11 +14731,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 5354,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceWarrior = 87,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SPIRIT_OF_THE_HARP] =
 	{
@@ -14785,11 +14759,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 4176,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceYK = 220,
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SPIRIT_REAPER] =
 	{
@@ -14836,11 +14810,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceDinoRabbit = 62,
 		.priceWindUp = 48,
 		.priceMiami = 63,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SPIRITUAL_EARTH_ART_KUROGANE] =
 	{
@@ -14863,11 +14837,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_NONE,
 		.id = 6439,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SPIRITUAL_WATER_ART_AOI] =
 	{
@@ -14892,11 +14866,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceEdison = 15,
 		.priceFrog = 19,
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SPIRITUAL_WIND_ART_MIYABI] =
 	{
@@ -14920,11 +14894,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 6442,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceReaper = 31,
+		.priceWCT06 = 600,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SPIRITUALISM] =
 	{
@@ -14951,11 +14925,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceChaos = 15,
 		.priceZombie = 11,
 		.priceMeadowlands = 14,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_ST_JOAN] =
 	{
@@ -14989,11 +14963,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceReaper = 10,
 		.priceTrooper = 37,
 		.pricePerfectCircle = 29,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_STEALTH_BIRD] =
 	{
@@ -15018,11 +14992,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceReaper = 21,
 		.priceDemise = 17,
+		.priceWCT06 = 900,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_STEAM_GYROID] =
 	{
@@ -15051,11 +15025,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceTrooper = 130,
 		.pricePerfectCircle = 10,
 		.priceGladiator = 5,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_STONE_STATUE_OF_THE_AZTECS] =
 	{
@@ -15078,11 +15052,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_ROCK,
 		.id = 4754,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_STOP_DEFENSE] =
 	{
@@ -15107,11 +15081,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceYK = 138,
 		.priceCritter = 12,
+		.priceWCT06 = 400,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SUMMONED_SKULL] =
 	{
@@ -15139,11 +15113,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceTreasure = 22,
 		.priceAndroid = 13,
 		.priceVampire = 18,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SUPER_ROBOLADY] =
 	{
@@ -15174,11 +15148,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceGoat = 61,
 		.priceReaper = 10,
 		.priceBabyRuler = 6,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SUPER_ROBOYAROU] =
 	{
@@ -15210,11 +15184,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceGoat = 82,
 		.priceReaper = 10,
 		.priceBabyRuler = 6,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SWARM_OF_LOCUSTS] =
 	{
@@ -15237,11 +15211,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_INSECT,
 		.id = 5419,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SWARM_OF_SCARABS] =
 	{
@@ -15264,11 +15238,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_INSECT,
 		.id = 5418,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_SWORDS_OF_REVEALING_LIGHT] =
 	{
@@ -15314,11 +15288,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceDADReturn = 122,
 		.priceCat = 56,
 		.priceBabyRuler = 19,
+		.priceWCT06 = 850,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_TERRAFORMING] =
 	{
@@ -15348,11 +15322,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceMeadowlands = 14,
 		.priceBabyRuler = 6,
 		.priceRavineRuler = 228,
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_THE_BIG_MARCH_OF_ANIMALS] =
 	{
@@ -15376,11 +15350,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 6274,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceReaper = 31,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_THE_DRAGON_DWELLING_IN_THE_CAVE] =
 	{
@@ -15407,7 +15381,6 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_THE_FIEND_MEGACYBER] =
 	{
@@ -15433,11 +15406,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceImperial = 262,
 		.priceFiber = 8,
 		.priceWarrior = 29,
+		.priceWCT06 = 600,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_THE_FORCEFUL_SENTRY] =
 	{
@@ -15470,11 +15443,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVampire = 1000,
 		.priceChaos = 1000,
 		.priceWarrior = 870,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_THE_FORGIVING_MAIDEN] =
 	{
@@ -15497,11 +15470,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_FAIRY,
 		.id = 5207,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET] =
 	{
@@ -15542,11 +15515,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceDADReturn = 18,
 		.priceFrog = 4,
 		.priceBabyRuler = 6,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_THE_LITTLE_SWORDSMAN_OF_AILE] =
 	{
@@ -15570,11 +15543,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 4268,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceVampire = 70,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_THE_WICKED_WORM_BEAST] =
 	{
@@ -15598,11 +15571,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 4029,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceYK = 146,
+		.priceWCT06 = 550,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_THESTALOS_THE_FIRESTORM_MONARCH] =
 	{
@@ -15636,11 +15609,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceCat = 12,
 		.priceFrog = 4,
 		.priceStarstrike = 18,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_THOUSAND_DRAGON] =
 	{
@@ -15674,11 +15647,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.pricePerfectCircle = 10,
 		.priceGladiator = 9,
 		.priceBabyRuler = 6,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_THOUSAND_EYES_RESTRICT] =
 	{
@@ -15714,11 +15687,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceCyber = 682,
 		.priceReaper = 1000,
 		.priceChaosReturn = 1000,
+		.priceWCT06 = 950,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_THREATENING_ROAR] =
 	{
@@ -15757,11 +15730,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceFrog = 15,
 		.priceWindUp = 48,
 		.priceMiami = 27,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_THROWSTONE_UNIT] =
 	{
@@ -15784,11 +15757,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_WARRIOR,
 		.id = 5317,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_THUNDER_DRAGON] =
 	{
@@ -15821,11 +15794,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceReaper = 31,
 		.priceChaosReturn = 94,
 		.priceDADReturn = 41,
+		.priceWCT06 = 350,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_THUNDER_NYAN_NYAN] =
 	{
@@ -15849,11 +15822,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 5028,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceChaos = 52,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_TIME_SEAL] =
 	{
@@ -15883,11 +15856,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceYata = 61,
 		.priceChaos = 22,
 		.priceGoat = 61,
+		.priceWCT06 = 800,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_TOON_CANNON_SOLDIER] =
 	{
@@ -15911,11 +15884,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 5477,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceDADReturn = 14,
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_TOON_DARK_MAGICIAN_GIRL] =
 	{
@@ -15938,11 +15911,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_SPELLCASTER,
 		.id = 5450,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_TOON_GEMINI_ELF] =
 	{
@@ -15965,11 +15938,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_SPELLCASTER,
 		.id = 5476,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 900,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_TOON_GOBLIN_ATTACK_FORCE] =
 	{
@@ -15993,11 +15966,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 5478,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceGoat = 14,
+		.priceWCT06 = 550,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_TOON_MASKED_SORCERER] =
 	{
@@ -16020,11 +15993,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_SPELLCASTER,
 		.id = 5475,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 600,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_TOON_TABLE_OF_CONTENTS] =
 	{
@@ -16049,11 +16022,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceGoat = 20,
 		.priceDADReturn = 41,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_TORRENTIAL_TRIBUTE] =
 	{
@@ -16109,11 +16082,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceFireWater = 806,
 		.priceVegas = 739,
 		.priceHAT = 934,
+		.priceWCT06 = 950,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_TRAP_DUSTSHOOT] =
 	{
@@ -16157,11 +16130,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceFrog = 552,
 		.priceStarstrike = 182,
 		.priceTengu = 839,
+		.priceWCT06 = 900,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_TRAP_HOLE] =
 	{
@@ -16203,11 +16176,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceRavineRuler = 10,
 		.priceFireWater = 28,
 		.priceVegas = 14,
+		.priceWCT06 = 550,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_TRAP_MASTER] =
 	{
@@ -16233,11 +16206,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceYK = 382,
 		.priceCritter = 12,
 		.priceGoat = 7,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_TREEBORN_FROG] =
 	{
@@ -16272,11 +16245,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceFrog = 167,
 		.priceStarstrike = 30,
 		.priceDinoRabbit = 21,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_TREMENDOUS_FIRE] =
 	{
@@ -16302,11 +16275,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceCritter = 12,
 		.priceDemise = 17,
 		.priceZombie = 11,
+		.priceWCT06 = 350,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_TRIBE_INFECTING_VIRUS] =
 	{
@@ -16335,11 +16308,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceWarrior = 826,
 		.priceGoat = 837,
 		.priceCyber = 773,
+		.priceWCT06 = 950,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_TRIBUTE_TO_THE_DOOMED] =
 	{
@@ -16370,7 +16343,6 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_TSUKUYOMI] =
 	{
@@ -16401,11 +16373,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceChaosReturn = 500,
 		.priceMiami = 54,
 		.priceBabyRuler = 443,
+		.priceWCT06 = 950,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_TWIN_HEADED_BEHEMOTH] =
 	{
@@ -16431,11 +16403,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceFiber = 23,
 		.priceVampire = 53,
 		.priceDemise = 50,
+		.priceWCT06 = 850,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_TWIN_HEADED_THUNDER_DRAGON] =
 	{
@@ -16473,11 +16445,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceReaper = 31,
 		.priceChaosReturn = 21,
 		.priceTrooper = 19,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_ULTIMATE_INSECT_LV3] =
 	{
@@ -16501,11 +16473,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 6178,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceReaper = 10,
+		.priceWCT06 = 600,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_ULTIMATE_INSECT_LV5] =
 	{
@@ -16529,11 +16501,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 6238,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceReaper = 10,
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_ULTIMATE_INSECT_LV7] =
 	{
@@ -16556,11 +16528,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_INSECT,
 		.id = 6319,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 500,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_ULTIMATE_OFFERING] =
 	{
@@ -16588,11 +16560,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceTengu = 32,
 		.priceMeadowlands = 42,
 		.priceBabyRuler = 19,
+		.priceWCT06 = 500,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_UNITED_WE_STAND] =
 	{
@@ -16624,11 +16596,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceTrooper = 56,
 		.priceZombie = 17,
 		.priceTeleDAD = 27,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_UPSTART_GOBLIN] =
 	{
@@ -16675,11 +16647,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceFireWater = 426,
 		.priceVegas = 478,
 		.priceHAT = 508,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_VAMPIRE_LORD] =
 	{
@@ -16705,11 +16677,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceVampire = 53,
 		.priceReaper = 10,
 		.priceZombie = 11,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_VORSE_RAIDER] =
 	{
@@ -16733,11 +16705,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 5004,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceMiami = 135,
+		.priceWCT06 = 750,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_WABOKU] =
 	{
@@ -16784,11 +16756,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceWindUp = 12,
 		.priceBabyRuler = 13,
 		.priceRavineRuler = 63,
+		.priceWCT06 = 500,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_WALL_OF_ILLUSION] =
 	{
@@ -16814,11 +16786,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceYK = 715,
 		.priceCritter = 407,
 		.priceTreasure = 67,
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_WALL_OF_REVEALING_LIGHT] =
 	{
@@ -16844,11 +16816,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceWarrior = 87,
 		.priceTrooper = 111,
 		.priceZombie = 121,
+		.priceWCT06 = 800,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_WARRIOR_OF_TRADITION] =
 	{
@@ -16878,11 +16850,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceYata = 10,
 		.priceChaos = 22,
 		.priceReaper = 62,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_WAVE_MOTION_CANNON] =
 	{
@@ -16911,11 +16883,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceZombie = 161,
 		.pricePerfectCircle = 39,
 		.priceDADReturn = 41,
+		.priceWCT06 = 900,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_WHITE_DRAGON_RITUAL] =
 	{
@@ -16938,11 +16910,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_NONE,
 		.id = 5601,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_WHITE_MAGICAL_HAT] =
 	{
@@ -16969,11 +16941,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceTreasure = 22,
 		.priceAndroid = 13,
 		.priceYata = 10,
+		.priceWCT06 = 500,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_WIDESPREAD_RUIN] =
 	{
@@ -17003,11 +16975,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceDemise = 50,
 		.priceTrooper = 93,
 		.priceZombie = 46,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_WITCH_OF_THE_BLACK_FOREST] =
 	{
@@ -17040,11 +17012,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceScientist = 1000,
 		.priceVampire = 1000,
 		.priceChaos = 1000,
+		.priceWCT06 = 950,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_X_HEAD_CANNON] =
 	{
@@ -17067,11 +17039,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_MACHINE,
 		.id = 5504,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_XING_ZHEN_HU] =
 	{
@@ -17099,11 +17071,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceZombie = 6,
 		.priceGladiator = 9,
 		.priceMiami = 9,
+		.priceWCT06 = 50,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_YATA_GARASU] =
 	{
@@ -17131,11 +17103,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceScientist = 500,
 		.priceVampire = 632,
 		.priceChaos = 311,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_YOMI_SHIP] =
 	{
@@ -17159,11 +17131,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.id = 5521,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
 		.priceWarrior = 14,
+		.priceWCT06 = 700,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_ZABORG_THE_THUNDER_MONARCH] =
 	{
@@ -17196,11 +17168,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceZombie = 155,
 		.pricePerfectCircle = 20,
 		.priceDADReturn = 14,
+		.priceWCT06 = 1000,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_ZOMBYRA_THE_DARK] =
 	{
@@ -17236,11 +17208,11 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.priceZombie = 6,
 		.priceDADReturn = 5,
 		.priceCat = 6,
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
 	[CARD_ZURE_KNIGHT_OF_DARK_WORLD] =
 	{
@@ -17263,9 +17235,9 @@ const u8 gCardNameShortBag_ZureKnightofDarkWorld[] = _("Zure, Knight of Dark Wor
 		.race = RACE_FIEND,
 		.id = 6497,
 		.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},
+		.priceWCT06 = 650,
 		.priceCustom = 0,
 		.priceVendor1 = 0,
 		.priceVendor2 = 0,
 		.priceVendor3 = 0,
-		.priceVendor4 = 0,
 	},
