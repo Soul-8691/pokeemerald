@@ -116,6 +116,7 @@ enum WindowIds
 //==========EWRAM==========//
 static EWRAM_DATA struct MenuResources *sMenuDataPtr = NULL;
 static EWRAM_DATA u8 *sTilemapBuffers[2];
+static EWRAM_DATA u8 linesScrollDown = 0;
 
 //==========STATIC=DEFINES==========//
 static void Menu_RunSetup(void);
@@ -3132,16 +3133,48 @@ void Task_MenuTurnOff(u8 taskId)
     }
 }
 
+u32 ScrollDownHelper(const u8 *words, u8 lines)
+{
+    s32 i = 0;
+    u8 linesCount = 0;
+    u8 *str;
+    StringCopy(gStringVar4, words);
+
+    for (i = 0; gStringVar4[i] != EOS; i++)
+    {
+        str = &gStringVar4[i];
+        if (*str == CHAR_NEWLINE)
+            linesCount++;
+        if (linesCount == lines + 1)
+            return i + 1;
+    }
+
+    return i + 1;
+}
 
 /* This is the meat of the UI. This is where you wait for player inputs and can branch to other tasks accordingly */
 static void Task_MenuMain(u8 taskId)
 {
+    u16 card = CardIdMapping[gSpecialVar_ItemId];
+    u8 lines = gCardInfo[card].descriptionLines;
+    const u8 *cardDescription = gCardInfo[card].description;
+    
     if (JOY_NEW(B_BUTTON))
     {
+        linesScrollDown = 0;
         PlaySE(SE_PC_OFF);
         BeginNormalPaletteFade(0xFFFFFFFF, 0, 0, 16, RGB_BLACK);
         gTasks[taskId].func = Task_MenuTurnOff;
     }
+    if (JOY_NEW(DPAD_DOWN))
+    {
+        u32 scrollDown = ScrollDownHelper(cardDescription, linesScrollDown);
+        linesScrollDown += 1;
+        FillWindowPixelBuffer(WINDOW_1, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+        CopyWindowToVram(WINDOW_1, 3);
+        AddTextPrinterParameterized4(WINDOW_1, FONT_SMALL_NARROWER, 0, 0, 0, 0, sMenuWindowFontColors[FONT_WHITE], 0xFF, gStringVar4 + scrollDown);
+    }
+
 }
 
 
