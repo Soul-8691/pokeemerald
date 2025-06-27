@@ -3134,20 +3134,6 @@ void Task_MenuTurnOff(u8 taskId)
     }
 }
 
-u32 GetTextWidth(const u8 *words)
-{
-    s32 i = 0;
-    u8 linesCount = 0;
-    u8 *str;
-    StringCopy(gStringVar4, words);
-
-    for (i = 0; gStringVar4[i] != EOS; i++)
-    {
-    }
-
-    return i + 1;
-}
-
 void DrawScrolledText(const u8 *fullText, u32 startIndex, u8 linesToDraw)
 {
     u8 buffer[512];
@@ -3205,42 +3191,6 @@ u32 GetLineStartIndex(const u8 *text, u8 lineNum)
 
     return i;  // End of string if lineNum too large
 }
-
-u32 ScrollUpHelper(const u8 *words, u8 linesFromBottom)
-{
-    s32 len;
-    s32 linesSeen = 0;
-    s32 i;
-    StringCopy(gStringVar4, words);  // COPY FIRST
-    len = StringLength(gStringVar4);
-
-    // If you want to show the very first line, return 0 immediately
-    if (linesFromBottom == 0)
-        return 0;
-
-    DebugPrintf("ScrollUpHelper called with linesFromBottom=%d, string length=%d", linesFromBottom, len);
-
-    for (i = len - 1; i >= 0; i--)
-    {
-        if (gStringVar4[i] == CHAR_NEWLINE)
-        {
-            linesSeen++;
-            DebugPrintf("Found newline at %d, linesSeen=%d", i, linesSeen);
-            if (linesSeen == linesFromBottom)
-            {
-                s32 lineStart = i + 1;
-                while (lineStart > 0 && gStringVar4[lineStart - 1] != CHAR_NEWLINE)
-                    lineStart--;
-                DebugPrintf("Returning line start index %d", lineStart);
-                return lineStart;
-            }
-        }
-    }
-
-    DebugPrintf("Not enough lines, returning 0");
-    return 0;
-}
-
 
 #define NUM_VISIBLE_LINES 15
 
