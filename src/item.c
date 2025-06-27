@@ -900,9 +900,51 @@ u16 GetItemId(u16 itemId)
     return gItems[SanitizeItemId(itemId)].itemId;
 }
 
+u16 round_5(u16 num) {
+  int t1;
+  t1 = num % 5; 
+  if (t1 >= 2) // if the remainder is 2 or more, round up
+    num += (5 - t1);
+  else // otherwise, round down
+    num -= t1;
+  return num;
+}
+
 u16 GetItemPrice(u16 itemId)
 {
-    return gItems[SanitizeItemId(itemId)].price;
+    u16 card = CardIdMapping[itemId];
+    if (itemId < 377)
+        return gItems[SanitizeItemId(itemId)].price;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_YUGI_KAIBA)
+        return round_5(gCardInfo[card].priceYK) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_CRITTER)
+        return round_5(gCardInfo[card].priceCritter) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_TREASURE)
+        return round_5(gCardInfo[card].priceTreasure) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_IMPERIAL)
+        return round_5(gCardInfo[card].priceImperial) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_ANDROID)
+        return round_5(gCardInfo[card].priceAndroid) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_JOEY_PEGASUS)
+        return round_5(gCardInfo[card].priceJoeyPegasus) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_FIBER)
+        return round_5(gCardInfo[card].priceFiber) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_YATA)
+        return round_5(gCardInfo[card].priceYata) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_SCIENTIST)
+        return round_5(gCardInfo[card].priceScientist) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_VAMPIRE)
+        return round_5(gCardInfo[card].priceVampire) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_CHAOS)
+        return round_5(gCardInfo[card].priceChaos) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_WARRIOR)
+        return round_5(gCardInfo[card].priceWarrior) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_GOAT)
+        return round_5(gCardInfo[card].priceGoat) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_CYBER)
+        return round_5(gCardInfo[card].priceCyber) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_REAPER)
+        return round_5(gCardInfo[card].priceReaper) * 10;
 }
 
 u8 GetItemHoldEffect(u16 itemId)

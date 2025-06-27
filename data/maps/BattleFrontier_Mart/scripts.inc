@@ -1,6 +1,21 @@
 BattleFrontier_Mart_MapScripts::
 	.byte 0
 
+gText_YugiKaibaClerk::
+	.string "Welcome!\p"
+	.string "I'm the Yugi-Kaiba clerk.\n"
+	.string "How may I serve you?$"
+
+gText_CritterClerk::
+	.string "Welcome!\p"
+	.string "I'm the Critter clerk.\n"
+	.string "How may I serve you?$"
+	
+gText_TreasureClerk::
+	.string "Welcome!\p"
+	.string "I'm the Treasure clerk.\n"
+	.string "How may I serve you?$"
+
 BattleFrontier_Mart_EventScript_Clerk::
 	lock
 	faceplayer
@@ -11,9 +26,46 @@ BattleFrontier_Mart_EventScript_Clerk::
 	release
 	end
 
+BattleFrontier_Mart_EventScript_Clerk_YugiKaiba::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_YUGI_KAIBA
+	message gText_YugiKaibaClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_Pokemart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+BattleFrontier_Mart_EventScript_Clerk_Critter::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_CRITTER
+	message gText_CritterClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_Pokemart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+BattleFrontier_Mart_EventScript_Clerk_Treasure::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_TREASURE
+	message gText_TreasureClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_Pokemart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
 	.align 2
 BattleFrontier_Mart_Pokemart:
-	.2byte ITEM_4_STARRED_LADYBUG_OF_DOOM
+	.2byte ITEM_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP
+	.2byte ITEM_GIANT_SOLDIER_OF_STONE
+	.2byte ITEM_TRAP_HOLE
+	.2byte ITEM_SANGAN
+	.2byte ITEM_CONFISCATION
 	pokemartlistend
 
 BattleFrontier_Mart_EventScript_OldMan::
