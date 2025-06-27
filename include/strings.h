@@ -3030,5 +3030,20 @@ extern const u8 gText_TellHimTheWords[];
 extern const u8 gText_xLevel[];
 extern const u8 gText_xAtk[];
 extern const u8 gText_xDef[];
+extern const u8 gText_Spell[];
+extern const u8 gText_Trap[];
+extern const u8 gText_Ritual[];
+extern const u8 gText_RitualEffect[];
+extern const u8 gText_Effect[];
+extern const u8 gText_FlipEffect[];
+extern const u8 gText_Fusion[];
+extern const u8 gText_NormalMonster[];
+extern const u8 gText_Spirit[];
+extern const u8 gText_UnionEffect[];
+extern const u8 gText_Toon[];
+extern const u8 gText_Tuner[];
+extern const u8 gText_XYZ[];
+extern const u8 gText_Synchro[];
+extern const u8 gText_SynchroTuner[];
 
 #endif // GUARD_STRINGS_H

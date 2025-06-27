@@ -1920,3 +1920,11 @@ u8 CreateBigSprite(const struct SpriteTemplate *template, s16 x, s16 y, u8 subpr
     }
     return MAX_SPRITES;
 }
+
+u8 LoadSpritePaletteInSlot(const struct SpritePalette *palette, u8 paletteNum)
+{
+    paletteNum = min(15, paletteNum);
+    sSpritePaletteTags[paletteNum] = palette->tag;
+    DoLoadSpritePalette(palette->data, paletteNum * 16);
+    return paletteNum;
+}

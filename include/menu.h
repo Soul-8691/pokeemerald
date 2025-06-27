@@ -64,8 +64,8 @@ void ClearStdWindowAndFrameToTransparent(u8 windowId, bool8 copyToVram);
 void SetWindowTemplateFields(struct WindowTemplate *template, u8 bg, u8 left, u8 top, u8 width, u8 height, u8 paletteNum, u16 baseBlock);
 void DrawStdFrameWithCustomTileAndPalette(u8 windowId, bool8 copyToVram, u16 baseTileNum, u8 paletteNum);
 void ScheduleBgCopyTilemapToVram(u8 bgId);
-void PrintMenuTable(u8 windowId, u8 itemCount, const struct MenuAction *menuActions);
-u8 InitMenuInUpperLeftCornerNormal(u8 windowId, u8 itemCount, u8 initialCursorPos);
+void PrintMenuTable(u8 windowId, u16 itemCount, const struct MenuAction *menuActions);
+u8 InitMenuInUpperLeftCornerNormal(u8 windowId, u16 itemCount, u8 initialCursorPos);
 u8 Menu_GetCursorPos(void);
 s8 Menu_ProcessInput(void);
 s8 Menu_ProcessInputNoWrap(void);
@@ -82,12 +82,12 @@ void DoScheduledBgTilemapCopiesToVram(void);
 void ClearScheduledBgCopiesToVram(void);
 void AddTextPrinterParameterized4(u8 windowId, u8 fontId, u8 left, u8 top, u8 letterSpacing, u8 lineSpacing, const u8 *color, s8 speed, const u8 *str);
 void DrawDialogFrameWithCustomTileAndPalette(u8 windowId, bool8 copyToVram, u16 tileNum, u8 paletteNum);
-void PrintMenuActionTextsInUpperLeftCorner(u8 windowId, u8 itemCount, const struct MenuAction *menuActions, const u8 *actionIds);
+void PrintMenuActionTextsInUpperLeftCorner(u8 windowId, u16 itemCount, const struct MenuAction *menuActions, const u8 *actionIds);
 void ClearDialogWindowAndFrameToTransparent(u8 windowId, bool8 copyToVram);
 void *malloc_and_decompress(const void *src, u32 *size);
 u16 copy_decompressed_tile_data_to_vram(u8 bgId, const void *src, u16 size, u16 offset, u8 mode);
 void AddTextPrinterForMessage(bool8 allowSkippingDelayWithButtonPress);
-void PrintMenuActionTexts(u8 windowId, u8 fontId, u8 left, u8 top, u8 letterSpacing, u8 lineHeight, u8 itemCount, const struct MenuAction *menuActions, const u8 *actionIds);
+void PrintMenuActionTexts(u8 windowId, u8 fontId, u8 left, u8 top, u8 letterSpacing, u8 lineHeight, u16 itemCount, const struct MenuAction *menuActions, const u8 *actionIds);
 void PrintMenuActionGrid(u8 windowId, u8 fontId, u8 left, u8 top, u8 optionWidth, u8 horizontalCount, u8 verticalCount, const struct MenuAction *menuActions, const u8 *actionIds);
 u8 InitMenuActionGrid(u8 windowId, u8 optionWidth, u8 columns, u8 rows, u8 initialCursorPos);
 u8 ChangeMenuGridCursorPosition(s8 deltaX, s8 deltaY);
@@ -112,7 +112,7 @@ void AddValToTilemapBuffer(void *ptr, int delta, int width, int height, bool32 i
 void EraseFieldMessageBox(bool8 copyToVram);
 void PrintMenuGridTable(u8 windowId, u8 optionWidth, u8 columns, u8 rows, const struct MenuAction *menuActions);
 s8 Menu_ProcessGridInput(void);
-u8 InitMenuInUpperLeftCorner(u8 windowId, u8 itemCount, u8 initialCursorPos, bool8 APressMuted);
+u8 InitMenuInUpperLeftCorner(u8 windowId, u16 itemCount, u8 initialCursorPos, bool8 APressMuted);
 s8 Menu_ProcessInputNoWrapAround_other(void);
 void CopyToBufferFromBgTilemap(u8 bgId, u16 *dest, u8 left, u8 top, u8 width, u8 height);
 u8 HofPCTopBar_AddWindow(u8 bg, u8 xPos, u8 yPos, u8 palette, u16 baseTile);
@@ -122,7 +122,7 @@ void HofPCTopBar_PrintPair(const u8 *string, const u8 *string2, bool8 noBg, u8 l
 void ResetBgPositions(void);
 void AddTextPrinterWithCustomSpeedForMessage(bool8 allowSkippingDelayWithButtonPress, u8 speed);
 void EraseYesNoWindow(void);
-void PrintMenuActionTextsAtPos(u8 windowId, u8 fontId, u8 left, u8 top, u8 lineHeight, u8 itemCount, const struct MenuAction *menuActions);
+void PrintMenuActionTextsAtPos(u8 windowId, u8 fontId, u8 left, u8 top, u8 lineHeight, u16 itemCount, const struct MenuAction *menuActions);
 void Menu_LoadStdPal(void);
 
 #endif // GUARD_MENU_H

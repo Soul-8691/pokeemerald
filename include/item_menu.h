@@ -26,7 +26,7 @@ enum {
     ITEMWIN_1x2,
     ITEMWIN_2x2,
     ITEMWIN_2x3,
-    ITEMWIN_3x8,
+    ITEMWIN_4x12,
     ITEMWIN_MESSAGE,
     ITEMWIN_YESNO_LOW,
     ITEMWIN_YESNO_HIGH,
@@ -64,7 +64,7 @@ struct BagMenu
     u8 tilemapBuffer[BG_SCREEN_SIZE];
     u8 spriteIds[ITEMMENUSPRITE_COUNT];
     u8 windowIds[ITEMWIN_COUNT];
-    u8 toSwapPos;
+    u16 toSwapPos;
     u8 pocketSwitchDisabled:4;
     u8 itemIconSlot:2;
     u8 inhibitItemDescriptionPrint:1;
@@ -73,9 +73,9 @@ struct BagMenu
     u8 pocketScrollArrowsTask;
     u8 pocketSwitchArrowsTask;
     const u8 *contextMenuItemsPtr;
-    u8 contextMenuItemsBuffer[24];
+    u8 contextMenuItemsBuffer[48];
     u8 contextMenuNumItems;
-    u8 numItemStacks[POCKETS_COUNT];
+    u16 numItemStacks[POCKETS_COUNT];
     u8 numShownItems[POCKETS_COUNT];
     s16 graphicsLoadState;
     u8 unused2[14];

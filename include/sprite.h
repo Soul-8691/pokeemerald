@@ -320,5 +320,6 @@ void ResetAffineAnimData(void);
 u8 CreateBigSpriteAt(u8 index, const struct SpriteTemplate *template, s16 x, s16 y, u8 subpriority);
 u8 CreateBigSprite(const struct SpriteTemplate *template, s16 x, s16 y, u8 subpriority);
 s16 AllocSpriteTiles(u16 tileCount);
+u8 LoadSpritePaletteInSlot(const struct SpritePalette *palette, u8 paletteNum);
 
 #endif //GUARD_SPRITE_H

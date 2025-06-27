@@ -1098,7 +1098,7 @@ s8 Menu_ProcessInputNoWrapAround_other(void)
     return MENU_NOTHING_CHOSEN;
 }
 
-void PrintMenuActionTextsAtPos(u8 windowId, u8 fontId, u8 left, u8 top, u8 lineHeight, u8 itemCount, const struct MenuAction *menuActions)
+void PrintMenuActionTextsAtPos(u8 windowId, u8 fontId, u8 left, u8 top, u8 lineHeight, u16 itemCount, const struct MenuAction *menuActions)
 {
     u8 i;
     for (i = 0; i < itemCount; i++)
@@ -1106,7 +1106,7 @@ void PrintMenuActionTextsAtPos(u8 windowId, u8 fontId, u8 left, u8 top, u8 lineH
     CopyWindowToVram(windowId, COPYWIN_GFX);
 }
 
-static void UNUSED PrintMenuActionTextsWithSpacing(u8 windowId, u8 fontId, u8 left, u8 top, u8 lineHeight, u8 itemCount, const struct MenuAction *menuActions, u8 letterSpacing, u8 lineSpacing)
+static void UNUSED PrintMenuActionTextsWithSpacing(u8 windowId, u8 fontId, u8 left, u8 top, u8 lineHeight, u16 itemCount, const struct MenuAction *menuActions, u8 letterSpacing, u8 lineSpacing)
 {
     u8 i;
     for (i = 0; i < itemCount; i++)
@@ -1114,12 +1114,12 @@ static void UNUSED PrintMenuActionTextsWithSpacing(u8 windowId, u8 fontId, u8 le
     CopyWindowToVram(windowId, COPYWIN_GFX);
 }
 
-static void UNUSED PrintMenuActionTextsAtTop(u8 windowId, u8 fontId, u8 lineHeight, u8 itemCount, const struct MenuAction *menuActions)
+static void UNUSED PrintMenuActionTextsAtTop(u8 windowId, u8 fontId, u8 lineHeight, u16 itemCount, const struct MenuAction *menuActions)
 {
     PrintMenuActionTextsAtPos(windowId, fontId, GetFontAttribute(fontId, FONTATTR_MAX_LETTER_WIDTH), 1, lineHeight, itemCount, menuActions);
 }
 
-void PrintMenuActionTexts(u8 windowId, u8 fontId, u8 left, u8 top, u8 letterSpacing, u8 lineHeight, u8 itemCount, const struct MenuAction *menuActions, const u8 *actionIds)
+void PrintMenuActionTexts(u8 windowId, u8 fontId, u8 left, u8 top, u8 letterSpacing, u8 lineHeight, u16 itemCount, const struct MenuAction *menuActions, const u8 *actionIds)
 {
     u8 i;
     struct TextPrinterTemplate printer;
@@ -1146,7 +1146,7 @@ void PrintMenuActionTexts(u8 windowId, u8 fontId, u8 left, u8 top, u8 letterSpac
     CopyWindowToVram(windowId, COPYWIN_GFX);
 }
 
-static void UNUSED PrintMenuActionTextsAtTopById(u8 windowId, u8 fontId, u8 lineHeight, u8 itemCount, const struct MenuAction *menuActions, const u8 *actionIds)
+static void UNUSED PrintMenuActionTextsAtTopById(u8 windowId, u8 fontId, u8 lineHeight, u16 itemCount, const struct MenuAction *menuActions, const u8 *actionIds)
 {
     PrintMenuActionTexts(windowId, fontId, GetFontAttribute(fontId, FONTATTR_MAX_LETTER_WIDTH), 1, GetFontAttribute(fontId, FONTATTR_LETTER_SPACING), lineHeight, itemCount, menuActions, actionIds);
 }
@@ -1324,74 +1324,76 @@ static void MoveMenuGridCursor(u8 oldCursorPos, u8 newCursorPos)
     AddTextPrinterParameterized(sMenu.windowId, sMenu.fontId, gText_SelectorArrow3, xPos, yPos, 0, 0);
 }
 
+void DebugPrintCursorState(void)
+{
+    u8 row = sMenu.cursorPos / sMenu.columns;
+    u8 col = sMenu.cursorPos % sMenu.columns;
+    u8 x = col * sMenu.optionWidth + sMenu.left;
+    u8 y = row * sMenu.optionHeight + sMenu.top;
+
+    DebugPrintf("Pos: %d (row=%d, col=%d) at (%d, %d)", sMenu.cursorPos, row, col, x, y);
+    DebugPrintf("columns=%d, rows=%d", sMenu.columns, sMenu.rows);
+}
+
 u8 ChangeMenuGridCursorPosition(s8 deltaX, s8 deltaY)
 {
     u8 oldPos = sMenu.cursorPos;
+    s8 column = sMenu.cursorPos % sMenu.columns;
+    s8 row = sMenu.cursorPos / sMenu.columns;
 
-    if (deltaX != 0)
-    {
-        if ((sMenu.cursorPos % sMenu.columns) + deltaX < 0)
-            sMenu.cursorPos += sMenu.columns - 1;
-        else if ((sMenu.cursorPos % sMenu.columns) + deltaX >= sMenu.columns)
-            sMenu.cursorPos = (sMenu.cursorPos / sMenu.columns) * sMenu.columns;
-        else
-            sMenu.cursorPos += deltaX;
-    }
+    s8 newColumn = column + deltaX;
+    s8 newRow = row + deltaY;
 
-    if (deltaY != 0)
-    {
-        if ((sMenu.cursorPos / sMenu.columns) + deltaY < 0)
-            sMenu.cursorPos += sMenu.columns * (sMenu.rows - 1);
-        else if ((sMenu.cursorPos / sMenu.columns) + deltaY >= sMenu.rows)
-            sMenu.cursorPos -= sMenu.columns * (sMenu.rows - 1);
-        else
-            sMenu.cursorPos += (sMenu.columns * deltaY);
-    }
+    // Clamp or wrap horizontal movement
+    if (newColumn < 0)
+        newColumn = sMenu.columns - 1;
+    else if (newColumn >= sMenu.columns)
+        newColumn = 0;
+
+    // Clamp or wrap vertical movement
+    if (newRow < 0)
+        newRow = sMenu.rows - 1;
+    else if (newRow >= sMenu.rows)
+        newRow = 0;
+
+    sMenu.cursorPos = newRow * sMenu.columns + newColumn;
 
     if (sMenu.cursorPos > sMenu.maxCursorPos)
     {
         sMenu.cursorPos = oldPos;
-        return sMenu.cursorPos;
+        return oldPos;
     }
-    else
-    {
-        MoveMenuGridCursor(oldPos, sMenu.cursorPos);
-        return sMenu.cursorPos;
-    }
+
+    MoveMenuGridCursor(oldPos, sMenu.cursorPos);
+    return sMenu.cursorPos;
 }
 
 u8 ChangeGridMenuCursorPosition(s8 deltaX, s8 deltaY)
 {
     u8 oldPos = sMenu.cursorPos;
 
-    if (deltaX != 0)
-    {
-        if (((sMenu.cursorPos % sMenu.columns) + deltaX >= 0) &&
-        ((sMenu.cursorPos % sMenu.columns) + deltaX < sMenu.columns))
-        {
-            sMenu.cursorPos += deltaX;
-        }
-    }
+    s8 col = sMenu.cursorPos % sMenu.columns;
+    s8 row = sMenu.cursorPos / sMenu.columns;
 
-    if (deltaY != 0)
-    {
-        if (((sMenu.cursorPos / sMenu.columns) + deltaY >= 0) &&
-        ((sMenu.cursorPos / sMenu.columns) + deltaY < sMenu.rows))
-        {
-            sMenu.cursorPos += (sMenu.columns * deltaY);
-        }
-    }
+    s8 newCol = col + deltaX;
+    s8 newRow = row + deltaY;
+
+    // Clamp to within bounds
+    if (newCol < 0 || newCol >= sMenu.columns)
+        newCol = col;
+    if (newRow < 0 || newRow >= sMenu.rows)
+        newRow = row;
+
+    sMenu.cursorPos = newRow * sMenu.columns + newCol;
 
     if (sMenu.cursorPos > sMenu.maxCursorPos)
     {
         sMenu.cursorPos = oldPos;
-        return sMenu.cursorPos;
+        return oldPos;
     }
-    else
-    {
-        MoveMenuGridCursor(oldPos, sMenu.cursorPos);
-        return sMenu.cursorPos;
-    }
+
+    MoveMenuGridCursor(oldPos, sMenu.cursorPos);
+    return sMenu.cursorPos;
 }
 
 static s8 UNUSED Menu_ProcessGridInput_NoSoundLimit(void)
@@ -1554,7 +1556,7 @@ static s8 UNUSED Menu_ProcessGridInputRepeat(void)
     return MENU_NOTHING_CHOSEN;
 }
 
-u8 InitMenuInUpperLeftCorner(u8 windowId, u8 itemCount, u8 initialCursorPos, bool8 APressMuted)
+u8 InitMenuInUpperLeftCorner(u8 windowId, u16 itemCount, u8 initialCursorPos, bool8 APressMuted)
 {
     s32 pos;
 
@@ -1563,7 +1565,7 @@ u8 InitMenuInUpperLeftCorner(u8 windowId, u8 itemCount, u8 initialCursorPos, boo
     sMenu.minCursorPos = 0;
     sMenu.maxCursorPos = itemCount - 1;
     sMenu.windowId = windowId;
-    sMenu.fontId = FONT_NORMAL;
+    sMenu.fontId = FONT_SMALL_NARROWER_2;
     sMenu.optionHeight = 16;
     sMenu.APressMuted = APressMuted;
 
@@ -1578,12 +1580,12 @@ u8 InitMenuInUpperLeftCorner(u8 windowId, u8 itemCount, u8 initialCursorPos, boo
 }
 
 // There is no muted version of this function, so the version that plays sound when A is pressed is the "Normal" one.
-u8 InitMenuInUpperLeftCornerNormal(u8 windowId, u8 itemCount, u8 initialCursorPos)
+u8 InitMenuInUpperLeftCornerNormal(u8 windowId, u16 itemCount, u8 initialCursorPos)
 {
     return InitMenuInUpperLeftCorner(windowId, itemCount, initialCursorPos, FALSE);
 }
 
-void PrintMenuTable(u8 windowId, u8 itemCount, const struct MenuAction *menuActions)
+void PrintMenuTable(u8 windowId, u16 itemCount, const struct MenuAction *menuActions)
 {
     u32 i;
 
@@ -1593,7 +1595,7 @@ void PrintMenuTable(u8 windowId, u8 itemCount, const struct MenuAction *menuActi
     CopyWindowToVram(windowId, COPYWIN_GFX);
 }
 
-void PrintMenuActionTextsInUpperLeftCorner(u8 windowId, u8 itemCount, const struct MenuAction *menuActions, const u8 *actionIds)
+void PrintMenuActionTextsInUpperLeftCorner(u8 windowId, u16 itemCount, const struct MenuAction *menuActions, const u8 *actionIds)
 {
     u8 i;
     struct TextPrinterTemplate printer;
@@ -1697,9 +1699,9 @@ u8 InitMenuActionGrid(u8 windowId, u8 optionWidth, u8 columns, u8 rows, u8 initi
     sMenu.minCursorPos = 0;
     sMenu.maxCursorPos = (columns * rows) - 1;
     sMenu.windowId = windowId;
-    sMenu.fontId = FONT_NORMAL;
+    sMenu.fontId = FONT_SMALL_NARROWER_2;
     sMenu.optionWidth = optionWidth;
-    sMenu.optionHeight = 16;
+    sMenu.optionHeight = 12;
     sMenu.columns = columns;
     sMenu.rows = rows;
 
