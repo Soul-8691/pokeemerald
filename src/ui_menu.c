@@ -116,7 +116,8 @@ enum WindowIds
 //==========EWRAM==========//
 static EWRAM_DATA struct MenuResources *sMenuDataPtr = NULL;
 static EWRAM_DATA u8 *sTilemapBuffers[2];
-static EWRAM_DATA u8 linesScrollDown = 0;
+static EWRAM_DATA u8 sScrollDown = 0;
+static EWRAM_DATA bool8 sDidInitialDraw = FALSE;
 
 //==========STATIC=DEFINES==========//
 static void Menu_RunSetup(void);
@@ -3133,25 +3134,6 @@ void Task_MenuTurnOff(u8 taskId)
     }
 }
 
-u32 ScrollDownHelper(const u8 *words, u8 lines)
-{
-    s32 i = 0;
-    u8 linesCount = 0;
-    u8 *str;
-    StringCopy(gStringVar4, words);
-
-    for (i = 0; gStringVar4[i] != EOS; i++)
-    {
-        str = &gStringVar4[i];
-        if (*str == CHAR_NEWLINE)
-            linesCount++;
-        if (linesCount == lines + 1)
-            return i + 1;
-    }
-
-    return i + 1;
-}
-
 u32 GetTextWidth(const u8 *words)
 {
     s32 i = 0;
@@ -3166,59 +3148,142 @@ u32 GetTextWidth(const u8 *words)
     return i + 1;
 }
 
-u32 ScrollUpHelper(const u8 *words, u8 lines)
+void DrawScrolledText(const u8 *fullText, u32 startIndex, u8 linesToDraw)
 {
-    s32 i = 0;
-    u8 linesCount = 0;
-    u8 *str;
-    u16 textWidth = GetTextWidth(gStringVar4);
-    StringCopy(gStringVar4, words);
+    u8 buffer[512];
+    u32 i = startIndex;
+    u32 bufIndex = 0;
+    u8 lines = 0;
 
-    for (i = textWidth; gStringVar4[i] != EXT_CTRL_CODE_BEGIN; i--)
+    DebugPrintf("DrawScrolledText: startIndex=%d, linesToDraw=%d", startIndex, linesToDraw);
+
+    while (fullText[i] != EOS && lines < linesToDraw)
     {
-        str = &gStringVar4[i];
-        if (*str == CHAR_NEWLINE)
-            linesCount++;
-        if (linesCount == lines + 1)
-            return i + 1;
+        if (fullText[i] == CHAR_NEWLINE)
+            lines++;
+
+        buffer[bufIndex++] = fullText[i++];
     }
 
-    return i + 1;
+    buffer[bufIndex] = EOS;
+
+    DebugPrintf("Displayed text:\n%s", buffer);
+
+    // Draw to window
+    FillWindowPixelBuffer(WINDOW_1, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+    PutWindowTilemap(WINDOW_1);
+    AddTextPrinterParameterized4(WINDOW_1, FONT_SMALL_NARROWER, 0, 0, 0, 0, sMenuWindowFontColors[FONT_WHITE], 0xFF, buffer);
+    CopyWindowToVram(WINDOW_1, 3);
 }
 
-/* This is the meat of the UI. This is where you wait for player inputs and can branch to other tasks accordingly */
+u16 CountNumLines(const u8 *text)
+{
+    u16 i, count = 1;  // Start from 1 for the first line
+    for (i = 0; text[i] != EOS; i++)
+        if (text[i] == CHAR_NEWLINE)
+            count++;
+    return count;
+}
+
+u32 GetLineStartIndex(const u8 *text, u8 lineNum)
+{
+    u32 i = 0, currentLine = 0;
+
+    if (lineNum == 0)
+        return 0;
+
+    while (text[i] != EOS)
+    {
+        if (text[i] == CHAR_NEWLINE)
+        {
+            currentLine++;
+            if (currentLine == lineNum)
+                return i + 1;  // Start after newline
+        }
+        i++;
+    }
+
+    return i;  // End of string if lineNum too large
+}
+
+u32 ScrollUpHelper(const u8 *words, u8 linesFromBottom)
+{
+    s32 len;
+    s32 linesSeen = 0;
+    s32 i;
+    StringCopy(gStringVar4, words);  // COPY FIRST
+    len = StringLength(gStringVar4);
+
+    // If you want to show the very first line, return 0 immediately
+    if (linesFromBottom == 0)
+        return 0;
+
+    DebugPrintf("ScrollUpHelper called with linesFromBottom=%d, string length=%d", linesFromBottom, len);
+
+    for (i = len - 1; i >= 0; i--)
+    {
+        if (gStringVar4[i] == CHAR_NEWLINE)
+        {
+            linesSeen++;
+            DebugPrintf("Found newline at %d, linesSeen=%d", i, linesSeen);
+            if (linesSeen == linesFromBottom)
+            {
+                s32 lineStart = i + 1;
+                while (lineStart > 0 && gStringVar4[lineStart - 1] != CHAR_NEWLINE)
+                    lineStart--;
+                DebugPrintf("Returning line start index %d", lineStart);
+                return lineStart;
+            }
+        }
+    }
+
+    DebugPrintf("Not enough lines, returning 0");
+    return 0;
+}
+
+
+#define NUM_VISIBLE_LINES 15
+
 static void Task_MenuMain(u8 taskId)
 {
     u16 card = CardIdMapping[gSpecialVar_ItemId];
-    u8 lines = gCardInfo[card].descriptionLines;
     const u8 *cardDescription = gCardInfo[card].description;
-    u32 scrollDown = ScrollDownHelper(cardDescription, linesScrollDown);
-    
+    u8 totalLines = CountNumLines(cardDescription);
+    u32 startIdx;
+
+    if (!sDidInitialDraw)
+    {
+        sScrollDown = 0;
+        startIdx = GetLineStartIndex(cardDescription, sScrollDown);
+        DrawScrolledText(cardDescription, startIdx, NUM_VISIBLE_LINES);
+        DebugPrintf("Initial draw: totalLines=%d", totalLines);
+        sDidInitialDraw = TRUE;
+    }
+
     if (JOY_NEW(B_BUTTON))
     {
-        linesScrollDown = 0;
+        sScrollDown = 0;
+        sDidInitialDraw = FALSE;
         PlaySE(SE_PC_OFF);
         BeginNormalPaletteFade(0xFFFFFFFF, 0, 0, 16, RGB_BLACK);
         gTasks[taskId].func = Task_MenuTurnOff;
+        return;
     }
-    if (JOY_NEW(DPAD_DOWN))
+
+    if (JOY_NEW(DPAD_DOWN) && sScrollDown + NUM_VISIBLE_LINES < totalLines)
     {
-        linesScrollDown += 1;
-        FillWindowPixelBuffer(WINDOW_1, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-        PutWindowTilemap(WINDOW_1);
-        AddTextPrinterParameterized4(WINDOW_1, FONT_SMALL_NARROWER, 0, 0, 0, 0, sMenuWindowFontColors[FONT_WHITE], 0xFF, gStringVar4 + scrollDown);
-        CopyWindowToVram(WINDOW_1, 3);
+        sScrollDown++;
+        startIdx = GetLineStartIndex(cardDescription, sScrollDown);
+        DebugPrintf("DPAD_DOWN: sScrollDown=%d startIdx=%d", sScrollDown, startIdx);
+        DrawScrolledText(cardDescription, startIdx, NUM_VISIBLE_LINES);
     }
-    if (JOY_NEW(DPAD_UP))
+
+    if (JOY_NEW(DPAD_UP) && sScrollDown > 0)
     {
-        linesScrollDown -= 2;
-        scrollDown = ScrollDownHelper(cardDescription, linesScrollDown);
-        linesScrollDown += 1;
-        DebugPrintf("scrollDown=%d", scrollDown);
-        FillWindowPixelBuffer(WINDOW_1, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-        PutWindowTilemap(WINDOW_1);
-        AddTextPrinterParameterized4(WINDOW_1, FONT_SMALL_NARROWER, 0, 0, 0, 0, sMenuWindowFontColors[FONT_WHITE], 0xFF, gStringVar4 + scrollDown);
-        CopyWindowToVram(WINDOW_1, 3);
+        sScrollDown--;
+        startIdx = GetLineStartIndex(cardDescription, sScrollDown);
+        DebugPrintf("DPAD_UP: sScrollDown=%d startIdx=%d", sScrollDown, startIdx);
+        DrawScrolledText(cardDescription, startIdx, NUM_VISIBLE_LINES);
     }
 }
 
