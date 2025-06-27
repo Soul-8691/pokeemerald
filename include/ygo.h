@@ -7,7 +7,6 @@ struct CardInfo
     /* 0x04 */ const u8 *nameShort;
     /* 0x08 */ const u8 *nameShortBag;
     /* 0x0C */ const u8 *description;
-    /* 0x0C */ u8 descriptionLines;
     /* 0x10 */ const u8 password[9];
     /* 0x19 */ u8 unused1;
     /* 0x1A */ u16 unused2;

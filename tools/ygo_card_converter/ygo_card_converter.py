@@ -713,7 +713,7 @@ for data in card_info_data['data']:
                   + '\t\t.nameShort = gCardNameShort_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
                   + '\t\t.nameShortBag = gCardNameShortBag_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
                   + '\t\t.description = gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
-                  + "\t\t.descriptionLines = " + str(description_lines[card]) + ",\n"
+                  # + "\t\t.descriptionLines = " + str(description_lines[card]) + ",\n"
 				  + '\t\t.password = _("' + str(data['id']) + '"),\n'
                   + '\t\t.pic = gCardPicLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '_Big,\n'
                   + '\t\t.pal = gCardPalLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'

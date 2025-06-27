@@ -12747,7 +12747,6 @@ const struct CardInfo gCardInfo[] =
 		.nameShort = gCardNameShort_Relinquished,
 		.nameShortBag = gCardNameShortBag_Relinquished,
 		.description = gCardDescription_Relinquished,
-		.descriptionLines = 17,
 		.password = _("64631466"),
 		.pic = gCardPicLarge_Relinquished_Big,
 		.pal = gCardPalLarge_Relinquished,
