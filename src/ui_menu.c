@@ -3152,12 +3152,47 @@ u32 ScrollDownHelper(const u8 *words, u8 lines)
     return i + 1;
 }
 
+u32 GetTextWidth(const u8 *words)
+{
+    s32 i = 0;
+    u8 linesCount = 0;
+    u8 *str;
+    StringCopy(gStringVar4, words);
+
+    for (i = 0; gStringVar4[i] != EOS; i++)
+    {
+    }
+
+    return i + 1;
+}
+
+u32 ScrollUpHelper(const u8 *words, u8 lines)
+{
+    s32 i = 0;
+    u8 linesCount = 0;
+    u8 *str;
+    u16 textWidth = GetTextWidth(gStringVar4);
+    StringCopy(gStringVar4, words);
+
+    for (i = textWidth; gStringVar4[i] != EXT_CTRL_CODE_BEGIN; i--)
+    {
+        str = &gStringVar4[i];
+        if (*str == CHAR_NEWLINE)
+            linesCount++;
+        if (linesCount == lines + 1)
+            return i + 1;
+    }
+
+    return i + 1;
+}
+
 /* This is the meat of the UI. This is where you wait for player inputs and can branch to other tasks accordingly */
 static void Task_MenuMain(u8 taskId)
 {
     u16 card = CardIdMapping[gSpecialVar_ItemId];
     u8 lines = gCardInfo[card].descriptionLines;
     const u8 *cardDescription = gCardInfo[card].description;
+    u32 scrollDown = ScrollDownHelper(cardDescription, linesScrollDown);
     
     if (JOY_NEW(B_BUTTON))
     {
@@ -3168,13 +3203,23 @@ static void Task_MenuMain(u8 taskId)
     }
     if (JOY_NEW(DPAD_DOWN))
     {
-        u32 scrollDown = ScrollDownHelper(cardDescription, linesScrollDown);
         linesScrollDown += 1;
         FillWindowPixelBuffer(WINDOW_1, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-        CopyWindowToVram(WINDOW_1, 3);
+        PutWindowTilemap(WINDOW_1);
         AddTextPrinterParameterized4(WINDOW_1, FONT_SMALL_NARROWER, 0, 0, 0, 0, sMenuWindowFontColors[FONT_WHITE], 0xFF, gStringVar4 + scrollDown);
+        CopyWindowToVram(WINDOW_1, 3);
     }
-
+    if (JOY_NEW(DPAD_UP))
+    {
+        linesScrollDown -= 2;
+        scrollDown = ScrollDownHelper(cardDescription, linesScrollDown);
+        linesScrollDown += 1;
+        DebugPrintf("scrollDown=%d", scrollDown);
+        FillWindowPixelBuffer(WINDOW_1, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+        PutWindowTilemap(WINDOW_1);
+        AddTextPrinterParameterized4(WINDOW_1, FONT_SMALL_NARROWER, 0, 0, 0, 0, sMenuWindowFontColors[FONT_WHITE], 0xFF, gStringVar4 + scrollDown);
+        CopyWindowToVram(WINDOW_1, 3);
+    }
 }
 
 
