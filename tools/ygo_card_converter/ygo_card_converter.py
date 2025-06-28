@@ -573,6 +573,99 @@ Scripts = ''
 Graphics_File_Rules = ''
 card_counter = 1
 description_lines = dict()
+
+tcg_sets = set()
+TCG_Set_Writer = open('tcg_sets.json', 'w', encoding='utf-8')
+for data in card_info_data['data']:
+	try:
+		for set_ in data['card_sets']:
+			tcg_sets.add(set_['set_name'])
+	except:
+		pass
+
+tcg_sets_write = {}
+for set_ in tcg_sets:
+    tcg_sets_write[set_] = {}
+    for data in card_info_data['data']:
+        try:
+            for set__ in data['card_sets']:
+                if set_ == set__['set_name']:
+                    tcg_sets_write[set_][data['name']] = set__['set_rarity']
+        except:
+             pass
+
+json.dump(tcg_sets_write, TCG_Set_Writer, indent=4)
+TCG_Set_Writer.close()
+print('TCG sets done')
+
+sets_print = ''
+Sets_Writer = open('src/data/packs.h', 'w', encoding='utf-8')
+with open('tcg_sets.json', 'r') as f:
+    data = json.load(f)
+    for set_ in data:
+        sets_print += 'const struct PackContents g' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '[] =\n{'
+        for card in data[set_]:
+            if card in card_names:
+                sets_print += '\t{ITEM_' + re.sub(r'[^a-zA-Z0-9]', '_', card).upper() + ', RARITY_' + re.sub(r'[^a-zA-Z0-9]', '_', data[set_][card]).upper() + '},\n'
+        sets_print += '};\n\n'
+
+sets_print += '};\n'
+for set_ in list(tcg_sets):
+    sets_print += '#define PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + ' ' + str(list(tcg_sets).index(set_)) + '\n'
+
+sets_print += '\n'
+for set_ in tcg_sets:
+    sets_print += 'additem ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + ' 1\n' 
+
+sets_count = 846
+sets_print += '\n'
+for set_ in tcg_sets:
+    sets_print += '#define ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + ' ' + str(sets_count) + '\n'
+    sets_count += 1
+
+sets_print += '\n'
+for set_ in tcg_sets:
+    sets_print += '''	[ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + '''] =
+    {
+        .name = _("''' + set_[:13] + '''"),
+        .itemId = ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + ''',
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },\n\n'''
+
+sets_print += '\n'
+for set_ in tcg_sets:
+    sets_print += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + '] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},\n'
+    sets_count += 1
+
+sets_print += '\nconst u16 PackIdMapping[] = \n{\n'
+with open('tcg_sets.json', 'r') as f:
+    data = json.load(f)
+    for set_ in data:
+        for card in data[set_]:
+            if card in card_names:
+                sets_print += '\t[ITEM_' + re.sub(r'[^a-zA-Z0-9]', '_', card).upper() + '] = ' + str(list(tcg_sets).index(set_)) + ',\n'
+sets_print += '};\n\n'
+
+sets_print += '\nconst struct Pack gPacks[] =\n{\n'
+card_count = 0
+with open('tcg_sets.json', 'r') as f:
+    data = json.load(f)
+    for set_ in data:
+        sets_print += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + '] =\n\t{\n        .pack = g' + re.sub(r'[^a-zA-Z0-9]', '', set_) + ',\n        .length = '
+        for card in data[set_]:
+            if card in card_names:
+                 card_count += 1
+        sets_print += str(card_count)
+        sets_print += ',\n\t},\n'
+        card_count = 0
+Sets_Writer.write(sets_print)
+Sets_Writer.close()
+print('Sets written')
+
 for data in card_info_data['data']:
     card_name = data['name']
     description_lines[card_name] = 1
