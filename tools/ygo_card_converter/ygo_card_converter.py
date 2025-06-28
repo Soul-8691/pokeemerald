@@ -16,14 +16,18 @@ f.close()
 formats = ['Yugi-Kaiba', 'Critter', 'Treasure', 'Imperial', 'Android', 'Joey-Pegasus', 'Fiber', 'Yata', 'Scientist', 'Vampire', 'Chaos', 'Warrior', 'Goat', 'Cyber', 'Reaper', 'Chaos Return', 'Demise', 'Trooper', 'Zombie', 'Perfect Circle', 'DAD Return', 'Gladiator', 'TeleDAD', 'Cat', 'Edison', 'Frog', 'Starstrike', 'Tengu', 'Dino Rabbit', 'Wind-Up', 'Miami', 'Meadowlands', 'Baby Ruler', 'Ravine Ruler', 'Fire-Water', 'HAT', 'Vegas']
 
 highest_usage = {}
+cards_by_format = {}
 for format in formats:
    highest_usage[format] = 0
+   cards_by_format[format] = {}
 
 with open('FL.json', 'r') as f:
     data = json.load(f)
     for card in data:
-        if card['Format'] in formats and card['Usage (Weighted)'] > highest_usage[card['Format']]:
-           highest_usage[card['Format']] = card['Usage (Weighted)']
+        if card['Format'] in formats:
+            cards_by_format[card['Format']][card['Card']] = card['Usage']
+            if card['Usage (Weighted)'] > highest_usage[card['Format']]:
+            	highest_usage[card['Format']] = card['Usage (Weighted)']
 
 wct06_ranks = {}
 with open('wct06.json', 'r') as f:
@@ -624,6 +628,21 @@ for data in card_info_data['data']:
 
 gCardInfo += '\n'
 YGO_C += '\n'
+Scripts += '\n'
+for format in cards_by_format:
+	Scripts += format + '\n'
+	for data in card_info_data['data']:
+		card_name = data['name']
+		if card_name in card_names:
+			for card_ in cards_by_format[format]:
+				if card_ == card_name and cards_by_format[format][card_]:
+					Scripts += '\t.2byte  ITEM_' + re.sub(r'\W+', '_', card_name).upper() + '\n'
+	Scripts += '\n'
+
+Scripts_Output = open('scripts.inc', 'w')
+Scripts_Output.write(Scripts)
+print('Scripts done')
+
 card_counter = 1
 for data in card_info_data['data']:
     card_name = data['name']
@@ -851,7 +870,5 @@ YGO_C_Output = open('src/ygo.c', 'w')
 YGO_C_Output.write(YGO_C)
 UI_Menu_Output = open('src/ui_menu.c', 'w')
 UI_Menu_Output.write(UI_Menu)
-Scripts_Output = open('scripts.inc', 'w')
-Scripts_Output.write(Scripts)
 Graphics_File_Rules_Output = open('graphics_file_rules.mk', 'w')
 Graphics_File_Rules_Output.write(Graphics_File_Rules)

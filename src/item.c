@@ -945,6 +945,50 @@ u16 GetItemPrice(u16 itemId)
         return round_5(gCardInfo[card].priceCyber) * 10;
     else if (VarGet(VAR_YGO_SHOP) == FORMAT_REAPER)
         return round_5(gCardInfo[card].priceReaper) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_CHAOS_RETURN)
+        return round_5(gCardInfo[card].priceChaosReturn) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_DEMISE)
+        return round_5(gCardInfo[card].priceDemise) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_TROOPER)
+        return round_5(gCardInfo[card].priceTrooper) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_ZOMBIE)
+        return round_5(gCardInfo[card].priceZombie) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_PERFECT_CIRCLE)
+        return round_5(gCardInfo[card].pricePerfectCircle) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_DAD_RETURN)
+        return round_5(gCardInfo[card].priceDADReturn) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_GLADIATOR)
+        return round_5(gCardInfo[card].priceGladiator) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_TELEDAD)
+        return round_5(gCardInfo[card].priceTeleDAD) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_CAT)
+        return round_5(gCardInfo[card].priceCat) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_EDISON)
+        return round_5(gCardInfo[card].priceEdison) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_FROG)
+        return round_5(gCardInfo[card].priceFrog) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_STARSTRIKE)
+        return round_5(gCardInfo[card].priceStarstrike) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_TENGU)
+        return round_5(gCardInfo[card].priceTengu) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_DINO_RABBIT)
+        return round_5(gCardInfo[card].priceDinoRabbit) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_WIND_UP)
+        return round_5(gCardInfo[card].priceWindUp) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_MIAMI)
+        return round_5(gCardInfo[card].priceMiami) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_MEADOWLANDS)
+        return round_5(gCardInfo[card].priceMeadowlands) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_BABY_RULER)
+        return round_5(gCardInfo[card].priceBabyRuler) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_RAVINE_RULER)
+        return round_5(gCardInfo[card].priceRavineRuler) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_FIRE_WATER)
+        return round_5(gCardInfo[card].priceFireWater) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_HAT)
+        return round_5(gCardInfo[card].priceYK) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_VEGAS)
+        return round_5(gCardInfo[card].priceVegas) * 10;
 }
 
 u8 GetItemHoldEffect(u16 itemId)
