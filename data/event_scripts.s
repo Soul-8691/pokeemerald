@@ -1010,14 +1010,6 @@ EventScript_AccessPack::
 	msgbox gText_PackOpened, MSGBOX_DEFAULT
 	callnative Task_PullCards
 	waitstate
-	callnative Task_PullCards
-	waitstate
-	callnative Task_PullCards
-	waitstate
-	callnative Task_PullCards
-	waitstate
-	callnative Task_PullCards
-	waitstate
 	releaseall
 	end
 

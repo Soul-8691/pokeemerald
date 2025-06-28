@@ -1143,21 +1143,24 @@ void ItemUseOutOfBattle_CannotUse(u8 taskId)
 
 static u16 PullCardFromPack(u16 pack)
 {
-    u32 i, random;
-    s32 j;
+    u32 i;
+    u16 random;
+    u16 j = 0;
     s32 length = gPacks[pack].length;
     for (i = 0; i < length; i++)
     {
         j += gPacks[pack].pack[i].rarity;
     }
     random = Random() % j;
-    j = 0;
+    j = random;
     for (i = 0; i < length; i++)
     {
-        j = random - gPacks[pack].pack[i].rarity;
+        j -= gPacks[pack].pack[i].rarity;
         if (j <= gPacks[pack].pack[i].rarity)
+        {
             gSpecialVar_0x8004 = gPacks[pack].pack[i].card;
             return gPacks[pack].pack[i].card;
+        }
     }
 }
 
