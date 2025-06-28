@@ -575,7 +575,7 @@ card_counter = 1
 description_lines = dict()
 
 tcg_sets = set()
-TCG_Set_Writer = open('tcg_sets.json', 'w', encoding='utf-8')
+# TCG_Set_Writer = open('tcg_sets.json', 'w', encoding='utf-8')
 for data in card_info_data['data']:
 	try:
 		for set_ in data['card_sets']:
@@ -584,7 +584,7 @@ for data in card_info_data['data']:
 		pass
 
 tcg_sets_write = {}
-for set_ in tcg_sets:
+for set_ in sorted(list(tcg_sets)):
     tcg_sets_write[set_] = {}
     for data in card_info_data['data']:
         try:
@@ -594,8 +594,8 @@ for set_ in tcg_sets:
         except:
              pass
 
-json.dump(tcg_sets_write, TCG_Set_Writer, indent=4)
-TCG_Set_Writer.close()
+# json.dump(dict(sorted(tcg_sets_write.items())), TCG_Set_Writer, indent=4)
+# TCG_Set_Writer.close()
 print('TCG sets done')
 
 sets_print = ''
@@ -610,21 +610,21 @@ with open('tcg_sets.json', 'r') as f:
         sets_print += '};\n\n'
 
 sets_print += '};\n'
-for set_ in list(tcg_sets):
-    sets_print += '#define PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + ' ' + str(list(tcg_sets).index(set_)) + '\n'
+for set_ in sorted(list(tcg_sets)):
+    sets_print += '#define PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + ' ' + str(sorted(list(tcg_sets)).index(set_)) + '\n'
 
 sets_print += '\n'
-for set_ in tcg_sets:
+for set_ in sorted(list(tcg_sets)):
     sets_print += 'additem ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + ' 1\n' 
 
 sets_count = 846
 sets_print += '\n'
-for set_ in tcg_sets:
+for set_ in sorted(list(tcg_sets)):
     sets_print += '#define ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + ' ' + str(sets_count) + '\n'
     sets_count += 1
 
 sets_print += '\n'
-for set_ in tcg_sets:
+for set_ in sorted(list(tcg_sets)):
     sets_print += '''	[ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + '''] =
     {
         .name = _("''' + set_[:13] + '''"),
@@ -637,7 +637,7 @@ for set_ in tcg_sets:
     },\n\n'''
 
 sets_print += '\n'
-for set_ in tcg_sets:
+for set_ in sorted(list(tcg_sets)):
     sets_print += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + '] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},\n'
     sets_count += 1
 
@@ -645,9 +645,7 @@ sets_print += '\nconst u16 PackIdMapping[] = \n{\n'
 with open('tcg_sets.json', 'r') as f:
     data = json.load(f)
     for set_ in data:
-        for card in data[set_]:
-            if card in card_names:
-                sets_print += '\t[ITEM_' + re.sub(r'[^a-zA-Z0-9]', '_', card).upper() + '] = ' + str(list(tcg_sets).index(set_)) + ',\n'
+        sets_print += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + '] = ' + str(sorted(list(tcg_sets)).index(set_)) + ',\n'
 sets_print += '};\n\n'
 
 sets_print += '\nconst struct Pack gPacks[] =\n{\n'
