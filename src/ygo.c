@@ -474,7 +474,7 @@ const u8 gCardDescription_ZaborgtheThunderMonarch[] = _("If this card is Tribute
 const u8 gCardDescription_ZombyratheDark[] = _("This card cannot attack your\nopponent directly. If this\ncard destroys a monster by\nbattle: This card loses 200\nATK.");
 const u8 gCardDescription_ZureKnightofDarkWorld[] = _("The name of this illustrious\nknight is known by all\nresidents of Dark World. He\nnever oppresses the commoners.");
 
-const u16 CardIdMapping[] = 
+const s16 CardIdMapping[] = 
 {
     [ITEM_NONE] = 0,
     [ITEM_4_STARRED_LADYBUG_OF_DOOM] = 1,

@@ -56,6 +56,8 @@ enum {
     WIN_MONEY,
     WIN_ITEM_LIST,
     WIN_ITEM_DESCRIPTION,
+    WIN_ITEM_UPPER,
+    WIN_ITEM_UPPER_2,
     WIN_QUANTITY_IN_BAG,
     WIN_QUANTITY_PRICE,
     WIN_MESSAGE,
@@ -286,11 +288,29 @@ static const struct WindowTemplate sShopBuyMenuWindowTemplates[] =
     [WIN_ITEM_DESCRIPTION] = {
         .bg = 0,
         .tilemapLeft = 0,
-        .tilemapTop = 12,
+        .tilemapTop = 11,
         .width = 13,
-        .height = 7,
+        .height = 9,
         .paletteNum = 15,
         .baseBlock = 0x0122,
+    },
+    [WIN_ITEM_UPPER] = {
+        .bg = 0,
+        .tilemapLeft = 3,
+        .tilemapTop = 6,
+        .width = 4,
+        .height = 4,
+        .paletteNum = 2,
+        .baseBlock = 0x22F,
+    },
+    [WIN_ITEM_UPPER_2] = {
+        .bg = 0,
+        .tilemapLeft = 7,
+        .tilemapTop = 6,
+        .width = 3,
+        .height = 3,
+        .paletteNum = 3,
+        .baseBlock = 0x23F,
     },
     [WIN_QUANTITY_IN_BAG] = {
         .bg = 0,
@@ -299,7 +319,7 @@ static const struct WindowTemplate sShopBuyMenuWindowTemplates[] =
         .width = 12,
         .height = 2,
         .paletteNum = 15,
-        .baseBlock = 0x19E,
+        .baseBlock = 0x197,
     },
     [WIN_QUANTITY_PRICE] = {
         .bg = 0,
@@ -308,7 +328,7 @@ static const struct WindowTemplate sShopBuyMenuWindowTemplates[] =
         .width = 10,
         .height = 2,
         .paletteNum = 15,
-        .baseBlock = 0x017E,
+        .baseBlock = 0x1AF,
     },
     [WIN_MESSAGE] = {
         .bg = 0,
@@ -317,7 +337,7 @@ static const struct WindowTemplate sShopBuyMenuWindowTemplates[] =
         .width = 27,
         .height = 4,
         .paletteNum = 15,
-        .baseBlock = 0x1B6,
+        .baseBlock = 0x1C3,
     },
     DUMMY_WIN_TEMPLATE
 };
@@ -335,7 +355,7 @@ static const struct WindowTemplate sShopBuyMenuYesNoWindowTemplates =
 
 static const u8 sShopBuyMenuTextColors[][3] =
 {
-    [COLORID_NORMAL]      = {1, 2, 3},
+    [COLORID_NORMAL]      = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_LIGHT_GRAY,      TEXT_COLOR_DARK_GRAY},
     [COLORID_ITEM_LIST]   = {0, 2, 3},
     [COLORID_GRAY_CURSOR] = {0, 3, 2},
 };
@@ -591,6 +611,124 @@ static void BuyMenuSetListEntry(struct ListMenuItem *menuItem, u16 item, u8 *nam
     menuItem->id = item;
 }
 
+const u8 *const sCardAttributeIcons__[NUM_ATTRIBUTES + 1] =
+{
+    [ATTRIBUTE_DARK] = gDarkIcon,
+    [ATTRIBUTE_LIGHT] = gLightIcon,
+    [ATTRIBUTE_FIRE] = gFireIcon,
+    [ATTRIBUTE_WATER] = gWaterIcon,
+    [ATTRIBUTE_EARTH] = gEarthIcon,
+    [ATTRIBUTE_WIND] = gWindIcon,
+};
+
+const u16 *const sCardAttributeIconPals__[NUM_ATTRIBUTES + 1] =
+{
+    [ATTRIBUTE_DARK] = gDarkIconPal,
+    [ATTRIBUTE_LIGHT] = gLightIconPal,
+    [ATTRIBUTE_FIRE] = gFireIconPal,
+    [ATTRIBUTE_WATER] = gWaterIconPal,
+    [ATTRIBUTE_EARTH] = gEarthIconPal,
+    [ATTRIBUTE_WIND] = gWindIconPal,
+};
+
+const u8 *const sCardRaceIcons__[NUM_RACES + 1] =
+{
+    [RACE_AQUA] = gAquaIcon,
+    [RACE_BEAST] = gBeastIcon,
+    [RACE_BEAST_WARRIOR] = gBeastWarriorIcon,
+    [RACE_DINOSAUR] = gDinosaurIcon,
+    [RACE_DRAGON] = gDragonIcon,
+    [RACE_FAIRY] = gFairyIcon,
+    [RACE_FIEND] = gFiendIcon,
+    [RACE_FISH] = gFishIcon,
+    [RACE_INSECT] = gBugIcon,
+    [RACE_MACHINE] = gMachineIcon,
+    [RACE_PLANT] = gPlantIcon,
+    [RACE_PYRO] = gPyroIcon,
+    [RACE_REPTILE] = gReptileIcon,
+    [RACE_ROCK] = gRockIcon,
+    [RACE_SEA_SERPENT] = gSeaSerpentIcon,
+    [RACE_SPELLCASTER] = gSpellcasterIcon,
+    [RACE_THUNDER] = gLightningIcon,
+    [RACE_WARRIOR] = gWarriorIcon,
+    [RACE_WINGED_BEAST] = gWingedBeastIcon,
+    [RACE_ZOMBIE] = gZombieIcon,
+};
+
+const u16 *const sCardRaceIconPals__[NUM_RACES + 1] =
+{
+    [RACE_AQUA] = gAquaIconPal,
+    [RACE_BEAST] = gBeastIconPal,
+    [RACE_BEAST_WARRIOR] = gBeastWarriorIconPal,
+    [RACE_DINOSAUR] = gDinosaurIconPal,
+    [RACE_DRAGON] = gDragonIconPal,
+    [RACE_FAIRY] = gFairyIconPal,
+    [RACE_FIEND] = gFiendIconPal,
+    [RACE_FISH] = gFishIconPal,
+    [RACE_INSECT] = gBugIconPal,
+    [RACE_MACHINE] = gMachineIconPal,
+    [RACE_PLANT] = gPlantIconPal,
+    [RACE_PYRO] = gPyroIconPal,
+    [RACE_REPTILE] = gReptileIconPal,
+    [RACE_ROCK] = gRockIconPal,
+    [RACE_SEA_SERPENT] = gSeaSerpentIconPal,
+    [RACE_SPELLCASTER] = gSpellcasterIconPal,
+    [RACE_THUNDER] = gLightningIconPal,
+    [RACE_WARRIOR] = gWarriorIconPal,
+    [RACE_WINGED_BEAST] = gWingedBeastIconPal,
+    [RACE_ZOMBIE] = gZombieIconPal,
+};
+
+const u8 *const sCardTypeIcons__[NUM_TYPES + 1] =
+{
+    [TYPE_SPELL_CARD] = gSpellIcon,
+    [TYPE_TRAP_CARD] = gTrapIcon,
+};
+
+const u16 *const sCardTypeIconPals__[NUM_TYPES + 1] =
+{
+    [TYPE_SPELL_CARD] = gSpellIconPal,
+    [TYPE_TRAP_CARD] = gTrapIconPal,
+};
+
+const u8 *const gCardTypeText__[NUM_TYPES + 1] =
+{
+    [TYPE_SPELL_CARD] = gText_Spell,
+    [TYPE_TRAP_CARD] = gText_Trap,
+    [TYPE_SPIRIT_MONSTER] = gText_Spirit,
+    [TYPE_EFFECT_MONSTER] = gText_Effect,
+    [TYPE_FLIP_EFFECT_MONSTER] = gText_FlipEffect,
+    [TYPE_RITUAL_MONSTER] = gText_Ritual,
+    [TYPE_RITUAL_EFFECT_MONSTER] = gText_RitualEffect,
+    [TYPE_FUSION_MONSTER] = gText_Fusion,
+    [TYPE_UNION_EFFECT_MONSTER] = gText_UnionEffect,
+    [TYPE_NORMAL_MONSTER] = gText_NormalMonster,
+    [TYPE_TOON_MONSTER] = gText_Toon,
+    [TYPE_XYZ_MONSTER] = gText_XYZ,
+    [TYPE_SYNCHRO_MONSTER] = gText_Synchro,
+    [TYPE_TUNER_MONSTER] = gText_Tuner,
+    [TYPE_SYNCHRO_TUNER_MONSTER] = gText_SynchroTuner,
+};
+
+const u8 gSupportedTypes__[NUM_TYPES + 1] =
+{
+    [TYPE_SPELL_CARD] = 1,
+    [TYPE_TRAP_CARD] = 1,
+    [TYPE_SPIRIT_MONSTER] = 1,
+    [TYPE_EFFECT_MONSTER] = 1,
+    [TYPE_FLIP_EFFECT_MONSTER] = 1,
+    [TYPE_RITUAL_MONSTER] = 1,
+    [TYPE_RITUAL_EFFECT_MONSTER] = 1,
+    [TYPE_FUSION_MONSTER] = 1,
+    [TYPE_UNION_EFFECT_MONSTER] = 1,
+    [TYPE_NORMAL_MONSTER] = 1,
+    [TYPE_TOON_MONSTER] = 1,
+    [TYPE_XYZ_MONSTER] = 1,
+    [TYPE_SYNCHRO_MONSTER] = 1,
+    [TYPE_TUNER_MONSTER] = 1,
+    [TYPE_SYNCHRO_TUNER_MONSTER] = 1,
+};
+
 static void BuyMenuPrintItemDescriptionAndShowItemIcon(s32 item, bool8 onInit, struct ListMenu *list)
 {
     const u8 *description;
@@ -625,8 +763,15 @@ static void BuyMenuPrintItemDescriptionAndShowItemIcon(s32 item, bool8 onInit, s
     }
 
     FillWindowPixelBuffer(WIN_ITEM_DESCRIPTION, PIXEL_FILL(0));
-    if (card == 0)
+    FillWindowPixelBuffer(WIN_ITEM_UPPER, PIXEL_FILL(0));
+    FillWindowPixelBuffer(WIN_ITEM_UPPER_2, PIXEL_FILL(0));
+    if (card ==  0 || item < 0)
+    {
         BuyMenuPrint(WIN_ITEM_DESCRIPTION, description, 3, 1, 0, COLORID_NORMAL);
+        ClearWindowTilemap(WIN_ITEM_UPPER);
+        ClearWindowTilemap(WIN_ITEM_UPPER_2);
+        ScheduleBgCopyTilemapToVram(0);
+    }
     else
     {
         BuyMenuPrintSmallNarrow(WIN_ITEM_DESCRIPTION, cardName, 0, 4, 0, COLORID_NORMAL);
@@ -639,6 +784,25 @@ static void BuyMenuPrintItemDescriptionAndShowItemIcon(s32 item, bool8 onInit, s
         ConvertIntToDecimalStringN(gStringVar1, cardDef, STR_CONV_MODE_LEFT_ALIGN, 4);
         StringExpandPlaceholders(gStringVar4, gText_xDef);
         BuyMenuPrintSmallNarrow(WIN_ITEM_DESCRIPTION, gStringVar4, 0, 40, 0, COLORID_NORMAL);
+        if (type == TYPE_SPELL_CARD || type == TYPE_TRAP_CARD)
+        {
+            BlitBitmapToWindow(WIN_ITEM_UPPER, sCardTypeIcons__[type], 16, 12, 16, 16);
+            LoadPalette(sCardTypeIconPals__[type], BG_PLTT_ID(2), 32);
+        }
+        else
+        {
+            BlitBitmapToWindow(WIN_ITEM_UPPER, sCardRaceIcons__[race], 16, 12, 16, 16);
+            LoadPalette(sCardRaceIconPals__[race], BG_PLTT_ID(2), 32);
+            BlitBitmapToWindow(WIN_ITEM_UPPER_2, sCardAttributeIcons__[attribute], 2, 10, 16, 16);
+            LoadPalette(sCardAttributeIconPals__[attribute], BG_PLTT_ID(3), 32);
+        }
+        if (gSupportedTypes__[type])
+            BuyMenuPrintSmallNarrow(WIN_ITEM_DESCRIPTION, gCardTypeText__[type], 0, 52, 0, COLORID_NORMAL);
+        CopyWindowToVram(WIN_ITEM_UPPER, COPYWIN_GFX);
+        CopyWindowToVram(WIN_ITEM_UPPER_2, COPYWIN_GFX);
+        PutWindowTilemap(WIN_ITEM_UPPER);
+        PutWindowTilemap(WIN_ITEM_UPPER_2);
+        ScheduleBgCopyTilemapToVram(0);
     }
 }
 
@@ -716,7 +880,7 @@ static void BuyMenuAddItemIcon(u16 item, u8 iconSlot)
         {
             *spriteIdPtr = spriteId;
             gSprites[spriteId].x2 = 20;
-            gSprites[spriteId].y2 = 80;
+            gSprites[spriteId].y2 = 76;
         }
     }
     else

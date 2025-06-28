@@ -540,6 +540,6 @@ extern const u8 gCardDescription_YomiShip[];
 extern const u8 gCardDescription_ZaborgtheThunderMonarch[];
 extern const u8 gCardDescription_ZombyratheDark[];
 extern const u8 gCardDescription_ZureKnightofDarkWorld[];
-extern const u16 CardIdMapping[];
+extern const s16 CardIdMapping[];
 
 #endif // GUARD_YGO_H

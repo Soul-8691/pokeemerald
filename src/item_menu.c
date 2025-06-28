@@ -2223,7 +2223,6 @@ static void Task_ItemContext_SingleRow(u8 taskId)
     if (MenuHelpers_ShouldWaitForLinkRecv() != TRUE)
     {
         s8 selection = Menu_ProcessInputNoWrap();
-        u16 card = CardIdMapping[gSpecialVar_ItemId];
         switch (selection)
         {
         case MENU_NOTHING_CHOSEN:
