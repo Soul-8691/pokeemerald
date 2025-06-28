@@ -8,8 +8,6 @@ struct CardInfo
     /* 0x08 */ const u8 *nameShortBag;
     /* 0x0C */ const u8 *description;
     /* 0x10 */ const u8 password[9];
-    /* 0x19 */ u8 unused1;
-    /* 0x1A */ u16 unused2;
     /* 0x1C */ const u32 *pic;
     /* 0x20 */ const u16 *pal;
     /* 0x24 */ const u32 *iconSquare;
@@ -22,10 +20,8 @@ struct CardInfo
     /* 0x41 */ u32 atk:9;
     /* 0x42 */ u32 def:9;
     /* 0x44 */ u8 race;
-    /* 0x45 */ u8 unused3;
     /* 0x46 */ u16 id;
     /* 0x48 */ u16 archetypesSeries[3];
-    /* 0x4E */ u16 unused4;
     /* 0x50 */ u32 priceYK:10;
     /* 0x51 */ u32 priceCritter:10;
     /* 0x52 */ u32 priceTreasure:10;

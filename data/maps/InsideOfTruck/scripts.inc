@@ -530,6 +530,8 @@ InsideOfTruck_EventScript_MovingBox2::
 	additem ITEM_PACK_STARTER_DECK_JOEY, 10
 	additem ITEM_PACK_STARTER_DECK_PEGASUS, 10
 	additem ITEM_PACK_YUGI_KAIBA, 10
+	additem ITEM_PACK_CRITTER, 10
+	additem ITEM_PACK_TREASURE, 10
 	end
 
 InsideOfTruck_EventScript_MovingBox3::

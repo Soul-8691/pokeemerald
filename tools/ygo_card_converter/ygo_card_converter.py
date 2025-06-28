@@ -6,12 +6,12 @@ from PIL import Image
 import re
 import textwrap
 
-f = open("YGOProDeck_Card_Info.json", "w")
-url = "https://db.ygoprodeck.com/api/v7/cardinfo.php?misc=yes"
-res = requests.get(url)
-data = json.dumps(res.json(), indent=4)
-f.write(data)
-f.close()
+# f = open("YGOProDeck_Card_Info.json", "w")
+# url = "https://db.ygoprodeck.com/api/v7/cardinfo.php?misc=yes"
+# res = requests.get(url)
+# data = json.dumps(res.json(), indent=4)
+# f.write(data)
+# f.close()
 
 formats = ['Yugi-Kaiba', 'Critter', 'Treasure', 'Imperial', 'Android', 'Joey-Pegasus', 'Fiber', 'Yata', 'Scientist', 'Vampire', 'Chaos', 'Warrior', 'Goat', 'Cyber', 'Reaper', 'Chaos Return', 'Demise', 'Trooper', 'Zombie', 'Perfect Circle', 'DAD Return', 'Gladiator', 'TeleDAD', 'Cat', 'Edison', 'Frog', 'Starstrike', 'Tengu', 'Dino Rabbit', 'Wind-Up', 'Miami', 'Meadowlands', 'Baby Ruler', 'Ravine Ruler', 'Fire-Water', 'HAT', 'Vegas']
 
@@ -571,8 +571,85 @@ YGO_C = ''
 UI_Menu = ''
 Scripts = ''
 Graphics_File_Rules = ''
+PacksPrint = ''
 card_counter = 1
+pack_counter = 1836
 description_lines = dict()
+
+for format_ in formats:
+    PacksPrint += '#define ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + ' ' + str(pack_counter) + '\n'
+    pack_counter += 1
+PacksPrint += '\n'
+
+pack_counter = 990
+for format_ in formats:
+    PacksPrint += '#define PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + ' ' + str(pack_counter) + '\n'
+    pack_counter += 1
+
+pack_counter = 990
+for format_ in formats:
+    PacksPrint += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + '] = ' + str(pack_counter) + ',\n'
+    pack_counter += 1
+
+for format_ in formats:
+    PacksPrint += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + '] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},\n'
+
+for format_ in formats:
+    PacksPrint += '''	[ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + '''] =
+    {
+        .name = _("''' + format_[:13] + '''"),
+        .itemId = ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + ''',
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },\n\n'''
+
+for format_ in formats:
+    PacksPrint += '''    else if (pack == PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + ''')
+    {
+        u16 cards[NUM_CARDS];
+        for (i = 0; i < NUM_CARDS; i++)
+        {
+            if (gCardInfo[i].price''' + re.sub(r'[^a-zA-Z0-9]', '', format_) + ''')
+            {
+                j += 1000 - gCardInfo[i].price''' + re.sub(r'[^a-zA-Z0-9]', '', format_) + ''';
+                cards[length] = i;
+                length += 1;
+            }
+        }
+        for (k = 0; k < 5; k++)
+        {
+            random = Random() % j;
+            l = random;
+            for (i = 0; i < length; i++)
+            {
+                u16 rarity = 1000 - gCardInfo[cards[i]].price''' + re.sub(r'[^a-zA-Z0-9]', '', format_) + ''';
+                u16 card = cards[i];
+                l -= rarity;
+                if (l <= rarity)
+                {
+                    if (k == 0)
+                        gSpecialVar_0x8004 = card + 376;
+                    else if (k == 1)
+                        gSpecialVar_0x8005 = card + 376;
+                    else if (k == 2)
+                        gSpecialVar_0x8006 = card + 376;
+                    else if (k == 3)
+                        gSpecialVar_0x8007 = card + 376;
+                    else if (k == 4)
+                        gSpecialVar_0x8008 = card + 376;
+                    break;
+                }
+            }
+        }
+    }\n'''
+
+PackPrinter = open('formats.txt', 'w', encoding='utf-8')
+PackPrinter.write(PacksPrint)
+PackPrinter.close()
+print('Finished PackPrinter')
 
 tcg_sets = set()
 # TCG_Set_Writer = open('tcg_sets.json', 'w', encoding='utf-8')
