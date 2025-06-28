@@ -258,15 +258,10 @@ enum Colors
     FONT_RED,
     FONT_BLUE,
 };
-static const u8 sMenuWindowFontColors[][3] = 
-{
-    [FONT_BLACK]  = {TEXT_COLOR_TRANSPARENT,  TEXT_COLOR_DARK_GRAY,  TEXT_COLOR_LIGHT_GRAY},
-    [FONT_WHITE]  = {TEXT_COLOR_TRANSPARENT,  TEXT_COLOR_WHITE,  TEXT_COLOR_DARK_GRAY},
-    [FONT_RED]   = {TEXT_COLOR_TRANSPARENT,  TEXT_COLOR_RED,        TEXT_COLOR_LIGHT_GRAY},
-    [FONT_BLUE]  = {TEXT_COLOR_TRANSPARENT,  TEXT_COLOR_BLUE,       TEXT_COLOR_LIGHT_GRAY},
-};
 
-const u8 *const sCardAttributeIcons_[NUM_ATTRIBUTES + 1] =
+
+
+const u8 *const sCardAttributeIcons[NUM_ATTRIBUTES + 1] =
 {
     [ATTRIBUTE_DARK] = gDarkIcon,
     [ATTRIBUTE_LIGHT] = gLightIcon,
@@ -276,7 +271,7 @@ const u8 *const sCardAttributeIcons_[NUM_ATTRIBUTES + 1] =
     [ATTRIBUTE_WIND] = gWindIcon,
 };
 
-const u16 *const sCardAttributeIconPals_[NUM_ATTRIBUTES + 1] =
+const u16 *const sCardAttributeIconPals[NUM_ATTRIBUTES + 1] =
 {
     [ATTRIBUTE_DARK] = gDarkIconPal,
     [ATTRIBUTE_LIGHT] = gLightIconPal,
@@ -286,60 +281,110 @@ const u16 *const sCardAttributeIconPals_[NUM_ATTRIBUTES + 1] =
     [ATTRIBUTE_WIND] = gWindIconPal,
 };
 
-const u8 *const sCardRaceIcons_[NUM_RACES + 1] =
+const u8 *const sCardRaceIcons[NUM_RACES + 1] =
 {
-    [RACE_SPELLCASTER] = gSpellcasterIcon,
-    [RACE_DRAGON] = gDragonIcon,
-    [RACE_ROCK] = gRockIcon,
-    [RACE_WARRIOR] = gWarriorIcon,
-    [RACE_FIEND] = gFiendIcon,
-    [RACE_INSECT] = gBugIcon,
-    [RACE_BEAST_WARRIOR] = gBeastWarriorIcon,
-    [RACE_FISH] = gFishIcon,
-    [RACE_THUNDER] = gLightningIcon,
-    [RACE_MACHINE] = gMachineIcon,
-    [RACE_PLANT] = gPlantIcon,
-    [RACE_FAIRY] = gFairyIcon,
     [RACE_AQUA] = gAquaIcon,
     [RACE_BEAST] = gBeastIcon,
-    [RACE_REPTILE] = gReptileIcon,
-    [RACE_ZOMBIE] = gZombieIcon,
-    [RACE_WINGED_BEAST] = gWingedBeastIcon,
+    [RACE_BEAST_WARRIOR] = gBeastWarriorIcon,
+    [RACE_DINOSAUR] = gDinosaurIcon,
+    [RACE_DRAGON] = gDragonIcon,
+    [RACE_FAIRY] = gFairyIcon,
+    [RACE_FIEND] = gFiendIcon,
+    [RACE_FISH] = gFishIcon,
+    [RACE_INSECT] = gBugIcon,
+    [RACE_MACHINE] = gMachineIcon,
+    [RACE_PLANT] = gPlantIcon,
     [RACE_PYRO] = gPyroIcon,
+    [RACE_REPTILE] = gReptileIcon,
+    [RACE_ROCK] = gRockIcon,
+    [RACE_SEA_SERPENT] = gSeaSerpentIcon,
+    [RACE_SPELLCASTER] = gSpellcasterIcon,
+    [RACE_THUNDER] = gLightningIcon,
+    [RACE_WARRIOR] = gWarriorIcon,
+    [RACE_WINGED_BEAST] = gWingedBeastIcon,
+    [RACE_ZOMBIE] = gZombieIcon,
 };
 
-const u16 *const sCardRaceIconPals_[NUM_RACES + 1] =
+const u16 *const sCardRaceIconPals[NUM_RACES + 1] =
 {
-    [RACE_SPELLCASTER] = gSpellcasterIconPal,
-    [RACE_DRAGON] = gDragonIconPal,
-    [RACE_ROCK] = gRockIconPal,
-    [RACE_WARRIOR] = gWarriorIconPal,
-    [RACE_FIEND] = gFiendIconPal,
-    [RACE_INSECT] = gBugIconPal,
-    [RACE_BEAST_WARRIOR] = gBeastWarriorIconPal,
-    [RACE_FISH] = gFishIconPal,
-    [RACE_THUNDER] = gLightningIconPal,
-    [RACE_MACHINE] = gMachineIconPal,
-    [RACE_PLANT] = gPlantIconPal,
-    [RACE_FAIRY] = gFairyIconPal,
     [RACE_AQUA] = gAquaIconPal,
     [RACE_BEAST] = gBeastIconPal,
-    [RACE_REPTILE] = gReptileIconPal,
-    [RACE_ZOMBIE] = gZombieIconPal,
-    [RACE_WINGED_BEAST] = gWingedBeastIconPal,
+    [RACE_BEAST_WARRIOR] = gBeastWarriorIconPal,
+    [RACE_DINOSAUR] = gDinosaurIconPal,
+    [RACE_DRAGON] = gDragonIconPal,
+    [RACE_FAIRY] = gFairyIconPal,
+    [RACE_FIEND] = gFiendIconPal,
+    [RACE_FISH] = gFishIconPal,
+    [RACE_INSECT] = gBugIconPal,
+    [RACE_MACHINE] = gMachineIconPal,
+    [RACE_PLANT] = gPlantIconPal,
     [RACE_PYRO] = gPyroIconPal,
+    [RACE_REPTILE] = gReptileIconPal,
+    [RACE_ROCK] = gRockIconPal,
+    [RACE_SEA_SERPENT] = gSeaSerpentIconPal,
+    [RACE_SPELLCASTER] = gSpellcasterIconPal,
+    [RACE_THUNDER] = gLightningIconPal,
+    [RACE_WARRIOR] = gWarriorIconPal,
+    [RACE_WINGED_BEAST] = gWingedBeastIconPal,
+    [RACE_ZOMBIE] = gZombieIconPal,
 };
 
-const u8 *const sCardTypeIcons_[NUM_TYPES + 1] =
+const u8 *const sCardTypeIcons[NUM_TYPES + 1] =
 {
     [TYPE_SPELL_CARD] = gSpellIcon,
     [TYPE_TRAP_CARD] = gTrapIcon,
 };
 
-const u16 *const sCardTypeIconPals_[NUM_TYPES + 1] =
+const u16 *const sCardTypeIconPals[NUM_TYPES + 1] =
 {
     [TYPE_SPELL_CARD] = gSpellIconPal,
     [TYPE_TRAP_CARD] = gTrapIconPal,
+};
+
+const u8 *const gCardTypeText[NUM_TYPES + 1] =
+{
+    [TYPE_SPELL_CARD] = gText_Spell,
+    [TYPE_TRAP_CARD] = gText_Trap,
+    [TYPE_SPIRIT_MONSTER] = gText_Spirit,
+    [TYPE_EFFECT_MONSTER] = gText_Effect,
+    [TYPE_FLIP_EFFECT_MONSTER] = gText_FlipEffect,
+    [TYPE_RITUAL_MONSTER] = gText_Ritual,
+    [TYPE_RITUAL_EFFECT_MONSTER] = gText_RitualEffect,
+    [TYPE_FUSION_MONSTER] = gText_Fusion,
+    [TYPE_UNION_EFFECT_MONSTER] = gText_UnionEffect,
+    [TYPE_NORMAL_MONSTER] = gText_NormalMonster,
+    [TYPE_TOON_MONSTER] = gText_Toon,
+    [TYPE_XYZ_MONSTER] = gText_XYZ,
+    [TYPE_SYNCHRO_MONSTER] = gText_Synchro,
+    [TYPE_TUNER_MONSTER] = gText_Tuner,
+    [TYPE_SYNCHRO_TUNER_MONSTER] = gText_SynchroTuner,
+};
+
+const u8 gSupportedTypes[NUM_TYPES + 1] =
+{
+    [TYPE_SPELL_CARD] = 1,
+    [TYPE_TRAP_CARD] = 1,
+    [TYPE_SPIRIT_MONSTER] = 1,
+    [TYPE_EFFECT_MONSTER] = 1,
+    [TYPE_FLIP_EFFECT_MONSTER] = 1,
+    [TYPE_RITUAL_MONSTER] = 1,
+    [TYPE_RITUAL_EFFECT_MONSTER] = 1,
+    [TYPE_FUSION_MONSTER] = 1,
+    [TYPE_UNION_EFFECT_MONSTER] = 1,
+    [TYPE_NORMAL_MONSTER] = 1,
+    [TYPE_TOON_MONSTER] = 1,
+    [TYPE_XYZ_MONSTER] = 1,
+    [TYPE_SYNCHRO_MONSTER] = 1,
+    [TYPE_TUNER_MONSTER] = 1,
+    [TYPE_SYNCHRO_TUNER_MONSTER] = 1,
+};
+
+const u8 sMenuWindowFontColors[][3] = 
+{
+    [FONT_BLACK]  = {TEXT_COLOR_TRANSPARENT,  TEXT_COLOR_DARK_GRAY,  TEXT_COLOR_LIGHT_GRAY},
+    [FONT_WHITE]  = {TEXT_COLOR_TRANSPARENT,  TEXT_COLOR_WHITE,  TEXT_COLOR_DARK_GRAY},
+    [FONT_RED]   = {TEXT_COLOR_TRANSPARENT,  TEXT_COLOR_RED,        TEXT_COLOR_LIGHT_GRAY},
+    [FONT_BLUE]  = {TEXT_COLOR_TRANSPARENT,  TEXT_COLOR_BLUE,       TEXT_COLOR_LIGHT_GRAY},
 };
 
 //==========FUNCTIONS==========//
@@ -3057,7 +3102,6 @@ static void PrintToWindow(u8 windowId, u8 colorIdx, u16 card)
     FillWindowPixelBuffer(windowId, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
     PrintSmallNarrowTextCentered(WINDOW_4, 94, COLORID_NORMAL, cardName);
     AddTextPrinterParameterized4(WINDOW_7, FONT_SMALL_NARROWER, 6, 6, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, cardNameShort);
-    AddTextPrinterParameterized4(windowId, FONT_SMALL_NARROWER, x, y, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, cardDescription);
     if (cardType != TYPE_SPELL_CARD && cardType != TYPE_TRAP_CARD)
     {
         ConvertIntToDecimalStringN(gStringVar1, cardAtk, STR_CONV_MODE_LEFT_ALIGN, 4);
@@ -3086,15 +3130,15 @@ static void PrintToWindow(u8 windowId, u8 colorIdx, u16 card)
     FillWindowPixelBuffer(WINDOW_3, PIXEL_FILL(0));
     if (cardType == TYPE_SPELL_CARD || cardType == TYPE_TRAP_CARD)
     {
-        BlitBitmapToWindow(WINDOW_2, sCardTypeIcons_[cardType], 22, 6, 16, 16);
-        LoadPalette(sCardTypeIconPals_[cardType], BG_PLTT_ID(8), 32);
+        BlitBitmapToWindow(WINDOW_2, sCardTypeIcons[cardType], 22, 6, 16, 16);
+        LoadPalette(sCardTypeIconPals[cardType], BG_PLTT_ID(8), 32);
     }
     else
     {
-        BlitBitmapToWindow(WINDOW_3, sCardRaceIcons_[race], 6, 0, 16, 16);
-        LoadPalette(sCardRaceIconPals_[race], BG_PLTT_ID(7), 32);
-        BlitBitmapToWindow(WINDOW_2, sCardAttributeIcons_[attribute], 22, 6, 16, 16);
-        LoadPalette(sCardAttributeIconPals_[attribute], BG_PLTT_ID(8), 32);
+        BlitBitmapToWindow(WINDOW_3, sCardRaceIcons[race], 6, 0, 16, 16);
+        LoadPalette(sCardRaceIconPals[race], BG_PLTT_ID(7), 32);
+        BlitBitmapToWindow(WINDOW_2, sCardAttributeIcons[attribute], 22, 6, 16, 16);
+        LoadPalette(sCardAttributeIconPals[attribute], BG_PLTT_ID(8), 32);
     }
     PutWindowTilemap(windowId);
     PutWindowTilemap(WINDOW_2);
