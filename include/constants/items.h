@@ -887,8 +887,11 @@
 #define ITEM_ZABORG_THE_THUNDER_MONARCH 843
 #define ITEM_ZOMBYRA_THE_DARK 844
 #define ITEM_ZURE_KNIGHT_OF_DARK_WORLD 845
+#define ITEM_PACK_LEGEND_OF_BLUE_EYES_WHITE_DRAGON 846
+#define ITEM_PACK_STARTER_DECK_YUGI 847
+#define ITEM_PACK_STARTER_DECK_KAIBA 848
 
-#define ITEMS_COUNT 846
+#define ITEMS_COUNT 849
 
 // A special item id associated with "Cancel"/"Exit" etc. in a list of items or decorations
 // Its icon is defined at ITEMS_COUNT as the "return to field" arrow

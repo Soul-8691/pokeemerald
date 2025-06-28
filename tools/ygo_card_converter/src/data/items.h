@@ -6,7 +6,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_7_COLORED_FISH] =
@@ -17,7 +17,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_A_LEGENDARY_OCEAN] =
@@ -28,7 +28,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ABYSS_SOLDIER] =
@@ -39,7 +39,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_AIRKNIGHT_PARSHATH] =
@@ -50,7 +50,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_AMAZONESS_ARCHER] =
@@ -61,7 +61,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_AMPHIBIOUS_BUGROTH_MK_3] =
@@ -72,7 +72,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ANTI_SPELL_FRAGRANCE] =
@@ -83,7 +83,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_AQUA_MADOOR] =
@@ -94,7 +94,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_AQUA_SPIRIT] =
@@ -105,7 +105,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ARCHFIEND_SOLDIER] =
@@ -116,7 +116,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ARSENAL_BUG] =
@@ -127,7 +127,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ARSENAL_SUMMONER] =
@@ -138,7 +138,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ASURA_PRIEST] =
@@ -149,7 +149,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_AXE_OF_DESPAIR] =
@@ -160,7 +160,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BANISHER_OF_THE_LIGHT] =
@@ -171,7 +171,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BARREL_BEHIND_THE_DOOR] =
@@ -182,7 +182,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BATTLE_FOOTBALLER] =
@@ -193,7 +193,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BATTLE_OX] =
@@ -204,7 +204,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BAZOO_THE_SOUL_EATER] =
@@ -215,7 +215,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BERSERK_GORILLA] =
@@ -226,7 +226,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BICKURIBOX] =
@@ -237,7 +237,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BIG_BANG_SHOT] =
@@ -248,7 +248,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BIG_SHIELD_GARDNA] =
@@ -259,7 +259,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BIG_TUSKED_MAMMOTH] =
@@ -270,7 +270,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BLACK_ILLUSION_RITUAL] =
@@ -281,7 +281,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING] =
@@ -292,7 +292,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BLACK_PENDANT] =
@@ -303,7 +303,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BLACK_SKULL_DRAGON] =
@@ -314,7 +314,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BLADE_KNIGHT] =
@@ -325,7 +325,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BLAST_WITH_CHAIN] =
@@ -336,7 +336,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BLAZING_INPACHI] =
@@ -347,7 +347,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BLINDLY_LOYAL_GOBLIN] =
@@ -358,7 +358,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BLOCK_ATTACK] =
@@ -369,7 +369,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BLOWBACK_DRAGON] =
@@ -380,7 +380,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BLUE_EYES_ULTIMATE_DRAGON] =
@@ -391,7 +391,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BLUE_EYES_WHITE_DRAGON] =
@@ -402,7 +402,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BOOK_OF_LIFE] =
@@ -413,7 +413,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BOOK_OF_MOON] =
@@ -424,7 +424,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BOOK_OF_TAIYOU] =
@@ -435,7 +435,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BOTTOMLESS_TRAP_HOLE] =
@@ -446,7 +446,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BOWGANIAN] =
@@ -457,7 +457,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BRAIN_CONTROL] =
@@ -468,7 +468,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BREAKER_THE_MAGICAL_WARRIOR] =
@@ -479,7 +479,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BROWW_HUNTSMAN_OF_DARK_WORLD] =
@@ -490,7 +490,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BRRON_MAD_KING_OF_DARK_WORLD] =
@@ -501,7 +501,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BUSTER_BLADER] =
@@ -512,7 +512,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BYSER_SHOCK] =
@@ -523,7 +523,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CALL_OF_THE_HAUNTED] =
@@ -534,7 +534,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CANNON_SOLDIER] =
@@ -545,7 +545,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CARD_DESTRUCTION] =
@@ -556,7 +556,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CASTLE_OF_DARK_ILLUSIONS] =
@@ -567,7 +567,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CASTLE_WALLS] =
@@ -578,7 +578,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CATAPULT_TURTLE] =
@@ -589,7 +589,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CEASEFIRE] =
@@ -600,7 +600,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CHAIN_DISAPPEARANCE] =
@@ -611,7 +611,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CHAIN_ENERGY] =
@@ -622,7 +622,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CHAINSAW_INSECT] =
@@ -633,7 +633,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CHANGE_OF_HEART] =
@@ -644,7 +644,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CHAOS_EMPEROR_DRAGON_ENVOY_OF_THE_END] =
@@ -655,7 +655,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CHAOS_SORCERER] =
@@ -666,7 +666,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CHARCOAL_INPACHI] =
@@ -677,7 +677,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CHARUBIN_THE_FIRE_KNIGHT] =
@@ -688,7 +688,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CHIRON_THE_MAGE] =
@@ -699,7 +699,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CIPHER_SOLDIER] =
@@ -710,7 +710,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_COLD_WAVE] =
@@ -721,7 +721,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_COMMAND_KNIGHT] =
@@ -732,7 +732,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_COMPULSORY_EVACUATION_DEVICE] =
@@ -743,7 +743,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CONFISCATION] =
@@ -754,7 +754,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CRASS_CLOWN] =
@@ -765,7 +765,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CREATURE_SWAP] =
@@ -776,7 +776,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CRUSH_CARD_VIRUS] =
@@ -787,7 +787,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL] =
@@ -798,7 +798,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CYBER_BLADER] =
@@ -809,7 +809,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CYBER_DRAGON] =
@@ -820,7 +820,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CYBER_END_DRAGON] =
@@ -831,7 +831,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CYBER_HARPIE_LADY] =
@@ -842,7 +842,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CYBER_JAR] =
@@ -853,7 +853,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CYBER_SAURUS] =
@@ -864,7 +864,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CYBER_TWIN_DRAGON] =
@@ -875,7 +875,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CYBER_STEIN] =
@@ -886,7 +886,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_D_D_ASSAILANT] =
@@ -897,7 +897,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_D_D_CRAZY_BEAST] =
@@ -908,7 +908,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_D_D_SURVIVOR] =
@@ -919,7 +919,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_D_D_TRAINER] =
@@ -930,7 +930,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_D_D_WARRIOR_LADY] =
@@ -941,7 +941,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_BALTER_THE_TERRIBLE] =
@@ -952,7 +952,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_BLADE] =
@@ -963,7 +963,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_BLADE_THE_DRAGON_KNIGHT] =
@@ -974,7 +974,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_DEAL] =
@@ -985,7 +985,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_ELF] =
@@ -996,7 +996,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_FLARE_KNIGHT] =
@@ -1007,7 +1007,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_HOLE] =
@@ -1018,7 +1018,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_MAGIC_CURTAIN] =
@@ -1029,7 +1029,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_MAGICIAN] =
@@ -1040,7 +1040,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_MAGICIAN_OF_CHAOS] =
@@ -1051,7 +1051,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_MIMIC_LV1] =
@@ -1062,7 +1062,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_MIMIC_LV3] =
@@ -1073,7 +1073,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_PALADIN] =
@@ -1084,7 +1084,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_RULER_HA_DES] =
@@ -1095,7 +1095,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_SCORPION_CHICK_THE_YELLOW] =
@@ -1106,7 +1106,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_SCORPION_CLIFF_THE_TRAP_REMOVER] =
@@ -1117,7 +1117,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_WORLD_LIGHTNING] =
@@ -1128,7 +1128,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARKFIRE_DRAGON] =
@@ -1139,7 +1139,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DE_SPELL] =
@@ -1150,7 +1150,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DECK_DEVASTATION_VIRUS] =
@@ -1161,7 +1161,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DEEPSEA_SHARK] =
@@ -1172,7 +1172,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE] =
@@ -1183,7 +1183,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DELINQUENT_DUO] =
@@ -1194,7 +1194,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DES_DENDLE] =
@@ -1205,7 +1205,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DES_KOALA] =
@@ -1216,7 +1216,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DES_LACOODA] =
@@ -1227,7 +1227,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DES_WOMBAT] =
@@ -1238,7 +1238,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DESERT_SUNLIGHT] =
@@ -1249,7 +1249,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DIAN_KETO_THE_CURE_MASTER] =
@@ -1260,7 +1260,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DIMENSION_FUSION] =
@@ -1271,7 +1271,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DON_ZALOOG] =
@@ -1282,7 +1282,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DOOM_DOZER] =
@@ -1293,7 +1293,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DOOMCALIBER_KNIGHT] =
@@ -1304,7 +1304,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DRAGGED_DOWN_INTO_THE_GRAVE] =
@@ -1315,7 +1315,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DRAGON_S_MIRROR] =
@@ -1326,7 +1326,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DRAGON_S_RAGE] =
@@ -1337,7 +1337,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DRAGONESS_THE_WICKED_KNIGHT] =
@@ -1348,7 +1348,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DREAM_CLOWN] =
@@ -1359,7 +1359,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DRILLROID] =
@@ -1370,7 +1370,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DROP_OFF] =
@@ -1381,7 +1381,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DUNAMES_DARK_WITCH] =
@@ -1392,7 +1392,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DUST_TORNADO] =
@@ -1403,7 +1403,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_EARTHBOUND_SPIRIT] =
@@ -1414,7 +1414,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ELECTRIC_SNAKE] =
@@ -1425,7 +1425,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ELEMENTAL_HERO_CLAYMAN] =
@@ -1436,7 +1436,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ELEMENTAL_HERO_FLAME_WINGMAN] =
@@ -1447,7 +1447,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ELEMENTAL_HERO_WILDHEART] =
@@ -1458,7 +1458,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_EMERGENCY_PROVISIONS] =
@@ -1469,7 +1469,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_EMISSARY_OF_THE_AFTERLIFE] =
@@ -1480,7 +1480,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_EMPRESS_JUDGE] =
@@ -1491,7 +1491,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ENEMY_CONTROLLER] =
@@ -1502,7 +1502,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_EXARION_UNIVERSE] =
@@ -1513,7 +1513,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_EXCHANGE] =
@@ -1524,7 +1524,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_EXCHANGE_OF_THE_SPIRIT] =
@@ -1535,7 +1535,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_EXILED_FORCE] =
@@ -1546,7 +1546,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_EXODIA_THE_FORBIDDEN_ONE] =
@@ -1557,7 +1557,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_FAKE_TRAP] =
@@ -1568,7 +1568,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_FAMILIAR_POSSESSED_AUSSA] =
@@ -1579,7 +1579,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_FAMILIAR_POSSESSED_ERIA] =
@@ -1590,7 +1590,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_FAMILIAR_POSSESSED_HIITA] =
@@ -1601,7 +1601,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_FAMILIAR_POSSESSED_WYNN] =
@@ -1612,7 +1612,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_FIBER_JAR] =
@@ -1623,7 +1623,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_FIEND_SKULL_DRAGON] =
@@ -1634,7 +1634,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_FINAL_FLAME] =
@@ -1645,7 +1645,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_FISSURE] =
@@ -1656,7 +1656,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_FLAME_GHOST] =
@@ -1667,7 +1667,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_FLAME_SWORDSMAN] =
@@ -1678,7 +1678,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_FLOWER_WOLF] =
@@ -1689,7 +1689,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_FLYING_KAMAKIRI_1] =
@@ -1700,7 +1700,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_FUSILIER_DRAGON_THE_DUAL_MODE_BEAST] =
@@ -1711,7 +1711,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_FUSIONIST] =
@@ -1722,7 +1722,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GAGAGIGO] =
@@ -1733,7 +1733,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GAIA_POWER] =
@@ -1744,7 +1744,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GAIA_THE_DRAGON_CHAMPION] =
@@ -1755,7 +1755,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GATLING_DRAGON] =
@@ -1766,7 +1766,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GEAR_GOLEM_THE_MOVING_FORTRESS] =
@@ -1777,7 +1777,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GEARFRIED_THE_IRON_KNIGHT] =
@@ -1788,7 +1788,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GEMINI_ELF] =
@@ -1799,7 +1799,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GIANT_GERM] =
@@ -1810,7 +1810,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GIANT_ORC] =
@@ -1821,7 +1821,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GIANT_RAT] =
@@ -1832,7 +1832,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GIANT_RED_SEASNAKE] =
@@ -1843,7 +1843,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GIANT_SOLDIER_OF_STONE] =
@@ -1854,7 +1854,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GIANT_TRUNADE] =
@@ -1865,7 +1865,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GIGA_TECH_WOLF] =
@@ -1876,7 +1876,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GIGANTES] =
@@ -1887,7 +1887,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GIL_GARTH] =
@@ -1898,7 +1898,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GILASAURUS] =
@@ -1909,7 +1909,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GILTIA_THE_D_KNIGHT] =
@@ -1920,7 +1920,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GOBLIN_ATTACK_FORCE] =
@@ -1931,7 +1931,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GOBLIN_ELITE_ATTACK_FORCE] =
@@ -1942,7 +1942,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GOKIPON] =
@@ -1953,7 +1953,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GOLEM_SENTRY] =
@@ -1964,7 +1964,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GORA_TURTLE] =
@@ -1975,7 +1975,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GRACEFUL_CHARITY] =
@@ -1986,7 +1986,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GRAVEKEEPER_S_ASSAILANT] =
@@ -1997,7 +1997,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GRAVEKEEPER_S_GUARD] =
@@ -2008,7 +2008,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GRAVEKEEPER_S_SPEAR_SOLDIER] =
@@ -2019,7 +2019,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GRAVEKEEPER_S_SPY] =
@@ -2030,7 +2030,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GRAVEKEEPER_S_WATCHER] =
@@ -2041,7 +2041,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GRAVITY_BIND] =
@@ -2052,7 +2052,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GREAT_WHITE] =
@@ -2063,7 +2063,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GUARDIAN_SPHINX] =
@@ -2074,7 +2074,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GYAKU_GIRE_PANDA] =
@@ -2085,7 +2085,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GYAKUTENNO_MEGAMI] =
@@ -2096,7 +2096,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_HALLOWED_LIFE_BARRIER] =
@@ -2107,7 +2107,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_HANE_HANE] =
@@ -2118,7 +2118,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_HARPIE_S_FEATHER_DUSTER] =
@@ -2129,7 +2129,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_HEAVY_STORM] =
@@ -2140,7 +2140,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_HIERACOSPHINX] =
@@ -2151,7 +2151,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_HORN_OF_HEAVEN] =
@@ -2162,7 +2162,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_HOWLING_INSECT] =
@@ -2173,7 +2173,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_HUMANOID_SLIME] =
@@ -2184,7 +2184,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_HYDROGEDDON] =
@@ -2195,7 +2195,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_HYPER_HAMMERHEAD] =
@@ -2206,7 +2206,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_IMPERIAL_ORDER] =
@@ -2217,7 +2217,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_INABA_WHITE_RABBIT] =
@@ -2228,7 +2228,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_INDOMITABLE_FIGHTER_LEI_LEI] =
@@ -2239,7 +2239,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_INJECTION_FAIRY_LILY] =
@@ -2250,7 +2250,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_INPACHI] =
@@ -2261,7 +2261,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_INSECT_KNIGHT] =
@@ -2272,7 +2272,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ISLAND_TURTLE] =
@@ -2283,7 +2283,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_JAR_OF_GREED] =
@@ -2294,7 +2294,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_JINZO] =
@@ -2305,7 +2305,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_JIRAI_GUMO] =
@@ -2316,7 +2316,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_JOWGEN_THE_SPIRITUALIST] =
@@ -2327,7 +2327,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_JUDGE_MAN] =
@@ -2338,7 +2338,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_JUST_DESSERTS] =
@@ -2349,7 +2349,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_KAISER_SEA_HORSE] =
@@ -2360,7 +2360,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_KARBONALA_WARRIOR] =
@@ -2371,7 +2371,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_KARMA_CUT] =
@@ -2382,7 +2382,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_KING_DRAGUN] =
@@ -2393,7 +2393,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_KING_OF_THE_SWAMP] =
@@ -2404,7 +2404,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_KING_TIGER_WANGHU] =
@@ -2415,7 +2415,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_KURIBOH] =
@@ -2426,7 +2426,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_KWAGAR_HERCULES] =
@@ -2437,7 +2437,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_KYCOO_THE_GHOST_DESTROYER] =
@@ -2448,7 +2448,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP] =
@@ -2459,7 +2459,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_LABYRINTH_TANK] =
@@ -2470,7 +2470,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_LADY_NINJA_YAE] =
@@ -2481,7 +2481,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_LAST_WILL] =
@@ -2492,7 +2492,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_LEFT_ARM_OF_THE_FORBIDDEN_ONE] =
@@ -2503,7 +2503,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_LEFT_LEG_OF_THE_FORBIDDEN_ONE] =
@@ -2514,7 +2514,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_LEGENDARY_JUJITSU_MASTER] =
@@ -2525,7 +2525,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_LEVEL_LIMIT_AREA_B] =
@@ -2536,7 +2536,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_LEVIA_DRAGON_DAEDALUS] =
@@ -2547,7 +2547,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_LIGHT_OF_INTERVENTION] =
@@ -2558,7 +2558,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_LIGHTNING_VORTEX] =
@@ -2569,7 +2569,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_LIMITER_REMOVAL] =
@@ -2580,7 +2580,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_LUSTER_DRAGON] =
@@ -2591,7 +2591,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MAD_DOG_OF_DARKNESS] =
@@ -2602,7 +2602,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MAGE_POWER] =
@@ -2613,7 +2613,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MAGIC_CYLINDER] =
@@ -2624,7 +2624,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MAGIC_JAMMER] =
@@ -2635,7 +2635,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MAGICAL_DIMENSION] =
@@ -2646,7 +2646,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MAGICAL_MERCHANT] =
@@ -2657,7 +2657,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MAGICAL_SCIENTIST] =
@@ -2668,7 +2668,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MAGICIAN_OF_FAITH] =
@@ -2679,7 +2679,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MAGICIAN_S_CIRCLE] =
@@ -2690,7 +2690,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MAGICIAN_S_VALKYRIA] =
@@ -2701,7 +2701,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MAIDEN_OF_THE_AQUA] =
@@ -2712,7 +2712,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MAKYURA_THE_DESTRUCTOR] =
@@ -2723,7 +2723,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MAN_EATER_BUG] =
@@ -2734,7 +2734,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MANJU_OF_THE_TEN_THOUSAND_HANDS] =
@@ -2745,7 +2745,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MANTICORE_OF_DARKNESS] =
@@ -2756,7 +2756,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MARAUDING_CAPTAIN] =
@@ -2767,7 +2767,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MASK_OF_DARKNESS] =
@@ -2778,7 +2778,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MASK_OF_RESTRICT] =
@@ -2789,7 +2789,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MASKED_DRAGON] =
@@ -2800,7 +2800,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MASKED_SORCERER] =
@@ -2811,7 +2811,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MASTER_OF_OZ] =
@@ -2822,7 +2822,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MATAZA_THE_ZAPPER] =
@@ -2833,7 +2833,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MECHANICALCHASER] =
@@ -2844,7 +2844,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MEGAMORPH] =
@@ -2855,7 +2855,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MERMAID_KNIGHT] =
@@ -2866,7 +2866,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MESSENGER_OF_PEACE] =
@@ -2877,7 +2877,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_METAL_DRAGON] =
@@ -2888,7 +2888,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_METAL_REFLECT_SLIME] =
@@ -2899,7 +2899,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_METAMORPHOSIS] =
@@ -2910,7 +2910,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MILUS_RADIANT] =
@@ -2921,7 +2921,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MINAR] =
@@ -2932,7 +2932,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MIND_CONTROL] =
@@ -2943,7 +2943,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MINE_GOLEM] =
@@ -2954,7 +2954,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MIRACLE_RESTORING] =
@@ -2965,7 +2965,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MIRAGE_DRAGON] =
@@ -2976,7 +2976,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MIRAGE_OF_NIGHTMARE] =
@@ -2987,7 +2987,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MIRROR_FORCE] =
@@ -2998,7 +2998,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MOAI_INTERCEPTOR_CANNONS] =
@@ -3009,7 +3009,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MOBIUS_THE_FROST_MONARCH] =
@@ -3020,7 +3020,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MONSTER_GATE] =
@@ -3031,7 +3031,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MONSTER_REBORN] =
@@ -3042,7 +3042,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MONSTER_REINCARNATION] =
@@ -3053,7 +3053,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MORPHING_JAR] =
@@ -3064,7 +3064,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MOTHER_GRIZZLY] =
@@ -3075,7 +3075,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MUKA_MUKA] =
@@ -3086,7 +3086,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MUSICIAN_KING] =
@@ -3097,7 +3097,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MYSTIC_SWORDSMAN_LV2] =
@@ -3108,7 +3108,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MYSTIC_SWORDSMAN_LV4] =
@@ -3119,7 +3119,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MYSTIC_TOMATO] =
@@ -3130,7 +3130,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MYSTICAL_ELF] =
@@ -3141,7 +3141,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MYSTICAL_SPACE_TYPHOON] =
@@ -3152,7 +3152,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MYSTIK_WOK] =
@@ -3163,7 +3163,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_NECROVALLEY] =
@@ -3174,7 +3174,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_NEEDLE_CEILING] =
@@ -3185,7 +3185,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_NEKO_MANE_KING] =
@@ -3196,7 +3196,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_NEO_BUG] =
@@ -3207,7 +3207,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_NEO_THE_MAGIC_SWORDSMAN] =
@@ -3218,7 +3218,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_NEWDORIA] =
@@ -3229,7 +3229,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_NIGHT_ASSAILANT] =
@@ -3240,7 +3240,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_NIGHTMARE_WHEEL] =
@@ -3251,7 +3251,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_NIGHTMARE_S_STEELCAGE] =
@@ -3262,7 +3262,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_NIMBLE_MOMONGA] =
@@ -3273,7 +3273,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_NIN_KEN_DOG] =
@@ -3284,7 +3284,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_NINJA_GRANDMASTER_SASUKE] =
@@ -3295,7 +3295,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_NOBLEMAN_OF_CROSSOUT] =
@@ -3306,7 +3306,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_NOBLEMAN_OF_EXTERMINATION] =
@@ -3317,7 +3317,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_OFFERINGS_TO_THE_DOOMED] =
@@ -3328,7 +3328,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_OJAMA_KING] =
@@ -3339,7 +3339,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_OJAMA_TRIO] =
@@ -3350,7 +3350,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_OOKAZI] =
@@ -3361,7 +3361,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_OPPRESSED_PEOPLE] =
@@ -3372,7 +3372,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_OPTICLOPS] =
@@ -3383,7 +3383,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_PAINFUL_CHOICE] =
@@ -3394,7 +3394,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_PALADIN_OF_WHITE_DRAGON] =
@@ -3405,7 +3405,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_PENGUIN_KNIGHT] =
@@ -3416,7 +3416,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_PHOENIX_WING_WIND_BLAST] =
@@ -3427,7 +3427,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_PIKERU_S_CIRCLE_OF_ENCHANTMENT] =
@@ -3438,7 +3438,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_PINCH_HOPPER] =
@@ -3449,7 +3449,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_PITCH_BLACK_POWER_STONE] =
@@ -3460,7 +3460,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_POISON_OF_THE_OLD_MAN] =
@@ -3471,7 +3471,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_POLYMERIZATION] =
@@ -3482,7 +3482,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_POT_OF_AVARICE] =
@@ -3493,7 +3493,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_POT_OF_GENEROSITY] =
@@ -3504,7 +3504,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_POT_OF_GREED] =
@@ -3515,7 +3515,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_PREMATURE_BURIAL] =
@@ -3526,7 +3526,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_PREVENT_RAT] =
@@ -3537,7 +3537,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_PRICKLE_FAIRY] =
@@ -3548,7 +3548,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_PRINCESS_OF_TSURUGI] =
@@ -3559,7 +3559,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_PROTECTOR_OF_THE_SANCTUARY] =
@@ -3570,7 +3570,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_PUNISHED_EAGLE] =
@@ -3581,7 +3581,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_PYRAMID_TURTLE] =
@@ -3592,7 +3592,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_RAIGEKI] =
@@ -3603,7 +3603,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_RAIGEKI_BREAK] =
@@ -3614,7 +3614,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_REAPER_ON_THE_NIGHTMARE] =
@@ -3625,7 +3625,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_REASONING] =
@@ -3636,7 +3636,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_RECKLESS_GREED] =
@@ -3647,7 +3647,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_REFLECT_BOUNDER] =
@@ -3658,7 +3658,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_REINFORCEMENT_OF_THE_ARMY] =
@@ -3669,7 +3669,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_REINFORCEMENTS] =
@@ -3680,7 +3680,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_RELINQUISHED] =
@@ -3691,7 +3691,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_RELOAD] =
@@ -3702,7 +3702,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_REMOVE_TRAP] =
@@ -3713,7 +3713,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_RESCUE_CAT] =
@@ -3724,7 +3724,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_RETURN_FROM_THE_DIFFERENT_DIMENSION] =
@@ -3735,7 +3735,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_RIGHT_ARM_OF_THE_FORBIDDEN_ONE] =
@@ -3746,7 +3746,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_RIGHT_LEG_OF_THE_FORBIDDEN_ONE] =
@@ -3757,7 +3757,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_RING_OF_DESTRUCTION] =
@@ -3768,7 +3768,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_RISING_AIR_CURRENT] =
@@ -3779,7 +3779,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ROARING_OCEAN_SNAKE] =
@@ -3790,7 +3790,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ROBBIN_GOBLIN] =
@@ -3801,7 +3801,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ROULETTE_BARREL] =
@@ -3812,7 +3812,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ROYAL_DECREE] =
@@ -3823,7 +3823,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ROYAL_MAGICAL_LIBRARY] =
@@ -3834,7 +3834,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ROYAL_OPPRESSION] =
@@ -3845,7 +3845,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_RUSH_RECKLESSLY] =
@@ -3856,7 +3856,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_RYU_KOKKI] =
@@ -3867,7 +3867,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_RYU_SENSHI] =
@@ -3878,7 +3878,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SABER_BEETLE] =
@@ -3889,7 +3889,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SACRED_CRANE] =
@@ -3900,7 +3900,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SACRED_PHOENIX_OF_NEPHTHYS] =
@@ -3911,7 +3911,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SAKURETSU_ARMOR] =
@@ -3922,7 +3922,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SALVAGE] =
@@ -3933,7 +3933,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SAND_MOTH] =
@@ -3944,7 +3944,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SANGAN] =
@@ -3955,7 +3955,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SANWITCH] =
@@ -3966,7 +3966,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SASUKE_SAMURAI] =
@@ -3977,7 +3977,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SASUKE_SAMURAI_4] =
@@ -3988,7 +3988,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SCAPEGOAT] =
@@ -3999,7 +3999,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SEA_SERPENT_WARRIOR_OF_DARKNESS] =
@@ -4010,7 +4010,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SECOND_COIN_TOSS] =
@@ -4021,7 +4021,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SECRET_BARREL] =
@@ -4032,7 +4032,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SELF_DESTRUCT_BUTTON] =
@@ -4043,7 +4043,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SERIAL_SPELL] =
@@ -4054,7 +4054,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SERPENTINE_PRINCESS] =
@@ -4065,7 +4065,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SEVEN_TOOLS_OF_THE_BANDIT] =
@@ -4076,7 +4076,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SHINING_ANGEL] =
@@ -4087,7 +4087,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SHRINK] =
@@ -4098,7 +4098,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SILLVA_WARLORD_OF_DARK_WORLD] =
@@ -4109,7 +4109,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SILPHEED] =
@@ -4120,7 +4120,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SINISTER_SERPENT] =
@@ -4131,7 +4131,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SKILL_DRAIN] =
@@ -4142,7 +4142,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SKILLED_DARK_MAGICIAN] =
@@ -4153,7 +4153,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SKILLED_WHITE_MAGICIAN] =
@@ -4164,7 +4164,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SKULL_DOG_MARRON] =
@@ -4175,7 +4175,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SKULL_KNIGHT] =
@@ -4186,7 +4186,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SKULL_LAIR] =
@@ -4197,7 +4197,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SKY_SCOUT] =
@@ -4208,7 +4208,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SLATE_WARRIOR] =
@@ -4219,7 +4219,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SMASHING_GROUND] =
@@ -4230,7 +4230,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SNATCH_STEAL] =
@@ -4241,7 +4241,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SOLEMN_JUDGMENT] =
@@ -4252,7 +4252,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SOLEMN_WISHES] =
@@ -4263,7 +4263,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SOUL_EXCHANGE] =
@@ -4274,7 +4274,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SOUL_TIGER] =
@@ -4285,7 +4285,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SPEAR_CRETIN] =
@@ -4296,7 +4296,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SPEAR_DRAGON] =
@@ -4307,7 +4307,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SPELL_CANCELLER] =
@@ -4318,7 +4318,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SPELL_REPRODUCTION] =
@@ -4329,7 +4329,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SPIRIT_OF_THE_HARP] =
@@ -4340,7 +4340,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SPIRIT_REAPER] =
@@ -4351,7 +4351,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SPIRITUAL_EARTH_ART_KUROGANE] =
@@ -4362,7 +4362,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SPIRITUAL_WATER_ART_AOI] =
@@ -4373,7 +4373,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SPIRITUAL_WIND_ART_MIYABI] =
@@ -4384,7 +4384,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SPIRITUALISM] =
@@ -4395,7 +4395,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ST_JOAN] =
@@ -4406,7 +4406,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_STEALTH_BIRD] =
@@ -4417,7 +4417,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_STEAM_GYROID] =
@@ -4428,7 +4428,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_STONE_STATUE_OF_THE_AZTECS] =
@@ -4439,7 +4439,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_STOP_DEFENSE] =
@@ -4450,7 +4450,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SUMMONED_SKULL] =
@@ -4461,7 +4461,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SUPER_ROBOLADY] =
@@ -4472,7 +4472,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SUPER_ROBOYAROU] =
@@ -4483,7 +4483,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SWARM_OF_LOCUSTS] =
@@ -4494,7 +4494,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SWARM_OF_SCARABS] =
@@ -4505,7 +4505,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SWORDS_OF_REVEALING_LIGHT] =
@@ -4516,7 +4516,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TERRAFORMING] =
@@ -4527,7 +4527,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_THE_BIG_MARCH_OF_ANIMALS] =
@@ -4538,7 +4538,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_THE_DRAGON_DWELLING_IN_THE_CAVE] =
@@ -4549,7 +4549,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_THE_FIEND_MEGACYBER] =
@@ -4560,7 +4560,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_THE_FORCEFUL_SENTRY] =
@@ -4571,7 +4571,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_THE_FORGIVING_MAIDEN] =
@@ -4582,7 +4582,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET] =
@@ -4593,7 +4593,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_THE_LITTLE_SWORDSMAN_OF_AILE] =
@@ -4604,7 +4604,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_THE_WICKED_WORM_BEAST] =
@@ -4615,7 +4615,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_THESTALOS_THE_FIRESTORM_MONARCH] =
@@ -4626,7 +4626,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_THOUSAND_DRAGON] =
@@ -4637,7 +4637,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_THOUSAND_EYES_RESTRICT] =
@@ -4648,7 +4648,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_THREATENING_ROAR] =
@@ -4659,7 +4659,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_THROWSTONE_UNIT] =
@@ -4670,7 +4670,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_THUNDER_DRAGON] =
@@ -4681,7 +4681,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_THUNDER_NYAN_NYAN] =
@@ -4692,7 +4692,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TIME_SEAL] =
@@ -4703,7 +4703,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TOON_CANNON_SOLDIER] =
@@ -4714,7 +4714,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TOON_DARK_MAGICIAN_GIRL] =
@@ -4725,7 +4725,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TOON_GEMINI_ELF] =
@@ -4736,7 +4736,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TOON_GOBLIN_ATTACK_FORCE] =
@@ -4747,7 +4747,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TOON_MASKED_SORCERER] =
@@ -4758,7 +4758,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TOON_TABLE_OF_CONTENTS] =
@@ -4769,7 +4769,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TORRENTIAL_TRIBUTE] =
@@ -4780,7 +4780,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TRAP_DUSTSHOOT] =
@@ -4791,7 +4791,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TRAP_HOLE] =
@@ -4802,7 +4802,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TRAP_MASTER] =
@@ -4813,7 +4813,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TREEBORN_FROG] =
@@ -4824,7 +4824,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TREMENDOUS_FIRE] =
@@ -4835,7 +4835,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TRIBE_INFECTING_VIRUS] =
@@ -4846,7 +4846,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TRIBUTE_TO_THE_DOOMED] =
@@ -4857,7 +4857,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TSUKUYOMI] =
@@ -4868,7 +4868,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TWIN_HEADED_BEHEMOTH] =
@@ -4879,7 +4879,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TWIN_HEADED_THUNDER_DRAGON] =
@@ -4890,7 +4890,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ULTIMATE_INSECT_LV3] =
@@ -4901,7 +4901,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ULTIMATE_INSECT_LV5] =
@@ -4912,7 +4912,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ULTIMATE_INSECT_LV7] =
@@ -4923,7 +4923,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ULTIMATE_OFFERING] =
@@ -4934,7 +4934,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_UNITED_WE_STAND] =
@@ -4945,7 +4945,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_UPSTART_GOBLIN] =
@@ -4956,7 +4956,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_VAMPIRE_LORD] =
@@ -4967,7 +4967,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_VORSE_RAIDER] =
@@ -4978,7 +4978,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_WABOKU] =
@@ -4989,7 +4989,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_WALL_OF_ILLUSION] =
@@ -5000,7 +5000,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_WALL_OF_REVEALING_LIGHT] =
@@ -5011,7 +5011,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_WARRIOR_OF_TRADITION] =
@@ -5022,7 +5022,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_WAVE_MOTION_CANNON] =
@@ -5033,7 +5033,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_WHITE_DRAGON_RITUAL] =
@@ -5044,7 +5044,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_WHITE_MAGICAL_HAT] =
@@ -5055,7 +5055,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_WIDESPREAD_RUIN] =
@@ -5066,7 +5066,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_WITCH_OF_THE_BLACK_FOREST] =
@@ -5077,7 +5077,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_X_HEAD_CANNON] =
@@ -5088,7 +5088,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_XING_ZHEN_HU] =
@@ -5099,7 +5099,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_YATA_GARASU] =
@@ -5110,7 +5110,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_YOMI_SHIP] =
@@ -5121,7 +5121,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ZABORG_THE_THUNDER_MONARCH] =
@@ -5132,7 +5132,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ZOMBYRA_THE_DARK] =
@@ -5143,7 +5143,7 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ZURE_KNIGHT_OF_DARK_WORLD] =
@@ -5154,6 +5154,6 @@
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 

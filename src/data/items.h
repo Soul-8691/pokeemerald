@@ -4546,7 +4546,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_7_COLORED_FISH] =
@@ -4557,7 +4557,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_A_LEGENDARY_OCEAN] =
@@ -4568,7 +4568,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ABYSS_SOLDIER] =
@@ -4579,7 +4579,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_AIRKNIGHT_PARSHATH] =
@@ -4590,7 +4590,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_AMAZONESS_ARCHER] =
@@ -4601,7 +4601,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_AMPHIBIOUS_BUGROTH_MK_3] =
@@ -4612,7 +4612,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ANTI_SPELL_FRAGRANCE] =
@@ -4623,7 +4623,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_AQUA_MADOOR] =
@@ -4634,7 +4634,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_AQUA_SPIRIT] =
@@ -4645,7 +4645,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ARCHFIEND_SOLDIER] =
@@ -4656,7 +4656,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ARSENAL_BUG] =
@@ -4667,7 +4667,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ARSENAL_SUMMONER] =
@@ -4678,7 +4678,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ASURA_PRIEST] =
@@ -4689,7 +4689,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_AXE_OF_DESPAIR] =
@@ -4700,7 +4700,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BANISHER_OF_THE_LIGHT] =
@@ -4711,7 +4711,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BARREL_BEHIND_THE_DOOR] =
@@ -4722,7 +4722,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BATTLE_FOOTBALLER] =
@@ -4733,7 +4733,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BATTLE_OX] =
@@ -4744,7 +4744,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BAZOO_THE_SOUL_EATER] =
@@ -4755,7 +4755,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BERSERK_GORILLA] =
@@ -4766,7 +4766,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BICKURIBOX] =
@@ -4777,7 +4777,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BIG_BANG_SHOT] =
@@ -4788,7 +4788,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BIG_SHIELD_GARDNA] =
@@ -4799,7 +4799,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BIG_TUSKED_MAMMOTH] =
@@ -4810,7 +4810,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BLACK_ILLUSION_RITUAL] =
@@ -4821,7 +4821,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING] =
@@ -4832,7 +4832,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BLACK_PENDANT] =
@@ -4843,7 +4843,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BLACK_SKULL_DRAGON] =
@@ -4854,7 +4854,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BLADE_KNIGHT] =
@@ -4865,7 +4865,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BLAST_WITH_CHAIN] =
@@ -4876,7 +4876,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BLAZING_INPACHI] =
@@ -4887,7 +4887,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BLINDLY_LOYAL_GOBLIN] =
@@ -4898,7 +4898,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BLOCK_ATTACK] =
@@ -4909,7 +4909,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BLOWBACK_DRAGON] =
@@ -4920,7 +4920,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BLUE_EYES_ULTIMATE_DRAGON] =
@@ -4931,7 +4931,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BLUE_EYES_WHITE_DRAGON] =
@@ -4942,7 +4942,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BOOK_OF_LIFE] =
@@ -4953,7 +4953,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BOOK_OF_MOON] =
@@ -4964,7 +4964,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BOOK_OF_TAIYOU] =
@@ -4975,7 +4975,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BOTTOMLESS_TRAP_HOLE] =
@@ -4986,7 +4986,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BOWGANIAN] =
@@ -4997,7 +4997,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BRAIN_CONTROL] =
@@ -5008,7 +5008,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BREAKER_THE_MAGICAL_WARRIOR] =
@@ -5019,7 +5019,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BROWW_HUNTSMAN_OF_DARK_WORLD] =
@@ -5030,7 +5030,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BRRON_MAD_KING_OF_DARK_WORLD] =
@@ -5041,7 +5041,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BUSTER_BLADER] =
@@ -5052,7 +5052,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_BYSER_SHOCK] =
@@ -5063,7 +5063,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CALL_OF_THE_HAUNTED] =
@@ -5074,7 +5074,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CANNON_SOLDIER] =
@@ -5085,7 +5085,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CARD_DESTRUCTION] =
@@ -5096,7 +5096,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CASTLE_OF_DARK_ILLUSIONS] =
@@ -5107,7 +5107,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CASTLE_WALLS] =
@@ -5118,7 +5118,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CATAPULT_TURTLE] =
@@ -5129,7 +5129,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CEASEFIRE] =
@@ -5140,7 +5140,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CHAIN_DISAPPEARANCE] =
@@ -5151,7 +5151,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CHAIN_ENERGY] =
@@ -5162,7 +5162,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CHAINSAW_INSECT] =
@@ -5173,7 +5173,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CHANGE_OF_HEART] =
@@ -5184,7 +5184,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CHAOS_EMPEROR_DRAGON_ENVOY_OF_THE_END] =
@@ -5195,7 +5195,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CHAOS_SORCERER] =
@@ -5206,7 +5206,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CHARCOAL_INPACHI] =
@@ -5217,7 +5217,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CHARUBIN_THE_FIRE_KNIGHT] =
@@ -5228,7 +5228,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CHIRON_THE_MAGE] =
@@ -5239,7 +5239,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CIPHER_SOLDIER] =
@@ -5250,7 +5250,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_COLD_WAVE] =
@@ -5261,7 +5261,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_COMMAND_KNIGHT] =
@@ -5272,7 +5272,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_COMPULSORY_EVACUATION_DEVICE] =
@@ -5283,7 +5283,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CONFISCATION] =
@@ -5294,7 +5294,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CRASS_CLOWN] =
@@ -5305,7 +5305,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CREATURE_SWAP] =
@@ -5316,7 +5316,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CRUSH_CARD_VIRUS] =
@@ -5327,7 +5327,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL] =
@@ -5338,7 +5338,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CYBER_BLADER] =
@@ -5349,7 +5349,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CYBER_DRAGON] =
@@ -5360,7 +5360,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CYBER_END_DRAGON] =
@@ -5371,7 +5371,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CYBER_HARPIE_LADY] =
@@ -5382,7 +5382,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CYBER_JAR] =
@@ -5393,7 +5393,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CYBER_SAURUS] =
@@ -5404,7 +5404,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CYBER_TWIN_DRAGON] =
@@ -5415,7 +5415,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_CYBER_STEIN] =
@@ -5426,7 +5426,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_D_D_ASSAILANT] =
@@ -5437,7 +5437,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_D_D_CRAZY_BEAST] =
@@ -5448,7 +5448,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_D_D_SURVIVOR] =
@@ -5459,7 +5459,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_D_D_TRAINER] =
@@ -5470,7 +5470,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_D_D_WARRIOR_LADY] =
@@ -5481,7 +5481,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_BALTER_THE_TERRIBLE] =
@@ -5492,7 +5492,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_BLADE] =
@@ -5503,7 +5503,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_BLADE_THE_DRAGON_KNIGHT] =
@@ -5514,7 +5514,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_DEAL] =
@@ -5525,7 +5525,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_ELF] =
@@ -5536,7 +5536,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_FLARE_KNIGHT] =
@@ -5547,7 +5547,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_HOLE] =
@@ -5558,7 +5558,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_MAGIC_CURTAIN] =
@@ -5569,7 +5569,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_MAGICIAN] =
@@ -5580,7 +5580,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_MAGICIAN_OF_CHAOS] =
@@ -5591,7 +5591,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_MIMIC_LV1] =
@@ -5602,7 +5602,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_MIMIC_LV3] =
@@ -5613,7 +5613,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_PALADIN] =
@@ -5624,7 +5624,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_RULER_HA_DES] =
@@ -5635,7 +5635,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_SCORPION_CHICK_THE_YELLOW] =
@@ -5646,7 +5646,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_SCORPION_CLIFF_THE_TRAP_REMOVER] =
@@ -5657,7 +5657,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARK_WORLD_LIGHTNING] =
@@ -5668,7 +5668,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DARKFIRE_DRAGON] =
@@ -5679,7 +5679,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DE_SPELL] =
@@ -5690,7 +5690,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DECK_DEVASTATION_VIRUS] =
@@ -5701,7 +5701,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DEEPSEA_SHARK] =
@@ -5712,7 +5712,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE] =
@@ -5723,7 +5723,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DELINQUENT_DUO] =
@@ -5734,7 +5734,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DES_DENDLE] =
@@ -5745,7 +5745,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DES_KOALA] =
@@ -5756,7 +5756,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DES_LACOODA] =
@@ -5767,7 +5767,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DES_WOMBAT] =
@@ -5778,7 +5778,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DESERT_SUNLIGHT] =
@@ -5789,7 +5789,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DIAN_KETO_THE_CURE_MASTER] =
@@ -5800,7 +5800,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DIMENSION_FUSION] =
@@ -5811,7 +5811,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DON_ZALOOG] =
@@ -5822,7 +5822,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DOOM_DOZER] =
@@ -5833,7 +5833,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DOOMCALIBER_KNIGHT] =
@@ -5844,7 +5844,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DRAGGED_DOWN_INTO_THE_GRAVE] =
@@ -5855,7 +5855,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DRAGON_S_MIRROR] =
@@ -5866,7 +5866,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DRAGON_S_RAGE] =
@@ -5877,7 +5877,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DRAGONESS_THE_WICKED_KNIGHT] =
@@ -5888,7 +5888,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DREAM_CLOWN] =
@@ -5899,7 +5899,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DRILLROID] =
@@ -5910,7 +5910,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DROP_OFF] =
@@ -5921,7 +5921,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DUNAMES_DARK_WITCH] =
@@ -5932,7 +5932,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_DUST_TORNADO] =
@@ -5943,7 +5943,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_EARTHBOUND_SPIRIT] =
@@ -5954,7 +5954,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ELECTRIC_SNAKE] =
@@ -5965,7 +5965,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ELEMENTAL_HERO_CLAYMAN] =
@@ -5976,7 +5976,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ELEMENTAL_HERO_FLAME_WINGMAN] =
@@ -5987,7 +5987,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ELEMENTAL_HERO_WILDHEART] =
@@ -5998,7 +5998,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_EMERGENCY_PROVISIONS] =
@@ -6009,7 +6009,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_EMISSARY_OF_THE_AFTERLIFE] =
@@ -6020,7 +6020,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_EMPRESS_JUDGE] =
@@ -6031,7 +6031,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ENEMY_CONTROLLER] =
@@ -6042,7 +6042,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_EXARION_UNIVERSE] =
@@ -6053,7 +6053,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_EXCHANGE] =
@@ -6064,7 +6064,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_EXCHANGE_OF_THE_SPIRIT] =
@@ -6075,7 +6075,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_EXILED_FORCE] =
@@ -6086,7 +6086,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_EXODIA_THE_FORBIDDEN_ONE] =
@@ -6097,7 +6097,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_FAKE_TRAP] =
@@ -6108,7 +6108,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_FAMILIAR_POSSESSED_AUSSA] =
@@ -6119,7 +6119,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_FAMILIAR_POSSESSED_ERIA] =
@@ -6130,7 +6130,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_FAMILIAR_POSSESSED_HIITA] =
@@ -6141,7 +6141,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_FAMILIAR_POSSESSED_WYNN] =
@@ -6152,7 +6152,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_FIBER_JAR] =
@@ -6163,7 +6163,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_FIEND_SKULL_DRAGON] =
@@ -6174,7 +6174,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_FINAL_FLAME] =
@@ -6185,7 +6185,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_FISSURE] =
@@ -6196,7 +6196,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_FLAME_GHOST] =
@@ -6207,7 +6207,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_FLAME_SWORDSMAN] =
@@ -6218,7 +6218,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_FLOWER_WOLF] =
@@ -6229,7 +6229,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_FLYING_KAMAKIRI_1] =
@@ -6240,7 +6240,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_FUSILIER_DRAGON_THE_DUAL_MODE_BEAST] =
@@ -6251,7 +6251,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_FUSIONIST] =
@@ -6262,7 +6262,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GAGAGIGO] =
@@ -6273,7 +6273,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GAIA_POWER] =
@@ -6284,7 +6284,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GAIA_THE_DRAGON_CHAMPION] =
@@ -6295,7 +6295,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GATLING_DRAGON] =
@@ -6306,7 +6306,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GEAR_GOLEM_THE_MOVING_FORTRESS] =
@@ -6317,7 +6317,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GEARFRIED_THE_IRON_KNIGHT] =
@@ -6328,7 +6328,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GEMINI_ELF] =
@@ -6339,7 +6339,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GIANT_GERM] =
@@ -6350,7 +6350,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GIANT_ORC] =
@@ -6361,7 +6361,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GIANT_RAT] =
@@ -6372,7 +6372,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GIANT_RED_SEASNAKE] =
@@ -6383,7 +6383,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GIANT_SOLDIER_OF_STONE] =
@@ -6394,7 +6394,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GIANT_TRUNADE] =
@@ -6405,7 +6405,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GIGA_TECH_WOLF] =
@@ -6416,7 +6416,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GIGANTES] =
@@ -6427,7 +6427,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GIL_GARTH] =
@@ -6438,7 +6438,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GILASAURUS] =
@@ -6449,7 +6449,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GILTIA_THE_D_KNIGHT] =
@@ -6460,7 +6460,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GOBLIN_ATTACK_FORCE] =
@@ -6471,7 +6471,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GOBLIN_ELITE_ATTACK_FORCE] =
@@ -6482,7 +6482,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GOKIPON] =
@@ -6493,7 +6493,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GOLEM_SENTRY] =
@@ -6504,7 +6504,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GORA_TURTLE] =
@@ -6515,7 +6515,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GRACEFUL_CHARITY] =
@@ -6526,7 +6526,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GRAVEKEEPER_S_ASSAILANT] =
@@ -6537,7 +6537,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GRAVEKEEPER_S_GUARD] =
@@ -6548,7 +6548,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GRAVEKEEPER_S_SPEAR_SOLDIER] =
@@ -6559,7 +6559,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GRAVEKEEPER_S_SPY] =
@@ -6570,7 +6570,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GRAVEKEEPER_S_WATCHER] =
@@ -6581,7 +6581,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GRAVITY_BIND] =
@@ -6592,7 +6592,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GREAT_WHITE] =
@@ -6603,7 +6603,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GUARDIAN_SPHINX] =
@@ -6614,7 +6614,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GYAKU_GIRE_PANDA] =
@@ -6625,7 +6625,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_GYAKUTENNO_MEGAMI] =
@@ -6636,7 +6636,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_HALLOWED_LIFE_BARRIER] =
@@ -6647,7 +6647,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_HANE_HANE] =
@@ -6658,7 +6658,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_HARPIE_S_FEATHER_DUSTER] =
@@ -6669,7 +6669,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_HEAVY_STORM] =
@@ -6680,7 +6680,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_HIERACOSPHINX] =
@@ -6691,7 +6691,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_HORN_OF_HEAVEN] =
@@ -6702,7 +6702,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_HOWLING_INSECT] =
@@ -6713,7 +6713,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_HUMANOID_SLIME] =
@@ -6724,7 +6724,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_HYDROGEDDON] =
@@ -6735,7 +6735,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_HYPER_HAMMERHEAD] =
@@ -6746,7 +6746,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_IMPERIAL_ORDER] =
@@ -6757,7 +6757,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_INABA_WHITE_RABBIT] =
@@ -6768,7 +6768,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_INDOMITABLE_FIGHTER_LEI_LEI] =
@@ -6779,7 +6779,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_INJECTION_FAIRY_LILY] =
@@ -6790,7 +6790,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_INPACHI] =
@@ -6801,7 +6801,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_INSECT_KNIGHT] =
@@ -6812,7 +6812,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ISLAND_TURTLE] =
@@ -6823,7 +6823,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_JAR_OF_GREED] =
@@ -6834,7 +6834,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_JINZO] =
@@ -6845,7 +6845,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_JIRAI_GUMO] =
@@ -6856,7 +6856,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_JOWGEN_THE_SPIRITUALIST] =
@@ -6867,7 +6867,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_JUDGE_MAN] =
@@ -6878,7 +6878,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_JUST_DESSERTS] =
@@ -6889,7 +6889,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_KAISER_SEA_HORSE] =
@@ -6900,7 +6900,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_KARBONALA_WARRIOR] =
@@ -6911,7 +6911,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_KARMA_CUT] =
@@ -6922,7 +6922,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_KING_DRAGUN] =
@@ -6933,7 +6933,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_KING_OF_THE_SWAMP] =
@@ -6944,7 +6944,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_KING_TIGER_WANGHU] =
@@ -6955,7 +6955,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_KURIBOH] =
@@ -6966,7 +6966,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_KWAGAR_HERCULES] =
@@ -6977,7 +6977,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_KYCOO_THE_GHOST_DESTROYER] =
@@ -6988,7 +6988,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP] =
@@ -6999,7 +6999,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_LABYRINTH_TANK] =
@@ -7010,7 +7010,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_LADY_NINJA_YAE] =
@@ -7021,7 +7021,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_LAST_WILL] =
@@ -7032,7 +7032,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_LEFT_ARM_OF_THE_FORBIDDEN_ONE] =
@@ -7043,7 +7043,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_LEFT_LEG_OF_THE_FORBIDDEN_ONE] =
@@ -7054,7 +7054,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_LEGENDARY_JUJITSU_MASTER] =
@@ -7065,7 +7065,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_LEVEL_LIMIT_AREA_B] =
@@ -7076,7 +7076,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_LEVIA_DRAGON_DAEDALUS] =
@@ -7087,7 +7087,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_LIGHT_OF_INTERVENTION] =
@@ -7098,7 +7098,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_LIGHTNING_VORTEX] =
@@ -7109,7 +7109,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_LIMITER_REMOVAL] =
@@ -7120,7 +7120,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_LUSTER_DRAGON] =
@@ -7131,7 +7131,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MAD_DOG_OF_DARKNESS] =
@@ -7142,7 +7142,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MAGE_POWER] =
@@ -7153,7 +7153,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MAGIC_CYLINDER] =
@@ -7164,7 +7164,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MAGIC_JAMMER] =
@@ -7175,7 +7175,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MAGICAL_DIMENSION] =
@@ -7186,7 +7186,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MAGICAL_MERCHANT] =
@@ -7197,7 +7197,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MAGICAL_SCIENTIST] =
@@ -7208,7 +7208,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MAGICIAN_OF_FAITH] =
@@ -7219,7 +7219,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MAGICIAN_S_CIRCLE] =
@@ -7230,7 +7230,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MAGICIAN_S_VALKYRIA] =
@@ -7241,7 +7241,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MAIDEN_OF_THE_AQUA] =
@@ -7252,7 +7252,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MAKYURA_THE_DESTRUCTOR] =
@@ -7263,7 +7263,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MAN_EATER_BUG] =
@@ -7274,7 +7274,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MANJU_OF_THE_TEN_THOUSAND_HANDS] =
@@ -7285,7 +7285,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MANTICORE_OF_DARKNESS] =
@@ -7296,7 +7296,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MARAUDING_CAPTAIN] =
@@ -7307,7 +7307,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MASK_OF_DARKNESS] =
@@ -7318,7 +7318,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MASK_OF_RESTRICT] =
@@ -7329,7 +7329,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MASKED_DRAGON] =
@@ -7340,7 +7340,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MASKED_SORCERER] =
@@ -7351,7 +7351,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MASTER_OF_OZ] =
@@ -7362,7 +7362,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MATAZA_THE_ZAPPER] =
@@ -7373,7 +7373,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MECHANICALCHASER] =
@@ -7384,7 +7384,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MEGAMORPH] =
@@ -7395,7 +7395,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MERMAID_KNIGHT] =
@@ -7406,7 +7406,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MESSENGER_OF_PEACE] =
@@ -7417,7 +7417,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_METAL_DRAGON] =
@@ -7428,7 +7428,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_METAL_REFLECT_SLIME] =
@@ -7439,7 +7439,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_METAMORPHOSIS] =
@@ -7450,7 +7450,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MILUS_RADIANT] =
@@ -7461,7 +7461,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MINAR] =
@@ -7472,7 +7472,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MIND_CONTROL] =
@@ -7483,7 +7483,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MINE_GOLEM] =
@@ -7494,7 +7494,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MIRACLE_RESTORING] =
@@ -7505,7 +7505,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MIRAGE_DRAGON] =
@@ -7516,7 +7516,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MIRAGE_OF_NIGHTMARE] =
@@ -7527,7 +7527,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MIRROR_FORCE] =
@@ -7538,7 +7538,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MOAI_INTERCEPTOR_CANNONS] =
@@ -7549,7 +7549,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MOBIUS_THE_FROST_MONARCH] =
@@ -7560,7 +7560,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MONSTER_GATE] =
@@ -7571,7 +7571,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MONSTER_REBORN] =
@@ -7582,7 +7582,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MONSTER_REINCARNATION] =
@@ -7593,7 +7593,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MORPHING_JAR] =
@@ -7604,7 +7604,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MOTHER_GRIZZLY] =
@@ -7615,7 +7615,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MUKA_MUKA] =
@@ -7626,7 +7626,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MUSICIAN_KING] =
@@ -7637,7 +7637,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MYSTIC_SWORDSMAN_LV2] =
@@ -7648,7 +7648,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MYSTIC_SWORDSMAN_LV4] =
@@ -7659,7 +7659,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MYSTIC_TOMATO] =
@@ -7670,7 +7670,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MYSTICAL_ELF] =
@@ -7681,7 +7681,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MYSTICAL_SPACE_TYPHOON] =
@@ -7692,7 +7692,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_MYSTIK_WOK] =
@@ -7703,7 +7703,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_NECROVALLEY] =
@@ -7714,7 +7714,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_NEEDLE_CEILING] =
@@ -7725,7 +7725,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_NEKO_MANE_KING] =
@@ -7736,7 +7736,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_NEO_BUG] =
@@ -7747,7 +7747,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_NEO_THE_MAGIC_SWORDSMAN] =
@@ -7758,7 +7758,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_NEWDORIA] =
@@ -7769,7 +7769,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_NIGHT_ASSAILANT] =
@@ -7780,7 +7780,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_NIGHTMARE_WHEEL] =
@@ -7791,7 +7791,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_NIGHTMARE_S_STEELCAGE] =
@@ -7802,7 +7802,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_NIMBLE_MOMONGA] =
@@ -7813,7 +7813,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_NIN_KEN_DOG] =
@@ -7824,7 +7824,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_NINJA_GRANDMASTER_SASUKE] =
@@ -7835,7 +7835,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_NOBLEMAN_OF_CROSSOUT] =
@@ -7846,7 +7846,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_NOBLEMAN_OF_EXTERMINATION] =
@@ -7857,7 +7857,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_OFFERINGS_TO_THE_DOOMED] =
@@ -7868,7 +7868,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_OJAMA_KING] =
@@ -7879,7 +7879,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_OJAMA_TRIO] =
@@ -7890,7 +7890,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_OOKAZI] =
@@ -7901,7 +7901,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_OPPRESSED_PEOPLE] =
@@ -7912,7 +7912,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_OPTICLOPS] =
@@ -7923,7 +7923,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_PAINFUL_CHOICE] =
@@ -7934,7 +7934,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_PALADIN_OF_WHITE_DRAGON] =
@@ -7945,7 +7945,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_PENGUIN_KNIGHT] =
@@ -7956,7 +7956,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_PHOENIX_WING_WIND_BLAST] =
@@ -7967,7 +7967,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_PIKERU_S_CIRCLE_OF_ENCHANTMENT] =
@@ -7978,7 +7978,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_PINCH_HOPPER] =
@@ -7989,7 +7989,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_PITCH_BLACK_POWER_STONE] =
@@ -8000,7 +8000,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_POISON_OF_THE_OLD_MAN] =
@@ -8011,7 +8011,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_POLYMERIZATION] =
@@ -8022,7 +8022,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_POT_OF_AVARICE] =
@@ -8033,7 +8033,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_POT_OF_GENEROSITY] =
@@ -8044,7 +8044,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_POT_OF_GREED] =
@@ -8055,7 +8055,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_PREMATURE_BURIAL] =
@@ -8066,7 +8066,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_PREVENT_RAT] =
@@ -8077,7 +8077,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_PRICKLE_FAIRY] =
@@ -8088,7 +8088,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_PRINCESS_OF_TSURUGI] =
@@ -8099,7 +8099,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_PROTECTOR_OF_THE_SANCTUARY] =
@@ -8110,7 +8110,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_PUNISHED_EAGLE] =
@@ -8121,7 +8121,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_PYRAMID_TURTLE] =
@@ -8132,7 +8132,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_RAIGEKI] =
@@ -8143,7 +8143,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_RAIGEKI_BREAK] =
@@ -8154,7 +8154,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_REAPER_ON_THE_NIGHTMARE] =
@@ -8165,7 +8165,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_REASONING] =
@@ -8176,7 +8176,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_RECKLESS_GREED] =
@@ -8187,7 +8187,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_REFLECT_BOUNDER] =
@@ -8198,7 +8198,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_REINFORCEMENT_OF_THE_ARMY] =
@@ -8209,7 +8209,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_REINFORCEMENTS] =
@@ -8220,7 +8220,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_RELINQUISHED] =
@@ -8231,7 +8231,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_RELOAD] =
@@ -8242,7 +8242,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_REMOVE_TRAP] =
@@ -8253,7 +8253,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_RESCUE_CAT] =
@@ -8264,7 +8264,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_RETURN_FROM_THE_DIFFERENT_DIMENSION] =
@@ -8275,7 +8275,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_RIGHT_ARM_OF_THE_FORBIDDEN_ONE] =
@@ -8286,7 +8286,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_RIGHT_LEG_OF_THE_FORBIDDEN_ONE] =
@@ -8297,7 +8297,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_RING_OF_DESTRUCTION] =
@@ -8308,7 +8308,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_RISING_AIR_CURRENT] =
@@ -8319,7 +8319,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ROARING_OCEAN_SNAKE] =
@@ -8330,7 +8330,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ROBBIN_GOBLIN] =
@@ -8341,7 +8341,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ROULETTE_BARREL] =
@@ -8352,7 +8352,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ROYAL_DECREE] =
@@ -8363,7 +8363,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ROYAL_MAGICAL_LIBRARY] =
@@ -8374,7 +8374,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ROYAL_OPPRESSION] =
@@ -8385,7 +8385,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_RUSH_RECKLESSLY] =
@@ -8396,7 +8396,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_RYU_KOKKI] =
@@ -8407,7 +8407,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_RYU_SENSHI] =
@@ -8418,7 +8418,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SABER_BEETLE] =
@@ -8429,7 +8429,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SACRED_CRANE] =
@@ -8440,7 +8440,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SACRED_PHOENIX_OF_NEPHTHYS] =
@@ -8451,7 +8451,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SAKURETSU_ARMOR] =
@@ -8462,7 +8462,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SALVAGE] =
@@ -8473,7 +8473,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SAND_MOTH] =
@@ -8484,7 +8484,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SANGAN] =
@@ -8495,7 +8495,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SANWITCH] =
@@ -8506,7 +8506,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SASUKE_SAMURAI] =
@@ -8517,7 +8517,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SASUKE_SAMURAI_4] =
@@ -8528,7 +8528,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SCAPEGOAT] =
@@ -8539,7 +8539,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SEA_SERPENT_WARRIOR_OF_DARKNESS] =
@@ -8550,7 +8550,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SECOND_COIN_TOSS] =
@@ -8561,7 +8561,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SECRET_BARREL] =
@@ -8572,7 +8572,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SELF_DESTRUCT_BUTTON] =
@@ -8583,7 +8583,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SERIAL_SPELL] =
@@ -8594,7 +8594,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SERPENTINE_PRINCESS] =
@@ -8605,7 +8605,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SEVEN_TOOLS_OF_THE_BANDIT] =
@@ -8616,7 +8616,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SHINING_ANGEL] =
@@ -8627,7 +8627,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SHRINK] =
@@ -8638,7 +8638,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SILLVA_WARLORD_OF_DARK_WORLD] =
@@ -8649,7 +8649,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SILPHEED] =
@@ -8660,7 +8660,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SINISTER_SERPENT] =
@@ -8671,7 +8671,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SKILL_DRAIN] =
@@ -8682,7 +8682,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SKILLED_DARK_MAGICIAN] =
@@ -8693,7 +8693,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SKILLED_WHITE_MAGICIAN] =
@@ -8704,7 +8704,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SKULL_DOG_MARRON] =
@@ -8715,7 +8715,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SKULL_KNIGHT] =
@@ -8726,7 +8726,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SKULL_LAIR] =
@@ -8737,7 +8737,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SKY_SCOUT] =
@@ -8748,7 +8748,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SLATE_WARRIOR] =
@@ -8759,7 +8759,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SMASHING_GROUND] =
@@ -8770,7 +8770,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SNATCH_STEAL] =
@@ -8781,7 +8781,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SOLEMN_JUDGMENT] =
@@ -8792,7 +8792,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SOLEMN_WISHES] =
@@ -8803,7 +8803,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SOUL_EXCHANGE] =
@@ -8814,7 +8814,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SOUL_TIGER] =
@@ -8825,7 +8825,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SPEAR_CRETIN] =
@@ -8836,7 +8836,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SPEAR_DRAGON] =
@@ -8847,7 +8847,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SPELL_CANCELLER] =
@@ -8858,7 +8858,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SPELL_REPRODUCTION] =
@@ -8869,7 +8869,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SPIRIT_OF_THE_HARP] =
@@ -8880,7 +8880,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SPIRIT_REAPER] =
@@ -8891,7 +8891,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SPIRITUAL_EARTH_ART_KUROGANE] =
@@ -8902,7 +8902,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SPIRITUAL_WATER_ART_AOI] =
@@ -8913,7 +8913,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SPIRITUAL_WIND_ART_MIYABI] =
@@ -8924,7 +8924,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SPIRITUALISM] =
@@ -8935,7 +8935,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ST_JOAN] =
@@ -8946,7 +8946,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_STEALTH_BIRD] =
@@ -8957,7 +8957,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_STEAM_GYROID] =
@@ -8968,7 +8968,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_STONE_STATUE_OF_THE_AZTECS] =
@@ -8979,7 +8979,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_STOP_DEFENSE] =
@@ -8990,7 +8990,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SUMMONED_SKULL] =
@@ -9001,7 +9001,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SUPER_ROBOLADY] =
@@ -9012,7 +9012,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SUPER_ROBOYAROU] =
@@ -9023,7 +9023,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SWARM_OF_LOCUSTS] =
@@ -9034,7 +9034,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SWARM_OF_SCARABS] =
@@ -9045,7 +9045,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_SWORDS_OF_REVEALING_LIGHT] =
@@ -9056,7 +9056,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TERRAFORMING] =
@@ -9067,7 +9067,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_THE_BIG_MARCH_OF_ANIMALS] =
@@ -9078,7 +9078,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_THE_DRAGON_DWELLING_IN_THE_CAVE] =
@@ -9089,7 +9089,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_THE_FIEND_MEGACYBER] =
@@ -9100,7 +9100,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_THE_FORCEFUL_SENTRY] =
@@ -9111,7 +9111,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_THE_FORGIVING_MAIDEN] =
@@ -9122,7 +9122,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET] =
@@ -9133,7 +9133,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_THE_LITTLE_SWORDSMAN_OF_AILE] =
@@ -9144,7 +9144,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_THE_WICKED_WORM_BEAST] =
@@ -9155,7 +9155,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_THESTALOS_THE_FIRESTORM_MONARCH] =
@@ -9166,7 +9166,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_THOUSAND_DRAGON] =
@@ -9177,7 +9177,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_THOUSAND_EYES_RESTRICT] =
@@ -9188,7 +9188,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_THREATENING_ROAR] =
@@ -9199,7 +9199,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_THROWSTONE_UNIT] =
@@ -9210,7 +9210,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_THUNDER_DRAGON] =
@@ -9221,7 +9221,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_THUNDER_NYAN_NYAN] =
@@ -9232,7 +9232,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TIME_SEAL] =
@@ -9243,7 +9243,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TOON_CANNON_SOLDIER] =
@@ -9254,7 +9254,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TOON_DARK_MAGICIAN_GIRL] =
@@ -9265,7 +9265,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TOON_GEMINI_ELF] =
@@ -9276,7 +9276,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TOON_GOBLIN_ATTACK_FORCE] =
@@ -9287,7 +9287,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TOON_MASKED_SORCERER] =
@@ -9298,7 +9298,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TOON_TABLE_OF_CONTENTS] =
@@ -9309,7 +9309,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TORRENTIAL_TRIBUTE] =
@@ -9320,7 +9320,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TRAP_DUSTSHOOT] =
@@ -9331,7 +9331,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TRAP_HOLE] =
@@ -9342,7 +9342,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TRAP_MASTER] =
@@ -9353,7 +9353,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TREEBORN_FROG] =
@@ -9364,7 +9364,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TREMENDOUS_FIRE] =
@@ -9375,7 +9375,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TRIBE_INFECTING_VIRUS] =
@@ -9386,7 +9386,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TRIBUTE_TO_THE_DOOMED] =
@@ -9397,7 +9397,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TSUKUYOMI] =
@@ -9408,7 +9408,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TWIN_HEADED_BEHEMOTH] =
@@ -9419,7 +9419,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_TWIN_HEADED_THUNDER_DRAGON] =
@@ -9430,7 +9430,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ULTIMATE_INSECT_LV3] =
@@ -9441,7 +9441,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ULTIMATE_INSECT_LV5] =
@@ -9452,7 +9452,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ULTIMATE_INSECT_LV7] =
@@ -9463,7 +9463,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ULTIMATE_OFFERING] =
@@ -9474,7 +9474,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_UNITED_WE_STAND] =
@@ -9485,7 +9485,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_UPSTART_GOBLIN] =
@@ -9496,7 +9496,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_VAMPIRE_LORD] =
@@ -9507,7 +9507,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_VORSE_RAIDER] =
@@ -9518,7 +9518,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_WABOKU] =
@@ -9529,7 +9529,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_WALL_OF_ILLUSION] =
@@ -9540,7 +9540,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_WALL_OF_REVEALING_LIGHT] =
@@ -9551,7 +9551,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_WARRIOR_OF_TRADITION] =
@@ -9562,7 +9562,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_WAVE_MOTION_CANNON] =
@@ -9573,7 +9573,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_WHITE_DRAGON_RITUAL] =
@@ -9584,7 +9584,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_WHITE_MAGICAL_HAT] =
@@ -9595,7 +9595,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_WIDESPREAD_RUIN] =
@@ -9606,7 +9606,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_WITCH_OF_THE_BLACK_FOREST] =
@@ -9617,7 +9617,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_X_HEAD_CANNON] =
@@ -9628,7 +9628,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_XING_ZHEN_HU] =
@@ -9639,7 +9639,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_YATA_GARASU] =
@@ -9650,7 +9650,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_YOMI_SHIP] =
@@ -9661,7 +9661,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ZABORG_THE_THUNDER_MONARCH] =
@@ -9672,7 +9672,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ZOMBYRA_THE_DARK] =
@@ -9683,7 +9683,7 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
 	[ITEM_ZURE_KNIGHT_OF_DARK_WORLD] =
@@ -9694,6 +9694,39 @@ const struct Item gItems[] =
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
+    },
+
+	[ITEM_PACK_LEGEND_OF_BLUE_EYES_WHITE_DRAGON] =
+    {
+        .name = _("LoBEWD"),
+        .itemId = ITEM_PACK_LEGEND_OF_BLUE_EYES_WHITE_DRAGON,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STARTER_DECK_YUGI] =
+    {
+        .name = _("Yugi"),
+        .itemId = ITEM_PACK_STARTER_DECK_YUGI,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STARTER_DECK_KAIBA] =
+    {
+        .name = _("Kaiba"),
+        .itemId = ITEM_AQUA_MADOOR,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
     },
 };

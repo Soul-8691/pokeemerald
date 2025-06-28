@@ -42,6 +42,8 @@
 #include "constants/items.h"
 #include "constants/songs.h"
 #include "event_scripts.h"
+#include "ygo.h"
+#include "random.h"
 
 static void SetUpItemUseCallback(u8);
 static void FieldCB_UseItemOnField(void);
@@ -1139,14 +1141,58 @@ void ItemUseOutOfBattle_CannotUse(u8 taskId)
 
 #undef tUsingRegisteredKeyItem
 
-static void Task_AccessDeckBuilder(u8 taskId)
+static u16 PullCardFromPack(u16 pack)
 {
-    ScriptContext_SetupScript(EventScript_AccessDeckBuilder);
+    u32 i, random;
+    s32 j;
+    s32 length = gPacks[pack].length;
+    for (i = 0; i < length; i++)
+    {
+        j += gPacks[pack].pack[i].rarity;
+    }
+    random = Random() % j;
+    j = 0;
+    for (i = 0; i < length; i++)
+    {
+        j = random - gPacks[pack].pack[i].rarity;
+        if (j <= gPacks[pack].pack[i].rarity)
+            gSpecialVar_0x8004 = gPacks[pack].pack[i].card;
+            return gPacks[pack].pack[i].card;
+    }
+}
+
+void Task_PullCards(u8 taskId)
+{
+    u16 pack = PackIdMapping[gSpecialVar_ItemId];
+    if (pack != 0)
+    {
+        PullCardFromPack(pack);
+        ScriptContext_SetupScript(EventScript_PulledCard);
+        AddBagItem(gSpecialVar_0x8004, 1);
+    }
     DestroyTask(taskId);
 }
 
-void ItemUseOutOfBattle_DeckBuilder(u8 taskId)
+static void Task_AccessPack(u8 taskId)
 {
-    sItemUseOnFieldCB = Task_AccessDeckBuilder;
+    ScriptContext_SetupScript(EventScript_AccessPack);
+    DestroyTask(taskId);
+}
+
+static void Task_AccessCard(u8 taskId)
+{
+    ScriptContext_SetupScript(EventScript_AccessCard);
+    DestroyTask(taskId);
+}
+
+void ItemUseOutOfBattle_Pack(u8 taskId)
+{
+    sItemUseOnFieldCB = Task_AccessPack;
+    SetUpItemUseOnFieldCallback(taskId);
+}
+
+void ItemUseOutOfBattle_Card(u8 taskId)
+{
+    sItemUseOnFieldCB = Task_AccessCard;
     SetUpItemUseOnFieldCallback(taskId);
 }

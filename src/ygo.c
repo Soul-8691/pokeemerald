@@ -474,7 +474,7 @@ const u8 gCardDescription_ZaborgtheThunderMonarch[] = _("If this card is Tribute
 const u8 gCardDescription_ZombyratheDark[] = _("This card cannot attack your\nopponent directly. If this\ncard destroys a monster by\nbattle: This card loses 200\nATK.");
 const u8 gCardDescription_ZureKnightofDarkWorld[] = _("The name of this illustrious\nknight is known by all\nresidents of Dark World. He\nnever oppresses the commoners.");
 
-const s16 CardIdMapping[] = 
+const u16 CardIdMapping[] = 
 {
     [ITEM_NONE] = 0,
     [ITEM_4_STARRED_LADYBUG_OF_DOOM] = 1,
@@ -946,5 +946,14 @@ const s16 CardIdMapping[] =
     [ITEM_ZABORG_THE_THUNDER_MONARCH] = 467,
     [ITEM_ZOMBYRA_THE_DARK] = 468,
     [ITEM_ZURE_KNIGHT_OF_DARK_WORLD] = 469,
+    [ITEM_LIST_END] = 0,
+};
+
+const u16 PackIdMapping[] = 
+{
+    [ITEM_NONE] = 0,
+    [ITEM_PACK_LEGEND_OF_BLUE_EYES_WHITE_DRAGON] = 1,
+    [ITEM_PACK_STARTER_DECK_YUGI] = 2,
+    [ITEM_PACK_STARTER_DECK_KAIBA] = 3,
     [ITEM_LIST_END] = 0,
 };

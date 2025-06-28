@@ -1550,6 +1550,5 @@ static const u8 sOldSeaMapDesc[] = _(
     "that shows the way\n"
     "to a certain island.");
 
-static const u8 sDeckBuilderDesc[] = _(
-    "A Yu-Gi-Oh! deck\n"
-    "builder.");
+static const u8 sYGOPackDesc[] = _(
+    "A Yu-Gi-Oh! pack.");

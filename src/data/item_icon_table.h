@@ -871,6 +871,9 @@ const u32 *const gItemIconTable[ITEMS_COUNT + 1][2] =
 	[ITEM_ZABORG_THE_THUNDER_MONARCH] = {gCardIconSquare_ZaborgtheThunderMonarch, gCardIconSquarePalette_ZaborgtheThunderMonarch},
 	[ITEM_ZOMBYRA_THE_DARK] = {gCardIconSquare_ZombyratheDark, gCardIconSquarePalette_ZombyratheDark},
 	[ITEM_ZURE_KNIGHT_OF_DARK_WORLD] = {gCardIconSquare_ZureKnightofDarkWorld, gCardIconSquarePalette_ZureKnightofDarkWorld},
+	[ITEM_PACK_LEGEND_OF_BLUE_EYES_WHITE_DRAGON] = {gItemIcon_ReturnToFieldArrow, gItemIconPalette_ReturnToFieldArrow},
+	[ITEM_PACK_STARTER_DECK_YUGI] = {gItemIcon_ReturnToFieldArrow, gItemIconPalette_ReturnToFieldArrow},
+	[ITEM_PACK_STARTER_DECK_KAIBA] = {gItemIcon_ReturnToFieldArrow, gItemIconPalette_ReturnToFieldArrow},
     // Return to field arrow
     [ITEMS_COUNT] = {gItemIcon_ReturnToFieldArrow, gItemIconPalette_ReturnToFieldArrow},
 };

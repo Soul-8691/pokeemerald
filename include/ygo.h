@@ -70,6 +70,19 @@ struct CardInfo
     /* 0x84 */ u32 priceVendor3:10;
 };
 
+struct PackContents
+{
+    u16 card;
+    u8 rarity;
+};
+
+struct Pack
+{
+    const struct PackContents *pack;
+    u16 length;
+};
+
+extern const struct Pack gPacks[];
 extern const struct CardInfo gCardInfo[];
 extern const u8 gCardDescription_4StarredLadybugofDoom[];
 extern const u8 gCardDescription_7ColoredFish[];
@@ -540,6 +553,7 @@ extern const u8 gCardDescription_YomiShip[];
 extern const u8 gCardDescription_ZaborgtheThunderMonarch[];
 extern const u8 gCardDescription_ZombyratheDark[];
 extern const u8 gCardDescription_ZureKnightofDarkWorld[];
-extern const s16 CardIdMapping[];
+extern const u16 CardIdMapping[];
+extern const u16 PackIdMapping[];
 
 #endif // GUARD_YGO_H

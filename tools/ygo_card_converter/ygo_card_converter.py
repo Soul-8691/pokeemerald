@@ -615,7 +615,7 @@ for data in card_info_data['data']:
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },\n
 '''
         UI_Menu += '''    {

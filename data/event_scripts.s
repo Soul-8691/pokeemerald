@@ -995,17 +995,36 @@ Common_EventScript_RemoveStaticPokemon::
 	release
 	end
 
-EventScript_LeaveDeckBuilder::
+EventScript_LeaveCard::
 	callnative Task_MenuTurnOff
 	releaseall
 	end
 
-EventScript_AccessDeckBuilder::
-	playse SE_PC_LOGIN
-	@msgbox gText_DeckBuilderOpened, MSGBOX_DEFAULT
+EventScript_AccessCard::
 	callnative Menu_Init
 	waitstate
-	goto EventScript_LeaveDeckBuilder
+	goto EventScript_LeaveCard
+	end
+
+EventScript_AccessPack::
+	msgbox gText_PackOpened, MSGBOX_DEFAULT
+	callnative Task_PullCards
+	waitstate
+	callnative Task_PullCards
+	waitstate
+	callnative Task_PullCards
+	waitstate
+	callnative Task_PullCards
+	waitstate
+	callnative Task_PullCards
+	waitstate
+	releaseall
+	end
+
+EventScript_PulledCard::
+	bufferitemname STR_VAR_1, VAR_0x8004
+	msgbox gText_CardPulled, MSGBOX_DEFAULT
+	releaseall
 	end
 
 Common_EventScript_LegendaryFlewAway::
