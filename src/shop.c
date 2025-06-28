@@ -315,7 +315,7 @@ static const struct WindowTemplate sShopBuyMenuWindowTemplates[] =
     [WIN_QUANTITY_IN_BAG] = {
         .bg = 0,
         .tilemapLeft = 1,
-        .tilemapTop = 11,
+        .tilemapTop = 4,
         .width = 12,
         .height = 2,
         .paletteNum = 15,
@@ -350,7 +350,7 @@ static const struct WindowTemplate sShopBuyMenuYesNoWindowTemplates =
     .width = 5,
     .height = 4,
     .paletteNum = 15,
-    .baseBlock = 0x020E,
+    .baseBlock = 0x248,
 };
 
 static const u8 sShopBuyMenuTextColors[][3] =
@@ -1228,7 +1228,10 @@ static void Task_BuyHowManyDialogueInit(u8 taskId)
     u16 quantityInBag = CountTotalItemQuantityInBag(tItemId);
     u16 maxQuantity;
 
-    DrawStdFrameWithCustomTileAndPalette(WIN_QUANTITY_IN_BAG, FALSE, 1, 13);
+    // DrawStdFrameWithCustomTileAndPalette(WIN_QUANTITY_IN_BAG, FALSE, 1, 13);
+    FillWindowPixelBuffer(WIN_QUANTITY_IN_BAG, PIXEL_FILL(0));
+    PutWindowTilemap(WIN_QUANTITY_IN_BAG);
+    CopyWindowToVram(WIN_QUANTITY_IN_BAG, COPYWIN_FULL);
     ConvertIntToDecimalStringN(gStringVar1, quantityInBag, STR_CONV_MODE_RIGHT_ALIGN, MAX_ITEM_DIGITS + 2);
     StringExpandPlaceholders(gStringVar4, gText_InBagVar1);
     BuyMenuPrint(WIN_QUANTITY_IN_BAG, gStringVar4, 0, 1, 0, COLORID_NORMAL);
