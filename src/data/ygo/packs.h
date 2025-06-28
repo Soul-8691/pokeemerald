@@ -6904,4947 +6904,4947 @@ const struct PackContents gZombieWorldStructureDeck[] =
 
 const struct Pack gPacks[] =
 {
-	[ITEM_PACK_2_PLAYER_STARTER_DECK_YUYA_DECLAN] =
+	[PACK_2_PLAYER_STARTER_DECK_YUYA_DECLAN] =
 	{
         .pack = g2PlayerStarterDeckYuyaDeclan,
         .length = 16,
 	},
-	[ITEM_PACK_2_PLAYER_STARTER_SET] =
+	[PACK_2_PLAYER_STARTER_SET] =
 	{
         .pack = g2PlayerStarterSet,
         .length = 20,
 	},
-	[ITEM_PACK_2013_COLLECTIBLE_TINS_WAVE_1] =
+	[PACK_2013_COLLECTIBLE_TINS_WAVE_1] =
 	{
         .pack = g2013CollectibleTinsWave1,
         .length = 1,
 	},
-	[ITEM_PACK_2013_COLLECTIBLE_TINS_WAVE_2] =
+	[PACK_2013_COLLECTIBLE_TINS_WAVE_2] =
 	{
         .pack = g2013CollectibleTinsWave2,
         .length = 0,
 	},
-	[ITEM_PACK_2014_MEGA_TIN_MEGA_PACK] =
+	[PACK_2014_MEGA_TIN_MEGA_PACK] =
 	{
         .pack = g2014MegaTinMegaPack,
         .length = 0,
 	},
-	[ITEM_PACK_2014_MEGA_TINS] =
+	[PACK_2014_MEGA_TINS] =
 	{
         .pack = g2014MegaTins,
         .length = 0,
 	},
-	[ITEM_PACK_2015_MEGA_TIN_MEGA_PACK] =
+	[PACK_2015_MEGA_TIN_MEGA_PACK] =
 	{
         .pack = g2015MegaTinMegaPack,
         .length = 0,
 	},
-	[ITEM_PACK_2015_MEGA_TINS] =
+	[PACK_2015_MEGA_TINS] =
 	{
         .pack = g2015MegaTins,
         .length = 0,
 	},
-	[ITEM_PACK_2016_MEGA_TIN_MEGA_PACK] =
+	[PACK_2016_MEGA_TIN_MEGA_PACK] =
 	{
         .pack = g2016MegaTinMegaPack,
         .length = 0,
 	},
-	[ITEM_PACK_2016_MEGA_TINS] =
+	[PACK_2016_MEGA_TINS] =
 	{
         .pack = g2016MegaTins,
         .length = 2,
 	},
-	[ITEM_PACK_2017_MEGA_TIN_MEGA_PACK] =
+	[PACK_2017_MEGA_TIN_MEGA_PACK] =
 	{
         .pack = g2017MegaTinMegaPack,
         .length = 0,
 	},
-	[ITEM_PACK_2017_MEGA_TINS] =
+	[PACK_2017_MEGA_TINS] =
 	{
         .pack = g2017MegaTins,
         .length = 2,
 	},
-	[ITEM_PACK_2018_MEGA_TIN_MEGA_PACK] =
+	[PACK_2018_MEGA_TIN_MEGA_PACK] =
 	{
         .pack = g2018MegaTinMegaPack,
         .length = 0,
 	},
-	[ITEM_PACK_2018_MEGA_TINS] =
+	[PACK_2018_MEGA_TINS] =
 	{
         .pack = g2018MegaTins,
         .length = 0,
 	},
-	[ITEM_PACK_2019_GOLD_SARCOPHAGUS_TIN] =
+	[PACK_2019_GOLD_SARCOPHAGUS_TIN] =
 	{
         .pack = g2019GoldSarcophagusTin,
         .length = 2,
 	},
-	[ITEM_PACK_2019_GOLD_SARCOPHAGUS_TIN_MEGA_PACK] =
+	[PACK_2019_GOLD_SARCOPHAGUS_TIN_MEGA_PACK] =
 	{
         .pack = g2019GoldSarcophagusTinMegaPack,
         .length = 0,
 	},
-	[ITEM_PACK_2020_TIN_OF_LOST_MEMORIES] =
+	[PACK_2020_TIN_OF_LOST_MEMORIES] =
 	{
         .pack = g2020TinofLostMemories,
         .length = 0,
 	},
-	[ITEM_PACK_2020_TIN_OF_LOST_MEMORIES_MEGA_PACK] =
+	[PACK_2020_TIN_OF_LOST_MEMORIES_MEGA_PACK] =
 	{
         .pack = g2020TinofLostMemoriesMegaPack,
         .length = 0,
 	},
-	[ITEM_PACK_2021_TIN_OF_ANCIENT_BATTLES] =
+	[PACK_2021_TIN_OF_ANCIENT_BATTLES] =
 	{
         .pack = g2021TinofAncientBattles,
         .length = 0,
 	},
-	[ITEM_PACK_2022_TIN_OF_THE_PHARAOH_S_GODS] =
+	[PACK_2022_TIN_OF_THE_PHARAOH_S_GODS] =
 	{
         .pack = g2022TinofthePharaohsGods,
         .length = 1,
 	},
-	[ITEM_PACK_25TH_ANNIVERSARY_RARITY_COLLECTION] =
+	[PACK_25TH_ANNIVERSARY_RARITY_COLLECTION] =
 	{
         .pack = g25thAnniversaryRarityCollection,
         .length = 4,
 	},
-	[ITEM_PACK_25TH_ANNIVERSARY_RARITY_COLLECTION_II] =
+	[PACK_25TH_ANNIVERSARY_RARITY_COLLECTION_II] =
 	{
         .pack = g25thAnniversaryRarityCollectionII,
         .length = 9,
 	},
-	[ITEM_PACK_25TH_ANNIVERSARY_TIN_DUELING_HEROES] =
+	[PACK_25TH_ANNIVERSARY_TIN_DUELING_HEROES] =
 	{
         .pack = g25thAnniversaryTinDuelingHeroes,
         .length = 2,
 	},
-	[ITEM_PACK_25TH_ANNIVERSARY_TIN_DUELING_HEROES_MEGA_PACK] =
+	[PACK_25TH_ANNIVERSARY_TIN_DUELING_HEROES_MEGA_PACK] =
 	{
         .pack = g25thAnniversaryTinDuelingHeroesMegaPack,
         .length = 0,
 	},
-	[ITEM_PACK_25TH_ANNIVERSARY_TIN_DUELING_MIRRORS] =
+	[PACK_25TH_ANNIVERSARY_TIN_DUELING_MIRRORS] =
 	{
         .pack = g25thAnniversaryTinDuelingMirrors,
         .length = 10,
 	},
-	[ITEM_PACK_25TH_ANNIVERSARY_ULTIMATE_KAIBA_SET] =
+	[PACK_25TH_ANNIVERSARY_ULTIMATE_KAIBA_SET] =
 	{
         .pack = g25thAnniversaryUltimateKaibaSet,
         .length = 18,
 	},
-	[ITEM_PACK_ABSOLUTE_POWERFORCE] =
+	[PACK_ABSOLUTE_POWERFORCE] =
 	{
         .pack = gAbsolutePowerforce,
         .length = 0,
 	},
-	[ITEM_PACK_ABSOLUTE_POWERFORCE_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_ABSOLUTE_POWERFORCE_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gAbsolutePowerforceSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_ABSOLUTE_POWERFORCE_SPECIAL_EDITION] =
+	[PACK_ABSOLUTE_POWERFORCE_SPECIAL_EDITION] =
 	{
         .pack = gAbsolutePowerforceSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_ABYSS_RISING] =
+	[PACK_ABYSS_RISING] =
 	{
         .pack = gAbyssRising,
         .length = 0,
 	},
-	[ITEM_PACK_ABYSS_RISING_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_ABYSS_RISING_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gAbyssRisingSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_ABYSS_RISING_SPECIAL_EDITION] =
+	[PACK_ABYSS_RISING_SPECIAL_EDITION] =
 	{
         .pack = gAbyssRisingSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_ADVANCED_DEMO_DECK_EXTRA_PACK] =
+	[PACK_ADVANCED_DEMO_DECK_EXTRA_PACK] =
 	{
         .pack = gAdvancedDemoDeckExtraPack,
         .length = 1,
 	},
-	[ITEM_PACK_AGE_OF_OVERLORD] =
+	[PACK_AGE_OF_OVERLORD] =
 	{
         .pack = gAgeofOverlord,
         .length = 0,
 	},
-	[ITEM_PACK_ALLIANCE_INSIGHT] =
+	[PACK_ALLIANCE_INSIGHT] =
 	{
         .pack = gAllianceInsight,
         .length = 0,
 	},
-	[ITEM_PACK_AMAZING_DEFENDERS] =
+	[PACK_AMAZING_DEFENDERS] =
 	{
         .pack = gAmazingDefenders,
         .length = 2,
 	},
-	[ITEM_PACK_ANCIENT_GUARDIANS] =
+	[PACK_ANCIENT_GUARDIANS] =
 	{
         .pack = gAncientGuardians,
         .length = 0,
 	},
-	[ITEM_PACK_ANCIENT_PROPHECY] =
+	[PACK_ANCIENT_PROPHECY] =
 	{
         .pack = gAncientProphecy,
         .length = 0,
 	},
-	[ITEM_PACK_ANCIENT_PROPHECY_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_ANCIENT_PROPHECY_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gAncientProphecySneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_ANCIENT_PROPHECY_SPECIAL_EDITION] =
+	[PACK_ANCIENT_PROPHECY_SPECIAL_EDITION] =
 	{
         .pack = gAncientProphecySpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_ANCIENT_SANCTUARY] =
+	[PACK_ANCIENT_SANCTUARY] =
 	{
         .pack = gAncientSanctuary,
         .length = 17,
 	},
-	[ITEM_PACK_ANNIVERSARY_PACK] =
+	[PACK_ANNIVERSARY_PACK] =
 	{
         .pack = gAnniversaryPack,
         .length = 5,
 	},
-	[ITEM_PACK_ASTRAL_PACK_EIGHT] =
+	[PACK_ASTRAL_PACK_EIGHT] =
 	{
         .pack = gAstralPackEight,
         .length = 3,
 	},
-	[ITEM_PACK_ASTRAL_PACK_FIVE] =
+	[PACK_ASTRAL_PACK_FIVE] =
 	{
         .pack = gAstralPackFive,
         .length = 2,
 	},
-	[ITEM_PACK_ASTRAL_PACK_FOUR] =
+	[PACK_ASTRAL_PACK_FOUR] =
 	{
         .pack = gAstralPackFour,
         .length = 3,
 	},
-	[ITEM_PACK_ASTRAL_PACK_ONE] =
+	[PACK_ASTRAL_PACK_ONE] =
 	{
         .pack = gAstralPackOne,
         .length = 2,
 	},
-	[ITEM_PACK_ASTRAL_PACK_SEVEN] =
+	[PACK_ASTRAL_PACK_SEVEN] =
 	{
         .pack = gAstralPackSeven,
         .length = 2,
 	},
-	[ITEM_PACK_ASTRAL_PACK_SIX] =
+	[PACK_ASTRAL_PACK_SIX] =
 	{
         .pack = gAstralPackSix,
         .length = 3,
 	},
-	[ITEM_PACK_ASTRAL_PACK_THREE] =
+	[PACK_ASTRAL_PACK_THREE] =
 	{
         .pack = gAstralPackThree,
         .length = 4,
 	},
-	[ITEM_PACK_ASTRAL_PACK_TWO] =
+	[PACK_ASTRAL_PACK_TWO] =
 	{
         .pack = gAstralPackTwo,
         .length = 3,
 	},
-	[ITEM_PACK_BATTLE_PACK_2_WAR_OF_THE_GIANTS] =
+	[PACK_BATTLE_PACK_2_WAR_OF_THE_GIANTS] =
 	{
         .pack = gBattlePack2WaroftheGiants,
         .length = 48,
 	},
-	[ITEM_PACK_BATTLE_PACK_3_MONSTER_LEAGUE] =
+	[PACK_BATTLE_PACK_3_MONSTER_LEAGUE] =
 	{
         .pack = gBattlePack3MonsterLeague,
         .length = 20,
 	},
-	[ITEM_PACK_BATTLE_PACK_TOURNAMENT_PRIZE_CARDS] =
+	[PACK_BATTLE_PACK_TOURNAMENT_PRIZE_CARDS] =
 	{
         .pack = gBattlePackTournamentPrizeCards,
         .length = 3,
 	},
-	[ITEM_PACK_BATTLE_PACK_EPIC_DAWN] =
+	[PACK_BATTLE_PACK_EPIC_DAWN] =
 	{
         .pack = gBattlePackEpicDawn,
         .length = 85,
 	},
-	[ITEM_PACK_BATTLE_OF_CHAOS] =
+	[PACK_BATTLE_OF_CHAOS] =
 	{
         .pack = gBattleofChaos,
         .length = 1,
 	},
-	[ITEM_PACK_BATTLES_OF_LEGEND_ARMAGEDDON] =
+	[PACK_BATTLES_OF_LEGEND_ARMAGEDDON] =
 	{
         .pack = gBattlesofLegendArmageddon,
         .length = 1,
 	},
-	[ITEM_PACK_BATTLES_OF_LEGEND_CHAPTER_1] =
+	[PACK_BATTLES_OF_LEGEND_CHAPTER_1] =
 	{
         .pack = gBattlesofLegendChapter1,
         .length = 1,
 	},
-	[ITEM_PACK_BATTLES_OF_LEGEND_CRYSTAL_REVENGE] =
+	[PACK_BATTLES_OF_LEGEND_CRYSTAL_REVENGE] =
 	{
         .pack = gBattlesofLegendCrystalRevenge,
         .length = 6,
 	},
-	[ITEM_PACK_BATTLES_OF_LEGEND_HERO_S_REVENGE] =
+	[PACK_BATTLES_OF_LEGEND_HERO_S_REVENGE] =
 	{
         .pack = gBattlesofLegendHerosRevenge,
         .length = 1,
 	},
-	[ITEM_PACK_BATTLES_OF_LEGEND_LIGHT_S_REVENGE] =
+	[PACK_BATTLES_OF_LEGEND_LIGHT_S_REVENGE] =
 	{
         .pack = gBattlesofLegendLightsRevenge,
         .length = 2,
 	},
-	[ITEM_PACK_BATTLES_OF_LEGEND_MONSTER_MAYHEM] =
+	[PACK_BATTLES_OF_LEGEND_MONSTER_MAYHEM] =
 	{
         .pack = gBattlesofLegendMonsterMayhem,
         .length = 4,
 	},
-	[ITEM_PACK_BATTLES_OF_LEGEND_MONSTROUS_REVENGE] =
+	[PACK_BATTLES_OF_LEGEND_MONSTROUS_REVENGE] =
 	{
         .pack = gBattlesofLegendMonstrousRevenge,
         .length = 2,
 	},
-	[ITEM_PACK_BATTLES_OF_LEGEND_RELENTLESS_REVENGE] =
+	[PACK_BATTLES_OF_LEGEND_RELENTLESS_REVENGE] =
 	{
         .pack = gBattlesofLegendRelentlessRevenge,
         .length = 5,
 	},
-	[ITEM_PACK_BATTLES_OF_LEGEND_TERMINAL_REVENGE] =
+	[PACK_BATTLES_OF_LEGEND_TERMINAL_REVENGE] =
 	{
         .pack = gBattlesofLegendTerminalRevenge,
         .length = 1,
 	},
-	[ITEM_PACK_BLAZING_VORTEX] =
+	[PACK_BLAZING_VORTEX] =
 	{
         .pack = gBlazingVortex,
         .length = 0,
 	},
-	[ITEM_PACK_BLAZING_VORTEX_PREMIERE_PROMOTIONAL_CARD] =
+	[PACK_BLAZING_VORTEX_PREMIERE_PROMOTIONAL_CARD] =
 	{
         .pack = gBlazingVortexPremierepromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_BLUE_EYES_ALTERNATIVE_WHITE_DRAGON_SWEEPSTAKES] =
+	[PACK_BLUE_EYES_ALTERNATIVE_WHITE_DRAGON_SWEEPSTAKES] =
 	{
         .pack = gBlueEyesAlternativeWhiteDragonSweepstakes,
         .length = 0,
 	},
-	[ITEM_PACK_BOOSTER_PACK_COLLECTORS_TINS_2002] =
+	[PACK_BOOSTER_PACK_COLLECTORS_TINS_2002] =
 	{
         .pack = gBoosterPackCollectorsTins2002,
         .length = 4,
 	},
-	[ITEM_PACK_BREAKERS_OF_SHADOW] =
+	[PACK_BREAKERS_OF_SHADOW] =
 	{
         .pack = gBreakersofShadow,
         .length = 0,
 	},
-	[ITEM_PACK_BREAKERS_OF_SHADOW_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_BREAKERS_OF_SHADOW_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gBreakersofShadowSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_BREAKERS_OF_SHADOW_SPECIAL_EDITION] =
+	[PACK_BREAKERS_OF_SHADOW_SPECIAL_EDITION] =
 	{
         .pack = gBreakersofShadowSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_BROTHERS_OF_LEGEND] =
+	[PACK_BROTHERS_OF_LEGEND] =
 	{
         .pack = gBrothersofLegend,
         .length = 1,
 	},
-	[ITEM_PACK_BURST_OF_DESTINY] =
+	[PACK_BURST_OF_DESTINY] =
 	{
         .pack = gBurstofDestiny,
         .length = 0,
 	},
-	[ITEM_PACK_CHAMPION_PACK_GAME_EIGHT] =
+	[PACK_CHAMPION_PACK_GAME_EIGHT] =
 	{
         .pack = gChampionPackGameEight,
         .length = 2,
 	},
-	[ITEM_PACK_CHAMPION_PACK_GAME_FIVE] =
+	[PACK_CHAMPION_PACK_GAME_FIVE] =
 	{
         .pack = gChampionPackGameFive,
         .length = 11,
 	},
-	[ITEM_PACK_CHAMPION_PACK_GAME_FOUR] =
+	[PACK_CHAMPION_PACK_GAME_FOUR] =
 	{
         .pack = gChampionPackGameFour,
         .length = 14,
 	},
-	[ITEM_PACK_CHAMPION_PACK_GAME_ONE] =
+	[PACK_CHAMPION_PACK_GAME_ONE] =
 	{
         .pack = gChampionPackGameOne,
         .length = 14,
 	},
-	[ITEM_PACK_CHAMPION_PACK_GAME_SEVEN] =
+	[PACK_CHAMPION_PACK_GAME_SEVEN] =
 	{
         .pack = gChampionPackGameSeven,
         .length = 3,
 	},
-	[ITEM_PACK_CHAMPION_PACK_GAME_SIX] =
+	[PACK_CHAMPION_PACK_GAME_SIX] =
 	{
         .pack = gChampionPackGameSix,
         .length = 4,
 	},
-	[ITEM_PACK_CHAMPION_PACK_GAME_THREE] =
+	[PACK_CHAMPION_PACK_GAME_THREE] =
 	{
         .pack = gChampionPackGameThree,
         .length = 9,
 	},
-	[ITEM_PACK_CHAMPION_PACK_GAME_TWO] =
+	[PACK_CHAMPION_PACK_GAME_TWO] =
 	{
         .pack = gChampionPackGameTwo,
         .length = 16,
 	},
-	[ITEM_PACK_CHAOS_IMPACT] =
+	[PACK_CHAOS_IMPACT] =
 	{
         .pack = gChaosImpact,
         .length = 0,
 	},
-	[ITEM_PACK_CHAOS_IMPACT_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_CHAOS_IMPACT_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gChaosImpactSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_CHAOS_IMPACT_SPECIAL_EDITION] =
+	[PACK_CHAOS_IMPACT_SPECIAL_EDITION] =
 	{
         .pack = gChaosImpactSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_CIRCUIT_BREAK] =
+	[PACK_CIRCUIT_BREAK] =
 	{
         .pack = gCircuitBreak,
         .length = 0,
 	},
-	[ITEM_PACK_CIRCUIT_BREAK_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_CIRCUIT_BREAK_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gCircuitBreakSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_CIRCUIT_BREAK_SPECIAL_EDITION] =
+	[PACK_CIRCUIT_BREAK_SPECIAL_EDITION] =
 	{
         .pack = gCircuitBreakSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_CLASH_OF_REBELLIONS] =
+	[PACK_CLASH_OF_REBELLIONS] =
 	{
         .pack = gClashofRebellions,
         .length = 0,
 	},
-	[ITEM_PACK_CLASH_OF_REBELLIONS_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_CLASH_OF_REBELLIONS_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gClashofRebellionsSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_CLASH_OF_REBELLIONS_SPECIAL_EDITION] =
+	[PACK_CLASH_OF_REBELLIONS_SPECIAL_EDITION] =
 	{
         .pack = gClashofRebellionsSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_CODE_OF_THE_DUELIST] =
+	[PACK_CODE_OF_THE_DUELIST] =
 	{
         .pack = gCodeoftheDuelist,
         .length = 0,
 	},
-	[ITEM_PACK_CODE_OF_THE_DUELIST_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_CODE_OF_THE_DUELIST_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gCodeoftheDuelistSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_CODE_OF_THE_DUELIST_SPECIAL_EDITION] =
+	[PACK_CODE_OF_THE_DUELIST_SPECIAL_EDITION] =
 	{
         .pack = gCodeoftheDuelistSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_COLLECTIBLE_TINS_2003] =
+	[PACK_COLLECTIBLE_TINS_2003] =
 	{
         .pack = gCollectibleTins2003,
         .length = 5,
 	},
-	[ITEM_PACK_COLLECTIBLE_TINS_2004] =
+	[PACK_COLLECTIBLE_TINS_2004] =
 	{
         .pack = gCollectibleTins2004,
         .length = 2,
 	},
-	[ITEM_PACK_COLLECTIBLE_TINS_2005] =
+	[PACK_COLLECTIBLE_TINS_2005] =
 	{
         .pack = gCollectibleTins2005,
         .length = 2,
 	},
-	[ITEM_PACK_COLLECTIBLE_TINS_2006_WAVE_1] =
+	[PACK_COLLECTIBLE_TINS_2006_WAVE_1] =
 	{
         .pack = gCollectibleTins2006Wave1,
         .length = 1,
 	},
-	[ITEM_PACK_COLLECTIBLE_TINS_2006_WAVE_2] =
+	[PACK_COLLECTIBLE_TINS_2006_WAVE_2] =
 	{
         .pack = gCollectibleTins2006Wave2,
         .length = 0,
 	},
-	[ITEM_PACK_COLLECTIBLE_TINS_2007_WAVE_1] =
+	[PACK_COLLECTIBLE_TINS_2007_WAVE_1] =
 	{
         .pack = gCollectibleTins2007Wave1,
         .length = 0,
 	},
-	[ITEM_PACK_COLLECTIBLE_TINS_2007_WAVE_2] =
+	[PACK_COLLECTIBLE_TINS_2007_WAVE_2] =
 	{
         .pack = gCollectibleTins2007Wave2,
         .length = 0,
 	},
-	[ITEM_PACK_COLLECTIBLE_TINS_2008_WAVE_1] =
+	[PACK_COLLECTIBLE_TINS_2008_WAVE_1] =
 	{
         .pack = gCollectibleTins2008Wave1,
         .length = 0,
 	},
-	[ITEM_PACK_COLLECTIBLE_TINS_2008_WAVE_2] =
+	[PACK_COLLECTIBLE_TINS_2008_WAVE_2] =
 	{
         .pack = gCollectibleTins2008Wave2,
         .length = 0,
 	},
-	[ITEM_PACK_COLLECTIBLE_TINS_2009_WAVE_1] =
+	[PACK_COLLECTIBLE_TINS_2009_WAVE_1] =
 	{
         .pack = gCollectibleTins2009Wave1,
         .length = 0,
 	},
-	[ITEM_PACK_COLLECTIBLE_TINS_2009_WAVE_2] =
+	[PACK_COLLECTIBLE_TINS_2009_WAVE_2] =
 	{
         .pack = gCollectibleTins2009Wave2,
         .length = 0,
 	},
-	[ITEM_PACK_COLLECTIBLE_TINS_2010_WAVE_1] =
+	[PACK_COLLECTIBLE_TINS_2010_WAVE_1] =
 	{
         .pack = gCollectibleTins2010Wave1,
         .length = 0,
 	},
-	[ITEM_PACK_COLLECTIBLE_TINS_2010_WAVE_2] =
+	[PACK_COLLECTIBLE_TINS_2010_WAVE_2] =
 	{
         .pack = gCollectibleTins2010Wave2,
         .length = 1,
 	},
-	[ITEM_PACK_COLLECTIBLE_TINS_2011_WAVE_1] =
+	[PACK_COLLECTIBLE_TINS_2011_WAVE_1] =
 	{
         .pack = gCollectibleTins2011Wave1,
         .length = 0,
 	},
-	[ITEM_PACK_COLLECTIBLE_TINS_2011_WAVE_2] =
+	[PACK_COLLECTIBLE_TINS_2011_WAVE_2] =
 	{
         .pack = gCollectibleTins2011Wave2,
         .length = 0,
 	},
-	[ITEM_PACK_COLLECTIBLE_TINS_2012_WAVE_1] =
+	[PACK_COLLECTIBLE_TINS_2012_WAVE_1] =
 	{
         .pack = gCollectibleTins2012Wave1,
         .length = 0,
 	},
-	[ITEM_PACK_COLLECTIBLE_TINS_2012_WAVE_2] =
+	[PACK_COLLECTIBLE_TINS_2012_WAVE_2] =
 	{
         .pack = gCollectibleTins2012Wave2,
         .length = 0,
 	},
-	[ITEM_PACK_COLLECTIBLE_TINS_2012_WAVE_2_5] =
+	[PACK_COLLECTIBLE_TINS_2012_WAVE_2_5] =
 	{
         .pack = gCollectibleTins2012Wave25,
         .length = 0,
 	},
-	[ITEM_PACK_COLLECTIBLE_TINS_EXCLUSIVE_2008] =
+	[PACK_COLLECTIBLE_TINS_EXCLUSIVE_2008] =
 	{
         .pack = gCollectibleTinsExclusive2008,
         .length = 0,
 	},
-	[ITEM_PACK_COLLECTIBLE_TINS_EXCLUSIVE_2009] =
+	[PACK_COLLECTIBLE_TINS_EXCLUSIVE_2009] =
 	{
         .pack = gCollectibleTinsExclusive2009,
         .length = 0,
 	},
-	[ITEM_PACK_COSMO_BLAZER] =
+	[PACK_COSMO_BLAZER] =
 	{
         .pack = gCosmoBlazer,
         .length = 0,
 	},
-	[ITEM_PACK_COSMO_BLAZER_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_COSMO_BLAZER_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gCosmoBlazerSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_COSMO_BLAZER_SPECIAL_EDITION] =
+	[PACK_COSMO_BLAZER_SPECIAL_EDITION] =
 	{
         .pack = gCosmoBlazerSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_CRIMSON_CRISIS] =
+	[PACK_CRIMSON_CRISIS] =
 	{
         .pack = gCrimsonCrisis,
         .length = 0,
 	},
-	[ITEM_PACK_CRIMSON_CRISIS_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_CRIMSON_CRISIS_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gCrimsonCrisisSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_CRIMSON_CRISIS_SPECIAL_EDITION] =
+	[PACK_CRIMSON_CRISIS_SPECIAL_EDITION] =
 	{
         .pack = gCrimsonCrisisSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_CROSSED_SOULS] =
+	[PACK_CROSSED_SOULS] =
 	{
         .pack = gCrossedSouls,
         .length = 0,
 	},
-	[ITEM_PACK_CROSSED_SOULS_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_CROSSED_SOULS_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gCrossedSoulsSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_CROSSED_SOULS_ADVANCE_EDITION] =
+	[PACK_CROSSED_SOULS_ADVANCE_EDITION] =
 	{
         .pack = gCrossedSoulsAdvanceEdition,
         .length = 0,
 	},
-	[ITEM_PACK_CROSSOVER_BREAKERS] =
+	[PACK_CROSSOVER_BREAKERS] =
 	{
         .pack = gCrossoverBreakers,
         .length = 0,
 	},
-	[ITEM_PACK_CROSSROADS_OF_CHAOS] =
+	[PACK_CROSSROADS_OF_CHAOS] =
 	{
         .pack = gCrossroadsofChaos,
         .length = 0,
 	},
-	[ITEM_PACK_CROSSROADS_OF_CHAOS_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_CROSSROADS_OF_CHAOS_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gCrossroadsofChaosSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_CROSSROADS_OF_CHAOS_SPECIAL_EDITION] =
+	[PACK_CROSSROADS_OF_CHAOS_SPECIAL_EDITION] =
 	{
         .pack = gCrossroadsofChaosSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_CYBER_DRAGON_REVOLUTION_STRUCTURE_DECK] =
+	[PACK_CYBER_DRAGON_REVOLUTION_STRUCTURE_DECK] =
 	{
         .pack = gCyberDragonRevolutionStructureDeck,
         .length = 9,
 	},
-	[ITEM_PACK_CYBERDARK_IMPACT] =
+	[PACK_CYBERDARK_IMPACT] =
 	{
         .pack = gCyberdarkImpact,
         .length = 0,
 	},
-	[ITEM_PACK_CYBERDARK_IMPACT_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_CYBERDARK_IMPACT_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gCyberdarkImpactSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_CYBERNETIC_HORIZON] =
+	[PACK_CYBERNETIC_HORIZON] =
 	{
         .pack = gCyberneticHorizon,
         .length = 0,
 	},
-	[ITEM_PACK_CYBERNETIC_HORIZON_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_CYBERNETIC_HORIZON_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gCyberneticHorizonSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_CYBERNETIC_HORIZON_SPECIAL_EDITION] =
+	[PACK_CYBERNETIC_HORIZON_SPECIAL_EDITION] =
 	{
         .pack = gCyberneticHorizonSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_CYBERNETIC_REVOLUTION] =
+	[PACK_CYBERNETIC_REVOLUTION] =
 	{
         .pack = gCyberneticRevolution,
         .length = 12,
 	},
-	[ITEM_PACK_CYBERNETIC_REVOLUTION_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_CYBERNETIC_REVOLUTION_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gCyberneticRevolutionSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_CYBERSTORM_ACCESS] =
+	[PACK_CYBERSTORM_ACCESS] =
 	{
         .pack = gCyberstormAccess,
         .length = 0,
 	},
-	[ITEM_PACK_DARK_BEGINNING_1] =
+	[PACK_DARK_BEGINNING_1] =
 	{
         .pack = gDarkBeginning1,
         .length = 94,
 	},
-	[ITEM_PACK_DARK_BEGINNING_2] =
+	[PACK_DARK_BEGINNING_2] =
 	{
         .pack = gDarkBeginning2,
         .length = 93,
 	},
-	[ITEM_PACK_DARK_CRISIS] =
+	[PACK_DARK_CRISIS] =
 	{
         .pack = gDarkCrisis,
         .length = 19,
 	},
-	[ITEM_PACK_DARK_LEGENDS] =
+	[PACK_DARK_LEGENDS] =
 	{
         .pack = gDarkLegends,
         .length = 61,
 	},
-	[ITEM_PACK_DARK_LEGION_STARTER_DECK] =
+	[PACK_DARK_LEGION_STARTER_DECK] =
 	{
         .pack = gDarkLegionStarterDeck,
         .length = 14,
 	},
-	[ITEM_PACK_DARK_NEOSTORM] =
+	[PACK_DARK_NEOSTORM] =
 	{
         .pack = gDarkNeostorm,
         .length = 0,
 	},
-	[ITEM_PACK_DARK_NEOSTORM_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_DARK_NEOSTORM_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gDarkNeostormSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_DARK_NEOSTORM_SPECIAL_EDITION] =
+	[PACK_DARK_NEOSTORM_SPECIAL_EDITION] =
 	{
         .pack = gDarkNeostormSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_DARK_REVELATION_VOLUME_1] =
+	[PACK_DARK_REVELATION_VOLUME_1] =
 	{
         .pack = gDarkRevelationVolume1,
         .length = 64,
 	},
-	[ITEM_PACK_DARK_REVELATION_VOLUME_2] =
+	[PACK_DARK_REVELATION_VOLUME_2] =
 	{
         .pack = gDarkRevelationVolume2,
         .length = 49,
 	},
-	[ITEM_PACK_DARK_REVELATION_VOLUME_3] =
+	[PACK_DARK_REVELATION_VOLUME_3] =
 	{
         .pack = gDarkRevelationVolume3,
         .length = 48,
 	},
-	[ITEM_PACK_DARK_REVELATION_VOLUME_4] =
+	[PACK_DARK_REVELATION_VOLUME_4] =
 	{
         .pack = gDarkRevelationVolume4,
         .length = 35,
 	},
-	[ITEM_PACK_DARK_SAVIORS] =
+	[PACK_DARK_SAVIORS] =
 	{
         .pack = gDarkSaviors,
         .length = 5,
 	},
-	[ITEM_PACK_DARKWING_BLAST] =
+	[PACK_DARKWING_BLAST] =
 	{
         .pack = gDarkwingBlast,
         .length = 0,
 	},
-	[ITEM_PACK_DAWN_OF_MAJESTY] =
+	[PACK_DAWN_OF_MAJESTY] =
 	{
         .pack = gDawnofMajesty,
         .length = 0,
 	},
-	[ITEM_PACK_DAWN_OF_MAJESTY_PREMIERE_PROMOTIONAL_CARD] =
+	[PACK_DAWN_OF_MAJESTY_PREMIERE_PROMOTIONAL_CARD] =
 	{
         .pack = gDawnofMajestyPremierepromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_DEMO_DECK_2015] =
+	[PACK_DEMO_DECK_2015] =
 	{
         .pack = gDemoDeck2015,
         .length = 8,
 	},
-	[ITEM_PACK_DEMO_DECK_2016] =
+	[PACK_DEMO_DECK_2016] =
 	{
         .pack = gDemoDeck2016,
         .length = 5,
 	},
-	[ITEM_PACK_DEMO_PACK] =
+	[PACK_DEMO_PACK] =
 	{
         .pack = gDemoPack,
         .length = 11,
 	},
-	[ITEM_PACK_DESTINY_SOLDIERS] =
+	[PACK_DESTINY_SOLDIERS] =
 	{
         .pack = gDestinySoldiers,
         .length = 1,
 	},
-	[ITEM_PACK_DIMENSION_FORCE] =
+	[PACK_DIMENSION_FORCE] =
 	{
         .pack = gDimensionForce,
         .length = 0,
 	},
-	[ITEM_PACK_DIMENSION_OF_CHAOS] =
+	[PACK_DIMENSION_OF_CHAOS] =
 	{
         .pack = gDimensionofChaos,
         .length = 0,
 	},
-	[ITEM_PACK_DIMENSION_OF_CHAOS_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_DIMENSION_OF_CHAOS_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gDimensionofChaosSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_DIMENSION_OF_CHAOS_SPECIAL_EDITION] =
+	[PACK_DIMENSION_OF_CHAOS_SPECIAL_EDITION] =
 	{
         .pack = gDimensionofChaosSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_DINOSMASHER_S_FURY_STRUCTURE_DECK] =
+	[PACK_DINOSMASHER_S_FURY_STRUCTURE_DECK] =
 	{
         .pack = gDinosmashersFuryStructureDeck,
         .length = 3,
 	},
-	[ITEM_PACK_DRAGONS_COLLIDE_STRUCTURE_DECK] =
+	[PACK_DRAGONS_COLLIDE_STRUCTURE_DECK] =
 	{
         .pack = gDragonsCollideStructureDeck,
         .length = 7,
 	},
-	[ITEM_PACK_DRAGONS_OF_LEGEND] =
+	[PACK_DRAGONS_OF_LEGEND] =
 	{
         .pack = gDragonsofLegend,
         .length = 0,
 	},
-	[ITEM_PACK_DRAGONS_OF_LEGEND_2] =
+	[PACK_DRAGONS_OF_LEGEND_2] =
 	{
         .pack = gDragonsofLegend2,
         .length = 0,
 	},
-	[ITEM_PACK_DRAGONS_OF_LEGEND_THE_COMPLETE_SERIES] =
+	[PACK_DRAGONS_OF_LEGEND_THE_COMPLETE_SERIES] =
 	{
         .pack = gDragonsofLegendTheCompleteSeries,
         .length = 0,
 	},
-	[ITEM_PACK_DRAGONS_OF_LEGEND_UNLEASHED] =
+	[PACK_DRAGONS_OF_LEGEND_UNLEASHED] =
 	{
         .pack = gDragonsofLegendUnleashed,
         .length = 0,
 	},
-	[ITEM_PACK_DRAGUNITY_LEGION_STRUCTURE_DECK] =
+	[PACK_DRAGUNITY_LEGION_STRUCTURE_DECK] =
 	{
         .pack = gDragunityLegionStructureDeck,
         .length = 13,
 	},
-	[ITEM_PACK_DUEL_DEVASTATOR] =
+	[PACK_DUEL_DEVASTATOR] =
 	{
         .pack = gDuelDevastator,
         .length = 5,
 	},
-	[ITEM_PACK_DUEL_DISK_YUSEI_VERSION] =
+	[PACK_DUEL_DISK_YUSEI_VERSION] =
 	{
         .pack = gDuelDiskYuseiVersion,
         .length = 0,
 	},
-	[ITEM_PACK_DUEL_MASTER_S_GUIDE_PROMOTIONAL_CARDS] =
+	[PACK_DUEL_MASTER_S_GUIDE_PROMOTIONAL_CARDS] =
 	{
         .pack = gDuelMastersGuidepromotionalcards,
         .length = 1,
 	},
-	[ITEM_PACK_DUEL_OVERLOAD] =
+	[PACK_DUEL_OVERLOAD] =
 	{
         .pack = gDuelOverload,
         .length = 5,
 	},
-	[ITEM_PACK_DUEL_POWER] =
+	[PACK_DUEL_POWER] =
 	{
         .pack = gDuelPower,
         .length = 2,
 	},
-	[ITEM_PACK_DUEL_TERMINAL_PREVIEW_WAVE_1] =
+	[PACK_DUEL_TERMINAL_PREVIEW_WAVE_1] =
 	{
         .pack = gDuelTerminalPreviewWave1,
         .length = 10,
 	},
-	[ITEM_PACK_DUEL_TERMINAL_PREVIEW_WAVE_2] =
+	[PACK_DUEL_TERMINAL_PREVIEW_WAVE_2] =
 	{
         .pack = gDuelTerminalPreviewWave2,
         .length = 3,
 	},
-	[ITEM_PACK_DUEL_TERMINAL_1] =
+	[PACK_DUEL_TERMINAL_1] =
 	{
         .pack = gDuelTerminal1,
         .length = 12,
 	},
-	[ITEM_PACK_DUEL_TERMINAL_2] =
+	[PACK_DUEL_TERMINAL_2] =
 	{
         .pack = gDuelTerminal2,
         .length = 6,
 	},
-	[ITEM_PACK_DUEL_TERMINAL_3] =
+	[PACK_DUEL_TERMINAL_3] =
 	{
         .pack = gDuelTerminal3,
         .length = 18,
 	},
-	[ITEM_PACK_DUEL_TERMINAL_4] =
+	[PACK_DUEL_TERMINAL_4] =
 	{
         .pack = gDuelTerminal4,
         .length = 12,
 	},
-	[ITEM_PACK_DUEL_TERMINAL_5] =
+	[PACK_DUEL_TERMINAL_5] =
 	{
         .pack = gDuelTerminal5,
         .length = 0,
 	},
-	[ITEM_PACK_DUEL_TERMINAL_5A] =
+	[PACK_DUEL_TERMINAL_5A] =
 	{
         .pack = gDuelTerminal5a,
         .length = 4,
 	},
-	[ITEM_PACK_DUEL_TERMINAL_5B] =
+	[PACK_DUEL_TERMINAL_5B] =
 	{
         .pack = gDuelTerminal5b,
         .length = 1,
 	},
-	[ITEM_PACK_DUEL_TERMINAL_6] =
+	[PACK_DUEL_TERMINAL_6] =
 	{
         .pack = gDuelTerminal6,
         .length = 0,
 	},
-	[ITEM_PACK_DUEL_TERMINAL_6A] =
+	[PACK_DUEL_TERMINAL_6A] =
 	{
         .pack = gDuelTerminal6a,
         .length = 4,
 	},
-	[ITEM_PACK_DUEL_TERMINAL_6B] =
+	[PACK_DUEL_TERMINAL_6B] =
 	{
         .pack = gDuelTerminal6b,
         .length = 3,
 	},
-	[ITEM_PACK_DUEL_TERMINAL_7] =
+	[PACK_DUEL_TERMINAL_7] =
 	{
         .pack = gDuelTerminal7,
         .length = 0,
 	},
-	[ITEM_PACK_DUEL_TERMINAL_7A] =
+	[PACK_DUEL_TERMINAL_7A] =
 	{
         .pack = gDuelTerminal7a,
         .length = 0,
 	},
-	[ITEM_PACK_DUEL_TERMINAL_7B] =
+	[PACK_DUEL_TERMINAL_7B] =
 	{
         .pack = gDuelTerminal7b,
         .length = 0,
 	},
-	[ITEM_PACK_DUELIST_ALLIANCE] =
+	[PACK_DUELIST_ALLIANCE] =
 	{
         .pack = gDuelistAlliance,
         .length = 0,
 	},
-	[ITEM_PACK_DUELIST_ALLIANCE_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_DUELIST_ALLIANCE_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gDuelistAllianceSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_DUELIST_ALLIANCE_DELUXE_EDITION] =
+	[PACK_DUELIST_ALLIANCE_DELUXE_EDITION] =
 	{
         .pack = gDuelistAllianceDeluxeEdition,
         .length = 0,
 	},
-	[ITEM_PACK_DUELIST_LEAGUE_13_PARTICIPATION_CARDS] =
+	[PACK_DUELIST_LEAGUE_13_PARTICIPATION_CARDS] =
 	{
         .pack = gDuelistLeague13participationcards,
         .length = 5,
 	},
-	[ITEM_PACK_DUELIST_LEAGUE_14_PARTICIPATION_CARDS] =
+	[PACK_DUELIST_LEAGUE_14_PARTICIPATION_CARDS] =
 	{
         .pack = gDuelistLeague14participationcards,
         .length = 3,
 	},
-	[ITEM_PACK_DUELIST_LEAGUE_15_PARTICIPATION_CARDS] =
+	[PACK_DUELIST_LEAGUE_15_PARTICIPATION_CARDS] =
 	{
         .pack = gDuelistLeague15participationcards,
         .length = 2,
 	},
-	[ITEM_PACK_DUELIST_LEAGUE_16_PARTICIPATION_CARDS] =
+	[PACK_DUELIST_LEAGUE_16_PARTICIPATION_CARDS] =
 	{
         .pack = gDuelistLeague16participationcards,
         .length = 1,
 	},
-	[ITEM_PACK_DUELIST_LEAGUE_17_PARTICIPATION_CARDS] =
+	[PACK_DUELIST_LEAGUE_17_PARTICIPATION_CARDS] =
 	{
         .pack = gDuelistLeague17participationcards,
         .length = 2,
 	},
-	[ITEM_PACK_DUELIST_LEAGUE_18_PARTICIPATION_CARDS] =
+	[PACK_DUELIST_LEAGUE_18_PARTICIPATION_CARDS] =
 	{
         .pack = gDuelistLeague18participationcards,
         .length = 2,
 	},
-	[ITEM_PACK_DUELIST_LEAGUE_2_PARTICIPATION_CARDS] =
+	[PACK_DUELIST_LEAGUE_2_PARTICIPATION_CARDS] =
 	{
         .pack = gDuelistLeague2participationcards,
         .length = 12,
 	},
-	[ITEM_PACK_DUELIST_LEAGUE_2010_PARTICIPATION_CARDS] =
+	[PACK_DUELIST_LEAGUE_2010_PARTICIPATION_CARDS] =
 	{
         .pack = gDuelistLeague2010participationcards,
         .length = 15,
 	},
-	[ITEM_PACK_DUELIST_LEAGUE_3_PARTICIPATION_CARDS] =
+	[PACK_DUELIST_LEAGUE_3_PARTICIPATION_CARDS] =
 	{
         .pack = gDuelistLeague3participationcards,
         .length = 7,
 	},
-	[ITEM_PACK_DUELIST_LEAGUE_DEMO_2010] =
+	[PACK_DUELIST_LEAGUE_DEMO_2010] =
 	{
         .pack = gDuelistLeagueDemo2010,
         .length = 5,
 	},
-	[ITEM_PACK_DUELIST_LEAGUE_SERIES_1_PARTICIPATION_CARDS] =
+	[PACK_DUELIST_LEAGUE_SERIES_1_PARTICIPATION_CARDS] =
 	{
         .pack = gDuelistLeagueSeries1participationcards,
         .length = 2,
 	},
-	[ITEM_PACK_DUELIST_LEAGUE_SERIES_10_PARTICIPATION_CARD] =
+	[PACK_DUELIST_LEAGUE_SERIES_10_PARTICIPATION_CARD] =
 	{
         .pack = gDuelistLeagueSeries10participationcard,
         .length = 0,
 	},
-	[ITEM_PACK_DUELIST_LEAGUE_SERIES_2_PARTICIPATION_CARDS] =
+	[PACK_DUELIST_LEAGUE_SERIES_2_PARTICIPATION_CARDS] =
 	{
         .pack = gDuelistLeagueSeries2participationcards,
         .length = 0,
 	},
-	[ITEM_PACK_DUELIST_LEAGUE_SERIES_3_PARTICIPATION_CARD] =
+	[PACK_DUELIST_LEAGUE_SERIES_3_PARTICIPATION_CARD] =
 	{
         .pack = gDuelistLeagueSeries3participationcard,
         .length = 1,
 	},
-	[ITEM_PACK_DUELIST_LEAGUE_SERIES_4_PARTICIPATION_CARD] =
+	[PACK_DUELIST_LEAGUE_SERIES_4_PARTICIPATION_CARD] =
 	{
         .pack = gDuelistLeagueSeries4participationcard,
         .length = 0,
 	},
-	[ITEM_PACK_DUELIST_LEAGUE_SERIES_5_PARTICIPATION_CARD] =
+	[PACK_DUELIST_LEAGUE_SERIES_5_PARTICIPATION_CARD] =
 	{
         .pack = gDuelistLeagueSeries5participationcard,
         .length = 0,
 	},
-	[ITEM_PACK_DUELIST_LEAGUE_SERIES_6_PARTICIPATION_CARD] =
+	[PACK_DUELIST_LEAGUE_SERIES_6_PARTICIPATION_CARD] =
 	{
         .pack = gDuelistLeagueSeries6participationcard,
         .length = 1,
 	},
-	[ITEM_PACK_DUELIST_LEAGUE_SERIES_7_PARTICIPATION_CARD] =
+	[PACK_DUELIST_LEAGUE_SERIES_7_PARTICIPATION_CARD] =
 	{
         .pack = gDuelistLeagueSeries7participationcard,
         .length = 1,
 	},
-	[ITEM_PACK_DUELIST_LEAGUE_SERIES_8_PARTICIPATION_CARD] =
+	[PACK_DUELIST_LEAGUE_SERIES_8_PARTICIPATION_CARD] =
 	{
         .pack = gDuelistLeagueSeries8participationcard,
         .length = 0,
 	},
-	[ITEM_PACK_DUELIST_LEAGUE_SERIES_9_PARTICIPATION_CARD] =
+	[PACK_DUELIST_LEAGUE_SERIES_9_PARTICIPATION_CARD] =
 	{
         .pack = gDuelistLeagueSeries9participationcard,
         .length = 0,
 	},
-	[ITEM_PACK_DUELIST_NEXUS] =
+	[PACK_DUELIST_NEXUS] =
 	{
         .pack = gDuelistNexus,
         .length = 0,
 	},
-	[ITEM_PACK_DUELIST_PACK_COLLECTION_TIN_2008] =
+	[PACK_DUELIST_PACK_COLLECTION_TIN_2008] =
 	{
         .pack = gDuelistPackCollectionTin2008,
         .length = 0,
 	},
-	[ITEM_PACK_DUELIST_PACK_COLLECTION_TIN_2009] =
+	[PACK_DUELIST_PACK_COLLECTION_TIN_2009] =
 	{
         .pack = gDuelistPackCollectionTin2009,
         .length = 0,
 	},
-	[ITEM_PACK_DUELIST_PACK_COLLECTION_TIN_2010] =
+	[PACK_DUELIST_PACK_COLLECTION_TIN_2010] =
 	{
         .pack = gDuelistPackCollectionTin2010,
         .length = 0,
 	},
-	[ITEM_PACK_DUELIST_PACK_COLLECTION_TIN_2011] =
+	[PACK_DUELIST_PACK_COLLECTION_TIN_2011] =
 	{
         .pack = gDuelistPackCollectionTin2011,
         .length = 0,
 	},
-	[ITEM_PACK_DUELIST_PACK_COLLECTION_TIN_JADEN_YUKI] =
+	[PACK_DUELIST_PACK_COLLECTION_TIN_JADEN_YUKI] =
 	{
         .pack = gDuelistPackCollectionTinJadenYuki,
         .length = 0,
 	},
-	[ITEM_PACK_DUELIST_PACK_ASTER_PHOENIX] =
+	[PACK_DUELIST_PACK_ASTER_PHOENIX] =
 	{
         .pack = gDuelistPackAsterPhoenix,
         .length = 0,
 	},
-	[ITEM_PACK_DUELIST_PACK_BATTLE_CITY] =
+	[PACK_DUELIST_PACK_BATTLE_CITY] =
 	{
         .pack = gDuelistPackBattleCity,
         .length = 12,
 	},
-	[ITEM_PACK_DUELIST_PACK_CHAZZ_PRINCETON] =
+	[PACK_DUELIST_PACK_CHAZZ_PRINCETON] =
 	{
         .pack = gDuelistPackChazzPrinceton,
         .length = 3,
 	},
-	[ITEM_PACK_DUELIST_PACK_CROW] =
+	[PACK_DUELIST_PACK_CROW] =
 	{
         .pack = gDuelistPackCrow,
         .length = 0,
 	},
-	[ITEM_PACK_DUELIST_PACK_DIMENSIONAL_GUARDIANS] =
+	[PACK_DUELIST_PACK_DIMENSIONAL_GUARDIANS] =
 	{
         .pack = gDuelistPackDimensionalGuardians,
         .length = 0,
 	},
-	[ITEM_PACK_DUELIST_PACK_JADEN_YUKI] =
+	[PACK_DUELIST_PACK_JADEN_YUKI] =
 	{
         .pack = gDuelistPackJadenYuki,
         .length = 3,
 	},
-	[ITEM_PACK_DUELIST_PACK_JADEN_YUKI_2] =
+	[PACK_DUELIST_PACK_JADEN_YUKI_2] =
 	{
         .pack = gDuelistPackJadenYuki2,
         .length = 1,
 	},
-	[ITEM_PACK_DUELIST_PACK_JADEN_YUKI_3] =
+	[PACK_DUELIST_PACK_JADEN_YUKI_3] =
 	{
         .pack = gDuelistPackJadenYuki3,
         .length = 0,
 	},
-	[ITEM_PACK_DUELIST_PACK_JESSE_ANDERSON] =
+	[PACK_DUELIST_PACK_JESSE_ANDERSON] =
 	{
         .pack = gDuelistPackJesseAnderson,
         .length = 0,
 	},
-	[ITEM_PACK_DUELIST_PACK_KAIBA] =
+	[PACK_DUELIST_PACK_KAIBA] =
 	{
         .pack = gDuelistPackKaiba,
         .length = 17,
 	},
-	[ITEM_PACK_DUELIST_PACK_RIVALS_OF_THE_PHARAOH] =
+	[PACK_DUELIST_PACK_RIVALS_OF_THE_PHARAOH] =
 	{
         .pack = gDuelistPackRivalsofthePharaoh,
         .length = 7,
 	},
-	[ITEM_PACK_DUELIST_PACK_SPECIAL_EDITION] =
+	[PACK_DUELIST_PACK_SPECIAL_EDITION] =
 	{
         .pack = gDuelistPackSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_DUELIST_PACK_YUGI] =
+	[PACK_DUELIST_PACK_YUGI] =
 	{
         .pack = gDuelistPackYugi,
         .length = 13,
 	},
-	[ITEM_PACK_DUELIST_PACK_YUSEI] =
+	[PACK_DUELIST_PACK_YUSEI] =
 	{
         .pack = gDuelistPackYusei,
         .length = 0,
 	},
-	[ITEM_PACK_DUELIST_PACK_YUSEI_2] =
+	[PACK_DUELIST_PACK_YUSEI_2] =
 	{
         .pack = gDuelistPackYusei2,
         .length = 0,
 	},
-	[ITEM_PACK_DUELIST_PACK_YUSEI_3] =
+	[PACK_DUELIST_PACK_YUSEI_3] =
 	{
         .pack = gDuelistPackYusei3,
         .length = 0,
 	},
-	[ITEM_PACK_DUELIST_PACK_ZANE_TRUESDALE] =
+	[PACK_DUELIST_PACK_ZANE_TRUESDALE] =
 	{
         .pack = gDuelistPackZaneTruesdale,
         .length = 7,
 	},
-	[ITEM_PACK_DUELIST_REVOLUTION] =
+	[PACK_DUELIST_REVOLUTION] =
 	{
         .pack = gDuelistRevolution,
         .length = 0,
 	},
-	[ITEM_PACK_DUELIST_REVOLUTION_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_DUELIST_REVOLUTION_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gDuelistRevolutionSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_DUELIST_REVOLUTION_SPECIAL_EDITION] =
+	[PACK_DUELIST_REVOLUTION_SPECIAL_EDITION] =
 	{
         .pack = gDuelistRevolutionSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_DUELIST_SAGA] =
+	[PACK_DUELIST_SAGA] =
 	{
         .pack = gDuelistSaga,
         .length = 18,
 	},
-	[ITEM_PACK_DUELIST_S_ADVANCE] =
+	[PACK_DUELIST_S_ADVANCE] =
 	{
         .pack = gDuelistsAdvance,
         .length = 0,
 	},
-	[ITEM_PACK_EGYPTIAN_GOD_DECK_OBELISK_THE_TORMENTOR] =
+	[PACK_EGYPTIAN_GOD_DECK_OBELISK_THE_TORMENTOR] =
 	{
         .pack = gEgyptianGodDeckObelisktheTormentor,
         .length = 8,
 	},
-	[ITEM_PACK_EGYPTIAN_GOD_DECK_SLIFER_THE_SKY_DRAGON] =
+	[PACK_EGYPTIAN_GOD_DECK_SLIFER_THE_SKY_DRAGON] =
 	{
         .pack = gEgyptianGodDeckSlifertheSkyDragon,
         .length = 10,
 	},
-	[ITEM_PACK_ELEMENTAL_ENERGY] =
+	[PACK_ELEMENTAL_ENERGY] =
 	{
         .pack = gElementalEnergy,
         .length = 14,
 	},
-	[ITEM_PACK_ELEMENTAL_ENERGY_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_ELEMENTAL_ENERGY_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gElementalEnergySneakPeekParticipationCard,
         .length = 1,
 	},
-	[ITEM_PACK_ELEMENTAL_ENERGY_SPECIAL_EDITION] =
+	[PACK_ELEMENTAL_ENERGY_SPECIAL_EDITION] =
 	{
         .pack = gElementalEnergySpecialEdition,
         .length = 1,
 	},
-	[ITEM_PACK_EMPEROR_OF_DARKNESS_STRUCTURE_DECK] =
+	[PACK_EMPEROR_OF_DARKNESS_STRUCTURE_DECK] =
 	{
         .pack = gEmperorofDarknessStructureDeck,
         .length = 5,
 	},
-	[ITEM_PACK_ENEMY_OF_JUSTICE] =
+	[PACK_ENEMY_OF_JUSTICE] =
 	{
         .pack = gEnemyofJustice,
         .length = 0,
 	},
-	[ITEM_PACK_ENEMY_OF_JUSTICE_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_ENEMY_OF_JUSTICE_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gEnemyofJusticeSneakPeekParticipationCard,
         .length = 1,
 	},
-	[ITEM_PACK_ETERNITY_CODE] =
+	[PACK_ETERNITY_CODE] =
 	{
         .pack = gEternityCode,
         .length = 0,
 	},
-	[ITEM_PACK_ETERNITY_CODE_PREMIERE_PROMOTIONAL_CARD] =
+	[PACK_ETERNITY_CODE_PREMIERE_PROMOTIONAL_CARD] =
 	{
         .pack = gEternityCodePremierepromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_EVENT_PACK_SPEED_DUEL] =
+	[PACK_EVENT_PACK_SPEED_DUEL] =
 	{
         .pack = gEventPackSpeedDuel,
         .length = 0,
 	},
-	[ITEM_PACK_EXCLUSIVE_PACK] =
+	[PACK_EXCLUSIVE_PACK] =
 	{
         .pack = gExclusivePack,
         .length = 1,
 	},
-	[ITEM_PACK_EXTREME_FORCE] =
+	[PACK_EXTREME_FORCE] =
 	{
         .pack = gExtremeForce,
         .length = 0,
 	},
-	[ITEM_PACK_EXTREME_FORCE_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_EXTREME_FORCE_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gExtremeForceSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_EXTREME_FORCE_SPECIAL_EDITION] =
+	[PACK_EXTREME_FORCE_SPECIAL_EDITION] =
 	{
         .pack = gExtremeForceSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_EXTREME_VICTORY] =
+	[PACK_EXTREME_VICTORY] =
 	{
         .pack = gExtremeVictory,
         .length = 0,
 	},
-	[ITEM_PACK_EXTREME_VICTORY_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_EXTREME_VICTORY_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gExtremeVictorySneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_FIRE_FISTS_SPECIAL_EDITION] =
+	[PACK_FIRE_FISTS_SPECIAL_EDITION] =
 	{
         .pack = gFireFistsSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_FISTS_OF_THE_GADGETS] =
+	[PACK_FISTS_OF_THE_GADGETS] =
 	{
         .pack = gFistsoftheGadgets,
         .length = 0,
 	},
-	[ITEM_PACK_FLAMES_OF_DESTRUCTION] =
+	[PACK_FLAMES_OF_DESTRUCTION] =
 	{
         .pack = gFlamesofDestruction,
         .length = 0,
 	},
-	[ITEM_PACK_FLAMES_OF_DESTRUCTION_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_FLAMES_OF_DESTRUCTION_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gFlamesofDestructionSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_FLAMES_OF_DESTRUCTION_SPECIAL_EDITION] =
+	[PACK_FLAMES_OF_DESTRUCTION_SPECIAL_EDITION] =
 	{
         .pack = gFlamesofDestructionSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_FLAMING_ETERNITY] =
+	[PACK_FLAMING_ETERNITY] =
 	{
         .pack = gFlamingEternity,
         .length = 14,
 	},
-	[ITEM_PACK_FLAMING_ETERNITY_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_FLAMING_ETERNITY_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gFlamingEternitySneakPeekParticipationCard,
         .length = 1,
 	},
-	[ITEM_PACK_FORBIDDEN_LEGACY] =
+	[PACK_FORBIDDEN_LEGACY] =
 	{
         .pack = gForbiddenLegacy,
         .length = 3,
 	},
-	[ITEM_PACK_FORCE_OF_THE_BREAKER] =
+	[PACK_FORCE_OF_THE_BREAKER] =
 	{
         .pack = gForceoftheBreaker,
         .length = 0,
 	},
-	[ITEM_PACK_FORCE_OF_THE_BREAKER_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_FORCE_OF_THE_BREAKER_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gForceoftheBreakerSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_FORCE_OF_THE_BREAKER_SPECIAL_EDITION] =
+	[PACK_FORCE_OF_THE_BREAKER_SPECIAL_EDITION] =
 	{
         .pack = gForceoftheBreakerSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_FUSION_ENFORCERS] =
+	[PACK_FUSION_ENFORCERS] =
 	{
         .pack = gFusionEnforcers,
         .length = 3,
 	},
-	[ITEM_PACK_GX_NEXT_GENERATION] =
+	[PACK_GX_NEXT_GENERATION] =
 	{
         .pack = gGXNextGeneration,
         .length = 0,
 	},
-	[ITEM_PACK_GALACTIC_OVERLORD] =
+	[PACK_GALACTIC_OVERLORD] =
 	{
         .pack = gGalacticOverlord,
         .length = 0,
 	},
-	[ITEM_PACK_GALACTIC_OVERLORD_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_GALACTIC_OVERLORD_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gGalacticOverlordSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_GATES_OF_THE_UNDERWORLD_STRUCTURE_DECK] =
+	[PACK_GATES_OF_THE_UNDERWORLD_STRUCTURE_DECK] =
 	{
         .pack = gGatesoftheUnderworldStructureDeck,
         .length = 11,
 	},
-	[ITEM_PACK_GEARGIA_RAMPAGE_STRUCTURE_DECK] =
+	[PACK_GEARGIA_RAMPAGE_STRUCTURE_DECK] =
 	{
         .pack = gGeargiaRampageStructureDeck,
         .length = 6,
 	},
-	[ITEM_PACK_GENERATION_FORCE] =
+	[PACK_GENERATION_FORCE] =
 	{
         .pack = gGenerationForce,
         .length = 0,
 	},
-	[ITEM_PACK_GENERATION_FORCE_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_GENERATION_FORCE_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gGenerationForceSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_GENERATION_FORCE_SPECIAL_EDITION] =
+	[PACK_GENERATION_FORCE_SPECIAL_EDITION] =
 	{
         .pack = gGenerationForceSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_GENESIS_IMPACT] =
+	[PACK_GENESIS_IMPACT] =
 	{
         .pack = gGenesisImpact,
         .length = 1,
 	},
-	[ITEM_PACK_GHOSTS_FROM_THE_PAST] =
+	[PACK_GHOSTS_FROM_THE_PAST] =
 	{
         .pack = gGhostsFromthePast,
         .length = 3,
 	},
-	[ITEM_PACK_GHOSTS_FROM_THE_PAST_THE_2ND_HAUNTING] =
+	[PACK_GHOSTS_FROM_THE_PAST_THE_2ND_HAUNTING] =
 	{
         .pack = gGhostsFromthePastThe2ndHaunting,
         .length = 4,
 	},
-	[ITEM_PACK_GLADIATOR_S_ASSAULT] =
+	[PACK_GLADIATOR_S_ASSAULT] =
 	{
         .pack = gGladiatorsAssault,
         .length = 1,
 	},
-	[ITEM_PACK_GLADIATOR_S_ASSAULT_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_GLADIATOR_S_ASSAULT_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gGladiatorsAssaultSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_GLADIATOR_S_ASSAULT_SPECIAL_EDITION] =
+	[PACK_GLADIATOR_S_ASSAULT_SPECIAL_EDITION] =
 	{
         .pack = gGladiatorsAssaultSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_GOLD_SERIES] =
+	[PACK_GOLD_SERIES] =
 	{
         .pack = gGoldSeries,
         .length = 25,
 	},
-	[ITEM_PACK_GOLD_SERIES_2009] =
+	[PACK_GOLD_SERIES_2009] =
 	{
         .pack = gGoldSeries2009,
         .length = 11,
 	},
-	[ITEM_PACK_GOLD_SERIES_3] =
+	[PACK_GOLD_SERIES_3] =
 	{
         .pack = gGoldSeries3,
         .length = 4,
 	},
-	[ITEM_PACK_GOLD_SERIES_4_PYRAMIDS_EDITION] =
+	[PACK_GOLD_SERIES_4_PYRAMIDS_EDITION] =
 	{
         .pack = gGoldSeries4PyramidsEdition,
         .length = 16,
 	},
-	[ITEM_PACK_GOLD_SERIES_HAUNTED_MINE] =
+	[PACK_GOLD_SERIES_HAUNTED_MINE] =
 	{
         .pack = gGoldSeriesHauntedMine,
         .length = 13,
 	},
-	[ITEM_PACK_HERO_STRIKE_STRUCTURE_DECK] =
+	[PACK_HERO_STRIKE_STRUCTURE_DECK] =
 	{
         .pack = gHEROStrikeStructureDeck,
         .length = 6,
 	},
-	[ITEM_PACK_HIDDEN_ARSENAL] =
+	[PACK_HIDDEN_ARSENAL] =
 	{
         .pack = gHiddenArsenal,
         .length = 0,
 	},
-	[ITEM_PACK_HIDDEN_ARSENAL_2] =
+	[PACK_HIDDEN_ARSENAL_2] =
 	{
         .pack = gHiddenArsenal2,
         .length = 0,
 	},
-	[ITEM_PACK_HIDDEN_ARSENAL_3] =
+	[PACK_HIDDEN_ARSENAL_3] =
 	{
         .pack = gHiddenArsenal3,
         .length = 0,
 	},
-	[ITEM_PACK_HIDDEN_ARSENAL_4_TRISHULA_S_TRIUMPH] =
+	[PACK_HIDDEN_ARSENAL_4_TRISHULA_S_TRIUMPH] =
 	{
         .pack = gHiddenArsenal4TrishulasTriumph,
         .length = 0,
 	},
-	[ITEM_PACK_HIDDEN_ARSENAL_5_STEELSWARM_INVASION] =
+	[PACK_HIDDEN_ARSENAL_5_STEELSWARM_INVASION] =
 	{
         .pack = gHiddenArsenal5SteelswarmInvasion,
         .length = 0,
 	},
-	[ITEM_PACK_HIDDEN_ARSENAL_5_STEELSWARM_INVASION_SPECIAL_EDITION] =
+	[PACK_HIDDEN_ARSENAL_5_STEELSWARM_INVASION_SPECIAL_EDITION] =
 	{
         .pack = gHiddenArsenal5SteelswarmInvasionSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_HIDDEN_ARSENAL_6_OMEGA_XYZ] =
+	[PACK_HIDDEN_ARSENAL_6_OMEGA_XYZ] =
 	{
         .pack = gHiddenArsenal6OmegaXyz,
         .length = 0,
 	},
-	[ITEM_PACK_HIDDEN_ARSENAL_7_KNIGHT_OF_STARS] =
+	[PACK_HIDDEN_ARSENAL_7_KNIGHT_OF_STARS] =
 	{
         .pack = gHiddenArsenal7KnightofStars,
         .length = 0,
 	},
-	[ITEM_PACK_HIDDEN_ARSENAL_CHAPTER_1] =
+	[PACK_HIDDEN_ARSENAL_CHAPTER_1] =
 	{
         .pack = gHiddenArsenalChapter1,
         .length = 13,
 	},
-	[ITEM_PACK_HIDDEN_ARSENAL_SPECIAL_EDITION] =
+	[PACK_HIDDEN_ARSENAL_SPECIAL_EDITION] =
 	{
         .pack = gHiddenArsenalSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_HIDDEN_SUMMONERS] =
+	[PACK_HIDDEN_SUMMONERS] =
 	{
         .pack = gHiddenSummoners,
         .length = 4,
 	},
-	[ITEM_PACK_HIGH_SPEED_RIDERS] =
+	[PACK_HIGH_SPEED_RIDERS] =
 	{
         .pack = gHighSpeedRiders,
         .length = 2,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_1_PARTICIPATION_CARDS_A] =
+	[PACK_HOBBY_LEAGUE_1_PARTICIPATION_CARDS_A] =
 	{
         .pack = gHobbyLeague1participationcardsA,
         .length = 0,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_1_PARTICIPATION_CARDS_B] =
+	[PACK_HOBBY_LEAGUE_1_PARTICIPATION_CARDS_B] =
 	{
         .pack = gHobbyLeague1participationcardsB,
         .length = 2,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_1_PARTICIPATION_CARDS_C] =
+	[PACK_HOBBY_LEAGUE_1_PARTICIPATION_CARDS_C] =
 	{
         .pack = gHobbyLeague1participationcardsC,
         .length = 1,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_2_PARTICIPATION_CARD_A] =
+	[PACK_HOBBY_LEAGUE_2_PARTICIPATION_CARD_A] =
 	{
         .pack = gHobbyLeague2participationcardA,
         .length = 1,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_2_PARTICIPATION_CARD_B] =
+	[PACK_HOBBY_LEAGUE_2_PARTICIPATION_CARD_B] =
 	{
         .pack = gHobbyLeague2participationcardB,
         .length = 1,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_2_PARTICIPATION_CARD_C] =
+	[PACK_HOBBY_LEAGUE_2_PARTICIPATION_CARD_C] =
 	{
         .pack = gHobbyLeague2participationcardC,
         .length = 1,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_2_PARTICIPATION_CARD_D] =
+	[PACK_HOBBY_LEAGUE_2_PARTICIPATION_CARD_D] =
 	{
         .pack = gHobbyLeague2participationcardD,
         .length = 1,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_2_PARTICIPATION_CARD_E] =
+	[PACK_HOBBY_LEAGUE_2_PARTICIPATION_CARD_E] =
 	{
         .pack = gHobbyLeague2participationcardE,
         .length = 1,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_2_PARTICIPATION_CARD_F] =
+	[PACK_HOBBY_LEAGUE_2_PARTICIPATION_CARD_F] =
 	{
         .pack = gHobbyLeague2participationcardF,
         .length = 1,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_A] =
+	[PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_A] =
 	{
         .pack = gHobbyLeague3participationcardA,
         .length = 1,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_B] =
+	[PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_B] =
 	{
         .pack = gHobbyLeague3participationcardB,
         .length = 1,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_C] =
+	[PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_C] =
 	{
         .pack = gHobbyLeague3participationcardC,
         .length = 1,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_D] =
+	[PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_D] =
 	{
         .pack = gHobbyLeague3participationcardD,
         .length = 1,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_E] =
+	[PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_E] =
 	{
         .pack = gHobbyLeague3participationcardE,
         .length = 1,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_F] =
+	[PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_F] =
 	{
         .pack = gHobbyLeague3participationcardF,
         .length = 1,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_G] =
+	[PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_G] =
 	{
         .pack = gHobbyLeague3participationcardG,
         .length = 1,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_4_PARTICIPATION_CARD_A] =
+	[PACK_HOBBY_LEAGUE_4_PARTICIPATION_CARD_A] =
 	{
         .pack = gHobbyLeague4participationcardA,
         .length = 1,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_4_PARTICIPATION_CARD_B] =
+	[PACK_HOBBY_LEAGUE_4_PARTICIPATION_CARD_B] =
 	{
         .pack = gHobbyLeague4participationcardB,
         .length = 1,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_4_PARTICIPATION_CARD_C] =
+	[PACK_HOBBY_LEAGUE_4_PARTICIPATION_CARD_C] =
 	{
         .pack = gHobbyLeague4participationcardC,
         .length = 1,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_4_PARTICIPATION_CARD_D] =
+	[PACK_HOBBY_LEAGUE_4_PARTICIPATION_CARD_D] =
 	{
         .pack = gHobbyLeague4participationcardD,
         .length = 1,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_4_PARTICIPATION_CARD_E] =
+	[PACK_HOBBY_LEAGUE_4_PARTICIPATION_CARD_E] =
 	{
         .pack = gHobbyLeague4participationcardE,
         .length = 1,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_4_PARTICIPATION_CARD_F] =
+	[PACK_HOBBY_LEAGUE_4_PARTICIPATION_CARD_F] =
 	{
         .pack = gHobbyLeague4participationcardF,
         .length = 1,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_5_PARTICIPATION_CARD_A] =
+	[PACK_HOBBY_LEAGUE_5_PARTICIPATION_CARD_A] =
 	{
         .pack = gHobbyLeague5participationcardA,
         .length = 0,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_5_PARTICIPATION_CARD_B] =
+	[PACK_HOBBY_LEAGUE_5_PARTICIPATION_CARD_B] =
 	{
         .pack = gHobbyLeague5participationcardB,
         .length = 0,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_5_PARTICIPATION_CARD_C] =
+	[PACK_HOBBY_LEAGUE_5_PARTICIPATION_CARD_C] =
 	{
         .pack = gHobbyLeague5participationcardC,
         .length = 0,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_5_PARTICIPATION_CARD_D] =
+	[PACK_HOBBY_LEAGUE_5_PARTICIPATION_CARD_D] =
 	{
         .pack = gHobbyLeague5participationcardD,
         .length = 1,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_5_PARTICIPATION_CARD_E] =
+	[PACK_HOBBY_LEAGUE_5_PARTICIPATION_CARD_E] =
 	{
         .pack = gHobbyLeague5participationcardE,
         .length = 0,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_5_PARTICIPATION_CARD_F] =
+	[PACK_HOBBY_LEAGUE_5_PARTICIPATION_CARD_F] =
 	{
         .pack = gHobbyLeague5participationcardF,
         .length = 1,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_6_PARTICIPATION_CARD_A] =
+	[PACK_HOBBY_LEAGUE_6_PARTICIPATION_CARD_A] =
 	{
         .pack = gHobbyLeague6participationcardA,
         .length = 1,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_6_PARTICIPATION_CARD_B] =
+	[PACK_HOBBY_LEAGUE_6_PARTICIPATION_CARD_B] =
 	{
         .pack = gHobbyLeague6participationcardB,
         .length = 1,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_6_PARTICIPATION_CARD_C] =
+	[PACK_HOBBY_LEAGUE_6_PARTICIPATION_CARD_C] =
 	{
         .pack = gHobbyLeague6participationcardC,
         .length = 1,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_6_PARTICIPATION_CARD_D] =
+	[PACK_HOBBY_LEAGUE_6_PARTICIPATION_CARD_D] =
 	{
         .pack = gHobbyLeague6participationcardD,
         .length = 1,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_6_PARTICIPATION_CARD_E] =
+	[PACK_HOBBY_LEAGUE_6_PARTICIPATION_CARD_E] =
 	{
         .pack = gHobbyLeague6participationcardE,
         .length = 1,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_6_PARTICIPATION_CARD_F] =
+	[PACK_HOBBY_LEAGUE_6_PARTICIPATION_CARD_F] =
 	{
         .pack = gHobbyLeague6participationcardF,
         .length = 1,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_7_PARTICIPATION_CARD_A] =
+	[PACK_HOBBY_LEAGUE_7_PARTICIPATION_CARD_A] =
 	{
         .pack = gHobbyLeague7participationcardA,
         .length = 1,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_7_PARTICIPATION_CARD_B] =
+	[PACK_HOBBY_LEAGUE_7_PARTICIPATION_CARD_B] =
 	{
         .pack = gHobbyLeague7participationcardB,
         .length = 0,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_7_PARTICIPATION_CARD_C] =
+	[PACK_HOBBY_LEAGUE_7_PARTICIPATION_CARD_C] =
 	{
         .pack = gHobbyLeague7participationcardC,
         .length = 0,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_7_PARTICIPATION_CARD_D] =
+	[PACK_HOBBY_LEAGUE_7_PARTICIPATION_CARD_D] =
 	{
         .pack = gHobbyLeague7participationcardD,
         .length = 0,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_7_PARTICIPATION_CARD_E] =
+	[PACK_HOBBY_LEAGUE_7_PARTICIPATION_CARD_E] =
 	{
         .pack = gHobbyLeague7participationcardE,
         .length = 0,
 	},
-	[ITEM_PACK_HOBBY_LEAGUE_7_PARTICIPATION_CARD_F] =
+	[PACK_HOBBY_LEAGUE_7_PARTICIPATION_CARD_F] =
 	{
         .pack = gHobbyLeague7participationcardF,
         .length = 0,
 	},
-	[ITEM_PACK_IGNITION_ASSAULT] =
+	[PACK_IGNITION_ASSAULT] =
 	{
         .pack = gIgnitionAssault,
         .length = 0,
 	},
-	[ITEM_PACK_IGNITION_ASSAULT_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_IGNITION_ASSAULT_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gIgnitionAssaultSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_IGNITION_ASSAULT_SPECIAL_EDITION] =
+	[PACK_IGNITION_ASSAULT_SPECIAL_EDITION] =
 	{
         .pack = gIgnitionAssaultSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_INVASION_OF_CHAOS] =
+	[PACK_INVASION_OF_CHAOS] =
 	{
         .pack = gInvasionofChaos,
         .length = 32,
 	},
-	[ITEM_PACK_INVASION_OF_CHAOS_SPECIAL_EDITION] =
+	[PACK_INVASION_OF_CHAOS_SPECIAL_EDITION] =
 	{
         .pack = gInvasionofChaosSpecialEdition,
         .length = 3,
 	},
-	[ITEM_PACK_INVASION_VENGEANCE] =
+	[PACK_INVASION_VENGEANCE] =
 	{
         .pack = gInvasionVengeance,
         .length = 0,
 	},
-	[ITEM_PACK_INVASION_VENGEANCE_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_INVASION_VENGEANCE_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gInvasionVengeanceSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_INVASION_VENGEANCE_SPECIAL_EDITION] =
+	[PACK_INVASION_VENGEANCE_SPECIAL_EDITION] =
 	{
         .pack = gInvasionVengeanceSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_JUDGMENT_OF_THE_LIGHT] =
+	[PACK_JUDGMENT_OF_THE_LIGHT] =
 	{
         .pack = gJudgmentoftheLight,
         .length = 0,
 	},
-	[ITEM_PACK_JUDGMENT_OF_THE_LIGHT_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_JUDGMENT_OF_THE_LIGHT_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gJudgmentoftheLightSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_JUDGMENT_OF_THE_LIGHT_DELUXE_EDITION] =
+	[PACK_JUDGMENT_OF_THE_LIGHT_DELUXE_EDITION] =
 	{
         .pack = gJudgmentoftheLightDeluxeEdition,
         .length = 0,
 	},
-	[ITEM_PACK_KC_GRAND_TOURNAMENT_2021_PRIZE_CARD] =
+	[PACK_KC_GRAND_TOURNAMENT_2021_PRIZE_CARD] =
 	{
         .pack = gKCGrandTournament2021prizecard,
         .length = 1,
 	},
-	[ITEM_PACK_KC_GRAND_TOURNAMENT_PRIZE_CARD] =
+	[PACK_KC_GRAND_TOURNAMENT_PRIZE_CARD] =
 	{
         .pack = gKCGrandTournamentprizecard,
         .length = 1,
 	},
-	[ITEM_PACK_KIDS_WB_DUEL_OF_DESTINY_PROMOTIONAL_CARD] =
+	[PACK_KIDS_WB_DUEL_OF_DESTINY_PROMOTIONAL_CARD] =
 	{
         .pack = gKidsWBDuelofDestinypromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_KING_S_COURT] =
+	[PACK_KING_S_COURT] =
 	{
         .pack = gKingsCourt,
         .length = 2,
 	},
-	[ITEM_PACK_LABYRINTH_OF_NIGHTMARE] =
+	[PACK_LABYRINTH_OF_NIGHTMARE] =
 	{
         .pack = gLabyrinthofNightmare,
         .length = 22,
 	},
-	[ITEM_PACK_LEGACY_OF_DARKNESS] =
+	[PACK_LEGACY_OF_DARKNESS] =
 	{
         .pack = gLegacyofDarkness,
         .length = 31,
 	},
-	[ITEM_PACK_LEGACY_OF_DESTRUCTION] =
+	[PACK_LEGACY_OF_DESTRUCTION] =
 	{
         .pack = gLegacyofDestruction,
         .length = 0,
 	},
-	[ITEM_PACK_LEGACY_OF_THE_VALIANT] =
+	[PACK_LEGACY_OF_THE_VALIANT] =
 	{
         .pack = gLegacyoftheValiant,
         .length = 0,
 	},
-	[ITEM_PACK_LEGACY_OF_THE_VALIANT_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_LEGACY_OF_THE_VALIANT_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gLegacyoftheValiantSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_LEGACY_OF_THE_VALIANT_DELUXE_EDITION] =
+	[PACK_LEGACY_OF_THE_VALIANT_DELUXE_EDITION] =
 	{
         .pack = gLegacyoftheValiantDeluxeEdition,
         .length = 0,
 	},
-	[ITEM_PACK_LEGEND_OF_BLUE_EYES_WHITE_DRAGON] =
+	[PACK_LEGEND_OF_BLUE_EYES_WHITE_DRAGON] =
 	{
         .pack = gLegendofBlueEyesWhiteDragon,
         .length = 34,
 	},
-	[ITEM_PACK_LEGENDARY_COLLECTION] =
+	[PACK_LEGENDARY_COLLECTION] =
 	{
         .pack = gLegendaryCollection,
         .length = 2,
 	},
-	[ITEM_PACK_LEGENDARY_COLLECTION_2_THE_DUEL_ACADEMY_YEARS] =
+	[PACK_LEGENDARY_COLLECTION_2_THE_DUEL_ACADEMY_YEARS] =
 	{
         .pack = gLegendaryCollection2TheDuelAcademyYears,
         .length = 0,
 	},
-	[ITEM_PACK_LEGENDARY_COLLECTION_2_THE_DUEL_ACADEMY_YEARS_MEGA_PACK] =
+	[PACK_LEGENDARY_COLLECTION_2_THE_DUEL_ACADEMY_YEARS_MEGA_PACK] =
 	{
         .pack = gLegendaryCollection2TheDuelAcademyYearsMegaPack,
         .length = 8,
 	},
-	[ITEM_PACK_LEGENDARY_COLLECTION_3_YUGI_S_WORLD] =
+	[PACK_LEGENDARY_COLLECTION_3_YUGI_S_WORLD] =
 	{
         .pack = gLegendaryCollection3YugisWorld,
         .length = 0,
 	},
-	[ITEM_PACK_LEGENDARY_COLLECTION_3_YUGI_S_WORLD_MEGA_PACK] =
+	[PACK_LEGENDARY_COLLECTION_3_YUGI_S_WORLD_MEGA_PACK] =
 	{
         .pack = gLegendaryCollection3YugisWorldMegaPack,
         .length = 116,
 	},
-	[ITEM_PACK_LEGENDARY_COLLECTION_4_JOEY_S_WORLD] =
+	[PACK_LEGENDARY_COLLECTION_4_JOEY_S_WORLD] =
 	{
         .pack = gLegendaryCollection4JoeysWorld,
         .length = 0,
 	},
-	[ITEM_PACK_LEGENDARY_COLLECTION_4_JOEY_S_WORLD_MEGA_PACK] =
+	[PACK_LEGENDARY_COLLECTION_4_JOEY_S_WORLD_MEGA_PACK] =
 	{
         .pack = gLegendaryCollection4JoeysWorldMegaPack,
         .length = 66,
 	},
-	[ITEM_PACK_LEGENDARY_COLLECTION_5D_S] =
+	[PACK_LEGENDARY_COLLECTION_5D_S] =
 	{
         .pack = gLegendaryCollection5Ds,
         .length = 0,
 	},
-	[ITEM_PACK_LEGENDARY_COLLECTION_5D_S_MEGA_PACK] =
+	[PACK_LEGENDARY_COLLECTION_5D_S_MEGA_PACK] =
 	{
         .pack = gLegendaryCollection5DsMegaPack,
         .length = 0,
 	},
-	[ITEM_PACK_LEGENDARY_COLLECTION_KAIBA] =
+	[PACK_LEGENDARY_COLLECTION_KAIBA] =
 	{
         .pack = gLegendaryCollectionKaiba,
         .length = 0,
 	},
-	[ITEM_PACK_LEGENDARY_COLLECTION_KAIBA_MEGA_PACK] =
+	[PACK_LEGENDARY_COLLECTION_KAIBA_MEGA_PACK] =
 	{
         .pack = gLegendaryCollectionKaibaMegaPack,
         .length = 23,
 	},
-	[ITEM_PACK_LEGENDARY_COLLECTION_25TH_ANNIVERSARY_EDITION] =
+	[PACK_LEGENDARY_COLLECTION_25TH_ANNIVERSARY_EDITION] =
 	{
         .pack = gLegendaryCollection25thAnniversaryEdition,
         .length = 1,
 	},
-	[ITEM_PACK_LEGENDARY_DECKS_II] =
+	[PACK_LEGENDARY_DECKS_II] =
 	{
         .pack = gLegendaryDecksII,
         .length = 36,
 	},
-	[ITEM_PACK_LEGENDARY_DRAGON_DECKS] =
+	[PACK_LEGENDARY_DRAGON_DECKS] =
 	{
         .pack = gLegendaryDragonDecks,
         .length = 15,
 	},
-	[ITEM_PACK_LEGENDARY_DUELISTS] =
+	[PACK_LEGENDARY_DUELISTS] =
 	{
         .pack = gLegendaryDuelists,
         .length = 5,
 	},
-	[ITEM_PACK_LEGENDARY_DUELISTS_ANCIENT_MILLENNIUM] =
+	[PACK_LEGENDARY_DUELISTS_ANCIENT_MILLENNIUM] =
 	{
         .pack = gLegendaryDuelistsAncientMillennium,
         .length = 5,
 	},
-	[ITEM_PACK_LEGENDARY_DUELISTS_DUELS_FROM_THE_DEEP] =
+	[PACK_LEGENDARY_DUELISTS_DUELS_FROM_THE_DEEP] =
 	{
         .pack = gLegendaryDuelistsDuelsFromtheDeep,
         .length = 2,
 	},
-	[ITEM_PACK_LEGENDARY_DUELISTS_IMMORTAL_DESTINY] =
+	[PACK_LEGENDARY_DUELISTS_IMMORTAL_DESTINY] =
 	{
         .pack = gLegendaryDuelistsImmortalDestiny,
         .length = 1,
 	},
-	[ITEM_PACK_LEGENDARY_DUELISTS_MAGICAL_HERO] =
+	[PACK_LEGENDARY_DUELISTS_MAGICAL_HERO] =
 	{
         .pack = gLegendaryDuelistsMagicalHero,
         .length = 0,
 	},
-	[ITEM_PACK_LEGENDARY_DUELISTS_RAGE_OF_RA] =
+	[PACK_LEGENDARY_DUELISTS_RAGE_OF_RA] =
 	{
         .pack = gLegendaryDuelistsRageofRa,
         .length = 6,
 	},
-	[ITEM_PACK_LEGENDARY_DUELISTS_SEASON_1] =
+	[PACK_LEGENDARY_DUELISTS_SEASON_1] =
 	{
         .pack = gLegendaryDuelistsSeason1,
         .length = 11,
 	},
-	[ITEM_PACK_LEGENDARY_DUELISTS_SEASON_2] =
+	[PACK_LEGENDARY_DUELISTS_SEASON_2] =
 	{
         .pack = gLegendaryDuelistsSeason2,
         .length = 3,
 	},
-	[ITEM_PACK_LEGENDARY_DUELISTS_SEASON_3] =
+	[PACK_LEGENDARY_DUELISTS_SEASON_3] =
 	{
         .pack = gLegendaryDuelistsSeason3,
         .length = 4,
 	},
-	[ITEM_PACK_LEGENDARY_DUELISTS_SISTERS_OF_THE_ROSE] =
+	[PACK_LEGENDARY_DUELISTS_SISTERS_OF_THE_ROSE] =
 	{
         .pack = gLegendaryDuelistsSistersoftheRose,
         .length = 0,
 	},
-	[ITEM_PACK_LEGENDARY_DUELISTS_SOULBURNING_VOLCANO] =
+	[PACK_LEGENDARY_DUELISTS_SOULBURNING_VOLCANO] =
 	{
         .pack = gLegendaryDuelistsSoulburningVolcano,
         .length = 0,
 	},
-	[ITEM_PACK_LEGENDARY_DUELISTS_SYNCHRO_STORM] =
+	[PACK_LEGENDARY_DUELISTS_SYNCHRO_STORM] =
 	{
         .pack = gLegendaryDuelistsSynchroStorm,
         .length = 0,
 	},
-	[ITEM_PACK_LEGENDARY_DUELISTS_WHITE_DRAGON_ABYSS] =
+	[PACK_LEGENDARY_DUELISTS_WHITE_DRAGON_ABYSS] =
 	{
         .pack = gLegendaryDuelistsWhiteDragonAbyss,
         .length = 3,
 	},
-	[ITEM_PACK_LEGENDARY_HERO_DECKS] =
+	[PACK_LEGENDARY_HERO_DECKS] =
 	{
         .pack = gLegendaryHeroDecks,
         .length = 6,
 	},
-	[ITEM_PACK_LIGHT_AND_DARKNESS_POWER_PACK] =
+	[PACK_LIGHT_AND_DARKNESS_POWER_PACK] =
 	{
         .pack = gLightandDarknessPowerPack,
         .length = 0,
 	},
-	[ITEM_PACK_LIGHT_OF_DESTRUCTION] =
+	[PACK_LIGHT_OF_DESTRUCTION] =
 	{
         .pack = gLightofDestruction,
         .length = 0,
 	},
-	[ITEM_PACK_LIGHT_OF_DESTRUCTION_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_LIGHT_OF_DESTRUCTION_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gLightofDestructionSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_LIGHT_OF_DESTRUCTION_SPECIAL_EDITION] =
+	[PACK_LIGHT_OF_DESTRUCTION_SPECIAL_EDITION] =
 	{
         .pack = gLightofDestructionSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_LIGHTNING_OVERDRIVE] =
+	[PACK_LIGHTNING_OVERDRIVE] =
 	{
         .pack = gLightningOverdrive,
         .length = 0,
 	},
-	[ITEM_PACK_LIGHTNING_OVERDRIVE_PREMIERE_PROMOTIONAL_CARD] =
+	[PACK_LIGHTNING_OVERDRIVE_PREMIERE_PROMOTIONAL_CARD] =
 	{
         .pack = gLightningOverdrivePremierepromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_LIMITED_EDITION_1] =
+	[PACK_LIMITED_EDITION_1] =
 	{
         .pack = gLimitedEdition1,
         .length = 0,
 	},
-	[ITEM_PACK_LORD_OF_THE_TACHYON_GALAXY] =
+	[PACK_LORD_OF_THE_TACHYON_GALAXY] =
 	{
         .pack = gLordoftheTachyonGalaxy,
         .length = 0,
 	},
-	[ITEM_PACK_LORD_OF_THE_TACHYON_GALAXY_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_LORD_OF_THE_TACHYON_GALAXY_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gLordoftheTachyonGalaxySneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_LOST_SANCTUARY_STRUCTURE_DECK] =
+	[PACK_LOST_SANCTUARY_STRUCTURE_DECK] =
 	{
         .pack = gLostSanctuaryStructureDeck,
         .length = 7,
 	},
-	[ITEM_PACK_MACHINA_MAYHEM_STRUCTURE_DECK] =
+	[PACK_MACHINA_MAYHEM_STRUCTURE_DECK] =
 	{
         .pack = gMachinaMayhemStructureDeck,
         .length = 6,
 	},
-	[ITEM_PACK_MACHINE_REACTOR_STRUCTURE_DECK] =
+	[PACK_MACHINE_REACTOR_STRUCTURE_DECK] =
 	{
         .pack = gMachineReactorStructureDeck,
         .length = 4,
 	},
-	[ITEM_PACK_MAGIC_RULER] =
+	[PACK_MAGIC_RULER] =
 	{
         .pack = gMagicRuler,
         .length = 39,
 	},
-	[ITEM_PACK_MAGICIAN_S_FORCE] =
+	[PACK_MAGICIAN_S_FORCE] =
 	{
         .pack = gMagiciansForce,
         .length = 28,
 	},
-	[ITEM_PACK_MAGNIFICENT_MAVENS] =
+	[PACK_MAGNIFICENT_MAVENS] =
 	{
         .pack = gMagnificentMavens,
         .length = 15,
 	},
-	[ITEM_PACK_MAKE_A_WISH_FOUNDATION_PROMOTIONAL_CARD] =
+	[PACK_MAKE_A_WISH_FOUNDATION_PROMOTIONAL_CARD] =
 	{
         .pack = gMakeAWishFoundationpromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_MASTER_COLLECTION_VOLUME_1] =
+	[PACK_MASTER_COLLECTION_VOLUME_1] =
 	{
         .pack = gMasterCollectionVolume1,
         .length = 4,
 	},
-	[ITEM_PACK_MASTER_COLLECTION_VOLUME_2] =
+	[PACK_MASTER_COLLECTION_VOLUME_2] =
 	{
         .pack = gMasterCollectionVolume2,
         .length = 4,
 	},
-	[ITEM_PACK_MASTER_OF_PENDULUM_STRUCTURE_DECK] =
+	[PACK_MASTER_OF_PENDULUM_STRUCTURE_DECK] =
 	{
         .pack = gMasterofPendulumStructureDeck,
         .length = 6,
 	},
-	[ITEM_PACK_MATTEL_ACTION_FIGURE_PROMOTIONAL_CARDS_SERIES_1] =
+	[PACK_MATTEL_ACTION_FIGURE_PROMOTIONAL_CARDS_SERIES_1] =
 	{
         .pack = gMattelActionFigurepromotionalcardsSeries1,
         .length = 0,
 	},
-	[ITEM_PACK_MATTEL_ACTION_FIGURE_PROMOTIONAL_CARDS_SERIES_2] =
+	[PACK_MATTEL_ACTION_FIGURE_PROMOTIONAL_CARDS_SERIES_2] =
 	{
         .pack = gMattelActionFigurepromotionalcardsSeries2,
         .length = 1,
 	},
-	[ITEM_PACK_MATTEL_ACTION_FIGURE_PROMOTIONAL_CARDS_SERIES_3] =
+	[PACK_MATTEL_ACTION_FIGURE_PROMOTIONAL_CARDS_SERIES_3] =
 	{
         .pack = gMattelActionFigurepromotionalcardsSeries3,
         .length = 3,
 	},
-	[ITEM_PACK_MAXIMUM_CRISIS] =
+	[PACK_MAXIMUM_CRISIS] =
 	{
         .pack = gMaximumCrisis,
         .length = 0,
 	},
-	[ITEM_PACK_MAXIMUM_CRISIS_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_MAXIMUM_CRISIS_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gMaximumCrisisSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_MAXIMUM_CRISIS_SPECIAL_EDITION] =
+	[PACK_MAXIMUM_CRISIS_SPECIAL_EDITION] =
 	{
         .pack = gMaximumCrisisSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_MAXIMUM_GOLD] =
+	[PACK_MAXIMUM_GOLD] =
 	{
         .pack = gMaximumGold,
         .length = 13,
 	},
-	[ITEM_PACK_MAXIMUM_GOLD_EL_DORADO] =
+	[PACK_MAXIMUM_GOLD_EL_DORADO] =
 	{
         .pack = gMaximumGoldElDorado,
         .length = 8,
 	},
-	[ITEM_PACK_MAZE_OF_MEMORIES] =
+	[PACK_MAZE_OF_MEMORIES] =
 	{
         .pack = gMazeofMemories,
         .length = 2,
 	},
-	[ITEM_PACK_MAZE_OF_MILLENNIA] =
+	[PACK_MAZE_OF_MILLENNIA] =
 	{
         .pack = gMazeofMillennia,
         .length = 0,
 	},
-	[ITEM_PACK_MAZE_OF_THE_MASTER] =
+	[PACK_MAZE_OF_THE_MASTER] =
 	{
         .pack = gMazeoftheMaster,
         .length = 0,
 	},
-	[ITEM_PACK_MCDONALD_S_PROMOTIONAL_CARDS] =
+	[PACK_MCDONALD_S_PROMOTIONAL_CARDS] =
 	{
         .pack = gMcDonaldsPromotionalCards,
         .length = 0,
 	},
-	[ITEM_PACK_MCDONALD_S_PROMOTIONAL_CARDS_2] =
+	[PACK_MCDONALD_S_PROMOTIONAL_CARDS_2] =
 	{
         .pack = gMcDonaldsPromotionalCards2,
         .length = 1,
 	},
-	[ITEM_PACK_METAL_RAIDERS] =
+	[PACK_METAL_RAIDERS] =
 	{
         .pack = gMetalRaiders,
         .length = 48,
 	},
-	[ITEM_PACK_MILLENNIUM_PACK] =
+	[PACK_MILLENNIUM_PACK] =
 	{
         .pack = gMillenniumPack,
         .length = 16,
 	},
-	[ITEM_PACK_MOVIE_PACK] =
+	[PACK_MOVIE_PACK] =
 	{
         .pack = gMoviePack,
         .length = 0,
 	},
-	[ITEM_PACK_MYSTIC_FIGHTERS] =
+	[PACK_MYSTIC_FIGHTERS] =
 	{
         .pack = gMysticFighters,
         .length = 2,
 	},
-	[ITEM_PACK_NOBLE_KNIGHTS_OF_THE_ROUND_TABLE_BOX_SET] =
+	[PACK_NOBLE_KNIGHTS_OF_THE_ROUND_TABLE_BOX_SET] =
 	{
         .pack = gNobleKnightsoftheRoundTableBoxSet,
         .length = 5,
 	},
-	[ITEM_PACK_NOBLE_KNIGHTS_OF_THE_ROUND_TABLE_POWER_UP_PACK] =
+	[PACK_NOBLE_KNIGHTS_OF_THE_ROUND_TABLE_POWER_UP_PACK] =
 	{
         .pack = gNobleKnightsoftheRoundTablePowerUpPack,
         .length = 3,
 	},
-	[ITEM_PACK_NUMBER_HUNTERS] =
+	[PACK_NUMBER_HUNTERS] =
 	{
         .pack = gNumberHunters,
         .length = 0,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_1] =
+	[PACK_OTS_TOURNAMENT_PACK_1] =
 	{
         .pack = gOTSTournamentPack1,
         .length = 4,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_10] =
+	[PACK_OTS_TOURNAMENT_PACK_10] =
 	{
         .pack = gOTSTournamentPack10,
         .length = 2,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_10_POR_] =
+	[PACK_OTS_TOURNAMENT_PACK_10_POR_] =
 	{
         .pack = gOTSTournamentPack10POR,
         .length = 2,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_11] =
+	[PACK_OTS_TOURNAMENT_PACK_11] =
 	{
         .pack = gOTSTournamentPack11,
         .length = 2,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_11_POR_] =
+	[PACK_OTS_TOURNAMENT_PACK_11_POR_] =
 	{
         .pack = gOTSTournamentPack11POR,
         .length = 2,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_12] =
+	[PACK_OTS_TOURNAMENT_PACK_12] =
 	{
         .pack = gOTSTournamentPack12,
         .length = 3,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_12_POR_] =
+	[PACK_OTS_TOURNAMENT_PACK_12_POR_] =
 	{
         .pack = gOTSTournamentPack12POR,
         .length = 3,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_13] =
+	[PACK_OTS_TOURNAMENT_PACK_13] =
 	{
         .pack = gOTSTournamentPack13,
         .length = 2,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_13_POR_] =
+	[PACK_OTS_TOURNAMENT_PACK_13_POR_] =
 	{
         .pack = gOTSTournamentPack13POR,
         .length = 2,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_14] =
+	[PACK_OTS_TOURNAMENT_PACK_14] =
 	{
         .pack = gOTSTournamentPack14,
         .length = 0,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_14_POR_] =
+	[PACK_OTS_TOURNAMENT_PACK_14_POR_] =
 	{
         .pack = gOTSTournamentPack14POR,
         .length = 0,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_15] =
+	[PACK_OTS_TOURNAMENT_PACK_15] =
 	{
         .pack = gOTSTournamentPack15,
         .length = 0,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_15_POR_] =
+	[PACK_OTS_TOURNAMENT_PACK_15_POR_] =
 	{
         .pack = gOTSTournamentPack15POR,
         .length = 0,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_16] =
+	[PACK_OTS_TOURNAMENT_PACK_16] =
 	{
         .pack = gOTSTournamentPack16,
         .length = 4,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_16_POR_] =
+	[PACK_OTS_TOURNAMENT_PACK_16_POR_] =
 	{
         .pack = gOTSTournamentPack16POR,
         .length = 4,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_17] =
+	[PACK_OTS_TOURNAMENT_PACK_17] =
 	{
         .pack = gOTSTournamentPack17,
         .length = 0,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_17_POR_] =
+	[PACK_OTS_TOURNAMENT_PACK_17_POR_] =
 	{
         .pack = gOTSTournamentPack17POR,
         .length = 0,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_18] =
+	[PACK_OTS_TOURNAMENT_PACK_18] =
 	{
         .pack = gOTSTournamentPack18,
         .length = 2,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_18_POR_] =
+	[PACK_OTS_TOURNAMENT_PACK_18_POR_] =
 	{
         .pack = gOTSTournamentPack18POR,
         .length = 2,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_19] =
+	[PACK_OTS_TOURNAMENT_PACK_19] =
 	{
         .pack = gOTSTournamentPack19,
         .length = 2,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_19_POR_] =
+	[PACK_OTS_TOURNAMENT_PACK_19_POR_] =
 	{
         .pack = gOTSTournamentPack19POR,
         .length = 2,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_2] =
+	[PACK_OTS_TOURNAMENT_PACK_2] =
 	{
         .pack = gOTSTournamentPack2,
         .length = 3,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_20] =
+	[PACK_OTS_TOURNAMENT_PACK_20] =
 	{
         .pack = gOTSTournamentPack20,
         .length = 2,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_21] =
+	[PACK_OTS_TOURNAMENT_PACK_21] =
 	{
         .pack = gOTSTournamentPack21,
         .length = 0,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_22] =
+	[PACK_OTS_TOURNAMENT_PACK_22] =
 	{
         .pack = gOTSTournamentPack22,
         .length = 0,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_23] =
+	[PACK_OTS_TOURNAMENT_PACK_23] =
 	{
         .pack = gOTSTournamentPack23,
         .length = 2,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_24] =
+	[PACK_OTS_TOURNAMENT_PACK_24] =
 	{
         .pack = gOTSTournamentPack24,
         .length = 3,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_25] =
+	[PACK_OTS_TOURNAMENT_PACK_25] =
 	{
         .pack = gOTSTournamentPack25,
         .length = 2,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_26] =
+	[PACK_OTS_TOURNAMENT_PACK_26] =
 	{
         .pack = gOTSTournamentPack26,
         .length = 1,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_27] =
+	[PACK_OTS_TOURNAMENT_PACK_27] =
 	{
         .pack = gOTSTournamentPack27,
         .length = 0,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_28] =
+	[PACK_OTS_TOURNAMENT_PACK_28] =
 	{
         .pack = gOTSTournamentPack28,
         .length = 2,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_3] =
+	[PACK_OTS_TOURNAMENT_PACK_3] =
 	{
         .pack = gOTSTournamentPack3,
         .length = 2,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_4] =
+	[PACK_OTS_TOURNAMENT_PACK_4] =
 	{
         .pack = gOTSTournamentPack4,
         .length = 0,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_5] =
+	[PACK_OTS_TOURNAMENT_PACK_5] =
 	{
         .pack = gOTSTournamentPack5,
         .length = 2,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_6] =
+	[PACK_OTS_TOURNAMENT_PACK_6] =
 	{
         .pack = gOTSTournamentPack6,
         .length = 0,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_7] =
+	[PACK_OTS_TOURNAMENT_PACK_7] =
 	{
         .pack = gOTSTournamentPack7,
         .length = 6,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_7_POR_] =
+	[PACK_OTS_TOURNAMENT_PACK_7_POR_] =
 	{
         .pack = gOTSTournamentPack7POR,
         .length = 6,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_8] =
+	[PACK_OTS_TOURNAMENT_PACK_8] =
 	{
         .pack = gOTSTournamentPack8,
         .length = 2,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_8_POR_] =
+	[PACK_OTS_TOURNAMENT_PACK_8_POR_] =
 	{
         .pack = gOTSTournamentPack8POR,
         .length = 2,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_9] =
+	[PACK_OTS_TOURNAMENT_PACK_9] =
 	{
         .pack = gOTSTournamentPack9,
         .length = 3,
 	},
-	[ITEM_PACK_OTS_TOURNAMENT_PACK_9_POR_] =
+	[PACK_OTS_TOURNAMENT_PACK_9_POR_] =
 	{
         .pack = gOTSTournamentPack9POR,
         .length = 3,
 	},
-	[ITEM_PACK_ONSLAUGHT_OF_THE_FIRE_KINGS_STRUCTURE_DECK] =
+	[PACK_ONSLAUGHT_OF_THE_FIRE_KINGS_STRUCTURE_DECK] =
 	{
         .pack = gOnslaughtoftheFireKingsStructureDeck,
         .length = 7,
 	},
-	[ITEM_PACK_ORDER_OF_CHAOS] =
+	[PACK_ORDER_OF_CHAOS] =
 	{
         .pack = gOrderofChaos,
         .length = 0,
 	},
-	[ITEM_PACK_ORDER_OF_CHAOS_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_ORDER_OF_CHAOS_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gOrderofChaosSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_ORDER_OF_CHAOS_SPECIAL_EDITION] =
+	[PACK_ORDER_OF_CHAOS_SPECIAL_EDITION] =
 	{
         .pack = gOrderofChaosSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_PALLADIUM_ORACLE_MAHAD_SWEEPSTAKES] =
+	[PACK_PALLADIUM_ORACLE_MAHAD_SWEEPSTAKES] =
 	{
         .pack = gPalladiumOracleMahadSweepstakes,
         .length = 0,
 	},
-	[ITEM_PACK_PENDULUM_DOMINATION_STRUCTURE_DECK] =
+	[PACK_PENDULUM_DOMINATION_STRUCTURE_DECK] =
 	{
         .pack = gPendulumDominationStructureDeck,
         .length = 1,
 	},
-	[ITEM_PACK_PENDULUM_EVOLUTION] =
+	[PACK_PENDULUM_EVOLUTION] =
 	{
         .pack = gPendulumEvolution,
         .length = 1,
 	},
-	[ITEM_PACK_PHANTOM_DARKNESS] =
+	[PACK_PHANTOM_DARKNESS] =
 	{
         .pack = gPhantomDarkness,
         .length = 1,
 	},
-	[ITEM_PACK_PHANTOM_DARKNESS_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_PHANTOM_DARKNESS_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gPhantomDarknessSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_PHANTOM_DARKNESS_SPECIAL_EDITION] =
+	[PACK_PHANTOM_DARKNESS_SPECIAL_EDITION] =
 	{
         .pack = gPhantomDarknessSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_PHANTOM_NIGHTMARE] =
+	[PACK_PHANTOM_NIGHTMARE] =
 	{
         .pack = gPhantomNightmare,
         .length = 0,
 	},
-	[ITEM_PACK_PHANTOM_RAGE] =
+	[PACK_PHANTOM_RAGE] =
 	{
         .pack = gPhantomRage,
         .length = 0,
 	},
-	[ITEM_PACK_PHANTOM_RAGE_PREMIERE_PROMOTIONAL_CARD] =
+	[PACK_PHANTOM_RAGE_PREMIERE_PROMOTIONAL_CARD] =
 	{
         .pack = gPhantomRagePremierepromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_PHARAOH_TOUR_2005_PROMOTIONAL_CARDS] =
+	[PACK_PHARAOH_TOUR_2005_PROMOTIONAL_CARDS] =
 	{
         .pack = gPharaohTour2005promotionalcards,
         .length = 0,
 	},
-	[ITEM_PACK_PHARAOH_TOUR_2006_PROMOTIONAL_CARDS] =
+	[PACK_PHARAOH_TOUR_2006_PROMOTIONAL_CARDS] =
 	{
         .pack = gPharaohTour2006promotionalcards,
         .length = 2,
 	},
-	[ITEM_PACK_PHARAOH_TOUR_2007_PROMOTIONAL_CARDS] =
+	[PACK_PHARAOH_TOUR_2007_PROMOTIONAL_CARDS] =
 	{
         .pack = gPharaohTour2007promotionalcards,
         .length = 0,
 	},
-	[ITEM_PACK_PHARAOH_S_SERVANT] =
+	[PACK_PHARAOH_S_SERVANT] =
 	{
         .pack = gPharaohsServant,
         .length = 22,
 	},
-	[ITEM_PACK_PHARAONIC_GUARDIAN] =
+	[PACK_PHARAONIC_GUARDIAN] =
 	{
         .pack = gPharaonicGuardian,
         .length = 37,
 	},
-	[ITEM_PACK_PHOTON_HYPERNOVA] =
+	[PACK_PHOTON_HYPERNOVA] =
 	{
         .pack = gPhotonHypernova,
         .length = 0,
 	},
-	[ITEM_PACK_PHOTON_SHOCKWAVE] =
+	[PACK_PHOTON_SHOCKWAVE] =
 	{
         .pack = gPhotonShockwave,
         .length = 0,
 	},
-	[ITEM_PACK_PHOTON_SHOCKWAVE_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_PHOTON_SHOCKWAVE_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gPhotonShockwaveSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_POWER_OF_THE_DUELIST] =
+	[PACK_POWER_OF_THE_DUELIST] =
 	{
         .pack = gPoweroftheDuelist,
         .length = 0,
 	},
-	[ITEM_PACK_POWER_OF_THE_DUELIST_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_POWER_OF_THE_DUELIST_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gPoweroftheDuelistSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_POWER_OF_THE_ELEMENTS] =
+	[PACK_POWER_OF_THE_ELEMENTS] =
 	{
         .pack = gPoweroftheElements,
         .length = 0,
 	},
-	[ITEM_PACK_PREMIUM_COLLECTION_TIN] =
+	[PACK_PREMIUM_COLLECTION_TIN] =
 	{
         .pack = gPremiumCollectionTin,
         .length = 0,
 	},
-	[ITEM_PACK_PREMIUM_GOLD] =
+	[PACK_PREMIUM_GOLD] =
 	{
         .pack = gPremiumGold,
         .length = 17,
 	},
-	[ITEM_PACK_PREMIUM_GOLD_INFINITE_GOLD] =
+	[PACK_PREMIUM_GOLD_INFINITE_GOLD] =
 	{
         .pack = gPremiumGoldInfiniteGold,
         .length = 2,
 	},
-	[ITEM_PACK_PREMIUM_GOLD_RETURN_OF_THE_BLING] =
+	[PACK_PREMIUM_GOLD_RETURN_OF_THE_BLING] =
 	{
         .pack = gPremiumGoldReturnoftheBling,
         .length = 21,
 	},
-	[ITEM_PACK_PREMIUM_PACK_TCG_] =
+	[PACK_PREMIUM_PACK_TCG_] =
 	{
         .pack = gPremiumPackTCG,
         .length = 1,
 	},
-	[ITEM_PACK_PREMIUM_PACK_2_TCG_] =
+	[PACK_PREMIUM_PACK_2_TCG_] =
 	{
         .pack = gPremiumPack2TCG,
         .length = 0,
 	},
-	[ITEM_PACK_PRIMAL_ORIGIN] =
+	[PACK_PRIMAL_ORIGIN] =
 	{
         .pack = gPrimalOrigin,
         .length = 0,
 	},
-	[ITEM_PACK_PRIMAL_ORIGIN_PLUS] =
+	[PACK_PRIMAL_ORIGIN_PLUS] =
 	{
         .pack = gPrimalOriginPlus,
         .length = 0,
 	},
-	[ITEM_PACK_PRIMAL_ORIGIN_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_PRIMAL_ORIGIN_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gPrimalOriginSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_PRIMAL_ORIGIN_DELUXE_EDITION] =
+	[PACK_PRIMAL_ORIGIN_DELUXE_EDITION] =
 	{
         .pack = gPrimalOriginDeluxeEdition,
         .length = 0,
 	},
-	[ITEM_PACK_QUARTER_CENTURY_BONANZA] =
+	[PACK_QUARTER_CENTURY_BONANZA] =
 	{
         .pack = gQuarterCenturyBonanza,
         .length = 74,
 	},
-	[ITEM_PACK_QUARTER_CENTURY_STAMPEDE] =
+	[PACK_QUARTER_CENTURY_STAMPEDE] =
 	{
         .pack = gQuarterCenturyStampede,
         .length = 13,
 	},
-	[ITEM_PACK_RA_YELLOW_MEGA_PACK] =
+	[PACK_RA_YELLOW_MEGA_PACK] =
 	{
         .pack = gRaYellowMegaPack,
         .length = 4,
 	},
-	[ITEM_PACK_RA_YELLOW_MEGA_PACK_SPECIAL_EDITION] =
+	[PACK_RA_YELLOW_MEGA_PACK_SPECIAL_EDITION] =
 	{
         .pack = gRaYellowMegaPackSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_RAGE_OF_THE_ABYSS] =
+	[PACK_RAGE_OF_THE_ABYSS] =
 	{
         .pack = gRageoftheAbyss,
         .length = 0,
 	},
-	[ITEM_PACK_RAGING_BATTLE] =
+	[PACK_RAGING_BATTLE] =
 	{
         .pack = gRagingBattle,
         .length = 0,
 	},
-	[ITEM_PACK_RAGING_BATTLE_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_RAGING_BATTLE_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gRagingBattleSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_RAGING_BATTLE_SPECIAL_EDITION] =
+	[PACK_RAGING_BATTLE_SPECIAL_EDITION] =
 	{
         .pack = gRagingBattleSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_RAGING_TEMPEST] =
+	[PACK_RAGING_TEMPEST] =
 	{
         .pack = gRagingTempest,
         .length = 0,
 	},
-	[ITEM_PACK_RAGING_TEMPEST_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_RAGING_TEMPEST_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gRagingTempestSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_RAGING_TEMPEST_SPECIAL_EDITION] =
+	[PACK_RAGING_TEMPEST_SPECIAL_EDITION] =
 	{
         .pack = gRagingTempestSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_REALM_OF_LIGHT_STRUCTURE_DECK] =
+	[PACK_REALM_OF_LIGHT_STRUCTURE_DECK] =
 	{
         .pack = gRealmofLightStructureDeck,
         .length = 1,
 	},
-	[ITEM_PACK_REALM_OF_THE_SEA_EMPEROR_STRUCTURE_DECK] =
+	[PACK_REALM_OF_THE_SEA_EMPEROR_STRUCTURE_DECK] =
 	{
         .pack = gRealmoftheSeaEmperorStructureDeck,
         .length = 9,
 	},
-	[ITEM_PACK_REMOTE_DUEL_AT_HOME_SWEEPSTAKES] =
+	[PACK_REMOTE_DUEL_AT_HOME_SWEEPSTAKES] =
 	{
         .pack = gRemoteDuelatHomeSweepstakes,
         .length = 1,
 	},
-	[ITEM_PACK_RETRO_PACK] =
+	[PACK_RETRO_PACK] =
 	{
         .pack = gRetroPack,
         .length = 61,
 	},
-	[ITEM_PACK_RETRO_PACK_2] =
+	[PACK_RETRO_PACK_2] =
 	{
         .pack = gRetroPack2,
         .length = 48,
 	},
-	[ITEM_PACK_RETURN_OF_THE_DUELIST] =
+	[PACK_RETURN_OF_THE_DUELIST] =
 	{
         .pack = gReturnoftheDuelist,
         .length = 0,
 	},
-	[ITEM_PACK_RETURN_OF_THE_DUELIST_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_RETURN_OF_THE_DUELIST_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gReturnoftheDuelistSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_RETURN_OF_THE_DUELIST_SPECIAL_EDITION] =
+	[PACK_RETURN_OF_THE_DUELIST_SPECIAL_EDITION] =
 	{
         .pack = gReturnoftheDuelistSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_RISE_OF_DESTINY] =
+	[PACK_RISE_OF_DESTINY] =
 	{
         .pack = gRiseofDestiny,
         .length = 11,
 	},
-	[ITEM_PACK_RISE_OF_DESTINY_SPECIAL_EDITION] =
+	[PACK_RISE_OF_DESTINY_SPECIAL_EDITION] =
 	{
         .pack = gRiseofDestinySpecialEdition,
         .length = 1,
 	},
-	[ITEM_PACK_RISE_OF_THE_DRAGON_LORDS_STRUCTURE_DECK] =
+	[PACK_RISE_OF_THE_DRAGON_LORDS_STRUCTURE_DECK] =
 	{
         .pack = gRiseoftheDragonLordsStructureDeck,
         .length = 17,
 	},
-	[ITEM_PACK_RISE_OF_THE_DUELIST] =
+	[PACK_RISE_OF_THE_DUELIST] =
 	{
         .pack = gRiseoftheDuelist,
         .length = 0,
 	},
-	[ITEM_PACK_RISE_OF_THE_DUELIST_PREMIERE_PROMOTIONAL_CARD] =
+	[PACK_RISE_OF_THE_DUELIST_PREMIERE_PROMOTIONAL_CARD] =
 	{
         .pack = gRiseoftheDuelistPremierepromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_RISE_OF_THE_TRUE_DRAGONS_STRUCTURE_DECK] =
+	[PACK_RISE_OF_THE_TRUE_DRAGONS_STRUCTURE_DECK] =
 	{
         .pack = gRiseoftheTrueDragonsStructureDeck,
         .length = 3,
 	},
-	[ITEM_PACK_RISING_RAMPAGE] =
+	[PACK_RISING_RAMPAGE] =
 	{
         .pack = gRisingRampage,
         .length = 0,
 	},
-	[ITEM_PACK_RISING_RAMPAGE_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_RISING_RAMPAGE_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gRisingRampageSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_RISING_RAMPAGE_SPECIAL_EDITION] =
+	[PACK_RISING_RAMPAGE_SPECIAL_EDITION] =
 	{
         .pack = gRisingRampageSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_SJ_JUMP_PACK_SPRING_2020_PROMOTIONAL_CARD] =
+	[PACK_SJ_JUMP_PACK_SPRING_2020_PROMOTIONAL_CARD] =
 	{
         .pack = gSJJumpPackSpring2020promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SABER_FORCE_STARTER_DECK] =
+	[PACK_SABER_FORCE_STARTER_DECK] =
 	{
         .pack = gSaberForceStarterDeck,
         .length = 16,
 	},
-	[ITEM_PACK_SAGA_OF_BLUE_EYES_WHITE_DRAGON_STRUCTURE_DECK] =
+	[PACK_SAGA_OF_BLUE_EYES_WHITE_DRAGON_STRUCTURE_DECK] =
 	{
         .pack = gSagaofBlueEyesWhiteDragonStructureDeck,
         .length = 11,
 	},
-	[ITEM_PACK_SAMURAI_ASSAULT] =
+	[PACK_SAMURAI_ASSAULT] =
 	{
         .pack = gSamuraiAssault,
         .length = 0,
 	},
-	[ITEM_PACK_SAMURAI_WARLORDS_STRUCTURE_DECK] =
+	[PACK_SAMURAI_WARLORDS_STRUCTURE_DECK] =
 	{
         .pack = gSamuraiWarlordsStructureDeck,
         .length = 2,
 	},
-	[ITEM_PACK_SAN_DIEGO_COMIC_CON_PROMOTIONAL_CARDS] =
+	[PACK_SAN_DIEGO_COMIC_CON_PROMOTIONAL_CARDS] =
 	{
         .pack = gSanDiegoComicConpromotionalcards,
         .length = 0,
 	},
-	[ITEM_PACK_SAVAGE_STRIKE] =
+	[PACK_SAVAGE_STRIKE] =
 	{
         .pack = gSavageStrike,
         .length = 0,
 	},
-	[ITEM_PACK_SAVAGE_STRIKE_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_SAVAGE_STRIKE_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gSavageStrikeSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_SAVAGE_STRIKE_SPECIAL_EDITION] =
+	[PACK_SAVAGE_STRIKE_SPECIAL_EDITION] =
 	{
         .pack = gSavageStrikeSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_SECRET_SLAYERS] =
+	[PACK_SECRET_SLAYERS] =
 	{
         .pack = gSecretSlayers,
         .length = 2,
 	},
-	[ITEM_PACK_SECRETS_OF_ETERNITY] =
+	[PACK_SECRETS_OF_ETERNITY] =
 	{
         .pack = gSecretsofEternity,
         .length = 0,
 	},
-	[ITEM_PACK_SECRETS_OF_ETERNITY_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_SECRETS_OF_ETERNITY_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gSecretsofEternitySneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_SECRETS_OF_ETERNITY_SUPER_EDITION] =
+	[PACK_SECRETS_OF_ETERNITY_SUPER_EDITION] =
 	{
         .pack = gSecretsofEternitySuperEdition,
         .length = 0,
 	},
-	[ITEM_PACK_SHADOW_SPECTERS] =
+	[PACK_SHADOW_SPECTERS] =
 	{
         .pack = gShadowSpecters,
         .length = 0,
 	},
-	[ITEM_PACK_SHADOW_SPECTERS_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_SHADOW_SPECTERS_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gShadowSpectersSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_SHADOW_SPECTERS_SPECIAL_EDITION] =
+	[PACK_SHADOW_SPECTERS_SPECIAL_EDITION] =
 	{
         .pack = gShadowSpectersSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_SHADOW_OF_INFINITY] =
+	[PACK_SHADOW_OF_INFINITY] =
 	{
         .pack = gShadowofInfinity,
         .length = 7,
 	},
-	[ITEM_PACK_SHADOW_OF_INFINITY_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_SHADOW_OF_INFINITY_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gShadowofInfinitySneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_SHADOW_OF_INFINITY_SPECIAL_EDITION] =
+	[PACK_SHADOW_OF_INFINITY_SPECIAL_EDITION] =
 	{
         .pack = gShadowofInfinitySpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_SHADOWS_IN_VALHALLA] =
+	[PACK_SHADOWS_IN_VALHALLA] =
 	{
         .pack = gShadowsinValhalla,
         .length = 0,
 	},
-	[ITEM_PACK_SHINING_VICTORIES] =
+	[PACK_SHINING_VICTORIES] =
 	{
         .pack = gShiningVictories,
         .length = 0,
 	},
-	[ITEM_PACK_SHINING_VICTORIES_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_SHINING_VICTORIES_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gShiningVictoriesSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_SHINING_VICTORIES_SPECIAL_EDITION] =
+	[PACK_SHINING_VICTORIES_SPECIAL_EDITION] =
 	{
         .pack = gShiningVictoriesSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_2007_SUBSCRIPTION_BONUS] =
+	[PACK_SHONEN_JUMP_2007_SUBSCRIPTION_BONUS] =
 	{
         .pack = gShonenJump2007subscriptionbonus,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_CHAMPIONSHIP_2004_PRIZE_CARD] =
+	[PACK_SHONEN_JUMP_CHAMPIONSHIP_2004_PRIZE_CARD] =
 	{
         .pack = gShonenJumpChampionship2004PrizeCard,
         .length = 1,
 	},
-	[ITEM_PACK_SHONEN_JUMP_CHAMPIONSHIP_2005_PRIZE_CARD] =
+	[PACK_SHONEN_JUMP_CHAMPIONSHIP_2005_PRIZE_CARD] =
 	{
         .pack = gShonenJumpChampionship2005PrizeCard,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_CHAMPIONSHIP_2006_PRIZE_CARD] =
+	[PACK_SHONEN_JUMP_CHAMPIONSHIP_2006_PRIZE_CARD] =
 	{
         .pack = gShonenJumpChampionship2006PrizeCard,
         .length = 1,
 	},
-	[ITEM_PACK_SHONEN_JUMP_CHAMPIONSHIP_2007_PRIZE_CARD_A] =
+	[PACK_SHONEN_JUMP_CHAMPIONSHIP_2007_PRIZE_CARD_A] =
 	{
         .pack = gShonenJumpChampionship2007PrizeCardA,
         .length = 1,
 	},
-	[ITEM_PACK_SHONEN_JUMP_CHAMPIONSHIP_2007_PRIZE_CARD_B] =
+	[PACK_SHONEN_JUMP_CHAMPIONSHIP_2007_PRIZE_CARD_B] =
 	{
         .pack = gShonenJumpChampionship2007PrizeCardB,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_CHAMPIONSHIP_2008_PRIZE_CARD] =
+	[PACK_SHONEN_JUMP_CHAMPIONSHIP_2008_PRIZE_CARD] =
 	{
         .pack = gShonenJumpChampionship2008PrizeCard,
         .length = 1,
 	},
-	[ITEM_PACK_SHONEN_JUMP_CHAMPIONSHIP_2009_PRIZE_CARD] =
+	[PACK_SHONEN_JUMP_CHAMPIONSHIP_2009_PRIZE_CARD] =
 	{
         .pack = gShonenJumpChampionship2009PrizeCard,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_DECEMBER_2010_SUBSCRIPTION_BONUS] =
+	[PACK_SHONEN_JUMP_DECEMBER_2010_SUBSCRIPTION_BONUS] =
 	{
         .pack = gShonenJumpDecember2010subscriptionbonus,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_DECEMBER_2011_SUBSCRIPTION_BONUS] =
+	[PACK_SHONEN_JUMP_DECEMBER_2011_SUBSCRIPTION_BONUS] =
 	{
         .pack = gShonenJumpDecember2011subscriptionbonus,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_FEBRUARY_2009_SUBSCRIPTION_BONUS] =
+	[PACK_SHONEN_JUMP_FEBRUARY_2009_SUBSCRIPTION_BONUS] =
 	{
         .pack = gShonenJumpFebruary2009subscriptionbonus,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_JUNE_JULY_2011_SUBSCRIPTION_BONUS] =
+	[PACK_SHONEN_JUMP_JUNE_JULY_2011_SUBSCRIPTION_BONUS] =
 	{
         .pack = gShonenJumpJuneJuly2011subscriptionbonus,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_MARCH_2010_SUBSCRIPTION_BONUS] =
+	[PACK_SHONEN_JUMP_MARCH_2010_SUBSCRIPTION_BONUS] =
 	{
         .pack = gShonenJumpMarch2010subscriptionbonus,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_MAY_2006_SUBSCRIPTION_BONUS] =
+	[PACK_SHONEN_JUMP_MAY_2006_SUBSCRIPTION_BONUS] =
 	{
         .pack = gShonenJumpMay2006subscriptionbonus,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_MAY_2008_SUBSCRIPTION_BONUS] =
+	[PACK_SHONEN_JUMP_MAY_2008_SUBSCRIPTION_BONUS] =
 	{
         .pack = gShonenJumpMay2008subscriptionbonus,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_MAY_2010_SUBSCRIPTION_BONUS] =
+	[PACK_SHONEN_JUMP_MAY_2010_SUBSCRIPTION_BONUS] =
 	{
         .pack = gShonenJumpMay2010subscriptionbonus,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_SCHOLASTIC_EDITION_VOL_9_ISSUE_1_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_SCHOLASTIC_EDITION_VOL_9_ISSUE_1_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpScholasticEditionVol9Issue1promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_1_ISSUE_1_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_1_ISSUE_1_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol1Issue1promotionalcard,
         .length = 1,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_10_ISSUE_1_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_10_ISSUE_1_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol10Issue1promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_10_ISSUE_3_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_10_ISSUE_3_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol10Issue3promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_10_ISSUE_4_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_10_ISSUE_4_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol10Issue4promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_2_ISSUE_1_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_2_ISSUE_1_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol2Issue1promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_3_ISSUE_1_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_3_ISSUE_1_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol3Issue1promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_4_ISSUE_1_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_4_ISSUE_1_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol4Issue1promotionalcard,
         .length = 1,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_4_ISSUE_11_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_4_ISSUE_11_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol4Issue11promotionalcard,
         .length = 1,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_4_ISSUE_12_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_4_ISSUE_12_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol4Issue12promotionalcard,
         .length = 1,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_5_ISSUE_1_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_5_ISSUE_1_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol5Issue1promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_5_ISSUE_11_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_5_ISSUE_11_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol5Issue11promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_5_ISSUE_4_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_5_ISSUE_4_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol5Issue4promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_5_ISSUE_6_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_5_ISSUE_6_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol5Issue6promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_5_ISSUE_9_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_5_ISSUE_9_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol5Issue9promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_6_ISSUE_1_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_6_ISSUE_1_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol6Issue1promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_6_ISSUE_12_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_6_ISSUE_12_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol6Issue12promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_6_ISSUE_3_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_6_ISSUE_3_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol6Issue3promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_6_ISSUE_5_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_6_ISSUE_5_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol6Issue5promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_6_ISSUE_9_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_6_ISSUE_9_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol6Issue9promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_7_ISSUE_1_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_7_ISSUE_1_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol7Issue1promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_7_ISSUE_11_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_7_ISSUE_11_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol7Issue11promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_7_ISSUE_3_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_7_ISSUE_3_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol7Issue3promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_7_ISSUE_6_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_7_ISSUE_6_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol7Issue6promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_7_ISSUE_9_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_7_ISSUE_9_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol7Issue9promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_8_ISSUE_1_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_8_ISSUE_1_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol8Issue1promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_8_ISSUE_11_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_8_ISSUE_11_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol8Issue11promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_8_ISSUE_3_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_8_ISSUE_3_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol8Issue3promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_8_ISSUE_5_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_8_ISSUE_5_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol8Issue5promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_8_ISSUE_7_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_8_ISSUE_7_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol8Issue7promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_8_ISSUE_9_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_8_ISSUE_9_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol8Issue9promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_9_ISSUE_1_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_9_ISSUE_1_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol9Issue1promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_9_ISSUE_10_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_9_ISSUE_10_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol9Issue10promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_9_ISSUE_3_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_9_ISSUE_3_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol9Issue3promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_9_ISSUE_4_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_9_ISSUE_4_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol9Issue4promotionalcard,
         .length = 1,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_9_ISSUE_6_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_9_ISSUE_6_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol9Issue6promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SHONEN_JUMP_VOL_9_ISSUE_8_PROMOTIONAL_CARD] =
+	[PACK_SHONEN_JUMP_VOL_9_ISSUE_8_PROMOTIONAL_CARD] =
 	{
         .pack = gShonenJumpVol9Issue8promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SOUL_FUSION] =
+	[PACK_SOUL_FUSION] =
 	{
         .pack = gSoulFusion,
         .length = 0,
 	},
-	[ITEM_PACK_SOUL_FUSION_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_SOUL_FUSION_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gSoulFusionSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_SOUL_FUSION_SPECIAL_EDITION] =
+	[PACK_SOUL_FUSION_SPECIAL_EDITION] =
 	{
         .pack = gSoulFusionSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_SOUL_OF_THE_DUELIST] =
+	[PACK_SOUL_OF_THE_DUELIST] =
 	{
         .pack = gSouloftheDuelist,
         .length = 14,
 	},
-	[ITEM_PACK_SPACE_TIME_SHOWDOWN_POWER_UP_PACK] =
+	[PACK_SPACE_TIME_SHOWDOWN_POWER_UP_PACK] =
 	{
         .pack = gSpaceTimeShowdownPowerUpPack,
         .length = 9,
 	},
-	[ITEM_PACK_SPEED_DUEL_DEMO_DECK] =
+	[PACK_SPEED_DUEL_DEMO_DECK] =
 	{
         .pack = gSpeedDuelDemoDeck,
         .length = 2,
 	},
-	[ITEM_PACK_SPEED_DUEL_DEMO_DECK_2020] =
+	[PACK_SPEED_DUEL_DEMO_DECK_2020] =
 	{
         .pack = gSpeedDuelDemoDeck2020,
         .length = 5,
 	},
-	[ITEM_PACK_SPEED_DUEL_GX_DUEL_ACADEMY_BOX] =
+	[PACK_SPEED_DUEL_GX_DUEL_ACADEMY_BOX] =
 	{
         .pack = gSpeedDuelGXDuelAcademyBox,
         .length = 21,
 	},
-	[ITEM_PACK_SPEED_DUEL_GX_DUELISTS_OF_SHADOWS] =
+	[PACK_SPEED_DUEL_GX_DUELISTS_OF_SHADOWS] =
 	{
         .pack = gSpeedDuelGXDuelistsofShadows,
         .length = 31,
 	},
-	[ITEM_PACK_SPEED_DUEL_GX_MIDTERM_PARADOX] =
+	[PACK_SPEED_DUEL_GX_MIDTERM_PARADOX] =
 	{
         .pack = gSpeedDuelGXMidtermParadox,
         .length = 17,
 	},
-	[ITEM_PACK_SPEED_DUEL_STARTER_DECKS_DESTINY_MASTERS] =
+	[PACK_SPEED_DUEL_STARTER_DECKS_DESTINY_MASTERS] =
 	{
         .pack = gSpeedDuelStarterDecksDestinyMasters,
         .length = 11,
 	},
-	[ITEM_PACK_SPEED_DUEL_STARTER_DECKS_DUELISTS_OF_TOMORROW] =
+	[PACK_SPEED_DUEL_STARTER_DECKS_DUELISTS_OF_TOMORROW] =
 	{
         .pack = gSpeedDuelStarterDecksDuelistsofTomorrow,
         .length = 7,
 	},
-	[ITEM_PACK_SPEED_DUEL_STARTER_DECKS_MATCH_OF_THE_MILLENNIUM] =
+	[PACK_SPEED_DUEL_STARTER_DECKS_MATCH_OF_THE_MILLENNIUM] =
 	{
         .pack = gSpeedDuelStarterDecksMatchoftheMillennium,
         .length = 15,
 	},
-	[ITEM_PACK_SPEED_DUEL_STARTER_DECKS_TWISTED_NIGHTMARES] =
+	[PACK_SPEED_DUEL_STARTER_DECKS_TWISTED_NIGHTMARES] =
 	{
         .pack = gSpeedDuelStarterDecksTwistedNightmares,
         .length = 13,
 	},
-	[ITEM_PACK_SPEED_DUEL_STARTER_DECKS_ULTIMATE_PREDATORS] =
+	[PACK_SPEED_DUEL_STARTER_DECKS_ULTIMATE_PREDATORS] =
 	{
         .pack = gSpeedDuelStarterDecksUltimatePredators,
         .length = 6,
 	},
-	[ITEM_PACK_SPEED_DUEL_TOURNAMENT_PACK_1] =
+	[PACK_SPEED_DUEL_TOURNAMENT_PACK_1] =
 	{
         .pack = gSpeedDuelTournamentPack1,
         .length = 6,
 	},
-	[ITEM_PACK_SPEED_DUEL_TOURNAMENT_PACK_2] =
+	[PACK_SPEED_DUEL_TOURNAMENT_PACK_2] =
 	{
         .pack = gSpeedDuelTournamentPack2,
         .length = 2,
 	},
-	[ITEM_PACK_SPEED_DUEL_TOURNAMENT_PACK_3] =
+	[PACK_SPEED_DUEL_TOURNAMENT_PACK_3] =
 	{
         .pack = gSpeedDuelTournamentPack3,
         .length = 5,
 	},
-	[ITEM_PACK_SPEED_DUEL_TOURNAMENT_PACK_4] =
+	[PACK_SPEED_DUEL_TOURNAMENT_PACK_4] =
 	{
         .pack = gSpeedDuelTournamentPack4,
         .length = 10,
 	},
-	[ITEM_PACK_SPEED_DUEL_TOURNAMENT_PACK_5] =
+	[PACK_SPEED_DUEL_TOURNAMENT_PACK_5] =
 	{
         .pack = gSpeedDuelTournamentPack5,
         .length = 8,
 	},
-	[ITEM_PACK_SPEED_DUEL_TOURNAMENT_PACK_6] =
+	[PACK_SPEED_DUEL_TOURNAMENT_PACK_6] =
 	{
         .pack = gSpeedDuelTournamentPack6,
         .length = 6,
 	},
-	[ITEM_PACK_SPEED_DUEL_ARENA_OF_LOST_SOULS] =
+	[PACK_SPEED_DUEL_ARENA_OF_LOST_SOULS] =
 	{
         .pack = gSpeedDuelArenaofLostSouls,
         .length = 4,
 	},
-	[ITEM_PACK_SPEED_DUEL_ATTACK_FROM_THE_DEEP] =
+	[PACK_SPEED_DUEL_ATTACK_FROM_THE_DEEP] =
 	{
         .pack = gSpeedDuelAttackfromtheDeep,
         .length = 9,
 	},
-	[ITEM_PACK_SPEED_DUEL_BATTLE_CITY_BOX] =
+	[PACK_SPEED_DUEL_BATTLE_CITY_BOX] =
 	{
         .pack = gSpeedDuelBattleCityBox,
         .length = 50,
 	},
-	[ITEM_PACK_SPEED_DUEL_SCARS_OF_BATTLE] =
+	[PACK_SPEED_DUEL_SCARS_OF_BATTLE] =
 	{
         .pack = gSpeedDuelScarsofBattle,
         .length = 5,
 	},
-	[ITEM_PACK_SPEED_DUEL_SCARS_OF_BATTLE_LAUNCH_EVENT_PARTICIPATION_CARD] =
+	[PACK_SPEED_DUEL_SCARS_OF_BATTLE_LAUNCH_EVENT_PARTICIPATION_CARD] =
 	{
         .pack = gSpeedDuelScarsofBattleLaunchEventparticipationcard,
         .length = 0,
 	},
-	[ITEM_PACK_SPEED_DUEL_STREETS_OF_BATTLE_CITY] =
+	[PACK_SPEED_DUEL_STREETS_OF_BATTLE_CITY] =
 	{
         .pack = gSpeedDuelStreetsofBattleCity,
         .length = 54,
 	},
-	[ITEM_PACK_SPEED_DUEL_TRIALS_OF_THE_KINGDOM] =
+	[PACK_SPEED_DUEL_TRIALS_OF_THE_KINGDOM] =
 	{
         .pack = gSpeedDuelTrialsoftheKingdom,
         .length = 3,
 	},
-	[ITEM_PACK_SPEED_DUEL_TRIALS_OF_THE_KINGDOM_SNEAK_PEEK_PARTICIPATION_CARDS] =
+	[PACK_SPEED_DUEL_TRIALS_OF_THE_KINGDOM_SNEAK_PEEK_PARTICIPATION_CARDS] =
 	{
         .pack = gSpeedDuelTrialsoftheKingdomSneakPeekparticipationcards,
         .length = 1,
 	},
-	[ITEM_PACK_SPELL_RULER] =
+	[PACK_SPELL_RULER] =
 	{
         .pack = gSpellRuler,
         .length = 31,
 	},
-	[ITEM_PACK_SPELLCASTER_S_COMMAND_STRUCTURE_DECK] =
+	[PACK_SPELLCASTER_S_COMMAND_STRUCTURE_DECK] =
 	{
         .pack = gSpellcastersCommandStructureDeck,
         .length = 14,
 	},
-	[ITEM_PACK_SPELLCASTER_S_COMMAND_STRUCTURE_DECK_SPECIAL_EDITION] =
+	[PACK_SPELLCASTER_S_COMMAND_STRUCTURE_DECK_SPECIAL_EDITION] =
 	{
         .pack = gSpellcastersCommandStructureDeckSpecialEdition,
         .length = 1,
 	},
-	[ITEM_PACK_SPIRIT_WARRIORS] =
+	[PACK_SPIRIT_WARRIORS] =
 	{
         .pack = gSpiritWarriors,
         .length = 0,
 	},
-	[ITEM_PACK_STAR_PACK_2013] =
+	[PACK_STAR_PACK_2013] =
 	{
         .pack = gStarPack2013,
         .length = 0,
 	},
-	[ITEM_PACK_STAR_PACK_2014] =
+	[PACK_STAR_PACK_2014] =
 	{
         .pack = gStarPack2014,
         .length = 2,
 	},
-	[ITEM_PACK_STAR_PACK_ARC_V] =
+	[PACK_STAR_PACK_ARC_V] =
 	{
         .pack = gStarPackARCV,
         .length = 2,
 	},
-	[ITEM_PACK_STAR_PACK_BATTLE_ROYAL] =
+	[PACK_STAR_PACK_BATTLE_ROYAL] =
 	{
         .pack = gStarPackBattleRoyal,
         .length = 0,
 	},
-	[ITEM_PACK_STAR_PACK_VRAINS] =
+	[PACK_STAR_PACK_VRAINS] =
 	{
         .pack = gStarPackVRAINS,
         .length = 0,
 	},
-	[ITEM_PACK_STARDUST_OVERDRIVE] =
+	[PACK_STARDUST_OVERDRIVE] =
 	{
         .pack = gStardustOverdrive,
         .length = 0,
 	},
-	[ITEM_PACK_STARDUST_OVERDRIVE_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_STARDUST_OVERDRIVE_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gStardustOverdriveSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_STARDUST_OVERDRIVE_SPECIAL_EDITION] =
+	[PACK_STARDUST_OVERDRIVE_SPECIAL_EDITION] =
 	{
         .pack = gStardustOverdriveSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_STARSTRIKE_BLAST] =
+	[PACK_STARSTRIKE_BLAST] =
 	{
         .pack = gStarstrikeBlast,
         .length = 0,
 	},
-	[ITEM_PACK_STARSTRIKE_BLAST_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_STARSTRIKE_BLAST_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gStarstrikeBlastSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_STARTER_DECK_2006] =
+	[PACK_STARTER_DECK_2006] =
 	{
         .pack = gStarterDeck2006,
         .length = 24,
 	},
-	[ITEM_PACK_STARTER_DECK_2006_SPECIAL_EDITION] =
+	[PACK_STARTER_DECK_2006_SPECIAL_EDITION] =
 	{
         .pack = gStarterDeck2006SpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_STARTER_DECK_CODEBREAKER] =
+	[PACK_STARTER_DECK_CODEBREAKER] =
 	{
         .pack = gStarterDeckCodebreaker,
         .length = 13,
 	},
-	[ITEM_PACK_STARTER_DECK_DAWN_OF_THE_XYZ] =
+	[PACK_STARTER_DECK_DAWN_OF_THE_XYZ] =
 	{
         .pack = gStarterDeckDawnoftheXyz,
         .length = 15,
 	},
-	[ITEM_PACK_STARTER_DECK_DUELIST_TOOLBOX] =
+	[PACK_STARTER_DECK_DUELIST_TOOLBOX] =
 	{
         .pack = gStarterDeckDuelistToolbox,
         .length = 15,
 	},
-	[ITEM_PACK_STARTER_DECK_JADEN_YUKI] =
+	[PACK_STARTER_DECK_JADEN_YUKI] =
 	{
         .pack = gStarterDeckJadenYuki,
         .length = 22,
 	},
-	[ITEM_PACK_STARTER_DECK_JOEY] =
+	[PACK_STARTER_DECK_JOEY] =
 	{
         .pack = gStarterDeckJoey,
         .length = 31,
 	},
-	[ITEM_PACK_STARTER_DECK_KAIBA] =
+	[PACK_STARTER_DECK_KAIBA] =
 	{
         .pack = gStarterDeckKaiba,
         .length = 19,
 	},
-	[ITEM_PACK_STARTER_DECK_KAIBA_EVOLUTION] =
+	[PACK_STARTER_DECK_KAIBA_EVOLUTION] =
 	{
         .pack = gStarterDeckKaibaEvolution,
         .length = 28,
 	},
-	[ITEM_PACK_STARTER_DECK_KAIBA_RELOADED] =
+	[PACK_STARTER_DECK_KAIBA_RELOADED] =
 	{
         .pack = gStarterDeckKaibaReloaded,
         .length = 26,
 	},
-	[ITEM_PACK_STARTER_DECK_LINK_STRIKE] =
+	[PACK_STARTER_DECK_LINK_STRIKE] =
 	{
         .pack = gStarterDeckLinkStrike,
         .length = 16,
 	},
-	[ITEM_PACK_STARTER_DECK_PEGASUS] =
+	[PACK_STARTER_DECK_PEGASUS] =
 	{
         .pack = gStarterDeckPegasus,
         .length = 30,
 	},
-	[ITEM_PACK_STARTER_DECK_SYRUS_TRUESDALE] =
+	[PACK_STARTER_DECK_SYRUS_TRUESDALE] =
 	{
         .pack = gStarterDeckSyrusTruesdale,
         .length = 22,
 	},
-	[ITEM_PACK_STARTER_DECK_XYZ_SYMPHONY] =
+	[PACK_STARTER_DECK_XYZ_SYMPHONY] =
 	{
         .pack = gStarterDeckXyzSymphony,
         .length = 17,
 	},
-	[ITEM_PACK_STARTER_DECK_YU_GI_OH_5D_S] =
+	[PACK_STARTER_DECK_YU_GI_OH_5D_S] =
 	{
         .pack = gStarterDeckYuGiOh5Ds,
         .length = 13,
 	},
-	[ITEM_PACK_STARTER_DECK_YU_GI_OH_5D_S_2009] =
+	[PACK_STARTER_DECK_YU_GI_OH_5D_S_2009] =
 	{
         .pack = gStarterDeckYuGiOh5Ds2009,
         .length = 14,
 	},
-	[ITEM_PACK_STARTER_DECK_YUGI] =
+	[PACK_STARTER_DECK_YUGI] =
 	{
         .pack = gStarterDeckYugi,
         .length = 24,
 	},
-	[ITEM_PACK_STARTER_DECK_YUGI_EVOLUTION] =
+	[PACK_STARTER_DECK_YUGI_EVOLUTION] =
 	{
         .pack = gStarterDeckYugiEvolution,
         .length = 31,
 	},
-	[ITEM_PACK_STARTER_DECK_YUGI_RELOADED] =
+	[PACK_STARTER_DECK_YUGI_RELOADED] =
 	{
         .pack = gStarterDeckYugiReloaded,
         .length = 27,
 	},
-	[ITEM_PACK_STARTER_DECK_YUYA] =
+	[PACK_STARTER_DECK_YUYA] =
 	{
         .pack = gStarterDeckYuya,
         .length = 7,
 	},
-	[ITEM_PACK_STORM_OF_RAGNAROK] =
+	[PACK_STORM_OF_RAGNAROK] =
 	{
         .pack = gStormofRagnarok,
         .length = 0,
 	},
-	[ITEM_PACK_STORM_OF_RAGNAROK_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_STORM_OF_RAGNAROK_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gStormofRagnarokSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_STORM_OF_RAGNAROK_SPECIAL_EDITION] =
+	[PACK_STORM_OF_RAGNAROK_SPECIAL_EDITION] =
 	{
         .pack = gStormofRagnarokSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_STRIKE_OF_NEOS] =
+	[PACK_STRIKE_OF_NEOS] =
 	{
         .pack = gStrikeofNeos,
         .length = 0,
 	},
-	[ITEM_PACK_STRIKE_OF_NEOS_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_STRIKE_OF_NEOS_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gStrikeofNeosSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_STRIKE_OF_NEOS_SPECIAL_EDITION] =
+	[PACK_STRIKE_OF_NEOS_SPECIAL_EDITION] =
 	{
         .pack = gStrikeofNeosSpecialEdition,
         .length = 2,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_ALBAZ_STRIKE] =
+	[PACK_STRUCTURE_DECK_ALBAZ_STRIKE] =
 	{
         .pack = gStructureDeckAlbazStrike,
         .length = 0,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_BEWARE_OF_TRAPTRIX] =
+	[PACK_STRUCTURE_DECK_BEWARE_OF_TRAPTRIX] =
 	{
         .pack = gStructureDeckBewareofTraptrix,
         .length = 4,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_BLAZE_OF_DESTRUCTION] =
+	[PACK_STRUCTURE_DECK_BLAZE_OF_DESTRUCTION] =
 	{
         .pack = gStructureDeckBlazeofDestruction,
         .length = 14,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_BLUE_EYES_WHITE_DESTINY] =
+	[PACK_STRUCTURE_DECK_BLUE_EYES_WHITE_DESTINY] =
 	{
         .pack = gStructureDeckBlueEyesWhiteDestiny,
         .length = 1,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_CYBER_STRIKE] =
+	[PACK_STRUCTURE_DECK_CYBER_STRIKE] =
 	{
         .pack = gStructureDeckCyberStrike,
         .length = 4,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_CYBERSE_LINK] =
+	[PACK_STRUCTURE_DECK_CYBERSE_LINK] =
 	{
         .pack = gStructureDeckCyberseLink,
         .length = 2,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_DARK_WORLD] =
+	[PACK_STRUCTURE_DECK_DARK_WORLD] =
 	{
         .pack = gStructureDeckDarkWorld,
         .length = 9,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_DELUXE_EDITION] =
+	[PACK_STRUCTURE_DECK_DELUXE_EDITION] =
 	{
         .pack = gStructureDeckDeluxeEdition,
         .length = 0,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_DINOSAUR_S_RAGE] =
+	[PACK_STRUCTURE_DECK_DINOSAUR_S_RAGE] =
 	{
         .pack = gStructureDeckDinosaursRage,
         .length = 7,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_DINOSAUR_S_RAGE_SPECIAL_SET] =
+	[PACK_STRUCTURE_DECK_DINOSAUR_S_RAGE_SPECIAL_SET] =
 	{
         .pack = gStructureDeckDinosaursRageSpecialSet,
         .length = 0,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_DRAGON_S_ROAR] =
+	[PACK_STRUCTURE_DECK_DRAGON_S_ROAR] =
 	{
         .pack = gStructureDeckDragonsRoar,
         .length = 16,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_FIRE_KINGS] =
+	[PACK_STRUCTURE_DECK_FIRE_KINGS] =
 	{
         .pack = gStructureDeckFireKings,
         .length = 4,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_FREEZING_CHAINS] =
+	[PACK_STRUCTURE_DECK_FREEZING_CHAINS] =
 	{
         .pack = gStructureDeckFreezingChains,
         .length = 2,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_FURY_FROM_THE_DEEP] =
+	[PACK_STRUCTURE_DECK_FURY_FROM_THE_DEEP] =
 	{
         .pack = gStructureDeckFuryfromtheDeep,
         .length = 22,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_INVINCIBLE_FORTRESS] =
+	[PACK_STRUCTURE_DECK_INVINCIBLE_FORTRESS] =
 	{
         .pack = gStructureDeckInvincibleFortress,
         .length = 17,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_LAIR_OF_DARKNESS] =
+	[PACK_STRUCTURE_DECK_LAIR_OF_DARKNESS] =
 	{
         .pack = gStructureDeckLairofDarkness,
         .length = 2,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_LEGEND_OF_THE_CRYSTAL_BEASTS] =
+	[PACK_STRUCTURE_DECK_LEGEND_OF_THE_CRYSTAL_BEASTS] =
 	{
         .pack = gStructureDeckLegendoftheCrystalBeasts,
         .length = 0,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_LORD_OF_THE_STORM] =
+	[PACK_STRUCTURE_DECK_LORD_OF_THE_STORM] =
 	{
         .pack = gStructureDeckLordoftheStorm,
         .length = 15,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_MACHINE_RE_VOLT] =
+	[PACK_STRUCTURE_DECK_MACHINE_RE_VOLT] =
 	{
         .pack = gStructureDeckMachineReVolt,
         .length = 10,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_MARIK_TCG_] =
+	[PACK_STRUCTURE_DECK_MARIK_TCG_] =
 	{
         .pack = gStructureDeckMarikTCG,
         .length = 16,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_MECHANIZED_MADNESS] =
+	[PACK_STRUCTURE_DECK_MECHANIZED_MADNESS] =
 	{
         .pack = gStructureDeckMechanizedMadness,
         .length = 2,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_ORDER_OF_THE_SPELLCASTERS] =
+	[PACK_STRUCTURE_DECK_ORDER_OF_THE_SPELLCASTERS] =
 	{
         .pack = gStructureDeckOrderoftheSpellcasters,
         .length = 6,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_POWERCODE_LINK] =
+	[PACK_STRUCTURE_DECK_POWERCODE_LINK] =
 	{
         .pack = gStructureDeckPowercodeLink,
         .length = 8,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_ROKKET_REVOLT] =
+	[PACK_STRUCTURE_DECK_ROKKET_REVOLT] =
 	{
         .pack = gStructureDeckRokketRevolt,
         .length = 4,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_SACRED_BEASTS] =
+	[PACK_STRUCTURE_DECK_SACRED_BEASTS] =
 	{
         .pack = gStructureDeckSacredBeasts,
         .length = 2,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_SETO_KAIBA] =
+	[PACK_STRUCTURE_DECK_SETO_KAIBA] =
 	{
         .pack = gStructureDeckSetoKaiba,
         .length = 11,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_SHADDOLL_SHOWDOWN] =
+	[PACK_STRUCTURE_DECK_SHADDOLL_SHOWDOWN] =
 	{
         .pack = gStructureDeckShaddollShowdown,
         .length = 2,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_SOULBURNER] =
+	[PACK_STRUCTURE_DECK_SOULBURNER] =
 	{
         .pack = gStructureDeckSoulburner,
         .length = 2,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_SPELLCASTER_S_JUDGMENT] =
+	[PACK_STRUCTURE_DECK_SPELLCASTER_S_JUDGMENT] =
 	{
         .pack = gStructureDeckSpellcastersJudgment,
         .length = 21,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_SPIRIT_CHARMERS] =
+	[PACK_STRUCTURE_DECK_SPIRIT_CHARMERS] =
 	{
         .pack = gStructureDeckSpiritCharmers,
         .length = 10,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_THE_CRIMSON_KING] =
+	[PACK_STRUCTURE_DECK_THE_CRIMSON_KING] =
 	{
         .pack = gStructureDeckTheCrimsonKing,
         .length = 1,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_WARRIOR_S_TRIUMPH] =
+	[PACK_STRUCTURE_DECK_WARRIOR_S_TRIUMPH] =
 	{
         .pack = gStructureDeckWarriorsTriumph,
         .length = 22,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_WAVE_OF_LIGHT] =
+	[PACK_STRUCTURE_DECK_WAVE_OF_LIGHT] =
 	{
         .pack = gStructureDeckWaveofLight,
         .length = 1,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_YUGI_MUTO] =
+	[PACK_STRUCTURE_DECK_YUGI_MUTO] =
 	{
         .pack = gStructureDeckYugiMuto,
         .length = 14,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_ZOMBIE_HORDE] =
+	[PACK_STRUCTURE_DECK_ZOMBIE_HORDE] =
 	{
         .pack = gStructureDeckZombieHorde,
         .length = 6,
 	},
-	[ITEM_PACK_STRUCTURE_DECK_ZOMBIE_MADNESS] =
+	[PACK_STRUCTURE_DECK_ZOMBIE_MADNESS] =
 	{
         .pack = gStructureDeckZombieMadness,
         .length = 18,
 	},
-	[ITEM_PACK_SUMMONED_SKULL_SAMPLE_PROMOTIONAL_CARD] =
+	[PACK_SUMMONED_SKULL_SAMPLE_PROMOTIONAL_CARD] =
 	{
         .pack = gSummonedSkullSamplepromotionalcard,
         .length = 1,
 	},
-	[ITEM_PACK_SUPER_STARTER_POWER_UP_PACK] =
+	[PACK_SUPER_STARTER_POWER_UP_PACK] =
 	{
         .pack = gSuperStarterPowerUpPack,
         .length = 4,
 	},
-	[ITEM_PACK_SUPER_STARTER_SPACE_TIME_SHOWDOWN] =
+	[PACK_SUPER_STARTER_SPACE_TIME_SHOWDOWN] =
 	{
         .pack = gSuperStarterSpaceTimeShowdown,
         .length = 15,
 	},
-	[ITEM_PACK_SUPER_STARTER_V_FOR_VICTORY] =
+	[PACK_SUPER_STARTER_V_FOR_VICTORY] =
 	{
         .pack = gSuperStarterVforVictory,
         .length = 6,
 	},
-	[ITEM_PACK_SUPREME_DARKNESS] =
+	[PACK_SUPREME_DARKNESS] =
 	{
         .pack = gSupremeDarkness,
         .length = 0,
 	},
-	[ITEM_PACK_SWEDISH_SHONEN_JUMP_2004_ISSUE_2_PROMOTIONAL_CARD] =
+	[PACK_SWEDISH_SHONEN_JUMP_2004_ISSUE_2_PROMOTIONAL_CARD] =
 	{
         .pack = gSwedishShonenJump2004Issue2promotionalcard,
         .length = 1,
 	},
-	[ITEM_PACK_SWEDISH_SHONEN_JUMP_2005_ISSUE_12_PROMOTIONAL_CARD] =
+	[PACK_SWEDISH_SHONEN_JUMP_2005_ISSUE_12_PROMOTIONAL_CARD] =
 	{
         .pack = gSwedishShonenJump2005Issue12promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_SYNCHRON_EXTREME_STRUCTURE_DECK] =
+	[PACK_SYNCHRON_EXTREME_STRUCTURE_DECK] =
 	{
         .pack = gSynchronExtremeStructureDeck,
         .length = 2,
 	},
-	[ITEM_PACK_TACTICAL_EVOLUTION] =
+	[PACK_TACTICAL_EVOLUTION] =
 	{
         .pack = gTacticalEvolution,
         .length = 0,
 	},
-	[ITEM_PACK_TACTICAL_EVOLUTION_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_TACTICAL_EVOLUTION_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gTacticalEvolutionSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_TACTICAL_EVOLUTION_SPECIAL_EDITION] =
+	[PACK_TACTICAL_EVOLUTION_SPECIAL_EDITION] =
 	{
         .pack = gTacticalEvolutionSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_TACTICAL_MASTERS] =
+	[PACK_TACTICAL_MASTERS] =
 	{
         .pack = gTacticalMasters,
         .length = 4,
 	},
-	[ITEM_PACK_THE_DARK_EMPEROR_STRUCTURE_DECK] =
+	[PACK_THE_DARK_EMPEROR_STRUCTURE_DECK] =
 	{
         .pack = gTheDarkEmperorStructureDeck,
         .length = 18,
 	},
-	[ITEM_PACK_THE_DARK_ILLUSION] =
+	[PACK_THE_DARK_ILLUSION] =
 	{
         .pack = gTheDarkIllusion,
         .length = 0,
 	},
-	[ITEM_PACK_THE_DARK_ILLUSION_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_THE_DARK_ILLUSION_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gTheDarkIllusionSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_THE_DARK_ILLUSION_SPECIAL_EDITION] =
+	[PACK_THE_DARK_ILLUSION_SPECIAL_EDITION] =
 	{
         .pack = gTheDarkIllusionSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_THE_DUELIST_GENESIS] =
+	[PACK_THE_DUELIST_GENESIS] =
 	{
         .pack = gTheDuelistGenesis,
         .length = 0,
 	},
-	[ITEM_PACK_THE_DUELIST_GENESIS_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_THE_DUELIST_GENESIS_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gTheDuelistGenesisSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_THE_DUELIST_GENESIS_SPECIAL_EDITION] =
+	[PACK_THE_DUELIST_GENESIS_SPECIAL_EDITION] =
 	{
         .pack = gTheDuelistGenesisSpecialEdition,
         .length = 0,
 	},
-	[ITEM_PACK_THE_GRAND_CREATORS] =
+	[PACK_THE_GRAND_CREATORS] =
 	{
         .pack = gTheGrandCreators,
         .length = 1,
 	},
-	[ITEM_PACK_THE_INFINITE_FORBIDDEN] =
+	[PACK_THE_INFINITE_FORBIDDEN] =
 	{
         .pack = gTheInfiniteForbidden,
         .length = 0,
 	},
-	[ITEM_PACK_THE_INFINITY_CHASERS] =
+	[PACK_THE_INFINITY_CHASERS] =
 	{
         .pack = gTheInfinityChasers,
         .length = 1,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_SERIES_] =
+	[PACK_THE_LOST_ART_PROMOTION_SERIES_] =
 	{
         .pack = gTheLostArtPromotionseries,
         .length = 16,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2020_D] =
+	[PACK_THE_LOST_ART_PROMOTION_2020_D] =
 	{
         .pack = gTheLostArtPromotion2020D,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2020_E] =
+	[PACK_THE_LOST_ART_PROMOTION_2020_E] =
 	{
         .pack = gTheLostArtPromotion2020E,
         .length = 1,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2020_F] =
+	[PACK_THE_LOST_ART_PROMOTION_2020_F] =
 	{
         .pack = gTheLostArtPromotion2020F,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2020_G] =
+	[PACK_THE_LOST_ART_PROMOTION_2020_G] =
 	{
         .pack = gTheLostArtPromotion2020G,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2020_H] =
+	[PACK_THE_LOST_ART_PROMOTION_2020_H] =
 	{
         .pack = gTheLostArtPromotion2020H,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2020_I] =
+	[PACK_THE_LOST_ART_PROMOTION_2020_I] =
 	{
         .pack = gTheLostArtPromotion2020I,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2020_J] =
+	[PACK_THE_LOST_ART_PROMOTION_2020_J] =
 	{
         .pack = gTheLostArtPromotion2020J,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2020_K] =
+	[PACK_THE_LOST_ART_PROMOTION_2020_K] =
 	{
         .pack = gTheLostArtPromotion2020K,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2020_L] =
+	[PACK_THE_LOST_ART_PROMOTION_2020_L] =
 	{
         .pack = gTheLostArtPromotion2020L,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2020_M] =
+	[PACK_THE_LOST_ART_PROMOTION_2020_M] =
 	{
         .pack = gTheLostArtPromotion2020M,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2020_N] =
+	[PACK_THE_LOST_ART_PROMOTION_2020_N] =
 	{
         .pack = gTheLostArtPromotion2020N,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2020_O] =
+	[PACK_THE_LOST_ART_PROMOTION_2020_O] =
 	{
         .pack = gTheLostArtPromotion2020O,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2020_P] =
+	[PACK_THE_LOST_ART_PROMOTION_2020_P] =
 	{
         .pack = gTheLostArtPromotion2020P,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2020_Q] =
+	[PACK_THE_LOST_ART_PROMOTION_2020_Q] =
 	{
         .pack = gTheLostArtPromotion2020Q,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2020_R] =
+	[PACK_THE_LOST_ART_PROMOTION_2020_R] =
 	{
         .pack = gTheLostArtPromotion2020R,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2021_A] =
+	[PACK_THE_LOST_ART_PROMOTION_2021_A] =
 	{
         .pack = gTheLostArtPromotion2021A,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2021_B] =
+	[PACK_THE_LOST_ART_PROMOTION_2021_B] =
 	{
         .pack = gTheLostArtPromotion2021B,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2021_C] =
+	[PACK_THE_LOST_ART_PROMOTION_2021_C] =
 	{
         .pack = gTheLostArtPromotion2021C,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2021_D] =
+	[PACK_THE_LOST_ART_PROMOTION_2021_D] =
 	{
         .pack = gTheLostArtPromotion2021D,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2021_E] =
+	[PACK_THE_LOST_ART_PROMOTION_2021_E] =
 	{
         .pack = gTheLostArtPromotion2021E,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2021_F] =
+	[PACK_THE_LOST_ART_PROMOTION_2021_F] =
 	{
         .pack = gTheLostArtPromotion2021F,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2021_G] =
+	[PACK_THE_LOST_ART_PROMOTION_2021_G] =
 	{
         .pack = gTheLostArtPromotion2021G,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2021_H] =
+	[PACK_THE_LOST_ART_PROMOTION_2021_H] =
 	{
         .pack = gTheLostArtPromotion2021H,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2021_I] =
+	[PACK_THE_LOST_ART_PROMOTION_2021_I] =
 	{
         .pack = gTheLostArtPromotion2021I,
         .length = 1,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2021_J] =
+	[PACK_THE_LOST_ART_PROMOTION_2021_J] =
 	{
         .pack = gTheLostArtPromotion2021J,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2021_K] =
+	[PACK_THE_LOST_ART_PROMOTION_2021_K] =
 	{
         .pack = gTheLostArtPromotion2021K,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2021_L] =
+	[PACK_THE_LOST_ART_PROMOTION_2021_L] =
 	{
         .pack = gTheLostArtPromotion2021L,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2022] =
+	[PACK_THE_LOST_ART_PROMOTION_2022] =
 	{
         .pack = gTheLostArtPromotion2022,
         .length = 2,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2022_G] =
+	[PACK_THE_LOST_ART_PROMOTION_2022_G] =
 	{
         .pack = gTheLostArtPromotion2022G,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2022_K] =
+	[PACK_THE_LOST_ART_PROMOTION_2022_K] =
 	{
         .pack = gTheLostArtPromotion2022K,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2023] =
+	[PACK_THE_LOST_ART_PROMOTION_2023] =
 	{
         .pack = gTheLostArtPromotion2023,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2023_E] =
+	[PACK_THE_LOST_ART_PROMOTION_2023_E] =
 	{
         .pack = gTheLostArtPromotion2023E,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2023_F] =
+	[PACK_THE_LOST_ART_PROMOTION_2023_F] =
 	{
         .pack = gTheLostArtPromotion2023F,
         .length = 1,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2023_G] =
+	[PACK_THE_LOST_ART_PROMOTION_2023_G] =
 	{
         .pack = gTheLostArtPromotion2023G,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2023_H] =
+	[PACK_THE_LOST_ART_PROMOTION_2023_H] =
 	{
         .pack = gTheLostArtPromotion2023H,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2023_I] =
+	[PACK_THE_LOST_ART_PROMOTION_2023_I] =
 	{
         .pack = gTheLostArtPromotion2023I,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2024] =
+	[PACK_THE_LOST_ART_PROMOTION_2024] =
 	{
         .pack = gTheLostArtPromotion2024,
         .length = 1,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2024_A] =
+	[PACK_THE_LOST_ART_PROMOTION_2024_A] =
 	{
         .pack = gTheLostArtPromotion2024A,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2024_B] =
+	[PACK_THE_LOST_ART_PROMOTION_2024_B] =
 	{
         .pack = gTheLostArtPromotion2024B,
         .length = 1,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2024_C] =
+	[PACK_THE_LOST_ART_PROMOTION_2024_C] =
 	{
         .pack = gTheLostArtPromotion2024C,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_2024_H] =
+	[PACK_THE_LOST_ART_PROMOTION_2024_H] =
 	{
         .pack = gTheLostArtPromotion2024H,
         .length = 1,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_A] =
+	[PACK_THE_LOST_ART_PROMOTION_A] =
 	{
         .pack = gTheLostArtPromotionA,
         .length = 1,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_B] =
+	[PACK_THE_LOST_ART_PROMOTION_B] =
 	{
         .pack = gTheLostArtPromotionB,
         .length = 1,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_C] =
+	[PACK_THE_LOST_ART_PROMOTION_C] =
 	{
         .pack = gTheLostArtPromotionC,
         .length = 1,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_D] =
+	[PACK_THE_LOST_ART_PROMOTION_D] =
 	{
         .pack = gTheLostArtPromotionD,
         .length = 1,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_E] =
+	[PACK_THE_LOST_ART_PROMOTION_E] =
 	{
         .pack = gTheLostArtPromotionE,
         .length = 1,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_F] =
+	[PACK_THE_LOST_ART_PROMOTION_F] =
 	{
         .pack = gTheLostArtPromotionF,
         .length = 1,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_G] =
+	[PACK_THE_LOST_ART_PROMOTION_G] =
 	{
         .pack = gTheLostArtPromotionG,
         .length = 1,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_H] =
+	[PACK_THE_LOST_ART_PROMOTION_H] =
 	{
         .pack = gTheLostArtPromotionH,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_I] =
+	[PACK_THE_LOST_ART_PROMOTION_I] =
 	{
         .pack = gTheLostArtPromotionI,
         .length = 1,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_J] =
+	[PACK_THE_LOST_ART_PROMOTION_J] =
 	{
         .pack = gTheLostArtPromotionJ,
         .length = 1,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_K] =
+	[PACK_THE_LOST_ART_PROMOTION_K] =
 	{
         .pack = gTheLostArtPromotionK,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_L] =
+	[PACK_THE_LOST_ART_PROMOTION_L] =
 	{
         .pack = gTheLostArtPromotionL,
         .length = 1,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_M] =
+	[PACK_THE_LOST_ART_PROMOTION_M] =
 	{
         .pack = gTheLostArtPromotionM,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_N] =
+	[PACK_THE_LOST_ART_PROMOTION_N] =
 	{
         .pack = gTheLostArtPromotionN,
         .length = 1,
 	},
-	[ITEM_PACK_THE_LOST_ART_PROMOTION_O] =
+	[PACK_THE_LOST_ART_PROMOTION_O] =
 	{
         .pack = gTheLostArtPromotionO,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_MILLENNIUM] =
+	[PACK_THE_LOST_MILLENNIUM] =
 	{
         .pack = gTheLostMillennium,
         .length = 9,
 	},
-	[ITEM_PACK_THE_LOST_MILLENNIUM_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_THE_LOST_MILLENNIUM_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gTheLostMillenniumSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_THE_LOST_MILLENNIUM_SPECIAL_EDITION] =
+	[PACK_THE_LOST_MILLENNIUM_SPECIAL_EDITION] =
 	{
         .pack = gTheLostMillenniumSpecialEdition,
         .length = 1,
 	},
-	[ITEM_PACK_THE_NEW_CHALLENGERS] =
+	[PACK_THE_NEW_CHALLENGERS] =
 	{
         .pack = gTheNewChallengers,
         .length = 0,
 	},
-	[ITEM_PACK_THE_NEW_CHALLENGERS_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_THE_NEW_CHALLENGERS_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gTheNewChallengersSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_THE_NEW_CHALLENGERS_SUPER_EDITION] =
+	[PACK_THE_NEW_CHALLENGERS_SUPER_EDITION] =
 	{
         .pack = gTheNewChallengersSuperEdition,
         .length = 0,
 	},
-	[ITEM_PACK_THE_POT_COLLECTION] =
+	[PACK_THE_POT_COLLECTION] =
 	{
         .pack = gThePotCollection,
         .length = 3,
 	},
-	[ITEM_PACK_THE_SECRET_FORCES] =
+	[PACK_THE_SECRET_FORCES] =
 	{
         .pack = gTheSecretForces,
         .length = 2,
 	},
-	[ITEM_PACK_THE_SHINING_DARKNESS] =
+	[PACK_THE_SHINING_DARKNESS] =
 	{
         .pack = gTheShiningDarkness,
         .length = 0,
 	},
-	[ITEM_PACK_THE_SHINING_DARKNESS_SNEAK_PEEK_PARTICIPATION_CARD] =
+	[PACK_THE_SHINING_DARKNESS_SNEAK_PEEK_PARTICIPATION_CARD] =
 	{
         .pack = gTheShiningDarknessSneakPeekParticipationCard,
         .length = 0,
 	},
-	[ITEM_PACK_TOON_CHAOS] =
+	[PACK_TOON_CHAOS] =
 	{
         .pack = gToonChaos,
         .length = 5,
 	},
-	[ITEM_PACK_TOURNAMENT_PACK_4] =
+	[PACK_TOURNAMENT_PACK_4] =
 	{
         .pack = gTournamentPack4,
         .length = 11,
 	},
-	[ITEM_PACK_TOURNAMENT_PACK_5] =
+	[PACK_TOURNAMENT_PACK_5] =
 	{
         .pack = gTournamentPack5,
         .length = 7,
 	},
-	[ITEM_PACK_TOURNAMENT_PACK_6] =
+	[PACK_TOURNAMENT_PACK_6] =
 	{
         .pack = gTournamentPack6,
         .length = 10,
 	},
-	[ITEM_PACK_TOURNAMENT_PACK_7] =
+	[PACK_TOURNAMENT_PACK_7] =
 	{
         .pack = gTournamentPack7,
         .length = 8,
 	},
-	[ITEM_PACK_TOURNAMENT_PACK_8] =
+	[PACK_TOURNAMENT_PACK_8] =
 	{
         .pack = gTournamentPack8,
         .length = 8,
 	},
-	[ITEM_PACK_TOURNAMENT_PACK_1ST_SEASON] =
+	[PACK_TOURNAMENT_PACK_1ST_SEASON] =
 	{
         .pack = gTournamentPack1stSeason,
         .length = 2,
 	},
-	[ITEM_PACK_TOURNAMENT_PACK_2ND_SEASON] =
+	[PACK_TOURNAMENT_PACK_2ND_SEASON] =
 	{
         .pack = gTournamentPack2ndSeason,
         .length = 3,
 	},
-	[ITEM_PACK_TOURNAMENT_PACK_3RD_SEASON] =
+	[PACK_TOURNAMENT_PACK_3RD_SEASON] =
 	{
         .pack = gTournamentPack3rdSeason,
         .length = 10,
 	},
-	[ITEM_PACK_TRIALS_OF_THE_PHARAOH_MATCH_OF_THE_MILLENNIUM_TWISTED_NIGHTMARES_PROMOTIONAL_CARD] =
+	[PACK_TRIALS_OF_THE_PHARAOH_MATCH_OF_THE_MILLENNIUM_TWISTED_NIGHTMARES_PROMOTIONAL_CARD] =
 	{
         .pack = gTrialsofthePharaohMatchoftheMillenniumTwistedNightmarespromotionalcard,
         .length = 1,
 	},
-	[ITEM_PACK_TRIALS_OF_THE_PHARAOH_SPEED_DUEL_BATTLE_CITY_BOX_PROMOTIONAL_CARD] =
+	[PACK_TRIALS_OF_THE_PHARAOH_SPEED_DUEL_BATTLE_CITY_BOX_PROMOTIONAL_CARD] =
 	{
         .pack = gTrialsofthePharaohSpeedDuelBattleCityBoxpromotionalcard,
         .length = 1,
 	},
-	[ITEM_PACK_TRIALS_OF_THE_PHARAOH_TRIALS_OF_THE_KINGDOM_PROMOTIONAL_CARD] =
+	[PACK_TRIALS_OF_THE_PHARAOH_TRIALS_OF_THE_KINGDOM_PROMOTIONAL_CARD] =
 	{
         .pack = gTrialsofthePharaohTrialsoftheKingdompromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_TURBO_PACK_BOOSTER_EIGHT] =
+	[PACK_TURBO_PACK_BOOSTER_EIGHT] =
 	{
         .pack = gTurboPackBoosterEight,
         .length = 3,
 	},
-	[ITEM_PACK_TURBO_PACK_BOOSTER_FIVE] =
+	[PACK_TURBO_PACK_BOOSTER_FIVE] =
 	{
         .pack = gTurboPackBoosterFive,
         .length = 4,
 	},
-	[ITEM_PACK_TURBO_PACK_BOOSTER_FOUR] =
+	[PACK_TURBO_PACK_BOOSTER_FOUR] =
 	{
         .pack = gTurboPackBoosterFour,
         .length = 3,
 	},
-	[ITEM_PACK_TURBO_PACK_BOOSTER_ONE] =
+	[PACK_TURBO_PACK_BOOSTER_ONE] =
 	{
         .pack = gTurboPackBoosterOne,
         .length = 5,
 	},
-	[ITEM_PACK_TURBO_PACK_BOOSTER_SEVEN] =
+	[PACK_TURBO_PACK_BOOSTER_SEVEN] =
 	{
         .pack = gTurboPackBoosterSeven,
         .length = 3,
 	},
-	[ITEM_PACK_TURBO_PACK_BOOSTER_SIX] =
+	[PACK_TURBO_PACK_BOOSTER_SIX] =
 	{
         .pack = gTurboPackBoosterSix,
         .length = 6,
 	},
-	[ITEM_PACK_TURBO_PACK_BOOSTER_THREE] =
+	[PACK_TURBO_PACK_BOOSTER_THREE] =
 	{
         .pack = gTurboPackBoosterThree,
         .length = 3,
 	},
-	[ITEM_PACK_TURBO_PACK_BOOSTER_TWO] =
+	[PACK_TURBO_PACK_BOOSTER_TWO] =
 	{
         .pack = gTurboPackBoosterTwo,
         .length = 7,
 	},
-	[ITEM_PACK_TWILIGHT_EDITION] =
+	[PACK_TWILIGHT_EDITION] =
 	{
         .pack = gTwilightEdition,
         .length = 0,
 	},
-	[ITEM_PACK_ULTIMATE_EDITION] =
+	[PACK_ULTIMATE_EDITION] =
 	{
         .pack = gUltimateEdition,
         .length = 1,
 	},
-	[ITEM_PACK_ULTIMATE_EDITION_2] =
+	[PACK_ULTIMATE_EDITION_2] =
 	{
         .pack = gUltimateEdition2,
         .length = 0,
 	},
-	[ITEM_PACK_VALIANT_SMASHERS] =
+	[PACK_VALIANT_SMASHERS] =
 	{
         .pack = gValiantSmashers,
         .length = 2,
 	},
-	[ITEM_PACK_WCS_2025_LIMITED_PACK] =
+	[PACK_WCS_2025_LIMITED_PACK] =
 	{
         .pack = gWCS2025LimitedPack,
         .length = 1,
 	},
-	[ITEM_PACK_WSJ_JUMP_PACK_FALL_2016_PROMOTIONAL_CARD] =
+	[PACK_WSJ_JUMP_PACK_FALL_2016_PROMOTIONAL_CARD] =
 	{
         .pack = gWSJJumpPackFall2016promotionalcard,
         .length = 1,
 	},
-	[ITEM_PACK_WSJ_JUMP_PACK_FALL_2017_PROMOTIONAL_CARD] =
+	[PACK_WSJ_JUMP_PACK_FALL_2017_PROMOTIONAL_CARD] =
 	{
         .pack = gWSJJumpPackFall2017promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_WSJ_JUMP_PACK_FALL_2018_PROMOTIONAL_CARD] =
+	[PACK_WSJ_JUMP_PACK_FALL_2018_PROMOTIONAL_CARD] =
 	{
         .pack = gWSJJumpPackFall2018promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_WSJ_JUMP_PACK_SPRING_2016_PROMOTIONAL_CARD] =
+	[PACK_WSJ_JUMP_PACK_SPRING_2016_PROMOTIONAL_CARD] =
 	{
         .pack = gWSJJumpPackSpring2016promotionalcard,
         .length = 1,
 	},
-	[ITEM_PACK_WSJ_JUMP_PACK_SPRING_2017_PROMOTIONAL_CARD] =
+	[PACK_WSJ_JUMP_PACK_SPRING_2017_PROMOTIONAL_CARD] =
 	{
         .pack = gWSJJumpPackSpring2017promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_WSJ_JUMP_PACK_SPRING_2018_PROMOTIONAL_CARD] =
+	[PACK_WSJ_JUMP_PACK_SPRING_2018_PROMOTIONAL_CARD] =
 	{
         .pack = gWSJJumpPackSpring2018promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_WSJ_JUMP_PACK_SPRING_2019_PROMOTIONAL_CARD] =
+	[PACK_WSJ_JUMP_PACK_SPRING_2019_PROMOTIONAL_CARD] =
 	{
         .pack = gWSJJumpPackSpring2019promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_WAR_OF_THE_GIANTS_REINFORCEMENTS] =
+	[PACK_WAR_OF_THE_GIANTS_REINFORCEMENTS] =
 	{
         .pack = gWaroftheGiantsReinforcements,
         .length = 11,
 	},
-	[ITEM_PACK_WAR_OF_THE_GIANTS_ROUND_2] =
+	[PACK_WAR_OF_THE_GIANTS_ROUND_2] =
 	{
         .pack = gWaroftheGiantsRound2,
         .length = 11,
 	},
-	[ITEM_PACK_WARRIORS_STRIKE_STRUCTURE_DECK] =
+	[PACK_WARRIORS_STRIKE_STRUCTURE_DECK] =
 	{
         .pack = gWarriorsStrikeStructureDeck,
         .length = 9,
 	},
-	[ITEM_PACK_WEEKLY_SHONEN_JUMP_ALPHA_APRIL_2012_MEMBERSHIP_PROMOTIONAL_CARD] =
+	[PACK_WEEKLY_SHONEN_JUMP_ALPHA_APRIL_2012_MEMBERSHIP_PROMOTIONAL_CARD] =
 	{
         .pack = gWeeklyShonenJumpAlphaApril2012membershippromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_WEEKLY_SHONEN_JUMP_ALPHA_DECEMBER_2012_MEMBERSHIP_PROMOTIONAL_CARD] =
+	[PACK_WEEKLY_SHONEN_JUMP_ALPHA_DECEMBER_2012_MEMBERSHIP_PROMOTIONAL_CARD] =
 	{
         .pack = gWeeklyShonenJumpAlphaDecember2012membershippromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_WEEKLY_SHONEN_JUMP_ALPHA_JULY_2012_MEMBERSHIP_PROMOTIONAL_CARD] =
+	[PACK_WEEKLY_SHONEN_JUMP_ALPHA_JULY_2012_MEMBERSHIP_PROMOTIONAL_CARD] =
 	{
         .pack = gWeeklyShonenJumpAlphaJuly2012membershippromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_WEEKLY_SHONEN_JUMP_ALPHA_SEPTEMBER_2012_MEMBERSHIP_PROMOTIONAL_CARD] =
+	[PACK_WEEKLY_SHONEN_JUMP_ALPHA_SEPTEMBER_2012_MEMBERSHIP_PROMOTIONAL_CARD] =
 	{
         .pack = gWeeklyShonenJumpAlphaSeptember2012membershippromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_WEEKLY_SHONEN_JUMP_APRIL_2015_MEMBERSHIP_PROMOTIONAL_CARD] =
+	[PACK_WEEKLY_SHONEN_JUMP_APRIL_2015_MEMBERSHIP_PROMOTIONAL_CARD] =
 	{
         .pack = gWeeklyShonenJumpApril2015membershippromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_WEEKLY_SHONEN_JUMP_APRIL_2016_MEMBERSHIP_PROMOTIONAL_CARD] =
+	[PACK_WEEKLY_SHONEN_JUMP_APRIL_2016_MEMBERSHIP_PROMOTIONAL_CARD] =
 	{
         .pack = gWeeklyShonenJumpApril2016membershippromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_WEEKLY_SHONEN_JUMP_APRIL_2017_MEMBERSHIP_PROMOTIONAL_CARD] =
+	[PACK_WEEKLY_SHONEN_JUMP_APRIL_2017_MEMBERSHIP_PROMOTIONAL_CARD] =
 	{
         .pack = gWeeklyShonenJumpApril2017membershippromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_WEEKLY_SHONEN_JUMP_APRIL_2018_MEMBERSHIP_PROMOTIONAL_CARD] =
+	[PACK_WEEKLY_SHONEN_JUMP_APRIL_2018_MEMBERSHIP_PROMOTIONAL_CARD] =
 	{
         .pack = gWeeklyShonenJumpApril2018membershippromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_WEEKLY_SHONEN_JUMP_AUGUST_2014_MEMBERSHIP_PROMOTIONAL_CARD] =
+	[PACK_WEEKLY_SHONEN_JUMP_AUGUST_2014_MEMBERSHIP_PROMOTIONAL_CARD] =
 	{
         .pack = gWeeklyShonenJumpAugust2014membershippromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_WEEKLY_SHONEN_JUMP_DECEMBER_2013_MEMBERSHIP_PROMOTIONAL_CARD] =
+	[PACK_WEEKLY_SHONEN_JUMP_DECEMBER_2013_MEMBERSHIP_PROMOTIONAL_CARD] =
 	{
         .pack = gWeeklyShonenJumpDecember2013membershippromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_WEEKLY_SHONEN_JUMP_DECEMBER_2018_MEMBERSHIP_PROMOTIONAL_CARDS] =
+	[PACK_WEEKLY_SHONEN_JUMP_DECEMBER_2018_MEMBERSHIP_PROMOTIONAL_CARDS] =
 	{
         .pack = gWeeklyShonenJumpDecember2018membershippromotionalcards,
         .length = 0,
 	},
-	[ITEM_PACK_WEEKLY_SHONEN_JUMP_FEBRUARY_2015_MEMBERSHIP_PROMOTIONAL_CARD] =
+	[PACK_WEEKLY_SHONEN_JUMP_FEBRUARY_2015_MEMBERSHIP_PROMOTIONAL_CARD] =
 	{
         .pack = gWeeklyShonenJumpFebruary2015membershippromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_WEEKLY_SHONEN_JUMP_JANUARY_2016_MEMBERSHIP_PROMOTIONAL_CARD] =
+	[PACK_WEEKLY_SHONEN_JUMP_JANUARY_2016_MEMBERSHIP_PROMOTIONAL_CARD] =
 	{
         .pack = gWeeklyShonenJumpJanuary2016membershippromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_WEEKLY_SHONEN_JUMP_JANUARY_2017_MEMBERSHIP_PROMOTIONAL_CARD] =
+	[PACK_WEEKLY_SHONEN_JUMP_JANUARY_2017_MEMBERSHIP_PROMOTIONAL_CARD] =
 	{
         .pack = gWeeklyShonenJumpJanuary2017membershippromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_WEEKLY_SHONEN_JUMP_JANUARY_2018_MEMBERSHIP_PROMOTIONAL_CARD] =
+	[PACK_WEEKLY_SHONEN_JUMP_JANUARY_2018_MEMBERSHIP_PROMOTIONAL_CARD] =
 	{
         .pack = gWeeklyShonenJumpJanuary2018membershippromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_WEEKLY_SHONEN_JUMP_JULY_2013_MEMBERSHIP_PROMOTIONAL_CARD] =
+	[PACK_WEEKLY_SHONEN_JUMP_JULY_2013_MEMBERSHIP_PROMOTIONAL_CARD] =
 	{
         .pack = gWeeklyShonenJumpJuly2013membershippromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_WEEKLY_SHONEN_JUMP_JULY_2015_MEMBERSHIP_PROMOTIONAL_CARD] =
+	[PACK_WEEKLY_SHONEN_JUMP_JULY_2015_MEMBERSHIP_PROMOTIONAL_CARD] =
 	{
         .pack = gWeeklyShonenJumpJuly2015membershippromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_WEEKLY_SHONEN_JUMP_JULY_2016_MEMBERSHIP_PROMOTIONAL_CARD] =
+	[PACK_WEEKLY_SHONEN_JUMP_JULY_2016_MEMBERSHIP_PROMOTIONAL_CARD] =
 	{
         .pack = gWeeklyShonenJumpJuly2016membershippromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_WEEKLY_SHONEN_JUMP_JULY_2017_MEMBERSHIP_PROMOTIONAL_CARD] =
+	[PACK_WEEKLY_SHONEN_JUMP_JULY_2017_MEMBERSHIP_PROMOTIONAL_CARD] =
 	{
         .pack = gWeeklyShonenJumpJuly2017membershippromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_WEEKLY_SHONEN_JUMP_JULY_2018_MEMBERSHIP_PROMOTIONAL_CARD] =
+	[PACK_WEEKLY_SHONEN_JUMP_JULY_2018_MEMBERSHIP_PROMOTIONAL_CARD] =
 	{
         .pack = gWeeklyShonenJumpJuly2018membershippromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_WEEKLY_SHONEN_JUMP_MARCH_2013_MEMBERSHIP_PROMOTIONAL_CARD] =
+	[PACK_WEEKLY_SHONEN_JUMP_MARCH_2013_MEMBERSHIP_PROMOTIONAL_CARD] =
 	{
         .pack = gWeeklyShonenJumpMarch2013membershippromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_WEEKLY_SHONEN_JUMP_MARCH_2014_MEMBERSHIP_PROMOTIONAL_CARD] =
+	[PACK_WEEKLY_SHONEN_JUMP_MARCH_2014_MEMBERSHIP_PROMOTIONAL_CARD] =
 	{
         .pack = gWeeklyShonenJumpMarch2014membershippromotionalcard,
         .length = 1,
 	},
-	[ITEM_PACK_WEEKLY_SHONEN_JUMP_NOVEMBER_2014_MEMBERSHIP_PROMOTIONAL_CARD] =
+	[PACK_WEEKLY_SHONEN_JUMP_NOVEMBER_2014_MEMBERSHIP_PROMOTIONAL_CARD] =
 	{
         .pack = gWeeklyShonenJumpNovember2014membershippromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_WEEKLY_SHONEN_JUMP_NOVEMBER_2017_MEMBERSHIP_PROMOTIONAL_CARD] =
+	[PACK_WEEKLY_SHONEN_JUMP_NOVEMBER_2017_MEMBERSHIP_PROMOTIONAL_CARD] =
 	{
         .pack = gWeeklyShonenJumpNovember2017membershippromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_WEEKLY_SHONEN_JUMP_NOVEMBER_2018_MEMBERSHIP_PROMOTIONAL_CARD] =
+	[PACK_WEEKLY_SHONEN_JUMP_NOVEMBER_2018_MEMBERSHIP_PROMOTIONAL_CARD] =
 	{
         .pack = gWeeklyShonenJumpNovember2018membershippromotionalcard,
         .length = 1,
 	},
-	[ITEM_PACK_WEEKLY_SHONEN_JUMP_OCTOBER_2015_MEMBERSHIP_PROMOTIONAL_CARD] =
+	[PACK_WEEKLY_SHONEN_JUMP_OCTOBER_2015_MEMBERSHIP_PROMOTIONAL_CARD] =
 	{
         .pack = gWeeklyShonenJumpOctober2015membershippromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_WEEKLY_SHONEN_JUMP_OCTOBER_2016_MEMBERSHIP_PROMOTIONAL_CARD] =
+	[PACK_WEEKLY_SHONEN_JUMP_OCTOBER_2016_MEMBERSHIP_PROMOTIONAL_CARD] =
 	{
         .pack = gWeeklyShonenJumpOctober2016membershippromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_WEEKLY_SHONEN_JUMP_SEPTEMBER_2013_MEMBERSHIP_PROMOTIONAL_CARD] =
+	[PACK_WEEKLY_SHONEN_JUMP_SEPTEMBER_2013_MEMBERSHIP_PROMOTIONAL_CARD] =
 	{
         .pack = gWeeklyShonenJumpSeptember2013membershippromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_WILD_SURVIVORS] =
+	[PACK_WILD_SURVIVORS] =
 	{
         .pack = gWildSurvivors,
         .length = 3,
 	},
-	[ITEM_PACK_WING_RAIDERS] =
+	[PACK_WING_RAIDERS] =
 	{
         .pack = gWingRaiders,
         .length = 4,
 	},
-	[ITEM_PACK_WORLD_CHAMPIONSHIP_2010_CARD_PACK] =
+	[PACK_WORLD_CHAMPIONSHIP_2010_CARD_PACK] =
 	{
         .pack = gWorldChampionship2010CardPack,
         .length = 0,
 	},
-	[ITEM_PACK_WORLD_CHAMPIONSHIP_2011_CARD_PACK] =
+	[PACK_WORLD_CHAMPIONSHIP_2011_CARD_PACK] =
 	{
         .pack = gWorldChampionship2011CardPack,
         .length = 1,
 	},
-	[ITEM_PACK_WORLD_SUPERSTARS] =
+	[PACK_WORLD_SUPERSTARS] =
 	{
         .pack = gWorldSuperstars,
         .length = 0,
 	},
-	[ITEM_PACK_X_SABER_POWER_UP] =
+	[PACK_X_SABER_POWER_UP] =
 	{
         .pack = gXSaberPowerUp,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_3D_BONDS_BEYOND_TIME_DVD_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_3D_BONDS_BEYOND_TIME_DVD_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOh3DBondsBeyondTimeDVDpromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_3D_BONDS_BEYOND_TIME_MOVIE_PACK] =
+	[PACK_YU_GI_OH_3D_BONDS_BEYOND_TIME_MOVIE_PACK] =
 	{
         .pack = gYuGiOh3DBondsBeyondTimeMoviePack,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_3D_BONDS_BEYOND_TIME_THEATER_DISTRIBUTION_CARD] =
+	[PACK_YU_GI_OH_3D_BONDS_BEYOND_TIME_THEATER_DISTRIBUTION_CARD] =
 	{
         .pack = gYuGiOh3DBondsBeyondTimeTheaterdistributioncard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_5D_S_DUEL_TRANSER_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_5D_S_DUEL_TRANSER_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOh5DsDuelTranserpromotionalcards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_5D_S_STARDUST_ACCELERATOR_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_5D_S_STARDUST_ACCELERATOR_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOh5DsStardustAcceleratorpromotionalcards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_5D_S_TAG_FORCE_4_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_5D_S_TAG_FORCE_4_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOh5DsTagForce4promotionalcards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_5D_S_TAG_FORCE_5_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_5D_S_TAG_FORCE_5_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOh5DsTagForce5PromotionalCards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_5D_S_VOLUME_1_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_5D_S_VOLUME_1_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOh5DsVolume1promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_5D_S_VOLUME_2_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_5D_S_VOLUME_2_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOh5DsVolume2promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_5D_S_VOLUME_3_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_5D_S_VOLUME_3_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOh5DsVolume3promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_5D_S_VOLUME_4_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_5D_S_VOLUME_4_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOh5DsVolume4promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_5D_S_VOLUME_5_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_5D_S_VOLUME_5_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOh5DsVolume5promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_5D_S_VOLUME_6_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_5D_S_VOLUME_6_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOh5DsVolume6promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_5D_S_VOLUME_7_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_5D_S_VOLUME_7_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOh5DsVolume7promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_5D_S_VOLUME_9_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_5D_S_VOLUME_9_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOh5DsVolume9promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_5D_S_WHEELIE_BREAKERS_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_5D_S_WHEELIE_BREAKERS_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOh5DsWheelieBreakersPromotionalCards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_5D_S_WORLD_CHAMPIONSHIP_2009_STARDUST_ACCELERATOR_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_5D_S_WORLD_CHAMPIONSHIP_2009_STARDUST_ACCELERATOR_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOh5DsWorldChampionship2009StardustAcceleratorpromotionalcards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_5D_S_WORLD_CHAMPIONSHIP_2010_REVERSE_OF_ARCADIA_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_5D_S_WORLD_CHAMPIONSHIP_2010_REVERSE_OF_ARCADIA_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOh5DsWorldChampionship2010ReverseofArcadiapromotionalcards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_5D_S_WORLD_CHAMPIONSHIP_2011_OVER_THE_NEXUS_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_5D_S_WORLD_CHAMPIONSHIP_2011_OVER_THE_NEXUS_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOh5DsWorldChampionship2011OvertheNexuspromotionalcards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_5D_S_VOLUME_8_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_5D_S_VOLUME_8_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOh5Dsvolume8promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_7_TRIALS_TO_GLORY_WORLD_CHAMPIONSHIP_TOURNAMENT_2005_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_7_TRIALS_TO_GLORY_WORLD_CHAMPIONSHIP_TOURNAMENT_2005_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOh7TrialstoGloryWorldChampionshipTournament2005promotionalcards,
         .length = 1,
 	},
-	[ITEM_PACK_YU_GI_OH_ARC_V_VOLUME_1_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_ARC_V_VOLUME_1_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOhARCVVolume1promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_ARC_V_VOLUME_2_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_ARC_V_VOLUME_2_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOhARCVVolume2promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_ARC_V_VOLUME_3_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_ARC_V_VOLUME_3_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOhARCVVolume3promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_ARC_V_VOLUME_4_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_ARC_V_VOLUME_4_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOhARCVVolume4promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_ARC_V_VOLUME_5_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_ARC_V_VOLUME_5_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOhARCVVolume5promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_ARC_V_VOLUME_6_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_ARC_V_VOLUME_6_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOhARCVVolume6promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_ARC_V_VOLUME_7_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_ARC_V_VOLUME_7_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOhARCVVolume7promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_ADVENT_CALENDAR] =
+	[PACK_YU_GI_OH_ADVENT_CALENDAR] =
 	{
         .pack = gYuGiOhAdventCalendar,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_ADVENT_CALENDAR_2018_] =
+	[PACK_YU_GI_OH_ADVENT_CALENDAR_2018_] =
 	{
         .pack = gYuGiOhAdventCalendar2018,
         .length = 1,
 	},
-	[ITEM_PACK_YU_GI_OH_ADVENT_CALENDAR_2019_] =
+	[PACK_YU_GI_OH_ADVENT_CALENDAR_2019_] =
 	{
         .pack = gYuGiOhAdventCalendar2019,
         .length = 1,
 	},
-	[ITEM_PACK_YU_GI_OH_CAPSULE_MONSTER_COLISEUM_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_CAPSULE_MONSTER_COLISEUM_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOhCapsuleMonsterColiseumpromotionalcards,
         .length = 1,
 	},
-	[ITEM_PACK_YU_GI_OH_CHAMPIONSHIP_SERIES_2010_PRIZE_CARDS] =
+	[PACK_YU_GI_OH_CHAMPIONSHIP_SERIES_2010_PRIZE_CARDS] =
 	{
         .pack = gYuGiOhChampionshipSeries2010PrizeCards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_CHAMPIONSHIP_SERIES_2011_PRIZE_CARD] =
+	[PACK_YU_GI_OH_CHAMPIONSHIP_SERIES_2011_PRIZE_CARD] =
 	{
         .pack = gYuGiOhChampionshipSeries2011PrizeCard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_CHAMPIONSHIP_SERIES_2012_PRIZE_CARD] =
+	[PACK_YU_GI_OH_CHAMPIONSHIP_SERIES_2012_PRIZE_CARD] =
 	{
         .pack = gYuGiOhChampionshipSeries2012PrizeCard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_CHAMPIONSHIP_SERIES_2013_PRIZE_CARD] =
+	[PACK_YU_GI_OH_CHAMPIONSHIP_SERIES_2013_PRIZE_CARD] =
 	{
         .pack = gYuGiOhChampionshipSeries2013PrizeCard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_CHAMPIONSHIP_SERIES_2014_PRIZE_CARD] =
+	[PACK_YU_GI_OH_CHAMPIONSHIP_SERIES_2014_PRIZE_CARD] =
 	{
         .pack = gYuGiOhChampionshipSeries2014PrizeCard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_CHAMPIONSHIP_SERIES_2015_PRIZE_CARD] =
+	[PACK_YU_GI_OH_CHAMPIONSHIP_SERIES_2015_PRIZE_CARD] =
 	{
         .pack = gYuGiOhChampionshipSeries2015PrizeCard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_CHAMPIONSHIP_SERIES_2016_PRIZE_CARD] =
+	[PACK_YU_GI_OH_CHAMPIONSHIP_SERIES_2016_PRIZE_CARD] =
 	{
         .pack = gYuGiOhChampionshipSeries2016PrizeCard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_CHAMPIONSHIP_SERIES_2017_PRIZE_CARD] =
+	[PACK_YU_GI_OH_CHAMPIONSHIP_SERIES_2017_PRIZE_CARD] =
 	{
         .pack = gYuGiOhChampionshipSeries2017prizecard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_CHAMPIONSHIP_SERIES_2018_PRIZE_CARD] =
+	[PACK_YU_GI_OH_CHAMPIONSHIP_SERIES_2018_PRIZE_CARD] =
 	{
         .pack = gYuGiOhChampionshipSeries2018prizecard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_CHAMPIONSHIP_SERIES_2019_PRIZE_CARD] =
+	[PACK_YU_GI_OH_CHAMPIONSHIP_SERIES_2019_PRIZE_CARD] =
 	{
         .pack = gYuGiOhChampionshipSeries2019prizecard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_CHAMPIONSHIP_SERIES_2022_PRIZE_CARD] =
+	[PACK_YU_GI_OH_CHAMPIONSHIP_SERIES_2022_PRIZE_CARD] =
 	{
         .pack = gYuGiOhChampionshipSeries2022prizecard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_CHAMPIONSHIP_SERIES_2023_PRIZE_CARD] =
+	[PACK_YU_GI_OH_CHAMPIONSHIP_SERIES_2023_PRIZE_CARD] =
 	{
         .pack = gYuGiOhChampionshipSeries2023prizecard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_DARK_DUEL_STORIES_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_DARK_DUEL_STORIES_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOhDarkDuelStoriespromotionalcards,
         .length = 3,
 	},
-	[ITEM_PACK_YU_GI_OH_DAY_APRIL_2019_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_DAY_APRIL_2019_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOhDayApril2019promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_DESTINY_BOARD_TRAVELER_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_DESTINY_BOARD_TRAVELER_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOhDestinyBoardTravelerpromotionalcards,
         .length = 1,
 	},
-	[ITEM_PACK_YU_GI_OH_DOUBLE_PACK_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_DOUBLE_PACK_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOhDoublePackpromotionalcards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_ELEMENTAL_HERO_COLLECTION_1] =
+	[PACK_YU_GI_OH_ELEMENTAL_HERO_COLLECTION_1] =
 	{
         .pack = gYuGiOhElementalHeroCollection1,
         .length = 1,
 	},
-	[ITEM_PACK_YU_GI_OH_ELEMENTAL_HERO_COLLECTION_2] =
+	[PACK_YU_GI_OH_ELEMENTAL_HERO_COLLECTION_2] =
 	{
         .pack = gYuGiOhElementalHeroCollection2,
         .length = 2,
 	},
-	[ITEM_PACK_YU_GI_OH_FORBIDDEN_MEMORIES_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_FORBIDDEN_MEMORIES_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOhForbiddenMemoriespromotionalcards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_GX_CARD_ALMANAC_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_GX_CARD_ALMANAC_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOhGXCardAlmanacpromotionalcards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_GX_DUEL_ACADEMY_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_GX_DUEL_ACADEMY_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOhGXDuelAcademypromotionalcards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_GX_SPECIAL_EDITION] =
+	[PACK_YU_GI_OH_GX_SPECIAL_EDITION] =
 	{
         .pack = gYuGiOhGXSpecialEdition,
         .length = 1,
 	},
-	[ITEM_PACK_YU_GI_OH_GX_SPIRIT_CALLER_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_GX_SPIRIT_CALLER_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOhGXSpiritCallerpromotionalcards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_GX_TAG_FORCE_2_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_GX_TAG_FORCE_2_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOhGXTagForce2promotionalcards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_GX_TAG_FORCE_3_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_GX_TAG_FORCE_3_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOhGXTagForce3promotionalcards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_GX_TAG_FORCE_EVOLUTION_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_GX_TAG_FORCE_EVOLUTION_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOhGXTagForceEvolutionpromotionalcards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_GX_TAG_FORCE_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_GX_TAG_FORCE_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOhGXTagForcepromotionalcards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_GX_ULTIMATE_BEGINNER_S_PACK] =
+	[PACK_YU_GI_OH_GX_ULTIMATE_BEGINNER_S_PACK] =
 	{
         .pack = gYuGiOhGXUltimateBeginnersPack,
         .length = 5,
 	},
-	[ITEM_PACK_YU_GI_OH_GX_VOLUME_1_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_GX_VOLUME_1_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOhGXVolume1promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_GX_VOLUME_2_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_GX_VOLUME_2_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOhGXVolume2promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_GX_VOLUME_3_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_GX_VOLUME_3_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOhGXVolume3promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_GX_VOLUME_4_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_GX_VOLUME_4_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOhGXVolume4promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_GX_VOLUME_5_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_GX_VOLUME_5_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOhGXVolume5promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_GX_VOLUME_6_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_GX_VOLUME_6_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOhGXVolume6promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_GX_VOLUME_7_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_GX_VOLUME_7_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOhGXVolume7promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_GX_VOLUME_8_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_GX_VOLUME_8_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOhGXVolume8promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_GX_VOLUME_9_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_GX_VOLUME_9_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOhGXVolume9promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_LEGACY_OF_THE_DUELIST_LINK_EVOLUTION_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_LEGACY_OF_THE_DUELIST_LINK_EVOLUTION_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOhLegacyoftheDuelistLinkEvolutionpromotionalcards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_NIGHTMARE_TROUBADOUR_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_NIGHTMARE_TROUBADOUR_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOhNightmareTroubadourpromotionalcards,
         .length = 1,
 	},
-	[ITEM_PACK_YU_GI_OH_POWER_OF_CHAOS_JOEY_THE_PASSION_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_POWER_OF_CHAOS_JOEY_THE_PASSION_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOhPowerofChaosJoeythePassionpromotionalcards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_POWER_OF_CHAOS_KAIBA_THE_REVENGE_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_POWER_OF_CHAOS_KAIBA_THE_REVENGE_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOhPowerofChaosKaibatheRevengepromotionalcards,
         .length = 1,
 	},
-	[ITEM_PACK_YU_GI_OH_POWER_OF_CHAOS_YUGI_THE_DESTINY_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_POWER_OF_CHAOS_YUGI_THE_DESTINY_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOhPowerofChaosYugitheDestinypromotionalcards,
         .length = 3,
 	},
-	[ITEM_PACK_YU_GI_OH_R_VOLUME_1_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_R_VOLUME_1_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOhRVolume1promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_R_VOLUME_3_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_R_VOLUME_3_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOhRVolume3promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_R_VOLUME_4_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_R_VOLUME_4_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOhRVolume4promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_R_VOLUME_5_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_R_VOLUME_5_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOhRVolume5promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_RESHEF_OF_DESTRUCTION_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_RESHEF_OF_DESTRUCTION_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOhReshefofDestructionpromotionalcards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_TCG_REMOTE_DUEL_EXTRAVAGANZA_PARTICIPATION_CARD] =
+	[PACK_YU_GI_OH_TCG_REMOTE_DUEL_EXTRAVAGANZA_PARTICIPATION_CARD] =
 	{
         .pack = gYuGiOhTCGRemoteDuelExtravaganzaparticipationcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_BLU_RAY_DVD_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_BLU_RAY_DVD_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOhTheDarkSideofDimensionsBlurayDVDpromotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_MOVIE_PACK] =
+	[PACK_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_MOVIE_PACK] =
 	{
         .pack = gYuGiOhTheDarkSideofDimensionsMoviePack,
         .length = 2,
 	},
-	[ITEM_PACK_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_MOVIE_PACK_SECRET_EDITION] =
+	[PACK_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_MOVIE_PACK_SECRET_EDITION] =
 	{
         .pack = gYuGiOhTheDarkSideofDimensionsMoviePackSecretEdition,
         .length = 2,
 	},
-	[ITEM_PACK_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_MOVIE_PACK_SPECIAL_EDITION] =
+	[PACK_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_MOVIE_PACK_SPECIAL_EDITION] =
 	{
         .pack = gYuGiOhTheDarkSideofDimensionsMoviePackSpecialEdition,
         .length = 2,
 	},
-	[ITEM_PACK_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_MOVIE_PACK_GOLD_EDITION] =
+	[PACK_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_MOVIE_PACK_GOLD_EDITION] =
 	{
         .pack = gYuGiOhTheDarkSideofDimensionsMoviePackGoldEdition,
         .length = 2,
 	},
-	[ITEM_PACK_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_THEATER_DISTRIBUTION_CARDS] =
+	[PACK_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_THEATER_DISTRIBUTION_CARDS] =
 	{
         .pack = gYuGiOhTheDarkSideofDimensionsTheaterdistributioncards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_THE_DAWN_OF_DESTINY_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_THE_DAWN_OF_DESTINY_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOhTheDawnofDestinypromotionalcards,
         .length = 1,
 	},
-	[ITEM_PACK_YU_GI_OH_THE_DUELISTS_OF_THE_ROSES_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_THE_DUELISTS_OF_THE_ROSES_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOhTheDuelistsoftheRosespromotionalcards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_THE_ETERNAL_DUELIST_SOUL_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_THE_ETERNAL_DUELIST_SOUL_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOhTheEternalDuelistSoulpromotionalcards,
         .length = 1,
 	},
-	[ITEM_PACK_YU_GI_OH_THE_FALSEBOUND_KINGDOM_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_THE_FALSEBOUND_KINGDOM_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOhTheFalseboundKingdompromotionalcards,
         .length = 2,
 	},
-	[ITEM_PACK_YU_GI_OH_THE_SACRED_CARDS_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_THE_SACRED_CARDS_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOhTheSacredCardspromotionalcards,
         .length = 1,
 	},
-	[ITEM_PACK_YU_GI_OH_TRADING_CARD_GAME_TOUR_2004_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_TRADING_CARD_GAME_TOUR_2004_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOhTradingCardGameTour2004promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_ULTIMATE_MASTERS_WORLD_CHAMPIONSHIP_TOURNAMENT_2006_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_ULTIMATE_MASTERS_WORLD_CHAMPIONSHIP_TOURNAMENT_2006_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOhUltimateMastersWorldChampionshipTournament2006promotionalcards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_WORLD_CHAMPIONSHIP_2004_PRIZE_CARDS] =
+	[PACK_YU_GI_OH_WORLD_CHAMPIONSHIP_2004_PRIZE_CARDS] =
 	{
         .pack = gYuGiOhWorldChampionship2004prizecards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_WORLD_CHAMPIONSHIP_2005_PRIZE_CARDS] =
+	[PACK_YU_GI_OH_WORLD_CHAMPIONSHIP_2005_PRIZE_CARDS] =
 	{
         .pack = gYuGiOhWorldChampionship2005prizecards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_WORLD_CHAMPIONSHIP_2006_PRIZE_CARDS] =
+	[PACK_YU_GI_OH_WORLD_CHAMPIONSHIP_2006_PRIZE_CARDS] =
 	{
         .pack = gYuGiOhWorldChampionship2006prizecards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_WORLD_CHAMPIONSHIP_2007_PRIZE_CARDS] =
+	[PACK_YU_GI_OH_WORLD_CHAMPIONSHIP_2007_PRIZE_CARDS] =
 	{
         .pack = gYuGiOhWorldChampionship2007prizecards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_WORLD_CHAMPIONSHIP_2007_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_WORLD_CHAMPIONSHIP_2007_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOhWorldChampionship2007promotionalcards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_WORLD_CHAMPIONSHIP_2008_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_WORLD_CHAMPIONSHIP_2008_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOhWorldChampionship2008promotionalcards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_WORLD_CHAMPIONSHIP_2017_PRIZE_CARDS] =
+	[PACK_YU_GI_OH_WORLD_CHAMPIONSHIP_2017_PRIZE_CARDS] =
 	{
         .pack = gYuGiOhWorldChampionship2017prizecards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_WORLD_CHAMPIONSHIP_2018_PRIZE_CARDS] =
+	[PACK_YU_GI_OH_WORLD_CHAMPIONSHIP_2018_PRIZE_CARDS] =
 	{
         .pack = gYuGiOhWorldChampionship2018prizecards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_WORLD_CHAMPIONSHIP_2019_JAPANESE_NATIONAL_QUALIFIERS_PRIZE_CARDS] =
+	[PACK_YU_GI_OH_WORLD_CHAMPIONSHIP_2019_JAPANESE_NATIONAL_QUALIFIERS_PRIZE_CARDS] =
 	{
         .pack = gYuGiOhWorldChampionship2019JapaneseNationalQualifiersprizecards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_WORLD_CHAMPIONSHIP_QUALIFIER_NATIONAL_CHAMPIONSHIPS_2011_PRIZE_CARDS] =
+	[PACK_YU_GI_OH_WORLD_CHAMPIONSHIP_QUALIFIER_NATIONAL_CHAMPIONSHIPS_2011_PRIZE_CARDS] =
 	{
         .pack = gYuGiOhWorldChampionshipQualifierNationalChampionships2011prizecards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_WORLD_CHAMPIONSHIP_TOURNAMENT_2004_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_WORLD_CHAMPIONSHIP_TOURNAMENT_2004_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOhWorldChampionshipTournament2004promotionalcards,
         .length = 4,
 	},
-	[ITEM_PACK_YU_GI_OH_WORLDWIDE_EDITION_STAIRWAY_TO_THE_DESTINED_DUEL_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_WORLDWIDE_EDITION_STAIRWAY_TO_THE_DESTINED_DUEL_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOhWorldwideEditionStairwaytotheDestinedDuelpromotionalcards,
         .length = 2,
 	},
-	[ITEM_PACK_YU_GI_OH_ZEXAL_VOLUME_1_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_ZEXAL_VOLUME_1_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOhZEXALVolume1promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_ZEXAL_VOLUME_2_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_ZEXAL_VOLUME_2_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOhZEXALVolume2promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_ZEXAL_VOLUME_3_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_ZEXAL_VOLUME_3_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOhZEXALVolume3promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_ZEXAL_VOLUME_4_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_ZEXAL_VOLUME_4_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOhZEXALVolume4promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_ZEXAL_VOLUME_5_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_ZEXAL_VOLUME_5_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOhZEXALVolume5promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_ZEXAL_VOLUME_6_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_ZEXAL_VOLUME_6_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOhZEXALVolume6promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_ZEXAL_VOLUME_7_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_ZEXAL_VOLUME_7_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOhZEXALVolume7promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_ZEXAL_VOLUME_8_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_ZEXAL_VOLUME_8_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOhZEXALVolume8promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_ZEXAL_VOLUME_9_PROMOTIONAL_CARD] =
+	[PACK_YU_GI_OH_ZEXAL_VOLUME_9_PROMOTIONAL_CARD] =
 	{
         .pack = gYuGiOhZEXALVolume9promotionalcard,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_ZEXAL_WORLD_DUEL_CARNIVAL_PROMOTIONAL_CARDS] =
+	[PACK_YU_GI_OH_ZEXAL_WORLD_DUEL_CARNIVAL_PROMOTIONAL_CARDS] =
 	{
         .pack = gYuGiOhZEXALWorldDuelCarnivalpromotionalcards,
         .length = 0,
 	},
-	[ITEM_PACK_YU_GI_OH_AT_HOME_SWEEPSTAKES] =
+	[PACK_YU_GI_OH_AT_HOME_SWEEPSTAKES] =
 	{
         .pack = gYuGiOhatHomeSweepstakes,
         .length = 0,
 	},
-	[ITEM_PACK_YUGI_KAIBA_COLLECTOR_BOX] =
+	[PACK_YUGI_KAIBA_COLLECTOR_BOX] =
 	{
         .pack = gYugiKaibaCollectorBox,
         .length = 1,
 	},
-	[ITEM_PACK_YUGI_S_LEGENDARY_DECKS] =
+	[PACK_YUGI_S_LEGENDARY_DECKS] =
 	{
         .pack = gYugisLegendaryDecks,
         .length = 32,
 	},
-	[ITEM_PACK_ZEXAL_COLLECTION_TIN] =
+	[PACK_ZEXAL_COLLECTION_TIN] =
 	{
         .pack = gZexalCollectionTin,
         .length = 0,
 	},
-	[ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK] =
+	[PACK_ZOMBIE_WORLD_STRUCTURE_DECK] =
 	{
         .pack = gZombieWorldStructureDeck,
         .length = 14,

@@ -1156,6 +1156,7 @@ static u16 PullCardFromPack(u16 pack)
     for (i = 0; i < length; i++)
     {
         j -= gPacks[pack].pack[i].rarity;
+        DebugPrintf("j: %d, gPacks[pack].pack[i].rarity=%d", j, gPacks[pack].pack[i].rarity);
         if (j <= gPacks[pack].pack[i].rarity)
         {
             gSpecialVar_0x8004 = gPacks[pack].pack[i].card;
