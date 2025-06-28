@@ -1877,8 +1877,9 @@
 #define ITEM_PACK_YUGI_S_LEGENDARY_DECKS 1833
 #define ITEM_PACK_ZEXAL_COLLECTION_TIN 1834
 #define ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1835
+#define ITEM_PACK_YUGI_KAIBA 1836
 
-#define ITEMS_COUNT 1836
+#define ITEMS_COUNT 1837
 
 // A special item id associated with "Cancel"/"Exit" etc. in a list of items or decorations
 // Its icon is defined at ITEMS_COUNT as the "return to field" arrow

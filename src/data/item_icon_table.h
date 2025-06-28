@@ -1860,6 +1860,7 @@ const u32 *const gItemIconTable[ITEMS_COUNT + 1][2] =
 	[ITEM_PACK_YUGI_S_LEGENDARY_DECKS] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
 	[ITEM_PACK_ZEXAL_COLLECTION_TIN] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
 	[ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
+	[ITEM_PACK_YUGI_KAIBA] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
     // Return to field arrow
     [ITEMS_COUNT] = {gItemIcon_ReturnToFieldArrow, gItemIconPalette_ReturnToFieldArrow},
 };

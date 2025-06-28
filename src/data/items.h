@@ -20575,4 +20575,15 @@ const struct Item gItems[] =
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
     },
+
+	[ITEM_PACK_YUGI_KAIBA] =
+    {
+        .name = _("Yugi-Kaiba"),
+        .itemId = ITEM_PACK_YUGI_KAIBA,
+        .price = 0,
+        .description = sDummyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
 };

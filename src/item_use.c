@@ -44,6 +44,7 @@
 #include "event_scripts.h"
 #include "ygo.h"
 #include "random.h"
+#include "constants/ygo.h"
 
 static void SetUpItemUseCallback(u8);
 static void FieldCB_UseItemOnField(void);
@@ -1146,31 +1147,75 @@ static u16 PullCardFromPack(u16 pack)
     u32 i,  random;
     u32 j, k = 0;
     s32 l = 0;
-    u32 length = gPacks[pack].length;
-    for (i = 0; i < length; i++)
+    u32 length; 
+    if (pack < PACK_YUGI_KAIBA)
     {
-        j += gPacks[pack].pack[i].rarity;
-    }
-    for (k = 0; k < 5; k++)
-    {
-        random = Random() % j;
-        l = random;
+        length = gPacks[pack].length;
         for (i = 0; i < length; i++)
         {
-            l -= gPacks[pack].pack[i].rarity;
-            if (l <= gPacks[pack].pack[i].rarity)
+            j += gPacks[pack].pack[i].rarity;
+        }
+        for (k = 0; k < 5; k++)
+        {
+            random = Random() % j;
+            l = random;
+            for (i = 0; i < length; i++)
             {
-                if (k == 0)
-                    gSpecialVar_0x8004 = gPacks[pack].pack[i].card;
-                else if (k == 1)
-                    gSpecialVar_0x8005 = gPacks[pack].pack[i].card;
-                else if (k == 2)
-                    gSpecialVar_0x8006 = gPacks[pack].pack[i].card;
-                else if (k == 3)
-                    gSpecialVar_0x8007 = gPacks[pack].pack[i].card;
-                else if (k == 4)
-                    gSpecialVar_0x8008 = gPacks[pack].pack[i].card;
-                break;
+                l -= gPacks[pack].pack[i].rarity;
+                if (l <= gPacks[pack].pack[i].rarity)
+                {
+                    if (k == 0)
+                        gSpecialVar_0x8004 = gPacks[pack].pack[i].card;
+                    else if (k == 1)
+                        gSpecialVar_0x8005 = gPacks[pack].pack[i].card;
+                    else if (k == 2)
+                        gSpecialVar_0x8006 = gPacks[pack].pack[i].card;
+                    else if (k == 3)
+                        gSpecialVar_0x8007 = gPacks[pack].pack[i].card;
+                    else if (k == 4)
+                        gSpecialVar_0x8008 = gPacks[pack].pack[i].card;
+                    break;
+                }
+            }
+        }
+    }
+    else
+    {
+        u16 cards[NUM_CARDS];
+        u16 priceOffset = (PACK_YUGI_KAIBA - pack) * 2;
+        for (i = 0; i < NUM_CARDS; i++)
+        {
+            if (gCardInfo[i].priceYK + priceOffset)
+            {
+                j += 1000 - gCardInfo[i].priceYK + priceOffset;
+                cards[length] = i;
+                length += 1;
+            }
+        }
+        for (k = 0; k < 5; k++)
+        {
+            random = Random() % j;
+            l = random;
+            for (i = 0; i < length; i++)
+            {
+                u16 rarity = 1000 - gCardInfo[cards[i]].priceYK + priceOffset;
+                u16 card = cards[i];
+                DebugPrintf("card=%S", gCardInfo[card].name);
+                l -= rarity;
+                if (l <= rarity)
+                {
+                    if (k == 0)
+                        gSpecialVar_0x8004 = card + 376;
+                    else if (k == 1)
+                        gSpecialVar_0x8005 = card + 376;
+                    else if (k == 2)
+                        gSpecialVar_0x8006 = card + 376;
+                    else if (k == 3)
+                        gSpecialVar_0x8007 = card + 376;
+                    else if (k == 4)
+                        gSpecialVar_0x8008 = card + 376;
+                    break;
+                }
             }
         }
     }
