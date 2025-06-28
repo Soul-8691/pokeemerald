@@ -38,6 +38,9 @@
 #include "constants/metatile_behaviors.h"
 #include "constants/rgb.h"
 #include "constants/songs.h"
+#include "ygo.h"
+#include "ygo_graphics.h"
+#include "constants/ygo.h"
 
 #define TAG_SCROLL_ARROW   2100
 #define TAG_ITEM_ICON_BASE 2110
@@ -129,6 +132,7 @@ static void BuyMenuSetListEntry(struct ListMenuItem *, u16, u8 *);
 static void BuyMenuAddItemIcon(u16, u8);
 static void BuyMenuRemoveItemIcon(u16, u8);
 static void BuyMenuPrint(u8 windowId, const u8 *text, u8 x, u8 y, s8 speed, u8 colorSet);
+static void BuyMenuPrintSmallNarrow(u8 windowId, const u8 *text, u8 x, u8 y, s8 speed, u8 colorSet);
 static void BuyMenuDrawMapGraphics(void);
 static void BuyMenuCopyMenuBgToBg1TilemapBuffer(void);
 static void BuyMenuCollectObjectEventData(void);
@@ -282,9 +286,9 @@ static const struct WindowTemplate sShopBuyMenuWindowTemplates[] =
     [WIN_ITEM_DESCRIPTION] = {
         .bg = 0,
         .tilemapLeft = 0,
-        .tilemapTop = 13,
-        .width = 14,
-        .height = 6,
+        .tilemapTop = 12,
+        .width = 13,
+        .height = 7,
         .paletteNum = 15,
         .baseBlock = 0x0122,
     },
@@ -295,7 +299,7 @@ static const struct WindowTemplate sShopBuyMenuWindowTemplates[] =
         .width = 12,
         .height = 2,
         .paletteNum = 15,
-        .baseBlock = 0x0176,
+        .baseBlock = 0x19E,
     },
     [WIN_QUANTITY_PRICE] = {
         .bg = 0,
@@ -304,7 +308,7 @@ static const struct WindowTemplate sShopBuyMenuWindowTemplates[] =
         .width = 10,
         .height = 2,
         .paletteNum = 15,
-        .baseBlock = 0x018E,
+        .baseBlock = 0x017E,
     },
     [WIN_MESSAGE] = {
         .bg = 0,
@@ -313,7 +317,7 @@ static const struct WindowTemplate sShopBuyMenuWindowTemplates[] =
         .width = 27,
         .height = 4,
         .paletteNum = 15,
-        .baseBlock = 0x01A2,
+        .baseBlock = 0x1B6,
     },
     DUMMY_WIN_TEMPLATE
 };
@@ -590,6 +594,14 @@ static void BuyMenuSetListEntry(struct ListMenuItem *menuItem, u16 item, u8 *nam
 static void BuyMenuPrintItemDescriptionAndShowItemIcon(s32 item, bool8 onInit, struct ListMenu *list)
 {
     const u8 *description;
+    u16 card = CardIdMapping[item];
+    u8 attribute = gCardInfo[card].attribute;
+    u8 race = gCardInfo[card].race;
+    u8 type = gCardInfo[card].type;
+    const u8 *cardName = gCardInfo[card].nameShort;
+    u16 cardAtk = gCardInfo[card].atk * 10;
+    u16 cardDef = gCardInfo[card].def * 10;
+    u8 cardLevel = gCardInfo[card].level;
     if (onInit != TRUE)
         PlaySE(SE_SELECT);
 
@@ -613,7 +625,21 @@ static void BuyMenuPrintItemDescriptionAndShowItemIcon(s32 item, bool8 onInit, s
     }
 
     FillWindowPixelBuffer(WIN_ITEM_DESCRIPTION, PIXEL_FILL(0));
-    BuyMenuPrint(WIN_ITEM_DESCRIPTION, description, 3, 1, 0, COLORID_NORMAL);
+    if (card == 0)
+        BuyMenuPrint(WIN_ITEM_DESCRIPTION, description, 3, 1, 0, COLORID_NORMAL);
+    else
+    {
+        BuyMenuPrintSmallNarrow(WIN_ITEM_DESCRIPTION, cardName, 0, 4, 0, COLORID_NORMAL);
+        ConvertIntToDecimalStringN(gStringVar1, cardLevel, STR_CONV_MODE_LEFT_ALIGN, 2);
+        StringExpandPlaceholders(gStringVar4, gText_xLevel);
+        BuyMenuPrintSmallNarrow(WIN_ITEM_DESCRIPTION, gStringVar4, 0, 16, 0, COLORID_NORMAL);
+        ConvertIntToDecimalStringN(gStringVar1, cardAtk, STR_CONV_MODE_LEFT_ALIGN, 4);
+        StringExpandPlaceholders(gStringVar4, gText_xAtk);
+        BuyMenuPrintSmallNarrow(WIN_ITEM_DESCRIPTION, gStringVar4, 0, 28, 0, COLORID_NORMAL);
+        ConvertIntToDecimalStringN(gStringVar1, cardDef, STR_CONV_MODE_LEFT_ALIGN, 4);
+        StringExpandPlaceholders(gStringVar4, gText_xDef);
+        BuyMenuPrintSmallNarrow(WIN_ITEM_DESCRIPTION, gStringVar4, 0, 40, 0, COLORID_NORMAL);
+    }
 }
 
 static void BuyMenuPrintPriceInList(u8 windowId, u32 itemId, u8 y)
@@ -757,6 +783,11 @@ static void BuyMenuInitWindows(void)
 static void BuyMenuPrint(u8 windowId, const u8 *text, u8 x, u8 y, s8 speed, u8 colorSet)
 {
     AddTextPrinterParameterized4(windowId, FONT_NORMAL, x, y, 0, 0, sShopBuyMenuTextColors[colorSet], speed, text);
+}
+
+static void BuyMenuPrintSmallNarrow(u8 windowId, const u8 *text, u8 x, u8 y, s8 speed, u8 colorSet)
+{
+    AddTextPrinterParameterized4(windowId, FONT_SMALL_NARROW, x, y, 0, 0, sShopBuyMenuTextColors[colorSet], speed, text);
 }
 
 static void BuyMenuDisplayMessage(u8 taskId, const u8 *text, TaskFunc callback)
