@@ -279,7 +279,7 @@ bool8 AddBagItem(u16 itemId, u16 count)
         else
             slotCapacity = MAX_BERRY_CAPACITY;
 
-        if (itemId > 376)
+        if (pocket == POCKET_TRUNK || pocket == POCKET_MAIN_DECK || pocket == POCKET_EXTRA_DECK || pocket == POCKET_SIDE_DECK)
             slotCapacity = 3;
 
         for (i = 0; i < itemPocket->capacity; i++)

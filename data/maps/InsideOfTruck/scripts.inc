@@ -518,12 +518,15 @@ InsideOfTruck_EventScript_MovingBox::
 	additem ITEM_ZABORG_THE_THUNDER_MONARCH
 	additem ITEM_ZOMBYRA_THE_DARK
 	additem ITEM_ZURE_KNIGHT_OF_DARK_WORLD
+	end
+
+InsideOfTruck_EventScript_MovingBox2::
 	additem ITEM_PACK_LEGEND_OF_BLUE_EYES_WHITE_DRAGON
 	additem ITEM_PACK_STARTER_DECK_YUGI
 	additem ITEM_PACK_STARTER_DECK_KAIBA
 	end
 
-InsideOfTruck_EventScript_MovingBox2::
+InsideOfTruck_EventScript_MovingBox3::
 	setvar VAR_YGO_BATTLE, 1
 	trainerbattle_no_intro TRAINER_STEVEN, MeteorFalls_StevensCave_Text_StevenDefeat
 	end

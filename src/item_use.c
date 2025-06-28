@@ -1172,6 +1172,7 @@ void Task_PullCards(u8 taskId)
         PullCardFromPack(pack);
         ScriptContext_SetupScript(EventScript_PulledCard);
         AddBagItem(gSpecialVar_0x8004, 1);
+        RemoveBagItem(gSpecialVar_ItemId, 1);
     }
     DestroyTask(taskId);
 }
