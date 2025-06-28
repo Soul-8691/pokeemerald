@@ -1143,26 +1143,38 @@ void ItemUseOutOfBattle_CannotUse(u8 taskId)
 
 static u16 PullCardFromPack(u16 pack)
 {
-    u32 i;
-    u16 random;
-    u16 j = 0;
-    s32 length = gPacks[pack].length;
+    u32 i,  random;
+    u32 j, k = 0;
+    s32 l = 0;
+    u32 length = gPacks[pack].length;
     for (i = 0; i < length; i++)
     {
         j += gPacks[pack].pack[i].rarity;
     }
-    random = Random() % j;
-    j = random;
-    for (i = 0; i < length; i++)
+    for (k = 0; k < 5; k++)
     {
-        j -= gPacks[pack].pack[i].rarity;
-        DebugPrintf("j: %d, gPacks[pack].pack[i].rarity=%d", j, gPacks[pack].pack[i].rarity);
-        if (j <= gPacks[pack].pack[i].rarity)
+        random = Random() % j;
+        l = random;
+        for (i = 0; i < length; i++)
         {
-            gSpecialVar_0x8004 = gPacks[pack].pack[i].card;
-            return gPacks[pack].pack[i].card;
+            l -= gPacks[pack].pack[i].rarity;
+            if (l <= gPacks[pack].pack[i].rarity)
+            {
+                if (k == 0)
+                    gSpecialVar_0x8004 = gPacks[pack].pack[i].card;
+                else if (k == 1)
+                    gSpecialVar_0x8005 = gPacks[pack].pack[i].card;
+                else if (k == 2)
+                    gSpecialVar_0x8006 = gPacks[pack].pack[i].card;
+                else if (k == 3)
+                    gSpecialVar_0x8007 = gPacks[pack].pack[i].card;
+                else if (k == 4)
+                    gSpecialVar_0x8008 = gPacks[pack].pack[i].card;
+                break;
+            }
         }
     }
+    return 0;
 }
 
 void Task_PullCards(u8 taskId)
@@ -1173,6 +1185,10 @@ void Task_PullCards(u8 taskId)
         PullCardFromPack(pack);
         ScriptContext_SetupScript(EventScript_PulledCard);
         AddBagItem(gSpecialVar_0x8004, 1);
+        AddBagItem(gSpecialVar_0x8005, 1);
+        AddBagItem(gSpecialVar_0x8006, 1);
+        AddBagItem(gSpecialVar_0x8007, 1);
+        AddBagItem(gSpecialVar_0x8008, 1);
         RemoveBagItem(gSpecialVar_ItemId, 1);
     }
     DestroyTask(taskId);

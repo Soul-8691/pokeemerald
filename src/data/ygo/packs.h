@@ -32,7 +32,8 @@
 #define RARITY_DUEL_TERMINAL_SUPER_PARALLEL_RARE 1
 
 const struct PackContents g2PlayerStarterDeckYuyaDeclan[] =
-{	{ITEM_ARCHFIEND_SOLDIER, RARITY_COMMON},
+{
+	{ITEM_ARCHFIEND_SOLDIER, RARITY_COMMON},
 	{ITEM_AXE_OF_DESPAIR, RARITY_COMMON},
 	{ITEM_BLACK_PENDANT, RARITY_COMMON},
 	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
@@ -51,7 +52,8 @@ const struct PackContents g2PlayerStarterDeckYuyaDeclan[] =
 };
 
 const struct PackContents g2PlayerStarterSet[] =
-{	{ITEM_BOOK_OF_MOON, RARITY_COMMON},
+{
+	{ITEM_BOOK_OF_MOON, RARITY_COMMON},
 	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
 	{ITEM_CHIRON_THE_MAGE, RARITY_COMMON},
 	{ITEM_CYBER_DRAGON, RARITY_COMMON},
@@ -74,7 +76,8 @@ const struct PackContents g2PlayerStarterSet[] =
 };
 
 const struct PackContents g2013CollectibleTinsWave1[] =
-{	{ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_SUPER_RARE},
+{
+	{ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_SUPER_RARE},
 };
 
 const struct PackContents g2013CollectibleTinsWave2[] =
@@ -96,7 +99,8 @@ const struct PackContents g2016MegaTinMegaPack[] =
 {};
 
 const struct PackContents g2016MegaTins[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
 	{ITEM_DARK_MAGICIAN, RARITY_ULTRA_RARE},
 };
 
@@ -104,7 +108,8 @@ const struct PackContents g2017MegaTinMegaPack[] =
 {};
 
 const struct PackContents g2017MegaTins[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_SECRET_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_SECRET_RARE},
 	{ITEM_DARK_MAGICIAN, RARITY_SECRET_RARE},
 };
 
@@ -115,7 +120,8 @@ const struct PackContents g2018MegaTins[] =
 {};
 
 const struct PackContents g2019GoldSarcophagusTin[] =
-{	{ITEM_MONSTER_REBORN, RARITY_PRISMATIC_SECRET_RARE},
+{
+	{ITEM_MONSTER_REBORN, RARITY_PRISMATIC_SECRET_RARE},
 	{ITEM_RAIGEKI, RARITY_PRISMATIC_SECRET_RARE},
 };
 
@@ -132,18 +138,21 @@ const struct PackContents g2021TinofAncientBattles[] =
 {};
 
 const struct PackContents g2022TinofthePharaohsGods[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_PRISMATIC_SECRET_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_PRISMATIC_SECRET_RARE},
 };
 
 const struct PackContents g25thAnniversaryRarityCollection[] =
-{	{ITEM_CHANGE_OF_HEART, RARITY_ULTRA_RARE},
+{
+	{ITEM_CHANGE_OF_HEART, RARITY_ULTRA_RARE},
 	{ITEM_COMPULSORY_EVACUATION_DEVICE, RARITY_ULTRA_RARE},
 	{ITEM_REASONING, RARITY_ULTRA_RARE},
 	{ITEM_REINFORCEMENT_OF_THE_ARMY, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents g25thAnniversaryRarityCollectionII[] =
-{	{ITEM_ANTI_SPELL_FRAGRANCE, RARITY_ULTRA_RARE},
+{
+	{ITEM_ANTI_SPELL_FRAGRANCE, RARITY_ULTRA_RARE},
 	{ITEM_BOOK_OF_MOON, RARITY_ULTRA_RARE},
 	{ITEM_ENEMY_CONTROLLER, RARITY_ULTRA_RARE},
 	{ITEM_MIND_CONTROL, RARITY_ULTRA_RARE},
@@ -155,7 +164,8 @@ const struct PackContents g25thAnniversaryRarityCollectionII[] =
 };
 
 const struct PackContents g25thAnniversaryTinDuelingHeroes[] =
-{	{ITEM_CYBER_DRAGON, RARITY_QUARTER_CENTURY_SECRET_RARE},
+{
+	{ITEM_CYBER_DRAGON, RARITY_QUARTER_CENTURY_SECRET_RARE},
 	{ITEM_EXODIA_THE_FORBIDDEN_ONE, RARITY_QUARTER_CENTURY_SECRET_RARE},
 };
 
@@ -163,7 +173,8 @@ const struct PackContents g25thAnniversaryTinDuelingHeroesMegaPack[] =
 {};
 
 const struct PackContents g25thAnniversaryTinDuelingMirrors[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_QUARTER_CENTURY_SECRET_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_QUARTER_CENTURY_SECRET_RARE},
 	{ITEM_HARPIE_S_FEATHER_DUSTER, RARITY_PRISMATIC_SECRET_RARE},
 	{ITEM_LEFT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_QUARTER_CENTURY_SECRET_RARE},
 	{ITEM_LEFT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_QUARTER_CENTURY_SECRET_RARE},
@@ -176,7 +187,8 @@ const struct PackContents g25thAnniversaryTinDuelingMirrors[] =
 };
 
 const struct PackContents g25thAnniversaryUltimateKaibaSet[] =
-{	{ITEM_BATTLE_OX, RARITY_ULTRA_RARE},
+{
+	{ITEM_BATTLE_OX, RARITY_ULTRA_RARE},
 	{ITEM_BLADE_KNIGHT, RARITY_ULTRA_RARE},
 	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
 	{ITEM_CRUSH_CARD_VIRUS, RARITY_ULTRA_RARE},
@@ -215,7 +227,8 @@ const struct PackContents gAbyssRisingSpecialEdition[] =
 {};
 
 const struct PackContents gAdvancedDemoDeckExtraPack[] =
-{	{ITEM_POLYMERIZATION, RARITY_COMMON},
+{
+	{ITEM_POLYMERIZATION, RARITY_COMMON},
 };
 
 const struct PackContents gAgeofOverlord[] =
@@ -225,7 +238,8 @@ const struct PackContents gAllianceInsight[] =
 {};
 
 const struct PackContents gAmazingDefenders[] =
-{	{ITEM_LIMITER_REMOVAL, RARITY_RARE},
+{
+	{ITEM_LIMITER_REMOVAL, RARITY_RARE},
 	{ITEM_REINFORCEMENT_OF_THE_ARMY, RARITY_RARE},
 };
 
@@ -242,7 +256,8 @@ const struct PackContents gAncientProphecySpecialEdition[] =
 {};
 
 const struct PackContents gAncientSanctuary[] =
-{	{ITEM_BLOWBACK_DRAGON, RARITY_ULTRA_RARE},
+{
+	{ITEM_BLOWBACK_DRAGON, RARITY_ULTRA_RARE},
 	{ITEM_DESERT_SUNLIGHT, RARITY_COMMON},
 	{ITEM_EMISSARY_OF_THE_AFTERLIFE, RARITY_SUPER_RARE},
 	{ITEM_ENEMY_CONTROLLER, RARITY_ULTRA_RARE},
@@ -262,7 +277,8 @@ const struct PackContents gAncientSanctuary[] =
 };
 
 const struct PackContents gAnniversaryPack[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
 	{ITEM_BUSTER_BLADER, RARITY_ULTRA_RARE},
 	{ITEM_GYAKUTENNO_MEGAMI, RARITY_ULTRA_RARE},
 	{ITEM_JINZO, RARITY_ULTRA_RARE},
@@ -270,53 +286,62 @@ const struct PackContents gAnniversaryPack[] =
 };
 
 const struct PackContents gAstralPackEight[] =
-{	{ITEM_MYSTICAL_SPACE_TYPHOON, RARITY_ULTIMATE_RARE},
+{
+	{ITEM_MYSTICAL_SPACE_TYPHOON, RARITY_ULTIMATE_RARE},
 	{ITEM_TOON_MASKED_SORCERER, RARITY_SUPER_RARE},
 	{ITEM_TWIN_HEADED_BEHEMOTH, RARITY_COMMON},
 };
 
 const struct PackContents gAstralPackFive[] =
-{	{ITEM_BOOK_OF_MOON, RARITY_COMMON},
+{
+	{ITEM_BOOK_OF_MOON, RARITY_COMMON},
 	{ITEM_SOUL_EXCHANGE, RARITY_COMMON},
 };
 
 const struct PackContents gAstralPackFour[] =
-{	{ITEM_MAGICAL_MERCHANT, RARITY_COMMON},
+{
+	{ITEM_MAGICAL_MERCHANT, RARITY_COMMON},
 	{ITEM_NECROVALLEY, RARITY_ULTIMATE_RARE},
 	{ITEM_REASONING, RARITY_COMMON},
 };
 
 const struct PackContents gAstralPackOne[] =
-{	{ITEM_TERRAFORMING, RARITY_SUPER_RARE},
+{
+	{ITEM_TERRAFORMING, RARITY_SUPER_RARE},
 	{ITEM_TSUKUYOMI, RARITY_ULTIMATE_RARE},
 };
 
 const struct PackContents gAstralPackSeven[] =
-{	{ITEM_LEVEL_LIMIT_AREA_B, RARITY_SUPER_RARE},
+{
+	{ITEM_LEVEL_LIMIT_AREA_B, RARITY_SUPER_RARE},
 	{ITEM_SPIRITUAL_WIND_ART_MIYABI, RARITY_COMMON},
 };
 
 const struct PackContents gAstralPackSix[] =
-{	{ITEM_CEASEFIRE, RARITY_COMMON},
+{
+	{ITEM_CEASEFIRE, RARITY_COMMON},
 	{ITEM_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL, RARITY_COMMON},
 	{ITEM_NOBLEMAN_OF_CROSSOUT, RARITY_COMMON},
 };
 
 const struct PackContents gAstralPackThree[] =
-{	{ITEM_DES_LACOODA, RARITY_COMMON},
+{
+	{ITEM_DES_LACOODA, RARITY_COMMON},
 	{ITEM_JOWGEN_THE_SPIRITUALIST, RARITY_COMMON},
 	{ITEM_SWARM_OF_LOCUSTS, RARITY_COMMON},
 	{ITEM_SWARM_OF_SCARABS, RARITY_COMMON},
 };
 
 const struct PackContents gAstralPackTwo[] =
-{	{ITEM_POT_OF_AVARICE, RARITY_COMMON},
+{
+	{ITEM_POT_OF_AVARICE, RARITY_COMMON},
 	{ITEM_SKY_SCOUT, RARITY_SHORT_PRINT},
 	{ITEM_SPIRITUAL_WATER_ART_AOI, RARITY_SUPER_RARE},
 };
 
 const struct PackContents gBattlePack2WaroftheGiants[] =
-{	{ITEM_AIRKNIGHT_PARSHATH, RARITY_RARE},
+{
+	{ITEM_AIRKNIGHT_PARSHATH, RARITY_RARE},
 	{ITEM_AXE_OF_DESPAIR, RARITY_MOSAIC_RARE},
 	{ITEM_BAZOO_THE_SOUL_EATER, RARITY_MOSAIC_RARE},
 	{ITEM_BIG_BANG_SHOT, RARITY_MOSAIC_RARE},
@@ -367,7 +392,8 @@ const struct PackContents gBattlePack2WaroftheGiants[] =
 };
 
 const struct PackContents gBattlePack3MonsterLeague[] =
-{	{ITEM_ARSENAL_BUG, RARITY_SHATTERFOIL_RARE},
+{
+	{ITEM_ARSENAL_BUG, RARITY_SHATTERFOIL_RARE},
 	{ITEM_BAZOO_THE_SOUL_EATER, RARITY_SHATTERFOIL_RARE},
 	{ITEM_BERSERK_GORILLA, RARITY_SHATTERFOIL_RARE},
 	{ITEM_BLAST_WITH_CHAIN, RARITY_SHATTERFOIL_RARE},
@@ -390,13 +416,15 @@ const struct PackContents gBattlePack3MonsterLeague[] =
 };
 
 const struct PackContents gBattlePackTournamentPrizeCards[] =
-{	{ITEM_BLUE_EYES_ULTIMATE_DRAGON, RARITY_STARFOIL_RARE},
+{
+	{ITEM_BLUE_EYES_ULTIMATE_DRAGON, RARITY_STARFOIL_RARE},
 	{ITEM_CYBER_HARPIE_LADY, RARITY_STARFOIL_RARE},
 	{ITEM_SPIRIT_REAPER, RARITY_STARFOIL_RARE},
 };
 
 const struct PackContents gBattlePackEpicDawn[] =
-{	{ITEM_AIRKNIGHT_PARSHATH, RARITY_STARFOIL_RARE},
+{
+	{ITEM_AIRKNIGHT_PARSHATH, RARITY_STARFOIL_RARE},
 	{ITEM_ARCHFIEND_SOLDIER, RARITY_STARFOIL_RARE},
 	{ITEM_ASURA_PRIEST, RARITY_STARFOIL_RARE},
 	{ITEM_AXE_OF_DESPAIR, RARITY_STARFOIL_RARE},
@@ -484,19 +512,23 @@ const struct PackContents gBattlePackEpicDawn[] =
 };
 
 const struct PackContents gBattleofChaos[] =
-{	{ITEM_DARK_MAGICIAN, RARITY_ULTRA_RARE},
+{
+	{ITEM_DARK_MAGICIAN, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gBattlesofLegendArmageddon[] =
-{	{ITEM_BOOK_OF_MOON, RARITY_ULTRA_RARE},
+{
+	{ITEM_BOOK_OF_MOON, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gBattlesofLegendChapter1[] =
-{	{ITEM_CYBER_DRAGON, RARITY_ULTRA_RARE},
+{
+	{ITEM_CYBER_DRAGON, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gBattlesofLegendCrystalRevenge[] =
-{	{ITEM_EXODIA_THE_FORBIDDEN_ONE, RARITY_STARLIGHT_RARE},
+{
+	{ITEM_EXODIA_THE_FORBIDDEN_ONE, RARITY_STARLIGHT_RARE},
 	{ITEM_LEFT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_STARLIGHT_RARE},
 	{ITEM_LEFT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_STARLIGHT_RARE},
 	{ITEM_RIGHT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_STARLIGHT_RARE},
@@ -505,28 +537,33 @@ const struct PackContents gBattlesofLegendCrystalRevenge[] =
 };
 
 const struct PackContents gBattlesofLegendHerosRevenge[] =
-{	{ITEM_CYBER_STEIN, RARITY_SECRET_RARE},
+{
+	{ITEM_CYBER_STEIN, RARITY_SECRET_RARE},
 };
 
 const struct PackContents gBattlesofLegendLightsRevenge[] =
-{	{ITEM_ANTI_SPELL_FRAGRANCE, RARITY_ULTRA_RARE},
+{
+	{ITEM_ANTI_SPELL_FRAGRANCE, RARITY_ULTRA_RARE},
 	{ITEM_WITCH_OF_THE_BLACK_FOREST, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gBattlesofLegendMonsterMayhem[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_STARLIGHT_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_STARLIGHT_RARE},
 	{ITEM_DARK_PALADIN, RARITY_STARLIGHT_RARE},
 	{ITEM_GEARFRIED_THE_IRON_KNIGHT, RARITY_STARLIGHT_RARE},
 	{ITEM_OJAMA_TRIO, RARITY_STARLIGHT_RARE},
 };
 
 const struct PackContents gBattlesofLegendMonstrousRevenge[] =
-{	{ITEM_DARK_HOLE, RARITY_SECRET_RARE},
+{
+	{ITEM_DARK_HOLE, RARITY_SECRET_RARE},
 	{ITEM_TERRAFORMING, RARITY_SECRET_RARE},
 };
 
 const struct PackContents gBattlesofLegendRelentlessRevenge[] =
-{	{ITEM_BOTTOMLESS_TRAP_HOLE, RARITY_ULTRA_RARE},
+{
+	{ITEM_BOTTOMLESS_TRAP_HOLE, RARITY_ULTRA_RARE},
 	{ITEM_CYBER_DRAGON, RARITY_ULTRA_RARE},
 	{ITEM_MONSTER_REBORN, RARITY_SECRET_RARE},
 	{ITEM_SOLEMN_JUDGMENT, RARITY_ULTRA_RARE},
@@ -534,7 +571,8 @@ const struct PackContents gBattlesofLegendRelentlessRevenge[] =
 };
 
 const struct PackContents gBattlesofLegendTerminalRevenge[] =
-{	{ITEM_SNATCH_STEAL, RARITY_SECRET_RARE},
+{
+	{ITEM_SNATCH_STEAL, RARITY_SECRET_RARE},
 };
 
 const struct PackContents gBlazingVortex[] =
@@ -547,7 +585,8 @@ const struct PackContents gBlueEyesAlternativeWhiteDragonSweepstakes[] =
 {};
 
 const struct PackContents gBoosterPackCollectorsTins2002[] =
-{	{ITEM_BLACK_SKULL_DRAGON, RARITY_SECRET_RARE},
+{
+	{ITEM_BLACK_SKULL_DRAGON, RARITY_SECRET_RARE},
 	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_SECRET_RARE},
 	{ITEM_DARK_MAGICIAN, RARITY_SECRET_RARE},
 	{ITEM_SUMMONED_SKULL, RARITY_SECRET_RARE},
@@ -563,19 +602,22 @@ const struct PackContents gBreakersofShadowSpecialEdition[] =
 {};
 
 const struct PackContents gBrothersofLegend[] =
-{	{ITEM_KURIBOH, RARITY_ULTRA_RARE},
+{
+	{ITEM_KURIBOH, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gBurstofDestiny[] =
 {};
 
 const struct PackContents gChampionPackGameEight[] =
-{	{ITEM_MAGICIAN_S_VALKYRIA, RARITY_RARE},
+{
+	{ITEM_MAGICIAN_S_VALKYRIA, RARITY_RARE},
 	{ITEM_ROYAL_OPPRESSION, RARITY_COMMON},
 };
 
 const struct PackContents gChampionPackGameFive[] =
-{	{ITEM_ANTI_SPELL_FRAGRANCE, RARITY_RARE},
+{
+	{ITEM_ANTI_SPELL_FRAGRANCE, RARITY_RARE},
 	{ITEM_BLOWBACK_DRAGON, RARITY_RARE},
 	{ITEM_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL, RARITY_COMMON},
 	{ITEM_DARK_RULER_HA_DES, RARITY_RARE},
@@ -589,7 +631,8 @@ const struct PackContents gChampionPackGameFive[] =
 };
 
 const struct PackContents gChampionPackGameFour[] =
-{	{ITEM_BOTTOMLESS_TRAP_HOLE, RARITY_SUPER_RARE},
+{
+	{ITEM_BOTTOMLESS_TRAP_HOLE, RARITY_SUPER_RARE},
 	{ITEM_CIPHER_SOLDIER, RARITY_RARE},
 	{ITEM_CONFISCATION, RARITY_RARE},
 	{ITEM_D_D_SURVIVOR, RARITY_COMMON},
@@ -606,7 +649,8 @@ const struct PackContents gChampionPackGameFour[] =
 };
 
 const struct PackContents gChampionPackGameOne[] =
-{	{ITEM_BIG_SHIELD_GARDNA, RARITY_RARE},
+{
+	{ITEM_BIG_SHIELD_GARDNA, RARITY_RARE},
 	{ITEM_BOOK_OF_MOON, RARITY_SUPER_RARE},
 	{ITEM_EMISSARY_OF_THE_AFTERLIFE, RARITY_COMMON},
 	{ITEM_ENEMY_CONTROLLER, RARITY_RARE},
@@ -623,20 +667,23 @@ const struct PackContents gChampionPackGameOne[] =
 };
 
 const struct PackContents gChampionPackGameSeven[] =
-{	{ITEM_FUSILIER_DRAGON_THE_DUAL_MODE_BEAST, RARITY_COMMON},
+{
+	{ITEM_FUSILIER_DRAGON_THE_DUAL_MODE_BEAST, RARITY_COMMON},
 	{ITEM_LEGENDARY_JUJITSU_MASTER, RARITY_SUPER_RARE},
 	{ITEM_THREATENING_ROAR, RARITY_SUPER_RARE},
 };
 
 const struct PackContents gChampionPackGameSix[] =
-{	{ITEM_BLADE_KNIGHT, RARITY_RARE},
+{
+	{ITEM_BLADE_KNIGHT, RARITY_RARE},
 	{ITEM_COLD_WAVE, RARITY_COMMON},
 	{ITEM_MAGE_POWER, RARITY_RARE},
 	{ITEM_PHOENIX_WING_WIND_BLAST, RARITY_SUPER_RARE},
 };
 
 const struct PackContents gChampionPackGameThree[] =
-{	{ITEM_CHIRON_THE_MAGE, RARITY_COMMON},
+{
+	{ITEM_CHIRON_THE_MAGE, RARITY_COMMON},
 	{ITEM_D_D_ASSAILANT, RARITY_RARE},
 	{ITEM_DARK_WORLD_LIGHTNING, RARITY_SUPER_RARE},
 	{ITEM_GRAVEKEEPER_S_SPY, RARITY_SUPER_RARE},
@@ -648,7 +695,8 @@ const struct PackContents gChampionPackGameThree[] =
 };
 
 const struct PackContents gChampionPackGameTwo[] =
-{	{ITEM_ABYSS_SOLDIER, RARITY_RARE},
+{
+	{ITEM_ABYSS_SOLDIER, RARITY_RARE},
 	{ITEM_BIG_BANG_SHOT, RARITY_COMMON},
 	{ITEM_BOOK_OF_TAIYOU, RARITY_COMMON},
 	{ITEM_CEASEFIRE, RARITY_COMMON},
@@ -703,7 +751,8 @@ const struct PackContents gCodeoftheDuelistSpecialEdition[] =
 {};
 
 const struct PackContents gCollectibleTins2003[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_SECRET_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_SECRET_RARE},
 	{ITEM_BUSTER_BLADER, RARITY_SECRET_RARE},
 	{ITEM_DARK_MAGICIAN, RARITY_SECRET_RARE},
 	{ITEM_GEARFRIED_THE_IRON_KNIGHT, RARITY_SECRET_RARE},
@@ -711,17 +760,20 @@ const struct PackContents gCollectibleTins2003[] =
 };
 
 const struct PackContents gCollectibleTins2004[] =
-{	{ITEM_BLADE_KNIGHT, RARITY_SECRET_RARE},
+{
+	{ITEM_BLADE_KNIGHT, RARITY_SECRET_RARE},
 	{ITEM_COMMAND_KNIGHT, RARITY_SECRET_RARE},
 };
 
 const struct PackContents gCollectibleTins2005[] =
-{	{ITEM_EXARION_UNIVERSE, RARITY_SECRET_RARE},
+{
+	{ITEM_EXARION_UNIVERSE, RARITY_SECRET_RARE},
 	{ITEM_VORSE_RAIDER, RARITY_SECRET_RARE},
 };
 
 const struct PackContents gCollectibleTins2006Wave1[] =
-{	{ITEM_CYBER_DRAGON, RARITY_SECRET_RARE},
+{
+	{ITEM_CYBER_DRAGON, RARITY_SECRET_RARE},
 };
 
 const struct PackContents gCollectibleTins2006Wave2[] =
@@ -749,7 +801,8 @@ const struct PackContents gCollectibleTins2010Wave1[] =
 {};
 
 const struct PackContents gCollectibleTins2010Wave2[] =
-{	{ITEM_MAGICIAN_S_VALKYRIA, RARITY_SUPER_RARE},
+{
+	{ITEM_MAGICIAN_S_VALKYRIA, RARITY_SUPER_RARE},
 };
 
 const struct PackContents gCollectibleTins2011Wave1[] =
@@ -813,7 +866,8 @@ const struct PackContents gCrossroadsofChaosSpecialEdition[] =
 {};
 
 const struct PackContents gCyberDragonRevolutionStructureDeck[] =
-{	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+{
+	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
 	{ITEM_CYBER_DRAGON, RARITY_COMMON},
 	{ITEM_CYBER_TWIN_DRAGON, RARITY_ULTRA_RARE},
 	{ITEM_LIMITER_REMOVAL, RARITY_COMMON},
@@ -840,7 +894,8 @@ const struct PackContents gCyberneticHorizonSpecialEdition[] =
 {};
 
 const struct PackContents gCyberneticRevolution[] =
-{	{ITEM_CYBER_DRAGON, RARITY_ULTIMATE_RARE},
+{
+	{ITEM_CYBER_DRAGON, RARITY_ULTIMATE_RARE},
 	{ITEM_CYBER_END_DRAGON, RARITY_ULTRA_RARE},
 	{ITEM_CYBER_TWIN_DRAGON, RARITY_ULTIMATE_RARE},
 	{ITEM_DRAGON_S_MIRROR, RARITY_SHORT_PRINT},
@@ -861,7 +916,8 @@ const struct PackContents gCyberstormAccess[] =
 {};
 
 const struct PackContents gDarkBeginning1[] =
-{	{ITEM_4_STARRED_LADYBUG_OF_DOOM, RARITY_COMMON},
+{
+	{ITEM_4_STARRED_LADYBUG_OF_DOOM, RARITY_COMMON},
 	{ITEM_AMAZONESS_ARCHER, RARITY_COMMON},
 	{ITEM_AQUA_MADOOR, RARITY_COMMON},
 	{ITEM_AXE_OF_DESPAIR, RARITY_RARE},
@@ -958,7 +1014,8 @@ const struct PackContents gDarkBeginning1[] =
 };
 
 const struct PackContents gDarkBeginning2[] =
-{	{ITEM_A_LEGENDARY_OCEAN, RARITY_COMMON},
+{
+	{ITEM_A_LEGENDARY_OCEAN, RARITY_COMMON},
 	{ITEM_AIRKNIGHT_PARSHATH, RARITY_SUPER_RARE},
 	{ITEM_AQUA_SPIRIT, RARITY_COMMON},
 	{ITEM_ARSENAL_BUG, RARITY_COMMON},
@@ -1054,7 +1111,8 @@ const struct PackContents gDarkBeginning2[] =
 };
 
 const struct PackContents gDarkCrisis[] =
-{	{ITEM_ARCHFIEND_SOLDIER, RARITY_RARE},
+{
+	{ITEM_ARCHFIEND_SOLDIER, RARITY_RARE},
 	{ITEM_ARSENAL_SUMMONER, RARITY_COMMON},
 	{ITEM_BATTLE_FOOTBALLER, RARITY_COMMON},
 	{ITEM_BLINDLY_LOYAL_GOBLIN, RARITY_COMMON},
@@ -1076,7 +1134,8 @@ const struct PackContents gDarkCrisis[] =
 };
 
 const struct PackContents gDarkLegends[] =
-{	{ITEM_AXE_OF_DESPAIR, RARITY_COMMON},
+{
+	{ITEM_AXE_OF_DESPAIR, RARITY_COMMON},
 	{ITEM_BLACK_ILLUSION_RITUAL, RARITY_COMMON},
 	{ITEM_BLACK_PENDANT, RARITY_COMMON},
 	{ITEM_BLACK_SKULL_DRAGON, RARITY_RARE},
@@ -1140,7 +1199,8 @@ const struct PackContents gDarkLegends[] =
 };
 
 const struct PackContents gDarkLegionStarterDeck[] =
-{	{ITEM_ARCHFIEND_SOLDIER, RARITY_COMMON},
+{
+	{ITEM_ARCHFIEND_SOLDIER, RARITY_COMMON},
 	{ITEM_AXE_OF_DESPAIR, RARITY_COMMON},
 	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
 	{ITEM_DARK_HOLE, RARITY_SHATTERFOIL_RARE},
@@ -1166,7 +1226,8 @@ const struct PackContents gDarkNeostormSpecialEdition[] =
 {};
 
 const struct PackContents gDarkRevelationVolume1[] =
-{	{ITEM_ARCHFIEND_SOLDIER, RARITY_COMMON},
+{
+	{ITEM_ARCHFIEND_SOLDIER, RARITY_COMMON},
 	{ITEM_ARSENAL_SUMMONER, RARITY_COMMON},
 	{ITEM_BARREL_BEHIND_THE_DOOR, RARITY_RARE},
 	{ITEM_BATTLE_FOOTBALLER, RARITY_COMMON},
@@ -1233,7 +1294,8 @@ const struct PackContents gDarkRevelationVolume1[] =
 };
 
 const struct PackContents gDarkRevelationVolume2[] =
-{	{ITEM_AMPHIBIOUS_BUGROTH_MK_3, RARITY_RARE},
+{
+	{ITEM_AMPHIBIOUS_BUGROTH_MK_3, RARITY_RARE},
 	{ITEM_BERSERK_GORILLA, RARITY_RARE},
 	{ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_ULTRA_RARE},
 	{ITEM_BLAZING_INPACHI, RARITY_COMMON},
@@ -1285,7 +1347,8 @@ const struct PackContents gDarkRevelationVolume2[] =
 };
 
 const struct PackContents gDarkRevelationVolume3[] =
-{	{ITEM_BIG_TUSKED_MAMMOTH, RARITY_RARE},
+{
+	{ITEM_BIG_TUSKED_MAMMOTH, RARITY_RARE},
 	{ITEM_BRAIN_CONTROL, RARITY_SUPER_RARE},
 	{ITEM_CHARCOAL_INPACHI, RARITY_RARE},
 	{ITEM_CHIRON_THE_MAGE, RARITY_RARE},
@@ -1336,7 +1399,8 @@ const struct PackContents gDarkRevelationVolume3[] =
 };
 
 const struct PackContents gDarkRevelationVolume4[] =
-{	{ITEM_BROWW_HUNTSMAN_OF_DARK_WORLD, RARITY_RARE},
+{
+	{ITEM_BROWW_HUNTSMAN_OF_DARK_WORLD, RARITY_RARE},
 	{ITEM_BRRON_MAD_KING_OF_DARK_WORLD, RARITY_RARE},
 	{ITEM_CHAINSAW_INSECT, RARITY_RARE},
 	{ITEM_CYBER_BLADER, RARITY_RARE},
@@ -1374,7 +1438,8 @@ const struct PackContents gDarkRevelationVolume4[] =
 };
 
 const struct PackContents gDarkSaviors[] =
-{	{ITEM_MIRROR_FORCE, RARITY_SUPER_RARE},
+{
+	{ITEM_MIRROR_FORCE, RARITY_SUPER_RARE},
 	{ITEM_MYSTIC_TOMATO, RARITY_SUPER_RARE},
 	{ITEM_REINFORCEMENT_OF_THE_ARMY, RARITY_SUPER_RARE},
 	{ITEM_SCAPEGOAT, RARITY_SUPER_RARE},
@@ -1391,7 +1456,8 @@ const struct PackContents gDawnofMajestyPremierepromotionalcard[] =
 {};
 
 const struct PackContents gDemoDeck2015[] =
-{	{ITEM_BATTLE_OX, RARITY_COMMON},
+{
+	{ITEM_BATTLE_OX, RARITY_COMMON},
 	{ITEM_GIANT_SOLDIER_OF_STONE, RARITY_COMMON},
 	{ITEM_GIL_GARTH, RARITY_COMMON},
 	{ITEM_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP, RARITY_COMMON},
@@ -1402,7 +1468,8 @@ const struct PackContents gDemoDeck2015[] =
 };
 
 const struct PackContents gDemoDeck2016[] =
-{	{ITEM_DARK_HOLE, RARITY_COMMON},
+{
+	{ITEM_DARK_HOLE, RARITY_COMMON},
 	{ITEM_MIRROR_FORCE, RARITY_COMMON},
 	{ITEM_MYSTICAL_ELF, RARITY_COMMON},
 	{ITEM_NIGHTMARE_S_STEELCAGE, RARITY_COMMON},
@@ -1410,7 +1477,8 @@ const struct PackContents gDemoDeck2016[] =
 };
 
 const struct PackContents gDemoPack[] =
-{	{ITEM_DARK_BLADE, RARITY_COMMON},
+{
+	{ITEM_DARK_BLADE, RARITY_COMMON},
 	{ITEM_DES_KOALA, RARITY_COMMON},
 	{ITEM_EXILED_FORCE, RARITY_COMMON},
 	{ITEM_FISSURE, RARITY_COMMON},
@@ -1424,7 +1492,8 @@ const struct PackContents gDemoPack[] =
 };
 
 const struct PackContents gDestinySoldiers[] =
-{	{ITEM_DARK_HOLE, RARITY_SUPER_RARE},
+{
+	{ITEM_DARK_HOLE, RARITY_SUPER_RARE},
 };
 
 const struct PackContents gDimensionForce[] =
@@ -1440,13 +1509,15 @@ const struct PackContents gDimensionofChaosSpecialEdition[] =
 {};
 
 const struct PackContents gDinosmashersFuryStructureDeck[] =
-{	{ITEM_GILASAURUS, RARITY_COMMON},
+{
+	{ITEM_GILASAURUS, RARITY_COMMON},
 	{ITEM_OJAMA_TRIO, RARITY_COMMON},
 	{ITEM_TERRAFORMING, RARITY_COMMON},
 };
 
 const struct PackContents gDragonsCollideStructureDeck[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_COMMON},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_COMMON},
 	{ITEM_BOOK_OF_MOON, RARITY_COMMON},
 	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
 	{ITEM_CHAOS_SORCERER, RARITY_COMMON},
@@ -1468,7 +1539,8 @@ const struct PackContents gDragonsofLegendUnleashed[] =
 {};
 
 const struct PackContents gDragunityLegionStructureDeck[] =
-{	{ITEM_BOTTOMLESS_TRAP_HOLE, RARITY_COMMON},
+{
+	{ITEM_BOTTOMLESS_TRAP_HOLE, RARITY_COMMON},
 	{ITEM_CARD_DESTRUCTION, RARITY_COMMON},
 	{ITEM_CREATURE_SWAP, RARITY_COMMON},
 	{ITEM_DRAGON_S_RAGE, RARITY_COMMON},
@@ -1484,7 +1556,8 @@ const struct PackContents gDragunityLegionStructureDeck[] =
 };
 
 const struct PackContents gDuelDevastator[] =
-{	{ITEM_ANTI_SPELL_FRAGRANCE, RARITY_ULTRA_RARE},
+{
+	{ITEM_ANTI_SPELL_FRAGRANCE, RARITY_ULTRA_RARE},
 	{ITEM_MIND_CONTROL, RARITY_ULTRA_RARE},
 	{ITEM_ROYAL_DECREE, RARITY_ULTRA_RARE},
 	{ITEM_SPELL_CANCELLER, RARITY_ULTRA_RARE},
@@ -1495,11 +1568,13 @@ const struct PackContents gDuelDiskYuseiVersion[] =
 {};
 
 const struct PackContents gDuelMastersGuidepromotionalcards[] =
-{	{ITEM_DARK_PALADIN, RARITY_SECRET_RARE},
+{
+	{ITEM_DARK_PALADIN, RARITY_SECRET_RARE},
 };
 
 const struct PackContents gDuelOverload[] =
-{	{ITEM_COMPULSORY_EVACUATION_DEVICE, RARITY_ULTRA_RARE},
+{
+	{ITEM_COMPULSORY_EVACUATION_DEVICE, RARITY_ULTRA_RARE},
 	{ITEM_KING_DRAGUN, RARITY_ULTRA_RARE},
 	{ITEM_MYSTICAL_SPACE_TYPHOON, RARITY_ULTRA_RARE},
 	{ITEM_TERRAFORMING, RARITY_ULTRA_RARE},
@@ -1507,12 +1582,14 @@ const struct PackContents gDuelOverload[] =
 };
 
 const struct PackContents gDuelPower[] =
-{	{ITEM_DARK_MAGICIAN, RARITY_ULTRA_RARE},
+{
+	{ITEM_DARK_MAGICIAN, RARITY_ULTRA_RARE},
 	{ITEM_TOON_DARK_MAGICIAN_GIRL, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gDuelTerminalPreviewWave1[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
 	{ITEM_BUSTER_BLADER, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
 	{ITEM_CYBER_DRAGON, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
 	{ITEM_DARK_MAGICIAN, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
@@ -1525,13 +1602,15 @@ const struct PackContents gDuelTerminalPreviewWave1[] =
 };
 
 const struct PackContents gDuelTerminalPreviewWave2[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_DUEL_TERMINAL_SUPER_PARALLEL_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_DUEL_TERMINAL_SUPER_PARALLEL_RARE},
 	{ITEM_CYBER_DRAGON, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
 	{ITEM_DARK_MAGICIAN, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
 };
 
 const struct PackContents gDuelTerminal1[] =
-{	{ITEM_BLACK_PENDANT, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+{
+	{ITEM_BLACK_PENDANT, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
 	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_DUEL_TERMINAL_SUPER_PARALLEL_RARE},
 	{ITEM_BUSTER_BLADER, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
 	{ITEM_CYBER_DRAGON, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
@@ -1546,7 +1625,8 @@ const struct PackContents gDuelTerminal1[] =
 };
 
 const struct PackContents gDuelTerminal2[] =
-{	{ITEM_AXE_OF_DESPAIR, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+{
+	{ITEM_AXE_OF_DESPAIR, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
 	{ITEM_DRILLROID, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
 	{ITEM_ENEMY_CONTROLLER, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
 	{ITEM_LIGHT_OF_INTERVENTION, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
@@ -1555,7 +1635,8 @@ const struct PackContents gDuelTerminal2[] =
 };
 
 const struct PackContents gDuelTerminal3[] =
-{	{ITEM_BOOK_OF_MOON, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
+{
+	{ITEM_BOOK_OF_MOON, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
 	{ITEM_BRAIN_CONTROL, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
 	{ITEM_COMPULSORY_EVACUATION_DEVICE, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
 	{ITEM_CYBER_TWIN_DRAGON, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
@@ -1576,7 +1657,8 @@ const struct PackContents gDuelTerminal3[] =
 };
 
 const struct PackContents gDuelTerminal4[] =
-{	{ITEM_ANTI_SPELL_FRAGRANCE, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
+{
+	{ITEM_ANTI_SPELL_FRAGRANCE, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
 	{ITEM_BLADE_KNIGHT, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
 	{ITEM_KING_OF_THE_SWAMP, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
 	{ITEM_LIMITER_REMOVAL, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
@@ -1594,28 +1676,32 @@ const struct PackContents gDuelTerminal5[] =
 {};
 
 const struct PackContents gDuelTerminal5a[] =
-{	{ITEM_NIMBLE_MOMONGA, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+{
+	{ITEM_NIMBLE_MOMONGA, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
 	{ITEM_SLATE_WARRIOR, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
 	{ITEM_SPEAR_CRETIN, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
 	{ITEM_SUMMONED_SKULL, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
 };
 
 const struct PackContents gDuelTerminal5b[] =
-{	{ITEM_KARMA_CUT, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+{
+	{ITEM_KARMA_CUT, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
 };
 
 const struct PackContents gDuelTerminal6[] =
 {};
 
 const struct PackContents gDuelTerminal6a[] =
-{	{ITEM_MANJU_OF_THE_TEN_THOUSAND_HANDS, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+{
+	{ITEM_MANJU_OF_THE_TEN_THOUSAND_HANDS, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
 	{ITEM_MYSTIC_TOMATO, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
 	{ITEM_SACRED_PHOENIX_OF_NEPHTHYS, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
 	{ITEM_WALL_OF_REVEALING_LIGHT, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
 };
 
 const struct PackContents gDuelTerminal6b[] =
-{	{ITEM_ABYSS_SOLDIER, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+{
+	{ITEM_ABYSS_SOLDIER, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
 	{ITEM_GRAVEKEEPER_S_SPY, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
 	{ITEM_LEGENDARY_JUJITSU_MASTER, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
 };
@@ -1639,7 +1725,8 @@ const struct PackContents gDuelistAllianceDeluxeEdition[] =
 {};
 
 const struct PackContents gDuelistLeague13participationcards[] =
-{	{ITEM_FLYING_KAMAKIRI_1, RARITY_RARE},
+{
+	{ITEM_FLYING_KAMAKIRI_1, RARITY_RARE},
 	{ITEM_HOWLING_INSECT, RARITY_RARE},
 	{ITEM_PINCH_HOPPER, RARITY_RARE},
 	{ITEM_SHINING_ANGEL, RARITY_RARE},
@@ -1647,32 +1734,38 @@ const struct PackContents gDuelistLeague13participationcards[] =
 };
 
 const struct PackContents gDuelistLeague14participationcards[] =
-{	{ITEM_COMMAND_KNIGHT, RARITY_RARE},
+{
+	{ITEM_COMMAND_KNIGHT, RARITY_RARE},
 	{ITEM_DOOM_DOZER, RARITY_RARE},
 	{ITEM_NOBLEMAN_OF_CROSSOUT, RARITY_RARE},
 };
 
 const struct PackContents gDuelistLeague15participationcards[] =
-{	{ITEM_MIRROR_FORCE, RARITY_RARE},
+{
+	{ITEM_MIRROR_FORCE, RARITY_RARE},
 	{ITEM_SKILLED_DARK_MAGICIAN, RARITY_RARE},
 };
 
 const struct PackContents gDuelistLeague16participationcards[] =
-{	{ITEM_LIMITER_REMOVAL, RARITY_RARE},
+{
+	{ITEM_LIMITER_REMOVAL, RARITY_RARE},
 };
 
 const struct PackContents gDuelistLeague17participationcards[] =
-{	{ITEM_BOOK_OF_LIFE, RARITY_RARE},
+{
+	{ITEM_BOOK_OF_LIFE, RARITY_RARE},
 	{ITEM_CYBER_END_DRAGON, RARITY_RARE},
 };
 
 const struct PackContents gDuelistLeague18participationcards[] =
-{	{ITEM_CATAPULT_TURTLE, RARITY_RARE},
+{
+	{ITEM_CATAPULT_TURTLE, RARITY_RARE},
 	{ITEM_TORRENTIAL_TRIBUTE, RARITY_RARE},
 };
 
 const struct PackContents gDuelistLeague2participationcards[] =
-{	{ITEM_DARK_MAGICIAN, RARITY_RARE},
+{
+	{ITEM_DARK_MAGICIAN, RARITY_RARE},
 	{ITEM_EXODIA_THE_FORBIDDEN_ONE, RARITY_RARE},
 	{ITEM_GRAVEKEEPER_S_SPY, RARITY_RARE},
 	{ITEM_LEFT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_RARE},
@@ -1687,7 +1780,8 @@ const struct PackContents gDuelistLeague2participationcards[] =
 };
 
 const struct PackContents gDuelistLeague2010participationcards[] =
-{	{ITEM_BIG_SHIELD_GARDNA, RARITY_RARE},
+{
+	{ITEM_BIG_SHIELD_GARDNA, RARITY_RARE},
 	{ITEM_BLADE_KNIGHT, RARITY_RARE},
 	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_RARE},
 	{ITEM_COMPULSORY_EVACUATION_DEVICE, RARITY_RARE},
@@ -1705,7 +1799,8 @@ const struct PackContents gDuelistLeague2010participationcards[] =
 };
 
 const struct PackContents gDuelistLeague3participationcards[] =
-{	{ITEM_CALL_OF_THE_HAUNTED, RARITY_RARE},
+{
+	{ITEM_CALL_OF_THE_HAUNTED, RARITY_RARE},
 	{ITEM_GIANT_GERM, RARITY_RARE},
 	{ITEM_JINZO, RARITY_RARE},
 	{ITEM_MAGIC_CYLINDER, RARITY_RARE},
@@ -1715,7 +1810,8 @@ const struct PackContents gDuelistLeague3participationcards[] =
 };
 
 const struct PackContents gDuelistLeagueDemo2010[] =
-{	{ITEM_AXE_OF_DESPAIR, RARITY_COMMON},
+{
+	{ITEM_AXE_OF_DESPAIR, RARITY_COMMON},
 	{ITEM_ENEMY_CONTROLLER, RARITY_COMMON},
 	{ITEM_LIGHTNING_VORTEX, RARITY_COMMON},
 	{ITEM_MAN_EATER_BUG, RARITY_COMMON},
@@ -1723,7 +1819,8 @@ const struct PackContents gDuelistLeagueDemo2010[] =
 };
 
 const struct PackContents gDuelistLeagueSeries1participationcards[] =
-{	{ITEM_BUSTER_BLADER, RARITY_SUPER_RARE},
+{
+	{ITEM_BUSTER_BLADER, RARITY_SUPER_RARE},
 	{ITEM_THOUSAND_EYES_RESTRICT, RARITY_SUPER_RARE},
 };
 
@@ -1734,7 +1831,8 @@ const struct PackContents gDuelistLeagueSeries2participationcards[] =
 {};
 
 const struct PackContents gDuelistLeagueSeries3participationcard[] =
-{	{ITEM_NECROVALLEY, RARITY_RARE},
+{
+	{ITEM_NECROVALLEY, RARITY_RARE},
 };
 
 const struct PackContents gDuelistLeagueSeries4participationcard[] =
@@ -1744,11 +1842,13 @@ const struct PackContents gDuelistLeagueSeries5participationcard[] =
 {};
 
 const struct PackContents gDuelistLeagueSeries6participationcard[] =
-{	{ITEM_TOON_GEMINI_ELF, RARITY_SUPER_RARE},
+{
+	{ITEM_TOON_GEMINI_ELF, RARITY_SUPER_RARE},
 };
 
 const struct PackContents gDuelistLeagueSeries7participationcard[] =
-{	{ITEM_TOON_GOBLIN_ATTACK_FORCE, RARITY_SUPER_RARE},
+{
+	{ITEM_TOON_GOBLIN_ATTACK_FORCE, RARITY_SUPER_RARE},
 };
 
 const struct PackContents gDuelistLeagueSeries8participationcard[] =
@@ -1779,7 +1879,8 @@ const struct PackContents gDuelistPackAsterPhoenix[] =
 {};
 
 const struct PackContents gDuelistPackBattleCity[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
 	{ITEM_BUSTER_BLADER, RARITY_RARE},
 	{ITEM_CRUSH_CARD_VIRUS, RARITY_RARE},
 	{ITEM_DARK_MAGICIAN, RARITY_SUPER_RARE},
@@ -1794,7 +1895,8 @@ const struct PackContents gDuelistPackBattleCity[] =
 };
 
 const struct PackContents gDuelistPackChazzPrinceton[] =
-{	{ITEM_OJAMA_KING, RARITY_COMMON},
+{
+	{ITEM_OJAMA_KING, RARITY_COMMON},
 	{ITEM_OJAMA_TRIO, RARITY_COMMON},
 	{ITEM_X_HEAD_CANNON, RARITY_COMMON},
 };
@@ -1806,13 +1908,15 @@ const struct PackContents gDuelistPackDimensionalGuardians[] =
 {};
 
 const struct PackContents gDuelistPackJadenYuki[] =
-{	{ITEM_ELEMENTAL_HERO_CLAYMAN, RARITY_COMMON},
+{
+	{ITEM_ELEMENTAL_HERO_CLAYMAN, RARITY_COMMON},
 	{ITEM_ELEMENTAL_HERO_FLAME_WINGMAN, RARITY_SUPER_RARE},
 	{ITEM_POLYMERIZATION, RARITY_COMMON},
 };
 
 const struct PackContents gDuelistPackJadenYuki2[] =
-{	{ITEM_ELEMENTAL_HERO_WILDHEART, RARITY_COMMON},
+{
+	{ITEM_ELEMENTAL_HERO_WILDHEART, RARITY_COMMON},
 };
 
 const struct PackContents gDuelistPackJadenYuki3[] =
@@ -1822,7 +1926,8 @@ const struct PackContents gDuelistPackJesseAnderson[] =
 {};
 
 const struct PackContents gDuelistPackKaiba[] =
-{	{ITEM_BLUE_EYES_ULTIMATE_DRAGON, RARITY_ULTRA_RARE},
+{
+	{ITEM_BLUE_EYES_ULTIMATE_DRAGON, RARITY_ULTRA_RARE},
 	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_SUPER_RARE},
 	{ITEM_CHAOS_EMPEROR_DRAGON_ENVOY_OF_THE_END, RARITY_ULTIMATE_RARE},
 	{ITEM_CRUSH_CARD_VIRUS, RARITY_ULTIMATE_RARE},
@@ -1842,7 +1947,8 @@ const struct PackContents gDuelistPackKaiba[] =
 };
 
 const struct PackContents gDuelistPackRivalsofthePharaoh[] =
-{	{ITEM_BLUE_EYES_ULTIMATE_DRAGON, RARITY_RARE},
+{
+	{ITEM_BLUE_EYES_ULTIMATE_DRAGON, RARITY_RARE},
 	{ITEM_DARK_MAGICIAN_OF_CHAOS, RARITY_RARE},
 	{ITEM_DRAGON_S_MIRROR, RARITY_RARE},
 	{ITEM_EXCHANGE_OF_THE_SPIRIT, RARITY_COMMON},
@@ -1855,7 +1961,8 @@ const struct PackContents gDuelistPackSpecialEdition[] =
 {};
 
 const struct PackContents gDuelistPackYugi[] =
-{	{ITEM_BIG_SHIELD_GARDNA, RARITY_COMMON},
+{
+	{ITEM_BIG_SHIELD_GARDNA, RARITY_COMMON},
 	{ITEM_BRAIN_CONTROL, RARITY_COMMON},
 	{ITEM_BUSTER_BLADER, RARITY_COMMON},
 	{ITEM_CATAPULT_TURTLE, RARITY_COMMON},
@@ -1880,7 +1987,8 @@ const struct PackContents gDuelistPackYusei3[] =
 {};
 
 const struct PackContents gDuelistPackZaneTruesdale[] =
-{	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+{
+	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
 	{ITEM_CREATURE_SWAP, RARITY_COMMON},
 	{ITEM_CYBER_DRAGON, RARITY_RARE},
 	{ITEM_CYBER_END_DRAGON, RARITY_RARE},
@@ -1899,7 +2007,8 @@ const struct PackContents gDuelistRevolutionSpecialEdition[] =
 {};
 
 const struct PackContents gDuelistSaga[] =
-{	{ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_ULTRA_RARE},
+{
+	{ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_ULTRA_RARE},
 	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
 	{ITEM_BRAIN_CONTROL, RARITY_ULTRA_RARE},
 	{ITEM_CYBER_DRAGON, RARITY_ULTRA_RARE},
@@ -1923,7 +2032,8 @@ const struct PackContents gDuelistsAdvance[] =
 {};
 
 const struct PackContents gEgyptianGodDeckObelisktheTormentor[] =
-{	{ITEM_BAZOO_THE_SOUL_EATER, RARITY_COMMON},
+{
+	{ITEM_BAZOO_THE_SOUL_EATER, RARITY_COMMON},
 	{ITEM_BRAIN_CONTROL, RARITY_COMMON},
 	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
 	{ITEM_CYBER_DRAGON, RARITY_COMMON},
@@ -1934,7 +2044,8 @@ const struct PackContents gEgyptianGodDeckObelisktheTormentor[] =
 };
 
 const struct PackContents gEgyptianGodDeckSlifertheSkyDragon[] =
-{	{ITEM_BOOK_OF_MOON, RARITY_COMMON},
+{
+	{ITEM_BOOK_OF_MOON, RARITY_COMMON},
 	{ITEM_BREAKER_THE_MAGICAL_WARRIOR, RARITY_COMMON},
 	{ITEM_ENEMY_CONTROLLER, RARITY_COMMON},
 	{ITEM_HARPIE_S_FEATHER_DUSTER, RARITY_SUPER_RARE},
@@ -1947,7 +2058,8 @@ const struct PackContents gEgyptianGodDeckSlifertheSkyDragon[] =
 };
 
 const struct PackContents gElementalEnergy[] =
-{	{ITEM_BROWW_HUNTSMAN_OF_DARK_WORLD, RARITY_ULTIMATE_RARE},
+{
+	{ITEM_BROWW_HUNTSMAN_OF_DARK_WORLD, RARITY_ULTIMATE_RARE},
 	{ITEM_BRRON_MAD_KING_OF_DARK_WORLD, RARITY_ULTIMATE_RARE},
 	{ITEM_CYBER_BLADER, RARITY_ULTIMATE_RARE},
 	{ITEM_DARK_DEAL, RARITY_COMMON},
@@ -1964,15 +2076,18 @@ const struct PackContents gElementalEnergy[] =
 };
 
 const struct PackContents gElementalEnergySneakPeekParticipationCard[] =
-{	{ITEM_EXCHANGE_OF_THE_SPIRIT, RARITY_ULTRA_RARE},
+{
+	{ITEM_EXCHANGE_OF_THE_SPIRIT, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gElementalEnergySpecialEdition[] =
-{	{ITEM_SACRED_PHOENIX_OF_NEPHTHYS, RARITY_SECRET_RARE},
+{
+	{ITEM_SACRED_PHOENIX_OF_NEPHTHYS, RARITY_SECRET_RARE},
 };
 
 const struct PackContents gEmperorofDarknessStructureDeck[] =
-{	{ITEM_ENEMY_CONTROLLER, RARITY_COMMON},
+{
+	{ITEM_ENEMY_CONTROLLER, RARITY_COMMON},
 	{ITEM_MOBIUS_THE_FROST_MONARCH, RARITY_COMMON},
 	{ITEM_SOUL_EXCHANGE, RARITY_COMMON},
 	{ITEM_THESTALOS_THE_FIRESTORM_MONARCH, RARITY_COMMON},
@@ -1983,7 +2098,8 @@ const struct PackContents gEnemyofJustice[] =
 {};
 
 const struct PackContents gEnemyofJusticeSneakPeekParticipationCard[] =
-{	{ITEM_TOON_DARK_MAGICIAN_GIRL, RARITY_ULTRA_RARE},
+{
+	{ITEM_TOON_DARK_MAGICIAN_GIRL, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gEternityCode[] =
@@ -1996,7 +2112,8 @@ const struct PackContents gEventPackSpeedDuel[] =
 {};
 
 const struct PackContents gExclusivePack[] =
-{	{ITEM_RETURN_FROM_THE_DIFFERENT_DIMENSION, RARITY_COMMON},
+{
+	{ITEM_RETURN_FROM_THE_DIFFERENT_DIMENSION, RARITY_COMMON},
 };
 
 const struct PackContents gExtremeForce[] =
@@ -2030,7 +2147,8 @@ const struct PackContents gFlamesofDestructionSpecialEdition[] =
 {};
 
 const struct PackContents gFlamingEternity[] =
-{	{ITEM_BIG_TUSKED_MAMMOTH, RARITY_ULTIMATE_RARE},
+{
+	{ITEM_BIG_TUSKED_MAMMOTH, RARITY_ULTIMATE_RARE},
 	{ITEM_CHIRON_THE_MAGE, RARITY_ULTIMATE_RARE},
 	{ITEM_DECK_DEVASTATION_VIRUS, RARITY_ULTIMATE_RARE},
 	{ITEM_GATLING_DRAGON, RARITY_ULTRA_RARE},
@@ -2047,11 +2165,13 @@ const struct PackContents gFlamingEternity[] =
 };
 
 const struct PackContents gFlamingEternitySneakPeekParticipationCard[] =
-{	{ITEM_CYBER_HARPIE_LADY, RARITY_ULTRA_RARE},
+{
+	{ITEM_CYBER_HARPIE_LADY, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gForbiddenLegacy[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_SECRET_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_SECRET_RARE},
 	{ITEM_DARK_MAGICIAN, RARITY_SECRET_RARE},
 	{ITEM_KURIBOH, RARITY_SECRET_RARE},
 };
@@ -2066,7 +2186,8 @@ const struct PackContents gForceoftheBreakerSpecialEdition[] =
 {};
 
 const struct PackContents gFusionEnforcers[] =
-{	{ITEM_KING_OF_THE_SWAMP, RARITY_SUPER_RARE},
+{
+	{ITEM_KING_OF_THE_SWAMP, RARITY_SUPER_RARE},
 	{ITEM_PHOENIX_WING_WIND_BLAST, RARITY_SUPER_RARE},
 	{ITEM_POLYMERIZATION, RARITY_SUPER_RARE},
 };
@@ -2081,7 +2202,8 @@ const struct PackContents gGalacticOverlordSneakPeekParticipationCard[] =
 {};
 
 const struct PackContents gGatesoftheUnderworldStructureDeck[] =
-{	{ITEM_BROWW_HUNTSMAN_OF_DARK_WORLD, RARITY_COMMON},
+{
+	{ITEM_BROWW_HUNTSMAN_OF_DARK_WORLD, RARITY_COMMON},
 	{ITEM_BRRON_MAD_KING_OF_DARK_WORLD, RARITY_COMMON},
 	{ITEM_CARD_DESTRUCTION, RARITY_COMMON},
 	{ITEM_DARK_DEAL, RARITY_COMMON},
@@ -2095,7 +2217,8 @@ const struct PackContents gGatesoftheUnderworldStructureDeck[] =
 };
 
 const struct PackContents gGeargiaRampageStructureDeck[] =
-{	{ITEM_CREATURE_SWAP, RARITY_COMMON},
+{
+	{ITEM_CREATURE_SWAP, RARITY_COMMON},
 	{ITEM_FISSURE, RARITY_COMMON},
 	{ITEM_GIANT_RAT, RARITY_COMMON},
 	{ITEM_LIMITER_REMOVAL, RARITY_COMMON},
@@ -2113,24 +2236,28 @@ const struct PackContents gGenerationForceSpecialEdition[] =
 {};
 
 const struct PackContents gGenesisImpact[] =
-{	{ITEM_BOTTOMLESS_TRAP_HOLE, RARITY_RARE},
+{
+	{ITEM_BOTTOMLESS_TRAP_HOLE, RARITY_RARE},
 };
 
 const struct PackContents gGhostsFromthePast[] =
-{	{ITEM_DARK_MAGICIAN, RARITY_GHOST_RARE},
+{
+	{ITEM_DARK_MAGICIAN, RARITY_GHOST_RARE},
 	{ITEM_GIGANTES, RARITY_ULTRA_RARE},
 	{ITEM_SALVAGE, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gGhostsFromthePastThe2ndHaunting[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_GHOST_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_GHOST_RARE},
 	{ITEM_CYBER_DRAGON, RARITY_GHOST_RARE},
 	{ITEM_MANJU_OF_THE_TEN_THOUSAND_HANDS, RARITY_ULTRA_RARE},
 	{ITEM_SANWITCH, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gGladiatorsAssault[] =
-{	{ITEM_GIL_GARTH, RARITY_SECRET_RARE},
+{
+	{ITEM_GIL_GARTH, RARITY_SECRET_RARE},
 };
 
 const struct PackContents gGladiatorsAssaultSneakPeekParticipationCard[] =
@@ -2140,7 +2267,8 @@ const struct PackContents gGladiatorsAssaultSpecialEdition[] =
 {};
 
 const struct PackContents gGoldSeries[] =
-{	{ITEM_7_COLORED_FISH, RARITY_COMMON},
+{
+	{ITEM_7_COLORED_FISH, RARITY_COMMON},
 	{ITEM_BLUE_EYES_ULTIMATE_DRAGON, RARITY_GOLD_RARE},
 	{ITEM_BRAIN_CONTROL, RARITY_GOLD_RARE},
 	{ITEM_BREAKER_THE_MAGICAL_WARRIOR, RARITY_GOLD_RARE},
@@ -2168,7 +2296,8 @@ const struct PackContents gGoldSeries[] =
 };
 
 const struct PackContents gGoldSeries2009[] =
-{	{ITEM_BOTTOMLESS_TRAP_HOLE, RARITY_GOLD_RARE},
+{
+	{ITEM_BOTTOMLESS_TRAP_HOLE, RARITY_GOLD_RARE},
 	{ITEM_COMPULSORY_EVACUATION_DEVICE, RARITY_COMMON},
 	{ITEM_GIANT_TRUNADE, RARITY_COMMON},
 	{ITEM_MIND_CONTROL, RARITY_GOLD_RARE},
@@ -2182,14 +2311,16 @@ const struct PackContents gGoldSeries2009[] =
 };
 
 const struct PackContents gGoldSeries3[] =
-{	{ITEM_AMAZONESS_ARCHER, RARITY_COMMON},
+{
+	{ITEM_AMAZONESS_ARCHER, RARITY_COMMON},
 	{ITEM_ENEMY_CONTROLLER, RARITY_GOLD_RARE},
 	{ITEM_MYSTICAL_SPACE_TYPHOON, RARITY_GOLD_RARE},
 	{ITEM_SMASHING_GROUND, RARITY_GOLD_RARE},
 };
 
 const struct PackContents gGoldSeries4PyramidsEdition[] =
-{	{ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_GOLD_RARE},
+{
+	{ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_GOLD_RARE},
 	{ITEM_CHAOS_SORCERER, RARITY_GOLD_RARE},
 	{ITEM_DECK_DEVASTATION_VIRUS, RARITY_COMMON},
 	{ITEM_DOOMCALIBER_KNIGHT, RARITY_GOLD_RARE},
@@ -2208,7 +2339,8 @@ const struct PackContents gGoldSeries4PyramidsEdition[] =
 };
 
 const struct PackContents gGoldSeriesHauntedMine[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_GHOST_GOLD_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_GHOST_GOLD_RARE},
 	{ITEM_BOOK_OF_LIFE, RARITY_COMMON},
 	{ITEM_CALL_OF_THE_HAUNTED, RARITY_GOLD_RARE},
 	{ITEM_DARK_HOLE, RARITY_GOLD_RARE},
@@ -2224,7 +2356,8 @@ const struct PackContents gGoldSeriesHauntedMine[] =
 };
 
 const struct PackContents gHEROStrikeStructureDeck[] =
-{	{ITEM_BOTTOMLESS_TRAP_HOLE, RARITY_COMMON},
+{
+	{ITEM_BOTTOMLESS_TRAP_HOLE, RARITY_COMMON},
 	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
 	{ITEM_COMPULSORY_EVACUATION_DEVICE, RARITY_COMMON},
 	{ITEM_ELEMENTAL_HERO_WILDHEART, RARITY_COMMON},
@@ -2257,7 +2390,8 @@ const struct PackContents gHiddenArsenal7KnightofStars[] =
 {};
 
 const struct PackContents gHiddenArsenalChapter1[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_DUEL_TERMINAL_ULTRA_PARALLEL_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_DUEL_TERMINAL_ULTRA_PARALLEL_RARE},
 	{ITEM_BOOK_OF_MOON, RARITY_DUEL_TERMINAL_ULTRA_PARALLEL_RARE},
 	{ITEM_BUSTER_BLADER, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
 	{ITEM_CYBER_DRAGON, RARITY_DUEL_TERMINAL_ULTRA_PARALLEL_RARE},
@@ -2276,14 +2410,16 @@ const struct PackContents gHiddenArsenalSpecialEdition[] =
 {};
 
 const struct PackContents gHiddenSummoners[] =
-{	{ITEM_MANJU_OF_THE_TEN_THOUSAND_HANDS, RARITY_SUPER_RARE},
+{
+	{ITEM_MANJU_OF_THE_TEN_THOUSAND_HANDS, RARITY_SUPER_RARE},
 	{ITEM_PHOENIX_WING_WIND_BLAST, RARITY_SUPER_RARE},
 	{ITEM_SACRED_PHOENIX_OF_NEPHTHYS, RARITY_SUPER_RARE},
 	{ITEM_THUNDER_DRAGON, RARITY_SUPER_RARE},
 };
 
 const struct PackContents gHighSpeedRiders[] =
-{	{ITEM_COMPULSORY_EVACUATION_DEVICE, RARITY_COMMON},
+{
+	{ITEM_COMPULSORY_EVACUATION_DEVICE, RARITY_COMMON},
 	{ITEM_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
 };
 
@@ -2291,88 +2427,109 @@ const struct PackContents gHobbyLeague1participationcardsA[] =
 {};
 
 const struct PackContents gHobbyLeague1participationcardsB[] =
-{	{ITEM_A_LEGENDARY_OCEAN, RARITY_COMMON},
+{
+	{ITEM_A_LEGENDARY_OCEAN, RARITY_COMMON},
 	{ITEM_LEVIA_DRAGON_DAEDALUS, RARITY_SUPER_RARE},
 };
 
 const struct PackContents gHobbyLeague1participationcardsC[] =
-{	{ITEM_KING_OF_THE_SWAMP, RARITY_SUPER_RARE},
+{
+	{ITEM_KING_OF_THE_SWAMP, RARITY_SUPER_RARE},
 };
 
 const struct PackContents gHobbyLeague2participationcardA[] =
-{	{ITEM_CYBER_JAR, RARITY_ULTRA_PARALLEL_RARE},
+{
+	{ITEM_CYBER_JAR, RARITY_ULTRA_PARALLEL_RARE},
 };
 
 const struct PackContents gHobbyLeague2participationcardB[] =
-{	{ITEM_MYSTICAL_SPACE_TYPHOON, RARITY_ULTRA_PARALLEL_RARE},
+{
+	{ITEM_MYSTICAL_SPACE_TYPHOON, RARITY_ULTRA_PARALLEL_RARE},
 };
 
 const struct PackContents gHobbyLeague2participationcardC[] =
-{	{ITEM_SANGAN, RARITY_ULTRA_PARALLEL_RARE},
+{
+	{ITEM_SANGAN, RARITY_ULTRA_PARALLEL_RARE},
 };
 
 const struct PackContents gHobbyLeague2participationcardD[] =
-{	{ITEM_HEAVY_STORM, RARITY_ULTRA_PARALLEL_RARE},
+{
+	{ITEM_HEAVY_STORM, RARITY_ULTRA_PARALLEL_RARE},
 };
 
 const struct PackContents gHobbyLeague2participationcardE[] =
-{	{ITEM_MARAUDING_CAPTAIN, RARITY_ULTRA_PARALLEL_RARE},
+{
+	{ITEM_MARAUDING_CAPTAIN, RARITY_ULTRA_PARALLEL_RARE},
 };
 
 const struct PackContents gHobbyLeague2participationcardF[] =
-{	{ITEM_FISSURE, RARITY_ULTRA_PARALLEL_RARE},
+{
+	{ITEM_FISSURE, RARITY_ULTRA_PARALLEL_RARE},
 };
 
 const struct PackContents gHobbyLeague3participationcardA[] =
-{	{ITEM_GIANT_RAT, RARITY_ULTRA_PARALLEL_RARE},
+{
+	{ITEM_GIANT_RAT, RARITY_ULTRA_PARALLEL_RARE},
 };
 
 const struct PackContents gHobbyLeague3participationcardB[] =
-{	{ITEM_CREATURE_SWAP, RARITY_ULTRA_PARALLEL_RARE},
+{
+	{ITEM_CREATURE_SWAP, RARITY_ULTRA_PARALLEL_RARE},
 };
 
 const struct PackContents gHobbyLeague3participationcardC[] =
-{	{ITEM_TRAP_HOLE, RARITY_ULTRA_PARALLEL_RARE},
+{
+	{ITEM_TRAP_HOLE, RARITY_ULTRA_PARALLEL_RARE},
 };
 
 const struct PackContents gHobbyLeague3participationcardD[] =
-{	{ITEM_SPEAR_DRAGON, RARITY_ULTRA_PARALLEL_RARE},
+{
+	{ITEM_SPEAR_DRAGON, RARITY_ULTRA_PARALLEL_RARE},
 };
 
 const struct PackContents gHobbyLeague3participationcardE[] =
-{	{ITEM_MYSTIC_TOMATO, RARITY_ULTRA_PARALLEL_RARE},
+{
+	{ITEM_MYSTIC_TOMATO, RARITY_ULTRA_PARALLEL_RARE},
 };
 
 const struct PackContents gHobbyLeague3participationcardF[] =
-{	{ITEM_ROYAL_DECREE, RARITY_ULTRA_PARALLEL_RARE},
+{
+	{ITEM_ROYAL_DECREE, RARITY_ULTRA_PARALLEL_RARE},
 };
 
 const struct PackContents gHobbyLeague3participationcardG[] =
-{	{ITEM_DARK_BALTER_THE_TERRIBLE, RARITY_ULTRA_PARALLEL_RARE},
+{
+	{ITEM_DARK_BALTER_THE_TERRIBLE, RARITY_ULTRA_PARALLEL_RARE},
 };
 
 const struct PackContents gHobbyLeague4participationcardA[] =
-{	{ITEM_EXILED_FORCE, RARITY_ULTRA_PARALLEL_RARE},
+{
+	{ITEM_EXILED_FORCE, RARITY_ULTRA_PARALLEL_RARE},
 };
 
 const struct PackContents gHobbyLeague4participationcardB[] =
-{	{ITEM_SWORDS_OF_REVEALING_LIGHT, RARITY_ULTRA_PARALLEL_RARE},
+{
+	{ITEM_SWORDS_OF_REVEALING_LIGHT, RARITY_ULTRA_PARALLEL_RARE},
 };
 
 const struct PackContents gHobbyLeague4participationcardC[] =
-{	{ITEM_ASURA_PRIEST, RARITY_ULTRA_PARALLEL_RARE},
+{
+	{ITEM_ASURA_PRIEST, RARITY_ULTRA_PARALLEL_RARE},
 };
 
 const struct PackContents gHobbyLeague4participationcardD[] =
-{	{ITEM_GRACEFUL_CHARITY, RARITY_ULTRA_PARALLEL_RARE},
+{
+	{ITEM_GRACEFUL_CHARITY, RARITY_ULTRA_PARALLEL_RARE},
 };
 
 const struct PackContents gHobbyLeague4participationcardE[] =
-{	{ITEM_KYCOO_THE_GHOST_DESTROYER, RARITY_ULTRA_PARALLEL_RARE},
+{
+	{ITEM_KYCOO_THE_GHOST_DESTROYER, RARITY_ULTRA_PARALLEL_RARE},
 };
 
 const struct PackContents gHobbyLeague4participationcardF[] =
-{	{ITEM_TORRENTIAL_TRIBUTE, RARITY_ULTRA_PARALLEL_RARE},
+{
+	{ITEM_TORRENTIAL_TRIBUTE, RARITY_ULTRA_PARALLEL_RARE},
 };
 
 const struct PackContents gHobbyLeague5participationcardA[] =
@@ -2385,42 +2542,51 @@ const struct PackContents gHobbyLeague5participationcardC[] =
 {};
 
 const struct PackContents gHobbyLeague5participationcardD[] =
-{	{ITEM_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE, RARITY_ULTRA_PARALLEL_RARE},
+{
+	{ITEM_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE, RARITY_ULTRA_PARALLEL_RARE},
 };
 
 const struct PackContents gHobbyLeague5participationcardE[] =
 {};
 
 const struct PackContents gHobbyLeague5participationcardF[] =
-{	{ITEM_SCAPEGOAT, RARITY_ULTRA_PARALLEL_RARE},
+{
+	{ITEM_SCAPEGOAT, RARITY_ULTRA_PARALLEL_RARE},
 };
 
 const struct PackContents gHobbyLeague6participationcardA[] =
-{	{ITEM_NOBLEMAN_OF_CROSSOUT, RARITY_ULTRA_PARALLEL_RARE},
+{
+	{ITEM_NOBLEMAN_OF_CROSSOUT, RARITY_ULTRA_PARALLEL_RARE},
 };
 
 const struct PackContents gHobbyLeague6participationcardB[] =
-{	{ITEM_LIMITER_REMOVAL, RARITY_ULTRA_PARALLEL_RARE},
+{
+	{ITEM_LIMITER_REMOVAL, RARITY_ULTRA_PARALLEL_RARE},
 };
 
 const struct PackContents gHobbyLeague6participationcardC[] =
-{	{ITEM_D_D_WARRIOR_LADY, RARITY_ULTRA_PARALLEL_RARE},
+{
+	{ITEM_D_D_WARRIOR_LADY, RARITY_ULTRA_PARALLEL_RARE},
 };
 
 const struct PackContents gHobbyLeague6participationcardD[] =
-{	{ITEM_REINFORCEMENT_OF_THE_ARMY, RARITY_ULTRA_PARALLEL_RARE},
+{
+	{ITEM_REINFORCEMENT_OF_THE_ARMY, RARITY_ULTRA_PARALLEL_RARE},
 };
 
 const struct PackContents gHobbyLeague6participationcardE[] =
-{	{ITEM_CALL_OF_THE_HAUNTED, RARITY_ULTRA_PARALLEL_RARE},
+{
+	{ITEM_CALL_OF_THE_HAUNTED, RARITY_ULTRA_PARALLEL_RARE},
 };
 
 const struct PackContents gHobbyLeague6participationcardF[] =
-{	{ITEM_SHINING_ANGEL, RARITY_ULTRA_PARALLEL_RARE},
+{
+	{ITEM_SHINING_ANGEL, RARITY_ULTRA_PARALLEL_RARE},
 };
 
 const struct PackContents gHobbyLeague7participationcardA[] =
-{	{ITEM_MONSTER_REBORN, RARITY_ULTRA_PARALLEL_RARE},
+{
+	{ITEM_MONSTER_REBORN, RARITY_ULTRA_PARALLEL_RARE},
 };
 
 const struct PackContents gHobbyLeague7participationcardB[] =
@@ -2448,7 +2614,8 @@ const struct PackContents gIgnitionAssaultSpecialEdition[] =
 {};
 
 const struct PackContents gInvasionofChaos[] =
-{	{ITEM_AMPHIBIOUS_BUGROTH_MK_3, RARITY_COMMON},
+{
+	{ITEM_AMPHIBIOUS_BUGROTH_MK_3, RARITY_COMMON},
 	{ITEM_BERSERK_GORILLA, RARITY_RARE},
 	{ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_ULTRA_RARE},
 	{ITEM_BLAZING_INPACHI, RARITY_COMMON},
@@ -2483,7 +2650,8 @@ const struct PackContents gInvasionofChaos[] =
 };
 
 const struct PackContents gInvasionofChaosSpecialEdition[] =
-{	{ITEM_GEMINI_ELF, RARITY_ULTRA_RARE},
+{
+	{ITEM_GEMINI_ELF, RARITY_ULTRA_RARE},
 	{ITEM_MAGIC_CYLINDER, RARITY_ULTRA_RARE},
 	{ITEM_RING_OF_DESTRUCTION, RARITY_ULTRA_RARE},
 };
@@ -2507,23 +2675,27 @@ const struct PackContents gJudgmentoftheLightDeluxeEdition[] =
 {};
 
 const struct PackContents gKCGrandTournament2021prizecard[] =
-{	{ITEM_DARK_MAGICIAN, RARITY_EXTRA_SECRET_RARE},
+{
+	{ITEM_DARK_MAGICIAN, RARITY_EXTRA_SECRET_RARE},
 };
 
 const struct PackContents gKCGrandTournamentprizecard[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_EXTRA_SECRET_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_EXTRA_SECRET_RARE},
 };
 
 const struct PackContents gKidsWBDuelofDestinypromotionalcard[] =
 {};
 
 const struct PackContents gKingsCourt[] =
-{	{ITEM_GRAVEKEEPER_S_SPY, RARITY_RARE},
+{
+	{ITEM_GRAVEKEEPER_S_SPY, RARITY_RARE},
 	{ITEM_REINFORCEMENT_OF_THE_ARMY, RARITY_RARE},
 };
 
 const struct PackContents gLabyrinthofNightmare[] =
-{	{ITEM_AMAZONESS_ARCHER, RARITY_COMMON},
+{
+	{ITEM_AMAZONESS_ARCHER, RARITY_COMMON},
 	{ITEM_AQUA_SPIRIT, RARITY_COMMON},
 	{ITEM_BAZOO_THE_SOUL_EATER, RARITY_SUPER_RARE},
 	{ITEM_EARTHBOUND_SPIRIT, RARITY_SHORT_PRINT},
@@ -2548,7 +2720,8 @@ const struct PackContents gLabyrinthofNightmare[] =
 };
 
 const struct PackContents gLegacyofDarkness[] =
-{	{ITEM_A_LEGENDARY_OCEAN, RARITY_COMMON},
+{
+	{ITEM_A_LEGENDARY_OCEAN, RARITY_COMMON},
 	{ITEM_AIRKNIGHT_PARSHATH, RARITY_ULTRA_RARE},
 	{ITEM_ASURA_PRIEST, RARITY_SUPER_RARE},
 	{ITEM_BLAST_WITH_CHAIN, RARITY_RARE},
@@ -2594,7 +2767,8 @@ const struct PackContents gLegacyoftheValiantDeluxeEdition[] =
 {};
 
 const struct PackContents gLegendofBlueEyesWhiteDragon[] =
-{	{ITEM_AQUA_MADOOR, RARITY_RARE},
+{
+	{ITEM_AQUA_MADOOR, RARITY_RARE},
 	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
 	{ITEM_CHARUBIN_THE_FIRE_KNIGHT, RARITY_RARE},
 	{ITEM_DARK_HOLE, RARITY_SUPER_RARE},
@@ -2631,7 +2805,8 @@ const struct PackContents gLegendofBlueEyesWhiteDragon[] =
 };
 
 const struct PackContents gLegendaryCollection[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
 	{ITEM_DARK_MAGICIAN, RARITY_ULTRA_RARE},
 };
 
@@ -2639,7 +2814,8 @@ const struct PackContents gLegendaryCollection2TheDuelAcademyYears[] =
 {};
 
 const struct PackContents gLegendaryCollection2TheDuelAcademyYearsMegaPack[] =
-{	{ITEM_CYBER_DRAGON, RARITY_SECRET_RARE},
+{
+	{ITEM_CYBER_DRAGON, RARITY_SECRET_RARE},
 	{ITEM_CYBER_END_DRAGON, RARITY_SECRET_RARE},
 	{ITEM_CYBER_TWIN_DRAGON, RARITY_SECRET_RARE},
 	{ITEM_D_D_SURVIVOR, RARITY_COMMON},
@@ -2653,7 +2829,8 @@ const struct PackContents gLegendaryCollection3YugisWorld[] =
 {};
 
 const struct PackContents gLegendaryCollection3YugisWorldMegaPack[] =
-{	{ITEM_AQUA_MADOOR, RARITY_SECRET_RARE},
+{
+	{ITEM_AQUA_MADOOR, RARITY_SECRET_RARE},
 	{ITEM_ARSENAL_SUMMONER, RARITY_COMMON},
 	{ITEM_BANISHER_OF_THE_LIGHT, RARITY_COMMON},
 	{ITEM_BIG_SHIELD_GARDNA, RARITY_SECRET_RARE},
@@ -2775,7 +2952,8 @@ const struct PackContents gLegendaryCollection4JoeysWorld[] =
 {};
 
 const struct PackContents gLegendaryCollection4JoeysWorldMegaPack[] =
-{	{ITEM_BLACK_PENDANT, RARITY_COMMON},
+{
+	{ITEM_BLACK_PENDANT, RARITY_COMMON},
 	{ITEM_BLACK_SKULL_DRAGON, RARITY_RARE},
 	{ITEM_BLOWBACK_DRAGON, RARITY_COMMON},
 	{ITEM_BOOK_OF_LIFE, RARITY_ULTRA_RARE},
@@ -2853,7 +3031,8 @@ const struct PackContents gLegendaryCollectionKaiba[] =
 {};
 
 const struct PackContents gLegendaryCollectionKaibaMegaPack[] =
-{	{ITEM_BLUE_EYES_ULTIMATE_DRAGON, RARITY_SECRET_RARE},
+{
+	{ITEM_BLUE_EYES_ULTIMATE_DRAGON, RARITY_SECRET_RARE},
 	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
 	{ITEM_CHAIN_DISAPPEARANCE, RARITY_SECRET_RARE},
 	{ITEM_CRUSH_CARD_VIRUS, RARITY_ULTRA_RARE},
@@ -2879,11 +3058,13 @@ const struct PackContents gLegendaryCollectionKaibaMegaPack[] =
 };
 
 const struct PackContents gLegendaryCollection25thAnniversaryEdition[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_QUARTER_CENTURY_SECRET_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_QUARTER_CENTURY_SECRET_RARE},
 };
 
 const struct PackContents gLegendaryDecksII[] =
-{	{ITEM_BATTLE_OX, RARITY_COMMON},
+{
+	{ITEM_BATTLE_OX, RARITY_COMMON},
 	{ITEM_BIG_SHIELD_GARDNA, RARITY_COMMON},
 	{ITEM_BLADE_KNIGHT, RARITY_COMMON},
 	{ITEM_BLUE_EYES_ULTIMATE_DRAGON, RARITY_ULTRA_RARE},
@@ -2922,7 +3103,8 @@ const struct PackContents gLegendaryDecksII[] =
 };
 
 const struct PackContents gLegendaryDragonDecks[] =
-{	{ITEM_BIG_SHIELD_GARDNA, RARITY_COMMON},
+{
+	{ITEM_BIG_SHIELD_GARDNA, RARITY_COMMON},
 	{ITEM_BREAKER_THE_MAGICAL_WARRIOR, RARITY_COMMON},
 	{ITEM_CRUSH_CARD_VIRUS, RARITY_COMMON},
 	{ITEM_CYBER_DRAGON, RARITY_COMMON},
@@ -2940,7 +3122,8 @@ const struct PackContents gLegendaryDragonDecks[] =
 };
 
 const struct PackContents gLegendaryDuelists[] =
-{	{ITEM_A_LEGENDARY_OCEAN, RARITY_COMMON},
+{
+	{ITEM_A_LEGENDARY_OCEAN, RARITY_COMMON},
 	{ITEM_AMAZONESS_ARCHER, RARITY_COMMON},
 	{ITEM_HYDROGEDDON, RARITY_COMMON},
 	{ITEM_MONSTER_REINCARNATION, RARITY_COMMON},
@@ -2948,7 +3131,8 @@ const struct PackContents gLegendaryDuelists[] =
 };
 
 const struct PackContents gLegendaryDuelistsAncientMillennium[] =
-{	{ITEM_BLACK_ILLUSION_RITUAL, RARITY_COMMON},
+{
+	{ITEM_BLACK_ILLUSION_RITUAL, RARITY_COMMON},
 	{ITEM_LIMITER_REMOVAL, RARITY_COMMON},
 	{ITEM_PINCH_HOPPER, RARITY_COMMON},
 	{ITEM_RELINQUISHED, RARITY_COMMON},
@@ -2956,19 +3140,22 @@ const struct PackContents gLegendaryDuelistsAncientMillennium[] =
 };
 
 const struct PackContents gLegendaryDuelistsDuelsFromtheDeep[] =
-{	{ITEM_LEVIA_DRAGON_DAEDALUS, RARITY_RARE},
+{
+	{ITEM_LEVIA_DRAGON_DAEDALUS, RARITY_RARE},
 	{ITEM_TORRENTIAL_TRIBUTE, RARITY_COMMON},
 };
 
 const struct PackContents gLegendaryDuelistsImmortalDestiny[] =
-{	{ITEM_DOOMCALIBER_KNIGHT, RARITY_COMMON},
+{
+	{ITEM_DOOMCALIBER_KNIGHT, RARITY_COMMON},
 };
 
 const struct PackContents gLegendaryDuelistsMagicalHero[] =
 {};
 
 const struct PackContents gLegendaryDuelistsRageofRa[] =
-{	{ITEM_BRAIN_CONTROL, RARITY_COMMON},
+{
+	{ITEM_BRAIN_CONTROL, RARITY_COMMON},
 	{ITEM_JINZO, RARITY_COMMON},
 	{ITEM_MAKYURA_THE_DESTRUCTOR, RARITY_RARE},
 	{ITEM_METAL_REFLECT_SLIME, RARITY_COMMON},
@@ -2977,7 +3164,8 @@ const struct PackContents gLegendaryDuelistsRageofRa[] =
 };
 
 const struct PackContents gLegendaryDuelistsSeason1[] =
-{	{ITEM_A_LEGENDARY_OCEAN, RARITY_COMMON},
+{
+	{ITEM_A_LEGENDARY_OCEAN, RARITY_COMMON},
 	{ITEM_BLACK_ILLUSION_RITUAL, RARITY_COMMON},
 	{ITEM_BLACK_SKULL_DRAGON, RARITY_COMMON},
 	{ITEM_RELINQUISHED, RARITY_COMMON},
@@ -2991,13 +3179,15 @@ const struct PackContents gLegendaryDuelistsSeason1[] =
 };
 
 const struct PackContents gLegendaryDuelistsSeason2[] =
-{	{ITEM_BLUE_EYES_ULTIMATE_DRAGON, RARITY_ULTRA_RARE},
+{
+	{ITEM_BLUE_EYES_ULTIMATE_DRAGON, RARITY_ULTRA_RARE},
 	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
 	{ITEM_CYBER_HARPIE_LADY, RARITY_COMMON},
 };
 
 const struct PackContents gLegendaryDuelistsSeason3[] =
-{	{ITEM_DOOMCALIBER_KNIGHT, RARITY_COMMON},
+{
+	{ITEM_DOOMCALIBER_KNIGHT, RARITY_COMMON},
 	{ITEM_JOWGEN_THE_SPIRITUALIST, RARITY_COMMON},
 	{ITEM_MAGICIAN_S_CIRCLE, RARITY_COMMON},
 	{ITEM_SANGAN, RARITY_ULTRA_RARE},
@@ -3013,13 +3203,15 @@ const struct PackContents gLegendaryDuelistsSynchroStorm[] =
 {};
 
 const struct PackContents gLegendaryDuelistsWhiteDragonAbyss[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_COMMON},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_COMMON},
 	{ITEM_CYBER_END_DRAGON, RARITY_COMMON},
 	{ITEM_CYBER_TWIN_DRAGON, RARITY_COMMON},
 };
 
 const struct PackContents gLegendaryHeroDecks[] =
-{	{ITEM_DARK_HOLE, RARITY_COMMON},
+{
+	{ITEM_DARK_HOLE, RARITY_COMMON},
 	{ITEM_MONSTER_REBORN, RARITY_COMMON},
 	{ITEM_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
 	{ITEM_POLYMERIZATION, RARITY_COMMON},
@@ -3055,7 +3247,8 @@ const struct PackContents gLordoftheTachyonGalaxySneakPeekParticipationCard[] =
 {};
 
 const struct PackContents gLostSanctuaryStructureDeck[] =
-{	{ITEM_AIRKNIGHT_PARSHATH, RARITY_COMMON},
+{
+	{ITEM_AIRKNIGHT_PARSHATH, RARITY_COMMON},
 	{ITEM_RETURN_FROM_THE_DIFFERENT_DIMENSION, RARITY_COMMON},
 	{ITEM_SHINING_ANGEL, RARITY_COMMON},
 	{ITEM_SMASHING_GROUND, RARITY_COMMON},
@@ -3065,7 +3258,8 @@ const struct PackContents gLostSanctuaryStructureDeck[] =
 };
 
 const struct PackContents gMachinaMayhemStructureDeck[] =
-{	{ITEM_CEASEFIRE, RARITY_COMMON},
+{
+	{ITEM_CEASEFIRE, RARITY_COMMON},
 	{ITEM_CIPHER_SOLDIER, RARITY_COMMON},
 	{ITEM_COMPULSORY_EVACUATION_DEVICE, RARITY_COMMON},
 	{ITEM_CYBER_DRAGON, RARITY_COMMON},
@@ -3074,14 +3268,16 @@ const struct PackContents gMachinaMayhemStructureDeck[] =
 };
 
 const struct PackContents gMachineReactorStructureDeck[] =
-{	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+{
+	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
 	{ITEM_GIGANTES, RARITY_COMMON},
 	{ITEM_LIMITER_REMOVAL, RARITY_COMMON},
 	{ITEM_TERRAFORMING, RARITY_COMMON},
 };
 
 const struct PackContents gMagicRuler[] =
-{	{ITEM_AXE_OF_DESPAIR, RARITY_ULTRA_RARE},
+{
+	{ITEM_AXE_OF_DESPAIR, RARITY_ULTRA_RARE},
 	{ITEM_BANISHER_OF_THE_LIGHT, RARITY_SUPER_RARE},
 	{ITEM_BLACK_ILLUSION_RITUAL, RARITY_SUPER_RARE},
 	{ITEM_BLACK_PENDANT, RARITY_SUPER_RARE},
@@ -3123,7 +3319,8 @@ const struct PackContents gMagicRuler[] =
 };
 
 const struct PackContents gMagiciansForce[] =
-{	{ITEM_BIG_BANG_SHOT, RARITY_RARE},
+{
+	{ITEM_BIG_BANG_SHOT, RARITY_RARE},
 	{ITEM_BREAKER_THE_MAGICAL_WARRIOR, RARITY_ULTRA_RARE},
 	{ITEM_D_D_CRAZY_BEAST, RARITY_RARE},
 	{ITEM_DARK_BLADE, RARITY_RARE},
@@ -3154,7 +3351,8 @@ const struct PackContents gMagiciansForce[] =
 };
 
 const struct PackContents gMagnificentMavens[] =
-{	{ITEM_A_LEGENDARY_OCEAN, RARITY_ULTRA_RARE},
+{
+	{ITEM_A_LEGENDARY_OCEAN, RARITY_ULTRA_RARE},
 	{ITEM_ANTI_SPELL_FRAGRANCE, RARITY_ULTRA_RARE},
 	{ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_ULTRA_RARE},
 	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE_PHARAOH_S_RARE_},
@@ -3175,21 +3373,24 @@ const struct PackContents gMakeAWishFoundationpromotionalcard[] =
 {};
 
 const struct PackContents gMasterCollectionVolume1[] =
-{	{ITEM_DARK_RULER_HA_DES, RARITY_SECRET_RARE},
+{
+	{ITEM_DARK_RULER_HA_DES, RARITY_SECRET_RARE},
 	{ITEM_EXODIA_THE_FORBIDDEN_ONE, RARITY_SECRET_RARE},
 	{ITEM_RELINQUISHED, RARITY_SECRET_RARE},
 	{ITEM_THOUSAND_EYES_RESTRICT, RARITY_SECRET_RARE},
 };
 
 const struct PackContents gMasterCollectionVolume2[] =
-{	{ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_SECRET_RARE},
+{
+	{ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_SECRET_RARE},
 	{ITEM_BLOWBACK_DRAGON, RARITY_SECRET_RARE},
 	{ITEM_BREAKER_THE_MAGICAL_WARRIOR, RARITY_SECRET_RARE},
 	{ITEM_GUARDIAN_SPHINX, RARITY_SECRET_RARE},
 };
 
 const struct PackContents gMasterofPendulumStructureDeck[] =
-{	{ITEM_FUSILIER_DRAGON_THE_DUAL_MODE_BEAST, RARITY_COMMON},
+{
+	{ITEM_FUSILIER_DRAGON_THE_DUAL_MODE_BEAST, RARITY_COMMON},
 	{ITEM_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
 	{ITEM_POLYMERIZATION, RARITY_COMMON},
 	{ITEM_SCAPEGOAT, RARITY_COMMON},
@@ -3201,11 +3402,13 @@ const struct PackContents gMattelActionFigurepromotionalcardsSeries1[] =
 {};
 
 const struct PackContents gMattelActionFigurepromotionalcardsSeries2[] =
-{	{ITEM_CYBER_END_DRAGON, RARITY_NORMAL_PARALLEL_RARE},
+{
+	{ITEM_CYBER_END_DRAGON, RARITY_NORMAL_PARALLEL_RARE},
 };
 
 const struct PackContents gMattelActionFigurepromotionalcardsSeries3[] =
-{	{ITEM_CYBER_DRAGON, RARITY_NORMAL_PARALLEL_RARE},
+{
+	{ITEM_CYBER_DRAGON, RARITY_NORMAL_PARALLEL_RARE},
 	{ITEM_ELEMENTAL_HERO_CLAYMAN, RARITY_NORMAL_PARALLEL_RARE},
 	{ITEM_ELEMENTAL_HERO_FLAME_WINGMAN, RARITY_NORMAL_PARALLEL_RARE},
 };
@@ -3220,7 +3423,8 @@ const struct PackContents gMaximumCrisisSpecialEdition[] =
 {};
 
 const struct PackContents gMaximumGold[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_PREMIUM_GOLD_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_PREMIUM_GOLD_RARE},
 	{ITEM_D_D_WARRIOR_LADY, RARITY_RARE},
 	{ITEM_DARK_MAGICIAN, RARITY_PREMIUM_GOLD_RARE},
 	{ITEM_DRAGON_S_MIRROR, RARITY_RARE},
@@ -3236,7 +3440,8 @@ const struct PackContents gMaximumGold[] =
 };
 
 const struct PackContents gMaximumGoldElDorado[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_PREMIUM_GOLD_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_PREMIUM_GOLD_RARE},
 	{ITEM_BOOK_OF_MOON, RARITY_PREMIUM_GOLD_RARE},
 	{ITEM_EXODIA_THE_FORBIDDEN_ONE, RARITY_PREMIUM_GOLD_RARE},
 	{ITEM_MAGICAL_DIMENSION, RARITY_PREMIUM_GOLD_RARE},
@@ -3247,7 +3452,8 @@ const struct PackContents gMaximumGoldElDorado[] =
 };
 
 const struct PackContents gMazeofMemories[] =
-{	{ITEM_ROYAL_DECREE, RARITY_RARE},
+{
+	{ITEM_ROYAL_DECREE, RARITY_RARE},
 	{ITEM_SOLEMN_JUDGMENT, RARITY_SUPER_RARE},
 };
 
@@ -3261,11 +3467,13 @@ const struct PackContents gMcDonaldsPromotionalCards[] =
 {};
 
 const struct PackContents gMcDonaldsPromotionalCards2[] =
-{	{ITEM_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP, RARITY_RARE},
+{
+	{ITEM_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP, RARITY_RARE},
 };
 
 const struct PackContents gMetalRaiders[] =
-{	{ITEM_7_COLORED_FISH, RARITY_COMMON},
+{
+	{ITEM_7_COLORED_FISH, RARITY_COMMON},
 	{ITEM_BICKURIBOX, RARITY_COMMON},
 	{ITEM_BLACK_SKULL_DRAGON, RARITY_ULTRA_RARE},
 	{ITEM_BLOCK_ATTACK, RARITY_COMMON},
@@ -3316,7 +3524,8 @@ const struct PackContents gMetalRaiders[] =
 };
 
 const struct PackContents gMillenniumPack[] =
-{	{ITEM_BLACK_ILLUSION_RITUAL, RARITY_COMMON},
+{
+	{ITEM_BLACK_ILLUSION_RITUAL, RARITY_COMMON},
 	{ITEM_BLACK_SKULL_DRAGON, RARITY_COMMON},
 	{ITEM_CRUSH_CARD_VIRUS, RARITY_COMMON},
 	{ITEM_DARK_PALADIN, RARITY_COMMON},
@@ -3338,12 +3547,14 @@ const struct PackContents gMoviePack[] =
 {};
 
 const struct PackContents gMysticFighters[] =
-{	{ITEM_JINZO, RARITY_SUPER_RARE},
+{
+	{ITEM_JINZO, RARITY_SUPER_RARE},
 	{ITEM_MONSTER_GATE, RARITY_SUPER_RARE},
 };
 
 const struct PackContents gNobleKnightsoftheRoundTableBoxSet[] =
-{	{ITEM_BOOK_OF_MOON, RARITY_PLATINUM_RARE},
+{
+	{ITEM_BOOK_OF_MOON, RARITY_PLATINUM_RARE},
 	{ITEM_CALL_OF_THE_HAUNTED, RARITY_PLATINUM_RARE},
 	{ITEM_DARK_HOLE, RARITY_PLATINUM_RARE},
 	{ITEM_REINFORCEMENT_OF_THE_ARMY, RARITY_PLATINUM_RARE},
@@ -3351,7 +3562,8 @@ const struct PackContents gNobleKnightsoftheRoundTableBoxSet[] =
 };
 
 const struct PackContents gNobleKnightsoftheRoundTablePowerUpPack[] =
-{	{ITEM_COMPULSORY_EVACUATION_DEVICE, RARITY_PLATINUM_RARE},
+{
+	{ITEM_COMPULSORY_EVACUATION_DEVICE, RARITY_PLATINUM_RARE},
 	{ITEM_MYSTICAL_SPACE_TYPHOON, RARITY_PLATINUM_RARE},
 	{ITEM_TORRENTIAL_TRIBUTE, RARITY_PLATINUM_RARE},
 };
@@ -3360,51 +3572,60 @@ const struct PackContents gNumberHunters[] =
 {};
 
 const struct PackContents gOTSTournamentPack1[] =
-{	{ITEM_ANTI_SPELL_FRAGRANCE, RARITY_SUPER_RARE},
+{
+	{ITEM_ANTI_SPELL_FRAGRANCE, RARITY_SUPER_RARE},
 	{ITEM_MAGE_POWER, RARITY_COMMON},
 	{ITEM_MONSTER_GATE, RARITY_COMMON},
 	{ITEM_OFFERINGS_TO_THE_DOOMED, RARITY_COMMON},
 };
 
 const struct PackContents gOTSTournamentPack10[] =
-{	{ITEM_BREAKER_THE_MAGICAL_WARRIOR, RARITY_COMMON},
+{
+	{ITEM_BREAKER_THE_MAGICAL_WARRIOR, RARITY_COMMON},
 	{ITEM_DRAGON_S_MIRROR, RARITY_COMMON},
 };
 
 const struct PackContents gOTSTournamentPack10POR[] =
-{	{ITEM_BREAKER_THE_MAGICAL_WARRIOR, RARITY_COMMON},
+{
+	{ITEM_BREAKER_THE_MAGICAL_WARRIOR, RARITY_COMMON},
 	{ITEM_DRAGON_S_MIRROR, RARITY_COMMON},
 };
 
 const struct PackContents gOTSTournamentPack11[] =
-{	{ITEM_CYBER_DRAGON, RARITY_COMMON},
+{
+	{ITEM_CYBER_DRAGON, RARITY_COMMON},
 	{ITEM_LIMITER_REMOVAL, RARITY_COMMON},
 };
 
 const struct PackContents gOTSTournamentPack11POR[] =
-{	{ITEM_CYBER_DRAGON, RARITY_COMMON},
+{
+	{ITEM_CYBER_DRAGON, RARITY_COMMON},
 	{ITEM_LIMITER_REMOVAL, RARITY_COMMON},
 };
 
 const struct PackContents gOTSTournamentPack12[] =
-{	{ITEM_DARK_HOLE, RARITY_COMMON},
+{
+	{ITEM_DARK_HOLE, RARITY_COMMON},
 	{ITEM_GIGANTES, RARITY_COMMON},
 	{ITEM_SOLEMN_JUDGMENT, RARITY_ULTIMATE_RARE},
 };
 
 const struct PackContents gOTSTournamentPack12POR[] =
-{	{ITEM_DARK_HOLE, RARITY_COMMON},
+{
+	{ITEM_DARK_HOLE, RARITY_COMMON},
 	{ITEM_GIGANTES, RARITY_COMMON},
 	{ITEM_SOLEMN_JUDGMENT, RARITY_ULTIMATE_RARE},
 };
 
 const struct PackContents gOTSTournamentPack13[] =
-{	{ITEM_BOOK_OF_MOON, RARITY_ULTIMATE_RARE},
+{
+	{ITEM_BOOK_OF_MOON, RARITY_ULTIMATE_RARE},
 	{ITEM_BOTTOMLESS_TRAP_HOLE, RARITY_COMMON},
 };
 
 const struct PackContents gOTSTournamentPack13POR[] =
-{	{ITEM_BOOK_OF_MOON, RARITY_ULTIMATE_RARE},
+{
+	{ITEM_BOOK_OF_MOON, RARITY_ULTIMATE_RARE},
 	{ITEM_BOTTOMLESS_TRAP_HOLE, RARITY_COMMON},
 };
 
@@ -3421,14 +3642,16 @@ const struct PackContents gOTSTournamentPack15POR[] =
 {};
 
 const struct PackContents gOTSTournamentPack16[] =
-{	{ITEM_CYBER_DRAGON, RARITY_ULTIMATE_RARE},
+{
+	{ITEM_CYBER_DRAGON, RARITY_ULTIMATE_RARE},
 	{ITEM_CYBER_SAURUS, RARITY_COMMON},
 	{ITEM_CYBER_STEIN, RARITY_SUPER_RARE},
 	{ITEM_ROYAL_MAGICAL_LIBRARY, RARITY_COMMON},
 };
 
 const struct PackContents gOTSTournamentPack16POR[] =
-{	{ITEM_CYBER_DRAGON, RARITY_ULTIMATE_RARE},
+{
+	{ITEM_CYBER_DRAGON, RARITY_ULTIMATE_RARE},
 	{ITEM_CYBER_SAURUS, RARITY_COMMON},
 	{ITEM_CYBER_STEIN, RARITY_SUPER_RARE},
 	{ITEM_ROYAL_MAGICAL_LIBRARY, RARITY_COMMON},
@@ -3441,33 +3664,39 @@ const struct PackContents gOTSTournamentPack17POR[] =
 {};
 
 const struct PackContents gOTSTournamentPack18[] =
-{	{ITEM_KWAGAR_HERCULES, RARITY_SUPER_RARE},
+{
+	{ITEM_KWAGAR_HERCULES, RARITY_SUPER_RARE},
 	{ITEM_MANJU_OF_THE_TEN_THOUSAND_HANDS, RARITY_COMMON},
 };
 
 const struct PackContents gOTSTournamentPack18POR[] =
-{	{ITEM_KWAGAR_HERCULES, RARITY_SUPER_RARE},
+{
+	{ITEM_KWAGAR_HERCULES, RARITY_SUPER_RARE},
 	{ITEM_MANJU_OF_THE_TEN_THOUSAND_HANDS, RARITY_COMMON},
 };
 
 const struct PackContents gOTSTournamentPack19[] =
-{	{ITEM_NIGHT_ASSAILANT, RARITY_COMMON},
+{
+	{ITEM_NIGHT_ASSAILANT, RARITY_COMMON},
 	{ITEM_SKILL_DRAIN, RARITY_ULTIMATE_RARE},
 };
 
 const struct PackContents gOTSTournamentPack19POR[] =
-{	{ITEM_NIGHT_ASSAILANT, RARITY_COMMON},
+{
+	{ITEM_NIGHT_ASSAILANT, RARITY_COMMON},
 	{ITEM_SKILL_DRAIN, RARITY_ULTIMATE_RARE},
 };
 
 const struct PackContents gOTSTournamentPack2[] =
-{	{ITEM_MASK_OF_RESTRICT, RARITY_SUPER_RARE},
+{
+	{ITEM_MASK_OF_RESTRICT, RARITY_SUPER_RARE},
 	{ITEM_RAIGEKI, RARITY_ULTIMATE_RARE},
 	{ITEM_UNITED_WE_STAND, RARITY_COMMON},
 };
 
 const struct PackContents gOTSTournamentPack20[] =
-{	{ITEM_KING_OF_THE_SWAMP, RARITY_COMMON},
+{
+	{ITEM_KING_OF_THE_SWAMP, RARITY_COMMON},
 	{ITEM_NEKO_MANE_KING, RARITY_SUPER_RARE},
 };
 
@@ -3478,35 +3707,41 @@ const struct PackContents gOTSTournamentPack22[] =
 {};
 
 const struct PackContents gOTSTournamentPack23[] =
-{	{ITEM_DARK_HOLE, RARITY_COMMON},
+{
+	{ITEM_DARK_HOLE, RARITY_COMMON},
 	{ITEM_ENEMY_CONTROLLER, RARITY_ULTIMATE_RARE},
 };
 
 const struct PackContents gOTSTournamentPack24[] =
-{	{ITEM_BYSER_SHOCK, RARITY_COMMON},
+{
+	{ITEM_BYSER_SHOCK, RARITY_COMMON},
 	{ITEM_HARPIE_S_FEATHER_DUSTER, RARITY_ULTIMATE_RARE},
 	{ITEM_KING_TIGER_WANGHU, RARITY_SUPER_RARE},
 };
 
 const struct PackContents gOTSTournamentPack25[] =
-{	{ITEM_EXODIA_THE_FORBIDDEN_ONE, RARITY_ULTIMATE_RARE},
+{
+	{ITEM_EXODIA_THE_FORBIDDEN_ONE, RARITY_ULTIMATE_RARE},
 	{ITEM_SERPENTINE_PRINCESS, RARITY_COMMON},
 };
 
 const struct PackContents gOTSTournamentPack26[] =
-{	{ITEM_DECK_DEVASTATION_VIRUS, RARITY_COMMON},
+{
+	{ITEM_DECK_DEVASTATION_VIRUS, RARITY_COMMON},
 };
 
 const struct PackContents gOTSTournamentPack27[] =
 {};
 
 const struct PackContents gOTSTournamentPack28[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTIMATE_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTIMATE_RARE},
 	{ITEM_BRAIN_CONTROL, RARITY_COMMON},
 };
 
 const struct PackContents gOTSTournamentPack3[] =
-{	{ITEM_CIPHER_SOLDIER, RARITY_COMMON},
+{
+	{ITEM_CIPHER_SOLDIER, RARITY_COMMON},
 	{ITEM_FUSIONIST, RARITY_SHORT_PRINT},
 };
 
@@ -3514,7 +3749,8 @@ const struct PackContents gOTSTournamentPack4[] =
 {};
 
 const struct PackContents gOTSTournamentPack5[] =
-{	{ITEM_SCAPEGOAT, RARITY_COMMON},
+{
+	{ITEM_SCAPEGOAT, RARITY_COMMON},
 	{ITEM_TERRAFORMING, RARITY_ULTIMATE_RARE},
 };
 
@@ -3522,7 +3758,8 @@ const struct PackContents gOTSTournamentPack6[] =
 {};
 
 const struct PackContents gOTSTournamentPack7[] =
-{	{ITEM_BLOWBACK_DRAGON, RARITY_SHORT_PRINT},
+{
+	{ITEM_BLOWBACK_DRAGON, RARITY_SHORT_PRINT},
 	{ITEM_BOOK_OF_LIFE, RARITY_COMMON},
 	{ITEM_GATLING_DRAGON, RARITY_SHORT_PRINT},
 	{ITEM_PITCH_BLACK_POWER_STONE, RARITY_COMMON},
@@ -3531,7 +3768,8 @@ const struct PackContents gOTSTournamentPack7[] =
 };
 
 const struct PackContents gOTSTournamentPack7POR[] =
-{	{ITEM_BLOWBACK_DRAGON, RARITY_COMMON},
+{
+	{ITEM_BLOWBACK_DRAGON, RARITY_COMMON},
 	{ITEM_BOOK_OF_LIFE, RARITY_COMMON},
 	{ITEM_GATLING_DRAGON, RARITY_COMMON},
 	{ITEM_PITCH_BLACK_POWER_STONE, RARITY_COMMON},
@@ -3540,29 +3778,34 @@ const struct PackContents gOTSTournamentPack7POR[] =
 };
 
 const struct PackContents gOTSTournamentPack8[] =
-{	{ITEM_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL, RARITY_COMMON},
+{
+	{ITEM_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL, RARITY_COMMON},
 	{ITEM_SCAPEGOAT, RARITY_ULTIMATE_RARE},
 };
 
 const struct PackContents gOTSTournamentPack8POR[] =
-{	{ITEM_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL, RARITY_COMMON},
+{
+	{ITEM_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL, RARITY_COMMON},
 	{ITEM_SCAPEGOAT, RARITY_ULTIMATE_RARE},
 };
 
 const struct PackContents gOTSTournamentPack9[] =
-{	{ITEM_CARD_DESTRUCTION, RARITY_SUPER_RARE},
+{
+	{ITEM_CARD_DESTRUCTION, RARITY_SUPER_RARE},
 	{ITEM_IMPERIAL_ORDER, RARITY_COMMON},
 	{ITEM_MORPHING_JAR, RARITY_SUPER_RARE},
 };
 
 const struct PackContents gOTSTournamentPack9POR[] =
-{	{ITEM_CARD_DESTRUCTION, RARITY_SUPER_RARE},
+{
+	{ITEM_CARD_DESTRUCTION, RARITY_SUPER_RARE},
 	{ITEM_IMPERIAL_ORDER, RARITY_COMMON},
 	{ITEM_MORPHING_JAR, RARITY_SUPER_RARE},
 };
 
 const struct PackContents gOnslaughtoftheFireKingsStructureDeck[] =
-{	{ITEM_BLAST_WITH_CHAIN, RARITY_COMMON},
+{
+	{ITEM_BLAST_WITH_CHAIN, RARITY_COMMON},
 	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
 	{ITEM_CREATURE_SWAP, RARITY_COMMON},
 	{ITEM_MANTICORE_OF_DARKNESS, RARITY_COMMON},
@@ -3584,15 +3827,18 @@ const struct PackContents gPalladiumOracleMahadSweepstakes[] =
 {};
 
 const struct PackContents gPendulumDominationStructureDeck[] =
-{	{ITEM_EMERGENCY_PROVISIONS, RARITY_COMMON},
+{
+	{ITEM_EMERGENCY_PROVISIONS, RARITY_COMMON},
 };
 
 const struct PackContents gPendulumEvolution[] =
-{	{ITEM_DRAGON_S_MIRROR, RARITY_SUPER_RARE},
+{
+	{ITEM_DRAGON_S_MIRROR, RARITY_SUPER_RARE},
 };
 
 const struct PackContents gPhantomDarkness[] =
-{	{ITEM_METAL_REFLECT_SLIME, RARITY_ULTRA_RARE},
+{
+	{ITEM_METAL_REFLECT_SLIME, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gPhantomDarknessSneakPeekParticipationCard[] =
@@ -3614,7 +3860,8 @@ const struct PackContents gPharaohTour2005promotionalcards[] =
 {};
 
 const struct PackContents gPharaohTour2006promotionalcards[] =
-{	{ITEM_SHRINK, RARITY_ULTRA_RARE},
+{
+	{ITEM_SHRINK, RARITY_ULTRA_RARE},
 	{ITEM_TOON_DARK_MAGICIAN_GIRL, RARITY_COMMON},
 };
 
@@ -3622,7 +3869,8 @@ const struct PackContents gPharaohTour2007promotionalcards[] =
 {};
 
 const struct PackContents gPharaohsServant[] =
-{	{ITEM_4_STARRED_LADYBUG_OF_DOOM, RARITY_COMMON},
+{
+	{ITEM_4_STARRED_LADYBUG_OF_DOOM, RARITY_COMMON},
 	{ITEM_BUSTER_BLADER, RARITY_ULTRA_RARE},
 	{ITEM_CALL_OF_THE_HAUNTED, RARITY_ULTRA_RARE},
 	{ITEM_CEASEFIRE, RARITY_ULTRA_RARE},
@@ -3647,7 +3895,8 @@ const struct PackContents gPharaohsServant[] =
 };
 
 const struct PackContents gPharaonicGuardian[] =
-{	{ITEM_ARSENAL_BUG, RARITY_COMMON},
+{
+	{ITEM_ARSENAL_BUG, RARITY_COMMON},
 	{ITEM_BARREL_BEHIND_THE_DOOR, RARITY_SUPER_RARE},
 	{ITEM_BOOK_OF_LIFE, RARITY_SUPER_RARE},
 	{ITEM_BOOK_OF_MOON, RARITY_RARE},
@@ -3708,7 +3957,8 @@ const struct PackContents gPremiumCollectionTin[] =
 {};
 
 const struct PackContents gPremiumGold[] =
-{	{ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_GOLD_RARE},
+{
+	{ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_GOLD_RARE},
 	{ITEM_BLUE_EYES_ULTIMATE_DRAGON, RARITY_GOLD_RARE},
 	{ITEM_BOTTOMLESS_TRAP_HOLE, RARITY_GOLD_RARE},
 	{ITEM_BREAKER_THE_MAGICAL_WARRIOR, RARITY_GOLD_RARE},
@@ -3728,12 +3978,14 @@ const struct PackContents gPremiumGold[] =
 };
 
 const struct PackContents gPremiumGoldInfiniteGold[] =
-{	{ITEM_HORN_OF_HEAVEN, RARITY_GOLD_SECRET_RARE},
+{
+	{ITEM_HORN_OF_HEAVEN, RARITY_GOLD_SECRET_RARE},
 	{ITEM_REASONING, RARITY_GOLD_RARE},
 };
 
 const struct PackContents gPremiumGoldReturnoftheBling[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_GOLD_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_GOLD_RARE},
 	{ITEM_BOOK_OF_MOON, RARITY_GOLD_RARE},
 	{ITEM_CALL_OF_THE_HAUNTED, RARITY_GOLD_RARE},
 	{ITEM_CEASEFIRE, RARITY_GOLD_RARE},
@@ -3757,7 +4009,8 @@ const struct PackContents gPremiumGoldReturnoftheBling[] =
 };
 
 const struct PackContents gPremiumPackTCG[] =
-{	{ITEM_DARK_MAGIC_CURTAIN, RARITY_SECRET_RARE},
+{
+	{ITEM_DARK_MAGIC_CURTAIN, RARITY_SECRET_RARE},
 };
 
 const struct PackContents gPremiumPack2TCG[] =
@@ -3776,7 +4029,8 @@ const struct PackContents gPrimalOriginDeluxeEdition[] =
 {};
 
 const struct PackContents gQuarterCenturyBonanza[] =
-{	{ITEM_BAZOO_THE_SOUL_EATER, RARITY_QUARTER_CENTURY_SECRET_RARE},
+{
+	{ITEM_BAZOO_THE_SOUL_EATER, RARITY_QUARTER_CENTURY_SECRET_RARE},
 	{ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_QUARTER_CENTURY_SECRET_RARE},
 	{ITEM_BLOWBACK_DRAGON, RARITY_QUARTER_CENTURY_SECRET_RARE},
 	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_QUARTER_CENTURY_SECRET_RARE},
@@ -3853,7 +4107,8 @@ const struct PackContents gQuarterCenturyBonanza[] =
 };
 
 const struct PackContents gQuarterCenturyStampede[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_QUARTER_CENTURY_SECRET_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_QUARTER_CENTURY_SECRET_RARE},
 	{ITEM_BUSTER_BLADER, RARITY_QUARTER_CENTURY_SECRET_RARE},
 	{ITEM_DARK_MAGICIAN, RARITY_QUARTER_CENTURY_SECRET_RARE},
 	{ITEM_DELINQUENT_DUO, RARITY_QUARTER_CENTURY_SECRET_RARE},
@@ -3869,7 +4124,8 @@ const struct PackContents gQuarterCenturyStampede[] =
 };
 
 const struct PackContents gRaYellowMegaPack[] =
-{	{ITEM_CYBER_DRAGON, RARITY_SECRET_RARE},
+{
+	{ITEM_CYBER_DRAGON, RARITY_SECRET_RARE},
 	{ITEM_CYBER_END_DRAGON, RARITY_RARE},
 	{ITEM_D_D_SURVIVOR, RARITY_COMMON},
 	{ITEM_ELEMENTAL_HERO_FLAME_WINGMAN, RARITY_RARE},
@@ -3900,11 +4156,13 @@ const struct PackContents gRagingTempestSpecialEdition[] =
 {};
 
 const struct PackContents gRealmofLightStructureDeck[] =
-{	{ITEM_MONSTER_REINCARNATION, RARITY_COMMON},
+{
+	{ITEM_MONSTER_REINCARNATION, RARITY_COMMON},
 };
 
 const struct PackContents gRealmoftheSeaEmperorStructureDeck[] =
-{	{ITEM_A_LEGENDARY_OCEAN, RARITY_COMMON},
+{
+	{ITEM_A_LEGENDARY_OCEAN, RARITY_COMMON},
 	{ITEM_ABYSS_SOLDIER, RARITY_COMMON},
 	{ITEM_DARK_HOLE, RARITY_COMMON},
 	{ITEM_GRAVITY_BIND, RARITY_COMMON},
@@ -3916,11 +4174,13 @@ const struct PackContents gRealmoftheSeaEmperorStructureDeck[] =
 };
 
 const struct PackContents gRemoteDuelatHomeSweepstakes[] =
-{	{ITEM_UNITED_WE_STAND, RARITY_SECRET_RARE},
+{
+	{ITEM_UNITED_WE_STAND, RARITY_SECRET_RARE},
 };
 
 const struct PackContents gRetroPack[] =
-{	{ITEM_AXE_OF_DESPAIR, RARITY_RARE},
+{
+	{ITEM_AXE_OF_DESPAIR, RARITY_RARE},
 	{ITEM_BLACK_ILLUSION_RITUAL, RARITY_COMMON},
 	{ITEM_BLACK_PENDANT, RARITY_COMMON},
 	{ITEM_BLACK_SKULL_DRAGON, RARITY_RARE},
@@ -3984,7 +4244,8 @@ const struct PackContents gRetroPack[] =
 };
 
 const struct PackContents gRetroPack2[] =
-{	{ITEM_4_STARRED_LADYBUG_OF_DOOM, RARITY_COMMON},
+{
+	{ITEM_4_STARRED_LADYBUG_OF_DOOM, RARITY_COMMON},
 	{ITEM_A_LEGENDARY_OCEAN, RARITY_COMMON},
 	{ITEM_AIRKNIGHT_PARSHATH, RARITY_RARE},
 	{ITEM_ASURA_PRIEST, RARITY_COMMON},
@@ -4044,7 +4305,8 @@ const struct PackContents gReturnoftheDuelistSpecialEdition[] =
 {};
 
 const struct PackContents gRiseofDestiny[] =
-{	{ITEM_DARK_BLADE_THE_DRAGON_KNIGHT, RARITY_ULTIMATE_RARE},
+{
+	{ITEM_DARK_BLADE_THE_DRAGON_KNIGHT, RARITY_ULTIMATE_RARE},
 	{ITEM_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE, RARITY_ULTIMATE_RARE},
 	{ITEM_FUSILIER_DRAGON_THE_DUAL_MODE_BEAST, RARITY_ULTIMATE_RARE},
 	{ITEM_MIRAGE_DRAGON, RARITY_COMMON},
@@ -4058,11 +4320,13 @@ const struct PackContents gRiseofDestiny[] =
 };
 
 const struct PackContents gRiseofDestinySpecialEdition[] =
-{	{ITEM_VAMPIRE_LORD, RARITY_ULTRA_RARE},
+{
+	{ITEM_VAMPIRE_LORD, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gRiseoftheDragonLordsStructureDeck[] =
-{	{ITEM_BIG_BANG_SHOT, RARITY_COMMON},
+{
+	{ITEM_BIG_BANG_SHOT, RARITY_COMMON},
 	{ITEM_BRAIN_CONTROL, RARITY_COMMON},
 	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
 	{ITEM_DUST_TORNADO, RARITY_COMMON},
@@ -4088,7 +4352,8 @@ const struct PackContents gRiseoftheDuelistPremierepromotionalcard[] =
 {};
 
 const struct PackContents gRiseoftheTrueDragonsStructureDeck[] =
-{	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+{
+	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
 	{ITEM_REINFORCEMENT_OF_THE_ARMY, RARITY_COMMON},
 	{ITEM_TERRAFORMING, RARITY_COMMON},
 };
@@ -4106,7 +4371,8 @@ const struct PackContents gSJJumpPackSpring2020promotionalcard[] =
 {};
 
 const struct PackContents gSaberForceStarterDeck[] =
-{	{ITEM_BLACK_PENDANT, RARITY_COMMON},
+{
+	{ITEM_BLACK_PENDANT, RARITY_COMMON},
 	{ITEM_BLADE_KNIGHT, RARITY_COMMON},
 	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
 	{ITEM_CYBER_DRAGON, RARITY_COMMON},
@@ -4125,7 +4391,8 @@ const struct PackContents gSaberForceStarterDeck[] =
 };
 
 const struct PackContents gSagaofBlueEyesWhiteDragonStructureDeck[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
 	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
 	{ITEM_COMPULSORY_EVACUATION_DEVICE, RARITY_COMMON},
 	{ITEM_ENEMY_CONTROLLER, RARITY_COMMON},
@@ -4142,7 +4409,8 @@ const struct PackContents gSamuraiAssault[] =
 {};
 
 const struct PackContents gSamuraiWarlordsStructureDeck[] =
-{	{ITEM_DARK_HOLE, RARITY_COMMON},
+{
+	{ITEM_DARK_HOLE, RARITY_COMMON},
 	{ITEM_REINFORCEMENT_OF_THE_ARMY, RARITY_COMMON},
 };
 
@@ -4159,7 +4427,8 @@ const struct PackContents gSavageStrikeSpecialEdition[] =
 {};
 
 const struct PackContents gSecretSlayers[] =
-{	{ITEM_SOLEMN_JUDGMENT, RARITY_SUPER_RARE},
+{
+	{ITEM_SOLEMN_JUDGMENT, RARITY_SUPER_RARE},
 	{ITEM_UPSTART_GOBLIN, RARITY_SUPER_RARE},
 };
 
@@ -4182,7 +4451,8 @@ const struct PackContents gShadowSpectersSpecialEdition[] =
 {};
 
 const struct PackContents gShadowofInfinity[] =
-{	{ITEM_CHAINSAW_INSECT, RARITY_ULTIMATE_RARE},
+{
+	{ITEM_CHAINSAW_INSECT, RARITY_ULTIMATE_RARE},
 	{ITEM_DOOM_DOZER, RARITY_ULTIMATE_RARE},
 	{ITEM_GOKIPON, RARITY_COMMON},
 	{ITEM_KARMA_CUT, RARITY_ULTIMATE_RARE},
@@ -4213,25 +4483,29 @@ const struct PackContents gShonenJump2007subscriptionbonus[] =
 {};
 
 const struct PackContents gShonenJumpChampionship2004PrizeCard[] =
-{	{ITEM_CYBER_STEIN, RARITY_ULTRA_RARE},
+{
+	{ITEM_CYBER_STEIN, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gShonenJumpChampionship2005PrizeCard[] =
 {};
 
 const struct PackContents gShonenJumpChampionship2006PrizeCard[] =
-{	{ITEM_SHRINK, RARITY_ULTRA_RARE},
+{
+	{ITEM_SHRINK, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gShonenJumpChampionship2007PrizeCardA[] =
-{	{ITEM_CRUSH_CARD_VIRUS, RARITY_ULTRA_RARE},
+{
+	{ITEM_CRUSH_CARD_VIRUS, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gShonenJumpChampionship2007PrizeCardB[] =
 {};
 
 const struct PackContents gShonenJumpChampionship2008PrizeCard[] =
-{	{ITEM_DOOMCALIBER_KNIGHT, RARITY_ULTRA_RARE},
+{
+	{ITEM_DOOMCALIBER_KNIGHT, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gShonenJumpChampionship2009PrizeCard[] =
@@ -4265,7 +4539,8 @@ const struct PackContents gShonenJumpScholasticEditionVol9Issue1promotionalcard[
 {};
 
 const struct PackContents gShonenJumpVol1Issue1promotionalcard[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gShonenJumpVol10Issue1promotionalcard[] =
@@ -4284,15 +4559,18 @@ const struct PackContents gShonenJumpVol3Issue1promotionalcard[] =
 {};
 
 const struct PackContents gShonenJumpVol4Issue1promotionalcard[] =
-{	{ITEM_BLUE_EYES_ULTIMATE_DRAGON, RARITY_SECRET_RARE},
+{
+	{ITEM_BLUE_EYES_ULTIMATE_DRAGON, RARITY_SECRET_RARE},
 };
 
 const struct PackContents gShonenJumpVol4Issue11promotionalcard[] =
-{	{ITEM_MAGICIAN_S_VALKYRIA, RARITY_ULTRA_RARE},
+{
+	{ITEM_MAGICIAN_S_VALKYRIA, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gShonenJumpVol4Issue12promotionalcard[] =
-{	{ITEM_TOON_DARK_MAGICIAN_GIRL, RARITY_ULTRA_RARE},
+{
+	{ITEM_TOON_DARK_MAGICIAN_GIRL, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gShonenJumpVol5Issue1promotionalcard[] =
@@ -4368,7 +4646,8 @@ const struct PackContents gShonenJumpVol9Issue3promotionalcard[] =
 {};
 
 const struct PackContents gShonenJumpVol9Issue4promotionalcard[] =
-{	{ITEM_DARK_MAGICIAN, RARITY_ULTRA_RARE},
+{
+	{ITEM_DARK_MAGICIAN, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gShonenJumpVol9Issue6promotionalcard[] =
@@ -4387,7 +4666,8 @@ const struct PackContents gSoulFusionSpecialEdition[] =
 {};
 
 const struct PackContents gSouloftheDuelist[] =
-{	{ITEM_CHARCOAL_INPACHI, RARITY_ULTIMATE_RARE},
+{
+	{ITEM_CHARCOAL_INPACHI, RARITY_ULTIMATE_RARE},
 	{ITEM_DARK_MIMIC_LV1, RARITY_COMMON},
 	{ITEM_DARK_MIMIC_LV3, RARITY_ULTIMATE_RARE},
 	{ITEM_HALLOWED_LIFE_BARRIER, RARITY_ULTIMATE_RARE},
@@ -4404,7 +4684,8 @@ const struct PackContents gSouloftheDuelist[] =
 };
 
 const struct PackContents gSpaceTimeShowdownPowerUpPack[] =
-{	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+{
+	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
 	{ITEM_D_D_WARRIOR_LADY, RARITY_COMMON},
 	{ITEM_DARK_HOLE, RARITY_ULTRA_RARE},
 	{ITEM_INJECTION_FAIRY_LILY, RARITY_COMMON},
@@ -4416,12 +4697,14 @@ const struct PackContents gSpaceTimeShowdownPowerUpPack[] =
 };
 
 const struct PackContents gSpeedDuelDemoDeck[] =
-{	{ITEM_BATTLE_OX, RARITY_COMMON},
+{
+	{ITEM_BATTLE_OX, RARITY_COMMON},
 	{ITEM_GRAVEKEEPER_S_SPEAR_SOLDIER, RARITY_COMMON},
 };
 
 const struct PackContents gSpeedDuelDemoDeck2020[] =
-{	{ITEM_BATTLE_OX, RARITY_COMMON},
+{
+	{ITEM_BATTLE_OX, RARITY_COMMON},
 	{ITEM_BLOCK_ATTACK, RARITY_COMMON},
 	{ITEM_GRAVEKEEPER_S_SPEAR_SOLDIER, RARITY_COMMON},
 	{ITEM_REINFORCEMENTS, RARITY_COMMON},
@@ -4429,7 +4712,8 @@ const struct PackContents gSpeedDuelDemoDeck2020[] =
 };
 
 const struct PackContents gSpeedDuelGXDuelAcademyBox[] =
-{	{ITEM_BLAZING_INPACHI, RARITY_COMMON},
+{
+	{ITEM_BLAZING_INPACHI, RARITY_COMMON},
 	{ITEM_BOOK_OF_MOON, RARITY_SECRET_RARE},
 	{ITEM_CHARCOAL_INPACHI, RARITY_COMMON},
 	{ITEM_CHIRON_THE_MAGE, RARITY_COMMON},
@@ -4453,7 +4737,8 @@ const struct PackContents gSpeedDuelGXDuelAcademyBox[] =
 };
 
 const struct PackContents gSpeedDuelGXDuelistsofShadows[] =
-{	{ITEM_AQUA_SPIRIT, RARITY_COMMON},
+{
+	{ITEM_AQUA_SPIRIT, RARITY_COMMON},
 	{ITEM_ARCHFIEND_SOLDIER, RARITY_COMMON},
 	{ITEM_AXE_OF_DESPAIR, RARITY_COMMON},
 	{ITEM_BAZOO_THE_SOUL_EATER, RARITY_COMMON},
@@ -4487,7 +4772,8 @@ const struct PackContents gSpeedDuelGXDuelistsofShadows[] =
 };
 
 const struct PackContents gSpeedDuelGXMidtermParadox[] =
-{	{ITEM_A_LEGENDARY_OCEAN, RARITY_COMMON},
+{
+	{ITEM_A_LEGENDARY_OCEAN, RARITY_COMMON},
 	{ITEM_CRASS_CLOWN, RARITY_COMMON},
 	{ITEM_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL, RARITY_COMMON},
 	{ITEM_DES_KOALA, RARITY_COMMON},
@@ -4507,7 +4793,8 @@ const struct PackContents gSpeedDuelGXMidtermParadox[] =
 };
 
 const struct PackContents gSpeedDuelStarterDecksDestinyMasters[] =
-{	{ITEM_BLACK_ILLUSION_RITUAL, RARITY_COMMON},
+{
+	{ITEM_BLACK_ILLUSION_RITUAL, RARITY_COMMON},
 	{ITEM_DARK_MAGICIAN, RARITY_COMMON},
 	{ITEM_GRAVEKEEPER_S_ASSAILANT, RARITY_COMMON},
 	{ITEM_GRAVEKEEPER_S_SPEAR_SOLDIER, RARITY_COMMON},
@@ -4521,7 +4808,8 @@ const struct PackContents gSpeedDuelStarterDecksDestinyMasters[] =
 };
 
 const struct PackContents gSpeedDuelStarterDecksDuelistsofTomorrow[] =
-{	{ITEM_BATTLE_OX, RARITY_COMMON},
+{
+	{ITEM_BATTLE_OX, RARITY_COMMON},
 	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_COMMON},
 	{ITEM_FLAME_SWORDSMAN, RARITY_COMMON},
 	{ITEM_GEARFRIED_THE_IRON_KNIGHT, RARITY_COMMON},
@@ -4531,7 +4819,8 @@ const struct PackContents gSpeedDuelStarterDecksDuelistsofTomorrow[] =
 };
 
 const struct PackContents gSpeedDuelStarterDecksMatchoftheMillennium[] =
-{	{ITEM_BLACK_ILLUSION_RITUAL, RARITY_COMMON},
+{
+	{ITEM_BLACK_ILLUSION_RITUAL, RARITY_COMMON},
 	{ITEM_DARK_MAGICIAN, RARITY_COMMON},
 	{ITEM_DUST_TORNADO, RARITY_COMMON},
 	{ITEM_GAIA_THE_DRAGON_CHAMPION, RARITY_COMMON},
@@ -4549,7 +4838,8 @@ const struct PackContents gSpeedDuelStarterDecksMatchoftheMillennium[] =
 };
 
 const struct PackContents gSpeedDuelStarterDecksTwistedNightmares[] =
-{	{ITEM_BOWGANIAN, RARITY_COMMON},
+{
+	{ITEM_BOWGANIAN, RARITY_COMMON},
 	{ITEM_BYSER_SHOCK, RARITY_COMMON},
 	{ITEM_DARK_MIMIC_LV1, RARITY_COMMON},
 	{ITEM_DARK_MIMIC_LV3, RARITY_COMMON},
@@ -4565,7 +4855,8 @@ const struct PackContents gSpeedDuelStarterDecksTwistedNightmares[] =
 };
 
 const struct PackContents gSpeedDuelStarterDecksUltimatePredators[] =
-{	{ITEM_GILASAURUS, RARITY_COMMON},
+{
+	{ITEM_GILASAURUS, RARITY_COMMON},
 	{ITEM_GOKIPON, RARITY_COMMON},
 	{ITEM_HYPER_HAMMERHEAD, RARITY_COMMON},
 	{ITEM_MAN_EATER_BUG, RARITY_COMMON},
@@ -4574,7 +4865,8 @@ const struct PackContents gSpeedDuelStarterDecksUltimatePredators[] =
 };
 
 const struct PackContents gSpeedDuelTournamentPack1[] =
-{	{ITEM_BLACK_ILLUSION_RITUAL, RARITY_SUPER_RARE},
+{
+	{ITEM_BLACK_ILLUSION_RITUAL, RARITY_SUPER_RARE},
 	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
 	{ITEM_DARK_MAGICIAN, RARITY_ULTRA_RARE},
 	{ITEM_GEARFRIED_THE_IRON_KNIGHT, RARITY_SUPER_RARE},
@@ -4583,12 +4875,14 @@ const struct PackContents gSpeedDuelTournamentPack1[] =
 };
 
 const struct PackContents gSpeedDuelTournamentPack2[] =
-{	{ITEM_HYPER_HAMMERHEAD, RARITY_SUPER_RARE},
+{
+	{ITEM_HYPER_HAMMERHEAD, RARITY_SUPER_RARE},
 	{ITEM_MAN_EATER_BUG, RARITY_SUPER_RARE},
 };
 
 const struct PackContents gSpeedDuelTournamentPack3[] =
-{	{ITEM_DARK_RULER_HA_DES, RARITY_ULTRA_RARE},
+{
+	{ITEM_DARK_RULER_HA_DES, RARITY_ULTRA_RARE},
 	{ITEM_DUST_TORNADO, RARITY_COMMON},
 	{ITEM_NIGHTMARE_WHEEL, RARITY_SUPER_RARE},
 	{ITEM_OFFERINGS_TO_THE_DOOMED, RARITY_SUPER_RARE},
@@ -4596,7 +4890,8 @@ const struct PackContents gSpeedDuelTournamentPack3[] =
 };
 
 const struct PackContents gSpeedDuelTournamentPack4[] =
-{	{ITEM_BLADE_KNIGHT, RARITY_COMMON},
+{
+	{ITEM_BLADE_KNIGHT, RARITY_COMMON},
 	{ITEM_BOOK_OF_LIFE, RARITY_COMMON},
 	{ITEM_BREAKER_THE_MAGICAL_WARRIOR, RARITY_SUPER_RARE},
 	{ITEM_CREATURE_SWAP, RARITY_ULTRA_RARE},
@@ -4609,7 +4904,8 @@ const struct PackContents gSpeedDuelTournamentPack4[] =
 };
 
 const struct PackContents gSpeedDuelTournamentPack5[] =
-{	{ITEM_BOOK_OF_MOON, RARITY_COMMON},
+{
+	{ITEM_BOOK_OF_MOON, RARITY_COMMON},
 	{ITEM_ELEMENTAL_HERO_WILDHEART, RARITY_ULTRA_RARE},
 	{ITEM_JAR_OF_GREED, RARITY_SUPER_RARE},
 	{ITEM_JINZO, RARITY_COMMON},
@@ -4620,7 +4916,8 @@ const struct PackContents gSpeedDuelTournamentPack5[] =
 };
 
 const struct PackContents gSpeedDuelTournamentPack6[] =
-{	{ITEM_D_D_SURVIVOR, RARITY_ULTRA_RARE},
+{
+	{ITEM_D_D_SURVIVOR, RARITY_ULTRA_RARE},
 	{ITEM_DROP_OFF, RARITY_COMMON},
 	{ITEM_NIGHT_ASSAILANT, RARITY_COMMON},
 	{ITEM_NOBLEMAN_OF_EXTERMINATION, RARITY_COMMON},
@@ -4629,14 +4926,16 @@ const struct PackContents gSpeedDuelTournamentPack6[] =
 };
 
 const struct PackContents gSpeedDuelArenaofLostSouls[] =
-{	{ITEM_BLOCK_ATTACK, RARITY_COMMON},
+{
+	{ITEM_BLOCK_ATTACK, RARITY_COMMON},
 	{ITEM_BLUE_EYES_ULTIMATE_DRAGON, RARITY_ULTRA_RARE},
 	{ITEM_BUSTER_BLADER, RARITY_COMMON},
 	{ITEM_DE_SPELL, RARITY_COMMON},
 };
 
 const struct PackContents gSpeedDuelAttackfromtheDeep[] =
-{	{ITEM_BLADE_KNIGHT, RARITY_ULTRA_RARE},
+{
+	{ITEM_BLADE_KNIGHT, RARITY_ULTRA_RARE},
 	{ITEM_DUST_TORNADO, RARITY_SUPER_RARE},
 	{ITEM_GREAT_WHITE, RARITY_COMMON},
 	{ITEM_LEVIA_DRAGON_DAEDALUS, RARITY_ULTRA_RARE},
@@ -4648,7 +4947,8 @@ const struct PackContents gSpeedDuelAttackfromtheDeep[] =
 };
 
 const struct PackContents gSpeedDuelBattleCityBox[] =
-{	{ITEM_AIRKNIGHT_PARSHATH, RARITY_SECRET_RARE},
+{
+	{ITEM_AIRKNIGHT_PARSHATH, RARITY_SECRET_RARE},
 	{ITEM_AQUA_MADOOR, RARITY_COMMON},
 	{ITEM_BANISHER_OF_THE_LIGHT, RARITY_COMMON},
 	{ITEM_BAZOO_THE_SOUL_EATER, RARITY_COMMON},
@@ -4701,7 +5001,8 @@ const struct PackContents gSpeedDuelBattleCityBox[] =
 };
 
 const struct PackContents gSpeedDuelScarsofBattle[] =
-{	{ITEM_BOOK_OF_LIFE, RARITY_ULTRA_RARE},
+{
+	{ITEM_BOOK_OF_LIFE, RARITY_ULTRA_RARE},
 	{ITEM_COMMAND_KNIGHT, RARITY_COMMON},
 	{ITEM_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE, RARITY_SUPER_RARE},
 	{ITEM_MASK_OF_DARKNESS, RARITY_ULTRA_RARE},
@@ -4712,7 +5013,8 @@ const struct PackContents gSpeedDuelScarsofBattleLaunchEventparticipationcard[] 
 {};
 
 const struct PackContents gSpeedDuelStreetsofBattleCity[] =
-{	{ITEM_7_COLORED_FISH, RARITY_COMMON},
+{
+	{ITEM_7_COLORED_FISH, RARITY_COMMON},
 	{ITEM_A_LEGENDARY_OCEAN, RARITY_COMMON},
 	{ITEM_AIRKNIGHT_PARSHATH, RARITY_COMMON},
 	{ITEM_BARREL_BEHIND_THE_DOOR, RARITY_COMMON},
@@ -4769,17 +5071,20 @@ const struct PackContents gSpeedDuelStreetsofBattleCity[] =
 };
 
 const struct PackContents gSpeedDuelTrialsoftheKingdom[] =
-{	{ITEM_DON_ZALOOG, RARITY_ULTRA_RARE},
+{
+	{ITEM_DON_ZALOOG, RARITY_ULTRA_RARE},
 	{ITEM_SASUKE_SAMURAI, RARITY_COMMON},
 	{ITEM_SKULL_KNIGHT, RARITY_COMMON},
 };
 
 const struct PackContents gSpeedDuelTrialsoftheKingdomSneakPeekparticipationcards[] =
-{	{ITEM_REINFORCEMENTS, RARITY_COMMON},
+{
+	{ITEM_REINFORCEMENTS, RARITY_COMMON},
 };
 
 const struct PackContents gSpellRuler[] =
-{	{ITEM_AXE_OF_DESPAIR, RARITY_ULTRA_RARE},
+{
+	{ITEM_AXE_OF_DESPAIR, RARITY_ULTRA_RARE},
 	{ITEM_BANISHER_OF_THE_LIGHT, RARITY_SUPER_RARE},
 	{ITEM_BLACK_ILLUSION_RITUAL, RARITY_SUPER_RARE},
 	{ITEM_BLACK_PENDANT, RARITY_SUPER_RARE},
@@ -4813,7 +5118,8 @@ const struct PackContents gSpellRuler[] =
 };
 
 const struct PackContents gSpellcastersCommandStructureDeck[] =
-{	{ITEM_BOOK_OF_MOON, RARITY_COMMON},
+{
+	{ITEM_BOOK_OF_MOON, RARITY_COMMON},
 	{ITEM_BREAKER_THE_MAGICAL_WARRIOR, RARITY_COMMON},
 	{ITEM_ENEMY_CONTROLLER, RARITY_COMMON},
 	{ITEM_FISSURE, RARITY_COMMON},
@@ -4830,7 +5136,8 @@ const struct PackContents gSpellcastersCommandStructureDeck[] =
 };
 
 const struct PackContents gSpellcastersCommandStructureDeckSpecialEdition[] =
-{	{ITEM_MAGICIAN_S_VALKYRIA, RARITY_ULTRA_RARE},
+{
+	{ITEM_MAGICIAN_S_VALKYRIA, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gSpiritWarriors[] =
@@ -4840,12 +5147,14 @@ const struct PackContents gStarPack2013[] =
 {};
 
 const struct PackContents gStarPack2014[] =
-{	{ITEM_MAGICAL_MERCHANT, RARITY_STARFOIL_RARE},
+{
+	{ITEM_MAGICAL_MERCHANT, RARITY_STARFOIL_RARE},
 	{ITEM_REASONING, RARITY_STARFOIL_RARE},
 };
 
 const struct PackContents gStarPackARCV[] =
-{	{ITEM_MOBIUS_THE_FROST_MONARCH, RARITY_SHATTERFOIL_RARE},
+{
+	{ITEM_MOBIUS_THE_FROST_MONARCH, RARITY_SHATTERFOIL_RARE},
 	{ITEM_POLYMERIZATION, RARITY_SHATTERFOIL_RARE},
 };
 
@@ -4871,7 +5180,8 @@ const struct PackContents gStarstrikeBlastSneakPeekParticipationCard[] =
 {};
 
 const struct PackContents gStarterDeck2006[] =
-{	{ITEM_BLACK_PENDANT, RARITY_COMMON},
+{
+	{ITEM_BLACK_PENDANT, RARITY_COMMON},
 	{ITEM_BRAIN_CONTROL, RARITY_COMMON},
 	{ITEM_CASTLE_WALLS, RARITY_COMMON},
 	{ITEM_COMPULSORY_EVACUATION_DEVICE, RARITY_COMMON},
@@ -4901,7 +5211,8 @@ const struct PackContents gStarterDeck2006SpecialEdition[] =
 {};
 
 const struct PackContents gStarterDeckCodebreaker[] =
-{	{ITEM_BOOK_OF_MOON, RARITY_COMMON},
+{
+	{ITEM_BOOK_OF_MOON, RARITY_COMMON},
 	{ITEM_BOTTOMLESS_TRAP_HOLE, RARITY_COMMON},
 	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
 	{ITEM_COMPULSORY_EVACUATION_DEVICE, RARITY_COMMON},
@@ -4917,7 +5228,8 @@ const struct PackContents gStarterDeckCodebreaker[] =
 };
 
 const struct PackContents gStarterDeckDawnoftheXyz[] =
-{	{ITEM_BLADE_KNIGHT, RARITY_COMMON},
+{
+	{ITEM_BLADE_KNIGHT, RARITY_COMMON},
 	{ITEM_DARK_BLADE, RARITY_COMMON},
 	{ITEM_DUST_TORNADO, RARITY_COMMON},
 	{ITEM_FISSURE, RARITY_COMMON},
@@ -4935,7 +5247,8 @@ const struct PackContents gStarterDeckDawnoftheXyz[] =
 };
 
 const struct PackContents gStarterDeckDuelistToolbox[] =
-{	{ITEM_BATTLE_FOOTBALLER, RARITY_COMMON},
+{
+	{ITEM_BATTLE_FOOTBALLER, RARITY_COMMON},
 	{ITEM_BLAZING_INPACHI, RARITY_COMMON},
 	{ITEM_CARD_DESTRUCTION, RARITY_COMMON},
 	{ITEM_CHAINSAW_INSECT, RARITY_COMMON},
@@ -4953,7 +5266,8 @@ const struct PackContents gStarterDeckDuelistToolbox[] =
 };
 
 const struct PackContents gStarterDeckJadenYuki[] =
-{	{ITEM_BRAIN_CONTROL, RARITY_COMMON},
+{
+	{ITEM_BRAIN_CONTROL, RARITY_COMMON},
 	{ITEM_CHIRON_THE_MAGE, RARITY_COMMON},
 	{ITEM_COMPULSORY_EVACUATION_DEVICE, RARITY_COMMON},
 	{ITEM_DARK_BLADE, RARITY_COMMON},
@@ -4978,7 +5292,8 @@ const struct PackContents gStarterDeckJadenYuki[] =
 };
 
 const struct PackContents gStarterDeckJoey[] =
-{	{ITEM_7_COLORED_FISH, RARITY_COMMON},
+{
+	{ITEM_7_COLORED_FISH, RARITY_COMMON},
 	{ITEM_BLOCK_ATTACK, RARITY_COMMON},
 	{ITEM_CASTLE_WALLS, RARITY_COMMON},
 	{ITEM_CHANGE_OF_HEART, RARITY_COMMON},
@@ -5012,7 +5327,8 @@ const struct PackContents gStarterDeckJoey[] =
 };
 
 const struct PackContents gStarterDeckKaiba[] =
-{	{ITEM_BATTLE_OX, RARITY_COMMON},
+{
+	{ITEM_BATTLE_OX, RARITY_COMMON},
 	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
 	{ITEM_CASTLE_WALLS, RARITY_COMMON},
 	{ITEM_DARK_HOLE, RARITY_COMMON},
@@ -5034,7 +5350,8 @@ const struct PackContents gStarterDeckKaiba[] =
 };
 
 const struct PackContents gStarterDeckKaibaEvolution[] =
-{	{ITEM_BATTLE_OX, RARITY_COMMON},
+{
+	{ITEM_BATTLE_OX, RARITY_COMMON},
 	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_SUPER_RARE},
 	{ITEM_CHANGE_OF_HEART, RARITY_COMMON},
 	{ITEM_DE_SPELL, RARITY_COMMON},
@@ -5065,7 +5382,8 @@ const struct PackContents gStarterDeckKaibaEvolution[] =
 };
 
 const struct PackContents gStarterDeckKaibaReloaded[] =
-{	{ITEM_AQUA_MADOOR, RARITY_COMMON},
+{
+	{ITEM_AQUA_MADOOR, RARITY_COMMON},
 	{ITEM_BATTLE_OX, RARITY_COMMON},
 	{ITEM_BLADE_KNIGHT, RARITY_COMMON},
 	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTIMATE_RARE},
@@ -5094,7 +5412,8 @@ const struct PackContents gStarterDeckKaibaReloaded[] =
 };
 
 const struct PackContents gStarterDeckLinkStrike[] =
-{	{ITEM_BOOK_OF_MOON, RARITY_COMMON},
+{
+	{ITEM_BOOK_OF_MOON, RARITY_COMMON},
 	{ITEM_BOTTOMLESS_TRAP_HOLE, RARITY_COMMON},
 	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
 	{ITEM_COMPULSORY_EVACUATION_DEVICE, RARITY_COMMON},
@@ -5113,7 +5432,8 @@ const struct PackContents gStarterDeckLinkStrike[] =
 };
 
 const struct PackContents gStarterDeckPegasus[] =
-{	{ITEM_AQUA_MADOOR, RARITY_COMMON},
+{
+	{ITEM_AQUA_MADOOR, RARITY_COMMON},
 	{ITEM_BLACK_ILLUSION_RITUAL, RARITY_COMMON},
 	{ITEM_BLACK_PENDANT, RARITY_COMMON},
 	{ITEM_CASTLE_WALLS, RARITY_COMMON},
@@ -5146,7 +5466,8 @@ const struct PackContents gStarterDeckPegasus[] =
 };
 
 const struct PackContents gStarterDeckSyrusTruesdale[] =
-{	{ITEM_ARCHFIEND_SOLDIER, RARITY_COMMON},
+{
+	{ITEM_ARCHFIEND_SOLDIER, RARITY_COMMON},
 	{ITEM_BLACK_PENDANT, RARITY_COMMON},
 	{ITEM_BOOK_OF_MOON, RARITY_COMMON},
 	{ITEM_BRAIN_CONTROL, RARITY_COMMON},
@@ -5171,7 +5492,8 @@ const struct PackContents gStarterDeckSyrusTruesdale[] =
 };
 
 const struct PackContents gStarterDeckXyzSymphony[] =
-{	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+{
+	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
 	{ITEM_CHIRON_THE_MAGE, RARITY_COMMON},
 	{ITEM_CYBER_DRAGON, RARITY_COMMON},
 	{ITEM_DUST_TORNADO, RARITY_COMMON},
@@ -5191,7 +5513,8 @@ const struct PackContents gStarterDeckXyzSymphony[] =
 };
 
 const struct PackContents gStarterDeckYuGiOh5Ds[] =
-{	{ITEM_CHARCOAL_INPACHI, RARITY_COMMON},
+{
+	{ITEM_CHARCOAL_INPACHI, RARITY_COMMON},
 	{ITEM_DARK_BLADE, RARITY_COMMON},
 	{ITEM_EXILED_FORCE, RARITY_COMMON},
 	{ITEM_LIGHTNING_VORTEX, RARITY_COMMON},
@@ -5207,7 +5530,8 @@ const struct PackContents gStarterDeckYuGiOh5Ds[] =
 };
 
 const struct PackContents gStarterDeckYuGiOh5Ds2009[] =
-{	{ITEM_CREATURE_SWAP, RARITY_COMMON},
+{
+	{ITEM_CREATURE_SWAP, RARITY_COMMON},
 	{ITEM_DES_KOALA, RARITY_COMMON},
 	{ITEM_DUST_TORNADO, RARITY_COMMON},
 	{ITEM_EMERGENCY_PROVISIONS, RARITY_COMMON},
@@ -5224,7 +5548,8 @@ const struct PackContents gStarterDeckYuGiOh5Ds2009[] =
 };
 
 const struct PackContents gStarterDeckYugi[] =
-{	{ITEM_CARD_DESTRUCTION, RARITY_SUPER_RARE},
+{
+	{ITEM_CARD_DESTRUCTION, RARITY_SUPER_RARE},
 	{ITEM_CASTLE_WALLS, RARITY_COMMON},
 	{ITEM_CHANGE_OF_HEART, RARITY_COMMON},
 	{ITEM_DARK_HOLE, RARITY_COMMON},
@@ -5251,7 +5576,8 @@ const struct PackContents gStarterDeckYugi[] =
 };
 
 const struct PackContents gStarterDeckYugiEvolution[] =
-{	{ITEM_AXE_OF_DESPAIR, RARITY_COMMON},
+{
+	{ITEM_AXE_OF_DESPAIR, RARITY_COMMON},
 	{ITEM_CARD_DESTRUCTION, RARITY_COMMON},
 	{ITEM_CHANGE_OF_HEART, RARITY_COMMON},
 	{ITEM_DARK_BLADE, RARITY_COMMON},
@@ -5285,7 +5611,8 @@ const struct PackContents gStarterDeckYugiEvolution[] =
 };
 
 const struct PackContents gStarterDeckYugiReloaded[] =
-{	{ITEM_4_STARRED_LADYBUG_OF_DOOM, RARITY_COMMON},
+{
+	{ITEM_4_STARRED_LADYBUG_OF_DOOM, RARITY_COMMON},
 	{ITEM_BLACK_PENDANT, RARITY_COMMON},
 	{ITEM_BOOK_OF_MOON, RARITY_COMMON},
 	{ITEM_BREAKER_THE_MAGICAL_WARRIOR, RARITY_COMMON},
@@ -5315,7 +5642,8 @@ const struct PackContents gStarterDeckYugiReloaded[] =
 };
 
 const struct PackContents gStarterDeckYuya[] =
-{	{ITEM_BOOK_OF_MOON, RARITY_COMMON},
+{
+	{ITEM_BOOK_OF_MOON, RARITY_COMMON},
 	{ITEM_CEASEFIRE, RARITY_COMMON},
 	{ITEM_GIANT_RAT, RARITY_COMMON},
 	{ITEM_LIGHTNING_VORTEX, RARITY_COMMON},
@@ -5340,7 +5668,8 @@ const struct PackContents gStrikeofNeosSneakPeekParticipationCard[] =
 {};
 
 const struct PackContents gStrikeofNeosSpecialEdition[] =
-{	{ITEM_CYBER_END_DRAGON, RARITY_SUPER_RARE},
+{
+	{ITEM_CYBER_END_DRAGON, RARITY_SUPER_RARE},
 	{ITEM_SHRINK, RARITY_SUPER_RARE},
 };
 
@@ -5348,14 +5677,16 @@ const struct PackContents gStructureDeckAlbazStrike[] =
 {};
 
 const struct PackContents gStructureDeckBewareofTraptrix[] =
-{	{ITEM_BOTTOMLESS_TRAP_HOLE, RARITY_COMMON},
+{
+	{ITEM_BOTTOMLESS_TRAP_HOLE, RARITY_COMMON},
 	{ITEM_HARPIE_S_FEATHER_DUSTER, RARITY_COMMON},
 	{ITEM_RAIGEKI, RARITY_COMMON},
 	{ITEM_TRAP_HOLE, RARITY_COMMON},
 };
 
 const struct PackContents gStructureDeckBlazeofDestruction[] =
-{	{ITEM_BLAZING_INPACHI, RARITY_COMMON},
+{
+	{ITEM_BLAZING_INPACHI, RARITY_COMMON},
 	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
 	{ITEM_DUST_TORNADO, RARITY_COMMON},
 	{ITEM_HEAVY_STORM, RARITY_COMMON},
@@ -5372,23 +5703,27 @@ const struct PackContents gStructureDeckBlazeofDestruction[] =
 };
 
 const struct PackContents gStructureDeckBlueEyesWhiteDestiny[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_COMMON},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_COMMON},
 };
 
 const struct PackContents gStructureDeckCyberStrike[] =
-{	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+{
+	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
 	{ITEM_CYBER_DRAGON, RARITY_COMMON},
 	{ITEM_CYBER_END_DRAGON, RARITY_ULTRA_RARE},
 	{ITEM_LIMITER_REMOVAL, RARITY_COMMON},
 };
 
 const struct PackContents gStructureDeckCyberseLink[] =
-{	{ITEM_MAGICIAN_OF_FAITH, RARITY_COMMON},
+{
+	{ITEM_MAGICIAN_OF_FAITH, RARITY_COMMON},
 	{ITEM_MIND_CONTROL, RARITY_COMMON},
 };
 
 const struct PackContents gStructureDeckDarkWorld[] =
-{	{ITEM_BROWW_HUNTSMAN_OF_DARK_WORLD, RARITY_COMMON},
+{
+	{ITEM_BROWW_HUNTSMAN_OF_DARK_WORLD, RARITY_COMMON},
 	{ITEM_BRRON_MAD_KING_OF_DARK_WORLD, RARITY_COMMON},
 	{ITEM_CARD_DESTRUCTION, RARITY_COMMON},
 	{ITEM_DARK_WORLD_LIGHTNING, RARITY_COMMON},
@@ -5403,7 +5738,8 @@ const struct PackContents gStructureDeckDeluxeEdition[] =
 {};
 
 const struct PackContents gStructureDeckDinosaursRage[] =
-{	{ITEM_GILASAURUS, RARITY_COMMON},
+{
+	{ITEM_GILASAURUS, RARITY_COMMON},
 	{ITEM_HEAVY_STORM, RARITY_COMMON},
 	{ITEM_HYDROGEDDON, RARITY_COMMON},
 	{ITEM_HYPER_HAMMERHEAD, RARITY_COMMON},
@@ -5416,7 +5752,8 @@ const struct PackContents gStructureDeckDinosaursRageSpecialSet[] =
 {};
 
 const struct PackContents gStructureDeckDragonsRoar[] =
-{	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+{
+	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
 	{ITEM_CEASEFIRE, RARITY_COMMON},
 	{ITEM_CREATURE_SWAP, RARITY_COMMON},
 	{ITEM_DRAGON_S_RAGE, RARITY_COMMON},
@@ -5435,19 +5772,22 @@ const struct PackContents gStructureDeckDragonsRoar[] =
 };
 
 const struct PackContents gStructureDeckFireKings[] =
-{	{ITEM_DARK_HOLE, RARITY_COMMON},
+{
+	{ITEM_DARK_HOLE, RARITY_COMMON},
 	{ITEM_SACRED_PHOENIX_OF_NEPHTHYS, RARITY_COMMON},
 	{ITEM_SOLEMN_JUDGMENT, RARITY_COMMON},
 	{ITEM_TORRENTIAL_TRIBUTE, RARITY_COMMON},
 };
 
 const struct PackContents gStructureDeckFreezingChains[] =
-{	{ITEM_AQUA_SPIRIT, RARITY_COMMON},
+{
+	{ITEM_AQUA_SPIRIT, RARITY_COMMON},
 	{ITEM_SALVAGE, RARITY_COMMON},
 };
 
 const struct PackContents gStructureDeckFuryfromtheDeep[] =
-{	{ITEM_7_COLORED_FISH, RARITY_COMMON},
+{
+	{ITEM_7_COLORED_FISH, RARITY_COMMON},
 	{ITEM_A_LEGENDARY_OCEAN, RARITY_COMMON},
 	{ITEM_AMPHIBIOUS_BUGROTH_MK_3, RARITY_COMMON},
 	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
@@ -5472,7 +5812,8 @@ const struct PackContents gStructureDeckFuryfromtheDeep[] =
 };
 
 const struct PackContents gStructureDeckInvincibleFortress[] =
-{	{ITEM_BRAIN_CONTROL, RARITY_COMMON},
+{
+	{ITEM_BRAIN_CONTROL, RARITY_COMMON},
 	{ITEM_COMPULSORY_EVACUATION_DEVICE, RARITY_COMMON},
 	{ITEM_GIANT_RAT, RARITY_COMMON},
 	{ITEM_GIGANTES, RARITY_COMMON},
@@ -5492,7 +5833,8 @@ const struct PackContents gStructureDeckInvincibleFortress[] =
 };
 
 const struct PackContents gStructureDeckLairofDarkness[] =
-{	{ITEM_CRUSH_CARD_VIRUS, RARITY_COMMON},
+{
+	{ITEM_CRUSH_CARD_VIRUS, RARITY_COMMON},
 	{ITEM_DECK_DEVASTATION_VIRUS, RARITY_COMMON},
 };
 
@@ -5500,7 +5842,8 @@ const struct PackContents gStructureDeckLegendoftheCrystalBeasts[] =
 {};
 
 const struct PackContents gStructureDeckLordoftheStorm[] =
-{	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+{
+	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
 	{ITEM_CARD_DESTRUCTION, RARITY_COMMON},
 	{ITEM_DUST_TORNADO, RARITY_COMMON},
 	{ITEM_FLYING_KAMAKIRI_1, RARITY_COMMON},
@@ -5518,7 +5861,8 @@ const struct PackContents gStructureDeckLordoftheStorm[] =
 };
 
 const struct PackContents gStructureDeckMachineReVolt[] =
-{	{ITEM_CANNON_SOLDIER, RARITY_COMMON},
+{
+	{ITEM_CANNON_SOLDIER, RARITY_COMMON},
 	{ITEM_ENEMY_CONTROLLER, RARITY_COMMON},
 	{ITEM_GEAR_GOLEM_THE_MOVING_FORTRESS, RARITY_COMMON},
 	{ITEM_HEAVY_STORM, RARITY_COMMON},
@@ -5531,7 +5875,8 @@ const struct PackContents gStructureDeckMachineReVolt[] =
 };
 
 const struct PackContents gStructureDeckMarikTCG[] =
-{	{ITEM_BOOK_OF_MOON, RARITY_COMMON},
+{
+	{ITEM_BOOK_OF_MOON, RARITY_COMMON},
 	{ITEM_BOWGANIAN, RARITY_COMMON},
 	{ITEM_CREATURE_SWAP, RARITY_COMMON},
 	{ITEM_GIL_GARTH, RARITY_COMMON},
@@ -5550,12 +5895,14 @@ const struct PackContents gStructureDeckMarikTCG[] =
 };
 
 const struct PackContents gStructureDeckMechanizedMadness[] =
-{	{ITEM_LIMITER_REMOVAL, RARITY_COMMON},
+{
+	{ITEM_LIMITER_REMOVAL, RARITY_COMMON},
 	{ITEM_POT_OF_AVARICE, RARITY_COMMON},
 };
 
 const struct PackContents gStructureDeckOrderoftheSpellcasters[] =
-{	{ITEM_DARK_MAGICIAN_OF_CHAOS, RARITY_COMMON},
+{
+	{ITEM_DARK_MAGICIAN_OF_CHAOS, RARITY_COMMON},
 	{ITEM_MAGICAL_DIMENSION, RARITY_COMMON},
 	{ITEM_MAGICIAN_OF_FAITH, RARITY_COMMON},
 	{ITEM_MAGICIAN_S_CIRCLE, RARITY_COMMON},
@@ -5564,7 +5911,8 @@ const struct PackContents gStructureDeckOrderoftheSpellcasters[] =
 };
 
 const struct PackContents gStructureDeckPowercodeLink[] =
-{	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+{
+	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
 	{ITEM_MAGICAL_MERCHANT, RARITY_COMMON},
 	{ITEM_OFFERINGS_TO_THE_DOOMED, RARITY_COMMON},
 	{ITEM_REASONING, RARITY_COMMON},
@@ -5575,19 +5923,22 @@ const struct PackContents gStructureDeckPowercodeLink[] =
 };
 
 const struct PackContents gStructureDeckRokketRevolt[] =
-{	{ITEM_IMPERIAL_ORDER, RARITY_COMMON},
+{
+	{ITEM_IMPERIAL_ORDER, RARITY_COMMON},
 	{ITEM_MAGIC_CYLINDER, RARITY_COMMON},
 	{ITEM_MIRROR_FORCE, RARITY_COMMON},
 	{ITEM_POLYMERIZATION, RARITY_COMMON},
 };
 
 const struct PackContents gStructureDeckSacredBeasts[] =
-{	{ITEM_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+{
+	{ITEM_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
 	{ITEM_TERRAFORMING, RARITY_COMMON},
 };
 
 const struct PackContents gStructureDeckSetoKaiba[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_COMMON},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_COMMON},
 	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
 	{ITEM_CRUSH_CARD_VIRUS, RARITY_COMMON},
 	{ITEM_ENEMY_CONTROLLER, RARITY_COMMON},
@@ -5601,17 +5952,20 @@ const struct PackContents gStructureDeckSetoKaiba[] =
 };
 
 const struct PackContents gStructureDeckShaddollShowdown[] =
-{	{ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_COMMON},
+{
+	{ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_COMMON},
 	{ITEM_POT_OF_AVARICE, RARITY_COMMON},
 };
 
 const struct PackContents gStructureDeckSoulburner[] =
-{	{ITEM_MONSTER_REINCARNATION, RARITY_COMMON},
+{
+	{ITEM_MONSTER_REINCARNATION, RARITY_COMMON},
 	{ITEM_THREATENING_ROAR, RARITY_COMMON},
 };
 
 const struct PackContents gStructureDeckSpellcastersJudgment[] =
-{	{ITEM_BREAKER_THE_MAGICAL_WARRIOR, RARITY_COMMON},
+{
+	{ITEM_BREAKER_THE_MAGICAL_WARRIOR, RARITY_COMMON},
 	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
 	{ITEM_CHAOS_SORCERER, RARITY_COMMON},
 	{ITEM_DARK_MAGICIAN, RARITY_COMMON},
@@ -5635,7 +5989,8 @@ const struct PackContents gStructureDeckSpellcastersJudgment[] =
 };
 
 const struct PackContents gStructureDeckSpiritCharmers[] =
-{	{ITEM_FAMILIAR_POSSESSED_AUSSA, RARITY_ULTRA_RARE},
+{
+	{ITEM_FAMILIAR_POSSESSED_AUSSA, RARITY_ULTRA_RARE},
 	{ITEM_FAMILIAR_POSSESSED_ERIA, RARITY_ULTRA_RARE},
 	{ITEM_FAMILIAR_POSSESSED_HIITA, RARITY_ULTRA_RARE},
 	{ITEM_FAMILIAR_POSSESSED_WYNN, RARITY_ULTRA_RARE},
@@ -5648,11 +6003,13 @@ const struct PackContents gStructureDeckSpiritCharmers[] =
 };
 
 const struct PackContents gStructureDeckTheCrimsonKing[] =
-{	{ITEM_WITCH_OF_THE_BLACK_FOREST, RARITY_COMMON},
+{
+	{ITEM_WITCH_OF_THE_BLACK_FOREST, RARITY_COMMON},
 };
 
 const struct PackContents gStructureDeckWarriorsTriumph[] =
-{	{ITEM_BLAST_WITH_CHAIN, RARITY_COMMON},
+{
+	{ITEM_BLAST_WITH_CHAIN, RARITY_COMMON},
 	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
 	{ITEM_COMMAND_KNIGHT, RARITY_COMMON},
 	{ITEM_D_D_WARRIOR_LADY, RARITY_COMMON},
@@ -5677,11 +6034,13 @@ const struct PackContents gStructureDeckWarriorsTriumph[] =
 };
 
 const struct PackContents gStructureDeckWaveofLight[] =
-{	{ITEM_AIRKNIGHT_PARSHATH, RARITY_COMMON},
+{
+	{ITEM_AIRKNIGHT_PARSHATH, RARITY_COMMON},
 };
 
 const struct PackContents gStructureDeckYugiMuto[] =
-{	{ITEM_BUSTER_BLADER, RARITY_COMMON},
+{
+	{ITEM_BUSTER_BLADER, RARITY_COMMON},
 	{ITEM_DARK_MAGIC_CURTAIN, RARITY_COMMON},
 	{ITEM_DARK_MAGICIAN, RARITY_COMMON},
 	{ITEM_DARK_PALADIN, RARITY_COMMON},
@@ -5698,7 +6057,8 @@ const struct PackContents gStructureDeckYugiMuto[] =
 };
 
 const struct PackContents gStructureDeckZombieHorde[] =
-{	{ITEM_ANTI_SPELL_FRAGRANCE, RARITY_COMMON},
+{
+	{ITEM_ANTI_SPELL_FRAGRANCE, RARITY_COMMON},
 	{ITEM_BOOK_OF_LIFE, RARITY_COMMON},
 	{ITEM_DRAGGED_DOWN_INTO_THE_GRAVE, RARITY_COMMON},
 	{ITEM_MASK_OF_RESTRICT, RARITY_COMMON},
@@ -5707,7 +6067,8 @@ const struct PackContents gStructureDeckZombieHorde[] =
 };
 
 const struct PackContents gStructureDeckZombieMadness[] =
-{	{ITEM_BOOK_OF_LIFE, RARITY_COMMON},
+{
+	{ITEM_BOOK_OF_LIFE, RARITY_COMMON},
 	{ITEM_COMPULSORY_EVACUATION_DEVICE, RARITY_COMMON},
 	{ITEM_CREATURE_SWAP, RARITY_COMMON},
 	{ITEM_DUST_TORNADO, RARITY_COMMON},
@@ -5728,18 +6089,21 @@ const struct PackContents gStructureDeckZombieMadness[] =
 };
 
 const struct PackContents gSummonedSkullSamplepromotionalcard[] =
-{	{ITEM_SUMMONED_SKULL, RARITY_COMMON},
+{
+	{ITEM_SUMMONED_SKULL, RARITY_COMMON},
 };
 
 const struct PackContents gSuperStarterPowerUpPack[] =
-{	{ITEM_MAGIC_CYLINDER, RARITY_SUPER_RARE},
+{
+	{ITEM_MAGIC_CYLINDER, RARITY_SUPER_RARE},
 	{ITEM_MIRROR_FORCE, RARITY_SUPER_RARE},
 	{ITEM_MYSTICAL_SPACE_TYPHOON, RARITY_SUPER_RARE},
 	{ITEM_SWORDS_OF_REVEALING_LIGHT, RARITY_SUPER_RARE},
 };
 
 const struct PackContents gSuperStarterSpaceTimeShowdown[] =
-{	{ITEM_AXE_OF_DESPAIR, RARITY_COMMON},
+{
+	{ITEM_AXE_OF_DESPAIR, RARITY_COMMON},
 	{ITEM_DARK_BLADE, RARITY_COMMON},
 	{ITEM_DUST_TORNADO, RARITY_COMMON},
 	{ITEM_JAR_OF_GREED, RARITY_COMMON},
@@ -5757,7 +6121,8 @@ const struct PackContents gSuperStarterSpaceTimeShowdown[] =
 };
 
 const struct PackContents gSuperStarterVforVictory[] =
-{	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+{
+	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
 	{ITEM_DUST_TORNADO, RARITY_COMMON},
 	{ITEM_MARAUDING_CAPTAIN, RARITY_COMMON},
 	{ITEM_MYSTICAL_ELF, RARITY_COMMON},
@@ -5769,14 +6134,16 @@ const struct PackContents gSupremeDarkness[] =
 {};
 
 const struct PackContents gSwedishShonenJump2004Issue2promotionalcard[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gSwedishShonenJump2005Issue12promotionalcard[] =
 {};
 
 const struct PackContents gSynchronExtremeStructureDeck[] =
-{	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+{
+	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
 	{ITEM_REINFORCEMENT_OF_THE_ARMY, RARITY_COMMON},
 };
 
@@ -5790,14 +6157,16 @@ const struct PackContents gTacticalEvolutionSpecialEdition[] =
 {};
 
 const struct PackContents gTacticalMasters[] =
-{	{ITEM_ANTI_SPELL_FRAGRANCE, RARITY_RARE},
+{
+	{ITEM_ANTI_SPELL_FRAGRANCE, RARITY_RARE},
 	{ITEM_COMPULSORY_EVACUATION_DEVICE, RARITY_RARE},
 	{ITEM_RECKLESS_GREED, RARITY_RARE},
 	{ITEM_SCAPEGOAT, RARITY_RARE},
 };
 
 const struct PackContents gTheDarkEmperorStructureDeck[] =
-{	{ITEM_BAZOO_THE_SOUL_EATER, RARITY_COMMON},
+{
+	{ITEM_BAZOO_THE_SOUL_EATER, RARITY_COMMON},
 	{ITEM_BIG_BANG_SHOT, RARITY_COMMON},
 	{ITEM_BOTTOMLESS_TRAP_HOLE, RARITY_COMMON},
 	{ITEM_BRAIN_CONTROL, RARITY_COMMON},
@@ -5836,18 +6205,21 @@ const struct PackContents gTheDuelistGenesisSpecialEdition[] =
 {};
 
 const struct PackContents gTheGrandCreators[] =
-{	{ITEM_TORRENTIAL_TRIBUTE, RARITY_RARE},
+{
+	{ITEM_TORRENTIAL_TRIBUTE, RARITY_RARE},
 };
 
 const struct PackContents gTheInfiniteForbidden[] =
 {};
 
 const struct PackContents gTheInfinityChasers[] =
-{	{ITEM_MAGIC_CYLINDER, RARITY_SUPER_RARE},
+{
+	{ITEM_MAGIC_CYLINDER, RARITY_SUPER_RARE},
 };
 
 const struct PackContents gTheLostArtPromotionseries[] =
-{	{ITEM_AXE_OF_DESPAIR, RARITY_COMMON},
+{
+	{ITEM_AXE_OF_DESPAIR, RARITY_COMMON},
 	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
 	{ITEM_DARK_RULER_HA_DES, RARITY_COMMON},
 	{ITEM_DON_ZALOOG, RARITY_COMMON},
@@ -5869,7 +6241,8 @@ const struct PackContents gTheLostArtPromotion2020D[] =
 {};
 
 const struct PackContents gTheLostArtPromotion2020E[] =
-{	{ITEM_OFFERINGS_TO_THE_DOOMED, RARITY_ULTRA_RARE},
+{
+	{ITEM_OFFERINGS_TO_THE_DOOMED, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gTheLostArtPromotion2020F[] =
@@ -5936,7 +6309,8 @@ const struct PackContents gTheLostArtPromotion2021H[] =
 {};
 
 const struct PackContents gTheLostArtPromotion2021I[] =
-{	{ITEM_GEMINI_ELF, RARITY_ULTRA_RARE},
+{
+	{ITEM_GEMINI_ELF, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gTheLostArtPromotion2021J[] =
@@ -5949,7 +6323,8 @@ const struct PackContents gTheLostArtPromotion2021L[] =
 {};
 
 const struct PackContents gTheLostArtPromotion2022[] =
-{	{ITEM_AXE_OF_DESPAIR, RARITY_ULTRA_RARE},
+{
+	{ITEM_AXE_OF_DESPAIR, RARITY_ULTRA_RARE},
 	{ITEM_DON_ZALOOG, RARITY_ULTRA_RARE},
 };
 
@@ -5966,7 +6341,8 @@ const struct PackContents gTheLostArtPromotion2023E[] =
 {};
 
 const struct PackContents gTheLostArtPromotion2023F[] =
-{	{ITEM_ZOMBYRA_THE_DARK, RARITY_ULTRA_RARE},
+{
+	{ITEM_ZOMBYRA_THE_DARK, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gTheLostArtPromotion2023G[] =
@@ -5979,81 +6355,96 @@ const struct PackContents gTheLostArtPromotion2023I[] =
 {};
 
 const struct PackContents gTheLostArtPromotion2024[] =
-{	{ITEM_ULTIMATE_OFFERING, RARITY_ULTRA_RARE},
+{
+	{ITEM_ULTIMATE_OFFERING, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gTheLostArtPromotion2024A[] =
 {};
 
 const struct PackContents gTheLostArtPromotion2024B[] =
-{	{ITEM_TREEBORN_FROG, RARITY_ULTRA_RARE},
+{
+	{ITEM_TREEBORN_FROG, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gTheLostArtPromotion2024C[] =
 {};
 
 const struct PackContents gTheLostArtPromotion2024H[] =
-{	{ITEM_MONSTER_REBORN, RARITY_ULTRA_RARE},
+{
+	{ITEM_MONSTER_REBORN, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gTheLostArtPromotionA[] =
-{	{ITEM_MONSTER_REBORN, RARITY_ULTRA_RARE},
+{
+	{ITEM_MONSTER_REBORN, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gTheLostArtPromotionB[] =
-{	{ITEM_RIGHT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+{
+	{ITEM_RIGHT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gTheLostArtPromotionC[] =
-{	{ITEM_LEFT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+{
+	{ITEM_LEFT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gTheLostArtPromotionD[] =
-{	{ITEM_EXODIA_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+{
+	{ITEM_EXODIA_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gTheLostArtPromotionE[] =
-{	{ITEM_LEFT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+{
+	{ITEM_LEFT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gTheLostArtPromotionF[] =
-{	{ITEM_RIGHT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+{
+	{ITEM_RIGHT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gTheLostArtPromotionG[] =
-{	{ITEM_RING_OF_DESTRUCTION, RARITY_ULTRA_RARE},
+{
+	{ITEM_RING_OF_DESTRUCTION, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gTheLostArtPromotionH[] =
 {};
 
 const struct PackContents gTheLostArtPromotionI[] =
-{	{ITEM_CALL_OF_THE_HAUNTED, RARITY_ULTRA_RARE},
+{
+	{ITEM_CALL_OF_THE_HAUNTED, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gTheLostArtPromotionJ[] =
-{	{ITEM_DARK_RULER_HA_DES, RARITY_ULTRA_RARE},
+{
+	{ITEM_DARK_RULER_HA_DES, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gTheLostArtPromotionK[] =
 {};
 
 const struct PackContents gTheLostArtPromotionL[] =
-{	{ITEM_SKILL_DRAIN, RARITY_ULTRA_RARE},
+{
+	{ITEM_SKILL_DRAIN, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gTheLostArtPromotionM[] =
 {};
 
 const struct PackContents gTheLostArtPromotionN[] =
-{	{ITEM_SOLEMN_JUDGMENT, RARITY_ULTRA_RARE},
+{
+	{ITEM_SOLEMN_JUDGMENT, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gTheLostArtPromotionO[] =
 {};
 
 const struct PackContents gTheLostMillennium[] =
-{	{ITEM_BRAIN_CONTROL, RARITY_ULTIMATE_RARE},
+{
+	{ITEM_BRAIN_CONTROL, RARITY_ULTIMATE_RARE},
 	{ITEM_D_D_SURVIVOR, RARITY_ULTIMATE_RARE},
 	{ITEM_DES_WOMBAT, RARITY_COMMON},
 	{ITEM_ELEMENTAL_HERO_CLAYMAN, RARITY_COMMON},
@@ -6068,7 +6459,8 @@ const struct PackContents gTheLostMillenniumSneakPeekParticipationCard[] =
 {};
 
 const struct PackContents gTheLostMillenniumSpecialEdition[] =
-{	{ITEM_CHAOS_EMPEROR_DRAGON_ENVOY_OF_THE_END, RARITY_ULTRA_RARE},
+{
+	{ITEM_CHAOS_EMPEROR_DRAGON_ENVOY_OF_THE_END, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gTheNewChallengers[] =
@@ -6081,13 +6473,15 @@ const struct PackContents gTheNewChallengersSuperEdition[] =
 {};
 
 const struct PackContents gThePotCollection[] =
-{	{ITEM_POT_OF_AVARICE, RARITY_ULTRA_PARALLEL_RARE},
+{
+	{ITEM_POT_OF_AVARICE, RARITY_ULTRA_PARALLEL_RARE},
 	{ITEM_POT_OF_GENEROSITY, RARITY_ULTRA_PARALLEL_RARE},
 	{ITEM_POT_OF_GREED, RARITY_QUARTER_CENTURY_SECRET_RARE},
 };
 
 const struct PackContents gTheSecretForces[] =
-{	{ITEM_MANJU_OF_THE_TEN_THOUSAND_HANDS, RARITY_SUPER_RARE},
+{
+	{ITEM_MANJU_OF_THE_TEN_THOUSAND_HANDS, RARITY_SUPER_RARE},
 	{ITEM_ROYAL_DECREE, RARITY_SUPER_RARE},
 };
 
@@ -6098,7 +6492,8 @@ const struct PackContents gTheShiningDarknessSneakPeekParticipationCard[] =
 {};
 
 const struct PackContents gToonChaos[] =
-{	{ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_RARE},
+{
+	{ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_RARE},
 	{ITEM_CHAOS_EMPEROR_DRAGON_ENVOY_OF_THE_END, RARITY_RARE},
 	{ITEM_CHAOS_SORCERER, RARITY_RARE},
 	{ITEM_SANGAN, RARITY_RARE},
@@ -6106,7 +6501,8 @@ const struct PackContents gToonChaos[] =
 };
 
 const struct PackContents gTournamentPack4[] =
-{	{ITEM_GIANT_RAT, RARITY_COMMON},
+{
+	{ITEM_GIANT_RAT, RARITY_COMMON},
 	{ITEM_GIANT_RED_SEASNAKE, RARITY_RARE},
 	{ITEM_GRAVITY_BIND, RARITY_COMMON},
 	{ITEM_MEGAMORPH, RARITY_SUPER_RARE},
@@ -6120,7 +6516,8 @@ const struct PackContents gTournamentPack4[] =
 };
 
 const struct PackContents gTournamentPack5[] =
-{	{ITEM_BAZOO_THE_SOUL_EATER, RARITY_RARE},
+{
+	{ITEM_BAZOO_THE_SOUL_EATER, RARITY_RARE},
 	{ITEM_BIG_SHIELD_GARDNA, RARITY_SUPER_RARE},
 	{ITEM_BOOK_OF_LIFE, RARITY_RARE},
 	{ITEM_JOWGEN_THE_SPIRITUALIST, RARITY_COMMON},
@@ -6130,7 +6527,8 @@ const struct PackContents gTournamentPack5[] =
 };
 
 const struct PackContents gTournamentPack6[] =
-{	{ITEM_AIRKNIGHT_PARSHATH, RARITY_RARE},
+{
+	{ITEM_AIRKNIGHT_PARSHATH, RARITY_RARE},
 	{ITEM_DARK_BALTER_THE_TERRIBLE, RARITY_COMMON},
 	{ITEM_EMERGENCY_PROVISIONS, RARITY_COMMON},
 	{ITEM_FIEND_SKULL_DRAGON, RARITY_COMMON},
@@ -6143,7 +6541,8 @@ const struct PackContents gTournamentPack6[] =
 };
 
 const struct PackContents gTournamentPack7[] =
-{	{ITEM_BREAKER_THE_MAGICAL_WARRIOR, RARITY_SUPER_RARE},
+{
+	{ITEM_BREAKER_THE_MAGICAL_WARRIOR, RARITY_SUPER_RARE},
 	{ITEM_GOBLIN_ATTACK_FORCE, RARITY_RARE},
 	{ITEM_LAST_WILL, RARITY_COMMON},
 	{ITEM_SCAPEGOAT, RARITY_RARE},
@@ -6154,7 +6553,8 @@ const struct PackContents gTournamentPack7[] =
 };
 
 const struct PackContents gTournamentPack8[] =
-{	{ITEM_BERSERK_GORILLA, RARITY_COMMON},
+{
+	{ITEM_BERSERK_GORILLA, RARITY_COMMON},
 	{ITEM_DUNAMES_DARK_WITCH, RARITY_SUPER_RARE},
 	{ITEM_HARPIE_S_FEATHER_DUSTER, RARITY_SUPER_RARE},
 	{ITEM_MOBIUS_THE_FROST_MONARCH, RARITY_RARE},
@@ -6165,18 +6565,21 @@ const struct PackContents gTournamentPack8[] =
 };
 
 const struct PackContents gTournamentPack1stSeason[] =
-{	{ITEM_KWAGAR_HERCULES, RARITY_SUPER_RARE},
+{
+	{ITEM_KWAGAR_HERCULES, RARITY_SUPER_RARE},
 	{ITEM_MECHANICALCHASER, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gTournamentPack2ndSeason[] =
-{	{ITEM_GIANT_RED_SEASNAKE, RARITY_SUPER_RARE},
+{
+	{ITEM_GIANT_RED_SEASNAKE, RARITY_SUPER_RARE},
 	{ITEM_MORPHING_JAR, RARITY_ULTRA_RARE},
 	{ITEM_WARRIOR_OF_TRADITION, RARITY_RARE},
 };
 
 const struct PackContents gTournamentPack3rdSeason[] =
-{	{ITEM_BLACK_SKULL_DRAGON, RARITY_SUPER_RARE},
+{
+	{ITEM_BLACK_SKULL_DRAGON, RARITY_SUPER_RARE},
 	{ITEM_DARK_ELF, RARITY_COMMON},
 	{ITEM_DARKFIRE_DRAGON, RARITY_COMMON},
 	{ITEM_FINAL_FLAME, RARITY_COMMON},
@@ -6189,37 +6592,43 @@ const struct PackContents gTournamentPack3rdSeason[] =
 };
 
 const struct PackContents gTrialsofthePharaohMatchoftheMillenniumTwistedNightmarespromotionalcard[] =
-{	{ITEM_JINZO, RARITY_ULTRA_RARE},
+{
+	{ITEM_JINZO, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gTrialsofthePharaohSpeedDuelBattleCityBoxpromotionalcard[] =
-{	{ITEM_BOOK_OF_MOON, RARITY_SUPER_RARE},
+{
+	{ITEM_BOOK_OF_MOON, RARITY_SUPER_RARE},
 };
 
 const struct PackContents gTrialsofthePharaohTrialsoftheKingdompromotionalcard[] =
 {};
 
 const struct PackContents gTurboPackBoosterEight[] =
-{	{ITEM_MAGICIAN_S_CIRCLE, RARITY_COMMON},
+{
+	{ITEM_MAGICIAN_S_CIRCLE, RARITY_COMMON},
 	{ITEM_SKILL_DRAIN, RARITY_ULTRA_RARE},
 	{ITEM_UPSTART_GOBLIN, RARITY_SUPER_RARE},
 };
 
 const struct PackContents gTurboPackBoosterFive[] =
-{	{ITEM_DARK_HOLE, RARITY_ULTRA_RARE},
+{
+	{ITEM_DARK_HOLE, RARITY_ULTRA_RARE},
 	{ITEM_MANJU_OF_THE_TEN_THOUSAND_HANDS, RARITY_COMMON},
 	{ITEM_SEVEN_TOOLS_OF_THE_BANDIT, RARITY_COMMON},
 	{ITEM_TORRENTIAL_TRIBUTE, RARITY_RARE},
 };
 
 const struct PackContents gTurboPackBoosterFour[] =
-{	{ITEM_COMPULSORY_EVACUATION_DEVICE, RARITY_SUPER_RARE},
+{
+	{ITEM_COMPULSORY_EVACUATION_DEVICE, RARITY_SUPER_RARE},
 	{ITEM_DARK_HOLE, RARITY_COMMON},
 	{ITEM_DUNAMES_DARK_WITCH, RARITY_RARE},
 };
 
 const struct PackContents gTurboPackBoosterOne[] =
-{	{ITEM_BOOK_OF_MOON, RARITY_COMMON},
+{
+	{ITEM_BOOK_OF_MOON, RARITY_COMMON},
 	{ITEM_CRUSH_CARD_VIRUS, RARITY_RARE},
 	{ITEM_DOOMCALIBER_KNIGHT, RARITY_ULTRA_RARE},
 	{ITEM_RESCUE_CAT, RARITY_RARE},
@@ -6227,13 +6636,15 @@ const struct PackContents gTurboPackBoosterOne[] =
 };
 
 const struct PackContents gTurboPackBoosterSeven[] =
-{	{ITEM_BOOK_OF_MOON, RARITY_ULTRA_RARE},
+{
+	{ITEM_BOOK_OF_MOON, RARITY_ULTRA_RARE},
 	{ITEM_GOKIPON, RARITY_COMMON},
 	{ITEM_NINJA_GRANDMASTER_SASUKE, RARITY_SUPER_RARE},
 };
 
 const struct PackContents gTurboPackBoosterSix[] =
-{	{ITEM_CHAIN_DISAPPEARANCE, RARITY_SUPER_RARE},
+{
+	{ITEM_CHAIN_DISAPPEARANCE, RARITY_SUPER_RARE},
 	{ITEM_CIPHER_SOLDIER, RARITY_COMMON},
 	{ITEM_CREATURE_SWAP, RARITY_COMMON},
 	{ITEM_MAGICAL_DIMENSION, RARITY_COMMON},
@@ -6242,13 +6653,15 @@ const struct PackContents gTurboPackBoosterSix[] =
 };
 
 const struct PackContents gTurboPackBoosterThree[] =
-{	{ITEM_KYCOO_THE_GHOST_DESTROYER, RARITY_COMMON},
+{
+	{ITEM_KYCOO_THE_GHOST_DESTROYER, RARITY_COMMON},
 	{ITEM_NOBLEMAN_OF_CROSSOUT, RARITY_COMMON},
 	{ITEM_RESCUE_CAT, RARITY_SUPER_RARE},
 };
 
 const struct PackContents gTurboPackBoosterTwo[] =
-{	{ITEM_ANTI_SPELL_FRAGRANCE, RARITY_COMMON},
+{
+	{ITEM_ANTI_SPELL_FRAGRANCE, RARITY_COMMON},
 	{ITEM_CHAOS_SORCERER, RARITY_ULTRA_RARE},
 	{ITEM_GRAVEKEEPER_S_ASSAILANT, RARITY_SUPER_RARE},
 	{ITEM_GRAVEKEEPER_S_SPEAR_SOLDIER, RARITY_RARE},
@@ -6261,23 +6674,27 @@ const struct PackContents gTwilightEdition[] =
 {};
 
 const struct PackContents gUltimateEdition[] =
-{	{ITEM_BLUE_EYES_ULTIMATE_DRAGON, RARITY_ULTRA_RARE},
+{
+	{ITEM_BLUE_EYES_ULTIMATE_DRAGON, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gUltimateEdition2[] =
 {};
 
 const struct PackContents gValiantSmashers[] =
-{	{ITEM_CALL_OF_THE_HAUNTED, RARITY_RARE},
+{
+	{ITEM_CALL_OF_THE_HAUNTED, RARITY_RARE},
 	{ITEM_TERRAFORMING, RARITY_RARE},
 };
 
 const struct PackContents gWCS2025LimitedPack[] =
-{	{ITEM_EXODIA_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+{
+	{ITEM_EXODIA_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gWSJJumpPackFall2016promotionalcard[] =
-{	{ITEM_DARK_MAGICIAN, RARITY_ULTRA_RARE},
+{
+	{ITEM_DARK_MAGICIAN, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gWSJJumpPackFall2017promotionalcard[] =
@@ -6287,7 +6704,8 @@ const struct PackContents gWSJJumpPackFall2018promotionalcard[] =
 {};
 
 const struct PackContents gWSJJumpPackSpring2016promotionalcard[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gWSJJumpPackSpring2017promotionalcard[] =
@@ -6300,7 +6718,8 @@ const struct PackContents gWSJJumpPackSpring2019promotionalcard[] =
 {};
 
 const struct PackContents gWaroftheGiantsReinforcements[] =
-{	{ITEM_BERSERK_GORILLA, RARITY_COMMON},
+{
+	{ITEM_BERSERK_GORILLA, RARITY_COMMON},
 	{ITEM_BIG_TUSKED_MAMMOTH, RARITY_SUPER_RARE},
 	{ITEM_BLACK_PENDANT, RARITY_COMMON},
 	{ITEM_BLADE_KNIGHT, RARITY_COMMON},
@@ -6314,7 +6733,8 @@ const struct PackContents gWaroftheGiantsReinforcements[] =
 };
 
 const struct PackContents gWaroftheGiantsRound2[] =
-{	{ITEM_BERSERK_GORILLA, RARITY_COMMON},
+{
+	{ITEM_BERSERK_GORILLA, RARITY_COMMON},
 	{ITEM_BIG_TUSKED_MAMMOTH, RARITY_SUPER_RARE},
 	{ITEM_BLACK_PENDANT, RARITY_COMMON},
 	{ITEM_BLADE_KNIGHT, RARITY_COMMON},
@@ -6328,7 +6748,8 @@ const struct PackContents gWaroftheGiantsRound2[] =
 };
 
 const struct PackContents gWarriorsStrikeStructureDeck[] =
-{	{ITEM_BIG_BANG_SHOT, RARITY_COMMON},
+{
+	{ITEM_BIG_BANG_SHOT, RARITY_COMMON},
 	{ITEM_D_D_WARRIOR_LADY, RARITY_COMMON},
 	{ITEM_EXILED_FORCE, RARITY_COMMON},
 	{ITEM_MARAUDING_CAPTAIN, RARITY_COMMON},
@@ -6403,7 +6824,8 @@ const struct PackContents gWeeklyShonenJumpMarch2013membershippromotionalcard[] 
 {};
 
 const struct PackContents gWeeklyShonenJumpMarch2014membershippromotionalcard[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gWeeklyShonenJumpNovember2014membershippromotionalcard[] =
@@ -6413,7 +6835,8 @@ const struct PackContents gWeeklyShonenJumpNovember2017membershippromotionalcard
 {};
 
 const struct PackContents gWeeklyShonenJumpNovember2018membershippromotionalcard[] =
-{	{ITEM_CHAOS_EMPEROR_DRAGON_ENVOY_OF_THE_END, RARITY_ULTRA_RARE},
+{
+	{ITEM_CHAOS_EMPEROR_DRAGON_ENVOY_OF_THE_END, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gWeeklyShonenJumpOctober2015membershippromotionalcard[] =
@@ -6426,13 +6849,15 @@ const struct PackContents gWeeklyShonenJumpSeptember2013membershippromotionalcar
 {};
 
 const struct PackContents gWildSurvivors[] =
-{	{ITEM_DECK_DEVASTATION_VIRUS, RARITY_RARE},
+{
+	{ITEM_DECK_DEVASTATION_VIRUS, RARITY_RARE},
 	{ITEM_ENEMY_CONTROLLER, RARITY_RARE},
 	{ITEM_MANJU_OF_THE_TEN_THOUSAND_HANDS, RARITY_RARE},
 };
 
 const struct PackContents gWingRaiders[] =
-{	{ITEM_BOTTOMLESS_TRAP_HOLE, RARITY_COMMON},
+{
+	{ITEM_BOTTOMLESS_TRAP_HOLE, RARITY_COMMON},
 	{ITEM_CALL_OF_THE_HAUNTED, RARITY_COMMON},
 	{ITEM_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
 	{ITEM_REINFORCEMENT_OF_THE_ARMY, RARITY_COMMON},
@@ -6442,7 +6867,8 @@ const struct PackContents gWorldChampionship2010CardPack[] =
 {};
 
 const struct PackContents gWorldChampionship2011CardPack[] =
-{	{ITEM_GIANT_RED_SEASNAKE, RARITY_EUROPEAN_OCEANIAN_DEBUT},
+{
+	{ITEM_GIANT_RED_SEASNAKE, RARITY_EUROPEAN_OCEANIAN_DEBUT},
 };
 
 const struct PackContents gWorldSuperstars[] =
@@ -6515,7 +6941,8 @@ const struct PackContents gYuGiOh5Dsvolume8promotionalcard[] =
 {};
 
 const struct PackContents gYuGiOh7TrialstoGloryWorldChampionshipTournament2005promotionalcards[] =
-{	{ITEM_MIND_CONTROL, RARITY_SUPER_RARE},
+{
+	{ITEM_MIND_CONTROL, RARITY_SUPER_RARE},
 };
 
 const struct PackContents gYuGiOhARCVVolume1promotionalcard[] =
@@ -6543,15 +6970,18 @@ const struct PackContents gYuGiOhAdventCalendar[] =
 {};
 
 const struct PackContents gYuGiOhAdventCalendar2018[] =
-{	{ITEM_SACRED_PHOENIX_OF_NEPHTHYS, RARITY_SUPER_RARE},
+{
+	{ITEM_SACRED_PHOENIX_OF_NEPHTHYS, RARITY_SUPER_RARE},
 };
 
 const struct PackContents gYuGiOhAdventCalendar2019[] =
-{	{ITEM_KURIBOH, RARITY_ULTRA_RARE},
+{
+	{ITEM_KURIBOH, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gYuGiOhCapsuleMonsterColiseumpromotionalcards[] =
-{	{ITEM_ABYSS_SOLDIER, RARITY_SUPER_RARE},
+{
+	{ITEM_ABYSS_SOLDIER, RARITY_SUPER_RARE},
 };
 
 const struct PackContents gYuGiOhChampionshipSeries2010PrizeCards[] =
@@ -6591,7 +7021,8 @@ const struct PackContents gYuGiOhChampionshipSeries2023prizecard[] =
 {};
 
 const struct PackContents gYuGiOhDarkDuelStoriespromotionalcards[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_PRISMATIC_SECRET_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_PRISMATIC_SECRET_RARE},
 	{ITEM_DARK_MAGICIAN, RARITY_PRISMATIC_SECRET_RARE},
 	{ITEM_EXODIA_THE_FORBIDDEN_ONE, RARITY_PRISMATIC_SECRET_RARE},
 };
@@ -6600,18 +7031,21 @@ const struct PackContents gYuGiOhDayApril2019promotionalcard[] =
 {};
 
 const struct PackContents gYuGiOhDestinyBoardTravelerpromotionalcards[] =
-{	{ITEM_D_D_ASSAILANT, RARITY_SUPER_RARE},
+{
+	{ITEM_D_D_ASSAILANT, RARITY_SUPER_RARE},
 };
 
 const struct PackContents gYuGiOhDoublePackpromotionalcards[] =
 {};
 
 const struct PackContents gYuGiOhElementalHeroCollection1[] =
-{	{ITEM_ELEMENTAL_HERO_FLAME_WINGMAN, RARITY_SECRET_RARE},
+{
+	{ITEM_ELEMENTAL_HERO_FLAME_WINGMAN, RARITY_SECRET_RARE},
 };
 
 const struct PackContents gYuGiOhElementalHeroCollection2[] =
-{	{ITEM_ELEMENTAL_HERO_CLAYMAN, RARITY_SECRET_RARE},
+{
+	{ITEM_ELEMENTAL_HERO_CLAYMAN, RARITY_SECRET_RARE},
 	{ITEM_ELEMENTAL_HERO_WILDHEART, RARITY_SECRET_RARE},
 };
 
@@ -6625,7 +7059,8 @@ const struct PackContents gYuGiOhGXDuelAcademypromotionalcards[] =
 {};
 
 const struct PackContents gYuGiOhGXSpecialEdition[] =
-{	{ITEM_ELEMENTAL_HERO_WILDHEART, RARITY_ULTRA_SECRET_RARE},
+{
+	{ITEM_ELEMENTAL_HERO_WILDHEART, RARITY_ULTRA_SECRET_RARE},
 };
 
 const struct PackContents gYuGiOhGXSpiritCallerpromotionalcards[] =
@@ -6644,7 +7079,8 @@ const struct PackContents gYuGiOhGXTagForcepromotionalcards[] =
 {};
 
 const struct PackContents gYuGiOhGXUltimateBeginnersPack[] =
-{	{ITEM_EXODIA_THE_FORBIDDEN_ONE, RARITY_SECRET_RARE},
+{
+	{ITEM_EXODIA_THE_FORBIDDEN_ONE, RARITY_SECRET_RARE},
 	{ITEM_LEFT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_SECRET_RARE},
 	{ITEM_LEFT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_SECRET_RARE},
 	{ITEM_RIGHT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_SECRET_RARE},
@@ -6682,18 +7118,21 @@ const struct PackContents gYuGiOhLegacyoftheDuelistLinkEvolutionpromotionalcards
 {};
 
 const struct PackContents gYuGiOhNightmareTroubadourpromotionalcards[] =
-{	{ITEM_MAGICIAN_S_CIRCLE, RARITY_SUPER_RARE},
+{
+	{ITEM_MAGICIAN_S_CIRCLE, RARITY_SUPER_RARE},
 };
 
 const struct PackContents gYuGiOhPowerofChaosJoeythePassionpromotionalcards[] =
 {};
 
 const struct PackContents gYuGiOhPowerofChaosKaibatheRevengepromotionalcards[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_PRISMATIC_SECRET_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_PRISMATIC_SECRET_RARE},
 };
 
 const struct PackContents gYuGiOhPowerofChaosYugitheDestinypromotionalcards[] =
-{	{ITEM_ANTI_SPELL_FRAGRANCE, RARITY_PRISMATIC_SECRET_RARE},
+{
+	{ITEM_ANTI_SPELL_FRAGRANCE, RARITY_PRISMATIC_SECRET_RARE},
 	{ITEM_DARK_MAGICIAN, RARITY_PRISMATIC_SECRET_RARE},
 	{ITEM_KURIBOH, RARITY_PRISMATIC_SECRET_RARE},
 };
@@ -6720,22 +7159,26 @@ const struct PackContents gYuGiOhTheDarkSideofDimensionsBlurayDVDpromotionalcard
 {};
 
 const struct PackContents gYuGiOhTheDarkSideofDimensionsMoviePack[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
 	{ITEM_DARK_MAGICIAN, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gYuGiOhTheDarkSideofDimensionsMoviePackSecretEdition[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
 	{ITEM_DARK_MAGICIAN, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gYuGiOhTheDarkSideofDimensionsMoviePackSpecialEdition[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
 	{ITEM_DARK_MAGICIAN, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gYuGiOhTheDarkSideofDimensionsMoviePackGoldEdition[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_GOLD_SECRET_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_GOLD_SECRET_RARE},
 	{ITEM_DARK_MAGICIAN, RARITY_GOLD_SECRET_RARE},
 };
 
@@ -6743,23 +7186,27 @@ const struct PackContents gYuGiOhTheDarkSideofDimensionsTheaterdistributioncards
 {};
 
 const struct PackContents gYuGiOhTheDawnofDestinypromotionalcards[] =
-{	{ITEM_WIDESPREAD_RUIN, RARITY_SUPER_RARE},
+{
+	{ITEM_WIDESPREAD_RUIN, RARITY_SUPER_RARE},
 };
 
 const struct PackContents gYuGiOhTheDuelistsoftheRosespromotionalcards[] =
 {};
 
 const struct PackContents gYuGiOhTheEternalDuelistSoulpromotionalcards[] =
-{	{ITEM_EXCHANGE, RARITY_PRISMATIC_SECRET_RARE},
+{
+	{ITEM_EXCHANGE, RARITY_PRISMATIC_SECRET_RARE},
 };
 
 const struct PackContents gYuGiOhTheFalseboundKingdompromotionalcards[] =
-{	{ITEM_CIPHER_SOLDIER, RARITY_SUPER_RARE},
+{
+	{ITEM_CIPHER_SOLDIER, RARITY_SUPER_RARE},
 	{ITEM_SLATE_WARRIOR, RARITY_SUPER_RARE},
 };
 
 const struct PackContents gYuGiOhTheSacredCardspromotionalcards[] =
-{	{ITEM_EXCHANGE, RARITY_PRISMATIC_SECRET_RARE},
+{
+	{ITEM_EXCHANGE, RARITY_PRISMATIC_SECRET_RARE},
 };
 
 const struct PackContents gYuGiOhTradingCardGameTour2004promotionalcard[] =
@@ -6799,14 +7246,16 @@ const struct PackContents gYuGiOhWorldChampionshipQualifierNationalChampionships
 {};
 
 const struct PackContents gYuGiOhWorldChampionshipTournament2004promotionalcards[] =
-{	{ITEM_CIPHER_SOLDIER, RARITY_PRISMATIC_SECRET_RARE},
+{
+	{ITEM_CIPHER_SOLDIER, RARITY_PRISMATIC_SECRET_RARE},
 	{ITEM_HARPIE_S_FEATHER_DUSTER, RARITY_PRISMATIC_SECRET_RARE},
 	{ITEM_SINISTER_SERPENT, RARITY_PRISMATIC_SECRET_RARE},
 	{ITEM_SLATE_WARRIOR, RARITY_PRISMATIC_SECRET_RARE},
 };
 
 const struct PackContents gYuGiOhWorldwideEditionStairwaytotheDestinedDuelpromotionalcards[] =
-{	{ITEM_HARPIE_S_FEATHER_DUSTER, RARITY_PRISMATIC_SECRET_RARE},
+{
+	{ITEM_HARPIE_S_FEATHER_DUSTER, RARITY_PRISMATIC_SECRET_RARE},
 	{ITEM_SINISTER_SERPENT, RARITY_PRISMATIC_SECRET_RARE},
 };
 
@@ -6844,11 +7293,13 @@ const struct PackContents gYuGiOhatHomeSweepstakes[] =
 {};
 
 const struct PackContents gYugiKaibaCollectorBox[] =
-{	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+{
+	{ITEM_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
 };
 
 const struct PackContents gYugisLegendaryDecks[] =
-{	{ITEM_BIG_SHIELD_GARDNA, RARITY_COMMON},
+{
+	{ITEM_BIG_SHIELD_GARDNA, RARITY_COMMON},
 	{ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_COMMON},
 	{ITEM_BRAIN_CONTROL, RARITY_COMMON},
 	{ITEM_BUSTER_BLADER, RARITY_COMMON},
@@ -6886,7 +7337,8 @@ const struct PackContents gZexalCollectionTin[] =
 {};
 
 const struct PackContents gZombieWorldStructureDeck[] =
-{	{ITEM_BOOK_OF_LIFE, RARITY_COMMON},
+{
+	{ITEM_BOOK_OF_LIFE, RARITY_COMMON},
 	{ITEM_BOTTOMLESS_TRAP_HOLE, RARITY_COMMON},
 	{ITEM_CARD_DESTRUCTION, RARITY_COMMON},
 	{ITEM_COLD_WAVE, RARITY_COMMON},

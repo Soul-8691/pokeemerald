@@ -1016,6 +1016,14 @@ EventScript_AccessPack::
 EventScript_PulledCard::
 	bufferitemname STR_VAR_1, VAR_0x8004
 	msgbox gText_CardPulled, MSGBOX_DEFAULT
+	bufferitemname STR_VAR_1, VAR_0x8005
+	msgbox gText_CardPulled, MSGBOX_DEFAULT
+	bufferitemname STR_VAR_1, VAR_0x8006
+	msgbox gText_CardPulled, MSGBOX_DEFAULT
+	bufferitemname STR_VAR_1, VAR_0x8007
+	msgbox gText_CardPulled, MSGBOX_DEFAULT
+	bufferitemname STR_VAR_1, VAR_0x8008
+	msgbox gText_CardPulled, MSGBOX_DEFAULT
 	releaseall
 	end
 
