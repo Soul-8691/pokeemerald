@@ -5594,7 +5594,7 @@ static void ItemMenu_MovePocketsRight(u8 taskId)
     s16 *data = gTasks[taskId].data;
     u16 item = gSpecialVar_ItemId;
 
-    if (!MenuHelpers_IsLinkActive() && !IsWallysBag())
+    if (!MenuHelpers_IsLinkActive() && !IsWallysBag() && gBagPosition.pocket + 1 != POCKETS_COUNT)
     {
         RemoveBagItemAnyPocket(item, 1, gBagPosition.pocket);
         SwitchBagPocket(taskId, MENU_CURSOR_DELTA_RIGHT, TRUE);
@@ -5609,7 +5609,7 @@ static void ItemMenu_MovePocketsLeft(u8 taskId)
     s16 *data = gTasks[taskId].data;
     u16 item = gSpecialVar_ItemId;
 
-    if (!MenuHelpers_IsLinkActive() && !IsWallysBag())
+    if (!MenuHelpers_IsLinkActive() && !IsWallysBag() && gBagPosition.pocket - 1 != KEYITEMS_POCKET)
     {
         RemoveBagItemAnyPocket(item, 1, gBagPosition.pocket);
         SwitchBagPocket(taskId, MENU_CURSOR_DELTA_LEFT, TRUE);
