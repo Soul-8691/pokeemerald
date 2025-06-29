@@ -5593,12 +5593,22 @@ static void ItemMenu_MovePocketsRight(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
     u16 item = gSpecialVar_ItemId;
+    u16 card = CardIdMapping[item];
+    u8 type = gCardInfo[card].type;
 
     if (!MenuHelpers_IsLinkActive() && !IsWallysBag() && gBagPosition.pocket + 1 != POCKETS_COUNT)
     {
         RemoveBagItemAnyPocket(item, 1, gBagPosition.pocket);
-        SwitchBagPocket(taskId, MENU_CURSOR_DELTA_RIGHT, TRUE);
-        AddBagItemAnyPocket(item, 1, gBagPosition.pocket + 1);
+        if (type != TYPE_FUSION_MONSTER && (gBagPosition.pocket == TRUNK_POCKET || gBagPosition.pocket == MAIN_DECK_POCKET))
+        {       
+            SwitchBagPocket(taskId, MENU_CURSOR_DELTA_RIGHT, TRUE);
+            AddBagItemAnyPocket(item, 1, gBagPosition.pocket + 1);
+        }
+        else if (gBagPosition.pocket == TRUNK_POCKET)
+        {
+            SwitchBagPocket(taskId, MENU_CURSOR_DELTA_RIGHT + 2, TRUE);
+            AddBagItemAnyPocket(item, 1, gBagPosition.pocket + 3);
+        }
         UpdatePocketItemLists();
         return;
     }
@@ -5608,12 +5618,23 @@ static void ItemMenu_MovePocketsLeft(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
     u16 item = gSpecialVar_ItemId;
+    u16 card = CardIdMapping[item];
+    u8 type = gCardInfo[card].type;
 
     if (!MenuHelpers_IsLinkActive() && !IsWallysBag() && gBagPosition.pocket - 1 != KEYITEMS_POCKET)
     {
         RemoveBagItemAnyPocket(item, 1, gBagPosition.pocket);
-        SwitchBagPocket(taskId, MENU_CURSOR_DELTA_LEFT, TRUE);
-        AddBagItemAnyPocket(item, 1, gBagPosition.pocket - 1);
+        DebugPrintf("gBagPosition.pocket=%d", gBagPosition.pocket);
+        if (type != TYPE_FUSION_MONSTER && (gBagPosition.pocket == POCKET_SIDE_DECK || gBagPosition.pocket == POCKET_MAIN_DECK))
+        {
+            SwitchBagPocket(taskId, MENU_CURSOR_DELTA_LEFT, TRUE);
+            AddBagItemAnyPocket(item, 1, gBagPosition.pocket - 1);
+        }
+        else if (gBagPosition.pocket == POCKET_EXTRA_DECK)
+        {
+            SwitchBagPocket(taskId, MENU_CURSOR_DELTA_LEFT - 2, TRUE);
+            AddBagItemAnyPocket(item, 1, gBagPosition.pocket - 3);
+        }
         UpdatePocketItemLists();
         return;
     }
