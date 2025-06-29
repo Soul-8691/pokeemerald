@@ -577,6 +577,9 @@ pack_counter = 1836
 description_lines = dict()
 
 for format_ in formats:
+    PacksPrint += 'static const u8 s' + re.sub(r'[^a-zA-Z0-9]', '', format_) + 'Desc[] = _("' + textwrap.fill(format_, width=20).replace('\n', '\\n') + '.");\n\n'
+
+for format_ in formats:
     PacksPrint += '#define ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + ' ' + str(pack_counter) + '\n'
     pack_counter += 1
 PacksPrint += '\n'
@@ -600,7 +603,7 @@ for format_ in formats:
         .name = _("''' + format_[:13] + '''"),
         .itemId = ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + ''',
         .price = 0,
-        .description = sDummyDesc,
+        .description = s''' + re.sub(r'[^a-zA-Z0-9]', '', format_) + '''Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -707,7 +710,7 @@ for set_ in sorted(list(tcg_sets)):
         .name = _("''' + set_[:13] + '''"),
         .itemId = ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + ''',
         .price = 0,
-        .description = sDummyDesc,
+        .description = s''' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '''Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -737,6 +740,14 @@ with open('tcg_sets.json', 'r') as f:
         sets_print += str(card_count)
         sets_print += ',\n\t},\n'
         card_count = 0
+
+sets_print += '\nconst struct Pack gPacks[] =\n{\n'
+card_count = 0
+with open('tcg_sets.json', 'r') as f:
+    data = json.load(f)
+    for set_ in data:
+        sets_print += 'static const u8 s' + re.sub(r'[^a-zA-Z0-9]', '', set_) + 'Desc[] = _(\n    "' + textwrap.fill(set_, width=20).replace('\n', '\\n"\n    "') + '.");\n\n'
+
 Sets_Writer.write(sets_print)
 Sets_Writer.close()
 print('Sets written')

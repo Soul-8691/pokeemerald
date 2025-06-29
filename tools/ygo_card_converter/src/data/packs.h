@@ -9848,7 +9848,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("2-Player Star"),
         .itemId = ITEM_PACK_2_PLAYER_STARTER_DECK__YUYA___DECLAN,
         .price = 0,
-        .description = sDummyDesc,
+        .description = s2PlayerStarterDeckYuyaDeclanDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -9859,7 +9859,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("2-Player Star"),
         .itemId = ITEM_PACK_2_PLAYER_STARTER_SET,
         .price = 0,
-        .description = sDummyDesc,
+        .description = s2PlayerStarterSetDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -9870,7 +9870,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("2013 Collecti"),
         .itemId = ITEM_PACK_2013_COLLECTIBLE_TINS_WAVE_1,
         .price = 0,
-        .description = sDummyDesc,
+        .description = s2013CollectibleTinsWave1Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -9881,7 +9881,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("2013 Collecti"),
         .itemId = ITEM_PACK_2013_COLLECTIBLE_TINS_WAVE_2,
         .price = 0,
-        .description = sDummyDesc,
+        .description = s2013CollectibleTinsWave2Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -9892,7 +9892,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("2014 Mega-Tin"),
         .itemId = ITEM_PACK_2014_MEGA_TIN_MEGA_PACK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = s2014MegaTinMegaPackDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -9903,7 +9903,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("2014 Mega-Tin"),
         .itemId = ITEM_PACK_2014_MEGA_TINS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = s2014MegaTinsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -9914,7 +9914,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("2015 Mega-Tin"),
         .itemId = ITEM_PACK_2015_MEGA_TIN_MEGA_PACK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = s2015MegaTinMegaPackDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -9925,7 +9925,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("2015 Mega-Tin"),
         .itemId = ITEM_PACK_2015_MEGA_TINS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = s2015MegaTinsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -9936,7 +9936,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("2016 Mega-Tin"),
         .itemId = ITEM_PACK_2016_MEGA_TIN_MEGA_PACK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = s2016MegaTinMegaPackDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -9947,7 +9947,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("2016 Mega-Tin"),
         .itemId = ITEM_PACK_2016_MEGA_TINS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = s2016MegaTinsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -9958,7 +9958,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("2017 Mega-Tin"),
         .itemId = ITEM_PACK_2017_MEGA_TIN_MEGA_PACK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = s2017MegaTinMegaPackDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -9969,7 +9969,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("2017 Mega-Tin"),
         .itemId = ITEM_PACK_2017_MEGA_TINS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = s2017MegaTinsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -9980,7 +9980,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("2018 Mega-Tin"),
         .itemId = ITEM_PACK_2018_MEGA_TIN_MEGA_PACK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = s2018MegaTinMegaPackDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -9991,7 +9991,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("2018 Mega-Tin"),
         .itemId = ITEM_PACK_2018_MEGA_TINS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = s2018MegaTinsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10002,7 +10002,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("2019 Gold Sar"),
         .itemId = ITEM_PACK_2019_GOLD_SARCOPHAGUS_TIN,
         .price = 0,
-        .description = sDummyDesc,
+        .description = s2019GoldSarcophagusTinDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10013,7 +10013,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("2019 Gold Sar"),
         .itemId = ITEM_PACK_2019_GOLD_SARCOPHAGUS_TIN_MEGA_PACK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = s2019GoldSarcophagusTinMegaPackDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10024,7 +10024,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("2020 Tin of L"),
         .itemId = ITEM_PACK_2020_TIN_OF_LOST_MEMORIES,
         .price = 0,
-        .description = sDummyDesc,
+        .description = s2020TinofLostMemoriesDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10035,7 +10035,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("2020 Tin of L"),
         .itemId = ITEM_PACK_2020_TIN_OF_LOST_MEMORIES_MEGA_PACK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = s2020TinofLostMemoriesMegaPackDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10046,7 +10046,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("2021 Tin of A"),
         .itemId = ITEM_PACK_2021_TIN_OF_ANCIENT_BATTLES,
         .price = 0,
-        .description = sDummyDesc,
+        .description = s2021TinofAncientBattlesDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10057,7 +10057,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("2022 Tin of t"),
         .itemId = ITEM_PACK_2022_TIN_OF_THE_PHARAOH_S_GODS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = s2022TinofthePharaohsGodsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10068,7 +10068,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("25th Annivers"),
         .itemId = ITEM_PACK_25TH_ANNIVERSARY_RARITY_COLLECTION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = s25thAnniversaryRarityCollectionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10079,7 +10079,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("25th Annivers"),
         .itemId = ITEM_PACK_25TH_ANNIVERSARY_RARITY_COLLECTION_II,
         .price = 0,
-        .description = sDummyDesc,
+        .description = s25thAnniversaryRarityCollectionIIDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10090,7 +10090,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("25th Annivers"),
         .itemId = ITEM_PACK_25TH_ANNIVERSARY_TIN__DUELING_HEROES,
         .price = 0,
-        .description = sDummyDesc,
+        .description = s25thAnniversaryTinDuelingHeroesDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10101,7 +10101,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("25th Annivers"),
         .itemId = ITEM_PACK_25TH_ANNIVERSARY_TIN__DUELING_HEROES_MEGA_PACK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = s25thAnniversaryTinDuelingHeroesMegaPackDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10112,7 +10112,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("25th Annivers"),
         .itemId = ITEM_PACK_25TH_ANNIVERSARY_TIN__DUELING_MIRRORS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = s25thAnniversaryTinDuelingMirrorsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10123,7 +10123,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("25th Annivers"),
         .itemId = ITEM_PACK_25TH_ANNIVERSARY_ULTIMATE_KAIBA_SET,
         .price = 0,
-        .description = sDummyDesc,
+        .description = s25thAnniversaryUltimateKaibaSetDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10134,7 +10134,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Absolute Powe"),
         .itemId = ITEM_PACK_ABSOLUTE_POWERFORCE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sAbsolutePowerforceDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10145,7 +10145,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Absolute Powe"),
         .itemId = ITEM_PACK_ABSOLUTE_POWERFORCE_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sAbsolutePowerforceSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10156,7 +10156,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Absolute Powe"),
         .itemId = ITEM_PACK_ABSOLUTE_POWERFORCE__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sAbsolutePowerforceSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10167,7 +10167,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Abyss Rising"),
         .itemId = ITEM_PACK_ABYSS_RISING,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sAbyssRisingDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10178,7 +10178,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Abyss Rising "),
         .itemId = ITEM_PACK_ABYSS_RISING_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sAbyssRisingSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10189,7 +10189,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Abyss Rising:"),
         .itemId = ITEM_PACK_ABYSS_RISING__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sAbyssRisingSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10200,7 +10200,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Advanced Demo"),
         .itemId = ITEM_PACK_ADVANCED_DEMO_DECK_EXTRA_PACK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sAdvancedDemoDeckExtraPackDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10211,7 +10211,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Age of Overlo"),
         .itemId = ITEM_PACK_AGE_OF_OVERLORD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sAgeofOverlordDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10222,7 +10222,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Alliance Insi"),
         .itemId = ITEM_PACK_ALLIANCE_INSIGHT,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sAllianceInsightDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10233,7 +10233,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Amazing Defen"),
         .itemId = ITEM_PACK_AMAZING_DEFENDERS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sAmazingDefendersDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10244,7 +10244,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Ancient Guard"),
         .itemId = ITEM_PACK_ANCIENT_GUARDIANS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sAncientGuardiansDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10255,7 +10255,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Ancient Proph"),
         .itemId = ITEM_PACK_ANCIENT_PROPHECY,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sAncientProphecyDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10266,7 +10266,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Ancient Proph"),
         .itemId = ITEM_PACK_ANCIENT_PROPHECY_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sAncientProphecySneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10277,7 +10277,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Ancient Proph"),
         .itemId = ITEM_PACK_ANCIENT_PROPHECY__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sAncientProphecySpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10288,7 +10288,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Ancient Sanct"),
         .itemId = ITEM_PACK_ANCIENT_SANCTUARY,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sAncientSanctuaryDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10299,7 +10299,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Anniversary P"),
         .itemId = ITEM_PACK_ANNIVERSARY_PACK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sAnniversaryPackDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10310,7 +10310,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Astral Pack E"),
         .itemId = ITEM_PACK_ASTRAL_PACK_EIGHT,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sAstralPackEightDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10321,7 +10321,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Astral Pack F"),
         .itemId = ITEM_PACK_ASTRAL_PACK_FIVE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sAstralPackFiveDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10332,7 +10332,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Astral Pack F"),
         .itemId = ITEM_PACK_ASTRAL_PACK_FOUR,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sAstralPackFourDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10343,7 +10343,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Astral Pack O"),
         .itemId = ITEM_PACK_ASTRAL_PACK_ONE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sAstralPackOneDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10354,7 +10354,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Astral Pack S"),
         .itemId = ITEM_PACK_ASTRAL_PACK_SEVEN,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sAstralPackSevenDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10365,7 +10365,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Astral Pack S"),
         .itemId = ITEM_PACK_ASTRAL_PACK_SIX,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sAstralPackSixDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10376,7 +10376,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Astral Pack T"),
         .itemId = ITEM_PACK_ASTRAL_PACK_THREE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sAstralPackThreeDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10387,7 +10387,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Astral Pack T"),
         .itemId = ITEM_PACK_ASTRAL_PACK_TWO,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sAstralPackTwoDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10398,7 +10398,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Battle Pack 2"),
         .itemId = ITEM_PACK_BATTLE_PACK_2__WAR_OF_THE_GIANTS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sBattlePack2WaroftheGiantsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10409,7 +10409,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Battle Pack 3"),
         .itemId = ITEM_PACK_BATTLE_PACK_3__MONSTER_LEAGUE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sBattlePack3MonsterLeagueDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10420,7 +10420,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Battle Pack T"),
         .itemId = ITEM_PACK_BATTLE_PACK_TOURNAMENT_PRIZE_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sBattlePackTournamentPrizeCardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10431,7 +10431,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Battle Pack: "),
         .itemId = ITEM_PACK_BATTLE_PACK__EPIC_DAWN,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sBattlePackEpicDawnDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10442,7 +10442,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Battle of Cha"),
         .itemId = ITEM_PACK_BATTLE_OF_CHAOS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sBattleofChaosDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10453,7 +10453,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Battles of Le"),
         .itemId = ITEM_PACK_BATTLES_OF_LEGEND__ARMAGEDDON,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sBattlesofLegendArmageddonDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10464,7 +10464,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Battles of Le"),
         .itemId = ITEM_PACK_BATTLES_OF_LEGEND__CHAPTER_1,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sBattlesofLegendChapter1Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10475,7 +10475,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Battles of Le"),
         .itemId = ITEM_PACK_BATTLES_OF_LEGEND__CRYSTAL_REVENGE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sBattlesofLegendCrystalRevengeDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10486,7 +10486,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Battles of Le"),
         .itemId = ITEM_PACK_BATTLES_OF_LEGEND__HERO_S_REVENGE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sBattlesofLegendHerosRevengeDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10497,7 +10497,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Battles of Le"),
         .itemId = ITEM_PACK_BATTLES_OF_LEGEND__LIGHT_S_REVENGE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sBattlesofLegendLightsRevengeDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10508,7 +10508,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Battles of Le"),
         .itemId = ITEM_PACK_BATTLES_OF_LEGEND__MONSTER_MAYHEM,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sBattlesofLegendMonsterMayhemDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10519,7 +10519,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Battles of Le"),
         .itemId = ITEM_PACK_BATTLES_OF_LEGEND__MONSTROUS_REVENGE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sBattlesofLegendMonstrousRevengeDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10530,7 +10530,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Battles of Le"),
         .itemId = ITEM_PACK_BATTLES_OF_LEGEND__RELENTLESS_REVENGE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sBattlesofLegendRelentlessRevengeDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10541,7 +10541,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Battles of Le"),
         .itemId = ITEM_PACK_BATTLES_OF_LEGEND__TERMINAL_REVENGE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sBattlesofLegendTerminalRevengeDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10552,7 +10552,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Blazing Vorte"),
         .itemId = ITEM_PACK_BLAZING_VORTEX,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sBlazingVortexDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10563,7 +10563,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Blazing Vorte"),
         .itemId = ITEM_PACK_BLAZING_VORTEX_PREMIERE__PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sBlazingVortexPremierepromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10574,7 +10574,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Blue-Eyes Alt"),
         .itemId = ITEM_PACK_BLUE_EYES_ALTERNATIVE_WHITE_DRAGON_SWEEPSTAKES,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sBlueEyesAlternativeWhiteDragonSweepstakesDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10585,7 +10585,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Booster Pack "),
         .itemId = ITEM_PACK_BOOSTER_PACK_COLLECTORS_TINS_2002,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sBoosterPackCollectorsTins2002Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10596,7 +10596,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Breakers of S"),
         .itemId = ITEM_PACK_BREAKERS_OF_SHADOW,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sBreakersofShadowDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10607,7 +10607,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Breakers of S"),
         .itemId = ITEM_PACK_BREAKERS_OF_SHADOW_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sBreakersofShadowSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10618,7 +10618,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Breakers of S"),
         .itemId = ITEM_PACK_BREAKERS_OF_SHADOW__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sBreakersofShadowSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10629,7 +10629,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Brothers of L"),
         .itemId = ITEM_PACK_BROTHERS_OF_LEGEND,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sBrothersofLegendDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10640,7 +10640,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Burst of Dest"),
         .itemId = ITEM_PACK_BURST_OF_DESTINY,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sBurstofDestinyDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10651,7 +10651,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Champion Pack"),
         .itemId = ITEM_PACK_CHAMPION_PACK__GAME_EIGHT,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sChampionPackGameEightDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10662,7 +10662,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Champion Pack"),
         .itemId = ITEM_PACK_CHAMPION_PACK__GAME_FIVE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sChampionPackGameFiveDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10673,7 +10673,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Champion Pack"),
         .itemId = ITEM_PACK_CHAMPION_PACK__GAME_FOUR,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sChampionPackGameFourDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10684,7 +10684,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Champion Pack"),
         .itemId = ITEM_PACK_CHAMPION_PACK__GAME_ONE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sChampionPackGameOneDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10695,7 +10695,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Champion Pack"),
         .itemId = ITEM_PACK_CHAMPION_PACK__GAME_SEVEN,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sChampionPackGameSevenDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10706,7 +10706,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Champion Pack"),
         .itemId = ITEM_PACK_CHAMPION_PACK__GAME_SIX,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sChampionPackGameSixDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10717,7 +10717,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Champion Pack"),
         .itemId = ITEM_PACK_CHAMPION_PACK__GAME_THREE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sChampionPackGameThreeDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10728,7 +10728,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Champion Pack"),
         .itemId = ITEM_PACK_CHAMPION_PACK__GAME_TWO,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sChampionPackGameTwoDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10739,7 +10739,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Chaos Impact"),
         .itemId = ITEM_PACK_CHAOS_IMPACT,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sChaosImpactDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10750,7 +10750,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Chaos Impact "),
         .itemId = ITEM_PACK_CHAOS_IMPACT_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sChaosImpactSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10761,7 +10761,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Chaos Impact "),
         .itemId = ITEM_PACK_CHAOS_IMPACT_SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sChaosImpactSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10772,7 +10772,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Circuit Break"),
         .itemId = ITEM_PACK_CIRCUIT_BREAK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCircuitBreakDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10783,7 +10783,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Circuit Break"),
         .itemId = ITEM_PACK_CIRCUIT_BREAK_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCircuitBreakSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10794,7 +10794,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Circuit Break"),
         .itemId = ITEM_PACK_CIRCUIT_BREAK_SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCircuitBreakSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10805,7 +10805,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Clash of Rebe"),
         .itemId = ITEM_PACK_CLASH_OF_REBELLIONS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sClashofRebellionsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10816,7 +10816,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Clash of Rebe"),
         .itemId = ITEM_PACK_CLASH_OF_REBELLIONS_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sClashofRebellionsSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10827,7 +10827,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Clash of Rebe"),
         .itemId = ITEM_PACK_CLASH_OF_REBELLIONS__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sClashofRebellionsSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10838,7 +10838,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Code of the D"),
         .itemId = ITEM_PACK_CODE_OF_THE_DUELIST,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCodeoftheDuelistDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10849,7 +10849,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Code of the D"),
         .itemId = ITEM_PACK_CODE_OF_THE_DUELIST_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCodeoftheDuelistSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10860,7 +10860,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Code of the D"),
         .itemId = ITEM_PACK_CODE_OF_THE_DUELIST_SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCodeoftheDuelistSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10871,7 +10871,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Collectible T"),
         .itemId = ITEM_PACK_COLLECTIBLE_TINS_2003,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCollectibleTins2003Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10882,7 +10882,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Collectible T"),
         .itemId = ITEM_PACK_COLLECTIBLE_TINS_2004,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCollectibleTins2004Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10893,7 +10893,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Collectible T"),
         .itemId = ITEM_PACK_COLLECTIBLE_TINS_2005,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCollectibleTins2005Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10904,7 +10904,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Collectible T"),
         .itemId = ITEM_PACK_COLLECTIBLE_TINS_2006_WAVE_1,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCollectibleTins2006Wave1Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10915,7 +10915,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Collectible T"),
         .itemId = ITEM_PACK_COLLECTIBLE_TINS_2006_WAVE_2,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCollectibleTins2006Wave2Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10926,7 +10926,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Collectible T"),
         .itemId = ITEM_PACK_COLLECTIBLE_TINS_2007_WAVE_1,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCollectibleTins2007Wave1Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10937,7 +10937,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Collectible T"),
         .itemId = ITEM_PACK_COLLECTIBLE_TINS_2007_WAVE_2,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCollectibleTins2007Wave2Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10948,7 +10948,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Collectible T"),
         .itemId = ITEM_PACK_COLLECTIBLE_TINS_2008_WAVE_1,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCollectibleTins2008Wave1Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10959,7 +10959,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Collectible T"),
         .itemId = ITEM_PACK_COLLECTIBLE_TINS_2008_WAVE_2,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCollectibleTins2008Wave2Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10970,7 +10970,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Collectible T"),
         .itemId = ITEM_PACK_COLLECTIBLE_TINS_2009_WAVE_1,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCollectibleTins2009Wave1Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10981,7 +10981,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Collectible T"),
         .itemId = ITEM_PACK_COLLECTIBLE_TINS_2009_WAVE_2,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCollectibleTins2009Wave2Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -10992,7 +10992,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Collectible T"),
         .itemId = ITEM_PACK_COLLECTIBLE_TINS_2010_WAVE_1,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCollectibleTins2010Wave1Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11003,7 +11003,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Collectible T"),
         .itemId = ITEM_PACK_COLLECTIBLE_TINS_2010_WAVE_2,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCollectibleTins2010Wave2Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11014,7 +11014,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Collectible T"),
         .itemId = ITEM_PACK_COLLECTIBLE_TINS_2011_WAVE_1,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCollectibleTins2011Wave1Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11025,7 +11025,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Collectible T"),
         .itemId = ITEM_PACK_COLLECTIBLE_TINS_2011_WAVE_2,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCollectibleTins2011Wave2Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11036,7 +11036,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Collectible T"),
         .itemId = ITEM_PACK_COLLECTIBLE_TINS_2012_WAVE_1,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCollectibleTins2012Wave1Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11047,7 +11047,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Collectible T"),
         .itemId = ITEM_PACK_COLLECTIBLE_TINS_2012_WAVE_2,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCollectibleTins2012Wave2Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11058,7 +11058,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Collectible T"),
         .itemId = ITEM_PACK_COLLECTIBLE_TINS_2012_WAVE_2_5,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCollectibleTins2012Wave25Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11069,7 +11069,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Collectible T"),
         .itemId = ITEM_PACK_COLLECTIBLE_TINS_EXCLUSIVE_2008,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCollectibleTinsExclusive2008Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11080,7 +11080,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Collectible T"),
         .itemId = ITEM_PACK_COLLECTIBLE_TINS_EXCLUSIVE_2009,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCollectibleTinsExclusive2009Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11091,7 +11091,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Cosmo Blazer"),
         .itemId = ITEM_PACK_COSMO_BLAZER,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCosmoBlazerDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11102,7 +11102,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Cosmo Blazer "),
         .itemId = ITEM_PACK_COSMO_BLAZER_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCosmoBlazerSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11113,7 +11113,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Cosmo Blazer:"),
         .itemId = ITEM_PACK_COSMO_BLAZER__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCosmoBlazerSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11124,7 +11124,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Crimson Crisi"),
         .itemId = ITEM_PACK_CRIMSON_CRISIS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCrimsonCrisisDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11135,7 +11135,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Crimson Crisi"),
         .itemId = ITEM_PACK_CRIMSON_CRISIS_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCrimsonCrisisSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11146,7 +11146,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Crimson Crisi"),
         .itemId = ITEM_PACK_CRIMSON_CRISIS__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCrimsonCrisisSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11157,7 +11157,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Crossed Souls"),
         .itemId = ITEM_PACK_CROSSED_SOULS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCrossedSoulsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11168,7 +11168,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Crossed Souls"),
         .itemId = ITEM_PACK_CROSSED_SOULS_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCrossedSoulsSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11179,7 +11179,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Crossed Souls"),
         .itemId = ITEM_PACK_CROSSED_SOULS__ADVANCE_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCrossedSoulsAdvanceEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11190,7 +11190,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Crossover Bre"),
         .itemId = ITEM_PACK_CROSSOVER_BREAKERS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCrossoverBreakersDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11201,7 +11201,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Crossroads of"),
         .itemId = ITEM_PACK_CROSSROADS_OF_CHAOS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCrossroadsofChaosDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11212,7 +11212,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Crossroads of"),
         .itemId = ITEM_PACK_CROSSROADS_OF_CHAOS_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCrossroadsofChaosSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11223,7 +11223,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Crossroads of"),
         .itemId = ITEM_PACK_CROSSROADS_OF_CHAOS__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCrossroadsofChaosSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11234,7 +11234,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Cyber Dragon "),
         .itemId = ITEM_PACK_CYBER_DRAGON_REVOLUTION_STRUCTURE_DECK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCyberDragonRevolutionStructureDeckDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11245,7 +11245,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Cyberdark Imp"),
         .itemId = ITEM_PACK_CYBERDARK_IMPACT,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCyberdarkImpactDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11256,7 +11256,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Cyberdark Imp"),
         .itemId = ITEM_PACK_CYBERDARK_IMPACT_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCyberdarkImpactSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11267,7 +11267,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Cybernetic Ho"),
         .itemId = ITEM_PACK_CYBERNETIC_HORIZON,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCyberneticHorizonDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11278,7 +11278,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Cybernetic Ho"),
         .itemId = ITEM_PACK_CYBERNETIC_HORIZON_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCyberneticHorizonSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11289,7 +11289,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Cybernetic Ho"),
         .itemId = ITEM_PACK_CYBERNETIC_HORIZON_SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCyberneticHorizonSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11300,7 +11300,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Cybernetic Re"),
         .itemId = ITEM_PACK_CYBERNETIC_REVOLUTION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCyberneticRevolutionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11311,7 +11311,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Cybernetic Re"),
         .itemId = ITEM_PACK_CYBERNETIC_REVOLUTION_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCyberneticRevolutionSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11322,7 +11322,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Cyberstorm Ac"),
         .itemId = ITEM_PACK_CYBERSTORM_ACCESS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sCyberstormAccessDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11333,7 +11333,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Dark Beginnin"),
         .itemId = ITEM_PACK_DARK_BEGINNING_1,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDarkBeginning1Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11344,7 +11344,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Dark Beginnin"),
         .itemId = ITEM_PACK_DARK_BEGINNING_2,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDarkBeginning2Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11355,7 +11355,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Dark Crisis"),
         .itemId = ITEM_PACK_DARK_CRISIS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDarkCrisisDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11366,7 +11366,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Dark Legends"),
         .itemId = ITEM_PACK_DARK_LEGENDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDarkLegendsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11377,7 +11377,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Dark Legion S"),
         .itemId = ITEM_PACK_DARK_LEGION_STARTER_DECK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDarkLegionStarterDeckDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11388,7 +11388,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Dark Neostorm"),
         .itemId = ITEM_PACK_DARK_NEOSTORM,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDarkNeostormDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11399,7 +11399,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Dark Neostorm"),
         .itemId = ITEM_PACK_DARK_NEOSTORM_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDarkNeostormSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11410,7 +11410,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Dark Neostorm"),
         .itemId = ITEM_PACK_DARK_NEOSTORM_SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDarkNeostormSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11421,7 +11421,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Dark Revelati"),
         .itemId = ITEM_PACK_DARK_REVELATION_VOLUME_1,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDarkRevelationVolume1Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11432,7 +11432,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Dark Revelati"),
         .itemId = ITEM_PACK_DARK_REVELATION_VOLUME_2,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDarkRevelationVolume2Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11443,7 +11443,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Dark Revelati"),
         .itemId = ITEM_PACK_DARK_REVELATION_VOLUME_3,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDarkRevelationVolume3Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11454,7 +11454,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Dark Revelati"),
         .itemId = ITEM_PACK_DARK_REVELATION_VOLUME_4,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDarkRevelationVolume4Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11465,7 +11465,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Dark Saviors"),
         .itemId = ITEM_PACK_DARK_SAVIORS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDarkSaviorsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11476,7 +11476,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Darkwing Blas"),
         .itemId = ITEM_PACK_DARKWING_BLAST,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDarkwingBlastDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11487,7 +11487,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Dawn of Majes"),
         .itemId = ITEM_PACK_DAWN_OF_MAJESTY,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDawnofMajestyDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11498,7 +11498,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Dawn of Majes"),
         .itemId = ITEM_PACK_DAWN_OF_MAJESTY_PREMIERE__PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDawnofMajestyPremierepromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11509,7 +11509,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Demo Deck 201"),
         .itemId = ITEM_PACK_DEMO_DECK_2015,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDemoDeck2015Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11520,7 +11520,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Demo Deck 201"),
         .itemId = ITEM_PACK_DEMO_DECK_2016,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDemoDeck2016Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11531,7 +11531,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Demo Pack"),
         .itemId = ITEM_PACK_DEMO_PACK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDemoPackDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11542,7 +11542,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Destiny Soldi"),
         .itemId = ITEM_PACK_DESTINY_SOLDIERS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDestinySoldiersDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11553,7 +11553,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Dimension For"),
         .itemId = ITEM_PACK_DIMENSION_FORCE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDimensionForceDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11564,7 +11564,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Dimension of "),
         .itemId = ITEM_PACK_DIMENSION_OF_CHAOS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDimensionofChaosDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11575,7 +11575,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Dimension of "),
         .itemId = ITEM_PACK_DIMENSION_OF_CHAOS_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDimensionofChaosSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11586,7 +11586,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Dimension of "),
         .itemId = ITEM_PACK_DIMENSION_OF_CHAOS__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDimensionofChaosSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11597,7 +11597,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Dinosmasher's"),
         .itemId = ITEM_PACK_DINOSMASHER_S_FURY_STRUCTURE_DECK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDinosmashersFuryStructureDeckDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11608,7 +11608,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Dragons Colli"),
         .itemId = ITEM_PACK_DRAGONS_COLLIDE_STRUCTURE_DECK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDragonsCollideStructureDeckDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11619,7 +11619,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Dragons of Le"),
         .itemId = ITEM_PACK_DRAGONS_OF_LEGEND,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDragonsofLegendDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11630,7 +11630,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Dragons of Le"),
         .itemId = ITEM_PACK_DRAGONS_OF_LEGEND_2,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDragonsofLegend2Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11641,7 +11641,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Dragons of Le"),
         .itemId = ITEM_PACK_DRAGONS_OF_LEGEND__THE_COMPLETE_SERIES,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDragonsofLegendTheCompleteSeriesDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11652,7 +11652,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Dragons of Le"),
         .itemId = ITEM_PACK_DRAGONS_OF_LEGEND__UNLEASHED,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDragonsofLegendUnleashedDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11663,7 +11663,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Dragunity Leg"),
         .itemId = ITEM_PACK_DRAGUNITY_LEGION_STRUCTURE_DECK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDragunityLegionStructureDeckDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11674,7 +11674,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duel Devastat"),
         .itemId = ITEM_PACK_DUEL_DEVASTATOR,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelDevastatorDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11685,7 +11685,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duel Disk - Y"),
         .itemId = ITEM_PACK_DUEL_DISK___YUSEI_VERSION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelDiskYuseiVersionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11696,7 +11696,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duel Master's"),
         .itemId = ITEM_PACK_DUEL_MASTER_S_GUIDE_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelMastersGuidepromotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11707,7 +11707,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duel Overload"),
         .itemId = ITEM_PACK_DUEL_OVERLOAD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelOverloadDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11718,7 +11718,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duel Power"),
         .itemId = ITEM_PACK_DUEL_POWER,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelPowerDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11729,7 +11729,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duel Terminal"),
         .itemId = ITEM_PACK_DUEL_TERMINAL___PREVIEW_WAVE_1,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelTerminalPreviewWave1Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11740,7 +11740,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duel Terminal"),
         .itemId = ITEM_PACK_DUEL_TERMINAL___PREVIEW_WAVE_2,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelTerminalPreviewWave2Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11751,7 +11751,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duel Terminal"),
         .itemId = ITEM_PACK_DUEL_TERMINAL_1,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelTerminal1Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11762,7 +11762,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duel Terminal"),
         .itemId = ITEM_PACK_DUEL_TERMINAL_2,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelTerminal2Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11773,7 +11773,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duel Terminal"),
         .itemId = ITEM_PACK_DUEL_TERMINAL_3,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelTerminal3Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11784,7 +11784,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duel Terminal"),
         .itemId = ITEM_PACK_DUEL_TERMINAL_4,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelTerminal4Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11795,7 +11795,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duel Terminal"),
         .itemId = ITEM_PACK_DUEL_TERMINAL_5,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelTerminal5Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11806,7 +11806,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duel Terminal"),
         .itemId = ITEM_PACK_DUEL_TERMINAL_5A,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelTerminal5aDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11817,7 +11817,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duel Terminal"),
         .itemId = ITEM_PACK_DUEL_TERMINAL_5B,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelTerminal5bDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11828,7 +11828,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duel Terminal"),
         .itemId = ITEM_PACK_DUEL_TERMINAL_6,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelTerminal6Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11839,7 +11839,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duel Terminal"),
         .itemId = ITEM_PACK_DUEL_TERMINAL_6A,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelTerminal6aDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11850,7 +11850,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duel Terminal"),
         .itemId = ITEM_PACK_DUEL_TERMINAL_6B,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelTerminal6bDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11861,7 +11861,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duel Terminal"),
         .itemId = ITEM_PACK_DUEL_TERMINAL_7,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelTerminal7Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11872,7 +11872,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duel Terminal"),
         .itemId = ITEM_PACK_DUEL_TERMINAL_7A,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelTerminal7aDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11883,7 +11883,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duel Terminal"),
         .itemId = ITEM_PACK_DUEL_TERMINAL_7B,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelTerminal7bDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11894,7 +11894,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Allia"),
         .itemId = ITEM_PACK_DUELIST_ALLIANCE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistAllianceDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11905,7 +11905,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Allia"),
         .itemId = ITEM_PACK_DUELIST_ALLIANCE_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistAllianceSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11916,7 +11916,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Allia"),
         .itemId = ITEM_PACK_DUELIST_ALLIANCE__DELUXE_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistAllianceDeluxeEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11927,7 +11927,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Leagu"),
         .itemId = ITEM_PACK_DUELIST_LEAGUE_13_PARTICIPATION_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistLeague13participationcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11938,7 +11938,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Leagu"),
         .itemId = ITEM_PACK_DUELIST_LEAGUE_14_PARTICIPATION_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistLeague14participationcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11949,7 +11949,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Leagu"),
         .itemId = ITEM_PACK_DUELIST_LEAGUE_15_PARTICIPATION_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistLeague15participationcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11960,7 +11960,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Leagu"),
         .itemId = ITEM_PACK_DUELIST_LEAGUE_16_PARTICIPATION_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistLeague16participationcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11971,7 +11971,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Leagu"),
         .itemId = ITEM_PACK_DUELIST_LEAGUE_17_PARTICIPATION_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistLeague17participationcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11982,7 +11982,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Leagu"),
         .itemId = ITEM_PACK_DUELIST_LEAGUE_18_PARTICIPATION_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistLeague18participationcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -11993,7 +11993,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Leagu"),
         .itemId = ITEM_PACK_DUELIST_LEAGUE_2_PARTICIPATION_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistLeague2participationcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12004,7 +12004,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Leagu"),
         .itemId = ITEM_PACK_DUELIST_LEAGUE_2010_PARTICIPATION_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistLeague2010participationcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12015,7 +12015,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Leagu"),
         .itemId = ITEM_PACK_DUELIST_LEAGUE_3_PARTICIPATION_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistLeague3participationcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12026,7 +12026,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Leagu"),
         .itemId = ITEM_PACK_DUELIST_LEAGUE_DEMO_2010,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistLeagueDemo2010Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12037,7 +12037,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Leagu"),
         .itemId = ITEM_PACK_DUELIST_LEAGUE_SERIES_1_PARTICIPATION_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistLeagueSeries1participationcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12048,7 +12048,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Leagu"),
         .itemId = ITEM_PACK_DUELIST_LEAGUE_SERIES_10_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistLeagueSeries10participationcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12059,7 +12059,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Leagu"),
         .itemId = ITEM_PACK_DUELIST_LEAGUE_SERIES_2_PARTICIPATION_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistLeagueSeries2participationcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12070,7 +12070,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Leagu"),
         .itemId = ITEM_PACK_DUELIST_LEAGUE_SERIES_3_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistLeagueSeries3participationcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12081,7 +12081,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Leagu"),
         .itemId = ITEM_PACK_DUELIST_LEAGUE_SERIES_4_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistLeagueSeries4participationcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12092,7 +12092,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Leagu"),
         .itemId = ITEM_PACK_DUELIST_LEAGUE_SERIES_5_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistLeagueSeries5participationcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12103,7 +12103,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Leagu"),
         .itemId = ITEM_PACK_DUELIST_LEAGUE_SERIES_6_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistLeagueSeries6participationcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12114,7 +12114,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Leagu"),
         .itemId = ITEM_PACK_DUELIST_LEAGUE_SERIES_7_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistLeagueSeries7participationcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12125,7 +12125,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Leagu"),
         .itemId = ITEM_PACK_DUELIST_LEAGUE_SERIES_8_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistLeagueSeries8participationcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12136,7 +12136,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Leagu"),
         .itemId = ITEM_PACK_DUELIST_LEAGUE_SERIES_9_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistLeagueSeries9participationcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12147,7 +12147,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Nexus"),
         .itemId = ITEM_PACK_DUELIST_NEXUS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistNexusDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12158,7 +12158,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Pack "),
         .itemId = ITEM_PACK_DUELIST_PACK_COLLECTION_TIN_2008,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistPackCollectionTin2008Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12169,7 +12169,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Pack "),
         .itemId = ITEM_PACK_DUELIST_PACK_COLLECTION_TIN_2009,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistPackCollectionTin2009Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12180,7 +12180,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Pack "),
         .itemId = ITEM_PACK_DUELIST_PACK_COLLECTION_TIN_2010,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistPackCollectionTin2010Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12191,7 +12191,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Pack "),
         .itemId = ITEM_PACK_DUELIST_PACK_COLLECTION_TIN_2011,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistPackCollectionTin2011Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12202,7 +12202,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Pack "),
         .itemId = ITEM_PACK_DUELIST_PACK_COLLECTION_TIN__JADEN_YUKI,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistPackCollectionTinJadenYukiDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12213,7 +12213,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Pack:"),
         .itemId = ITEM_PACK_DUELIST_PACK__ASTER_PHOENIX,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistPackAsterPhoenixDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12224,7 +12224,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Pack:"),
         .itemId = ITEM_PACK_DUELIST_PACK__BATTLE_CITY,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistPackBattleCityDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12235,7 +12235,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Pack:"),
         .itemId = ITEM_PACK_DUELIST_PACK__CHAZZ_PRINCETON,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistPackChazzPrincetonDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12246,7 +12246,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Pack:"),
         .itemId = ITEM_PACK_DUELIST_PACK__CROW,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistPackCrowDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12257,7 +12257,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Pack:"),
         .itemId = ITEM_PACK_DUELIST_PACK__DIMENSIONAL_GUARDIANS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistPackDimensionalGuardiansDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12268,7 +12268,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Pack:"),
         .itemId = ITEM_PACK_DUELIST_PACK__JADEN_YUKI,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistPackJadenYukiDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12279,7 +12279,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Pack:"),
         .itemId = ITEM_PACK_DUELIST_PACK__JADEN_YUKI_2,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistPackJadenYuki2Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12290,7 +12290,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Pack:"),
         .itemId = ITEM_PACK_DUELIST_PACK__JADEN_YUKI_3,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistPackJadenYuki3Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12301,7 +12301,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Pack:"),
         .itemId = ITEM_PACK_DUELIST_PACK__JESSE_ANDERSON,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistPackJesseAndersonDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12312,7 +12312,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Pack:"),
         .itemId = ITEM_PACK_DUELIST_PACK__KAIBA,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistPackKaibaDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12323,7 +12323,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Pack:"),
         .itemId = ITEM_PACK_DUELIST_PACK__RIVALS_OF_THE_PHARAOH,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistPackRivalsofthePharaohDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12334,7 +12334,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Pack:"),
         .itemId = ITEM_PACK_DUELIST_PACK__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistPackSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12345,7 +12345,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Pack:"),
         .itemId = ITEM_PACK_DUELIST_PACK__YUGI,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistPackYugiDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12356,7 +12356,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Pack:"),
         .itemId = ITEM_PACK_DUELIST_PACK__YUSEI,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistPackYuseiDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12367,7 +12367,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Pack:"),
         .itemId = ITEM_PACK_DUELIST_PACK__YUSEI_2,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistPackYusei2Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12378,7 +12378,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Pack:"),
         .itemId = ITEM_PACK_DUELIST_PACK__YUSEI_3,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistPackYusei3Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12389,7 +12389,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Pack:"),
         .itemId = ITEM_PACK_DUELIST_PACK__ZANE_TRUESDALE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistPackZaneTruesdaleDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12400,7 +12400,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Revol"),
         .itemId = ITEM_PACK_DUELIST_REVOLUTION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistRevolutionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12411,7 +12411,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Revol"),
         .itemId = ITEM_PACK_DUELIST_REVOLUTION_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistRevolutionSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12422,7 +12422,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Revol"),
         .itemId = ITEM_PACK_DUELIST_REVOLUTION__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistRevolutionSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12433,7 +12433,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist Saga"),
         .itemId = ITEM_PACK_DUELIST_SAGA,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistSagaDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12444,7 +12444,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Duelist's Adv"),
         .itemId = ITEM_PACK_DUELIST_S_ADVANCE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sDuelistsAdvanceDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12455,7 +12455,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Egyptian God "),
         .itemId = ITEM_PACK_EGYPTIAN_GOD_DECK__OBELISK_THE_TORMENTOR,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sEgyptianGodDeckObelisktheTormentorDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12466,7 +12466,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Egyptian God "),
         .itemId = ITEM_PACK_EGYPTIAN_GOD_DECK__SLIFER_THE_SKY_DRAGON,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sEgyptianGodDeckSlifertheSkyDragonDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12477,7 +12477,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Elemental Ene"),
         .itemId = ITEM_PACK_ELEMENTAL_ENERGY,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sElementalEnergyDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12488,7 +12488,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Elemental Ene"),
         .itemId = ITEM_PACK_ELEMENTAL_ENERGY_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sElementalEnergySneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12499,7 +12499,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Elemental Ene"),
         .itemId = ITEM_PACK_ELEMENTAL_ENERGY__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sElementalEnergySpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12510,7 +12510,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Emperor of Da"),
         .itemId = ITEM_PACK_EMPEROR_OF_DARKNESS_STRUCTURE_DECK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sEmperorofDarknessStructureDeckDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12521,7 +12521,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Enemy of Just"),
         .itemId = ITEM_PACK_ENEMY_OF_JUSTICE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sEnemyofJusticeDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12532,7 +12532,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Enemy of Just"),
         .itemId = ITEM_PACK_ENEMY_OF_JUSTICE_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sEnemyofJusticeSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12543,7 +12543,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Eternity Code"),
         .itemId = ITEM_PACK_ETERNITY_CODE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sEternityCodeDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12554,7 +12554,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Eternity Code"),
         .itemId = ITEM_PACK_ETERNITY_CODE_PREMIERE__PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sEternityCodePremierepromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12565,7 +12565,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Event Pack Sp"),
         .itemId = ITEM_PACK_EVENT_PACK_SPEED_DUEL,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sEventPackSpeedDuelDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12576,7 +12576,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Exclusive Pac"),
         .itemId = ITEM_PACK_EXCLUSIVE_PACK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sExclusivePackDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12587,7 +12587,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Extreme Force"),
         .itemId = ITEM_PACK_EXTREME_FORCE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sExtremeForceDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12598,7 +12598,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Extreme Force"),
         .itemId = ITEM_PACK_EXTREME_FORCE_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sExtremeForceSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12609,7 +12609,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Extreme Force"),
         .itemId = ITEM_PACK_EXTREME_FORCE_SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sExtremeForceSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12620,7 +12620,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Extreme Victo"),
         .itemId = ITEM_PACK_EXTREME_VICTORY,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sExtremeVictoryDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12631,7 +12631,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Extreme Victo"),
         .itemId = ITEM_PACK_EXTREME_VICTORY_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sExtremeVictorySneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12642,7 +12642,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Fire Fists: S"),
         .itemId = ITEM_PACK_FIRE_FISTS__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sFireFistsSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12653,7 +12653,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Fists of the "),
         .itemId = ITEM_PACK_FISTS_OF_THE_GADGETS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sFistsoftheGadgetsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12664,7 +12664,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Flames of Des"),
         .itemId = ITEM_PACK_FLAMES_OF_DESTRUCTION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sFlamesofDestructionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12675,7 +12675,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Flames of Des"),
         .itemId = ITEM_PACK_FLAMES_OF_DESTRUCTION_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sFlamesofDestructionSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12686,7 +12686,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Flames of Des"),
         .itemId = ITEM_PACK_FLAMES_OF_DESTRUCTION_SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sFlamesofDestructionSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12697,7 +12697,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Flaming Etern"),
         .itemId = ITEM_PACK_FLAMING_ETERNITY,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sFlamingEternityDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12708,7 +12708,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Flaming Etern"),
         .itemId = ITEM_PACK_FLAMING_ETERNITY_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sFlamingEternitySneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12719,7 +12719,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Forbidden Leg"),
         .itemId = ITEM_PACK_FORBIDDEN_LEGACY,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sForbiddenLegacyDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12730,7 +12730,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Force of the "),
         .itemId = ITEM_PACK_FORCE_OF_THE_BREAKER,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sForceoftheBreakerDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12741,7 +12741,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Force of the "),
         .itemId = ITEM_PACK_FORCE_OF_THE_BREAKER_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sForceoftheBreakerSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12752,7 +12752,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Force of the "),
         .itemId = ITEM_PACK_FORCE_OF_THE_BREAKER__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sForceoftheBreakerSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12763,7 +12763,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Fusion Enforc"),
         .itemId = ITEM_PACK_FUSION_ENFORCERS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sFusionEnforcersDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12774,7 +12774,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("GX Next Gener"),
         .itemId = ITEM_PACK_GX_NEXT_GENERATION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sGXNextGenerationDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12785,7 +12785,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Galactic Over"),
         .itemId = ITEM_PACK_GALACTIC_OVERLORD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sGalacticOverlordDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12796,7 +12796,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Galactic Over"),
         .itemId = ITEM_PACK_GALACTIC_OVERLORD_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sGalacticOverlordSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12807,7 +12807,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Gates of the "),
         .itemId = ITEM_PACK_GATES_OF_THE_UNDERWORLD_STRUCTURE_DECK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sGatesoftheUnderworldStructureDeckDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12818,7 +12818,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Geargia Rampa"),
         .itemId = ITEM_PACK_GEARGIA_RAMPAGE_STRUCTURE_DECK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sGeargiaRampageStructureDeckDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12829,7 +12829,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Generation Fo"),
         .itemId = ITEM_PACK_GENERATION_FORCE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sGenerationForceDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12840,7 +12840,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Generation Fo"),
         .itemId = ITEM_PACK_GENERATION_FORCE_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sGenerationForceSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12851,7 +12851,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Generation Fo"),
         .itemId = ITEM_PACK_GENERATION_FORCE__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sGenerationForceSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12862,7 +12862,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Genesis Impac"),
         .itemId = ITEM_PACK_GENESIS_IMPACT,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sGenesisImpactDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12873,7 +12873,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Ghosts From t"),
         .itemId = ITEM_PACK_GHOSTS_FROM_THE_PAST,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sGhostsFromthePastDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12884,7 +12884,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Ghosts From t"),
         .itemId = ITEM_PACK_GHOSTS_FROM_THE_PAST__THE_2ND_HAUNTING,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sGhostsFromthePastThe2ndHauntingDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12895,7 +12895,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Gladiator's A"),
         .itemId = ITEM_PACK_GLADIATOR_S_ASSAULT,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sGladiatorsAssaultDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12906,7 +12906,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Gladiator's A"),
         .itemId = ITEM_PACK_GLADIATOR_S_ASSAULT_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sGladiatorsAssaultSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12917,7 +12917,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Gladiator's A"),
         .itemId = ITEM_PACK_GLADIATOR_S_ASSAULT__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sGladiatorsAssaultSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12928,7 +12928,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Gold Series"),
         .itemId = ITEM_PACK_GOLD_SERIES,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sGoldSeriesDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12939,7 +12939,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Gold Series 2"),
         .itemId = ITEM_PACK_GOLD_SERIES_2009,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sGoldSeries2009Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12950,7 +12950,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Gold Series 3"),
         .itemId = ITEM_PACK_GOLD_SERIES_3,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sGoldSeries3Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12961,7 +12961,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Gold Series 4"),
         .itemId = ITEM_PACK_GOLD_SERIES_4__PYRAMIDS_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sGoldSeries4PyramidsEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12972,7 +12972,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Gold Series: "),
         .itemId = ITEM_PACK_GOLD_SERIES__HAUNTED_MINE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sGoldSeriesHauntedMineDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12983,7 +12983,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("HERO Strike S"),
         .itemId = ITEM_PACK_HERO_STRIKE_STRUCTURE_DECK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHEROStrikeStructureDeckDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -12994,7 +12994,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hidden Arsena"),
         .itemId = ITEM_PACK_HIDDEN_ARSENAL,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHiddenArsenalDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13005,7 +13005,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hidden Arsena"),
         .itemId = ITEM_PACK_HIDDEN_ARSENAL_2,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHiddenArsenal2Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13016,7 +13016,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hidden Arsena"),
         .itemId = ITEM_PACK_HIDDEN_ARSENAL_3,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHiddenArsenal3Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13027,7 +13027,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hidden Arsena"),
         .itemId = ITEM_PACK_HIDDEN_ARSENAL_4__TRISHULA_S_TRIUMPH,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHiddenArsenal4TrishulasTriumphDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13038,7 +13038,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hidden Arsena"),
         .itemId = ITEM_PACK_HIDDEN_ARSENAL_5__STEELSWARM_INVASION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHiddenArsenal5SteelswarmInvasionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13049,7 +13049,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hidden Arsena"),
         .itemId = ITEM_PACK_HIDDEN_ARSENAL_5__STEELSWARM_INVASION__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHiddenArsenal5SteelswarmInvasionSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13060,7 +13060,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hidden Arsena"),
         .itemId = ITEM_PACK_HIDDEN_ARSENAL_6__OMEGA_XYZ,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHiddenArsenal6OmegaXyzDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13071,7 +13071,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hidden Arsena"),
         .itemId = ITEM_PACK_HIDDEN_ARSENAL_7__KNIGHT_OF_STARS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHiddenArsenal7KnightofStarsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13082,7 +13082,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hidden Arsena"),
         .itemId = ITEM_PACK_HIDDEN_ARSENAL__CHAPTER_1,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHiddenArsenalChapter1Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13093,7 +13093,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hidden Arsena"),
         .itemId = ITEM_PACK_HIDDEN_ARSENAL__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHiddenArsenalSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13104,7 +13104,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hidden Summon"),
         .itemId = ITEM_PACK_HIDDEN_SUMMONERS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHiddenSummonersDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13115,7 +13115,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("High-Speed Ri"),
         .itemId = ITEM_PACK_HIGH_SPEED_RIDERS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHighSpeedRidersDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13126,7 +13126,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_1_PARTICIPATION_CARDS_A,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague1participationcardsADesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13137,7 +13137,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_1_PARTICIPATION_CARDS_B,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague1participationcardsBDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13148,7 +13148,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_1_PARTICIPATION_CARDS_C,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague1participationcardsCDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13159,7 +13159,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_2_PARTICIPATION_CARD_A,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague2participationcardADesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13170,7 +13170,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_2_PARTICIPATION_CARD_B,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague2participationcardBDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13181,7 +13181,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_2_PARTICIPATION_CARD_C,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague2participationcardCDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13192,7 +13192,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_2_PARTICIPATION_CARD_D,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague2participationcardDDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13203,7 +13203,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_2_PARTICIPATION_CARD_E,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague2participationcardEDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13214,7 +13214,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_2_PARTICIPATION_CARD_F,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague2participationcardFDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13225,7 +13225,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_A,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague3participationcardADesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13236,7 +13236,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_B,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague3participationcardBDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13247,7 +13247,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_C,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague3participationcardCDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13258,7 +13258,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_D,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague3participationcardDDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13269,7 +13269,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_E,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague3participationcardEDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13280,7 +13280,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_F,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague3participationcardFDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13291,7 +13291,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_G,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague3participationcardGDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13302,7 +13302,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_4_PARTICIPATION_CARD_A,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague4participationcardADesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13313,7 +13313,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_4_PARTICIPATION_CARD_B,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague4participationcardBDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13324,7 +13324,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_4_PARTICIPATION_CARD_C,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague4participationcardCDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13335,7 +13335,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_4_PARTICIPATION_CARD_D,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague4participationcardDDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13346,7 +13346,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_4_PARTICIPATION_CARD_E,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague4participationcardEDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13357,7 +13357,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_4_PARTICIPATION_CARD_F,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague4participationcardFDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13368,7 +13368,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_5_PARTICIPATION_CARD_A,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague5participationcardADesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13379,7 +13379,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_5_PARTICIPATION_CARD_B,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague5participationcardBDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13390,7 +13390,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_5_PARTICIPATION_CARD_C,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague5participationcardCDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13401,7 +13401,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_5_PARTICIPATION_CARD_D,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague5participationcardDDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13412,7 +13412,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_5_PARTICIPATION_CARD_E,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague5participationcardEDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13423,7 +13423,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_5_PARTICIPATION_CARD_F,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague5participationcardFDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13434,7 +13434,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_6_PARTICIPATION_CARD_A,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague6participationcardADesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13445,7 +13445,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_6_PARTICIPATION_CARD_B,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague6participationcardBDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13456,7 +13456,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_6_PARTICIPATION_CARD_C,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague6participationcardCDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13467,7 +13467,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_6_PARTICIPATION_CARD_D,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague6participationcardDDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13478,7 +13478,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_6_PARTICIPATION_CARD_E,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague6participationcardEDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13489,7 +13489,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_6_PARTICIPATION_CARD_F,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague6participationcardFDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13500,7 +13500,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_7_PARTICIPATION_CARD_A,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague7participationcardADesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13511,7 +13511,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_7_PARTICIPATION_CARD_B,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague7participationcardBDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13522,7 +13522,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_7_PARTICIPATION_CARD_C,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague7participationcardCDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13533,7 +13533,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_7_PARTICIPATION_CARD_D,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague7participationcardDDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13544,7 +13544,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_7_PARTICIPATION_CARD_E,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague7participationcardEDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13555,7 +13555,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Hobby League "),
         .itemId = ITEM_PACK_HOBBY_LEAGUE_7_PARTICIPATION_CARD_F,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sHobbyLeague7participationcardFDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13566,7 +13566,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Ignition Assa"),
         .itemId = ITEM_PACK_IGNITION_ASSAULT,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sIgnitionAssaultDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13577,7 +13577,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Ignition Assa"),
         .itemId = ITEM_PACK_IGNITION_ASSAULT_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sIgnitionAssaultSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13588,7 +13588,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Ignition Assa"),
         .itemId = ITEM_PACK_IGNITION_ASSAULT_SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sIgnitionAssaultSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13599,7 +13599,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Invasion of C"),
         .itemId = ITEM_PACK_INVASION_OF_CHAOS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sInvasionofChaosDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13610,7 +13610,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Invasion of C"),
         .itemId = ITEM_PACK_INVASION_OF_CHAOS__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sInvasionofChaosSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13621,7 +13621,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Invasion: Ven"),
         .itemId = ITEM_PACK_INVASION__VENGEANCE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sInvasionVengeanceDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13632,7 +13632,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Invasion: Ven"),
         .itemId = ITEM_PACK_INVASION__VENGEANCE_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sInvasionVengeanceSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13643,7 +13643,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Invasion: Ven"),
         .itemId = ITEM_PACK_INVASION__VENGEANCE__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sInvasionVengeanceSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13654,7 +13654,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Judgment of t"),
         .itemId = ITEM_PACK_JUDGMENT_OF_THE_LIGHT,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sJudgmentoftheLightDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13665,7 +13665,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Judgment of t"),
         .itemId = ITEM_PACK_JUDGMENT_OF_THE_LIGHT_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sJudgmentoftheLightSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13676,7 +13676,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Judgment of t"),
         .itemId = ITEM_PACK_JUDGMENT_OF_THE_LIGHT__DELUXE_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sJudgmentoftheLightDeluxeEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13687,7 +13687,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("KC Grand Tour"),
         .itemId = ITEM_PACK_KC_GRAND_TOURNAMENT_2021_PRIZE_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sKCGrandTournament2021prizecardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13698,7 +13698,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("KC Grand Tour"),
         .itemId = ITEM_PACK_KC_GRAND_TOURNAMENT_PRIZE_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sKCGrandTournamentprizecardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13709,7 +13709,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Kids WB Duel "),
         .itemId = ITEM_PACK_KIDS_WB_DUEL_OF_DESTINY_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sKidsWBDuelofDestinypromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13720,7 +13720,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("King's Court"),
         .itemId = ITEM_PACK_KING_S_COURT,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sKingsCourtDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13731,7 +13731,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Labyrinth of "),
         .itemId = ITEM_PACK_LABYRINTH_OF_NIGHTMARE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLabyrinthofNightmareDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13742,7 +13742,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legacy of Dar"),
         .itemId = ITEM_PACK_LEGACY_OF_DARKNESS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegacyofDarknessDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13753,7 +13753,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legacy of Des"),
         .itemId = ITEM_PACK_LEGACY_OF_DESTRUCTION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegacyofDestructionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13764,7 +13764,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legacy of the"),
         .itemId = ITEM_PACK_LEGACY_OF_THE_VALIANT,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegacyoftheValiantDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13775,7 +13775,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legacy of the"),
         .itemId = ITEM_PACK_LEGACY_OF_THE_VALIANT_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegacyoftheValiantSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13786,7 +13786,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legacy of the"),
         .itemId = ITEM_PACK_LEGACY_OF_THE_VALIANT__DELUXE_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegacyoftheValiantDeluxeEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13797,7 +13797,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legend of Blu"),
         .itemId = ITEM_PACK_LEGEND_OF_BLUE_EYES_WHITE_DRAGON,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegendofBlueEyesWhiteDragonDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13808,7 +13808,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legendary Col"),
         .itemId = ITEM_PACK_LEGENDARY_COLLECTION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegendaryCollectionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13819,7 +13819,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legendary Col"),
         .itemId = ITEM_PACK_LEGENDARY_COLLECTION_2__THE_DUEL_ACADEMY_YEARS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegendaryCollection2TheDuelAcademyYearsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13830,7 +13830,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legendary Col"),
         .itemId = ITEM_PACK_LEGENDARY_COLLECTION_2__THE_DUEL_ACADEMY_YEARS_MEGA_PACK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegendaryCollection2TheDuelAcademyYearsMegaPackDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13841,7 +13841,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legendary Col"),
         .itemId = ITEM_PACK_LEGENDARY_COLLECTION_3__YUGI_S_WORLD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegendaryCollection3YugisWorldDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13852,7 +13852,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legendary Col"),
         .itemId = ITEM_PACK_LEGENDARY_COLLECTION_3__YUGI_S_WORLD_MEGA_PACK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegendaryCollection3YugisWorldMegaPackDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13863,7 +13863,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legendary Col"),
         .itemId = ITEM_PACK_LEGENDARY_COLLECTION_4__JOEY_S_WORLD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegendaryCollection4JoeysWorldDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13874,7 +13874,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legendary Col"),
         .itemId = ITEM_PACK_LEGENDARY_COLLECTION_4__JOEY_S_WORLD_MEGA_PACK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegendaryCollection4JoeysWorldMegaPackDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13885,7 +13885,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legendary Col"),
         .itemId = ITEM_PACK_LEGENDARY_COLLECTION_5D_S,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegendaryCollection5DsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13896,7 +13896,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legendary Col"),
         .itemId = ITEM_PACK_LEGENDARY_COLLECTION_5D_S_MEGA_PACK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegendaryCollection5DsMegaPackDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13907,7 +13907,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legendary Col"),
         .itemId = ITEM_PACK_LEGENDARY_COLLECTION_KAIBA,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegendaryCollectionKaibaDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13918,7 +13918,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legendary Col"),
         .itemId = ITEM_PACK_LEGENDARY_COLLECTION_KAIBA_MEGA_PACK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegendaryCollectionKaibaMegaPackDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13929,7 +13929,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legendary Col"),
         .itemId = ITEM_PACK_LEGENDARY_COLLECTION__25TH_ANNIVERSARY_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegendaryCollection25thAnniversaryEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13940,7 +13940,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legendary Dec"),
         .itemId = ITEM_PACK_LEGENDARY_DECKS_II,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegendaryDecksIIDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13951,7 +13951,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legendary Dra"),
         .itemId = ITEM_PACK_LEGENDARY_DRAGON_DECKS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegendaryDragonDecksDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13962,7 +13962,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legendary Due"),
         .itemId = ITEM_PACK_LEGENDARY_DUELISTS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegendaryDuelistsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13973,7 +13973,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legendary Due"),
         .itemId = ITEM_PACK_LEGENDARY_DUELISTS__ANCIENT_MILLENNIUM,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegendaryDuelistsAncientMillenniumDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13984,7 +13984,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legendary Due"),
         .itemId = ITEM_PACK_LEGENDARY_DUELISTS__DUELS_FROM_THE_DEEP,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegendaryDuelistsDuelsFromtheDeepDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -13995,7 +13995,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legendary Due"),
         .itemId = ITEM_PACK_LEGENDARY_DUELISTS__IMMORTAL_DESTINY,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegendaryDuelistsImmortalDestinyDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14006,7 +14006,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legendary Due"),
         .itemId = ITEM_PACK_LEGENDARY_DUELISTS__MAGICAL_HERO,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegendaryDuelistsMagicalHeroDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14017,7 +14017,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legendary Due"),
         .itemId = ITEM_PACK_LEGENDARY_DUELISTS__RAGE_OF_RA,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegendaryDuelistsRageofRaDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14028,7 +14028,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legendary Due"),
         .itemId = ITEM_PACK_LEGENDARY_DUELISTS__SEASON_1,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegendaryDuelistsSeason1Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14039,7 +14039,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legendary Due"),
         .itemId = ITEM_PACK_LEGENDARY_DUELISTS__SEASON_2,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegendaryDuelistsSeason2Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14050,7 +14050,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legendary Due"),
         .itemId = ITEM_PACK_LEGENDARY_DUELISTS__SEASON_3,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegendaryDuelistsSeason3Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14061,7 +14061,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legendary Due"),
         .itemId = ITEM_PACK_LEGENDARY_DUELISTS__SISTERS_OF_THE_ROSE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegendaryDuelistsSistersoftheRoseDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14072,7 +14072,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legendary Due"),
         .itemId = ITEM_PACK_LEGENDARY_DUELISTS__SOULBURNING_VOLCANO,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegendaryDuelistsSoulburningVolcanoDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14083,7 +14083,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legendary Due"),
         .itemId = ITEM_PACK_LEGENDARY_DUELISTS__SYNCHRO_STORM,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegendaryDuelistsSynchroStormDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14094,7 +14094,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legendary Due"),
         .itemId = ITEM_PACK_LEGENDARY_DUELISTS__WHITE_DRAGON_ABYSS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegendaryDuelistsWhiteDragonAbyssDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14105,7 +14105,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Legendary Her"),
         .itemId = ITEM_PACK_LEGENDARY_HERO_DECKS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLegendaryHeroDecksDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14116,7 +14116,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Light and Dar"),
         .itemId = ITEM_PACK_LIGHT_AND_DARKNESS_POWER_PACK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLightandDarknessPowerPackDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14127,7 +14127,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Light of Dest"),
         .itemId = ITEM_PACK_LIGHT_OF_DESTRUCTION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLightofDestructionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14138,7 +14138,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Light of Dest"),
         .itemId = ITEM_PACK_LIGHT_OF_DESTRUCTION_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLightofDestructionSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14149,7 +14149,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Light of Dest"),
         .itemId = ITEM_PACK_LIGHT_OF_DESTRUCTION__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLightofDestructionSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14160,7 +14160,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Lightning Ove"),
         .itemId = ITEM_PACK_LIGHTNING_OVERDRIVE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLightningOverdriveDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14171,7 +14171,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Lightning Ove"),
         .itemId = ITEM_PACK_LIGHTNING_OVERDRIVE_PREMIERE__PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLightningOverdrivePremierepromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14182,7 +14182,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Limited Editi"),
         .itemId = ITEM_PACK_LIMITED_EDITION_1,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLimitedEdition1Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14193,7 +14193,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Lord of the T"),
         .itemId = ITEM_PACK_LORD_OF_THE_TACHYON_GALAXY,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLordoftheTachyonGalaxyDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14204,7 +14204,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Lord of the T"),
         .itemId = ITEM_PACK_LORD_OF_THE_TACHYON_GALAXY_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLordoftheTachyonGalaxySneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14215,7 +14215,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Lost Sanctuar"),
         .itemId = ITEM_PACK_LOST_SANCTUARY_STRUCTURE_DECK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sLostSanctuaryStructureDeckDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14226,7 +14226,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Machina Mayhe"),
         .itemId = ITEM_PACK_MACHINA_MAYHEM_STRUCTURE_DECK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sMachinaMayhemStructureDeckDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14237,7 +14237,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Machine React"),
         .itemId = ITEM_PACK_MACHINE_REACTOR_STRUCTURE_DECK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sMachineReactorStructureDeckDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14248,7 +14248,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Magic Ruler"),
         .itemId = ITEM_PACK_MAGIC_RULER,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sMagicRulerDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14259,7 +14259,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Magician's Fo"),
         .itemId = ITEM_PACK_MAGICIAN_S_FORCE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sMagiciansForceDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14270,7 +14270,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Magnificent M"),
         .itemId = ITEM_PACK_MAGNIFICENT_MAVENS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sMagnificentMavensDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14281,7 +14281,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Make-A-Wish F"),
         .itemId = ITEM_PACK_MAKE_A_WISH_FOUNDATION_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sMakeAWishFoundationpromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14292,7 +14292,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Master Collec"),
         .itemId = ITEM_PACK_MASTER_COLLECTION_VOLUME_1,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sMasterCollectionVolume1Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14303,7 +14303,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Master Collec"),
         .itemId = ITEM_PACK_MASTER_COLLECTION_VOLUME_2,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sMasterCollectionVolume2Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14314,7 +14314,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Master of Pen"),
         .itemId = ITEM_PACK_MASTER_OF_PENDULUM_STRUCTURE_DECK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sMasterofPendulumStructureDeckDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14325,7 +14325,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Mattel Action"),
         .itemId = ITEM_PACK_MATTEL_ACTION_FIGURE_PROMOTIONAL_CARDS__SERIES_1,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sMattelActionFigurepromotionalcardsSeries1Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14336,7 +14336,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Mattel Action"),
         .itemId = ITEM_PACK_MATTEL_ACTION_FIGURE_PROMOTIONAL_CARDS__SERIES_2,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sMattelActionFigurepromotionalcardsSeries2Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14347,7 +14347,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Mattel Action"),
         .itemId = ITEM_PACK_MATTEL_ACTION_FIGURE_PROMOTIONAL_CARDS__SERIES_3,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sMattelActionFigurepromotionalcardsSeries3Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14358,7 +14358,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Maximum Crisi"),
         .itemId = ITEM_PACK_MAXIMUM_CRISIS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sMaximumCrisisDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14369,7 +14369,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Maximum Crisi"),
         .itemId = ITEM_PACK_MAXIMUM_CRISIS_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sMaximumCrisisSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14380,7 +14380,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Maximum Crisi"),
         .itemId = ITEM_PACK_MAXIMUM_CRISIS__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sMaximumCrisisSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14391,7 +14391,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Maximum Gold"),
         .itemId = ITEM_PACK_MAXIMUM_GOLD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sMaximumGoldDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14402,7 +14402,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Maximum Gold:"),
         .itemId = ITEM_PACK_MAXIMUM_GOLD__EL_DORADO,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sMaximumGoldElDoradoDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14413,7 +14413,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Maze of Memor"),
         .itemId = ITEM_PACK_MAZE_OF_MEMORIES,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sMazeofMemoriesDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14424,7 +14424,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Maze of Mille"),
         .itemId = ITEM_PACK_MAZE_OF_MILLENNIA,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sMazeofMillenniaDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14435,7 +14435,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Maze of the M"),
         .itemId = ITEM_PACK_MAZE_OF_THE_MASTER,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sMazeoftheMasterDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14446,7 +14446,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("McDonald's Pr"),
         .itemId = ITEM_PACK_MCDONALD_S_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sMcDonaldsPromotionalCardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14457,7 +14457,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("McDonald's Pr"),
         .itemId = ITEM_PACK_MCDONALD_S_PROMOTIONAL_CARDS_2,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sMcDonaldsPromotionalCards2Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14468,7 +14468,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Metal Raiders"),
         .itemId = ITEM_PACK_METAL_RAIDERS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sMetalRaidersDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14479,7 +14479,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Millennium Pa"),
         .itemId = ITEM_PACK_MILLENNIUM_PACK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sMillenniumPackDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14490,7 +14490,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Movie Pack"),
         .itemId = ITEM_PACK_MOVIE_PACK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sMoviePackDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14501,7 +14501,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Mystic Fighte"),
         .itemId = ITEM_PACK_MYSTIC_FIGHTERS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sMysticFightersDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14512,7 +14512,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Noble Knights"),
         .itemId = ITEM_PACK_NOBLE_KNIGHTS_OF_THE_ROUND_TABLE_BOX_SET,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sNobleKnightsoftheRoundTableBoxSetDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14523,7 +14523,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Noble Knights"),
         .itemId = ITEM_PACK_NOBLE_KNIGHTS_OF_THE_ROUND_TABLE_POWER_UP_PACK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sNobleKnightsoftheRoundTablePowerUpPackDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14534,7 +14534,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Number Hunter"),
         .itemId = ITEM_PACK_NUMBER_HUNTERS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sNumberHuntersDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14545,7 +14545,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_1,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack1Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14556,7 +14556,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_10,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack10Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14567,7 +14567,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_10__POR_,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack10PORDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14578,7 +14578,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_11,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack11Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14589,7 +14589,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_11__POR_,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack11PORDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14600,7 +14600,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_12,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack12Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14611,7 +14611,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_12__POR_,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack12PORDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14622,7 +14622,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_13,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack13Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14633,7 +14633,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_13__POR_,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack13PORDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14644,7 +14644,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_14,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack14Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14655,7 +14655,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_14__POR_,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack14PORDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14666,7 +14666,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_15,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack15Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14677,7 +14677,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_15__POR_,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack15PORDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14688,7 +14688,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_16,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack16Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14699,7 +14699,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_16__POR_,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack16PORDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14710,7 +14710,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_17,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack17Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14721,7 +14721,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_17__POR_,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack17PORDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14732,7 +14732,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_18,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack18Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14743,7 +14743,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_18__POR_,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack18PORDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14754,7 +14754,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_19,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack19Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14765,7 +14765,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_19__POR_,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack19PORDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14776,7 +14776,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_2,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack2Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14787,7 +14787,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_20,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack20Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14798,7 +14798,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_21,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack21Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14809,7 +14809,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_22,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack22Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14820,7 +14820,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_23,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack23Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14831,7 +14831,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_24,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack24Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14842,7 +14842,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_25,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack25Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14853,7 +14853,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_26,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack26Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14864,7 +14864,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_27,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack27Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14875,7 +14875,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_28,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack28Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14886,7 +14886,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_3,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack3Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14897,7 +14897,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_4,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack4Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14908,7 +14908,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_5,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack5Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14919,7 +14919,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_6,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack6Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14930,7 +14930,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_7,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack7Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14941,7 +14941,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_7__POR_,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack7PORDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14952,7 +14952,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_8,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack8Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14963,7 +14963,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_8__POR_,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack8PORDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14974,7 +14974,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_9,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack9Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14985,7 +14985,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("OTS Tournamen"),
         .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_9__POR_,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOTSTournamentPack9PORDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -14996,7 +14996,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Onslaught of "),
         .itemId = ITEM_PACK_ONSLAUGHT_OF_THE_FIRE_KINGS_STRUCTURE_DECK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOnslaughtoftheFireKingsStructureDeckDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15007,7 +15007,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Order of Chao"),
         .itemId = ITEM_PACK_ORDER_OF_CHAOS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOrderofChaosDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15018,7 +15018,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Order of Chao"),
         .itemId = ITEM_PACK_ORDER_OF_CHAOS_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOrderofChaosSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15029,7 +15029,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Order of Chao"),
         .itemId = ITEM_PACK_ORDER_OF_CHAOS__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sOrderofChaosSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15040,7 +15040,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Palladium Ora"),
         .itemId = ITEM_PACK_PALLADIUM_ORACLE_MAHAD_SWEEPSTAKES,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sPalladiumOracleMahadSweepstakesDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15051,7 +15051,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Pendulum Domi"),
         .itemId = ITEM_PACK_PENDULUM_DOMINATION_STRUCTURE_DECK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sPendulumDominationStructureDeckDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15062,7 +15062,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Pendulum Evol"),
         .itemId = ITEM_PACK_PENDULUM_EVOLUTION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sPendulumEvolutionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15073,7 +15073,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Phantom Darkn"),
         .itemId = ITEM_PACK_PHANTOM_DARKNESS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sPhantomDarknessDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15084,7 +15084,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Phantom Darkn"),
         .itemId = ITEM_PACK_PHANTOM_DARKNESS_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sPhantomDarknessSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15095,7 +15095,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Phantom Darkn"),
         .itemId = ITEM_PACK_PHANTOM_DARKNESS__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sPhantomDarknessSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15106,7 +15106,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Phantom Night"),
         .itemId = ITEM_PACK_PHANTOM_NIGHTMARE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sPhantomNightmareDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15117,7 +15117,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Phantom Rage"),
         .itemId = ITEM_PACK_PHANTOM_RAGE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sPhantomRageDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15128,7 +15128,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Phantom Rage "),
         .itemId = ITEM_PACK_PHANTOM_RAGE_PREMIERE__PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sPhantomRagePremierepromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15139,7 +15139,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Pharaoh Tour "),
         .itemId = ITEM_PACK_PHARAOH_TOUR_2005_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sPharaohTour2005promotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15150,7 +15150,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Pharaoh Tour "),
         .itemId = ITEM_PACK_PHARAOH_TOUR_2006_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sPharaohTour2006promotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15161,7 +15161,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Pharaoh Tour "),
         .itemId = ITEM_PACK_PHARAOH_TOUR_2007_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sPharaohTour2007promotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15172,7 +15172,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Pharaoh's Ser"),
         .itemId = ITEM_PACK_PHARAOH_S_SERVANT,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sPharaohsServantDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15183,7 +15183,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Pharaonic Gua"),
         .itemId = ITEM_PACK_PHARAONIC_GUARDIAN,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sPharaonicGuardianDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15194,7 +15194,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Photon Hypern"),
         .itemId = ITEM_PACK_PHOTON_HYPERNOVA,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sPhotonHypernovaDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15205,7 +15205,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Photon Shockw"),
         .itemId = ITEM_PACK_PHOTON_SHOCKWAVE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sPhotonShockwaveDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15216,7 +15216,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Photon Shockw"),
         .itemId = ITEM_PACK_PHOTON_SHOCKWAVE_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sPhotonShockwaveSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15227,7 +15227,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Power of the "),
         .itemId = ITEM_PACK_POWER_OF_THE_DUELIST,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sPoweroftheDuelistDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15238,7 +15238,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Power of the "),
         .itemId = ITEM_PACK_POWER_OF_THE_DUELIST_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sPoweroftheDuelistSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15249,7 +15249,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Power of the "),
         .itemId = ITEM_PACK_POWER_OF_THE_ELEMENTS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sPoweroftheElementsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15260,7 +15260,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Premium Colle"),
         .itemId = ITEM_PACK_PREMIUM_COLLECTION_TIN,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sPremiumCollectionTinDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15271,7 +15271,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Premium Gold"),
         .itemId = ITEM_PACK_PREMIUM_GOLD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sPremiumGoldDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15282,7 +15282,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Premium Gold:"),
         .itemId = ITEM_PACK_PREMIUM_GOLD__INFINITE_GOLD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sPremiumGoldInfiniteGoldDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15293,7 +15293,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Premium Gold:"),
         .itemId = ITEM_PACK_PREMIUM_GOLD__RETURN_OF_THE_BLING,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sPremiumGoldReturnoftheBlingDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15304,7 +15304,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Premium Pack "),
         .itemId = ITEM_PACK_PREMIUM_PACK__TCG_,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sPremiumPackTCGDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15315,7 +15315,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Premium Pack "),
         .itemId = ITEM_PACK_PREMIUM_PACK_2__TCG_,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sPremiumPack2TCGDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15326,7 +15326,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Primal Origin"),
         .itemId = ITEM_PACK_PRIMAL_ORIGIN,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sPrimalOriginDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15337,7 +15337,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Primal Origin"),
         .itemId = ITEM_PACK_PRIMAL_ORIGIN_PLUS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sPrimalOriginPlusDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15348,7 +15348,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Primal Origin"),
         .itemId = ITEM_PACK_PRIMAL_ORIGIN_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sPrimalOriginSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15359,7 +15359,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Primal Origin"),
         .itemId = ITEM_PACK_PRIMAL_ORIGIN__DELUXE_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sPrimalOriginDeluxeEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15370,7 +15370,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Quarter Centu"),
         .itemId = ITEM_PACK_QUARTER_CENTURY_BONANZA,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sQuarterCenturyBonanzaDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15381,7 +15381,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Quarter Centu"),
         .itemId = ITEM_PACK_QUARTER_CENTURY_STAMPEDE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sQuarterCenturyStampedeDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15392,7 +15392,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Ra Yellow Meg"),
         .itemId = ITEM_PACK_RA_YELLOW_MEGA_PACK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sRaYellowMegaPackDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15403,7 +15403,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Ra Yellow Meg"),
         .itemId = ITEM_PACK_RA_YELLOW_MEGA_PACK__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sRaYellowMegaPackSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15414,7 +15414,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Rage of the A"),
         .itemId = ITEM_PACK_RAGE_OF_THE_ABYSS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sRageoftheAbyssDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15425,7 +15425,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Raging Battle"),
         .itemId = ITEM_PACK_RAGING_BATTLE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sRagingBattleDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15436,7 +15436,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Raging Battle"),
         .itemId = ITEM_PACK_RAGING_BATTLE_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sRagingBattleSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15447,7 +15447,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Raging Battle"),
         .itemId = ITEM_PACK_RAGING_BATTLE__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sRagingBattleSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15458,7 +15458,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Raging Tempes"),
         .itemId = ITEM_PACK_RAGING_TEMPEST,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sRagingTempestDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15469,7 +15469,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Raging Tempes"),
         .itemId = ITEM_PACK_RAGING_TEMPEST_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sRagingTempestSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15480,7 +15480,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Raging Tempes"),
         .itemId = ITEM_PACK_RAGING_TEMPEST__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sRagingTempestSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15491,7 +15491,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Realm of Ligh"),
         .itemId = ITEM_PACK_REALM_OF_LIGHT_STRUCTURE_DECK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sRealmofLightStructureDeckDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15502,7 +15502,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Realm of the "),
         .itemId = ITEM_PACK_REALM_OF_THE_SEA_EMPEROR_STRUCTURE_DECK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sRealmoftheSeaEmperorStructureDeckDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15513,7 +15513,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Remote Duel a"),
         .itemId = ITEM_PACK_REMOTE_DUEL_AT_HOME_SWEEPSTAKES,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sRemoteDuelatHomeSweepstakesDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15524,7 +15524,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Retro Pack"),
         .itemId = ITEM_PACK_RETRO_PACK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sRetroPackDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15535,7 +15535,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Retro Pack 2"),
         .itemId = ITEM_PACK_RETRO_PACK_2,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sRetroPack2Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15546,7 +15546,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Return of the"),
         .itemId = ITEM_PACK_RETURN_OF_THE_DUELIST,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sReturnoftheDuelistDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15557,7 +15557,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Return of the"),
         .itemId = ITEM_PACK_RETURN_OF_THE_DUELIST_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sReturnoftheDuelistSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15568,7 +15568,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Return of the"),
         .itemId = ITEM_PACK_RETURN_OF_THE_DUELIST__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sReturnoftheDuelistSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15579,7 +15579,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Rise of Desti"),
         .itemId = ITEM_PACK_RISE_OF_DESTINY,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sRiseofDestinyDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15590,7 +15590,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Rise of Desti"),
         .itemId = ITEM_PACK_RISE_OF_DESTINY__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sRiseofDestinySpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15601,7 +15601,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Rise of the D"),
         .itemId = ITEM_PACK_RISE_OF_THE_DRAGON_LORDS_STRUCTURE_DECK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sRiseoftheDragonLordsStructureDeckDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15612,7 +15612,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Rise of the D"),
         .itemId = ITEM_PACK_RISE_OF_THE_DUELIST,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sRiseoftheDuelistDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15623,7 +15623,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Rise of the D"),
         .itemId = ITEM_PACK_RISE_OF_THE_DUELIST_PREMIERE__PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sRiseoftheDuelistPremierepromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15634,7 +15634,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Rise of the T"),
         .itemId = ITEM_PACK_RISE_OF_THE_TRUE_DRAGONS_STRUCTURE_DECK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sRiseoftheTrueDragonsStructureDeckDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15645,7 +15645,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Rising Rampag"),
         .itemId = ITEM_PACK_RISING_RAMPAGE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sRisingRampageDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15656,7 +15656,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Rising Rampag"),
         .itemId = ITEM_PACK_RISING_RAMPAGE_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sRisingRampageSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15667,7 +15667,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Rising Rampag"),
         .itemId = ITEM_PACK_RISING_RAMPAGE_SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sRisingRampageSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15678,7 +15678,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("SJ Jump Pack "),
         .itemId = ITEM_PACK_SJ_JUMP_PACK_SPRING_2020_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSJJumpPackSpring2020promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15689,7 +15689,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Saber Force S"),
         .itemId = ITEM_PACK_SABER_FORCE_STARTER_DECK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSaberForceStarterDeckDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15700,7 +15700,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Saga of Blue-"),
         .itemId = ITEM_PACK_SAGA_OF_BLUE_EYES_WHITE_DRAGON_STRUCTURE_DECK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSagaofBlueEyesWhiteDragonStructureDeckDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15711,7 +15711,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Samurai Assau"),
         .itemId = ITEM_PACK_SAMURAI_ASSAULT,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSamuraiAssaultDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15722,7 +15722,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Samurai Warlo"),
         .itemId = ITEM_PACK_SAMURAI_WARLORDS_STRUCTURE_DECK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSamuraiWarlordsStructureDeckDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15733,7 +15733,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("San Diego Com"),
         .itemId = ITEM_PACK_SAN_DIEGO_COMIC_CON_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSanDiegoComicConpromotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15744,7 +15744,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Savage Strike"),
         .itemId = ITEM_PACK_SAVAGE_STRIKE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSavageStrikeDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15755,7 +15755,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Savage Strike"),
         .itemId = ITEM_PACK_SAVAGE_STRIKE_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSavageStrikeSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15766,7 +15766,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Savage Strike"),
         .itemId = ITEM_PACK_SAVAGE_STRIKE_SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSavageStrikeSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15777,7 +15777,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Secret Slayer"),
         .itemId = ITEM_PACK_SECRET_SLAYERS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSecretSlayersDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15788,7 +15788,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Secrets of Et"),
         .itemId = ITEM_PACK_SECRETS_OF_ETERNITY,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSecretsofEternityDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15799,7 +15799,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Secrets of Et"),
         .itemId = ITEM_PACK_SECRETS_OF_ETERNITY_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSecretsofEternitySneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15810,7 +15810,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Secrets of Et"),
         .itemId = ITEM_PACK_SECRETS_OF_ETERNITY__SUPER_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSecretsofEternitySuperEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15821,7 +15821,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shadow Specte"),
         .itemId = ITEM_PACK_SHADOW_SPECTERS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShadowSpectersDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15832,7 +15832,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shadow Specte"),
         .itemId = ITEM_PACK_SHADOW_SPECTERS_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShadowSpectersSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15843,7 +15843,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shadow Specte"),
         .itemId = ITEM_PACK_SHADOW_SPECTERS__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShadowSpectersSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15854,7 +15854,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shadow of Inf"),
         .itemId = ITEM_PACK_SHADOW_OF_INFINITY,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShadowofInfinityDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15865,7 +15865,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shadow of Inf"),
         .itemId = ITEM_PACK_SHADOW_OF_INFINITY_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShadowofInfinitySneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15876,7 +15876,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shadow of Inf"),
         .itemId = ITEM_PACK_SHADOW_OF_INFINITY__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShadowofInfinitySpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15887,7 +15887,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shadows in Va"),
         .itemId = ITEM_PACK_SHADOWS_IN_VALHALLA,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShadowsinValhallaDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15898,7 +15898,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shining Victo"),
         .itemId = ITEM_PACK_SHINING_VICTORIES,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShiningVictoriesDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15909,7 +15909,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shining Victo"),
         .itemId = ITEM_PACK_SHINING_VICTORIES_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShiningVictoriesSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15920,7 +15920,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shining Victo"),
         .itemId = ITEM_PACK_SHINING_VICTORIES__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShiningVictoriesSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15931,7 +15931,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump 2"),
         .itemId = ITEM_PACK_SHONEN_JUMP_2007_SUBSCRIPTION_BONUS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJump2007subscriptionbonusDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15942,7 +15942,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump C"),
         .itemId = ITEM_PACK_SHONEN_JUMP_CHAMPIONSHIP_2004_PRIZE_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpChampionship2004PrizeCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15953,7 +15953,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump C"),
         .itemId = ITEM_PACK_SHONEN_JUMP_CHAMPIONSHIP_2005_PRIZE_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpChampionship2005PrizeCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15964,7 +15964,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump C"),
         .itemId = ITEM_PACK_SHONEN_JUMP_CHAMPIONSHIP_2006_PRIZE_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpChampionship2006PrizeCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15975,7 +15975,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump C"),
         .itemId = ITEM_PACK_SHONEN_JUMP_CHAMPIONSHIP_2007_PRIZE_CARD_A,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpChampionship2007PrizeCardADesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15986,7 +15986,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump C"),
         .itemId = ITEM_PACK_SHONEN_JUMP_CHAMPIONSHIP_2007_PRIZE_CARD_B,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpChampionship2007PrizeCardBDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -15997,7 +15997,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump C"),
         .itemId = ITEM_PACK_SHONEN_JUMP_CHAMPIONSHIP_2008_PRIZE_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpChampionship2008PrizeCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16008,7 +16008,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump C"),
         .itemId = ITEM_PACK_SHONEN_JUMP_CHAMPIONSHIP_2009_PRIZE_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpChampionship2009PrizeCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16019,7 +16019,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump D"),
         .itemId = ITEM_PACK_SHONEN_JUMP_DECEMBER_2010_SUBSCRIPTION_BONUS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpDecember2010subscriptionbonusDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16030,7 +16030,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump D"),
         .itemId = ITEM_PACK_SHONEN_JUMP_DECEMBER_2011_SUBSCRIPTION_BONUS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpDecember2011subscriptionbonusDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16041,7 +16041,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump F"),
         .itemId = ITEM_PACK_SHONEN_JUMP_FEBRUARY_2009_SUBSCRIPTION_BONUS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpFebruary2009subscriptionbonusDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16052,7 +16052,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump J"),
         .itemId = ITEM_PACK_SHONEN_JUMP_JUNE_JULY_2011_SUBSCRIPTION_BONUS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpJuneJuly2011subscriptionbonusDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16063,7 +16063,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump M"),
         .itemId = ITEM_PACK_SHONEN_JUMP_MARCH_2010_SUBSCRIPTION_BONUS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpMarch2010subscriptionbonusDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16074,7 +16074,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump M"),
         .itemId = ITEM_PACK_SHONEN_JUMP_MAY_2006_SUBSCRIPTION_BONUS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpMay2006subscriptionbonusDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16085,7 +16085,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump M"),
         .itemId = ITEM_PACK_SHONEN_JUMP_MAY_2008_SUBSCRIPTION_BONUS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpMay2008subscriptionbonusDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16096,7 +16096,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump M"),
         .itemId = ITEM_PACK_SHONEN_JUMP_MAY_2010_SUBSCRIPTION_BONUS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpMay2010subscriptionbonusDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16107,7 +16107,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump S"),
         .itemId = ITEM_PACK_SHONEN_JUMP_SCHOLASTIC_EDITION_VOL__9__ISSUE_1_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpScholasticEditionVol9Issue1promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16118,7 +16118,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__1__ISSUE_1_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol1Issue1promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16129,7 +16129,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__10__ISSUE_1_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol10Issue1promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16140,7 +16140,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__10__ISSUE_3_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol10Issue3promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16151,7 +16151,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__10__ISSUE_4_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol10Issue4promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16162,7 +16162,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__2__ISSUE_1_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol2Issue1promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16173,7 +16173,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__3__ISSUE_1_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol3Issue1promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16184,7 +16184,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__4__ISSUE_1_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol4Issue1promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16195,7 +16195,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__4__ISSUE_11_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol4Issue11promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16206,7 +16206,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__4__ISSUE_12_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol4Issue12promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16217,7 +16217,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__5__ISSUE_1_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol5Issue1promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16228,7 +16228,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__5__ISSUE_11_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol5Issue11promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16239,7 +16239,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__5__ISSUE_4_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol5Issue4promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16250,7 +16250,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__5__ISSUE_6_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol5Issue6promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16261,7 +16261,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__5__ISSUE_9_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol5Issue9promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16272,7 +16272,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__6__ISSUE_1_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol6Issue1promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16283,7 +16283,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__6__ISSUE_12_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol6Issue12promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16294,7 +16294,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__6__ISSUE_3_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol6Issue3promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16305,7 +16305,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__6__ISSUE_5_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol6Issue5promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16316,7 +16316,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__6__ISSUE_9_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol6Issue9promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16327,7 +16327,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__7__ISSUE_1_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol7Issue1promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16338,7 +16338,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__7__ISSUE_11_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol7Issue11promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16349,7 +16349,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__7__ISSUE_3_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol7Issue3promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16360,7 +16360,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__7__ISSUE_6_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol7Issue6promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16371,7 +16371,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__7__ISSUE_9_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol7Issue9promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16382,7 +16382,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__8__ISSUE_1_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol8Issue1promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16393,7 +16393,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__8__ISSUE_11_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol8Issue11promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16404,7 +16404,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__8__ISSUE_3_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol8Issue3promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16415,7 +16415,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__8__ISSUE_5_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol8Issue5promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16426,7 +16426,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__8__ISSUE_7_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol8Issue7promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16437,7 +16437,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__8__ISSUE_9_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol8Issue9promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16448,7 +16448,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__9__ISSUE_1_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol9Issue1promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16459,7 +16459,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__9__ISSUE_10_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol9Issue10promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16470,7 +16470,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__9__ISSUE_3_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol9Issue3promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16481,7 +16481,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__9__ISSUE_4_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol9Issue4promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16492,7 +16492,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__9__ISSUE_6_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol9Issue6promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16503,7 +16503,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Shonen Jump V"),
         .itemId = ITEM_PACK_SHONEN_JUMP_VOL__9__ISSUE_8_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sShonenJumpVol9Issue8promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16514,7 +16514,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Soul Fusion"),
         .itemId = ITEM_PACK_SOUL_FUSION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSoulFusionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16525,7 +16525,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Soul Fusion S"),
         .itemId = ITEM_PACK_SOUL_FUSION_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSoulFusionSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16536,7 +16536,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Soul Fusion S"),
         .itemId = ITEM_PACK_SOUL_FUSION_SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSoulFusionSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16547,7 +16547,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Soul of the D"),
         .itemId = ITEM_PACK_SOUL_OF_THE_DUELIST,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSouloftheDuelistDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16558,7 +16558,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Space-Time Sh"),
         .itemId = ITEM_PACK_SPACE_TIME_SHOWDOWN_POWER_UP_PACK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSpaceTimeShowdownPowerUpPackDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16569,7 +16569,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Speed Duel De"),
         .itemId = ITEM_PACK_SPEED_DUEL_DEMO_DECK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSpeedDuelDemoDeckDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16580,7 +16580,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Speed Duel De"),
         .itemId = ITEM_PACK_SPEED_DUEL_DEMO_DECK_2020,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSpeedDuelDemoDeck2020Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16591,7 +16591,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Speed Duel GX"),
         .itemId = ITEM_PACK_SPEED_DUEL_GX__DUEL_ACADEMY_BOX,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSpeedDuelGXDuelAcademyBoxDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16602,7 +16602,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Speed Duel GX"),
         .itemId = ITEM_PACK_SPEED_DUEL_GX__DUELISTS_OF_SHADOWS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSpeedDuelGXDuelistsofShadowsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16613,7 +16613,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Speed Duel GX"),
         .itemId = ITEM_PACK_SPEED_DUEL_GX__MIDTERM_PARADOX,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSpeedDuelGXMidtermParadoxDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16624,7 +16624,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Speed Duel St"),
         .itemId = ITEM_PACK_SPEED_DUEL_STARTER_DECKS__DESTINY_MASTERS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSpeedDuelStarterDecksDestinyMastersDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16635,7 +16635,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Speed Duel St"),
         .itemId = ITEM_PACK_SPEED_DUEL_STARTER_DECKS__DUELISTS_OF_TOMORROW,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSpeedDuelStarterDecksDuelistsofTomorrowDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16646,7 +16646,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Speed Duel St"),
         .itemId = ITEM_PACK_SPEED_DUEL_STARTER_DECKS__MATCH_OF_THE_MILLENNIUM,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSpeedDuelStarterDecksMatchoftheMillenniumDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16657,7 +16657,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Speed Duel St"),
         .itemId = ITEM_PACK_SPEED_DUEL_STARTER_DECKS__TWISTED_NIGHTMARES,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSpeedDuelStarterDecksTwistedNightmaresDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16668,7 +16668,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Speed Duel St"),
         .itemId = ITEM_PACK_SPEED_DUEL_STARTER_DECKS__ULTIMATE_PREDATORS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSpeedDuelStarterDecksUltimatePredatorsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16679,7 +16679,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Speed Duel To"),
         .itemId = ITEM_PACK_SPEED_DUEL_TOURNAMENT_PACK_1,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSpeedDuelTournamentPack1Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16690,7 +16690,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Speed Duel To"),
         .itemId = ITEM_PACK_SPEED_DUEL_TOURNAMENT_PACK_2,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSpeedDuelTournamentPack2Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16701,7 +16701,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Speed Duel To"),
         .itemId = ITEM_PACK_SPEED_DUEL_TOURNAMENT_PACK_3,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSpeedDuelTournamentPack3Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16712,7 +16712,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Speed Duel To"),
         .itemId = ITEM_PACK_SPEED_DUEL_TOURNAMENT_PACK_4,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSpeedDuelTournamentPack4Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16723,7 +16723,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Speed Duel To"),
         .itemId = ITEM_PACK_SPEED_DUEL_TOURNAMENT_PACK_5,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSpeedDuelTournamentPack5Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16734,7 +16734,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Speed Duel To"),
         .itemId = ITEM_PACK_SPEED_DUEL_TOURNAMENT_PACK_6,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSpeedDuelTournamentPack6Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16745,7 +16745,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Speed Duel: A"),
         .itemId = ITEM_PACK_SPEED_DUEL__ARENA_OF_LOST_SOULS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSpeedDuelArenaofLostSoulsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16756,7 +16756,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Speed Duel: A"),
         .itemId = ITEM_PACK_SPEED_DUEL__ATTACK_FROM_THE_DEEP,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSpeedDuelAttackfromtheDeepDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16767,7 +16767,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Speed Duel: B"),
         .itemId = ITEM_PACK_SPEED_DUEL__BATTLE_CITY_BOX,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSpeedDuelBattleCityBoxDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16778,7 +16778,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Speed Duel: S"),
         .itemId = ITEM_PACK_SPEED_DUEL__SCARS_OF_BATTLE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSpeedDuelScarsofBattleDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16789,7 +16789,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Speed Duel: S"),
         .itemId = ITEM_PACK_SPEED_DUEL__SCARS_OF_BATTLE_LAUNCH_EVENT_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSpeedDuelScarsofBattleLaunchEventparticipationcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16800,7 +16800,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Speed Duel: S"),
         .itemId = ITEM_PACK_SPEED_DUEL__STREETS_OF_BATTLE_CITY,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSpeedDuelStreetsofBattleCityDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16811,7 +16811,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Speed Duel: T"),
         .itemId = ITEM_PACK_SPEED_DUEL__TRIALS_OF_THE_KINGDOM,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSpeedDuelTrialsoftheKingdomDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16822,7 +16822,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Speed Duel: T"),
         .itemId = ITEM_PACK_SPEED_DUEL__TRIALS_OF_THE_KINGDOM_SNEAK_PEEK_PARTICIPATION_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSpeedDuelTrialsoftheKingdomSneakPeekparticipationcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16833,7 +16833,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Spell Ruler"),
         .itemId = ITEM_PACK_SPELL_RULER,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSpellRulerDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16844,7 +16844,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Spellcaster's"),
         .itemId = ITEM_PACK_SPELLCASTER_S_COMMAND_STRUCTURE_DECK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSpellcastersCommandStructureDeckDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16855,7 +16855,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Spellcaster's"),
         .itemId = ITEM_PACK_SPELLCASTER_S_COMMAND_STRUCTURE_DECK__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSpellcastersCommandStructureDeckSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16866,7 +16866,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Spirit Warrio"),
         .itemId = ITEM_PACK_SPIRIT_WARRIORS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSpiritWarriorsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16877,7 +16877,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Star Pack 201"),
         .itemId = ITEM_PACK_STAR_PACK_2013,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStarPack2013Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16888,7 +16888,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Star Pack 201"),
         .itemId = ITEM_PACK_STAR_PACK_2014,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStarPack2014Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16899,7 +16899,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Star Pack ARC"),
         .itemId = ITEM_PACK_STAR_PACK_ARC_V,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStarPackARCVDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16910,7 +16910,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Star Pack Bat"),
         .itemId = ITEM_PACK_STAR_PACK_BATTLE_ROYAL,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStarPackBattleRoyalDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16921,7 +16921,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Star Pack VRA"),
         .itemId = ITEM_PACK_STAR_PACK_VRAINS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStarPackVRAINSDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16932,7 +16932,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Stardust Over"),
         .itemId = ITEM_PACK_STARDUST_OVERDRIVE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStardustOverdriveDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16943,7 +16943,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Stardust Over"),
         .itemId = ITEM_PACK_STARDUST_OVERDRIVE_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStardustOverdriveSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16954,7 +16954,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Stardust Over"),
         .itemId = ITEM_PACK_STARDUST_OVERDRIVE__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStardustOverdriveSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16965,7 +16965,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Starstrike Bl"),
         .itemId = ITEM_PACK_STARSTRIKE_BLAST,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStarstrikeBlastDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16976,7 +16976,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Starstrike Bl"),
         .itemId = ITEM_PACK_STARSTRIKE_BLAST_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStarstrikeBlastSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16987,7 +16987,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Starter Deck "),
         .itemId = ITEM_PACK_STARTER_DECK_2006,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStarterDeck2006Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -16998,7 +16998,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Starter Deck "),
         .itemId = ITEM_PACK_STARTER_DECK_2006__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStarterDeck2006SpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17009,7 +17009,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Starter Deck:"),
         .itemId = ITEM_PACK_STARTER_DECK__CODEBREAKER,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStarterDeckCodebreakerDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17020,7 +17020,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Starter Deck:"),
         .itemId = ITEM_PACK_STARTER_DECK__DAWN_OF_THE_XYZ,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStarterDeckDawnoftheXyzDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17031,7 +17031,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Starter Deck:"),
         .itemId = ITEM_PACK_STARTER_DECK__DUELIST_TOOLBOX,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStarterDeckDuelistToolboxDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17042,7 +17042,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Starter Deck:"),
         .itemId = ITEM_PACK_STARTER_DECK__JADEN_YUKI,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStarterDeckJadenYukiDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17053,7 +17053,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Starter Deck:"),
         .itemId = ITEM_PACK_STARTER_DECK__JOEY,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStarterDeckJoeyDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17064,7 +17064,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Starter Deck:"),
         .itemId = ITEM_PACK_STARTER_DECK__KAIBA,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStarterDeckKaibaDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17075,7 +17075,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Starter Deck:"),
         .itemId = ITEM_PACK_STARTER_DECK__KAIBA_EVOLUTION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStarterDeckKaibaEvolutionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17086,7 +17086,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Starter Deck:"),
         .itemId = ITEM_PACK_STARTER_DECK__KAIBA_RELOADED,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStarterDeckKaibaReloadedDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17097,7 +17097,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Starter Deck:"),
         .itemId = ITEM_PACK_STARTER_DECK__LINK_STRIKE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStarterDeckLinkStrikeDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17108,7 +17108,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Starter Deck:"),
         .itemId = ITEM_PACK_STARTER_DECK__PEGASUS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStarterDeckPegasusDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17119,7 +17119,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Starter Deck:"),
         .itemId = ITEM_PACK_STARTER_DECK__SYRUS_TRUESDALE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStarterDeckSyrusTruesdaleDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17130,7 +17130,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Starter Deck:"),
         .itemId = ITEM_PACK_STARTER_DECK__XYZ_SYMPHONY,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStarterDeckXyzSymphonyDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17141,7 +17141,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Starter Deck:"),
         .itemId = ITEM_PACK_STARTER_DECK__YU_GI_OH__5D_S,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStarterDeckYuGiOh5DsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17152,7 +17152,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Starter Deck:"),
         .itemId = ITEM_PACK_STARTER_DECK__YU_GI_OH__5D_S_2009,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStarterDeckYuGiOh5Ds2009Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17163,7 +17163,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Starter Deck:"),
         .itemId = ITEM_PACK_STARTER_DECK__YUGI,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStarterDeckYugiDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17174,7 +17174,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Starter Deck:"),
         .itemId = ITEM_PACK_STARTER_DECK__YUGI_EVOLUTION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStarterDeckYugiEvolutionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17185,7 +17185,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Starter Deck:"),
         .itemId = ITEM_PACK_STARTER_DECK__YUGI_RELOADED,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStarterDeckYugiReloadedDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17196,7 +17196,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Starter Deck:"),
         .itemId = ITEM_PACK_STARTER_DECK__YUYA,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStarterDeckYuyaDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17207,7 +17207,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Storm of Ragn"),
         .itemId = ITEM_PACK_STORM_OF_RAGNAROK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStormofRagnarokDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17218,7 +17218,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Storm of Ragn"),
         .itemId = ITEM_PACK_STORM_OF_RAGNAROK_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStormofRagnarokSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17229,7 +17229,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Storm of Ragn"),
         .itemId = ITEM_PACK_STORM_OF_RAGNAROK__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStormofRagnarokSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17240,7 +17240,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Strike of Neo"),
         .itemId = ITEM_PACK_STRIKE_OF_NEOS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStrikeofNeosDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17251,7 +17251,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Strike of Neo"),
         .itemId = ITEM_PACK_STRIKE_OF_NEOS_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStrikeofNeosSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17262,7 +17262,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Strike of Neo"),
         .itemId = ITEM_PACK_STRIKE_OF_NEOS__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStrikeofNeosSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17273,7 +17273,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__ALBAZ_STRIKE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckAlbazStrikeDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17284,7 +17284,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__BEWARE_OF_TRAPTRIX,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckBewareofTraptrixDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17295,7 +17295,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__BLAZE_OF_DESTRUCTION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckBlazeofDestructionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17306,7 +17306,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__BLUE_EYES_WHITE_DESTINY,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckBlueEyesWhiteDestinyDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17317,7 +17317,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__CYBER_STRIKE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckCyberStrikeDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17328,7 +17328,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__CYBERSE_LINK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckCyberseLinkDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17339,7 +17339,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__DARK_WORLD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckDarkWorldDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17350,7 +17350,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__DELUXE_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckDeluxeEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17361,7 +17361,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__DINOSAUR_S_RAGE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckDinosaursRageDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17372,7 +17372,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__DINOSAUR_S_RAGE_SPECIAL_SET,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckDinosaursRageSpecialSetDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17383,7 +17383,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__DRAGON_S_ROAR,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckDragonsRoarDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17394,7 +17394,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__FIRE_KINGS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckFireKingsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17405,7 +17405,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__FREEZING_CHAINS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckFreezingChainsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17416,7 +17416,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__FURY_FROM_THE_DEEP,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckFuryfromtheDeepDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17427,7 +17427,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__INVINCIBLE_FORTRESS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckInvincibleFortressDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17438,7 +17438,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__LAIR_OF_DARKNESS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckLairofDarknessDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17449,7 +17449,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__LEGEND_OF_THE_CRYSTAL_BEASTS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckLegendoftheCrystalBeastsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17460,7 +17460,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__LORD_OF_THE_STORM,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckLordoftheStormDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17471,7 +17471,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__MACHINE_RE_VOLT,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckMachineReVoltDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17482,7 +17482,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__MARIK__TCG_,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckMarikTCGDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17493,7 +17493,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__MECHANIZED_MADNESS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckMechanizedMadnessDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17504,7 +17504,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__ORDER_OF_THE_SPELLCASTERS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckOrderoftheSpellcastersDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17515,7 +17515,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__POWERCODE_LINK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckPowercodeLinkDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17526,7 +17526,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__ROKKET_REVOLT,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckRokketRevoltDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17537,7 +17537,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__SACRED_BEASTS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckSacredBeastsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17548,7 +17548,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__SETO_KAIBA,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckSetoKaibaDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17559,7 +17559,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__SHADDOLL_SHOWDOWN,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckShaddollShowdownDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17570,7 +17570,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__SOULBURNER,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckSoulburnerDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17581,7 +17581,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__SPELLCASTER_S_JUDGMENT,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckSpellcastersJudgmentDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17592,7 +17592,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__SPIRIT_CHARMERS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckSpiritCharmersDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17603,7 +17603,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__THE_CRIMSON_KING,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckTheCrimsonKingDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17614,7 +17614,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__WARRIOR_S_TRIUMPH,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckWarriorsTriumphDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17625,7 +17625,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__WAVE_OF_LIGHT,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckWaveofLightDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17636,7 +17636,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__YUGI_MUTO,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckYugiMutoDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17647,7 +17647,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__ZOMBIE_HORDE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckZombieHordeDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17658,7 +17658,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Structure Dec"),
         .itemId = ITEM_PACK_STRUCTURE_DECK__ZOMBIE_MADNESS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sStructureDeckZombieMadnessDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17669,7 +17669,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Summoned Skul"),
         .itemId = ITEM_PACK_SUMMONED_SKULL_SAMPLE_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSummonedSkullSamplepromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17680,7 +17680,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Super Starter"),
         .itemId = ITEM_PACK_SUPER_STARTER_POWER_UP_PACK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSuperStarterPowerUpPackDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17691,7 +17691,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Super Starter"),
         .itemId = ITEM_PACK_SUPER_STARTER__SPACE_TIME_SHOWDOWN,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSuperStarterSpaceTimeShowdownDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17702,7 +17702,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Super Starter"),
         .itemId = ITEM_PACK_SUPER_STARTER__V_FOR_VICTORY,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSuperStarterVforVictoryDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17713,7 +17713,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Supreme Darkn"),
         .itemId = ITEM_PACK_SUPREME_DARKNESS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSupremeDarknessDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17724,7 +17724,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Swedish Shone"),
         .itemId = ITEM_PACK_SWEDISH_SHONEN_JUMP_2004__ISSUE_2_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSwedishShonenJump2004Issue2promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17735,7 +17735,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Swedish Shone"),
         .itemId = ITEM_PACK_SWEDISH_SHONEN_JUMP_2005__ISSUE_12_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSwedishShonenJump2005Issue12promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17746,7 +17746,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Synchron Extr"),
         .itemId = ITEM_PACK_SYNCHRON_EXTREME_STRUCTURE_DECK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sSynchronExtremeStructureDeckDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17757,7 +17757,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Tactical Evol"),
         .itemId = ITEM_PACK_TACTICAL_EVOLUTION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTacticalEvolutionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17768,7 +17768,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Tactical Evol"),
         .itemId = ITEM_PACK_TACTICAL_EVOLUTION_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTacticalEvolutionSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17779,7 +17779,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Tactical Evol"),
         .itemId = ITEM_PACK_TACTICAL_EVOLUTION__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTacticalEvolutionSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17790,7 +17790,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Tactical Mast"),
         .itemId = ITEM_PACK_TACTICAL_MASTERS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTacticalMastersDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17801,7 +17801,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Dark Empe"),
         .itemId = ITEM_PACK_THE_DARK_EMPEROR_STRUCTURE_DECK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheDarkEmperorStructureDeckDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17812,7 +17812,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Dark Illu"),
         .itemId = ITEM_PACK_THE_DARK_ILLUSION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheDarkIllusionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17823,7 +17823,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Dark Illu"),
         .itemId = ITEM_PACK_THE_DARK_ILLUSION_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheDarkIllusionSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17834,7 +17834,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Dark Illu"),
         .itemId = ITEM_PACK_THE_DARK_ILLUSION__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheDarkIllusionSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17845,7 +17845,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Duelist G"),
         .itemId = ITEM_PACK_THE_DUELIST_GENESIS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheDuelistGenesisDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17856,7 +17856,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Duelist G"),
         .itemId = ITEM_PACK_THE_DUELIST_GENESIS_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheDuelistGenesisSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17867,7 +17867,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Duelist G"),
         .itemId = ITEM_PACK_THE_DUELIST_GENESIS__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheDuelistGenesisSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17878,7 +17878,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Grand Cre"),
         .itemId = ITEM_PACK_THE_GRAND_CREATORS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheGrandCreatorsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17889,7 +17889,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Infinite "),
         .itemId = ITEM_PACK_THE_INFINITE_FORBIDDEN,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheInfiniteForbiddenDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17900,7 +17900,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Infinity "),
         .itemId = ITEM_PACK_THE_INFINITY_CHASERS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheInfinityChasersDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17911,7 +17911,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION__SERIES_,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotionseriesDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17922,7 +17922,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2020_D,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2020DDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17933,7 +17933,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2020_E,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2020EDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17944,7 +17944,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2020_F,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2020FDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17955,7 +17955,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2020_G,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2020GDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17966,7 +17966,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2020_H,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2020HDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17977,7 +17977,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2020_I,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2020IDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17988,7 +17988,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2020_J,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2020JDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -17999,7 +17999,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2020_K,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2020KDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18010,7 +18010,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2020_L,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2020LDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18021,7 +18021,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2020_M,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2020MDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18032,7 +18032,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2020_N,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2020NDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18043,7 +18043,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2020_O,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2020ODesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18054,7 +18054,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2020_P,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2020PDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18065,7 +18065,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2020_Q,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2020QDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18076,7 +18076,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2020_R,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2020RDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18087,7 +18087,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2021_A,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2021ADesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18098,7 +18098,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2021_B,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2021BDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18109,7 +18109,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2021_C,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2021CDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18120,7 +18120,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2021_D,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2021DDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18131,7 +18131,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2021_E,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2021EDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18142,7 +18142,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2021_F,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2021FDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18153,7 +18153,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2021_G,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2021GDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18164,7 +18164,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2021_H,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2021HDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18175,7 +18175,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2021_I,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2021IDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18186,7 +18186,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2021_J,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2021JDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18197,7 +18197,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2021_K,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2021KDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18208,7 +18208,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2021_L,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2021LDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18219,7 +18219,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2022,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2022Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18230,7 +18230,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2022_G,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2022GDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18241,7 +18241,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2022_K,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2022KDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18252,7 +18252,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2023,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2023Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18263,7 +18263,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2023_E,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2023EDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18274,7 +18274,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2023_F,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2023FDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18285,7 +18285,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2023_G,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2023GDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18296,7 +18296,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2023_H,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2023HDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18307,7 +18307,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2023_I,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2023IDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18318,7 +18318,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2024,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2024Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18329,7 +18329,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2024_A,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2024ADesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18340,7 +18340,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2024_B,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2024BDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18351,7 +18351,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2024_C,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2024CDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18362,7 +18362,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2024_H,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotion2024HDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18373,7 +18373,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_A,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotionADesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18384,7 +18384,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_B,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotionBDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18395,7 +18395,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_C,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotionCDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18406,7 +18406,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_D,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotionDDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18417,7 +18417,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_E,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotionEDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18428,7 +18428,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_F,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotionFDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18439,7 +18439,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_G,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotionGDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18450,7 +18450,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_H,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotionHDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18461,7 +18461,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_I,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotionIDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18472,7 +18472,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_J,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotionJDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18483,7 +18483,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_K,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotionKDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18494,7 +18494,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_L,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotionLDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18505,7 +18505,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_M,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotionMDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18516,7 +18516,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_N,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotionNDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18527,7 +18527,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Art "),
         .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_O,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostArtPromotionODesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18538,7 +18538,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Mill"),
         .itemId = ITEM_PACK_THE_LOST_MILLENNIUM,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostMillenniumDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18549,7 +18549,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Mill"),
         .itemId = ITEM_PACK_THE_LOST_MILLENNIUM_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostMillenniumSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18560,7 +18560,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Lost Mill"),
         .itemId = ITEM_PACK_THE_LOST_MILLENNIUM__SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheLostMillenniumSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18571,7 +18571,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The New Chall"),
         .itemId = ITEM_PACK_THE_NEW_CHALLENGERS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheNewChallengersDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18582,7 +18582,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The New Chall"),
         .itemId = ITEM_PACK_THE_NEW_CHALLENGERS_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheNewChallengersSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18593,7 +18593,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The New Chall"),
         .itemId = ITEM_PACK_THE_NEW_CHALLENGERS__SUPER_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheNewChallengersSuperEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18604,7 +18604,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Pot Colle"),
         .itemId = ITEM_PACK_THE_POT_COLLECTION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sThePotCollectionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18615,7 +18615,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Secret Fo"),
         .itemId = ITEM_PACK_THE_SECRET_FORCES,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheSecretForcesDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18626,7 +18626,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Shining D"),
         .itemId = ITEM_PACK_THE_SHINING_DARKNESS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheShiningDarknessDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18637,7 +18637,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("The Shining D"),
         .itemId = ITEM_PACK_THE_SHINING_DARKNESS_SNEAK_PEEK_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTheShiningDarknessSneakPeekParticipationCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18648,7 +18648,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Toon Chaos"),
         .itemId = ITEM_PACK_TOON_CHAOS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sToonChaosDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18659,7 +18659,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Tournament Pa"),
         .itemId = ITEM_PACK_TOURNAMENT_PACK_4,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTournamentPack4Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18670,7 +18670,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Tournament Pa"),
         .itemId = ITEM_PACK_TOURNAMENT_PACK_5,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTournamentPack5Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18681,7 +18681,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Tournament Pa"),
         .itemId = ITEM_PACK_TOURNAMENT_PACK_6,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTournamentPack6Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18692,7 +18692,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Tournament Pa"),
         .itemId = ITEM_PACK_TOURNAMENT_PACK_7,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTournamentPack7Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18703,7 +18703,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Tournament Pa"),
         .itemId = ITEM_PACK_TOURNAMENT_PACK_8,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTournamentPack8Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18714,7 +18714,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Tournament Pa"),
         .itemId = ITEM_PACK_TOURNAMENT_PACK__1ST_SEASON,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTournamentPack1stSeasonDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18725,7 +18725,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Tournament Pa"),
         .itemId = ITEM_PACK_TOURNAMENT_PACK__2ND_SEASON,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTournamentPack2ndSeasonDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18736,7 +18736,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Tournament Pa"),
         .itemId = ITEM_PACK_TOURNAMENT_PACK__3RD_SEASON,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTournamentPack3rdSeasonDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18747,7 +18747,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Trials of the"),
         .itemId = ITEM_PACK_TRIALS_OF_THE_PHARAOH___MATCH_OF_THE_MILLENNIUM___TWISTED_NIGHTMARES_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTrialsofthePharaohMatchoftheMillenniumTwistedNightmarespromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18758,7 +18758,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Trials of the"),
         .itemId = ITEM_PACK_TRIALS_OF_THE_PHARAOH___SPEED_DUEL__BATTLE_CITY_BOX_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTrialsofthePharaohSpeedDuelBattleCityBoxpromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18769,7 +18769,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Trials of the"),
         .itemId = ITEM_PACK_TRIALS_OF_THE_PHARAOH___TRIALS_OF_THE_KINGDOM_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTrialsofthePharaohTrialsoftheKingdompromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18780,7 +18780,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Turbo Pack: B"),
         .itemId = ITEM_PACK_TURBO_PACK__BOOSTER_EIGHT,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTurboPackBoosterEightDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18791,7 +18791,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Turbo Pack: B"),
         .itemId = ITEM_PACK_TURBO_PACK__BOOSTER_FIVE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTurboPackBoosterFiveDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18802,7 +18802,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Turbo Pack: B"),
         .itemId = ITEM_PACK_TURBO_PACK__BOOSTER_FOUR,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTurboPackBoosterFourDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18813,7 +18813,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Turbo Pack: B"),
         .itemId = ITEM_PACK_TURBO_PACK__BOOSTER_ONE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTurboPackBoosterOneDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18824,7 +18824,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Turbo Pack: B"),
         .itemId = ITEM_PACK_TURBO_PACK__BOOSTER_SEVEN,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTurboPackBoosterSevenDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18835,7 +18835,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Turbo Pack: B"),
         .itemId = ITEM_PACK_TURBO_PACK__BOOSTER_SIX,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTurboPackBoosterSixDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18846,7 +18846,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Turbo Pack: B"),
         .itemId = ITEM_PACK_TURBO_PACK__BOOSTER_THREE,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTurboPackBoosterThreeDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18857,7 +18857,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Turbo Pack: B"),
         .itemId = ITEM_PACK_TURBO_PACK__BOOSTER_TWO,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTurboPackBoosterTwoDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18868,7 +18868,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Twilight Edit"),
         .itemId = ITEM_PACK_TWILIGHT_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sTwilightEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18879,7 +18879,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Ultimate Edit"),
         .itemId = ITEM_PACK_ULTIMATE_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sUltimateEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18890,7 +18890,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Ultimate Edit"),
         .itemId = ITEM_PACK_ULTIMATE_EDITION_2,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sUltimateEdition2Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18901,7 +18901,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Valiant Smash"),
         .itemId = ITEM_PACK_VALIANT_SMASHERS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sValiantSmashersDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18912,7 +18912,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("WCS 2025 Limi"),
         .itemId = ITEM_PACK_WCS_2025_LIMITED_PACK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWCS2025LimitedPackDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18923,7 +18923,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("WSJ Jump Pack"),
         .itemId = ITEM_PACK_WSJ_JUMP_PACK_FALL_2016_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWSJJumpPackFall2016promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18934,7 +18934,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("WSJ Jump Pack"),
         .itemId = ITEM_PACK_WSJ_JUMP_PACK_FALL_2017_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWSJJumpPackFall2017promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18945,7 +18945,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("WSJ Jump Pack"),
         .itemId = ITEM_PACK_WSJ_JUMP_PACK_FALL_2018_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWSJJumpPackFall2018promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18956,7 +18956,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("WSJ Jump Pack"),
         .itemId = ITEM_PACK_WSJ_JUMP_PACK_SPRING_2016_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWSJJumpPackSpring2016promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18967,7 +18967,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("WSJ Jump Pack"),
         .itemId = ITEM_PACK_WSJ_JUMP_PACK_SPRING_2017_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWSJJumpPackSpring2017promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18978,7 +18978,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("WSJ Jump Pack"),
         .itemId = ITEM_PACK_WSJ_JUMP_PACK_SPRING_2018_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWSJJumpPackSpring2018promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -18989,7 +18989,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("WSJ Jump Pack"),
         .itemId = ITEM_PACK_WSJ_JUMP_PACK_SPRING_2019_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWSJJumpPackSpring2019promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19000,7 +19000,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("War of the Gi"),
         .itemId = ITEM_PACK_WAR_OF_THE_GIANTS_REINFORCEMENTS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWaroftheGiantsReinforcementsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19011,7 +19011,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("War of the Gi"),
         .itemId = ITEM_PACK_WAR_OF_THE_GIANTS__ROUND_2,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWaroftheGiantsRound2Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19022,7 +19022,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Warriors' Str"),
         .itemId = ITEM_PACK_WARRIORS__STRIKE_STRUCTURE_DECK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWarriorsStrikeStructureDeckDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19033,7 +19033,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Weekly Shonen"),
         .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_ALPHA_APRIL_2012_MEMBERSHIP_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWeeklyShonenJumpAlphaApril2012membershippromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19044,7 +19044,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Weekly Shonen"),
         .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_ALPHA_DECEMBER_2012_MEMBERSHIP_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWeeklyShonenJumpAlphaDecember2012membershippromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19055,7 +19055,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Weekly Shonen"),
         .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_ALPHA_JULY_2012_MEMBERSHIP_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWeeklyShonenJumpAlphaJuly2012membershippromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19066,7 +19066,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Weekly Shonen"),
         .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_ALPHA_SEPTEMBER_2012_MEMBERSHIP_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWeeklyShonenJumpAlphaSeptember2012membershippromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19077,7 +19077,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Weekly Shonen"),
         .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_APRIL_2015_MEMBERSHIP_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWeeklyShonenJumpApril2015membershippromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19088,7 +19088,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Weekly Shonen"),
         .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_APRIL_2016_MEMBERSHIP_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWeeklyShonenJumpApril2016membershippromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19099,7 +19099,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Weekly Shonen"),
         .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_APRIL_2017_MEMBERSHIP_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWeeklyShonenJumpApril2017membershippromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19110,7 +19110,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Weekly Shonen"),
         .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_APRIL_2018_MEMBERSHIP_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWeeklyShonenJumpApril2018membershippromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19121,7 +19121,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Weekly Shonen"),
         .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_AUGUST_2014_MEMBERSHIP_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWeeklyShonenJumpAugust2014membershippromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19132,7 +19132,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Weekly Shonen"),
         .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_DECEMBER_2013_MEMBERSHIP_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWeeklyShonenJumpDecember2013membershippromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19143,7 +19143,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Weekly Shonen"),
         .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_DECEMBER_2018_MEMBERSHIP_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWeeklyShonenJumpDecember2018membershippromotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19154,7 +19154,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Weekly Shonen"),
         .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_FEBRUARY_2015_MEMBERSHIP_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWeeklyShonenJumpFebruary2015membershippromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19165,7 +19165,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Weekly Shonen"),
         .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_JANUARY_2016_MEMBERSHIP_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWeeklyShonenJumpJanuary2016membershippromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19176,7 +19176,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Weekly Shonen"),
         .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_JANUARY_2017_MEMBERSHIP_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWeeklyShonenJumpJanuary2017membershippromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19187,7 +19187,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Weekly Shonen"),
         .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_JANUARY_2018_MEMBERSHIP_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWeeklyShonenJumpJanuary2018membershippromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19198,7 +19198,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Weekly Shonen"),
         .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_JULY_2013_MEMBERSHIP_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWeeklyShonenJumpJuly2013membershippromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19209,7 +19209,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Weekly Shonen"),
         .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_JULY_2015_MEMBERSHIP_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWeeklyShonenJumpJuly2015membershippromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19220,7 +19220,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Weekly Shonen"),
         .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_JULY_2016_MEMBERSHIP_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWeeklyShonenJumpJuly2016membershippromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19231,7 +19231,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Weekly Shonen"),
         .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_JULY_2017_MEMBERSHIP_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWeeklyShonenJumpJuly2017membershippromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19242,7 +19242,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Weekly Shonen"),
         .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_JULY_2018_MEMBERSHIP_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWeeklyShonenJumpJuly2018membershippromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19253,7 +19253,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Weekly Shonen"),
         .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_MARCH_2013_MEMBERSHIP_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWeeklyShonenJumpMarch2013membershippromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19264,7 +19264,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Weekly Shonen"),
         .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_MARCH_2014_MEMBERSHIP_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWeeklyShonenJumpMarch2014membershippromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19275,7 +19275,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Weekly Shonen"),
         .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_NOVEMBER_2014_MEMBERSHIP_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWeeklyShonenJumpNovember2014membershippromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19286,7 +19286,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Weekly Shonen"),
         .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_NOVEMBER_2017_MEMBERSHIP_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWeeklyShonenJumpNovember2017membershippromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19297,7 +19297,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Weekly Shonen"),
         .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_NOVEMBER_2018_MEMBERSHIP_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWeeklyShonenJumpNovember2018membershippromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19308,7 +19308,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Weekly Shonen"),
         .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_OCTOBER_2015_MEMBERSHIP_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWeeklyShonenJumpOctober2015membershippromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19319,7 +19319,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Weekly Shonen"),
         .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_OCTOBER_2016_MEMBERSHIP_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWeeklyShonenJumpOctober2016membershippromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19330,7 +19330,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Weekly Shonen"),
         .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_SEPTEMBER_2013_MEMBERSHIP_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWeeklyShonenJumpSeptember2013membershippromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19341,7 +19341,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Wild Survivor"),
         .itemId = ITEM_PACK_WILD_SURVIVORS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWildSurvivorsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19352,7 +19352,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Wing Raiders"),
         .itemId = ITEM_PACK_WING_RAIDERS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWingRaidersDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19363,7 +19363,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("World Champio"),
         .itemId = ITEM_PACK_WORLD_CHAMPIONSHIP_2010_CARD_PACK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWorldChampionship2010CardPackDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19374,7 +19374,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("World Champio"),
         .itemId = ITEM_PACK_WORLD_CHAMPIONSHIP_2011_CARD_PACK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWorldChampionship2011CardPackDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19385,7 +19385,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("World Superst"),
         .itemId = ITEM_PACK_WORLD_SUPERSTARS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sWorldSuperstarsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19396,7 +19396,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("X-Saber Power"),
         .itemId = ITEM_PACK_X_SABER_POWER_UP,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sXSaberPowerUpDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19407,7 +19407,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! 3D "),
         .itemId = ITEM_PACK_YU_GI_OH__3D_BONDS_BEYOND_TIME_DVD_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOh3DBondsBeyondTimeDVDpromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19418,7 +19418,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! 3D "),
         .itemId = ITEM_PACK_YU_GI_OH__3D_BONDS_BEYOND_TIME_MOVIE_PACK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOh3DBondsBeyondTimeMoviePackDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19429,7 +19429,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! 3D "),
         .itemId = ITEM_PACK_YU_GI_OH__3D_BONDS_BEYOND_TIME_THEATER_DISTRIBUTION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOh3DBondsBeyondTimeTheaterdistributioncardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19440,7 +19440,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! 5D'"),
         .itemId = ITEM_PACK_YU_GI_OH__5D_S_DUEL_TRANSER_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOh5DsDuelTranserpromotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19451,7 +19451,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! 5D'"),
         .itemId = ITEM_PACK_YU_GI_OH__5D_S_STARDUST_ACCELERATOR_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOh5DsStardustAcceleratorpromotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19462,7 +19462,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! 5D'"),
         .itemId = ITEM_PACK_YU_GI_OH__5D_S_TAG_FORCE_4_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOh5DsTagForce4promotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19473,7 +19473,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! 5D'"),
         .itemId = ITEM_PACK_YU_GI_OH__5D_S_TAG_FORCE_5_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOh5DsTagForce5PromotionalCardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19484,7 +19484,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! 5D'"),
         .itemId = ITEM_PACK_YU_GI_OH__5D_S_TAG_FORCE_5_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOh5DsTagForce5promotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19495,7 +19495,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! 5D'"),
         .itemId = ITEM_PACK_YU_GI_OH__5D_S_VOLUME_1_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOh5DsVolume1promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19506,7 +19506,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! 5D'"),
         .itemId = ITEM_PACK_YU_GI_OH__5D_S_VOLUME_2_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOh5DsVolume2promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19517,7 +19517,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! 5D'"),
         .itemId = ITEM_PACK_YU_GI_OH__5D_S_VOLUME_3_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOh5DsVolume3promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19528,7 +19528,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! 5D'"),
         .itemId = ITEM_PACK_YU_GI_OH__5D_S_VOLUME_4_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOh5DsVolume4promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19539,7 +19539,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! 5D'"),
         .itemId = ITEM_PACK_YU_GI_OH__5D_S_VOLUME_5_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOh5DsVolume5promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19550,7 +19550,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! 5D'"),
         .itemId = ITEM_PACK_YU_GI_OH__5D_S_VOLUME_6_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOh5DsVolume6promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19561,7 +19561,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! 5D'"),
         .itemId = ITEM_PACK_YU_GI_OH__5D_S_VOLUME_7_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOh5DsVolume7promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19572,7 +19572,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! 5D'"),
         .itemId = ITEM_PACK_YU_GI_OH__5D_S_VOLUME_9_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOh5DsVolume9promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19583,7 +19583,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! 5D'"),
         .itemId = ITEM_PACK_YU_GI_OH__5D_S_WHEELIE_BREAKERS_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOh5DsWheelieBreakersPromotionalCardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19594,7 +19594,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! 5D'"),
         .itemId = ITEM_PACK_YU_GI_OH__5D_S_WORLD_CHAMPIONSHIP_2009__STARDUST_ACCELERATOR_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOh5DsWorldChampionship2009StardustAcceleratorpromotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19605,7 +19605,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! 5D'"),
         .itemId = ITEM_PACK_YU_GI_OH__5D_S_WORLD_CHAMPIONSHIP_2010__REVERSE_OF_ARCADIA_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOh5DsWorldChampionship2010ReverseofArcadiapromotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19616,7 +19616,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! 5D'"),
         .itemId = ITEM_PACK_YU_GI_OH__5D_S_WORLD_CHAMPIONSHIP_2011__OVER_THE_NEXUS_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOh5DsWorldChampionship2011OvertheNexuspromotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19627,7 +19627,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! 5D'"),
         .itemId = ITEM_PACK_YU_GI_OH__5D_S_VOLUME_8_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOh5Dsvolume8promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19638,7 +19638,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! 7 T"),
         .itemId = ITEM_PACK_YU_GI_OH__7_TRIALS_TO_GLORY__WORLD_CHAMPIONSHIP_TOURNAMENT_2005_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOh7TrialstoGloryWorldChampionshipTournament2005promotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19649,7 +19649,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! ARC"),
         .itemId = ITEM_PACK_YU_GI_OH__ARC_V_VOLUME_1_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhARCVVolume1promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19660,7 +19660,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! ARC"),
         .itemId = ITEM_PACK_YU_GI_OH__ARC_V_VOLUME_2_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhARCVVolume2promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19671,7 +19671,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! ARC"),
         .itemId = ITEM_PACK_YU_GI_OH__ARC_V_VOLUME_3_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhARCVVolume3promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19682,7 +19682,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! ARC"),
         .itemId = ITEM_PACK_YU_GI_OH__ARC_V_VOLUME_4_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhARCVVolume4promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19693,7 +19693,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! ARC"),
         .itemId = ITEM_PACK_YU_GI_OH__ARC_V_VOLUME_5_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhARCVVolume5promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19704,7 +19704,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! ARC"),
         .itemId = ITEM_PACK_YU_GI_OH__ARC_V_VOLUME_6_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhARCVVolume6promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19715,7 +19715,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! ARC"),
         .itemId = ITEM_PACK_YU_GI_OH__ARC_V_VOLUME_7_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhARCVVolume7promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19726,7 +19726,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Adv"),
         .itemId = ITEM_PACK_YU_GI_OH__ADVENT_CALENDAR,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhAdventCalendarDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19737,7 +19737,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Adv"),
         .itemId = ITEM_PACK_YU_GI_OH__ADVENT_CALENDAR__2018_,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhAdventCalendar2018Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19748,7 +19748,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Adv"),
         .itemId = ITEM_PACK_YU_GI_OH__ADVENT_CALENDAR__2019_,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhAdventCalendar2019Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19759,7 +19759,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Cap"),
         .itemId = ITEM_PACK_YU_GI_OH__CAPSULE_MONSTER_COLISEUM_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhCapsuleMonsterColiseumpromotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19770,7 +19770,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Cha"),
         .itemId = ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2010_PRIZE_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhChampionshipSeries2010PrizeCardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19781,7 +19781,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Cha"),
         .itemId = ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2011_PRIZE_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhChampionshipSeries2011PrizeCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19792,7 +19792,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Cha"),
         .itemId = ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2012_PRIZE_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhChampionshipSeries2012PrizeCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19803,7 +19803,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Cha"),
         .itemId = ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2013_PRIZE_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhChampionshipSeries2013PrizeCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19814,7 +19814,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Cha"),
         .itemId = ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2014_PRIZE_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhChampionshipSeries2014PrizeCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19825,7 +19825,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Cha"),
         .itemId = ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2015_PRIZE_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhChampionshipSeries2015PrizeCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19836,7 +19836,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Cha"),
         .itemId = ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2016_PRIZE_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhChampionshipSeries2016PrizeCardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19847,7 +19847,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Cha"),
         .itemId = ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2017_PRIZE_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhChampionshipSeries2017prizecardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19858,7 +19858,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Cha"),
         .itemId = ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2018_PRIZE_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhChampionshipSeries2018prizecardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19869,7 +19869,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Cha"),
         .itemId = ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2019_PRIZE_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhChampionshipSeries2019prizecardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19880,7 +19880,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Cha"),
         .itemId = ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2022_PRIZE_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhChampionshipSeries2022prizecardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19891,7 +19891,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Cha"),
         .itemId = ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2023_PRIZE_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhChampionshipSeries2023prizecardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19902,7 +19902,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Dar"),
         .itemId = ITEM_PACK_YU_GI_OH__DARK_DUEL_STORIES_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhDarkDuelStoriespromotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19913,7 +19913,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Day"),
         .itemId = ITEM_PACK_YU_GI_OH__DAY_APRIL_2019_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhDayApril2019promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19924,7 +19924,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Des"),
         .itemId = ITEM_PACK_YU_GI_OH__DESTINY_BOARD_TRAVELER_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhDestinyBoardTravelerpromotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19935,7 +19935,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Dou"),
         .itemId = ITEM_PACK_YU_GI_OH__DOUBLE_PACK_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhDoublePackpromotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19946,7 +19946,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Ele"),
         .itemId = ITEM_PACK_YU_GI_OH__ELEMENTAL_HERO_COLLECTION_1,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhElementalHeroCollection1Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19957,7 +19957,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Ele"),
         .itemId = ITEM_PACK_YU_GI_OH__ELEMENTAL_HERO_COLLECTION_2,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhElementalHeroCollection2Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19968,7 +19968,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! For"),
         .itemId = ITEM_PACK_YU_GI_OH__FORBIDDEN_MEMORIES_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhForbiddenMemoriespromotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19979,7 +19979,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! GX "),
         .itemId = ITEM_PACK_YU_GI_OH__GX_CARD_ALMANAC_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhGXCardAlmanacpromotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -19990,7 +19990,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! GX "),
         .itemId = ITEM_PACK_YU_GI_OH__GX_DUEL_ACADEMY_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhGXDuelAcademypromotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20001,7 +20001,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! GX "),
         .itemId = ITEM_PACK_YU_GI_OH__GX_SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhGXSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20012,7 +20012,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! GX "),
         .itemId = ITEM_PACK_YU_GI_OH__GX_SPIRIT_CALLER_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhGXSpiritCallerpromotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20023,7 +20023,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! GX "),
         .itemId = ITEM_PACK_YU_GI_OH__GX_TAG_FORCE_2_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhGXTagForce2promotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20034,7 +20034,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! GX "),
         .itemId = ITEM_PACK_YU_GI_OH__GX_TAG_FORCE_3_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhGXTagForce3promotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20045,7 +20045,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! GX "),
         .itemId = ITEM_PACK_YU_GI_OH__GX_TAG_FORCE_EVOLUTION_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhGXTagForceEvolutionpromotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20056,7 +20056,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! GX "),
         .itemId = ITEM_PACK_YU_GI_OH__GX_TAG_FORCE_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhGXTagForcepromotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20067,7 +20067,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! GX "),
         .itemId = ITEM_PACK_YU_GI_OH__GX_ULTIMATE_BEGINNER_S_PACK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhGXUltimateBeginnersPackDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20078,7 +20078,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! GX "),
         .itemId = ITEM_PACK_YU_GI_OH__GX_VOLUME_1_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhGXVolume1promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20089,7 +20089,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! GX "),
         .itemId = ITEM_PACK_YU_GI_OH__GX_VOLUME_2_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhGXVolume2promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20100,7 +20100,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! GX "),
         .itemId = ITEM_PACK_YU_GI_OH__GX_VOLUME_3_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhGXVolume3promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20111,7 +20111,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! GX "),
         .itemId = ITEM_PACK_YU_GI_OH__GX_VOLUME_4_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhGXVolume4promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20122,7 +20122,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! GX "),
         .itemId = ITEM_PACK_YU_GI_OH__GX_VOLUME_5_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhGXVolume5promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20133,7 +20133,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! GX "),
         .itemId = ITEM_PACK_YU_GI_OH__GX_VOLUME_6_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhGXVolume6promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20144,7 +20144,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! GX "),
         .itemId = ITEM_PACK_YU_GI_OH__GX_VOLUME_7_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhGXVolume7promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20155,7 +20155,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! GX "),
         .itemId = ITEM_PACK_YU_GI_OH__GX_VOLUME_8_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhGXVolume8promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20166,7 +20166,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! GX "),
         .itemId = ITEM_PACK_YU_GI_OH__GX_VOLUME_9_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhGXVolume9promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20177,7 +20177,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Leg"),
         .itemId = ITEM_PACK_YU_GI_OH__LEGACY_OF_THE_DUELIST__LINK_EVOLUTION_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhLegacyoftheDuelistLinkEvolutionpromotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20188,7 +20188,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Nig"),
         .itemId = ITEM_PACK_YU_GI_OH__NIGHTMARE_TROUBADOUR_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhNightmareTroubadourpromotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20199,7 +20199,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Pow"),
         .itemId = ITEM_PACK_YU_GI_OH__POWER_OF_CHAOS__JOEY_THE_PASSION_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhPowerofChaosJoeythePassionpromotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20210,7 +20210,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Pow"),
         .itemId = ITEM_PACK_YU_GI_OH__POWER_OF_CHAOS__KAIBA_THE_REVENGE_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhPowerofChaosKaibatheRevengepromotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20221,7 +20221,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Pow"),
         .itemId = ITEM_PACK_YU_GI_OH__POWER_OF_CHAOS__YUGI_THE_DESTINY_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhPowerofChaosYugitheDestinypromotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20232,7 +20232,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! R V"),
         .itemId = ITEM_PACK_YU_GI_OH__R_VOLUME_1_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhRVolume1promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20243,7 +20243,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! R V"),
         .itemId = ITEM_PACK_YU_GI_OH__R_VOLUME_3_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhRVolume3promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20254,7 +20254,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! R V"),
         .itemId = ITEM_PACK_YU_GI_OH__R_VOLUME_4_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhRVolume4promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20265,7 +20265,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! R V"),
         .itemId = ITEM_PACK_YU_GI_OH__R_VOLUME_5_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhRVolume5promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20276,7 +20276,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Res"),
         .itemId = ITEM_PACK_YU_GI_OH__RESHEF_OF_DESTRUCTION_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhReshefofDestructionpromotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20287,7 +20287,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! TCG"),
         .itemId = ITEM_PACK_YU_GI_OH__TCG_REMOTE_DUEL_EXTRAVAGANZA_PARTICIPATION_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhTCGRemoteDuelExtravaganzaparticipationcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20298,7 +20298,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! The"),
         .itemId = ITEM_PACK_YU_GI_OH__THE_DARK_SIDE_OF_DIMENSIONS_BLU_RAY___DVD_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhTheDarkSideofDimensionsBlurayDVDpromotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20309,7 +20309,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! The"),
         .itemId = ITEM_PACK_YU_GI_OH__THE_DARK_SIDE_OF_DIMENSIONS_MOVIE_PACK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhTheDarkSideofDimensionsMoviePackDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20320,7 +20320,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! The"),
         .itemId = ITEM_PACK_YU_GI_OH__THE_DARK_SIDE_OF_DIMENSIONS_MOVIE_PACK_SECRET_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhTheDarkSideofDimensionsMoviePackSecretEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20331,7 +20331,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! The"),
         .itemId = ITEM_PACK_YU_GI_OH__THE_DARK_SIDE_OF_DIMENSIONS_MOVIE_PACK_SPECIAL_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhTheDarkSideofDimensionsMoviePackSpecialEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20342,7 +20342,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! The"),
         .itemId = ITEM_PACK_YU_GI_OH__THE_DARK_SIDE_OF_DIMENSIONS_MOVIE_PACK__GOLD_EDITION,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhTheDarkSideofDimensionsMoviePackGoldEditionDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20353,7 +20353,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! The"),
         .itemId = ITEM_PACK_YU_GI_OH__THE_DARK_SIDE_OF_DIMENSIONS_THEATER_DISTRIBUTION_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhTheDarkSideofDimensionsTheaterdistributioncardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20364,7 +20364,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! The"),
         .itemId = ITEM_PACK_YU_GI_OH__THE_DAWN_OF_DESTINY_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhTheDawnofDestinypromotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20375,7 +20375,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! The"),
         .itemId = ITEM_PACK_YU_GI_OH__THE_DUELISTS_OF_THE_ROSES_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhTheDuelistsoftheRosespromotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20386,7 +20386,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! The"),
         .itemId = ITEM_PACK_YU_GI_OH__THE_ETERNAL_DUELIST_SOUL_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhTheEternalDuelistSoulpromotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20397,7 +20397,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! The"),
         .itemId = ITEM_PACK_YU_GI_OH__THE_FALSEBOUND_KINGDOM_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhTheFalseboundKingdompromotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20408,7 +20408,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! The"),
         .itemId = ITEM_PACK_YU_GI_OH__THE_SACRED_CARDS_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhTheSacredCardspromotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20419,7 +20419,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Tra"),
         .itemId = ITEM_PACK_YU_GI_OH__TRADING_CARD_GAME_TOUR_2004_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhTradingCardGameTour2004promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20430,7 +20430,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Ult"),
         .itemId = ITEM_PACK_YU_GI_OH__ULTIMATE_MASTERS__WORLD_CHAMPIONSHIP_TOURNAMENT_2006_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhUltimateMastersWorldChampionshipTournament2006promotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20441,7 +20441,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Wor"),
         .itemId = ITEM_PACK_YU_GI_OH__WORLD_CHAMPIONSHIP_2004_PRIZE_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhWorldChampionship2004prizecardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20452,7 +20452,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Wor"),
         .itemId = ITEM_PACK_YU_GI_OH__WORLD_CHAMPIONSHIP_2005_PRIZE_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhWorldChampionship2005prizecardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20463,7 +20463,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Wor"),
         .itemId = ITEM_PACK_YU_GI_OH__WORLD_CHAMPIONSHIP_2006_PRIZE_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhWorldChampionship2006prizecardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20474,7 +20474,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Wor"),
         .itemId = ITEM_PACK_YU_GI_OH__WORLD_CHAMPIONSHIP_2007_PRIZE_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhWorldChampionship2007prizecardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20485,7 +20485,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Wor"),
         .itemId = ITEM_PACK_YU_GI_OH__WORLD_CHAMPIONSHIP_2007_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhWorldChampionship2007promotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20496,7 +20496,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Wor"),
         .itemId = ITEM_PACK_YU_GI_OH__WORLD_CHAMPIONSHIP_2008_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhWorldChampionship2008promotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20507,7 +20507,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Wor"),
         .itemId = ITEM_PACK_YU_GI_OH__WORLD_CHAMPIONSHIP_2017_PRIZE_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhWorldChampionship2017prizecardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20518,7 +20518,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Wor"),
         .itemId = ITEM_PACK_YU_GI_OH__WORLD_CHAMPIONSHIP_2018_PRIZE_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhWorldChampionship2018prizecardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20529,7 +20529,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Wor"),
         .itemId = ITEM_PACK_YU_GI_OH__WORLD_CHAMPIONSHIP_2019_JAPANESE_NATIONAL_QUALIFIERS_PRIZE_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhWorldChampionship2019JapaneseNationalQualifiersprizecardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20540,7 +20540,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Wor"),
         .itemId = ITEM_PACK_YU_GI_OH__WORLD_CHAMPIONSHIP_QUALIFIER_NATIONAL_CHAMPIONSHIPS_2011_PRIZE_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhWorldChampionshipQualifierNationalChampionships2011prizecardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20551,7 +20551,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Wor"),
         .itemId = ITEM_PACK_YU_GI_OH__WORLD_CHAMPIONSHIP_TOURNAMENT_2004_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhWorldChampionshipTournament2004promotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20562,7 +20562,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! Wor"),
         .itemId = ITEM_PACK_YU_GI_OH__WORLDWIDE_EDITION__STAIRWAY_TO_THE_DESTINED_DUEL_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhWorldwideEditionStairwaytotheDestinedDuelpromotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20573,7 +20573,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! ZEX"),
         .itemId = ITEM_PACK_YU_GI_OH__ZEXAL_VOLUME_1_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhZEXALVolume1promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20584,7 +20584,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! ZEX"),
         .itemId = ITEM_PACK_YU_GI_OH__ZEXAL_VOLUME_2_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhZEXALVolume2promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20595,7 +20595,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! ZEX"),
         .itemId = ITEM_PACK_YU_GI_OH__ZEXAL_VOLUME_3_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhZEXALVolume3promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20606,7 +20606,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! ZEX"),
         .itemId = ITEM_PACK_YU_GI_OH__ZEXAL_VOLUME_4_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhZEXALVolume4promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20617,7 +20617,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! ZEX"),
         .itemId = ITEM_PACK_YU_GI_OH__ZEXAL_VOLUME_5_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhZEXALVolume5promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20628,7 +20628,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! ZEX"),
         .itemId = ITEM_PACK_YU_GI_OH__ZEXAL_VOLUME_6_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhZEXALVolume6promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20639,7 +20639,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! ZEX"),
         .itemId = ITEM_PACK_YU_GI_OH__ZEXAL_VOLUME_7_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhZEXALVolume7promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20650,7 +20650,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! ZEX"),
         .itemId = ITEM_PACK_YU_GI_OH__ZEXAL_VOLUME_8_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhZEXALVolume8promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20661,7 +20661,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! ZEX"),
         .itemId = ITEM_PACK_YU_GI_OH__ZEXAL_VOLUME_9_PROMOTIONAL_CARD,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhZEXALVolume9promotionalcardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20672,7 +20672,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! ZEX"),
         .itemId = ITEM_PACK_YU_GI_OH__ZEXAL_WORLD_DUEL_CARNIVAL_PROMOTIONAL_CARDS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhZEXALWorldDuelCarnivalpromotionalcardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20683,7 +20683,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yu-Gi-Oh! at "),
         .itemId = ITEM_PACK_YU_GI_OH__AT_HOME_SWEEPSTAKES,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYuGiOhatHomeSweepstakesDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20694,7 +20694,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yugi & Kaiba "),
         .itemId = ITEM_PACK_YUGI___KAIBA_COLLECTOR_BOX,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYugiKaibaCollectorBoxDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20705,7 +20705,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Yugi's Legend"),
         .itemId = ITEM_PACK_YUGI_S_LEGENDARY_DECKS,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sYugisLegendaryDecksDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20716,7 +20716,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Zexal Collect"),
         .itemId = ITEM_PACK_ZEXAL_COLLECTION_TIN,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sZexalCollectionTinDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -20727,7 +20727,7 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
         .name = _("Zombie World "),
         .itemId = ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK,
         .price = 0,
-        .description = sDummyDesc,
+        .description = sZombieWorldStructureDeckDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
@@ -27672,3 +27672,4128 @@ const struct Pack gPacks[] =
         .pack = gZombieWorldStructureDeck,
         .length = 14,
 	},
+
+const struct Pack gPacks[] =
+{
+static const u8 s2PlayerStarterDeckYuyaDeclanDesc[] = _(
+    "2-Player Starter\n"
+    "Deck: Yuya & Declan.");
+
+static const u8 s2PlayerStarterSetDesc[] = _(
+    "2-Player Starter Set.");
+
+static const u8 s2013CollectibleTinsWave1Desc[] = _(
+    "2013 Collectible\n"
+    "Tins Wave 1.");
+
+static const u8 s2013CollectibleTinsWave2Desc[] = _(
+    "2013 Collectible\n"
+    "Tins Wave 2.");
+
+static const u8 s2014MegaTinMegaPackDesc[] = _(
+    "2014 Mega-Tin Mega\n"
+    "Pack.");
+
+static const u8 s2014MegaTinsDesc[] = _(
+    "2014 Mega-Tins.");
+
+static const u8 s2015MegaTinMegaPackDesc[] = _(
+    "2015 Mega-Tin Mega\n"
+    "Pack.");
+
+static const u8 s2015MegaTinsDesc[] = _(
+    "2015 Mega-Tins.");
+
+static const u8 s2016MegaTinMegaPackDesc[] = _(
+    "2016 Mega-Tin Mega\n"
+    "Pack.");
+
+static const u8 s2016MegaTinsDesc[] = _(
+    "2016 Mega-Tins.");
+
+static const u8 s2017MegaTinMegaPackDesc[] = _(
+    "2017 Mega-Tin Mega\n"
+    "Pack.");
+
+static const u8 s2017MegaTinsDesc[] = _(
+    "2017 Mega-Tins.");
+
+static const u8 s2018MegaTinMegaPackDesc[] = _(
+    "2018 Mega-Tin Mega\n"
+    "Pack.");
+
+static const u8 s2018MegaTinsDesc[] = _(
+    "2018 Mega-Tins.");
+
+static const u8 s2019GoldSarcophagusTinDesc[] = _(
+    "2019 Gold\n"
+    "Sarcophagus Tin.");
+
+static const u8 s2019GoldSarcophagusTinMegaPackDesc[] = _(
+    "2019 Gold\n"
+    "Sarcophagus Tin Mega\n"
+    "Pack.");
+
+static const u8 s2020TinofLostMemoriesDesc[] = _(
+    "2020 Tin of Lost\n"
+    "Memories.");
+
+static const u8 s2020TinofLostMemoriesMegaPackDesc[] = _(
+    "2020 Tin of Lost\n"
+    "Memories Mega Pack.");
+
+static const u8 s2021TinofAncientBattlesDesc[] = _(
+    "2021 Tin of Ancient\n"
+    "Battles.");
+
+static const u8 s2022TinofthePharaohsGodsDesc[] = _(
+    "2022 Tin of the\n"
+    "Pharaoh's Gods.");
+
+static const u8 s25thAnniversaryRarityCollectionDesc[] = _(
+    "25th Anniversary\n"
+    "Rarity Collection.");
+
+static const u8 s25thAnniversaryRarityCollectionIIDesc[] = _(
+    "25th Anniversary\n"
+    "Rarity Collection II.");
+
+static const u8 s25thAnniversaryTinDuelingHeroesDesc[] = _(
+    "25th Anniversary\n"
+    "Tin: Dueling Heroes.");
+
+static const u8 s25thAnniversaryTinDuelingHeroesMegaPackDesc[] = _(
+    "25th Anniversary\n"
+    "Tin: Dueling Heroes\n"
+    "Mega Pack.");
+
+static const u8 s25thAnniversaryTinDuelingMirrorsDesc[] = _(
+    "25th Anniversary\n"
+    "Tin: Dueling Mirrors.");
+
+static const u8 s25thAnniversaryUltimateKaibaSetDesc[] = _(
+    "25th Anniversary\n"
+    "Ultimate Kaiba Set.");
+
+static const u8 sAbsolutePowerforceDesc[] = _(
+    "Absolute Powerforce.");
+
+static const u8 sAbsolutePowerforceSneakPeekParticipationCardDesc[] = _(
+    "Absolute Powerforce\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sAbsolutePowerforceSpecialEditionDesc[] = _(
+    "Absolute Powerforce:\n"
+    "Special Edition.");
+
+static const u8 sAbyssRisingDesc[] = _(
+    "Abyss Rising.");
+
+static const u8 sAbyssRisingSneakPeekParticipationCardDesc[] = _(
+    "Abyss Rising Sneak\n"
+    "Peek Participation\n"
+    "Card.");
+
+static const u8 sAbyssRisingSpecialEditionDesc[] = _(
+    "Abyss Rising:\n"
+    "Special Edition.");
+
+static const u8 sAdvancedDemoDeckExtraPackDesc[] = _(
+    "Advanced Demo Deck\n"
+    "Extra Pack.");
+
+static const u8 sAgeofOverlordDesc[] = _(
+    "Age of Overlord.");
+
+static const u8 sAllianceInsightDesc[] = _(
+    "Alliance Insight.");
+
+static const u8 sAmazingDefendersDesc[] = _(
+    "Amazing Defenders.");
+
+static const u8 sAncientGuardiansDesc[] = _(
+    "Ancient Guardians.");
+
+static const u8 sAncientProphecyDesc[] = _(
+    "Ancient Prophecy.");
+
+static const u8 sAncientProphecySneakPeekParticipationCardDesc[] = _(
+    "Ancient Prophecy\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sAncientProphecySpecialEditionDesc[] = _(
+    "Ancient Prophecy:\n"
+    "Special Edition.");
+
+static const u8 sAncientSanctuaryDesc[] = _(
+    "Ancient Sanctuary.");
+
+static const u8 sAnniversaryPackDesc[] = _(
+    "Anniversary Pack.");
+
+static const u8 sAstralPackEightDesc[] = _(
+    "Astral Pack Eight.");
+
+static const u8 sAstralPackFiveDesc[] = _(
+    "Astral Pack Five.");
+
+static const u8 sAstralPackFourDesc[] = _(
+    "Astral Pack Four.");
+
+static const u8 sAstralPackOneDesc[] = _(
+    "Astral Pack One.");
+
+static const u8 sAstralPackSevenDesc[] = _(
+    "Astral Pack Seven.");
+
+static const u8 sAstralPackSixDesc[] = _(
+    "Astral Pack Six.");
+
+static const u8 sAstralPackThreeDesc[] = _(
+    "Astral Pack Three.");
+
+static const u8 sAstralPackTwoDesc[] = _(
+    "Astral Pack Two.");
+
+static const u8 sBattlePack2WaroftheGiantsDesc[] = _(
+    "Battle Pack 2: War\n"
+    "of the Giants.");
+
+static const u8 sBattlePack3MonsterLeagueDesc[] = _(
+    "Battle Pack 3:\n"
+    "Monster League.");
+
+static const u8 sBattlePackTournamentPrizeCardsDesc[] = _(
+    "Battle Pack\n"
+    "Tournament Prize\n"
+    "Cards.");
+
+static const u8 sBattlePackEpicDawnDesc[] = _(
+    "Battle Pack: Epic\n"
+    "Dawn.");
+
+static const u8 sBattleofChaosDesc[] = _(
+    "Battle of Chaos.");
+
+static const u8 sBattlesofLegendArmageddonDesc[] = _(
+    "Battles of Legend:\n"
+    "Armageddon.");
+
+static const u8 sBattlesofLegendChapter1Desc[] = _(
+    "Battles of Legend:\n"
+    "Chapter 1.");
+
+static const u8 sBattlesofLegendCrystalRevengeDesc[] = _(
+    "Battles of Legend:\n"
+    "Crystal Revenge.");
+
+static const u8 sBattlesofLegendHerosRevengeDesc[] = _(
+    "Battles of Legend:\n"
+    "Hero's Revenge.");
+
+static const u8 sBattlesofLegendLightsRevengeDesc[] = _(
+    "Battles of Legend:\n"
+    "Light's Revenge.");
+
+static const u8 sBattlesofLegendMonsterMayhemDesc[] = _(
+    "Battles of Legend:\n"
+    "Monster Mayhem.");
+
+static const u8 sBattlesofLegendMonstrousRevengeDesc[] = _(
+    "Battles of Legend:\n"
+    "Monstrous Revenge.");
+
+static const u8 sBattlesofLegendRelentlessRevengeDesc[] = _(
+    "Battles of Legend:\n"
+    "Relentless Revenge.");
+
+static const u8 sBattlesofLegendTerminalRevengeDesc[] = _(
+    "Battles of Legend:\n"
+    "Terminal Revenge.");
+
+static const u8 sBlazingVortexDesc[] = _(
+    "Blazing Vortex.");
+
+static const u8 sBlazingVortexPremierepromotionalcardDesc[] = _(
+    "Blazing Vortex\n"
+    "Premiere!\n"
+    "promotional card.");
+
+static const u8 sBlueEyesAlternativeWhiteDragonSweepstakesDesc[] = _(
+    "Blue-Eyes\n"
+    "Alternative White\n"
+    "Dragon Sweepstakes.");
+
+static const u8 sBoosterPackCollectorsTins2002Desc[] = _(
+    "Booster Pack\n"
+    "Collectors Tins 2002.");
+
+static const u8 sBreakersofShadowDesc[] = _(
+    "Breakers of Shadow.");
+
+static const u8 sBreakersofShadowSneakPeekParticipationCardDesc[] = _(
+    "Breakers of Shadow\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sBreakersofShadowSpecialEditionDesc[] = _(
+    "Breakers of Shadow:\n"
+    "Special Edition.");
+
+static const u8 sBrothersofLegendDesc[] = _(
+    "Brothers of Legend.");
+
+static const u8 sBurstofDestinyDesc[] = _(
+    "Burst of Destiny.");
+
+static const u8 sChampionPackGameEightDesc[] = _(
+    "Champion Pack: Game\n"
+    "Eight.");
+
+static const u8 sChampionPackGameFiveDesc[] = _(
+    "Champion Pack: Game\n"
+    "Five.");
+
+static const u8 sChampionPackGameFourDesc[] = _(
+    "Champion Pack: Game\n"
+    "Four.");
+
+static const u8 sChampionPackGameOneDesc[] = _(
+    "Champion Pack: Game\n"
+    "One.");
+
+static const u8 sChampionPackGameSevenDesc[] = _(
+    "Champion Pack: Game\n"
+    "Seven.");
+
+static const u8 sChampionPackGameSixDesc[] = _(
+    "Champion Pack: Game\n"
+    "Six.");
+
+static const u8 sChampionPackGameThreeDesc[] = _(
+    "Champion Pack: Game\n"
+    "Three.");
+
+static const u8 sChampionPackGameTwoDesc[] = _(
+    "Champion Pack: Game\n"
+    "Two.");
+
+static const u8 sChaosImpactDesc[] = _(
+    "Chaos Impact.");
+
+static const u8 sChaosImpactSneakPeekParticipationCardDesc[] = _(
+    "Chaos Impact Sneak\n"
+    "Peek Participation\n"
+    "Card.");
+
+static const u8 sChaosImpactSpecialEditionDesc[] = _(
+    "Chaos Impact Special\n"
+    "Edition.");
+
+static const u8 sCircuitBreakDesc[] = _(
+    "Circuit Break.");
+
+static const u8 sCircuitBreakSneakPeekParticipationCardDesc[] = _(
+    "Circuit Break Sneak\n"
+    "Peek Participation\n"
+    "Card.");
+
+static const u8 sCircuitBreakSpecialEditionDesc[] = _(
+    "Circuit Break\n"
+    "Special Edition.");
+
+static const u8 sClashofRebellionsDesc[] = _(
+    "Clash of Rebellions.");
+
+static const u8 sClashofRebellionsSneakPeekParticipationCardDesc[] = _(
+    "Clash of Rebellions\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sClashofRebellionsSpecialEditionDesc[] = _(
+    "Clash of Rebellions:\n"
+    "Special Edition.");
+
+static const u8 sCodeoftheDuelistDesc[] = _(
+    "Code of the Duelist.");
+
+static const u8 sCodeoftheDuelistSneakPeekParticipationCardDesc[] = _(
+    "Code of the Duelist\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sCodeoftheDuelistSpecialEditionDesc[] = _(
+    "Code of the Duelist\n"
+    "Special Edition.");
+
+static const u8 sCollectibleTins2003Desc[] = _(
+    "Collectible Tins\n"
+    "2003.");
+
+static const u8 sCollectibleTins2004Desc[] = _(
+    "Collectible Tins\n"
+    "2004.");
+
+static const u8 sCollectibleTins2005Desc[] = _(
+    "Collectible Tins\n"
+    "2005.");
+
+static const u8 sCollectibleTins2006Wave1Desc[] = _(
+    "Collectible Tins\n"
+    "2006 Wave 1.");
+
+static const u8 sCollectibleTins2006Wave2Desc[] = _(
+    "Collectible Tins\n"
+    "2006 Wave 2.");
+
+static const u8 sCollectibleTins2007Wave1Desc[] = _(
+    "Collectible Tins\n"
+    "2007 Wave 1.");
+
+static const u8 sCollectibleTins2007Wave2Desc[] = _(
+    "Collectible Tins\n"
+    "2007 Wave 2.");
+
+static const u8 sCollectibleTins2008Wave1Desc[] = _(
+    "Collectible Tins\n"
+    "2008 Wave 1.");
+
+static const u8 sCollectibleTins2008Wave2Desc[] = _(
+    "Collectible Tins\n"
+    "2008 Wave 2.");
+
+static const u8 sCollectibleTins2009Wave1Desc[] = _(
+    "Collectible Tins\n"
+    "2009 Wave 1.");
+
+static const u8 sCollectibleTins2009Wave2Desc[] = _(
+    "Collectible Tins\n"
+    "2009 Wave 2.");
+
+static const u8 sCollectibleTins2010Wave1Desc[] = _(
+    "Collectible Tins\n"
+    "2010 Wave 1.");
+
+static const u8 sCollectibleTins2010Wave2Desc[] = _(
+    "Collectible Tins\n"
+    "2010 Wave 2.");
+
+static const u8 sCollectibleTins2011Wave1Desc[] = _(
+    "Collectible Tins\n"
+    "2011 Wave 1.");
+
+static const u8 sCollectibleTins2011Wave2Desc[] = _(
+    "Collectible Tins\n"
+    "2011 Wave 2.");
+
+static const u8 sCollectibleTins2012Wave1Desc[] = _(
+    "Collectible Tins\n"
+    "2012 Wave 1.");
+
+static const u8 sCollectibleTins2012Wave2Desc[] = _(
+    "Collectible Tins\n"
+    "2012 Wave 2.");
+
+static const u8 sCollectibleTins2012Wave25Desc[] = _(
+    "Collectible Tins\n"
+    "2012 Wave 2.5.");
+
+static const u8 sCollectibleTinsExclusive2008Desc[] = _(
+    "Collectible Tins\n"
+    "Exclusive 2008.");
+
+static const u8 sCollectibleTinsExclusive2009Desc[] = _(
+    "Collectible Tins\n"
+    "Exclusive 2009.");
+
+static const u8 sCosmoBlazerDesc[] = _(
+    "Cosmo Blazer.");
+
+static const u8 sCosmoBlazerSneakPeekParticipationCardDesc[] = _(
+    "Cosmo Blazer Sneak\n"
+    "Peek Participation\n"
+    "Card.");
+
+static const u8 sCosmoBlazerSpecialEditionDesc[] = _(
+    "Cosmo Blazer:\n"
+    "Special Edition.");
+
+static const u8 sCrimsonCrisisDesc[] = _(
+    "Crimson Crisis.");
+
+static const u8 sCrimsonCrisisSneakPeekParticipationCardDesc[] = _(
+    "Crimson Crisis Sneak\n"
+    "Peek Participation\n"
+    "Card.");
+
+static const u8 sCrimsonCrisisSpecialEditionDesc[] = _(
+    "Crimson Crisis:\n"
+    "Special Edition.");
+
+static const u8 sCrossedSoulsDesc[] = _(
+    "Crossed Souls.");
+
+static const u8 sCrossedSoulsSneakPeekParticipationCardDesc[] = _(
+    "Crossed Souls Sneak\n"
+    "Peek Participation\n"
+    "Card.");
+
+static const u8 sCrossedSoulsAdvanceEditionDesc[] = _(
+    "Crossed Souls:\n"
+    "Advance Edition.");
+
+static const u8 sCrossoverBreakersDesc[] = _(
+    "Crossover Breakers.");
+
+static const u8 sCrossroadsofChaosDesc[] = _(
+    "Crossroads of Chaos.");
+
+static const u8 sCrossroadsofChaosSneakPeekParticipationCardDesc[] = _(
+    "Crossroads of Chaos\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sCrossroadsofChaosSpecialEditionDesc[] = _(
+    "Crossroads of Chaos:\n"
+    "Special Edition.");
+
+static const u8 sCyberDragonRevolutionStructureDeckDesc[] = _(
+    "Cyber Dragon\n"
+    "Revolution Structure\n"
+    "Deck.");
+
+static const u8 sCyberdarkImpactDesc[] = _(
+    "Cyberdark Impact.");
+
+static const u8 sCyberdarkImpactSneakPeekParticipationCardDesc[] = _(
+    "Cyberdark Impact\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sCyberneticHorizonDesc[] = _(
+    "Cybernetic Horizon.");
+
+static const u8 sCyberneticHorizonSneakPeekParticipationCardDesc[] = _(
+    "Cybernetic Horizon\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sCyberneticHorizonSpecialEditionDesc[] = _(
+    "Cybernetic Horizon\n"
+    "Special Edition.");
+
+static const u8 sCyberneticRevolutionDesc[] = _(
+    "Cybernetic\n"
+    "Revolution.");
+
+static const u8 sCyberneticRevolutionSneakPeekParticipationCardDesc[] = _(
+    "Cybernetic\n"
+    "Revolution Sneak\n"
+    "Peek Participation\n"
+    "Card.");
+
+static const u8 sCyberstormAccessDesc[] = _(
+    "Cyberstorm Access.");
+
+static const u8 sDarkBeginning1Desc[] = _(
+    "Dark Beginning 1.");
+
+static const u8 sDarkBeginning2Desc[] = _(
+    "Dark Beginning 2.");
+
+static const u8 sDarkCrisisDesc[] = _(
+    "Dark Crisis.");
+
+static const u8 sDarkLegendsDesc[] = _(
+    "Dark Legends.");
+
+static const u8 sDarkLegionStarterDeckDesc[] = _(
+    "Dark Legion Starter\n"
+    "Deck.");
+
+static const u8 sDarkNeostormDesc[] = _(
+    "Dark Neostorm.");
+
+static const u8 sDarkNeostormSneakPeekParticipationCardDesc[] = _(
+    "Dark Neostorm Sneak\n"
+    "Peek Participation\n"
+    "Card.");
+
+static const u8 sDarkNeostormSpecialEditionDesc[] = _(
+    "Dark Neostorm\n"
+    "Special Edition.");
+
+static const u8 sDarkRevelationVolume1Desc[] = _(
+    "Dark Revelation\n"
+    "Volume 1.");
+
+static const u8 sDarkRevelationVolume2Desc[] = _(
+    "Dark Revelation\n"
+    "Volume 2.");
+
+static const u8 sDarkRevelationVolume3Desc[] = _(
+    "Dark Revelation\n"
+    "Volume 3.");
+
+static const u8 sDarkRevelationVolume4Desc[] = _(
+    "Dark Revelation\n"
+    "Volume 4.");
+
+static const u8 sDarkSaviorsDesc[] = _(
+    "Dark Saviors.");
+
+static const u8 sDarkwingBlastDesc[] = _(
+    "Darkwing Blast.");
+
+static const u8 sDawnofMajestyDesc[] = _(
+    "Dawn of Majesty.");
+
+static const u8 sDawnofMajestyPremierepromotionalcardDesc[] = _(
+    "Dawn of Majesty\n"
+    "Premiere!\n"
+    "promotional card.");
+
+static const u8 sDemoDeck2015Desc[] = _(
+    "Demo Deck 2015.");
+
+static const u8 sDemoDeck2016Desc[] = _(
+    "Demo Deck 2016.");
+
+static const u8 sDemoPackDesc[] = _(
+    "Demo Pack.");
+
+static const u8 sDestinySoldiersDesc[] = _(
+    "Destiny Soldiers.");
+
+static const u8 sDimensionForceDesc[] = _(
+    "Dimension Force.");
+
+static const u8 sDimensionofChaosDesc[] = _(
+    "Dimension of Chaos.");
+
+static const u8 sDimensionofChaosSneakPeekParticipationCardDesc[] = _(
+    "Dimension of Chaos\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sDimensionofChaosSpecialEditionDesc[] = _(
+    "Dimension of Chaos:\n"
+    "Special Edition.");
+
+static const u8 sDinosmashersFuryStructureDeckDesc[] = _(
+    "Dinosmasher's Fury\n"
+    "Structure Deck.");
+
+static const u8 sDragonsCollideStructureDeckDesc[] = _(
+    "Dragons Collide\n"
+    "Structure Deck.");
+
+static const u8 sDragonsofLegendDesc[] = _(
+    "Dragons of Legend.");
+
+static const u8 sDragonsofLegend2Desc[] = _(
+    "Dragons of Legend 2.");
+
+static const u8 sDragonsofLegendTheCompleteSeriesDesc[] = _(
+    "Dragons of Legend:\n"
+    "The Complete Series.");
+
+static const u8 sDragonsofLegendUnleashedDesc[] = _(
+    "Dragons of Legend:\n"
+    "Unleashed.");
+
+static const u8 sDragunityLegionStructureDeckDesc[] = _(
+    "Dragunity Legion\n"
+    "Structure Deck.");
+
+static const u8 sDuelDevastatorDesc[] = _(
+    "Duel Devastator.");
+
+static const u8 sDuelDiskYuseiVersionDesc[] = _(
+    "Duel Disk - Yusei\n"
+    "Version.");
+
+static const u8 sDuelMastersGuidepromotionalcardsDesc[] = _(
+    "Duel Master's Guide\n"
+    "promotional cards.");
+
+static const u8 sDuelOverloadDesc[] = _(
+    "Duel Overload.");
+
+static const u8 sDuelPowerDesc[] = _(
+    "Duel Power.");
+
+static const u8 sDuelTerminalPreviewWave1Desc[] = _(
+    "Duel Terminal -\n"
+    "Preview Wave 1.");
+
+static const u8 sDuelTerminalPreviewWave2Desc[] = _(
+    "Duel Terminal -\n"
+    "Preview Wave 2.");
+
+static const u8 sDuelTerminal1Desc[] = _(
+    "Duel Terminal 1.");
+
+static const u8 sDuelTerminal2Desc[] = _(
+    "Duel Terminal 2.");
+
+static const u8 sDuelTerminal3Desc[] = _(
+    "Duel Terminal 3.");
+
+static const u8 sDuelTerminal4Desc[] = _(
+    "Duel Terminal 4.");
+
+static const u8 sDuelTerminal5Desc[] = _(
+    "Duel Terminal 5.");
+
+static const u8 sDuelTerminal5aDesc[] = _(
+    "Duel Terminal 5a.");
+
+static const u8 sDuelTerminal5bDesc[] = _(
+    "Duel Terminal 5b.");
+
+static const u8 sDuelTerminal6Desc[] = _(
+    "Duel Terminal 6.");
+
+static const u8 sDuelTerminal6aDesc[] = _(
+    "Duel Terminal 6a.");
+
+static const u8 sDuelTerminal6bDesc[] = _(
+    "Duel Terminal 6b.");
+
+static const u8 sDuelTerminal7Desc[] = _(
+    "Duel Terminal 7.");
+
+static const u8 sDuelTerminal7aDesc[] = _(
+    "Duel Terminal 7a.");
+
+static const u8 sDuelTerminal7bDesc[] = _(
+    "Duel Terminal 7b.");
+
+static const u8 sDuelistAllianceDesc[] = _(
+    "Duelist Alliance.");
+
+static const u8 sDuelistAllianceSneakPeekParticipationCardDesc[] = _(
+    "Duelist Alliance\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sDuelistAllianceDeluxeEditionDesc[] = _(
+    "Duelist Alliance:\n"
+    "Deluxe Edition.");
+
+static const u8 sDuelistLeague13participationcardsDesc[] = _(
+    "Duelist League 13\n"
+    "participation cards.");
+
+static const u8 sDuelistLeague14participationcardsDesc[] = _(
+    "Duelist League 14\n"
+    "participation cards.");
+
+static const u8 sDuelistLeague15participationcardsDesc[] = _(
+    "Duelist League 15\n"
+    "participation cards.");
+
+static const u8 sDuelistLeague16participationcardsDesc[] = _(
+    "Duelist League 16\n"
+    "participation cards.");
+
+static const u8 sDuelistLeague17participationcardsDesc[] = _(
+    "Duelist League 17\n"
+    "participation cards.");
+
+static const u8 sDuelistLeague18participationcardsDesc[] = _(
+    "Duelist League 18\n"
+    "participation cards.");
+
+static const u8 sDuelistLeague2participationcardsDesc[] = _(
+    "Duelist League 2\n"
+    "participation cards.");
+
+static const u8 sDuelistLeague2010participationcardsDesc[] = _(
+    "Duelist League 2010\n"
+    "participation cards.");
+
+static const u8 sDuelistLeague3participationcardsDesc[] = _(
+    "Duelist League 3\n"
+    "participation cards.");
+
+static const u8 sDuelistLeagueDemo2010Desc[] = _(
+    "Duelist League Demo\n"
+    "2010.");
+
+static const u8 sDuelistLeagueSeries1participationcardsDesc[] = _(
+    "Duelist League\n"
+    "Series 1\n"
+    "participation cards.");
+
+static const u8 sDuelistLeagueSeries10participationcardDesc[] = _(
+    "Duelist League\n"
+    "Series 10\n"
+    "participation card.");
+
+static const u8 sDuelistLeagueSeries2participationcardsDesc[] = _(
+    "Duelist League\n"
+    "Series 2\n"
+    "participation cards.");
+
+static const u8 sDuelistLeagueSeries3participationcardDesc[] = _(
+    "Duelist League\n"
+    "Series 3\n"
+    "participation card.");
+
+static const u8 sDuelistLeagueSeries4participationcardDesc[] = _(
+    "Duelist League\n"
+    "Series 4\n"
+    "participation card.");
+
+static const u8 sDuelistLeagueSeries5participationcardDesc[] = _(
+    "Duelist League\n"
+    "Series 5\n"
+    "participation card.");
+
+static const u8 sDuelistLeagueSeries6participationcardDesc[] = _(
+    "Duelist League\n"
+    "Series 6\n"
+    "participation card.");
+
+static const u8 sDuelistLeagueSeries7participationcardDesc[] = _(
+    "Duelist League\n"
+    "Series 7\n"
+    "participation card.");
+
+static const u8 sDuelistLeagueSeries8participationcardDesc[] = _(
+    "Duelist League\n"
+    "Series 8\n"
+    "participation card.");
+
+static const u8 sDuelistLeagueSeries9participationcardDesc[] = _(
+    "Duelist League\n"
+    "Series 9\n"
+    "participation card.");
+
+static const u8 sDuelistNexusDesc[] = _(
+    "Duelist Nexus.");
+
+static const u8 sDuelistPackCollectionTin2008Desc[] = _(
+    "Duelist Pack\n"
+    "Collection Tin 2008.");
+
+static const u8 sDuelistPackCollectionTin2009Desc[] = _(
+    "Duelist Pack\n"
+    "Collection Tin 2009.");
+
+static const u8 sDuelistPackCollectionTin2010Desc[] = _(
+    "Duelist Pack\n"
+    "Collection Tin 2010.");
+
+static const u8 sDuelistPackCollectionTin2011Desc[] = _(
+    "Duelist Pack\n"
+    "Collection Tin 2011.");
+
+static const u8 sDuelistPackCollectionTinJadenYukiDesc[] = _(
+    "Duelist Pack\n"
+    "Collection Tin:\n"
+    "Jaden Yuki.");
+
+static const u8 sDuelistPackAsterPhoenixDesc[] = _(
+    "Duelist Pack: Aster\n"
+    "Phoenix.");
+
+static const u8 sDuelistPackBattleCityDesc[] = _(
+    "Duelist Pack: Battle\n"
+    "City.");
+
+static const u8 sDuelistPackChazzPrincetonDesc[] = _(
+    "Duelist Pack: Chazz\n"
+    "Princeton.");
+
+static const u8 sDuelistPackCrowDesc[] = _(
+    "Duelist Pack: Crow.");
+
+static const u8 sDuelistPackDimensionalGuardiansDesc[] = _(
+    "Duelist Pack:\n"
+    "Dimensional\n"
+    "Guardians.");
+
+static const u8 sDuelistPackJadenYukiDesc[] = _(
+    "Duelist Pack: Jaden\n"
+    "Yuki.");
+
+static const u8 sDuelistPackJadenYuki2Desc[] = _(
+    "Duelist Pack: Jaden\n"
+    "Yuki 2.");
+
+static const u8 sDuelistPackJadenYuki3Desc[] = _(
+    "Duelist Pack: Jaden\n"
+    "Yuki 3.");
+
+static const u8 sDuelistPackJesseAndersonDesc[] = _(
+    "Duelist Pack: Jesse\n"
+    "Anderson.");
+
+static const u8 sDuelistPackKaibaDesc[] = _(
+    "Duelist Pack: Kaiba.");
+
+static const u8 sDuelistPackRivalsofthePharaohDesc[] = _(
+    "Duelist Pack: Rivals\n"
+    "of the Pharaoh.");
+
+static const u8 sDuelistPackSpecialEditionDesc[] = _(
+    "Duelist Pack:\n"
+    "Special Edition.");
+
+static const u8 sDuelistPackYugiDesc[] = _(
+    "Duelist Pack: Yugi.");
+
+static const u8 sDuelistPackYuseiDesc[] = _(
+    "Duelist Pack: Yusei.");
+
+static const u8 sDuelistPackYusei2Desc[] = _(
+    "Duelist Pack: Yusei\n"
+    "2.");
+
+static const u8 sDuelistPackYusei3Desc[] = _(
+    "Duelist Pack: Yusei\n"
+    "3.");
+
+static const u8 sDuelistPackZaneTruesdaleDesc[] = _(
+    "Duelist Pack: Zane\n"
+    "Truesdale.");
+
+static const u8 sDuelistRevolutionDesc[] = _(
+    "Duelist Revolution.");
+
+static const u8 sDuelistRevolutionSneakPeekParticipationCardDesc[] = _(
+    "Duelist Revolution\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sDuelistRevolutionSpecialEditionDesc[] = _(
+    "Duelist Revolution:\n"
+    "Special Edition.");
+
+static const u8 sDuelistSagaDesc[] = _(
+    "Duelist Saga.");
+
+static const u8 sDuelistsAdvanceDesc[] = _(
+    "Duelist's Advance.");
+
+static const u8 sEgyptianGodDeckObelisktheTormentorDesc[] = _(
+    "Egyptian God Deck:\n"
+    "Obelisk the\n"
+    "Tormentor.");
+
+static const u8 sEgyptianGodDeckSlifertheSkyDragonDesc[] = _(
+    "Egyptian God Deck:\n"
+    "Slifer the Sky\n"
+    "Dragon.");
+
+static const u8 sElementalEnergyDesc[] = _(
+    "Elemental Energy.");
+
+static const u8 sElementalEnergySneakPeekParticipationCardDesc[] = _(
+    "Elemental Energy\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sElementalEnergySpecialEditionDesc[] = _(
+    "Elemental Energy:\n"
+    "Special Edition.");
+
+static const u8 sEmperorofDarknessStructureDeckDesc[] = _(
+    "Emperor of Darkness\n"
+    "Structure Deck.");
+
+static const u8 sEnemyofJusticeDesc[] = _(
+    "Enemy of Justice.");
+
+static const u8 sEnemyofJusticeSneakPeekParticipationCardDesc[] = _(
+    "Enemy of Justice\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sEternityCodeDesc[] = _(
+    "Eternity Code.");
+
+static const u8 sEternityCodePremierepromotionalcardDesc[] = _(
+    "Eternity Code\n"
+    "Premiere!\n"
+    "promotional card.");
+
+static const u8 sEventPackSpeedDuelDesc[] = _(
+    "Event Pack Speed\n"
+    "Duel.");
+
+static const u8 sExclusivePackDesc[] = _(
+    "Exclusive Pack.");
+
+static const u8 sExtremeForceDesc[] = _(
+    "Extreme Force.");
+
+static const u8 sExtremeForceSneakPeekParticipationCardDesc[] = _(
+    "Extreme Force Sneak\n"
+    "Peek Participation\n"
+    "Card.");
+
+static const u8 sExtremeForceSpecialEditionDesc[] = _(
+    "Extreme Force\n"
+    "Special Edition.");
+
+static const u8 sExtremeVictoryDesc[] = _(
+    "Extreme Victory.");
+
+static const u8 sExtremeVictorySneakPeekParticipationCardDesc[] = _(
+    "Extreme Victory\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sFireFistsSpecialEditionDesc[] = _(
+    "Fire Fists: Special\n"
+    "Edition.");
+
+static const u8 sFistsoftheGadgetsDesc[] = _(
+    "Fists of the Gadgets.");
+
+static const u8 sFlamesofDestructionDesc[] = _(
+    "Flames of\n"
+    "Destruction.");
+
+static const u8 sFlamesofDestructionSneakPeekParticipationCardDesc[] = _(
+    "Flames of\n"
+    "Destruction Sneak\n"
+    "Peek Participation\n"
+    "Card.");
+
+static const u8 sFlamesofDestructionSpecialEditionDesc[] = _(
+    "Flames of\n"
+    "Destruction Special\n"
+    "Edition.");
+
+static const u8 sFlamingEternityDesc[] = _(
+    "Flaming Eternity.");
+
+static const u8 sFlamingEternitySneakPeekParticipationCardDesc[] = _(
+    "Flaming Eternity\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sForbiddenLegacyDesc[] = _(
+    "Forbidden Legacy.");
+
+static const u8 sForceoftheBreakerDesc[] = _(
+    "Force of the Breaker.");
+
+static const u8 sForceoftheBreakerSneakPeekParticipationCardDesc[] = _(
+    "Force of the Breaker\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sForceoftheBreakerSpecialEditionDesc[] = _(
+    "Force of the\n"
+    "Breaker: Special\n"
+    "Edition.");
+
+static const u8 sFusionEnforcersDesc[] = _(
+    "Fusion Enforcers.");
+
+static const u8 sGXNextGenerationDesc[] = _(
+    "GX Next Generation.");
+
+static const u8 sGalacticOverlordDesc[] = _(
+    "Galactic Overlord.");
+
+static const u8 sGalacticOverlordSneakPeekParticipationCardDesc[] = _(
+    "Galactic Overlord\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sGatesoftheUnderworldStructureDeckDesc[] = _(
+    "Gates of the\n"
+    "Underworld Structure\n"
+    "Deck.");
+
+static const u8 sGeargiaRampageStructureDeckDesc[] = _(
+    "Geargia Rampage\n"
+    "Structure Deck.");
+
+static const u8 sGenerationForceDesc[] = _(
+    "Generation Force.");
+
+static const u8 sGenerationForceSneakPeekParticipationCardDesc[] = _(
+    "Generation Force\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sGenerationForceSpecialEditionDesc[] = _(
+    "Generation Force:\n"
+    "Special Edition.");
+
+static const u8 sGenesisImpactDesc[] = _(
+    "Genesis Impact.");
+
+static const u8 sGhostsFromthePastDesc[] = _(
+    "Ghosts From the Past.");
+
+static const u8 sGhostsFromthePastThe2ndHauntingDesc[] = _(
+    "Ghosts From the\n"
+    "Past: The 2nd\n"
+    "Haunting.");
+
+static const u8 sGladiatorsAssaultDesc[] = _(
+    "Gladiator's Assault.");
+
+static const u8 sGladiatorsAssaultSneakPeekParticipationCardDesc[] = _(
+    "Gladiator's Assault\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sGladiatorsAssaultSpecialEditionDesc[] = _(
+    "Gladiator's Assault:\n"
+    "Special Edition.");
+
+static const u8 sGoldSeriesDesc[] = _(
+    "Gold Series.");
+
+static const u8 sGoldSeries2009Desc[] = _(
+    "Gold Series 2009.");
+
+static const u8 sGoldSeries3Desc[] = _(
+    "Gold Series 3.");
+
+static const u8 sGoldSeries4PyramidsEditionDesc[] = _(
+    "Gold Series 4:\n"
+    "Pyramids Edition.");
+
+static const u8 sGoldSeriesHauntedMineDesc[] = _(
+    "Gold Series: Haunted\n"
+    "Mine.");
+
+static const u8 sHEROStrikeStructureDeckDesc[] = _(
+    "HERO Strike\n"
+    "Structure Deck.");
+
+static const u8 sHiddenArsenalDesc[] = _(
+    "Hidden Arsenal.");
+
+static const u8 sHiddenArsenal2Desc[] = _(
+    "Hidden Arsenal 2.");
+
+static const u8 sHiddenArsenal3Desc[] = _(
+    "Hidden Arsenal 3.");
+
+static const u8 sHiddenArsenal4TrishulasTriumphDesc[] = _(
+    "Hidden Arsenal 4:\n"
+    "Trishula's Triumph.");
+
+static const u8 sHiddenArsenal5SteelswarmInvasionDesc[] = _(
+    "Hidden Arsenal 5:\n"
+    "Steelswarm Invasion.");
+
+static const u8 sHiddenArsenal5SteelswarmInvasionSpecialEditionDesc[] = _(
+    "Hidden Arsenal 5:\n"
+    "Steelswarm Invasion:\n"
+    "Special Edition.");
+
+static const u8 sHiddenArsenal6OmegaXyzDesc[] = _(
+    "Hidden Arsenal 6:\n"
+    "Omega Xyz.");
+
+static const u8 sHiddenArsenal7KnightofStarsDesc[] = _(
+    "Hidden Arsenal 7:\n"
+    "Knight of Stars.");
+
+static const u8 sHiddenArsenalChapter1Desc[] = _(
+    "Hidden Arsenal:\n"
+    "Chapter 1.");
+
+static const u8 sHiddenArsenalSpecialEditionDesc[] = _(
+    "Hidden Arsenal:\n"
+    "Special Edition.");
+
+static const u8 sHiddenSummonersDesc[] = _(
+    "Hidden Summoners.");
+
+static const u8 sHighSpeedRidersDesc[] = _(
+    "High-Speed Riders.");
+
+static const u8 sHobbyLeague1participationcardsADesc[] = _(
+    "Hobby League 1\n"
+    "participation cards\n"
+    "A.");
+
+static const u8 sHobbyLeague1participationcardsBDesc[] = _(
+    "Hobby League 1\n"
+    "participation cards\n"
+    "B.");
+
+static const u8 sHobbyLeague1participationcardsCDesc[] = _(
+    "Hobby League 1\n"
+    "participation cards\n"
+    "C.");
+
+static const u8 sHobbyLeague2participationcardADesc[] = _(
+    "Hobby League 2\n"
+    "participation card A.");
+
+static const u8 sHobbyLeague2participationcardBDesc[] = _(
+    "Hobby League 2\n"
+    "participation card B.");
+
+static const u8 sHobbyLeague2participationcardCDesc[] = _(
+    "Hobby League 2\n"
+    "participation card C.");
+
+static const u8 sHobbyLeague2participationcardDDesc[] = _(
+    "Hobby League 2\n"
+    "participation card D.");
+
+static const u8 sHobbyLeague2participationcardEDesc[] = _(
+    "Hobby League 2\n"
+    "participation card E.");
+
+static const u8 sHobbyLeague2participationcardFDesc[] = _(
+    "Hobby League 2\n"
+    "participation card F.");
+
+static const u8 sHobbyLeague3participationcardADesc[] = _(
+    "Hobby League 3\n"
+    "participation card A.");
+
+static const u8 sHobbyLeague3participationcardBDesc[] = _(
+    "Hobby League 3\n"
+    "participation card B.");
+
+static const u8 sHobbyLeague3participationcardCDesc[] = _(
+    "Hobby League 3\n"
+    "participation card C.");
+
+static const u8 sHobbyLeague3participationcardDDesc[] = _(
+    "Hobby League 3\n"
+    "participation card D.");
+
+static const u8 sHobbyLeague3participationcardEDesc[] = _(
+    "Hobby League 3\n"
+    "participation card E.");
+
+static const u8 sHobbyLeague3participationcardFDesc[] = _(
+    "Hobby League 3\n"
+    "participation card F.");
+
+static const u8 sHobbyLeague3participationcardGDesc[] = _(
+    "Hobby League 3\n"
+    "participation card G.");
+
+static const u8 sHobbyLeague4participationcardADesc[] = _(
+    "Hobby League 4\n"
+    "participation card A.");
+
+static const u8 sHobbyLeague4participationcardBDesc[] = _(
+    "Hobby League 4\n"
+    "participation card B.");
+
+static const u8 sHobbyLeague4participationcardCDesc[] = _(
+    "Hobby League 4\n"
+    "participation card C.");
+
+static const u8 sHobbyLeague4participationcardDDesc[] = _(
+    "Hobby League 4\n"
+    "participation card D.");
+
+static const u8 sHobbyLeague4participationcardEDesc[] = _(
+    "Hobby League 4\n"
+    "participation card E.");
+
+static const u8 sHobbyLeague4participationcardFDesc[] = _(
+    "Hobby League 4\n"
+    "participation card F.");
+
+static const u8 sHobbyLeague5participationcardADesc[] = _(
+    "Hobby League 5\n"
+    "participation card A.");
+
+static const u8 sHobbyLeague5participationcardBDesc[] = _(
+    "Hobby League 5\n"
+    "participation card B.");
+
+static const u8 sHobbyLeague5participationcardCDesc[] = _(
+    "Hobby League 5\n"
+    "participation card C.");
+
+static const u8 sHobbyLeague5participationcardDDesc[] = _(
+    "Hobby League 5\n"
+    "participation card D.");
+
+static const u8 sHobbyLeague5participationcardEDesc[] = _(
+    "Hobby League 5\n"
+    "participation card E.");
+
+static const u8 sHobbyLeague5participationcardFDesc[] = _(
+    "Hobby League 5\n"
+    "participation card F.");
+
+static const u8 sHobbyLeague6participationcardADesc[] = _(
+    "Hobby League 6\n"
+    "participation card A.");
+
+static const u8 sHobbyLeague6participationcardBDesc[] = _(
+    "Hobby League 6\n"
+    "participation card B.");
+
+static const u8 sHobbyLeague6participationcardCDesc[] = _(
+    "Hobby League 6\n"
+    "participation card C.");
+
+static const u8 sHobbyLeague6participationcardDDesc[] = _(
+    "Hobby League 6\n"
+    "participation card D.");
+
+static const u8 sHobbyLeague6participationcardEDesc[] = _(
+    "Hobby League 6\n"
+    "participation card E.");
+
+static const u8 sHobbyLeague6participationcardFDesc[] = _(
+    "Hobby League 6\n"
+    "participation card F.");
+
+static const u8 sHobbyLeague7participationcardADesc[] = _(
+    "Hobby League 7\n"
+    "participation card A.");
+
+static const u8 sHobbyLeague7participationcardBDesc[] = _(
+    "Hobby League 7\n"
+    "participation card B.");
+
+static const u8 sHobbyLeague7participationcardCDesc[] = _(
+    "Hobby League 7\n"
+    "participation card C.");
+
+static const u8 sHobbyLeague7participationcardDDesc[] = _(
+    "Hobby League 7\n"
+    "participation card D.");
+
+static const u8 sHobbyLeague7participationcardEDesc[] = _(
+    "Hobby League 7\n"
+    "participation card E.");
+
+static const u8 sHobbyLeague7participationcardFDesc[] = _(
+    "Hobby League 7\n"
+    "participation card F.");
+
+static const u8 sIgnitionAssaultDesc[] = _(
+    "Ignition Assault.");
+
+static const u8 sIgnitionAssaultSneakPeekParticipationCardDesc[] = _(
+    "Ignition Assault\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sIgnitionAssaultSpecialEditionDesc[] = _(
+    "Ignition Assault\n"
+    "Special Edition.");
+
+static const u8 sInvasionofChaosDesc[] = _(
+    "Invasion of Chaos.");
+
+static const u8 sInvasionofChaosSpecialEditionDesc[] = _(
+    "Invasion of Chaos:\n"
+    "Special Edition.");
+
+static const u8 sInvasionVengeanceDesc[] = _(
+    "Invasion: Vengeance.");
+
+static const u8 sInvasionVengeanceSneakPeekParticipationCardDesc[] = _(
+    "Invasion: Vengeance\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sInvasionVengeanceSpecialEditionDesc[] = _(
+    "Invasion: Vengeance:\n"
+    "Special Edition.");
+
+static const u8 sJudgmentoftheLightDesc[] = _(
+    "Judgment of the\n"
+    "Light.");
+
+static const u8 sJudgmentoftheLightSneakPeekParticipationCardDesc[] = _(
+    "Judgment of the\n"
+    "Light Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sJudgmentoftheLightDeluxeEditionDesc[] = _(
+    "Judgment of the\n"
+    "Light: Deluxe\n"
+    "Edition.");
+
+static const u8 sKCGrandTournament2021prizecardDesc[] = _(
+    "KC Grand Tournament\n"
+    "2021 prize card.");
+
+static const u8 sKCGrandTournamentprizecardDesc[] = _(
+    "KC Grand Tournament\n"
+    "prize card.");
+
+static const u8 sKidsWBDuelofDestinypromotionalcardDesc[] = _(
+    "Kids WB Duel of\n"
+    "Destiny promotional\n"
+    "card.");
+
+static const u8 sKingsCourtDesc[] = _(
+    "King's Court.");
+
+static const u8 sLabyrinthofNightmareDesc[] = _(
+    "Labyrinth of\n"
+    "Nightmare.");
+
+static const u8 sLegacyofDarknessDesc[] = _(
+    "Legacy of Darkness.");
+
+static const u8 sLegacyofDestructionDesc[] = _(
+    "Legacy of\n"
+    "Destruction.");
+
+static const u8 sLegacyoftheValiantDesc[] = _(
+    "Legacy of the\n"
+    "Valiant.");
+
+static const u8 sLegacyoftheValiantSneakPeekParticipationCardDesc[] = _(
+    "Legacy of the\n"
+    "Valiant Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sLegacyoftheValiantDeluxeEditionDesc[] = _(
+    "Legacy of the\n"
+    "Valiant: Deluxe\n"
+    "Edition.");
+
+static const u8 sLegendofBlueEyesWhiteDragonDesc[] = _(
+    "Legend of Blue Eyes\n"
+    "White Dragon.");
+
+static const u8 sLegendaryCollectionDesc[] = _(
+    "Legendary Collection.");
+
+static const u8 sLegendaryCollection2TheDuelAcademyYearsDesc[] = _(
+    "Legendary Collection\n"
+    "2: The Duel Academy\n"
+    "Years.");
+
+static const u8 sLegendaryCollection2TheDuelAcademyYearsMegaPackDesc[] = _(
+    "Legendary Collection\n"
+    "2: The Duel Academy\n"
+    "Years Mega Pack.");
+
+static const u8 sLegendaryCollection3YugisWorldDesc[] = _(
+    "Legendary Collection\n"
+    "3: Yugi's World.");
+
+static const u8 sLegendaryCollection3YugisWorldMegaPackDesc[] = _(
+    "Legendary Collection\n"
+    "3: Yugi's World Mega\n"
+    "Pack.");
+
+static const u8 sLegendaryCollection4JoeysWorldDesc[] = _(
+    "Legendary Collection\n"
+    "4: Joey's World.");
+
+static const u8 sLegendaryCollection4JoeysWorldMegaPackDesc[] = _(
+    "Legendary Collection\n"
+    "4: Joey's World Mega\n"
+    "Pack.");
+
+static const u8 sLegendaryCollection5DsDesc[] = _(
+    "Legendary Collection\n"
+    "5D's.");
+
+static const u8 sLegendaryCollection5DsMegaPackDesc[] = _(
+    "Legendary Collection\n"
+    "5D's Mega Pack.");
+
+static const u8 sLegendaryCollectionKaibaDesc[] = _(
+    "Legendary Collection\n"
+    "Kaiba.");
+
+static const u8 sLegendaryCollectionKaibaMegaPackDesc[] = _(
+    "Legendary Collection\n"
+    "Kaiba Mega Pack.");
+
+static const u8 sLegendaryCollection25thAnniversaryEditionDesc[] = _(
+    "Legendary\n"
+    "Collection: 25th\n"
+    "Anniversary Edition.");
+
+static const u8 sLegendaryDecksIIDesc[] = _(
+    "Legendary Decks II.");
+
+static const u8 sLegendaryDragonDecksDesc[] = _(
+    "Legendary Dragon\n"
+    "Decks.");
+
+static const u8 sLegendaryDuelistsDesc[] = _(
+    "Legendary Duelists.");
+
+static const u8 sLegendaryDuelistsAncientMillenniumDesc[] = _(
+    "Legendary Duelists:\n"
+    "Ancient Millennium.");
+
+static const u8 sLegendaryDuelistsDuelsFromtheDeepDesc[] = _(
+    "Legendary Duelists:\n"
+    "Duels From the Deep.");
+
+static const u8 sLegendaryDuelistsImmortalDestinyDesc[] = _(
+    "Legendary Duelists:\n"
+    "Immortal Destiny.");
+
+static const u8 sLegendaryDuelistsMagicalHeroDesc[] = _(
+    "Legendary Duelists:\n"
+    "Magical Hero.");
+
+static const u8 sLegendaryDuelistsRageofRaDesc[] = _(
+    "Legendary Duelists:\n"
+    "Rage of Ra.");
+
+static const u8 sLegendaryDuelistsSeason1Desc[] = _(
+    "Legendary Duelists:\n"
+    "Season 1.");
+
+static const u8 sLegendaryDuelistsSeason2Desc[] = _(
+    "Legendary Duelists:\n"
+    "Season 2.");
+
+static const u8 sLegendaryDuelistsSeason3Desc[] = _(
+    "Legendary Duelists:\n"
+    "Season 3.");
+
+static const u8 sLegendaryDuelistsSistersoftheRoseDesc[] = _(
+    "Legendary Duelists:\n"
+    "Sisters of the Rose.");
+
+static const u8 sLegendaryDuelistsSoulburningVolcanoDesc[] = _(
+    "Legendary Duelists:\n"
+    "Soulburning Volcano.");
+
+static const u8 sLegendaryDuelistsSynchroStormDesc[] = _(
+    "Legendary Duelists:\n"
+    "Synchro Storm.");
+
+static const u8 sLegendaryDuelistsWhiteDragonAbyssDesc[] = _(
+    "Legendary Duelists:\n"
+    "White Dragon Abyss.");
+
+static const u8 sLegendaryHeroDecksDesc[] = _(
+    "Legendary Hero Decks.");
+
+static const u8 sLightandDarknessPowerPackDesc[] = _(
+    "Light and Darkness\n"
+    "Power Pack.");
+
+static const u8 sLightofDestructionDesc[] = _(
+    "Light of Destruction.");
+
+static const u8 sLightofDestructionSneakPeekParticipationCardDesc[] = _(
+    "Light of Destruction\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sLightofDestructionSpecialEditionDesc[] = _(
+    "Light of\n"
+    "Destruction: Special\n"
+    "Edition.");
+
+static const u8 sLightningOverdriveDesc[] = _(
+    "Lightning Overdrive.");
+
+static const u8 sLightningOverdrivePremierepromotionalcardDesc[] = _(
+    "Lightning Overdrive\n"
+    "Premiere!\n"
+    "promotional card.");
+
+static const u8 sLimitedEdition1Desc[] = _(
+    "Limited Edition 1.");
+
+static const u8 sLordoftheTachyonGalaxyDesc[] = _(
+    "Lord of the Tachyon\n"
+    "Galaxy.");
+
+static const u8 sLordoftheTachyonGalaxySneakPeekParticipationCardDesc[] = _(
+    "Lord of the Tachyon\n"
+    "Galaxy Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sLostSanctuaryStructureDeckDesc[] = _(
+    "Lost Sanctuary\n"
+    "Structure Deck.");
+
+static const u8 sMachinaMayhemStructureDeckDesc[] = _(
+    "Machina Mayhem\n"
+    "Structure Deck.");
+
+static const u8 sMachineReactorStructureDeckDesc[] = _(
+    "Machine Reactor\n"
+    "Structure Deck.");
+
+static const u8 sMagicRulerDesc[] = _(
+    "Magic Ruler.");
+
+static const u8 sMagiciansForceDesc[] = _(
+    "Magician's Force.");
+
+static const u8 sMagnificentMavensDesc[] = _(
+    "Magnificent Mavens.");
+
+static const u8 sMakeAWishFoundationpromotionalcardDesc[] = _(
+    "Make-A-Wish\n"
+    "Foundation\n"
+    "promotional card.");
+
+static const u8 sMasterCollectionVolume1Desc[] = _(
+    "Master Collection\n"
+    "Volume 1.");
+
+static const u8 sMasterCollectionVolume2Desc[] = _(
+    "Master Collection\n"
+    "Volume 2.");
+
+static const u8 sMasterofPendulumStructureDeckDesc[] = _(
+    "Master of Pendulum\n"
+    "Structure Deck.");
+
+static const u8 sMattelActionFigurepromotionalcardsSeries1Desc[] = _(
+    "Mattel Action Figure\n"
+    "promotional cards:\n"
+    "Series 1.");
+
+static const u8 sMattelActionFigurepromotionalcardsSeries2Desc[] = _(
+    "Mattel Action Figure\n"
+    "promotional cards:\n"
+    "Series 2.");
+
+static const u8 sMattelActionFigurepromotionalcardsSeries3Desc[] = _(
+    "Mattel Action Figure\n"
+    "promotional cards:\n"
+    "Series 3.");
+
+static const u8 sMaximumCrisisDesc[] = _(
+    "Maximum Crisis.");
+
+static const u8 sMaximumCrisisSneakPeekParticipationCardDesc[] = _(
+    "Maximum Crisis Sneak\n"
+    "Peek Participation\n"
+    "Card.");
+
+static const u8 sMaximumCrisisSpecialEditionDesc[] = _(
+    "Maximum Crisis:\n"
+    "Special Edition.");
+
+static const u8 sMaximumGoldDesc[] = _(
+    "Maximum Gold.");
+
+static const u8 sMaximumGoldElDoradoDesc[] = _(
+    "Maximum Gold: El\n"
+    "Dorado.");
+
+static const u8 sMazeofMemoriesDesc[] = _(
+    "Maze of Memories.");
+
+static const u8 sMazeofMillenniaDesc[] = _(
+    "Maze of Millennia.");
+
+static const u8 sMazeoftheMasterDesc[] = _(
+    "Maze of the Master.");
+
+static const u8 sMcDonaldsPromotionalCardsDesc[] = _(
+    "McDonald's\n"
+    "Promotional Cards.");
+
+static const u8 sMcDonaldsPromotionalCards2Desc[] = _(
+    "McDonald's\n"
+    "Promotional Cards 2.");
+
+static const u8 sMetalRaidersDesc[] = _(
+    "Metal Raiders.");
+
+static const u8 sMillenniumPackDesc[] = _(
+    "Millennium Pack.");
+
+static const u8 sMoviePackDesc[] = _(
+    "Movie Pack.");
+
+static const u8 sMysticFightersDesc[] = _(
+    "Mystic Fighters.");
+
+static const u8 sNobleKnightsoftheRoundTableBoxSetDesc[] = _(
+    "Noble Knights of the\n"
+    "Round Table Box Set.");
+
+static const u8 sNobleKnightsoftheRoundTablePowerUpPackDesc[] = _(
+    "Noble Knights of the\n"
+    "Round Table Power-Up\n"
+    "Pack.");
+
+static const u8 sNumberHuntersDesc[] = _(
+    "Number Hunters.");
+
+static const u8 sOTSTournamentPack1Desc[] = _(
+    "OTS Tournament Pack\n"
+    "1.");
+
+static const u8 sOTSTournamentPack10Desc[] = _(
+    "OTS Tournament Pack\n"
+    "10.");
+
+static const u8 sOTSTournamentPack10PORDesc[] = _(
+    "OTS Tournament Pack\n"
+    "10 (POR).");
+
+static const u8 sOTSTournamentPack11Desc[] = _(
+    "OTS Tournament Pack\n"
+    "11.");
+
+static const u8 sOTSTournamentPack11PORDesc[] = _(
+    "OTS Tournament Pack\n"
+    "11 (POR).");
+
+static const u8 sOTSTournamentPack12Desc[] = _(
+    "OTS Tournament Pack\n"
+    "12.");
+
+static const u8 sOTSTournamentPack12PORDesc[] = _(
+    "OTS Tournament Pack\n"
+    "12 (POR).");
+
+static const u8 sOTSTournamentPack13Desc[] = _(
+    "OTS Tournament Pack\n"
+    "13.");
+
+static const u8 sOTSTournamentPack13PORDesc[] = _(
+    "OTS Tournament Pack\n"
+    "13 (POR).");
+
+static const u8 sOTSTournamentPack14Desc[] = _(
+    "OTS Tournament Pack\n"
+    "14.");
+
+static const u8 sOTSTournamentPack14PORDesc[] = _(
+    "OTS Tournament Pack\n"
+    "14 (POR).");
+
+static const u8 sOTSTournamentPack15Desc[] = _(
+    "OTS Tournament Pack\n"
+    "15.");
+
+static const u8 sOTSTournamentPack15PORDesc[] = _(
+    "OTS Tournament Pack\n"
+    "15 (POR).");
+
+static const u8 sOTSTournamentPack16Desc[] = _(
+    "OTS Tournament Pack\n"
+    "16.");
+
+static const u8 sOTSTournamentPack16PORDesc[] = _(
+    "OTS Tournament Pack\n"
+    "16 (POR).");
+
+static const u8 sOTSTournamentPack17Desc[] = _(
+    "OTS Tournament Pack\n"
+    "17.");
+
+static const u8 sOTSTournamentPack17PORDesc[] = _(
+    "OTS Tournament Pack\n"
+    "17 (POR).");
+
+static const u8 sOTSTournamentPack18Desc[] = _(
+    "OTS Tournament Pack\n"
+    "18.");
+
+static const u8 sOTSTournamentPack18PORDesc[] = _(
+    "OTS Tournament Pack\n"
+    "18 (POR).");
+
+static const u8 sOTSTournamentPack19Desc[] = _(
+    "OTS Tournament Pack\n"
+    "19.");
+
+static const u8 sOTSTournamentPack19PORDesc[] = _(
+    "OTS Tournament Pack\n"
+    "19 (POR).");
+
+static const u8 sOTSTournamentPack2Desc[] = _(
+    "OTS Tournament Pack\n"
+    "2.");
+
+static const u8 sOTSTournamentPack20Desc[] = _(
+    "OTS Tournament Pack\n"
+    "20.");
+
+static const u8 sOTSTournamentPack21Desc[] = _(
+    "OTS Tournament Pack\n"
+    "21.");
+
+static const u8 sOTSTournamentPack22Desc[] = _(
+    "OTS Tournament Pack\n"
+    "22.");
+
+static const u8 sOTSTournamentPack23Desc[] = _(
+    "OTS Tournament Pack\n"
+    "23.");
+
+static const u8 sOTSTournamentPack24Desc[] = _(
+    "OTS Tournament Pack\n"
+    "24.");
+
+static const u8 sOTSTournamentPack25Desc[] = _(
+    "OTS Tournament Pack\n"
+    "25.");
+
+static const u8 sOTSTournamentPack26Desc[] = _(
+    "OTS Tournament Pack\n"
+    "26.");
+
+static const u8 sOTSTournamentPack27Desc[] = _(
+    "OTS Tournament Pack\n"
+    "27.");
+
+static const u8 sOTSTournamentPack28Desc[] = _(
+    "OTS Tournament Pack\n"
+    "28.");
+
+static const u8 sOTSTournamentPack3Desc[] = _(
+    "OTS Tournament Pack\n"
+    "3.");
+
+static const u8 sOTSTournamentPack4Desc[] = _(
+    "OTS Tournament Pack\n"
+    "4.");
+
+static const u8 sOTSTournamentPack5Desc[] = _(
+    "OTS Tournament Pack\n"
+    "5.");
+
+static const u8 sOTSTournamentPack6Desc[] = _(
+    "OTS Tournament Pack\n"
+    "6.");
+
+static const u8 sOTSTournamentPack7Desc[] = _(
+    "OTS Tournament Pack\n"
+    "7.");
+
+static const u8 sOTSTournamentPack7PORDesc[] = _(
+    "OTS Tournament Pack\n"
+    "7 (POR).");
+
+static const u8 sOTSTournamentPack8Desc[] = _(
+    "OTS Tournament Pack\n"
+    "8.");
+
+static const u8 sOTSTournamentPack8PORDesc[] = _(
+    "OTS Tournament Pack\n"
+    "8 (POR).");
+
+static const u8 sOTSTournamentPack9Desc[] = _(
+    "OTS Tournament Pack\n"
+    "9.");
+
+static const u8 sOTSTournamentPack9PORDesc[] = _(
+    "OTS Tournament Pack\n"
+    "9 (POR).");
+
+static const u8 sOnslaughtoftheFireKingsStructureDeckDesc[] = _(
+    "Onslaught of the\n"
+    "Fire Kings Structure\n"
+    "Deck.");
+
+static const u8 sOrderofChaosDesc[] = _(
+    "Order of Chaos.");
+
+static const u8 sOrderofChaosSneakPeekParticipationCardDesc[] = _(
+    "Order of Chaos Sneak\n"
+    "Peek Participation\n"
+    "Card.");
+
+static const u8 sOrderofChaosSpecialEditionDesc[] = _(
+    "Order of Chaos:\n"
+    "Special Edition.");
+
+static const u8 sPalladiumOracleMahadSweepstakesDesc[] = _(
+    "Palladium Oracle\n"
+    "Mahad Sweepstakes.");
+
+static const u8 sPendulumDominationStructureDeckDesc[] = _(
+    "Pendulum Domination\n"
+    "Structure Deck.");
+
+static const u8 sPendulumEvolutionDesc[] = _(
+    "Pendulum Evolution.");
+
+static const u8 sPhantomDarknessDesc[] = _(
+    "Phantom Darkness.");
+
+static const u8 sPhantomDarknessSneakPeekParticipationCardDesc[] = _(
+    "Phantom Darkness\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sPhantomDarknessSpecialEditionDesc[] = _(
+    "Phantom Darkness:\n"
+    "Special Edition.");
+
+static const u8 sPhantomNightmareDesc[] = _(
+    "Phantom Nightmare.");
+
+static const u8 sPhantomRageDesc[] = _(
+    "Phantom Rage.");
+
+static const u8 sPhantomRagePremierepromotionalcardDesc[] = _(
+    "Phantom Rage\n"
+    "Premiere!\n"
+    "promotional card.");
+
+static const u8 sPharaohTour2005promotionalcardsDesc[] = _(
+    "Pharaoh Tour 2005\n"
+    "promotional cards.");
+
+static const u8 sPharaohTour2006promotionalcardsDesc[] = _(
+    "Pharaoh Tour 2006\n"
+    "promotional cards.");
+
+static const u8 sPharaohTour2007promotionalcardsDesc[] = _(
+    "Pharaoh Tour 2007\n"
+    "promotional cards.");
+
+static const u8 sPharaohsServantDesc[] = _(
+    "Pharaoh's Servant.");
+
+static const u8 sPharaonicGuardianDesc[] = _(
+    "Pharaonic Guardian.");
+
+static const u8 sPhotonHypernovaDesc[] = _(
+    "Photon Hypernova.");
+
+static const u8 sPhotonShockwaveDesc[] = _(
+    "Photon Shockwave.");
+
+static const u8 sPhotonShockwaveSneakPeekParticipationCardDesc[] = _(
+    "Photon Shockwave\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sPoweroftheDuelistDesc[] = _(
+    "Power of the Duelist.");
+
+static const u8 sPoweroftheDuelistSneakPeekParticipationCardDesc[] = _(
+    "Power of the Duelist\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sPoweroftheElementsDesc[] = _(
+    "Power of the\n"
+    "Elements.");
+
+static const u8 sPremiumCollectionTinDesc[] = _(
+    "Premium Collection\n"
+    "Tin.");
+
+static const u8 sPremiumGoldDesc[] = _(
+    "Premium Gold.");
+
+static const u8 sPremiumGoldInfiniteGoldDesc[] = _(
+    "Premium Gold:\n"
+    "Infinite Gold.");
+
+static const u8 sPremiumGoldReturnoftheBlingDesc[] = _(
+    "Premium Gold: Return\n"
+    "of the Bling.");
+
+static const u8 sPremiumPackTCGDesc[] = _(
+    "Premium Pack (TCG).");
+
+static const u8 sPremiumPack2TCGDesc[] = _(
+    "Premium Pack 2 (TCG).");
+
+static const u8 sPrimalOriginDesc[] = _(
+    "Primal Origin.");
+
+static const u8 sPrimalOriginPlusDesc[] = _(
+    "Primal Origin Plus.");
+
+static const u8 sPrimalOriginSneakPeekParticipationCardDesc[] = _(
+    "Primal Origin Sneak\n"
+    "Peek Participation\n"
+    "Card.");
+
+static const u8 sPrimalOriginDeluxeEditionDesc[] = _(
+    "Primal Origin:\n"
+    "Deluxe Edition.");
+
+static const u8 sQuarterCenturyBonanzaDesc[] = _(
+    "Quarter Century\n"
+    "Bonanza.");
+
+static const u8 sQuarterCenturyStampedeDesc[] = _(
+    "Quarter Century\n"
+    "Stampede.");
+
+static const u8 sRaYellowMegaPackDesc[] = _(
+    "Ra Yellow Mega Pack.");
+
+static const u8 sRaYellowMegaPackSpecialEditionDesc[] = _(
+    "Ra Yellow Mega Pack:\n"
+    "Special Edition.");
+
+static const u8 sRageoftheAbyssDesc[] = _(
+    "Rage of the Abyss.");
+
+static const u8 sRagingBattleDesc[] = _(
+    "Raging Battle.");
+
+static const u8 sRagingBattleSneakPeekParticipationCardDesc[] = _(
+    "Raging Battle Sneak\n"
+    "Peek Participation\n"
+    "Card.");
+
+static const u8 sRagingBattleSpecialEditionDesc[] = _(
+    "Raging Battle:\n"
+    "Special Edition.");
+
+static const u8 sRagingTempestDesc[] = _(
+    "Raging Tempest.");
+
+static const u8 sRagingTempestSneakPeekParticipationCardDesc[] = _(
+    "Raging Tempest Sneak\n"
+    "Peek Participation\n"
+    "Card.");
+
+static const u8 sRagingTempestSpecialEditionDesc[] = _(
+    "Raging Tempest:\n"
+    "Special Edition.");
+
+static const u8 sRealmofLightStructureDeckDesc[] = _(
+    "Realm of Light\n"
+    "Structure Deck.");
+
+static const u8 sRealmoftheSeaEmperorStructureDeckDesc[] = _(
+    "Realm of the Sea\n"
+    "Emperor Structure\n"
+    "Deck.");
+
+static const u8 sRemoteDuelatHomeSweepstakesDesc[] = _(
+    "Remote Duel at Home\n"
+    "Sweepstakes.");
+
+static const u8 sRetroPackDesc[] = _(
+    "Retro Pack.");
+
+static const u8 sRetroPack2Desc[] = _(
+    "Retro Pack 2.");
+
+static const u8 sReturnoftheDuelistDesc[] = _(
+    "Return of the\n"
+    "Duelist.");
+
+static const u8 sReturnoftheDuelistSneakPeekParticipationCardDesc[] = _(
+    "Return of the\n"
+    "Duelist Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sReturnoftheDuelistSpecialEditionDesc[] = _(
+    "Return of the\n"
+    "Duelist: Special\n"
+    "Edition.");
+
+static const u8 sRiseofDestinyDesc[] = _(
+    "Rise of Destiny.");
+
+static const u8 sRiseofDestinySpecialEditionDesc[] = _(
+    "Rise of Destiny:\n"
+    "Special Edition.");
+
+static const u8 sRiseoftheDragonLordsStructureDeckDesc[] = _(
+    "Rise of the Dragon\n"
+    "Lords Structure Deck.");
+
+static const u8 sRiseoftheDuelistDesc[] = _(
+    "Rise of the Duelist.");
+
+static const u8 sRiseoftheDuelistPremierepromotionalcardDesc[] = _(
+    "Rise of the Duelist\n"
+    "Premiere!\n"
+    "promotional card.");
+
+static const u8 sRiseoftheTrueDragonsStructureDeckDesc[] = _(
+    "Rise of the True\n"
+    "Dragons Structure\n"
+    "Deck.");
+
+static const u8 sRisingRampageDesc[] = _(
+    "Rising Rampage.");
+
+static const u8 sRisingRampageSneakPeekParticipationCardDesc[] = _(
+    "Rising Rampage Sneak\n"
+    "Peek Participation\n"
+    "Card.");
+
+static const u8 sRisingRampageSpecialEditionDesc[] = _(
+    "Rising Rampage\n"
+    "Special Edition.");
+
+static const u8 sSJJumpPackSpring2020promotionalcardDesc[] = _(
+    "SJ Jump Pack Spring\n"
+    "2020 promotional\n"
+    "card.");
+
+static const u8 sSaberForceStarterDeckDesc[] = _(
+    "Saber Force Starter\n"
+    "Deck.");
+
+static const u8 sSagaofBlueEyesWhiteDragonStructureDeckDesc[] = _(
+    "Saga of Blue-Eyes\n"
+    "White Dragon\n"
+    "Structure Deck.");
+
+static const u8 sSamuraiAssaultDesc[] = _(
+    "Samurai Assault.");
+
+static const u8 sSamuraiWarlordsStructureDeckDesc[] = _(
+    "Samurai Warlords\n"
+    "Structure Deck.");
+
+static const u8 sSanDiegoComicConpromotionalcardsDesc[] = _(
+    "San Diego Comic-Con\n"
+    "promotional cards.");
+
+static const u8 sSavageStrikeDesc[] = _(
+    "Savage Strike.");
+
+static const u8 sSavageStrikeSneakPeekParticipationCardDesc[] = _(
+    "Savage Strike Sneak\n"
+    "Peek Participation\n"
+    "Card.");
+
+static const u8 sSavageStrikeSpecialEditionDesc[] = _(
+    "Savage Strike\n"
+    "Special Edition.");
+
+static const u8 sSecretSlayersDesc[] = _(
+    "Secret Slayers.");
+
+static const u8 sSecretsofEternityDesc[] = _(
+    "Secrets of Eternity.");
+
+static const u8 sSecretsofEternitySneakPeekParticipationCardDesc[] = _(
+    "Secrets of Eternity\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sSecretsofEternitySuperEditionDesc[] = _(
+    "Secrets of Eternity:\n"
+    "Super Edition.");
+
+static const u8 sShadowSpectersDesc[] = _(
+    "Shadow Specters.");
+
+static const u8 sShadowSpectersSneakPeekParticipationCardDesc[] = _(
+    "Shadow Specters\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sShadowSpectersSpecialEditionDesc[] = _(
+    "Shadow Specters:\n"
+    "Special Edition.");
+
+static const u8 sShadowofInfinityDesc[] = _(
+    "Shadow of Infinity.");
+
+static const u8 sShadowofInfinitySneakPeekParticipationCardDesc[] = _(
+    "Shadow of Infinity\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sShadowofInfinitySpecialEditionDesc[] = _(
+    "Shadow of Infinity:\n"
+    "Special Edition.");
+
+static const u8 sShadowsinValhallaDesc[] = _(
+    "Shadows in Valhalla.");
+
+static const u8 sShiningVictoriesDesc[] = _(
+    "Shining Victories.");
+
+static const u8 sShiningVictoriesSneakPeekParticipationCardDesc[] = _(
+    "Shining Victories\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sShiningVictoriesSpecialEditionDesc[] = _(
+    "Shining Victories:\n"
+    "Special Edition.");
+
+static const u8 sShonenJump2007subscriptionbonusDesc[] = _(
+    "Shonen Jump 2007\n"
+    "subscription bonus.");
+
+static const u8 sShonenJumpChampionship2004PrizeCardDesc[] = _(
+    "Shonen Jump\n"
+    "Championship 2004\n"
+    "Prize Card.");
+
+static const u8 sShonenJumpChampionship2005PrizeCardDesc[] = _(
+    "Shonen Jump\n"
+    "Championship 2005\n"
+    "Prize Card.");
+
+static const u8 sShonenJumpChampionship2006PrizeCardDesc[] = _(
+    "Shonen Jump\n"
+    "Championship 2006\n"
+    "Prize Card.");
+
+static const u8 sShonenJumpChampionship2007PrizeCardADesc[] = _(
+    "Shonen Jump\n"
+    "Championship 2007\n"
+    "Prize Card A.");
+
+static const u8 sShonenJumpChampionship2007PrizeCardBDesc[] = _(
+    "Shonen Jump\n"
+    "Championship 2007\n"
+    "Prize Card B.");
+
+static const u8 sShonenJumpChampionship2008PrizeCardDesc[] = _(
+    "Shonen Jump\n"
+    "Championship 2008\n"
+    "Prize Card.");
+
+static const u8 sShonenJumpChampionship2009PrizeCardDesc[] = _(
+    "Shonen Jump\n"
+    "Championship 2009\n"
+    "Prize Card.");
+
+static const u8 sShonenJumpDecember2010subscriptionbonusDesc[] = _(
+    "Shonen Jump December\n"
+    "2010 subscription\n"
+    "bonus.");
+
+static const u8 sShonenJumpDecember2011subscriptionbonusDesc[] = _(
+    "Shonen Jump December\n"
+    "2011 subscription\n"
+    "bonus.");
+
+static const u8 sShonenJumpFebruary2009subscriptionbonusDesc[] = _(
+    "Shonen Jump February\n"
+    "2009 subscription\n"
+    "bonus.");
+
+static const u8 sShonenJumpJuneJuly2011subscriptionbonusDesc[] = _(
+    "Shonen Jump\n"
+    "June/July 2011\n"
+    "subscription bonus.");
+
+static const u8 sShonenJumpMarch2010subscriptionbonusDesc[] = _(
+    "Shonen Jump March\n"
+    "2010 subscription\n"
+    "bonus.");
+
+static const u8 sShonenJumpMay2006subscriptionbonusDesc[] = _(
+    "Shonen Jump May 2006\n"
+    "subscription bonus.");
+
+static const u8 sShonenJumpMay2008subscriptionbonusDesc[] = _(
+    "Shonen Jump May 2008\n"
+    "subscription bonus.");
+
+static const u8 sShonenJumpMay2010subscriptionbonusDesc[] = _(
+    "Shonen Jump May 2010\n"
+    "subscription bonus.");
+
+static const u8 sShonenJumpScholasticEditionVol9Issue1promotionalcardDesc[] = _(
+    "Shonen Jump\n"
+    "Scholastic Edition\n"
+    "Vol. 9, Issue 1\n"
+    "promotional card.");
+
+static const u8 sShonenJumpVol1Issue1promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 1,\n"
+    "Issue 1 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol10Issue1promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 10,\n"
+    "Issue 1 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol10Issue3promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 10,\n"
+    "Issue 3 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol10Issue4promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 10,\n"
+    "Issue 4 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol2Issue1promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 2,\n"
+    "Issue 1 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol3Issue1promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 3,\n"
+    "Issue 1 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol4Issue1promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 4,\n"
+    "Issue 1 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol4Issue11promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 4,\n"
+    "Issue 11 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol4Issue12promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 4,\n"
+    "Issue 12 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol5Issue1promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 5,\n"
+    "Issue 1 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol5Issue11promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 5,\n"
+    "Issue 11 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol5Issue4promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 5,\n"
+    "Issue 4 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol5Issue6promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 5,\n"
+    "Issue 6 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol5Issue9promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 5,\n"
+    "Issue 9 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol6Issue1promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 6,\n"
+    "Issue 1 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol6Issue12promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 6,\n"
+    "Issue 12 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol6Issue3promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 6,\n"
+    "Issue 3 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol6Issue5promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 6,\n"
+    "Issue 5 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol6Issue9promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 6,\n"
+    "Issue 9 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol7Issue1promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 7,\n"
+    "Issue 1 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol7Issue11promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 7,\n"
+    "Issue 11 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol7Issue3promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 7,\n"
+    "Issue 3 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol7Issue6promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 7,\n"
+    "Issue 6 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol7Issue9promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 7,\n"
+    "Issue 9 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol8Issue1promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 8,\n"
+    "Issue 1 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol8Issue11promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 8,\n"
+    "Issue 11 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol8Issue3promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 8,\n"
+    "Issue 3 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol8Issue5promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 8,\n"
+    "Issue 5 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol8Issue7promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 8,\n"
+    "Issue 7 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol8Issue9promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 8,\n"
+    "Issue 9 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol9Issue1promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 9,\n"
+    "Issue 1 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol9Issue10promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 9,\n"
+    "Issue 10 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol9Issue3promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 9,\n"
+    "Issue 3 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol9Issue4promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 9,\n"
+    "Issue 4 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol9Issue6promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 9,\n"
+    "Issue 6 promotional\n"
+    "card.");
+
+static const u8 sShonenJumpVol9Issue8promotionalcardDesc[] = _(
+    "Shonen Jump Vol. 9,\n"
+    "Issue 8 promotional\n"
+    "card.");
+
+static const u8 sSoulFusionDesc[] = _(
+    "Soul Fusion.");
+
+static const u8 sSoulFusionSneakPeekParticipationCardDesc[] = _(
+    "Soul Fusion Sneak\n"
+    "Peek Participation\n"
+    "Card.");
+
+static const u8 sSoulFusionSpecialEditionDesc[] = _(
+    "Soul Fusion Special\n"
+    "Edition.");
+
+static const u8 sSouloftheDuelistDesc[] = _(
+    "Soul of the Duelist.");
+
+static const u8 sSpaceTimeShowdownPowerUpPackDesc[] = _(
+    "Space-Time Showdown\n"
+    "Power-Up Pack.");
+
+static const u8 sSpeedDuelDemoDeckDesc[] = _(
+    "Speed Duel Demo Deck.");
+
+static const u8 sSpeedDuelDemoDeck2020Desc[] = _(
+    "Speed Duel Demo Deck\n"
+    "2020.");
+
+static const u8 sSpeedDuelGXDuelAcademyBoxDesc[] = _(
+    "Speed Duel GX: Duel\n"
+    "Academy Box.");
+
+static const u8 sSpeedDuelGXDuelistsofShadowsDesc[] = _(
+    "Speed Duel GX:\n"
+    "Duelists of Shadows.");
+
+static const u8 sSpeedDuelGXMidtermParadoxDesc[] = _(
+    "Speed Duel GX:\n"
+    "Midterm Paradox.");
+
+static const u8 sSpeedDuelStarterDecksDestinyMastersDesc[] = _(
+    "Speed Duel Starter\n"
+    "Decks: Destiny\n"
+    "Masters.");
+
+static const u8 sSpeedDuelStarterDecksDuelistsofTomorrowDesc[] = _(
+    "Speed Duel Starter\n"
+    "Decks: Duelists of\n"
+    "Tomorrow.");
+
+static const u8 sSpeedDuelStarterDecksMatchoftheMillenniumDesc[] = _(
+    "Speed Duel Starter\n"
+    "Decks: Match of the\n"
+    "Millennium.");
+
+static const u8 sSpeedDuelStarterDecksTwistedNightmaresDesc[] = _(
+    "Speed Duel Starter\n"
+    "Decks: Twisted\n"
+    "Nightmares.");
+
+static const u8 sSpeedDuelStarterDecksUltimatePredatorsDesc[] = _(
+    "Speed Duel Starter\n"
+    "Decks: Ultimate\n"
+    "Predators.");
+
+static const u8 sSpeedDuelTournamentPack1Desc[] = _(
+    "Speed Duel\n"
+    "Tournament Pack 1.");
+
+static const u8 sSpeedDuelTournamentPack2Desc[] = _(
+    "Speed Duel\n"
+    "Tournament Pack 2.");
+
+static const u8 sSpeedDuelTournamentPack3Desc[] = _(
+    "Speed Duel\n"
+    "Tournament Pack 3.");
+
+static const u8 sSpeedDuelTournamentPack4Desc[] = _(
+    "Speed Duel\n"
+    "Tournament Pack 4.");
+
+static const u8 sSpeedDuelTournamentPack5Desc[] = _(
+    "Speed Duel\n"
+    "Tournament Pack 5.");
+
+static const u8 sSpeedDuelTournamentPack6Desc[] = _(
+    "Speed Duel\n"
+    "Tournament Pack 6.");
+
+static const u8 sSpeedDuelArenaofLostSoulsDesc[] = _(
+    "Speed Duel: Arena of\n"
+    "Lost Souls.");
+
+static const u8 sSpeedDuelAttackfromtheDeepDesc[] = _(
+    "Speed Duel: Attack\n"
+    "from the Deep.");
+
+static const u8 sSpeedDuelBattleCityBoxDesc[] = _(
+    "Speed Duel: Battle\n"
+    "City Box.");
+
+static const u8 sSpeedDuelScarsofBattleDesc[] = _(
+    "Speed Duel: Scars of\n"
+    "Battle.");
+
+static const u8 sSpeedDuelScarsofBattleLaunchEventparticipationcardDesc[] = _(
+    "Speed Duel: Scars of\n"
+    "Battle Launch Event\n"
+    "participation card.");
+
+static const u8 sSpeedDuelStreetsofBattleCityDesc[] = _(
+    "Speed Duel: Streets\n"
+    "of Battle City.");
+
+static const u8 sSpeedDuelTrialsoftheKingdomDesc[] = _(
+    "Speed Duel: Trials\n"
+    "of the Kingdom.");
+
+static const u8 sSpeedDuelTrialsoftheKingdomSneakPeekparticipationcardsDesc[] = _(
+    "Speed Duel: Trials\n"
+    "of the Kingdom Sneak\n"
+    "Peek participation\n"
+    "cards.");
+
+static const u8 sSpellRulerDesc[] = _(
+    "Spell Ruler.");
+
+static const u8 sSpellcastersCommandStructureDeckDesc[] = _(
+    "Spellcaster's\n"
+    "Command Structure\n"
+    "Deck.");
+
+static const u8 sSpellcastersCommandStructureDeckSpecialEditionDesc[] = _(
+    "Spellcaster's\n"
+    "Command Structure\n"
+    "Deck: Special\n"
+    "Edition.");
+
+static const u8 sSpiritWarriorsDesc[] = _(
+    "Spirit Warriors.");
+
+static const u8 sStarPack2013Desc[] = _(
+    "Star Pack 2013.");
+
+static const u8 sStarPack2014Desc[] = _(
+    "Star Pack 2014.");
+
+static const u8 sStarPackARCVDesc[] = _(
+    "Star Pack ARC-V.");
+
+static const u8 sStarPackBattleRoyalDesc[] = _(
+    "Star Pack Battle\n"
+    "Royal.");
+
+static const u8 sStarPackVRAINSDesc[] = _(
+    "Star Pack VRAINS.");
+
+static const u8 sStardustOverdriveDesc[] = _(
+    "Stardust Overdrive.");
+
+static const u8 sStardustOverdriveSneakPeekParticipationCardDesc[] = _(
+    "Stardust Overdrive\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sStardustOverdriveSpecialEditionDesc[] = _(
+    "Stardust Overdrive:\n"
+    "Special Edition.");
+
+static const u8 sStarstrikeBlastDesc[] = _(
+    "Starstrike Blast.");
+
+static const u8 sStarstrikeBlastSneakPeekParticipationCardDesc[] = _(
+    "Starstrike Blast\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sStarterDeck2006Desc[] = _(
+    "Starter Deck 2006.");
+
+static const u8 sStarterDeck2006SpecialEditionDesc[] = _(
+    "Starter Deck 2006:\n"
+    "Special Edition.");
+
+static const u8 sStarterDeckCodebreakerDesc[] = _(
+    "Starter Deck:\n"
+    "Codebreaker.");
+
+static const u8 sStarterDeckDawnoftheXyzDesc[] = _(
+    "Starter Deck: Dawn\n"
+    "of the Xyz.");
+
+static const u8 sStarterDeckDuelistToolboxDesc[] = _(
+    "Starter Deck:\n"
+    "Duelist Toolbox.");
+
+static const u8 sStarterDeckJadenYukiDesc[] = _(
+    "Starter Deck: Jaden\n"
+    "Yuki.");
+
+static const u8 sStarterDeckJoeyDesc[] = _(
+    "Starter Deck: Joey.");
+
+static const u8 sStarterDeckKaibaDesc[] = _(
+    "Starter Deck: Kaiba.");
+
+static const u8 sStarterDeckKaibaEvolutionDesc[] = _(
+    "Starter Deck: Kaiba\n"
+    "Evolution.");
+
+static const u8 sStarterDeckKaibaReloadedDesc[] = _(
+    "Starter Deck: Kaiba\n"
+    "Reloaded.");
+
+static const u8 sStarterDeckLinkStrikeDesc[] = _(
+    "Starter Deck: Link\n"
+    "Strike.");
+
+static const u8 sStarterDeckPegasusDesc[] = _(
+    "Starter Deck:\n"
+    "Pegasus.");
+
+static const u8 sStarterDeckSyrusTruesdaleDesc[] = _(
+    "Starter Deck: Syrus\n"
+    "Truesdale.");
+
+static const u8 sStarterDeckXyzSymphonyDesc[] = _(
+    "Starter Deck: Xyz\n"
+    "Symphony.");
+
+static const u8 sStarterDeckYuGiOh5DsDesc[] = _(
+    "Starter Deck: Yu-Gi-\n"
+    "Oh! 5D's.");
+
+static const u8 sStarterDeckYuGiOh5Ds2009Desc[] = _(
+    "Starter Deck: Yu-Gi-\n"
+    "Oh! 5D's 2009.");
+
+static const u8 sStarterDeckYugiDesc[] = _(
+    "Starter Deck: Yugi.");
+
+static const u8 sStarterDeckYugiEvolutionDesc[] = _(
+    "Starter Deck: Yugi\n"
+    "Evolution.");
+
+static const u8 sStarterDeckYugiReloadedDesc[] = _(
+    "Starter Deck: Yugi\n"
+    "Reloaded.");
+
+static const u8 sStarterDeckYuyaDesc[] = _(
+    "Starter Deck: Yuya.");
+
+static const u8 sStormofRagnarokDesc[] = _(
+    "Storm of Ragnarok.");
+
+static const u8 sStormofRagnarokSneakPeekParticipationCardDesc[] = _(
+    "Storm of Ragnarok\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sStormofRagnarokSpecialEditionDesc[] = _(
+    "Storm of Ragnarok:\n"
+    "Special Edition.");
+
+static const u8 sStrikeofNeosDesc[] = _(
+    "Strike of Neos.");
+
+static const u8 sStrikeofNeosSneakPeekParticipationCardDesc[] = _(
+    "Strike of Neos Sneak\n"
+    "Peek Participation\n"
+    "Card.");
+
+static const u8 sStrikeofNeosSpecialEditionDesc[] = _(
+    "Strike of Neos:\n"
+    "Special Edition.");
+
+static const u8 sStructureDeckAlbazStrikeDesc[] = _(
+    "Structure Deck:\n"
+    "Albaz Strike.");
+
+static const u8 sStructureDeckBewareofTraptrixDesc[] = _(
+    "Structure Deck:\n"
+    "Beware of Traptrix.");
+
+static const u8 sStructureDeckBlazeofDestructionDesc[] = _(
+    "Structure Deck:\n"
+    "Blaze of Destruction.");
+
+static const u8 sStructureDeckBlueEyesWhiteDestinyDesc[] = _(
+    "Structure Deck:\n"
+    "Blue-Eyes White\n"
+    "Destiny.");
+
+static const u8 sStructureDeckCyberStrikeDesc[] = _(
+    "Structure Deck:\n"
+    "Cyber Strike.");
+
+static const u8 sStructureDeckCyberseLinkDesc[] = _(
+    "Structure Deck:\n"
+    "Cyberse Link.");
+
+static const u8 sStructureDeckDarkWorldDesc[] = _(
+    "Structure Deck: Dark\n"
+    "World.");
+
+static const u8 sStructureDeckDeluxeEditionDesc[] = _(
+    "Structure Deck:\n"
+    "Deluxe Edition.");
+
+static const u8 sStructureDeckDinosaursRageDesc[] = _(
+    "Structure Deck:\n"
+    "Dinosaur's Rage.");
+
+static const u8 sStructureDeckDinosaursRageSpecialSetDesc[] = _(
+    "Structure Deck:\n"
+    "Dinosaur's Rage\n"
+    "Special Set.");
+
+static const u8 sStructureDeckDragonsRoarDesc[] = _(
+    "Structure Deck:\n"
+    "Dragon's Roar.");
+
+static const u8 sStructureDeckFireKingsDesc[] = _(
+    "Structure Deck: Fire\n"
+    "Kings.");
+
+static const u8 sStructureDeckFreezingChainsDesc[] = _(
+    "Structure Deck:\n"
+    "Freezing Chains.");
+
+static const u8 sStructureDeckFuryfromtheDeepDesc[] = _(
+    "Structure Deck: Fury\n"
+    "from the Deep.");
+
+static const u8 sStructureDeckInvincibleFortressDesc[] = _(
+    "Structure Deck:\n"
+    "Invincible Fortress.");
+
+static const u8 sStructureDeckLairofDarknessDesc[] = _(
+    "Structure Deck: Lair\n"
+    "of Darkness.");
+
+static const u8 sStructureDeckLegendoftheCrystalBeastsDesc[] = _(
+    "Structure Deck:\n"
+    "Legend of the\n"
+    "Crystal Beasts.");
+
+static const u8 sStructureDeckLordoftheStormDesc[] = _(
+    "Structure Deck: Lord\n"
+    "of the Storm.");
+
+static const u8 sStructureDeckMachineReVoltDesc[] = _(
+    "Structure Deck:\n"
+    "Machine Re-Volt.");
+
+static const u8 sStructureDeckMarikTCGDesc[] = _(
+    "Structure Deck:\n"
+    "Marik (TCG).");
+
+static const u8 sStructureDeckMechanizedMadnessDesc[] = _(
+    "Structure Deck:\n"
+    "Mechanized Madness.");
+
+static const u8 sStructureDeckOrderoftheSpellcastersDesc[] = _(
+    "Structure Deck:\n"
+    "Order of the\n"
+    "Spellcasters.");
+
+static const u8 sStructureDeckPowercodeLinkDesc[] = _(
+    "Structure Deck:\n"
+    "Powercode Link.");
+
+static const u8 sStructureDeckRokketRevoltDesc[] = _(
+    "Structure Deck:\n"
+    "Rokket Revolt.");
+
+static const u8 sStructureDeckSacredBeastsDesc[] = _(
+    "Structure Deck:\n"
+    "Sacred Beasts.");
+
+static const u8 sStructureDeckSetoKaibaDesc[] = _(
+    "Structure Deck: Seto\n"
+    "Kaiba.");
+
+static const u8 sStructureDeckShaddollShowdownDesc[] = _(
+    "Structure Deck:\n"
+    "Shaddoll Showdown.");
+
+static const u8 sStructureDeckSoulburnerDesc[] = _(
+    "Structure Deck:\n"
+    "Soulburner.");
+
+static const u8 sStructureDeckSpellcastersJudgmentDesc[] = _(
+    "Structure Deck:\n"
+    "Spellcaster's\n"
+    "Judgment.");
+
+static const u8 sStructureDeckSpiritCharmersDesc[] = _(
+    "Structure Deck:\n"
+    "Spirit Charmers.");
+
+static const u8 sStructureDeckTheCrimsonKingDesc[] = _(
+    "Structure Deck: The\n"
+    "Crimson King.");
+
+static const u8 sStructureDeckWarriorsTriumphDesc[] = _(
+    "Structure Deck:\n"
+    "Warrior's Triumph.");
+
+static const u8 sStructureDeckWaveofLightDesc[] = _(
+    "Structure Deck: Wave\n"
+    "of Light.");
+
+static const u8 sStructureDeckYugiMutoDesc[] = _(
+    "Structure Deck: Yugi\n"
+    "Muto.");
+
+static const u8 sStructureDeckZombieHordeDesc[] = _(
+    "Structure Deck:\n"
+    "Zombie Horde.");
+
+static const u8 sStructureDeckZombieMadnessDesc[] = _(
+    "Structure Deck:\n"
+    "Zombie Madness.");
+
+static const u8 sSummonedSkullSamplepromotionalcardDesc[] = _(
+    "Summoned Skull\n"
+    "Sample promotional\n"
+    "card.");
+
+static const u8 sSuperStarterPowerUpPackDesc[] = _(
+    "Super Starter Power-\n"
+    "Up Pack.");
+
+static const u8 sSuperStarterSpaceTimeShowdownDesc[] = _(
+    "Super Starter:\n"
+    "Space-Time Showdown.");
+
+static const u8 sSuperStarterVforVictoryDesc[] = _(
+    "Super Starter: V for\n"
+    "Victory.");
+
+static const u8 sSupremeDarknessDesc[] = _(
+    "Supreme Darkness.");
+
+static const u8 sSwedishShonenJump2004Issue2promotionalcardDesc[] = _(
+    "Swedish Shonen Jump\n"
+    "2004, Issue 2\n"
+    "promotional card.");
+
+static const u8 sSwedishShonenJump2005Issue12promotionalcardDesc[] = _(
+    "Swedish Shonen Jump\n"
+    "2005, Issue 12\n"
+    "promotional card.");
+
+static const u8 sSynchronExtremeStructureDeckDesc[] = _(
+    "Synchron Extreme\n"
+    "Structure Deck.");
+
+static const u8 sTacticalEvolutionDesc[] = _(
+    "Tactical Evolution.");
+
+static const u8 sTacticalEvolutionSneakPeekParticipationCardDesc[] = _(
+    "Tactical Evolution\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sTacticalEvolutionSpecialEditionDesc[] = _(
+    "Tactical Evolution:\n"
+    "Special Edition.");
+
+static const u8 sTacticalMastersDesc[] = _(
+    "Tactical Masters.");
+
+static const u8 sTheDarkEmperorStructureDeckDesc[] = _(
+    "The Dark Emperor\n"
+    "Structure Deck.");
+
+static const u8 sTheDarkIllusionDesc[] = _(
+    "The Dark Illusion.");
+
+static const u8 sTheDarkIllusionSneakPeekParticipationCardDesc[] = _(
+    "The Dark Illusion\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sTheDarkIllusionSpecialEditionDesc[] = _(
+    "The Dark Illusion:\n"
+    "Special Edition.");
+
+static const u8 sTheDuelistGenesisDesc[] = _(
+    "The Duelist Genesis.");
+
+static const u8 sTheDuelistGenesisSneakPeekParticipationCardDesc[] = _(
+    "The Duelist Genesis\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sTheDuelistGenesisSpecialEditionDesc[] = _(
+    "The Duelist Genesis:\n"
+    "Special Edition.");
+
+static const u8 sTheGrandCreatorsDesc[] = _(
+    "The Grand Creators.");
+
+static const u8 sTheInfiniteForbiddenDesc[] = _(
+    "The Infinite\n"
+    "Forbidden.");
+
+static const u8 sTheInfinityChasersDesc[] = _(
+    "The Infinity Chasers.");
+
+static const u8 sTheLostArtPromotionseriesDesc[] = _(
+    "The Lost Art\n"
+    "Promotion (series).");
+
+static const u8 sTheLostArtPromotion2020DDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2020 D.");
+
+static const u8 sTheLostArtPromotion2020EDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2020 E.");
+
+static const u8 sTheLostArtPromotion2020FDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2020 F.");
+
+static const u8 sTheLostArtPromotion2020GDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2020 G.");
+
+static const u8 sTheLostArtPromotion2020HDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2020 H.");
+
+static const u8 sTheLostArtPromotion2020IDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2020 I.");
+
+static const u8 sTheLostArtPromotion2020JDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2020 J.");
+
+static const u8 sTheLostArtPromotion2020KDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2020 K.");
+
+static const u8 sTheLostArtPromotion2020LDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2020 L.");
+
+static const u8 sTheLostArtPromotion2020MDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2020 M.");
+
+static const u8 sTheLostArtPromotion2020NDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2020 N.");
+
+static const u8 sTheLostArtPromotion2020ODesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2020 O.");
+
+static const u8 sTheLostArtPromotion2020PDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2020 P.");
+
+static const u8 sTheLostArtPromotion2020QDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2020 Q.");
+
+static const u8 sTheLostArtPromotion2020RDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2020 R.");
+
+static const u8 sTheLostArtPromotion2021ADesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2021 A.");
+
+static const u8 sTheLostArtPromotion2021BDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2021 B.");
+
+static const u8 sTheLostArtPromotion2021CDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2021 C.");
+
+static const u8 sTheLostArtPromotion2021DDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2021 D.");
+
+static const u8 sTheLostArtPromotion2021EDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2021 E.");
+
+static const u8 sTheLostArtPromotion2021FDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2021 F.");
+
+static const u8 sTheLostArtPromotion2021GDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2021 G.");
+
+static const u8 sTheLostArtPromotion2021HDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2021 H.");
+
+static const u8 sTheLostArtPromotion2021IDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2021 I.");
+
+static const u8 sTheLostArtPromotion2021JDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2021 J.");
+
+static const u8 sTheLostArtPromotion2021KDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2021 K.");
+
+static const u8 sTheLostArtPromotion2021LDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2021 L.");
+
+static const u8 sTheLostArtPromotion2022Desc[] = _(
+    "The Lost Art\n"
+    "Promotion 2022.");
+
+static const u8 sTheLostArtPromotion2022GDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2022 G.");
+
+static const u8 sTheLostArtPromotion2022KDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2022 K.");
+
+static const u8 sTheLostArtPromotion2023Desc[] = _(
+    "The Lost Art\n"
+    "Promotion 2023.");
+
+static const u8 sTheLostArtPromotion2023EDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2023 E.");
+
+static const u8 sTheLostArtPromotion2023FDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2023 F.");
+
+static const u8 sTheLostArtPromotion2023GDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2023 G.");
+
+static const u8 sTheLostArtPromotion2023HDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2023 H.");
+
+static const u8 sTheLostArtPromotion2023IDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2023 I.");
+
+static const u8 sTheLostArtPromotion2024Desc[] = _(
+    "The Lost Art\n"
+    "Promotion 2024.");
+
+static const u8 sTheLostArtPromotion2024ADesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2024 A.");
+
+static const u8 sTheLostArtPromotion2024BDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2024 B.");
+
+static const u8 sTheLostArtPromotion2024CDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2024 C.");
+
+static const u8 sTheLostArtPromotion2024HDesc[] = _(
+    "The Lost Art\n"
+    "Promotion 2024 H.");
+
+static const u8 sTheLostArtPromotionADesc[] = _(
+    "The Lost Art\n"
+    "Promotion A.");
+
+static const u8 sTheLostArtPromotionBDesc[] = _(
+    "The Lost Art\n"
+    "Promotion B.");
+
+static const u8 sTheLostArtPromotionCDesc[] = _(
+    "The Lost Art\n"
+    "Promotion C.");
+
+static const u8 sTheLostArtPromotionDDesc[] = _(
+    "The Lost Art\n"
+    "Promotion D.");
+
+static const u8 sTheLostArtPromotionEDesc[] = _(
+    "The Lost Art\n"
+    "Promotion E.");
+
+static const u8 sTheLostArtPromotionFDesc[] = _(
+    "The Lost Art\n"
+    "Promotion F.");
+
+static const u8 sTheLostArtPromotionGDesc[] = _(
+    "The Lost Art\n"
+    "Promotion G.");
+
+static const u8 sTheLostArtPromotionHDesc[] = _(
+    "The Lost Art\n"
+    "Promotion H.");
+
+static const u8 sTheLostArtPromotionIDesc[] = _(
+    "The Lost Art\n"
+    "Promotion I.");
+
+static const u8 sTheLostArtPromotionJDesc[] = _(
+    "The Lost Art\n"
+    "Promotion J.");
+
+static const u8 sTheLostArtPromotionKDesc[] = _(
+    "The Lost Art\n"
+    "Promotion K.");
+
+static const u8 sTheLostArtPromotionLDesc[] = _(
+    "The Lost Art\n"
+    "Promotion L.");
+
+static const u8 sTheLostArtPromotionMDesc[] = _(
+    "The Lost Art\n"
+    "Promotion M.");
+
+static const u8 sTheLostArtPromotionNDesc[] = _(
+    "The Lost Art\n"
+    "Promotion N.");
+
+static const u8 sTheLostArtPromotionODesc[] = _(
+    "The Lost Art\n"
+    "Promotion O.");
+
+static const u8 sTheLostMillenniumDesc[] = _(
+    "The Lost Millennium.");
+
+static const u8 sTheLostMillenniumSneakPeekParticipationCardDesc[] = _(
+    "The Lost Millennium\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sTheLostMillenniumSpecialEditionDesc[] = _(
+    "The Lost Millennium:\n"
+    "Special Edition.");
+
+static const u8 sTheNewChallengersDesc[] = _(
+    "The New Challengers.");
+
+static const u8 sTheNewChallengersSneakPeekParticipationCardDesc[] = _(
+    "The New Challengers\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sTheNewChallengersSuperEditionDesc[] = _(
+    "The New Challengers:\n"
+    "Super Edition.");
+
+static const u8 sThePotCollectionDesc[] = _(
+    "The Pot Collection.");
+
+static const u8 sTheSecretForcesDesc[] = _(
+    "The Secret Forces.");
+
+static const u8 sTheShiningDarknessDesc[] = _(
+    "The Shining Darkness.");
+
+static const u8 sTheShiningDarknessSneakPeekParticipationCardDesc[] = _(
+    "The Shining Darkness\n"
+    "Sneak Peek\n"
+    "Participation Card.");
+
+static const u8 sToonChaosDesc[] = _(
+    "Toon Chaos.");
+
+static const u8 sTournamentPack4Desc[] = _(
+    "Tournament Pack 4.");
+
+static const u8 sTournamentPack5Desc[] = _(
+    "Tournament Pack 5.");
+
+static const u8 sTournamentPack6Desc[] = _(
+    "Tournament Pack 6.");
+
+static const u8 sTournamentPack7Desc[] = _(
+    "Tournament Pack 7.");
+
+static const u8 sTournamentPack8Desc[] = _(
+    "Tournament Pack 8.");
+
+static const u8 sTournamentPack1stSeasonDesc[] = _(
+    "Tournament Pack: 1st\n"
+    "Season.");
+
+static const u8 sTournamentPack2ndSeasonDesc[] = _(
+    "Tournament Pack: 2nd\n"
+    "Season.");
+
+static const u8 sTournamentPack3rdSeasonDesc[] = _(
+    "Tournament Pack: 3rd\n"
+    "Season.");
+
+static const u8 sTrialsofthePharaohMatchoftheMillenniumTwistedNightmarespromotionalcardDesc[] = _(
+    "Trials of the\n"
+    "Pharaoh - Match of\n"
+    "the Millennium &\n"
+    "Twisted Nightmares\n"
+    "promotional card.");
+
+static const u8 sTrialsofthePharaohSpeedDuelBattleCityBoxpromotionalcardDesc[] = _(
+    "Trials of the\n"
+    "Pharaoh - Speed\n"
+    "Duel: Battle City\n"
+    "Box promotional card.");
+
+static const u8 sTrialsofthePharaohTrialsoftheKingdompromotionalcardDesc[] = _(
+    "Trials of the\n"
+    "Pharaoh - Trials of\n"
+    "the Kingdom\n"
+    "promotional card.");
+
+static const u8 sTurboPackBoosterEightDesc[] = _(
+    "Turbo Pack: Booster\n"
+    "Eight.");
+
+static const u8 sTurboPackBoosterFiveDesc[] = _(
+    "Turbo Pack: Booster\n"
+    "Five.");
+
+static const u8 sTurboPackBoosterFourDesc[] = _(
+    "Turbo Pack: Booster\n"
+    "Four.");
+
+static const u8 sTurboPackBoosterOneDesc[] = _(
+    "Turbo Pack: Booster\n"
+    "One.");
+
+static const u8 sTurboPackBoosterSevenDesc[] = _(
+    "Turbo Pack: Booster\n"
+    "Seven.");
+
+static const u8 sTurboPackBoosterSixDesc[] = _(
+    "Turbo Pack: Booster\n"
+    "Six.");
+
+static const u8 sTurboPackBoosterThreeDesc[] = _(
+    "Turbo Pack: Booster\n"
+    "Three.");
+
+static const u8 sTurboPackBoosterTwoDesc[] = _(
+    "Turbo Pack: Booster\n"
+    "Two.");
+
+static const u8 sTwilightEditionDesc[] = _(
+    "Twilight Edition.");
+
+static const u8 sUltimateEditionDesc[] = _(
+    "Ultimate Edition.");
+
+static const u8 sUltimateEdition2Desc[] = _(
+    "Ultimate Edition 2.");
+
+static const u8 sValiantSmashersDesc[] = _(
+    "Valiant Smashers.");
+
+static const u8 sWCS2025LimitedPackDesc[] = _(
+    "WCS 2025 Limited\n"
+    "Pack.");
+
+static const u8 sWSJJumpPackFall2016promotionalcardDesc[] = _(
+    "WSJ Jump Pack Fall\n"
+    "2016 promotional\n"
+    "card.");
+
+static const u8 sWSJJumpPackFall2017promotionalcardDesc[] = _(
+    "WSJ Jump Pack Fall\n"
+    "2017 promotional\n"
+    "card.");
+
+static const u8 sWSJJumpPackFall2018promotionalcardDesc[] = _(
+    "WSJ Jump Pack Fall\n"
+    "2018 promotional\n"
+    "card.");
+
+static const u8 sWSJJumpPackSpring2016promotionalcardDesc[] = _(
+    "WSJ Jump Pack Spring\n"
+    "2016 promotional\n"
+    "card.");
+
+static const u8 sWSJJumpPackSpring2017promotionalcardDesc[] = _(
+    "WSJ Jump Pack Spring\n"
+    "2017 promotional\n"
+    "card.");
+
+static const u8 sWSJJumpPackSpring2018promotionalcardDesc[] = _(
+    "WSJ Jump Pack Spring\n"
+    "2018 promotional\n"
+    "card.");
+
+static const u8 sWSJJumpPackSpring2019promotionalcardDesc[] = _(
+    "WSJ Jump Pack Spring\n"
+    "2019 promotional\n"
+    "card.");
+
+static const u8 sWaroftheGiantsReinforcementsDesc[] = _(
+    "War of the Giants\n"
+    "Reinforcements.");
+
+static const u8 sWaroftheGiantsRound2Desc[] = _(
+    "War of the Giants:\n"
+    "Round 2.");
+
+static const u8 sWarriorsStrikeStructureDeckDesc[] = _(
+    "Warriors' Strike\n"
+    "Structure Deck.");
+
+static const u8 sWeeklyShonenJumpAlphaApril2012membershippromotionalcardDesc[] = _(
+    "Weekly Shonen Jump\n"
+    "Alpha April 2012\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sWeeklyShonenJumpAlphaDecember2012membershippromotionalcardDesc[] = _(
+    "Weekly Shonen Jump\n"
+    "Alpha December 2012\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sWeeklyShonenJumpAlphaJuly2012membershippromotionalcardDesc[] = _(
+    "Weekly Shonen Jump\n"
+    "Alpha July 2012\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sWeeklyShonenJumpAlphaSeptember2012membershippromotionalcardDesc[] = _(
+    "Weekly Shonen Jump\n"
+    "Alpha September 2012\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sWeeklyShonenJumpApril2015membershippromotionalcardDesc[] = _(
+    "Weekly Shonen Jump\n"
+    "April 2015\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sWeeklyShonenJumpApril2016membershippromotionalcardDesc[] = _(
+    "Weekly Shonen Jump\n"
+    "April 2016\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sWeeklyShonenJumpApril2017membershippromotionalcardDesc[] = _(
+    "Weekly Shonen Jump\n"
+    "April 2017\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sWeeklyShonenJumpApril2018membershippromotionalcardDesc[] = _(
+    "Weekly Shonen Jump\n"
+    "April 2018\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sWeeklyShonenJumpAugust2014membershippromotionalcardDesc[] = _(
+    "Weekly Shonen Jump\n"
+    "August 2014\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sWeeklyShonenJumpDecember2013membershippromotionalcardDesc[] = _(
+    "Weekly Shonen Jump\n"
+    "December 2013\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sWeeklyShonenJumpDecember2018membershippromotionalcardsDesc[] = _(
+    "Weekly Shonen Jump\n"
+    "December 2018\n"
+    "membership\n"
+    "promotional cards.");
+
+static const u8 sWeeklyShonenJumpFebruary2015membershippromotionalcardDesc[] = _(
+    "Weekly Shonen Jump\n"
+    "February 2015\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sWeeklyShonenJumpJanuary2016membershippromotionalcardDesc[] = _(
+    "Weekly Shonen Jump\n"
+    "January 2016\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sWeeklyShonenJumpJanuary2017membershippromotionalcardDesc[] = _(
+    "Weekly Shonen Jump\n"
+    "January 2017\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sWeeklyShonenJumpJanuary2018membershippromotionalcardDesc[] = _(
+    "Weekly Shonen Jump\n"
+    "January 2018\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sWeeklyShonenJumpJuly2013membershippromotionalcardDesc[] = _(
+    "Weekly Shonen Jump\n"
+    "July 2013 membership\n"
+    "promotional card.");
+
+static const u8 sWeeklyShonenJumpJuly2015membershippromotionalcardDesc[] = _(
+    "Weekly Shonen Jump\n"
+    "July 2015 membership\n"
+    "promotional card.");
+
+static const u8 sWeeklyShonenJumpJuly2016membershippromotionalcardDesc[] = _(
+    "Weekly Shonen Jump\n"
+    "July 2016 membership\n"
+    "promotional card.");
+
+static const u8 sWeeklyShonenJumpJuly2017membershippromotionalcardDesc[] = _(
+    "Weekly Shonen Jump\n"
+    "July 2017 membership\n"
+    "promotional card.");
+
+static const u8 sWeeklyShonenJumpJuly2018membershippromotionalcardDesc[] = _(
+    "Weekly Shonen Jump\n"
+    "July 2018 membership\n"
+    "promotional card.");
+
+static const u8 sWeeklyShonenJumpMarch2013membershippromotionalcardDesc[] = _(
+    "Weekly Shonen Jump\n"
+    "March 2013\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sWeeklyShonenJumpMarch2014membershippromotionalcardDesc[] = _(
+    "Weekly Shonen Jump\n"
+    "March 2014\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sWeeklyShonenJumpNovember2014membershippromotionalcardDesc[] = _(
+    "Weekly Shonen Jump\n"
+    "November 2014\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sWeeklyShonenJumpNovember2017membershippromotionalcardDesc[] = _(
+    "Weekly Shonen Jump\n"
+    "November 2017\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sWeeklyShonenJumpNovember2018membershippromotionalcardDesc[] = _(
+    "Weekly Shonen Jump\n"
+    "November 2018\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sWeeklyShonenJumpOctober2015membershippromotionalcardDesc[] = _(
+    "Weekly Shonen Jump\n"
+    "October 2015\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sWeeklyShonenJumpOctober2016membershippromotionalcardDesc[] = _(
+    "Weekly Shonen Jump\n"
+    "October 2016\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sWeeklyShonenJumpSeptember2013membershippromotionalcardDesc[] = _(
+    "Weekly Shonen Jump\n"
+    "September 2013\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sWildSurvivorsDesc[] = _(
+    "Wild Survivors.");
+
+static const u8 sWingRaidersDesc[] = _(
+    "Wing Raiders.");
+
+static const u8 sWorldChampionship2010CardPackDesc[] = _(
+    "World Championship\n"
+    "2010 Card Pack.");
+
+static const u8 sWorldChampionship2011CardPackDesc[] = _(
+    "World Championship\n"
+    "2011 Card Pack.");
+
+static const u8 sWorldSuperstarsDesc[] = _(
+    "World Superstars.");
+
+static const u8 sXSaberPowerUpDesc[] = _(
+    "X-Saber Power-Up.");
+
+static const u8 sYuGiOh3DBondsBeyondTimeDVDpromotionalcardDesc[] = _(
+    "Yu-Gi-Oh! 3D Bonds\n"
+    "Beyond Time DVD\n"
+    "promotional card.");
+
+static const u8 sYuGiOh3DBondsBeyondTimeMoviePackDesc[] = _(
+    "Yu-Gi-Oh! 3D Bonds\n"
+    "Beyond Time Movie\n"
+    "Pack.");
+
+static const u8 sYuGiOh3DBondsBeyondTimeTheaterdistributioncardDesc[] = _(
+    "Yu-Gi-Oh! 3D Bonds\n"
+    "Beyond Time Theater\n"
+    "distribution card.");
+
+static const u8 sYuGiOh5DsDuelTranserpromotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! 5D's Duel\n"
+    "Transer promotional\n"
+    "cards.");
+
+static const u8 sYuGiOh5DsStardustAcceleratorpromotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! 5D's\n"
+    "Stardust Accelerator\n"
+    "promotional cards.");
+
+static const u8 sYuGiOh5DsTagForce4promotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! 5D's Tag\n"
+    "Force 4 promotional\n"
+    "cards.");
+
+static const u8 sYuGiOh5DsTagForce5PromotionalCardsDesc[] = _(
+    "Yu-Gi-Oh! 5D's Tag\n"
+    "Force 5 Promotional\n"
+    "Cards.");
+
+static const u8 sYuGiOh5DsTagForce5promotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! 5D's Tag\n"
+    "Force 5 promotional\n"
+    "cards.");
+
+static const u8 sYuGiOh5DsVolume1promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! 5D's\n"
+    "Volume 1 promotional\n"
+    "card.");
+
+static const u8 sYuGiOh5DsVolume2promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! 5D's\n"
+    "Volume 2 promotional\n"
+    "card.");
+
+static const u8 sYuGiOh5DsVolume3promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! 5D's\n"
+    "Volume 3 promotional\n"
+    "card.");
+
+static const u8 sYuGiOh5DsVolume4promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! 5D's\n"
+    "Volume 4 promotional\n"
+    "card.");
+
+static const u8 sYuGiOh5DsVolume5promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! 5D's\n"
+    "Volume 5 promotional\n"
+    "card.");
+
+static const u8 sYuGiOh5DsVolume6promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! 5D's\n"
+    "Volume 6 promotional\n"
+    "card.");
+
+static const u8 sYuGiOh5DsVolume7promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! 5D's\n"
+    "Volume 7 promotional\n"
+    "card.");
+
+static const u8 sYuGiOh5DsVolume9promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! 5D's\n"
+    "Volume 9 promotional\n"
+    "card.");
+
+static const u8 sYuGiOh5DsWheelieBreakersPromotionalCardsDesc[] = _(
+    "Yu-Gi-Oh! 5D's\n"
+    "Wheelie Breakers\n"
+    "Promotional Cards.");
+
+static const u8 sYuGiOh5DsWorldChampionship2009StardustAcceleratorpromotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! 5D's World\n"
+    "Championship 2009:\n"
+    "Stardust Accelerator\n"
+    "promotional cards.");
+
+static const u8 sYuGiOh5DsWorldChampionship2010ReverseofArcadiapromotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! 5D's World\n"
+    "Championship 2010:\n"
+    "Reverse of Arcadia\n"
+    "promotional cards.");
+
+static const u8 sYuGiOh5DsWorldChampionship2011OvertheNexuspromotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! 5D's World\n"
+    "Championship 2011:\n"
+    "Over the Nexus\n"
+    "promotional cards.");
+
+static const u8 sYuGiOh5Dsvolume8promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! 5D's\n"
+    "volume 8 promotional\n"
+    "card.");
+
+static const u8 sYuGiOh7TrialstoGloryWorldChampionshipTournament2005promotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! 7 Trials\n"
+    "to Glory: World\n"
+    "Championship\n"
+    "Tournament 2005\n"
+    "promotional cards.");
+
+static const u8 sYuGiOhARCVVolume1promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! ARC-V\n"
+    "Volume 1 promotional\n"
+    "card.");
+
+static const u8 sYuGiOhARCVVolume2promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! ARC-V\n"
+    "Volume 2 promotional\n"
+    "card.");
+
+static const u8 sYuGiOhARCVVolume3promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! ARC-V\n"
+    "Volume 3 promotional\n"
+    "card.");
+
+static const u8 sYuGiOhARCVVolume4promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! ARC-V\n"
+    "Volume 4 promotional\n"
+    "card.");
+
+static const u8 sYuGiOhARCVVolume5promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! ARC-V\n"
+    "Volume 5 promotional\n"
+    "card.");
+
+static const u8 sYuGiOhARCVVolume6promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! ARC-V\n"
+    "Volume 6 promotional\n"
+    "card.");
+
+static const u8 sYuGiOhARCVVolume7promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! ARC-V\n"
+    "Volume 7 promotional\n"
+    "card.");
+
+static const u8 sYuGiOhAdventCalendarDesc[] = _(
+    "Yu-Gi-Oh! Advent\n"
+    "Calendar.");
+
+static const u8 sYuGiOhAdventCalendar2018Desc[] = _(
+    "Yu-Gi-Oh! Advent\n"
+    "Calendar (2018).");
+
+static const u8 sYuGiOhAdventCalendar2019Desc[] = _(
+    "Yu-Gi-Oh! Advent\n"
+    "Calendar (2019).");
+
+static const u8 sYuGiOhCapsuleMonsterColiseumpromotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! Capsule\n"
+    "Monster Coliseum\n"
+    "promotional cards.");
+
+static const u8 sYuGiOhChampionshipSeries2010PrizeCardsDesc[] = _(
+    "Yu-Gi-Oh!\n"
+    "Championship Series\n"
+    "2010 Prize Cards.");
+
+static const u8 sYuGiOhChampionshipSeries2011PrizeCardDesc[] = _(
+    "Yu-Gi-Oh!\n"
+    "Championship Series\n"
+    "2011 Prize Card.");
+
+static const u8 sYuGiOhChampionshipSeries2012PrizeCardDesc[] = _(
+    "Yu-Gi-Oh!\n"
+    "Championship Series\n"
+    "2012 Prize Card.");
+
+static const u8 sYuGiOhChampionshipSeries2013PrizeCardDesc[] = _(
+    "Yu-Gi-Oh!\n"
+    "Championship Series\n"
+    "2013 Prize Card.");
+
+static const u8 sYuGiOhChampionshipSeries2014PrizeCardDesc[] = _(
+    "Yu-Gi-Oh!\n"
+    "Championship Series\n"
+    "2014 Prize Card.");
+
+static const u8 sYuGiOhChampionshipSeries2015PrizeCardDesc[] = _(
+    "Yu-Gi-Oh!\n"
+    "Championship Series\n"
+    "2015 Prize Card.");
+
+static const u8 sYuGiOhChampionshipSeries2016PrizeCardDesc[] = _(
+    "Yu-Gi-Oh!\n"
+    "Championship Series\n"
+    "2016 Prize Card.");
+
+static const u8 sYuGiOhChampionshipSeries2017prizecardDesc[] = _(
+    "Yu-Gi-Oh!\n"
+    "Championship Series\n"
+    "2017 prize card.");
+
+static const u8 sYuGiOhChampionshipSeries2018prizecardDesc[] = _(
+    "Yu-Gi-Oh!\n"
+    "Championship Series\n"
+    "2018 prize card.");
+
+static const u8 sYuGiOhChampionshipSeries2019prizecardDesc[] = _(
+    "Yu-Gi-Oh!\n"
+    "Championship Series\n"
+    "2019 prize card.");
+
+static const u8 sYuGiOhChampionshipSeries2022prizecardDesc[] = _(
+    "Yu-Gi-Oh!\n"
+    "Championship Series\n"
+    "2022 prize card.");
+
+static const u8 sYuGiOhChampionshipSeries2023prizecardDesc[] = _(
+    "Yu-Gi-Oh!\n"
+    "Championship Series\n"
+    "2023 prize card.");
+
+static const u8 sYuGiOhDarkDuelStoriespromotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! Dark Duel\n"
+    "Stories promotional\n"
+    "cards.");
+
+static const u8 sYuGiOhDayApril2019promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! Day April\n"
+    "2019 promotional\n"
+    "card.");
+
+static const u8 sYuGiOhDestinyBoardTravelerpromotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! Destiny\n"
+    "Board Traveler\n"
+    "promotional cards.");
+
+static const u8 sYuGiOhDoublePackpromotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! Double\n"
+    "Pack promotional\n"
+    "cards.");
+
+static const u8 sYuGiOhElementalHeroCollection1Desc[] = _(
+    "Yu-Gi-Oh! Elemental\n"
+    "Hero Collection 1.");
+
+static const u8 sYuGiOhElementalHeroCollection2Desc[] = _(
+    "Yu-Gi-Oh! Elemental\n"
+    "Hero Collection 2.");
+
+static const u8 sYuGiOhForbiddenMemoriespromotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! Forbidden\n"
+    "Memories promotional\n"
+    "cards.");
+
+static const u8 sYuGiOhGXCardAlmanacpromotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! GX Card\n"
+    "Almanac promotional\n"
+    "cards.");
+
+static const u8 sYuGiOhGXDuelAcademypromotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! GX Duel\n"
+    "Academy promotional\n"
+    "cards.");
+
+static const u8 sYuGiOhGXSpecialEditionDesc[] = _(
+    "Yu-Gi-Oh! GX Special\n"
+    "Edition.");
+
+static const u8 sYuGiOhGXSpiritCallerpromotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! GX Spirit\n"
+    "Caller promotional\n"
+    "cards.");
+
+static const u8 sYuGiOhGXTagForce2promotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! GX Tag\n"
+    "Force 2 promotional\n"
+    "cards.");
+
+static const u8 sYuGiOhGXTagForce3promotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! GX Tag\n"
+    "Force 3 promotional\n"
+    "cards.");
+
+static const u8 sYuGiOhGXTagForceEvolutionpromotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! GX Tag\n"
+    "Force Evolution\n"
+    "promotional cards.");
+
+static const u8 sYuGiOhGXTagForcepromotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! GX Tag\n"
+    "Force promotional\n"
+    "cards.");
+
+static const u8 sYuGiOhGXUltimateBeginnersPackDesc[] = _(
+    "Yu-Gi-Oh! GX\n"
+    "Ultimate Beginner's\n"
+    "Pack.");
+
+static const u8 sYuGiOhGXVolume1promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! GX Volume\n"
+    "1 promotional card.");
+
+static const u8 sYuGiOhGXVolume2promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! GX Volume\n"
+    "2 promotional card.");
+
+static const u8 sYuGiOhGXVolume3promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! GX Volume\n"
+    "3 promotional card.");
+
+static const u8 sYuGiOhGXVolume4promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! GX Volume\n"
+    "4 promotional card.");
+
+static const u8 sYuGiOhGXVolume5promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! GX Volume\n"
+    "5 promotional card.");
+
+static const u8 sYuGiOhGXVolume6promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! GX Volume\n"
+    "6 promotional card.");
+
+static const u8 sYuGiOhGXVolume7promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! GX Volume\n"
+    "7 promotional card.");
+
+static const u8 sYuGiOhGXVolume8promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! GX Volume\n"
+    "8 promotional card.");
+
+static const u8 sYuGiOhGXVolume9promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! GX Volume\n"
+    "9 promotional card.");
+
+static const u8 sYuGiOhLegacyoftheDuelistLinkEvolutionpromotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! Legacy of\n"
+    "the Duelist: Link\n"
+    "Evolution\n"
+    "promotional cards.");
+
+static const u8 sYuGiOhNightmareTroubadourpromotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! Nightmare\n"
+    "Troubadour\n"
+    "promotional cards.");
+
+static const u8 sYuGiOhPowerofChaosJoeythePassionpromotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! Power of\n"
+    "Chaos: Joey the\n"
+    "Passion promotional\n"
+    "cards.");
+
+static const u8 sYuGiOhPowerofChaosKaibatheRevengepromotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! Power of\n"
+    "Chaos: Kaiba the\n"
+    "Revenge promotional\n"
+    "cards.");
+
+static const u8 sYuGiOhPowerofChaosYugitheDestinypromotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! Power of\n"
+    "Chaos: Yugi the\n"
+    "Destiny promotional\n"
+    "cards.");
+
+static const u8 sYuGiOhRVolume1promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! R Volume 1\n"
+    "promotional card.");
+
+static const u8 sYuGiOhRVolume3promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! R Volume 3\n"
+    "promotional card.");
+
+static const u8 sYuGiOhRVolume4promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! R Volume 4\n"
+    "promotional card.");
+
+static const u8 sYuGiOhRVolume5promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! R Volume 5\n"
+    "promotional card.");
+
+static const u8 sYuGiOhReshefofDestructionpromotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! Reshef of\n"
+    "Destruction\n"
+    "promotional cards.");
+
+static const u8 sYuGiOhTCGRemoteDuelExtravaganzaparticipationcardDesc[] = _(
+    "Yu-Gi-Oh! TCG Remote\n"
+    "Duel Extravaganza\n"
+    "participation card.");
+
+static const u8 sYuGiOhTheDarkSideofDimensionsBlurayDVDpromotionalcardDesc[] = _(
+    "Yu-Gi-Oh! The Dark\n"
+    "Side of Dimensions\n"
+    "Blu-ray & DVD\n"
+    "promotional card.");
+
+static const u8 sYuGiOhTheDarkSideofDimensionsMoviePackDesc[] = _(
+    "Yu-Gi-Oh! The Dark\n"
+    "Side of Dimensions\n"
+    "Movie Pack.");
+
+static const u8 sYuGiOhTheDarkSideofDimensionsMoviePackSecretEditionDesc[] = _(
+    "Yu-Gi-Oh! The Dark\n"
+    "Side of Dimensions\n"
+    "Movie Pack Secret\n"
+    "Edition.");
+
+static const u8 sYuGiOhTheDarkSideofDimensionsMoviePackSpecialEditionDesc[] = _(
+    "Yu-Gi-Oh! The Dark\n"
+    "Side of Dimensions\n"
+    "Movie Pack Special\n"
+    "Edition.");
+
+static const u8 sYuGiOhTheDarkSideofDimensionsMoviePackGoldEditionDesc[] = _(
+    "Yu-Gi-Oh! The Dark\n"
+    "Side of Dimensions\n"
+    "Movie Pack: Gold\n"
+    "Edition.");
+
+static const u8 sYuGiOhTheDarkSideofDimensionsTheaterdistributioncardsDesc[] = _(
+    "Yu-Gi-Oh! The Dark\n"
+    "Side of Dimensions\n"
+    "Theater distribution\n"
+    "cards.");
+
+static const u8 sYuGiOhTheDawnofDestinypromotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! The Dawn\n"
+    "of Destiny\n"
+    "promotional cards.");
+
+static const u8 sYuGiOhTheDuelistsoftheRosespromotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! The\n"
+    "Duelists of the\n"
+    "Roses promotional\n"
+    "cards.");
+
+static const u8 sYuGiOhTheEternalDuelistSoulpromotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! The\n"
+    "Eternal Duelist Soul\n"
+    "promotional cards.");
+
+static const u8 sYuGiOhTheFalseboundKingdompromotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! The\n"
+    "Falsebound Kingdom\n"
+    "promotional cards.");
+
+static const u8 sYuGiOhTheSacredCardspromotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! The Sacred\n"
+    "Cards promotional\n"
+    "cards.");
+
+static const u8 sYuGiOhTradingCardGameTour2004promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! Trading\n"
+    "Card Game Tour 2004\n"
+    "promotional card.");
+
+static const u8 sYuGiOhUltimateMastersWorldChampionshipTournament2006promotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! Ultimate\n"
+    "Masters: World\n"
+    "Championship\n"
+    "Tournament 2006\n"
+    "promotional cards.");
+
+static const u8 sYuGiOhWorldChampionship2004prizecardsDesc[] = _(
+    "Yu-Gi-Oh! World\n"
+    "Championship 2004\n"
+    "prize cards.");
+
+static const u8 sYuGiOhWorldChampionship2005prizecardsDesc[] = _(
+    "Yu-Gi-Oh! World\n"
+    "Championship 2005\n"
+    "prize cards.");
+
+static const u8 sYuGiOhWorldChampionship2006prizecardsDesc[] = _(
+    "Yu-Gi-Oh! World\n"
+    "Championship 2006\n"
+    "prize cards.");
+
+static const u8 sYuGiOhWorldChampionship2007prizecardsDesc[] = _(
+    "Yu-Gi-Oh! World\n"
+    "Championship 2007\n"
+    "prize cards.");
+
+static const u8 sYuGiOhWorldChampionship2007promotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! World\n"
+    "Championship 2007\n"
+    "promotional cards.");
+
+static const u8 sYuGiOhWorldChampionship2008promotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! World\n"
+    "Championship 2008\n"
+    "promotional cards.");
+
+static const u8 sYuGiOhWorldChampionship2017prizecardsDesc[] = _(
+    "Yu-Gi-Oh! World\n"
+    "Championship 2017\n"
+    "prize cards.");
+
+static const u8 sYuGiOhWorldChampionship2018prizecardsDesc[] = _(
+    "Yu-Gi-Oh! World\n"
+    "Championship 2018\n"
+    "prize cards.");
+
+static const u8 sYuGiOhWorldChampionship2019JapaneseNationalQualifiersprizecardsDesc[] = _(
+    "Yu-Gi-Oh! World\n"
+    "Championship 2019\n"
+    "Japanese National\n"
+    "Qualifiers prize\n"
+    "cards.");
+
+static const u8 sYuGiOhWorldChampionshipQualifierNationalChampionships2011prizecardsDesc[] = _(
+    "Yu-Gi-Oh! World\n"
+    "Championship\n"
+    "Qualifier National\n"
+    "Championships 2011\n"
+    "prize cards.");
+
+static const u8 sYuGiOhWorldChampionshipTournament2004promotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! World\n"
+    "Championship\n"
+    "Tournament 2004\n"
+    "promotional cards.");
+
+static const u8 sYuGiOhWorldwideEditionStairwaytotheDestinedDuelpromotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! Worldwide\n"
+    "Edition: Stairway to\n"
+    "the Destined Duel\n"
+    "promotional cards.");
+
+static const u8 sYuGiOhZEXALVolume1promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! ZEXAL\n"
+    "Volume 1 promotional\n"
+    "card.");
+
+static const u8 sYuGiOhZEXALVolume2promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! ZEXAL\n"
+    "Volume 2 promotional\n"
+    "card.");
+
+static const u8 sYuGiOhZEXALVolume3promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! ZEXAL\n"
+    "Volume 3 promotional\n"
+    "card.");
+
+static const u8 sYuGiOhZEXALVolume4promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! ZEXAL\n"
+    "Volume 4 promotional\n"
+    "card.");
+
+static const u8 sYuGiOhZEXALVolume5promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! ZEXAL\n"
+    "Volume 5 promotional\n"
+    "card.");
+
+static const u8 sYuGiOhZEXALVolume6promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! ZEXAL\n"
+    "Volume 6 promotional\n"
+    "card.");
+
+static const u8 sYuGiOhZEXALVolume7promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! ZEXAL\n"
+    "Volume 7 promotional\n"
+    "card.");
+
+static const u8 sYuGiOhZEXALVolume8promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! ZEXAL\n"
+    "Volume 8 promotional\n"
+    "card.");
+
+static const u8 sYuGiOhZEXALVolume9promotionalcardDesc[] = _(
+    "Yu-Gi-Oh! ZEXAL\n"
+    "Volume 9 promotional\n"
+    "card.");
+
+static const u8 sYuGiOhZEXALWorldDuelCarnivalpromotionalcardsDesc[] = _(
+    "Yu-Gi-Oh! ZEXAL\n"
+    "World Duel Carnival\n"
+    "promotional cards.");
+
+static const u8 sYuGiOhatHomeSweepstakesDesc[] = _(
+    "Yu-Gi-Oh! at Home\n"
+    "Sweepstakes.");
+
+static const u8 sYugiKaibaCollectorBoxDesc[] = _(
+    "Yugi & Kaiba\n"
+    "Collector Box.");
+
+static const u8 sYugisLegendaryDecksDesc[] = _(
+    "Yugi's Legendary\n"
+    "Decks.");
+
+static const u8 sZexalCollectionTinDesc[] = _(
+    "Zexal Collection Tin.");
+
+static const u8 sZombieWorldStructureDeckDesc[] = _(
+    "Zombie World\n"
+    "Structure Deck.");
+
