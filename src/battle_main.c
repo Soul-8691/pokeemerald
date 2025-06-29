@@ -3491,6 +3491,16 @@ static void BattleIntroGetMonsData(void)
     }
 }
 
+bool8 containsElement(u16 arr[], int size, int target) {
+    u32 i;
+    for (i = 0; i < size; i++) {
+        if (arr[i] == target) {
+            return TRUE; // Element found
+        }
+    }
+    return FALSE; // Element not found
+}
+
 static void BattleIntroPrepareBackgroundSlide(void)
 {
     u8 iconSpriteId;
@@ -3504,10 +3514,12 @@ static void BattleIntroPrepareBackgroundSlide(void)
             u8 spriteId;
             u16 card = CardIdMapping[ITEM_4_STARRED_LADYBUG_OF_DOOM];
             struct BagPocket *itemPocket;
+            u16 indexes[6];
             u32 i, k;
             u32 j = 0;
             u32 x = 0;
-            itemPocket = &gBagPockets[TRUNK_POCKET];
+            u16 randomItem;
+            itemPocket = &gBagPockets[MAIN_DECK_POCKET];
             for (i = 0; i < itemPocket->capacity; i++)
             {
                 u8 quantity = GetBagItemQuantity(&itemPocket->itemSlots[i].quantity);
@@ -3522,16 +3534,23 @@ static void BattleIntroPrepareBackgroundSlide(void)
                 }
             }
             FlagSet(FLAG_YGO_ICON);
-            for (k = 0; k < 6; k++)
+            randomItem = Random() % j;
+            while (k <= 6)
             {
-                u16 randomItem = Random() % j;
-                iconSpriteId = AddItemIconSprite(TAG_CARD_ICON_SMALL + k * 2, TAG_CARD_ICON_SMALL_PAL + k * 2, items[randomItem]);
-                DebugPrintf("j=%d, randomItem=%d", j, randomItem);
-                if (iconSpriteId != MAX_SPRITES)
+                if (!containsElement(indexes, 6, randomItem))
                 {
-                    gSprites[iconSpriteId].x = 48 + k * 32;
-                    gSprites[iconSpriteId].y = 138;
+                    indexes[k] = randomItem;
+                    iconSpriteId = AddItemIconSprite(TAG_CARD_ICON_SMALL + k * 2, TAG_CARD_ICON_SMALL_PAL + k * 2, items[randomItem]);
+                    DebugPrintf("randomItem=%d, items[randomItem]=%d, cardName=%S", randomItem, items[randomItem], gCardInfo[CardIdMapping[items[randomItem]]].name);
+                    if (iconSpriteId != MAX_SPRITES)
+                    {
+                        gSprites[iconSpriteId].x = 16 + k * 32;
+                        gSprites[iconSpriteId].y = 140;
+                    }
+                    k++;
                 }
+                else
+                    randomItem = Random() % j;
             }
             gBattleMainFunc = HandleTurnActionSelectionState;
         }
