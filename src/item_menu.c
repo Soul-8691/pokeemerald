@@ -149,6 +149,8 @@ enum {
 	ACTION_BY_PRICE_VENDOR_2,
 	ACTION_BY_PRICE_VENDOR_3,
     ACTION_DESCRIPTION,
+    ACTION_MOVE_RIGHT,
+    ACTION_MOVE_LEFT,
     ACTION_DUMMY,
 };
 
@@ -492,7 +494,11 @@ static const u8 sMenuText_ByPriceVendor1[] = _("Vendor 1");
 static const u8 sMenuText_ByPriceVendor2[] = _("Vendor 2");
 static const u8 sMenuText_ByPriceVendor3[] = _("Vendor 3");
 static const u8 sMenuText_Description[] = _("Description");
+static const u8 sMenuText_MoveRight[] = _("Move right");
+static const u8 sMenuText_MoveLeft[] = _("Move left");
 static const u8 sText_NothingToSort[] = _("There's nothing to sort!");
+static void ItemMenu_MovePocketsRight(u8 taskId);
+static void ItemMenu_MovePocketsLeft(u8 taskId);
 static const struct MenuAction sItemMenuActions[] = {
     [ACTION_USE]               = {gMenuText_Use,      ItemMenu_UseOutOfBattle},
     [ACTION_TOSS]              = {gMenuText_Toss,     ItemMenu_Toss},
@@ -560,6 +566,8 @@ static const struct MenuAction sItemMenuActions[] = {
     [ACTION_BY_PRICE_VENDOR_2]  = {sMenuText_ByPriceVendor2, ItemMenu_SortByPriceVendor2},
     [ACTION_BY_PRICE_VENDOR_3]  = {sMenuText_ByPriceVendor3, ItemMenu_SortByPriceVendor3},
     [ACTION_DESCRIPTION]       = {sMenuText_Description, ItemMenu_UseOutOfBattle},
+    [ACTION_MOVE_RIGHT]              = {sMenuText_MoveRight, ItemMenu_MovePocketsRight},
+    [ACTION_MOVE_LEFT]              = {sMenuText_MoveLeft, ItemMenu_MovePocketsLeft},
     [ACTION_DUMMY]             = {gText_EmptyString2, NULL}
 };
 
@@ -571,7 +579,8 @@ static const u8 sContextMenuItems_ItemsPocket[] = {
 };
 
 static const u8 sContextMenuCards_ItemsPocket[] = {
-    ACTION_DESCRIPTION, ACTION_CANCEL
+    ACTION_DESCRIPTION, ACTION_MOVE_RIGHT,
+    ACTION_MOVE_LEFT, ACTION_CANCEL
 };
 
 static const u8 sContextMenuItems_KeyItemsPocket[] = {
@@ -5578,4 +5587,34 @@ static s8 CompareItemsByType(struct ItemSlot* itemSlot1, struct ItemSlot* itemSl
         return 1;
 
     return CompareItemsAlphabetically(itemSlot1, itemSlot2); //Items are of same type so sort alphabetically
+}
+
+static void ItemMenu_MovePocketsRight(u8 taskId)
+{
+    s16 *data = gTasks[taskId].data;
+    u16 item = gSpecialVar_ItemId;
+
+    if (!MenuHelpers_IsLinkActive() && !IsWallysBag())
+    {
+        RemoveBagItemAnyPocket(item, 1, gBagPosition.pocket);
+        SwitchBagPocket(taskId, MENU_CURSOR_DELTA_RIGHT, TRUE);
+        AddBagItemAnyPocket(item, 1, gBagPosition.pocket + 1);
+        UpdatePocketItemLists();
+        return;
+    }
+}
+
+static void ItemMenu_MovePocketsLeft(u8 taskId)
+{
+    s16 *data = gTasks[taskId].data;
+    u16 item = gSpecialVar_ItemId;
+
+    if (!MenuHelpers_IsLinkActive() && !IsWallysBag())
+    {
+        RemoveBagItemAnyPocket(item, 1, gBagPosition.pocket);
+        SwitchBagPocket(taskId, MENU_CURSOR_DELTA_LEFT, TRUE);
+        AddBagItemAnyPocket(item, 1, gBagPosition.pocket - 1);
+        UpdatePocketItemLists();
+        return;
+    }
 }
