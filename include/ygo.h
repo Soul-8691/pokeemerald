@@ -13,6 +13,7 @@ struct CardInfo
     /* 0x24 */ const u32 *iconSquare;
     /* 0x28 */ const u32 *iconLarge;
     /* 0x2C */ const u32 *iconSmall;
+    /* 0x20 */ const u32 *palIconSmall;
     /* 0x30 */ u16 effects[8];
     /* 0x40 */ u32 type:5;
     /* 0x40 */ u32 attribute:3;

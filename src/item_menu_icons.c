@@ -560,6 +560,26 @@ void AddBagItemIconSprite(u16 itemId, u8 id)
     }
 }
 
+void AddBattleItemIconSprite(u16 itemId, u8 id)
+{
+    u8 *spriteId = &gBagMenu->spriteIds[id + ITEMMENUSPRITE_ITEM];
+    if (*spriteId == SPRITE_NONE)
+    {
+        u8 iconSpriteId;
+
+        // Either TAG_ITEM_ICON or TAG_ITEM_ICON_ALT
+        FreeSpriteTilesByTag(id + TAG_ITEM_ICON);
+        FreeSpritePaletteByTag(id + TAG_ITEM_ICON);
+        iconSpriteId = AddItemIconSprite(id + TAG_ITEM_ICON, id + TAG_ITEM_ICON, itemId);
+        if (iconSpriteId != MAX_SPRITES)
+        {
+            *spriteId = iconSpriteId;
+            gSprites[iconSpriteId].x2 = 20;
+            gSprites[iconSpriteId].y2 = 48;
+        }
+    }
+}
+
 void RemoveBagItemIconSprite(u8 id)
 {
 // BUG: For one frame, the item you scroll to in the Bag menu

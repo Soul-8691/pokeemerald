@@ -60,6 +60,15 @@
 #include "constants/songs.h"
 #include "constants/trainers.h"
 #include "cable_club.h"
+#include "ygo_graphics.h"
+#include "ygo.h"
+#include "constants/ygo.h"
+#include "item_menu_icons.h"
+#include "item_menu.h"
+#include "item_icon.h"
+
+#define TAG_CARD_ICON_SMALL 60002
+#define TAG_CARD_ICON_SMALL_PAL 60003
 
 extern const struct BgTemplate gBattleBgTemplates[];
 extern const struct WindowTemplate *const gBattleWindowTemplates[];
@@ -3483,13 +3492,25 @@ static void BattleIntroGetMonsData(void)
 
 static void BattleIntroPrepareBackgroundSlide(void)
 {
+    u8 iconSpriteId;
     if (gBattleControllerExecFlags == 0)
     {
         gActiveBattler = GetBattlerAtPosition(0);
         BtlController_EmitIntroSlide(B_COMM_TO_CONTROLLER, gBattleEnvironment);
         MarkBattlerForControllerExec(gActiveBattler);
         if (gBattleTypeFlags & BATTLE_TYPE_YGO)
+        {
+            u8 spriteId;
+            u16 card = CardIdMapping[ITEM_4_STARRED_LADYBUG_OF_DOOM];
+            FlagSet(FLAG_YGO_ICON);
+            iconSpriteId = AddItemIconSprite(TAG_CARD_ICON_SMALL, TAG_CARD_ICON_SMALL_PAL, ITEM_4_STARRED_LADYBUG_OF_DOOM);
+            if (iconSpriteId != MAX_SPRITES)
+            {
+                gSprites[iconSpriteId].x = 28;
+                gSprites[iconSpriteId].y = 128;
+            }
             gBattleMainFunc = HandleTurnActionSelectionState;
+        }
         else
             BattleIntroDrawTrainersOrMonsSprites;
         gBattleCommunication[MULTIUSE_STATE] = 0;

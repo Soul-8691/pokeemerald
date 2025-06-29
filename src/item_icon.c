@@ -11,6 +11,7 @@
 #include "constants/characters.h"
 #include "menu.h"
 #include "palette.h"
+#include "event_data.h"
 
 // EWRAM vars
 EWRAM_DATA u8 *gItemIconDecompressionBuffer = NULL;
@@ -86,7 +87,12 @@ void CopyItemIconPicTo4x4Buffer(const void *src, void *dest, u16 itemId)
     u8 i;
     u16 card = CardIdMapping[itemId];
 
-    if (card < NUM_CARDS + 1 && card != 0)
+    if (FlagGet(FLAG_YGO_ICON))
+    {
+        for (i = 0; i < 4; i++)
+            CpuCopy16(src + i * 96, dest + i * 128, 0x60);
+    }
+    else if ((card < NUM_CARDS + 1 && card != 0))
     {
         for (i = 0; i < 4; i++)
             CpuCopy16(src + i * 128, dest + i * 128, 0x80);
@@ -176,10 +182,19 @@ u8 AddCustomItemIconSprite(const struct SpriteTemplate *customSpriteTemplate, u1
 
 const void *GetItemIconPicOrPalette(u16 itemId, u8 which)
 {
+    u16 card = CardIdMapping[itemId];
     if (itemId == ITEM_LIST_END)
         itemId = ITEMS_COUNT; // Use last icon, the "return to field" arrow
     else if (itemId >= ITEMS_COUNT)
         itemId = 0;
+
+    if (FlagGet(FLAG_YGO_ICON))
+    {
+        if (which == 0)
+            return gCardInfo[card].iconSmall;
+        else
+            return gCardInfo[card].palIconSmall;
+    }
 
     return gItemIconTable[itemId][which];
 }
