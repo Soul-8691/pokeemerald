@@ -157,6 +157,7 @@ EWRAM_DATA u32 gBattleTypeFlags = 0;
 EWRAM_DATA u8 gBattleEnvironment = 0;
 EWRAM_DATA u32 gUnusedFirstBattleVar1 = 0; // Never read
 EWRAM_DATA struct MultiPartnerMenuPokemon gMultiPartnerParty[MULTI_PARTY_SIZE] = {0};
+EWRAM_DATA u16 items[NUM_CARDS*3] = {0};
 EWRAM_DATA static struct MultiPartnerMenuPokemon *sMultiPartnerPartyBuffer = NULL;
 EWRAM_DATA u8 *gBattleAnimBgTileBuffer = NULL;
 EWRAM_DATA u8 *gBattleAnimBgTilemapBuffer = NULL;
@@ -3502,12 +3503,35 @@ static void BattleIntroPrepareBackgroundSlide(void)
         {
             u8 spriteId;
             u16 card = CardIdMapping[ITEM_4_STARRED_LADYBUG_OF_DOOM];
-            FlagSet(FLAG_YGO_ICON);
-            iconSpriteId = AddItemIconSprite(TAG_CARD_ICON_SMALL, TAG_CARD_ICON_SMALL_PAL, ITEM_4_STARRED_LADYBUG_OF_DOOM);
-            if (iconSpriteId != MAX_SPRITES)
+            struct BagPocket *itemPocket;
+            u32 i, k;
+            u32 j = 0;
+            u32 x = 0;
+            itemPocket = &gBagPockets[TRUNK_POCKET];
+            for (i = 0; i < itemPocket->capacity; i++)
             {
-                gSprites[iconSpriteId].x = 28;
-                gSprites[iconSpriteId].y = 128;
+                u8 quantity = GetBagItemQuantity(&itemPocket->itemSlots[i].quantity);
+                if (quantity)
+                {
+                    for (k = 0; k < quantity; k++)
+                    {
+                        items[j] = itemPocket->itemSlots[i].itemId;
+                        DebugPrintf("quantity=%d, items[j]=%d, j=%d", quantity, items[j], j);
+                        j++;
+                    }
+                }
+            }
+            FlagSet(FLAG_YGO_ICON);
+            for (k = 0; k < 6; k++)
+            {
+                u16 randomItem = Random() % j;
+                iconSpriteId = AddItemIconSprite(TAG_CARD_ICON_SMALL + k * 2, TAG_CARD_ICON_SMALL_PAL + k * 2, items[randomItem]);
+                DebugPrintf("j=%d, randomItem=%d", j, randomItem);
+                if (iconSpriteId != MAX_SPRITES)
+                {
+                    gSprites[iconSpriteId].x = 48 + k * 32;
+                    gSprites[iconSpriteId].y = 138;
+                }
             }
             gBattleMainFunc = HandleTurnActionSelectionState;
         }
