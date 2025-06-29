@@ -6,24 +6,36 @@ from PIL import Image
 import re
 import textwrap
 
-f = open("YGOProDeck_Card_Info.json", "w")
-url = "https://db.ygoprodeck.com/api/v7/cardinfo.php?misc=yes"
-res = requests.get(url)
-data = json.dumps(res.json(), indent=4)
-f.write(data)
-f.close()
+# f = open("YGOProDeck_Card_Info.json", "w")
+# url = "https://db.ygoprodeck.com/api/v7/cardinfo.php?misc=yes"
+# res = requests.get(url)
+# data = json.dumps(res.json(), indent=4)
+# f.write(data)
+# f.close()
 
 formats = ['Yugi-Kaiba', 'Critter', 'Treasure', 'Imperial', 'Android', 'Joey-Pegasus', 'Fiber', 'Yata', 'Scientist', 'Vampire', 'Chaos', 'Warrior', 'Goat', 'Cyber', 'Reaper', 'Chaos Return', 'Demise', 'Trooper', 'Zombie', 'Perfect Circle', 'DAD Return', 'Gladiator', 'TeleDAD', 'Cat', 'Edison', 'Frog', 'Starstrike', 'Tengu', 'Dino Rabbit', 'Wind-Up', 'Miami', 'Meadowlands', 'Baby Ruler', 'Ravine Ruler', 'Fire-Water', 'HAT', 'Vegas']
 
 highest_usage = {}
+cards_by_format = {}
 for format in formats:
    highest_usage[format] = 0
+   cards_by_format[format] = {}
 
 with open('FL.json', 'r') as f:
     data = json.load(f)
     for card in data:
-        if card['Format'] in formats and card['Usage (Weighted)'] > highest_usage[card['Format']]:
-           highest_usage[card['Format']] = card['Usage (Weighted)']
+        if card['Format'] in formats:
+            cards_by_format[card['Format']][card['Card']] = card['Usage']
+            if card['Usage (Weighted)'] > highest_usage[card['Format']]:
+            	highest_usage[card['Format']] = card['Usage (Weighted)']
+
+wct06_ranks = {}
+with open('wct06.json', 'r') as f:
+    data = json.load(f)
+    for card in data:
+        wct06_ranks[card['Card']] = 1
+        if card['Rank']:
+           wct06_ranks[card['Card']] = card['Rank']
 
 def move_palette_color(img, old_index, new_index):
     """
@@ -75,1017 +87,473 @@ def move_palette_color(img, old_index, new_index):
 card_names = [
 	"4-Starred Ladybug of Doom",
 	"7 Colored Fish",
-	"A Wingbeat of Giant Dragon",
-	"Abyss Dweller",
+	"A Legendary Ocean",
 	"Abyss Soldier",
-	"Abyss-sphere",
-	"Abyss-squall",
-	"Accumulated Fortune",
-	"Acid Trap Hole",
-	"Adreus, Keeper of Armageddon",
-	"Advanced Ritual Art",
 	"Airknight Parshath",
-	"Allure of Darkness",
-	"Ally of Justice Catastor",
-	"Ally of Justice Decisive Armor",
 	"Amazoness Archer",
-	"Ancient Fairy Dragon",
-	"Ancient Gear Gadjiltron Dragon",
-	"Ancient Sacred Wyvern",
-	"Angel of Zera",
+	"Amphibious Bugroth MK-3",
 	"Anti-Spell Fragrance",
-	"Apprentice Magician",
 	"Aqua Madoor",
 	"Aqua Spirit",
-	"Arcanite Magician",
 	"Archfiend Soldier",
-	"Archlord Kristya",
-	"Armades, Keeper of Boundaries",
-	"Armageddon Knight",
-	"Armored Kappa",
-	"Armory Arm",
-	"Artifact Beagalltach",
-	"Artifact Durendal",
-	"Artifact Ignition",
-	"Artifact Moralltach",
-	"Artifact Sanctum",
-	"Artifact Scythe",
-	"Asceticism of the Six Samurai",
+	"Arsenal Bug",
+	"Arsenal Summoner",
 	"Asura Priest",
-	"Atlantean Dragoons",
-	"Atlantean Heavy Infantry",
-	"Atlantean Marksman",
-	"Aurkus, Lightsworn Druid",
-	"Autonomous Action Unit",
-	"Avenging Knight Parshath",
-	"Azure-Eyes Silver Dragon",
-	"Bahamut Shark",
+	"Axe of Despair",
 	"Banisher of the Light",
-	"Banisher of the Radiance",
 	"Barrel Behind the Door",
-	"Battle Fader",
+	"Battle Footballer",
 	"Battle Ox",
 	"Bazoo the Soul-Eater",
-	"Beast King Barbaros",
-	"Beckoning Light",
-	"Beelze Frog",
 	"Berserk Gorilla",
 	"Bickuribox",
+	"Big Bang Shot",
 	"Big Shield Gardna",
-	"Black Horn of Heaven",
+	"Big-Tusked Mammoth",
+	"Black Illusion Ritual",
 	"Black Luster Soldier - Envoy of the Beginning",
-	"Black Rose Dragon",
-	"Black Salvo",
+	"Black Pendant",
 	"Black Skull Dragon",
-	"Black Whirlwind",
-	"Blackwing - Blizzard the Far North",
-	"Blackwing - Bora the Spear",
-	"Blackwing - Gale the Whirlwind",
-	"Blackwing - Kalut the Moon Shadow",
-	"Blackwing - Shura the Blue Flame",
-	"Blackwing - Silverwind the Ascendant",
-	"Blackwing - Sirocco the Dawn",
-	"Blackwing - Vayu the Emblem of Honor",
-	"Blackwing Armed Wing",
-	"Blackwing Armor Master",
-	"Blade Armor Ninja",
 	"Blade Knight",
 	"Blast with Chain",
-	"Blaster, Dragon Ruler of Infernos",
-	"Blue Thunder T-45",
+	"Blazing Inpachi",
+	"Blindly Loyal Goblin",
+	"Block Attack",
+	"Blowback Dragon",
 	"Blue-Eyes Ultimate Dragon",
 	"Blue-Eyes White Dragon",
-	"Book of Eclipse",
 	"Book of Life",
 	"Book of Moon",
 	"Book of Taiyou",
 	"Bottomless Trap Hole",
+	"Bowganian",
 	"Brain Control",
 	"Breaker the Magical Warrior",
-	"Breakthrough Skill",
-	"Brionac, Dragon of the Ice Barrier",
-	"Brotherhood of the Fire Fist - Bear",
-	"Brotherhood of the Fire Fist - Boar",
-	"Brotherhood of the Fire Fist - Cardinal",
-	"Brotherhood of the Fire Fist - Dragon",
-	"Brotherhood of the Fire Fist - Gorilla",
-	"Brotherhood of the Fire Fist - Tiger King",
 	"Broww, Huntsman of Dark World",
-	"Bujin Hirume",
-	"Bujin Mikazuchi",
-	"Bujin Yamato",
-	"Bujincarnation",
-	"Bujingi Crane",
-	"Bujingi Hare",
-	"Bujingi Quilin",
-	"Bujingi Sinyou",
-	"Bujingi Turtle",
-	"Bujintei Kagutsuchi",
-	"Bujintei Susanowo",
-	"Burial from a Different Dimension",
-	"Burner, Dragon Ruler of Sparks",
-	"Caius the Shadow Monarch",
+	"Brron, Mad King of Dark World",
+	"Buster Blader",
+	"Byser Shock",
 	"Call of the Haunted",
 	"Cannon Soldier",
 	"Card Destruction",
-	"Card of Safe Return",
-	"Card Trooper",
-	"Cardcar D",
-	"Cards for Black Feathers",
-	"Cards from the Sky",
-	"Cards of Consonance",
-	"Castle of Dragon Souls",
+	"Castle of Dark Illusions",
 	"Castle Walls",
 	"Catapult Turtle",
 	"Ceasefire",
-	"Celestia, Lightsworn Angel",
 	"Chain Disappearance",
 	"Chain Energy",
-	"Chain Strike",
+	"Chainsaw Insect",
 	"Change of Heart",
 	"Chaos Emperor Dragon - Envoy of the End",
 	"Chaos Sorcerer",
-	"Charge of the Light Brigade",
+	"Charcoal Inpachi",
 	"Charubin the Fire Knight",
-	"Chimeratech Fortress Dragon",
-	"Chimeratech Overdragon",
 	"Chiron the Mage",
-	"Chivalry",
 	"Cipher Soldier",
-	"Circle of the Fire Kings",
-	"Closed Forest",
-	"Coach Soldier Wolfbark",
 	"Cold Wave",
-	"Colossal Fighter",
-	"Common Charity",
-	"Compulsory Escape Device",
+	"Command Knight",
 	"Compulsory Evacuation Device",
 	"Confiscation",
-	"Consecrated Light",
-	"Constellar Algiedi",
-	"Constellar Kaus",
-	"Constellar Omega",
-	"Constellar Pleiades",
-	"Constellar Pollux",
-	"Constellar Ptolemy M7",
-	"Constellar Sombre",
-	"Contract with the Abyss",
-	"Corridor of Agony",
 	"Crass Clown",
 	"Creature Swap",
-	"Crevice Into the Different Dimension",
-	"Crimson Blader",
-	"Crusader of Endymion",
 	"Crush Card Virus",
-	"Crystal Seer",
-	"Cunning of the Six Samurai",
 	"Cursed Seal of the Forbidden Spell",
 	"Cyber Blader",
 	"Cyber Dragon",
 	"Cyber End Dragon",
+	"Cyber Harpie Lady",
 	"Cyber Jar",
-	"Cyber Ogre 2",
-	"Cyber Phoenix",
 	"Cyber Saurus",
 	"Cyber Twin Dragon",
-	"Cyber Valley",
 	"Cyber-Stein",
 	"D.D. Assailant",
-	"D.D. Crow",
-	"D.D. Designator",
+	"D.D. Crazy Beast",
 	"D.D. Survivor",
-	"D.D. Warrior",
+	"D.D. Trainer",
 	"D.D. Warrior Lady",
-	"D.D.M. - Different Dimension Master",
-	"D.D.R. - Different Dimension Reincarnation",
-	"Daigusto Emeral",
-	"Daigusto Phoenix",
-	"Dandylion",
-	"Dark Armed Dragon",
 	"Dark Balter the Terrible",
+	"Dark Blade",
 	"Dark Blade the Dragon Knight",
-	"Dark Bribe",
-	"Dark Dust Spirit",
+	"Dark Deal",
 	"Dark Elf",
-	"Dark End Dragon",
-	"Dark Eruption",
 	"Dark Flare Knight",
-	"Dark Grepher",
 	"Dark Hole",
+	"Dark Magic Curtain",
+	"Dark Magician",
 	"Dark Magician of Chaos",
+	"Dark Mimic LV1",
 	"Dark Mimic LV3",
-	"Dark Nephthys",
 	"Dark Paladin",
 	"Dark Ruler Ha Des",
-	"Dark Smog",
-	"Dark Strike Fighter",
-	"Dark World Dealings",
+	"Dark Scorpion - Chick the Yellow",
+	"Dark Scorpion - Cliff the Trap Remover",
 	"Dark World Lightning",
 	"Darkfire Dragon",
-	"Darkflare Dragon",
-	"Darklord Zerato",
 	"De-Spell",
-	"Debris Dragon",
-	"Debunk",
 	"Deck Devastation Virus",
-	"Deck Lockdown",
-	"Deep Dark Trap Hole",
-	"Deep Sea Diva",
 	"Deepsea Shark",
 	"Dekoichi the Battlechanted Locomotive",
 	"Delinquent Duo",
-	"Delta Crow - Anti Reverse",
-	"Demise, King of Armageddon",
-	"Des Frog",
+	"Des Dendle",
 	"Des Koala",
+	"Des Lacooda",
 	"Des Wombat",
 	"Desert Sunlight",
-	"Destiny Draw",
-	"Destiny HERO - Dasher",
-	"Destiny HERO - Defender",
-	"Destiny HERO - Diamond Dude",
-	"Destiny HERO - Disk Commander",
-	"Destiny HERO - Dogma",
-	"Destiny HERO - Doom Lord",
-	"Destiny HERO - Fear Monger",
-	"Destiny HERO - Malicious",
-	"Destiny HERO - Plasma",
-	"Dewloren, Tiger King of the Ice Barrier",
-	"Diamond Dire Wolf",
-	"Different Dimension Capsule",
+	"Dian Keto the Cure Master",
 	"Dimension Fusion",
-	"Dimension Wall",
-	"Dimensional Alchemist",
-	"Dimensional Fissure",
-	"Dimensional Prison",
-	"Divine Dragon Knight Felgrand",
-	"Divine Sword - Phoenix Blade",
-	"Divine Wrath",
-	"DNA Surgery",
 	"Don Zaloog",
 	"Doom Dozer",
 	"Doomcaliber Knight",
-	"Doomkaiser Dragon",
-	"Double Cyclone",
-	"Double-Edged Sword Technique",
-	"Downerd Magician",
 	"Dragged Down into the Grave",
-	"Dragon Ravine",
-	"Dragon Shrine",
+	"Dragon's Mirror",
+	"Dragon's Rage",
 	"Dragoness the Wicked Knight",
-	"Dragonic Knight",
-	"Dragunity Arma Mystletainn",
-	"Dragunity Corsesca",
-	"Dragunity Dux",
-	"Dragunity Knight - Gae Dearg",
-	"Dragunity Knight - Vajrayana",
-	"Dragunity Phalanx",
-	"Drill Warrior",
+	"Dream Clown",
 	"Drillroid",
-	"Droll & Lock Bird",
 	"Drop Off",
-	"Dupe Frog",
+	"Dunames Dark Witch",
 	"Dust Tornado",
-	"E - Emergency Call",
-	"Eclipse Wyvern",
-	"Effect Veiler",
-	"Ehren, Lightsworn Monk",
-	"Elder of the Six Samurai",
+	"Earthbound Spirit",
 	"Electric Snake",
-	"Electric Virus",
-	"Elemental HERO Absolute Zero",
-	"Elemental HERO Air Neos",
-	"Elemental HERO Bubbleman",
-	"Elemental HERO Chaos Neos",
-	"Elemental HERO Dark Neos",
-	"Elemental HERO Electrum",
+	"Elemental HERO Clayman",
 	"Elemental HERO Flame Wingman",
-	"Elemental HERO Gaia",
-	"Elemental HERO Grand Neos",
-	"Elemental HERO Mariner",
-	"Elemental HERO Neos Alius",
-	"Elemental HERO Ocean",
-	"Elemental HERO Phoenix Enforcer",
-	"Elemental HERO Prisma",
-	"Elemental HERO Shining Flare Wingman",
-	"Elemental HERO Stratos",
-	"Elemental HERO Tempest",
-	"Elemental HERO The Shining",
 	"Elemental HERO Wildheart",
 	"Emergency Provisions",
-	"Emergency Teleport",
+	"Emissary of the Afterlife",
 	"Empress Judge",
 	"Enemy Controller",
-	"Eradicator Epidemic Virus",
-	"Escape from the Dark Dimension",
-	"Evigishki Merrowgeist",
-	"Evil HERO Dark Gaia",
-	"Evilswarm Bahamut",
-	"Evilswarm Castor",
-	"Evilswarm Exciton Knight",
-	"Evilswarm Heliotrope",
-	"Evilswarm Kerykeion",
-	"Evilswarm Mandragora",
-	"Evilswarm Ophion",
-	"Evilswarm Ouroboros",
-	"Evilswarm Thunderbird",
-	"Evolzar Dolkka",
-	"Evolzar Laggia",
 	"Exarion Universe",
 	"Exchange",
+	"Exchange of the Spirit",
 	"Exiled Force",
 	"Exodia the Forbidden One",
-	"Exploder Dragon",
-	"Fairy King Albverdich",
 	"Fake Trap",
-	"Fencing Fire Ferret",
+	"Familiar-Possessed - Aussa",
+	"Familiar-Possessed - Eria",
+	"Familiar-Possessed - Hiita",
+	"Familiar-Possessed - Wynn",
 	"Fiber Jar",
 	"Fiend Skull Dragon",
-	"Fiendish Chain",
 	"Final Flame",
-	"Fire Formation - Gyokkou",
-	"Fire Formation - Tenken",
-	"Fire Formation - Tenki",
-	"Fire Formation - Tensen",
-	"Fire Formation - Tensu",
-	"Fire Hand",
-	"Fire King Avatar Barong",
-	"Fire King Avatar Yaksha",
-	"Fire King High Avatar Garunix",
-	"Fires of Doomsday",
-	"Fishborg Blaster",
 	"Fissure",
-	"Five-Headed Dragon",
 	"Flame Ghost",
 	"Flame Swordsman",
-	"Flamvell Firedog",
-	"Flamvell Guard",
-	"Flamvell Uruquizas",
-	"Flip Flop Frog",
 	"Flower Wolf",
-	'Flying "C"',
-	"Fog King",
-	"Foolish Burial",
-	"Forbidden Chalice",
-	"Forbidden Dress",
-	"Forbidden Lance",
-	"Formula Synchron",
-	"Fossil Dyna Pachycephalo",
-	"Full House",
+	"Flying Kamakiri #1",
 	"Fusilier Dragon, the Dual-Mode Beast",
 	"Fusionist",
-	"Future Fusion",
-	"G.B. Hunter",
-	"Gachi Gachi Gantetsu",
-	"Gagaga Cowboy",
-	"Gaia Dragon, the Thunder Charger",
-	"Gaia Knight, the Force of Earth",
+	"Gagagigo",
+	"Gaia Power",
 	"Gaia the Dragon Champion",
-	"Garoth, Lightsworn Warrior",
-	"Gateway of the Six",
 	"Gatling Dragon",
-	"Gauntlet Launcher",
-	"Gear Gigant X",
+	"Gear Golem the Moving Fortress",
 	"Gearfried the Iron Knight",
-	"Geargiaccelerator",
-	"Geargiagear",
-	"Geargiano",
-	"Geargiano Mk-II",
-	"Geargiarmor",
-	"Geargiarsenal",
-	"Geartown",
-	"Gem-Knight Pearl",
 	"Gemini Elf",
-	"Gemini Imps",
-	"Gemini Spark",
-	"Generation Shift",
-	"Genex Ally Birdman",
-	"Genex Controller",
-	"Genex Undine",
-	"Ghostrick Alucard",
 	"Giant Germ",
 	"Giant Orc",
 	"Giant Rat",
+	"Giant Red Seasnake",
 	"Giant Soldier of Stone",
 	"Giant Trunade",
 	"Giga-Tech Wolf",
 	"Gigantes",
-	"Gigaplant",
+	"Gil Garth",
 	"Gilasaurus",
 	"Giltia the D. Knight",
-	"Gladiator Beast Bestiari",
-	"Gladiator Beast Darius",
-	"Gladiator Beast Equeste",
-	"Gladiator Beast Gaiodiaz",
-	"Gladiator Beast Gyzarus",
-	"Gladiator Beast Heraklinos",
-	"Gladiator Beast Hoplomus",
-	"Gladiator Beast Laquari",
-	"Gladiator Beast Murmillo",
-	"Gladiator Beast Retiari",
-	"Gladiator Beast Samnite",
-	"Gladiator Beast Secutor",
-	"Gladiator Beast War Chariot",
-	"Gladiator Beast's Respite",
-	"Gladiator Proving Ground",
-	"Glow-Up Bulb",
 	"Goblin Attack Force",
-	"Goblin Zombie",
-	"Gold Sarcophagus",
-	"Goldd, Wu-Lord of Dark World",
-	"Good Goblin Housekeeping",
-	"Gorz the Emissary of Darkness",
-	"Gottoms' Emergency Call",
-	"Goyo Guardian",
-	"Gozen Match",
+	"Goblin Elite Attack Force",
+	"Gokipon",
+	"Golem Sentry",
+	"Gora Turtle",
 	"Graceful Charity",
-	"Grandmaster of the Six Samurai",
-	"Grandsoil the Elemental Lord",
-	"Grapha, Dragon Lord of Dark World",
 	"Gravekeeper's Assailant",
-	"Gravekeeper's Commandant",
-	"Gravekeeper's Descendant",
 	"Gravekeeper's Guard",
-	"Gravekeeper's Recruiter",
 	"Gravekeeper's Spear Soldier",
 	"Gravekeeper's Spy",
-	"Gravekeeper's Stele",
 	"Gravekeeper's Watcher",
 	"Gravity Bind",
-	"Great Shogun Shien",
 	"Great White",
-	"Green Baboon, Defender of the Forest",
-	"Green Gadget",
-	"Gungnir, Dragon of the Ice Barrier",
+	"Guardian Sphinx",
 	"Gyaku-Gire Panda",
 	"Gyakutenno Megami",
 	"Hallowed Life Barrier",
-	"Hammer Shot",
-	"Hand Destruction",
 	"Hane-Hane",
-	"Hanewata",
 	"Harpie's Feather Duster",
 	"Heavy Storm",
-	"Herald of Green Light",
-	"Herald of Orange Light",
-	"Herald of Pure Light",
-	"Hero's Rule 2",
-	"Heroic Champion - Excalibur",
-	"Hidden Armory",
-	"Hieratic Dragon King of Atum",
-	"Hieratic Dragon of Eset",
-	"Hieratic Dragon of Su",
-	"Hieratic Dragon of Tefnuit",
-	"Hieratic Seal From the Ashes",
-	"Hieratic Seal of Convocation",
-	"Hieratic Sun Dragon Overlord of Heliopolis",
-	"Hierophant of Prophecy",
-	"High Priestess of Prophecy",
-	"Honest",
+	"Hieracosphinx",
 	"Horn of Heaven",
-	"Horn of the Phantom Beast",
-	"Horus the Black Flame Dragon LV6",
-	"Horus the Black Flame Dragon LV8",
-	"HTS Psyhemuth",
-	"Hundred Eyes Dragon",
+	"Howling Insect",
+	"Humanoid Slime",
 	"Hydrogeddon",
-	"Icarus Attack",
-	"Ice Hand",
-	"Il Blud",
-	"Imperial Iron Wall",
+	"Hyper Hammerhead",
 	"Imperial Order",
-	"Infernity Archfiend",
-	"Infernity Avenger",
-	"Infernity Barrier",
-	"Infernity Beetle",
-	"Infernity Break",
-	"Infernity Doom Dragon",
-	"Infernity Inferno",
-	"Infernity Launcher",
-	"Infernity Mirage",
-	"Infernity Necromancer",
-	"Infestation Infection",
-	"Infestation Pandemic",
-	"Infestation Terminus",
+	"Inaba White Rabbit",
+	"Indomitable Fighter Lei Lei",
 	"Injection Fairy Lily",
+	"Inpachi",
 	"Insect Knight",
-	"Instant Fusion",
-	"Inzektor Centipede",
-	"Inzektor Dragonfly",
-	"Inzektor Exa-Beetle",
-	"Inzektor Hornet",
-	"Inzektor Sword - Zektkaliber",
-	"Iron Chain Dragon",
-	"Jain, Lightsworn Paladin",
+	"Island Turtle",
 	"Jar of Greed",
 	"Jinzo",
 	"Jirai Gumo",
 	"Jowgen the Spiritualist",
 	"Judge Man",
-	"Judgment Dragon",
-	"Judgment of Anubis",
-	"Junk Destroyer",
-	"Jurrac Guaiba",
 	"Just Desserts",
-	"Justice of Prophecy",
-	"Kabazauls",
-	"Kagemusha of the Six Samurai",
-	"Kagetokage",
-	'Karakuri Komachi mdl 224 "Ninishi"',
-	'Karakuri Merchant mdl 177 "Inashichi"',
-	'Karakuri Muso mdl 818 "Haipa"',
-	'Karakuri Ninja mdl 919 "Kuick"',
-	'Karakuri Shogun mdl 00 "Burei"',
-	'Karakuri Soldier mdl 236 "Nisamu"',
-	'Karakuri Steel Shogun mdl 00X "Bureido"',
-	'Karakuri Strategist mdl 248 "Nishipachi"',
-	'Karakuri Watchdog mdl 313 "Saizan"',
+	"Kaiser Sea Horse",
 	"Karbonala Warrior",
+	"Karma Cut",
 	"King Dragun",
-	"King of the Feral Imps",
+	"King of the Swamp",
 	"King Tiger Wanghu",
-	"Koa'ki Meiru Drago",
-	"Krebons",
 	"Kuriboh",
 	"Kwagar Hercules",
 	"Kycoo the Ghost Destroyer",
 	"La Jinn the Mystical Genie of the Lamp",
-	"Labradorite Dragon",
 	"Labyrinth Tank",
-	"Last Day of Witch",
+	"Lady Ninja Yae",
 	"Last Will",
-	"Lava Golem",
-	"Lavalval Chain",
-	"Leeching the Light",
 	"Left Arm of the Forbidden One",
 	"Left Leg of the Forbidden One",
-	"Legacy of Yata-Garasu",
 	"Legendary Jujitsu Master",
-	"Legendary Six Samurai - Kageki",
-	"Legendary Six Samurai - Kizan",
-	"Legendary Six Samurai - Shi En",
-	"Leo, the Keeper of the Sacred Tree",
 	"Level Limit - Area B",
-	"Leviair the Sea Dragon",
-	"Light and Darkness Dragon",
-	"Light-Imprisoning Mirror",
+	"Levia-Dragon - Daedalus",
+	"Light of Intervention",
 	"Lightning Vortex",
-	"Lightning, Dragon Ruler of Drafts",
-	"Lightpulsar Dragon",
-	"Limit Reverse",
 	"Limiter Removal",
-	"Lonefire Blossom",
-	"Lumina, Lightsworn Summoner",
-	"Lyla, Lightsworn Sorceress",
-	"Machina Cannon",
-	"Machina Force",
-	"Machina Fortress",
-	"Machina Gearframe",
-	"Machine Duplication",
-	"Macro Cosmos",
-	"Madolche Magileine",
-	"Maestroke the Symphony Djinn",
+	"Luster Dragon",
+	"Mad Dog of Darkness",
 	"Mage Power",
 	"Magic Cylinder",
 	"Magic Jammer",
-	"Magical Android",
-	"Magical Explosion",
-	"Magical Mallet",
+	"Magical Dimension",
 	"Magical Merchant",
 	"Magical Scientist",
-	"Magical Stone Excavation",
 	"Magician of Faith",
-	"Malefic Cyber End Dragon",
-	"Malefic Stardust Dragon",
-	"Malevolent Catastrophe",
+	"Magician's Circle",
+	"Magician's Valkyria",
+	"Maiden of the Aqua",
+	"Makyura the Destructor",
 	"Man-Eater Bug",
 	"Manju of the Ten Thousand Hands",
-	"Mark of the Rose",
-	"Marshmallon",
+	"Manticore of Darkness",
+	"Marauding Captain",
 	"Mask of Darkness",
 	"Mask of Restrict",
+	"Masked Dragon",
 	"Masked Sorcerer",
-	"Mass Driver",
-	"Master Hyperion",
 	"Master of Oz",
-	'Maxx "C"',
-	"Mecha Phantom Beast Dracossack",
-	"Mecha-Dog Marron",
+	"Mataza the Zapper",
 	"Mechanicalchaser",
-	"Mechquipped Angineer",
 	"Megamorph",
-	"Mei-Kou, Master of Barriers",
-	"Mermail Abyssgaios",
-	"Mermail Abyssgunde",
-	"Mermail Abyssleed",
-	"Mermail Abysslinde",
-	"Mermail Abyssmegalo",
-	"Mermail Abysspike",
-	"Mermail Abyssteus",
-	"Mermail Abysstrite",
-	"Mermail Abyssturge",
+	"Mermaid Knight",
 	"Messenger of Peace",
-	"Metaion, the Timelord",
-	"Metal Armored Bug",
 	"Metal Dragon",
+	"Metal Reflect Slime",
 	"Metamorphosis",
-	"Mezuki",
+	"Milus Radiant",
 	"Minar",
 	"Mind Control",
-	"Mind Crush",
-	"Mind Drain",
-	"Miracle Fertilizer",
-	"Miracle Fusion",
+	"Mine Golem",
+	"Miracle Restoring",
+	"Mirage Dragon",
 	"Mirage of Nightmare",
 	"Mirror Force",
-	"Mirror of Oaths",
-	"Mist Wurm",
+	"Moai Interceptor Cannons",
 	"Mobius the Frost Monarch",
 	"Monster Gate",
 	"Monster Reborn",
 	"Monster Reincarnation",
-	"Moray of Greed",
 	"Morphing Jar",
 	"Mother Grizzly",
-	"Moulinglacia the Elemental Lord",
 	"Muka Muka",
 	"Musician King",
-	"My Body as a Shield",
 	"Mystic Swordsman LV2",
+	"Mystic Swordsman LV4",
 	"Mystic Tomato",
 	"Mystical Elf",
-	"Mystical Refpanel",
-	"Mystical Shine Ball",
 	"Mystical Space Typhoon",
 	"Mystik Wok",
-	"Mythic Tree Dragon",
-	"Mythic Water Dragon",
-	"Naturia Barkion",
-	"Naturia Beast",
-	"Necro Gardna",
 	"Necrovalley",
 	"Needle Ceiling",
 	"Neko Mane King",
 	"Neo Bug",
 	"Neo the Magic Swordsman",
-	"Neo-Spacian Dark Panther",
-	"Neo-Spacian Grand Mole",
 	"Newdoria",
 	"Night Assailant",
-	"Night Beam",
 	"Nightmare Wheel",
+	"Nightmare's Steelcage",
 	"Nimble Momonga",
-	"Ninja Grandmaster Hanzo",
+	"Nin-Ken Dog",
 	"Ninja Grandmaster Sasuke",
-	"Ninjitsu Art of Super-Transformation",
-	"Nitro Warrior",
 	"Nobleman of Crossout",
 	"Nobleman of Extermination",
-	"Non Aggression Area",
-	"Number 101: Silent Honor ARK",
-	"Number 103: Ragnazero",
-	"Number 106: Giant Hand",
-	"Number 11: Big Eye",
-	"Number 16: Shock Master",
-	"Number 17: Leviathan Dragon",
-	"Number 20: Giga-Brilliant",
-	"Number 30: Acid Golem of Destruction",
-	"Number 39: Utopia",
-	"Number 47: Nightmare Shark",
-	"Number 50: Blackship of Corn",
-	"Number 61: Volcasaurus",
-	"Number 66: Master Key Beetle",
-	"Number 80: Rhapsody in Berserk",
-	"Number 82: Heartlandraco",
-	"Number 85: Crazy Box",
-	"Number 96: Dark Mist",
-	"Number C39: Utopia Ray",
+	"Offerings to the Doomed",
 	"Ojama King",
-	"Ojama Knight",
 	"Ojama Trio",
-	"Old Vindictive Magician",
-	"One Day of Peace",
-	"One for One",
-	"Onslaught of the Fire Kings",
 	"Ookazi",
-	"Orient Dragon",
-	"Overload Fusion",
-	"Overworked",
+	"Oppressed People",
+	"Opticlops",
 	"Painful Choice",
+	"Paladin of White Dragon",
 	"Penguin Knight",
-	"Phantom Dragon",
-	"Phantom of Chaos",
 	"Phoenix Wing Wind Blast",
-	"Photon Papilloperative",
-	"Photon Strike Bounzer",
-	"Photon Thrasher",
 	"Pikeru's Circle of Enchantment",
-	"Plaguespreader Zombie",
-	"Poison Draw Frog",
+	"Pinch Hopper",
+	"Pitch-Black Power Stone",
 	"Poison of the Old Man",
-	"Pole Position",
 	"Polymerization",
 	"Pot of Avarice",
-	"Pot of Duality",
+	"Pot of Generosity",
 	"Pot of Greed",
-	"Power Tool Dragon",
 	"Premature Burial",
-	"Prime Material Dragon",
+	"Prevent Rat",
+	"Prickle Fairy",
 	"Princess of Tsurugi",
-	"Prohibition",
-	"Prometheus, King of the Shadows",
 	"Protector of the Sanctuary",
-	"Psi-Blocker",
-	"Psychic Commander",
-	"Psychic Lifetrancer",
-	"Pulling the Rug",
 	"Punished Eagle",
-	"Puppet Plant",
 	"Pyramid Turtle",
-	"Queen Dragun Djinn",
-	"Quickdraw Synchron",
 	"Raigeki",
 	"Raigeki Break",
-	"Rainbow Life",
-	"Raiza the Storm Monarch",
-	"Reactan, Dragon Ruler of Pebbles",
 	"Reaper on the Nightmare",
 	"Reasoning",
-	"Reborn Tengu",
 	"Reckless Greed",
-	"Red Dragon Archfiend",
-	"Red Gadget",
-	"Red-Eyes Darkness Metal Dragon",
-	"Redox, Dragon Ruler of Boulders",
 	"Reflect Bounder",
-	"Reinforce Truth",
 	"Reinforcement of the Army",
 	"Reinforcements",
-	"Rekindling",
 	"Relinquished",
 	"Reload",
 	"Remove Trap",
 	"Rescue Cat",
-	"Rescue Rabbit",
-	"Retort",
 	"Return from the Different Dimension",
-	"Revived King Ha Des",
 	"Right Arm of the Forbidden One",
 	"Right Leg of the Forbidden One",
-	"Ring of Defense",
 	"Ring of Destruction",
-	"Rivalry of Warlords",
+	"Rising Air Current",
 	"Roaring Ocean Snake",
 	"Robbin' Goblin",
-	"Ronintoadin",
-	"Rose, Warrior of Revenge",
+	"Roulette Barrel",
 	"Royal Decree",
+	"Royal Magical Library",
 	"Royal Oppression",
-	"Royal Tribute",
 	"Rush Recklessly",
-	"Ryko, Lightsworn Hunter",
 	"Ryu Kokki",
 	"Ryu Senshi",
-	"Saber Hole",
-	"Saber Slash",
-	"Sabersaurus",
+	"Saber Beetle",
 	"Sacred Crane",
-	"Sacred Sword of Seven Stars",
-	"Safe Zone",
+	"Sacred Phoenix of Nephthys",
 	"Sakuretsu Armor",
 	"Salvage",
+	"Sand Moth",
 	"Sangan",
 	"Sanwitch",
 	"Sasuke Samurai",
+	"Sasuke Samurai #4",
 	"Scapegoat",
-	"Scrap Archfiend",
-	"Scrap Beast",
-	"Scrap Chimera",
-	"Scrap Dragon",
-	"Scrap Goblin",
-	"Scrap Golem",
-	"Scrapstorm",
-	"Sea Dragon Lord Gishilnodon",
+	"Sea Serpent Warrior of Darkness",
+	"Second Coin Toss",
 	"Secret Barrel",
 	"Self-Destruct Button",
-	"Senju of the Thousand Hands",
 	"Serial Spell",
+	"Serpentine Princess",
 	"Seven Tools of the Bandit",
-	"Shadow-Imprisoning Mirror",
-	"Shien's Smoke Signal",
 	"Shining Angel",
-	"Shining Elf",
-	'Shiny Black "C"',
-	"Shooting Star Dragon",
 	"Shrink",
 	"Sillva, Warlord of Dark World",
+	"Silpheed",
 	"Sinister Serpent",
-	"Six Samurai United",
-	"Sixth Sense",
 	"Skill Drain",
 	"Skilled Dark Magician",
+	"Skilled White Magician",
+	"Skull Dog Marron",
 	"Skull Knight",
 	"Skull Lair",
-	"Skull Meister",
+	"Sky Scout",
+	"Slate Warrior",
 	"Smashing Ground",
 	"Snatch Steal",
-	"Snipe Hunter",
-	"Snowman Eater",
-	"Snoww, Unlight of Dark World",
-	"Solar Recharge",
 	"Solemn Judgment",
-	"Solemn Warning",
 	"Solemn Wishes",
-	"Sonic Bird",
-	"Soul Charge",
-	"Soul Drain",
 	"Soul Exchange",
-	"Soul of Silvermountain",
-	"Soul Release",
-	"Soul Taker",
+	"Soul Tiger",
 	"Spear Cretin",
 	"Spear Dragon",
 	"Spell Canceller",
-	"Spell Economics",
 	"Spell Reproduction",
-	"Spell Shield Type-8",
-	"Spell Striker",
-	"Spellbook Library of the Crescent",
-	"Spellbook Magician of Prophecy",
-	"Spellbook of Eternity",
-	"Spellbook of Fate",
-	"Spellbook of Judgment",
-	"Spellbook of Life",
-	"Spellbook of Power",
-	"Spellbook of Secrets",
-	"Spellbook of the Master",
-	"Spellbook of Wisdom",
-	"Spellbook Star Hall",
 	"Spirit of the Harp",
-	"Spirit of the Six Samurai",
 	"Spirit Reaper",
+	"Spiritual Earth Art - Kurogane",
 	"Spiritual Water Art - Aoi",
+	"Spiritual Wind Art - Miyabi",
 	"Spiritualism",
-	"Splendid Rose",
-	"Spore",
 	"St. Joan",
-	"Star Eater",
-	"Stardust Dragon",
-	"Stardust Spark Dragon",
-	"Starliege Paladynamo",
-	"Starlight Road",
 	"Stealth Bird",
 	"Steam Gyroid",
-	"Steelswarm Roach",
+	"Stone Statue of the Aztecs",
 	"Stop Defense",
-	"Stream, Dragon Ruler of Droplets",
-	"Strike Ninja",
-	"Stygian Sergeants",
-	"Stygian Street Patrol",
-	"Substitoad",
-	"Summon Limit",
 	"Summoned Skull",
-	"Summoner Monk",
-	"Super Polymerization",
-	"Super Rejuvenation",
 	"Super Robolady",
 	"Super Roboyarou",
-	"Super Solar Nutrient",
-	"Super Vehicroid Jumbo Drill",
-	"Super-Nimble Mega Hamster",
-	"Supervise",
-	"Swallow Flip",
-	"Swap Frog",
-	"Swift Scarecrow",
+	"Swarm of Locusts",
+	"Swarm of Scarabs",
 	"Swords of Revealing Light",
-	"System Down",
-	"T.G. Hyper Librarian",
-	"T.G. Power Gladiator",
-	"T.G. Rush Rhino",
-	"T.G. Striker",
-	"T.G. Warwolf",
-	"T.G. Wonder Magician",
-	"Temperance of Prophecy",
-	"Tempest Magician",
-	"Tempest, Dragon Ruler of Storms",
-	"Temtempo the Percussion Djinn",
 	"Terraforming",
-	"Test Tiger",
-	"TG1-EM1",
-	"The Agent of Creation - Venus",
-	"The Agent of Miracles - Jupiter",
-	"The Agent of Mystery - Earth",
-	"The Fabled Catsith",
+	"The Big March of Animals",
+	"The Dragon Dwelling in the Cave",
 	"The Fiend Megacyber",
 	"The Forceful Sentry",
-	"The Gates of Dark World",
-	"The Grand Spellbook Tower",
+	"The Forgiving Maiden",
 	"The Last Warrior from Another Planet",
-	"The Light - Hex-Sealed Fusion",
 	"The Little Swordsman of Aile",
-	"The Six Samurai - Irou",
-	"The Six Samurai - Kamon",
-	"The Six Samurai - Yaichi",
-	"The Six Samurai - Zanji",
-	"The Transmigration Prophecy",
-	"The White Stone of Legend",
 	"The Wicked Worm Beast",
 	"Thestalos the Firestorm Monarch",
-	"Thought Ruler Archfiend",
 	"Thousand Dragon",
 	"Thousand-Eyes Restrict",
 	"Threatening Roar",
+	"Throwstone Unit",
 	"Thunder Dragon",
-	"Thunder King Rai-Oh",
 	"Thunder Nyan Nyan",
-	"Tidal, Dragon Ruler of Waterfalls",
 	"Time Seal",
-	"Tin Goldfish",
-	"Tiras, Keeper of Genesis",
+	"Toon Cannon Soldier",
+	"Toon Dark Magician Girl",
+	"Toon Gemini Elf",
+	"Toon Goblin Attack Force",
+	"Toon Masked Sorcerer",
 	"Toon Table of Contents",
 	"Torrential Tribute",
-	"Tour Guide From the Underworld",
-	"Trade-In",
-	"Tragoedia",
-	"Trance Archfiend",
 	"Trap Dustshoot",
-	"Trap Eater",
 	"Trap Hole",
 	"Trap Master",
-	"Trap Stun",
-	"Traptrix Dionaea",
-	"Traptrix Myrmeleo",
-	"Traptrix Trap Hole Nightmare",
-	"Treacherous Trap Hole",
 	"Treeborn Frog",
 	"Tremendous Fire",
 	"Tribe-Infecting Virus",
 	"Tribute to the Doomed",
-	"Trident Dragion",
-	"Trigon",
-	"Trishula, Dragon of the Ice Barrier",
 	"Tsukuyomi",
-	"Turbo Warrior",
 	"Twin-Headed Behemoth",
 	"Twin-Headed Thunder Dragon",
-	"Twister",
-	"Tytannial, Princess of Camellias",
-	"UFO Turtle",
+	"Ultimate Insect LV3",
+	"Ultimate Insect LV5",
+	"Ultimate Insect LV7",
 	"Ultimate Offering",
-	"Unifrog",
 	"United We Stand",
 	"Upstart Goblin",
-	"Van'Dalgyon the Dark Dragon Lord",
-	"Vanity's Emptiness",
-	"Vanity's Fiend",
-	"Volcanic Queen",
-	"Volcanic Rocket",
-	"Volcanic Shell",
+	"Vampire Lord",
 	"Vorse Raider",
-	"Vortex Trooper",
 	"Waboku",
 	"Wall of Illusion",
 	"Wall of Revealing Light",
-	"Warrior Elimination",
 	"Warrior of Tradition",
 	"Wave-Motion Cannon",
+	"White Dragon Ritual",
 	"White Magical Hat",
-	"Widespread Dud",
 	"Widespread Ruin",
-	"Wind-Up Arsenal Zenmaioh",
-	"Wind-Up Carrier Zenmaity",
-	"Wind-Up Factory",
-	"Wind-Up Hunter",
-	"Wind-Up Magician",
-	"Wind-Up Rabbit",
-	"Wind-Up Rat",
-	"Wind-Up Shark",
-	"Wind-Up Zenmaines",
-	"Wind-Up Zenmaister",
-	"Winged Kuriboh",
-	"Winged Rhynos",
-	"Wiretap",
 	"Witch of the Black Forest",
-	"Wulf, Lightsworn Beast",
-	"X-Saber Airbellum",
-	"X-Saber Pashuul",
-	"X-Saber Urbellum",
-	"X-Saber Wayne",
+	"X-Head Cannon",
 	"Xing Zhen Hu",
-	"XX-Saber Boggart Knight",
-	"XX-Saber Darksoul",
-	"XX-Saber Emmersblade",
-	"XX-Saber Faultroll",
-	"XX-Saber Fulhelmknight",
-	"XX-Saber Gottoms",
-	"XX-Saber Hyunlei",
-	"XX-Saber Ragigura",
-	"Xyz Encore",
 	"Yata-Garasu",
-	"Yellow Gadget",
+	"Yomi Ship",
 	"Zaborg the Thunder Monarch",
-	"Zombie Master",
 	"Zombyra the Dark",
+	"Zure, Knight of Dark World",
 ]
 
 card_info_data = open('YGOProDeck_Card_Info.json')
@@ -1103,9 +571,190 @@ YGO_C = ''
 UI_Menu = ''
 Scripts = ''
 Graphics_File_Rules = ''
+PacksPrint = ''
 card_counter = 1
+pack_counter = 1836
+description_lines = dict()
+
+for format_ in formats:
+    PacksPrint += 'static const u8 s' + re.sub(r'[^a-zA-Z0-9]', '', format_) + 'Desc[] = _("' + textwrap.fill(format_, width=20).replace('\n', '\\n') + '.");\n\n'
+
+for format_ in formats:
+    PacksPrint += '#define ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + ' ' + str(pack_counter) + '\n'
+    pack_counter += 1
+PacksPrint += '\n'
+
+pack_counter = 990
+for format_ in formats:
+    PacksPrint += '#define PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + ' ' + str(pack_counter) + '\n'
+    pack_counter += 1
+
+pack_counter = 990
+for format_ in formats:
+    PacksPrint += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + '] = ' + str(pack_counter) + ',\n'
+    pack_counter += 1
+
+for format_ in formats:
+    PacksPrint += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + '] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},\n'
+
+for format_ in formats:
+    PacksPrint += '''	[ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + '''] =
+    {
+        .name = _("''' + format_[:13] + '''"),
+        .itemId = ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + ''',
+        .price = 0,
+        .description = s''' + re.sub(r'[^a-zA-Z0-9]', '', format_) + '''Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },\n\n'''
+
+for format_ in formats:
+    PacksPrint += '''    else if (pack == PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + ''')
+    {
+        u16 cards[NUM_CARDS];
+        for (i = 0; i < NUM_CARDS; i++)
+        {
+            if (gCardInfo[i].price''' + re.sub(r'[^a-zA-Z0-9]', '', format_) + ''')
+            {
+                j += 1000 - gCardInfo[i].price''' + re.sub(r'[^a-zA-Z0-9]', '', format_) + ''';
+                cards[length] = i;
+                length += 1;
+            }
+        }
+        for (k = 0; k < 5; k++)
+        {
+            random = Random() % j;
+            l = random;
+            for (i = 0; i < length; i++)
+            {
+                u16 rarity = 1000 - gCardInfo[cards[i]].price''' + re.sub(r'[^a-zA-Z0-9]', '', format_) + ''';
+                u16 card = cards[i];
+                l -= rarity;
+                if (l <= rarity)
+                {
+                    if (k == 0)
+                        gSpecialVar_0x8004 = card + 376;
+                    else if (k == 1)
+                        gSpecialVar_0x8005 = card + 376;
+                    else if (k == 2)
+                        gSpecialVar_0x8006 = card + 376;
+                    else if (k == 3)
+                        gSpecialVar_0x8007 = card + 376;
+                    else if (k == 4)
+                        gSpecialVar_0x8008 = card + 376;
+                    break;
+                }
+            }
+        }
+    }\n'''
+
+PackPrinter = open('formats.txt', 'w', encoding='utf-8')
+PackPrinter.write(PacksPrint)
+PackPrinter.close()
+print('Finished PackPrinter')
+
+tcg_sets = set()
+# TCG_Set_Writer = open('tcg_sets.json', 'w', encoding='utf-8')
+for data in card_info_data['data']:
+	try:
+		for set_ in data['card_sets']:
+			tcg_sets.add(set_['set_name'])
+	except:
+		pass
+
+tcg_sets_write = {}
+for set_ in sorted(list(tcg_sets)):
+    tcg_sets_write[set_] = {}
+    for data in card_info_data['data']:
+        try:
+            for set__ in data['card_sets']:
+                if set_ == set__['set_name']:
+                    tcg_sets_write[set_][data['name']] = set__['set_rarity']
+        except:
+             pass
+
+# json.dump(dict(sorted(tcg_sets_write.items())), TCG_Set_Writer, indent=4)
+# TCG_Set_Writer.close()
+print('TCG sets done')
+
+sets_print = ''
+Sets_Writer = open('src/data/packs.h', 'w', encoding='utf-8')
+with open('tcg_sets.json', 'r') as f:
+    data = json.load(f)
+    for set_ in data:
+        sets_print += 'const struct PackContents g' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '[] =\n{'
+        for card in data[set_]:
+            if card in card_names:
+                sets_print += '\t{ITEM_' + re.sub(r'[^a-zA-Z0-9]', '_', card).upper() + ', RARITY_' + re.sub(r'[^a-zA-Z0-9]', '_', data[set_][card]).upper() + '},\n'
+        sets_print += '};\n\n'
+
+sets_print += '};\n'
+for set_ in sorted(list(tcg_sets)):
+    sets_print += '#define PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + ' ' + str(sorted(list(tcg_sets)).index(set_)) + '\n'
+
+sets_print += '\n'
+for set_ in sorted(list(tcg_sets)):
+    sets_print += 'additem ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + ' 1\n' 
+
+sets_count = 846
+sets_print += '\n'
+for set_ in sorted(list(tcg_sets)):
+    sets_print += '#define ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + ' ' + str(sets_count) + '\n'
+    sets_count += 1
+
+sets_print += '\n'
+for set_ in sorted(list(tcg_sets)):
+    sets_print += '''	[ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + '''] =
+    {
+        .name = _("''' + set_[:13] + '''"),
+        .itemId = ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + ''',
+        .price = 0,
+        .description = s''' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '''Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },\n\n'''
+
+sets_print += '\n'
+for set_ in sorted(list(tcg_sets)):
+    sets_print += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + '] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},\n'
+    sets_count += 1
+
+sets_print += '\nconst u16 PackIdMapping[] = \n{\n'
+with open('tcg_sets.json', 'r') as f:
+    data = json.load(f)
+    for set_ in data:
+        sets_print += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + '] = ' + str(sorted(list(tcg_sets)).index(set_)) + ',\n'
+sets_print += '};\n\n'
+
+sets_print += '\nconst struct Pack gPacks[] =\n{\n'
+card_count = 0
+with open('tcg_sets.json', 'r') as f:
+    data = json.load(f)
+    for set_ in data:
+        sets_print += '\t[PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + '] =\n\t{\n        .pack = g' + re.sub(r'[^a-zA-Z0-9]', '', set_) + ',\n        .length = '
+        for card in data[set_]:
+            if card in card_names:
+                 card_count += 1
+        sets_print += str(card_count)
+        sets_print += ',\n\t},\n'
+        card_count = 0
+
+sets_print += '\nconst struct Pack gPacks[] =\n{\n'
+card_count = 0
+with open('tcg_sets.json', 'r') as f:
+    data = json.load(f)
+    for set_ in data:
+        sets_print += 'static const u8 s' + re.sub(r'[^a-zA-Z0-9]', '', set_) + 'Desc[] = _(\n    "' + textwrap.fill(set_, width=20).replace('\n', '\\n"\n    "') + '.");\n\n'
+
+Sets_Writer.write(sets_print)
+Sets_Writer.close()
+print('Sets written')
+
 for data in card_info_data['data']:
     card_name = data['name']
+    description_lines[card_name] = 1
     if card_name in card_names:
         gCardInfo += ('const u8 gCardName_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("' + card_name + '");\n'
                   + 'const u8 gCardNameShort_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("'
@@ -1113,6 +762,8 @@ for data in card_info_data['data']:
                   + 'const u8 gCardNameShortBag_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("'
          + card_name[:26] + '");\n')
         YGO_C += 'const u8 gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("' + textwrap.fill(data['desc'].replace('"', '').replace('\r\n', '').replace('\n', '').replace("''", ''), width=30).replace('\n', '\\n') + '");\n'
+        for line in range(textwrap.fill(data['desc'].replace('"', '').replace('\r\n', '').replace('\n', '').replace("''", ''), width=30).replace('\n', '\\n').count('\\n')):
+             description_lines[card_name] += 1
         YGO += 'extern const u8 gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
         YGO_Graphics += ('extern const u32 gCardPicLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '_Big[];\n'
                      + 'extern const u16 gCardPalLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
@@ -1143,7 +794,7 @@ for data in card_info_data['data']:
         .description = sDummyDesc,
         .pocket = POCKET_TRUNK,
         .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DeckBuilder,
+        .fieldUseFunc = ItemUseOutOfBattle_Card,
     },\n
 '''
         UI_Menu += '''    {
@@ -1156,6 +807,21 @@ for data in card_info_data['data']:
 
 gCardInfo += '\n'
 YGO_C += '\n'
+Scripts += '\n'
+for format in cards_by_format:
+	Scripts += format + '\n'
+	for data in card_info_data['data']:
+		card_name = data['name']
+		if card_name in card_names:
+			for card_ in cards_by_format[format]:
+				if card_ == card_name and cards_by_format[format][card_]:
+					Scripts += '\t.2byte  ITEM_' + re.sub(r'\W+', '_', card_name).upper() + '\n'
+	Scripts += '\n'
+
+Scripts_Output = open('scripts.inc', 'w')
+Scripts_Output.write(Scripts)
+print('Scripts done')
+
 card_counter = 1
 for data in card_info_data['data']:
     card_name = data['name']
@@ -1253,7 +919,8 @@ for data in card_info_data['data']:
                   + '\t\t.nameShort = gCardNameShort_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
                   + '\t\t.nameShortBag = gCardNameShortBag_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
                   + '\t\t.description = gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
-                  + '\t\t.password = _("' + str(data['id']) + '"),\n'
+                  # + "\t\t.descriptionLines = " + str(description_lines[card]) + ",\n"
+				  + '\t\t.password = _("' + str(data['id']) + '"),\n'
                   + '\t\t.pic = gCardPicLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '_Big,\n'
                   + '\t\t.pal = gCardPalLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
                   + '\t\t.iconSquare = gCardIconSquare_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
@@ -1352,11 +1019,12 @@ for data in card_info_data['data']:
                       gCardInfo += "\t\t.priceHAT = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
                 if card_['Card'] == card and card_['Format'] == 'Vegas':
                       gCardInfo += "\t\t.priceVegas = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+        if card in wct06_ranks:
+                      gCardInfo += "\t\t.priceWCT06 = " + str((wct06_ranks[card]) * 50) + ",\n"
         gCardInfo += ("\t\t.priceCustom = 0,\n"
                   + "\t\t.priceVendor1 = 0,\n"
                   + "\t\t.priceVendor2 = 0,\n"
                   + "\t\t.priceVendor3 = 0,\n"
-                  + "\t\t.priceVendor4 = 0,\n"
                   + '\t},\n')
         YGO_C += '    [ITEM_' + re.sub(r'\W+', '_', data['name']).upper() + '] = ' + str(card_counter) + ',\n'
         card_counter += 1
@@ -1381,7 +1049,5 @@ YGO_C_Output = open('src/ygo.c', 'w')
 YGO_C_Output.write(YGO_C)
 UI_Menu_Output = open('src/ui_menu.c', 'w')
 UI_Menu_Output.write(UI_Menu)
-Scripts_Output = open('scripts.inc', 'w')
-Scripts_Output.write(Scripts)
 Graphics_File_Rules_Output = open('graphics_file_rules.mk', 'w')
 Graphics_File_Rules_Output.write(Graphics_File_Rules)

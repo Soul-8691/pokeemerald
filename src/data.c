@@ -330,3 +330,4 @@ const union AnimCmd *const gAnims_MonPic[MAX_MON_PIC_FRAMES] =
 #include "ygo_graphics.h"
 #include "constants/ygo.h"
 #include "data/ygo/card_info.h"
+#include "data/ygo/packs.h"

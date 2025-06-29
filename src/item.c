@@ -279,7 +279,116 @@ bool8 AddBagItem(u16 itemId, u16 count)
         else
             slotCapacity = MAX_BERRY_CAPACITY;
 
-        if (itemId > 376)
+        if (pocket == TRUNK_POCKET || pocket == MAIN_DECK_POCKET || pocket == EXTRA_DECK_POCKET || pocket == SIDE_DECK_POCKET)
+            slotCapacity = 3;
+
+        for (i = 0; i < itemPocket->capacity; i++)
+        {
+            if (newItems[i].itemId == itemId)
+            {
+                ownedCount = GetBagItemQuantity(&newItems[i].quantity);
+                // check if won't exceed max slot capacity
+                if (ownedCount + count <= slotCapacity)
+                {
+                    // successfully added to already existing item's count
+                    SetBagItemQuantity(&newItems[i].quantity, ownedCount + count);
+                    memcpy(itemPocket->itemSlots, newItems, itemPocket->capacity * sizeof(struct ItemSlot));
+                    Free(newItems);
+                    return TRUE;
+                }
+                else
+                {
+                    // try creating another instance of the item if possible
+                    if (pocket == TMHM_POCKET || pocket == BERRIES_POCKET)
+                    {
+                        Free(newItems);
+                        return FALSE;
+                    }
+                    else
+                    {
+                        count -= slotCapacity - ownedCount;
+                        SetBagItemQuantity(&newItems[i].quantity, slotCapacity);
+                        // don't create another instance of the item if it's at max slot capacity and count is equal to 0
+                        if (count == 0)
+                        {
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+
+        // we're done if quantity is equal to 0
+        if (count > 0)
+        {
+            // either no existing item was found or we have to create another instance, because the capacity was exceeded
+            for (i = 0; i < itemPocket->capacity; i++)
+            {
+                if (newItems[i].itemId == ITEM_NONE)
+                {
+                    newItems[i].itemId = itemId;
+                    if (count > slotCapacity)
+                    {
+                        // try creating a new slot with max capacity if duplicates are possible
+                        if (pocket == TMHM_POCKET || pocket == BERRIES_POCKET)
+                        {
+                            Free(newItems);
+                            return FALSE;
+                        }
+                        count -= slotCapacity;
+                        SetBagItemQuantity(&newItems[i].quantity, slotCapacity);
+                    }
+                    else
+                    {
+                        // created a new slot and added quantity
+                        SetBagItemQuantity(&newItems[i].quantity, count);
+                        count = 0;
+                        break;
+                    }
+                }
+            }
+
+            if (count > 0)
+            {
+                Free(newItems);
+                return FALSE;
+            }
+        }
+        memcpy(itemPocket->itemSlots, newItems, itemPocket->capacity * sizeof(struct ItemSlot));
+        Free(newItems);
+        return TRUE;
+    }
+}
+
+bool8 AddBagItemAnyPocket(u16 itemId, u16 count, u8 pocket)
+{
+    u16 i;
+
+    if (GetItemPocket(itemId) == POCKET_NONE)
+        return FALSE;
+
+    // check Battle Pyramid Bag
+    if (InBattlePyramid() || FlagGet(FLAG_STORING_ITEMS_IN_PYRAMID_BAG) == TRUE)
+    {
+        return AddPyramidBagItem(itemId, count);
+    }
+    else
+    {
+        struct BagPocket *itemPocket;
+        struct ItemSlot *newItems;
+        u16 slotCapacity;
+        u16 ownedCount;
+
+        itemPocket = &gBagPockets[pocket];
+        newItems = AllocZeroed(itemPocket->capacity * sizeof(struct ItemSlot));
+        memcpy(newItems, itemPocket->itemSlots, itemPocket->capacity * sizeof(struct ItemSlot));
+
+        if (pocket != BERRIES_POCKET)
+            slotCapacity = MAX_BAG_ITEM_CAPACITY;
+        else
+            slotCapacity = MAX_BERRY_CAPACITY;
+
+        if (pocket == TRUNK_POCKET || pocket == MAIN_DECK_POCKET || pocket == EXTRA_DECK_POCKET || pocket == SIDE_DECK_POCKET)
             slotCapacity = 3;
 
         for (i = 0; i < itemPocket->capacity; i++)
@@ -381,6 +490,92 @@ bool8 RemoveBagItem(u16 itemId, u16 count)
         struct BagPocket *itemPocket;
 
         pocket = GetItemPocket(itemId) - 1;
+        itemPocket = &gBagPockets[pocket];
+
+        for (i = 0; i < itemPocket->capacity; i++)
+        {
+            if (itemPocket->itemSlots[i].itemId == itemId)
+                totalQuantity += GetBagItemQuantity(&itemPocket->itemSlots[i].quantity);
+        }
+
+        if (totalQuantity < count)
+            return FALSE;   // We don't have enough of the item
+
+        if (CurMapIsSecretBase() == TRUE)
+        {
+            VarSet(VAR_SECRET_BASE_LOW_TV_FLAGS, VarGet(VAR_SECRET_BASE_LOW_TV_FLAGS) | SECRET_BASE_USED_BAG);
+            VarSet(VAR_SECRET_BASE_LAST_ITEM_USED, itemId);
+        }
+
+        var = GetItemListPosition(pocket);
+        if (itemPocket->capacity > var
+         && itemPocket->itemSlots[var].itemId == itemId)
+        {
+            ownedCount = GetBagItemQuantity(&itemPocket->itemSlots[var].quantity);
+            if (ownedCount >= count)
+            {
+                SetBagItemQuantity(&itemPocket->itemSlots[var].quantity, ownedCount - count);
+                count = 0;
+            }
+            else
+            {
+                count -= ownedCount;
+                SetBagItemQuantity(&itemPocket->itemSlots[var].quantity, 0);
+            }
+
+            if (GetBagItemQuantity(&itemPocket->itemSlots[var].quantity) == 0)
+                itemPocket->itemSlots[var].itemId = ITEM_NONE;
+
+            if (count == 0)
+                return TRUE;
+        }
+
+        for (i = 0; i < itemPocket->capacity; i++)
+        {
+            if (itemPocket->itemSlots[i].itemId == itemId)
+            {
+                ownedCount = GetBagItemQuantity(&itemPocket->itemSlots[i].quantity);
+                if (ownedCount >= count)
+                {
+                    SetBagItemQuantity(&itemPocket->itemSlots[i].quantity, ownedCount - count);
+                    count = 0;
+                }
+                else
+                {
+                    count -= ownedCount;
+                    SetBagItemQuantity(&itemPocket->itemSlots[i].quantity, 0);
+                }
+
+                if (GetBagItemQuantity(&itemPocket->itemSlots[i].quantity) == 0)
+                    itemPocket->itemSlots[i].itemId = ITEM_NONE;
+
+                if (count == 0)
+                    return TRUE;
+            }
+        }
+        return TRUE;
+    }
+}
+
+bool8 RemoveBagItemAnyPocket(u16 itemId, u16 count, u8 pocket)
+{
+    u16 i;
+    u16 totalQuantity = 0;
+
+    if (GetItemPocket(itemId) == POCKET_NONE || itemId == ITEM_NONE)
+        return FALSE;
+
+    // check Battle Pyramid Bag
+    if (InBattlePyramid() || FlagGet(FLAG_STORING_ITEMS_IN_PYRAMID_BAG) == TRUE)
+    {
+        return RemovePyramidBagItem(itemId, count);
+    }
+    else
+    {
+        u8 var;
+        u16 ownedCount;
+        struct BagPocket *itemPocket;
+
         itemPocket = &gBagPockets[pocket];
 
         for (i = 0; i < itemPocket->capacity; i++)
@@ -900,9 +1095,95 @@ u16 GetItemId(u16 itemId)
     return gItems[SanitizeItemId(itemId)].itemId;
 }
 
+u16 round_5(u16 num) {
+  int t1;
+  t1 = num % 5; 
+  if (t1 >= 2) // if the remainder is 2 or more, round up
+    num += (5 - t1);
+  else // otherwise, round down
+    num -= t1;
+  return num;
+}
+
 u16 GetItemPrice(u16 itemId)
 {
-    return gItems[SanitizeItemId(itemId)].price;
+    u16 card = CardIdMapping[itemId];
+    if (itemId < 377)
+        return gItems[SanitizeItemId(itemId)].price;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_YUGI_KAIBA)
+        return round_5(gCardInfo[card].priceYK) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_CRITTER)
+        return round_5(gCardInfo[card].priceCritter) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_TREASURE)
+        return round_5(gCardInfo[card].priceTreasure) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_IMPERIAL)
+        return round_5(gCardInfo[card].priceImperial) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_ANDROID)
+        return round_5(gCardInfo[card].priceAndroid) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_JOEY_PEGASUS)
+        return round_5(gCardInfo[card].priceJoeyPegasus) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_FIBER)
+        return round_5(gCardInfo[card].priceFiber) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_YATA)
+        return round_5(gCardInfo[card].priceYata) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_SCIENTIST)
+        return round_5(gCardInfo[card].priceScientist) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_VAMPIRE)
+        return round_5(gCardInfo[card].priceVampire) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_CHAOS)
+        return round_5(gCardInfo[card].priceChaos) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_WARRIOR)
+        return round_5(gCardInfo[card].priceWarrior) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_GOAT)
+        return round_5(gCardInfo[card].priceGoat) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_CYBER)
+        return round_5(gCardInfo[card].priceCyber) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_REAPER)
+        return round_5(gCardInfo[card].priceReaper) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_CHAOS_RETURN)
+        return round_5(gCardInfo[card].priceChaosReturn) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_DEMISE)
+        return round_5(gCardInfo[card].priceDemise) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_TROOPER)
+        return round_5(gCardInfo[card].priceTrooper) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_ZOMBIE)
+        return round_5(gCardInfo[card].priceZombie) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_PERFECT_CIRCLE)
+        return round_5(gCardInfo[card].pricePerfectCircle) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_DAD_RETURN)
+        return round_5(gCardInfo[card].priceDADReturn) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_GLADIATOR)
+        return round_5(gCardInfo[card].priceGladiator) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_TELEDAD)
+        return round_5(gCardInfo[card].priceTeleDAD) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_CAT)
+        return round_5(gCardInfo[card].priceCat) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_EDISON)
+        return round_5(gCardInfo[card].priceEdison) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_FROG)
+        return round_5(gCardInfo[card].priceFrog) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_STARSTRIKE)
+        return round_5(gCardInfo[card].priceStarstrike) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_TENGU)
+        return round_5(gCardInfo[card].priceTengu) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_DINO_RABBIT)
+        return round_5(gCardInfo[card].priceDinoRabbit) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_WIND_UP)
+        return round_5(gCardInfo[card].priceWindUp) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_MIAMI)
+        return round_5(gCardInfo[card].priceMiami) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_MEADOWLANDS)
+        return round_5(gCardInfo[card].priceMeadowlands) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_BABY_RULER)
+        return round_5(gCardInfo[card].priceBabyRuler) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_RAVINE_RULER)
+        return round_5(gCardInfo[card].priceRavineRuler) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_FIRE_WATER)
+        return round_5(gCardInfo[card].priceFireWater) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_HAT)
+        return round_5(gCardInfo[card].priceYK) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == FORMAT_VEGAS)
+        return round_5(gCardInfo[card].priceVegas) * 10;
 }
 
 u8 GetItemHoldEffect(u16 itemId)

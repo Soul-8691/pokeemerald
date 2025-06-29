@@ -38,6 +38,10 @@
 #include "constants/metatile_behaviors.h"
 #include "constants/rgb.h"
 #include "constants/songs.h"
+#include "ygo.h"
+#include "ygo_graphics.h"
+#include "constants/ygo.h"
+#include "ui_menu.h"
 
 #define TAG_SCROLL_ARROW   2100
 #define TAG_ITEM_ICON_BASE 2110
@@ -53,6 +57,8 @@ enum {
     WIN_MONEY,
     WIN_ITEM_LIST,
     WIN_ITEM_DESCRIPTION,
+    WIN_ITEM_UPPER,
+    WIN_ITEM_UPPER_2,
     WIN_QUANTITY_IN_BAG,
     WIN_QUANTITY_PRICE,
     WIN_MESSAGE,
@@ -129,6 +135,7 @@ static void BuyMenuSetListEntry(struct ListMenuItem *, u16, u8 *);
 static void BuyMenuAddItemIcon(u16, u8);
 static void BuyMenuRemoveItemIcon(u16, u8);
 static void BuyMenuPrint(u8 windowId, const u8 *text, u8 x, u8 y, s8 speed, u8 colorSet);
+static void BuyMenuPrintSmallNarrow(u8 windowId, const u8 *text, u8 x, u8 y, s8 speed, u8 colorSet);
 static void BuyMenuDrawMapGraphics(void);
 static void BuyMenuCopyMenuBgToBg1TilemapBuffer(void);
 static void BuyMenuCollectObjectEventData(void);
@@ -282,20 +289,38 @@ static const struct WindowTemplate sShopBuyMenuWindowTemplates[] =
     [WIN_ITEM_DESCRIPTION] = {
         .bg = 0,
         .tilemapLeft = 0,
-        .tilemapTop = 13,
-        .width = 14,
-        .height = 6,
+        .tilemapTop = 11,
+        .width = 13,
+        .height = 9,
         .paletteNum = 15,
         .baseBlock = 0x0122,
+    },
+    [WIN_ITEM_UPPER] = {
+        .bg = 0,
+        .tilemapLeft = 3,
+        .tilemapTop = 6,
+        .width = 4,
+        .height = 4,
+        .paletteNum = 2,
+        .baseBlock = 0x22F,
+    },
+    [WIN_ITEM_UPPER_2] = {
+        .bg = 0,
+        .tilemapLeft = 7,
+        .tilemapTop = 6,
+        .width = 3,
+        .height = 3,
+        .paletteNum = 3,
+        .baseBlock = 0x23F,
     },
     [WIN_QUANTITY_IN_BAG] = {
         .bg = 0,
         .tilemapLeft = 1,
-        .tilemapTop = 11,
+        .tilemapTop = 4,
         .width = 12,
         .height = 2,
         .paletteNum = 15,
-        .baseBlock = 0x0176,
+        .baseBlock = 0x197,
     },
     [WIN_QUANTITY_PRICE] = {
         .bg = 0,
@@ -304,7 +329,7 @@ static const struct WindowTemplate sShopBuyMenuWindowTemplates[] =
         .width = 10,
         .height = 2,
         .paletteNum = 15,
-        .baseBlock = 0x018E,
+        .baseBlock = 0x1AF,
     },
     [WIN_MESSAGE] = {
         .bg = 0,
@@ -313,7 +338,7 @@ static const struct WindowTemplate sShopBuyMenuWindowTemplates[] =
         .width = 27,
         .height = 4,
         .paletteNum = 15,
-        .baseBlock = 0x01A2,
+        .baseBlock = 0x1C3,
     },
     DUMMY_WIN_TEMPLATE
 };
@@ -326,12 +351,12 @@ static const struct WindowTemplate sShopBuyMenuYesNoWindowTemplates =
     .width = 5,
     .height = 4,
     .paletteNum = 15,
-    .baseBlock = 0x020E,
+    .baseBlock = 0x248,
 };
 
 static const u8 sShopBuyMenuTextColors[][3] =
 {
-    [COLORID_NORMAL]      = {1, 2, 3},
+    [COLORID_NORMAL]      = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_LIGHT_GRAY,      TEXT_COLOR_DARK_GRAY},
     [COLORID_ITEM_LIST]   = {0, 2, 3},
     [COLORID_GRAY_CURSOR] = {0, 3, 2},
 };
@@ -590,6 +615,14 @@ static void BuyMenuSetListEntry(struct ListMenuItem *menuItem, u16 item, u8 *nam
 static void BuyMenuPrintItemDescriptionAndShowItemIcon(s32 item, bool8 onInit, struct ListMenu *list)
 {
     const u8 *description;
+    u16 card = CardIdMapping[item];
+    u8 attribute = gCardInfo[card].attribute;
+    u8 race = gCardInfo[card].race;
+    u8 type = gCardInfo[card].type;
+    const u8 *cardName = gCardInfo[card].nameShort;
+    u16 cardAtk = gCardInfo[card].atk * 10;
+    u16 cardDef = gCardInfo[card].def * 10;
+    u8 cardLevel = gCardInfo[card].level;
     if (onInit != TRUE)
         PlaySE(SE_SELECT);
 
@@ -613,7 +646,47 @@ static void BuyMenuPrintItemDescriptionAndShowItemIcon(s32 item, bool8 onInit, s
     }
 
     FillWindowPixelBuffer(WIN_ITEM_DESCRIPTION, PIXEL_FILL(0));
-    BuyMenuPrint(WIN_ITEM_DESCRIPTION, description, 3, 1, 0, COLORID_NORMAL);
+    FillWindowPixelBuffer(WIN_ITEM_UPPER, PIXEL_FILL(0));
+    FillWindowPixelBuffer(WIN_ITEM_UPPER_2, PIXEL_FILL(0));
+    if (card ==  0 || item < 0)
+    {
+        BuyMenuPrint(WIN_ITEM_DESCRIPTION, description, 3, 1, 0, COLORID_NORMAL);
+        ClearWindowTilemap(WIN_ITEM_UPPER);
+        ClearWindowTilemap(WIN_ITEM_UPPER_2);
+        ScheduleBgCopyTilemapToVram(0);
+    }
+    else
+    {
+        BuyMenuPrintSmallNarrow(WIN_ITEM_DESCRIPTION, cardName, 0, 4, 0, COLORID_NORMAL);
+        ConvertIntToDecimalStringN(gStringVar1, cardLevel, STR_CONV_MODE_LEFT_ALIGN, 2);
+        StringExpandPlaceholders(gStringVar4, gText_xLevel);
+        BuyMenuPrintSmallNarrow(WIN_ITEM_DESCRIPTION, gStringVar4, 0, 16, 0, COLORID_NORMAL);
+        ConvertIntToDecimalStringN(gStringVar1, cardAtk, STR_CONV_MODE_LEFT_ALIGN, 4);
+        StringExpandPlaceholders(gStringVar4, gText_xAtk);
+        BuyMenuPrintSmallNarrow(WIN_ITEM_DESCRIPTION, gStringVar4, 0, 28, 0, COLORID_NORMAL);
+        ConvertIntToDecimalStringN(gStringVar1, cardDef, STR_CONV_MODE_LEFT_ALIGN, 4);
+        StringExpandPlaceholders(gStringVar4, gText_xDef);
+        BuyMenuPrintSmallNarrow(WIN_ITEM_DESCRIPTION, gStringVar4, 0, 40, 0, COLORID_NORMAL);
+        if (type == TYPE_SPELL_CARD || type == TYPE_TRAP_CARD)
+        {
+            BlitBitmapToWindow(WIN_ITEM_UPPER, sCardTypeIcons[type], 16, 12, 16, 16);
+            LoadPalette(sCardTypeIconPals[type], BG_PLTT_ID(2), 32);
+        }
+        else
+        {
+            BlitBitmapToWindow(WIN_ITEM_UPPER, sCardRaceIcons[race], 16, 12, 16, 16);
+            LoadPalette(sCardRaceIconPals[race], BG_PLTT_ID(2), 32);
+            BlitBitmapToWindow(WIN_ITEM_UPPER_2, sCardAttributeIcons[attribute], 2, 10, 16, 16);
+            LoadPalette(sCardAttributeIconPals[attribute], BG_PLTT_ID(3), 32);
+        }
+        if (gSupportedTypes[type])
+            BuyMenuPrintSmallNarrow(WIN_ITEM_DESCRIPTION, gCardTypeText[type], 0, 52, 0, COLORID_NORMAL);
+        CopyWindowToVram(WIN_ITEM_UPPER, COPYWIN_GFX);
+        CopyWindowToVram(WIN_ITEM_UPPER_2, COPYWIN_GFX);
+        PutWindowTilemap(WIN_ITEM_UPPER);
+        PutWindowTilemap(WIN_ITEM_UPPER_2);
+        ScheduleBgCopyTilemapToVram(0);
+    }
 }
 
 static void BuyMenuPrintPriceInList(u8 windowId, u32 itemId, u8 y)
@@ -689,8 +762,8 @@ static void BuyMenuAddItemIcon(u16 item, u8 iconSlot)
         if (spriteId != MAX_SPRITES)
         {
             *spriteIdPtr = spriteId;
-            gSprites[spriteId].x2 = 24;
-            gSprites[spriteId].y2 = 88;
+            gSprites[spriteId].x2 = 20;
+            gSprites[spriteId].y2 = 76;
         }
     }
     else
@@ -757,6 +830,11 @@ static void BuyMenuInitWindows(void)
 static void BuyMenuPrint(u8 windowId, const u8 *text, u8 x, u8 y, s8 speed, u8 colorSet)
 {
     AddTextPrinterParameterized4(windowId, FONT_NORMAL, x, y, 0, 0, sShopBuyMenuTextColors[colorSet], speed, text);
+}
+
+static void BuyMenuPrintSmallNarrow(u8 windowId, const u8 *text, u8 x, u8 y, s8 speed, u8 colorSet)
+{
+    AddTextPrinterParameterized4(windowId, FONT_SMALL_NARROW, x, y, 0, 0, sShopBuyMenuTextColors[colorSet], speed, text);
 }
 
 static void BuyMenuDisplayMessage(u8 taskId, const u8 *text, TaskFunc callback)
@@ -1033,7 +1111,10 @@ static void Task_BuyHowManyDialogueInit(u8 taskId)
     u16 quantityInBag = CountTotalItemQuantityInBag(tItemId);
     u16 maxQuantity;
 
-    DrawStdFrameWithCustomTileAndPalette(WIN_QUANTITY_IN_BAG, FALSE, 1, 13);
+    // DrawStdFrameWithCustomTileAndPalette(WIN_QUANTITY_IN_BAG, FALSE, 1, 13);
+    FillWindowPixelBuffer(WIN_QUANTITY_IN_BAG, PIXEL_FILL(0));
+    PutWindowTilemap(WIN_QUANTITY_IN_BAG);
+    CopyWindowToVram(WIN_QUANTITY_IN_BAG, COPYWIN_FULL);
     ConvertIntToDecimalStringN(gStringVar1, quantityInBag, STR_CONV_MODE_RIGHT_ALIGN, MAX_ITEM_DIGITS + 2);
     StringExpandPlaceholders(gStringVar4, gText_InBagVar1);
     BuyMenuPrint(WIN_QUANTITY_IN_BAG, gStringVar4, 0, 1, 0, COLORID_NORMAL);
