@@ -2972,9 +2972,9 @@ static void SpriteCB_SlideLeft(struct Sprite *sprite)
 {
     if (!(gIntroSlideFlags & 1))
     {
-        sprite->x -= 2;
+        sprite->x -= 1;
         DebugPrintf("x=%d, x2=%d", sprite->x, sprite->x2);
-        if (sprite->x == sprite->x2)
+        if (sprite->x - 48 == sprite->x2)
         {
             sprite->callback = SpriteCB_Idle;
             sprite->data[1] = 0;
