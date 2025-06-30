@@ -60,6 +60,16 @@
 #include "constants/songs.h"
 #include "constants/trainers.h"
 #include "cable_club.h"
+#include "ygo_graphics.h"
+#include "ygo.h"
+#include "constants/ygo.h"
+#include "item_menu_icons.h"
+#include "item_menu.h"
+#include "item_icon.h"
+#include "comfy_anim.h"
+
+#define TAG_CARD_ICON_SMALL 60002
+#define TAG_CARD_ICON_SMALL_PAL 60003
 
 extern const struct BgTemplate gBattleBgTemplates[];
 extern const struct WindowTemplate *const gBattleWindowTemplates[];
@@ -148,6 +158,7 @@ EWRAM_DATA u32 gBattleTypeFlags = 0;
 EWRAM_DATA u8 gBattleEnvironment = 0;
 EWRAM_DATA u32 gUnusedFirstBattleVar1 = 0; // Never read
 EWRAM_DATA struct MultiPartnerMenuPokemon gMultiPartnerParty[MULTI_PARTY_SIZE] = {0};
+EWRAM_DATA u16 items[NUM_CARDS*3] = {0};
 EWRAM_DATA static struct MultiPartnerMenuPokemon *sMultiPartnerPartyBuffer = NULL;
 EWRAM_DATA u8 *gBattleAnimBgTileBuffer = NULL;
 EWRAM_DATA u8 *gBattleAnimBgTilemapBuffer = NULL;
@@ -2957,6 +2968,20 @@ void SpriteCB_BattleSpriteStartSlideLeft(struct Sprite *sprite)
     sprite->callback = SpriteCB_BattleSpriteSlideLeft;
 }
 
+static void SpriteCB_SlideLeft(struct Sprite *sprite)
+{
+    if (!(gIntroSlideFlags & 1))
+    {
+        sprite->x -= 1;
+        DebugPrintf("x=%d, x2=%d", sprite->x, sprite->x2);
+        if (sprite->x - 48 == sprite->x2)
+        {
+            sprite->callback = SpriteCB_Idle;
+            sprite->data[1] = 0;
+        }
+    }
+}
+
 static void SpriteCB_BattleSpriteSlideLeft(struct Sprite *sprite)
 {
     if (!(gIntroSlideFlags & 1))
@@ -3481,6 +3506,16 @@ static void BattleIntroGetMonsData(void)
     }
 }
 
+bool8 containsElement(u16 arr[], int size, int target) {
+    u32 i;
+    for (i = 0; i < size; i++) {
+        if (arr[i] == target) {
+            return TRUE; // Element found
+        }
+    }
+    return FALSE; // Element not found
+}
+
 static void BattleIntroPrepareBackgroundSlide(void)
 {
     if (gBattleControllerExecFlags == 0)
@@ -3489,7 +3524,77 @@ static void BattleIntroPrepareBackgroundSlide(void)
         BtlController_EmitIntroSlide(B_COMM_TO_CONTROLLER, gBattleEnvironment);
         MarkBattlerForControllerExec(gActiveBattler);
         if (gBattleTypeFlags & BATTLE_TYPE_YGO)
+        {
+            struct BagPocket *itemPocket;
+            u16 indexes[6];
+            u32 i, k;
+            u32 j = 0;
+            u32 x = 0;
+            u16 randomItem;
+
+            itemPocket = &gBagPockets[MAIN_DECK_POCKET];
+            for (i = 0; i < itemPocket->capacity; i++)
+            {
+                u8 quantity = GetBagItemQuantity(&itemPocket->itemSlots[i].quantity);
+                if (quantity)
+                {
+                    for (k = 0; k < quantity; k++)
+                    {
+                        items[j] = itemPocket->itemSlots[i].itemId;
+                        DebugPrintf("quantity=%d, items[j]=%d, j=%d", quantity, items[j], j);
+                        j++;
+                    }
+                }
+            }
+            FlagSet(FLAG_YGO_ICON);
+            randomItem = Random() % j;
+            k = 0;
+            while (k < 6)
+            {
+                if (!containsElement(indexes, 6, randomItem))
+                {
+                    u8 spriteId;
+                    struct SpriteSheet spriteSheet;
+                    struct CompressedSpritePalette spritePalette;
+                    struct SpriteTemplate *spriteTemplate;
+
+                    indexes[k] = randomItem;
+                    AllocItemIconTemporaryBuffers();
+
+                    DebugPrintf("randomItem=%S", gCardInfo[CardIdMapping[items[randomItem]]].name);
+                    LZDecompressWram(GetItemIconPicOrPalette(items[randomItem], 0), gItemIconDecompressionBuffer);
+                    CopyItemIconPicTo4x4Buffer(gItemIconDecompressionBuffer, gItemIcon4x4Buffer, items[randomItem]);
+                    spriteSheet.data = gItemIcon4x4Buffer;
+                    spriteSheet.size = 0x200;
+                    spriteSheet.tag = TAG_CARD_ICON_SMALL + 2 * k;
+                    LoadSpriteSheet(&spriteSheet);
+
+                    spritePalette.data = GetItemIconPicOrPalette(items[randomItem], 1);
+                    spritePalette.tag = TAG_CARD_ICON_SMALL_PAL + 2 * k;
+                    LoadCompressedSpritePalette(&spritePalette);
+
+                    spriteTemplate = Alloc(sizeof(*spriteTemplate));
+                    CpuCopy16(&gItemIconSpriteTemplate, spriteTemplate, sizeof(*spriteTemplate));
+                    spriteTemplate->tileTag = TAG_CARD_ICON_SMALL + 2 * k;
+                    spriteTemplate->paletteTag = TAG_CARD_ICON_SMALL_PAL + 2 * k;
+                    spriteId = CreateSprite(spriteTemplate, 0, 0, 0);
+                    if (spriteId != MAX_SPRITES)
+                    {
+                        gSprites[spriteId].x = 256;
+                        gSprites[spriteId].y = 140;
+                        gSprites[spriteId].x2 = k * 16;
+                        gSprites[spriteId].callback = SpriteCB_SlideLeft;
+                        FreeItemIconTemporaryBuffers();
+                        Free(spriteTemplate);
+                    }
+                    k++;
+                    randomItem = Random() % j;
+                }
+                else
+                    randomItem = Random() % j;
+            }
             gBattleMainFunc = HandleTurnActionSelectionState;
+        }
         else
             BattleIntroDrawTrainersOrMonsSprites;
         gBattleCommunication[MULTIUSE_STATE] = 0;

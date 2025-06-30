@@ -13,6 +13,7 @@ void SetBagVisualPocketId(u8 bagPocketId, bool8 isSwitchingPockets);
 void ShakeBagSprite(void);
 void AddSwitchPocketRotatingBallSprite(s16 rotationDirection);
 void AddBagItemIconSprite(u16 itemId, u8 id);
+void AddBattleItemIconSprite(u16 itemId, u8 id);
 void RemoveBagItemIconSprite(u8 id);
 void CreateItemMenuSwapLine(void);
 void SetItemMenuSwapLineInvisibility(bool8 invisible);
