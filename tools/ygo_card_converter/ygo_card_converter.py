@@ -653,9 +653,9 @@ Item_Constants += '\n'
 
 pack_counter = 990
 for format_ in formats:
-    YGOConstants += '#define PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + ' ' + str(pack_counter) + '\n'
+    YGO_Constants += '#define PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + ' ' + str(pack_counter) + '\n'
     pack_counter += 1
-YGOConstants += '\n'
+YGO_Constants += '\n'
 
 pack_counter = 990
 for format_ in formats:
@@ -724,6 +724,7 @@ for format_ in formats:
 ItemUsePrinter = open('src/item_use.c', 'w', encoding='utf-8')
 ItemUsePrinter.write(ItemUse)
 ItemUsePrinter.close()
+print('src/item_use.c written')
 
 tcg_sets = set()
 # TCG_Set_Writer = open('tcg_sets.json', 'w', encoding='utf-8')
@@ -812,6 +813,7 @@ with open('tcg_sets.json', 'r') as f:
 PacksWrite = open('src/data/ygo/packs.h', 'w', encoding='utf-8')
 PacksWrite.write(sets_print)
 PacksWrite.close()
+print('src/data/ygo/packs.h written')
 
 card_count = 0
 with open('tcg_sets.json', 'r') as f:
@@ -822,59 +824,97 @@ with open('tcg_sets.json', 'r') as f:
 SRCDataItemsWrite = open('src/data/items.h', 'w', encoding='utf-8')
 SRCDataItemsWrite.write(SRCDataItems)
 SRCDataItemsWrite.close()
+print('src/data/items.h written')
 
-for data in card_info_data['data']:
-    card_name = data['name']
-    description_lines[card_name] = 1
-    if card_name in card_names:
-        gCardInfo += ('const u8 gCardName_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("' + card_name + '");\n'
-                  + 'const u8 gCardNameShort_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("'
-         + card_name[:19] + '");\n'
-                  + 'const u8 gCardNameShortBag_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("'
-         + card_name[:26] + '");\n')
-        YGO_C += 'const u8 gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("' + textwrap.fill(data['desc'].replace('"', '').replace('\r\n', '').replace('\n', '').replace("''", ''), width=30).replace('\n', '\\n') + '");\n'
-        for line in range(textwrap.fill(data['desc'].replace('"', '').replace('\r\n', '').replace('\n', '').replace("''", ''), width=30).replace('\n', '\\n').count('\\n')):
-             description_lines[card_name] += 1
-        YGO += 'extern const u8 gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
-        YGO_Graphics += ('extern const u32 gCardPicLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '_Big[];\n'
-                     + 'extern const u16 gCardPalLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
-                     + 'extern const u32 gCardIconSquare_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
-                     + 'extern const u32 gCardIconSquarePalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
-                     + 'extern const u32 gCardIconSmall_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
-                     + 'extern const u32 gCardIconSmallPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
-                     + 'extern const u32 gCardIconTiny_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
-                     + 'extern const u32 gCardIconTinyPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n')
-        ItemIconTable += '\t[ITEM_' + re.sub(r'\W+', '_', data['name']).upper() + '] = {gCardIconSquare_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ', gCardIconSquarePalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '},\n'
-        Scripts += '\tadditem ITEM_' + re.sub(r'\W+', '_', data['name']).upper() + '\n'
-        YGO_Graphics_C += ('const u32 gCardPicLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '_Big[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/pic_large_big.8bpp.lz");\n'
-                      + 'const u16 gCardPalLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U16("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/pic_large_big.gbapal");\n'
-                      + 'const u32 gCardIconSquare_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/pic_small.4bpp.lz");\n'
-                      + 'const u32 gCardIconSquarePalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/pic_small.gbapal.lz");\n'
-                      + 'const u32 gCardIconSmall_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/icon_small.4bpp.lz");\n'
-                      + 'const u32 gCardIconSmallPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/icon_small.gbapal.lz");\n'
-                      + 'const u32 gCardIconTiny_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/icon_tiny.4bpp.lz");\n'
-                      + 'const u32 gCardIconTinyPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/icon_tiny.gbapal.lz");\n')
-        YGO_Constants += '#define CARD_' + re.sub(r'\W+', '_', data['name']).upper() + ' ' + str(card_counter) + '\n'
-        Item_Constants += '#define ITEM_' + re.sub(r'\W+', '_', data['name']).upper() + ' ' + str(card_counter + 376) + '\n'
-        card_counter += 1
-        Items += '''\t[ITEM_''' + re.sub(r'\W+', '_', data['name']).upper() + '''] =
-    {
-        .name = _("''' + re.sub(r'[^a-zA-Z0-9]', '', data['name'])[:13] + '''"),
-        .itemId = ITEM_''' + re.sub(r'\W+', '_', data['name']).upper() + ''',
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },\n
-'''
-        UI_Menu += '''    {
-        .data = gCardPicLarge_''' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '''_Big,
-        .size = 80*80,
-        .tag = TAG_CARD
-    },\n'''
-        Graphics_File_Rules += 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '''/pic_large.gbapal: %.gbapal: %.pal
-	$(GFX) $< $@ -num_colors 64\n\n'''
+for card_name in card_names:
+	for data in card_info_data['data']:
+		description_lines[card_name] = 1
+		if card_name == data['name']:
+			gCardInfo += ('const u8 gCardName_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("' + card_name + '");\n'
+					+ 'const u8 gCardNameShort_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("'
+			+ card_name[:19] + '");\n'
+					+ 'const u8 gCardNameShortBag_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("'
+			+ card_name[:26] + '");\n')
+			YGO_C += 'const u8 gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("' + textwrap.fill(data['desc'].replace('"', '').replace('\r\n', '').replace('\n', '').replace("''", ''), width=30).replace('\n', '\\n') + '");\n'
+			for line in range(textwrap.fill(data['desc'].replace('"', '').replace('\r\n', '').replace('\n', '').replace("''", ''), width=30).replace('\n', '\\n').count('\\n')):
+				description_lines[card_name] += 1
+			YGO += 'extern const u8 gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
+			YGO_Graphics += ('extern const u32 gCardPicLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '_Big[];\n'
+						+ 'extern const u16 gCardPalLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
+						+ 'extern const u32 gCardIconSquare_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
+						+ 'extern const u32 gCardIconSquarePalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
+						+ 'extern const u32 gCardIconSmall_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
+						+ 'extern const u32 gCardIconSmallPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
+						+ 'extern const u32 gCardIconTiny_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
+						+ 'extern const u32 gCardIconTinyPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n')
+			ItemIconTable += '\t[ITEM_' + re.sub(r'\W+', '_', data['name']).upper() + '] = {gCardIconSquare_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ', gCardIconSquarePalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '},\n'
+			Scripts += '\tadditem ITEM_' + re.sub(r'\W+', '_', data['name']).upper() + '\n'
+			YGO_Graphics_C += ('const u32 gCardPicLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '_Big[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/pic_large_big.8bpp.lz");\n'
+						+ 'const u16 gCardPalLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U16("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/pic_large_big.gbapal");\n'
+						+ 'const u32 gCardIconSquare_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/pic_small.4bpp.lz");\n'
+						+ 'const u32 gCardIconSquarePalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/pic_small.gbapal.lz");\n'
+						+ 'const u32 gCardIconSmall_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/icon_small.4bpp.lz");\n'
+						+ 'const u32 gCardIconSmallPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/icon_small.gbapal.lz");\n'
+						+ 'const u32 gCardIconTiny_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/icon_tiny.4bpp.lz");\n'
+						+ 'const u32 gCardIconTinyPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/icon_tiny.gbapal.lz");\n')
+			YGO_Constants += '#define CARD_' + re.sub(r'\W+', '_', data['name']).upper() + ' ' + str(card_counter) + '\n'
+			Item_Constants += '#define ITEM_' + re.sub(r'\W+', '_', data['name']).upper() + ' ' + str(card_counter + 376) + '\n'
+			card_counter += 1
+			Items += '''\t[ITEM_''' + re.sub(r'\W+', '_', data['name']).upper() + '''] =
+		{
+			.name = _("''' + re.sub(r'[^a-zA-Z0-9]', '', data['name'])[:13] + '''"),
+			.itemId = ITEM_''' + re.sub(r'\W+', '_', data['name']).upper() + ''',
+			.price = 0,
+			.description = sDummyDesc,
+			.pocket = POCKET_TRUNK,
+			.type = ITEM_USE_FIELD,
+			.fieldUseFunc = ItemUseOutOfBattle_Card,
+		},\n
+	'''
+			UI_Menu += '''    {
+			.data = gCardPicLarge_''' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '''_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},\n'''
+			Graphics_File_Rules += 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '''/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64\n\n'''
+
+YGO_Output = open('include/ygo.h', 'w')
+YGO_Output.write(YGO)
+YGO_Output.close()
+print('include/ygo.h written')
+YGO_Graphics_Output = open('include/ygo_graphics.h', 'w')
+YGO_Graphics_Output.write(YGO_Graphics)
+YGO_Graphics_Output.close()
+print('include/ygo_graphics.h written')
+ItemIconTable_Output = open('src/data/item_icon_table.h', 'w')
+ItemIconTable_Output.write(ItemIconTable)
+ItemIconTable_Output.close()
+print('src/data/item_icon_table.h written')
+YGO_Graphics_C_Output = open('src/ygo_graphics.c', 'w')
+YGO_Graphics_C_Output.write(YGO_Graphics_C)
+YGO_Graphics_C_Output.close()
+print('src/ygo_graphics.c written')
+YGO_Constants_Output = open('include/constants/ygo.h', 'w')
+YGO_Constants_Output.write(YGO_Constants)
+YGO_Constants_Output.close()
+print('include/constants/ygo.h written')
+Item_Constants_Output = open('include/constants/items.h', 'w')
+Item_Constants_Output.write(Item_Constants)
+Item_Constants_Output.close()
+print('include/constants/items.h written')
+Items_Output = open('src/data/items.h', 'w')
+Items_Output.write(Items)
+Items_Output.close()
+print('src/data/items.h written')
+UI_Menu_Output = open('src/ui_menu.c', 'w')
+UI_Menu_Output.write(UI_Menu)
+UI_Menu_Output.close()
+print('src/ui_menu.c written')
+Graphics_File_Rules_Output = open('graphics_file_rules.mk', 'w')
+Graphics_File_Rules_Output.write(Graphics_File_Rules)
+Graphics_File_Rules_Output.close()
+print('graphics_file_rules.mk written')
 
 gCardInfo += '\n'
 YGO_C += '\n'
@@ -891,6 +931,8 @@ for format in cards_by_format:
 
 Scripts_Output = open('data/scripts/scripts.inc', 'w')
 Scripts_Output.write(Scripts)
+Scripts_Output.close()
+print('data/scripts/scripts.inc written')
 
 # Image conversion
 card_counter = 1
@@ -907,11 +949,13 @@ for card_name in tqdm(card_names):
 				if not os.path.exists(image):
 					with open(image, 'wb') as file:
 						file.write(res.content)
+						print(card_name + ' image written')
 				res = requests.get(image_cropped_url_cropped)
 				image_cropped = 'Artwork/' + card_name + '_' + card_id + '_Cropped.jpg'
 				if not os.path.exists(image_cropped):
 					with open(image_cropped, 'wb') as file:
 						file.write(res.content)
+						print(card_name + ' art written')
 				folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
 				if not os.path.exists(folder_path):
 					os.mkdir(folder_path)
@@ -1106,23 +1150,9 @@ for card_name in tqdm(card_names):
 
 gCardInfo_Output = open('src/data/ygo/card_info.h', 'w')
 gCardInfo_Output.write(gCardInfo)
-YGO_Output = open('include/ygo.h', 'w')
-YGO_Output.write(YGO)
-YGO_Graphics_Output = open('include/ygo_graphics.h', 'w')
-YGO_Graphics_Output.write(YGO_Graphics)
-ItemIconTable_Output = open('src/data/item_icon_table.h', 'w')
-ItemIconTable_Output.write(ItemIconTable)
-YGO_Graphics_C_Output = open('src/ygo_graphics.c', 'w')
-YGO_Graphics_C_Output.write(YGO_Graphics_C)
-YGO_Constants_Output = open('include/constants/ygo.h', 'w')
-YGO_Constants_Output.write(YGO_Constants)
-Item_Constants_Output = open('include/constants/items.h', 'w')
-Item_Constants_Output.write(Item_Constants)
-Items_Output = open('src/data/items.h', 'w')
-Items_Output.write(Items)
+gCardInfo_Output.close()
+print('src/data/ygo/card_info.h written')
 YGO_C_Output = open('src/ygo.c', 'w')
 YGO_C_Output.write(YGO_C)
-UI_Menu_Output = open('src/ui_menu.c', 'w')
-UI_Menu_Output.write(UI_Menu)
-Graphics_File_Rules_Output = open('graphics_file_rules.mk', 'w')
-Graphics_File_Rules_Output.write(Graphics_File_Rules)
+YGO_C_Output.close()
+print('src/ygo.c written')

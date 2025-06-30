@@ -1,3 +1,411 @@
+	[ITEM_PACK_YUGI_KAIBA] =
+    {
+        .name = _("Yugi-Kaiba"),
+        .itemId = ITEM_PACK_YUGI_KAIBA,
+        .price = 0,
+        .description = sYugiKaibaDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CRITTER] =
+    {
+        .name = _("Critter"),
+        .itemId = ITEM_PACK_CRITTER,
+        .price = 0,
+        .description = sCritterDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_TREASURE] =
+    {
+        .name = _("Treasure"),
+        .itemId = ITEM_PACK_TREASURE,
+        .price = 0,
+        .description = sTreasureDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_IMPERIAL] =
+    {
+        .name = _("Imperial"),
+        .itemId = ITEM_PACK_IMPERIAL,
+        .price = 0,
+        .description = sImperialDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ANDROID] =
+    {
+        .name = _("Android"),
+        .itemId = ITEM_PACK_ANDROID,
+        .price = 0,
+        .description = sAndroidDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_JOEY_PEGASUS] =
+    {
+        .name = _("Joey-Pegasus"),
+        .itemId = ITEM_PACK_JOEY_PEGASUS,
+        .price = 0,
+        .description = sJoeyPegasusDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_FIBER] =
+    {
+        .name = _("Fiber"),
+        .itemId = ITEM_PACK_FIBER,
+        .price = 0,
+        .description = sFiberDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YATA] =
+    {
+        .name = _("Yata"),
+        .itemId = ITEM_PACK_YATA,
+        .price = 0,
+        .description = sYataDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SCIENTIST] =
+    {
+        .name = _("Scientist"),
+        .itemId = ITEM_PACK_SCIENTIST,
+        .price = 0,
+        .description = sScientistDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_VAMPIRE] =
+    {
+        .name = _("Vampire"),
+        .itemId = ITEM_PACK_VAMPIRE,
+        .price = 0,
+        .description = sVampireDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CHAOS] =
+    {
+        .name = _("Chaos"),
+        .itemId = ITEM_PACK_CHAOS,
+        .price = 0,
+        .description = sChaosDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WARRIOR] =
+    {
+        .name = _("Warrior"),
+        .itemId = ITEM_PACK_WARRIOR,
+        .price = 0,
+        .description = sWarriorDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_GOAT] =
+    {
+        .name = _("Goat"),
+        .itemId = ITEM_PACK_GOAT,
+        .price = 0,
+        .description = sGoatDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CYBER] =
+    {
+        .name = _("Cyber"),
+        .itemId = ITEM_PACK_CYBER,
+        .price = 0,
+        .description = sCyberDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_REAPER] =
+    {
+        .name = _("Reaper"),
+        .itemId = ITEM_PACK_REAPER,
+        .price = 0,
+        .description = sReaperDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CHAOS_RETURN] =
+    {
+        .name = _("Chaos Return"),
+        .itemId = ITEM_PACK_CHAOS_RETURN,
+        .price = 0,
+        .description = sChaosReturnDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DEMISE] =
+    {
+        .name = _("Demise"),
+        .itemId = ITEM_PACK_DEMISE,
+        .price = 0,
+        .description = sDemiseDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_TROOPER] =
+    {
+        .name = _("Trooper"),
+        .itemId = ITEM_PACK_TROOPER,
+        .price = 0,
+        .description = sTrooperDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ZOMBIE] =
+    {
+        .name = _("Zombie"),
+        .itemId = ITEM_PACK_ZOMBIE,
+        .price = 0,
+        .description = sZombieDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_PERFECT_CIRCLE] =
+    {
+        .name = _("Perfect Circl"),
+        .itemId = ITEM_PACK_PERFECT_CIRCLE,
+        .price = 0,
+        .description = sPerfectCircleDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DAD_RETURN] =
+    {
+        .name = _("DAD Return"),
+        .itemId = ITEM_PACK_DAD_RETURN,
+        .price = 0,
+        .description = sDADReturnDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_GLADIATOR] =
+    {
+        .name = _("Gladiator"),
+        .itemId = ITEM_PACK_GLADIATOR,
+        .price = 0,
+        .description = sGladiatorDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_TELEDAD] =
+    {
+        .name = _("TeleDAD"),
+        .itemId = ITEM_PACK_TELEDAD,
+        .price = 0,
+        .description = sTeleDADDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CAT] =
+    {
+        .name = _("Cat"),
+        .itemId = ITEM_PACK_CAT,
+        .price = 0,
+        .description = sCatDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_EDISON] =
+    {
+        .name = _("Edison"),
+        .itemId = ITEM_PACK_EDISON,
+        .price = 0,
+        .description = sEdisonDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_FROG] =
+    {
+        .name = _("Frog"),
+        .itemId = ITEM_PACK_FROG,
+        .price = 0,
+        .description = sFrogDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STARSTRIKE] =
+    {
+        .name = _("Starstrike"),
+        .itemId = ITEM_PACK_STARSTRIKE,
+        .price = 0,
+        .description = sStarstrikeDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_TENGU] =
+    {
+        .name = _("Tengu"),
+        .itemId = ITEM_PACK_TENGU,
+        .price = 0,
+        .description = sTenguDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DINO_RABBIT] =
+    {
+        .name = _("Dino Rabbit"),
+        .itemId = ITEM_PACK_DINO_RABBIT,
+        .price = 0,
+        .description = sDinoRabbitDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WIND_UP] =
+    {
+        .name = _("Wind-Up"),
+        .itemId = ITEM_PACK_WIND_UP,
+        .price = 0,
+        .description = sWindUpDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_MIAMI] =
+    {
+        .name = _("Miami"),
+        .itemId = ITEM_PACK_MIAMI,
+        .price = 0,
+        .description = sMiamiDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_MEADOWLANDS] =
+    {
+        .name = _("Meadowlands"),
+        .itemId = ITEM_PACK_MEADOWLANDS,
+        .price = 0,
+        .description = sMeadowlandsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_BABY_RULER] =
+    {
+        .name = _("Baby Ruler"),
+        .itemId = ITEM_PACK_BABY_RULER,
+        .price = 0,
+        .description = sBabyRulerDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_RAVINE_RULER] =
+    {
+        .name = _("Ravine Ruler"),
+        .itemId = ITEM_PACK_RAVINE_RULER,
+        .price = 0,
+        .description = sRavineRulerDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_FIRE_WATER] =
+    {
+        .name = _("Fire-Water"),
+        .itemId = ITEM_PACK_FIRE_WATER,
+        .price = 0,
+        .description = sFireWaterDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HAT] =
+    {
+        .name = _("HAT"),
+        .itemId = ITEM_PACK_HAT,
+        .price = 0,
+        .description = sHATDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_VEGAS] =
+    {
+        .name = _("Vegas"),
+        .itemId = ITEM_PACK_VEGAS,
+        .price = 0,
+        .description = sVegasDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+
 
 const u16 PackIdMapping[] = 
 {
@@ -998,37 +1406,27 @@ extern const u8 gCardDescription_ALegendaryOcean[];
 extern const u8 gCardDescription_AbyssSoldier[];
 extern const u8 gCardDescription_AirknightParshath[];
 extern const u8 gCardDescription_AmazonessArcher[];
-extern const u8 gCardDescription_AmazonessSpiritualist[];
 extern const u8 gCardDescription_AmphibiousBugrothMK3[];
 extern const u8 gCardDescription_AntiSpellFragrance[];
 extern const u8 gCardDescription_AquaMadoor[];
 extern const u8 gCardDescription_AquaSpirit[];
-extern const u8 gCardDescription_ArchfiendCavalry[];
-extern const u8 gCardDescription_ArchfiendHeiress[];
-extern const u8 gCardDescription_ArchfiendInterceptor[];
 extern const u8 gCardDescription_ArchfiendSoldier[];
 extern const u8 gCardDescription_ArsenalBug[];
 extern const u8 gCardDescription_ArsenalSummoner[];
 extern const u8 gCardDescription_AsuraPriest[];
 extern const u8 gCardDescription_AxeofDespair[];
-extern const u8 gCardDescription_BakutheBeastNinja[];
 extern const u8 gCardDescription_BanisheroftheLight[];
 extern const u8 gCardDescription_BarrelBehindtheDoor[];
 extern const u8 gCardDescription_BattleFootballer[];
 extern const u8 gCardDescription_BattleOx[];
 extern const u8 gCardDescription_BazootheSoulEater[];
-extern const u8 gCardDescription_BeginningKnight[];
-extern const u8 gCardDescription_BeiigeVanguardofDarkWorld[];
-extern const u8 gCardDescription_BerlineththeFirestormVassal[];
 extern const u8 gCardDescription_BerserkGorilla[];
 extern const u8 gCardDescription_Bickuribox[];
 extern const u8 gCardDescription_BigBangShot[];
 extern const u8 gCardDescription_BigShieldGardna[];
 extern const u8 gCardDescription_BigTuskedMammoth[];
-extern const u8 gCardDescription_BlackDragonsChick[];
 extern const u8 gCardDescription_BlackIllusionRitual[];
 extern const u8 gCardDescription_BlackLusterSoldierEnvoyoftheBeginning[];
-extern const u8 gCardDescription_BlackMetalDragon[];
 extern const u8 gCardDescription_BlackPendant[];
 extern const u8 gCardDescription_BlackSkullDragon[];
 extern const u8 gCardDescription_BladeKnight[];
@@ -1037,10 +1435,8 @@ extern const u8 gCardDescription_BlazingInpachi[];
 extern const u8 gCardDescription_BlindlyLoyalGoblin[];
 extern const u8 gCardDescription_BlockAttack[];
 extern const u8 gCardDescription_BlowbackDragon[];
-extern const u8 gCardDescription_BlueFlameSwordsman[];
 extern const u8 gCardDescription_BlueEyesUltimateDragon[];
 extern const u8 gCardDescription_BlueEyesWhiteDragon[];
-extern const u8 gCardDescription_BoneArchfiend[];
 extern const u8 gCardDescription_BookofLife[];
 extern const u8 gCardDescription_BookofMoon[];
 extern const u8 gCardDescription_BookofTaiyou[];
@@ -1067,7 +1463,6 @@ extern const u8 gCardDescription_ChaosEmperorDragonEnvoyoftheEnd[];
 extern const u8 gCardDescription_ChaosSorcerer[];
 extern const u8 gCardDescription_CharcoalInpachi[];
 extern const u8 gCardDescription_ChirontheMage[];
-extern const u8 gCardDescription_ChronicleSorceress[];
 extern const u8 gCardDescription_CipherSoldier[];
 extern const u8 gCardDescription_ColdWave[];
 extern const u8 gCardDescription_CommandKnight[];
@@ -1078,13 +1473,9 @@ extern const u8 gCardDescription_CreatureSwap[];
 extern const u8 gCardDescription_CrushCardVirus[];
 extern const u8 gCardDescription_CursedSealoftheForbiddenSpell[];
 extern const u8 gCardDescription_CyberDragon[];
-extern const u8 gCardDescription_CyberDragonDrei[];
-extern const u8 gCardDescription_CyberDragonVier[];
-extern const u8 gCardDescription_CyberDragonZwei[];
 extern const u8 gCardDescription_CyberEndDragon[];
 extern const u8 gCardDescription_CyberHarpieLady[];
 extern const u8 gCardDescription_CyberJar[];
-extern const u8 gCardDescription_CyberLarva[];
 extern const u8 gCardDescription_CyberTwinDragon[];
 extern const u8 gCardDescription_CyberStein[];
 extern const u8 gCardDescription_DDAssailant[];
@@ -1109,7 +1500,6 @@ extern const u8 gCardDescription_DarkScorpionClifftheTrapRemover[];
 extern const u8 gCardDescription_DarkWorldLightning[];
 extern const u8 gCardDescription_DeSpell[];
 extern const u8 gCardDescription_DeckDevastationVirus[];
-extern const u8 gCardDescription_DefenderofNephthys[];
 extern const u8 gCardDescription_DekoichitheBattlechantedLocomotive[];
 extern const u8 gCardDescription_DelinquentDuo[];
 extern const u8 gCardDescription_DesDendle[];
@@ -1118,10 +1508,7 @@ extern const u8 gCardDescription_DesLacooda[];
 extern const u8 gCardDescription_DesWombat[];
 extern const u8 gCardDescription_DesertSunlight[];
 extern const u8 gCardDescription_DianKetotheCureMaster[];
-extern const u8 gCardDescription_DictatorofD[];
-extern const u8 gCardDescription_DimensionConjurer[];
 extern const u8 gCardDescription_DimensionFusion[];
-extern const u8 gCardDescription_DiscipleofNephthys[];
 extern const u8 gCardDescription_DonZaloog[];
 extern const u8 gCardDescription_DoomDozer[];
 extern const u8 gCardDescription_DoomcaliberKnight[];
@@ -1132,21 +1519,15 @@ extern const u8 gCardDescription_DreamClown[];
 extern const u8 gCardDescription_Drillroid[];
 extern const u8 gCardDescription_DropOff[];
 extern const u8 gCardDescription_DunamesDarkWitch[];
-extern const u8 gCardDescription_DupeFrog[];
 extern const u8 gCardDescription_DustTornado[];
 extern const u8 gCardDescription_EarthboundSpirit[];
-extern const u8 gCardDescription_EidostheUnderworldSquire[];
 extern const u8 gCardDescription_ElectricSnake[];
-extern const u8 gCardDescription_ElementalHEROBlazeman[];
 extern const u8 gCardDescription_ElementalHEROClayman[];
 extern const u8 gCardDescription_ElementalHEROFlameWingman[];
 extern const u8 gCardDescription_ElementalHEROWildheart[];
-extern const u8 gCardDescription_ElementalHEROWoodsman[];
 extern const u8 gCardDescription_EmergencyProvisions[];
 extern const u8 gCardDescription_EmissaryoftheAfterlife[];
 extern const u8 gCardDescription_EnemyController[];
-extern const u8 gCardDescription_EnvoyofChaos[];
-extern const u8 gCardDescription_EveningTwilightKnight[];
 extern const u8 gCardDescription_ExarionUniverse[];
 extern const u8 gCardDescription_Exchange[];
 extern const u8 gCardDescription_ExchangeoftheSpirit[];
@@ -1158,24 +1539,18 @@ extern const u8 gCardDescription_FamiliarPossessedEria[];
 extern const u8 gCardDescription_FamiliarPossessedHiita[];
 extern const u8 gCardDescription_FamiliarPossessedWynn[];
 extern const u8 gCardDescription_FiberJar[];
-extern const u8 gCardDescription_FightingFlameSwordsman[];
 extern const u8 gCardDescription_FinalFlame[];
 extern const u8 gCardDescription_Fissure[];
 extern const u8 gCardDescription_FlameSwordsman[];
-extern const u8 gCardDescription_FlipFlopFrog[];
 extern const u8 gCardDescription_FlyingKamakiri1[];
 extern const u8 gCardDescription_FusilierDragontheDualModeBeast[];
-extern const u8 gCardDescription_FusionDevourer[];
 extern const u8 gCardDescription_Gagagigo[];
 extern const u8 gCardDescription_GaiaPower[];
 extern const u8 gCardDescription_GaiatheDragonChampion[];
 extern const u8 gCardDescription_GatlingDragon[];
 extern const u8 gCardDescription_GearGolemtheMovingFortress[];
 extern const u8 gCardDescription_GearfriedtheIronKnight[];
-extern const u8 gCardDescription_GearfriedtheRedEyesIronKnight[];
-extern const u8 gCardDescription_GemKnightQuartz[];
 extern const u8 gCardDescription_GeminiElf[];
-extern const u8 gCardDescription_GentaGatemanofDarkWorld[];
 extern const u8 gCardDescription_GiantGerm[];
 extern const u8 gCardDescription_GiantOrc[];
 extern const u8 gCardDescription_GiantRat[];
@@ -1188,7 +1563,6 @@ extern const u8 gCardDescription_GilGarth[];
 extern const u8 gCardDescription_Gilasaurus[];
 extern const u8 gCardDescription_GoblinAttackForce[];
 extern const u8 gCardDescription_GoblinEliteAttackForce[];
-extern const u8 gCardDescription_GoblinPotholeSquad[];
 extern const u8 gCardDescription_Gokipon[];
 extern const u8 gCardDescription_GolemSentry[];
 extern const u8 gCardDescription_GoraTurtle[];
@@ -1200,13 +1574,10 @@ extern const u8 gCardDescription_GravekeepersSpy[];
 extern const u8 gCardDescription_GravekeepersWatcher[];
 extern const u8 gCardDescription_GravityBind[];
 extern const u8 gCardDescription_GreatWhite[];
-extern const u8 gCardDescription_GreenNinja[];
-extern const u8 gCardDescription_GrenTacticianofDarkWorld[];
 extern const u8 gCardDescription_GuardianSphinx[];
 extern const u8 gCardDescription_GyakuGirePanda[];
 extern const u8 gCardDescription_GyakutennoMegami[];
 extern const u8 gCardDescription_HallowedLifeBarrier[];
-extern const u8 gCardDescription_HandofNephthys[];
 extern const u8 gCardDescription_HaneHane[];
 extern const u8 gCardDescription_HarpiesFeatherDuster[];
 extern const u8 gCardDescription_HeavyStorm[];
@@ -1216,7 +1587,6 @@ extern const u8 gCardDescription_HowlingInsect[];
 extern const u8 gCardDescription_HumanoidSlime[];
 extern const u8 gCardDescription_Hydrogeddon[];
 extern const u8 gCardDescription_HyperHammerhead[];
-extern const u8 gCardDescription_IceKnight[];
 extern const u8 gCardDescription_ImperialOrder[];
 extern const u8 gCardDescription_InabaWhiteRabbit[];
 extern const u8 gCardDescription_IndomitableFighterLeiLei[];
@@ -1230,12 +1600,8 @@ extern const u8 gCardDescription_JiraiGumo[];
 extern const u8 gCardDescription_JowgentheSpiritualist[];
 extern const u8 gCardDescription_JudgeMan[];
 extern const u8 gCardDescription_JustDesserts[];
-extern const u8 gCardDescription_KagerotheCannonNinja[];
-extern const u8 gCardDescription_Kaibaman[];
 extern const u8 gCardDescription_KaiserSeaHorse[];
 extern const u8 gCardDescription_KarmaCut[];
-extern const u8 gCardDescription_KeeperofDragonMagic[];
-extern const u8 gCardDescription_KeeperoftheShrine[];
 extern const u8 gCardDescription_KingDragun[];
 extern const u8 gCardDescription_KingoftheSwamp[];
 extern const u8 gCardDescription_KingTigerWanghu[];
@@ -1244,7 +1610,6 @@ extern const u8 gCardDescription_KycootheGhostDestroyer[];
 extern const u8 gCardDescription_LaJinntheMysticalGenieoftheLamp[];
 extern const u8 gCardDescription_LabyrinthTank[];
 extern const u8 gCardDescription_LadyNinjaYae[];
-extern const u8 gCardDescription_LancerArchfiend[];
 extern const u8 gCardDescription_LastWill[];
 extern const u8 gCardDescription_LeftArmoftheForbiddenOne[];
 extern const u8 gCardDescription_LeftLegoftheForbiddenOne[];
@@ -1254,10 +1619,7 @@ extern const u8 gCardDescription_LeviaDragonDaedalus[];
 extern const u8 gCardDescription_LightofIntervention[];
 extern const u8 gCardDescription_LightningVortex[];
 extern const u8 gCardDescription_LimiterRemoval[];
-extern const u8 gCardDescription_LordofD[];
-extern const u8 gCardDescription_LuciustheShadowVassal[];
 extern const u8 gCardDescription_LusterDragon[];
-extern const u8 gCardDescription_MadArchfiend[];
 extern const u8 gCardDescription_MadDogofDarkness[];
 extern const u8 gCardDescription_MagePower[];
 extern const u8 gCardDescription_MagicCylinder[];
@@ -1267,11 +1629,7 @@ extern const u8 gCardDescription_MagicalMerchant[];
 extern const u8 gCardDescription_MagicalScientist[];
 extern const u8 gCardDescription_MagicianofFaith[];
 extern const u8 gCardDescription_MagiciansCircle[];
-extern const u8 gCardDescription_MagiciansRobe[];
-extern const u8 gCardDescription_MagiciansRod[];
 extern const u8 gCardDescription_MagiciansValkyria[];
-extern const u8 gCardDescription_MagiciansSouls[];
-extern const u8 gCardDescription_Magikuriboh[];
 extern const u8 gCardDescription_MaidenoftheAqua[];
 extern const u8 gCardDescription_MakyuratheDestructor[];
 extern const u8 gCardDescription_ManEaterBug[];
@@ -1281,10 +1639,8 @@ extern const u8 gCardDescription_MaraudingCaptain[];
 extern const u8 gCardDescription_MaskofDarkness[];
 extern const u8 gCardDescription_MaskofRestrict[];
 extern const u8 gCardDescription_MaskedDragon[];
-extern const u8 gCardDescription_MaskedNinjaEbisu[];
 extern const u8 gCardDescription_MaskedSorcerer[];
 extern const u8 gCardDescription_MatazatheZapper[];
-extern const u8 gCardDescription_MatriarchofNephthys[];
 extern const u8 gCardDescription_Mechanicalchaser[];
 extern const u8 gCardDescription_Megamorph[];
 extern const u8 gCardDescription_MermaidKnight[];
@@ -1299,7 +1655,6 @@ extern const u8 gCardDescription_MiracleRestoring[];
 extern const u8 gCardDescription_MirageDragon[];
 extern const u8 gCardDescription_MirageofNightmare[];
 extern const u8 gCardDescription_MirrorForce[];
-extern const u8 gCardDescription_MitsutheInsectNinja[];
 extern const u8 gCardDescription_MoaiInterceptorCannons[];
 extern const u8 gCardDescription_MobiustheFrostMonarch[];
 extern const u8 gCardDescription_MonsterGate[];
@@ -1312,7 +1667,6 @@ extern const u8 gCardDescription_MysticSwordsmanLV2[];
 extern const u8 gCardDescription_MysticSwordsmanLV4[];
 extern const u8 gCardDescription_MysticTomato[];
 extern const u8 gCardDescription_MysticalElf[];
-extern const u8 gCardDescription_MysticalElfWhiteLightning[];
 extern const u8 gCardDescription_MysticalSpaceTyphoon[];
 extern const u8 gCardDescription_MystikWok[];
 extern const u8 gCardDescription_Necrovalley[];
@@ -1326,7 +1680,6 @@ extern const u8 gCardDescription_NightmareWheel[];
 extern const u8 gCardDescription_NightmaresSteelcage[];
 extern const u8 gCardDescription_NimbleMomonga[];
 extern const u8 gCardDescription_NinKenDog[];
-extern const u8 gCardDescription_NinjaGrandmasterHanzo[];
 extern const u8 gCardDescription_NinjaGrandmasterSasuke[];
 extern const u8 gCardDescription_NoblemanofCrossout[];
 extern const u8 gCardDescription_NoblemanofExtermination[];
@@ -1338,7 +1691,6 @@ extern const u8 gCardDescription_OppressedPeople[];
 extern const u8 gCardDescription_Opticlops[];
 extern const u8 gCardDescription_PainfulChoice[];
 extern const u8 gCardDescription_PaladinofWhiteDragon[];
-extern const u8 gCardDescription_ParlHermitofDarkWorld[];
 extern const u8 gCardDescription_PenguinKnight[];
 extern const u8 gCardDescription_PhoenixWingWindBlast[];
 extern const u8 gCardDescription_PikerusCircleofEnchantment[];
@@ -1360,13 +1712,9 @@ extern const u8 gCardDescription_RaigekiBreak[];
 extern const u8 gCardDescription_ReaperontheNightmare[];
 extern const u8 gCardDescription_Reasoning[];
 extern const u8 gCardDescription_RecklessGreed[];
-extern const u8 gCardDescription_RedEyesBabyDragon[];
-extern const u8 gCardDescription_RedEyesRetroDragon[];
-extern const u8 gCardDescription_RedEyesWyvern[];
 extern const u8 gCardDescription_ReflectBounder[];
 extern const u8 gCardDescription_ReinforcementoftheArmy[];
 extern const u8 gCardDescription_Reinforcements[];
-extern const u8 gCardDescription_Relinkuriboh[];
 extern const u8 gCardDescription_Relinquished[];
 extern const u8 gCardDescription_Reload[];
 extern const u8 gCardDescription_RemoveTrap[];
@@ -1377,7 +1725,6 @@ extern const u8 gCardDescription_RightLegoftheForbiddenOne[];
 extern const u8 gCardDescription_RingofDestruction[];
 extern const u8 gCardDescription_RisingAirCurrent[];
 extern const u8 gCardDescription_RobbinGoblin[];
-extern const u8 gCardDescription_Ronintoadin[];
 extern const u8 gCardDescription_RouletteBarrel[];
 extern const u8 gCardDescription_RoyalDecree[];
 extern const u8 gCardDescription_RoyalMagicalLibrary[];
@@ -1388,19 +1735,16 @@ extern const u8 gCardDescription_SaberBeetle[];
 extern const u8 gCardDescription_SacredCrane[];
 extern const u8 gCardDescription_SacredPhoenixofNephthys[];
 extern const u8 gCardDescription_SakuretsuArmor[];
-extern const u8 gCardDescription_SalamandratheFlyingFlameDragon[];
 extern const u8 gCardDescription_Salvage[];
 extern const u8 gCardDescription_SandMoth[];
 extern const u8 gCardDescription_Sangan[];
 extern const u8 gCardDescription_SasukeSamurai[];
 extern const u8 gCardDescription_SasukeSamurai4[];
 extern const u8 gCardDescription_Scapegoat[];
-extern const u8 gCardDescription_ScarrScoutofDarkWorld[];
 extern const u8 gCardDescription_SeaSerpentWarriorofDarkness[];
 extern const u8 gCardDescription_SecondCoinToss[];
 extern const u8 gCardDescription_SecretBarrel[];
 extern const u8 gCardDescription_SelfDestructButton[];
-extern const u8 gCardDescription_SenjuoftheThousandHands[];
 extern const u8 gCardDescription_SerialSpell[];
 extern const u8 gCardDescription_SerpentinePrincess[];
 extern const u8 gCardDescription_SevenToolsoftheBandit[];
@@ -1411,7 +1755,6 @@ extern const u8 gCardDescription_Silpheed[];
 extern const u8 gCardDescription_SinisterSerpent[];
 extern const u8 gCardDescription_SkillDrain[];
 extern const u8 gCardDescription_SkilledDarkMagician[];
-extern const u8 gCardDescription_SkilledRedMagician[];
 extern const u8 gCardDescription_SkilledWhiteMagician[];
 extern const u8 gCardDescription_SkullDogMarron[];
 extern const u8 gCardDescription_SkullLair[];
@@ -1419,17 +1762,14 @@ extern const u8 gCardDescription_SkyScout[];
 extern const u8 gCardDescription_SlateWarrior[];
 extern const u8 gCardDescription_SmashingGround[];
 extern const u8 gCardDescription_SnatchSteal[];
-extern const u8 gCardDescription_SnowwUnlightofDarkWorld[];
 extern const u8 gCardDescription_SolemnJudgment[];
 extern const u8 gCardDescription_SolemnWishes[];
-extern const u8 gCardDescription_SonicBird[];
 extern const u8 gCardDescription_SoulExchange[];
 extern const u8 gCardDescription_SoulTiger[];
 extern const u8 gCardDescription_SpearCretin[];
 extern const u8 gCardDescription_SpearDragon[];
 extern const u8 gCardDescription_SpellCanceller[];
 extern const u8 gCardDescription_SpellReproduction[];
-extern const u8 gCardDescription_SphereKuriboh[];
 extern const u8 gCardDescription_SpiritoftheHarp[];
 extern const u8 gCardDescription_SpiritReaper[];
 extern const u8 gCardDescription_SpiritualEarthArtKurogane[];
@@ -1439,25 +1779,17 @@ extern const u8 gCardDescription_Spiritualism[];
 extern const u8 gCardDescription_StealthBird[];
 extern const u8 gCardDescription_StoneStatueoftheAztecs[];
 extern const u8 gCardDescription_StopDefense[];
-extern const u8 gCardDescription_Substitoad[];
 extern const u8 gCardDescription_SummonedSkull[];
-extern const u8 gCardDescription_SuperSoldierSoul[];
-extern const u8 gCardDescription_SwapFrog[];
 extern const u8 gCardDescription_SwarmofLocusts[];
 extern const u8 gCardDescription_SwarmofScarabs[];
 extern const u8 gCardDescription_SwordsofRevealingLight[];
-extern const u8 gCardDescription_TADPOLE[];
 extern const u8 gCardDescription_Terraforming[];
 extern const u8 gCardDescription_TheBigMarchofAnimals[];
-extern const u8 gCardDescription_TheBlackStoneofLegend[];
-extern const u8 gCardDescription_TheDarkHexSealedFusion[];
 extern const u8 gCardDescription_TheDragonDwellingintheCave[];
-extern const u8 gCardDescription_TheEarthHexSealedFusion[];
 extern const u8 gCardDescription_TheFiendMegacyber[];
 extern const u8 gCardDescription_TheForcefulSentry[];
 extern const u8 gCardDescription_TheForgivingMaiden[];
 extern const u8 gCardDescription_TheLastWarriorfromAnotherPlanet[];
-extern const u8 gCardDescription_TheLightHexSealedFusion[];
 extern const u8 gCardDescription_TheLittleSwordsmanofAile[];
 extern const u8 gCardDescription_TheWickedWormBeast[];
 extern const u8 gCardDescription_ThestalostheFirestormMonarch[];
@@ -1465,11 +1797,8 @@ extern const u8 gCardDescription_ThousandEyesRestrict[];
 extern const u8 gCardDescription_ThreateningRoar[];
 extern const u8 gCardDescription_ThrowstoneUnit[];
 extern const u8 gCardDescription_ThunderDragon[];
-extern const u8 gCardDescription_ThunderDragonmatrix[];
 extern const u8 gCardDescription_ThunderNyanNyan[];
-extern const u8 gCardDescription_ThunderSeaHorse[];
 extern const u8 gCardDescription_TimeSeal[];
-extern const u8 gCardDescription_TobaritheSkyNinja[];
 extern const u8 gCardDescription_ToonCannonSoldier[];
 extern const u8 gCardDescription_ToonDarkMagicianGirl[];
 extern const u8 gCardDescription_ToonGeminiElf[];
@@ -1477,25 +1806,14 @@ extern const u8 gCardDescription_ToonGoblinAttackForce[];
 extern const u8 gCardDescription_ToonMaskedSorcerer[];
 extern const u8 gCardDescription_ToonTableofContents[];
 extern const u8 gCardDescription_TorrentialTribute[];
-extern const u8 gCardDescription_Tradetoad[];
 extern const u8 gCardDescription_TrapDustshoot[];
 extern const u8 gCardDescription_TrapHole[];
 extern const u8 gCardDescription_TrapMaster[];
-extern const u8 gCardDescription_TraptrixArachnocampa[];
-extern const u8 gCardDescription_TraptrixAtrax[];
-extern const u8 gCardDescription_TraptrixDionaea[];
-extern const u8 gCardDescription_TraptrixGenlisea[];
-extern const u8 gCardDescription_TraptrixMantis[];
-extern const u8 gCardDescription_TraptrixMyrmeleo[];
-extern const u8 gCardDescription_TraptrixNepenthes[];
-extern const u8 gCardDescription_TraptrixPudica[];
-extern const u8 gCardDescription_TraptrixVesiculo[];
 extern const u8 gCardDescription_TreebornFrog[];
 extern const u8 gCardDescription_TremendousFire[];
 extern const u8 gCardDescription_TribeInfectingVirus[];
 extern const u8 gCardDescription_TributetotheDoomed[];
 extern const u8 gCardDescription_Tsukuyomi[];
-extern const u8 gCardDescription_TwilightNinjaShingetsu[];
 extern const u8 gCardDescription_TwinHeadedBehemoth[];
 extern const u8 gCardDescription_TwinHeadedThunderDragon[];
 extern const u8 gCardDescription_UltimateInsectLV3[];
@@ -1504,9 +1822,7 @@ extern const u8 gCardDescription_UltimateInsectLV7[];
 extern const u8 gCardDescription_UltimateOffering[];
 extern const u8 gCardDescription_UnitedWeStand[];
 extern const u8 gCardDescription_UpstartGoblin[];
-extern const u8 gCardDescription_UpstartGoldenNinja[];
 extern const u8 gCardDescription_VampireLord[];
-extern const u8 gCardDescription_VisionHEROVyon[];
 extern const u8 gCardDescription_VorseRaider[];
 extern const u8 gCardDescription_Waboku[];
 extern const u8 gCardDescription_WallofIllusion[];
@@ -1516,12 +1832,104 @@ extern const u8 gCardDescription_WhiteDragonRitual[];
 extern const u8 gCardDescription_WhiteMagicalHat[];
 extern const u8 gCardDescription_WidespreadRuin[];
 extern const u8 gCardDescription_WitchoftheBlackForest[];
-extern const u8 gCardDescription_Wroughtweiler[];
 extern const u8 gCardDescription_XHeadCannon[];
 extern const u8 gCardDescription_XingZhenHu[];
 extern const u8 gCardDescription_YataGarasu[];
-extern const u8 gCardDescription_YellowNinja[];
 extern const u8 gCardDescription_YomiShip[];
 extern const u8 gCardDescription_ZaborgtheThunderMonarch[];
 extern const u8 gCardDescription_ZombyratheDark[];
 extern const u8 gCardDescription_ZureKnightofDarkWorld[];
+extern const u8 gCardDescription_AmazonessSpiritualist[];
+extern const u8 gCardDescription_ArchfiendCavalry[];
+extern const u8 gCardDescription_ArchfiendHeiress[];
+extern const u8 gCardDescription_ArchfiendInterceptor[];
+extern const u8 gCardDescription_BakutheBeastNinja[];
+extern const u8 gCardDescription_BeginningKnight[];
+extern const u8 gCardDescription_BeiigeVanguardofDarkWorld[];
+extern const u8 gCardDescription_BerlineththeFirestormVassal[];
+extern const u8 gCardDescription_BlackDragonsChick[];
+extern const u8 gCardDescription_BlackMetalDragon[];
+extern const u8 gCardDescription_BlueFlameSwordsman[];
+extern const u8 gCardDescription_BoneArchfiend[];
+extern const u8 gCardDescription_ChronicleSorceress[];
+extern const u8 gCardDescription_CyberDragonDrei[];
+extern const u8 gCardDescription_CyberDragonVier[];
+extern const u8 gCardDescription_CyberDragonZwei[];
+extern const u8 gCardDescription_CyberLarva[];
+extern const u8 gCardDescription_DefenderofNephthys[];
+extern const u8 gCardDescription_DictatorofD[];
+extern const u8 gCardDescription_DimensionConjurer[];
+extern const u8 gCardDescription_DiscipleofNephthys[];
+extern const u8 gCardDescription_DupeFrog[];
+extern const u8 gCardDescription_EidostheUnderworldSquire[];
+extern const u8 gCardDescription_ElementalHEROBlazeman[];
+extern const u8 gCardDescription_ElementalHEROWoodsman[];
+extern const u8 gCardDescription_EnvoyofChaos[];
+extern const u8 gCardDescription_EveningTwilightKnight[];
+extern const u8 gCardDescription_FightingFlameSwordsman[];
+extern const u8 gCardDescription_FlipFlopFrog[];
+extern const u8 gCardDescription_FusionDevourer[];
+extern const u8 gCardDescription_GearfriedtheRedEyesIronKnight[];
+extern const u8 gCardDescription_GemKnightQuartz[];
+extern const u8 gCardDescription_GentaGatemanofDarkWorld[];
+extern const u8 gCardDescription_GoblinPotholeSquad[];
+extern const u8 gCardDescription_GreenNinja[];
+extern const u8 gCardDescription_GrenTacticianofDarkWorld[];
+extern const u8 gCardDescription_HandofNephthys[];
+extern const u8 gCardDescription_IceKnight[];
+extern const u8 gCardDescription_KagerotheCannonNinja[];
+extern const u8 gCardDescription_Kaibaman[];
+extern const u8 gCardDescription_KeeperofDragonMagic[];
+extern const u8 gCardDescription_KeeperoftheShrine[];
+extern const u8 gCardDescription_LancerArchfiend[];
+extern const u8 gCardDescription_LordofD[];
+extern const u8 gCardDescription_LuciustheShadowVassal[];
+extern const u8 gCardDescription_MadArchfiend[];
+extern const u8 gCardDescription_MagiciansRobe[];
+extern const u8 gCardDescription_MagiciansRod[];
+extern const u8 gCardDescription_MagiciansSouls[];
+extern const u8 gCardDescription_Magikuriboh[];
+extern const u8 gCardDescription_MaskedNinjaEbisu[];
+extern const u8 gCardDescription_MatriarchofNephthys[];
+extern const u8 gCardDescription_MitsutheInsectNinja[];
+extern const u8 gCardDescription_MysticalElfWhiteLightning[];
+extern const u8 gCardDescription_NinjaGrandmasterHanzo[];
+extern const u8 gCardDescription_ParlHermitofDarkWorld[];
+extern const u8 gCardDescription_RedEyesBabyDragon[];
+extern const u8 gCardDescription_RedEyesRetroDragon[];
+extern const u8 gCardDescription_RedEyesWyvern[];
+extern const u8 gCardDescription_Relinkuriboh[];
+extern const u8 gCardDescription_Ronintoadin[];
+extern const u8 gCardDescription_SalamandratheFlyingFlameDragon[];
+extern const u8 gCardDescription_ScarrScoutofDarkWorld[];
+extern const u8 gCardDescription_SenjuoftheThousandHands[];
+extern const u8 gCardDescription_SkilledRedMagician[];
+extern const u8 gCardDescription_SnowwUnlightofDarkWorld[];
+extern const u8 gCardDescription_SonicBird[];
+extern const u8 gCardDescription_SphereKuriboh[];
+extern const u8 gCardDescription_Substitoad[];
+extern const u8 gCardDescription_SuperSoldierSoul[];
+extern const u8 gCardDescription_SwapFrog[];
+extern const u8 gCardDescription_TADPOLE[];
+extern const u8 gCardDescription_TheBlackStoneofLegend[];
+extern const u8 gCardDescription_TheDarkHexSealedFusion[];
+extern const u8 gCardDescription_TheEarthHexSealedFusion[];
+extern const u8 gCardDescription_TheLightHexSealedFusion[];
+extern const u8 gCardDescription_ThunderDragonmatrix[];
+extern const u8 gCardDescription_ThunderSeaHorse[];
+extern const u8 gCardDescription_TobaritheSkyNinja[];
+extern const u8 gCardDescription_Tradetoad[];
+extern const u8 gCardDescription_TraptrixArachnocampa[];
+extern const u8 gCardDescription_TraptrixAtrax[];
+extern const u8 gCardDescription_TraptrixDionaea[];
+extern const u8 gCardDescription_TraptrixGenlisea[];
+extern const u8 gCardDescription_TraptrixMantis[];
+extern const u8 gCardDescription_TraptrixMyrmeleo[];
+extern const u8 gCardDescription_TraptrixNepenthes[];
+extern const u8 gCardDescription_TraptrixPudica[];
+extern const u8 gCardDescription_TraptrixVesiculo[];
+extern const u8 gCardDescription_TwilightNinjaShingetsu[];
+extern const u8 gCardDescription_UpstartGoldenNinja[];
+extern const u8 gCardDescription_VisionHEROVyon[];
+extern const u8 gCardDescription_Wroughtweiler[];
+extern const u8 gCardDescription_YellowNinja[];
