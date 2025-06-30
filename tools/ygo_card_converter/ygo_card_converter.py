@@ -5,6 +5,7 @@ import subprocess
 from PIL import Image
 import re
 import textwrap
+from tqdm import tqdm
 
 # f = open("YGOProDeck_Card_Info.json", "w")
 # url = "https://db.ygoprodeck.com/api/v7/cardinfo.php?misc=yes"
@@ -769,20 +770,20 @@ for data in card_info_data['data']:
                      + 'extern const u16 gCardPalLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
                      + 'extern const u32 gCardIconSquare_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
                      + 'extern const u32 gCardIconSquarePalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
-                     + 'extern const u32 gCardIconLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
-                     + 'extern const u32 gCardIconLargePalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
                      + 'extern const u32 gCardIconSmall_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
-                     + 'extern const u32 gCardIconSmallPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n')
+                     + 'extern const u32 gCardIconSmallPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
+                     + 'extern const u32 gCardIconTiny_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
+                     + 'extern const u32 gCardIconTinyPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n')
         ItemIconTable += '\t[ITEM_' + re.sub(r'\W+', '_', data['name']).upper() + '] = {gCardIconSquare_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ', gCardIconSquarePalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '},\n'
         Scripts += '\tadditem ITEM_' + re.sub(r'\W+', '_', data['name']).upper() + '\n'
         YGO_Graphics_C += ('const u32 gCardPicLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '_Big[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/pic_large_big.8bpp.lz");\n'
                       + 'const u16 gCardPalLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U16("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/pic_large_big.gbapal");\n'
-                      + 'const u32 gCardIconSquare_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/pic_tiny.4bpp.lz");\n'
-                      + 'const u32 gCardIconSquarePalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/pic_tiny.gbapal.lz");\n'
-                      + 'const u32 gCardIconLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/icon_large.4bpp.lz");\n'
-                      + 'const u32 gCardIconLargePalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/icon_large.gbapal.lz");\n'
+                      + 'const u32 gCardIconSquare_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/pic_small.4bpp.lz");\n'
+                      + 'const u32 gCardIconSquarePalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/pic_small.gbapal.lz");\n'
                       + 'const u32 gCardIconSmall_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/icon_small.4bpp.lz");\n'
-                      + 'const u32 gCardIconSmallPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/icon_small.gbapal.lz");\n')
+                      + 'const u32 gCardIconSmallPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/icon_small.gbapal.lz");\n'
+                      + 'const u32 gCardIconTiny_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/icon_tiny.4bpp.lz");\n'
+                      + 'const u32 gCardIconTinyPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/icon_tiny.gbapal.lz");\n')
         YGO_Constants += '#define CARD_' + re.sub(r'\W+', '_', data['name']).upper() + ' ' + str(card_counter) + '\n'
         Item_Constants += '#define ITEM_' + re.sub(r'\W+', '_', data['name']).upper() + ' ' + str(card_counter + 376) + '\n'
         card_counter += 1
@@ -823,213 +824,214 @@ Scripts_Output.write(Scripts)
 print('Scripts done')
 
 card_counter = 1
-for data in card_info_data['data']:
-    card_name = data['name']
-    if card_name in card_names:
-        for card_image_cropped in data['card_images']:
-            card_id = str(card_image_cropped['id'])
-            image_cropped_url = 'https://images.ygoprodeck.com/images/cards/' + card_id + '.jpg'
-            image_cropped_url_cropped = 'https://images.ygoprodeck.com/images/cards_cropped/' + card_id + '.jpg'
-            res = requests.get(image_cropped_url)
-            image = 'Artwork/' + card_name + '_' + card_id + '.jpg'
-            if not os.path.exists(image):
-                with open(image, 'wb') as file:
-                    file.write(res.content)
-            res = requests.get(image_cropped_url_cropped)
-            image_cropped = 'Artwork/' + card_name + '_' + card_id + '_Cropped.jpg'
-            if not os.path.exists(image_cropped):
-                with open(image_cropped, 'wb') as file:
-                    file.write(res.content)
-            folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
-            if not os.path.exists(folder_path):
-                os.mkdir(folder_path)
-            outfile = folder_path + '/pic_large_big.png'
-            if not os.path.exists(outfile):
-                size = 80, 80
-                im = Image.open(image_cropped)
-                im.thumbnail(size, Image.Resampling.LANCZOS)
-                im = im.convert(
-                    "P", palette=Image.ADAPTIVE, colors=63
-                )
-                im = move_palette_color(im, 63, 0)
-                im.save(outfile, "PNG")
-                subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.8bpp')])
-                subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.pal')])
-                subprocess.run(['../gbagfx/gbagfx', outfile.replace('.png', '.8bpp'), outfile.replace('.png', '.8bpp')])
-                subprocess.run(['../gbagfx/gbagfx', outfile.replace('.png', '.8bpp'), outfile.replace('.png', '.png'), '-palette', outfile.replace('.png', '.pal'), '-mwidth', '10'])
-            size = 32, 32
-            folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
-            if not os.path.exists(folder_path):
-                os.mkdir(folder_path)
-            outfile = folder_path + '/pic_tiny.png'
-            if not os.path.exists(outfile):
-                im = Image.open(image_cropped)
-                im.thumbnail(size, Image.Resampling.LANCZOS)
-                im = im.convert(
-                    "P", palette=Image.ADAPTIVE, colors=15
-                )
-                im = move_palette_color(im, 15, 0)
-                im.save(outfile, "PNG")
-            size = 32, 46
-            master = Image.new(
-                mode='RGBA',
-                size=(32, 48),
-                color=(57,255,20,0))
-            folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
-            if not os.path.exists(folder_path):
-                os.mkdir(folder_path)
-            outfile = folder_path + '/icon_large.png'
-            if not os.path.exists(outfile):
-                im = Image.open(image)
-                im.thumbnail(size, Image.Resampling.LANCZOS)
-                master.paste(im, box=(0,1))
-                master.save(outfile, "PNG")
-                master = Image.open(outfile)
-                master = master.convert(
-                    "P", palette=Image.ADAPTIVE, colors=15
-                )
-                master = move_palette_color(master, 15, 0)
-                master.save(outfile, "PNG")
-                subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
-            size = 22, 32
-            master = Image.new(
-                mode='RGBA',
-                size=(24, 32),
-                color=(57,255,20,0))
-            folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
-            if not os.path.exists(folder_path):
-                os.mkdir(folder_path)
-            outfile = folder_path + '/icon_small.png'
-            if not os.path.exists(outfile):
-                im = Image.open(image)
-                im.thumbnail(size, Image.Resampling.LANCZOS)
-                master.paste(im, box=(1,0))
-                master.save(outfile, "PNG")
-                master = Image.open(outfile)
-                master = master.convert(
-                    "P", palette=Image.ADAPTIVE, colors=15
-                )
-                master = move_palette_color(master, 15, 0)
-                master.save(outfile, "PNG")
-                subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
-        card = data['name']
-        gCardInfo += ("\t[CARD_" + re.sub(r'\W+', '_', data['name']).upper() + "] =\n"
-                  + "\t{\n"
-                  + '\t\t.name = gCardName_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
-                  + '\t\t.nameShort = gCardNameShort_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
-                  + '\t\t.nameShortBag = gCardNameShortBag_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
-                  + '\t\t.description = gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
-                  # + "\t\t.descriptionLines = " + str(description_lines[card]) + ",\n"
-				  + '\t\t.password = _("' + str(data['id']) + '"),\n'
-                  + '\t\t.pic = gCardPicLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '_Big,\n'
-                  + '\t\t.pal = gCardPalLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
-                  + '\t\t.iconSquare = gCardIconSquare_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
-                  + '\t\t.iconLarge = gCardIconLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
-                  + '\t\t.palIconLarge = gCardIconLargePalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
-                  + '\t\t.iconSmall = gCardIconSmall_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
-                  + '\t\t.palIconSmall = gCardIconSmallPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
-                  + '\t\t.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},\n'
-                  + ("\t\t.type = TYPE_" + re.sub(r'\W+', '_', data['type']).upper() + ",\n"))
-        try:
-            gCardInfo += ("\t\t.attribute = ATTRIBUTE_" + data['attribute'] + ",\n"
-                       + "\t\t.level = " + str(data['level']) + ",\n"
-                       + "\t\t.atk = " + str(int(data['atk']/10)) + ",\n"
-                       + "\t\t.def = " + str(int(data['def']/10)) + ",\n"
-                       + "\t\t.race = RACE_" + re.sub(r'\W+', '_', data['race']).upper() + ",\n")
-        except:
-            gCardInfo += ("\t\t.attribute = ATTRIBUTE_NONE,\n"
-                      + "\t\t.level = 0,\n"
-                      +  "\t\t.atk = 0,\n"
-                      + "\t\t.def = 0,\n"
-                      + "\t\t.race = RACE_NONE,\n")
-        gCardInfo += ("\t\t.id = " + str(data['misc_info'][0]['konami_id']) + ",\n"
-                      + "\t\t.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},\n")
-        with open('FL.json', 'r') as f:
-            data_ = json.load(f)
-            for card_ in data_:
-                if card_['Card'] == card and card_['Format'] == 'Yugi-Kaiba':
-                      gCardInfo += "\t\t.priceYK = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'Critter':
-                      gCardInfo += "\t\t.priceCritter = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'Treasure':
-                      gCardInfo += "\t\t.priceTreasure = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'Imperial':
-                      gCardInfo += "\t\t.priceImperial = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'Android':
-                      gCardInfo += "\t\t.priceAndroid = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'Joey-Pegasus':
-                      gCardInfo += "\t\t.priceJoeyPegasus = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'Fiber':
-                      gCardInfo += "\t\t.priceFiber = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'Yata':
-                      gCardInfo += "\t\t.priceYata = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'Scientist':
-                      gCardInfo += "\t\t.priceScientist = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'Vampire':
-                      gCardInfo += "\t\t.priceVampire = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'Chaos':
-                      gCardInfo += "\t\t.priceChaos = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'Warrior':
-                      gCardInfo += "\t\t.priceWarrior = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'Goat':
-                      gCardInfo += "\t\t.priceGoat = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'Cyber':
-                      gCardInfo += "\t\t.priceCyber = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'Reaper':
-                      gCardInfo += "\t\t.priceReaper = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'Chaos Return':
-                      gCardInfo += "\t\t.priceChaosReturn = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'Demise':
-                      gCardInfo += "\t\t.priceDemise = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'Trooper':
-                      gCardInfo += "\t\t.priceTrooper = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'Zombie':
-                      gCardInfo += "\t\t.priceZombie = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'Perfect Circle':
-                      gCardInfo += "\t\t.pricePerfectCircle = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'DAD Return':
-                      gCardInfo += "\t\t.priceDADReturn = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'Gladiator':
-                      gCardInfo += "\t\t.priceGladiator = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'TeleDAD':
-                      gCardInfo += "\t\t.priceTeleDAD = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'Cat':
-                      gCardInfo += "\t\t.priceCat = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'Edison':
-                      gCardInfo += "\t\t.priceEdison = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'Frog':
-                      gCardInfo += "\t\t.priceFrog = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'Starstrike':
-                      gCardInfo += "\t\t.priceStarstrike = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'Tengu':
-                      gCardInfo += "\t\t.priceTengu = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'Dino Rabbit':
-                      gCardInfo += "\t\t.priceDinoRabbit = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'Wind-Up':
-                      gCardInfo += "\t\t.priceWindUp = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'Miami':
-                      gCardInfo += "\t\t.priceMiami = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'Meadowlands':
-                      gCardInfo += "\t\t.priceMeadowlands = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'Baby Ruler':
-                      gCardInfo += "\t\t.priceBabyRuler = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'Ravine Ruler':
-                      gCardInfo += "\t\t.priceRavineRuler = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'Fire-Water':
-                      gCardInfo += "\t\t.priceFireWater = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'HAT':
-                      gCardInfo += "\t\t.priceHAT = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-                if card_['Card'] == card and card_['Format'] == 'Vegas':
-                      gCardInfo += "\t\t.priceVegas = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-        if card in wct06_ranks:
-                      gCardInfo += "\t\t.priceWCT06 = " + str((wct06_ranks[card]) * 50) + ",\n"
-        gCardInfo += ("\t\t.priceCustom = 0,\n"
-                  + "\t\t.priceVendor1 = 0,\n"
-                  + "\t\t.priceVendor2 = 0,\n"
-                  + "\t\t.priceVendor3 = 0,\n"
-                  + '\t},\n')
-        YGO_C += '    [ITEM_' + re.sub(r'\W+', '_', data['name']).upper() + '] = ' + str(card_counter) + ',\n'
-        card_counter += 1
+for card_name in tqdm(card_names):
+	print(card_name)
+	for data in card_info_data['data']:
+		if card_name == data['name']:
+			for card_image_cropped in data['card_images']:
+				card_id = str(card_image_cropped['id'])
+				image_cropped_url = 'https://images.ygoprodeck.com/images/cards/' + card_id + '.jpg'
+				image_cropped_url_cropped = 'https://images.ygoprodeck.com/images/cards_cropped/' + card_id + '.jpg'
+				res = requests.get(image_cropped_url)
+				image = 'Artwork/' + card_name + '_' + card_id + '.jpg'
+				if not os.path.exists(image):
+					with open(image, 'wb') as file:
+						file.write(res.content)
+				res = requests.get(image_cropped_url_cropped)
+				image_cropped = 'Artwork/' + card_name + '_' + card_id + '_Cropped.jpg'
+				if not os.path.exists(image_cropped):
+					with open(image_cropped, 'wb') as file:
+						file.write(res.content)
+				folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
+				if not os.path.exists(folder_path):
+					os.mkdir(folder_path)
+				outfile = folder_path + '/pic_large_big.png'
+				if not os.path.exists(outfile):
+					size = 80, 80
+					im = Image.open(image_cropped)
+					im.thumbnail(size, Image.Resampling.LANCZOS)
+					im = im.convert(
+						"P", palette=Image.ADAPTIVE, colors=63
+					)
+					im = move_palette_color(im, 63, 0)
+					im.save(outfile, "PNG")
+					subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.8bpp')])
+					subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.pal')])
+					subprocess.run(['../gbagfx/gbagfx', outfile.replace('.png', '.8bpp'), outfile.replace('.png', '.8bpp')])
+					subprocess.run(['../gbagfx/gbagfx', outfile.replace('.png', '.8bpp'), outfile.replace('.png', '.png'), '-palette', outfile.replace('.png', '.pal'), '-mwidth', '10'])
+				size = 32, 32
+				folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
+				if not os.path.exists(folder_path):
+					os.mkdir(folder_path)
+				outfile = folder_path + '/pic_small.png'
+				if not os.path.exists(outfile):
+					im = Image.open(image_cropped)
+					im.thumbnail(size, Image.Resampling.LANCZOS)
+					im = im.convert(
+						"P", palette=Image.ADAPTIVE, colors=15
+					)
+					im = move_palette_color(im, 15, 0)
+					im.save(outfile, "PNG")
+				size = 16, 16
+				master = Image.new(
+					mode='RGBA',
+					size=(16, 24),
+					color=(57,255,20,0))
+				folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
+				if not os.path.exists(folder_path):
+					os.mkdir(folder_path)
+				outfile = folder_path + '/icon_tiny.png'
+				if not os.path.exists(outfile):
+					im = Image.open(image_cropped)
+					im.thumbnail(size, Image.Resampling.LANCZOS)
+					master.paste(im, box=(0,4))
+					master.save(outfile, "PNG")
+					master = Image.open(outfile)
+					master = master.convert(
+						"P", palette=Image.ADAPTIVE, colors=15
+					)
+					master = move_palette_color(master, 15, 0)
+					master.save(outfile, "PNG")
+					subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
+				size = 24, 24
+				master = Image.new(
+					mode='RGBA',
+					size=(24, 32),
+					color=(57,255,20,0))
+				folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
+				if not os.path.exists(folder_path):
+					os.mkdir(folder_path)
+				outfile = folder_path + '/icon_small.png'
+				if not os.path.exists(outfile):
+					im = Image.open(image_cropped)
+					im.thumbnail(size, Image.Resampling.LANCZOS)
+					master.paste(im, box=(0,4))
+					master.save(outfile, "PNG")
+					master = Image.open(outfile)
+					master = master.convert(
+						"P", palette=Image.ADAPTIVE, colors=15
+					)
+					master = move_palette_color(master, 15, 0)
+					master.save(outfile, "PNG")
+					subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
+			card = data['name']
+			gCardInfo += ("\t[CARD_" + re.sub(r'\W+', '_', data['name']).upper() + "] =\n"
+					+ "\t{\n"
+					+ '\t\t.name = gCardName_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
+					+ '\t\t.nameShort = gCardNameShort_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
+					+ '\t\t.nameShortBag = gCardNameShortBag_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
+					+ '\t\t.description = gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
+					# + "\t\t.descriptionLines = " + str(description_lines[card]) + ",\n"
+					+ '\t\t.password = _("' + str(data['id']) + '"),\n'
+					+ '\t\t.pic = gCardPicLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '_Big,\n'
+					+ '\t\t.pal = gCardPalLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
+					+ '\t\t.iconSquare = gCardIconSquare_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
+					+ '\t\t.iconSmall = gCardIconSmall_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
+					+ '\t\t.palIconSmall = gCardIconSmallPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
+					+ '\t\t.iconTiny = gCardIconTiny_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
+					+ '\t\t.palIconTiny = gCardIconTinyPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
+					+ '\t\t.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},\n'
+					+ ("\t\t.type = TYPE_" + re.sub(r'\W+', '_', data['type']).upper() + ",\n"))
+			try:
+				gCardInfo += ("\t\t.attribute = ATTRIBUTE_" + data['attribute'] + ",\n"
+						+ "\t\t.level = " + str(data['level']) + ",\n"
+						+ "\t\t.atk = " + str(int(data['atk']/10)) + ",\n"
+						+ "\t\t.def = " + str(int(data['def']/10)) + ",\n"
+						+ "\t\t.race = RACE_" + re.sub(r'\W+', '_', data['race']).upper() + ",\n")
+			except:
+				gCardInfo += ("\t\t.attribute = ATTRIBUTE_NONE,\n"
+						+ "\t\t.level = 0,\n"
+						+  "\t\t.atk = 0,\n"
+						+ "\t\t.def = 0,\n"
+						+ "\t\t.race = RACE_NONE,\n")
+			gCardInfo += ("\t\t.id = " + str(data['misc_info'][0]['konami_id']) + ",\n"
+						+ "\t\t.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},\n")
+			with open('FL.json', 'r') as f:
+				data_ = json.load(f)
+				for card_ in data_:
+					if card_['Card'] == card and card_['Format'] == 'Yugi-Kaiba':
+						gCardInfo += "\t\t.priceYK = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'Critter':
+						gCardInfo += "\t\t.priceCritter = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'Treasure':
+						gCardInfo += "\t\t.priceTreasure = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'Imperial':
+						gCardInfo += "\t\t.priceImperial = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'Android':
+						gCardInfo += "\t\t.priceAndroid = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'Joey-Pegasus':
+						gCardInfo += "\t\t.priceJoeyPegasus = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'Fiber':
+						gCardInfo += "\t\t.priceFiber = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'Yata':
+						gCardInfo += "\t\t.priceYata = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'Scientist':
+						gCardInfo += "\t\t.priceScientist = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'Vampire':
+						gCardInfo += "\t\t.priceVampire = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'Chaos':
+						gCardInfo += "\t\t.priceChaos = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'Warrior':
+						gCardInfo += "\t\t.priceWarrior = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'Goat':
+						gCardInfo += "\t\t.priceGoat = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'Cyber':
+						gCardInfo += "\t\t.priceCyber = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'Reaper':
+						gCardInfo += "\t\t.priceReaper = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'Chaos Return':
+						gCardInfo += "\t\t.priceChaosReturn = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'Demise':
+						gCardInfo += "\t\t.priceDemise = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'Trooper':
+						gCardInfo += "\t\t.priceTrooper = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'Zombie':
+						gCardInfo += "\t\t.priceZombie = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'Perfect Circle':
+						gCardInfo += "\t\t.pricePerfectCircle = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'DAD Return':
+						gCardInfo += "\t\t.priceDADReturn = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'Gladiator':
+						gCardInfo += "\t\t.priceGladiator = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'TeleDAD':
+						gCardInfo += "\t\t.priceTeleDAD = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'Cat':
+						gCardInfo += "\t\t.priceCat = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'Edison':
+						gCardInfo += "\t\t.priceEdison = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'Frog':
+						gCardInfo += "\t\t.priceFrog = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'Starstrike':
+						gCardInfo += "\t\t.priceStarstrike = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'Tengu':
+						gCardInfo += "\t\t.priceTengu = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'Dino Rabbit':
+						gCardInfo += "\t\t.priceDinoRabbit = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'Wind-Up':
+						gCardInfo += "\t\t.priceWindUp = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'Miami':
+						gCardInfo += "\t\t.priceMiami = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'Meadowlands':
+						gCardInfo += "\t\t.priceMeadowlands = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'Baby Ruler':
+						gCardInfo += "\t\t.priceBabyRuler = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'Ravine Ruler':
+						gCardInfo += "\t\t.priceRavineRuler = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'Fire-Water':
+						gCardInfo += "\t\t.priceFireWater = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'HAT':
+						gCardInfo += "\t\t.priceHAT = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+					if card_['Card'] == card and card_['Format'] == 'Vegas':
+						gCardInfo += "\t\t.priceVegas = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+			if card in wct06_ranks:
+						gCardInfo += "\t\t.priceWCT06 = " + str((wct06_ranks[card]) * 50) + ",\n"
+			gCardInfo += ("\t\t.priceCustom = 0,\n"
+					+ "\t\t.priceVendor1 = 0,\n"
+					+ "\t\t.priceVendor2 = 0,\n"
+					+ "\t\t.priceVendor3 = 0,\n"
+					+ '\t},\n')
+			YGO_C += '    [ITEM_' + re.sub(r'\W+', '_', data['name']).upper() + '] = ' + str(card_counter) + ',\n'
+			card_counter += 1
 
 gCardInfo_Output = open('include/card_info.h', 'w')
 gCardInfo_Output.write(gCardInfo)
