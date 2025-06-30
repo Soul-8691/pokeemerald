@@ -165,6 +165,14 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "InsideOfTruck_EventScript_MovingBox3"
+    },
+    {
+      "type": "sign",
+      "x": 3,
+      "y": 0,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "InsideOfTruck_EventScript_MovingBox4"
     }
   ]
 }

@@ -1523,7 +1523,19 @@ additem ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK 1
 	additem ITEM_WROUGHTWEILER
 	additem ITEM_YELLOW_NINJA
 
-Yugi-Kaiba
+BattleFrontier_Mart_EventScript_Clerk_YugiKaiba::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_YUGI_KAIBA
+	message gText_YugiKaibaClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartYugiKaiba
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartYugiKaiba:
 	.2byte  ITEM_AQUA_MADOOR
 	.2byte  ITEM_BATTLE_OX
 	.2byte  ITEM_CARD_DESTRUCTION
@@ -1565,7 +1577,19 @@ Yugi-Kaiba
 	.2byte  ITEM_WABOKU
 	.2byte  ITEM_WALL_OF_ILLUSION
 
-Critter
+BattleFrontier_Mart_EventScript_Clerk_Critter::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_CRITTER
+	message gText_CritterClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartCritter
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartCritter:
 	.2byte  ITEM_7_COLORED_FISH
 	.2byte  ITEM_AQUA_MADOOR
 	.2byte  ITEM_BICKURIBOX
@@ -1629,7 +1653,19 @@ Critter
 	.2byte  ITEM_WHITE_MAGICAL_HAT
 	.2byte  ITEM_WITCH_OF_THE_BLACK_FOREST
 
-Treasure
+BattleFrontier_Mart_EventScript_Clerk_Treasure::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_TREASURE
+	message gText_TreasureClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartTreasure
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartTreasure:
 	.2byte  ITEM_BANISHER_OF_THE_LIGHT
 	.2byte  ITEM_BICKURIBOX
 	.2byte  ITEM_BLACK_SKULL_DRAGON
@@ -1693,7 +1729,19 @@ Treasure
 	.2byte  ITEM_WHITE_MAGICAL_HAT
 	.2byte  ITEM_WITCH_OF_THE_BLACK_FOREST
 
-Imperial
+BattleFrontier_Mart_EventScript_Clerk_Imperial::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_IMPERIAL
+	message gText_ImperialClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartImperial
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartImperial:
 	.2byte  ITEM_4_STARRED_LADYBUG_OF_DOOM
 	.2byte  ITEM_BANISHER_OF_THE_LIGHT
 	.2byte  ITEM_BLACK_SKULL_DRAGON
@@ -1746,7 +1794,19 @@ Imperial
 	.2byte  ITEM_TWIN_HEADED_THUNDER_DRAGON
 	.2byte  ITEM_WITCH_OF_THE_BLACK_FOREST
 
-Android
+BattleFrontier_Mart_EventScript_Clerk_Android::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_ANDROID
+	message gText_AndroidClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartAndroid
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartAndroid:
 	.2byte  ITEM_4_STARRED_LADYBUG_OF_DOOM
 	.2byte  ITEM_AXE_OF_DESPAIR
 	.2byte  ITEM_BANISHER_OF_THE_LIGHT
@@ -1825,7 +1885,19 @@ Android
 	.2byte  ITEM_WITCH_OF_THE_BLACK_FOREST
 	.2byte  ITEM_ZOMBYRA_THE_DARK
 
-Joey-Pegasus
+BattleFrontier_Mart_EventScript_Clerk_JoeyPegasus::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_JOEY_PEGASUS
+	message gText_JoeyPegasusClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartJoeyPegasus
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartJoeyPegasus:
 	.2byte  ITEM_AXE_OF_DESPAIR
 	.2byte  ITEM_BAZOO_THE_SOUL_EATER
 	.2byte  ITEM_BICKURIBOX
@@ -1899,7 +1971,19 @@ Joey-Pegasus
 	.2byte  ITEM_WABOKU
 	.2byte  ITEM_WITCH_OF_THE_BLACK_FOREST
 
-Fiber
+BattleFrontier_Mart_EventScript_Clerk_Fiber::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_FIBER
+	message gText_FiberClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartFiber
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartFiber:
 	.2byte  ITEM_4_STARRED_LADYBUG_OF_DOOM
 	.2byte  ITEM_AIRKNIGHT_PARSHATH
 	.2byte  ITEM_AMAZONESS_ARCHER
@@ -1987,7 +2071,19 @@ Fiber
 	.2byte  ITEM_YATA_GARASU
 	.2byte  ITEM_ZOMBYRA_THE_DARK
 
-Yata
+BattleFrontier_Mart_EventScript_Clerk_Yata::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_YATA
+	message gText_YataClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartYata
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartYata:
 	.2byte  ITEM_4_STARRED_LADYBUG_OF_DOOM
 	.2byte  ITEM_AIRKNIGHT_PARSHATH
 	.2byte  ITEM_AMAZONESS_ARCHER
@@ -2094,7 +2190,19 @@ Yata
 	.2byte  ITEM_YATA_GARASU
 	.2byte  ITEM_ZOMBYRA_THE_DARK
 
-Scientist
+BattleFrontier_Mart_EventScript_Clerk_Scientist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_SCIENTIST
+	message gText_ScientistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartScientist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartScientist:
 	.2byte  ITEM_AIRKNIGHT_PARSHATH
 	.2byte  ITEM_AMAZONESS_ARCHER
 	.2byte  ITEM_BOOK_OF_MOON
@@ -2179,7 +2287,19 @@ Scientist
 	.2byte  ITEM_WITCH_OF_THE_BLACK_FOREST
 	.2byte  ITEM_YATA_GARASU
 
-Vampire
+BattleFrontier_Mart_EventScript_Clerk_Vampire::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_VAMPIRE
+	message gText_VampireClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartVampire
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartVampire:
 	.2byte  ITEM_AMAZONESS_ARCHER
 	.2byte  ITEM_ARCHFIEND_SOLDIER
 	.2byte  ITEM_BARREL_BEHIND_THE_DOOR
@@ -2278,7 +2398,19 @@ Vampire
 	.2byte  ITEM_YATA_GARASU
 	.2byte  ITEM_ZOMBYRA_THE_DARK
 
-Chaos
+BattleFrontier_Mart_EventScript_Clerk_Chaos::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_CHAOS
+	message gText_ChaosClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartChaos
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartChaos:
 	.2byte  ITEM_4_STARRED_LADYBUG_OF_DOOM
 	.2byte  ITEM_ANTI_SPELL_FRAGRANCE
 	.2byte  ITEM_ARCHFIEND_SOLDIER
@@ -2389,7 +2521,19 @@ Chaos
 	.2byte  ITEM_YATA_GARASU
 	.2byte  ITEM_ZOMBYRA_THE_DARK
 
-Warrior
+BattleFrontier_Mart_EventScript_Clerk_Warrior::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_WARRIOR
+	message gText_WarriorClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartWarrior
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartWarrior:
 	.2byte  ITEM_A_LEGENDARY_OCEAN
 	.2byte  ITEM_ABYSS_SOLDIER
 	.2byte  ITEM_AIRKNIGHT_PARSHATH
@@ -2532,7 +2676,19 @@ Warrior
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 	.2byte  ITEM_ZOMBYRA_THE_DARK
 
-Goat
+BattleFrontier_Mart_EventScript_Clerk_Goat::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_GOAT
+	message gText_GoatClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartGoat
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartGoat:
 	.2byte  ITEM_ABYSS_SOLDIER
 	.2byte  ITEM_AIRKNIGHT_PARSHATH
 	.2byte  ITEM_AMAZONESS_ARCHER
@@ -2698,7 +2854,19 @@ Goat
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 	.2byte  ITEM_ZOMBYRA_THE_DARK
 
-Cyber
+BattleFrontier_Mart_EventScript_Clerk_Cyber::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_CYBER
+	message gText_CyberClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartCyber
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartCyber:
 	.2byte  ITEM_ABYSS_SOLDIER
 	.2byte  ITEM_AMAZONESS_ARCHER
 	.2byte  ITEM_ASURA_PRIEST
@@ -2810,7 +2978,19 @@ Cyber
 	.2byte  ITEM_WIDESPREAD_RUIN
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 
-Reaper
+BattleFrontier_Mart_EventScript_Clerk_Reaper::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_REAPER
+	message gText_ReaperClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartReaper
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartReaper:
 	.2byte  ITEM_BAZOO_THE_SOUL_EATER
 	.2byte  ITEM_BIG_SHIELD_GARDNA
 	.2byte  ITEM_BLOWBACK_DRAGON
@@ -2948,7 +3128,19 @@ Reaper
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 	.2byte  ITEM_ZOMBYRA_THE_DARK
 
-Chaos Return
+BattleFrontier_Mart_EventScript_Clerk_ChaosReturn::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_CHAOS_RETURN
+	message gText_ChaosReturnClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartChaosReturn
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartChaosReturn:
 	.2byte  ITEM_AMAZONESS_ARCHER
 	.2byte  ITEM_ARCHFIEND_SOLDIER
 	.2byte  ITEM_ASURA_PRIEST
@@ -3058,7 +3250,19 @@ Chaos Return
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 	.2byte  ITEM_ZOMBYRA_THE_DARK
 
-Demise
+BattleFrontier_Mart_EventScript_Clerk_Demise::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_DEMISE
+	message gText_DemiseClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartDemise
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartDemise:
 	.2byte  ITEM_AMAZONESS_ARCHER
 	.2byte  ITEM_ASURA_PRIEST
 	.2byte  ITEM_BAZOO_THE_SOUL_EATER
@@ -3191,7 +3395,19 @@ Demise
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 	.2byte  ITEM_ZOMBYRA_THE_DARK
 
-Trooper
+BattleFrontier_Mart_EventScript_Clerk_Trooper::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_TROOPER
+	message gText_TrooperClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartTrooper
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartTrooper:
 	.2byte  ITEM_BOOK_OF_MOON
 	.2byte  ITEM_BRAIN_CONTROL
 	.2byte  ITEM_CALL_OF_THE_HAUNTED
@@ -3279,7 +3495,19 @@ Trooper
 	.2byte  ITEM_WIDESPREAD_RUIN
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 
-Zombie
+BattleFrontier_Mart_EventScript_Clerk_Zombie::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_ZOMBIE
+	message gText_ZombieClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartZombie
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartZombie:
 	.2byte  ITEM_AMAZONESS_ARCHER
 	.2byte  ITEM_ASURA_PRIEST
 	.2byte  ITEM_BAZOO_THE_SOUL_EATER
@@ -3417,7 +3645,19 @@ Zombie
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 	.2byte  ITEM_ZOMBYRA_THE_DARK
 
-Perfect Circle
+BattleFrontier_Mart_EventScript_Clerk_PerfectCircle::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_PERFECT_CIRCLE
+	message gText_PerfectCircleClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartPerfectCircle
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartPerfectCircle:
 	.2byte  ITEM_4_STARRED_LADYBUG_OF_DOOM
 	.2byte  ITEM_AMAZONESS_ARCHER
 	.2byte  ITEM_BAZOO_THE_SOUL_EATER
@@ -3521,7 +3761,19 @@ Perfect Circle
 	.2byte  ITEM_WAVE_MOTION_CANNON
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 
-DAD Return
+BattleFrontier_Mart_EventScript_Clerk_DADReturn::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_DAD_RETURN
+	message gText_DADReturnClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartDADReturn
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartDADReturn:
 	.2byte  ITEM_7_COLORED_FISH
 	.2byte  ITEM_ANTI_SPELL_FRAGRANCE
 	.2byte  ITEM_BIG_SHIELD_GARDNA
@@ -3632,7 +3884,19 @@ DAD Return
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 	.2byte  ITEM_ZOMBYRA_THE_DARK
 
-Gladiator
+BattleFrontier_Mart_EventScript_Clerk_Gladiator::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_GLADIATOR
+	message gText_GladiatorClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartGladiator
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartGladiator:
 	.2byte  ITEM_ANTI_SPELL_FRAGRANCE
 	.2byte  ITEM_BLACK_SKULL_DRAGON
 	.2byte  ITEM_BLUE_EYES_ULTIMATE_DRAGON
@@ -3712,7 +3976,19 @@ Gladiator
 	.2byte  ITEM_WABOKU
 	.2byte  ITEM_XING_ZHEN_HU
 
-TeleDAD
+BattleFrontier_Mart_EventScript_Clerk_TeleDAD::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_TELEDAD
+	message gText_TeleDADClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartTeleDAD
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartTeleDAD:
 	.2byte  ITEM_ANTI_SPELL_FRAGRANCE
 	.2byte  ITEM_BLUE_EYES_ULTIMATE_DRAGON
 	.2byte  ITEM_BOOK_OF_LIFE
@@ -3767,7 +4043,19 @@ TeleDAD
 	.2byte  ITEM_UPSTART_GOBLIN
 	.2byte  ITEM_WABOKU
 
-Cat
+BattleFrontier_Mart_EventScript_Clerk_Cat::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_CAT
+	message gText_CatClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartCat
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartCat:
 	.2byte  ITEM_BOOK_OF_MOON
 	.2byte  ITEM_BOTTOMLESS_TRAP_HOLE
 	.2byte  ITEM_BRAIN_CONTROL
@@ -3837,7 +4125,19 @@ Cat
 	.2byte  ITEM_WABOKU
 	.2byte  ITEM_ZOMBYRA_THE_DARK
 
-Edison
+BattleFrontier_Mart_EventScript_Clerk_Edison::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_EDISON
+	message gText_EdisonClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartEdison
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartEdison:
 	.2byte  ITEM_ANTI_SPELL_FRAGRANCE
 	.2byte  ITEM_BLUE_EYES_WHITE_DRAGON
 	.2byte  ITEM_BOOK_OF_LIFE
@@ -3913,7 +4213,19 @@ Edison
 	.2byte  ITEM_TREEBORN_FROG
 	.2byte  ITEM_UPSTART_GOBLIN
 
-Frog
+BattleFrontier_Mart_EventScript_Clerk_Frog::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_FROG
+	message gText_FrogClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartFrog
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartFrog:
 	.2byte  ITEM_ANTI_SPELL_FRAGRANCE
 	.2byte  ITEM_BLUE_EYES_ULTIMATE_DRAGON
 	.2byte  ITEM_BOOK_OF_LIFE
@@ -3989,7 +4301,19 @@ Frog
 	.2byte  ITEM_UPSTART_GOBLIN
 	.2byte  ITEM_WABOKU
 
-Starstrike
+BattleFrontier_Mart_EventScript_Clerk_Starstrike::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_STARSTRIKE
+	message gText_StarstrikeClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartStarstrike
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartStarstrike:
 	.2byte  ITEM_BOOK_OF_LIFE
 	.2byte  ITEM_BOOK_OF_MOON
 	.2byte  ITEM_BOTTOMLESS_TRAP_HOLE
@@ -4053,7 +4377,19 @@ Starstrike
 	.2byte  ITEM_TREEBORN_FROG
 	.2byte  ITEM_UPSTART_GOBLIN
 
-Tengu
+BattleFrontier_Mart_EventScript_Clerk_Tengu::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_TENGU
+	message gText_TenguClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartTengu
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartTengu:
 	.2byte  ITEM_ANTI_SPELL_FRAGRANCE
 	.2byte  ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING
 	.2byte  ITEM_BOOK_OF_LIFE
@@ -4110,7 +4446,19 @@ Tengu
 	.2byte  ITEM_ULTIMATE_OFFERING
 	.2byte  ITEM_UPSTART_GOBLIN
 
-Dino Rabbit
+BattleFrontier_Mart_EventScript_Clerk_DinoRabbit::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_DINO_RABBIT
+	message gText_DinoRabbitClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartDinoRabbit
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartDinoRabbit:
 	.2byte  ITEM_BEIIGE_VANGUARD_OF_DARK_WORLD
 	.2byte  ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING
 	.2byte  ITEM_BOOK_OF_MOON
@@ -4157,7 +4505,19 @@ Dino Rabbit
 	.2byte  ITEM_TREEBORN_FROG
 	.2byte  ITEM_UPSTART_GOBLIN
 
-Wind-Up
+BattleFrontier_Mart_EventScript_Clerk_WindUp::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_WIND_UP
+	message gText_WindUpClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartWindUp
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartWindUp:
 	.2byte  ITEM_BEIIGE_VANGUARD_OF_DARK_WORLD
 	.2byte  ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING
 	.2byte  ITEM_BOOK_OF_MOON
@@ -4219,7 +4579,19 @@ Wind-Up
 	.2byte  ITEM_UPSTART_GOLDEN_NINJA
 	.2byte  ITEM_WABOKU
 
-Miami
+BattleFrontier_Mart_EventScript_Clerk_Miami::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_MIAMI
+	message gText_MiamiClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartMiami
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartMiami:
 	.2byte  ITEM_AQUA_SPIRIT
 	.2byte  ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING
 	.2byte  ITEM_BOOK_OF_MOON
@@ -4273,7 +4645,19 @@ Miami
 	.2byte  ITEM_VORSE_RAIDER
 	.2byte  ITEM_XING_ZHEN_HU
 
-Meadowlands
+BattleFrontier_Mart_EventScript_Clerk_Meadowlands::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_MEADOWLANDS
+	message gText_MeadowlandsClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartMeadowlands
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartMeadowlands:
 	.2byte  ITEM_AQUA_SPIRIT
 	.2byte  ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING
 	.2byte  ITEM_BOOK_OF_MOON
@@ -4311,7 +4695,19 @@ Meadowlands
 	.2byte  ITEM_ULTIMATE_OFFERING
 	.2byte  ITEM_UPSTART_GOBLIN
 
-Baby Ruler
+BattleFrontier_Mart_EventScript_Clerk_BabyRuler::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_BABY_RULER
+	message gText_BabyRulerClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartBabyRuler
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartBabyRuler:
 	.2byte  ITEM_ANTI_SPELL_FRAGRANCE
 	.2byte  ITEM_BLACK_SKULL_DRAGON
 	.2byte  ITEM_BOOK_OF_MOON
@@ -4359,7 +4755,19 @@ Baby Ruler
 	.2byte  ITEM_UPSTART_GOBLIN
 	.2byte  ITEM_WABOKU
 
-Ravine Ruler
+BattleFrontier_Mart_EventScript_Clerk_RavineRuler::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_RAVINE_RULER
+	message gText_RavineRulerClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartRavineRuler
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartRavineRuler:
 	.2byte  ITEM_ARCHFIEND_HEIRESS
 	.2byte  ITEM_BLUE_EYES_WHITE_DRAGON
 	.2byte  ITEM_BOOK_OF_MOON
@@ -4405,7 +4813,19 @@ Ravine Ruler
 	.2byte  ITEM_UPSTART_GOBLIN
 	.2byte  ITEM_WABOKU
 
-Fire-Water
+BattleFrontier_Mart_EventScript_Clerk_FireWater::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_FIRE_WATER
+	message gText_FireWaterClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartFireWater
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartFireWater:
 	.2byte  ITEM_AQUA_SPIRIT
 	.2byte  ITEM_BEIIGE_VANGUARD_OF_DARK_WORLD
 	.2byte  ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING
@@ -4440,7 +4860,19 @@ Fire-Water
 	.2byte  ITEM_TRAPTRIX_MYRMELEO
 	.2byte  ITEM_UPSTART_GOBLIN
 
-HAT
+BattleFrontier_Mart_EventScript_Clerk_HAT::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_HAT
+	message gText_HATClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartHAT
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartHAT:
 	.2byte  ITEM_BLUE_EYES_WHITE_DRAGON
 	.2byte  ITEM_BOOK_OF_MOON
 	.2byte  ITEM_BOTTOMLESS_TRAP_HOLE
@@ -4463,7 +4895,19 @@ HAT
 	.2byte  ITEM_TRAPTRIX_MYRMELEO
 	.2byte  ITEM_UPSTART_GOBLIN
 
-Vegas
+BattleFrontier_Mart_EventScript_Clerk_Vegas::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_VEGAS
+	message gText_VegasClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartVegas
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartVegas:
 	.2byte  ITEM_ANTI_SPELL_FRAGRANCE
 	.2byte  ITEM_AQUA_SPIRIT
 	.2byte  ITEM_ARCHFIEND_HEIRESS
@@ -4498,7 +4942,695 @@ Vegas
 	.2byte  ITEM_TRAPTRIX_MYRMELEO
 	.2byte  ITEM_UPSTART_GOBLIN
 
-Yugi-Kaiba
+InsideOfTruck_Text_YugiKaiba, InsideOfTruck_Text_Critter, InsideOfTruck_Text_Treasure, InsideOfTruck_Text_Imperial, InsideOfTruck_Text_Android, InsideOfTruck_Text_JoeyPegasus, InsideOfTruck_Text_Fiber, InsideOfTruck_Text_Yata, InsideOfTruck_Text_Scientist, InsideOfTruck_Text_Vampire, InsideOfTruck_Text_Chaos, InsideOfTruck_Text_Warrior, InsideOfTruck_Text_Goat, InsideOfTruck_Text_Cyber, InsideOfTruck_Text_Reaper, InsideOfTruck_Text_ChaosReturn, InsideOfTruck_Text_Demise, InsideOfTruck_Text_Trooper, InsideOfTruck_Text_Zombie, InsideOfTruck_Text_PerfectCircle, InsideOfTruck_Text_DADReturn, InsideOfTruck_Text_Gladiator, InsideOfTruck_Text_TeleDAD, InsideOfTruck_Text_Cat, InsideOfTruck_Text_Edison, InsideOfTruck_Text_Frog, InsideOfTruck_Text_Starstrike, InsideOfTruck_Text_Tengu, InsideOfTruck_Text_DinoRabbit, InsideOfTruck_Text_WindUp, InsideOfTruck_Text_Miami, InsideOfTruck_Text_Meadowlands, InsideOfTruck_Text_BabyRuler, InsideOfTruck_Text_RavineRuler, InsideOfTruck_Text_FireWater, InsideOfTruck_Text_HAT, InsideOfTruck_Text_Vegas, 
+
+InsideOfTruck_Text_YugiKaibaBanlist, InsideOfTruck_Text_CritterBanlist, InsideOfTruck_Text_TreasureBanlist, InsideOfTruck_Text_ImperialBanlist, InsideOfTruck_Text_AndroidBanlist, InsideOfTruck_Text_JoeyPegasusBanlist, InsideOfTruck_Text_FiberBanlist, InsideOfTruck_Text_YataBanlist, InsideOfTruck_Text_ScientistBanlist, InsideOfTruck_Text_VampireBanlist, InsideOfTruck_Text_ChaosBanlist, InsideOfTruck_Text_WarriorBanlist, InsideOfTruck_Text_GoatBanlist, InsideOfTruck_Text_CyberBanlist, InsideOfTruck_Text_ReaperBanlist, InsideOfTruck_Text_ChaosReturnBanlist, InsideOfTruck_Text_DemiseBanlist, InsideOfTruck_Text_TrooperBanlist, InsideOfTruck_Text_ZombieBanlist, InsideOfTruck_Text_PerfectCircleBanlist, InsideOfTruck_Text_DADReturnBanlist, InsideOfTruck_Text_GladiatorBanlist, InsideOfTruck_Text_TeleDADBanlist, InsideOfTruck_Text_CatBanlist, InsideOfTruck_Text_EdisonBanlist, InsideOfTruck_Text_FrogBanlist, InsideOfTruck_Text_StarstrikeBanlist, InsideOfTruck_Text_TenguBanlist, InsideOfTruck_Text_DinoRabbitBanlist, InsideOfTruck_Text_WindUpBanlist, InsideOfTruck_Text_MiamiBanlist, InsideOfTruck_Text_MeadowlandsBanlist, InsideOfTruck_Text_BabyRulerBanlist, InsideOfTruck_Text_RavineRulerBanlist, InsideOfTruck_Text_FireWaterBanlist, InsideOfTruck_Text_HATBanlist, InsideOfTruck_Text_VegasBanlist, 
+
+InsideOfTruck_Text_YugiKaiba:
+	.string "Yugi-Kaiba$"
+
+InsideOfTruck_Text_Critter:
+	.string "Critter$"
+
+InsideOfTruck_Text_Treasure:
+	.string "Treasure$"
+
+InsideOfTruck_Text_Imperial:
+	.string "Imperial$"
+
+InsideOfTruck_Text_Android:
+	.string "Android$"
+
+InsideOfTruck_Text_JoeyPegasus:
+	.string "Joey-Pegasus$"
+
+InsideOfTruck_Text_Fiber:
+	.string "Fiber$"
+
+InsideOfTruck_Text_Yata:
+	.string "Yata$"
+
+InsideOfTruck_Text_Scientist:
+	.string "Scientist$"
+
+InsideOfTruck_Text_Vampire:
+	.string "Vampire$"
+
+InsideOfTruck_Text_Chaos:
+	.string "Chaos$"
+
+InsideOfTruck_Text_Warrior:
+	.string "Warrior$"
+
+InsideOfTruck_Text_Goat:
+	.string "Goat$"
+
+InsideOfTruck_Text_Cyber:
+	.string "Cyber$"
+
+InsideOfTruck_Text_Reaper:
+	.string "Reaper$"
+
+InsideOfTruck_Text_ChaosReturn:
+	.string "Chaos Return$"
+
+InsideOfTruck_Text_Demise:
+	.string "Demise$"
+
+InsideOfTruck_Text_Trooper:
+	.string "Trooper$"
+
+InsideOfTruck_Text_Zombie:
+	.string "Zombie$"
+
+InsideOfTruck_Text_PerfectCircle:
+	.string "Perfect Circle$"
+
+InsideOfTruck_Text_DADReturn:
+	.string "DAD Return$"
+
+InsideOfTruck_Text_Gladiator:
+	.string "Gladiator$"
+
+InsideOfTruck_Text_TeleDAD:
+	.string "TeleDAD$"
+
+InsideOfTruck_Text_Cat:
+	.string "Cat$"
+
+InsideOfTruck_Text_Edison:
+	.string "Edison$"
+
+InsideOfTruck_Text_Frog:
+	.string "Frog$"
+
+InsideOfTruck_Text_Starstrike:
+	.string "Starstrike$"
+
+InsideOfTruck_Text_Tengu:
+	.string "Tengu$"
+
+InsideOfTruck_Text_DinoRabbit:
+	.string "Dino Rabbit$"
+
+InsideOfTruck_Text_WindUp:
+	.string "Wind-Up$"
+
+InsideOfTruck_Text_Miami:
+	.string "Miami$"
+
+InsideOfTruck_Text_Meadowlands:
+	.string "Meadowlands$"
+
+InsideOfTruck_Text_BabyRuler:
+	.string "Baby Ruler$"
+
+InsideOfTruck_Text_RavineRuler:
+	.string "Ravine Ruler$"
+
+InsideOfTruck_Text_FireWater:
+	.string "Fire-Water$"
+
+InsideOfTruck_Text_HAT:
+	.string "HAT$"
+
+InsideOfTruck_Text_Vegas:
+	.string "Vegas$"
+
+
+
+InsideOfTruck_Text_YugiKaibaBanlist:
+	.string "Yugi-Kaiba banlist$"
+
+InsideOfTruck_Text_CritterBanlist:
+	.string "Critter banlist$"
+
+InsideOfTruck_Text_TreasureBanlist:
+	.string "Treasure banlist$"
+
+InsideOfTruck_Text_ImperialBanlist:
+	.string "Imperial banlist$"
+
+InsideOfTruck_Text_AndroidBanlist:
+	.string "Android banlist$"
+
+InsideOfTruck_Text_JoeyPegasusBanlist:
+	.string "Joey-Pegasus banlist$"
+
+InsideOfTruck_Text_FiberBanlist:
+	.string "Fiber banlist$"
+
+InsideOfTruck_Text_YataBanlist:
+	.string "Yata banlist$"
+
+InsideOfTruck_Text_ScientistBanlist:
+	.string "Scientist banlist$"
+
+InsideOfTruck_Text_VampireBanlist:
+	.string "Vampire banlist$"
+
+InsideOfTruck_Text_ChaosBanlist:
+	.string "Chaos banlist$"
+
+InsideOfTruck_Text_WarriorBanlist:
+	.string "Warrior banlist$"
+
+InsideOfTruck_Text_GoatBanlist:
+	.string "Goat banlist$"
+
+InsideOfTruck_Text_CyberBanlist:
+	.string "Cyber banlist$"
+
+InsideOfTruck_Text_ReaperBanlist:
+	.string "Reaper banlist$"
+
+InsideOfTruck_Text_ChaosReturnBanlist:
+	.string "Chaos Return banlist$"
+
+InsideOfTruck_Text_DemiseBanlist:
+	.string "Demise banlist$"
+
+InsideOfTruck_Text_TrooperBanlist:
+	.string "Trooper banlist$"
+
+InsideOfTruck_Text_ZombieBanlist:
+	.string "Zombie banlist$"
+
+InsideOfTruck_Text_PerfectCircleBanlist:
+	.string "Perfect Circle banlist$"
+
+InsideOfTruck_Text_DADReturnBanlist:
+	.string "DAD Return banlist$"
+
+InsideOfTruck_Text_GladiatorBanlist:
+	.string "Gladiator banlist$"
+
+InsideOfTruck_Text_TeleDADBanlist:
+	.string "TeleDAD banlist$"
+
+InsideOfTruck_Text_CatBanlist:
+	.string "Cat banlist$"
+
+InsideOfTruck_Text_EdisonBanlist:
+	.string "Edison banlist$"
+
+InsideOfTruck_Text_FrogBanlist:
+	.string "Frog banlist$"
+
+InsideOfTruck_Text_StarstrikeBanlist:
+	.string "Starstrike banlist$"
+
+InsideOfTruck_Text_TenguBanlist:
+	.string "Tengu banlist$"
+
+InsideOfTruck_Text_DinoRabbitBanlist:
+	.string "Dino Rabbit banlist$"
+
+InsideOfTruck_Text_WindUpBanlist:
+	.string "Wind-Up banlist$"
+
+InsideOfTruck_Text_MiamiBanlist:
+	.string "Miami banlist$"
+
+InsideOfTruck_Text_MeadowlandsBanlist:
+	.string "Meadowlands banlist$"
+
+InsideOfTruck_Text_BabyRulerBanlist:
+	.string "Baby Ruler banlist$"
+
+InsideOfTruck_Text_RavineRulerBanlist:
+	.string "Ravine Ruler banlist$"
+
+InsideOfTruck_Text_FireWaterBanlist:
+	.string "Fire-Water banlist$"
+
+InsideOfTruck_Text_HATBanlist:
+	.string "HAT banlist$"
+
+InsideOfTruck_Text_VegasBanlist:
+	.string "Vegas banlist$"
+
+	case 0, BattleFrontier_Mart_EventScript_Clerk_YugiKaiba
+	case 1, BattleFrontier_Mart_EventScript_Clerk_Critter
+	case 2, BattleFrontier_Mart_EventScript_Clerk_Treasure
+	case 3, BattleFrontier_Mart_EventScript_Clerk_Imperial
+	case 4, BattleFrontier_Mart_EventScript_Clerk_Android
+	case 5, BattleFrontier_Mart_EventScript_Clerk_JoeyPegasus
+	case 6, BattleFrontier_Mart_EventScript_Clerk_Fiber
+	case 7, BattleFrontier_Mart_EventScript_Clerk_Yata
+	case 8, BattleFrontier_Mart_EventScript_Clerk_Scientist
+	case 9, BattleFrontier_Mart_EventScript_Clerk_Vampire
+	case 10, BattleFrontier_Mart_EventScript_Clerk_Chaos
+	case 11, BattleFrontier_Mart_EventScript_Clerk_Warrior
+	case 12, BattleFrontier_Mart_EventScript_Clerk_Goat
+	case 13, BattleFrontier_Mart_EventScript_Clerk_Cyber
+	case 14, BattleFrontier_Mart_EventScript_Clerk_Reaper
+	case 15, BattleFrontier_Mart_EventScript_Clerk_ChaosReturn
+	case 16, BattleFrontier_Mart_EventScript_Clerk_Demise
+	case 17, BattleFrontier_Mart_EventScript_Clerk_Trooper
+	case 18, BattleFrontier_Mart_EventScript_Clerk_Zombie
+	case 19, BattleFrontier_Mart_EventScript_Clerk_PerfectCircle
+	case 20, BattleFrontier_Mart_EventScript_Clerk_DADReturn
+	case 21, BattleFrontier_Mart_EventScript_Clerk_Gladiator
+	case 22, BattleFrontier_Mart_EventScript_Clerk_TeleDAD
+	case 23, BattleFrontier_Mart_EventScript_Clerk_Cat
+	case 24, BattleFrontier_Mart_EventScript_Clerk_Edison
+	case 25, BattleFrontier_Mart_EventScript_Clerk_Frog
+	case 26, BattleFrontier_Mart_EventScript_Clerk_Starstrike
+	case 27, BattleFrontier_Mart_EventScript_Clerk_Tengu
+	case 28, BattleFrontier_Mart_EventScript_Clerk_DinoRabbit
+	case 29, BattleFrontier_Mart_EventScript_Clerk_WindUp
+	case 30, BattleFrontier_Mart_EventScript_Clerk_Miami
+	case 31, BattleFrontier_Mart_EventScript_Clerk_Meadowlands
+	case 32, BattleFrontier_Mart_EventScript_Clerk_BabyRuler
+	case 33, BattleFrontier_Mart_EventScript_Clerk_RavineRuler
+	case 34, BattleFrontier_Mart_EventScript_Clerk_FireWater
+	case 35, BattleFrontier_Mart_EventScript_Clerk_HAT
+	case 36, BattleFrontier_Mart_EventScript_Clerk_Vegas
+
+
+	case 0, BattleFrontier_Mart_EventScript_Clerk_YugiKaibaBanlist
+	case 1, BattleFrontier_Mart_EventScript_Clerk_CritterBanlist
+	case 2, BattleFrontier_Mart_EventScript_Clerk_TreasureBanlist
+	case 3, BattleFrontier_Mart_EventScript_Clerk_ImperialBanlist
+	case 4, BattleFrontier_Mart_EventScript_Clerk_AndroidBanlist
+	case 5, BattleFrontier_Mart_EventScript_Clerk_JoeyPegasusBanlist
+	case 6, BattleFrontier_Mart_EventScript_Clerk_FiberBanlist
+	case 7, BattleFrontier_Mart_EventScript_Clerk_YataBanlist
+	case 8, BattleFrontier_Mart_EventScript_Clerk_ScientistBanlist
+	case 9, BattleFrontier_Mart_EventScript_Clerk_VampireBanlist
+	case 10, BattleFrontier_Mart_EventScript_Clerk_ChaosBanlist
+	case 11, BattleFrontier_Mart_EventScript_Clerk_WarriorBanlist
+	case 12, BattleFrontier_Mart_EventScript_Clerk_GoatBanlist
+	case 13, BattleFrontier_Mart_EventScript_Clerk_CyberBanlist
+	case 14, BattleFrontier_Mart_EventScript_Clerk_ReaperBanlist
+	case 15, BattleFrontier_Mart_EventScript_Clerk_ChaosReturnBanlist
+	case 16, BattleFrontier_Mart_EventScript_Clerk_DemiseBanlist
+	case 17, BattleFrontier_Mart_EventScript_Clerk_TrooperBanlist
+	case 18, BattleFrontier_Mart_EventScript_Clerk_ZombieBanlist
+	case 19, BattleFrontier_Mart_EventScript_Clerk_PerfectCircleBanlist
+	case 20, BattleFrontier_Mart_EventScript_Clerk_DADReturnBanlist
+	case 21, BattleFrontier_Mart_EventScript_Clerk_GladiatorBanlist
+	case 22, BattleFrontier_Mart_EventScript_Clerk_TeleDADBanlist
+	case 23, BattleFrontier_Mart_EventScript_Clerk_CatBanlist
+	case 24, BattleFrontier_Mart_EventScript_Clerk_EdisonBanlist
+	case 25, BattleFrontier_Mart_EventScript_Clerk_FrogBanlist
+	case 26, BattleFrontier_Mart_EventScript_Clerk_StarstrikeBanlist
+	case 27, BattleFrontier_Mart_EventScript_Clerk_TenguBanlist
+	case 28, BattleFrontier_Mart_EventScript_Clerk_DinoRabbitBanlist
+	case 29, BattleFrontier_Mart_EventScript_Clerk_WindUpBanlist
+	case 30, BattleFrontier_Mart_EventScript_Clerk_MiamiBanlist
+	case 31, BattleFrontier_Mart_EventScript_Clerk_MeadowlandsBanlist
+	case 32, BattleFrontier_Mart_EventScript_Clerk_BabyRulerBanlist
+	case 33, BattleFrontier_Mart_EventScript_Clerk_RavineRulerBanlist
+	case 34, BattleFrontier_Mart_EventScript_Clerk_FireWaterBanlist
+	case 35, BattleFrontier_Mart_EventScript_Clerk_HATBanlist
+	case 36, BattleFrontier_Mart_EventScript_Clerk_VegasBanlist
+
+
+gText_YugiKaibaClerk::
+	.string "Welcome!\p"
+	.string "I'm the YugiKaibaclerk.\n"
+	.string "How may I serve you?$"
+
+gText_CritterClerk::
+	.string "Welcome!\p"
+	.string "I'm the Critterclerk.\n"
+	.string "How may I serve you?$"
+
+gText_TreasureClerk::
+	.string "Welcome!\p"
+	.string "I'm the Treasureclerk.\n"
+	.string "How may I serve you?$"
+
+gText_ImperialClerk::
+	.string "Welcome!\p"
+	.string "I'm the Imperialclerk.\n"
+	.string "How may I serve you?$"
+
+gText_AndroidClerk::
+	.string "Welcome!\p"
+	.string "I'm the Androidclerk.\n"
+	.string "How may I serve you?$"
+
+gText_JoeyPegasusClerk::
+	.string "Welcome!\p"
+	.string "I'm the JoeyPegasusclerk.\n"
+	.string "How may I serve you?$"
+
+gText_FiberClerk::
+	.string "Welcome!\p"
+	.string "I'm the Fiberclerk.\n"
+	.string "How may I serve you?$"
+
+gText_YataClerk::
+	.string "Welcome!\p"
+	.string "I'm the Yataclerk.\n"
+	.string "How may I serve you?$"
+
+gText_ScientistClerk::
+	.string "Welcome!\p"
+	.string "I'm the Scientistclerk.\n"
+	.string "How may I serve you?$"
+
+gText_VampireClerk::
+	.string "Welcome!\p"
+	.string "I'm the Vampireclerk.\n"
+	.string "How may I serve you?$"
+
+gText_ChaosClerk::
+	.string "Welcome!\p"
+	.string "I'm the Chaosclerk.\n"
+	.string "How may I serve you?$"
+
+gText_WarriorClerk::
+	.string "Welcome!\p"
+	.string "I'm the Warriorclerk.\n"
+	.string "How may I serve you?$"
+
+gText_GoatClerk::
+	.string "Welcome!\p"
+	.string "I'm the Goatclerk.\n"
+	.string "How may I serve you?$"
+
+gText_CyberClerk::
+	.string "Welcome!\p"
+	.string "I'm the Cyberclerk.\n"
+	.string "How may I serve you?$"
+
+gText_ReaperClerk::
+	.string "Welcome!\p"
+	.string "I'm the Reaperclerk.\n"
+	.string "How may I serve you?$"
+
+gText_ChaosReturnClerk::
+	.string "Welcome!\p"
+	.string "I'm the ChaosReturnclerk.\n"
+	.string "How may I serve you?$"
+
+gText_DemiseClerk::
+	.string "Welcome!\p"
+	.string "I'm the Demiseclerk.\n"
+	.string "How may I serve you?$"
+
+gText_TrooperClerk::
+	.string "Welcome!\p"
+	.string "I'm the Trooperclerk.\n"
+	.string "How may I serve you?$"
+
+gText_ZombieClerk::
+	.string "Welcome!\p"
+	.string "I'm the Zombieclerk.\n"
+	.string "How may I serve you?$"
+
+gText_PerfectCircleClerk::
+	.string "Welcome!\p"
+	.string "I'm the PerfectCircleclerk.\n"
+	.string "How may I serve you?$"
+
+gText_DADReturnClerk::
+	.string "Welcome!\p"
+	.string "I'm the DADReturnclerk.\n"
+	.string "How may I serve you?$"
+
+gText_GladiatorClerk::
+	.string "Welcome!\p"
+	.string "I'm the Gladiatorclerk.\n"
+	.string "How may I serve you?$"
+
+gText_TeleDADClerk::
+	.string "Welcome!\p"
+	.string "I'm the TeleDADclerk.\n"
+	.string "How may I serve you?$"
+
+gText_CatClerk::
+	.string "Welcome!\p"
+	.string "I'm the Catclerk.\n"
+	.string "How may I serve you?$"
+
+gText_EdisonClerk::
+	.string "Welcome!\p"
+	.string "I'm the Edisonclerk.\n"
+	.string "How may I serve you?$"
+
+gText_FrogClerk::
+	.string "Welcome!\p"
+	.string "I'm the Frogclerk.\n"
+	.string "How may I serve you?$"
+
+gText_StarstrikeClerk::
+	.string "Welcome!\p"
+	.string "I'm the Starstrikeclerk.\n"
+	.string "How may I serve you?$"
+
+gText_TenguClerk::
+	.string "Welcome!\p"
+	.string "I'm the Tenguclerk.\n"
+	.string "How may I serve you?$"
+
+gText_DinoRabbitClerk::
+	.string "Welcome!\p"
+	.string "I'm the DinoRabbitclerk.\n"
+	.string "How may I serve you?$"
+
+gText_WindUpClerk::
+	.string "Welcome!\p"
+	.string "I'm the WindUpclerk.\n"
+	.string "How may I serve you?$"
+
+gText_MiamiClerk::
+	.string "Welcome!\p"
+	.string "I'm the Miamiclerk.\n"
+	.string "How may I serve you?$"
+
+gText_MeadowlandsClerk::
+	.string "Welcome!\p"
+	.string "I'm the Meadowlandsclerk.\n"
+	.string "How may I serve you?$"
+
+gText_BabyRulerClerk::
+	.string "Welcome!\p"
+	.string "I'm the BabyRulerclerk.\n"
+	.string "How may I serve you?$"
+
+gText_RavineRulerClerk::
+	.string "Welcome!\p"
+	.string "I'm the RavineRulerclerk.\n"
+	.string "How may I serve you?$"
+
+gText_FireWaterClerk::
+	.string "Welcome!\p"
+	.string "I'm the FireWaterclerk.\n"
+	.string "How may I serve you?$"
+
+gText_HATClerk::
+	.string "Welcome!\p"
+	.string "I'm the HATclerk.\n"
+	.string "How may I serve you?$"
+
+gText_VegasClerk::
+	.string "Welcome!\p"
+	.string "I'm the Vegasclerk.\n"
+	.string "How may I serve you?$"
+
+gText_YugiKaibaBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the YugiKaiba banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_CritterBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the Critter banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_TreasureBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the Treasure banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_ImperialBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the Imperial banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_AndroidBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the Android banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_JoeyPegasusBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the JoeyPegasus banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_FiberBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the Fiber banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_YataBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the Yata banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_ScientistBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the Scientist banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_VampireBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the Vampire banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_ChaosBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the Chaos banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_WarriorBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the Warrior banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_GoatBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the Goat banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_CyberBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the Cyber banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_ReaperBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the Reaper banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_ChaosReturnBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the ChaosReturn banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_DemiseBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the Demise banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_TrooperBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the Trooper banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_ZombieBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the Zombie banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_PerfectCircleBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the PerfectCircle banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_DADReturnBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the DADReturn banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_GladiatorBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the Gladiator banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_TeleDADBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the TeleDAD banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_CatBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the Cat banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_EdisonBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the Edison banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_FrogBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the Frog banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_StarstrikeBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the Starstrike banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_TenguBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the Tengu banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_DinoRabbitBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the DinoRabbit banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_WindUpBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the WindUp banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_MiamiBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the Miami banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_MeadowlandsBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the Meadowlands banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_BabyRulerBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the BabyRuler banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_RavineRulerBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the RavineRuler banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_FireWaterBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the FireWater banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_HATBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the HAT banlist clerk.\n"
+	.string "How may I serve you?$"
+
+gText_VegasBanlistClerk::
+	.string "Welcome!\p"
+	.string "I'm the Vegas banlist clerk.\n"
+	.string "How may I serve you?$"
+
+BattleFrontier_Mart_EventScript_Clerk_YugiKaibaBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_YUGI_KAIBA
+	message gText_YugiKaibaBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartYugiKaibaBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartYugiKaibaBanlist:
 	.2byte  ITEM_CHANGE_OF_HEART
 	.2byte  ITEM_DARK_HOLE
 	.2byte  ITEM_MONSTER_REBORN
@@ -4540,7 +5672,19 @@ Yugi-Kaiba
 	.2byte  ITEM_WABOKU
 	.2byte  ITEM_WALL_OF_ILLUSION
 
-Critter
+BattleFrontier_Mart_EventScript_Clerk_CritterBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_CRITTER
+	message gText_CritterBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartCritterBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartCritterBanlist:
 	.2byte  ITEM_CHANGE_OF_HEART
 	.2byte  ITEM_DARK_HOLE
 	.2byte  ITEM_EXODIA_THE_FORBIDDEN_ONE
@@ -4604,7 +5748,19 @@ Critter
 	.2byte  ITEM_WALL_OF_ILLUSION
 	.2byte  ITEM_WHITE_MAGICAL_HAT
 
-Treasure
+BattleFrontier_Mart_EventScript_Clerk_TreasureBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_TREASURE
+	message gText_TreasureBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartTreasureBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartTreasureBanlist:
 	.2byte  ITEM_CHANGE_OF_HEART
 	.2byte  ITEM_CONFISCATION
 	.2byte  ITEM_CYBER_JAR
@@ -4668,7 +5824,19 @@ Treasure
 	.2byte  ITEM_WALL_OF_ILLUSION
 	.2byte  ITEM_WHITE_MAGICAL_HAT
 
-Imperial
+BattleFrontier_Mart_EventScript_Clerk_ImperialBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_IMPERIAL
+	message gText_ImperialBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartImperialBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartImperialBanlist:
 	.2byte  ITEM_CALL_OF_THE_HAUNTED
 	.2byte  ITEM_CEASEFIRE
 	.2byte  ITEM_CHANGE_OF_HEART
@@ -4721,7 +5889,19 @@ Imperial
 	.2byte  ITEM_TRIBUTE_TO_THE_DOOMED
 	.2byte  ITEM_TWIN_HEADED_THUNDER_DRAGON
 
-Android
+BattleFrontier_Mart_EventScript_Clerk_AndroidBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_ANDROID
+	message gText_AndroidBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartAndroidBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartAndroidBanlist:
 	.2byte  ITEM_CALL_OF_THE_HAUNTED
 	.2byte  ITEM_CARD_DESTRUCTION
 	.2byte  ITEM_CEASEFIRE
@@ -4800,7 +5980,19 @@ Android
 	.2byte  ITEM_WHITE_MAGICAL_HAT
 	.2byte  ITEM_ZOMBYRA_THE_DARK
 
-Joey-Pegasus
+BattleFrontier_Mart_EventScript_Clerk_JoeyPegasusBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_JOEY_PEGASUS
+	message gText_JoeyPegasusBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartJoeyPegasusBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartJoeyPegasusBanlist:
 	.2byte  ITEM_CALL_OF_THE_HAUNTED
 	.2byte  ITEM_CEASEFIRE
 	.2byte  ITEM_CHANGE_OF_HEART
@@ -4874,7 +6066,19 @@ Joey-Pegasus
 	.2byte  ITEM_TWIN_HEADED_THUNDER_DRAGON
 	.2byte  ITEM_WABOKU
 
-Fiber
+BattleFrontier_Mart_EventScript_Clerk_FiberBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_FIBER
+	message gText_FiberBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartFiberBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartFiberBanlist:
 	.2byte  ITEM_CALL_OF_THE_HAUNTED
 	.2byte  ITEM_CARD_DESTRUCTION
 	.2byte  ITEM_CEASEFIRE
@@ -4962,7 +6166,19 @@ Fiber
 	.2byte  ITEM_WABOKU
 	.2byte  ITEM_ZOMBYRA_THE_DARK
 
-Yata
+BattleFrontier_Mart_EventScript_Clerk_YataBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_YATA
+	message gText_YataBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartYataBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartYataBanlist:
 	.2byte  ITEM_CALL_OF_THE_HAUNTED
 	.2byte  ITEM_CEASEFIRE
 	.2byte  ITEM_CHANGE_OF_HEART
@@ -5069,7 +6285,19 @@ Yata
 	.2byte  ITEM_WHITE_MAGICAL_HAT
 	.2byte  ITEM_ZOMBYRA_THE_DARK
 
-Scientist
+BattleFrontier_Mart_EventScript_Clerk_ScientistBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_SCIENTIST
+	message gText_ScientistBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartScientistBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartScientistBanlist:
 	.2byte  ITEM_BREAKER_THE_MAGICAL_WARRIOR
 	.2byte  ITEM_CALL_OF_THE_HAUNTED
 	.2byte  ITEM_CARD_DESTRUCTION
@@ -5154,7 +6382,19 @@ Scientist
 	.2byte  ITEM_TRAP_DUSTSHOOT
 	.2byte  ITEM_WABOKU
 
-Vampire
+BattleFrontier_Mart_EventScript_Clerk_VampireBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_VAMPIRE
+	message gText_VampireBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartVampireBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartVampireBanlist:
 	.2byte  ITEM_BREAKER_THE_MAGICAL_WARRIOR
 	.2byte  ITEM_CALL_OF_THE_HAUNTED
 	.2byte  ITEM_CARD_DESTRUCTION
@@ -5253,7 +6493,19 @@ Vampire
 	.2byte  ITEM_WABOKU
 	.2byte  ITEM_ZOMBYRA_THE_DARK
 
-Chaos
+BattleFrontier_Mart_EventScript_Clerk_ChaosBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_CHAOS
+	message gText_ChaosBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartChaosBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartChaosBanlist:
 	.2byte  ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING
 	.2byte  ITEM_BREAKER_THE_MAGICAL_WARRIOR
 	.2byte  ITEM_CALL_OF_THE_HAUNTED
@@ -5364,7 +6616,19 @@ Chaos
 	.2byte  ITEM_WABOKU
 	.2byte  ITEM_ZOMBYRA_THE_DARK
 
-Warrior
+BattleFrontier_Mart_EventScript_Clerk_WarriorBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_WARRIOR
+	message gText_WarriorBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartWarriorBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartWarriorBanlist:
 	.2byte  ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING
 	.2byte  ITEM_BREAKER_THE_MAGICAL_WARRIOR
 	.2byte  ITEM_CALL_OF_THE_HAUNTED
@@ -5507,7 +6771,19 @@ Warrior
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 	.2byte  ITEM_ZOMBYRA_THE_DARK
 
-Goat
+BattleFrontier_Mart_EventScript_Clerk_GoatBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_GOAT
+	message gText_GoatBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartGoatBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartGoatBanlist:
 	.2byte  ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING
 	.2byte  ITEM_BREAKER_THE_MAGICAL_WARRIOR
 	.2byte  ITEM_CALL_OF_THE_HAUNTED
@@ -5673,7 +6949,19 @@ Goat
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 	.2byte  ITEM_ZOMBYRA_THE_DARK
 
-Cyber
+BattleFrontier_Mart_EventScript_Clerk_CyberBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_CYBER
+	message gText_CyberBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartCyberBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartCyberBanlist:
 	.2byte  ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING
 	.2byte  ITEM_BREAKER_THE_MAGICAL_WARRIOR
 	.2byte  ITEM_CALL_OF_THE_HAUNTED
@@ -5785,7 +7073,19 @@ Cyber
 	.2byte  ITEM_WIDESPREAD_RUIN
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 
-Reaper
+BattleFrontier_Mart_EventScript_Clerk_ReaperBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_REAPER
+	message gText_ReaperBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartReaperBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartReaperBanlist:
 	.2byte  ITEM_BOOK_OF_MOON
 	.2byte  ITEM_BREAKER_THE_MAGICAL_WARRIOR
 	.2byte  ITEM_CALL_OF_THE_HAUNTED
@@ -5923,7 +7223,19 @@ Reaper
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 	.2byte  ITEM_ZOMBYRA_THE_DARK
 
-Chaos Return
+BattleFrontier_Mart_EventScript_Clerk_ChaosReturnBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_CHAOS_RETURN
+	message gText_ChaosReturnBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartChaosReturnBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartChaosReturnBanlist:
 	.2byte  ITEM_BOOK_OF_MOON
 	.2byte  ITEM_BREAKER_THE_MAGICAL_WARRIOR
 	.2byte  ITEM_CALL_OF_THE_HAUNTED
@@ -6033,7 +7345,19 @@ Chaos Return
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 	.2byte  ITEM_ZOMBYRA_THE_DARK
 
-Demise
+BattleFrontier_Mart_EventScript_Clerk_DemiseBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_DEMISE
+	message gText_DemiseBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartDemiseBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartDemiseBanlist:
 	.2byte  ITEM_BOOK_OF_MOON
 	.2byte  ITEM_CALL_OF_THE_HAUNTED
 	.2byte  ITEM_CARD_DESTRUCTION
@@ -6166,7 +7490,19 @@ Demise
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 	.2byte  ITEM_ZOMBYRA_THE_DARK
 
-Trooper
+BattleFrontier_Mart_EventScript_Clerk_TrooperBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_TROOPER
+	message gText_TrooperBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartTrooperBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartTrooperBanlist:
 	.2byte  ITEM_BOOK_OF_MOON
 	.2byte  ITEM_CALL_OF_THE_HAUNTED
 	.2byte  ITEM_CARD_DESTRUCTION
@@ -6254,7 +7590,19 @@ Trooper
 	.2byte  ITEM_WIDESPREAD_RUIN
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 
-Zombie
+BattleFrontier_Mart_EventScript_Clerk_ZombieBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_ZOMBIE
+	message gText_ZombieBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartZombieBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartZombieBanlist:
 	.2byte  ITEM_BOOK_OF_MOON
 	.2byte  ITEM_BRAIN_CONTROL
 	.2byte  ITEM_BREAKER_THE_MAGICAL_WARRIOR
@@ -6392,7 +7740,19 @@ Zombie
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 	.2byte  ITEM_ZOMBYRA_THE_DARK
 
-Perfect Circle
+BattleFrontier_Mart_EventScript_Clerk_PerfectCircleBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_PERFECT_CIRCLE
+	message gText_PerfectCircleBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartPerfectCircleBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartPerfectCircleBanlist:
 	.2byte  ITEM_BOOK_OF_MOON
 	.2byte  ITEM_BRAIN_CONTROL
 	.2byte  ITEM_BREAKER_THE_MAGICAL_WARRIOR
@@ -6496,7 +7856,19 @@ Perfect Circle
 	.2byte  ITEM_WAVE_MOTION_CANNON
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 
-DAD Return
+BattleFrontier_Mart_EventScript_Clerk_DADReturnBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_DAD_RETURN
+	message gText_DADReturnBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartDADReturnBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartDADReturnBanlist:
 	.2byte  ITEM_BRAIN_CONTROL
 	.2byte  ITEM_CARD_DESTRUCTION
 	.2byte  ITEM_CEASEFIRE
@@ -6607,7 +7979,19 @@ DAD Return
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 	.2byte  ITEM_ZOMBYRA_THE_DARK
 
-Gladiator
+BattleFrontier_Mart_EventScript_Clerk_GladiatorBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_GLADIATOR
+	message gText_GladiatorBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartGladiatorBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartGladiatorBanlist:
 	.2byte  ITEM_BRAIN_CONTROL
 	.2byte  ITEM_CEASEFIRE
 	.2byte  ITEM_CRUSH_CARD_VIRUS
@@ -6687,7 +8071,19 @@ Gladiator
 	.2byte  ITEM_WABOKU
 	.2byte  ITEM_XING_ZHEN_HU
 
-TeleDAD
+BattleFrontier_Mart_EventScript_Clerk_TeleDADBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_TELEDAD
+	message gText_TeleDADBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartTeleDADBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartTeleDADBanlist:
 	.2byte  ITEM_BRAIN_CONTROL
 	.2byte  ITEM_BREAKER_THE_MAGICAL_WARRIOR
 	.2byte  ITEM_CARD_DESTRUCTION
@@ -6742,7 +8138,19 @@ TeleDAD
 	.2byte  ITEM_UPSTART_GOBLIN
 	.2byte  ITEM_WABOKU
 
-Cat
+BattleFrontier_Mart_EventScript_Clerk_CatBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_CAT
+	message gText_CatBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartCatBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartCatBanlist:
 	.2byte  ITEM_BRAIN_CONTROL
 	.2byte  ITEM_BREAKER_THE_MAGICAL_WARRIOR
 	.2byte  ITEM_CARD_DESTRUCTION
@@ -6812,7 +8220,19 @@ Cat
 	.2byte  ITEM_WABOKU
 	.2byte  ITEM_ZOMBYRA_THE_DARK
 
-Edison
+BattleFrontier_Mart_EventScript_Clerk_EdisonBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_EDISON
+	message gText_EdisonBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartEdisonBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartEdisonBanlist:
 	.2byte  ITEM_BRAIN_CONTROL
 	.2byte  ITEM_CALL_OF_THE_HAUNTED
 	.2byte  ITEM_CARD_DESTRUCTION
@@ -6888,7 +8308,19 @@ Edison
 	.2byte  ITEM_TRAP_HOLE
 	.2byte  ITEM_UPSTART_GOBLIN
 
-Frog
+BattleFrontier_Mart_EventScript_Clerk_FrogBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_FROG
+	message gText_FrogBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartFrogBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartFrogBanlist:
 	.2byte  ITEM_BRAIN_CONTROL
 	.2byte  ITEM_CALL_OF_THE_HAUNTED
 	.2byte  ITEM_CARD_DESTRUCTION
@@ -6964,7 +8396,19 @@ Frog
 	.2byte  ITEM_UPSTART_GOBLIN
 	.2byte  ITEM_WABOKU
 
-Starstrike
+BattleFrontier_Mart_EventScript_Clerk_StarstrikeBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_STARSTRIKE
+	message gText_StarstrikeBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartStarstrikeBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartStarstrikeBanlist:
 	.2byte  ITEM_CALL_OF_THE_HAUNTED
 	.2byte  ITEM_CEASEFIRE
 	.2byte  ITEM_COLD_WAVE
@@ -7028,7 +8472,19 @@ Starstrike
 	.2byte  ITEM_TREEBORN_FROG
 	.2byte  ITEM_UPSTART_GOBLIN
 
-Tengu
+BattleFrontier_Mart_EventScript_Clerk_TenguBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_TENGU
+	message gText_TenguBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartTenguBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartTenguBanlist:
 	.2byte  ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING
 	.2byte  ITEM_BOOK_OF_MOON
 	.2byte  ITEM_CARD_DESTRUCTION
@@ -7085,7 +8541,19 @@ Tengu
 	.2byte  ITEM_ULTIMATE_OFFERING
 	.2byte  ITEM_UPSTART_GOBLIN
 
-Dino Rabbit
+BattleFrontier_Mart_EventScript_Clerk_DinoRabbitBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_DINO_RABBIT
+	message gText_DinoRabbitBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartDinoRabbitBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartDinoRabbitBanlist:
 	.2byte  ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING
 	.2byte  ITEM_BOOK_OF_MOON
 	.2byte  ITEM_CARD_DESTRUCTION
@@ -7132,7 +8600,19 @@ Dino Rabbit
 	.2byte  ITEM_TREEBORN_FROG
 	.2byte  ITEM_UPSTART_GOBLIN
 
-Wind-Up
+BattleFrontier_Mart_EventScript_Clerk_WindUpBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_WIND_UP
+	message gText_WindUpBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartWindUpBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartWindUpBanlist:
 	.2byte  ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING
 	.2byte  ITEM_BOOK_OF_MOON
 	.2byte  ITEM_CARD_DESTRUCTION
@@ -7194,7 +8674,19 @@ Wind-Up
 	.2byte  ITEM_UPSTART_GOLDEN_NINJA
 	.2byte  ITEM_WABOKU
 
-Miami
+BattleFrontier_Mart_EventScript_Clerk_MiamiBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_MIAMI
+	message gText_MiamiBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartMiamiBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartMiamiBanlist:
 	.2byte  ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING
 	.2byte  ITEM_BOOK_OF_MOON
 	.2byte  ITEM_CARD_DESTRUCTION
@@ -7248,7 +8740,19 @@ Miami
 	.2byte  ITEM_VORSE_RAIDER
 	.2byte  ITEM_XING_ZHEN_HU
 
-Meadowlands
+BattleFrontier_Mart_EventScript_Clerk_MeadowlandsBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_MEADOWLANDS
+	message gText_MeadowlandsBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartMeadowlandsBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartMeadowlandsBanlist:
 	.2byte  ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING
 	.2byte  ITEM_BOOK_OF_MOON
 	.2byte  ITEM_CARD_DESTRUCTION
@@ -7286,7 +8790,19 @@ Meadowlands
 	.2byte  ITEM_TERRAFORMING
 	.2byte  ITEM_UPSTART_GOBLIN
 
-Baby Ruler
+BattleFrontier_Mart_EventScript_Clerk_BabyRulerBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_BABY_RULER
+	message gText_BabyRulerBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartBabyRulerBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartBabyRulerBanlist:
 	.2byte  ITEM_BOOK_OF_MOON
 	.2byte  ITEM_CARD_DESTRUCTION
 	.2byte  ITEM_DARK_HOLE
@@ -7334,7 +8850,19 @@ Baby Ruler
 	.2byte  ITEM_UPSTART_GOBLIN
 	.2byte  ITEM_WABOKU
 
-Ravine Ruler
+BattleFrontier_Mart_EventScript_Clerk_RavineRulerBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_RAVINE_RULER
+	message gText_RavineRulerBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartRavineRulerBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartRavineRulerBanlist:
 	.2byte  ITEM_BOOK_OF_MOON
 	.2byte  ITEM_BOTTOMLESS_TRAP_HOLE
 	.2byte  ITEM_CEASEFIRE
@@ -7380,7 +8908,19 @@ Ravine Ruler
 	.2byte  ITEM_UPSTART_GOBLIN
 	.2byte  ITEM_WABOKU
 
-Fire-Water
+BattleFrontier_Mart_EventScript_Clerk_FireWaterBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_FIRE_WATER
+	message gText_FireWaterBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartFireWaterBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartFireWaterBanlist:
 	.2byte  ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING
 	.2byte  ITEM_BOOK_OF_MOON
 	.2byte  ITEM_BOTTOMLESS_TRAP_HOLE
@@ -7415,7 +8955,19 @@ Fire-Water
 	.2byte  ITEM_TRAPTRIX_MYRMELEO
 	.2byte  ITEM_UPSTART_GOBLIN
 
-HAT
+BattleFrontier_Mart_EventScript_Clerk_HATBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_HAT
+	message gText_HATBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartHATBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartHATBanlist:
 	.2byte  ITEM_BOOK_OF_MOON
 	.2byte  ITEM_BOTTOMLESS_TRAP_HOLE
 	.2byte  ITEM_COMPULSORY_EVACUATION_DEVICE
@@ -7438,7 +8990,19 @@ HAT
 	.2byte  ITEM_TRAPTRIX_MYRMELEO
 	.2byte  ITEM_UPSTART_GOBLIN
 
-Vegas
+BattleFrontier_Mart_EventScript_Clerk_VegasBanlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_VEGAS
+	message gText_VegasBanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_PokemartVegasBanlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_PokemartVegasBanlist:
 	.2byte  ITEM_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING
 	.2byte  ITEM_BOOK_OF_MOON
 	.2byte  ITEM_BOTTOMLESS_TRAP_HOLE

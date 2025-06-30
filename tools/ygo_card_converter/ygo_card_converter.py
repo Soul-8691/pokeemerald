@@ -932,7 +932,19 @@ gCardInfo += '\n'
 YGO_C += '\n'
 Scripts += '\n'
 for format in cards_by_format:
-	Scripts += format + '\n'
+	Scripts += '''BattleFrontier_Mart_EventScript_Clerk_''' + re.sub(r'\W+', '', format) + '''::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, FORMAT_''' + re.sub(r'\W+', '_', format).replace('__', '_').upper() + '''
+	message gText_''' + re.sub(r'\W+', '', format) + '''Clerk
+	waitmessage
+	pokemart BattleFrontier_Mart_Pokemart''' + re.sub(r'\W+', '', format) + '''
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_Pokemart''' + re.sub(r'\W+', '', format) + ''':\n'''
 	for data in card_info_data['data']:
 		card_name = data['name']
 		if card_name in card_names:
@@ -941,11 +953,64 @@ for format in cards_by_format:
 					Scripts += '\t.2byte  ITEM_' + re.sub(r'\W+', '_', card_name).replace('__', '_').upper() + '\n'
 	Scripts += '\n'
 
+for format in cards_by_format:
+	Scripts += 'InsideOfTruck_Text_' + re.sub(r'\W+', '', format) + ', '
+
+Scripts += '\n\n'
+for format in cards_by_format:
+	Scripts += 'InsideOfTruck_Text_' + re.sub(r'\W+', '', format) + 'Banlist, '
+
+Scripts += '\n\n'
+for format in cards_by_format:
+	Scripts += '''InsideOfTruck_Text_''' + re.sub(r'\W+', '', format) + ''':
+	.string "''' + format + '''$"\n\n'''
+
+Scripts += '\n\n'
+for format in cards_by_format:
+	Scripts += '''InsideOfTruck_Text_''' + re.sub(r'\W+', '', format) + '''Banlist:
+	.string "''' + format + ''' banlist$"\n\n'''
+
+counter = 0
+for format in cards_by_format:
+	Scripts += '\tcase ' + str(counter) + ', BattleFrontier_Mart_EventScript_Clerk_' + re.sub(r'\W+', '', format) + '\n'
+	counter += 1
+
+Scripts += '\n\n'
+counter = 0
+for format in cards_by_format:
+	Scripts += '\tcase ' + str(counter) + ', BattleFrontier_Mart_EventScript_Clerk_' + re.sub(r'\W+', '', format) + 'Banlist\n'
+	counter += 1
+
+Scripts += '\n\n'
+for format in cards_by_format:
+	Scripts += '''gText_''' + re.sub(r'\W+', '', format) + '''Clerk::
+	.string "Welcome!\\p"
+	.string "I'm the ''' + re.sub(r'\W+', '', format) + '''clerk.\\n"
+	.string "How may I serve you?$"\n\n'''
+	
+for format in cards_by_format:
+	Scripts += '''gText_''' + re.sub(r'\W+', '', format) + '''BanlistClerk::
+	.string "Welcome!\\p"
+	.string "I'm the ''' + re.sub(r'\W+', '', format) + ''' banlist clerk.\\n"
+	.string "How may I serve you?$"\n\n'''
+
 with open('FL.json', 'r') as f:
 	data_ = json.load(f)
 	for format in tqdm(cards_by_format):
 		print(format)
-		Scripts += format + '\n'
+		Scripts += '''BattleFrontier_Mart_EventScript_Clerk_''' + re.sub(r'\W+', '', format) + '''Banlist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, BANLIST_''' + re.sub(r'\W+', '_', format).replace('__', '_').upper() + '''
+	message gText_''' + re.sub(r'\W+', '', format) + '''BanlistClerk
+	waitmessage
+	pokemart BattleFrontier_Mart_Pokemart''' + re.sub(r'\W+', '', format) + '''Banlist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BattleFrontier_Mart_Pokemart''' + re.sub(r'\W+', '', format) + '''Banlist:\n'''
 		for data in card_info_data['data']:
 			card_name = data['name']
 			if card_name in card_names:
