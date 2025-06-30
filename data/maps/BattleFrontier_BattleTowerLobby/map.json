@@ -140,7 +140,7 @@
     {
       "local_id": "LOCALID_FRONTIER_MART_CLERK",
       "graphics_id": "OBJ_EVENT_GFX_MART_EMPLOYEE",
-      "x": 60,
+      "x": 61,
       "y": 4,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -154,7 +154,7 @@
     {
       "local_id": "LOCALID_FRONTIER_MART_CLERK",
       "graphics_id": "OBJ_EVENT_GFX_MART_EMPLOYEE",
-      "x": 59,
+      "x": 60,
       "y": 4,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -168,7 +168,7 @@
     {
       "local_id": "LOCALID_FRONTIER_MART_CLERK",
       "graphics_id": "OBJ_EVENT_GFX_MART_EMPLOYEE",
-      "x": 58,
+      "x": 59,
       "y": 4,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -182,8 +182,8 @@
     {
       "local_id": "LOCALID_FRONTIER_MART_CLERK",
       "graphics_id": "OBJ_EVENT_GFX_MART_EMPLOYEE",
-      "x": 57,
-      "y": 4,
+      "x": 61,
+      "y": 2,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
