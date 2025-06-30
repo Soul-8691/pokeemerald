@@ -286,8 +286,8 @@ const u8 gText_BerriesPocket[] = _("BERRIES");
 const u8 gText_KeyItemsPocket[] = _("KEY ITEMS");
 const u8 gText_TrunkPocket[] = _("TRUNK");
 const u8 gText_MainDeckPocket[] = _("MAIN DECK");
-const u8 gText_ExtraDeckPocket[] = _("SIDE DECK");
-const u8 gText_SideDeckPocket[] = _("EXTRA DECK");
+const u8 gText_ExtraDeckPocket[] = _("EXTRA DECK");
+const u8 gText_SideDeckPocket[] = _("SIDE DECK");
 
 const u8 *const gPocketNamesStringsTable[] =
 {

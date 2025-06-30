@@ -5598,14 +5598,15 @@ static void ItemMenu_MovePocketsRight(u8 taskId)
 
     if (!MenuHelpers_IsLinkActive() && !IsWallysBag() && gBagPosition.pocket + 1 != POCKETS_COUNT)
     {
-        RemoveBagItemAnyPocket(item, 1, gBagPosition.pocket);
         if (type != TYPE_FUSION_MONSTER && (gBagPosition.pocket == TRUNK_POCKET || gBagPosition.pocket == MAIN_DECK_POCKET))
-        {       
+        {
+            RemoveBagItemAnyPocket(item, 1, gBagPosition.pocket);
             SwitchBagPocket(taskId, MENU_CURSOR_DELTA_RIGHT, TRUE);
             AddBagItemAnyPocket(item, 1, gBagPosition.pocket + 1);
         }
         else if (gBagPosition.pocket == TRUNK_POCKET)
         {
+            RemoveBagItemAnyPocket(item, 1, gBagPosition.pocket);
             SwitchBagPocket(taskId, MENU_CURSOR_DELTA_RIGHT + 2, TRUE);
             AddBagItemAnyPocket(item, 1, gBagPosition.pocket + 3);
         }
@@ -5623,15 +5624,15 @@ static void ItemMenu_MovePocketsLeft(u8 taskId)
 
     if (!MenuHelpers_IsLinkActive() && !IsWallysBag() && gBagPosition.pocket - 1 != KEYITEMS_POCKET)
     {
-        RemoveBagItemAnyPocket(item, 1, gBagPosition.pocket);
-        DebugPrintf("gBagPosition.pocket=%d", gBagPosition.pocket);
-        if (type != TYPE_FUSION_MONSTER && (gBagPosition.pocket == POCKET_SIDE_DECK || gBagPosition.pocket == POCKET_MAIN_DECK))
+        if (type != TYPE_FUSION_MONSTER && (gBagPosition.pocket == SIDE_DECK_POCKET || gBagPosition.pocket == MAIN_DECK_POCKET))
         {
+            RemoveBagItemAnyPocket(item, 1, gBagPosition.pocket);
             SwitchBagPocket(taskId, MENU_CURSOR_DELTA_LEFT, TRUE);
             AddBagItemAnyPocket(item, 1, gBagPosition.pocket - 1);
         }
-        else if (gBagPosition.pocket == POCKET_EXTRA_DECK)
+        else if (gBagPosition.pocket == EXTRA_DECK_POCKET)
         {
+            RemoveBagItemAnyPocket(item, 1, gBagPosition.pocket);
             SwitchBagPocket(taskId, MENU_CURSOR_DELTA_LEFT - 2, TRUE);
             AddBagItemAnyPocket(item, 1, gBagPosition.pocket - 3);
         }
