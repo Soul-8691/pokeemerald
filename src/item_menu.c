@@ -5598,17 +5598,23 @@ static void ItemMenu_MovePocketsRight(u8 taskId)
 
     if (!MenuHelpers_IsLinkActive() && !IsWallysBag() && gBagPosition.pocket + 1 != POCKETS_COUNT)
     {
-        if (type != TYPE_FUSION_MONSTER && (gBagPosition.pocket == TRUNK_POCKET || gBagPosition.pocket == MAIN_DECK_POCKET))
+        if (type != TYPE_FUSION_MONSTER && gBagPosition.pocket == TRUNK_POCKET)
         {
             RemoveBagItemAnyPocket(item, 1, gBagPosition.pocket);
             SwitchBagPocket(taskId, MENU_CURSOR_DELTA_RIGHT, TRUE);
             AddBagItemAnyPocket(item, 1, gBagPosition.pocket + 1);
         }
-        else if (gBagPosition.pocket == TRUNK_POCKET)
+        else if (type == TYPE_FUSION_MONSTER && gBagPosition.pocket == TRUNK_POCKET)
         {
             RemoveBagItemAnyPocket(item, 1, gBagPosition.pocket);
-            SwitchBagPocket(taskId, MENU_CURSOR_DELTA_RIGHT + 2, TRUE);
-            AddBagItemAnyPocket(item, 1, gBagPosition.pocket + 3);
+            SwitchBagPocket(taskId, MENU_CURSOR_DELTA_RIGHT + 1, TRUE);
+            AddBagItemAnyPocket(item, 1, gBagPosition.pocket + 2);
+        }
+        else if (gBagPosition.pocket == MAIN_DECK_POCKET)
+        {
+            RemoveBagItemAnyPocket(item, 1, gBagPosition.pocket);
+            SwitchBagPocket(taskId, MENU_CURSOR_DELTA_RIGHT + 1, TRUE);
+            AddBagItemAnyPocket(item, 1, gBagPosition.pocket + 2);
         }
         UpdatePocketItemLists();
         return;
@@ -5624,7 +5630,7 @@ static void ItemMenu_MovePocketsLeft(u8 taskId)
 
     if (!MenuHelpers_IsLinkActive() && !IsWallysBag() && gBagPosition.pocket - 1 != KEYITEMS_POCKET)
     {
-        if (type != TYPE_FUSION_MONSTER && (gBagPosition.pocket == SIDE_DECK_POCKET || gBagPosition.pocket == MAIN_DECK_POCKET))
+        if (gBagPosition.pocket == MAIN_DECK_POCKET)
         {
             RemoveBagItemAnyPocket(item, 1, gBagPosition.pocket);
             SwitchBagPocket(taskId, MENU_CURSOR_DELTA_LEFT, TRUE);
@@ -5633,8 +5639,14 @@ static void ItemMenu_MovePocketsLeft(u8 taskId)
         else if (gBagPosition.pocket == EXTRA_DECK_POCKET)
         {
             RemoveBagItemAnyPocket(item, 1, gBagPosition.pocket);
-            SwitchBagPocket(taskId, MENU_CURSOR_DELTA_LEFT - 2, TRUE);
-            AddBagItemAnyPocket(item, 1, gBagPosition.pocket - 3);
+            SwitchBagPocket(taskId, MENU_CURSOR_DELTA_LEFT - 1, TRUE);
+            AddBagItemAnyPocket(item, 1, gBagPosition.pocket - 2);
+        }
+        else if (gBagPosition.pocket == SIDE_DECK_POCKET)
+        {
+            RemoveBagItemAnyPocket(item, 1, gBagPosition.pocket);
+            SwitchBagPocket(taskId, MENU_CURSOR_DELTA_LEFT - 1, TRUE);
+            AddBagItemAnyPocket(item, 1, gBagPosition.pocket - 2);
         }
         UpdatePocketItemLists();
         return;
