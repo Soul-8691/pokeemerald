@@ -1,3 +1,11302 @@
+	[ITEM_PACK_YUGI_KAIBA] =
+    {
+        .name = _("Yugi-Kaiba"),
+        .itemId = ITEM_PACK_YUGI_KAIBA,
+        .price = 0,
+        .description = sYugiKaibaDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CRITTER] =
+    {
+        .name = _("Critter"),
+        .itemId = ITEM_PACK_CRITTER,
+        .price = 0,
+        .description = sCritterDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_TREASURE] =
+    {
+        .name = _("Treasure"),
+        .itemId = ITEM_PACK_TREASURE,
+        .price = 0,
+        .description = sTreasureDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_IMPERIAL] =
+    {
+        .name = _("Imperial"),
+        .itemId = ITEM_PACK_IMPERIAL,
+        .price = 0,
+        .description = sImperialDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ANDROID] =
+    {
+        .name = _("Android"),
+        .itemId = ITEM_PACK_ANDROID,
+        .price = 0,
+        .description = sAndroidDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_JOEY_PEGASUS] =
+    {
+        .name = _("Joey-Pegasus"),
+        .itemId = ITEM_PACK_JOEY_PEGASUS,
+        .price = 0,
+        .description = sJoeyPegasusDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_FIBER] =
+    {
+        .name = _("Fiber"),
+        .itemId = ITEM_PACK_FIBER,
+        .price = 0,
+        .description = sFiberDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YATA] =
+    {
+        .name = _("Yata"),
+        .itemId = ITEM_PACK_YATA,
+        .price = 0,
+        .description = sYataDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SCIENTIST] =
+    {
+        .name = _("Scientist"),
+        .itemId = ITEM_PACK_SCIENTIST,
+        .price = 0,
+        .description = sScientistDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_VAMPIRE] =
+    {
+        .name = _("Vampire"),
+        .itemId = ITEM_PACK_VAMPIRE,
+        .price = 0,
+        .description = sVampireDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CHAOS] =
+    {
+        .name = _("Chaos"),
+        .itemId = ITEM_PACK_CHAOS,
+        .price = 0,
+        .description = sChaosDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WARRIOR] =
+    {
+        .name = _("Warrior"),
+        .itemId = ITEM_PACK_WARRIOR,
+        .price = 0,
+        .description = sWarriorDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_GOAT] =
+    {
+        .name = _("Goat"),
+        .itemId = ITEM_PACK_GOAT,
+        .price = 0,
+        .description = sGoatDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CYBER] =
+    {
+        .name = _("Cyber"),
+        .itemId = ITEM_PACK_CYBER,
+        .price = 0,
+        .description = sCyberDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_REAPER] =
+    {
+        .name = _("Reaper"),
+        .itemId = ITEM_PACK_REAPER,
+        .price = 0,
+        .description = sReaperDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CHAOS_RETURN] =
+    {
+        .name = _("Chaos Return"),
+        .itemId = ITEM_PACK_CHAOS_RETURN,
+        .price = 0,
+        .description = sChaosReturnDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DEMISE] =
+    {
+        .name = _("Demise"),
+        .itemId = ITEM_PACK_DEMISE,
+        .price = 0,
+        .description = sDemiseDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_TROOPER] =
+    {
+        .name = _("Trooper"),
+        .itemId = ITEM_PACK_TROOPER,
+        .price = 0,
+        .description = sTrooperDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ZOMBIE] =
+    {
+        .name = _("Zombie"),
+        .itemId = ITEM_PACK_ZOMBIE,
+        .price = 0,
+        .description = sZombieDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_PERFECT_CIRCLE] =
+    {
+        .name = _("Perfect Circl"),
+        .itemId = ITEM_PACK_PERFECT_CIRCLE,
+        .price = 0,
+        .description = sPerfectCircleDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DAD_RETURN] =
+    {
+        .name = _("DAD Return"),
+        .itemId = ITEM_PACK_DAD_RETURN,
+        .price = 0,
+        .description = sDADReturnDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_GLADIATOR] =
+    {
+        .name = _("Gladiator"),
+        .itemId = ITEM_PACK_GLADIATOR,
+        .price = 0,
+        .description = sGladiatorDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_TELEDAD] =
+    {
+        .name = _("TeleDAD"),
+        .itemId = ITEM_PACK_TELEDAD,
+        .price = 0,
+        .description = sTeleDADDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CAT] =
+    {
+        .name = _("Cat"),
+        .itemId = ITEM_PACK_CAT,
+        .price = 0,
+        .description = sCatDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_EDISON] =
+    {
+        .name = _("Edison"),
+        .itemId = ITEM_PACK_EDISON,
+        .price = 0,
+        .description = sEdisonDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_FROG] =
+    {
+        .name = _("Frog"),
+        .itemId = ITEM_PACK_FROG,
+        .price = 0,
+        .description = sFrogDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STARSTRIKE] =
+    {
+        .name = _("Starstrike"),
+        .itemId = ITEM_PACK_STARSTRIKE,
+        .price = 0,
+        .description = sStarstrikeDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_TENGU] =
+    {
+        .name = _("Tengu"),
+        .itemId = ITEM_PACK_TENGU,
+        .price = 0,
+        .description = sTenguDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DINO_RABBIT] =
+    {
+        .name = _("Dino Rabbit"),
+        .itemId = ITEM_PACK_DINO_RABBIT,
+        .price = 0,
+        .description = sDinoRabbitDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WIND_UP] =
+    {
+        .name = _("Wind-Up"),
+        .itemId = ITEM_PACK_WIND_UP,
+        .price = 0,
+        .description = sWindUpDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_MIAMI] =
+    {
+        .name = _("Miami"),
+        .itemId = ITEM_PACK_MIAMI,
+        .price = 0,
+        .description = sMiamiDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_MEADOWLANDS] =
+    {
+        .name = _("Meadowlands"),
+        .itemId = ITEM_PACK_MEADOWLANDS,
+        .price = 0,
+        .description = sMeadowlandsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_BABY_RULER] =
+    {
+        .name = _("Baby Ruler"),
+        .itemId = ITEM_PACK_BABY_RULER,
+        .price = 0,
+        .description = sBabyRulerDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_RAVINE_RULER] =
+    {
+        .name = _("Ravine Ruler"),
+        .itemId = ITEM_PACK_RAVINE_RULER,
+        .price = 0,
+        .description = sRavineRulerDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_FIRE_WATER] =
+    {
+        .name = _("Fire-Water"),
+        .itemId = ITEM_PACK_FIRE_WATER,
+        .price = 0,
+        .description = sFireWaterDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HAT] =
+    {
+        .name = _("HAT"),
+        .itemId = ITEM_PACK_HAT,
+        .price = 0,
+        .description = sHATDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_VEGAS] =
+    {
+        .name = _("Vegas"),
+        .itemId = ITEM_PACK_VEGAS,
+        .price = 0,
+        .description = sVegasDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+
+	[ITEM_PACK_2_PLAYER_STARTER_DECK__YUYA___DECLAN] =
+    {
+        .name = _("2-Player Star"),
+        .itemId = ITEM_PACK_2_PLAYER_STARTER_DECK__YUYA___DECLAN,
+        .price = 0,
+        .description = s2PlayerStarterDeckYuyaDeclanDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_2_PLAYER_STARTER_SET] =
+    {
+        .name = _("2-Player Star"),
+        .itemId = ITEM_PACK_2_PLAYER_STARTER_SET,
+        .price = 0,
+        .description = s2PlayerStarterSetDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_2013_COLLECTIBLE_TINS_WAVE_1] =
+    {
+        .name = _("2013 Collecti"),
+        .itemId = ITEM_PACK_2013_COLLECTIBLE_TINS_WAVE_1,
+        .price = 0,
+        .description = s2013CollectibleTinsWave1Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_2013_COLLECTIBLE_TINS_WAVE_2] =
+    {
+        .name = _("2013 Collecti"),
+        .itemId = ITEM_PACK_2013_COLLECTIBLE_TINS_WAVE_2,
+        .price = 0,
+        .description = s2013CollectibleTinsWave2Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_2014_MEGA_TIN_MEGA_PACK] =
+    {
+        .name = _("2014 Mega-Tin"),
+        .itemId = ITEM_PACK_2014_MEGA_TIN_MEGA_PACK,
+        .price = 0,
+        .description = s2014MegaTinMegaPackDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_2014_MEGA_TINS] =
+    {
+        .name = _("2014 Mega-Tin"),
+        .itemId = ITEM_PACK_2014_MEGA_TINS,
+        .price = 0,
+        .description = s2014MegaTinsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_2015_MEGA_TIN_MEGA_PACK] =
+    {
+        .name = _("2015 Mega-Tin"),
+        .itemId = ITEM_PACK_2015_MEGA_TIN_MEGA_PACK,
+        .price = 0,
+        .description = s2015MegaTinMegaPackDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_2015_MEGA_TINS] =
+    {
+        .name = _("2015 Mega-Tin"),
+        .itemId = ITEM_PACK_2015_MEGA_TINS,
+        .price = 0,
+        .description = s2015MegaTinsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_2016_MEGA_TIN_MEGA_PACK] =
+    {
+        .name = _("2016 Mega-Tin"),
+        .itemId = ITEM_PACK_2016_MEGA_TIN_MEGA_PACK,
+        .price = 0,
+        .description = s2016MegaTinMegaPackDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_2016_MEGA_TINS] =
+    {
+        .name = _("2016 Mega-Tin"),
+        .itemId = ITEM_PACK_2016_MEGA_TINS,
+        .price = 0,
+        .description = s2016MegaTinsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_2017_MEGA_TIN_MEGA_PACK] =
+    {
+        .name = _("2017 Mega-Tin"),
+        .itemId = ITEM_PACK_2017_MEGA_TIN_MEGA_PACK,
+        .price = 0,
+        .description = s2017MegaTinMegaPackDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_2017_MEGA_TINS] =
+    {
+        .name = _("2017 Mega-Tin"),
+        .itemId = ITEM_PACK_2017_MEGA_TINS,
+        .price = 0,
+        .description = s2017MegaTinsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_2018_MEGA_TIN_MEGA_PACK] =
+    {
+        .name = _("2018 Mega-Tin"),
+        .itemId = ITEM_PACK_2018_MEGA_TIN_MEGA_PACK,
+        .price = 0,
+        .description = s2018MegaTinMegaPackDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_2018_MEGA_TINS] =
+    {
+        .name = _("2018 Mega-Tin"),
+        .itemId = ITEM_PACK_2018_MEGA_TINS,
+        .price = 0,
+        .description = s2018MegaTinsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_2019_GOLD_SARCOPHAGUS_TIN] =
+    {
+        .name = _("2019 Gold Sar"),
+        .itemId = ITEM_PACK_2019_GOLD_SARCOPHAGUS_TIN,
+        .price = 0,
+        .description = s2019GoldSarcophagusTinDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_2019_GOLD_SARCOPHAGUS_TIN_MEGA_PACK] =
+    {
+        .name = _("2019 Gold Sar"),
+        .itemId = ITEM_PACK_2019_GOLD_SARCOPHAGUS_TIN_MEGA_PACK,
+        .price = 0,
+        .description = s2019GoldSarcophagusTinMegaPackDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_2020_TIN_OF_LOST_MEMORIES] =
+    {
+        .name = _("2020 Tin of L"),
+        .itemId = ITEM_PACK_2020_TIN_OF_LOST_MEMORIES,
+        .price = 0,
+        .description = s2020TinofLostMemoriesDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_2020_TIN_OF_LOST_MEMORIES_MEGA_PACK] =
+    {
+        .name = _("2020 Tin of L"),
+        .itemId = ITEM_PACK_2020_TIN_OF_LOST_MEMORIES_MEGA_PACK,
+        .price = 0,
+        .description = s2020TinofLostMemoriesMegaPackDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_2021_TIN_OF_ANCIENT_BATTLES] =
+    {
+        .name = _("2021 Tin of A"),
+        .itemId = ITEM_PACK_2021_TIN_OF_ANCIENT_BATTLES,
+        .price = 0,
+        .description = s2021TinofAncientBattlesDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_2022_TIN_OF_THE_PHARAOH_S_GODS] =
+    {
+        .name = _("2022 Tin of t"),
+        .itemId = ITEM_PACK_2022_TIN_OF_THE_PHARAOH_S_GODS,
+        .price = 0,
+        .description = s2022TinofthePharaohsGodsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_25TH_ANNIVERSARY_RARITY_COLLECTION] =
+    {
+        .name = _("25th Annivers"),
+        .itemId = ITEM_PACK_25TH_ANNIVERSARY_RARITY_COLLECTION,
+        .price = 0,
+        .description = s25thAnniversaryRarityCollectionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_25TH_ANNIVERSARY_RARITY_COLLECTION_II] =
+    {
+        .name = _("25th Annivers"),
+        .itemId = ITEM_PACK_25TH_ANNIVERSARY_RARITY_COLLECTION_II,
+        .price = 0,
+        .description = s25thAnniversaryRarityCollectionIIDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_25TH_ANNIVERSARY_TIN__DUELING_HEROES] =
+    {
+        .name = _("25th Annivers"),
+        .itemId = ITEM_PACK_25TH_ANNIVERSARY_TIN__DUELING_HEROES,
+        .price = 0,
+        .description = s25thAnniversaryTinDuelingHeroesDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_25TH_ANNIVERSARY_TIN__DUELING_HEROES_MEGA_PACK] =
+    {
+        .name = _("25th Annivers"),
+        .itemId = ITEM_PACK_25TH_ANNIVERSARY_TIN__DUELING_HEROES_MEGA_PACK,
+        .price = 0,
+        .description = s25thAnniversaryTinDuelingHeroesMegaPackDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_25TH_ANNIVERSARY_TIN__DUELING_MIRRORS] =
+    {
+        .name = _("25th Annivers"),
+        .itemId = ITEM_PACK_25TH_ANNIVERSARY_TIN__DUELING_MIRRORS,
+        .price = 0,
+        .description = s25thAnniversaryTinDuelingMirrorsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_25TH_ANNIVERSARY_ULTIMATE_KAIBA_SET] =
+    {
+        .name = _("25th Annivers"),
+        .itemId = ITEM_PACK_25TH_ANNIVERSARY_ULTIMATE_KAIBA_SET,
+        .price = 0,
+        .description = s25thAnniversaryUltimateKaibaSetDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ABSOLUTE_POWERFORCE] =
+    {
+        .name = _("Absolute Powe"),
+        .itemId = ITEM_PACK_ABSOLUTE_POWERFORCE,
+        .price = 0,
+        .description = sAbsolutePowerforceDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ABSOLUTE_POWERFORCE_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Absolute Powe"),
+        .itemId = ITEM_PACK_ABSOLUTE_POWERFORCE_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sAbsolutePowerforceSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ABSOLUTE_POWERFORCE__SPECIAL_EDITION] =
+    {
+        .name = _("Absolute Powe"),
+        .itemId = ITEM_PACK_ABSOLUTE_POWERFORCE__SPECIAL_EDITION,
+        .price = 0,
+        .description = sAbsolutePowerforceSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ABYSS_RISING] =
+    {
+        .name = _("Abyss Rising"),
+        .itemId = ITEM_PACK_ABYSS_RISING,
+        .price = 0,
+        .description = sAbyssRisingDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ABYSS_RISING_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Abyss Rising "),
+        .itemId = ITEM_PACK_ABYSS_RISING_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sAbyssRisingSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ABYSS_RISING__SPECIAL_EDITION] =
+    {
+        .name = _("Abyss Rising:"),
+        .itemId = ITEM_PACK_ABYSS_RISING__SPECIAL_EDITION,
+        .price = 0,
+        .description = sAbyssRisingSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ADVANCED_DEMO_DECK_EXTRA_PACK] =
+    {
+        .name = _("Advanced Demo"),
+        .itemId = ITEM_PACK_ADVANCED_DEMO_DECK_EXTRA_PACK,
+        .price = 0,
+        .description = sAdvancedDemoDeckExtraPackDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_AGE_OF_OVERLORD] =
+    {
+        .name = _("Age of Overlo"),
+        .itemId = ITEM_PACK_AGE_OF_OVERLORD,
+        .price = 0,
+        .description = sAgeofOverlordDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ALLIANCE_INSIGHT] =
+    {
+        .name = _("Alliance Insi"),
+        .itemId = ITEM_PACK_ALLIANCE_INSIGHT,
+        .price = 0,
+        .description = sAllianceInsightDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_AMAZING_DEFENDERS] =
+    {
+        .name = _("Amazing Defen"),
+        .itemId = ITEM_PACK_AMAZING_DEFENDERS,
+        .price = 0,
+        .description = sAmazingDefendersDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ANCIENT_GUARDIANS] =
+    {
+        .name = _("Ancient Guard"),
+        .itemId = ITEM_PACK_ANCIENT_GUARDIANS,
+        .price = 0,
+        .description = sAncientGuardiansDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ANCIENT_PROPHECY] =
+    {
+        .name = _("Ancient Proph"),
+        .itemId = ITEM_PACK_ANCIENT_PROPHECY,
+        .price = 0,
+        .description = sAncientProphecyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ANCIENT_PROPHECY_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Ancient Proph"),
+        .itemId = ITEM_PACK_ANCIENT_PROPHECY_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sAncientProphecySneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ANCIENT_PROPHECY__SPECIAL_EDITION] =
+    {
+        .name = _("Ancient Proph"),
+        .itemId = ITEM_PACK_ANCIENT_PROPHECY__SPECIAL_EDITION,
+        .price = 0,
+        .description = sAncientProphecySpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ANCIENT_SANCTUARY] =
+    {
+        .name = _("Ancient Sanct"),
+        .itemId = ITEM_PACK_ANCIENT_SANCTUARY,
+        .price = 0,
+        .description = sAncientSanctuaryDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ANNIVERSARY_PACK] =
+    {
+        .name = _("Anniversary P"),
+        .itemId = ITEM_PACK_ANNIVERSARY_PACK,
+        .price = 0,
+        .description = sAnniversaryPackDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ASTRAL_PACK_EIGHT] =
+    {
+        .name = _("Astral Pack E"),
+        .itemId = ITEM_PACK_ASTRAL_PACK_EIGHT,
+        .price = 0,
+        .description = sAstralPackEightDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ASTRAL_PACK_FIVE] =
+    {
+        .name = _("Astral Pack F"),
+        .itemId = ITEM_PACK_ASTRAL_PACK_FIVE,
+        .price = 0,
+        .description = sAstralPackFiveDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ASTRAL_PACK_FOUR] =
+    {
+        .name = _("Astral Pack F"),
+        .itemId = ITEM_PACK_ASTRAL_PACK_FOUR,
+        .price = 0,
+        .description = sAstralPackFourDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ASTRAL_PACK_ONE] =
+    {
+        .name = _("Astral Pack O"),
+        .itemId = ITEM_PACK_ASTRAL_PACK_ONE,
+        .price = 0,
+        .description = sAstralPackOneDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ASTRAL_PACK_SEVEN] =
+    {
+        .name = _("Astral Pack S"),
+        .itemId = ITEM_PACK_ASTRAL_PACK_SEVEN,
+        .price = 0,
+        .description = sAstralPackSevenDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ASTRAL_PACK_SIX] =
+    {
+        .name = _("Astral Pack S"),
+        .itemId = ITEM_PACK_ASTRAL_PACK_SIX,
+        .price = 0,
+        .description = sAstralPackSixDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ASTRAL_PACK_THREE] =
+    {
+        .name = _("Astral Pack T"),
+        .itemId = ITEM_PACK_ASTRAL_PACK_THREE,
+        .price = 0,
+        .description = sAstralPackThreeDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ASTRAL_PACK_TWO] =
+    {
+        .name = _("Astral Pack T"),
+        .itemId = ITEM_PACK_ASTRAL_PACK_TWO,
+        .price = 0,
+        .description = sAstralPackTwoDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_BATTLE_PACK_2__WAR_OF_THE_GIANTS] =
+    {
+        .name = _("Battle Pack 2"),
+        .itemId = ITEM_PACK_BATTLE_PACK_2__WAR_OF_THE_GIANTS,
+        .price = 0,
+        .description = sBattlePack2WaroftheGiantsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_BATTLE_PACK_3__MONSTER_LEAGUE] =
+    {
+        .name = _("Battle Pack 3"),
+        .itemId = ITEM_PACK_BATTLE_PACK_3__MONSTER_LEAGUE,
+        .price = 0,
+        .description = sBattlePack3MonsterLeagueDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_BATTLE_PACK_TOURNAMENT_PRIZE_CARDS] =
+    {
+        .name = _("Battle Pack T"),
+        .itemId = ITEM_PACK_BATTLE_PACK_TOURNAMENT_PRIZE_CARDS,
+        .price = 0,
+        .description = sBattlePackTournamentPrizeCardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_BATTLE_PACK__EPIC_DAWN] =
+    {
+        .name = _("Battle Pack: "),
+        .itemId = ITEM_PACK_BATTLE_PACK__EPIC_DAWN,
+        .price = 0,
+        .description = sBattlePackEpicDawnDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_BATTLE_OF_CHAOS] =
+    {
+        .name = _("Battle of Cha"),
+        .itemId = ITEM_PACK_BATTLE_OF_CHAOS,
+        .price = 0,
+        .description = sBattleofChaosDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_BATTLES_OF_LEGEND__ARMAGEDDON] =
+    {
+        .name = _("Battles of Le"),
+        .itemId = ITEM_PACK_BATTLES_OF_LEGEND__ARMAGEDDON,
+        .price = 0,
+        .description = sBattlesofLegendArmageddonDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_BATTLES_OF_LEGEND__CHAPTER_1] =
+    {
+        .name = _("Battles of Le"),
+        .itemId = ITEM_PACK_BATTLES_OF_LEGEND__CHAPTER_1,
+        .price = 0,
+        .description = sBattlesofLegendChapter1Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_BATTLES_OF_LEGEND__CRYSTAL_REVENGE] =
+    {
+        .name = _("Battles of Le"),
+        .itemId = ITEM_PACK_BATTLES_OF_LEGEND__CRYSTAL_REVENGE,
+        .price = 0,
+        .description = sBattlesofLegendCrystalRevengeDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_BATTLES_OF_LEGEND__HERO_S_REVENGE] =
+    {
+        .name = _("Battles of Le"),
+        .itemId = ITEM_PACK_BATTLES_OF_LEGEND__HERO_S_REVENGE,
+        .price = 0,
+        .description = sBattlesofLegendHerosRevengeDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_BATTLES_OF_LEGEND__LIGHT_S_REVENGE] =
+    {
+        .name = _("Battles of Le"),
+        .itemId = ITEM_PACK_BATTLES_OF_LEGEND__LIGHT_S_REVENGE,
+        .price = 0,
+        .description = sBattlesofLegendLightsRevengeDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_BATTLES_OF_LEGEND__MONSTER_MAYHEM] =
+    {
+        .name = _("Battles of Le"),
+        .itemId = ITEM_PACK_BATTLES_OF_LEGEND__MONSTER_MAYHEM,
+        .price = 0,
+        .description = sBattlesofLegendMonsterMayhemDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_BATTLES_OF_LEGEND__MONSTROUS_REVENGE] =
+    {
+        .name = _("Battles of Le"),
+        .itemId = ITEM_PACK_BATTLES_OF_LEGEND__MONSTROUS_REVENGE,
+        .price = 0,
+        .description = sBattlesofLegendMonstrousRevengeDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_BATTLES_OF_LEGEND__RELENTLESS_REVENGE] =
+    {
+        .name = _("Battles of Le"),
+        .itemId = ITEM_PACK_BATTLES_OF_LEGEND__RELENTLESS_REVENGE,
+        .price = 0,
+        .description = sBattlesofLegendRelentlessRevengeDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_BATTLES_OF_LEGEND__TERMINAL_REVENGE] =
+    {
+        .name = _("Battles of Le"),
+        .itemId = ITEM_PACK_BATTLES_OF_LEGEND__TERMINAL_REVENGE,
+        .price = 0,
+        .description = sBattlesofLegendTerminalRevengeDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_BLAZING_VORTEX] =
+    {
+        .name = _("Blazing Vorte"),
+        .itemId = ITEM_PACK_BLAZING_VORTEX,
+        .price = 0,
+        .description = sBlazingVortexDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_BLAZING_VORTEX_PREMIERE__PROMOTIONAL_CARD] =
+    {
+        .name = _("Blazing Vorte"),
+        .itemId = ITEM_PACK_BLAZING_VORTEX_PREMIERE__PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sBlazingVortexPremierepromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_BLUE_EYES_ALTERNATIVE_WHITE_DRAGON_SWEEPSTAKES] =
+    {
+        .name = _("Blue-Eyes Alt"),
+        .itemId = ITEM_PACK_BLUE_EYES_ALTERNATIVE_WHITE_DRAGON_SWEEPSTAKES,
+        .price = 0,
+        .description = sBlueEyesAlternativeWhiteDragonSweepstakesDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_BOOSTER_PACK_COLLECTORS_TINS_2002] =
+    {
+        .name = _("Booster Pack "),
+        .itemId = ITEM_PACK_BOOSTER_PACK_COLLECTORS_TINS_2002,
+        .price = 0,
+        .description = sBoosterPackCollectorsTins2002Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_BREAKERS_OF_SHADOW] =
+    {
+        .name = _("Breakers of S"),
+        .itemId = ITEM_PACK_BREAKERS_OF_SHADOW,
+        .price = 0,
+        .description = sBreakersofShadowDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_BREAKERS_OF_SHADOW_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Breakers of S"),
+        .itemId = ITEM_PACK_BREAKERS_OF_SHADOW_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sBreakersofShadowSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_BREAKERS_OF_SHADOW__SPECIAL_EDITION] =
+    {
+        .name = _("Breakers of S"),
+        .itemId = ITEM_PACK_BREAKERS_OF_SHADOW__SPECIAL_EDITION,
+        .price = 0,
+        .description = sBreakersofShadowSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_BROTHERS_OF_LEGEND] =
+    {
+        .name = _("Brothers of L"),
+        .itemId = ITEM_PACK_BROTHERS_OF_LEGEND,
+        .price = 0,
+        .description = sBrothersofLegendDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_BURST_OF_DESTINY] =
+    {
+        .name = _("Burst of Dest"),
+        .itemId = ITEM_PACK_BURST_OF_DESTINY,
+        .price = 0,
+        .description = sBurstofDestinyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CHAMPION_PACK__GAME_EIGHT] =
+    {
+        .name = _("Champion Pack"),
+        .itemId = ITEM_PACK_CHAMPION_PACK__GAME_EIGHT,
+        .price = 0,
+        .description = sChampionPackGameEightDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CHAMPION_PACK__GAME_FIVE] =
+    {
+        .name = _("Champion Pack"),
+        .itemId = ITEM_PACK_CHAMPION_PACK__GAME_FIVE,
+        .price = 0,
+        .description = sChampionPackGameFiveDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CHAMPION_PACK__GAME_FOUR] =
+    {
+        .name = _("Champion Pack"),
+        .itemId = ITEM_PACK_CHAMPION_PACK__GAME_FOUR,
+        .price = 0,
+        .description = sChampionPackGameFourDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CHAMPION_PACK__GAME_ONE] =
+    {
+        .name = _("Champion Pack"),
+        .itemId = ITEM_PACK_CHAMPION_PACK__GAME_ONE,
+        .price = 0,
+        .description = sChampionPackGameOneDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CHAMPION_PACK__GAME_SEVEN] =
+    {
+        .name = _("Champion Pack"),
+        .itemId = ITEM_PACK_CHAMPION_PACK__GAME_SEVEN,
+        .price = 0,
+        .description = sChampionPackGameSevenDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CHAMPION_PACK__GAME_SIX] =
+    {
+        .name = _("Champion Pack"),
+        .itemId = ITEM_PACK_CHAMPION_PACK__GAME_SIX,
+        .price = 0,
+        .description = sChampionPackGameSixDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CHAMPION_PACK__GAME_THREE] =
+    {
+        .name = _("Champion Pack"),
+        .itemId = ITEM_PACK_CHAMPION_PACK__GAME_THREE,
+        .price = 0,
+        .description = sChampionPackGameThreeDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CHAMPION_PACK__GAME_TWO] =
+    {
+        .name = _("Champion Pack"),
+        .itemId = ITEM_PACK_CHAMPION_PACK__GAME_TWO,
+        .price = 0,
+        .description = sChampionPackGameTwoDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CHAOS_IMPACT] =
+    {
+        .name = _("Chaos Impact"),
+        .itemId = ITEM_PACK_CHAOS_IMPACT,
+        .price = 0,
+        .description = sChaosImpactDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CHAOS_IMPACT_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Chaos Impact "),
+        .itemId = ITEM_PACK_CHAOS_IMPACT_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sChaosImpactSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CHAOS_IMPACT_SPECIAL_EDITION] =
+    {
+        .name = _("Chaos Impact "),
+        .itemId = ITEM_PACK_CHAOS_IMPACT_SPECIAL_EDITION,
+        .price = 0,
+        .description = sChaosImpactSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CIRCUIT_BREAK] =
+    {
+        .name = _("Circuit Break"),
+        .itemId = ITEM_PACK_CIRCUIT_BREAK,
+        .price = 0,
+        .description = sCircuitBreakDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CIRCUIT_BREAK_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Circuit Break"),
+        .itemId = ITEM_PACK_CIRCUIT_BREAK_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sCircuitBreakSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CIRCUIT_BREAK_SPECIAL_EDITION] =
+    {
+        .name = _("Circuit Break"),
+        .itemId = ITEM_PACK_CIRCUIT_BREAK_SPECIAL_EDITION,
+        .price = 0,
+        .description = sCircuitBreakSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CLASH_OF_REBELLIONS] =
+    {
+        .name = _("Clash of Rebe"),
+        .itemId = ITEM_PACK_CLASH_OF_REBELLIONS,
+        .price = 0,
+        .description = sClashofRebellionsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CLASH_OF_REBELLIONS_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Clash of Rebe"),
+        .itemId = ITEM_PACK_CLASH_OF_REBELLIONS_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sClashofRebellionsSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CLASH_OF_REBELLIONS__SPECIAL_EDITION] =
+    {
+        .name = _("Clash of Rebe"),
+        .itemId = ITEM_PACK_CLASH_OF_REBELLIONS__SPECIAL_EDITION,
+        .price = 0,
+        .description = sClashofRebellionsSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CODE_OF_THE_DUELIST] =
+    {
+        .name = _("Code of the D"),
+        .itemId = ITEM_PACK_CODE_OF_THE_DUELIST,
+        .price = 0,
+        .description = sCodeoftheDuelistDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CODE_OF_THE_DUELIST_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Code of the D"),
+        .itemId = ITEM_PACK_CODE_OF_THE_DUELIST_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sCodeoftheDuelistSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CODE_OF_THE_DUELIST_SPECIAL_EDITION] =
+    {
+        .name = _("Code of the D"),
+        .itemId = ITEM_PACK_CODE_OF_THE_DUELIST_SPECIAL_EDITION,
+        .price = 0,
+        .description = sCodeoftheDuelistSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_COLLECTIBLE_TINS_2003] =
+    {
+        .name = _("Collectible T"),
+        .itemId = ITEM_PACK_COLLECTIBLE_TINS_2003,
+        .price = 0,
+        .description = sCollectibleTins2003Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_COLLECTIBLE_TINS_2004] =
+    {
+        .name = _("Collectible T"),
+        .itemId = ITEM_PACK_COLLECTIBLE_TINS_2004,
+        .price = 0,
+        .description = sCollectibleTins2004Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_COLLECTIBLE_TINS_2005] =
+    {
+        .name = _("Collectible T"),
+        .itemId = ITEM_PACK_COLLECTIBLE_TINS_2005,
+        .price = 0,
+        .description = sCollectibleTins2005Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_COLLECTIBLE_TINS_2006_WAVE_1] =
+    {
+        .name = _("Collectible T"),
+        .itemId = ITEM_PACK_COLLECTIBLE_TINS_2006_WAVE_1,
+        .price = 0,
+        .description = sCollectibleTins2006Wave1Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_COLLECTIBLE_TINS_2006_WAVE_2] =
+    {
+        .name = _("Collectible T"),
+        .itemId = ITEM_PACK_COLLECTIBLE_TINS_2006_WAVE_2,
+        .price = 0,
+        .description = sCollectibleTins2006Wave2Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_COLLECTIBLE_TINS_2007_WAVE_1] =
+    {
+        .name = _("Collectible T"),
+        .itemId = ITEM_PACK_COLLECTIBLE_TINS_2007_WAVE_1,
+        .price = 0,
+        .description = sCollectibleTins2007Wave1Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_COLLECTIBLE_TINS_2007_WAVE_2] =
+    {
+        .name = _("Collectible T"),
+        .itemId = ITEM_PACK_COLLECTIBLE_TINS_2007_WAVE_2,
+        .price = 0,
+        .description = sCollectibleTins2007Wave2Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_COLLECTIBLE_TINS_2008_WAVE_1] =
+    {
+        .name = _("Collectible T"),
+        .itemId = ITEM_PACK_COLLECTIBLE_TINS_2008_WAVE_1,
+        .price = 0,
+        .description = sCollectibleTins2008Wave1Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_COLLECTIBLE_TINS_2008_WAVE_2] =
+    {
+        .name = _("Collectible T"),
+        .itemId = ITEM_PACK_COLLECTIBLE_TINS_2008_WAVE_2,
+        .price = 0,
+        .description = sCollectibleTins2008Wave2Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_COLLECTIBLE_TINS_2009_WAVE_1] =
+    {
+        .name = _("Collectible T"),
+        .itemId = ITEM_PACK_COLLECTIBLE_TINS_2009_WAVE_1,
+        .price = 0,
+        .description = sCollectibleTins2009Wave1Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_COLLECTIBLE_TINS_2009_WAVE_2] =
+    {
+        .name = _("Collectible T"),
+        .itemId = ITEM_PACK_COLLECTIBLE_TINS_2009_WAVE_2,
+        .price = 0,
+        .description = sCollectibleTins2009Wave2Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_COLLECTIBLE_TINS_2010_WAVE_1] =
+    {
+        .name = _("Collectible T"),
+        .itemId = ITEM_PACK_COLLECTIBLE_TINS_2010_WAVE_1,
+        .price = 0,
+        .description = sCollectibleTins2010Wave1Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_COLLECTIBLE_TINS_2010_WAVE_2] =
+    {
+        .name = _("Collectible T"),
+        .itemId = ITEM_PACK_COLLECTIBLE_TINS_2010_WAVE_2,
+        .price = 0,
+        .description = sCollectibleTins2010Wave2Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_COLLECTIBLE_TINS_2011_WAVE_1] =
+    {
+        .name = _("Collectible T"),
+        .itemId = ITEM_PACK_COLLECTIBLE_TINS_2011_WAVE_1,
+        .price = 0,
+        .description = sCollectibleTins2011Wave1Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_COLLECTIBLE_TINS_2011_WAVE_2] =
+    {
+        .name = _("Collectible T"),
+        .itemId = ITEM_PACK_COLLECTIBLE_TINS_2011_WAVE_2,
+        .price = 0,
+        .description = sCollectibleTins2011Wave2Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_COLLECTIBLE_TINS_2012_WAVE_1] =
+    {
+        .name = _("Collectible T"),
+        .itemId = ITEM_PACK_COLLECTIBLE_TINS_2012_WAVE_1,
+        .price = 0,
+        .description = sCollectibleTins2012Wave1Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_COLLECTIBLE_TINS_2012_WAVE_2] =
+    {
+        .name = _("Collectible T"),
+        .itemId = ITEM_PACK_COLLECTIBLE_TINS_2012_WAVE_2,
+        .price = 0,
+        .description = sCollectibleTins2012Wave2Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_COLLECTIBLE_TINS_2012_WAVE_2_5] =
+    {
+        .name = _("Collectible T"),
+        .itemId = ITEM_PACK_COLLECTIBLE_TINS_2012_WAVE_2_5,
+        .price = 0,
+        .description = sCollectibleTins2012Wave25Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_COLLECTIBLE_TINS_EXCLUSIVE_2008] =
+    {
+        .name = _("Collectible T"),
+        .itemId = ITEM_PACK_COLLECTIBLE_TINS_EXCLUSIVE_2008,
+        .price = 0,
+        .description = sCollectibleTinsExclusive2008Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_COLLECTIBLE_TINS_EXCLUSIVE_2009] =
+    {
+        .name = _("Collectible T"),
+        .itemId = ITEM_PACK_COLLECTIBLE_TINS_EXCLUSIVE_2009,
+        .price = 0,
+        .description = sCollectibleTinsExclusive2009Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_COSMO_BLAZER] =
+    {
+        .name = _("Cosmo Blazer"),
+        .itemId = ITEM_PACK_COSMO_BLAZER,
+        .price = 0,
+        .description = sCosmoBlazerDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_COSMO_BLAZER_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Cosmo Blazer "),
+        .itemId = ITEM_PACK_COSMO_BLAZER_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sCosmoBlazerSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_COSMO_BLAZER__SPECIAL_EDITION] =
+    {
+        .name = _("Cosmo Blazer:"),
+        .itemId = ITEM_PACK_COSMO_BLAZER__SPECIAL_EDITION,
+        .price = 0,
+        .description = sCosmoBlazerSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CRIMSON_CRISIS] =
+    {
+        .name = _("Crimson Crisi"),
+        .itemId = ITEM_PACK_CRIMSON_CRISIS,
+        .price = 0,
+        .description = sCrimsonCrisisDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CRIMSON_CRISIS_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Crimson Crisi"),
+        .itemId = ITEM_PACK_CRIMSON_CRISIS_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sCrimsonCrisisSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CRIMSON_CRISIS__SPECIAL_EDITION] =
+    {
+        .name = _("Crimson Crisi"),
+        .itemId = ITEM_PACK_CRIMSON_CRISIS__SPECIAL_EDITION,
+        .price = 0,
+        .description = sCrimsonCrisisSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CROSSED_SOULS] =
+    {
+        .name = _("Crossed Souls"),
+        .itemId = ITEM_PACK_CROSSED_SOULS,
+        .price = 0,
+        .description = sCrossedSoulsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CROSSED_SOULS_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Crossed Souls"),
+        .itemId = ITEM_PACK_CROSSED_SOULS_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sCrossedSoulsSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CROSSED_SOULS__ADVANCE_EDITION] =
+    {
+        .name = _("Crossed Souls"),
+        .itemId = ITEM_PACK_CROSSED_SOULS__ADVANCE_EDITION,
+        .price = 0,
+        .description = sCrossedSoulsAdvanceEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CROSSOVER_BREAKERS] =
+    {
+        .name = _("Crossover Bre"),
+        .itemId = ITEM_PACK_CROSSOVER_BREAKERS,
+        .price = 0,
+        .description = sCrossoverBreakersDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CROSSROADS_OF_CHAOS] =
+    {
+        .name = _("Crossroads of"),
+        .itemId = ITEM_PACK_CROSSROADS_OF_CHAOS,
+        .price = 0,
+        .description = sCrossroadsofChaosDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CROSSROADS_OF_CHAOS_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Crossroads of"),
+        .itemId = ITEM_PACK_CROSSROADS_OF_CHAOS_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sCrossroadsofChaosSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CROSSROADS_OF_CHAOS__SPECIAL_EDITION] =
+    {
+        .name = _("Crossroads of"),
+        .itemId = ITEM_PACK_CROSSROADS_OF_CHAOS__SPECIAL_EDITION,
+        .price = 0,
+        .description = sCrossroadsofChaosSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CYBER_DRAGON_REVOLUTION_STRUCTURE_DECK] =
+    {
+        .name = _("Cyber Dragon "),
+        .itemId = ITEM_PACK_CYBER_DRAGON_REVOLUTION_STRUCTURE_DECK,
+        .price = 0,
+        .description = sCyberDragonRevolutionStructureDeckDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CYBERDARK_IMPACT] =
+    {
+        .name = _("Cyberdark Imp"),
+        .itemId = ITEM_PACK_CYBERDARK_IMPACT,
+        .price = 0,
+        .description = sCyberdarkImpactDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CYBERDARK_IMPACT_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Cyberdark Imp"),
+        .itemId = ITEM_PACK_CYBERDARK_IMPACT_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sCyberdarkImpactSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CYBERNETIC_HORIZON] =
+    {
+        .name = _("Cybernetic Ho"),
+        .itemId = ITEM_PACK_CYBERNETIC_HORIZON,
+        .price = 0,
+        .description = sCyberneticHorizonDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CYBERNETIC_HORIZON_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Cybernetic Ho"),
+        .itemId = ITEM_PACK_CYBERNETIC_HORIZON_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sCyberneticHorizonSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CYBERNETIC_HORIZON_SPECIAL_EDITION] =
+    {
+        .name = _("Cybernetic Ho"),
+        .itemId = ITEM_PACK_CYBERNETIC_HORIZON_SPECIAL_EDITION,
+        .price = 0,
+        .description = sCyberneticHorizonSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CYBERNETIC_REVOLUTION] =
+    {
+        .name = _("Cybernetic Re"),
+        .itemId = ITEM_PACK_CYBERNETIC_REVOLUTION,
+        .price = 0,
+        .description = sCyberneticRevolutionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CYBERNETIC_REVOLUTION_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Cybernetic Re"),
+        .itemId = ITEM_PACK_CYBERNETIC_REVOLUTION_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sCyberneticRevolutionSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_CYBERSTORM_ACCESS] =
+    {
+        .name = _("Cyberstorm Ac"),
+        .itemId = ITEM_PACK_CYBERSTORM_ACCESS,
+        .price = 0,
+        .description = sCyberstormAccessDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DARK_BEGINNING_1] =
+    {
+        .name = _("Dark Beginnin"),
+        .itemId = ITEM_PACK_DARK_BEGINNING_1,
+        .price = 0,
+        .description = sDarkBeginning1Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DARK_BEGINNING_2] =
+    {
+        .name = _("Dark Beginnin"),
+        .itemId = ITEM_PACK_DARK_BEGINNING_2,
+        .price = 0,
+        .description = sDarkBeginning2Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DARK_CRISIS] =
+    {
+        .name = _("Dark Crisis"),
+        .itemId = ITEM_PACK_DARK_CRISIS,
+        .price = 0,
+        .description = sDarkCrisisDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DARK_LEGENDS] =
+    {
+        .name = _("Dark Legends"),
+        .itemId = ITEM_PACK_DARK_LEGENDS,
+        .price = 0,
+        .description = sDarkLegendsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DARK_LEGION_STARTER_DECK] =
+    {
+        .name = _("Dark Legion S"),
+        .itemId = ITEM_PACK_DARK_LEGION_STARTER_DECK,
+        .price = 0,
+        .description = sDarkLegionStarterDeckDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DARK_NEOSTORM] =
+    {
+        .name = _("Dark Neostorm"),
+        .itemId = ITEM_PACK_DARK_NEOSTORM,
+        .price = 0,
+        .description = sDarkNeostormDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DARK_NEOSTORM_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Dark Neostorm"),
+        .itemId = ITEM_PACK_DARK_NEOSTORM_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sDarkNeostormSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DARK_NEOSTORM_SPECIAL_EDITION] =
+    {
+        .name = _("Dark Neostorm"),
+        .itemId = ITEM_PACK_DARK_NEOSTORM_SPECIAL_EDITION,
+        .price = 0,
+        .description = sDarkNeostormSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DARK_REVELATION_VOLUME_1] =
+    {
+        .name = _("Dark Revelati"),
+        .itemId = ITEM_PACK_DARK_REVELATION_VOLUME_1,
+        .price = 0,
+        .description = sDarkRevelationVolume1Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DARK_REVELATION_VOLUME_2] =
+    {
+        .name = _("Dark Revelati"),
+        .itemId = ITEM_PACK_DARK_REVELATION_VOLUME_2,
+        .price = 0,
+        .description = sDarkRevelationVolume2Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DARK_REVELATION_VOLUME_3] =
+    {
+        .name = _("Dark Revelati"),
+        .itemId = ITEM_PACK_DARK_REVELATION_VOLUME_3,
+        .price = 0,
+        .description = sDarkRevelationVolume3Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DARK_REVELATION_VOLUME_4] =
+    {
+        .name = _("Dark Revelati"),
+        .itemId = ITEM_PACK_DARK_REVELATION_VOLUME_4,
+        .price = 0,
+        .description = sDarkRevelationVolume4Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DARK_SAVIORS] =
+    {
+        .name = _("Dark Saviors"),
+        .itemId = ITEM_PACK_DARK_SAVIORS,
+        .price = 0,
+        .description = sDarkSaviorsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DARKWING_BLAST] =
+    {
+        .name = _("Darkwing Blas"),
+        .itemId = ITEM_PACK_DARKWING_BLAST,
+        .price = 0,
+        .description = sDarkwingBlastDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DAWN_OF_MAJESTY] =
+    {
+        .name = _("Dawn of Majes"),
+        .itemId = ITEM_PACK_DAWN_OF_MAJESTY,
+        .price = 0,
+        .description = sDawnofMajestyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DAWN_OF_MAJESTY_PREMIERE__PROMOTIONAL_CARD] =
+    {
+        .name = _("Dawn of Majes"),
+        .itemId = ITEM_PACK_DAWN_OF_MAJESTY_PREMIERE__PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sDawnofMajestyPremierepromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DEMO_DECK_2015] =
+    {
+        .name = _("Demo Deck 201"),
+        .itemId = ITEM_PACK_DEMO_DECK_2015,
+        .price = 0,
+        .description = sDemoDeck2015Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DEMO_DECK_2016] =
+    {
+        .name = _("Demo Deck 201"),
+        .itemId = ITEM_PACK_DEMO_DECK_2016,
+        .price = 0,
+        .description = sDemoDeck2016Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DEMO_PACK] =
+    {
+        .name = _("Demo Pack"),
+        .itemId = ITEM_PACK_DEMO_PACK,
+        .price = 0,
+        .description = sDemoPackDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DESTINY_SOLDIERS] =
+    {
+        .name = _("Destiny Soldi"),
+        .itemId = ITEM_PACK_DESTINY_SOLDIERS,
+        .price = 0,
+        .description = sDestinySoldiersDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DIMENSION_FORCE] =
+    {
+        .name = _("Dimension For"),
+        .itemId = ITEM_PACK_DIMENSION_FORCE,
+        .price = 0,
+        .description = sDimensionForceDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DIMENSION_OF_CHAOS] =
+    {
+        .name = _("Dimension of "),
+        .itemId = ITEM_PACK_DIMENSION_OF_CHAOS,
+        .price = 0,
+        .description = sDimensionofChaosDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DIMENSION_OF_CHAOS_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Dimension of "),
+        .itemId = ITEM_PACK_DIMENSION_OF_CHAOS_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sDimensionofChaosSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DIMENSION_OF_CHAOS__SPECIAL_EDITION] =
+    {
+        .name = _("Dimension of "),
+        .itemId = ITEM_PACK_DIMENSION_OF_CHAOS__SPECIAL_EDITION,
+        .price = 0,
+        .description = sDimensionofChaosSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DINOSMASHER_S_FURY_STRUCTURE_DECK] =
+    {
+        .name = _("Dinosmasher's"),
+        .itemId = ITEM_PACK_DINOSMASHER_S_FURY_STRUCTURE_DECK,
+        .price = 0,
+        .description = sDinosmashersFuryStructureDeckDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DRAGONS_COLLIDE_STRUCTURE_DECK] =
+    {
+        .name = _("Dragons Colli"),
+        .itemId = ITEM_PACK_DRAGONS_COLLIDE_STRUCTURE_DECK,
+        .price = 0,
+        .description = sDragonsCollideStructureDeckDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DRAGONS_OF_LEGEND] =
+    {
+        .name = _("Dragons of Le"),
+        .itemId = ITEM_PACK_DRAGONS_OF_LEGEND,
+        .price = 0,
+        .description = sDragonsofLegendDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DRAGONS_OF_LEGEND_2] =
+    {
+        .name = _("Dragons of Le"),
+        .itemId = ITEM_PACK_DRAGONS_OF_LEGEND_2,
+        .price = 0,
+        .description = sDragonsofLegend2Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DRAGONS_OF_LEGEND__THE_COMPLETE_SERIES] =
+    {
+        .name = _("Dragons of Le"),
+        .itemId = ITEM_PACK_DRAGONS_OF_LEGEND__THE_COMPLETE_SERIES,
+        .price = 0,
+        .description = sDragonsofLegendTheCompleteSeriesDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DRAGONS_OF_LEGEND__UNLEASHED] =
+    {
+        .name = _("Dragons of Le"),
+        .itemId = ITEM_PACK_DRAGONS_OF_LEGEND__UNLEASHED,
+        .price = 0,
+        .description = sDragonsofLegendUnleashedDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DRAGUNITY_LEGION_STRUCTURE_DECK] =
+    {
+        .name = _("Dragunity Leg"),
+        .itemId = ITEM_PACK_DRAGUNITY_LEGION_STRUCTURE_DECK,
+        .price = 0,
+        .description = sDragunityLegionStructureDeckDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUEL_DEVASTATOR] =
+    {
+        .name = _("Duel Devastat"),
+        .itemId = ITEM_PACK_DUEL_DEVASTATOR,
+        .price = 0,
+        .description = sDuelDevastatorDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUEL_DISK___YUSEI_VERSION] =
+    {
+        .name = _("Duel Disk - Y"),
+        .itemId = ITEM_PACK_DUEL_DISK___YUSEI_VERSION,
+        .price = 0,
+        .description = sDuelDiskYuseiVersionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUEL_MASTER_S_GUIDE_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Duel Master's"),
+        .itemId = ITEM_PACK_DUEL_MASTER_S_GUIDE_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sDuelMastersGuidepromotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUEL_OVERLOAD] =
+    {
+        .name = _("Duel Overload"),
+        .itemId = ITEM_PACK_DUEL_OVERLOAD,
+        .price = 0,
+        .description = sDuelOverloadDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUEL_POWER] =
+    {
+        .name = _("Duel Power"),
+        .itemId = ITEM_PACK_DUEL_POWER,
+        .price = 0,
+        .description = sDuelPowerDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUEL_TERMINAL___PREVIEW_WAVE_1] =
+    {
+        .name = _("Duel Terminal"),
+        .itemId = ITEM_PACK_DUEL_TERMINAL___PREVIEW_WAVE_1,
+        .price = 0,
+        .description = sDuelTerminalPreviewWave1Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUEL_TERMINAL___PREVIEW_WAVE_2] =
+    {
+        .name = _("Duel Terminal"),
+        .itemId = ITEM_PACK_DUEL_TERMINAL___PREVIEW_WAVE_2,
+        .price = 0,
+        .description = sDuelTerminalPreviewWave2Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUEL_TERMINAL_1] =
+    {
+        .name = _("Duel Terminal"),
+        .itemId = ITEM_PACK_DUEL_TERMINAL_1,
+        .price = 0,
+        .description = sDuelTerminal1Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUEL_TERMINAL_2] =
+    {
+        .name = _("Duel Terminal"),
+        .itemId = ITEM_PACK_DUEL_TERMINAL_2,
+        .price = 0,
+        .description = sDuelTerminal2Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUEL_TERMINAL_3] =
+    {
+        .name = _("Duel Terminal"),
+        .itemId = ITEM_PACK_DUEL_TERMINAL_3,
+        .price = 0,
+        .description = sDuelTerminal3Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUEL_TERMINAL_4] =
+    {
+        .name = _("Duel Terminal"),
+        .itemId = ITEM_PACK_DUEL_TERMINAL_4,
+        .price = 0,
+        .description = sDuelTerminal4Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUEL_TERMINAL_5] =
+    {
+        .name = _("Duel Terminal"),
+        .itemId = ITEM_PACK_DUEL_TERMINAL_5,
+        .price = 0,
+        .description = sDuelTerminal5Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUEL_TERMINAL_5A] =
+    {
+        .name = _("Duel Terminal"),
+        .itemId = ITEM_PACK_DUEL_TERMINAL_5A,
+        .price = 0,
+        .description = sDuelTerminal5aDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUEL_TERMINAL_5B] =
+    {
+        .name = _("Duel Terminal"),
+        .itemId = ITEM_PACK_DUEL_TERMINAL_5B,
+        .price = 0,
+        .description = sDuelTerminal5bDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUEL_TERMINAL_6] =
+    {
+        .name = _("Duel Terminal"),
+        .itemId = ITEM_PACK_DUEL_TERMINAL_6,
+        .price = 0,
+        .description = sDuelTerminal6Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUEL_TERMINAL_6A] =
+    {
+        .name = _("Duel Terminal"),
+        .itemId = ITEM_PACK_DUEL_TERMINAL_6A,
+        .price = 0,
+        .description = sDuelTerminal6aDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUEL_TERMINAL_6B] =
+    {
+        .name = _("Duel Terminal"),
+        .itemId = ITEM_PACK_DUEL_TERMINAL_6B,
+        .price = 0,
+        .description = sDuelTerminal6bDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUEL_TERMINAL_7] =
+    {
+        .name = _("Duel Terminal"),
+        .itemId = ITEM_PACK_DUEL_TERMINAL_7,
+        .price = 0,
+        .description = sDuelTerminal7Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUEL_TERMINAL_7A] =
+    {
+        .name = _("Duel Terminal"),
+        .itemId = ITEM_PACK_DUEL_TERMINAL_7A,
+        .price = 0,
+        .description = sDuelTerminal7aDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUEL_TERMINAL_7B] =
+    {
+        .name = _("Duel Terminal"),
+        .itemId = ITEM_PACK_DUEL_TERMINAL_7B,
+        .price = 0,
+        .description = sDuelTerminal7bDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_ALLIANCE] =
+    {
+        .name = _("Duelist Allia"),
+        .itemId = ITEM_PACK_DUELIST_ALLIANCE,
+        .price = 0,
+        .description = sDuelistAllianceDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_ALLIANCE_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Duelist Allia"),
+        .itemId = ITEM_PACK_DUELIST_ALLIANCE_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sDuelistAllianceSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_ALLIANCE__DELUXE_EDITION] =
+    {
+        .name = _("Duelist Allia"),
+        .itemId = ITEM_PACK_DUELIST_ALLIANCE__DELUXE_EDITION,
+        .price = 0,
+        .description = sDuelistAllianceDeluxeEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_LEAGUE_13_PARTICIPATION_CARDS] =
+    {
+        .name = _("Duelist Leagu"),
+        .itemId = ITEM_PACK_DUELIST_LEAGUE_13_PARTICIPATION_CARDS,
+        .price = 0,
+        .description = sDuelistLeague13participationcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_LEAGUE_14_PARTICIPATION_CARDS] =
+    {
+        .name = _("Duelist Leagu"),
+        .itemId = ITEM_PACK_DUELIST_LEAGUE_14_PARTICIPATION_CARDS,
+        .price = 0,
+        .description = sDuelistLeague14participationcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_LEAGUE_15_PARTICIPATION_CARDS] =
+    {
+        .name = _("Duelist Leagu"),
+        .itemId = ITEM_PACK_DUELIST_LEAGUE_15_PARTICIPATION_CARDS,
+        .price = 0,
+        .description = sDuelistLeague15participationcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_LEAGUE_16_PARTICIPATION_CARDS] =
+    {
+        .name = _("Duelist Leagu"),
+        .itemId = ITEM_PACK_DUELIST_LEAGUE_16_PARTICIPATION_CARDS,
+        .price = 0,
+        .description = sDuelistLeague16participationcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_LEAGUE_17_PARTICIPATION_CARDS] =
+    {
+        .name = _("Duelist Leagu"),
+        .itemId = ITEM_PACK_DUELIST_LEAGUE_17_PARTICIPATION_CARDS,
+        .price = 0,
+        .description = sDuelistLeague17participationcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_LEAGUE_18_PARTICIPATION_CARDS] =
+    {
+        .name = _("Duelist Leagu"),
+        .itemId = ITEM_PACK_DUELIST_LEAGUE_18_PARTICIPATION_CARDS,
+        .price = 0,
+        .description = sDuelistLeague18participationcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_LEAGUE_2_PARTICIPATION_CARDS] =
+    {
+        .name = _("Duelist Leagu"),
+        .itemId = ITEM_PACK_DUELIST_LEAGUE_2_PARTICIPATION_CARDS,
+        .price = 0,
+        .description = sDuelistLeague2participationcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_LEAGUE_2010_PARTICIPATION_CARDS] =
+    {
+        .name = _("Duelist Leagu"),
+        .itemId = ITEM_PACK_DUELIST_LEAGUE_2010_PARTICIPATION_CARDS,
+        .price = 0,
+        .description = sDuelistLeague2010participationcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_LEAGUE_3_PARTICIPATION_CARDS] =
+    {
+        .name = _("Duelist Leagu"),
+        .itemId = ITEM_PACK_DUELIST_LEAGUE_3_PARTICIPATION_CARDS,
+        .price = 0,
+        .description = sDuelistLeague3participationcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_LEAGUE_DEMO_2010] =
+    {
+        .name = _("Duelist Leagu"),
+        .itemId = ITEM_PACK_DUELIST_LEAGUE_DEMO_2010,
+        .price = 0,
+        .description = sDuelistLeagueDemo2010Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_LEAGUE_SERIES_1_PARTICIPATION_CARDS] =
+    {
+        .name = _("Duelist Leagu"),
+        .itemId = ITEM_PACK_DUELIST_LEAGUE_SERIES_1_PARTICIPATION_CARDS,
+        .price = 0,
+        .description = sDuelistLeagueSeries1participationcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_LEAGUE_SERIES_10_PARTICIPATION_CARD] =
+    {
+        .name = _("Duelist Leagu"),
+        .itemId = ITEM_PACK_DUELIST_LEAGUE_SERIES_10_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sDuelistLeagueSeries10participationcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_LEAGUE_SERIES_2_PARTICIPATION_CARDS] =
+    {
+        .name = _("Duelist Leagu"),
+        .itemId = ITEM_PACK_DUELIST_LEAGUE_SERIES_2_PARTICIPATION_CARDS,
+        .price = 0,
+        .description = sDuelistLeagueSeries2participationcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_LEAGUE_SERIES_3_PARTICIPATION_CARD] =
+    {
+        .name = _("Duelist Leagu"),
+        .itemId = ITEM_PACK_DUELIST_LEAGUE_SERIES_3_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sDuelistLeagueSeries3participationcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_LEAGUE_SERIES_4_PARTICIPATION_CARD] =
+    {
+        .name = _("Duelist Leagu"),
+        .itemId = ITEM_PACK_DUELIST_LEAGUE_SERIES_4_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sDuelistLeagueSeries4participationcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_LEAGUE_SERIES_5_PARTICIPATION_CARD] =
+    {
+        .name = _("Duelist Leagu"),
+        .itemId = ITEM_PACK_DUELIST_LEAGUE_SERIES_5_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sDuelistLeagueSeries5participationcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_LEAGUE_SERIES_6_PARTICIPATION_CARD] =
+    {
+        .name = _("Duelist Leagu"),
+        .itemId = ITEM_PACK_DUELIST_LEAGUE_SERIES_6_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sDuelistLeagueSeries6participationcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_LEAGUE_SERIES_7_PARTICIPATION_CARD] =
+    {
+        .name = _("Duelist Leagu"),
+        .itemId = ITEM_PACK_DUELIST_LEAGUE_SERIES_7_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sDuelistLeagueSeries7participationcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_LEAGUE_SERIES_8_PARTICIPATION_CARD] =
+    {
+        .name = _("Duelist Leagu"),
+        .itemId = ITEM_PACK_DUELIST_LEAGUE_SERIES_8_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sDuelistLeagueSeries8participationcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_LEAGUE_SERIES_9_PARTICIPATION_CARD] =
+    {
+        .name = _("Duelist Leagu"),
+        .itemId = ITEM_PACK_DUELIST_LEAGUE_SERIES_9_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sDuelistLeagueSeries9participationcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_NEXUS] =
+    {
+        .name = _("Duelist Nexus"),
+        .itemId = ITEM_PACK_DUELIST_NEXUS,
+        .price = 0,
+        .description = sDuelistNexusDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_PACK_COLLECTION_TIN_2008] =
+    {
+        .name = _("Duelist Pack "),
+        .itemId = ITEM_PACK_DUELIST_PACK_COLLECTION_TIN_2008,
+        .price = 0,
+        .description = sDuelistPackCollectionTin2008Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_PACK_COLLECTION_TIN_2009] =
+    {
+        .name = _("Duelist Pack "),
+        .itemId = ITEM_PACK_DUELIST_PACK_COLLECTION_TIN_2009,
+        .price = 0,
+        .description = sDuelistPackCollectionTin2009Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_PACK_COLLECTION_TIN_2010] =
+    {
+        .name = _("Duelist Pack "),
+        .itemId = ITEM_PACK_DUELIST_PACK_COLLECTION_TIN_2010,
+        .price = 0,
+        .description = sDuelistPackCollectionTin2010Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_PACK_COLLECTION_TIN_2011] =
+    {
+        .name = _("Duelist Pack "),
+        .itemId = ITEM_PACK_DUELIST_PACK_COLLECTION_TIN_2011,
+        .price = 0,
+        .description = sDuelistPackCollectionTin2011Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_PACK_COLLECTION_TIN__JADEN_YUKI] =
+    {
+        .name = _("Duelist Pack "),
+        .itemId = ITEM_PACK_DUELIST_PACK_COLLECTION_TIN__JADEN_YUKI,
+        .price = 0,
+        .description = sDuelistPackCollectionTinJadenYukiDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_PACK__ASTER_PHOENIX] =
+    {
+        .name = _("Duelist Pack:"),
+        .itemId = ITEM_PACK_DUELIST_PACK__ASTER_PHOENIX,
+        .price = 0,
+        .description = sDuelistPackAsterPhoenixDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_PACK__BATTLE_CITY] =
+    {
+        .name = _("Duelist Pack:"),
+        .itemId = ITEM_PACK_DUELIST_PACK__BATTLE_CITY,
+        .price = 0,
+        .description = sDuelistPackBattleCityDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_PACK__CHAZZ_PRINCETON] =
+    {
+        .name = _("Duelist Pack:"),
+        .itemId = ITEM_PACK_DUELIST_PACK__CHAZZ_PRINCETON,
+        .price = 0,
+        .description = sDuelistPackChazzPrincetonDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_PACK__CROW] =
+    {
+        .name = _("Duelist Pack:"),
+        .itemId = ITEM_PACK_DUELIST_PACK__CROW,
+        .price = 0,
+        .description = sDuelistPackCrowDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_PACK__DIMENSIONAL_GUARDIANS] =
+    {
+        .name = _("Duelist Pack:"),
+        .itemId = ITEM_PACK_DUELIST_PACK__DIMENSIONAL_GUARDIANS,
+        .price = 0,
+        .description = sDuelistPackDimensionalGuardiansDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_PACK__JADEN_YUKI] =
+    {
+        .name = _("Duelist Pack:"),
+        .itemId = ITEM_PACK_DUELIST_PACK__JADEN_YUKI,
+        .price = 0,
+        .description = sDuelistPackJadenYukiDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_PACK__JADEN_YUKI_2] =
+    {
+        .name = _("Duelist Pack:"),
+        .itemId = ITEM_PACK_DUELIST_PACK__JADEN_YUKI_2,
+        .price = 0,
+        .description = sDuelistPackJadenYuki2Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_PACK__JADEN_YUKI_3] =
+    {
+        .name = _("Duelist Pack:"),
+        .itemId = ITEM_PACK_DUELIST_PACK__JADEN_YUKI_3,
+        .price = 0,
+        .description = sDuelistPackJadenYuki3Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_PACK__JESSE_ANDERSON] =
+    {
+        .name = _("Duelist Pack:"),
+        .itemId = ITEM_PACK_DUELIST_PACK__JESSE_ANDERSON,
+        .price = 0,
+        .description = sDuelistPackJesseAndersonDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_PACK__KAIBA] =
+    {
+        .name = _("Duelist Pack:"),
+        .itemId = ITEM_PACK_DUELIST_PACK__KAIBA,
+        .price = 0,
+        .description = sDuelistPackKaibaDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_PACK__RIVALS_OF_THE_PHARAOH] =
+    {
+        .name = _("Duelist Pack:"),
+        .itemId = ITEM_PACK_DUELIST_PACK__RIVALS_OF_THE_PHARAOH,
+        .price = 0,
+        .description = sDuelistPackRivalsofthePharaohDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_PACK__SPECIAL_EDITION] =
+    {
+        .name = _("Duelist Pack:"),
+        .itemId = ITEM_PACK_DUELIST_PACK__SPECIAL_EDITION,
+        .price = 0,
+        .description = sDuelistPackSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_PACK__YUGI] =
+    {
+        .name = _("Duelist Pack:"),
+        .itemId = ITEM_PACK_DUELIST_PACK__YUGI,
+        .price = 0,
+        .description = sDuelistPackYugiDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_PACK__YUSEI] =
+    {
+        .name = _("Duelist Pack:"),
+        .itemId = ITEM_PACK_DUELIST_PACK__YUSEI,
+        .price = 0,
+        .description = sDuelistPackYuseiDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_PACK__YUSEI_2] =
+    {
+        .name = _("Duelist Pack:"),
+        .itemId = ITEM_PACK_DUELIST_PACK__YUSEI_2,
+        .price = 0,
+        .description = sDuelistPackYusei2Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_PACK__YUSEI_3] =
+    {
+        .name = _("Duelist Pack:"),
+        .itemId = ITEM_PACK_DUELIST_PACK__YUSEI_3,
+        .price = 0,
+        .description = sDuelistPackYusei3Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_PACK__ZANE_TRUESDALE] =
+    {
+        .name = _("Duelist Pack:"),
+        .itemId = ITEM_PACK_DUELIST_PACK__ZANE_TRUESDALE,
+        .price = 0,
+        .description = sDuelistPackZaneTruesdaleDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_REVOLUTION] =
+    {
+        .name = _("Duelist Revol"),
+        .itemId = ITEM_PACK_DUELIST_REVOLUTION,
+        .price = 0,
+        .description = sDuelistRevolutionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_REVOLUTION_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Duelist Revol"),
+        .itemId = ITEM_PACK_DUELIST_REVOLUTION_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sDuelistRevolutionSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_REVOLUTION__SPECIAL_EDITION] =
+    {
+        .name = _("Duelist Revol"),
+        .itemId = ITEM_PACK_DUELIST_REVOLUTION__SPECIAL_EDITION,
+        .price = 0,
+        .description = sDuelistRevolutionSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_SAGA] =
+    {
+        .name = _("Duelist Saga"),
+        .itemId = ITEM_PACK_DUELIST_SAGA,
+        .price = 0,
+        .description = sDuelistSagaDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_DUELIST_S_ADVANCE] =
+    {
+        .name = _("Duelist's Adv"),
+        .itemId = ITEM_PACK_DUELIST_S_ADVANCE,
+        .price = 0,
+        .description = sDuelistsAdvanceDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_EGYPTIAN_GOD_DECK__OBELISK_THE_TORMENTOR] =
+    {
+        .name = _("Egyptian God "),
+        .itemId = ITEM_PACK_EGYPTIAN_GOD_DECK__OBELISK_THE_TORMENTOR,
+        .price = 0,
+        .description = sEgyptianGodDeckObelisktheTormentorDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_EGYPTIAN_GOD_DECK__SLIFER_THE_SKY_DRAGON] =
+    {
+        .name = _("Egyptian God "),
+        .itemId = ITEM_PACK_EGYPTIAN_GOD_DECK__SLIFER_THE_SKY_DRAGON,
+        .price = 0,
+        .description = sEgyptianGodDeckSlifertheSkyDragonDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ELEMENTAL_ENERGY] =
+    {
+        .name = _("Elemental Ene"),
+        .itemId = ITEM_PACK_ELEMENTAL_ENERGY,
+        .price = 0,
+        .description = sElementalEnergyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ELEMENTAL_ENERGY_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Elemental Ene"),
+        .itemId = ITEM_PACK_ELEMENTAL_ENERGY_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sElementalEnergySneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ELEMENTAL_ENERGY__SPECIAL_EDITION] =
+    {
+        .name = _("Elemental Ene"),
+        .itemId = ITEM_PACK_ELEMENTAL_ENERGY__SPECIAL_EDITION,
+        .price = 0,
+        .description = sElementalEnergySpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_EMPEROR_OF_DARKNESS_STRUCTURE_DECK] =
+    {
+        .name = _("Emperor of Da"),
+        .itemId = ITEM_PACK_EMPEROR_OF_DARKNESS_STRUCTURE_DECK,
+        .price = 0,
+        .description = sEmperorofDarknessStructureDeckDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ENEMY_OF_JUSTICE] =
+    {
+        .name = _("Enemy of Just"),
+        .itemId = ITEM_PACK_ENEMY_OF_JUSTICE,
+        .price = 0,
+        .description = sEnemyofJusticeDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ENEMY_OF_JUSTICE_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Enemy of Just"),
+        .itemId = ITEM_PACK_ENEMY_OF_JUSTICE_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sEnemyofJusticeSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ETERNITY_CODE] =
+    {
+        .name = _("Eternity Code"),
+        .itemId = ITEM_PACK_ETERNITY_CODE,
+        .price = 0,
+        .description = sEternityCodeDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ETERNITY_CODE_PREMIERE__PROMOTIONAL_CARD] =
+    {
+        .name = _("Eternity Code"),
+        .itemId = ITEM_PACK_ETERNITY_CODE_PREMIERE__PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sEternityCodePremierepromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_EVENT_PACK_SPEED_DUEL] =
+    {
+        .name = _("Event Pack Sp"),
+        .itemId = ITEM_PACK_EVENT_PACK_SPEED_DUEL,
+        .price = 0,
+        .description = sEventPackSpeedDuelDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_EXCLUSIVE_PACK] =
+    {
+        .name = _("Exclusive Pac"),
+        .itemId = ITEM_PACK_EXCLUSIVE_PACK,
+        .price = 0,
+        .description = sExclusivePackDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_EXTREME_FORCE] =
+    {
+        .name = _("Extreme Force"),
+        .itemId = ITEM_PACK_EXTREME_FORCE,
+        .price = 0,
+        .description = sExtremeForceDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_EXTREME_FORCE_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Extreme Force"),
+        .itemId = ITEM_PACK_EXTREME_FORCE_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sExtremeForceSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_EXTREME_FORCE_SPECIAL_EDITION] =
+    {
+        .name = _("Extreme Force"),
+        .itemId = ITEM_PACK_EXTREME_FORCE_SPECIAL_EDITION,
+        .price = 0,
+        .description = sExtremeForceSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_EXTREME_VICTORY] =
+    {
+        .name = _("Extreme Victo"),
+        .itemId = ITEM_PACK_EXTREME_VICTORY,
+        .price = 0,
+        .description = sExtremeVictoryDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_EXTREME_VICTORY_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Extreme Victo"),
+        .itemId = ITEM_PACK_EXTREME_VICTORY_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sExtremeVictorySneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_FIRE_FISTS__SPECIAL_EDITION] =
+    {
+        .name = _("Fire Fists: S"),
+        .itemId = ITEM_PACK_FIRE_FISTS__SPECIAL_EDITION,
+        .price = 0,
+        .description = sFireFistsSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_FISTS_OF_THE_GADGETS] =
+    {
+        .name = _("Fists of the "),
+        .itemId = ITEM_PACK_FISTS_OF_THE_GADGETS,
+        .price = 0,
+        .description = sFistsoftheGadgetsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_FLAMES_OF_DESTRUCTION] =
+    {
+        .name = _("Flames of Des"),
+        .itemId = ITEM_PACK_FLAMES_OF_DESTRUCTION,
+        .price = 0,
+        .description = sFlamesofDestructionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_FLAMES_OF_DESTRUCTION_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Flames of Des"),
+        .itemId = ITEM_PACK_FLAMES_OF_DESTRUCTION_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sFlamesofDestructionSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_FLAMES_OF_DESTRUCTION_SPECIAL_EDITION] =
+    {
+        .name = _("Flames of Des"),
+        .itemId = ITEM_PACK_FLAMES_OF_DESTRUCTION_SPECIAL_EDITION,
+        .price = 0,
+        .description = sFlamesofDestructionSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_FLAMING_ETERNITY] =
+    {
+        .name = _("Flaming Etern"),
+        .itemId = ITEM_PACK_FLAMING_ETERNITY,
+        .price = 0,
+        .description = sFlamingEternityDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_FLAMING_ETERNITY_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Flaming Etern"),
+        .itemId = ITEM_PACK_FLAMING_ETERNITY_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sFlamingEternitySneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_FORBIDDEN_LEGACY] =
+    {
+        .name = _("Forbidden Leg"),
+        .itemId = ITEM_PACK_FORBIDDEN_LEGACY,
+        .price = 0,
+        .description = sForbiddenLegacyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_FORCE_OF_THE_BREAKER] =
+    {
+        .name = _("Force of the "),
+        .itemId = ITEM_PACK_FORCE_OF_THE_BREAKER,
+        .price = 0,
+        .description = sForceoftheBreakerDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_FORCE_OF_THE_BREAKER_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Force of the "),
+        .itemId = ITEM_PACK_FORCE_OF_THE_BREAKER_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sForceoftheBreakerSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_FORCE_OF_THE_BREAKER__SPECIAL_EDITION] =
+    {
+        .name = _("Force of the "),
+        .itemId = ITEM_PACK_FORCE_OF_THE_BREAKER__SPECIAL_EDITION,
+        .price = 0,
+        .description = sForceoftheBreakerSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_FUSION_ENFORCERS] =
+    {
+        .name = _("Fusion Enforc"),
+        .itemId = ITEM_PACK_FUSION_ENFORCERS,
+        .price = 0,
+        .description = sFusionEnforcersDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_GX_NEXT_GENERATION] =
+    {
+        .name = _("GX Next Gener"),
+        .itemId = ITEM_PACK_GX_NEXT_GENERATION,
+        .price = 0,
+        .description = sGXNextGenerationDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_GALACTIC_OVERLORD] =
+    {
+        .name = _("Galactic Over"),
+        .itemId = ITEM_PACK_GALACTIC_OVERLORD,
+        .price = 0,
+        .description = sGalacticOverlordDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_GALACTIC_OVERLORD_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Galactic Over"),
+        .itemId = ITEM_PACK_GALACTIC_OVERLORD_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sGalacticOverlordSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_GATES_OF_THE_UNDERWORLD_STRUCTURE_DECK] =
+    {
+        .name = _("Gates of the "),
+        .itemId = ITEM_PACK_GATES_OF_THE_UNDERWORLD_STRUCTURE_DECK,
+        .price = 0,
+        .description = sGatesoftheUnderworldStructureDeckDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_GEARGIA_RAMPAGE_STRUCTURE_DECK] =
+    {
+        .name = _("Geargia Rampa"),
+        .itemId = ITEM_PACK_GEARGIA_RAMPAGE_STRUCTURE_DECK,
+        .price = 0,
+        .description = sGeargiaRampageStructureDeckDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_GENERATION_FORCE] =
+    {
+        .name = _("Generation Fo"),
+        .itemId = ITEM_PACK_GENERATION_FORCE,
+        .price = 0,
+        .description = sGenerationForceDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_GENERATION_FORCE_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Generation Fo"),
+        .itemId = ITEM_PACK_GENERATION_FORCE_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sGenerationForceSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_GENERATION_FORCE__SPECIAL_EDITION] =
+    {
+        .name = _("Generation Fo"),
+        .itemId = ITEM_PACK_GENERATION_FORCE__SPECIAL_EDITION,
+        .price = 0,
+        .description = sGenerationForceSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_GENESIS_IMPACT] =
+    {
+        .name = _("Genesis Impac"),
+        .itemId = ITEM_PACK_GENESIS_IMPACT,
+        .price = 0,
+        .description = sGenesisImpactDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_GHOSTS_FROM_THE_PAST] =
+    {
+        .name = _("Ghosts From t"),
+        .itemId = ITEM_PACK_GHOSTS_FROM_THE_PAST,
+        .price = 0,
+        .description = sGhostsFromthePastDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_GHOSTS_FROM_THE_PAST__THE_2ND_HAUNTING] =
+    {
+        .name = _("Ghosts From t"),
+        .itemId = ITEM_PACK_GHOSTS_FROM_THE_PAST__THE_2ND_HAUNTING,
+        .price = 0,
+        .description = sGhostsFromthePastThe2ndHauntingDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_GLADIATOR_S_ASSAULT] =
+    {
+        .name = _("Gladiator's A"),
+        .itemId = ITEM_PACK_GLADIATOR_S_ASSAULT,
+        .price = 0,
+        .description = sGladiatorsAssaultDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_GLADIATOR_S_ASSAULT_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Gladiator's A"),
+        .itemId = ITEM_PACK_GLADIATOR_S_ASSAULT_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sGladiatorsAssaultSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_GLADIATOR_S_ASSAULT__SPECIAL_EDITION] =
+    {
+        .name = _("Gladiator's A"),
+        .itemId = ITEM_PACK_GLADIATOR_S_ASSAULT__SPECIAL_EDITION,
+        .price = 0,
+        .description = sGladiatorsAssaultSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_GOLD_SERIES] =
+    {
+        .name = _("Gold Series"),
+        .itemId = ITEM_PACK_GOLD_SERIES,
+        .price = 0,
+        .description = sGoldSeriesDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_GOLD_SERIES_2009] =
+    {
+        .name = _("Gold Series 2"),
+        .itemId = ITEM_PACK_GOLD_SERIES_2009,
+        .price = 0,
+        .description = sGoldSeries2009Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_GOLD_SERIES_3] =
+    {
+        .name = _("Gold Series 3"),
+        .itemId = ITEM_PACK_GOLD_SERIES_3,
+        .price = 0,
+        .description = sGoldSeries3Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_GOLD_SERIES_4__PYRAMIDS_EDITION] =
+    {
+        .name = _("Gold Series 4"),
+        .itemId = ITEM_PACK_GOLD_SERIES_4__PYRAMIDS_EDITION,
+        .price = 0,
+        .description = sGoldSeries4PyramidsEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_GOLD_SERIES__HAUNTED_MINE] =
+    {
+        .name = _("Gold Series: "),
+        .itemId = ITEM_PACK_GOLD_SERIES__HAUNTED_MINE,
+        .price = 0,
+        .description = sGoldSeriesHauntedMineDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HERO_STRIKE_STRUCTURE_DECK] =
+    {
+        .name = _("HERO Strike S"),
+        .itemId = ITEM_PACK_HERO_STRIKE_STRUCTURE_DECK,
+        .price = 0,
+        .description = sHEROStrikeStructureDeckDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HIDDEN_ARSENAL] =
+    {
+        .name = _("Hidden Arsena"),
+        .itemId = ITEM_PACK_HIDDEN_ARSENAL,
+        .price = 0,
+        .description = sHiddenArsenalDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HIDDEN_ARSENAL_2] =
+    {
+        .name = _("Hidden Arsena"),
+        .itemId = ITEM_PACK_HIDDEN_ARSENAL_2,
+        .price = 0,
+        .description = sHiddenArsenal2Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HIDDEN_ARSENAL_3] =
+    {
+        .name = _("Hidden Arsena"),
+        .itemId = ITEM_PACK_HIDDEN_ARSENAL_3,
+        .price = 0,
+        .description = sHiddenArsenal3Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HIDDEN_ARSENAL_4__TRISHULA_S_TRIUMPH] =
+    {
+        .name = _("Hidden Arsena"),
+        .itemId = ITEM_PACK_HIDDEN_ARSENAL_4__TRISHULA_S_TRIUMPH,
+        .price = 0,
+        .description = sHiddenArsenal4TrishulasTriumphDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HIDDEN_ARSENAL_5__STEELSWARM_INVASION] =
+    {
+        .name = _("Hidden Arsena"),
+        .itemId = ITEM_PACK_HIDDEN_ARSENAL_5__STEELSWARM_INVASION,
+        .price = 0,
+        .description = sHiddenArsenal5SteelswarmInvasionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HIDDEN_ARSENAL_5__STEELSWARM_INVASION__SPECIAL_EDITION] =
+    {
+        .name = _("Hidden Arsena"),
+        .itemId = ITEM_PACK_HIDDEN_ARSENAL_5__STEELSWARM_INVASION__SPECIAL_EDITION,
+        .price = 0,
+        .description = sHiddenArsenal5SteelswarmInvasionSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HIDDEN_ARSENAL_6__OMEGA_XYZ] =
+    {
+        .name = _("Hidden Arsena"),
+        .itemId = ITEM_PACK_HIDDEN_ARSENAL_6__OMEGA_XYZ,
+        .price = 0,
+        .description = sHiddenArsenal6OmegaXyzDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HIDDEN_ARSENAL_7__KNIGHT_OF_STARS] =
+    {
+        .name = _("Hidden Arsena"),
+        .itemId = ITEM_PACK_HIDDEN_ARSENAL_7__KNIGHT_OF_STARS,
+        .price = 0,
+        .description = sHiddenArsenal7KnightofStarsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HIDDEN_ARSENAL__CHAPTER_1] =
+    {
+        .name = _("Hidden Arsena"),
+        .itemId = ITEM_PACK_HIDDEN_ARSENAL__CHAPTER_1,
+        .price = 0,
+        .description = sHiddenArsenalChapter1Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HIDDEN_ARSENAL__SPECIAL_EDITION] =
+    {
+        .name = _("Hidden Arsena"),
+        .itemId = ITEM_PACK_HIDDEN_ARSENAL__SPECIAL_EDITION,
+        .price = 0,
+        .description = sHiddenArsenalSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HIDDEN_SUMMONERS] =
+    {
+        .name = _("Hidden Summon"),
+        .itemId = ITEM_PACK_HIDDEN_SUMMONERS,
+        .price = 0,
+        .description = sHiddenSummonersDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HIGH_SPEED_RIDERS] =
+    {
+        .name = _("High-Speed Ri"),
+        .itemId = ITEM_PACK_HIGH_SPEED_RIDERS,
+        .price = 0,
+        .description = sHighSpeedRidersDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_1_PARTICIPATION_CARDS_A] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_1_PARTICIPATION_CARDS_A,
+        .price = 0,
+        .description = sHobbyLeague1participationcardsADesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_1_PARTICIPATION_CARDS_B] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_1_PARTICIPATION_CARDS_B,
+        .price = 0,
+        .description = sHobbyLeague1participationcardsBDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_1_PARTICIPATION_CARDS_C] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_1_PARTICIPATION_CARDS_C,
+        .price = 0,
+        .description = sHobbyLeague1participationcardsCDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_2_PARTICIPATION_CARD_A] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_2_PARTICIPATION_CARD_A,
+        .price = 0,
+        .description = sHobbyLeague2participationcardADesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_2_PARTICIPATION_CARD_B] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_2_PARTICIPATION_CARD_B,
+        .price = 0,
+        .description = sHobbyLeague2participationcardBDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_2_PARTICIPATION_CARD_C] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_2_PARTICIPATION_CARD_C,
+        .price = 0,
+        .description = sHobbyLeague2participationcardCDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_2_PARTICIPATION_CARD_D] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_2_PARTICIPATION_CARD_D,
+        .price = 0,
+        .description = sHobbyLeague2participationcardDDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_2_PARTICIPATION_CARD_E] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_2_PARTICIPATION_CARD_E,
+        .price = 0,
+        .description = sHobbyLeague2participationcardEDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_2_PARTICIPATION_CARD_F] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_2_PARTICIPATION_CARD_F,
+        .price = 0,
+        .description = sHobbyLeague2participationcardFDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_A] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_A,
+        .price = 0,
+        .description = sHobbyLeague3participationcardADesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_B] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_B,
+        .price = 0,
+        .description = sHobbyLeague3participationcardBDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_C] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_C,
+        .price = 0,
+        .description = sHobbyLeague3participationcardCDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_D] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_D,
+        .price = 0,
+        .description = sHobbyLeague3participationcardDDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_E] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_E,
+        .price = 0,
+        .description = sHobbyLeague3participationcardEDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_F] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_F,
+        .price = 0,
+        .description = sHobbyLeague3participationcardFDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_G] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_3_PARTICIPATION_CARD_G,
+        .price = 0,
+        .description = sHobbyLeague3participationcardGDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_4_PARTICIPATION_CARD_A] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_4_PARTICIPATION_CARD_A,
+        .price = 0,
+        .description = sHobbyLeague4participationcardADesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_4_PARTICIPATION_CARD_B] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_4_PARTICIPATION_CARD_B,
+        .price = 0,
+        .description = sHobbyLeague4participationcardBDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_4_PARTICIPATION_CARD_C] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_4_PARTICIPATION_CARD_C,
+        .price = 0,
+        .description = sHobbyLeague4participationcardCDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_4_PARTICIPATION_CARD_D] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_4_PARTICIPATION_CARD_D,
+        .price = 0,
+        .description = sHobbyLeague4participationcardDDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_4_PARTICIPATION_CARD_E] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_4_PARTICIPATION_CARD_E,
+        .price = 0,
+        .description = sHobbyLeague4participationcardEDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_4_PARTICIPATION_CARD_F] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_4_PARTICIPATION_CARD_F,
+        .price = 0,
+        .description = sHobbyLeague4participationcardFDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_5_PARTICIPATION_CARD_A] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_5_PARTICIPATION_CARD_A,
+        .price = 0,
+        .description = sHobbyLeague5participationcardADesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_5_PARTICIPATION_CARD_B] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_5_PARTICIPATION_CARD_B,
+        .price = 0,
+        .description = sHobbyLeague5participationcardBDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_5_PARTICIPATION_CARD_C] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_5_PARTICIPATION_CARD_C,
+        .price = 0,
+        .description = sHobbyLeague5participationcardCDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_5_PARTICIPATION_CARD_D] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_5_PARTICIPATION_CARD_D,
+        .price = 0,
+        .description = sHobbyLeague5participationcardDDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_5_PARTICIPATION_CARD_E] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_5_PARTICIPATION_CARD_E,
+        .price = 0,
+        .description = sHobbyLeague5participationcardEDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_5_PARTICIPATION_CARD_F] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_5_PARTICIPATION_CARD_F,
+        .price = 0,
+        .description = sHobbyLeague5participationcardFDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_6_PARTICIPATION_CARD_A] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_6_PARTICIPATION_CARD_A,
+        .price = 0,
+        .description = sHobbyLeague6participationcardADesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_6_PARTICIPATION_CARD_B] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_6_PARTICIPATION_CARD_B,
+        .price = 0,
+        .description = sHobbyLeague6participationcardBDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_6_PARTICIPATION_CARD_C] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_6_PARTICIPATION_CARD_C,
+        .price = 0,
+        .description = sHobbyLeague6participationcardCDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_6_PARTICIPATION_CARD_D] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_6_PARTICIPATION_CARD_D,
+        .price = 0,
+        .description = sHobbyLeague6participationcardDDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_6_PARTICIPATION_CARD_E] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_6_PARTICIPATION_CARD_E,
+        .price = 0,
+        .description = sHobbyLeague6participationcardEDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_6_PARTICIPATION_CARD_F] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_6_PARTICIPATION_CARD_F,
+        .price = 0,
+        .description = sHobbyLeague6participationcardFDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_7_PARTICIPATION_CARD_A] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_7_PARTICIPATION_CARD_A,
+        .price = 0,
+        .description = sHobbyLeague7participationcardADesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_7_PARTICIPATION_CARD_B] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_7_PARTICIPATION_CARD_B,
+        .price = 0,
+        .description = sHobbyLeague7participationcardBDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_7_PARTICIPATION_CARD_C] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_7_PARTICIPATION_CARD_C,
+        .price = 0,
+        .description = sHobbyLeague7participationcardCDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_7_PARTICIPATION_CARD_D] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_7_PARTICIPATION_CARD_D,
+        .price = 0,
+        .description = sHobbyLeague7participationcardDDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_7_PARTICIPATION_CARD_E] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_7_PARTICIPATION_CARD_E,
+        .price = 0,
+        .description = sHobbyLeague7participationcardEDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_HOBBY_LEAGUE_7_PARTICIPATION_CARD_F] =
+    {
+        .name = _("Hobby League "),
+        .itemId = ITEM_PACK_HOBBY_LEAGUE_7_PARTICIPATION_CARD_F,
+        .price = 0,
+        .description = sHobbyLeague7participationcardFDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_IGNITION_ASSAULT] =
+    {
+        .name = _("Ignition Assa"),
+        .itemId = ITEM_PACK_IGNITION_ASSAULT,
+        .price = 0,
+        .description = sIgnitionAssaultDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_IGNITION_ASSAULT_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Ignition Assa"),
+        .itemId = ITEM_PACK_IGNITION_ASSAULT_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sIgnitionAssaultSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_IGNITION_ASSAULT_SPECIAL_EDITION] =
+    {
+        .name = _("Ignition Assa"),
+        .itemId = ITEM_PACK_IGNITION_ASSAULT_SPECIAL_EDITION,
+        .price = 0,
+        .description = sIgnitionAssaultSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_INVASION_OF_CHAOS] =
+    {
+        .name = _("Invasion of C"),
+        .itemId = ITEM_PACK_INVASION_OF_CHAOS,
+        .price = 0,
+        .description = sInvasionofChaosDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_INVASION_OF_CHAOS__SPECIAL_EDITION] =
+    {
+        .name = _("Invasion of C"),
+        .itemId = ITEM_PACK_INVASION_OF_CHAOS__SPECIAL_EDITION,
+        .price = 0,
+        .description = sInvasionofChaosSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_INVASION__VENGEANCE] =
+    {
+        .name = _("Invasion: Ven"),
+        .itemId = ITEM_PACK_INVASION__VENGEANCE,
+        .price = 0,
+        .description = sInvasionVengeanceDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_INVASION__VENGEANCE_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Invasion: Ven"),
+        .itemId = ITEM_PACK_INVASION__VENGEANCE_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sInvasionVengeanceSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_INVASION__VENGEANCE__SPECIAL_EDITION] =
+    {
+        .name = _("Invasion: Ven"),
+        .itemId = ITEM_PACK_INVASION__VENGEANCE__SPECIAL_EDITION,
+        .price = 0,
+        .description = sInvasionVengeanceSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_JUDGMENT_OF_THE_LIGHT] =
+    {
+        .name = _("Judgment of t"),
+        .itemId = ITEM_PACK_JUDGMENT_OF_THE_LIGHT,
+        .price = 0,
+        .description = sJudgmentoftheLightDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_JUDGMENT_OF_THE_LIGHT_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Judgment of t"),
+        .itemId = ITEM_PACK_JUDGMENT_OF_THE_LIGHT_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sJudgmentoftheLightSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_JUDGMENT_OF_THE_LIGHT__DELUXE_EDITION] =
+    {
+        .name = _("Judgment of t"),
+        .itemId = ITEM_PACK_JUDGMENT_OF_THE_LIGHT__DELUXE_EDITION,
+        .price = 0,
+        .description = sJudgmentoftheLightDeluxeEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_KC_GRAND_TOURNAMENT_2021_PRIZE_CARD] =
+    {
+        .name = _("KC Grand Tour"),
+        .itemId = ITEM_PACK_KC_GRAND_TOURNAMENT_2021_PRIZE_CARD,
+        .price = 0,
+        .description = sKCGrandTournament2021prizecardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_KC_GRAND_TOURNAMENT_PRIZE_CARD] =
+    {
+        .name = _("KC Grand Tour"),
+        .itemId = ITEM_PACK_KC_GRAND_TOURNAMENT_PRIZE_CARD,
+        .price = 0,
+        .description = sKCGrandTournamentprizecardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_KIDS_WB_DUEL_OF_DESTINY_PROMOTIONAL_CARD] =
+    {
+        .name = _("Kids WB Duel "),
+        .itemId = ITEM_PACK_KIDS_WB_DUEL_OF_DESTINY_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sKidsWBDuelofDestinypromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_KING_S_COURT] =
+    {
+        .name = _("King's Court"),
+        .itemId = ITEM_PACK_KING_S_COURT,
+        .price = 0,
+        .description = sKingsCourtDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LABYRINTH_OF_NIGHTMARE] =
+    {
+        .name = _("Labyrinth of "),
+        .itemId = ITEM_PACK_LABYRINTH_OF_NIGHTMARE,
+        .price = 0,
+        .description = sLabyrinthofNightmareDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGACY_OF_DARKNESS] =
+    {
+        .name = _("Legacy of Dar"),
+        .itemId = ITEM_PACK_LEGACY_OF_DARKNESS,
+        .price = 0,
+        .description = sLegacyofDarknessDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGACY_OF_DESTRUCTION] =
+    {
+        .name = _("Legacy of Des"),
+        .itemId = ITEM_PACK_LEGACY_OF_DESTRUCTION,
+        .price = 0,
+        .description = sLegacyofDestructionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGACY_OF_THE_VALIANT] =
+    {
+        .name = _("Legacy of the"),
+        .itemId = ITEM_PACK_LEGACY_OF_THE_VALIANT,
+        .price = 0,
+        .description = sLegacyoftheValiantDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGACY_OF_THE_VALIANT_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Legacy of the"),
+        .itemId = ITEM_PACK_LEGACY_OF_THE_VALIANT_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sLegacyoftheValiantSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGACY_OF_THE_VALIANT__DELUXE_EDITION] =
+    {
+        .name = _("Legacy of the"),
+        .itemId = ITEM_PACK_LEGACY_OF_THE_VALIANT__DELUXE_EDITION,
+        .price = 0,
+        .description = sLegacyoftheValiantDeluxeEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGEND_OF_BLUE_EYES_WHITE_DRAGON] =
+    {
+        .name = _("Legend of Blu"),
+        .itemId = ITEM_PACK_LEGEND_OF_BLUE_EYES_WHITE_DRAGON,
+        .price = 0,
+        .description = sLegendofBlueEyesWhiteDragonDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGENDARY_COLLECTION] =
+    {
+        .name = _("Legendary Col"),
+        .itemId = ITEM_PACK_LEGENDARY_COLLECTION,
+        .price = 0,
+        .description = sLegendaryCollectionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGENDARY_COLLECTION_2__THE_DUEL_ACADEMY_YEARS] =
+    {
+        .name = _("Legendary Col"),
+        .itemId = ITEM_PACK_LEGENDARY_COLLECTION_2__THE_DUEL_ACADEMY_YEARS,
+        .price = 0,
+        .description = sLegendaryCollection2TheDuelAcademyYearsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGENDARY_COLLECTION_2__THE_DUEL_ACADEMY_YEARS_MEGA_PACK] =
+    {
+        .name = _("Legendary Col"),
+        .itemId = ITEM_PACK_LEGENDARY_COLLECTION_2__THE_DUEL_ACADEMY_YEARS_MEGA_PACK,
+        .price = 0,
+        .description = sLegendaryCollection2TheDuelAcademyYearsMegaPackDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGENDARY_COLLECTION_3__YUGI_S_WORLD] =
+    {
+        .name = _("Legendary Col"),
+        .itemId = ITEM_PACK_LEGENDARY_COLLECTION_3__YUGI_S_WORLD,
+        .price = 0,
+        .description = sLegendaryCollection3YugisWorldDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGENDARY_COLLECTION_3__YUGI_S_WORLD_MEGA_PACK] =
+    {
+        .name = _("Legendary Col"),
+        .itemId = ITEM_PACK_LEGENDARY_COLLECTION_3__YUGI_S_WORLD_MEGA_PACK,
+        .price = 0,
+        .description = sLegendaryCollection3YugisWorldMegaPackDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGENDARY_COLLECTION_4__JOEY_S_WORLD] =
+    {
+        .name = _("Legendary Col"),
+        .itemId = ITEM_PACK_LEGENDARY_COLLECTION_4__JOEY_S_WORLD,
+        .price = 0,
+        .description = sLegendaryCollection4JoeysWorldDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGENDARY_COLLECTION_4__JOEY_S_WORLD_MEGA_PACK] =
+    {
+        .name = _("Legendary Col"),
+        .itemId = ITEM_PACK_LEGENDARY_COLLECTION_4__JOEY_S_WORLD_MEGA_PACK,
+        .price = 0,
+        .description = sLegendaryCollection4JoeysWorldMegaPackDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGENDARY_COLLECTION_5D_S] =
+    {
+        .name = _("Legendary Col"),
+        .itemId = ITEM_PACK_LEGENDARY_COLLECTION_5D_S,
+        .price = 0,
+        .description = sLegendaryCollection5DsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGENDARY_COLLECTION_5D_S_MEGA_PACK] =
+    {
+        .name = _("Legendary Col"),
+        .itemId = ITEM_PACK_LEGENDARY_COLLECTION_5D_S_MEGA_PACK,
+        .price = 0,
+        .description = sLegendaryCollection5DsMegaPackDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGENDARY_COLLECTION_KAIBA] =
+    {
+        .name = _("Legendary Col"),
+        .itemId = ITEM_PACK_LEGENDARY_COLLECTION_KAIBA,
+        .price = 0,
+        .description = sLegendaryCollectionKaibaDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGENDARY_COLLECTION_KAIBA_MEGA_PACK] =
+    {
+        .name = _("Legendary Col"),
+        .itemId = ITEM_PACK_LEGENDARY_COLLECTION_KAIBA_MEGA_PACK,
+        .price = 0,
+        .description = sLegendaryCollectionKaibaMegaPackDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGENDARY_COLLECTION__25TH_ANNIVERSARY_EDITION] =
+    {
+        .name = _("Legendary Col"),
+        .itemId = ITEM_PACK_LEGENDARY_COLLECTION__25TH_ANNIVERSARY_EDITION,
+        .price = 0,
+        .description = sLegendaryCollection25thAnniversaryEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGENDARY_DECKS_II] =
+    {
+        .name = _("Legendary Dec"),
+        .itemId = ITEM_PACK_LEGENDARY_DECKS_II,
+        .price = 0,
+        .description = sLegendaryDecksIIDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGENDARY_DRAGON_DECKS] =
+    {
+        .name = _("Legendary Dra"),
+        .itemId = ITEM_PACK_LEGENDARY_DRAGON_DECKS,
+        .price = 0,
+        .description = sLegendaryDragonDecksDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGENDARY_DUELISTS] =
+    {
+        .name = _("Legendary Due"),
+        .itemId = ITEM_PACK_LEGENDARY_DUELISTS,
+        .price = 0,
+        .description = sLegendaryDuelistsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGENDARY_DUELISTS__ANCIENT_MILLENNIUM] =
+    {
+        .name = _("Legendary Due"),
+        .itemId = ITEM_PACK_LEGENDARY_DUELISTS__ANCIENT_MILLENNIUM,
+        .price = 0,
+        .description = sLegendaryDuelistsAncientMillenniumDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGENDARY_DUELISTS__DUELS_FROM_THE_DEEP] =
+    {
+        .name = _("Legendary Due"),
+        .itemId = ITEM_PACK_LEGENDARY_DUELISTS__DUELS_FROM_THE_DEEP,
+        .price = 0,
+        .description = sLegendaryDuelistsDuelsFromtheDeepDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGENDARY_DUELISTS__IMMORTAL_DESTINY] =
+    {
+        .name = _("Legendary Due"),
+        .itemId = ITEM_PACK_LEGENDARY_DUELISTS__IMMORTAL_DESTINY,
+        .price = 0,
+        .description = sLegendaryDuelistsImmortalDestinyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGENDARY_DUELISTS__MAGICAL_HERO] =
+    {
+        .name = _("Legendary Due"),
+        .itemId = ITEM_PACK_LEGENDARY_DUELISTS__MAGICAL_HERO,
+        .price = 0,
+        .description = sLegendaryDuelistsMagicalHeroDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGENDARY_DUELISTS__RAGE_OF_RA] =
+    {
+        .name = _("Legendary Due"),
+        .itemId = ITEM_PACK_LEGENDARY_DUELISTS__RAGE_OF_RA,
+        .price = 0,
+        .description = sLegendaryDuelistsRageofRaDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGENDARY_DUELISTS__SEASON_1] =
+    {
+        .name = _("Legendary Due"),
+        .itemId = ITEM_PACK_LEGENDARY_DUELISTS__SEASON_1,
+        .price = 0,
+        .description = sLegendaryDuelistsSeason1Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGENDARY_DUELISTS__SEASON_2] =
+    {
+        .name = _("Legendary Due"),
+        .itemId = ITEM_PACK_LEGENDARY_DUELISTS__SEASON_2,
+        .price = 0,
+        .description = sLegendaryDuelistsSeason2Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGENDARY_DUELISTS__SEASON_3] =
+    {
+        .name = _("Legendary Due"),
+        .itemId = ITEM_PACK_LEGENDARY_DUELISTS__SEASON_3,
+        .price = 0,
+        .description = sLegendaryDuelistsSeason3Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGENDARY_DUELISTS__SISTERS_OF_THE_ROSE] =
+    {
+        .name = _("Legendary Due"),
+        .itemId = ITEM_PACK_LEGENDARY_DUELISTS__SISTERS_OF_THE_ROSE,
+        .price = 0,
+        .description = sLegendaryDuelistsSistersoftheRoseDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGENDARY_DUELISTS__SOULBURNING_VOLCANO] =
+    {
+        .name = _("Legendary Due"),
+        .itemId = ITEM_PACK_LEGENDARY_DUELISTS__SOULBURNING_VOLCANO,
+        .price = 0,
+        .description = sLegendaryDuelistsSoulburningVolcanoDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGENDARY_DUELISTS__SYNCHRO_STORM] =
+    {
+        .name = _("Legendary Due"),
+        .itemId = ITEM_PACK_LEGENDARY_DUELISTS__SYNCHRO_STORM,
+        .price = 0,
+        .description = sLegendaryDuelistsSynchroStormDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGENDARY_DUELISTS__WHITE_DRAGON_ABYSS] =
+    {
+        .name = _("Legendary Due"),
+        .itemId = ITEM_PACK_LEGENDARY_DUELISTS__WHITE_DRAGON_ABYSS,
+        .price = 0,
+        .description = sLegendaryDuelistsWhiteDragonAbyssDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LEGENDARY_HERO_DECKS] =
+    {
+        .name = _("Legendary Her"),
+        .itemId = ITEM_PACK_LEGENDARY_HERO_DECKS,
+        .price = 0,
+        .description = sLegendaryHeroDecksDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LIGHT_AND_DARKNESS_POWER_PACK] =
+    {
+        .name = _("Light and Dar"),
+        .itemId = ITEM_PACK_LIGHT_AND_DARKNESS_POWER_PACK,
+        .price = 0,
+        .description = sLightandDarknessPowerPackDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LIGHT_OF_DESTRUCTION] =
+    {
+        .name = _("Light of Dest"),
+        .itemId = ITEM_PACK_LIGHT_OF_DESTRUCTION,
+        .price = 0,
+        .description = sLightofDestructionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LIGHT_OF_DESTRUCTION_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Light of Dest"),
+        .itemId = ITEM_PACK_LIGHT_OF_DESTRUCTION_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sLightofDestructionSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LIGHT_OF_DESTRUCTION__SPECIAL_EDITION] =
+    {
+        .name = _("Light of Dest"),
+        .itemId = ITEM_PACK_LIGHT_OF_DESTRUCTION__SPECIAL_EDITION,
+        .price = 0,
+        .description = sLightofDestructionSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LIGHTNING_OVERDRIVE] =
+    {
+        .name = _("Lightning Ove"),
+        .itemId = ITEM_PACK_LIGHTNING_OVERDRIVE,
+        .price = 0,
+        .description = sLightningOverdriveDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LIGHTNING_OVERDRIVE_PREMIERE__PROMOTIONAL_CARD] =
+    {
+        .name = _("Lightning Ove"),
+        .itemId = ITEM_PACK_LIGHTNING_OVERDRIVE_PREMIERE__PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sLightningOverdrivePremierepromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LIMITED_EDITION_1] =
+    {
+        .name = _("Limited Editi"),
+        .itemId = ITEM_PACK_LIMITED_EDITION_1,
+        .price = 0,
+        .description = sLimitedEdition1Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LORD_OF_THE_TACHYON_GALAXY] =
+    {
+        .name = _("Lord of the T"),
+        .itemId = ITEM_PACK_LORD_OF_THE_TACHYON_GALAXY,
+        .price = 0,
+        .description = sLordoftheTachyonGalaxyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LORD_OF_THE_TACHYON_GALAXY_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Lord of the T"),
+        .itemId = ITEM_PACK_LORD_OF_THE_TACHYON_GALAXY_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sLordoftheTachyonGalaxySneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_LOST_SANCTUARY_STRUCTURE_DECK] =
+    {
+        .name = _("Lost Sanctuar"),
+        .itemId = ITEM_PACK_LOST_SANCTUARY_STRUCTURE_DECK,
+        .price = 0,
+        .description = sLostSanctuaryStructureDeckDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_MACHINA_MAYHEM_STRUCTURE_DECK] =
+    {
+        .name = _("Machina Mayhe"),
+        .itemId = ITEM_PACK_MACHINA_MAYHEM_STRUCTURE_DECK,
+        .price = 0,
+        .description = sMachinaMayhemStructureDeckDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_MACHINE_REACTOR_STRUCTURE_DECK] =
+    {
+        .name = _("Machine React"),
+        .itemId = ITEM_PACK_MACHINE_REACTOR_STRUCTURE_DECK,
+        .price = 0,
+        .description = sMachineReactorStructureDeckDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_MAGIC_RULER] =
+    {
+        .name = _("Magic Ruler"),
+        .itemId = ITEM_PACK_MAGIC_RULER,
+        .price = 0,
+        .description = sMagicRulerDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_MAGICIAN_S_FORCE] =
+    {
+        .name = _("Magician's Fo"),
+        .itemId = ITEM_PACK_MAGICIAN_S_FORCE,
+        .price = 0,
+        .description = sMagiciansForceDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_MAGNIFICENT_MAVENS] =
+    {
+        .name = _("Magnificent M"),
+        .itemId = ITEM_PACK_MAGNIFICENT_MAVENS,
+        .price = 0,
+        .description = sMagnificentMavensDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_MAKE_A_WISH_FOUNDATION_PROMOTIONAL_CARD] =
+    {
+        .name = _("Make-A-Wish F"),
+        .itemId = ITEM_PACK_MAKE_A_WISH_FOUNDATION_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sMakeAWishFoundationpromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_MASTER_COLLECTION_VOLUME_1] =
+    {
+        .name = _("Master Collec"),
+        .itemId = ITEM_PACK_MASTER_COLLECTION_VOLUME_1,
+        .price = 0,
+        .description = sMasterCollectionVolume1Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_MASTER_COLLECTION_VOLUME_2] =
+    {
+        .name = _("Master Collec"),
+        .itemId = ITEM_PACK_MASTER_COLLECTION_VOLUME_2,
+        .price = 0,
+        .description = sMasterCollectionVolume2Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_MASTER_OF_PENDULUM_STRUCTURE_DECK] =
+    {
+        .name = _("Master of Pen"),
+        .itemId = ITEM_PACK_MASTER_OF_PENDULUM_STRUCTURE_DECK,
+        .price = 0,
+        .description = sMasterofPendulumStructureDeckDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_MATTEL_ACTION_FIGURE_PROMOTIONAL_CARDS__SERIES_1] =
+    {
+        .name = _("Mattel Action"),
+        .itemId = ITEM_PACK_MATTEL_ACTION_FIGURE_PROMOTIONAL_CARDS__SERIES_1,
+        .price = 0,
+        .description = sMattelActionFigurepromotionalcardsSeries1Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_MATTEL_ACTION_FIGURE_PROMOTIONAL_CARDS__SERIES_2] =
+    {
+        .name = _("Mattel Action"),
+        .itemId = ITEM_PACK_MATTEL_ACTION_FIGURE_PROMOTIONAL_CARDS__SERIES_2,
+        .price = 0,
+        .description = sMattelActionFigurepromotionalcardsSeries2Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_MATTEL_ACTION_FIGURE_PROMOTIONAL_CARDS__SERIES_3] =
+    {
+        .name = _("Mattel Action"),
+        .itemId = ITEM_PACK_MATTEL_ACTION_FIGURE_PROMOTIONAL_CARDS__SERIES_3,
+        .price = 0,
+        .description = sMattelActionFigurepromotionalcardsSeries3Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_MAXIMUM_CRISIS] =
+    {
+        .name = _("Maximum Crisi"),
+        .itemId = ITEM_PACK_MAXIMUM_CRISIS,
+        .price = 0,
+        .description = sMaximumCrisisDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_MAXIMUM_CRISIS_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Maximum Crisi"),
+        .itemId = ITEM_PACK_MAXIMUM_CRISIS_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sMaximumCrisisSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_MAXIMUM_CRISIS__SPECIAL_EDITION] =
+    {
+        .name = _("Maximum Crisi"),
+        .itemId = ITEM_PACK_MAXIMUM_CRISIS__SPECIAL_EDITION,
+        .price = 0,
+        .description = sMaximumCrisisSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_MAXIMUM_GOLD] =
+    {
+        .name = _("Maximum Gold"),
+        .itemId = ITEM_PACK_MAXIMUM_GOLD,
+        .price = 0,
+        .description = sMaximumGoldDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_MAXIMUM_GOLD__EL_DORADO] =
+    {
+        .name = _("Maximum Gold:"),
+        .itemId = ITEM_PACK_MAXIMUM_GOLD__EL_DORADO,
+        .price = 0,
+        .description = sMaximumGoldElDoradoDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_MAZE_OF_MEMORIES] =
+    {
+        .name = _("Maze of Memor"),
+        .itemId = ITEM_PACK_MAZE_OF_MEMORIES,
+        .price = 0,
+        .description = sMazeofMemoriesDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_MAZE_OF_MILLENNIA] =
+    {
+        .name = _("Maze of Mille"),
+        .itemId = ITEM_PACK_MAZE_OF_MILLENNIA,
+        .price = 0,
+        .description = sMazeofMillenniaDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_MAZE_OF_THE_MASTER] =
+    {
+        .name = _("Maze of the M"),
+        .itemId = ITEM_PACK_MAZE_OF_THE_MASTER,
+        .price = 0,
+        .description = sMazeoftheMasterDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_MCDONALD_S_PROMOTIONAL_CARDS] =
+    {
+        .name = _("McDonald's Pr"),
+        .itemId = ITEM_PACK_MCDONALD_S_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sMcDonaldsPromotionalCardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_MCDONALD_S_PROMOTIONAL_CARDS_2] =
+    {
+        .name = _("McDonald's Pr"),
+        .itemId = ITEM_PACK_MCDONALD_S_PROMOTIONAL_CARDS_2,
+        .price = 0,
+        .description = sMcDonaldsPromotionalCards2Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_METAL_RAIDERS] =
+    {
+        .name = _("Metal Raiders"),
+        .itemId = ITEM_PACK_METAL_RAIDERS,
+        .price = 0,
+        .description = sMetalRaidersDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_MILLENNIUM_PACK] =
+    {
+        .name = _("Millennium Pa"),
+        .itemId = ITEM_PACK_MILLENNIUM_PACK,
+        .price = 0,
+        .description = sMillenniumPackDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_MOVIE_PACK] =
+    {
+        .name = _("Movie Pack"),
+        .itemId = ITEM_PACK_MOVIE_PACK,
+        .price = 0,
+        .description = sMoviePackDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_MYSTIC_FIGHTERS] =
+    {
+        .name = _("Mystic Fighte"),
+        .itemId = ITEM_PACK_MYSTIC_FIGHTERS,
+        .price = 0,
+        .description = sMysticFightersDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_NOBLE_KNIGHTS_OF_THE_ROUND_TABLE_BOX_SET] =
+    {
+        .name = _("Noble Knights"),
+        .itemId = ITEM_PACK_NOBLE_KNIGHTS_OF_THE_ROUND_TABLE_BOX_SET,
+        .price = 0,
+        .description = sNobleKnightsoftheRoundTableBoxSetDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_NOBLE_KNIGHTS_OF_THE_ROUND_TABLE_POWER_UP_PACK] =
+    {
+        .name = _("Noble Knights"),
+        .itemId = ITEM_PACK_NOBLE_KNIGHTS_OF_THE_ROUND_TABLE_POWER_UP_PACK,
+        .price = 0,
+        .description = sNobleKnightsoftheRoundTablePowerUpPackDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_NUMBER_HUNTERS] =
+    {
+        .name = _("Number Hunter"),
+        .itemId = ITEM_PACK_NUMBER_HUNTERS,
+        .price = 0,
+        .description = sNumberHuntersDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_1] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_1,
+        .price = 0,
+        .description = sOTSTournamentPack1Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_10] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_10,
+        .price = 0,
+        .description = sOTSTournamentPack10Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_10__POR_] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_10__POR_,
+        .price = 0,
+        .description = sOTSTournamentPack10PORDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_11] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_11,
+        .price = 0,
+        .description = sOTSTournamentPack11Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_11__POR_] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_11__POR_,
+        .price = 0,
+        .description = sOTSTournamentPack11PORDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_12] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_12,
+        .price = 0,
+        .description = sOTSTournamentPack12Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_12__POR_] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_12__POR_,
+        .price = 0,
+        .description = sOTSTournamentPack12PORDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_13] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_13,
+        .price = 0,
+        .description = sOTSTournamentPack13Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_13__POR_] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_13__POR_,
+        .price = 0,
+        .description = sOTSTournamentPack13PORDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_14] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_14,
+        .price = 0,
+        .description = sOTSTournamentPack14Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_14__POR_] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_14__POR_,
+        .price = 0,
+        .description = sOTSTournamentPack14PORDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_15] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_15,
+        .price = 0,
+        .description = sOTSTournamentPack15Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_15__POR_] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_15__POR_,
+        .price = 0,
+        .description = sOTSTournamentPack15PORDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_16] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_16,
+        .price = 0,
+        .description = sOTSTournamentPack16Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_16__POR_] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_16__POR_,
+        .price = 0,
+        .description = sOTSTournamentPack16PORDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_17] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_17,
+        .price = 0,
+        .description = sOTSTournamentPack17Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_17__POR_] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_17__POR_,
+        .price = 0,
+        .description = sOTSTournamentPack17PORDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_18] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_18,
+        .price = 0,
+        .description = sOTSTournamentPack18Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_18__POR_] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_18__POR_,
+        .price = 0,
+        .description = sOTSTournamentPack18PORDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_19] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_19,
+        .price = 0,
+        .description = sOTSTournamentPack19Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_19__POR_] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_19__POR_,
+        .price = 0,
+        .description = sOTSTournamentPack19PORDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_2] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_2,
+        .price = 0,
+        .description = sOTSTournamentPack2Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_20] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_20,
+        .price = 0,
+        .description = sOTSTournamentPack20Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_21] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_21,
+        .price = 0,
+        .description = sOTSTournamentPack21Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_22] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_22,
+        .price = 0,
+        .description = sOTSTournamentPack22Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_23] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_23,
+        .price = 0,
+        .description = sOTSTournamentPack23Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_24] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_24,
+        .price = 0,
+        .description = sOTSTournamentPack24Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_25] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_25,
+        .price = 0,
+        .description = sOTSTournamentPack25Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_26] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_26,
+        .price = 0,
+        .description = sOTSTournamentPack26Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_27] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_27,
+        .price = 0,
+        .description = sOTSTournamentPack27Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_28] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_28,
+        .price = 0,
+        .description = sOTSTournamentPack28Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_3] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_3,
+        .price = 0,
+        .description = sOTSTournamentPack3Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_4] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_4,
+        .price = 0,
+        .description = sOTSTournamentPack4Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_5] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_5,
+        .price = 0,
+        .description = sOTSTournamentPack5Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_6] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_6,
+        .price = 0,
+        .description = sOTSTournamentPack6Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_7] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_7,
+        .price = 0,
+        .description = sOTSTournamentPack7Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_7__POR_] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_7__POR_,
+        .price = 0,
+        .description = sOTSTournamentPack7PORDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_8] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_8,
+        .price = 0,
+        .description = sOTSTournamentPack8Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_8__POR_] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_8__POR_,
+        .price = 0,
+        .description = sOTSTournamentPack8PORDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_9] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_9,
+        .price = 0,
+        .description = sOTSTournamentPack9Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_OTS_TOURNAMENT_PACK_9__POR_] =
+    {
+        .name = _("OTS Tournamen"),
+        .itemId = ITEM_PACK_OTS_TOURNAMENT_PACK_9__POR_,
+        .price = 0,
+        .description = sOTSTournamentPack9PORDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ONSLAUGHT_OF_THE_FIRE_KINGS_STRUCTURE_DECK] =
+    {
+        .name = _("Onslaught of "),
+        .itemId = ITEM_PACK_ONSLAUGHT_OF_THE_FIRE_KINGS_STRUCTURE_DECK,
+        .price = 0,
+        .description = sOnslaughtoftheFireKingsStructureDeckDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ORDER_OF_CHAOS] =
+    {
+        .name = _("Order of Chao"),
+        .itemId = ITEM_PACK_ORDER_OF_CHAOS,
+        .price = 0,
+        .description = sOrderofChaosDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ORDER_OF_CHAOS_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Order of Chao"),
+        .itemId = ITEM_PACK_ORDER_OF_CHAOS_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sOrderofChaosSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ORDER_OF_CHAOS__SPECIAL_EDITION] =
+    {
+        .name = _("Order of Chao"),
+        .itemId = ITEM_PACK_ORDER_OF_CHAOS__SPECIAL_EDITION,
+        .price = 0,
+        .description = sOrderofChaosSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_PALLADIUM_ORACLE_MAHAD_SWEEPSTAKES] =
+    {
+        .name = _("Palladium Ora"),
+        .itemId = ITEM_PACK_PALLADIUM_ORACLE_MAHAD_SWEEPSTAKES,
+        .price = 0,
+        .description = sPalladiumOracleMahadSweepstakesDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_PENDULUM_DOMINATION_STRUCTURE_DECK] =
+    {
+        .name = _("Pendulum Domi"),
+        .itemId = ITEM_PACK_PENDULUM_DOMINATION_STRUCTURE_DECK,
+        .price = 0,
+        .description = sPendulumDominationStructureDeckDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_PENDULUM_EVOLUTION] =
+    {
+        .name = _("Pendulum Evol"),
+        .itemId = ITEM_PACK_PENDULUM_EVOLUTION,
+        .price = 0,
+        .description = sPendulumEvolutionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_PHANTOM_DARKNESS] =
+    {
+        .name = _("Phantom Darkn"),
+        .itemId = ITEM_PACK_PHANTOM_DARKNESS,
+        .price = 0,
+        .description = sPhantomDarknessDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_PHANTOM_DARKNESS_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Phantom Darkn"),
+        .itemId = ITEM_PACK_PHANTOM_DARKNESS_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sPhantomDarknessSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_PHANTOM_DARKNESS__SPECIAL_EDITION] =
+    {
+        .name = _("Phantom Darkn"),
+        .itemId = ITEM_PACK_PHANTOM_DARKNESS__SPECIAL_EDITION,
+        .price = 0,
+        .description = sPhantomDarknessSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_PHANTOM_NIGHTMARE] =
+    {
+        .name = _("Phantom Night"),
+        .itemId = ITEM_PACK_PHANTOM_NIGHTMARE,
+        .price = 0,
+        .description = sPhantomNightmareDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_PHANTOM_RAGE] =
+    {
+        .name = _("Phantom Rage"),
+        .itemId = ITEM_PACK_PHANTOM_RAGE,
+        .price = 0,
+        .description = sPhantomRageDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_PHANTOM_RAGE_PREMIERE__PROMOTIONAL_CARD] =
+    {
+        .name = _("Phantom Rage "),
+        .itemId = ITEM_PACK_PHANTOM_RAGE_PREMIERE__PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sPhantomRagePremierepromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_PHARAOH_TOUR_2005_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Pharaoh Tour "),
+        .itemId = ITEM_PACK_PHARAOH_TOUR_2005_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sPharaohTour2005promotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_PHARAOH_TOUR_2006_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Pharaoh Tour "),
+        .itemId = ITEM_PACK_PHARAOH_TOUR_2006_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sPharaohTour2006promotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_PHARAOH_TOUR_2007_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Pharaoh Tour "),
+        .itemId = ITEM_PACK_PHARAOH_TOUR_2007_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sPharaohTour2007promotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_PHARAOH_S_SERVANT] =
+    {
+        .name = _("Pharaoh's Ser"),
+        .itemId = ITEM_PACK_PHARAOH_S_SERVANT,
+        .price = 0,
+        .description = sPharaohsServantDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_PHARAONIC_GUARDIAN] =
+    {
+        .name = _("Pharaonic Gua"),
+        .itemId = ITEM_PACK_PHARAONIC_GUARDIAN,
+        .price = 0,
+        .description = sPharaonicGuardianDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_PHOTON_HYPERNOVA] =
+    {
+        .name = _("Photon Hypern"),
+        .itemId = ITEM_PACK_PHOTON_HYPERNOVA,
+        .price = 0,
+        .description = sPhotonHypernovaDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_PHOTON_SHOCKWAVE] =
+    {
+        .name = _("Photon Shockw"),
+        .itemId = ITEM_PACK_PHOTON_SHOCKWAVE,
+        .price = 0,
+        .description = sPhotonShockwaveDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_PHOTON_SHOCKWAVE_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Photon Shockw"),
+        .itemId = ITEM_PACK_PHOTON_SHOCKWAVE_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sPhotonShockwaveSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_POWER_OF_THE_DUELIST] =
+    {
+        .name = _("Power of the "),
+        .itemId = ITEM_PACK_POWER_OF_THE_DUELIST,
+        .price = 0,
+        .description = sPoweroftheDuelistDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_POWER_OF_THE_DUELIST_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Power of the "),
+        .itemId = ITEM_PACK_POWER_OF_THE_DUELIST_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sPoweroftheDuelistSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_POWER_OF_THE_ELEMENTS] =
+    {
+        .name = _("Power of the "),
+        .itemId = ITEM_PACK_POWER_OF_THE_ELEMENTS,
+        .price = 0,
+        .description = sPoweroftheElementsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_PREMIUM_COLLECTION_TIN] =
+    {
+        .name = _("Premium Colle"),
+        .itemId = ITEM_PACK_PREMIUM_COLLECTION_TIN,
+        .price = 0,
+        .description = sPremiumCollectionTinDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_PREMIUM_GOLD] =
+    {
+        .name = _("Premium Gold"),
+        .itemId = ITEM_PACK_PREMIUM_GOLD,
+        .price = 0,
+        .description = sPremiumGoldDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_PREMIUM_GOLD__INFINITE_GOLD] =
+    {
+        .name = _("Premium Gold:"),
+        .itemId = ITEM_PACK_PREMIUM_GOLD__INFINITE_GOLD,
+        .price = 0,
+        .description = sPremiumGoldInfiniteGoldDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_PREMIUM_GOLD__RETURN_OF_THE_BLING] =
+    {
+        .name = _("Premium Gold:"),
+        .itemId = ITEM_PACK_PREMIUM_GOLD__RETURN_OF_THE_BLING,
+        .price = 0,
+        .description = sPremiumGoldReturnoftheBlingDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_PREMIUM_PACK__TCG_] =
+    {
+        .name = _("Premium Pack "),
+        .itemId = ITEM_PACK_PREMIUM_PACK__TCG_,
+        .price = 0,
+        .description = sPremiumPackTCGDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_PREMIUM_PACK_2__TCG_] =
+    {
+        .name = _("Premium Pack "),
+        .itemId = ITEM_PACK_PREMIUM_PACK_2__TCG_,
+        .price = 0,
+        .description = sPremiumPack2TCGDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_PRIMAL_ORIGIN] =
+    {
+        .name = _("Primal Origin"),
+        .itemId = ITEM_PACK_PRIMAL_ORIGIN,
+        .price = 0,
+        .description = sPrimalOriginDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_PRIMAL_ORIGIN_PLUS] =
+    {
+        .name = _("Primal Origin"),
+        .itemId = ITEM_PACK_PRIMAL_ORIGIN_PLUS,
+        .price = 0,
+        .description = sPrimalOriginPlusDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_PRIMAL_ORIGIN_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Primal Origin"),
+        .itemId = ITEM_PACK_PRIMAL_ORIGIN_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sPrimalOriginSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_PRIMAL_ORIGIN__DELUXE_EDITION] =
+    {
+        .name = _("Primal Origin"),
+        .itemId = ITEM_PACK_PRIMAL_ORIGIN__DELUXE_EDITION,
+        .price = 0,
+        .description = sPrimalOriginDeluxeEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_QUARTER_CENTURY_BONANZA] =
+    {
+        .name = _("Quarter Centu"),
+        .itemId = ITEM_PACK_QUARTER_CENTURY_BONANZA,
+        .price = 0,
+        .description = sQuarterCenturyBonanzaDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_QUARTER_CENTURY_STAMPEDE] =
+    {
+        .name = _("Quarter Centu"),
+        .itemId = ITEM_PACK_QUARTER_CENTURY_STAMPEDE,
+        .price = 0,
+        .description = sQuarterCenturyStampedeDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_RA_YELLOW_MEGA_PACK] =
+    {
+        .name = _("Ra Yellow Meg"),
+        .itemId = ITEM_PACK_RA_YELLOW_MEGA_PACK,
+        .price = 0,
+        .description = sRaYellowMegaPackDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_RA_YELLOW_MEGA_PACK__SPECIAL_EDITION] =
+    {
+        .name = _("Ra Yellow Meg"),
+        .itemId = ITEM_PACK_RA_YELLOW_MEGA_PACK__SPECIAL_EDITION,
+        .price = 0,
+        .description = sRaYellowMegaPackSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_RAGE_OF_THE_ABYSS] =
+    {
+        .name = _("Rage of the A"),
+        .itemId = ITEM_PACK_RAGE_OF_THE_ABYSS,
+        .price = 0,
+        .description = sRageoftheAbyssDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_RAGING_BATTLE] =
+    {
+        .name = _("Raging Battle"),
+        .itemId = ITEM_PACK_RAGING_BATTLE,
+        .price = 0,
+        .description = sRagingBattleDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_RAGING_BATTLE_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Raging Battle"),
+        .itemId = ITEM_PACK_RAGING_BATTLE_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sRagingBattleSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_RAGING_BATTLE__SPECIAL_EDITION] =
+    {
+        .name = _("Raging Battle"),
+        .itemId = ITEM_PACK_RAGING_BATTLE__SPECIAL_EDITION,
+        .price = 0,
+        .description = sRagingBattleSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_RAGING_TEMPEST] =
+    {
+        .name = _("Raging Tempes"),
+        .itemId = ITEM_PACK_RAGING_TEMPEST,
+        .price = 0,
+        .description = sRagingTempestDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_RAGING_TEMPEST_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Raging Tempes"),
+        .itemId = ITEM_PACK_RAGING_TEMPEST_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sRagingTempestSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_RAGING_TEMPEST__SPECIAL_EDITION] =
+    {
+        .name = _("Raging Tempes"),
+        .itemId = ITEM_PACK_RAGING_TEMPEST__SPECIAL_EDITION,
+        .price = 0,
+        .description = sRagingTempestSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_REALM_OF_LIGHT_STRUCTURE_DECK] =
+    {
+        .name = _("Realm of Ligh"),
+        .itemId = ITEM_PACK_REALM_OF_LIGHT_STRUCTURE_DECK,
+        .price = 0,
+        .description = sRealmofLightStructureDeckDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_REALM_OF_THE_SEA_EMPEROR_STRUCTURE_DECK] =
+    {
+        .name = _("Realm of the "),
+        .itemId = ITEM_PACK_REALM_OF_THE_SEA_EMPEROR_STRUCTURE_DECK,
+        .price = 0,
+        .description = sRealmoftheSeaEmperorStructureDeckDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_REMOTE_DUEL_AT_HOME_SWEEPSTAKES] =
+    {
+        .name = _("Remote Duel a"),
+        .itemId = ITEM_PACK_REMOTE_DUEL_AT_HOME_SWEEPSTAKES,
+        .price = 0,
+        .description = sRemoteDuelatHomeSweepstakesDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_RETRO_PACK] =
+    {
+        .name = _("Retro Pack"),
+        .itemId = ITEM_PACK_RETRO_PACK,
+        .price = 0,
+        .description = sRetroPackDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_RETRO_PACK_2] =
+    {
+        .name = _("Retro Pack 2"),
+        .itemId = ITEM_PACK_RETRO_PACK_2,
+        .price = 0,
+        .description = sRetroPack2Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_RETURN_OF_THE_DUELIST] =
+    {
+        .name = _("Return of the"),
+        .itemId = ITEM_PACK_RETURN_OF_THE_DUELIST,
+        .price = 0,
+        .description = sReturnoftheDuelistDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_RETURN_OF_THE_DUELIST_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Return of the"),
+        .itemId = ITEM_PACK_RETURN_OF_THE_DUELIST_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sReturnoftheDuelistSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_RETURN_OF_THE_DUELIST__SPECIAL_EDITION] =
+    {
+        .name = _("Return of the"),
+        .itemId = ITEM_PACK_RETURN_OF_THE_DUELIST__SPECIAL_EDITION,
+        .price = 0,
+        .description = sReturnoftheDuelistSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_RISE_OF_DESTINY] =
+    {
+        .name = _("Rise of Desti"),
+        .itemId = ITEM_PACK_RISE_OF_DESTINY,
+        .price = 0,
+        .description = sRiseofDestinyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_RISE_OF_DESTINY__SPECIAL_EDITION] =
+    {
+        .name = _("Rise of Desti"),
+        .itemId = ITEM_PACK_RISE_OF_DESTINY__SPECIAL_EDITION,
+        .price = 0,
+        .description = sRiseofDestinySpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_RISE_OF_THE_DRAGON_LORDS_STRUCTURE_DECK] =
+    {
+        .name = _("Rise of the D"),
+        .itemId = ITEM_PACK_RISE_OF_THE_DRAGON_LORDS_STRUCTURE_DECK,
+        .price = 0,
+        .description = sRiseoftheDragonLordsStructureDeckDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_RISE_OF_THE_DUELIST] =
+    {
+        .name = _("Rise of the D"),
+        .itemId = ITEM_PACK_RISE_OF_THE_DUELIST,
+        .price = 0,
+        .description = sRiseoftheDuelistDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_RISE_OF_THE_DUELIST_PREMIERE__PROMOTIONAL_CARD] =
+    {
+        .name = _("Rise of the D"),
+        .itemId = ITEM_PACK_RISE_OF_THE_DUELIST_PREMIERE__PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sRiseoftheDuelistPremierepromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_RISE_OF_THE_TRUE_DRAGONS_STRUCTURE_DECK] =
+    {
+        .name = _("Rise of the T"),
+        .itemId = ITEM_PACK_RISE_OF_THE_TRUE_DRAGONS_STRUCTURE_DECK,
+        .price = 0,
+        .description = sRiseoftheTrueDragonsStructureDeckDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_RISING_RAMPAGE] =
+    {
+        .name = _("Rising Rampag"),
+        .itemId = ITEM_PACK_RISING_RAMPAGE,
+        .price = 0,
+        .description = sRisingRampageDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_RISING_RAMPAGE_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Rising Rampag"),
+        .itemId = ITEM_PACK_RISING_RAMPAGE_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sRisingRampageSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_RISING_RAMPAGE_SPECIAL_EDITION] =
+    {
+        .name = _("Rising Rampag"),
+        .itemId = ITEM_PACK_RISING_RAMPAGE_SPECIAL_EDITION,
+        .price = 0,
+        .description = sRisingRampageSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SJ_JUMP_PACK_SPRING_2020_PROMOTIONAL_CARD] =
+    {
+        .name = _("SJ Jump Pack "),
+        .itemId = ITEM_PACK_SJ_JUMP_PACK_SPRING_2020_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sSJJumpPackSpring2020promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SABER_FORCE_STARTER_DECK] =
+    {
+        .name = _("Saber Force S"),
+        .itemId = ITEM_PACK_SABER_FORCE_STARTER_DECK,
+        .price = 0,
+        .description = sSaberForceStarterDeckDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SAGA_OF_BLUE_EYES_WHITE_DRAGON_STRUCTURE_DECK] =
+    {
+        .name = _("Saga of Blue-"),
+        .itemId = ITEM_PACK_SAGA_OF_BLUE_EYES_WHITE_DRAGON_STRUCTURE_DECK,
+        .price = 0,
+        .description = sSagaofBlueEyesWhiteDragonStructureDeckDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SAMURAI_ASSAULT] =
+    {
+        .name = _("Samurai Assau"),
+        .itemId = ITEM_PACK_SAMURAI_ASSAULT,
+        .price = 0,
+        .description = sSamuraiAssaultDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SAMURAI_WARLORDS_STRUCTURE_DECK] =
+    {
+        .name = _("Samurai Warlo"),
+        .itemId = ITEM_PACK_SAMURAI_WARLORDS_STRUCTURE_DECK,
+        .price = 0,
+        .description = sSamuraiWarlordsStructureDeckDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SAN_DIEGO_COMIC_CON_PROMOTIONAL_CARDS] =
+    {
+        .name = _("San Diego Com"),
+        .itemId = ITEM_PACK_SAN_DIEGO_COMIC_CON_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sSanDiegoComicConpromotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SAVAGE_STRIKE] =
+    {
+        .name = _("Savage Strike"),
+        .itemId = ITEM_PACK_SAVAGE_STRIKE,
+        .price = 0,
+        .description = sSavageStrikeDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SAVAGE_STRIKE_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Savage Strike"),
+        .itemId = ITEM_PACK_SAVAGE_STRIKE_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sSavageStrikeSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SAVAGE_STRIKE_SPECIAL_EDITION] =
+    {
+        .name = _("Savage Strike"),
+        .itemId = ITEM_PACK_SAVAGE_STRIKE_SPECIAL_EDITION,
+        .price = 0,
+        .description = sSavageStrikeSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SECRET_SLAYERS] =
+    {
+        .name = _("Secret Slayer"),
+        .itemId = ITEM_PACK_SECRET_SLAYERS,
+        .price = 0,
+        .description = sSecretSlayersDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SECRETS_OF_ETERNITY] =
+    {
+        .name = _("Secrets of Et"),
+        .itemId = ITEM_PACK_SECRETS_OF_ETERNITY,
+        .price = 0,
+        .description = sSecretsofEternityDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SECRETS_OF_ETERNITY_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Secrets of Et"),
+        .itemId = ITEM_PACK_SECRETS_OF_ETERNITY_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sSecretsofEternitySneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SECRETS_OF_ETERNITY__SUPER_EDITION] =
+    {
+        .name = _("Secrets of Et"),
+        .itemId = ITEM_PACK_SECRETS_OF_ETERNITY__SUPER_EDITION,
+        .price = 0,
+        .description = sSecretsofEternitySuperEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHADOW_SPECTERS] =
+    {
+        .name = _("Shadow Specte"),
+        .itemId = ITEM_PACK_SHADOW_SPECTERS,
+        .price = 0,
+        .description = sShadowSpectersDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHADOW_SPECTERS_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Shadow Specte"),
+        .itemId = ITEM_PACK_SHADOW_SPECTERS_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sShadowSpectersSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHADOW_SPECTERS__SPECIAL_EDITION] =
+    {
+        .name = _("Shadow Specte"),
+        .itemId = ITEM_PACK_SHADOW_SPECTERS__SPECIAL_EDITION,
+        .price = 0,
+        .description = sShadowSpectersSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHADOW_OF_INFINITY] =
+    {
+        .name = _("Shadow of Inf"),
+        .itemId = ITEM_PACK_SHADOW_OF_INFINITY,
+        .price = 0,
+        .description = sShadowofInfinityDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHADOW_OF_INFINITY_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Shadow of Inf"),
+        .itemId = ITEM_PACK_SHADOW_OF_INFINITY_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sShadowofInfinitySneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHADOW_OF_INFINITY__SPECIAL_EDITION] =
+    {
+        .name = _("Shadow of Inf"),
+        .itemId = ITEM_PACK_SHADOW_OF_INFINITY__SPECIAL_EDITION,
+        .price = 0,
+        .description = sShadowofInfinitySpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHADOWS_IN_VALHALLA] =
+    {
+        .name = _("Shadows in Va"),
+        .itemId = ITEM_PACK_SHADOWS_IN_VALHALLA,
+        .price = 0,
+        .description = sShadowsinValhallaDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHINING_VICTORIES] =
+    {
+        .name = _("Shining Victo"),
+        .itemId = ITEM_PACK_SHINING_VICTORIES,
+        .price = 0,
+        .description = sShiningVictoriesDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHINING_VICTORIES_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Shining Victo"),
+        .itemId = ITEM_PACK_SHINING_VICTORIES_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sShiningVictoriesSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHINING_VICTORIES__SPECIAL_EDITION] =
+    {
+        .name = _("Shining Victo"),
+        .itemId = ITEM_PACK_SHINING_VICTORIES__SPECIAL_EDITION,
+        .price = 0,
+        .description = sShiningVictoriesSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_2007_SUBSCRIPTION_BONUS] =
+    {
+        .name = _("Shonen Jump 2"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_2007_SUBSCRIPTION_BONUS,
+        .price = 0,
+        .description = sShonenJump2007subscriptionbonusDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_CHAMPIONSHIP_2004_PRIZE_CARD] =
+    {
+        .name = _("Shonen Jump C"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_CHAMPIONSHIP_2004_PRIZE_CARD,
+        .price = 0,
+        .description = sShonenJumpChampionship2004PrizeCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_CHAMPIONSHIP_2005_PRIZE_CARD] =
+    {
+        .name = _("Shonen Jump C"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_CHAMPIONSHIP_2005_PRIZE_CARD,
+        .price = 0,
+        .description = sShonenJumpChampionship2005PrizeCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_CHAMPIONSHIP_2006_PRIZE_CARD] =
+    {
+        .name = _("Shonen Jump C"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_CHAMPIONSHIP_2006_PRIZE_CARD,
+        .price = 0,
+        .description = sShonenJumpChampionship2006PrizeCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_CHAMPIONSHIP_2007_PRIZE_CARD_A] =
+    {
+        .name = _("Shonen Jump C"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_CHAMPIONSHIP_2007_PRIZE_CARD_A,
+        .price = 0,
+        .description = sShonenJumpChampionship2007PrizeCardADesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_CHAMPIONSHIP_2007_PRIZE_CARD_B] =
+    {
+        .name = _("Shonen Jump C"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_CHAMPIONSHIP_2007_PRIZE_CARD_B,
+        .price = 0,
+        .description = sShonenJumpChampionship2007PrizeCardBDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_CHAMPIONSHIP_2008_PRIZE_CARD] =
+    {
+        .name = _("Shonen Jump C"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_CHAMPIONSHIP_2008_PRIZE_CARD,
+        .price = 0,
+        .description = sShonenJumpChampionship2008PrizeCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_CHAMPIONSHIP_2009_PRIZE_CARD] =
+    {
+        .name = _("Shonen Jump C"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_CHAMPIONSHIP_2009_PRIZE_CARD,
+        .price = 0,
+        .description = sShonenJumpChampionship2009PrizeCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_DECEMBER_2010_SUBSCRIPTION_BONUS] =
+    {
+        .name = _("Shonen Jump D"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_DECEMBER_2010_SUBSCRIPTION_BONUS,
+        .price = 0,
+        .description = sShonenJumpDecember2010subscriptionbonusDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_DECEMBER_2011_SUBSCRIPTION_BONUS] =
+    {
+        .name = _("Shonen Jump D"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_DECEMBER_2011_SUBSCRIPTION_BONUS,
+        .price = 0,
+        .description = sShonenJumpDecember2011subscriptionbonusDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_FEBRUARY_2009_SUBSCRIPTION_BONUS] =
+    {
+        .name = _("Shonen Jump F"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_FEBRUARY_2009_SUBSCRIPTION_BONUS,
+        .price = 0,
+        .description = sShonenJumpFebruary2009subscriptionbonusDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_JUNE_JULY_2011_SUBSCRIPTION_BONUS] =
+    {
+        .name = _("Shonen Jump J"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_JUNE_JULY_2011_SUBSCRIPTION_BONUS,
+        .price = 0,
+        .description = sShonenJumpJuneJuly2011subscriptionbonusDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_MARCH_2010_SUBSCRIPTION_BONUS] =
+    {
+        .name = _("Shonen Jump M"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_MARCH_2010_SUBSCRIPTION_BONUS,
+        .price = 0,
+        .description = sShonenJumpMarch2010subscriptionbonusDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_MAY_2006_SUBSCRIPTION_BONUS] =
+    {
+        .name = _("Shonen Jump M"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_MAY_2006_SUBSCRIPTION_BONUS,
+        .price = 0,
+        .description = sShonenJumpMay2006subscriptionbonusDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_MAY_2008_SUBSCRIPTION_BONUS] =
+    {
+        .name = _("Shonen Jump M"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_MAY_2008_SUBSCRIPTION_BONUS,
+        .price = 0,
+        .description = sShonenJumpMay2008subscriptionbonusDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_MAY_2010_SUBSCRIPTION_BONUS] =
+    {
+        .name = _("Shonen Jump M"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_MAY_2010_SUBSCRIPTION_BONUS,
+        .price = 0,
+        .description = sShonenJumpMay2010subscriptionbonusDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_SCHOLASTIC_EDITION_VOL__9__ISSUE_1_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump S"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_SCHOLASTIC_EDITION_VOL__9__ISSUE_1_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpScholasticEditionVol9Issue1promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__1__ISSUE_1_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__1__ISSUE_1_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol1Issue1promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__10__ISSUE_1_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__10__ISSUE_1_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol10Issue1promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__10__ISSUE_3_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__10__ISSUE_3_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol10Issue3promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__10__ISSUE_4_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__10__ISSUE_4_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol10Issue4promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__2__ISSUE_1_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__2__ISSUE_1_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol2Issue1promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__3__ISSUE_1_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__3__ISSUE_1_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol3Issue1promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__4__ISSUE_1_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__4__ISSUE_1_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol4Issue1promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__4__ISSUE_11_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__4__ISSUE_11_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol4Issue11promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__4__ISSUE_12_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__4__ISSUE_12_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol4Issue12promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__5__ISSUE_1_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__5__ISSUE_1_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol5Issue1promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__5__ISSUE_11_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__5__ISSUE_11_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol5Issue11promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__5__ISSUE_4_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__5__ISSUE_4_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol5Issue4promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__5__ISSUE_6_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__5__ISSUE_6_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol5Issue6promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__5__ISSUE_9_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__5__ISSUE_9_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol5Issue9promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__6__ISSUE_1_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__6__ISSUE_1_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol6Issue1promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__6__ISSUE_12_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__6__ISSUE_12_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol6Issue12promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__6__ISSUE_3_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__6__ISSUE_3_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol6Issue3promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__6__ISSUE_5_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__6__ISSUE_5_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol6Issue5promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__6__ISSUE_9_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__6__ISSUE_9_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol6Issue9promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__7__ISSUE_1_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__7__ISSUE_1_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol7Issue1promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__7__ISSUE_11_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__7__ISSUE_11_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol7Issue11promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__7__ISSUE_3_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__7__ISSUE_3_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol7Issue3promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__7__ISSUE_6_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__7__ISSUE_6_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol7Issue6promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__7__ISSUE_9_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__7__ISSUE_9_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol7Issue9promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__8__ISSUE_1_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__8__ISSUE_1_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol8Issue1promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__8__ISSUE_11_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__8__ISSUE_11_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol8Issue11promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__8__ISSUE_3_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__8__ISSUE_3_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol8Issue3promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__8__ISSUE_5_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__8__ISSUE_5_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol8Issue5promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__8__ISSUE_7_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__8__ISSUE_7_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol8Issue7promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__8__ISSUE_9_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__8__ISSUE_9_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol8Issue9promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__9__ISSUE_1_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__9__ISSUE_1_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol9Issue1promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__9__ISSUE_10_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__9__ISSUE_10_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol9Issue10promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__9__ISSUE_3_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__9__ISSUE_3_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol9Issue3promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__9__ISSUE_4_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__9__ISSUE_4_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol9Issue4promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__9__ISSUE_6_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__9__ISSUE_6_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol9Issue6promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SHONEN_JUMP_VOL__9__ISSUE_8_PROMOTIONAL_CARD] =
+    {
+        .name = _("Shonen Jump V"),
+        .itemId = ITEM_PACK_SHONEN_JUMP_VOL__9__ISSUE_8_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sShonenJumpVol9Issue8promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SOUL_FUSION] =
+    {
+        .name = _("Soul Fusion"),
+        .itemId = ITEM_PACK_SOUL_FUSION,
+        .price = 0,
+        .description = sSoulFusionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SOUL_FUSION_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Soul Fusion S"),
+        .itemId = ITEM_PACK_SOUL_FUSION_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sSoulFusionSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SOUL_FUSION_SPECIAL_EDITION] =
+    {
+        .name = _("Soul Fusion S"),
+        .itemId = ITEM_PACK_SOUL_FUSION_SPECIAL_EDITION,
+        .price = 0,
+        .description = sSoulFusionSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SOUL_OF_THE_DUELIST] =
+    {
+        .name = _("Soul of the D"),
+        .itemId = ITEM_PACK_SOUL_OF_THE_DUELIST,
+        .price = 0,
+        .description = sSouloftheDuelistDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SPACE_TIME_SHOWDOWN_POWER_UP_PACK] =
+    {
+        .name = _("Space-Time Sh"),
+        .itemId = ITEM_PACK_SPACE_TIME_SHOWDOWN_POWER_UP_PACK,
+        .price = 0,
+        .description = sSpaceTimeShowdownPowerUpPackDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SPEED_DUEL_DEMO_DECK] =
+    {
+        .name = _("Speed Duel De"),
+        .itemId = ITEM_PACK_SPEED_DUEL_DEMO_DECK,
+        .price = 0,
+        .description = sSpeedDuelDemoDeckDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SPEED_DUEL_DEMO_DECK_2020] =
+    {
+        .name = _("Speed Duel De"),
+        .itemId = ITEM_PACK_SPEED_DUEL_DEMO_DECK_2020,
+        .price = 0,
+        .description = sSpeedDuelDemoDeck2020Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SPEED_DUEL_GX__DUEL_ACADEMY_BOX] =
+    {
+        .name = _("Speed Duel GX"),
+        .itemId = ITEM_PACK_SPEED_DUEL_GX__DUEL_ACADEMY_BOX,
+        .price = 0,
+        .description = sSpeedDuelGXDuelAcademyBoxDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SPEED_DUEL_GX__DUELISTS_OF_SHADOWS] =
+    {
+        .name = _("Speed Duel GX"),
+        .itemId = ITEM_PACK_SPEED_DUEL_GX__DUELISTS_OF_SHADOWS,
+        .price = 0,
+        .description = sSpeedDuelGXDuelistsofShadowsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SPEED_DUEL_GX__MIDTERM_PARADOX] =
+    {
+        .name = _("Speed Duel GX"),
+        .itemId = ITEM_PACK_SPEED_DUEL_GX__MIDTERM_PARADOX,
+        .price = 0,
+        .description = sSpeedDuelGXMidtermParadoxDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SPEED_DUEL_STARTER_DECKS__DESTINY_MASTERS] =
+    {
+        .name = _("Speed Duel St"),
+        .itemId = ITEM_PACK_SPEED_DUEL_STARTER_DECKS__DESTINY_MASTERS,
+        .price = 0,
+        .description = sSpeedDuelStarterDecksDestinyMastersDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SPEED_DUEL_STARTER_DECKS__DUELISTS_OF_TOMORROW] =
+    {
+        .name = _("Speed Duel St"),
+        .itemId = ITEM_PACK_SPEED_DUEL_STARTER_DECKS__DUELISTS_OF_TOMORROW,
+        .price = 0,
+        .description = sSpeedDuelStarterDecksDuelistsofTomorrowDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SPEED_DUEL_STARTER_DECKS__MATCH_OF_THE_MILLENNIUM] =
+    {
+        .name = _("Speed Duel St"),
+        .itemId = ITEM_PACK_SPEED_DUEL_STARTER_DECKS__MATCH_OF_THE_MILLENNIUM,
+        .price = 0,
+        .description = sSpeedDuelStarterDecksMatchoftheMillenniumDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SPEED_DUEL_STARTER_DECKS__TWISTED_NIGHTMARES] =
+    {
+        .name = _("Speed Duel St"),
+        .itemId = ITEM_PACK_SPEED_DUEL_STARTER_DECKS__TWISTED_NIGHTMARES,
+        .price = 0,
+        .description = sSpeedDuelStarterDecksTwistedNightmaresDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SPEED_DUEL_STARTER_DECKS__ULTIMATE_PREDATORS] =
+    {
+        .name = _("Speed Duel St"),
+        .itemId = ITEM_PACK_SPEED_DUEL_STARTER_DECKS__ULTIMATE_PREDATORS,
+        .price = 0,
+        .description = sSpeedDuelStarterDecksUltimatePredatorsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SPEED_DUEL_TOURNAMENT_PACK_1] =
+    {
+        .name = _("Speed Duel To"),
+        .itemId = ITEM_PACK_SPEED_DUEL_TOURNAMENT_PACK_1,
+        .price = 0,
+        .description = sSpeedDuelTournamentPack1Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SPEED_DUEL_TOURNAMENT_PACK_2] =
+    {
+        .name = _("Speed Duel To"),
+        .itemId = ITEM_PACK_SPEED_DUEL_TOURNAMENT_PACK_2,
+        .price = 0,
+        .description = sSpeedDuelTournamentPack2Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SPEED_DUEL_TOURNAMENT_PACK_3] =
+    {
+        .name = _("Speed Duel To"),
+        .itemId = ITEM_PACK_SPEED_DUEL_TOURNAMENT_PACK_3,
+        .price = 0,
+        .description = sSpeedDuelTournamentPack3Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SPEED_DUEL_TOURNAMENT_PACK_4] =
+    {
+        .name = _("Speed Duel To"),
+        .itemId = ITEM_PACK_SPEED_DUEL_TOURNAMENT_PACK_4,
+        .price = 0,
+        .description = sSpeedDuelTournamentPack4Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SPEED_DUEL_TOURNAMENT_PACK_5] =
+    {
+        .name = _("Speed Duel To"),
+        .itemId = ITEM_PACK_SPEED_DUEL_TOURNAMENT_PACK_5,
+        .price = 0,
+        .description = sSpeedDuelTournamentPack5Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SPEED_DUEL_TOURNAMENT_PACK_6] =
+    {
+        .name = _("Speed Duel To"),
+        .itemId = ITEM_PACK_SPEED_DUEL_TOURNAMENT_PACK_6,
+        .price = 0,
+        .description = sSpeedDuelTournamentPack6Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SPEED_DUEL__ARENA_OF_LOST_SOULS] =
+    {
+        .name = _("Speed Duel: A"),
+        .itemId = ITEM_PACK_SPEED_DUEL__ARENA_OF_LOST_SOULS,
+        .price = 0,
+        .description = sSpeedDuelArenaofLostSoulsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SPEED_DUEL__ATTACK_FROM_THE_DEEP] =
+    {
+        .name = _("Speed Duel: A"),
+        .itemId = ITEM_PACK_SPEED_DUEL__ATTACK_FROM_THE_DEEP,
+        .price = 0,
+        .description = sSpeedDuelAttackfromtheDeepDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SPEED_DUEL__BATTLE_CITY_BOX] =
+    {
+        .name = _("Speed Duel: B"),
+        .itemId = ITEM_PACK_SPEED_DUEL__BATTLE_CITY_BOX,
+        .price = 0,
+        .description = sSpeedDuelBattleCityBoxDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SPEED_DUEL__SCARS_OF_BATTLE] =
+    {
+        .name = _("Speed Duel: S"),
+        .itemId = ITEM_PACK_SPEED_DUEL__SCARS_OF_BATTLE,
+        .price = 0,
+        .description = sSpeedDuelScarsofBattleDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SPEED_DUEL__SCARS_OF_BATTLE_LAUNCH_EVENT_PARTICIPATION_CARD] =
+    {
+        .name = _("Speed Duel: S"),
+        .itemId = ITEM_PACK_SPEED_DUEL__SCARS_OF_BATTLE_LAUNCH_EVENT_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sSpeedDuelScarsofBattleLaunchEventparticipationcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SPEED_DUEL__STREETS_OF_BATTLE_CITY] =
+    {
+        .name = _("Speed Duel: S"),
+        .itemId = ITEM_PACK_SPEED_DUEL__STREETS_OF_BATTLE_CITY,
+        .price = 0,
+        .description = sSpeedDuelStreetsofBattleCityDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SPEED_DUEL__TRIALS_OF_THE_KINGDOM] =
+    {
+        .name = _("Speed Duel: T"),
+        .itemId = ITEM_PACK_SPEED_DUEL__TRIALS_OF_THE_KINGDOM,
+        .price = 0,
+        .description = sSpeedDuelTrialsoftheKingdomDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SPEED_DUEL__TRIALS_OF_THE_KINGDOM_SNEAK_PEEK_PARTICIPATION_CARDS] =
+    {
+        .name = _("Speed Duel: T"),
+        .itemId = ITEM_PACK_SPEED_DUEL__TRIALS_OF_THE_KINGDOM_SNEAK_PEEK_PARTICIPATION_CARDS,
+        .price = 0,
+        .description = sSpeedDuelTrialsoftheKingdomSneakPeekparticipationcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SPELL_RULER] =
+    {
+        .name = _("Spell Ruler"),
+        .itemId = ITEM_PACK_SPELL_RULER,
+        .price = 0,
+        .description = sSpellRulerDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SPELLCASTER_S_COMMAND_STRUCTURE_DECK] =
+    {
+        .name = _("Spellcaster's"),
+        .itemId = ITEM_PACK_SPELLCASTER_S_COMMAND_STRUCTURE_DECK,
+        .price = 0,
+        .description = sSpellcastersCommandStructureDeckDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SPELLCASTER_S_COMMAND_STRUCTURE_DECK__SPECIAL_EDITION] =
+    {
+        .name = _("Spellcaster's"),
+        .itemId = ITEM_PACK_SPELLCASTER_S_COMMAND_STRUCTURE_DECK__SPECIAL_EDITION,
+        .price = 0,
+        .description = sSpellcastersCommandStructureDeckSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SPIRIT_WARRIORS] =
+    {
+        .name = _("Spirit Warrio"),
+        .itemId = ITEM_PACK_SPIRIT_WARRIORS,
+        .price = 0,
+        .description = sSpiritWarriorsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STAR_PACK_2013] =
+    {
+        .name = _("Star Pack 201"),
+        .itemId = ITEM_PACK_STAR_PACK_2013,
+        .price = 0,
+        .description = sStarPack2013Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STAR_PACK_2014] =
+    {
+        .name = _("Star Pack 201"),
+        .itemId = ITEM_PACK_STAR_PACK_2014,
+        .price = 0,
+        .description = sStarPack2014Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STAR_PACK_ARC_V] =
+    {
+        .name = _("Star Pack ARC"),
+        .itemId = ITEM_PACK_STAR_PACK_ARC_V,
+        .price = 0,
+        .description = sStarPackARCVDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STAR_PACK_BATTLE_ROYAL] =
+    {
+        .name = _("Star Pack Bat"),
+        .itemId = ITEM_PACK_STAR_PACK_BATTLE_ROYAL,
+        .price = 0,
+        .description = sStarPackBattleRoyalDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STAR_PACK_VRAINS] =
+    {
+        .name = _("Star Pack VRA"),
+        .itemId = ITEM_PACK_STAR_PACK_VRAINS,
+        .price = 0,
+        .description = sStarPackVRAINSDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STARDUST_OVERDRIVE] =
+    {
+        .name = _("Stardust Over"),
+        .itemId = ITEM_PACK_STARDUST_OVERDRIVE,
+        .price = 0,
+        .description = sStardustOverdriveDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STARDUST_OVERDRIVE_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Stardust Over"),
+        .itemId = ITEM_PACK_STARDUST_OVERDRIVE_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sStardustOverdriveSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STARDUST_OVERDRIVE__SPECIAL_EDITION] =
+    {
+        .name = _("Stardust Over"),
+        .itemId = ITEM_PACK_STARDUST_OVERDRIVE__SPECIAL_EDITION,
+        .price = 0,
+        .description = sStardustOverdriveSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STARSTRIKE_BLAST] =
+    {
+        .name = _("Starstrike Bl"),
+        .itemId = ITEM_PACK_STARSTRIKE_BLAST,
+        .price = 0,
+        .description = sStarstrikeBlastDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STARSTRIKE_BLAST_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Starstrike Bl"),
+        .itemId = ITEM_PACK_STARSTRIKE_BLAST_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sStarstrikeBlastSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STARTER_DECK_2006] =
+    {
+        .name = _("Starter Deck "),
+        .itemId = ITEM_PACK_STARTER_DECK_2006,
+        .price = 0,
+        .description = sStarterDeck2006Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STARTER_DECK_2006__SPECIAL_EDITION] =
+    {
+        .name = _("Starter Deck "),
+        .itemId = ITEM_PACK_STARTER_DECK_2006__SPECIAL_EDITION,
+        .price = 0,
+        .description = sStarterDeck2006SpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STARTER_DECK__CODEBREAKER] =
+    {
+        .name = _("Starter Deck:"),
+        .itemId = ITEM_PACK_STARTER_DECK__CODEBREAKER,
+        .price = 0,
+        .description = sStarterDeckCodebreakerDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STARTER_DECK__DAWN_OF_THE_XYZ] =
+    {
+        .name = _("Starter Deck:"),
+        .itemId = ITEM_PACK_STARTER_DECK__DAWN_OF_THE_XYZ,
+        .price = 0,
+        .description = sStarterDeckDawnoftheXyzDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STARTER_DECK__DUELIST_TOOLBOX] =
+    {
+        .name = _("Starter Deck:"),
+        .itemId = ITEM_PACK_STARTER_DECK__DUELIST_TOOLBOX,
+        .price = 0,
+        .description = sStarterDeckDuelistToolboxDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STARTER_DECK__JADEN_YUKI] =
+    {
+        .name = _("Starter Deck:"),
+        .itemId = ITEM_PACK_STARTER_DECK__JADEN_YUKI,
+        .price = 0,
+        .description = sStarterDeckJadenYukiDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STARTER_DECK__JOEY] =
+    {
+        .name = _("Starter Deck:"),
+        .itemId = ITEM_PACK_STARTER_DECK__JOEY,
+        .price = 0,
+        .description = sStarterDeckJoeyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STARTER_DECK__KAIBA] =
+    {
+        .name = _("Starter Deck:"),
+        .itemId = ITEM_PACK_STARTER_DECK__KAIBA,
+        .price = 0,
+        .description = sStarterDeckKaibaDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STARTER_DECK__KAIBA_EVOLUTION] =
+    {
+        .name = _("Starter Deck:"),
+        .itemId = ITEM_PACK_STARTER_DECK__KAIBA_EVOLUTION,
+        .price = 0,
+        .description = sStarterDeckKaibaEvolutionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STARTER_DECK__KAIBA_RELOADED] =
+    {
+        .name = _("Starter Deck:"),
+        .itemId = ITEM_PACK_STARTER_DECK__KAIBA_RELOADED,
+        .price = 0,
+        .description = sStarterDeckKaibaReloadedDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STARTER_DECK__LINK_STRIKE] =
+    {
+        .name = _("Starter Deck:"),
+        .itemId = ITEM_PACK_STARTER_DECK__LINK_STRIKE,
+        .price = 0,
+        .description = sStarterDeckLinkStrikeDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STARTER_DECK__PEGASUS] =
+    {
+        .name = _("Starter Deck:"),
+        .itemId = ITEM_PACK_STARTER_DECK__PEGASUS,
+        .price = 0,
+        .description = sStarterDeckPegasusDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STARTER_DECK__SYRUS_TRUESDALE] =
+    {
+        .name = _("Starter Deck:"),
+        .itemId = ITEM_PACK_STARTER_DECK__SYRUS_TRUESDALE,
+        .price = 0,
+        .description = sStarterDeckSyrusTruesdaleDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STARTER_DECK__XYZ_SYMPHONY] =
+    {
+        .name = _("Starter Deck:"),
+        .itemId = ITEM_PACK_STARTER_DECK__XYZ_SYMPHONY,
+        .price = 0,
+        .description = sStarterDeckXyzSymphonyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STARTER_DECK__YU_GI_OH__5D_S] =
+    {
+        .name = _("Starter Deck:"),
+        .itemId = ITEM_PACK_STARTER_DECK__YU_GI_OH__5D_S,
+        .price = 0,
+        .description = sStarterDeckYuGiOh5DsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STARTER_DECK__YU_GI_OH__5D_S_2009] =
+    {
+        .name = _("Starter Deck:"),
+        .itemId = ITEM_PACK_STARTER_DECK__YU_GI_OH__5D_S_2009,
+        .price = 0,
+        .description = sStarterDeckYuGiOh5Ds2009Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STARTER_DECK__YUGI] =
+    {
+        .name = _("Starter Deck:"),
+        .itemId = ITEM_PACK_STARTER_DECK__YUGI,
+        .price = 0,
+        .description = sStarterDeckYugiDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STARTER_DECK__YUGI_EVOLUTION] =
+    {
+        .name = _("Starter Deck:"),
+        .itemId = ITEM_PACK_STARTER_DECK__YUGI_EVOLUTION,
+        .price = 0,
+        .description = sStarterDeckYugiEvolutionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STARTER_DECK__YUGI_RELOADED] =
+    {
+        .name = _("Starter Deck:"),
+        .itemId = ITEM_PACK_STARTER_DECK__YUGI_RELOADED,
+        .price = 0,
+        .description = sStarterDeckYugiReloadedDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STARTER_DECK__YUYA] =
+    {
+        .name = _("Starter Deck:"),
+        .itemId = ITEM_PACK_STARTER_DECK__YUYA,
+        .price = 0,
+        .description = sStarterDeckYuyaDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STORM_OF_RAGNAROK] =
+    {
+        .name = _("Storm of Ragn"),
+        .itemId = ITEM_PACK_STORM_OF_RAGNAROK,
+        .price = 0,
+        .description = sStormofRagnarokDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STORM_OF_RAGNAROK_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Storm of Ragn"),
+        .itemId = ITEM_PACK_STORM_OF_RAGNAROK_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sStormofRagnarokSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STORM_OF_RAGNAROK__SPECIAL_EDITION] =
+    {
+        .name = _("Storm of Ragn"),
+        .itemId = ITEM_PACK_STORM_OF_RAGNAROK__SPECIAL_EDITION,
+        .price = 0,
+        .description = sStormofRagnarokSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRIKE_OF_NEOS] =
+    {
+        .name = _("Strike of Neo"),
+        .itemId = ITEM_PACK_STRIKE_OF_NEOS,
+        .price = 0,
+        .description = sStrikeofNeosDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRIKE_OF_NEOS_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Strike of Neo"),
+        .itemId = ITEM_PACK_STRIKE_OF_NEOS_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sStrikeofNeosSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRIKE_OF_NEOS__SPECIAL_EDITION] =
+    {
+        .name = _("Strike of Neo"),
+        .itemId = ITEM_PACK_STRIKE_OF_NEOS__SPECIAL_EDITION,
+        .price = 0,
+        .description = sStrikeofNeosSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__ALBAZ_STRIKE] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__ALBAZ_STRIKE,
+        .price = 0,
+        .description = sStructureDeckAlbazStrikeDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__BEWARE_OF_TRAPTRIX] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__BEWARE_OF_TRAPTRIX,
+        .price = 0,
+        .description = sStructureDeckBewareofTraptrixDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__BLAZE_OF_DESTRUCTION] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__BLAZE_OF_DESTRUCTION,
+        .price = 0,
+        .description = sStructureDeckBlazeofDestructionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__BLUE_EYES_WHITE_DESTINY] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__BLUE_EYES_WHITE_DESTINY,
+        .price = 0,
+        .description = sStructureDeckBlueEyesWhiteDestinyDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__CYBER_STRIKE] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__CYBER_STRIKE,
+        .price = 0,
+        .description = sStructureDeckCyberStrikeDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__CYBERSE_LINK] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__CYBERSE_LINK,
+        .price = 0,
+        .description = sStructureDeckCyberseLinkDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__DARK_WORLD] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__DARK_WORLD,
+        .price = 0,
+        .description = sStructureDeckDarkWorldDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__DELUXE_EDITION] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__DELUXE_EDITION,
+        .price = 0,
+        .description = sStructureDeckDeluxeEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__DINOSAUR_S_RAGE] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__DINOSAUR_S_RAGE,
+        .price = 0,
+        .description = sStructureDeckDinosaursRageDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__DINOSAUR_S_RAGE_SPECIAL_SET] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__DINOSAUR_S_RAGE_SPECIAL_SET,
+        .price = 0,
+        .description = sStructureDeckDinosaursRageSpecialSetDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__DRAGON_S_ROAR] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__DRAGON_S_ROAR,
+        .price = 0,
+        .description = sStructureDeckDragonsRoarDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__FIRE_KINGS] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__FIRE_KINGS,
+        .price = 0,
+        .description = sStructureDeckFireKingsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__FREEZING_CHAINS] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__FREEZING_CHAINS,
+        .price = 0,
+        .description = sStructureDeckFreezingChainsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__FURY_FROM_THE_DEEP] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__FURY_FROM_THE_DEEP,
+        .price = 0,
+        .description = sStructureDeckFuryfromtheDeepDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__INVINCIBLE_FORTRESS] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__INVINCIBLE_FORTRESS,
+        .price = 0,
+        .description = sStructureDeckInvincibleFortressDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__LAIR_OF_DARKNESS] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__LAIR_OF_DARKNESS,
+        .price = 0,
+        .description = sStructureDeckLairofDarknessDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__LEGEND_OF_THE_CRYSTAL_BEASTS] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__LEGEND_OF_THE_CRYSTAL_BEASTS,
+        .price = 0,
+        .description = sStructureDeckLegendoftheCrystalBeastsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__LORD_OF_THE_STORM] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__LORD_OF_THE_STORM,
+        .price = 0,
+        .description = sStructureDeckLordoftheStormDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__MACHINE_RE_VOLT] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__MACHINE_RE_VOLT,
+        .price = 0,
+        .description = sStructureDeckMachineReVoltDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__MARIK__TCG_] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__MARIK__TCG_,
+        .price = 0,
+        .description = sStructureDeckMarikTCGDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__MECHANIZED_MADNESS] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__MECHANIZED_MADNESS,
+        .price = 0,
+        .description = sStructureDeckMechanizedMadnessDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__ORDER_OF_THE_SPELLCASTERS] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__ORDER_OF_THE_SPELLCASTERS,
+        .price = 0,
+        .description = sStructureDeckOrderoftheSpellcastersDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__POWERCODE_LINK] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__POWERCODE_LINK,
+        .price = 0,
+        .description = sStructureDeckPowercodeLinkDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__ROKKET_REVOLT] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__ROKKET_REVOLT,
+        .price = 0,
+        .description = sStructureDeckRokketRevoltDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__SACRED_BEASTS] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__SACRED_BEASTS,
+        .price = 0,
+        .description = sStructureDeckSacredBeastsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__SETO_KAIBA] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__SETO_KAIBA,
+        .price = 0,
+        .description = sStructureDeckSetoKaibaDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__SHADDOLL_SHOWDOWN] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__SHADDOLL_SHOWDOWN,
+        .price = 0,
+        .description = sStructureDeckShaddollShowdownDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__SOULBURNER] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__SOULBURNER,
+        .price = 0,
+        .description = sStructureDeckSoulburnerDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__SPELLCASTER_S_JUDGMENT] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__SPELLCASTER_S_JUDGMENT,
+        .price = 0,
+        .description = sStructureDeckSpellcastersJudgmentDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__SPIRIT_CHARMERS] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__SPIRIT_CHARMERS,
+        .price = 0,
+        .description = sStructureDeckSpiritCharmersDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__THE_CRIMSON_KING] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__THE_CRIMSON_KING,
+        .price = 0,
+        .description = sStructureDeckTheCrimsonKingDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__WARRIOR_S_TRIUMPH] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__WARRIOR_S_TRIUMPH,
+        .price = 0,
+        .description = sStructureDeckWarriorsTriumphDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__WAVE_OF_LIGHT] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__WAVE_OF_LIGHT,
+        .price = 0,
+        .description = sStructureDeckWaveofLightDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__YUGI_MUTO] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__YUGI_MUTO,
+        .price = 0,
+        .description = sStructureDeckYugiMutoDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__ZOMBIE_HORDE] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__ZOMBIE_HORDE,
+        .price = 0,
+        .description = sStructureDeckZombieHordeDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_STRUCTURE_DECK__ZOMBIE_MADNESS] =
+    {
+        .name = _("Structure Dec"),
+        .itemId = ITEM_PACK_STRUCTURE_DECK__ZOMBIE_MADNESS,
+        .price = 0,
+        .description = sStructureDeckZombieMadnessDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SUMMONED_SKULL_SAMPLE_PROMOTIONAL_CARD] =
+    {
+        .name = _("Summoned Skul"),
+        .itemId = ITEM_PACK_SUMMONED_SKULL_SAMPLE_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sSummonedSkullSamplepromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SUPER_STARTER_POWER_UP_PACK] =
+    {
+        .name = _("Super Starter"),
+        .itemId = ITEM_PACK_SUPER_STARTER_POWER_UP_PACK,
+        .price = 0,
+        .description = sSuperStarterPowerUpPackDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SUPER_STARTER__SPACE_TIME_SHOWDOWN] =
+    {
+        .name = _("Super Starter"),
+        .itemId = ITEM_PACK_SUPER_STARTER__SPACE_TIME_SHOWDOWN,
+        .price = 0,
+        .description = sSuperStarterSpaceTimeShowdownDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SUPER_STARTER__V_FOR_VICTORY] =
+    {
+        .name = _("Super Starter"),
+        .itemId = ITEM_PACK_SUPER_STARTER__V_FOR_VICTORY,
+        .price = 0,
+        .description = sSuperStarterVforVictoryDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SUPREME_DARKNESS] =
+    {
+        .name = _("Supreme Darkn"),
+        .itemId = ITEM_PACK_SUPREME_DARKNESS,
+        .price = 0,
+        .description = sSupremeDarknessDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SWEDISH_SHONEN_JUMP_2004__ISSUE_2_PROMOTIONAL_CARD] =
+    {
+        .name = _("Swedish Shone"),
+        .itemId = ITEM_PACK_SWEDISH_SHONEN_JUMP_2004__ISSUE_2_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sSwedishShonenJump2004Issue2promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SWEDISH_SHONEN_JUMP_2005__ISSUE_12_PROMOTIONAL_CARD] =
+    {
+        .name = _("Swedish Shone"),
+        .itemId = ITEM_PACK_SWEDISH_SHONEN_JUMP_2005__ISSUE_12_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sSwedishShonenJump2005Issue12promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_SYNCHRON_EXTREME_STRUCTURE_DECK] =
+    {
+        .name = _("Synchron Extr"),
+        .itemId = ITEM_PACK_SYNCHRON_EXTREME_STRUCTURE_DECK,
+        .price = 0,
+        .description = sSynchronExtremeStructureDeckDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_TACTICAL_EVOLUTION] =
+    {
+        .name = _("Tactical Evol"),
+        .itemId = ITEM_PACK_TACTICAL_EVOLUTION,
+        .price = 0,
+        .description = sTacticalEvolutionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_TACTICAL_EVOLUTION_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("Tactical Evol"),
+        .itemId = ITEM_PACK_TACTICAL_EVOLUTION_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sTacticalEvolutionSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_TACTICAL_EVOLUTION__SPECIAL_EDITION] =
+    {
+        .name = _("Tactical Evol"),
+        .itemId = ITEM_PACK_TACTICAL_EVOLUTION__SPECIAL_EDITION,
+        .price = 0,
+        .description = sTacticalEvolutionSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_TACTICAL_MASTERS] =
+    {
+        .name = _("Tactical Mast"),
+        .itemId = ITEM_PACK_TACTICAL_MASTERS,
+        .price = 0,
+        .description = sTacticalMastersDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_DARK_EMPEROR_STRUCTURE_DECK] =
+    {
+        .name = _("The Dark Empe"),
+        .itemId = ITEM_PACK_THE_DARK_EMPEROR_STRUCTURE_DECK,
+        .price = 0,
+        .description = sTheDarkEmperorStructureDeckDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_DARK_ILLUSION] =
+    {
+        .name = _("The Dark Illu"),
+        .itemId = ITEM_PACK_THE_DARK_ILLUSION,
+        .price = 0,
+        .description = sTheDarkIllusionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_DARK_ILLUSION_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("The Dark Illu"),
+        .itemId = ITEM_PACK_THE_DARK_ILLUSION_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sTheDarkIllusionSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_DARK_ILLUSION__SPECIAL_EDITION] =
+    {
+        .name = _("The Dark Illu"),
+        .itemId = ITEM_PACK_THE_DARK_ILLUSION__SPECIAL_EDITION,
+        .price = 0,
+        .description = sTheDarkIllusionSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_DUELIST_GENESIS] =
+    {
+        .name = _("The Duelist G"),
+        .itemId = ITEM_PACK_THE_DUELIST_GENESIS,
+        .price = 0,
+        .description = sTheDuelistGenesisDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_DUELIST_GENESIS_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("The Duelist G"),
+        .itemId = ITEM_PACK_THE_DUELIST_GENESIS_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sTheDuelistGenesisSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_DUELIST_GENESIS__SPECIAL_EDITION] =
+    {
+        .name = _("The Duelist G"),
+        .itemId = ITEM_PACK_THE_DUELIST_GENESIS__SPECIAL_EDITION,
+        .price = 0,
+        .description = sTheDuelistGenesisSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_GRAND_CREATORS] =
+    {
+        .name = _("The Grand Cre"),
+        .itemId = ITEM_PACK_THE_GRAND_CREATORS,
+        .price = 0,
+        .description = sTheGrandCreatorsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_INFINITE_FORBIDDEN] =
+    {
+        .name = _("The Infinite "),
+        .itemId = ITEM_PACK_THE_INFINITE_FORBIDDEN,
+        .price = 0,
+        .description = sTheInfiniteForbiddenDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_INFINITY_CHASERS] =
+    {
+        .name = _("The Infinity "),
+        .itemId = ITEM_PACK_THE_INFINITY_CHASERS,
+        .price = 0,
+        .description = sTheInfinityChasersDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION__SERIES_] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION__SERIES_,
+        .price = 0,
+        .description = sTheLostArtPromotionseriesDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2020_D] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2020_D,
+        .price = 0,
+        .description = sTheLostArtPromotion2020DDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2020_E] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2020_E,
+        .price = 0,
+        .description = sTheLostArtPromotion2020EDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2020_F] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2020_F,
+        .price = 0,
+        .description = sTheLostArtPromotion2020FDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2020_G] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2020_G,
+        .price = 0,
+        .description = sTheLostArtPromotion2020GDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2020_H] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2020_H,
+        .price = 0,
+        .description = sTheLostArtPromotion2020HDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2020_I] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2020_I,
+        .price = 0,
+        .description = sTheLostArtPromotion2020IDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2020_J] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2020_J,
+        .price = 0,
+        .description = sTheLostArtPromotion2020JDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2020_K] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2020_K,
+        .price = 0,
+        .description = sTheLostArtPromotion2020KDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2020_L] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2020_L,
+        .price = 0,
+        .description = sTheLostArtPromotion2020LDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2020_M] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2020_M,
+        .price = 0,
+        .description = sTheLostArtPromotion2020MDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2020_N] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2020_N,
+        .price = 0,
+        .description = sTheLostArtPromotion2020NDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2020_O] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2020_O,
+        .price = 0,
+        .description = sTheLostArtPromotion2020ODesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2020_P] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2020_P,
+        .price = 0,
+        .description = sTheLostArtPromotion2020PDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2020_Q] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2020_Q,
+        .price = 0,
+        .description = sTheLostArtPromotion2020QDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2020_R] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2020_R,
+        .price = 0,
+        .description = sTheLostArtPromotion2020RDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2021_A] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2021_A,
+        .price = 0,
+        .description = sTheLostArtPromotion2021ADesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2021_B] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2021_B,
+        .price = 0,
+        .description = sTheLostArtPromotion2021BDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2021_C] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2021_C,
+        .price = 0,
+        .description = sTheLostArtPromotion2021CDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2021_D] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2021_D,
+        .price = 0,
+        .description = sTheLostArtPromotion2021DDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2021_E] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2021_E,
+        .price = 0,
+        .description = sTheLostArtPromotion2021EDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2021_F] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2021_F,
+        .price = 0,
+        .description = sTheLostArtPromotion2021FDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2021_G] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2021_G,
+        .price = 0,
+        .description = sTheLostArtPromotion2021GDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2021_H] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2021_H,
+        .price = 0,
+        .description = sTheLostArtPromotion2021HDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2021_I] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2021_I,
+        .price = 0,
+        .description = sTheLostArtPromotion2021IDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2021_J] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2021_J,
+        .price = 0,
+        .description = sTheLostArtPromotion2021JDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2021_K] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2021_K,
+        .price = 0,
+        .description = sTheLostArtPromotion2021KDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2021_L] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2021_L,
+        .price = 0,
+        .description = sTheLostArtPromotion2021LDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2022] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2022,
+        .price = 0,
+        .description = sTheLostArtPromotion2022Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2022_G] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2022_G,
+        .price = 0,
+        .description = sTheLostArtPromotion2022GDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2022_K] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2022_K,
+        .price = 0,
+        .description = sTheLostArtPromotion2022KDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2023] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2023,
+        .price = 0,
+        .description = sTheLostArtPromotion2023Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2023_E] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2023_E,
+        .price = 0,
+        .description = sTheLostArtPromotion2023EDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2023_F] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2023_F,
+        .price = 0,
+        .description = sTheLostArtPromotion2023FDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2023_G] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2023_G,
+        .price = 0,
+        .description = sTheLostArtPromotion2023GDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2023_H] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2023_H,
+        .price = 0,
+        .description = sTheLostArtPromotion2023HDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2023_I] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2023_I,
+        .price = 0,
+        .description = sTheLostArtPromotion2023IDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2024] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2024,
+        .price = 0,
+        .description = sTheLostArtPromotion2024Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2024_A] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2024_A,
+        .price = 0,
+        .description = sTheLostArtPromotion2024ADesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2024_B] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2024_B,
+        .price = 0,
+        .description = sTheLostArtPromotion2024BDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2024_C] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2024_C,
+        .price = 0,
+        .description = sTheLostArtPromotion2024CDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_2024_H] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_2024_H,
+        .price = 0,
+        .description = sTheLostArtPromotion2024HDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_A] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_A,
+        .price = 0,
+        .description = sTheLostArtPromotionADesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_B] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_B,
+        .price = 0,
+        .description = sTheLostArtPromotionBDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_C] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_C,
+        .price = 0,
+        .description = sTheLostArtPromotionCDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_D] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_D,
+        .price = 0,
+        .description = sTheLostArtPromotionDDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_E] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_E,
+        .price = 0,
+        .description = sTheLostArtPromotionEDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_F] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_F,
+        .price = 0,
+        .description = sTheLostArtPromotionFDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_G] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_G,
+        .price = 0,
+        .description = sTheLostArtPromotionGDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_H] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_H,
+        .price = 0,
+        .description = sTheLostArtPromotionHDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_I] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_I,
+        .price = 0,
+        .description = sTheLostArtPromotionIDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_J] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_J,
+        .price = 0,
+        .description = sTheLostArtPromotionJDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_K] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_K,
+        .price = 0,
+        .description = sTheLostArtPromotionKDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_L] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_L,
+        .price = 0,
+        .description = sTheLostArtPromotionLDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_M] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_M,
+        .price = 0,
+        .description = sTheLostArtPromotionMDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_N] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_N,
+        .price = 0,
+        .description = sTheLostArtPromotionNDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_ART_PROMOTION_O] =
+    {
+        .name = _("The Lost Art "),
+        .itemId = ITEM_PACK_THE_LOST_ART_PROMOTION_O,
+        .price = 0,
+        .description = sTheLostArtPromotionODesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_MILLENNIUM] =
+    {
+        .name = _("The Lost Mill"),
+        .itemId = ITEM_PACK_THE_LOST_MILLENNIUM,
+        .price = 0,
+        .description = sTheLostMillenniumDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_MILLENNIUM_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("The Lost Mill"),
+        .itemId = ITEM_PACK_THE_LOST_MILLENNIUM_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sTheLostMillenniumSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_LOST_MILLENNIUM__SPECIAL_EDITION] =
+    {
+        .name = _("The Lost Mill"),
+        .itemId = ITEM_PACK_THE_LOST_MILLENNIUM__SPECIAL_EDITION,
+        .price = 0,
+        .description = sTheLostMillenniumSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_NEW_CHALLENGERS] =
+    {
+        .name = _("The New Chall"),
+        .itemId = ITEM_PACK_THE_NEW_CHALLENGERS,
+        .price = 0,
+        .description = sTheNewChallengersDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_NEW_CHALLENGERS_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("The New Chall"),
+        .itemId = ITEM_PACK_THE_NEW_CHALLENGERS_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sTheNewChallengersSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_NEW_CHALLENGERS__SUPER_EDITION] =
+    {
+        .name = _("The New Chall"),
+        .itemId = ITEM_PACK_THE_NEW_CHALLENGERS__SUPER_EDITION,
+        .price = 0,
+        .description = sTheNewChallengersSuperEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_POT_COLLECTION] =
+    {
+        .name = _("The Pot Colle"),
+        .itemId = ITEM_PACK_THE_POT_COLLECTION,
+        .price = 0,
+        .description = sThePotCollectionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_SECRET_FORCES] =
+    {
+        .name = _("The Secret Fo"),
+        .itemId = ITEM_PACK_THE_SECRET_FORCES,
+        .price = 0,
+        .description = sTheSecretForcesDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_SHINING_DARKNESS] =
+    {
+        .name = _("The Shining D"),
+        .itemId = ITEM_PACK_THE_SHINING_DARKNESS,
+        .price = 0,
+        .description = sTheShiningDarknessDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_THE_SHINING_DARKNESS_SNEAK_PEEK_PARTICIPATION_CARD] =
+    {
+        .name = _("The Shining D"),
+        .itemId = ITEM_PACK_THE_SHINING_DARKNESS_SNEAK_PEEK_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sTheShiningDarknessSneakPeekParticipationCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_TOON_CHAOS] =
+    {
+        .name = _("Toon Chaos"),
+        .itemId = ITEM_PACK_TOON_CHAOS,
+        .price = 0,
+        .description = sToonChaosDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_TOURNAMENT_PACK_4] =
+    {
+        .name = _("Tournament Pa"),
+        .itemId = ITEM_PACK_TOURNAMENT_PACK_4,
+        .price = 0,
+        .description = sTournamentPack4Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_TOURNAMENT_PACK_5] =
+    {
+        .name = _("Tournament Pa"),
+        .itemId = ITEM_PACK_TOURNAMENT_PACK_5,
+        .price = 0,
+        .description = sTournamentPack5Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_TOURNAMENT_PACK_6] =
+    {
+        .name = _("Tournament Pa"),
+        .itemId = ITEM_PACK_TOURNAMENT_PACK_6,
+        .price = 0,
+        .description = sTournamentPack6Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_TOURNAMENT_PACK_7] =
+    {
+        .name = _("Tournament Pa"),
+        .itemId = ITEM_PACK_TOURNAMENT_PACK_7,
+        .price = 0,
+        .description = sTournamentPack7Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_TOURNAMENT_PACK_8] =
+    {
+        .name = _("Tournament Pa"),
+        .itemId = ITEM_PACK_TOURNAMENT_PACK_8,
+        .price = 0,
+        .description = sTournamentPack8Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_TOURNAMENT_PACK__1ST_SEASON] =
+    {
+        .name = _("Tournament Pa"),
+        .itemId = ITEM_PACK_TOURNAMENT_PACK__1ST_SEASON,
+        .price = 0,
+        .description = sTournamentPack1stSeasonDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_TOURNAMENT_PACK__2ND_SEASON] =
+    {
+        .name = _("Tournament Pa"),
+        .itemId = ITEM_PACK_TOURNAMENT_PACK__2ND_SEASON,
+        .price = 0,
+        .description = sTournamentPack2ndSeasonDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_TOURNAMENT_PACK__3RD_SEASON] =
+    {
+        .name = _("Tournament Pa"),
+        .itemId = ITEM_PACK_TOURNAMENT_PACK__3RD_SEASON,
+        .price = 0,
+        .description = sTournamentPack3rdSeasonDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_TRIALS_OF_THE_PHARAOH___MATCH_OF_THE_MILLENNIUM___TWISTED_NIGHTMARES_PROMOTIONAL_CARD] =
+    {
+        .name = _("Trials of the"),
+        .itemId = ITEM_PACK_TRIALS_OF_THE_PHARAOH___MATCH_OF_THE_MILLENNIUM___TWISTED_NIGHTMARES_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sTrialsofthePharaohMatchoftheMillenniumTwistedNightmarespromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_TRIALS_OF_THE_PHARAOH___SPEED_DUEL__BATTLE_CITY_BOX_PROMOTIONAL_CARD] =
+    {
+        .name = _("Trials of the"),
+        .itemId = ITEM_PACK_TRIALS_OF_THE_PHARAOH___SPEED_DUEL__BATTLE_CITY_BOX_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sTrialsofthePharaohSpeedDuelBattleCityBoxpromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_TRIALS_OF_THE_PHARAOH___TRIALS_OF_THE_KINGDOM_PROMOTIONAL_CARD] =
+    {
+        .name = _("Trials of the"),
+        .itemId = ITEM_PACK_TRIALS_OF_THE_PHARAOH___TRIALS_OF_THE_KINGDOM_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sTrialsofthePharaohTrialsoftheKingdompromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_TURBO_PACK__BOOSTER_EIGHT] =
+    {
+        .name = _("Turbo Pack: B"),
+        .itemId = ITEM_PACK_TURBO_PACK__BOOSTER_EIGHT,
+        .price = 0,
+        .description = sTurboPackBoosterEightDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_TURBO_PACK__BOOSTER_FIVE] =
+    {
+        .name = _("Turbo Pack: B"),
+        .itemId = ITEM_PACK_TURBO_PACK__BOOSTER_FIVE,
+        .price = 0,
+        .description = sTurboPackBoosterFiveDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_TURBO_PACK__BOOSTER_FOUR] =
+    {
+        .name = _("Turbo Pack: B"),
+        .itemId = ITEM_PACK_TURBO_PACK__BOOSTER_FOUR,
+        .price = 0,
+        .description = sTurboPackBoosterFourDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_TURBO_PACK__BOOSTER_ONE] =
+    {
+        .name = _("Turbo Pack: B"),
+        .itemId = ITEM_PACK_TURBO_PACK__BOOSTER_ONE,
+        .price = 0,
+        .description = sTurboPackBoosterOneDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_TURBO_PACK__BOOSTER_SEVEN] =
+    {
+        .name = _("Turbo Pack: B"),
+        .itemId = ITEM_PACK_TURBO_PACK__BOOSTER_SEVEN,
+        .price = 0,
+        .description = sTurboPackBoosterSevenDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_TURBO_PACK__BOOSTER_SIX] =
+    {
+        .name = _("Turbo Pack: B"),
+        .itemId = ITEM_PACK_TURBO_PACK__BOOSTER_SIX,
+        .price = 0,
+        .description = sTurboPackBoosterSixDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_TURBO_PACK__BOOSTER_THREE] =
+    {
+        .name = _("Turbo Pack: B"),
+        .itemId = ITEM_PACK_TURBO_PACK__BOOSTER_THREE,
+        .price = 0,
+        .description = sTurboPackBoosterThreeDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_TURBO_PACK__BOOSTER_TWO] =
+    {
+        .name = _("Turbo Pack: B"),
+        .itemId = ITEM_PACK_TURBO_PACK__BOOSTER_TWO,
+        .price = 0,
+        .description = sTurboPackBoosterTwoDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_TWILIGHT_EDITION] =
+    {
+        .name = _("Twilight Edit"),
+        .itemId = ITEM_PACK_TWILIGHT_EDITION,
+        .price = 0,
+        .description = sTwilightEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ULTIMATE_EDITION] =
+    {
+        .name = _("Ultimate Edit"),
+        .itemId = ITEM_PACK_ULTIMATE_EDITION,
+        .price = 0,
+        .description = sUltimateEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ULTIMATE_EDITION_2] =
+    {
+        .name = _("Ultimate Edit"),
+        .itemId = ITEM_PACK_ULTIMATE_EDITION_2,
+        .price = 0,
+        .description = sUltimateEdition2Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_VALIANT_SMASHERS] =
+    {
+        .name = _("Valiant Smash"),
+        .itemId = ITEM_PACK_VALIANT_SMASHERS,
+        .price = 0,
+        .description = sValiantSmashersDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WCS_2025_LIMITED_PACK] =
+    {
+        .name = _("WCS 2025 Limi"),
+        .itemId = ITEM_PACK_WCS_2025_LIMITED_PACK,
+        .price = 0,
+        .description = sWCS2025LimitedPackDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WSJ_JUMP_PACK_FALL_2016_PROMOTIONAL_CARD] =
+    {
+        .name = _("WSJ Jump Pack"),
+        .itemId = ITEM_PACK_WSJ_JUMP_PACK_FALL_2016_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWSJJumpPackFall2016promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WSJ_JUMP_PACK_FALL_2017_PROMOTIONAL_CARD] =
+    {
+        .name = _("WSJ Jump Pack"),
+        .itemId = ITEM_PACK_WSJ_JUMP_PACK_FALL_2017_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWSJJumpPackFall2017promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WSJ_JUMP_PACK_FALL_2018_PROMOTIONAL_CARD] =
+    {
+        .name = _("WSJ Jump Pack"),
+        .itemId = ITEM_PACK_WSJ_JUMP_PACK_FALL_2018_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWSJJumpPackFall2018promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WSJ_JUMP_PACK_SPRING_2016_PROMOTIONAL_CARD] =
+    {
+        .name = _("WSJ Jump Pack"),
+        .itemId = ITEM_PACK_WSJ_JUMP_PACK_SPRING_2016_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWSJJumpPackSpring2016promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WSJ_JUMP_PACK_SPRING_2017_PROMOTIONAL_CARD] =
+    {
+        .name = _("WSJ Jump Pack"),
+        .itemId = ITEM_PACK_WSJ_JUMP_PACK_SPRING_2017_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWSJJumpPackSpring2017promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WSJ_JUMP_PACK_SPRING_2018_PROMOTIONAL_CARD] =
+    {
+        .name = _("WSJ Jump Pack"),
+        .itemId = ITEM_PACK_WSJ_JUMP_PACK_SPRING_2018_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWSJJumpPackSpring2018promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WSJ_JUMP_PACK_SPRING_2019_PROMOTIONAL_CARD] =
+    {
+        .name = _("WSJ Jump Pack"),
+        .itemId = ITEM_PACK_WSJ_JUMP_PACK_SPRING_2019_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWSJJumpPackSpring2019promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WAR_OF_THE_GIANTS_REINFORCEMENTS] =
+    {
+        .name = _("War of the Gi"),
+        .itemId = ITEM_PACK_WAR_OF_THE_GIANTS_REINFORCEMENTS,
+        .price = 0,
+        .description = sWaroftheGiantsReinforcementsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WAR_OF_THE_GIANTS__ROUND_2] =
+    {
+        .name = _("War of the Gi"),
+        .itemId = ITEM_PACK_WAR_OF_THE_GIANTS__ROUND_2,
+        .price = 0,
+        .description = sWaroftheGiantsRound2Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WARRIORS__STRIKE_STRUCTURE_DECK] =
+    {
+        .name = _("Warriors' Str"),
+        .itemId = ITEM_PACK_WARRIORS__STRIKE_STRUCTURE_DECK,
+        .price = 0,
+        .description = sWarriorsStrikeStructureDeckDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WEEKLY_SHONEN_JUMP_ALPHA_APRIL_2012_MEMBERSHIP_PROMOTIONAL_CARD] =
+    {
+        .name = _("Weekly Shonen"),
+        .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_ALPHA_APRIL_2012_MEMBERSHIP_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWeeklyShonenJumpAlphaApril2012membershippromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WEEKLY_SHONEN_JUMP_ALPHA_DECEMBER_2012_MEMBERSHIP_PROMOTIONAL_CARD] =
+    {
+        .name = _("Weekly Shonen"),
+        .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_ALPHA_DECEMBER_2012_MEMBERSHIP_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWeeklyShonenJumpAlphaDecember2012membershippromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WEEKLY_SHONEN_JUMP_ALPHA_JULY_2012_MEMBERSHIP_PROMOTIONAL_CARD] =
+    {
+        .name = _("Weekly Shonen"),
+        .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_ALPHA_JULY_2012_MEMBERSHIP_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWeeklyShonenJumpAlphaJuly2012membershippromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WEEKLY_SHONEN_JUMP_ALPHA_SEPTEMBER_2012_MEMBERSHIP_PROMOTIONAL_CARD] =
+    {
+        .name = _("Weekly Shonen"),
+        .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_ALPHA_SEPTEMBER_2012_MEMBERSHIP_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWeeklyShonenJumpAlphaSeptember2012membershippromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WEEKLY_SHONEN_JUMP_APRIL_2015_MEMBERSHIP_PROMOTIONAL_CARD] =
+    {
+        .name = _("Weekly Shonen"),
+        .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_APRIL_2015_MEMBERSHIP_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWeeklyShonenJumpApril2015membershippromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WEEKLY_SHONEN_JUMP_APRIL_2016_MEMBERSHIP_PROMOTIONAL_CARD] =
+    {
+        .name = _("Weekly Shonen"),
+        .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_APRIL_2016_MEMBERSHIP_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWeeklyShonenJumpApril2016membershippromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WEEKLY_SHONEN_JUMP_APRIL_2017_MEMBERSHIP_PROMOTIONAL_CARD] =
+    {
+        .name = _("Weekly Shonen"),
+        .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_APRIL_2017_MEMBERSHIP_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWeeklyShonenJumpApril2017membershippromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WEEKLY_SHONEN_JUMP_APRIL_2018_MEMBERSHIP_PROMOTIONAL_CARD] =
+    {
+        .name = _("Weekly Shonen"),
+        .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_APRIL_2018_MEMBERSHIP_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWeeklyShonenJumpApril2018membershippromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WEEKLY_SHONEN_JUMP_AUGUST_2014_MEMBERSHIP_PROMOTIONAL_CARD] =
+    {
+        .name = _("Weekly Shonen"),
+        .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_AUGUST_2014_MEMBERSHIP_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWeeklyShonenJumpAugust2014membershippromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WEEKLY_SHONEN_JUMP_DECEMBER_2013_MEMBERSHIP_PROMOTIONAL_CARD] =
+    {
+        .name = _("Weekly Shonen"),
+        .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_DECEMBER_2013_MEMBERSHIP_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWeeklyShonenJumpDecember2013membershippromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WEEKLY_SHONEN_JUMP_DECEMBER_2018_MEMBERSHIP_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Weekly Shonen"),
+        .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_DECEMBER_2018_MEMBERSHIP_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sWeeklyShonenJumpDecember2018membershippromotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WEEKLY_SHONEN_JUMP_FEBRUARY_2015_MEMBERSHIP_PROMOTIONAL_CARD] =
+    {
+        .name = _("Weekly Shonen"),
+        .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_FEBRUARY_2015_MEMBERSHIP_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWeeklyShonenJumpFebruary2015membershippromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WEEKLY_SHONEN_JUMP_JANUARY_2016_MEMBERSHIP_PROMOTIONAL_CARD] =
+    {
+        .name = _("Weekly Shonen"),
+        .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_JANUARY_2016_MEMBERSHIP_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWeeklyShonenJumpJanuary2016membershippromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WEEKLY_SHONEN_JUMP_JANUARY_2017_MEMBERSHIP_PROMOTIONAL_CARD] =
+    {
+        .name = _("Weekly Shonen"),
+        .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_JANUARY_2017_MEMBERSHIP_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWeeklyShonenJumpJanuary2017membershippromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WEEKLY_SHONEN_JUMP_JANUARY_2018_MEMBERSHIP_PROMOTIONAL_CARD] =
+    {
+        .name = _("Weekly Shonen"),
+        .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_JANUARY_2018_MEMBERSHIP_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWeeklyShonenJumpJanuary2018membershippromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WEEKLY_SHONEN_JUMP_JULY_2013_MEMBERSHIP_PROMOTIONAL_CARD] =
+    {
+        .name = _("Weekly Shonen"),
+        .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_JULY_2013_MEMBERSHIP_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWeeklyShonenJumpJuly2013membershippromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WEEKLY_SHONEN_JUMP_JULY_2015_MEMBERSHIP_PROMOTIONAL_CARD] =
+    {
+        .name = _("Weekly Shonen"),
+        .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_JULY_2015_MEMBERSHIP_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWeeklyShonenJumpJuly2015membershippromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WEEKLY_SHONEN_JUMP_JULY_2016_MEMBERSHIP_PROMOTIONAL_CARD] =
+    {
+        .name = _("Weekly Shonen"),
+        .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_JULY_2016_MEMBERSHIP_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWeeklyShonenJumpJuly2016membershippromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WEEKLY_SHONEN_JUMP_JULY_2017_MEMBERSHIP_PROMOTIONAL_CARD] =
+    {
+        .name = _("Weekly Shonen"),
+        .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_JULY_2017_MEMBERSHIP_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWeeklyShonenJumpJuly2017membershippromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WEEKLY_SHONEN_JUMP_JULY_2018_MEMBERSHIP_PROMOTIONAL_CARD] =
+    {
+        .name = _("Weekly Shonen"),
+        .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_JULY_2018_MEMBERSHIP_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWeeklyShonenJumpJuly2018membershippromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WEEKLY_SHONEN_JUMP_MARCH_2013_MEMBERSHIP_PROMOTIONAL_CARD] =
+    {
+        .name = _("Weekly Shonen"),
+        .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_MARCH_2013_MEMBERSHIP_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWeeklyShonenJumpMarch2013membershippromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WEEKLY_SHONEN_JUMP_MARCH_2014_MEMBERSHIP_PROMOTIONAL_CARD] =
+    {
+        .name = _("Weekly Shonen"),
+        .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_MARCH_2014_MEMBERSHIP_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWeeklyShonenJumpMarch2014membershippromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WEEKLY_SHONEN_JUMP_NOVEMBER_2014_MEMBERSHIP_PROMOTIONAL_CARD] =
+    {
+        .name = _("Weekly Shonen"),
+        .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_NOVEMBER_2014_MEMBERSHIP_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWeeklyShonenJumpNovember2014membershippromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WEEKLY_SHONEN_JUMP_NOVEMBER_2017_MEMBERSHIP_PROMOTIONAL_CARD] =
+    {
+        .name = _("Weekly Shonen"),
+        .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_NOVEMBER_2017_MEMBERSHIP_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWeeklyShonenJumpNovember2017membershippromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WEEKLY_SHONEN_JUMP_NOVEMBER_2018_MEMBERSHIP_PROMOTIONAL_CARD] =
+    {
+        .name = _("Weekly Shonen"),
+        .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_NOVEMBER_2018_MEMBERSHIP_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWeeklyShonenJumpNovember2018membershippromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WEEKLY_SHONEN_JUMP_OCTOBER_2015_MEMBERSHIP_PROMOTIONAL_CARD] =
+    {
+        .name = _("Weekly Shonen"),
+        .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_OCTOBER_2015_MEMBERSHIP_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWeeklyShonenJumpOctober2015membershippromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WEEKLY_SHONEN_JUMP_OCTOBER_2016_MEMBERSHIP_PROMOTIONAL_CARD] =
+    {
+        .name = _("Weekly Shonen"),
+        .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_OCTOBER_2016_MEMBERSHIP_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWeeklyShonenJumpOctober2016membershippromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WEEKLY_SHONEN_JUMP_SEPTEMBER_2013_MEMBERSHIP_PROMOTIONAL_CARD] =
+    {
+        .name = _("Weekly Shonen"),
+        .itemId = ITEM_PACK_WEEKLY_SHONEN_JUMP_SEPTEMBER_2013_MEMBERSHIP_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sWeeklyShonenJumpSeptember2013membershippromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WILD_SURVIVORS] =
+    {
+        .name = _("Wild Survivor"),
+        .itemId = ITEM_PACK_WILD_SURVIVORS,
+        .price = 0,
+        .description = sWildSurvivorsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WING_RAIDERS] =
+    {
+        .name = _("Wing Raiders"),
+        .itemId = ITEM_PACK_WING_RAIDERS,
+        .price = 0,
+        .description = sWingRaidersDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WORLD_CHAMPIONSHIP_2010_CARD_PACK] =
+    {
+        .name = _("World Champio"),
+        .itemId = ITEM_PACK_WORLD_CHAMPIONSHIP_2010_CARD_PACK,
+        .price = 0,
+        .description = sWorldChampionship2010CardPackDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WORLD_CHAMPIONSHIP_2011_CARD_PACK] =
+    {
+        .name = _("World Champio"),
+        .itemId = ITEM_PACK_WORLD_CHAMPIONSHIP_2011_CARD_PACK,
+        .price = 0,
+        .description = sWorldChampionship2011CardPackDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_WORLD_SUPERSTARS] =
+    {
+        .name = _("World Superst"),
+        .itemId = ITEM_PACK_WORLD_SUPERSTARS,
+        .price = 0,
+        .description = sWorldSuperstarsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_X_SABER_POWER_UP] =
+    {
+        .name = _("X-Saber Power"),
+        .itemId = ITEM_PACK_X_SABER_POWER_UP,
+        .price = 0,
+        .description = sXSaberPowerUpDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__3D_BONDS_BEYOND_TIME_DVD_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! 3D "),
+        .itemId = ITEM_PACK_YU_GI_OH__3D_BONDS_BEYOND_TIME_DVD_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOh3DBondsBeyondTimeDVDpromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__3D_BONDS_BEYOND_TIME_MOVIE_PACK] =
+    {
+        .name = _("Yu-Gi-Oh! 3D "),
+        .itemId = ITEM_PACK_YU_GI_OH__3D_BONDS_BEYOND_TIME_MOVIE_PACK,
+        .price = 0,
+        .description = sYuGiOh3DBondsBeyondTimeMoviePackDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__3D_BONDS_BEYOND_TIME_THEATER_DISTRIBUTION_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! 3D "),
+        .itemId = ITEM_PACK_YU_GI_OH__3D_BONDS_BEYOND_TIME_THEATER_DISTRIBUTION_CARD,
+        .price = 0,
+        .description = sYuGiOh3DBondsBeyondTimeTheaterdistributioncardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__5D_S_DUEL_TRANSER_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! 5D'"),
+        .itemId = ITEM_PACK_YU_GI_OH__5D_S_DUEL_TRANSER_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOh5DsDuelTranserpromotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__5D_S_STARDUST_ACCELERATOR_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! 5D'"),
+        .itemId = ITEM_PACK_YU_GI_OH__5D_S_STARDUST_ACCELERATOR_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOh5DsStardustAcceleratorpromotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__5D_S_TAG_FORCE_4_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! 5D'"),
+        .itemId = ITEM_PACK_YU_GI_OH__5D_S_TAG_FORCE_4_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOh5DsTagForce4promotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__5D_S_TAG_FORCE_5_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! 5D'"),
+        .itemId = ITEM_PACK_YU_GI_OH__5D_S_TAG_FORCE_5_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOh5DsTagForce5PromotionalCardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__5D_S_TAG_FORCE_5_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! 5D'"),
+        .itemId = ITEM_PACK_YU_GI_OH__5D_S_TAG_FORCE_5_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOh5DsTagForce5promotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__5D_S_VOLUME_1_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! 5D'"),
+        .itemId = ITEM_PACK_YU_GI_OH__5D_S_VOLUME_1_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOh5DsVolume1promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__5D_S_VOLUME_2_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! 5D'"),
+        .itemId = ITEM_PACK_YU_GI_OH__5D_S_VOLUME_2_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOh5DsVolume2promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__5D_S_VOLUME_3_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! 5D'"),
+        .itemId = ITEM_PACK_YU_GI_OH__5D_S_VOLUME_3_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOh5DsVolume3promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__5D_S_VOLUME_4_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! 5D'"),
+        .itemId = ITEM_PACK_YU_GI_OH__5D_S_VOLUME_4_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOh5DsVolume4promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__5D_S_VOLUME_5_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! 5D'"),
+        .itemId = ITEM_PACK_YU_GI_OH__5D_S_VOLUME_5_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOh5DsVolume5promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__5D_S_VOLUME_6_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! 5D'"),
+        .itemId = ITEM_PACK_YU_GI_OH__5D_S_VOLUME_6_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOh5DsVolume6promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__5D_S_VOLUME_7_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! 5D'"),
+        .itemId = ITEM_PACK_YU_GI_OH__5D_S_VOLUME_7_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOh5DsVolume7promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__5D_S_VOLUME_9_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! 5D'"),
+        .itemId = ITEM_PACK_YU_GI_OH__5D_S_VOLUME_9_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOh5DsVolume9promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__5D_S_WHEELIE_BREAKERS_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! 5D'"),
+        .itemId = ITEM_PACK_YU_GI_OH__5D_S_WHEELIE_BREAKERS_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOh5DsWheelieBreakersPromotionalCardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__5D_S_WORLD_CHAMPIONSHIP_2009__STARDUST_ACCELERATOR_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! 5D'"),
+        .itemId = ITEM_PACK_YU_GI_OH__5D_S_WORLD_CHAMPIONSHIP_2009__STARDUST_ACCELERATOR_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOh5DsWorldChampionship2009StardustAcceleratorpromotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__5D_S_WORLD_CHAMPIONSHIP_2010__REVERSE_OF_ARCADIA_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! 5D'"),
+        .itemId = ITEM_PACK_YU_GI_OH__5D_S_WORLD_CHAMPIONSHIP_2010__REVERSE_OF_ARCADIA_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOh5DsWorldChampionship2010ReverseofArcadiapromotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__5D_S_WORLD_CHAMPIONSHIP_2011__OVER_THE_NEXUS_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! 5D'"),
+        .itemId = ITEM_PACK_YU_GI_OH__5D_S_WORLD_CHAMPIONSHIP_2011__OVER_THE_NEXUS_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOh5DsWorldChampionship2011OvertheNexuspromotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__5D_S_VOLUME_8_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! 5D'"),
+        .itemId = ITEM_PACK_YU_GI_OH__5D_S_VOLUME_8_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOh5Dsvolume8promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__7_TRIALS_TO_GLORY__WORLD_CHAMPIONSHIP_TOURNAMENT_2005_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! 7 T"),
+        .itemId = ITEM_PACK_YU_GI_OH__7_TRIALS_TO_GLORY__WORLD_CHAMPIONSHIP_TOURNAMENT_2005_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOh7TrialstoGloryWorldChampionshipTournament2005promotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__ARC_V_VOLUME_1_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! ARC"),
+        .itemId = ITEM_PACK_YU_GI_OH__ARC_V_VOLUME_1_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOhARCVVolume1promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__ARC_V_VOLUME_2_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! ARC"),
+        .itemId = ITEM_PACK_YU_GI_OH__ARC_V_VOLUME_2_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOhARCVVolume2promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__ARC_V_VOLUME_3_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! ARC"),
+        .itemId = ITEM_PACK_YU_GI_OH__ARC_V_VOLUME_3_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOhARCVVolume3promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__ARC_V_VOLUME_4_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! ARC"),
+        .itemId = ITEM_PACK_YU_GI_OH__ARC_V_VOLUME_4_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOhARCVVolume4promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__ARC_V_VOLUME_5_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! ARC"),
+        .itemId = ITEM_PACK_YU_GI_OH__ARC_V_VOLUME_5_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOhARCVVolume5promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__ARC_V_VOLUME_6_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! ARC"),
+        .itemId = ITEM_PACK_YU_GI_OH__ARC_V_VOLUME_6_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOhARCVVolume6promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__ARC_V_VOLUME_7_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! ARC"),
+        .itemId = ITEM_PACK_YU_GI_OH__ARC_V_VOLUME_7_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOhARCVVolume7promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__ADVENT_CALENDAR] =
+    {
+        .name = _("Yu-Gi-Oh! Adv"),
+        .itemId = ITEM_PACK_YU_GI_OH__ADVENT_CALENDAR,
+        .price = 0,
+        .description = sYuGiOhAdventCalendarDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__ADVENT_CALENDAR__2018_] =
+    {
+        .name = _("Yu-Gi-Oh! Adv"),
+        .itemId = ITEM_PACK_YU_GI_OH__ADVENT_CALENDAR__2018_,
+        .price = 0,
+        .description = sYuGiOhAdventCalendar2018Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__ADVENT_CALENDAR__2019_] =
+    {
+        .name = _("Yu-Gi-Oh! Adv"),
+        .itemId = ITEM_PACK_YU_GI_OH__ADVENT_CALENDAR__2019_,
+        .price = 0,
+        .description = sYuGiOhAdventCalendar2019Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__CAPSULE_MONSTER_COLISEUM_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! Cap"),
+        .itemId = ITEM_PACK_YU_GI_OH__CAPSULE_MONSTER_COLISEUM_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOhCapsuleMonsterColiseumpromotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2010_PRIZE_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! Cha"),
+        .itemId = ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2010_PRIZE_CARDS,
+        .price = 0,
+        .description = sYuGiOhChampionshipSeries2010PrizeCardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2011_PRIZE_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! Cha"),
+        .itemId = ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2011_PRIZE_CARD,
+        .price = 0,
+        .description = sYuGiOhChampionshipSeries2011PrizeCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2012_PRIZE_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! Cha"),
+        .itemId = ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2012_PRIZE_CARD,
+        .price = 0,
+        .description = sYuGiOhChampionshipSeries2012PrizeCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2013_PRIZE_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! Cha"),
+        .itemId = ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2013_PRIZE_CARD,
+        .price = 0,
+        .description = sYuGiOhChampionshipSeries2013PrizeCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2014_PRIZE_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! Cha"),
+        .itemId = ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2014_PRIZE_CARD,
+        .price = 0,
+        .description = sYuGiOhChampionshipSeries2014PrizeCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2015_PRIZE_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! Cha"),
+        .itemId = ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2015_PRIZE_CARD,
+        .price = 0,
+        .description = sYuGiOhChampionshipSeries2015PrizeCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2016_PRIZE_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! Cha"),
+        .itemId = ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2016_PRIZE_CARD,
+        .price = 0,
+        .description = sYuGiOhChampionshipSeries2016PrizeCardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2017_PRIZE_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! Cha"),
+        .itemId = ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2017_PRIZE_CARD,
+        .price = 0,
+        .description = sYuGiOhChampionshipSeries2017prizecardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2018_PRIZE_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! Cha"),
+        .itemId = ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2018_PRIZE_CARD,
+        .price = 0,
+        .description = sYuGiOhChampionshipSeries2018prizecardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2019_PRIZE_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! Cha"),
+        .itemId = ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2019_PRIZE_CARD,
+        .price = 0,
+        .description = sYuGiOhChampionshipSeries2019prizecardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2022_PRIZE_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! Cha"),
+        .itemId = ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2022_PRIZE_CARD,
+        .price = 0,
+        .description = sYuGiOhChampionshipSeries2022prizecardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2023_PRIZE_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! Cha"),
+        .itemId = ITEM_PACK_YU_GI_OH__CHAMPIONSHIP_SERIES_2023_PRIZE_CARD,
+        .price = 0,
+        .description = sYuGiOhChampionshipSeries2023prizecardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__DARK_DUEL_STORIES_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! Dar"),
+        .itemId = ITEM_PACK_YU_GI_OH__DARK_DUEL_STORIES_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOhDarkDuelStoriespromotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__DAY_APRIL_2019_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! Day"),
+        .itemId = ITEM_PACK_YU_GI_OH__DAY_APRIL_2019_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOhDayApril2019promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__DESTINY_BOARD_TRAVELER_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! Des"),
+        .itemId = ITEM_PACK_YU_GI_OH__DESTINY_BOARD_TRAVELER_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOhDestinyBoardTravelerpromotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__DOUBLE_PACK_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! Dou"),
+        .itemId = ITEM_PACK_YU_GI_OH__DOUBLE_PACK_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOhDoublePackpromotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__ELEMENTAL_HERO_COLLECTION_1] =
+    {
+        .name = _("Yu-Gi-Oh! Ele"),
+        .itemId = ITEM_PACK_YU_GI_OH__ELEMENTAL_HERO_COLLECTION_1,
+        .price = 0,
+        .description = sYuGiOhElementalHeroCollection1Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__ELEMENTAL_HERO_COLLECTION_2] =
+    {
+        .name = _("Yu-Gi-Oh! Ele"),
+        .itemId = ITEM_PACK_YU_GI_OH__ELEMENTAL_HERO_COLLECTION_2,
+        .price = 0,
+        .description = sYuGiOhElementalHeroCollection2Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__FORBIDDEN_MEMORIES_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! For"),
+        .itemId = ITEM_PACK_YU_GI_OH__FORBIDDEN_MEMORIES_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOhForbiddenMemoriespromotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__GX_CARD_ALMANAC_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! GX "),
+        .itemId = ITEM_PACK_YU_GI_OH__GX_CARD_ALMANAC_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOhGXCardAlmanacpromotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__GX_DUEL_ACADEMY_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! GX "),
+        .itemId = ITEM_PACK_YU_GI_OH__GX_DUEL_ACADEMY_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOhGXDuelAcademypromotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__GX_SPECIAL_EDITION] =
+    {
+        .name = _("Yu-Gi-Oh! GX "),
+        .itemId = ITEM_PACK_YU_GI_OH__GX_SPECIAL_EDITION,
+        .price = 0,
+        .description = sYuGiOhGXSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__GX_SPIRIT_CALLER_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! GX "),
+        .itemId = ITEM_PACK_YU_GI_OH__GX_SPIRIT_CALLER_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOhGXSpiritCallerpromotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__GX_TAG_FORCE_2_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! GX "),
+        .itemId = ITEM_PACK_YU_GI_OH__GX_TAG_FORCE_2_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOhGXTagForce2promotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__GX_TAG_FORCE_3_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! GX "),
+        .itemId = ITEM_PACK_YU_GI_OH__GX_TAG_FORCE_3_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOhGXTagForce3promotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__GX_TAG_FORCE_EVOLUTION_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! GX "),
+        .itemId = ITEM_PACK_YU_GI_OH__GX_TAG_FORCE_EVOLUTION_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOhGXTagForceEvolutionpromotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__GX_TAG_FORCE_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! GX "),
+        .itemId = ITEM_PACK_YU_GI_OH__GX_TAG_FORCE_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOhGXTagForcepromotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__GX_ULTIMATE_BEGINNER_S_PACK] =
+    {
+        .name = _("Yu-Gi-Oh! GX "),
+        .itemId = ITEM_PACK_YU_GI_OH__GX_ULTIMATE_BEGINNER_S_PACK,
+        .price = 0,
+        .description = sYuGiOhGXUltimateBeginnersPackDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__GX_VOLUME_1_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! GX "),
+        .itemId = ITEM_PACK_YU_GI_OH__GX_VOLUME_1_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOhGXVolume1promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__GX_VOLUME_2_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! GX "),
+        .itemId = ITEM_PACK_YU_GI_OH__GX_VOLUME_2_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOhGXVolume2promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__GX_VOLUME_3_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! GX "),
+        .itemId = ITEM_PACK_YU_GI_OH__GX_VOLUME_3_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOhGXVolume3promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__GX_VOLUME_4_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! GX "),
+        .itemId = ITEM_PACK_YU_GI_OH__GX_VOLUME_4_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOhGXVolume4promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__GX_VOLUME_5_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! GX "),
+        .itemId = ITEM_PACK_YU_GI_OH__GX_VOLUME_5_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOhGXVolume5promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__GX_VOLUME_6_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! GX "),
+        .itemId = ITEM_PACK_YU_GI_OH__GX_VOLUME_6_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOhGXVolume6promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__GX_VOLUME_7_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! GX "),
+        .itemId = ITEM_PACK_YU_GI_OH__GX_VOLUME_7_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOhGXVolume7promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__GX_VOLUME_8_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! GX "),
+        .itemId = ITEM_PACK_YU_GI_OH__GX_VOLUME_8_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOhGXVolume8promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__GX_VOLUME_9_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! GX "),
+        .itemId = ITEM_PACK_YU_GI_OH__GX_VOLUME_9_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOhGXVolume9promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__LEGACY_OF_THE_DUELIST__LINK_EVOLUTION_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! Leg"),
+        .itemId = ITEM_PACK_YU_GI_OH__LEGACY_OF_THE_DUELIST__LINK_EVOLUTION_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOhLegacyoftheDuelistLinkEvolutionpromotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__NIGHTMARE_TROUBADOUR_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! Nig"),
+        .itemId = ITEM_PACK_YU_GI_OH__NIGHTMARE_TROUBADOUR_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOhNightmareTroubadourpromotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__POWER_OF_CHAOS__JOEY_THE_PASSION_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! Pow"),
+        .itemId = ITEM_PACK_YU_GI_OH__POWER_OF_CHAOS__JOEY_THE_PASSION_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOhPowerofChaosJoeythePassionpromotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__POWER_OF_CHAOS__KAIBA_THE_REVENGE_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! Pow"),
+        .itemId = ITEM_PACK_YU_GI_OH__POWER_OF_CHAOS__KAIBA_THE_REVENGE_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOhPowerofChaosKaibatheRevengepromotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__POWER_OF_CHAOS__YUGI_THE_DESTINY_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! Pow"),
+        .itemId = ITEM_PACK_YU_GI_OH__POWER_OF_CHAOS__YUGI_THE_DESTINY_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOhPowerofChaosYugitheDestinypromotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__R_VOLUME_1_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! R V"),
+        .itemId = ITEM_PACK_YU_GI_OH__R_VOLUME_1_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOhRVolume1promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__R_VOLUME_3_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! R V"),
+        .itemId = ITEM_PACK_YU_GI_OH__R_VOLUME_3_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOhRVolume3promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__R_VOLUME_4_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! R V"),
+        .itemId = ITEM_PACK_YU_GI_OH__R_VOLUME_4_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOhRVolume4promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__R_VOLUME_5_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! R V"),
+        .itemId = ITEM_PACK_YU_GI_OH__R_VOLUME_5_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOhRVolume5promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__RESHEF_OF_DESTRUCTION_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! Res"),
+        .itemId = ITEM_PACK_YU_GI_OH__RESHEF_OF_DESTRUCTION_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOhReshefofDestructionpromotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__TCG_REMOTE_DUEL_EXTRAVAGANZA_PARTICIPATION_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! TCG"),
+        .itemId = ITEM_PACK_YU_GI_OH__TCG_REMOTE_DUEL_EXTRAVAGANZA_PARTICIPATION_CARD,
+        .price = 0,
+        .description = sYuGiOhTCGRemoteDuelExtravaganzaparticipationcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__THE_DARK_SIDE_OF_DIMENSIONS_BLU_RAY___DVD_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! The"),
+        .itemId = ITEM_PACK_YU_GI_OH__THE_DARK_SIDE_OF_DIMENSIONS_BLU_RAY___DVD_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOhTheDarkSideofDimensionsBlurayDVDpromotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__THE_DARK_SIDE_OF_DIMENSIONS_MOVIE_PACK] =
+    {
+        .name = _("Yu-Gi-Oh! The"),
+        .itemId = ITEM_PACK_YU_GI_OH__THE_DARK_SIDE_OF_DIMENSIONS_MOVIE_PACK,
+        .price = 0,
+        .description = sYuGiOhTheDarkSideofDimensionsMoviePackDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__THE_DARK_SIDE_OF_DIMENSIONS_MOVIE_PACK_SECRET_EDITION] =
+    {
+        .name = _("Yu-Gi-Oh! The"),
+        .itemId = ITEM_PACK_YU_GI_OH__THE_DARK_SIDE_OF_DIMENSIONS_MOVIE_PACK_SECRET_EDITION,
+        .price = 0,
+        .description = sYuGiOhTheDarkSideofDimensionsMoviePackSecretEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__THE_DARK_SIDE_OF_DIMENSIONS_MOVIE_PACK_SPECIAL_EDITION] =
+    {
+        .name = _("Yu-Gi-Oh! The"),
+        .itemId = ITEM_PACK_YU_GI_OH__THE_DARK_SIDE_OF_DIMENSIONS_MOVIE_PACK_SPECIAL_EDITION,
+        .price = 0,
+        .description = sYuGiOhTheDarkSideofDimensionsMoviePackSpecialEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__THE_DARK_SIDE_OF_DIMENSIONS_MOVIE_PACK__GOLD_EDITION] =
+    {
+        .name = _("Yu-Gi-Oh! The"),
+        .itemId = ITEM_PACK_YU_GI_OH__THE_DARK_SIDE_OF_DIMENSIONS_MOVIE_PACK__GOLD_EDITION,
+        .price = 0,
+        .description = sYuGiOhTheDarkSideofDimensionsMoviePackGoldEditionDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__THE_DARK_SIDE_OF_DIMENSIONS_THEATER_DISTRIBUTION_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! The"),
+        .itemId = ITEM_PACK_YU_GI_OH__THE_DARK_SIDE_OF_DIMENSIONS_THEATER_DISTRIBUTION_CARDS,
+        .price = 0,
+        .description = sYuGiOhTheDarkSideofDimensionsTheaterdistributioncardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__THE_DAWN_OF_DESTINY_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! The"),
+        .itemId = ITEM_PACK_YU_GI_OH__THE_DAWN_OF_DESTINY_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOhTheDawnofDestinypromotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__THE_DUELISTS_OF_THE_ROSES_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! The"),
+        .itemId = ITEM_PACK_YU_GI_OH__THE_DUELISTS_OF_THE_ROSES_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOhTheDuelistsoftheRosespromotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__THE_ETERNAL_DUELIST_SOUL_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! The"),
+        .itemId = ITEM_PACK_YU_GI_OH__THE_ETERNAL_DUELIST_SOUL_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOhTheEternalDuelistSoulpromotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__THE_FALSEBOUND_KINGDOM_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! The"),
+        .itemId = ITEM_PACK_YU_GI_OH__THE_FALSEBOUND_KINGDOM_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOhTheFalseboundKingdompromotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__THE_SACRED_CARDS_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! The"),
+        .itemId = ITEM_PACK_YU_GI_OH__THE_SACRED_CARDS_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOhTheSacredCardspromotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__TRADING_CARD_GAME_TOUR_2004_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! Tra"),
+        .itemId = ITEM_PACK_YU_GI_OH__TRADING_CARD_GAME_TOUR_2004_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOhTradingCardGameTour2004promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__ULTIMATE_MASTERS__WORLD_CHAMPIONSHIP_TOURNAMENT_2006_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! Ult"),
+        .itemId = ITEM_PACK_YU_GI_OH__ULTIMATE_MASTERS__WORLD_CHAMPIONSHIP_TOURNAMENT_2006_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOhUltimateMastersWorldChampionshipTournament2006promotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__WORLD_CHAMPIONSHIP_2004_PRIZE_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! Wor"),
+        .itemId = ITEM_PACK_YU_GI_OH__WORLD_CHAMPIONSHIP_2004_PRIZE_CARDS,
+        .price = 0,
+        .description = sYuGiOhWorldChampionship2004prizecardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__WORLD_CHAMPIONSHIP_2005_PRIZE_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! Wor"),
+        .itemId = ITEM_PACK_YU_GI_OH__WORLD_CHAMPIONSHIP_2005_PRIZE_CARDS,
+        .price = 0,
+        .description = sYuGiOhWorldChampionship2005prizecardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__WORLD_CHAMPIONSHIP_2006_PRIZE_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! Wor"),
+        .itemId = ITEM_PACK_YU_GI_OH__WORLD_CHAMPIONSHIP_2006_PRIZE_CARDS,
+        .price = 0,
+        .description = sYuGiOhWorldChampionship2006prizecardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__WORLD_CHAMPIONSHIP_2007_PRIZE_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! Wor"),
+        .itemId = ITEM_PACK_YU_GI_OH__WORLD_CHAMPIONSHIP_2007_PRIZE_CARDS,
+        .price = 0,
+        .description = sYuGiOhWorldChampionship2007prizecardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__WORLD_CHAMPIONSHIP_2007_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! Wor"),
+        .itemId = ITEM_PACK_YU_GI_OH__WORLD_CHAMPIONSHIP_2007_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOhWorldChampionship2007promotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__WORLD_CHAMPIONSHIP_2008_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! Wor"),
+        .itemId = ITEM_PACK_YU_GI_OH__WORLD_CHAMPIONSHIP_2008_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOhWorldChampionship2008promotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__WORLD_CHAMPIONSHIP_2017_PRIZE_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! Wor"),
+        .itemId = ITEM_PACK_YU_GI_OH__WORLD_CHAMPIONSHIP_2017_PRIZE_CARDS,
+        .price = 0,
+        .description = sYuGiOhWorldChampionship2017prizecardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__WORLD_CHAMPIONSHIP_2018_PRIZE_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! Wor"),
+        .itemId = ITEM_PACK_YU_GI_OH__WORLD_CHAMPIONSHIP_2018_PRIZE_CARDS,
+        .price = 0,
+        .description = sYuGiOhWorldChampionship2018prizecardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__WORLD_CHAMPIONSHIP_2019_JAPANESE_NATIONAL_QUALIFIERS_PRIZE_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! Wor"),
+        .itemId = ITEM_PACK_YU_GI_OH__WORLD_CHAMPIONSHIP_2019_JAPANESE_NATIONAL_QUALIFIERS_PRIZE_CARDS,
+        .price = 0,
+        .description = sYuGiOhWorldChampionship2019JapaneseNationalQualifiersprizecardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__WORLD_CHAMPIONSHIP_QUALIFIER_NATIONAL_CHAMPIONSHIPS_2011_PRIZE_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! Wor"),
+        .itemId = ITEM_PACK_YU_GI_OH__WORLD_CHAMPIONSHIP_QUALIFIER_NATIONAL_CHAMPIONSHIPS_2011_PRIZE_CARDS,
+        .price = 0,
+        .description = sYuGiOhWorldChampionshipQualifierNationalChampionships2011prizecardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__WORLD_CHAMPIONSHIP_TOURNAMENT_2004_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! Wor"),
+        .itemId = ITEM_PACK_YU_GI_OH__WORLD_CHAMPIONSHIP_TOURNAMENT_2004_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOhWorldChampionshipTournament2004promotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__WORLDWIDE_EDITION__STAIRWAY_TO_THE_DESTINED_DUEL_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! Wor"),
+        .itemId = ITEM_PACK_YU_GI_OH__WORLDWIDE_EDITION__STAIRWAY_TO_THE_DESTINED_DUEL_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOhWorldwideEditionStairwaytotheDestinedDuelpromotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__ZEXAL_VOLUME_1_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! ZEX"),
+        .itemId = ITEM_PACK_YU_GI_OH__ZEXAL_VOLUME_1_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOhZEXALVolume1promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__ZEXAL_VOLUME_2_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! ZEX"),
+        .itemId = ITEM_PACK_YU_GI_OH__ZEXAL_VOLUME_2_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOhZEXALVolume2promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__ZEXAL_VOLUME_3_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! ZEX"),
+        .itemId = ITEM_PACK_YU_GI_OH__ZEXAL_VOLUME_3_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOhZEXALVolume3promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__ZEXAL_VOLUME_4_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! ZEX"),
+        .itemId = ITEM_PACK_YU_GI_OH__ZEXAL_VOLUME_4_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOhZEXALVolume4promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__ZEXAL_VOLUME_5_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! ZEX"),
+        .itemId = ITEM_PACK_YU_GI_OH__ZEXAL_VOLUME_5_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOhZEXALVolume5promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__ZEXAL_VOLUME_6_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! ZEX"),
+        .itemId = ITEM_PACK_YU_GI_OH__ZEXAL_VOLUME_6_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOhZEXALVolume6promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__ZEXAL_VOLUME_7_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! ZEX"),
+        .itemId = ITEM_PACK_YU_GI_OH__ZEXAL_VOLUME_7_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOhZEXALVolume7promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__ZEXAL_VOLUME_8_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! ZEX"),
+        .itemId = ITEM_PACK_YU_GI_OH__ZEXAL_VOLUME_8_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOhZEXALVolume8promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__ZEXAL_VOLUME_9_PROMOTIONAL_CARD] =
+    {
+        .name = _("Yu-Gi-Oh! ZEX"),
+        .itemId = ITEM_PACK_YU_GI_OH__ZEXAL_VOLUME_9_PROMOTIONAL_CARD,
+        .price = 0,
+        .description = sYuGiOhZEXALVolume9promotionalcardDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__ZEXAL_WORLD_DUEL_CARNIVAL_PROMOTIONAL_CARDS] =
+    {
+        .name = _("Yu-Gi-Oh! ZEX"),
+        .itemId = ITEM_PACK_YU_GI_OH__ZEXAL_WORLD_DUEL_CARNIVAL_PROMOTIONAL_CARDS,
+        .price = 0,
+        .description = sYuGiOhZEXALWorldDuelCarnivalpromotionalcardsDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YU_GI_OH__AT_HOME_SWEEPSTAKES] =
+    {
+        .name = _("Yu-Gi-Oh! at "),
+        .itemId = ITEM_PACK_YU_GI_OH__AT_HOME_SWEEPSTAKES,
+        .price = 0,
+        .description = sYuGiOhatHomeSweepstakesDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YUGI___KAIBA_COLLECTOR_BOX] =
+    {
+        .name = _("Yugi & Kaiba "),
+        .itemId = ITEM_PACK_YUGI___KAIBA_COLLECTOR_BOX,
+        .price = 0,
+        .description = sYugiKaibaCollectorBoxDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_YUGI_S_LEGENDARY_DECKS] =
+    {
+        .name = _("Yugi's Legend"),
+        .itemId = ITEM_PACK_YUGI_S_LEGENDARY_DECKS,
+        .price = 0,
+        .description = sYugisLegendaryDecksDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ZEXAL_COLLECTION_TIN] =
+    {
+        .name = _("Zexal Collect"),
+        .itemId = ITEM_PACK_ZEXAL_COLLECTION_TIN,
+        .price = 0,
+        .description = sZexalCollectionTinDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+	[ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK] =
+    {
+        .name = _("Zombie World "),
+        .itemId = ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK,
+        .price = 0,
+        .description = sZombieWorldStructureDeckDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },
+
+
 	[ITEM_4_STARRED_LADYBUG_OF_DOOM] =
     {
         .name = _("4StarredLadyb"),
