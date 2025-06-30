@@ -683,7 +683,6 @@ for set_ in sorted(list(tcg_sets)):
 # TCG_Set_Writer.close()
 
 sets_print = ''
-Sets_Writer = open('src/data/packs.h', 'w', encoding='utf-8')
 with open('tcg_sets.json', 'r') as f:
     data = json.load(f)
     for set_ in data:
@@ -732,21 +731,20 @@ with open('tcg_sets.json', 'r') as f:
         YGO += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + '] = ' + str(sorted(list(tcg_sets)).index(set_)) + ',\n'
 YGO += '\n'
 
-Packs = ''
-Packs += '\nconst struct Pack gPacks[] =\n{\n'
+sets_print += '\nconst struct Pack gPacks[] =\n{\n'
 card_count = 0
 with open('tcg_sets.json', 'r') as f:
     data = json.load(f)
     for set_ in data:
-        Packs += '\t[PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + '] =\n\t{\n        .pack = g' + re.sub(r'[^a-zA-Z0-9]', '', set_) + ',\n        .length = '
+        sets_print += '\t[PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + '] =\n\t{\n        .pack = g' + re.sub(r'[^a-zA-Z0-9]', '', set_) + ',\n        .length = '
         for card in data[set_]:
             if card in card_names:
                  card_count += 1
-        Packs += str(card_count)
-        Packs += ',\n\t},\n'
+        sets_print += str(card_count)
+        sets_print += ',\n\t},\n'
         card_count = 0
 PacksWrite = open('src/data/ygo/packs.h', 'w', encoding='utf-8')
-PacksWrite.write(Packs)
+PacksWrite.write(sets_print)
 PacksWrite.close()
 
 card_count = 0
@@ -758,8 +756,6 @@ with open('tcg_sets.json', 'r') as f:
 SRCDataItemsWrite = open('src/data/items.h', 'w', encoding='utf-8')
 SRCDataItemsWrite.write(SRCDataItems)
 SRCDataItemsWrite.close()
-Sets_Writer.write(sets_print)
-Sets_Writer.close()
 
 for data in card_info_data['data']:
     card_name = data['name']
