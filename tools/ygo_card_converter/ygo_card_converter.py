@@ -572,34 +572,37 @@ YGO_C = ''
 UI_Menu = ''
 Scripts = ''
 Graphics_File_Rules = ''
-PacksPrint = ''
+SRCDataItems = ''
 card_counter = 1
 pack_counter = 1836
 description_lines = dict()
 
 for format_ in formats:
-    PacksPrint += 'static const u8 s' + re.sub(r'[^a-zA-Z0-9]', '', format_) + 'Desc[] = _("' + textwrap.fill(format_, width=20).replace('\n', '\\n') + '.");\n\n'
+    SRCDataItems += 'static const u8 s' + re.sub(r'[^a-zA-Z0-9]', '', format_) + 'Desc[] = _("' + textwrap.fill(format_, width=20).replace('\n', '\\n') + '.");\n\n'
 
 for format_ in formats:
-    PacksPrint += '#define ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + ' ' + str(pack_counter) + '\n'
+    Item_Constants += '#define ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + ' ' + str(pack_counter) + '\n'
     pack_counter += 1
-PacksPrint += '\n'
+Item_Constants += '\n'
 
 pack_counter = 990
 for format_ in formats:
-    PacksPrint += '#define PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + ' ' + str(pack_counter) + '\n'
+    Item_Constants += '#define PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + ' ' + str(pack_counter) + '\n'
     pack_counter += 1
+Item_Constants += '\n'
 
 pack_counter = 990
 for format_ in formats:
-    PacksPrint += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + '] = ' + str(pack_counter) + ',\n'
+    Item_Constants += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + '] = ' + str(pack_counter) + ',\n'
     pack_counter += 1
+Item_Constants += '\n'
 
 for format_ in formats:
-    PacksPrint += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + '] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},\n'
+    ItemIconTable += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + '] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},\n'
+ItemIconTable += '\n'
 
 for format_ in formats:
-    PacksPrint += '''	[ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + '''] =
+    Items += '''	[ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + '''] =
     {
         .name = _("''' + format_[:13] + '''"),
         .itemId = ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + ''',
@@ -609,9 +612,11 @@ for format_ in formats:
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
     },\n\n'''
+Items += '\n'
 
+ItemUse = ''
 for format_ in formats:
-    PacksPrint += '''    else if (pack == PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + ''')
+    ItemUse += '''    else if (pack == PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + ''')
     {
         u16 cards[NUM_CARDS];
         for (i = 0; i < NUM_CARDS; i++)
@@ -650,10 +655,9 @@ for format_ in formats:
         }
     }\n'''
 
-PackPrinter = open('formats.txt', 'w', encoding='utf-8')
-PackPrinter.write(PacksPrint)
-PackPrinter.close()
-print('Finished PackPrinter')
+ItemUsePrinter = open('src/item_use.c', 'w', encoding='utf-8')
+ItemUsePrinter.write(ItemUse)
+ItemUsePrinter.close()
 
 tcg_sets = set()
 # TCG_Set_Writer = open('tcg_sets.json', 'w', encoding='utf-8')
@@ -677,7 +681,6 @@ for set_ in sorted(list(tcg_sets)):
 
 # json.dump(dict(sorted(tcg_sets_write.items())), TCG_Set_Writer, indent=4)
 # TCG_Set_Writer.close()
-print('TCG sets done')
 
 sets_print = ''
 Sets_Writer = open('src/data/packs.h', 'w', encoding='utf-8')
@@ -690,23 +693,22 @@ with open('tcg_sets.json', 'r') as f:
                 sets_print += '\t{ITEM_' + re.sub(r'[^a-zA-Z0-9]', '_', card).upper() + ', RARITY_' + re.sub(r'[^a-zA-Z0-9]', '_', data[set_][card]).upper() + '},\n'
         sets_print += '};\n\n'
 
-sets_print += '};\n'
 for set_ in sorted(list(tcg_sets)):
-    sets_print += '#define PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + ' ' + str(sorted(list(tcg_sets)).index(set_)) + '\n'
+    YGO_Constants += '#define PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + ' ' + str(sorted(list(tcg_sets)).index(set_)) + '\n'
+YGO_Constants += '\n'
 
-sets_print += '\n'
 for set_ in sorted(list(tcg_sets)):
-    sets_print += 'additem ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + ' 1\n' 
+    Scripts += 'additem ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + ' 1\n' 
+Scripts += '\n'
 
 sets_count = 846
-sets_print += '\n'
 for set_ in sorted(list(tcg_sets)):
-    sets_print += '#define ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + ' ' + str(sets_count) + '\n'
+    Item_Constants += '#define ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + ' ' + str(sets_count) + '\n'
     sets_count += 1
+Item_Constants += '\n'
 
-sets_print += '\n'
 for set_ in sorted(list(tcg_sets)):
-    sets_print += '''	[ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + '''] =
+    Items += '''	[ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + '''] =
     {
         .name = _("''' + set_[:13] + '''"),
         .itemId = ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + ''',
@@ -716,42 +718,48 @@ for set_ in sorted(list(tcg_sets)):
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
     },\n\n'''
+Items += '\n'
 
-sets_print += '\n'
 for set_ in sorted(list(tcg_sets)):
-    sets_print += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + '] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},\n'
+    ItemIconTable += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + '] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},\n'
     sets_count += 1
+ItemIconTable += '\n'
 
-sets_print += '\nconst u16 PackIdMapping[] = \n{\n'
+YGO += '\nconst u16 PackIdMapping[] = \n{\n'
 with open('tcg_sets.json', 'r') as f:
     data = json.load(f)
     for set_ in data:
-        sets_print += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + '] = ' + str(sorted(list(tcg_sets)).index(set_)) + ',\n'
-sets_print += '};\n\n'
+        YGO += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + '] = ' + str(sorted(list(tcg_sets)).index(set_)) + ',\n'
+YGO += '\n'
 
-sets_print += '\nconst struct Pack gPacks[] =\n{\n'
+Packs = ''
+Packs += '\nconst struct Pack gPacks[] =\n{\n'
 card_count = 0
 with open('tcg_sets.json', 'r') as f:
     data = json.load(f)
     for set_ in data:
-        sets_print += '\t[PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + '] =\n\t{\n        .pack = g' + re.sub(r'[^a-zA-Z0-9]', '', set_) + ',\n        .length = '
+        Packs += '\t[PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + '] =\n\t{\n        .pack = g' + re.sub(r'[^a-zA-Z0-9]', '', set_) + ',\n        .length = '
         for card in data[set_]:
             if card in card_names:
                  card_count += 1
-        sets_print += str(card_count)
-        sets_print += ',\n\t},\n'
+        Packs += str(card_count)
+        Packs += ',\n\t},\n'
         card_count = 0
+PacksWrite = open('src/data/ygo/packs.h', 'w', encoding='utf-8')
+PacksWrite.write(Packs)
+PacksWrite.close()
 
-sets_print += '\nconst struct Pack gPacks[] =\n{\n'
 card_count = 0
 with open('tcg_sets.json', 'r') as f:
     data = json.load(f)
     for set_ in data:
-        sets_print += 'static const u8 s' + re.sub(r'[^a-zA-Z0-9]', '', set_) + 'Desc[] = _(\n    "' + textwrap.fill(set_, width=20).replace('\n', '\\n"\n    "') + '.");\n\n'
+        SRCDataItems += 'static const u8 s' + re.sub(r'[^a-zA-Z0-9]', '', set_) + 'Desc[] = _(\n    "' + textwrap.fill(set_, width=20).replace('\n', '\\n"\n    "') + '.");\n\n'
 
+SRCDataItemsWrite = open('src/data/items.h', 'w', encoding='utf-8')
+SRCDataItemsWrite.write(SRCDataItems)
+SRCDataItemsWrite.close()
 Sets_Writer.write(sets_print)
 Sets_Writer.close()
-print('Sets written')
 
 for data in card_info_data['data']:
     card_name = data['name']
@@ -819,9 +827,8 @@ for format in cards_by_format:
 					Scripts += '\t.2byte  ITEM_' + re.sub(r'\W+', '_', card_name).upper() + '\n'
 	Scripts += '\n'
 
-Scripts_Output = open('scripts.inc', 'w')
+Scripts_Output = open('data/scripts/scripts.inc', 'w')
 Scripts_Output.write(Scripts)
-print('Scripts done')
 
 card_counter = 1
 for card_name in tqdm(card_names):
@@ -1033,7 +1040,7 @@ for card_name in tqdm(card_names):
 			YGO_C += '    [ITEM_' + re.sub(r'\W+', '_', data['name']).upper() + '] = ' + str(card_counter) + ',\n'
 			card_counter += 1
 
-gCardInfo_Output = open('include/card_info.h', 'w')
+gCardInfo_Output = open('src/data/ygo/card_info.h', 'w')
 gCardInfo_Output.write(gCardInfo)
 YGO_Output = open('include/ygo.h', 'w')
 YGO_Output.write(YGO)
