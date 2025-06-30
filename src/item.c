@@ -1184,6 +1184,13 @@ u16 GetItemPrice(u16 itemId)
         return round_5(gCardInfo[card].priceYK) * 10;
     else if (VarGet(VAR_YGO_SHOP) == FORMAT_VEGAS)
         return round_5(gCardInfo[card].priceVegas) * 10;
+    else if (VarGet(VAR_YGO_SHOP) == BANLIST_YUGI_KAIBA)
+    {
+        if (gCardInfo[card].banYK)
+            return gCardInfo[card].banYK;
+        else
+            return 3;
+    }
 }
 
 u8 GetItemHoldEffect(u16 itemId)
