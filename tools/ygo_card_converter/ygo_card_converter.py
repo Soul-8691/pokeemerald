@@ -1033,7 +1033,7 @@ for card_name in tqdm(card_names):
 			YGO_C += '    [ITEM_' + re.sub(r'\W+', '_', data['name']).upper() + '] = ' + str(card_counter) + ',\n'
 			card_counter += 1
 
-gCardInfo_Output = open('include/card_info.h', 'w')
+gCardInfo_Output = open('src/data/card_info.h', 'w')
 gCardInfo_Output.write(gCardInfo)
 YGO_Output = open('include/ygo.h', 'w')
 YGO_Output.write(YGO)
