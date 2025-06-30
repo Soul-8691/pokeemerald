@@ -2634,7 +2634,7 @@
     {
       "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_TOWER_LOBBY",
       "name": "BattleFrontier_BattleTowerLobby_Layout",
-      "width": 66,
+      "width": 25,
       "height": 10,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_BattleFrontier",
