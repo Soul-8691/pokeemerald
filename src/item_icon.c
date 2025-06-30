@@ -90,7 +90,7 @@ void CopyItemIconPicTo4x4Buffer(const void *src, void *dest, u16 itemId)
     if (FlagGet(FLAG_YGO_ICON))
     {
         for (i = 0; i < 4; i++)
-            CpuCopy16(src + i * 96, dest + i * 128, 0x60);
+            CpuCopy16(src + i * 64, dest + i * 128, 0x40);
     }
     else if ((card < NUM_CARDS + 1 && card != 0))
     {
@@ -191,9 +191,9 @@ const void *GetItemIconPicOrPalette(u16 itemId, u8 which)
     if (FlagGet(FLAG_YGO_ICON))
     {
         if (which == 0)
-            return gCardInfo[card].iconSmall;
+            return gCardInfo[card].iconTiny;
         else
-            return gCardInfo[card].palIconSmall;
+            return gCardInfo[card].palIconTiny;
     }
 
     return gItemIconTable[itemId][which];
