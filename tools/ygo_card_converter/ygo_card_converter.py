@@ -668,7 +668,7 @@ for format_ in formats:
 ItemIconTable += '\n'
 
 for format_ in formats:
-    YGO += '''	[ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + '''] =
+    YGO_C += '''	[ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + '''] =
     {
         .name = _("''' + format_[:13] + '''"),
         .itemId = ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + ''',
@@ -678,7 +678,7 @@ for format_ in formats:
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
     },\n\n'''
-YGO += '\n'
+YGO_C += '\n'
 
 ItemUse = ''
 for format_ in formats:
