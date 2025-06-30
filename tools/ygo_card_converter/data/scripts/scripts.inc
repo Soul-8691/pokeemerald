@@ -4500,76 +4500,43 @@ Vegas
 
 
 Yugi-Kaiba
-
-Critter
-
-Treasure
-
-Imperial
-
-Android
-
-Joey-Pegasus
-
-Fiber
-
-Yata
-
-Scientist
-
-Vampire
-
-Chaos
-
-Warrior
-
-Goat
-
-Cyber
-
-Reaper
-
-Chaos Return
-
-Demise
-
-Trooper
-
-Zombie
-
-Perfect Circle
-
-DAD Return
-
-Gladiator
-
-TeleDAD
-
-Cat
-
-Edison
-
-Frog
-
-Starstrike
-
-Tengu
-
-Dino Rabbit
-
-Wind-Up
-
-Miami
-
-Meadowlands
-
-Baby Ruler
-
-Ravine Ruler
-
-Fire-Water
-
-HAT
-
-Vegas
-
+	.2byte  ITEM_CHANGE_OF_HEART
+	.2byte  ITEM_DARK_HOLE
+	.2byte  ITEM_MONSTER_REBORN
+	.2byte  ITEM_POT_OF_GREED
+	.2byte  ITEM_RAIGEKI
+	.2byte  ITEM_CARD_DESTRUCTION
+	.2byte  ITEM_SWORDS_OF_REVEALING_LIGHT
+	.2byte  ITEM_AQUA_MADOOR
+	.2byte  ITEM_BATTLE_OX
+	.2byte  ITEM_CASTLE_WALLS
+	.2byte  ITEM_DE_SPELL
+	.2byte  ITEM_DIAN_KETO_THE_CURE_MASTER
+	.2byte  ITEM_FINAL_FLAME
+	.2byte  ITEM_FISSURE
+	.2byte  ITEM_FLAME_SWORDSMAN
+	.2byte  ITEM_GAIA_THE_DRAGON_CHAMPION
+	.2byte  ITEM_GIANT_SOLDIER_OF_STONE
+	.2byte  ITEM_GREAT_WHITE
+	.2byte  ITEM_GYAKUTENNO_MEGAMI
+	.2byte  ITEM_HANE_HANE
+	.2byte  ITEM_JUDGE_MAN
+	.2byte  ITEM_JUST_DESSERTS
+	.2byte  ITEM_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP
+	.2byte  ITEM_LAST_WILL
+	.2byte  ITEM_MAN_EATER_BUG
+	.2byte  ITEM_MYSTICAL_ELF
+	.2byte  ITEM_NEO_THE_MAGIC_SWORDSMAN
+	.2byte  ITEM_OOKAZI
+	.2byte  ITEM_REINFORCEMENTS
+	.2byte  ITEM_REMOVE_TRAP
+	.2byte  ITEM_SOUL_EXCHANGE
+	.2byte  ITEM_SPIRIT_OF_THE_HARP
+	.2byte  ITEM_STOP_DEFENSE
+	.2byte  ITEM_SUMMONED_SKULL
+	.2byte  ITEM_THE_WICKED_WORM_BEAST
+	.2byte  ITEM_TRAP_HOLE
+	.2byte  ITEM_TRAP_MASTER
+	.2byte  ITEM_ULTIMATE_OFFERING
+	.2byte  ITEM_WABOKU
+	.2byte  ITEM_WALL_OF_ILLUSION

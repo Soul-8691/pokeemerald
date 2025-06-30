@@ -681,7 +681,15 @@ for format_ in formats:
 YGO_C += '\n'
 
 ItemUse = ''
+Item = ''
 for format_ in formats:
+    Item += '''    else if (VarGet(VAR_YGO_SHOP) == BANLIST_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').upper() + ''')
+    {
+        if (gCardInfo[card].ban''' + re.sub(r'[^a-zA-Z0-9]', '', format_) + ''')
+            return gCardInfo[card].ban''' + re.sub(r'[^a-zA-Z0-9]', '', format_) + ''';
+        else
+            return 3;
+    }\n'''
     ItemUse += '''    else if (pack == PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').upper() + ''')
     {
         u16 cards[NUM_CARDS];
@@ -721,6 +729,10 @@ for format_ in formats:
         }
     }\n'''
 
+ItemPrinter = open('src/item.c', 'w', encoding='utf-8')
+ItemPrinter.write(Item)
+ItemPrinter.close()
+print('src/item.c written')
 ItemUsePrinter = open('src/item_use.c', 'w', encoding='utf-8')
 ItemUsePrinter.write(ItemUse)
 ItemUsePrinter.close()
@@ -929,27 +941,36 @@ for format in cards_by_format:
 					Scripts += '\t.2byte  ITEM_' + re.sub(r'\W+', '_', card_name).replace('__', '_').upper() + '\n'
 	Scripts += '\n'
 
-Scripts += '\n'
-for format in tqdm(cards_by_format):
-	print(format)
-	Scripts += format + '\n'
-	for data in card_info_data['data']:
-		card_name = data['name']
-		if card_name in card_names:
-			for card_ in cards_by_format[format]:
-				if card_ == card_name and cards_by_format[format][card_]:
-					with open('FL.json', 'r') as f:
-						data_ = json.load(f)
+with open('FL.json', 'r') as f:
+	data_ = json.load(f)
+	for format in tqdm(cards_by_format):
+		print(format)
+		Scripts += format + '\n'
+		for data in card_info_data['data']:
+			card_name = data['name']
+			if card_name in card_names:
+				for card_ in cards_by_format[format]:
+					if card_ == card_name and cards_by_format[format][card_]:
 						for card__ in data_:
 							if card__['Card'] == card_name and card__['Format'] == format and card__['Banlist'] == 'Limited':
 								Scripts += '\t.2byte  ITEM_' + re.sub(r'\W+', '_', card_name).replace('__', '_').upper() + '\n'
+		for data in card_info_data['data']:
+			card_name = data['name']
+			if card_name in card_names:
+				for card_ in cards_by_format[format]:
+					if card_ == card_name and cards_by_format[format][card_]:
 						for card__ in data_:
 							if card__['Card'] == card_name and card__['Format'] == format and card__['Banlist'] == 'Semi-Limited':
 								Scripts += '\t.2byte  ITEM_' + re.sub(r'\W+', '_', card_name).replace('__', '_').upper() + '\n'
+		for data in card_info_data['data']:
+			card_name = data['name']
+			if card_name in card_names:
+				for card_ in cards_by_format[format]:
+					if card_ == card_name and cards_by_format[format][card_]:
 						for card__ in data_:
 							if card__['Card'] == card_name and card__['Format'] == format and card__['Banlist'] != 'Limited' and card__['Banlist'] != 'Semi-Limited':
 								Scripts += '\t.2byte  ITEM_' + re.sub(r'\W+', '_', card_name).replace('__', '_').upper() + '\n'
-	Scripts += '\n'
+		Scripts += '\n'
 
 Scripts_Output = open('data/scripts/scripts.inc', 'w')
 Scripts_Output.write(Scripts)
