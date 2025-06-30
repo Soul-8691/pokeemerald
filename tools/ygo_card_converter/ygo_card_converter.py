@@ -148,7 +148,6 @@ card_names = [
 	"Chaos Emperor Dragon - Envoy of the End",
 	"Chaos Sorcerer",
 	"Charcoal Inpachi",
-	"Charubin the Fire Knight",
 	"Chiron the Mage",
 	"Cipher Soldier",
 	"Cold Wave",
@@ -159,12 +158,10 @@ card_names = [
 	"Creature Swap",
 	"Crush Card Virus",
 	"Cursed Seal of the Forbidden Spell",
-	"Cyber Blader",
 	"Cyber Dragon",
 	"Cyber End Dragon",
 	"Cyber Harpie Lady",
 	"Cyber Jar",
-	"Cyber Saurus",
 	"Cyber Twin Dragon",
 	"Cyber-Stein",
 	"D.D. Assailant",
@@ -172,12 +169,10 @@ card_names = [
 	"D.D. Survivor",
 	"D.D. Trainer",
 	"D.D. Warrior Lady",
-	"Dark Balter the Terrible",
 	"Dark Blade",
 	"Dark Blade the Dragon Knight",
 	"Dark Deal",
 	"Dark Elf",
-	"Dark Flare Knight",
 	"Dark Hole",
 	"Dark Magic Curtain",
 	"Dark Magician",
@@ -189,10 +184,8 @@ card_names = [
 	"Dark Scorpion - Chick the Yellow",
 	"Dark Scorpion - Cliff the Trap Remover",
 	"Dark World Lightning",
-	"Darkfire Dragon",
 	"De-Spell",
 	"Deck Devastation Virus",
-	"Deepsea Shark",
 	"Dekoichi the Battlechanted Locomotive",
 	"Delinquent Duo",
 	"Des Dendle",
@@ -208,7 +201,6 @@ card_names = [
 	"Dragged Down into the Grave",
 	"Dragon's Mirror",
 	"Dragon's Rage",
-	"Dragoness the Wicked Knight",
 	"Dream Clown",
 	"Drillroid",
 	"Drop Off",
@@ -221,7 +213,6 @@ card_names = [
 	"Elemental HERO Wildheart",
 	"Emergency Provisions",
 	"Emissary of the Afterlife",
-	"Empress Judge",
 	"Enemy Controller",
 	"Exarion Universe",
 	"Exchange",
@@ -234,15 +225,11 @@ card_names = [
 	"Familiar-Possessed - Hiita",
 	"Familiar-Possessed - Wynn",
 	"Fiber Jar",
-	"Fiend Skull Dragon",
 	"Final Flame",
 	"Fissure",
-	"Flame Ghost",
 	"Flame Swordsman",
-	"Flower Wolf",
 	"Flying Kamakiri #1",
 	"Fusilier Dragon, the Dual-Mode Beast",
-	"Fusionist",
 	"Gagagigo",
 	"Gaia Power",
 	"Gaia the Dragon Champion",
@@ -260,7 +247,6 @@ card_names = [
 	"Gigantes",
 	"Gil Garth",
 	"Gilasaurus",
-	"Giltia the D. Knight",
 	"Goblin Attack Force",
 	"Goblin Elite Attack Force",
 	"Gokipon",
@@ -301,13 +287,11 @@ card_names = [
 	"Judge Man",
 	"Just Desserts",
 	"Kaiser Sea Horse",
-	"Karbonala Warrior",
 	"Karma Cut",
 	"King Dragun",
 	"King of the Swamp",
 	"King Tiger Wanghu",
 	"Kuriboh",
-	"Kwagar Hercules",
 	"Kycoo the Ghost Destroyer",
 	"La Jinn the Mystical Genie of the Lamp",
 	"Labyrinth Tank",
@@ -342,13 +326,11 @@ card_names = [
 	"Mask of Restrict",
 	"Masked Dragon",
 	"Masked Sorcerer",
-	"Master of Oz",
 	"Mataza the Zapper",
 	"Mechanicalchaser",
 	"Megamorph",
 	"Mermaid Knight",
 	"Messenger of Peace",
-	"Metal Dragon",
 	"Metal Reflect Slime",
 	"Metamorphosis",
 	"Milus Radiant",
@@ -367,7 +349,6 @@ card_names = [
 	"Morphing Jar",
 	"Mother Grizzly",
 	"Muka Muka",
-	"Musician King",
 	"Mystic Swordsman LV2",
 	"Mystic Swordsman LV4",
 	"Mystic Tomato",
@@ -411,7 +392,6 @@ card_names = [
 	"Prickle Fairy",
 	"Princess of Tsurugi",
 	"Protector of the Sanctuary",
-	"Punished Eagle",
 	"Pyramid Turtle",
 	"Raigeki",
 	"Raigeki Break",
@@ -430,7 +410,6 @@ card_names = [
 	"Right Leg of the Forbidden One",
 	"Ring of Destruction",
 	"Rising Air Current",
-	"Roaring Ocean Snake",
 	"Robbin' Goblin",
 	"Roulette Barrel",
 	"Royal Decree",
@@ -438,7 +417,6 @@ card_names = [
 	"Royal Oppression",
 	"Rush Recklessly",
 	"Ryu Kokki",
-	"Ryu Senshi",
 	"Saber Beetle",
 	"Sacred Crane",
 	"Sacred Phoenix of Nephthys",
@@ -446,7 +424,6 @@ card_names = [
 	"Salvage",
 	"Sand Moth",
 	"Sangan",
-	"Sanwitch",
 	"Sasuke Samurai",
 	"Sasuke Samurai #4",
 	"Scapegoat",
@@ -466,7 +443,6 @@ card_names = [
 	"Skilled Dark Magician",
 	"Skilled White Magician",
 	"Skull Dog Marron",
-	"Skull Knight",
 	"Skull Lair",
 	"Sky Scout",
 	"Slate Warrior",
@@ -486,14 +462,10 @@ card_names = [
 	"Spiritual Water Art - Aoi",
 	"Spiritual Wind Art - Miyabi",
 	"Spiritualism",
-	"St. Joan",
 	"Stealth Bird",
-	"Steam Gyroid",
 	"Stone Statue of the Aztecs",
 	"Stop Defense",
 	"Summoned Skull",
-	"Super Robolady",
-	"Super Roboyarou",
 	"Swarm of Locusts",
 	"Swarm of Scarabs",
 	"Swords of Revealing Light",
@@ -507,7 +479,6 @@ card_names = [
 	"The Little Swordsman of Aile",
 	"The Wicked Worm Beast",
 	"Thestalos the Firestorm Monarch",
-	"Thousand Dragon",
 	"Thousand-Eyes Restrict",
 	"Threatening Roar",
 	"Throwstone Unit",
@@ -542,7 +513,6 @@ card_names = [
 	"Waboku",
 	"Wall of Illusion",
 	"Wall of Revealing Light",
-	"Warrior of Tradition",
 	"Wave-Motion Cannon",
 	"White Dragon Ritual",
 	"White Magical Hat",
@@ -555,7 +525,7 @@ card_names = [
 	"Zaborg the Thunder Monarch",
 	"Zombyra the Dark",
 	"Zure, Knight of Dark World",
-	# Archetypal/series-related cards
+	# Archetypal/series-related cards (new cards)
 	"Amazoness Spiritualist",
 	"Archfiend Cavalry",
 	"Archfiend Heiress",
@@ -670,7 +640,7 @@ Scripts = ''
 Graphics_File_Rules = ''
 SRCDataItems = ''
 card_counter = 1
-pack_counter = 1836
+pack_counter = 1900
 description_lines = dict()
 
 for format_ in formats:
@@ -683,9 +653,9 @@ Item_Constants += '\n'
 
 pack_counter = 990
 for format_ in formats:
-    Item_Constants += '#define PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + ' ' + str(pack_counter) + '\n'
+    YGOConstants += '#define PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + ' ' + str(pack_counter) + '\n'
     pack_counter += 1
-Item_Constants += '\n'
+YGOConstants += '\n'
 
 pack_counter = 990
 for format_ in formats:
@@ -698,7 +668,7 @@ for format_ in formats:
 ItemIconTable += '\n'
 
 for format_ in formats:
-    Items += '''	[ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + '''] =
+    YGO += '''	[ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + '''] =
     {
         .name = _("''' + format_[:13] + '''"),
         .itemId = ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).upper() + ''',
@@ -708,7 +678,7 @@ for format_ in formats:
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
     },\n\n'''
-Items += '\n'
+YGO += '\n'
 
 ItemUse = ''
 for format_ in formats:
@@ -796,7 +766,7 @@ for set_ in sorted(list(tcg_sets)):
     Scripts += 'additem ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + ' 1\n' 
 Scripts += '\n'
 
-sets_count = 846
+sets_count = 910
 for set_ in sorted(list(tcg_sets)):
     Item_Constants += '#define ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).upper() + ' ' + str(sets_count) + '\n'
     sets_count += 1
@@ -922,6 +892,7 @@ for format in cards_by_format:
 Scripts_Output = open('data/scripts/scripts.inc', 'w')
 Scripts_Output.write(Scripts)
 
+# Image conversion
 card_counter = 1
 for card_name in tqdm(card_names):
 	print(card_name)
@@ -944,6 +915,7 @@ for card_name in tqdm(card_names):
 				folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
 				if not os.path.exists(folder_path):
 					os.mkdir(folder_path)
+				# Special format used by GBA for 80x80 sprite stitch
 				outfile = folder_path + '/pic_large_big.png'
 				if not os.path.exists(outfile):
 					size = 80, 80
