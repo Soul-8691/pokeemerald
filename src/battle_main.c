@@ -2974,7 +2974,7 @@ static void SpriteCB_SlideLeft(struct Sprite *sprite)
     {
         sprite->x -= 1;
         DebugPrintf("x=%d, x2=%d", sprite->x, sprite->x2);
-        if (sprite->x - 48 == sprite->x2)
+        if (sprite->x - 76 == sprite->x2)
         {
             sprite->callback = SpriteCB_Idle;
             sprite->data[1] = 0;
@@ -3581,8 +3581,8 @@ static void BattleIntroPrepareBackgroundSlide(void)
                     if (spriteId != MAX_SPRITES)
                     {
                         gSprites[spriteId].x = 256;
-                        gSprites[spriteId].y = 140;
-                        gSprites[spriteId].x2 = k * 16;
+                        gSprites[spriteId].y = 136;
+                        gSprites[spriteId].x2 = k * 12;
                         gSprites[spriteId].callback = SpriteCB_SlideLeft;
                         FreeItemIconTemporaryBuffers();
                         Free(spriteTemplate);
