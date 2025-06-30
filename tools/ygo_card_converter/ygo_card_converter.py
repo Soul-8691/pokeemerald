@@ -985,7 +985,7 @@ Scripts += '\n\n'
 for format in cards_by_format:
 	Scripts += '''gText_''' + re.sub(r'\W+', '', format) + '''Clerk::
 	.string "Welcome!\\p"
-	.string "I'm the ''' + re.sub(r'\W+', '', format) + '''clerk.\\n"
+	.string "I'm the ''' + re.sub(r'\W+', '', format) + ''' clerk.\\n"
 	.string "How may I serve you?$"\n\n'''
 	
 for format in cards_by_format:

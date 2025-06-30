@@ -931,187 +931,187 @@ InsideOfTruck_Text_Vegas:
 
 gText_YugiKaibaClerk::
 	.string "Welcome!\p"
-	.string "I'm the YugiKaibaclerk.\n"
+	.string "I'm the YugiKaiba clerk.\n"
 	.string "How may I serve you?$"
 
 gText_CritterClerk::
 	.string "Welcome!\p"
-	.string "I'm the Critterclerk.\n"
+	.string "I'm the Critter clerk.\n"
 	.string "How may I serve you?$"
 
 gText_TreasureClerk::
 	.string "Welcome!\p"
-	.string "I'm the Treasureclerk.\n"
+	.string "I'm the Treasure clerk.\n"
 	.string "How may I serve you?$"
 
 gText_ImperialClerk::
 	.string "Welcome!\p"
-	.string "I'm the Imperialclerk.\n"
+	.string "I'm the Imperial clerk.\n"
 	.string "How may I serve you?$"
 
 gText_AndroidClerk::
 	.string "Welcome!\p"
-	.string "I'm the Androidclerk.\n"
+	.string "I'm the Android clerk.\n"
 	.string "How may I serve you?$"
 
 gText_JoeyPegasusClerk::
 	.string "Welcome!\p"
-	.string "I'm the JoeyPegasusclerk.\n"
+	.string "I'm the JoeyPegasus clerk.\n"
 	.string "How may I serve you?$"
 
 gText_FiberClerk::
 	.string "Welcome!\p"
-	.string "I'm the Fiberclerk.\n"
+	.string "I'm the Fiber clerk.\n"
 	.string "How may I serve you?$"
 
 gText_YataClerk::
 	.string "Welcome!\p"
-	.string "I'm the Yataclerk.\n"
+	.string "I'm the Yata clerk.\n"
 	.string "How may I serve you?$"
 
 gText_ScientistClerk::
 	.string "Welcome!\p"
-	.string "I'm the Scientistclerk.\n"
+	.string "I'm the Scientist clerk.\n"
 	.string "How may I serve you?$"
 
 gText_VampireClerk::
 	.string "Welcome!\p"
-	.string "I'm the Vampireclerk.\n"
+	.string "I'm the Vampire clerk.\n"
 	.string "How may I serve you?$"
 
 gText_ChaosClerk::
 	.string "Welcome!\p"
-	.string "I'm the Chaosclerk.\n"
+	.string "I'm the Chaos clerk.\n"
 	.string "How may I serve you?$"
 
 gText_WarriorClerk::
 	.string "Welcome!\p"
-	.string "I'm the Warriorclerk.\n"
+	.string "I'm the Warrior clerk.\n"
 	.string "How may I serve you?$"
 
 gText_GoatClerk::
 	.string "Welcome!\p"
-	.string "I'm the Goatclerk.\n"
+	.string "I'm the Goat clerk.\n"
 	.string "How may I serve you?$"
 
 gText_CyberClerk::
 	.string "Welcome!\p"
-	.string "I'm the Cyberclerk.\n"
+	.string "I'm the Cyber clerk.\n"
 	.string "How may I serve you?$"
 
 gText_ReaperClerk::
 	.string "Welcome!\p"
-	.string "I'm the Reaperclerk.\n"
+	.string "I'm the Reaper clerk.\n"
 	.string "How may I serve you?$"
 
 gText_ChaosReturnClerk::
 	.string "Welcome!\p"
-	.string "I'm the ChaosReturnclerk.\n"
+	.string "I'm the ChaosReturn clerk.\n"
 	.string "How may I serve you?$"
 
 gText_DemiseClerk::
 	.string "Welcome!\p"
-	.string "I'm the Demiseclerk.\n"
+	.string "I'm the Demise clerk.\n"
 	.string "How may I serve you?$"
 
 gText_TrooperClerk::
 	.string "Welcome!\p"
-	.string "I'm the Trooperclerk.\n"
+	.string "I'm the Trooper clerk.\n"
 	.string "How may I serve you?$"
 
 gText_ZombieClerk::
 	.string "Welcome!\p"
-	.string "I'm the Zombieclerk.\n"
+	.string "I'm the Zombie clerk.\n"
 	.string "How may I serve you?$"
 
 gText_PerfectCircleClerk::
 	.string "Welcome!\p"
-	.string "I'm the PerfectCircleclerk.\n"
+	.string "I'm the PerfectCircle clerk.\n"
 	.string "How may I serve you?$"
 
 gText_DADReturnClerk::
 	.string "Welcome!\p"
-	.string "I'm the DADReturnclerk.\n"
+	.string "I'm the DADReturn clerk.\n"
 	.string "How may I serve you?$"
 
 gText_GladiatorClerk::
 	.string "Welcome!\p"
-	.string "I'm the Gladiatorclerk.\n"
+	.string "I'm the Gladiator clerk.\n"
 	.string "How may I serve you?$"
 
 gText_TeleDADClerk::
 	.string "Welcome!\p"
-	.string "I'm the TeleDADclerk.\n"
+	.string "I'm the TeleDAD clerk.\n"
 	.string "How may I serve you?$"
 
 gText_CatClerk::
 	.string "Welcome!\p"
-	.string "I'm the Catclerk.\n"
+	.string "I'm the Cat clerk.\n"
 	.string "How may I serve you?$"
 
 gText_EdisonClerk::
 	.string "Welcome!\p"
-	.string "I'm the Edisonclerk.\n"
+	.string "I'm the Edison clerk.\n"
 	.string "How may I serve you?$"
 
 gText_FrogClerk::
 	.string "Welcome!\p"
-	.string "I'm the Frogclerk.\n"
+	.string "I'm the Frog clerk.\n"
 	.string "How may I serve you?$"
 
 gText_StarstrikeClerk::
 	.string "Welcome!\p"
-	.string "I'm the Starstrikeclerk.\n"
+	.string "I'm the Starstrike clerk.\n"
 	.string "How may I serve you?$"
 
 gText_TenguClerk::
 	.string "Welcome!\p"
-	.string "I'm the Tenguclerk.\n"
+	.string "I'm the Tengu clerk.\n"
 	.string "How may I serve you?$"
 
 gText_DinoRabbitClerk::
 	.string "Welcome!\p"
-	.string "I'm the DinoRabbitclerk.\n"
+	.string "I'm the DinoRabbit clerk.\n"
 	.string "How may I serve you?$"
 
 gText_WindUpClerk::
 	.string "Welcome!\p"
-	.string "I'm the WindUpclerk.\n"
+	.string "I'm the WindUp clerk.\n"
 	.string "How may I serve you?$"
 
 gText_MiamiClerk::
 	.string "Welcome!\p"
-	.string "I'm the Miamiclerk.\n"
+	.string "I'm the Miami clerk.\n"
 	.string "How may I serve you?$"
 
 gText_MeadowlandsClerk::
 	.string "Welcome!\p"
-	.string "I'm the Meadowlandsclerk.\n"
+	.string "I'm the Meadowlands clerk.\n"
 	.string "How may I serve you?$"
 
 gText_BabyRulerClerk::
 	.string "Welcome!\p"
-	.string "I'm the BabyRulerclerk.\n"
+	.string "I'm the BabyRuler clerk.\n"
 	.string "How may I serve you?$"
 
 gText_RavineRulerClerk::
 	.string "Welcome!\p"
-	.string "I'm the RavineRulerclerk.\n"
+	.string "I'm the RavineRuler clerk.\n"
 	.string "How may I serve you?$"
 
 gText_FireWaterClerk::
 	.string "Welcome!\p"
-	.string "I'm the FireWaterclerk.\n"
+	.string "I'm the FireWater clerk.\n"
 	.string "How may I serve you?$"
 
 gText_HATClerk::
 	.string "Welcome!\p"
-	.string "I'm the HATclerk.\n"
+	.string "I'm the HAT clerk.\n"
 	.string "How may I serve you?$"
 
 gText_VegasClerk::
 	.string "Welcome!\p"
-	.string "I'm the Vegasclerk.\n"
+	.string "I'm the Vegas clerk.\n"
 	.string "How may I serve you?$"
 
 gText_YugiKaibaBanlistClerk::
