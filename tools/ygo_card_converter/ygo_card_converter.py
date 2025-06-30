@@ -951,7 +951,7 @@ BattleFrontier_Mart_Pokemart''' + re.sub(r'\W+', '', format) + ''':\n'''
 			for card_ in cards_by_format[format]:
 				if card_ == card_name and cards_by_format[format][card_]:
 					Scripts += '\t.2byte  ITEM_' + re.sub(r'\W+', '_', card_name).replace('__', '_').upper() + '\n'
-	Scripts += '\n'
+	Scripts += '\tpokemartlistend\n\n'
 
 for format in cards_by_format:
 	Scripts += 'InsideOfTruck_Text_' + re.sub(r'\W+', '', format) + ', '
@@ -1035,7 +1035,7 @@ BattleFrontier_Mart_Pokemart''' + re.sub(r'\W+', '', format) + '''Banlist:\n'''
 						for card__ in data_:
 							if card__['Card'] == card_name and card__['Format'] == format and card__['Banlist'] != 'Limited' and card__['Banlist'] != 'Semi-Limited':
 								Scripts += '\t.2byte  ITEM_' + re.sub(r'\W+', '_', card_name).replace('__', '_').upper() + '\n'
-		Scripts += '\n'
+		Scripts += '\tpokemartlistend\n\n'
 
 Scripts_Output = open('data/scripts/scripts.inc', 'w')
 Scripts_Output.write(Scripts)

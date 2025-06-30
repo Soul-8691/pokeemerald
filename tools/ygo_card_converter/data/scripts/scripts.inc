@@ -1576,6 +1576,7 @@ BattleFrontier_Mart_PokemartYugiKaiba:
 	.2byte  ITEM_ULTIMATE_OFFERING
 	.2byte  ITEM_WABOKU
 	.2byte  ITEM_WALL_OF_ILLUSION
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_Critter::
 	lock
@@ -1652,6 +1653,7 @@ BattleFrontier_Mart_PokemartCritter:
 	.2byte  ITEM_WALL_OF_ILLUSION
 	.2byte  ITEM_WHITE_MAGICAL_HAT
 	.2byte  ITEM_WITCH_OF_THE_BLACK_FOREST
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_Treasure::
 	lock
@@ -1728,6 +1730,7 @@ BattleFrontier_Mart_PokemartTreasure:
 	.2byte  ITEM_WALL_OF_ILLUSION
 	.2byte  ITEM_WHITE_MAGICAL_HAT
 	.2byte  ITEM_WITCH_OF_THE_BLACK_FOREST
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_Imperial::
 	lock
@@ -1793,6 +1796,7 @@ BattleFrontier_Mart_PokemartImperial:
 	.2byte  ITEM_TRIBUTE_TO_THE_DOOMED
 	.2byte  ITEM_TWIN_HEADED_THUNDER_DRAGON
 	.2byte  ITEM_WITCH_OF_THE_BLACK_FOREST
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_Android::
 	lock
@@ -1884,6 +1888,7 @@ BattleFrontier_Mart_PokemartAndroid:
 	.2byte  ITEM_WHITE_MAGICAL_HAT
 	.2byte  ITEM_WITCH_OF_THE_BLACK_FOREST
 	.2byte  ITEM_ZOMBYRA_THE_DARK
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_JoeyPegasus::
 	lock
@@ -1970,6 +1975,7 @@ BattleFrontier_Mart_PokemartJoeyPegasus:
 	.2byte  ITEM_UPSTART_GOBLIN
 	.2byte  ITEM_WABOKU
 	.2byte  ITEM_WITCH_OF_THE_BLACK_FOREST
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_Fiber::
 	lock
@@ -2070,6 +2076,7 @@ BattleFrontier_Mart_PokemartFiber:
 	.2byte  ITEM_WITCH_OF_THE_BLACK_FOREST
 	.2byte  ITEM_YATA_GARASU
 	.2byte  ITEM_ZOMBYRA_THE_DARK
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_Yata::
 	lock
@@ -2189,6 +2196,7 @@ BattleFrontier_Mart_PokemartYata:
 	.2byte  ITEM_WITCH_OF_THE_BLACK_FOREST
 	.2byte  ITEM_YATA_GARASU
 	.2byte  ITEM_ZOMBYRA_THE_DARK
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_Scientist::
 	lock
@@ -2286,6 +2294,7 @@ BattleFrontier_Mart_PokemartScientist:
 	.2byte  ITEM_WABOKU
 	.2byte  ITEM_WITCH_OF_THE_BLACK_FOREST
 	.2byte  ITEM_YATA_GARASU
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_Vampire::
 	lock
@@ -2397,6 +2406,7 @@ BattleFrontier_Mart_PokemartVampire:
 	.2byte  ITEM_WITCH_OF_THE_BLACK_FOREST
 	.2byte  ITEM_YATA_GARASU
 	.2byte  ITEM_ZOMBYRA_THE_DARK
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_Chaos::
 	lock
@@ -2520,6 +2530,7 @@ BattleFrontier_Mart_PokemartChaos:
 	.2byte  ITEM_WITCH_OF_THE_BLACK_FOREST
 	.2byte  ITEM_YATA_GARASU
 	.2byte  ITEM_ZOMBYRA_THE_DARK
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_Warrior::
 	lock
@@ -2675,6 +2686,7 @@ BattleFrontier_Mart_PokemartWarrior:
 	.2byte  ITEM_YOMI_SHIP
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 	.2byte  ITEM_ZOMBYRA_THE_DARK
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_Goat::
 	lock
@@ -2853,6 +2865,7 @@ BattleFrontier_Mart_PokemartGoat:
 	.2byte  ITEM_XING_ZHEN_HU
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 	.2byte  ITEM_ZOMBYRA_THE_DARK
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_Cyber::
 	lock
@@ -2977,6 +2990,7 @@ BattleFrontier_Mart_PokemartCyber:
 	.2byte  ITEM_WABOKU
 	.2byte  ITEM_WIDESPREAD_RUIN
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_Reaper::
 	lock
@@ -3127,6 +3141,7 @@ BattleFrontier_Mart_PokemartReaper:
 	.2byte  ITEM_WIDESPREAD_RUIN
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 	.2byte  ITEM_ZOMBYRA_THE_DARK
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_ChaosReturn::
 	lock
@@ -3249,6 +3264,7 @@ BattleFrontier_Mart_PokemartChaosReturn:
 	.2byte  ITEM_WABOKU
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 	.2byte  ITEM_ZOMBYRA_THE_DARK
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_Demise::
 	lock
@@ -3394,6 +3410,7 @@ BattleFrontier_Mart_PokemartDemise:
 	.2byte  ITEM_WIDESPREAD_RUIN
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 	.2byte  ITEM_ZOMBYRA_THE_DARK
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_Trooper::
 	lock
@@ -3494,6 +3511,7 @@ BattleFrontier_Mart_PokemartTrooper:
 	.2byte  ITEM_WAVE_MOTION_CANNON
 	.2byte  ITEM_WIDESPREAD_RUIN
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_Zombie::
 	lock
@@ -3644,6 +3662,7 @@ BattleFrontier_Mart_PokemartZombie:
 	.2byte  ITEM_XING_ZHEN_HU
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 	.2byte  ITEM_ZOMBYRA_THE_DARK
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_PerfectCircle::
 	lock
@@ -3760,6 +3779,7 @@ BattleFrontier_Mart_PokemartPerfectCircle:
 	.2byte  ITEM_WABOKU
 	.2byte  ITEM_WAVE_MOTION_CANNON
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_DADReturn::
 	lock
@@ -3883,6 +3903,7 @@ BattleFrontier_Mart_PokemartDADReturn:
 	.2byte  ITEM_WAVE_MOTION_CANNON
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 	.2byte  ITEM_ZOMBYRA_THE_DARK
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_Gladiator::
 	lock
@@ -3975,6 +3996,7 @@ BattleFrontier_Mart_PokemartGladiator:
 	.2byte  ITEM_UPSTART_GOBLIN
 	.2byte  ITEM_WABOKU
 	.2byte  ITEM_XING_ZHEN_HU
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_TeleDAD::
 	lock
@@ -4042,6 +4064,7 @@ BattleFrontier_Mart_PokemartTeleDAD:
 	.2byte  ITEM_UNITED_WE_STAND
 	.2byte  ITEM_UPSTART_GOBLIN
 	.2byte  ITEM_WABOKU
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_Cat::
 	lock
@@ -4124,6 +4147,7 @@ BattleFrontier_Mart_PokemartCat:
 	.2byte  ITEM_TRAP_HOLE
 	.2byte  ITEM_WABOKU
 	.2byte  ITEM_ZOMBYRA_THE_DARK
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_Edison::
 	lock
@@ -4212,6 +4236,7 @@ BattleFrontier_Mart_PokemartEdison:
 	.2byte  ITEM_TRAP_HOLE
 	.2byte  ITEM_TREEBORN_FROG
 	.2byte  ITEM_UPSTART_GOBLIN
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_Frog::
 	lock
@@ -4300,6 +4325,7 @@ BattleFrontier_Mart_PokemartFrog:
 	.2byte  ITEM_TREEBORN_FROG
 	.2byte  ITEM_UPSTART_GOBLIN
 	.2byte  ITEM_WABOKU
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_Starstrike::
 	lock
@@ -4376,6 +4402,7 @@ BattleFrontier_Mart_PokemartStarstrike:
 	.2byte  ITEM_TRAP_HOLE
 	.2byte  ITEM_TREEBORN_FROG
 	.2byte  ITEM_UPSTART_GOBLIN
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_Tengu::
 	lock
@@ -4445,6 +4472,7 @@ BattleFrontier_Mart_PokemartTengu:
 	.2byte  ITEM_TRAP_DUSTSHOOT
 	.2byte  ITEM_ULTIMATE_OFFERING
 	.2byte  ITEM_UPSTART_GOBLIN
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_DinoRabbit::
 	lock
@@ -4504,6 +4532,7 @@ BattleFrontier_Mart_PokemartDinoRabbit:
 	.2byte  ITEM_TORRENTIAL_TRIBUTE
 	.2byte  ITEM_TREEBORN_FROG
 	.2byte  ITEM_UPSTART_GOBLIN
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_WindUp::
 	lock
@@ -4578,6 +4607,7 @@ BattleFrontier_Mart_PokemartWindUp:
 	.2byte  ITEM_UPSTART_GOBLIN
 	.2byte  ITEM_UPSTART_GOLDEN_NINJA
 	.2byte  ITEM_WABOKU
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_Miami::
 	lock
@@ -4644,6 +4674,7 @@ BattleFrontier_Mart_PokemartMiami:
 	.2byte  ITEM_UPSTART_GOBLIN
 	.2byte  ITEM_VORSE_RAIDER
 	.2byte  ITEM_XING_ZHEN_HU
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_Meadowlands::
 	lock
@@ -4694,6 +4725,7 @@ BattleFrontier_Mart_PokemartMeadowlands:
 	.2byte  ITEM_TORRENTIAL_TRIBUTE
 	.2byte  ITEM_ULTIMATE_OFFERING
 	.2byte  ITEM_UPSTART_GOBLIN
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_BabyRuler::
 	lock
@@ -4754,6 +4786,7 @@ BattleFrontier_Mart_PokemartBabyRuler:
 	.2byte  ITEM_ULTIMATE_OFFERING
 	.2byte  ITEM_UPSTART_GOBLIN
 	.2byte  ITEM_WABOKU
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_RavineRuler::
 	lock
@@ -4812,6 +4845,7 @@ BattleFrontier_Mart_PokemartRavineRuler:
 	.2byte  ITEM_TRAP_HOLE
 	.2byte  ITEM_UPSTART_GOBLIN
 	.2byte  ITEM_WABOKU
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_FireWater::
 	lock
@@ -4859,6 +4893,7 @@ BattleFrontier_Mart_PokemartFireWater:
 	.2byte  ITEM_TRAP_HOLE
 	.2byte  ITEM_TRAPTRIX_MYRMELEO
 	.2byte  ITEM_UPSTART_GOBLIN
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_HAT::
 	lock
@@ -4894,6 +4929,7 @@ BattleFrontier_Mart_PokemartHAT:
 	.2byte  ITEM_TRAPTRIX_DIONAEA
 	.2byte  ITEM_TRAPTRIX_MYRMELEO
 	.2byte  ITEM_UPSTART_GOBLIN
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_Vegas::
 	lock
@@ -4941,6 +4977,7 @@ BattleFrontier_Mart_PokemartVegas:
 	.2byte  ITEM_TRAP_HOLE
 	.2byte  ITEM_TRAPTRIX_MYRMELEO
 	.2byte  ITEM_UPSTART_GOBLIN
+	pokemartlistend
 
 InsideOfTruck_Text_YugiKaiba, InsideOfTruck_Text_Critter, InsideOfTruck_Text_Treasure, InsideOfTruck_Text_Imperial, InsideOfTruck_Text_Android, InsideOfTruck_Text_JoeyPegasus, InsideOfTruck_Text_Fiber, InsideOfTruck_Text_Yata, InsideOfTruck_Text_Scientist, InsideOfTruck_Text_Vampire, InsideOfTruck_Text_Chaos, InsideOfTruck_Text_Warrior, InsideOfTruck_Text_Goat, InsideOfTruck_Text_Cyber, InsideOfTruck_Text_Reaper, InsideOfTruck_Text_ChaosReturn, InsideOfTruck_Text_Demise, InsideOfTruck_Text_Trooper, InsideOfTruck_Text_Zombie, InsideOfTruck_Text_PerfectCircle, InsideOfTruck_Text_DADReturn, InsideOfTruck_Text_Gladiator, InsideOfTruck_Text_TeleDAD, InsideOfTruck_Text_Cat, InsideOfTruck_Text_Edison, InsideOfTruck_Text_Frog, InsideOfTruck_Text_Starstrike, InsideOfTruck_Text_Tengu, InsideOfTruck_Text_DinoRabbit, InsideOfTruck_Text_WindUp, InsideOfTruck_Text_Miami, InsideOfTruck_Text_Meadowlands, InsideOfTruck_Text_BabyRuler, InsideOfTruck_Text_RavineRuler, InsideOfTruck_Text_FireWater, InsideOfTruck_Text_HAT, InsideOfTruck_Text_Vegas, 
 
@@ -5250,187 +5287,187 @@ InsideOfTruck_Text_VegasBanlist:
 
 gText_YugiKaibaClerk::
 	.string "Welcome!\p"
-	.string "I'm the YugiKaibaclerk.\n"
+	.string "I'm the YugiKaiba clerk.\n"
 	.string "How may I serve you?$"
 
 gText_CritterClerk::
 	.string "Welcome!\p"
-	.string "I'm the Critterclerk.\n"
+	.string "I'm the Critter clerk.\n"
 	.string "How may I serve you?$"
 
 gText_TreasureClerk::
 	.string "Welcome!\p"
-	.string "I'm the Treasureclerk.\n"
+	.string "I'm the Treasure clerk.\n"
 	.string "How may I serve you?$"
 
 gText_ImperialClerk::
 	.string "Welcome!\p"
-	.string "I'm the Imperialclerk.\n"
+	.string "I'm the Imperial clerk.\n"
 	.string "How may I serve you?$"
 
 gText_AndroidClerk::
 	.string "Welcome!\p"
-	.string "I'm the Androidclerk.\n"
+	.string "I'm the Android clerk.\n"
 	.string "How may I serve you?$"
 
 gText_JoeyPegasusClerk::
 	.string "Welcome!\p"
-	.string "I'm the JoeyPegasusclerk.\n"
+	.string "I'm the JoeyPegasus clerk.\n"
 	.string "How may I serve you?$"
 
 gText_FiberClerk::
 	.string "Welcome!\p"
-	.string "I'm the Fiberclerk.\n"
+	.string "I'm the Fiber clerk.\n"
 	.string "How may I serve you?$"
 
 gText_YataClerk::
 	.string "Welcome!\p"
-	.string "I'm the Yataclerk.\n"
+	.string "I'm the Yata clerk.\n"
 	.string "How may I serve you?$"
 
 gText_ScientistClerk::
 	.string "Welcome!\p"
-	.string "I'm the Scientistclerk.\n"
+	.string "I'm the Scientist clerk.\n"
 	.string "How may I serve you?$"
 
 gText_VampireClerk::
 	.string "Welcome!\p"
-	.string "I'm the Vampireclerk.\n"
+	.string "I'm the Vampire clerk.\n"
 	.string "How may I serve you?$"
 
 gText_ChaosClerk::
 	.string "Welcome!\p"
-	.string "I'm the Chaosclerk.\n"
+	.string "I'm the Chaos clerk.\n"
 	.string "How may I serve you?$"
 
 gText_WarriorClerk::
 	.string "Welcome!\p"
-	.string "I'm the Warriorclerk.\n"
+	.string "I'm the Warrior clerk.\n"
 	.string "How may I serve you?$"
 
 gText_GoatClerk::
 	.string "Welcome!\p"
-	.string "I'm the Goatclerk.\n"
+	.string "I'm the Goat clerk.\n"
 	.string "How may I serve you?$"
 
 gText_CyberClerk::
 	.string "Welcome!\p"
-	.string "I'm the Cyberclerk.\n"
+	.string "I'm the Cyber clerk.\n"
 	.string "How may I serve you?$"
 
 gText_ReaperClerk::
 	.string "Welcome!\p"
-	.string "I'm the Reaperclerk.\n"
+	.string "I'm the Reaper clerk.\n"
 	.string "How may I serve you?$"
 
 gText_ChaosReturnClerk::
 	.string "Welcome!\p"
-	.string "I'm the ChaosReturnclerk.\n"
+	.string "I'm the ChaosReturn clerk.\n"
 	.string "How may I serve you?$"
 
 gText_DemiseClerk::
 	.string "Welcome!\p"
-	.string "I'm the Demiseclerk.\n"
+	.string "I'm the Demise clerk.\n"
 	.string "How may I serve you?$"
 
 gText_TrooperClerk::
 	.string "Welcome!\p"
-	.string "I'm the Trooperclerk.\n"
+	.string "I'm the Trooper clerk.\n"
 	.string "How may I serve you?$"
 
 gText_ZombieClerk::
 	.string "Welcome!\p"
-	.string "I'm the Zombieclerk.\n"
+	.string "I'm the Zombie clerk.\n"
 	.string "How may I serve you?$"
 
 gText_PerfectCircleClerk::
 	.string "Welcome!\p"
-	.string "I'm the PerfectCircleclerk.\n"
+	.string "I'm the PerfectCircle clerk.\n"
 	.string "How may I serve you?$"
 
 gText_DADReturnClerk::
 	.string "Welcome!\p"
-	.string "I'm the DADReturnclerk.\n"
+	.string "I'm the DADReturn clerk.\n"
 	.string "How may I serve you?$"
 
 gText_GladiatorClerk::
 	.string "Welcome!\p"
-	.string "I'm the Gladiatorclerk.\n"
+	.string "I'm the Gladiator clerk.\n"
 	.string "How may I serve you?$"
 
 gText_TeleDADClerk::
 	.string "Welcome!\p"
-	.string "I'm the TeleDADclerk.\n"
+	.string "I'm the TeleDAD clerk.\n"
 	.string "How may I serve you?$"
 
 gText_CatClerk::
 	.string "Welcome!\p"
-	.string "I'm the Catclerk.\n"
+	.string "I'm the Cat clerk.\n"
 	.string "How may I serve you?$"
 
 gText_EdisonClerk::
 	.string "Welcome!\p"
-	.string "I'm the Edisonclerk.\n"
+	.string "I'm the Edison clerk.\n"
 	.string "How may I serve you?$"
 
 gText_FrogClerk::
 	.string "Welcome!\p"
-	.string "I'm the Frogclerk.\n"
+	.string "I'm the Frog clerk.\n"
 	.string "How may I serve you?$"
 
 gText_StarstrikeClerk::
 	.string "Welcome!\p"
-	.string "I'm the Starstrikeclerk.\n"
+	.string "I'm the Starstrike clerk.\n"
 	.string "How may I serve you?$"
 
 gText_TenguClerk::
 	.string "Welcome!\p"
-	.string "I'm the Tenguclerk.\n"
+	.string "I'm the Tengu clerk.\n"
 	.string "How may I serve you?$"
 
 gText_DinoRabbitClerk::
 	.string "Welcome!\p"
-	.string "I'm the DinoRabbitclerk.\n"
+	.string "I'm the DinoRabbit clerk.\n"
 	.string "How may I serve you?$"
 
 gText_WindUpClerk::
 	.string "Welcome!\p"
-	.string "I'm the WindUpclerk.\n"
+	.string "I'm the WindUp clerk.\n"
 	.string "How may I serve you?$"
 
 gText_MiamiClerk::
 	.string "Welcome!\p"
-	.string "I'm the Miamiclerk.\n"
+	.string "I'm the Miami clerk.\n"
 	.string "How may I serve you?$"
 
 gText_MeadowlandsClerk::
 	.string "Welcome!\p"
-	.string "I'm the Meadowlandsclerk.\n"
+	.string "I'm the Meadowlands clerk.\n"
 	.string "How may I serve you?$"
 
 gText_BabyRulerClerk::
 	.string "Welcome!\p"
-	.string "I'm the BabyRulerclerk.\n"
+	.string "I'm the BabyRuler clerk.\n"
 	.string "How may I serve you?$"
 
 gText_RavineRulerClerk::
 	.string "Welcome!\p"
-	.string "I'm the RavineRulerclerk.\n"
+	.string "I'm the RavineRuler clerk.\n"
 	.string "How may I serve you?$"
 
 gText_FireWaterClerk::
 	.string "Welcome!\p"
-	.string "I'm the FireWaterclerk.\n"
+	.string "I'm the FireWater clerk.\n"
 	.string "How may I serve you?$"
 
 gText_HATClerk::
 	.string "Welcome!\p"
-	.string "I'm the HATclerk.\n"
+	.string "I'm the HAT clerk.\n"
 	.string "How may I serve you?$"
 
 gText_VegasClerk::
 	.string "Welcome!\p"
-	.string "I'm the Vegasclerk.\n"
+	.string "I'm the Vegas clerk.\n"
 	.string "How may I serve you?$"
 
 gText_YugiKaibaBanlistClerk::
@@ -5671,6 +5708,7 @@ BattleFrontier_Mart_PokemartYugiKaibaBanlist:
 	.2byte  ITEM_ULTIMATE_OFFERING
 	.2byte  ITEM_WABOKU
 	.2byte  ITEM_WALL_OF_ILLUSION
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_CritterBanlist::
 	lock
@@ -5747,6 +5785,7 @@ BattleFrontier_Mart_PokemartCritterBanlist:
 	.2byte  ITEM_WABOKU
 	.2byte  ITEM_WALL_OF_ILLUSION
 	.2byte  ITEM_WHITE_MAGICAL_HAT
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_TreasureBanlist::
 	lock
@@ -5823,6 +5862,7 @@ BattleFrontier_Mart_PokemartTreasureBanlist:
 	.2byte  ITEM_WABOKU
 	.2byte  ITEM_WALL_OF_ILLUSION
 	.2byte  ITEM_WHITE_MAGICAL_HAT
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_ImperialBanlist::
 	lock
@@ -5888,6 +5928,7 @@ BattleFrontier_Mart_PokemartImperialBanlist:
 	.2byte  ITEM_TRAP_HOLE
 	.2byte  ITEM_TRIBUTE_TO_THE_DOOMED
 	.2byte  ITEM_TWIN_HEADED_THUNDER_DRAGON
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_AndroidBanlist::
 	lock
@@ -5979,6 +6020,7 @@ BattleFrontier_Mart_PokemartAndroidBanlist:
 	.2byte  ITEM_WABOKU
 	.2byte  ITEM_WHITE_MAGICAL_HAT
 	.2byte  ITEM_ZOMBYRA_THE_DARK
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_JoeyPegasusBanlist::
 	lock
@@ -6065,6 +6107,7 @@ BattleFrontier_Mart_PokemartJoeyPegasusBanlist:
 	.2byte  ITEM_TRAP_HOLE
 	.2byte  ITEM_TWIN_HEADED_THUNDER_DRAGON
 	.2byte  ITEM_WABOKU
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_FiberBanlist::
 	lock
@@ -6165,6 +6208,7 @@ BattleFrontier_Mart_PokemartFiberBanlist:
 	.2byte  ITEM_TWIN_HEADED_THUNDER_DRAGON
 	.2byte  ITEM_WABOKU
 	.2byte  ITEM_ZOMBYRA_THE_DARK
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_YataBanlist::
 	lock
@@ -6284,6 +6328,7 @@ BattleFrontier_Mart_PokemartYataBanlist:
 	.2byte  ITEM_TWIN_HEADED_THUNDER_DRAGON
 	.2byte  ITEM_WHITE_MAGICAL_HAT
 	.2byte  ITEM_ZOMBYRA_THE_DARK
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_ScientistBanlist::
 	lock
@@ -6381,6 +6426,7 @@ BattleFrontier_Mart_PokemartScientistBanlist:
 	.2byte  ITEM_TORRENTIAL_TRIBUTE
 	.2byte  ITEM_TRAP_DUSTSHOOT
 	.2byte  ITEM_WABOKU
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_VampireBanlist::
 	lock
@@ -6492,6 +6538,7 @@ BattleFrontier_Mart_PokemartVampireBanlist:
 	.2byte  ITEM_TWIN_HEADED_THUNDER_DRAGON
 	.2byte  ITEM_WABOKU
 	.2byte  ITEM_ZOMBYRA_THE_DARK
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_ChaosBanlist::
 	lock
@@ -6615,6 +6662,7 @@ BattleFrontier_Mart_PokemartChaosBanlist:
 	.2byte  ITEM_TWIN_HEADED_THUNDER_DRAGON
 	.2byte  ITEM_WABOKU
 	.2byte  ITEM_ZOMBYRA_THE_DARK
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_WarriorBanlist::
 	lock
@@ -6770,6 +6818,7 @@ BattleFrontier_Mart_PokemartWarriorBanlist:
 	.2byte  ITEM_YOMI_SHIP
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 	.2byte  ITEM_ZOMBYRA_THE_DARK
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_GoatBanlist::
 	lock
@@ -6948,6 +6997,7 @@ BattleFrontier_Mart_PokemartGoatBanlist:
 	.2byte  ITEM_XING_ZHEN_HU
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 	.2byte  ITEM_ZOMBYRA_THE_DARK
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_CyberBanlist::
 	lock
@@ -7072,6 +7122,7 @@ BattleFrontier_Mart_PokemartCyberBanlist:
 	.2byte  ITEM_WABOKU
 	.2byte  ITEM_WIDESPREAD_RUIN
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_ReaperBanlist::
 	lock
@@ -7222,6 +7273,7 @@ BattleFrontier_Mart_PokemartReaperBanlist:
 	.2byte  ITEM_WIDESPREAD_RUIN
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 	.2byte  ITEM_ZOMBYRA_THE_DARK
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_ChaosReturnBanlist::
 	lock
@@ -7344,6 +7396,7 @@ BattleFrontier_Mart_PokemartChaosReturnBanlist:
 	.2byte  ITEM_WABOKU
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 	.2byte  ITEM_ZOMBYRA_THE_DARK
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_DemiseBanlist::
 	lock
@@ -7489,6 +7542,7 @@ BattleFrontier_Mart_PokemartDemiseBanlist:
 	.2byte  ITEM_WIDESPREAD_RUIN
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 	.2byte  ITEM_ZOMBYRA_THE_DARK
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_TrooperBanlist::
 	lock
@@ -7589,6 +7643,7 @@ BattleFrontier_Mart_PokemartTrooperBanlist:
 	.2byte  ITEM_WAVE_MOTION_CANNON
 	.2byte  ITEM_WIDESPREAD_RUIN
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_ZombieBanlist::
 	lock
@@ -7739,6 +7794,7 @@ BattleFrontier_Mart_PokemartZombieBanlist:
 	.2byte  ITEM_XING_ZHEN_HU
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 	.2byte  ITEM_ZOMBYRA_THE_DARK
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_PerfectCircleBanlist::
 	lock
@@ -7855,6 +7911,7 @@ BattleFrontier_Mart_PokemartPerfectCircleBanlist:
 	.2byte  ITEM_WABOKU
 	.2byte  ITEM_WAVE_MOTION_CANNON
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_DADReturnBanlist::
 	lock
@@ -7978,6 +8035,7 @@ BattleFrontier_Mart_PokemartDADReturnBanlist:
 	.2byte  ITEM_WAVE_MOTION_CANNON
 	.2byte  ITEM_ZABORG_THE_THUNDER_MONARCH
 	.2byte  ITEM_ZOMBYRA_THE_DARK
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_GladiatorBanlist::
 	lock
@@ -8070,6 +8128,7 @@ BattleFrontier_Mart_PokemartGladiatorBanlist:
 	.2byte  ITEM_UPSTART_GOBLIN
 	.2byte  ITEM_WABOKU
 	.2byte  ITEM_XING_ZHEN_HU
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_TeleDADBanlist::
 	lock
@@ -8137,6 +8196,7 @@ BattleFrontier_Mart_PokemartTeleDADBanlist:
 	.2byte  ITEM_THREATENING_ROAR
 	.2byte  ITEM_UPSTART_GOBLIN
 	.2byte  ITEM_WABOKU
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_CatBanlist::
 	lock
@@ -8219,6 +8279,7 @@ BattleFrontier_Mart_PokemartCatBanlist:
 	.2byte  ITEM_TRAP_HOLE
 	.2byte  ITEM_WABOKU
 	.2byte  ITEM_ZOMBYRA_THE_DARK
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_EdisonBanlist::
 	lock
@@ -8307,6 +8368,7 @@ BattleFrontier_Mart_PokemartEdisonBanlist:
 	.2byte  ITEM_THREATENING_ROAR
 	.2byte  ITEM_TRAP_HOLE
 	.2byte  ITEM_UPSTART_GOBLIN
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_FrogBanlist::
 	lock
@@ -8395,6 +8457,7 @@ BattleFrontier_Mart_PokemartFrogBanlist:
 	.2byte  ITEM_TRAP_HOLE
 	.2byte  ITEM_UPSTART_GOBLIN
 	.2byte  ITEM_WABOKU
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_StarstrikeBanlist::
 	lock
@@ -8471,6 +8534,7 @@ BattleFrontier_Mart_PokemartStarstrikeBanlist:
 	.2byte  ITEM_TRAP_HOLE
 	.2byte  ITEM_TREEBORN_FROG
 	.2byte  ITEM_UPSTART_GOBLIN
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_TenguBanlist::
 	lock
@@ -8540,6 +8604,7 @@ BattleFrontier_Mart_PokemartTenguBanlist:
 	.2byte  ITEM_SPIRIT_REAPER
 	.2byte  ITEM_ULTIMATE_OFFERING
 	.2byte  ITEM_UPSTART_GOBLIN
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_DinoRabbitBanlist::
 	lock
@@ -8599,6 +8664,7 @@ BattleFrontier_Mart_PokemartDinoRabbitBanlist:
 	.2byte  ITEM_SWAP_FROG
 	.2byte  ITEM_TREEBORN_FROG
 	.2byte  ITEM_UPSTART_GOBLIN
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_WindUpBanlist::
 	lock
@@ -8673,6 +8739,7 @@ BattleFrontier_Mart_PokemartWindUpBanlist:
 	.2byte  ITEM_UPSTART_GOBLIN
 	.2byte  ITEM_UPSTART_GOLDEN_NINJA
 	.2byte  ITEM_WABOKU
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_MiamiBanlist::
 	lock
@@ -8739,6 +8806,7 @@ BattleFrontier_Mart_PokemartMiamiBanlist:
 	.2byte  ITEM_UPSTART_GOBLIN
 	.2byte  ITEM_VORSE_RAIDER
 	.2byte  ITEM_XING_ZHEN_HU
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_MeadowlandsBanlist::
 	lock
@@ -8789,6 +8857,7 @@ BattleFrontier_Mart_PokemartMeadowlandsBanlist:
 	.2byte  ITEM_SPIRITUALISM
 	.2byte  ITEM_TERRAFORMING
 	.2byte  ITEM_UPSTART_GOBLIN
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_BabyRulerBanlist::
 	lock
@@ -8849,6 +8918,7 @@ BattleFrontier_Mart_PokemartBabyRulerBanlist:
 	.2byte  ITEM_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET
 	.2byte  ITEM_UPSTART_GOBLIN
 	.2byte  ITEM_WABOKU
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_RavineRulerBanlist::
 	lock
@@ -8907,6 +8977,7 @@ BattleFrontier_Mart_PokemartRavineRulerBanlist:
 	.2byte  ITEM_TRAP_HOLE
 	.2byte  ITEM_UPSTART_GOBLIN
 	.2byte  ITEM_WABOKU
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_FireWaterBanlist::
 	lock
@@ -8954,6 +9025,7 @@ BattleFrontier_Mart_PokemartFireWaterBanlist:
 	.2byte  ITEM_TRAP_HOLE
 	.2byte  ITEM_TRAPTRIX_MYRMELEO
 	.2byte  ITEM_UPSTART_GOBLIN
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_HATBanlist::
 	lock
@@ -8989,6 +9061,7 @@ BattleFrontier_Mart_PokemartHATBanlist:
 	.2byte  ITEM_TRAPTRIX_DIONAEA
 	.2byte  ITEM_TRAPTRIX_MYRMELEO
 	.2byte  ITEM_UPSTART_GOBLIN
+	pokemartlistend
 
 BattleFrontier_Mart_EventScript_Clerk_VegasBanlist::
 	lock
@@ -9036,4 +9109,5 @@ BattleFrontier_Mart_PokemartVegasBanlist:
 	.2byte  ITEM_TRAP_HOLE
 	.2byte  ITEM_TRAPTRIX_MYRMELEO
 	.2byte  ITEM_UPSTART_GOBLIN
+	pokemartlistend
 
