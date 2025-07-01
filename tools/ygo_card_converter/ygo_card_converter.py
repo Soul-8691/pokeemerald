@@ -807,6 +807,8 @@ with open('tcg_sets.json', 'r') as f:
         sets_print += str(card_count)
         sets_print += ',\n\t},\n'
         card_count = 0
+
+sets_print += '};\n'
 PacksWrite = open('src/data/ygo/packs.h', 'w', encoding='utf-8')
 PacksWrite.write(sets_print)
 PacksWrite.close()
@@ -827,11 +829,11 @@ for card_name in card_names:
 	for data in card_info_data['data']:
 		description_lines[card_name] = 1
 		if card_name == data['name']:
-			gCardInfo += ('const u8 gCardName_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']).replace('#', '') + '[] = _("' + card_name + '");\n'
-					+ 'const u8 gCardNameShort_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']).replace('#', '') + '[] = _("'
-			+ card_name[:19] + '");\n'
-					+ 'const u8 gCardNameShortBag_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']).replace('#', '') + '[] = _("'
-			+ card_name[:26] + '");\n')
+			gCardInfo += ('const u8 gCardName_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("' + card_name.replace('#', '') + '");\n'
+					+ 'const u8 gCardNameShort_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("'
+			+ card_name[:19].replace('#', '') + '");\n'
+					+ 'const u8 gCardNameShortBag_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("'
+			+ card_name[:26].replace('#', '') + '");\n')
 			YGO_C += 'const u8 gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("' + textwrap.fill(data['desc'].replace('"', '').replace('\r\n', '').replace('\n', '').replace("''", ''), width=30).replace('\n', '\\n').replace('●', '-').replace('#', '') + '");\n'
 			for line in range(textwrap.fill(data['desc'].replace('"', '').replace('\r\n', '').replace('\n', '').replace("''", ''), width=30).replace('\n', '\\n').count('\\n')):
 				description_lines[card_name] += 1
@@ -972,20 +974,20 @@ gCardInfo += '\n'
 YGO_C += '\n'
 Scripts += '\n'
 for format in cards_by_format:
-	Scripts += '''BattleFrontier_Mart_EventScript_Clerk_''' + re.sub(r'\W+', '', format) + '''::
+	Scripts += '''InsideOfTruck_EventScript_Clerk_''' + re.sub(r'\W+', '', format) + '''::
 	lock
 	faceplayer
 	setvar VAR_YGO_SHOP, FORMAT_''' + re.sub(r'\W+', '_', format).replace('__', '_').replace('__', '_').upper() + '''
 	message gText_''' + re.sub(r'\W+', '', format) + '''Clerk
 	waitmessage
-	pokemart BattleFrontier_Mart_Pokemart''' + re.sub(r'\W+', '', format) + '''
+	pokemart InsideOfTruck_Pokemart''' + re.sub(r'\W+', '', format) + '''
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
 	.align 2
-BattleFrontier_Mart_Pokemart''' + re.sub(r'\W+', '', format) + ''':\n'''
+InsideOfTruck_Pokemart''' + re.sub(r'\W+', '', format) + ''':\n'''
 	for data in card_info_data['data']:
 		card_name = data['name']
 		if card_name in card_names:
@@ -1013,13 +1015,13 @@ for format in cards_by_format:
 
 counter = 0
 for format in cards_by_format:
-	Scripts += '\tcase ' + str(counter) + ', BattleFrontier_Mart_EventScript_Clerk_' + re.sub(r'\W+', '', format) + '\n'
+	Scripts += '\tcase ' + str(counter) + ', InsideOfTruck_EventScript_Clerk_' + re.sub(r'\W+', '', format) + '\n'
 	counter += 1
 
 Scripts += '\n\n'
 counter = 0
 for format in cards_by_format:
-	Scripts += '\tcase ' + str(counter) + ', BattleFrontier_Mart_EventScript_Clerk_' + re.sub(r'\W+', '', format) + 'Banlist\n'
+	Scripts += '\tcase ' + str(counter) + ', InsideOfTruck_EventScript_Clerk_' + re.sub(r'\W+', '', format) + 'Banlist\n'
 	counter += 1
 
 Scripts += '\n\n'
@@ -1039,19 +1041,19 @@ with open('FL.json', 'r') as f:
 	data_ = json.load(f)
 	for format in tqdm(cards_by_format):
 		print(format)
-		Scripts += '''BattleFrontier_Mart_EventScript_Clerk_''' + re.sub(r'\W+', '', format) + '''Banlist::
+		Scripts += '''InsideOfTruck_EventScript_Clerk_''' + re.sub(r'\W+', '', format) + '''Banlist::
 	lock
 	faceplayer
 	setvar VAR_YGO_SHOP, BANLIST_''' + re.sub(r'\W+', '_', format).replace('__', '_').replace('__', '_').upper() + '''
 	message gText_''' + re.sub(r'\W+', '', format) + '''BanlistClerk
 	waitmessage
-	pokemart BattleFrontier_Mart_Pokemart''' + re.sub(r'\W+', '', format) + '''Banlist
+	pokemart InsideOfTruck_Pokemart''' + re.sub(r'\W+', '', format) + '''Banlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
 	release
 	end
 
 	.align 2
-BattleFrontier_Mart_Pokemart''' + re.sub(r'\W+', '', format) + '''Banlist:\n'''
+InsideOfTruck_Pokemart''' + re.sub(r'\W+', '', format) + '''Banlist:\n'''
 		for data in card_info_data['data']:
 			card_name = data['name']
 			if card_name in card_names:

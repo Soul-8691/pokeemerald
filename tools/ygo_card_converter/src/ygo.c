@@ -1399,6 +1399,7 @@ const u16 PackIdMapping[] =
 	[ITEM_PACK_YUGI_S_LEGENDARY_DECKS] = 987,
 	[ITEM_PACK_ZEXAL_COLLECTION_TIN] = 988,
 	[ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK] = 989,
+};
 
 const u8 gCardDescription_4StarredLadybugofDoom[] = _("FLIP: Destroy all Level 4\nmonsters your opponent\ncontrols.");
 const u8 gCardDescription_7ColoredFish[] = _("A rare rainbow fish that has\nnever been caught by mortal\nman.");
