@@ -99,6 +99,7 @@ enum {
     ACTION_CONFIRM_QUIZ_LADY,
     ACTION_BY_NAME,
     ACTION_BY_TYPE,
+    ACTION_BY_INDEX,
     ACTION_BY_AMOUNT,
     ACTION_BY_ATTRIBUTE,
     ACTION_BY_CARD_TYPE,
@@ -281,6 +282,7 @@ static void CancelSell(u8);
 static void Task_LoadBagSortOptions(u8 taskId);
 static void ItemMenu_SortByName(u8 taskId);
 static void ItemMenu_SortByType(u8 taskId);
+static void ItemMenu_SortByIndex(u8 taskId);
 static void ItemMenu_SortByAmount(u8 taskId);
 static void ItemMenu_SortByAttribute(u8 taskId);
 static void ItemMenu_SortByCardType(u8 taskId);
@@ -339,6 +341,7 @@ static void Merge(struct ItemSlot* array, u32 low, u32 mid, u32 high, s8 (*compa
 static s8 CompareItemsAlphabetically(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
 static s8 CompareItemsByMost(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
 static s8 CompareItemsByType(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
+static s8 CompareItemsByIndex(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
 static s8 CompareItemsByAttribute(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
 static s8 CompareItemsByCardType(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
 static s8 CompareItemsByRace(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2);
@@ -443,6 +446,7 @@ static const struct ListMenuTemplate sItemListMenu =
 
 static const u8 sMenuText_ByName[] = _("Name");
 static const u8 sMenuText_ByType[] = _("Type");
+static const u8 sMenuText_ByIndex[] = _("Item ID");
 static const u8 sMenuText_ByAttribute[] = _("Attribute");
 static const u8 sMenuText_ByCardType[] = _("Card Type");
 static const u8 sMenuText_ByRace[] = _("Race");
@@ -516,6 +520,7 @@ static const struct MenuAction sItemMenuActions[] = {
     [ACTION_CONFIRM_QUIZ_LADY] = {gMenuText_Confirm,  ItemMenu_ConfirmQuizLady},
     [ACTION_BY_NAME]           = {sMenuText_ByName,   ItemMenu_SortByName},
     [ACTION_BY_TYPE]           = {sMenuText_ByType,   ItemMenu_SortByType},
+    [ACTION_BY_INDEX]          = {sMenuText_ByIndex,   ItemMenu_SortByIndex},
     [ACTION_BY_AMOUNT]         = {sMenuText_ByAmount, ItemMenu_SortByAmount},
     [ACTION_BY_ATTRIBUTE]      = {sMenuText_ByAttribute, ItemMenu_SortByAttribute},
     [ACTION_BY_CARD_TYPE]      = {sMenuText_ByCardType, ItemMenu_SortByCardType},
@@ -3017,6 +3022,7 @@ enum BagSortOptions
 {
     SORT_ALPHABETICALLY,
     SORT_BY_TYPE,
+    SORT_BY_INDEX,
     SORT_BY_AMOUNT, //greatest->least
     SORT_BY_ATTRIBUTE,
     SORT_BY_CARD_TYPE,
@@ -3124,11 +3130,13 @@ static const u8 sText_PriceReaper[] = _("Reaper");
 static const u8 sText_PriceVendor1[] = _("Vendor 1");
 static const u8 sText_PriceVendor2[] = _("Vendor 2");
 static const u8 sText_PriceVendor3[] = _("Vendor 3");
+static const u8 sText_Index[] = _("Item ID");
 static const u8 sText_ItemsSorted[] = _("Items sorted by {STR_VAR_1}!");
 static const u8 *const sSortTypeStrings[] = 
 {
     [SORT_ALPHABETICALLY] = sText_Name,
     [SORT_BY_TYPE] = sText_Type,
+    [SORT_BY_INDEX] = sText_Index,
     [SORT_BY_AMOUNT] = sText_Amount,
     [SORT_BY_ATTRIBUTE] = sText_Attribute,
     [SORT_BY_CARD_TYPE] = sText_CardType,
@@ -3182,7 +3190,7 @@ static const u8 *const sSortTypeStrings[] =
 
 static const u8 sBagMenuSortItems[] =
 {
-    ACTION_BY_TYPE,
+    ACTION_BY_INDEX,
     ACTION_BY_NAME,
     ACTION_BY_AMOUNT,
     ACTION_BY_ATTRIBUTE,
@@ -3747,6 +3755,12 @@ static void ItemMenu_SortByType(u8 taskId)
     StringCopy(gStringVar1, sSortTypeStrings[SORT_BY_TYPE]);
     gTasks[taskId].func = SortBagItems;
 }
+static void ItemMenu_SortByIndex(u8 taskId)
+{
+    gTasks[taskId].tSortType = SORT_BY_INDEX;
+    StringCopy(gStringVar1, sSortTypeStrings[SORT_BY_INDEX]);
+    gTasks[taskId].func = SortBagItems;
+}
 static void ItemMenu_SortByAmount(u8 taskId)
 {
     gTasks[taskId].tSortType = SORT_BY_AMOUNT; //greatest->least
@@ -4117,6 +4131,9 @@ static void SortItemsInBag(u8 pocket, u16 type)
     case SORT_ALPHABETICALLY:
         BubbleSort(itemMem, itemAmount - 1, CompareItemsAlphabetically);
         break;
+    case SORT_BY_TYPE:
+        BubbleSort(itemMem, itemAmount - 1, CompareItemsByType);
+        break;
     case SORT_BY_AMOUNT:
         BubbleSort(itemMem, itemAmount - 1, CompareItemsByMost);
         break;
@@ -4265,7 +4282,7 @@ static void SortItemsInBag(u8 pocket, u16 type)
         BubbleSort(itemMem, itemAmount - 1, CompareItemsByPriceVendor3);
         break;
     default:
-        BubbleSort(itemMem, itemAmount - 1, CompareItemsByType);
+        BubbleSort(itemMem, itemAmount - 1, CompareItemsByIndex);
         break;
     }
 }
@@ -5555,6 +5572,19 @@ static s8 CompareItemsByPriceVendor3(struct ItemSlot* itemSlot1, struct ItemSlot
         return -1;
 
     return CompareItemsAlphabetically(itemSlot1, itemSlot2); //Items are of same price so sort alphabetically
+}
+
+static s8 CompareItemsByIndex(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2)
+{
+    u16 item1 = itemSlot1->itemId;
+    u16 item2 = itemSlot2->itemId;
+
+    if (item1 < item2)
+        return -1;
+    else if (item1 > item2)
+        return 1;
+    
+    return 0;
 }
 
 static s8 CompareItemsByMost(struct ItemSlot* itemSlot1, struct ItemSlot* itemSlot2)
