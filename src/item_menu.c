@@ -5660,19 +5660,13 @@ static void ItemMenu_MovePocketsLeft(u8 taskId)
 
     if (!MenuHelpers_IsLinkActive() && !IsWallysBag() && gBagPosition.pocket - 1 != KEYITEMS_POCKET)
     {
-        if (gBagPosition.pocket == MAIN_DECK_POCKET)
+        if (gBagPosition.pocket == MAIN_DECK_POCKET || gBagPosition.pocket == SIDE_DECK_POCKET)
         {
             RemoveBagItemAnyPocket(item, 1, gBagPosition.pocket);
             SwitchBagPocket(taskId, MENU_CURSOR_DELTA_LEFT, TRUE);
             AddBagItemAnyPocket(item, 1, gBagPosition.pocket - 1);
         }
         else if (gBagPosition.pocket == EXTRA_DECK_POCKET)
-        {
-            RemoveBagItemAnyPocket(item, 1, gBagPosition.pocket);
-            SwitchBagPocket(taskId, MENU_CURSOR_DELTA_LEFT - 1, TRUE);
-            AddBagItemAnyPocket(item, 1, gBagPosition.pocket - 2);
-        }
-        else if (gBagPosition.pocket == SIDE_DECK_POCKET)
         {
             RemoveBagItemAnyPocket(item, 1, gBagPosition.pocket);
             SwitchBagPocket(taskId, MENU_CURSOR_DELTA_LEFT - 1, TRUE);
