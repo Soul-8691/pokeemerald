@@ -5950,6 +5950,7 @@ InsideOfTruck_EventScript_Clerk_YugiKaibaBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartYugiKaibaBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -6005,6 +6006,7 @@ InsideOfTruck_EventScript_Clerk_CritterBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartCritterBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -6082,6 +6084,7 @@ InsideOfTruck_EventScript_Clerk_TreasureBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartTreasureBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -6159,6 +6162,7 @@ InsideOfTruck_EventScript_Clerk_ImperialBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartImperialBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -6225,6 +6229,7 @@ InsideOfTruck_EventScript_Clerk_AndroidBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartAndroidBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -6317,6 +6322,7 @@ InsideOfTruck_EventScript_Clerk_JoeyPegasusBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartJoeyPegasusBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -6404,6 +6410,7 @@ InsideOfTruck_EventScript_Clerk_FiberBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartFiberBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -6505,6 +6512,7 @@ InsideOfTruck_EventScript_Clerk_YataBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartYataBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -6626,6 +6634,7 @@ InsideOfTruck_EventScript_Clerk_ScientistBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartScientistBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -6724,6 +6733,7 @@ InsideOfTruck_EventScript_Clerk_VampireBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartVampireBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -6836,6 +6846,7 @@ InsideOfTruck_EventScript_Clerk_ChaosBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartChaosBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -6960,6 +6971,7 @@ InsideOfTruck_EventScript_Clerk_WarriorBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartWarriorBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -7117,6 +7129,7 @@ InsideOfTruck_EventScript_Clerk_GoatBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartGoatBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -7296,6 +7309,7 @@ InsideOfTruck_EventScript_Clerk_CyberBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartCyberBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -7421,6 +7435,7 @@ InsideOfTruck_EventScript_Clerk_ReaperBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartReaperBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -7573,6 +7588,7 @@ InsideOfTruck_EventScript_Clerk_ChaosReturnBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartChaosReturnBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -7697,6 +7713,7 @@ InsideOfTruck_EventScript_Clerk_DemiseBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartDemiseBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -7843,6 +7860,7 @@ InsideOfTruck_EventScript_Clerk_TrooperBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartTrooperBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -7944,6 +7962,7 @@ InsideOfTruck_EventScript_Clerk_ZombieBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartZombieBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -8095,6 +8114,7 @@ InsideOfTruck_EventScript_Clerk_PerfectCircleBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartPerfectCircleBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -8212,6 +8232,7 @@ InsideOfTruck_EventScript_Clerk_DADReturnBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartDADReturnBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -8338,6 +8359,7 @@ InsideOfTruck_EventScript_Clerk_GladiatorBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartGladiatorBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -8432,6 +8454,7 @@ InsideOfTruck_EventScript_Clerk_TeleDADBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartTeleDADBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -8501,6 +8524,7 @@ InsideOfTruck_EventScript_Clerk_CatBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartCatBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -8585,6 +8609,7 @@ InsideOfTruck_EventScript_Clerk_EdisonBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartEdisonBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -8675,6 +8700,7 @@ InsideOfTruck_EventScript_Clerk_FrogBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartFrogBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -8765,6 +8791,7 @@ InsideOfTruck_EventScript_Clerk_StarstrikeBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartStarstrikeBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -8843,6 +8870,7 @@ InsideOfTruck_EventScript_Clerk_TenguBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartTenguBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -8914,6 +8942,7 @@ InsideOfTruck_EventScript_Clerk_DinoRabbitBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartDinoRabbitBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -8975,6 +9004,7 @@ InsideOfTruck_EventScript_Clerk_WindUpBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartWindUpBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -9050,6 +9080,7 @@ InsideOfTruck_EventScript_Clerk_MiamiBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartMiamiBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -9117,6 +9148,7 @@ InsideOfTruck_EventScript_Clerk_MeadowlandsBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartMeadowlandsBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -9168,6 +9200,7 @@ InsideOfTruck_EventScript_Clerk_BabyRulerBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartBabyRulerBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -9229,6 +9262,7 @@ InsideOfTruck_EventScript_Clerk_RavineRulerBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartRavineRulerBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -9288,6 +9322,7 @@ InsideOfTruck_EventScript_Clerk_FireWaterBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartFireWaterBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -9336,6 +9371,7 @@ InsideOfTruck_EventScript_Clerk_HATBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartHATBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -9372,6 +9408,7 @@ InsideOfTruck_EventScript_Clerk_VegasBanlist::
 	waitmessage
 	pokemart InsideOfTruck_PokemartVegasBanlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -9419,6 +9456,7 @@ InsideOfTruck_EventScript_Clerk_Custom::
 	waitmessage
 	pokemart InsideOfTruck_PokemartCustom
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 

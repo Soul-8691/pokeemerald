@@ -1049,6 +1049,7 @@ with open('FL.json', 'r') as f:
 	waitmessage
 	pokemart InsideOfTruck_Pokemart''' + re.sub(r'\W+', '', format) + '''Banlist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
