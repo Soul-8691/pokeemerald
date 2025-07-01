@@ -1,4 +1,3 @@
-	// Cards
 	[ITEM_CARD_4_STARRED_LADYBUG_OF_DOOM] = {gCardIconSquare_4StarredLadybugofDoom, gCardIconSquarePalette_4StarredLadybugofDoom},
 	[ITEM_CARD_7_COLORED_FISH] = {gCardIconSquare_7ColoredFish, gCardIconSquarePalette_7ColoredFish},
 	[ITEM_CARD_A_LEGENDARY_OCEAN] = {gCardIconSquare_ALegendaryOcean, gCardIconSquarePalette_ALegendaryOcean},
@@ -560,7 +559,7 @@
 	[ITEM_CARD_VISION_HERO_VYON] = {gCardIconSquare_VisionHEROVyon, gCardIconSquarePalette_VisionHEROVyon},
 	[ITEM_CARD_WROUGHTWEILER] = {gCardIconSquare_Wroughtweiler, gCardIconSquarePalette_Wroughtweiler},
 	[ITEM_CARD_YELLOW_NINJA] = {gCardIconSquare_YellowNinja, gCardIconSquarePalette_YellowNinja},
-	// TCG packs
+
 	[ITEM_PACK_2_PLAYER_STARTER_DECK_YUYA_DECLAN] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
 	[ITEM_PACK_2_PLAYER_STARTER_SET] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
 	[ITEM_PACK_2013_COLLECTIBLE_TINS_WAVE_1] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
@@ -1551,7 +1550,7 @@
 	[ITEM_PACK_YUGI_S_LEGENDARY_DECKS] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
 	[ITEM_PACK_ZEXAL_COLLECTION_TIN] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
 	[ITEM_PACK_ZOMBIE_WORLD_STRUCTURE_DECK] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
-	// Format Library packs
+
 	[ITEM_PACK_YUGI_KAIBA] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
 	[ITEM_PACK_CRITTER] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
 	[ITEM_PACK_TREASURE] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},

@@ -12170,3 +12170,4 @@ const struct Pack gPacks[] =
         .pack = gZombieWorldStructureDeck,
         .length = 14,
 	},
+};

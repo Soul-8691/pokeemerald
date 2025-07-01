@@ -10709,7 +10709,7 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_Card,
     },
 
-	[ITEM_PACK_2_PLAYER_STARTER_DECK_YUYA_DECLAN] =
+[ITEM_PACK_2_PLAYER_STARTER_DECK_YUYA_DECLAN] =
     {
         .name = _("2-Player Star"),
         .itemId = ITEM_PACK_2_PLAYER_STARTER_DECK_YUYA_DECLAN,
@@ -21598,6 +21598,7 @@ const struct Item gItems[] =
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
     },
+
 
 	[ITEM_PACK_YUGI_KAIBA] =
     {

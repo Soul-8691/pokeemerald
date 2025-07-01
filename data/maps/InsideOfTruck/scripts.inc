@@ -650,7 +650,6 @@ InsideOfTruck_EventScript_Clerk_YGOPacks::
 	waitmessage
 	pokemart InsideOfTruck_PokemartYGOPacks
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
-	setvar VAR_YGO_SHOP, 0
 	release
 	end
 

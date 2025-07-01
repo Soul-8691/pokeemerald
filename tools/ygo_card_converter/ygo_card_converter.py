@@ -666,13 +666,10 @@ YGO_C = ''
 UI_Menu = ''
 Scripts = ''
 Graphics_File_Rules = ''
-SRCDataItems = ''
+SRCDataItemDescs = ''
 card_counter = 1
 pack_counter = 1928
 description_lines = dict()
-
-for format_ in formats:
-    SRCDataItems += 'static const u8 s' + re.sub(r'[^a-zA-Z0-9]', '', format_) + 'Desc[] = _("' + textwrap.fill(format_, width=20).replace('\n', '\\n') + '.");\n\n'
 
 pack_counter = 990
 for format_ in formats:
@@ -818,12 +815,15 @@ card_count = 0
 with open('tcg_sets.json', 'r') as f:
     data = json.load(f)
     for set_ in data:
-        SRCDataItems += 'static const u8 s' + re.sub(r'[^a-zA-Z0-9]', '', set_) + 'Desc[] = _(\n    "' + textwrap.fill(set_, width=20).replace('\n', '\\n"\n    "') + '.");\n\n'
+        SRCDataItemDescs += 'static const u8 s' + re.sub(r'[^a-zA-Z0-9]', '', set_) + 'Desc[] = _(\n    "' + textwrap.fill(set_, width=16).replace('\n', '\\n"\n    "') + '.");\n\n'
 
-SRCDataItemsWrite = open('src/data/items.h', 'w', encoding='utf-8')
-SRCDataItemsWrite.write(SRCDataItems)
-SRCDataItemsWrite.close()
-print('src/data/items.h written')
+for format_ in formats:
+    SRCDataItemDescs += 'static const u8 s' + re.sub(r'[^a-zA-Z0-9]', '', format_) + 'Desc[] = _("' + textwrap.fill(format_, width=20).replace('\n', '\\n') + '.");\n\n'
+
+SRCDataItemDescsWrite = open('src/data/text/item_descriptions.h', 'w', encoding='utf-8')
+SRCDataItemDescsWrite.write(SRCDataItemDescs)
+SRCDataItemDescsWrite.close()
+print('src/data/text/item_descriptions.h written')
 
 for card_name in card_names:
 	for data in card_info_data['data']:
