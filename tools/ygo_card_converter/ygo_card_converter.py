@@ -776,7 +776,7 @@ for set_ in sorted(list(tcg_sets)):
 YGO_Constants += '\n'
 
 for set_ in sorted(list(tcg_sets)):
-    Scripts += 'additem ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').upper() + ' 1\n' 
+    Scripts += '\tadditem ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').upper() + ' 1\n' 
 Scripts += '\n'
 
 sets_count = 910
@@ -803,12 +803,12 @@ for set_ in sorted(list(tcg_sets)):
     sets_count += 1
 ItemIconTable += '\n'
 
-YGO += '\nconst u16 PackIdMapping[] = \n{\n'
+YGO_C += '\nconst u16 PackIdMapping[] = \n{\n'
 with open('tcg_sets.json', 'r') as f:
     data = json.load(f)
     for set_ in data:
-        YGO += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').upper() + '] = ' + str(sorted(list(tcg_sets)).index(set_)) + ',\n'
-YGO += '\n'
+        YGO_C += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').upper() + '] = ' + str(sorted(list(tcg_sets)).index(set_)) + ',\n'
+YGO_C += '\n'
 
 sets_print += '\nconst struct Pack gPacks[] =\n{\n'
 card_count = 0
