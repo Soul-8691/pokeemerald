@@ -286,8 +286,8 @@ const u8 gText_BerriesPocket[] = _("BERRIES");
 const u8 gText_KeyItemsPocket[] = _("KEY ITEMS");
 const u8 gText_TrunkPocket[] = _("TRUNK");
 const u8 gText_MainDeckPocket[] = _("MAIN DECK");
-const u8 gText_ExtraDeckPocket[] = _("SIDE DECK");
-const u8 gText_SideDeckPocket[] = _("EXTRA DECK");
+const u8 gText_ExtraDeckPocket[] = _("EXTRA DECK");
+const u8 gText_SideDeckPocket[] = _("SIDE DECK");
 
 const u8 *const gPocketNamesStringsTable[] =
 {
@@ -359,6 +359,7 @@ const u8 gText_HereYouGoThankYou[] = _("Here you go!\nThank you very much.");
 const u8 gText_ThankYouIllSendItHome[] = _("Thank you!\nI'll send it to your home PC.");
 const u8 gText_ThanksIllSendItHome[] = _("Thanks!\nI'll send it to your PC at home.");
 const u8 gText_YouDontHaveMoney[] = _("You don't have enough money.{PAUSE_UNTIL_PRESS}");
+const u8 gText_NotForSale[] = _("This item is not for sale.{PAUSE_UNTIL_PRESS}");
 const u8 gText_NoMoreRoomForThis[] = _("You have no more room for this\nitem.{PAUSE_UNTIL_PRESS}");
 const u8 gText_SpaceForVar1Full[] = _("The space for {STR_VAR_1} is full.{PAUSE_UNTIL_PRESS}");
 const u8 gText_AnythingElseICanHelp[] = _("Is there anything else I can help\nyou with?");

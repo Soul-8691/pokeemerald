@@ -30,8 +30,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_4",
-      "x": 1,
-      "y": 4,
+      "x": 23,
+      "y": 5,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
@@ -43,7 +43,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
-      "x": 19,
+      "x": 17,
       "y": 8,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
@@ -56,7 +56,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BOY_1",
-      "x": 17,
+      "x": 15,
       "y": 9,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
@@ -70,7 +70,7 @@
     {
       "local_id": "LOCALID_TOWER_LOBBY_REPORTER",
       "graphics_id": "OBJ_EVENT_GFX_REPORTER_F",
-      "x": 13,
+      "x": 11,
       "y": 9,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
@@ -80,6 +80,20 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "BattleFrontier_BattleTowerLobby_EventScript_Reporter",
       "flag": "FLAG_HIDE_BATTLE_TOWER_REPORTER"
+    },
+    {
+      "local_id": "LOCALID_APPRENTICE",
+      "graphics_id": "OBJ_EVENT_GFX_VAR_0",
+      "x": 1,
+      "y": 5,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "BattleFrontier_BattleTowerLobby_EventScript_Apprentice",
+      "flag": "FLAG_HIDE_APPRENTICE"
     },
     {
       "local_id": "LOCALID_TOWER_ATTENDANT_DOUBLES",
@@ -122,65 +136,23 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "BattleFrontier_BattleTowerLobby_EventScript_LinkMultisAttendant",
       "flag": "0"
-    },
-    {
-      "local_id": "LOCALID_TOWER_ATTENDANT_SINGLES",
-      "graphics_id": "OBJ_EVENT_GFX_TEALA",
-      "x": 22,
-      "y": 5,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "BattleFrontier_BattleTowerLobby_EventScript_SinglesAttendant",
-      "flag": "0"
-    },
-    {
-      "local_id": "LOCALID_FRONTIER_MART_CLERK",
-      "graphics_id": "OBJ_EVENT_GFX_MART_EMPLOYEE",
-      "x": 60,
-      "y": 4,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_NONE",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "BattleFrontier_Mart_EventScript_Clerk_YugiKaiba",
-      "flag": "0"
-    },
-    {
-      "local_id": "LOCALID_FRONTIER_MART_CLERK",
-      "graphics_id": "OBJ_EVENT_GFX_MART_EMPLOYEE",
-      "x": 59,
-      "y": 4,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_NONE",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "BattleFrontier_Mart_EventScript_Clerk_Critter",
-      "flag": "0"
-    },
-    {
-      "local_id": "LOCALID_FRONTIER_MART_CLERK",
-      "graphics_id": "OBJ_EVENT_GFX_MART_EMPLOYEE",
-      "x": 58,
-      "y": 4,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_NONE",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "BattleFrontier_Mart_EventScript_Clerk_Treasure",
-      "flag": "0"
     }
   ],
   "warp_events": [
+    {
+      "x": 12,
+      "y": 9,
+      "elevation": 3,
+      "dest_map": "MAP_BATTLE_FRONTIER_OUTSIDE_EAST",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 13,
+      "y": 9,
+      "elevation": 3,
+      "dest_map": "MAP_BATTLE_FRONTIER_OUTSIDE_EAST",
+      "dest_warp_id": "0"
+    },
     {
       "x": 6,
       "y": 1,
@@ -230,46 +202,6 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "BattleFrontier_BattleTowerLobby_EventScript_RulesBoard"
-    },
-    {
-      "type": "sign",
-      "x": 16,
-      "y": 5,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
-      "script": "BattleFrontier_BattleTowerLobby_EventScript_ShowLinkMultisResults"
-    },
-    {
-      "type": "sign",
-      "x": 20,
-      "y": 5,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
-      "script": "BattleFrontier_BattleTowerLobby_EventScript_ShowSinglesResults"
-    },
-    {
-      "type": "sign",
-      "x": 63,
-      "y": 9,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "InsideOfTruck_EventScript_MovingBox"
-    },
-    {
-      "type": "sign",
-      "x": 65,
-      "y": 9,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "InsideOfTruck_EventScript_MovingBox3"
-    },
-    {
-      "type": "sign",
-      "x": 64,
-      "y": 9,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "InsideOfTruck_EventScript_MovingBox2"
     }
   ]
 }
