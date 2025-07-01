@@ -21602,7 +21602,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_YUGI_KAIBA] =
     {
-        .name = _("Zombie World "),
+        .name = _("Yugi-Kaiba"),
         .itemId = ITEM_PACK_YUGI_KAIBA,
         .price = 0,
         .description = sYugiKaibaDesc,
@@ -21613,7 +21613,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_CRITTER] =
     {
-        .name = _("Zombie World "),
+        .name = _("Critter"),
         .itemId = ITEM_PACK_CRITTER,
         .price = 0,
         .description = sCritterDesc,
@@ -21624,7 +21624,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_TREASURE] =
     {
-        .name = _("Zombie World "),
+        .name = _("Treasure"),
         .itemId = ITEM_PACK_TREASURE,
         .price = 0,
         .description = sTreasureDesc,
@@ -21635,7 +21635,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_IMPERIAL] =
     {
-        .name = _("Zombie World "),
+        .name = _("Imperial"),
         .itemId = ITEM_PACK_IMPERIAL,
         .price = 0,
         .description = sImperialDesc,
@@ -21646,7 +21646,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_ANDROID] =
     {
-        .name = _("Zombie World "),
+        .name = _("Android"),
         .itemId = ITEM_PACK_ANDROID,
         .price = 0,
         .description = sAndroidDesc,
@@ -21657,7 +21657,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_JOEY_PEGASUS] =
     {
-        .name = _("Zombie World "),
+        .name = _("Joey-Pegasus"),
         .itemId = ITEM_PACK_JOEY_PEGASUS,
         .price = 0,
         .description = sJoeyPegasusDesc,
@@ -21668,7 +21668,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_FIBER] =
     {
-        .name = _("Zombie World "),
+        .name = _("Fiber"),
         .itemId = ITEM_PACK_FIBER,
         .price = 0,
         .description = sFiberDesc,
@@ -21679,7 +21679,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_YATA] =
     {
-        .name = _("Zombie World "),
+        .name = _("Yata"),
         .itemId = ITEM_PACK_YATA,
         .price = 0,
         .description = sYataDesc,
@@ -21690,7 +21690,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_SCIENTIST] =
     {
-        .name = _("Zombie World "),
+        .name = _("Scientist"),
         .itemId = ITEM_PACK_SCIENTIST,
         .price = 0,
         .description = sScientistDesc,
@@ -21701,7 +21701,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_VAMPIRE] =
     {
-        .name = _("Zombie World "),
+        .name = _("Vampire"),
         .itemId = ITEM_PACK_VAMPIRE,
         .price = 0,
         .description = sVampireDesc,
@@ -21712,7 +21712,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_CHAOS] =
     {
-        .name = _("Zombie World "),
+        .name = _("Chaos"),
         .itemId = ITEM_PACK_CHAOS,
         .price = 0,
         .description = sChaosDesc,
@@ -21723,7 +21723,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_WARRIOR] =
     {
-        .name = _("Zombie World "),
+        .name = _("Warrior"),
         .itemId = ITEM_PACK_WARRIOR,
         .price = 0,
         .description = sWarriorDesc,
@@ -21734,7 +21734,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_GOAT] =
     {
-        .name = _("Zombie World "),
+        .name = _("Goat"),
         .itemId = ITEM_PACK_GOAT,
         .price = 0,
         .description = sGoatDesc,
@@ -21745,7 +21745,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_CYBER] =
     {
-        .name = _("Zombie World "),
+        .name = _("Cyber"),
         .itemId = ITEM_PACK_CYBER,
         .price = 0,
         .description = sCyberDesc,
@@ -21756,7 +21756,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_REAPER] =
     {
-        .name = _("Zombie World "),
+        .name = _("Reaper"),
         .itemId = ITEM_PACK_REAPER,
         .price = 0,
         .description = sReaperDesc,
@@ -21767,7 +21767,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_CHAOS_RETURN] =
     {
-        .name = _("Zombie World "),
+        .name = _("Chaos Return"),
         .itemId = ITEM_PACK_CHAOS_RETURN,
         .price = 0,
         .description = sChaosReturnDesc,
@@ -21778,7 +21778,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_DEMISE] =
     {
-        .name = _("Zombie World "),
+        .name = _("Demise"),
         .itemId = ITEM_PACK_DEMISE,
         .price = 0,
         .description = sDemiseDesc,
@@ -21789,7 +21789,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_TROOPER] =
     {
-        .name = _("Zombie World "),
+        .name = _("Trooper"),
         .itemId = ITEM_PACK_TROOPER,
         .price = 0,
         .description = sTrooperDesc,
@@ -21800,7 +21800,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_ZOMBIE] =
     {
-        .name = _("Zombie World "),
+        .name = _("Zombie"),
         .itemId = ITEM_PACK_ZOMBIE,
         .price = 0,
         .description = sZombieDesc,
@@ -21811,7 +21811,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_PERFECT_CIRCLE] =
     {
-        .name = _("Zombie World "),
+        .name = _("Perfect Circl"),
         .itemId = ITEM_PACK_PERFECT_CIRCLE,
         .price = 0,
         .description = sPerfectCircleDesc,
@@ -21822,7 +21822,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_DAD_RETURN] =
     {
-        .name = _("Zombie World "),
+        .name = _("DAD Return"),
         .itemId = ITEM_PACK_DAD_RETURN,
         .price = 0,
         .description = sDADReturnDesc,
@@ -21833,7 +21833,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_GLADIATOR] =
     {
-        .name = _("Zombie World "),
+        .name = _("Gladiator"),
         .itemId = ITEM_PACK_GLADIATOR,
         .price = 0,
         .description = sGladiatorDesc,
@@ -21844,7 +21844,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_TELEDAD] =
     {
-        .name = _("Zombie World "),
+        .name = _("TeleDAD"),
         .itemId = ITEM_PACK_TELEDAD,
         .price = 0,
         .description = sTeleDADDesc,
@@ -21855,7 +21855,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_CAT] =
     {
-        .name = _("Zombie World "),
+        .name = _("Cat"),
         .itemId = ITEM_PACK_CAT,
         .price = 0,
         .description = sCatDesc,
@@ -21866,7 +21866,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_EDISON] =
     {
-        .name = _("Zombie World "),
+        .name = _("Edison"),
         .itemId = ITEM_PACK_EDISON,
         .price = 0,
         .description = sEdisonDesc,
@@ -21877,7 +21877,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_FROG] =
     {
-        .name = _("Zombie World "),
+        .name = _("Frog"),
         .itemId = ITEM_PACK_FROG,
         .price = 0,
         .description = sFrogDesc,
@@ -21888,7 +21888,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_STARSTRIKE] =
     {
-        .name = _("Zombie World "),
+        .name = _("Starstrike"),
         .itemId = ITEM_PACK_STARSTRIKE,
         .price = 0,
         .description = sStarstrikeDesc,
@@ -21899,7 +21899,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_TENGU] =
     {
-        .name = _("Zombie World "),
+        .name = _("Tengu"),
         .itemId = ITEM_PACK_TENGU,
         .price = 0,
         .description = sTenguDesc,
@@ -21910,7 +21910,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_DINO_RABBIT] =
     {
-        .name = _("Zombie World "),
+        .name = _("Dino Rabbit"),
         .itemId = ITEM_PACK_DINO_RABBIT,
         .price = 0,
         .description = sDinoRabbitDesc,
@@ -21921,7 +21921,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_WIND_UP] =
     {
-        .name = _("Zombie World "),
+        .name = _("Wind-Up"),
         .itemId = ITEM_PACK_WIND_UP,
         .price = 0,
         .description = sWindUpDesc,
@@ -21932,7 +21932,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_MIAMI] =
     {
-        .name = _("Zombie World "),
+        .name = _("Miami"),
         .itemId = ITEM_PACK_MIAMI,
         .price = 0,
         .description = sMiamiDesc,
@@ -21943,7 +21943,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_MEADOWLANDS] =
     {
-        .name = _("Zombie World "),
+        .name = _("Meadowlands"),
         .itemId = ITEM_PACK_MEADOWLANDS,
         .price = 0,
         .description = sMeadowlandsDesc,
@@ -21954,7 +21954,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_BABY_RULER] =
     {
-        .name = _("Zombie World "),
+        .name = _("Baby Ruler"),
         .itemId = ITEM_PACK_BABY_RULER,
         .price = 0,
         .description = sBabyRulerDesc,
@@ -21965,7 +21965,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_RAVINE_RULER] =
     {
-        .name = _("Zombie World "),
+        .name = _("Ravine Ruler"),
         .itemId = ITEM_PACK_RAVINE_RULER,
         .price = 0,
         .description = sRavineRulerDesc,
@@ -21976,7 +21976,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_FIRE_WATER] =
     {
-        .name = _("Zombie World "),
+        .name = _("Fire-Water"),
         .itemId = ITEM_PACK_FIRE_WATER,
         .price = 0,
         .description = sFireWaterDesc,
@@ -21987,7 +21987,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_HAT] =
     {
-        .name = _("Zombie World "),
+        .name = _("HAT"),
         .itemId = ITEM_PACK_HAT,
         .price = 0,
         .description = sHATDesc,
@@ -21998,7 +21998,7 @@ const struct Item gItems[] =
 
 	[ITEM_PACK_VEGAS] =
     {
-        .name = _("Zombie World "),
+        .name = _("Vegas"),
         .itemId = ITEM_PACK_VEGAS,
         .price = 0,
         .description = sVegasDesc,

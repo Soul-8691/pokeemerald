@@ -902,13 +902,13 @@ for set_ in sorted(list(tcg_sets)):
     },\n\n'''
 Items += '\n'
 
-for format in formats:
-    Items += '''	[ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format).replace('__', '_').replace('__', '_').upper() + '''] =
+for format_ in formats:
+    Items += '''	[ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').upper() + '''] =
     {
-        .name = _("''' + set_[:13] + '''"),
-        .itemId = ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format).replace('__', '_').replace('__', '_').upper() + ''',
+        .name = _("''' + format_[:13] + '''"),
+        .itemId = ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').upper() + ''',
         .price = 0,
-        .description = s''' + re.sub(r'[^a-zA-Z0-9]', '', format) + '''Desc,
+        .description = s''' + re.sub(r'[^a-zA-Z0-9]', '', format_) + '''Desc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
