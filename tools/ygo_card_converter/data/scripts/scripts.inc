@@ -1559,6 +1559,7 @@ BattleFrontier_Mart_EventScript_Clerk_YugiKaiba::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartYugiKaiba
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -1614,6 +1615,7 @@ BattleFrontier_Mart_EventScript_Clerk_Critter::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartCritter
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -1691,6 +1693,7 @@ BattleFrontier_Mart_EventScript_Clerk_Treasure::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartTreasure
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -1768,6 +1771,7 @@ BattleFrontier_Mart_EventScript_Clerk_Imperial::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartImperial
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -1834,6 +1838,7 @@ BattleFrontier_Mart_EventScript_Clerk_Android::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartAndroid
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -1926,6 +1931,7 @@ BattleFrontier_Mart_EventScript_Clerk_JoeyPegasus::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartJoeyPegasus
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -2013,6 +2019,7 @@ BattleFrontier_Mart_EventScript_Clerk_Fiber::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartFiber
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -2114,6 +2121,7 @@ BattleFrontier_Mart_EventScript_Clerk_Yata::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartYata
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -2235,6 +2243,7 @@ BattleFrontier_Mart_EventScript_Clerk_Scientist::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartScientist
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -2333,6 +2342,7 @@ BattleFrontier_Mart_EventScript_Clerk_Vampire::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartVampire
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -2445,6 +2455,7 @@ BattleFrontier_Mart_EventScript_Clerk_Chaos::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartChaos
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -2569,6 +2580,7 @@ BattleFrontier_Mart_EventScript_Clerk_Warrior::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartWarrior
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -2726,6 +2738,7 @@ BattleFrontier_Mart_EventScript_Clerk_Goat::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartGoat
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -2905,6 +2918,7 @@ BattleFrontier_Mart_EventScript_Clerk_Cyber::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartCyber
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -3030,6 +3044,7 @@ BattleFrontier_Mart_EventScript_Clerk_Reaper::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartReaper
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -3182,6 +3197,7 @@ BattleFrontier_Mart_EventScript_Clerk_ChaosReturn::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartChaosReturn
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -3306,6 +3322,7 @@ BattleFrontier_Mart_EventScript_Clerk_Demise::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartDemise
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -3452,6 +3469,7 @@ BattleFrontier_Mart_EventScript_Clerk_Trooper::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartTrooper
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -3553,6 +3571,7 @@ BattleFrontier_Mart_EventScript_Clerk_Zombie::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartZombie
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -3704,6 +3723,7 @@ BattleFrontier_Mart_EventScript_Clerk_PerfectCircle::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartPerfectCircle
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -3821,6 +3841,7 @@ BattleFrontier_Mart_EventScript_Clerk_DADReturn::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartDADReturn
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -3947,6 +3968,7 @@ BattleFrontier_Mart_EventScript_Clerk_Gladiator::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartGladiator
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -4041,6 +4063,7 @@ BattleFrontier_Mart_EventScript_Clerk_TeleDAD::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartTeleDAD
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -4110,6 +4133,7 @@ BattleFrontier_Mart_EventScript_Clerk_Cat::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartCat
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -4194,6 +4218,7 @@ BattleFrontier_Mart_EventScript_Clerk_Edison::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartEdison
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -4284,6 +4309,7 @@ BattleFrontier_Mart_EventScript_Clerk_Frog::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartFrog
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -4374,6 +4400,7 @@ BattleFrontier_Mart_EventScript_Clerk_Starstrike::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartStarstrike
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -4452,6 +4479,7 @@ BattleFrontier_Mart_EventScript_Clerk_Tengu::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartTengu
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -4523,6 +4551,7 @@ BattleFrontier_Mart_EventScript_Clerk_DinoRabbit::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartDinoRabbit
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -4584,6 +4613,7 @@ BattleFrontier_Mart_EventScript_Clerk_WindUp::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartWindUp
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -4659,6 +4689,7 @@ BattleFrontier_Mart_EventScript_Clerk_Miami::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartMiami
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -4726,6 +4757,7 @@ BattleFrontier_Mart_EventScript_Clerk_Meadowlands::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartMeadowlands
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -4777,6 +4809,7 @@ BattleFrontier_Mart_EventScript_Clerk_BabyRuler::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartBabyRuler
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -4838,6 +4871,7 @@ BattleFrontier_Mart_EventScript_Clerk_RavineRuler::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartRavineRuler
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -4897,6 +4931,7 @@ BattleFrontier_Mart_EventScript_Clerk_FireWater::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartFireWater
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -4945,6 +4980,7 @@ BattleFrontier_Mart_EventScript_Clerk_HAT::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartHAT
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 
@@ -4981,6 +5017,7 @@ BattleFrontier_Mart_EventScript_Clerk_Vegas::
 	waitmessage
 	pokemart BattleFrontier_Mart_PokemartVegas
 	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
 	release
 	end
 

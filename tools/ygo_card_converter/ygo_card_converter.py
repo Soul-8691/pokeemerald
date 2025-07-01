@@ -668,32 +668,17 @@ Scripts = ''
 Graphics_File_Rules = ''
 SRCDataItems = ''
 card_counter = 1
-pack_counter = 1900
+pack_counter = 1928
 description_lines = dict()
 
 for format_ in formats:
     SRCDataItems += 'static const u8 s' + re.sub(r'[^a-zA-Z0-9]', '', format_) + 'Desc[] = _("' + textwrap.fill(format_, width=20).replace('\n', '\\n') + '.");\n\n'
 
-for format_ in formats:
-    Item_Constants += '#define ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').upper() + ' ' + str(pack_counter) + '\n'
-    pack_counter += 1
-Item_Constants += '\n'
-
 pack_counter = 990
 for format_ in formats:
-    YGO_Constants += '#define PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').upper() + ' ' + str(pack_counter) + '\n'
+    Items += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').upper() + '] = ' + str(pack_counter) + ',\n'
     pack_counter += 1
-YGO_Constants += '\n'
-
-pack_counter = 990
-for format_ in formats:
-    Item_Constants += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').upper() + '] = ' + str(pack_counter) + ',\n'
-    pack_counter += 1
-Item_Constants += '\n'
-
-for format_ in formats:
-    ItemIconTable += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').upper() + '] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},\n'
-ItemIconTable += '\n'
+Items += '\n'
 
 for format_ in formats:
     YGO_C += '''	[ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').upper() + '''] =
@@ -800,43 +785,15 @@ with open('tcg_sets.json', 'r') as f:
         sets_print += '};\n\n'
 
 for set_ in sorted(list(tcg_sets)):
-    YGO_Constants += '#define PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').upper() + ' ' + str(sorted(list(tcg_sets)).index(set_)) + '\n'
-YGO_Constants += '\n'
-
-for set_ in sorted(list(tcg_sets)):
-    Scripts += '\tadditem ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').upper() + ' 1\n' 
+    Scripts += '\tadditem ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').upper() + ' 10\n' 
 Scripts += '\n'
-
-sets_count = 910
-for set_ in sorted(list(tcg_sets)):
-    Item_Constants += '#define ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').upper() + ' ' + str(sets_count) + '\n'
-    sets_count += 1
-Item_Constants += '\n'
-
-for set_ in sorted(list(tcg_sets)):
-    Items += '''	[ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').upper() + '''] =
-    {
-        .name = _("''' + set_[:13] + '''"),
-        .itemId = ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').upper() + ''',
-        .price = 0,
-        .description = s''' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '''Desc,
-        .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Pack,
-    },\n\n'''
-Items += '\n'
-
-for set_ in sorted(list(tcg_sets)):
-    ItemIconTable += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').upper() + '] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},\n'
-    sets_count += 1
-ItemIconTable += '\n'
 
 YGO_C += '\nconst u16 PackIdMapping[] = \n{\n'
 with open('tcg_sets.json', 'r') as f:
     data = json.load(f)
     for set_ in data:
         YGO_C += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').upper() + '] = ' + str(sorted(list(tcg_sets)).index(set_)) + ',\n'
-YGO_C += '\n'
+YGO_C += '};\n\n'
 
 sets_print += '\nconst struct Pack gPacks[] =\n{\n'
 card_count = 0
@@ -870,12 +827,12 @@ for card_name in card_names:
 	for data in card_info_data['data']:
 		description_lines[card_name] = 1
 		if card_name == data['name']:
-			gCardInfo += ('const u8 gCardName_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("' + card_name + '");\n'
-					+ 'const u8 gCardNameShort_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("'
+			gCardInfo += ('const u8 gCardName_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']).replace('#', '') + '[] = _("' + card_name + '");\n'
+					+ 'const u8 gCardNameShort_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']).replace('#', '') + '[] = _("'
 			+ card_name[:19] + '");\n'
-					+ 'const u8 gCardNameShortBag_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("'
+					+ 'const u8 gCardNameShortBag_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']).replace('#', '') + '[] = _("'
 			+ card_name[:26] + '");\n')
-			YGO_C += 'const u8 gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("' + textwrap.fill(data['desc'].replace('"', '').replace('\r\n', '').replace('\n', '').replace("''", ''), width=30).replace('\n', '\\n') + '");\n'
+			YGO_C += 'const u8 gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("' + textwrap.fill(data['desc'].replace('"', '').replace('\r\n', '').replace('\n', '').replace("''", ''), width=30).replace('\n', '\\n').replace('●', '-').replace('#', '') + '");\n'
 			for line in range(textwrap.fill(data['desc'].replace('"', '').replace('\r\n', '').replace('\n', '').replace("''", ''), width=30).replace('\n', '\\n').count('\\n')):
 				description_lines[card_name] += 1
 			YGO += 'extern const u8 gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
@@ -901,15 +858,15 @@ for card_name in card_names:
 			Item_Constants += '#define ITEM_CARD_' + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').upper() + ' ' + str(card_counter + 376) + '\n'
 			card_counter += 1
 			Items += '''\t[ITEM_CARD_''' + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').upper() + '''] =
-		{
-			.name = _("''' + re.sub(r'[^a-zA-Z0-9]', '', data['name'])[:13] + '''"),
-			.itemId = ITEM_CARD_''' + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').upper() + ''',
-			.price = 0,
-			.description = sDummyDesc,
-			.pocket = POCKET_TRUNK,
-			.type = ITEM_USE_FIELD,
-			.fieldUseFunc = ItemUseOutOfBattle_Card,
-		},\n
+	{
+		.name = _("''' + re.sub(r'[^a-zA-Z0-9]', '', data['name'])[:13] + '''"),
+		.itemId = ITEM_CARD_''' + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').upper() + ''',
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},\n
 	'''
 			UI_Menu += '''    {
 			.data = gCardPicLarge_''' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '''_Big,
@@ -918,6 +875,61 @@ for card_name in card_names:
 		},\n'''
 			Graphics_File_Rules += 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '''/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64\n\n'''
+
+Item_Constants += '\n'
+sets_count = 938
+for set_ in sorted(list(tcg_sets)):
+    Item_Constants += '#define ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').upper() + ' ' + str(sets_count) + '\n'
+    sets_count += 1
+Item_Constants += '\n'
+
+for format_ in formats:
+    Item_Constants += '#define ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').upper() + ' ' + str(pack_counter) + '\n'
+    pack_counter += 1
+
+for set_ in sorted(list(tcg_sets)):
+    Items += '''	[ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').upper() + '''] =
+    {
+        .name = _("''' + set_[:13] + '''"),
+        .itemId = ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').upper() + ''',
+        .price = 0,
+        .description = s''' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '''Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },\n\n'''
+Items += '\n'
+
+for format in formats:
+    Items += '''	[ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format).replace('__', '_').replace('__', '_').upper() + '''] =
+    {
+        .name = _("''' + set_[:13] + '''"),
+        .itemId = ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format).replace('__', '_').replace('__', '_').upper() + ''',
+        .price = 0,
+        .description = s''' + re.sub(r'[^a-zA-Z0-9]', '', format) + '''Desc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_Pack,
+    },\n\n'''
+
+ItemIconTable += '\n'
+for set_ in sorted(list(tcg_sets)):
+    ItemIconTable += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').upper() + '] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},\n'
+    sets_count += 1
+
+ItemIconTable += '\n'
+for format_ in formats:
+    ItemIconTable += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').upper() + '] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},\n'
+
+YGO_Constants += '\n'
+for set_ in sorted(list(tcg_sets)):
+    YGO_Constants += '#define PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').upper() + ' ' + str(sorted(list(tcg_sets)).index(set_)) + '\n'
+
+YGO_Constants += '\n'
+pack_counter = 990
+for format_ in formats:
+    YGO_Constants += '#define PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').upper() + ' ' + str(pack_counter) + '\n'
+    pack_counter += 1
 
 YGO_Output = open('include/ygo.h', 'w')
 YGO_Output.write(YGO)
