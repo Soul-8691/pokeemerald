@@ -3593,6 +3593,7 @@ static void BattleIntroPrepareBackgroundSlide(void)
                 else
                     randomItem = Random() % j;
             }
+            FlagClear(FLAG_YGO_ICON);
             gBattleMainFunc = HandleTurnActionSelectionState;
         }
         else
