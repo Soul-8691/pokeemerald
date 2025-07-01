@@ -42,6 +42,7 @@
 #include "ygo_graphics.h"
 #include "constants/ygo.h"
 #include "ui_menu.h"
+#include "event_data.h"
 
 #define TAG_SCROLL_ARROW   2100
 #define TAG_ITEM_ICON_BASE 2110
@@ -1067,7 +1068,7 @@ static void Task_BuyMenu(u8 taskId)
             else
                 sShopData->totalCost = gDecorations[itemId].price;
 
-            if (VAR_YGO_SHOP >= BANLIST_YUGI_KAIBA)
+            if (VarGet(VAR_YGO_SHOP) >= BANLIST_YUGI_KAIBA)
             {
                 BuyMenuDisplayMessage(taskId, gText_NotForSale, BuyMenuReturnToItemList);
             }
