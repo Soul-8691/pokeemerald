@@ -2199,7 +2199,32 @@
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_AncientGearDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_AngmarltheFiendishMonarch_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ApprenticeIllusionMagician_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_ArchfiendCavalry_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ArchfiendCommander_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ArchfiendGiant_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2210,6 +2235,16 @@
 		},
     {
 			.data = gCardPicLarge_ArchfiendInterceptor_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ArchfiendofGilfer_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ArchfiendsAdvent_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2254,6 +2289,11 @@
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_CaiustheShadowMonarch_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_ChronicleSorceress_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
@@ -2279,7 +2319,27 @@
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_CyberdarkWurm_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_DarkMagicianGirl_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_DarkMagicianGirltheMagiciansApprentice_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_DefenderofNephthys_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_DelgtheDarkMonarch_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2300,6 +2360,11 @@
 		},
     {
 			.data = gCardPicLarge_DupeFrog_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_EidostheUnderworldMonarch_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2359,7 +2424,17 @@
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_GiltiatheDKnightSoulSpear_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_GoblinPotholeSquad_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GranmargtheRockMonarch_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2380,6 +2455,11 @@
 		},
     {
 			.data = gCardPicLarge_IceKnight_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_InfernalqueenSalmon_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2409,7 +2489,17 @@
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_LesserFiend_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_LordofD_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_LucentNetherlordofDarkWorld_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2454,6 +2544,11 @@
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_MetalflameSwordsman_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_MitsutheInsectNinja_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
@@ -2474,7 +2569,17 @@
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_RedDragonNinja_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_RedEyesBabyDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_RedEyesBlackMeteorDragon_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2505,6 +2610,11 @@
 		},
     {
 			.data = gCardPicLarge_ScarrScoutofDarkWorld_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_SeniorSilverNinja_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2554,6 +2664,11 @@
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_Tenmataitei_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_TheBlackStoneofLegend_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
@@ -2574,12 +2689,32 @@
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_ThunderDragondark_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ThunderDragonhawk_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_ThunderDragonmatrix_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_ThunderDragonroar_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_ThunderSeaHorse_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_TlakalelHisMalevolentMajesty_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2635,6 +2770,11 @@
 		},
     {
 			.data = gCardPicLarge_TraptrixVesiculo_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_TwilightNinjaNichirintheChunin_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
