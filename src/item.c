@@ -341,6 +341,8 @@ bool8 AddBagItem(u16 itemId, u16 count)
                     else
                     {
                         // created a new slot and added quantity
+                        ownedCount = GetBagItemQuantity(&newItems[i].quantity);
+                        DebugPrintf("count:%d, ownedCount:%d", count, ownedCount);
                         if ((pocket == TRUNK_POCKET || pocket == MAIN_DECK_POCKET || pocket == EXTRA_DECK_POCKET || pocket == SIDE_DECK_POCKET) && (ownedCount + count > 3))
                             break;
                         SetBagItemQuantity(&newItems[i].quantity, count);
