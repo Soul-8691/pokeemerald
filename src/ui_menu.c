@@ -81,16 +81,6 @@ static const struct SpriteTemplate sStarSpriteTemplate =
     .callback = NULL,
 };
 
-static const struct SpriteSheet sSpriteSheet_Icons[] =
-{
-    {
-        .data = gStarIcon,
-        .size = 8*8/2,
-        .tag = TAG_ICON
-    },
-    {},
-};
-
 /*
  * 
  */
@@ -117,7 +107,7 @@ enum WindowIds
 static EWRAM_DATA struct MenuResources *sMenuDataPtr = NULL;
 static EWRAM_DATA u8 *sTilemapBuffers[2];
 static EWRAM_DATA u8 sScrollDown = 0;
-static EWRAM_DATA bool8 sDidInitialDraw = FALSE;
+EWRAM_DATA bool8 sDidInitialDraw = FALSE;
 
 //==========STATIC=DEFINES==========//
 static void Menu_RunSetup(void);
@@ -3321,7 +3311,6 @@ static bool8 Menu_DoGfxSetup(void)
         LoadPalette(gCardInfo[card].pal, OBJ_PLTT_ID(0), PLTT_SIZE_4BPP*4);
         spriteId = CreateBigSprite(&sCardLeftSpriteTemplate, 16, 32, 0);
         gSprites[spriteId].callback = SpriteCallbackDummy;
-        LoadSpriteSheet(&sSpriteSheet_Icons[0]);
         LoadSpritePaletteInSlot(&sIcon_SpritePalettes[0], 4);
         for (i = 0; i < level; i++)
         {

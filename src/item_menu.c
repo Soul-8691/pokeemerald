@@ -5628,19 +5628,13 @@ static void ItemMenu_MovePocketsRight(u8 taskId)
 
     if (!MenuHelpers_IsLinkActive() && !IsWallysBag() && gBagPosition.pocket + 1 != POCKETS_COUNT)
     {
-        if (type != TYPE_FUSION_MONSTER && gBagPosition.pocket == TRUNK_POCKET)
+        if (type != TYPE_FUSION_MONSTER && (gBagPosition.pocket == TRUNK_POCKET || gBagPosition.pocket == MAIN_DECK_POCKET))
         {
             RemoveBagItemAnyPocket(item, 1, gBagPosition.pocket);
             SwitchBagPocket(taskId, MENU_CURSOR_DELTA_RIGHT, TRUE);
             AddBagItemAnyPocket(item, 1, gBagPosition.pocket + 1);
         }
         else if (type == TYPE_FUSION_MONSTER && gBagPosition.pocket == TRUNK_POCKET)
-        {
-            RemoveBagItemAnyPocket(item, 1, gBagPosition.pocket);
-            SwitchBagPocket(taskId, MENU_CURSOR_DELTA_RIGHT + 1, TRUE);
-            AddBagItemAnyPocket(item, 1, gBagPosition.pocket + 2);
-        }
-        else if (gBagPosition.pocket == MAIN_DECK_POCKET)
         {
             RemoveBagItemAnyPocket(item, 1, gBagPosition.pocket);
             SwitchBagPocket(taskId, MENU_CURSOR_DELTA_RIGHT + 1, TRUE);

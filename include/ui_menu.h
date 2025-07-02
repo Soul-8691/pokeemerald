@@ -16,5 +16,6 @@ const u16 *const sCardTypeIconPals[NUM_TYPES + 1];
 const u8 *const gCardTypeText[NUM_TYPES + 1];
 const u8 gSupportedTypes[NUM_TYPES + 1];
 const u8 sMenuWindowFontColors[4][3];
+extern bool8 sDidInitialDraw;
 
 #endif // GUARD_UI_MENU_H

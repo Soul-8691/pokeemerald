@@ -67,6 +67,7 @@
 #include "item_menu.h"
 #include "item_icon.h"
 #include "comfy_anim.h"
+#include "ui_menu.h"
 
 #define TAG_CARD_ICON_SMALL 60002
 #define TAG_CARD_ICON_SMALL_PAL 60003
@@ -159,6 +160,7 @@ EWRAM_DATA u8 gBattleEnvironment = 0;
 EWRAM_DATA u32 gUnusedFirstBattleVar1 = 0; // Never read
 EWRAM_DATA struct MultiPartnerMenuPokemon gMultiPartnerParty[MULTI_PARTY_SIZE] = {0};
 EWRAM_DATA u16 items[NUM_CARDS*3] = {0};
+EWRAM_DATA u16 playerDeck[60] = {0};
 EWRAM_DATA static struct MultiPartnerMenuPokemon *sMultiPartnerPartyBuffer = NULL;
 EWRAM_DATA u8 *gBattleAnimBgTileBuffer = NULL;
 EWRAM_DATA u8 *gBattleAnimBgTilemapBuffer = NULL;
@@ -3515,6 +3517,177 @@ bool8 containsElement(u16 arr[], int size, int target) {
     return FALSE; // Element not found
 }
 
+#define TAG_YGO 60020
+
+static const struct SpriteSheet sSpriteSheet_YGO[] =
+{
+    {
+        .data = gStarIcon,
+        .size = 8*8/2,
+        .tag = TAG_YGO
+    },
+    {},
+};
+
+enum WindowIds
+{
+    WINDOW_TEXT,
+};
+
+static const struct WindowTemplate sYGOWindowTemplates[] = 
+{
+    [WINDOW_TEXT] = 
+    {
+        .bg = 0,            // which bg to print text on
+        .tilemapLeft = 0,   // position from left (per 8 pixels)
+        .tilemapTop = 0,    // position from top (per 8 pixels)
+        .width = 5,        // width (per 8 pixels)
+        .height = 20,        // height (per 8 pixels)
+        .paletteNum = 1,   // palette index to use for text
+        .baseBlock = 1,     // tile start in VRAM
+    },
+};
+
+enum {
+    COLORID_NORMAL,
+    COLORID_POCKET_NAME,
+    COLORID_GRAY_CURSOR,
+    COLORID_UNUSED,
+    COLORID_TMHM_INFO,
+    COLORID_NONE = 0xFF
+};
+
+static const u16 sMenuPalette[] = INCBIN_U16("graphics/ui_menu/palette.gbapal");
+
+#define sSinIndex           data[0]
+#define sDelta              data[1]
+#define sAmplitude          data[2]
+#define sBouncerSpriteId    data[3]
+
+void DoBounceEffectCard(s8 delta, s8 amplitude)
+{
+    u8 invisibleSpriteId = CreateInvisibleSpriteWithCallback(SpriteCB_BounceEffect);
+    gSprites[invisibleSpriteId].sSinIndex = 192; // -1
+    gSprites[invisibleSpriteId].sDelta = delta;
+    gSprites[invisibleSpriteId].sAmplitude = amplitude;
+    gSprites[invisibleSpriteId].sBouncerSpriteId = gSpecialVar_0x8005;
+}
+
+static void Task_HandleYGOTurn(void)
+{
+    u16 card = CardIdMapping[items[gSpecialVar_0x8004]]; // CardIdMapping[playerDeck[gSpecialVar_0x8004]];
+    const u8 *cardName = gCardInfo[card].name;
+    const u8 *cardNameShort = gCardInfo[card].nameShort;
+    const u8 cardType = gCardInfo[card].type;
+    const u8 race = gCardInfo[card].race;
+    const u8 attribute = gCardInfo[card].attribute;
+    const u8 *cardDescription = gCardInfo[card].description;
+    const u16 cardAtk = gCardInfo[card].atk * 10;
+    const u16 cardDef = gCardInfo[card].def * 10;
+    u8 x = 0;
+    u8 y = 0;
+    
+    FillWindowPixelBuffer(WINDOW_TEXT, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+    AddTextPrinterParameterized4(WINDOW_TEXT, FONT_SMALL_NARROWER, 0, 148, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, cardNameShort);
+    DoBounceEffectCard(7, 1);
+    if (cardType != TYPE_SPELL_CARD && cardType != TYPE_TRAP_CARD)
+    {
+        ConvertIntToDecimalStringN(gStringVar1, cardAtk, STR_CONV_MODE_LEFT_ALIGN, 4);
+        StringExpandPlaceholders(gStringVar4, gText_StrVar1);
+        AddTextPrinterParameterized4(WINDOW_TEXT, FONT_SMALL_NARROWER, 0, 56, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
+        ConvertIntToDecimalStringN(gStringVar1, cardDef, STR_CONV_MODE_LEFT_ALIGN, 4);
+        StringExpandPlaceholders(gStringVar4, gText_StrVar1);
+        AddTextPrinterParameterized4(WINDOW_TEXT, FONT_SMALL_NARROWER, 0, 68, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
+    }
+    if (JOY_NEW(DPAD_RIGHT))
+    {
+        if (gSpecialVar_0x8004 == 5)
+        {
+            gSpecialVar_0x8004 = gSpecialVar_0x8004 - 5;
+            gSpecialVar_0x8005 = gSpecialVar_0x8005 - 5;
+        }
+        else
+        {
+            gSpecialVar_0x8004 = gSpecialVar_0x8004 + 1;
+            gSpecialVar_0x8005 = gSpecialVar_0x8005 + 1;
+        }
+    }
+    else if (JOY_NEW(DPAD_LEFT))
+    {
+        if (gSpecialVar_0x8004 == 0)
+        {
+            gSpecialVar_0x8004 = gSpecialVar_0x8004 + 5;
+            gSpecialVar_0x8005 = gSpecialVar_0x8005 + 5;
+        }
+        else
+        {
+            gSpecialVar_0x8004 = gSpecialVar_0x8004 - 1;
+            gSpecialVar_0x8005 = gSpecialVar_0x8005 - 1;
+        }
+    }
+    LoadPalette(sMenuPalette, 16, 16);
+    PutWindowTilemap(WINDOW_TEXT);
+    CopyWindowToVram(WINDOW_TEXT, 3);
+    ScheduleBgCopyTilemapToVram(0);
+    ScheduleBgCopyTilemapToVram(1);
+    ScheduleBgCopyTilemapToVram(2);
+    ScheduleBgCopyTilemapToVram(3);
+    // if (cardType == TYPE_NORMAL_MONSTER)
+    //     LoadPalette(sNormalMonsterPalette, 0, 32*3);
+    // else if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER || cardType == TYPE_SPIRIT_MONSTER || cardType == TYPE_UNION_EFFECT_MONSTER || cardType == TYPE_TOON_MONSTER)
+    //     LoadPalette(sEffectMonsterPalette, 0, 32*3);
+    // else if (cardType == TYPE_SPELL_CARD)
+    //     LoadPalette(sSpellCardPalette, 0, 32*3);
+    // else if (cardType == TYPE_TRAP_CARD)
+    //     LoadPalette(sTrapCardPalette, 0, 32*3);
+    // else if (cardType == TYPE_FUSION_MONSTER)
+    //     LoadPalette(sFusionMonsterPalette, 0, 32*3);
+    // else if (cardType == TYPE_RITUAL_MONSTER || cardType == TYPE_RITUAL_EFFECT_MONSTER)
+    //     LoadPalette(sRitualMonsterPalette, 0, 32*3);
+    // else
+    //     LoadPalette(sNormalMonsterPalette, 0, 32*3);
+    // SetBgTilemapPalette(2, 0, 0, DISPLAY_TILE_WIDTH, DISPLAY_TILE_HEIGHT, 3);
+    // FillWindowPixelBuffer(WINDOW_2, PIXEL_FILL(0));
+    // FillWindowPixelBuffer(WINDOW_3, PIXEL_FILL(0));
+    // if (cardType == TYPE_SPELL_CARD || cardType == TYPE_TRAP_CARD)
+    // {
+    //     BlitBitmapToWindow(WINDOW_2, sCardTypeIcons[cardType], 22, 6, 16, 16);
+    //     LoadPalette(sCardTypeIconPals[cardType], BG_PLTT_ID(8), 32);
+    // }
+    // else
+    // {
+    //     BlitBitmapToWindow(WINDOW_3, sCardRaceIcons[race], 6, 0, 16, 16);
+    //     LoadPalette(sCardRaceIconPals[race], BG_PLTT_ID(7), 32);
+    //     BlitBitmapToWindow(WINDOW_2, sCardAttributeIcons[attribute], 22, 6, 16, 16);
+    //     LoadPalette(sCardAttributeIconPals[attribute], BG_PLTT_ID(8), 32);
+    // }
+
+    // if (!sDidInitialDraw)
+    // {
+    //     LoadSpriteSheet(&sSpriteSheet_YGO[0]);
+    //     LoadSpritePaletteInSlot(&sIcon_SpritePalettes[0], 4);
+    //     for (i = 0; i < level; i++)
+    //     {
+    //         if (level < 12)
+    //             spriteId = CreateSprite(&sStarSpriteTemplate, 96 - (i * 8), 25, 0);
+    //         else
+    //             spriteId = CreateSprite(&sStarSpriteTemplate, 96 - (i * 7), 25, 0);
+    //         gSprites[spriteId].callback = SpriteCallbackDummy;
+    //     }
+    //     sDidInitialDraw = TRUE;
+    // }
+
+    // if (JOY_NEW(B_BUTTON))
+    // {
+    //     sScrollDown = 0;
+    //     sDidInitialDraw = FALSE;
+    //     PlaySE(SE_PC_OFF);
+    //     BeginNormalPaletteFade(0xFFFFFFFF, 0, 0, 16, RGB_BLACK);
+    //     gTasks[taskId].func = Task_MenuTurnOff;
+    //     return;
+    // }
+}
+
 static void BattleIntroPrepareBackgroundSlide(void)
 {
     if (gBattleControllerExecFlags == 0)
@@ -3540,7 +3713,6 @@ static void BattleIntroPrepareBackgroundSlide(void)
                     for (k = 0; k < quantity; k++)
                     {
                         items[j] = itemPocket->itemSlots[i].itemId;
-                        DebugPrintf("quantity=%d, items[j]=%d, j=%d", quantity, items[j], j);
                         j++;
                     }
                 }
@@ -3560,7 +3732,6 @@ static void BattleIntroPrepareBackgroundSlide(void)
                     indexes[k] = randomItem;
                     AllocItemIconTemporaryBuffers();
 
-                    DebugPrintf("randomItem=%S", gCardInfo[CardIdMapping[items[randomItem]]].name);
                     LZDecompressWram(GetItemIconPicOrPalette(items[randomItem], 0), gItemIconDecompressionBuffer);
                     CopyItemIconPicTo4x4Buffer(gItemIconDecompressionBuffer, gItemIcon4x4Buffer, items[randomItem]);
                     spriteSheet.data = gItemIcon4x4Buffer;
@@ -3577,6 +3748,12 @@ static void BattleIntroPrepareBackgroundSlide(void)
                     spriteTemplate->tileTag = TAG_CARD_ICON_SMALL + 2 * k;
                     spriteTemplate->paletteTag = TAG_CARD_ICON_SMALL_PAL + 2 * k;
                     spriteId = CreateSprite(spriteTemplate, 0, 0, 0);
+                    if (k == 0)
+                    {
+                        // gSpecialVar_0x8004 = randomItem;
+                        gSpecialVar_0x8005 = spriteId;
+                    }
+                    // playerDeck[k] = randomItem;
                     if (spriteId != MAX_SPRITES)
                     {
                         gSprites[spriteId].x = 256;
@@ -3593,7 +3770,8 @@ static void BattleIntroPrepareBackgroundSlide(void)
                     randomItem = Random() % j;
             }
             FlagClear(FLAG_YGO_ICON);
-            gBattleMainFunc = HandleTurnActionSelectionState;
+            InitWindows(sYGOWindowTemplates);
+            gBattleMainFunc = Task_HandleYGOTurn;
         }
         else
             BattleIntroDrawTrainersOrMonsSprites;
