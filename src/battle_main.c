@@ -3564,13 +3564,74 @@ static const u16 sMenuPalette[] = INCBIN_U16("graphics/ui_menu/palette.gbapal");
 #define sAmplitude          data[2]
 #define sBouncerSpriteId    data[3]
 
+#define NUM_CARD_SLOTS 6
+
 void DoBounceEffectCard(s8 delta, s8 amplitude)
 {
     u8 invisibleSpriteId = CreateInvisibleSpriteWithCallback(SpriteCB_BounceEffect);
+    gSpecialVar_0x8007 = invisibleSpriteId;
     gSprites[invisibleSpriteId].sSinIndex = 192; // -1
     gSprites[invisibleSpriteId].sDelta = delta;
     gSprites[invisibleSpriteId].sAmplitude = amplitude;
-    gSprites[invisibleSpriteId].sBouncerSpriteId = gSpecialVar_0x8005;
+    gSprites[invisibleSpriteId].sBouncerSpriteId = gSpecialVar_0x8009;
+}
+
+enum
+{
+    DIRECTION_RIGHT,
+    DIRECTION_LEFT
+};
+
+void RestartBounceEffectCard(u8 direction)
+{
+    u8 wrappedIdx = gSpecialVar_0x8008 % 12;
+    struct SpriteSheet spriteSheet;
+    struct CompressedSpritePalette spritePalette;
+    struct SpriteTemplate *spriteTemplate;
+    u8 spriteId;
+
+    FlagSet(FLAG_YGO_ICON);
+    AllocItemIconTemporaryBuffers();
+
+    LZDecompressWram(GetItemIconPicOrPalette(playerDeck[gSpecialVar_0x8008 % 6], 0), gItemIconDecompressionBuffer);
+    CopyItemIconPicTo4x4Buffer(gItemIconDecompressionBuffer, gItemIcon4x4Buffer, playerDeck[gSpecialVar_0x8008]);
+
+    spriteSheet.data = gItemIcon4x4Buffer;
+    spriteSheet.size = 0x200;
+    spriteSheet.tag = TAG_CARD_ICON_SMALL + 2 * wrappedIdx;
+    LoadSpriteSheet(&spriteSheet);
+
+    spritePalette.data = GetItemIconPicOrPalette(playerDeck[gSpecialVar_0x8008 % 6], 1);
+    spritePalette.tag = TAG_CARD_ICON_SMALL_PAL + 2 * wrappedIdx;
+    LoadCompressedSpritePalette(&spritePalette);
+
+    spriteTemplate = Alloc(sizeof(*spriteTemplate));
+    CpuCopy16(&gItemIconSpriteTemplate, spriteTemplate, sizeof(*spriteTemplate));
+    spriteTemplate->tileTag = TAG_CARD_ICON_SMALL + 2 * wrappedIdx;
+    spriteTemplate->paletteTag = TAG_CARD_ICON_SMALL_PAL + 2 * wrappedIdx;
+
+    spriteId = CreateSpriteAt(6 + wrappedIdx, spriteTemplate, 0, 0, 0);
+    if (gSpecialVar_0x8006 > 240) // safety check
+    {
+        DebugPrintf("WARNING: gSpecialVar_0x8006 is %d! Clamping to 76", gSpecialVar_0x8006);
+        gSpecialVar_0x8006 = 76;  // or any valid starting position
+    }
+
+    if (spriteId != MAX_SPRITES)
+    {
+        // Reset animation state — important if reusing sprite slots
+        gSprites[spriteId].x2 = 0;
+        gSprites[spriteId].y2 = 0;
+        gSprites[spriteId].invisible = FALSE;
+        gSprites[spriteId].callback = SpriteCallbackDummy; // or your bounce callback if it differs
+        gSprites[spriteId].x = gSpecialVar_0x8006;
+        gSprites[spriteId].y = 136;
+        DebugPrintf("Created sprite at slot=%d, pos=%d", 6 + wrappedIdx, gSpecialVar_0x8006);
+    }
+
+    FreeItemIconTemporaryBuffers();
+    Free(spriteTemplate);
+    FlagClear(FLAG_YGO_ICON);
 }
 
 static void Task_HandleYGOTurn(void)
@@ -3601,16 +3662,29 @@ static void Task_HandleYGOTurn(void)
     }
     if (JOY_NEW(DPAD_RIGHT))
     {
-        if (gSpecialVar_0x8004 == 5)
-        {
-            gSpecialVar_0x8004 = gSpecialVar_0x8004 - 5;
-            gSpecialVar_0x8005 = gSpecialVar_0x8005 - 5;
-        }
-        else
-        {
-            gSpecialVar_0x8004 = gSpecialVar_0x8004 + 1;
-            gSpecialVar_0x8005 = gSpecialVar_0x8005 + 1;
-        }
+        // Save old position **before** destroying or incrementing
+        struct Sprite *oldSprite = &gSprites[gSpecialVar_0x8009];
+        u16 oldX = oldSprite->x + oldSprite->x2;
+        
+        if (gSprites[gSpecialVar_0x8005].inUse == FALSE)
+            DebugPrintf("WARNING: Reading from destroyed sprite %d", gSpecialVar_0x8005);
+
+        DebugPrintf("Destroying sprite ID=%d at x=%d + x2=%d = %d",
+                    gSpecialVar_0x8005, oldSprite->x, oldSprite->x2, oldX);
+
+        gSpecialVar_0x8006 = oldX;
+        gSpecialVar_0x8008 = gSpecialVar_0x8009;
+
+        // Destroy the old sprite
+        DestroySprite(oldSprite);
+
+        // Wrap around
+        gSpecialVar_0x8009 = (gSpecialVar_0x8009 + 1) % (NUM_CARD_SLOTS * 2);
+        gSpecialVar_0x8004 = (gSpecialVar_0x8004 + 1) % NUM_CARD_SLOTS;
+        gSpecialVar_0x8005 = (gSpecialVar_0x8005 + 1) % NUM_CARD_SLOTS;
+
+        // Create new sprite using oldX, saved before destruction
+        RestartBounceEffectCard(DIRECTION_RIGHT);
     }
     else if (JOY_NEW(DPAD_LEFT))
     {
@@ -3768,7 +3842,8 @@ static void BattleIntroPrepareBackgroundSlide(void)
             }
             FlagClear(FLAG_YGO_ICON);
             InitWindows(sYGOWindowTemplates);
-            // gSpecialVar_0x8004 = 0;
+            gSpecialVar_0x8004 = 0;
+            gSpecialVar_0x8009 = 0;
             gBattleMainFunc = Task_HandleYGOTurn;
         }
         else
