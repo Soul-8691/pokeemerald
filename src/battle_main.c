@@ -3749,10 +3749,7 @@ static void BattleIntroPrepareBackgroundSlide(void)
                     spriteTemplate->paletteTag = TAG_CARD_ICON_SMALL_PAL + 2 * k;
                     spriteId = CreateSprite(spriteTemplate, 0, 0, 0);
                     if (k == 0)
-                    {
-                        // gSpecialVar_0x8004 = randomItem;
                         gSpecialVar_0x8005 = spriteId;
-                    }
                     // playerDeck[k] = randomItem;
                     if (spriteId != MAX_SPRITES)
                     {
@@ -3771,6 +3768,7 @@ static void BattleIntroPrepareBackgroundSlide(void)
             }
             FlagClear(FLAG_YGO_ICON);
             InitWindows(sYGOWindowTemplates);
+            // gSpecialVar_0x8004 = 0;
             gBattleMainFunc = Task_HandleYGOTurn;
         }
         else

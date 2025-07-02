@@ -138,7 +138,7 @@ static const struct BgTemplate sMenuBgTemplates[] =
     },
     {
         .bg = 2,    // this bg loads the UI tilemap
-        .charBaseIndex = 6,
+        .charBaseIndex = 2,
         .mapBaseIndex = 20,
         .priority = 2
     }
