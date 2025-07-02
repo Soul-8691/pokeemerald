@@ -1115,6 +1115,7 @@ static void Task_BuyHowManyDialogueInit(u8 taskId)
 
     u16 quantityInBag = CountTotalItemQuantityInBag(tItemId);
     u16 maxQuantity;
+    u8 pocket = gItems[tItemId].pocket;
 
     // DrawStdFrameWithCustomTileAndPalette(WIN_QUANTITY_IN_BAG, FALSE, 1, 13);
     FillWindowPixelBuffer(WIN_QUANTITY_IN_BAG, PIXEL_FILL(0));
@@ -1134,6 +1135,9 @@ static void Task_BuyHowManyDialogueInit(u8 taskId)
         sShopData->maxQuantity = MAX_BAG_ITEM_CAPACITY;
     else
         sShopData->maxQuantity = maxQuantity;
+
+    if (pocket == POCKET_TRUNK)
+        sShopData->maxQuantity = 3;
 
     gTasks[taskId].func = Task_BuyHowManyDialogueHandleInput;
 }
