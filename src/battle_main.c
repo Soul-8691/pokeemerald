@@ -3575,7 +3575,7 @@ void DoBounceEffectCard(s8 delta, s8 amplitude)
 
 static void Task_HandleYGOTurn(void)
 {
-    u16 card = CardIdMapping[items[gSpecialVar_0x8004]]; // CardIdMapping[playerDeck[gSpecialVar_0x8004]];
+    u16 card = CardIdMapping[playerDeck[gSpecialVar_0x8004]];
     const u8 *cardName = gCardInfo[card].name;
     const u8 *cardNameShort = gCardInfo[card].nameShort;
     const u8 cardType = gCardInfo[card].type;
@@ -3698,7 +3698,7 @@ static void BattleIntroPrepareBackgroundSlide(void)
         if (gBattleTypeFlags & BATTLE_TYPE_YGO)
         {
             struct BagPocket *itemPocket;
-            u16 indexes[6];
+            u16 indexes[6] = {0};
             u32 i, k;
             u32 j = 0;
             u32 x = 0;
@@ -3722,14 +3722,14 @@ static void BattleIntroPrepareBackgroundSlide(void)
             k = 0;
             while (k < 6)
             {
-                if (!containsElement(indexes, 6, randomItem))
+                if (!containsElement(indexes, 6, randomItem + 1))
                 {
                     u8 spriteId;
                     struct SpriteSheet spriteSheet;
                     struct CompressedSpritePalette spritePalette;
                     struct SpriteTemplate *spriteTemplate;
 
-                    indexes[k] = randomItem;
+                    indexes[k] = randomItem + 1;
                     AllocItemIconTemporaryBuffers();
 
                     LZDecompressWram(GetItemIconPicOrPalette(items[randomItem], 0), gItemIconDecompressionBuffer);
@@ -3750,7 +3750,9 @@ static void BattleIntroPrepareBackgroundSlide(void)
                     spriteId = CreateSprite(spriteTemplate, 0, 0, 0);
                     if (k == 0)
                         gSpecialVar_0x8005 = spriteId;
-                    // playerDeck[k] = randomItem;
+                    playerDeck[k] = items[randomItem];
+                    for (j = 0; j < 6; j++)
+                        DebugPrintf("k=%d, j=%d, indexes[j]=%d", k, j, indexes[j]);
                     if (spriteId != MAX_SPRITES)
                     {
                         gSprites[spriteId].x = 256;
@@ -3761,10 +3763,8 @@ static void BattleIntroPrepareBackgroundSlide(void)
                         Free(spriteTemplate);
                     }
                     k++;
-                    randomItem = Random() % j;
                 }
-                else
-                    randomItem = Random() % j;
+                randomItem = Random() % j;
             }
             FlagClear(FLAG_YGO_ICON);
             InitWindows(sYGOWindowTemplates);
