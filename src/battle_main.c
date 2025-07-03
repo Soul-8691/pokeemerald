@@ -3527,6 +3527,7 @@ enum WindowIds
     WINDOW_TYPE_ATTRIBUTE,
     WINDOW_RACE,
     WINDOW_STAR,
+    WINDOW_HAND,
 };
 
 static const struct WindowTemplate sYGOWindowTemplates[] = 
@@ -3591,6 +3592,16 @@ static const struct WindowTemplate sYGOWindowTemplates[] =
         .paletteNum = 4,   // palette index to use for text
         .baseBlock = 98,     // tile start in VRAM
     },
+    [WINDOW_HAND] = 
+    {
+        .bg = 0,            // which bg to print text on
+        .tilemapLeft = 7,   // position from left (per 8 pixels)
+        .tilemapTop = 14,    // position from top (per 8 pixels)
+        .width = 20,        // width (per 8 pixels)
+        .height = 4,        // height (per 8 pixels)
+        .paletteNum = 0,   // palette index to use for text
+        .baseBlock = 100,     // tile start in VRAM
+    },
 };
 
 enum {
@@ -3654,6 +3665,8 @@ static void Task_HandleYGOTurn(void)
     LoadPalette(gStarIconPal, BG_PLTT_ID(4), 32);
     if (!sDidInitialDraw)
     {
+        FillWindowPixelBuffer(WINDOW_HAND, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+        FillWindowPixelRect(WINDOW_HAND, PIXEL_FILL(13), 4 + gSpecialVar_0x8004 * 24, 10, 16, 24);
         DestroySprite(&gSprites[gSpecialVar_0x8005]);
         VarSet(VAR_YGO_ICON, 2);
         AllocItemIconTemporaryBuffers();
@@ -3708,12 +3721,14 @@ static void Task_HandleYGOTurn(void)
     PutWindowTilemap(WINDOW_TYPE_ATTRIBUTE);
     PutWindowTilemap(WINDOW_RACE);
     PutWindowTilemap(WINDOW_STAR);
+    PutWindowTilemap(WINDOW_HAND);
     CopyWindowToVram(WINDOW_TEXT, 3);
     CopyWindowToVram(WINDOW_TEXT_2, 3);
     CopyWindowToVram(WINDOW_TEXT_3, 3);
     CopyWindowToVram(WINDOW_TYPE_ATTRIBUTE, 3);
     CopyWindowToVram(WINDOW_RACE, 3);
     CopyWindowToVram(WINDOW_STAR, 3);
+    CopyWindowToVram(WINDOW_HAND, 3);
     ScheduleBgCopyTilemapToVram(0);
     ScheduleBgCopyTilemapToVram(1);
     ScheduleBgCopyTilemapToVram(2);
@@ -3843,6 +3858,7 @@ static void BattleIntroPrepareBackgroundSlide(void)
                         gSprites[spriteId].y = 136;
                         gSprites[spriteId].x2 = k * 12;
                         gSprites[spriteId].callback = SpriteCB_SlideLeft;
+                        gSprites[spriteId].oam.priority = 0;
                         FreeItemIconTemporaryBuffers();
                         Free(spriteTemplate);
                     }
