@@ -3873,7 +3873,7 @@ static void BattleIntroPrepareBackgroundSlide(void)
             gBattleMainFunc = Task_HandleYGOTurn;
         }
         else
-            BattleIntroDrawTrainersOrMonsSprites;
+            gBattleMainFunc = BattleIntroDrawTrainersOrMonsSprites;
         gBattleCommunication[MULTIUSE_STATE] = 0;
         gBattleCommunication[SPRITES_INIT_STATE1] = 0;
     }
