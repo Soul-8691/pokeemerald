@@ -3532,6 +3532,7 @@ static const struct SpriteSheet sSpriteSheet_YGO[] =
 enum WindowIds
 {
     WINDOW_TEXT,
+    WINDOW_TEXT_2,
 };
 
 static const struct WindowTemplate sYGOWindowTemplates[] = 
@@ -3542,9 +3543,19 @@ static const struct WindowTemplate sYGOWindowTemplates[] =
         .tilemapLeft = 0,   // position from left (per 8 pixels)
         .tilemapTop = 0,    // position from top (per 8 pixels)
         .width = 5,        // width (per 8 pixels)
-        .height = 20,        // height (per 8 pixels)
+        .height = 18,        // height (per 8 pixels)
         .paletteNum = 1,   // palette index to use for text
         .baseBlock = 1,     // tile start in VRAM
+    },
+    [WINDOW_TEXT_2] = 
+    {
+        .bg = 0,            // which bg to print text on
+        .tilemapLeft = 0,   // position from left (per 8 pixels)
+        .tilemapTop = 18,    // position from top (per 8 pixels)
+        .width = 30,        // width (per 8 pixels)
+        .height = 2,        // height (per 8 pixels)
+        .paletteNum = 1,   // palette index to use for text
+        .baseBlock = 91,     // tile start in VRAM
     },
 };
 
@@ -3574,15 +3585,16 @@ static void Task_HandleYGOTurn(void)
     u8 y = 0;
     
     FillWindowPixelBuffer(WINDOW_TEXT, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-    AddTextPrinterParameterized4(WINDOW_TEXT, FONT_SMALL_NARROWER, 0, 148, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, cardNameShort);
+    FillWindowPixelBuffer(WINDOW_TEXT_2, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+    AddTextPrinterParameterized4(WINDOW_TEXT_2, FONT_SMALL_NARROWER, 0, 0, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, cardName);
     if (cardType != TYPE_SPELL_CARD && cardType != TYPE_TRAP_CARD)
     {
         ConvertIntToDecimalStringN(gStringVar1, cardAtk, STR_CONV_MODE_LEFT_ALIGN, 4);
         StringExpandPlaceholders(gStringVar4, gText_StrVar1);
-        AddTextPrinterParameterized4(WINDOW_TEXT, FONT_SMALL_NARROWER, 0, 56, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
+        AddTextPrinterParameterized4(WINDOW_TEXT, FONT_SMALL_NARROWER, 14, 68, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
         ConvertIntToDecimalStringN(gStringVar1, cardDef, STR_CONV_MODE_LEFT_ALIGN, 4);
         StringExpandPlaceholders(gStringVar4, gText_StrVar1);
-        AddTextPrinterParameterized4(WINDOW_TEXT, FONT_SMALL_NARROWER, 0, 68, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
+        AddTextPrinterParameterized4(WINDOW_TEXT, FONT_SMALL_NARROWER, 14, 80, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
     }
     if (JOY_NEW(DPAD_RIGHT))
     {
@@ -3600,7 +3612,9 @@ static void Task_HandleYGOTurn(void)
     }
     LoadPalette(sMenuPalette, 16, 16);
     PutWindowTilemap(WINDOW_TEXT);
+    PutWindowTilemap(WINDOW_TEXT_2);
     CopyWindowToVram(WINDOW_TEXT, 3);
+    CopyWindowToVram(WINDOW_TEXT_2, 3);
     ScheduleBgCopyTilemapToVram(0);
     ScheduleBgCopyTilemapToVram(1);
     ScheduleBgCopyTilemapToVram(2);
