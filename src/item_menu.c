@@ -1235,6 +1235,14 @@ static void GetItemNameFromPocket(u8 *dest, u16 itemId)
         CopyItemName(itemId, gStringVar2);
         StringExpandPlaceholders(dest, gText_NumberItem_TMBerry);
         break;
+    case TRUNK_POCKET:
+    case MAIN_DECK_POCKET:
+    case EXTRA_DECK_POCKET:
+    case SIDE_DECK_POCKET:
+        FlagSet(FLAG_YGO_FULL_NAME);
+        CopyItemName(itemId, dest);
+        FlagClear(FLAG_YGO_FULL_NAME);
+        break;
     default:
         CopyItemName(itemId, dest);
         break;
@@ -2075,9 +2083,7 @@ static void OpenContextMenu(u8 taskId)
     }
     else
     {
-        FlagSet(FLAG_YGO_SHORT_NAME);
         CopyItemName(gSpecialVar_ItemId, gStringVar1);
-        FlagClear(FLAG_YGO_SHORT_NAME);
         StringExpandPlaceholders(gStringVar4, gText_Var1IsSelected);
         FillWindowPixelBuffer(WIN_DESCRIPTION, PIXEL_FILL(0));
         BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, gStringVar4, 3, 4, 0, 0, 0, COLORID_NORMAL);

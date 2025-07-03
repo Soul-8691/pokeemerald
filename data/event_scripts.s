@@ -1014,6 +1014,7 @@ EventScript_AccessPack::
 	end
 
 EventScript_PulledCard::
+	setflag FLAG_YGO_FULL_NAME
 	bufferitemname STR_VAR_1, VAR_0x8004
 	msgbox gText_CardPulled, MSGBOX_DEFAULT
 	bufferitemname STR_VAR_1, VAR_0x8005
@@ -1024,6 +1025,7 @@ EventScript_PulledCard::
 	msgbox gText_CardPulled, MSGBOX_DEFAULT
 	bufferitemname STR_VAR_1, VAR_0x8008
 	msgbox gText_CardPulled, MSGBOX_DEFAULT
+	clearflag FLAG_YGO_FULL_NAME
 	releaseall
 	end
 

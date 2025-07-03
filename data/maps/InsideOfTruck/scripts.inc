@@ -1762,7 +1762,7 @@ InsideOfTruck_Text_Custom:
 
 gText_CustomClerk::
 	.string "Welcome!\p"
-	.string "I'm the custom clerk.\n"
+	.string "I'm the Custom clerk.\n"
 	.string "How may I serve you?$"
 
 InsideOfTruck_EventScript_Clerk_Custom::
