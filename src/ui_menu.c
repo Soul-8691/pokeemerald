@@ -40,7 +40,7 @@
 #include "field_camera.h"
 
 #define TAG_CARD 60000
-#define TAG_ICON 60001
+#define TAG_ICON 60040
 
 static const union AnimCmd sStarAnimSequence[] =
 {
@@ -70,7 +70,7 @@ static const struct OamData sStarData =
     .affineParam = 0,
 };
 
-static const struct SpriteTemplate sStarSpriteTemplate =
+const struct SpriteTemplate sStarSpriteTemplate =
 {
     .tileTag = TAG_ICON,
     .paletteTag = TAG_ICON,
@@ -239,7 +239,7 @@ static const u32 sRitualMonsterTilemap[] = INCBIN_U32("graphics/cards/ritual_mon
 static const u16 sRitualMonsterPalette[] = INCBIN_U16("graphics/cards/ritual_monster.gbapal");
 static const u32 sBackgroundTiles[] = INCBIN_U32("graphics/cards/background.4bpp.lz");
 static const u32 sBackgroundTilemap[] = INCBIN_U32("graphics/cards/background.bin.lz");
-static const u16 sBackgroundPalette[] = INCBIN_U16("graphics/cards/background.gbapal");
+const u16 sBackgroundPalette[] = INCBIN_U16("graphics/cards/background.gbapal");
 
 enum Colors
 {
@@ -3280,7 +3280,7 @@ static const struct SpriteTemplate sCardLeftSpriteTemplate =
     .callback = NULL,
 };
 
-static const struct SpritePalette sIcon_SpritePalettes[] =
+const struct SpritePalette sIcon_SpritePalettes[] =
 {
     {gStarIconPal,     TAG_ICON},
 };

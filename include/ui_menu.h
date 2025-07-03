@@ -17,5 +17,8 @@ extern const u8 *const gCardTypeText[NUM_TYPES + 1];
 extern const u8 gSupportedTypes[NUM_TYPES + 1];
 extern const u8 sMenuWindowFontColors[4][3];
 extern bool8 sDidInitialDraw;
+extern const struct SpritePalette sIcon_SpritePalettes[];
+extern const struct SpriteTemplate sStarSpriteTemplate;
+extern const u16 sBackgroundPalette[];
 
 #endif // GUARD_UI_MENU_H

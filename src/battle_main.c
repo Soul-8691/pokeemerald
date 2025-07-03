@@ -3519,24 +3519,14 @@ bool8 containsElement(u16 arr[], int size, int target) {
     return FALSE; // Element not found
 }
 
-#define TAG_YGO 60020
-
-static const struct SpriteSheet sSpriteSheet_YGO[] =
-{
-    {
-        .data = gStarIcon,
-        .size = 8*8/2,
-        .tag = TAG_YGO
-    },
-    {},
-};
-
 enum WindowIds
 {
     WINDOW_TEXT,
     WINDOW_TEXT_2,
+    WINDOW_TEXT_3,
     WINDOW_TYPE_ATTRIBUTE,
     WINDOW_RACE,
+    WINDOW_STAR,
 };
 
 static const struct WindowTemplate sYGOWindowTemplates[] = 
@@ -3544,10 +3534,10 @@ static const struct WindowTemplate sYGOWindowTemplates[] =
     [WINDOW_TEXT] = 
     {
         .bg = 0,            // which bg to print text on
-        .tilemapLeft = 0,   // position from left (per 8 pixels)
-        .tilemapTop = 0,    // position from top (per 8 pixels)
+        .tilemapLeft = 2,   // position from left (per 8 pixels)
+        .tilemapTop = 11,    // position from top (per 8 pixels)
         .width = 5,        // width (per 8 pixels)
-        .height = 18,        // height (per 8 pixels)
+        .height = 5,        // height (per 8 pixels)
         .paletteNum = 1,   // palette index to use for text
         .baseBlock = 1,     // tile start in VRAM
     },
@@ -3559,7 +3549,17 @@ static const struct WindowTemplate sYGOWindowTemplates[] =
         .width = 30,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
         .paletteNum = 1,   // palette index to use for text
-        .baseBlock = 91,     // tile start in VRAM
+        .baseBlock = 26,     // tile start in VRAM
+    },
+    [WINDOW_TEXT_3] = 
+    {
+        .bg = 0,            // which bg to print text on
+        .tilemapLeft = 3,   // position from left (per 8 pixels)
+        .tilemapTop = 3,    // position from top (per 8 pixels)
+        .width = 2,        // width (per 8 pixels)
+        .height = 2,        // height (per 8 pixels)
+        .paletteNum = 1,   // palette index to use for text
+        .baseBlock = 86,     // tile start in VRAM
     },
     [WINDOW_TYPE_ATTRIBUTE] = 
     {
@@ -3569,7 +3569,7 @@ static const struct WindowTemplate sYGOWindowTemplates[] =
         .width = 2,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
         .paletteNum = 2,   // palette index to use for text
-        .baseBlock = 151,     // tile start in VRAM
+        .baseBlock = 90,     // tile start in VRAM
     },
     [WINDOW_RACE] = 
     {
@@ -3579,7 +3579,17 @@ static const struct WindowTemplate sYGOWindowTemplates[] =
         .width = 2,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
         .paletteNum = 3,   // palette index to use for text
-        .baseBlock = 155,     // tile start in VRAM
+        .baseBlock = 94,     // tile start in VRAM
+    },
+    [WINDOW_STAR] = 
+    {
+        .bg = 0,            // which bg to print text on
+        .tilemapLeft = 2,   // position from left (per 8 pixels)
+        .tilemapTop = 4,    // position from top (per 8 pixels)
+        .width = 1,        // width (per 8 pixels)
+        .height = 1,        // height (per 8 pixels)
+        .paletteNum = 4,   // palette index to use for text
+        .baseBlock = 98,     // tile start in VRAM
     },
 };
 
@@ -3598,13 +3608,12 @@ static void Task_HandleYGOTurn(void)
 {
     u16 card = CardIdMapping[playerDeck[gSpecialVar_0x8004]];
     const u8 *cardName = gCardInfo[card].name;
-    const u8 *cardNameShort = gCardInfo[card].nameShort;
     const u8 cardType = gCardInfo[card].type;
     const u8 race = gCardInfo[card].race;
     const u8 attribute = gCardInfo[card].attribute;
-    const u8 *cardDescription = gCardInfo[card].description;
     const u16 cardAtk = gCardInfo[card].atk * 10;
     const u16 cardDef = gCardInfo[card].def * 10;
+    const u8 level = gCardInfo[card].level;
     u8 x = 0;
     u8 y = 0;
     u8 spriteId;
@@ -3617,14 +3626,17 @@ static void Task_HandleYGOTurn(void)
     FillWindowPixelBuffer(WINDOW_TYPE_ATTRIBUTE, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
     FillWindowPixelBuffer(WINDOW_RACE, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
     AddTextPrinterParameterized4(WINDOW_TEXT_2, FONT_SMALL_NARROWER, 4, 0, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, cardName);
+    ConvertIntToDecimalStringN(gStringVar1, level, STR_CONV_MODE_RIGHT_ALIGN, 1);
+    StringExpandPlaceholders(gStringVar4, gText_StrVar1);
+    AddTextPrinterParameterized4(WINDOW_TEXT_3, FONT_SMALL_NARROWER, 0, 4, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
     if (cardType != TYPE_SPELL_CARD && cardType != TYPE_TRAP_CARD)
     {
         ConvertIntToDecimalStringN(gStringVar1, cardAtk, STR_CONV_MODE_LEFT_ALIGN, 4);
         StringExpandPlaceholders(gStringVar4, gText_StrVar1);
-        AddTextPrinterParameterized4(WINDOW_TEXT, FONT_SMALL_NARROWER, 14, 88, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
+        AddTextPrinterParameterized4(WINDOW_TEXT, FONT_SMALL_NARROWER, 6, 0, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
         ConvertIntToDecimalStringN(gStringVar1, cardDef, STR_CONV_MODE_LEFT_ALIGN, 4);
         StringExpandPlaceholders(gStringVar4, gText_StrVar1);
-        AddTextPrinterParameterized4(WINDOW_TEXT, FONT_SMALL_NARROWER, 14, 100, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
+        AddTextPrinterParameterized4(WINDOW_TEXT, FONT_SMALL_NARROWER, 6, 10, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
     }
     if (cardType == TYPE_SPELL_CARD || cardType == TYPE_TRAP_CARD)
     {
@@ -3638,7 +3650,8 @@ static void Task_HandleYGOTurn(void)
         BlitBitmapToWindow(WINDOW_TYPE_ATTRIBUTE, sCardAttributeIcons[attribute], 0, 0, 16, 16);
         LoadPalette(sCardAttributeIconPals[attribute], BG_PLTT_ID(2), 32);
     }
-
+    BlitBitmapToWindow(WINDOW_STAR, gStarIcon, 0, 0, 8, 8);
+    LoadPalette(gStarIconPal, BG_PLTT_ID(4), 32);
     if (!sDidInitialDraw)
     {
         DestroySprite(&gSprites[gSpecialVar_0x8005]);
@@ -3665,7 +3678,7 @@ static void Task_HandleYGOTurn(void)
         if (spriteId != MAX_SPRITES)
         {
             gSprites[spriteId].x = 16;
-            gSprites[spriteId].y = 52;
+            gSprites[spriteId].y = 55;
             FreeItemIconTemporaryBuffers();
             Free(spriteTemplate);
         }
@@ -3688,15 +3701,19 @@ static void Task_HandleYGOTurn(void)
             gSpecialVar_0x8004 -= 1;
         sDidInitialDraw = FALSE;
     }
-    LoadPalette(sMenuPalette, 16, 16);
+    LoadPalette(sBackgroundPalette, 16, 16);
     PutWindowTilemap(WINDOW_TEXT);
     PutWindowTilemap(WINDOW_TEXT_2);
+    PutWindowTilemap(WINDOW_TEXT_3);
     PutWindowTilemap(WINDOW_TYPE_ATTRIBUTE);
     PutWindowTilemap(WINDOW_RACE);
+    PutWindowTilemap(WINDOW_STAR);
     CopyWindowToVram(WINDOW_TEXT, 3);
     CopyWindowToVram(WINDOW_TEXT_2, 3);
+    CopyWindowToVram(WINDOW_TEXT_3, 3);
     CopyWindowToVram(WINDOW_TYPE_ATTRIBUTE, 3);
     CopyWindowToVram(WINDOW_RACE, 3);
+    CopyWindowToVram(WINDOW_STAR, 3);
     ScheduleBgCopyTilemapToVram(0);
     ScheduleBgCopyTilemapToVram(1);
     ScheduleBgCopyTilemapToVram(2);
