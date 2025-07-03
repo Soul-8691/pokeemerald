@@ -2075,7 +2075,9 @@ static void OpenContextMenu(u8 taskId)
     }
     else
     {
+        FlagSet(FLAG_YGO_SHORT_NAME);
         CopyItemName(gSpecialVar_ItemId, gStringVar1);
+        FlagClear(FLAG_YGO_SHORT_NAME);
         StringExpandPlaceholders(gStringVar4, gText_Var1IsSelected);
         FillWindowPixelBuffer(WIN_DESCRIPTION, PIXEL_FILL(0));
         BagMenu_Print(WIN_DESCRIPTION, FONT_NORMAL, gStringVar4, 3, 4, 0, 0, 0, COLORID_NORMAL);
@@ -5645,8 +5647,8 @@ static void ItemMenu_MovePocketsRight(u8 taskId)
         else if (type == TYPE_FUSION_MONSTER && gBagPosition.pocket == TRUNK_POCKET)
         {
             RemoveBagItemAnyPocket(item, 1, gBagPosition.pocket);
-            SwitchBagPocket(taskId, MENU_CURSOR_DELTA_RIGHT + 1, TRUE);
-            AddBagItemAnyPocket(item, 1, gBagPosition.pocket + 2);
+            SwitchBagPocket(taskId, MENU_CURSOR_DELTA_RIGHT + 2, TRUE);
+            AddBagItemAnyPocket(item, 1, gBagPosition.pocket + 3);
         }
         UpdatePocketItemLists();
         return;
@@ -5671,8 +5673,8 @@ static void ItemMenu_MovePocketsLeft(u8 taskId)
         else if (gBagPosition.pocket == EXTRA_DECK_POCKET)
         {
             RemoveBagItemAnyPocket(item, 1, gBagPosition.pocket);
-            SwitchBagPocket(taskId, MENU_CURSOR_DELTA_LEFT - 1, TRUE);
-            AddBagItemAnyPocket(item, 1, gBagPosition.pocket - 2);
+            SwitchBagPocket(taskId, MENU_CURSOR_DELTA_LEFT - 2, TRUE);
+            AddBagItemAnyPocket(item, 1, gBagPosition.pocket - 3);
         }
         UpdatePocketItemLists();
         return;
