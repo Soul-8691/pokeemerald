@@ -74,7 +74,7 @@
                                 BAG_POKEBALLS_COUNT))))))))) + 1)
 
 // Up to 8 item slots can be visible at a time
-#define MAX_ITEMS_SHOWN 8
+#define MAX_ITEMS_SHOWN 10
 
 enum {
     SWITCH_POCKET_NONE,
@@ -440,7 +440,7 @@ static const struct ListMenuTemplate sItemListMenu =
     .lettersSpacing = 0,
     .itemVerticalPadding = 0,
     .scrollMultiple = LIST_NO_MULTIPLE_SCROLL,
-    .fontId = FONT_NARROW,
+    .fontId = FONT_SMALL_NARROWER_2,
     .cursorKind = CURSOR_BLACK_ARROW
 };
 
@@ -1293,13 +1293,21 @@ static void BagMenu_ItemPrintCallback(u8 windowId, u32 itemIndex, u8 y)
             offset = GetStringRightAlignXOffset(FONT_NARROW, gStringVar4, 119);
             BagMenu_Print(windowId, FONT_NARROW, gStringVar4, offset, y, 0, 0, TEXT_SKIP_DRAW, COLORID_NORMAL);
         }
+        else if (gBagPosition.pocket == TRUNK_POCKET || gBagPosition.pocket == MAIN_DECK_POCKET || gBagPosition.pocket == EXTRA_DECK_POCKET || gBagPosition.pocket == SIDE_DECK_POCKET)
+        {
+            // Print item quantity
+            ConvertIntToDecimalStringN(gStringVar1, itemQuantity, STR_CONV_MODE_RIGHT_ALIGN, 1);
+            StringExpandPlaceholders(gStringVar4, gText_xVar1);
+            offset = GetStringRightAlignXOffset(FONT_SMALL_NARROWER, gStringVar4, 119);
+            BagMenu_Print(windowId, FONT_SMALL_NARROWER, gStringVar4, offset, y, 0, 0, TEXT_SKIP_DRAW, COLORID_NORMAL);
+        }
         else if (gBagPosition.pocket != KEYITEMS_POCKET && GetItemImportance(itemId) == FALSE)
         {
             // Print item quantity
             ConvertIntToDecimalStringN(gStringVar1, itemQuantity, STR_CONV_MODE_RIGHT_ALIGN, BAG_ITEM_CAPACITY_DIGITS);
             StringExpandPlaceholders(gStringVar4, gText_xVar1);
-            offset = GetStringRightAlignXOffset(FONT_NARROW, gStringVar4, 119);
-            BagMenu_Print(windowId, FONT_NARROW, gStringVar4, offset, y, 0, 0, TEXT_SKIP_DRAW, COLORID_NORMAL);
+            offset = GetStringRightAlignXOffset(FONT_SMALL_NARROWER, gStringVar4, 119);
+            BagMenu_Print(windowId, FONT_SMALL_NARROWER, gStringVar4, offset, y, 0, 0, TEXT_SKIP_DRAW, COLORID_NORMAL);
         }
         else
         {

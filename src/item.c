@@ -1090,7 +1090,10 @@ static u16 SanitizeItemId(u16 itemId)
 
 const u8 *GetItemName(u16 itemId)
 {
-    return gItems[SanitizeItemId(itemId)].name;
+    if (itemId <= ITEM_OLD_SEA_MAP || itemId >= ITEM_PACK_2_PLAYER_STARTER_DECK_YUYA_DECLAN)
+        return gItems[SanitizeItemId(itemId)].name;
+    else
+        return gCardInfo[CardIdMapping[itemId]].nameShortBag;
 }
 
 // Unused
