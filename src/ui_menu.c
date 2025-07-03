@@ -433,7 +433,7 @@ static void Menu_VBlankCB(void)
 
 static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 {
-     {
+    {
 			.data = gCardPicLarge_4StarredLadybugofDoom_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
@@ -2629,12 +2629,32 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_AlbaztheAshen_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_AlbiontheShroudedDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_AlubertheJesterofDespia_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_AmazonessSpiritualist_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
     {
 			.data = gCardPicLarge_AncientGearDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_AncientGearGolemUltimatePound_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2684,7 +2704,42 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_ArielPriestessoftheNekroz_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ArisenGaiatheFierceKnight_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ArmedNinja_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ArmoredCybern_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_AvanceSwordsmanoftheNekroz_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_BakutheBeastNinja_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_BeastofTalwar_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_BeastofTalwarTheSwordSummit_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2714,7 +2769,27 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_BlazingCartesiatheVirtuous_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_BlueFlameSwordsman_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_BlueEyesAlternativeWhiteDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_BlueEyesJetDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_BlueEyesToonDragon_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2724,12 +2799,52 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_BrilliantRose_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_BusterBladertheDestructionSwordmaster_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_CaiustheMegaMonarch_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_CaiustheShadowMonarch_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_ChaosNephthys_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ChargingGaiatheFierceKnight_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ChronicleMagician_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_ChronicleSorceress_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_CrimsonNinja_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_CrystalRose_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2749,6 +2864,11 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_CyberEltanin_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_CyberLarva_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
@@ -2759,12 +2879,32 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_DancePrincessoftheNekroz_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_DarkEradicatorWarlock_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_DarkMagicianGirl_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
     {
 			.data = gCardPicLarge_DarkMagicianGirltheMagiciansApprentice_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_DarkNephthys_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_DeepEyesWhiteDragon_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2799,6 +2939,11 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_EhthertheHeavenlyMonarch_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_EidostheUnderworldMonarch_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
@@ -2819,12 +2964,42 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_EmiliaDancePriestessoftheNekroz_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_EnvoyofChaos_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_ErebustheUnderworldMonarch_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_EveningTwilightKnight_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_EvilswarmHeliotrope_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_EvilswarmKetos_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ExaEnforceroftheNekroz_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_FallenofAlbaz_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2844,12 +3019,67 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_GaiaTheFierceKnight_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_GearfriedtheRedEyesIronKnight_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_GemArmadillo_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GemElephant_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GemKnightAlexandrite_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GemKnightEmerald_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GemKnightGarnet_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GemKnightHollowcore_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GemKnightNepyrim_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_GemKnightQuartz_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GemKnightSapphire_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GemKnightTourmaline_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GemTurtle_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2864,12 +3094,87 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_GishkiAbyss_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GishkiAriel_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GishkiAvance_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GishkiBeast_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GishkiChain_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GishkiEmilia_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GishkiGrimness_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GishkiMarker_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GishkiNatalia_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GishkiNoellia_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GishkiShadow_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GishkiVanity_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GishkiVision_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_GoblinPotholeSquad_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_GranmargtheMegaMonarch_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_GranmargtheRockMonarch_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GraphaDragonLordofDarkWorld_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2889,12 +3194,22 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_HeartoftheBlueEyes_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_IceKnight_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
     {
 			.data = gCardPicLarge_InfernalqueenSalmon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_JiohtheGravityNinja_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2915,6 +3230,11 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 		},
     {
 			.data = gCardPicLarge_KeeperoftheShrine_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_LabrynthArchfiend_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2949,6 +3269,11 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_MagicianofDarkIllusion_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_MagiciansRobe_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
@@ -2969,7 +3294,37 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_MaidenofWhite_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_MaidenwithEyesofBlue_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_MaleficBlueEyesWhiteDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_MaleficCyberEndDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_MaleficRedEyesBlackDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_MaskedNinjaEbisu_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_MasterwithEyesofBlue_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2984,7 +3339,17 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_MeteorDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_MitsutheInsectNinja_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_MobiustheMegaMonarch_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2994,7 +3359,22 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_NaelshaddollAriel_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_NeoKaiserSeaHorse_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_NinjaGrandmasterHanzo_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_PalladiumOracleMahad_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -3004,7 +3384,37 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_PenguinNinja_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_PriestesswithEyesofBlue_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ProtectorwithEyesofBlue_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_QadshaddollKeios_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_RaizatheMegaMonarch_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_RedDragonNinja_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_RedEyesAlternativeBlackDragon_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -3014,7 +3424,17 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_RedEyesBlackDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_RedEyesBlackMeteorDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_RedEyesDarknessMetalDragon_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -3024,7 +3444,32 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_RedEyesSoul_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_RedEyesToonDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_RedEyesWyvern_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_RedEyesZombieDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ReeshaddollWendi_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ReignBeauxOverkingofDarkWorld_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -3034,7 +3479,22 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_RengeGatekeeperofDarkWorld_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_RideroftheStormWinds_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_Ronintoadin_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_SagewithEyesofBlue_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -3055,6 +3515,36 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 		},
     {
 			.data = gCardPicLarge_SenjuoftheThousandHands_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ShaddollBeast_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ShaddollDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ShaddollFalco_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ShaddollHedgehog_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ShaddollHound_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ShuritStrategistoftheNekroz_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -3104,7 +3594,22 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_TerrorkingSalmon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_TheBlackStoneofLegend_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_TheBystialAluber_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_TheBystialLubellion_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -3119,7 +3624,32 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_TheGoldenSwordsoul_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_TheLightHexSealedFusion_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_TheWhiteStoneofAncients_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_TheWhiteStoneofLegend_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ThestalostheMegaMonarch_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ThestalostheShadowfireMonarch_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -3129,7 +3659,17 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_ThunderDragonduo_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_ThunderDragonhawk_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ThunderDragonlord_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -3149,12 +3689,27 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_TimaeustheUnitedDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_TlakalelHisMalevolentMajesty_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
     {
 			.data = gCardPicLarge_TobaritheSkyNinja_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ToonCyberDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ToonSummonedSkull_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -3209,6 +3764,11 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_TwilightNinjaGetsugatheShogun_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_TwilightNinjaNichirintheChunin_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
@@ -3229,7 +3789,27 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_WhiteDragonNinja_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_WhiteNightDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_WhiteNinja_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_Wroughtweiler_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_YellowDragonNinja_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},

@@ -4539,6177 +4539,7453 @@ const struct Item gItems[] =
     },
 
 	[ITEM_CARD_4_STARRED_LADYBUG_OF_DOOM] =
-    {
-        .name = _("4StarredLadyb"),
-        .itemId = ITEM_CARD_4_STARRED_LADYBUG_OF_DOOM,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_7_COLORED_FISH] =
-    {
-        .name = _("7ColoredFish"),
-        .itemId = ITEM_CARD_7_COLORED_FISH,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_A_LEGENDARY_OCEAN] =
-    {
-        .name = _("ALegendaryOce"),
-        .itemId = ITEM_CARD_A_LEGENDARY_OCEAN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ABYSS_SOLDIER] =
-    {
-        .name = _("AbyssSoldier"),
-        .itemId = ITEM_CARD_ABYSS_SOLDIER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_AIRKNIGHT_PARSHATH] =
-    {
-        .name = _("AirknightPars"),
-        .itemId = ITEM_CARD_AIRKNIGHT_PARSHATH,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_AMAZONESS_ARCHER] =
-    {
-        .name = _("AmazonessArch"),
-        .itemId = ITEM_CARD_AMAZONESS_ARCHER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_AMPHIBIOUS_BUGROTH_MK_3] =
-    {
-        .name = _("AmphibiousBug"),
-        .itemId = ITEM_CARD_AMPHIBIOUS_BUGROTH_MK_3,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ANTI_SPELL_FRAGRANCE] =
-    {
-        .name = _("AntiSpellFrag"),
-        .itemId = ITEM_CARD_ANTI_SPELL_FRAGRANCE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_AQUA_MADOOR] =
-    {
-        .name = _("AquaMadoor"),
-        .itemId = ITEM_CARD_AQUA_MADOOR,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_AQUA_SPIRIT] =
-    {
-        .name = _("AquaSpirit"),
-        .itemId = ITEM_CARD_AQUA_SPIRIT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ARCHFIEND_SOLDIER] =
-    {
-        .name = _("ArchfiendSold"),
-        .itemId = ITEM_CARD_ARCHFIEND_SOLDIER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ARSENAL_BUG] =
-    {
-        .name = _("ArsenalBug"),
-        .itemId = ITEM_CARD_ARSENAL_BUG,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ARSENAL_SUMMONER] =
-    {
-        .name = _("ArsenalSummon"),
-        .itemId = ITEM_CARD_ARSENAL_SUMMONER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ASURA_PRIEST] =
-    {
-        .name = _("AsuraPriest"),
-        .itemId = ITEM_CARD_ASURA_PRIEST,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_AXE_OF_DESPAIR] =
-    {
-        .name = _("AxeofDespair"),
-        .itemId = ITEM_CARD_AXE_OF_DESPAIR,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BANISHER_OF_THE_LIGHT] =
-    {
-        .name = _("Banisherofthe"),
-        .itemId = ITEM_CARD_BANISHER_OF_THE_LIGHT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BARREL_BEHIND_THE_DOOR] =
-    {
-        .name = _("BarrelBehindt"),
-        .itemId = ITEM_CARD_BARREL_BEHIND_THE_DOOR,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BATTLE_FOOTBALLER] =
-    {
-        .name = _("BattleFootbal"),
-        .itemId = ITEM_CARD_BATTLE_FOOTBALLER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BATTLE_OX] =
-    {
-        .name = _("BattleOx"),
-        .itemId = ITEM_CARD_BATTLE_OX,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BAZOO_THE_SOUL_EATER] =
-    {
-        .name = _("BazootheSoulE"),
-        .itemId = ITEM_CARD_BAZOO_THE_SOUL_EATER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BERSERK_GORILLA] =
-    {
-        .name = _("BerserkGorill"),
-        .itemId = ITEM_CARD_BERSERK_GORILLA,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BICKURIBOX] =
-    {
-        .name = _("Bickuribox"),
-        .itemId = ITEM_CARD_BICKURIBOX,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BIG_BANG_SHOT] =
-    {
-        .name = _("BigBangShot"),
-        .itemId = ITEM_CARD_BIG_BANG_SHOT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BIG_SHIELD_GARDNA] =
-    {
-        .name = _("BigShieldGard"),
-        .itemId = ITEM_CARD_BIG_SHIELD_GARDNA,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BIG_TUSKED_MAMMOTH] =
-    {
-        .name = _("BigTuskedMamm"),
-        .itemId = ITEM_CARD_BIG_TUSKED_MAMMOTH,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BLACK_ILLUSION_RITUAL] =
-    {
-        .name = _("BlackIllusion"),
-        .itemId = ITEM_CARD_BLACK_ILLUSION_RITUAL,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING] =
-    {
-        .name = _("BlackLusterSo"),
-        .itemId = ITEM_CARD_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BLACK_PENDANT] =
-    {
-        .name = _("BlackPendant"),
-        .itemId = ITEM_CARD_BLACK_PENDANT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BLACK_SKULL_DRAGON] =
-    {
-        .name = _("BlackSkullDra"),
-        .itemId = ITEM_CARD_BLACK_SKULL_DRAGON,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BLADE_KNIGHT] =
-    {
-        .name = _("BladeKnight"),
-        .itemId = ITEM_CARD_BLADE_KNIGHT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BLAST_WITH_CHAIN] =
-    {
-        .name = _("BlastwithChai"),
-        .itemId = ITEM_CARD_BLAST_WITH_CHAIN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BLAZING_INPACHI] =
-    {
-        .name = _("BlazingInpach"),
-        .itemId = ITEM_CARD_BLAZING_INPACHI,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BLINDLY_LOYAL_GOBLIN] =
-    {
-        .name = _("BlindlyLoyalG"),
-        .itemId = ITEM_CARD_BLINDLY_LOYAL_GOBLIN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BLOCK_ATTACK] =
-    {
-        .name = _("BlockAttack"),
-        .itemId = ITEM_CARD_BLOCK_ATTACK,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BLOWBACK_DRAGON] =
-    {
-        .name = _("BlowbackDrago"),
-        .itemId = ITEM_CARD_BLOWBACK_DRAGON,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BLUE_EYES_ULTIMATE_DRAGON] =
-    {
-        .name = _("BlueEyesUltim"),
-        .itemId = ITEM_CARD_BLUE_EYES_ULTIMATE_DRAGON,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BLUE_EYES_WHITE_DRAGON] =
-    {
-        .name = _("BlueEyesWhite"),
-        .itemId = ITEM_CARD_BLUE_EYES_WHITE_DRAGON,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BOOK_OF_LIFE] =
-    {
-        .name = _("BookofLife"),
-        .itemId = ITEM_CARD_BOOK_OF_LIFE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BOOK_OF_MOON] =
-    {
-        .name = _("BookofMoon"),
-        .itemId = ITEM_CARD_BOOK_OF_MOON,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BOOK_OF_TAIYOU] =
-    {
-        .name = _("BookofTaiyou"),
-        .itemId = ITEM_CARD_BOOK_OF_TAIYOU,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BOTTOMLESS_TRAP_HOLE] =
-    {
-        .name = _("BottomlessTra"),
-        .itemId = ITEM_CARD_BOTTOMLESS_TRAP_HOLE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BOWGANIAN] =
-    {
-        .name = _("Bowganian"),
-        .itemId = ITEM_CARD_BOWGANIAN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BRAIN_CONTROL] =
-    {
-        .name = _("BrainControl"),
-        .itemId = ITEM_CARD_BRAIN_CONTROL,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR] =
-    {
-        .name = _("BreakertheMag"),
-        .itemId = ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BROWW_HUNTSMAN_OF_DARK_WORLD] =
-    {
-        .name = _("BrowwHuntsman"),
-        .itemId = ITEM_CARD_BROWW_HUNTSMAN_OF_DARK_WORLD,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BRRON_MAD_KING_OF_DARK_WORLD] =
-    {
-        .name = _("BrronMadKingo"),
-        .itemId = ITEM_CARD_BRRON_MAD_KING_OF_DARK_WORLD,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BUSTER_BLADER] =
-    {
-        .name = _("BusterBlader"),
-        .itemId = ITEM_CARD_BUSTER_BLADER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BYSER_SHOCK] =
-    {
-        .name = _("ByserShock"),
-        .itemId = ITEM_CARD_BYSER_SHOCK,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CALL_OF_THE_HAUNTED] =
-    {
-        .name = _("CalloftheHaun"),
-        .itemId = ITEM_CARD_CALL_OF_THE_HAUNTED,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CANNON_SOLDIER] =
-    {
-        .name = _("CannonSoldier"),
-        .itemId = ITEM_CARD_CANNON_SOLDIER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CARD_DESTRUCTION] =
-    {
-        .name = _("CardDestructi"),
-        .itemId = ITEM_CARD_CARD_DESTRUCTION,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CASTLE_OF_DARK_ILLUSIONS] =
-    {
-        .name = _("CastleofDarkI"),
-        .itemId = ITEM_CARD_CASTLE_OF_DARK_ILLUSIONS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CASTLE_WALLS] =
-    {
-        .name = _("CastleWalls"),
-        .itemId = ITEM_CARD_CASTLE_WALLS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CATAPULT_TURTLE] =
-    {
-        .name = _("CatapultTurtl"),
-        .itemId = ITEM_CARD_CATAPULT_TURTLE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CEASEFIRE] =
-    {
-        .name = _("Ceasefire"),
-        .itemId = ITEM_CARD_CEASEFIRE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CHAIN_DISAPPEARANCE] =
-    {
-        .name = _("ChainDisappea"),
-        .itemId = ITEM_CARD_CHAIN_DISAPPEARANCE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CHAIN_ENERGY] =
-    {
-        .name = _("ChainEnergy"),
-        .itemId = ITEM_CARD_CHAIN_ENERGY,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CHAINSAW_INSECT] =
-    {
-        .name = _("ChainsawInsec"),
-        .itemId = ITEM_CARD_CHAINSAW_INSECT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CHANGE_OF_HEART] =
-    {
-        .name = _("ChangeofHeart"),
-        .itemId = ITEM_CARD_CHANGE_OF_HEART,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CHAOS_EMPEROR_DRAGON_ENVOY_OF_THE_END] =
-    {
-        .name = _("ChaosEmperorD"),
-        .itemId = ITEM_CARD_CHAOS_EMPEROR_DRAGON_ENVOY_OF_THE_END,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CHAOS_SORCERER] =
-    {
-        .name = _("ChaosSorcerer"),
-        .itemId = ITEM_CARD_CHAOS_SORCERER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CHARCOAL_INPACHI] =
-    {
-        .name = _("CharcoalInpac"),
-        .itemId = ITEM_CARD_CHARCOAL_INPACHI,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CHIRON_THE_MAGE] =
-    {
-        .name = _("ChirontheMage"),
-        .itemId = ITEM_CARD_CHIRON_THE_MAGE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CIPHER_SOLDIER] =
-    {
-        .name = _("CipherSoldier"),
-        .itemId = ITEM_CARD_CIPHER_SOLDIER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_COLD_WAVE] =
-    {
-        .name = _("ColdWave"),
-        .itemId = ITEM_CARD_COLD_WAVE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_COMMAND_KNIGHT] =
-    {
-        .name = _("CommandKnight"),
-        .itemId = ITEM_CARD_COMMAND_KNIGHT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_COMPULSORY_EVACUATION_DEVICE] =
-    {
-        .name = _("CompulsoryEva"),
-        .itemId = ITEM_CARD_COMPULSORY_EVACUATION_DEVICE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CONFISCATION] =
-    {
-        .name = _("Confiscation"),
-        .itemId = ITEM_CARD_CONFISCATION,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CRASS_CLOWN] =
-    {
-        .name = _("CrassClown"),
-        .itemId = ITEM_CARD_CRASS_CLOWN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CREATURE_SWAP] =
-    {
-        .name = _("CreatureSwap"),
-        .itemId = ITEM_CARD_CREATURE_SWAP,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CRUSH_CARD_VIRUS] =
-    {
-        .name = _("CrushCardViru"),
-        .itemId = ITEM_CARD_CRUSH_CARD_VIRUS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL] =
-    {
-        .name = _("CursedSealoft"),
-        .itemId = ITEM_CARD_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CYBER_DRAGON] =
-    {
-        .name = _("CyberDragon"),
-        .itemId = ITEM_CARD_CYBER_DRAGON,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CYBER_END_DRAGON] =
-    {
-        .name = _("CyberEndDrago"),
-        .itemId = ITEM_CARD_CYBER_END_DRAGON,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CYBER_HARPIE_LADY] =
-    {
-        .name = _("CyberHarpieLa"),
-        .itemId = ITEM_CARD_CYBER_HARPIE_LADY,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CYBER_JAR] =
-    {
-        .name = _("CyberJar"),
-        .itemId = ITEM_CARD_CYBER_JAR,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CYBER_TWIN_DRAGON] =
-    {
-        .name = _("CyberTwinDrag"),
-        .itemId = ITEM_CARD_CYBER_TWIN_DRAGON,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CYBER_STEIN] =
-    {
-        .name = _("CyberStein"),
-        .itemId = ITEM_CARD_CYBER_STEIN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_D_D_ASSAILANT] =
-    {
-        .name = _("DDAssailant"),
-        .itemId = ITEM_CARD_D_D_ASSAILANT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_D_D_CRAZY_BEAST] =
-    {
-        .name = _("DDCrazyBeast"),
-        .itemId = ITEM_CARD_D_D_CRAZY_BEAST,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_D_D_SURVIVOR] =
-    {
-        .name = _("DDSurvivor"),
-        .itemId = ITEM_CARD_D_D_SURVIVOR,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_D_D_TRAINER] =
-    {
-        .name = _("DDTrainer"),
-        .itemId = ITEM_CARD_D_D_TRAINER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_D_D_WARRIOR_LADY] =
-    {
-        .name = _("DDWarriorLady"),
-        .itemId = ITEM_CARD_D_D_WARRIOR_LADY,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DARK_BLADE] =
-    {
-        .name = _("DarkBlade"),
-        .itemId = ITEM_CARD_DARK_BLADE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DARK_BLADE_THE_DRAGON_KNIGHT] =
-    {
-        .name = _("DarkBladetheD"),
-        .itemId = ITEM_CARD_DARK_BLADE_THE_DRAGON_KNIGHT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DARK_DEAL] =
-    {
-        .name = _("DarkDeal"),
-        .itemId = ITEM_CARD_DARK_DEAL,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DARK_ELF] =
-    {
-        .name = _("DarkElf"),
-        .itemId = ITEM_CARD_DARK_ELF,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DARK_HOLE] =
-    {
-        .name = _("DarkHole"),
-        .itemId = ITEM_CARD_DARK_HOLE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DARK_MAGIC_CURTAIN] =
-    {
-        .name = _("DarkMagicCurt"),
-        .itemId = ITEM_CARD_DARK_MAGIC_CURTAIN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DARK_MAGICIAN] =
-    {
-        .name = _("DarkMagician"),
-        .itemId = ITEM_CARD_DARK_MAGICIAN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DARK_MAGICIAN_OF_CHAOS] =
-    {
-        .name = _("DarkMagiciano"),
-        .itemId = ITEM_CARD_DARK_MAGICIAN_OF_CHAOS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DARK_MIMIC_LV1] =
-    {
-        .name = _("DarkMimicLV1"),
-        .itemId = ITEM_CARD_DARK_MIMIC_LV1,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DARK_MIMIC_LV3] =
-    {
-        .name = _("DarkMimicLV3"),
-        .itemId = ITEM_CARD_DARK_MIMIC_LV3,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DARK_PALADIN] =
-    {
-        .name = _("DarkPaladin"),
-        .itemId = ITEM_CARD_DARK_PALADIN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DARK_RULER_HA_DES] =
-    {
-        .name = _("DarkRulerHaDe"),
-        .itemId = ITEM_CARD_DARK_RULER_HA_DES,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DARK_SCORPION_CHICK_THE_YELLOW] =
-    {
-        .name = _("DarkScorpionC"),
-        .itemId = ITEM_CARD_DARK_SCORPION_CHICK_THE_YELLOW,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DARK_SCORPION_CLIFF_THE_TRAP_REMOVER] =
-    {
-        .name = _("DarkScorpionC"),
-        .itemId = ITEM_CARD_DARK_SCORPION_CLIFF_THE_TRAP_REMOVER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DARK_WORLD_LIGHTNING] =
-    {
-        .name = _("DarkWorldLigh"),
-        .itemId = ITEM_CARD_DARK_WORLD_LIGHTNING,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DE_SPELL] =
-    {
-        .name = _("DeSpell"),
-        .itemId = ITEM_CARD_DE_SPELL,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DECK_DEVASTATION_VIRUS] =
-    {
-        .name = _("DeckDevastati"),
-        .itemId = ITEM_CARD_DECK_DEVASTATION_VIRUS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE] =
-    {
-        .name = _("DekoichitheBa"),
-        .itemId = ITEM_CARD_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DELINQUENT_DUO] =
-    {
-        .name = _("DelinquentDuo"),
-        .itemId = ITEM_CARD_DELINQUENT_DUO,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DES_DENDLE] =
-    {
-        .name = _("DesDendle"),
-        .itemId = ITEM_CARD_DES_DENDLE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DES_KOALA] =
-    {
-        .name = _("DesKoala"),
-        .itemId = ITEM_CARD_DES_KOALA,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DES_LACOODA] =
-    {
-        .name = _("DesLacooda"),
-        .itemId = ITEM_CARD_DES_LACOODA,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DES_WOMBAT] =
-    {
-        .name = _("DesWombat"),
-        .itemId = ITEM_CARD_DES_WOMBAT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DESERT_SUNLIGHT] =
-    {
-        .name = _("DesertSunligh"),
-        .itemId = ITEM_CARD_DESERT_SUNLIGHT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DIAN_KETO_THE_CURE_MASTER] =
-    {
-        .name = _("DianKetotheCu"),
-        .itemId = ITEM_CARD_DIAN_KETO_THE_CURE_MASTER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DIMENSION_FUSION] =
-    {
-        .name = _("DimensionFusi"),
-        .itemId = ITEM_CARD_DIMENSION_FUSION,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DON_ZALOOG] =
-    {
-        .name = _("DonZaloog"),
-        .itemId = ITEM_CARD_DON_ZALOOG,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DOOM_DOZER] =
-    {
-        .name = _("DoomDozer"),
-        .itemId = ITEM_CARD_DOOM_DOZER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DOOMCALIBER_KNIGHT] =
-    {
-        .name = _("DoomcaliberKn"),
-        .itemId = ITEM_CARD_DOOMCALIBER_KNIGHT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DRAGGED_DOWN_INTO_THE_GRAVE] =
-    {
-        .name = _("DraggedDownin"),
-        .itemId = ITEM_CARD_DRAGGED_DOWN_INTO_THE_GRAVE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DRAGON_S_MIRROR] =
-    {
-        .name = _("DragonsMirror"),
-        .itemId = ITEM_CARD_DRAGON_S_MIRROR,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DRAGON_S_RAGE] =
-    {
-        .name = _("DragonsRage"),
-        .itemId = ITEM_CARD_DRAGON_S_RAGE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DREAM_CLOWN] =
-    {
-        .name = _("DreamClown"),
-        .itemId = ITEM_CARD_DREAM_CLOWN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DRILLROID] =
-    {
-        .name = _("Drillroid"),
-        .itemId = ITEM_CARD_DRILLROID,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DROP_OFF] =
-    {
-        .name = _("DropOff"),
-        .itemId = ITEM_CARD_DROP_OFF,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DUNAMES_DARK_WITCH] =
-    {
-        .name = _("DunamesDarkWi"),
-        .itemId = ITEM_CARD_DUNAMES_DARK_WITCH,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DUST_TORNADO] =
-    {
-        .name = _("DustTornado"),
-        .itemId = ITEM_CARD_DUST_TORNADO,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_EARTHBOUND_SPIRIT] =
-    {
-        .name = _("EarthboundSpi"),
-        .itemId = ITEM_CARD_EARTHBOUND_SPIRIT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ELECTRIC_SNAKE] =
-    {
-        .name = _("ElectricSnake"),
-        .itemId = ITEM_CARD_ELECTRIC_SNAKE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ELEMENTAL_HERO_CLAYMAN] =
-    {
-        .name = _("ElementalHERO"),
-        .itemId = ITEM_CARD_ELEMENTAL_HERO_CLAYMAN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN] =
-    {
-        .name = _("ElementalHERO"),
-        .itemId = ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ELEMENTAL_HERO_WILDHEART] =
-    {
-        .name = _("ElementalHERO"),
-        .itemId = ITEM_CARD_ELEMENTAL_HERO_WILDHEART,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_EMERGENCY_PROVISIONS] =
-    {
-        .name = _("EmergencyProv"),
-        .itemId = ITEM_CARD_EMERGENCY_PROVISIONS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_EMISSARY_OF_THE_AFTERLIFE] =
-    {
-        .name = _("Emissaryofthe"),
-        .itemId = ITEM_CARD_EMISSARY_OF_THE_AFTERLIFE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ENEMY_CONTROLLER] =
-    {
-        .name = _("EnemyControll"),
-        .itemId = ITEM_CARD_ENEMY_CONTROLLER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_EXARION_UNIVERSE] =
-    {
-        .name = _("ExarionUniver"),
-        .itemId = ITEM_CARD_EXARION_UNIVERSE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_EXCHANGE] =
-    {
-        .name = _("Exchange"),
-        .itemId = ITEM_CARD_EXCHANGE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_EXCHANGE_OF_THE_SPIRIT] =
-    {
-        .name = _("Exchangeofthe"),
-        .itemId = ITEM_CARD_EXCHANGE_OF_THE_SPIRIT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_EXILED_FORCE] =
-    {
-        .name = _("ExiledForce"),
-        .itemId = ITEM_CARD_EXILED_FORCE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_EXODIA_THE_FORBIDDEN_ONE] =
-    {
-        .name = _("ExodiatheForb"),
-        .itemId = ITEM_CARD_EXODIA_THE_FORBIDDEN_ONE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_FAKE_TRAP] =
-    {
-        .name = _("FakeTrap"),
-        .itemId = ITEM_CARD_FAKE_TRAP,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_FAMILIAR_POSSESSED_AUSSA] =
-    {
-        .name = _("FamiliarPosse"),
-        .itemId = ITEM_CARD_FAMILIAR_POSSESSED_AUSSA,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_FAMILIAR_POSSESSED_ERIA] =
-    {
-        .name = _("FamiliarPosse"),
-        .itemId = ITEM_CARD_FAMILIAR_POSSESSED_ERIA,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_FAMILIAR_POSSESSED_HIITA] =
-    {
-        .name = _("FamiliarPosse"),
-        .itemId = ITEM_CARD_FAMILIAR_POSSESSED_HIITA,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_FAMILIAR_POSSESSED_WYNN] =
-    {
-        .name = _("FamiliarPosse"),
-        .itemId = ITEM_CARD_FAMILIAR_POSSESSED_WYNN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_FIBER_JAR] =
-    {
-        .name = _("FiberJar"),
-        .itemId = ITEM_CARD_FIBER_JAR,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_FINAL_FLAME] =
-    {
-        .name = _("FinalFlame"),
-        .itemId = ITEM_CARD_FINAL_FLAME,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_FISSURE] =
-    {
-        .name = _("Fissure"),
-        .itemId = ITEM_CARD_FISSURE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_FLAME_SWORDSMAN] =
-    {
-        .name = _("FlameSwordsma"),
-        .itemId = ITEM_CARD_FLAME_SWORDSMAN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_FLYING_KAMAKIRI_1] =
-    {
-        .name = _("FlyingKamakir"),
-        .itemId = ITEM_CARD_FLYING_KAMAKIRI_1,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_FUSILIER_DRAGON_THE_DUAL_MODE_BEAST] =
-    {
-        .name = _("FusilierDrago"),
-        .itemId = ITEM_CARD_FUSILIER_DRAGON_THE_DUAL_MODE_BEAST,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GAGAGIGO] =
-    {
-        .name = _("Gagagigo"),
-        .itemId = ITEM_CARD_GAGAGIGO,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GAIA_POWER] =
-    {
-        .name = _("GaiaPower"),
-        .itemId = ITEM_CARD_GAIA_POWER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GAIA_THE_DRAGON_CHAMPION] =
-    {
-        .name = _("GaiatheDragon"),
-        .itemId = ITEM_CARD_GAIA_THE_DRAGON_CHAMPION,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GATLING_DRAGON] =
-    {
-        .name = _("GatlingDragon"),
-        .itemId = ITEM_CARD_GATLING_DRAGON,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GEAR_GOLEM_THE_MOVING_FORTRESS] =
-    {
-        .name = _("GearGolemtheM"),
-        .itemId = ITEM_CARD_GEAR_GOLEM_THE_MOVING_FORTRESS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT] =
-    {
-        .name = _("GearfriedtheI"),
-        .itemId = ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GEMINI_ELF] =
-    {
-        .name = _("GeminiElf"),
-        .itemId = ITEM_CARD_GEMINI_ELF,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GIANT_GERM] =
-    {
-        .name = _("GiantGerm"),
-        .itemId = ITEM_CARD_GIANT_GERM,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GIANT_ORC] =
-    {
-        .name = _("GiantOrc"),
-        .itemId = ITEM_CARD_GIANT_ORC,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GIANT_RAT] =
-    {
-        .name = _("GiantRat"),
-        .itemId = ITEM_CARD_GIANT_RAT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GIANT_RED_SEASNAKE] =
-    {
-        .name = _("GiantRedSeasn"),
-        .itemId = ITEM_CARD_GIANT_RED_SEASNAKE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GIANT_SOLDIER_OF_STONE] =
-    {
-        .name = _("GiantSoldiero"),
-        .itemId = ITEM_CARD_GIANT_SOLDIER_OF_STONE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GIANT_TRUNADE] =
-    {
-        .name = _("GiantTrunade"),
-        .itemId = ITEM_CARD_GIANT_TRUNADE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GIGA_TECH_WOLF] =
-    {
-        .name = _("GigaTechWolf"),
-        .itemId = ITEM_CARD_GIGA_TECH_WOLF,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GIGANTES] =
-    {
-        .name = _("Gigantes"),
-        .itemId = ITEM_CARD_GIGANTES,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GIL_GARTH] =
-    {
-        .name = _("GilGarth"),
-        .itemId = ITEM_CARD_GIL_GARTH,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GILASAURUS] =
-    {
-        .name = _("Gilasaurus"),
-        .itemId = ITEM_CARD_GILASAURUS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GOBLIN_ATTACK_FORCE] =
-    {
-        .name = _("GoblinAttackF"),
-        .itemId = ITEM_CARD_GOBLIN_ATTACK_FORCE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GOBLIN_ELITE_ATTACK_FORCE] =
-    {
-        .name = _("GoblinEliteAt"),
-        .itemId = ITEM_CARD_GOBLIN_ELITE_ATTACK_FORCE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GOKIPON] =
-    {
-        .name = _("Gokipon"),
-        .itemId = ITEM_CARD_GOKIPON,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GOLEM_SENTRY] =
-    {
-        .name = _("GolemSentry"),
-        .itemId = ITEM_CARD_GOLEM_SENTRY,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GORA_TURTLE] =
-    {
-        .name = _("GoraTurtle"),
-        .itemId = ITEM_CARD_GORA_TURTLE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GRACEFUL_CHARITY] =
-    {
-        .name = _("GracefulChari"),
-        .itemId = ITEM_CARD_GRACEFUL_CHARITY,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GRAVEKEEPER_S_ASSAILANT] =
-    {
-        .name = _("GravekeepersA"),
-        .itemId = ITEM_CARD_GRAVEKEEPER_S_ASSAILANT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GRAVEKEEPER_S_GUARD] =
-    {
-        .name = _("GravekeepersG"),
-        .itemId = ITEM_CARD_GRAVEKEEPER_S_GUARD,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GRAVEKEEPER_S_SPEAR_SOLDIER] =
-    {
-        .name = _("GravekeepersS"),
-        .itemId = ITEM_CARD_GRAVEKEEPER_S_SPEAR_SOLDIER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GRAVEKEEPER_S_SPY] =
-    {
-        .name = _("GravekeepersS"),
-        .itemId = ITEM_CARD_GRAVEKEEPER_S_SPY,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GRAVEKEEPER_S_WATCHER] =
-    {
-        .name = _("GravekeepersW"),
-        .itemId = ITEM_CARD_GRAVEKEEPER_S_WATCHER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GRAVITY_BIND] =
-    {
-        .name = _("GravityBind"),
-        .itemId = ITEM_CARD_GRAVITY_BIND,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GREAT_WHITE] =
-    {
-        .name = _("GreatWhite"),
-        .itemId = ITEM_CARD_GREAT_WHITE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GUARDIAN_SPHINX] =
-    {
-        .name = _("GuardianSphin"),
-        .itemId = ITEM_CARD_GUARDIAN_SPHINX,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GYAKU_GIRE_PANDA] =
-    {
-        .name = _("GyakuGirePand"),
-        .itemId = ITEM_CARD_GYAKU_GIRE_PANDA,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GYAKUTENNO_MEGAMI] =
-    {
-        .name = _("GyakutennoMeg"),
-        .itemId = ITEM_CARD_GYAKUTENNO_MEGAMI,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_HALLOWED_LIFE_BARRIER] =
-    {
-        .name = _("HallowedLifeB"),
-        .itemId = ITEM_CARD_HALLOWED_LIFE_BARRIER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_HANE_HANE] =
-    {
-        .name = _("HaneHane"),
-        .itemId = ITEM_CARD_HANE_HANE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_HARPIE_S_FEATHER_DUSTER] =
-    {
-        .name = _("HarpiesFeathe"),
-        .itemId = ITEM_CARD_HARPIE_S_FEATHER_DUSTER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_HEAVY_STORM] =
-    {
-        .name = _("HeavyStorm"),
-        .itemId = ITEM_CARD_HEAVY_STORM,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_HIERACOSPHINX] =
-    {
-        .name = _("Hieracosphinx"),
-        .itemId = ITEM_CARD_HIERACOSPHINX,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_HORN_OF_HEAVEN] =
-    {
-        .name = _("HornofHeaven"),
-        .itemId = ITEM_CARD_HORN_OF_HEAVEN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_HOWLING_INSECT] =
-    {
-        .name = _("HowlingInsect"),
-        .itemId = ITEM_CARD_HOWLING_INSECT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_HUMANOID_SLIME] =
-    {
-        .name = _("HumanoidSlime"),
-        .itemId = ITEM_CARD_HUMANOID_SLIME,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_HYDROGEDDON] =
-    {
-        .name = _("Hydrogeddon"),
-        .itemId = ITEM_CARD_HYDROGEDDON,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_HYPER_HAMMERHEAD] =
-    {
-        .name = _("HyperHammerhe"),
-        .itemId = ITEM_CARD_HYPER_HAMMERHEAD,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_IMPERIAL_ORDER] =
-    {
-        .name = _("ImperialOrder"),
-        .itemId = ITEM_CARD_IMPERIAL_ORDER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_INABA_WHITE_RABBIT] =
-    {
-        .name = _("InabaWhiteRab"),
-        .itemId = ITEM_CARD_INABA_WHITE_RABBIT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_INDOMITABLE_FIGHTER_LEI_LEI] =
-    {
-        .name = _("IndomitableFi"),
-        .itemId = ITEM_CARD_INDOMITABLE_FIGHTER_LEI_LEI,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_INJECTION_FAIRY_LILY] =
-    {
-        .name = _("InjectionFair"),
-        .itemId = ITEM_CARD_INJECTION_FAIRY_LILY,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_INPACHI] =
-    {
-        .name = _("Inpachi"),
-        .itemId = ITEM_CARD_INPACHI,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_INSECT_KNIGHT] =
-    {
-        .name = _("InsectKnight"),
-        .itemId = ITEM_CARD_INSECT_KNIGHT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ISLAND_TURTLE] =
-    {
-        .name = _("IslandTurtle"),
-        .itemId = ITEM_CARD_ISLAND_TURTLE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_JAR_OF_GREED] =
-    {
-        .name = _("JarofGreed"),
-        .itemId = ITEM_CARD_JAR_OF_GREED,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_JINZO] =
-    {
-        .name = _("Jinzo"),
-        .itemId = ITEM_CARD_JINZO,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_JIRAI_GUMO] =
-    {
-        .name = _("JiraiGumo"),
-        .itemId = ITEM_CARD_JIRAI_GUMO,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_JOWGEN_THE_SPIRITUALIST] =
-    {
-        .name = _("JowgentheSpir"),
-        .itemId = ITEM_CARD_JOWGEN_THE_SPIRITUALIST,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_JUDGE_MAN] =
-    {
-        .name = _("JudgeMan"),
-        .itemId = ITEM_CARD_JUDGE_MAN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_JUST_DESSERTS] =
-    {
-        .name = _("JustDesserts"),
-        .itemId = ITEM_CARD_JUST_DESSERTS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_KAISER_SEA_HORSE] =
-    {
-        .name = _("KaiserSeaHors"),
-        .itemId = ITEM_CARD_KAISER_SEA_HORSE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_KARMA_CUT] =
-    {
-        .name = _("KarmaCut"),
-        .itemId = ITEM_CARD_KARMA_CUT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_KING_DRAGUN] =
-    {
-        .name = _("KingDragun"),
-        .itemId = ITEM_CARD_KING_DRAGUN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_KING_OF_THE_SWAMP] =
-    {
-        .name = _("KingoftheSwam"),
-        .itemId = ITEM_CARD_KING_OF_THE_SWAMP,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_KING_TIGER_WANGHU] =
-    {
-        .name = _("KingTigerWang"),
-        .itemId = ITEM_CARD_KING_TIGER_WANGHU,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_KURIBOH] =
-    {
-        .name = _("Kuriboh"),
-        .itemId = ITEM_CARD_KURIBOH,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_KYCOO_THE_GHOST_DESTROYER] =
-    {
-        .name = _("KycootheGhost"),
-        .itemId = ITEM_CARD_KYCOO_THE_GHOST_DESTROYER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP] =
-    {
-        .name = _("LaJinntheMyst"),
-        .itemId = ITEM_CARD_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_LABYRINTH_TANK] =
-    {
-        .name = _("LabyrinthTank"),
-        .itemId = ITEM_CARD_LABYRINTH_TANK,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_LADY_NINJA_YAE] =
-    {
-        .name = _("LadyNinjaYae"),
-        .itemId = ITEM_CARD_LADY_NINJA_YAE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_LAST_WILL] =
-    {
-        .name = _("LastWill"),
-        .itemId = ITEM_CARD_LAST_WILL,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_LEFT_ARM_OF_THE_FORBIDDEN_ONE] =
-    {
-        .name = _("LeftArmoftheF"),
-        .itemId = ITEM_CARD_LEFT_ARM_OF_THE_FORBIDDEN_ONE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_LEFT_LEG_OF_THE_FORBIDDEN_ONE] =
-    {
-        .name = _("LeftLegoftheF"),
-        .itemId = ITEM_CARD_LEFT_LEG_OF_THE_FORBIDDEN_ONE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_LEGENDARY_JUJITSU_MASTER] =
-    {
-        .name = _("LegendaryJuji"),
-        .itemId = ITEM_CARD_LEGENDARY_JUJITSU_MASTER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_LEVEL_LIMIT_AREA_B] =
-    {
-        .name = _("LevelLimitAre"),
-        .itemId = ITEM_CARD_LEVEL_LIMIT_AREA_B,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_LEVIA_DRAGON_DAEDALUS] =
-    {
-        .name = _("LeviaDragonDa"),
-        .itemId = ITEM_CARD_LEVIA_DRAGON_DAEDALUS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_LIGHT_OF_INTERVENTION] =
-    {
-        .name = _("LightofInterv"),
-        .itemId = ITEM_CARD_LIGHT_OF_INTERVENTION,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_LIGHTNING_VORTEX] =
-    {
-        .name = _("LightningVort"),
-        .itemId = ITEM_CARD_LIGHTNING_VORTEX,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_LIMITER_REMOVAL] =
-    {
-        .name = _("LimiterRemova"),
-        .itemId = ITEM_CARD_LIMITER_REMOVAL,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_LUSTER_DRAGON] =
-    {
-        .name = _("LusterDragon"),
-        .itemId = ITEM_CARD_LUSTER_DRAGON,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MAD_DOG_OF_DARKNESS] =
-    {
-        .name = _("MadDogofDarkn"),
-        .itemId = ITEM_CARD_MAD_DOG_OF_DARKNESS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MAGE_POWER] =
-    {
-        .name = _("MagePower"),
-        .itemId = ITEM_CARD_MAGE_POWER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MAGIC_CYLINDER] =
-    {
-        .name = _("MagicCylinder"),
-        .itemId = ITEM_CARD_MAGIC_CYLINDER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MAGIC_JAMMER] =
-    {
-        .name = _("MagicJammer"),
-        .itemId = ITEM_CARD_MAGIC_JAMMER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MAGICAL_DIMENSION] =
-    {
-        .name = _("MagicalDimens"),
-        .itemId = ITEM_CARD_MAGICAL_DIMENSION,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MAGICAL_MERCHANT] =
-    {
-        .name = _("MagicalMercha"),
-        .itemId = ITEM_CARD_MAGICAL_MERCHANT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MAGICAL_SCIENTIST] =
-    {
-        .name = _("MagicalScient"),
-        .itemId = ITEM_CARD_MAGICAL_SCIENTIST,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MAGICIAN_OF_FAITH] =
-    {
-        .name = _("MagicianofFai"),
-        .itemId = ITEM_CARD_MAGICIAN_OF_FAITH,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MAGICIAN_S_CIRCLE] =
-    {
-        .name = _("MagiciansCirc"),
-        .itemId = ITEM_CARD_MAGICIAN_S_CIRCLE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MAGICIAN_S_VALKYRIA] =
-    {
-        .name = _("MagiciansValk"),
-        .itemId = ITEM_CARD_MAGICIAN_S_VALKYRIA,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MAIDEN_OF_THE_AQUA] =
-    {
-        .name = _("MaidenoftheAq"),
-        .itemId = ITEM_CARD_MAIDEN_OF_THE_AQUA,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MAKYURA_THE_DESTRUCTOR] =
-    {
-        .name = _("MakyuratheDes"),
-        .itemId = ITEM_CARD_MAKYURA_THE_DESTRUCTOR,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MAN_EATER_BUG] =
-    {
-        .name = _("ManEaterBug"),
-        .itemId = ITEM_CARD_MAN_EATER_BUG,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MANJU_OF_THE_TEN_THOUSAND_HANDS] =
-    {
-        .name = _("ManjuoftheTen"),
-        .itemId = ITEM_CARD_MANJU_OF_THE_TEN_THOUSAND_HANDS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MANTICORE_OF_DARKNESS] =
-    {
-        .name = _("ManticoreofDa"),
-        .itemId = ITEM_CARD_MANTICORE_OF_DARKNESS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MARAUDING_CAPTAIN] =
-    {
-        .name = _("MaraudingCapt"),
-        .itemId = ITEM_CARD_MARAUDING_CAPTAIN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MASK_OF_DARKNESS] =
-    {
-        .name = _("MaskofDarknes"),
-        .itemId = ITEM_CARD_MASK_OF_DARKNESS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MASK_OF_RESTRICT] =
-    {
-        .name = _("MaskofRestric"),
-        .itemId = ITEM_CARD_MASK_OF_RESTRICT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MASKED_DRAGON] =
-    {
-        .name = _("MaskedDragon"),
-        .itemId = ITEM_CARD_MASKED_DRAGON,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MASKED_SORCERER] =
-    {
-        .name = _("MaskedSorcere"),
-        .itemId = ITEM_CARD_MASKED_SORCERER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MATAZA_THE_ZAPPER] =
-    {
-        .name = _("MatazatheZapp"),
-        .itemId = ITEM_CARD_MATAZA_THE_ZAPPER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MECHANICALCHASER] =
-    {
-        .name = _("Mechanicalcha"),
-        .itemId = ITEM_CARD_MECHANICALCHASER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MEGAMORPH] =
-    {
-        .name = _("Megamorph"),
-        .itemId = ITEM_CARD_MEGAMORPH,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MERMAID_KNIGHT] =
-    {
-        .name = _("MermaidKnight"),
-        .itemId = ITEM_CARD_MERMAID_KNIGHT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MESSENGER_OF_PEACE] =
-    {
-        .name = _("MessengerofPe"),
-        .itemId = ITEM_CARD_MESSENGER_OF_PEACE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_METAL_REFLECT_SLIME] =
-    {
-        .name = _("MetalReflectS"),
-        .itemId = ITEM_CARD_METAL_REFLECT_SLIME,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_METAMORPHOSIS] =
-    {
-        .name = _("Metamorphosis"),
-        .itemId = ITEM_CARD_METAMORPHOSIS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MILUS_RADIANT] =
-    {
-        .name = _("MilusRadiant"),
-        .itemId = ITEM_CARD_MILUS_RADIANT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MINAR] =
-    {
-        .name = _("Minar"),
-        .itemId = ITEM_CARD_MINAR,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MIND_CONTROL] =
-    {
-        .name = _("MindControl"),
-        .itemId = ITEM_CARD_MIND_CONTROL,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MINE_GOLEM] =
-    {
-        .name = _("MineGolem"),
-        .itemId = ITEM_CARD_MINE_GOLEM,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MIRACLE_RESTORING] =
-    {
-        .name = _("MiracleRestor"),
-        .itemId = ITEM_CARD_MIRACLE_RESTORING,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MIRAGE_DRAGON] =
-    {
-        .name = _("MirageDragon"),
-        .itemId = ITEM_CARD_MIRAGE_DRAGON,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MIRAGE_OF_NIGHTMARE] =
-    {
-        .name = _("MirageofNight"),
-        .itemId = ITEM_CARD_MIRAGE_OF_NIGHTMARE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MIRROR_FORCE] =
-    {
-        .name = _("MirrorForce"),
-        .itemId = ITEM_CARD_MIRROR_FORCE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MOAI_INTERCEPTOR_CANNONS] =
-    {
-        .name = _("MoaiIntercept"),
-        .itemId = ITEM_CARD_MOAI_INTERCEPTOR_CANNONS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MOBIUS_THE_FROST_MONARCH] =
-    {
-        .name = _("MobiustheFros"),
-        .itemId = ITEM_CARD_MOBIUS_THE_FROST_MONARCH,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MONSTER_GATE] =
-    {
-        .name = _("MonsterGate"),
-        .itemId = ITEM_CARD_MONSTER_GATE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MONSTER_REBORN] =
-    {
-        .name = _("MonsterReborn"),
-        .itemId = ITEM_CARD_MONSTER_REBORN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MONSTER_REINCARNATION] =
-    {
-        .name = _("MonsterReinca"),
-        .itemId = ITEM_CARD_MONSTER_REINCARNATION,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MORPHING_JAR] =
-    {
-        .name = _("MorphingJar"),
-        .itemId = ITEM_CARD_MORPHING_JAR,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MOTHER_GRIZZLY] =
-    {
-        .name = _("MotherGrizzly"),
-        .itemId = ITEM_CARD_MOTHER_GRIZZLY,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MUKA_MUKA] =
-    {
-        .name = _("MukaMuka"),
-        .itemId = ITEM_CARD_MUKA_MUKA,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MYSTIC_SWORDSMAN_LV2] =
-    {
-        .name = _("MysticSwordsm"),
-        .itemId = ITEM_CARD_MYSTIC_SWORDSMAN_LV2,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MYSTIC_SWORDSMAN_LV4] =
-    {
-        .name = _("MysticSwordsm"),
-        .itemId = ITEM_CARD_MYSTIC_SWORDSMAN_LV4,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MYSTIC_TOMATO] =
-    {
-        .name = _("MysticTomato"),
-        .itemId = ITEM_CARD_MYSTIC_TOMATO,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MYSTICAL_ELF] =
-    {
-        .name = _("MysticalElf"),
-        .itemId = ITEM_CARD_MYSTICAL_ELF,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MYSTICAL_SPACE_TYPHOON] =
-    {
-        .name = _("MysticalSpace"),
-        .itemId = ITEM_CARD_MYSTICAL_SPACE_TYPHOON,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MYSTIK_WOK] =
-    {
-        .name = _("MystikWok"),
-        .itemId = ITEM_CARD_MYSTIK_WOK,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_NECROVALLEY] =
-    {
-        .name = _("Necrovalley"),
-        .itemId = ITEM_CARD_NECROVALLEY,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_NEEDLE_CEILING] =
-    {
-        .name = _("NeedleCeiling"),
-        .itemId = ITEM_CARD_NEEDLE_CEILING,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_NEKO_MANE_KING] =
-    {
-        .name = _("NekoManeKing"),
-        .itemId = ITEM_CARD_NEKO_MANE_KING,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_NEO_BUG] =
-    {
-        .name = _("NeoBug"),
-        .itemId = ITEM_CARD_NEO_BUG,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_NEO_THE_MAGIC_SWORDSMAN] =
-    {
-        .name = _("NeotheMagicSw"),
-        .itemId = ITEM_CARD_NEO_THE_MAGIC_SWORDSMAN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_NEWDORIA] =
-    {
-        .name = _("Newdoria"),
-        .itemId = ITEM_CARD_NEWDORIA,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_NIGHT_ASSAILANT] =
-    {
-        .name = _("NightAssailan"),
-        .itemId = ITEM_CARD_NIGHT_ASSAILANT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_NIGHTMARE_WHEEL] =
-    {
-        .name = _("NightmareWhee"),
-        .itemId = ITEM_CARD_NIGHTMARE_WHEEL,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_NIGHTMARE_S_STEELCAGE] =
-    {
-        .name = _("NightmaresSte"),
-        .itemId = ITEM_CARD_NIGHTMARE_S_STEELCAGE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_NIMBLE_MOMONGA] =
-    {
-        .name = _("NimbleMomonga"),
-        .itemId = ITEM_CARD_NIMBLE_MOMONGA,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_NIN_KEN_DOG] =
-    {
-        .name = _("NinKenDog"),
-        .itemId = ITEM_CARD_NIN_KEN_DOG,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_NINJA_GRANDMASTER_SASUKE] =
-    {
-        .name = _("NinjaGrandmas"),
-        .itemId = ITEM_CARD_NINJA_GRANDMASTER_SASUKE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_NOBLEMAN_OF_CROSSOUT] =
-    {
-        .name = _("NoblemanofCro"),
-        .itemId = ITEM_CARD_NOBLEMAN_OF_CROSSOUT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_NOBLEMAN_OF_EXTERMINATION] =
-    {
-        .name = _("NoblemanofExt"),
-        .itemId = ITEM_CARD_NOBLEMAN_OF_EXTERMINATION,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_OFFERINGS_TO_THE_DOOMED] =
-    {
-        .name = _("Offeringstoth"),
-        .itemId = ITEM_CARD_OFFERINGS_TO_THE_DOOMED,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_OJAMA_KING] =
-    {
-        .name = _("OjamaKing"),
-        .itemId = ITEM_CARD_OJAMA_KING,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_OJAMA_TRIO] =
-    {
-        .name = _("OjamaTrio"),
-        .itemId = ITEM_CARD_OJAMA_TRIO,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_OOKAZI] =
-    {
-        .name = _("Ookazi"),
-        .itemId = ITEM_CARD_OOKAZI,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_OPPRESSED_PEOPLE] =
-    {
-        .name = _("OppressedPeop"),
-        .itemId = ITEM_CARD_OPPRESSED_PEOPLE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_OPTICLOPS] =
-    {
-        .name = _("Opticlops"),
-        .itemId = ITEM_CARD_OPTICLOPS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_PAINFUL_CHOICE] =
-    {
-        .name = _("PainfulChoice"),
-        .itemId = ITEM_CARD_PAINFUL_CHOICE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_PALADIN_OF_WHITE_DRAGON] =
-    {
-        .name = _("PaladinofWhit"),
-        .itemId = ITEM_CARD_PALADIN_OF_WHITE_DRAGON,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_PENGUIN_KNIGHT] =
-    {
-        .name = _("PenguinKnight"),
-        .itemId = ITEM_CARD_PENGUIN_KNIGHT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_PHOENIX_WING_WIND_BLAST] =
-    {
-        .name = _("PhoenixWingWi"),
-        .itemId = ITEM_CARD_PHOENIX_WING_WIND_BLAST,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_PIKERU_S_CIRCLE_OF_ENCHANTMENT] =
-    {
-        .name = _("PikerusCircle"),
-        .itemId = ITEM_CARD_PIKERU_S_CIRCLE_OF_ENCHANTMENT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_PINCH_HOPPER] =
-    {
-        .name = _("PinchHopper"),
-        .itemId = ITEM_CARD_PINCH_HOPPER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_PITCH_BLACK_POWER_STONE] =
-    {
-        .name = _("PitchBlackPow"),
-        .itemId = ITEM_CARD_PITCH_BLACK_POWER_STONE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_POISON_OF_THE_OLD_MAN] =
-    {
-        .name = _("PoisonoftheOl"),
-        .itemId = ITEM_CARD_POISON_OF_THE_OLD_MAN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_POLYMERIZATION] =
-    {
-        .name = _("Polymerizatio"),
-        .itemId = ITEM_CARD_POLYMERIZATION,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_POT_OF_AVARICE] =
-    {
-        .name = _("PotofAvarice"),
-        .itemId = ITEM_CARD_POT_OF_AVARICE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_POT_OF_GENEROSITY] =
-    {
-        .name = _("PotofGenerosi"),
-        .itemId = ITEM_CARD_POT_OF_GENEROSITY,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_POT_OF_GREED] =
-    {
-        .name = _("PotofGreed"),
-        .itemId = ITEM_CARD_POT_OF_GREED,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_PREMATURE_BURIAL] =
-    {
-        .name = _("PrematureBuri"),
-        .itemId = ITEM_CARD_PREMATURE_BURIAL,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_PREVENT_RAT] =
-    {
-        .name = _("PreventRat"),
-        .itemId = ITEM_CARD_PREVENT_RAT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_PRICKLE_FAIRY] =
-    {
-        .name = _("PrickleFairy"),
-        .itemId = ITEM_CARD_PRICKLE_FAIRY,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_PRINCESS_OF_TSURUGI] =
-    {
-        .name = _("PrincessofTsu"),
-        .itemId = ITEM_CARD_PRINCESS_OF_TSURUGI,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_PROTECTOR_OF_THE_SANCTUARY] =
-    {
-        .name = _("Protectorofth"),
-        .itemId = ITEM_CARD_PROTECTOR_OF_THE_SANCTUARY,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_PYRAMID_TURTLE] =
-    {
-        .name = _("PyramidTurtle"),
-        .itemId = ITEM_CARD_PYRAMID_TURTLE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_RAIGEKI] =
-    {
-        .name = _("Raigeki"),
-        .itemId = ITEM_CARD_RAIGEKI,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_RAIGEKI_BREAK] =
-    {
-        .name = _("RaigekiBreak"),
-        .itemId = ITEM_CARD_RAIGEKI_BREAK,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_REAPER_ON_THE_NIGHTMARE] =
-    {
-        .name = _("ReaperontheNi"),
-        .itemId = ITEM_CARD_REAPER_ON_THE_NIGHTMARE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_REASONING] =
-    {
-        .name = _("Reasoning"),
-        .itemId = ITEM_CARD_REASONING,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_RECKLESS_GREED] =
-    {
-        .name = _("RecklessGreed"),
-        .itemId = ITEM_CARD_RECKLESS_GREED,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_REFLECT_BOUNDER] =
-    {
-        .name = _("ReflectBounde"),
-        .itemId = ITEM_CARD_REFLECT_BOUNDER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_REINFORCEMENT_OF_THE_ARMY] =
-    {
-        .name = _("Reinforcement"),
-        .itemId = ITEM_CARD_REINFORCEMENT_OF_THE_ARMY,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_REINFORCEMENTS] =
-    {
-        .name = _("Reinforcement"),
-        .itemId = ITEM_CARD_REINFORCEMENTS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_RELINQUISHED] =
-    {
-        .name = _("Relinquished"),
-        .itemId = ITEM_CARD_RELINQUISHED,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_RELOAD] =
-    {
-        .name = _("Reload"),
-        .itemId = ITEM_CARD_RELOAD,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_REMOVE_TRAP] =
-    {
-        .name = _("RemoveTrap"),
-        .itemId = ITEM_CARD_REMOVE_TRAP,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_RESCUE_CAT] =
-    {
-        .name = _("RescueCat"),
-        .itemId = ITEM_CARD_RESCUE_CAT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_RETURN_FROM_THE_DIFFERENT_DIMENSION] =
-    {
-        .name = _("Returnfromthe"),
-        .itemId = ITEM_CARD_RETURN_FROM_THE_DIFFERENT_DIMENSION,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_RIGHT_ARM_OF_THE_FORBIDDEN_ONE] =
-    {
-        .name = _("RightArmofthe"),
-        .itemId = ITEM_CARD_RIGHT_ARM_OF_THE_FORBIDDEN_ONE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_RIGHT_LEG_OF_THE_FORBIDDEN_ONE] =
-    {
-        .name = _("RightLegofthe"),
-        .itemId = ITEM_CARD_RIGHT_LEG_OF_THE_FORBIDDEN_ONE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_RING_OF_DESTRUCTION] =
-    {
-        .name = _("RingofDestruc"),
-        .itemId = ITEM_CARD_RING_OF_DESTRUCTION,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_RISING_AIR_CURRENT] =
-    {
-        .name = _("RisingAirCurr"),
-        .itemId = ITEM_CARD_RISING_AIR_CURRENT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ROBBIN_GOBLIN] =
-    {
-        .name = _("RobbinGoblin"),
-        .itemId = ITEM_CARD_ROBBIN_GOBLIN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ROULETTE_BARREL] =
-    {
-        .name = _("RouletteBarre"),
-        .itemId = ITEM_CARD_ROULETTE_BARREL,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ROYAL_DECREE] =
-    {
-        .name = _("RoyalDecree"),
-        .itemId = ITEM_CARD_ROYAL_DECREE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ROYAL_MAGICAL_LIBRARY] =
-    {
-        .name = _("RoyalMagicalL"),
-        .itemId = ITEM_CARD_ROYAL_MAGICAL_LIBRARY,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ROYAL_OPPRESSION] =
-    {
-        .name = _("RoyalOppressi"),
-        .itemId = ITEM_CARD_ROYAL_OPPRESSION,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_RUSH_RECKLESSLY] =
-    {
-        .name = _("RushRecklessl"),
-        .itemId = ITEM_CARD_RUSH_RECKLESSLY,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_RYU_KOKKI] =
-    {
-        .name = _("RyuKokki"),
-        .itemId = ITEM_CARD_RYU_KOKKI,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SABER_BEETLE] =
-    {
-        .name = _("SaberBeetle"),
-        .itemId = ITEM_CARD_SABER_BEETLE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SACRED_CRANE] =
-    {
-        .name = _("SacredCrane"),
-        .itemId = ITEM_CARD_SACRED_CRANE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SACRED_PHOENIX_OF_NEPHTHYS] =
-    {
-        .name = _("SacredPhoenix"),
-        .itemId = ITEM_CARD_SACRED_PHOENIX_OF_NEPHTHYS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SAKURETSU_ARMOR] =
-    {
-        .name = _("SakuretsuArmo"),
-        .itemId = ITEM_CARD_SAKURETSU_ARMOR,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SALVAGE] =
-    {
-        .name = _("Salvage"),
-        .itemId = ITEM_CARD_SALVAGE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SAND_MOTH] =
-    {
-        .name = _("SandMoth"),
-        .itemId = ITEM_CARD_SAND_MOTH,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SANGAN] =
-    {
-        .name = _("Sangan"),
-        .itemId = ITEM_CARD_SANGAN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SASUKE_SAMURAI] =
-    {
-        .name = _("SasukeSamurai"),
-        .itemId = ITEM_CARD_SASUKE_SAMURAI,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SASUKE_SAMURAI_4] =
-    {
-        .name = _("SasukeSamurai"),
-        .itemId = ITEM_CARD_SASUKE_SAMURAI_4,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SCAPEGOAT] =
-    {
-        .name = _("Scapegoat"),
-        .itemId = ITEM_CARD_SCAPEGOAT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SEA_SERPENT_WARRIOR_OF_DARKNESS] =
-    {
-        .name = _("SeaSerpentWar"),
-        .itemId = ITEM_CARD_SEA_SERPENT_WARRIOR_OF_DARKNESS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SECOND_COIN_TOSS] =
-    {
-        .name = _("SecondCoinTos"),
-        .itemId = ITEM_CARD_SECOND_COIN_TOSS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SECRET_BARREL] =
-    {
-        .name = _("SecretBarrel"),
-        .itemId = ITEM_CARD_SECRET_BARREL,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SELF_DESTRUCT_BUTTON] =
-    {
-        .name = _("SelfDestructB"),
-        .itemId = ITEM_CARD_SELF_DESTRUCT_BUTTON,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SERIAL_SPELL] =
-    {
-        .name = _("SerialSpell"),
-        .itemId = ITEM_CARD_SERIAL_SPELL,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SERPENTINE_PRINCESS] =
-    {
-        .name = _("SerpentinePri"),
-        .itemId = ITEM_CARD_SERPENTINE_PRINCESS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT] =
-    {
-        .name = _("SevenToolsoft"),
-        .itemId = ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SHINING_ANGEL] =
-    {
-        .name = _("ShiningAngel"),
-        .itemId = ITEM_CARD_SHINING_ANGEL,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SHRINK] =
-    {
-        .name = _("Shrink"),
-        .itemId = ITEM_CARD_SHRINK,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SILLVA_WARLORD_OF_DARK_WORLD] =
-    {
-        .name = _("SillvaWarlord"),
-        .itemId = ITEM_CARD_SILLVA_WARLORD_OF_DARK_WORLD,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SILPHEED] =
-    {
-        .name = _("Silpheed"),
-        .itemId = ITEM_CARD_SILPHEED,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SINISTER_SERPENT] =
-    {
-        .name = _("SinisterSerpe"),
-        .itemId = ITEM_CARD_SINISTER_SERPENT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SKILL_DRAIN] =
-    {
-        .name = _("SkillDrain"),
-        .itemId = ITEM_CARD_SKILL_DRAIN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SKILLED_DARK_MAGICIAN] =
-    {
-        .name = _("SkilledDarkMa"),
-        .itemId = ITEM_CARD_SKILLED_DARK_MAGICIAN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SKILLED_WHITE_MAGICIAN] =
-    {
-        .name = _("SkilledWhiteM"),
-        .itemId = ITEM_CARD_SKILLED_WHITE_MAGICIAN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SKULL_DOG_MARRON] =
-    {
-        .name = _("SkullDogMarro"),
-        .itemId = ITEM_CARD_SKULL_DOG_MARRON,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SKULL_LAIR] =
-    {
-        .name = _("SkullLair"),
-        .itemId = ITEM_CARD_SKULL_LAIR,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SKY_SCOUT] =
-    {
-        .name = _("SkyScout"),
-        .itemId = ITEM_CARD_SKY_SCOUT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SLATE_WARRIOR] =
-    {
-        .name = _("SlateWarrior"),
-        .itemId = ITEM_CARD_SLATE_WARRIOR,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SMASHING_GROUND] =
-    {
-        .name = _("SmashingGroun"),
-        .itemId = ITEM_CARD_SMASHING_GROUND,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SNATCH_STEAL] =
-    {
-        .name = _("SnatchSteal"),
-        .itemId = ITEM_CARD_SNATCH_STEAL,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SOLEMN_JUDGMENT] =
-    {
-        .name = _("SolemnJudgmen"),
-        .itemId = ITEM_CARD_SOLEMN_JUDGMENT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SOLEMN_WISHES] =
-    {
-        .name = _("SolemnWishes"),
-        .itemId = ITEM_CARD_SOLEMN_WISHES,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SOUL_EXCHANGE] =
-    {
-        .name = _("SoulExchange"),
-        .itemId = ITEM_CARD_SOUL_EXCHANGE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SOUL_TIGER] =
-    {
-        .name = _("SoulTiger"),
-        .itemId = ITEM_CARD_SOUL_TIGER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SPEAR_CRETIN] =
-    {
-        .name = _("SpearCretin"),
-        .itemId = ITEM_CARD_SPEAR_CRETIN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SPEAR_DRAGON] =
-    {
-        .name = _("SpearDragon"),
-        .itemId = ITEM_CARD_SPEAR_DRAGON,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SPELL_CANCELLER] =
-    {
-        .name = _("SpellCancelle"),
-        .itemId = ITEM_CARD_SPELL_CANCELLER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SPELL_REPRODUCTION] =
-    {
-        .name = _("SpellReproduc"),
-        .itemId = ITEM_CARD_SPELL_REPRODUCTION,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SPIRIT_OF_THE_HARP] =
-    {
-        .name = _("SpiritoftheHa"),
-        .itemId = ITEM_CARD_SPIRIT_OF_THE_HARP,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SPIRIT_REAPER] =
-    {
-        .name = _("SpiritReaper"),
-        .itemId = ITEM_CARD_SPIRIT_REAPER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SPIRITUAL_EARTH_ART_KUROGANE] =
-    {
-        .name = _("SpiritualEart"),
-        .itemId = ITEM_CARD_SPIRITUAL_EARTH_ART_KUROGANE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SPIRITUAL_WATER_ART_AOI] =
-    {
-        .name = _("SpiritualWate"),
-        .itemId = ITEM_CARD_SPIRITUAL_WATER_ART_AOI,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SPIRITUAL_WIND_ART_MIYABI] =
-    {
-        .name = _("SpiritualWind"),
-        .itemId = ITEM_CARD_SPIRITUAL_WIND_ART_MIYABI,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SPIRITUALISM] =
-    {
-        .name = _("Spiritualism"),
-        .itemId = ITEM_CARD_SPIRITUALISM,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_STEALTH_BIRD] =
-    {
-        .name = _("StealthBird"),
-        .itemId = ITEM_CARD_STEALTH_BIRD,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_STONE_STATUE_OF_THE_AZTECS] =
-    {
-        .name = _("StoneStatueof"),
-        .itemId = ITEM_CARD_STONE_STATUE_OF_THE_AZTECS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_STOP_DEFENSE] =
-    {
-        .name = _("StopDefense"),
-        .itemId = ITEM_CARD_STOP_DEFENSE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SUMMONED_SKULL] =
-    {
-        .name = _("SummonedSkull"),
-        .itemId = ITEM_CARD_SUMMONED_SKULL,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SWARM_OF_LOCUSTS] =
-    {
-        .name = _("SwarmofLocust"),
-        .itemId = ITEM_CARD_SWARM_OF_LOCUSTS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SWARM_OF_SCARABS] =
-    {
-        .name = _("SwarmofScarab"),
-        .itemId = ITEM_CARD_SWARM_OF_SCARABS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SWORDS_OF_REVEALING_LIGHT] =
-    {
-        .name = _("SwordsofRevea"),
-        .itemId = ITEM_CARD_SWORDS_OF_REVEALING_LIGHT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TERRAFORMING] =
-    {
-        .name = _("Terraforming"),
-        .itemId = ITEM_CARD_TERRAFORMING,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_THE_BIG_MARCH_OF_ANIMALS] =
-    {
-        .name = _("TheBigMarchof"),
-        .itemId = ITEM_CARD_THE_BIG_MARCH_OF_ANIMALS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_THE_DRAGON_DWELLING_IN_THE_CAVE] =
-    {
-        .name = _("TheDragonDwel"),
-        .itemId = ITEM_CARD_THE_DRAGON_DWELLING_IN_THE_CAVE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_THE_FIEND_MEGACYBER] =
-    {
-        .name = _("TheFiendMegac"),
-        .itemId = ITEM_CARD_THE_FIEND_MEGACYBER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_THE_FORCEFUL_SENTRY] =
-    {
-        .name = _("TheForcefulSe"),
-        .itemId = ITEM_CARD_THE_FORCEFUL_SENTRY,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_THE_FORGIVING_MAIDEN] =
-    {
-        .name = _("TheForgivingM"),
-        .itemId = ITEM_CARD_THE_FORGIVING_MAIDEN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET] =
-    {
-        .name = _("TheLastWarrio"),
-        .itemId = ITEM_CARD_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_THE_LITTLE_SWORDSMAN_OF_AILE] =
-    {
-        .name = _("TheLittleSwor"),
-        .itemId = ITEM_CARD_THE_LITTLE_SWORDSMAN_OF_AILE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_THE_WICKED_WORM_BEAST] =
-    {
-        .name = _("TheWickedWorm"),
-        .itemId = ITEM_CARD_THE_WICKED_WORM_BEAST,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH] =
-    {
-        .name = _("ThestalostheF"),
-        .itemId = ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_THOUSAND_EYES_RESTRICT] =
-    {
-        .name = _("ThousandEyesR"),
-        .itemId = ITEM_CARD_THOUSAND_EYES_RESTRICT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_THREATENING_ROAR] =
-    {
-        .name = _("ThreateningRo"),
-        .itemId = ITEM_CARD_THREATENING_ROAR,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_THROWSTONE_UNIT] =
-    {
-        .name = _("ThrowstoneUni"),
-        .itemId = ITEM_CARD_THROWSTONE_UNIT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_THUNDER_DRAGON] =
-    {
-        .name = _("ThunderDragon"),
-        .itemId = ITEM_CARD_THUNDER_DRAGON,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_THUNDER_NYAN_NYAN] =
-    {
-        .name = _("ThunderNyanNy"),
-        .itemId = ITEM_CARD_THUNDER_NYAN_NYAN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TIME_SEAL] =
-    {
-        .name = _("TimeSeal"),
-        .itemId = ITEM_CARD_TIME_SEAL,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TOON_CANNON_SOLDIER] =
-    {
-        .name = _("ToonCannonSol"),
-        .itemId = ITEM_CARD_TOON_CANNON_SOLDIER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TOON_DARK_MAGICIAN_GIRL] =
-    {
-        .name = _("ToonDarkMagic"),
-        .itemId = ITEM_CARD_TOON_DARK_MAGICIAN_GIRL,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TOON_GEMINI_ELF] =
-    {
-        .name = _("ToonGeminiElf"),
-        .itemId = ITEM_CARD_TOON_GEMINI_ELF,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TOON_GOBLIN_ATTACK_FORCE] =
-    {
-        .name = _("ToonGoblinAtt"),
-        .itemId = ITEM_CARD_TOON_GOBLIN_ATTACK_FORCE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TOON_MASKED_SORCERER] =
-    {
-        .name = _("ToonMaskedSor"),
-        .itemId = ITEM_CARD_TOON_MASKED_SORCERER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TOON_TABLE_OF_CONTENTS] =
-    {
-        .name = _("ToonTableofCo"),
-        .itemId = ITEM_CARD_TOON_TABLE_OF_CONTENTS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TORRENTIAL_TRIBUTE] =
-    {
-        .name = _("TorrentialTri"),
-        .itemId = ITEM_CARD_TORRENTIAL_TRIBUTE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TRAP_DUSTSHOOT] =
-    {
-        .name = _("TrapDustshoot"),
-        .itemId = ITEM_CARD_TRAP_DUSTSHOOT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TRAP_HOLE] =
-    {
-        .name = _("TrapHole"),
-        .itemId = ITEM_CARD_TRAP_HOLE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TRAP_MASTER] =
-    {
-        .name = _("TrapMaster"),
-        .itemId = ITEM_CARD_TRAP_MASTER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TREEBORN_FROG] =
-    {
-        .name = _("TreebornFrog"),
-        .itemId = ITEM_CARD_TREEBORN_FROG,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TREMENDOUS_FIRE] =
-    {
-        .name = _("TremendousFir"),
-        .itemId = ITEM_CARD_TREMENDOUS_FIRE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TRIBE_INFECTING_VIRUS] =
-    {
-        .name = _("TribeInfectin"),
-        .itemId = ITEM_CARD_TRIBE_INFECTING_VIRUS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TRIBUTE_TO_THE_DOOMED] =
-    {
-        .name = _("TributetotheD"),
-        .itemId = ITEM_CARD_TRIBUTE_TO_THE_DOOMED,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TSUKUYOMI] =
-    {
-        .name = _("Tsukuyomi"),
-        .itemId = ITEM_CARD_TSUKUYOMI,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TWIN_HEADED_BEHEMOTH] =
-    {
-        .name = _("TwinHeadedBeh"),
-        .itemId = ITEM_CARD_TWIN_HEADED_BEHEMOTH,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TWIN_HEADED_THUNDER_DRAGON] =
-    {
-        .name = _("TwinHeadedThu"),
-        .itemId = ITEM_CARD_TWIN_HEADED_THUNDER_DRAGON,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ULTIMATE_INSECT_LV3] =
-    {
-        .name = _("UltimateInsec"),
-        .itemId = ITEM_CARD_ULTIMATE_INSECT_LV3,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ULTIMATE_INSECT_LV5] =
-    {
-        .name = _("UltimateInsec"),
-        .itemId = ITEM_CARD_ULTIMATE_INSECT_LV5,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ULTIMATE_INSECT_LV7] =
-    {
-        .name = _("UltimateInsec"),
-        .itemId = ITEM_CARD_ULTIMATE_INSECT_LV7,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ULTIMATE_OFFERING] =
-    {
-        .name = _("UltimateOffer"),
-        .itemId = ITEM_CARD_ULTIMATE_OFFERING,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_UNITED_WE_STAND] =
-    {
-        .name = _("UnitedWeStand"),
-        .itemId = ITEM_CARD_UNITED_WE_STAND,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_UPSTART_GOBLIN] =
-    {
-        .name = _("UpstartGoblin"),
-        .itemId = ITEM_CARD_UPSTART_GOBLIN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_VAMPIRE_LORD] =
-    {
-        .name = _("VampireLord"),
-        .itemId = ITEM_CARD_VAMPIRE_LORD,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_VORSE_RAIDER] =
-    {
-        .name = _("VorseRaider"),
-        .itemId = ITEM_CARD_VORSE_RAIDER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_WABOKU] =
-    {
-        .name = _("Waboku"),
-        .itemId = ITEM_CARD_WABOKU,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_WALL_OF_ILLUSION] =
-    {
-        .name = _("WallofIllusio"),
-        .itemId = ITEM_CARD_WALL_OF_ILLUSION,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_WALL_OF_REVEALING_LIGHT] =
-    {
-        .name = _("WallofReveali"),
-        .itemId = ITEM_CARD_WALL_OF_REVEALING_LIGHT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_WAVE_MOTION_CANNON] =
-    {
-        .name = _("WaveMotionCan"),
-        .itemId = ITEM_CARD_WAVE_MOTION_CANNON,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_WHITE_DRAGON_RITUAL] =
-    {
-        .name = _("WhiteDragonRi"),
-        .itemId = ITEM_CARD_WHITE_DRAGON_RITUAL,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_WHITE_MAGICAL_HAT] =
-    {
-        .name = _("WhiteMagicalH"),
-        .itemId = ITEM_CARD_WHITE_MAGICAL_HAT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_WIDESPREAD_RUIN] =
-    {
-        .name = _("WidespreadRui"),
-        .itemId = ITEM_CARD_WIDESPREAD_RUIN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_WITCH_OF_THE_BLACK_FOREST] =
-    {
-        .name = _("WitchoftheBla"),
-        .itemId = ITEM_CARD_WITCH_OF_THE_BLACK_FOREST,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_X_HEAD_CANNON] =
-    {
-        .name = _("XHeadCannon"),
-        .itemId = ITEM_CARD_X_HEAD_CANNON,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_XING_ZHEN_HU] =
-    {
-        .name = _("XingZhenHu"),
-        .itemId = ITEM_CARD_XING_ZHEN_HU,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_YATA_GARASU] =
-    {
-        .name = _("YataGarasu"),
-        .itemId = ITEM_CARD_YATA_GARASU,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_YOMI_SHIP] =
-    {
-        .name = _("YomiShip"),
-        .itemId = ITEM_CARD_YOMI_SHIP,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ZABORG_THE_THUNDER_MONARCH] =
-    {
-        .name = _("ZaborgtheThun"),
-        .itemId = ITEM_CARD_ZABORG_THE_THUNDER_MONARCH,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ZOMBYRA_THE_DARK] =
-    {
-        .name = _("ZombyratheDar"),
-        .itemId = ITEM_CARD_ZOMBYRA_THE_DARK,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ZURE_KNIGHT_OF_DARK_WORLD] =
-    {
-        .name = _("ZureKnightofD"),
-        .itemId = ITEM_CARD_ZURE_KNIGHT_OF_DARK_WORLD,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_AMAZONESS_SPIRITUALIST] =
-    {
-        .name = _("AmazonessSpir"),
-        .itemId = ITEM_CARD_AMAZONESS_SPIRITUALIST,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ANCIENT_GEAR_DRAGON] =
-    {
-        .name = _("AncientGearDr"),
-        .itemId = ITEM_CARD_ANCIENT_GEAR_DRAGON,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ANGMARL_THE_FIENDISH_MONARCH] =
-    {
-        .name = _("AngmarltheFie"),
-        .itemId = ITEM_CARD_ANGMARL_THE_FIENDISH_MONARCH,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_APPRENTICE_ILLUSION_MAGICIAN] =
-    {
-        .name = _("ApprenticeIll"),
-        .itemId = ITEM_CARD_APPRENTICE_ILLUSION_MAGICIAN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ARCHFIEND_CAVALRY] =
-    {
-        .name = _("ArchfiendCava"),
-        .itemId = ITEM_CARD_ARCHFIEND_CAVALRY,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ARCHFIEND_COMMANDER] =
-    {
-        .name = _("ArchfiendComm"),
-        .itemId = ITEM_CARD_ARCHFIEND_COMMANDER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ARCHFIEND_GIANT] =
-    {
-        .name = _("ArchfiendGian"),
-        .itemId = ITEM_CARD_ARCHFIEND_GIANT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ARCHFIEND_HEIRESS] =
-    {
-        .name = _("ArchfiendHeir"),
-        .itemId = ITEM_CARD_ARCHFIEND_HEIRESS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ARCHFIEND_INTERCEPTOR] =
-    {
-        .name = _("ArchfiendInte"),
-        .itemId = ITEM_CARD_ARCHFIEND_INTERCEPTOR,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ARCHFIEND_OF_GILFER] =
-    {
-        .name = _("ArchfiendofGi"),
-        .itemId = ITEM_CARD_ARCHFIEND_OF_GILFER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ARCHFIEND_S_ADVENT] =
-    {
-        .name = _("ArchfiendsAdv"),
-        .itemId = ITEM_CARD_ARCHFIEND_S_ADVENT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BAKU_THE_BEAST_NINJA] =
-    {
-        .name = _("BakutheBeastN"),
-        .itemId = ITEM_CARD_BAKU_THE_BEAST_NINJA,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BEGINNING_KNIGHT] =
-    {
-        .name = _("BeginningKnig"),
-        .itemId = ITEM_CARD_BEGINNING_KNIGHT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BEIIGE_VANGUARD_OF_DARK_WORLD] =
-    {
-        .name = _("BeiigeVanguar"),
-        .itemId = ITEM_CARD_BEIIGE_VANGUARD_OF_DARK_WORLD,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BERLINETH_THE_FIRESTORM_VASSAL] =
-    {
-        .name = _("BerlineththeF"),
-        .itemId = ITEM_CARD_BERLINETH_THE_FIRESTORM_VASSAL,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BLACK_DRAGON_S_CHICK] =
-    {
-        .name = _("BlackDragonsC"),
-        .itemId = ITEM_CARD_BLACK_DRAGON_S_CHICK,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BLACK_METAL_DRAGON] =
-    {
-        .name = _("BlackMetalDra"),
-        .itemId = ITEM_CARD_BLACK_METAL_DRAGON,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BLUE_FLAME_SWORDSMAN] =
-    {
-        .name = _("BlueFlameSwor"),
-        .itemId = ITEM_CARD_BLUE_FLAME_SWORDSMAN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_BONE_ARCHFIEND] =
-    {
-        .name = _("BoneArchfiend"),
-        .itemId = ITEM_CARD_BONE_ARCHFIEND,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CAIUS_THE_SHADOW_MONARCH] =
-    {
-        .name = _("CaiustheShado"),
-        .itemId = ITEM_CARD_CAIUS_THE_SHADOW_MONARCH,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CHRONICLE_SORCERESS] =
-    {
-        .name = _("ChronicleSorc"),
-        .itemId = ITEM_CARD_CHRONICLE_SORCERESS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CYBER_DRAGON_DREI] =
-    {
-        .name = _("CyberDragonDr"),
-        .itemId = ITEM_CARD_CYBER_DRAGON_DREI,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CYBER_DRAGON_VIER] =
-    {
-        .name = _("CyberDragonVi"),
-        .itemId = ITEM_CARD_CYBER_DRAGON_VIER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CYBER_DRAGON_ZWEI] =
-    {
-        .name = _("CyberDragonZw"),
-        .itemId = ITEM_CARD_CYBER_DRAGON_ZWEI,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CYBER_LARVA] =
-    {
-        .name = _("CyberLarva"),
-        .itemId = ITEM_CARD_CYBER_LARVA,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_CYBERDARK_WURM] =
-    {
-        .name = _("CyberdarkWurm"),
-        .itemId = ITEM_CARD_CYBERDARK_WURM,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DARK_MAGICIAN_GIRL] =
-    {
-        .name = _("DarkMagicianG"),
-        .itemId = ITEM_CARD_DARK_MAGICIAN_GIRL,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DARK_MAGICIAN_GIRL_THE_MAGICIAN_S_APPRENTICE] =
-    {
-        .name = _("DarkMagicianG"),
-        .itemId = ITEM_CARD_DARK_MAGICIAN_GIRL_THE_MAGICIAN_S_APPRENTICE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DEFENDER_OF_NEPHTHYS] =
-    {
-        .name = _("DefenderofNep"),
-        .itemId = ITEM_CARD_DEFENDER_OF_NEPHTHYS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DELG_THE_DARK_MONARCH] =
-    {
-        .name = _("DelgtheDarkMo"),
-        .itemId = ITEM_CARD_DELG_THE_DARK_MONARCH,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DICTATOR_OF_D_] =
-    {
-        .name = _("DictatorofD"),
-        .itemId = ITEM_CARD_DICTATOR_OF_D_,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DIMENSION_CONJURER] =
-    {
-        .name = _("DimensionConj"),
-        .itemId = ITEM_CARD_DIMENSION_CONJURER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DISCIPLE_OF_NEPHTHYS] =
-    {
-        .name = _("DiscipleofNep"),
-        .itemId = ITEM_CARD_DISCIPLE_OF_NEPHTHYS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_DUPE_FROG] =
-    {
-        .name = _("DupeFrog"),
-        .itemId = ITEM_CARD_DUPE_FROG,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_EIDOS_THE_UNDERWORLD_MONARCH] =
-    {
-        .name = _("EidostheUnder"),
-        .itemId = ITEM_CARD_EIDOS_THE_UNDERWORLD_MONARCH,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_EIDOS_THE_UNDERWORLD_SQUIRE] =
-    {
-        .name = _("EidostheUnder"),
-        .itemId = ITEM_CARD_EIDOS_THE_UNDERWORLD_SQUIRE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ELEMENTAL_HERO_BLAZEMAN] =
-    {
-        .name = _("ElementalHERO"),
-        .itemId = ITEM_CARD_ELEMENTAL_HERO_BLAZEMAN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ELEMENTAL_HERO_WOODSMAN] =
-    {
-        .name = _("ElementalHERO"),
-        .itemId = ITEM_CARD_ELEMENTAL_HERO_WOODSMAN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ENVOY_OF_CHAOS] =
-    {
-        .name = _("EnvoyofChaos"),
-        .itemId = ITEM_CARD_ENVOY_OF_CHAOS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_EVENING_TWILIGHT_KNIGHT] =
-    {
-        .name = _("EveningTwilig"),
-        .itemId = ITEM_CARD_EVENING_TWILIGHT_KNIGHT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_FIGHTING_FLAME_SWORDSMAN] =
-    {
-        .name = _("FightingFlame"),
-        .itemId = ITEM_CARD_FIGHTING_FLAME_SWORDSMAN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_FLIP_FLOP_FROG] =
-    {
-        .name = _("FlipFlopFrog"),
-        .itemId = ITEM_CARD_FLIP_FLOP_FROG,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_FUSION_DEVOURER] =
-    {
-        .name = _("FusionDevoure"),
-        .itemId = ITEM_CARD_FUSION_DEVOURER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GEARFRIED_THE_RED_EYES_IRON_KNIGHT] =
-    {
-        .name = _("GearfriedtheR"),
-        .itemId = ITEM_CARD_GEARFRIED_THE_RED_EYES_IRON_KNIGHT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GEM_KNIGHT_QUARTZ] =
-    {
-        .name = _("GemKnightQuar"),
-        .itemId = ITEM_CARD_GEM_KNIGHT_QUARTZ,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GENTA_GATEMAN_OF_DARK_WORLD] =
-    {
-        .name = _("GentaGatemano"),
-        .itemId = ITEM_CARD_GENTA_GATEMAN_OF_DARK_WORLD,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GILTIA_THE_D_KNIGHT_SOUL_SPEAR] =
-    {
-        .name = _("GiltiatheDKni"),
-        .itemId = ITEM_CARD_GILTIA_THE_D_KNIGHT_SOUL_SPEAR,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GOBLIN_POTHOLE_SQUAD] =
-    {
-        .name = _("GoblinPothole"),
-        .itemId = ITEM_CARD_GOBLIN_POTHOLE_SQUAD,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GRANMARG_THE_ROCK_MONARCH] =
-    {
-        .name = _("GranmargtheRo"),
-        .itemId = ITEM_CARD_GRANMARG_THE_ROCK_MONARCH,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GREEN_NINJA] =
-    {
-        .name = _("GreenNinja"),
-        .itemId = ITEM_CARD_GREEN_NINJA,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_GREN_TACTICIAN_OF_DARK_WORLD] =
-    {
-        .name = _("GrenTactician"),
-        .itemId = ITEM_CARD_GREN_TACTICIAN_OF_DARK_WORLD,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_HAND_OF_NEPHTHYS] =
-    {
-        .name = _("HandofNephthy"),
-        .itemId = ITEM_CARD_HAND_OF_NEPHTHYS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_ICE_KNIGHT] =
-    {
-        .name = _("IceKnight"),
-        .itemId = ITEM_CARD_ICE_KNIGHT,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_INFERNALQUEEN_SALMON] =
-    {
-        .name = _("Infernalqueen"),
-        .itemId = ITEM_CARD_INFERNALQUEEN_SALMON,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_KAGERO_THE_CANNON_NINJA] =
-    {
-        .name = _("KagerotheCann"),
-        .itemId = ITEM_CARD_KAGERO_THE_CANNON_NINJA,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_KAIBAMAN] =
-    {
-        .name = _("Kaibaman"),
-        .itemId = ITEM_CARD_KAIBAMAN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_KEEPER_OF_DRAGON_MAGIC] =
-    {
-        .name = _("KeeperofDrago"),
-        .itemId = ITEM_CARD_KEEPER_OF_DRAGON_MAGIC,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_KEEPER_OF_THE_SHRINE] =
-    {
-        .name = _("KeeperoftheSh"),
-        .itemId = ITEM_CARD_KEEPER_OF_THE_SHRINE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_LANCER_ARCHFIEND] =
-    {
-        .name = _("LancerArchfie"),
-        .itemId = ITEM_CARD_LANCER_ARCHFIEND,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_LESSER_FIEND] =
-    {
-        .name = _("LesserFiend"),
-        .itemId = ITEM_CARD_LESSER_FIEND,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_LORD_OF_D_] =
-    {
-        .name = _("LordofD"),
-        .itemId = ITEM_CARD_LORD_OF_D_,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_LUCENT_NETHERLORD_OF_DARK_WORLD] =
-    {
-        .name = _("LucentNetherl"),
-        .itemId = ITEM_CARD_LUCENT_NETHERLORD_OF_DARK_WORLD,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_LUCIUS_THE_SHADOW_VASSAL] =
-    {
-        .name = _("LuciustheShad"),
-        .itemId = ITEM_CARD_LUCIUS_THE_SHADOW_VASSAL,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MAD_ARCHFIEND] =
-    {
-        .name = _("MadArchfiend"),
-        .itemId = ITEM_CARD_MAD_ARCHFIEND,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MAGICIAN_S_ROBE] =
-    {
-        .name = _("MagiciansRobe"),
-        .itemId = ITEM_CARD_MAGICIAN_S_ROBE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MAGICIAN_S_ROD] =
-    {
-        .name = _("MagiciansRod"),
-        .itemId = ITEM_CARD_MAGICIAN_S_ROD,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MAGICIANS_SOULS] =
-    {
-        .name = _("MagiciansSoul"),
-        .itemId = ITEM_CARD_MAGICIANS_SOULS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MAGIKURIBOH] =
-    {
-        .name = _("Magikuriboh"),
-        .itemId = ITEM_CARD_MAGIKURIBOH,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MASKED_NINJA_EBISU] =
-    {
-        .name = _("MaskedNinjaEb"),
-        .itemId = ITEM_CARD_MASKED_NINJA_EBISU,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MATRIARCH_OF_NEPHTHYS] =
-    {
-        .name = _("MatriarchofNe"),
-        .itemId = ITEM_CARD_MATRIARCH_OF_NEPHTHYS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_METALFLAME_SWORDSMAN] =
-    {
-        .name = _("MetalflameSwo"),
-        .itemId = ITEM_CARD_METALFLAME_SWORDSMAN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MITSU_THE_INSECT_NINJA] =
-    {
-        .name = _("MitsutheInsec"),
-        .itemId = ITEM_CARD_MITSU_THE_INSECT_NINJA,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_MYSTICAL_ELF_WHITE_LIGHTNING] =
-    {
-        .name = _("MysticalElfWh"),
-        .itemId = ITEM_CARD_MYSTICAL_ELF_WHITE_LIGHTNING,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_NINJA_GRANDMASTER_HANZO] =
-    {
-        .name = _("NinjaGrandmas"),
-        .itemId = ITEM_CARD_NINJA_GRANDMASTER_HANZO,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_PARL_HERMIT_OF_DARK_WORLD] =
-    {
-        .name = _("ParlHermitofD"),
-        .itemId = ITEM_CARD_PARL_HERMIT_OF_DARK_WORLD,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_RED_DRAGON_NINJA] =
-    {
-        .name = _("RedDragonNinj"),
-        .itemId = ITEM_CARD_RED_DRAGON_NINJA,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_RED_EYES_BABY_DRAGON] =
-    {
-        .name = _("RedEyesBabyDr"),
-        .itemId = ITEM_CARD_RED_EYES_BABY_DRAGON,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_RED_EYES_BLACK_METEOR_DRAGON] =
-    {
-        .name = _("RedEyesBlackM"),
-        .itemId = ITEM_CARD_RED_EYES_BLACK_METEOR_DRAGON,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_RED_EYES_RETRO_DRAGON] =
-    {
-        .name = _("RedEyesRetroD"),
-        .itemId = ITEM_CARD_RED_EYES_RETRO_DRAGON,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_RED_EYES_WYVERN] =
-    {
-        .name = _("RedEyesWyvern"),
-        .itemId = ITEM_CARD_RED_EYES_WYVERN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_RELINKURIBOH] =
-    {
-        .name = _("Relinkuriboh"),
-        .itemId = ITEM_CARD_RELINKURIBOH,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_RONINTOADIN] =
-    {
-        .name = _("Ronintoadin"),
-        .itemId = ITEM_CARD_RONINTOADIN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SALAMANDRA_THE_FLYING_FLAME_DRAGON] =
-    {
-        .name = _("Salamandrathe"),
-        .itemId = ITEM_CARD_SALAMANDRA_THE_FLYING_FLAME_DRAGON,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SCARR_SCOUT_OF_DARK_WORLD] =
-    {
-        .name = _("ScarrScoutofD"),
-        .itemId = ITEM_CARD_SCARR_SCOUT_OF_DARK_WORLD,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SENIOR_SILVER_NINJA] =
-    {
-        .name = _("SeniorSilverN"),
-        .itemId = ITEM_CARD_SENIOR_SILVER_NINJA,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SENJU_OF_THE_THOUSAND_HANDS] =
-    {
-        .name = _("SenjuoftheTho"),
-        .itemId = ITEM_CARD_SENJU_OF_THE_THOUSAND_HANDS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SKILLED_RED_MAGICIAN] =
-    {
-        .name = _("SkilledRedMag"),
-        .itemId = ITEM_CARD_SKILLED_RED_MAGICIAN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SNOWW_UNLIGHT_OF_DARK_WORLD] =
-    {
-        .name = _("SnowwUnlighto"),
-        .itemId = ITEM_CARD_SNOWW_UNLIGHT_OF_DARK_WORLD,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SONIC_BIRD] =
-    {
-        .name = _("SonicBird"),
-        .itemId = ITEM_CARD_SONIC_BIRD,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SPHERE_KURIBOH] =
-    {
-        .name = _("SphereKuriboh"),
-        .itemId = ITEM_CARD_SPHERE_KURIBOH,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SUBSTITOAD] =
-    {
-        .name = _("Substitoad"),
-        .itemId = ITEM_CARD_SUBSTITOAD,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SUPER_SOLDIER_SOUL] =
-    {
-        .name = _("SuperSoldierS"),
-        .itemId = ITEM_CARD_SUPER_SOLDIER_SOUL,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_SWAP_FROG] =
-    {
-        .name = _("SwapFrog"),
-        .itemId = ITEM_CARD_SWAP_FROG,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_T_A_D_P_O_L_E_] =
-    {
-        .name = _("TADPOLE"),
-        .itemId = ITEM_CARD_T_A_D_P_O_L_E_,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TENMATAITEI] =
-    {
-        .name = _("Tenmataitei"),
-        .itemId = ITEM_CARD_TENMATAITEI,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_THE_BLACK_STONE_OF_LEGEND] =
-    {
-        .name = _("TheBlackStone"),
-        .itemId = ITEM_CARD_THE_BLACK_STONE_OF_LEGEND,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_THE_DARK_HEX_SEALED_FUSION] =
-    {
-        .name = _("TheDarkHexSea"),
-        .itemId = ITEM_CARD_THE_DARK_HEX_SEALED_FUSION,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_THE_EARTH_HEX_SEALED_FUSION] =
-    {
-        .name = _("TheEarthHexSe"),
-        .itemId = ITEM_CARD_THE_EARTH_HEX_SEALED_FUSION,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_THE_LIGHT_HEX_SEALED_FUSION] =
-    {
-        .name = _("TheLightHexSe"),
-        .itemId = ITEM_CARD_THE_LIGHT_HEX_SEALED_FUSION,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_THUNDER_DRAGONDARK] =
-    {
-        .name = _("ThunderDragon"),
-        .itemId = ITEM_CARD_THUNDER_DRAGONDARK,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_THUNDER_DRAGONHAWK] =
-    {
-        .name = _("ThunderDragon"),
-        .itemId = ITEM_CARD_THUNDER_DRAGONHAWK,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_THUNDER_DRAGONMATRIX] =
-    {
-        .name = _("ThunderDragon"),
-        .itemId = ITEM_CARD_THUNDER_DRAGONMATRIX,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_THUNDER_DRAGONROAR] =
-    {
-        .name = _("ThunderDragon"),
-        .itemId = ITEM_CARD_THUNDER_DRAGONROAR,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_THUNDER_SEA_HORSE] =
-    {
-        .name = _("ThunderSeaHor"),
-        .itemId = ITEM_CARD_THUNDER_SEA_HORSE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TLAKALEL_HIS_MALEVOLENT_MAJESTY] =
-    {
-        .name = _("TlakalelHisMa"),
-        .itemId = ITEM_CARD_TLAKALEL_HIS_MALEVOLENT_MAJESTY,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TOBARI_THE_SKY_NINJA] =
-    {
-        .name = _("TobaritheSkyN"),
-        .itemId = ITEM_CARD_TOBARI_THE_SKY_NINJA,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TRADETOAD] =
-    {
-        .name = _("Tradetoad"),
-        .itemId = ITEM_CARD_TRADETOAD,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TRAPTRIX_ARACHNOCAMPA] =
-    {
-        .name = _("TraptrixArach"),
-        .itemId = ITEM_CARD_TRAPTRIX_ARACHNOCAMPA,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TRAPTRIX_ATRAX] =
-    {
-        .name = _("TraptrixAtrax"),
-        .itemId = ITEM_CARD_TRAPTRIX_ATRAX,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TRAPTRIX_DIONAEA] =
-    {
-        .name = _("TraptrixDiona"),
-        .itemId = ITEM_CARD_TRAPTRIX_DIONAEA,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TRAPTRIX_GENLISEA] =
-    {
-        .name = _("TraptrixGenli"),
-        .itemId = ITEM_CARD_TRAPTRIX_GENLISEA,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TRAPTRIX_MANTIS] =
-    {
-        .name = _("TraptrixManti"),
-        .itemId = ITEM_CARD_TRAPTRIX_MANTIS,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TRAPTRIX_MYRMELEO] =
-    {
-        .name = _("TraptrixMyrme"),
-        .itemId = ITEM_CARD_TRAPTRIX_MYRMELEO,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TRAPTRIX_NEPENTHES] =
-    {
-        .name = _("TraptrixNepen"),
-        .itemId = ITEM_CARD_TRAPTRIX_NEPENTHES,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TRAPTRIX_PUDICA] =
-    {
-        .name = _("TraptrixPudic"),
-        .itemId = ITEM_CARD_TRAPTRIX_PUDICA,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TRAPTRIX_VESICULO] =
-    {
-        .name = _("TraptrixVesic"),
-        .itemId = ITEM_CARD_TRAPTRIX_VESICULO,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TWILIGHT_NINJA_NICHIRIN_THE_CHUNIN] =
-    {
-        .name = _("TwilightNinja"),
-        .itemId = ITEM_CARD_TWILIGHT_NINJA_NICHIRIN_THE_CHUNIN,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_TWILIGHT_NINJA_SHINGETSU] =
-    {
-        .name = _("TwilightNinja"),
-        .itemId = ITEM_CARD_TWILIGHT_NINJA_SHINGETSU,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_UPSTART_GOLDEN_NINJA] =
-    {
-        .name = _("UpstartGolden"),
-        .itemId = ITEM_CARD_UPSTART_GOLDEN_NINJA,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_VISION_HERO_VYON] =
-    {
-        .name = _("VisionHEROVyo"),
-        .itemId = ITEM_CARD_VISION_HERO_VYON,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_WROUGHTWEILER] =
-    {
-        .name = _("Wroughtweiler"),
-        .itemId = ITEM_CARD_WROUGHTWEILER,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-    [ITEM_CARD_YELLOW_NINJA] =
-    {
-        .name = _("YellowNinja"),
-        .itemId = ITEM_CARD_YELLOW_NINJA,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_TRUNK,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Card,
-    },
-
-[ITEM_PACK_2_PLAYER_STARTER_DECK_YUYA_DECLAN] =
+	{
+		.name = _("4StarredLadyb"),
+		.itemId = ITEM_CARD_4_STARRED_LADYBUG_OF_DOOM,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_7_COLORED_FISH] =
+	{
+		.name = _("7ColoredFish"),
+		.itemId = ITEM_CARD_7_COLORED_FISH,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_A_LEGENDARY_OCEAN] =
+	{
+		.name = _("ALegendaryOce"),
+		.itemId = ITEM_CARD_A_LEGENDARY_OCEAN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ABYSS_SOLDIER] =
+	{
+		.name = _("AbyssSoldier"),
+		.itemId = ITEM_CARD_ABYSS_SOLDIER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_AIRKNIGHT_PARSHATH] =
+	{
+		.name = _("AirknightPars"),
+		.itemId = ITEM_CARD_AIRKNIGHT_PARSHATH,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_AMAZONESS_ARCHER] =
+	{
+		.name = _("AmazonessArch"),
+		.itemId = ITEM_CARD_AMAZONESS_ARCHER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_AMPHIBIOUS_BUGROTH_MK_3] =
+	{
+		.name = _("AmphibiousBug"),
+		.itemId = ITEM_CARD_AMPHIBIOUS_BUGROTH_MK_3,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ANTI_SPELL_FRAGRANCE] =
+	{
+		.name = _("AntiSpellFrag"),
+		.itemId = ITEM_CARD_ANTI_SPELL_FRAGRANCE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_AQUA_MADOOR] =
+	{
+		.name = _("AquaMadoor"),
+		.itemId = ITEM_CARD_AQUA_MADOOR,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_AQUA_SPIRIT] =
+	{
+		.name = _("AquaSpirit"),
+		.itemId = ITEM_CARD_AQUA_SPIRIT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ARCHFIEND_SOLDIER] =
+	{
+		.name = _("ArchfiendSold"),
+		.itemId = ITEM_CARD_ARCHFIEND_SOLDIER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ARSENAL_BUG] =
+	{
+		.name = _("ArsenalBug"),
+		.itemId = ITEM_CARD_ARSENAL_BUG,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ARSENAL_SUMMONER] =
+	{
+		.name = _("ArsenalSummon"),
+		.itemId = ITEM_CARD_ARSENAL_SUMMONER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ASURA_PRIEST] =
+	{
+		.name = _("AsuraPriest"),
+		.itemId = ITEM_CARD_ASURA_PRIEST,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_AXE_OF_DESPAIR] =
+	{
+		.name = _("AxeofDespair"),
+		.itemId = ITEM_CARD_AXE_OF_DESPAIR,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BANISHER_OF_THE_LIGHT] =
+	{
+		.name = _("Banisherofthe"),
+		.itemId = ITEM_CARD_BANISHER_OF_THE_LIGHT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BARREL_BEHIND_THE_DOOR] =
+	{
+		.name = _("BarrelBehindt"),
+		.itemId = ITEM_CARD_BARREL_BEHIND_THE_DOOR,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BATTLE_FOOTBALLER] =
+	{
+		.name = _("BattleFootbal"),
+		.itemId = ITEM_CARD_BATTLE_FOOTBALLER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BATTLE_OX] =
+	{
+		.name = _("BattleOx"),
+		.itemId = ITEM_CARD_BATTLE_OX,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BAZOO_THE_SOUL_EATER] =
+	{
+		.name = _("BazootheSoulE"),
+		.itemId = ITEM_CARD_BAZOO_THE_SOUL_EATER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BERSERK_GORILLA] =
+	{
+		.name = _("BerserkGorill"),
+		.itemId = ITEM_CARD_BERSERK_GORILLA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BICKURIBOX] =
+	{
+		.name = _("Bickuribox"),
+		.itemId = ITEM_CARD_BICKURIBOX,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BIG_BANG_SHOT] =
+	{
+		.name = _("BigBangShot"),
+		.itemId = ITEM_CARD_BIG_BANG_SHOT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BIG_SHIELD_GARDNA] =
+	{
+		.name = _("BigShieldGard"),
+		.itemId = ITEM_CARD_BIG_SHIELD_GARDNA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BIG_TUSKED_MAMMOTH] =
+	{
+		.name = _("BigTuskedMamm"),
+		.itemId = ITEM_CARD_BIG_TUSKED_MAMMOTH,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BLACK_ILLUSION_RITUAL] =
+	{
+		.name = _("BlackIllusion"),
+		.itemId = ITEM_CARD_BLACK_ILLUSION_RITUAL,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING] =
+	{
+		.name = _("BlackLusterSo"),
+		.itemId = ITEM_CARD_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BLACK_PENDANT] =
+	{
+		.name = _("BlackPendant"),
+		.itemId = ITEM_CARD_BLACK_PENDANT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BLACK_SKULL_DRAGON] =
+	{
+		.name = _("BlackSkullDra"),
+		.itemId = ITEM_CARD_BLACK_SKULL_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BLADE_KNIGHT] =
+	{
+		.name = _("BladeKnight"),
+		.itemId = ITEM_CARD_BLADE_KNIGHT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BLAST_WITH_CHAIN] =
+	{
+		.name = _("BlastwithChai"),
+		.itemId = ITEM_CARD_BLAST_WITH_CHAIN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BLAZING_INPACHI] =
+	{
+		.name = _("BlazingInpach"),
+		.itemId = ITEM_CARD_BLAZING_INPACHI,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BLINDLY_LOYAL_GOBLIN] =
+	{
+		.name = _("BlindlyLoyalG"),
+		.itemId = ITEM_CARD_BLINDLY_LOYAL_GOBLIN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BLOCK_ATTACK] =
+	{
+		.name = _("BlockAttack"),
+		.itemId = ITEM_CARD_BLOCK_ATTACK,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BLOWBACK_DRAGON] =
+	{
+		.name = _("BlowbackDrago"),
+		.itemId = ITEM_CARD_BLOWBACK_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BLUE_EYES_ULTIMATE_DRAGON] =
+	{
+		.name = _("BlueEyesUltim"),
+		.itemId = ITEM_CARD_BLUE_EYES_ULTIMATE_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BLUE_EYES_WHITE_DRAGON] =
+	{
+		.name = _("BlueEyesWhite"),
+		.itemId = ITEM_CARD_BLUE_EYES_WHITE_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BOOK_OF_LIFE] =
+	{
+		.name = _("BookofLife"),
+		.itemId = ITEM_CARD_BOOK_OF_LIFE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BOOK_OF_MOON] =
+	{
+		.name = _("BookofMoon"),
+		.itemId = ITEM_CARD_BOOK_OF_MOON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BOOK_OF_TAIYOU] =
+	{
+		.name = _("BookofTaiyou"),
+		.itemId = ITEM_CARD_BOOK_OF_TAIYOU,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BOTTOMLESS_TRAP_HOLE] =
+	{
+		.name = _("BottomlessTra"),
+		.itemId = ITEM_CARD_BOTTOMLESS_TRAP_HOLE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BOWGANIAN] =
+	{
+		.name = _("Bowganian"),
+		.itemId = ITEM_CARD_BOWGANIAN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BRAIN_CONTROL] =
+	{
+		.name = _("BrainControl"),
+		.itemId = ITEM_CARD_BRAIN_CONTROL,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR] =
+	{
+		.name = _("BreakertheMag"),
+		.itemId = ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BROWW_HUNTSMAN_OF_DARK_WORLD] =
+	{
+		.name = _("BrowwHuntsman"),
+		.itemId = ITEM_CARD_BROWW_HUNTSMAN_OF_DARK_WORLD,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BRRON_MAD_KING_OF_DARK_WORLD] =
+	{
+		.name = _("BrronMadKingo"),
+		.itemId = ITEM_CARD_BRRON_MAD_KING_OF_DARK_WORLD,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BUSTER_BLADER] =
+	{
+		.name = _("BusterBlader"),
+		.itemId = ITEM_CARD_BUSTER_BLADER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BYSER_SHOCK] =
+	{
+		.name = _("ByserShock"),
+		.itemId = ITEM_CARD_BYSER_SHOCK,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CALL_OF_THE_HAUNTED] =
+	{
+		.name = _("CalloftheHaun"),
+		.itemId = ITEM_CARD_CALL_OF_THE_HAUNTED,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CANNON_SOLDIER] =
+	{
+		.name = _("CannonSoldier"),
+		.itemId = ITEM_CARD_CANNON_SOLDIER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CARD_DESTRUCTION] =
+	{
+		.name = _("CardDestructi"),
+		.itemId = ITEM_CARD_CARD_DESTRUCTION,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CASTLE_OF_DARK_ILLUSIONS] =
+	{
+		.name = _("CastleofDarkI"),
+		.itemId = ITEM_CARD_CASTLE_OF_DARK_ILLUSIONS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CASTLE_WALLS] =
+	{
+		.name = _("CastleWalls"),
+		.itemId = ITEM_CARD_CASTLE_WALLS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CATAPULT_TURTLE] =
+	{
+		.name = _("CatapultTurtl"),
+		.itemId = ITEM_CARD_CATAPULT_TURTLE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CEASEFIRE] =
+	{
+		.name = _("Ceasefire"),
+		.itemId = ITEM_CARD_CEASEFIRE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CHAIN_DISAPPEARANCE] =
+	{
+		.name = _("ChainDisappea"),
+		.itemId = ITEM_CARD_CHAIN_DISAPPEARANCE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CHAIN_ENERGY] =
+	{
+		.name = _("ChainEnergy"),
+		.itemId = ITEM_CARD_CHAIN_ENERGY,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CHAINSAW_INSECT] =
+	{
+		.name = _("ChainsawInsec"),
+		.itemId = ITEM_CARD_CHAINSAW_INSECT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CHANGE_OF_HEART] =
+	{
+		.name = _("ChangeofHeart"),
+		.itemId = ITEM_CARD_CHANGE_OF_HEART,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CHAOS_EMPEROR_DRAGON_ENVOY_OF_THE_END] =
+	{
+		.name = _("ChaosEmperorD"),
+		.itemId = ITEM_CARD_CHAOS_EMPEROR_DRAGON_ENVOY_OF_THE_END,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CHAOS_SORCERER] =
+	{
+		.name = _("ChaosSorcerer"),
+		.itemId = ITEM_CARD_CHAOS_SORCERER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CHARCOAL_INPACHI] =
+	{
+		.name = _("CharcoalInpac"),
+		.itemId = ITEM_CARD_CHARCOAL_INPACHI,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CHIRON_THE_MAGE] =
+	{
+		.name = _("ChirontheMage"),
+		.itemId = ITEM_CARD_CHIRON_THE_MAGE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CIPHER_SOLDIER] =
+	{
+		.name = _("CipherSoldier"),
+		.itemId = ITEM_CARD_CIPHER_SOLDIER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_COLD_WAVE] =
+	{
+		.name = _("ColdWave"),
+		.itemId = ITEM_CARD_COLD_WAVE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_COMMAND_KNIGHT] =
+	{
+		.name = _("CommandKnight"),
+		.itemId = ITEM_CARD_COMMAND_KNIGHT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_COMPULSORY_EVACUATION_DEVICE] =
+	{
+		.name = _("CompulsoryEva"),
+		.itemId = ITEM_CARD_COMPULSORY_EVACUATION_DEVICE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CONFISCATION] =
+	{
+		.name = _("Confiscation"),
+		.itemId = ITEM_CARD_CONFISCATION,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CRASS_CLOWN] =
+	{
+		.name = _("CrassClown"),
+		.itemId = ITEM_CARD_CRASS_CLOWN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CREATURE_SWAP] =
+	{
+		.name = _("CreatureSwap"),
+		.itemId = ITEM_CARD_CREATURE_SWAP,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CRUSH_CARD_VIRUS] =
+	{
+		.name = _("CrushCardViru"),
+		.itemId = ITEM_CARD_CRUSH_CARD_VIRUS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL] =
+	{
+		.name = _("CursedSealoft"),
+		.itemId = ITEM_CARD_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CYBER_DRAGON] =
+	{
+		.name = _("CyberDragon"),
+		.itemId = ITEM_CARD_CYBER_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CYBER_END_DRAGON] =
+	{
+		.name = _("CyberEndDrago"),
+		.itemId = ITEM_CARD_CYBER_END_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CYBER_HARPIE_LADY] =
+	{
+		.name = _("CyberHarpieLa"),
+		.itemId = ITEM_CARD_CYBER_HARPIE_LADY,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CYBER_JAR] =
+	{
+		.name = _("CyberJar"),
+		.itemId = ITEM_CARD_CYBER_JAR,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CYBER_TWIN_DRAGON] =
+	{
+		.name = _("CyberTwinDrag"),
+		.itemId = ITEM_CARD_CYBER_TWIN_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CYBER_STEIN] =
+	{
+		.name = _("CyberStein"),
+		.itemId = ITEM_CARD_CYBER_STEIN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_D_D_ASSAILANT] =
+	{
+		.name = _("DDAssailant"),
+		.itemId = ITEM_CARD_D_D_ASSAILANT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_D_D_CRAZY_BEAST] =
+	{
+		.name = _("DDCrazyBeast"),
+		.itemId = ITEM_CARD_D_D_CRAZY_BEAST,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_D_D_SURVIVOR] =
+	{
+		.name = _("DDSurvivor"),
+		.itemId = ITEM_CARD_D_D_SURVIVOR,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_D_D_TRAINER] =
+	{
+		.name = _("DDTrainer"),
+		.itemId = ITEM_CARD_D_D_TRAINER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_D_D_WARRIOR_LADY] =
+	{
+		.name = _("DDWarriorLady"),
+		.itemId = ITEM_CARD_D_D_WARRIOR_LADY,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DARK_BLADE] =
+	{
+		.name = _("DarkBlade"),
+		.itemId = ITEM_CARD_DARK_BLADE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DARK_BLADE_THE_DRAGON_KNIGHT] =
+	{
+		.name = _("DarkBladetheD"),
+		.itemId = ITEM_CARD_DARK_BLADE_THE_DRAGON_KNIGHT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DARK_DEAL] =
+	{
+		.name = _("DarkDeal"),
+		.itemId = ITEM_CARD_DARK_DEAL,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DARK_ELF] =
+	{
+		.name = _("DarkElf"),
+		.itemId = ITEM_CARD_DARK_ELF,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DARK_HOLE] =
+	{
+		.name = _("DarkHole"),
+		.itemId = ITEM_CARD_DARK_HOLE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DARK_MAGIC_CURTAIN] =
+	{
+		.name = _("DarkMagicCurt"),
+		.itemId = ITEM_CARD_DARK_MAGIC_CURTAIN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DARK_MAGICIAN] =
+	{
+		.name = _("DarkMagician"),
+		.itemId = ITEM_CARD_DARK_MAGICIAN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DARK_MAGICIAN_OF_CHAOS] =
+	{
+		.name = _("DarkMagiciano"),
+		.itemId = ITEM_CARD_DARK_MAGICIAN_OF_CHAOS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DARK_MIMIC_LV1] =
+	{
+		.name = _("DarkMimicLV1"),
+		.itemId = ITEM_CARD_DARK_MIMIC_LV1,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DARK_MIMIC_LV3] =
+	{
+		.name = _("DarkMimicLV3"),
+		.itemId = ITEM_CARD_DARK_MIMIC_LV3,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DARK_PALADIN] =
+	{
+		.name = _("DarkPaladin"),
+		.itemId = ITEM_CARD_DARK_PALADIN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DARK_RULER_HA_DES] =
+	{
+		.name = _("DarkRulerHaDe"),
+		.itemId = ITEM_CARD_DARK_RULER_HA_DES,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DARK_SCORPION_CHICK_THE_YELLOW] =
+	{
+		.name = _("DarkScorpionC"),
+		.itemId = ITEM_CARD_DARK_SCORPION_CHICK_THE_YELLOW,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DARK_SCORPION_CLIFF_THE_TRAP_REMOVER] =
+	{
+		.name = _("DarkScorpionC"),
+		.itemId = ITEM_CARD_DARK_SCORPION_CLIFF_THE_TRAP_REMOVER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DARK_WORLD_LIGHTNING] =
+	{
+		.name = _("DarkWorldLigh"),
+		.itemId = ITEM_CARD_DARK_WORLD_LIGHTNING,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DE_SPELL] =
+	{
+		.name = _("DeSpell"),
+		.itemId = ITEM_CARD_DE_SPELL,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DECK_DEVASTATION_VIRUS] =
+	{
+		.name = _("DeckDevastati"),
+		.itemId = ITEM_CARD_DECK_DEVASTATION_VIRUS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE] =
+	{
+		.name = _("DekoichitheBa"),
+		.itemId = ITEM_CARD_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DELINQUENT_DUO] =
+	{
+		.name = _("DelinquentDuo"),
+		.itemId = ITEM_CARD_DELINQUENT_DUO,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DES_DENDLE] =
+	{
+		.name = _("DesDendle"),
+		.itemId = ITEM_CARD_DES_DENDLE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DES_KOALA] =
+	{
+		.name = _("DesKoala"),
+		.itemId = ITEM_CARD_DES_KOALA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DES_LACOODA] =
+	{
+		.name = _("DesLacooda"),
+		.itemId = ITEM_CARD_DES_LACOODA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DES_WOMBAT] =
+	{
+		.name = _("DesWombat"),
+		.itemId = ITEM_CARD_DES_WOMBAT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DESERT_SUNLIGHT] =
+	{
+		.name = _("DesertSunligh"),
+		.itemId = ITEM_CARD_DESERT_SUNLIGHT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DIAN_KETO_THE_CURE_MASTER] =
+	{
+		.name = _("DianKetotheCu"),
+		.itemId = ITEM_CARD_DIAN_KETO_THE_CURE_MASTER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DIMENSION_FUSION] =
+	{
+		.name = _("DimensionFusi"),
+		.itemId = ITEM_CARD_DIMENSION_FUSION,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DON_ZALOOG] =
+	{
+		.name = _("DonZaloog"),
+		.itemId = ITEM_CARD_DON_ZALOOG,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DOOM_DOZER] =
+	{
+		.name = _("DoomDozer"),
+		.itemId = ITEM_CARD_DOOM_DOZER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DOOMCALIBER_KNIGHT] =
+	{
+		.name = _("DoomcaliberKn"),
+		.itemId = ITEM_CARD_DOOMCALIBER_KNIGHT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DRAGGED_DOWN_INTO_THE_GRAVE] =
+	{
+		.name = _("DraggedDownin"),
+		.itemId = ITEM_CARD_DRAGGED_DOWN_INTO_THE_GRAVE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DRAGON_S_MIRROR] =
+	{
+		.name = _("DragonsMirror"),
+		.itemId = ITEM_CARD_DRAGON_S_MIRROR,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DRAGON_S_RAGE] =
+	{
+		.name = _("DragonsRage"),
+		.itemId = ITEM_CARD_DRAGON_S_RAGE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DREAM_CLOWN] =
+	{
+		.name = _("DreamClown"),
+		.itemId = ITEM_CARD_DREAM_CLOWN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DRILLROID] =
+	{
+		.name = _("Drillroid"),
+		.itemId = ITEM_CARD_DRILLROID,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DROP_OFF] =
+	{
+		.name = _("DropOff"),
+		.itemId = ITEM_CARD_DROP_OFF,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DUNAMES_DARK_WITCH] =
+	{
+		.name = _("DunamesDarkWi"),
+		.itemId = ITEM_CARD_DUNAMES_DARK_WITCH,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DUST_TORNADO] =
+	{
+		.name = _("DustTornado"),
+		.itemId = ITEM_CARD_DUST_TORNADO,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_EARTHBOUND_SPIRIT] =
+	{
+		.name = _("EarthboundSpi"),
+		.itemId = ITEM_CARD_EARTHBOUND_SPIRIT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ELECTRIC_SNAKE] =
+	{
+		.name = _("ElectricSnake"),
+		.itemId = ITEM_CARD_ELECTRIC_SNAKE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ELEMENTAL_HERO_CLAYMAN] =
+	{
+		.name = _("ElementalHERO"),
+		.itemId = ITEM_CARD_ELEMENTAL_HERO_CLAYMAN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN] =
+	{
+		.name = _("ElementalHERO"),
+		.itemId = ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ELEMENTAL_HERO_WILDHEART] =
+	{
+		.name = _("ElementalHERO"),
+		.itemId = ITEM_CARD_ELEMENTAL_HERO_WILDHEART,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_EMERGENCY_PROVISIONS] =
+	{
+		.name = _("EmergencyProv"),
+		.itemId = ITEM_CARD_EMERGENCY_PROVISIONS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_EMISSARY_OF_THE_AFTERLIFE] =
+	{
+		.name = _("Emissaryofthe"),
+		.itemId = ITEM_CARD_EMISSARY_OF_THE_AFTERLIFE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ENEMY_CONTROLLER] =
+	{
+		.name = _("EnemyControll"),
+		.itemId = ITEM_CARD_ENEMY_CONTROLLER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_EXARION_UNIVERSE] =
+	{
+		.name = _("ExarionUniver"),
+		.itemId = ITEM_CARD_EXARION_UNIVERSE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_EXCHANGE] =
+	{
+		.name = _("Exchange"),
+		.itemId = ITEM_CARD_EXCHANGE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_EXCHANGE_OF_THE_SPIRIT] =
+	{
+		.name = _("Exchangeofthe"),
+		.itemId = ITEM_CARD_EXCHANGE_OF_THE_SPIRIT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_EXILED_FORCE] =
+	{
+		.name = _("ExiledForce"),
+		.itemId = ITEM_CARD_EXILED_FORCE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_EXODIA_THE_FORBIDDEN_ONE] =
+	{
+		.name = _("ExodiatheForb"),
+		.itemId = ITEM_CARD_EXODIA_THE_FORBIDDEN_ONE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_FAKE_TRAP] =
+	{
+		.name = _("FakeTrap"),
+		.itemId = ITEM_CARD_FAKE_TRAP,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_FAMILIAR_POSSESSED_AUSSA] =
+	{
+		.name = _("FamiliarPosse"),
+		.itemId = ITEM_CARD_FAMILIAR_POSSESSED_AUSSA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_FAMILIAR_POSSESSED_ERIA] =
+	{
+		.name = _("FamiliarPosse"),
+		.itemId = ITEM_CARD_FAMILIAR_POSSESSED_ERIA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_FAMILIAR_POSSESSED_HIITA] =
+	{
+		.name = _("FamiliarPosse"),
+		.itemId = ITEM_CARD_FAMILIAR_POSSESSED_HIITA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_FAMILIAR_POSSESSED_WYNN] =
+	{
+		.name = _("FamiliarPosse"),
+		.itemId = ITEM_CARD_FAMILIAR_POSSESSED_WYNN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_FIBER_JAR] =
+	{
+		.name = _("FiberJar"),
+		.itemId = ITEM_CARD_FIBER_JAR,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_FINAL_FLAME] =
+	{
+		.name = _("FinalFlame"),
+		.itemId = ITEM_CARD_FINAL_FLAME,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_FISSURE] =
+	{
+		.name = _("Fissure"),
+		.itemId = ITEM_CARD_FISSURE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_FLAME_SWORDSMAN] =
+	{
+		.name = _("FlameSwordsma"),
+		.itemId = ITEM_CARD_FLAME_SWORDSMAN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_FLYING_KAMAKIRI_1] =
+	{
+		.name = _("FlyingKamakir"),
+		.itemId = ITEM_CARD_FLYING_KAMAKIRI_1,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_FUSILIER_DRAGON_THE_DUAL_MODE_BEAST] =
+	{
+		.name = _("FusilierDrago"),
+		.itemId = ITEM_CARD_FUSILIER_DRAGON_THE_DUAL_MODE_BEAST,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GAGAGIGO] =
+	{
+		.name = _("Gagagigo"),
+		.itemId = ITEM_CARD_GAGAGIGO,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GAIA_POWER] =
+	{
+		.name = _("GaiaPower"),
+		.itemId = ITEM_CARD_GAIA_POWER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GAIA_THE_DRAGON_CHAMPION] =
+	{
+		.name = _("GaiatheDragon"),
+		.itemId = ITEM_CARD_GAIA_THE_DRAGON_CHAMPION,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GATLING_DRAGON] =
+	{
+		.name = _("GatlingDragon"),
+		.itemId = ITEM_CARD_GATLING_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GEAR_GOLEM_THE_MOVING_FORTRESS] =
+	{
+		.name = _("GearGolemtheM"),
+		.itemId = ITEM_CARD_GEAR_GOLEM_THE_MOVING_FORTRESS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT] =
+	{
+		.name = _("GearfriedtheI"),
+		.itemId = ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GEMINI_ELF] =
+	{
+		.name = _("GeminiElf"),
+		.itemId = ITEM_CARD_GEMINI_ELF,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GIANT_GERM] =
+	{
+		.name = _("GiantGerm"),
+		.itemId = ITEM_CARD_GIANT_GERM,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GIANT_ORC] =
+	{
+		.name = _("GiantOrc"),
+		.itemId = ITEM_CARD_GIANT_ORC,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GIANT_RAT] =
+	{
+		.name = _("GiantRat"),
+		.itemId = ITEM_CARD_GIANT_RAT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GIANT_RED_SEASNAKE] =
+	{
+		.name = _("GiantRedSeasn"),
+		.itemId = ITEM_CARD_GIANT_RED_SEASNAKE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GIANT_SOLDIER_OF_STONE] =
+	{
+		.name = _("GiantSoldiero"),
+		.itemId = ITEM_CARD_GIANT_SOLDIER_OF_STONE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GIANT_TRUNADE] =
+	{
+		.name = _("GiantTrunade"),
+		.itemId = ITEM_CARD_GIANT_TRUNADE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GIGA_TECH_WOLF] =
+	{
+		.name = _("GigaTechWolf"),
+		.itemId = ITEM_CARD_GIGA_TECH_WOLF,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GIGANTES] =
+	{
+		.name = _("Gigantes"),
+		.itemId = ITEM_CARD_GIGANTES,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GIL_GARTH] =
+	{
+		.name = _("GilGarth"),
+		.itemId = ITEM_CARD_GIL_GARTH,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GILASAURUS] =
+	{
+		.name = _("Gilasaurus"),
+		.itemId = ITEM_CARD_GILASAURUS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GOBLIN_ATTACK_FORCE] =
+	{
+		.name = _("GoblinAttackF"),
+		.itemId = ITEM_CARD_GOBLIN_ATTACK_FORCE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GOBLIN_ELITE_ATTACK_FORCE] =
+	{
+		.name = _("GoblinEliteAt"),
+		.itemId = ITEM_CARD_GOBLIN_ELITE_ATTACK_FORCE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GOKIPON] =
+	{
+		.name = _("Gokipon"),
+		.itemId = ITEM_CARD_GOKIPON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GOLEM_SENTRY] =
+	{
+		.name = _("GolemSentry"),
+		.itemId = ITEM_CARD_GOLEM_SENTRY,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GORA_TURTLE] =
+	{
+		.name = _("GoraTurtle"),
+		.itemId = ITEM_CARD_GORA_TURTLE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GRACEFUL_CHARITY] =
+	{
+		.name = _("GracefulChari"),
+		.itemId = ITEM_CARD_GRACEFUL_CHARITY,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GRAVEKEEPER_S_ASSAILANT] =
+	{
+		.name = _("GravekeepersA"),
+		.itemId = ITEM_CARD_GRAVEKEEPER_S_ASSAILANT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GRAVEKEEPER_S_GUARD] =
+	{
+		.name = _("GravekeepersG"),
+		.itemId = ITEM_CARD_GRAVEKEEPER_S_GUARD,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GRAVEKEEPER_S_SPEAR_SOLDIER] =
+	{
+		.name = _("GravekeepersS"),
+		.itemId = ITEM_CARD_GRAVEKEEPER_S_SPEAR_SOLDIER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GRAVEKEEPER_S_SPY] =
+	{
+		.name = _("GravekeepersS"),
+		.itemId = ITEM_CARD_GRAVEKEEPER_S_SPY,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GRAVEKEEPER_S_WATCHER] =
+	{
+		.name = _("GravekeepersW"),
+		.itemId = ITEM_CARD_GRAVEKEEPER_S_WATCHER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GRAVITY_BIND] =
+	{
+		.name = _("GravityBind"),
+		.itemId = ITEM_CARD_GRAVITY_BIND,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GREAT_WHITE] =
+	{
+		.name = _("GreatWhite"),
+		.itemId = ITEM_CARD_GREAT_WHITE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GUARDIAN_SPHINX] =
+	{
+		.name = _("GuardianSphin"),
+		.itemId = ITEM_CARD_GUARDIAN_SPHINX,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GYAKU_GIRE_PANDA] =
+	{
+		.name = _("GyakuGirePand"),
+		.itemId = ITEM_CARD_GYAKU_GIRE_PANDA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GYAKUTENNO_MEGAMI] =
+	{
+		.name = _("GyakutennoMeg"),
+		.itemId = ITEM_CARD_GYAKUTENNO_MEGAMI,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_HALLOWED_LIFE_BARRIER] =
+	{
+		.name = _("HallowedLifeB"),
+		.itemId = ITEM_CARD_HALLOWED_LIFE_BARRIER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_HANE_HANE] =
+	{
+		.name = _("HaneHane"),
+		.itemId = ITEM_CARD_HANE_HANE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_HARPIE_S_FEATHER_DUSTER] =
+	{
+		.name = _("HarpiesFeathe"),
+		.itemId = ITEM_CARD_HARPIE_S_FEATHER_DUSTER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_HEAVY_STORM] =
+	{
+		.name = _("HeavyStorm"),
+		.itemId = ITEM_CARD_HEAVY_STORM,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_HIERACOSPHINX] =
+	{
+		.name = _("Hieracosphinx"),
+		.itemId = ITEM_CARD_HIERACOSPHINX,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_HORN_OF_HEAVEN] =
+	{
+		.name = _("HornofHeaven"),
+		.itemId = ITEM_CARD_HORN_OF_HEAVEN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_HOWLING_INSECT] =
+	{
+		.name = _("HowlingInsect"),
+		.itemId = ITEM_CARD_HOWLING_INSECT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_HUMANOID_SLIME] =
+	{
+		.name = _("HumanoidSlime"),
+		.itemId = ITEM_CARD_HUMANOID_SLIME,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_HYDROGEDDON] =
+	{
+		.name = _("Hydrogeddon"),
+		.itemId = ITEM_CARD_HYDROGEDDON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_HYPER_HAMMERHEAD] =
+	{
+		.name = _("HyperHammerhe"),
+		.itemId = ITEM_CARD_HYPER_HAMMERHEAD,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_IMPERIAL_ORDER] =
+	{
+		.name = _("ImperialOrder"),
+		.itemId = ITEM_CARD_IMPERIAL_ORDER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_INABA_WHITE_RABBIT] =
+	{
+		.name = _("InabaWhiteRab"),
+		.itemId = ITEM_CARD_INABA_WHITE_RABBIT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_INDOMITABLE_FIGHTER_LEI_LEI] =
+	{
+		.name = _("IndomitableFi"),
+		.itemId = ITEM_CARD_INDOMITABLE_FIGHTER_LEI_LEI,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_INJECTION_FAIRY_LILY] =
+	{
+		.name = _("InjectionFair"),
+		.itemId = ITEM_CARD_INJECTION_FAIRY_LILY,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_INPACHI] =
+	{
+		.name = _("Inpachi"),
+		.itemId = ITEM_CARD_INPACHI,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_INSECT_KNIGHT] =
+	{
+		.name = _("InsectKnight"),
+		.itemId = ITEM_CARD_INSECT_KNIGHT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ISLAND_TURTLE] =
+	{
+		.name = _("IslandTurtle"),
+		.itemId = ITEM_CARD_ISLAND_TURTLE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_JAR_OF_GREED] =
+	{
+		.name = _("JarofGreed"),
+		.itemId = ITEM_CARD_JAR_OF_GREED,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_JINZO] =
+	{
+		.name = _("Jinzo"),
+		.itemId = ITEM_CARD_JINZO,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_JIRAI_GUMO] =
+	{
+		.name = _("JiraiGumo"),
+		.itemId = ITEM_CARD_JIRAI_GUMO,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_JOWGEN_THE_SPIRITUALIST] =
+	{
+		.name = _("JowgentheSpir"),
+		.itemId = ITEM_CARD_JOWGEN_THE_SPIRITUALIST,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_JUDGE_MAN] =
+	{
+		.name = _("JudgeMan"),
+		.itemId = ITEM_CARD_JUDGE_MAN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_JUST_DESSERTS] =
+	{
+		.name = _("JustDesserts"),
+		.itemId = ITEM_CARD_JUST_DESSERTS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_KAISER_SEA_HORSE] =
+	{
+		.name = _("KaiserSeaHors"),
+		.itemId = ITEM_CARD_KAISER_SEA_HORSE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_KARMA_CUT] =
+	{
+		.name = _("KarmaCut"),
+		.itemId = ITEM_CARD_KARMA_CUT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_KING_DRAGUN] =
+	{
+		.name = _("KingDragun"),
+		.itemId = ITEM_CARD_KING_DRAGUN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_KING_OF_THE_SWAMP] =
+	{
+		.name = _("KingoftheSwam"),
+		.itemId = ITEM_CARD_KING_OF_THE_SWAMP,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_KING_TIGER_WANGHU] =
+	{
+		.name = _("KingTigerWang"),
+		.itemId = ITEM_CARD_KING_TIGER_WANGHU,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_KURIBOH] =
+	{
+		.name = _("Kuriboh"),
+		.itemId = ITEM_CARD_KURIBOH,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_KYCOO_THE_GHOST_DESTROYER] =
+	{
+		.name = _("KycootheGhost"),
+		.itemId = ITEM_CARD_KYCOO_THE_GHOST_DESTROYER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP] =
+	{
+		.name = _("LaJinntheMyst"),
+		.itemId = ITEM_CARD_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_LABYRINTH_TANK] =
+	{
+		.name = _("LabyrinthTank"),
+		.itemId = ITEM_CARD_LABYRINTH_TANK,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_LADY_NINJA_YAE] =
+	{
+		.name = _("LadyNinjaYae"),
+		.itemId = ITEM_CARD_LADY_NINJA_YAE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_LAST_WILL] =
+	{
+		.name = _("LastWill"),
+		.itemId = ITEM_CARD_LAST_WILL,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_LEFT_ARM_OF_THE_FORBIDDEN_ONE] =
+	{
+		.name = _("LeftArmoftheF"),
+		.itemId = ITEM_CARD_LEFT_ARM_OF_THE_FORBIDDEN_ONE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_LEFT_LEG_OF_THE_FORBIDDEN_ONE] =
+	{
+		.name = _("LeftLegoftheF"),
+		.itemId = ITEM_CARD_LEFT_LEG_OF_THE_FORBIDDEN_ONE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_LEGENDARY_JUJITSU_MASTER] =
+	{
+		.name = _("LegendaryJuji"),
+		.itemId = ITEM_CARD_LEGENDARY_JUJITSU_MASTER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_LEVEL_LIMIT_AREA_B] =
+	{
+		.name = _("LevelLimitAre"),
+		.itemId = ITEM_CARD_LEVEL_LIMIT_AREA_B,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_LEVIA_DRAGON_DAEDALUS] =
+	{
+		.name = _("LeviaDragonDa"),
+		.itemId = ITEM_CARD_LEVIA_DRAGON_DAEDALUS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_LIGHT_OF_INTERVENTION] =
+	{
+		.name = _("LightofInterv"),
+		.itemId = ITEM_CARD_LIGHT_OF_INTERVENTION,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_LIGHTNING_VORTEX] =
+	{
+		.name = _("LightningVort"),
+		.itemId = ITEM_CARD_LIGHTNING_VORTEX,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_LIMITER_REMOVAL] =
+	{
+		.name = _("LimiterRemova"),
+		.itemId = ITEM_CARD_LIMITER_REMOVAL,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_LUSTER_DRAGON] =
+	{
+		.name = _("LusterDragon"),
+		.itemId = ITEM_CARD_LUSTER_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MAD_DOG_OF_DARKNESS] =
+	{
+		.name = _("MadDogofDarkn"),
+		.itemId = ITEM_CARD_MAD_DOG_OF_DARKNESS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MAGE_POWER] =
+	{
+		.name = _("MagePower"),
+		.itemId = ITEM_CARD_MAGE_POWER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MAGIC_CYLINDER] =
+	{
+		.name = _("MagicCylinder"),
+		.itemId = ITEM_CARD_MAGIC_CYLINDER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MAGIC_JAMMER] =
+	{
+		.name = _("MagicJammer"),
+		.itemId = ITEM_CARD_MAGIC_JAMMER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MAGICAL_DIMENSION] =
+	{
+		.name = _("MagicalDimens"),
+		.itemId = ITEM_CARD_MAGICAL_DIMENSION,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MAGICAL_MERCHANT] =
+	{
+		.name = _("MagicalMercha"),
+		.itemId = ITEM_CARD_MAGICAL_MERCHANT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MAGICAL_SCIENTIST] =
+	{
+		.name = _("MagicalScient"),
+		.itemId = ITEM_CARD_MAGICAL_SCIENTIST,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MAGICIAN_OF_FAITH] =
+	{
+		.name = _("MagicianofFai"),
+		.itemId = ITEM_CARD_MAGICIAN_OF_FAITH,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MAGICIAN_S_CIRCLE] =
+	{
+		.name = _("MagiciansCirc"),
+		.itemId = ITEM_CARD_MAGICIAN_S_CIRCLE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MAGICIAN_S_VALKYRIA] =
+	{
+		.name = _("MagiciansValk"),
+		.itemId = ITEM_CARD_MAGICIAN_S_VALKYRIA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MAIDEN_OF_THE_AQUA] =
+	{
+		.name = _("MaidenoftheAq"),
+		.itemId = ITEM_CARD_MAIDEN_OF_THE_AQUA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MAKYURA_THE_DESTRUCTOR] =
+	{
+		.name = _("MakyuratheDes"),
+		.itemId = ITEM_CARD_MAKYURA_THE_DESTRUCTOR,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MAN_EATER_BUG] =
+	{
+		.name = _("ManEaterBug"),
+		.itemId = ITEM_CARD_MAN_EATER_BUG,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MANJU_OF_THE_TEN_THOUSAND_HANDS] =
+	{
+		.name = _("ManjuoftheTen"),
+		.itemId = ITEM_CARD_MANJU_OF_THE_TEN_THOUSAND_HANDS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MANTICORE_OF_DARKNESS] =
+	{
+		.name = _("ManticoreofDa"),
+		.itemId = ITEM_CARD_MANTICORE_OF_DARKNESS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MARAUDING_CAPTAIN] =
+	{
+		.name = _("MaraudingCapt"),
+		.itemId = ITEM_CARD_MARAUDING_CAPTAIN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MASK_OF_DARKNESS] =
+	{
+		.name = _("MaskofDarknes"),
+		.itemId = ITEM_CARD_MASK_OF_DARKNESS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MASK_OF_RESTRICT] =
+	{
+		.name = _("MaskofRestric"),
+		.itemId = ITEM_CARD_MASK_OF_RESTRICT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MASKED_DRAGON] =
+	{
+		.name = _("MaskedDragon"),
+		.itemId = ITEM_CARD_MASKED_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MASKED_SORCERER] =
+	{
+		.name = _("MaskedSorcere"),
+		.itemId = ITEM_CARD_MASKED_SORCERER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MATAZA_THE_ZAPPER] =
+	{
+		.name = _("MatazatheZapp"),
+		.itemId = ITEM_CARD_MATAZA_THE_ZAPPER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MECHANICALCHASER] =
+	{
+		.name = _("Mechanicalcha"),
+		.itemId = ITEM_CARD_MECHANICALCHASER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MEGAMORPH] =
+	{
+		.name = _("Megamorph"),
+		.itemId = ITEM_CARD_MEGAMORPH,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MERMAID_KNIGHT] =
+	{
+		.name = _("MermaidKnight"),
+		.itemId = ITEM_CARD_MERMAID_KNIGHT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MESSENGER_OF_PEACE] =
+	{
+		.name = _("MessengerofPe"),
+		.itemId = ITEM_CARD_MESSENGER_OF_PEACE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_METAL_REFLECT_SLIME] =
+	{
+		.name = _("MetalReflectS"),
+		.itemId = ITEM_CARD_METAL_REFLECT_SLIME,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_METAMORPHOSIS] =
+	{
+		.name = _("Metamorphosis"),
+		.itemId = ITEM_CARD_METAMORPHOSIS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MILUS_RADIANT] =
+	{
+		.name = _("MilusRadiant"),
+		.itemId = ITEM_CARD_MILUS_RADIANT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MINAR] =
+	{
+		.name = _("Minar"),
+		.itemId = ITEM_CARD_MINAR,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MIND_CONTROL] =
+	{
+		.name = _("MindControl"),
+		.itemId = ITEM_CARD_MIND_CONTROL,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MINE_GOLEM] =
+	{
+		.name = _("MineGolem"),
+		.itemId = ITEM_CARD_MINE_GOLEM,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MIRACLE_RESTORING] =
+	{
+		.name = _("MiracleRestor"),
+		.itemId = ITEM_CARD_MIRACLE_RESTORING,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MIRAGE_DRAGON] =
+	{
+		.name = _("MirageDragon"),
+		.itemId = ITEM_CARD_MIRAGE_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MIRAGE_OF_NIGHTMARE] =
+	{
+		.name = _("MirageofNight"),
+		.itemId = ITEM_CARD_MIRAGE_OF_NIGHTMARE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MIRROR_FORCE] =
+	{
+		.name = _("MirrorForce"),
+		.itemId = ITEM_CARD_MIRROR_FORCE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MOAI_INTERCEPTOR_CANNONS] =
+	{
+		.name = _("MoaiIntercept"),
+		.itemId = ITEM_CARD_MOAI_INTERCEPTOR_CANNONS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MOBIUS_THE_FROST_MONARCH] =
+	{
+		.name = _("MobiustheFros"),
+		.itemId = ITEM_CARD_MOBIUS_THE_FROST_MONARCH,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MONSTER_GATE] =
+	{
+		.name = _("MonsterGate"),
+		.itemId = ITEM_CARD_MONSTER_GATE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MONSTER_REBORN] =
+	{
+		.name = _("MonsterReborn"),
+		.itemId = ITEM_CARD_MONSTER_REBORN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MONSTER_REINCARNATION] =
+	{
+		.name = _("MonsterReinca"),
+		.itemId = ITEM_CARD_MONSTER_REINCARNATION,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MORPHING_JAR] =
+	{
+		.name = _("MorphingJar"),
+		.itemId = ITEM_CARD_MORPHING_JAR,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MOTHER_GRIZZLY] =
+	{
+		.name = _("MotherGrizzly"),
+		.itemId = ITEM_CARD_MOTHER_GRIZZLY,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MUKA_MUKA] =
+	{
+		.name = _("MukaMuka"),
+		.itemId = ITEM_CARD_MUKA_MUKA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MYSTIC_SWORDSMAN_LV2] =
+	{
+		.name = _("MysticSwordsm"),
+		.itemId = ITEM_CARD_MYSTIC_SWORDSMAN_LV2,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MYSTIC_SWORDSMAN_LV4] =
+	{
+		.name = _("MysticSwordsm"),
+		.itemId = ITEM_CARD_MYSTIC_SWORDSMAN_LV4,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MYSTIC_TOMATO] =
+	{
+		.name = _("MysticTomato"),
+		.itemId = ITEM_CARD_MYSTIC_TOMATO,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MYSTICAL_ELF] =
+	{
+		.name = _("MysticalElf"),
+		.itemId = ITEM_CARD_MYSTICAL_ELF,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MYSTICAL_SPACE_TYPHOON] =
+	{
+		.name = _("MysticalSpace"),
+		.itemId = ITEM_CARD_MYSTICAL_SPACE_TYPHOON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MYSTIK_WOK] =
+	{
+		.name = _("MystikWok"),
+		.itemId = ITEM_CARD_MYSTIK_WOK,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_NECROVALLEY] =
+	{
+		.name = _("Necrovalley"),
+		.itemId = ITEM_CARD_NECROVALLEY,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_NEEDLE_CEILING] =
+	{
+		.name = _("NeedleCeiling"),
+		.itemId = ITEM_CARD_NEEDLE_CEILING,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_NEKO_MANE_KING] =
+	{
+		.name = _("NekoManeKing"),
+		.itemId = ITEM_CARD_NEKO_MANE_KING,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_NEO_BUG] =
+	{
+		.name = _("NeoBug"),
+		.itemId = ITEM_CARD_NEO_BUG,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_NEO_THE_MAGIC_SWORDSMAN] =
+	{
+		.name = _("NeotheMagicSw"),
+		.itemId = ITEM_CARD_NEO_THE_MAGIC_SWORDSMAN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_NEWDORIA] =
+	{
+		.name = _("Newdoria"),
+		.itemId = ITEM_CARD_NEWDORIA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_NIGHT_ASSAILANT] =
+	{
+		.name = _("NightAssailan"),
+		.itemId = ITEM_CARD_NIGHT_ASSAILANT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_NIGHTMARE_WHEEL] =
+	{
+		.name = _("NightmareWhee"),
+		.itemId = ITEM_CARD_NIGHTMARE_WHEEL,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_NIGHTMARE_S_STEELCAGE] =
+	{
+		.name = _("NightmaresSte"),
+		.itemId = ITEM_CARD_NIGHTMARE_S_STEELCAGE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_NIMBLE_MOMONGA] =
+	{
+		.name = _("NimbleMomonga"),
+		.itemId = ITEM_CARD_NIMBLE_MOMONGA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_NIN_KEN_DOG] =
+	{
+		.name = _("NinKenDog"),
+		.itemId = ITEM_CARD_NIN_KEN_DOG,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_NINJA_GRANDMASTER_SASUKE] =
+	{
+		.name = _("NinjaGrandmas"),
+		.itemId = ITEM_CARD_NINJA_GRANDMASTER_SASUKE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_NOBLEMAN_OF_CROSSOUT] =
+	{
+		.name = _("NoblemanofCro"),
+		.itemId = ITEM_CARD_NOBLEMAN_OF_CROSSOUT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_NOBLEMAN_OF_EXTERMINATION] =
+	{
+		.name = _("NoblemanofExt"),
+		.itemId = ITEM_CARD_NOBLEMAN_OF_EXTERMINATION,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_OFFERINGS_TO_THE_DOOMED] =
+	{
+		.name = _("Offeringstoth"),
+		.itemId = ITEM_CARD_OFFERINGS_TO_THE_DOOMED,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_OJAMA_KING] =
+	{
+		.name = _("OjamaKing"),
+		.itemId = ITEM_CARD_OJAMA_KING,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_OJAMA_TRIO] =
+	{
+		.name = _("OjamaTrio"),
+		.itemId = ITEM_CARD_OJAMA_TRIO,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_OOKAZI] =
+	{
+		.name = _("Ookazi"),
+		.itemId = ITEM_CARD_OOKAZI,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_OPPRESSED_PEOPLE] =
+	{
+		.name = _("OppressedPeop"),
+		.itemId = ITEM_CARD_OPPRESSED_PEOPLE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_OPTICLOPS] =
+	{
+		.name = _("Opticlops"),
+		.itemId = ITEM_CARD_OPTICLOPS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_PAINFUL_CHOICE] =
+	{
+		.name = _("PainfulChoice"),
+		.itemId = ITEM_CARD_PAINFUL_CHOICE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_PALADIN_OF_WHITE_DRAGON] =
+	{
+		.name = _("PaladinofWhit"),
+		.itemId = ITEM_CARD_PALADIN_OF_WHITE_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_PENGUIN_KNIGHT] =
+	{
+		.name = _("PenguinKnight"),
+		.itemId = ITEM_CARD_PENGUIN_KNIGHT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_PHOENIX_WING_WIND_BLAST] =
+	{
+		.name = _("PhoenixWingWi"),
+		.itemId = ITEM_CARD_PHOENIX_WING_WIND_BLAST,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_PIKERU_S_CIRCLE_OF_ENCHANTMENT] =
+	{
+		.name = _("PikerusCircle"),
+		.itemId = ITEM_CARD_PIKERU_S_CIRCLE_OF_ENCHANTMENT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_PINCH_HOPPER] =
+	{
+		.name = _("PinchHopper"),
+		.itemId = ITEM_CARD_PINCH_HOPPER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_PITCH_BLACK_POWER_STONE] =
+	{
+		.name = _("PitchBlackPow"),
+		.itemId = ITEM_CARD_PITCH_BLACK_POWER_STONE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_POISON_OF_THE_OLD_MAN] =
+	{
+		.name = _("PoisonoftheOl"),
+		.itemId = ITEM_CARD_POISON_OF_THE_OLD_MAN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_POLYMERIZATION] =
+	{
+		.name = _("Polymerizatio"),
+		.itemId = ITEM_CARD_POLYMERIZATION,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_POT_OF_AVARICE] =
+	{
+		.name = _("PotofAvarice"),
+		.itemId = ITEM_CARD_POT_OF_AVARICE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_POT_OF_GENEROSITY] =
+	{
+		.name = _("PotofGenerosi"),
+		.itemId = ITEM_CARD_POT_OF_GENEROSITY,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_POT_OF_GREED] =
+	{
+		.name = _("PotofGreed"),
+		.itemId = ITEM_CARD_POT_OF_GREED,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_PREMATURE_BURIAL] =
+	{
+		.name = _("PrematureBuri"),
+		.itemId = ITEM_CARD_PREMATURE_BURIAL,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_PREVENT_RAT] =
+	{
+		.name = _("PreventRat"),
+		.itemId = ITEM_CARD_PREVENT_RAT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_PRICKLE_FAIRY] =
+	{
+		.name = _("PrickleFairy"),
+		.itemId = ITEM_CARD_PRICKLE_FAIRY,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_PRINCESS_OF_TSURUGI] =
+	{
+		.name = _("PrincessofTsu"),
+		.itemId = ITEM_CARD_PRINCESS_OF_TSURUGI,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_PROTECTOR_OF_THE_SANCTUARY] =
+	{
+		.name = _("Protectorofth"),
+		.itemId = ITEM_CARD_PROTECTOR_OF_THE_SANCTUARY,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_PYRAMID_TURTLE] =
+	{
+		.name = _("PyramidTurtle"),
+		.itemId = ITEM_CARD_PYRAMID_TURTLE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_RAIGEKI] =
+	{
+		.name = _("Raigeki"),
+		.itemId = ITEM_CARD_RAIGEKI,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_RAIGEKI_BREAK] =
+	{
+		.name = _("RaigekiBreak"),
+		.itemId = ITEM_CARD_RAIGEKI_BREAK,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_REAPER_ON_THE_NIGHTMARE] =
+	{
+		.name = _("ReaperontheNi"),
+		.itemId = ITEM_CARD_REAPER_ON_THE_NIGHTMARE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_REASONING] =
+	{
+		.name = _("Reasoning"),
+		.itemId = ITEM_CARD_REASONING,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_RECKLESS_GREED] =
+	{
+		.name = _("RecklessGreed"),
+		.itemId = ITEM_CARD_RECKLESS_GREED,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_REFLECT_BOUNDER] =
+	{
+		.name = _("ReflectBounde"),
+		.itemId = ITEM_CARD_REFLECT_BOUNDER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_REINFORCEMENT_OF_THE_ARMY] =
+	{
+		.name = _("Reinforcement"),
+		.itemId = ITEM_CARD_REINFORCEMENT_OF_THE_ARMY,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_REINFORCEMENTS] =
+	{
+		.name = _("Reinforcement"),
+		.itemId = ITEM_CARD_REINFORCEMENTS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_RELINQUISHED] =
+	{
+		.name = _("Relinquished"),
+		.itemId = ITEM_CARD_RELINQUISHED,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_RELOAD] =
+	{
+		.name = _("Reload"),
+		.itemId = ITEM_CARD_RELOAD,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_REMOVE_TRAP] =
+	{
+		.name = _("RemoveTrap"),
+		.itemId = ITEM_CARD_REMOVE_TRAP,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_RESCUE_CAT] =
+	{
+		.name = _("RescueCat"),
+		.itemId = ITEM_CARD_RESCUE_CAT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_RETURN_FROM_THE_DIFFERENT_DIMENSION] =
+	{
+		.name = _("Returnfromthe"),
+		.itemId = ITEM_CARD_RETURN_FROM_THE_DIFFERENT_DIMENSION,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_RIGHT_ARM_OF_THE_FORBIDDEN_ONE] =
+	{
+		.name = _("RightArmofthe"),
+		.itemId = ITEM_CARD_RIGHT_ARM_OF_THE_FORBIDDEN_ONE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_RIGHT_LEG_OF_THE_FORBIDDEN_ONE] =
+	{
+		.name = _("RightLegofthe"),
+		.itemId = ITEM_CARD_RIGHT_LEG_OF_THE_FORBIDDEN_ONE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_RING_OF_DESTRUCTION] =
+	{
+		.name = _("RingofDestruc"),
+		.itemId = ITEM_CARD_RING_OF_DESTRUCTION,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_RISING_AIR_CURRENT] =
+	{
+		.name = _("RisingAirCurr"),
+		.itemId = ITEM_CARD_RISING_AIR_CURRENT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ROBBIN_GOBLIN] =
+	{
+		.name = _("RobbinGoblin"),
+		.itemId = ITEM_CARD_ROBBIN_GOBLIN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ROULETTE_BARREL] =
+	{
+		.name = _("RouletteBarre"),
+		.itemId = ITEM_CARD_ROULETTE_BARREL,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ROYAL_DECREE] =
+	{
+		.name = _("RoyalDecree"),
+		.itemId = ITEM_CARD_ROYAL_DECREE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ROYAL_MAGICAL_LIBRARY] =
+	{
+		.name = _("RoyalMagicalL"),
+		.itemId = ITEM_CARD_ROYAL_MAGICAL_LIBRARY,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ROYAL_OPPRESSION] =
+	{
+		.name = _("RoyalOppressi"),
+		.itemId = ITEM_CARD_ROYAL_OPPRESSION,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_RUSH_RECKLESSLY] =
+	{
+		.name = _("RushRecklessl"),
+		.itemId = ITEM_CARD_RUSH_RECKLESSLY,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_RYU_KOKKI] =
+	{
+		.name = _("RyuKokki"),
+		.itemId = ITEM_CARD_RYU_KOKKI,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SABER_BEETLE] =
+	{
+		.name = _("SaberBeetle"),
+		.itemId = ITEM_CARD_SABER_BEETLE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SACRED_CRANE] =
+	{
+		.name = _("SacredCrane"),
+		.itemId = ITEM_CARD_SACRED_CRANE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SACRED_PHOENIX_OF_NEPHTHYS] =
+	{
+		.name = _("SacredPhoenix"),
+		.itemId = ITEM_CARD_SACRED_PHOENIX_OF_NEPHTHYS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SAKURETSU_ARMOR] =
+	{
+		.name = _("SakuretsuArmo"),
+		.itemId = ITEM_CARD_SAKURETSU_ARMOR,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SALVAGE] =
+	{
+		.name = _("Salvage"),
+		.itemId = ITEM_CARD_SALVAGE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SAND_MOTH] =
+	{
+		.name = _("SandMoth"),
+		.itemId = ITEM_CARD_SAND_MOTH,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SANGAN] =
+	{
+		.name = _("Sangan"),
+		.itemId = ITEM_CARD_SANGAN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SASUKE_SAMURAI] =
+	{
+		.name = _("SasukeSamurai"),
+		.itemId = ITEM_CARD_SASUKE_SAMURAI,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SASUKE_SAMURAI_4] =
+	{
+		.name = _("SasukeSamurai"),
+		.itemId = ITEM_CARD_SASUKE_SAMURAI_4,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SCAPEGOAT] =
+	{
+		.name = _("Scapegoat"),
+		.itemId = ITEM_CARD_SCAPEGOAT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SEA_SERPENT_WARRIOR_OF_DARKNESS] =
+	{
+		.name = _("SeaSerpentWar"),
+		.itemId = ITEM_CARD_SEA_SERPENT_WARRIOR_OF_DARKNESS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SECOND_COIN_TOSS] =
+	{
+		.name = _("SecondCoinTos"),
+		.itemId = ITEM_CARD_SECOND_COIN_TOSS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SECRET_BARREL] =
+	{
+		.name = _("SecretBarrel"),
+		.itemId = ITEM_CARD_SECRET_BARREL,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SELF_DESTRUCT_BUTTON] =
+	{
+		.name = _("SelfDestructB"),
+		.itemId = ITEM_CARD_SELF_DESTRUCT_BUTTON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SERIAL_SPELL] =
+	{
+		.name = _("SerialSpell"),
+		.itemId = ITEM_CARD_SERIAL_SPELL,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SERPENTINE_PRINCESS] =
+	{
+		.name = _("SerpentinePri"),
+		.itemId = ITEM_CARD_SERPENTINE_PRINCESS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT] =
+	{
+		.name = _("SevenToolsoft"),
+		.itemId = ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SHINING_ANGEL] =
+	{
+		.name = _("ShiningAngel"),
+		.itemId = ITEM_CARD_SHINING_ANGEL,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SHRINK] =
+	{
+		.name = _("Shrink"),
+		.itemId = ITEM_CARD_SHRINK,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SILLVA_WARLORD_OF_DARK_WORLD] =
+	{
+		.name = _("SillvaWarlord"),
+		.itemId = ITEM_CARD_SILLVA_WARLORD_OF_DARK_WORLD,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SILPHEED] =
+	{
+		.name = _("Silpheed"),
+		.itemId = ITEM_CARD_SILPHEED,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SINISTER_SERPENT] =
+	{
+		.name = _("SinisterSerpe"),
+		.itemId = ITEM_CARD_SINISTER_SERPENT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SKILL_DRAIN] =
+	{
+		.name = _("SkillDrain"),
+		.itemId = ITEM_CARD_SKILL_DRAIN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SKILLED_DARK_MAGICIAN] =
+	{
+		.name = _("SkilledDarkMa"),
+		.itemId = ITEM_CARD_SKILLED_DARK_MAGICIAN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SKILLED_WHITE_MAGICIAN] =
+	{
+		.name = _("SkilledWhiteM"),
+		.itemId = ITEM_CARD_SKILLED_WHITE_MAGICIAN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SKULL_DOG_MARRON] =
+	{
+		.name = _("SkullDogMarro"),
+		.itemId = ITEM_CARD_SKULL_DOG_MARRON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SKULL_LAIR] =
+	{
+		.name = _("SkullLair"),
+		.itemId = ITEM_CARD_SKULL_LAIR,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SKY_SCOUT] =
+	{
+		.name = _("SkyScout"),
+		.itemId = ITEM_CARD_SKY_SCOUT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SLATE_WARRIOR] =
+	{
+		.name = _("SlateWarrior"),
+		.itemId = ITEM_CARD_SLATE_WARRIOR,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SMASHING_GROUND] =
+	{
+		.name = _("SmashingGroun"),
+		.itemId = ITEM_CARD_SMASHING_GROUND,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SNATCH_STEAL] =
+	{
+		.name = _("SnatchSteal"),
+		.itemId = ITEM_CARD_SNATCH_STEAL,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SOLEMN_JUDGMENT] =
+	{
+		.name = _("SolemnJudgmen"),
+		.itemId = ITEM_CARD_SOLEMN_JUDGMENT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SOLEMN_WISHES] =
+	{
+		.name = _("SolemnWishes"),
+		.itemId = ITEM_CARD_SOLEMN_WISHES,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SOUL_EXCHANGE] =
+	{
+		.name = _("SoulExchange"),
+		.itemId = ITEM_CARD_SOUL_EXCHANGE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SOUL_TIGER] =
+	{
+		.name = _("SoulTiger"),
+		.itemId = ITEM_CARD_SOUL_TIGER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SPEAR_CRETIN] =
+	{
+		.name = _("SpearCretin"),
+		.itemId = ITEM_CARD_SPEAR_CRETIN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SPEAR_DRAGON] =
+	{
+		.name = _("SpearDragon"),
+		.itemId = ITEM_CARD_SPEAR_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SPELL_CANCELLER] =
+	{
+		.name = _("SpellCancelle"),
+		.itemId = ITEM_CARD_SPELL_CANCELLER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SPELL_REPRODUCTION] =
+	{
+		.name = _("SpellReproduc"),
+		.itemId = ITEM_CARD_SPELL_REPRODUCTION,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SPIRIT_OF_THE_HARP] =
+	{
+		.name = _("SpiritoftheHa"),
+		.itemId = ITEM_CARD_SPIRIT_OF_THE_HARP,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SPIRIT_REAPER] =
+	{
+		.name = _("SpiritReaper"),
+		.itemId = ITEM_CARD_SPIRIT_REAPER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SPIRITUAL_EARTH_ART_KUROGANE] =
+	{
+		.name = _("SpiritualEart"),
+		.itemId = ITEM_CARD_SPIRITUAL_EARTH_ART_KUROGANE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SPIRITUAL_WATER_ART_AOI] =
+	{
+		.name = _("SpiritualWate"),
+		.itemId = ITEM_CARD_SPIRITUAL_WATER_ART_AOI,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SPIRITUAL_WIND_ART_MIYABI] =
+	{
+		.name = _("SpiritualWind"),
+		.itemId = ITEM_CARD_SPIRITUAL_WIND_ART_MIYABI,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SPIRITUALISM] =
+	{
+		.name = _("Spiritualism"),
+		.itemId = ITEM_CARD_SPIRITUALISM,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_STEALTH_BIRD] =
+	{
+		.name = _("StealthBird"),
+		.itemId = ITEM_CARD_STEALTH_BIRD,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_STONE_STATUE_OF_THE_AZTECS] =
+	{
+		.name = _("StoneStatueof"),
+		.itemId = ITEM_CARD_STONE_STATUE_OF_THE_AZTECS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_STOP_DEFENSE] =
+	{
+		.name = _("StopDefense"),
+		.itemId = ITEM_CARD_STOP_DEFENSE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SUMMONED_SKULL] =
+	{
+		.name = _("SummonedSkull"),
+		.itemId = ITEM_CARD_SUMMONED_SKULL,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SWARM_OF_LOCUSTS] =
+	{
+		.name = _("SwarmofLocust"),
+		.itemId = ITEM_CARD_SWARM_OF_LOCUSTS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SWARM_OF_SCARABS] =
+	{
+		.name = _("SwarmofScarab"),
+		.itemId = ITEM_CARD_SWARM_OF_SCARABS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SWORDS_OF_REVEALING_LIGHT] =
+	{
+		.name = _("SwordsofRevea"),
+		.itemId = ITEM_CARD_SWORDS_OF_REVEALING_LIGHT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TERRAFORMING] =
+	{
+		.name = _("Terraforming"),
+		.itemId = ITEM_CARD_TERRAFORMING,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_THE_BIG_MARCH_OF_ANIMALS] =
+	{
+		.name = _("TheBigMarchof"),
+		.itemId = ITEM_CARD_THE_BIG_MARCH_OF_ANIMALS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_THE_DRAGON_DWELLING_IN_THE_CAVE] =
+	{
+		.name = _("TheDragonDwel"),
+		.itemId = ITEM_CARD_THE_DRAGON_DWELLING_IN_THE_CAVE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_THE_FIEND_MEGACYBER] =
+	{
+		.name = _("TheFiendMegac"),
+		.itemId = ITEM_CARD_THE_FIEND_MEGACYBER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_THE_FORCEFUL_SENTRY] =
+	{
+		.name = _("TheForcefulSe"),
+		.itemId = ITEM_CARD_THE_FORCEFUL_SENTRY,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_THE_FORGIVING_MAIDEN] =
+	{
+		.name = _("TheForgivingM"),
+		.itemId = ITEM_CARD_THE_FORGIVING_MAIDEN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET] =
+	{
+		.name = _("TheLastWarrio"),
+		.itemId = ITEM_CARD_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_THE_LITTLE_SWORDSMAN_OF_AILE] =
+	{
+		.name = _("TheLittleSwor"),
+		.itemId = ITEM_CARD_THE_LITTLE_SWORDSMAN_OF_AILE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_THE_WICKED_WORM_BEAST] =
+	{
+		.name = _("TheWickedWorm"),
+		.itemId = ITEM_CARD_THE_WICKED_WORM_BEAST,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH] =
+	{
+		.name = _("ThestalostheF"),
+		.itemId = ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_THOUSAND_EYES_RESTRICT] =
+	{
+		.name = _("ThousandEyesR"),
+		.itemId = ITEM_CARD_THOUSAND_EYES_RESTRICT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_THREATENING_ROAR] =
+	{
+		.name = _("ThreateningRo"),
+		.itemId = ITEM_CARD_THREATENING_ROAR,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_THROWSTONE_UNIT] =
+	{
+		.name = _("ThrowstoneUni"),
+		.itemId = ITEM_CARD_THROWSTONE_UNIT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_THUNDER_DRAGON] =
+	{
+		.name = _("ThunderDragon"),
+		.itemId = ITEM_CARD_THUNDER_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_THUNDER_NYAN_NYAN] =
+	{
+		.name = _("ThunderNyanNy"),
+		.itemId = ITEM_CARD_THUNDER_NYAN_NYAN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TIME_SEAL] =
+	{
+		.name = _("TimeSeal"),
+		.itemId = ITEM_CARD_TIME_SEAL,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TOON_CANNON_SOLDIER] =
+	{
+		.name = _("ToonCannonSol"),
+		.itemId = ITEM_CARD_TOON_CANNON_SOLDIER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TOON_DARK_MAGICIAN_GIRL] =
+	{
+		.name = _("ToonDarkMagic"),
+		.itemId = ITEM_CARD_TOON_DARK_MAGICIAN_GIRL,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TOON_GEMINI_ELF] =
+	{
+		.name = _("ToonGeminiElf"),
+		.itemId = ITEM_CARD_TOON_GEMINI_ELF,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TOON_GOBLIN_ATTACK_FORCE] =
+	{
+		.name = _("ToonGoblinAtt"),
+		.itemId = ITEM_CARD_TOON_GOBLIN_ATTACK_FORCE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TOON_MASKED_SORCERER] =
+	{
+		.name = _("ToonMaskedSor"),
+		.itemId = ITEM_CARD_TOON_MASKED_SORCERER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TOON_TABLE_OF_CONTENTS] =
+	{
+		.name = _("ToonTableofCo"),
+		.itemId = ITEM_CARD_TOON_TABLE_OF_CONTENTS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TORRENTIAL_TRIBUTE] =
+	{
+		.name = _("TorrentialTri"),
+		.itemId = ITEM_CARD_TORRENTIAL_TRIBUTE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TRAP_DUSTSHOOT] =
+	{
+		.name = _("TrapDustshoot"),
+		.itemId = ITEM_CARD_TRAP_DUSTSHOOT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TRAP_HOLE] =
+	{
+		.name = _("TrapHole"),
+		.itemId = ITEM_CARD_TRAP_HOLE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TRAP_MASTER] =
+	{
+		.name = _("TrapMaster"),
+		.itemId = ITEM_CARD_TRAP_MASTER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TREEBORN_FROG] =
+	{
+		.name = _("TreebornFrog"),
+		.itemId = ITEM_CARD_TREEBORN_FROG,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TREMENDOUS_FIRE] =
+	{
+		.name = _("TremendousFir"),
+		.itemId = ITEM_CARD_TREMENDOUS_FIRE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TRIBE_INFECTING_VIRUS] =
+	{
+		.name = _("TribeInfectin"),
+		.itemId = ITEM_CARD_TRIBE_INFECTING_VIRUS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TRIBUTE_TO_THE_DOOMED] =
+	{
+		.name = _("TributetotheD"),
+		.itemId = ITEM_CARD_TRIBUTE_TO_THE_DOOMED,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TSUKUYOMI] =
+	{
+		.name = _("Tsukuyomi"),
+		.itemId = ITEM_CARD_TSUKUYOMI,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TWIN_HEADED_BEHEMOTH] =
+	{
+		.name = _("TwinHeadedBeh"),
+		.itemId = ITEM_CARD_TWIN_HEADED_BEHEMOTH,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TWIN_HEADED_THUNDER_DRAGON] =
+	{
+		.name = _("TwinHeadedThu"),
+		.itemId = ITEM_CARD_TWIN_HEADED_THUNDER_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ULTIMATE_INSECT_LV3] =
+	{
+		.name = _("UltimateInsec"),
+		.itemId = ITEM_CARD_ULTIMATE_INSECT_LV3,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ULTIMATE_INSECT_LV5] =
+	{
+		.name = _("UltimateInsec"),
+		.itemId = ITEM_CARD_ULTIMATE_INSECT_LV5,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ULTIMATE_INSECT_LV7] =
+	{
+		.name = _("UltimateInsec"),
+		.itemId = ITEM_CARD_ULTIMATE_INSECT_LV7,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ULTIMATE_OFFERING] =
+	{
+		.name = _("UltimateOffer"),
+		.itemId = ITEM_CARD_ULTIMATE_OFFERING,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_UNITED_WE_STAND] =
+	{
+		.name = _("UnitedWeStand"),
+		.itemId = ITEM_CARD_UNITED_WE_STAND,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_UPSTART_GOBLIN] =
+	{
+		.name = _("UpstartGoblin"),
+		.itemId = ITEM_CARD_UPSTART_GOBLIN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_VAMPIRE_LORD] =
+	{
+		.name = _("VampireLord"),
+		.itemId = ITEM_CARD_VAMPIRE_LORD,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_VORSE_RAIDER] =
+	{
+		.name = _("VorseRaider"),
+		.itemId = ITEM_CARD_VORSE_RAIDER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_WABOKU] =
+	{
+		.name = _("Waboku"),
+		.itemId = ITEM_CARD_WABOKU,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_WALL_OF_ILLUSION] =
+	{
+		.name = _("WallofIllusio"),
+		.itemId = ITEM_CARD_WALL_OF_ILLUSION,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_WALL_OF_REVEALING_LIGHT] =
+	{
+		.name = _("WallofReveali"),
+		.itemId = ITEM_CARD_WALL_OF_REVEALING_LIGHT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_WAVE_MOTION_CANNON] =
+	{
+		.name = _("WaveMotionCan"),
+		.itemId = ITEM_CARD_WAVE_MOTION_CANNON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_WHITE_DRAGON_RITUAL] =
+	{
+		.name = _("WhiteDragonRi"),
+		.itemId = ITEM_CARD_WHITE_DRAGON_RITUAL,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_WHITE_MAGICAL_HAT] =
+	{
+		.name = _("WhiteMagicalH"),
+		.itemId = ITEM_CARD_WHITE_MAGICAL_HAT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_WIDESPREAD_RUIN] =
+	{
+		.name = _("WidespreadRui"),
+		.itemId = ITEM_CARD_WIDESPREAD_RUIN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_WITCH_OF_THE_BLACK_FOREST] =
+	{
+		.name = _("WitchoftheBla"),
+		.itemId = ITEM_CARD_WITCH_OF_THE_BLACK_FOREST,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_X_HEAD_CANNON] =
+	{
+		.name = _("XHeadCannon"),
+		.itemId = ITEM_CARD_X_HEAD_CANNON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_XING_ZHEN_HU] =
+	{
+		.name = _("XingZhenHu"),
+		.itemId = ITEM_CARD_XING_ZHEN_HU,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_YATA_GARASU] =
+	{
+		.name = _("YataGarasu"),
+		.itemId = ITEM_CARD_YATA_GARASU,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_YOMI_SHIP] =
+	{
+		.name = _("YomiShip"),
+		.itemId = ITEM_CARD_YOMI_SHIP,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ZABORG_THE_THUNDER_MONARCH] =
+	{
+		.name = _("ZaborgtheThun"),
+		.itemId = ITEM_CARD_ZABORG_THE_THUNDER_MONARCH,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ZOMBYRA_THE_DARK] =
+	{
+		.name = _("ZombyratheDar"),
+		.itemId = ITEM_CARD_ZOMBYRA_THE_DARK,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ZURE_KNIGHT_OF_DARK_WORLD] =
+	{
+		.name = _("ZureKnightofD"),
+		.itemId = ITEM_CARD_ZURE_KNIGHT_OF_DARK_WORLD,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ALBAZ_THE_ASHEN] =
+	{
+		.name = _("AlbaztheAshen"),
+		.itemId = ITEM_CARD_ALBAZ_THE_ASHEN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ALBION_THE_SHROUDED_DRAGON] =
+	{
+		.name = _("AlbiontheShro"),
+		.itemId = ITEM_CARD_ALBION_THE_SHROUDED_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ALUBER_THE_JESTER_OF_DESPIA] =
+	{
+		.name = _("AlubertheJest"),
+		.itemId = ITEM_CARD_ALUBER_THE_JESTER_OF_DESPIA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_AMAZONESS_SPIRITUALIST] =
+	{
+		.name = _("AmazonessSpir"),
+		.itemId = ITEM_CARD_AMAZONESS_SPIRITUALIST,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ANCIENT_GEAR_DRAGON] =
+	{
+		.name = _("AncientGearDr"),
+		.itemId = ITEM_CARD_ANCIENT_GEAR_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ANCIENT_GEAR_GOLEM_ULTIMATE_POUND] =
+	{
+		.name = _("AncientGearGo"),
+		.itemId = ITEM_CARD_ANCIENT_GEAR_GOLEM_ULTIMATE_POUND,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ANGMARL_THE_FIENDISH_MONARCH] =
+	{
+		.name = _("AngmarltheFie"),
+		.itemId = ITEM_CARD_ANGMARL_THE_FIENDISH_MONARCH,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_APPRENTICE_ILLUSION_MAGICIAN] =
+	{
+		.name = _("ApprenticeIll"),
+		.itemId = ITEM_CARD_APPRENTICE_ILLUSION_MAGICIAN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ARCHFIEND_CAVALRY] =
+	{
+		.name = _("ArchfiendCava"),
+		.itemId = ITEM_CARD_ARCHFIEND_CAVALRY,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ARCHFIEND_COMMANDER] =
+	{
+		.name = _("ArchfiendComm"),
+		.itemId = ITEM_CARD_ARCHFIEND_COMMANDER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ARCHFIEND_GIANT] =
+	{
+		.name = _("ArchfiendGian"),
+		.itemId = ITEM_CARD_ARCHFIEND_GIANT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ARCHFIEND_HEIRESS] =
+	{
+		.name = _("ArchfiendHeir"),
+		.itemId = ITEM_CARD_ARCHFIEND_HEIRESS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ARCHFIEND_INTERCEPTOR] =
+	{
+		.name = _("ArchfiendInte"),
+		.itemId = ITEM_CARD_ARCHFIEND_INTERCEPTOR,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ARCHFIEND_OF_GILFER] =
+	{
+		.name = _("ArchfiendofGi"),
+		.itemId = ITEM_CARD_ARCHFIEND_OF_GILFER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ARCHFIEND_S_ADVENT] =
+	{
+		.name = _("ArchfiendsAdv"),
+		.itemId = ITEM_CARD_ARCHFIEND_S_ADVENT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ARIEL_PRIESTESS_OF_THE_NEKROZ] =
+	{
+		.name = _("ArielPriestes"),
+		.itemId = ITEM_CARD_ARIEL_PRIESTESS_OF_THE_NEKROZ,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ARISEN_GAIA_THE_FIERCE_KNIGHT] =
+	{
+		.name = _("ArisenGaiathe"),
+		.itemId = ITEM_CARD_ARISEN_GAIA_THE_FIERCE_KNIGHT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ARMED_NINJA] =
+	{
+		.name = _("ArmedNinja"),
+		.itemId = ITEM_CARD_ARMED_NINJA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ARMORED_CYBERN] =
+	{
+		.name = _("ArmoredCybern"),
+		.itemId = ITEM_CARD_ARMORED_CYBERN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_AVANCE_SWORDSMAN_OF_THE_NEKROZ] =
+	{
+		.name = _("AvanceSwordsm"),
+		.itemId = ITEM_CARD_AVANCE_SWORDSMAN_OF_THE_NEKROZ,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BAKU_THE_BEAST_NINJA] =
+	{
+		.name = _("BakutheBeastN"),
+		.itemId = ITEM_CARD_BAKU_THE_BEAST_NINJA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BEAST_OF_TALWAR] =
+	{
+		.name = _("BeastofTalwar"),
+		.itemId = ITEM_CARD_BEAST_OF_TALWAR,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BEAST_OF_TALWAR_THE_SWORD_SUMMIT] =
+	{
+		.name = _("BeastofTalwar"),
+		.itemId = ITEM_CARD_BEAST_OF_TALWAR_THE_SWORD_SUMMIT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BEGINNING_KNIGHT] =
+	{
+		.name = _("BeginningKnig"),
+		.itemId = ITEM_CARD_BEGINNING_KNIGHT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BEIIGE_VANGUARD_OF_DARK_WORLD] =
+	{
+		.name = _("BeiigeVanguar"),
+		.itemId = ITEM_CARD_BEIIGE_VANGUARD_OF_DARK_WORLD,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BERLINETH_THE_FIRESTORM_VASSAL] =
+	{
+		.name = _("BerlineththeF"),
+		.itemId = ITEM_CARD_BERLINETH_THE_FIRESTORM_VASSAL,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BLACK_DRAGON_S_CHICK] =
+	{
+		.name = _("BlackDragonsC"),
+		.itemId = ITEM_CARD_BLACK_DRAGON_S_CHICK,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BLACK_METAL_DRAGON] =
+	{
+		.name = _("BlackMetalDra"),
+		.itemId = ITEM_CARD_BLACK_METAL_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BLAZING_CARTESIA_THE_VIRTUOUS] =
+	{
+		.name = _("BlazingCartes"),
+		.itemId = ITEM_CARD_BLAZING_CARTESIA_THE_VIRTUOUS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BLUE_FLAME_SWORDSMAN] =
+	{
+		.name = _("BlueFlameSwor"),
+		.itemId = ITEM_CARD_BLUE_FLAME_SWORDSMAN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BLUE_EYES_ALTERNATIVE_WHITE_DRAGON] =
+	{
+		.name = _("BlueEyesAlter"),
+		.itemId = ITEM_CARD_BLUE_EYES_ALTERNATIVE_WHITE_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BLUE_EYES_JET_DRAGON] =
+	{
+		.name = _("BlueEyesJetDr"),
+		.itemId = ITEM_CARD_BLUE_EYES_JET_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BLUE_EYES_TOON_DRAGON] =
+	{
+		.name = _("BlueEyesToonD"),
+		.itemId = ITEM_CARD_BLUE_EYES_TOON_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BONE_ARCHFIEND] =
+	{
+		.name = _("BoneArchfiend"),
+		.itemId = ITEM_CARD_BONE_ARCHFIEND,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BRILLIANT_ROSE] =
+	{
+		.name = _("BrilliantRose"),
+		.itemId = ITEM_CARD_BRILLIANT_ROSE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_BUSTER_BLADER_THE_DESTRUCTION_SWORDMASTER] =
+	{
+		.name = _("BusterBladert"),
+		.itemId = ITEM_CARD_BUSTER_BLADER_THE_DESTRUCTION_SWORDMASTER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CAIUS_THE_MEGA_MONARCH] =
+	{
+		.name = _("CaiustheMegaM"),
+		.itemId = ITEM_CARD_CAIUS_THE_MEGA_MONARCH,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CAIUS_THE_SHADOW_MONARCH] =
+	{
+		.name = _("CaiustheShado"),
+		.itemId = ITEM_CARD_CAIUS_THE_SHADOW_MONARCH,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CHAOS_NEPHTHYS] =
+	{
+		.name = _("ChaosNephthys"),
+		.itemId = ITEM_CARD_CHAOS_NEPHTHYS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CHARGING_GAIA_THE_FIERCE_KNIGHT] =
+	{
+		.name = _("ChargingGaiat"),
+		.itemId = ITEM_CARD_CHARGING_GAIA_THE_FIERCE_KNIGHT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CHRONICLE_MAGICIAN] =
+	{
+		.name = _("ChronicleMagi"),
+		.itemId = ITEM_CARD_CHRONICLE_MAGICIAN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CHRONICLE_SORCERESS] =
+	{
+		.name = _("ChronicleSorc"),
+		.itemId = ITEM_CARD_CHRONICLE_SORCERESS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CRIMSON_NINJA] =
+	{
+		.name = _("CrimsonNinja"),
+		.itemId = ITEM_CARD_CRIMSON_NINJA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CRYSTAL_ROSE] =
+	{
+		.name = _("CrystalRose"),
+		.itemId = ITEM_CARD_CRYSTAL_ROSE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CYBER_DRAGON_DREI] =
+	{
+		.name = _("CyberDragonDr"),
+		.itemId = ITEM_CARD_CYBER_DRAGON_DREI,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CYBER_DRAGON_VIER] =
+	{
+		.name = _("CyberDragonVi"),
+		.itemId = ITEM_CARD_CYBER_DRAGON_VIER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CYBER_DRAGON_ZWEI] =
+	{
+		.name = _("CyberDragonZw"),
+		.itemId = ITEM_CARD_CYBER_DRAGON_ZWEI,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CYBER_ELTANIN] =
+	{
+		.name = _("CyberEltanin"),
+		.itemId = ITEM_CARD_CYBER_ELTANIN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CYBER_LARVA] =
+	{
+		.name = _("CyberLarva"),
+		.itemId = ITEM_CARD_CYBER_LARVA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_CYBERDARK_WURM] =
+	{
+		.name = _("CyberdarkWurm"),
+		.itemId = ITEM_CARD_CYBERDARK_WURM,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DANCE_PRINCESS_OF_THE_NEKROZ] =
+	{
+		.name = _("DancePrincess"),
+		.itemId = ITEM_CARD_DANCE_PRINCESS_OF_THE_NEKROZ,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DARK_ERADICATOR_WARLOCK] =
+	{
+		.name = _("DarkEradicato"),
+		.itemId = ITEM_CARD_DARK_ERADICATOR_WARLOCK,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DARK_MAGICIAN_GIRL] =
+	{
+		.name = _("DarkMagicianG"),
+		.itemId = ITEM_CARD_DARK_MAGICIAN_GIRL,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DARK_MAGICIAN_GIRL_THE_MAGICIAN_S_APPRENTICE] =
+	{
+		.name = _("DarkMagicianG"),
+		.itemId = ITEM_CARD_DARK_MAGICIAN_GIRL_THE_MAGICIAN_S_APPRENTICE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DARK_NEPHTHYS] =
+	{
+		.name = _("DarkNephthys"),
+		.itemId = ITEM_CARD_DARK_NEPHTHYS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DEEP_EYES_WHITE_DRAGON] =
+	{
+		.name = _("DeepEyesWhite"),
+		.itemId = ITEM_CARD_DEEP_EYES_WHITE_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DEFENDER_OF_NEPHTHYS] =
+	{
+		.name = _("DefenderofNep"),
+		.itemId = ITEM_CARD_DEFENDER_OF_NEPHTHYS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DELG_THE_DARK_MONARCH] =
+	{
+		.name = _("DelgtheDarkMo"),
+		.itemId = ITEM_CARD_DELG_THE_DARK_MONARCH,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DICTATOR_OF_D_] =
+	{
+		.name = _("DictatorofD"),
+		.itemId = ITEM_CARD_DICTATOR_OF_D_,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DIMENSION_CONJURER] =
+	{
+		.name = _("DimensionConj"),
+		.itemId = ITEM_CARD_DIMENSION_CONJURER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DISCIPLE_OF_NEPHTHYS] =
+	{
+		.name = _("DiscipleofNep"),
+		.itemId = ITEM_CARD_DISCIPLE_OF_NEPHTHYS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_DUPE_FROG] =
+	{
+		.name = _("DupeFrog"),
+		.itemId = ITEM_CARD_DUPE_FROG,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_EHTHER_THE_HEAVENLY_MONARCH] =
+	{
+		.name = _("EhthertheHeav"),
+		.itemId = ITEM_CARD_EHTHER_THE_HEAVENLY_MONARCH,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_EIDOS_THE_UNDERWORLD_MONARCH] =
+	{
+		.name = _("EidostheUnder"),
+		.itemId = ITEM_CARD_EIDOS_THE_UNDERWORLD_MONARCH,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_EIDOS_THE_UNDERWORLD_SQUIRE] =
+	{
+		.name = _("EidostheUnder"),
+		.itemId = ITEM_CARD_EIDOS_THE_UNDERWORLD_SQUIRE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ELEMENTAL_HERO_BLAZEMAN] =
+	{
+		.name = _("ElementalHERO"),
+		.itemId = ITEM_CARD_ELEMENTAL_HERO_BLAZEMAN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ELEMENTAL_HERO_WOODSMAN] =
+	{
+		.name = _("ElementalHERO"),
+		.itemId = ITEM_CARD_ELEMENTAL_HERO_WOODSMAN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_EMILIA_DANCE_PRIESTESS_OF_THE_NEKROZ] =
+	{
+		.name = _("EmiliaDancePr"),
+		.itemId = ITEM_CARD_EMILIA_DANCE_PRIESTESS_OF_THE_NEKROZ,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ENVOY_OF_CHAOS] =
+	{
+		.name = _("EnvoyofChaos"),
+		.itemId = ITEM_CARD_ENVOY_OF_CHAOS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_EREBUS_THE_UNDERWORLD_MONARCH] =
+	{
+		.name = _("ErebustheUnde"),
+		.itemId = ITEM_CARD_EREBUS_THE_UNDERWORLD_MONARCH,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_EVENING_TWILIGHT_KNIGHT] =
+	{
+		.name = _("EveningTwilig"),
+		.itemId = ITEM_CARD_EVENING_TWILIGHT_KNIGHT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_EVILSWARM_HELIOTROPE] =
+	{
+		.name = _("EvilswarmHeli"),
+		.itemId = ITEM_CARD_EVILSWARM_HELIOTROPE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_EVILSWARM_KETOS] =
+	{
+		.name = _("EvilswarmKeto"),
+		.itemId = ITEM_CARD_EVILSWARM_KETOS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_EXA_ENFORCER_OF_THE_NEKROZ] =
+	{
+		.name = _("ExaEnforcerof"),
+		.itemId = ITEM_CARD_EXA_ENFORCER_OF_THE_NEKROZ,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_FALLEN_OF_ALBAZ] =
+	{
+		.name = _("FallenofAlbaz"),
+		.itemId = ITEM_CARD_FALLEN_OF_ALBAZ,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_FIGHTING_FLAME_SWORDSMAN] =
+	{
+		.name = _("FightingFlame"),
+		.itemId = ITEM_CARD_FIGHTING_FLAME_SWORDSMAN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_FLIP_FLOP_FROG] =
+	{
+		.name = _("FlipFlopFrog"),
+		.itemId = ITEM_CARD_FLIP_FLOP_FROG,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_FUSION_DEVOURER] =
+	{
+		.name = _("FusionDevoure"),
+		.itemId = ITEM_CARD_FUSION_DEVOURER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GAIA_THE_FIERCE_KNIGHT] =
+	{
+		.name = _("GaiaTheFierce"),
+		.itemId = ITEM_CARD_GAIA_THE_FIERCE_KNIGHT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GEARFRIED_THE_RED_EYES_IRON_KNIGHT] =
+	{
+		.name = _("GearfriedtheR"),
+		.itemId = ITEM_CARD_GEARFRIED_THE_RED_EYES_IRON_KNIGHT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GEM_ARMADILLO] =
+	{
+		.name = _("GemArmadillo"),
+		.itemId = ITEM_CARD_GEM_ARMADILLO,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GEM_ELEPHANT] =
+	{
+		.name = _("GemElephant"),
+		.itemId = ITEM_CARD_GEM_ELEPHANT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GEM_KNIGHT_ALEXANDRITE] =
+	{
+		.name = _("GemKnightAlex"),
+		.itemId = ITEM_CARD_GEM_KNIGHT_ALEXANDRITE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GEM_KNIGHT_EMERALD] =
+	{
+		.name = _("GemKnightEmer"),
+		.itemId = ITEM_CARD_GEM_KNIGHT_EMERALD,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GEM_KNIGHT_GARNET] =
+	{
+		.name = _("GemKnightGarn"),
+		.itemId = ITEM_CARD_GEM_KNIGHT_GARNET,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GEM_KNIGHT_HOLLOWCORE] =
+	{
+		.name = _("GemKnightHoll"),
+		.itemId = ITEM_CARD_GEM_KNIGHT_HOLLOWCORE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GEM_KNIGHT_NEPYRIM] =
+	{
+		.name = _("GemKnightNepy"),
+		.itemId = ITEM_CARD_GEM_KNIGHT_NEPYRIM,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GEM_KNIGHT_QUARTZ] =
+	{
+		.name = _("GemKnightQuar"),
+		.itemId = ITEM_CARD_GEM_KNIGHT_QUARTZ,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GEM_KNIGHT_SAPPHIRE] =
+	{
+		.name = _("GemKnightSapp"),
+		.itemId = ITEM_CARD_GEM_KNIGHT_SAPPHIRE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GEM_KNIGHT_TOURMALINE] =
+	{
+		.name = _("GemKnightTour"),
+		.itemId = ITEM_CARD_GEM_KNIGHT_TOURMALINE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GEM_TURTLE] =
+	{
+		.name = _("GemTurtle"),
+		.itemId = ITEM_CARD_GEM_TURTLE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GENTA_GATEMAN_OF_DARK_WORLD] =
+	{
+		.name = _("GentaGatemano"),
+		.itemId = ITEM_CARD_GENTA_GATEMAN_OF_DARK_WORLD,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GILTIA_THE_D_KNIGHT_SOUL_SPEAR] =
+	{
+		.name = _("GiltiatheDKni"),
+		.itemId = ITEM_CARD_GILTIA_THE_D_KNIGHT_SOUL_SPEAR,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GISHKI_ABYSS] =
+	{
+		.name = _("GishkiAbyss"),
+		.itemId = ITEM_CARD_GISHKI_ABYSS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GISHKI_ARIEL] =
+	{
+		.name = _("GishkiAriel"),
+		.itemId = ITEM_CARD_GISHKI_ARIEL,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GISHKI_AVANCE] =
+	{
+		.name = _("GishkiAvance"),
+		.itemId = ITEM_CARD_GISHKI_AVANCE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GISHKI_BEAST] =
+	{
+		.name = _("GishkiBeast"),
+		.itemId = ITEM_CARD_GISHKI_BEAST,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GISHKI_CHAIN] =
+	{
+		.name = _("GishkiChain"),
+		.itemId = ITEM_CARD_GISHKI_CHAIN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GISHKI_EMILIA] =
+	{
+		.name = _("GishkiEmilia"),
+		.itemId = ITEM_CARD_GISHKI_EMILIA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GISHKI_GRIMNESS] =
+	{
+		.name = _("GishkiGrimnes"),
+		.itemId = ITEM_CARD_GISHKI_GRIMNESS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GISHKI_MARKER] =
+	{
+		.name = _("GishkiMarker"),
+		.itemId = ITEM_CARD_GISHKI_MARKER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GISHKI_NATALIA] =
+	{
+		.name = _("GishkiNatalia"),
+		.itemId = ITEM_CARD_GISHKI_NATALIA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GISHKI_NOELLIA] =
+	{
+		.name = _("GishkiNoellia"),
+		.itemId = ITEM_CARD_GISHKI_NOELLIA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GISHKI_SHADOW] =
+	{
+		.name = _("GishkiShadow"),
+		.itemId = ITEM_CARD_GISHKI_SHADOW,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GISHKI_VANITY] =
+	{
+		.name = _("GishkiVanity"),
+		.itemId = ITEM_CARD_GISHKI_VANITY,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GISHKI_VISION] =
+	{
+		.name = _("GishkiVision"),
+		.itemId = ITEM_CARD_GISHKI_VISION,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GOBLIN_POTHOLE_SQUAD] =
+	{
+		.name = _("GoblinPothole"),
+		.itemId = ITEM_CARD_GOBLIN_POTHOLE_SQUAD,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GRANMARG_THE_MEGA_MONARCH] =
+	{
+		.name = _("GranmargtheMe"),
+		.itemId = ITEM_CARD_GRANMARG_THE_MEGA_MONARCH,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GRANMARG_THE_ROCK_MONARCH] =
+	{
+		.name = _("GranmargtheRo"),
+		.itemId = ITEM_CARD_GRANMARG_THE_ROCK_MONARCH,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GRAPHA_DRAGON_LORD_OF_DARK_WORLD] =
+	{
+		.name = _("GraphaDragonL"),
+		.itemId = ITEM_CARD_GRAPHA_DRAGON_LORD_OF_DARK_WORLD,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GREEN_NINJA] =
+	{
+		.name = _("GreenNinja"),
+		.itemId = ITEM_CARD_GREEN_NINJA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_GREN_TACTICIAN_OF_DARK_WORLD] =
+	{
+		.name = _("GrenTactician"),
+		.itemId = ITEM_CARD_GREN_TACTICIAN_OF_DARK_WORLD,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_HAND_OF_NEPHTHYS] =
+	{
+		.name = _("HandofNephthy"),
+		.itemId = ITEM_CARD_HAND_OF_NEPHTHYS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_HEART_OF_THE_BLUE_EYES] =
+	{
+		.name = _("HeartoftheBlu"),
+		.itemId = ITEM_CARD_HEART_OF_THE_BLUE_EYES,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_ICE_KNIGHT] =
+	{
+		.name = _("IceKnight"),
+		.itemId = ITEM_CARD_ICE_KNIGHT,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_INFERNALQUEEN_SALMON] =
+	{
+		.name = _("Infernalqueen"),
+		.itemId = ITEM_CARD_INFERNALQUEEN_SALMON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_JIOH_THE_GRAVITY_NINJA] =
+	{
+		.name = _("JiohtheGravit"),
+		.itemId = ITEM_CARD_JIOH_THE_GRAVITY_NINJA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_KAGERO_THE_CANNON_NINJA] =
+	{
+		.name = _("KagerotheCann"),
+		.itemId = ITEM_CARD_KAGERO_THE_CANNON_NINJA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_KAIBAMAN] =
+	{
+		.name = _("Kaibaman"),
+		.itemId = ITEM_CARD_KAIBAMAN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_KEEPER_OF_DRAGON_MAGIC] =
+	{
+		.name = _("KeeperofDrago"),
+		.itemId = ITEM_CARD_KEEPER_OF_DRAGON_MAGIC,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_KEEPER_OF_THE_SHRINE] =
+	{
+		.name = _("KeeperoftheSh"),
+		.itemId = ITEM_CARD_KEEPER_OF_THE_SHRINE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_LABRYNTH_ARCHFIEND] =
+	{
+		.name = _("LabrynthArchf"),
+		.itemId = ITEM_CARD_LABRYNTH_ARCHFIEND,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_LANCER_ARCHFIEND] =
+	{
+		.name = _("LancerArchfie"),
+		.itemId = ITEM_CARD_LANCER_ARCHFIEND,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_LESSER_FIEND] =
+	{
+		.name = _("LesserFiend"),
+		.itemId = ITEM_CARD_LESSER_FIEND,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_LORD_OF_D_] =
+	{
+		.name = _("LordofD"),
+		.itemId = ITEM_CARD_LORD_OF_D_,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_LUCENT_NETHERLORD_OF_DARK_WORLD] =
+	{
+		.name = _("LucentNetherl"),
+		.itemId = ITEM_CARD_LUCENT_NETHERLORD_OF_DARK_WORLD,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_LUCIUS_THE_SHADOW_VASSAL] =
+	{
+		.name = _("LuciustheShad"),
+		.itemId = ITEM_CARD_LUCIUS_THE_SHADOW_VASSAL,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MAD_ARCHFIEND] =
+	{
+		.name = _("MadArchfiend"),
+		.itemId = ITEM_CARD_MAD_ARCHFIEND,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MAGICIAN_OF_DARK_ILLUSION] =
+	{
+		.name = _("MagicianofDar"),
+		.itemId = ITEM_CARD_MAGICIAN_OF_DARK_ILLUSION,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MAGICIAN_S_ROBE] =
+	{
+		.name = _("MagiciansRobe"),
+		.itemId = ITEM_CARD_MAGICIAN_S_ROBE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MAGICIAN_S_ROD] =
+	{
+		.name = _("MagiciansRod"),
+		.itemId = ITEM_CARD_MAGICIAN_S_ROD,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MAGICIANS_SOULS] =
+	{
+		.name = _("MagiciansSoul"),
+		.itemId = ITEM_CARD_MAGICIANS_SOULS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MAGIKURIBOH] =
+	{
+		.name = _("Magikuriboh"),
+		.itemId = ITEM_CARD_MAGIKURIBOH,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MAIDEN_OF_WHITE] =
+	{
+		.name = _("MaidenofWhite"),
+		.itemId = ITEM_CARD_MAIDEN_OF_WHITE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MAIDEN_WITH_EYES_OF_BLUE] =
+	{
+		.name = _("MaidenwithEye"),
+		.itemId = ITEM_CARD_MAIDEN_WITH_EYES_OF_BLUE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MALEFIC_BLUE_EYES_WHITE_DRAGON] =
+	{
+		.name = _("MaleficBlueEy"),
+		.itemId = ITEM_CARD_MALEFIC_BLUE_EYES_WHITE_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MALEFIC_CYBER_END_DRAGON] =
+	{
+		.name = _("MaleficCyberE"),
+		.itemId = ITEM_CARD_MALEFIC_CYBER_END_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MALEFIC_RED_EYES_BLACK_DRAGON] =
+	{
+		.name = _("MaleficRedEye"),
+		.itemId = ITEM_CARD_MALEFIC_RED_EYES_BLACK_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MASKED_NINJA_EBISU] =
+	{
+		.name = _("MaskedNinjaEb"),
+		.itemId = ITEM_CARD_MASKED_NINJA_EBISU,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MASTER_WITH_EYES_OF_BLUE] =
+	{
+		.name = _("MasterwithEye"),
+		.itemId = ITEM_CARD_MASTER_WITH_EYES_OF_BLUE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MATRIARCH_OF_NEPHTHYS] =
+	{
+		.name = _("MatriarchofNe"),
+		.itemId = ITEM_CARD_MATRIARCH_OF_NEPHTHYS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_METALFLAME_SWORDSMAN] =
+	{
+		.name = _("MetalflameSwo"),
+		.itemId = ITEM_CARD_METALFLAME_SWORDSMAN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_METEOR_DRAGON] =
+	{
+		.name = _("MeteorDragon"),
+		.itemId = ITEM_CARD_METEOR_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MITSU_THE_INSECT_NINJA] =
+	{
+		.name = _("MitsutheInsec"),
+		.itemId = ITEM_CARD_MITSU_THE_INSECT_NINJA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MOBIUS_THE_MEGA_MONARCH] =
+	{
+		.name = _("MobiustheMega"),
+		.itemId = ITEM_CARD_MOBIUS_THE_MEGA_MONARCH,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_MYSTICAL_ELF_WHITE_LIGHTNING] =
+	{
+		.name = _("MysticalElfWh"),
+		.itemId = ITEM_CARD_MYSTICAL_ELF_WHITE_LIGHTNING,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_NAELSHADDOLL_ARIEL] =
+	{
+		.name = _("NaelshaddollA"),
+		.itemId = ITEM_CARD_NAELSHADDOLL_ARIEL,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_NEO_KAISER_SEA_HORSE] =
+	{
+		.name = _("NeoKaiserSeaH"),
+		.itemId = ITEM_CARD_NEO_KAISER_SEA_HORSE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_NINJA_GRANDMASTER_HANZO] =
+	{
+		.name = _("NinjaGrandmas"),
+		.itemId = ITEM_CARD_NINJA_GRANDMASTER_HANZO,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_PALLADIUM_ORACLE_MAHAD] =
+	{
+		.name = _("PalladiumOrac"),
+		.itemId = ITEM_CARD_PALLADIUM_ORACLE_MAHAD,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_PARL_HERMIT_OF_DARK_WORLD] =
+	{
+		.name = _("ParlHermitofD"),
+		.itemId = ITEM_CARD_PARL_HERMIT_OF_DARK_WORLD,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_PENGUIN_NINJA] =
+	{
+		.name = _("PenguinNinja"),
+		.itemId = ITEM_CARD_PENGUIN_NINJA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_PRIESTESS_WITH_EYES_OF_BLUE] =
+	{
+		.name = _("Priestesswith"),
+		.itemId = ITEM_CARD_PRIESTESS_WITH_EYES_OF_BLUE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_PROTECTOR_WITH_EYES_OF_BLUE] =
+	{
+		.name = _("Protectorwith"),
+		.itemId = ITEM_CARD_PROTECTOR_WITH_EYES_OF_BLUE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_QADSHADDOLL_KEIOS] =
+	{
+		.name = _("QadshaddollKe"),
+		.itemId = ITEM_CARD_QADSHADDOLL_KEIOS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_RAIZA_THE_MEGA_MONARCH] =
+	{
+		.name = _("RaizatheMegaM"),
+		.itemId = ITEM_CARD_RAIZA_THE_MEGA_MONARCH,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_RED_DRAGON_NINJA] =
+	{
+		.name = _("RedDragonNinj"),
+		.itemId = ITEM_CARD_RED_DRAGON_NINJA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_RED_EYES_ALTERNATIVE_BLACK_DRAGON] =
+	{
+		.name = _("RedEyesAltern"),
+		.itemId = ITEM_CARD_RED_EYES_ALTERNATIVE_BLACK_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_RED_EYES_BABY_DRAGON] =
+	{
+		.name = _("RedEyesBabyDr"),
+		.itemId = ITEM_CARD_RED_EYES_BABY_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_RED_EYES_BLACK_DRAGON] =
+	{
+		.name = _("RedEyesBlackD"),
+		.itemId = ITEM_CARD_RED_EYES_BLACK_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_RED_EYES_BLACK_METEOR_DRAGON] =
+	{
+		.name = _("RedEyesBlackM"),
+		.itemId = ITEM_CARD_RED_EYES_BLACK_METEOR_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_RED_EYES_DARKNESS_METAL_DRAGON] =
+	{
+		.name = _("RedEyesDarkne"),
+		.itemId = ITEM_CARD_RED_EYES_DARKNESS_METAL_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_RED_EYES_RETRO_DRAGON] =
+	{
+		.name = _("RedEyesRetroD"),
+		.itemId = ITEM_CARD_RED_EYES_RETRO_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_RED_EYES_SOUL] =
+	{
+		.name = _("RedEyesSoul"),
+		.itemId = ITEM_CARD_RED_EYES_SOUL,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_RED_EYES_TOON_DRAGON] =
+	{
+		.name = _("RedEyesToonDr"),
+		.itemId = ITEM_CARD_RED_EYES_TOON_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_RED_EYES_WYVERN] =
+	{
+		.name = _("RedEyesWyvern"),
+		.itemId = ITEM_CARD_RED_EYES_WYVERN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_RED_EYES_ZOMBIE_DRAGON] =
+	{
+		.name = _("RedEyesZombie"),
+		.itemId = ITEM_CARD_RED_EYES_ZOMBIE_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_REESHADDOLL_WENDI] =
+	{
+		.name = _("ReeshaddollWe"),
+		.itemId = ITEM_CARD_REESHADDOLL_WENDI,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_REIGN_BEAUX_OVERKING_OF_DARK_WORLD] =
+	{
+		.name = _("ReignBeauxOve"),
+		.itemId = ITEM_CARD_REIGN_BEAUX_OVERKING_OF_DARK_WORLD,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_RELINKURIBOH] =
+	{
+		.name = _("Relinkuriboh"),
+		.itemId = ITEM_CARD_RELINKURIBOH,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_RENGE_GATEKEEPER_OF_DARK_WORLD] =
+	{
+		.name = _("RengeGatekeep"),
+		.itemId = ITEM_CARD_RENGE_GATEKEEPER_OF_DARK_WORLD,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_RIDER_OF_THE_STORM_WINDS] =
+	{
+		.name = _("RideroftheSto"),
+		.itemId = ITEM_CARD_RIDER_OF_THE_STORM_WINDS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_RONINTOADIN] =
+	{
+		.name = _("Ronintoadin"),
+		.itemId = ITEM_CARD_RONINTOADIN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SAGE_WITH_EYES_OF_BLUE] =
+	{
+		.name = _("SagewithEyeso"),
+		.itemId = ITEM_CARD_SAGE_WITH_EYES_OF_BLUE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SALAMANDRA_THE_FLYING_FLAME_DRAGON] =
+	{
+		.name = _("Salamandrathe"),
+		.itemId = ITEM_CARD_SALAMANDRA_THE_FLYING_FLAME_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SCARR_SCOUT_OF_DARK_WORLD] =
+	{
+		.name = _("ScarrScoutofD"),
+		.itemId = ITEM_CARD_SCARR_SCOUT_OF_DARK_WORLD,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SENIOR_SILVER_NINJA] =
+	{
+		.name = _("SeniorSilverN"),
+		.itemId = ITEM_CARD_SENIOR_SILVER_NINJA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SENJU_OF_THE_THOUSAND_HANDS] =
+	{
+		.name = _("SenjuoftheTho"),
+		.itemId = ITEM_CARD_SENJU_OF_THE_THOUSAND_HANDS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SHADDOLL_BEAST] =
+	{
+		.name = _("ShaddollBeast"),
+		.itemId = ITEM_CARD_SHADDOLL_BEAST,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SHADDOLL_DRAGON] =
+	{
+		.name = _("ShaddollDrago"),
+		.itemId = ITEM_CARD_SHADDOLL_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SHADDOLL_FALCO] =
+	{
+		.name = _("ShaddollFalco"),
+		.itemId = ITEM_CARD_SHADDOLL_FALCO,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SHADDOLL_HEDGEHOG] =
+	{
+		.name = _("ShaddollHedge"),
+		.itemId = ITEM_CARD_SHADDOLL_HEDGEHOG,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SHADDOLL_HOUND] =
+	{
+		.name = _("ShaddollHound"),
+		.itemId = ITEM_CARD_SHADDOLL_HOUND,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SHURIT_STRATEGIST_OF_THE_NEKROZ] =
+	{
+		.name = _("ShuritStrateg"),
+		.itemId = ITEM_CARD_SHURIT_STRATEGIST_OF_THE_NEKROZ,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SKILLED_RED_MAGICIAN] =
+	{
+		.name = _("SkilledRedMag"),
+		.itemId = ITEM_CARD_SKILLED_RED_MAGICIAN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SNOWW_UNLIGHT_OF_DARK_WORLD] =
+	{
+		.name = _("SnowwUnlighto"),
+		.itemId = ITEM_CARD_SNOWW_UNLIGHT_OF_DARK_WORLD,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SONIC_BIRD] =
+	{
+		.name = _("SonicBird"),
+		.itemId = ITEM_CARD_SONIC_BIRD,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SPHERE_KURIBOH] =
+	{
+		.name = _("SphereKuriboh"),
+		.itemId = ITEM_CARD_SPHERE_KURIBOH,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SUBSTITOAD] =
+	{
+		.name = _("Substitoad"),
+		.itemId = ITEM_CARD_SUBSTITOAD,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SUPER_SOLDIER_SOUL] =
+	{
+		.name = _("SuperSoldierS"),
+		.itemId = ITEM_CARD_SUPER_SOLDIER_SOUL,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_SWAP_FROG] =
+	{
+		.name = _("SwapFrog"),
+		.itemId = ITEM_CARD_SWAP_FROG,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_T_A_D_P_O_L_E_] =
+	{
+		.name = _("TADPOLE"),
+		.itemId = ITEM_CARD_T_A_D_P_O_L_E_,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TENMATAITEI] =
+	{
+		.name = _("Tenmataitei"),
+		.itemId = ITEM_CARD_TENMATAITEI,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TERRORKING_SALMON] =
+	{
+		.name = _("TerrorkingSal"),
+		.itemId = ITEM_CARD_TERRORKING_SALMON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_THE_BLACK_STONE_OF_LEGEND] =
+	{
+		.name = _("TheBlackStone"),
+		.itemId = ITEM_CARD_THE_BLACK_STONE_OF_LEGEND,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_THE_BYSTIAL_ALUBER] =
+	{
+		.name = _("TheBystialAlu"),
+		.itemId = ITEM_CARD_THE_BYSTIAL_ALUBER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_THE_BYSTIAL_LUBELLION] =
+	{
+		.name = _("TheBystialLub"),
+		.itemId = ITEM_CARD_THE_BYSTIAL_LUBELLION,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_THE_DARK_HEX_SEALED_FUSION] =
+	{
+		.name = _("TheDarkHexSea"),
+		.itemId = ITEM_CARD_THE_DARK_HEX_SEALED_FUSION,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_THE_EARTH_HEX_SEALED_FUSION] =
+	{
+		.name = _("TheEarthHexSe"),
+		.itemId = ITEM_CARD_THE_EARTH_HEX_SEALED_FUSION,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_THE_GOLDEN_SWORDSOUL] =
+	{
+		.name = _("TheGoldenSwor"),
+		.itemId = ITEM_CARD_THE_GOLDEN_SWORDSOUL,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_THE_LIGHT_HEX_SEALED_FUSION] =
+	{
+		.name = _("TheLightHexSe"),
+		.itemId = ITEM_CARD_THE_LIGHT_HEX_SEALED_FUSION,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_THE_WHITE_STONE_OF_ANCIENTS] =
+	{
+		.name = _("TheWhiteStone"),
+		.itemId = ITEM_CARD_THE_WHITE_STONE_OF_ANCIENTS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_THE_WHITE_STONE_OF_LEGEND] =
+	{
+		.name = _("TheWhiteStone"),
+		.itemId = ITEM_CARD_THE_WHITE_STONE_OF_LEGEND,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_THESTALOS_THE_MEGA_MONARCH] =
+	{
+		.name = _("ThestalostheM"),
+		.itemId = ITEM_CARD_THESTALOS_THE_MEGA_MONARCH,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_THESTALOS_THE_SHADOWFIRE_MONARCH] =
+	{
+		.name = _("ThestalostheS"),
+		.itemId = ITEM_CARD_THESTALOS_THE_SHADOWFIRE_MONARCH,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_THUNDER_DRAGONDARK] =
+	{
+		.name = _("ThunderDragon"),
+		.itemId = ITEM_CARD_THUNDER_DRAGONDARK,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_THUNDER_DRAGONDUO] =
+	{
+		.name = _("ThunderDragon"),
+		.itemId = ITEM_CARD_THUNDER_DRAGONDUO,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_THUNDER_DRAGONHAWK] =
+	{
+		.name = _("ThunderDragon"),
+		.itemId = ITEM_CARD_THUNDER_DRAGONHAWK,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_THUNDER_DRAGONLORD] =
+	{
+		.name = _("ThunderDragon"),
+		.itemId = ITEM_CARD_THUNDER_DRAGONLORD,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_THUNDER_DRAGONMATRIX] =
+	{
+		.name = _("ThunderDragon"),
+		.itemId = ITEM_CARD_THUNDER_DRAGONMATRIX,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_THUNDER_DRAGONROAR] =
+	{
+		.name = _("ThunderDragon"),
+		.itemId = ITEM_CARD_THUNDER_DRAGONROAR,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_THUNDER_SEA_HORSE] =
+	{
+		.name = _("ThunderSeaHor"),
+		.itemId = ITEM_CARD_THUNDER_SEA_HORSE,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TIMAEUS_THE_UNITED_DRAGON] =
+	{
+		.name = _("TimaeustheUni"),
+		.itemId = ITEM_CARD_TIMAEUS_THE_UNITED_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TLAKALEL_HIS_MALEVOLENT_MAJESTY] =
+	{
+		.name = _("TlakalelHisMa"),
+		.itemId = ITEM_CARD_TLAKALEL_HIS_MALEVOLENT_MAJESTY,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TOBARI_THE_SKY_NINJA] =
+	{
+		.name = _("TobaritheSkyN"),
+		.itemId = ITEM_CARD_TOBARI_THE_SKY_NINJA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TOON_CYBER_DRAGON] =
+	{
+		.name = _("ToonCyberDrag"),
+		.itemId = ITEM_CARD_TOON_CYBER_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TOON_SUMMONED_SKULL] =
+	{
+		.name = _("ToonSummonedS"),
+		.itemId = ITEM_CARD_TOON_SUMMONED_SKULL,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TRADETOAD] =
+	{
+		.name = _("Tradetoad"),
+		.itemId = ITEM_CARD_TRADETOAD,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TRAPTRIX_ARACHNOCAMPA] =
+	{
+		.name = _("TraptrixArach"),
+		.itemId = ITEM_CARD_TRAPTRIX_ARACHNOCAMPA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TRAPTRIX_ATRAX] =
+	{
+		.name = _("TraptrixAtrax"),
+		.itemId = ITEM_CARD_TRAPTRIX_ATRAX,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TRAPTRIX_DIONAEA] =
+	{
+		.name = _("TraptrixDiona"),
+		.itemId = ITEM_CARD_TRAPTRIX_DIONAEA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TRAPTRIX_GENLISEA] =
+	{
+		.name = _("TraptrixGenli"),
+		.itemId = ITEM_CARD_TRAPTRIX_GENLISEA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TRAPTRIX_MANTIS] =
+	{
+		.name = _("TraptrixManti"),
+		.itemId = ITEM_CARD_TRAPTRIX_MANTIS,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TRAPTRIX_MYRMELEO] =
+	{
+		.name = _("TraptrixMyrme"),
+		.itemId = ITEM_CARD_TRAPTRIX_MYRMELEO,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TRAPTRIX_NEPENTHES] =
+	{
+		.name = _("TraptrixNepen"),
+		.itemId = ITEM_CARD_TRAPTRIX_NEPENTHES,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TRAPTRIX_PUDICA] =
+	{
+		.name = _("TraptrixPudic"),
+		.itemId = ITEM_CARD_TRAPTRIX_PUDICA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TRAPTRIX_VESICULO] =
+	{
+		.name = _("TraptrixVesic"),
+		.itemId = ITEM_CARD_TRAPTRIX_VESICULO,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TWILIGHT_NINJA_GETSUGA_THE_SHOGUN] =
+	{
+		.name = _("TwilightNinja"),
+		.itemId = ITEM_CARD_TWILIGHT_NINJA_GETSUGA_THE_SHOGUN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TWILIGHT_NINJA_NICHIRIN_THE_CHUNIN] =
+	{
+		.name = _("TwilightNinja"),
+		.itemId = ITEM_CARD_TWILIGHT_NINJA_NICHIRIN_THE_CHUNIN,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_TWILIGHT_NINJA_SHINGETSU] =
+	{
+		.name = _("TwilightNinja"),
+		.itemId = ITEM_CARD_TWILIGHT_NINJA_SHINGETSU,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_UPSTART_GOLDEN_NINJA] =
+	{
+		.name = _("UpstartGolden"),
+		.itemId = ITEM_CARD_UPSTART_GOLDEN_NINJA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_VISION_HERO_VYON] =
+	{
+		.name = _("VisionHEROVyo"),
+		.itemId = ITEM_CARD_VISION_HERO_VYON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_WHITE_DRAGON_NINJA] =
+	{
+		.name = _("WhiteDragonNi"),
+		.itemId = ITEM_CARD_WHITE_DRAGON_NINJA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_WHITE_NIGHT_DRAGON] =
+	{
+		.name = _("WhiteNightDra"),
+		.itemId = ITEM_CARD_WHITE_NIGHT_DRAGON,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_WHITE_NINJA] =
+	{
+		.name = _("WhiteNinja"),
+		.itemId = ITEM_CARD_WHITE_NINJA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_WROUGHTWEILER] =
+	{
+		.name = _("Wroughtweiler"),
+		.itemId = ITEM_CARD_WROUGHTWEILER,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_YELLOW_DRAGON_NINJA] =
+	{
+		.name = _("YellowDragonN"),
+		.itemId = ITEM_CARD_YELLOW_DRAGON_NINJA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_CARD_YELLOW_NINJA] =
+	{
+		.name = _("YellowNinja"),
+		.itemId = ITEM_CARD_YELLOW_NINJA,
+		.price = 0,
+		.description = sDummyDesc,
+		.pocket = POCKET_TRUNK,
+		.type = ITEM_USE_FIELD,
+		.fieldUseFunc = ItemUseOutOfBattle_Card,
+	},
+
+		[ITEM_PACK_2_PLAYER_STARTER_DECK_YUYA_DECLAN] =
     {
         .name = _("2-Player Star"),
         .itemId = ITEM_PACK_2_PLAYER_STARTER_DECK_YUYA_DECLAN,

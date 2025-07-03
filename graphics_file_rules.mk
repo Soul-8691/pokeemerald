@@ -1623,10 +1623,22 @@ graphics/cards/zombyra_the_dark/pic_large.gbapal: %.gbapal: %.pal
 graphics/cards/zure_knight_of_dark_world/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
+graphics/cards/albaz_the_ashen/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/albion_the_shrouded_dragon/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/aluber_the_jester_of_despia/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
 graphics/cards/amazoness_spiritualist/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
 graphics/cards/ancient_gear_dragon/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/ancient_gear_golem_ultimate_pound/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
 graphics/cards/angmarl_the_fiendish_monarch/pic_large.gbapal: %.gbapal: %.pal
@@ -1656,7 +1668,28 @@ graphics/cards/archfiend_of_gilfer/pic_large.gbapal: %.gbapal: %.pal
 graphics/cards/archfiend_s_advent/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
+graphics/cards/ariel_priestess_of_the_nekroz/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/arisen_gaia_the_fierce_knight/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/armed_ninja/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/armored_cybern/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/avance_swordsman_of_the_nekroz/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
 graphics/cards/baku_the_beast_ninja/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/beast_of_talwar/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/beast_of_talwar_the_sword_summit/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
 graphics/cards/beginning_knight/pic_large.gbapal: %.gbapal: %.pal
@@ -1674,16 +1707,52 @@ graphics/cards/black_dragon_s_chick/pic_large.gbapal: %.gbapal: %.pal
 graphics/cards/black_metal_dragon/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
+graphics/cards/blazing_cartesia_the_virtuous/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
 graphics/cards/blue_flame_swordsman/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/blue_eyes_alternative_white_dragon/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/blue_eyes_jet_dragon/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/blue_eyes_toon_dragon/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
 graphics/cards/bone_archfiend/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
+graphics/cards/brilliant_rose/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/buster_blader_the_destruction_swordmaster/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/caius_the_mega_monarch/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
 graphics/cards/caius_the_shadow_monarch/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
+graphics/cards/chaos_nephthys/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/charging_gaia_the_fierce_knight/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/chronicle_magician/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
 graphics/cards/chronicle_sorceress/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/crimson_ninja/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/crystal_rose/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
 graphics/cards/cyber_dragon_drei/pic_large.gbapal: %.gbapal: %.pal
@@ -1695,16 +1764,31 @@ graphics/cards/cyber_dragon_vier/pic_large.gbapal: %.gbapal: %.pal
 graphics/cards/cyber_dragon_zwei/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
+graphics/cards/cyber_eltanin/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
 graphics/cards/cyber_larva/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
 graphics/cards/cyberdark_wurm/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
+graphics/cards/dance_princess_of_the_nekroz/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/dark_eradicator_warlock/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
 graphics/cards/dark_magician_girl/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
 graphics/cards/dark_magician_girl_the_magician_s_apprentice/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/dark_nephthys/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/deep_eyes_white_dragon/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
 graphics/cards/defender_of_nephthys/pic_large.gbapal: %.gbapal: %.pal
@@ -1725,6 +1809,9 @@ graphics/cards/disciple_of_nephthys/pic_large.gbapal: %.gbapal: %.pal
 graphics/cards/dupe_frog/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
+graphics/cards/ehther_the_heavenly_monarch/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
 graphics/cards/eidos_the_underworld_monarch/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
@@ -1737,10 +1824,28 @@ graphics/cards/elemental_hero_blazeman/pic_large.gbapal: %.gbapal: %.pal
 graphics/cards/elemental_hero_woodsman/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
+graphics/cards/emilia_dance_priestess_of_the_nekroz/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
 graphics/cards/envoy_of_chaos/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
+graphics/cards/erebus_the_underworld_monarch/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
 graphics/cards/evening_twilight_knight/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/evilswarm_heliotrope/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/evilswarm_ketos/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/exa_enforcer_of_the_nekroz/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/fallen_of_albaz/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
 graphics/cards/fighting_flame_swordsman/pic_large.gbapal: %.gbapal: %.pal
@@ -1752,10 +1857,43 @@ graphics/cards/flip_flop_frog/pic_large.gbapal: %.gbapal: %.pal
 graphics/cards/fusion_devourer/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
+graphics/cards/gaia_the_fierce_knight/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
 graphics/cards/gearfried_the_red_eyes_iron_knight/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
+graphics/cards/gem_armadillo/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/gem_elephant/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/gem_knight_alexandrite/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/gem_knight_emerald/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/gem_knight_garnet/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/gem_knight_hollowcore/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/gem_knight_nepyrim/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
 graphics/cards/gem_knight_quartz/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/gem_knight_sapphire/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/gem_knight_tourmaline/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/gem_turtle/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
 graphics/cards/genta_gateman_of_dark_world/pic_large.gbapal: %.gbapal: %.pal
@@ -1764,10 +1902,55 @@ graphics/cards/genta_gateman_of_dark_world/pic_large.gbapal: %.gbapal: %.pal
 graphics/cards/giltia_the_d_knight_soul_spear/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
+graphics/cards/gishki_abyss/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/gishki_ariel/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/gishki_avance/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/gishki_beast/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/gishki_chain/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/gishki_emilia/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/gishki_grimness/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/gishki_marker/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/gishki_natalia/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/gishki_noellia/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/gishki_shadow/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/gishki_vanity/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/gishki_vision/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
 graphics/cards/goblin_pothole_squad/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
+graphics/cards/granmarg_the_mega_monarch/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
 graphics/cards/granmarg_the_rock_monarch/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/grapha_dragon_lord_of_dark_world/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
 graphics/cards/green_ninja/pic_large.gbapal: %.gbapal: %.pal
@@ -1779,10 +1962,16 @@ graphics/cards/gren_tactician_of_dark_world/pic_large.gbapal: %.gbapal: %.pal
 graphics/cards/hand_of_nephthys/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
+graphics/cards/heart_of_the_blue_eyes/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
 graphics/cards/ice_knight/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
 graphics/cards/infernalqueen_salmon/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/jioh_the_gravity_ninja/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
 graphics/cards/kagero_the_cannon_ninja/pic_large.gbapal: %.gbapal: %.pal
@@ -1795,6 +1984,9 @@ graphics/cards/keeper_of_dragon_magic/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
 graphics/cards/keeper_of_the_shrine/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/labrynth_archfiend/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
 graphics/cards/lancer_archfiend/pic_large.gbapal: %.gbapal: %.pal
@@ -1815,6 +2007,9 @@ graphics/cards/lucius_the_shadow_vassal/pic_large.gbapal: %.gbapal: %.pal
 graphics/cards/mad_archfiend/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
+graphics/cards/magician_of_dark_illusion/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
 graphics/cards/magician_s_robe/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
@@ -1827,7 +2022,25 @@ graphics/cards/magicians_souls/pic_large.gbapal: %.gbapal: %.pal
 graphics/cards/magikuriboh/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
+graphics/cards/maiden_of_white/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/maiden_with_eyes_of_blue/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/malefic_blue_eyes_white_dragon/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/malefic_cyber_end_dragon/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/malefic_red_eyes_black_dragon/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
 graphics/cards/masked_ninja_ebisu/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/master_with_eyes_of_blue/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
 graphics/cards/matriarch_of_nephthys/pic_large.gbapal: %.gbapal: %.pal
@@ -1836,37 +2049,100 @@ graphics/cards/matriarch_of_nephthys/pic_large.gbapal: %.gbapal: %.pal
 graphics/cards/metalflame_swordsman/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
+graphics/cards/meteor_dragon/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
 graphics/cards/mitsu_the_insect_ninja/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/mobius_the_mega_monarch/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
 graphics/cards/mystical_elf_white_lightning/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
+graphics/cards/naelshaddoll_ariel/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/neo_kaiser_sea_horse/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
 graphics/cards/ninja_grandmaster_hanzo/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/palladium_oracle_mahad/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
 graphics/cards/parl_hermit_of_dark_world/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
+graphics/cards/penguin_ninja/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/priestess_with_eyes_of_blue/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/protector_with_eyes_of_blue/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/qadshaddoll_keios/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/raiza_the_mega_monarch/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
 graphics/cards/red_dragon_ninja/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/red_eyes_alternative_black_dragon/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
 graphics/cards/red_eyes_baby_dragon/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
+graphics/cards/red_eyes_black_dragon/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
 graphics/cards/red_eyes_black_meteor_dragon/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/red_eyes_darkness_metal_dragon/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
 graphics/cards/red_eyes_retro_dragon/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
+graphics/cards/red_eyes_soul/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/red_eyes_toon_dragon/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
 graphics/cards/red_eyes_wyvern/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/red_eyes_zombie_dragon/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/reeshaddoll_wendi/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/reign_beaux_overking_of_dark_world/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
 graphics/cards/relinkuriboh/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
+graphics/cards/renge_gatekeeper_of_dark_world/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/rider_of_the_storm_winds/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
 graphics/cards/ronintoadin/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/sage_with_eyes_of_blue/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
 graphics/cards/salamandra_the_flying_flame_dragon/pic_large.gbapal: %.gbapal: %.pal
@@ -1879,6 +2155,24 @@ graphics/cards/senior_silver_ninja/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
 graphics/cards/senju_of_the_thousand_hands/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/shaddoll_beast/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/shaddoll_dragon/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/shaddoll_falco/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/shaddoll_hedgehog/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/shaddoll_hound/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/shurit_strategist_of_the_nekroz/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
 graphics/cards/skilled_red_magician/pic_large.gbapal: %.gbapal: %.pal
@@ -1908,7 +2202,16 @@ graphics/cards/t_a_d_p_o_l_e_/pic_large.gbapal: %.gbapal: %.pal
 graphics/cards/tenmataitei/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
+graphics/cards/terrorking_salmon/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
 graphics/cards/the_black_stone_of_legend/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/the_bystial_aluber/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/the_bystial_lubellion/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
 graphics/cards/the_dark_hex_sealed_fusion/pic_large.gbapal: %.gbapal: %.pal
@@ -1917,13 +2220,34 @@ graphics/cards/the_dark_hex_sealed_fusion/pic_large.gbapal: %.gbapal: %.pal
 graphics/cards/the_earth_hex_sealed_fusion/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
+graphics/cards/the_golden_swordsoul/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
 graphics/cards/the_light_hex_sealed_fusion/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/the_white_stone_of_ancients/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/the_white_stone_of_legend/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/thestalos_the_mega_monarch/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/thestalos_the_shadowfire_monarch/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
 graphics/cards/thunder_dragondark/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
+graphics/cards/thunder_dragonduo/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
 graphics/cards/thunder_dragonhawk/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/thunder_dragonlord/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
 graphics/cards/thunder_dragonmatrix/pic_large.gbapal: %.gbapal: %.pal
@@ -1935,10 +2259,19 @@ graphics/cards/thunder_dragonroar/pic_large.gbapal: %.gbapal: %.pal
 graphics/cards/thunder_sea_horse/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
+graphics/cards/timaeus_the_united_dragon/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
 graphics/cards/tlakalel_his_malevolent_majesty/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
 graphics/cards/tobari_the_sky_ninja/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/toon_cyber_dragon/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/toon_summoned_skull/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
 graphics/cards/tradetoad/pic_large.gbapal: %.gbapal: %.pal
@@ -1971,6 +2304,9 @@ graphics/cards/traptrix_pudica/pic_large.gbapal: %.gbapal: %.pal
 graphics/cards/traptrix_vesiculo/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
+graphics/cards/twilight_ninja_getsuga_the_shogun/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
 graphics/cards/twilight_ninja_nichirin_the_chunin/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
@@ -1983,7 +2319,19 @@ graphics/cards/upstart_golden_ninja/pic_large.gbapal: %.gbapal: %.pal
 graphics/cards/vision_hero_vyon/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
+graphics/cards/white_dragon_ninja/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/white_night_dragon/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/white_ninja/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
 graphics/cards/wroughtweiler/pic_large.gbapal: %.gbapal: %.pal
+		$(GFX) $< $@ -num_colors 64
+
+graphics/cards/yellow_dragon_ninja/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64
 
 graphics/cards/yellow_ninja/pic_large.gbapal: %.gbapal: %.pal

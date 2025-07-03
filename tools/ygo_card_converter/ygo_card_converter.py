@@ -784,27 +784,8 @@ Scripts = ''
 Graphics_File_Rules = ''
 SRCDataItemDescs = ''
 card_counter = 1
-pack_counter = 1928
+pack_counter = 2044
 description_lines = dict()
-
-pack_counter = 990
-for format_ in formats:
-    Items += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').upper() + '] = ' + str(pack_counter) + ',\n'
-    pack_counter += 1
-Items += '\n'
-
-for format_ in formats:
-    YGO_C += '''	[ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').upper() + '''] =
-    {
-        .name = _("''' + format_[:13] + '''"),
-        .itemId = ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').upper() + ''',
-        .price = 0,
-        .description = s''' + re.sub(r'[^a-zA-Z0-9]', '', format_) + '''Desc,
-        .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Pack,
-    },\n\n'''
-YGO_C += '\n'
 
 ItemUse = ''
 Item = ''
@@ -906,6 +887,11 @@ with open('tcg_sets.json', 'r') as f:
     data = json.load(f)
     for set_ in data:
         YGO_C += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').upper() + '] = ' + str(sorted(list(tcg_sets)).index(set_)) + ',\n'
+
+for format_ in formats:
+    YGO_C += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').upper() + '] = ' + str(pack_counter) + ',\n'
+    pack_counter += 1
+
 YGO_C += '};\n\n'
 
 sets_print += '\nconst struct Pack gPacks[] =\n{\n'
@@ -987,20 +973,21 @@ for card_name in card_names:
 	},\n
 	'''
 			UI_Menu += '''    {
-			.data = gCardPicLarge_''' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '''_Big,
-			.size = 80*80,
-			.tag = TAG_CARD
-		},\n'''
+		.data = gCardPicLarge_''' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '''_Big,
+		.size = 80*80,
+		.tag = TAG_CARD
+	},\n'''
 			Graphics_File_Rules += 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '''/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64\n\n'''
 
 Item_Constants += '\n'
-sets_count = 938
+sets_count = 1054
 for set_ in sorted(list(tcg_sets)):
     Item_Constants += '#define ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').upper() + ' ' + str(sets_count) + '\n'
     sets_count += 1
 Item_Constants += '\n'
 
+pack_counter = 2044
 for format_ in formats:
     Item_Constants += '#define ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').upper() + ' ' + str(pack_counter) + '\n'
     pack_counter += 1
@@ -1113,14 +1100,6 @@ InsideOfTruck_Pokemart''' + re.sub(r'\W+', '', format) + ''':\n'''
 	Scripts += '\tpokemartlistend\n\n'
 
 for format in cards_by_format:
-	Scripts += 'InsideOfTruck_Text_' + re.sub(r'\W+', '', format) + ', '
-
-Scripts += '\n\n'
-for format in cards_by_format:
-	Scripts += 'InsideOfTruck_Text_' + re.sub(r'\W+', '', format) + 'Banlist, '
-
-Scripts += '\n\n'
-for format in cards_by_format:
 	Scripts += '''InsideOfTruck_Text_''' + re.sub(r'\W+', '', format) + ''':
 	.string "''' + format + '''$"\n\n'''
 
@@ -1129,18 +1108,6 @@ for format in cards_by_format:
 	Scripts += '''InsideOfTruck_Text_''' + re.sub(r'\W+', '', format) + '''Banlist:
 	.string "''' + format + ''' banlist$"\n\n'''
 
-counter = 0
-for format in cards_by_format:
-	Scripts += '\tcase ' + str(counter) + ', InsideOfTruck_EventScript_Clerk_' + re.sub(r'\W+', '', format) + '\n'
-	counter += 1
-
-Scripts += '\n\n'
-counter = 0
-for format in cards_by_format:
-	Scripts += '\tcase ' + str(counter) + ', InsideOfTruck_EventScript_Clerk_' + re.sub(r'\W+', '', format) + 'Banlist\n'
-	counter += 1
-
-Scripts += '\n\n'
 for format in cards_by_format:
 	Scripts += '''gText_''' + re.sub(r'\W+', '', format) + '''Clerk::
 	.string "Welcome!\\p"
