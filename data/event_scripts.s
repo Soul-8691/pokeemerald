@@ -995,15 +995,10 @@ Common_EventScript_RemoveStaticPokemon::
 	release
 	end
 
-EventScript_LeaveCard::
-	callnative Task_MenuTurnOff
-	releaseall
-	end
-
 EventScript_AccessCard::
 	callnative Menu_Init
 	waitstate
-	goto EventScript_LeaveCard
+	releaseall
 	end
 
 EventScript_AccessPack::

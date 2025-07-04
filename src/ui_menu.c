@@ -2,6 +2,7 @@
 #include "ui_menu.h"
 #include "strings.h"
 #include "bg.h"
+#include "battle_main.h"
 #include "data.h"
 #include "decompress.h"
 #include "event_data.h"
@@ -84,13 +85,6 @@ const struct SpriteTemplate sStarSpriteTemplate =
 /*
  * 
  */
- 
-//==========DEFINES==========//
-struct MenuResources
-{
-    MainCallback savedCallback;     // determines callback to run when we exit. e.g. where do we want to go after closing the menu
-    u8 gfxLoadState;
-};
 
 enum WindowIds
 {
@@ -104,7 +98,7 @@ enum WindowIds
 };
 
 //==========EWRAM==========//
-static EWRAM_DATA struct MenuResources *sMenuDataPtr = NULL;
+EWRAM_DATA struct MenuResources *sMenuDataPtr = NULL;
 EWRAM_DATA u8 *sTilemapBuffers[2];
 EWRAM_DATA u8 sScrollDown = 0;
 EWRAM_DATA bool8 sDidInitialDraw = FALSE;
@@ -112,10 +106,7 @@ EWRAM_DATA bool8 sDidInitialDraw = FALSE;
 //==========STATIC=DEFINES==========//
 static void Menu_RunSetup(void);
 static bool8 Menu_DoGfxSetup(void);
-static void Menu_FadeAndBail(void);
 static bool8 Menu_LoadGraphics(void);
-static void Menu_InitWindows(void);
-static void Task_MenuWaitFadeIn(u8 taskId);
 static void Task_MenuMain(u8 taskId);
 
 //==========CONST=DATA==========//
@@ -405,7 +396,7 @@ static void Menu_RunSetup(void)
     }
 }
 
-static void Menu_MainCB(void)
+void Menu_MainCB(void)
 {
     RunTasks();
     AnimateSprites();
@@ -414,7 +405,7 @@ static void Menu_MainCB(void)
     UpdatePaletteFade();
 }
 
-static void Menu_VBlankCB(void)
+void Menu_VBlankCB(void)
 {
     LoadOam();
     ProcessSpriteCopyRequests();
@@ -3872,6 +3863,7 @@ static bool8 Menu_DoGfxSetup(void)
     u32 i;
     u16 card = CardIdMapping[gSpecialVar_ItemId];
     u8 level = gCardInfo[card].level;
+
     switch (gMain.state)
     {
     case 0:
@@ -3925,7 +3917,7 @@ static bool8 Menu_DoGfxSetup(void)
         gMain.state++;
         break;
     case 5:
-        PrintToWindow(WINDOW_1, FONT_WHITE, card);
+        PrintToWindow(WINDOW_1 + addWindow, FONT_WHITE, card);
         taskId = CreateTask(Task_MenuWaitFadeIn, 0);
         BlendPalettes(0xFFFFFFFF, 16, RGB_BLACK);
         gMain.state++;
@@ -3967,7 +3959,7 @@ static void Task_MenuWaitFadeAndBail(u8 taskId)
     }
 }
 
-static void Menu_FadeAndBail(void)
+void Menu_FadeAndBail(void)
 {
     BeginNormalPaletteFade(0xFFFFFFFF, 0, 0, 16, RGB_BLACK);
     CreateTask(Task_MenuWaitFadeAndBail, 0);
@@ -4066,28 +4058,28 @@ static void Menu_InitWindows(void)
     DeactivateAllTextPrinters();
     ScheduleBgCopyTilemapToVram(0);
     
-    FillWindowPixelBuffer(WINDOW_1, 0);
-    FillWindowPixelBuffer(WINDOW_2, 0);
-    FillWindowPixelBuffer(WINDOW_3, 0);
-    FillWindowPixelBuffer(WINDOW_4, 0);
-    FillWindowPixelBuffer(WINDOW_5, 0);
-    FillWindowPixelBuffer(WINDOW_6, 0);
-    FillWindowPixelBuffer(WINDOW_7, 0);
-    LoadUserWindowBorderGfx(WINDOW_1, 720, 14 * 16);
-    PutWindowTilemap(WINDOW_1);
-    PutWindowTilemap(WINDOW_2);
-    PutWindowTilemap(WINDOW_3);
-    PutWindowTilemap(WINDOW_4);
-    PutWindowTilemap(WINDOW_5);
-    PutWindowTilemap(WINDOW_6);
-    PutWindowTilemap(WINDOW_7);
-    CopyWindowToVram(WINDOW_1, 3);
-    CopyWindowToVram(WINDOW_2, 3);
-    CopyWindowToVram(WINDOW_3, 3);
-    CopyWindowToVram(WINDOW_4, 3);
-    CopyWindowToVram(WINDOW_5, 3);
-    CopyWindowToVram(WINDOW_6, 3);
-    CopyWindowToVram(WINDOW_7, 3);
+    FillWindowPixelBuffer(WINDOW_1 + addWindow, 0);
+    FillWindowPixelBuffer(WINDOW_2 + addWindow, 0);
+    FillWindowPixelBuffer(WINDOW_3 + addWindow, 0);
+    FillWindowPixelBuffer(WINDOW_4 + addWindow, 0);
+    FillWindowPixelBuffer(WINDOW_5 + addWindow, 0);
+    FillWindowPixelBuffer(WINDOW_6 + addWindow, 0);
+    FillWindowPixelBuffer(WINDOW_7 + addWindow, 0);
+    LoadUserWindowBorderGfx(WINDOW_1 + addWindow, 720, 14 * 16);
+    PutWindowTilemap(WINDOW_1 + addWindow);
+    PutWindowTilemap(WINDOW_2 + addWindow);
+    PutWindowTilemap(WINDOW_3 + addWindow);
+    PutWindowTilemap(WINDOW_4 + addWindow);
+    PutWindowTilemap(WINDOW_5 + addWindow);
+    PutWindowTilemap(WINDOW_6 + addWindow);
+    PutWindowTilemap(WINDOW_7 + addWindow);
+    CopyWindowToVram(WINDOW_1 + addWindow, 3);
+    CopyWindowToVram(WINDOW_2 + addWindow, 3);
+    CopyWindowToVram(WINDOW_3 + addWindow, 3);
+    CopyWindowToVram(WINDOW_4 + addWindow, 3);
+    CopyWindowToVram(WINDOW_5 + addWindow, 3);
+    CopyWindowToVram(WINDOW_6 + addWindow, 3);
+    CopyWindowToVram(WINDOW_7 + addWindow, 3);
     
     ScheduleBgCopyTilemapToVram(2);
 }
@@ -4129,17 +4121,17 @@ void PrintToWindow(u8 windowId, u8 colorIdx, u16 card)
     u8 x = 0;
     u8 y = 0;
     
-    FillWindowPixelBuffer(windowId, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-    PrintSmallNarrowTextCentered(WINDOW_4, 94, COLORID_NORMAL, cardName);
-    AddTextPrinterParameterized4(WINDOW_7, FONT_SMALL_NARROWER, 6, 6, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, cardNameShort);
+    FillWindowPixelBuffer(windowId + addWindow, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+    PrintSmallNarrowTextCentered(WINDOW_4 + addWindow, 94, COLORID_NORMAL, cardName);
+    AddTextPrinterParameterized4(WINDOW_7 + addWindow, FONT_SMALL_NARROWER, 6, 6, 0, 0, sMenuWindowFontColors[colorIdx], 0xFF, cardNameShort);
     if (cardType != TYPE_SPELL_CARD && cardType != TYPE_TRAP_CARD)
     {
         ConvertIntToDecimalStringN(gStringVar1, cardAtk, STR_CONV_MODE_LEFT_ALIGN, 4);
         StringExpandPlaceholders(gStringVar4, gText_xAtk);
-        AddTextPrinterParameterized4(WINDOW_5, FONT_SMALL_NARROWER, 2, 5, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
+        AddTextPrinterParameterized4(WINDOW_5 + addWindow, FONT_SMALL_NARROWER, 2, 5, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
         ConvertIntToDecimalStringN(gStringVar1, cardDef, STR_CONV_MODE_LEFT_ALIGN, 4);
         StringExpandPlaceholders(gStringVar4, gText_xDef);
-        AddTextPrinterParameterized4(WINDOW_6, FONT_SMALL_NARROWER, 0, 5, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
+        AddTextPrinterParameterized4(WINDOW_6 + addWindow, FONT_SMALL_NARROWER, 0, 5, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
     }
     if (cardType == TYPE_NORMAL_MONSTER)
         LoadPalette(sNormalMonsterPalette, 0, 32*3);
@@ -4156,41 +4148,41 @@ void PrintToWindow(u8 windowId, u8 colorIdx, u16 card)
     else
         LoadPalette(sNormalMonsterPalette, 0, 32*3);
     SetBgTilemapPalette(2, 0, 0, DISPLAY_TILE_WIDTH, DISPLAY_TILE_HEIGHT, 3);
-    FillWindowPixelBuffer(WINDOW_2, PIXEL_FILL(0));
-    FillWindowPixelBuffer(WINDOW_3, PIXEL_FILL(0));
+    FillWindowPixelBuffer(WINDOW_2 + addWindow, PIXEL_FILL(0));
+    FillWindowPixelBuffer(WINDOW_3 + addWindow, PIXEL_FILL(0));
     if (cardType == TYPE_SPELL_CARD || cardType == TYPE_TRAP_CARD)
     {
-        BlitBitmapToWindow(WINDOW_2, sCardTypeIcons[cardType], 22, 6, 16, 16);
+        BlitBitmapToWindow(WINDOW_2 + addWindow, sCardTypeIcons[cardType], 22, 6, 16, 16);
         LoadPalette(sCardTypeIconPals[cardType], BG_PLTT_ID(8), 32);
     }
     else
     {
-        BlitBitmapToWindow(WINDOW_3, sCardRaceIcons[race], 6, 0, 16, 16);
+        BlitBitmapToWindow(WINDOW_3 + addWindow, sCardRaceIcons[race], 6, 0, 16, 16);
         LoadPalette(sCardRaceIconPals[race], BG_PLTT_ID(7), 32);
-        BlitBitmapToWindow(WINDOW_2, sCardAttributeIcons[attribute], 22, 6, 16, 16);
+        BlitBitmapToWindow(WINDOW_2 + addWindow, sCardAttributeIcons[attribute], 22, 6, 16, 16);
         LoadPalette(sCardAttributeIconPals[attribute], BG_PLTT_ID(8), 32);
     }
-    PutWindowTilemap(windowId);
-    PutWindowTilemap(WINDOW_2);
-    PutWindowTilemap(WINDOW_3);
-    PutWindowTilemap(WINDOW_4);
-    PutWindowTilemap(WINDOW_5);
-    PutWindowTilemap(WINDOW_6);
-    PutWindowTilemap(WINDOW_7);
-    CopyWindowToVram(windowId, 3);
-    CopyWindowToVram(WINDOW_2, 3);
-    CopyWindowToVram(WINDOW_3, 3);
-    CopyWindowToVram(WINDOW_4, 3);
-    CopyWindowToVram(WINDOW_5, 3);
-    CopyWindowToVram(WINDOW_6, 3);
-    CopyWindowToVram(WINDOW_7, 3);
+    PutWindowTilemap(windowId + addWindow);
+    PutWindowTilemap(WINDOW_2 + addWindow);
+    PutWindowTilemap(WINDOW_3 + addWindow);
+    PutWindowTilemap(WINDOW_4 + addWindow);
+    PutWindowTilemap(WINDOW_5 + addWindow);
+    PutWindowTilemap(WINDOW_6 + addWindow);
+    PutWindowTilemap(WINDOW_7 + addWindow);
+    CopyWindowToVram(windowId + addWindow, 3);
+    CopyWindowToVram(WINDOW_2 + addWindow, 3);
+    CopyWindowToVram(WINDOW_3 + addWindow, 3);
+    CopyWindowToVram(WINDOW_4 + addWindow, 3);
+    CopyWindowToVram(WINDOW_5 + addWindow, 3);
+    CopyWindowToVram(WINDOW_6 + addWindow, 3);
+    CopyWindowToVram(WINDOW_7 + addWindow, 3);
     ScheduleBgCopyTilemapToVram(0);
     ScheduleBgCopyTilemapToVram(1);
     ScheduleBgCopyTilemapToVram(2);
     ScheduleBgCopyTilemapToVram(3);
 }
 
-static void Task_MenuWaitFadeIn(u8 taskId)
+void Task_MenuWaitFadeIn(u8 taskId)
 {
     if (!gPaletteFade.active)
         gTasks[taskId].func = Task_MenuMain;
@@ -4277,7 +4269,7 @@ static void Task_MenuMain(u8 taskId)
     {
         sScrollDown = 0;
         startIdx = GetLineStartIndex(cardDescription, sScrollDown);
-        DrawScrolledText(WINDOW_1, cardDescription, startIdx, NUM_VISIBLE_LINES);
+        DrawScrolledText(WINDOW_1 + addWindow, cardDescription, startIdx, NUM_VISIBLE_LINES);
         DebugPrintf("Initial draw: totalLines=%d", totalLines);
         sDidInitialDraw = TRUE;
     }
@@ -4297,7 +4289,7 @@ static void Task_MenuMain(u8 taskId)
         sScrollDown++;
         startIdx = GetLineStartIndex(cardDescription, sScrollDown);
         DebugPrintf("DPAD_DOWN: sScrollDown=%d startIdx=%d", sScrollDown, startIdx);
-        DrawScrolledText(WINDOW_1, cardDescription, startIdx, NUM_VISIBLE_LINES);
+        DrawScrolledText(WINDOW_1 + addWindow, cardDescription, startIdx, NUM_VISIBLE_LINES);
     }
 
     if (JOY_NEW(DPAD_UP) && sScrollDown > 0)
@@ -4305,7 +4297,7 @@ static void Task_MenuMain(u8 taskId)
         sScrollDown--;
         startIdx = GetLineStartIndex(cardDescription, sScrollDown);
         DebugPrintf("DPAD_UP: sScrollDown=%d startIdx=%d", sScrollDown, startIdx);
-        DrawScrolledText(WINDOW_1, cardDescription, startIdx, NUM_VISIBLE_LINES);
+        DrawScrolledText(WINDOW_1 + addWindow, cardDescription, startIdx, NUM_VISIBLE_LINES);
     }
 }
 

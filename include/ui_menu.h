@@ -44,6 +44,18 @@ extern const u16 sRitualMonsterPalette[];
 extern const u32 sBackgroundTiles[];
 extern const u32 sBackgroundTilemap[];
 extern const u16 sBackgroundPalette[];
+//==========DEFINES==========//
+struct MenuResources
+{
+    MainCallback savedCallback;     // determines callback to run when we exit. e.g. where do we want to go after closing the menu
+    u8 gfxLoadState;
+};
+extern struct MenuResources *sMenuDataPtr;
+void Task_MenuWaitFadeIn(u8 taskId);
+void Menu_MainCB(void);
+void Menu_FadeAndBail(void);
+static void Menu_InitWindows(void);
+void Menu_VBlankCB(void);
 void PrintToWindow(u8 windowId, u8 colorIdx, u16 card);
 extern const struct CompressedSpriteSheet sSpriteSheet_Cards[NUM_CARDS + 1];
 extern const struct SpriteTemplate sCardLeftSpriteTemplate;
