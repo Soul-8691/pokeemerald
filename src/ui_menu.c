@@ -40,7 +40,7 @@
 #include "field_camera.h"
 
 #define TAG_CARD 60000
-#define TAG_ICON 60040
+#define TAG_ICON 60001
 
 static const union AnimCmd sStarAnimSequence[] =
 {
@@ -112,7 +112,6 @@ EWRAM_DATA bool8 sDidInitialDraw = FALSE;
 //==========STATIC=DEFINES==========//
 static void Menu_RunSetup(void);
 static bool8 Menu_DoGfxSetup(void);
-static bool8 Menu_InitBgs(void);
 static void Menu_FadeAndBail(void);
 static bool8 Menu_LoadGraphics(void);
 static void Menu_InitWindows(void);
@@ -3851,6 +3850,16 @@ const struct SpriteTemplate sCardLeftSpriteTemplate =
     .callback = NULL,
 };
 
+const struct SpriteSheet sSpriteSheet_Icons[] =
+{
+    {
+        .data = gStarIcon,
+        .size = 8*8/2,
+        .tag = TAG_ICON
+    },
+    {},
+};
+
 const struct SpritePalette sIcon_SpritePalettes[] =
 {
     {gStarIconPal,     TAG_ICON},
@@ -3882,6 +3891,7 @@ static bool8 Menu_DoGfxSetup(void)
         LoadPalette(gCardInfo[card].pal, OBJ_PLTT_ID(0), PLTT_SIZE_4BPP*4);
         spriteId = CreateBigSprite(&sCardLeftSpriteTemplate, 16, 32, 0);
         gSprites[spriteId].callback = SpriteCallbackDummy;
+		LoadSpriteSheet(&sSpriteSheet_Icons[0]);
         LoadSpritePaletteInSlot(&sIcon_SpritePalettes[0], 4);
         for (i = 0; i < level; i++)
         {
@@ -3965,7 +3975,7 @@ static void Menu_FadeAndBail(void)
     SetMainCallback2(Menu_MainCB);
 }
 
-static bool8 Menu_InitBgs(void)
+bool8 Menu_InitBgs(void)
 {
     ResetAllBgsCoordinates();
     sTilemapBuffers[0] = AllocZeroed(BG_SCREEN_SIZE);

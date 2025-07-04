@@ -18,8 +18,10 @@ extern const u8 gSupportedTypes[NUM_TYPES + 1];
 extern const u8 sMenuWindowFontColors[4][3];
 extern bool8 sDidInitialDraw;
 extern u8 sScrollDown;
+extern const struct SpriteSheet sSpriteSheet_Icons[];
 extern const struct SpritePalette sIcon_SpritePalettes[];
 extern const struct SpriteTemplate sStarSpriteTemplate;
+bool8 Menu_InitBgs(void);
 extern const u16 sBackgroundPalette[];
 extern const u32 sNormalMonsterTiles[];
 extern const u32 sNormalMonsterTilemap[];
@@ -43,9 +45,9 @@ extern const u32 sBackgroundTiles[];
 extern const u32 sBackgroundTilemap[];
 extern const u16 sBackgroundPalette[];
 void PrintToWindow(u8 windowId, u8 colorIdx, u16 card);
-const struct CompressedSpriteSheet sSpriteSheet_Cards[NUM_CARDS + 1];
-const struct SpriteTemplate sCardLeftSpriteTemplate;
-u8 *sTilemapBuffers[2];
+extern const struct CompressedSpriteSheet sSpriteSheet_Cards[NUM_CARDS + 1];
+extern const struct SpriteTemplate sCardLeftSpriteTemplate;
+extern u8 *sTilemapBuffers[2];
 void PrintSmallNarrowTextCentered(u8 windowId, u8 left, u8 colorId, const u8 *string);
 
 enum Colors
