@@ -2601,6 +2601,7 @@ void Task_PullCards(u8 taskId)
         AddBagItem(gSpecialVar_0x8006, 1);
         AddBagItem(gSpecialVar_0x8007, 1);
         AddBagItem(gSpecialVar_0x8008, 1);
+        DebugPrintf("x=%d", gSpecialVar_ItemId);
         RemoveBagItem(gSpecialVar_ItemId, 1);
     }
     DestroyTask(taskId);

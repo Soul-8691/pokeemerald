@@ -166,7 +166,7 @@ enum {
 };
 
 // Item list ID for toSwapPos to indicate an item is not currently being swapped
-#define NOT_SWAPPING 651
+#define NOT_SWAPPING 2081
 
 struct ListBuffer1 {
     struct ListMenuItem subBuffers[MAX_POCKET_ITEMS];
