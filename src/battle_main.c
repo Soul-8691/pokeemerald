@@ -3614,7 +3614,7 @@ static const struct WindowTemplate sYGOWindowTemplates[] =
         .bg = 0,            // which bg to print text on
         .tilemapLeft = 7,   // position from left (per 8 pixels)
         .tilemapTop = 14,    // position from top (per 8 pixels)
-        .width = 20,        // width (per 8 pixels)
+        .width = 22,        // width (per 8 pixels)
         .height = 4,        // height (per 8 pixels)
         .paletteNum = 0,   // palette index to use for text
         .baseBlock = 100,     // tile start in VRAM
@@ -3624,10 +3624,10 @@ static const struct WindowTemplate sYGOWindowTemplates[] =
         .bg = 1,            // which bg to print text on
         .tilemapLeft = 7,   // position from left (per 8 pixels)
         .tilemapTop = 0,    // position from top (per 8 pixels)
-        .width = 20,        // width (per 8 pixels)
+        .width = 22,        // width (per 8 pixels)
         .height = 4,        // height (per 8 pixels)
         .paletteNum = 0,   // palette index to use for text
-        .baseBlock = 180,     // tile start in VRAM
+        .baseBlock = 188,     // tile start in VRAM
     },
 };
 
