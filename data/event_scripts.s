@@ -996,6 +996,8 @@ Common_EventScript_RemoveStaticPokemon::
 	end
 
 EventScript_AccessCard::
+	fadescreenswapbuffers FADE_TO_BLACK
+	fadescreenswapbuffers FADE_FROM_BLACK
 	callnative Menu_Init
 	waitstate
 	releaseall

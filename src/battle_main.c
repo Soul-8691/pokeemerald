@@ -1,6 +1,7 @@
 #include "global.h"
 #include "battle.h"
 #include "battle_anim.h"
+#include "event_scripts.h"
 #include "battle_ai_script_commands.h"
 #include "battle_arena.h"
 #include "battle_controllers.h"
@@ -9,6 +10,7 @@
 #include "battle_message.h"
 #include "battle_pyramid.h"
 #include "battle_scripts.h"
+#include "scrcmd.h"
 #include "battle_setup.h"
 #include "battle_tower.h"
 #include "battle_util.h"
@@ -3831,7 +3833,7 @@ static void BattleMenu_InitWindows(void)
     u32 i;
 
     InitWindows(sYGOWindowTemplates);
-    DeactivateAllTextPrinters();
+    // DeactivateAllTextPrinters();
     ScheduleBgCopyTilemapToVram(0);
     
     FillWindowPixelBuffer(WINDOW_DESC, 0);
@@ -4498,6 +4500,7 @@ void Task_HandleYGOTurn(void)
             if (gSpecialVar_0x8007 == 0)
             {
                 gSpecialVar_ItemId = playerDeck[gSpecialVar_0x8004];
+                // ScriptContext_SetupScript(EventScript_AccessCard);
                 Menu_Init(Task_HandleYGOTurn);
             }
             sDidInitialDraw = FALSE;
@@ -4677,7 +4680,7 @@ static void BattleIntroPrepareBackgroundSlide(void)
             gSpecialVar_0x8006 = 0;
             gSpecialVar_0x8007 = 0;
             gSpecialVar_0x8008 = 0;
-            addWindow = 11;
+            addWindow = 0;
             gBattleMainFunc = Task_HandleYGOTurn;
         }
         else
