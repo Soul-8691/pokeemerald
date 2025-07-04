@@ -166,6 +166,8 @@ EWRAM_DATA struct MultiPartnerMenuPokemon gMultiPartnerParty[MULTI_PARTY_SIZE] =
 EWRAM_DATA u16 items[NUM_CARDS*3] = {0};
 EWRAM_DATA u16 playerDeck[60] = {0};
 EWRAM_DATA u16 enemyDeck[60] = {0};
+EWRAM_DATA u16 playerLP = 0;
+EWRAM_DATA u16 enemyLP = 0;
 EWRAM_DATA static struct MultiPartnerMenuPokemon *sMultiPartnerPartyBuffer = NULL;
 EWRAM_DATA u8 *gBattleAnimBgTileBuffer = NULL;
 EWRAM_DATA u8 *gBattleAnimBgTilemapBuffer = NULL;
@@ -3545,6 +3547,9 @@ enum WindowIds
     WINDOW_STAR,
     WINDOW_HAND,
     WINDOW_ENEMY_HAND,
+    WINDOW_PLAYER_LP,
+    WINDOW_ENEMY_LP,
+    WINDOW_CONTEXT,
 };
 
 static const struct WindowTemplate sYGOWindowTemplates[] = 
@@ -3556,7 +3561,7 @@ static const struct WindowTemplate sYGOWindowTemplates[] =
         .tilemapTop = 11,    // position from top (per 8 pixels)
         .width = 5,        // width (per 8 pixels)
         .height = 5,        // height (per 8 pixels)
-        .paletteNum = 1,   // palette index to use for text
+        .paletteNum = 4,   // palette index to use for text
         .baseBlock = 1,     // tile start in VRAM
     },
     [WINDOW_TEXT_2] = 
@@ -3566,7 +3571,7 @@ static const struct WindowTemplate sYGOWindowTemplates[] =
         .tilemapTop = 18,    // position from top (per 8 pixels)
         .width = 30,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
-        .paletteNum = 1,   // palette index to use for text
+        .paletteNum = 4,   // palette index to use for text
         .baseBlock = 26,     // tile start in VRAM
     },
     [WINDOW_TEXT_3] = 
@@ -3576,7 +3581,7 @@ static const struct WindowTemplate sYGOWindowTemplates[] =
         .tilemapTop = 3,    // position from top (per 8 pixels)
         .width = 2,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
-        .paletteNum = 1,   // palette index to use for text
+        .paletteNum = 4,   // palette index to use for text
         .baseBlock = 86,     // tile start in VRAM
     },
     [WINDOW_TYPE_ATTRIBUTE] = 
@@ -3629,6 +3634,36 @@ static const struct WindowTemplate sYGOWindowTemplates[] =
         .paletteNum = 0,   // palette index to use for text
         .baseBlock = 188,     // tile start in VRAM
     },
+    [WINDOW_PLAYER_LP] = 
+    {
+        .bg = 1,            // which bg to print text on
+        .tilemapLeft = 0,   // position from left (per 8 pixels)
+        .tilemapTop = 0,    // position from top (per 8 pixels)
+        .width = 5,        // width (per 8 pixels)
+        .height = 2,        // height (per 8 pixels)
+        .paletteNum = 4,   // palette index to use for text
+        .baseBlock = 276,     // tile start in VRAM
+    },
+    [WINDOW_ENEMY_LP] = 
+    {
+        .bg = 1,            // which bg to print text on
+        .tilemapLeft = 0,   // position from left (per 8 pixels)
+        .tilemapTop = 16,    // position from top (per 8 pixels)
+        .width = 5,        // width (per 8 pixels)
+        .height = 2,        // height (per 8 pixels)
+        .paletteNum = 4,   // palette index to use for text
+        .baseBlock = 286,     // tile start in VRAM
+    },
+    [WINDOW_CONTEXT] = 
+    {
+        .bg = 1,            // which bg to print text on
+        .tilemapLeft = 7,   // position from left (per 8 pixels)
+        .tilemapTop = 9,    // position from top (per 8 pixels)
+        .width = 22,        // width (per 8 pixels)
+        .height = 6,        // height (per 8 pixels)
+        .paletteNum = 4,   // palette index to use for text
+        .baseBlock = 296,     // tile start in VRAM
+    },
 };
 
 enum {
@@ -3655,6 +3690,16 @@ static u16 const enemyDeck1[9] =
 
 static const u16 sMenuPalette[] = INCBIN_U16("graphics/ui_menu/palette.gbapal");
 
+enum {
+    ACTION_CARD_VIEW,
+    ACTION_SUMMON,
+    ACTION_SET,
+};
+
+static const u8 sText_CardView[] = _("Card view");
+static const u8 sText_Summon[] = _("Summon");
+static const u8 sText_Set[] = _("Set");
+
 static void Task_HandleYGOTurn(void)
 {
     u16 card = CardIdMapping[playerDeck[gSpecialVar_0x8004]];
@@ -3680,10 +3725,24 @@ static void Task_HandleYGOTurn(void)
     struct CompressedSpritePalette spritePalette;
     struct SpriteTemplate *spriteTemplate;
 
+    if (!sDidInitialDraw)
+    {
+        playerLP = 8000;
+        enemyLP = 8000;
+    }
+
     FillWindowPixelBuffer(WINDOW_TEXT, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
     FillWindowPixelBuffer(WINDOW_TEXT_2, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
     FillWindowPixelBuffer(WINDOW_TYPE_ATTRIBUTE, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
     FillWindowPixelBuffer(WINDOW_RACE, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+    FillWindowPixelBuffer(WINDOW_PLAYER_LP, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+    FillWindowPixelBuffer(WINDOW_ENEMY_LP, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+    ConvertIntToDecimalStringN(gStringVar1, playerLP, STR_CONV_MODE_LEFT_ALIGN, 5);
+    StringExpandPlaceholders(gStringVar4, gText_StrVar1);
+    AddTextPrinterParameterized4(WINDOW_PLAYER_LP, FONT_SMALL_NARROWER, 0, 0, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
+    ConvertIntToDecimalStringN(gStringVar1, enemyLP, STR_CONV_MODE_LEFT_ALIGN, 5);
+    StringExpandPlaceholders(gStringVar4, gText_StrVar1);
+    AddTextPrinterParameterized4(WINDOW_ENEMY_LP, FONT_SMALL_NARROWER, 0, 4, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
     if (gSpecialVar_0x8004 < 6)
     {
         AddTextPrinterParameterized4(WINDOW_TEXT_2, FONT_SMALL_NARROWER, 4, 0, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, cardName);
@@ -3868,6 +3927,19 @@ static void Task_HandleYGOTurn(void)
         gSpecialVar_0x8006 = 0;
         sDidInitialDraw = FALSE;
     }
+    else if (JOY_NEW(A_BUTTON))
+    {
+        FillWindowPixelBuffer(WINDOW_CONTEXT, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+        AddTextPrinterParameterized4(WINDOW_CONTEXT, FONT_SMALL_NARROWER, 4 + gSpecialVar_0x8004 * 24, 14, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, sText_CardView);
+        AddTextPrinterParameterized4(WINDOW_CONTEXT, FONT_SMALL_NARROWER, 4 + gSpecialVar_0x8004 * 24, 24, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, sText_Summon);
+        AddTextPrinterParameterized4(WINDOW_CONTEXT, FONT_SMALL_NARROWER, 4 + gSpecialVar_0x8004 * 24, 34, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, sText_Set);
+        sDidInitialDraw = FALSE;
+    }
+    else if (JOY_NEW(B_BUTTON))
+    {
+        FillWindowPixelBuffer(WINDOW_CONTEXT, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+        sDidInitialDraw = FALSE;
+    }
     LoadPalette(sBackgroundPalette, 16, 16);
     PutWindowTilemap(WINDOW_TEXT);
     PutWindowTilemap(WINDOW_TEXT_2);
@@ -3877,6 +3949,9 @@ static void Task_HandleYGOTurn(void)
     PutWindowTilemap(WINDOW_STAR);
     PutWindowTilemap(WINDOW_HAND);
     PutWindowTilemap(WINDOW_ENEMY_HAND);
+    PutWindowTilemap(WINDOW_PLAYER_LP);
+    PutWindowTilemap(WINDOW_ENEMY_LP);
+    PutWindowTilemap(WINDOW_CONTEXT);
     CopyWindowToVram(WINDOW_TEXT, 3);
     CopyWindowToVram(WINDOW_TEXT_2, 3);
     CopyWindowToVram(WINDOW_TEXT_3, 3);
@@ -3885,6 +3960,9 @@ static void Task_HandleYGOTurn(void)
     CopyWindowToVram(WINDOW_STAR, 3);
     CopyWindowToVram(WINDOW_HAND, 3);
     CopyWindowToVram(WINDOW_ENEMY_HAND, 3);
+    CopyWindowToVram(WINDOW_PLAYER_LP, 3);
+    CopyWindowToVram(WINDOW_ENEMY_LP, 3);
+    CopyWindowToVram(WINDOW_CONTEXT, 3);
     ScheduleBgCopyTilemapToVram(0);
     ScheduleBgCopyTilemapToVram(1);
     ScheduleBgCopyTilemapToVram(2);
