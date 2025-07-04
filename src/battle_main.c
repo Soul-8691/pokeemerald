@@ -82,7 +82,6 @@
 extern const struct BgTemplate gBattleBgTemplates[];
 extern const struct WindowTemplate *const gBattleWindowTemplates[];
 
-static void CB2_InitYGODuelInternal(void);
 static void CB2_InitBattleInternal(void);
 static void CB2_PreInitMultiBattle(void);
 static void CB2_PreInitIngamePlayerPartnerBattle(void);
@@ -171,7 +170,7 @@ EWRAM_DATA u16 playerDeck[60] = {0};
 EWRAM_DATA u16 enemyDeck[60] = {0};
 EWRAM_DATA u16 playerLP = 0;
 EWRAM_DATA u16 enemyLP = 0;
-EWRAM_DATA u32 addWindow = 0;
+EWRAM_DATA u32 battle = 0;
 EWRAM_DATA static struct MultiPartnerMenuPokemon *sMultiPartnerPartyBuffer = NULL;
 EWRAM_DATA u8 *gBattleAnimBgTileBuffer = NULL;
 EWRAM_DATA u8 *gBattleAnimBgTilemapBuffer = NULL;
@@ -645,7 +644,7 @@ void CB2_InitBattle(void)
     }
 }
 
-static void CB2_InitYGODuelInternal(void)
+void CB2_InitYGODuelInternal(void)
 {
     s32 i;
 
@@ -4697,7 +4696,7 @@ static void BattleIntroPrepareBackgroundSlide(void)
             gSpecialVar_0x8006 = 0;
             gSpecialVar_0x8007 = 0;
             gSpecialVar_0x8008 = 0;
-            addWindow = 0;
+            battle = 1;
             gBattleMainFunc = Task_HandleYGOTurn;
         }
         else

@@ -1,7 +1,8 @@
 #ifndef GUARD_BATTLE_MAIN_H
 #define GUARD_BATTLE_MAIN_H
 
-extern u32 addWindow;
+extern u32 battle;
+void CB2_InitYGODuelInternal(void);
 void Task_HandleYGOTurn(void);
 
 struct TrainerMoney
