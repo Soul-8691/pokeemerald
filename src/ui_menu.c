@@ -105,8 +105,8 @@ enum WindowIds
 
 //==========EWRAM==========//
 static EWRAM_DATA struct MenuResources *sMenuDataPtr = NULL;
-static EWRAM_DATA u8 *sTilemapBuffers[2];
-static EWRAM_DATA u8 sScrollDown = 0;
+EWRAM_DATA u8 *sTilemapBuffers[2];
+EWRAM_DATA u8 sScrollDown = 0;
 EWRAM_DATA bool8 sDidInitialDraw = FALSE;
 
 //==========STATIC=DEFINES==========//
@@ -116,7 +116,6 @@ static bool8 Menu_InitBgs(void);
 static void Menu_FadeAndBail(void);
 static bool8 Menu_LoadGraphics(void);
 static void Menu_InitWindows(void);
-static void PrintToWindow(u8 windowId, u8 colorIdx, u16 card);
 static void Task_MenuWaitFadeIn(u8 taskId);
 static void Task_MenuMain(u8 taskId);
 
@@ -219,35 +218,27 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
     DUMMY_WIN_TEMPLATE,
 };
 
-static const u32 sNormalMonsterTiles[] = INCBIN_U32("graphics/cards/normal_monster.8bpp.lz");
-static const u32 sNormalMonsterTilemap[] = INCBIN_U32("graphics/cards/normal_monster.bin.lz");
-static const u16 sNormalMonsterPalette[] = INCBIN_U16("graphics/cards/normal_monster.gbapal");
-static const u32 sEffectMonsterTiles[] = INCBIN_U32("graphics/cards/effect_monster.8bpp.lz");
-static const u32 sEffectMonsterTilemap[] = INCBIN_U32("graphics/cards/effect_monster.bin.lz");
-static const u16 sEffectMonsterPalette[] = INCBIN_U16("graphics/cards/effect_monster.gbapal");
-static const u32 sSpellCardTiles[] = INCBIN_U32("graphics/cards/spell_card.8bpp.lz");
-static const u32 sSpellCardTilemap[] = INCBIN_U32("graphics/cards/spell_card.bin.lz");
-static const u16 sSpellCardPalette[] = INCBIN_U16("graphics/cards/spell_card.gbapal");
-static const u32 sTrapCardTiles[] = INCBIN_U32("graphics/cards/trap_card.8bpp.lz");
-static const u32 sTrapCardTilemap[] = INCBIN_U32("graphics/cards/trap_card.bin.lz");
-static const u16 sTrapCardPalette[] = INCBIN_U16("graphics/cards/trap_card.gbapal");
-static const u32 sFusionMonsterTiles[] = INCBIN_U32("graphics/cards/fusion_monster.8bpp.lz");
-static const u32 sFusionMonsterTilemap[] = INCBIN_U32("graphics/cards/fusion_monster.bin.lz");
-static const u16 sFusionMonsterPalette[] = INCBIN_U16("graphics/cards/fusion_monster.gbapal");
-static const u32 sRitualMonsterTiles[] = INCBIN_U32("graphics/cards/ritual_monster.8bpp.lz");
-static const u32 sRitualMonsterTilemap[] = INCBIN_U32("graphics/cards/ritual_monster.bin.lz");
-static const u16 sRitualMonsterPalette[] = INCBIN_U16("graphics/cards/ritual_monster.gbapal");
-static const u32 sBackgroundTiles[] = INCBIN_U32("graphics/cards/background.4bpp.lz");
-static const u32 sBackgroundTilemap[] = INCBIN_U32("graphics/cards/background.bin.lz");
+const u32 sNormalMonsterTiles[] = INCBIN_U32("graphics/cards/normal_monster.8bpp.lz");
+const u32 sNormalMonsterTilemap[] = INCBIN_U32("graphics/cards/normal_monster.bin.lz");
+const u16 sNormalMonsterPalette[] = INCBIN_U16("graphics/cards/normal_monster.gbapal");
+const u32 sEffectMonsterTiles[] = INCBIN_U32("graphics/cards/effect_monster.8bpp.lz");
+const u32 sEffectMonsterTilemap[] = INCBIN_U32("graphics/cards/effect_monster.bin.lz");
+const u16 sEffectMonsterPalette[] = INCBIN_U16("graphics/cards/effect_monster.gbapal");
+const u32 sSpellCardTiles[] = INCBIN_U32("graphics/cards/spell_card.8bpp.lz");
+const u32 sSpellCardTilemap[] = INCBIN_U32("graphics/cards/spell_card.bin.lz");
+const u16 sSpellCardPalette[] = INCBIN_U16("graphics/cards/spell_card.gbapal");
+const u32 sTrapCardTiles[] = INCBIN_U32("graphics/cards/trap_card.8bpp.lz");
+const u32 sTrapCardTilemap[] = INCBIN_U32("graphics/cards/trap_card.bin.lz");
+const u16 sTrapCardPalette[] = INCBIN_U16("graphics/cards/trap_card.gbapal");
+const u32 sFusionMonsterTiles[] = INCBIN_U32("graphics/cards/fusion_monster.8bpp.lz");
+const u32 sFusionMonsterTilemap[] = INCBIN_U32("graphics/cards/fusion_monster.bin.lz");
+const u16 sFusionMonsterPalette[] = INCBIN_U16("graphics/cards/fusion_monster.gbapal");
+const u32 sRitualMonsterTiles[] = INCBIN_U32("graphics/cards/ritual_monster.8bpp.lz");
+const u32 sRitualMonsterTilemap[] = INCBIN_U32("graphics/cards/ritual_monster.bin.lz");
+const u16 sRitualMonsterPalette[] = INCBIN_U16("graphics/cards/ritual_monster.gbapal");
+const u32 sBackgroundTiles[] = INCBIN_U32("graphics/cards/background.4bpp.lz");
+const u32 sBackgroundTilemap[] = INCBIN_U32("graphics/cards/background.bin.lz");
 const u16 sBackgroundPalette[] = INCBIN_U16("graphics/cards/background.gbapal");
-
-enum Colors
-{
-    FONT_BLACK,
-    FONT_WHITE,
-    FONT_RED,
-    FONT_BLUE,
-};
 
 
 
@@ -431,7 +422,7 @@ static void Menu_VBlankCB(void)
     TransferPlttBuffer();
 }
 
-static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
+const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 {
     {
 			.data = gCardPicLarge_4StarredLadybugofDoom_Big,
@@ -3849,7 +3840,7 @@ static const struct OamData sCardLeftOamData =
     .affineParam = 0,
 };
 
-static const struct SpriteTemplate sCardLeftSpriteTemplate =
+const struct SpriteTemplate sCardLeftSpriteTemplate =
 {
     .tileTag = TAG_CARD,
     .paletteTag = TAG_CARD,
@@ -4109,13 +4100,13 @@ static const u8 sFontColorTableUI[][3] = {
     [COLORID_TMHM_INFO]   = {TEXT_COLOR_TRANSPARENT, TEXT_DYNAMIC_COLOR_5,  TEXT_DYNAMIC_COLOR_1}
 };
 
-static void PrintSmallNarrowTextCentered(u8 windowId, u8 left, u8 colorId, const u8 *string)
+void PrintSmallNarrowTextCentered(u8 windowId, u8 left, u8 colorId, const u8 *string)
 {
     left = (left * 4) - (GetStringWidth(FONT_SMALL_NARROW, string, -1) / 2u);
     AddTextPrinterParameterized3(windowId, FONT_SMALL_NARROW, left, 0, sFontColorTableUI[colorId], 0, string);
 }
 
-static void PrintToWindow(u8 windowId, u8 colorIdx, u16 card)
+void PrintToWindow(u8 windowId, u8 colorIdx, u16 card)
 {
     const u8 *cardName = gCardInfo[card].name;
     const u8 *cardNameShort = gCardInfo[card].nameShort;
@@ -4207,7 +4198,7 @@ void Task_MenuTurnOff(u8 taskId)
     }
 }
 
-void DrawScrolledText(const u8 *fullText, u32 startIndex, u8 linesToDraw)
+void DrawScrolledText(u8 windowId, const u8 *fullText, u32 startIndex, u8 linesToDraw)
 {
     u8 buffer[512];
     u32 i = startIndex;
@@ -4229,10 +4220,10 @@ void DrawScrolledText(const u8 *fullText, u32 startIndex, u8 linesToDraw)
     DebugPrintf("Displayed text:\n%s", buffer);
 
     // Draw to window
-    FillWindowPixelBuffer(WINDOW_1, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-    PutWindowTilemap(WINDOW_1);
-    AddTextPrinterParameterized4(WINDOW_1, FONT_SMALL_NARROWER, 0, 0, 0, 0, sMenuWindowFontColors[FONT_WHITE], 0xFF, buffer);
-    CopyWindowToVram(WINDOW_1, 3);
+    FillWindowPixelBuffer(windowId, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+    PutWindowTilemap(windowId);
+    AddTextPrinterParameterized4(windowId, FONT_SMALL_NARROWER, 0, 0, 0, 0, sMenuWindowFontColors[FONT_WHITE], 0xFF, buffer);
+    CopyWindowToVram(windowId, 3);
 }
 
 u16 CountNumLines(const u8 *text)
@@ -4265,8 +4256,6 @@ u32 GetLineStartIndex(const u8 *text, u8 lineNum)
     return i;  // End of string if lineNum too large
 }
 
-#define NUM_VISIBLE_LINES 15
-
 static void Task_MenuMain(u8 taskId)
 {
     u16 card = CardIdMapping[gSpecialVar_ItemId];
@@ -4278,7 +4267,7 @@ static void Task_MenuMain(u8 taskId)
     {
         sScrollDown = 0;
         startIdx = GetLineStartIndex(cardDescription, sScrollDown);
-        DrawScrolledText(cardDescription, startIdx, NUM_VISIBLE_LINES);
+        DrawScrolledText(WINDOW_1, cardDescription, startIdx, NUM_VISIBLE_LINES);
         DebugPrintf("Initial draw: totalLines=%d", totalLines);
         sDidInitialDraw = TRUE;
     }
@@ -4298,7 +4287,7 @@ static void Task_MenuMain(u8 taskId)
         sScrollDown++;
         startIdx = GetLineStartIndex(cardDescription, sScrollDown);
         DebugPrintf("DPAD_DOWN: sScrollDown=%d startIdx=%d", sScrollDown, startIdx);
-        DrawScrolledText(cardDescription, startIdx, NUM_VISIBLE_LINES);
+        DrawScrolledText(WINDOW_1, cardDescription, startIdx, NUM_VISIBLE_LINES);
     }
 
     if (JOY_NEW(DPAD_UP) && sScrollDown > 0)
@@ -4306,7 +4295,7 @@ static void Task_MenuMain(u8 taskId)
         sScrollDown--;
         startIdx = GetLineStartIndex(cardDescription, sScrollDown);
         DebugPrintf("DPAD_UP: sScrollDown=%d startIdx=%d", sScrollDown, startIdx);
-        DrawScrolledText(cardDescription, startIdx, NUM_VISIBLE_LINES);
+        DrawScrolledText(WINDOW_1, cardDescription, startIdx, NUM_VISIBLE_LINES);
     }
 }
 

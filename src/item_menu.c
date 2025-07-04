@@ -1326,14 +1326,6 @@ static void BagMenu_ItemPrintCallback(u8 windowId, u32 itemIndex, u8 y)
     }
 }
 
-enum Colors_
-{
-    FONT_BLACK,
-    FONT_WHITE,
-    FONT_RED,
-    FONT_BLUE,
-};
-
 static void PrintItemDescription(int itemIndex)
 {
     const u8 *str;
