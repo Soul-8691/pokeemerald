@@ -4006,11 +4006,11 @@ static void BattleMenu_RunSetup(void)
 }
 
 // This is our main initialization function if you want to call the menu from elsewhere
-void BattleMenu_Init(MainCallback callback)
+void BattleMenu_Init(void)
 {
     if ((sMenuDataPtr = AllocZeroed(sizeof(struct MenuResources))) == NULL)
     {
-        SetMainCallback2(callback);
+        SetMainCallback2(Task_HandleYGOTurn);
         return;
     }
     
@@ -4231,7 +4231,7 @@ void Task_OpenBattleMenuFromListMenu(u8 taskId)
     s16 *data = gTasks[taskId].data;
     if (!gPaletteFade.active)
     {
-        BattleMenu_Init(Task_HandleYGOTurn);
+        BattleMenu_Init();
         DestroyTask(taskId);
     }
 }
@@ -4500,7 +4500,24 @@ void Task_HandleYGOTurn(void)
             if (gSpecialVar_0x8007 == 0)
             {
                 gSpecialVar_ItemId = playerDeck[gSpecialVar_0x8004];
-                // ScriptContext_SetupScript(EventScript_AccessCard);
+                // FillWindowPixelBuffer(WINDOW_TEXT, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+                // FillWindowPixelBuffer(WINDOW_TEXT_2, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+                // FillWindowPixelBuffer(WINDOW_TEXT_3, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+                // FillWindowPixelBuffer(WINDOW_TYPE_ATTRIBUTE, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+                // FillWindowPixelBuffer(WINDOW_RACE, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+                // FillWindowPixelBuffer(WINDOW_STAR, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+                // FillWindowPixelBuffer(WINDOW_HAND, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+                // FillWindowPixelBuffer(WINDOW_ENEMY_HAND, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+                // FillWindowPixelBuffer(WINDOW_PLAYER_LP, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+                // FillWindowPixelBuffer(WINDOW_ENEMY_LP, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+                // FillWindowPixelBuffer(WINDOW_CONTEXT, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+                // FillWindowPixelBuffer(WINDOW_DESC, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+                // FillWindowPixelBuffer(WINDOW_2, PIXEL_FILL(0));
+                // FillWindowPixelBuffer(WINDOW_3, PIXEL_FILL(0));
+                // FillWindowPixelBuffer(WINDOW_4, PIXEL_FILL(0));
+                // FillWindowPixelBuffer(WINDOW_5, PIXEL_FILL(0));
+                // FillWindowPixelBuffer(WINDOW_6, PIXEL_FILL(0));
+                // FillWindowPixelBuffer(WINDOW_7, PIXEL_FILL(0));
                 Menu_Init(Task_HandleYGOTurn);
             }
             sDidInitialDraw = FALSE;
