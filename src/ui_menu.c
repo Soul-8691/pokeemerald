@@ -4041,7 +4041,6 @@ static bool8 Menu_LoadGraphics(void)
         }
         break;
     case 2:
-		DebugPrintf("case 2");
         LoadPalette(sBackgroundPalette, 48, 32);
         sMenuDataPtr->gfxLoadState++;
         break;
