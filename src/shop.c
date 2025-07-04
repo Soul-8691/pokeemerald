@@ -1205,7 +1205,6 @@ static void BuyMenuTryMakePurchase(u8 taskId)
                 }
             }
         }
-        DebugPrintf("tItemCount:%d, ownedCount:%d", tItemCount, ownedCount);
     }
     if (tItemCount + ownedCount > 3)
     {

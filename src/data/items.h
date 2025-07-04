@@ -23282,4 +23282,19 @@ const struct Item gItems[] =
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
     },
+
+	[ITEM_CARD_MENU] =
+    {
+        .name = _("Card Menu"),
+        .itemId = ITEM_CARD_MENU,
+        .price = 0,
+        .description = sDummyDesc,
+        .importance = 1,
+        .registrability = TRUE,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .battleUsage = ITEM_B_USE_OTHER,
+        .battleUseFunc = Task_MenuMain,
+    },
 };

@@ -7,6 +7,7 @@
 #include "battle_controllers.h"
 #include "battle_interface.h"
 #include "battle_main.h"
+#include "start_menu.h"
 #include "battle_message.h"
 #include "battle_pyramid.h"
 #include "battle_scripts.h"
@@ -4235,6 +4236,19 @@ void Task_OpenBattleMenuFromListMenu(u8 taskId)
     }
 }
 
+enum
+{
+    STATE_TURN_START_RECORD,
+    STATE_BEFORE_ACTION_CHOSEN,
+    STATE_WAIT_ACTION_CHOSEN,
+    STATE_WAIT_ACTION_CASE_CHOSEN,
+    STATE_WAIT_ACTION_CONFIRMED_STANDBY,
+    STATE_WAIT_ACTION_CONFIRMED,
+    STATE_SELECTION_SCRIPT,
+    STATE_WAIT_SET_BEFORE_ACTION,
+    STATE_SELECTION_SCRIPT_MAY_RUN
+};
+
 void Task_HandleYGOTurn(void)
 {
     u16 card = CardIdMapping[playerDeck[gSpecialVar_0x8004]];
@@ -4496,7 +4510,6 @@ void Task_HandleYGOTurn(void)
     {
         if (gSpecialVar_0x8008 == 1)
         {
-            DebugPrintf("gSpecialVar_0x8004=%d", gSpecialVar_0x8004);
             if (gSpecialVar_0x8007 == 0)
             {
                 gSpecialVar_ItemId = playerDeck[gSpecialVar_0x8004];
@@ -4518,7 +4531,8 @@ void Task_HandleYGOTurn(void)
                 // FillWindowPixelBuffer(WINDOW_5, PIXEL_FILL(0));
                 // FillWindowPixelBuffer(WINDOW_6, PIXEL_FILL(0));
                 // FillWindowPixelBuffer(WINDOW_7, PIXEL_FILL(0));
-                Menu_Init(Task_HandleYGOTurn);
+                SetMainCallback2(Menu_RunSetup);
+                // Menu_Init(CB2_InitYGODuelInternal);
             }
             sDidInitialDraw = FALSE;
         }
@@ -5411,19 +5425,6 @@ void SwitchPartyOrder(u8 battler)
         }
     }
 }
-
-enum
-{
-    STATE_TURN_START_RECORD,
-    STATE_BEFORE_ACTION_CHOSEN,
-    STATE_WAIT_ACTION_CHOSEN,
-    STATE_WAIT_ACTION_CASE_CHOSEN,
-    STATE_WAIT_ACTION_CONFIRMED_STANDBY,
-    STATE_WAIT_ACTION_CONFIRMED,
-    STATE_SELECTION_SCRIPT,
-    STATE_WAIT_SET_BEFORE_ACTION,
-    STATE_SELECTION_SCRIPT_MAY_RUN
-};
 
 static void HandleTurnActionSelectionState(void)
 {

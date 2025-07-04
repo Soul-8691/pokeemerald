@@ -491,6 +491,7 @@ InsideOfTruck_EventScript_MovingBox::
 	end
 
 InsideOfTruck_EventScript_MovingBox2::
+	additem ITEM_CARD_MENU
 	additem ITEM_PACK_LEGEND_OF_BLUE_EYES_WHITE_DRAGON, 10
 	additem ITEM_PACK_STARTER_DECK_YUGI, 10
 	additem ITEM_PACK_STARTER_DECK_KAIBA, 10
@@ -508,6 +509,10 @@ InsideOfTruck_EventScript_MovingBox3::
 	setvar VAR_YGO_BATTLE, 1
 	trainerbattle_no_intro TRAINER_STEVEN, MeteorFalls_StevensCave_Text_StevenDefeat
 	setvar VAR_YGO_BATTLE, 0
+	end
+
+InsideOfTruck_EventScript_MovingBox5::
+	trainerbattle_no_intro TRAINER_STEVEN, MeteorFalls_StevensCave_Text_StevenDefeat
 	end
 
 InsideOfTruck_Text_WhichCardList:

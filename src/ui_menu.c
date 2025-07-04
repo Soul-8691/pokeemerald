@@ -104,10 +104,8 @@ EWRAM_DATA u8 sScrollDown = 0;
 EWRAM_DATA bool8 sDidInitialDraw = FALSE;
 
 //==========STATIC=DEFINES==========//
-static void Menu_RunSetup(void);
 static bool8 Menu_DoGfxSetup(void);
 static bool8 Menu_LoadGraphics(void);
-static void Task_MenuMain(u8 taskId);
 
 //==========CONST=DATA==========//
 static const struct BgTemplate sMenuBgTemplates[] =
@@ -388,7 +386,7 @@ void Menu_Init(MainCallback callback)
     SetMainCallback2(Menu_RunSetup);
 }
 
-static void Menu_RunSetup(void)
+void Menu_RunSetup(void)
 {
     while (1)
     {
@@ -4255,7 +4253,7 @@ u32 GetLineStartIndex(const u8 *text, u8 lineNum)
     return i;  // End of string if lineNum too large
 }
 
-static void Task_MenuMain(u8 taskId)
+void Task_MenuMain(u8 taskId)
 {
     u16 card = CardIdMapping[gSpecialVar_ItemId];
     const u8 *cardDescription = gCardInfo[card].description;

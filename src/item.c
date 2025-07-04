@@ -23,6 +23,7 @@ EWRAM_DATA struct BagPocket gBagPockets[POCKETS_COUNT] = {0};
 
 #include "data/text/item_descriptions.h"
 #include "ygo.h"
+#include "ui_menu.h"
 #include "data/items.h"
 
 // code
@@ -342,7 +343,6 @@ bool8 AddBagItem(u16 itemId, u16 count)
                     {
                         // created a new slot and added quantity
                         ownedCount = GetBagItemQuantity(&newItems[i].quantity);
-                        DebugPrintf("count:%d, ownedCount:%d", count, ownedCount);
                         if ((pocket == TRUNK_POCKET || pocket == MAIN_DECK_POCKET || pocket == EXTRA_DECK_POCKET || pocket == SIDE_DECK_POCKET) && (ownedCount + count > 3))
                             break;
                         SetBagItemQuantity(&newItems[i].quantity, count);

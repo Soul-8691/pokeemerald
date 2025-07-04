@@ -2124,8 +2124,9 @@
 #define ITEM_PACK_FIRE_WATER 2078
 #define ITEM_PACK_HAT 2079
 #define ITEM_PACK_VEGAS 2080
+#define ITEM_CARD_MENU 2081
 
-#define ITEMS_COUNT 2081
+#define ITEMS_COUNT 2082
 
 // A special item id associated with "Cancel"/"Exit" etc. in a list of items or decorations
 // Its icon is defined at ITEMS_COUNT as the "return to field" arrow

@@ -105,7 +105,6 @@ static bool8 StartMenuSafariZoneRetireCallback(void);
 static bool8 StartMenuLinkModePlayerNameCallback(void);
 static bool8 StartMenuBattlePyramidRetireCallback(void);
 static bool8 StartMenuBattlePyramidBagCallback(void);
-static bool8 StartMenuUiMenuCallback(void);
 
 // Menu callbacks
 static bool8 SaveStartCallback(void);
@@ -1446,7 +1445,7 @@ void AppendToList(u8 *list, u8 *pos, u8 newEntry)
     (*pos)++;
 }
 
-static bool8 StartMenuUiMenuCallback(void)
+bool8 StartMenuUiMenuCallback(void)
 {
     CreateTask(Task_OpenMenuFromStartMenu, 0);
     return TRUE;
