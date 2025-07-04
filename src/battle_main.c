@@ -3640,6 +3640,19 @@ enum {
     COLORID_NONE = 0xFF
 };
 
+static u16 const enemyDeck1[9] =
+{
+    ITEM_CARD_DARK_MAGICIAN,
+    ITEM_CARD_DARK_MAGICIAN,
+    ITEM_CARD_DARK_MAGICIAN,
+    ITEM_CARD_RED_EYES_BLACK_DRAGON,
+    ITEM_CARD_RED_EYES_BLACK_DRAGON,
+    ITEM_CARD_RED_EYES_BLACK_DRAGON,
+    ITEM_CARD_BLUE_EYES_WHITE_DRAGON,
+    ITEM_CARD_BLUE_EYES_WHITE_DRAGON,
+    ITEM_CARD_BLUE_EYES_WHITE_DRAGON,
+};
+
 static const u16 sMenuPalette[] = INCBIN_U16("graphics/ui_menu/palette.gbapal");
 
 static void Task_HandleYGOTurn(void)
@@ -3940,8 +3953,6 @@ static void BattleIntroPrepareBackgroundSlide(void)
                     spriteTemplate->paletteTag = TAG_CARD_ICON_SMALL_PAL + 2 * k;
                     spriteId = CreateSprite(spriteTemplate, 0, 0, 0);
                     playerDeck[k] = items[randomItem];
-                    for (j = 0; j < 6; j++)
-                        DebugPrintf("k=%d, j=%d, indexes[j]=%d", k, j, indexes[j]);
                     if (spriteId != MAX_SPRITES)
                     {
                         gSprites[spriteId].x = 256;
@@ -3956,28 +3967,28 @@ static void BattleIntroPrepareBackgroundSlide(void)
                 }
                 randomItem = Random() % j;
             }
-            randomItem = Random() % j;
+            randomItem = Random() % 9;
             k = 0;
             while (k < 6)
             {
-                if (!containsElement(enemyIndexes, 6, randomItem + 1))
+                if (!containsElement(enemyIndexes, 6, randomItem))
                 {
                     u8 spriteId;
                     struct SpriteSheet spriteSheet;
                     struct CompressedSpritePalette spritePalette;
                     struct SpriteTemplate *spriteTemplate;
 
-                    enemyIndexes[k] = randomItem + 1;
+                    enemyIndexes[k] = randomItem;
                     AllocItemIconTemporaryBuffers();
 
-                    LZDecompressWram(GetItemIconPicOrPalette(items[randomItem], 0), gItemIconDecompressionBuffer);
-                    CopyItemIconPicTo4x4Buffer(gItemIconDecompressionBuffer, gItemIcon4x4Buffer, items[randomItem]);
+                    LZDecompressWram(GetItemIconPicOrPalette(enemyDeck1[randomItem], 0), gItemIconDecompressionBuffer);
+                    CopyItemIconPicTo4x4Buffer(gItemIconDecompressionBuffer, gItemIcon4x4Buffer, enemyDeck1[randomItem]);
                     spriteSheet.data = gItemIcon4x4Buffer;
                     spriteSheet.size = 0x200;
                     spriteSheet.tag = TAG_CARD_ICON_SMALL_ENEMY + 2 * k;
                     LoadSpriteSheet(&spriteSheet);
 
-                    spritePalette.data = GetItemIconPicOrPalette(items[randomItem], 1);
+                    spritePalette.data = GetItemIconPicOrPalette(enemyDeck1[randomItem], 1);
                     spritePalette.tag = TAG_CARD_ICON_SMALL_ENEMY_PAL + 2 * k;
                     LoadCompressedSpritePalette(&spritePalette);
 
@@ -3986,7 +3997,7 @@ static void BattleIntroPrepareBackgroundSlide(void)
                     spriteTemplate->tileTag = TAG_CARD_ICON_SMALL_ENEMY + 2 * k;
                     spriteTemplate->paletteTag = TAG_CARD_ICON_SMALL_ENEMY_PAL + 2 * k;
                     spriteId = CreateSprite(spriteTemplate, 0, 0, 0);
-                    enemyDeck[k] = items[randomItem];
+                    enemyDeck[k] = enemyDeck1[randomItem];
                     if (spriteId != MAX_SPRITES)
                     {
                         gSprites[spriteId].x = -16;
@@ -3999,7 +4010,7 @@ static void BattleIntroPrepareBackgroundSlide(void)
                     }
                     k++;
                 }
-                randomItem = Random() % j;
+                randomItem = Random() % 9;
             }
             VarSet(VAR_YGO_ICON, 0);
             InitWindows(sYGOWindowTemplates);
