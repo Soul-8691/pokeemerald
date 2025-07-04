@@ -2,6 +2,7 @@
 #define GUARD_BATTLE_MAIN_H
 
 extern u32 addWindow;
+void Task_HandleYGOTurn(void);
 
 struct TrainerMoney
 {

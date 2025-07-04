@@ -4003,8 +4003,6 @@ static void BattleMenu_RunSetup(void)
     }
 }
 
-static void Task_HandleYGOTurn(void);
-
 // This is our main initialization function if you want to call the menu from elsewhere
 void BattleMenu_Init(MainCallback callback)
 {
@@ -4236,7 +4234,7 @@ void Task_OpenBattleMenuFromListMenu(u8 taskId)
     }
 }
 
-static void Task_HandleYGOTurn(void)
+void Task_HandleYGOTurn(void)
 {
     u16 card = CardIdMapping[playerDeck[gSpecialVar_0x8004]];
     const u8 *cardName = gCardInfo[card].name;
