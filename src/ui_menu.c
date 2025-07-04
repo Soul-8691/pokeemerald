@@ -383,7 +383,7 @@ void Menu_Init(MainCallback callback)
     // initialize stuff
     sMenuDataPtr->gfxLoadState = 0;
     sMenuDataPtr->savedCallback = CB2_ReturnToBagMenuPocket;
-	if (callback == Task_HandleYGOTurn) sMenuDataPtr->savedCallback = callback;
+	if (addWindow == 11) sMenuDataPtr->savedCallback = callback;
     
     SetMainCallback2(Menu_RunSetup);
 }
