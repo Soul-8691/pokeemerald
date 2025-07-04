@@ -71,8 +71,10 @@
 
 #define TAG_CARD_ICON_SMALL 60002
 #define TAG_CARD_ICON_SMALL_PAL 60003
-#define TAG_CARD_ICON_LARGE 60020
-#define TAG_CARD_ICON_LARGE_PAL 60021
+#define TAG_CARD_ICON_SMALL_ENEMY 60020
+#define TAG_CARD_ICON_SMALL_ENEMY_PAL 60021
+#define TAG_CARD_ICON_LARGE 60040
+#define TAG_CARD_ICON_LARGE_PAL 60041
 
 extern const struct BgTemplate gBattleBgTemplates[];
 extern const struct WindowTemplate *const gBattleWindowTemplates[];
@@ -163,6 +165,7 @@ EWRAM_DATA u32 gUnusedFirstBattleVar1 = 0; // Never read
 EWRAM_DATA struct MultiPartnerMenuPokemon gMultiPartnerParty[MULTI_PARTY_SIZE] = {0};
 EWRAM_DATA u16 items[NUM_CARDS*3] = {0};
 EWRAM_DATA u16 playerDeck[60] = {0};
+EWRAM_DATA u16 enemyDeck[60] = {0};
 EWRAM_DATA static struct MultiPartnerMenuPokemon *sMultiPartnerPartyBuffer = NULL;
 EWRAM_DATA u8 *gBattleAnimBgTileBuffer = NULL;
 EWRAM_DATA u8 *gBattleAnimBgTilemapBuffer = NULL;
@@ -699,7 +702,7 @@ static void CB2_InitYGODuelInternal(void)
     ResetTasks();
     // DrawBattleEntryBackground();
     FreeAllSpritePalettes();
-    gReservedSpritePaletteCount = MAX_BATTLERS_COUNT;
+    // gReservedSpritePaletteCount = MAX_BATTLERS_COUNT;
     SetVBlankCallback(VBlankCB_Battle);
     SetUpBattleVarsAndBirchZigzagoon();
 
@@ -2985,6 +2988,19 @@ static void SpriteCB_SlideLeft(struct Sprite *sprite)
     }
 }
 
+static void SpriteCB_SlideRight(struct Sprite *sprite)
+{
+    if (!(gIntroSlideFlags & 1))
+    {
+        sprite->x += 1;
+        if (sprite->x == sprite->x2 + 100)
+        {
+            sprite->callback = SpriteCB_Idle;
+            sprite->data[1] = 0;
+        }
+    }
+}
+
 static void SpriteCB_BattleSpriteSlideLeft(struct Sprite *sprite)
 {
     if (!(gIntroSlideFlags & 1))
@@ -3625,93 +3641,205 @@ static void Task_HandleYGOTurn(void)
     const u16 cardAtk = gCardInfo[card].atk * 10;
     const u16 cardDef = gCardInfo[card].def * 10;
     const u8 level = gCardInfo[card].level;
+    u16 cardEnemy = CardIdMapping[enemyDeck[gSpecialVar_0x8004 - 6]];
+    const u8 *cardNameEnemy = gCardInfo[cardEnemy].name;
+    const u8 cardTypeEnemy = gCardInfo[cardEnemy].type;
+    const u8 raceEnemy = gCardInfo[cardEnemy].race;
+    const u8 attributeEnemy = gCardInfo[cardEnemy].attribute;
+    const u16 cardAtkEnemy = gCardInfo[cardEnemy].atk * 10;
+    const u16 cardDefEnemy = gCardInfo[cardEnemy].def * 10;
+    const u8 levelEnemy = gCardInfo[cardEnemy].level;
     u8 x = 0;
     u8 y = 0;
     u8 spriteId;
     struct SpriteSheet spriteSheet;
     struct CompressedSpritePalette spritePalette;
     struct SpriteTemplate *spriteTemplate;
-    
+
     FillWindowPixelBuffer(WINDOW_TEXT, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
     FillWindowPixelBuffer(WINDOW_TEXT_2, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
     FillWindowPixelBuffer(WINDOW_TYPE_ATTRIBUTE, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
     FillWindowPixelBuffer(WINDOW_RACE, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-    AddTextPrinterParameterized4(WINDOW_TEXT_2, FONT_SMALL_NARROWER, 4, 0, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, cardName);
-    ConvertIntToDecimalStringN(gStringVar1, level, STR_CONV_MODE_RIGHT_ALIGN, 1);
-    StringExpandPlaceholders(gStringVar4, gText_StrVar1);
-    AddTextPrinterParameterized4(WINDOW_TEXT_3, FONT_SMALL_NARROWER, 0, 4, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
-    if (cardType != TYPE_SPELL_CARD && cardType != TYPE_TRAP_CARD)
+    if (gSpecialVar_0x8004 < 6)
     {
-        ConvertIntToDecimalStringN(gStringVar1, cardAtk, STR_CONV_MODE_LEFT_ALIGN, 4);
+        AddTextPrinterParameterized4(WINDOW_TEXT_2, FONT_SMALL_NARROWER, 4, 0, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, cardName);
+        ConvertIntToDecimalStringN(gStringVar1, level, STR_CONV_MODE_RIGHT_ALIGN, 1);
         StringExpandPlaceholders(gStringVar4, gText_StrVar1);
-        AddTextPrinterParameterized4(WINDOW_TEXT, FONT_SMALL_NARROWER, 6, 0, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
-        ConvertIntToDecimalStringN(gStringVar1, cardDef, STR_CONV_MODE_LEFT_ALIGN, 4);
-        StringExpandPlaceholders(gStringVar4, gText_StrVar1);
-        AddTextPrinterParameterized4(WINDOW_TEXT, FONT_SMALL_NARROWER, 6, 10, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
-    }
-    if (cardType == TYPE_SPELL_CARD || cardType == TYPE_TRAP_CARD)
-    {
-        BlitBitmapToWindow(WINDOW_TYPE_ATTRIBUTE, sCardTypeIcons[cardType], 0, 0, 16, 16);
-        LoadPalette(sCardTypeIconPals[cardType], BG_PLTT_ID(2), 32);
+        AddTextPrinterParameterized4(WINDOW_TEXT_3, FONT_SMALL_NARROWER, 0, 4, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
+        if (cardType != TYPE_SPELL_CARD && cardType != TYPE_TRAP_CARD)
+        {
+            ConvertIntToDecimalStringN(gStringVar1, cardAtk, STR_CONV_MODE_LEFT_ALIGN, 4);
+            StringExpandPlaceholders(gStringVar4, gText_StrVar1);
+            AddTextPrinterParameterized4(WINDOW_TEXT, FONT_SMALL_NARROWER, 6, 0, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
+            ConvertIntToDecimalStringN(gStringVar1, cardDef, STR_CONV_MODE_LEFT_ALIGN, 4);
+            StringExpandPlaceholders(gStringVar4, gText_StrVar1);
+            AddTextPrinterParameterized4(WINDOW_TEXT, FONT_SMALL_NARROWER, 6, 10, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
+        }
+        if (cardType == TYPE_SPELL_CARD || cardType == TYPE_TRAP_CARD)
+        {
+            BlitBitmapToWindow(WINDOW_TYPE_ATTRIBUTE, sCardTypeIcons[cardType], 0, 0, 16, 16);
+            LoadPalette(sCardTypeIconPals[cardType], BG_PLTT_ID(2), 32);
+        }
+        else
+        {
+            BlitBitmapToWindow(WINDOW_RACE, sCardRaceIcons[race], 0, 0, 16, 16);
+            LoadPalette(sCardRaceIconPals[race], BG_PLTT_ID(3), 32);
+            BlitBitmapToWindow(WINDOW_TYPE_ATTRIBUTE, sCardAttributeIcons[attribute], 0, 0, 16, 16);
+            LoadPalette(sCardAttributeIconPals[attribute], BG_PLTT_ID(2), 32);
+        }
+        BlitBitmapToWindow(WINDOW_STAR, gStarIcon, 0, 0, 8, 8);
+        LoadPalette(gStarIconPal, BG_PLTT_ID(4), 32);
+        if (!sDidInitialDraw)
+        {
+            FillWindowPixelBuffer(WINDOW_HAND, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+            FillWindowPixelRect(WINDOW_HAND, PIXEL_FILL(13), 4 + gSpecialVar_0x8004 * 24, 10, 16, 24);
+            FreeSpriteTilesByTag(TAG_CARD_ICON_LARGE);
+            FreeSpritePaletteByTag(TAG_CARD_ICON_LARGE_PAL);
+            DestroySprite(&gSprites[gSpecialVar_0x8005]);
+            VarSet(VAR_YGO_ICON, 2);
+            AllocItemIconTemporaryBuffers();
+
+            LZDecompressWram(GetItemIconPicOrPalette(playerDeck[gSpecialVar_0x8004], 0), gItemIconDecompressionBuffer);
+            CopyItemIconPicTo4x4Buffer(gItemIconDecompressionBuffer, gItemIcon4x4Buffer, playerDeck[gSpecialVar_0x8004]);
+            spriteSheet.data = gItemIcon4x4Buffer;
+            spriteSheet.size = 0x600;
+            spriteSheet.tag = TAG_CARD_ICON_LARGE;
+            LoadSpriteSheet(&spriteSheet);
+
+            spritePalette.data = GetItemIconPicOrPalette(playerDeck[gSpecialVar_0x8004], 1);
+            spritePalette.tag = TAG_CARD_ICON_LARGE_PAL;
+            LoadCompressedSpritePalette(&spritePalette);
+
+            spriteTemplate = Alloc(sizeof(*spriteTemplate));
+            CpuCopy16(&gItemIconSpriteTemplate, spriteTemplate, sizeof(*spriteTemplate));
+            spriteTemplate->tileTag = TAG_CARD_ICON_LARGE;
+            spriteTemplate->paletteTag = TAG_CARD_ICON_LARGE_PAL;
+            spriteId = CreateSprite(spriteTemplate, 0, 0, 0);
+            gSpecialVar_0x8005 = spriteId;
+            if (spriteId != MAX_SPRITES)
+            {
+                gSprites[spriteId].x = 16;
+                gSprites[spriteId].y = 55;
+                FreeItemIconTemporaryBuffers();
+                Free(spriteTemplate);
+            }
+            VarSet(VAR_YGO_ICON, 0);
+            sDidInitialDraw = TRUE;
+        }
     }
     else
     {
-        BlitBitmapToWindow(WINDOW_RACE, sCardRaceIcons[race], 0, 0, 16, 16);
-        LoadPalette(sCardRaceIconPals[race], BG_PLTT_ID(3), 32);
-        BlitBitmapToWindow(WINDOW_TYPE_ATTRIBUTE, sCardAttributeIcons[attribute], 0, 0, 16, 16);
-        LoadPalette(sCardAttributeIconPals[attribute], BG_PLTT_ID(2), 32);
-    }
-    BlitBitmapToWindow(WINDOW_STAR, gStarIcon, 0, 0, 8, 8);
-    LoadPalette(gStarIconPal, BG_PLTT_ID(4), 32);
-    if (!sDidInitialDraw)
-    {
-        FillWindowPixelBuffer(WINDOW_HAND, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-        FillWindowPixelRect(WINDOW_HAND, PIXEL_FILL(13), 4 + gSpecialVar_0x8004 * 24, 10, 16, 24);
-        DestroySprite(&gSprites[gSpecialVar_0x8005]);
-        VarSet(VAR_YGO_ICON, 2);
-        AllocItemIconTemporaryBuffers();
-
-        LZDecompressWram(GetItemIconPicOrPalette(playerDeck[gSpecialVar_0x8004], 0), gItemIconDecompressionBuffer);
-        CopyItemIconPicTo4x4Buffer(gItemIconDecompressionBuffer, gItemIcon4x4Buffer, playerDeck[gSpecialVar_0x8004]);
-        spriteSheet.data = gItemIcon4x4Buffer;
-        spriteSheet.size = 0x600;
-        spriteSheet.tag = TAG_CARD_ICON_LARGE + 2 * gSpecialVar_0x8004;
-        LoadSpriteSheet(&spriteSheet);
-
-        spritePalette.data = GetItemIconPicOrPalette(playerDeck[gSpecialVar_0x8004], 1);
-        spritePalette.tag = TAG_CARD_ICON_LARGE_PAL + 2 * gSpecialVar_0x8004;
-        LoadCompressedSpritePalette(&spritePalette);
-
-        spriteTemplate = Alloc(sizeof(*spriteTemplate));
-        CpuCopy16(&gItemIconSpriteTemplate, spriteTemplate, sizeof(*spriteTemplate));
-        spriteTemplate->tileTag = TAG_CARD_ICON_LARGE + 2 * gSpecialVar_0x8004;
-        spriteTemplate->paletteTag = TAG_CARD_ICON_LARGE_PAL + 2 * gSpecialVar_0x8004;
-        spriteId = CreateSprite(spriteTemplate, 0, 0, 0);
-        gSpecialVar_0x8005 = spriteId;
-        if (spriteId != MAX_SPRITES)
+        AddTextPrinterParameterized4(WINDOW_TEXT_2, FONT_SMALL_NARROWER, 4, 0, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, cardNameEnemy);
+        ConvertIntToDecimalStringN(gStringVar1, levelEnemy, STR_CONV_MODE_RIGHT_ALIGN, 1);
+        StringExpandPlaceholders(gStringVar4, gText_StrVar1);
+        AddTextPrinterParameterized4(WINDOW_TEXT_3, FONT_SMALL_NARROWER, 0, 4, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
+        if (cardTypeEnemy != TYPE_SPELL_CARD && cardTypeEnemy != TYPE_TRAP_CARD)
         {
-            gSprites[spriteId].x = 16;
-            gSprites[spriteId].y = 55;
-            FreeItemIconTemporaryBuffers();
-            Free(spriteTemplate);
+            ConvertIntToDecimalStringN(gStringVar1, cardAtkEnemy, STR_CONV_MODE_LEFT_ALIGN, 4);
+            StringExpandPlaceholders(gStringVar4, gText_StrVar1);
+            AddTextPrinterParameterized4(WINDOW_TEXT, FONT_SMALL_NARROWER, 6, 0, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
+            ConvertIntToDecimalStringN(gStringVar1, cardDefEnemy, STR_CONV_MODE_LEFT_ALIGN, 4);
+            StringExpandPlaceholders(gStringVar4, gText_StrVar1);
+            AddTextPrinterParameterized4(WINDOW_TEXT, FONT_SMALL_NARROWER, 6, 10, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
         }
-        VarSet(VAR_YGO_ICON, 0);
-        sDidInitialDraw = TRUE;
+        if (cardTypeEnemy == TYPE_SPELL_CARD || cardTypeEnemy == TYPE_TRAP_CARD)
+        {
+            BlitBitmapToWindow(WINDOW_TYPE_ATTRIBUTE, sCardTypeIcons[cardTypeEnemy], 0, 0, 16, 16);
+            LoadPalette(sCardTypeIconPals[cardTypeEnemy], BG_PLTT_ID(2), 32);
+        }
+        else
+        {
+            BlitBitmapToWindow(WINDOW_RACE, sCardRaceIcons[raceEnemy], 0, 0, 16, 16);
+            LoadPalette(sCardRaceIconPals[raceEnemy], BG_PLTT_ID(3), 32);
+            BlitBitmapToWindow(WINDOW_TYPE_ATTRIBUTE, sCardAttributeIcons[attributeEnemy], 0, 0, 16, 16);
+            LoadPalette(sCardAttributeIconPals[attributeEnemy], BG_PLTT_ID(2), 32);
+        }
+        BlitBitmapToWindow(WINDOW_STAR, gStarIcon, 0, 0, 8, 8);
+        LoadPalette(gStarIconPal, BG_PLTT_ID(4), 32);
+        if (!sDidInitialDraw)
+        {
+            FillWindowPixelBuffer(WINDOW_HAND, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+            FillWindowPixelRect(WINDOW_HAND, PIXEL_FILL(13), 4 + (gSpecialVar_0x8004 - 6) * 24, 10, 16, 24);
+            FreeSpriteTilesByTag(TAG_CARD_ICON_LARGE);
+            FreeSpritePaletteByTag(TAG_CARD_ICON_LARGE_PAL);
+            DestroySprite(&gSprites[gSpecialVar_0x8005]);
+            VarSet(VAR_YGO_ICON, 2);
+            AllocItemIconTemporaryBuffers();
+
+            LZDecompressWram(GetItemIconPicOrPalette(enemyDeck[(gSpecialVar_0x8004 - 6)], 0), gItemIconDecompressionBuffer);
+            CopyItemIconPicTo4x4Buffer(gItemIconDecompressionBuffer, gItemIcon4x4Buffer, enemyDeck[(gSpecialVar_0x8004 - 6)]);
+            spriteSheet.data = gItemIcon4x4Buffer;
+            spriteSheet.size = 0x600;
+            spriteSheet.tag = TAG_CARD_ICON_LARGE;
+            LoadSpriteSheet(&spriteSheet);
+
+            spritePalette.data = GetItemIconPicOrPalette(enemyDeck[(gSpecialVar_0x8004 - 6)], 1);
+            spritePalette.tag = TAG_CARD_ICON_LARGE_PAL;
+            LoadCompressedSpritePalette(&spritePalette);
+
+            spriteTemplate = Alloc(sizeof(*spriteTemplate));
+            CpuCopy16(&gItemIconSpriteTemplate, spriteTemplate, sizeof(*spriteTemplate));
+            spriteTemplate->tileTag = TAG_CARD_ICON_LARGE;
+            spriteTemplate->paletteTag = TAG_CARD_ICON_LARGE_PAL;
+            spriteId = CreateSprite(spriteTemplate, 0, 0, 0);
+            gSpecialVar_0x8005 = spriteId;
+            if (spriteId != MAX_SPRITES)
+            {
+                gSprites[spriteId].x = 16;
+                gSprites[spriteId].y = 55;
+                FreeItemIconTemporaryBuffers();
+                Free(spriteTemplate);
+            }
+            VarSet(VAR_YGO_ICON, 0);
+            sDidInitialDraw = TRUE;
+        }
     }
     if (JOY_NEW(DPAD_RIGHT))
     {
-        if (gSpecialVar_0x8004 == 5)
-            gSpecialVar_0x8004 = gSpecialVar_0x8004 - 5;
+        if (gSpecialVar_0x8006 == 0)
+        {
+            if (gSpecialVar_0x8004 == 5)
+                gSpecialVar_0x8004 -= 5;
+            else
+                gSpecialVar_0x8004 += 1;
+        }
         else
-            gSpecialVar_0x8004 += 1;
+        {
+            if (gSpecialVar_0x8004 == 11)
+                gSpecialVar_0x8004 -= 5;
+            else
+                gSpecialVar_0x8004 += 1;
+        }
         sDidInitialDraw = FALSE;
     }
     else if (JOY_NEW(DPAD_LEFT))
     {
-        if (gSpecialVar_0x8004 == 0)
-            gSpecialVar_0x8004 = gSpecialVar_0x8004 + 5;
+        if (gSpecialVar_0x8006 == 0)
+        {
+            if (gSpecialVar_0x8004 == 0)
+                gSpecialVar_0x8004 += 5;
+            else
+                gSpecialVar_0x8004 -= 1;
+        }
         else
-            gSpecialVar_0x8004 -= 1;
+        {
+            if (gSpecialVar_0x8004 == 6)
+                gSpecialVar_0x8004 += 5;
+            else
+                gSpecialVar_0x8004 -= 1;
+        }
+        sDidInitialDraw = FALSE;
+    }
+    else if (JOY_NEW(DPAD_UP))
+    {
+        gSpecialVar_0x8004 = 6;
+        gSpecialVar_0x8006 = 1;
+        sDidInitialDraw = FALSE;
+    }
+    else if (JOY_NEW(DPAD_DOWN))
+    {
+        gSpecialVar_0x8004 = 0;
+        gSpecialVar_0x8006 = 0;
         sDidInitialDraw = FALSE;
     }
     LoadPalette(sBackgroundPalette, 16, 16);
@@ -3733,60 +3861,6 @@ static void Task_HandleYGOTurn(void)
     ScheduleBgCopyTilemapToVram(1);
     ScheduleBgCopyTilemapToVram(2);
     ScheduleBgCopyTilemapToVram(3);
-    // if (cardType == TYPE_NORMAL_MONSTER)
-    //     LoadPalette(sNormalMonsterPalette, 0, 32*3);
-    // else if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER || cardType == TYPE_SPIRIT_MONSTER || cardType == TYPE_UNION_EFFECT_MONSTER || cardType == TYPE_TOON_MONSTER)
-    //     LoadPalette(sEffectMonsterPalette, 0, 32*3);
-    // else if (cardType == TYPE_SPELL_CARD)
-    //     LoadPalette(sSpellCardPalette, 0, 32*3);
-    // else if (cardType == TYPE_TRAP_CARD)
-    //     LoadPalette(sTrapCardPalette, 0, 32*3);
-    // else if (cardType == TYPE_FUSION_MONSTER)
-    //     LoadPalette(sFusionMonsterPalette, 0, 32*3);
-    // else if (cardType == TYPE_RITUAL_MONSTER || cardType == TYPE_RITUAL_EFFECT_MONSTER)
-    //     LoadPalette(sRitualMonsterPalette, 0, 32*3);
-    // else
-    //     LoadPalette(sNormalMonsterPalette, 0, 32*3);
-    // SetBgTilemapPalette(2, 0, 0, DISPLAY_TILE_WIDTH, DISPLAY_TILE_HEIGHT, 3);
-    // FillWindowPixelBuffer(WINDOW_2, PIXEL_FILL(0));
-    // FillWindowPixelBuffer(WINDOW_3, PIXEL_FILL(0));
-    // if (cardType == TYPE_SPELL_CARD || cardType == TYPE_TRAP_CARD)
-    // {
-    //     BlitBitmapToWindow(WINDOW_2, sCardTypeIcons[cardType], 22, 6, 16, 16);
-    //     LoadPalette(sCardTypeIconPals[cardType], BG_PLTT_ID(8), 32);
-    // }
-    // else
-    // {
-    //     BlitBitmapToWindow(WINDOW_3, sCardRaceIcons[race], 6, 0, 16, 16);
-    //     LoadPalette(sCardRaceIconPals[race], BG_PLTT_ID(7), 32);
-    //     BlitBitmapToWindow(WINDOW_2, sCardAttributeIcons[attribute], 22, 6, 16, 16);
-    //     LoadPalette(sCardAttributeIconPals[attribute], BG_PLTT_ID(8), 32);
-    // }
-
-    // if (!sDidInitialDraw)
-    // {
-    //     LoadSpriteSheet(&sSpriteSheet_YGO[0]);
-    //     LoadSpritePaletteInSlot(&sIcon_SpritePalettes[0], 4);
-    //     for (i = 0; i < level; i++)
-    //     {
-    //         if (level < 12)
-    //             spriteId = CreateSprite(&sStarSpriteTemplate, 96 - (i * 8), 25, 0);
-    //         else
-    //             spriteId = CreateSprite(&sStarSpriteTemplate, 96 - (i * 7), 25, 0);
-    //         gSprites[spriteId].callback = SpriteCallbackDummy;
-    //     }
-    //     sDidInitialDraw = TRUE;
-    // }
-
-    // if (JOY_NEW(B_BUTTON))
-    // {
-    //     sScrollDown = 0;
-    //     sDidInitialDraw = FALSE;
-    //     PlaySE(SE_PC_OFF);
-    //     BeginNormalPaletteFade(0xFFFFFFFF, 0, 0, 16, RGB_BLACK);
-    //     gTasks[taskId].func = Task_MenuTurnOff;
-    //     return;
-    // }
 }
 
 static void BattleIntroPrepareBackgroundSlide(void)
@@ -3800,6 +3874,7 @@ static void BattleIntroPrepareBackgroundSlide(void)
         {
             struct BagPocket *itemPocket;
             u16 indexes[6] = {0};
+            u16 enemyIndexes[6] = {0};
             u32 i, k;
             u32 j = 0;
             u32 x = 0;
@@ -3866,10 +3941,56 @@ static void BattleIntroPrepareBackgroundSlide(void)
                 }
                 randomItem = Random() % j;
             }
+            randomItem = Random() % j;
+            k = 0;
+            while (k < 6)
+            {
+                if (!containsElement(enemyIndexes, 6, randomItem + 1))
+                {
+                    u8 spriteId;
+                    struct SpriteSheet spriteSheet;
+                    struct CompressedSpritePalette spritePalette;
+                    struct SpriteTemplate *spriteTemplate;
+
+                    enemyIndexes[k] = randomItem + 1;
+                    AllocItemIconTemporaryBuffers();
+
+                    LZDecompressWram(GetItemIconPicOrPalette(items[randomItem], 0), gItemIconDecompressionBuffer);
+                    CopyItemIconPicTo4x4Buffer(gItemIconDecompressionBuffer, gItemIcon4x4Buffer, items[randomItem]);
+                    spriteSheet.data = gItemIcon4x4Buffer;
+                    spriteSheet.size = 0x200;
+                    spriteSheet.tag = TAG_CARD_ICON_SMALL_ENEMY + 2 * k;
+                    LoadSpriteSheet(&spriteSheet);
+
+                    spritePalette.data = GetItemIconPicOrPalette(items[randomItem], 1);
+                    spritePalette.tag = TAG_CARD_ICON_SMALL_ENEMY_PAL + 2 * k;
+                    LoadCompressedSpritePalette(&spritePalette);
+
+                    spriteTemplate = Alloc(sizeof(*spriteTemplate));
+                    CpuCopy16(&gItemIconSpriteTemplate, spriteTemplate, sizeof(*spriteTemplate));
+                    spriteTemplate->tileTag = TAG_CARD_ICON_SMALL_ENEMY + 2 * k;
+                    spriteTemplate->paletteTag = TAG_CARD_ICON_SMALL_ENEMY_PAL + 2 * k;
+                    spriteId = CreateSprite(spriteTemplate, 0, 0, 0);
+                    enemyDeck[k] = items[randomItem];
+                    if (spriteId != MAX_SPRITES)
+                    {
+                        gSprites[spriteId].x = -16;
+                        gSprites[spriteId].y = 16;
+                        gSprites[spriteId].x2 = k * 12;
+                        gSprites[spriteId].callback = SpriteCB_SlideRight;
+                        gSprites[spriteId].oam.priority = 0;
+                        FreeItemIconTemporaryBuffers();
+                        Free(spriteTemplate);
+                    }
+                    k++;
+                }
+                randomItem = Random() % j;
+            }
             VarSet(VAR_YGO_ICON, 0);
             InitWindows(sYGOWindowTemplates);
             gSpecialVar_0x8004 = 0;
-            gSpecialVar_0x8005 = 6;
+            gSpecialVar_0x8005 = 12;
+            gSpecialVar_0x8006 = 0;
             gBattleMainFunc = Task_HandleYGOTurn;
         }
         else
