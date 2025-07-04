@@ -4208,8 +4208,6 @@ void DrawScrolledText(u8 windowId, const u8 *fullText, u32 startIndex, u8 linesT
     u32 bufIndex = 0;
     u8 lines = 0;
 
-    DebugPrintf("DrawScrolledText: startIndex=%d, linesToDraw=%d", startIndex, linesToDraw);
-
     while (fullText[i] != EOS && lines < linesToDraw)
     {
         if (fullText[i] == CHAR_NEWLINE)
@@ -4219,8 +4217,6 @@ void DrawScrolledText(u8 windowId, const u8 *fullText, u32 startIndex, u8 linesT
     }
 
     buffer[bufIndex] = EOS;
-
-    DebugPrintf("Displayed text:\n%s", buffer);
 
     // Draw to window
     FillWindowPixelBuffer(windowId, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
@@ -4271,7 +4267,6 @@ static void Task_MenuMain(u8 taskId)
         sScrollDown = 0;
         startIdx = GetLineStartIndex(cardDescription, sScrollDown);
         DrawScrolledText(WINDOW_1, cardDescription, startIdx, NUM_VISIBLE_LINES);
-        DebugPrintf("Initial draw: totalLines=%d", totalLines);
         sDidInitialDraw = TRUE;
     }
 
@@ -4289,7 +4284,6 @@ static void Task_MenuMain(u8 taskId)
     {
         sScrollDown++;
         startIdx = GetLineStartIndex(cardDescription, sScrollDown);
-        DebugPrintf("DPAD_DOWN: sScrollDown=%d startIdx=%d", sScrollDown, startIdx);
         DrawScrolledText(WINDOW_1, cardDescription, startIdx, NUM_VISIBLE_LINES);
     }
 
@@ -4297,7 +4291,6 @@ static void Task_MenuMain(u8 taskId)
     {
         sScrollDown--;
         startIdx = GetLineStartIndex(cardDescription, sScrollDown);
-        DebugPrintf("DPAD_UP: sScrollDown=%d startIdx=%d", sScrollDown, startIdx);
         DrawScrolledText(WINDOW_1, cardDescription, startIdx, NUM_VISIBLE_LINES);
     }
 }
