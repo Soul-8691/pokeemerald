@@ -3891,8 +3891,9 @@ void Task_MenuMainBattle(void)
         DrawScrolledText(WINDOW_DESC, cardDescription, startIdx, NUM_VISIBLE_LINES);
         if (BattleMenu_InitBgs())
         {
-            // ResetTempTileDataBuffers();
+            ResetTempTileDataBuffers();
             DecompressAndCopyTileDataToVram(0, sBackgroundTiles, 0, 0, 0);
+            // CopyToBgTilemapBuffer(0, sBackgroundTilemap, 0, 0);
             if (cardType == TYPE_NORMAL_MONSTER)
                 DecompressAndCopyTileDataToVram(1, sNormalMonsterTiles, 0, 0, 0);
             else if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER || cardType == TYPE_SPIRIT_MONSTER || cardType == TYPE_UNION_EFFECT_MONSTER || cardType == TYPE_TOON_MONSTER)
@@ -3907,6 +3908,8 @@ void Task_MenuMainBattle(void)
                 DecompressAndCopyTileDataToVram(1, sRitualMonsterTiles, 0, 0, 0);
             else
                 DecompressAndCopyTileDataToVram(1, sNormalMonsterTiles, 0, 0, 0);
+            if (FreeTempTileDataBuffersIfPossible() != TRUE)
+            {
                 LZDecompressWram(sBackgroundTilemap, sTilemapBuffers[1]);
                 if (cardType == TYPE_NORMAL_MONSTER)
                     LZDecompressWram(sNormalMonsterTilemap, sTilemapBuffers[0]);
@@ -3922,6 +3925,7 @@ void Task_MenuMainBattle(void)
                     LZDecompressWram(sRitualMonsterTilemap, sTilemapBuffers[0]);
                 else
                     LZDecompressWram(sNormalMonsterTilemap, sTilemapBuffers[0]);
+            }
             PrintSmallNarrowTextCentered(WINDOW_4, 94, COLORID_NORMAL, cardName);
             AddTextPrinterParameterized4(WINDOW_7, FONT_SMALL_NARROWER, 6, 6, 0, 0, sMenuWindowFontColors[FONT_WHITE], 0xFF, cardNameShort);
             if (cardType != TYPE_SPELL_CARD && cardType != TYPE_TRAP_CARD)
@@ -3947,7 +3951,7 @@ void Task_MenuMainBattle(void)
                 LoadPalette(sRitualMonsterPalette, 0, 32*3);
             else
                 LoadPalette(sNormalMonsterPalette, 0, 32*3);
-            SetBgTilemapPalette(2, 0, 0, DISPLAY_TILE_WIDTH, DISPLAY_TILE_HEIGHT, 3);
+            SetBgTilemapPalette(0, 0, 0, DISPLAY_TILE_WIDTH, DISPLAY_TILE_HEIGHT, 3);
             if (cardType == TYPE_SPELL_CARD || cardType == TYPE_TRAP_CARD)
             {
                 BlitBitmapToWindow(WINDOW_2, sCardTypeIcons[cardType], 22, 6, 16, 16);
@@ -3996,6 +4000,8 @@ void Task_MenuMainBattle(void)
             CopyWindowToVram(WINDOW_5, 3);
             CopyWindowToVram(WINDOW_6, 3);
             CopyWindowToVram(WINDOW_7, 3);
+            // CopyBgTilemapBufferToVram(0);
+            // CopyBgTilemapBufferToVram(1);
             ScheduleBgCopyTilemapToVram(0);
             ScheduleBgCopyTilemapToVram(1);
         }
