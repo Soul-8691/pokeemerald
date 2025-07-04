@@ -3657,7 +3657,7 @@ static const struct WindowTemplate sYGOWindowTemplates[] =
     [WINDOW_CONTEXT] = 
     {
         .bg = 1,            // which bg to print text on
-        .tilemapLeft = 7,   // position from left (per 8 pixels)
+        .tilemapLeft = 6,   // position from left (per 8 pixels)
         .tilemapTop = 9,    // position from top (per 8 pixels)
         .width = 22,        // width (per 8 pixels)
         .height = 6,        // height (per 8 pixels)
@@ -3917,26 +3917,60 @@ static void Task_HandleYGOTurn(void)
     }
     else if (JOY_NEW(DPAD_UP))
     {
-        gSpecialVar_0x8004 = 6;
-        gSpecialVar_0x8006 = 1;
+        if (gSpecialVar_0x8008 == 1)
+        {
+            if (gSpecialVar_0x8007 == 0)
+                gSpecialVar_0x8007 += 2;
+            else
+                gSpecialVar_0x8007 -= 1;
+            FillWindowPixelBuffer(WINDOW_CONTEXT, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+            AddTextPrinterParameterized4(WINDOW_CONTEXT, FONT_SMALL_NARROWER, 4 + gSpecialVar_0x8004 * 24, 14 + 10 * gSpecialVar_0x8007, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gText_SelectorArrow2);
+            AddTextPrinterParameterized4(WINDOW_CONTEXT, FONT_SMALL_NARROWER, 12 + gSpecialVar_0x8004 * 24, 14, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, sText_CardView);
+            AddTextPrinterParameterized4(WINDOW_CONTEXT, FONT_SMALL_NARROWER, 12 + gSpecialVar_0x8004 * 24, 24, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, sText_Summon);
+            AddTextPrinterParameterized4(WINDOW_CONTEXT, FONT_SMALL_NARROWER, 12 + gSpecialVar_0x8004 * 24, 34, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, sText_Set);
+        }
+        else
+        {
+            gSpecialVar_0x8004 = 6;
+            gSpecialVar_0x8006 = 1;
+        }
         sDidInitialDraw = FALSE;
     }
     else if (JOY_NEW(DPAD_DOWN))
     {
-        gSpecialVar_0x8004 = 0;
-        gSpecialVar_0x8006 = 0;
+        if (gSpecialVar_0x8008 == 1)
+        {
+            if (gSpecialVar_0x8007 == 2)
+                gSpecialVar_0x8007 -= 2;
+            else
+                gSpecialVar_0x8007 += 1;
+            FillWindowPixelBuffer(WINDOW_CONTEXT, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+            AddTextPrinterParameterized4(WINDOW_CONTEXT, FONT_SMALL_NARROWER, 4 + gSpecialVar_0x8004 * 24, 14 + 10 * gSpecialVar_0x8007, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gText_SelectorArrow2);
+            AddTextPrinterParameterized4(WINDOW_CONTEXT, FONT_SMALL_NARROWER, 12 + gSpecialVar_0x8004 * 24, 14, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, sText_CardView);
+            AddTextPrinterParameterized4(WINDOW_CONTEXT, FONT_SMALL_NARROWER, 12 + gSpecialVar_0x8004 * 24, 24, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, sText_Summon);
+            AddTextPrinterParameterized4(WINDOW_CONTEXT, FONT_SMALL_NARROWER, 12 + gSpecialVar_0x8004 * 24, 34, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, sText_Set);
+        }
+        else
+        {
+            gSpecialVar_0x8004 = 0;
+            gSpecialVar_0x8006 = 0;
+        }
         sDidInitialDraw = FALSE;
     }
-    else if (JOY_NEW(A_BUTTON))
+    else if (JOY_NEW(A_BUTTON) && gSpecialVar_0x8008 == 0)
     {
+        gSpecialVar_0x8008 = 1;
         FillWindowPixelBuffer(WINDOW_CONTEXT, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-        AddTextPrinterParameterized4(WINDOW_CONTEXT, FONT_SMALL_NARROWER, 4 + gSpecialVar_0x8004 * 24, 14, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, sText_CardView);
-        AddTextPrinterParameterized4(WINDOW_CONTEXT, FONT_SMALL_NARROWER, 4 + gSpecialVar_0x8004 * 24, 24, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, sText_Summon);
-        AddTextPrinterParameterized4(WINDOW_CONTEXT, FONT_SMALL_NARROWER, 4 + gSpecialVar_0x8004 * 24, 34, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, sText_Set);
+        AddTextPrinterParameterized4(WINDOW_CONTEXT, FONT_SMALL_NARROWER, 4 + gSpecialVar_0x8004 * 24, 14, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gText_SelectorArrow2);
+        AddTextPrinterParameterized4(WINDOW_CONTEXT, FONT_SMALL_NARROWER, 12 + gSpecialVar_0x8004 * 24, 14, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, sText_CardView);
+        AddTextPrinterParameterized4(WINDOW_CONTEXT, FONT_SMALL_NARROWER, 12 + gSpecialVar_0x8004 * 24, 24, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, sText_Summon);
+        AddTextPrinterParameterized4(WINDOW_CONTEXT, FONT_SMALL_NARROWER, 12 + gSpecialVar_0x8004 * 24, 34, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, sText_Set);
         sDidInitialDraw = FALSE;
     }
     else if (JOY_NEW(B_BUTTON))
     {
+        gSpecialVar_0x8007 = 0;
+        gSpecialVar_0x8008 = 0;
         FillWindowPixelBuffer(WINDOW_CONTEXT, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
         sDidInitialDraw = FALSE;
     }
@@ -4095,6 +4129,8 @@ static void BattleIntroPrepareBackgroundSlide(void)
             gSpecialVar_0x8004 = 0;
             gSpecialVar_0x8005 = 12;
             gSpecialVar_0x8006 = 0;
+            gSpecialVar_0x8007 = 0;
+            gSpecialVar_0x8008 = 0;
             gBattleMainFunc = Task_HandleYGOTurn;
         }
         else
