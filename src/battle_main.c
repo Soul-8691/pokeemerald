@@ -3681,7 +3681,7 @@ static const struct WindowTemplate sYGOWindowTemplates[] =
         .width = 16,        // width (per 8 pixels)
         .height = 16,        // height (per 8 pixels)
         .paletteNum = 4,   // palette index to use for text
-        .baseBlock = 0,     // tile start in VRAM
+        .baseBlock = 428,     // tile start in VRAM
     },
     [WINDOW_2] = 
     {
@@ -3691,7 +3691,7 @@ static const struct WindowTemplate sYGOWindowTemplates[] =
         .width = 5,        // width (per 8 pixels)
         .height = 4,        // height (per 8 pixels)
         .paletteNum = 8,   // palette index to use for text
-        .baseBlock = 256,     // tile start in VRAM
+        .baseBlock = 684,     // tile start in VRAM
     },
     [WINDOW_3] = 
     {
@@ -3701,7 +3701,7 @@ static const struct WindowTemplate sYGOWindowTemplates[] =
         .width = 4,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
         .paletteNum = 7,   // palette index to use for text
-        .baseBlock = 276,     // tile start in VRAM
+        .baseBlock = 704,     // tile start in VRAM
     },
     [WINDOW_4] = 
     {
@@ -3711,7 +3711,7 @@ static const struct WindowTemplate sYGOWindowTemplates[] =
         .width = 32,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
         .paletteNum = 15,   // palette index to use for text
-        .baseBlock = 284,     // tile start in VRAM
+        .baseBlock = 712,     // tile start in VRAM
     },
     [WINDOW_5] = 
     {
@@ -3721,7 +3721,7 @@ static const struct WindowTemplate sYGOWindowTemplates[] =
         .width = 5,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
         .paletteNum = 15,   // palette index to use for text
-        .baseBlock = 348,     // tile start in VRAM
+        .baseBlock = 776,     // tile start in VRAM
     },
     [WINDOW_6] = 
     {
@@ -3731,7 +3731,7 @@ static const struct WindowTemplate sYGOWindowTemplates[] =
         .width = 4,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
         .paletteNum = 15,   // palette index to use for text
-        .baseBlock = 358,     // tile start in VRAM
+        .baseBlock = 786,     // tile start in VRAM
     },
     [WINDOW_7] = 
     {
@@ -3741,7 +3741,7 @@ static const struct WindowTemplate sYGOWindowTemplates[] =
         .width = 10,        // width (per 8 pixels)
         .height = 3,        // height (per 8 pixels)
         .paletteNum = 15,   // palette index to use for text
-        .baseBlock = 366,     // tile start in VRAM
+        .baseBlock = 794,     // tile start in VRAM
     },
 };
 
