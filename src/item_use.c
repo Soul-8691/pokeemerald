@@ -1164,7 +1164,6 @@ static u16 PullCardFromPack(u16 pack)
                 l -= gPacks[pack].pack[i].rarity;
                 if (l <= gPacks[pack].pack[i].rarity)
                 {
-                    DebugPrintf("x=%S", gCardInfo[CardIdMapping[gPacks[pack].pack[i].card]].name);
                     if (k == 0)
                         gSpecialVar_0x8004 = gPacks[pack].pack[i].card;
                     else if (k == 1)
@@ -2601,7 +2600,6 @@ void Task_PullCards(u8 taskId)
         AddBagItem(gSpecialVar_0x8006, 1);
         AddBagItem(gSpecialVar_0x8007, 1);
         AddBagItem(gSpecialVar_0x8008, 1);
-        DebugPrintf("x=%d", gSpecialVar_ItemId);
         RemoveBagItem(gSpecialVar_ItemId, 1);
     }
     DestroyTask(taskId);
