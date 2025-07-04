@@ -995,15 +995,10 @@ Common_EventScript_RemoveStaticPokemon::
 	release
 	end
 
-EventScript_LeaveCard::
-	callnative Task_MenuTurnOff
-	releaseall
-	end
-
 EventScript_AccessCard::
 	callnative Menu_Init
 	waitstate
-	goto EventScript_LeaveCard
+	releaseall
 	end
 
 EventScript_AccessPack::
@@ -1014,6 +1009,7 @@ EventScript_AccessPack::
 	end
 
 EventScript_PulledCard::
+	setflag FLAG_YGO_FULL_NAME
 	bufferitemname STR_VAR_1, VAR_0x8004
 	msgbox gText_CardPulled, MSGBOX_DEFAULT
 	bufferitemname STR_VAR_1, VAR_0x8005
@@ -1024,6 +1020,7 @@ EventScript_PulledCard::
 	msgbox gText_CardPulled, MSGBOX_DEFAULT
 	bufferitemname STR_VAR_1, VAR_0x8008
 	msgbox gText_CardPulled, MSGBOX_DEFAULT
+	clearflag FLAG_YGO_FULL_NAME
 	releaseall
 	end
 

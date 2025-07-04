@@ -42,6 +42,7 @@
 #include "ygo_graphics.h"
 #include "constants/ygo.h"
 #include "ui_menu.h"
+#include "event_data.h"
 
 #define TAG_SCROLL_ARROW   2100
 #define TAG_ITEM_ICON_BASE 2110
@@ -316,7 +317,7 @@ static const struct WindowTemplate sShopBuyMenuWindowTemplates[] =
     [WIN_QUANTITY_IN_BAG] = {
         .bg = 0,
         .tilemapLeft = 1,
-        .tilemapTop = 4,
+        .tilemapTop = 5,
         .width = 12,
         .height = 2,
         .paletteNum = 15,
@@ -1067,7 +1068,7 @@ static void Task_BuyMenu(u8 taskId)
             else
                 sShopData->totalCost = gDecorations[itemId].price;
 
-            if (VAR_YGO_SHOP >= BANLIST_YUGI_KAIBA)
+            if (VarGet(VAR_YGO_SHOP) >= BANLIST_YUGI_KAIBA)
             {
                 BuyMenuDisplayMessage(taskId, gText_NotForSale, BuyMenuReturnToItemList);
             }
@@ -1114,6 +1115,7 @@ static void Task_BuyHowManyDialogueInit(u8 taskId)
 
     u16 quantityInBag = CountTotalItemQuantityInBag(tItemId);
     u16 maxQuantity;
+    u8 pocket = gItems[tItemId].pocket;
 
     // DrawStdFrameWithCustomTileAndPalette(WIN_QUANTITY_IN_BAG, FALSE, 1, 13);
     FillWindowPixelBuffer(WIN_QUANTITY_IN_BAG, PIXEL_FILL(0));
@@ -1133,6 +1135,9 @@ static void Task_BuyHowManyDialogueInit(u8 taskId)
         sShopData->maxQuantity = MAX_BAG_ITEM_CAPACITY;
     else
         sShopData->maxQuantity = maxQuantity;
+
+    if (pocket == POCKET_TRUNK)
+        sShopData->maxQuantity = 3;
 
     gTasks[taskId].func = Task_BuyHowManyDialogueHandleInput;
 }
@@ -1181,20 +1186,34 @@ static void BuyMenuConfirmPurchase(u8 taskId)
 static void BuyMenuTryMakePurchase(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
+    u8 pocket = GetItemPocket(tItemId);
+    struct BagPocket *itemPocket = &gBagPockets[pocket - 1];
+    u16 ownedCount = 0;
+    u32 i;
 
     PutWindowTilemap(WIN_ITEM_LIST);
 
     if (sMartInfo.martType == MART_TYPE_NORMAL)
     {
-        if (AddBagItem(tItemId, tItemCount) == TRUE)
+        for (i = 0; i < itemPocket->capacity; i++)
         {
-            BuyMenuDisplayMessage(taskId, gText_HereYouGoThankYou, BuyMenuSubtractMoney);
-            RecordItemPurchase(taskId);
+            if (itemPocket->itemSlots[i].itemId == tItemId)
+            {
+                if (pocket == POCKET_TRUNK || pocket == POCKET_MAIN_DECK || pocket == POCKET_EXTRA_DECK || pocket == POCKET_SIDE_DECK) 
+                {
+                    ownedCount = GetBagItemQuantity(&itemPocket->itemSlots[i].quantity);
+                }
+            }
         }
-        else
-        {
-            BuyMenuDisplayMessage(taskId, gText_NoMoreRoomForThis, BuyMenuReturnToItemList);
-        }
+    }
+    if (tItemCount + ownedCount > 3)
+    {
+        BuyMenuDisplayMessage(taskId, gText_NoMoreRoomForThis, BuyMenuReturnToItemList);
+    }
+    else if (AddBagItem(tItemId, tItemCount) == TRUE)
+    {
+        BuyMenuDisplayMessage(taskId, gText_HereYouGoThankYou, BuyMenuSubtractMoney);
+        RecordItemPurchase(taskId);
     }
     else
     {

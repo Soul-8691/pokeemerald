@@ -729,12 +729,12 @@ void BattleInitBgsAndWindows(void)
 
     if (!(gBattleTypeFlags & BATTLE_TYPE_YGO))
         InitWindows(gBattleWindowTemplates[gBattleScripting.windowsType]);
-    DeactivateAllTextPrinters();
+    // DeactivateAllTextPrinters();
 }
 
 void InitBattleBgsVideo(void)
 {
-    DisableInterrupts(INTR_FLAG_HBLANK);
+    // DisableInterrupts(INTR_FLAG_HBLANK);
     EnableInterrupts(INTR_FLAG_VBLANK | INTR_FLAG_VCOUNT | INTR_FLAG_TIMER3 | INTR_FLAG_SERIAL);
     BattleInitBgsAndWindows();
     SetGpuReg(REG_OFFSET_BLDCNT, 0);

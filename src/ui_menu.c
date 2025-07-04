@@ -2,6 +2,7 @@
 #include "ui_menu.h"
 #include "strings.h"
 #include "bg.h"
+#include "battle_main.h"
 #include "data.h"
 #include "decompress.h"
 #include "event_data.h"
@@ -70,7 +71,7 @@ static const struct OamData sStarData =
     .affineParam = 0,
 };
 
-static const struct SpriteTemplate sStarSpriteTemplate =
+const struct SpriteTemplate sStarSpriteTemplate =
 {
     .tileTag = TAG_ICON,
     .paletteTag = TAG_ICON,
@@ -81,26 +82,9 @@ static const struct SpriteTemplate sStarSpriteTemplate =
     .callback = NULL,
 };
 
-static const struct SpriteSheet sSpriteSheet_Icons[] =
-{
-    {
-        .data = gStarIcon,
-        .size = 8*8/2,
-        .tag = TAG_ICON
-    },
-    {},
-};
-
 /*
  * 
  */
- 
-//==========DEFINES==========//
-struct MenuResources
-{
-    MainCallback savedCallback;     // determines callback to run when we exit. e.g. where do we want to go after closing the menu
-    u8 gfxLoadState;
-};
 
 enum WindowIds
 {
@@ -114,21 +98,14 @@ enum WindowIds
 };
 
 //==========EWRAM==========//
-static EWRAM_DATA struct MenuResources *sMenuDataPtr = NULL;
-static EWRAM_DATA u8 *sTilemapBuffers[2];
-static EWRAM_DATA u8 sScrollDown = 0;
-static EWRAM_DATA bool8 sDidInitialDraw = FALSE;
+EWRAM_DATA struct MenuResources *sMenuDataPtr = NULL;
+EWRAM_DATA u8 *sTilemapBuffers[2];
+EWRAM_DATA u8 sScrollDown = 0;
+EWRAM_DATA bool8 sDidInitialDraw = FALSE;
 
 //==========STATIC=DEFINES==========//
-static void Menu_RunSetup(void);
 static bool8 Menu_DoGfxSetup(void);
-static bool8 Menu_InitBgs(void);
-static void Menu_FadeAndBail(void);
 static bool8 Menu_LoadGraphics(void);
-static void Menu_InitWindows(void);
-static void PrintToWindow(u8 windowId, u8 colorIdx, u16 card);
-static void Task_MenuWaitFadeIn(u8 taskId);
-static void Task_MenuMain(u8 taskId);
 
 //==========CONST=DATA==========//
 static const struct BgTemplate sMenuBgTemplates[] =
@@ -148,7 +125,7 @@ static const struct BgTemplate sMenuBgTemplates[] =
     },
     {
         .bg = 2,    // this bg loads the UI tilemap
-        .charBaseIndex = 6,
+        .charBaseIndex = 2,
         .mapBaseIndex = 20,
         .priority = 2
     }
@@ -229,35 +206,27 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
     DUMMY_WIN_TEMPLATE,
 };
 
-static const u32 sNormalMonsterTiles[] = INCBIN_U32("graphics/cards/normal_monster.8bpp.lz");
-static const u32 sNormalMonsterTilemap[] = INCBIN_U32("graphics/cards/normal_monster.bin.lz");
-static const u16 sNormalMonsterPalette[] = INCBIN_U16("graphics/cards/normal_monster.gbapal");
-static const u32 sEffectMonsterTiles[] = INCBIN_U32("graphics/cards/effect_monster.8bpp.lz");
-static const u32 sEffectMonsterTilemap[] = INCBIN_U32("graphics/cards/effect_monster.bin.lz");
-static const u16 sEffectMonsterPalette[] = INCBIN_U16("graphics/cards/effect_monster.gbapal");
-static const u32 sSpellCardTiles[] = INCBIN_U32("graphics/cards/spell_card.8bpp.lz");
-static const u32 sSpellCardTilemap[] = INCBIN_U32("graphics/cards/spell_card.bin.lz");
-static const u16 sSpellCardPalette[] = INCBIN_U16("graphics/cards/spell_card.gbapal");
-static const u32 sTrapCardTiles[] = INCBIN_U32("graphics/cards/trap_card.8bpp.lz");
-static const u32 sTrapCardTilemap[] = INCBIN_U32("graphics/cards/trap_card.bin.lz");
-static const u16 sTrapCardPalette[] = INCBIN_U16("graphics/cards/trap_card.gbapal");
-static const u32 sFusionMonsterTiles[] = INCBIN_U32("graphics/cards/fusion_monster.8bpp.lz");
-static const u32 sFusionMonsterTilemap[] = INCBIN_U32("graphics/cards/fusion_monster.bin.lz");
-static const u16 sFusionMonsterPalette[] = INCBIN_U16("graphics/cards/fusion_monster.gbapal");
-static const u32 sRitualMonsterTiles[] = INCBIN_U32("graphics/cards/ritual_monster.8bpp.lz");
-static const u32 sRitualMonsterTilemap[] = INCBIN_U32("graphics/cards/ritual_monster.bin.lz");
-static const u16 sRitualMonsterPalette[] = INCBIN_U16("graphics/cards/ritual_monster.gbapal");
-static const u32 sBackgroundTiles[] = INCBIN_U32("graphics/cards/background.4bpp.lz");
-static const u32 sBackgroundTilemap[] = INCBIN_U32("graphics/cards/background.bin.lz");
-static const u16 sBackgroundPalette[] = INCBIN_U16("graphics/cards/background.gbapal");
-
-enum Colors
-{
-    FONT_BLACK,
-    FONT_WHITE,
-    FONT_RED,
-    FONT_BLUE,
-};
+const u32 sNormalMonsterTiles[] = INCBIN_U32("graphics/cards/normal_monster.8bpp.lz");
+const u32 sNormalMonsterTilemap[] = INCBIN_U32("graphics/cards/normal_monster.bin.lz");
+const u16 sNormalMonsterPalette[] = INCBIN_U16("graphics/cards/normal_monster.gbapal");
+const u32 sEffectMonsterTiles[] = INCBIN_U32("graphics/cards/effect_monster.8bpp.lz");
+const u32 sEffectMonsterTilemap[] = INCBIN_U32("graphics/cards/effect_monster.bin.lz");
+const u16 sEffectMonsterPalette[] = INCBIN_U16("graphics/cards/effect_monster.gbapal");
+const u32 sSpellCardTiles[] = INCBIN_U32("graphics/cards/spell_card.8bpp.lz");
+const u32 sSpellCardTilemap[] = INCBIN_U32("graphics/cards/spell_card.bin.lz");
+const u16 sSpellCardPalette[] = INCBIN_U16("graphics/cards/spell_card.gbapal");
+const u32 sTrapCardTiles[] = INCBIN_U32("graphics/cards/trap_card.8bpp.lz");
+const u32 sTrapCardTilemap[] = INCBIN_U32("graphics/cards/trap_card.bin.lz");
+const u16 sTrapCardPalette[] = INCBIN_U16("graphics/cards/trap_card.gbapal");
+const u32 sFusionMonsterTiles[] = INCBIN_U32("graphics/cards/fusion_monster.8bpp.lz");
+const u32 sFusionMonsterTilemap[] = INCBIN_U32("graphics/cards/fusion_monster.bin.lz");
+const u16 sFusionMonsterPalette[] = INCBIN_U16("graphics/cards/fusion_monster.gbapal");
+const u32 sRitualMonsterTiles[] = INCBIN_U32("graphics/cards/ritual_monster.8bpp.lz");
+const u32 sRitualMonsterTilemap[] = INCBIN_U32("graphics/cards/ritual_monster.bin.lz");
+const u16 sRitualMonsterPalette[] = INCBIN_U16("graphics/cards/ritual_monster.gbapal");
+const u32 sBackgroundTiles[] = INCBIN_U32("graphics/cards/background.4bpp.lz");
+const u32 sBackgroundTilemap[] = INCBIN_U32("graphics/cards/background.bin.lz");
+const u16 sBackgroundPalette[] = INCBIN_U16("graphics/cards/background.gbapal");
 
 
 
@@ -412,11 +381,12 @@ void Menu_Init(MainCallback callback)
     // initialize stuff
     sMenuDataPtr->gfxLoadState = 0;
     sMenuDataPtr->savedCallback = CB2_ReturnToBagMenuPocket;
+	if (battle) sMenuDataPtr->savedCallback = CB2_InitYGODuelInternal;
     
     SetMainCallback2(Menu_RunSetup);
 }
 
-static void Menu_RunSetup(void)
+void Menu_RunSetup(void)
 {
     while (1)
     {
@@ -425,7 +395,7 @@ static void Menu_RunSetup(void)
     }
 }
 
-static void Menu_MainCB(void)
+void Menu_MainCB(void)
 {
     RunTasks();
     AnimateSprites();
@@ -434,14 +404,14 @@ static void Menu_MainCB(void)
     UpdatePaletteFade();
 }
 
-static void Menu_VBlankCB(void)
+void Menu_VBlankCB(void)
 {
     LoadOam();
     ProcessSpriteCopyRequests();
     TransferPlttBuffer();
 }
 
-static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
+const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 {
     {
 			.data = gCardPicLarge_4StarredLadybugofDoom_Big,
@@ -2639,12 +2609,57 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_AlbaztheAshen_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_AlbiontheShroudedDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_AlubertheJesterofDespia_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_AmazonessSpiritualist_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_AncientGearDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_AncientGearGolemUltimatePound_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_AngmarltheFiendishMonarch_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ApprenticeIllusionMagician_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_ArchfiendCavalry_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ArchfiendCommander_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ArchfiendGiant_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2659,7 +2674,52 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_ArchfiendofGilfer_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ArchfiendsAdvent_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ArielPriestessoftheNekroz_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ArisenGaiatheFierceKnight_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ArmedNinja_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ArmoredCybern_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_AvanceSwordsmanoftheNekroz_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_BakutheBeastNinja_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_BeastofTalwar_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_BeastofTalwarTheSwordSummit_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2689,7 +2749,27 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_BlazingCartesiatheVirtuous_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_BlueFlameSwordsman_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_BlueEyesAlternativeWhiteDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_BlueEyesJetDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_BlueEyesToonDragon_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2699,7 +2779,52 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_BrilliantRose_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_BusterBladertheDestructionSwordmaster_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_CaiustheMegaMonarch_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_CaiustheShadowMonarch_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ChaosNephthys_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ChargingGaiatheFierceKnight_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ChronicleMagician_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_ChronicleSorceress_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_CrimsonNinja_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_CrystalRose_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2719,12 +2844,57 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_CyberEltanin_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_CyberLarva_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_CyberdarkWurm_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_DancePrincessoftheNekroz_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_DarkEradicatorWarlock_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_DarkMagicianGirl_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_DarkMagicianGirltheMagiciansApprentice_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_DarkNephthys_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_DeepEyesWhiteDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_DefenderofNephthys_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_DelgtheDarkMonarch_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2749,6 +2919,16 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_EhthertheHeavenlyMonarch_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_EidostheUnderworldMonarch_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_EidostheUnderworldSquire_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
@@ -2764,12 +2944,42 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_EmiliaDancePriestessoftheNekroz_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_EnvoyofChaos_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_ErebustheUnderworldMonarch_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_EveningTwilightKnight_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_EvilswarmHeliotrope_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_EvilswarmKetos_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ExaEnforceroftheNekroz_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_FallenofAlbaz_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2789,7 +2999,47 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_GaiaTheFierceKnight_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_GearfriedtheRedEyesIronKnight_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GemArmadillo_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GemElephant_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GemKnightAlexandrite_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GemKnightEmerald_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GemKnightGarnet_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GemKnightHollowcore_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GemKnightNepyrim_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2799,12 +3049,112 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_GemKnightSapphire_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GemKnightTourmaline_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GemTurtle_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_GentaGatemanofDarkWorld_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_GiltiatheDKnightSoulSpear_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GishkiAbyss_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GishkiAriel_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GishkiAvance_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GishkiBeast_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GishkiChain_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GishkiEmilia_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GishkiGrimness_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GishkiMarker_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GishkiNatalia_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GishkiNoellia_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GishkiShadow_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GishkiVanity_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GishkiVision_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_GoblinPotholeSquad_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GranmargtheMegaMonarch_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GranmargtheRockMonarch_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_GraphaDragonLordofDarkWorld_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2824,7 +3174,22 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_HeartoftheBlueEyes_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_IceKnight_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_InfernalqueenSalmon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_JiohtheGravityNinja_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2849,12 +3214,27 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_LabrynthArchfiend_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_LancerArchfiend_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_LesserFiend_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_LordofD_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_LucentNetherlordofDarkWorld_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2865,6 +3245,11 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 		},
     {
 			.data = gCardPicLarge_MadArchfiend_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_MagicianofDarkIllusion_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2889,7 +3274,37 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_MaidenofWhite_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_MaidenwithEyesofBlue_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_MaleficBlueEyesWhiteDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_MaleficCyberEndDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_MaleficRedEyesBlackDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_MaskedNinjaEbisu_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_MasterwithEyesofBlue_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2899,7 +3314,22 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_MetalflameSwordsman_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_MeteorDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_MitsutheInsectNinja_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_MobiustheMegaMonarch_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2909,7 +3339,22 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_NaelshaddollAriel_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_NeoKaiserSeaHorse_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_NinjaGrandmasterHanzo_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_PalladiumOracleMahad_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2919,7 +3364,57 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_PenguinNinja_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_PriestesswithEyesofBlue_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ProtectorwithEyesofBlue_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_QadshaddollKeios_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_RaizatheMegaMonarch_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_RedDragonNinja_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_RedEyesAlternativeBlackDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_RedEyesBabyDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_RedEyesBlackDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_RedEyesBlackMeteorDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_RedEyesDarknessMetalDragon_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2929,7 +3424,32 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_RedEyesSoul_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_RedEyesToonDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_RedEyesWyvern_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_RedEyesZombieDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ReeshaddollWendi_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ReignBeauxOverkingofDarkWorld_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2939,7 +3459,22 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_RengeGatekeeperofDarkWorld_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_RideroftheStormWinds_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_Ronintoadin_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_SagewithEyesofBlue_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2954,7 +3489,42 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_SeniorSilverNinja_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_SenjuoftheThousandHands_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ShaddollBeast_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ShaddollDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ShaddollFalco_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ShaddollHedgehog_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ShaddollHound_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ShuritStrategistoftheNekroz_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -2999,7 +3569,27 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_Tenmataitei_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_TerrorkingSalmon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_TheBlackStoneofLegend_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_TheBystialAluber_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_TheBystialLubellion_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -3014,7 +3604,52 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_TheGoldenSwordsoul_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_TheLightHexSealedFusion_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_TheWhiteStoneofAncients_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_TheWhiteStoneofLegend_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ThestalostheMegaMonarch_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ThestalostheShadowfireMonarch_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ThunderDragondark_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ThunderDragonduo_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ThunderDragonhawk_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ThunderDragonlord_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -3024,12 +3659,37 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_ThunderDragonroar_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_ThunderSeaHorse_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_TimaeustheUnitedDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_TlakalelHisMalevolentMajesty_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_TobaritheSkyNinja_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ToonCyberDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_ToonSummonedSkull_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -3084,6 +3744,16 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_TwilightNinjaGetsugatheShogun_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_TwilightNinjaNichirintheChunin_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_TwilightNinjaShingetsu_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
@@ -3099,7 +3769,27 @@ static const struct CompressedSpriteSheet sSpriteSheet_Cards[] =
 			.tag = TAG_CARD
 		},
     {
+			.data = gCardPicLarge_WhiteDragonNinja_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_WhiteNightDragon_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_WhiteNinja_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
 			.data = gCardPicLarge_Wroughtweiler_Big,
+			.size = 80*80,
+			.tag = TAG_CARD
+		},
+    {
+			.data = gCardPicLarge_YellowDragonNinja_Big,
 			.size = 80*80,
 			.tag = TAG_CARD
 		},
@@ -3139,7 +3829,7 @@ static const struct OamData sCardLeftOamData =
     .affineParam = 0,
 };
 
-static const struct SpriteTemplate sCardLeftSpriteTemplate =
+const struct SpriteTemplate sCardLeftSpriteTemplate =
 {
     .tileTag = TAG_CARD,
     .paletteTag = TAG_CARD,
@@ -3150,7 +3840,17 @@ static const struct SpriteTemplate sCardLeftSpriteTemplate =
     .callback = NULL,
 };
 
-static const struct SpritePalette sIcon_SpritePalettes[] =
+const struct SpriteSheet sSpriteSheet_Icons[] =
+{
+    {
+        .data = gStarIcon,
+        .size = 8*8/2,
+        .tag = TAG_ICON
+    },
+    {},
+};
+
+const struct SpritePalette sIcon_SpritePalettes[] =
 {
     {gStarIconPal,     TAG_ICON},
 };
@@ -3162,6 +3862,7 @@ static bool8 Menu_DoGfxSetup(void)
     u32 i;
     u16 card = CardIdMapping[gSpecialVar_ItemId];
     u8 level = gCardInfo[card].level;
+
     switch (gMain.state)
     {
     case 0:
@@ -3181,7 +3882,7 @@ static bool8 Menu_DoGfxSetup(void)
         LoadPalette(gCardInfo[card].pal, OBJ_PLTT_ID(0), PLTT_SIZE_4BPP*4);
         spriteId = CreateBigSprite(&sCardLeftSpriteTemplate, 16, 32, 0);
         gSprites[spriteId].callback = SpriteCallbackDummy;
-        LoadSpriteSheet(&sSpriteSheet_Icons[0]);
+		LoadSpriteSheet(&sSpriteSheet_Icons[0]);
         LoadSpritePaletteInSlot(&sIcon_SpritePalettes[0], 4);
         for (i = 0; i < level; i++)
         {
@@ -3257,7 +3958,7 @@ static void Task_MenuWaitFadeAndBail(u8 taskId)
     }
 }
 
-static void Menu_FadeAndBail(void)
+void Menu_FadeAndBail(void)
 {
     BeginNormalPaletteFade(0xFFFFFFFF, 0, 0, 16, RGB_BLACK);
     CreateTask(Task_MenuWaitFadeAndBail, 0);
@@ -3265,7 +3966,7 @@ static void Menu_FadeAndBail(void)
     SetMainCallback2(Menu_MainCB);
 }
 
-static bool8 Menu_InitBgs(void)
+bool8 Menu_InitBgs(void)
 {
     ResetAllBgsCoordinates();
     sTilemapBuffers[0] = AllocZeroed(BG_SCREEN_SIZE);
@@ -3400,13 +4101,13 @@ static const u8 sFontColorTableUI[][3] = {
     [COLORID_TMHM_INFO]   = {TEXT_COLOR_TRANSPARENT, TEXT_DYNAMIC_COLOR_5,  TEXT_DYNAMIC_COLOR_1}
 };
 
-static void PrintSmallNarrowTextCentered(u8 windowId, u8 left, u8 colorId, const u8 *string)
+void PrintSmallNarrowTextCentered(u8 windowId, u8 left, u8 colorId, const u8 *string)
 {
     left = (left * 4) - (GetStringWidth(FONT_SMALL_NARROW, string, -1) / 2u);
     AddTextPrinterParameterized3(windowId, FONT_SMALL_NARROW, left, 0, sFontColorTableUI[colorId], 0, string);
 }
 
-static void PrintToWindow(u8 windowId, u8 colorIdx, u16 card)
+void PrintToWindow(u8 windowId, u8 colorIdx, u16 card)
 {
     const u8 *cardName = gCardInfo[card].name;
     const u8 *cardNameShort = gCardInfo[card].nameShort;
@@ -3480,7 +4181,7 @@ static void PrintToWindow(u8 windowId, u8 colorIdx, u16 card)
     ScheduleBgCopyTilemapToVram(3);
 }
 
-static void Task_MenuWaitFadeIn(u8 taskId)
+void Task_MenuWaitFadeIn(u8 taskId)
 {
     if (!gPaletteFade.active)
         gTasks[taskId].func = Task_MenuMain;
@@ -3498,14 +4199,12 @@ void Task_MenuTurnOff(u8 taskId)
     }
 }
 
-void DrawScrolledText(const u8 *fullText, u32 startIndex, u8 linesToDraw)
+void DrawScrolledText(u8 windowId, const u8 *fullText, u32 startIndex, u8 linesToDraw)
 {
     u8 buffer[512];
     u32 i = startIndex;
     u32 bufIndex = 0;
     u8 lines = 0;
-
-    DebugPrintf("DrawScrolledText: startIndex=%d, linesToDraw=%d", startIndex, linesToDraw);
 
     while (fullText[i] != EOS && lines < linesToDraw)
     {
@@ -3517,13 +4216,11 @@ void DrawScrolledText(const u8 *fullText, u32 startIndex, u8 linesToDraw)
 
     buffer[bufIndex] = EOS;
 
-    DebugPrintf("Displayed text:\n%s", buffer);
-
     // Draw to window
-    FillWindowPixelBuffer(WINDOW_1, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-    PutWindowTilemap(WINDOW_1);
-    AddTextPrinterParameterized4(WINDOW_1, FONT_SMALL_NARROWER, 0, 0, 0, 0, sMenuWindowFontColors[FONT_WHITE], 0xFF, buffer);
-    CopyWindowToVram(WINDOW_1, 3);
+    FillWindowPixelBuffer(windowId, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+    PutWindowTilemap(windowId);
+    AddTextPrinterParameterized4(windowId, FONT_SMALL_NARROWER, 0, 0, 0, 0, sMenuWindowFontColors[FONT_WHITE], 0xFF, buffer);
+    CopyWindowToVram(windowId, 3);
 }
 
 u16 CountNumLines(const u8 *text)
@@ -3556,9 +4253,7 @@ u32 GetLineStartIndex(const u8 *text, u8 lineNum)
     return i;  // End of string if lineNum too large
 }
 
-#define NUM_VISIBLE_LINES 15
-
-static void Task_MenuMain(u8 taskId)
+void Task_MenuMain(u8 taskId)
 {
     u16 card = CardIdMapping[gSpecialVar_ItemId];
     const u8 *cardDescription = gCardInfo[card].description;
@@ -3569,8 +4264,7 @@ static void Task_MenuMain(u8 taskId)
     {
         sScrollDown = 0;
         startIdx = GetLineStartIndex(cardDescription, sScrollDown);
-        DrawScrolledText(cardDescription, startIdx, NUM_VISIBLE_LINES);
-        DebugPrintf("Initial draw: totalLines=%d", totalLines);
+        DrawScrolledText(WINDOW_1, cardDescription, startIdx, NUM_VISIBLE_LINES);
         sDidInitialDraw = TRUE;
     }
 
@@ -3588,16 +4282,14 @@ static void Task_MenuMain(u8 taskId)
     {
         sScrollDown++;
         startIdx = GetLineStartIndex(cardDescription, sScrollDown);
-        DebugPrintf("DPAD_DOWN: sScrollDown=%d startIdx=%d", sScrollDown, startIdx);
-        DrawScrolledText(cardDescription, startIdx, NUM_VISIBLE_LINES);
+        DrawScrolledText(WINDOW_1, cardDescription, startIdx, NUM_VISIBLE_LINES);
     }
 
     if (JOY_NEW(DPAD_UP) && sScrollDown > 0)
     {
         sScrollDown--;
         startIdx = GetLineStartIndex(cardDescription, sScrollDown);
-        DebugPrintf("DPAD_UP: sScrollDown=%d startIdx=%d", sScrollDown, startIdx);
-        DrawScrolledText(cardDescription, startIdx, NUM_VISIBLE_LINES);
+        DrawScrolledText(WINDOW_1, cardDescription, startIdx, NUM_VISIBLE_LINES);
     }
 }
 

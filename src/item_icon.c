@@ -62,11 +62,11 @@ const struct SpriteTemplate gItemIconSpriteTemplate =
 // code
 bool8 AllocItemIconTemporaryBuffers(void)
 {
-    gItemIconDecompressionBuffer = Alloc(0x200); // 0x600
+    gItemIconDecompressionBuffer = Alloc(0x600); // 0x600
     if (gItemIconDecompressionBuffer == NULL)
         return FALSE;
 
-    gItemIcon4x4Buffer = AllocZeroed(0x200); // 0x800
+    gItemIcon4x4Buffer = AllocZeroed(0x800); // 0x800
     if (gItemIcon4x4Buffer == NULL)
     {
         Free(gItemIconDecompressionBuffer);
@@ -87,12 +87,17 @@ void CopyItemIconPicTo4x4Buffer(const void *src, void *dest, u16 itemId)
     u8 i;
     u16 card = CardIdMapping[itemId];
 
-    if (FlagGet(FLAG_YGO_ICON))
+    if (VarGet(VAR_YGO_ICON) == 1)
     {
         for (i = 0; i < 4; i++)
             CpuCopy16(src + i * 64, dest + i * 128, 0x40);
     }
-    else if ((card < NUM_CARDS + 1 && card != 0))
+    // else if (VarGet(VAR_YGO_ICON) == 2)
+    // {
+    //     for (i = 0; i < 4; i++)
+    //         CpuCopy16(src + i * 96, dest + i * 128, 0x60);
+    // }
+    else if ((card < NUM_CARDS + 1 && card != 0) || VarGet(VAR_YGO_ICON) == 2)
     {
         for (i = 0; i < 4; i++)
             CpuCopy16(src + i * 128, dest + i * 128, 0x80);
@@ -188,13 +193,20 @@ const void *GetItemIconPicOrPalette(u16 itemId, u8 which)
     else if (itemId >= ITEMS_COUNT)
         itemId = 0;
 
-    if (FlagGet(FLAG_YGO_ICON))
+    if (VarGet(VAR_YGO_ICON) == 1)
     {
         if (which == 0)
             return gCardInfo[card].iconTiny;
         else
             return gCardInfo[card].palIconTiny;
     }
+    // else if (VarGet(VAR_YGO_ICON) == 2)
+    // {
+    //     if (which == 0)
+    //         return gCardInfo[card].iconLarge;
+    //     else
+    //         return gCardInfo[card].palIconLarge;
+    // }
 
     return gItemIconTable[itemId][which];
 }
