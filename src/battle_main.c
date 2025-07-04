@@ -3544,6 +3544,7 @@ enum WindowIds
     WINDOW_RACE,
     WINDOW_STAR,
     WINDOW_HAND,
+    WINDOW_ENEMY_HAND,
 };
 
 static const struct WindowTemplate sYGOWindowTemplates[] = 
@@ -3617,6 +3618,16 @@ static const struct WindowTemplate sYGOWindowTemplates[] =
         .height = 4,        // height (per 8 pixels)
         .paletteNum = 0,   // palette index to use for text
         .baseBlock = 100,     // tile start in VRAM
+    },
+    [WINDOW_ENEMY_HAND] = 
+    {
+        .bg = 1,            // which bg to print text on
+        .tilemapLeft = 7,   // position from left (per 8 pixels)
+        .tilemapTop = 0,    // position from top (per 8 pixels)
+        .width = 20,        // width (per 8 pixels)
+        .height = 4,        // height (per 8 pixels)
+        .paletteNum = 0,   // palette index to use for text
+        .baseBlock = 180,     // tile start in VRAM
     },
 };
 
@@ -3692,7 +3703,8 @@ static void Task_HandleYGOTurn(void)
         if (!sDidInitialDraw)
         {
             FillWindowPixelBuffer(WINDOW_HAND, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-            FillWindowPixelRect(WINDOW_HAND, PIXEL_FILL(13), 4 + gSpecialVar_0x8004 * 24, 10, 16, 24);
+            FillWindowPixelBuffer(WINDOW_ENEMY_HAND, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+            FillWindowPixelRect(WINDOW_HAND, PIXEL_FILL(13), 4 + gSpecialVar_0x8004 * 24, 10, 16, 22);
             FreeSpriteTilesByTag(TAG_CARD_ICON_LARGE);
             FreeSpritePaletteByTag(TAG_CARD_ICON_LARGE_PAL);
             DestroySprite(&gSprites[gSpecialVar_0x8005]);
@@ -3758,8 +3770,9 @@ static void Task_HandleYGOTurn(void)
         LoadPalette(gStarIconPal, BG_PLTT_ID(4), 32);
         if (!sDidInitialDraw)
         {
+            FillWindowPixelBuffer(WINDOW_ENEMY_HAND, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
             FillWindowPixelBuffer(WINDOW_HAND, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-            FillWindowPixelRect(WINDOW_HAND, PIXEL_FILL(13), 4 + (gSpecialVar_0x8004 - 6) * 24, 10, 16, 24);
+            FillWindowPixelRect(WINDOW_ENEMY_HAND, PIXEL_FILL(13), 28 + (gSpecialVar_0x8004 - 6) * 24, 0, 16, 22);
             FreeSpriteTilesByTag(TAG_CARD_ICON_LARGE);
             FreeSpritePaletteByTag(TAG_CARD_ICON_LARGE_PAL);
             DestroySprite(&gSprites[gSpecialVar_0x8005]);
@@ -3850,6 +3863,7 @@ static void Task_HandleYGOTurn(void)
     PutWindowTilemap(WINDOW_RACE);
     PutWindowTilemap(WINDOW_STAR);
     PutWindowTilemap(WINDOW_HAND);
+    PutWindowTilemap(WINDOW_ENEMY_HAND);
     CopyWindowToVram(WINDOW_TEXT, 3);
     CopyWindowToVram(WINDOW_TEXT_2, 3);
     CopyWindowToVram(WINDOW_TEXT_3, 3);
@@ -3857,6 +3871,7 @@ static void Task_HandleYGOTurn(void)
     CopyWindowToVram(WINDOW_RACE, 3);
     CopyWindowToVram(WINDOW_STAR, 3);
     CopyWindowToVram(WINDOW_HAND, 3);
+    CopyWindowToVram(WINDOW_ENEMY_HAND, 3);
     ScheduleBgCopyTilemapToVram(0);
     ScheduleBgCopyTilemapToVram(1);
     ScheduleBgCopyTilemapToVram(2);
@@ -3975,7 +3990,7 @@ static void BattleIntroPrepareBackgroundSlide(void)
                     if (spriteId != MAX_SPRITES)
                     {
                         gSprites[spriteId].x = -16;
-                        gSprites[spriteId].y = 16;
+                        gSprites[spriteId].y = 14;
                         gSprites[spriteId].x2 = k * 12;
                         gSprites[spriteId].callback = SpriteCB_SlideRight;
                         gSprites[spriteId].oam.priority = 0;
