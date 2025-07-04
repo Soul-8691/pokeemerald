@@ -3806,15 +3806,6 @@ const struct BgTemplate gBattleBgTemplates_[] =
         .priority = 1,
         .baseTile = 0
     },
-   {
-        .bg = 3,
-        .charBaseIndex = 2,
-        .mapBaseIndex = 26,
-        .screenSize = 1,
-        .paletteMode = 0,
-        .priority = 0,
-        .baseTile = 0
-    },
 };
 
 bool8 BattleMenu_InitBgs(void)
@@ -3829,17 +3820,16 @@ bool8 BattleMenu_InitBgs(void)
     
     ResetBgsAndClearDma3BusyFlags(0);
     InitBgsFromTemplates(0, gBattleBgTemplates_, NELEMS(gBattleBgTemplates_));
-    SetBgTilemapBuffer(1, sTilemapBuffers[0]);
-    SetBgTilemapBuffer(2, sTilemapBuffers[1]);
+    SetBgTilemapBuffer(0, sTilemapBuffers[0]);
+    SetBgTilemapBuffer(1, sTilemapBuffers[1]);
+    ScheduleBgCopyTilemapToVram(0);
     ScheduleBgCopyTilemapToVram(1);
-    ScheduleBgCopyTilemapToVram(2);
     
     SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_OBJ_1D_MAP | DISPCNT_OBJ_ON);
     SetGpuReg(REG_OFFSET_BLDCNT, 0);
     SetGpuReg(REG_OFFSET_BG1CNT, BGCNT_256COLOR);
     ShowBg(0);
     ShowBg(1);
-    ShowBg(2);
     return TRUE;
 }
 
@@ -3862,15 +3852,8 @@ void Task_MenuMainBattle(void)
 
     if (!sDidInitialDraw)
     {
-        DmaClearLarge16(3, (void *)VRAM, VRAM_SIZE, 0x1000)
-        // SetVBlankHBlankCallbacksToNull();
-        // ClearScheduledBgCopiesToVram();
-        // ResetVramOamAndBgCntRegs();
-        // ScanlineEffect_Stop();
         FreeAllSpritePalettes();
-        // ResetPaletteFade();
         ResetSpriteData();
-        // ResetTasks();
         FillWindowPixelBuffer(WINDOW_TEXT, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
         FillWindowPixelBuffer(WINDOW_TEXT_2, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
         FillWindowPixelBuffer(WINDOW_TEXT_3, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
@@ -3908,8 +3891,8 @@ void Task_MenuMainBattle(void)
         DrawScrolledText(WINDOW_DESC, cardDescription, startIdx, NUM_VISIBLE_LINES);
         if (BattleMenu_InitBgs())
         {
-            ResetTempTileDataBuffers();
-            DecompressAndCopyTileDataToVram(2, sBackgroundTiles, 0, 0, 0);
+            // ResetTempTileDataBuffers();
+            DecompressAndCopyTileDataToVram(0, sBackgroundTiles, 0, 0, 0);
             if (cardType == TYPE_NORMAL_MONSTER)
                 DecompressAndCopyTileDataToVram(1, sNormalMonsterTiles, 0, 0, 0);
             else if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER || cardType == TYPE_SPIRIT_MONSTER || cardType == TYPE_UNION_EFFECT_MONSTER || cardType == TYPE_TOON_MONSTER)
@@ -4015,18 +3998,12 @@ void Task_MenuMainBattle(void)
             CopyWindowToVram(WINDOW_7, 3);
             ScheduleBgCopyTilemapToVram(0);
             ScheduleBgCopyTilemapToVram(1);
-            ScheduleBgCopyTilemapToVram(2);
-            ScheduleBgCopyTilemapToVram(3);
-            sDidInitialDraw = TRUE;
         }
+        sDidInitialDraw = TRUE;
     }
 
     if (JOY_NEW(B_BUTTON))
     {
-        for (i = 0; i < 5; i++)
-        {
-            DestroySprite(&gSprites[i]);
-        }
         DmaClearLarge16(3, (void *)VRAM, VRAM_SIZE, 0x1000)
         FreeAllSpritePalettes();
         ResetSpriteData();
@@ -4084,7 +4061,6 @@ static void Task_HandleYGOTurn(void)
     {
         playerLP = 8000;
         enemyLP = 8000;
-        FillWindowPixelBuffer(WINDOW_DESC, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
     }
 
     FillWindowPixelBuffer(WINDOW_TEXT, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
@@ -4128,7 +4104,7 @@ static void Task_HandleYGOTurn(void)
         }
         BlitBitmapToWindow(WINDOW_STAR, gStarIcon, 0, 0, 8, 8);
         LoadPalette(gStarIconPal, BG_PLTT_ID(4), 32);
-        if (!sDidInitialDraw)
+        if (!sDidInitialDraw && gSprites[0].x == 76)
         {
             FillWindowPixelBuffer(WINDOW_HAND, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
             FillWindowPixelBuffer(WINDOW_ENEMY_HAND, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
@@ -4317,9 +4293,9 @@ static void Task_HandleYGOTurn(void)
     {
         if (gSpecialVar_0x8008 == 1)
         {
-            gSpecialVar_0x8008 = 0;
-            gBattleMainFunc = Task_MenuMainBattle;
-            // sDidInitialDraw = FALSE;
+            if (gSpecialVar_0x8007 == 0)
+                gBattleMainFunc = Task_MenuMainBattle;
+            sDidInitialDraw = FALSE;
         }
         if (gSpecialVar_0x8008 == 0)
         {
@@ -4339,7 +4315,7 @@ static void Task_HandleYGOTurn(void)
         FillWindowPixelBuffer(WINDOW_CONTEXT, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
         sDidInitialDraw = FALSE;
     }
-    LoadPalette(sBackgroundPalette, 16, 16);
+    // LoadPalette(sBackgroundPalette, 16, 16);
     PutWindowTilemap(WINDOW_TEXT);
     PutWindowTilemap(WINDOW_TEXT_2);
     PutWindowTilemap(WINDOW_TEXT_3);
