@@ -3967,27 +3967,36 @@ void Menu_FadeAndBail(void)
 
 bool8 Menu_InitBgs(void)
 {
-    ResetAllBgsCoordinates();
+	if (!battle)
+	    ResetAllBgsCoordinates();
     sTilemapBuffers[0] = AllocZeroed(BG_SCREEN_SIZE);
-    if (sTilemapBuffers[0] == NULL)
+    if (sTilemapBuffers[0] == NULL && !battle)
         return FALSE;
     sTilemapBuffers[1] = AllocZeroed(BG_SCREEN_SIZE);
-    if (sTilemapBuffers[1] == NULL)
+    if (sTilemapBuffers[1] == NULL && !battle)
         return FALSE;
     
-    ResetBgsAndClearDma3BusyFlags(0);
-    InitBgsFromTemplates(0, sMenuBgTemplates, NELEMS(sMenuBgTemplates));
-    SetBgTilemapBuffer(1, sTilemapBuffers[0]);
-    SetBgTilemapBuffer(2, sTilemapBuffers[1]);
-    ScheduleBgCopyTilemapToVram(1);
-    ScheduleBgCopyTilemapToVram(2);
+	if (!battle)
+	{
+	    ResetBgsAndClearDma3BusyFlags(0);
+		InitBgsFromTemplates(0, sMenuBgTemplates, NELEMS(sMenuBgTemplates));
+		SetBgTilemapBuffer(1, sTilemapBuffers[0]);
+		SetBgTilemapBuffer(2, sTilemapBuffers[1]);
+		ScheduleBgCopyTilemapToVram(1);
+		ScheduleBgCopyTilemapToVram(2);
+		SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_OBJ_1D_MAP | DISPCNT_OBJ_ON);
+		SetGpuReg(REG_OFFSET_BLDCNT, 0);
+		SetGpuReg(REG_OFFSET_BG1CNT, BGCNT_256COLOR);
+		ShowBg(0);
+		ShowBg(1);
+		ShowBg(2);
+	}
+	else
+	{
+		SetBgTilemapBuffer(2, sTilemapBuffers[0]);
+		SetBgTilemapBuffer(0, sTilemapBuffers[1]);
+	}
     
-    SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_OBJ_1D_MAP | DISPCNT_OBJ_ON);
-    SetGpuReg(REG_OFFSET_BLDCNT, 0);
-    SetGpuReg(REG_OFFSET_BG1CNT, BGCNT_256COLOR);
-    ShowBg(0);
-    ShowBg(1);
-    ShowBg(2);
     return TRUE;
 }
 
@@ -3995,7 +4004,6 @@ bool8 Menu_LoadGraphics(void)
 {
     u16 card = CardIdMapping[gSpecialVar_ItemId];
     u8 cardType = gCardInfo[card].type;
-	DebugPrintf("sMenuDataPtr->gfxLoadState=%d", sMenuDataPtr->gfxLoadState);
     switch (sMenuDataPtr->gfxLoadState)
     {
     case 0:

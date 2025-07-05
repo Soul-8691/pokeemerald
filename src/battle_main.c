@@ -3802,66 +3802,6 @@ enum
     STATE_SELECTION_SCRIPT_MAY_RUN
 };
 
-bool8 BattleMenu_LoadGraphics(void)
-{
-    u16 card = CardIdMapping[gSpecialVar_ItemId];
-    u8 cardType = gCardInfo[card].type;
-    switch (sMenuDataPtr->gfxLoadState)
-    {
-    case 0:
-        ResetTempTileDataBuffers();
-        SetGpuReg(REG_OFFSET_BG0CNT, BGCNT_PRIORITY(2) | BGCNT_CHARBASE(0) | BGCNT_SCREENBASE(27) | BGCNT_16COLOR | BGCNT_TXT256x256);
-        SetGpuReg(REG_OFFSET_BG1CNT, BGCNT_PRIORITY(0) | BGCNT_CHARBASE(0) | BGCNT_SCREENBASE(28));
-        SetGpuReg(REG_OFFSET_BG2CNT, BGCNT_PRIORITY(1) | BGCNT_CHARBASE(2) | BGCNT_SCREENBASE(24) | BGCNT_256COLOR | BGCNT_TXT256x256);
-        LZ77UnCompVram(sBackgroundTiles, (void *)(BG_CHAR_ADDR(0)));
-        LZ77UnCompVram(sBackgroundTilemap, (void *)BG_SCREEN_ADDR(27));
-        if (cardType == TYPE_NORMAL_MONSTER)
-        {
-            LZ77UnCompVram(sNormalMonsterTiles, (void *)BG_CHAR_ADDR(2));
-            LZ77UnCompVram(sNormalMonsterTilemap, (void *)BG_SCREEN_ADDR(24));
-        }
-        if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER || cardType == TYPE_SPIRIT_MONSTER || cardType == TYPE_UNION_EFFECT_MONSTER || cardType == TYPE_TOON_MONSTER)
-            DecompressAndCopyTileDataToVram(2, sEffectMonsterTiles, 0, 0, 0);
-        else if (cardType == TYPE_SPELL_CARD)
-            DecompressAndCopyTileDataToVram(1, sSpellCardTiles, 0, 0, 0);
-        else if (cardType == TYPE_TRAP_CARD)
-            DecompressAndCopyTileDataToVram(1, sTrapCardTiles, 0, 0, 0);
-        else if (cardType == TYPE_FUSION_MONSTER)
-            DecompressAndCopyTileDataToVram(1, sFusionMonsterTiles, 0, 0, 0);
-        else if (cardType == TYPE_RITUAL_MONSTER || cardType == TYPE_RITUAL_EFFECT_MONSTER)
-            DecompressAndCopyTileDataToVram(1, sRitualMonsterTiles, 0, 0, 0);
-        else
-            DecompressAndCopyTileDataToVram(1, sNormalMonsterTiles, 0, 0, 0);
-        sMenuDataPtr->gfxLoadState++;
-        break;
-    case 1:
-        if (FreeTempTileDataBuffersIfPossible() != TRUE)
-        {
-            if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER || cardType == TYPE_SPIRIT_MONSTER || cardType == TYPE_UNION_EFFECT_MONSTER || cardType == TYPE_TOON_MONSTER)
-                LZDecompressWram(sEffectMonsterTilemap, (void *)BG_SCREEN_ADDR(24));
-            else if (cardType == TYPE_SPELL_CARD)
-                LZDecompressWram(sSpellCardTilemap, sTilemapBuffers[0]);
-            else if (cardType == TYPE_TRAP_CARD)
-                LZDecompressWram(sTrapCardTilemap, sTilemapBuffers[0]);
-            else if (cardType == TYPE_FUSION_MONSTER)
-                LZDecompressWram(sFusionMonsterTilemap, sTilemapBuffers[0]);
-            else if (cardType == TYPE_RITUAL_MONSTER || cardType == TYPE_RITUAL_EFFECT_MONSTER)
-                LZDecompressWram(sRitualMonsterTilemap, sTilemapBuffers[0]);
-            else
-                LZDecompressWram(sNormalMonsterTilemap, sTilemapBuffers[0]);
-            sMenuDataPtr->gfxLoadState++;
-        }
-        break;
-    case 2:
-        sMenuDataPtr->gfxLoadState++;
-        break;
-    default:
-        sMenuDataPtr->gfxLoadState = 0;
-        return TRUE;
-    }
-    return FALSE;
-}
-
 void Task_MenuMainBattle(void)
 {
     u16 card = CardIdMapping[playerDeck[gSpecialVar_0x8004]];
@@ -3903,8 +3843,7 @@ void Task_MenuMainBattle(void)
         DrawScrolledText(WINDOW_DESC, cardDescription, startIdx, NUM_VISIBLE_LINES);
         sMenuDataPtr = AllocZeroed(sizeof(struct MenuResources));
         sMenuDataPtr->gfxLoadState = 0;
-        while (BattleMenu_LoadGraphics() == FALSE)
-            ;
+        Menu_InitBgs();
         PrintSmallNarrowTextCentered(WINDOW_4, 94, COLORID_NORMAL, cardName);
         AddTextPrinterParameterized4(WINDOW_7, FONT_SMALL_NARROWER, 6, 6, 0, 0, sMenuWindowFontColors[FONT_WHITE], 0xFF, cardNameShort);
         if (cardType != TYPE_SPELL_CARD && cardType != TYPE_TRAP_CARD)
@@ -3916,21 +3855,6 @@ void Task_MenuMainBattle(void)
             StringExpandPlaceholders(gStringVar4, gText_xDef);
             AddTextPrinterParameterized4(WINDOW_6, FONT_SMALL_NARROWER, 0, 5, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
         }
-        if (cardType == TYPE_NORMAL_MONSTER)
-            LoadPalette(sNormalMonsterPalette, 0, 32*3);
-        else if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER || cardType == TYPE_SPIRIT_MONSTER || cardType == TYPE_UNION_EFFECT_MONSTER || cardType == TYPE_TOON_MONSTER)
-            LoadPalette(sEffectMonsterPalette, 0, 32*3);
-        else if (cardType == TYPE_SPELL_CARD)
-            LoadPalette(sSpellCardPalette, 0, 32*3);
-        else if (cardType == TYPE_TRAP_CARD)
-            LoadPalette(sTrapCardPalette, 0, 32*3);
-        else if (cardType == TYPE_FUSION_MONSTER)
-            LoadPalette(sFusionMonsterPalette, 0, 32*3);
-        else if (cardType == TYPE_RITUAL_MONSTER || cardType == TYPE_RITUAL_EFFECT_MONSTER)
-            LoadPalette(sRitualMonsterPalette, 0, 32*3);
-        else
-            LoadPalette(sNormalMonsterPalette, 0, 32*3);
-        // SetBgTilemapPalette(1, 0, 0, DISPLAY_TILE_WIDTH, DISPLAY_TILE_HEIGHT, 0);
         if (cardType == TYPE_SPELL_CARD || cardType == TYPE_TRAP_CARD)
         {
             BlitBitmapToWindow(WINDOW_2, sCardTypeIcons[cardType], 22, 6, 16, 16);
@@ -3980,7 +3904,6 @@ void Task_MenuMainBattle(void)
     {
         sScrollDown++;
         startIdx = GetLineStartIndex(cardDescription, sScrollDown);
-        DebugPrintf("DPAD_DOWN: sScrollDown=%d startIdx=%d", sScrollDown, startIdx);
         DrawScrolledText(WINDOW_DESC, cardDescription, startIdx, NUM_VISIBLE_LINES);
     }
 
@@ -3988,7 +3911,6 @@ void Task_MenuMainBattle(void)
     {
         sScrollDown--;
         startIdx = GetLineStartIndex(cardDescription, sScrollDown);
-        DebugPrintf("DPAD_UP: sScrollDown=%d startIdx=%d", sScrollDown, startIdx);
         DrawScrolledText(WINDOW_DESC, cardDescription, startIdx, NUM_VISIBLE_LINES);
     }
 }
