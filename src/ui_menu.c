@@ -104,8 +104,6 @@ EWRAM_DATA u8 sScrollDown = 0;
 EWRAM_DATA bool8 sDidInitialDraw = FALSE;
 
 //==========STATIC=DEFINES==========//
-static bool8 Menu_DoGfxSetup(void);
-static bool8 Menu_LoadGraphics(void);
 
 //==========CONST=DATA==========//
 static const struct BgTemplate sMenuBgTemplates[] =
@@ -3855,7 +3853,7 @@ const struct SpritePalette sIcon_SpritePalettes[] =
     {gStarIconPal,     TAG_ICON},
 };
 
-static bool8 Menu_DoGfxSetup(void)
+bool8 Menu_DoGfxSetup(void)
 {
     u8 taskId;
     u8 spriteId;
@@ -3992,10 +3990,11 @@ bool8 Menu_InitBgs(void)
     return TRUE;
 }
 
-static bool8 Menu_LoadGraphics(void)
+bool8 Menu_LoadGraphics(void)
 {
     u16 card = CardIdMapping[gSpecialVar_ItemId];
     u8 cardType = gCardInfo[card].type;
+	DebugPrintf("sMenuDataPtr->gfxLoadState=%d", sMenuDataPtr->gfxLoadState);
     switch (sMenuDataPtr->gfxLoadState)
     {
     case 0:

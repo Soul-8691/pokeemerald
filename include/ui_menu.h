@@ -9,6 +9,8 @@ void Menu_Init(MainCallback callback);
 void Task_MenuMain(u8 taskId);
 void Menu_RunSetup(void);
 void Task_MenuTurnOff(u8 taskId);
+bool8 Menu_LoadGraphics(void);
+bool8 Menu_DoGfxSetup(void);
 extern const u8 *const sCardRaceIcons[NUM_RACES + 1];
 extern const u8 *const sCardAttributeIcons[NUM_ATTRIBUTES + 1];
 extern const u16 *const sCardAttributeIconPals[NUM_ATTRIBUTES + 1];

@@ -3554,13 +3554,17 @@ enum WindowIds
     WINDOW_PLAYER_LP,
     WINDOW_ENEMY_LP,
     WINDOW_CONTEXT,
+};
+
+enum
+{
     WINDOW_DESC,
     WINDOW_2,
     WINDOW_3,
     WINDOW_4,
     WINDOW_5,
     WINDOW_6,
-    WINDOW_7,
+    WINDOW_7,    
 };
 
 static const struct WindowTemplate sYGOWindowTemplates[] = 
@@ -3849,6 +3853,64 @@ enum
     STATE_SELECTION_SCRIPT_MAY_RUN
 };
 
+bool8 BattleMenu_LoadGraphics(void)
+{
+    u16 card = CardIdMapping[gSpecialVar_ItemId];
+    u8 cardType = gCardInfo[card].type;
+	DebugPrintf("sMenuDataPtr->gfxLoadState=%d", sMenuDataPtr->gfxLoadState);
+    switch (sMenuDataPtr->gfxLoadState)
+    {
+    case 2:
+        ResetTempTileDataBuffers();
+        DecompressAndCopyTileDataToVram(2, sBackgroundTiles, 0, 0, 0);
+        if (cardType == TYPE_NORMAL_MONSTER)
+            DecompressAndCopyTileDataToVram(1, sNormalMonsterTiles, 0, 0, 0);
+        else if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER || cardType == TYPE_SPIRIT_MONSTER || cardType == TYPE_UNION_EFFECT_MONSTER || cardType == TYPE_TOON_MONSTER)
+            DecompressAndCopyTileDataToVram(1, sEffectMonsterTiles, 0, 0, 0);
+        else if (cardType == TYPE_SPELL_CARD)
+            DecompressAndCopyTileDataToVram(1, sSpellCardTiles, 0, 0, 0);
+        else if (cardType == TYPE_TRAP_CARD)
+            DecompressAndCopyTileDataToVram(1, sTrapCardTiles, 0, 0, 0);
+        else if (cardType == TYPE_FUSION_MONSTER)
+            DecompressAndCopyTileDataToVram(1, sFusionMonsterTiles, 0, 0, 0);
+        else if (cardType == TYPE_RITUAL_MONSTER || cardType == TYPE_RITUAL_EFFECT_MONSTER)
+            DecompressAndCopyTileDataToVram(1, sRitualMonsterTiles, 0, 0, 0);
+        else
+            DecompressAndCopyTileDataToVram(1, sNormalMonsterTiles, 0, 0, 0);
+        sMenuDataPtr->gfxLoadState++;
+        break;
+    case 3:
+        if (FreeTempTileDataBuffersIfPossible() != TRUE)
+        {
+            LZDecompressWram(sBackgroundTilemap, sTilemapBuffers[1]);
+            if (cardType == TYPE_NORMAL_MONSTER)
+                LZDecompressWram(sNormalMonsterTilemap, sTilemapBuffers[0]);
+            else if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER || cardType == TYPE_SPIRIT_MONSTER || cardType == TYPE_UNION_EFFECT_MONSTER || cardType == TYPE_TOON_MONSTER)
+                LZDecompressWram(sEffectMonsterTilemap, sTilemapBuffers[0]);
+            else if (cardType == TYPE_SPELL_CARD)
+                LZDecompressWram(sSpellCardTilemap, sTilemapBuffers[0]);
+            else if (cardType == TYPE_TRAP_CARD)
+                LZDecompressWram(sTrapCardTilemap, sTilemapBuffers[0]);
+            else if (cardType == TYPE_FUSION_MONSTER)
+                LZDecompressWram(sFusionMonsterTilemap, sTilemapBuffers[0]);
+            else if (cardType == TYPE_RITUAL_MONSTER || cardType == TYPE_RITUAL_EFFECT_MONSTER)
+                LZDecompressWram(sRitualMonsterTilemap, sTilemapBuffers[0]);
+            else
+                LZDecompressWram(sNormalMonsterTilemap, sTilemapBuffers[0]);
+            sMenuDataPtr->gfxLoadState++;
+        }
+        break;
+    case 4:
+        LoadPalette(sBackgroundPalette, 48, 32);
+        sMenuDataPtr->gfxLoadState++;
+        break;
+    default:
+        sMenuDataPtr->gfxLoadState = 2;
+        return TRUE;
+    }
+    return FALSE;
+}
+
 void Task_MenuMainBattle(void)
 {
     u16 card = CardIdMapping[playerDeck[gSpecialVar_0x8004]];
@@ -3888,97 +3950,66 @@ void Task_MenuMainBattle(void)
         sScrollDown = 0;
         startIdx = GetLineStartIndex(cardDescription, sScrollDown);
         DrawScrolledText(WINDOW_DESC, cardDescription, startIdx, NUM_VISIBLE_LINES);
-        if (BattleMenu_InitBgs());
+        BattleMenu_InitBgs();
+        sMenuDataPtr = AllocZeroed(sizeof(struct MenuResources));
+        sMenuDataPtr->gfxLoadState = 0;
+        while (Menu_LoadGraphics() == FALSE)
+            ;
+        PrintSmallNarrowTextCentered(WINDOW_4, 94, COLORID_NORMAL, cardName);
+        AddTextPrinterParameterized4(WINDOW_7, FONT_SMALL_NARROWER, 6, 6, 0, 0, sMenuWindowFontColors[FONT_WHITE], 0xFF, cardNameShort);
+        if (cardType != TYPE_SPELL_CARD && cardType != TYPE_TRAP_CARD)
         {
-            ResetTempTileDataBuffers();
-            DecompressAndCopyTileDataToVram(2, sBackgroundTiles, 0, 0, 0);
-            if (cardType == TYPE_NORMAL_MONSTER)
-                DecompressAndCopyTileDataToVram(1, sNormalMonsterTiles, 0, 0, 0);
-            else if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER || cardType == TYPE_SPIRIT_MONSTER || cardType == TYPE_UNION_EFFECT_MONSTER || cardType == TYPE_TOON_MONSTER)
-                DecompressAndCopyTileDataToVram(1, sEffectMonsterTiles, 0, 0, 0);
-            else if (cardType == TYPE_SPELL_CARD)
-                DecompressAndCopyTileDataToVram(1, sSpellCardTiles, 0, 0, 0);
-            else if (cardType == TYPE_TRAP_CARD)
-                DecompressAndCopyTileDataToVram(1, sTrapCardTiles, 0, 0, 0);
-            else if (cardType == TYPE_FUSION_MONSTER)
-                DecompressAndCopyTileDataToVram(1, sFusionMonsterTiles, 0, 0, 0);
-            else if (cardType == TYPE_RITUAL_MONSTER || cardType == TYPE_RITUAL_EFFECT_MONSTER)
-                DecompressAndCopyTileDataToVram(1, sRitualMonsterTiles, 0, 0, 0);
-            else
-                DecompressAndCopyTileDataToVram(1, sNormalMonsterTiles, 0, 0, 0);
-            if (FreeTempTileDataBuffersIfPossible() != TRUE)
-            {
-                if (cardType == TYPE_NORMAL_MONSTER)
-                    LZDecompressWram(sNormalMonsterTilemap, sTilemapBuffers[0]);
-                else if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER || cardType == TYPE_SPIRIT_MONSTER || cardType == TYPE_UNION_EFFECT_MONSTER || cardType == TYPE_TOON_MONSTER)
-                    LZDecompressWram(sEffectMonsterTilemap, sTilemapBuffers[0]);
-                else if (cardType == TYPE_SPELL_CARD)
-                    LZDecompressWram(sSpellCardTilemap, sTilemapBuffers[0]);
-                else if (cardType == TYPE_TRAP_CARD)
-                    LZDecompressWram(sTrapCardTilemap, sTilemapBuffers[0]);
-                else if (cardType == TYPE_FUSION_MONSTER)
-                    LZDecompressWram(sFusionMonsterTilemap, sTilemapBuffers[0]);
-                else if (cardType == TYPE_RITUAL_MONSTER || cardType == TYPE_RITUAL_EFFECT_MONSTER)
-                    LZDecompressWram(sRitualMonsterTilemap, sTilemapBuffers[0]);
-                else
-                    LZDecompressWram(sNormalMonsterTilemap, sTilemapBuffers[0]);
-            }
-            PrintSmallNarrowTextCentered(WINDOW_4, 94, COLORID_NORMAL, cardName);
-            AddTextPrinterParameterized4(WINDOW_7, FONT_SMALL_NARROWER, 6, 6, 0, 0, sMenuWindowFontColors[FONT_WHITE], 0xFF, cardNameShort);
-            if (cardType != TYPE_SPELL_CARD && cardType != TYPE_TRAP_CARD)
-            {
-                ConvertIntToDecimalStringN(gStringVar1, cardAtk, STR_CONV_MODE_LEFT_ALIGN, 4);
-                StringExpandPlaceholders(gStringVar4, gText_xAtk);
-                AddTextPrinterParameterized4(WINDOW_5, FONT_SMALL_NARROWER, 2, 5, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
-                ConvertIntToDecimalStringN(gStringVar1, cardDef, STR_CONV_MODE_LEFT_ALIGN, 4);
-                StringExpandPlaceholders(gStringVar4, gText_xDef);
-                AddTextPrinterParameterized4(WINDOW_6, FONT_SMALL_NARROWER, 0, 5, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
-            }
-            if (cardType == TYPE_NORMAL_MONSTER)
-                LoadPalette(sNormalMonsterPalette, 0, 32*3);
-            else if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER || cardType == TYPE_SPIRIT_MONSTER || cardType == TYPE_UNION_EFFECT_MONSTER || cardType == TYPE_TOON_MONSTER)
-                LoadPalette(sEffectMonsterPalette, 0, 32*3);
-            else if (cardType == TYPE_SPELL_CARD)
-                LoadPalette(sSpellCardPalette, 0, 32*3);
-            else if (cardType == TYPE_TRAP_CARD)
-                LoadPalette(sTrapCardPalette, 0, 32*3);
-            else if (cardType == TYPE_FUSION_MONSTER)
-                LoadPalette(sFusionMonsterPalette, 0, 32*3);
-            else if (cardType == TYPE_RITUAL_MONSTER || cardType == TYPE_RITUAL_EFFECT_MONSTER)
-                LoadPalette(sRitualMonsterPalette, 0, 32*3);
-            else
-                LoadPalette(sNormalMonsterPalette, 0, 32*3);
-            SetBgTilemapPalette(0, 0, 0, DISPLAY_TILE_WIDTH, DISPLAY_TILE_HEIGHT, 3);
-            if (cardType == TYPE_SPELL_CARD || cardType == TYPE_TRAP_CARD)
-            {
-                BlitBitmapToWindow(WINDOW_2, sCardTypeIcons[cardType], 22, 6, 16, 16);
-                LoadPalette(sCardTypeIconPals[cardType], BG_PLTT_ID(8), 32);
-            }
-            else
-            {
-                BlitBitmapToWindow(WINDOW_3, sCardRaceIcons[race], 6, 0, 16, 16);
-                LoadPalette(sCardRaceIconPals[race], BG_PLTT_ID(7), 32);
-                BlitBitmapToWindow(WINDOW_2, sCardAttributeIcons[attribute], 22, 6, 16, 16);
-                LoadPalette(sCardAttributeIconPals[attribute], BG_PLTT_ID(8), 32);
-            }
-            PutWindowTilemap(WINDOW_DESC);
-            PutWindowTilemap(WINDOW_2);
-            PutWindowTilemap(WINDOW_3);
-            PutWindowTilemap(WINDOW_4);
-            PutWindowTilemap(WINDOW_5);
-            PutWindowTilemap(WINDOW_6);
-            PutWindowTilemap(WINDOW_7);
-            CopyWindowToVram(WINDOW_DESC, 3);
-            CopyWindowToVram(WINDOW_2, 3);
-            CopyWindowToVram(WINDOW_3, 3);
-            CopyWindowToVram(WINDOW_4, 3);
-            CopyWindowToVram(WINDOW_5, 3);
-            CopyWindowToVram(WINDOW_6, 3);
-            CopyWindowToVram(WINDOW_7, 3);
-            ScheduleBgCopyTilemapToVram(0);
-            ScheduleBgCopyTilemapToVram(1);
-            ScheduleBgCopyTilemapToVram(2);
+            ConvertIntToDecimalStringN(gStringVar1, cardAtk, STR_CONV_MODE_LEFT_ALIGN, 4);
+            StringExpandPlaceholders(gStringVar4, gText_xAtk);
+            AddTextPrinterParameterized4(WINDOW_5, FONT_SMALL_NARROWER, 2, 5, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
+            ConvertIntToDecimalStringN(gStringVar1, cardDef, STR_CONV_MODE_LEFT_ALIGN, 4);
+            StringExpandPlaceholders(gStringVar4, gText_xDef);
+            AddTextPrinterParameterized4(WINDOW_6, FONT_SMALL_NARROWER, 0, 5, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
         }
+        if (cardType == TYPE_NORMAL_MONSTER)
+            LoadPalette(sNormalMonsterPalette, 0, 32*3);
+        else if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER || cardType == TYPE_SPIRIT_MONSTER || cardType == TYPE_UNION_EFFECT_MONSTER || cardType == TYPE_TOON_MONSTER)
+            LoadPalette(sEffectMonsterPalette, 0, 32*3);
+        else if (cardType == TYPE_SPELL_CARD)
+            LoadPalette(sSpellCardPalette, 0, 32*3);
+        else if (cardType == TYPE_TRAP_CARD)
+            LoadPalette(sTrapCardPalette, 0, 32*3);
+        else if (cardType == TYPE_FUSION_MONSTER)
+            LoadPalette(sFusionMonsterPalette, 0, 32*3);
+        else if (cardType == TYPE_RITUAL_MONSTER || cardType == TYPE_RITUAL_EFFECT_MONSTER)
+            LoadPalette(sRitualMonsterPalette, 0, 32*3);
+        else
+            LoadPalette(sNormalMonsterPalette, 0, 32*3);
+        SetBgTilemapPalette(0, 0, 0, DISPLAY_TILE_WIDTH, DISPLAY_TILE_HEIGHT, 3);
+        if (cardType == TYPE_SPELL_CARD || cardType == TYPE_TRAP_CARD)
+        {
+            BlitBitmapToWindow(WINDOW_2, sCardTypeIcons[cardType], 22, 6, 16, 16);
+            LoadPalette(sCardTypeIconPals[cardType], BG_PLTT_ID(8), 32);
+        }
+        else
+        {
+            BlitBitmapToWindow(WINDOW_3, sCardRaceIcons[race], 6, 0, 16, 16);
+            LoadPalette(sCardRaceIconPals[race], BG_PLTT_ID(7), 32);
+            BlitBitmapToWindow(WINDOW_2, sCardAttributeIcons[attribute], 22, 6, 16, 16);
+            LoadPalette(sCardAttributeIconPals[attribute], BG_PLTT_ID(8), 32);
+        }
+        PutWindowTilemap(WINDOW_DESC);
+        PutWindowTilemap(WINDOW_2);
+        PutWindowTilemap(WINDOW_3);
+        PutWindowTilemap(WINDOW_4);
+        PutWindowTilemap(WINDOW_5);
+        PutWindowTilemap(WINDOW_6);
+        PutWindowTilemap(WINDOW_7);
+        CopyWindowToVram(WINDOW_DESC, 3);
+        CopyWindowToVram(WINDOW_2, 3);
+        CopyWindowToVram(WINDOW_3, 3);
+        CopyWindowToVram(WINDOW_4, 3);
+        CopyWindowToVram(WINDOW_5, 3);
+        CopyWindowToVram(WINDOW_6, 3);
+        CopyWindowToVram(WINDOW_7, 3);
+        ScheduleBgCopyTilemapToVram(0);
+        ScheduleBgCopyTilemapToVram(1);
+        ScheduleBgCopyTilemapToVram(2);
         sDidInitialDraw = TRUE;
     }
 
