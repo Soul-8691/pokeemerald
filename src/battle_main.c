@@ -3930,7 +3930,7 @@ void Task_MenuMainBattle(void)
             LoadPalette(sRitualMonsterPalette, 0, 32*3);
         else
             LoadPalette(sNormalMonsterPalette, 0, 32*3);
-        SetBgTilemapPalette(0, 0, 0, DISPLAY_TILE_WIDTH, DISPLAY_TILE_HEIGHT, 3);
+        // SetBgTilemapPalette(1, 0, 0, DISPLAY_TILE_WIDTH, DISPLAY_TILE_HEIGHT, 0);
         if (cardType == TYPE_SPELL_CARD || cardType == TYPE_TRAP_CARD)
         {
             BlitBitmapToWindow(WINDOW_2, sCardTypeIcons[cardType], 22, 6, 16, 16);
