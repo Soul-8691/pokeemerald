@@ -4531,8 +4531,7 @@ void Task_HandleYGOTurn(void)
                 // FillWindowPixelBuffer(WINDOW_5, PIXEL_FILL(0));
                 // FillWindowPixelBuffer(WINDOW_6, PIXEL_FILL(0));
                 // FillWindowPixelBuffer(WINDOW_7, PIXEL_FILL(0));
-                SetMainCallback2(Menu_RunSetup);
-                // Menu_Init(CB2_InitYGODuelInternal);
+                Menu_Init(CB2_InitYGODuelInternal);
             }
             sDidInitialDraw = FALSE;
         }
