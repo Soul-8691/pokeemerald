@@ -3675,6 +3675,10 @@ static const struct WindowTemplate sYGOWindowTemplates[] =
         .paletteNum = 4,   // palette index to use for text
         .baseBlock = 296,     // tile start in VRAM
     },
+};
+
+static const struct WindowTemplate sYGOWindowTemplatesDesc[] = 
+{
     [WINDOW_DESC] = 
     {
         .bg = 1,            // which bg to print text on
@@ -3784,23 +3788,24 @@ static const u8 sText_Set[] = _("Set");
 const struct BgTemplate gBattleBgTemplates_[] =
 {
     {
-        .bg = 0,
-        .charBaseIndex = 0,
-        .mapBaseIndex = 24,
-        .screenSize = 2,
-        .paletteMode = 0,
-        .priority = 3,
-        .baseTile = 0
+        .bg = 0,    // this bg loads the UI tilemap
+        .charBaseIndex = 3,
+        .mapBaseIndex = 29,
+        .paletteMode = 1,
+        .priority = 1
     },
     {
-        .bg = 1,
-        .charBaseIndex = 1,
-        .mapBaseIndex = 28,
-        .screenSize = 2,
-        .paletteMode = 0,
-        .priority = 2,
-        .baseTile = 0
-    },
+        .bg = 1,    // windows, etc
+        .charBaseIndex = 0,
+        .mapBaseIndex = 31,
+        .priority = 0
+    }, 
+    {
+        .bg = 2,    // this bg loads the UI tilemap
+        .charBaseIndex = 2,
+        .mapBaseIndex = 20,
+        .priority = 2
+    }
 };
 
 bool8 BattleMenu_InitBgs(void)
@@ -3815,211 +3820,34 @@ bool8 BattleMenu_InitBgs(void)
     
     ResetBgsAndClearDma3BusyFlags(0);
     InitBgsFromTemplates(0, gBattleBgTemplates_, NELEMS(gBattleBgTemplates_));
-    SetBgTilemapBuffer(0, sTilemapBuffers[0]);
-    SetBgTilemapBuffer(1, sTilemapBuffers[1]);
-    ScheduleBgCopyTilemapToVram(0);
+    SetBgTilemapBuffer(1, sTilemapBuffers[0]);
+    SetBgTilemapBuffer(2, sTilemapBuffers[1]);
     ScheduleBgCopyTilemapToVram(1);
+    ScheduleBgCopyTilemapToVram(2);
     
     SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_OBJ_1D_MAP | DISPCNT_OBJ_ON);
     SetGpuReg(REG_OFFSET_BLDCNT, 0);
     SetGpuReg(REG_OFFSET_BG1CNT, BGCNT_256COLOR);
     ShowBg(0);
     ShowBg(1);
+    ShowBg(2);
     return TRUE;
 }
 
-static void BattleMenu_InitWindows(void)
-{
-    u32 i;
 
-    InitWindows(sYGOWindowTemplates);
-    // DeactivateAllTextPrinters();
-    ScheduleBgCopyTilemapToVram(0);
-    
-    FillWindowPixelBuffer(WINDOW_DESC, 0);
-    FillWindowPixelBuffer(WINDOW_2, 0);
-    FillWindowPixelBuffer(WINDOW_3, 0);
-    FillWindowPixelBuffer(WINDOW_4, 0);
-    FillWindowPixelBuffer(WINDOW_5, 0);
-    FillWindowPixelBuffer(WINDOW_6, 0);
-    FillWindowPixelBuffer(WINDOW_7, 0);
-    LoadUserWindowBorderGfx(WINDOW_DESC, 720, 14 * 16);
-    PutWindowTilemap(WINDOW_DESC);
-    PutWindowTilemap(WINDOW_2);
-    PutWindowTilemap(WINDOW_3);
-    PutWindowTilemap(WINDOW_4);
-    PutWindowTilemap(WINDOW_5);
-    PutWindowTilemap(WINDOW_6);
-    PutWindowTilemap(WINDOW_7);
-    CopyWindowToVram(WINDOW_DESC, 3);
-    CopyWindowToVram(WINDOW_2, 3);
-    CopyWindowToVram(WINDOW_3, 3);
-    CopyWindowToVram(WINDOW_4, 3);
-    CopyWindowToVram(WINDOW_5, 3);
-    CopyWindowToVram(WINDOW_6, 3);
-    CopyWindowToVram(WINDOW_7, 3);
-    
-    ScheduleBgCopyTilemapToVram(2);
-}
 
-static bool8 BattleMenu_LoadGraphics(void)
+enum
 {
-    u16 card = CardIdMapping[playerDeck[gSpecialVar_0x8004]];
-    u8 cardType = gCardInfo[card].type;
-    switch (sMenuDataPtr->gfxLoadState)
-    {
-    case 0:
-        ResetTempTileDataBuffers();
-        DecompressAndCopyTileDataToVram(0, sBackgroundTiles, 0, 0, 0);
-        if (cardType == TYPE_NORMAL_MONSTER)
-            DecompressAndCopyTileDataToVram(1, sNormalMonsterTiles, 0, 0, 0);
-        else if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER || cardType == TYPE_SPIRIT_MONSTER || cardType == TYPE_UNION_EFFECT_MONSTER || cardType == TYPE_TOON_MONSTER)
-            DecompressAndCopyTileDataToVram(1, sEffectMonsterTiles, 0, 0, 0);
-        else if (cardType == TYPE_SPELL_CARD)
-            DecompressAndCopyTileDataToVram(1, sSpellCardTiles, 0, 0, 0);
-        else if (cardType == TYPE_TRAP_CARD)
-            DecompressAndCopyTileDataToVram(1, sTrapCardTiles, 0, 0, 0);
-        else if (cardType == TYPE_FUSION_MONSTER)
-            DecompressAndCopyTileDataToVram(1, sFusionMonsterTiles, 0, 0, 0);
-        else if (cardType == TYPE_RITUAL_MONSTER || cardType == TYPE_RITUAL_EFFECT_MONSTER)
-            DecompressAndCopyTileDataToVram(1, sRitualMonsterTiles, 0, 0, 0);
-        else
-            DecompressAndCopyTileDataToVram(1, sNormalMonsterTiles, 0, 0, 0);
-        sMenuDataPtr->gfxLoadState++;
-        break;
-    case 1:
-        if (FreeTempTileDataBuffersIfPossible() != TRUE)
-        {
-            LZDecompressWram(sBackgroundTilemap, sTilemapBuffers[1]);
-            if (cardType == TYPE_NORMAL_MONSTER)
-                LZDecompressWram(sNormalMonsterTilemap, sTilemapBuffers[0]);
-            else if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER || cardType == TYPE_SPIRIT_MONSTER || cardType == TYPE_UNION_EFFECT_MONSTER || cardType == TYPE_TOON_MONSTER)
-                LZDecompressWram(sEffectMonsterTilemap, sTilemapBuffers[0]);
-            else if (cardType == TYPE_SPELL_CARD)
-                LZDecompressWram(sSpellCardTilemap, sTilemapBuffers[0]);
-            else if (cardType == TYPE_TRAP_CARD)
-                LZDecompressWram(sTrapCardTilemap, sTilemapBuffers[0]);
-            else if (cardType == TYPE_FUSION_MONSTER)
-                LZDecompressWram(sFusionMonsterTilemap, sTilemapBuffers[0]);
-            else if (cardType == TYPE_RITUAL_MONSTER || cardType == TYPE_RITUAL_EFFECT_MONSTER)
-                LZDecompressWram(sRitualMonsterTilemap, sTilemapBuffers[0]);
-            else
-                LZDecompressWram(sNormalMonsterTilemap, sTilemapBuffers[0]);
-            sMenuDataPtr->gfxLoadState++;
-        }
-        break;
-    case 2:
-        LoadPalette(sBackgroundPalette, 48, 32);
-        sMenuDataPtr->gfxLoadState++;
-        break;
-    default:
-        sMenuDataPtr->gfxLoadState = 0;
-        return TRUE;
-    }
-    return FALSE;
-}
-
-static bool8 BattleMenu_DoGfxSetup(void)
-{
-    u8 taskId;
-    u8 spriteId;
-    u32 i;
-    u16 card = CardIdMapping[playerDeck[gSpecialVar_0x8004]];
-    u8 level = gCardInfo[card].level;
-    switch (gMain.state)
-    {
-    case 0:
-        DmaClearLarge16(3, (void *)VRAM, VRAM_SIZE, 0x1000)
-        SetVBlankHBlankCallbacksToNull();
-        ClearScheduledBgCopiesToVram();
-        ResetVramOamAndBgCntRegs();
-        gMain.state++;
-        break;
-    case 1:
-        ScanlineEffect_Stop();
-        FreeAllSpritePalettes();
-        ResetPaletteFade();
-        ResetSpriteData();
-        ResetTasks();
-        LoadCompressedSpriteSheet(&sSpriteSheet_Cards[card - 1]);
-        LoadPalette(gCardInfo[card].pal, OBJ_PLTT_ID(0), PLTT_SIZE_4BPP*4);
-        spriteId = CreateBigSprite(&sCardLeftSpriteTemplate, 16, 32, 0);
-        gSprites[spriteId].callback = SpriteCallbackDummy;
-		LoadSpriteSheet(&sSpriteSheet_Icons[0]);
-        LoadSpritePaletteInSlot(&sIcon_SpritePalettes[0], 4);
-        for (i = 0; i < level; i++)
-        {
-            if (level < 12)
-                spriteId = CreateSprite(&sStarSpriteTemplate, 96 - (i * 8), 25, 0);
-            else
-                spriteId = CreateSprite(&sStarSpriteTemplate, 96 - (i * 7), 25, 0);
-            gSprites[spriteId].callback = SpriteCallbackDummy;
-        }
-        gMain.state++;
-        break;
-    case 2:
-        if (BattleMenu_InitBgs())
-        {
-            sMenuDataPtr->gfxLoadState = 0;
-            gMain.state++;
-        }
-        else
-        {
-            Menu_FadeAndBail();
-            return TRUE;
-        }
-        break;
-    case 3:
-        if (BattleMenu_LoadGraphics() == TRUE)
-            gMain.state++;
-        break;
-    case 4:
-        LoadMessageBoxAndBorderGfx();
-        BattleMenu_InitWindows();
-        gMain.state++;
-        break;
-    case 5:
-        PrintToWindow(WINDOW_DESC, FONT_WHITE, card);
-        taskId = CreateTask(Task_MenuWaitFadeIn, 0);
-        BlendPalettes(0xFFFFFFFF, 16, RGB_BLACK);
-        gMain.state++;
-        break;
-    case 6:
-        BeginNormalPaletteFade(0xFFFFFFFF, 0, 16, 0, RGB_BLACK);
-        gMain.state++;
-        break;
-    default:
-        SetVBlankCallback(Menu_VBlankCB);
-        SetMainCallback2(Menu_MainCB);
-        return TRUE;
-    }
-    return FALSE;
-}
-
-static void BattleMenu_RunSetup(void)
-{
-    while (1)
-    {
-        if (BattleMenu_DoGfxSetup() == TRUE)
-            break;
-    }
-}
-
-// This is our main initialization function if you want to call the menu from elsewhere
-void BattleMenu_Init(void)
-{
-    if ((sMenuDataPtr = AllocZeroed(sizeof(struct MenuResources))) == NULL)
-    {
-        SetMainCallback2(Task_HandleYGOTurn);
-        return;
-    }
-    
-    // initialize stuff
-    sMenuDataPtr->gfxLoadState = 0;
-    sMenuDataPtr->savedCallback = Task_HandleYGOTurn;
-    
-    SetMainCallback2(BattleMenu_RunSetup);
-}
+    STATE_TURN_START_RECORD,
+    STATE_BEFORE_ACTION_CHOSEN,
+    STATE_WAIT_ACTION_CHOSEN,
+    STATE_WAIT_ACTION_CASE_CHOSEN,
+    STATE_WAIT_ACTION_CONFIRMED_STANDBY,
+    STATE_WAIT_ACTION_CONFIRMED,
+    STATE_SELECTION_SCRIPT,
+    STATE_WAIT_SET_BEFORE_ACTION,
+    STATE_SELECTION_SCRIPT_MAY_RUN
+};
 
 void Task_MenuMainBattle(void)
 {
@@ -4042,24 +3870,7 @@ void Task_MenuMainBattle(void)
     {
         FreeAllSpritePalettes();
         ResetSpriteData();
-        FillWindowPixelBuffer(WINDOW_TEXT, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-        FillWindowPixelBuffer(WINDOW_TEXT_2, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-        FillWindowPixelBuffer(WINDOW_TEXT_3, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-        FillWindowPixelBuffer(WINDOW_TYPE_ATTRIBUTE, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-        FillWindowPixelBuffer(WINDOW_RACE, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-        FillWindowPixelBuffer(WINDOW_STAR, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-        FillWindowPixelBuffer(WINDOW_HAND, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-        FillWindowPixelBuffer(WINDOW_ENEMY_HAND, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-        FillWindowPixelBuffer(WINDOW_PLAYER_LP, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-        FillWindowPixelBuffer(WINDOW_ENEMY_LP, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-        FillWindowPixelBuffer(WINDOW_CONTEXT, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-        FillWindowPixelBuffer(WINDOW_DESC, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-        FillWindowPixelBuffer(WINDOW_2, PIXEL_FILL(0));
-        FillWindowPixelBuffer(WINDOW_3, PIXEL_FILL(0));
-        FillWindowPixelBuffer(WINDOW_4, PIXEL_FILL(0));
-        FillWindowPixelBuffer(WINDOW_5, PIXEL_FILL(0));
-        FillWindowPixelBuffer(WINDOW_6, PIXEL_FILL(0));
-        FillWindowPixelBuffer(WINDOW_7, PIXEL_FILL(0));
+        InitWindows(sYGOWindowTemplatesDesc);
         LoadCompressedSpriteSheet(&sSpriteSheet_Cards[card - 1]);
         LoadPalette(gCardInfo[card].pal, OBJ_PLTT_ID(0), PLTT_SIZE_4BPP*4);
         spriteId = CreateBigSprite(&sCardLeftSpriteTemplate, 16, 32, 0);
@@ -4077,12 +3888,10 @@ void Task_MenuMainBattle(void)
         sScrollDown = 0;
         startIdx = GetLineStartIndex(cardDescription, sScrollDown);
         DrawScrolledText(WINDOW_DESC, cardDescription, startIdx, NUM_VISIBLE_LINES);
-        if (BattleMenu_InitBgs())
+        if (BattleMenu_InitBgs());
         {
             ResetTempTileDataBuffers();
-            // DecompressAndCopyTileDataToVram(0, sBackgroundTiles, 0, 0, 0);
-            LZDecompressVram(sBackgroundTiles, sTilemapBuffers[1]);
-            CopyToBgTilemapBuffer(0, sBackgroundTilemap, 0, 0);
+            DecompressAndCopyTileDataToVram(2, sBackgroundTiles, 0, 0, 0);
             if (cardType == TYPE_NORMAL_MONSTER)
                 DecompressAndCopyTileDataToVram(1, sNormalMonsterTiles, 0, 0, 0);
             else if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER || cardType == TYPE_SPIRIT_MONSTER || cardType == TYPE_UNION_EFFECT_MONSTER || cardType == TYPE_TOON_MONSTER)
@@ -4152,17 +3961,6 @@ void Task_MenuMainBattle(void)
                 BlitBitmapToWindow(WINDOW_2, sCardAttributeIcons[attribute], 22, 6, 16, 16);
                 LoadPalette(sCardAttributeIconPals[attribute], BG_PLTT_ID(8), 32);
             }
-            PutWindowTilemap(WINDOW_TEXT);
-            PutWindowTilemap(WINDOW_TEXT_2);
-            PutWindowTilemap(WINDOW_TEXT_3);
-            PutWindowTilemap(WINDOW_TYPE_ATTRIBUTE);
-            PutWindowTilemap(WINDOW_RACE);
-            PutWindowTilemap(WINDOW_STAR);
-            PutWindowTilemap(WINDOW_HAND);
-            PutWindowTilemap(WINDOW_ENEMY_HAND);
-            PutWindowTilemap(WINDOW_PLAYER_LP);
-            PutWindowTilemap(WINDOW_ENEMY_LP);
-            PutWindowTilemap(WINDOW_CONTEXT);
             PutWindowTilemap(WINDOW_DESC);
             PutWindowTilemap(WINDOW_2);
             PutWindowTilemap(WINDOW_3);
@@ -4170,17 +3968,6 @@ void Task_MenuMainBattle(void)
             PutWindowTilemap(WINDOW_5);
             PutWindowTilemap(WINDOW_6);
             PutWindowTilemap(WINDOW_7);
-            CopyWindowToVram(WINDOW_TEXT, 3);
-            CopyWindowToVram(WINDOW_TEXT_2, 3);
-            CopyWindowToVram(WINDOW_TEXT_3, 3);
-            CopyWindowToVram(WINDOW_TYPE_ATTRIBUTE, 3);
-            CopyWindowToVram(WINDOW_RACE, 3);
-            CopyWindowToVram(WINDOW_STAR, 3);
-            CopyWindowToVram(WINDOW_HAND, 3);
-            CopyWindowToVram(WINDOW_ENEMY_HAND, 3);
-            CopyWindowToVram(WINDOW_PLAYER_LP, 3);
-            CopyWindowToVram(WINDOW_ENEMY_LP, 3);
-            CopyWindowToVram(WINDOW_CONTEXT, 3);
             CopyWindowToVram(WINDOW_DESC, 3);
             CopyWindowToVram(WINDOW_2, 3);
             CopyWindowToVram(WINDOW_3, 3);
@@ -4188,10 +3975,9 @@ void Task_MenuMainBattle(void)
             CopyWindowToVram(WINDOW_5, 3);
             CopyWindowToVram(WINDOW_6, 3);
             CopyWindowToVram(WINDOW_7, 3);
-            CopyBgTilemapBufferToVram(0);
-            CopyBgTilemapBufferToVram(1);
             ScheduleBgCopyTilemapToVram(0);
             ScheduleBgCopyTilemapToVram(1);
+            ScheduleBgCopyTilemapToVram(2);
         }
         sDidInitialDraw = TRUE;
     }
@@ -4225,29 +4011,6 @@ void Task_MenuMainBattle(void)
         DrawScrolledText(WINDOW_DESC, cardDescription, startIdx, NUM_VISIBLE_LINES);
     }
 }
-
-void Task_OpenBattleMenuFromListMenu(u8 taskId)
-{
-    s16 *data = gTasks[taskId].data;
-    if (!gPaletteFade.active)
-    {
-        BattleMenu_Init();
-        DestroyTask(taskId);
-    }
-}
-
-enum
-{
-    STATE_TURN_START_RECORD,
-    STATE_BEFORE_ACTION_CHOSEN,
-    STATE_WAIT_ACTION_CHOSEN,
-    STATE_WAIT_ACTION_CASE_CHOSEN,
-    STATE_WAIT_ACTION_CONFIRMED_STANDBY,
-    STATE_WAIT_ACTION_CONFIRMED,
-    STATE_SELECTION_SCRIPT,
-    STATE_WAIT_SET_BEFORE_ACTION,
-    STATE_SELECTION_SCRIPT_MAY_RUN
-};
 
 void Task_HandleYGOTurn(void)
 {
@@ -4513,25 +4276,25 @@ void Task_HandleYGOTurn(void)
             if (gSpecialVar_0x8007 == 0)
             {
                 gSpecialVar_ItemId = playerDeck[gSpecialVar_0x8004];
-                // FillWindowPixelBuffer(WINDOW_TEXT, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-                // FillWindowPixelBuffer(WINDOW_TEXT_2, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-                // FillWindowPixelBuffer(WINDOW_TEXT_3, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-                // FillWindowPixelBuffer(WINDOW_TYPE_ATTRIBUTE, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-                // FillWindowPixelBuffer(WINDOW_RACE, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-                // FillWindowPixelBuffer(WINDOW_STAR, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-                // FillWindowPixelBuffer(WINDOW_HAND, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-                // FillWindowPixelBuffer(WINDOW_ENEMY_HAND, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-                // FillWindowPixelBuffer(WINDOW_PLAYER_LP, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-                // FillWindowPixelBuffer(WINDOW_ENEMY_LP, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-                // FillWindowPixelBuffer(WINDOW_CONTEXT, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-                // FillWindowPixelBuffer(WINDOW_DESC, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-                // FillWindowPixelBuffer(WINDOW_2, PIXEL_FILL(0));
-                // FillWindowPixelBuffer(WINDOW_3, PIXEL_FILL(0));
-                // FillWindowPixelBuffer(WINDOW_4, PIXEL_FILL(0));
-                // FillWindowPixelBuffer(WINDOW_5, PIXEL_FILL(0));
-                // FillWindowPixelBuffer(WINDOW_6, PIXEL_FILL(0));
-                // FillWindowPixelBuffer(WINDOW_7, PIXEL_FILL(0));
-                Menu_Init(CB2_InitYGODuelInternal);
+                FillWindowPixelBuffer(WINDOW_TEXT, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+                FillWindowPixelBuffer(WINDOW_TEXT_2, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+                FillWindowPixelBuffer(WINDOW_TEXT_3, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+                FillWindowPixelBuffer(WINDOW_TYPE_ATTRIBUTE, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+                FillWindowPixelBuffer(WINDOW_RACE, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+                FillWindowPixelBuffer(WINDOW_STAR, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+                FillWindowPixelBuffer(WINDOW_HAND, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+                FillWindowPixelBuffer(WINDOW_ENEMY_HAND, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+                FillWindowPixelBuffer(WINDOW_PLAYER_LP, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+                FillWindowPixelBuffer(WINDOW_ENEMY_LP, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+                FillWindowPixelBuffer(WINDOW_CONTEXT, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+                FillWindowPixelBuffer(WINDOW_DESC, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+                FillWindowPixelBuffer(WINDOW_2, PIXEL_FILL(0));
+                FillWindowPixelBuffer(WINDOW_3, PIXEL_FILL(0));
+                FillWindowPixelBuffer(WINDOW_4, PIXEL_FILL(0));
+                FillWindowPixelBuffer(WINDOW_5, PIXEL_FILL(0));
+                FillWindowPixelBuffer(WINDOW_6, PIXEL_FILL(0));
+                FillWindowPixelBuffer(WINDOW_7, PIXEL_FILL(0));
+                gBattleMainFunc = Task_MenuMainBattle;
             }
             sDidInitialDraw = FALSE;
         }
@@ -4577,9 +4340,6 @@ void Task_HandleYGOTurn(void)
     CopyWindowToVram(WINDOW_ENEMY_LP, 3);
     CopyWindowToVram(WINDOW_CONTEXT, 3);
     ScheduleBgCopyTilemapToVram(0);
-    ScheduleBgCopyTilemapToVram(1);
-    ScheduleBgCopyTilemapToVram(2);
-    ScheduleBgCopyTilemapToVram(3);
 }
 
 static void BattleIntroPrepareBackgroundSlide(void)
