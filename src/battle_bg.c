@@ -130,15 +130,16 @@ const struct BgTemplate gYGODuelBgTemplates[] =
         .screenSize = 2,
         .paletteMode = 0,
         .priority = 1,
-        .baseTile = 0
+        .baseTile = 14
     },
     {
         .bg = 1,
-        .charBaseIndex = 3,
+        .charBaseIndex = 0,
         .mapBaseIndex = 28,
         .screenSize = 2,
         .paletteMode = 0,
-        .priority = 2,
+        .priority = 1,
+        .baseTile = 14
     },
     {
         .bg = 2,
@@ -146,7 +147,7 @@ const struct BgTemplate gYGODuelBgTemplates[] =
         .mapBaseIndex = 24,
         .paletteMode = 1,
         .priority = 0,
-        // .baseTile = 14
+        .baseTile = 14
     },
     {
         .bg = 3,
@@ -155,7 +156,7 @@ const struct BgTemplate gYGODuelBgTemplates[] =
         .screenSize = 0,
         .paletteMode = 0,
         .priority = 3,
-        .baseTile = 0
+        .baseTile = 14
     },
 };
 

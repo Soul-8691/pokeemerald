@@ -3810,13 +3810,14 @@ bool8 BattleMenu_LoadGraphics(void)
     {
     case 0:
         ResetTempTileDataBuffers();
-        SetGpuReg(REG_OFFSET_BG0CNT, BGCNT_PRIORITY(1) | BGCNT_CHARBASE(0) | BGCNT_SCREENBASE(27) | BGCNT_16COLOR | BGCNT_TXT256x256);
-        SetGpuReg(REG_OFFSET_BG2CNT, BGCNT_PRIORITY(0) | BGCNT_CHARBASE(3) | BGCNT_SCREENBASE(24) | BGCNT_256COLOR | BGCNT_TXT256x256);
+        SetGpuReg(REG_OFFSET_BG0CNT, BGCNT_PRIORITY(2) | BGCNT_CHARBASE(0) | BGCNT_SCREENBASE(27) | BGCNT_16COLOR | BGCNT_TXT256x256);
+        SetGpuReg(REG_OFFSET_BG1CNT, BGCNT_PRIORITY(0) | BGCNT_CHARBASE(0) | BGCNT_SCREENBASE(28));
+        SetGpuReg(REG_OFFSET_BG2CNT, BGCNT_PRIORITY(1) | BGCNT_CHARBASE(2) | BGCNT_SCREENBASE(24) | BGCNT_256COLOR | BGCNT_TXT256x256);
         LZ77UnCompVram(sBackgroundTiles, (void *)(BG_CHAR_ADDR(0)));
         LZ77UnCompVram(sBackgroundTilemap, (void *)BG_SCREEN_ADDR(27));
         if (cardType == TYPE_NORMAL_MONSTER)
         {
-            LZ77UnCompVram(sNormalMonsterTiles, (void *)BG_CHAR_ADDR(3));
+            LZ77UnCompVram(sNormalMonsterTiles, (void *)BG_CHAR_ADDR(2));
             LZ77UnCompVram(sNormalMonsterTilemap, (void *)BG_SCREEN_ADDR(24));
         }
         if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER || cardType == TYPE_SPIRIT_MONSTER || cardType == TYPE_UNION_EFFECT_MONSTER || cardType == TYPE_TOON_MONSTER)
@@ -3837,7 +3838,7 @@ bool8 BattleMenu_LoadGraphics(void)
         if (FreeTempTileDataBuffersIfPossible() != TRUE)
         {
             if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER || cardType == TYPE_SPIRIT_MONSTER || cardType == TYPE_UNION_EFFECT_MONSTER || cardType == TYPE_TOON_MONSTER)
-                LZDecompressWram(sEffectMonsterTilemap, (void *)BG_SCREEN_ADDR(28));
+                LZDecompressWram(sEffectMonsterTilemap, (void *)BG_SCREEN_ADDR(24));
             else if (cardType == TYPE_SPELL_CARD)
                 LZDecompressWram(sSpellCardTilemap, sTilemapBuffers[0]);
             else if (cardType == TYPE_TRAP_CARD)
@@ -4269,12 +4270,12 @@ void Task_HandleYGOTurn(void)
                 FillWindowPixelBuffer(WINDOW_ENEMY_LP, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
                 FillWindowPixelBuffer(WINDOW_CONTEXT, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
                 FillWindowPixelBuffer(WINDOW_DESC, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-                FillWindowPixelBuffer(WINDOW_2, PIXEL_FILL(0));
-                FillWindowPixelBuffer(WINDOW_3, PIXEL_FILL(0));
-                FillWindowPixelBuffer(WINDOW_4, PIXEL_FILL(0));
-                FillWindowPixelBuffer(WINDOW_5, PIXEL_FILL(0));
-                FillWindowPixelBuffer(WINDOW_6, PIXEL_FILL(0));
-                FillWindowPixelBuffer(WINDOW_7, PIXEL_FILL(0));
+                FillWindowPixelBuffer(WINDOW_2, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+                FillWindowPixelBuffer(WINDOW_3, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+                FillWindowPixelBuffer(WINDOW_4, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+                FillWindowPixelBuffer(WINDOW_5, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+                FillWindowPixelBuffer(WINDOW_6, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+                FillWindowPixelBuffer(WINDOW_7, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
                 gBattleMainFunc = Task_MenuMainBattle;
             }
             sDidInitialDraw = FALSE;
