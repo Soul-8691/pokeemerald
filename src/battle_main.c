@@ -3616,7 +3616,7 @@ static const struct WindowTemplate sYGOWindowTemplates[] =
         .tilemapTop = 9,    // position from top (per 8 pixels)
         .width = 2,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
-        .paletteNum = 5,   // palette index to use for text
+        .paletteNum = 4,   // palette index to use for text
         .baseBlock = 94,     // tile start in VRAM
     },
     [WINDOW_STAR] = 
