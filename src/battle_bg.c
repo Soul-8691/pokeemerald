@@ -126,34 +126,33 @@ const struct BgTemplate gYGODuelBgTemplates[] =
     {
         .bg = 0,
         .charBaseIndex = 0,
-        .mapBaseIndex = 24,
+        .mapBaseIndex = 27,
         .screenSize = 2,
-        .paletteMode = 0,
-        .priority = 0,
-        .baseTile = 0
-    },
-    {
-        .bg = 1,
-        .charBaseIndex = 1,
-        .mapBaseIndex = 28,
-        .screenSize = 2,
-        .paletteMode = 0,
-        .priority = 0,
-    },
-    {
-        .bg = 2,
-        .charBaseIndex = 1,
-        .mapBaseIndex = 30,
-        .screenSize = 1,
         .paletteMode = 0,
         .priority = 1,
         .baseTile = 0
     },
     {
+        .bg = 1,
+        .charBaseIndex = 3,
+        .mapBaseIndex = 28,
+        .screenSize = 2,
+        .paletteMode = 0,
+        .priority = 2,
+    },
+    {
+        .bg = 2,
+        .charBaseIndex = 1,
+        .mapBaseIndex = 24,
+        .paletteMode = 1,
+        .priority = 0,
+        // .baseTile = 14
+    },
+    {
         .bg = 3,
         .charBaseIndex = 2,
-        .mapBaseIndex = 26,
-        .screenSize = 1,
+        .mapBaseIndex = 31,
+        .screenSize = 0,
         .paletteMode = 0,
         .priority = 3,
         .baseTile = 0
@@ -192,7 +191,7 @@ const struct BgTemplate gBattleBgTemplates[] =
     {
         .bg = 3,
         .charBaseIndex = 2,
-        .mapBaseIndex = 26,
+        .mapBaseIndex = 31,
         .screenSize = 1,
         .paletteMode = 0,
         .priority = 3,
@@ -806,31 +805,31 @@ void DrawMainBattleBackground(void)
     if (gBattleTypeFlags & BATTLE_TYPE_YGO)
     {
         LZDecompressVram(gDuelBGTiles, (void *)(BG_CHAR_ADDR(2)));
-        LZDecompressVram(gDuelBGTilemap, (void *)(BG_SCREEN_ADDR(26)));
+        LZDecompressVram(gDuelBGTilemap, (void *)(BG_SCREEN_ADDR(31)));
         LoadCompressedPalette(gDuelBGPalette, BG_PLTT_ID(0), PLTT_SIZE_4BPP);
     }
     else if (gBattleTypeFlags & (BATTLE_TYPE_LINK | BATTLE_TYPE_FRONTIER | BATTLE_TYPE_EREADER_TRAINER | BATTLE_TYPE_RECORDED_LINK))
     {
         LZDecompressVram(gBattleEnvironmentTiles_Building, (void *)(BG_CHAR_ADDR(2)));
-        LZDecompressVram(gBattleEnvironmentTilemap_Building, (void *)(BG_SCREEN_ADDR(26)));
+        LZDecompressVram(gBattleEnvironmentTilemap_Building, (void *)(BG_SCREEN_ADDR(31)));
         LoadCompressedPalette(gBattleEnvironmentPalette_Frontier, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
     }
     else if (gBattleTypeFlags & BATTLE_TYPE_GROUDON)
     {
         LZDecompressVram(gBattleEnvironmentTiles_Cave, (void *)(BG_CHAR_ADDR(2)));
-        LZDecompressVram(gBattleEnvironmentTilemap_Cave, (void *)(BG_SCREEN_ADDR(26)));
+        LZDecompressVram(gBattleEnvironmentTilemap_Cave, (void *)(BG_SCREEN_ADDR(31)));
         LoadCompressedPalette(gBattleEnvironmentPalette_Groudon, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
     }
     else if (gBattleTypeFlags & BATTLE_TYPE_KYOGRE)
     {
         LZDecompressVram(gBattleEnvironmentTiles_Water, (void *)(BG_CHAR_ADDR(2)));
-        LZDecompressVram(gBattleEnvironmentTilemap_Water, (void *)(BG_SCREEN_ADDR(26)));
+        LZDecompressVram(gBattleEnvironmentTilemap_Water, (void *)(BG_SCREEN_ADDR(31)));
         LoadCompressedPalette(gBattleEnvironmentPalette_Kyogre, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
     }
     else if (gBattleTypeFlags & BATTLE_TYPE_RAYQUAZA)
     {
         LZDecompressVram(gBattleEnvironmentTiles_Rayquaza, (void *)(BG_CHAR_ADDR(2)));
-        LZDecompressVram(gBattleEnvironmentTilemap_Rayquaza, (void *)(BG_SCREEN_ADDR(26)));
+        LZDecompressVram(gBattleEnvironmentTilemap_Rayquaza, (void *)(BG_SCREEN_ADDR(31)));
         LoadCompressedPalette(gBattleEnvironmentPalette_Rayquaza, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
     }
     else
@@ -841,14 +840,14 @@ void DrawMainBattleBackground(void)
             if (trainerClass == TRAINER_CLASS_LEADER)
             {
                 LZDecompressVram(gBattleEnvironmentTiles_Building, (void *)(BG_CHAR_ADDR(2)));
-                LZDecompressVram(gBattleEnvironmentTilemap_Building, (void *)(BG_SCREEN_ADDR(26)));
+                LZDecompressVram(gBattleEnvironmentTilemap_Building, (void *)(BG_SCREEN_ADDR(31)));
                 LoadCompressedPalette(gBattleEnvironmentPalette_BuildingLeader, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
                 return;
             }
             else if (trainerClass == TRAINER_CLASS_CHAMPION)
             {
                 LZDecompressVram(gBattleEnvironmentTiles_Stadium, (void *)(BG_CHAR_ADDR(2)));
-                LZDecompressVram(gBattleEnvironmentTilemap_Stadium, (void *)(BG_SCREEN_ADDR(26)));
+                LZDecompressVram(gBattleEnvironmentTilemap_Stadium, (void *)(BG_SCREEN_ADDR(31)));
                 LoadCompressedPalette(gBattleEnvironmentPalette_StadiumWallace, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
                 return;
             }
@@ -859,47 +858,47 @@ void DrawMainBattleBackground(void)
         default:
         case MAP_BATTLE_SCENE_NORMAL:
             LZDecompressVram(sBattleEnvironmentTable[gBattleEnvironment].tileset, (void *)(BG_CHAR_ADDR(2)));
-            LZDecompressVram(sBattleEnvironmentTable[gBattleEnvironment].tilemap, (void *)(BG_SCREEN_ADDR(26)));
+            LZDecompressVram(sBattleEnvironmentTable[gBattleEnvironment].tilemap, (void *)(BG_SCREEN_ADDR(31)));
             LoadCompressedPalette(sBattleEnvironmentTable[gBattleEnvironment].palette, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
             break;
         case MAP_BATTLE_SCENE_GYM:
             LZDecompressVram(gBattleEnvironmentTiles_Building, (void *)(BG_CHAR_ADDR(2)));
-            LZDecompressVram(gBattleEnvironmentTilemap_Building, (void *)(BG_SCREEN_ADDR(26)));
+            LZDecompressVram(gBattleEnvironmentTilemap_Building, (void *)(BG_SCREEN_ADDR(31)));
             LoadCompressedPalette(gBattleEnvironmentPalette_BuildingGym, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
             break;
         case MAP_BATTLE_SCENE_MAGMA:
             LZDecompressVram(gBattleEnvironmentTiles_Stadium, (void *)(BG_CHAR_ADDR(2)));
-            LZDecompressVram(gBattleEnvironmentTilemap_Stadium, (void *)(BG_SCREEN_ADDR(26)));
+            LZDecompressVram(gBattleEnvironmentTilemap_Stadium, (void *)(BG_SCREEN_ADDR(31)));
             LoadCompressedPalette(gBattleEnvironmentPalette_StadiumMagma, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
             break;
         case MAP_BATTLE_SCENE_AQUA:
             LZDecompressVram(gBattleEnvironmentTiles_Stadium, (void *)(BG_CHAR_ADDR(2)));
-            LZDecompressVram(gBattleEnvironmentTilemap_Stadium, (void *)(BG_SCREEN_ADDR(26)));
+            LZDecompressVram(gBattleEnvironmentTilemap_Stadium, (void *)(BG_SCREEN_ADDR(31)));
             LoadCompressedPalette(gBattleEnvironmentPalette_StadiumAqua, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
             break;
         case MAP_BATTLE_SCENE_SIDNEY:
             LZDecompressVram(gBattleEnvironmentTiles_Stadium, (void *)(BG_CHAR_ADDR(2)));
-            LZDecompressVram(gBattleEnvironmentTilemap_Stadium, (void *)(BG_SCREEN_ADDR(26)));
+            LZDecompressVram(gBattleEnvironmentTilemap_Stadium, (void *)(BG_SCREEN_ADDR(31)));
             LoadCompressedPalette(gBattleEnvironmentPalette_StadiumSidney, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
             break;
         case MAP_BATTLE_SCENE_PHOEBE:
             LZDecompressVram(gBattleEnvironmentTiles_Stadium, (void *)(BG_CHAR_ADDR(2)));
-            LZDecompressVram(gBattleEnvironmentTilemap_Stadium, (void *)(BG_SCREEN_ADDR(26)));
+            LZDecompressVram(gBattleEnvironmentTilemap_Stadium, (void *)(BG_SCREEN_ADDR(31)));
             LoadCompressedPalette(gBattleEnvironmentPalette_StadiumPhoebe, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
             break;
         case MAP_BATTLE_SCENE_GLACIA:
             LZDecompressVram(gBattleEnvironmentTiles_Stadium, (void *)(BG_CHAR_ADDR(2)));
-            LZDecompressVram(gBattleEnvironmentTilemap_Stadium, (void *)(BG_SCREEN_ADDR(26)));
+            LZDecompressVram(gBattleEnvironmentTilemap_Stadium, (void *)(BG_SCREEN_ADDR(31)));
             LoadCompressedPalette(gBattleEnvironmentPalette_StadiumGlacia, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
             break;
         case MAP_BATTLE_SCENE_DRAKE:
             LZDecompressVram(gBattleEnvironmentTiles_Stadium, (void *)(BG_CHAR_ADDR(2)));
-            LZDecompressVram(gBattleEnvironmentTilemap_Stadium, (void *)(BG_SCREEN_ADDR(26)));
+            LZDecompressVram(gBattleEnvironmentTilemap_Stadium, (void *)(BG_SCREEN_ADDR(31)));
             LoadCompressedPalette(gBattleEnvironmentPalette_StadiumDrake, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
             break;
         case MAP_BATTLE_SCENE_FRONTIER:
             LZDecompressVram(gBattleEnvironmentTiles_Building, (void *)(BG_CHAR_ADDR(2)));
-            LZDecompressVram(gBattleEnvironmentTilemap_Building, (void *)(BG_SCREEN_ADDR(26)));
+            LZDecompressVram(gBattleEnvironmentTilemap_Building, (void *)(BG_SCREEN_ADDR(31)));
             LoadCompressedPalette(gBattleEnvironmentPalette_Frontier, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
             break;
         }
@@ -1195,7 +1194,7 @@ void DrawBattleEntryBackground(void)
         if (!(gBattleTypeFlags & BATTLE_TYPE_INGAME_PARTNER) || gPartnerTrainerId == TRAINER_STEVEN_PARTNER)
         {
             LZDecompressVram(gBattleEnvironmentAnimTiles_Building, (void *)(BG_CHAR_ADDR(1)));
-            LZDecompressVram(gBattleEnvironmentAnimTilemap_Building, (void *)(BG_SCREEN_ADDR(28)));
+            LZDecompressVram(gBattleEnvironmentAnimTilemap_Building, (void *)(BG_SCREEN_ADDR(20)));
         }
         else
         {
@@ -1212,17 +1211,17 @@ void DrawBattleEntryBackground(void)
     else if (gBattleTypeFlags & BATTLE_TYPE_GROUDON)
     {
         LZDecompressVram(gBattleEnvironmentAnimTiles_Cave, (void *)(BG_CHAR_ADDR(1)));
-        LZDecompressVram(gBattleEnvironmentAnimTilemap_Cave, (void *)(BG_SCREEN_ADDR(28)));
+        LZDecompressVram(gBattleEnvironmentAnimTilemap_Cave, (void *)(BG_SCREEN_ADDR(20)));
     }
     else if (gBattleTypeFlags & BATTLE_TYPE_KYOGRE)
     {
         LZDecompressVram(gBattleEnvironmentAnimTiles_Underwater, (void *)(BG_CHAR_ADDR(1)));
-        LZDecompressVram(gBattleEnvironmentAnimTilemap_Underwater, (void *)(BG_SCREEN_ADDR(28)));
+        LZDecompressVram(gBattleEnvironmentAnimTilemap_Underwater, (void *)(BG_SCREEN_ADDR(20)));
     }
     else if (gBattleTypeFlags & BATTLE_TYPE_RAYQUAZA)
     {
         LZDecompressVram(gBattleEnvironmentAnimTiles_Rayquaza, (void *)(BG_CHAR_ADDR(1)));
-        LZDecompressVram(gBattleEnvironmentAnimTilemap_Rayquaza, (void *)(BG_SCREEN_ADDR(28)));
+        LZDecompressVram(gBattleEnvironmentAnimTilemap_Rayquaza, (void *)(BG_SCREEN_ADDR(20)));
     }
     else
     {
@@ -1232,13 +1231,13 @@ void DrawBattleEntryBackground(void)
             if (trainerClass == TRAINER_CLASS_LEADER)
             {
                 LZDecompressVram(gBattleEnvironmentAnimTiles_Building, (void *)(BG_CHAR_ADDR(1)));
-                LZDecompressVram(gBattleEnvironmentAnimTilemap_Building, (void *)(BG_SCREEN_ADDR(28)));
+                LZDecompressVram(gBattleEnvironmentAnimTilemap_Building, (void *)(BG_SCREEN_ADDR(20)));
                 return;
             }
             else if (trainerClass == TRAINER_CLASS_CHAMPION)
             {
                 LZDecompressVram(gBattleEnvironmentAnimTiles_Building, (void *)(BG_CHAR_ADDR(1)));
-                LZDecompressVram(gBattleEnvironmentAnimTilemap_Building, (void *)(BG_SCREEN_ADDR(28)));
+                LZDecompressVram(gBattleEnvironmentAnimTilemap_Building, (void *)(BG_SCREEN_ADDR(20)));
                 return;
             }
         }
@@ -1248,18 +1247,18 @@ void DrawBattleEntryBackground(void)
             if (gBattleTypeFlags & BATTLE_TYPE_YGO)
             {
                 LZDecompressVram(gDuelBGTiles, (void *)(BG_CHAR_ADDR(2)));
-                LZDecompressVram(gDuelBGTilemap, (void *)(BG_SCREEN_ADDR(26)));
+                LZDecompressVram(gDuelBGTilemap, (void *)(BG_SCREEN_ADDR(31)));
             }
             else
             {
                 LZDecompressVram(sBattleEnvironmentTable[gBattleEnvironment].entryTileset, (void *)(BG_CHAR_ADDR(1)));
-                LZDecompressVram(sBattleEnvironmentTable[gBattleEnvironment].entryTilemap, (void *)(BG_SCREEN_ADDR(28)));
+                LZDecompressVram(sBattleEnvironmentTable[gBattleEnvironment].entryTilemap, (void *)(BG_SCREEN_ADDR(20)));
             }
         }
         else
         {
             LZDecompressVram(gBattleEnvironmentAnimTiles_Building, (void *)(BG_CHAR_ADDR(1)));
-            LZDecompressVram(gBattleEnvironmentAnimTilemap_Building, (void *)(BG_SCREEN_ADDR(28)));
+            LZDecompressVram(gBattleEnvironmentAnimTilemap_Building, (void *)(BG_SCREEN_ADDR(20)));
         }
     }
 }
@@ -1345,14 +1344,14 @@ bool8 LoadChosenBattleElement(u8 caseId)
     case 4:
         if (gBattleTypeFlags & (BATTLE_TYPE_FRONTIER | BATTLE_TYPE_LINK | BATTLE_TYPE_RECORDED_LINK | BATTLE_TYPE_EREADER_TRAINER))
         {
-            LZDecompressVram(gBattleEnvironmentTilemap_Building, (void *)(BG_SCREEN_ADDR(26)));
+            LZDecompressVram(gBattleEnvironmentTilemap_Building, (void *)(BG_SCREEN_ADDR(31)));
         }
         else if (gBattleTypeFlags & BATTLE_TYPE_KYOGRE_GROUDON)
         {
             if (gGameVersion == VERSION_RUBY)
-                LZDecompressVram(gBattleEnvironmentTilemap_Cave, (void *)(BG_SCREEN_ADDR(26)));
+                LZDecompressVram(gBattleEnvironmentTilemap_Cave, (void *)(BG_SCREEN_ADDR(31)));
             else
-                LZDecompressVram(gBattleEnvironmentTilemap_Water, (void *)(BG_SCREEN_ADDR(26)));
+                LZDecompressVram(gBattleEnvironmentTilemap_Water, (void *)(BG_SCREEN_ADDR(31)));
         }
         else
         {
@@ -1361,12 +1360,12 @@ bool8 LoadChosenBattleElement(u8 caseId)
                 u8 trainerClass = gTrainers[gTrainerBattleOpponent_A].trainerClass;
                 if (trainerClass == TRAINER_CLASS_LEADER)
                 {
-                    LZDecompressVram(gBattleEnvironmentTilemap_Building, (void *)(BG_SCREEN_ADDR(26)));
+                    LZDecompressVram(gBattleEnvironmentTilemap_Building, (void *)(BG_SCREEN_ADDR(31)));
                     break;
                 }
                 else if (trainerClass == TRAINER_CLASS_CHAMPION)
                 {
-                    LZDecompressVram(gBattleEnvironmentTilemap_Stadium, (void *)(BG_SCREEN_ADDR(26)));
+                    LZDecompressVram(gBattleEnvironmentTilemap_Stadium, (void *)(BG_SCREEN_ADDR(31)));
                     break;
                 }
             }
@@ -1376,33 +1375,33 @@ bool8 LoadChosenBattleElement(u8 caseId)
             default:
             case MAP_BATTLE_SCENE_NORMAL:
                 if (gBattleTypeFlags & BATTLE_TYPE_YGO)
-                    LZDecompressVram(gDuelBGTiles, (void *)(BG_SCREEN_ADDR(26)));
+                    LZDecompressVram(gDuelBGTiles, (void *)(BG_SCREEN_ADDR(31)));
                 else
-                    LZDecompressVram(sBattleEnvironmentTable[gBattleEnvironment].tilemap, (void *)(BG_SCREEN_ADDR(26)));
+                    LZDecompressVram(sBattleEnvironmentTable[gBattleEnvironment].tilemap, (void *)(BG_SCREEN_ADDR(31)));
                 break;
             case MAP_BATTLE_SCENE_GYM:
-                LZDecompressVram(gBattleEnvironmentTilemap_Building, (void *)(BG_SCREEN_ADDR(26)));
+                LZDecompressVram(gBattleEnvironmentTilemap_Building, (void *)(BG_SCREEN_ADDR(31)));
                 break;
             case MAP_BATTLE_SCENE_MAGMA:
-                LZDecompressVram(gBattleEnvironmentTilemap_Stadium, (void *)(BG_SCREEN_ADDR(26)));
+                LZDecompressVram(gBattleEnvironmentTilemap_Stadium, (void *)(BG_SCREEN_ADDR(31)));
                 break;
             case MAP_BATTLE_SCENE_AQUA:
-                LZDecompressVram(gBattleEnvironmentTilemap_Stadium, (void *)(BG_SCREEN_ADDR(26)));
+                LZDecompressVram(gBattleEnvironmentTilemap_Stadium, (void *)(BG_SCREEN_ADDR(31)));
                 break;
             case MAP_BATTLE_SCENE_SIDNEY:
-                LZDecompressVram(gBattleEnvironmentTilemap_Stadium, (void *)(BG_SCREEN_ADDR(26)));
+                LZDecompressVram(gBattleEnvironmentTilemap_Stadium, (void *)(BG_SCREEN_ADDR(31)));
                 break;
             case MAP_BATTLE_SCENE_PHOEBE:
-                LZDecompressVram(gBattleEnvironmentTilemap_Stadium, (void *)(BG_SCREEN_ADDR(26)));
+                LZDecompressVram(gBattleEnvironmentTilemap_Stadium, (void *)(BG_SCREEN_ADDR(31)));
                 break;
             case MAP_BATTLE_SCENE_GLACIA:
-                LZDecompressVram(gBattleEnvironmentTilemap_Stadium, (void *)(BG_SCREEN_ADDR(26)));
+                LZDecompressVram(gBattleEnvironmentTilemap_Stadium, (void *)(BG_SCREEN_ADDR(31)));
                 break;
             case MAP_BATTLE_SCENE_DRAKE:
-                LZDecompressVram(gBattleEnvironmentTilemap_Stadium, (void *)(BG_SCREEN_ADDR(26)));
+                LZDecompressVram(gBattleEnvironmentTilemap_Stadium, (void *)(BG_SCREEN_ADDR(31)));
                 break;
             case MAP_BATTLE_SCENE_FRONTIER:
-                LZDecompressVram(gBattleEnvironmentTilemap_Building, (void *)(BG_SCREEN_ADDR(26)));
+                LZDecompressVram(gBattleEnvironmentTilemap_Building, (void *)(BG_SCREEN_ADDR(31)));
                 break;
             }
         }

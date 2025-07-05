@@ -3810,17 +3810,17 @@ bool8 BattleMenu_LoadGraphics(void)
     {
     case 0:
         ResetTempTileDataBuffers();
-        SetGpuReg(REG_OFFSET_BG0CNT, BGCNT_PRIORITY(2) | BGCNT_CHARBASE(2) | BGCNT_SCREENBASE(20) | BGCNT_16COLOR | BGCNT_TXT256x256);
-        // SetGpuReg(REG_OFFSET_BG2CNT, BGCNT_PRIORITY(1) | BGCNT_CHARBASE(3) | BGCNT_SCREENBASE(29) | BGCNT_256COLOR | BGCNT_TXT256x256);
-        LZ77UnCompVram(sBackgroundTiles, (void *)(BG_CHAR_ADDR(2)));
-        LZ77UnCompVram(sBackgroundTilemap, (void *)BG_SCREEN_ADDR(20));
-        // if (cardType == TYPE_NORMAL_MONSTER)
-        // {
-        //     LZ77UnCompVram(sNormalMonsterTiles, (void *)BG_SCREEN_ADDR(3));
-        //     LZ77UnCompVram(sNormalMonsterTilemap, (void *)BG_SCREEN_ADDR(29));
-        // }
+        SetGpuReg(REG_OFFSET_BG0CNT, BGCNT_PRIORITY(1) | BGCNT_CHARBASE(0) | BGCNT_SCREENBASE(27) | BGCNT_16COLOR | BGCNT_TXT256x256);
+        SetGpuReg(REG_OFFSET_BG2CNT, BGCNT_PRIORITY(0) | BGCNT_CHARBASE(3) | BGCNT_SCREENBASE(24) | BGCNT_256COLOR | BGCNT_TXT256x256);
+        LZ77UnCompVram(sBackgroundTiles, (void *)(BG_CHAR_ADDR(0)));
+        LZ77UnCompVram(sBackgroundTilemap, (void *)BG_SCREEN_ADDR(27));
+        if (cardType == TYPE_NORMAL_MONSTER)
+        {
+            LZ77UnCompVram(sNormalMonsterTiles, (void *)BG_CHAR_ADDR(3));
+            LZ77UnCompVram(sNormalMonsterTilemap, (void *)BG_SCREEN_ADDR(24));
+        }
         if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER || cardType == TYPE_SPIRIT_MONSTER || cardType == TYPE_UNION_EFFECT_MONSTER || cardType == TYPE_TOON_MONSTER)
-            DecompressAndCopyTileDataToVram(1, sEffectMonsterTiles, 0, 0, 0);
+            DecompressAndCopyTileDataToVram(2, sEffectMonsterTiles, 0, 0, 0);
         else if (cardType == TYPE_SPELL_CARD)
             DecompressAndCopyTileDataToVram(1, sSpellCardTiles, 0, 0, 0);
         else if (cardType == TYPE_TRAP_CARD)
@@ -3836,10 +3836,8 @@ bool8 BattleMenu_LoadGraphics(void)
     case 1:
         if (FreeTempTileDataBuffersIfPossible() != TRUE)
         {
-            if (cardType == TYPE_NORMAL_MONSTER)
-                LZDecompressWram(sNormalMonsterTilemap, sTilemapBuffers[0]);
-            else if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER || cardType == TYPE_SPIRIT_MONSTER || cardType == TYPE_UNION_EFFECT_MONSTER || cardType == TYPE_TOON_MONSTER)
-                LZDecompressWram(sEffectMonsterTilemap, sTilemapBuffers[0]);
+            if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER || cardType == TYPE_SPIRIT_MONSTER || cardType == TYPE_UNION_EFFECT_MONSTER || cardType == TYPE_TOON_MONSTER)
+                LZDecompressWram(sEffectMonsterTilemap, (void *)BG_SCREEN_ADDR(28));
             else if (cardType == TYPE_SPELL_CARD)
                 LZDecompressWram(sSpellCardTilemap, sTilemapBuffers[0]);
             else if (cardType == TYPE_TRAP_CARD)
