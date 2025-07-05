@@ -3576,7 +3576,7 @@ static const struct WindowTemplate sYGOWindowTemplates[] =
         .tilemapTop = 11,    // position from top (per 8 pixels)
         .width = 5,        // width (per 8 pixels)
         .height = 5,        // height (per 8 pixels)
-        .paletteNum = 4,   // palette index to use for text
+        .paletteNum = 5,   // palette index to use for text
         .baseBlock = 1,     // tile start in VRAM
     },
     [WINDOW_TEXT_2] = 
@@ -3586,7 +3586,7 @@ static const struct WindowTemplate sYGOWindowTemplates[] =
         .tilemapTop = 18,    // position from top (per 8 pixels)
         .width = 30,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
-        .paletteNum = 4,   // palette index to use for text
+        .paletteNum = 5,   // palette index to use for text
         .baseBlock = 26,     // tile start in VRAM
     },
     [WINDOW_TEXT_3] = 
@@ -3596,7 +3596,7 @@ static const struct WindowTemplate sYGOWindowTemplates[] =
         .tilemapTop = 3,    // position from top (per 8 pixels)
         .width = 2,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
-        .paletteNum = 4,   // palette index to use for text
+        .paletteNum = 5,   // palette index to use for text
         .baseBlock = 86,     // tile start in VRAM
     },
     [WINDOW_TYPE_ATTRIBUTE] = 
@@ -3616,7 +3616,7 @@ static const struct WindowTemplate sYGOWindowTemplates[] =
         .tilemapTop = 9,    // position from top (per 8 pixels)
         .width = 2,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
-        .paletteNum = 3,   // palette index to use for text
+        .paletteNum = 5,   // palette index to use for text
         .baseBlock = 94,     // tile start in VRAM
     },
     [WINDOW_STAR] = 
@@ -3626,7 +3626,7 @@ static const struct WindowTemplate sYGOWindowTemplates[] =
         .tilemapTop = 4,    // position from top (per 8 pixels)
         .width = 1,        // width (per 8 pixels)
         .height = 1,        // height (per 8 pixels)
-        .paletteNum = 4,   // palette index to use for text
+        .paletteNum = 5,   // palette index to use for text
         .baseBlock = 98,     // tile start in VRAM
     },
     [WINDOW_HAND] = 
@@ -3656,7 +3656,7 @@ static const struct WindowTemplate sYGOWindowTemplates[] =
         .tilemapTop = 0,    // position from top (per 8 pixels)
         .width = 5,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
-        .paletteNum = 4,   // palette index to use for text
+        .paletteNum = 5,   // palette index to use for text
         .baseBlock = 276,     // tile start in VRAM
     },
     [WINDOW_ENEMY_LP] = 
@@ -3666,7 +3666,7 @@ static const struct WindowTemplate sYGOWindowTemplates[] =
         .tilemapTop = 16,    // position from top (per 8 pixels)
         .width = 5,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
-        .paletteNum = 4,   // palette index to use for text
+        .paletteNum = 5,   // palette index to use for text
         .baseBlock = 286,     // tile start in VRAM
     },
     [WINDOW_CONTEXT] = 
@@ -3676,7 +3676,7 @@ static const struct WindowTemplate sYGOWindowTemplates[] =
         .tilemapTop = 9,    // position from top (per 8 pixels)
         .width = 22,        // width (per 8 pixels)
         .height = 6,        // height (per 8 pixels)
-        .paletteNum = 4,   // palette index to use for text
+        .paletteNum = 5,   // palette index to use for text
         .baseBlock = 296,     // tile start in VRAM
     },
 };
@@ -3690,7 +3690,7 @@ static const struct WindowTemplate sYGOWindowTemplatesDesc[] =
         .tilemapTop = 2,    // position from top (per 8 pixels)
         .width = 16,        // width (per 8 pixels)
         .height = 16,        // height (per 8 pixels)
-        .paletteNum = 4,   // palette index to use for text
+        .paletteNum = 5,   // palette index to use for text
         .baseBlock = 428,     // tile start in VRAM
     },
     [WINDOW_2] = 
@@ -3720,7 +3720,7 @@ static const struct WindowTemplate sYGOWindowTemplatesDesc[] =
         .tilemapTop = 18,    // position from top (per 8 pixels)
         .width = 32,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
-        .paletteNum = 15,   // palette index to use for text
+        .paletteNum = 5,   // palette index to use for text
         .baseBlock = 712,     // tile start in VRAM
     },
     [WINDOW_5] = 
@@ -3730,7 +3730,7 @@ static const struct WindowTemplate sYGOWindowTemplatesDesc[] =
         .tilemapTop = 15,    // position from top (per 8 pixels)
         .width = 5,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
-        .paletteNum = 15,   // palette index to use for text
+        .paletteNum = 5,   // palette index to use for text
         .baseBlock = 776,     // tile start in VRAM
     },
     [WINDOW_6] = 
@@ -3740,7 +3740,7 @@ static const struct WindowTemplate sYGOWindowTemplatesDesc[] =
         .tilemapTop = 15,    // position from top (per 8 pixels)
         .width = 4,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
-        .paletteNum = 15,   // palette index to use for text
+        .paletteNum = 5,   // palette index to use for text
         .baseBlock = 786,     // tile start in VRAM
     },
     [WINDOW_7] = 
@@ -3750,7 +3750,7 @@ static const struct WindowTemplate sYGOWindowTemplatesDesc[] =
         .tilemapTop = 0,    // position from top (per 8 pixels)
         .width = 10,        // width (per 8 pixels)
         .height = 3,        // height (per 8 pixels)
-        .paletteNum = 15,   // palette index to use for text
+        .paletteNum = 5,   // palette index to use for text
         .baseBlock = 794,     // tile start in VRAM
     },
 };
@@ -3789,57 +3789,6 @@ static const u8 sText_CardView[] = _("Card view");
 static const u8 sText_Summon[] = _("Summon");
 static const u8 sText_Set[] = _("Set");
 
-const struct BgTemplate gBattleBgTemplates_[] =
-{
-    {
-        .bg = 0,    // this bg loads the UI tilemap
-        .charBaseIndex = 3,
-        .mapBaseIndex = 29,
-        .paletteMode = 1,
-        .priority = 1
-    },
-    {
-        .bg = 1,    // windows, etc
-        .charBaseIndex = 0,
-        .mapBaseIndex = 31,
-        .priority = 0
-    }, 
-    {
-        .bg = 2,    // this bg loads the UI tilemap
-        .charBaseIndex = 2,
-        .mapBaseIndex = 20,
-        .priority = 2
-    }
-};
-
-bool8 BattleMenu_InitBgs(void)
-{
-    ResetAllBgsCoordinates();
-    sTilemapBuffers[0] = AllocZeroed(BG_SCREEN_SIZE);
-    if (sTilemapBuffers[0] == NULL)
-        return FALSE;
-    sTilemapBuffers[1] = AllocZeroed(BG_SCREEN_SIZE);
-    if (sTilemapBuffers[1] == NULL)
-        return FALSE;
-    
-    ResetBgsAndClearDma3BusyFlags(0);
-    InitBgsFromTemplates(0, gBattleBgTemplates_, NELEMS(gBattleBgTemplates_));
-    SetBgTilemapBuffer(1, sTilemapBuffers[0]);
-    SetBgTilemapBuffer(2, sTilemapBuffers[1]);
-    ScheduleBgCopyTilemapToVram(1);
-    ScheduleBgCopyTilemapToVram(2);
-    
-    SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_OBJ_1D_MAP | DISPCNT_OBJ_ON);
-    SetGpuReg(REG_OFFSET_BLDCNT, 0);
-    SetGpuReg(REG_OFFSET_BG1CNT, BGCNT_256COLOR);
-    ShowBg(0);
-    ShowBg(1);
-    ShowBg(2);
-    return TRUE;
-}
-
-
-
 enum
 {
     STATE_TURN_START_RECORD,
@@ -3857,15 +3806,20 @@ bool8 BattleMenu_LoadGraphics(void)
 {
     u16 card = CardIdMapping[gSpecialVar_ItemId];
     u8 cardType = gCardInfo[card].type;
-	DebugPrintf("sMenuDataPtr->gfxLoadState=%d", sMenuDataPtr->gfxLoadState);
     switch (sMenuDataPtr->gfxLoadState)
     {
-    case 2:
+    case 0:
         ResetTempTileDataBuffers();
-        DecompressAndCopyTileDataToVram(2, sBackgroundTiles, 0, 0, 0);
-        if (cardType == TYPE_NORMAL_MONSTER)
-            DecompressAndCopyTileDataToVram(1, sNormalMonsterTiles, 0, 0, 0);
-        else if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER || cardType == TYPE_SPIRIT_MONSTER || cardType == TYPE_UNION_EFFECT_MONSTER || cardType == TYPE_TOON_MONSTER)
+        SetGpuReg(REG_OFFSET_BG0CNT, BGCNT_PRIORITY(2) | BGCNT_CHARBASE(2) | BGCNT_SCREENBASE(20) | BGCNT_16COLOR | BGCNT_TXT256x256);
+        // SetGpuReg(REG_OFFSET_BG2CNT, BGCNT_PRIORITY(1) | BGCNT_CHARBASE(3) | BGCNT_SCREENBASE(29) | BGCNT_256COLOR | BGCNT_TXT256x256);
+        LZ77UnCompVram(sBackgroundTiles, (void *)(BG_CHAR_ADDR(2)));
+        LZ77UnCompVram(sBackgroundTilemap, (void *)BG_SCREEN_ADDR(20));
+        // if (cardType == TYPE_NORMAL_MONSTER)
+        // {
+        //     LZ77UnCompVram(sNormalMonsterTiles, (void *)BG_SCREEN_ADDR(3));
+        //     LZ77UnCompVram(sNormalMonsterTilemap, (void *)BG_SCREEN_ADDR(29));
+        // }
+        if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER || cardType == TYPE_SPIRIT_MONSTER || cardType == TYPE_UNION_EFFECT_MONSTER || cardType == TYPE_TOON_MONSTER)
             DecompressAndCopyTileDataToVram(1, sEffectMonsterTiles, 0, 0, 0);
         else if (cardType == TYPE_SPELL_CARD)
             DecompressAndCopyTileDataToVram(1, sSpellCardTiles, 0, 0, 0);
@@ -3879,10 +3833,9 @@ bool8 BattleMenu_LoadGraphics(void)
             DecompressAndCopyTileDataToVram(1, sNormalMonsterTiles, 0, 0, 0);
         sMenuDataPtr->gfxLoadState++;
         break;
-    case 3:
+    case 1:
         if (FreeTempTileDataBuffersIfPossible() != TRUE)
         {
-            LZDecompressWram(sBackgroundTilemap, sTilemapBuffers[1]);
             if (cardType == TYPE_NORMAL_MONSTER)
                 LZDecompressWram(sNormalMonsterTilemap, sTilemapBuffers[0]);
             else if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER || cardType == TYPE_SPIRIT_MONSTER || cardType == TYPE_UNION_EFFECT_MONSTER || cardType == TYPE_TOON_MONSTER)
@@ -3900,12 +3853,11 @@ bool8 BattleMenu_LoadGraphics(void)
             sMenuDataPtr->gfxLoadState++;
         }
         break;
-    case 4:
-        LoadPalette(sBackgroundPalette, 48, 32);
+    case 2:
         sMenuDataPtr->gfxLoadState++;
         break;
     default:
-        sMenuDataPtr->gfxLoadState = 2;
+        sMenuDataPtr->gfxLoadState = 0;
         return TRUE;
     }
     return FALSE;
@@ -3950,10 +3902,9 @@ void Task_MenuMainBattle(void)
         sScrollDown = 0;
         startIdx = GetLineStartIndex(cardDescription, sScrollDown);
         DrawScrolledText(WINDOW_DESC, cardDescription, startIdx, NUM_VISIBLE_LINES);
-        BattleMenu_InitBgs();
         sMenuDataPtr = AllocZeroed(sizeof(struct MenuResources));
         sMenuDataPtr->gfxLoadState = 0;
-        while (Menu_LoadGraphics() == FALSE)
+        while (BattleMenu_LoadGraphics() == FALSE)
             ;
         PrintSmallNarrowTextCentered(WINDOW_4, 94, COLORID_NORMAL, cardName);
         AddTextPrinterParameterized4(WINDOW_7, FONT_SMALL_NARROWER, 6, 6, 0, 0, sMenuWindowFontColors[FONT_WHITE], 0xFF, cardNameShort);
@@ -4072,6 +4023,7 @@ void Task_HandleYGOTurn(void)
     {
         playerLP = 8000;
         enemyLP = 8000;
+        LoadPalette(sBackgroundPalette, 48, 32);
     }
 
     FillWindowPixelBuffer(WINDOW_TEXT, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
@@ -4109,12 +4061,12 @@ void Task_HandleYGOTurn(void)
         else
         {
             BlitBitmapToWindow(WINDOW_RACE, sCardRaceIcons[race], 0, 0, 16, 16);
-            LoadPalette(sCardRaceIconPals[race], BG_PLTT_ID(3), 32);
+            LoadPalette(sCardRaceIconPals[race], BG_PLTT_ID(4), 32);
             BlitBitmapToWindow(WINDOW_TYPE_ATTRIBUTE, sCardAttributeIcons[attribute], 0, 0, 16, 16);
             LoadPalette(sCardAttributeIconPals[attribute], BG_PLTT_ID(2), 32);
         }
         BlitBitmapToWindow(WINDOW_STAR, gStarIcon, 0, 0, 8, 8);
-        LoadPalette(gStarIconPal, BG_PLTT_ID(4), 32);
+        LoadPalette(gStarIconPal, BG_PLTT_ID(5), 32);
         if (!sDidInitialDraw && gSprites[0].x == 76)
         {
             FillWindowPixelBuffer(WINDOW_HAND, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
@@ -4177,12 +4129,12 @@ void Task_HandleYGOTurn(void)
         else
         {
             BlitBitmapToWindow(WINDOW_RACE, sCardRaceIcons[raceEnemy], 0, 0, 16, 16);
-            LoadPalette(sCardRaceIconPals[raceEnemy], BG_PLTT_ID(3), 32);
+            LoadPalette(sCardRaceIconPals[raceEnemy], BG_PLTT_ID(4), 32);
             BlitBitmapToWindow(WINDOW_TYPE_ATTRIBUTE, sCardAttributeIcons[attributeEnemy], 0, 0, 16, 16);
             LoadPalette(sCardAttributeIconPals[attributeEnemy], BG_PLTT_ID(2), 32);
         }
         BlitBitmapToWindow(WINDOW_STAR, gStarIcon, 0, 0, 8, 8);
-        LoadPalette(gStarIconPal, BG_PLTT_ID(4), 32);
+        LoadPalette(gStarIconPal, BG_PLTT_ID(5), 32);
         if (!sDidInitialDraw)
         {
             FillWindowPixelBuffer(WINDOW_ENEMY_HAND, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
@@ -4347,7 +4299,6 @@ void Task_HandleYGOTurn(void)
         FillWindowPixelBuffer(WINDOW_CONTEXT, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
         sDidInitialDraw = FALSE;
     }
-    // LoadPalette(sBackgroundPalette, 16, 16);
     PutWindowTilemap(WINDOW_TEXT);
     PutWindowTilemap(WINDOW_TEXT_2);
     PutWindowTilemap(WINDOW_TEXT_3);

@@ -113,7 +113,7 @@ static const struct BgTemplate sMenuBgTemplates[] =
         .charBaseIndex = 0,
         .mapBaseIndex = 31,
         .priority = 0
-    }, 
+    },
     {
         .bg = 1,    // this bg loads the UI tilemap
         .charBaseIndex = 3,
@@ -138,7 +138,7 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
         .tilemapTop = 2,    // position from top (per 8 pixels)
         .width = 16,        // width (per 8 pixels)
         .height = 16,        // height (per 8 pixels)
-        .paletteNum = 15,   // palette index to use for text
+        .paletteNum = 9,   // palette index to use for text
         .baseBlock = 1,     // tile start in VRAM
     },
     [WINDOW_2] = 
@@ -168,7 +168,7 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
         .tilemapTop = 18,    // position from top (per 8 pixels)
         .width = 32,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
-        .paletteNum = 15,   // palette index to use for text
+        .paletteNum = 9,   // palette index to use for text
         .baseBlock = 0x11D,     // tile start in VRAM
     },
     [WINDOW_5] = 
@@ -178,7 +178,7 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
         .tilemapTop = 15,    // position from top (per 8 pixels)
         .width = 5,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
-        .paletteNum = 15,   // palette index to use for text
+        .paletteNum = 9,   // palette index to use for text
         .baseBlock = 0x15D,     // tile start in VRAM
     },
     [WINDOW_6] = 
@@ -188,7 +188,7 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
         .tilemapTop = 15,    // position from top (per 8 pixels)
         .width = 4,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
-        .paletteNum = 15,   // palette index to use for text
+        .paletteNum = 9,   // palette index to use for text
         .baseBlock = 0x167,     // tile start in VRAM
     },
     [WINDOW_7] = 
@@ -198,7 +198,7 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
         .tilemapTop = 0,    // position from top (per 8 pixels)
         .width = 10,        // width (per 8 pixels)
         .height = 3,        // height (per 8 pixels)
-        .paletteNum = 15,   // palette index to use for text
+        .paletteNum = 9,   // palette index to use for text
         .baseBlock = 0x16F,     // tile start in VRAM
     },
     DUMMY_WIN_TEMPLATE,
@@ -3882,6 +3882,7 @@ bool8 Menu_DoGfxSetup(void)
         gSprites[spriteId].callback = SpriteCallbackDummy;
 		LoadSpriteSheet(&sSpriteSheet_Icons[0]);
         LoadSpritePaletteInSlot(&sIcon_SpritePalettes[0], 4);
+		LoadPalette(gStarIconPal, BG_PLTT_ID(9), 32);
         for (i = 0; i < level; i++)
         {
             if (level < 12)

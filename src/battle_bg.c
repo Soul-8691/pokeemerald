@@ -121,6 +121,45 @@ static const struct CompressedSpriteSheet sVsLettersSpriteSheet =
     gVsLettersGfx, 0x1000, TAG_VS_LETTERS
 };
 
+const struct BgTemplate gYGODuelBgTemplates[] =
+{
+    {
+        .bg = 0,
+        .charBaseIndex = 0,
+        .mapBaseIndex = 24,
+        .screenSize = 2,
+        .paletteMode = 0,
+        .priority = 0,
+        .baseTile = 0
+    },
+    {
+        .bg = 1,
+        .charBaseIndex = 1,
+        .mapBaseIndex = 28,
+        .screenSize = 2,
+        .paletteMode = 0,
+        .priority = 0,
+    },
+    {
+        .bg = 2,
+        .charBaseIndex = 1,
+        .mapBaseIndex = 30,
+        .screenSize = 1,
+        .paletteMode = 0,
+        .priority = 1,
+        .baseTile = 0
+    },
+    {
+        .bg = 3,
+        .charBaseIndex = 2,
+        .mapBaseIndex = 26,
+        .screenSize = 1,
+        .paletteMode = 0,
+        .priority = 3,
+        .baseTile = 0
+    },
+};
+
 const struct BgTemplate gBattleBgTemplates[] =
 {
     {
@@ -150,7 +189,7 @@ const struct BgTemplate gBattleBgTemplates[] =
         .priority = 1,
         .baseTile = 0
     },
-   {
+    {
         .bg = 3,
         .charBaseIndex = 2,
         .mapBaseIndex = 26,
@@ -714,7 +753,10 @@ static void UNUSED CB2_UnusedBattleInit(void)
 void BattleInitBgsAndWindows(void)
 {
     ResetBgsAndClearDma3BusyFlags(0);
-    InitBgsFromTemplates(0, gBattleBgTemplates, ARRAY_COUNT(gBattleBgTemplates));
+    if (gBattleTypeFlags & BATTLE_TYPE_YGO)
+        InitBgsFromTemplates(0, gYGODuelBgTemplates, ARRAY_COUNT(gYGODuelBgTemplates));
+    else
+        InitBgsFromTemplates(0, gBattleBgTemplates, ARRAY_COUNT(gBattleBgTemplates));
 
     if (gBattleTypeFlags & BATTLE_TYPE_ARENA)
     {
@@ -1205,8 +1247,8 @@ void DrawBattleEntryBackground(void)
         {
             if (gBattleTypeFlags & BATTLE_TYPE_YGO)
             {
-                LZDecompressVram(gDuelBGTiles, (void *)(BG_CHAR_ADDR(1)));
-                LZDecompressVram(gDuelBGTilemap, (void *)(BG_SCREEN_ADDR(28)));
+                LZDecompressVram(gDuelBGTiles, (void *)(BG_CHAR_ADDR(2)));
+                LZDecompressVram(gDuelBGTilemap, (void *)(BG_SCREEN_ADDR(26)));
             }
             else
             {
