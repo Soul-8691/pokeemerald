@@ -3936,9 +3936,6 @@ void Task_HandleYGOTurn(void)
     u8 x = 0;
     u8 y = 0;
     u8 spriteId;
-    struct SpriteSheet spriteSheet;
-    struct CompressedSpritePalette spritePalette;
-    struct SpriteTemplate *spriteTemplate;
 
     if (!sDidInitialDraw)
     {
@@ -3992,6 +3989,9 @@ void Task_HandleYGOTurn(void)
         {
             if (!sDidInitialDraw && gSprites[0].x == 76)
             {
+                struct SpriteSheet spriteSheet;
+                struct CompressedSpritePalette spritePalette;
+                struct SpriteTemplate *spriteTemplate;
                 FillWindowPixelBuffer(WINDOW_HAND, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
                 FillWindowPixelBuffer(WINDOW_ENEMY_HAND, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
                 FillWindowPixelRect(WINDOW_HAND, PIXEL_FILL(13), 4 + gSpecialVar_0x8004 * 24, 10, 16, 22);
@@ -4059,6 +4059,9 @@ void Task_HandleYGOTurn(void)
         LoadPalette(gStarIconPal, BG_PLTT_ID(5), 32);
         if (!sDidInitialDraw && !returningFromDesc)
         {
+            struct SpriteSheet spriteSheet;
+            struct CompressedSpritePalette spritePalette;
+            struct SpriteTemplate *spriteTemplate;
             FillWindowPixelBuffer(WINDOW_ENEMY_HAND, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
             FillWindowPixelBuffer(WINDOW_HAND, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
             FillWindowPixelRect(WINDOW_ENEMY_HAND, PIXEL_FILL(13), 28 + (gSpecialVar_0x8004 - 6) * 24, 0, 16, 22);
