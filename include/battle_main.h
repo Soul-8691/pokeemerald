@@ -4,6 +4,7 @@
 extern u32 battle;
 void CB2_InitYGODuelInternal(void);
 void Task_HandleYGOTurn(void);
+void Task_MenuMainBattle(void);
 
 struct TrainerMoney
 {

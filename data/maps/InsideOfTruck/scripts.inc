@@ -491,7 +491,7 @@ InsideOfTruck_EventScript_MovingBox::
 	end
 
 InsideOfTruck_EventScript_MovingBox2::
-	additem ITEM_CARD_MENU
+	additem ITEM_YGO_BATTLE
 	additem ITEM_PACK_LEGEND_OF_BLUE_EYES_WHITE_DRAGON, 10
 	additem ITEM_PACK_STARTER_DECK_YUGI, 10
 	additem ITEM_PACK_STARTER_DECK_KAIBA, 10

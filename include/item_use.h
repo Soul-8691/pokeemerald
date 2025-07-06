@@ -35,5 +35,6 @@ u8 CheckIfItemIsTMHMOrEvolutionStone(u16 itemId);
 void ItemUseOutOfBattle_Card(u8 taskId);
 void ItemUseOutOfBattle_Pack(u8 taskId);
 void Task_PullCards(u8 taskId);
+void Task_DoYGOBattle(u8 taskId);
 
 #endif // GUARD_ITEM_USE_H

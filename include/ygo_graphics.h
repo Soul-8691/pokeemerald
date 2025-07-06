@@ -5476,5 +5476,6 @@ extern const u16 gTrapIconPal[];
 extern const u16 gFusionMaterialIconPal[];
 extern const u8 gStarIcon[];
 extern const u16 gStarIconPal[];
+extern const u16 gDescBGPal[];
 
 #endif //GUARD_YGO_GRAPHICS_H

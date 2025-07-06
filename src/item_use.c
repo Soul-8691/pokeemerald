@@ -1,6 +1,7 @@
 #include "global.h"
 #include "item_use.h"
 #include "battle.h"
+#include "battle_setup.h"
 #include "battle_pyramid.h"
 #include "battle_pyramid_bag.h"
 #include "berry.h"
@@ -2586,6 +2587,13 @@ static u16 PullCardFromPack(u16 pack)
         }
     }
     return 0;
+}
+
+void Task_DoYGOBattle(u8 taskId)
+{
+    VarSet(VAR_YGO_BATTLE, 1);
+    BattleSetup_StartTrainerBattle();
+    DestroyTask(taskId);
 }
 
 void Task_PullCards(u8 taskId)

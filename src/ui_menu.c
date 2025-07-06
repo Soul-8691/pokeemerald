@@ -104,8 +104,6 @@ EWRAM_DATA u8 sScrollDown = 0;
 EWRAM_DATA bool8 sDidInitialDraw = FALSE;
 
 //==========STATIC=DEFINES==========//
-static bool8 Menu_DoGfxSetup(void);
-static bool8 Menu_LoadGraphics(void);
 
 //==========CONST=DATA==========//
 static const struct BgTemplate sMenuBgTemplates[] =
@@ -115,7 +113,7 @@ static const struct BgTemplate sMenuBgTemplates[] =
         .charBaseIndex = 0,
         .mapBaseIndex = 31,
         .priority = 0
-    }, 
+    },
     {
         .bg = 1,    // this bg loads the UI tilemap
         .charBaseIndex = 3,
@@ -140,7 +138,7 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
         .tilemapTop = 2,    // position from top (per 8 pixels)
         .width = 16,        // width (per 8 pixels)
         .height = 16,        // height (per 8 pixels)
-        .paletteNum = 15,   // palette index to use for text
+        .paletteNum = 10,   // palette index to use for text
         .baseBlock = 1,     // tile start in VRAM
     },
     [WINDOW_2] = 
@@ -170,7 +168,7 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
         .tilemapTop = 18,    // position from top (per 8 pixels)
         .width = 32,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
-        .paletteNum = 15,   // palette index to use for text
+        .paletteNum = 10,   // palette index to use for text
         .baseBlock = 0x11D,     // tile start in VRAM
     },
     [WINDOW_5] = 
@@ -180,7 +178,7 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
         .tilemapTop = 15,    // position from top (per 8 pixels)
         .width = 5,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
-        .paletteNum = 15,   // palette index to use for text
+        .paletteNum = 10,   // palette index to use for text
         .baseBlock = 0x15D,     // tile start in VRAM
     },
     [WINDOW_6] = 
@@ -190,7 +188,7 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
         .tilemapTop = 15,    // position from top (per 8 pixels)
         .width = 4,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
-        .paletteNum = 15,   // palette index to use for text
+        .paletteNum = 10,   // palette index to use for text
         .baseBlock = 0x167,     // tile start in VRAM
     },
     [WINDOW_7] = 
@@ -200,7 +198,7 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
         .tilemapTop = 0,    // position from top (per 8 pixels)
         .width = 10,        // width (per 8 pixels)
         .height = 3,        // height (per 8 pixels)
-        .paletteNum = 15,   // palette index to use for text
+        .paletteNum = 10,   // palette index to use for text
         .baseBlock = 0x16F,     // tile start in VRAM
     },
     DUMMY_WIN_TEMPLATE,
@@ -3855,7 +3853,7 @@ const struct SpritePalette sIcon_SpritePalettes[] =
     {gStarIconPal,     TAG_ICON},
 };
 
-static bool8 Menu_DoGfxSetup(void)
+bool8 Menu_DoGfxSetup(void)
 {
     u8 taskId;
     u8 spriteId;
@@ -3884,6 +3882,8 @@ static bool8 Menu_DoGfxSetup(void)
         gSprites[spriteId].callback = SpriteCallbackDummy;
 		LoadSpriteSheet(&sSpriteSheet_Icons[0]);
         LoadSpritePaletteInSlot(&sIcon_SpritePalettes[0], 4);
+		LoadPalette(gStarIconPal, BG_PLTT_ID(9), 32);
+		LoadPalette(gStandardMenuPalette, BG_PLTT_ID(10), 32);
         for (i = 0; i < level; i++)
         {
             if (level < 12)
@@ -3968,31 +3968,40 @@ void Menu_FadeAndBail(void)
 
 bool8 Menu_InitBgs(void)
 {
-    ResetAllBgsCoordinates();
+	if (!battle)
+	    ResetAllBgsCoordinates();
     sTilemapBuffers[0] = AllocZeroed(BG_SCREEN_SIZE);
-    if (sTilemapBuffers[0] == NULL)
+    if (sTilemapBuffers[0] == NULL && !battle)
         return FALSE;
     sTilemapBuffers[1] = AllocZeroed(BG_SCREEN_SIZE);
-    if (sTilemapBuffers[1] == NULL)
+    if (sTilemapBuffers[1] == NULL && !battle)
         return FALSE;
     
-    ResetBgsAndClearDma3BusyFlags(0);
-    InitBgsFromTemplates(0, sMenuBgTemplates, NELEMS(sMenuBgTemplates));
-    SetBgTilemapBuffer(1, sTilemapBuffers[0]);
-    SetBgTilemapBuffer(2, sTilemapBuffers[1]);
-    ScheduleBgCopyTilemapToVram(1);
-    ScheduleBgCopyTilemapToVram(2);
+	if (!battle)
+	{
+	    ResetBgsAndClearDma3BusyFlags(0);
+		InitBgsFromTemplates(0, sMenuBgTemplates, NELEMS(sMenuBgTemplates));
+		SetBgTilemapBuffer(1, sTilemapBuffers[0]);
+		SetBgTilemapBuffer(2, sTilemapBuffers[1]);
+		ScheduleBgCopyTilemapToVram(1);
+		ScheduleBgCopyTilemapToVram(2);
+		SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_OBJ_1D_MAP | DISPCNT_OBJ_ON);
+		SetGpuReg(REG_OFFSET_BLDCNT, 0);
+		SetGpuReg(REG_OFFSET_BG1CNT, BGCNT_256COLOR);
+		ShowBg(0);
+		ShowBg(1);
+		ShowBg(2);
+	}
+	else
+	{
+		SetBgTilemapBuffer(2, sTilemapBuffers[0]);
+		SetBgTilemapBuffer(0, sTilemapBuffers[1]);
+	}
     
-    SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_OBJ_1D_MAP | DISPCNT_OBJ_ON);
-    SetGpuReg(REG_OFFSET_BLDCNT, 0);
-    SetGpuReg(REG_OFFSET_BG1CNT, BGCNT_256COLOR);
-    ShowBg(0);
-    ShowBg(1);
-    ShowBg(2);
     return TRUE;
 }
 
-static bool8 Menu_LoadGraphics(void)
+bool8 Menu_LoadGraphics(void)
 {
     u16 card = CardIdMapping[gSpecialVar_ItemId];
     u8 cardType = gCardInfo[card].type;
@@ -4095,7 +4104,7 @@ enum {
 static const u8 sFontColorTableUI[][3] = {
                             // bgColor, textColor, shadowColor
     [COLORID_NORMAL]      = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_WHITE,      TEXT_COLOR_LIGHT_GRAY},
-    [COLORID_POCKET_NAME] = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_WHITE,      TEXT_COLOR_RED},
+    [COLORID_POCKET_NAME] = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_GREEN,      TEXT_COLOR_LIGHT_GRAY},
     [COLORID_GRAY_CURSOR] = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_LIGHT_GRAY, TEXT_COLOR_GREEN},
     [COLORID_UNUSED]      = {TEXT_COLOR_DARK_GRAY,   TEXT_COLOR_WHITE,      TEXT_COLOR_LIGHT_GRAY},
     [COLORID_TMHM_INFO]   = {TEXT_COLOR_TRANSPARENT, TEXT_DYNAMIC_COLOR_5,  TEXT_DYNAMIC_COLOR_1}
@@ -4127,10 +4136,10 @@ void PrintToWindow(u8 windowId, u8 colorIdx, u16 card)
     {
         ConvertIntToDecimalStringN(gStringVar1, cardAtk, STR_CONV_MODE_LEFT_ALIGN, 4);
         StringExpandPlaceholders(gStringVar4, gText_xAtk);
-        AddTextPrinterParameterized4(WINDOW_5, FONT_SMALL_NARROWER, 2, 5, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
+        AddTextPrinterParameterized4(WINDOW_5, FONT_SMALL_NARROWER, 2, 5, 0, 0, sMenuWindowFontColors[FONT_BLACK], 0xFF, gStringVar4);
         ConvertIntToDecimalStringN(gStringVar1, cardDef, STR_CONV_MODE_LEFT_ALIGN, 4);
         StringExpandPlaceholders(gStringVar4, gText_xDef);
-        AddTextPrinterParameterized4(WINDOW_6, FONT_SMALL_NARROWER, 0, 5, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
+        AddTextPrinterParameterized4(WINDOW_6, FONT_SMALL_NARROWER, 0, 5, 0, 0, sMenuWindowFontColors[FONT_BLACK], 0xFF, gStringVar4);
     }
     if (cardType == TYPE_NORMAL_MONSTER)
         LoadPalette(sNormalMonsterPalette, 0, 32*3);

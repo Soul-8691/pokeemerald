@@ -2108,7 +2108,7 @@ const u32 *const gItemIconTable[ITEMS_COUNT + 1][2] =
 	[ITEM_PACK_FIRE_WATER] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
 	[ITEM_PACK_HAT] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
 	[ITEM_PACK_VEGAS] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
-	[ITEM_CARD_MENU] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
+	[ITEM_YGO_BATTLE] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
     // Return to field arrow
     [ITEMS_COUNT] = {gItemIcon_ReturnToFieldArrow, gItemIconPalette_ReturnToFieldArrow},
 };

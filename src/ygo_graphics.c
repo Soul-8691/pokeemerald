@@ -5475,3 +5475,4 @@ const u16 gSpellIconPal[] = INCBIN_U16("graphics/cards/spell.gbapal");
 const u16 gFusionMaterialIconPal[] = INCBIN_U16("graphics/cards/fusion_material.gbapal");
 const u8 gStarIcon[] = INCBIN_U8("graphics/cards/star.4bpp");
 const u16 gStarIconPal[] = INCBIN_U16("graphics/cards/star.gbapal");
+const u16 gDescBGPal[] = INCBIN_U16("graphics/cards/bg.gbapal");

@@ -62,14 +62,24 @@ const struct SpriteTemplate gItemIconSpriteTemplate =
 // code
 bool8 AllocItemIconTemporaryBuffers(void)
 {
-    gItemIconDecompressionBuffer = Alloc(0x600); // 0x600
-    if (gItemIconDecompressionBuffer == NULL)
-        return FALSE;
+    if (VarGet(VAR_YGO_ICON) == 2)
+        gItemIconDecompressionBuffer = AllocZeroed(0x600);
+    else
+        gItemIconDecompressionBuffer = AllocZeroed(0x200);
 
-    gItemIcon4x4Buffer = AllocZeroed(0x800); // 0x800
-    if (gItemIcon4x4Buffer == NULL)
+    if (gItemIconDecompressionBuffer == NULL)
     {
         Free(gItemIconDecompressionBuffer);
+        return FALSE;
+    }
+
+    if (VarGet(VAR_YGO_ICON) == 2)
+        gItemIcon4x4Buffer = AllocZeroed(0x800);
+    else
+        gItemIcon4x4Buffer = AllocZeroed(0x200);
+    if (gItemIcon4x4Buffer == NULL)
+    {
+        Free(gItemIcon4x4Buffer);
         return FALSE;
     }
 
