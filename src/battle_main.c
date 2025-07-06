@@ -172,6 +172,7 @@ EWRAM_DATA u16 enemyDeck[60] = {0};
 EWRAM_DATA u16 playerLP = 0;
 EWRAM_DATA u16 enemyLP = 0;
 EWRAM_DATA u32 battle = 0;
+EWRAM_DATA u32 returningFromDesc = 0;
 EWRAM_DATA static struct MultiPartnerMenuPokemon *sMultiPartnerPartyBuffer = NULL;
 EWRAM_DATA u8 *gBattleAnimBgTileBuffer = NULL;
 EWRAM_DATA u8 *gBattleAnimBgTilemapBuffer = NULL;
@@ -1241,6 +1242,9 @@ static void CB2_HandleStartBattle(void)
         {
             gBattleCommunication[MULTIUSE_STATE] = 18;
         }
+        gPreBattleCallback1 = gMain.callback1;
+        gMain.callback1 = BattleMainCB1;
+        SetMainCallback2(BattleMainCB2);
         break;
     case 16:
         // Both players are using Emerald, send rng seed for recorded battle
@@ -3889,13 +3893,10 @@ void Task_MenuMainBattle(void)
 
     if (JOY_NEW(B_BUTTON))
     {
-        DmaClearLarge16(3, (void *)VRAM, VRAM_SIZE, 0x1000)
-        FreeAllSpritePalettes();
-        ResetSpriteData();
         sScrollDown = 0;
         sDidInitialDraw = FALSE;
-        PlaySE(SE_PC_OFF);
-        BeginNormalPaletteFade(0xFFFFFFFF, 0, 0, 16, RGB_BLACK);
+        returningFromDesc = TRUE;
+        battle = 2;
         gBattleMainFunc = CB2_InitBattle;
         return;
     }
@@ -3988,43 +3989,46 @@ void Task_HandleYGOTurn(void)
         }
         BlitBitmapToWindow(WINDOW_STAR, gStarIcon, 0, 0, 8, 8);
         LoadPalette(gStarIconPal, BG_PLTT_ID(5), 32);
-        if (!sDidInitialDraw && gSprites[0].x == 76)
+        if (!returningFromDesc)
         {
-            FillWindowPixelBuffer(WINDOW_HAND, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-            FillWindowPixelBuffer(WINDOW_ENEMY_HAND, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
-            FillWindowPixelRect(WINDOW_HAND, PIXEL_FILL(13), 4 + gSpecialVar_0x8004 * 24, 10, 16, 22);
-            FreeSpriteTilesByTag(TAG_CARD_ICON_LARGE);
-            FreeSpritePaletteByTag(TAG_CARD_ICON_LARGE_PAL);
-            DestroySprite(&gSprites[gSpecialVar_0x8005]);
-            VarSet(VAR_YGO_ICON, 2);
-            AllocItemIconTemporaryBuffers();
-
-            LZDecompressWram(GetItemIconPicOrPalette(playerDeck[gSpecialVar_0x8004], 0), gItemIconDecompressionBuffer);
-            CopyItemIconPicTo4x4Buffer(gItemIconDecompressionBuffer, gItemIcon4x4Buffer, playerDeck[gSpecialVar_0x8004]);
-            spriteSheet.data = gItemIcon4x4Buffer;
-            spriteSheet.size = 0x600;
-            spriteSheet.tag = TAG_CARD_ICON_LARGE;
-            LoadSpriteSheet(&spriteSheet);
-
-            spritePalette.data = GetItemIconPicOrPalette(playerDeck[gSpecialVar_0x8004], 1);
-            spritePalette.tag = TAG_CARD_ICON_LARGE_PAL;
-            LoadCompressedSpritePalette(&spritePalette);
-
-            spriteTemplate = Alloc(sizeof(*spriteTemplate));
-            CpuCopy16(&gItemIconSpriteTemplate, spriteTemplate, sizeof(*spriteTemplate));
-            spriteTemplate->tileTag = TAG_CARD_ICON_LARGE;
-            spriteTemplate->paletteTag = TAG_CARD_ICON_LARGE_PAL;
-            spriteId = CreateSprite(spriteTemplate, 0, 0, 0);
-            gSpecialVar_0x8005 = spriteId;
-            if (spriteId != MAX_SPRITES)
+            if (!sDidInitialDraw && gSprites[0].x == 76)
             {
-                gSprites[spriteId].x = 16;
-                gSprites[spriteId].y = 55;
-                FreeItemIconTemporaryBuffers();
-                Free(spriteTemplate);
+                FillWindowPixelBuffer(WINDOW_HAND, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+                FillWindowPixelBuffer(WINDOW_ENEMY_HAND, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
+                FillWindowPixelRect(WINDOW_HAND, PIXEL_FILL(13), 4 + gSpecialVar_0x8004 * 24, 10, 16, 22);
+                FreeSpriteTilesByTag(TAG_CARD_ICON_LARGE);
+                FreeSpritePaletteByTag(TAG_CARD_ICON_LARGE_PAL);
+                DestroySprite(&gSprites[gSpecialVar_0x8005]);
+                VarSet(VAR_YGO_ICON, 2);
+                AllocItemIconTemporaryBuffers();
+
+                LZDecompressWram(GetItemIconPicOrPalette(playerDeck[gSpecialVar_0x8004], 0), gItemIconDecompressionBuffer);
+                CopyItemIconPicTo4x4Buffer(gItemIconDecompressionBuffer, gItemIcon4x4Buffer, playerDeck[gSpecialVar_0x8004]);
+                spriteSheet.data = gItemIcon4x4Buffer;
+                spriteSheet.size = 0x600;
+                spriteSheet.tag = TAG_CARD_ICON_LARGE;
+                LoadSpriteSheet(&spriteSheet);
+
+                spritePalette.data = GetItemIconPicOrPalette(playerDeck[gSpecialVar_0x8004], 1);
+                spritePalette.tag = TAG_CARD_ICON_LARGE_PAL;
+                LoadCompressedSpritePalette(&spritePalette);
+
+                spriteTemplate = Alloc(sizeof(*spriteTemplate));
+                CpuCopy16(&gItemIconSpriteTemplate, spriteTemplate, sizeof(*spriteTemplate));
+                spriteTemplate->tileTag = TAG_CARD_ICON_LARGE;
+                spriteTemplate->paletteTag = TAG_CARD_ICON_LARGE_PAL;
+                spriteId = CreateSprite(spriteTemplate, 0, 0, 0);
+                gSpecialVar_0x8005 = spriteId;
+                if (spriteId != MAX_SPRITES)
+                {
+                    gSprites[spriteId].x = 16;
+                    gSprites[spriteId].y = 55;
+                    FreeItemIconTemporaryBuffers();
+                    Free(spriteTemplate);
+                }
+                VarSet(VAR_YGO_ICON, 0);
+                sDidInitialDraw = TRUE;
             }
-            VarSet(VAR_YGO_ICON, 0);
-            sDidInitialDraw = TRUE;
         }
     }
     else
@@ -4056,7 +4060,7 @@ void Task_HandleYGOTurn(void)
         }
         BlitBitmapToWindow(WINDOW_STAR, gStarIcon, 0, 0, 8, 8);
         LoadPalette(gStarIconPal, BG_PLTT_ID(5), 32);
-        if (!sDidInitialDraw)
+        if (!sDidInitialDraw && !returningFromDesc)
         {
             FillWindowPixelBuffer(WINDOW_ENEMY_HAND, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
             FillWindowPixelBuffer(WINDOW_HAND, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
@@ -4173,7 +4177,7 @@ void Task_HandleYGOTurn(void)
         }
         sDidInitialDraw = FALSE;
     }
-    else if (JOY_NEW(A_BUTTON))
+    if (JOY_NEW(A_BUTTON))
     {
         if (gSpecialVar_0x8008 == 1)
         {
@@ -4200,7 +4204,6 @@ void Task_HandleYGOTurn(void)
                 FillWindowPixelBuffer(WINDOW_7, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));
                 gBattleMainFunc = Task_MenuMainBattle;
             }
-            sDidInitialDraw = FALSE;
         }
         if (gSpecialVar_0x8008 == 0 && gSpecialVar_0x8004 < 6)
         {
@@ -4254,117 +4257,161 @@ static void BattleIntroPrepareBackgroundSlide(void)
         MarkBattlerForControllerExec(gActiveBattler);
         if (gBattleTypeFlags & BATTLE_TYPE_YGO)
         {
-            struct BagPocket *itemPocket;
-            u16 indexes[6] = {0};
-            u16 enemyIndexes[6] = {0};
-            u32 i, k;
-            u32 j = 0;
-            u32 x = 0;
-            u16 randomItem;
-
-            itemPocket = &gBagPockets[MAIN_DECK_POCKET];
-            for (i = 0; i < itemPocket->capacity; i++)
+            if (!returningFromDesc)
             {
-                u8 quantity = GetBagItemQuantity(&itemPocket->itemSlots[i].quantity);
-                if (quantity)
+                struct BagPocket *itemPocket;
+                u16 indexes[6] = {0};
+                u16 enemyIndexes[6] = {0};
+                u32 i, k;
+                u32 j = 0;
+                u32 x = 0;
+                u16 randomItem;
+
+                itemPocket = &gBagPockets[MAIN_DECK_POCKET];
+                for (i = 0; i < itemPocket->capacity; i++)
                 {
-                    for (k = 0; k < quantity; k++)
+                    u8 quantity = GetBagItemQuantity(&itemPocket->itemSlots[i].quantity);
+                    if (quantity)
                     {
-                        items[j] = itemPocket->itemSlots[i].itemId;
-                        j++;
+                        for (k = 0; k < quantity; k++)
+                        {
+                            items[j] = itemPocket->itemSlots[i].itemId;
+                            j++;
+                        }
                     }
                 }
-            }
-            VarSet(VAR_YGO_ICON, 1);
-            randomItem = Random() % j;
-            k = 0;
-            while (k < 6)
-            {
-                if (!containsElement(indexes, 6, randomItem + 1))
+                VarSet(VAR_YGO_ICON, 1);
+                randomItem = Random() % j;
+                k = 0;
+                while (k < 6)
                 {
-                    u8 spriteId;
-                    struct SpriteSheet spriteSheet;
-                    struct CompressedSpritePalette spritePalette;
-                    struct SpriteTemplate *spriteTemplate;
+                    if (!containsElement(indexes, 6, randomItem + 1))
+                    {
+                        u8 spriteId;
+                        struct SpriteSheet spriteSheet;
+                        struct CompressedSpritePalette spritePalette;
+                        struct SpriteTemplate *spriteTemplate;
 
-                    indexes[k] = randomItem + 1;
+                        indexes[k] = randomItem + 1;
+                        AllocItemIconTemporaryBuffers();
+
+                        LZDecompressWram(GetItemIconPicOrPalette(items[randomItem], 0), gItemIconDecompressionBuffer);
+                        CopyItemIconPicTo4x4Buffer(gItemIconDecompressionBuffer, gItemIcon4x4Buffer, items[randomItem]);
+                        spriteSheet.data = gItemIcon4x4Buffer;
+                        spriteSheet.size = 0x200;
+                        spriteSheet.tag = TAG_CARD_ICON_SMALL + 2 * k;
+                        LoadSpriteSheet(&spriteSheet);
+
+                        spritePalette.data = GetItemIconPicOrPalette(items[randomItem], 1);
+                        spritePalette.tag = TAG_CARD_ICON_SMALL_PAL + 2 * k;
+                        LoadCompressedSpritePalette(&spritePalette);
+
+                        spriteTemplate = Alloc(sizeof(*spriteTemplate));
+                        CpuCopy16(&gItemIconSpriteTemplate, spriteTemplate, sizeof(*spriteTemplate));
+                        spriteTemplate->tileTag = TAG_CARD_ICON_SMALL + 2 * k;
+                        spriteTemplate->paletteTag = TAG_CARD_ICON_SMALL_PAL + 2 * k;
+                        spriteId = CreateSprite(spriteTemplate, 0, 0, 0);
+                        playerDeck[k] = items[randomItem];
+                        if (spriteId != MAX_SPRITES)
+                        {
+                            gSprites[spriteId].x = 256;
+                            gSprites[spriteId].y = 136;
+                            gSprites[spriteId].x2 = k * 12;
+                            gSprites[spriteId].callback = SpriteCB_SlideLeft;
+                            gSprites[spriteId].oam.priority = 0;
+                            FreeItemIconTemporaryBuffers();
+                            Free(spriteTemplate);
+                        }
+                        k++;
+                    }
+                    randomItem = Random() % j;
+                }
+                randomItem = Random() % 9;
+                k = 0;
+                while (k < 6)
+                {
+                    if (!containsElement(enemyIndexes, 6, randomItem))
+                    {
+                        u8 spriteId;
+                        struct SpriteSheet spriteSheet;
+                        struct CompressedSpritePalette spritePalette;
+                        struct SpriteTemplate *spriteTemplate;
+
+                        enemyIndexes[k] = randomItem;
+                        AllocItemIconTemporaryBuffers();
+
+                        LZDecompressWram(GetItemIconPicOrPalette(enemyDeck1[randomItem], 0), gItemIconDecompressionBuffer);
+                        CopyItemIconPicTo4x4Buffer(gItemIconDecompressionBuffer, gItemIcon4x4Buffer, enemyDeck1[randomItem]);
+                        spriteSheet.data = gItemIcon4x4Buffer;
+                        spriteSheet.size = 0x200;
+                        spriteSheet.tag = TAG_CARD_ICON_SMALL_ENEMY + 2 * k;
+                        LoadSpriteSheet(&spriteSheet);
+
+                        spritePalette.data = GetItemIconPicOrPalette(enemyDeck1[randomItem], 1);
+                        spritePalette.tag = TAG_CARD_ICON_SMALL_ENEMY_PAL + 2 * k;
+                        LoadCompressedSpritePalette(&spritePalette);
+
+                        spriteTemplate = Alloc(sizeof(*spriteTemplate));
+                        CpuCopy16(&gItemIconSpriteTemplate, spriteTemplate, sizeof(*spriteTemplate));
+                        spriteTemplate->tileTag = TAG_CARD_ICON_SMALL_ENEMY + 2 * k;
+                        spriteTemplate->paletteTag = TAG_CARD_ICON_SMALL_ENEMY_PAL + 2 * k;
+                        spriteId = CreateSprite(spriteTemplate, 0, 0, 0);
+                        enemyDeck[k] = enemyDeck1[randomItem];
+                        if (spriteId != MAX_SPRITES)
+                        {
+                            gSprites[spriteId].x = -16;
+                            gSprites[spriteId].y = 14;
+                            gSprites[spriteId].x2 = k * 12;
+                            gSprites[spriteId].callback = SpriteCB_SlideRight;
+                            gSprites[spriteId].oam.priority = 0;
+                            FreeItemIconTemporaryBuffers();
+                            Free(spriteTemplate);
+                        }
+                        k++;
+                    }
+                    randomItem = Random() % 9;
+                }
+            }
+            else
+            {
+                u8 spriteId;
+                u32 i;
+                struct SpriteSheet spriteSheet;
+                struct CompressedSpritePalette spritePalette;
+                struct SpriteTemplate *spriteTemplate;
+
+                VarSet(VAR_YGO_ICON, 1);
+                for (i = 0; i < 6; i++)
+                {
                     AllocItemIconTemporaryBuffers();
 
-                    LZDecompressWram(GetItemIconPicOrPalette(items[randomItem], 0), gItemIconDecompressionBuffer);
-                    CopyItemIconPicTo4x4Buffer(gItemIconDecompressionBuffer, gItemIcon4x4Buffer, items[randomItem]);
+                    LZDecompressWram(GetItemIconPicOrPalette(playerDeck[i], 0), gItemIconDecompressionBuffer);
+                    CopyItemIconPicTo4x4Buffer(gItemIconDecompressionBuffer, gItemIcon4x4Buffer, playerDeck[i]);
                     spriteSheet.data = gItemIcon4x4Buffer;
                     spriteSheet.size = 0x200;
-                    spriteSheet.tag = TAG_CARD_ICON_SMALL + 2 * k;
+                    spriteSheet.tag = TAG_CARD_ICON_SMALL + 2 * i;
                     LoadSpriteSheet(&spriteSheet);
 
-                    spritePalette.data = GetItemIconPicOrPalette(items[randomItem], 1);
-                    spritePalette.tag = TAG_CARD_ICON_SMALL_PAL + 2 * k;
+                    spritePalette.data = GetItemIconPicOrPalette(playerDeck[i], 1);
+                    spritePalette.tag = TAG_CARD_ICON_SMALL_PAL + 2 * i;
                     LoadCompressedSpritePalette(&spritePalette);
 
                     spriteTemplate = Alloc(sizeof(*spriteTemplate));
                     CpuCopy16(&gItemIconSpriteTemplate, spriteTemplate, sizeof(*spriteTemplate));
-                    spriteTemplate->tileTag = TAG_CARD_ICON_SMALL + 2 * k;
-                    spriteTemplate->paletteTag = TAG_CARD_ICON_SMALL_PAL + 2 * k;
+                    spriteTemplate->tileTag = TAG_CARD_ICON_SMALL + 2 * i;
+                    spriteTemplate->paletteTag = TAG_CARD_ICON_SMALL_PAL + 2 * i;
                     spriteId = CreateSprite(spriteTemplate, 0, 0, 0);
-                    playerDeck[k] = items[randomItem];
                     if (spriteId != MAX_SPRITES)
                     {
                         gSprites[spriteId].x = 256;
                         gSprites[spriteId].y = 136;
-                        gSprites[spriteId].x2 = k * 12;
+                        gSprites[spriteId].x2 = i * 12;
                         gSprites[spriteId].callback = SpriteCB_SlideLeft;
                         gSprites[spriteId].oam.priority = 0;
                         FreeItemIconTemporaryBuffers();
                         Free(spriteTemplate);
                     }
-                    k++;
                 }
-                randomItem = Random() % j;
-            }
-            randomItem = Random() % 9;
-            k = 0;
-            while (k < 6)
-            {
-                if (!containsElement(enemyIndexes, 6, randomItem))
-                {
-                    u8 spriteId;
-                    struct SpriteSheet spriteSheet;
-                    struct CompressedSpritePalette spritePalette;
-                    struct SpriteTemplate *spriteTemplate;
-
-                    enemyIndexes[k] = randomItem;
-                    AllocItemIconTemporaryBuffers();
-
-                    LZDecompressWram(GetItemIconPicOrPalette(enemyDeck1[randomItem], 0), gItemIconDecompressionBuffer);
-                    CopyItemIconPicTo4x4Buffer(gItemIconDecompressionBuffer, gItemIcon4x4Buffer, enemyDeck1[randomItem]);
-                    spriteSheet.data = gItemIcon4x4Buffer;
-                    spriteSheet.size = 0x200;
-                    spriteSheet.tag = TAG_CARD_ICON_SMALL_ENEMY + 2 * k;
-                    LoadSpriteSheet(&spriteSheet);
-
-                    spritePalette.data = GetItemIconPicOrPalette(enemyDeck1[randomItem], 1);
-                    spritePalette.tag = TAG_CARD_ICON_SMALL_ENEMY_PAL + 2 * k;
-                    LoadCompressedSpritePalette(&spritePalette);
-
-                    spriteTemplate = Alloc(sizeof(*spriteTemplate));
-                    CpuCopy16(&gItemIconSpriteTemplate, spriteTemplate, sizeof(*spriteTemplate));
-                    spriteTemplate->tileTag = TAG_CARD_ICON_SMALL_ENEMY + 2 * k;
-                    spriteTemplate->paletteTag = TAG_CARD_ICON_SMALL_ENEMY_PAL + 2 * k;
-                    spriteId = CreateSprite(spriteTemplate, 0, 0, 0);
-                    enemyDeck[k] = enemyDeck1[randomItem];
-                    if (spriteId != MAX_SPRITES)
-                    {
-                        gSprites[spriteId].x = -16;
-                        gSprites[spriteId].y = 14;
-                        gSprites[spriteId].x2 = k * 12;
-                        gSprites[spriteId].callback = SpriteCB_SlideRight;
-                        gSprites[spriteId].oam.priority = 0;
-                        FreeItemIconTemporaryBuffers();
-                        Free(spriteTemplate);
-                    }
-                    k++;
-                }
-                randomItem = Random() % 9;
             }
             VarSet(VAR_YGO_ICON, 0);
             InitWindows(sYGOWindowTemplates);
