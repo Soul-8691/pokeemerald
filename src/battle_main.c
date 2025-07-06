@@ -1242,9 +1242,12 @@ static void CB2_HandleStartBattle(void)
         {
             gBattleCommunication[MULTIUSE_STATE] = 18;
         }
-        gPreBattleCallback1 = gMain.callback1;
-        gMain.callback1 = BattleMainCB1;
-        SetMainCallback2(BattleMainCB2);
+        if (battle)
+        {
+            gPreBattleCallback1 = gMain.callback1;
+            gMain.callback1 = BattleMainCB1;
+            SetMainCallback2(BattleMainCB2);            
+        }
         break;
     case 16:
         // Both players are using Emerald, send rng seed for recorded battle

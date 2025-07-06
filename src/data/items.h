@@ -23283,10 +23283,10 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_Pack,
     },
 
-	[ITEM_CARD_MENU] =
+	[ITEM_YGO_BATTLE] =
     {
-        .name = _("Card Menu"),
-        .itemId = ITEM_CARD_MENU,
+        .name = _("YGO Battle"),
+        .itemId = ITEM_YGO_BATTLE,
         .price = 0,
         .description = sDummyDesc,
         .importance = 1,
@@ -23295,6 +23295,6 @@ const struct Item gItems[] =
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .battleUsage = ITEM_B_USE_OTHER,
-        .battleUseFunc = Task_MenuMain,
+        .battleUseFunc = Task_DoYGOBattle,
     },
 };
