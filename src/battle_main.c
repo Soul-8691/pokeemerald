@@ -3694,7 +3694,7 @@ static const struct WindowTemplate sYGOWindowTemplatesDesc[] =
         .tilemapTop = 2,    // position from top (per 8 pixels)
         .width = 16,        // width (per 8 pixels)
         .height = 16,        // height (per 8 pixels)
-        .paletteNum = 5,   // palette index to use for text
+        .paletteNum = 6,   // palette index to use for text
         .baseBlock = 428,     // tile start in VRAM
     },
     [WINDOW_2] = 
@@ -3724,7 +3724,7 @@ static const struct WindowTemplate sYGOWindowTemplatesDesc[] =
         .tilemapTop = 18,    // position from top (per 8 pixels)
         .width = 32,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
-        .paletteNum = 5,   // palette index to use for text
+        .paletteNum = 6,   // palette index to use for text
         .baseBlock = 712,     // tile start in VRAM
     },
     [WINDOW_5] = 
@@ -3734,7 +3734,7 @@ static const struct WindowTemplate sYGOWindowTemplatesDesc[] =
         .tilemapTop = 15,    // position from top (per 8 pixels)
         .width = 5,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
-        .paletteNum = 5,   // palette index to use for text
+        .paletteNum = 6,   // palette index to use for text
         .baseBlock = 776,     // tile start in VRAM
     },
     [WINDOW_6] = 
@@ -3744,7 +3744,7 @@ static const struct WindowTemplate sYGOWindowTemplatesDesc[] =
         .tilemapTop = 15,    // position from top (per 8 pixels)
         .width = 4,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
-        .paletteNum = 5,   // palette index to use for text
+        .paletteNum = 6,   // palette index to use for text
         .baseBlock = 786,     // tile start in VRAM
     },
     [WINDOW_7] = 
@@ -3754,7 +3754,7 @@ static const struct WindowTemplate sYGOWindowTemplatesDesc[] =
         .tilemapTop = 0,    // position from top (per 8 pixels)
         .width = 10,        // width (per 8 pixels)
         .height = 3,        // height (per 8 pixels)
-        .paletteNum = 5,   // palette index to use for text
+        .paletteNum = 6,   // palette index to use for text
         .baseBlock = 794,     // tile start in VRAM
     },
 };
@@ -3854,10 +3854,10 @@ void Task_MenuMainBattle(void)
         {
             ConvertIntToDecimalStringN(gStringVar1, cardAtk, STR_CONV_MODE_LEFT_ALIGN, 4);
             StringExpandPlaceholders(gStringVar4, gText_xAtk);
-            AddTextPrinterParameterized4(WINDOW_5, FONT_SMALL_NARROWER, 2, 5, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
+            AddTextPrinterParameterized4(WINDOW_5, FONT_SMALL_NARROWER, 2, 5, 0, 0, sMenuWindowFontColors[FONT_WHITE], 0xFF, gStringVar4);
             ConvertIntToDecimalStringN(gStringVar1, cardDef, STR_CONV_MODE_LEFT_ALIGN, 4);
             StringExpandPlaceholders(gStringVar4, gText_xDef);
-            AddTextPrinterParameterized4(WINDOW_6, FONT_SMALL_NARROWER, 0, 5, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
+            AddTextPrinterParameterized4(WINDOW_6, FONT_SMALL_NARROWER, 0, 5, 0, 0, sMenuWindowFontColors[FONT_WHITE], 0xFF, gStringVar4);
         }
         if (cardType == TYPE_SPELL_CARD || cardType == TYPE_TRAP_CARD)
         {
@@ -3985,6 +3985,7 @@ void Task_HandleYGOTurn(void)
         }
         BlitBitmapToWindow(WINDOW_STAR, gStarIcon, 0, 0, 8, 8);
         LoadPalette(gStarIconPal, BG_PLTT_ID(5), 32);
+        LoadPalette(gStandardMenuPalette, BG_PLTT_ID(6), 32);
         if (!sDidInitialDraw && gSprites[0].x == 76)
         {
             struct SpriteSheet spriteSheet;
@@ -4054,6 +4055,7 @@ void Task_HandleYGOTurn(void)
         }
         BlitBitmapToWindow(WINDOW_STAR, gStarIcon, 0, 0, 8, 8);
         LoadPalette(gStarIconPal, BG_PLTT_ID(5), 32);
+        LoadPalette(gStandardMenuPalette, BG_PLTT_ID(6), 32);
         if (!sDidInitialDraw)
         {
             struct SpriteSheet spriteSheet;

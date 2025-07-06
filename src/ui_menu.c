@@ -138,7 +138,7 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
         .tilemapTop = 2,    // position from top (per 8 pixels)
         .width = 16,        // width (per 8 pixels)
         .height = 16,        // height (per 8 pixels)
-        .paletteNum = 9,   // palette index to use for text
+        .paletteNum = 10,   // palette index to use for text
         .baseBlock = 1,     // tile start in VRAM
     },
     [WINDOW_2] = 
@@ -168,7 +168,7 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
         .tilemapTop = 18,    // position from top (per 8 pixels)
         .width = 32,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
-        .paletteNum = 9,   // palette index to use for text
+        .paletteNum = 10,   // palette index to use for text
         .baseBlock = 0x11D,     // tile start in VRAM
     },
     [WINDOW_5] = 
@@ -178,7 +178,7 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
         .tilemapTop = 15,    // position from top (per 8 pixels)
         .width = 5,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
-        .paletteNum = 9,   // palette index to use for text
+        .paletteNum = 10,   // palette index to use for text
         .baseBlock = 0x15D,     // tile start in VRAM
     },
     [WINDOW_6] = 
@@ -188,7 +188,7 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
         .tilemapTop = 15,    // position from top (per 8 pixels)
         .width = 4,        // width (per 8 pixels)
         .height = 2,        // height (per 8 pixels)
-        .paletteNum = 9,   // palette index to use for text
+        .paletteNum = 10,   // palette index to use for text
         .baseBlock = 0x167,     // tile start in VRAM
     },
     [WINDOW_7] = 
@@ -198,7 +198,7 @@ static const struct WindowTemplate sMenuWindowTemplates[] =
         .tilemapTop = 0,    // position from top (per 8 pixels)
         .width = 10,        // width (per 8 pixels)
         .height = 3,        // height (per 8 pixels)
-        .paletteNum = 9,   // palette index to use for text
+        .paletteNum = 10,   // palette index to use for text
         .baseBlock = 0x16F,     // tile start in VRAM
     },
     DUMMY_WIN_TEMPLATE,
@@ -3883,6 +3883,7 @@ bool8 Menu_DoGfxSetup(void)
 		LoadSpriteSheet(&sSpriteSheet_Icons[0]);
         LoadSpritePaletteInSlot(&sIcon_SpritePalettes[0], 4);
 		LoadPalette(gStarIconPal, BG_PLTT_ID(9), 32);
+		LoadPalette(gStandardMenuPalette, BG_PLTT_ID(10), 32);
         for (i = 0; i < level; i++)
         {
             if (level < 12)
@@ -4103,7 +4104,7 @@ enum {
 static const u8 sFontColorTableUI[][3] = {
                             // bgColor, textColor, shadowColor
     [COLORID_NORMAL]      = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_WHITE,      TEXT_COLOR_LIGHT_GRAY},
-    [COLORID_POCKET_NAME] = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_WHITE,      TEXT_COLOR_RED},
+    [COLORID_POCKET_NAME] = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_GREEN,      TEXT_COLOR_LIGHT_GRAY},
     [COLORID_GRAY_CURSOR] = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_LIGHT_GRAY, TEXT_COLOR_GREEN},
     [COLORID_UNUSED]      = {TEXT_COLOR_DARK_GRAY,   TEXT_COLOR_WHITE,      TEXT_COLOR_LIGHT_GRAY},
     [COLORID_TMHM_INFO]   = {TEXT_COLOR_TRANSPARENT, TEXT_DYNAMIC_COLOR_5,  TEXT_DYNAMIC_COLOR_1}
@@ -4135,10 +4136,10 @@ void PrintToWindow(u8 windowId, u8 colorIdx, u16 card)
     {
         ConvertIntToDecimalStringN(gStringVar1, cardAtk, STR_CONV_MODE_LEFT_ALIGN, 4);
         StringExpandPlaceholders(gStringVar4, gText_xAtk);
-        AddTextPrinterParameterized4(WINDOW_5, FONT_SMALL_NARROWER, 2, 5, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
+        AddTextPrinterParameterized4(WINDOW_5, FONT_SMALL_NARROWER, 2, 5, 0, 0, sMenuWindowFontColors[FONT_BLACK], 0xFF, gStringVar4);
         ConvertIntToDecimalStringN(gStringVar1, cardDef, STR_CONV_MODE_LEFT_ALIGN, 4);
         StringExpandPlaceholders(gStringVar4, gText_xDef);
-        AddTextPrinterParameterized4(WINDOW_6, FONT_SMALL_NARROWER, 0, 5, 0, 0, sMenuWindowFontColors[COLORID_NORMAL], 0xFF, gStringVar4);
+        AddTextPrinterParameterized4(WINDOW_6, FONT_SMALL_NARROWER, 0, 5, 0, 0, sMenuWindowFontColors[FONT_BLACK], 0xFF, gStringVar4);
     }
     if (cardType == TYPE_NORMAL_MONSTER)
         LoadPalette(sNormalMonsterPalette, 0, 32*3);
