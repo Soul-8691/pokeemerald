@@ -5201,10 +5201,6 @@ InsideOfTruck_PokemartVegas:
 	.2byte  ITEM_CARD_UPSTART_GOBLIN
 	pokemartlistend
 
-InsideOfTruck_Text_YugiKaiba, InsideOfTruck_Text_Critter, InsideOfTruck_Text_Treasure, InsideOfTruck_Text_Imperial, InsideOfTruck_Text_Android, InsideOfTruck_Text_JoeyPegasus, InsideOfTruck_Text_Fiber, InsideOfTruck_Text_Yata, InsideOfTruck_Text_Scientist, InsideOfTruck_Text_Vampire, InsideOfTruck_Text_Chaos, InsideOfTruck_Text_Warrior, InsideOfTruck_Text_Goat, InsideOfTruck_Text_Cyber, InsideOfTruck_Text_Reaper, InsideOfTruck_Text_ChaosReturn, InsideOfTruck_Text_Demise, InsideOfTruck_Text_Trooper, InsideOfTruck_Text_Zombie, InsideOfTruck_Text_PerfectCircle, InsideOfTruck_Text_DADReturn, InsideOfTruck_Text_Gladiator, InsideOfTruck_Text_TeleDAD, InsideOfTruck_Text_Cat, InsideOfTruck_Text_Edison, InsideOfTruck_Text_Frog, InsideOfTruck_Text_Starstrike, InsideOfTruck_Text_Tengu, InsideOfTruck_Text_DinoRabbit, InsideOfTruck_Text_WindUp, InsideOfTruck_Text_Miami, InsideOfTruck_Text_Meadowlands, InsideOfTruck_Text_BabyRuler, InsideOfTruck_Text_RavineRuler, InsideOfTruck_Text_FireWater, InsideOfTruck_Text_HAT, InsideOfTruck_Text_Vegas, 
-
-InsideOfTruck_Text_YugiKaibaBanlist, InsideOfTruck_Text_CritterBanlist, InsideOfTruck_Text_TreasureBanlist, InsideOfTruck_Text_ImperialBanlist, InsideOfTruck_Text_AndroidBanlist, InsideOfTruck_Text_JoeyPegasusBanlist, InsideOfTruck_Text_FiberBanlist, InsideOfTruck_Text_YataBanlist, InsideOfTruck_Text_ScientistBanlist, InsideOfTruck_Text_VampireBanlist, InsideOfTruck_Text_ChaosBanlist, InsideOfTruck_Text_WarriorBanlist, InsideOfTruck_Text_GoatBanlist, InsideOfTruck_Text_CyberBanlist, InsideOfTruck_Text_ReaperBanlist, InsideOfTruck_Text_ChaosReturnBanlist, InsideOfTruck_Text_DemiseBanlist, InsideOfTruck_Text_TrooperBanlist, InsideOfTruck_Text_ZombieBanlist, InsideOfTruck_Text_PerfectCircleBanlist, InsideOfTruck_Text_DADReturnBanlist, InsideOfTruck_Text_GladiatorBanlist, InsideOfTruck_Text_TeleDADBanlist, InsideOfTruck_Text_CatBanlist, InsideOfTruck_Text_EdisonBanlist, InsideOfTruck_Text_FrogBanlist, InsideOfTruck_Text_StarstrikeBanlist, InsideOfTruck_Text_TenguBanlist, InsideOfTruck_Text_DinoRabbitBanlist, InsideOfTruck_Text_WindUpBanlist, InsideOfTruck_Text_MiamiBanlist, InsideOfTruck_Text_MeadowlandsBanlist, InsideOfTruck_Text_BabyRulerBanlist, InsideOfTruck_Text_RavineRulerBanlist, InsideOfTruck_Text_FireWaterBanlist, InsideOfTruck_Text_HATBanlist, InsideOfTruck_Text_VegasBanlist, 
-
 InsideOfTruck_Text_YugiKaiba:
 	.string "Yugi-Kaiba$"
 
@@ -5428,84 +5424,6 @@ InsideOfTruck_Text_HATBanlist:
 
 InsideOfTruck_Text_VegasBanlist:
 	.string "Vegas banlist$"
-
-	case 0, InsideOfTruck_EventScript_Clerk_YugiKaiba
-	case 1, InsideOfTruck_EventScript_Clerk_Critter
-	case 2, InsideOfTruck_EventScript_Clerk_Treasure
-	case 3, InsideOfTruck_EventScript_Clerk_Imperial
-	case 4, InsideOfTruck_EventScript_Clerk_Android
-	case 5, InsideOfTruck_EventScript_Clerk_JoeyPegasus
-	case 6, InsideOfTruck_EventScript_Clerk_Fiber
-	case 7, InsideOfTruck_EventScript_Clerk_Yata
-	case 8, InsideOfTruck_EventScript_Clerk_Scientist
-	case 9, InsideOfTruck_EventScript_Clerk_Vampire
-	case 10, InsideOfTruck_EventScript_Clerk_Chaos
-	case 11, InsideOfTruck_EventScript_Clerk_Warrior
-	case 12, InsideOfTruck_EventScript_Clerk_Goat
-	case 13, InsideOfTruck_EventScript_Clerk_Cyber
-	case 14, InsideOfTruck_EventScript_Clerk_Reaper
-	case 15, InsideOfTruck_EventScript_Clerk_ChaosReturn
-	case 16, InsideOfTruck_EventScript_Clerk_Demise
-	case 17, InsideOfTruck_EventScript_Clerk_Trooper
-	case 18, InsideOfTruck_EventScript_Clerk_Zombie
-	case 19, InsideOfTruck_EventScript_Clerk_PerfectCircle
-	case 20, InsideOfTruck_EventScript_Clerk_DADReturn
-	case 21, InsideOfTruck_EventScript_Clerk_Gladiator
-	case 22, InsideOfTruck_EventScript_Clerk_TeleDAD
-	case 23, InsideOfTruck_EventScript_Clerk_Cat
-	case 24, InsideOfTruck_EventScript_Clerk_Edison
-	case 25, InsideOfTruck_EventScript_Clerk_Frog
-	case 26, InsideOfTruck_EventScript_Clerk_Starstrike
-	case 27, InsideOfTruck_EventScript_Clerk_Tengu
-	case 28, InsideOfTruck_EventScript_Clerk_DinoRabbit
-	case 29, InsideOfTruck_EventScript_Clerk_WindUp
-	case 30, InsideOfTruck_EventScript_Clerk_Miami
-	case 31, InsideOfTruck_EventScript_Clerk_Meadowlands
-	case 32, InsideOfTruck_EventScript_Clerk_BabyRuler
-	case 33, InsideOfTruck_EventScript_Clerk_RavineRuler
-	case 34, InsideOfTruck_EventScript_Clerk_FireWater
-	case 35, InsideOfTruck_EventScript_Clerk_HAT
-	case 36, InsideOfTruck_EventScript_Clerk_Vegas
-
-
-	case 0, InsideOfTruck_EventScript_Clerk_YugiKaibaBanlist
-	case 1, InsideOfTruck_EventScript_Clerk_CritterBanlist
-	case 2, InsideOfTruck_EventScript_Clerk_TreasureBanlist
-	case 3, InsideOfTruck_EventScript_Clerk_ImperialBanlist
-	case 4, InsideOfTruck_EventScript_Clerk_AndroidBanlist
-	case 5, InsideOfTruck_EventScript_Clerk_JoeyPegasusBanlist
-	case 6, InsideOfTruck_EventScript_Clerk_FiberBanlist
-	case 7, InsideOfTruck_EventScript_Clerk_YataBanlist
-	case 8, InsideOfTruck_EventScript_Clerk_ScientistBanlist
-	case 9, InsideOfTruck_EventScript_Clerk_VampireBanlist
-	case 10, InsideOfTruck_EventScript_Clerk_ChaosBanlist
-	case 11, InsideOfTruck_EventScript_Clerk_WarriorBanlist
-	case 12, InsideOfTruck_EventScript_Clerk_GoatBanlist
-	case 13, InsideOfTruck_EventScript_Clerk_CyberBanlist
-	case 14, InsideOfTruck_EventScript_Clerk_ReaperBanlist
-	case 15, InsideOfTruck_EventScript_Clerk_ChaosReturnBanlist
-	case 16, InsideOfTruck_EventScript_Clerk_DemiseBanlist
-	case 17, InsideOfTruck_EventScript_Clerk_TrooperBanlist
-	case 18, InsideOfTruck_EventScript_Clerk_ZombieBanlist
-	case 19, InsideOfTruck_EventScript_Clerk_PerfectCircleBanlist
-	case 20, InsideOfTruck_EventScript_Clerk_DADReturnBanlist
-	case 21, InsideOfTruck_EventScript_Clerk_GladiatorBanlist
-	case 22, InsideOfTruck_EventScript_Clerk_TeleDADBanlist
-	case 23, InsideOfTruck_EventScript_Clerk_CatBanlist
-	case 24, InsideOfTruck_EventScript_Clerk_EdisonBanlist
-	case 25, InsideOfTruck_EventScript_Clerk_FrogBanlist
-	case 26, InsideOfTruck_EventScript_Clerk_StarstrikeBanlist
-	case 27, InsideOfTruck_EventScript_Clerk_TenguBanlist
-	case 28, InsideOfTruck_EventScript_Clerk_DinoRabbitBanlist
-	case 29, InsideOfTruck_EventScript_Clerk_WindUpBanlist
-	case 30, InsideOfTruck_EventScript_Clerk_MiamiBanlist
-	case 31, InsideOfTruck_EventScript_Clerk_MeadowlandsBanlist
-	case 32, InsideOfTruck_EventScript_Clerk_BabyRulerBanlist
-	case 33, InsideOfTruck_EventScript_Clerk_RavineRulerBanlist
-	case 34, InsideOfTruck_EventScript_Clerk_FireWaterBanlist
-	case 35, InsideOfTruck_EventScript_Clerk_HATBanlist
-	case 36, InsideOfTruck_EventScript_Clerk_VegasBanlist
-
 
 gText_YugiKaibaClerk::
 	.string "Welcome!\p"
@@ -10286,6 +10204,7 @@ InsideOfTruck_PokemartVegasBanlist:
 	.2byte  ITEM_PACK_YU_GI_OH_5D_S_DUEL_TRANSER_PROMOTIONAL_CARDS
 	.2byte  ITEM_PACK_YU_GI_OH_5D_S_STARDUST_ACCELERATOR_PROMOTIONAL_CARDS
 	.2byte  ITEM_PACK_YU_GI_OH_5D_S_TAG_FORCE_4_PROMOTIONAL_CARDS
+	.2byte  ITEM_PACK_YU_GI_OH_5D_S_TAG_FORCE_5_PROMOTIONAL_CARDS
 	.2byte  ITEM_PACK_YU_GI_OH_5D_S_TAG_FORCE_5_PROMOTIONAL_CARDS
 	.2byte  ITEM_PACK_YU_GI_OH_5D_S_VOLUME_1_PROMOTIONAL_CARD
 	.2byte  ITEM_PACK_YU_GI_OH_5D_S_VOLUME_2_PROMOTIONAL_CARD
