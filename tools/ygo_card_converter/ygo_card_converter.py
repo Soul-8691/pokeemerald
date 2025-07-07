@@ -887,7 +887,7 @@ ItemUsePrinter.close()
 print('src/item_use.c written')
 
 tcg_sets = set()
-# TCG_Set_Writer = open('tcg_sets.json', 'w', encoding='utf-8')
+Set_Writer = open('sets.json', 'w', encoding='utf-8')
 for data in card_info_data['data']:
 	try:
 		for set_ in data['card_sets']:
@@ -895,57 +895,84 @@ for data in card_info_data['data']:
 	except:
 		pass
 
-tcg_sets_write = {}
-for set_ in sorted(list(tcg_sets)):
-    tcg_sets_write[set_] = {}
-    for data in card_info_data['data']:
+sets_write = {}
+for set_ in tqdm(packs):
+    print(set_)
+    sets_write[set_] = {}
+    for card in cards_by_pack:
         try:
-            for set__ in data['card_sets']:
-                if set_ == set__['set_name']:
-                    tcg_sets_write[set_][data['name']] = set__['set_rarity']
+            for set__ in cards_by_pack[card]['sets']['ja']:
+                if set_[4:] == set__['set_name']:
+                    for rarity in set__['rarities']:
+                        sets_write[set_][card] = rarity
         except:
-             pass
+            pass
+        try:
+            for set__ in cards_by_pack[card]['sets']['en']:
+                if set_[4:] == set__['set_name']:
+                    for rarity in set__['rarities']:
+                        sets_write[set_][card] = rarity
+        except:
+            pass
 
-# json.dump(dict(sorted(tcg_sets_write.items())), TCG_Set_Writer, indent=4)
-# TCG_Set_Writer.close()
+json.dump(dict(sorted(sets_write.items())), Set_Writer, indent=4)
+Set_Writer.close()
+print('sets.json written')
 
 sets_print = ''
-with open('tcg_sets.json', 'r') as f:
-    data = json.load(f)
-    for set_ in data:
-        sets_print += 'const struct PackContents gTCG' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '[] =\n{\n'
-        for card in data[set_]:
-            if card in card_names:
-                sets_print += '\t{ITEM_CARD_' + re.sub(r'[^a-zA-Z0-9]', '_', card).replace('__', '_').replace('__', '_').upper() + ', RARITY_' + re.sub(r'[^a-zA-Z0-9]', '_', data[set_][card]).replace('__', '_').replace('__', '_').upper() + '},\n'
-        sets_print += '};\n\n'
+for set_ in tqdm(packs):
+	print(set_)
+	if set_[0:3] == 'TCG':
+		sets_print += 'const struct PackContents gTCG' + re.sub(r'[^a-zA-Z0-9]', '', set_[4:]) + '[] =\n{\n'
+		for card in cards_by_pack:
+			if card in card_names:
+				try:
+					for set__ in cards_by_pack[card]['sets']['en']:
+						if set__['set_name'] == set_[4:]:
+							for rarity in set__['rarities']:
+								sets_print += '\t{ITEM_CARD_' + re.sub(r'[^a-zA-Z0-9]', '_', card).replace('__', '_').replace('__', '_').upper() + ', RARITY_' + re.sub(r'[^a-zA-Z0-9]', '_', rarity).replace('__', '_').replace('__', '_').upper() + '},\n'
+				except:
+					pass
+		sets_print += '};\n\n'
+	if set_[0:3] == 'OCG':
+		sets_print += 'const struct PackContents gOCG' + re.sub(r'[^a-zA-Z0-9]', '', set_[4:]) + '[] =\n{\n'
+		for card in cards_by_pack:
+			if card in card_names:
+				try:
+					for set__ in cards_by_pack[card]['sets']['en']:
+						if set__['set_name'] == set_[4:]:
+							for rarity in set__['rarities']:
+								sets_print += '\t{ITEM_CARD_' + re.sub(r'[^a-zA-Z0-9]', '_', card).replace('__', '_').replace('__', '_').upper() + ', RARITY_' + re.sub(r'[^a-zA-Z0-9]', '_', rarity).replace('__', '_').replace('__', '_').upper() + '},\n'
+				except:
+					pass
+		sets_print += '};\n\n'
 
-with open('ocg_sets.json', 'r') as f:
-	data = json.load(f)
-	for series in data:
-		for set_ in data[series]:
-			sets_print += 'const struct PackContents gOCG' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '[] =\n{\n'
-			for card in data[series][set_]['cards']:
-				if card in card_names:
-					sets_print += '\t{ITEM_CARD_' + re.sub(r'[^a-zA-Z0-9]', '_', card).replace('__', '_').replace('__', '_').upper() + ', RARITY_COMMON},\n'
-			sets_print += '};\n\n'
+# with open('tcg_sets.json', 'r') as f:
+#     data = json.load(f)
+#     for set_ in data:
+#         sets_print += 'const struct PackContents gTCG' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '[] =\n{\n'
+#         for card in data[set_]:
+#             if card in card_names:
+#                 sets_print += '\t{ITEM_CARD_' + re.sub(r'[^a-zA-Z0-9]', '_', card).replace('__', '_').replace('__', '_').upper() + ', RARITY_' + re.sub(r'[^a-zA-Z0-9]', '_', data[set_][card]).replace('__', '_').replace('__', '_').upper() + '},\n'
+#         sets_print += '};\n\n'
 
-for set_ in sorted(list(tcg_sets)):
+# with open('ocg_sets.json', 'r') as f:
+# 	data = json.load(f)
+# 	for series in data:
+# 		for set_ in data[series]:
+# 			sets_print += 'const struct PackContents gOCG' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '[] =\n{\n'
+# 			for card in data[series][set_]['cards']:
+# 				if card in card_names:
+# 					sets_print += '\t{ITEM_CARD_' + re.sub(r'[^a-zA-Z0-9]', '_', card).replace('__', '_').replace('__', '_').upper() + ', RARITY_COMMON},\n'
+# 			sets_print += '};\n\n'
+
+for set_ in packs:
     Scripts += '\tadditem ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').upper() + ' 10\n' 
 Scripts += '\n'
 
 YGO_C += '\nconst u16 PackIdMapping[] = \n{\n'
-with open('tcg_sets.json', 'r') as f:
-    data = json.load(f)
-    for set_ in data:
-        YGO_C += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').upper() + '] = ' + str(sorted(list(tcg_sets)).index(set_)) + ',\n'
-
-counter = 990
-with open('ocg_sets.json', 'r') as f:
-	data = json.load(f)
-	for series in data:
-		for set_ in data[series]:
-			YGO_C += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').upper() + '] = ' + str(counter) + ',\n'
-		counter += 1
+for set_ in packs:
+	YGO_C += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_[4:]).replace('__', '_').replace('__', '_').upper() + '] = ' + str(packs.index(set_)) + ',\n'
 
 for format_ in formats:
     YGO_C += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').upper() + '] = ' + str(pack_counter) + ',\n'
@@ -955,16 +982,19 @@ YGO_C += '};\n\n'
 
 sets_print += '\nconst struct Pack gPacks[] =\n{\n'
 card_count = 0
-with open('tcg_sets.json', 'r') as f:
-    data = json.load(f)
-    for set_ in data:
-        sets_print += '\t[PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').upper() + '] =\n\t{\n        .pack = gTCG' + re.sub(r'[^a-zA-Z0-9]', '', set_) + ',\n        .length = '
-        for card in data[set_]:
-            if card in card_names:
-                 card_count += 1
-        sets_print += str(card_count)
-        sets_print += ',\n\t},\n'
-        card_count = 0
+with open('sets.json', 'r') as f:
+	data = json.load(f)
+	for set_ in packs:
+		if set_[0:3] == 'TCG':
+			sets_print += '\t[PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_[4:]).replace('__', '_').replace('__', '_').upper() + '] =\n\t{\n        .pack = gTCG' + re.sub(r'[^a-zA-Z0-9]', '', set_[4:]) + ',\n        .length = '
+		else:
+			sets_print += '\t[PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_[4:]).replace('__', '_').replace('__', '_').upper() + '] =\n\t{\n        .pack = gOCG' + re.sub(r'[^a-zA-Z0-9]', '', set_[4:]) + ',\n        .length = '
+		for card in data[set_]:
+			if card in card_names:
+				card_count += 1
+		sets_print += str(card_count)
+		sets_print += ',\n\t},\n'
+		card_count = 0
 
 with open('ocg_sets.json', 'r') as f:
 	data = json.load(f)
