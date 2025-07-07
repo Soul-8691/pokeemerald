@@ -2499,18 +2499,18 @@ for card_name in card_names:
 		$(GFX) $< $@ -num_colors 64\n\n'''
 
 Item_Constants += '\n'
-sets_count = 1054
-for set_ in sorted(list(tcg_sets)):
+sets_count = 2432
+for set_ in packs:
     Item_Constants += '#define ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('__', '_').upper() + ' ' + str(sets_count) + '\n'
     sets_count += 1
 Item_Constants += '\n'
 
-pack_counter = 2044
+pack_counter = 3755
 for format_ in formats:
     Item_Constants += '#define ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('__', '_').upper() + ' ' + str(pack_counter) + '\n'
     pack_counter += 1
 
-for set_ in sorted(list(tcg_sets)):
+for set_ in packs:
     Items += '''	[ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('__', '_').upper() + '''] =
     {
         .name = _("''' + set_[:13] + '''"),
@@ -2536,7 +2536,7 @@ for format_ in formats:
     },\n\n'''
 
 ItemIconTable += '\n'
-for set_ in sorted(list(tcg_sets)):
+for set_ in packs:
     ItemIconTable += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('__', '_').upper() + '] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},\n'
     sets_count += 1
 
@@ -2545,11 +2545,11 @@ for format_ in formats:
     ItemIconTable += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('__', '_').upper() + '] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},\n'
 
 YGO_Constants += '\n'
-for set_ in sorted(list(tcg_sets)):
+for set_ in packs:
     YGO_Constants += '#define PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('__', '_').upper() + ' ' + str(sorted(list(tcg_sets)).index(set_)) + '\n'
 
 YGO_Constants += '\n'
-pack_counter = 990
+pack_counter = 1378
 for format_ in formats:
     YGO_Constants += '#define PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('__', '_').upper() + ' ' + str(pack_counter) + '\n'
     pack_counter += 1
