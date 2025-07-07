@@ -63,22 +63,6 @@ with open('bastion.json', 'r') as f:
 
 packs = sorted(list(packs))
 
-with open('FL.json', 'r') as f:
-    data = json.load(f)
-    for card in data:
-        if card['Format'] in formats:
-            cards_by_format[card['Format']][card['Card']] = card['Usage']
-            if card['Usage (Weighted)'] > highest_usage[card['Format']]:
-            	highest_usage[card['Format']] = card['Usage (Weighted)']
-
-wct06_ranks = {}
-with open('wct06.json', 'r') as f:
-    data = json.load(f)
-    for card in data:
-        wct06_ranks[card['Card']] = 1
-        if card['Rank']:
-           wct06_ranks[card['Card']] = card['Rank']
-
 def move_palette_color(img, old_index, new_index):
     """
     Moves a color at old_index in the image_cropped's palette to new_index.
@@ -125,6 +109,61 @@ def move_palette_color(img, old_index, new_index):
             img.putpixel((x, y), img.getpixel((x,y)) + 1)
     
     return img
+
+with open('ocg_sets.json', 'r') as f:
+	data = json.load(f)
+	for series in tqdm(data):
+		for set_ in tqdm(packs):
+			print(set_)
+			try:
+				set_url = data[series][set_[4:]]['image_url']
+				res = requests.get(set_url)
+				image = 'Sets/' + set_ + '.jpg'
+				if not os.path.exists(image):
+					with open(image, 'wb') as file:
+						file.write(res.content)
+						print(set_ + ' image written')
+				outfile = 'Sets/Icons/' + set_.lower() + '_icon.jpg'
+				if not os.path.exists(outfile):
+					master = Image.new(
+						mode='RGBA',
+						size=(32, 32),
+						color=(57,255,20,0))
+					size = 32, 32
+					im = Image.open(image)
+					im.thumbnail(size, Image.Resampling.LANCZOS)
+					pillow_width, pillow_height = im.size
+					# Calculate the top-left coordinates for pasting
+					paste_x = (32 - pillow_width) // 2
+					paste_y = (32 - pillow_height) // 2
+					master.paste(im, box=(paste_x,paste_y))
+					master.save(outfile, "PNG")
+					master = Image.open(outfile)
+					master = master.convert(
+						"P", palette=Image.ADAPTIVE, colors=15
+					)
+					master = move_palette_color(master, 15, 0)
+					master.save(outfile, "PNG")
+					subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
+					print(set_ + ' icon written')
+			except:
+				pass
+
+with open('FL.json', 'r') as f:
+    data = json.load(f)
+    for card in data:
+        if card['Format'] in formats:
+            cards_by_format[card['Format']][card['Card']] = card['Usage']
+            if card['Usage (Weighted)'] > highest_usage[card['Format']]:
+            	highest_usage[card['Format']] = card['Usage (Weighted)']
+
+wct06_ranks = {}
+with open('wct06.json', 'r') as f:
+    data = json.load(f)
+    for card in data:
+        wct06_ranks[card['Card']] = 1
+        if card['Rank']:
+           wct06_ranks[card['Card']] = card['Rank']
 
 card_names = [
 	"4-Starred Ladybug of Doom",
