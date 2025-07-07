@@ -13,6 +13,28 @@ from tqdm import tqdm
 # data = json.dumps(res.json(), indent=4)
 # f.write(data)
 # f.close()
+# url = 'https://dawnbrandbots.github.io/yaml-yugi/cards.json'  # Example URL for a JSON endpoint
+
+# try:
+#     response = requests.get(url)
+#     response.raise_for_status()  # Raise an exception for bad status codes (4xx or 5xx)
+
+#     json_data = response.json()  # Automatically parses the JSON response into a Python dictionary or list
+
+#     # Option 1: Process the JSON data in Python
+#     print("Fetched JSON data:")
+#     # print(json_data)
+
+#     # Option 2: Save the JSON data to a file
+#     file_path = 'bastion.json'
+#     with open(file_path, 'w', encoding='utf-8') as f:
+#         json.dump(json_data, f, indent=4)  # `indent=4` for pretty-printing
+#     print(f"\nJSON data successfully saved to '{file_path}'")
+
+# except requests.exceptions.RequestException as e:
+#     print(f"Error fetching data from URL: {e}")
+# except json.JSONDecodeError as e:
+#     print(f"Error decoding JSON response: {e}")
 
 formats = ['Yugi-Kaiba', 'Critter', 'Treasure', 'Imperial', 'Android', 'Joey-Pegasus', 'Fiber', 'Yata', 'Scientist', 'Vampire', 'Chaos', 'Warrior', 'Goat', 'Cyber', 'Reaper', 'Chaos Return', 'Demise', 'Trooper', 'Zombie', 'Perfect Circle', 'DAD Return', 'Gladiator', 'TeleDAD', 'Cat', 'Edison', 'Frog', 'Starstrike', 'Tengu', 'Dino Rabbit', 'Wind-Up', 'Miami', 'Meadowlands', 'Baby Ruler', 'Ravine Ruler', 'Fire-Water', 'HAT', 'Vegas']
 
@@ -21,6 +43,25 @@ cards_by_format = {}
 for format in formats:
    highest_usage[format] = 0
    cards_by_format[format] = {}
+
+cards_by_pack = dict()
+packs = set()
+with open('bastion.json', 'r') as f:
+	data = json.load(f)
+	for card in data:
+		cards_by_pack[card['name']['en']] = card
+		try:
+			for set_tcg in card['sets']['en']:
+				packs.add('TCG_' + set_tcg['set_name'])
+		except:
+			pass
+		try:
+			for set_ocg in card['sets']['ja']:
+				packs.add('OCG_' + set_ocg['set_name'])
+		except:
+			pass
+
+packs = sorted(list(packs))
 
 with open('FL.json', 'r') as f:
     data = json.load(f)
