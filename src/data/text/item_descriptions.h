@@ -1553,4476 +1553,6740 @@ static const u8 sOldSeaMapDesc[] = _(
 static const u8 sYGOPackDesc[] = _(
     "A Yu-Gi-Oh! pack.");
 
-static const u8 s2PlayerStarterDeckYuyaDeclanDesc[] = _(
-    "2-Player Starter\n"
-    "Deck: Yuya &\n"
-    "Declan.");
+static const u8 sOCGAmabieSanPresentCampaignDesc[] = _(
+    "OCG_"Amabie-San"\n"
+    "Present Campaign.");
 
-static const u8 s2PlayerStarterSetDesc[] = _(
-    "2-Player Starter\n"
-    "Set.");
+static const u8 sOCGBlueEyesWhiteDragon20thAnniversaryGoldEditionDesc[] = _(
+    "OCG_"Blue-Eyes\n"
+    "White Dragon"\n"
+    "20th Anniversary\n"
+    "Gold Edition.");
 
-static const u8 s2013CollectibleTinsWave1Desc[] = _(
-    "2013 Collectible\n"
-    "Tins Wave 1.");
+static const u8 sOCGBlueEyesWhiteDragon20thAnniversarySilverEditionDesc[] = _(
+    "OCG_"Blue-Eyes\n"
+    "White Dragon"\n"
+    "20th Anniversary\n"
+    "Silver Edition.");
 
-static const u8 s2013CollectibleTinsWave2Desc[] = _(
-    "2013 Collectible\n"
-    "Tins Wave 2.");
+static const u8 sOCGDarkMagicianGirlSpecialCardDesc[] = _(
+    "OCG_"Dark\n"
+    "Magician Girl"\n"
+    "Special Card.");
 
-static const u8 s2014MegaTinMegaPackDesc[] = _(
-    "2014 Mega-Tin\n"
-    "Mega Pack.");
+static const u8 sOCGDarkMagicianUltraRareSpecialIllustrationVersionGETCampaignDesc[] = _(
+    "OCG_"Dark\n"
+    "Magician Ultra\n"
+    "Rare Special\n"
+    "Illustration\n"
+    "Version" GET\n"
+    "Campaign.");
 
-static const u8 s2014MegaTinsDesc[] = _(
-    "2014 Mega-Tins.");
+static const u8 sOCGDarkMagicianSpecialCardDesc[] = _(
+    "OCG_"Dark\n"
+    "Magician"\n"
+    "Special Card.");
 
-static const u8 s2015MegaTinMegaPackDesc[] = _(
-    "2015 Mega-Tin\n"
-    "Mega Pack.");
+static const u8 sOCGDuelistKingdomCollectStarChipsLimitedPackDesc[] = _(
+    "OCG_"Duelist\n"
+    "Kingdom: Collect\n"
+    "Star Chips!"\n"
+    "Limited Pack.");
 
-static const u8 s2015MegaTinsDesc[] = _(
-    "2015 Mega-Tins.");
+static const u8 sOCG20thAnniversaryDuelSetObelisktheTormentorDesc[] = _(
+    "OCG_20th\n"
+    "Anniversary Duel\n"
+    "Set (Obelisk the\n"
+    "Tormentor).");
 
-static const u8 s2016MegaTinMegaPackDesc[] = _(
-    "2016 Mega-Tin\n"
-    "Mega Pack.");
+static const u8 sOCG20thAnniversaryDuelSetSlifertheSkyDragonDesc[] = _(
+    "OCG_20th\n"
+    "Anniversary Duel\n"
+    "Set (Slifer the\n"
+    "Sky Dragon).");
 
-static const u8 s2016MegaTinsDesc[] = _(
-    "2016 Mega-Tins.");
+static const u8 sOCG20thAnniversaryDuelistBoxDesc[] = _(
+    "OCG_20th\n"
+    "Anniversary\n"
+    "Duelist Box.");
 
-static const u8 s2017MegaTinMegaPackDesc[] = _(
-    "2017 Mega-Tin\n"
-    "Mega Pack.");
-
-static const u8 s2017MegaTinsDesc[] = _(
-    "2017 Mega-Tins.");
-
-static const u8 s2018MegaTinMegaPackDesc[] = _(
-    "2018 Mega-Tin\n"
-    "Mega Pack.");
-
-static const u8 s2018MegaTinsDesc[] = _(
-    "2018 Mega-Tins.");
-
-static const u8 s2019GoldSarcophagusTinDesc[] = _(
-    "2019 Gold\n"
-    "Sarcophagus Tin.");
-
-static const u8 s2019GoldSarcophagusTinMegaPackDesc[] = _(
-    "2019 Gold\n"
-    "Sarcophagus Tin\n"
-    "Mega Pack.");
-
-static const u8 s2020TinofLostMemoriesDesc[] = _(
-    "2020 Tin of Lost\n"
-    "Memories.");
-
-static const u8 s2020TinofLostMemoriesMegaPackDesc[] = _(
-    "2020 Tin of Lost\n"
-    "Memories Mega\n"
-    "Pack.");
-
-static const u8 s2021TinofAncientBattlesDesc[] = _(
-    "2021 Tin of\n"
-    "Ancient Battles.");
-
-static const u8 s2022TinofthePharaohsGodsDesc[] = _(
-    "2022 Tin of the\n"
-    "Pharaoh's Gods.");
-
-static const u8 s25thAnniversaryRarityCollectionDesc[] = _(
-    "25th Anniversary\n"
-    "Rarity\n"
+static const u8 sOCG20thAnniversaryLegendCollectionDesc[] = _(
+    "OCG_20th\n"
+    "Anniversary\n"
+    "Legend\n"
     "Collection.");
 
-static const u8 s25thAnniversaryRarityCollectionIIDesc[] = _(
-    "25th Anniversary\n"
-    "Rarity\n"
-    "Collection II.");
+static const u8 sOCG20thAnniversaryLegendSelectionDesc[] = _(
+    "OCG_20th\n"
+    "Anniversary\n"
+    "Legend Selection.");
 
-static const u8 s25thAnniversaryTinDuelingHeroesDesc[] = _(
-    "25th Anniversary\n"
-    "Tin: Dueling\n"
-    "Heroes.");
+static const u8 sOCG20thAnniversaryLegendaryDragonsDesc[] = _(
+    "OCG_20th\n"
+    "Anniversary\n"
+    "Legendary\n"
+    "Dragons.");
 
-static const u8 s25thAnniversaryTinDuelingHeroesMegaPackDesc[] = _(
-    "25th Anniversary\n"
-    "Tin: Dueling\n"
-    "Heroes Mega Pack.");
+static const u8 sOCG20thAnniversaryPack1stWaveDesc[] = _(
+    "OCG_20th\n"
+    "Anniversary Pack\n"
+    "1st Wave.");
 
-static const u8 s25thAnniversaryTinDuelingMirrorsDesc[] = _(
-    "25th Anniversary\n"
-    "Tin: Dueling\n"
-    "Mirrors.");
+static const u8 sOCG20thAnniversaryPack2ndWaveDesc[] = _(
+    "OCG_20th\n"
+    "Anniversary Pack\n"
+    "2nd Wave.");
 
-static const u8 s25thAnniversaryUltimateKaibaSetDesc[] = _(
-    "25th Anniversary\n"
+static const u8 sOCG20thAnniversarySecretSelectionDesc[] = _(
+    "OCG_20th\n"
+    "Anniversary\n"
+    "Secret Selection.");
+
+static const u8 sOCG20thAnniversarySetDesc[] = _(
+    "OCG_20th\n"
+    "Anniversary Set.");
+
+static const u8 sOCG20thLegendaryCollectionDesc[] = _(
+    "OCG_20th\n"
+    "Legendary\n"
+    "Collection.");
+
+static const u8 sOCG20thRivalCollectionDesc[] = _(
+    "OCG_20th Rival\n"
+    "Collection.");
+
+static const u8 sOCG20thSecretRareChallengePackDesc[] = _(
+    "OCG_20th Secret\n"
+    "Rare Challenge\n"
+    "Pack.");
+
+static const u8 sOCG20thSecretRareFinalChallengePackDesc[] = _(
+    "OCG_20th Secret\n"
+    "Rare Final\n"
+    "Challenge Pack.");
+
+static const u8 sOCG20thSecretRareSpecialPackDesc[] = _(
+    "OCG_20th Secret\n"
+    "Rare Special\n"
+    "Pack.");
+
+static const u8 sOCG25thAnniversaryUltimateKaibaSetDesc[] = _(
+    "OCG_25th\n"
+    "Anniversary\n"
     "Ultimate Kaiba\n"
     "Set.");
 
-static const u8 sAbsolutePowerforceDesc[] = _(
-    "Absolute\n"
+static const u8 sOCG3x3JapanChampionship2025FinalsprizecardsDesc[] = _(
+    "OCG_3x3 Japan\n"
+    "Championship\n"
+    "2025 Finals\n"
+    "prize cards.");
+
+static const u8 sOCG3x3JapanChampionship2025QualifiersAprilprizecardDesc[] = _(
+    "OCG_3x3 Japan\n"
+    "Championship\n"
+    "2025 Qualifiers\n"
+    "April prize card.");
+
+static const u8 sOCGIgnisterDuelSetDesc[] = _(
+    "OCG_@Ignister\n"
+    "Duel Set.");
+
+static const u8 sOCGAbsolutePowerforceDesc[] = _(
+    "OCG_Absolute\n"
     "Powerforce.");
 
-static const u8 sAbsolutePowerforceSneakPeekParticipationCardDesc[] = _(
-    "Absolute\n"
-    "Powerforce Sneak\n"
-    "Peek\n"
-    "Participation\n"
-    "Card.");
+static const u8 sOCGAbsolutePowerforce2PackSetDesc[] = _(
+    "OCG_Absolute\n"
+    "Powerforce\n"
+    "2-Pack Set.");
 
-static const u8 sAbsolutePowerforceSpecialEditionDesc[] = _(
-    "Absolute\n"
-    "Powerforce:\n"
-    "Special Edition.");
+static const u8 sOCGAbyssRisingDesc[] = _(
+    "OCG_Abyss Rising.");
 
-static const u8 sAbyssRisingDesc[] = _(
-    "Abyss Rising.");
+static const u8 sOCGAcademyDuelDisksetDesc[] = _(
+    "OCG_Academy Duel\n"
+    "Disk (set).");
 
-static const u8 sAbyssRisingSneakPeekParticipationCardDesc[] = _(
-    "Abyss Rising\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sAbyssRisingSpecialEditionDesc[] = _(
-    "Abyss Rising:\n"
-    "Special Edition.");
-
-static const u8 sAdvancedDemoDeckExtraPackDesc[] = _(
-    "Advanced Demo\n"
-    "Deck Extra Pack.");
-
-static const u8 sAgeofOverlordDesc[] = _(
-    "Age of Overlord.");
-
-static const u8 sAllianceInsightDesc[] = _(
-    "Alliance Insight.");
-
-static const u8 sAmazingDefendersDesc[] = _(
-    "Amazing\n"
-    "Defenders.");
-
-static const u8 sAncientGuardiansDesc[] = _(
-    "Ancient\n"
-    "Guardians.");
-
-static const u8 sAncientProphecyDesc[] = _(
-    "Ancient Prophecy.");
-
-static const u8 sAncientProphecySneakPeekParticipationCardDesc[] = _(
-    "Ancient Prophecy\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sAncientProphecySpecialEditionDesc[] = _(
-    "Ancient\n"
-    "Prophecy:\n"
-    "Special Edition.");
-
-static const u8 sAncientSanctuaryDesc[] = _(
-    "Ancient\n"
-    "Sanctuary.");
-
-static const u8 sAnniversaryPackDesc[] = _(
-    "Anniversary Pack.");
-
-static const u8 sAstralPackEightDesc[] = _(
-    "Astral Pack\n"
-    "Eight.");
-
-static const u8 sAstralPackFiveDesc[] = _(
-    "Astral Pack Five.");
-
-static const u8 sAstralPackFourDesc[] = _(
-    "Astral Pack Four.");
-
-static const u8 sAstralPackOneDesc[] = _(
-    "Astral Pack One.");
-
-static const u8 sAstralPackSevenDesc[] = _(
-    "Astral Pack\n"
-    "Seven.");
-
-static const u8 sAstralPackSixDesc[] = _(
-    "Astral Pack Six.");
-
-static const u8 sAstralPackThreeDesc[] = _(
-    "Astral Pack\n"
-    "Three.");
-
-static const u8 sAstralPackTwoDesc[] = _(
-    "Astral Pack Two.");
-
-static const u8 sBattlePack2WaroftheGiantsDesc[] = _(
-    "Battle Pack 2:\n"
-    "War of the\n"
-    "Giants.");
-
-static const u8 sBattlePack3MonsterLeagueDesc[] = _(
-    "Battle Pack 3:\n"
-    "Monster League.");
-
-static const u8 sBattlePackTournamentPrizeCardsDesc[] = _(
-    "Battle Pack\n"
-    "Tournament Prize\n"
-    "Cards.");
-
-static const u8 sBattlePackEpicDawnDesc[] = _(
-    "Battle Pack:\n"
-    "Epic Dawn.");
-
-static const u8 sBattleofChaosDesc[] = _(
-    "Battle of Chaos.");
-
-static const u8 sBattlesofLegendArmageddonDesc[] = _(
-    "Battles of\n"
-    "Legend:\n"
-    "Armageddon.");
-
-static const u8 sBattlesofLegendChapter1Desc[] = _(
-    "Battles of\n"
-    "Legend: Chapter\n"
-    "1.");
-
-static const u8 sBattlesofLegendCrystalRevengeDesc[] = _(
-    "Battles of\n"
-    "Legend: Crystal\n"
-    "Revenge.");
-
-static const u8 sBattlesofLegendHerosRevengeDesc[] = _(
-    "Battles of\n"
-    "Legend: Hero's\n"
-    "Revenge.");
-
-static const u8 sBattlesofLegendLightsRevengeDesc[] = _(
-    "Battles of\n"
-    "Legend: Light's\n"
-    "Revenge.");
-
-static const u8 sBattlesofLegendMonsterMayhemDesc[] = _(
-    "Battles of\n"
-    "Legend: Monster\n"
-    "Mayhem.");
-
-static const u8 sBattlesofLegendMonstrousRevengeDesc[] = _(
-    "Battles of\n"
-    "Legend:\n"
-    "Monstrous\n"
-    "Revenge.");
-
-static const u8 sBattlesofLegendRelentlessRevengeDesc[] = _(
-    "Battles of\n"
-    "Legend:\n"
-    "Relentless\n"
-    "Revenge.");
-
-static const u8 sBattlesofLegendTerminalRevengeDesc[] = _(
-    "Battles of\n"
-    "Legend: Terminal\n"
-    "Revenge.");
-
-static const u8 sBlazingVortexDesc[] = _(
-    "Blazing Vortex.");
-
-static const u8 sBlazingVortexPremierepromotionalcardDesc[] = _(
-    "Blazing Vortex\n"
-    "Premiere!\n"
-    "promotional card.");
-
-static const u8 sBlueEyesAlternativeWhiteDragonSweepstakesDesc[] = _(
-    "Blue-Eyes\n"
-    "Alternative\n"
-    "White Dragon\n"
-    "Sweepstakes.");
-
-static const u8 sBoosterPackCollectorsTins2002Desc[] = _(
-    "Booster Pack\n"
-    "Collectors Tins\n"
-    "2002.");
-
-static const u8 sBreakersofShadowDesc[] = _(
-    "Breakers of\n"
-    "Shadow.");
-
-static const u8 sBreakersofShadowSneakPeekParticipationCardDesc[] = _(
-    "Breakers of\n"
-    "Shadow Sneak\n"
-    "Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sBreakersofShadowSpecialEditionDesc[] = _(
-    "Breakers of\n"
-    "Shadow: Special\n"
+static const u8 sOCGAcademyDuelDiskLimitedEditionDesc[] = _(
+    "OCG_Academy Duel\n"
+    "Disk Limited\n"
     "Edition.");
 
-static const u8 sBrothersofLegendDesc[] = _(
-    "Brothers of\n"
-    "Legend.");
-
-static const u8 sBurstofDestinyDesc[] = _(
-    "Burst of Destiny.");
-
-static const u8 sChampionPackGameEightDesc[] = _(
-    "Champion Pack:\n"
-    "Game Eight.");
-
-static const u8 sChampionPackGameFiveDesc[] = _(
-    "Champion Pack:\n"
-    "Game Five.");
-
-static const u8 sChampionPackGameFourDesc[] = _(
-    "Champion Pack:\n"
-    "Game Four.");
-
-static const u8 sChampionPackGameOneDesc[] = _(
-    "Champion Pack:\n"
-    "Game One.");
-
-static const u8 sChampionPackGameSevenDesc[] = _(
-    "Champion Pack:\n"
-    "Game Seven.");
-
-static const u8 sChampionPackGameSixDesc[] = _(
-    "Champion Pack:\n"
-    "Game Six.");
-
-static const u8 sChampionPackGameThreeDesc[] = _(
-    "Champion Pack:\n"
-    "Game Three.");
-
-static const u8 sChampionPackGameTwoDesc[] = _(
-    "Champion Pack:\n"
-    "Game Two.");
-
-static const u8 sChaosImpactDesc[] = _(
-    "Chaos Impact.");
-
-static const u8 sChaosImpactSneakPeekParticipationCardDesc[] = _(
-    "Chaos Impact\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sChaosImpactSpecialEditionDesc[] = _(
-    "Chaos Impact\n"
-    "Special Edition.");
-
-static const u8 sCircuitBreakDesc[] = _(
-    "Circuit Break.");
-
-static const u8 sCircuitBreakSneakPeekParticipationCardDesc[] = _(
-    "Circuit Break\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sCircuitBreakSpecialEditionDesc[] = _(
-    "Circuit Break\n"
-    "Special Edition.");
-
-static const u8 sClashofRebellionsDesc[] = _(
-    "Clash of\n"
-    "Rebellions.");
-
-static const u8 sClashofRebellionsSneakPeekParticipationCardDesc[] = _(
-    "Clash of\n"
-    "Rebellions Sneak\n"
-    "Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sClashofRebellionsSpecialEditionDesc[] = _(
-    "Clash of\n"
-    "Rebellions:\n"
-    "Special Edition.");
-
-static const u8 sCodeoftheDuelistDesc[] = _(
-    "Code of the\n"
-    "Duelist.");
-
-static const u8 sCodeoftheDuelistSneakPeekParticipationCardDesc[] = _(
-    "Code of the\n"
-    "Duelist Sneak\n"
-    "Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sCodeoftheDuelistSpecialEditionDesc[] = _(
-    "Code of the\n"
-    "Duelist Special\n"
-    "Edition.");
-
-static const u8 sCollectibleTins2003Desc[] = _(
-    "Collectible Tins\n"
-    "2003.");
-
-static const u8 sCollectibleTins2004Desc[] = _(
-    "Collectible Tins\n"
-    "2004.");
-
-static const u8 sCollectibleTins2005Desc[] = _(
-    "Collectible Tins\n"
-    "2005.");
-
-static const u8 sCollectibleTins2006Wave1Desc[] = _(
-    "Collectible Tins\n"
-    "2006 Wave 1.");
-
-static const u8 sCollectibleTins2006Wave2Desc[] = _(
-    "Collectible Tins\n"
-    "2006 Wave 2.");
-
-static const u8 sCollectibleTins2007Wave1Desc[] = _(
-    "Collectible Tins\n"
-    "2007 Wave 1.");
-
-static const u8 sCollectibleTins2007Wave2Desc[] = _(
-    "Collectible Tins\n"
-    "2007 Wave 2.");
-
-static const u8 sCollectibleTins2008Wave1Desc[] = _(
-    "Collectible Tins\n"
-    "2008 Wave 1.");
-
-static const u8 sCollectibleTins2008Wave2Desc[] = _(
-    "Collectible Tins\n"
-    "2008 Wave 2.");
-
-static const u8 sCollectibleTins2009Wave1Desc[] = _(
-    "Collectible Tins\n"
-    "2009 Wave 1.");
-
-static const u8 sCollectibleTins2009Wave2Desc[] = _(
-    "Collectible Tins\n"
-    "2009 Wave 2.");
-
-static const u8 sCollectibleTins2010Wave1Desc[] = _(
-    "Collectible Tins\n"
-    "2010 Wave 1.");
-
-static const u8 sCollectibleTins2010Wave2Desc[] = _(
-    "Collectible Tins\n"
-    "2010 Wave 2.");
-
-static const u8 sCollectibleTins2011Wave1Desc[] = _(
-    "Collectible Tins\n"
-    "2011 Wave 1.");
-
-static const u8 sCollectibleTins2011Wave2Desc[] = _(
-    "Collectible Tins\n"
-    "2011 Wave 2.");
-
-static const u8 sCollectibleTins2012Wave1Desc[] = _(
-    "Collectible Tins\n"
-    "2012 Wave 1.");
-
-static const u8 sCollectibleTins2012Wave2Desc[] = _(
-    "Collectible Tins\n"
-    "2012 Wave 2.");
-
-static const u8 sCollectibleTins2012Wave25Desc[] = _(
-    "Collectible Tins\n"
-    "2012 Wave 2.5.");
-
-static const u8 sCollectibleTinsExclusive2008Desc[] = _(
-    "Collectible Tins\n"
-    "Exclusive 2008.");
-
-static const u8 sCollectibleTinsExclusive2009Desc[] = _(
-    "Collectible Tins\n"
-    "Exclusive 2009.");
-
-static const u8 sCosmoBlazerDesc[] = _(
-    "Cosmo Blazer.");
-
-static const u8 sCosmoBlazerSneakPeekParticipationCardDesc[] = _(
-    "Cosmo Blazer\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sCosmoBlazerSpecialEditionDesc[] = _(
-    "Cosmo Blazer:\n"
-    "Special Edition.");
-
-static const u8 sCrimsonCrisisDesc[] = _(
-    "Crimson Crisis.");
-
-static const u8 sCrimsonCrisisSneakPeekParticipationCardDesc[] = _(
-    "Crimson Crisis\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sCrimsonCrisisSpecialEditionDesc[] = _(
-    "Crimson Crisis:\n"
-    "Special Edition.");
-
-static const u8 sCrossedSoulsDesc[] = _(
-    "Crossed Souls.");
-
-static const u8 sCrossedSoulsSneakPeekParticipationCardDesc[] = _(
-    "Crossed Souls\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sCrossedSoulsAdvanceEditionDesc[] = _(
-    "Crossed Souls:\n"
-    "Advance Edition.");
-
-static const u8 sCrossoverBreakersDesc[] = _(
-    "Crossover\n"
-    "Breakers.");
-
-static const u8 sCrossroadsofChaosDesc[] = _(
-    "Crossroads of\n"
-    "Chaos.");
-
-static const u8 sCrossroadsofChaosSneakPeekParticipationCardDesc[] = _(
-    "Crossroads of\n"
-    "Chaos Sneak Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sCrossroadsofChaosSpecialEditionDesc[] = _(
-    "Crossroads of\n"
-    "Chaos: Special\n"
-    "Edition.");
-
-static const u8 sCyberDragonRevolutionStructureDeckDesc[] = _(
-    "Cyber Dragon\n"
-    "Revolution\n"
-    "Structure Deck.");
-
-static const u8 sCyberdarkImpactDesc[] = _(
-    "Cyberdark Impact.");
-
-static const u8 sCyberdarkImpactSneakPeekParticipationCardDesc[] = _(
-    "Cyberdark Impact\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sCyberneticHorizonDesc[] = _(
-    "Cybernetic\n"
-    "Horizon.");
-
-static const u8 sCyberneticHorizonSneakPeekParticipationCardDesc[] = _(
-    "Cybernetic\n"
-    "Horizon Sneak\n"
-    "Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sCyberneticHorizonSpecialEditionDesc[] = _(
-    "Cybernetic\n"
-    "Horizon Special\n"
-    "Edition.");
-
-static const u8 sCyberneticRevolutionDesc[] = _(
-    "Cybernetic\n"
-    "Revolution.");
-
-static const u8 sCyberneticRevolutionSneakPeekParticipationCardDesc[] = _(
-    "Cybernetic\n"
-    "Revolution Sneak\n"
-    "Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sCyberstormAccessDesc[] = _(
-    "Cyberstorm\n"
-    "Access.");
-
-static const u8 sDarkBeginning1Desc[] = _(
-    "Dark Beginning 1.");
-
-static const u8 sDarkBeginning2Desc[] = _(
-    "Dark Beginning 2.");
-
-static const u8 sDarkCrisisDesc[] = _(
-    "Dark Crisis.");
-
-static const u8 sDarkLegendsDesc[] = _(
-    "Dark Legends.");
-
-static const u8 sDarkLegionStarterDeckDesc[] = _(
-    "Dark Legion\n"
-    "Starter Deck.");
-
-static const u8 sDarkNeostormDesc[] = _(
-    "Dark Neostorm.");
-
-static const u8 sDarkNeostormSneakPeekParticipationCardDesc[] = _(
-    "Dark Neostorm\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sDarkNeostormSpecialEditionDesc[] = _(
-    "Dark Neostorm\n"
-    "Special Edition.");
-
-static const u8 sDarkRevelationVolume1Desc[] = _(
-    "Dark Revelation\n"
-    "Volume 1.");
-
-static const u8 sDarkRevelationVolume2Desc[] = _(
-    "Dark Revelation\n"
-    "Volume 2.");
-
-static const u8 sDarkRevelationVolume3Desc[] = _(
-    "Dark Revelation\n"
-    "Volume 3.");
-
-static const u8 sDarkRevelationVolume4Desc[] = _(
-    "Dark Revelation\n"
-    "Volume 4.");
-
-static const u8 sDarkSaviorsDesc[] = _(
-    "Dark Saviors.");
-
-static const u8 sDarkwingBlastDesc[] = _(
-    "Darkwing Blast.");
-
-static const u8 sDawnofMajestyDesc[] = _(
-    "Dawn of Majesty.");
-
-static const u8 sDawnofMajestyPremierepromotionalcardDesc[] = _(
-    "Dawn of Majesty\n"
-    "Premiere!\n"
-    "promotional card.");
-
-static const u8 sDemoDeck2015Desc[] = _(
-    "Demo Deck 2015.");
-
-static const u8 sDemoDeck2016Desc[] = _(
-    "Demo Deck 2016.");
-
-static const u8 sDemoPackDesc[] = _(
-    "Demo Pack.");
-
-static const u8 sDestinySoldiersDesc[] = _(
-    "Destiny Soldiers.");
-
-static const u8 sDimensionForceDesc[] = _(
-    "Dimension Force.");
-
-static const u8 sDimensionofChaosDesc[] = _(
-    "Dimension of\n"
-    "Chaos.");
-
-static const u8 sDimensionofChaosSneakPeekParticipationCardDesc[] = _(
-    "Dimension of\n"
-    "Chaos Sneak Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sDimensionofChaosSpecialEditionDesc[] = _(
-    "Dimension of\n"
-    "Chaos: Special\n"
-    "Edition.");
-
-static const u8 sDinosmashersFuryStructureDeckDesc[] = _(
-    "Dinosmasher's\n"
-    "Fury Structure\n"
-    "Deck.");
-
-static const u8 sDragonsCollideStructureDeckDesc[] = _(
-    "Dragons Collide\n"
-    "Structure Deck.");
-
-static const u8 sDragonsofLegendDesc[] = _(
-    "Dragons of\n"
-    "Legend.");
-
-static const u8 sDragonsofLegend2Desc[] = _(
-    "Dragons of\n"
-    "Legend 2.");
-
-static const u8 sDragonsofLegendTheCompleteSeriesDesc[] = _(
-    "Dragons of\n"
-    "Legend: The\n"
-    "Complete Series.");
-
-static const u8 sDragonsofLegendUnleashedDesc[] = _(
-    "Dragons of\n"
-    "Legend:\n"
-    "Unleashed.");
-
-static const u8 sDragunityLegionStructureDeckDesc[] = _(
-    "Dragunity Legion\n"
-    "Structure Deck.");
-
-static const u8 sDuelDevastatorDesc[] = _(
-    "Duel Devastator.");
-
-static const u8 sDuelDiskYuseiVersionDesc[] = _(
-    "Duel Disk -\n"
-    "Yusei Version.");
-
-static const u8 sDuelMastersGuidepromotionalcardsDesc[] = _(
-    "Duel Master's\n"
-    "Guide\n"
+static const u8 sOCGAcademyDuelDiskOsirisRedpromotionalcardsDesc[] = _(
+    "OCG_Academy Duel\n"
+    "Disk Osiris Red\n"
     "promotional\n"
     "cards.");
 
-static const u8 sDuelOverloadDesc[] = _(
-    "Duel Overload.");
-
-static const u8 sDuelPowerDesc[] = _(
-    "Duel Power.");
-
-static const u8 sDuelTerminalPreviewWave1Desc[] = _(
-    "Duel Terminal -\n"
-    "Preview Wave 1.");
-
-static const u8 sDuelTerminalPreviewWave2Desc[] = _(
-    "Duel Terminal -\n"
-    "Preview Wave 2.");
-
-static const u8 sDuelTerminal1Desc[] = _(
-    "Duel Terminal 1.");
-
-static const u8 sDuelTerminal2Desc[] = _(
-    "Duel Terminal 2.");
-
-static const u8 sDuelTerminal3Desc[] = _(
-    "Duel Terminal 3.");
-
-static const u8 sDuelTerminal4Desc[] = _(
-    "Duel Terminal 4.");
-
-static const u8 sDuelTerminal5Desc[] = _(
-    "Duel Terminal 5.");
-
-static const u8 sDuelTerminal5aDesc[] = _(
-    "Duel Terminal 5a.");
-
-static const u8 sDuelTerminal5bDesc[] = _(
-    "Duel Terminal 5b.");
-
-static const u8 sDuelTerminal6Desc[] = _(
-    "Duel Terminal 6.");
-
-static const u8 sDuelTerminal6aDesc[] = _(
-    "Duel Terminal 6a.");
-
-static const u8 sDuelTerminal6bDesc[] = _(
-    "Duel Terminal 6b.");
-
-static const u8 sDuelTerminal7Desc[] = _(
-    "Duel Terminal 7.");
-
-static const u8 sDuelTerminal7aDesc[] = _(
-    "Duel Terminal 7a.");
-
-static const u8 sDuelTerminal7bDesc[] = _(
-    "Duel Terminal 7b.");
-
-static const u8 sDuelistAllianceDesc[] = _(
-    "Duelist Alliance.");
-
-static const u8 sDuelistAllianceSneakPeekParticipationCardDesc[] = _(
-    "Duelist Alliance\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sDuelistAllianceDeluxeEditionDesc[] = _(
-    "Duelist\n"
-    "Alliance: Deluxe\n"
-    "Edition.");
-
-static const u8 sDuelistLeague13participationcardsDesc[] = _(
-    "Duelist League\n"
-    "13 participation\n"
-    "cards.");
-
-static const u8 sDuelistLeague14participationcardsDesc[] = _(
-    "Duelist League\n"
-    "14 participation\n"
-    "cards.");
-
-static const u8 sDuelistLeague15participationcardsDesc[] = _(
-    "Duelist League\n"
-    "15 participation\n"
-    "cards.");
-
-static const u8 sDuelistLeague16participationcardsDesc[] = _(
-    "Duelist League\n"
-    "16 participation\n"
-    "cards.");
-
-static const u8 sDuelistLeague17participationcardsDesc[] = _(
-    "Duelist League\n"
-    "17 participation\n"
-    "cards.");
-
-static const u8 sDuelistLeague18participationcardsDesc[] = _(
-    "Duelist League\n"
-    "18 participation\n"
-    "cards.");
-
-static const u8 sDuelistLeague2participationcardsDesc[] = _(
-    "Duelist League 2\n"
-    "participation\n"
-    "cards.");
-
-static const u8 sDuelistLeague2010participationcardsDesc[] = _(
-    "Duelist League\n"
-    "2010\n"
-    "participation\n"
-    "cards.");
-
-static const u8 sDuelistLeague3participationcardsDesc[] = _(
-    "Duelist League 3\n"
-    "participation\n"
-    "cards.");
-
-static const u8 sDuelistLeagueDemo2010Desc[] = _(
-    "Duelist League\n"
-    "Demo 2010.");
-
-static const u8 sDuelistLeagueSeries1participationcardsDesc[] = _(
-    "Duelist League\n"
-    "Series 1\n"
-    "participation\n"
-    "cards.");
-
-static const u8 sDuelistLeagueSeries10participationcardDesc[] = _(
-    "Duelist League\n"
-    "Series 10\n"
-    "participation\n"
-    "card.");
-
-static const u8 sDuelistLeagueSeries2participationcardsDesc[] = _(
-    "Duelist League\n"
-    "Series 2\n"
-    "participation\n"
-    "cards.");
-
-static const u8 sDuelistLeagueSeries3participationcardDesc[] = _(
-    "Duelist League\n"
-    "Series 3\n"
-    "participation\n"
-    "card.");
-
-static const u8 sDuelistLeagueSeries4participationcardDesc[] = _(
-    "Duelist League\n"
-    "Series 4\n"
-    "participation\n"
-    "card.");
-
-static const u8 sDuelistLeagueSeries5participationcardDesc[] = _(
-    "Duelist League\n"
-    "Series 5\n"
-    "participation\n"
-    "card.");
-
-static const u8 sDuelistLeagueSeries6participationcardDesc[] = _(
-    "Duelist League\n"
-    "Series 6\n"
-    "participation\n"
-    "card.");
-
-static const u8 sDuelistLeagueSeries7participationcardDesc[] = _(
-    "Duelist League\n"
-    "Series 7\n"
-    "participation\n"
-    "card.");
-
-static const u8 sDuelistLeagueSeries8participationcardDesc[] = _(
-    "Duelist League\n"
-    "Series 8\n"
-    "participation\n"
-    "card.");
-
-static const u8 sDuelistLeagueSeries9participationcardDesc[] = _(
-    "Duelist League\n"
-    "Series 9\n"
-    "participation\n"
-    "card.");
-
-static const u8 sDuelistNexusDesc[] = _(
-    "Duelist Nexus.");
-
-static const u8 sDuelistPackCollectionTin2008Desc[] = _(
-    "Duelist Pack\n"
-    "Collection Tin\n"
-    "2008.");
-
-static const u8 sDuelistPackCollectionTin2009Desc[] = _(
-    "Duelist Pack\n"
-    "Collection Tin\n"
-    "2009.");
-
-static const u8 sDuelistPackCollectionTin2010Desc[] = _(
-    "Duelist Pack\n"
-    "Collection Tin\n"
-    "2010.");
-
-static const u8 sDuelistPackCollectionTin2011Desc[] = _(
-    "Duelist Pack\n"
-    "Collection Tin\n"
-    "2011.");
-
-static const u8 sDuelistPackCollectionTinJadenYukiDesc[] = _(
-    "Duelist Pack\n"
-    "Collection Tin:\n"
-    "Jaden Yuki.");
-
-static const u8 sDuelistPackAsterPhoenixDesc[] = _(
-    "Duelist Pack:\n"
-    "Aster Phoenix.");
-
-static const u8 sDuelistPackBattleCityDesc[] = _(
-    "Duelist Pack:\n"
-    "Battle City.");
-
-static const u8 sDuelistPackChazzPrincetonDesc[] = _(
-    "Duelist Pack:\n"
-    "Chazz Princeton.");
-
-static const u8 sDuelistPackCrowDesc[] = _(
-    "Duelist Pack:\n"
-    "Crow.");
-
-static const u8 sDuelistPackDimensionalGuardiansDesc[] = _(
-    "Duelist Pack:\n"
-    "Dimensional\n"
-    "Guardians.");
-
-static const u8 sDuelistPackJadenYukiDesc[] = _(
-    "Duelist Pack:\n"
-    "Jaden Yuki.");
-
-static const u8 sDuelistPackJadenYuki2Desc[] = _(
-    "Duelist Pack:\n"
-    "Jaden Yuki 2.");
-
-static const u8 sDuelistPackJadenYuki3Desc[] = _(
-    "Duelist Pack:\n"
-    "Jaden Yuki 3.");
-
-static const u8 sDuelistPackJesseAndersonDesc[] = _(
-    "Duelist Pack:\n"
-    "Jesse Anderson.");
-
-static const u8 sDuelistPackKaibaDesc[] = _(
-    "Duelist Pack:\n"
-    "Kaiba.");
-
-static const u8 sDuelistPackRivalsofthePharaohDesc[] = _(
-    "Duelist Pack:\n"
-    "Rivals of the\n"
-    "Pharaoh.");
-
-static const u8 sDuelistPackSpecialEditionDesc[] = _(
-    "Duelist Pack:\n"
-    "Special Edition.");
-
-static const u8 sDuelistPackYugiDesc[] = _(
-    "Duelist Pack:\n"
-    "Yugi.");
-
-static const u8 sDuelistPackYuseiDesc[] = _(
-    "Duelist Pack:\n"
-    "Yusei.");
-
-static const u8 sDuelistPackYusei2Desc[] = _(
-    "Duelist Pack:\n"
-    "Yusei 2.");
-
-static const u8 sDuelistPackYusei3Desc[] = _(
-    "Duelist Pack:\n"
-    "Yusei 3.");
-
-static const u8 sDuelistPackZaneTruesdaleDesc[] = _(
-    "Duelist Pack:\n"
-    "Zane Truesdale.");
-
-static const u8 sDuelistRevolutionDesc[] = _(
-    "Duelist\n"
-    "Revolution.");
-
-static const u8 sDuelistRevolutionSneakPeekParticipationCardDesc[] = _(
-    "Duelist\n"
-    "Revolution Sneak\n"
-    "Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sDuelistRevolutionSpecialEditionDesc[] = _(
-    "Duelist\n"
-    "Revolution:\n"
-    "Special Edition.");
-
-static const u8 sDuelistSagaDesc[] = _(
-    "Duelist Saga.");
-
-static const u8 sDuelistsAdvanceDesc[] = _(
-    "Duelist's\n"
-    "Advance.");
-
-static const u8 sEgyptianGodDeckObelisktheTormentorDesc[] = _(
-    "Egyptian God\n"
-    "Deck: Obelisk\n"
-    "the Tormentor.");
-
-static const u8 sEgyptianGodDeckSlifertheSkyDragonDesc[] = _(
-    "Egyptian God\n"
-    "Deck: Slifer the\n"
-    "Sky Dragon.");
-
-static const u8 sElementalEnergyDesc[] = _(
-    "Elemental Energy.");
-
-static const u8 sElementalEnergySneakPeekParticipationCardDesc[] = _(
-    "Elemental Energy\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sElementalEnergySpecialEditionDesc[] = _(
-    "Elemental\n"
-    "Energy: Special\n"
-    "Edition.");
-
-static const u8 sEmperorofDarknessStructureDeckDesc[] = _(
-    "Emperor of\n"
-    "Darkness\n"
-    "Structure Deck.");
-
-static const u8 sEnemyofJusticeDesc[] = _(
-    "Enemy of Justice.");
-
-static const u8 sEnemyofJusticeSneakPeekParticipationCardDesc[] = _(
-    "Enemy of Justice\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sEternityCodeDesc[] = _(
-    "Eternity Code.");
-
-static const u8 sEternityCodePremierepromotionalcardDesc[] = _(
-    "Eternity Code\n"
-    "Premiere!\n"
-    "promotional card.");
-
-static const u8 sEventPackSpeedDuelDesc[] = _(
-    "Event Pack Speed\n"
-    "Duel.");
-
-static const u8 sExclusivePackDesc[] = _(
-    "Exclusive Pack.");
-
-static const u8 sExtremeForceDesc[] = _(
-    "Extreme Force.");
-
-static const u8 sExtremeForceSneakPeekParticipationCardDesc[] = _(
-    "Extreme Force\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sExtremeForceSpecialEditionDesc[] = _(
-    "Extreme Force\n"
-    "Special Edition.");
-
-static const u8 sExtremeVictoryDesc[] = _(
-    "Extreme Victory.");
-
-static const u8 sExtremeVictorySneakPeekParticipationCardDesc[] = _(
-    "Extreme Victory\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sFireFistsSpecialEditionDesc[] = _(
-    "Fire Fists:\n"
-    "Special Edition.");
-
-static const u8 sFistsoftheGadgetsDesc[] = _(
-    "Fists of the\n"
-    "Gadgets.");
-
-static const u8 sFlamesofDestructionDesc[] = _(
-    "Flames of\n"
-    "Destruction.");
-
-static const u8 sFlamesofDestructionSneakPeekParticipationCardDesc[] = _(
-    "Flames of\n"
-    "Destruction\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sFlamesofDestructionSpecialEditionDesc[] = _(
-    "Flames of\n"
-    "Destruction\n"
-    "Special Edition.");
-
-static const u8 sFlamingEternityDesc[] = _(
-    "Flaming Eternity.");
-
-static const u8 sFlamingEternitySneakPeekParticipationCardDesc[] = _(
-    "Flaming Eternity\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sForbiddenLegacyDesc[] = _(
-    "Forbidden Legacy.");
-
-static const u8 sForceoftheBreakerDesc[] = _(
-    "Force of the\n"
-    "Breaker.");
-
-static const u8 sForceoftheBreakerSneakPeekParticipationCardDesc[] = _(
-    "Force of the\n"
-    "Breaker Sneak\n"
-    "Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sForceoftheBreakerSpecialEditionDesc[] = _(
-    "Force of the\n"
-    "Breaker: Special\n"
-    "Edition.");
-
-static const u8 sFusionEnforcersDesc[] = _(
-    "Fusion Enforcers.");
-
-static const u8 sGXNextGenerationDesc[] = _(
-    "GX Next\n"
-    "Generation.");
-
-static const u8 sGalacticOverlordDesc[] = _(
-    "Galactic\n"
+static const u8 sOCGAcademyDuelDiskSpecialSetDesc[] = _(
+    "OCG_Academy Duel\n"
+    "Disk Special Set.");
+
+static const u8 sOCGAdvancedTournamentPack2013Vol1Desc[] = _(
+    "OCG_Advanced\n"
+    "Tournament Pack\n"
+    "2013 Vol.1.");
+
+static const u8 sOCGAdvancedTournamentPack2013Vol2Desc[] = _(
+    "OCG_Advanced\n"
+    "Tournament Pack\n"
+    "2013 Vol.2.");
+
+static const u8 sOCGAdvancedTournamentPack2013Vol3Desc[] = _(
+    "OCG_Advanced\n"
+    "Tournament Pack\n"
+    "2013 Vol.3.");
+
+static const u8 sOCGAdvancedTournamentPack2013Vol4Desc[] = _(
+    "OCG_Advanced\n"
+    "Tournament Pack\n"
+    "2013 Vol.4.");
+
+static const u8 sOCGAdvancedTournamentPack2014Vol1Desc[] = _(
+    "OCG_Advanced\n"
+    "Tournament Pack\n"
+    "2014 Vol.1.");
+
+static const u8 sOCGAdvancedTournamentPack2014Vol2Desc[] = _(
+    "OCG_Advanced\n"
+    "Tournament Pack\n"
+    "2014 Vol.2.");
+
+static const u8 sOCGAdvancedTournamentPack2014Vol3Desc[] = _(
+    "OCG_Advanced\n"
+    "Tournament Pack\n"
+    "2014 Vol.3.");
+
+static const u8 sOCGAdvancedTournamentPack2014Vol4Desc[] = _(
+    "OCG_Advanced\n"
+    "Tournament Pack\n"
+    "2014 Vol.4.");
+
+static const u8 sOCGAdvancedTournamentPack2015Vol1Desc[] = _(
+    "OCG_Advanced\n"
+    "Tournament Pack\n"
+    "2015 Vol.1.");
+
+static const u8 sOCGAdvancedTournamentPack2015Vol2Desc[] = _(
+    "OCG_Advanced\n"
+    "Tournament Pack\n"
+    "2015 Vol.2.");
+
+static const u8 sOCGAdvancedTournamentPack2015Vol3Desc[] = _(
+    "OCG_Advanced\n"
+    "Tournament Pack\n"
+    "2015 Vol.3.");
+
+static const u8 sOCGAdvancedTournamentPack2015Vol4Desc[] = _(
+    "OCG_Advanced\n"
+    "Tournament Pack\n"
+    "2015 Vol.4.");
+
+static const u8 sOCGAdvancedTournamentPack2016Vol1Desc[] = _(
+    "OCG_Advanced\n"
+    "Tournament Pack\n"
+    "2016 Vol.1.");
+
+static const u8 sOCGAdvancedTournamentPack2016Vol2Desc[] = _(
+    "OCG_Advanced\n"
+    "Tournament Pack\n"
+    "2016 Vol.2.");
+
+static const u8 sOCGAdvancedTournamentPack2016Vol3Desc[] = _(
+    "OCG_Advanced\n"
+    "Tournament Pack\n"
+    "2016 Vol.3.");
+
+static const u8 sOCGAdvancedTournamentPack2016Vol4Desc[] = _(
+    "OCG_Advanced\n"
+    "Tournament Pack\n"
+    "2016 Vol.4.");
+
+static const u8 sOCGAdvancedTournamentPack2017Vol1Desc[] = _(
+    "OCG_Advanced\n"
+    "Tournament Pack\n"
+    "2017 Vol.1.");
+
+static const u8 sOCGAdventofUnionDesc[] = _(
+    "OCG_Advent of\n"
+    "Union.");
+
+static const u8 sOCGAgeofOverlordDesc[] = _(
+    "OCG_Age of\n"
     "Overlord.");
 
-static const u8 sGalacticOverlordSneakPeekParticipationCardDesc[] = _(
-    "Galactic\n"
-    "Overlord Sneak\n"
-    "Peek\n"
-    "Participation\n"
-    "Card.");
+static const u8 sOCGAgeofOverlord1BonusPackDesc[] = _(
+    "OCG_Age of\n"
+    "Overlord +1\n"
+    "Bonus Pack.");
 
-static const u8 sGatesoftheUnderworldStructureDeckDesc[] = _(
-    "Gates of the\n"
-    "Underworld\n"
-    "Structure Deck.");
+static const u8 sOCGAllianceInsightDesc[] = _(
+    "OCG_Alliance\n"
+    "Insight.");
 
-static const u8 sGeargiaRampageStructureDeckDesc[] = _(
-    "Geargia Rampage\n"
-    "Structure Deck.");
+static const u8 sOCGAllianceInsight1BonusPackDesc[] = _(
+    "OCG_Alliance\n"
+    "Insight +1 Bonus\n"
+    "Pack.");
 
-static const u8 sGenerationForceDesc[] = _(
-    "Generation Force.");
+static const u8 sOCGAncientProphecyDesc[] = _(
+    "OCG_Ancient\n"
+    "Prophecy.");
 
-static const u8 sGenerationForceSneakPeekParticipationCardDesc[] = _(
-    "Generation Force\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
+static const u8 sOCGAncientProphecy2PackSetDesc[] = _(
+    "OCG_Ancient\n"
+    "Prophecy 2-Pack\n"
+    "Set.");
 
-static const u8 sGenerationForceSpecialEditionDesc[] = _(
-    "Generation\n"
-    "Force: Special\n"
-    "Edition.");
+static const u8 sOCGAnimationChronicle2021Desc[] = _(
+    "OCG_Animation\n"
+    "Chronicle 2021.");
 
-static const u8 sGenesisImpactDesc[] = _(
-    "Genesis Impact.");
+static const u8 sOCGAnimationChronicle2022Desc[] = _(
+    "OCG_Animation\n"
+    "Chronicle 2022.");
 
-static const u8 sGhostsFromthePastDesc[] = _(
-    "Ghosts From the\n"
-    "Past.");
+static const u8 sOCGAnimationChronicle2023Desc[] = _(
+    "OCG_Animation\n"
+    "Chronicle 2023.");
 
-static const u8 sGhostsFromthePastThe2ndHauntingDesc[] = _(
-    "Ghosts From the\n"
-    "Past: The 2nd\n"
-    "Haunting.");
+static const u8 sOCGAnimationChronicle2024Desc[] = _(
+    "OCG_Animation\n"
+    "Chronicle 2024.");
 
-static const u8 sGladiatorsAssaultDesc[] = _(
-    "Gladiator's\n"
-    "Assault.");
+static const u8 sOCGAnniversaryPackDesc[] = _(
+    "OCG_Anniversary\n"
+    "Pack.");
 
-static const u8 sGladiatorsAssaultSneakPeekParticipationCardDesc[] = _(
-    "Gladiator's\n"
-    "Assault Sneak\n"
-    "Peek\n"
-    "Participation\n"
-    "Card.");
+static const u8 sOCGAreaChampionship2023prizecardDesc[] = _(
+    "OCG_Area\n"
+    "Championship\n"
+    "2023 prize card.");
 
-static const u8 sGladiatorsAssaultSpecialEditionDesc[] = _(
-    "Gladiator's\n"
-    "Assault: Special\n"
-    "Edition.");
+static const u8 sOCGAreaChampionship2024AugustprizecardDesc[] = _(
+    "OCG_Area\n"
+    "Championship\n"
+    "2024 August\n"
+    "prize card.");
 
-static const u8 sGoldSeriesDesc[] = _(
-    "Gold Series.");
+static const u8 sOCGAreaChampionship2024DecemberprizecardDesc[] = _(
+    "OCG_Area\n"
+    "Championship\n"
+    "2024 December\n"
+    "prize card.");
 
-static const u8 sGoldSeries2009Desc[] = _(
-    "Gold Series 2009.");
+static const u8 sOCGAreaChampionship2024JuneprizecardDesc[] = _(
+    "OCG_Area\n"
+    "Championship\n"
+    "2024 June prize\n"
+    "card.");
 
-static const u8 sGoldSeries3Desc[] = _(
-    "Gold Series 3.");
+static const u8 sOCGArmillyretheStarleaderDragonDuelSetDesc[] = _(
+    "OCG_Armillyre,\n"
+    "the Starleader\n"
+    "Dragon Duel Set.");
 
-static const u8 sGoldSeries4PyramidsEditionDesc[] = _(
-    "Gold Series 4:\n"
-    "Pyramids Edition.");
+static const u8 sOCGAsiaChampionship2001prizecardsDesc[] = _(
+    "OCG_Asia\n"
+    "Championship\n"
+    "2001 prize cards.");
 
-static const u8 sGoldSeriesHauntedMineDesc[] = _(
-    "Gold Series:\n"
-    "Haunted Mine.");
+static const u8 sOCGAwakeningofthePossessedDuelSetDesc[] = _(
+    "OCG_Awakening of\n"
+    "the Possessed\n"
+    "Duel Set.");
 
-static const u8 sHEROStrikeStructureDeckDesc[] = _(
-    "HERO Strike\n"
-    "Structure Deck.");
+static const u8 sOCGBattleofChaosDesc[] = _(
+    "OCG_Battle of\n"
+    "Chaos.");
 
-static const u8 sHiddenArsenalDesc[] = _(
-    "Hidden Arsenal.");
+static const u8 sOCGBattleofChaos1BonusPackDesc[] = _(
+    "OCG_Battle of\n"
+    "Chaos +1 Bonus\n"
+    "Pack.");
 
-static const u8 sHiddenArsenal2Desc[] = _(
-    "Hidden Arsenal 2.");
+static const u8 sOCGBeginnersEdition1Desc[] = _(
+    "OCG_Beginner's\n"
+    "Edition 1.");
 
-static const u8 sHiddenArsenal3Desc[] = _(
-    "Hidden Arsenal 3.");
+static const u8 sOCGBeginnersEdition12011Desc[] = _(
+    "OCG_Beginner's\n"
+    "Edition 1 (2011).");
 
-static const u8 sHiddenArsenal4TrishulasTriumphDesc[] = _(
-    "Hidden Arsenal\n"
-    "4: Trishula's\n"
-    "Triumph.");
+static const u8 sOCGBeginnersEdition2Desc[] = _(
+    "OCG_Beginner's\n"
+    "Edition 2.");
 
-static const u8 sHiddenArsenal5SteelswarmInvasionDesc[] = _(
-    "Hidden Arsenal\n"
-    "5: Steelswarm\n"
-    "Invasion.");
+static const u8 sOCGBeginnersEdition22011Desc[] = _(
+    "OCG_Beginner's\n"
+    "Edition 2 (2011).");
 
-static const u8 sHiddenArsenal5SteelswarmInvasionSpecialEditionDesc[] = _(
-    "Hidden Arsenal\n"
-    "5: Steelswarm\n"
-    "Invasion:\n"
-    "Special Edition.");
+static const u8 sOCGBeginnersPackDesc[] = _(
+    "OCG_Beginners\n"
+    "Pack.");
 
-static const u8 sHiddenArsenal6OmegaXyzDesc[] = _(
-    "Hidden Arsenal\n"
-    "6: Omega Xyz.");
+static const u8 sOCGBeginnersClass2012promotionalcardsDesc[] = _(
+    "OCG_Beginners'\n"
+    "Class 2012\n"
+    "promotional\n"
+    "cards.");
 
-static const u8 sHiddenArsenal7KnightofStarsDesc[] = _(
-    "Hidden Arsenal\n"
-    "7: Knight of\n"
-    "Stars.");
+static const u8 sOCGBlazingVortexDesc[] = _(
+    "OCG_Blazing\n"
+    "Vortex.");
 
-static const u8 sHiddenArsenalChapter1Desc[] = _(
-    "Hidden Arsenal:\n"
-    "Chapter 1.");
+static const u8 sOCGBlazingVortex1BonusPackDesc[] = _(
+    "OCG_Blazing\n"
+    "Vortex +1 Bonus\n"
+    "Pack.");
 
-static const u8 sHiddenArsenalSpecialEditionDesc[] = _(
-    "Hidden Arsenal:\n"
-    "Special Edition.");
+static const u8 sOCGBooster1Desc[] = _(
+    "OCG_Booster 1.");
 
-static const u8 sHiddenSummonersDesc[] = _(
-    "Hidden Summoners.");
+static const u8 sOCGBooster2Desc[] = _(
+    "OCG_Booster 2.");
 
-static const u8 sHighSpeedRidersDesc[] = _(
+static const u8 sOCGBooster3Desc[] = _(
+    "OCG_Booster 3.");
+
+static const u8 sOCGBooster4Desc[] = _(
+    "OCG_Booster 4.");
+
+static const u8 sOCGBooster5Desc[] = _(
+    "OCG_Booster 5.");
+
+static const u8 sOCGBooster6Desc[] = _(
+    "OCG_Booster 6.");
+
+static const u8 sOCGBooster7Desc[] = _(
+    "OCG_Booster 7.");
+
+static const u8 sOCGBoosterChronicleDesc[] = _(
+    "OCG_Booster\n"
+    "Chronicle.");
+
+static const u8 sOCGBoosterPackCollectorsTin2003Desc[] = _(
+    "OCG_Booster Pack\n"
+    "Collectors Tin\n"
+    "2003.");
+
+static const u8 sOCGBoosterPackCollectorsTin2004Desc[] = _(
+    "OCG_Booster Pack\n"
+    "Collectors Tin\n"
+    "2004.");
+
+static const u8 sOCGBoosterPackCollectorsTin2005Desc[] = _(
+    "OCG_Booster Pack\n"
+    "Collectors Tin\n"
+    "2005.");
+
+static const u8 sOCGBoosterPackCollectorsTin2006Desc[] = _(
+    "OCG_Booster Pack\n"
+    "Collectors Tin\n"
+    "2006.");
+
+static const u8 sOCGBoosterPackCollectorsTin2007Desc[] = _(
+    "OCG_Booster Pack\n"
+    "Collectors Tin\n"
+    "2007.");
+
+static const u8 sOCGBoosterR1Desc[] = _(
+    "OCG_Booster R1.");
+
+static const u8 sOCGBoosterR2Desc[] = _(
+    "OCG_Booster R2.");
+
+static const u8 sOCGBoosterR3Desc[] = _(
+    "OCG_Booster R3.");
+
+static const u8 sOCGBoosterSPDestinySoldiersDesc[] = _(
+    "OCG_Booster SP:\n"
+    "Destiny Soldiers.");
+
+static const u8 sOCGBoosterSPFusionEnforcersDesc[] = _(
+    "OCG_Booster SP:\n"
+    "Fusion Enforcers.");
+
+static const u8 sOCGBoosterSPHighSpeedRidersDesc[] = _(
+    "OCG_Booster SP:\n"
     "High-Speed\n"
     "Riders.");
 
-static const u8 sHobbyLeague1participationcardsADesc[] = _(
-    "Hobby League 1\n"
-    "participation\n"
-    "cards A.");
-
-static const u8 sHobbyLeague1participationcardsBDesc[] = _(
-    "Hobby League 1\n"
-    "participation\n"
-    "cards B.");
-
-static const u8 sHobbyLeague1participationcardsCDesc[] = _(
-    "Hobby League 1\n"
-    "participation\n"
-    "cards C.");
-
-static const u8 sHobbyLeague2participationcardADesc[] = _(
-    "Hobby League 2\n"
-    "participation\n"
-    "card A.");
-
-static const u8 sHobbyLeague2participationcardBDesc[] = _(
-    "Hobby League 2\n"
-    "participation\n"
-    "card B.");
-
-static const u8 sHobbyLeague2participationcardCDesc[] = _(
-    "Hobby League 2\n"
-    "participation\n"
-    "card C.");
-
-static const u8 sHobbyLeague2participationcardDDesc[] = _(
-    "Hobby League 2\n"
-    "participation\n"
-    "card D.");
-
-static const u8 sHobbyLeague2participationcardEDesc[] = _(
-    "Hobby League 2\n"
-    "participation\n"
-    "card E.");
-
-static const u8 sHobbyLeague2participationcardFDesc[] = _(
-    "Hobby League 2\n"
-    "participation\n"
-    "card F.");
-
-static const u8 sHobbyLeague3participationcardADesc[] = _(
-    "Hobby League 3\n"
-    "participation\n"
-    "card A.");
-
-static const u8 sHobbyLeague3participationcardBDesc[] = _(
-    "Hobby League 3\n"
-    "participation\n"
-    "card B.");
-
-static const u8 sHobbyLeague3participationcardCDesc[] = _(
-    "Hobby League 3\n"
-    "participation\n"
-    "card C.");
-
-static const u8 sHobbyLeague3participationcardDDesc[] = _(
-    "Hobby League 3\n"
-    "participation\n"
-    "card D.");
-
-static const u8 sHobbyLeague3participationcardEDesc[] = _(
-    "Hobby League 3\n"
-    "participation\n"
-    "card E.");
-
-static const u8 sHobbyLeague3participationcardFDesc[] = _(
-    "Hobby League 3\n"
-    "participation\n"
-    "card F.");
-
-static const u8 sHobbyLeague3participationcardGDesc[] = _(
-    "Hobby League 3\n"
-    "participation\n"
-    "card G.");
-
-static const u8 sHobbyLeague4participationcardADesc[] = _(
-    "Hobby League 4\n"
-    "participation\n"
-    "card A.");
-
-static const u8 sHobbyLeague4participationcardBDesc[] = _(
-    "Hobby League 4\n"
-    "participation\n"
-    "card B.");
-
-static const u8 sHobbyLeague4participationcardCDesc[] = _(
-    "Hobby League 4\n"
-    "participation\n"
-    "card C.");
-
-static const u8 sHobbyLeague4participationcardDDesc[] = _(
-    "Hobby League 4\n"
-    "participation\n"
-    "card D.");
-
-static const u8 sHobbyLeague4participationcardEDesc[] = _(
-    "Hobby League 4\n"
-    "participation\n"
-    "card E.");
-
-static const u8 sHobbyLeague4participationcardFDesc[] = _(
-    "Hobby League 4\n"
-    "participation\n"
-    "card F.");
-
-static const u8 sHobbyLeague5participationcardADesc[] = _(
-    "Hobby League 5\n"
-    "participation\n"
-    "card A.");
-
-static const u8 sHobbyLeague5participationcardBDesc[] = _(
-    "Hobby League 5\n"
-    "participation\n"
-    "card B.");
-
-static const u8 sHobbyLeague5participationcardCDesc[] = _(
-    "Hobby League 5\n"
-    "participation\n"
-    "card C.");
-
-static const u8 sHobbyLeague5participationcardDDesc[] = _(
-    "Hobby League 5\n"
-    "participation\n"
-    "card D.");
-
-static const u8 sHobbyLeague5participationcardEDesc[] = _(
-    "Hobby League 5\n"
-    "participation\n"
-    "card E.");
-
-static const u8 sHobbyLeague5participationcardFDesc[] = _(
-    "Hobby League 5\n"
-    "participation\n"
-    "card F.");
-
-static const u8 sHobbyLeague6participationcardADesc[] = _(
-    "Hobby League 6\n"
-    "participation\n"
-    "card A.");
-
-static const u8 sHobbyLeague6participationcardBDesc[] = _(
-    "Hobby League 6\n"
-    "participation\n"
-    "card B.");
-
-static const u8 sHobbyLeague6participationcardCDesc[] = _(
-    "Hobby League 6\n"
-    "participation\n"
-    "card C.");
-
-static const u8 sHobbyLeague6participationcardDDesc[] = _(
-    "Hobby League 6\n"
-    "participation\n"
-    "card D.");
-
-static const u8 sHobbyLeague6participationcardEDesc[] = _(
-    "Hobby League 6\n"
-    "participation\n"
-    "card E.");
-
-static const u8 sHobbyLeague6participationcardFDesc[] = _(
-    "Hobby League 6\n"
-    "participation\n"
-    "card F.");
-
-static const u8 sHobbyLeague7participationcardADesc[] = _(
-    "Hobby League 7\n"
-    "participation\n"
-    "card A.");
-
-static const u8 sHobbyLeague7participationcardBDesc[] = _(
-    "Hobby League 7\n"
-    "participation\n"
-    "card B.");
-
-static const u8 sHobbyLeague7participationcardCDesc[] = _(
-    "Hobby League 7\n"
-    "participation\n"
-    "card C.");
-
-static const u8 sHobbyLeague7participationcardDDesc[] = _(
-    "Hobby League 7\n"
-    "participation\n"
-    "card D.");
-
-static const u8 sHobbyLeague7participationcardEDesc[] = _(
-    "Hobby League 7\n"
-    "participation\n"
-    "card E.");
-
-static const u8 sHobbyLeague7participationcardFDesc[] = _(
-    "Hobby League 7\n"
-    "participation\n"
-    "card F.");
-
-static const u8 sIgnitionAssaultDesc[] = _(
-    "Ignition Assault.");
-
-static const u8 sIgnitionAssaultSneakPeekParticipationCardDesc[] = _(
-    "Ignition Assault\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sIgnitionAssaultSpecialEditionDesc[] = _(
-    "Ignition Assault\n"
-    "Special Edition.");
-
-static const u8 sInvasionofChaosDesc[] = _(
-    "Invasion of\n"
-    "Chaos.");
-
-static const u8 sInvasionofChaosSpecialEditionDesc[] = _(
-    "Invasion of\n"
-    "Chaos: Special\n"
-    "Edition.");
-
-static const u8 sInvasionVengeanceDesc[] = _(
-    "Invasion:\n"
-    "Vengeance.");
-
-static const u8 sInvasionVengeanceSneakPeekParticipationCardDesc[] = _(
-    "Invasion:\n"
-    "Vengeance Sneak\n"
-    "Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sInvasionVengeanceSpecialEditionDesc[] = _(
-    "Invasion:\n"
-    "Vengeance:\n"
-    "Special Edition.");
-
-static const u8 sJudgmentoftheLightDesc[] = _(
-    "Judgment of the\n"
-    "Light.");
-
-static const u8 sJudgmentoftheLightSneakPeekParticipationCardDesc[] = _(
-    "Judgment of the\n"
-    "Light Sneak Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sJudgmentoftheLightDeluxeEditionDesc[] = _(
-    "Judgment of the\n"
-    "Light: Deluxe\n"
-    "Edition.");
-
-static const u8 sKCGrandTournament2021prizecardDesc[] = _(
-    "KC Grand\n"
-    "Tournament 2021\n"
-    "prize card.");
-
-static const u8 sKCGrandTournamentprizecardDesc[] = _(
-    "KC Grand\n"
-    "Tournament prize\n"
-    "card.");
-
-static const u8 sKidsWBDuelofDestinypromotionalcardDesc[] = _(
-    "Kids WB Duel of\n"
-    "Destiny\n"
-    "promotional card.");
-
-static const u8 sKingsCourtDesc[] = _(
-    "King's Court.");
-
-static const u8 sLabyrinthofNightmareDesc[] = _(
-    "Labyrinth of\n"
-    "Nightmare.");
-
-static const u8 sLegacyofDarknessDesc[] = _(
-    "Legacy of\n"
-    "Darkness.");
-
-static const u8 sLegacyofDestructionDesc[] = _(
-    "Legacy of\n"
-    "Destruction.");
-
-static const u8 sLegacyoftheValiantDesc[] = _(
-    "Legacy of the\n"
-    "Valiant.");
-
-static const u8 sLegacyoftheValiantSneakPeekParticipationCardDesc[] = _(
-    "Legacy of the\n"
-    "Valiant Sneak\n"
-    "Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sLegacyoftheValiantDeluxeEditionDesc[] = _(
-    "Legacy of the\n"
-    "Valiant: Deluxe\n"
-    "Edition.");
-
-static const u8 sLegendofBlueEyesWhiteDragonDesc[] = _(
-    "Legend of Blue\n"
-    "Eyes White\n"
-    "Dragon.");
-
-static const u8 sLegendaryCollectionDesc[] = _(
-    "Legendary\n"
-    "Collection.");
-
-static const u8 sLegendaryCollection2TheDuelAcademyYearsDesc[] = _(
-    "Legendary\n"
-    "Collection 2:\n"
-    "The Duel Academy\n"
-    "Years.");
-
-static const u8 sLegendaryCollection2TheDuelAcademyYearsMegaPackDesc[] = _(
-    "Legendary\n"
-    "Collection 2:\n"
-    "The Duel Academy\n"
-    "Years Mega Pack.");
-
-static const u8 sLegendaryCollection3YugisWorldDesc[] = _(
-    "Legendary\n"
-    "Collection 3:\n"
-    "Yugi's World.");
-
-static const u8 sLegendaryCollection3YugisWorldMegaPackDesc[] = _(
-    "Legendary\n"
-    "Collection 3:\n"
-    "Yugi's World\n"
-    "Mega Pack.");
-
-static const u8 sLegendaryCollection4JoeysWorldDesc[] = _(
-    "Legendary\n"
-    "Collection 4:\n"
-    "Joey's World.");
-
-static const u8 sLegendaryCollection4JoeysWorldMegaPackDesc[] = _(
-    "Legendary\n"
-    "Collection 4:\n"
-    "Joey's World\n"
-    "Mega Pack.");
-
-static const u8 sLegendaryCollection5DsDesc[] = _(
-    "Legendary\n"
-    "Collection 5D's.");
-
-static const u8 sLegendaryCollection5DsMegaPackDesc[] = _(
-    "Legendary\n"
-    "Collection 5D's\n"
-    "Mega Pack.");
-
-static const u8 sLegendaryCollectionKaibaDesc[] = _(
-    "Legendary\n"
-    "Collection Kaiba.");
-
-static const u8 sLegendaryCollectionKaibaMegaPackDesc[] = _(
-    "Legendary\n"
-    "Collection Kaiba\n"
-    "Mega Pack.");
-
-static const u8 sLegendaryCollection25thAnniversaryEditionDesc[] = _(
-    "Legendary\n"
-    "Collection: 25th\n"
-    "Anniversary\n"
-    "Edition.");
-
-static const u8 sLegendaryDecksIIDesc[] = _(
-    "Legendary Decks\n"
-    "II.");
-
-static const u8 sLegendaryDragonDecksDesc[] = _(
-    "Legendary Dragon\n"
-    "Decks.");
-
-static const u8 sLegendaryDuelistsDesc[] = _(
-    "Legendary\n"
-    "Duelists.");
-
-static const u8 sLegendaryDuelistsAncientMillenniumDesc[] = _(
-    "Legendary\n"
-    "Duelists:\n"
-    "Ancient\n"
-    "Millennium.");
-
-static const u8 sLegendaryDuelistsDuelsFromtheDeepDesc[] = _(
-    "Legendary\n"
-    "Duelists: Duels\n"
-    "From the Deep.");
-
-static const u8 sLegendaryDuelistsImmortalDestinyDesc[] = _(
-    "Legendary\n"
-    "Duelists:\n"
-    "Immortal Destiny.");
-
-static const u8 sLegendaryDuelistsMagicalHeroDesc[] = _(
-    "Legendary\n"
-    "Duelists:\n"
-    "Magical Hero.");
-
-static const u8 sLegendaryDuelistsRageofRaDesc[] = _(
-    "Legendary\n"
-    "Duelists: Rage\n"
-    "of Ra.");
-
-static const u8 sLegendaryDuelistsSeason1Desc[] = _(
-    "Legendary\n"
-    "Duelists: Season\n"
-    "1.");
-
-static const u8 sLegendaryDuelistsSeason2Desc[] = _(
-    "Legendary\n"
-    "Duelists: Season\n"
-    "2.");
-
-static const u8 sLegendaryDuelistsSeason3Desc[] = _(
-    "Legendary\n"
-    "Duelists: Season\n"
-    "3.");
-
-static const u8 sLegendaryDuelistsSistersoftheRoseDesc[] = _(
-    "Legendary\n"
-    "Duelists:\n"
-    "Sisters of the\n"
-    "Rose.");
-
-static const u8 sLegendaryDuelistsSoulburningVolcanoDesc[] = _(
-    "Legendary\n"
-    "Duelists:\n"
-    "Soulburning\n"
-    "Volcano.");
-
-static const u8 sLegendaryDuelistsSynchroStormDesc[] = _(
-    "Legendary\n"
-    "Duelists:\n"
-    "Synchro Storm.");
-
-static const u8 sLegendaryDuelistsWhiteDragonAbyssDesc[] = _(
-    "Legendary\n"
-    "Duelists: White\n"
-    "Dragon Abyss.");
-
-static const u8 sLegendaryHeroDecksDesc[] = _(
-    "Legendary Hero\n"
-    "Decks.");
-
-static const u8 sLightandDarknessPowerPackDesc[] = _(
-    "Light and\n"
-    "Darkness Power\n"
+static const u8 sOCGBoosterSPRagingMastersDesc[] = _(
+    "OCG_Booster SP:\n"
+    "Raging Masters.");
+
+static const u8 sOCGBoosterSPTribeForceDesc[] = _(
+    "OCG_Booster SP:\n"
+    "Tribe Force.");
+
+static const u8 sOCGBoosterSPWingRaidersDesc[] = _(
+    "OCG_Booster SP:\n"
+    "Wing Raiders.");
+
+static const u8 sOCGBreakersofShadowDesc[] = _(
+    "OCG_Breakers of\n"
+    "Shadow.");
+
+static const u8 sOCGBurstofDestinyDesc[] = _(
+    "OCG_Burst of\n"
+    "Destiny.");
+
+static const u8 sOCGBurstofDestiny1BonusPackDesc[] = _(
+    "OCG_Burst of\n"
+    "Destiny +1 Bonus\n"
     "Pack.");
 
-static const u8 sLightofDestructionDesc[] = _(
-    "Light of\n"
+static const u8 sOCGCenturIonDuelSetDesc[] = _(
+    "OCG_Centur-Ion\n"
+    "Duel Set.");
+
+static const u8 sOCGChampionofBlackMagicDesc[] = _(
+    "OCG_Champion of\n"
+    "Black Magic.");
+
+static const u8 sOCGChaosImpactDesc[] = _(
+    "OCG_Chaos Impact.");
+
+static const u8 sOCGCircuitBreakDesc[] = _(
+    "OCG_Circuit\n"
+    "Break.");
+
+static const u8 sOCGClashofRebellionsDesc[] = _(
+    "OCG_Clash of\n"
+    "Rebellions.");
+
+static const u8 sOCGCocosxYuGiOhCardGameAnniversaryCampaign2024Part1Desc[] = _(
+    "OCG_Coco's x Yu-\n"
+    "Gi-Oh! Card Game\n"
+    "Anniversary\n"
+    "Campaign 2024\n"
+    "Part 1.");
+
+static const u8 sOCGCocosxYuGiOhCardGameAnniversaryCampaign2024Part2Desc[] = _(
+    "OCG_Coco's x Yu-\n"
+    "Gi-Oh! Card Game\n"
+    "Anniversary\n"
+    "Campaign 2024\n"
+    "Part 2.");
+
+static const u8 sOCGCocosxYuGiOhCardGameAnniversaryCampaignPart1Desc[] = _(
+    "OCG_Coco's x Yu-\n"
+    "Gi-Oh! Card Game\n"
+    "Anniversary\n"
+    "Campaign Part 1.");
+
+static const u8 sOCGCocosxYuGiOhCardGameAnniversaryCampaignPart2Desc[] = _(
+    "OCG_Coco's x Yu-\n"
+    "Gi-Oh! Card Game\n"
+    "Anniversary\n"
+    "Campaign Part 2.");
+
+static const u8 sOCGCodeoftheDuelistDesc[] = _(
+    "OCG_Code of the\n"
+    "Duelist.");
+
+static const u8 sOCGCollectionPack2020Desc[] = _(
+    "OCG_Collection\n"
+    "Pack 2020.");
+
+static const u8 sOCGCollectionPackDuelistofRevolutionVersionDesc[] = _(
+    "OCG_Collection\n"
+    "Pack: Duelist of\n"
+    "Revolution\n"
+    "Version.");
+
+static const u8 sOCGCollectorsPackDuelistofLegendVersionDesc[] = _(
+    "OCG_Collector's\n"
+    "Pack: Duelist of\n"
+    "Legend Version.");
+
+static const u8 sOCGCollectorsPack2017Desc[] = _(
+    "OCG_Collectors\n"
+    "Pack 2017.");
+
+static const u8 sOCGCollectorsPack2018Desc[] = _(
+    "OCG_Collectors\n"
+    "Pack 2018.");
+
+static const u8 sOCGCollectorsPackDuelistofDestinyVersionDesc[] = _(
+    "OCG_Collectors\n"
+    "Pack: Duelist of\n"
+    "Destiny Version.");
+
+static const u8 sOCGCollectorsPackDuelistofFlashVersionDesc[] = _(
+    "OCG_Collectors\n"
+    "Pack: Duelist of\n"
+    "Flash Version.");
+
+static const u8 sOCGCollectorsPackDuelistofLegendVersionDesc[] = _(
+    "OCG_Collectors\n"
+    "Pack: Duelist of\n"
+    "Legend Version.");
+
+static const u8 sOCGCollectorsPackZEXALVersionDesc[] = _(
+    "OCG_Collectors\n"
+    "Pack: ZEXAL\n"
+    "Version.");
+
+static const u8 sOCGCollectorsTin2009Desc[] = _(
+    "OCG_Collectors\n"
+    "Tin 2009.");
+
+static const u8 sOCGCompleteFileStoryofWhiteDesc[] = _(
+    "OCG_Complete\n"
+    "File: Story of\n"
+    "White.");
+
+static const u8 sOCGControllerofChaosDesc[] = _(
+    "OCG_Controller\n"
+    "of Chaos.");
+
+static const u8 sOCGCosmoBlazerDesc[] = _(
+    "OCG_Cosmo Blazer.");
+
+static const u8 sOCGCrimsonCrisisDesc[] = _(
+    "OCG_Crimson\n"
+    "Crisis.");
+
+static const u8 sOCGCrimsonCrisis2PackSetDesc[] = _(
+    "OCG_Crimson\n"
+    "Crisis 2-Pack\n"
+    "Set.");
+
+static const u8 sOCGCrossedSoulsDesc[] = _(
+    "OCG_Crossed\n"
+    "Souls.");
+
+static const u8 sOCGCrossroadsofChaosDesc[] = _(
+    "OCG_Crossroads\n"
+    "of Chaos.");
+
+static const u8 sOCGCrossroadsofChaos2PackSetDesc[] = _(
+    "OCG_Crossroads\n"
+    "of Chaos 2-Pack\n"
+    "Set.");
+
+static const u8 sOCGCurseofAnubissetDesc[] = _(
+    "OCG_Curse of\n"
+    "Anubis (set).");
+
+static const u8 sOCGCyberdarkImpactDesc[] = _(
+    "OCG_Cyberdark\n"
+    "Impact.");
+
+static const u8 sOCGCyberdarkImpactVendorEditionDesc[] = _(
+    "OCG_Cyberdark\n"
+    "Impact: Vendor\n"
+    "Edition.");
+
+static const u8 sOCGCyberneticHorizonDesc[] = _(
+    "OCG_Cybernetic\n"
+    "Horizon.");
+
+static const u8 sOCGCyberneticRevolutionDesc[] = _(
+    "OCG_Cybernetic\n"
+    "Revolution.");
+
+static const u8 sOCGCyberneticRevolutionVendorEditionDesc[] = _(
+    "OCG_Cybernetic\n"
+    "Revolution:\n"
+    "Vendor Edition.");
+
+static const u8 sOCGCyberstormAccessDesc[] = _(
+    "OCG_Cyberstorm\n"
+    "Access.");
+
+static const u8 sOCGCyberstormAccess1BonusPackDesc[] = _(
+    "OCG_Cyberstorm\n"
+    "Access +1 Bonus\n"
+    "Pack.");
+
+static const u8 sOCGDarkCeremonyEditionDesc[] = _(
+    "OCG_Dark\n"
+    "Ceremony Edition.");
+
+static const u8 sOCGDarkNeostormDesc[] = _(
+    "OCG_Dark\n"
+    "Neostorm.");
+
+static const u8 sOCGDarkwingBlastDesc[] = _(
+    "OCG_Darkwing\n"
+    "Blast.");
+
+static const u8 sOCGDarkwingBlast1BonusPackDesc[] = _(
+    "OCG_Darkwing\n"
+    "Blast +1 Bonus\n"
+    "Pack.");
+
+static const u8 sOCGDawnofMajestyDesc[] = _(
+    "OCG_Dawn of\n"
+    "Majesty.");
+
+static const u8 sOCGDawnofMajesty1BonusPackDesc[] = _(
+    "OCG_Dawn of\n"
+    "Majesty +1 Bonus\n"
+    "Pack.");
+
+static const u8 sOCGDeckCustomPack01Desc[] = _(
+    "OCG_Deck Custom\n"
+    "Pack 01.");
+
+static const u8 sOCGDeckBuildPackAmazingDefendersDesc[] = _(
+    "OCG_Deck-Build\n"
+    "Pack: Amazing\n"
+    "Defenders.");
+
+static const u8 sOCGDeckBuildPackAncientGuardiansDesc[] = _(
+    "OCG_Deck-Build\n"
+    "Pack: Ancient\n"
+    "Guardians.");
+
+static const u8 sOCGDeckBuildPackCrossoverBreakersDesc[] = _(
+    "OCG_Deck-Build\n"
+    "Pack: Crossover\n"
+    "Breakers.");
+
+static const u8 sOCGDeckBuildPackDarkSaviorsDesc[] = _(
+    "OCG_Deck-Build\n"
+    "Pack: Dark\n"
+    "Saviors.");
+
+static const u8 sOCGDeckBuildPackGenesisImpactorsDesc[] = _(
+    "OCG_Deck-Build\n"
+    "Pack: Genesis\n"
+    "Impactors.");
+
+static const u8 sOCGDeckBuildPackGrandCreatorsDesc[] = _(
+    "OCG_Deck-Build\n"
+    "Pack: Grand\n"
+    "Creators.");
+
+static const u8 sOCGDeckBuildPackHiddenSummonersDesc[] = _(
+    "OCG_Deck-Build\n"
+    "Pack: Hidden\n"
+    "Summoners.");
+
+static const u8 sOCGDeckBuildPackInfinityChasersDesc[] = _(
+    "OCG_Deck-Build\n"
+    "Pack: Infinity\n"
+    "Chasers.");
+
+static const u8 sOCGDeckBuildPackJusticeHuntersDesc[] = _(
+    "OCG_Deck-Build\n"
+    "Pack: Justice\n"
+    "Hunters.");
+
+static const u8 sOCGDeckBuildPackMysticFightersDesc[] = _(
+    "OCG_Deck-Build\n"
+    "Pack: Mystic\n"
+    "Fighters.");
+
+static const u8 sOCGDeckBuildPackSecretSlayersDesc[] = _(
+    "OCG_Deck-Build\n"
+    "Pack: Secret\n"
+    "Slayers.");
+
+static const u8 sOCGDeckBuildPackSpiritWarriorsDesc[] = _(
+    "OCG_Deck-Build\n"
+    "Pack: Spirit\n"
+    "Warriors.");
+
+static const u8 sOCGDeckBuildPackTacticalMastersDesc[] = _(
+    "OCG_Deck-Build\n"
+    "Pack: Tactical\n"
+    "Masters.");
+
+static const u8 sOCGDeckBuildPackValiantSmashersDesc[] = _(
+    "OCG_Deck-Build\n"
+    "Pack: Valiant\n"
+    "Smashers.");
+
+static const u8 sOCGDeckBuildPackWildSurvivorsDesc[] = _(
+    "OCG_Deck-Build\n"
+    "Pack: Wild\n"
+    "Survivors.");
+
+static const u8 sOCGDeluxeDuelSetExosisterDesc[] = _(
+    "OCG_Deluxe Duel\n"
+    "Set: Exosister.");
+
+static const u8 sOCGDiabellstarDuelSetDesc[] = _(
+    "OCG_Diabellstar\n"
+    "Duel Set.");
+
+static const u8 sOCGDimensionBoxLimitedEditionDesc[] = _(
+    "OCG_Dimension\n"
+    "Box Limited\n"
+    "Edition.");
+
+static const u8 sOCGDimensionForceDesc[] = _(
+    "OCG_Dimension\n"
+    "Force.");
+
+static const u8 sOCGDimensionForce1BonusPackDesc[] = _(
+    "OCG_Dimension\n"
+    "Force +1 Bonus\n"
+    "Pack.");
+
+static const u8 sOCGDimensionofChaosDesc[] = _(
+    "OCG_Dimension of\n"
+    "Chaos.");
+
+static const u8 sOCGDoomofDimensionsDesc[] = _(
+    "OCG_Doom of\n"
+    "Dimensions.");
+
+static const u8 sOCGDragonRulerDuelSetDesc[] = _(
+    "OCG_Dragon Ruler\n"
+    "Duel Set.");
+
+static const u8 sOCGDuelAcademiaSelectionDesc[] = _(
+    "OCG_Duel\n"
+    "Academia\n"
+    "Selection.");
+
+static const u8 sOCGDuelArtCampaignpromotionalcardDesc[] = _(
+    "OCG_Duel Art\n"
+    "Campaign\n"
+    "promotional card.");
+
+static const u8 sOCGDuelDisksetDesc[] = _(
+    "OCG_Duel Disk\n"
+    "(set).");
+
+static const u8 sOCGDuelDiskYuseiVersionDesc[] = _(
+    "OCG_Duel Disk -\n"
+    "Yusei Version.");
+
+static const u8 sOCGDuelDiskYuseiVersionDXDesc[] = _(
+    "OCG_Duel Disk -\n"
+    "Yusei Version DX.");
+
+static const u8 sOCGDuelDiskYuseiVersionDXLimitedEditionDesc[] = _(
+    "OCG_Duel Disk -\n"
+    "Yusei Version DX\n"
+    "- Limited\n"
+    "Edition.");
+
+static const u8 sOCGDuelDiskYuseiVersionDX2010Desc[] = _(
+    "OCG_Duel Disk -\n"
+    "Yusei Version DX\n"
+    "2010.");
+
+static const u8 sOCGDuelFieldEXEpicofNobleKnightsHolySwordofGuidanceDesc[] = _(
+    "OCG_Duel Field\n"
+    "EX Epic of Noble\n"
+    "Knights: Holy\n"
+    "Sword of\n"
+    "Guidance.");
+
+static const u8 sOCGDuelMastersGuidepromotionalcardsDesc[] = _(
+    "OCG_Duel\n"
+    "Master's Guide\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGDuelMonstersIItournamentmeetingexperiencepromotionalcardDesc[] = _(
+    "OCG_Duel\n"
+    "Monsters II\n"
+    "tournament\n"
+    "meeting\n"
+    "experience\n"
+    "promotional card.");
+
+static const u8 sOCGDuelRoyaleDeckSetEXDesc[] = _(
+    "OCG_Duel Royale\n"
+    "Deck Set EX.");
+
+static const u8 sOCGDuelRoyaleDeckSetEXRound2Desc[] = _(
+    "OCG_Duel Royale\n"
+    "Deck Set EX\n"
+    "Round 2.");
+
+static const u8 sOCGDuelTerminalChampionofChaosDesc[] = _(
+    "OCG_Duel\n"
+    "Terminal -\n"
+    "Champion of\n"
+    "Chaos!!.");
+
+static const u8 sOCGDuelTerminalChargeoftheGenexDesc[] = _(
+    "OCG_Duel\n"
+    "Terminal -\n"
+    "Charge of the\n"
+    "Genex!!.");
+
+static const u8 sOCGDuelTerminalDemonRoarGodRevivalDesc[] = _(
+    "OCG_Duel\n"
+    "Terminal - Demon\n"
+    "Roar God\n"
+    "Revival!!.");
+
+static const u8 sOCGDuelTerminalDragunityoftheHurricaneDesc[] = _(
+    "OCG_Duel\n"
+    "Terminal -\n"
+    "Dragunity of the\n"
+    "Hurricane!!.");
+
+static const u8 sOCGDuelTerminalInvasionofWormsDesc[] = _(
+    "OCG_Duel\n"
+    "Terminal -\n"
+    "Invasion of\n"
+    "Worms!!.");
+
+static const u8 sOCGDuelTerminalJudgmentofOmegaDesc[] = _(
+    "OCG_Duel\n"
+    "Terminal -\n"
+    "Judgment of\n"
+    "Omega!!.");
+
+static const u8 sOCGDuelTerminalJusticeStrikesBackDesc[] = _(
+    "OCG_Duel\n"
+    "Terminal -\n"
+    "Justice Strikes\n"
+    "Back!!.");
+
+static const u8 sOCGDuelTerminalOuroborosWickedDragonofDestructionDesc[] = _(
+    "OCG_Duel\n"
+    "Terminal -\n"
+    "Ouroboros,\n"
+    "Wicked Dragon of\n"
+    "Destruction!!.");
+
+static const u8 sOCGDuelTerminalPulseoftheTrishulaDesc[] = _(
+    "OCG_Duel\n"
+    "Terminal - Pulse\n"
+    "of the\n"
+    "Trishula!!.");
+
+static const u8 sOCGDuelTerminalRaidoftheInverzDesc[] = _(
+    "OCG_Duel\n"
+    "Terminal - Raid\n"
+    "of the Inverz!!.");
+
+static const u8 sOCGDuelTerminalSacredStarKnightsDesc[] = _(
+    "OCG_Duel\n"
+    "Terminal -\n"
+    "Sacred Star\n"
+    "Knights!!.");
+
+static const u8 sOCGDuelTerminalSynchroAwakeningDesc[] = _(
+    "OCG_Duel\n"
+    "Terminal -\n"
+    "Synchro\n"
+    "Awakening!!.");
+
+static const u8 sOCGDuelTerminalVylonDescendsDesc[] = _(
+    "OCG_Duel\n"
+    "Terminal - Vylon\n"
+    "Descends!!.");
+
+static const u8 sOCGDuelTerminalXyzStartupDesc[] = _(
+    "OCG_Duel\n"
+    "Terminal - Xyz\n"
+    "Startup!!.");
+
+static const u8 sOCGDuelTerminalAccelerationGuide2promotionalcardDesc[] = _(
+    "OCG_Duel\n"
+    "Terminal\n"
+    "Acceleration\n"
+    "Guide 2\n"
+    "promotional card.");
+
+static const u8 sOCGDuelTerminalAccelerationGuide3promotionalcardDesc[] = _(
+    "OCG_Duel\n"
+    "Terminal\n"
+    "Acceleration\n"
+    "Guide 3\n"
+    "promotional card.");
+
+static const u8 sOCGDuelTerminalAccelerationGuide4promotionalcardDesc[] = _(
+    "OCG_Duel\n"
+    "Terminal\n"
+    "Acceleration\n"
+    "Guide 4\n"
+    "promotional card.");
+
+static const u8 sOCGDuelTerminalAccelerationGuide5promotionalcardDesc[] = _(
+    "OCG_Duel\n"
+    "Terminal\n"
+    "Acceleration\n"
+    "Guide 5\n"
+    "promotional card.");
+
+static const u8 sOCGDuelTerminalAccelerationGuidepromotionalcardDesc[] = _(
+    "OCG_Duel\n"
+    "Terminal\n"
+    "Acceleration\n"
+    "Guide\n"
+    "promotional card.");
+
+static const u8 sOCGDuelTerminalChronicle1ChapterofAwakeningDesc[] = _(
+    "OCG_Duel\n"
+    "Terminal\n"
+    "Chronicle 1 -\n"
+    "Chapter of\n"
+    "Awakening.");
+
+static const u8 sOCGDuelTerminalChronicle2ChapterofChaosDesc[] = _(
+    "OCG_Duel\n"
+    "Terminal\n"
+    "Chronicle 2 -\n"
+    "Chapter of Chaos.");
+
+static const u8 sOCGDuelTerminalChronicle3ChapterofDestructionDesc[] = _(
+    "OCG_Duel\n"
+    "Terminal\n"
+    "Chronicle 3 -\n"
+    "Chapter of\n"
     "Destruction.");
 
-static const u8 sLightofDestructionSneakPeekParticipationCardDesc[] = _(
-    "Light of\n"
-    "Destruction\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
+static const u8 sOCGDuelTerminalChronicle4ChapterofOppositesDesc[] = _(
+    "OCG_Duel\n"
+    "Terminal\n"
+    "Chronicle 4 -\n"
+    "Chapter of\n"
+    "Opposites.");
 
-static const u8 sLightofDestructionSpecialEditionDesc[] = _(
-    "Light of\n"
-    "Destruction:\n"
-    "Special Edition.");
-
-static const u8 sLightningOverdriveDesc[] = _(
-    "Lightning\n"
-    "Overdrive.");
-
-static const u8 sLightningOverdrivePremierepromotionalcardDesc[] = _(
-    "Lightning\n"
-    "Overdrive\n"
-    "Premiere!\n"
+static const u8 sOCGDuelTerminalOverlayGuide2promotionalcardDesc[] = _(
+    "OCG_Duel\n"
+    "Terminal Overlay\n"
+    "Guide 2\n"
     "promotional card.");
 
-static const u8 sLimitedEdition1Desc[] = _(
-    "Limited Edition\n"
-    "1.");
-
-static const u8 sLordoftheTachyonGalaxyDesc[] = _(
-    "Lord of the\n"
-    "Tachyon Galaxy.");
-
-static const u8 sLordoftheTachyonGalaxySneakPeekParticipationCardDesc[] = _(
-    "Lord of the\n"
-    "Tachyon Galaxy\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sLostSanctuaryStructureDeckDesc[] = _(
-    "Lost Sanctuary\n"
-    "Structure Deck.");
-
-static const u8 sMachinaMayhemStructureDeckDesc[] = _(
-    "Machina Mayhem\n"
-    "Structure Deck.");
-
-static const u8 sMachineReactorStructureDeckDesc[] = _(
-    "Machine Reactor\n"
-    "Structure Deck.");
-
-static const u8 sMagicRulerDesc[] = _(
-    "Magic Ruler.");
-
-static const u8 sMagiciansForceDesc[] = _(
-    "Magician's Force.");
-
-static const u8 sMagnificentMavensDesc[] = _(
-    "Magnificent\n"
-    "Mavens.");
-
-static const u8 sMakeAWishFoundationpromotionalcardDesc[] = _(
-    "Make-A-Wish\n"
-    "Foundation\n"
+static const u8 sOCGDuelTerminalOverlayGuidepromotionalcardDesc[] = _(
+    "OCG_Duel\n"
+    "Terminal Overlay\n"
+    "Guide\n"
     "promotional card.");
 
-static const u8 sMasterCollectionVolume1Desc[] = _(
-    "Master\n"
-    "Collection\n"
-    "Volume 1.");
+static const u8 sOCGDuelistAdvance1AssistPackDesc[] = _(
+    "OCG_Duelist\n"
+    "Advance +1\n"
+    "Assist Pack.");
 
-static const u8 sMasterCollectionVolume2Desc[] = _(
-    "Master\n"
-    "Collection\n"
+static const u8 sOCGDuelistAllianceDesc[] = _(
+    "OCG_Duelist\n"
+    "Alliance.");
+
+static const u8 sOCGDuelistBoxDesc[] = _(
+    "OCG_Duelist Box.");
+
+static const u8 sOCGDuelistBox2012Desc[] = _(
+    "OCG_Duelist Box\n"
+    "2012.");
+
+static const u8 sOCGDuelistCardProtectorEXBujinteiSusanowoDesc[] = _(
+    "OCG_Duelist Card\n"
+    "Protector EX:\n"
+    "Bujintei\n"
+    "Susanowo.");
+
+static const u8 sOCGDuelistCardProtectorEXGhostrickDesc[] = _(
+    "OCG_Duelist Card\n"
+    "Protector EX:\n"
+    "Ghostrick.");
+
+static const u8 sOCGDuelistCardProtectorEXMasterofHERODesc[] = _(
+    "OCG_Duelist Card\n"
+    "Protector EX:\n"
+    "Master of HERO.");
+
+static const u8 sOCGDuelistCardProtectorEXShadowoftheSixSamuraiShienDesc[] = _(
+    "OCG_Duelist Card\n"
+    "Protector EX:\n"
+    "Shadow of the\n"
+    "Six Samurai -\n"
+    "Shien.");
+
+static const u8 sOCGDuelistCardProtectorSixAttributeSetDesc[] = _(
+    "OCG_Duelist Card\n"
+    "Protector Six\n"
+    "Attribute Set.");
+
+static const u8 sOCGDuelistCup2021QualifiersparticipationcardDesc[] = _(
+    "OCG_Duelist Cup\n"
+    "2021 Qualifiers\n"
+    "participation\n"
+    "card.");
+
+static const u8 sOCGDuelistEditionVolume1Desc[] = _(
+    "OCG_Duelist\n"
+    "Edition Volume 1.");
+
+static const u8 sOCGDuelistEditionVolume2Desc[] = _(
+    "OCG_Duelist\n"
+    "Edition Volume 2.");
+
+static const u8 sOCGDuelistEditionVolume3Desc[] = _(
+    "OCG_Duelist\n"
+    "Edition Volume 3.");
+
+static const u8 sOCGDuelistEditionVolume4Desc[] = _(
+    "OCG_Duelist\n"
+    "Edition Volume 4.");
+
+static const u8 sOCGDuelistEntryDeckVSDesc[] = _(
+    "OCG_Duelist\n"
+    "Entry Deck VS.");
+
+static const u8 sOCGDuelistFestival2016PromotionPackDesc[] = _(
+    "OCG_Duelist\n"
+    "Festival 2016 -\n"
+    "Promotion Pack.");
+
+static const u8 sOCGDuelistKingCupApril2024prizecardDesc[] = _(
+    "OCG_Duelist King\n"
+    "Cup April 2024\n"
+    "prize card.");
+
+static const u8 sOCGDuelistKingCupApril2025prizecardDesc[] = _(
+    "OCG_Duelist King\n"
+    "Cup April 2025\n"
+    "prize card.");
+
+static const u8 sOCGDuelistKingCupAugust2024prizecardDesc[] = _(
+    "OCG_Duelist King\n"
+    "Cup August 2024\n"
+    "prize card.");
+
+static const u8 sOCGDuelistKingCupDecember2024prizecardDesc[] = _(
+    "OCG_Duelist King\n"
+    "Cup December\n"
+    "2024 prize card.");
+
+static const u8 sOCGDuelistKingCupJuly2025prizecardDesc[] = _(
+    "OCG_Duelist King\n"
+    "Cup July 2025\n"
+    "prize card.");
+
+static const u8 sOCGDuelistLegacyVolume1Desc[] = _(
+    "OCG_Duelist\n"
+    "Legacy Volume.1.");
+
+static const u8 sOCGDuelistLegacyVolume2Desc[] = _(
+    "OCG_Duelist\n"
+    "Legacy Volume.2.");
+
+static const u8 sOCGDuelistLegacyVolume3Desc[] = _(
+    "OCG_Duelist\n"
+    "Legacy Volume.3.");
+
+static const u8 sOCGDuelistLegacyVolume4Desc[] = _(
+    "OCG_Duelist\n"
+    "Legacy Volume.4.");
+
+static const u8 sOCGDuelistLegacyVolume5Desc[] = _(
+    "OCG_Duelist\n"
+    "Legacy Volume.5.");
+
+static const u8 sOCGDuelistNexusDesc[] = _(
+    "OCG_Duelist\n"
+    "Nexus.");
+
+static const u8 sOCGDuelistNexus1BonusPackDesc[] = _(
+    "OCG_Duelist\n"
+    "Nexus +1 Bonus\n"
+    "Pack.");
+
+static const u8 sOCGDuelistPackCollectionDesc[] = _(
+    "OCG_Duelist Pack\n"
+    "Collection.");
+
+static const u8 sOCGDuelistPackAsterPhoenixDesc[] = _(
+    "OCG_Duelist\n"
+    "Pack: Aster\n"
+    "Phoenix.");
+
+static const u8 sOCGDuelistPackBattleCityDesc[] = _(
+    "OCG_Duelist\n"
+    "Pack: Battle\n"
+    "City.");
+
+static const u8 sOCGDuelistPackChazzPrincetonDesc[] = _(
+    "OCG_Duelist\n"
+    "Pack: Chazz\n"
+    "Princeton.");
+
+static const u8 sOCGDuelistPackCrowDesc[] = _(
+    "OCG_Duelist\n"
+    "Pack: Crow.");
+
+static const u8 sOCGDuelistPackDuelistsofBrillianceDesc[] = _(
+    "OCG_Duelist\n"
+    "Pack: Duelists\n"
+    "of Brilliance.");
+
+static const u8 sOCGDuelistPackDuelistsofExplosionDesc[] = _(
+    "OCG_Duelist\n"
+    "Pack: Duelists\n"
+    "of Explosion.");
+
+static const u8 sOCGDuelistPackDuelistsofGloomDesc[] = _(
+    "OCG_Duelist\n"
+    "Pack: Duelists\n"
+    "of Gloom.");
+
+static const u8 sOCGDuelistPackDuelistsofPyroxeneDesc[] = _(
+    "OCG_Duelist\n"
+    "Pack: Duelists\n"
+    "of Pyroxene.");
+
+static const u8 sOCGDuelistPackDuelistsofWhirlwindDesc[] = _(
+    "OCG_Duelist\n"
+    "Pack: Duelists\n"
+    "of Whirlwind.");
+
+static const u8 sOCGDuelistPackDuelistsoftheAbyssDesc[] = _(
+    "OCG_Duelist\n"
+    "Pack: Duelists\n"
+    "of the Abyss.");
+
+static const u8 sOCGDuelistPackJadenYukiDesc[] = _(
+    "OCG_Duelist\n"
+    "Pack: Jaden Yuki.");
+
+static const u8 sOCGDuelistPackJadenYuki2Desc[] = _(
+    "OCG_Duelist\n"
+    "Pack: Jaden Yuki\n"
+    "2.");
+
+static const u8 sOCGDuelistPackJadenYuki3Desc[] = _(
+    "OCG_Duelist\n"
+    "Pack: Jaden Yuki\n"
+    "3.");
+
+static const u8 sOCGDuelistPackJesseAndersonDesc[] = _(
+    "OCG_Duelist\n"
+    "Pack: Jesse\n"
+    "Anderson.");
+
+static const u8 sOCGDuelistPackKastleSiblingsDesc[] = _(
+    "OCG_Duelist\n"
+    "Pack: Kastle\n"
+    "Siblings.");
+
+static const u8 sOCGDuelistPackKiteDesc[] = _(
+    "OCG_Duelist\n"
+    "Pack: Kite.");
+
+static const u8 sOCGDuelistPackLegendDuelistDesc[] = _(
+    "OCG_Duelist\n"
+    "Pack: Legend\n"
+    "Duelist.");
+
+static const u8 sOCGDuelistPackLegendDuelist2Desc[] = _(
+    "OCG_Duelist\n"
+    "Pack: Legend\n"
+    "Duelist 2.");
+
+static const u8 sOCGDuelistPackLegendDuelist3Desc[] = _(
+    "OCG_Duelist\n"
+    "Pack: Legend\n"
+    "Duelist 3.");
+
+static const u8 sOCGDuelistPackLegendDuelist4Desc[] = _(
+    "OCG_Duelist\n"
+    "Pack: Legend\n"
+    "Duelist 4.");
+
+static const u8 sOCGDuelistPackLegendDuelist5Desc[] = _(
+    "OCG_Duelist\n"
+    "Pack: Legend\n"
+    "Duelist 5.");
+
+static const u8 sOCGDuelistPackLegendDuelist6Desc[] = _(
+    "OCG_Duelist\n"
+    "Pack: Legend\n"
+    "Duelist 6.");
+
+static const u8 sOCGDuelistPackPharaohsMemoriesDesc[] = _(
+    "OCG_Duelist\n"
+    "Pack: Pharaoh's\n"
+    "Memories.");
+
+static const u8 sOCGDuelistPackYumaDesc[] = _(
+    "OCG_Duelist\n"
+    "Pack: Yuma.");
+
+static const u8 sOCGDuelistPackYuma2GogogoDododoDesc[] = _(
+    "OCG_Duelist\n"
+    "Pack: Yuma 2:\n"
+    "Gogogo & Dododo.");
+
+static const u8 sOCGDuelistPackYuseiDesc[] = _(
+    "OCG_Duelist\n"
+    "Pack: Yusei.");
+
+static const u8 sOCGDuelistPackYusei2Desc[] = _(
+    "OCG_Duelist\n"
+    "Pack: Yusei 2.");
+
+static const u8 sOCGDuelistPackYusei3Desc[] = _(
+    "OCG_Duelist\n"
+    "Pack: Yusei 3.");
+
+static const u8 sOCGDuelistPackZaneTruesdaleDesc[] = _(
+    "OCG_Duelist\n"
+    "Pack: Zane\n"
+    "Truesdale.");
+
+static const u8 sOCGDuelistRevolutionDesc[] = _(
+    "OCG_Duelist\n"
+    "Revolution.");
+
+static const u8 sOCGDuelistRevolution2PackSetDesc[] = _(
+    "OCG_Duelist\n"
+    "Revolution\n"
+    "2-Pack Set.");
+
+static const u8 sOCGDuelistRoadPieceofMemorySideYamiYugiDesc[] = _(
+    "OCG_Duelist Road\n"
+    "-Piece of\n"
+    "Memory- Side:\n"
+    "Yami Yugi.");
+
+static const u8 sOCGDuelistRoadPieceofMemorySideYugiMutoDesc[] = _(
+    "OCG_Duelist Road\n"
+    "-Piece of\n"
+    "Memory- Side:\n"
+    "Yugi Muto.");
+
+static const u8 sOCGDuelistSetDXDoubleUnionDesc[] = _(
+    "OCG_Duelist Set\n"
+    "DX: Double Union.");
+
+static const u8 sOCGDuelistSetVersionDarkReturnerDesc[] = _(
+    "OCG_Duelist Set:\n"
+    "Version Dark\n"
+    "Returner.");
+
+static const u8 sOCGDuelistSetVersionLightningStarDesc[] = _(
+    "OCG_Duelist Set:\n"
+    "Version\n"
+    "Lightning Star.");
+
+static const u8 sOCGDuelistSetVersionLightswornJudgmentDesc[] = _(
+    "OCG_Duelist Set:\n"
+    "Version\n"
+    "Lightsworn\n"
+    "Judgment.");
+
+static const u8 sOCGDuelistSetVersionLightswornJudgmentEnhancementPackDesc[] = _(
+    "OCG_Duelist Set:\n"
+    "Version\n"
+    "Lightsworn\n"
+    "Judgment\n"
+    "Enhancement Pack.");
+
+static const u8 sOCGDuelistSetVersionMachineGearTroopersDesc[] = _(
+    "OCG_Duelist Set:\n"
+    "Version Machine-\n"
+    "Gear Troopers.");
+
+static const u8 sOCGDuelistSetVersionMachineGearTroopersEnhancementPackDesc[] = _(
+    "OCG_Duelist Set:\n"
+    "Version Machine-\n"
+    "Gear Troopers\n"
+    "Enhancement Pack.");
+
+static const u8 sOCGDuelistsAdvanceDesc[] = _(
+    "OCG_Duelist's\n"
+    "Advance.");
+
+static const u8 sOCGEXStarterBoxDesc[] = _(
+    "OCG_EX Starter\n"
+    "Box.");
+
+static const u8 sOCGEXRStarterBoxDesc[] = _(
+    "OCG_EX-R Starter\n"
+    "Box.");
+
+static const u8 sOCGElementalEnergyDesc[] = _(
+    "OCG_Elemental\n"
+    "Energy.");
+
+static const u8 sOCGElementalEnergyVendorEditionDesc[] = _(
+    "OCG_Elemental\n"
+    "Energy: Vendor\n"
+    "Edition.");
+
+static const u8 sOCGEnemyofJusticeDesc[] = _(
+    "OCG_Enemy of\n"
+    "Justice.");
+
+static const u8 sOCGEnemyofJusticeVendorEditionDesc[] = _(
+    "OCG_Enemy of\n"
+    "Justice: Vendor\n"
+    "Edition.");
+
+static const u8 sOCGEntryPackDesc[] = _(
+    "OCG_Entry Pack.");
+
+static const u8 sOCGEternityCodeDesc[] = _(
+    "OCG_Eternity\n"
+    "Code.");
+
+static const u8 sOCGEventPack2024Vol1Desc[] = _(
+    "OCG_Event Pack\n"
+    "2024 Vol.1.");
+
+static const u8 sOCGEventPack2024Vol2Desc[] = _(
+    "OCG_Event Pack\n"
+    "2024 Vol.2.");
+
+static const u8 sOCGEventPack2024Vol3Desc[] = _(
+    "OCG_Event Pack\n"
+    "2024 Vol.3.");
+
+static const u8 sOCGEventPack2024Vol4Desc[] = _(
+    "OCG_Event Pack\n"
+    "2024 Vol.4.");
+
+static const u8 sOCGEvilTwinDuelSetDesc[] = _(
+    "OCG_Evil★Twin\n"
+    "Duel Set.");
+
+static const u8 sOCGExosisterDuelSetDesc[] = _(
+    "OCG_Exosister\n"
+    "Duel Set.");
+
+static const u8 sOCGExpertEdition2Desc[] = _(
+    "OCG_Expert\n"
+    "Edition 2.");
+
+static const u8 sOCGExpertEditionVolume3Desc[] = _(
+    "OCG_Expert\n"
+    "Edition Volume 3.");
+
+static const u8 sOCGExpertEditionVolume4Desc[] = _(
+    "OCG_Expert\n"
+    "Edition Volume 4.");
+
+static const u8 sOCGExpertEditionVolume1Desc[] = _(
+    "OCG_Expert\n"
+    "Edition Volume.1.");
+
+static const u8 sOCGExpertEditionVolume2Desc[] = _(
+    "OCG_Expert\n"
+    "Edition Volume.2.");
+
+static const u8 sOCGExtraPackDesc[] = _(
+    "OCG_Extra Pack.");
+
+static const u8 sOCGExtraPack2012Desc[] = _(
+    "OCG_Extra Pack\n"
+    "2012.");
+
+static const u8 sOCGExtraPack2015Desc[] = _(
+    "OCG_Extra Pack\n"
+    "2015.");
+
+static const u8 sOCGExtraPack2016Desc[] = _(
+    "OCG_Extra Pack\n"
+    "2016.");
+
+static const u8 sOCGExtraPack2017Desc[] = _(
+    "OCG_Extra Pack\n"
+    "2017.");
+
+static const u8 sOCGExtraPack2018Desc[] = _(
+    "OCG_Extra Pack\n"
+    "2018.");
+
+static const u8 sOCGExtraPack2019Desc[] = _(
+    "OCG_Extra Pack\n"
+    "2019.");
+
+static const u8 sOCGExtraPackVolume2Desc[] = _(
+    "OCG_Extra Pack\n"
     "Volume 2.");
 
-static const u8 sMasterofPendulumStructureDeckDesc[] = _(
-    "Master of\n"
-    "Pendulum\n"
-    "Structure Deck.");
-
-static const u8 sMattelActionFigurepromotionalcardsSeries1Desc[] = _(
-    "Mattel Action\n"
-    "Figure\n"
-    "promotional\n"
-    "cards: Series 1.");
-
-static const u8 sMattelActionFigurepromotionalcardsSeries2Desc[] = _(
-    "Mattel Action\n"
-    "Figure\n"
-    "promotional\n"
-    "cards: Series 2.");
-
-static const u8 sMattelActionFigurepromotionalcardsSeries3Desc[] = _(
-    "Mattel Action\n"
-    "Figure\n"
-    "promotional\n"
-    "cards: Series 3.");
-
-static const u8 sMaximumCrisisDesc[] = _(
-    "Maximum Crisis.");
-
-static const u8 sMaximumCrisisSneakPeekParticipationCardDesc[] = _(
-    "Maximum Crisis\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sMaximumCrisisSpecialEditionDesc[] = _(
-    "Maximum Crisis:\n"
-    "Special Edition.");
-
-static const u8 sMaximumGoldDesc[] = _(
-    "Maximum Gold.");
-
-static const u8 sMaximumGoldElDoradoDesc[] = _(
-    "Maximum Gold: El\n"
-    "Dorado.");
-
-static const u8 sMazeofMemoriesDesc[] = _(
-    "Maze of Memories.");
-
-static const u8 sMazeofMillenniaDesc[] = _(
-    "Maze of\n"
-    "Millennia.");
-
-static const u8 sMazeoftheMasterDesc[] = _(
-    "Maze of the\n"
-    "Master.");
-
-static const u8 sMcDonaldsPromotionalCardsDesc[] = _(
-    "McDonald's\n"
-    "Promotional\n"
-    "Cards.");
-
-static const u8 sMcDonaldsPromotionalCards2Desc[] = _(
-    "McDonald's\n"
-    "Promotional\n"
-    "Cards 2.");
-
-static const u8 sMetalRaidersDesc[] = _(
-    "Metal Raiders.");
-
-static const u8 sMillenniumPackDesc[] = _(
-    "Millennium Pack.");
-
-static const u8 sMoviePackDesc[] = _(
-    "Movie Pack.");
-
-static const u8 sMysticFightersDesc[] = _(
-    "Mystic Fighters.");
-
-static const u8 sNobleKnightsoftheRoundTableBoxSetDesc[] = _(
-    "Noble Knights of\n"
-    "the Round Table\n"
-    "Box Set.");
-
-static const u8 sNobleKnightsoftheRoundTablePowerUpPackDesc[] = _(
-    "Noble Knights of\n"
-    "the Round Table\n"
-    "Power-Up Pack.");
-
-static const u8 sNumberHuntersDesc[] = _(
-    "Number Hunters.");
-
-static const u8 sOTSTournamentPack1Desc[] = _(
-    "OTS Tournament\n"
-    "Pack 1.");
-
-static const u8 sOTSTournamentPack10Desc[] = _(
-    "OTS Tournament\n"
-    "Pack 10.");
-
-static const u8 sOTSTournamentPack10PORDesc[] = _(
-    "OTS Tournament\n"
-    "Pack 10 (POR).");
-
-static const u8 sOTSTournamentPack11Desc[] = _(
-    "OTS Tournament\n"
-    "Pack 11.");
-
-static const u8 sOTSTournamentPack11PORDesc[] = _(
-    "OTS Tournament\n"
-    "Pack 11 (POR).");
-
-static const u8 sOTSTournamentPack12Desc[] = _(
-    "OTS Tournament\n"
-    "Pack 12.");
-
-static const u8 sOTSTournamentPack12PORDesc[] = _(
-    "OTS Tournament\n"
-    "Pack 12 (POR).");
-
-static const u8 sOTSTournamentPack13Desc[] = _(
-    "OTS Tournament\n"
-    "Pack 13.");
-
-static const u8 sOTSTournamentPack13PORDesc[] = _(
-    "OTS Tournament\n"
-    "Pack 13 (POR).");
-
-static const u8 sOTSTournamentPack14Desc[] = _(
-    "OTS Tournament\n"
-    "Pack 14.");
-
-static const u8 sOTSTournamentPack14PORDesc[] = _(
-    "OTS Tournament\n"
-    "Pack 14 (POR).");
-
-static const u8 sOTSTournamentPack15Desc[] = _(
-    "OTS Tournament\n"
-    "Pack 15.");
-
-static const u8 sOTSTournamentPack15PORDesc[] = _(
-    "OTS Tournament\n"
-    "Pack 15 (POR).");
-
-static const u8 sOTSTournamentPack16Desc[] = _(
-    "OTS Tournament\n"
-    "Pack 16.");
-
-static const u8 sOTSTournamentPack16PORDesc[] = _(
-    "OTS Tournament\n"
-    "Pack 16 (POR).");
-
-static const u8 sOTSTournamentPack17Desc[] = _(
-    "OTS Tournament\n"
-    "Pack 17.");
-
-static const u8 sOTSTournamentPack17PORDesc[] = _(
-    "OTS Tournament\n"
-    "Pack 17 (POR).");
-
-static const u8 sOTSTournamentPack18Desc[] = _(
-    "OTS Tournament\n"
-    "Pack 18.");
-
-static const u8 sOTSTournamentPack18PORDesc[] = _(
-    "OTS Tournament\n"
-    "Pack 18 (POR).");
-
-static const u8 sOTSTournamentPack19Desc[] = _(
-    "OTS Tournament\n"
-    "Pack 19.");
-
-static const u8 sOTSTournamentPack19PORDesc[] = _(
-    "OTS Tournament\n"
-    "Pack 19 (POR).");
-
-static const u8 sOTSTournamentPack2Desc[] = _(
-    "OTS Tournament\n"
-    "Pack 2.");
-
-static const u8 sOTSTournamentPack20Desc[] = _(
-    "OTS Tournament\n"
-    "Pack 20.");
-
-static const u8 sOTSTournamentPack21Desc[] = _(
-    "OTS Tournament\n"
-    "Pack 21.");
-
-static const u8 sOTSTournamentPack22Desc[] = _(
-    "OTS Tournament\n"
-    "Pack 22.");
-
-static const u8 sOTSTournamentPack23Desc[] = _(
-    "OTS Tournament\n"
-    "Pack 23.");
-
-static const u8 sOTSTournamentPack24Desc[] = _(
-    "OTS Tournament\n"
-    "Pack 24.");
-
-static const u8 sOTSTournamentPack25Desc[] = _(
-    "OTS Tournament\n"
-    "Pack 25.");
-
-static const u8 sOTSTournamentPack26Desc[] = _(
-    "OTS Tournament\n"
-    "Pack 26.");
-
-static const u8 sOTSTournamentPack27Desc[] = _(
-    "OTS Tournament\n"
-    "Pack 27.");
-
-static const u8 sOTSTournamentPack28Desc[] = _(
-    "OTS Tournament\n"
-    "Pack 28.");
-
-static const u8 sOTSTournamentPack3Desc[] = _(
-    "OTS Tournament\n"
-    "Pack 3.");
-
-static const u8 sOTSTournamentPack4Desc[] = _(
-    "OTS Tournament\n"
-    "Pack 4.");
-
-static const u8 sOTSTournamentPack5Desc[] = _(
-    "OTS Tournament\n"
-    "Pack 5.");
-
-static const u8 sOTSTournamentPack6Desc[] = _(
-    "OTS Tournament\n"
-    "Pack 6.");
-
-static const u8 sOTSTournamentPack7Desc[] = _(
-    "OTS Tournament\n"
-    "Pack 7.");
-
-static const u8 sOTSTournamentPack7PORDesc[] = _(
-    "OTS Tournament\n"
-    "Pack 7 (POR).");
-
-static const u8 sOTSTournamentPack8Desc[] = _(
-    "OTS Tournament\n"
-    "Pack 8.");
-
-static const u8 sOTSTournamentPack8PORDesc[] = _(
-    "OTS Tournament\n"
-    "Pack 8 (POR).");
-
-static const u8 sOTSTournamentPack9Desc[] = _(
-    "OTS Tournament\n"
-    "Pack 9.");
-
-static const u8 sOTSTournamentPack9PORDesc[] = _(
-    "OTS Tournament\n"
-    "Pack 9 (POR).");
-
-static const u8 sOnslaughtoftheFireKingsStructureDeckDesc[] = _(
-    "Onslaught of the\n"
-    "Fire Kings\n"
-    "Structure Deck.");
-
-static const u8 sOrderofChaosDesc[] = _(
-    "Order of Chaos.");
-
-static const u8 sOrderofChaosSneakPeekParticipationCardDesc[] = _(
-    "Order of Chaos\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sOrderofChaosSpecialEditionDesc[] = _(
-    "Order of Chaos:\n"
-    "Special Edition.");
-
-static const u8 sPalladiumOracleMahadSweepstakesDesc[] = _(
-    "Palladium Oracle\n"
-    "Mahad\n"
-    "Sweepstakes.");
-
-static const u8 sPendulumDominationStructureDeckDesc[] = _(
-    "Pendulum\n"
-    "Domination\n"
-    "Structure Deck.");
-
-static const u8 sPendulumEvolutionDesc[] = _(
-    "Pendulum\n"
-    "Evolution.");
-
-static const u8 sPhantomDarknessDesc[] = _(
-    "Phantom Darkness.");
-
-static const u8 sPhantomDarknessSneakPeekParticipationCardDesc[] = _(
-    "Phantom Darkness\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sPhantomDarknessSpecialEditionDesc[] = _(
-    "Phantom\n"
-    "Darkness:\n"
-    "Special Edition.");
-
-static const u8 sPhantomNightmareDesc[] = _(
-    "Phantom\n"
-    "Nightmare.");
-
-static const u8 sPhantomRageDesc[] = _(
-    "Phantom Rage.");
-
-static const u8 sPhantomRagePremierepromotionalcardDesc[] = _(
-    "Phantom Rage\n"
-    "Premiere!\n"
+static const u8 sOCGExtraPackVolume3Desc[] = _(
+    "OCG_Extra Pack\n"
+    "Volume 3.");
+
+static const u8 sOCGExtraPackVolume4Desc[] = _(
+    "OCG_Extra Pack\n"
+    "Volume 4.");
+
+static const u8 sOCGExtraPackKnightsofOrderDesc[] = _(
+    "OCG_Extra Pack:\n"
+    "Knights of Order.");
+
+static const u8 sOCGExtraPackSwordofKnightsDesc[] = _(
+    "OCG_Extra Pack:\n"
+    "Sword of Knights.");
+
+static const u8 sOCGExtremeForceDesc[] = _(
+    "OCG_Extreme\n"
+    "Force.");
+
+static const u8 sOCGExtremeVictoryDesc[] = _(
+    "OCG_Extreme\n"
+    "Victory.");
+
+static const u8 sOCGExtremeVictory2PackSetDesc[] = _(
+    "OCG_Extreme\n"
+    "Victory 2-Pack\n"
+    "Set.");
+
+static const u8 sOCGFiendsmithDuelSetDesc[] = _(
+    "OCG_Fiendsmith\n"
+    "Duel Set.");
+
+static const u8 sOCGFlamesofDestructionDesc[] = _(
+    "OCG_Flames of\n"
+    "Destruction.");
+
+static const u8 sOCGFlamingEternityDesc[] = _(
+    "OCG_Flaming\n"
+    "Eternity.");
+
+static const u8 sOCGFlamingEternityVendorEditionDesc[] = _(
+    "OCG_Flaming\n"
+    "Eternity: Vendor\n"
+    "Edition.");
+
+static const u8 sOCGForceoftheBreakerDesc[] = _(
+    "OCG_Force of the\n"
+    "Breaker.");
+
+static const u8 sOCGForceoftheBreakerVendorEditionDesc[] = _(
+    "OCG_Force of the\n"
+    "Breaker: Vendor\n"
+    "Edition.");
+
+static const u8 sOCGGUcollaborationcardsDesc[] = _(
+    "OCG_GU\n"
+    "collaboration\n"
+    "cards.");
+
+static const u8 sOCGGalacticOverlordDesc[] = _(
+    "OCG_Galactic\n"
+    "Overlord.");
+
+static const u8 sOCGGenerationForceDesc[] = _(
+    "OCG_Generation\n"
+    "Force.");
+
+static const u8 sOCGGenerationForce2PackSetDesc[] = _(
+    "OCG_Generation\n"
+    "Force 2-Pack Set.");
+
+static const u8 sOCGGladiatorsAssaultDesc[] = _(
+    "OCG_Gladiator's\n"
+    "Assault.");
+
+static const u8 sOCGGladiatorsAssault2PackSetDesc[] = _(
+    "OCG_Gladiator's\n"
+    "Assault 2-Pack\n"
+    "Set.");
+
+static const u8 sOCGGoldPack2016Desc[] = _(
+    "OCG_Gold Pack\n"
+    "2016.");
+
+static const u8 sOCGGoldSeriesOCGDesc[] = _(
+    "OCG_Gold Series\n"
+    "(OCG).");
+
+static const u8 sOCGGoldSeries2010Desc[] = _(
+    "OCG_Gold Series\n"
+    "2010.");
+
+static const u8 sOCGGoldSeries2011Desc[] = _(
+    "OCG_Gold Series\n"
+    "2011.");
+
+static const u8 sOCGGoldSeries2012Desc[] = _(
+    "OCG_Gold Series\n"
+    "2012.");
+
+static const u8 sOCGGoldSeries2013Desc[] = _(
+    "OCG_Gold Series\n"
+    "2013.");
+
+static const u8 sOCGGoldSeries2014Desc[] = _(
+    "OCG_Gold Series\n"
+    "2014.");
+
+static const u8 sOCGHalfDeck2018DARKDesc[] = _(
+    "OCG_Half Deck\n"
+    "2018: DARK.");
+
+static const u8 sOCGHalfDeck2018LIGHTDesc[] = _(
+    "OCG_Half Deck\n"
+    "2018: LIGHT.");
+
+static const u8 sOCGHalfDeckDARKDesc[] = _(
+    "OCG_Half-Deck:\n"
+    "DARK.");
+
+static const u8 sOCGHalfDeckLIGHTDesc[] = _(
+    "OCG_Half-Deck:\n"
+    "LIGHT.");
+
+static const u8 sOCGHighResolutionArtworkSeriesDesc[] = _(
+    "OCG_High-\n"
+    "Resolution\n"
+    "Artwork Series.");
+
+static const u8 sOCGHistoryArchiveCollectionDesc[] = _(
+    "OCG_History\n"
+    "Archive\n"
+    "Collection.");
+
+static const u8 sOCGIgnitionAssaultDesc[] = _(
+    "OCG_Ignition\n"
+    "Assault.");
+
+static const u8 sOCGInfiniteForbidden1BonusPackDesc[] = _(
+    "OCG_Infinite\n"
+    "Forbidden +1\n"
+    "Bonus Pack.");
+
+static const u8 sOCGInvaderofDarknesssetDesc[] = _(
+    "OCG_Invader of\n"
+    "Darkness (set).");
+
+static const u8 sOCGInvasionVengeanceDesc[] = _(
+    "OCG_Invasion:\n"
+    "Vengeance.");
+
+static const u8 sOCGJapanChampionship2021ShopQualifiersparticipationcardDesc[] = _(
+    "OCG_Japan\n"
+    "Championship\n"
+    "2021 Shop\n"
+    "Qualifiers\n"
+    "participation\n"
+    "card.");
+
+static const u8 sOCGJapanChampionship2023ShopQualifierspromotionalcardDesc[] = _(
+    "OCG_Japan\n"
+    "Championship\n"
+    "2023 Shop\n"
+    "Qualifiers\n"
     "promotional card.");
 
-static const u8 sPharaohTour2005promotionalcardsDesc[] = _(
-    "Pharaoh Tour\n"
+static const u8 sOCGJapanChampionship2025FinalsprizecardDesc[] = _(
+    "OCG_Japan\n"
+    "Championship\n"
+    "2025 Finals\n"
+    "prize card.");
+
+static const u8 sOCGJudgmentoftheLightDesc[] = _(
+    "OCG_Judgment of\n"
+    "the Light.");
+
+static const u8 sOCGJumpFesta2004promotionalcardsDesc[] = _(
+    "OCG_Jump Festa\n"
+    "2004 promotional\n"
+    "cards.");
+
+static const u8 sOCGJumpFesta2005promotionalcardsDesc[] = _(
+    "OCG_Jump Festa\n"
     "2005 promotional\n"
     "cards.");
 
-static const u8 sPharaohTour2006promotionalcardsDesc[] = _(
-    "Pharaoh Tour\n"
-    "2006 promotional\n"
-    "cards.");
-
-static const u8 sPharaohTour2007promotionalcardsDesc[] = _(
-    "Pharaoh Tour\n"
+static const u8 sOCGJumpFesta2007promotionalcardsDesc[] = _(
+    "OCG_Jump Festa\n"
     "2007 promotional\n"
     "cards.");
 
-static const u8 sPharaohsServantDesc[] = _(
-    "Pharaoh's\n"
-    "Servant.");
-
-static const u8 sPharaonicGuardianDesc[] = _(
-    "Pharaonic\n"
-    "Guardian.");
-
-static const u8 sPhotonHypernovaDesc[] = _(
-    "Photon Hypernova.");
-
-static const u8 sPhotonShockwaveDesc[] = _(
-    "Photon Shockwave.");
-
-static const u8 sPhotonShockwaveSneakPeekParticipationCardDesc[] = _(
-    "Photon Shockwave\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sPoweroftheDuelistDesc[] = _(
-    "Power of the\n"
-    "Duelist.");
-
-static const u8 sPoweroftheDuelistSneakPeekParticipationCardDesc[] = _(
-    "Power of the\n"
-    "Duelist Sneak\n"
-    "Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sPoweroftheElementsDesc[] = _(
-    "Power of the\n"
-    "Elements.");
-
-static const u8 sPremiumCollectionTinDesc[] = _(
-    "Premium\n"
-    "Collection Tin.");
-
-static const u8 sPremiumGoldDesc[] = _(
-    "Premium Gold.");
-
-static const u8 sPremiumGoldInfiniteGoldDesc[] = _(
-    "Premium Gold:\n"
-    "Infinite Gold.");
-
-static const u8 sPremiumGoldReturnoftheBlingDesc[] = _(
-    "Premium Gold:\n"
-    "Return of the\n"
-    "Bling.");
-
-static const u8 sPremiumPackTCGDesc[] = _(
-    "Premium Pack\n"
-    "(TCG).");
-
-static const u8 sPremiumPack2TCGDesc[] = _(
-    "Premium Pack 2\n"
-    "(TCG).");
-
-static const u8 sPrimalOriginDesc[] = _(
-    "Primal Origin.");
-
-static const u8 sPrimalOriginPlusDesc[] = _(
-    "Primal Origin\n"
-    "Plus.");
-
-static const u8 sPrimalOriginSneakPeekParticipationCardDesc[] = _(
-    "Primal Origin\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sPrimalOriginDeluxeEditionDesc[] = _(
-    "Primal Origin:\n"
-    "Deluxe Edition.");
-
-static const u8 sQuarterCenturyBonanzaDesc[] = _(
-    "Quarter Century\n"
-    "Bonanza.");
-
-static const u8 sQuarterCenturyStampedeDesc[] = _(
-    "Quarter Century\n"
-    "Stampede.");
-
-static const u8 sRaYellowMegaPackDesc[] = _(
-    "Ra Yellow Mega\n"
-    "Pack.");
-
-static const u8 sRaYellowMegaPackSpecialEditionDesc[] = _(
-    "Ra Yellow Mega\n"
-    "Pack: Special\n"
-    "Edition.");
-
-static const u8 sRageoftheAbyssDesc[] = _(
-    "Rage of the\n"
-    "Abyss.");
-
-static const u8 sRagingBattleDesc[] = _(
-    "Raging Battle.");
-
-static const u8 sRagingBattleSneakPeekParticipationCardDesc[] = _(
-    "Raging Battle\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sRagingBattleSpecialEditionDesc[] = _(
-    "Raging Battle:\n"
-    "Special Edition.");
-
-static const u8 sRagingTempestDesc[] = _(
-    "Raging Tempest.");
-
-static const u8 sRagingTempestSneakPeekParticipationCardDesc[] = _(
-    "Raging Tempest\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sRagingTempestSpecialEditionDesc[] = _(
-    "Raging Tempest:\n"
-    "Special Edition.");
-
-static const u8 sRealmofLightStructureDeckDesc[] = _(
-    "Realm of Light\n"
-    "Structure Deck.");
-
-static const u8 sRealmoftheSeaEmperorStructureDeckDesc[] = _(
-    "Realm of the Sea\n"
-    "Emperor\n"
-    "Structure Deck.");
-
-static const u8 sRemoteDuelatHomeSweepstakesDesc[] = _(
-    "Remote Duel at\n"
-    "Home Sweepstakes.");
-
-static const u8 sRetroPackDesc[] = _(
-    "Retro Pack.");
-
-static const u8 sRetroPack2Desc[] = _(
-    "Retro Pack 2.");
-
-static const u8 sReturnoftheDuelistDesc[] = _(
-    "Return of the\n"
-    "Duelist.");
-
-static const u8 sReturnoftheDuelistSneakPeekParticipationCardDesc[] = _(
-    "Return of the\n"
-    "Duelist Sneak\n"
-    "Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sReturnoftheDuelistSpecialEditionDesc[] = _(
-    "Return of the\n"
-    "Duelist: Special\n"
-    "Edition.");
-
-static const u8 sRiseofDestinyDesc[] = _(
-    "Rise of Destiny.");
-
-static const u8 sRiseofDestinySpecialEditionDesc[] = _(
-    "Rise of Destiny:\n"
-    "Special Edition.");
-
-static const u8 sRiseoftheDragonLordsStructureDeckDesc[] = _(
-    "Rise of the\n"
-    "Dragon Lords\n"
-    "Structure Deck.");
-
-static const u8 sRiseoftheDuelistDesc[] = _(
-    "Rise of the\n"
-    "Duelist.");
-
-static const u8 sRiseoftheDuelistPremierepromotionalcardDesc[] = _(
-    "Rise of the\n"
-    "Duelist\n"
-    "Premiere!\n"
-    "promotional card.");
-
-static const u8 sRiseoftheTrueDragonsStructureDeckDesc[] = _(
-    "Rise of the True\n"
-    "Dragons\n"
-    "Structure Deck.");
-
-static const u8 sRisingRampageDesc[] = _(
-    "Rising Rampage.");
-
-static const u8 sRisingRampageSneakPeekParticipationCardDesc[] = _(
-    "Rising Rampage\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sRisingRampageSpecialEditionDesc[] = _(
-    "Rising Rampage\n"
-    "Special Edition.");
-
-static const u8 sSJJumpPackSpring2020promotionalcardDesc[] = _(
-    "SJ Jump Pack\n"
-    "Spring 2020\n"
-    "promotional card.");
-
-static const u8 sSaberForceStarterDeckDesc[] = _(
-    "Saber Force\n"
-    "Starter Deck.");
-
-static const u8 sSagaofBlueEyesWhiteDragonStructureDeckDesc[] = _(
-    "Saga of Blue-\n"
-    "Eyes White\n"
-    "Dragon Structure\n"
-    "Deck.");
-
-static const u8 sSamuraiAssaultDesc[] = _(
-    "Samurai Assault.");
-
-static const u8 sSamuraiWarlordsStructureDeckDesc[] = _(
-    "Samurai Warlords\n"
-    "Structure Deck.");
-
-static const u8 sSanDiegoComicConpromotionalcardsDesc[] = _(
-    "San Diego Comic-\n"
-    "Con promotional\n"
+static const u8 sOCGJumpFesta2008promotionalcardsDesc[] = _(
+    "OCG_Jump Festa\n"
+    "2008 promotional\n"
     "cards.");
 
-static const u8 sSavageStrikeDesc[] = _(
-    "Savage Strike.");
+static const u8 sOCGJumpFesta2009PromotionPackDesc[] = _(
+    "OCG_Jump Festa\n"
+    "2009 - Promotion\n"
+    "Pack.");
 
-static const u8 sSavageStrikeSneakPeekParticipationCardDesc[] = _(
-    "Savage Strike\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
+static const u8 sOCGJumpFesta2010PromotionPackDesc[] = _(
+    "OCG_Jump Festa\n"
+    "2010 - Promotion\n"
+    "Pack.");
 
-static const u8 sSavageStrikeSpecialEditionDesc[] = _(
-    "Savage Strike\n"
-    "Special Edition.");
+static const u8 sOCGJumpFesta2011PromotionPackDesc[] = _(
+    "OCG_Jump Festa\n"
+    "2011 - Promotion\n"
+    "Pack.");
 
-static const u8 sSecretSlayersDesc[] = _(
-    "Secret Slayers.");
+static const u8 sOCGJumpFesta2012PromotionPackADesc[] = _(
+    "OCG_Jump Festa\n"
+    "2012 - Promotion\n"
+    "Pack A.");
 
-static const u8 sSecretsofEternityDesc[] = _(
-    "Secrets of\n"
-    "Eternity.");
+static const u8 sOCGJumpFesta2012PromotionPackBDesc[] = _(
+    "OCG_Jump Festa\n"
+    "2012 - Promotion\n"
+    "Pack B.");
 
-static const u8 sSecretsofEternitySneakPeekParticipationCardDesc[] = _(
-    "Secrets of\n"
-    "Eternity Sneak\n"
-    "Peek\n"
-    "Participation\n"
-    "Card.");
+static const u8 sOCGJumpFesta2013PromotionPackADesc[] = _(
+    "OCG_Jump Festa\n"
+    "2013 - Promotion\n"
+    "Pack A.");
 
-static const u8 sSecretsofEternitySuperEditionDesc[] = _(
-    "Secrets of\n"
-    "Eternity: Super\n"
+static const u8 sOCGJumpFesta2013PromotionPackBDesc[] = _(
+    "OCG_Jump Festa\n"
+    "2013 - Promotion\n"
+    "Pack B.");
+
+static const u8 sOCGJumpFesta2014PromotionPackDesc[] = _(
+    "OCG_Jump Festa\n"
+    "2014 - Promotion\n"
+    "Pack.");
+
+static const u8 sOCGJumpFesta2015PromotionPackDesc[] = _(
+    "OCG_Jump Festa\n"
+    "2015 - Promotion\n"
+    "Pack.");
+
+static const u8 sOCGJumpFesta2018SpecialSetDesc[] = _(
+    "OCG_Jump Festa\n"
+    "2018 Special Set.");
+
+static const u8 sOCGJumpFestaLimitedPack2019Desc[] = _(
+    "OCG_Jump Festa\n"
+    "Limited Pack\n"
+    "2019.");
+
+static const u8 sOCGJumpFestaLimitedPack2020Desc[] = _(
+    "OCG_Jump Festa\n"
+    "Limited Pack\n"
+    "2020.");
+
+static const u8 sOCGJumpHeroespromotionalcardDesc[] = _(
+    "OCG_Jump Heroes\n"
+    "promotional card.");
+
+static const u8 sOCGJumpRyVol08promotionalcardDesc[] = _(
+    "OCG_Jump Ryū\n"
+    "Vol.08\n"
+    "promotional card.");
+
+static const u8 sOCGJumpSuperAnimeTour2008promotionalcardDesc[] = _(
+    "OCG_Jump Super\n"
+    "Anime Tour 2008\n"
+    "promotional card.");
+
+static const u8 sOCGJumpVictoryCarnival2014promotionalcardDesc[] = _(
+    "OCG_Jump Victory\n"
+    "Carnival 2014\n"
+    "promotional card.");
+
+static const u8 sOCGJumpVictoryCarnival2015promotionalcardDesc[] = _(
+    "OCG_Jump Victory\n"
+    "Carnival 2015\n"
+    "promotional card.");
+
+static const u8 sOCGJumpVictoryCarnival2016PromotionPackDesc[] = _(
+    "OCG_Jump Victory\n"
+    "Carnival 2016 -\n"
+    "Promotion Pack.");
+
+static const u8 sOCGJumpVictoryCarnival2016promotionalcardDesc[] = _(
+    "OCG_Jump Victory\n"
+    "Carnival 2016\n"
+    "promotional card.");
+
+static const u8 sOCGJumpVictoryCarnival2017promotionalcardDesc[] = _(
+    "OCG_Jump Victory\n"
+    "Carnival 2017\n"
+    "promotional card.");
+
+static const u8 sOCGJumpVictoryCarnival2018promotionalcardDesc[] = _(
+    "OCG_Jump Victory\n"
+    "Carnival 2018\n"
+    "promotional card.");
+
+static const u8 sOCGJumpVictoryCarnival2019promotionalcardDesc[] = _(
+    "OCG_Jump Victory\n"
+    "Carnival 2019\n"
+    "promotional card.");
+
+static const u8 sOCGLINKVRAINSBoxDesc[] = _(
+    "OCG_LINK VRAINS\n"
+    "Box.");
+
+static const u8 sOCGLINKVRAINSDuelistSetDesc[] = _(
+    "OCG_LINK VRAINS\n"
+    "Duelist Set.");
+
+static const u8 sOCGLINKVRAINSEditionDesc[] = _(
+    "OCG_LINK VRAINS\n"
     "Edition.");
 
-static const u8 sShadowSpectersDesc[] = _(
-    "Shadow Specters.");
+static const u8 sOCGLINKVRAINSPackDesc[] = _(
+    "OCG_LINK VRAINS\n"
+    "Pack.");
 
-static const u8 sShadowSpectersSneakPeekParticipationCardDesc[] = _(
-    "Shadow Specters\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
+static const u8 sOCGLINKVRAINSPack2Desc[] = _(
+    "OCG_LINK VRAINS\n"
+    "Pack 2.");
 
-static const u8 sShadowSpectersSpecialEditionDesc[] = _(
-    "Shadow Specters:\n"
-    "Special Edition.");
+static const u8 sOCGLINKVRAINSPack3Desc[] = _(
+    "OCG_LINK VRAINS\n"
+    "Pack 3.");
 
-static const u8 sShadowofInfinityDesc[] = _(
-    "Shadow of\n"
+static const u8 sOCGLabrynthDuelSetDesc[] = _(
+    "OCG_Labrynth\n"
+    "Duel Set.");
+
+static const u8 sOCGLabyrinthofNightmareJapaneseDesc[] = _(
+    "OCG_Labyrinth of\n"
+    "Nightmare\n"
+    "(Japanese).");
+
+static const u8 sOCGLegacyofDestructionDesc[] = _(
+    "OCG_Legacy of\n"
+    "Destruction.");
+
+static const u8 sOCGLegacyofDestruction1BonusPackDesc[] = _(
+    "OCG_Legacy of\n"
+    "Destruction +1\n"
+    "Bonus Pack.");
+
+static const u8 sOCGLegacyoftheValiantDesc[] = _(
+    "OCG_Legacy of\n"
+    "the Valiant.");
+
+static const u8 sOCGLegendofBlueEyesWhiteDragonJapaneseDesc[] = _(
+    "OCG_Legend of\n"
+    "Blue Eyes White\n"
+    "Dragon\n"
+    "(Japanese).");
+
+static const u8 sOCGLegendaryBlackLusterSoldierGETCampaignDesc[] = _(
+    "OCG_Legendary\n"
+    ""Black Luster\n"
+    "Soldier" GET\n"
+    "Campaign.");
+
+static const u8 sOCGLegendaryGoldBoxDesc[] = _(
+    "OCG_Legendary\n"
+    "Gold Box.");
+
+static const u8 sOCGLegendaryMonstersPackDesc[] = _(
+    "OCG_Legendary\n"
+    "Monsters Pack.");
+
+static const u8 sOCGLightofDestructionDesc[] = _(
+    "OCG_Light of\n"
+    "Destruction.");
+
+static const u8 sOCGLightofDestruction2PackSetDesc[] = _(
+    "OCG_Light of\n"
+    "Destruction\n"
+    "2-Pack Set.");
+
+static const u8 sOCGLightningOverdriveDesc[] = _(
+    "OCG_Lightning\n"
+    "Overdrive.");
+
+static const u8 sOCGLightningOverdrive1BonusPackDesc[] = _(
+    "OCG_Lightning\n"
+    "Overdrive +1\n"
+    "Bonus Pack.");
+
+static const u8 sOCGLimitedEdition10ChaosBlackDesc[] = _(
+    "OCG_Limited\n"
+    "Edition 10:\n"
+    "Chaos Black.");
+
+static const u8 sOCGLimitedEdition10HolyWhiteDesc[] = _(
+    "OCG_Limited\n"
+    "Edition 10: Holy\n"
+    "White.");
+
+static const u8 sOCGLimitedEdition11Desc[] = _(
+    "OCG_Limited\n"
+    "Edition 11.");
+
+static const u8 sOCGLimitedEdition12Desc[] = _(
+    "OCG_Limited\n"
+    "Edition 12.");
+
+static const u8 sOCGLimitedEdition13Desc[] = _(
+    "OCG_Limited\n"
+    "Edition 13.");
+
+static const u8 sOCGLimitedEdition14Desc[] = _(
+    "OCG_Limited\n"
+    "Edition 14.");
+
+static const u8 sOCGLimitedEdition15Desc[] = _(
+    "OCG_Limited\n"
+    "Edition 15.");
+
+static const u8 sOCGLimitedEdition16Desc[] = _(
+    "OCG_Limited\n"
+    "Edition 16.");
+
+static const u8 sOCGLimitedEdition17Desc[] = _(
+    "OCG_Limited\n"
+    "Edition 17.");
+
+static const u8 sOCGLimitedEdition2JoeyPackDesc[] = _(
+    "OCG_Limited\n"
+    "Edition 2: Joey\n"
+    "Pack.");
+
+static const u8 sOCGLimitedEdition2KeithPackDesc[] = _(
+    "OCG_Limited\n"
+    "Edition 2: Keith\n"
+    "Pack.");
+
+static const u8 sOCGLimitedEdition2YugiPackDesc[] = _(
+    "OCG_Limited\n"
+    "Edition 2: Yugi\n"
+    "Pack.");
+
+static const u8 sOCGLimitedEdition3JoeyPackDesc[] = _(
+    "OCG_Limited\n"
+    "Edition 3: Joey\n"
+    "Pack.");
+
+static const u8 sOCGLimitedEdition3KaibaPackDesc[] = _(
+    "OCG_Limited\n"
+    "Edition 3: Kaiba\n"
+    "Pack.");
+
+static const u8 sOCGLimitedEdition3YugiPackDesc[] = _(
+    "OCG_Limited\n"
+    "Edition 3: Yugi\n"
+    "Pack.");
+
+static const u8 sOCGLimitedEdition4Desc[] = _(
+    "OCG_Limited\n"
+    "Edition 4.");
+
+static const u8 sOCGLimitedEdition4MarikPackDesc[] = _(
+    "OCG_Limited\n"
+    "Edition 4: Marik\n"
+    "Pack.");
+
+static const u8 sOCGLimitedEdition4YugiPackDesc[] = _(
+    "OCG_Limited\n"
+    "Edition 4: Yugi\n"
+    "Pack.");
+
+static const u8 sOCGLimitedEdition5KaibaPackDesc[] = _(
+    "OCG_Limited\n"
+    "Edition 5: Kaiba\n"
+    "Pack.");
+
+static const u8 sOCGLimitedEdition5YugiPackDesc[] = _(
+    "OCG_Limited\n"
+    "Edition 5: Yugi\n"
+    "Pack.");
+
+static const u8 sOCGLimitedEdition6Desc[] = _(
+    "OCG_Limited\n"
+    "Edition 6.");
+
+static const u8 sOCGLimitedEdition7Desc[] = _(
+    "OCG_Limited\n"
+    "Edition 7.");
+
+static const u8 sOCGLimitedEdition8Desc[] = _(
+    "OCG_Limited\n"
+    "Edition 8.");
+
+static const u8 sOCGLimitedEdition9UltimateSevenPackDesc[] = _(
+    "OCG_Limited\n"
+    "Edition 9:\n"
+    "Ultimate Seven\n"
+    "Pack.");
+
+static const u8 sOCGLimitedEditionJoeyPackDesc[] = _(
+    "OCG_Limited\n"
+    "Edition: Joey\n"
+    "Pack.");
+
+static const u8 sOCGLimitedEditionKaibaPackDesc[] = _(
+    "OCG_Limited\n"
+    "Edition: Kaiba\n"
+    "Pack.");
+
+static const u8 sOCGLimitedEditionYugiPackDesc[] = _(
+    "OCG_Limited\n"
+    "Edition: Yugi\n"
+    "Pack.");
+
+static const u8 sOCGLimitedPackGXSliferRedDesc[] = _(
+    "OCG_Limited Pack\n"
+    "GX: Slifer Red.");
+
+static const u8 sOCGLinkMonsterPresentDesc[] = _(
+    "OCG_Link Monster\n"
+    "Present.");
+
+static const u8 sOCGLordoftheTachyonGalaxyDesc[] = _(
+    "OCG_Lord of the\n"
+    "Tachyon Galaxy.");
+
+static const u8 sOCGMagicRulerJapaneseDesc[] = _(
+    "OCG_Magic Ruler\n"
+    "(Japanese).");
+
+static const u8 sOCGMagiciansCombinationDuelSetDesc[] = _(
+    "OCG_Magicians'\n"
+    "Combination Duel\n"
+    "Set.");
+
+static const u8 sOCGMalissDuelSetDesc[] = _(
+    "OCG_Maliss Duel\n"
+    "Set.");
+
+static const u8 sOCGMasterCollectionVolume1Desc[] = _(
+    "OCG_Master\n"
+    "Collection\n"
+    "Volume 1.");
+
+static const u8 sOCGMasterCollectionVolume2Desc[] = _(
+    "OCG_Master\n"
+    "Collection\n"
+    "Volume 2.");
+
+static const u8 sOCGMasterCollectionVolume3Desc[] = _(
+    "OCG_Master\n"
+    "Collection\n"
+    "Volume 3.");
+
+static const u8 sOCGMasterGuide2promotionalcardsDesc[] = _(
+    "OCG_Master Guide\n"
+    "2 promotional\n"
+    "cards.");
+
+static const u8 sOCGMasterGuide3promotionalcardsDesc[] = _(
+    "OCG_Master Guide\n"
+    "3 promotional\n"
+    "cards.");
+
+static const u8 sOCGMasterGuide4promotionalcardsDesc[] = _(
+    "OCG_Master Guide\n"
+    "4 promotional\n"
+    "cards.");
+
+static const u8 sOCGMasterGuide5promotionalcardsDesc[] = _(
+    "OCG_Master Guide\n"
+    "5 promotional\n"
+    "cards.");
+
+static const u8 sOCGMasterGuide6promotionalcardsDesc[] = _(
+    "OCG_Master Guide\n"
+    "6 promotional\n"
+    "cards.");
+
+static const u8 sOCGMasterGuidepromotionalcardsDesc[] = _(
+    "OCG_Master Guide\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGMaximumCrisisDesc[] = _(
+    "OCG_Maximum\n"
+    "Crisis.");
+
+static const u8 sOCGMemoriesoftheDuelKingBattleCityArcDesc[] = _(
+    "OCG_Memories of\n"
+    "the Duel King:\n"
+    "Battle City Arc.");
+
+static const u8 sOCGMemoriesoftheDuelKingCeremonialBattleArcDesc[] = _(
+    "OCG_Memories of\n"
+    "the Duel King:\n"
+    "Ceremonial\n"
+    "Battle Arc.");
+
+static const u8 sOCGMemoriesoftheDuelKingDuelistKingdomArcDesc[] = _(
+    "OCG_Memories of\n"
+    "the Duel King:\n"
+    "Duelist Kingdom\n"
+    "Arc.");
+
+static const u8 sOCGMetalRaidersJapaneseDesc[] = _(
+    "OCG_Metal\n"
+    "Raiders\n"
+    "(Japanese).");
+
+static const u8 sOCGMillenniumBoxGoldEditionDesc[] = _(
+    "OCG_Millennium\n"
+    "Box Gold Edition.");
+
+static const u8 sOCGMillenniumPackOCGDesc[] = _(
+    "OCG_Millennium\n"
+    "Pack (OCG).");
+
+static const u8 sOCGMonsterFigureCollectionVolume2promotionalcardsDesc[] = _(
+    "OCG_Monster\n"
+    "Figure\n"
+    "Collection\n"
+    "Volume 2\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGMonsterFigureCollectionVolume3promotionalcardsDesc[] = _(
+    "OCG_Monster\n"
+    "Figure\n"
+    "Collection\n"
+    "Volume 3\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGMonsterFigureCollectionpromotionalcardsDesc[] = _(
+    "OCG_Monster\n"
+    "Figure\n"
+    "Collection\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGMonsterStrikecollaborationcardsDesc[] = _(
+    "OCG_Monster\n"
+    "Strike\n"
+    "collaboration\n"
+    "cards.");
+
+static const u8 sOCGMoviePackDesc[] = _(
+    "OCG_Movie Pack.");
+
+static const u8 sOCGMythologicalAgeDesc[] = _(
+    "OCG_Mythological\n"
+    "Age.");
+
+static const u8 sOCGNumberCompleteFilePieceofMemoriesDesc[] = _(
+    "OCG_Number\n"
+    "Complete File\n"
+    "-Piece of\n"
+    "Memories-.");
+
+static const u8 sOCGNumbersGuide2promotionalcardDesc[] = _(
+    "OCG_Numbers\n"
+    "Guide 2\n"
+    "promotional card.");
+
+static const u8 sOCGNumbersGuide3promotionalcardDesc[] = _(
+    "OCG_Numbers\n"
+    "Guide 3\n"
+    "promotional card.");
+
+static const u8 sOCGNumbersGuidepromotionalcardDesc[] = _(
+    "OCG_Numbers\n"
+    "Guide\n"
+    "promotional card.");
+
+static const u8 sOCGOfficialGuideStarterBookpromotionalcardDesc[] = _(
+    "OCG_Official\n"
+    "Guide Starter\n"
+    "Book promotional\n"
+    "card.");
+
+static const u8 sOCGOrderofChaosDesc[] = _(
+    "OCG_Order of\n"
+    "Chaos.");
+
+static const u8 sOCGOrderofChaos2PackSetDesc[] = _(
+    "OCG_Order of\n"
+    "Chaos 2-Pack Set.");
+
+static const u8 sOCGPerfectRulebook2015promotionalcardDesc[] = _(
+    "OCG_Perfect\n"
+    "Rulebook 2015\n"
+    "promotional card.");
+
+static const u8 sOCGPerfectRulebook2016promotionalcardDesc[] = _(
+    "OCG_Perfect\n"
+    "Rulebook 2016\n"
+    "promotional card.");
+
+static const u8 sOCGPerfectRulebook2017promotionalcardDesc[] = _(
+    "OCG_Perfect\n"
+    "Rulebook 2017\n"
+    "promotional card.");
+
+static const u8 sOCGPerfectRulebook2018promotionalcardDesc[] = _(
+    "OCG_Perfect\n"
+    "Rulebook 2018\n"
+    "promotional card.");
+
+static const u8 sOCGPerfectRulebook2020promotionalcardDesc[] = _(
+    "OCG_Perfect\n"
+    "Rulebook 2020\n"
+    "promotional card.");
+
+static const u8 sOCGPerfectRulebook2024promotionalcardDesc[] = _(
+    "OCG_Perfect\n"
+    "Rulebook 2024\n"
+    "promotional card.");
+
+static const u8 sOCGPerfectRulebookpromotionalcardDesc[] = _(
+    "OCG_Perfect\n"
+    "Rulebook\n"
+    "promotional card.");
+
+static const u8 sOCGPhantomDarknessDesc[] = _(
+    "OCG_Phantom\n"
+    "Darkness.");
+
+static const u8 sOCGPhantomDarkness2PackSetDesc[] = _(
+    "OCG_Phantom\n"
+    "Darkness 2-Pack\n"
+    "Set.");
+
+static const u8 sOCGPhantomGodDesc[] = _(
+    "OCG_Phantom God.");
+
+static const u8 sOCGPhantomNightmareDesc[] = _(
+    "OCG_Phantom\n"
+    "Nightmare.");
+
+static const u8 sOCGPhantomNightmare1BonusPackDesc[] = _(
+    "OCG_Phantom\n"
+    "Nightmare +1\n"
+    "Bonus Pack.");
+
+static const u8 sOCGPhantomRageDesc[] = _(
+    "OCG_Phantom Rage.");
+
+static const u8 sOCGPhantomRage1BonusPackDesc[] = _(
+    "OCG_Phantom Rage\n"
+    "+1 Bonus Pack.");
+
+static const u8 sOCGPharaohsInheritanceDesc[] = _(
+    "OCG_Pharaoh's\n"
+    "Inheritance.");
+
+static const u8 sOCGPharaohsInheritanceVendorEditionDesc[] = _(
+    "OCG_Pharaoh's\n"
+    "Inheritance:\n"
+    "Vendor Edition.");
+
+static const u8 sOCGPharaohsServantJapaneseDesc[] = _(
+    "OCG_Pharaoh's\n"
+    "Servant\n"
+    "(Japanese).");
+
+static const u8 sOCGPharaonicGuardianJapaneseDesc[] = _(
+    "OCG_Pharaonic\n"
+    "Guardian\n"
+    "(Japanese).");
+
+static const u8 sOCGPharaonicLegendPackDesc[] = _(
+    "OCG_Pharaonic\n"
+    "Legend Pack.");
+
+static const u8 sOCGPhotonHypernovaDesc[] = _(
+    "OCG_Photon\n"
+    "Hypernova.");
+
+static const u8 sOCGPhotonHypernova1BonusPackDesc[] = _(
+    "OCG_Photon\n"
+    "Hypernova +1\n"
+    "Bonus Pack.");
+
+static const u8 sOCGPhotonShockwaveDesc[] = _(
+    "OCG_Photon\n"
+    "Shockwave.");
+
+static const u8 sOCGPhotonShockwave2PackSetDesc[] = _(
+    "OCG_Photon\n"
+    "Shockwave 2-Pack\n"
+    "Set.");
+
+static const u8 sOCGPowerPros2023collaborationcardsDesc[] = _(
+    "OCG_Power Pros\n"
+    "2023\n"
+    "collaboration\n"
+    "cards.");
+
+static const u8 sOCGPowerProscollaborationcardsDesc[] = _(
+    "OCG_Power Pros\n"
+    "collaboration\n"
+    "cards.");
+
+static const u8 sOCGPoweroftheDuelistDesc[] = _(
+    "OCG_Power of the\n"
+    "Duelist.");
+
+static const u8 sOCGPoweroftheDuelistVendorEditionDesc[] = _(
+    "OCG_Power of the\n"
+    "Duelist: Vendor\n"
+    "Edition.");
+
+static const u8 sOCGPoweroftheElementsDesc[] = _(
+    "OCG_Power of the\n"
+    "Elements.");
+
+static const u8 sOCGPoweroftheElements1BonusPackDesc[] = _(
+    "OCG_Power of the\n"
+    "Elements +1\n"
+    "Bonus Pack.");
+
+static const u8 sOCGPoweroftheGuardianDesc[] = _(
+    "OCG_Power of the\n"
+    "Guardian.");
+
+static const u8 sOCGPremiumPackJapaneseDesc[] = _(
+    "OCG_Premium Pack\n"
+    "(Japanese).");
+
+static const u8 sOCGPremiumPack10Desc[] = _(
+    "OCG_Premium Pack\n"
+    "10.");
+
+static const u8 sOCGPremiumPack11Desc[] = _(
+    "OCG_Premium Pack\n"
+    "11.");
+
+static const u8 sOCGPremiumPack12Desc[] = _(
+    "OCG_Premium Pack\n"
+    "12.");
+
+static const u8 sOCGPremiumPack13Desc[] = _(
+    "OCG_Premium Pack\n"
+    "13.");
+
+static const u8 sOCGPremiumPack14Desc[] = _(
+    "OCG_Premium Pack\n"
+    "14.");
+
+static const u8 sOCGPremiumPack15Desc[] = _(
+    "OCG_Premium Pack\n"
+    "15.");
+
+static const u8 sOCGPremiumPack16Desc[] = _(
+    "OCG_Premium Pack\n"
+    "16.");
+
+static const u8 sOCGPremiumPack17Desc[] = _(
+    "OCG_Premium Pack\n"
+    "17.");
+
+static const u8 sOCGPremiumPack18Desc[] = _(
+    "OCG_Premium Pack\n"
+    "18.");
+
+static const u8 sOCGPremiumPack19Desc[] = _(
+    "OCG_Premium Pack\n"
+    "19.");
+
+static const u8 sOCGPremiumPack2JapaneseDesc[] = _(
+    "OCG_Premium Pack\n"
+    "2 (Japanese).");
+
+static const u8 sOCGPremiumPack20Desc[] = _(
+    "OCG_Premium Pack\n"
+    "20.");
+
+static const u8 sOCGPremiumPack2019Desc[] = _(
+    "OCG_Premium Pack\n"
+    "2019.");
+
+static const u8 sOCGPremiumPack2020Desc[] = _(
+    "OCG_Premium Pack\n"
+    "2020.");
+
+static const u8 sOCGPremiumPack2021Desc[] = _(
+    "OCG_Premium Pack\n"
+    "2021.");
+
+static const u8 sOCGPremiumPack2022Desc[] = _(
+    "OCG_Premium Pack\n"
+    "2022.");
+
+static const u8 sOCGPremiumPack2023Desc[] = _(
+    "OCG_Premium Pack\n"
+    "2023.");
+
+static const u8 sOCGPremiumPack2024Desc[] = _(
+    "OCG_Premium Pack\n"
+    "2024.");
+
+static const u8 sOCGPremiumPack2025Desc[] = _(
+    "OCG_Premium Pack\n"
+    "2025.");
+
+static const u8 sOCGPremiumPack3Desc[] = _(
+    "OCG_Premium Pack\n"
+    "3.");
+
+static const u8 sOCGPremiumPack4Desc[] = _(
+    "OCG_Premium Pack\n"
+    "4.");
+
+static const u8 sOCGPremiumPack5Desc[] = _(
+    "OCG_Premium Pack\n"
+    "5.");
+
+static const u8 sOCGPremiumPack6Desc[] = _(
+    "OCG_Premium Pack\n"
+    "6.");
+
+static const u8 sOCGPremiumPack7Desc[] = _(
+    "OCG_Premium Pack\n"
+    "7.");
+
+static const u8 sOCGPremiumPack8Desc[] = _(
+    "OCG_Premium Pack\n"
+    "8.");
+
+static const u8 sOCGPremiumPack9Desc[] = _(
+    "OCG_Premium Pack\n"
+    "9.");
+
+static const u8 sOCGPremiumPackTheLegendofDuelistQuarterCenturyEditionDesc[] = _(
+    "OCG_Premium\n"
+    "Pack: The Legend\n"
+    "of Duelist\n"
+    "Quarter Century\n"
+    "Edition.");
+
+static const u8 sOCGPrimalOriginDesc[] = _(
+    "OCG_Primal\n"
+    "Origin.");
+
+static const u8 sOCGPrimalOriginBoosterPackGuidepromotionalcardDesc[] = _(
+    "OCG_Primal\n"
+    "Origin Booster\n"
+    "Pack Guide\n"
+    "promotional card.");
+
+static const u8 sOCGPrismaticArtCollectionDesc[] = _(
+    "OCG_Prismatic\n"
+    "Art Collection.");
+
+static const u8 sOCGPrismaticGodBoxDesc[] = _(
+    "OCG_Prismatic\n"
+    "God Box.");
+
+static const u8 sOCGPrismaticSecretRareBlackLusterSoldierGETCampaignDesc[] = _(
+    "OCG_Prismatic\n"
+    "Secret Rare\n"
+    ""Black Luster\n"
+    "Soldier" GET\n"
+    "Campaign.");
+
+static const u8 sOCGPrismaticSecretRareBlueEyesWhiteDragonGETCampaignDesc[] = _(
+    "OCG_Prismatic\n"
+    "Secret Rare\n"
+    ""Blue-Eyes White\n"
+    "Dragon" GET\n"
+    "Campaign.");
+
+static const u8 sOCGPrismaticSecretRareDarkMagicianGETCampaignDesc[] = _(
+    "OCG_Prismatic\n"
+    "Secret Rare\n"
+    ""Dark Magician"\n"
+    "GET Campaign.");
+
+static const u8 sOCGPrismaticSecretRareRedEyesBlackDragonGETCampaignDesc[] = _(
+    "OCG_Prismatic\n"
+    "Secret Rare\n"
+    ""Red-Eyes Black\n"
+    "Dragon" GET\n"
+    "Campaign.");
+
+static const u8 sOCGPrismaticSpecialPackDesc[] = _(
+    "OCG_Prismatic\n"
+    "Special Pack.");
+
+static const u8 sOCGPromotionPackDesc[] = _(
+    "OCG_Promotion\n"
+    "Pack.");
+
+static const u8 sOCGPromotionPack2Desc[] = _(
+    "OCG_Promotion\n"
+    "Pack 2.");
+
+static const u8 sOCGPromotionPack2017Desc[] = _(
+    "OCG_Promotion\n"
+    "Pack 2017.");
+
+static const u8 sOCGPromotionPack2018Desc[] = _(
+    "OCG_Promotion\n"
+    "Pack 2018.");
+
+static const u8 sOCGPromotionPack2019Desc[] = _(
+    "OCG_Promotion\n"
+    "Pack 2019.");
+
+static const u8 sOCGPromotionPack2023Desc[] = _(
+    "OCG_Promotion\n"
+    "Pack 2023.");
+
+static const u8 sOCGPromotionPack2024Desc[] = _(
+    "OCG_Promotion\n"
+    "Pack 2024.");
+
+static const u8 sOCGPromotionPack2025Desc[] = _(
+    "OCG_Promotion\n"
+    "Pack 2025.");
+
+static const u8 sOCGPromotionPack3PartADesc[] = _(
+    "OCG_Promotion\n"
+    "Pack 3: Part A.");
+
+static const u8 sOCGPromotionPack3PartBDesc[] = _(
+    "OCG_Promotion\n"
+    "Pack 3: Part B.");
+
+static const u8 sOCGPromotionPack4PartADesc[] = _(
+    "OCG_Promotion\n"
+    "Pack 4: Part A.");
+
+static const u8 sOCGPromotionPack4PartBDesc[] = _(
+    "OCG_Promotion\n"
+    "Pack 4: Part B.");
+
+static const u8 sOCGQuarterCenturyAnniversarySelectionDesc[] = _(
+    "OCG_Quarter\n"
+    "Century\n"
+    "Anniversary\n"
+    "Selection.");
+
+static const u8 sOCGQuarterCenturyArtCollectionDesc[] = _(
+    "OCG_Quarter\n"
+    "Century Art\n"
+    "Collection.");
+
+static const u8 sOCGQuarterCenturyChroniclesidePrideDesc[] = _(
+    "OCG_Quarter\n"
+    "Century\n"
+    "Chronicle\n"
+    "side:Pride.");
+
+static const u8 sOCGQuarterCenturyChroniclesideUnityDesc[] = _(
+    "OCG_Quarter\n"
+    "Century\n"
+    "Chronicle\n"
+    "side:Unity.");
+
+static const u8 sOCGQuarterCenturyDuelSetBlackLusterSoldierEnvoyoftheBeginningDesc[] = _(
+    "OCG_Quarter\n"
+    "Century Duel Set\n"
+    ""Black Luster\n"
+    "Soldier - Envoy\n"
+    "of the\n"
+    "Beginning".");
+
+static const u8 sOCGQuarterCenturyDuelSetTheWingedDragonofRaDesc[] = _(
+    "OCG_Quarter\n"
+    "Century Duel Set\n"
+    ""The Winged\n"
+    "Dragon of Ra".");
+
+static const u8 sOCGQuarterCenturyDuelistBoxDesc[] = _(
+    "OCG_Quarter\n"
+    "Century Duelist\n"
+    "Box.");
+
+static const u8 sOCGQuarterCenturyLegendarySelectionDesc[] = _(
+    "OCG_Quarter\n"
+    "Century\n"
+    "Legendary\n"
+    "Selection.");
+
+static const u8 sOCGQuarterCenturyLimitedPackDesc[] = _(
+    "OCG_Quarter\n"
+    "Century Limited\n"
+    "Pack.");
+
+static const u8 sOCGQuarterCenturyTrinityBoxDesc[] = _(
+    "OCG_Quarter\n"
+    "Century Trinity\n"
+    "Box.");
+
+static const u8 sOCGQuarterCenturyUnityPrideCampaignsidePrideDesc[] = _(
+    "OCG_Quarter\n"
+    "Century Unity &\n"
+    "Pride Campaign\n"
+    "side:Pride.");
+
+static const u8 sOCGQuarterCenturyUnityPrideCampaignsideUnityDesc[] = _(
+    "OCG_Quarter\n"
+    "Century Unity &\n"
+    "Pride Campaign\n"
+    "side:Unity.");
+
+static const u8 sOCGRageoftheAbyssDesc[] = _(
+    "OCG_Rage of the\n"
+    "Abyss.");
+
+static const u8 sOCGRageoftheAbyss1BonusPackDesc[] = _(
+    "OCG_Rage of the\n"
+    "Abyss +1 Bonus\n"
+    "Pack.");
+
+static const u8 sOCGRagingBattleDesc[] = _(
+    "OCG_Raging\n"
+    "Battle.");
+
+static const u8 sOCGRagingBattle2PackSetDesc[] = _(
+    "OCG_Raging\n"
+    "Battle 2-Pack\n"
+    "Set.");
+
+static const u8 sOCGRagingTempestDesc[] = _(
+    "OCG_Raging\n"
+    "Tempest.");
+
+static const u8 sOCGRarityCollection20thAnniversaryEditionDesc[] = _(
+    "OCG_Rarity\n"
+    "Collection 20th\n"
+    "Anniversary\n"
+    "Edition.");
+
+static const u8 sOCGRarityCollectionPremiumGoldEditionDesc[] = _(
+    "OCG_Rarity\n"
+    "Collection\n"
+    "Premium Gold\n"
+    "Edition.");
+
+static const u8 sOCGRarityCollectionQuarterCenturyEditionDesc[] = _(
+    "OCG_Rarity\n"
+    "Collection\n"
+    "Quarter Century\n"
+    "Edition.");
+
+static const u8 sOCGRedEyesDuelSetDesc[] = _(
+    "OCG_Red-Eyes\n"
+    "Duel Set.");
+
+static const u8 sOCGRemoteDuelDiscordOfficialServerRegistrationCampaignDesc[] = _(
+    "OCG_Remote Duel\n"
+    "Discord Official\n"
+    "Server\n"
+    "Registration\n"
+    "Campaign.");
+
+static const u8 sOCGRemoteDuelGiveawayCampaignDesc[] = _(
+    "OCG_Remote Duel\n"
+    "Giveaway\n"
+    "Campaign.");
+
+static const u8 sOCGRemoteDuelTwitterCampaignsDesc[] = _(
+    "OCG_Remote Duel\n"
+    "Twitter\n"
+    "Campaigns.");
+
+static const u8 sOCGReturnoftheDuelistDesc[] = _(
+    "OCG_Return of\n"
+    "the Duelist.");
+
+static const u8 sOCGRevivalofBlackDemonsDragonDesc[] = _(
+    "OCG_Revival of\n"
+    "Black Demons\n"
+    "Dragon.");
+
+static const u8 sOCGRiseofDestinyDesc[] = _(
+    "OCG_Rise of\n"
+    "Destiny.");
+
+static const u8 sOCGRiseofDestinyVendorEditionDesc[] = _(
+    "OCG_Rise of\n"
+    "Destiny: Vendor\n"
+    "Edition.");
+
+static const u8 sOCGRiseoftheDuelistDesc[] = _(
+    "OCG_Rise of the\n"
+    "Duelist.");
+
+static const u8 sOCGRiseoftheDuelist1BonusPackDesc[] = _(
+    "OCG_Rise of the\n"
+    "Duelist +1 Bonus\n"
+    "Pack.");
+
+static const u8 sOCGRisingRampageDesc[] = _(
+    "OCG_Rising\n"
+    "Rampage.");
+
+static const u8 sOCGSaikyJumpMarch2015promotionalcardDesc[] = _(
+    "OCG_Saikyō Jump\n"
+    "March 2015\n"
+    "promotional card.");
+
+static const u8 sOCGSaikyJumpMay2016promotionalcardDesc[] = _(
+    "OCG_Saikyō Jump\n"
+    "May 2016\n"
+    "promotional card.");
+
+static const u8 sOCGSaikyJumpNovember2019promotionalcardDesc[] = _(
+    "OCG_Saikyō Jump\n"
+    "November 2019\n"
+    "promotional card.");
+
+static const u8 sOCGSaikyJumpSeptember2012promotionalcardDesc[] = _(
+    "OCG_Saikyō Jump\n"
+    "September 2012\n"
+    "promotional card.");
+
+static const u8 sOCGSaikyJumpSeptember2015promotionalcardDesc[] = _(
+    "OCG_Saikyō Jump\n"
+    "September 2015\n"
+    "promotional card.");
+
+static const u8 sOCGSaikyJumpSeptember2016promotionalcardDesc[] = _(
+    "OCG_Saikyō Jump\n"
+    "September 2016\n"
+    "promotional card.");
+
+static const u8 sOCGSaikyJumpSeptember2017promotionalcardDesc[] = _(
+    "OCG_Saikyō Jump\n"
+    "September 2017\n"
+    "promotional card.");
+
+static const u8 sOCGSaikyJumpSeptember2018promotionalcardDesc[] = _(
+    "OCG_Saikyō Jump\n"
+    "September 2018\n"
+    "promotional card.");
+
+static const u8 sOCGSaikyVJumpFesta2012promotionalcardDesc[] = _(
+    "OCG_Saikyō V\n"
+    "Jump Festa 2012\n"
+    "promotional card.");
+
+static const u8 sOCGSaikyVJumpFesta2013promotionalcardDesc[] = _(
+    "OCG_Saikyō V\n"
+    "Jump Festa 2013\n"
+    "promotional card.");
+
+static const u8 sOCGSavageStrikeDesc[] = _(
+    "OCG_Savage\n"
+    "Strike.");
+
+static const u8 sOCGSecretShinyBoxDesc[] = _(
+    "OCG_Secret Shiny\n"
+    "Box.");
+
+static const u8 sOCGSecretUtilityBoxDesc[] = _(
+    "OCG_Secret\n"
+    "Utility Box.");
+
+static const u8 sOCGSecretsofEternityDesc[] = _(
+    "OCG_Secrets of\n"
+    "Eternity.");
+
+static const u8 sOCGSelection10Desc[] = _(
+    "OCG_Selection 10.");
+
+static const u8 sOCGSelection5Desc[] = _(
+    "OCG_Selection 5.");
+
+static const u8 sOCGShadowSpectersDesc[] = _(
+    "OCG_Shadow\n"
+    "Specters.");
+
+static const u8 sOCGShadowofInfinityDesc[] = _(
+    "OCG_Shadow of\n"
     "Infinity.");
 
-static const u8 sShadowofInfinitySneakPeekParticipationCardDesc[] = _(
-    "Shadow of\n"
-    "Infinity Sneak\n"
-    "Peek\n"
-    "Participation\n"
-    "Card.");
+static const u8 sOCGShadowofInfinityVendorEditionDesc[] = _(
+    "OCG_Shadow of\n"
+    "Infinity: Vendor\n"
+    "Edition.");
 
-static const u8 sShadowofInfinitySpecialEditionDesc[] = _(
-    "Shadow of\n"
-    "Infinity:\n"
-    "Special Edition.");
+static const u8 sOCGShiningSarcophagusDuelSetDesc[] = _(
+    "OCG_Shining\n"
+    "Sarcophagus Duel\n"
+    "Set.");
 
-static const u8 sShadowsinValhallaDesc[] = _(
-    "Shadows in\n"
-    "Valhalla.");
-
-static const u8 sShiningVictoriesDesc[] = _(
-    "Shining\n"
+static const u8 sOCGShiningVictoriesDesc[] = _(
+    "OCG_Shining\n"
     "Victories.");
 
-static const u8 sShiningVictoriesSneakPeekParticipationCardDesc[] = _(
-    "Shining\n"
-    "Victories Sneak\n"
-    "Peek\n"
-    "Participation\n"
+static const u8 sOCGSkyStrikerAceDuelSetDesc[] = _(
+    "OCG_Sky Striker\n"
+    "Ace Duel Set.");
+
+static const u8 sOCGSkyStrikerAceDuelSet2Desc[] = _(
+    "OCG_Sky Striker\n"
+    "Ace Duel Set 2.");
+
+static const u8 sOCGSnakeEyeDuelSetDesc[] = _(
+    "OCG_Snake-Eye\n"
+    "Duel Set.");
+
+static const u8 sOCGSoulFusionDesc[] = _(
+    "OCG_Soul Fusion.");
+
+static const u8 sOCGSouloftheDuelistDesc[] = _(
+    "OCG_Soul of the\n"
+    "Duelist.");
+
+static const u8 sOCGSouloftheDuelistVendorEditionDesc[] = _(
+    "OCG_Soul of the\n"
+    "Duelist: Vendor\n"
+    "Edition.");
+
+static const u8 sOCGSpecialPackDesc[] = _(
+    "OCG_Special Pack.");
+
+static const u8 sOCGSpecialPack20thAnniversaryEditionVol1Desc[] = _(
+    "OCG_Special Pack\n"
+    "20th Anniversary\n"
+    "Edition Vol.1.");
+
+static const u8 sOCGSpecialPack20thAnniversaryEditionVol2Desc[] = _(
+    "OCG_Special Pack\n"
+    "20th Anniversary\n"
+    "Edition Vol.2.");
+
+static const u8 sOCGSpecialPack20thAnniversaryEditionVol3Desc[] = _(
+    "OCG_Special Pack\n"
+    "20th Anniversary\n"
+    "Edition Vol.3.");
+
+static const u8 sOCGSpecialPack20thAnniversaryEditionVol4Desc[] = _(
+    "OCG_Special Pack\n"
+    "20th Anniversary\n"
+    "Edition Vol.4.");
+
+static const u8 sOCGSpecialPack20thAnniversaryEditionVol5Desc[] = _(
+    "OCG_Special Pack\n"
+    "20th Anniversary\n"
+    "Edition Vol.5.");
+
+static const u8 sOCGSpecialPack20thAnniversaryEditionVol6Desc[] = _(
+    "OCG_Special Pack\n"
+    "20th Anniversary\n"
+    "Edition Vol.6.");
+
+static const u8 sOCGSpecialSummonEvolutionDesc[] = _(
+    "OCG_Special\n"
+    "Summon Evolution.");
+
+static const u8 sOCGSpeedStartDeckLinkEditionDesc[] = _(
+    "OCG_Speed Start\n"
+    "Deck Link\n"
+    "Edition.");
+
+static const u8 sOCGSpeedStartDeckSynchroEditionDesc[] = _(
+    "OCG_Speed Start\n"
+    "Deck Synchro\n"
+    "Edition.");
+
+static const u8 sOCGSpellofMaskDesc[] = _(
+    "OCG_Spell of\n"
+    "Mask.");
+
+static const u8 sOCGSprightDuelSetDesc[] = _(
+    "OCG_Spright Duel\n"
+    "Set.");
+
+static const u8 sOCGStardustOverdriveDesc[] = _(
+    "OCG_Stardust\n"
+    "Overdrive.");
+
+static const u8 sOCGStardustOverdrive2PackSetDesc[] = _(
+    "OCG_Stardust\n"
+    "Overdrive 2-Pack\n"
+    "Set.");
+
+static const u8 sOCGStarstrikeBlastDesc[] = _(
+    "OCG_Starstrike\n"
+    "Blast.");
+
+static const u8 sOCGStarstrikeBlast2PackSetDesc[] = _(
+    "OCG_Starstrike\n"
+    "Blast 2-Pack Set.");
+
+static const u8 sOCGStarterBoxDesc[] = _(
+    "OCG_Starter Box.");
+
+static const u8 sOCGStarterBoxpreorderpromotionalcardDesc[] = _(
+    "OCG_Starter Box\n"
+    "pre-order\n"
+    "promotional card.");
+
+static const u8 sOCGStarterBoxTheatricalReleaseDesc[] = _(
+    "OCG_Starter Box:\n"
+    "Theatrical\n"
+    "Release.");
+
+static const u8 sOCGStarterDeck2006Desc[] = _(
+    "OCG_Starter Deck\n"
+    "2006.");
+
+static const u8 sOCGStarterDeck2006SpecialEditionDesc[] = _(
+    "OCG_Starter Deck\n"
+    "2006: Special\n"
+    "Edition.");
+
+static const u8 sOCGStarterDeck2007Desc[] = _(
+    "OCG_Starter Deck\n"
+    "2007.");
+
+static const u8 sOCGStarterDeck2007SpecialSetDesc[] = _(
+    "OCG_Starter Deck\n"
+    "2007 Special Set.");
+
+static const u8 sOCGStarterDeck2008Desc[] = _(
+    "OCG_Starter Deck\n"
+    "2008.");
+
+static const u8 sOCGStarterDeck2008TournamentpromotionalcardDesc[] = _(
+    "OCG_Starter Deck\n"
+    "2008 Tournament\n"
+    "promotional card.");
+
+static const u8 sOCGStarterDeck2009Desc[] = _(
+    "OCG_Starter Deck\n"
+    "2009.");
+
+static const u8 sOCGStarterDeck2010Desc[] = _(
+    "OCG_Starter Deck\n"
+    "2010.");
+
+static const u8 sOCGStarterDeck2011Desc[] = _(
+    "OCG_Starter Deck\n"
+    "2011.");
+
+static const u8 sOCGStarterDeck2012Desc[] = _(
+    "OCG_Starter Deck\n"
+    "2012.");
+
+static const u8 sOCGStarterDeck2013Desc[] = _(
+    "OCG_Starter Deck\n"
+    "2013.");
+
+static const u8 sOCGStarterDeck2013EnhancementPackDesc[] = _(
+    "OCG_Starter Deck\n"
+    "2013 Enhancement\n"
+    "Pack.");
+
+static const u8 sOCGStarterDeck2014Desc[] = _(
+    "OCG_Starter Deck\n"
+    "2014.");
+
+static const u8 sOCGStarterDeck2014EnhancementPackDesc[] = _(
+    "OCG_Starter Deck\n"
+    "2014 Enhancement\n"
+    "Pack.");
+
+static const u8 sOCGStarterDeck2016Desc[] = _(
+    "OCG_Starter Deck\n"
+    "2016.");
+
+static const u8 sOCGStarterDeck2017Desc[] = _(
+    "OCG_Starter Deck\n"
+    "2017.");
+
+static const u8 sOCGStarterDeck2018Desc[] = _(
+    "OCG_Starter Deck\n"
+    "2018.");
+
+static const u8 sOCGStarterDeck2019Desc[] = _(
+    "OCG_Starter Deck\n"
+    "2019.");
+
+static const u8 sOCGStormofRagnarokDesc[] = _(
+    "OCG_Storm of\n"
+    "Ragnarok.");
+
+static const u8 sOCGStormofRagnarok2PackSetDesc[] = _(
+    "OCG_Storm of\n"
+    "Ragnarok 2-Pack\n"
+    "Set.");
+
+static const u8 sOCGStrikeofNeosDesc[] = _(
+    "OCG_Strike of\n"
+    "Neos.");
+
+static const u8 sOCGStrikeofNeosVendorEditionDesc[] = _(
+    "OCG_Strike of\n"
+    "Neos: Vendor\n"
+    "Edition.");
+
+static const u8 sOCGStructureDeckRAdventoftheTrueMonarchDesc[] = _(
+    "OCG_Structure\n"
+    "Deck R: Advent\n"
+    "of the True\n"
+    "Monarch.");
+
+static const u8 sOCGStructureDeckRCurseoftheDarkDesc[] = _(
+    "OCG_Structure\n"
+    "Deck R: Curse of\n"
+    "the Dark.");
+
+static const u8 sOCGStructureDeckRDevilsGateDesc[] = _(
+    "OCG_Structure\n"
+    "Deck R: Devil's\n"
+    "Gate.");
+
+static const u8 sOCGStructureDeckRDevilsGateTheDoorsoftheAbyssOpenedPackDesc[] = _(
+    "OCG_Structure\n"
+    "Deck R: Devil's\n"
+    "Gate The Doors\n"
+    "of the Abyss\n"
+    "Opened Pack.");
+
+static const u8 sOCGStructureDeckRDragunityDriveDesc[] = _(
+    "OCG_Structure\n"
+    "Deck R:\n"
+    "Dragunity Drive.");
+
+static const u8 sOCGStructureDeckRDragunityDriveLegendoftheDragonRavinePackDesc[] = _(
+    "OCG_Structure\n"
+    "Deck R:\n"
+    "Dragunity Drive\n"
+    "Legend of the\n"
+    "Dragon Ravine\n"
+    "Pack.");
+
+static const u8 sOCGStructureDeckRLordofMagicianDesc[] = _(
+    "OCG_Structure\n"
+    "Deck R: Lord of\n"
+    "Magician.");
+
+static const u8 sOCGStructureDeckRLostSanctuaryDesc[] = _(
+    "OCG_Structure\n"
+    "Deck R: Lost\n"
+    "Sanctuary.");
+
+static const u8 sOCGStructureDeckRLostSanctuaryArrivaloftheSunGodPackDesc[] = _(
+    "OCG_Structure\n"
+    "Deck R: Lost\n"
+    "Sanctuary\n"
+    "Arrival of the\n"
+    "Sun God Pack.");
+
+static const u8 sOCGStructureDeckRMachineDragonReVoltDesc[] = _(
+    "OCG_Structure\n"
+    "Deck R: Machine\n"
+    "Dragon Re-Volt.");
+
+static const u8 sOCGStructureDeckRMachinersCommandDesc[] = _(
+    "OCG_Structure\n"
+    "Deck R:\n"
+    "Machiners\n"
+    "Command.");
+
+static const u8 sOCGStructureDeckROnslaughtoftheFireKingsDesc[] = _(
+    "OCG_Structure\n"
+    "Deck R:\n"
+    "Onslaught of the\n"
+    "Fire Kings.");
+
+static const u8 sOCGStructureDeckROnslaughtoftheFireKingsSecondComingoftheEternalFlamesRulerPackDesc[] = _(
+    "OCG_Structure\n"
+    "Deck R:\n"
+    "Onslaught of the\n"
+    "Fire Kings\n"
+    "Second Coming of\n"
+    "the Eternal\n"
+    "Flames' Ruler\n"
+    "Pack.");
+
+static const u8 sOCGStructureDeckRRevivaloftheGreatDivineDragonDesc[] = _(
+    "OCG_Structure\n"
+    "Deck R: Revival\n"
+    "of the Great\n"
+    "Divine Dragon.");
+
+static const u8 sOCGStructureDeckRSurgeofDivineLightDesc[] = _(
+    "OCG_Structure\n"
+    "Deck R: Surge of\n"
+    "Divine Light.");
+
+static const u8 sOCGStructureDeckRTyrannosRageDesc[] = _(
+    "OCG_Structure\n"
+    "Deck R:\n"
+    "Tyranno's Rage.");
+
+static const u8 sOCGStructureDeckRUndeadWorldDesc[] = _(
+    "OCG_Structure\n"
+    "Deck R: Undead\n"
+    "World.");
+
+static const u8 sOCGStructureDeckRWarriorsStrikeDesc[] = _(
+    "OCG_Structure\n"
+    "Deck R:\n"
+    "Warriors' Strike.");
+
+static const u8 sOCGStructureDeckAdventoftheEmperorDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Advent of\n"
+    "the Emperor.");
+
+static const u8 sOCGStructureDeckAdventoftheEyesofBlueDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Advent of\n"
+    "the Eyes of Blue.");
+
+static const u8 sOCGStructureDeckAdventoftheEyesofBlueLegendaryMajestyInheritancePackDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Advent of\n"
+    "the Eyes of Blue\n"
+    "Legendary\n"
+    "Majesty\n"
+    "Inheritance Pack.");
+
+static const u8 sOCGStructureDeckAlbaStrikeDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Alba\n"
+    "Strike.");
+
+static const u8 sOCGStructureDeckBlazeofDestructionDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Blaze of\n"
+    "Destruction.");
+
+static const u8 sOCGStructureDeckBlitzkriegoftheMechlightDragonsDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Blitzkrieg\n"
+    "of the Mechlight\n"
+    "Dragons.");
+
+static const u8 sOCGStructureDeckCurseofDarknessDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Curse of\n"
+    "Darkness.");
+
+static const u8 sOCGStructureDeckCyberStylesSuccessorDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Cyber\n"
+    "Style's\n"
+    "Successor.");
+
+static const u8 sOCGStructureDeckCyberStylesSuccessorSecretTechniqueInheritancePackDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Cyber\n"
+    "Style's\n"
+    "Successor Secret\n"
+    "Technique\n"
+    "Inheritance Pack.");
+
+static const u8 sOCGStructureDeckCyberseLinkDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Cyberse\n"
+    "Link.");
+
+static const u8 sOCGStructureDeckDeluxeSetDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Deluxe Set.");
+
+static const u8 sOCGStructureDeckDeluxeSetVolume2Desc[] = _(
+    "OCG_Structure\n"
+    "Deck: Deluxe Set\n"
+    "Volume 2.");
+
+static const u8 sOCGStructureDeckDevilsGateDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Devil's\n"
+    "Gate.");
+
+static const u8 sOCGStructureDeckDinosaursRageDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Dinosaur's\n"
+    "Rage.");
+
+static const u8 sOCGStructureDeckDinosaursRageSpecialEditionJapaneseDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Dinosaur's\n"
+    "Rage Special\n"
+    "Edition\n"
+    "(Japanese).");
+
+static const u8 sOCGStructureDeckDragonsRoarDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Dragon's\n"
+    "Roar.");
+
+static const u8 sOCGStructureDeckDragonicLegionDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Dragonic\n"
+    "Legion.");
+
+static const u8 sOCGStructureDeckDragunityDriveDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Dragunity\n"
+    "Drive.");
+
+static const u8 sOCGStructureDeckForestoftheTraptrixDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Forest of\n"
+    "the Traptrix.");
+
+static const u8 sOCGStructureDeckForestoftheTraptrixTheLegendofDuelistQuarterCenturyEditionDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Forest of\n"
+    "the Traptrix -\n"
+    "The Legend of\n"
+    "Duelist Quarter\n"
+    "Century Edition.");
+
+static const u8 sOCGStructureDeckForestoftheTraptrixBanquetInvitationPackDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Forest of\n"
+    "the Traptrix\n"
+    "Banquet\n"
+    "Invitation Pack.");
+
+static const u8 sOCGStructureDeckFuryfromtheDeepDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Fury from\n"
+    "the Deep.");
+
+static const u8 sOCGStructureDeckHEROsStrikeDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: HERO's\n"
+    "Strike.");
+
+static const u8 sOCGStructureDeckIceBarrieroftheFrozenPrisonDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Ice\n"
+    "Barrier of the\n"
+    "Frozen Prison.");
+
+static const u8 sOCGStructureDeckIceBarrieroftheFrozenPrisonMeltingDestinyPackDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Ice\n"
+    "Barrier of the\n"
+    "Frozen Prison\n"
+    "Melting Destiny\n"
+    "Pack.");
+
+static const u8 sOCGStructureDeckInvincibleFortressDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Invincible\n"
+    "Fortress.");
+
+static const u8 sOCGStructureDeckJoeyDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Joey.");
+
+static const u8 sOCGStructureDeckJoeyVolume2Desc[] = _(
+    "OCG_Structure\n"
+    "Deck: Joey\n"
+    "Volume 2.");
+
+static const u8 sOCGStructureDeckKaibaDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Kaiba.");
+
+static const u8 sOCGStructureDeckKaibaVolume2Desc[] = _(
+    "OCG_Structure\n"
+    "Deck: Kaiba\n"
+    "Volume 2.");
+
+static const u8 sOCGStructureDeckLegendoftheCrystalsDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Legend of\n"
+    "the Crystals.");
+
+static const u8 sOCGStructureDeckLegendoftheCrystalsLightofTranscendingBondsPackDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Legend of\n"
+    "the Crystals\n"
+    "Light of\n"
+    "Transcending\n"
+    "Bonds Pack.");
+
+static const u8 sOCGStructureDeckLightningStrikeoftheMechlightDragonDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Lightning\n"
+    "Strike of the\n"
+    "Mechlight Dragon.");
+
+static const u8 sOCGStructureDeckLordofMagicianDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Lord of\n"
+    "Magician.");
+
+static const u8 sOCGStructureDeckLordofMagicianLimitedEditionDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Lord of\n"
+    "Magician Limited\n"
+    "Edition.");
+
+static const u8 sOCGStructureDeckLordoftheStormDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Lord of\n"
+    "the Storm.");
+
+static const u8 sOCGStructureDeckLostSanctuaryDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Lost\n"
+    "Sanctuary.");
+
+static const u8 sOCGStructureDeckMachineReVoltDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Machine\n"
+    "Re-Volt.");
+
+static const u8 sOCGStructureDeckMachineReVoltSpecialEditionDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Machine\n"
+    "Re-Volt Special\n"
+    "Edition.");
+
+static const u8 sOCGStructureDeckMachinersCommandDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Machiners\n"
+    "Command.");
+
+static const u8 sOCGStructureDeckMarikOCGDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Marik\n"
+    "(OCG).");
+
+static const u8 sOCGStructureDeckMasterLinkDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Master\n"
+    "Link.");
+
+static const u8 sOCGStructureDeckMasterofPendulumDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Master of\n"
+    "Pendulum.");
+
+static const u8 sOCGStructureDeckMastersoftheSpiritualArtsDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Masters of\n"
+    "the Spiritual\n"
+    "Arts.");
+
+static const u8 sOCGStructureDeckMastersoftheSpiritualArtsTheLegendofDuelistQuarterCenturyEditionDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Masters of\n"
+    "the Spiritual\n"
+    "Arts - The\n"
+    "Legend of\n"
+    "Duelist Quarter\n"
+    "Century Edition.");
+
+static const u8 sOCGStructureDeckMastersoftheSpiritualArtsSpiritArtAwakeningPackDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Masters of\n"
+    "the Spiritual\n"
+    "Arts Spirit Art\n"
+    "Awakening Pack.");
+
+static const u8 sOCGStructureDeckOnslaughtoftheFireKingsDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Onslaught\n"
+    "of the Fire\n"
+    "Kings.");
+
+static const u8 sOCGStructureDeckOverlayUniverseDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Overlay\n"
+    "Universe.");
+
+static const u8 sOCGStructureDeckOverlayUniverseEmperorsDoorPackDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Overlay\n"
+    "Universe\n"
+    "Emperor's Door\n"
+    "Pack.");
+
+static const u8 sOCGStructureDeckPegasusDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Pegasus.");
+
+static const u8 sOCGStructureDeckPendulumDominationDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Pendulum\n"
+    "Domination.");
+
+static const u8 sOCGStructureDeckPendulumEvolutionDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Pendulum\n"
+    "Evolution.");
+
+static const u8 sOCGStructureDeckPowerofFellowsDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Power of\n"
+    "Fellows.");
+
+static const u8 sOCGStructureDeckPowercodeLinkDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Powercode\n"
+    "Link.");
+
+static const u8 sOCGStructureDeckPulseoftheKingDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Pulse of\n"
+    "the King.");
+
+static const u8 sOCGStructureDeckPulseoftheKingRumblingofHeavenandEarthPackDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Pulse of\n"
+    "the King\n"
+    "Rumbling of\n"
+    "Heaven and Earth\n"
+    "Pack.");
+
+static const u8 sOCGStructureDeckRebirthofShaddollDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Rebirth of\n"
+    "Shaddoll.");
+
+static const u8 sOCGStructureDeckRebirthofShaddollDeckEnhancementPackDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Rebirth of\n"
+    "Shaddoll Deck\n"
+    "Enhancement Pack.");
+
+static const u8 sOCGStructureDeckRevivaloftheGreatDragonDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Revival of\n"
+    "the Great Dragon.");
+
+static const u8 sOCGStructureDeckRevolverDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Revolver.");
+
+static const u8 sOCGStructureDeckRevolverExtraDeckEnhancementPackDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Revolver\n"
+    "Extra Deck\n"
+    "Enhancement Pack.");
+
+static const u8 sOCGStructureDeckRoaroftheSeaEmperorDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Roar of\n"
+    "the Sea Emperor.");
+
+static const u8 sOCGStructureDeckSacredBeastsofChaosDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Sacred\n"
+    "Beasts of Chaos.");
+
+static const u8 sOCGStructureDeckSacredBeastsofChaosSacredBeastsUnleashedPackDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Sacred\n"
+    "Beasts of Chaos\n"
+    "Sacred Beasts\n"
+    "Unleashed Pack.");
+
+static const u8 sOCGStructureDeckSetoKaibaDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Seto Kaiba.");
+
+static const u8 sOCGStructureDeckSoulburnerDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Soulburner.");
+
+static const u8 sOCGStructureDeckSoulburnerExtraDeckEnhancementPackDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Soulburner\n"
+    "Extra Deck\n"
+    "Enhancement Pack.");
+
+static const u8 sOCGStructureDeckSpellcastersJudgmentDesc[] = _(
+    "OCG_Structure\n"
+    "Deck:\n"
+    "Spellcaster's\n"
+    "Judgment.");
+
+static const u8 sOCGStructureDeckSurgeofRadianceDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Surge of\n"
+    "Radiance.");
+
+static const u8 sOCGStructureDeckSurgeofRadianceSpecialEditionDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Surge of\n"
+    "Radiance Special\n"
+    "Edition.");
+
+static const u8 sOCGStructureDeckSynchronExtremeDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Synchron\n"
+    "Extreme.");
+
+static const u8 sOCGStructureDeckTheBlueEyedDragonsThunderingDescentDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: The Blue-\n"
+    "Eyed Dragon's\n"
+    "Thundering\n"
+    "Descent.");
+
+static const u8 sOCGStructureDeckUndeadWorldDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Undead\n"
+    "World.");
+
+static const u8 sOCGStructureDeckWarriorsTriumphDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Warrior's\n"
+    "Triumph.");
+
+static const u8 sOCGStructureDeckWarriorsStrikeDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Warriors'\n"
+    "Strike.");
+
+static const u8 sOCGStructureDeckYugiDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Yugi.");
+
+static const u8 sOCGStructureDeckYugiMutoDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Yugi Muto.");
+
+static const u8 sOCGStructureDeckYugiVolume2Desc[] = _(
+    "OCG_Structure\n"
+    "Deck: Yugi\n"
+    "Volume 2.");
+
+static const u8 sOCGStructureDeckZombieMadnessDesc[] = _(
+    "OCG_Structure\n"
+    "Deck: Zombie\n"
+    "Madness.");
+
+static const u8 sOCGStruggleofChaosDesc[] = _(
+    "OCG_Struggle of\n"
+    "Chaos.");
+
+static const u8 sOCGSummerNationalGeneralYuGiOhOCGTestpromotionalcardDesc[] = _(
+    "OCG_Summer\n"
+    "National General\n"
+    "Yu-Gi-Oh! OCG\n"
+    "Test promotional\n"
+    "card.");
+
+static const u8 sOCGSunstarToniccollaborationcardDesc[] = _(
+    "OCG_Sunstar\n"
+    "Tonic\n"
+    "collaboration\n"
+    "card.");
+
+static const u8 sOCGSupremeDarknessDesc[] = _(
+    "OCG_Supreme\n"
+    "Darkness.");
+
+static const u8 sOCGSupremeDarkness1BonusPackDesc[] = _(
+    "OCG_Supreme\n"
+    "Darkness +1\n"
+    "Bonus Pack.");
+
+static const u8 sOCGSurpassing10000CardsCommemorationCardDesc[] = _(
+    "OCG_Surpassing\n"
+    "10000 Cards\n"
+    "Commemoration\n"
     "Card.");
 
-static const u8 sShiningVictoriesSpecialEditionDesc[] = _(
-    "Shining\n"
-    "Victories:\n"
-    "Special Edition.");
+static const u8 sOCGSurpassing10000CardsCommemorationSpecialPackDesc[] = _(
+    "OCG_Surpassing\n"
+    "10000 Cards\n"
+    "Commemoration\n"
+    "Special Pack.");
 
-static const u8 sShonenJump2007subscriptionbonusDesc[] = _(
-    "Shonen Jump 2007\n"
+static const u8 sOCGTVTokyoFestivalpromotionalcardDesc[] = _(
+    "OCG_TV Tokyo\n"
+    "Festival\n"
+    "promotional card.");
+
+static const u8 sOCGTacticalEvolutionDesc[] = _(
+    "OCG_Tactical\n"
+    "Evolution.");
+
+static const u8 sOCGTacticalTryDeckDecisiveStrikeCyberDragonDesc[] = _(
+    "OCG_Tactical-Try\n"
+    "Deck: Decisive\n"
+    "Strike Cyber\n"
+    "Dragon.");
+
+static const u8 sOCGTacticalTryDeckEldlichtheConquerorDesc[] = _(
+    "OCG_Tactical-Try\n"
+    "Deck: Eldlich\n"
+    "the Conqueror.");
+
+static const u8 sOCGTacticalTryDeckEvilTwintheKaitoPairDesc[] = _(
+    "OCG_Tactical-Try\n"
+    "Deck: Evil★Twin\n"
+    "the Kaito Pair.");
+
+static const u8 sOCGTacticalTryDeckExosisterDesc[] = _(
+    "OCG_Tactical-Try\n"
+    "Deck: Exosister.");
+
+static const u8 sOCGTacticalTryDeckRescueACEDesc[] = _(
+    "OCG_Tactical-Try\n"
+    "Deck: Rescue-ACE.");
+
+static const u8 sOCGTacticalTryPackDarkMagicHEROMikankoDesc[] = _(
+    "OCG_Tactical-Try\n"
+    "Pack: Dark Magic\n"
+    "/ HERO / Mikanko.");
+
+static const u8 sOCGTearlamentsDuelSetDesc[] = _(
+    "OCG_Tearlaments\n"
+    "Duel Set.");
+
+static const u8 sOCGTerminalWorldsetDesc[] = _(
+    "OCG_Terminal\n"
+    "World (set).");
+
+static const u8 sOCGTerminalWorld2Desc[] = _(
+    "OCG_Terminal\n"
+    "World 2.");
+
+static const u8 sOCGTheDarkIllusionDesc[] = _(
+    "OCG_The Dark\n"
+    "Illusion.");
+
+static const u8 sOCGTheDinosaurExpo2023PromotionPackDesc[] = _(
+    "OCG_The Dinosaur\n"
+    "Expo 2023\n"
+    "Promotion Pack.");
+
+static const u8 sOCGTheDuelistGenesisDesc[] = _(
+    "OCG_The Duelist\n"
+    "Genesis.");
+
+static const u8 sOCGTheDuelistGenesis2PackSetDesc[] = _(
+    "OCG_The Duelist\n"
+    "Genesis 2-Pack\n"
+    "Set.");
+
+static const u8 sOCGTheGoldBoxDesc[] = _(
+    "OCG_The Gold Box.");
+
+static const u8 sOCGTheInfiniteForbiddenDesc[] = _(
+    "OCG_The Infinite\n"
+    "Forbidden.");
+
+static const u8 sOCGTheLegendofDuelistPromotionPackDesc[] = _(
+    "OCG_The Legend\n"
+    "of Duelist\n"
+    "Promotion Pack.");
+
+static const u8 sOCGTheLostMillenniumDesc[] = _(
+    "OCG_The Lost\n"
+    "Millennium.");
+
+static const u8 sOCGTheLostMillenniumVendorEditionDesc[] = _(
+    "OCG_The Lost\n"
+    "Millennium:\n"
+    "Vendor Edition.");
+
+static const u8 sOCGTheNewChallengersDesc[] = _(
+    "OCG_The New\n"
+    "Challengers.");
+
+static const u8 sOCGTheNewRulerDesc[] = _(
+    "OCG_The New\n"
+    "Ruler.");
+
+static const u8 sOCGThePotCollectionDesc[] = _(
+    "OCG_The Pot\n"
+    "Collection.");
+
+static const u8 sOCGTheRarityCollectionDesc[] = _(
+    "OCG_The Rarity\n"
+    "Collection.");
+
+static const u8 sOCGTheSanctuaryintheSkysetDesc[] = _(
+    "OCG_The\n"
+    "Sanctuary in the\n"
+    "Sky (set).");
+
+static const u8 sOCGTheShiningDarknessDesc[] = _(
+    "OCG_The Shining\n"
+    "Darkness.");
+
+static const u8 sOCGTheShiningDarkness2PackSetDesc[] = _(
+    "OCG_The Shining\n"
+    "Darkness 2-Pack\n"
+    "Set.");
+
+static const u8 sOCGTheThousandRuleBiblepromotionalcardDesc[] = _(
+    "OCG_The Thousand\n"
+    "Rule Bible\n"
+    "promotional card.");
+
+static const u8 sOCGTheValuableBook1promotionalcardsDesc[] = _(
+    "OCG_The Valuable\n"
+    "Book 1\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGTheValuableBook10promotionalcardsDesc[] = _(
+    "OCG_The Valuable\n"
+    "Book 10\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGTheValuableBook11promotionalcardsDesc[] = _(
+    "OCG_The Valuable\n"
+    "Book 11\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGTheValuableBook12promotionalcardsDesc[] = _(
+    "OCG_The Valuable\n"
+    "Book 12\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGTheValuableBook13promotionalcardsDesc[] = _(
+    "OCG_The Valuable\n"
+    "Book 13\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGTheValuableBook14promotionalcardsDesc[] = _(
+    "OCG_The Valuable\n"
+    "Book 14\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGTheValuableBook15promotionalcardsDesc[] = _(
+    "OCG_The Valuable\n"
+    "Book 15\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGTheValuableBook16promotionalcardsDesc[] = _(
+    "OCG_The Valuable\n"
+    "Book 16\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGTheValuableBook17promotionalcardsDesc[] = _(
+    "OCG_The Valuable\n"
+    "Book 17\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGTheValuableBook18promotionalcardsDesc[] = _(
+    "OCG_The Valuable\n"
+    "Book 18\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGTheValuableBook19promotionalcardsDesc[] = _(
+    "OCG_The Valuable\n"
+    "Book 19\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGTheValuableBook2promotionalcardsDesc[] = _(
+    "OCG_The Valuable\n"
+    "Book 2\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGTheValuableBook20promotionalcardsDesc[] = _(
+    "OCG_The Valuable\n"
+    "Book 20\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGTheValuableBook21promotionalcardsDesc[] = _(
+    "OCG_The Valuable\n"
+    "Book 21\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGTheValuableBook22promotionalcardsDesc[] = _(
+    "OCG_The Valuable\n"
+    "Book 22\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGTheValuableBook3promotionalcardsDesc[] = _(
+    "OCG_The Valuable\n"
+    "Book 3\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGTheValuableBook4promotionalcardsDesc[] = _(
+    "OCG_The Valuable\n"
+    "Book 4\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGTheValuableBook5promotionalcardsDesc[] = _(
+    "OCG_The Valuable\n"
+    "Book 5\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGTheValuableBook6promotionalcardsDesc[] = _(
+    "OCG_The Valuable\n"
+    "Book 6\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGTheValuableBook7promotionalcardsDesc[] = _(
+    "OCG_The Valuable\n"
+    "Book 7\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGTheValuableBook8promotionalcardsDesc[] = _(
+    "OCG_The Valuable\n"
+    "Book 8\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGTheValuableBook9promotionalcardsDesc[] = _(
+    "OCG_The Valuable\n"
+    "Book 9\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGTheValuableBookEX2promotionalcardsDesc[] = _(
+    "OCG_The Valuable\n"
+    "Book EX 2\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGTheValuableBookEX3promotionalcardsDesc[] = _(
+    "OCG_The Valuable\n"
+    "Book EX 3\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGTheValuableBookEX4promotionalcardsDesc[] = _(
+    "OCG_The Valuable\n"
+    "Book EX 4\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGTheValuableBookEX5promotionalcardsDesc[] = _(
+    "OCG_The Valuable\n"
+    "Book EX 5\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGTheValuableBookEXpromotionalcardsDesc[] = _(
+    "OCG_The Valuable\n"
+    "Book EX\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGThousandEyesBibleDesc[] = _(
+    "OCG_Thousand\n"
+    "Eyes Bible.");
+
+static const u8 sOCGThreatoftheDarkDemonWorldDesc[] = _(
+    "OCG_Threat of\n"
+    "the Dark Demon\n"
+    "World.");
+
+static const u8 sOCGTokyoGameShow2022promotionalcardDesc[] = _(
+    "OCG_Tokyo Game\n"
+    "Show 2022\n"
+    "promotional card.");
+
+static const u8 sOCGTopPrizePack2023Vol1Desc[] = _(
+    "OCG_Top Prize\n"
+    "Pack 2023 Vol.1.");
+
+static const u8 sOCGTopPrizePack2023Vol2Desc[] = _(
+    "OCG_Top Prize\n"
+    "Pack 2023 Vol.2.");
+
+static const u8 sOCGTopPrizePack2023Vol3Desc[] = _(
+    "OCG_Top Prize\n"
+    "Pack 2023 Vol.3.");
+
+static const u8 sOCGTopPrizePack2023Vol4Desc[] = _(
+    "OCG_Top Prize\n"
+    "Pack 2023 Vol.4.");
+
+static const u8 sOCGTopPrizePack2024Vol1Desc[] = _(
+    "OCG_Top Prize\n"
+    "Pack 2024 Vol.1.");
+
+static const u8 sOCGTournamentPack2007Vol1Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2007 Vol.1.");
+
+static const u8 sOCGTournamentPack2007Vol2Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2007 Vol.2.");
+
+static const u8 sOCGTournamentPack2007Vol3Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2007 Vol.3.");
+
+static const u8 sOCGTournamentPack2007Vol4Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2007 Vol.4.");
+
+static const u8 sOCGTournamentPack2008Vol1Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2008 Vol.1.");
+
+static const u8 sOCGTournamentPack2008Vol2Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2008 Vol.2.");
+
+static const u8 sOCGTournamentPack2008Vol3Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2008 Vol.3.");
+
+static const u8 sOCGTournamentPack2008Vol4Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2008 Vol.4.");
+
+static const u8 sOCGTournamentPack2009Vol1Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2009 Vol.1.");
+
+static const u8 sOCGTournamentPack2009Vol2Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2009 Vol.2.");
+
+static const u8 sOCGTournamentPack2009Vol3Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2009 Vol.3.");
+
+static const u8 sOCGTournamentPack2009Vol4Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2009 Vol.4.");
+
+static const u8 sOCGTournamentPack2010Vol1Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2010 Vol.1.");
+
+static const u8 sOCGTournamentPack2010Vol2Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2010 Vol.2.");
+
+static const u8 sOCGTournamentPack2010Vol3Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2010 Vol.3.");
+
+static const u8 sOCGTournamentPack2010Vol4Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2010 Vol.4.");
+
+static const u8 sOCGTournamentPack2011Vol1Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2011 Vol.1.");
+
+static const u8 sOCGTournamentPack2011Vol2Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2011 Vol.2.");
+
+static const u8 sOCGTournamentPack2011Vol3Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2011 Vol.3.");
+
+static const u8 sOCGTournamentPack2011Vol4Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2011 Vol.4.");
+
+static const u8 sOCGTournamentPack2012Vol1Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2012 Vol.1.");
+
+static const u8 sOCGTournamentPack2012Vol2Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2012 Vol.2.");
+
+static const u8 sOCGTournamentPack2012Vol3Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2012 Vol.3.");
+
+static const u8 sOCGTournamentPack2017Vol2Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2017 Vol.2.");
+
+static const u8 sOCGTournamentPack2017Vol3Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2017 Vol.3.");
+
+static const u8 sOCGTournamentPack2017Vol4Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2017 Vol.4.");
+
+static const u8 sOCGTournamentPack2018Vol1Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2018 Vol.1.");
+
+static const u8 sOCGTournamentPack2018Vol2Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2018 Vol.2.");
+
+static const u8 sOCGTournamentPack2018Vol3Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2018 Vol.3.");
+
+static const u8 sOCGTournamentPack2018Vol4Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2018 Vol.4.");
+
+static const u8 sOCGTournamentPack2019Vol1Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2019 Vol.1.");
+
+static const u8 sOCGTournamentPack2019Vol2Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2019 Vol.2.");
+
+static const u8 sOCGTournamentPack2019Vol3Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2019 Vol.3.");
+
+static const u8 sOCGTournamentPack2019Vol4Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2019 Vol.4.");
+
+static const u8 sOCGTournamentPack2020Vol1Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2020 Vol.1.");
+
+static const u8 sOCGTournamentPack2020Vol2Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2020 Vol.2.");
+
+static const u8 sOCGTournamentPack2020Vol3Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2020 Vol.3.");
+
+static const u8 sOCGTournamentPack2020Vol4Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2020 Vol.4.");
+
+static const u8 sOCGTournamentPack2021Vol1Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2021 Vol.1.");
+
+static const u8 sOCGTournamentPack2021Vol2Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2021 Vol.2.");
+
+static const u8 sOCGTournamentPack2021Vol3Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2021 Vol.3.");
+
+static const u8 sOCGTournamentPack2021Vol4Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2021 Vol.4.");
+
+static const u8 sOCGTournamentPack2022Vol1Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2022 Vol.1.");
+
+static const u8 sOCGTournamentPack2022Vol2Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2022 Vol.2.");
+
+static const u8 sOCGTournamentPack2022Vol3Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2022 Vol.3.");
+
+static const u8 sOCGTournamentPack2022Vol4Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2022 Vol.4.");
+
+static const u8 sOCGTournamentPack2023Vol1Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2023 Vol.1.");
+
+static const u8 sOCGTournamentPack2023Vol2Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2023 Vol.2.");
+
+static const u8 sOCGTournamentPack2023Vol3Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2023 Vol.3.");
+
+static const u8 sOCGTournamentPack2023Vol4Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2023 Vol.4.");
+
+static const u8 sOCGTournamentPack2024Vol1Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2024 Vol.1.");
+
+static const u8 sOCGTournamentPack2024Vol2Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2024 Vol.2.");
+
+static const u8 sOCGTournamentPack2024Vol3Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2024 Vol.3.");
+
+static const u8 sOCGTournamentPack2024Vol4Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2024 Vol.4.");
+
+static const u8 sOCGTournamentPack2024Vol5Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2024 Vol.5.");
+
+static const u8 sOCGTournamentPack2025Vol1Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2025 Vol.1.");
+
+static const u8 sOCGTournamentPack2025Vol2Desc[] = _(
+    "OCG_Tournament\n"
+    "Pack 2025 Vol.2.");
+
+static const u8 sOCGTranscendosaurusDuelSetDesc[] = _(
+    "OCG_Transcendosa\n"
+    "urus Duel Set.");
+
+static const u8 sOCGUltimateSpecialPackDesc[] = _(
+    "OCG_Ultimate\n"
+    "Special Pack.");
+
+static const u8 sOCGVJumpApril2008promotionalcardDesc[] = _(
+    "OCG_V Jump April\n"
+    "2008 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpApril2009promotionalcardDesc[] = _(
+    "OCG_V Jump April\n"
+    "2009 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpApril2010promotionalcardDesc[] = _(
+    "OCG_V Jump April\n"
+    "2010 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpApril2011promotionalcardDesc[] = _(
+    "OCG_V Jump April\n"
+    "2011 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpApril2012promotionalcardDesc[] = _(
+    "OCG_V Jump April\n"
+    "2012 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpApril2013promotionalcardDesc[] = _(
+    "OCG_V Jump April\n"
+    "2013 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpApril2014promotionalcardDesc[] = _(
+    "OCG_V Jump April\n"
+    "2014 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpApril2015promotionalcardDesc[] = _(
+    "OCG_V Jump April\n"
+    "2015 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpApril2016promotionalcardDesc[] = _(
+    "OCG_V Jump April\n"
+    "2016 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpApril2017promotionalcardDesc[] = _(
+    "OCG_V Jump April\n"
+    "2017 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpApril2018promotionalcardDesc[] = _(
+    "OCG_V Jump April\n"
+    "2018 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpApril2019promotionalcardDesc[] = _(
+    "OCG_V Jump April\n"
+    "2019 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpApril2020promotionalcardDesc[] = _(
+    "OCG_V Jump April\n"
+    "2020 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpApril2021promotionalcardDesc[] = _(
+    "OCG_V Jump April\n"
+    "2021 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpApril2022promotionalcardDesc[] = _(
+    "OCG_V Jump April\n"
+    "2022 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpApril2023promotionalcardDesc[] = _(
+    "OCG_V Jump April\n"
+    "2023 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpApril2024promotionalcardDesc[] = _(
+    "OCG_V Jump April\n"
+    "2024 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpApril2025promotionalcardDesc[] = _(
+    "OCG_V Jump April\n"
+    "2025 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpAugust1999SpecialPresentSetADesc[] = _(
+    "OCG_V Jump\n"
+    "August 1999\n"
+    "Special Present\n"
+    "Set A.");
+
+static const u8 sOCGVJumpAugust1999SpecialPresentSetBDesc[] = _(
+    "OCG_V Jump\n"
+    "August 1999\n"
+    "Special Present\n"
+    "Set B.");
+
+static const u8 sOCGVJumpAugust2014promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "August 2014\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpAugust2015promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "August 2015\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpAugust2016promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "August 2016\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpAugust2017promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "August 2017\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpAugust2018promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "August 2018\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpAugust2019promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "August 2019\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpAugust2020promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "August 2020\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpAugust2021promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "August 2021\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpAugust2022promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "August 2022\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpAugust2023promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "August 2023\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpAugust2024promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "August 2024\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpAugust2025promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "August 2025\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpCardFesta2008promotionalcardDesc[] = _(
+    "OCG_V Jump Card\n"
+    "Festa 2008\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpCardFesta2009promotionalcardDesc[] = _(
+    "OCG_V Jump Card\n"
+    "Festa 2009\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpCardFesta2010promotionalcardDesc[] = _(
+    "OCG_V Jump Card\n"
+    "Festa 2010\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpDecember2015promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "December 2015\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpDecember2016promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "December 2016\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpDecember2017promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "December 2017\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpDecember2018promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "December 2018\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpDecember2019promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "December 2019\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpDecember2020promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "December 2020\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpDecember2021promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "December 2021\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpDecember2022promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "December 2022\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpDecember2023promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "December 2023\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpDecember2024promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "December 2024\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpEditionDesc[] = _(
+    "OCG_V Jump\n"
+    "Edition.");
+
+static const u8 sOCGVJumpEdition10Desc[] = _(
+    "OCG_V Jump\n"
+    "Edition 10.");
+
+static const u8 sOCGVJumpEdition2Desc[] = _(
+    "OCG_V Jump\n"
+    "Edition 2.");
+
+static const u8 sOCGVJumpEdition3Desc[] = _(
+    "OCG_V Jump\n"
+    "Edition 3.");
+
+static const u8 sOCGVJumpEdition4Desc[] = _(
+    "OCG_V Jump\n"
+    "Edition 4.");
+
+static const u8 sOCGVJumpEdition5Desc[] = _(
+    "OCG_V Jump\n"
+    "Edition 5.");
+
+static const u8 sOCGVJumpEdition6Desc[] = _(
+    "OCG_V Jump\n"
+    "Edition 6.");
+
+static const u8 sOCGVJumpEdition7Desc[] = _(
+    "OCG_V Jump\n"
+    "Edition 7.");
+
+static const u8 sOCGVJumpEdition8Desc[] = _(
+    "OCG_V Jump\n"
+    "Edition 8.");
+
+static const u8 sOCGVJumpEdition9Desc[] = _(
+    "OCG_V Jump\n"
+    "Edition 9.");
+
+static const u8 sOCGVJumpEditionPendulumVictoryPackDesc[] = _(
+    "OCG_V Jump\n"
+    "Edition Pendulum\n"
+    "Victory Pack.");
+
+static const u8 sOCGVJumpFall2005subscriptionbonusDesc[] = _(
+    "OCG_V Jump Fall\n"
+    "2005\n"
     "subscription\n"
     "bonus.");
 
-static const u8 sShonenJumpChampionship2004PrizeCardDesc[] = _(
-    "Shonen Jump\n"
-    "Championship\n"
-    "2004 Prize Card.");
-
-static const u8 sShonenJumpChampionship2005PrizeCardDesc[] = _(
-    "Shonen Jump\n"
-    "Championship\n"
-    "2005 Prize Card.");
-
-static const u8 sShonenJumpChampionship2006PrizeCardDesc[] = _(
-    "Shonen Jump\n"
-    "Championship\n"
-    "2006 Prize Card.");
-
-static const u8 sShonenJumpChampionship2007PrizeCardADesc[] = _(
-    "Shonen Jump\n"
-    "Championship\n"
-    "2007 Prize Card\n"
-    "A.");
-
-static const u8 sShonenJumpChampionship2007PrizeCardBDesc[] = _(
-    "Shonen Jump\n"
-    "Championship\n"
-    "2007 Prize Card\n"
-    "B.");
-
-static const u8 sShonenJumpChampionship2008PrizeCardDesc[] = _(
-    "Shonen Jump\n"
-    "Championship\n"
-    "2008 Prize Card.");
-
-static const u8 sShonenJumpChampionship2009PrizeCardDesc[] = _(
-    "Shonen Jump\n"
-    "Championship\n"
-    "2009 Prize Card.");
-
-static const u8 sShonenJumpDecember2010subscriptionbonusDesc[] = _(
-    "Shonen Jump\n"
-    "December 2010\n"
-    "subscription\n"
-    "bonus.");
-
-static const u8 sShonenJumpDecember2011subscriptionbonusDesc[] = _(
-    "Shonen Jump\n"
-    "December 2011\n"
-    "subscription\n"
-    "bonus.");
-
-static const u8 sShonenJumpFebruary2009subscriptionbonusDesc[] = _(
-    "Shonen Jump\n"
-    "February 2009\n"
-    "subscription\n"
-    "bonus.");
-
-static const u8 sShonenJumpJuneJuly2011subscriptionbonusDesc[] = _(
-    "Shonen Jump\n"
-    "June/July 2011\n"
-    "subscription\n"
-    "bonus.");
-
-static const u8 sShonenJumpMarch2010subscriptionbonusDesc[] = _(
-    "Shonen Jump\n"
-    "March 2010\n"
-    "subscription\n"
-    "bonus.");
-
-static const u8 sShonenJumpMay2006subscriptionbonusDesc[] = _(
-    "Shonen Jump May\n"
+static const u8 sOCGVJumpFall2006subscriptionbonusDesc[] = _(
+    "OCG_V Jump Fall\n"
     "2006\n"
     "subscription\n"
     "bonus.");
 
-static const u8 sShonenJumpMay2008subscriptionbonusDesc[] = _(
-    "Shonen Jump May\n"
+static const u8 sOCGVJumpFall2007subscriptionbonusDesc[] = _(
+    "OCG_V Jump Fall\n"
+    "2007\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpFall2008subscriptionbonusDesc[] = _(
+    "OCG_V Jump Fall\n"
     "2008\n"
     "subscription\n"
     "bonus.");
 
-static const u8 sShonenJumpMay2010subscriptionbonusDesc[] = _(
-    "Shonen Jump May\n"
+static const u8 sOCGVJumpFall2009subscriptionbonusDesc[] = _(
+    "OCG_V Jump Fall\n"
+    "2009\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpFall2010subscriptionbonusDesc[] = _(
+    "OCG_V Jump Fall\n"
     "2010\n"
     "subscription\n"
     "bonus.");
 
-static const u8 sShonenJumpScholasticEditionVol9Issue1promotionalcardDesc[] = _(
-    "Shonen Jump\n"
-    "Scholastic\n"
-    "Edition Vol. 9,\n"
-    "Issue 1\n"
+static const u8 sOCGVJumpFall2011subscriptionbonusDesc[] = _(
+    "OCG_V Jump Fall\n"
+    "2011\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpFall2012subscriptionbonusDesc[] = _(
+    "OCG_V Jump Fall\n"
+    "2012\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpFall2013subscriptionbonusDesc[] = _(
+    "OCG_V Jump Fall\n"
+    "2013\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpFall2014subscriptionbonusDesc[] = _(
+    "OCG_V Jump Fall\n"
+    "2014\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpFall2015subscriptionbonusDesc[] = _(
+    "OCG_V Jump Fall\n"
+    "2015\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpFall2016subscriptionbonusDesc[] = _(
+    "OCG_V Jump Fall\n"
+    "2016\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpFall2017subscriptionbonusDesc[] = _(
+    "OCG_V Jump Fall\n"
+    "2017\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpFall2018subscriptionbonusDesc[] = _(
+    "OCG_V Jump Fall\n"
+    "2018\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpFall2019subscriptionbonusDesc[] = _(
+    "OCG_V Jump Fall\n"
+    "2019\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpFall2020subscriptionbonusDesc[] = _(
+    "OCG_V Jump Fall\n"
+    "2020\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpFall2021subscriptionbonusDesc[] = _(
+    "OCG_V Jump Fall\n"
+    "2021\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpFall2022subscriptionbonusDesc[] = _(
+    "OCG_V Jump Fall\n"
+    "2022\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpFall2023subscriptionbonusDesc[] = _(
+    "OCG_V Jump Fall\n"
+    "2023\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpFall2024subscriptionbonusDesc[] = _(
+    "OCG_V Jump Fall\n"
+    "2024\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpFall2025subscriptionbonusDesc[] = _(
+    "OCG_V Jump Fall\n"
+    "2025\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpFebruary2002promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "February 2002\n"
     "promotional card.");
 
-static const u8 sShonenJumpVol1Issue1promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "1, Issue 1\n"
+static const u8 sOCGVJumpFebruary2005promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "February 2005\n"
     "promotional card.");
 
-static const u8 sShonenJumpVol10Issue1promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "10, Issue 1\n"
+static const u8 sOCGVJumpFebruary2006promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "February 2006\n"
     "promotional card.");
 
-static const u8 sShonenJumpVol10Issue3promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "10, Issue 3\n"
+static const u8 sOCGVJumpFebruary2007promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "February 2007\n"
     "promotional card.");
 
-static const u8 sShonenJumpVol10Issue4promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "10, Issue 4\n"
+static const u8 sOCGVJumpFebruary2008promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "February 2008\n"
     "promotional card.");
 
-static const u8 sShonenJumpVol2Issue1promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "2, Issue 1\n"
+static const u8 sOCGVJumpFebruary2009promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "February 2009\n"
     "promotional card.");
 
-static const u8 sShonenJumpVol3Issue1promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "3, Issue 1\n"
+static const u8 sOCGVJumpFebruary2010promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "February 2010\n"
     "promotional card.");
 
-static const u8 sShonenJumpVol4Issue1promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "4, Issue 1\n"
+static const u8 sOCGVJumpFebruary2011promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "February 2011\n"
     "promotional card.");
 
-static const u8 sShonenJumpVol4Issue11promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "4, Issue 11\n"
+static const u8 sOCGVJumpFebruary2012promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "February 2012\n"
     "promotional card.");
 
-static const u8 sShonenJumpVol4Issue12promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "4, Issue 12\n"
+static const u8 sOCGVJumpFebruary2013promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "February 2013\n"
     "promotional card.");
 
-static const u8 sShonenJumpVol5Issue1promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "5, Issue 1\n"
+static const u8 sOCGVJumpFebruary2014promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "February 2014\n"
     "promotional card.");
 
-static const u8 sShonenJumpVol5Issue11promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "5, Issue 11\n"
+static const u8 sOCGVJumpFebruary2015promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "February 2015\n"
     "promotional card.");
 
-static const u8 sShonenJumpVol5Issue4promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "5, Issue 4\n"
+static const u8 sOCGVJumpFebruary2016promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "February 2016\n"
     "promotional card.");
 
-static const u8 sShonenJumpVol5Issue6promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "5, Issue 6\n"
+static const u8 sOCGVJumpFebruary2017promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "February 2017\n"
     "promotional card.");
 
-static const u8 sShonenJumpVol5Issue9promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "5, Issue 9\n"
+static const u8 sOCGVJumpFebruary2018promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "February 2018\n"
     "promotional card.");
 
-static const u8 sShonenJumpVol6Issue1promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "6, Issue 1\n"
+static const u8 sOCGVJumpFebruary2019promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "February 2019\n"
     "promotional card.");
 
-static const u8 sShonenJumpVol6Issue12promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "6, Issue 12\n"
+static const u8 sOCGVJumpFebruary2020promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "February 2020\n"
     "promotional card.");
 
-static const u8 sShonenJumpVol6Issue3promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "6, Issue 3\n"
+static const u8 sOCGVJumpFebruary2021promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "February 2021\n"
     "promotional card.");
 
-static const u8 sShonenJumpVol6Issue5promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "6, Issue 5\n"
+static const u8 sOCGVJumpFebruary2022promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "February 2022\n"
     "promotional card.");
 
-static const u8 sShonenJumpVol6Issue9promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "6, Issue 9\n"
+static const u8 sOCGVJumpFebruary2023promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "February 2023\n"
     "promotional card.");
 
-static const u8 sShonenJumpVol7Issue1promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "7, Issue 1\n"
+static const u8 sOCGVJumpFebruary2024promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "February 2024\n"
     "promotional card.");
 
-static const u8 sShonenJumpVol7Issue11promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "7, Issue 11\n"
+static const u8 sOCGVJumpFebruary2025promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "February 2025\n"
     "promotional card.");
 
-static const u8 sShonenJumpVol7Issue3promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "7, Issue 3\n"
-    "promotional card.");
-
-static const u8 sShonenJumpVol7Issue6promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "7, Issue 6\n"
-    "promotional card.");
-
-static const u8 sShonenJumpVol7Issue9promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "7, Issue 9\n"
-    "promotional card.");
-
-static const u8 sShonenJumpVol8Issue1promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "8, Issue 1\n"
-    "promotional card.");
-
-static const u8 sShonenJumpVol8Issue11promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "8, Issue 11\n"
-    "promotional card.");
-
-static const u8 sShonenJumpVol8Issue3promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "8, Issue 3\n"
-    "promotional card.");
-
-static const u8 sShonenJumpVol8Issue5promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "8, Issue 5\n"
-    "promotional card.");
-
-static const u8 sShonenJumpVol8Issue7promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "8, Issue 7\n"
-    "promotional card.");
-
-static const u8 sShonenJumpVol8Issue9promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "8, Issue 9\n"
-    "promotional card.");
-
-static const u8 sShonenJumpVol9Issue1promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "9, Issue 1\n"
-    "promotional card.");
-
-static const u8 sShonenJumpVol9Issue10promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "9, Issue 10\n"
-    "promotional card.");
-
-static const u8 sShonenJumpVol9Issue3promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "9, Issue 3\n"
-    "promotional card.");
-
-static const u8 sShonenJumpVol9Issue4promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "9, Issue 4\n"
-    "promotional card.");
-
-static const u8 sShonenJumpVol9Issue6promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "9, Issue 6\n"
-    "promotional card.");
-
-static const u8 sShonenJumpVol9Issue8promotionalcardDesc[] = _(
-    "Shonen Jump Vol.\n"
-    "9, Issue 8\n"
-    "promotional card.");
-
-static const u8 sSoulFusionDesc[] = _(
-    "Soul Fusion.");
-
-static const u8 sSoulFusionSneakPeekParticipationCardDesc[] = _(
-    "Soul Fusion\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sSoulFusionSpecialEditionDesc[] = _(
-    "Soul Fusion\n"
-    "Special Edition.");
-
-static const u8 sSouloftheDuelistDesc[] = _(
-    "Soul of the\n"
-    "Duelist.");
-
-static const u8 sSpaceTimeShowdownPowerUpPackDesc[] = _(
-    "Space-Time\n"
-    "Showdown Power-\n"
-    "Up Pack.");
-
-static const u8 sSpeedDuelDemoDeckDesc[] = _(
-    "Speed Duel Demo\n"
-    "Deck.");
-
-static const u8 sSpeedDuelDemoDeck2020Desc[] = _(
-    "Speed Duel Demo\n"
-    "Deck 2020.");
-
-static const u8 sSpeedDuelGXDuelAcademyBoxDesc[] = _(
-    "Speed Duel GX:\n"
-    "Duel Academy Box.");
-
-static const u8 sSpeedDuelGXDuelistsofShadowsDesc[] = _(
-    "Speed Duel GX:\n"
-    "Duelists of\n"
-    "Shadows.");
-
-static const u8 sSpeedDuelGXMidtermParadoxDesc[] = _(
-    "Speed Duel GX:\n"
-    "Midterm Paradox.");
-
-static const u8 sSpeedDuelStarterDecksDestinyMastersDesc[] = _(
-    "Speed Duel\n"
-    "Starter Decks:\n"
-    "Destiny Masters.");
-
-static const u8 sSpeedDuelStarterDecksDuelistsofTomorrowDesc[] = _(
-    "Speed Duel\n"
-    "Starter Decks:\n"
-    "Duelists of\n"
-    "Tomorrow.");
-
-static const u8 sSpeedDuelStarterDecksMatchoftheMillenniumDesc[] = _(
-    "Speed Duel\n"
-    "Starter Decks:\n"
-    "Match of the\n"
-    "Millennium.");
-
-static const u8 sSpeedDuelStarterDecksTwistedNightmaresDesc[] = _(
-    "Speed Duel\n"
-    "Starter Decks:\n"
-    "Twisted\n"
-    "Nightmares.");
-
-static const u8 sSpeedDuelStarterDecksUltimatePredatorsDesc[] = _(
-    "Speed Duel\n"
-    "Starter Decks:\n"
-    "Ultimate\n"
-    "Predators.");
-
-static const u8 sSpeedDuelTournamentPack1Desc[] = _(
-    "Speed Duel\n"
-    "Tournament Pack\n"
-    "1.");
-
-static const u8 sSpeedDuelTournamentPack2Desc[] = _(
-    "Speed Duel\n"
-    "Tournament Pack\n"
-    "2.");
-
-static const u8 sSpeedDuelTournamentPack3Desc[] = _(
-    "Speed Duel\n"
-    "Tournament Pack\n"
-    "3.");
-
-static const u8 sSpeedDuelTournamentPack4Desc[] = _(
-    "Speed Duel\n"
-    "Tournament Pack\n"
-    "4.");
-
-static const u8 sSpeedDuelTournamentPack5Desc[] = _(
-    "Speed Duel\n"
-    "Tournament Pack\n"
-    "5.");
-
-static const u8 sSpeedDuelTournamentPack6Desc[] = _(
-    "Speed Duel\n"
-    "Tournament Pack\n"
-    "6.");
-
-static const u8 sSpeedDuelArenaofLostSoulsDesc[] = _(
-    "Speed Duel:\n"
-    "Arena of Lost\n"
-    "Souls.");
-
-static const u8 sSpeedDuelAttackfromtheDeepDesc[] = _(
-    "Speed Duel:\n"
-    "Attack from the\n"
-    "Deep.");
-
-static const u8 sSpeedDuelBattleCityBoxDesc[] = _(
-    "Speed Duel:\n"
-    "Battle City Box.");
-
-static const u8 sSpeedDuelScarsofBattleDesc[] = _(
-    "Speed Duel:\n"
-    "Scars of Battle.");
-
-static const u8 sSpeedDuelScarsofBattleLaunchEventparticipationcardDesc[] = _(
-    "Speed Duel:\n"
-    "Scars of Battle\n"
-    "Launch Event\n"
-    "participation\n"
+static const u8 sOCGVJumpFesta1999promotionalcardDesc[] = _(
+    "OCG_V Jump Festa\n"
+    "1999 promotional\n"
     "card.");
 
-static const u8 sSpeedDuelStreetsofBattleCityDesc[] = _(
-    "Speed Duel:\n"
-    "Streets of\n"
-    "Battle City.");
-
-static const u8 sSpeedDuelTrialsoftheKingdomDesc[] = _(
-    "Speed Duel:\n"
-    "Trials of the\n"
-    "Kingdom.");
-
-static const u8 sSpeedDuelTrialsoftheKingdomSneakPeekparticipationcardsDesc[] = _(
-    "Speed Duel:\n"
-    "Trials of the\n"
-    "Kingdom Sneak\n"
-    "Peek\n"
-    "participation\n"
-    "cards.");
-
-static const u8 sSpellRulerDesc[] = _(
-    "Spell Ruler.");
-
-static const u8 sSpellcastersCommandStructureDeckDesc[] = _(
-    "Spellcaster's\n"
-    "Command\n"
-    "Structure Deck.");
-
-static const u8 sSpellcastersCommandStructureDeckSpecialEditionDesc[] = _(
-    "Spellcaster's\n"
-    "Command\n"
-    "Structure Deck:\n"
-    "Special Edition.");
-
-static const u8 sSpiritWarriorsDesc[] = _(
-    "Spirit Warriors.");
-
-static const u8 sStarPack2013Desc[] = _(
-    "Star Pack 2013.");
-
-static const u8 sStarPack2014Desc[] = _(
-    "Star Pack 2014.");
-
-static const u8 sStarPackARCVDesc[] = _(
-    "Star Pack ARC-V.");
-
-static const u8 sStarPackBattleRoyalDesc[] = _(
-    "Star Pack Battle\n"
-    "Royal.");
-
-static const u8 sStarPackVRAINSDesc[] = _(
-    "Star Pack VRAINS.");
-
-static const u8 sStardustOverdriveDesc[] = _(
-    "Stardust\n"
-    "Overdrive.");
-
-static const u8 sStardustOverdriveSneakPeekParticipationCardDesc[] = _(
-    "Stardust\n"
-    "Overdrive Sneak\n"
-    "Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sStardustOverdriveSpecialEditionDesc[] = _(
-    "Stardust\n"
-    "Overdrive:\n"
-    "Special Edition.");
-
-static const u8 sStarstrikeBlastDesc[] = _(
-    "Starstrike Blast.");
-
-static const u8 sStarstrikeBlastSneakPeekParticipationCardDesc[] = _(
-    "Starstrike Blast\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sStarterDeck2006Desc[] = _(
-    "Starter Deck\n"
-    "2006.");
-
-static const u8 sStarterDeck2006SpecialEditionDesc[] = _(
-    "Starter Deck\n"
-    "2006: Special\n"
-    "Edition.");
-
-static const u8 sStarterDeckCodebreakerDesc[] = _(
-    "Starter Deck:\n"
-    "Codebreaker.");
-
-static const u8 sStarterDeckDawnoftheXyzDesc[] = _(
-    "Starter Deck:\n"
-    "Dawn of the Xyz.");
-
-static const u8 sStarterDeckDuelistToolboxDesc[] = _(
-    "Starter Deck:\n"
-    "Duelist Toolbox.");
-
-static const u8 sStarterDeckJadenYukiDesc[] = _(
-    "Starter Deck:\n"
-    "Jaden Yuki.");
-
-static const u8 sStarterDeckJoeyDesc[] = _(
-    "Starter Deck:\n"
-    "Joey.");
-
-static const u8 sStarterDeckKaibaDesc[] = _(
-    "Starter Deck:\n"
-    "Kaiba.");
-
-static const u8 sStarterDeckKaibaEvolutionDesc[] = _(
-    "Starter Deck:\n"
-    "Kaiba Evolution.");
-
-static const u8 sStarterDeckKaibaReloadedDesc[] = _(
-    "Starter Deck:\n"
-    "Kaiba Reloaded.");
-
-static const u8 sStarterDeckLinkStrikeDesc[] = _(
-    "Starter Deck:\n"
-    "Link Strike.");
-
-static const u8 sStarterDeckPegasusDesc[] = _(
-    "Starter Deck:\n"
-    "Pegasus.");
-
-static const u8 sStarterDeckSyrusTruesdaleDesc[] = _(
-    "Starter Deck:\n"
-    "Syrus Truesdale.");
-
-static const u8 sStarterDeckXyzSymphonyDesc[] = _(
-    "Starter Deck:\n"
-    "Xyz Symphony.");
-
-static const u8 sStarterDeckYuGiOh5DsDesc[] = _(
-    "Starter Deck:\n"
-    "Yu-Gi-Oh! 5D's.");
-
-static const u8 sStarterDeckYuGiOh5Ds2009Desc[] = _(
-    "Starter Deck:\n"
-    "Yu-Gi-Oh! 5D's\n"
-    "2009.");
-
-static const u8 sStarterDeckYugiDesc[] = _(
-    "Starter Deck:\n"
-    "Yugi.");
-
-static const u8 sStarterDeckYugiEvolutionDesc[] = _(
-    "Starter Deck:\n"
-    "Yugi Evolution.");
-
-static const u8 sStarterDeckYugiReloadedDesc[] = _(
-    "Starter Deck:\n"
-    "Yugi Reloaded.");
-
-static const u8 sStarterDeckYuyaDesc[] = _(
-    "Starter Deck:\n"
-    "Yuya.");
-
-static const u8 sStormofRagnarokDesc[] = _(
-    "Storm of\n"
-    "Ragnarok.");
-
-static const u8 sStormofRagnarokSneakPeekParticipationCardDesc[] = _(
-    "Storm of\n"
-    "Ragnarok Sneak\n"
-    "Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sStormofRagnarokSpecialEditionDesc[] = _(
-    "Storm of\n"
-    "Ragnarok:\n"
-    "Special Edition.");
-
-static const u8 sStrikeofNeosDesc[] = _(
-    "Strike of Neos.");
-
-static const u8 sStrikeofNeosSneakPeekParticipationCardDesc[] = _(
-    "Strike of Neos\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sStrikeofNeosSpecialEditionDesc[] = _(
-    "Strike of Neos:\n"
-    "Special Edition.");
-
-static const u8 sStructureDeckAlbazStrikeDesc[] = _(
-    "Structure Deck:\n"
-    "Albaz Strike.");
-
-static const u8 sStructureDeckBewareofTraptrixDesc[] = _(
-    "Structure Deck:\n"
-    "Beware of\n"
-    "Traptrix.");
-
-static const u8 sStructureDeckBlazeofDestructionDesc[] = _(
-    "Structure Deck:\n"
-    "Blaze of\n"
-    "Destruction.");
-
-static const u8 sStructureDeckBlueEyesWhiteDestinyDesc[] = _(
-    "Structure Deck:\n"
-    "Blue-Eyes White\n"
-    "Destiny.");
-
-static const u8 sStructureDeckCyberStrikeDesc[] = _(
-    "Structure Deck:\n"
-    "Cyber Strike.");
-
-static const u8 sStructureDeckCyberseLinkDesc[] = _(
-    "Structure Deck:\n"
-    "Cyberse Link.");
-
-static const u8 sStructureDeckDarkWorldDesc[] = _(
-    "Structure Deck:\n"
-    "Dark World.");
-
-static const u8 sStructureDeckDeluxeEditionDesc[] = _(
-    "Structure Deck:\n"
-    "Deluxe Edition.");
-
-static const u8 sStructureDeckDinosaursRageDesc[] = _(
-    "Structure Deck:\n"
-    "Dinosaur's Rage.");
-
-static const u8 sStructureDeckDinosaursRageSpecialSetDesc[] = _(
-    "Structure Deck:\n"
-    "Dinosaur's Rage\n"
-    "Special Set.");
-
-static const u8 sStructureDeckDragonsRoarDesc[] = _(
-    "Structure Deck:\n"
-    "Dragon's Roar.");
-
-static const u8 sStructureDeckFireKingsDesc[] = _(
-    "Structure Deck:\n"
-    "Fire Kings.");
-
-static const u8 sStructureDeckFreezingChainsDesc[] = _(
-    "Structure Deck:\n"
-    "Freezing Chains.");
-
-static const u8 sStructureDeckFuryfromtheDeepDesc[] = _(
-    "Structure Deck:\n"
-    "Fury from the\n"
-    "Deep.");
-
-static const u8 sStructureDeckInvincibleFortressDesc[] = _(
-    "Structure Deck:\n"
-    "Invincible\n"
-    "Fortress.");
-
-static const u8 sStructureDeckLairofDarknessDesc[] = _(
-    "Structure Deck:\n"
-    "Lair of Darkness.");
-
-static const u8 sStructureDeckLegendoftheCrystalBeastsDesc[] = _(
-    "Structure Deck:\n"
-    "Legend of the\n"
-    "Crystal Beasts.");
-
-static const u8 sStructureDeckLordoftheStormDesc[] = _(
-    "Structure Deck:\n"
-    "Lord of the\n"
-    "Storm.");
-
-static const u8 sStructureDeckMachineReVoltDesc[] = _(
-    "Structure Deck:\n"
-    "Machine Re-Volt.");
-
-static const u8 sStructureDeckMarikTCGDesc[] = _(
-    "Structure Deck:\n"
-    "Marik (TCG).");
-
-static const u8 sStructureDeckMechanizedMadnessDesc[] = _(
-    "Structure Deck:\n"
-    "Mechanized\n"
-    "Madness.");
-
-static const u8 sStructureDeckOrderoftheSpellcastersDesc[] = _(
-    "Structure Deck:\n"
-    "Order of the\n"
-    "Spellcasters.");
-
-static const u8 sStructureDeckPowercodeLinkDesc[] = _(
-    "Structure Deck:\n"
-    "Powercode Link.");
-
-static const u8 sStructureDeckRokketRevoltDesc[] = _(
-    "Structure Deck:\n"
-    "Rokket Revolt.");
-
-static const u8 sStructureDeckSacredBeastsDesc[] = _(
-    "Structure Deck:\n"
-    "Sacred Beasts.");
-
-static const u8 sStructureDeckSetoKaibaDesc[] = _(
-    "Structure Deck:\n"
-    "Seto Kaiba.");
-
-static const u8 sStructureDeckShaddollShowdownDesc[] = _(
-    "Structure Deck:\n"
-    "Shaddoll\n"
-    "Showdown.");
-
-static const u8 sStructureDeckSoulburnerDesc[] = _(
-    "Structure Deck:\n"
-    "Soulburner.");
-
-static const u8 sStructureDeckSpellcastersJudgmentDesc[] = _(
-    "Structure Deck:\n"
-    "Spellcaster's\n"
-    "Judgment.");
-
-static const u8 sStructureDeckSpiritCharmersDesc[] = _(
-    "Structure Deck:\n"
-    "Spirit Charmers.");
-
-static const u8 sStructureDeckTheCrimsonKingDesc[] = _(
-    "Structure Deck:\n"
-    "The Crimson King.");
-
-static const u8 sStructureDeckWarriorsTriumphDesc[] = _(
-    "Structure Deck:\n"
-    "Warrior's\n"
-    "Triumph.");
-
-static const u8 sStructureDeckWaveofLightDesc[] = _(
-    "Structure Deck:\n"
-    "Wave of Light.");
-
-static const u8 sStructureDeckYugiMutoDesc[] = _(
-    "Structure Deck:\n"
-    "Yugi Muto.");
-
-static const u8 sStructureDeckZombieHordeDesc[] = _(
-    "Structure Deck:\n"
-    "Zombie Horde.");
-
-static const u8 sStructureDeckZombieMadnessDesc[] = _(
-    "Structure Deck:\n"
-    "Zombie Madness.");
-
-static const u8 sSummonedSkullSamplepromotionalcardDesc[] = _(
-    "Summoned Skull\n"
-    "Sample\n"
-    "promotional card.");
-
-static const u8 sSuperStarterPowerUpPackDesc[] = _(
-    "Super Starter\n"
-    "Power-Up Pack.");
-
-static const u8 sSuperStarterSpaceTimeShowdownDesc[] = _(
-    "Super Starter:\n"
-    "Space-Time\n"
-    "Showdown.");
-
-static const u8 sSuperStarterVforVictoryDesc[] = _(
-    "Super Starter: V\n"
-    "for Victory.");
-
-static const u8 sSupremeDarknessDesc[] = _(
-    "Supreme Darkness.");
-
-static const u8 sSwedishShonenJump2004Issue2promotionalcardDesc[] = _(
-    "Swedish Shonen\n"
-    "Jump 2004, Issue\n"
-    "2 promotional\n"
+static const u8 sOCGVJumpFesta2011promotionalcardDesc[] = _(
+    "OCG_V Jump Festa\n"
+    "2011 promotional\n"
     "card.");
 
-static const u8 sSwedishShonenJump2005Issue12promotionalcardDesc[] = _(
-    "Swedish Shonen\n"
-    "Jump 2005, Issue\n"
-    "12 promotional\n"
+static const u8 sOCGVJumpJanuary2001promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "January 2001\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpJanuary2014promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "January 2014\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpJanuary2016promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "January 2016\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpJanuary2017promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "January 2017\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpJanuary2018promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "January 2018\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpJanuary2019promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "January 2019\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpJanuary2020promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "January 2020\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpJanuary2021promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "January 2021\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpJanuary2022promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "January 2022\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpJanuary2023promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "January 2023\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpJanuary2024promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "January 2024\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpJanuary2025promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "January 2025\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpJuly2000promotionalcardDesc[] = _(
+    "OCG_V Jump July\n"
+    "2000 promotional\n"
     "card.");
 
-static const u8 sSynchronExtremeStructureDeckDesc[] = _(
-    "Synchron Extreme\n"
-    "Structure Deck.");
-
-static const u8 sTacticalEvolutionDesc[] = _(
-    "Tactical\n"
-    "Evolution.");
-
-static const u8 sTacticalEvolutionSneakPeekParticipationCardDesc[] = _(
-    "Tactical\n"
-    "Evolution Sneak\n"
-    "Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sTacticalEvolutionSpecialEditionDesc[] = _(
-    "Tactical\n"
-    "Evolution:\n"
-    "Special Edition.");
-
-static const u8 sTacticalMastersDesc[] = _(
-    "Tactical Masters.");
-
-static const u8 sTheDarkEmperorStructureDeckDesc[] = _(
-    "The Dark Emperor\n"
-    "Structure Deck.");
-
-static const u8 sTheDarkIllusionDesc[] = _(
-    "The Dark\n"
-    "Illusion.");
-
-static const u8 sTheDarkIllusionSneakPeekParticipationCardDesc[] = _(
-    "The Dark\n"
-    "Illusion Sneak\n"
-    "Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sTheDarkIllusionSpecialEditionDesc[] = _(
-    "The Dark\n"
-    "Illusion:\n"
-    "Special Edition.");
-
-static const u8 sTheDuelistGenesisDesc[] = _(
-    "The Duelist\n"
-    "Genesis.");
-
-static const u8 sTheDuelistGenesisSneakPeekParticipationCardDesc[] = _(
-    "The Duelist\n"
-    "Genesis Sneak\n"
-    "Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sTheDuelistGenesisSpecialEditionDesc[] = _(
-    "The Duelist\n"
-    "Genesis: Special\n"
-    "Edition.");
-
-static const u8 sTheGrandCreatorsDesc[] = _(
-    "The Grand\n"
-    "Creators.");
-
-static const u8 sTheInfiniteForbiddenDesc[] = _(
-    "The Infinite\n"
-    "Forbidden.");
-
-static const u8 sTheInfinityChasersDesc[] = _(
-    "The Infinity\n"
-    "Chasers.");
-
-static const u8 sTheLostArtPromotionseriesDesc[] = _(
-    "The Lost Art\n"
-    "Promotion\n"
-    "(series).");
-
-static const u8 sTheLostArtPromotion2020DDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2020 D.");
-
-static const u8 sTheLostArtPromotion2020EDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2020 E.");
-
-static const u8 sTheLostArtPromotion2020FDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2020 F.");
-
-static const u8 sTheLostArtPromotion2020GDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2020 G.");
-
-static const u8 sTheLostArtPromotion2020HDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2020 H.");
-
-static const u8 sTheLostArtPromotion2020IDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2020 I.");
-
-static const u8 sTheLostArtPromotion2020JDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2020 J.");
-
-static const u8 sTheLostArtPromotion2020KDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2020 K.");
-
-static const u8 sTheLostArtPromotion2020LDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2020 L.");
-
-static const u8 sTheLostArtPromotion2020MDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2020 M.");
-
-static const u8 sTheLostArtPromotion2020NDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2020 N.");
-
-static const u8 sTheLostArtPromotion2020ODesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2020 O.");
-
-static const u8 sTheLostArtPromotion2020PDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2020 P.");
-
-static const u8 sTheLostArtPromotion2020QDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2020 Q.");
-
-static const u8 sTheLostArtPromotion2020RDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2020 R.");
-
-static const u8 sTheLostArtPromotion2021ADesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2021 A.");
-
-static const u8 sTheLostArtPromotion2021BDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2021 B.");
-
-static const u8 sTheLostArtPromotion2021CDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2021 C.");
-
-static const u8 sTheLostArtPromotion2021DDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2021 D.");
-
-static const u8 sTheLostArtPromotion2021EDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2021 E.");
-
-static const u8 sTheLostArtPromotion2021FDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2021 F.");
-
-static const u8 sTheLostArtPromotion2021GDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2021 G.");
-
-static const u8 sTheLostArtPromotion2021HDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2021 H.");
-
-static const u8 sTheLostArtPromotion2021IDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2021 I.");
-
-static const u8 sTheLostArtPromotion2021JDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2021 J.");
-
-static const u8 sTheLostArtPromotion2021KDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2021 K.");
-
-static const u8 sTheLostArtPromotion2021LDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2021 L.");
-
-static const u8 sTheLostArtPromotion2022Desc[] = _(
-    "The Lost Art\n"
-    "Promotion 2022.");
-
-static const u8 sTheLostArtPromotion2022GDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2022 G.");
-
-static const u8 sTheLostArtPromotion2022KDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2022 K.");
-
-static const u8 sTheLostArtPromotion2023Desc[] = _(
-    "The Lost Art\n"
-    "Promotion 2023.");
-
-static const u8 sTheLostArtPromotion2023EDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2023 E.");
-
-static const u8 sTheLostArtPromotion2023FDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2023 F.");
-
-static const u8 sTheLostArtPromotion2023GDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2023 G.");
-
-static const u8 sTheLostArtPromotion2023HDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2023 H.");
-
-static const u8 sTheLostArtPromotion2023IDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2023 I.");
-
-static const u8 sTheLostArtPromotion2024Desc[] = _(
-    "The Lost Art\n"
-    "Promotion 2024.");
-
-static const u8 sTheLostArtPromotion2024ADesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2024 A.");
-
-static const u8 sTheLostArtPromotion2024BDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2024 B.");
-
-static const u8 sTheLostArtPromotion2024CDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2024 C.");
-
-static const u8 sTheLostArtPromotion2024HDesc[] = _(
-    "The Lost Art\n"
-    "Promotion 2024 H.");
-
-static const u8 sTheLostArtPromotionADesc[] = _(
-    "The Lost Art\n"
-    "Promotion A.");
-
-static const u8 sTheLostArtPromotionBDesc[] = _(
-    "The Lost Art\n"
-    "Promotion B.");
-
-static const u8 sTheLostArtPromotionCDesc[] = _(
-    "The Lost Art\n"
-    "Promotion C.");
-
-static const u8 sTheLostArtPromotionDDesc[] = _(
-    "The Lost Art\n"
-    "Promotion D.");
-
-static const u8 sTheLostArtPromotionEDesc[] = _(
-    "The Lost Art\n"
-    "Promotion E.");
-
-static const u8 sTheLostArtPromotionFDesc[] = _(
-    "The Lost Art\n"
-    "Promotion F.");
-
-static const u8 sTheLostArtPromotionGDesc[] = _(
-    "The Lost Art\n"
-    "Promotion G.");
-
-static const u8 sTheLostArtPromotionHDesc[] = _(
-    "The Lost Art\n"
-    "Promotion H.");
-
-static const u8 sTheLostArtPromotionIDesc[] = _(
-    "The Lost Art\n"
-    "Promotion I.");
-
-static const u8 sTheLostArtPromotionJDesc[] = _(
-    "The Lost Art\n"
-    "Promotion J.");
-
-static const u8 sTheLostArtPromotionKDesc[] = _(
-    "The Lost Art\n"
-    "Promotion K.");
-
-static const u8 sTheLostArtPromotionLDesc[] = _(
-    "The Lost Art\n"
-    "Promotion L.");
-
-static const u8 sTheLostArtPromotionMDesc[] = _(
-    "The Lost Art\n"
-    "Promotion M.");
-
-static const u8 sTheLostArtPromotionNDesc[] = _(
-    "The Lost Art\n"
-    "Promotion N.");
-
-static const u8 sTheLostArtPromotionODesc[] = _(
-    "The Lost Art\n"
-    "Promotion O.");
-
-static const u8 sTheLostMillenniumDesc[] = _(
-    "The Lost\n"
-    "Millennium.");
-
-static const u8 sTheLostMillenniumSneakPeekParticipationCardDesc[] = _(
-    "The Lost\n"
-    "Millennium Sneak\n"
-    "Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sTheLostMillenniumSpecialEditionDesc[] = _(
-    "The Lost\n"
-    "Millennium:\n"
-    "Special Edition.");
-
-static const u8 sTheNewChallengersDesc[] = _(
-    "The New\n"
-    "Challengers.");
-
-static const u8 sTheNewChallengersSneakPeekParticipationCardDesc[] = _(
-    "The New\n"
-    "Challengers\n"
-    "Sneak Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sTheNewChallengersSuperEditionDesc[] = _(
-    "The New\n"
-    "Challengers:\n"
-    "Super Edition.");
-
-static const u8 sThePotCollectionDesc[] = _(
-    "The Pot\n"
-    "Collection.");
-
-static const u8 sTheSecretForcesDesc[] = _(
-    "The Secret\n"
-    "Forces.");
-
-static const u8 sTheShiningDarknessDesc[] = _(
-    "The Shining\n"
-    "Darkness.");
-
-static const u8 sTheShiningDarknessSneakPeekParticipationCardDesc[] = _(
-    "The Shining\n"
-    "Darkness Sneak\n"
-    "Peek\n"
-    "Participation\n"
-    "Card.");
-
-static const u8 sToonChaosDesc[] = _(
-    "Toon Chaos.");
-
-static const u8 sTournamentPack4Desc[] = _(
-    "Tournament Pack\n"
-    "4.");
-
-static const u8 sTournamentPack5Desc[] = _(
-    "Tournament Pack\n"
-    "5.");
-
-static const u8 sTournamentPack6Desc[] = _(
-    "Tournament Pack\n"
-    "6.");
-
-static const u8 sTournamentPack7Desc[] = _(
-    "Tournament Pack\n"
-    "7.");
-
-static const u8 sTournamentPack8Desc[] = _(
-    "Tournament Pack\n"
-    "8.");
-
-static const u8 sTournamentPack1stSeasonDesc[] = _(
-    "Tournament Pack:\n"
-    "1st Season.");
-
-static const u8 sTournamentPack2ndSeasonDesc[] = _(
-    "Tournament Pack:\n"
-    "2nd Season.");
-
-static const u8 sTournamentPack3rdSeasonDesc[] = _(
-    "Tournament Pack:\n"
-    "3rd Season.");
-
-static const u8 sTrialsofthePharaohMatchoftheMillenniumTwistedNightmarespromotionalcardDesc[] = _(
-    "Trials of the\n"
-    "Pharaoh - Match\n"
-    "of the\n"
-    "Millennium &\n"
-    "Twisted\n"
-    "Nightmares\n"
+static const u8 sOCGVJumpJuly2001lotteryprizecardsDesc[] = _(
+    "OCG_V Jump July\n"
+    "2001 lottery\n"
+    "prize cards.");
+
+static const u8 sOCGVJumpJuly2001promotionalcardDesc[] = _(
+    "OCG_V Jump July\n"
+    "2001 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJuly2002promotionalcardDesc[] = _(
+    "OCG_V Jump July\n"
+    "2002 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJuly2013promotionalcardDesc[] = _(
+    "OCG_V Jump July\n"
+    "2013 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJuly2016promotionalcardDesc[] = _(
+    "OCG_V Jump July\n"
+    "2016 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJuly2017promotionalcardDesc[] = _(
+    "OCG_V Jump July\n"
+    "2017 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJuly2018promotionalcardDesc[] = _(
+    "OCG_V Jump July\n"
+    "2018 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJuly2019promotionalcardDesc[] = _(
+    "OCG_V Jump July\n"
+    "2019 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJuly2020promotionalcardDesc[] = _(
+    "OCG_V Jump July\n"
+    "2020 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJuly2021promotionalcardDesc[] = _(
+    "OCG_V Jump July\n"
+    "2021 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJuly2022promotionalcardDesc[] = _(
+    "OCG_V Jump July\n"
+    "2022 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJuly2023promotionalcardDesc[] = _(
+    "OCG_V Jump July\n"
+    "2023 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJuly2024promotionalcardDesc[] = _(
+    "OCG_V Jump July\n"
+    "2024 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJuly2025promotionalcardDesc[] = _(
+    "OCG_V Jump July\n"
+    "2025 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJune2004promotionalcardDesc[] = _(
+    "OCG_V Jump June\n"
+    "2004 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJune2005promotionalcardDesc[] = _(
+    "OCG_V Jump June\n"
+    "2005 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJune2006promotionalcardDesc[] = _(
+    "OCG_V Jump June\n"
+    "2006 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJune2007promotionalcardDesc[] = _(
+    "OCG_V Jump June\n"
+    "2007 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJune2008promotionalcardDesc[] = _(
+    "OCG_V Jump June\n"
+    "2008 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJune2009promotionalcardDesc[] = _(
+    "OCG_V Jump June\n"
+    "2009 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJune2010promotionalcardDesc[] = _(
+    "OCG_V Jump June\n"
+    "2010 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJune2011promotionalcardDesc[] = _(
+    "OCG_V Jump June\n"
+    "2011 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJune2012promotionalcardDesc[] = _(
+    "OCG_V Jump June\n"
+    "2012 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJune2013promotionalcardDesc[] = _(
+    "OCG_V Jump June\n"
+    "2013 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJune2014promotionalcardDesc[] = _(
+    "OCG_V Jump June\n"
+    "2014 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJune2015promotionalcardDesc[] = _(
+    "OCG_V Jump June\n"
+    "2015 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJune2016promotionalcardDesc[] = _(
+    "OCG_V Jump June\n"
+    "2016 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJune2017promotionalcardDesc[] = _(
+    "OCG_V Jump June\n"
+    "2017 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJune2018promotionalcardDesc[] = _(
+    "OCG_V Jump June\n"
+    "2018 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJune2019promotionalcardDesc[] = _(
+    "OCG_V Jump June\n"
+    "2019 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJune2020promotionalcardDesc[] = _(
+    "OCG_V Jump June\n"
+    "2020 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJune2021promotionalcardDesc[] = _(
+    "OCG_V Jump June\n"
+    "2021 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJune2022promotionalcardDesc[] = _(
+    "OCG_V Jump June\n"
+    "2022 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJune2023promotionalcardDesc[] = _(
+    "OCG_V Jump June\n"
+    "2023 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJune2024promotionalcardDesc[] = _(
+    "OCG_V Jump June\n"
+    "2024 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpJune2025promotionalcardDesc[] = _(
+    "OCG_V Jump June\n"
+    "2025 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpMarch2007promotionalcardDesc[] = _(
+    "OCG_V Jump March\n"
+    "2007 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpMarch2008promotionalcardDesc[] = _(
+    "OCG_V Jump March\n"
+    "2008 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpMarch2009promotionalcardDesc[] = _(
+    "OCG_V Jump March\n"
+    "2009 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpMarch2010promotionalcardDesc[] = _(
+    "OCG_V Jump March\n"
+    "2010 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpMarch2011promotionalcardDesc[] = _(
+    "OCG_V Jump March\n"
+    "2011 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpMarch2012promotionalcardDesc[] = _(
+    "OCG_V Jump March\n"
+    "2012 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpMarch2013promotionalcardDesc[] = _(
+    "OCG_V Jump March\n"
+    "2013 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpMarch2015promotionalcardDesc[] = _(
+    "OCG_V Jump March\n"
+    "2015 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpMarch2016promotionalcardDesc[] = _(
+    "OCG_V Jump March\n"
+    "2016 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpMarch2017promotionalcardDesc[] = _(
+    "OCG_V Jump March\n"
+    "2017 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpMarch2018promotionalcardDesc[] = _(
+    "OCG_V Jump March\n"
+    "2018 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpMarch2019promotionalcardDesc[] = _(
+    "OCG_V Jump March\n"
+    "2019 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpMarch2020promotionalcardDesc[] = _(
+    "OCG_V Jump March\n"
+    "2020 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpMarch2021promotionalcardDesc[] = _(
+    "OCG_V Jump March\n"
+    "2021 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpMarch2022promotionalcardDesc[] = _(
+    "OCG_V Jump March\n"
+    "2022 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpMarch2023promotionalcardDesc[] = _(
+    "OCG_V Jump March\n"
+    "2023 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpMarch2024promotionalcardDesc[] = _(
+    "OCG_V Jump March\n"
+    "2024 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpMarch2025promotionalcardDesc[] = _(
+    "OCG_V Jump March\n"
+    "2025 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpMay2016promotionalcardDesc[] = _(
+    "OCG_V Jump May\n"
+    "2016 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpMay2017promotionalcardDesc[] = _(
+    "OCG_V Jump May\n"
+    "2017 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpMay2018promotionalcardDesc[] = _(
+    "OCG_V Jump May\n"
+    "2018 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpMay2019promotionalcardDesc[] = _(
+    "OCG_V Jump May\n"
+    "2019 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpMay2020promotionalcardDesc[] = _(
+    "OCG_V Jump May\n"
+    "2020 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpMay2021promotionalcardDesc[] = _(
+    "OCG_V Jump May\n"
+    "2021 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpMay2022promotionalcardDesc[] = _(
+    "OCG_V Jump May\n"
+    "2022 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpMay2023promotionalcardDesc[] = _(
+    "OCG_V Jump May\n"
+    "2023 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpMay2024promotionalcardDesc[] = _(
+    "OCG_V Jump May\n"
+    "2024 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpMay2025promotionalcardDesc[] = _(
+    "OCG_V Jump May\n"
+    "2025 promotional\n"
+    "card.");
+
+static const u8 sOCGVJumpNovember2005promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "November 2005\n"
     "promotional card.");
 
-static const u8 sTrialsofthePharaohSpeedDuelBattleCityBoxpromotionalcardDesc[] = _(
-    "Trials of the\n"
-    "Pharaoh - Speed\n"
-    "Duel: Battle\n"
-    "City Box\n"
+static const u8 sOCGVJumpNovember2014promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "November 2014\n"
     "promotional card.");
 
-static const u8 sTrialsofthePharaohTrialsoftheKingdompromotionalcardDesc[] = _(
-    "Trials of the\n"
-    "Pharaoh - Trials\n"
-    "of the Kingdom\n"
+static const u8 sOCGVJumpNovember2015promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "November 2015\n"
     "promotional card.");
 
-static const u8 sTurboPackBoosterEightDesc[] = _(
-    "Turbo Pack:\n"
-    "Booster Eight.");
-
-static const u8 sTurboPackBoosterFiveDesc[] = _(
-    "Turbo Pack:\n"
-    "Booster Five.");
-
-static const u8 sTurboPackBoosterFourDesc[] = _(
-    "Turbo Pack:\n"
-    "Booster Four.");
-
-static const u8 sTurboPackBoosterOneDesc[] = _(
-    "Turbo Pack:\n"
-    "Booster One.");
-
-static const u8 sTurboPackBoosterSevenDesc[] = _(
-    "Turbo Pack:\n"
-    "Booster Seven.");
-
-static const u8 sTurboPackBoosterSixDesc[] = _(
-    "Turbo Pack:\n"
-    "Booster Six.");
-
-static const u8 sTurboPackBoosterThreeDesc[] = _(
-    "Turbo Pack:\n"
-    "Booster Three.");
-
-static const u8 sTurboPackBoosterTwoDesc[] = _(
-    "Turbo Pack:\n"
-    "Booster Two.");
-
-static const u8 sTwilightEditionDesc[] = _(
-    "Twilight Edition.");
-
-static const u8 sUltimateEditionDesc[] = _(
-    "Ultimate Edition.");
-
-static const u8 sUltimateEdition2Desc[] = _(
-    "Ultimate Edition\n"
-    "2.");
-
-static const u8 sValiantSmashersDesc[] = _(
-    "Valiant Smashers.");
-
-static const u8 sWCS2025LimitedPackDesc[] = _(
-    "WCS 2025 Limited\n"
-    "Pack.");
-
-static const u8 sWSJJumpPackFall2016promotionalcardDesc[] = _(
-    "WSJ Jump Pack\n"
-    "Fall 2016\n"
+static const u8 sOCGVJumpNovember2016promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "November 2016\n"
     "promotional card.");
 
-static const u8 sWSJJumpPackFall2017promotionalcardDesc[] = _(
-    "WSJ Jump Pack\n"
-    "Fall 2017\n"
+static const u8 sOCGVJumpNovember2017promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "November 2017\n"
     "promotional card.");
 
-static const u8 sWSJJumpPackFall2018promotionalcardDesc[] = _(
-    "WSJ Jump Pack\n"
-    "Fall 2018\n"
+static const u8 sOCGVJumpNovember2018promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "November 2018\n"
     "promotional card.");
 
-static const u8 sWSJJumpPackSpring2016promotionalcardDesc[] = _(
-    "WSJ Jump Pack\n"
-    "Spring 2016\n"
+static const u8 sOCGVJumpNovember2019promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "November 2019\n"
     "promotional card.");
 
-static const u8 sWSJJumpPackSpring2017promotionalcardDesc[] = _(
-    "WSJ Jump Pack\n"
-    "Spring 2017\n"
+static const u8 sOCGVJumpNovember2020promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "November 2020\n"
     "promotional card.");
 
-static const u8 sWSJJumpPackSpring2018promotionalcardDesc[] = _(
-    "WSJ Jump Pack\n"
-    "Spring 2018\n"
+static const u8 sOCGVJumpNovember2021promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "November 2021\n"
     "promotional card.");
 
-static const u8 sWSJJumpPackSpring2019promotionalcardDesc[] = _(
-    "WSJ Jump Pack\n"
-    "Spring 2019\n"
+static const u8 sOCGVJumpNovember2022promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "November 2022\n"
     "promotional card.");
 
-static const u8 sWaroftheGiantsReinforcementsDesc[] = _(
-    "War of the\n"
-    "Giants\n"
-    "Reinforcements.");
-
-static const u8 sWaroftheGiantsRound2Desc[] = _(
-    "War of the\n"
-    "Giants: Round 2.");
-
-static const u8 sWarriorsStrikeStructureDeckDesc[] = _(
-    "Warriors' Strike\n"
-    "Structure Deck.");
-
-static const u8 sWeeklyShonenJumpAlphaApril2012membershippromotionalcardDesc[] = _(
-    "Weekly Shonen\n"
-    "Jump Alpha April\n"
-    "2012 membership\n"
+static const u8 sOCGVJumpNovember2023promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "November 2023\n"
     "promotional card.");
 
-static const u8 sWeeklyShonenJumpAlphaDecember2012membershippromotionalcardDesc[] = _(
-    "Weekly Shonen\n"
-    "Jump Alpha\n"
-    "December 2012\n"
-    "membership\n"
+static const u8 sOCGVJumpNovember2024promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "November 2024\n"
     "promotional card.");
 
-static const u8 sWeeklyShonenJumpAlphaJuly2012membershippromotionalcardDesc[] = _(
-    "Weekly Shonen\n"
-    "Jump Alpha July\n"
-    "2012 membership\n"
+static const u8 sOCGVJumpOctober2004promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "October 2004\n"
     "promotional card.");
 
-static const u8 sWeeklyShonenJumpAlphaSeptember2012membershippromotionalcardDesc[] = _(
-    "Weekly Shonen\n"
-    "Jump Alpha\n"
+static const u8 sOCGVJumpOctober2006promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "October 2006\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpOctober2007promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "October 2007\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpOctober2008promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "October 2008\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpOctober2009promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "October 2009\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpOctober2010promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "October 2010\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpOctober2011promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "October 2011\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpOctober2012promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "October 2012\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpOctober2015promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "October 2015\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpOctober2016promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "October 2016\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpOctober2017promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "October 2017\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpOctober2018promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "October 2018\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpOctober2019promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "October 2019\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpOctober2020promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "October 2020\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpOctober2021promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "October 2021\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpOctober2022promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "October 2022\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpOctober2023promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "October 2023\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpOctober2024promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "October 2024\n"
+    "promotional card.");
+
+static const u8 sOCGVJumpSeptember2012promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
     "September 2012\n"
-    "membership\n"
     "promotional card.");
 
-static const u8 sWeeklyShonenJumpApril2015membershippromotionalcardDesc[] = _(
-    "Weekly Shonen\n"
-    "Jump April 2015\n"
-    "membership\n"
+static const u8 sOCGVJumpSeptember2013promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "September 2013\n"
     "promotional card.");
 
-static const u8 sWeeklyShonenJumpApril2016membershippromotionalcardDesc[] = _(
-    "Weekly Shonen\n"
-    "Jump April 2016\n"
-    "membership\n"
+static const u8 sOCGVJumpSeptember2014promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "September 2014\n"
     "promotional card.");
 
-static const u8 sWeeklyShonenJumpApril2017membershippromotionalcardDesc[] = _(
-    "Weekly Shonen\n"
-    "Jump April 2017\n"
-    "membership\n"
+static const u8 sOCGVJumpSeptember2015promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "September 2015\n"
     "promotional card.");
 
-static const u8 sWeeklyShonenJumpApril2018membershippromotionalcardDesc[] = _(
-    "Weekly Shonen\n"
-    "Jump April 2018\n"
-    "membership\n"
+static const u8 sOCGVJumpSeptember2016promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "September 2016\n"
     "promotional card.");
 
-static const u8 sWeeklyShonenJumpAugust2014membershippromotionalcardDesc[] = _(
-    "Weekly Shonen\n"
-    "Jump August 2014\n"
-    "membership\n"
+static const u8 sOCGVJumpSeptember2017promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "September 2017\n"
     "promotional card.");
 
-static const u8 sWeeklyShonenJumpDecember2013membershippromotionalcardDesc[] = _(
-    "Weekly Shonen\n"
-    "Jump December\n"
-    "2013 membership\n"
+static const u8 sOCGVJumpSeptember2018promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "September 2018\n"
     "promotional card.");
 
-static const u8 sWeeklyShonenJumpDecember2018membershippromotionalcardsDesc[] = _(
-    "Weekly Shonen\n"
-    "Jump December\n"
-    "2018 membership\n"
-    "promotional\n"
-    "cards.");
-
-static const u8 sWeeklyShonenJumpFebruary2015membershippromotionalcardDesc[] = _(
-    "Weekly Shonen\n"
-    "Jump February\n"
-    "2015 membership\n"
+static const u8 sOCGVJumpSeptember2019promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "September 2019\n"
     "promotional card.");
 
-static const u8 sWeeklyShonenJumpJanuary2016membershippromotionalcardDesc[] = _(
-    "Weekly Shonen\n"
-    "Jump January\n"
-    "2016 membership\n"
+static const u8 sOCGVJumpSeptember2020promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "September 2020\n"
     "promotional card.");
 
-static const u8 sWeeklyShonenJumpJanuary2017membershippromotionalcardDesc[] = _(
-    "Weekly Shonen\n"
-    "Jump January\n"
-    "2017 membership\n"
+static const u8 sOCGVJumpSeptember2021promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "September 2021\n"
     "promotional card.");
 
-static const u8 sWeeklyShonenJumpJanuary2018membershippromotionalcardDesc[] = _(
-    "Weekly Shonen\n"
-    "Jump January\n"
-    "2018 membership\n"
+static const u8 sOCGVJumpSeptember2022promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "September 2022\n"
     "promotional card.");
 
-static const u8 sWeeklyShonenJumpJuly2013membershippromotionalcardDesc[] = _(
-    "Weekly Shonen\n"
-    "Jump July 2013\n"
-    "membership\n"
+static const u8 sOCGVJumpSeptember2023promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "September 2023\n"
     "promotional card.");
 
-static const u8 sWeeklyShonenJumpJuly2015membershippromotionalcardDesc[] = _(
-    "Weekly Shonen\n"
-    "Jump July 2015\n"
-    "membership\n"
+static const u8 sOCGVJumpSeptember2024promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "September 2024\n"
     "promotional card.");
 
-static const u8 sWeeklyShonenJumpJuly2016membershippromotionalcardDesc[] = _(
-    "Weekly Shonen\n"
-    "Jump July 2016\n"
-    "membership\n"
+static const u8 sOCGVJumpSeptember2025promotionalcardDesc[] = _(
+    "OCG_V Jump\n"
+    "September 2025\n"
     "promotional card.");
 
-static const u8 sWeeklyShonenJumpJuly2017membershippromotionalcardDesc[] = _(
-    "Weekly Shonen\n"
-    "Jump July 2017\n"
-    "membership\n"
+static const u8 sOCGVJumpSpring2006subscriptionbonusDesc[] = _(
+    "OCG_V Jump\n"
+    "Spring 2006\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpSpring2007subscriptionbonusDesc[] = _(
+    "OCG_V Jump\n"
+    "Spring 2007\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpSpring2008subscriptionbonusDesc[] = _(
+    "OCG_V Jump\n"
+    "Spring 2008\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpSpring2009subscriptionbonusDesc[] = _(
+    "OCG_V Jump\n"
+    "Spring 2009\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpSpring2010subscriptionbonusDesc[] = _(
+    "OCG_V Jump\n"
+    "Spring 2010\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpSpring2011subscriptionbonusDesc[] = _(
+    "OCG_V Jump\n"
+    "Spring 2011\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpSpring2012subscriptionbonusDesc[] = _(
+    "OCG_V Jump\n"
+    "Spring 2012\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpSpring2013subscriptionbonusDesc[] = _(
+    "OCG_V Jump\n"
+    "Spring 2013\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpSpring2014subscriptionbonusDesc[] = _(
+    "OCG_V Jump\n"
+    "Spring 2014\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpSpring2015subscriptionbonusDesc[] = _(
+    "OCG_V Jump\n"
+    "Spring 2015\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpSpring2016subscriptionbonusDesc[] = _(
+    "OCG_V Jump\n"
+    "Spring 2016\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpSpring2017subscriptionbonusDesc[] = _(
+    "OCG_V Jump\n"
+    "Spring 2017\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpSpring2018subscriptionbonusDesc[] = _(
+    "OCG_V Jump\n"
+    "Spring 2018\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpSpring2019subscriptionbonusDesc[] = _(
+    "OCG_V Jump\n"
+    "Spring 2019\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpSpring2020subscriptionbonusDesc[] = _(
+    "OCG_V Jump\n"
+    "Spring 2020\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpSpring2021subscriptionbonusDesc[] = _(
+    "OCG_V Jump\n"
+    "Spring 2021\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpSpring2022subscriptionbonusDesc[] = _(
+    "OCG_V Jump\n"
+    "Spring 2022\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpSpring2023subscriptionbonusDesc[] = _(
+    "OCG_V Jump\n"
+    "Spring 2023\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpSpring2024subscriptionbonusDesc[] = _(
+    "OCG_V Jump\n"
+    "Spring 2024\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVJumpSpring2025subscriptionbonusDesc[] = _(
+    "OCG_V Jump\n"
+    "Spring 2025\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sOCGVol1Desc[] = _(
+    "OCG_Vol.1.");
+
+static const u8 sOCGVol2Desc[] = _(
+    "OCG_Vol.2.");
+
+static const u8 sOCGVol3Desc[] = _(
+    "OCG_Vol.3.");
+
+static const u8 sOCGVol4Desc[] = _(
+    "OCG_Vol.4.");
+
+static const u8 sOCGVol5Desc[] = _(
+    "OCG_Vol.5.");
+
+static const u8 sOCGVol6Desc[] = _(
+    "OCG_Vol.6.");
+
+static const u8 sOCGVol7Desc[] = _(
+    "OCG_Vol.7.");
+
+static const u8 sOCGWeeklyShnenJump2001Issue11promotionalcardDesc[] = _(
+    "OCG_Weekly\n"
+    "Shōnen Jump\n"
+    "2001, Issue 11\n"
     "promotional card.");
 
-static const u8 sWeeklyShonenJumpJuly2018membershippromotionalcardDesc[] = _(
-    "Weekly Shonen\n"
-    "Jump July 2018\n"
-    "membership\n"
+static const u8 sOCGWeeklyShnenJump2001Issue35promotionalcardDesc[] = _(
+    "OCG_Weekly\n"
+    "Shōnen Jump\n"
+    "2001, Issue 35\n"
     "promotional card.");
 
-static const u8 sWeeklyShonenJumpMarch2013membershippromotionalcardDesc[] = _(
-    "Weekly Shonen\n"
-    "Jump March 2013\n"
-    "membership\n"
+static const u8 sOCGWeeklyShnenJump2001Issue3637promotionalcardDesc[] = _(
+    "OCG_Weekly\n"
+    "Shōnen Jump\n"
+    "2001, Issue\n"
+    "36–37\n"
     "promotional card.");
 
-static const u8 sWeeklyShonenJumpMarch2014membershippromotionalcardDesc[] = _(
-    "Weekly Shonen\n"
-    "Jump March 2014\n"
-    "membership\n"
+static const u8 sOCGWeeklyShnenJump2002Issue45promotionalcardDesc[] = _(
+    "OCG_Weekly\n"
+    "Shōnen Jump\n"
+    "2002, Issue 4–5\n"
     "promotional card.");
 
-static const u8 sWeeklyShonenJumpNovember2014membershippromotionalcardDesc[] = _(
-    "Weekly Shonen\n"
-    "Jump November\n"
-    "2014 membership\n"
+static const u8 sOCGWeeklyShnenJump2003Issue34promotionalcardDesc[] = _(
+    "OCG_Weekly\n"
+    "Shōnen Jump\n"
+    "2003, Issue 3–4\n"
     "promotional card.");
 
-static const u8 sWeeklyShonenJumpNovember2017membershippromotionalcardDesc[] = _(
-    "Weekly Shonen\n"
-    "Jump November\n"
-    "2017 membership\n"
+static const u8 sOCGWeeklyShnenJump2006Issue2promotionalcardDesc[] = _(
+    "OCG_Weekly\n"
+    "Shōnen Jump\n"
+    "2006, Issue 2\n"
     "promotional card.");
 
-static const u8 sWeeklyShonenJumpNovember2018membershippromotionalcardDesc[] = _(
-    "Weekly Shonen\n"
-    "Jump November\n"
-    "2018 membership\n"
+static const u8 sOCGWeeklyShnenJump2006Issue35promotionalcardDesc[] = _(
+    "OCG_Weekly\n"
+    "Shōnen Jump\n"
+    "2006, Issue 35\n"
     "promotional card.");
 
-static const u8 sWeeklyShonenJumpOctober2015membershippromotionalcardDesc[] = _(
-    "Weekly Shonen\n"
-    "Jump October\n"
-    "2015 membership\n"
+static const u8 sOCGWeeklyShnenJump2007Issue2promotionalcardDesc[] = _(
+    "OCG_Weekly\n"
+    "Shōnen Jump\n"
+    "2007, Issue 2\n"
     "promotional card.");
 
-static const u8 sWeeklyShonenJumpOctober2016membershippromotionalcardDesc[] = _(
-    "Weekly Shonen\n"
-    "Jump October\n"
-    "2016 membership\n"
+static const u8 sOCGWeeklyShnenJump2007Issue35promotionalcardDesc[] = _(
+    "OCG_Weekly\n"
+    "Shōnen Jump\n"
+    "2007, Issue 35\n"
     "promotional card.");
 
-static const u8 sWeeklyShonenJumpSeptember2013membershippromotionalcardDesc[] = _(
-    "Weekly Shonen\n"
-    "Jump September\n"
-    "2013 membership\n"
+static const u8 sOCGWeeklyShnenJump2008Issue18promotionalcardDesc[] = _(
+    "OCG_Weekly\n"
+    "Shōnen Jump\n"
+    "2008, Issue 18\n"
     "promotional card.");
 
-static const u8 sWildSurvivorsDesc[] = _(
-    "Wild Survivors.");
+static const u8 sOCGWeeklyShnenJump2008Issue3promotionalcardDesc[] = _(
+    "OCG_Weekly\n"
+    "Shōnen Jump\n"
+    "2008, Issue 3\n"
+    "promotional card.");
 
-static const u8 sWingRaidersDesc[] = _(
-    "Wing Raiders.");
+static const u8 sOCGWeeklyShnenJump2008Issue36promotionalcardDesc[] = _(
+    "OCG_Weekly\n"
+    "Shōnen Jump\n"
+    "2008, Issue 36\n"
+    "promotional card.");
 
-static const u8 sWorldChampionship2010CardPackDesc[] = _(
-    "World\n"
-    "Championship\n"
-    "2010 Card Pack.");
+static const u8 sOCGWeeklyShnenJump2009Issue3promotionalcardDesc[] = _(
+    "OCG_Weekly\n"
+    "Shōnen Jump\n"
+    "2009, Issue 3\n"
+    "promotional card.");
 
-static const u8 sWorldChampionship2011CardPackDesc[] = _(
-    "World\n"
-    "Championship\n"
-    "2011 Card Pack.");
+static const u8 sOCGWeeklyShnenJump2009Issue36promotionalcardDesc[] = _(
+    "OCG_Weekly\n"
+    "Shōnen Jump\n"
+    "2009, Issue 36\n"
+    "promotional card.");
 
-static const u8 sWorldSuperstarsDesc[] = _(
-    "World Superstars.");
+static const u8 sOCGWeeklyShnenJump2010Issue2promotionalcardDesc[] = _(
+    "OCG_Weekly\n"
+    "Shōnen Jump\n"
+    "2010, Issue 2\n"
+    "promotional card.");
 
-static const u8 sXSaberPowerUpDesc[] = _(
-    "X-Saber Power-Up.");
+static const u8 sOCGWeeklyShnenJump2010Issue3637promotionalcardDesc[] = _(
+    "OCG_Weekly\n"
+    "Shōnen Jump\n"
+    "2010, Issue\n"
+    "36–37\n"
+    "promotional card.");
 
-static const u8 sYuGiOh3DBondsBeyondTimeDVDpromotionalcardDesc[] = _(
-    "Yu-Gi-Oh! 3D\n"
+static const u8 sOCGWeeklyShnenJump2011Issue2promotionalcardDesc[] = _(
+    "OCG_Weekly\n"
+    "Shōnen Jump\n"
+    "2011, Issue 2\n"
+    "promotional card.");
+
+static const u8 sOCGWeeklyShnenJump2011Issue3536promotionalcardDesc[] = _(
+    "OCG_Weekly\n"
+    "Shōnen Jump\n"
+    "2011, Issue\n"
+    "35–36\n"
+    "promotional card.");
+
+static const u8 sOCGWeeklyShnenJump2012Issue2promotionalcardDesc[] = _(
+    "OCG_Weekly\n"
+    "Shōnen Jump\n"
+    "2012, Issue 2\n"
+    "promotional card.");
+
+static const u8 sOCGWeeklyShnenJump2012Issue35promotionalcardDesc[] = _(
+    "OCG_Weekly\n"
+    "Shōnen Jump\n"
+    "2012, Issue 35\n"
+    "promotional card.");
+
+static const u8 sOCGWeeklyShnenJump2013Issue36promotionalcardDesc[] = _(
+    "OCG_Weekly\n"
+    "Shōnen Jump\n"
+    "2013, Issue 36\n"
+    "promotional card.");
+
+static const u8 sOCGWeeklyShnenJump2013Issue45promotionalcardDesc[] = _(
+    "OCG_Weekly\n"
+    "Shōnen Jump\n"
+    "2013, Issue 4–5\n"
+    "promotional card.");
+
+static const u8 sOCGWeeklyShnenJump2014Issue3promotionalcardDesc[] = _(
+    "OCG_Weekly\n"
+    "Shōnen Jump\n"
+    "2014, Issue 3\n"
+    "promotional card.");
+
+static const u8 sOCGWeeklyShnenJump2014Issue36promotionalcardDesc[] = _(
+    "OCG_Weekly\n"
+    "Shōnen Jump\n"
+    "2014, Issue 36\n"
+    "promotional card.");
+
+static const u8 sOCGWeeklyShnenJump2015Issue3promotionalcardDesc[] = _(
+    "OCG_Weekly\n"
+    "Shōnen Jump\n"
+    "2015, Issue 3\n"
+    "promotional card.");
+
+static const u8 sOCGWeeklyShnenJump2015Issue34promotionalcardDesc[] = _(
+    "OCG_Weekly\n"
+    "Shōnen Jump\n"
+    "2015, Issue 34\n"
+    "promotional card.");
+
+static const u8 sOCGWeeklyShnenJump2016Issue19promotionalcardDesc[] = _(
+    "OCG_Weekly\n"
+    "Shōnen Jump\n"
+    "2016, Issue 19\n"
+    "promotional card.");
+
+static const u8 sOCGWeeklyShnenJump2017Issue2122promotionalcardDesc[] = _(
+    "OCG_Weekly\n"
+    "Shōnen Jump\n"
+    "2017, Issue\n"
+    "21–22\n"
+    "promotional card.");
+
+static const u8 sOCGWeeklyShnenJump2018Issue2122promotionalcardDesc[] = _(
+    "OCG_Weekly\n"
+    "Shōnen Jump\n"
+    "2018, Issue\n"
+    "21–22\n"
+    "promotional card.");
+
+static const u8 sOCGWeeklyShnenJump2019Issue2223promotionalcardDesc[] = _(
+    "OCG_Weekly\n"
+    "Shōnen Jump\n"
+    "2019, Issue\n"
+    "22–23\n"
+    "promotional card.");
+
+static const u8 sOCGWinnersPack2025Vol1Desc[] = _(
+    "OCG_Winner's\n"
+    "Pack 2025 Vol.1.");
+
+static const u8 sOCGWinnersPack2025Vol2Desc[] = _(
+    "OCG_Winner's\n"
+    "Pack 2025 Vol.2.");
+
+static const u8 sOCGWitchcrafterDuelSetDesc[] = _(
+    "OCG_Witchcrafter\n"
+    "Duel Set.");
+
+static const u8 sOCGWorldPremierePack2020Desc[] = _(
+    "OCG_World\n"
+    "Premiere Pack\n"
+    "2020.");
+
+static const u8 sOCGWorldPremierePack2021Desc[] = _(
+    "OCG_World\n"
+    "Premiere Pack\n"
+    "2021.");
+
+static const u8 sOCGWorldPremierePack2022Desc[] = _(
+    "OCG_World\n"
+    "Premiere Pack\n"
+    "2022.");
+
+static const u8 sOCGWorldPremierePack2023Desc[] = _(
+    "OCG_World\n"
+    "Premiere Pack\n"
+    "2023.");
+
+static const u8 sOCGWorldPremierePack2024Desc[] = _(
+    "OCG_World\n"
+    "Premiere Pack\n"
+    "2024.");
+
+static const u8 sOCGWorldRankingPromosSeries1Desc[] = _(
+    "OCG_World\n"
+    "Ranking Promos:\n"
+    "Series 1.");
+
+static const u8 sOCGWorldRankingPromosSeries2Desc[] = _(
+    "OCG_World\n"
+    "Ranking Promos:\n"
+    "Series 2.");
+
+static const u8 sOCGWorldRankingPromosSeries3Desc[] = _(
+    "OCG_World\n"
+    "Ranking Promos:\n"
+    "Series 3.");
+
+static const u8 sOCGWorldRankingPromosSeries4Desc[] = _(
+    "OCG_World\n"
+    "Ranking Promos:\n"
+    "Series 4.");
+
+static const u8 sOCGWorldRankingPromosSeries5Desc[] = _(
+    "OCG_World\n"
+    "Ranking Promos:\n"
+    "Series 5.");
+
+static const u8 sOCGWorldRankingPromosSeries6Desc[] = _(
+    "OCG_World\n"
+    "Ranking Promos:\n"
+    "Series 6.");
+
+static const u8 sOCGWorldRankingPromosSeries7Desc[] = _(
+    "OCG_World\n"
+    "Ranking Promos:\n"
+    "Series 7.");
+
+static const u8 sOCGWorldRankingPromosSeries8Desc[] = _(
+    "OCG_World\n"
+    "Ranking Promos:\n"
+    "Series 8.");
+
+static const u8 sOCGWorldRankingPromosSeries9Desc[] = _(
+    "OCG_World\n"
+    "Ranking Promos:\n"
+    "Series 9.");
+
+static const u8 sOCGYuGiOh3DBondsBeyondTimeBluraypromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh! 3D\n"
+    "Bonds Beyond\n"
+    "Time Blu-ray\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOh3DBondsBeyondTimeDVDpromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh! 3D\n"
     "Bonds Beyond\n"
     "Time DVD\n"
     "promotional card.");
 
-static const u8 sYuGiOh3DBondsBeyondTimeMoviePackDesc[] = _(
-    "Yu-Gi-Oh! 3D\n"
+static const u8 sOCGYuGiOh3DBondsBeyondTimeMoviePackDesc[] = _(
+    "OCG_Yu-Gi-Oh! 3D\n"
     "Bonds Beyond\n"
     "Time Movie Pack.");
 
-static const u8 sYuGiOh3DBondsBeyondTimeTheaterdistributioncardDesc[] = _(
-    "Yu-Gi-Oh! 3D\n"
+static const u8 sOCGYuGiOh3DBondsBeyondTimeTheaterdistributioncardDesc[] = _(
+    "OCG_Yu-Gi-Oh! 3D\n"
     "Bonds Beyond\n"
     "Time Theater\n"
     "distribution\n"
     "card.");
 
-static const u8 sYuGiOh5DsDuelTranserpromotionalcardsDesc[] = _(
-    "Yu-Gi-Oh! 5D's\n"
-    "Duel Transer\n"
+static const u8 sOCGYuGiOh5DsDuelTranserGenerateGuidepromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "5D's Duel\n"
+    "Transer Generate\n"
+    "Guide\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOh5DsDuelTranserpromotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "5D's Duel\n"
+    "Transer\n"
     "promotional\n"
     "cards.");
 
-static const u8 sYuGiOh5DsStardustAcceleratorpromotionalcardsDesc[] = _(
-    "Yu-Gi-Oh! 5D's\n"
-    "Stardust\n"
+static const u8 sOCGYuGiOh5DsTagForce4CompleteTagDuelpromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "5D's Tag Force 4\n"
+    "Complete Tag\n"
+    "Duel promotional\n"
+    "card.");
+
+static const u8 sOCGYuGiOh5DsTagForce4promotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "5D's Tag Force 4\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGYuGiOh5DsTagForce5AdvanceTagDuelpromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "5D's Tag Force 5\n"
+    "Advance Tag Duel\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOh5DsTagForce5promotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "5D's Tag Force 5\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGYuGiOh5DsTagForce6LimitOverTagDuelpromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "5D's Tag Force 6\n"
+    "Limit Over Tag\n"
+    "Duel promotional\n"
+    "card.");
+
+static const u8 sOCGYuGiOh5DsTagForce6promotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "5D's Tag Force 6\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGYuGiOh5DsVolume1promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "5D's Volume 1\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOh5DsVolume2promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "5D's Volume 2\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOh5DsVolume3promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "5D's Volume 3\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOh5DsVolume4promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "5D's Volume 4\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOh5DsVolume5promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "5D's Volume 5\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOh5DsVolume6promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "5D's Volume 6\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOh5DsVolume7promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "5D's Volume 7\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOh5DsVolume8promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "5D's Volume 8\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOh5DsVolume9promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "5D's Volume 9\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOh5DsWheelieBreakersPerfectRidepromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "5D's Wheelie\n"
+    "Breakers Perfect\n"
+    "Ride promotional\n"
+    "card.");
+
+static const u8 sOCGYuGiOh5DsWheelieBreakerspromotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "5D's Wheelie\n"
+    "Breakers\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGYuGiOh5DsWorldChampionship2009StardustAcceleratorVictoryRoadpromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "5D's World\n"
+    "Championship\n"
+    "2009: Stardust\n"
     "Accelerator\n"
-    "promotional\n"
-    "cards.");
-
-static const u8 sYuGiOh5DsTagForce4promotionalcardsDesc[] = _(
-    "Yu-Gi-Oh! 5D's\n"
-    "Tag Force 4\n"
-    "promotional\n"
-    "cards.");
-
-static const u8 sYuGiOh5DsTagForce5PromotionalCardsDesc[] = _(
-    "Yu-Gi-Oh! 5D's\n"
-    "Tag Force 5\n"
-    "Promotional\n"
-    "Cards.");
-
-static const u8 sYuGiOh5DsTagForce5promotionalcardsDesc[] = _(
-    "Yu-Gi-Oh! 5D's\n"
-    "Tag Force 5\n"
-    "promotional\n"
-    "cards.");
-
-static const u8 sYuGiOh5DsVolume1promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! 5D's\n"
-    "Volume 1\n"
+    "Victory Road\n"
     "promotional card.");
 
-static const u8 sYuGiOh5DsVolume2promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! 5D's\n"
-    "Volume 2\n"
-    "promotional card.");
-
-static const u8 sYuGiOh5DsVolume3promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! 5D's\n"
-    "Volume 3\n"
-    "promotional card.");
-
-static const u8 sYuGiOh5DsVolume4promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! 5D's\n"
-    "Volume 4\n"
-    "promotional card.");
-
-static const u8 sYuGiOh5DsVolume5promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! 5D's\n"
-    "Volume 5\n"
-    "promotional card.");
-
-static const u8 sYuGiOh5DsVolume6promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! 5D's\n"
-    "Volume 6\n"
-    "promotional card.");
-
-static const u8 sYuGiOh5DsVolume7promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! 5D's\n"
-    "Volume 7\n"
-    "promotional card.");
-
-static const u8 sYuGiOh5DsVolume9promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! 5D's\n"
-    "Volume 9\n"
-    "promotional card.");
-
-static const u8 sYuGiOh5DsWheelieBreakersPromotionalCardsDesc[] = _(
-    "Yu-Gi-Oh! 5D's\n"
-    "Wheelie Breakers\n"
-    "Promotional\n"
-    "Cards.");
-
-static const u8 sYuGiOh5DsWorldChampionship2009StardustAcceleratorpromotionalcardsDesc[] = _(
-    "Yu-Gi-Oh! 5D's\n"
-    "World\n"
+static const u8 sOCGYuGiOh5DsWorldChampionship2009StardustAcceleratorpromotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "5D's World\n"
     "Championship\n"
     "2009: Stardust\n"
     "Accelerator\n"
     "promotional\n"
     "cards.");
 
-static const u8 sYuGiOh5DsWorldChampionship2010ReverseofArcadiapromotionalcardsDesc[] = _(
-    "Yu-Gi-Oh! 5D's\n"
-    "World\n"
+static const u8 sOCGYuGiOh5DsWorldChampionship2010ReverseofArcadiaPerfectDuelpromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "5D's World\n"
+    "Championship\n"
+    "2010: Reverse of\n"
+    "Arcadia Perfect\n"
+    "Duel promotional\n"
+    "card.");
+
+static const u8 sOCGYuGiOh5DsWorldChampionship2010ReverseofArcadiapromotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "5D's World\n"
     "Championship\n"
     "2010: Reverse of\n"
     "Arcadia\n"
     "promotional\n"
     "cards.");
 
-static const u8 sYuGiOh5DsWorldChampionship2011OvertheNexuspromotionalcardsDesc[] = _(
-    "Yu-Gi-Oh! 5D's\n"
-    "World\n"
+static const u8 sOCGYuGiOh5DsWorldChampionship2011OvertheNexusRoadtoVictorypromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "5D's World\n"
+    "Championship\n"
+    "2011: Over the\n"
+    "Nexus Road to\n"
+    "Victory\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOh5DsWorldChampionship2011OvertheNexuspromotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "5D's World\n"
     "Championship\n"
     "2011: Over the\n"
     "Nexus\n"
     "promotional\n"
     "cards.");
 
-static const u8 sYuGiOh5Dsvolume8promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! 5D's\n"
-    "volume 8\n"
+static const u8 sOCGYuGiOhARCVTagForceSpecialLegendTagGuidepromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "ARC-V Tag Force\n"
+    "Special Legend\n"
+    "Tag Guide\n"
     "promotional card.");
 
-static const u8 sYuGiOh7TrialstoGloryWorldChampionshipTournament2005promotionalcardsDesc[] = _(
-    "Yu-Gi-Oh! 7\n"
-    "Trials to Glory:\n"
-    "World\n"
-    "Championship\n"
-    "Tournament 2005\n"
-    "promotional\n"
-    "cards.");
-
-static const u8 sYuGiOhARCVVolume1promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! ARC-V\n"
+static const u8 sOCGYuGiOhARCVTheStrongestDuelistYuyaVolume1promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "ARC-V The\n"
+    "Strongest\n"
+    "Duelist Yuya!!\n"
     "Volume 1\n"
     "promotional card.");
 
-static const u8 sYuGiOhARCVVolume2promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! ARC-V\n"
+static const u8 sOCGYuGiOhARCVTheStrongestDuelistYuyaVolume2promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "ARC-V The\n"
+    "Strongest\n"
+    "Duelist Yuya!!\n"
     "Volume 2\n"
     "promotional card.");
 
-static const u8 sYuGiOhARCVVolume3promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! ARC-V\n"
-    "Volume 3\n"
+static const u8 sOCGYuGiOhARCVVolume1promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "ARC-V Volume 1\n"
     "promotional card.");
 
-static const u8 sYuGiOhARCVVolume4promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! ARC-V\n"
-    "Volume 4\n"
+static const u8 sOCGYuGiOhARCVVolume2promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "ARC-V Volume 2\n"
     "promotional card.");
 
-static const u8 sYuGiOhARCVVolume5promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! ARC-V\n"
-    "Volume 5\n"
+static const u8 sOCGYuGiOhARCVVolume3promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "ARC-V Volume 3\n"
     "promotional card.");
 
-static const u8 sYuGiOhARCVVolume6promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! ARC-V\n"
-    "Volume 6\n"
+static const u8 sOCGYuGiOhARCVVolume4promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "ARC-V Volume 4\n"
     "promotional card.");
 
-static const u8 sYuGiOhARCVVolume7promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! ARC-V\n"
-    "Volume 7\n"
+static const u8 sOCGYuGiOhARCVVolume5promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "ARC-V Volume 5\n"
     "promotional card.");
 
-static const u8 sYuGiOhAdventCalendarDesc[] = _(
-    "Yu-Gi-Oh! Advent\n"
-    "Calendar.");
+static const u8 sOCGYuGiOhARCVVolume6promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "ARC-V Volume 6\n"
+    "promotional card.");
 
-static const u8 sYuGiOhAdventCalendar2018Desc[] = _(
-    "Yu-Gi-Oh! Advent\n"
-    "Calendar (2018).");
+static const u8 sOCGYuGiOhARCVVolume7promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "ARC-V Volume 7\n"
+    "promotional card.");
 
-static const u8 sYuGiOhAdventCalendar2019Desc[] = _(
-    "Yu-Gi-Oh! Advent\n"
-    "Calendar (2019).");
+static const u8 sOCGYuGiOhCapsuleMonsterColiseumGuideBookpromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Capsule Monster\n"
+    "Coliseum Guide\n"
+    "Book promotional\n"
+    "card.");
 
-static const u8 sYuGiOhCapsuleMonsterColiseumpromotionalcardsDesc[] = _(
-    "Yu-Gi-Oh!\n"
+static const u8 sOCGYuGiOhCapsuleMonsterColiseumpromotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
     "Capsule Monster\n"
     "Coliseum\n"
     "promotional\n"
     "cards.");
 
-static const u8 sYuGiOhChampionshipSeries2010PrizeCardsDesc[] = _(
-    "Yu-Gi-Oh!\n"
-    "Championship\n"
-    "Series 2010\n"
-    "Prize Cards.");
+static const u8 sOCGYuGiOhCardGame25thAnniversaryBlueEyesWhiteDragonUkiyoeStyleLimitedOCGCardwithFramedStampSetDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Card Game 25th\n"
+    "Anniversary\n"
+    ""Blue-Eyes White\n"
+    "Dragon" Ukiyo-e\n"
+    "Style Limited\n"
+    "OCG Card with\n"
+    "Framed Stamp Set.");
 
-static const u8 sYuGiOhChampionshipSeries2011PrizeCardDesc[] = _(
-    "Yu-Gi-Oh!\n"
-    "Championship\n"
-    "Series 2011\n"
-    "Prize Card.");
-
-static const u8 sYuGiOhChampionshipSeries2012PrizeCardDesc[] = _(
-    "Yu-Gi-Oh!\n"
-    "Championship\n"
-    "Series 2012\n"
-    "Prize Card.");
-
-static const u8 sYuGiOhChampionshipSeries2013PrizeCardDesc[] = _(
-    "Yu-Gi-Oh!\n"
-    "Championship\n"
-    "Series 2013\n"
-    "Prize Card.");
-
-static const u8 sYuGiOhChampionshipSeries2014PrizeCardDesc[] = _(
-    "Yu-Gi-Oh!\n"
-    "Championship\n"
-    "Series 2014\n"
-    "Prize Card.");
-
-static const u8 sYuGiOhChampionshipSeries2015PrizeCardDesc[] = _(
-    "Yu-Gi-Oh!\n"
-    "Championship\n"
-    "Series 2015\n"
-    "Prize Card.");
-
-static const u8 sYuGiOhChampionshipSeries2016PrizeCardDesc[] = _(
-    "Yu-Gi-Oh!\n"
-    "Championship\n"
-    "Series 2016\n"
-    "Prize Card.");
-
-static const u8 sYuGiOhChampionshipSeries2017prizecardDesc[] = _(
-    "Yu-Gi-Oh!\n"
-    "Championship\n"
-    "Series 2017\n"
-    "prize card.");
-
-static const u8 sYuGiOhChampionshipSeries2018prizecardDesc[] = _(
-    "Yu-Gi-Oh!\n"
-    "Championship\n"
-    "Series 2018\n"
-    "prize card.");
-
-static const u8 sYuGiOhChampionshipSeries2019prizecardDesc[] = _(
-    "Yu-Gi-Oh!\n"
-    "Championship\n"
-    "Series 2019\n"
-    "prize card.");
-
-static const u8 sYuGiOhChampionshipSeries2022prizecardDesc[] = _(
-    "Yu-Gi-Oh!\n"
-    "Championship\n"
-    "Series 2022\n"
-    "prize card.");
-
-static const u8 sYuGiOhChampionshipSeries2023prizecardDesc[] = _(
-    "Yu-Gi-Oh!\n"
-    "Championship\n"
-    "Series 2023\n"
-    "prize card.");
-
-static const u8 sYuGiOhDarkDuelStoriespromotionalcardsDesc[] = _(
-    "Yu-Gi-Oh! Dark\n"
-    "Duel Stories\n"
-    "promotional\n"
-    "cards.");
-
-static const u8 sYuGiOhDayApril2019promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! Day\n"
-    "April 2019\n"
+static const u8 sOCGYuGiOhCardGameArtWorkspromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Card Game Art\n"
+    "Works\n"
     "promotional card.");
 
-static const u8 sYuGiOhDestinyBoardTravelerpromotionalcardsDesc[] = _(
-    "Yu-Gi-Oh!\n"
-    "Destiny Board\n"
-    "Traveler\n"
+static const u8 sOCGYuGiOhCardGamex7Eleven2024CollaborationCampaignDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Card Game x\n"
+    "7-Eleven 2024\n"
+    "Collaboration\n"
+    "Campaign.");
+
+static const u8 sOCGYuGiOhCardGamex7ElevenCollaborationCampaignDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Card Game x\n"
+    "7-Eleven\n"
+    "Collaboration\n"
+    "Campaign.");
+
+static const u8 sOCGYuGiOhChampionshipSeriesJapan2019prizecardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Championship\n"
+    "Series Japan\n"
+    "2019 prize card.");
+
+static const u8 sOCGYuGiOhChampionshipSeriesJapan2023prizecardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Championship\n"
+    "Series Japan\n"
+    "2023 prize card.");
+
+static const u8 sOCGYuGiOhChampionshipSeriesJapan2024prizecardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Championship\n"
+    "Series Japan\n"
+    "2024 prize card.");
+
+static const u8 sOCGYuGiOhChampionshipSeriesJapan2025prizecardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Championship\n"
+    "Series Japan\n"
+    "2025 prize cards.");
+
+static const u8 sOCGYuGiOhCharacterGuidebookMillenniumBookpromotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Character\n"
+    "Guidebook:\n"
+    "Millennium Book\n"
     "promotional\n"
     "cards.");
 
-static const u8 sYuGiOhDoublePackpromotionalcardsDesc[] = _(
-    "Yu-Gi-Oh! Double\n"
-    "Pack promotional\n"
-    "cards.");
-
-static const u8 sYuGiOhElementalHeroCollection1Desc[] = _(
-    "Yu-Gi-Oh!\n"
-    "Elemental Hero\n"
-    "Collection 1.");
-
-static const u8 sYuGiOhElementalHeroCollection2Desc[] = _(
-    "Yu-Gi-Oh!\n"
-    "Elemental Hero\n"
-    "Collection 2.");
-
-static const u8 sYuGiOhForbiddenMemoriespromotionalcardsDesc[] = _(
-    "Yu-Gi-Oh!\n"
-    "Forbidden\n"
-    "Memories\n"
+static const u8 sOCGYuGiOhCharacterGuidebookTheGospelofTruthpromotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Character\n"
+    "Guidebook: The\n"
+    "Gospel of Truth\n"
     "promotional\n"
     "cards.");
 
-static const u8 sYuGiOhGXCardAlmanacpromotionalcardsDesc[] = _(
-    "Yu-Gi-Oh! GX\n"
+static const u8 sOCGYuGiOhChipsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Chips.");
+
+static const u8 sOCGYuGiOhDuelLinksLegendDeckGuideYamiYugiVSSetoKaibapromotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Links\n"
+    "Legend Deck\n"
+    "Guide: Yami Yugi\n"
+    "VS Seto Kaiba\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGYuGiOhDuelMonsters4BattleofGreatDuelistGameGuide1promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters 4:\n"
+    "Battle of Great\n"
+    "Duelist Game\n"
+    "Guide 1\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhDuelMonsters4BattleofGreatDuelistGameGuide2promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters 4:\n"
+    "Battle of Great\n"
+    "Duelist Game\n"
+    "Guide 2\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhDuelMonsters4BattleofGreatDuelistJonouchiDeckpromotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters 4:\n"
+    "Battle of Great\n"
+    "Duelist:\n"
+    "Jonouchi Deck\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGYuGiOhDuelMonsters4BattleofGreatDuelistKaibaDeckpromotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters 4:\n"
+    "Battle of Great\n"
+    "Duelist: Kaiba\n"
+    "Deck promotional\n"
+    "cards.");
+
+static const u8 sOCGYuGiOhDuelMonsters4BattleofGreatDuelistYugiDeckpromotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters 4:\n"
+    "Battle of Great\n"
+    "Duelist: Yugi\n"
+    "Deck promotional\n"
+    "cards.");
+
+static const u8 sOCGYuGiOhDuelMonsters5Expert1FirstVolumepromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters 5:\n"
+    "Expert 1 First\n"
+    "Volume\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhDuelMonsters5Expert1SecondVolumepromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters 5:\n"
+    "Expert 1 Second\n"
+    "Volume\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhDuelMonsters5Expert1promotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters 5:\n"
+    "Expert 1\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGYuGiOhDuelMonsters6Expert2FirstVolumepromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters 6:\n"
+    "Expert 2 First\n"
+    "Volume\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhDuelMonsters6Expert2SecondVolumepromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters 6:\n"
+    "Expert 2 Second\n"
+    "Volume\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhDuelMonsters6Expert2preorderpromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters 6:\n"
+    "Expert 2 pre-\n"
+    "order\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhDuelMonsters6Expert2promotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters 6:\n"
+    "Expert 2\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGYuGiOhDuelMonsters7TheDuelcityLegendGameGuide1promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters 7:\n"
+    "The Duelcity\n"
+    "Legend Game\n"
+    "Guide 1\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhDuelMonsters7TheDuelcityLegendGameGuide2promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters 7:\n"
+    "The Duelcity\n"
+    "Legend Game\n"
+    "Guide 2\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhDuelMonsters7TheDuelcityLegendpreorderpromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters 7:\n"
+    "The Duelcity\n"
+    "Legend pre-order\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhDuelMonsters7TheDuelcityLegendpromotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters 7:\n"
+    "The Duelcity\n"
+    "Legend\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGYuGiOhDuelMonsters8ReshefofDestructionGameGuide1promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters 8:\n"
+    "Reshef of\n"
+    "Destruction Game\n"
+    "Guide 1\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhDuelMonsters8ReshefofDestructionGameGuide2promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters 8:\n"
+    "Reshef of\n"
+    "Destruction Game\n"
+    "Guide 2\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhDuelMonsters8ReshefofDestructionpreorderpromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters 8:\n"
+    "Reshef of\n"
+    "Destruction pre-\n"
+    "order\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhDuelMonsters8ReshefofDestructionpromotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters 8:\n"
+    "Reshef of\n"
+    "Destruction\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGYuGiOhDuelMonstersAnimeCompleteGuideMillenniumMemorypromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters\n"
+    "Anime Complete\n"
+    "Guide:\n"
+    "Millennium\n"
+    "Memory\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhDuelMonstersExpert3GameGuidepromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters\n"
+    "Expert 3 Game\n"
+    "Guide\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhDuelMonstersExpert3promotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters\n"
+    "Expert 3\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGYuGiOhDuelMonstersIIDarkDuelStoriesDuelistLegendinTokyoDomeattendancecardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters\n"
+    "II: Dark Duel\n"
+    "Stories Duelist\n"
+    "Legend in Tokyo\n"
+    "Dome attendance\n"
+    "cards.");
+
+static const u8 sOCGYuGiOhDuelMonstersIIDarkDuelStoriesDuelistLegendinTokyoDomeparticipationcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters\n"
+    "II: Dark Duel\n"
+    "Stories Duelist\n"
+    "Legend in Tokyo\n"
+    "Dome\n"
+    "participation\n"
+    "cards.");
+
+static const u8 sOCGYuGiOhDuelMonstersIIDarkDuelStoriesDuelistLegendinTokyoDomeprizecardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters\n"
+    "II: Dark Duel\n"
+    "Stories Duelist\n"
+    "Legend in Tokyo\n"
+    "Dome prize cards.");
+
+static const u8 sOCGYuGiOhDuelMonstersIIDarkDuelStoriesGameGuide1promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters\n"
+    "II: Dark Duel\n"
+    "Stories Game\n"
+    "Guide 1\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhDuelMonstersIIDarkDuelStoriesGameGuide2promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters\n"
+    "II: Dark Duel\n"
+    "Stories Game\n"
+    "Guide 2\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhDuelMonstersIIDarkDuelStoriespromotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters\n"
+    "II: Dark Duel\n"
+    "Stories\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGYuGiOhDuelMonstersIIITriHolyGodAdventGameGuide1promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters\n"
+    "III: Tri-Holy\n"
+    "God Advent Game\n"
+    "Guide 1\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhDuelMonstersIIITriHolyGodAdventGameGuide2promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters\n"
+    "III: Tri-Holy\n"
+    "God Advent Game\n"
+    "Guide 2\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhDuelMonstersIIITriHolyGodAdventOfficialTournamentStreetDuelLegendofPowerprizecardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters\n"
+    "III: Tri-Holy\n"
+    "God Advent\n"
+    "Official\n"
+    "Tournament\n"
+    "Street Duel\n"
+    "Legend of Power\n"
+    "prize card.");
+
+static const u8 sOCGYuGiOhDuelMonstersIIITriHolyGodAdventpreorderpromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters\n"
+    "III: Tri-Holy\n"
+    "God Advent pre-\n"
+    "order\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhDuelMonstersIIITriHolyGodAdventpromotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters\n"
+    "III: Tri-Holy\n"
+    "God Advent\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGYuGiOhDuelMonstersInternational2GameGuidepromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters\n"
+    "International 2\n"
+    "Game Guide\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhDuelMonstersInternational2promotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters\n"
+    "International 2\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGYuGiOhDuelMonstersInternationalWorldwideEditionGameGuidepromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters\n"
+    "International:\n"
+    "Worldwide\n"
+    "Edition Game\n"
+    "Guide\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhDuelMonstersMillenniumScenesBlurayDVDpromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters\n"
+    "Millennium\n"
+    "Scenes Blu-ray &\n"
+    "DVD promotional\n"
+    "card.");
+
+static const u8 sOCGYuGiOhDuelMonstersNationalTournamentattendancecardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters\n"
+    "National\n"
+    "Tournament\n"
+    "attendance card.");
+
+static const u8 sOCGYuGiOhDuelMonstersNationalTournamentprizecardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters\n"
+    "National\n"
+    "Tournament prize\n"
+    "cards.");
+
+static const u8 sOCGYuGiOhDuelMonstersSaikyoCardBattlepromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters\n"
+    "Saikyo Card\n"
+    "Battle\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhDuelMonstersTheLegendofDuelistQuarterCenturyattendancecardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Monsters:\n"
+    "The Legend of\n"
+    "Duelist Quarter\n"
+    "Century\n"
+    "attendance cards.");
+
+static const u8 sOCGYuGiOhDuelTerminalMasterGuidepromotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duel Terminal\n"
+    "Master Guide\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGYuGiOhDuelistandMonstersMemorialDiscBlurayDVDpromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Duelist and\n"
+    "Monsters\n"
+    "Memorial Disc\n"
+    "Blu-ray & DVD\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhEarlyDaysCollectionpromotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Early Days\n"
+    "Collection\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGYuGiOhGXCardAlmanacpromotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh! GX\n"
     "Card Almanac\n"
     "promotional\n"
     "cards.");
 
-static const u8 sYuGiOhGXDuelAcademypromotionalcardsDesc[] = _(
-    "Yu-Gi-Oh! GX\n"
+static const u8 sOCGYuGiOhGXDuelAcademyGameGuidepromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh! GX\n"
+    "Duel Academy\n"
+    "Game Guide\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhGXDuelAcademypromotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh! GX\n"
     "Duel Academy\n"
     "promotional\n"
     "cards.");
 
-static const u8 sYuGiOhGXSpecialEditionDesc[] = _(
-    "Yu-Gi-Oh! GX\n"
-    "Special Edition.");
+static const u8 sOCGYuGiOhGXSpiritCallerGameGuidepromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh! GX\n"
+    "Spirit Caller\n"
+    "Game Guide\n"
+    "promotional card.");
 
-static const u8 sYuGiOhGXSpiritCallerpromotionalcardsDesc[] = _(
-    "Yu-Gi-Oh! GX\n"
+static const u8 sOCGYuGiOhGXSpiritCallerpromotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh! GX\n"
     "Spirit Caller\n"
     "promotional\n"
     "cards.");
 
-static const u8 sYuGiOhGXTagForce2promotionalcardsDesc[] = _(
-    "Yu-Gi-Oh! GX Tag\n"
-    "Force 2\n"
+static const u8 sOCGYuGiOhGXTagForce2MasterTagDuelpromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh! GX\n"
+    "Tag Force 2\n"
+    "Master Tag Duel\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhGXTagForce2promotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh! GX\n"
+    "Tag Force 2\n"
     "promotional\n"
     "cards.");
 
-static const u8 sYuGiOhGXTagForce3promotionalcardsDesc[] = _(
-    "Yu-Gi-Oh! GX Tag\n"
-    "Force 3\n"
+static const u8 sOCGYuGiOhGXTagForce3ClimaxTagDuelpromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh! GX\n"
+    "Tag Force 3\n"
+    "Climax Tag Duel\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhGXTagForce3promotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh! GX\n"
+    "Tag Force 3\n"
     "promotional\n"
     "cards.");
 
-static const u8 sYuGiOhGXTagForceEvolutionpromotionalcardsDesc[] = _(
-    "Yu-Gi-Oh! GX Tag\n"
-    "Force Evolution\n"
+static const u8 sOCGYuGiOhGXTagForceEvolutionpromotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh! GX\n"
+    "Tag Force\n"
+    "Evolution\n"
     "promotional\n"
     "cards.");
 
-static const u8 sYuGiOhGXTagForcepromotionalcardsDesc[] = _(
-    "Yu-Gi-Oh! GX Tag\n"
-    "Force\n"
+static const u8 sOCGYuGiOhGXTagForceFriendshipTagDuelpromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh! GX\n"
+    "Tag Force\n"
+    "Friendship Tag\n"
+    "Duel promotional\n"
+    "card.");
+
+static const u8 sOCGYuGiOhGXTagForcepromotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh! GX\n"
+    "Tag Force\n"
     "promotional\n"
     "cards.");
 
-static const u8 sYuGiOhGXUltimateBeginnersPackDesc[] = _(
-    "Yu-Gi-Oh! GX\n"
-    "Ultimate\n"
-    "Beginner's Pack.");
-
-static const u8 sYuGiOhGXVolume1promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! GX\n"
+static const u8 sOCGYuGiOhGXVolume1promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh! GX\n"
     "Volume 1\n"
     "promotional card.");
 
-static const u8 sYuGiOhGXVolume2promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! GX\n"
+static const u8 sOCGYuGiOhGXVolume2promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh! GX\n"
     "Volume 2\n"
     "promotional card.");
 
-static const u8 sYuGiOhGXVolume3promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! GX\n"
+static const u8 sOCGYuGiOhGXVolume3promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh! GX\n"
     "Volume 3\n"
     "promotional card.");
 
-static const u8 sYuGiOhGXVolume4promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! GX\n"
+static const u8 sOCGYuGiOhGXVolume4promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh! GX\n"
     "Volume 4\n"
     "promotional card.");
 
-static const u8 sYuGiOhGXVolume5promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! GX\n"
+static const u8 sOCGYuGiOhGXVolume5promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh! GX\n"
     "Volume 5\n"
     "promotional card.");
 
-static const u8 sYuGiOhGXVolume6promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! GX\n"
+static const u8 sOCGYuGiOhGXVolume6promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh! GX\n"
     "Volume 6\n"
     "promotional card.");
 
-static const u8 sYuGiOhGXVolume7promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! GX\n"
+static const u8 sOCGYuGiOhGXVolume7promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh! GX\n"
     "Volume 7\n"
     "promotional card.");
 
-static const u8 sYuGiOhGXVolume8promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! GX\n"
+static const u8 sOCGYuGiOhGXVolume8promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh! GX\n"
     "Volume 8\n"
     "promotional card.");
 
-static const u8 sYuGiOhGXVolume9promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! GX\n"
+static const u8 sOCGYuGiOhGXVolume9promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh! GX\n"
     "Volume 9\n"
     "promotional card.");
 
-static const u8 sYuGiOhLegacyoftheDuelistLinkEvolutionpromotionalcardsDesc[] = _(
-    "Yu-Gi-Oh! Legacy\n"
-    "of the Duelist:\n"
-    "Link Evolution\n"
-    "promotional\n"
-    "cards.");
+static const u8 sOCGYuGiOhLegacyoftheDuelistLinkEvolutionDuelistCompleteGuidepromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Legacy of the\n"
+    "Duelist: Link\n"
+    "Evolution\n"
+    "Duelist Complete\n"
+    "Guide\n"
+    "promotional card.");
 
-static const u8 sYuGiOhNightmareTroubadourpromotionalcardsDesc[] = _(
-    "Yu-Gi-Oh!\n"
+static const u8 sOCGYuGiOhNightmareTroubadourGameGuidepromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Nightmare\n"
+    "Troubadour Game\n"
+    "Guide\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhNightmareTroubadourpromotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
     "Nightmare\n"
     "Troubadour\n"
     "promotional\n"
     "cards.");
 
-static const u8 sYuGiOhPowerofChaosJoeythePassionpromotionalcardsDesc[] = _(
-    "Yu-Gi-Oh! Power\n"
-    "of Chaos: Joey\n"
-    "the Passion\n"
-    "promotional\n"
-    "cards.");
-
-static const u8 sYuGiOhPowerofChaosKaibatheRevengepromotionalcardsDesc[] = _(
-    "Yu-Gi-Oh! Power\n"
-    "of Chaos: Kaiba\n"
-    "the Revenge\n"
-    "promotional\n"
-    "cards.");
-
-static const u8 sYuGiOhPowerofChaosYugitheDestinypromotionalcardsDesc[] = _(
-    "Yu-Gi-Oh! Power\n"
-    "of Chaos: Yugi\n"
-    "the Destiny\n"
-    "promotional\n"
-    "cards.");
-
-static const u8 sYuGiOhRVolume1promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! R\n"
-    "Volume 1\n"
-    "promotional card.");
-
-static const u8 sYuGiOhRVolume3promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! R\n"
-    "Volume 3\n"
-    "promotional card.");
-
-static const u8 sYuGiOhRVolume4promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! R\n"
+static const u8 sOCGYuGiOhOCGStoriesMagistusArcVolume4promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "OCG Stories\n"
+    "Magistus Arc\n"
     "Volume 4\n"
     "promotional card.");
 
-static const u8 sYuGiOhRVolume5promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! R\n"
+static const u8 sOCGYuGiOhOCGStoriesSkyStrikerAceArcVolume1promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "OCG Stories Sky\n"
+    "Striker Ace Arc\n"
+    "Volume 1\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhOCGStoriesSkyStrikerAceArcVolume2promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "OCG Stories Sky\n"
+    "Striker Ace Arc\n"
+    "Volume 2\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhOCGStoriesSkyStrikerAceArcVolume3promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "OCG Stories Sky\n"
+    "Striker Ace Arc\n"
+    "Volume 3\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhOCGStoriesVolume5promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "OCG Stories\n"
     "Volume 5\n"
     "promotional card.");
 
-static const u8 sYuGiOhReshefofDestructionpromotionalcardsDesc[] = _(
-    "Yu-Gi-Oh! Reshef\n"
-    "of Destruction\n"
-    "promotional\n"
-    "cards.");
+static const u8 sOCGYuGiOhOCGStructuresVolume1promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "OCG Structures\n"
+    "Volume 1\n"
+    "promotional card.");
 
-static const u8 sYuGiOhTCGRemoteDuelExtravaganzaparticipationcardDesc[] = _(
-    "Yu-Gi-Oh! TCG\n"
-    "Remote Duel\n"
-    "Extravaganza\n"
-    "participation\n"
+static const u8 sOCGYuGiOhOCGStructuresVolume10promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "OCG Structures\n"
+    "Volume 10\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhOCGStructuresVolume2promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "OCG Structures\n"
+    "Volume 2\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhOCGStructuresVolume3promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "OCG Structures\n"
+    "Volume 3\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhOCGStructuresVolume4promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "OCG Structures\n"
+    "Volume 4\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhOCGStructuresVolume5promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "OCG Structures\n"
+    "Volume 5\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhOCGStructuresVolume6promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "OCG Structures\n"
+    "Volume 6\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhOCGStructuresVolume7promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "OCG Structures\n"
+    "Volume 7\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhOCGStructuresVolume8promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "OCG Structures\n"
+    "Volume 8\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhOCGStructuresVolume9promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "OCG Structures\n"
+    "Volume 9\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhQuarterCenturySummonsceneSelectionBlurayDVDpromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Quarter Century\n"
+    "Summonscene\n"
+    "Selection Blu-\n"
+    "ray & DVD\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhRVolume1promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh! R\n"
+    "Volume 1\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhRVolume3promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh! R\n"
+    "Volume 3\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhRVolume4promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh! R\n"
+    "Volume 4\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhRVolume5promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh! R\n"
+    "Volume 5\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhSoundDuelQuarterCenturySelectionpromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Sound Duel\n"
+    "Quarter Century\n"
+    "Selection\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhSummerChallenge2009promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Summer Challenge\n"
+    "2009 promotional\n"
     "card.");
 
-static const u8 sYuGiOhTheDarkSideofDimensionsBlurayDVDpromotionalcardDesc[] = _(
-    "Yu-Gi-Oh! The\n"
-    "Dark Side of\n"
+static const u8 sOCGYuGiOhTheDarkSideofDimensions4DTheaterdistributioncardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "The Dark Side of\n"
+    "Dimensions 4D\n"
+    "Theater\n"
+    "distribution\n"
+    "card.");
+
+static const u8 sOCGYuGiOhTheDarkSideofDimensionsAdvanceTicketpromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "The Dark Side of\n"
+    "Dimensions\n"
+    "Advance Ticket\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhTheDarkSideofDimensionsBlurayDVDpromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "The Dark Side of\n"
     "Dimensions Blu-\n"
     "ray & DVD\n"
     "promotional card.");
 
-static const u8 sYuGiOhTheDarkSideofDimensionsMoviePackDesc[] = _(
-    "Yu-Gi-Oh! The\n"
-    "Dark Side of\n"
+static const u8 sOCGYuGiOhTheDarkSideofDimensionsCinemileagepromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "The Dark Side of\n"
+    "Dimensions\n"
+    "Cinemileage\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhTheDarkSideofDimensionsCoCoIchibanyapromotionalcard1Desc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "The Dark Side of\n"
+    "Dimensions CoCo\n"
+    "Ichibanya\n"
+    "promotional card\n"
+    "1.");
+
+static const u8 sOCGYuGiOhTheDarkSideofDimensionsCoCoIchibanyapromotionalcard2Desc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "The Dark Side of\n"
+    "Dimensions CoCo\n"
+    "Ichibanya\n"
+    "promotional card\n"
+    "2.");
+
+static const u8 sOCGYuGiOhTheDarkSideofDimensionsDuelSetDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "The Dark Side of\n"
+    "Dimensions Duel\n"
+    "Set.");
+
+static const u8 sOCGYuGiOhTheDarkSideofDimensionsMoviePackDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "The Dark Side of\n"
     "Dimensions Movie\n"
     "Pack.");
 
-static const u8 sYuGiOhTheDarkSideofDimensionsMoviePackSecretEditionDesc[] = _(
-    "Yu-Gi-Oh! The\n"
-    "Dark Side of\n"
-    "Dimensions Movie\n"
-    "Pack Secret\n"
-    "Edition.");
-
-static const u8 sYuGiOhTheDarkSideofDimensionsMoviePackSpecialEditionDesc[] = _(
-    "Yu-Gi-Oh! The\n"
-    "Dark Side of\n"
-    "Dimensions Movie\n"
-    "Pack Special\n"
-    "Edition.");
-
-static const u8 sYuGiOhTheDarkSideofDimensionsMoviePackGoldEditionDesc[] = _(
-    "Yu-Gi-Oh! The\n"
-    "Dark Side of\n"
-    "Dimensions Movie\n"
-    "Pack: Gold\n"
-    "Edition.");
-
-static const u8 sYuGiOhTheDarkSideofDimensionsTheaterdistributioncardsDesc[] = _(
-    "Yu-Gi-Oh! The\n"
-    "Dark Side of\n"
+static const u8 sOCGYuGiOhTheDarkSideofDimensionsTheaterdistributioncard1Desc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "The Dark Side of\n"
     "Dimensions\n"
     "Theater\n"
     "distribution\n"
-    "cards.");
+    "card 1.");
 
-static const u8 sYuGiOhTheDawnofDestinypromotionalcardsDesc[] = _(
-    "Yu-Gi-Oh! The\n"
-    "Dawn of Destiny\n"
+static const u8 sOCGYuGiOhTheDarkSideofDimensionsTheaterdistributioncard2Desc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "The Dark Side of\n"
+    "Dimensions\n"
+    "Theater\n"
+    "distribution\n"
+    "card 2.");
+
+static const u8 sOCGYuGiOhTheDarkSideofDimensionsTheaterdistributioncard3Desc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "The Dark Side of\n"
+    "Dimensions\n"
+    "Theater\n"
+    "distribution\n"
+    "card 3.");
+
+static const u8 sOCGYuGiOhTheDarkSideofDimensionsTheaterdistributioncard4Desc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "The Dark Side of\n"
+    "Dimensions\n"
+    "Theater\n"
+    "distribution\n"
+    "card 4.");
+
+static const u8 sOCGYuGiOhTheDarkSideofDimensionsYokohamaEventdistributioncardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "The Dark Side of\n"
+    "Dimensions\n"
+    "Yokohama Event\n"
+    "distribution\n"
+    "card.");
+
+static const u8 sOCGYuGiOhTheMoviepreviewdistributioncardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "The Movie\n"
+    "preview\n"
+    "distribution\n"
+    "card.");
+
+static const u8 sOCGYuGiOhTrueDuelMonsters2SucceededMemoriespromotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "True Duel\n"
+    "Monsters 2:\n"
+    "Succeeded\n"
+    "Memories\n"
     "promotional\n"
     "cards.");
 
-static const u8 sYuGiOhTheDuelistsoftheRosespromotionalcardsDesc[] = _(
-    "Yu-Gi-Oh! The\n"
-    "Duelists of the\n"
-    "Roses\n"
-    "promotional\n"
-    "cards.");
-
-static const u8 sYuGiOhTheEternalDuelistSoulpromotionalcardsDesc[] = _(
-    "Yu-Gi-Oh! The\n"
-    "Eternal Duelist\n"
-    "Soul promotional\n"
-    "cards.");
-
-static const u8 sYuGiOhTheFalseboundKingdompromotionalcardsDesc[] = _(
-    "Yu-Gi-Oh! The\n"
-    "Falsebound\n"
-    "Kingdom\n"
-    "promotional\n"
-    "cards.");
-
-static const u8 sYuGiOhTheSacredCardspromotionalcardsDesc[] = _(
-    "Yu-Gi-Oh! The\n"
-    "Sacred Cards\n"
-    "promotional\n"
-    "cards.");
-
-static const u8 sYuGiOhTradingCardGameTour2004promotionalcardDesc[] = _(
-    "Yu-Gi-Oh!\n"
-    "Trading Card\n"
-    "Game Tour 2004\n"
+static const u8 sOCGYuGiOhTrueDuelMonstersIISucceededMemoriesGameGuidepromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "True Duel\n"
+    "Monsters II:\n"
+    "Succeeded\n"
+    "Memories Game\n"
+    "Guide\n"
     "promotional card.");
 
-static const u8 sYuGiOhUltimateMastersWorldChampionshipTournament2006promotionalcardsDesc[] = _(
-    "Yu-Gi-Oh!\n"
+static const u8 sOCGYuGiOhTrueDuelMonstersSealedMemoriesGameGuidepromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "True Duel\n"
+    "Monsters: Sealed\n"
+    "Memories Game\n"
+    "Guide\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhTrueDuelMonstersSealedMemoriespromotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "True Duel\n"
+    "Monsters: Sealed\n"
+    "Memories\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sOCGYuGiOhUltimateMastersWorldChampionshipTournament2006GameGuidepromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Ultimate\n"
+    "Masters: World\n"
+    "Championship\n"
+    "Tournament 2006\n"
+    "Game Guide\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhUltimateMastersWorldChampionshipTournament2006promotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
     "Ultimate\n"
     "Masters: World\n"
     "Championship\n"
@@ -6030,73 +8294,5268 @@ static const u8 sYuGiOhUltimateMastersWorldChampionshipTournament2006promotional
     "promotional\n"
     "cards.");
 
-static const u8 sYuGiOhWorldChampionship2004prizecardsDesc[] = _(
-    "Yu-Gi-Oh! World\n"
-    "Championship\n"
-    "2004 prize cards.");
+static const u8 sOCGYuGiOhUnitedDuelTournament2020prizecardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "United Duel\n"
+    "Tournament 2020\n"
+    "prize card.");
 
-static const u8 sYuGiOhWorldChampionship2005prizecardsDesc[] = _(
-    "Yu-Gi-Oh! World\n"
-    "Championship\n"
-    "2005 prize cards.");
+static const u8 sOCGYuGiOhUnitedDuelTournamentAugust2022prizecardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "United Duel\n"
+    "Tournament\n"
+    "August 2022\n"
+    "prize card.");
 
-static const u8 sYuGiOhWorldChampionship2006prizecardsDesc[] = _(
-    "Yu-Gi-Oh! World\n"
-    "Championship\n"
-    "2006 prize cards.");
+static const u8 sOCGYuGiOhUnitedDuelTournamentFebruary2023prizecardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "United Duel\n"
+    "Tournament\n"
+    "February 2023\n"
+    "prize card.");
 
-static const u8 sYuGiOhWorldChampionship2007prizecardsDesc[] = _(
-    "Yu-Gi-Oh! World\n"
-    "Championship\n"
-    "2007 prize cards.");
+static const u8 sOCGYuGiOhUnitedDuelTournamentMay2021prizecardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "United Duel\n"
+    "Tournament May\n"
+    "2021 prize card.");
 
-static const u8 sYuGiOhWorldChampionship2007promotionalcardsDesc[] = _(
-    "Yu-Gi-Oh! World\n"
+static const u8 sOCGYuGiOhUnitedDuelTournamentNovember2021prizecardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "United Duel\n"
+    "Tournament\n"
+    "November 2021\n"
+    "prize card.");
+
+static const u8 sOCGYuGiOhVolume31promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "Volume 31\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhWorldChampionship2006SetDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "World\n"
+    "Championship\n"
+    "2006 Set.");
+
+static const u8 sOCGYuGiOhWorldChampionship2007RoadtoFinalpromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "World\n"
+    "Championship\n"
+    "2007 Road to\n"
+    "Final\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhWorldChampionship2007promotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "World\n"
     "Championship\n"
     "2007 promotional\n"
     "cards.");
 
-static const u8 sYuGiOhWorldChampionship2008promotionalcardsDesc[] = _(
-    "Yu-Gi-Oh! World\n"
+static const u8 sOCGYuGiOhWorldChampionship2008CompleteEditionpromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "World\n"
+    "Championship\n"
+    "2008 Complete\n"
+    "Edition\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhWorldChampionship2008promotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "World\n"
     "Championship\n"
     "2008 promotional\n"
     "cards.");
 
-static const u8 sYuGiOhWorldChampionship2017prizecardsDesc[] = _(
-    "Yu-Gi-Oh! World\n"
+static const u8 sOCGYuGiOhWorldChampionship2017attendancecardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "World\n"
     "Championship\n"
-    "2017 prize cards.");
-
-static const u8 sYuGiOhWorldChampionship2018prizecardsDesc[] = _(
-    "Yu-Gi-Oh! World\n"
-    "Championship\n"
-    "2018 prize cards.");
-
-static const u8 sYuGiOhWorldChampionship2019JapaneseNationalQualifiersprizecardsDesc[] = _(
-    "Yu-Gi-Oh! World\n"
-    "Championship\n"
-    "2019 Japanese\n"
-    "National\n"
-    "Qualifiers prize\n"
+    "2017 attendance\n"
     "cards.");
 
-static const u8 sYuGiOhWorldChampionshipQualifierNationalChampionships2011prizecardsDesc[] = _(
-    "Yu-Gi-Oh! World\n"
+static const u8 sOCGYuGiOhWorldChampionship2018attendancecardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "World\n"
+    "Championship\n"
+    "2018 attendance\n"
+    "cards.");
+
+static const u8 sOCGYuGiOhWorldChampionship2019attendancecardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "World\n"
+    "Championship\n"
+    "2019 attendance\n"
+    "cards.");
+
+static const u8 sOCGYuGiOhWorldChampionship2023attendancecardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "World\n"
+    "Championship\n"
+    "2023 attendance\n"
+    "cards.");
+
+static const u8 sOCGYuGiOhZEXALVolume1promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "ZEXAL Volume 1\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhZEXALVolume2promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "ZEXAL Volume 2\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhZEXALVolume3promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "ZEXAL Volume 3\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhZEXALVolume4promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "ZEXAL Volume 4\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhZEXALVolume5promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "ZEXAL Volume 5\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhZEXALVolume6promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "ZEXAL Volume 6\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhZEXALVolume7promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "ZEXAL Volume 7\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhZEXALVolume8promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "ZEXAL Volume 8\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhZEXALVolume9promotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "ZEXAL Volume 9\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhZEXALWorldDuelCarnivalDuelChampionGuidepromotionalcardDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "ZEXAL World Duel\n"
+    "Carnival Duel\n"
+    "Champion Guide!\n"
+    "promotional card.");
+
+static const u8 sOCGYuGiOhZEXALWorldDuelCarnivalpromotionalcardsDesc[] = _(
+    "OCG_Yu-Gi-Oh!\n"
+    "ZEXAL World Duel\n"
+    "Carnival\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCG2PlayerStarterDeckYuyaDeclanDesc[] = _(
+    "TCG_2-Player\n"
+    "Starter Deck:\n"
+    "Yuya & Declan.");
+
+static const u8 sTCG2PlayerStarterSetDesc[] = _(
+    "TCG_2-Player\n"
+    "Starter Set.");
+
+static const u8 sTCG2013CollectibleTinsWave1Desc[] = _(
+    "TCG_2013\n"
+    "Collectible Tins\n"
+    "Wave 1.");
+
+static const u8 sTCG2013CollectibleTinsWave2Desc[] = _(
+    "TCG_2013\n"
+    "Collectible Tins\n"
+    "Wave 2.");
+
+static const u8 sTCG2014MegaTinMegaPackDesc[] = _(
+    "TCG_2014 Mega-\n"
+    "Tin Mega Pack.");
+
+static const u8 sTCG2014MegaTinsDesc[] = _(
+    "TCG_2014 Mega-\n"
+    "Tins.");
+
+static const u8 sTCG2015MegaTinDesc[] = _(
+    "TCG_2015 Mega-\n"
+    "Tin.");
+
+static const u8 sTCG2015MegaTinMegaPackDesc[] = _(
+    "TCG_2015 Mega-\n"
+    "Tin Mega Pack.");
+
+static const u8 sTCG2015MegaTinsDesc[] = _(
+    "TCG_2015 Mega-\n"
+    "Tins.");
+
+static const u8 sTCG2016MegaTinMegaPackDesc[] = _(
+    "TCG_2016 Mega-\n"
+    "Tin Mega Pack.");
+
+static const u8 sTCG2016MegaTinsDesc[] = _(
+    "TCG_2016 Mega-\n"
+    "Tins.");
+
+static const u8 sTCG2017MegaTinMegaPackDesc[] = _(
+    "TCG_2017 Mega-\n"
+    "Tin Mega Pack.");
+
+static const u8 sTCG2017MegaTinsDesc[] = _(
+    "TCG_2017 Mega-\n"
+    "Tins.");
+
+static const u8 sTCG2018MegaTinMegaPackDesc[] = _(
+    "TCG_2018 Mega-\n"
+    "Tin Mega Pack.");
+
+static const u8 sTCG2018MegaTinsDesc[] = _(
+    "TCG_2018 Mega-\n"
+    "Tins.");
+
+static const u8 sTCG2019GoldSarcophagusTinDesc[] = _(
+    "TCG_2019 Gold\n"
+    "Sarcophagus Tin.");
+
+static const u8 sTCG2019GoldSarcophagusTinMegaPackDesc[] = _(
+    "TCG_2019 Gold\n"
+    "Sarcophagus Tin\n"
+    "Mega Pack.");
+
+static const u8 sTCG2020TinofLostMemoriesDesc[] = _(
+    "TCG_2020 Tin of\n"
+    "Lost Memories.");
+
+static const u8 sTCG2021TinofAncientBattlesDesc[] = _(
+    "TCG_2021 Tin of\n"
+    "Ancient Battles.");
+
+static const u8 sTCG2022TinofthePharaohsGodsDesc[] = _(
+    "TCG_2022 Tin of\n"
+    "the Pharaoh's\n"
+    "Gods.");
+
+static const u8 sTCG25thAnniversaryRarityCollectionDesc[] = _(
+    "TCG_25th\n"
+    "Anniversary\n"
+    "Rarity\n"
+    "Collection.");
+
+static const u8 sTCG25thAnniversaryRarityCollectionIIDesc[] = _(
+    "TCG_25th\n"
+    "Anniversary\n"
+    "Rarity\n"
+    "Collection II.");
+
+static const u8 sTCG25thAnniversaryTinDuelingHeroesDesc[] = _(
+    "TCG_25th\n"
+    "Anniversary Tin:\n"
+    "Dueling Heroes.");
+
+static const u8 sTCG25thAnniversaryTinDuelingHeroesMegaPackDesc[] = _(
+    "TCG_25th\n"
+    "Anniversary Tin:\n"
+    "Dueling Heroes\n"
+    "Mega Pack.");
+
+static const u8 sTCG25thAnniversaryTinDuelingMirrorsDesc[] = _(
+    "TCG_25th\n"
+    "Anniversary Tin:\n"
+    "Dueling Mirrors.");
+
+static const u8 sTCG25thAnniversaryUltimateKaibaSetDesc[] = _(
+    "TCG_25th\n"
+    "Anniversary\n"
+    "Ultimate Kaiba\n"
+    "Set.");
+
+static const u8 sTCGAbsolutePowerforceDesc[] = _(
+    "TCG_Absolute\n"
+    "Powerforce.");
+
+static const u8 sTCGAbsolutePowerforceSneakPeekParticipationCardDesc[] = _(
+    "TCG_Absolute\n"
+    "Powerforce Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGAbsolutePowerforceSpecialEditionDesc[] = _(
+    "TCG_Absolute\n"
+    "Powerforce:\n"
+    "Special Edition.");
+
+static const u8 sTCGAbyssRisingDesc[] = _(
+    "TCG_Abyss Rising.");
+
+static const u8 sTCGAbyssRisingSneakPeekParticipationCardDesc[] = _(
+    "TCG_Abyss Rising\n"
+    "Sneak Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGAbyssRisingSpecialEditionDesc[] = _(
+    "TCG_Abyss\n"
+    "Rising: Special\n"
+    "Edition.");
+
+static const u8 sTCGAdidascollaborationcardDesc[] = _(
+    "TCG_Adidas\n"
+    "collaboration\n"
+    "card.");
+
+static const u8 sTCGAdvancedDemoDeckExtraPackDesc[] = _(
+    "TCG_Advanced\n"
+    "Demo Deck Extra\n"
+    "Pack.");
+
+static const u8 sTCGAgeofOverlordDesc[] = _(
+    "TCG_Age of\n"
+    "Overlord.");
+
+static const u8 sTCGAgeofOverlordPremierepromotionalcardDesc[] = _(
+    "TCG_Age of\n"
+    "Overlord\n"
+    "Premiere!\n"
+    "promotional card.");
+
+static const u8 sTCGAllianceInsightDesc[] = _(
+    "TCG_Alliance\n"
+    "Insight.");
+
+static const u8 sTCGAllianceInsightPremierepromotionalcardDesc[] = _(
+    "TCG_Alliance\n"
+    "Insight\n"
+    "Premiere!\n"
+    "promotional card.");
+
+static const u8 sTCGAmazingDefendersDesc[] = _(
+    "TCG_Amazing\n"
+    "Defenders.");
+
+static const u8 sTCGAncientGuardiansDesc[] = _(
+    "TCG_Ancient\n"
+    "Guardians.");
+
+static const u8 sTCGAncientProphecyDesc[] = _(
+    "TCG_Ancient\n"
+    "Prophecy.");
+
+static const u8 sTCGAncientProphecySneakPeekParticipationCardDesc[] = _(
+    "TCG_Ancient\n"
+    "Prophecy Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGAncientProphecySpecialEditionDesc[] = _(
+    "TCG_Ancient\n"
+    "Prophecy:\n"
+    "Special Edition.");
+
+static const u8 sTCGAncientSanctuaryDesc[] = _(
+    "TCG_Ancient\n"
+    "Sanctuary.");
+
+static const u8 sTCGAnniversaryPackDesc[] = _(
+    "TCG_Anniversary\n"
+    "Pack.");
+
+static const u8 sTCGAstralPackEightDesc[] = _(
+    "TCG_Astral Pack\n"
+    "Eight.");
+
+static const u8 sTCGAstralPackFiveDesc[] = _(
+    "TCG_Astral Pack\n"
+    "Five.");
+
+static const u8 sTCGAstralPackFourDesc[] = _(
+    "TCG_Astral Pack\n"
+    "Four.");
+
+static const u8 sTCGAstralPackOneDesc[] = _(
+    "TCG_Astral Pack\n"
+    "One.");
+
+static const u8 sTCGAstralPackSevenDesc[] = _(
+    "TCG_Astral Pack\n"
+    "Seven.");
+
+static const u8 sTCGAstralPackSixDesc[] = _(
+    "TCG_Astral Pack\n"
+    "Six.");
+
+static const u8 sTCGAstralPackThreeDesc[] = _(
+    "TCG_Astral Pack\n"
+    "Three.");
+
+static const u8 sTCGAstralPackTwoDesc[] = _(
+    "TCG_Astral Pack\n"
+    "Two.");
+
+static const u8 sTCGBattlePack2WaroftheGiantsDesc[] = _(
+    "TCG_Battle Pack\n"
+    "2: War of the\n"
+    "Giants.");
+
+static const u8 sTCGBattlePack3MonsterLeagueDesc[] = _(
+    "TCG_Battle Pack\n"
+    "3: Monster\n"
+    "League.");
+
+static const u8 sTCGBattlePackTournamentPrizeCardsDesc[] = _(
+    "TCG_Battle Pack\n"
+    "Tournament Prize\n"
+    "Cards.");
+
+static const u8 sTCGBattlePackEpicDawnDesc[] = _(
+    "TCG_Battle Pack:\n"
+    "Epic Dawn.");
+
+static const u8 sTCGBattleofChaosDesc[] = _(
+    "TCG_Battle of\n"
+    "Chaos.");
+
+static const u8 sTCGBattleofChaosPremierepromotionalcardDesc[] = _(
+    "TCG_Battle of\n"
+    "Chaos Premiere!\n"
+    "promotional card.");
+
+static const u8 sTCGBattlesofLegendArmageddonDesc[] = _(
+    "TCG_Battles of\n"
+    "Legend:\n"
+    "Armageddon.");
+
+static const u8 sTCGBattlesofLegendChapter1Desc[] = _(
+    "TCG_Battles of\n"
+    "Legend: Chapter\n"
+    "1.");
+
+static const u8 sTCGBattlesofLegendCrystalRevengeDesc[] = _(
+    "TCG_Battles of\n"
+    "Legend: Crystal\n"
+    "Revenge.");
+
+static const u8 sTCGBattlesofLegendHerosRevengeDesc[] = _(
+    "TCG_Battles of\n"
+    "Legend: Hero's\n"
+    "Revenge.");
+
+static const u8 sTCGBattlesofLegendLightsRevengeDesc[] = _(
+    "TCG_Battles of\n"
+    "Legend: Light's\n"
+    "Revenge.");
+
+static const u8 sTCGBattlesofLegendMonsterMayhemDesc[] = _(
+    "TCG_Battles of\n"
+    "Legend: Monster\n"
+    "Mayhem.");
+
+static const u8 sTCGBattlesofLegendMonstrousRevengeDesc[] = _(
+    "TCG_Battles of\n"
+    "Legend:\n"
+    "Monstrous\n"
+    "Revenge.");
+
+static const u8 sTCGBattlesofLegendRelentlessRevengeDesc[] = _(
+    "TCG_Battles of\n"
+    "Legend:\n"
+    "Relentless\n"
+    "Revenge.");
+
+static const u8 sTCGBattlesofLegendTerminalRevengeDesc[] = _(
+    "TCG_Battles of\n"
+    "Legend: Terminal\n"
+    "Revenge.");
+
+static const u8 sTCGBlazingVortexDesc[] = _(
+    "TCG_Blazing\n"
+    "Vortex.");
+
+static const u8 sTCGBlazingVortexPremierepromotionalcardDesc[] = _(
+    "TCG_Blazing\n"
+    "Vortex Premiere!\n"
+    "promotional card.");
+
+static const u8 sTCGBlueEyesAlternativeWhiteDragonSweepstakesDesc[] = _(
+    "TCG_Blue-Eyes\n"
+    "Alternative\n"
+    "White Dragon\n"
+    "Sweepstakes.");
+
+static const u8 sTCGBoosterPackCollectorsTins2002Desc[] = _(
+    "TCG_Booster Pack\n"
+    "Collectors Tins\n"
+    "2002.");
+
+static const u8 sTCGBreakersofShadowDesc[] = _(
+    "TCG_Breakers of\n"
+    "Shadow.");
+
+static const u8 sTCGBreakersofShadowSneakPeekParticipationCardDesc[] = _(
+    "TCG_Breakers of\n"
+    "Shadow Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGBreakersofShadowSpecialEditionDesc[] = _(
+    "TCG_Breakers of\n"
+    "Shadow: Special\n"
+    "Edition.");
+
+static const u8 sTCGBrothersofLegendDesc[] = _(
+    "TCG_Brothers of\n"
+    "Legend.");
+
+static const u8 sTCGBurstofDestinyDesc[] = _(
+    "TCG_Burst of\n"
+    "Destiny.");
+
+static const u8 sTCGBurstofDestinyPremierepromotionalcardDesc[] = _(
+    "TCG_Burst of\n"
+    "Destiny\n"
+    "Premiere!\n"
+    "promotional card.");
+
+static const u8 sTCGChampionPackGameEightDesc[] = _(
+    "TCG_Champion\n"
+    "Pack: Game Eight.");
+
+static const u8 sTCGChampionPackGameFiveDesc[] = _(
+    "TCG_Champion\n"
+    "Pack: Game Five.");
+
+static const u8 sTCGChampionPackGameFourDesc[] = _(
+    "TCG_Champion\n"
+    "Pack: Game Four.");
+
+static const u8 sTCGChampionPackGameOneDesc[] = _(
+    "TCG_Champion\n"
+    "Pack: Game One.");
+
+static const u8 sTCGChampionPackGameSevenDesc[] = _(
+    "TCG_Champion\n"
+    "Pack: Game Seven.");
+
+static const u8 sTCGChampionPackGameSixDesc[] = _(
+    "TCG_Champion\n"
+    "Pack: Game Six.");
+
+static const u8 sTCGChampionPackGameThreeDesc[] = _(
+    "TCG_Champion\n"
+    "Pack: Game Three.");
+
+static const u8 sTCGChampionPackGameTwoDesc[] = _(
+    "TCG_Champion\n"
+    "Pack: Game Two.");
+
+static const u8 sTCGChaosImpactDesc[] = _(
+    "TCG_Chaos Impact.");
+
+static const u8 sTCGChaosImpactSneakPeekParticipationCardDesc[] = _(
+    "TCG_Chaos Impact\n"
+    "Sneak Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGChaosImpactSpecialEditionDesc[] = _(
+    "TCG_Chaos Impact\n"
+    "Special Edition.");
+
+static const u8 sTCGCircuitBreakDesc[] = _(
+    "TCG_Circuit\n"
+    "Break.");
+
+static const u8 sTCGCircuitBreakSneakPeekParticipationCardDesc[] = _(
+    "TCG_Circuit\n"
+    "Break Sneak Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGCircuitBreakSpecialEditionDesc[] = _(
+    "TCG_Circuit\n"
+    "Break Special\n"
+    "Edition.");
+
+static const u8 sTCGClashofRebellionsDesc[] = _(
+    "TCG_Clash of\n"
+    "Rebellions.");
+
+static const u8 sTCGClashofRebellionsSneakPeekParticipationCardDesc[] = _(
+    "TCG_Clash of\n"
+    "Rebellions Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGClashofRebellionsSpecialEditionDesc[] = _(
+    "TCG_Clash of\n"
+    "Rebellions:\n"
+    "Special Edition.");
+
+static const u8 sTCGCodeoftheDuelistDesc[] = _(
+    "TCG_Code of the\n"
+    "Duelist.");
+
+static const u8 sTCGCodeoftheDuelistSneakPeekParticipationCardDesc[] = _(
+    "TCG_Code of the\n"
+    "Duelist Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGCodeoftheDuelistSpecialEditionDesc[] = _(
+    "TCG_Code of the\n"
+    "Duelist Special\n"
+    "Edition.");
+
+static const u8 sTCGCollectibleTins2003Desc[] = _(
+    "TCG_Collectible\n"
+    "Tins 2003.");
+
+static const u8 sTCGCollectibleTins2004Desc[] = _(
+    "TCG_Collectible\n"
+    "Tins 2004.");
+
+static const u8 sTCGCollectibleTins2005Desc[] = _(
+    "TCG_Collectible\n"
+    "Tins 2005.");
+
+static const u8 sTCGCollectibleTins2006Wave1Desc[] = _(
+    "TCG_Collectible\n"
+    "Tins 2006 Wave 1.");
+
+static const u8 sTCGCollectibleTins2006Wave2Desc[] = _(
+    "TCG_Collectible\n"
+    "Tins 2006 Wave 2.");
+
+static const u8 sTCGCollectibleTins2007Wave1Desc[] = _(
+    "TCG_Collectible\n"
+    "Tins 2007 Wave 1.");
+
+static const u8 sTCGCollectibleTins2007Wave2Desc[] = _(
+    "TCG_Collectible\n"
+    "Tins 2007 Wave 2.");
+
+static const u8 sTCGCollectibleTins2008Wave1Desc[] = _(
+    "TCG_Collectible\n"
+    "Tins 2008 Wave 1.");
+
+static const u8 sTCGCollectibleTins2008Wave2Desc[] = _(
+    "TCG_Collectible\n"
+    "Tins 2008 Wave 2.");
+
+static const u8 sTCGCollectibleTins2009Wave1Desc[] = _(
+    "TCG_Collectible\n"
+    "Tins 2009 Wave 1.");
+
+static const u8 sTCGCollectibleTins2009Wave2Desc[] = _(
+    "TCG_Collectible\n"
+    "Tins 2009 Wave 2.");
+
+static const u8 sTCGCollectibleTins2010Wave1Desc[] = _(
+    "TCG_Collectible\n"
+    "Tins 2010 Wave 1.");
+
+static const u8 sTCGCollectibleTins2010Wave2Desc[] = _(
+    "TCG_Collectible\n"
+    "Tins 2010 Wave 2.");
+
+static const u8 sTCGCollectibleTins2011Wave1Desc[] = _(
+    "TCG_Collectible\n"
+    "Tins 2011 Wave 1.");
+
+static const u8 sTCGCollectibleTins2011Wave2Desc[] = _(
+    "TCG_Collectible\n"
+    "Tins 2011 Wave 2.");
+
+static const u8 sTCGCollectibleTins2012Wave1Desc[] = _(
+    "TCG_Collectible\n"
+    "Tins 2012 Wave 1.");
+
+static const u8 sTCGCollectibleTins2012Wave2Desc[] = _(
+    "TCG_Collectible\n"
+    "Tins 2012 Wave 2.");
+
+static const u8 sTCGCollectibleTins2012Wave25Desc[] = _(
+    "TCG_Collectible\n"
+    "Tins 2012 Wave\n"
+    "2.5.");
+
+static const u8 sTCGCollectibleTinsExclusive2008Desc[] = _(
+    "TCG_Collectible\n"
+    "Tins Exclusive\n"
+    "2008.");
+
+static const u8 sTCGCollectibleTinsExclusive2009Desc[] = _(
+    "TCG_Collectible\n"
+    "Tins Exclusive\n"
+    "2009.");
+
+static const u8 sTCGCosmoBlazerDesc[] = _(
+    "TCG_Cosmo Blazer.");
+
+static const u8 sTCGCosmoBlazerSneakPeekParticipationCardDesc[] = _(
+    "TCG_Cosmo Blazer\n"
+    "Sneak Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGCosmoBlazerSpecialEditionDesc[] = _(
+    "TCG_Cosmo\n"
+    "Blazer: Special\n"
+    "Edition.");
+
+static const u8 sTCGCrimsonCrisisDesc[] = _(
+    "TCG_Crimson\n"
+    "Crisis.");
+
+static const u8 sTCGCrimsonCrisisSneakPeekParticipationCardDesc[] = _(
+    "TCG_Crimson\n"
+    "Crisis Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGCrimsonCrisisSpecialEditionDesc[] = _(
+    "TCG_Crimson\n"
+    "Crisis: Special\n"
+    "Edition.");
+
+static const u8 sTCGCrossedSoulsDesc[] = _(
+    "TCG_Crossed\n"
+    "Souls.");
+
+static const u8 sTCGCrossedSoulsSneakPeekParticipationCardDesc[] = _(
+    "TCG_Crossed\n"
+    "Souls Sneak Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGCrossedSoulsAdvanceEditionDesc[] = _(
+    "TCG_Crossed\n"
+    "Souls: Advance\n"
+    "Edition.");
+
+static const u8 sTCGCrossoverBreakersDesc[] = _(
+    "TCG_Crossover\n"
+    "Breakers.");
+
+static const u8 sTCGCrossroadsofChaosDesc[] = _(
+    "TCG_Crossroads\n"
+    "of Chaos.");
+
+static const u8 sTCGCrossroadsofChaosSneakPeekParticipationCardDesc[] = _(
+    "TCG_Crossroads\n"
+    "of Chaos Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGCrossroadsofChaosSpecialEditionDesc[] = _(
+    "TCG_Crossroads\n"
+    "of Chaos:\n"
+    "Special Edition.");
+
+static const u8 sTCGCyberDragonRevolutionStructureDeckDesc[] = _(
+    "TCG_Cyber Dragon\n"
+    "Revolution\n"
+    "Structure Deck.");
+
+static const u8 sTCGCyberdarkImpactDesc[] = _(
+    "TCG_Cyberdark\n"
+    "Impact.");
+
+static const u8 sTCGCyberdarkImpactSneakPeekParticipationCardDesc[] = _(
+    "TCG_Cyberdark\n"
+    "Impact Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGCyberneticHorizonDesc[] = _(
+    "TCG_Cybernetic\n"
+    "Horizon.");
+
+static const u8 sTCGCyberneticHorizonSneakPeekParticipationCardDesc[] = _(
+    "TCG_Cybernetic\n"
+    "Horizon Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGCyberneticHorizonSpecialEditionDesc[] = _(
+    "TCG_Cybernetic\n"
+    "Horizon Special\n"
+    "Edition.");
+
+static const u8 sTCGCyberneticRevolutionDesc[] = _(
+    "TCG_Cybernetic\n"
+    "Revolution.");
+
+static const u8 sTCGCyberneticRevolutionSneakPeekParticipationCardDesc[] = _(
+    "TCG_Cybernetic\n"
+    "Revolution Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGCyberstormAccessDesc[] = _(
+    "TCG_Cyberstorm\n"
+    "Access.");
+
+static const u8 sTCGCyberstormAccessPremierepromotionalcardDesc[] = _(
+    "TCG_Cyberstorm\n"
+    "Access Premiere!\n"
+    "promotional card.");
+
+static const u8 sTCGDarkBeginning1Desc[] = _(
+    "TCG_Dark\n"
+    "Beginning 1.");
+
+static const u8 sTCGDarkBeginning2Desc[] = _(
+    "TCG_Dark\n"
+    "Beginning 2.");
+
+static const u8 sTCGDarkCrisisDesc[] = _(
+    "TCG_Dark Crisis.");
+
+static const u8 sTCGDarkCrisis25thAnniversaryEditionDesc[] = _(
+    "TCG_Dark Crisis\n"
+    "(25th\n"
+    "Anniversary\n"
+    "Edition).");
+
+static const u8 sTCGDarkLegendsDesc[] = _(
+    "TCG_Dark Legends.");
+
+static const u8 sTCGDarkLegionStarterDeckDesc[] = _(
+    "TCG_Dark Legion\n"
+    "Starter Deck.");
+
+static const u8 sTCGDarkNeostormDesc[] = _(
+    "TCG_Dark\n"
+    "Neostorm.");
+
+static const u8 sTCGDarkNeostormSneakPeekParticipationCardDesc[] = _(
+    "TCG_Dark\n"
+    "Neostorm Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGDarkNeostormSpecialEditionDesc[] = _(
+    "TCG_Dark\n"
+    "Neostorm Special\n"
+    "Edition.");
+
+static const u8 sTCGDarkRevelationVolume1Desc[] = _(
+    "TCG_Dark\n"
+    "Revelation\n"
+    "Volume 1.");
+
+static const u8 sTCGDarkRevelationVolume2Desc[] = _(
+    "TCG_Dark\n"
+    "Revelation\n"
+    "Volume 2.");
+
+static const u8 sTCGDarkRevelationVolume3Desc[] = _(
+    "TCG_Dark\n"
+    "Revelation\n"
+    "Volume 3.");
+
+static const u8 sTCGDarkRevelationVolume4Desc[] = _(
+    "TCG_Dark\n"
+    "Revelation\n"
+    "Volume 4.");
+
+static const u8 sTCGDarkSaviorsDesc[] = _(
+    "TCG_Dark Saviors.");
+
+static const u8 sTCGDarkwingBlastDesc[] = _(
+    "TCG_Darkwing\n"
+    "Blast.");
+
+static const u8 sTCGDarkwingBlastPremierepromotionalcardDesc[] = _(
+    "TCG_Darkwing\n"
+    "Blast Premiere!\n"
+    "promotional card.");
+
+static const u8 sTCGDawnofMajestyDesc[] = _(
+    "TCG_Dawn of\n"
+    "Majesty.");
+
+static const u8 sTCGDawnofMajestyPremierepromotionalcardDesc[] = _(
+    "TCG_Dawn of\n"
+    "Majesty\n"
+    "Premiere!\n"
+    "promotional card.");
+
+static const u8 sTCGDemoDeck2015Desc[] = _(
+    "TCG_Demo Deck\n"
+    "2015.");
+
+static const u8 sTCGDemoDeck2016Desc[] = _(
+    "TCG_Demo Deck\n"
+    "2016.");
+
+static const u8 sTCGDemoPackDesc[] = _(
+    "TCG_Demo Pack.");
+
+static const u8 sTCGDemoSpeedDuelingkitDesc[] = _(
+    "TCG_Demo Speed\n"
+    "Dueling kit.");
+
+static const u8 sTCGDestinySoldiersDesc[] = _(
+    "TCG_Destiny\n"
+    "Soldiers.");
+
+static const u8 sTCGDimensionForceDesc[] = _(
+    "TCG_Dimension\n"
+    "Force.");
+
+static const u8 sTCGDimensionForcePremierepromotionalcardDesc[] = _(
+    "TCG_Dimension\n"
+    "Force Premiere!\n"
+    "promotional card.");
+
+static const u8 sTCGDimensionofChaosDesc[] = _(
+    "TCG_Dimension of\n"
+    "Chaos.");
+
+static const u8 sTCGDimensionofChaosSneakPeekParticipationCardDesc[] = _(
+    "TCG_Dimension of\n"
+    "Chaos Sneak Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGDimensionofChaosSpecialEditionDesc[] = _(
+    "TCG_Dimension of\n"
+    "Chaos: Special\n"
+    "Edition.");
+
+static const u8 sTCGDinosmashersFuryStructureDeckDesc[] = _(
+    "TCG_Dinosmasher'\n"
+    "s Fury Structure\n"
+    "Deck.");
+
+static const u8 sTCGDragonsCollideStructureDeckDesc[] = _(
+    "TCG_Dragons\n"
+    "Collide\n"
+    "Structure Deck.");
+
+static const u8 sTCGDragonsofLegendDesc[] = _(
+    "TCG_Dragons of\n"
+    "Legend.");
+
+static const u8 sTCGDragonsofLegend2Desc[] = _(
+    "TCG_Dragons of\n"
+    "Legend 2.");
+
+static const u8 sTCGDragonsofLegendTheCompleteSeriesDesc[] = _(
+    "TCG_Dragons of\n"
+    "Legend: The\n"
+    "Complete Series.");
+
+static const u8 sTCGDragonsofLegendUnleashedDesc[] = _(
+    "TCG_Dragons of\n"
+    "Legend:\n"
+    "Unleashed.");
+
+static const u8 sTCGDragunityLegionStructureDeckDesc[] = _(
+    "TCG_Dragunity\n"
+    "Legion Structure\n"
+    "Deck.");
+
+static const u8 sTCGDuelDevastatorDesc[] = _(
+    "TCG_Duel\n"
+    "Devastator.");
+
+static const u8 sTCGDuelDiskYuseiVersionDesc[] = _(
+    "TCG_Duel Disk -\n"
+    "Yusei Version.");
+
+static const u8 sTCGDuelMastersGuidepromotionalcardsDesc[] = _(
+    "TCG_Duel\n"
+    "Master's Guide\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGDuelOverloadDesc[] = _(
+    "TCG_Duel\n"
+    "Overload.");
+
+static const u8 sTCGDuelPowerDesc[] = _(
+    "TCG_Duel Power.");
+
+static const u8 sTCGDuelTerminalPreviewWave1Desc[] = _(
+    "TCG_Duel\n"
+    "Terminal -\n"
+    "Preview Wave 1.");
+
+static const u8 sTCGDuelTerminalPreviewWave2Desc[] = _(
+    "TCG_Duel\n"
+    "Terminal -\n"
+    "Preview Wave 2.");
+
+static const u8 sTCGDuelTerminal1Desc[] = _(
+    "TCG_Duel\n"
+    "Terminal 1.");
+
+static const u8 sTCGDuelTerminal2Desc[] = _(
+    "TCG_Duel\n"
+    "Terminal 2.");
+
+static const u8 sTCGDuelTerminal3Desc[] = _(
+    "TCG_Duel\n"
+    "Terminal 3.");
+
+static const u8 sTCGDuelTerminal4Desc[] = _(
+    "TCG_Duel\n"
+    "Terminal 4.");
+
+static const u8 sTCGDuelTerminal5aDesc[] = _(
+    "TCG_Duel\n"
+    "Terminal 5a.");
+
+static const u8 sTCGDuelTerminal5bDesc[] = _(
+    "TCG_Duel\n"
+    "Terminal 5b.");
+
+static const u8 sTCGDuelTerminal6aDesc[] = _(
+    "TCG_Duel\n"
+    "Terminal 6a.");
+
+static const u8 sTCGDuelTerminal6bDesc[] = _(
+    "TCG_Duel\n"
+    "Terminal 6b.");
+
+static const u8 sTCGDuelTerminal7aDesc[] = _(
+    "TCG_Duel\n"
+    "Terminal 7a.");
+
+static const u8 sTCGDuelTerminal7bDesc[] = _(
+    "TCG_Duel\n"
+    "Terminal 7b.");
+
+static const u8 sTCGDuelinMonstersGiveawayDesc[] = _(
+    "TCG_Duelin'\n"
+    "Monsters\n"
+    "Giveaway.");
+
+static const u8 sTCGDuelistAllianceDesc[] = _(
+    "TCG_Duelist\n"
+    "Alliance.");
+
+static const u8 sTCGDuelistAllianceSneakPeekParticipationCardDesc[] = _(
+    "TCG_Duelist\n"
+    "Alliance Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGDuelistAllianceDeluxeEditionDesc[] = _(
+    "TCG_Duelist\n"
+    "Alliance: Deluxe\n"
+    "Edition.");
+
+static const u8 sTCGDuelistLeague13participationcardsDesc[] = _(
+    "TCG_Duelist\n"
+    "League 13\n"
+    "participation\n"
+    "cards.");
+
+static const u8 sTCGDuelistLeague14participationcardsDesc[] = _(
+    "TCG_Duelist\n"
+    "League 14\n"
+    "participation\n"
+    "cards.");
+
+static const u8 sTCGDuelistLeague15participationcardsDesc[] = _(
+    "TCG_Duelist\n"
+    "League 15\n"
+    "participation\n"
+    "cards.");
+
+static const u8 sTCGDuelistLeague16participationcardsDesc[] = _(
+    "TCG_Duelist\n"
+    "League 16\n"
+    "participation\n"
+    "cards.");
+
+static const u8 sTCGDuelistLeague17participationcardsDesc[] = _(
+    "TCG_Duelist\n"
+    "League 17\n"
+    "participation\n"
+    "cards.");
+
+static const u8 sTCGDuelistLeague18participationcardsDesc[] = _(
+    "TCG_Duelist\n"
+    "League 18\n"
+    "participation\n"
+    "cards.");
+
+static const u8 sTCGDuelistLeague2participationcardsDesc[] = _(
+    "TCG_Duelist\n"
+    "League 2\n"
+    "participation\n"
+    "cards.");
+
+static const u8 sTCGDuelistLeague2010participationcardsDesc[] = _(
+    "TCG_Duelist\n"
+    "League 2010\n"
+    "participation\n"
+    "cards.");
+
+static const u8 sTCGDuelistLeague3participationcardsDesc[] = _(
+    "TCG_Duelist\n"
+    "League 3\n"
+    "participation\n"
+    "cards.");
+
+static const u8 sTCGDuelistLeagueDemo2010Desc[] = _(
+    "TCG_Duelist\n"
+    "League Demo 2010.");
+
+static const u8 sTCGDuelistLeagueSeries1participationcardsDesc[] = _(
+    "TCG_Duelist\n"
+    "League Series 1\n"
+    "participation\n"
+    "cards.");
+
+static const u8 sTCGDuelistLeagueSeries10participationcardDesc[] = _(
+    "TCG_Duelist\n"
+    "League Series 10\n"
+    "participation\n"
+    "card.");
+
+static const u8 sTCGDuelistLeagueSeries2participationcardsDesc[] = _(
+    "TCG_Duelist\n"
+    "League Series 2\n"
+    "participation\n"
+    "cards.");
+
+static const u8 sTCGDuelistLeagueSeries3participationcardDesc[] = _(
+    "TCG_Duelist\n"
+    "League Series 3\n"
+    "participation\n"
+    "card.");
+
+static const u8 sTCGDuelistLeagueSeries4participationcardDesc[] = _(
+    "TCG_Duelist\n"
+    "League Series 4\n"
+    "participation\n"
+    "card.");
+
+static const u8 sTCGDuelistLeagueSeries5participationcardDesc[] = _(
+    "TCG_Duelist\n"
+    "League Series 5\n"
+    "participation\n"
+    "card.");
+
+static const u8 sTCGDuelistLeagueSeries6participationcardDesc[] = _(
+    "TCG_Duelist\n"
+    "League Series 6\n"
+    "participation\n"
+    "card.");
+
+static const u8 sTCGDuelistLeagueSeries7participationcardDesc[] = _(
+    "TCG_Duelist\n"
+    "League Series 7\n"
+    "participation\n"
+    "card.");
+
+static const u8 sTCGDuelistLeagueSeries8participationcardDesc[] = _(
+    "TCG_Duelist\n"
+    "League Series 8\n"
+    "participation\n"
+    "card.");
+
+static const u8 sTCGDuelistLeagueSeries9participationcardDesc[] = _(
+    "TCG_Duelist\n"
+    "League Series 9\n"
+    "participation\n"
+    "card.");
+
+static const u8 sTCGDuelistNexusDesc[] = _(
+    "TCG_Duelist\n"
+    "Nexus.");
+
+static const u8 sTCGDuelistNexusPremierepromotionalcardDesc[] = _(
+    "TCG_Duelist\n"
+    "Nexus Premiere!\n"
+    "promotional card.");
+
+static const u8 sTCGDuelistPackCollectionTin2008Desc[] = _(
+    "TCG_Duelist Pack\n"
+    "Collection Tin\n"
+    "2008.");
+
+static const u8 sTCGDuelistPackCollectionTin2009Desc[] = _(
+    "TCG_Duelist Pack\n"
+    "Collection Tin\n"
+    "2009.");
+
+static const u8 sTCGDuelistPackCollectionTin2010Desc[] = _(
+    "TCG_Duelist Pack\n"
+    "Collection Tin\n"
+    "2010.");
+
+static const u8 sTCGDuelistPackCollectionTin2011Desc[] = _(
+    "TCG_Duelist Pack\n"
+    "Collection Tin\n"
+    "2011.");
+
+static const u8 sTCGDuelistPackCollectionTinJadenYukiDesc[] = _(
+    "TCG_Duelist Pack\n"
+    "Collection Tin:\n"
+    "Jaden Yuki.");
+
+static const u8 sTCGDuelistPackAsterPhoenixDesc[] = _(
+    "TCG_Duelist\n"
+    "Pack: Aster\n"
+    "Phoenix.");
+
+static const u8 sTCGDuelistPackBattleCityDesc[] = _(
+    "TCG_Duelist\n"
+    "Pack: Battle\n"
+    "City.");
+
+static const u8 sTCGDuelistPackChazzPrincetonDesc[] = _(
+    "TCG_Duelist\n"
+    "Pack: Chazz\n"
+    "Princeton.");
+
+static const u8 sTCGDuelistPackCrowDesc[] = _(
+    "TCG_Duelist\n"
+    "Pack: Crow.");
+
+static const u8 sTCGDuelistPackDimensionalGuardiansDesc[] = _(
+    "TCG_Duelist\n"
+    "Pack:\n"
+    "Dimensional\n"
+    "Guardians.");
+
+static const u8 sTCGDuelistPackJadenYukiDesc[] = _(
+    "TCG_Duelist\n"
+    "Pack: Jaden Yuki.");
+
+static const u8 sTCGDuelistPackJadenYuki2Desc[] = _(
+    "TCG_Duelist\n"
+    "Pack: Jaden Yuki\n"
+    "2.");
+
+static const u8 sTCGDuelistPackJadenYuki3Desc[] = _(
+    "TCG_Duelist\n"
+    "Pack: Jaden Yuki\n"
+    "3.");
+
+static const u8 sTCGDuelistPackJesseAndersonDesc[] = _(
+    "TCG_Duelist\n"
+    "Pack: Jesse\n"
+    "Anderson.");
+
+static const u8 sTCGDuelistPackKaibaDesc[] = _(
+    "TCG_Duelist\n"
+    "Pack: Kaiba.");
+
+static const u8 sTCGDuelistPackRivalsofthePharaohDesc[] = _(
+    "TCG_Duelist\n"
+    "Pack: Rivals of\n"
+    "the Pharaoh.");
+
+static const u8 sTCGDuelistPackSpecialEditionDesc[] = _(
+    "TCG_Duelist\n"
+    "Pack: Special\n"
+    "Edition.");
+
+static const u8 sTCGDuelistPackYugiDesc[] = _(
+    "TCG_Duelist\n"
+    "Pack: Yugi.");
+
+static const u8 sTCGDuelistPackYuseiDesc[] = _(
+    "TCG_Duelist\n"
+    "Pack: Yusei.");
+
+static const u8 sTCGDuelistPackYusei2Desc[] = _(
+    "TCG_Duelist\n"
+    "Pack: Yusei 2.");
+
+static const u8 sTCGDuelistPackYusei3Desc[] = _(
+    "TCG_Duelist\n"
+    "Pack: Yusei 3.");
+
+static const u8 sTCGDuelistPackZaneTruesdaleDesc[] = _(
+    "TCG_Duelist\n"
+    "Pack: Zane\n"
+    "Truesdale.");
+
+static const u8 sTCGDuelistRevolutionDesc[] = _(
+    "TCG_Duelist\n"
+    "Revolution.");
+
+static const u8 sTCGDuelistRevolutionSneakPeekParticipationCardDesc[] = _(
+    "TCG_Duelist\n"
+    "Revolution Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGDuelistRevolutionSpecialEditionDesc[] = _(
+    "TCG_Duelist\n"
+    "Revolution:\n"
+    "Special Edition.");
+
+static const u8 sTCGDuelistSagaDesc[] = _(
+    "TCG_Duelist Saga.");
+
+static const u8 sTCGDuelistsAdvanceDesc[] = _(
+    "TCG_Duelist's\n"
+    "Advance.");
+
+static const u8 sTCGDuelistsAdvancePremierepromotionalcardDesc[] = _(
+    "TCG_Duelist's\n"
+    "Advance\n"
+    "Premiere!\n"
+    "promotional card.");
+
+static const u8 sTCGEgyptianGodDeckObelisktheTormentorDesc[] = _(
+    "TCG_Egyptian God\n"
+    "Deck: Obelisk\n"
+    "the Tormentor.");
+
+static const u8 sTCGEgyptianGodDeckSlifertheSkyDragonDesc[] = _(
+    "TCG_Egyptian God\n"
+    "Deck: Slifer the\n"
+    "Sky Dragon.");
+
+static const u8 sTCGElementalEnergyDesc[] = _(
+    "TCG_Elemental\n"
+    "Energy.");
+
+static const u8 sTCGElementalEnergySneakPeekParticipationCardDesc[] = _(
+    "TCG_Elemental\n"
+    "Energy Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGElementalEnergySpecialEditionDesc[] = _(
+    "TCG_Elemental\n"
+    "Energy: Special\n"
+    "Edition.");
+
+static const u8 sTCGEmperorofDarknessStructureDeckDesc[] = _(
+    "TCG_Emperor of\n"
+    "Darkness\n"
+    "Structure Deck.");
+
+static const u8 sTCGEnemyofJusticeDesc[] = _(
+    "TCG_Enemy of\n"
+    "Justice.");
+
+static const u8 sTCGEnemyofJusticeSneakPeekParticipationCardDesc[] = _(
+    "TCG_Enemy of\n"
+    "Justice Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGEternityCodeDesc[] = _(
+    "TCG_Eternity\n"
+    "Code.");
+
+static const u8 sTCGEternityCodePremierepromotionalcardDesc[] = _(
+    "TCG_Eternity\n"
+    "Code Premiere!\n"
+    "promotional card.");
+
+static const u8 sTCGEventPackSpeedDuelDesc[] = _(
+    "TCG_Event Pack\n"
+    "Speed Duel.");
+
+static const u8 sTCGExclusivePackDesc[] = _(
+    "TCG_Exclusive\n"
+    "Pack.");
+
+static const u8 sTCGExtremeForceDesc[] = _(
+    "TCG_Extreme\n"
+    "Force.");
+
+static const u8 sTCGExtremeForceSneakPeekParticipationCardDesc[] = _(
+    "TCG_Extreme\n"
+    "Force Sneak Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGExtremeForceSpecialEditionDesc[] = _(
+    "TCG_Extreme\n"
+    "Force Special\n"
+    "Edition.");
+
+static const u8 sTCGExtremeVictoryDesc[] = _(
+    "TCG_Extreme\n"
+    "Victory.");
+
+static const u8 sTCGExtremeVictorySneakPeekParticipationCardDesc[] = _(
+    "TCG_Extreme\n"
+    "Victory Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGFireFistsSpecialEditionDesc[] = _(
+    "TCG_Fire Fists:\n"
+    "Special Edition.");
+
+static const u8 sTCGFistsoftheGadgetsDesc[] = _(
+    "TCG_Fists of the\n"
+    "Gadgets.");
+
+static const u8 sTCGFlamesofDestructionDesc[] = _(
+    "TCG_Flames of\n"
+    "Destruction.");
+
+static const u8 sTCGFlamesofDestructionSneakPeekParticipationCardDesc[] = _(
+    "TCG_Flames of\n"
+    "Destruction\n"
+    "Sneak Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGFlamesofDestructionSpecialEditionDesc[] = _(
+    "TCG_Flames of\n"
+    "Destruction\n"
+    "Special Edition.");
+
+static const u8 sTCGFlamingEternityDesc[] = _(
+    "TCG_Flaming\n"
+    "Eternity.");
+
+static const u8 sTCGFlamingEternitySneakPeekParticipationCardDesc[] = _(
+    "TCG_Flaming\n"
+    "Eternity Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGForbiddenLegacyDesc[] = _(
+    "TCG_Forbidden\n"
+    "Legacy.");
+
+static const u8 sTCGForceoftheBreakerDesc[] = _(
+    "TCG_Force of the\n"
+    "Breaker.");
+
+static const u8 sTCGForceoftheBreakerSneakPeekParticipationCardDesc[] = _(
+    "TCG_Force of the\n"
+    "Breaker Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGForceoftheBreakerSpecialEditionDesc[] = _(
+    "TCG_Force of the\n"
+    "Breaker: Special\n"
+    "Edition.");
+
+static const u8 sTCGFusionEnforcersDesc[] = _(
+    "TCG_Fusion\n"
+    "Enforcers.");
+
+static const u8 sTCGGXNextGenerationDesc[] = _(
+    "TCG_GX Next\n"
+    "Generation.");
+
+static const u8 sTCGGalacticOverlordDesc[] = _(
+    "TCG_Galactic\n"
+    "Overlord.");
+
+static const u8 sTCGGalacticOverlordSneakPeekParticipationCardDesc[] = _(
+    "TCG_Galactic\n"
+    "Overlord Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGGatesoftheUnderworldStructureDeckDesc[] = _(
+    "TCG_Gates of the\n"
+    "Underworld\n"
+    "Structure Deck.");
+
+static const u8 sTCGGeargiaRampageStructureDeckDesc[] = _(
+    "TCG_Geargia\n"
+    "Rampage\n"
+    "Structure Deck.");
+
+static const u8 sTCGGenerationForceDesc[] = _(
+    "TCG_Generation\n"
+    "Force.");
+
+static const u8 sTCGGenerationForceSneakPeekParticipationCardDesc[] = _(
+    "TCG_Generation\n"
+    "Force Sneak Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGGenerationForceSpecialEditionDesc[] = _(
+    "TCG_Generation\n"
+    "Force: Special\n"
+    "Edition.");
+
+static const u8 sTCGGenesisImpactDesc[] = _(
+    "TCG_Genesis\n"
+    "Impact.");
+
+static const u8 sTCGGhostsFromthePastsetDesc[] = _(
+    "TCG_Ghosts From\n"
+    "the Past (set).");
+
+static const u8 sTCGGhostsFromthePastThe2ndHauntingDesc[] = _(
+    "TCG_Ghosts From\n"
+    "the Past: The\n"
+    "2nd Haunting.");
+
+static const u8 sTCGGladiatorsAssaultDesc[] = _(
+    "TCG_Gladiator's\n"
+    "Assault.");
+
+static const u8 sTCGGladiatorsAssaultSneakPeekParticipationCardDesc[] = _(
+    "TCG_Gladiator's\n"
+    "Assault Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGGladiatorsAssaultSpecialEditionDesc[] = _(
+    "TCG_Gladiator's\n"
+    "Assault: Special\n"
+    "Edition.");
+
+static const u8 sTCGGoldSeriesDesc[] = _(
+    "TCG_Gold Series.");
+
+static const u8 sTCGGoldSeries2009Desc[] = _(
+    "TCG_Gold Series\n"
+    "2009.");
+
+static const u8 sTCGGoldSeries3Desc[] = _(
+    "TCG_Gold Series\n"
+    "3.");
+
+static const u8 sTCGGoldSeries4PyramidsEditionDesc[] = _(
+    "TCG_Gold Series\n"
+    "4: Pyramids\n"
+    "Edition.");
+
+static const u8 sTCGGoldSeriesHauntedMineDesc[] = _(
+    "TCG_Gold Series:\n"
+    "Haunted Mine.");
+
+static const u8 sTCGHEROStrikeStructureDeckDesc[] = _(
+    "TCG_HERO Strike\n"
+    "Structure Deck.");
+
+static const u8 sTCGHiddenArsenalDesc[] = _(
+    "TCG_Hidden\n"
+    "Arsenal.");
+
+static const u8 sTCGHiddenArsenal2Desc[] = _(
+    "TCG_Hidden\n"
+    "Arsenal 2.");
+
+static const u8 sTCGHiddenArsenal3Desc[] = _(
+    "TCG_Hidden\n"
+    "Arsenal 3.");
+
+static const u8 sTCGHiddenArsenal4TrishulasTriumphDesc[] = _(
+    "TCG_Hidden\n"
+    "Arsenal 4:\n"
+    "Trishula's\n"
+    "Triumph.");
+
+static const u8 sTCGHiddenArsenal5SteelswarmInvasionDesc[] = _(
+    "TCG_Hidden\n"
+    "Arsenal 5:\n"
+    "Steelswarm\n"
+    "Invasion.");
+
+static const u8 sTCGHiddenArsenal5SteelswarmInvasionSpecialEditionDesc[] = _(
+    "TCG_Hidden\n"
+    "Arsenal 5:\n"
+    "Steelswarm\n"
+    "Invasion:\n"
+    "Special Edition.");
+
+static const u8 sTCGHiddenArsenal6OmegaXyzDesc[] = _(
+    "TCG_Hidden\n"
+    "Arsenal 6: Omega\n"
+    "Xyz.");
+
+static const u8 sTCGHiddenArsenal7KnightofStarsDesc[] = _(
+    "TCG_Hidden\n"
+    "Arsenal 7:\n"
+    "Knight of Stars.");
+
+static const u8 sTCGHiddenArsenalChapter1Desc[] = _(
+    "TCG_Hidden\n"
+    "Arsenal: Chapter\n"
+    "1.");
+
+static const u8 sTCGHiddenArsenalSpecialEditionDesc[] = _(
+    "TCG_Hidden\n"
+    "Arsenal: Special\n"
+    "Edition.");
+
+static const u8 sTCGHiddenSummonersDesc[] = _(
+    "TCG_Hidden\n"
+    "Summoners.");
+
+static const u8 sTCGHighSpeedRidersDesc[] = _(
+    "TCG_High-Speed\n"
+    "Riders.");
+
+static const u8 sTCGHobbyLeague1participationcardsADesc[] = _(
+    "TCG_Hobby League\n"
+    "1 participation\n"
+    "cards A.");
+
+static const u8 sTCGHobbyLeague1participationcardsBDesc[] = _(
+    "TCG_Hobby League\n"
+    "1 participation\n"
+    "cards B.");
+
+static const u8 sTCGHobbyLeague1participationcardsCDesc[] = _(
+    "TCG_Hobby League\n"
+    "1 participation\n"
+    "cards C.");
+
+static const u8 sTCGHobbyLeague2participationcardADesc[] = _(
+    "TCG_Hobby League\n"
+    "2 participation\n"
+    "card A.");
+
+static const u8 sTCGHobbyLeague2participationcardBDesc[] = _(
+    "TCG_Hobby League\n"
+    "2 participation\n"
+    "card B.");
+
+static const u8 sTCGHobbyLeague2participationcardCDesc[] = _(
+    "TCG_Hobby League\n"
+    "2 participation\n"
+    "card C.");
+
+static const u8 sTCGHobbyLeague2participationcardDDesc[] = _(
+    "TCG_Hobby League\n"
+    "2 participation\n"
+    "card D.");
+
+static const u8 sTCGHobbyLeague2participationcardEDesc[] = _(
+    "TCG_Hobby League\n"
+    "2 participation\n"
+    "card E.");
+
+static const u8 sTCGHobbyLeague2participationcardFDesc[] = _(
+    "TCG_Hobby League\n"
+    "2 participation\n"
+    "card F.");
+
+static const u8 sTCGHobbyLeague3participationcardADesc[] = _(
+    "TCG_Hobby League\n"
+    "3 participation\n"
+    "card A.");
+
+static const u8 sTCGHobbyLeague3participationcardBDesc[] = _(
+    "TCG_Hobby League\n"
+    "3 participation\n"
+    "card B.");
+
+static const u8 sTCGHobbyLeague3participationcardCDesc[] = _(
+    "TCG_Hobby League\n"
+    "3 participation\n"
+    "card C.");
+
+static const u8 sTCGHobbyLeague3participationcardDDesc[] = _(
+    "TCG_Hobby League\n"
+    "3 participation\n"
+    "card D.");
+
+static const u8 sTCGHobbyLeague3participationcardEDesc[] = _(
+    "TCG_Hobby League\n"
+    "3 participation\n"
+    "card E.");
+
+static const u8 sTCGHobbyLeague3participationcardFDesc[] = _(
+    "TCG_Hobby League\n"
+    "3 participation\n"
+    "card F.");
+
+static const u8 sTCGHobbyLeague3participationcardGDesc[] = _(
+    "TCG_Hobby League\n"
+    "3 participation\n"
+    "card G.");
+
+static const u8 sTCGHobbyLeague4participationcardADesc[] = _(
+    "TCG_Hobby League\n"
+    "4 participation\n"
+    "card A.");
+
+static const u8 sTCGHobbyLeague4participationcardBDesc[] = _(
+    "TCG_Hobby League\n"
+    "4 participation\n"
+    "card B.");
+
+static const u8 sTCGHobbyLeague4participationcardCDesc[] = _(
+    "TCG_Hobby League\n"
+    "4 participation\n"
+    "card C.");
+
+static const u8 sTCGHobbyLeague4participationcardDDesc[] = _(
+    "TCG_Hobby League\n"
+    "4 participation\n"
+    "card D.");
+
+static const u8 sTCGHobbyLeague4participationcardEDesc[] = _(
+    "TCG_Hobby League\n"
+    "4 participation\n"
+    "card E.");
+
+static const u8 sTCGHobbyLeague4participationcardFDesc[] = _(
+    "TCG_Hobby League\n"
+    "4 participation\n"
+    "card F.");
+
+static const u8 sTCGHobbyLeague5participationcardADesc[] = _(
+    "TCG_Hobby League\n"
+    "5 participation\n"
+    "card A.");
+
+static const u8 sTCGHobbyLeague5participationcardBDesc[] = _(
+    "TCG_Hobby League\n"
+    "5 participation\n"
+    "card B.");
+
+static const u8 sTCGHobbyLeague5participationcardCDesc[] = _(
+    "TCG_Hobby League\n"
+    "5 participation\n"
+    "card C.");
+
+static const u8 sTCGHobbyLeague5participationcardDDesc[] = _(
+    "TCG_Hobby League\n"
+    "5 participation\n"
+    "card D.");
+
+static const u8 sTCGHobbyLeague5participationcardEDesc[] = _(
+    "TCG_Hobby League\n"
+    "5 participation\n"
+    "card E.");
+
+static const u8 sTCGHobbyLeague5participationcardFDesc[] = _(
+    "TCG_Hobby League\n"
+    "5 participation\n"
+    "card F.");
+
+static const u8 sTCGHobbyLeague6participationcardADesc[] = _(
+    "TCG_Hobby League\n"
+    "6 participation\n"
+    "card A.");
+
+static const u8 sTCGHobbyLeague6participationcardBDesc[] = _(
+    "TCG_Hobby League\n"
+    "6 participation\n"
+    "card B.");
+
+static const u8 sTCGHobbyLeague6participationcardCDesc[] = _(
+    "TCG_Hobby League\n"
+    "6 participation\n"
+    "card C.");
+
+static const u8 sTCGHobbyLeague6participationcardDDesc[] = _(
+    "TCG_Hobby League\n"
+    "6 participation\n"
+    "card D.");
+
+static const u8 sTCGHobbyLeague6participationcardEDesc[] = _(
+    "TCG_Hobby League\n"
+    "6 participation\n"
+    "card E.");
+
+static const u8 sTCGHobbyLeague6participationcardFDesc[] = _(
+    "TCG_Hobby League\n"
+    "6 participation\n"
+    "card F.");
+
+static const u8 sTCGHobbyLeague7participationcardADesc[] = _(
+    "TCG_Hobby League\n"
+    "7 participation\n"
+    "card A.");
+
+static const u8 sTCGHobbyLeague7participationcardBDesc[] = _(
+    "TCG_Hobby League\n"
+    "7 participation\n"
+    "card B.");
+
+static const u8 sTCGHobbyLeague7participationcardCDesc[] = _(
+    "TCG_Hobby League\n"
+    "7 participation\n"
+    "card C.");
+
+static const u8 sTCGHobbyLeague7participationcardDDesc[] = _(
+    "TCG_Hobby League\n"
+    "7 participation\n"
+    "card D.");
+
+static const u8 sTCGHobbyLeague7participationcardEDesc[] = _(
+    "TCG_Hobby League\n"
+    "7 participation\n"
+    "card E.");
+
+static const u8 sTCGHobbyLeague7participationcardFDesc[] = _(
+    "TCG_Hobby League\n"
+    "7 participation\n"
+    "card F.");
+
+static const u8 sTCGIgnitionAssaultDesc[] = _(
+    "TCG_Ignition\n"
+    "Assault.");
+
+static const u8 sTCGIgnitionAssaultSneakPeekParticipationCardDesc[] = _(
+    "TCG_Ignition\n"
+    "Assault Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGIgnitionAssaultSpecialEditionDesc[] = _(
+    "TCG_Ignition\n"
+    "Assault Special\n"
+    "Edition.");
+
+static const u8 sTCGInvasionofChaosDesc[] = _(
+    "TCG_Invasion of\n"
+    "Chaos.");
+
+static const u8 sTCGInvasionofChaos25thAnniversaryEditionDesc[] = _(
+    "TCG_Invasion of\n"
+    "Chaos (25th\n"
+    "Anniversary\n"
+    "Edition).");
+
+static const u8 sTCGInvasionofChaosSpecialEditionDesc[] = _(
+    "TCG_Invasion of\n"
+    "Chaos: Special\n"
+    "Edition.");
+
+static const u8 sTCGInvasionVengeanceDesc[] = _(
+    "TCG_Invasion:\n"
+    "Vengeance.");
+
+static const u8 sTCGInvasionVengeanceSneakPeekParticipationCardDesc[] = _(
+    "TCG_Invasion:\n"
+    "Vengeance Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGInvasionVengeanceSpecialEditionDesc[] = _(
+    "TCG_Invasion:\n"
+    "Vengeance:\n"
+    "Special Edition.");
+
+static const u8 sTCGJudgmentoftheLightDesc[] = _(
+    "TCG_Judgment of\n"
+    "the Light.");
+
+static const u8 sTCGJudgmentoftheLightSneakPeekParticipationCardDesc[] = _(
+    "TCG_Judgment of\n"
+    "the Light Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGJudgmentoftheLightDeluxeEditionDesc[] = _(
+    "TCG_Judgment of\n"
+    "the Light:\n"
+    "Deluxe Edition.");
+
+static const u8 sTCGJumpPack2014Issue1promotionalcardDesc[] = _(
+    "TCG_Jump Pack\n"
+    "2014 Issue 1\n"
+    "promotional card.");
+
+static const u8 sTCGJumpPack2014Issue2promotionalcardDesc[] = _(
+    "TCG_Jump Pack\n"
+    "2014 Issue 2\n"
+    "promotional card.");
+
+static const u8 sTCGJumpPack2014Issue3promotionalcardDesc[] = _(
+    "TCG_Jump Pack\n"
+    "2014 Issue 3\n"
+    "promotional card.");
+
+static const u8 sTCGKCGrandTournament2021prizecardDesc[] = _(
+    "TCG_KC Grand\n"
+    "Tournament 2021\n"
+    "prize card.");
+
+static const u8 sTCGKCGrandTournament2022prizecardDesc[] = _(
+    "TCG_KC Grand\n"
+    "Tournament 2022\n"
+    "prize card.");
+
+static const u8 sTCGKCGrandTournamentprizecardDesc[] = _(
+    "TCG_KC Grand\n"
+    "Tournament prize\n"
+    "card.");
+
+static const u8 sTCGKaibasCollectorBoxDesc[] = _(
+    "TCG_Kaiba's\n"
+    "Collector Box.");
+
+static const u8 sTCGKidsWBDuelofDestinypromotionalcardDesc[] = _(
+    "TCG_Kids' WB!\n"
+    "Duel of Destiny\n"
+    "promotional card.");
+
+static const u8 sTCGKingsCourtDesc[] = _(
+    "TCG_King's Court.");
+
+static const u8 sTCGLabyrinthofNightmareDesc[] = _(
+    "TCG_Labyrinth of\n"
+    "Nightmare.");
+
+static const u8 sTCGLegacyofDarknessDesc[] = _(
+    "TCG_Legacy of\n"
+    "Darkness.");
+
+static const u8 sTCGLegacyofDestructionDesc[] = _(
+    "TCG_Legacy of\n"
+    "Destruction.");
+
+static const u8 sTCGLegacyofDestructionPremierepromotionalcardDesc[] = _(
+    "TCG_Legacy of\n"
+    "Destruction\n"
+    "Premiere!\n"
+    "promotional card.");
+
+static const u8 sTCGLegacyoftheValiantDesc[] = _(
+    "TCG_Legacy of\n"
+    "the Valiant.");
+
+static const u8 sTCGLegacyoftheValiantSneakPeekParticipationCardDesc[] = _(
+    "TCG_Legacy of\n"
+    "the Valiant\n"
+    "Sneak Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGLegacyoftheValiantDeluxeEditionDesc[] = _(
+    "TCG_Legacy of\n"
+    "the Valiant:\n"
+    "Deluxe Edition.");
+
+static const u8 sTCGLegendofBlueEyesWhiteDragonDesc[] = _(
+    "TCG_Legend of\n"
+    "Blue Eyes White\n"
+    "Dragon.");
+
+static const u8 sTCGLegendofBlueEyesWhiteDragon25thAnniversaryEditionDesc[] = _(
+    "TCG_Legend of\n"
+    "Blue Eyes White\n"
+    "Dragon (25th\n"
+    "Anniversary\n"
+    "Edition).");
+
+static const u8 sTCGLegendaryCollectionDesc[] = _(
+    "TCG_Legendary\n"
+    "Collection.");
+
+static const u8 sTCGLegendaryCollection2TheDuelAcademyYearsDesc[] = _(
+    "TCG_Legendary\n"
+    "Collection 2:\n"
+    "The Duel Academy\n"
+    "Years.");
+
+static const u8 sTCGLegendaryCollection2TheDuelAcademyYearsMegaPackDesc[] = _(
+    "TCG_Legendary\n"
+    "Collection 2:\n"
+    "The Duel Academy\n"
+    "Years Mega Pack.");
+
+static const u8 sTCGLegendaryCollection3YugisWorldDesc[] = _(
+    "TCG_Legendary\n"
+    "Collection 3:\n"
+    "Yugi's World.");
+
+static const u8 sTCGLegendaryCollection3YugisWorldMegaPackDesc[] = _(
+    "TCG_Legendary\n"
+    "Collection 3:\n"
+    "Yugi's World\n"
+    "Mega Pack.");
+
+static const u8 sTCGLegendaryCollection4JoeysWorldDesc[] = _(
+    "TCG_Legendary\n"
+    "Collection 4:\n"
+    "Joey's World.");
+
+static const u8 sTCGLegendaryCollection4JoeysWorldMegaPackDesc[] = _(
+    "TCG_Legendary\n"
+    "Collection 4:\n"
+    "Joey's World\n"
+    "Mega Pack.");
+
+static const u8 sTCGLegendaryCollection5DsDesc[] = _(
+    "TCG_Legendary\n"
+    "Collection 5D's.");
+
+static const u8 sTCGLegendaryCollection5DsMegaPackDesc[] = _(
+    "TCG_Legendary\n"
+    "Collection 5D's\n"
+    "Mega Pack.");
+
+static const u8 sTCGLegendaryCollectionKaibaDesc[] = _(
+    "TCG_Legendary\n"
+    "Collection Kaiba.");
+
+static const u8 sTCGLegendaryCollectionKaibaMegaPackDesc[] = _(
+    "TCG_Legendary\n"
+    "Collection Kaiba\n"
+    "Mega Pack.");
+
+static const u8 sTCGLegendaryCollection25thAnniversaryEditionDesc[] = _(
+    "TCG_Legendary\n"
+    "Collection: 25th\n"
+    "Anniversary\n"
+    "Edition.");
+
+static const u8 sTCGLegendaryCollectionGameboardEditionDesc[] = _(
+    "TCG_Legendary\n"
+    "Collection:\n"
+    "Gameboard\n"
+    "Edition.");
+
+static const u8 sTCGLegendaryDecksIIDesc[] = _(
+    "TCG_Legendary\n"
+    "Decks II.");
+
+static const u8 sTCGLegendaryDragonDecksDesc[] = _(
+    "TCG_Legendary\n"
+    "Dragon Decks.");
+
+static const u8 sTCGLegendaryDuelistsDesc[] = _(
+    "TCG_Legendary\n"
+    "Duelists.");
+
+static const u8 sTCGLegendaryDuelistsAncientMillenniumDesc[] = _(
+    "TCG_Legendary\n"
+    "Duelists:\n"
+    "Ancient\n"
+    "Millennium.");
+
+static const u8 sTCGLegendaryDuelistsDuelsFromtheDeepDesc[] = _(
+    "TCG_Legendary\n"
+    "Duelists: Duels\n"
+    "From the Deep.");
+
+static const u8 sTCGLegendaryDuelistsImmortalDestinyDesc[] = _(
+    "TCG_Legendary\n"
+    "Duelists:\n"
+    "Immortal Destiny.");
+
+static const u8 sTCGLegendaryDuelistsMagicalHeroDesc[] = _(
+    "TCG_Legendary\n"
+    "Duelists:\n"
+    "Magical Hero.");
+
+static const u8 sTCGLegendaryDuelistsRageofRaDesc[] = _(
+    "TCG_Legendary\n"
+    "Duelists: Rage\n"
+    "of Ra.");
+
+static const u8 sTCGLegendaryDuelistsSeason1Desc[] = _(
+    "TCG_Legendary\n"
+    "Duelists: Season\n"
+    "1.");
+
+static const u8 sTCGLegendaryDuelistsSeason2Desc[] = _(
+    "TCG_Legendary\n"
+    "Duelists: Season\n"
+    "2.");
+
+static const u8 sTCGLegendaryDuelistsSeason3Desc[] = _(
+    "TCG_Legendary\n"
+    "Duelists: Season\n"
+    "3.");
+
+static const u8 sTCGLegendaryDuelistsSistersoftheRoseDesc[] = _(
+    "TCG_Legendary\n"
+    "Duelists:\n"
+    "Sisters of the\n"
+    "Rose.");
+
+static const u8 sTCGLegendaryDuelistsSoulburningVolcanoDesc[] = _(
+    "TCG_Legendary\n"
+    "Duelists:\n"
+    "Soulburning\n"
+    "Volcano.");
+
+static const u8 sTCGLegendaryDuelistsSynchroStormDesc[] = _(
+    "TCG_Legendary\n"
+    "Duelists:\n"
+    "Synchro Storm.");
+
+static const u8 sTCGLegendaryDuelistsWhiteDragonAbyssDesc[] = _(
+    "TCG_Legendary\n"
+    "Duelists: White\n"
+    "Dragon Abyss.");
+
+static const u8 sTCGLegendaryHeroDecksDesc[] = _(
+    "TCG_Legendary\n"
+    "Hero Decks.");
+
+static const u8 sTCGLightandDarknessPowerPackDesc[] = _(
+    "TCG_Light and\n"
+    "Darkness Power\n"
+    "Pack.");
+
+static const u8 sTCGLightofDestructionDesc[] = _(
+    "TCG_Light of\n"
+    "Destruction.");
+
+static const u8 sTCGLightofDestructionSneakPeekParticipationCardDesc[] = _(
+    "TCG_Light of\n"
+    "Destruction\n"
+    "Sneak Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGLightofDestructionSpecialEditionDesc[] = _(
+    "TCG_Light of\n"
+    "Destruction:\n"
+    "Special Edition.");
+
+static const u8 sTCGLightningOverdriveDesc[] = _(
+    "TCG_Lightning\n"
+    "Overdrive.");
+
+static const u8 sTCGLightningOverdrivePremierepromotionalcardDesc[] = _(
+    "TCG_Lightning\n"
+    "Overdrive\n"
+    "Premiere!\n"
+    "promotional card.");
+
+static const u8 sTCGLimitedEdition1Desc[] = _(
+    "TCG_Limited\n"
+    "Edition 1.");
+
+static const u8 sTCGLordoftheTachyonGalaxyDesc[] = _(
+    "TCG_Lord of the\n"
+    "Tachyon Galaxy.");
+
+static const u8 sTCGLordoftheTachyonGalaxySneakPeekParticipationCardDesc[] = _(
+    "TCG_Lord of the\n"
+    "Tachyon Galaxy\n"
+    "Sneak Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGLostSanctuaryStructureDeckDesc[] = _(
+    "TCG_Lost\n"
+    "Sanctuary\n"
+    "Structure Deck.");
+
+static const u8 sTCGMachinaMayhemStructureDeckDesc[] = _(
+    "TCG_Machina\n"
+    "Mayhem Structure\n"
+    "Deck.");
+
+static const u8 sTCGMachineReactorStructureDeckDesc[] = _(
+    "TCG_Machine\n"
+    "Reactor\n"
+    "Structure Deck.");
+
+static const u8 sTCGMagicRulerDesc[] = _(
+    "TCG_Magic Ruler.");
+
+static const u8 sTCGMagiciansForceDesc[] = _(
+    "TCG_Magician's\n"
+    "Force.");
+
+static const u8 sTCGMagnificentMavensDesc[] = _(
+    "TCG_Magnificent\n"
+    "Mavens.");
+
+static const u8 sTCGMasterCollectionVolume1Desc[] = _(
+    "TCG_Master\n"
+    "Collection\n"
+    "Volume 1.");
+
+static const u8 sTCGMasterCollectionVolume2Desc[] = _(
+    "TCG_Master\n"
+    "Collection\n"
+    "Volume 2.");
+
+static const u8 sTCGMasterofPendulumStructureDeckDesc[] = _(
+    "TCG_Master of\n"
+    "Pendulum\n"
+    "Structure Deck.");
+
+static const u8 sTCGMasterpieceSeriesPlatinumBlueEyesWhiteDragonDesc[] = _(
+    "TCG_Masterpiece\n"
+    "Series: Platinum\n"
+    "Blue-Eyes White\n"
+    "Dragon.");
+
+static const u8 sTCGMattelActionFigurepromotionalcardsSeries1Desc[] = _(
+    "TCG_Mattel\n"
+    "Action Figure\n"
+    "promotional\n"
+    "cards: Series 1.");
+
+static const u8 sTCGMattelActionFigurepromotionalcardsSeries2Desc[] = _(
+    "TCG_Mattel\n"
+    "Action Figure\n"
+    "promotional\n"
+    "cards: Series 2.");
+
+static const u8 sTCGMattelActionFigurepromotionalcardsSeries3Desc[] = _(
+    "TCG_Mattel\n"
+    "Action Figure\n"
+    "promotional\n"
+    "cards: Series 3.");
+
+static const u8 sTCGMaximumCrisisDesc[] = _(
+    "TCG_Maximum\n"
+    "Crisis.");
+
+static const u8 sTCGMaximumCrisisSneakPeekParticipationCardDesc[] = _(
+    "TCG_Maximum\n"
+    "Crisis Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGMaximumCrisisSpecialEditionDesc[] = _(
+    "TCG_Maximum\n"
+    "Crisis: Special\n"
+    "Edition.");
+
+static const u8 sTCGMaximumGoldDesc[] = _(
+    "TCG_Maximum Gold.");
+
+static const u8 sTCGMaximumGoldElDoradoDesc[] = _(
+    "TCG_Maximum\n"
+    "Gold: El Dorado.");
+
+static const u8 sTCGMazeofMemoriesDesc[] = _(
+    "TCG_Maze of\n"
+    "Memories.");
+
+static const u8 sTCGMazeofMillenniaDesc[] = _(
+    "TCG_Maze of\n"
+    "Millennia.");
+
+static const u8 sTCGMazeoftheMasterDesc[] = _(
+    "TCG_Maze of the\n"
+    "Master.");
+
+static const u8 sTCGMcDonaldsPromotionalCardsDesc[] = _(
+    "TCG_McDonald's\n"
+    "Promotional\n"
+    "Cards.");
+
+static const u8 sTCGMcDonaldsPromotionalCards2Desc[] = _(
+    "TCG_McDonald's\n"
+    "Promotional\n"
+    "Cards 2.");
+
+static const u8 sTCGMetalRaidersDesc[] = _(
+    "TCG_Metal\n"
+    "Raiders.");
+
+static const u8 sTCGMetalRaiders25thAnniversaryEditionDesc[] = _(
+    "TCG_Metal\n"
+    "Raiders (25th\n"
+    "Anniversary\n"
+    "Edition).");
+
+static const u8 sTCGMillenniumPackDesc[] = _(
+    "TCG_Millennium\n"
+    "Pack.");
+
+static const u8 sTCGMoviePackDesc[] = _(
+    "TCG_Movie Pack.");
+
+static const u8 sTCGMysticFightersDesc[] = _(
+    "TCG_Mystic\n"
+    "Fighters.");
+
+static const u8 sTCGNobleKnightsoftheRoundTableBoxSetDesc[] = _(
+    "TCG_Noble\n"
+    "Knights of the\n"
+    "Round Table Box\n"
+    "Set.");
+
+static const u8 sTCGNobleKnightsoftheRoundTablePowerUpPackDesc[] = _(
+    "TCG_Noble\n"
+    "Knights of the\n"
+    "Round Table\n"
+    "Power-Up Pack.");
+
+static const u8 sTCGNumberHuntersDesc[] = _(
+    "TCG_Number\n"
+    "Hunters.");
+
+static const u8 sTCGOTSTournamentPack1Desc[] = _(
+    "TCG_OTS\n"
+    "Tournament Pack\n"
+    "1.");
+
+static const u8 sTCGOTSTournamentPack10Desc[] = _(
+    "TCG_OTS\n"
+    "Tournament Pack\n"
+    "10.");
+
+static const u8 sTCGOTSTournamentPack11Desc[] = _(
+    "TCG_OTS\n"
+    "Tournament Pack\n"
+    "11.");
+
+static const u8 sTCGOTSTournamentPack12Desc[] = _(
+    "TCG_OTS\n"
+    "Tournament Pack\n"
+    "12.");
+
+static const u8 sTCGOTSTournamentPack13Desc[] = _(
+    "TCG_OTS\n"
+    "Tournament Pack\n"
+    "13.");
+
+static const u8 sTCGOTSTournamentPack14Desc[] = _(
+    "TCG_OTS\n"
+    "Tournament Pack\n"
+    "14.");
+
+static const u8 sTCGOTSTournamentPack15Desc[] = _(
+    "TCG_OTS\n"
+    "Tournament Pack\n"
+    "15.");
+
+static const u8 sTCGOTSTournamentPack16Desc[] = _(
+    "TCG_OTS\n"
+    "Tournament Pack\n"
+    "16.");
+
+static const u8 sTCGOTSTournamentPack17Desc[] = _(
+    "TCG_OTS\n"
+    "Tournament Pack\n"
+    "17.");
+
+static const u8 sTCGOTSTournamentPack18Desc[] = _(
+    "TCG_OTS\n"
+    "Tournament Pack\n"
+    "18.");
+
+static const u8 sTCGOTSTournamentPack19Desc[] = _(
+    "TCG_OTS\n"
+    "Tournament Pack\n"
+    "19.");
+
+static const u8 sTCGOTSTournamentPack2Desc[] = _(
+    "TCG_OTS\n"
+    "Tournament Pack\n"
+    "2.");
+
+static const u8 sTCGOTSTournamentPack20Desc[] = _(
+    "TCG_OTS\n"
+    "Tournament Pack\n"
+    "20.");
+
+static const u8 sTCGOTSTournamentPack21Desc[] = _(
+    "TCG_OTS\n"
+    "Tournament Pack\n"
+    "21.");
+
+static const u8 sTCGOTSTournamentPack22Desc[] = _(
+    "TCG_OTS\n"
+    "Tournament Pack\n"
+    "22.");
+
+static const u8 sTCGOTSTournamentPack23Desc[] = _(
+    "TCG_OTS\n"
+    "Tournament Pack\n"
+    "23.");
+
+static const u8 sTCGOTSTournamentPack24Desc[] = _(
+    "TCG_OTS\n"
+    "Tournament Pack\n"
+    "24.");
+
+static const u8 sTCGOTSTournamentPack25Desc[] = _(
+    "TCG_OTS\n"
+    "Tournament Pack\n"
+    "25.");
+
+static const u8 sTCGOTSTournamentPack26Desc[] = _(
+    "TCG_OTS\n"
+    "Tournament Pack\n"
+    "26.");
+
+static const u8 sTCGOTSTournamentPack27Desc[] = _(
+    "TCG_OTS\n"
+    "Tournament Pack\n"
+    "27.");
+
+static const u8 sTCGOTSTournamentPack28Desc[] = _(
+    "TCG_OTS\n"
+    "Tournament Pack\n"
+    "28.");
+
+static const u8 sTCGOTSTournamentPack3Desc[] = _(
+    "TCG_OTS\n"
+    "Tournament Pack\n"
+    "3.");
+
+static const u8 sTCGOTSTournamentPack4Desc[] = _(
+    "TCG_OTS\n"
+    "Tournament Pack\n"
+    "4.");
+
+static const u8 sTCGOTSTournamentPack5Desc[] = _(
+    "TCG_OTS\n"
+    "Tournament Pack\n"
+    "5.");
+
+static const u8 sTCGOTSTournamentPack6Desc[] = _(
+    "TCG_OTS\n"
+    "Tournament Pack\n"
+    "6.");
+
+static const u8 sTCGOTSTournamentPack7Desc[] = _(
+    "TCG_OTS\n"
+    "Tournament Pack\n"
+    "7.");
+
+static const u8 sTCGOTSTournamentPack8Desc[] = _(
+    "TCG_OTS\n"
+    "Tournament Pack\n"
+    "8.");
+
+static const u8 sTCGOTSTournamentPack9Desc[] = _(
+    "TCG_OTS\n"
+    "Tournament Pack\n"
+    "9.");
+
+static const u8 sTCGOnslaughtoftheFireKingsStructureDeckDesc[] = _(
+    "TCG_Onslaught of\n"
+    "the Fire Kings\n"
+    "Structure Deck.");
+
+static const u8 sTCGOrderofChaosDesc[] = _(
+    "TCG_Order of\n"
+    "Chaos.");
+
+static const u8 sTCGOrderofChaosSneakPeekParticipationCardDesc[] = _(
+    "TCG_Order of\n"
+    "Chaos Sneak Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGOrderofChaosSpecialEditionDesc[] = _(
+    "TCG_Order of\n"
+    "Chaos: Special\n"
+    "Edition.");
+
+static const u8 sTCGPalladiumOracleMahadSweepstakesDesc[] = _(
+    "TCG_Palladium\n"
+    "Oracle Mahad\n"
+    "Sweepstakes.");
+
+static const u8 sTCGPendulumDominationStructureDeckDesc[] = _(
+    "TCG_Pendulum\n"
+    "Domination\n"
+    "Structure Deck.");
+
+static const u8 sTCGPendulumEvolutionDesc[] = _(
+    "TCG_Pendulum\n"
+    "Evolution.");
+
+static const u8 sTCGPhantomDarknessDesc[] = _(
+    "TCG_Phantom\n"
+    "Darkness.");
+
+static const u8 sTCGPhantomDarknessSneakPeekParticipationCardDesc[] = _(
+    "TCG_Phantom\n"
+    "Darkness Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGPhantomDarknessSpecialEditionDesc[] = _(
+    "TCG_Phantom\n"
+    "Darkness:\n"
+    "Special Edition.");
+
+static const u8 sTCGPhantomNightmareDesc[] = _(
+    "TCG_Phantom\n"
+    "Nightmare.");
+
+static const u8 sTCGPhantomNightmarePremierepromotionalcardDesc[] = _(
+    "TCG_Phantom\n"
+    "Nightmare\n"
+    "Premiere!\n"
+    "promotional card.");
+
+static const u8 sTCGPhantomRageDesc[] = _(
+    "TCG_Phantom Rage.");
+
+static const u8 sTCGPhantomRagePremierepromotionalcardDesc[] = _(
+    "TCG_Phantom Rage\n"
+    "Premiere!\n"
+    "promotional card.");
+
+static const u8 sTCGPharaohTour2005promotionalcardsDesc[] = _(
+    "TCG_Pharaoh Tour\n"
+    "2005 promotional\n"
+    "cards.");
+
+static const u8 sTCGPharaohTour2006FinalprizecardDesc[] = _(
+    "TCG_Pharaoh Tour\n"
+    "2006 Final prize\n"
+    "card.");
+
+static const u8 sTCGPharaohTour2006StopparticipationcardDesc[] = _(
+    "TCG_Pharaoh Tour\n"
+    "2006 Stop\n"
+    "participation\n"
+    "card.");
+
+static const u8 sTCGPharaohTour2007promotionalcardsDesc[] = _(
+    "TCG_Pharaoh Tour\n"
+    "2007 promotional\n"
+    "cards.");
+
+static const u8 sTCGPharaohsServantDesc[] = _(
+    "TCG_Pharaoh's\n"
+    "Servant.");
+
+static const u8 sTCGPharaohsServant25thAnniversaryEditionDesc[] = _(
+    "TCG_Pharaoh's\n"
+    "Servant (25th\n"
+    "Anniversary\n"
+    "Edition).");
+
+static const u8 sTCGPharaonicGuardianDesc[] = _(
+    "TCG_Pharaonic\n"
+    "Guardian.");
+
+static const u8 sTCGPhotonHypernovaDesc[] = _(
+    "TCG_Photon\n"
+    "Hypernova.");
+
+static const u8 sTCGPhotonHypernovaPremierepromotionalcardDesc[] = _(
+    "TCG_Photon\n"
+    "Hypernova\n"
+    "Premiere!\n"
+    "promotional card.");
+
+static const u8 sTCGPhotonShockwaveDesc[] = _(
+    "TCG_Photon\n"
+    "Shockwave.");
+
+static const u8 sTCGPhotonShockwaveSneakPeekParticipationCardDesc[] = _(
+    "TCG_Photon\n"
+    "Shockwave Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGPoweroftheDuelistDesc[] = _(
+    "TCG_Power of the\n"
+    "Duelist.");
+
+static const u8 sTCGPoweroftheDuelistSneakPeekParticipationCardDesc[] = _(
+    "TCG_Power of the\n"
+    "Duelist Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGPoweroftheElementsDesc[] = _(
+    "TCG_Power of the\n"
+    "Elements.");
+
+static const u8 sTCGPoweroftheElementsPremierepromotionalcardDesc[] = _(
+    "TCG_Power of the\n"
+    "Elements\n"
+    "Premiere!\n"
+    "promotional card.");
+
+static const u8 sTCGPremiumCollectionTinDesc[] = _(
+    "TCG_Premium\n"
+    "Collection Tin.");
+
+static const u8 sTCGPremiumGoldDesc[] = _(
+    "TCG_Premium Gold.");
+
+static const u8 sTCGPremiumGoldInfiniteGoldDesc[] = _(
+    "TCG_Premium\n"
+    "Gold: Infinite\n"
+    "Gold.");
+
+static const u8 sTCGPremiumGoldReturnoftheBlingDesc[] = _(
+    "TCG_Premium\n"
+    "Gold: Return of\n"
+    "the Bling.");
+
+static const u8 sTCGPremiumPackTCGDesc[] = _(
+    "TCG_Premium Pack\n"
+    "(TCG).");
+
+static const u8 sTCGPremiumPack2TCGDesc[] = _(
+    "TCG_Premium Pack\n"
+    "2 (TCG).");
+
+static const u8 sTCGPrimalOriginDesc[] = _(
+    "TCG_Primal\n"
+    "Origin.");
+
+static const u8 sTCGPrimalOriginPlusDesc[] = _(
+    "TCG_Primal\n"
+    "Origin Plus.");
+
+static const u8 sTCGPrimalOriginSneakPeekParticipationCardDesc[] = _(
+    "TCG_Primal\n"
+    "Origin Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGPrimalOriginDeluxeEditionDesc[] = _(
+    "TCG_Primal\n"
+    "Origin: Deluxe\n"
+    "Edition.");
+
+static const u8 sTCGQuarterCenturyBonanzaDesc[] = _(
+    "TCG_Quarter\n"
+    "Century Bonanza.");
+
+static const u8 sTCGQuarterCenturyStampedeDesc[] = _(
+    "TCG_Quarter\n"
+    "Century Stampede.");
+
+static const u8 sTCGRaYellowMegaPackDesc[] = _(
+    "TCG_Ra Yellow\n"
+    "Mega Pack.");
+
+static const u8 sTCGRaYellowMegaPackSpecialEditionDesc[] = _(
+    "TCG_Ra Yellow\n"
+    "Mega Pack:\n"
+    "Special Edition.");
+
+static const u8 sTCGRageoftheAbyssDesc[] = _(
+    "TCG_Rage of the\n"
+    "Abyss.");
+
+static const u8 sTCGRageoftheAbyssPremierepromotionalcardDesc[] = _(
+    "TCG_Rage of the\n"
+    "Abyss Premiere!\n"
+    "promotional card.");
+
+static const u8 sTCGRagingBattleDesc[] = _(
+    "TCG_Raging\n"
+    "Battle.");
+
+static const u8 sTCGRagingBattleSneakPeekParticipationCardDesc[] = _(
+    "TCG_Raging\n"
+    "Battle Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGRagingBattleSpecialEditionDesc[] = _(
+    "TCG_Raging\n"
+    "Battle: Special\n"
+    "Edition.");
+
+static const u8 sTCGRagingTempestDesc[] = _(
+    "TCG_Raging\n"
+    "Tempest.");
+
+static const u8 sTCGRagingTempestSneakPeekParticipationCardDesc[] = _(
+    "TCG_Raging\n"
+    "Tempest Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGRagingTempestSpecialEditionDesc[] = _(
+    "TCG_Raging\n"
+    "Tempest Special\n"
+    "Edition.");
+
+static const u8 sTCGRagingTempestSpecialEditionDesc[] = _(
+    "TCG_Raging\n"
+    "Tempest: Special\n"
+    "Edition.");
+
+static const u8 sTCGRealmofLightStructureDeckDesc[] = _(
+    "TCG_Realm of\n"
+    "Light Structure\n"
+    "Deck.");
+
+static const u8 sTCGRealmoftheSeaEmperorStructureDeckDesc[] = _(
+    "TCG_Realm of the\n"
+    "Sea Emperor\n"
+    "Structure Deck.");
+
+static const u8 sTCGRemoteDuelatHomeSweepstakesDesc[] = _(
+    "TCG_Remote Duel\n"
+    "at Home\n"
+    "Sweepstakes.");
+
+static const u8 sTCGRetroPackDesc[] = _(
+    "TCG_Retro Pack.");
+
+static const u8 sTCGRetroPack2Desc[] = _(
+    "TCG_Retro Pack 2.");
+
+static const u8 sTCGReturnoftheDuelistDesc[] = _(
+    "TCG_Return of\n"
+    "the Duelist.");
+
+static const u8 sTCGReturnoftheDuelistSneakPeekParticipationCardDesc[] = _(
+    "TCG_Return of\n"
+    "the Duelist\n"
+    "Sneak Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGReturnoftheDuelistSpecialEditionDesc[] = _(
+    "TCG_Return of\n"
+    "the Duelist:\n"
+    "Special Edition.");
+
+static const u8 sTCGRiseofDestinyDesc[] = _(
+    "TCG_Rise of\n"
+    "Destiny.");
+
+static const u8 sTCGRiseofDestinySpecialEditionDesc[] = _(
+    "TCG_Rise of\n"
+    "Destiny: Special\n"
+    "Edition.");
+
+static const u8 sTCGRiseoftheDragonLordsStructureDeckDesc[] = _(
+    "TCG_Rise of the\n"
+    "Dragon Lords\n"
+    "Structure Deck.");
+
+static const u8 sTCGRiseoftheDuelistDesc[] = _(
+    "TCG_Rise of the\n"
+    "Duelist.");
+
+static const u8 sTCGRiseoftheDuelistPremierepromotionalcardDesc[] = _(
+    "TCG_Rise of the\n"
+    "Duelist\n"
+    "Premiere!\n"
+    "promotional card.");
+
+static const u8 sTCGRiseoftheTrueDragonsStructureDeckDesc[] = _(
+    "TCG_Rise of the\n"
+    "True Dragons\n"
+    "Structure Deck.");
+
+static const u8 sTCGRisingRampageDesc[] = _(
+    "TCG_Rising\n"
+    "Rampage.");
+
+static const u8 sTCGRisingRampageSneakPeekParticipationCardDesc[] = _(
+    "TCG_Rising\n"
+    "Rampage Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGRisingRampageSpecialEditionDesc[] = _(
+    "TCG_Rising\n"
+    "Rampage Special\n"
+    "Edition.");
+
+static const u8 sTCGSaberForceStarterDeckDesc[] = _(
+    "TCG_Saber Force\n"
+    "Starter Deck.");
+
+static const u8 sTCGSagaofBlueEyesWhiteDragonStructureDeckDesc[] = _(
+    "TCG_Saga of\n"
+    "Blue-Eyes White\n"
+    "Dragon Structure\n"
+    "Deck.");
+
+static const u8 sTCGSamuraiAssaultDesc[] = _(
+    "TCG_Samurai\n"
+    "Assault.");
+
+static const u8 sTCGSamuraiWarlordsStructureDeckDesc[] = _(
+    "TCG_Samurai\n"
+    "Warlords\n"
+    "Structure Deck.");
+
+static const u8 sTCGSavageStrikeDesc[] = _(
+    "TCG_Savage\n"
+    "Strike.");
+
+static const u8 sTCGSavageStrikeSneakPeekParticipationCardDesc[] = _(
+    "TCG_Savage\n"
+    "Strike Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGSavageStrikeSpecialEditionDesc[] = _(
+    "TCG_Savage\n"
+    "Strike Special\n"
+    "Edition.");
+
+static const u8 sTCGSecretSlayersDesc[] = _(
+    "TCG_Secret\n"
+    "Slayers.");
+
+static const u8 sTCGSecretsofEternityDesc[] = _(
+    "TCG_Secrets of\n"
+    "Eternity.");
+
+static const u8 sTCGSecretsofEternitySneakPeekParticipationCardDesc[] = _(
+    "TCG_Secrets of\n"
+    "Eternity Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGSecretsofEternitySuperEditionDesc[] = _(
+    "TCG_Secrets of\n"
+    "Eternity: Super\n"
+    "Edition.");
+
+static const u8 sTCGShadowSpectersDesc[] = _(
+    "TCG_Shadow\n"
+    "Specters.");
+
+static const u8 sTCGShadowSpectersSneakPeekParticipationCardDesc[] = _(
+    "TCG_Shadow\n"
+    "Specters Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGShadowSpectersSpecialEditionDesc[] = _(
+    "TCG_Shadow\n"
+    "Specters:\n"
+    "Special Edition.");
+
+static const u8 sTCGShadowofInfinityDesc[] = _(
+    "TCG_Shadow of\n"
+    "Infinity.");
+
+static const u8 sTCGShadowofInfinitySneakPeekParticipationCardDesc[] = _(
+    "TCG_Shadow of\n"
+    "Infinity Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGShadowofInfinitySpecialEditionDesc[] = _(
+    "TCG_Shadow of\n"
+    "Infinity:\n"
+    "Special Edition.");
+
+static const u8 sTCGShadowsinValhallaDesc[] = _(
+    "TCG_Shadows in\n"
+    "Valhalla.");
+
+static const u8 sTCGShiningVictoriesDesc[] = _(
+    "TCG_Shining\n"
+    "Victories.");
+
+static const u8 sTCGShiningVictoriesSneakPeekParticipationCardDesc[] = _(
+    "TCG_Shining\n"
+    "Victories Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGShiningVictoriesSpecialEditionDesc[] = _(
+    "TCG_Shining\n"
+    "Victories:\n"
+    "Special Edition.");
+
+static const u8 sTCGShonenJump2007subscriptionbonusDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "2007\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sTCGShonenJumpAugust2008subscriptionbonusDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "August 2008\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sTCGShonenJumpChampionship2004PrizeCardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Championship\n"
+    "2004 Prize Card.");
+
+static const u8 sTCGShonenJumpChampionship2005PrizeCardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Championship\n"
+    "2005 Prize Card.");
+
+static const u8 sTCGShonenJumpChampionship2006PrizeCardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Championship\n"
+    "2006 Prize Card.");
+
+static const u8 sTCGShonenJumpChampionship2007PrizeCardADesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Championship\n"
+    "2007 Prize Card\n"
+    "A.");
+
+static const u8 sTCGShonenJumpChampionship2007PrizeCardBDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Championship\n"
+    "2007 Prize Card\n"
+    "B.");
+
+static const u8 sTCGShonenJumpChampionship2008PrizeCardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Championship\n"
+    "2008 Prize Card.");
+
+static const u8 sTCGShonenJumpChampionship2009PrizeCardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Championship\n"
+    "2009 Prize Card.");
+
+static const u8 sTCGShonenJumpDecember2010subscriptionbonusDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "December 2010\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sTCGShonenJumpDecember2011subscriptionbonusDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "December 2011\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sTCGShonenJumpFebruary2009subscriptionbonusDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "February 2009\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sTCGShonenJumpFifthAnniversaryCollectorsIssuepromotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Fifth\n"
+    "Anniversary\n"
+    "Collector's\n"
+    "Issue\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpJuneJuly2011subscriptionbonusDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "June/July 2011\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sTCGShonenJumpMarch2010subscriptionbonusDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "March 2010\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sTCGShonenJumpMay2006subscriptionbonusDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "May 2006\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sTCGShonenJumpMay2008subscriptionbonusDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "May 2008\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sTCGShonenJumpMay2010subscriptionbonusDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "May 2010\n"
+    "subscription\n"
+    "bonus.");
+
+static const u8 sTCGShonenJumpScholasticEditionVol9Issue1promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Scholastic\n"
+    "Edition Vol. 9,\n"
+    "Issue 1\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol1Issue1promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 1, Issue 1\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol10Issue1promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 10, Issue 1\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol10Issue3promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 10, Issue 3\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol10Issue4promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 10, Issue 4\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol2Issue1promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 2, Issue 1\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol3Issue1promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 3, Issue 1\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol3Issue11promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 3, Issue 11\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol3Issue6promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 3, Issue 6\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol3Issue9promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 3, Issue 9\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol4Issue1promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 4, Issue 1\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol4Issue10promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 4, Issue 10\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol4Issue11promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 4, Issue 11\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol4Issue12promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 4, Issue 12\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol4Issue2promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 4, Issue 2\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol4Issue5promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 4, Issue 5\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol5Issue1promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 5, Issue 1\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol5Issue11promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 5, Issue 11\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol5Issue4promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 5, Issue 4\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol5Issue6promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 5, Issue 6\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol5Issue9promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 5, Issue 9\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol6Issue1promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 6, Issue 1\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol6Issue12promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 6, Issue 12\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol6Issue3promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 6, Issue 3\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol6Issue5promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 6, Issue 5\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol6Issue9promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 6, Issue 9\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol7Issue1promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 7, Issue 1\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol7Issue11promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 7, Issue 11\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol7Issue3promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 7, Issue 3\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol7Issue6promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 7, Issue 6\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol7Issue9promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 7, Issue 9\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol8Issue1promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 8, Issue 1\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol8Issue11promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 8, Issue 11\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol8Issue3promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 8, Issue 3\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol8Issue5promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 8, Issue 5\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol8Issue7promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 8, Issue 7\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol8Issue9promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 8, Issue 9\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol9Issue1promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 9, Issue 1\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol9Issue10promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 9, Issue 10\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol9Issue3promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 9, Issue 3\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol9Issue4promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 9, Issue 4\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol9Issue6promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 9, Issue 6\n"
+    "promotional card.");
+
+static const u8 sTCGShonenJumpVol9Issue8promotionalcardDesc[] = _(
+    "TCG_Shonen Jump\n"
+    "Vol. 9, Issue 8\n"
+    "promotional card.");
+
+static const u8 sTCGSoulFusionDesc[] = _(
+    "TCG_Soul Fusion.");
+
+static const u8 sTCGSoulFusionSneakPeekParticipationCardDesc[] = _(
+    "TCG_Soul Fusion\n"
+    "Sneak Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGSoulFusionSpecialEditionDesc[] = _(
+    "TCG_Soul Fusion\n"
+    "Special Edition.");
+
+static const u8 sTCGSouloftheDuelistDesc[] = _(
+    "TCG_Soul of the\n"
+    "Duelist.");
+
+static const u8 sTCGSpaceTimeShowdownPowerUpPackDesc[] = _(
+    "TCG_Space-Time\n"
+    "Showdown Power-\n"
+    "Up Pack.");
+
+static const u8 sTCGSpeedDuelDemoDeckDesc[] = _(
+    "TCG_Speed Duel\n"
+    "Demo Deck.");
+
+static const u8 sTCGSpeedDuelDemoDeck2020Desc[] = _(
+    "TCG_Speed Duel\n"
+    "Demo Deck 2020.");
+
+static const u8 sTCGSpeedDuelGXDuelAcademyBoxDesc[] = _(
+    "TCG_Speed Duel\n"
+    "GX: Duel Academy\n"
+    "Box.");
+
+static const u8 sTCGSpeedDuelGXDuelistsofShadowsDesc[] = _(
+    "TCG_Speed Duel\n"
+    "GX: Duelists of\n"
+    "Shadows.");
+
+static const u8 sTCGSpeedDuelGXMidtermDestructionDesc[] = _(
+    "TCG_Speed Duel\n"
+    "GX: Midterm\n"
+    "Destruction.");
+
+static const u8 sTCGSpeedDuelGXMidtermParadoxDesc[] = _(
+    "TCG_Speed Duel\n"
+    "GX: Midterm\n"
+    "Paradox.");
+
+static const u8 sTCGSpeedDuelRemoteDuelExtravaganzaMainEventprizecardsDesc[] = _(
+    "TCG_Speed Duel\n"
+    "Remote Duel\n"
+    "Extravaganza\n"
+    "Main Event prize\n"
+    "cards.");
+
+static const u8 sTCGSpeedDuelStarterDecksDestinyMastersDesc[] = _(
+    "TCG_Speed Duel\n"
+    "Starter Decks:\n"
+    "Destiny Masters.");
+
+static const u8 sTCGSpeedDuelStarterDecksDuelistsofTomorrowDesc[] = _(
+    "TCG_Speed Duel\n"
+    "Starter Decks:\n"
+    "Duelists of\n"
+    "Tomorrow.");
+
+static const u8 sTCGSpeedDuelStarterDecksMatchoftheMillenniumDesc[] = _(
+    "TCG_Speed Duel\n"
+    "Starter Decks:\n"
+    "Match of the\n"
+    "Millennium.");
+
+static const u8 sTCGSpeedDuelStarterDecksTwistedNightmaresDesc[] = _(
+    "TCG_Speed Duel\n"
+    "Starter Decks:\n"
+    "Twisted\n"
+    "Nightmares.");
+
+static const u8 sTCGSpeedDuelStarterDecksUltimatePredatorsDesc[] = _(
+    "TCG_Speed Duel\n"
+    "Starter Decks:\n"
+    "Ultimate\n"
+    "Predators.");
+
+static const u8 sTCGSpeedDuelTournamentPack1Desc[] = _(
+    "TCG_Speed Duel\n"
+    "Tournament Pack\n"
+    "1.");
+
+static const u8 sTCGSpeedDuelTournamentPack2Desc[] = _(
+    "TCG_Speed Duel\n"
+    "Tournament Pack\n"
+    "2.");
+
+static const u8 sTCGSpeedDuelTournamentPack3Desc[] = _(
+    "TCG_Speed Duel\n"
+    "Tournament Pack\n"
+    "3.");
+
+static const u8 sTCGSpeedDuelTournamentPack4Desc[] = _(
+    "TCG_Speed Duel\n"
+    "Tournament Pack\n"
+    "4.");
+
+static const u8 sTCGSpeedDuelTournamentPack5Desc[] = _(
+    "TCG_Speed Duel\n"
+    "Tournament Pack\n"
+    "5.");
+
+static const u8 sTCGSpeedDuelTournamentPack6Desc[] = _(
+    "TCG_Speed Duel\n"
+    "Tournament Pack\n"
+    "6.");
+
+static const u8 sTCGSpeedDuelTournamentPack7Desc[] = _(
+    "TCG_Speed Duel\n"
+    "Tournament Pack\n"
+    "7.");
+
+static const u8 sTCGSpeedDuelArenaofLostSoulsDesc[] = _(
+    "TCG_Speed Duel:\n"
+    "Arena of Lost\n"
+    "Souls.");
+
+static const u8 sTCGSpeedDuelAttackfromtheDeepDesc[] = _(
+    "TCG_Speed Duel:\n"
+    "Attack from the\n"
+    "Deep.");
+
+static const u8 sTCGSpeedDuelBattleCityBoxDesc[] = _(
+    "TCG_Speed Duel:\n"
+    "Battle City Box.");
+
+static const u8 sTCGSpeedDuelBattleCityFinalsDesc[] = _(
+    "TCG_Speed Duel:\n"
+    "Battle City\n"
+    "Finals.");
+
+static const u8 sTCGSpeedDuelScarsofBattleDesc[] = _(
+    "TCG_Speed Duel:\n"
+    "Scars of Battle.");
+
+static const u8 sTCGSpeedDuelStreetsofBattleCityDesc[] = _(
+    "TCG_Speed Duel:\n"
+    "Streets of\n"
+    "Battle City.");
+
+static const u8 sTCGSpeedDuelTrialsoftheKingdomDesc[] = _(
+    "TCG_Speed Duel:\n"
+    "Trials of the\n"
+    "Kingdom.");
+
+static const u8 sTCGSpeedDuelTrialsoftheKingdomSneakPeekparticipationcardsDesc[] = _(
+    "TCG_Speed Duel:\n"
+    "Trials of the\n"
+    "Kingdom Sneak\n"
+    "Peek\n"
+    "participation\n"
+    "cards.");
+
+static const u8 sTCGSpellRulerDesc[] = _(
+    "TCG_Spell Ruler.");
+
+static const u8 sTCGSpellRuler25thAnniversaryEditionDesc[] = _(
+    "TCG_Spell Ruler\n"
+    "(25th\n"
+    "Anniversary\n"
+    "Edition).");
+
+static const u8 sTCGSpellcastersCommandStructureDeckDesc[] = _(
+    "TCG_Spellcaster'\n"
+    "s Command\n"
+    "Structure Deck.");
+
+static const u8 sTCGSpellcastersCommandStructureDeckSpecialEditionDesc[] = _(
+    "TCG_Spellcaster'\n"
+    "s Command\n"
+    "Structure Deck:\n"
+    "Special Edition.");
+
+static const u8 sTCGSpiritWarriorsDesc[] = _(
+    "TCG_Spirit\n"
+    "Warriors.");
+
+static const u8 sTCGStainlessSteelCardDarkMagicianGirlDesc[] = _(
+    "TCG_Stainless\n"
+    "Steel Card: Dark\n"
+    "Magician Girl.");
+
+static const u8 sTCGStainlessSteelEgyptianGodCardsSweepstakesDesc[] = _(
+    "TCG_Stainless\n"
+    "Steel Egyptian\n"
+    "God Cards\n"
+    "Sweepstakes.");
+
+static const u8 sTCGStarPack2013Desc[] = _(
+    "TCG_Star Pack\n"
+    "2013.");
+
+static const u8 sTCGStarPack2014Desc[] = _(
+    "TCG_Star Pack\n"
+    "2014.");
+
+static const u8 sTCGStarPackARCVDesc[] = _(
+    "TCG_Star Pack\n"
+    "ARC-V.");
+
+static const u8 sTCGStarPackBattleRoyalDesc[] = _(
+    "TCG_Star Pack\n"
+    "Battle Royal.");
+
+static const u8 sTCGStarPackVRAINSDesc[] = _(
+    "TCG_Star Pack\n"
+    "VRAINS.");
+
+static const u8 sTCGStardustOverdriveDesc[] = _(
+    "TCG_Stardust\n"
+    "Overdrive.");
+
+static const u8 sTCGStardustOverdriveSneakPeekParticipationCardDesc[] = _(
+    "TCG_Stardust\n"
+    "Overdrive Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGStardustOverdriveSpecialEditionDesc[] = _(
+    "TCG_Stardust\n"
+    "Overdrive:\n"
+    "Special Edition.");
+
+static const u8 sTCGStarstrikeBlastDesc[] = _(
+    "TCG_Starstrike\n"
+    "Blast.");
+
+static const u8 sTCGStarstrikeBlastSneakPeekParticipationCardDesc[] = _(
+    "TCG_Starstrike\n"
+    "Blast Sneak Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGStarterDeck2006Desc[] = _(
+    "TCG_Starter Deck\n"
+    "2006.");
+
+static const u8 sTCGStarterDeck2006SpecialEditionDesc[] = _(
+    "TCG_Starter Deck\n"
+    "2006: Special\n"
+    "Edition.");
+
+static const u8 sTCGStarterDeckCodebreakerDesc[] = _(
+    "TCG_Starter\n"
+    "Deck:\n"
+    "Codebreaker.");
+
+static const u8 sTCGStarterDeckDawnoftheXyzDesc[] = _(
+    "TCG_Starter\n"
+    "Deck: Dawn of\n"
+    "the Xyz.");
+
+static const u8 sTCGStarterDeckDuelistToolboxDesc[] = _(
+    "TCG_Starter\n"
+    "Deck: Duelist\n"
+    "Toolbox.");
+
+static const u8 sTCGStarterDeckJadenYukiDesc[] = _(
+    "TCG_Starter\n"
+    "Deck: Jaden Yuki.");
+
+static const u8 sTCGStarterDeckJoeyDesc[] = _(
+    "TCG_Starter\n"
+    "Deck: Joey.");
+
+static const u8 sTCGStarterDeckKaibaDesc[] = _(
+    "TCG_Starter\n"
+    "Deck: Kaiba.");
+
+static const u8 sTCGStarterDeckKaibaEvolutionDesc[] = _(
+    "TCG_Starter\n"
+    "Deck: Kaiba\n"
+    "Evolution.");
+
+static const u8 sTCGStarterDeckKaibaReloadedDesc[] = _(
+    "TCG_Starter\n"
+    "Deck: Kaiba\n"
+    "Reloaded.");
+
+static const u8 sTCGStarterDeckLinkStrikeDesc[] = _(
+    "TCG_Starter\n"
+    "Deck: Link\n"
+    "Strike.");
+
+static const u8 sTCGStarterDeckPegasusDesc[] = _(
+    "TCG_Starter\n"
+    "Deck: Pegasus.");
+
+static const u8 sTCGStarterDeckSyrusTruesdaleDesc[] = _(
+    "TCG_Starter\n"
+    "Deck: Syrus\n"
+    "Truesdale.");
+
+static const u8 sTCGStarterDeckXyzSymphonyDesc[] = _(
+    "TCG_Starter\n"
+    "Deck: Xyz\n"
+    "Symphony.");
+
+static const u8 sTCGStarterDeckYuGiOh5DsDesc[] = _(
+    "TCG_Starter\n"
+    "Deck: Yu-Gi-Oh!\n"
+    "5D's.");
+
+static const u8 sTCGStarterDeckYuGiOh5Ds2009Desc[] = _(
+    "TCG_Starter\n"
+    "Deck: Yu-Gi-Oh!\n"
+    "5D's 2009.");
+
+static const u8 sTCGStarterDeckYugiDesc[] = _(
+    "TCG_Starter\n"
+    "Deck: Yugi.");
+
+static const u8 sTCGStarterDeckYugiEvolutionDesc[] = _(
+    "TCG_Starter\n"
+    "Deck: Yugi\n"
+    "Evolution.");
+
+static const u8 sTCGStarterDeckYugiReloadedDesc[] = _(
+    "TCG_Starter\n"
+    "Deck: Yugi\n"
+    "Reloaded.");
+
+static const u8 sTCGStarterDeckYuyaDesc[] = _(
+    "TCG_Starter\n"
+    "Deck: Yuya.");
+
+static const u8 sTCGStormofRagnarokDesc[] = _(
+    "TCG_Storm of\n"
+    "Ragnarok.");
+
+static const u8 sTCGStormofRagnarokSneakPeekParticipationCardDesc[] = _(
+    "TCG_Storm of\n"
+    "Ragnarok Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGStormofRagnarokSpecialEditionDesc[] = _(
+    "TCG_Storm of\n"
+    "Ragnarok:\n"
+    "Special Edition.");
+
+static const u8 sTCGStrikeofNeosDesc[] = _(
+    "TCG_Strike of\n"
+    "Neos.");
+
+static const u8 sTCGStrikeofNeosSneakPeekParticipationCardDesc[] = _(
+    "TCG_Strike of\n"
+    "Neos Sneak Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGStrikeofNeosSpecialEditionDesc[] = _(
+    "TCG_Strike of\n"
+    "Neos: Special\n"
+    "Edition.");
+
+static const u8 sTCGStructureDeckAlbazStrikeDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Albaz\n"
+    "Strike.");
+
+static const u8 sTCGStructureDeckBewareofTraptrixDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Beware of\n"
+    "Traptrix.");
+
+static const u8 sTCGStructureDeckBlazeofDestructionDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Blaze of\n"
+    "Destruction.");
+
+static const u8 sTCGStructureDeckBlueEyesWhiteDestinyDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Blue-Eyes\n"
+    "White Destiny.");
+
+static const u8 sTCGStructureDeckCyberStrikeDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Cyber\n"
+    "Strike.");
+
+static const u8 sTCGStructureDeckCyberseLinkDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Cyberse\n"
+    "Link.");
+
+static const u8 sTCGStructureDeckDarkWorldDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Dark World.");
+
+static const u8 sTCGStructureDeckDeluxeEditionDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Deluxe\n"
+    "Edition.");
+
+static const u8 sTCGStructureDeckDinosaursRageDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Dinosaur's\n"
+    "Rage.");
+
+static const u8 sTCGStructureDeckDinosaursRageSpecialSetDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Dinosaur's\n"
+    "Rage Special Set.");
+
+static const u8 sTCGStructureDeckDragonsRoarDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Dragon's\n"
+    "Roar.");
+
+static const u8 sTCGStructureDeckFireKingsDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Fire Kings.");
+
+static const u8 sTCGStructureDeckFreezingChainsDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Freezing\n"
+    "Chains.");
+
+static const u8 sTCGStructureDeckFuryfromtheDeepDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Fury from\n"
+    "the Deep.");
+
+static const u8 sTCGStructureDeckInvincibleFortressDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Invincible\n"
+    "Fortress.");
+
+static const u8 sTCGStructureDeckLairofDarknessDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Lair of\n"
+    "Darkness.");
+
+static const u8 sTCGStructureDeckLegendoftheCrystalBeastsDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Legend of\n"
+    "the Crystal\n"
+    "Beasts.");
+
+static const u8 sTCGStructureDeckLordoftheStormDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Lord of\n"
+    "the Storm.");
+
+static const u8 sTCGStructureDeckMachineReVoltDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Machine\n"
+    "Re-Volt.");
+
+static const u8 sTCGStructureDeckMarikTCGDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Marik\n"
+    "(TCG).");
+
+static const u8 sTCGStructureDeckMechanizedMadnessDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Mechanized\n"
+    "Madness.");
+
+static const u8 sTCGStructureDeckOrderoftheSpellcastersDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Order of\n"
+    "the Spellcasters.");
+
+static const u8 sTCGStructureDeckPowercodeLinkDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Powercode\n"
+    "Link.");
+
+static const u8 sTCGStructureDeckRokketRevoltDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Rokket\n"
+    "Revolt.");
+
+static const u8 sTCGStructureDeckSacredBeastsDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Sacred\n"
+    "Beasts.");
+
+static const u8 sTCGStructureDeckSetoKaibaDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Seto Kaiba.");
+
+static const u8 sTCGStructureDeckShaddollShowdownDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Shaddoll\n"
+    "Showdown.");
+
+static const u8 sTCGStructureDeckSoulburnerDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Soulburner.");
+
+static const u8 sTCGStructureDeckSpellcastersJudgmentDesc[] = _(
+    "TCG_Structure\n"
+    "Deck:\n"
+    "Spellcaster's\n"
+    "Judgment.");
+
+static const u8 sTCGStructureDeckSpiritCharmersDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Spirit\n"
+    "Charmers.");
+
+static const u8 sTCGStructureDeckTheCrimsonKingDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: The\n"
+    "Crimson King.");
+
+static const u8 sTCGStructureDeckWarriorsTriumphDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Warrior's\n"
+    "Triumph.");
+
+static const u8 sTCGStructureDeckWaveofLightDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Wave of\n"
+    "Light.");
+
+static const u8 sTCGStructureDeckYugiMutoDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Yugi Muto.");
+
+static const u8 sTCGStructureDeckZombieHordeDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Zombie\n"
+    "Horde.");
+
+static const u8 sTCGStructureDeckZombieMadnessDesc[] = _(
+    "TCG_Structure\n"
+    "Deck: Zombie\n"
+    "Madness.");
+
+static const u8 sTCGSummonedSkullSamplepromotionalcardDesc[] = _(
+    "TCG_Summoned\n"
+    "Skull Sample\n"
+    "promotional card.");
+
+static const u8 sTCGSuperStarterPowerUpPackDesc[] = _(
+    "TCG_Super\n"
+    "Starter Power-Up\n"
+    "Pack.");
+
+static const u8 sTCGSuperStarterSpaceTimeShowdownDesc[] = _(
+    "TCG_Super\n"
+    "Starter: Space-\n"
+    "Time Showdown.");
+
+static const u8 sTCGSuperStarterVforVictoryDesc[] = _(
+    "TCG_Super\n"
+    "Starter: V for\n"
+    "Victory.");
+
+static const u8 sTCGSupremeDarknessDesc[] = _(
+    "TCG_Supreme\n"
+    "Darkness.");
+
+static const u8 sTCGSupremeDarknessPremierepromotionalcardDesc[] = _(
+    "TCG_Supreme\n"
+    "Darkness\n"
+    "Premiere!\n"
+    "promotional card.");
+
+static const u8 sTCGSwedishShonenJump2004Issue2promotionalcardDesc[] = _(
+    "TCG_Swedish\n"
+    "Shonen Jump\n"
+    "2004, Issue 2\n"
+    "promotional card.");
+
+static const u8 sTCGSwedishShonenJump2005Issue12promotionalcardDesc[] = _(
+    "TCG_Swedish\n"
+    "Shonen Jump\n"
+    "2005, Issue 12\n"
+    "promotional card.");
+
+static const u8 sTCGSynchronExtremeStructureDeckDesc[] = _(
+    "TCG_Synchron\n"
+    "Extreme\n"
+    "Structure Deck.");
+
+static const u8 sTCGTacticalEvolutionDesc[] = _(
+    "TCG_Tactical\n"
+    "Evolution.");
+
+static const u8 sTCGTacticalEvolutionSneakPeekParticipationCardDesc[] = _(
+    "TCG_Tactical\n"
+    "Evolution Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGTacticalEvolutionSpecialEditionDesc[] = _(
+    "TCG_Tactical\n"
+    "Evolution:\n"
+    "Special Edition.");
+
+static const u8 sTCGTacticalMastersDesc[] = _(
+    "TCG_Tactical\n"
+    "Masters.");
+
+static const u8 sTCGTheDarkEmperorStructureDeckDesc[] = _(
+    "TCG_The Dark\n"
+    "Emperor\n"
+    "Structure Deck.");
+
+static const u8 sTCGTheDarkIllusionDesc[] = _(
+    "TCG_The Dark\n"
+    "Illusion.");
+
+static const u8 sTCGTheDarkIllusionSneakPeekParticipationCardDesc[] = _(
+    "TCG_The Dark\n"
+    "Illusion Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGTheDarkIllusionSpecialEditionDesc[] = _(
+    "TCG_The Dark\n"
+    "Illusion:\n"
+    "Special Edition.");
+
+static const u8 sTCGTheDuelistGenesisDesc[] = _(
+    "TCG_The Duelist\n"
+    "Genesis.");
+
+static const u8 sTCGTheDuelistGenesisSneakPeekParticipationCardDesc[] = _(
+    "TCG_The Duelist\n"
+    "Genesis Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGTheDuelistGenesisSpecialEditionDesc[] = _(
+    "TCG_The Duelist\n"
+    "Genesis: Special\n"
+    "Edition.");
+
+static const u8 sTCGTheGrandCreatorsDesc[] = _(
+    "TCG_The Grand\n"
+    "Creators.");
+
+static const u8 sTCGTheInfiniteForbiddenDesc[] = _(
+    "TCG_The Infinite\n"
+    "Forbidden.");
+
+static const u8 sTCGTheInfiniteForbiddenPremierepromotionalcardDesc[] = _(
+    "TCG_The Infinite\n"
+    "Forbidden\n"
+    "Premiere!\n"
+    "promotional card.");
+
+static const u8 sTCGTheInfinityChasersDesc[] = _(
+    "TCG_The Infinity\n"
+    "Chasers.");
+
+static const u8 sTCGTheLostArtPromotion2019ADesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2019 A.");
+
+static const u8 sTCGTheLostArtPromotion2019BDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2019 B.");
+
+static const u8 sTCGTheLostArtPromotion2019CDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2019 C.");
+
+static const u8 sTCGTheLostArtPromotion2019DDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2019 D.");
+
+static const u8 sTCGTheLostArtPromotion2019EDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2019 E.");
+
+static const u8 sTCGTheLostArtPromotion2019FDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2019 F.");
+
+static const u8 sTCGTheLostArtPromotion2020ADesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2020 A.");
+
+static const u8 sTCGTheLostArtPromotion2020BDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2020 B.");
+
+static const u8 sTCGTheLostArtPromotion2020CDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2020 C.");
+
+static const u8 sTCGTheLostArtPromotion2020DDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2020 D.");
+
+static const u8 sTCGTheLostArtPromotion2020EDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2020 E.");
+
+static const u8 sTCGTheLostArtPromotion2020FDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2020 F.");
+
+static const u8 sTCGTheLostArtPromotion2020GDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2020 G.");
+
+static const u8 sTCGTheLostArtPromotion2020HDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2020 H.");
+
+static const u8 sTCGTheLostArtPromotion2020IDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2020 I.");
+
+static const u8 sTCGTheLostArtPromotion2020JDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2020 J.");
+
+static const u8 sTCGTheLostArtPromotion2020KDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2020 K.");
+
+static const u8 sTCGTheLostArtPromotion2020LDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2020 L.");
+
+static const u8 sTCGTheLostArtPromotion2020MDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2020 M.");
+
+static const u8 sTCGTheLostArtPromotion2020NDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2020 N.");
+
+static const u8 sTCGTheLostArtPromotion2020ODesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2020 O.");
+
+static const u8 sTCGTheLostArtPromotion2020PDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2020 P.");
+
+static const u8 sTCGTheLostArtPromotion2020QDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2020 Q.");
+
+static const u8 sTCGTheLostArtPromotion2020RDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2020 R.");
+
+static const u8 sTCGTheLostArtPromotion2021ADesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2021 A.");
+
+static const u8 sTCGTheLostArtPromotion2021BDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2021 B.");
+
+static const u8 sTCGTheLostArtPromotion2021CDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2021 C.");
+
+static const u8 sTCGTheLostArtPromotion2021DDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2021 D.");
+
+static const u8 sTCGTheLostArtPromotion2021EDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2021 E.");
+
+static const u8 sTCGTheLostArtPromotion2021FDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2021 F.");
+
+static const u8 sTCGTheLostArtPromotion2021GDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2021 G.");
+
+static const u8 sTCGTheLostArtPromotion2021HDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2021 H.");
+
+static const u8 sTCGTheLostArtPromotion2021IDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2021 I.");
+
+static const u8 sTCGTheLostArtPromotion2021JDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2021 J.");
+
+static const u8 sTCGTheLostArtPromotion2021KDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2021 K.");
+
+static const u8 sTCGTheLostArtPromotion2021LDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2021 L.");
+
+static const u8 sTCGTheLostArtPromotion2022ADesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2022 A.");
+
+static const u8 sTCGTheLostArtPromotion2022BDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2022 B.");
+
+static const u8 sTCGTheLostArtPromotion2022CDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2022 C.");
+
+static const u8 sTCGTheLostArtPromotion2022DDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2022 D.");
+
+static const u8 sTCGTheLostArtPromotion2022EDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2022 E.");
+
+static const u8 sTCGTheLostArtPromotion2022FDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2022 F.");
+
+static const u8 sTCGTheLostArtPromotion2022GDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2022 G.");
+
+static const u8 sTCGTheLostArtPromotion2022HDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2022 H.");
+
+static const u8 sTCGTheLostArtPromotion2022IDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2022 I.");
+
+static const u8 sTCGTheLostArtPromotion2022JDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2022 J.");
+
+static const u8 sTCGTheLostArtPromotion2022KDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2022 K.");
+
+static const u8 sTCGTheLostArtPromotion2023ADesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2023 A.");
+
+static const u8 sTCGTheLostArtPromotion2023BDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2023 B.");
+
+static const u8 sTCGTheLostArtPromotion2023CDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2023 C.");
+
+static const u8 sTCGTheLostArtPromotion2023DDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2023 D.");
+
+static const u8 sTCGTheLostArtPromotion2023EDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2023 E.");
+
+static const u8 sTCGTheLostArtPromotion2023FDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2023 F.");
+
+static const u8 sTCGTheLostArtPromotion2023GDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2023 G.");
+
+static const u8 sTCGTheLostArtPromotion2023HDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2023 H.");
+
+static const u8 sTCGTheLostArtPromotion2023IDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2023 I.");
+
+static const u8 sTCGTheLostArtPromotion2023JDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2023 J.");
+
+static const u8 sTCGTheLostArtPromotion2023KDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2023 K.");
+
+static const u8 sTCGTheLostArtPromotion2023LDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2023 L.");
+
+static const u8 sTCGTheLostArtPromotion2024ADesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2024 A.");
+
+static const u8 sTCGTheLostArtPromotion2024BDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2024 B.");
+
+static const u8 sTCGTheLostArtPromotion2024CDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2024 C.");
+
+static const u8 sTCGTheLostArtPromotion2024DDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2024 D.");
+
+static const u8 sTCGTheLostArtPromotion2024EDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2024 E.");
+
+static const u8 sTCGTheLostArtPromotion2024FDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2024 F.");
+
+static const u8 sTCGTheLostArtPromotion2024GDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2024 G.");
+
+static const u8 sTCGTheLostArtPromotion2024HDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion 2024 H.");
+
+static const u8 sTCGTheLostArtPromotionADesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion A.");
+
+static const u8 sTCGTheLostArtPromotionBDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion B.");
+
+static const u8 sTCGTheLostArtPromotionCDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion C.");
+
+static const u8 sTCGTheLostArtPromotionDDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion D.");
+
+static const u8 sTCGTheLostArtPromotionEDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion E.");
+
+static const u8 sTCGTheLostArtPromotionFDesc[] = _(
+    "TCG_The Lost Art\n"
+    "Promotion F.");
+
+static const u8 sTCGTheLostMillenniumDesc[] = _(
+    "TCG_The Lost\n"
+    "Millennium.");
+
+static const u8 sTCGTheLostMillenniumSneakPeekParticipationCardDesc[] = _(
+    "TCG_The Lost\n"
+    "Millennium Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGTheLostMillenniumSpecialEditionDesc[] = _(
+    "TCG_The Lost\n"
+    "Millennium:\n"
+    "Special Edition.");
+
+static const u8 sTCGTheNewChallengersDesc[] = _(
+    "TCG_The New\n"
+    "Challengers.");
+
+static const u8 sTCGTheNewChallengersSneakPeekParticipationCardDesc[] = _(
+    "TCG_The New\n"
+    "Challengers\n"
+    "Sneak Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGTheNewChallengersSuperEditionDesc[] = _(
+    "TCG_The New\n"
+    "Challengers:\n"
+    "Super Edition.");
+
+static const u8 sTCGThePotCollectionDesc[] = _(
+    "TCG_The Pot\n"
+    "Collection.");
+
+static const u8 sTCGTheSecretForcesDesc[] = _(
+    "TCG_The Secret\n"
+    "Forces.");
+
+static const u8 sTCGTheShiningDarknessDesc[] = _(
+    "TCG_The Shining\n"
+    "Darkness.");
+
+static const u8 sTCGTheShiningDarknessSneakPeekParticipationCardDesc[] = _(
+    "TCG_The Shining\n"
+    "Darkness Sneak\n"
+    "Peek\n"
+    "Participation\n"
+    "Card.");
+
+static const u8 sTCGToonChaosDesc[] = _(
+    "TCG_Toon Chaos.");
+
+static const u8 sTCGTournamentPack4Desc[] = _(
+    "TCG_Tournament\n"
+    "Pack 4.");
+
+static const u8 sTCGTournamentPack5Desc[] = _(
+    "TCG_Tournament\n"
+    "Pack 5.");
+
+static const u8 sTCGTournamentPack6Desc[] = _(
+    "TCG_Tournament\n"
+    "Pack 6.");
+
+static const u8 sTCGTournamentPack7Desc[] = _(
+    "TCG_Tournament\n"
+    "Pack 7.");
+
+static const u8 sTCGTournamentPack8Desc[] = _(
+    "TCG_Tournament\n"
+    "Pack 8.");
+
+static const u8 sTCGTournamentPack1stSeasonDesc[] = _(
+    "TCG_Tournament\n"
+    "Pack: 1st Season.");
+
+static const u8 sTCGTournamentPack2ndSeasonDesc[] = _(
+    "TCG_Tournament\n"
+    "Pack: 2nd Season.");
+
+static const u8 sTCGTournamentPack3rdSeasonDesc[] = _(
+    "TCG_Tournament\n"
+    "Pack: 3rd Season.");
+
+static const u8 sTCGTrialsofthePharaohMatchoftheMillenniumTwistedNightmarespromotionalcardDesc[] = _(
+    "TCG_Trials of\n"
+    "the Pharaoh -\n"
+    "Match of the\n"
+    "Millennium &\n"
+    "Twisted\n"
+    "Nightmares\n"
+    "promotional card.");
+
+static const u8 sTCGTrialsofthePharaohSpeedDuelGXDuelAcademyBoxpromotionalcardDesc[] = _(
+    "TCG_Trials of\n"
+    "the Pharaoh -\n"
+    "Speed Duel GX:\n"
+    "Duel Academy Box\n"
+    "promotional card.");
+
+static const u8 sTCGTrialsofthePharaohSpeedDuelGXMidtermParadoxpromotionalcardDesc[] = _(
+    "TCG_Trials of\n"
+    "the Pharaoh -\n"
+    "Speed Duel GX:\n"
+    "Midterm Paradox\n"
+    "promotional card.");
+
+static const u8 sTCGTrialsofthePharaohSpeedDuelBattleCityBoxpromotionalcardDesc[] = _(
+    "TCG_Trials of\n"
+    "the Pharaoh -\n"
+    "Speed Duel:\n"
+    "Battle City Box\n"
+    "promotional card.");
+
+static const u8 sTCGTrialsofthePharaohTrialsoftheKingdompromotionalcardDesc[] = _(
+    "TCG_Trials of\n"
+    "the Pharaoh -\n"
+    "Trials of the\n"
+    "Kingdom\n"
+    "promotional card.");
+
+static const u8 sTCGTurboPackBoosterEightDesc[] = _(
+    "TCG_Turbo Pack:\n"
+    "Booster Eight.");
+
+static const u8 sTCGTurboPackBoosterFiveDesc[] = _(
+    "TCG_Turbo Pack:\n"
+    "Booster Five.");
+
+static const u8 sTCGTurboPackBoosterFourDesc[] = _(
+    "TCG_Turbo Pack:\n"
+    "Booster Four.");
+
+static const u8 sTCGTurboPackBoosterOneDesc[] = _(
+    "TCG_Turbo Pack:\n"
+    "Booster One.");
+
+static const u8 sTCGTurboPackBoosterSevenDesc[] = _(
+    "TCG_Turbo Pack:\n"
+    "Booster Seven.");
+
+static const u8 sTCGTurboPackBoosterSixDesc[] = _(
+    "TCG_Turbo Pack:\n"
+    "Booster Six.");
+
+static const u8 sTCGTurboPackBoosterThreeDesc[] = _(
+    "TCG_Turbo Pack:\n"
+    "Booster Three.");
+
+static const u8 sTCGTurboPackBoosterTwoDesc[] = _(
+    "TCG_Turbo Pack:\n"
+    "Booster Two.");
+
+static const u8 sTCGTwilightEditionDesc[] = _(
+    "TCG_Twilight\n"
+    "Edition.");
+
+static const u8 sTCGUltimateEditionDesc[] = _(
+    "TCG_Ultimate\n"
+    "Edition.");
+
+static const u8 sTCGUltimateEdition2Desc[] = _(
+    "TCG_Ultimate\n"
+    "Edition 2.");
+
+static const u8 sTCGValiantSmashersDesc[] = _(
+    "TCG_Valiant\n"
+    "Smashers.");
+
+static const u8 sTCGWSJJumpPackFall2016promotionalcardDesc[] = _(
+    "TCG_WSJ Jump\n"
+    "Pack Fall 2016\n"
+    "promotional card.");
+
+static const u8 sTCGWSJJumpPackFall2017promotionalcardDesc[] = _(
+    "TCG_WSJ Jump\n"
+    "Pack Fall 2017\n"
+    "promotional card.");
+
+static const u8 sTCGWSJJumpPackFall2018promotionalcardDesc[] = _(
+    "TCG_WSJ Jump\n"
+    "Pack Fall 2018\n"
+    "promotional card.");
+
+static const u8 sTCGWSJJumpPackSpring2016promotionalcardDesc[] = _(
+    "TCG_WSJ Jump\n"
+    "Pack Spring 2016\n"
+    "promotional card.");
+
+static const u8 sTCGWSJJumpPackSpring2017promotionalcardDesc[] = _(
+    "TCG_WSJ Jump\n"
+    "Pack Spring 2017\n"
+    "promotional card.");
+
+static const u8 sTCGWSJJumpPackSpring2018promotionalcardDesc[] = _(
+    "TCG_WSJ Jump\n"
+    "Pack Spring 2018\n"
+    "promotional card.");
+
+static const u8 sTCGWSJJumpPackSpring2019promotionalcardDesc[] = _(
+    "TCG_WSJ Jump\n"
+    "Pack Spring 2019\n"
+    "promotional card.");
+
+static const u8 sTCGWaroftheGiantsReinforcementsDesc[] = _(
+    "TCG_War of the\n"
+    "Giants\n"
+    "Reinforcements.");
+
+static const u8 sTCGWaroftheGiantsRound2Desc[] = _(
+    "TCG_War of the\n"
+    "Giants: Round 2.");
+
+static const u8 sTCGWarriorsStrikeStructureDeckDesc[] = _(
+    "TCG_Warriors'\n"
+    "Strike Structure\n"
+    "Deck.");
+
+static const u8 sTCGWeeklyShonenJumpAlphaApril2012membershippromotionalcardDesc[] = _(
+    "TCG_Weekly\n"
+    "Shonen Jump\n"
+    "Alpha April 2012\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sTCGWeeklyShonenJumpAlphaDecember2012membershippromotionalcardDesc[] = _(
+    "TCG_Weekly\n"
+    "Shonen Jump\n"
+    "Alpha December\n"
+    "2012 membership\n"
+    "promotional card.");
+
+static const u8 sTCGWeeklyShonenJumpAlphaJuly2012membershippromotionalcardDesc[] = _(
+    "TCG_Weekly\n"
+    "Shonen Jump\n"
+    "Alpha July 2012\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sTCGWeeklyShonenJumpAlphaSeptember2012membershippromotionalcardDesc[] = _(
+    "TCG_Weekly\n"
+    "Shonen Jump\n"
+    "Alpha September\n"
+    "2012 membership\n"
+    "promotional card.");
+
+static const u8 sTCGWeeklyShonenJumpApril2015membershippromotionalcardDesc[] = _(
+    "TCG_Weekly\n"
+    "Shonen Jump\n"
+    "April 2015\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sTCGWeeklyShonenJumpApril2016membershippromotionalcardDesc[] = _(
+    "TCG_Weekly\n"
+    "Shonen Jump\n"
+    "April 2016\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sTCGWeeklyShonenJumpApril2017membershippromotionalcardDesc[] = _(
+    "TCG_Weekly\n"
+    "Shonen Jump\n"
+    "April 2017\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sTCGWeeklyShonenJumpAugust2014membershippromotionalcardDesc[] = _(
+    "TCG_Weekly\n"
+    "Shonen Jump\n"
+    "August 2014\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sTCGWeeklyShonenJumpDecember2013membershippromotionalcardDesc[] = _(
+    "TCG_Weekly\n"
+    "Shonen Jump\n"
+    "December 2013\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sTCGWeeklyShonenJumpFebruary2015membershippromotionalcardDesc[] = _(
+    "TCG_Weekly\n"
+    "Shonen Jump\n"
+    "February 2015\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sTCGWeeklyShonenJumpJanuary2016membershippromotionalcardDesc[] = _(
+    "TCG_Weekly\n"
+    "Shonen Jump\n"
+    "January 2016\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sTCGWeeklyShonenJumpJanuary2017membershippromotionalcardDesc[] = _(
+    "TCG_Weekly\n"
+    "Shonen Jump\n"
+    "January 2017\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sTCGWeeklyShonenJumpJanuary2018membershippromotionalcardDesc[] = _(
+    "TCG_Weekly\n"
+    "Shonen Jump\n"
+    "January 2018\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sTCGWeeklyShonenJumpJuly2013membershippromotionalcardDesc[] = _(
+    "TCG_Weekly\n"
+    "Shonen Jump July\n"
+    "2013 membership\n"
+    "promotional card.");
+
+static const u8 sTCGWeeklyShonenJumpJuly2015membershippromotionalcardDesc[] = _(
+    "TCG_Weekly\n"
+    "Shonen Jump July\n"
+    "2015 membership\n"
+    "promotional card.");
+
+static const u8 sTCGWeeklyShonenJumpJuly2016membershippromotionalcardDesc[] = _(
+    "TCG_Weekly\n"
+    "Shonen Jump July\n"
+    "2016 membership\n"
+    "promotional card.");
+
+static const u8 sTCGWeeklyShonenJumpJuly2017membershippromotionalcardDesc[] = _(
+    "TCG_Weekly\n"
+    "Shonen Jump July\n"
+    "2017 membership\n"
+    "promotional card.");
+
+static const u8 sTCGWeeklyShonenJumpJuly2018membershippromotionalcardDesc[] = _(
+    "TCG_Weekly\n"
+    "Shonen Jump July\n"
+    "2018 membership\n"
+    "promotional card.");
+
+static const u8 sTCGWeeklyShonenJumpJune2019membershippromotionalcardsDesc[] = _(
+    "TCG_Weekly\n"
+    "Shonen Jump June\n"
+    "2019 membership\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGWeeklyShonenJumpMarch2013membershippromotionalcardDesc[] = _(
+    "TCG_Weekly\n"
+    "Shonen Jump\n"
+    "March 2013\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sTCGWeeklyShonenJumpMarch2014membershippromotionalcardDesc[] = _(
+    "TCG_Weekly\n"
+    "Shonen Jump\n"
+    "March 2014\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sTCGWeeklyShonenJumpMay2018membershippromotionalcardDesc[] = _(
+    "TCG_Weekly\n"
+    "Shonen Jump May\n"
+    "2018 membership\n"
+    "promotional card.");
+
+static const u8 sTCGWeeklyShonenJumpNovember2014membershippromotionalcardDesc[] = _(
+    "TCG_Weekly\n"
+    "Shonen Jump\n"
+    "November 2014\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sTCGWeeklyShonenJumpNovember2017membershippromotionalcardDesc[] = _(
+    "TCG_Weekly\n"
+    "Shonen Jump\n"
+    "November 2017\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sTCGWeeklyShonenJumpNovember2018membershippromotionalcardDesc[] = _(
+    "TCG_Weekly\n"
+    "Shonen Jump\n"
+    "November 2018\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sTCGWeeklyShonenJumpOctober2015membershippromotionalcardDesc[] = _(
+    "TCG_Weekly\n"
+    "Shonen Jump\n"
+    "October 2015\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sTCGWeeklyShonenJumpOctober2016membershippromotionalcardDesc[] = _(
+    "TCG_Weekly\n"
+    "Shonen Jump\n"
+    "October 2016\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sTCGWeeklyShonenJumpSeptember2013membershippromotionalcardDesc[] = _(
+    "TCG_Weekly\n"
+    "Shonen Jump\n"
+    "September 2013\n"
+    "membership\n"
+    "promotional card.");
+
+static const u8 sTCGWildSurvivorsDesc[] = _(
+    "TCG_Wild\n"
+    "Survivors.");
+
+static const u8 sTCGWingRaidersDesc[] = _(
+    "TCG_Wing Raiders.");
+
+static const u8 sTCGWorldChampionship2010CardPackDesc[] = _(
+    "TCG_World\n"
+    "Championship\n"
+    "2010 Card Pack.");
+
+static const u8 sTCGWorldChampionship2011CardPackDesc[] = _(
+    "TCG_World\n"
+    "Championship\n"
+    "2011 Card Pack.");
+
+static const u8 sTCGWorldSuperstarsDesc[] = _(
+    "TCG_World\n"
+    "Superstars.");
+
+static const u8 sTCGXSaberPowerUpDesc[] = _(
+    "TCG_X-Saber\n"
+    "Power-Up.");
+
+static const u8 sTCGYuGiOh3DBondsBeyondTimeBluraypromotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh! 3D\n"
+    "Bonds Beyond\n"
+    "Time Blu-ray\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOh3DBondsBeyondTimeDVDpromotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh! 3D\n"
+    "Bonds Beyond\n"
+    "Time DVD\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOh3DBondsBeyondTimeMoviePackDesc[] = _(
+    "TCG_Yu-Gi-Oh! 3D\n"
+    "Bonds Beyond\n"
+    "Time Movie Pack.");
+
+static const u8 sTCGYuGiOh3DBondsBeyondTimeTheaterdistributioncardDesc[] = _(
+    "TCG_Yu-Gi-Oh! 3D\n"
+    "Bonds Beyond\n"
+    "Time Theater\n"
+    "distribution\n"
+    "card.");
+
+static const u8 sTCGYuGiOh5DsDuelTranserpromotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "5D's Duel\n"
+    "Transer\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOh5DsTagForce4promotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "5D's Tag Force 4\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOh5DsTagForce5promotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "5D's Tag Force 5\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOh5DsVolume1promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "5D's Volume 1\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOh5DsVolume2promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "5D's Volume 2\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOh5DsVolume3promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "5D's Volume 3\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOh5DsVolume4promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "5D's Volume 4\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOh5DsVolume5promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "5D's Volume 5\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOh5DsVolume6promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "5D's Volume 6\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOh5DsVolume7promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "5D's Volume 7\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOh5DsVolume8promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "5D's Volume 8\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOh5DsVolume9promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "5D's Volume 9\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOh5DsWheelieBreakerspromotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "5D's Wheelie\n"
+    "Breakers\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOh5DsWorldChampionship2009StardustAcceleratorpromotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "5D's World\n"
+    "Championship\n"
+    "2009: Stardust\n"
+    "Accelerator\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOh5DsWorldChampionship2010ReverseofArcadiapromotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "5D's World\n"
+    "Championship\n"
+    "2010: Reverse of\n"
+    "Arcadia\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOh5DsWorldChampionship2011OvertheNexuspromotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "5D's World\n"
+    "Championship\n"
+    "2011: Over the\n"
+    "Nexus\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOh7TrialstoGloryWorldChampionshipTournament2005promotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh! 7\n"
+    "Trials to Glory:\n"
+    "World\n"
+    "Championship\n"
+    "Tournament 2005\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOhARCVVolume1promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "ARC-V Volume 1\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOhARCVVolume2promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "ARC-V Volume 2\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOhARCVVolume3promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "ARC-V Volume 3\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOhARCVVolume4promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "ARC-V Volume 4\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOhARCVVolume5promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "ARC-V Volume 5\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOhARCVVolume6promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "ARC-V Volume 6\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOhARCVVolume7promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "ARC-V Volume 7\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOhAdventCalendar2018Desc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Advent Calendar\n"
+    "(2018).");
+
+static const u8 sTCGYuGiOhAdventCalendar2019Desc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Advent Calendar\n"
+    "(2019).");
+
+static const u8 sTCGYuGiOhCapsuleMonsterColiseumpromotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Capsule Monster\n"
+    "Coliseum\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOhChampionshipSeries2010PrizeCardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Championship\n"
+    "Series 2010\n"
+    "Prize Cards.");
+
+static const u8 sTCGYuGiOhChampionshipSeries2011PrizeCardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Championship\n"
+    "Series 2011\n"
+    "Prize Card.");
+
+static const u8 sTCGYuGiOhChampionshipSeries2012PrizeCardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Championship\n"
+    "Series 2012\n"
+    "Prize Card.");
+
+static const u8 sTCGYuGiOhChampionshipSeries2013PrizeCardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Championship\n"
+    "Series 2013\n"
+    "Prize Card.");
+
+static const u8 sTCGYuGiOhChampionshipSeries2014PrizeCardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Championship\n"
+    "Series 2014\n"
+    "Prize Card.");
+
+static const u8 sTCGYuGiOhChampionshipSeries2015PrizeCardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Championship\n"
+    "Series 2015\n"
+    "Prize Card.");
+
+static const u8 sTCGYuGiOhChampionshipSeries2016PrizeCardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Championship\n"
+    "Series 2016\n"
+    "Prize Card.");
+
+static const u8 sTCGYuGiOhChampionshipSeries2017prizecardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Championship\n"
+    "Series 2017\n"
+    "prize card.");
+
+static const u8 sTCGYuGiOhChampionshipSeries2018prizecardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Championship\n"
+    "Series 2018\n"
+    "prize card.");
+
+static const u8 sTCGYuGiOhChampionshipSeries2019prizecardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Championship\n"
+    "Series 2019\n"
+    "prize card.");
+
+static const u8 sTCGYuGiOhChampionshipSeries2022prizecardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Championship\n"
+    "Series 2022\n"
+    "prize card.");
+
+static const u8 sTCGYuGiOhChampionshipSeries2023prizecardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Championship\n"
+    "Series 2023\n"
+    "prize card.");
+
+static const u8 sTCGYuGiOhChampionshipSeries2024prizecardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Championship\n"
+    "Series 2024\n"
+    "prize card.");
+
+static const u8 sTCGYuGiOhChampionshipSeries2025prizecardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Championship\n"
+    "Series 2025\n"
+    "prize cards.");
+
+static const u8 sTCGYuGiOhDarkDuelStoriespromotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Dark Duel\n"
+    "Stories\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOhDestinyBoardTravelerpromotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Destiny Board\n"
+    "Traveler\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOhDoublePackpromotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Double Pack\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOhDuelistVolume16promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Duelist Volume\n"
+    "16 promotional\n"
+    "card.");
+
+static const u8 sTCGYuGiOhEarlyDaysCollectionpromotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Early Days\n"
+    "Collection\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOhElementalHeroCollection1Desc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Elemental Hero\n"
+    "Collection 1.");
+
+static const u8 sTCGYuGiOhElementalHeroCollection2Desc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Elemental Hero\n"
+    "Collection 2.");
+
+static const u8 sTCGYuGiOhForbiddenMemoriesPremiumEditionpromotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Forbidden\n"
+    "Memories Premium\n"
+    "Edition\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOhGXCardAlmanacpromotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh! GX\n"
+    "Card Almanac\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOhGXDuelAcademypromotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh! GX\n"
+    "Duel Academy\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOhGXSpecialEditionDesc[] = _(
+    "TCG_Yu-Gi-Oh! GX\n"
+    "Special Edition.");
+
+static const u8 sTCGYuGiOhGXSpiritCallerpromotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh! GX\n"
+    "Spirit Caller\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOhGXTagForce2promotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh! GX\n"
+    "Tag Force 2\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOhGXTagForce3promotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh! GX\n"
+    "Tag Force 3\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOhGXTagForceEvolutionpromotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh! GX\n"
+    "Tag Force\n"
+    "Evolution\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOhGXTagForcepromotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh! GX\n"
+    "Tag Force\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOhGXTheBeginningofDestinypromotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh! GX\n"
+    "The Beginning of\n"
+    "Destiny\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOhGXUltimateBeginnersPackDesc[] = _(
+    "TCG_Yu-Gi-Oh! GX\n"
+    "Ultimate\n"
+    "Beginner's Pack.");
+
+static const u8 sTCGYuGiOhGXVolume1promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh! GX\n"
+    "Volume 1\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOhGXVolume2promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh! GX\n"
+    "Volume 2\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOhGXVolume3promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh! GX\n"
+    "Volume 3\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOhGXVolume4promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh! GX\n"
+    "Volume 4\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOhGXVolume5promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh! GX\n"
+    "Volume 5\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOhGXVolume6promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh! GX\n"
+    "Volume 6\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOhGXVolume7promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh! GX\n"
+    "Volume 7\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOhGXVolume8promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh! GX\n"
+    "Volume 8\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOhGXVolume9promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh! GX\n"
+    "Volume 9\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOhLegacyoftheDuelistLinkEvolutionpromotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Legacy of the\n"
+    "Duelist: Link\n"
+    "Evolution\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOhMillenniumWorldVolume4promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Millennium World\n"
+    "Volume 4\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOhNightmareTroubadourpromotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Nightmare\n"
+    "Troubadour\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOhPowerofChaosJoeythePassionpromotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Power of Chaos:\n"
+    "Joey the Passion\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOhPowerofChaosKaibatheRevengepromotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Power of Chaos:\n"
+    "Kaiba the\n"
+    "Revenge\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOhPowerofChaosYugitheDestinyLimitedCollectorsEditionDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Power of Chaos:\n"
+    "Yugi the Destiny\n"
+    "Limited\n"
+    "Collector's\n"
+    "Edition.");
+
+static const u8 sTCGYuGiOhPowerofChaosYugitheDestinypromotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Power of Chaos:\n"
+    "Yugi the Destiny\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOhRVolume1promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh! R\n"
+    "Volume 1\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOhRVolume3promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh! R\n"
+    "Volume 3\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOhRVolume4promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh! R\n"
+    "Volume 4\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOhRVolume5promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh! R\n"
+    "Volume 5\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOhRemoteDuelExtravaganzaparticipationcardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Remote Duel\n"
+    "Extravaganza\n"
+    "participation\n"
+    "card.");
+
+static const u8 sTCGYuGiOhReshefofDestructionpromotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Reshef of\n"
+    "Destruction\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOhTheDarkSideofDimensionsBlurayDVDpromotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "The Dark Side of\n"
+    "Dimensions Blu-\n"
+    "ray & DVD\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOhTheDarkSideofDimensionsMoviePackDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "The Dark Side of\n"
+    "Dimensions Movie\n"
+    "Pack.");
+
+static const u8 sTCGYuGiOhTheDarkSideofDimensionsMoviePackSecretEditionDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "The Dark Side of\n"
+    "Dimensions Movie\n"
+    "Pack Secret\n"
+    "Edition.");
+
+static const u8 sTCGYuGiOhTheDarkSideofDimensionsMoviePackSpecialEditionDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "The Dark Side of\n"
+    "Dimensions Movie\n"
+    "Pack Special\n"
+    "Edition.");
+
+static const u8 sTCGYuGiOhTheDarkSideofDimensionsMoviePackGoldEditionDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "The Dark Side of\n"
+    "Dimensions Movie\n"
+    "Pack: Gold\n"
+    "Edition.");
+
+static const u8 sTCGYuGiOhTheDarkSideofDimensionsTheaterdistributioncardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "The Dark Side of\n"
+    "Dimensions\n"
+    "Theater\n"
+    "distribution\n"
+    "cards.");
+
+static const u8 sTCGYuGiOhTheDawnofDestinypromotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "The Dawn of\n"
+    "Destiny\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOhTheDuelistsoftheRosespromotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "The Duelists of\n"
+    "the Roses\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOhTheEternalDuelistSoulpromotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "The Eternal\n"
+    "Duelist Soul\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOhTheFalseboundKingdompromotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "The Falsebound\n"
+    "Kingdom\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOhTheSacredCardspromotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "The Sacred Cards\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOhTradingCardGameTour2004promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Trading Card\n"
+    "Game Tour 2004\n"
+    "promotional card.");
+
+static const u8 sTCGYuGiOhUltimateMastersWorldChampionshipTournament2006promotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "Ultimate\n"
+    "Masters: World\n"
+    "Championship\n"
+    "Tournament 2006\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOhWorldChampionship2004tournamentpromotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "World\n"
+    "Championship\n"
+    "2004 tournament\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOhWorldChampionship2007promotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "World\n"
+    "Championship\n"
+    "2007 promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOhWorldChampionship2008promotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "World\n"
+    "Championship\n"
+    "2008 promotional\n"
+    "cards.");
+
+static const u8 sTCGYuGiOhWorldChampionship2024CelebrationEventprizecardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "World\n"
+    "Championship\n"
+    "2024 Celebration\n"
+    "Event prize\n"
+    "cards.");
+
+static const u8 sTCGYuGiOhWorldChampionshipQualifierNationalChampionships2011prizecardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "World\n"
     "Championship\n"
     "Qualifier\n"
     "National\n"
     "Championships\n"
     "2011 prize cards.");
 
-static const u8 sYuGiOhWorldChampionshipTournament2004promotionalcardsDesc[] = _(
-    "Yu-Gi-Oh! World\n"
+static const u8 sTCGYuGiOhWorldChampionshipTournament2004promotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "World\n"
     "Championship\n"
     "Tournament 2004\n"
     "promotional\n"
     "cards.");
 
-static const u8 sYuGiOhWorldwideEditionStairwaytotheDestinedDuelpromotionalcardsDesc[] = _(
-    "Yu-Gi-Oh!\n"
+static const u8 sTCGYuGiOhWorldwideEditionStairwaytotheDestinedDuelpromotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
     "Worldwide\n"
     "Edition:\n"
     "Stairway to the\n"
@@ -6104,76 +13563,87 @@ static const u8 sYuGiOhWorldwideEditionStairwaytotheDestinedDuelpromotionalcards
     "promotional\n"
     "cards.");
 
-static const u8 sYuGiOhZEXALVolume1promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! ZEXAL\n"
-    "Volume 1\n"
+static const u8 sTCGYuGiOhZEXALVolume1promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "ZEXAL Volume 1\n"
     "promotional card.");
 
-static const u8 sYuGiOhZEXALVolume2promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! ZEXAL\n"
-    "Volume 2\n"
+static const u8 sTCGYuGiOhZEXALVolume2promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "ZEXAL Volume 2\n"
     "promotional card.");
 
-static const u8 sYuGiOhZEXALVolume3promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! ZEXAL\n"
-    "Volume 3\n"
+static const u8 sTCGYuGiOhZEXALVolume3promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "ZEXAL Volume 3\n"
     "promotional card.");
 
-static const u8 sYuGiOhZEXALVolume4promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! ZEXAL\n"
-    "Volume 4\n"
+static const u8 sTCGYuGiOhZEXALVolume4promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "ZEXAL Volume 4\n"
     "promotional card.");
 
-static const u8 sYuGiOhZEXALVolume5promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! ZEXAL\n"
-    "Volume 5\n"
+static const u8 sTCGYuGiOhZEXALVolume5promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "ZEXAL Volume 5\n"
     "promotional card.");
 
-static const u8 sYuGiOhZEXALVolume6promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! ZEXAL\n"
-    "Volume 6\n"
+static const u8 sTCGYuGiOhZEXALVolume6promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "ZEXAL Volume 6\n"
     "promotional card.");
 
-static const u8 sYuGiOhZEXALVolume7promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! ZEXAL\n"
-    "Volume 7\n"
+static const u8 sTCGYuGiOhZEXALVolume7promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "ZEXAL Volume 7\n"
     "promotional card.");
 
-static const u8 sYuGiOhZEXALVolume8promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! ZEXAL\n"
-    "Volume 8\n"
+static const u8 sTCGYuGiOhZEXALVolume8promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "ZEXAL Volume 8\n"
     "promotional card.");
 
-static const u8 sYuGiOhZEXALVolume9promotionalcardDesc[] = _(
-    "Yu-Gi-Oh! ZEXAL\n"
-    "Volume 9\n"
+static const u8 sTCGYuGiOhZEXALVolume9promotionalcardDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "ZEXAL Volume 9\n"
     "promotional card.");
 
-static const u8 sYuGiOhZEXALWorldDuelCarnivalpromotionalcardsDesc[] = _(
-    "Yu-Gi-Oh! ZEXAL\n"
-    "World Duel\n"
+static const u8 sTCGYuGiOhZEXALWorldDuelCarnivalpromotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "ZEXAL World Duel\n"
     "Carnival\n"
     "promotional\n"
     "cards.");
 
-static const u8 sYuGiOhatHomeSweepstakesDesc[] = _(
-    "Yu-Gi-Oh! at\n"
+static const u8 sTCGYuGiOhatHomeSweepstakesDesc[] = _(
+    "TCG_Yu-Gi-Oh! at\n"
     "Home Sweepstakes.");
 
-static const u8 sYugiKaibaCollectorBoxDesc[] = _(
-    "Yugi & Kaiba\n"
+static const u8 sTCGYuGiOhtheMovieVHSandDVDpromotionalcardsDesc[] = _(
+    "TCG_Yu-Gi-Oh!\n"
+    "the Movie VHS\n"
+    "and DVD\n"
+    "promotional\n"
+    "cards.");
+
+static const u8 sTCGYugiKaibaCollectorBoxDesc[] = _(
+    "TCG_Yugi & Kaiba\n"
     "Collector Box.");
 
-static const u8 sYugisLegendaryDecksDesc[] = _(
-    "Yugi's Legendary\n"
-    "Decks.");
+static const u8 sTCGYugisCollectorBoxDesc[] = _(
+    "TCG_Yugi's\n"
+    "Collector Box.");
 
-static const u8 sZexalCollectionTinDesc[] = _(
-    "Zexal Collection\n"
-    "Tin.");
+static const u8 sTCGYugisLegendaryDecksDesc[] = _(
+    "TCG_Yugi's\n"
+    "Legendary Decks.");
 
-static const u8 sZombieWorldStructureDeckDesc[] = _(
-    "Zombie World\n"
+static const u8 sTCGZexalCollectionTinDesc[] = _(
+    "TCG_Zexal\n"
+    "Collection Tin.");
+
+static const u8 sTCGZombieWorldStructureDeckDesc[] = _(
+    "TCG_Zombie World\n"
     "Structure Deck.");
 
 static const u8 sYugiKaibaDesc[] = _("Yugi-Kaiba.");
@@ -6249,4 +13719,3 @@ static const u8 sFireWaterDesc[] = _("Fire-Water.");
 static const u8 sHATDesc[] = _("HAT.");
 
 static const u8 sVegasDesc[] = _("Vegas.");
-
