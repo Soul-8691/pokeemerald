@@ -1,3 +1,16096 @@
+const struct PackContents gOCGAmabieSanPresentCampaign[] =
+{
+};
+
+const struct PackContents gOCGBlueEyesWhiteDragon20thAnniversaryGoldEdition[] =
+{
+};
+
+const struct PackContents gOCGBlueEyesWhiteDragon20thAnniversarySilverEdition[] =
+{
+};
+
+const struct PackContents gOCGDarkMagicianGirlSpecialCard[] =
+{
+};
+
+const struct PackContents gOCGDarkMagicianUltraRareSpecialIllustrationVersionGETCampaign[] =
+{
+};
+
+const struct PackContents gOCGDarkMagicianSpecialCard[] =
+{
+};
+
+const struct PackContents gOCGDuelistKingdomCollectStarChipsLimitedPack[] =
+{
+};
+
+const struct PackContents gOCG20thAnniversaryDuelSetObelisktheTormentor[] =
+{
+};
+
+const struct PackContents gOCG20thAnniversaryDuelSetSlifertheSkyDragon[] =
+{
+};
+
+const struct PackContents gOCG20thAnniversaryDuelistBox[] =
+{
+};
+
+const struct PackContents gOCG20thAnniversaryLegendCollection[] =
+{
+};
+
+const struct PackContents gOCG20thAnniversaryLegendSelection[] =
+{
+};
+
+const struct PackContents gOCG20thAnniversaryLegendaryDragons[] =
+{
+};
+
+const struct PackContents gOCG20thAnniversaryPack1stWave[] =
+{
+};
+
+const struct PackContents gOCG20thAnniversaryPack2ndWave[] =
+{
+};
+
+const struct PackContents gOCG20thAnniversarySecretSelection[] =
+{
+};
+
+const struct PackContents gOCG20thAnniversarySet[] =
+{
+};
+
+const struct PackContents gOCG20thLegendaryCollection[] =
+{
+};
+
+const struct PackContents gOCG20thRivalCollection[] =
+{
+};
+
+const struct PackContents gOCG20thSecretRareChallengePack[] =
+{
+};
+
+const struct PackContents gOCG20thSecretRareFinalChallengePack[] =
+{
+};
+
+const struct PackContents gOCG20thSecretRareSpecialPack[] =
+{
+};
+
+const struct PackContents gOCG25thAnniversaryUltimateKaibaSet[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_BATTLE_OX, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SOUL_EXCHANGE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RING_OF_DESTRUCTION, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CRUSH_CARD_VIRUS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GYAKUTENNO_MEGAMI, RARITY_ULTRA_RARE},
+	{ITEM_CARD_JUDGE_MAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SHRINK, RARITY_ULTRA_RARE},
+	{ITEM_CARD_THE_WICKED_WORM_BEAST, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLADE_KNIGHT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP, RARITY_ULTRA_RARE},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_VORSE_RAIDER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLUE_EYES_ULTIMATE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_STOP_DEFENSE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MEGAMORPH, RARITY_ULTRA_RARE},
+	{ITEM_CARD_X_HEAD_CANNON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_LORD_OF_D_, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gOCG3x3JapanChampionship2025Finalsprizecards[] =
+{
+};
+
+const struct PackContents gOCG3x3JapanChampionship2025QualifiersAprilprizecard[] =
+{
+};
+
+const struct PackContents gOCGIgnisterDuelSet[] =
+{
+};
+
+const struct PackContents gOCGAbsolutePowerforce[] =
+{
+	{ITEM_CARD_CYBER_DRAGON_ZWEI, RARITY_RARE},
+};
+
+const struct PackContents gOCGAbsolutePowerforce2PackSet[] =
+{
+};
+
+const struct PackContents gOCGAbyssRising[] =
+{
+	{ITEM_CARD_THUNDER_SEA_HORSE, RARITY_SECRET_RARE},
+	{ITEM_CARD_RED_DRAGON_NINJA, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gOCGAcademyDuelDiskset[] =
+{
+};
+
+const struct PackContents gOCGAcademyDuelDiskLimitedEdition[] =
+{
+};
+
+const struct PackContents gOCGAcademyDuelDiskOsirisRedpromotionalcards[] =
+{
+};
+
+const struct PackContents gOCGAcademyDuelDiskSpecialSet[] =
+{
+};
+
+const struct PackContents gOCGAdvancedTournamentPack2013Vol1[] =
+{
+};
+
+const struct PackContents gOCGAdvancedTournamentPack2013Vol2[] =
+{
+};
+
+const struct PackContents gOCGAdvancedTournamentPack2013Vol3[] =
+{
+};
+
+const struct PackContents gOCGAdvancedTournamentPack2013Vol4[] =
+{
+};
+
+const struct PackContents gOCGAdvancedTournamentPack2014Vol1[] =
+{
+};
+
+const struct PackContents gOCGAdvancedTournamentPack2014Vol2[] =
+{
+};
+
+const struct PackContents gOCGAdvancedTournamentPack2014Vol3[] =
+{
+};
+
+const struct PackContents gOCGAdvancedTournamentPack2014Vol4[] =
+{
+};
+
+const struct PackContents gOCGAdvancedTournamentPack2015Vol1[] =
+{
+};
+
+const struct PackContents gOCGAdvancedTournamentPack2015Vol2[] =
+{
+};
+
+const struct PackContents gOCGAdvancedTournamentPack2015Vol3[] =
+{
+};
+
+const struct PackContents gOCGAdvancedTournamentPack2015Vol4[] =
+{
+};
+
+const struct PackContents gOCGAdvancedTournamentPack2016Vol1[] =
+{
+};
+
+const struct PackContents gOCGAdvancedTournamentPack2016Vol2[] =
+{
+};
+
+const struct PackContents gOCGAdvancedTournamentPack2016Vol3[] =
+{
+};
+
+const struct PackContents gOCGAdvancedTournamentPack2016Vol4[] =
+{
+};
+
+const struct PackContents gOCGAdvancedTournamentPack2017Vol1[] =
+{
+};
+
+const struct PackContents gOCGAdventofUnion[] =
+{
+};
+
+const struct PackContents gOCGAgeofOverlord[] =
+{
+};
+
+const struct PackContents gOCGAgeofOverlord1BonusPack[] =
+{
+};
+
+const struct PackContents gOCGAllianceInsight[] =
+{
+	{ITEM_CARD_CYBERDARK_WURM, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CYBERDARK_WURM, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL_THE_MAGICIAN_S_APPRENTICE, RARITY_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL_THE_MAGICIAN_S_APPRENTICE, RARITY_QUARTER_CENTURY_SECRET_RARE},
+};
+
+const struct PackContents gOCGAllianceInsight1BonusPack[] =
+{
+};
+
+const struct PackContents gOCGAncientProphecy[] =
+{
+	{ITEM_CARD_WHITE_NIGHT_DRAGON, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gOCGAncientProphecy2PackSet[] =
+{
+};
+
+const struct PackContents gOCGAnimationChronicle2021[] =
+{
+};
+
+const struct PackContents gOCGAnimationChronicle2022[] =
+{
+};
+
+const struct PackContents gOCGAnimationChronicle2023[] =
+{
+};
+
+const struct PackContents gOCGAnimationChronicle2024[] =
+{
+};
+
+const struct PackContents gOCGAnniversaryPack[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GYAKUTENNO_MEGAMI, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SUMMONED_SKULL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_JINZO, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BUSTER_BLADER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gOCGAreaChampionship2023prizecard[] =
+{
+};
+
+const struct PackContents gOCGAreaChampionship2024Augustprizecard[] =
+{
+};
+
+const struct PackContents gOCGAreaChampionship2024Decemberprizecard[] =
+{
+};
+
+const struct PackContents gOCGAreaChampionship2024Juneprizecard[] =
+{
+};
+
+const struct PackContents gOCGArmillyretheStarleaderDragonDuelSet[] =
+{
+};
+
+const struct PackContents gOCGAsiaChampionship2001prizecards[] =
+{
+};
+
+const struct PackContents gOCGAwakeningofthePossessedDuelSet[] =
+{
+};
+
+const struct PackContents gOCGBattleofChaos[] =
+{
+	{ITEM_CARD_TIMAEUS_THE_UNITED_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DICTATOR_OF_D_, RARITY_SUPER_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DIMENSION_CONJURER, RARITY_COMMON},
+	{ITEM_CARD_BLUE_EYES_JET_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_BLUE_EYES_JET_DRAGON, RARITY_STARLIGHT_RARE},
+	{ITEM_CARD_CHAOS_NEPHTHYS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MAGIKURIBOH, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gOCGBattleofChaos1BonusPack[] =
+{
+};
+
+const struct PackContents gOCGBeginnersEdition1[] =
+{
+};
+
+const struct PackContents gOCGBeginnersEdition12011[] =
+{
+};
+
+const struct PackContents gOCGBeginnersEdition2[] =
+{
+};
+
+const struct PackContents gOCGBeginnersEdition22011[] =
+{
+};
+
+const struct PackContents gOCGBeginnersPack[] =
+{
+};
+
+const struct PackContents gOCGBeginnersClass2012promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGBlazingVortex[] =
+{
+};
+
+const struct PackContents gOCGBlazingVortex1BonusPack[] =
+{
+};
+
+const struct PackContents gOCGBooster1[] =
+{
+};
+
+const struct PackContents gOCGBooster2[] =
+{
+};
+
+const struct PackContents gOCGBooster3[] =
+{
+};
+
+const struct PackContents gOCGBooster4[] =
+{
+};
+
+const struct PackContents gOCGBooster5[] =
+{
+};
+
+const struct PackContents gOCGBooster6[] =
+{
+};
+
+const struct PackContents gOCGBooster7[] =
+{
+};
+
+const struct PackContents gOCGBoosterChronicle[] =
+{
+};
+
+const struct PackContents gOCGBoosterPackCollectorsTin2003[] =
+{
+};
+
+const struct PackContents gOCGBoosterPackCollectorsTin2004[] =
+{
+};
+
+const struct PackContents gOCGBoosterPackCollectorsTin2005[] =
+{
+};
+
+const struct PackContents gOCGBoosterPackCollectorsTin2006[] =
+{
+};
+
+const struct PackContents gOCGBoosterPackCollectorsTin2007[] =
+{
+};
+
+const struct PackContents gOCGBoosterR1[] =
+{
+};
+
+const struct PackContents gOCGBoosterR2[] =
+{
+};
+
+const struct PackContents gOCGBoosterR3[] =
+{
+};
+
+const struct PackContents gOCGBoosterSPDestinySoldiers[] =
+{
+};
+
+const struct PackContents gOCGBoosterSPFusionEnforcers[] =
+{
+};
+
+const struct PackContents gOCGBoosterSPHighSpeedRiders[] =
+{
+};
+
+const struct PackContents gOCGBoosterSPRagingMasters[] =
+{
+};
+
+const struct PackContents gOCGBoosterSPTribeForce[] =
+{
+};
+
+const struct PackContents gOCGBoosterSPWingRaiders[] =
+{
+};
+
+const struct PackContents gOCGBreakersofShadow[] =
+{
+	{ITEM_CARD_TWILIGHT_NINJA_GETSUGA_THE_SHOGUN, RARITY_RARE},
+	{ITEM_CARD_TWILIGHT_NINJA_NICHIRIN_THE_CHUNIN, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_RETRO_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_ARISEN_GAIA_THE_FIERCE_KNIGHT, RARITY_RARE},
+	{ITEM_CARD_TWILIGHT_NINJA_SHINGETSU, RARITY_COMMON},
+	{ITEM_CARD_BUSTER_BLADER_THE_DESTRUCTION_SWORDMASTER, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gOCGBurstofDestiny[] =
+{
+	{ITEM_CARD_PENGUIN_NINJA, RARITY_COMMON},
+};
+
+const struct PackContents gOCGBurstofDestiny1BonusPack[] =
+{
+};
+
+const struct PackContents gOCGCenturIonDuelSet[] =
+{
+};
+
+const struct PackContents gOCGChampionofBlackMagic[] =
+{
+};
+
+const struct PackContents gOCGChaosImpact[] =
+{
+};
+
+const struct PackContents gOCGCircuitBreak[] =
+{
+};
+
+const struct PackContents gOCGClashofRebellions[] =
+{
+	{ITEM_CARD_TOON_CYBER_DRAGON, RARITY_RARE},
+	{ITEM_CARD_CRYSTAL_ROSE, RARITY_RARE},
+	{ITEM_CARD_KEEPER_OF_THE_SHRINE, RARITY_COMMON},
+	{ITEM_CARD_THE_BLACK_STONE_OF_LEGEND, RARITY_SECRET_RARE},
+	{ITEM_CARD_BLACK_METAL_DRAGON, RARITY_COMMON},
+};
+
+const struct PackContents gOCGCocosxYuGiOhCardGameAnniversaryCampaign2024Part1[] =
+{
+};
+
+const struct PackContents gOCGCocosxYuGiOhCardGameAnniversaryCampaign2024Part2[] =
+{
+};
+
+const struct PackContents gOCGCocosxYuGiOhCardGameAnniversaryCampaignPart1[] =
+{
+};
+
+const struct PackContents gOCGCocosxYuGiOhCardGameAnniversaryCampaignPart2[] =
+{
+};
+
+const struct PackContents gOCGCodeoftheDuelist[] =
+{
+	{ITEM_CARD_ANCIENT_GEAR_GOLEM_ULTIMATE_POUND, RARITY_COMMON},
+	{ITEM_CARD_TRAPTRIX_MANTIS, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gOCGCollectionPack2020[] =
+{
+};
+
+const struct PackContents gOCGCollectionPackDuelistofRevolutionVersion[] =
+{
+};
+
+const struct PackContents gOCGCollectorsPackDuelistofLegendVersion[] =
+{
+};
+
+const struct PackContents gOCGCollectorsPack2017[] =
+{
+};
+
+const struct PackContents gOCGCollectorsPack2018[] =
+{
+};
+
+const struct PackContents gOCGCollectorsPackDuelistofDestinyVersion[] =
+{
+};
+
+const struct PackContents gOCGCollectorsPackDuelistofFlashVersion[] =
+{
+};
+
+const struct PackContents gOCGCollectorsPackDuelistofLegendVersion[] =
+{
+};
+
+const struct PackContents gOCGCollectorsPackZEXALVersion[] =
+{
+};
+
+const struct PackContents gOCGCollectorsTin2009[] =
+{
+};
+
+const struct PackContents gOCGCompleteFileStoryofWhite[] =
+{
+};
+
+const struct PackContents gOCGControllerofChaos[] =
+{
+};
+
+const struct PackContents gOCGCosmoBlazer[] =
+{
+};
+
+const struct PackContents gOCGCrimsonCrisis[] =
+{
+	{ITEM_CARD_FLIP_FLOP_FROG, RARITY_COMMON},
+	{ITEM_CARD_DUPE_FROG, RARITY_COMMON},
+};
+
+const struct PackContents gOCGCrimsonCrisis2PackSet[] =
+{
+};
+
+const struct PackContents gOCGCrossedSouls[] =
+{
+};
+
+const struct PackContents gOCGCrossroadsofChaos[] =
+{
+	{ITEM_CARD_THE_WHITE_STONE_OF_LEGEND, RARITY_SHORT_PRINT},
+	{ITEM_CARD_MAD_ARCHFIEND, RARITY_RARE},
+};
+
+const struct PackContents gOCGCrossroadsofChaos2PackSet[] =
+{
+};
+
+const struct PackContents gOCGCurseofAnubisset[] =
+{
+};
+
+const struct PackContents gOCGCyberdarkImpact[] =
+{
+};
+
+const struct PackContents gOCGCyberdarkImpactVendorEdition[] =
+{
+};
+
+const struct PackContents gOCGCyberneticHorizon[] =
+{
+	{ITEM_CARD_CYBER_DRAGON_VIER, RARITY_COMMON},
+};
+
+const struct PackContents gOCGCyberneticRevolution[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_CYBER_DRAGON, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_SPIRITUAL_EARTH_ART_KUROGANE, RARITY_COMMON},
+	{ITEM_CARD_DRAGON_S_MIRROR, RARITY_COMMON},
+	{ITEM_CARD_POT_OF_GENEROSITY, RARITY_COMMON},
+	{ITEM_CARD_WROUGHTWEILER, RARITY_RARE},
+	{ITEM_CARD_WROUGHTWEILER, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_INDOMITABLE_FIGHTER_LEI_LEI, RARITY_COMMON},
+	{ITEM_CARD_SPIRITUAL_WIND_ART_MIYABI, RARITY_COMMON},
+	{ITEM_CARD_DRILLROID, RARITY_COMMON},
+	{ITEM_CARD_GOBLIN_ELITE_ATTACK_FORCE, RARITY_SUPER_RARE},
+	{ITEM_CARD_GOBLIN_ELITE_ATTACK_FORCE, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_SPIRITUAL_WATER_ART_AOI, RARITY_COMMON},
+	{ITEM_CARD_CYBER_END_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CYBER_END_DRAGON, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_T_A_D_P_O_L_E_, RARITY_COMMON},
+	{ITEM_CARD_CYBER_TWIN_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_CYBER_TWIN_DRAGON, RARITY_ULTIMATE_RARE},
+};
+
+const struct PackContents gOCGCyberneticRevolutionVendorEdition[] =
+{
+};
+
+const struct PackContents gOCGCyberstormAccess[] =
+{
+	{ITEM_CARD_THE_BYSTIAL_ALUBER, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gOCGCyberstormAccess1BonusPack[] =
+{
+};
+
+const struct PackContents gOCGDarkCeremonyEdition[] =
+{
+};
+
+const struct PackContents gOCGDarkNeostorm[] =
+{
+};
+
+const struct PackContents gOCGDarkwingBlast[] =
+{
+	{ITEM_CARD_KAGERO_THE_CANNON_NINJA, RARITY_COMMON},
+	{ITEM_CARD_AMAZONESS_SPIRITUALIST, RARITY_COMMON},
+	{ITEM_CARD_TOBARI_THE_SKY_NINJA, RARITY_COMMON},
+	{ITEM_CARD_BAKU_THE_BEAST_NINJA, RARITY_SUPER_RARE},
+	{ITEM_CARD_INFERNALQUEEN_SALMON, RARITY_COMMON},
+	{ITEM_CARD_THE_BYSTIAL_LUBELLION, RARITY_SECRET_RARE},
+	{ITEM_CARD_BLAZING_CARTESIA_THE_VIRTUOUS, RARITY_SECRET_RARE},
+	{ITEM_CARD_BLAZING_CARTESIA_THE_VIRTUOUS, RARITY_STARLIGHT_RARE},
+	{ITEM_CARD_MITSU_THE_INSECT_NINJA, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MITSU_THE_INSECT_NINJA, RARITY_STARLIGHT_RARE},
+};
+
+const struct PackContents gOCGDarkwingBlast1BonusPack[] =
+{
+};
+
+const struct PackContents gOCGDawnofMajesty[] =
+{
+	{ITEM_CARD_ALUBER_THE_JESTER_OF_DESPIA, RARITY_SECRET_RARE},
+	{ITEM_CARD_ALBION_THE_SHROUDED_DRAGON, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gOCGDawnofMajesty1BonusPack[] =
+{
+};
+
+const struct PackContents gOCGDeckCustomPack01[] =
+{
+};
+
+const struct PackContents gOCGDeckBuildPackAmazingDefenders[] =
+{
+};
+
+const struct PackContents gOCGDeckBuildPackAncientGuardians[] =
+{
+};
+
+const struct PackContents gOCGDeckBuildPackCrossoverBreakers[] =
+{
+};
+
+const struct PackContents gOCGDeckBuildPackDarkSaviors[] =
+{
+};
+
+const struct PackContents gOCGDeckBuildPackGenesisImpactors[] =
+{
+};
+
+const struct PackContents gOCGDeckBuildPackGrandCreators[] =
+{
+};
+
+const struct PackContents gOCGDeckBuildPackHiddenSummoners[] =
+{
+};
+
+const struct PackContents gOCGDeckBuildPackInfinityChasers[] =
+{
+};
+
+const struct PackContents gOCGDeckBuildPackJusticeHunters[] =
+{
+};
+
+const struct PackContents gOCGDeckBuildPackMysticFighters[] =
+{
+};
+
+const struct PackContents gOCGDeckBuildPackSecretSlayers[] =
+{
+};
+
+const struct PackContents gOCGDeckBuildPackSpiritWarriors[] =
+{
+};
+
+const struct PackContents gOCGDeckBuildPackTacticalMasters[] =
+{
+};
+
+const struct PackContents gOCGDeckBuildPackValiantSmashers[] =
+{
+};
+
+const struct PackContents gOCGDeckBuildPackWildSurvivors[] =
+{
+};
+
+const struct PackContents gOCGDeluxeDuelSetExosister[] =
+{
+};
+
+const struct PackContents gOCGDiabellstarDuelSet[] =
+{
+};
+
+const struct PackContents gOCGDimensionBoxLimitedEdition[] =
+{
+};
+
+const struct PackContents gOCGDimensionForce[] =
+{
+};
+
+const struct PackContents gOCGDimensionForce1BonusPack[] =
+{
+};
+
+const struct PackContents gOCGDimensionofChaos[] =
+{
+	{ITEM_CARD_SKILLED_RED_MAGICIAN, RARITY_RARE},
+	{ITEM_CARD_SPHERE_KURIBOH, RARITY_RARE},
+	{ITEM_CARD_BEGINNING_KNIGHT, RARITY_SUPER_RARE},
+	{ITEM_CARD_CHARGING_GAIA_THE_FIERCE_KNIGHT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_EVENING_TWILIGHT_KNIGHT, RARITY_SUPER_RARE},
+	{ITEM_CARD_SUPER_SOLDIER_SOUL, RARITY_COMMON},
+};
+
+const struct PackContents gOCGDoomofDimensions[] =
+{
+};
+
+const struct PackContents gOCGDragonRulerDuelSet[] =
+{
+};
+
+const struct PackContents gOCGDuelAcademiaSelection[] =
+{
+};
+
+const struct PackContents gOCGDuelArtCampaignpromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGDuelDiskset[] =
+{
+};
+
+const struct PackContents gOCGDuelDiskYuseiVersion[] =
+{
+};
+
+const struct PackContents gOCGDuelDiskYuseiVersionDX[] =
+{
+};
+
+const struct PackContents gOCGDuelDiskYuseiVersionDXLimitedEdition[] =
+{
+};
+
+const struct PackContents gOCGDuelDiskYuseiVersionDX2010[] =
+{
+};
+
+const struct PackContents gOCGDuelFieldEXEpicofNobleKnightsHolySwordofGuidance[] =
+{
+};
+
+const struct PackContents gOCGDuelMastersGuidepromotionalcards[] =
+{
+	{ITEM_CARD_DARK_PALADIN, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gOCGDuelMonstersIItournamentmeetingexperiencepromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGDuelRoyaleDeckSetEX[] =
+{
+};
+
+const struct PackContents gOCGDuelRoyaleDeckSetEXRound2[] =
+{
+};
+
+const struct PackContents gOCGDuelTerminalChampionofChaos[] =
+{
+};
+
+const struct PackContents gOCGDuelTerminalChargeoftheGenex[] =
+{
+};
+
+const struct PackContents gOCGDuelTerminalDemonRoarGodRevival[] =
+{
+};
+
+const struct PackContents gOCGDuelTerminalDragunityoftheHurricane[] =
+{
+};
+
+const struct PackContents gOCGDuelTerminalInvasionofWorms[] =
+{
+};
+
+const struct PackContents gOCGDuelTerminalJudgmentofOmega[] =
+{
+};
+
+const struct PackContents gOCGDuelTerminalJusticeStrikesBack[] =
+{
+};
+
+const struct PackContents gOCGDuelTerminalOuroborosWickedDragonofDestruction[] =
+{
+};
+
+const struct PackContents gOCGDuelTerminalPulseoftheTrishula[] =
+{
+};
+
+const struct PackContents gOCGDuelTerminalRaidoftheInverz[] =
+{
+};
+
+const struct PackContents gOCGDuelTerminalSacredStarKnights[] =
+{
+};
+
+const struct PackContents gOCGDuelTerminalSynchroAwakening[] =
+{
+};
+
+const struct PackContents gOCGDuelTerminalVylonDescends[] =
+{
+};
+
+const struct PackContents gOCGDuelTerminalXyzStartup[] =
+{
+};
+
+const struct PackContents gOCGDuelTerminalAccelerationGuide2promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGDuelTerminalAccelerationGuide3promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGDuelTerminalAccelerationGuide4promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGDuelTerminalAccelerationGuide5promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGDuelTerminalAccelerationGuidepromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGDuelTerminalChronicle1ChapterofAwakening[] =
+{
+};
+
+const struct PackContents gOCGDuelTerminalChronicle2ChapterofChaos[] =
+{
+};
+
+const struct PackContents gOCGDuelTerminalChronicle3ChapterofDestruction[] =
+{
+};
+
+const struct PackContents gOCGDuelTerminalChronicle4ChapterofOpposites[] =
+{
+};
+
+const struct PackContents gOCGDuelTerminalOverlayGuide2promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGDuelTerminalOverlayGuidepromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGDuelistAdvance1AssistPack[] =
+{
+};
+
+const struct PackContents gOCGDuelistAlliance[] =
+{
+	{ITEM_CARD_SHADDOLL_BEAST, RARITY_RARE},
+	{ITEM_CARD_SHADDOLL_DRAGON, RARITY_RARE},
+	{ITEM_CARD_SHADDOLL_HEDGEHOG, RARITY_COMMON},
+	{ITEM_CARD_SHADDOLL_FALCO, RARITY_RARE},
+	{ITEM_CARD_RAIZA_THE_MEGA_MONARCH, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gOCGDuelistBox[] =
+{
+};
+
+const struct PackContents gOCGDuelistBox2012[] =
+{
+};
+
+const struct PackContents gOCGDuelistCardProtectorEXBujinteiSusanowo[] =
+{
+};
+
+const struct PackContents gOCGDuelistCardProtectorEXGhostrick[] =
+{
+};
+
+const struct PackContents gOCGDuelistCardProtectorEXMasterofHERO[] =
+{
+};
+
+const struct PackContents gOCGDuelistCardProtectorEXShadowoftheSixSamuraiShien[] =
+{
+};
+
+const struct PackContents gOCGDuelistCardProtectorSixAttributeSet[] =
+{
+};
+
+const struct PackContents gOCGDuelistCup2021Qualifiersparticipationcard[] =
+{
+};
+
+const struct PackContents gOCGDuelistEditionVolume1[] =
+{
+};
+
+const struct PackContents gOCGDuelistEditionVolume2[] =
+{
+};
+
+const struct PackContents gOCGDuelistEditionVolume3[] =
+{
+};
+
+const struct PackContents gOCGDuelistEditionVolume4[] =
+{
+};
+
+const struct PackContents gOCGDuelistEntryDeckVS[] =
+{
+};
+
+const struct PackContents gOCGDuelistFestival2016PromotionPack[] =
+{
+};
+
+const struct PackContents gOCGDuelistKingCupApril2024prizecard[] =
+{
+};
+
+const struct PackContents gOCGDuelistKingCupApril2025prizecard[] =
+{
+};
+
+const struct PackContents gOCGDuelistKingCupAugust2024prizecard[] =
+{
+};
+
+const struct PackContents gOCGDuelistKingCupDecember2024prizecard[] =
+{
+};
+
+const struct PackContents gOCGDuelistKingCupJuly2025prizecard[] =
+{
+};
+
+const struct PackContents gOCGDuelistLegacyVolume1[] =
+{
+};
+
+const struct PackContents gOCGDuelistLegacyVolume2[] =
+{
+};
+
+const struct PackContents gOCGDuelistLegacyVolume3[] =
+{
+};
+
+const struct PackContents gOCGDuelistLegacyVolume4[] =
+{
+};
+
+const struct PackContents gOCGDuelistLegacyVolume5[] =
+{
+};
+
+const struct PackContents gOCGDuelistNexus[] =
+{
+	{ITEM_CARD_RED_EYES_BLACK_METEOR_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_THESTALOS_THE_SHADOWFIRE_MONARCH, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gOCGDuelistNexus1BonusPack[] =
+{
+};
+
+const struct PackContents gOCGDuelistPackCollection[] =
+{
+};
+
+const struct PackContents gOCGDuelistPackAsterPhoenix[] =
+{
+};
+
+const struct PackContents gOCGDuelistPackBattleCity[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_SUPER_RARE},
+	{ITEM_CARD_CRUSH_CARD_VIRUS, RARITY_RARE},
+	{ITEM_CARD_KURIBOH, RARITY_COMMON},
+	{ITEM_CARD_TOON_GEMINI_ELF, RARITY_COMMON},
+	{ITEM_CARD_DRAGGED_DOWN_INTO_THE_GRAVE, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_SUPER_RARE},
+	{ITEM_CARD_JINZO, RARITY_RARE},
+	{ITEM_CARD_BUSTER_BLADER, RARITY_RARE},
+	{ITEM_CARD_ARCHFIEND_OF_GILFER, RARITY_COMMON},
+	{ITEM_CARD_TOON_DARK_MAGICIAN_GIRL, RARITY_COMMON},
+	{ITEM_CARD_BLUE_EYES_TOON_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_COMMON},
+	{ITEM_CARD_TOON_TABLE_OF_CONTENTS, RARITY_RARE},
+	{ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_LORD_OF_D_, RARITY_COMMON},
+};
+
+const struct PackContents gOCGDuelistPackChazzPrinceton[] =
+{
+	{ITEM_CARD_OJAMA_TRIO, RARITY_COMMON},
+	{ITEM_CARD_OJAMA_KING, RARITY_COMMON},
+	{ITEM_CARD_X_HEAD_CANNON, RARITY_COMMON},
+};
+
+const struct PackContents gOCGDuelistPackCrow[] =
+{
+};
+
+const struct PackContents gOCGDuelistPackDuelistsofBrilliance[] =
+{
+};
+
+const struct PackContents gOCGDuelistPackDuelistsofExplosion[] =
+{
+};
+
+const struct PackContents gOCGDuelistPackDuelistsofGloom[] =
+{
+};
+
+const struct PackContents gOCGDuelistPackDuelistsofPyroxene[] =
+{
+};
+
+const struct PackContents gOCGDuelistPackDuelistsofWhirlwind[] =
+{
+};
+
+const struct PackContents gOCGDuelistPackDuelistsoftheAbyss[] =
+{
+};
+
+const struct PackContents gOCGDuelistPackJadenYuki[] =
+{
+	{ITEM_CARD_WROUGHTWEILER, RARITY_COMMON},
+	{ITEM_CARD_ELEMENTAL_HERO_CLAYMAN, RARITY_COMMON},
+	{ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gOCGDuelistPackJadenYuki2[] =
+{
+	{ITEM_CARD_ELEMENTAL_HERO_WILDHEART, RARITY_COMMON},
+};
+
+const struct PackContents gOCGDuelistPackJadenYuki3[] =
+{
+};
+
+const struct PackContents gOCGDuelistPackJesseAnderson[] =
+{
+};
+
+const struct PackContents gOCGDuelistPackKastleSiblings[] =
+{
+};
+
+const struct PackContents gOCGDuelistPackKite[] =
+{
+};
+
+const struct PackContents gOCGDuelistPackLegendDuelist[] =
+{
+};
+
+const struct PackContents gOCGDuelistPackLegendDuelist2[] =
+{
+};
+
+const struct PackContents gOCGDuelistPackLegendDuelist3[] =
+{
+};
+
+const struct PackContents gOCGDuelistPackLegendDuelist4[] =
+{
+};
+
+const struct PackContents gOCGDuelistPackLegendDuelist5[] =
+{
+};
+
+const struct PackContents gOCGDuelistPackLegendDuelist6[] =
+{
+};
+
+const struct PackContents gOCGDuelistPackPharaohsMemories[] =
+{
+};
+
+const struct PackContents gOCGDuelistPackYuma[] =
+{
+};
+
+const struct PackContents gOCGDuelistPackYuma2GogogoDododo[] =
+{
+};
+
+const struct PackContents gOCGDuelistPackYusei[] =
+{
+};
+
+const struct PackContents gOCGDuelistPackYusei2[] =
+{
+};
+
+const struct PackContents gOCGDuelistPackYusei3[] =
+{
+};
+
+const struct PackContents gOCGDuelistPackZaneTruesdale[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_RARE},
+	{ITEM_CARD_CREATURE_SWAP, RARITY_COMMON},
+	{ITEM_CARD_LIMITER_REMOVAL, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+	{ITEM_CARD_CYBER_END_DRAGON, RARITY_RARE},
+	{ITEM_CARD_CYBER_TWIN_DRAGON, RARITY_RARE},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gOCGDuelistRevolution[] =
+{
+};
+
+const struct PackContents gOCGDuelistRevolution2PackSet[] =
+{
+};
+
+const struct PackContents gOCGDuelistRoadPieceofMemorySideYamiYugi[] =
+{
+};
+
+const struct PackContents gOCGDuelistRoadPieceofMemorySideYugiMuto[] =
+{
+};
+
+const struct PackContents gOCGDuelistSetDXDoubleUnion[] =
+{
+};
+
+const struct PackContents gOCGDuelistSetVersionDarkReturner[] =
+{
+};
+
+const struct PackContents gOCGDuelistSetVersionLightningStar[] =
+{
+};
+
+const struct PackContents gOCGDuelistSetVersionLightswornJudgment[] =
+{
+};
+
+const struct PackContents gOCGDuelistSetVersionLightswornJudgmentEnhancementPack[] =
+{
+};
+
+const struct PackContents gOCGDuelistSetVersionMachineGearTroopers[] =
+{
+};
+
+const struct PackContents gOCGDuelistSetVersionMachineGearTroopersEnhancementPack[] =
+{
+};
+
+const struct PackContents gOCGDuelistsAdvance[] =
+{
+	{ITEM_CARD_EIDOS_THE_UNDERWORLD_MONARCH, RARITY_ULTRA_RARE},
+	{ITEM_CARD_EIDOS_THE_UNDERWORLD_MONARCH, RARITY_STARLIGHT_RARE},
+};
+
+const struct PackContents gOCGEXStarterBox[] =
+{
+};
+
+const struct PackContents gOCGEXRStarterBox[] =
+{
+};
+
+const struct PackContents gOCGElementalEnergy[] =
+{
+	{ITEM_CARD_SCARR_SCOUT_OF_DARK_WORLD, RARITY_COMMON},
+	{ITEM_CARD_DARK_WORLD_LIGHTNING, RARITY_COMMON},
+	{ITEM_CARD_BEIIGE_VANGUARD_OF_DARK_WORLD, RARITY_COMMON},
+	{ITEM_CARD_ELEMENTAL_HERO_WILDHEART, RARITY_COMMON},
+	{ITEM_CARD_FAMILIAR_POSSESSED_WYNN, RARITY_COMMON},
+	{ITEM_CARD_ZURE_KNIGHT_OF_DARK_WORLD, RARITY_COMMON},
+	{ITEM_CARD_SILLVA_WARLORD_OF_DARK_WORLD, RARITY_RARE},
+	{ITEM_CARD_SILLVA_WARLORD_OF_DARK_WORLD, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_FAMILIAR_POSSESSED_HIITA, RARITY_COMMON},
+	{ITEM_CARD_BROWW_HUNTSMAN_OF_DARK_WORLD, RARITY_RARE},
+	{ITEM_CARD_BROWW_HUNTSMAN_OF_DARK_WORLD, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_POT_OF_AVARICE, RARITY_SUPER_RARE},
+	{ITEM_CARD_POT_OF_AVARICE, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_FAMILIAR_POSSESSED_ERIA, RARITY_COMMON},
+	{ITEM_CARD_DARK_DEAL, RARITY_COMMON},
+	{ITEM_CARD_FAMILIAR_POSSESSED_AUSSA, RARITY_COMMON},
+	{ITEM_CARD_HYDROGEDDON, RARITY_COMMON},
+	{ITEM_CARD_BRRON_MAD_KING_OF_DARK_WORLD, RARITY_RARE},
+	{ITEM_CARD_BRRON_MAD_KING_OF_DARK_WORLD, RARITY_ULTIMATE_RARE},
+};
+
+const struct PackContents gOCGElementalEnergyVendorEdition[] =
+{
+};
+
+const struct PackContents gOCGEnemyofJustice[] =
+{
+};
+
+const struct PackContents gOCGEnemyofJusticeVendorEdition[] =
+{
+};
+
+const struct PackContents gOCGEntryPack[] =
+{
+};
+
+const struct PackContents gOCGEternityCode[] =
+{
+	{ITEM_CARD_THUNDER_DRAGONLORD, RARITY_COMMON},
+};
+
+const struct PackContents gOCGEventPack2024Vol1[] =
+{
+};
+
+const struct PackContents gOCGEventPack2024Vol2[] =
+{
+};
+
+const struct PackContents gOCGEventPack2024Vol3[] =
+{
+};
+
+const struct PackContents gOCGEventPack2024Vol4[] =
+{
+};
+
+const struct PackContents gOCGEvilTwinDuelSet[] =
+{
+};
+
+const struct PackContents gOCGExosisterDuelSet[] =
+{
+};
+
+const struct PackContents gOCGExpertEdition2[] =
+{
+};
+
+const struct PackContents gOCGExpertEditionVolume3[] =
+{
+};
+
+const struct PackContents gOCGExpertEditionVolume4[] =
+{
+};
+
+const struct PackContents gOCGExpertEditionVolume1[] =
+{
+};
+
+const struct PackContents gOCGExpertEditionVolume2[] =
+{
+};
+
+const struct PackContents gOCGExtraPack[] =
+{
+};
+
+const struct PackContents gOCGExtraPack2012[] =
+{
+};
+
+const struct PackContents gOCGExtraPack2015[] =
+{
+};
+
+const struct PackContents gOCGExtraPack2016[] =
+{
+};
+
+const struct PackContents gOCGExtraPack2017[] =
+{
+};
+
+const struct PackContents gOCGExtraPack2018[] =
+{
+};
+
+const struct PackContents gOCGExtraPack2019[] =
+{
+};
+
+const struct PackContents gOCGExtraPackVolume2[] =
+{
+};
+
+const struct PackContents gOCGExtraPackVolume3[] =
+{
+};
+
+const struct PackContents gOCGExtraPackVolume4[] =
+{
+};
+
+const struct PackContents gOCGExtraPackKnightsofOrder[] =
+{
+};
+
+const struct PackContents gOCGExtraPackSwordofKnights[] =
+{
+};
+
+const struct PackContents gOCGExtremeForce[] =
+{
+};
+
+const struct PackContents gOCGExtremeVictory[] =
+{
+	{ITEM_CARD_TRADETOAD, RARITY_RARE},
+};
+
+const struct PackContents gOCGExtremeVictory2PackSet[] =
+{
+};
+
+const struct PackContents gOCGFiendsmithDuelSet[] =
+{
+};
+
+const struct PackContents gOCGFlamesofDestruction[] =
+{
+};
+
+const struct PackContents gOCGFlamingEternity[] =
+{
+	{ITEM_CARD_SACRED_PHOENIX_OF_NEPHTHYS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SACRED_PHOENIX_OF_NEPHTHYS, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_THE_LIGHT_HEX_SEALED_FUSION, RARITY_COMMON},
+	{ITEM_CARD_THE_BIG_MARCH_OF_ANIMALS, RARITY_COMMON},
+	{ITEM_CARD_KING_DRAGUN, RARITY_SUPER_RARE},
+	{ITEM_CARD_KING_DRAGUN, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_GATLING_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GATLING_DRAGON, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_CHIRON_THE_MAGE, RARITY_RARE},
+	{ITEM_CARD_CHIRON_THE_MAGE, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_HAND_OF_NEPHTHYS, RARITY_COMMON},
+	{ITEM_CARD_LIGHTNING_VORTEX, RARITY_SUPER_RARE},
+	{ITEM_CARD_LIGHTNING_VORTEX, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_GRANMARG_THE_ROCK_MONARCH, RARITY_SUPER_RARE},
+	{ITEM_CARD_GRANMARG_THE_ROCK_MONARCH, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_PHOENIX_WING_WIND_BLAST, RARITY_RARE},
+	{ITEM_CARD_PHOENIX_WING_WIND_BLAST, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_THE_EARTH_HEX_SEALED_FUSION, RARITY_COMMON},
+	{ITEM_CARD_THREATENING_ROAR, RARITY_COMMON},
+	{ITEM_CARD_RESCUE_CAT, RARITY_COMMON},
+	{ITEM_CARD_BIG_TUSKED_MAMMOTH, RARITY_RARE},
+	{ITEM_CARD_BIG_TUSKED_MAMMOTH, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_ULTIMATE_INSECT_LV5, RARITY_RARE},
+	{ITEM_CARD_ULTIMATE_INSECT_LV5, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_GOLEM_SENTRY, RARITY_COMMON},
+	{ITEM_CARD_DECK_DEVASTATION_VIRUS, RARITY_SUPER_RARE},
+	{ITEM_CARD_DECK_DEVASTATION_VIRUS, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_THE_DARK_HEX_SEALED_FUSION, RARITY_COMMON},
+	{ITEM_CARD_INSECT_KNIGHT, RARITY_COMMON},
+};
+
+const struct PackContents gOCGFlamingEternityVendorEdition[] =
+{
+};
+
+const struct PackContents gOCGForceoftheBreaker[] =
+{
+};
+
+const struct PackContents gOCGForceoftheBreakerVendorEdition[] =
+{
+};
+
+const struct PackContents gOCGGUcollaborationcards[] =
+{
+};
+
+const struct PackContents gOCGGalacticOverlord[] =
+{
+};
+
+const struct PackContents gOCGGenerationForce[] =
+{
+	{ITEM_CARD_GEM_ELEPHANT, RARITY_COMMON},
+};
+
+const struct PackContents gOCGGenerationForce2PackSet[] =
+{
+};
+
+const struct PackContents gOCGGladiatorsAssault[] =
+{
+	{ITEM_CARD_GIL_GARTH, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gOCGGladiatorsAssault2PackSet[] =
+{
+};
+
+const struct PackContents gOCGGoldPack2016[] =
+{
+};
+
+const struct PackContents gOCGGoldSeriesOCG[] =
+{
+};
+
+const struct PackContents gOCGGoldSeries2010[] =
+{
+};
+
+const struct PackContents gOCGGoldSeries2011[] =
+{
+};
+
+const struct PackContents gOCGGoldSeries2012[] =
+{
+};
+
+const struct PackContents gOCGGoldSeries2013[] =
+{
+};
+
+const struct PackContents gOCGGoldSeries2014[] =
+{
+};
+
+const struct PackContents gOCGHalfDeck2018DARK[] =
+{
+};
+
+const struct PackContents gOCGHalfDeck2018LIGHT[] =
+{
+};
+
+const struct PackContents gOCGHalfDeckDARK[] =
+{
+};
+
+const struct PackContents gOCGHalfDeckLIGHT[] =
+{
+};
+
+const struct PackContents gOCGHighResolutionArtworkSeries[] =
+{
+};
+
+const struct PackContents gOCGHistoryArchiveCollection[] =
+{
+};
+
+const struct PackContents gOCGIgnitionAssault[] =
+{
+};
+
+const struct PackContents gOCGInfiniteForbidden1BonusPack[] =
+{
+};
+
+const struct PackContents gOCGInvaderofDarknessset[] =
+{
+};
+
+const struct PackContents gOCGInvasionVengeance[] =
+{
+};
+
+const struct PackContents gOCGJapanChampionship2021ShopQualifiersparticipationcard[] =
+{
+};
+
+const struct PackContents gOCGJapanChampionship2023ShopQualifierspromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGJapanChampionship2025Finalsprizecard[] =
+{
+};
+
+const struct PackContents gOCGJudgmentoftheLight[] =
+{
+	{ITEM_CARD_ARCHFIEND_CAVALRY, RARITY_RARE},
+	{ITEM_CARD_TRAPTRIX_MYRMELEO, RARITY_RARE},
+	{ITEM_CARD_TRAPTRIX_NEPENTHES, RARITY_COMMON},
+	{ITEM_CARD_TRAPTRIX_ATRAX, RARITY_RARE},
+	{ITEM_CARD_ARCHFIEND_HEIRESS, RARITY_RARE},
+};
+
+const struct PackContents gOCGJumpFesta2004promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGJumpFesta2005promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGJumpFesta2007promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGJumpFesta2008promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGJumpFesta2009PromotionPack[] =
+{
+};
+
+const struct PackContents gOCGJumpFesta2010PromotionPack[] =
+{
+};
+
+const struct PackContents gOCGJumpFesta2011PromotionPack[] =
+{
+};
+
+const struct PackContents gOCGJumpFesta2012PromotionPackA[] =
+{
+};
+
+const struct PackContents gOCGJumpFesta2012PromotionPackB[] =
+{
+};
+
+const struct PackContents gOCGJumpFesta2013PromotionPackA[] =
+{
+};
+
+const struct PackContents gOCGJumpFesta2013PromotionPackB[] =
+{
+};
+
+const struct PackContents gOCGJumpFesta2014PromotionPack[] =
+{
+};
+
+const struct PackContents gOCGJumpFesta2015PromotionPack[] =
+{
+};
+
+const struct PackContents gOCGJumpFesta2018SpecialSet[] =
+{
+};
+
+const struct PackContents gOCGJumpFestaLimitedPack2019[] =
+{
+};
+
+const struct PackContents gOCGJumpFestaLimitedPack2020[] =
+{
+};
+
+const struct PackContents gOCGJumpHeroespromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGJumpRyVol08promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGJumpSuperAnimeTour2008promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGJumpVictoryCarnival2014promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGJumpVictoryCarnival2015promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGJumpVictoryCarnival2016PromotionPack[] =
+{
+};
+
+const struct PackContents gOCGJumpVictoryCarnival2016promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGJumpVictoryCarnival2017promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGJumpVictoryCarnival2018promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGJumpVictoryCarnival2019promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGLINKVRAINSBox[] =
+{
+};
+
+const struct PackContents gOCGLINKVRAINSDuelistSet[] =
+{
+};
+
+const struct PackContents gOCGLINKVRAINSEdition[] =
+{
+};
+
+const struct PackContents gOCGLINKVRAINSPack[] =
+{
+};
+
+const struct PackContents gOCGLINKVRAINSPack2[] =
+{
+};
+
+const struct PackContents gOCGLINKVRAINSPack3[] =
+{
+};
+
+const struct PackContents gOCGLabrynthDuelSet[] =
+{
+};
+
+const struct PackContents gOCGLabyrinthofNightmareJapanese[] =
+{
+};
+
+const struct PackContents gOCGLegacyofDestruction[] =
+{
+};
+
+const struct PackContents gOCGLegacyofDestruction1BonusPack[] =
+{
+};
+
+const struct PackContents gOCGLegacyoftheValiant[] =
+{
+	{ITEM_CARD_MOBIUS_THE_MEGA_MONARCH, RARITY_SECRET_RARE},
+	{ITEM_CARD_MOBIUS_THE_MEGA_MONARCH, RARITY_GHOST_RARE},
+};
+
+const struct PackContents gOCGLegendofBlueEyesWhiteDragonJapanese[] =
+{
+};
+
+const struct PackContents gOCGLegendaryBlackLusterSoldierGETCampaign[] =
+{
+};
+
+const struct PackContents gOCGLegendaryGoldBox[] =
+{
+};
+
+const struct PackContents gOCGLegendaryMonstersPack[] =
+{
+};
+
+const struct PackContents gOCGLightofDestruction[] =
+{
+	{ITEM_CARD_SUBSTITOAD, RARITY_RARE},
+};
+
+const struct PackContents gOCGLightofDestruction2PackSet[] =
+{
+};
+
+const struct PackContents gOCGLightningOverdrive[] =
+{
+	{ITEM_CARD_TRAPTRIX_VESICULO, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gOCGLightningOverdrive1BonusPack[] =
+{
+};
+
+const struct PackContents gOCGLimitedEdition10ChaosBlack[] =
+{
+};
+
+const struct PackContents gOCGLimitedEdition10HolyWhite[] =
+{
+};
+
+const struct PackContents gOCGLimitedEdition11[] =
+{
+};
+
+const struct PackContents gOCGLimitedEdition12[] =
+{
+};
+
+const struct PackContents gOCGLimitedEdition13[] =
+{
+};
+
+const struct PackContents gOCGLimitedEdition14[] =
+{
+};
+
+const struct PackContents gOCGLimitedEdition15[] =
+{
+};
+
+const struct PackContents gOCGLimitedEdition16[] =
+{
+};
+
+const struct PackContents gOCGLimitedEdition17[] =
+{
+};
+
+const struct PackContents gOCGLimitedEdition2JoeyPack[] =
+{
+};
+
+const struct PackContents gOCGLimitedEdition2KeithPack[] =
+{
+};
+
+const struct PackContents gOCGLimitedEdition2YugiPack[] =
+{
+};
+
+const struct PackContents gOCGLimitedEdition3JoeyPack[] =
+{
+};
+
+const struct PackContents gOCGLimitedEdition3KaibaPack[] =
+{
+};
+
+const struct PackContents gOCGLimitedEdition3YugiPack[] =
+{
+};
+
+const struct PackContents gOCGLimitedEdition4[] =
+{
+};
+
+const struct PackContents gOCGLimitedEdition4MarikPack[] =
+{
+};
+
+const struct PackContents gOCGLimitedEdition4YugiPack[] =
+{
+};
+
+const struct PackContents gOCGLimitedEdition5KaibaPack[] =
+{
+};
+
+const struct PackContents gOCGLimitedEdition5YugiPack[] =
+{
+};
+
+const struct PackContents gOCGLimitedEdition6[] =
+{
+};
+
+const struct PackContents gOCGLimitedEdition7[] =
+{
+};
+
+const struct PackContents gOCGLimitedEdition8[] =
+{
+};
+
+const struct PackContents gOCGLimitedEdition9UltimateSevenPack[] =
+{
+};
+
+const struct PackContents gOCGLimitedEditionJoeyPack[] =
+{
+};
+
+const struct PackContents gOCGLimitedEditionKaibaPack[] =
+{
+};
+
+const struct PackContents gOCGLimitedEditionYugiPack[] =
+{
+};
+
+const struct PackContents gOCGLimitedPackGXSliferRed[] =
+{
+};
+
+const struct PackContents gOCGLinkMonsterPresent[] =
+{
+};
+
+const struct PackContents gOCGLordoftheTachyonGalaxy[] =
+{
+};
+
+const struct PackContents gOCGMagicRulerJapanese[] =
+{
+};
+
+const struct PackContents gOCGMagiciansCombinationDuelSet[] =
+{
+};
+
+const struct PackContents gOCGMalissDuelSet[] =
+{
+};
+
+const struct PackContents gOCGMasterCollectionVolume1[] =
+{
+	{ITEM_CARD_THOUSAND_EYES_RESTRICT, RARITY_SECRET_RARE},
+	{ITEM_CARD_RELINQUISHED, RARITY_SECRET_RARE},
+	{ITEM_CARD_EXODIA_THE_FORBIDDEN_ONE, RARITY_SECRET_RARE},
+	{ITEM_CARD_DARK_RULER_HA_DES, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gOCGMasterCollectionVolume2[] =
+{
+	{ITEM_CARD_GUARDIAN_SPHINX, RARITY_SECRET_RARE},
+	{ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR, RARITY_SECRET_RARE},
+	{ITEM_CARD_BLOWBACK_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gOCGMasterCollectionVolume3[] =
+{
+};
+
+const struct PackContents gOCGMasterGuide2promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGMasterGuide3promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGMasterGuide4promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGMasterGuide5promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGMasterGuide6promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGMasterGuidepromotionalcards[] =
+{
+};
+
+const struct PackContents gOCGMaximumCrisis[] =
+{
+	{ITEM_CARD_ARIEL_PRIESTESS_OF_THE_NEKROZ, RARITY_RARE},
+};
+
+const struct PackContents gOCGMemoriesoftheDuelKingBattleCityArc[] =
+{
+};
+
+const struct PackContents gOCGMemoriesoftheDuelKingCeremonialBattleArc[] =
+{
+};
+
+const struct PackContents gOCGMemoriesoftheDuelKingDuelistKingdomArc[] =
+{
+};
+
+const struct PackContents gOCGMetalRaidersJapanese[] =
+{
+};
+
+const struct PackContents gOCGMillenniumBoxGoldEdition[] =
+{
+};
+
+const struct PackContents gOCGMillenniumPackOCG[] =
+{
+};
+
+const struct PackContents gOCGMonsterFigureCollectionVolume2promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGMonsterFigureCollectionVolume3promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGMonsterFigureCollectionpromotionalcards[] =
+{
+};
+
+const struct PackContents gOCGMonsterStrikecollaborationcards[] =
+{
+};
+
+const struct PackContents gOCGMoviePack[] =
+{
+};
+
+const struct PackContents gOCGMythologicalAge[] =
+{
+};
+
+const struct PackContents gOCGNumberCompleteFilePieceofMemories[] =
+{
+};
+
+const struct PackContents gOCGNumbersGuide2promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGNumbersGuide3promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGNumbersGuidepromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGOfficialGuideStarterBookpromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGOrderofChaos[] =
+{
+	{ITEM_CARD_WHITE_DRAGON_NINJA, RARITY_SECRET_RARE},
+	{ITEM_CARD_MASKED_NINJA_EBISU, RARITY_COMMON},
+	{ITEM_CARD_UPSTART_GOLDEN_NINJA, RARITY_COMMON},
+	{ITEM_CARD_NINJA_GRANDMASTER_HANZO, RARITY_ULTRA_RARE},
+	{ITEM_CARD_NINJA_GRANDMASTER_HANZO, RARITY_ULTIMATE_RARE},
+};
+
+const struct PackContents gOCGOrderofChaos2PackSet[] =
+{
+};
+
+const struct PackContents gOCGPerfectRulebook2015promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGPerfectRulebook2016promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGPerfectRulebook2017promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGPerfectRulebook2018promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGPerfectRulebook2020promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGPerfectRulebook2024promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGPerfectRulebookpromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGPhantomDarkness[] =
+{
+	{ITEM_CARD_DARK_NEPHTHYS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_NEPHTHYS, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_ARMORED_CYBERN, RARITY_COMMON},
+	{ITEM_CARD_METAL_REFLECT_SLIME, RARITY_ULTRA_RARE},
+	{ITEM_CARD_METAL_REFLECT_SLIME, RARITY_ULTIMATE_RARE},
+};
+
+const struct PackContents gOCGPhantomDarkness2PackSet[] =
+{
+};
+
+const struct PackContents gOCGPhantomGod[] =
+{
+};
+
+const struct PackContents gOCGPhantomNightmare[] =
+{
+};
+
+const struct PackContents gOCGPhantomNightmare1BonusPack[] =
+{
+};
+
+const struct PackContents gOCGPhantomRage[] =
+{
+};
+
+const struct PackContents gOCGPhantomRage1BonusPack[] =
+{
+};
+
+const struct PackContents gOCGPharaohsInheritance[] =
+{
+};
+
+const struct PackContents gOCGPharaohsInheritanceVendorEdition[] =
+{
+};
+
+const struct PackContents gOCGPharaohsServantJapanese[] =
+{
+};
+
+const struct PackContents gOCGPharaonicGuardianJapanese[] =
+{
+};
+
+const struct PackContents gOCGPharaonicLegendPack[] =
+{
+};
+
+const struct PackContents gOCGPhotonHypernova[] =
+{
+	{ITEM_CARD_GISHKI_GRIMNESS, RARITY_COMMON},
+	{ITEM_CARD_GREEN_NINJA, RARITY_SUPER_RARE},
+	{ITEM_CARD_JIOH_THE_GRAVITY_NINJA, RARITY_COMMON},
+};
+
+const struct PackContents gOCGPhotonHypernova1BonusPack[] =
+{
+};
+
+const struct PackContents gOCGPhotonShockwave[] =
+{
+	{ITEM_CARD_GISHKI_BEAST, RARITY_RARE},
+	{ITEM_CARD_SENIOR_SILVER_NINJA, RARITY_COMMON},
+	{ITEM_CARD_GEM_KNIGHT_EMERALD, RARITY_RARE},
+	{ITEM_CARD_GOBLIN_POTHOLE_SQUAD, RARITY_SHORT_PRINT},
+	{ITEM_CARD_GEM_TURTLE, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gOCGPhotonShockwave2PackSet[] =
+{
+};
+
+const struct PackContents gOCGPowerPros2023collaborationcards[] =
+{
+};
+
+const struct PackContents gOCGPowerProscollaborationcards[] =
+{
+};
+
+const struct PackContents gOCGPoweroftheDuelist[] =
+{
+};
+
+const struct PackContents gOCGPoweroftheDuelistVendorEdition[] =
+{
+};
+
+const struct PackContents gOCGPoweroftheElements[] =
+{
+	{ITEM_CARD_ALBAZ_THE_ASHEN, RARITY_SUPER_RARE},
+	{ITEM_CARD_GEM_KNIGHT_QUARTZ, RARITY_SUPER_RARE},
+	{ITEM_CARD_BRILLIANT_ROSE, RARITY_COMMON},
+};
+
+const struct PackContents gOCGPoweroftheElements1BonusPack[] =
+{
+};
+
+const struct PackContents gOCGPoweroftheGuardian[] =
+{
+};
+
+const struct PackContents gOCGPremiumPackJapanese[] =
+{
+};
+
+const struct PackContents gOCGPremiumPack10[] =
+{
+};
+
+const struct PackContents gOCGPremiumPack11[] =
+{
+};
+
+const struct PackContents gOCGPremiumPack12[] =
+{
+};
+
+const struct PackContents gOCGPremiumPack13[] =
+{
+};
+
+const struct PackContents gOCGPremiumPack14[] =
+{
+};
+
+const struct PackContents gOCGPremiumPack15[] =
+{
+};
+
+const struct PackContents gOCGPremiumPack16[] =
+{
+};
+
+const struct PackContents gOCGPremiumPack17[] =
+{
+};
+
+const struct PackContents gOCGPremiumPack18[] =
+{
+};
+
+const struct PackContents gOCGPremiumPack19[] =
+{
+};
+
+const struct PackContents gOCGPremiumPack2Japanese[] =
+{
+};
+
+const struct PackContents gOCGPremiumPack20[] =
+{
+};
+
+const struct PackContents gOCGPremiumPack2019[] =
+{
+};
+
+const struct PackContents gOCGPremiumPack2020[] =
+{
+};
+
+const struct PackContents gOCGPremiumPack2021[] =
+{
+};
+
+const struct PackContents gOCGPremiumPack2022[] =
+{
+};
+
+const struct PackContents gOCGPremiumPack2023[] =
+{
+};
+
+const struct PackContents gOCGPremiumPack2024[] =
+{
+};
+
+const struct PackContents gOCGPremiumPack2025[] =
+{
+};
+
+const struct PackContents gOCGPremiumPack3[] =
+{
+};
+
+const struct PackContents gOCGPremiumPack4[] =
+{
+};
+
+const struct PackContents gOCGPremiumPack5[] =
+{
+};
+
+const struct PackContents gOCGPremiumPack6[] =
+{
+};
+
+const struct PackContents gOCGPremiumPack7[] =
+{
+};
+
+const struct PackContents gOCGPremiumPack8[] =
+{
+};
+
+const struct PackContents gOCGPremiumPack9[] =
+{
+};
+
+const struct PackContents gOCGPremiumPackTheLegendofDuelistQuarterCenturyEdition[] =
+{
+};
+
+const struct PackContents gOCGPrimalOrigin[] =
+{
+	{ITEM_CARD_LUCENT_NETHERLORD_OF_DARK_WORLD, RARITY_SUPER_RARE},
+	{ITEM_CARD_TRAPTRIX_DIONAEA, RARITY_RARE},
+	{ITEM_CARD_THESTALOS_THE_MEGA_MONARCH, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gOCGPrimalOriginBoosterPackGuidepromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGPrismaticArtCollection[] =
+{
+};
+
+const struct PackContents gOCGPrismaticGodBox[] =
+{
+};
+
+const struct PackContents gOCGPrismaticSecretRareBlackLusterSoldierGETCampaign[] =
+{
+};
+
+const struct PackContents gOCGPrismaticSecretRareBlueEyesWhiteDragonGETCampaign[] =
+{
+};
+
+const struct PackContents gOCGPrismaticSecretRareDarkMagicianGETCampaign[] =
+{
+};
+
+const struct PackContents gOCGPrismaticSecretRareRedEyesBlackDragonGETCampaign[] =
+{
+};
+
+const struct PackContents gOCGPrismaticSpecialPack[] =
+{
+};
+
+const struct PackContents gOCGPromotionPack[] =
+{
+};
+
+const struct PackContents gOCGPromotionPack2[] =
+{
+};
+
+const struct PackContents gOCGPromotionPack2017[] =
+{
+};
+
+const struct PackContents gOCGPromotionPack2018[] =
+{
+};
+
+const struct PackContents gOCGPromotionPack2019[] =
+{
+};
+
+const struct PackContents gOCGPromotionPack2023[] =
+{
+};
+
+const struct PackContents gOCGPromotionPack2024[] =
+{
+};
+
+const struct PackContents gOCGPromotionPack2025[] =
+{
+};
+
+const struct PackContents gOCGPromotionPack3PartA[] =
+{
+};
+
+const struct PackContents gOCGPromotionPack3PartB[] =
+{
+};
+
+const struct PackContents gOCGPromotionPack4PartA[] =
+{
+};
+
+const struct PackContents gOCGPromotionPack4PartB[] =
+{
+};
+
+const struct PackContents gOCGQuarterCenturyAnniversarySelection[] =
+{
+};
+
+const struct PackContents gOCGQuarterCenturyArtCollection[] =
+{
+};
+
+const struct PackContents gOCGQuarterCenturyChroniclesidePride[] =
+{
+};
+
+const struct PackContents gOCGQuarterCenturyChroniclesideUnity[] =
+{
+};
+
+const struct PackContents gOCGQuarterCenturyDuelSetBlackLusterSoldierEnvoyoftheBeginning[] =
+{
+};
+
+const struct PackContents gOCGQuarterCenturyDuelSetTheWingedDragonofRa[] =
+{
+};
+
+const struct PackContents gOCGQuarterCenturyDuelistBox[] =
+{
+};
+
+const struct PackContents gOCGQuarterCenturyLegendarySelection[] =
+{
+};
+
+const struct PackContents gOCGQuarterCenturyLimitedPack[] =
+{
+};
+
+const struct PackContents gOCGQuarterCenturyTrinityBox[] =
+{
+};
+
+const struct PackContents gOCGQuarterCenturyUnityPrideCampaignsidePride[] =
+{
+};
+
+const struct PackContents gOCGQuarterCenturyUnityPrideCampaignsideUnity[] =
+{
+};
+
+const struct PackContents gOCGRageoftheAbyss[] =
+{
+	{ITEM_CARD_HEART_OF_THE_BLUE_EYES, RARITY_SECRET_RARE},
+	{ITEM_CARD_HEART_OF_THE_BLUE_EYES, RARITY_QUARTER_CENTURY_SECRET_RARE},
+};
+
+const struct PackContents gOCGRageoftheAbyss1BonusPack[] =
+{
+};
+
+const struct PackContents gOCGRagingBattle[] =
+{
+};
+
+const struct PackContents gOCGRagingBattle2PackSet[] =
+{
+};
+
+const struct PackContents gOCGRagingTempest[] =
+{
+	{ITEM_CARD_ENVOY_OF_CHAOS, RARITY_RARE},
+};
+
+const struct PackContents gOCGRarityCollection20thAnniversaryEdition[] =
+{
+};
+
+const struct PackContents gOCGRarityCollectionPremiumGoldEdition[] =
+{
+};
+
+const struct PackContents gOCGRarityCollectionQuarterCenturyEdition[] =
+{
+};
+
+const struct PackContents gOCGRedEyesDuelSet[] =
+{
+};
+
+const struct PackContents gOCGRemoteDuelDiscordOfficialServerRegistrationCampaign[] =
+{
+};
+
+const struct PackContents gOCGRemoteDuelGiveawayCampaign[] =
+{
+};
+
+const struct PackContents gOCGRemoteDuelTwitterCampaigns[] =
+{
+};
+
+const struct PackContents gOCGReturnoftheDuelist[] =
+{
+};
+
+const struct PackContents gOCGRevivalofBlackDemonsDragon[] =
+{
+};
+
+const struct PackContents gOCGRiseofDestiny[] =
+{
+	{ITEM_CARD_PIKERU_S_CIRCLE_OF_ENCHANTMENT, RARITY_SUPER_RARE},
+	{ITEM_CARD_PIKERU_S_CIRCLE_OF_ENCHANTMENT, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_ULTIMATE_INSECT_LV3, RARITY_RARE},
+	{ITEM_CARD_ULTIMATE_INSECT_LV3, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_SERIAL_SPELL, RARITY_RARE},
+	{ITEM_CARD_SERIAL_SPELL, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_MONSTER_REINCARNATION, RARITY_SUPER_RARE},
+	{ITEM_CARD_MONSTER_REINCARNATION, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_FUSILIER_DRAGON_THE_DUAL_MODE_BEAST, RARITY_RARE},
+	{ITEM_CARD_FUSILIER_DRAGON_THE_DUAL_MODE_BEAST, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_MIRAGE_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_XING_ZHEN_HU, RARITY_COMMON},
+	{ITEM_CARD_DARK_BLADE_THE_DRAGON_KNIGHT, RARITY_RARE},
+	{ITEM_CARD_DARK_BLADE_THE_DRAGON_KNIGHT, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE, RARITY_RARE},
+	{ITEM_CARD_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH, RARITY_SUPER_RARE},
+	{ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_SASUKE_SAMURAI_4, RARITY_RARE},
+	{ITEM_CARD_SASUKE_SAMURAI_4, RARITY_ULTIMATE_RARE},
+};
+
+const struct PackContents gOCGRiseofDestinyVendorEdition[] =
+{
+};
+
+const struct PackContents gOCGRiseoftheDuelist[] =
+{
+	{ITEM_CARD_FALLEN_OF_ALBAZ, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gOCGRiseoftheDuelist1BonusPack[] =
+{
+};
+
+const struct PackContents gOCGRisingRampage[] =
+{
+	{ITEM_CARD_TLAKALEL_HIS_MALEVOLENT_MAJESTY, RARITY_RARE},
+};
+
+const struct PackContents gOCGSaikyJumpMarch2015promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGSaikyJumpMay2016promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGSaikyJumpNovember2019promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGSaikyJumpSeptember2012promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGSaikyJumpSeptember2015promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGSaikyJumpSeptember2016promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGSaikyJumpSeptember2017promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGSaikyJumpSeptember2018promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGSaikyVJumpFesta2012promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGSaikyVJumpFesta2013promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGSavageStrike[] =
+{
+};
+
+const struct PackContents gOCGSecretShinyBox[] =
+{
+};
+
+const struct PackContents gOCGSecretUtilityBox[] =
+{
+};
+
+const struct PackContents gOCGSecretsofEternity[] =
+{
+	{ITEM_CARD_CAIUS_THE_MEGA_MONARCH, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DANCE_PRINCESS_OF_THE_NEKROZ, RARITY_RARE},
+};
+
+const struct PackContents gOCGSelection10[] =
+{
+};
+
+const struct PackContents gOCGSelection5[] =
+{
+};
+
+const struct PackContents gOCGShadowSpecters[] =
+{
+	{ITEM_CARD_GRANMARG_THE_MEGA_MONARCH, RARITY_SECRET_RARE},
+	{ITEM_CARD_ARCHFIEND_GIANT, RARITY_RARE},
+};
+
+const struct PackContents gOCGShadowofInfinity[] =
+{
+	{ITEM_CARD_SAND_MOTH, RARITY_COMMON},
+	{ITEM_CARD_CHAINSAW_INSECT, RARITY_RARE},
+	{ITEM_CARD_CHAINSAW_INSECT, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_GOKIPON, RARITY_COMMON},
+	{ITEM_CARD_KARMA_CUT, RARITY_RARE},
+	{ITEM_CARD_KARMA_CUT, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_DOOM_DOZER, RARITY_RARE},
+	{ITEM_CARD_DOOM_DOZER, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_TREEBORN_FROG, RARITY_RARE},
+	{ITEM_CARD_TREEBORN_FROG, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_SABER_BEETLE, RARITY_COMMON},
+};
+
+const struct PackContents gOCGShadowofInfinityVendorEdition[] =
+{
+};
+
+const struct PackContents gOCGShiningSarcophagusDuelSet[] =
+{
+};
+
+const struct PackContents gOCGShiningVictories[] =
+{
+	{ITEM_CARD_PROTECTOR_WITH_EYES_OF_BLUE, RARITY_COMMON},
+	{ITEM_CARD_TENMATAITEI, RARITY_RARE},
+	{ITEM_CARD_SAGE_WITH_EYES_OF_BLUE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MASTER_WITH_EYES_OF_BLUE, RARITY_COMMON},
+	{ITEM_CARD_PRIESTESS_WITH_EYES_OF_BLUE, RARITY_SUPER_RARE},
+	{ITEM_CARD_THE_WHITE_STONE_OF_ANCIENTS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RED_EYES_TOON_DRAGON, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gOCGSkyStrikerAceDuelSet[] =
+{
+};
+
+const struct PackContents gOCGSkyStrikerAceDuelSet2[] =
+{
+};
+
+const struct PackContents gOCGSnakeEyeDuelSet[] =
+{
+};
+
+const struct PackContents gOCGSoulFusion[] =
+{
+	{ITEM_CARD_THUNDER_DRAGONROAR, RARITY_ULTRA_RARE},
+	{ITEM_CARD_THUNDER_DRAGONDUO, RARITY_SUPER_RARE},
+	{ITEM_CARD_THUNDER_DRAGONMATRIX, RARITY_RARE},
+	{ITEM_CARD_THUNDER_DRAGONDARK, RARITY_ULTRA_RARE},
+	{ITEM_CARD_THUNDER_DRAGONHAWK, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gOCGSouloftheDuelist[] =
+{
+	{ITEM_CARD_MOBIUS_THE_FROST_MONARCH, RARITY_SUPER_RARE},
+	{ITEM_CARD_MOBIUS_THE_FROST_MONARCH, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_BLACK_DRAGON_S_CHICK, RARITY_COMMON},
+	{ITEM_CARD_DARK_MIMIC_LV1, RARITY_COMMON},
+	{ITEM_CARD_HOWLING_INSECT, RARITY_COMMON},
+	{ITEM_CARD_MYSTIC_SWORDSMAN_LV4, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MYSTIC_SWORDSMAN_LV4, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_SKULL_DOG_MARRON, RARITY_COMMON},
+	{ITEM_CARD_NINJA_GRANDMASTER_SASUKE, RARITY_RARE},
+	{ITEM_CARD_NINJA_GRANDMASTER_SASUKE, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_DARK_MIMIC_LV3, RARITY_RARE},
+	{ITEM_CARD_DARK_MIMIC_LV3, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_MYSTIC_SWORDSMAN_LV2, RARITY_RARE},
+	{ITEM_CARD_MYSTIC_SWORDSMAN_LV2, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_MASKED_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_OJAMA_KING, RARITY_RARE},
+	{ITEM_CARD_OJAMA_KING, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_CHARCOAL_INPACHI, RARITY_RARE},
+	{ITEM_CARD_CHARCOAL_INPACHI, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_HALLOWED_LIFE_BARRIER, RARITY_SUPER_RARE},
+	{ITEM_CARD_HALLOWED_LIFE_BARRIER, RARITY_ULTIMATE_RARE},
+};
+
+const struct PackContents gOCGSouloftheDuelistVendorEdition[] =
+{
+};
+
+const struct PackContents gOCGSpecialPack[] =
+{
+};
+
+const struct PackContents gOCGSpecialPack20thAnniversaryEditionVol1[] =
+{
+};
+
+const struct PackContents gOCGSpecialPack20thAnniversaryEditionVol2[] =
+{
+};
+
+const struct PackContents gOCGSpecialPack20thAnniversaryEditionVol3[] =
+{
+};
+
+const struct PackContents gOCGSpecialPack20thAnniversaryEditionVol4[] =
+{
+};
+
+const struct PackContents gOCGSpecialPack20thAnniversaryEditionVol5[] =
+{
+};
+
+const struct PackContents gOCGSpecialPack20thAnniversaryEditionVol6[] =
+{
+};
+
+const struct PackContents gOCGSpecialSummonEvolution[] =
+{
+};
+
+const struct PackContents gOCGSpeedStartDeckLinkEdition[] =
+{
+};
+
+const struct PackContents gOCGSpeedStartDeckSynchroEdition[] =
+{
+};
+
+const struct PackContents gOCGSpellofMask[] =
+{
+};
+
+const struct PackContents gOCGSprightDuelSet[] =
+{
+};
+
+const struct PackContents gOCGStardustOverdrive[] =
+{
+	{ITEM_CARD_SWAP_FROG, RARITY_COMMON},
+};
+
+const struct PackContents gOCGStardustOverdrive2PackSet[] =
+{
+};
+
+const struct PackContents gOCGStarstrikeBlast[] =
+{
+	{ITEM_CARD_DELG_THE_DARK_MONARCH, RARITY_SUPER_RARE},
+	{ITEM_CARD_LANCER_ARCHFIEND, RARITY_RARE},
+};
+
+const struct PackContents gOCGStarstrikeBlast2PackSet[] =
+{
+};
+
+const struct PackContents gOCGStarterBox[] =
+{
+};
+
+const struct PackContents gOCGStarterBoxpreorderpromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGStarterBoxTheatricalRelease[] =
+{
+};
+
+const struct PackContents gOCGStarterDeck2006[] =
+{
+	{ITEM_CARD_MAGIC_CYLINDER, RARITY_COMMON},
+	{ITEM_CARD_JAR_OF_GREED, RARITY_COMMON},
+	{ITEM_CARD_SPEAR_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_HEAVY_STORM, RARITY_COMMON},
+	{ITEM_CARD_KURIBOH, RARITY_COMMON},
+	{ITEM_CARD_MAGICIAN_OF_FAITH, RARITY_COMMON},
+	{ITEM_CARD_DUST_TORNADO, RARITY_COMMON},
+	{ITEM_CARD_OOKAZI, RARITY_COMMON},
+	{ITEM_CARD_DARK_BLADE, RARITY_COMMON},
+	{ITEM_CARD_PREMATURE_BURIAL, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REINCARNATION, RARITY_COMMON},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_COMMON},
+	{ITEM_CARD_BRAIN_CONTROL, RARITY_COMMON},
+	{ITEM_CARD_ELEMENTAL_HERO_CLAYMAN, RARITY_COMMON},
+	{ITEM_CARD_SAKURETSU_ARMOR, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENTS, RARITY_COMMON},
+	{ITEM_CARD_MIRAGE_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_BLACK_PENDANT, RARITY_COMMON},
+	{ITEM_CARD_FISSURE, RARITY_COMMON},
+	{ITEM_CARD_LUSTER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_CASTLE_WALLS, RARITY_COMMON},
+	{ITEM_CARD_GAIA_POWER, RARITY_COMMON},
+	{ITEM_CARD_PRINCESS_OF_TSURUGI, RARITY_COMMON},
+};
+
+const struct PackContents gOCGStarterDeck2006SpecialEdition[] =
+{
+};
+
+const struct PackContents gOCGStarterDeck2007[] =
+{
+};
+
+const struct PackContents gOCGStarterDeck2007SpecialSet[] =
+{
+};
+
+const struct PackContents gOCGStarterDeck2008[] =
+{
+};
+
+const struct PackContents gOCGStarterDeck2008Tournamentpromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGStarterDeck2009[] =
+{
+};
+
+const struct PackContents gOCGStarterDeck2010[] =
+{
+};
+
+const struct PackContents gOCGStarterDeck2011[] =
+{
+};
+
+const struct PackContents gOCGStarterDeck2012[] =
+{
+};
+
+const struct PackContents gOCGStarterDeck2013[] =
+{
+};
+
+const struct PackContents gOCGStarterDeck2013EnhancementPack[] =
+{
+};
+
+const struct PackContents gOCGStarterDeck2014[] =
+{
+};
+
+const struct PackContents gOCGStarterDeck2014EnhancementPack[] =
+{
+};
+
+const struct PackContents gOCGStarterDeck2016[] =
+{
+};
+
+const struct PackContents gOCGStarterDeck2017[] =
+{
+};
+
+const struct PackContents gOCGStarterDeck2018[] =
+{
+};
+
+const struct PackContents gOCGStarterDeck2019[] =
+{
+};
+
+const struct PackContents gOCGStormofRagnarok[] =
+{
+};
+
+const struct PackContents gOCGStormofRagnarok2PackSet[] =
+{
+};
+
+const struct PackContents gOCGStrikeofNeos[] =
+{
+	{ITEM_CARD_FUSION_DEVOURER, RARITY_RARE},
+	{ITEM_CARD_FUSION_DEVOURER, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_GREN_TACTICIAN_OF_DARK_WORLD, RARITY_COMMON},
+};
+
+const struct PackContents gOCGStrikeofNeosVendorEdition[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckRAdventoftheTrueMonarch[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckRCurseoftheDark[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckRDevilsGate[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckRDevilsGateTheDoorsoftheAbyssOpenedPack[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckRDragunityDrive[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckRDragunityDriveLegendoftheDragonRavinePack[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckRLordofMagician[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckRLostSanctuary[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckRLostSanctuaryArrivaloftheSunGodPack[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckRMachineDragonReVolt[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckRMachinersCommand[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckROnslaughtoftheFireKings[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckROnslaughtoftheFireKingsSecondComingoftheEternalFlamesRulerPack[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckRRevivaloftheGreatDivineDragon[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckRSurgeofDivineLight[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckRTyrannosRage[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckRUndeadWorld[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckRWarriorsStrike[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckAdventoftheEmperor[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckAdventoftheEyesofBlue[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckAdventoftheEyesofBlueLegendaryMajestyInheritancePack[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckAlbaStrike[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckBlazeofDestruction[] =
+{
+	{ITEM_CARD_BLAZING_INPACHI, RARITY_COMMON},
+	{ITEM_CARD_RELOAD, RARITY_COMMON},
+	{ITEM_CARD_JAR_OF_GREED, RARITY_COMMON},
+	{ITEM_CARD_HEAVY_STORM, RARITY_COMMON},
+	{ITEM_CARD_DUST_TORNADO, RARITY_COMMON},
+	{ITEM_CARD_PREMATURE_BURIAL, RARITY_COMMON},
+	{ITEM_CARD_NOBLEMAN_OF_CROSSOUT, RARITY_COMMON},
+	{ITEM_CARD_LEVEL_LIMIT_AREA_B, RARITY_COMMON},
+	{ITEM_CARD_SNATCH_STEAL, RARITY_COMMON},
+	{ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+	{ITEM_CARD_POT_OF_GREED, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gOCGStructureDeckBlitzkriegoftheMechlightDragons[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckCurseofDarkness[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckCyberStylesSuccessor[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckCyberStylesSuccessorSecretTechniqueInheritancePack[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckCyberseLink[] =
+{
+	{ITEM_CARD_MAGICIAN_OF_FAITH, RARITY_COMMON},
+	{ITEM_CARD_MIND_CONTROL, RARITY_COMMON},
+};
+
+const struct PackContents gOCGStructureDeckDeluxeSet[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckDeluxeSetVolume2[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckDevilsGate[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckDinosaursRage[] =
+{
+	{ITEM_CARD_HEAVY_STORM, RARITY_COMMON},
+	{ITEM_CARD_HYPER_HAMMERHEAD, RARITY_COMMON},
+	{ITEM_CARD_GILASAURUS, RARITY_COMMON},
+	{ITEM_CARD_LIGHTNING_VORTEX, RARITY_COMMON},
+	{ITEM_CARD_MEGAMORPH, RARITY_COMMON},
+	{ITEM_CARD_HYDROGEDDON, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gOCGStructureDeckDinosaursRageSpecialEditionJapanese[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckDragonsRoar[] =
+{
+	{ITEM_CARD_CREATURE_SWAP, RARITY_COMMON},
+	{ITEM_CARD_RELOAD, RARITY_COMMON},
+	{ITEM_CARD_DRAGON_S_RAGE, RARITY_COMMON},
+	{ITEM_CARD_CEASEFIRE, RARITY_COMMON},
+	{ITEM_CARD_HEAVY_STORM, RARITY_COMMON},
+	{ITEM_CARD_RECKLESS_GREED, RARITY_COMMON},
+	{ITEM_CARD_BLACK_DRAGON_S_CHICK, RARITY_COMMON},
+	{ITEM_CARD_PREMATURE_BURIAL, RARITY_COMMON},
+	{ITEM_CARD_NOBLEMAN_OF_CROSSOUT, RARITY_COMMON},
+	{ITEM_CARD_SNATCH_STEAL, RARITY_COMMON},
+	{ITEM_CARD_TWIN_HEADED_BEHEMOTH, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_LUSTER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_MASKED_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+	{ITEM_CARD_POT_OF_GREED, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gOCGStructureDeckDragonicLegion[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckDragunityDrive[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckForestoftheTraptrix[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckForestoftheTraptrixTheLegendofDuelistQuarterCenturyEdition[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckForestoftheTraptrixBanquetInvitationPack[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckFuryfromtheDeep[] =
+{
+	{ITEM_CARD_SEA_SERPENT_WARRIOR_OF_DARKNESS, RARITY_COMMON},
+	{ITEM_CARD_CREATURE_SWAP, RARITY_COMMON},
+	{ITEM_CARD_TORRENTIAL_TRIBUTE, RARITY_COMMON},
+	{ITEM_CARD_RELOAD, RARITY_COMMON},
+	{ITEM_CARD_MOBIUS_THE_FROST_MONARCH, RARITY_COMMON},
+	{ITEM_CARD_AMPHIBIOUS_BUGROTH_MK_3, RARITY_COMMON},
+	{ITEM_CARD_SALVAGE, RARITY_COMMON},
+	{ITEM_CARD_HEAVY_STORM, RARITY_COMMON},
+	{ITEM_CARD_DUST_TORNADO, RARITY_COMMON},
+	{ITEM_CARD_MOTHER_GRIZZLY, RARITY_COMMON},
+	{ITEM_CARD_PREMATURE_BURIAL, RARITY_COMMON},
+	{ITEM_CARD_7_COLORED_FISH, RARITY_COMMON},
+	{ITEM_CARD_SNATCH_STEAL, RARITY_COMMON},
+	{ITEM_CARD_TRIBE_INFECTING_VIRUS, RARITY_COMMON},
+	{ITEM_CARD_LEVIA_DRAGON_DAEDALUS, RARITY_COMMON},
+	{ITEM_CARD_MERMAID_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_XING_ZHEN_HU, RARITY_COMMON},
+	{ITEM_CARD_A_LEGENDARY_OCEAN, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+	{ITEM_CARD_POT_OF_GREED, RARITY_COMMON},
+	{ITEM_CARD_GRAVITY_BIND, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gOCGStructureDeckHEROsStrike[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckIceBarrieroftheFrozenPrison[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckIceBarrieroftheFrozenPrisonMeltingDestinyPack[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckInvincibleFortress[] =
+{
+	{ITEM_CARD_HIERACOSPHINX, RARITY_COMMON},
+	{ITEM_CARD_WABOKU, RARITY_COMMON},
+	{ITEM_CARD_GUARDIAN_SPHINX, RARITY_COMMON},
+	{ITEM_CARD_SAND_MOTH, RARITY_COMMON},
+	{ITEM_CARD_RECKLESS_GREED, RARITY_COMMON},
+	{ITEM_CARD_STONE_STATUE_OF_THE_AZTECS, RARITY_COMMON},
+	{ITEM_CARD_PREMATURE_BURIAL, RARITY_COMMON},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_COMMON},
+	{ITEM_CARD_BRAIN_CONTROL, RARITY_COMMON},
+	{ITEM_CARD_ROBBIN_GOBLIN, RARITY_COMMON},
+	{ITEM_CARD_GIANT_RAT, RARITY_COMMON},
+	{ITEM_CARD_GIGANTES, RARITY_COMMON},
+	{ITEM_CARD_ULTIMATE_OFFERING, RARITY_COMMON},
+	{ITEM_CARD_MOAI_INTERCEPTOR_CANNONS, RARITY_COMMON},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_COMMON},
+	{ITEM_CARD_GOLEM_SENTRY, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gOCGStructureDeckJoey[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckJoeyVolume2[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckKaiba[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckKaibaVolume2[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckLegendoftheCrystals[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckLegendoftheCrystalsLightofTranscendingBondsPack[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckLightningStrikeoftheMechlightDragon[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckLordofMagician[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckLordofMagicianLimitedEdition[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckLordoftheStorm[] =
+{
+	{ITEM_CARD_RELOAD, RARITY_COMMON},
+	{ITEM_CARD_CARD_DESTRUCTION, RARITY_COMMON},
+	{ITEM_CARD_HEAVY_STORM, RARITY_COMMON},
+	{ITEM_CARD_RECKLESS_GREED, RARITY_COMMON},
+	{ITEM_CARD_DUST_TORNADO, RARITY_COMMON},
+	{ITEM_CARD_NOBLEMAN_OF_CROSSOUT, RARITY_COMMON},
+	{ITEM_CARD_FLYING_KAMAKIRI_1, RARITY_COMMON},
+	{ITEM_CARD_MAGIC_JAMMER, RARITY_COMMON},
+	{ITEM_CARD_SILPHEED, RARITY_COMMON},
+	{ITEM_CARD_SAKURETSU_ARMOR, RARITY_COMMON},
+	{ITEM_CARD_LIGHTNING_VORTEX, RARITY_COMMON},
+	{ITEM_CARD_SLATE_WARRIOR, RARITY_COMMON},
+	{ITEM_CARD_LADY_NINJA_YAE, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gOCGStructureDeckLostSanctuary[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckMachineReVolt[] =
+{
+	{ITEM_CARD_HEAVY_STORM, RARITY_COMMON},
+	{ITEM_CARD_GEAR_GOLEM_THE_MOVING_FORTRESS, RARITY_COMMON},
+	{ITEM_CARD_CANNON_SOLDIER, RARITY_COMMON},
+	{ITEM_CARD_MECHANICALCHASER, RARITY_COMMON},
+	{ITEM_CARD_LIMITER_REMOVAL, RARITY_COMMON},
+	{ITEM_CARD_ULTIMATE_OFFERING, RARITY_COMMON},
+	{ITEM_CARD_SAKURETSU_ARMOR, RARITY_COMMON},
+	{ITEM_CARD_POT_OF_AVARICE, RARITY_COMMON},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gOCGStructureDeckMachineReVoltSpecialEdition[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckMachinersCommand[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckMarikOCG[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckMasterLink[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckMasterofPendulum[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckMastersoftheSpiritualArts[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckMastersoftheSpiritualArtsTheLegendofDuelistQuarterCenturyEdition[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckMastersoftheSpiritualArtsSpiritArtAwakeningPack[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckOnslaughtoftheFireKings[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckOverlayUniverse[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckOverlayUniverseEmperorsDoorPack[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckPegasus[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckPendulumDomination[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckPendulumEvolution[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckPowerofFellows[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckPowercodeLink[] =
+{
+	{ITEM_CARD_SCAPEGOAT, RARITY_COMMON},
+	{ITEM_CARD_RECKLESS_GREED, RARITY_COMMON},
+	{ITEM_CARD_REASONING, RARITY_COMMON},
+	{ITEM_CARD_OFFERINGS_TO_THE_DOOMED, RARITY_COMMON},
+	{ITEM_CARD_MAGICAL_MERCHANT, RARITY_COMMON},
+	{ITEM_CARD_TERRAFORMING, RARITY_COMMON},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+};
+
+const struct PackContents gOCGStructureDeckPulseoftheKing[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckPulseoftheKingRumblingofHeavenandEarthPack[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckRebirthofShaddoll[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckRebirthofShaddollDeckEnhancementPack[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckRevivaloftheGreatDragon[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckRevolver[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckRevolverExtraDeckEnhancementPack[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckRoaroftheSeaEmperor[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckSacredBeastsofChaos[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckSacredBeastsofChaosSacredBeastsUnleashedPack[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckSetoKaiba[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_RING_OF_DESTRUCTION, RARITY_COMMON},
+	{ITEM_CARD_VAMPIRE_LORD, RARITY_COMMON},
+	{ITEM_CARD_CRUSH_CARD_VIRUS, RARITY_COMMON},
+	{ITEM_CARD_KEEPER_OF_THE_SHRINE, RARITY_COMMON},
+	{ITEM_CARD_LIMITER_REMOVAL, RARITY_COMMON},
+	{ITEM_CARD_SHRINK, RARITY_COMMON},
+	{ITEM_CARD_LUSTER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+	{ITEM_CARD_MEGAMORPH, RARITY_COMMON},
+	{ITEM_CARD_X_HEAD_CANNON, RARITY_COMMON},
+	{ITEM_CARD_LORD_OF_D_, RARITY_COMMON},
+};
+
+const struct PackContents gOCGStructureDeckSoulburner[] =
+{
+	{ITEM_CARD_MONSTER_REINCARNATION, RARITY_COMMON},
+	{ITEM_CARD_THREATENING_ROAR, RARITY_COMMON},
+};
+
+const struct PackContents gOCGStructureDeckSoulburnerExtraDeckEnhancementPack[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckSpellcastersJudgment[] =
+{
+	{ITEM_CARD_DARK_ERADICATOR_WARLOCK, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SKILLED_DARK_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_RELOAD, RARITY_COMMON},
+	{ITEM_CARD_NIGHTMARE_S_STEELCAGE, RARITY_COMMON},
+	{ITEM_CARD_MAGIC_CYLINDER, RARITY_COMMON},
+	{ITEM_CARD_TSUKUYOMI, RARITY_COMMON},
+	{ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR, RARITY_COMMON},
+	{ITEM_CARD_HEAVY_STORM, RARITY_COMMON},
+	{ITEM_CARD_MAGICIAN_OF_FAITH, RARITY_COMMON},
+	{ITEM_CARD_PREMATURE_BURIAL, RARITY_COMMON},
+	{ITEM_CARD_NOBLEMAN_OF_CROSSOUT, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_CHAOS_SORCERER, RARITY_COMMON},
+	{ITEM_CARD_LIGHTNING_VORTEX, RARITY_COMMON},
+	{ITEM_CARD_MAGE_POWER, RARITY_COMMON},
+	{ITEM_CARD_ROYAL_MAGICAL_LIBRARY, RARITY_COMMON},
+	{ITEM_CARD_GEMINI_ELF, RARITY_COMMON},
+	{ITEM_CARD_MAGICAL_DIMENSION, RARITY_COMMON},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+	{ITEM_CARD_PITCH_BLACK_POWER_STONE, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gOCGStructureDeckSurgeofRadiance[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckSurgeofRadianceSpecialEdition[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckSynchronExtreme[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckTheBlueEyedDragonsThunderingDescent[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckUndeadWorld[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckWarriorsTriumph[] =
+{
+	{ITEM_CARD_RELOAD, RARITY_COMMON},
+	{ITEM_CARD_GOBLIN_ATTACK_FORCE, RARITY_COMMON},
+	{ITEM_CARD_MARAUDING_CAPTAIN, RARITY_COMMON},
+	{ITEM_CARD_BLAST_WITH_CHAIN, RARITY_COMMON},
+	{ITEM_CARD_HEAVY_STORM, RARITY_COMMON},
+	{ITEM_CARD_MATAZA_THE_ZAPPER, RARITY_COMMON},
+	{ITEM_CARD_DARK_BLADE, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_COMMON},
+	{ITEM_CARD_COMMAND_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_MYSTIC_SWORDSMAN_LV4, RARITY_COMMON},
+	{ITEM_CARD_MAGIC_JAMMER, RARITY_COMMON},
+	{ITEM_CARD_D_D_WARRIOR_LADY, RARITY_COMMON},
+	{ITEM_CARD_GIANT_TRUNADE, RARITY_COMMON},
+	{ITEM_CARD_SNATCH_STEAL, RARITY_COMMON},
+	{ITEM_CARD_EXILED_FORCE, RARITY_COMMON},
+	{ITEM_CARD_NINJA_GRANDMASTER_SASUKE, RARITY_COMMON},
+	{ITEM_CARD_LIGHTNING_VORTEX, RARITY_COMMON},
+	{ITEM_CARD_ROYAL_DECREE, RARITY_COMMON},
+	{ITEM_CARD_MYSTIC_SWORDSMAN_LV2, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+	{ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gOCGStructureDeckWarriorsStrike[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckYugi[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckYugiMuto[] =
+{
+	{ITEM_CARD_MAGICIAN_S_CIRCLE, RARITY_COMMON},
+	{ITEM_CARD_SKILLED_DARK_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_COMMON},
+	{ITEM_CARD_MAGIC_CYLINDER, RARITY_COMMON},
+	{ITEM_CARD_DARK_PALADIN, RARITY_COMMON},
+	{ITEM_CARD_KURIBOH, RARITY_COMMON},
+	{ITEM_CARD_SKILLED_WHITE_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGIC_CURTAIN, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_COMMON},
+	{ITEM_CARD_BUSTER_BLADER, RARITY_COMMON},
+	{ITEM_CARD_TWIN_HEADED_BEHEMOTH, RARITY_COMMON},
+	{ITEM_CARD_GIANT_SOLDIER_OF_STONE, RARITY_COMMON},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_COMMON},
+};
+
+const struct PackContents gOCGStructureDeckYugiVolume2[] =
+{
+};
+
+const struct PackContents gOCGStructureDeckZombieMadness[] =
+{
+	{ITEM_CARD_CREATURE_SWAP, RARITY_COMMON},
+	{ITEM_CARD_TORRENTIAL_TRIBUTE, RARITY_COMMON},
+	{ITEM_CARD_RELOAD, RARITY_COMMON},
+	{ITEM_CARD_VAMPIRE_LORD, RARITY_COMMON},
+	{ITEM_CARD_HEAVY_STORM, RARITY_COMMON},
+	{ITEM_CARD_RECKLESS_GREED, RARITY_COMMON},
+	{ITEM_CARD_DUST_TORNADO, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_LIFE, RARITY_COMMON},
+	{ITEM_CARD_SPIRIT_REAPER, RARITY_COMMON},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_COMMON},
+	{ITEM_CARD_NOBLEMAN_OF_CROSSOUT, RARITY_COMMON},
+	{ITEM_CARD_MAGIC_JAMMER, RARITY_COMMON},
+	{ITEM_CARD_GIANT_TRUNADE, RARITY_COMMON},
+	{ITEM_CARD_SNATCH_STEAL, RARITY_COMMON},
+	{ITEM_CARD_PYRAMID_TURTLE, RARITY_COMMON},
+	{ITEM_CARD_RYU_KOKKI, RARITY_COMMON},
+	{ITEM_CARD_POT_OF_GREED, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gOCGStruggleofChaos[] =
+{
+};
+
+const struct PackContents gOCGSummerNationalGeneralYuGiOhOCGTestpromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGSunstarToniccollaborationcard[] =
+{
+};
+
+const struct PackContents gOCGSupremeDarkness[] =
+{
+	{ITEM_CARD_BEAST_OF_TALWAR_THE_SWORD_SUMMIT, RARITY_COMMON},
+	{ITEM_CARD_METALFLAME_SWORDSMAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_METALFLAME_SWORDSMAN, RARITY_QUARTER_CENTURY_SECRET_RARE},
+};
+
+const struct PackContents gOCGSupremeDarkness1BonusPack[] =
+{
+};
+
+const struct PackContents gOCGSurpassing10000CardsCommemorationCard[] =
+{
+};
+
+const struct PackContents gOCGSurpassing10000CardsCommemorationSpecialPack[] =
+{
+};
+
+const struct PackContents gOCGTVTokyoFestivalpromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGTacticalEvolution[] =
+{
+	{ITEM_CARD_RENGE_GATEKEEPER_OF_DARK_WORLD, RARITY_COMMON},
+};
+
+const struct PackContents gOCGTacticalTryDeckDecisiveStrikeCyberDragon[] =
+{
+};
+
+const struct PackContents gOCGTacticalTryDeckEldlichtheConqueror[] =
+{
+};
+
+const struct PackContents gOCGTacticalTryDeckEvilTwintheKaitoPair[] =
+{
+};
+
+const struct PackContents gOCGTacticalTryDeckExosister[] =
+{
+};
+
+const struct PackContents gOCGTacticalTryDeckRescueACE[] =
+{
+};
+
+const struct PackContents gOCGTacticalTryPackDarkMagicHEROMikanko[] =
+{
+};
+
+const struct PackContents gOCGTearlamentsDuelSet[] =
+{
+};
+
+const struct PackContents gOCGTerminalWorldset[] =
+{
+};
+
+const struct PackContents gOCGTerminalWorld2[] =
+{
+};
+
+const struct PackContents gOCGTheDarkIllusion[] =
+{
+	{ITEM_CARD_MAGICIAN_OF_DARK_ILLUSION, RARITY_SUPER_RARE},
+	{ITEM_CARD_MAGICIAN_S_ROD, RARITY_SUPER_RARE},
+	{ITEM_CARD_MAGICIAN_S_ROBE, RARITY_COMMON},
+};
+
+const struct PackContents gOCGTheDinosaurExpo2023PromotionPack[] =
+{
+};
+
+const struct PackContents gOCGTheDuelistGenesis[] =
+{
+};
+
+const struct PackContents gOCGTheDuelistGenesis2PackSet[] =
+{
+};
+
+const struct PackContents gOCGTheGoldBox[] =
+{
+};
+
+const struct PackContents gOCGTheInfiniteForbidden[] =
+{
+};
+
+const struct PackContents gOCGTheLegendofDuelistPromotionPack[] =
+{
+};
+
+const struct PackContents gOCGTheLostMillennium[] =
+{
+	{ITEM_CARD_HIERACOSPHINX, RARITY_SUPER_RARE},
+	{ITEM_CARD_HIERACOSPHINX, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_WHITE_NINJA, RARITY_COMMON},
+	{ITEM_CARD_BRAIN_CONTROL, RARITY_SUPER_RARE},
+	{ITEM_CARD_BRAIN_CONTROL, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_ULTIMATE_INSECT_LV7, RARITY_SUPER_RARE},
+	{ITEM_CARD_ULTIMATE_INSECT_LV7, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_MINE_GOLEM, RARITY_COMMON},
+	{ITEM_CARD_ELEMENTAL_HERO_CLAYMAN, RARITY_COMMON},
+	{ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_MOAI_INTERCEPTOR_CANNONS, RARITY_COMMON},
+	{ITEM_CARD_D_D_SURVIVOR, RARITY_RARE},
+	{ITEM_CARD_D_D_SURVIVOR, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_DES_WOMBAT, RARITY_COMMON},
+};
+
+const struct PackContents gOCGTheLostMillenniumVendorEdition[] =
+{
+};
+
+const struct PackContents gOCGTheNewChallengers[] =
+{
+	{ITEM_CARD_SHADDOLL_HOUND, RARITY_COMMON},
+};
+
+const struct PackContents gOCGTheNewRuler[] =
+{
+};
+
+const struct PackContents gOCGThePotCollection[] =
+{
+	{ITEM_CARD_POT_OF_GENEROSITY, RARITY_ULTRA_PARALLEL_RARE},
+	{ITEM_CARD_POT_OF_AVARICE, RARITY_ULTRA_PARALLEL_RARE},
+	{ITEM_CARD_POT_OF_GREED, RARITY_ULTRA_PARALLEL_RARE},
+	{ITEM_CARD_POT_OF_GREED, RARITY_QUARTER_CENTURY_SECRET_RARE},
+};
+
+const struct PackContents gOCGTheRarityCollection[] =
+{
+};
+
+const struct PackContents gOCGTheSanctuaryintheSkyset[] =
+{
+};
+
+const struct PackContents gOCGTheShiningDarkness[] =
+{
+	{ITEM_CARD_RONINTOADIN, RARITY_COMMON},
+	{ITEM_CARD_ARCHFIEND_INTERCEPTOR, RARITY_COMMON},
+};
+
+const struct PackContents gOCGTheShiningDarkness2PackSet[] =
+{
+};
+
+const struct PackContents gOCGTheThousandRuleBiblepromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGTheValuableBook1promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGTheValuableBook10promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGTheValuableBook11promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGTheValuableBook12promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGTheValuableBook13promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGTheValuableBook14promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGTheValuableBook15promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGTheValuableBook16promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGTheValuableBook17promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGTheValuableBook18promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGTheValuableBook19promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGTheValuableBook2promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGTheValuableBook20promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGTheValuableBook21promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGTheValuableBook22promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGTheValuableBook3promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGTheValuableBook4promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGTheValuableBook5promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGTheValuableBook6promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGTheValuableBook7promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGTheValuableBook8promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGTheValuableBook9promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGTheValuableBookEX2promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGTheValuableBookEX3promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGTheValuableBookEX4promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGTheValuableBookEX5promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGTheValuableBookEXpromotionalcards[] =
+{
+};
+
+const struct PackContents gOCGThousandEyesBible[] =
+{
+};
+
+const struct PackContents gOCGThreatoftheDarkDemonWorld[] =
+{
+};
+
+const struct PackContents gOCGTokyoGameShow2022promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGTopPrizePack2023Vol1[] =
+{
+};
+
+const struct PackContents gOCGTopPrizePack2023Vol2[] =
+{
+};
+
+const struct PackContents gOCGTopPrizePack2023Vol3[] =
+{
+};
+
+const struct PackContents gOCGTopPrizePack2023Vol4[] =
+{
+};
+
+const struct PackContents gOCGTopPrizePack2024Vol1[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2007Vol1[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2007Vol2[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2007Vol3[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2007Vol4[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2008Vol1[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2008Vol2[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2008Vol3[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2008Vol4[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2009Vol1[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2009Vol2[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2009Vol3[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2009Vol4[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2010Vol1[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2010Vol2[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2010Vol3[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2010Vol4[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2011Vol1[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2011Vol2[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2011Vol3[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2011Vol4[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2012Vol1[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2012Vol2[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2012Vol3[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2017Vol2[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2017Vol3[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2017Vol4[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2018Vol1[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2018Vol2[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2018Vol3[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2018Vol4[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2019Vol1[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2019Vol2[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2019Vol3[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2019Vol4[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2020Vol1[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2020Vol2[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2020Vol3[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2020Vol4[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2021Vol1[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2021Vol2[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2021Vol3[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2021Vol4[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2022Vol1[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2022Vol2[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2022Vol3[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2022Vol4[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2023Vol1[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2023Vol2[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2023Vol3[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2023Vol4[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2024Vol1[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2024Vol2[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2024Vol3[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2024Vol4[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2024Vol5[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2025Vol1[] =
+{
+};
+
+const struct PackContents gOCGTournamentPack2025Vol2[] =
+{
+};
+
+const struct PackContents gOCGTranscendosaurusDuelSet[] =
+{
+};
+
+const struct PackContents gOCGUltimateSpecialPack[] =
+{
+};
+
+const struct PackContents gOCGVJumpApril2008promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpApril2009promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpApril2010promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpApril2011promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpApril2012promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpApril2013promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpApril2014promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpApril2015promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpApril2016promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpApril2017promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpApril2018promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpApril2019promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpApril2020promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpApril2021promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpApril2022promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpApril2023promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpApril2024promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpApril2025promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpAugust1999SpecialPresentSetA[] =
+{
+};
+
+const struct PackContents gOCGVJumpAugust1999SpecialPresentSetB[] =
+{
+};
+
+const struct PackContents gOCGVJumpAugust2014promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpAugust2015promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpAugust2016promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpAugust2017promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpAugust2018promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpAugust2019promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpAugust2020promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpAugust2021promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpAugust2022promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpAugust2023promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpAugust2024promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpAugust2025promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpCardFesta2008promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpCardFesta2009promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpCardFesta2010promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpDecember2015promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpDecember2016promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpDecember2017promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpDecember2018promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpDecember2019promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpDecember2020promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpDecember2021promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpDecember2022promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpDecember2023promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpDecember2024promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpEdition[] =
+{
+};
+
+const struct PackContents gOCGVJumpEdition10[] =
+{
+};
+
+const struct PackContents gOCGVJumpEdition2[] =
+{
+};
+
+const struct PackContents gOCGVJumpEdition3[] =
+{
+};
+
+const struct PackContents gOCGVJumpEdition4[] =
+{
+};
+
+const struct PackContents gOCGVJumpEdition5[] =
+{
+};
+
+const struct PackContents gOCGVJumpEdition6[] =
+{
+};
+
+const struct PackContents gOCGVJumpEdition7[] =
+{
+};
+
+const struct PackContents gOCGVJumpEdition8[] =
+{
+};
+
+const struct PackContents gOCGVJumpEdition9[] =
+{
+};
+
+const struct PackContents gOCGVJumpEditionPendulumVictoryPack[] =
+{
+};
+
+const struct PackContents gOCGVJumpFall2005subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpFall2006subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpFall2007subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpFall2008subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpFall2009subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpFall2010subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpFall2011subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpFall2012subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpFall2013subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpFall2014subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpFall2015subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpFall2016subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpFall2017subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpFall2018subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpFall2019subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpFall2020subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpFall2021subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpFall2022subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpFall2023subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpFall2024subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpFall2025subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpFebruary2002promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpFebruary2005promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpFebruary2006promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpFebruary2007promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpFebruary2008promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpFebruary2009promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpFebruary2010promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpFebruary2011promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpFebruary2012promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpFebruary2013promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpFebruary2014promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpFebruary2015promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpFebruary2016promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpFebruary2017promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpFebruary2018promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpFebruary2019promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpFebruary2020promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpFebruary2021promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpFebruary2022promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpFebruary2023promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpFebruary2024promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpFebruary2025promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpFesta1999promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpFesta2011promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJanuary2001promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJanuary2014promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJanuary2016promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJanuary2017promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJanuary2018promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJanuary2019promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJanuary2020promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJanuary2021promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJanuary2022promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJanuary2023promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJanuary2024promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJanuary2025promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJuly2000promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJuly2001lotteryprizecards[] =
+{
+};
+
+const struct PackContents gOCGVJumpJuly2001promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJuly2002promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJuly2013promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJuly2016promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJuly2017promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJuly2018promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJuly2019promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJuly2020promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJuly2021promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJuly2022promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJuly2023promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJuly2024promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJuly2025promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJune2004promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJune2005promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJune2006promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJune2007promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJune2008promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJune2009promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJune2010promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJune2011promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJune2012promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJune2013promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJune2014promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJune2015promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJune2016promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJune2017promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJune2018promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJune2019promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJune2020promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJune2021promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJune2022promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJune2023promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJune2024promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpJune2025promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpMarch2007promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpMarch2008promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpMarch2009promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpMarch2010promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpMarch2011promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpMarch2012promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpMarch2013promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpMarch2015promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpMarch2016promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpMarch2017promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpMarch2018promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpMarch2019promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpMarch2020promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpMarch2021promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpMarch2022promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpMarch2023promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpMarch2024promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpMarch2025promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpMay2016promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpMay2017promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpMay2018promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpMay2019promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpMay2020promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpMay2021promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpMay2022promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpMay2023promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpMay2024promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpMay2025promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpNovember2005promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpNovember2014promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpNovember2015promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpNovember2016promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpNovember2017promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpNovember2018promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpNovember2019promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpNovember2020promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpNovember2021promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpNovember2022promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpNovember2023promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpNovember2024promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpOctober2004promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpOctober2006promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpOctober2007promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpOctober2008promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpOctober2009promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpOctober2010promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpOctober2011promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpOctober2012promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpOctober2015promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpOctober2016promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpOctober2017promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpOctober2018promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpOctober2019promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpOctober2020promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpOctober2021promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpOctober2022promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpOctober2023promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpOctober2024promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpSeptember2012promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpSeptember2013promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpSeptember2014promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpSeptember2015promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpSeptember2016promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpSeptember2017promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpSeptember2018promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpSeptember2019promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpSeptember2020promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpSeptember2021promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpSeptember2022promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpSeptember2023promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpSeptember2024promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpSeptember2025promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGVJumpSpring2006subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpSpring2007subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpSpring2008subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpSpring2009subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpSpring2010subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpSpring2011subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpSpring2012subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpSpring2013subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpSpring2014subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpSpring2015subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpSpring2016subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpSpring2017subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpSpring2018subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpSpring2019subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpSpring2020subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpSpring2021subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpSpring2022subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpSpring2023subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpSpring2024subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVJumpSpring2025subscriptionbonus[] =
+{
+};
+
+const struct PackContents gOCGVol1[] =
+{
+};
+
+const struct PackContents gOCGVol2[] =
+{
+};
+
+const struct PackContents gOCGVol3[] =
+{
+};
+
+const struct PackContents gOCGVol4[] =
+{
+};
+
+const struct PackContents gOCGVol5[] =
+{
+};
+
+const struct PackContents gOCGVol6[] =
+{
+};
+
+const struct PackContents gOCGVol7[] =
+{
+};
+
+const struct PackContents gOCGWeeklyShnenJump2001Issue11promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGWeeklyShnenJump2001Issue35promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGWeeklyShnenJump2001Issue3637promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGWeeklyShnenJump2002Issue45promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGWeeklyShnenJump2003Issue34promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGWeeklyShnenJump2006Issue2promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGWeeklyShnenJump2006Issue35promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGWeeklyShnenJump2007Issue2promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGWeeklyShnenJump2007Issue35promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGWeeklyShnenJump2008Issue18promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGWeeklyShnenJump2008Issue3promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGWeeklyShnenJump2008Issue36promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGWeeklyShnenJump2009Issue3promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGWeeklyShnenJump2009Issue36promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGWeeklyShnenJump2010Issue2promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGWeeklyShnenJump2010Issue3637promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGWeeklyShnenJump2011Issue2promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGWeeklyShnenJump2011Issue3536promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGWeeklyShnenJump2012Issue2promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGWeeklyShnenJump2012Issue35promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGWeeklyShnenJump2013Issue36promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGWeeklyShnenJump2013Issue45promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGWeeklyShnenJump2014Issue3promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGWeeklyShnenJump2014Issue36promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGWeeklyShnenJump2015Issue3promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGWeeklyShnenJump2015Issue34promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGWeeklyShnenJump2016Issue19promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGWeeklyShnenJump2017Issue2122promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGWeeklyShnenJump2018Issue2122promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGWeeklyShnenJump2019Issue2223promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGWinnersPack2025Vol1[] =
+{
+};
+
+const struct PackContents gOCGWinnersPack2025Vol2[] =
+{
+};
+
+const struct PackContents gOCGWitchcrafterDuelSet[] =
+{
+};
+
+const struct PackContents gOCGWorldPremierePack2020[] =
+{
+};
+
+const struct PackContents gOCGWorldPremierePack2021[] =
+{
+};
+
+const struct PackContents gOCGWorldPremierePack2022[] =
+{
+};
+
+const struct PackContents gOCGWorldPremierePack2023[] =
+{
+};
+
+const struct PackContents gOCGWorldPremierePack2024[] =
+{
+};
+
+const struct PackContents gOCGWorldRankingPromosSeries1[] =
+{
+};
+
+const struct PackContents gOCGWorldRankingPromosSeries2[] =
+{
+};
+
+const struct PackContents gOCGWorldRankingPromosSeries3[] =
+{
+};
+
+const struct PackContents gOCGWorldRankingPromosSeries4[] =
+{
+};
+
+const struct PackContents gOCGWorldRankingPromosSeries5[] =
+{
+};
+
+const struct PackContents gOCGWorldRankingPromosSeries6[] =
+{
+};
+
+const struct PackContents gOCGWorldRankingPromosSeries7[] =
+{
+};
+
+const struct PackContents gOCGWorldRankingPromosSeries8[] =
+{
+};
+
+const struct PackContents gOCGWorldRankingPromosSeries9[] =
+{
+};
+
+const struct PackContents gOCGYuGiOh3DBondsBeyondTimeBluraypromotionalcard[] =
+{
+	{ITEM_CARD_MALEFIC_RED_EYES_BLACK_DRAGON, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gOCGYuGiOh3DBondsBeyondTimeDVDpromotionalcard[] =
+{
+	{ITEM_CARD_MALEFIC_RED_EYES_BLACK_DRAGON, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gOCGYuGiOh3DBondsBeyondTimeMoviePack[] =
+{
+	{ITEM_CARD_MALEFIC_BLUE_EYES_WHITE_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_MALEFIC_CYBER_END_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_MALEFIC_RED_EYES_BLACK_DRAGON, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gOCGYuGiOh3DBondsBeyondTimeTheaterdistributioncard[] =
+{
+	{ITEM_CARD_MALEFIC_RED_EYES_BLACK_DRAGON, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gOCGYuGiOh5DsDuelTranserGenerateGuidepromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOh5DsDuelTranserpromotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOh5DsTagForce4CompleteTagDuelpromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOh5DsTagForce4promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOh5DsTagForce5AdvanceTagDuelpromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOh5DsTagForce5promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOh5DsTagForce6LimitOverTagDuelpromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOh5DsTagForce6promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOh5DsVolume1promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOh5DsVolume2promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOh5DsVolume3promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOh5DsVolume4promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOh5DsVolume5promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOh5DsVolume6promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOh5DsVolume7promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOh5DsVolume8promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOh5DsVolume9promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOh5DsWheelieBreakersPerfectRidepromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOh5DsWheelieBreakerspromotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOh5DsWorldChampionship2009StardustAcceleratorVictoryRoadpromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOh5DsWorldChampionship2009StardustAcceleratorpromotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOh5DsWorldChampionship2010ReverseofArcadiaPerfectDuelpromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOh5DsWorldChampionship2010ReverseofArcadiapromotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOh5DsWorldChampionship2011OvertheNexusRoadtoVictorypromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOh5DsWorldChampionship2011OvertheNexuspromotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhARCVTagForceSpecialLegendTagGuidepromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhARCVTheStrongestDuelistYuyaVolume1promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhARCVTheStrongestDuelistYuyaVolume2promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhARCVVolume1promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhARCVVolume2promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhARCVVolume3promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhARCVVolume4promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhARCVVolume5promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhARCVVolume6promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhARCVVolume7promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhCapsuleMonsterColiseumGuideBookpromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhCapsuleMonsterColiseumpromotionalcards[] =
+{
+	{ITEM_CARD_ABYSS_SOLDIER, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gOCGYuGiOhCardGame25thAnniversaryBlueEyesWhiteDragonUkiyoeStyleLimitedOCGCardwithFramedStampSet[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhCardGameArtWorkspromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhCardGamex7Eleven2024CollaborationCampaign[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhCardGamex7ElevenCollaborationCampaign[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhChampionshipSeriesJapan2019prizecard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhChampionshipSeriesJapan2023prizecard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhChampionshipSeriesJapan2024prizecard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhChampionshipSeriesJapan2025prizecards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhCharacterGuidebookMillenniumBookpromotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhCharacterGuidebookTheGospelofTruthpromotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhChips[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelLinksLegendDeckGuideYamiYugiVSSetoKaibapromotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonsters4BattleofGreatDuelistGameGuide1promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonsters4BattleofGreatDuelistGameGuide2promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonsters4BattleofGreatDuelistJonouchiDeckpromotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonsters4BattleofGreatDuelistKaibaDeckpromotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonsters4BattleofGreatDuelistYugiDeckpromotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonsters5Expert1FirstVolumepromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonsters5Expert1SecondVolumepromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonsters5Expert1promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonsters6Expert2FirstVolumepromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonsters6Expert2SecondVolumepromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonsters6Expert2preorderpromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonsters6Expert2promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonsters7TheDuelcityLegendGameGuide1promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonsters7TheDuelcityLegendGameGuide2promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonsters7TheDuelcityLegendpreorderpromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonsters7TheDuelcityLegendpromotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonsters8ReshefofDestructionGameGuide1promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonsters8ReshefofDestructionGameGuide2promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonsters8ReshefofDestructionpreorderpromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonsters8ReshefofDestructionpromotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonstersAnimeCompleteGuideMillenniumMemorypromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonstersExpert3GameGuidepromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonstersExpert3promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonstersIIDarkDuelStoriesDuelistLegendinTokyoDomeattendancecards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonstersIIDarkDuelStoriesDuelistLegendinTokyoDomeparticipationcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonstersIIDarkDuelStoriesDuelistLegendinTokyoDomeprizecards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonstersIIDarkDuelStoriesGameGuide1promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonstersIIDarkDuelStoriesGameGuide2promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonstersIIDarkDuelStoriespromotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonstersIIITriHolyGodAdventGameGuide1promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonstersIIITriHolyGodAdventGameGuide2promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonstersIIITriHolyGodAdventOfficialTournamentStreetDuelLegendofPowerprizecard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonstersIIITriHolyGodAdventpreorderpromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonstersIIITriHolyGodAdventpromotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonstersInternational2GameGuidepromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonstersInternational2promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonstersInternationalWorldwideEditionGameGuidepromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonstersMillenniumScenesBlurayDVDpromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonstersNationalTournamentattendancecard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonstersNationalTournamentprizecards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonstersSaikyoCardBattlepromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelMonstersTheLegendofDuelistQuarterCenturyattendancecards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelTerminalMasterGuidepromotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhDuelistandMonstersMemorialDiscBlurayDVDpromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhEarlyDaysCollectionpromotionalcards[] =
+{
+	{ITEM_CARD_HARPIE_S_FEATHER_DUSTER, RARITY_QUARTER_CENTURY_SECRET_RARE},
+};
+
+const struct PackContents gOCGYuGiOhGXCardAlmanacpromotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhGXDuelAcademyGameGuidepromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhGXDuelAcademypromotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhGXSpiritCallerGameGuidepromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhGXSpiritCallerpromotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhGXTagForce2MasterTagDuelpromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhGXTagForce2promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhGXTagForce3ClimaxTagDuelpromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhGXTagForce3promotionalcards[] =
+{
+	{ITEM_CARD_RED_EYES_WYVERN, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gOCGYuGiOhGXTagForceEvolutionpromotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhGXTagForceFriendshipTagDuelpromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhGXTagForcepromotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhGXVolume1promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhGXVolume2promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhGXVolume3promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhGXVolume4promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhGXVolume5promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhGXVolume6promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhGXVolume7promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhGXVolume8promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhGXVolume9promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhLegacyoftheDuelistLinkEvolutionDuelistCompleteGuidepromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhNightmareTroubadourGameGuidepromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhNightmareTroubadourpromotionalcards[] =
+{
+	{ITEM_CARD_MAGICIAN_S_CIRCLE, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gOCGYuGiOhOCGStoriesMagistusArcVolume4promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhOCGStoriesSkyStrikerAceArcVolume1promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhOCGStoriesSkyStrikerAceArcVolume2promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhOCGStoriesSkyStrikerAceArcVolume3promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhOCGStoriesVolume5promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhOCGStructuresVolume1promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhOCGStructuresVolume10promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhOCGStructuresVolume2promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhOCGStructuresVolume3promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhOCGStructuresVolume4promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhOCGStructuresVolume5promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhOCGStructuresVolume6promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhOCGStructuresVolume7promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhOCGStructuresVolume8promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhOCGStructuresVolume9promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhQuarterCenturySummonsceneSelectionBlurayDVDpromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhRVolume1promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhRVolume3promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhRVolume4promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhRVolume5promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhSoundDuelQuarterCenturySelectionpromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhSummerChallenge2009promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhTheDarkSideofDimensions4DTheaterdistributioncard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhTheDarkSideofDimensionsAdvanceTicketpromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhTheDarkSideofDimensionsBlurayDVDpromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhTheDarkSideofDimensionsCinemileagepromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhTheDarkSideofDimensionsCoCoIchibanyapromotionalcard1[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhTheDarkSideofDimensionsCoCoIchibanyapromotionalcard2[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhTheDarkSideofDimensionsDuelSet[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhTheDarkSideofDimensionsMoviePack[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_PALLADIUM_ORACLE_MAHAD, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DEEP_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLUE_EYES_ALTERNATIVE_WHITE_DRAGON, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gOCGYuGiOhTheDarkSideofDimensionsTheaterdistributioncard1[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhTheDarkSideofDimensionsTheaterdistributioncard2[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhTheDarkSideofDimensionsTheaterdistributioncard3[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhTheDarkSideofDimensionsTheaterdistributioncard4[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhTheDarkSideofDimensionsYokohamaEventdistributioncard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhTheMoviepreviewdistributioncard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhTrueDuelMonsters2SucceededMemoriespromotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhTrueDuelMonstersIISucceededMemoriesGameGuidepromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhTrueDuelMonstersSealedMemoriesGameGuidepromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhTrueDuelMonstersSealedMemoriespromotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhUltimateMastersWorldChampionshipTournament2006GameGuidepromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhUltimateMastersWorldChampionshipTournament2006promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhUnitedDuelTournament2020prizecard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhUnitedDuelTournamentAugust2022prizecard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhUnitedDuelTournamentFebruary2023prizecard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhUnitedDuelTournamentMay2021prizecard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhUnitedDuelTournamentNovember2021prizecard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhVolume31promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhWorldChampionship2006Set[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhWorldChampionship2007RoadtoFinalpromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhWorldChampionship2007promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhWorldChampionship2008CompleteEditionpromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhWorldChampionship2008promotionalcards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhWorldChampionship2017attendancecards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhWorldChampionship2018attendancecards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhWorldChampionship2019attendancecards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhWorldChampionship2023attendancecards[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhZEXALVolume1promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhZEXALVolume2promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhZEXALVolume3promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhZEXALVolume4promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhZEXALVolume5promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhZEXALVolume6promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhZEXALVolume7promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhZEXALVolume8promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhZEXALVolume9promotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhZEXALWorldDuelCarnivalDuelChampionGuidepromotionalcard[] =
+{
+};
+
+const struct PackContents gOCGYuGiOhZEXALWorldDuelCarnivalpromotionalcards[] =
+{
+};
+
+const struct PackContents gTCG2PlayerStarterDeckYuyaDeclan[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_SMASHING_GROUND, RARITY_COMMON},
+	{ITEM_CARD_MAGIC_CYLINDER, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_ELF, RARITY_COMMON},
+	{ITEM_CARD_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_DARK_HOLE, RARITY_SUPER_RARE},
+	{ITEM_CARD_DUST_TORNADO, RARITY_COMMON},
+	{ITEM_CARD_RUSH_RECKLESSLY, RARITY_COMMON},
+	{ITEM_CARD_BEAST_OF_TALWAR, RARITY_COMMON},
+	{ITEM_CARD_ARCHFIEND_SOLDIER, RARITY_COMMON},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_SUPER_RARE},
+	{ITEM_CARD_GOBLIN_ELITE_ATTACK_FORCE, RARITY_COMMON},
+	{ITEM_CARD_MIRAGE_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_BLACK_PENDANT, RARITY_COMMON},
+	{ITEM_CARD_AXE_OF_DESPAIR, RARITY_COMMON},
+	{ITEM_CARD_MAD_ARCHFIEND, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gTCG2PlayerStarterSet[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_SPIRIT_OF_THE_HARP, RARITY_COMMON},
+	{ITEM_CARD_GIL_GARTH, RARITY_COMMON},
+	{ITEM_CARD_NEEDLE_CEILING, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_COMMON},
+	{ITEM_CARD_MAGIC_CYLINDER, RARITY_COMMON},
+	{ITEM_CARD_MASK_OF_DARKNESS, RARITY_COMMON},
+	{ITEM_CARD_MOBIUS_THE_FROST_MONARCH, RARITY_COMMON},
+	{ITEM_CARD_SCAPEGOAT, RARITY_COMMON},
+	{ITEM_CARD_DARK_HOLE, RARITY_COMMON},
+	{ITEM_CARD_CHIRON_THE_MAGE, RARITY_COMMON},
+	{ITEM_CARD_MAGICIAN_OF_FAITH, RARITY_COMMON},
+	{ITEM_CARD_WHITE_NINJA, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_INPACHI, RARITY_COMMON},
+	{ITEM_CARD_MAGE_POWER, RARITY_COMMON},
+	{ITEM_CARD_FISSURE, RARITY_COMMON},
+	{ITEM_CARD_GIANT_SOLDIER_OF_STONE, RARITY_COMMON},
+	{ITEM_CARD_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP, RARITY_COMMON},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gTCG2013CollectibleTinsWave1[] =
+{
+	{ITEM_CARD_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCG2013CollectibleTinsWave2[] =
+{
+	{ITEM_CARD_THUNDER_SEA_HORSE, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCG2014MegaTinMegaPack[] =
+{
+	{ITEM_CARD_ARCHFIEND_CAVALRY, RARITY_RARE},
+	{ITEM_CARD_GRANMARG_THE_MEGA_MONARCH, RARITY_SECRET_RARE},
+	{ITEM_CARD_MOBIUS_THE_MEGA_MONARCH, RARITY_SECRET_RARE},
+	{ITEM_CARD_ARCHFIEND_GIANT, RARITY_RARE},
+	{ITEM_CARD_TRAPTRIX_MYRMELEO, RARITY_RARE},
+	{ITEM_CARD_TRAPTRIX_NEPENTHES, RARITY_COMMON},
+	{ITEM_CARD_TRAPTRIX_ATRAX, RARITY_RARE},
+	{ITEM_CARD_ARCHFIEND_HEIRESS, RARITY_RARE},
+};
+
+const struct PackContents gTCG2014MegaTins[] =
+{
+	{ITEM_CARD_ARCHFIEND_COMMANDER, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCG2015MegaTin[] =
+{
+};
+
+const struct PackContents gTCG2015MegaTinMegaPack[] =
+{
+	{ITEM_CARD_SHADDOLL_BEAST, RARITY_RARE},
+	{ITEM_CARD_SHADDOLL_DRAGON, RARITY_RARE},
+	{ITEM_CARD_SHADDOLL_HOUND, RARITY_COMMON},
+	{ITEM_CARD_CAIUS_THE_MEGA_MONARCH, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SHADDOLL_HEDGEHOG, RARITY_COMMON},
+	{ITEM_CARD_TRAPTRIX_DIONAEA, RARITY_RARE},
+	{ITEM_CARD_SHADDOLL_FALCO, RARITY_RARE},
+	{ITEM_CARD_THESTALOS_THE_MEGA_MONARCH, RARITY_SECRET_RARE},
+	{ITEM_CARD_DANCE_PRINCESS_OF_THE_NEKROZ, RARITY_RARE},
+	{ITEM_CARD_RAIZA_THE_MEGA_MONARCH, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCG2015MegaTins[] =
+{
+};
+
+const struct PackContents gTCG2016MegaTinMegaPack[] =
+{
+	{ITEM_CARD_TWILIGHT_NINJA_GETSUGA_THE_SHOGUN, RARITY_RARE},
+	{ITEM_CARD_TOON_CYBER_DRAGON, RARITY_RARE},
+	{ITEM_CARD_TWILIGHT_NINJA_NICHIRIN_THE_CHUNIN, RARITY_COMMON},
+	{ITEM_CARD_SPHERE_KURIBOH, RARITY_RARE},
+	{ITEM_CARD_BEGINNING_KNIGHT, RARITY_SUPER_RARE},
+	{ITEM_CARD_CHARGING_GAIA_THE_FIERCE_KNIGHT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_KEEPER_OF_THE_SHRINE, RARITY_COMMON},
+	{ITEM_CARD_ARISEN_GAIA_THE_FIERCE_KNIGHT, RARITY_RARE},
+	{ITEM_CARD_TWILIGHT_NINJA_SHINGETSU, RARITY_COMMON},
+	{ITEM_CARD_EVENING_TWILIGHT_KNIGHT, RARITY_SUPER_RARE},
+	{ITEM_CARD_SUPER_SOLDIER_SOUL, RARITY_COMMON},
+	{ITEM_CARD_BUSTER_BLADER_THE_DESTRUCTION_SWORDMASTER, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCG2016MegaTins[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCG2017MegaTinMegaPack[] =
+{
+	{ITEM_CARD_PROTECTOR_WITH_EYES_OF_BLUE, RARITY_COMMON},
+	{ITEM_CARD_MAGICIAN_OF_DARK_ILLUSION, RARITY_SUPER_RARE},
+	{ITEM_CARD_TENMATAITEI, RARITY_RARE},
+	{ITEM_CARD_ENVOY_OF_CHAOS, RARITY_RARE},
+	{ITEM_CARD_MAGICIAN_S_ROD, RARITY_SUPER_RARE},
+	{ITEM_CARD_MASTER_WITH_EYES_OF_BLUE, RARITY_COMMON},
+	{ITEM_CARD_PRIESTESS_WITH_EYES_OF_BLUE, RARITY_SUPER_RARE},
+	{ITEM_CARD_THE_WHITE_STONE_OF_ANCIENTS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MAGICIAN_S_ROBE, RARITY_COMMON},
+};
+
+const struct PackContents gTCG2017MegaTins[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCG2018MegaTinMegaPack[] =
+{
+	{ITEM_CARD_ANCIENT_GEAR_GOLEM_ULTIMATE_POUND, RARITY_COMMON},
+	{ITEM_CARD_ARIEL_PRIESTESS_OF_THE_NEKROZ, RARITY_RARE},
+};
+
+const struct PackContents gTCG2018MegaTins[] =
+{
+	{ITEM_CARD_KEEPER_OF_DRAGON_MAGIC, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCG2019GoldSarcophagusTin[] =
+{
+	{ITEM_CARD_RED_EYES_ALTERNATIVE_BLACK_DRAGON, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_RAIGEKI, RARITY_PRISMATIC_SECRET_RARE},
+};
+
+const struct PackContents gTCG2019GoldSarcophagusTinMegaPack[] =
+{
+	{ITEM_CARD_THUNDER_DRAGONROAR, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_THUNDER_DRAGONDUO, RARITY_ULTRA_RARE},
+	{ITEM_CARD_THUNDER_DRAGONMATRIX, RARITY_COMMON},
+	{ITEM_CARD_THUNDER_DRAGONDARK, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_THUNDER_DRAGONHAWK, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_CYBER_DRAGON_VIER, RARITY_COMMON},
+};
+
+const struct PackContents gTCG2020TinofLostMemories[] =
+{
+};
+
+const struct PackContents gTCG2021TinofAncientBattles[] =
+{
+	{ITEM_CARD_REESHADDOLL_WENDI, RARITY_ULTRA_RARE},
+	{ITEM_CARD_QADSHADDOLL_KEIOS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_FALLEN_OF_ALBAZ, RARITY_ULTRA_RARE},
+	{ITEM_CARD_NAELSHADDOLL_ARIEL, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCG2022TinofthePharaohsGods[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_ALUBER_THE_JESTER_OF_DESPIA, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_TRAPTRIX_VESICULO, RARITY_SUPER_RARE},
+	{ITEM_CARD_ALBION_THE_SHROUDED_DRAGON, RARITY_COMMON},
+};
+
+const struct PackContents gTCG25thAnniversaryRarityCollection[] =
+{
+	{ITEM_CARD_CHANGE_OF_HEART, RARITY_SUPER_RARE},
+	{ITEM_CARD_CHANGE_OF_HEART, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CHANGE_OF_HEART, RARITY_SECRET_RARE},
+	{ITEM_CARD_CHANGE_OF_HEART, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_CHANGE_OF_HEART, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_CHANGE_OF_HEART, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_CHANGE_OF_HEART, RARITY_COLLECTOR_S_RARE},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_SUPER_RARE},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_ULTRA_RARE},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_SECRET_RARE},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_COLLECTOR_S_RARE},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_SUPER_RARE},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_SECRET_RARE},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_COLLECTOR_S_RARE},
+	{ITEM_CARD_REASONING, RARITY_SUPER_RARE},
+	{ITEM_CARD_REASONING, RARITY_ULTRA_RARE},
+	{ITEM_CARD_REASONING, RARITY_SECRET_RARE},
+	{ITEM_CARD_REASONING, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_REASONING, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_REASONING, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_REASONING, RARITY_COLLECTOR_S_RARE},
+	{ITEM_CARD_FALLEN_OF_ALBAZ, RARITY_SUPER_RARE},
+	{ITEM_CARD_FALLEN_OF_ALBAZ, RARITY_ULTRA_RARE},
+	{ITEM_CARD_FALLEN_OF_ALBAZ, RARITY_SECRET_RARE},
+	{ITEM_CARD_FALLEN_OF_ALBAZ, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_FALLEN_OF_ALBAZ, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_FALLEN_OF_ALBAZ, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_FALLEN_OF_ALBAZ, RARITY_COLLECTOR_S_RARE},
+};
+
+const struct PackContents gTCG25thAnniversaryRarityCollectionII[] =
+{
+	{ITEM_CARD_SOLEMN_JUDGMENT, RARITY_SUPER_RARE},
+	{ITEM_CARD_SOLEMN_JUDGMENT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SOLEMN_JUDGMENT, RARITY_SECRET_RARE},
+	{ITEM_CARD_SOLEMN_JUDGMENT, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_SOLEMN_JUDGMENT, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_SOLEMN_JUDGMENT, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_SOLEMN_JUDGMENT, RARITY_COLLECTOR_S_RARE},
+	{ITEM_CARD_MAGICIANS_SOULS, RARITY_SUPER_RARE},
+	{ITEM_CARD_MAGICIANS_SOULS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MAGICIANS_SOULS, RARITY_SECRET_RARE},
+	{ITEM_CARD_MAGICIANS_SOULS, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_MAGICIANS_SOULS, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_MAGICIANS_SOULS, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_MAGICIANS_SOULS, RARITY_COLLECTOR_S_RARE},
+	{ITEM_CARD_ALUBER_THE_JESTER_OF_DESPIA, RARITY_SUPER_RARE},
+	{ITEM_CARD_ALUBER_THE_JESTER_OF_DESPIA, RARITY_ULTRA_RARE},
+	{ITEM_CARD_ALUBER_THE_JESTER_OF_DESPIA, RARITY_SECRET_RARE},
+	{ITEM_CARD_ALUBER_THE_JESTER_OF_DESPIA, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_ALUBER_THE_JESTER_OF_DESPIA, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_ALUBER_THE_JESTER_OF_DESPIA, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_ALUBER_THE_JESTER_OF_DESPIA, RARITY_COLLECTOR_S_RARE},
+	{ITEM_CARD_SKILL_DRAIN, RARITY_SUPER_RARE},
+	{ITEM_CARD_SKILL_DRAIN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SKILL_DRAIN, RARITY_SECRET_RARE},
+	{ITEM_CARD_SKILL_DRAIN, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_SKILL_DRAIN, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_SKILL_DRAIN, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_SKILL_DRAIN, RARITY_COLLECTOR_S_RARE},
+	{ITEM_CARD_BLUE_EYES_JET_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_BLUE_EYES_JET_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLUE_EYES_JET_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_BLUE_EYES_JET_DRAGON, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_BLUE_EYES_JET_DRAGON, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_BLUE_EYES_JET_DRAGON, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_BLUE_EYES_JET_DRAGON, RARITY_COLLECTOR_S_RARE},
+	{ITEM_CARD_RESCUE_CAT, RARITY_SUPER_RARE},
+	{ITEM_CARD_RESCUE_CAT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RESCUE_CAT, RARITY_SECRET_RARE},
+	{ITEM_CARD_RESCUE_CAT, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_RESCUE_CAT, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_RESCUE_CAT, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_RESCUE_CAT, RARITY_COLLECTOR_S_RARE},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_SUPER_RARE},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_SECRET_RARE},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_COLLECTOR_S_RARE},
+	{ITEM_CARD_ANTI_SPELL_FRAGRANCE, RARITY_SUPER_RARE},
+	{ITEM_CARD_ANTI_SPELL_FRAGRANCE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_ANTI_SPELL_FRAGRANCE, RARITY_SECRET_RARE},
+	{ITEM_CARD_ANTI_SPELL_FRAGRANCE, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_ANTI_SPELL_FRAGRANCE, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_ANTI_SPELL_FRAGRANCE, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_ANTI_SPELL_FRAGRANCE, RARITY_COLLECTOR_S_RARE},
+	{ITEM_CARD_MIND_CONTROL, RARITY_SUPER_RARE},
+	{ITEM_CARD_MIND_CONTROL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MIND_CONTROL, RARITY_SECRET_RARE},
+	{ITEM_CARD_MIND_CONTROL, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_MIND_CONTROL, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_MIND_CONTROL, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_MIND_CONTROL, RARITY_COLLECTOR_S_RARE},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_SUPER_RARE},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_SECRET_RARE},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_COLLECTOR_S_RARE},
+	{ITEM_CARD_BLUE_EYES_ALTERNATIVE_WHITE_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_BLUE_EYES_ALTERNATIVE_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLUE_EYES_ALTERNATIVE_WHITE_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_BLUE_EYES_ALTERNATIVE_WHITE_DRAGON, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_BLUE_EYES_ALTERNATIVE_WHITE_DRAGON, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_BLUE_EYES_ALTERNATIVE_WHITE_DRAGON, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_BLUE_EYES_ALTERNATIVE_WHITE_DRAGON, RARITY_COLLECTOR_S_RARE},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_SUPER_RARE},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_SECRET_RARE},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COLLECTOR_S_RARE},
+};
+
+const struct PackContents gTCG25thAnniversaryTinDuelingHeroes[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_EXODIA_THE_FORBIDDEN_ONE, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_QUARTER_CENTURY_SECRET_RARE},
+};
+
+const struct PackContents gTCG25thAnniversaryTinDuelingHeroesMegaPack[] =
+{
+	{ITEM_CARD_KAGERO_THE_CANNON_NINJA, RARITY_COMMON},
+	{ITEM_CARD_TIMAEUS_THE_UNITED_DRAGON, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_AMAZONESS_SPIRITUALIST, RARITY_ULTRA_RARE},
+	{ITEM_CARD_ALBAZ_THE_ASHEN, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_TOBARI_THE_SKY_NINJA, RARITY_COMMON},
+	{ITEM_CARD_BAKU_THE_BEAST_NINJA, RARITY_COMMON},
+	{ITEM_CARD_INFERNALQUEEN_SALMON, RARITY_COMMON},
+	{ITEM_CARD_DICTATOR_OF_D_, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GEM_KNIGHT_QUARTZ, RARITY_COMMON},
+	{ITEM_CARD_BLUE_EYES_JET_DRAGON, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_THE_BYSTIAL_LUBELLION, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_LABRYNTH_ARCHFIEND, RARITY_COMMON},
+	{ITEM_CARD_MAGIKURIBOH, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_BLAZING_CARTESIA_THE_VIRTUOUS, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_MITSU_THE_INSECT_NINJA, RARITY_RARE},
+	{ITEM_CARD_BRILLIANT_ROSE, RARITY_COMMON},
+};
+
+const struct PackContents gTCG25thAnniversaryTinDuelingMirrors[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_GISHKI_GRIMNESS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_TORRENTIAL_TRIBUTE, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_THE_BYSTIAL_ALUBER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_LEFT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_HARPIE_S_FEATHER_DUSTER, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_SCAPEGOAT, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_RED_EYES_BLACK_METEOR_DRAGON, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_RIGHT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_RIGHT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_LIMITER_REMOVAL, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_GEM_KNIGHT_QUARTZ, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_JIOH_THE_GRAVITY_NINJA, RARITY_COMMON},
+	{ITEM_CARD_RAIGEKI, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_RED_EYES_SOUL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_FIGHTING_FLAME_SWORDSMAN, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_LEFT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_QUARTER_CENTURY_SECRET_RARE},
+};
+
+const struct PackContents gTCG25thAnniversaryUltimateKaibaSet[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_BATTLE_OX, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SOUL_EXCHANGE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RING_OF_DESTRUCTION, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CRUSH_CARD_VIRUS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GYAKUTENNO_MEGAMI, RARITY_ULTRA_RARE},
+	{ITEM_CARD_JUDGE_MAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SHRINK, RARITY_ULTRA_RARE},
+	{ITEM_CARD_THE_WICKED_WORM_BEAST, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLADE_KNIGHT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP, RARITY_ULTRA_RARE},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_VORSE_RAIDER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLUE_EYES_ULTIMATE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_STOP_DEFENSE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MEGAMORPH, RARITY_ULTRA_RARE},
+	{ITEM_CARD_X_HEAD_CANNON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_LORD_OF_D_, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGAbsolutePowerforce[] =
+{
+	{ITEM_CARD_CYBER_DRAGON_ZWEI, RARITY_RARE},
+};
+
+const struct PackContents gTCGAbsolutePowerforceSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGAbsolutePowerforceSpecialEdition[] =
+{
+	{ITEM_CARD_RED_EYES_DARKNESS_METAL_DRAGON, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGAbyssRising[] =
+{
+	{ITEM_CARD_THUNDER_SEA_HORSE, RARITY_SECRET_RARE},
+	{ITEM_CARD_RED_DRAGON_NINJA, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGAbyssRisingSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGAbyssRisingSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGAdidascollaborationcard[] =
+{
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGAdvancedDemoDeckExtraPack[] =
+{
+};
+
+const struct PackContents gTCGAgeofOverlord[] =
+{
+};
+
+const struct PackContents gTCGAgeofOverlordPremierepromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGAllianceInsight[] =
+{
+	{ITEM_CARD_CYBERDARK_WURM, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CYBERDARK_WURM, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL_THE_MAGICIAN_S_APPRENTICE, RARITY_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL_THE_MAGICIAN_S_APPRENTICE, RARITY_QUARTER_CENTURY_SECRET_RARE},
+};
+
+const struct PackContents gTCGAllianceInsightPremierepromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGAmazingDefenders[] =
+{
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_RARE},
+	{ITEM_CARD_LIMITER_REMOVAL, RARITY_RARE},
+};
+
+const struct PackContents gTCGAncientGuardians[] =
+{
+};
+
+const struct PackContents gTCGAncientProphecy[] =
+{
+	{ITEM_CARD_WHITE_NIGHT_DRAGON, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGAncientProphecySneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGAncientProphecySpecialEdition[] =
+{
+	{ITEM_CARD_RED_EYES_WYVERN, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGAncientSanctuary[] =
+{
+	{ITEM_CARD_WALL_OF_REVEALING_LIGHT, RARITY_COMMON},
+	{ITEM_CARD_STONE_STATUE_OF_THE_AZTECS, RARITY_SUPER_RARE},
+	{ITEM_CARD_LEGENDARY_JUJITSU_MASTER, RARITY_COMMON},
+	{ITEM_CARD_PROTECTOR_OF_THE_SANCTUARY, RARITY_COMMON},
+	{ITEM_CARD_GEAR_GOLEM_THE_MOVING_FORTRESS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MONSTER_GATE, RARITY_COMMON},
+	{ITEM_CARD_NIGHT_ASSAILANT, RARITY_SHORT_PRINT},
+	{ITEM_CARD_BLOWBACK_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_LEVEL_LIMIT_AREA_B, RARITY_SHORT_PRINT},
+	{ITEM_CARD_MYSTIK_WOK, RARITY_COMMON},
+	{ITEM_CARD_MERMAID_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_EMISSARY_OF_THE_AFTERLIFE, RARITY_SUPER_RARE},
+	{ITEM_CARD_ZABORG_THE_THUNDER_MONARCH, RARITY_SUPER_RARE},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_LADY_NINJA_YAE, RARITY_SHORT_PRINT},
+	{ITEM_CARD_KING_OF_THE_SWAMP, RARITY_RARE},
+	{ITEM_CARD_DESERT_SUNLIGHT, RARITY_COMMON},
+};
+
+const struct PackContents gTCGAnniversaryPack[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GYAKUTENNO_MEGAMI, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SUMMONED_SKULL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_JINZO, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BUSTER_BLADER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGAstralPackEight[] =
+{
+	{ITEM_CARD_RED_EYES_WYVERN, RARITY_COMMON},
+	{ITEM_CARD_TWIN_HEADED_BEHEMOTH, RARITY_COMMON},
+	{ITEM_CARD_TOON_MASKED_SORCERER, RARITY_SUPER_RARE},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_ULTIMATE_RARE},
+};
+
+const struct PackContents gTCGAstralPackFive[] =
+{
+	{ITEM_CARD_SOUL_EXCHANGE, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGAstralPackFour[] =
+{
+	{ITEM_CARD_NECROVALLEY, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_REASONING, RARITY_COMMON},
+	{ITEM_CARD_MAGICAL_MERCHANT, RARITY_COMMON},
+};
+
+const struct PackContents gTCGAstralPackOne[] =
+{
+	{ITEM_CARD_TSUKUYOMI, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_TERRAFORMING, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGAstralPackSeven[] =
+{
+	{ITEM_CARD_SENJU_OF_THE_THOUSAND_HANDS, RARITY_COMMON},
+	{ITEM_CARD_LEVEL_LIMIT_AREA_B, RARITY_SUPER_RARE},
+	{ITEM_CARD_SPIRITUAL_WIND_ART_MIYABI, RARITY_COMMON},
+};
+
+const struct PackContents gTCGAstralPackSix[] =
+{
+	{ITEM_CARD_SHADDOLL_BEAST, RARITY_SUPER_RARE},
+	{ITEM_CARD_CEASEFIRE, RARITY_COMMON},
+	{ITEM_CARD_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL, RARITY_COMMON},
+	{ITEM_CARD_NOBLEMAN_OF_CROSSOUT, RARITY_COMMON},
+	{ITEM_CARD_TRAPTRIX_MYRMELEO, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGAstralPackThree[] =
+{
+	{ITEM_CARD_DES_LACOODA, RARITY_COMMON},
+	{ITEM_CARD_SWARM_OF_LOCUSTS, RARITY_COMMON},
+	{ITEM_CARD_JOWGEN_THE_SPIRITUALIST, RARITY_COMMON},
+	{ITEM_CARD_SWARM_OF_SCARABS, RARITY_COMMON},
+};
+
+const struct PackContents gTCGAstralPackTwo[] =
+{
+	{ITEM_CARD_POT_OF_AVARICE, RARITY_COMMON},
+	{ITEM_CARD_SPIRITUAL_WATER_ART_AOI, RARITY_SUPER_RARE},
+	{ITEM_CARD_SKY_SCOUT, RARITY_SHORT_PRINT},
+};
+
+const struct PackContents gTCGBattlePack2WaroftheGiants[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_CYBER_DRAGON, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_DARK_MAGICIAN_OF_CHAOS, RARITY_RARE},
+	{ITEM_CARD_DARK_MAGICIAN_OF_CHAOS, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_AIRKNIGHT_PARSHATH, RARITY_RARE},
+	{ITEM_CARD_AIRKNIGHT_PARSHATH, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_BIG_BANG_SHOT, RARITY_COMMON},
+	{ITEM_CARD_BIG_BANG_SHOT, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_NIGHTMARE_S_STEELCAGE, RARITY_COMMON},
+	{ITEM_CARD_NIGHTMARE_S_STEELCAGE, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_WABOKU, RARITY_COMMON},
+	{ITEM_CARD_WABOKU, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_WHITE_NIGHT_DRAGON, RARITY_RARE},
+	{ITEM_CARD_WHITE_NIGHT_DRAGON, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_GOBLIN_ATTACK_FORCE, RARITY_COMMON},
+	{ITEM_CARD_GOBLIN_ATTACK_FORCE, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_SCAPEGOAT, RARITY_COMMON},
+	{ITEM_CARD_SCAPEGOAT, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_RECKLESS_GREED, RARITY_RARE},
+	{ITEM_CARD_RECKLESS_GREED, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_CHIRON_THE_MAGE, RARITY_COMMON},
+	{ITEM_CARD_CHIRON_THE_MAGE, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_MAGICIAN_OF_FAITH, RARITY_RARE},
+	{ITEM_CARD_MAGICIAN_OF_FAITH, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_RUSH_RECKLESSLY, RARITY_COMMON},
+	{ITEM_CARD_RUSH_RECKLESSLY, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_HYPER_HAMMERHEAD, RARITY_COMMON},
+	{ITEM_CARD_HYPER_HAMMERHEAD, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_MATAZA_THE_ZAPPER, RARITY_COMMON},
+	{ITEM_CARD_MATAZA_THE_ZAPPER, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_GILASAURUS, RARITY_COMMON},
+	{ITEM_CARD_GILASAURUS, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_TOON_GEMINI_ELF, RARITY_COMMON},
+	{ITEM_CARD_TOON_GEMINI_ELF, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_PREMATURE_BURIAL, RARITY_RARE},
+	{ITEM_CARD_PREMATURE_BURIAL, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_CYBER_JAR, RARITY_RARE},
+	{ITEM_CARD_CYBER_JAR, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_EXARION_UNIVERSE, RARITY_COMMON},
+	{ITEM_CARD_EXARION_UNIVERSE, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_BIG_SHIELD_GARDNA, RARITY_COMMON},
+	{ITEM_CARD_BIG_SHIELD_GARDNA, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_D_D_WARRIOR_LADY, RARITY_RARE},
+	{ITEM_CARD_D_D_WARRIOR_LADY, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_REASONING, RARITY_COMMON},
+	{ITEM_CARD_REASONING, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_SHRINK, RARITY_COMMON},
+	{ITEM_CARD_SHRINK, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_BAZOO_THE_SOUL_EATER, RARITY_COMMON},
+	{ITEM_CARD_BAZOO_THE_SOUL_EATER, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_KYCOO_THE_GHOST_DESTROYER, RARITY_COMMON},
+	{ITEM_CARD_KYCOO_THE_GHOST_DESTROYER, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_THE_FIEND_MEGACYBER, RARITY_RARE},
+	{ITEM_CARD_THE_FIEND_MEGACYBER, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_NINJA_GRANDMASTER_SASUKE, RARITY_COMMON},
+	{ITEM_CARD_NINJA_GRANDMASTER_SASUKE, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_GRACEFUL_CHARITY, RARITY_RARE},
+	{ITEM_CARD_GRACEFUL_CHARITY, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_SINISTER_SERPENT, RARITY_COMMON},
+	{ITEM_CARD_SINISTER_SERPENT, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_RARE},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_DRILLROID, RARITY_COMMON},
+	{ITEM_CARD_DRILLROID, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_GOBLIN_ELITE_ATTACK_FORCE, RARITY_COMMON},
+	{ITEM_CARD_GOBLIN_ELITE_ATTACK_FORCE, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_INJECTION_FAIRY_LILY, RARITY_RARE},
+	{ITEM_CARD_INJECTION_FAIRY_LILY, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_TWIN_HEADED_BEHEMOTH, RARITY_COMMON},
+	{ITEM_CARD_TWIN_HEADED_BEHEMOTH, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_MIRAGE_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_MIRAGE_DRAGON, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_TREEBORN_FROG, RARITY_COMMON},
+	{ITEM_CARD_TREEBORN_FROG, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_THREATENING_ROAR, RARITY_COMMON},
+	{ITEM_CARD_THREATENING_ROAR, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_SLATE_WARRIOR, RARITY_RARE},
+	{ITEM_CARD_SLATE_WARRIOR, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_LUSTER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_LUSTER_DRAGON, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_ZOMBYRA_THE_DARK, RARITY_COMMON},
+	{ITEM_CARD_ZOMBYRA_THE_DARK, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_COMMON},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_METAL_REFLECT_SLIME, RARITY_COMMON},
+	{ITEM_CARD_METAL_REFLECT_SLIME, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_AXE_OF_DESPAIR, RARITY_COMMON},
+	{ITEM_CARD_AXE_OF_DESPAIR, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_RARE},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_D_D_ASSAILANT, RARITY_RARE},
+	{ITEM_CARD_D_D_ASSAILANT, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_POT_OF_GREED, RARITY_RARE},
+	{ITEM_CARD_POT_OF_GREED, RARITY_MOSAIC_RARE},
+	{ITEM_CARD_DOOMCALIBER_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_DOOMCALIBER_KNIGHT, RARITY_MOSAIC_RARE},
+};
+
+const struct PackContents gTCGBattlePack3MonsterLeague[] =
+{
+	{ITEM_CARD_CREATURE_SWAP, RARITY_COMMON},
+	{ITEM_CARD_CREATURE_SWAP, RARITY_SHATTERFOIL_RARE},
+	{ITEM_CARD_BERSERK_GORILLA, RARITY_RARE},
+	{ITEM_CARD_BERSERK_GORILLA, RARITY_SHATTERFOIL_RARE},
+	{ITEM_CARD_ARSENAL_BUG, RARITY_RARE},
+	{ITEM_CARD_ARSENAL_BUG, RARITY_SHATTERFOIL_RARE},
+	{ITEM_CARD_BLAST_WITH_CHAIN, RARITY_COMMON},
+	{ITEM_CARD_BLAST_WITH_CHAIN, RARITY_SHATTERFOIL_RARE},
+	{ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR, RARITY_RARE},
+	{ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR, RARITY_SHATTERFOIL_RARE},
+	{ITEM_CARD_SCAPEGOAT, RARITY_COMMON},
+	{ITEM_CARD_SCAPEGOAT, RARITY_SHATTERFOIL_RARE},
+	{ITEM_CARD_CHIRON_THE_MAGE, RARITY_RARE},
+	{ITEM_CARD_CHIRON_THE_MAGE, RARITY_SHATTERFOIL_RARE},
+	{ITEM_CARD_EVILSWARM_KETOS, RARITY_RARE},
+	{ITEM_CARD_EVILSWARM_KETOS, RARITY_SHATTERFOIL_RARE},
+	{ITEM_CARD_RUSH_RECKLESSLY, RARITY_COMMON},
+	{ITEM_CARD_RUSH_RECKLESSLY, RARITY_SHATTERFOIL_RARE},
+	{ITEM_CARD_HYPER_HAMMERHEAD, RARITY_COMMON},
+	{ITEM_CARD_HYPER_HAMMERHEAD, RARITY_SHATTERFOIL_RARE},
+	{ITEM_CARD_TOON_GEMINI_ELF, RARITY_RARE},
+	{ITEM_CARD_TOON_GEMINI_ELF, RARITY_SHATTERFOIL_RARE},
+	{ITEM_CARD_PREMATURE_BURIAL, RARITY_COMMON},
+	{ITEM_CARD_PREMATURE_BURIAL, RARITY_SHATTERFOIL_RARE},
+	{ITEM_CARD_BOOK_OF_LIFE, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_LIFE, RARITY_SHATTERFOIL_RARE},
+	{ITEM_CARD_BAZOO_THE_SOUL_EATER, RARITY_COMMON},
+	{ITEM_CARD_BAZOO_THE_SOUL_EATER, RARITY_SHATTERFOIL_RARE},
+	{ITEM_CARD_SACRED_CRANE, RARITY_COMMON},
+	{ITEM_CARD_SACRED_CRANE, RARITY_SHATTERFOIL_RARE},
+	{ITEM_CARD_GOBLIN_ELITE_ATTACK_FORCE, RARITY_RARE},
+	{ITEM_CARD_GOBLIN_ELITE_ATTACK_FORCE, RARITY_SHATTERFOIL_RARE},
+	{ITEM_CARD_OFFERINGS_TO_THE_DOOMED, RARITY_COMMON},
+	{ITEM_CARD_OFFERINGS_TO_THE_DOOMED, RARITY_SHATTERFOIL_RARE},
+	{ITEM_CARD_SLATE_WARRIOR, RARITY_RARE},
+	{ITEM_CARD_SLATE_WARRIOR, RARITY_SHATTERFOIL_RARE},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_COMMON},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_SHATTERFOIL_RARE},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_COMMON},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_SHATTERFOIL_RARE},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_SHATTERFOIL_RARE},
+};
+
+const struct PackContents gTCGBattlePackTournamentPrizeCards[] =
+{
+	{ITEM_CARD_SPIRIT_REAPER, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_CYBER_HARPIE_LADY, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_BLUE_EYES_ULTIMATE_DRAGON, RARITY_STARFOIL_RARE},
+};
+
+const struct PackContents gTCGBattlePackEpicDawn[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_CYBER_DRAGON, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_DARK_MAGICIAN_OF_CHAOS, RARITY_RARE},
+	{ITEM_CARD_DARK_MAGICIAN_OF_CHAOS, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_CREATURE_SWAP, RARITY_RARE},
+	{ITEM_CARD_CREATURE_SWAP, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_KING_TIGER_WANGHU, RARITY_COMMON},
+	{ITEM_CARD_KING_TIGER_WANGHU, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_MORPHING_JAR, RARITY_COMMON},
+	{ITEM_CARD_MORPHING_JAR, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_UNITED_WE_STAND, RARITY_RARE},
+	{ITEM_CARD_UNITED_WE_STAND, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_AIRKNIGHT_PARSHATH, RARITY_COMMON},
+	{ITEM_CARD_AIRKNIGHT_PARSHATH, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_WITCH_OF_THE_BLACK_FOREST, RARITY_RARE},
+	{ITEM_CARD_WITCH_OF_THE_BLACK_FOREST, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_CHANGE_OF_HEART, RARITY_RARE},
+	{ITEM_CARD_CHANGE_OF_HEART, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_TORRENTIAL_TRIBUTE, RARITY_RARE},
+	{ITEM_CARD_TORRENTIAL_TRIBUTE, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_BIG_BANG_SHOT, RARITY_COMMON},
+	{ITEM_CARD_BIG_BANG_SHOT, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_NEEDLE_CEILING, RARITY_COMMON},
+	{ITEM_CARD_NEEDLE_CEILING, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_SOLEMN_JUDGMENT, RARITY_RARE},
+	{ITEM_CARD_SOLEMN_JUDGMENT, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_SOUL_EXCHANGE, RARITY_RARE},
+	{ITEM_CARD_SOUL_EXCHANGE, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_MAGIC_CYLINDER, RARITY_COMMON},
+	{ITEM_CARD_MAGIC_CYLINDER, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_GUARDIAN_SPHINX, RARITY_COMMON},
+	{ITEM_CARD_GUARDIAN_SPHINX, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_WHITE_NIGHT_DRAGON, RARITY_RARE},
+	{ITEM_CARD_WHITE_NIGHT_DRAGON, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_RING_OF_DESTRUCTION, RARITY_RARE},
+	{ITEM_CARD_RING_OF_DESTRUCTION, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_GOBLIN_ATTACK_FORCE, RARITY_COMMON},
+	{ITEM_CARD_GOBLIN_ATTACK_FORCE, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_VAMPIRE_LORD, RARITY_COMMON},
+	{ITEM_CARD_VAMPIRE_LORD, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_MASK_OF_DARKNESS, RARITY_COMMON},
+	{ITEM_CARD_MASK_OF_DARKNESS, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_MOBIUS_THE_FROST_MONARCH, RARITY_RARE},
+	{ITEM_CARD_MOBIUS_THE_FROST_MONARCH, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_HARPIE_S_FEATHER_DUSTER, RARITY_RARE},
+	{ITEM_CARD_HARPIE_S_FEATHER_DUSTER, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_BLAST_WITH_CHAIN, RARITY_COMMON},
+	{ITEM_CARD_BLAST_WITH_CHAIN, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR, RARITY_COMMON},
+	{ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_SCAPEGOAT, RARITY_RARE},
+	{ITEM_CARD_SCAPEGOAT, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_HEAVY_STORM, RARITY_RARE},
+	{ITEM_CARD_HEAVY_STORM, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_RECKLESS_GREED, RARITY_COMMON},
+	{ITEM_CARD_RECKLESS_GREED, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_NIGHTMARE_WHEEL, RARITY_COMMON},
+	{ITEM_CARD_NIGHTMARE_WHEEL, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_CHAINSAW_INSECT, RARITY_COMMON},
+	{ITEM_CARD_CHAINSAW_INSECT, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_CHIRON_THE_MAGE, RARITY_COMMON},
+	{ITEM_CARD_CHIRON_THE_MAGE, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_DUST_TORNADO, RARITY_COMMON},
+	{ITEM_CARD_DUST_TORNADO, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_HYPER_HAMMERHEAD, RARITY_COMMON},
+	{ITEM_CARD_HYPER_HAMMERHEAD, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_STEALTH_BIRD, RARITY_COMMON},
+	{ITEM_CARD_STEALTH_BIRD, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_MONSTER_GATE, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_GATE, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_SKILLED_WHITE_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_SKILLED_WHITE_MAGICIAN, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_GILASAURUS, RARITY_COMMON},
+	{ITEM_CARD_GILASAURUS, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_TOON_GEMINI_ELF, RARITY_COMMON},
+	{ITEM_CARD_TOON_GEMINI_ELF, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_PREMATURE_BURIAL, RARITY_RARE},
+	{ITEM_CARD_PREMATURE_BURIAL, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_MUKA_MUKA, RARITY_COMMON},
+	{ITEM_CARD_MUKA_MUKA, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_ARCHFIEND_SOLDIER, RARITY_COMMON},
+	{ITEM_CARD_ARCHFIEND_SOLDIER, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_CYBER_JAR, RARITY_RARE},
+	{ITEM_CARD_CYBER_JAR, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_MAD_DOG_OF_DARKNESS, RARITY_COMMON},
+	{ITEM_CARD_MAD_DOG_OF_DARKNESS, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_COMMON},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_EXARION_UNIVERSE, RARITY_COMMON},
+	{ITEM_CARD_EXARION_UNIVERSE, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_BIG_SHIELD_GARDNA, RARITY_COMMON},
+	{ITEM_CARD_BIG_SHIELD_GARDNA, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_NIGHT_ASSAILANT, RARITY_COMMON},
+	{ITEM_CARD_NIGHT_ASSAILANT, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_BLOWBACK_DRAGON, RARITY_RARE},
+	{ITEM_CARD_BLOWBACK_DRAGON, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_BAZOO_THE_SOUL_EATER, RARITY_COMMON},
+	{ITEM_CARD_BAZOO_THE_SOUL_EATER, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_JINZO, RARITY_RARE},
+	{ITEM_CARD_JINZO, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_SNATCH_STEAL, RARITY_RARE},
+	{ITEM_CARD_SNATCH_STEAL, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_EXILED_FORCE, RARITY_COMMON},
+	{ITEM_CARD_EXILED_FORCE, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_RARE},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_BUSTER_BLADER, RARITY_COMMON},
+	{ITEM_CARD_BUSTER_BLADER, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_GRACEFUL_CHARITY, RARITY_RARE},
+	{ITEM_CARD_GRACEFUL_CHARITY, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_SKILL_DRAIN, RARITY_RARE},
+	{ITEM_CARD_SKILL_DRAIN, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_DRILLROID, RARITY_COMMON},
+	{ITEM_CARD_DRILLROID, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_GOBLIN_ELITE_ATTACK_FORCE, RARITY_COMMON},
+	{ITEM_CARD_GOBLIN_ELITE_ATTACK_FORCE, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_OFFERINGS_TO_THE_DOOMED, RARITY_COMMON},
+	{ITEM_CARD_OFFERINGS_TO_THE_DOOMED, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_INJECTION_FAIRY_LILY, RARITY_RARE},
+	{ITEM_CARD_INJECTION_FAIRY_LILY, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_TWIN_HEADED_BEHEMOTH, RARITY_COMMON},
+	{ITEM_CARD_TWIN_HEADED_BEHEMOTH, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_FISSURE, RARITY_COMMON},
+	{ITEM_CARD_FISSURE, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_TREEBORN_FROG, RARITY_RARE},
+	{ITEM_CARD_TREEBORN_FROG, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_GIANT_SOLDIER_OF_STONE, RARITY_COMMON},
+	{ITEM_CARD_GIANT_SOLDIER_OF_STONE, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_SLATE_WARRIOR, RARITY_COMMON},
+	{ITEM_CARD_SLATE_WARRIOR, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_LUSTER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_LUSTER_DRAGON, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_ZOMBYRA_THE_DARK, RARITY_COMMON},
+	{ITEM_CARD_ZOMBYRA_THE_DARK, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_RAIGEKI, RARITY_RARE},
+	{ITEM_CARD_RAIGEKI, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE, RARITY_COMMON},
+	{ITEM_CARD_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_ZABORG_THE_THUNDER_MONARCH, RARITY_COMMON},
+	{ITEM_CARD_ZABORG_THE_THUNDER_MONARCH, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_COMMON},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_METAL_REFLECT_SLIME, RARITY_RARE},
+	{ITEM_CARD_METAL_REFLECT_SLIME, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_ASURA_PRIEST, RARITY_COMMON},
+	{ITEM_CARD_ASURA_PRIEST, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_AXE_OF_DESPAIR, RARITY_COMMON},
+	{ITEM_CARD_AXE_OF_DESPAIR, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_RARE},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_CAIUS_THE_SHADOW_MONARCH, RARITY_RARE},
+	{ITEM_CARD_CAIUS_THE_SHADOW_MONARCH, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_RARE},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_MAKYURA_THE_DESTRUCTOR, RARITY_COMMON},
+	{ITEM_CARD_MAKYURA_THE_DESTRUCTOR, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_CHARCOAL_INPACHI, RARITY_COMMON},
+	{ITEM_CARD_CHARCOAL_INPACHI, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_INSECT_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_INSECT_KNIGHT, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_D_D_ASSAILANT, RARITY_COMMON},
+	{ITEM_CARD_D_D_ASSAILANT, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_POT_OF_GREED, RARITY_RARE},
+	{ITEM_CARD_POT_OF_GREED, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_DOOMCALIBER_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_DOOMCALIBER_KNIGHT, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_DARK_RULER_HA_DES, RARITY_COMMON},
+	{ITEM_CARD_DARK_RULER_HA_DES, RARITY_STARFOIL_RARE},
+};
+
+const struct PackContents gTCGBattleofChaos[] =
+{
+	{ITEM_CARD_TIMAEUS_THE_UNITED_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DICTATOR_OF_D_, RARITY_SUPER_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DIMENSION_CONJURER, RARITY_COMMON},
+	{ITEM_CARD_BLUE_EYES_JET_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_BLUE_EYES_JET_DRAGON, RARITY_STARLIGHT_RARE},
+	{ITEM_CARD_CHAOS_NEPHTHYS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MAGIKURIBOH, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGBattleofChaosPremierepromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGBattlesofLegendArmageddon[] =
+{
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGBattlesofLegendChapter1[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CYBER_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SAGE_WITH_EYES_OF_BLUE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_VISION_HERO_VYON, RARITY_COMMON},
+	{ITEM_CARD_CYBER_LARVA, RARITY_COMMON},
+	{ITEM_CARD_CYBER_ELTANIN, RARITY_COMMON},
+};
+
+const struct PackContents gTCGBattlesofLegendCrystalRevenge[] =
+{
+	{ITEM_CARD_LEFT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_STARLIGHT_RARE},
+	{ITEM_CARD_RIGHT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_STARLIGHT_RARE},
+	{ITEM_CARD_YATA_GARASU, RARITY_STARLIGHT_RARE},
+	{ITEM_CARD_RIGHT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_STARLIGHT_RARE},
+	{ITEM_CARD_EXODIA_THE_FORBIDDEN_ONE, RARITY_STARLIGHT_RARE},
+	{ITEM_CARD_LEFT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_STARLIGHT_RARE},
+};
+
+const struct PackContents gTCGBattlesofLegendHerosRevenge[] =
+{
+	{ITEM_CARD_SHADDOLL_BEAST, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CYBER_STEIN, RARITY_SECRET_RARE},
+	{ITEM_CARD_SHADDOLL_HEDGEHOG, RARITY_ULTRA_RARE},
+	{ITEM_CARD_VISION_HERO_VYON, RARITY_SECRET_RARE},
+	{ITEM_CARD_SHADDOLL_FALCO, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGBattlesofLegendLightsRevenge[] =
+{
+	{ITEM_CARD_WITCH_OF_THE_BLACK_FOREST, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SAGE_WITH_EYES_OF_BLUE, RARITY_SECRET_RARE},
+	{ITEM_CARD_ANTI_SPELL_FRAGRANCE, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGBattlesofLegendMonsterMayhem[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_STARLIGHT_RARE},
+	{ITEM_CARD_GEM_KNIGHT_NEPYRIM, RARITY_SECRET_RARE},
+	{ITEM_CARD_GEM_KNIGHT_NEPYRIM, RARITY_STARLIGHT_RARE},
+	{ITEM_CARD_DARK_PALADIN, RARITY_SECRET_RARE},
+	{ITEM_CARD_DARK_PALADIN, RARITY_STARLIGHT_RARE},
+	{ITEM_CARD_GEM_KNIGHT_HOLLOWCORE, RARITY_SECRET_RARE},
+	{ITEM_CARD_GEM_ELEPHANT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GEM_ARMADILLO, RARITY_ULTRA_RARE},
+	{ITEM_CARD_AVANCE_SWORDSMAN_OF_THE_NEKROZ, RARITY_SECRET_RARE},
+	{ITEM_CARD_EMILIA_DANCE_PRIESTESS_OF_THE_NEKROZ, RARITY_SECRET_RARE},
+	{ITEM_CARD_EMILIA_DANCE_PRIESTESS_OF_THE_NEKROZ, RARITY_STARLIGHT_RARE},
+	{ITEM_CARD_OJAMA_TRIO, RARITY_SECRET_RARE},
+	{ITEM_CARD_OJAMA_TRIO, RARITY_STARLIGHT_RARE},
+	{ITEM_CARD_ARIEL_PRIESTESS_OF_THE_NEKROZ, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GEM_KNIGHT_ALEXANDRITE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GEM_TURTLE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT, RARITY_SECRET_RARE},
+	{ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT, RARITY_STARLIGHT_RARE},
+};
+
+const struct PackContents gTCGBattlesofLegendMonstrousRevenge[] =
+{
+	{ITEM_CARD_DARK_HOLE, RARITY_SECRET_RARE},
+	{ITEM_CARD_DARK_HOLE, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_THE_BYSTIAL_LUBELLION, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_TERRAFORMING, RARITY_SECRET_RARE},
+	{ITEM_CARD_TERRAFORMING, RARITY_QUARTER_CENTURY_SECRET_RARE},
+};
+
+const struct PackContents gTCGBattlesofLegendRelentlessRevenge[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_TORRENTIAL_TRIBUTE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SOLEMN_JUDGMENT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BOTTOMLESS_TRAP_HOLE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_SECRET_RARE},
+	{ITEM_CARD_CYBER_LARVA, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CYBER_ELTANIN, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGBattlesofLegendTerminalRevenge[] =
+{
+	{ITEM_CARD_ANCIENT_GEAR_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_SUBSTITOAD, RARITY_SECRET_RARE},
+	{ITEM_CARD_THE_GOLDEN_SWORDSOUL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SNATCH_STEAL, RARITY_SECRET_RARE},
+	{ITEM_CARD_SNATCH_STEAL, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_ARCHFIEND_S_ADVENT, RARITY_SECRET_RARE},
+	{ITEM_CARD_ARCHFIEND_S_ADVENT, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_BLAZING_CARTESIA_THE_VIRTUOUS, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGBlazingVortex[] =
+{
+};
+
+const struct PackContents gTCGBlazingVortexPremierepromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGBlueEyesAlternativeWhiteDragonSweepstakes[] =
+{
+	{ITEM_CARD_BLUE_EYES_ALTERNATIVE_WHITE_DRAGON, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGBoosterPackCollectorsTins2002[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_BLACK_SKULL_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_SUMMONED_SKULL, RARITY_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_SECRET_RARE},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_LORD_OF_D_, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGBreakersofShadow[] =
+{
+	{ITEM_CARD_TWILIGHT_NINJA_GETSUGA_THE_SHOGUN, RARITY_RARE},
+	{ITEM_CARD_TWILIGHT_NINJA_NICHIRIN_THE_CHUNIN, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_RETRO_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_ARISEN_GAIA_THE_FIERCE_KNIGHT, RARITY_RARE},
+	{ITEM_CARD_TWILIGHT_NINJA_SHINGETSU, RARITY_COMMON},
+	{ITEM_CARD_BUSTER_BLADER_THE_DESTRUCTION_SWORDMASTER, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGBreakersofShadowSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGBreakersofShadowSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGBrothersofLegend[] =
+{
+	{ITEM_CARD_KURIBOH, RARITY_ULTRA_RARE},
+	{ITEM_CARD_ICE_KNIGHT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MAGICIANS_SOULS, RARITY_SECRET_RARE},
+	{ITEM_CARD_EIDOS_THE_UNDERWORLD_SQUIRE, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGBurstofDestiny[] =
+{
+	{ITEM_CARD_PENGUIN_NINJA, RARITY_COMMON},
+};
+
+const struct PackContents gTCGBurstofDestinyPremierepromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGChampionPackGameEight[] =
+{
+	{ITEM_CARD_MAGICIAN_S_VALKYRIA, RARITY_RARE},
+	{ITEM_CARD_ROYAL_OPPRESSION, RARITY_COMMON},
+};
+
+const struct PackContents gTCGChampionPackGameFive[] =
+{
+	{ITEM_CARD_GIANT_GERM, RARITY_SUPER_RARE},
+	{ITEM_CARD_TRAP_DUSTSHOOT, RARITY_SUPER_RARE},
+	{ITEM_CARD_PROTECTOR_OF_THE_SANCTUARY, RARITY_COMMON},
+	{ITEM_CARD_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL, RARITY_COMMON},
+	{ITEM_CARD_BLOWBACK_DRAGON, RARITY_RARE},
+	{ITEM_CARD_RESCUE_CAT, RARITY_COMMON},
+	{ITEM_CARD_MAGICAL_MERCHANT, RARITY_SUPER_RARE},
+	{ITEM_CARD_ANTI_SPELL_FRAGRANCE, RARITY_RARE},
+	{ITEM_CARD_WAVE_MOTION_CANNON, RARITY_SUPER_RARE},
+	{ITEM_CARD_DECK_DEVASTATION_VIRUS, RARITY_RARE},
+	{ITEM_CARD_DARK_RULER_HA_DES, RARITY_RARE},
+};
+
+const struct PackContents gTCGChampionPackGameFour[] =
+{
+	{ITEM_CARD_MAGICIAN_S_CIRCLE, RARITY_RARE},
+	{ITEM_CARD_MANJU_OF_THE_TEN_THOUSAND_HANDS, RARITY_COMMON},
+	{ITEM_CARD_SOUL_EXCHANGE, RARITY_COMMON},
+	{ITEM_CARD_CIPHER_SOLDIER, RARITY_RARE},
+	{ITEM_CARD_BOTTOMLESS_TRAP_HOLE, RARITY_SUPER_RARE},
+	{ITEM_CARD_MOTHER_GRIZZLY, RARITY_COMMON},
+	{ITEM_CARD_ROBBIN_GOBLIN, RARITY_COMMON},
+	{ITEM_CARD_GIGANTES, RARITY_COMMON},
+	{ITEM_CARD_ULTIMATE_OFFERING, RARITY_SUPER_RARE},
+	{ITEM_CARD_HAND_OF_NEPHTHYS, RARITY_COMMON},
+	{ITEM_CARD_RETURN_FROM_THE_DIFFERENT_DIMENSION, RARITY_RARE},
+	{ITEM_CARD_TREEBORN_FROG, RARITY_COMMON},
+	{ITEM_CARD_CONFISCATION, RARITY_RARE},
+	{ITEM_CARD_D_D_SURVIVOR, RARITY_COMMON},
+	{ITEM_CARD_HYDROGEDDON, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGChampionPackGameOne[] =
+{
+	{ITEM_CARD_KING_TIGER_WANGHU, RARITY_COMMON},
+	{ITEM_CARD_SOLEMN_JUDGMENT, RARITY_RARE},
+	{ITEM_CARD_STEALTH_BIRD, RARITY_COMMON},
+	{ITEM_CARD_BIG_SHIELD_GARDNA, RARITY_RARE},
+	{ITEM_CARD_NIGHT_ASSAILANT, RARITY_SUPER_RARE},
+	{ITEM_CARD_LIMITER_REMOVAL, RARITY_RARE},
+	{ITEM_CARD_METAMORPHOSIS, RARITY_SUPER_RARE},
+	{ITEM_CARD_SAKURETSU_ARMOR, RARITY_SUPER_RARE},
+	{ITEM_CARD_POT_OF_AVARICE, RARITY_RARE},
+	{ITEM_CARD_EMISSARY_OF_THE_AFTERLIFE, RARITY_COMMON},
+	{ITEM_CARD_THREATENING_ROAR, RARITY_COMMON},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_RARE},
+	{ITEM_CARD_REFLECT_BOUNDER, RARITY_RARE},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGChampionPackGameSeven[] =
+{
+	{ITEM_CARD_LEGENDARY_JUJITSU_MASTER, RARITY_SUPER_RARE},
+	{ITEM_CARD_FUSILIER_DRAGON_THE_DUAL_MODE_BEAST, RARITY_COMMON},
+	{ITEM_CARD_THREATENING_ROAR, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGChampionPackGameSix[] =
+{
+	{ITEM_CARD_COLD_WAVE, RARITY_COMMON},
+	{ITEM_CARD_BLADE_KNIGHT, RARITY_RARE},
+	{ITEM_CARD_MAGE_POWER, RARITY_RARE},
+	{ITEM_CARD_PHOENIX_WING_WIND_BLAST, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGChampionPackGameThree[] =
+{
+	{ITEM_CARD_PIKERU_S_CIRCLE_OF_ENCHANTMENT, RARITY_RARE},
+	{ITEM_CARD_KAIBAMAN, RARITY_COMMON},
+	{ITEM_CARD_DARK_WORLD_LIGHTNING, RARITY_SUPER_RARE},
+	{ITEM_CARD_WIDESPREAD_RUIN, RARITY_RARE},
+	{ITEM_CARD_NECROVALLEY, RARITY_COMMON},
+	{ITEM_CARD_CHIRON_THE_MAGE, RARITY_COMMON},
+	{ITEM_CARD_MANTICORE_OF_DARKNESS, RARITY_RARE},
+	{ITEM_CARD_SPIRIT_REAPER, RARITY_SUPER_RARE},
+	{ITEM_CARD_GRAVEKEEPER_S_SPY, RARITY_SUPER_RARE},
+	{ITEM_CARD_D_D_ASSAILANT, RARITY_RARE},
+};
+
+const struct PackContents gTCGChampionPackGameTwo[] =
+{
+	{ITEM_CARD_MORPHING_JAR, RARITY_RARE},
+	{ITEM_CARD_BIG_BANG_SHOT, RARITY_COMMON},
+	{ITEM_CARD_SMASHING_GROUND, RARITY_SUPER_RARE},
+	{ITEM_CARD_RING_OF_DESTRUCTION, RARITY_RARE},
+	{ITEM_CARD_CEASEFIRE, RARITY_COMMON},
+	{ITEM_CARD_KURIBOH, RARITY_RARE},
+	{ITEM_CARD_MAGICIAN_OF_FAITH, RARITY_SUPER_RARE},
+	{ITEM_CARD_RUSH_RECKLESSLY, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_TAIYOU, RARITY_COMMON},
+	{ITEM_CARD_NIMBLE_MOMONGA, RARITY_SUPER_RARE},
+	{ITEM_CARD_THUNDER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_TWIN_HEADED_BEHEMOTH, RARITY_COMMON},
+	{ITEM_CARD_MAGICAL_DIMENSION, RARITY_RARE},
+	{ITEM_CARD_TERRAFORMING, RARITY_COMMON},
+	{ITEM_CARD_PYRAMID_TURTLE, RARITY_SUPER_RARE},
+	{ITEM_CARD_ABYSS_SOLDIER, RARITY_RARE},
+};
+
+const struct PackContents gTCGChaosImpact[] =
+{
+};
+
+const struct PackContents gTCGChaosImpactSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGChaosImpactSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGCircuitBreak[] =
+{
+};
+
+const struct PackContents gTCGCircuitBreakSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGCircuitBreakSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGClashofRebellions[] =
+{
+	{ITEM_CARD_TOON_CYBER_DRAGON, RARITY_RARE},
+	{ITEM_CARD_CRYSTAL_ROSE, RARITY_RARE},
+	{ITEM_CARD_KEEPER_OF_THE_SHRINE, RARITY_COMMON},
+	{ITEM_CARD_THE_BLACK_STONE_OF_LEGEND, RARITY_SECRET_RARE},
+	{ITEM_CARD_BLACK_METAL_DRAGON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGClashofRebellionsSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGClashofRebellionsSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGCodeoftheDuelist[] =
+{
+	{ITEM_CARD_ANCIENT_GEAR_GOLEM_ULTIMATE_POUND, RARITY_COMMON},
+	{ITEM_CARD_TRAPTRIX_MANTIS, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGCodeoftheDuelistSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGCodeoftheDuelistSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGCollectibleTins2003[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_SECRET_RARE},
+	{ITEM_CARD_JINZO, RARITY_SECRET_RARE},
+	{ITEM_CARD_BUSTER_BLADER, RARITY_SECRET_RARE},
+	{ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGCollectibleTins2004[] =
+{
+	{ITEM_CARD_COMMAND_KNIGHT, RARITY_SECRET_RARE},
+	{ITEM_CARD_BLADE_KNIGHT, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGCollectibleTins2005[] =
+{
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_SECRET_RARE},
+	{ITEM_CARD_EXARION_UNIVERSE, RARITY_SECRET_RARE},
+	{ITEM_CARD_VORSE_RAIDER, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGCollectibleTins2006Wave1[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGCollectibleTins2006Wave2[] =
+{
+};
+
+const struct PackContents gTCGCollectibleTins2007Wave1[] =
+{
+};
+
+const struct PackContents gTCGCollectibleTins2007Wave2[] =
+{
+};
+
+const struct PackContents gTCGCollectibleTins2008Wave1[] =
+{
+};
+
+const struct PackContents gTCGCollectibleTins2008Wave2[] =
+{
+};
+
+const struct PackContents gTCGCollectibleTins2009Wave1[] =
+{
+};
+
+const struct PackContents gTCGCollectibleTins2009Wave2[] =
+{
+};
+
+const struct PackContents gTCGCollectibleTins2010Wave1[] =
+{
+	{ITEM_CARD_ARCHFIEND_OF_GILFER, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGCollectibleTins2010Wave2[] =
+{
+	{ITEM_CARD_MAGICIAN_S_VALKYRIA, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGCollectibleTins2011Wave1[] =
+{
+};
+
+const struct PackContents gTCGCollectibleTins2011Wave2[] =
+{
+};
+
+const struct PackContents gTCGCollectibleTins2012Wave1[] =
+{
+};
+
+const struct PackContents gTCGCollectibleTins2012Wave2[] =
+{
+	{ITEM_CARD_NINJA_GRANDMASTER_HANZO, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGCollectibleTins2012Wave25[] =
+{
+};
+
+const struct PackContents gTCGCollectibleTinsExclusive2008[] =
+{
+};
+
+const struct PackContents gTCGCollectibleTinsExclusive2009[] =
+{
+};
+
+const struct PackContents gTCGCosmoBlazer[] =
+{
+};
+
+const struct PackContents gTCGCosmoBlazerSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGCosmoBlazerSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGCrimsonCrisis[] =
+{
+	{ITEM_CARD_FLIP_FLOP_FROG, RARITY_COMMON},
+	{ITEM_CARD_DUPE_FROG, RARITY_COMMON},
+};
+
+const struct PackContents gTCGCrimsonCrisisSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGCrimsonCrisisSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGCrossedSouls[] =
+{
+};
+
+const struct PackContents gTCGCrossedSoulsSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGCrossedSoulsAdvanceEdition[] =
+{
+};
+
+const struct PackContents gTCGCrossoverBreakers[] =
+{
+	{ITEM_CARD_SENJU_OF_THE_THOUSAND_HANDS, RARITY_RARE},
+	{ITEM_CARD_SENJU_OF_THE_THOUSAND_HANDS, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGCrossroadsofChaos[] =
+{
+	{ITEM_CARD_THE_WHITE_STONE_OF_LEGEND, RARITY_SHORT_PRINT},
+	{ITEM_CARD_MAD_ARCHFIEND, RARITY_RARE},
+};
+
+const struct PackContents gTCGCrossroadsofChaosSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGCrossroadsofChaosSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGCyberDragonRevolutionStructureDeck[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_THE_LIGHT_HEX_SEALED_FUSION, RARITY_COMMON},
+	{ITEM_CARD_WABOKU, RARITY_COMMON},
+	{ITEM_CARD_CYBER_DRAGON_ZWEI, RARITY_COMMON},
+	{ITEM_CARD_CYBER_DRAGON_DREI, RARITY_SUPER_RARE},
+	{ITEM_CARD_ARMORED_CYBERN, RARITY_COMMON},
+	{ITEM_CARD_LIMITER_REMOVAL, RARITY_COMMON},
+	{ITEM_CARD_SHINING_ANGEL, RARITY_COMMON},
+	{ITEM_CARD_CYBER_LARVA, RARITY_COMMON},
+	{ITEM_CARD_REFLECT_BOUNDER, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+	{ITEM_CARD_MEGAMORPH, RARITY_COMMON},
+	{ITEM_CARD_CYBER_ELTANIN, RARITY_COMMON},
+	{ITEM_CARD_CYBER_TWIN_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGCyberdarkImpact[] =
+{
+};
+
+const struct PackContents gTCGCyberdarkImpactSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGCyberneticHorizon[] =
+{
+	{ITEM_CARD_CYBER_DRAGON_VIER, RARITY_COMMON},
+};
+
+const struct PackContents gTCGCyberneticHorizonSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGCyberneticHorizonSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGCyberneticRevolution[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_CYBER_DRAGON, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_SPIRITUAL_EARTH_ART_KUROGANE, RARITY_COMMON},
+	{ITEM_CARD_DRAGON_S_MIRROR, RARITY_COMMON},
+	{ITEM_CARD_POT_OF_GENEROSITY, RARITY_COMMON},
+	{ITEM_CARD_WROUGHTWEILER, RARITY_RARE},
+	{ITEM_CARD_WROUGHTWEILER, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_INDOMITABLE_FIGHTER_LEI_LEI, RARITY_COMMON},
+	{ITEM_CARD_SPIRITUAL_WIND_ART_MIYABI, RARITY_COMMON},
+	{ITEM_CARD_DRILLROID, RARITY_COMMON},
+	{ITEM_CARD_GOBLIN_ELITE_ATTACK_FORCE, RARITY_SUPER_RARE},
+	{ITEM_CARD_GOBLIN_ELITE_ATTACK_FORCE, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_SPIRITUAL_WATER_ART_AOI, RARITY_COMMON},
+	{ITEM_CARD_CYBER_END_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CYBER_END_DRAGON, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_T_A_D_P_O_L_E_, RARITY_COMMON},
+	{ITEM_CARD_CYBER_TWIN_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_CYBER_TWIN_DRAGON, RARITY_ULTIMATE_RARE},
+};
+
+const struct PackContents gTCGCyberneticRevolutionSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGCyberstormAccess[] =
+{
+	{ITEM_CARD_THE_BYSTIAL_ALUBER, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGCyberstormAccessPremierepromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGDarkBeginning1[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MYSTIC_TOMATO, RARITY_RARE},
+	{ITEM_CARD_PAINFUL_CHOICE, RARITY_COMMON},
+	{ITEM_CARD_UNITED_WE_STAND, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CHANGE_OF_HEART, RARITY_ULTRA_RARE},
+	{ITEM_CARD_TORRENTIAL_TRIBUTE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GIANT_GERM, RARITY_COMMON},
+	{ITEM_CARD_MASK_OF_RESTRICT, RARITY_COMMON},
+	{ITEM_CARD_SONIC_BIRD, RARITY_COMMON},
+	{ITEM_CARD_SOLEMN_WISHES, RARITY_COMMON},
+	{ITEM_CARD_JAR_OF_GREED, RARITY_RARE},
+	{ITEM_CARD_GOBLIN_ATTACK_FORCE, RARITY_SUPER_RARE},
+	{ITEM_CARD_LEFT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_ELF, RARITY_COMMON},
+	{ITEM_CARD_BANISHER_OF_THE_LIGHT, RARITY_COMMON},
+	{ITEM_CARD_MASK_OF_DARKNESS, RARITY_COMMON},
+	{ITEM_CARD_CEASEFIRE, RARITY_SUPER_RARE},
+	{ITEM_CARD_MASKED_SORCERER, RARITY_COMMON},
+	{ITEM_CARD_TOON_SUMMONED_SKULL, RARITY_RARE},
+	{ITEM_CARD_TRAP_HOLE, RARITY_RARE},
+	{ITEM_CARD_DARK_HOLE, RARITY_SUPER_RARE},
+	{ITEM_CARD_MAGICIAN_OF_FAITH, RARITY_RARE},
+	{ITEM_CARD_DUST_TORNADO, RARITY_RARE},
+	{ITEM_CARD_SENJU_OF_THE_THOUSAND_HANDS, RARITY_COMMON},
+	{ITEM_CARD_RUSH_RECKLESSLY, RARITY_COMMON},
+	{ITEM_CARD_IMPERIAL_ORDER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_LIGHT_OF_INTERVENTION, RARITY_COMMON},
+	{ITEM_CARD_MOTHER_GRIZZLY, RARITY_COMMON},
+	{ITEM_CARD_PREMATURE_BURIAL, RARITY_SUPER_RARE},
+	{ITEM_CARD_TIME_SEAL, RARITY_COMMON},
+	{ITEM_CARD_FLAME_SWORDSMAN, RARITY_RARE},
+	{ITEM_CARD_RIGHT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_COMMON},
+	{ITEM_CARD_NIMBLE_MOMONGA, RARITY_RARE},
+	{ITEM_CARD_GAIA_THE_DRAGON_CHAMPION, RARITY_RARE},
+	{ITEM_CARD_PENGUIN_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_CYBER_JAR, RARITY_RARE},
+	{ITEM_CARD_ELECTRIC_SNAKE, RARITY_COMMON},
+	{ITEM_CARD_AMAZONESS_ARCHER, RARITY_COMMON},
+	{ITEM_CARD_AQUA_MADOOR, RARITY_COMMON},
+	{ITEM_CARD_4_STARRED_LADYBUG_OF_DOOM, RARITY_COMMON},
+	{ITEM_CARD_NOBLEMAN_OF_CROSSOUT, RARITY_SUPER_RARE},
+	{ITEM_CARD_BIG_SHIELD_GARDNA, RARITY_ULTRA_RARE},
+	{ITEM_CARD_THE_FORCEFUL_SENTRY, RARITY_RARE},
+	{ITEM_CARD_FLYING_KAMAKIRI_1, RARITY_COMMON},
+	{ITEM_CARD_RIGHT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_COMMON},
+	{ITEM_CARD_BLACK_SKULL_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_LIMITER_REMOVAL, RARITY_RARE},
+	{ITEM_CARD_GIANT_TRUNADE, RARITY_RARE},
+	{ITEM_CARD_GIANT_RAT, RARITY_RARE},
+	{ITEM_CARD_SUMMONED_SKULL, RARITY_SUPER_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_THE_FIEND_MEGACYBER, RARITY_RARE},
+	{ITEM_CARD_JINZO, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SNATCH_STEAL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CHAIN_ENERGY, RARITY_COMMON},
+	{ITEM_CARD_BUSTER_BLADER, RARITY_SUPER_RARE},
+	{ITEM_CARD_MESSENGER_OF_PEACE, RARITY_COMMON},
+	{ITEM_CARD_WHITE_MAGICAL_HAT, RARITY_COMMON},
+	{ITEM_CARD_HANE_HANE, RARITY_COMMON},
+	{ITEM_CARD_THOUSAND_EYES_RESTRICT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RISING_AIR_CURRENT, RARITY_COMMON},
+	{ITEM_CARD_RELINQUISHED, RARITY_SUPER_RARE},
+	{ITEM_CARD_MAGE_POWER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_FAKE_TRAP, RARITY_COMMON},
+	{ITEM_CARD_BLACK_PENDANT, RARITY_RARE},
+	{ITEM_CARD_FISSURE, RARITY_RARE},
+	{ITEM_CARD_BLUE_EYES_TOON_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_EXODIA_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DELINQUENT_DUO, RARITY_SUPER_RARE},
+	{ITEM_CARD_GIANT_SOLDIER_OF_STONE, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_NOBLEMAN_OF_EXTERMINATION, RARITY_COMMON},
+	{ITEM_CARD_GAIA_THE_FIERCE_KNIGHT, RARITY_RARE},
+	{ITEM_CARD_HUMANOID_SLIME, RARITY_COMMON},
+	{ITEM_CARD_RAIGEKI, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SHINING_ANGEL, RARITY_COMMON},
+	{ITEM_CARD_SKY_SCOUT, RARITY_COMMON},
+	{ITEM_CARD_EARTHBOUND_SPIRIT, RARITY_COMMON},
+	{ITEM_CARD_CONFISCATION, RARITY_COMMON},
+	{ITEM_CARD_AXE_OF_DESPAIR, RARITY_RARE},
+	{ITEM_CARD_ARMED_NINJA, RARITY_COMMON},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_SUPER_RARE},
+	{ITEM_CARD_EXCHANGE, RARITY_SUPER_RARE},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_SUPER_RARE},
+	{ITEM_CARD_GAIA_POWER, RARITY_COMMON},
+	{ITEM_CARD_STOP_DEFENSE, RARITY_COMMON},
+	{ITEM_CARD_MEGAMORPH, RARITY_SUPER_RARE},
+	{ITEM_CARD_MAN_EATER_BUG, RARITY_RARE},
+	{ITEM_CARD_MAKYURA_THE_DESTRUCTOR, RARITY_SUPER_RARE},
+	{ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT, RARITY_RARE},
+	{ITEM_CARD_LEFT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_COMMON},
+	{ITEM_CARD_THE_FORGIVING_MAIDEN, RARITY_COMMON},
+	{ITEM_CARD_UPSTART_GOBLIN, RARITY_COMMON},
+	{ITEM_CARD_POT_OF_GREED, RARITY_SUPER_RARE},
+	{ITEM_CARD_GRAVITY_BIND, RARITY_COMMON},
+	{ITEM_CARD_MINAR, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGDarkBeginning2[] =
+{
+	{ITEM_CARD_CREATURE_SWAP, RARITY_SUPER_RARE},
+	{ITEM_CARD_KING_TIGER_WANGHU, RARITY_COMMON},
+	{ITEM_CARD_MORPHING_JAR, RARITY_RARE},
+	{ITEM_CARD_SKULL_LAIR, RARITY_COMMON},
+	{ITEM_CARD_KAISER_SEA_HORSE, RARITY_COMMON},
+	{ITEM_CARD_AIRKNIGHT_PARSHATH, RARITY_SUPER_RARE},
+	{ITEM_CARD_WITCH_OF_THE_BLACK_FOREST, RARITY_RARE},
+	{ITEM_CARD_NEEDLE_CEILING, RARITY_COMMON},
+	{ITEM_CARD_DROP_OFF, RARITY_COMMON},
+	{ITEM_CARD_FIBER_JAR, RARITY_RARE},
+	{ITEM_CARD_SPIRITUALISM, RARITY_RARE},
+	{ITEM_CARD_TREMENDOUS_FIRE, RARITY_COMMON},
+	{ITEM_CARD_SOLEMN_JUDGMENT, RARITY_SUPER_RARE},
+	{ITEM_CARD_DRAGON_S_RAGE, RARITY_COMMON},
+	{ITEM_CARD_CRASS_CLOWN, RARITY_COMMON},
+	{ITEM_CARD_MAIDEN_OF_THE_AQUA, RARITY_COMMON},
+	{ITEM_CARD_GUARDIAN_SPHINX, RARITY_ULTRA_RARE},
+	{ITEM_CARD_ROYAL_OPPRESSION, RARITY_RARE},
+	{ITEM_CARD_JIRAI_GUMO, RARITY_COMMON},
+	{ITEM_CARD_VAMPIRE_LORD, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SPEAR_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_MARAUDING_CAPTAIN, RARITY_RARE},
+	{ITEM_CARD_ARSENAL_BUG, RARITY_COMMON},
+	{ITEM_CARD_BLAST_WITH_CHAIN, RARITY_RARE},
+	{ITEM_CARD_SWARM_OF_LOCUSTS, RARITY_COMMON},
+	{ITEM_CARD_JOWGEN_THE_SPIRITUALIST, RARITY_RARE},
+	{ITEM_CARD_HEAVY_STORM, RARITY_SUPER_RARE},
+	{ITEM_CARD_RECKLESS_GREED, RARITY_COMMON},
+	{ITEM_CARD_TRAP_DUSTSHOOT, RARITY_COMMON},
+	{ITEM_CARD_BOTTOMLESS_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_KURIBOH, RARITY_RARE},
+	{ITEM_CARD_CYBER_STEIN, RARITY_RARE},
+	{ITEM_CARD_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET, RARITY_SUPER_RARE},
+	{ITEM_CARD_TWIN_HEADED_THUNDER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_TAIYOU, RARITY_COMMON},
+	{ITEM_CARD_GILASAURUS, RARITY_COMMON},
+	{ITEM_CARD_TOON_GEMINI_ELF, RARITY_COMMON},
+	{ITEM_CARD_SECOND_COIN_TOSS, RARITY_COMMON},
+	{ITEM_CARD_LESSER_FIEND, RARITY_COMMON},
+	{ITEM_CARD_MUKA_MUKA, RARITY_COMMON},
+	{ITEM_CARD_CANNON_SOLDIER, RARITY_SUPER_RARE},
+	{ITEM_CARD_MECHANICALCHASER, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_LIFE, RARITY_SUPER_RARE},
+	{ITEM_CARD_GORA_TURTLE, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_RARE},
+	{ITEM_CARD_SASUKE_SAMURAI, RARITY_RARE},
+	{ITEM_CARD_YATA_GARASU, RARITY_COMMON},
+	{ITEM_CARD_COMMAND_KNIGHT, RARITY_SUPER_RARE},
+	{ITEM_CARD_ROBBIN_GOBLIN, RARITY_COMMON},
+	{ITEM_CARD_MILUS_RADIANT, RARITY_COMMON},
+	{ITEM_CARD_MAGIC_JAMMER, RARITY_SUPER_RARE},
+	{ITEM_CARD_BLACK_ILLUSION_RITUAL, RARITY_COMMON},
+	{ITEM_CARD_BAZOO_THE_SOUL_EATER, RARITY_RARE},
+	{ITEM_CARD_KYCOO_THE_GHOST_DESTROYER, RARITY_RARE},
+	{ITEM_CARD_THE_WICKED_WORM_BEAST, RARITY_COMMON},
+	{ITEM_CARD_EXILED_FORCE, RARITY_COMMON},
+	{ITEM_CARD_BLADE_KNIGHT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_INABA_WHITE_RABBIT, RARITY_COMMON},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_SUPER_RARE},
+	{ITEM_CARD_THUNDER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_MIRAGE_OF_NIGHTMARE, RARITY_COMMON},
+	{ITEM_CARD_GRACEFUL_CHARITY, RARITY_RARE},
+	{ITEM_CARD_AQUA_SPIRIT, RARITY_COMMON},
+	{ITEM_CARD_CATAPULT_TURTLE, RARITY_SUPER_RARE},
+	{ITEM_CARD_SANGAN, RARITY_RARE},
+	{ITEM_CARD_SWARM_OF_SCARABS, RARITY_COMMON},
+	{ITEM_CARD_OPTICLOPS, RARITY_COMMON},
+	{ITEM_CARD_ROYAL_DECREE, RARITY_SUPER_RARE},
+	{ITEM_CARD_INJECTION_FAIRY_LILY, RARITY_ULTRA_RARE},
+	{ITEM_CARD_TWIN_HEADED_BEHEMOTH, RARITY_COMMON},
+	{ITEM_CARD_DREAM_CLOWN, RARITY_COMMON},
+	{ITEM_CARD_GEMINI_ELF, RARITY_COMMON},
+	{ITEM_CARD_TOON_CANNON_SOLDIER, RARITY_COMMON},
+	{ITEM_CARD_A_LEGENDARY_OCEAN, RARITY_COMMON},
+	{ITEM_CARD_ZOMBYRA_THE_DARK, RARITY_COMMON},
+	{ITEM_CARD_TOON_GOBLIN_ATTACK_FORCE, RARITY_COMMON},
+	{ITEM_CARD_ASURA_PRIEST, RARITY_COMMON},
+	{ITEM_CARD_TOON_TABLE_OF_CONTENTS, RARITY_COMMON},
+	{ITEM_CARD_PYRAMID_TURTLE, RARITY_RARE},
+	{ITEM_CARD_EMERGENCY_PROVISIONS, RARITY_RARE},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_COMMON},
+	{ITEM_CARD_PRINCESS_OF_TSURUGI, RARITY_COMMON},
+	{ITEM_CARD_SERPENTINE_PRINCESS, RARITY_COMMON},
+	{ITEM_CARD_THUNDER_NYAN_NYAN, RARITY_RARE},
+	{ITEM_CARD_TOON_MASKED_SORCERER, RARITY_COMMON},
+	{ITEM_CARD_BLOCK_ATTACK, RARITY_COMMON},
+	{ITEM_CARD_DON_ZALOOG, RARITY_SUPER_RARE},
+	{ITEM_CARD_HORN_OF_HEAVEN, RARITY_RARE},
+	{ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT, RARITY_SUPER_RARE},
+	{ITEM_CARD_DARK_RULER_HA_DES, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGDarkCrisis[] =
+{
+	{ITEM_CARD_D_D_TRAINER, RARITY_COMMON},
+	{ITEM_CARD_D_D_TRAINER, RARITY_COMMON},
+	{ITEM_CARD_TSUKUYOMI, RARITY_RARE},
+	{ITEM_CARD_TSUKUYOMI, RARITY_RARE},
+	{ITEM_CARD_NIN_KEN_DOG, RARITY_COMMON},
+	{ITEM_CARD_NIN_KEN_DOG, RARITY_COMMON},
+	{ITEM_CARD_VAMPIRE_LORD, RARITY_SECRET_RARE},
+	{ITEM_CARD_VAMPIRE_LORD, RARITY_SECRET_RARE},
+	{ITEM_CARD_SPELL_REPRODUCTION, RARITY_COMMON},
+	{ITEM_CARD_SPELL_REPRODUCTION, RARITY_COMMON},
+	{ITEM_CARD_ARCHFIEND_SOLDIER, RARITY_RARE},
+	{ITEM_CARD_ARCHFIEND_SOLDIER, RARITY_RARE},
+	{ITEM_CARD_ARSENAL_SUMMONER, RARITY_COMMON},
+	{ITEM_CARD_ARSENAL_SUMMONER, RARITY_COMMON},
+	{ITEM_CARD_GYAKU_GIRE_PANDA, RARITY_COMMON},
+	{ITEM_CARD_GYAKU_GIRE_PANDA, RARITY_COMMON},
+	{ITEM_CARD_D_D_WARRIOR_LADY, RARITY_SUPER_RARE},
+	{ITEM_CARD_D_D_WARRIOR_LADY, RARITY_SUPER_RARE},
+	{ITEM_CARD_DRAGGED_DOWN_INTO_THE_GRAVE, RARITY_COMMON},
+	{ITEM_CARD_DRAGGED_DOWN_INTO_THE_GRAVE, RARITY_COMMON},
+	{ITEM_CARD_GAGAGIGO, RARITY_COMMON},
+	{ITEM_CARD_GAGAGIGO, RARITY_COMMON},
+	{ITEM_CARD_SAKURETSU_ARMOR, RARITY_COMMON},
+	{ITEM_CARD_SAKURETSU_ARMOR, RARITY_COMMON},
+	{ITEM_CARD_SKILL_DRAIN, RARITY_RARE},
+	{ITEM_CARD_SKILL_DRAIN, RARITY_RARE},
+	{ITEM_CARD_OJAMA_TRIO, RARITY_SHORT_PRINT},
+	{ITEM_CARD_OJAMA_TRIO, RARITY_SHORT_PRINT},
+	{ITEM_CARD_DARK_SCORPION_CHICK_THE_YELLOW, RARITY_COMMON},
+	{ITEM_CARD_DARK_SCORPION_CHICK_THE_YELLOW, RARITY_COMMON},
+	{ITEM_CARD_BLINDLY_LOYAL_GOBLIN, RARITY_COMMON},
+	{ITEM_CARD_BLINDLY_LOYAL_GOBLIN, RARITY_COMMON},
+	{ITEM_CARD_REFLECT_BOUNDER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_REFLECT_BOUNDER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BATTLE_FOOTBALLER, RARITY_COMMON},
+	{ITEM_CARD_BATTLE_FOOTBALLER, RARITY_COMMON},
+};
+
+const struct PackContents gTCGDarkCrisis25thAnniversaryEdition[] =
+{
+	{ITEM_CARD_D_D_TRAINER, RARITY_COMMON},
+	{ITEM_CARD_TSUKUYOMI, RARITY_RARE},
+	{ITEM_CARD_NIN_KEN_DOG, RARITY_COMMON},
+	{ITEM_CARD_VAMPIRE_LORD, RARITY_SECRET_RARE},
+	{ITEM_CARD_SPELL_REPRODUCTION, RARITY_COMMON},
+	{ITEM_CARD_ARCHFIEND_SOLDIER, RARITY_RARE},
+	{ITEM_CARD_ARSENAL_SUMMONER, RARITY_COMMON},
+	{ITEM_CARD_GYAKU_GIRE_PANDA, RARITY_COMMON},
+	{ITEM_CARD_D_D_WARRIOR_LADY, RARITY_SUPER_RARE},
+	{ITEM_CARD_DRAGGED_DOWN_INTO_THE_GRAVE, RARITY_COMMON},
+	{ITEM_CARD_GAGAGIGO, RARITY_COMMON},
+	{ITEM_CARD_SAKURETSU_ARMOR, RARITY_COMMON},
+	{ITEM_CARD_SKILL_DRAIN, RARITY_RARE},
+	{ITEM_CARD_OJAMA_TRIO, RARITY_COMMON},
+	{ITEM_CARD_DARK_SCORPION_CHICK_THE_YELLOW, RARITY_COMMON},
+	{ITEM_CARD_BLINDLY_LOYAL_GOBLIN, RARITY_COMMON},
+	{ITEM_CARD_REFLECT_BOUNDER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BATTLE_FOOTBALLER, RARITY_COMMON},
+};
+
+const struct PackContents gTCGDarkLegends[] =
+{
+	{ITEM_CARD_KAIBAMAN, RARITY_RARE},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_MYSTIC_TOMATO, RARITY_COMMON},
+	{ITEM_CARD_PAINFUL_CHOICE, RARITY_COMMON},
+	{ITEM_CARD_GIANT_GERM, RARITY_COMMON},
+	{ITEM_CARD_SOLEMN_JUDGMENT, RARITY_SUPER_RARE},
+	{ITEM_CARD_SONIC_BIRD, RARITY_COMMON},
+	{ITEM_CARD_JIRAI_GUMO, RARITY_COMMON},
+	{ITEM_CARD_LEFT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_COMMON},
+	{ITEM_CARD_MASK_OF_DARKNESS, RARITY_RARE},
+	{ITEM_CARD_CARD_DESTRUCTION, RARITY_SUPER_RARE},
+	{ITEM_CARD_TOON_SUMMONED_SKULL, RARITY_COMMON},
+	{ITEM_CARD_SCAPEGOAT, RARITY_SUPER_RARE},
+	{ITEM_CARD_HEAVY_STORM, RARITY_RARE},
+	{ITEM_CARD_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_KURIBOH, RARITY_COMMON},
+	{ITEM_CARD_MAGICIAN_OF_FAITH, RARITY_RARE},
+	{ITEM_CARD_SENJU_OF_THE_THOUSAND_HANDS, RARITY_COMMON},
+	{ITEM_CARD_TWIN_HEADED_THUNDER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_MOTHER_GRIZZLY, RARITY_COMMON},
+	{ITEM_CARD_FLAME_SWORDSMAN, RARITY_COMMON},
+	{ITEM_CARD_WALL_OF_ILLUSION, RARITY_RARE},
+	{ITEM_CARD_CANNON_SOLDIER, RARITY_COMMON},
+	{ITEM_CARD_RIGHT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_COMMON},
+	{ITEM_CARD_NIMBLE_MOMONGA, RARITY_COMMON},
+	{ITEM_CARD_EXCHANGE_OF_THE_SPIRIT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GAIA_THE_DRAGON_CHAMPION, RARITY_COMMON},
+	{ITEM_CARD_FLYING_KAMAKIRI_1, RARITY_COMMON},
+	{ITEM_CARD_RIGHT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_COMMON},
+	{ITEM_CARD_BLACK_SKULL_DRAGON, RARITY_RARE},
+	{ITEM_CARD_MAGIC_JAMMER, RARITY_COMMON},
+	{ITEM_CARD_BLACK_ILLUSION_RITUAL, RARITY_COMMON},
+	{ITEM_CARD_GIANT_TRUNADE, RARITY_COMMON},
+	{ITEM_CARD_GIANT_RAT, RARITY_COMMON},
+	{ITEM_CARD_SUMMONED_SKULL, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_RARE},
+	{ITEM_CARD_MESSENGER_OF_PEACE, RARITY_RARE},
+	{ITEM_CARD_THUNDER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_GRACEFUL_CHARITY, RARITY_SUPER_RARE},
+	{ITEM_CARD_HANE_HANE, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_SUPER_RARE},
+	{ITEM_CARD_CATAPULT_TURTLE, RARITY_RARE},
+	{ITEM_CARD_RISING_AIR_CURRENT, RARITY_COMMON},
+	{ITEM_CARD_SANGAN, RARITY_SUPER_RARE},
+	{ITEM_CARD_RELINQUISHED, RARITY_SUPER_RARE},
+	{ITEM_CARD_BLACK_PENDANT, RARITY_COMMON},
+	{ITEM_CARD_FISSURE, RARITY_RARE},
+	{ITEM_CARD_BLUE_EYES_TOON_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_EXODIA_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CYBER_HARPIE_LADY, RARITY_SUPER_RARE},
+	{ITEM_CARD_GIANT_SOLDIER_OF_STONE, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_RARE},
+	{ITEM_CARD_GAIA_THE_FIERCE_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_RAIGEKI, RARITY_SUPER_RARE},
+	{ITEM_CARD_SHINING_ANGEL, RARITY_COMMON},
+	{ITEM_CARD_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP, RARITY_COMMON},
+	{ITEM_CARD_BLUE_EYES_ULTIMATE_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_AXE_OF_DESPAIR, RARITY_COMMON},
+	{ITEM_CARD_ARMED_NINJA, RARITY_COMMON},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_RARE},
+	{ITEM_CARD_GAIA_POWER, RARITY_COMMON},
+	{ITEM_CARD_MEGAMORPH, RARITY_RARE},
+	{ITEM_CARD_MAN_EATER_BUG, RARITY_COMMON},
+	{ITEM_CARD_LEFT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_COMMON},
+	{ITEM_CARD_UPSTART_GOBLIN, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+	{ITEM_CARD_LORD_OF_D_, RARITY_COMMON},
+	{ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT, RARITY_COMMON},
+};
+
+const struct PackContents gTCGDarkLegionStarterDeck[] =
+{
+	{ITEM_CARD_SMASHING_GROUND, RARITY_SHATTERFOIL_RARE},
+	{ITEM_CARD_MAGIC_CYLINDER, RARITY_SHATTERFOIL_RARE},
+	{ITEM_CARD_THE_DRAGON_DWELLING_IN_THE_CAVE, RARITY_COMMON},
+	{ITEM_CARD_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_DARK_HOLE, RARITY_SHATTERFOIL_RARE},
+	{ITEM_CARD_DUST_TORNADO, RARITY_COMMON},
+	{ITEM_CARD_RUSH_RECKLESSLY, RARITY_COMMON},
+	{ITEM_CARD_BEAST_OF_TALWAR, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REINCARNATION, RARITY_COMMON},
+	{ITEM_CARD_ARCHFIEND_SOLDIER, RARITY_COMMON},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_SHATTERFOIL_RARE},
+	{ITEM_CARD_GOBLIN_ELITE_ATTACK_FORCE, RARITY_COMMON},
+	{ITEM_CARD_AXE_OF_DESPAIR, RARITY_COMMON},
+	{ITEM_CARD_MAD_ARCHFIEND, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGDarkNeostorm[] =
+{
+};
+
+const struct PackContents gTCGDarkNeostormSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGDarkNeostormSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGDarkRevelationVolume1[] =
+{
+	{ITEM_CARD_GRAVEKEEPER_S_ASSAILANT, RARITY_COMMON},
+	{ITEM_CARD_SKILLED_DARK_MAGICIAN, RARITY_RARE},
+	{ITEM_CARD_BIG_BANG_SHOT, RARITY_RARE},
+	{ITEM_CARD_POISON_OF_THE_OLD_MAN, RARITY_COMMON},
+	{ITEM_CARD_NEWDORIA, RARITY_RARE},
+	{ITEM_CARD_BYSER_SHOCK, RARITY_ULTRA_RARE},
+	{ITEM_CARD_D_D_TRAINER, RARITY_COMMON},
+	{ITEM_CARD_TSUKUYOMI, RARITY_COMMON},
+	{ITEM_CARD_NIN_KEN_DOG, RARITY_COMMON},
+	{ITEM_CARD_DARK_PALADIN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_SCORPION_CLIFF_THE_TRAP_REMOVER, RARITY_COMMON},
+	{ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DES_DENDLE, RARITY_COMMON},
+	{ITEM_CARD_NIGHTMARE_WHEEL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_NECROVALLEY, RARITY_SUPER_RARE},
+	{ITEM_CARD_SPELL_REPRODUCTION, RARITY_COMMON},
+	{ITEM_CARD_NEKO_MANE_KING, RARITY_COMMON},
+	{ITEM_CARD_SKILLED_WHITE_MAGICIAN, RARITY_RARE},
+	{ITEM_CARD_DARK_BLADE, RARITY_COMMON},
+	{ITEM_CARD_GRAVEKEEPER_S_GUARD, RARITY_COMMON},
+	{ITEM_CARD_SPIRIT_REAPER, RARITY_RARE},
+	{ITEM_CARD_MIRACLE_RESTORING, RARITY_COMMON},
+	{ITEM_CARD_ARCHFIEND_SOLDIER, RARITY_COMMON},
+	{ITEM_CARD_ARSENAL_SUMMONER, RARITY_COMMON},
+	{ITEM_CARD_GYAKU_GIRE_PANDA, RARITY_COMMON},
+	{ITEM_CARD_REAPER_ON_THE_NIGHTMARE, RARITY_RARE},
+	{ITEM_CARD_GRAVEKEEPER_S_WATCHER, RARITY_COMMON},
+	{ITEM_CARD_D_D_WARRIOR_LADY, RARITY_SUPER_RARE},
+	{ITEM_CARD_DRAGGED_DOWN_INTO_THE_GRAVE, RARITY_COMMON},
+	{ITEM_CARD_REASONING, RARITY_COMMON},
+	{ITEM_CARD_RAIGEKI_BREAK, RARITY_COMMON},
+	{ITEM_CARD_SPELL_CANCELLER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GAGAGIGO, RARITY_COMMON},
+	{ITEM_CARD_SECRET_BARREL, RARITY_COMMON},
+	{ITEM_CARD_DES_KOALA, RARITY_RARE},
+	{ITEM_CARD_TRIBE_INFECTING_VIRUS, RARITY_RARE},
+	{ITEM_CARD_GRAVEKEEPER_S_SPY, RARITY_COMMON},
+	{ITEM_CARD_METAMORPHOSIS, RARITY_COMMON},
+	{ITEM_CARD_INPACHI, RARITY_COMMON},
+	{ITEM_CARD_SAKURETSU_ARMOR, RARITY_COMMON},
+	{ITEM_CARD_YOMI_SHIP, RARITY_COMMON},
+	{ITEM_CARD_SKILL_DRAIN, RARITY_RARE},
+	{ITEM_CARD_WHITE_DRAGON_RITUAL, RARITY_COMMON},
+	{ITEM_CARD_GRAVEKEEPER_S_SPEAR_SOLDIER, RARITY_COMMON},
+	{ITEM_CARD_OPPRESSED_PEOPLE, RARITY_COMMON},
+	{ITEM_CARD_OJAMA_TRIO, RARITY_COMMON},
+	{ITEM_CARD_PALADIN_OF_WHITE_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_GIANT_ORC, RARITY_COMMON},
+	{ITEM_CARD_ROYAL_MAGICAL_LIBRARY, RARITY_COMMON},
+	{ITEM_CARD_MAGICAL_MERCHANT, RARITY_COMMON},
+	{ITEM_CARD_LUSTER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_DARK_SCORPION_CHICK_THE_YELLOW, RARITY_COMMON},
+	{ITEM_CARD_MAGICAL_SCIENTIST, RARITY_RARE},
+	{ITEM_CARD_TERRAFORMING, RARITY_COMMON},
+	{ITEM_CARD_BLINDLY_LOYAL_GOBLIN, RARITY_COMMON},
+	{ITEM_CARD_D_D_CRAZY_BEAST, RARITY_COMMON},
+	{ITEM_CARD_REFLECT_BOUNDER, RARITY_SUPER_RARE},
+	{ITEM_CARD_PITCH_BLACK_POWER_STONE, RARITY_COMMON},
+	{ITEM_CARD_ROULETTE_BARREL, RARITY_COMMON},
+	{ITEM_CARD_WAVE_MOTION_CANNON, RARITY_COMMON},
+	{ITEM_CARD_BARREL_BEHIND_THE_DOOR, RARITY_RARE},
+	{ITEM_CARD_X_HEAD_CANNON, RARITY_RARE},
+	{ITEM_CARD_BATTLE_FOOTBALLER, RARITY_COMMON},
+};
+
+const struct PackContents gTCGDarkRevelationVolume2[] =
+{
+	{ITEM_CARD_SEA_SERPENT_WARRIOR_OF_DARKNESS, RARITY_COMMON},
+	{ITEM_CARD_BLAZING_INPACHI, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN_OF_CHAOS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BERSERK_GORILLA, RARITY_RARE},
+	{ITEM_CARD_MANJU_OF_THE_TEN_THOUSAND_HANDS, RARITY_COMMON},
+	{ITEM_CARD_SMASHING_GROUND, RARITY_COMMON},
+	{ITEM_CARD_RELOAD, RARITY_SUPER_RARE},
+	{ITEM_CARD_WALL_OF_REVEALING_LIGHT, RARITY_COMMON},
+	{ITEM_CARD_AMPHIBIOUS_BUGROTH_MK_3, RARITY_RARE},
+	{ITEM_CARD_SALVAGE, RARITY_COMMON},
+	{ITEM_CARD_STONE_STATUE_OF_THE_AZTECS, RARITY_RARE},
+	{ITEM_CARD_BOWGANIAN, RARITY_COMMON},
+	{ITEM_CARD_MANTICORE_OF_DARKNESS, RARITY_SUPER_RARE},
+	{ITEM_CARD_HYPER_HAMMERHEAD, RARITY_COMMON},
+	{ITEM_CARD_LEGENDARY_JUJITSU_MASTER, RARITY_COMMON},
+	{ITEM_CARD_PINCH_HOPPER, RARITY_COMMON},
+	{ITEM_CARD_PROTECTOR_OF_THE_SANCTUARY, RARITY_RARE},
+	{ITEM_CARD_MATAZA_THE_ZAPPER, RARITY_RARE},
+	{ITEM_CARD_GEAR_GOLEM_THE_MOVING_FORTRESS, RARITY_SUPER_RARE},
+	{ITEM_CARD_STEALTH_BIRD, RARITY_RARE},
+	{ITEM_CARD_MONSTER_GATE, RARITY_COMMON},
+	{ITEM_CARD_TERRORKING_SALMON, RARITY_COMMON},
+	{ITEM_CARD_MAD_DOG_OF_DARKNESS, RARITY_COMMON},
+	{ITEM_CARD_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL, RARITY_COMMON},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_RARE},
+	{ITEM_CARD_NIGHT_ASSAILANT, RARITY_RARE},
+	{ITEM_CARD_BLOWBACK_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_LEVEL_LIMIT_AREA_B, RARITY_RARE},
+	{ITEM_CARD_MYSTIK_WOK, RARITY_COMMON},
+	{ITEM_CARD_SILPHEED, RARITY_COMMON},
+	{ITEM_CARD_GIGANTES, RARITY_COMMON},
+	{ITEM_CARD_SACRED_CRANE, RARITY_COMMON},
+	{ITEM_CARD_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CHAOS_SORCERER, RARITY_COMMON},
+	{ITEM_CARD_CHAIN_DISAPPEARANCE, RARITY_RARE},
+	{ITEM_CARD_LEVIA_DRAGON_DAEDALUS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CHAOS_EMPEROR_DRAGON_ENVOY_OF_THE_END, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MERMAID_KNIGHT, RARITY_RARE},
+	{ITEM_CARD_EMISSARY_OF_THE_AFTERLIFE, RARITY_SUPER_RARE},
+	{ITEM_CARD_ZABORG_THE_THUNDER_MONARCH, RARITY_SUPER_RARE},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_SUPER_RARE},
+	{ITEM_CARD_LADY_NINJA_YAE, RARITY_COMMON},
+	{ITEM_CARD_CRIMSON_NINJA, RARITY_COMMON},
+	{ITEM_CARD_DIMENSION_FUSION, RARITY_SUPER_RARE},
+	{ITEM_CARD_SOUL_TIGER, RARITY_COMMON},
+	{ITEM_CARD_KING_OF_THE_SWAMP, RARITY_COMMON},
+	{ITEM_CARD_NEO_BUG, RARITY_COMMON},
+	{ITEM_CARD_SELF_DESTRUCT_BUTTON, RARITY_COMMON},
+	{ITEM_CARD_PRICKLE_FAIRY, RARITY_COMMON},
+	{ITEM_CARD_DESERT_SUNLIGHT, RARITY_COMMON},
+	{ITEM_CARD_RYU_KOKKI, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGDarkRevelationVolume3[] =
+{
+	{ITEM_CARD_PIKERU_S_CIRCLE_OF_ENCHANTMENT, RARITY_SUPER_RARE},
+	{ITEM_CARD_SACRED_PHOENIX_OF_NEPHTHYS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_ULTIMATE_INSECT_LV3, RARITY_RARE},
+	{ITEM_CARD_THE_LIGHT_HEX_SEALED_FUSION, RARITY_COMMON},
+	{ITEM_CARD_THE_BIG_MARCH_OF_ANIMALS, RARITY_COMMON},
+	{ITEM_CARD_SERIAL_SPELL, RARITY_RARE},
+	{ITEM_CARD_HIERACOSPHINX, RARITY_SUPER_RARE},
+	{ITEM_CARD_MOBIUS_THE_FROST_MONARCH, RARITY_SUPER_RARE},
+	{ITEM_CARD_KING_DRAGUN, RARITY_SUPER_RARE},
+	{ITEM_CARD_GATLING_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CHIRON_THE_MAGE, RARITY_RARE},
+	{ITEM_CARD_BLACK_DRAGON_S_CHICK, RARITY_COMMON},
+	{ITEM_CARD_DARK_MIMIC_LV1, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REINCARNATION, RARITY_SUPER_RARE},
+	{ITEM_CARD_WHITE_NINJA, RARITY_COMMON},
+	{ITEM_CARD_HOWLING_INSECT, RARITY_COMMON},
+	{ITEM_CARD_MYSTIC_SWORDSMAN_LV4, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BRAIN_CONTROL, RARITY_SUPER_RARE},
+	{ITEM_CARD_ULTIMATE_INSECT_LV7, RARITY_SUPER_RARE},
+	{ITEM_CARD_FUSILIER_DRAGON_THE_DUAL_MODE_BEAST, RARITY_RARE},
+	{ITEM_CARD_MINE_GOLEM, RARITY_COMMON},
+	{ITEM_CARD_ELEMENTAL_HERO_CLAYMAN, RARITY_COMMON},
+	{ITEM_CARD_SKULL_DOG_MARRON, RARITY_COMMON},
+	{ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_NINJA_GRANDMASTER_SASUKE, RARITY_RARE},
+	{ITEM_CARD_HAND_OF_NEPHTHYS, RARITY_COMMON},
+	{ITEM_CARD_LIGHTNING_VORTEX, RARITY_SUPER_RARE},
+	{ITEM_CARD_MOAI_INTERCEPTOR_CANNONS, RARITY_COMMON},
+	{ITEM_CARD_GRANMARG_THE_ROCK_MONARCH, RARITY_SUPER_RARE},
+	{ITEM_CARD_MIRAGE_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_XING_ZHEN_HU, RARITY_COMMON},
+	{ITEM_CARD_PHOENIX_WING_WIND_BLAST, RARITY_RARE},
+	{ITEM_CARD_THE_EARTH_HEX_SEALED_FUSION, RARITY_COMMON},
+	{ITEM_CARD_THREATENING_ROAR, RARITY_COMMON},
+	{ITEM_CARD_DARK_MIMIC_LV3, RARITY_RARE},
+	{ITEM_CARD_RESCUE_CAT, RARITY_COMMON},
+	{ITEM_CARD_DARK_BLADE_THE_DRAGON_KNIGHT, RARITY_RARE},
+	{ITEM_CARD_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE, RARITY_RARE},
+	{ITEM_CARD_BIG_TUSKED_MAMMOTH, RARITY_RARE},
+	{ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH, RARITY_SUPER_RARE},
+	{ITEM_CARD_MYSTIC_SWORDSMAN_LV2, RARITY_RARE},
+	{ITEM_CARD_ULTIMATE_INSECT_LV5, RARITY_RARE},
+	{ITEM_CARD_MASKED_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_OJAMA_KING, RARITY_RARE},
+	{ITEM_CARD_D_D_SURVIVOR, RARITY_RARE},
+	{ITEM_CARD_DES_WOMBAT, RARITY_COMMON},
+	{ITEM_CARD_GOLEM_SENTRY, RARITY_COMMON},
+	{ITEM_CARD_SASUKE_SAMURAI_4, RARITY_RARE},
+	{ITEM_CARD_DECK_DEVASTATION_VIRUS, RARITY_SUPER_RARE},
+	{ITEM_CARD_CHARCOAL_INPACHI, RARITY_RARE},
+	{ITEM_CARD_HALLOWED_LIFE_BARRIER, RARITY_SUPER_RARE},
+	{ITEM_CARD_THE_DARK_HEX_SEALED_FUSION, RARITY_COMMON},
+	{ITEM_CARD_INSECT_KNIGHT, RARITY_COMMON},
+};
+
+const struct PackContents gTCGDarkRevelationVolume4[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SPIRITUAL_EARTH_ART_KUROGANE, RARITY_COMMON},
+	{ITEM_CARD_KAIBAMAN, RARITY_SECRET_RARE},
+	{ITEM_CARD_DRAGON_S_MIRROR, RARITY_SUPER_RARE},
+	{ITEM_CARD_SCARR_SCOUT_OF_DARK_WORLD, RARITY_COMMON},
+	{ITEM_CARD_DARK_WORLD_LIGHTNING, RARITY_RARE},
+	{ITEM_CARD_BEIIGE_VANGUARD_OF_DARK_WORLD, RARITY_COMMON},
+	{ITEM_CARD_SAND_MOTH, RARITY_RARE},
+	{ITEM_CARD_ELEMENTAL_HERO_WILDHEART, RARITY_SUPER_RARE},
+	{ITEM_CARD_CHAINSAW_INSECT, RARITY_RARE},
+	{ITEM_CARD_GOKIPON, RARITY_COMMON},
+	{ITEM_CARD_POT_OF_GENEROSITY, RARITY_COMMON},
+	{ITEM_CARD_KARMA_CUT, RARITY_SUPER_RARE},
+	{ITEM_CARD_FAMILIAR_POSSESSED_WYNN, RARITY_COMMON},
+	{ITEM_CARD_EXARION_UNIVERSE, RARITY_SECRET_RARE},
+	{ITEM_CARD_WROUGHTWEILER, RARITY_COMMON},
+	{ITEM_CARD_INDOMITABLE_FIGHTER_LEI_LEI, RARITY_COMMON},
+	{ITEM_CARD_ZURE_KNIGHT_OF_DARK_WORLD, RARITY_COMMON},
+	{ITEM_CARD_SILLVA_WARLORD_OF_DARK_WORLD, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DOOM_DOZER, RARITY_RARE},
+	{ITEM_CARD_SPIRITUAL_WIND_ART_MIYABI, RARITY_COMMON},
+	{ITEM_CARD_FAMILIAR_POSSESSED_HIITA, RARITY_COMMON},
+	{ITEM_CARD_BROWW_HUNTSMAN_OF_DARK_WORLD, RARITY_RARE},
+	{ITEM_CARD_DRILLROID, RARITY_SUPER_RARE},
+	{ITEM_CARD_GOBLIN_ELITE_ATTACK_FORCE, RARITY_SUPER_RARE},
+	{ITEM_CARD_POT_OF_AVARICE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_FAMILIAR_POSSESSED_ERIA, RARITY_COMMON},
+	{ITEM_CARD_TREEBORN_FROG, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SPIRITUAL_WATER_ART_AOI, RARITY_COMMON},
+	{ITEM_CARD_DARK_DEAL, RARITY_RARE},
+	{ITEM_CARD_SABER_BEETLE, RARITY_RARE},
+	{ITEM_CARD_FAMILIAR_POSSESSED_AUSSA, RARITY_COMMON},
+	{ITEM_CARD_CYBER_END_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_T_A_D_P_O_L_E_, RARITY_COMMON},
+	{ITEM_CARD_HYDROGEDDON, RARITY_SUPER_RARE},
+	{ITEM_CARD_BRRON_MAD_KING_OF_DARK_WORLD, RARITY_RARE},
+	{ITEM_CARD_CYBER_TWIN_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_D_D_ASSAILANT, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGDarkSaviors[] =
+{
+	{ITEM_CARD_MYSTIC_TOMATO, RARITY_SUPER_RARE},
+	{ITEM_CARD_SCAPEGOAT, RARITY_SUPER_RARE},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_SUPER_RARE},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_SUPER_RARE},
+	{ITEM_CARD_TOON_TABLE_OF_CONTENTS, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGDarkwingBlast[] =
+{
+	{ITEM_CARD_KAGERO_THE_CANNON_NINJA, RARITY_COMMON},
+	{ITEM_CARD_AMAZONESS_SPIRITUALIST, RARITY_COMMON},
+	{ITEM_CARD_TOBARI_THE_SKY_NINJA, RARITY_COMMON},
+	{ITEM_CARD_BAKU_THE_BEAST_NINJA, RARITY_SUPER_RARE},
+	{ITEM_CARD_INFERNALQUEEN_SALMON, RARITY_COMMON},
+	{ITEM_CARD_THE_BYSTIAL_LUBELLION, RARITY_SECRET_RARE},
+	{ITEM_CARD_BLAZING_CARTESIA_THE_VIRTUOUS, RARITY_SECRET_RARE},
+	{ITEM_CARD_BLAZING_CARTESIA_THE_VIRTUOUS, RARITY_STARLIGHT_RARE},
+	{ITEM_CARD_MITSU_THE_INSECT_NINJA, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MITSU_THE_INSECT_NINJA, RARITY_STARLIGHT_RARE},
+};
+
+const struct PackContents gTCGDarkwingBlastPremierepromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGDawnofMajesty[] =
+{
+	{ITEM_CARD_ALUBER_THE_JESTER_OF_DESPIA, RARITY_SECRET_RARE},
+	{ITEM_CARD_ALBION_THE_SHROUDED_DRAGON, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGDawnofMajestyPremierepromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGDemoDeck2015[] =
+{
+	{ITEM_CARD_GIL_GARTH, RARITY_COMMON},
+	{ITEM_CARD_BATTLE_OX, RARITY_COMMON},
+	{ITEM_CARD_NEWDORIA, RARITY_COMMON},
+	{ITEM_CARD_SUMMONED_SKULL, RARITY_COMMON},
+	{ITEM_CARD_SAKURETSU_ARMOR, RARITY_COMMON},
+	{ITEM_CARD_THREATENING_ROAR, RARITY_COMMON},
+	{ITEM_CARD_GIANT_SOLDIER_OF_STONE, RARITY_COMMON},
+	{ITEM_CARD_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP, RARITY_COMMON},
+};
+
+const struct PackContents gTCGDemoDeck2016[] =
+{
+	{ITEM_CARD_NIGHTMARE_S_STEELCAGE, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_ELF, RARITY_COMMON},
+	{ITEM_CARD_RECKLESS_GREED, RARITY_COMMON},
+	{ITEM_CARD_DARK_HOLE, RARITY_COMMON},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_COMMON},
+};
+
+const struct PackContents gTCGDemoPack[] =
+{
+	{ITEM_CARD_MARAUDING_CAPTAIN, RARITY_COMMON},
+	{ITEM_CARD_DARK_BLADE, RARITY_COMMON},
+	{ITEM_CARD_SUMMONED_SKULL, RARITY_COMMON},
+	{ITEM_CARD_SECRET_BARREL, RARITY_COMMON},
+	{ITEM_CARD_SECRET_BARREL, RARITY_COMMON},
+	{ITEM_CARD_THE_FIEND_MEGACYBER, RARITY_COMMON},
+	{ITEM_CARD_EXILED_FORCE, RARITY_COMMON},
+	{ITEM_CARD_DES_KOALA, RARITY_COMMON},
+	{ITEM_CARD_FISSURE, RARITY_COMMON},
+	{ITEM_CARD_THREATENING_ROAR, RARITY_COMMON},
+	{ITEM_CARD_MAN_EATER_BUG, RARITY_COMMON},
+	{ITEM_CARD_UPSTART_GOBLIN, RARITY_COMMON},
+};
+
+const struct PackContents gTCGDemoSpeedDuelingkit[] =
+{
+	{ITEM_CARD_POLYMERIZATION, RARITY_COMMON},
+};
+
+const struct PackContents gTCGDestinySoldiers[] =
+{
+	{ITEM_CARD_DARK_HOLE, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGDimensionForce[] =
+{
+};
+
+const struct PackContents gTCGDimensionForcePremierepromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGDimensionofChaos[] =
+{
+	{ITEM_CARD_SKILLED_RED_MAGICIAN, RARITY_RARE},
+	{ITEM_CARD_SPHERE_KURIBOH, RARITY_RARE},
+	{ITEM_CARD_BEGINNING_KNIGHT, RARITY_SUPER_RARE},
+	{ITEM_CARD_CHARGING_GAIA_THE_FIERCE_KNIGHT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_EVENING_TWILIGHT_KNIGHT, RARITY_SUPER_RARE},
+	{ITEM_CARD_SUPER_SOLDIER_SOUL, RARITY_COMMON},
+};
+
+const struct PackContents gTCGDimensionofChaosSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGDimensionofChaosSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGDinosmashersFuryStructureDeck[] =
+{
+	{ITEM_CARD_GILASAURUS, RARITY_COMMON},
+	{ITEM_CARD_OJAMA_TRIO, RARITY_COMMON},
+	{ITEM_CARD_TERRAFORMING, RARITY_COMMON},
+};
+
+const struct PackContents gTCGDragonsCollideStructureDeck[] =
+{
+	{ITEM_CARD_KAIBAMAN, RARITY_COMMON},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_MYSTIC_TOMATO, RARITY_COMMON},
+	{ITEM_CARD_THE_WHITE_STONE_OF_LEGEND, RARITY_COMMON},
+	{ITEM_CARD_BLACK_DRAGON_S_CHICK, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_GATE, RARITY_COMMON},
+	{ITEM_CARD_REASONING, RARITY_COMMON},
+	{ITEM_CARD_CHAOS_SORCERER, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_DARKNESS_METAL_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_LORD_OF_D_, RARITY_COMMON},
+};
+
+const struct PackContents gTCGDragonsofLegend[] =
+{
+};
+
+const struct PackContents gTCGDragonsofLegend2[] =
+{
+};
+
+const struct PackContents gTCGDragonsofLegendTheCompleteSeries[] =
+{
+};
+
+const struct PackContents gTCGDragonsofLegendUnleashed[] =
+{
+};
+
+const struct PackContents gTCGDragunityLegionStructureDeck[] =
+{
+	{ITEM_CARD_CREATURE_SWAP, RARITY_COMMON},
+	{ITEM_CARD_UNITED_WE_STAND, RARITY_COMMON},
+	{ITEM_CARD_DRAGON_S_RAGE, RARITY_COMMON},
+	{ITEM_CARD_SPEAR_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_CARD_DESTRUCTION, RARITY_COMMON},
+	{ITEM_CARD_BOTTOMLESS_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REINCARNATION, RARITY_COMMON},
+	{ITEM_CARD_FLYING_KAMAKIRI_1, RARITY_COMMON},
+	{ITEM_CARD_SPIRITUAL_WIND_ART_MIYABI, RARITY_COMMON},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_COMMON},
+	{ITEM_CARD_MAGE_POWER, RARITY_COMMON},
+	{ITEM_CARD_TWIN_HEADED_BEHEMOTH, RARITY_COMMON},
+	{ITEM_CARD_MASKED_DRAGON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGDuelDevastator[] =
+{
+	{ITEM_CARD_SPELL_CANCELLER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_ROYAL_DECREE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_ANTI_SPELL_FRAGRANCE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MIND_CONTROL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_WAVE_MOTION_CANNON, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGDuelDiskYuseiVersion[] =
+{
+};
+
+const struct PackContents gTCGDuelMastersGuidepromotionalcards[] =
+{
+	{ITEM_CARD_DARK_PALADIN, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGDuelOverload[] =
+{
+	{ITEM_CARD_SWAP_FROG, RARITY_ULTRA_RARE},
+	{ITEM_CARD_KING_DRAGUN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET, RARITY_ULTRA_RARE},
+	{ITEM_CARD_TRAPTRIX_GENLISEA, RARITY_ULTRA_RARE},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_TERRAFORMING, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGDuelPower[] =
+{
+	{ITEM_CARD_ANCIENT_GEAR_GOLEM_ULTIMATE_POUND, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_VISION_HERO_VYON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_TOON_DARK_MAGICIAN_GIRL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SHURIT_STRATEGIST_OF_THE_NEKROZ, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGDuelTerminalPreviewWave1[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_DUEL_TERMINAL_SUPER_PARALLEL_RARE},
+	{ITEM_CARD_SOUL_EXCHANGE, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_KURIBOH, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_DUST_TORNADO, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_MAGIC_JAMMER, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
+	{ITEM_CARD_BUSTER_BLADER, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_REINFORCEMENTS, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
+	{ITEM_CARD_NOBLEMAN_OF_EXTERMINATION, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGDuelTerminalPreviewWave2[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_DUEL_TERMINAL_SUPER_PARALLEL_RARE},
+	{ITEM_CARD_SOUL_EXCHANGE, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_KURIBOH, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_DUST_TORNADO, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_MAGIC_JAMMER, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
+	{ITEM_CARD_BUSTER_BLADER, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_REINFORCEMENTS, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
+	{ITEM_CARD_NOBLEMAN_OF_EXTERMINATION, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGDuelTerminal1[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_DUEL_TERMINAL_SUPER_PARALLEL_RARE},
+	{ITEM_CARD_SOUL_EXCHANGE, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_KURIBOH, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_DUST_TORNADO, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_MAGIC_JAMMER, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
+	{ITEM_CARD_BUSTER_BLADER, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_REINFORCEMENTS, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_BLACK_PENDANT, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
+	{ITEM_CARD_NOBLEMAN_OF_EXTERMINATION, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGDuelTerminal2[] =
+{
+	{ITEM_CARD_TRAP_HOLE, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_LIGHT_OF_INTERVENTION, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_DRILLROID, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
+	{ITEM_CARD_OFFERINGS_TO_THE_DOOMED, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
+	{ITEM_CARD_AXE_OF_DESPAIR, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_MAD_ARCHFIEND, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGDuelTerminal3[] =
+{
+	{ITEM_CARD_UNITED_WE_STAND, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_SMASHING_GROUND, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
+	{ITEM_CARD_NEWDORIA, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_WABOKU, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_DARK_PALADIN, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
+	{ITEM_CARD_WIDESPREAD_RUIN, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_RUSH_RECKLESSLY, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_BRAIN_CONTROL, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_NOBLEMAN_OF_CROSSOUT, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_NIGHT_ASSAILANT, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_ULTIMATE_OFFERING, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
+	{ITEM_CARD_SKILL_DRAIN, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_ARCHFIEND_OF_GILFER, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_THREATENING_ROAR, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
+	{ITEM_CARD_VORSE_RAIDER, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
+	{ITEM_CARD_CYBER_TWIN_DRAGON, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGDuelTerminal4[] =
+{
+	{ITEM_CARD_ROYAL_OPPRESSION, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_WHITE_NIGHT_DRAGON, RARITY_DUEL_TERMINAL_SUPER_PARALLEL_RARE},
+	{ITEM_CARD_POLYMERIZATION, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_TRAP_DUSTSHOOT, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_ELEMENTAL_HERO_WOODSMAN, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
+	{ITEM_CARD_WALL_OF_ILLUSION, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_MONSTER_REINCARNATION, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_LIMITER_REMOVAL, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_BLADE_KNIGHT, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
+	{ITEM_CARD_PHOENIX_WING_WIND_BLAST, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_ANTI_SPELL_FRAGRANCE, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
+	{ITEM_CARD_MASKED_DRAGON, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_KING_OF_THE_SWAMP, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_MEGAMORPH, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_RED_EYES_DARKNESS_METAL_DRAGON, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGDuelTerminal5a[] =
+{
+	{ITEM_CARD_GEM_KNIGHT_TOURMALINE, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_GEM_KNIGHT_GARNET, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_NIMBLE_MOMONGA, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_GEM_ARMADILLO, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
+	{ITEM_CARD_SUMMONED_SKULL, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
+	{ITEM_CARD_GEM_KNIGHT_SAPPHIRE, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_SLATE_WARRIOR, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_SPEAR_CRETIN, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_GEM_KNIGHT_ALEXANDRITE, RARITY_DUEL_TERMINAL_SUPER_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGDuelTerminal5b[] =
+{
+	{ITEM_CARD_SONIC_BIRD, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_SENJU_OF_THE_THOUSAND_HANDS, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_KARMA_CUT, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_GISHKI_SHADOW, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_GISHKI_VANITY, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_GISHKI_CHAIN, RARITY_DUEL_TERMINAL_SUPER_PARALLEL_RARE},
+	{ITEM_CARD_GISHKI_ARIEL, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_GISHKI_ABYSS, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_GISHKI_MARKER, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGDuelTerminal6a[] =
+{
+	{ITEM_CARD_MYSTIC_TOMATO, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_SACRED_PHOENIX_OF_NEPHTHYS, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
+	{ITEM_CARD_MANJU_OF_THE_TEN_THOUSAND_HANDS, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_WALL_OF_REVEALING_LIGHT, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_HAND_OF_NEPHTHYS, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_GISHKI_NOELLIA, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGDuelTerminal6b[] =
+{
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_DUEL_TERMINAL_SUPER_PARALLEL_RARE},
+	{ITEM_CARD_LEGENDARY_JUJITSU_MASTER, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_GISHKI_VISION, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_GRAVEKEEPER_S_SPY, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
+	{ITEM_CARD_ABYSS_SOLDIER, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_GISHKI_EMILIA, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGDuelTerminal7a[] =
+{
+	{ITEM_CARD_GISHKI_AVANCE, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_EVILSWARM_HELIOTROPE, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_EVILSWARM_KETOS, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGDuelTerminal7b[] =
+{
+	{ITEM_CARD_GISHKI_BEAST, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_GISHKI_NATALIA, RARITY_DUEL_TERMINAL_RARE_PARALLEL_RARE},
+	{ITEM_CARD_GEM_TURTLE, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGDuelinMonstersGiveaway[] =
+{
+	{ITEM_CARD_SUMMONED_SKULL, RARITY_COMMON},
+};
+
+const struct PackContents gTCGDuelistAlliance[] =
+{
+	{ITEM_CARD_SHADDOLL_BEAST, RARITY_RARE},
+	{ITEM_CARD_SHADDOLL_DRAGON, RARITY_RARE},
+	{ITEM_CARD_SHADDOLL_HEDGEHOG, RARITY_COMMON},
+	{ITEM_CARD_SHADDOLL_FALCO, RARITY_RARE},
+	{ITEM_CARD_RAIZA_THE_MEGA_MONARCH, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGDuelistAllianceSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGDuelistAllianceDeluxeEdition[] =
+{
+	{ITEM_CARD_SHADDOLL_HOUND, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGDuelistLeague13participationcards[] =
+{
+	{ITEM_CARD_PINCH_HOPPER, RARITY_RARE},
+	{ITEM_CARD_WHITE_NINJA, RARITY_RARE},
+	{ITEM_CARD_HOWLING_INSECT, RARITY_RARE},
+	{ITEM_CARD_FLYING_KAMAKIRI_1, RARITY_RARE},
+	{ITEM_CARD_ULTIMATE_OFFERING, RARITY_RARE},
+	{ITEM_CARD_GRANMARG_THE_ROCK_MONARCH, RARITY_RARE},
+	{ITEM_CARD_SHINING_ANGEL, RARITY_RARE},
+	{ITEM_CARD_CRIMSON_NINJA, RARITY_RARE},
+	{ITEM_CARD_ARMED_NINJA, RARITY_RARE},
+};
+
+const struct PackContents gTCGDuelistLeague14participationcards[] =
+{
+	{ITEM_CARD_COMMAND_KNIGHT, RARITY_RARE},
+	{ITEM_CARD_NOBLEMAN_OF_CROSSOUT, RARITY_RARE},
+	{ITEM_CARD_DOOM_DOZER, RARITY_RARE},
+};
+
+const struct PackContents gTCGDuelistLeague15participationcards[] =
+{
+	{ITEM_CARD_SKILLED_DARK_MAGICIAN, RARITY_RARE},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_RARE},
+	{ITEM_CARD_CAIUS_THE_SHADOW_MONARCH, RARITY_RARE},
+};
+
+const struct PackContents gTCGDuelistLeague16participationcards[] =
+{
+	{ITEM_CARD_LIMITER_REMOVAL, RARITY_RARE},
+};
+
+const struct PackContents gTCGDuelistLeague17participationcards[] =
+{
+	{ITEM_CARD_DELG_THE_DARK_MONARCH, RARITY_RARE},
+	{ITEM_CARD_BOOK_OF_LIFE, RARITY_RARE},
+	{ITEM_CARD_CYBER_END_DRAGON, RARITY_RARE},
+	{ITEM_CARD_LORD_OF_D_, RARITY_RARE},
+};
+
+const struct PackContents gTCGDuelistLeague18participationcards[] =
+{
+	{ITEM_CARD_TORRENTIAL_TRIBUTE, RARITY_RARE},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_RARE},
+	{ITEM_CARD_CATAPULT_TURTLE, RARITY_RARE},
+	{ITEM_CARD_GRAPHA_DRAGON_LORD_OF_DARK_WORLD, RARITY_RARE},
+};
+
+const struct PackContents gTCGDuelistLeague2participationcards[] =
+{
+	{ITEM_CARD_MORPHING_JAR, RARITY_RARE},
+	{ITEM_CARD_LEFT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_RARE},
+	{ITEM_CARD_MOBIUS_THE_FROST_MONARCH, RARITY_RARE},
+	{ITEM_CARD_RIGHT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_RARE},
+	{ITEM_CARD_RIGHT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_RARE},
+	{ITEM_CARD_GRAVEKEEPER_S_SPY, RARITY_RARE},
+	{ITEM_CARD_EXODIA_THE_FORBIDDEN_ONE, RARITY_RARE},
+	{ITEM_CARD_NOBLEMAN_OF_EXTERMINATION, RARITY_RARE},
+	{ITEM_CARD_PYRAMID_TURTLE, RARITY_RARE},
+	{ITEM_CARD_LEFT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_RARE},
+};
+
+const struct PackContents gTCGDuelistLeague2010participationcards[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_RARE},
+	{ITEM_CARD_MYSTIC_TOMATO, RARITY_RARE},
+	{ITEM_CARD_SCAPEGOAT, RARITY_RARE},
+	{ITEM_CARD_TRAP_HOLE, RARITY_RARE},
+	{ITEM_CARD_KURIBOH, RARITY_RARE},
+	{ITEM_CARD_LEGENDARY_JUJITSU_MASTER, RARITY_RARE},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_RARE},
+	{ITEM_CARD_BIG_SHIELD_GARDNA, RARITY_RARE},
+	{ITEM_CARD_GIANT_RAT, RARITY_RARE},
+	{ITEM_CARD_BLADE_KNIGHT, RARITY_RARE},
+	{ITEM_CARD_SAKURETSU_ARMOR, RARITY_RARE},
+	{ITEM_CARD_THREATENING_ROAR, RARITY_RARE},
+	{ITEM_CARD_ZABORG_THE_THUNDER_MONARCH, RARITY_RARE},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_RARE},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_RARE},
+};
+
+const struct PackContents gTCGDuelistLeague3participationcards[] =
+{
+	{ITEM_CARD_GIANT_GERM, RARITY_RARE},
+	{ITEM_CARD_MAGIC_CYLINDER, RARITY_RARE},
+	{ITEM_CARD_SALVAGE, RARITY_RARE},
+	{ITEM_CARD_MOTHER_GRIZZLY, RARITY_RARE},
+	{ITEM_CARD_JINZO, RARITY_RARE},
+	{ITEM_CARD_MESSENGER_OF_PEACE, RARITY_RARE},
+	{ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH, RARITY_RARE},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_RARE},
+};
+
+const struct PackContents gTCGDuelistLeagueDemo2010[] =
+{
+	{ITEM_CARD_NIMBLE_MOMONGA, RARITY_COMMON},
+	{ITEM_CARD_LIGHTNING_VORTEX, RARITY_COMMON},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_COMMON},
+	{ITEM_CARD_AXE_OF_DESPAIR, RARITY_COMMON},
+	{ITEM_CARD_MAN_EATER_BUG, RARITY_COMMON},
+};
+
+const struct PackContents gTCGDuelistLeagueSeries1participationcards[] =
+{
+	{ITEM_CARD_BUSTER_BLADER, RARITY_SUPER_RARE},
+	{ITEM_CARD_THOUSAND_EYES_RESTRICT, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGDuelistLeagueSeries10participationcard[] =
+{
+};
+
+const struct PackContents gTCGDuelistLeagueSeries2participationcards[] =
+{
+};
+
+const struct PackContents gTCGDuelistLeagueSeries3participationcard[] =
+{
+	{ITEM_CARD_NECROVALLEY, RARITY_RARE},
+};
+
+const struct PackContents gTCGDuelistLeagueSeries4participationcard[] =
+{
+};
+
+const struct PackContents gTCGDuelistLeagueSeries5participationcard[] =
+{
+};
+
+const struct PackContents gTCGDuelistLeagueSeries6participationcard[] =
+{
+	{ITEM_CARD_TOON_GEMINI_ELF, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGDuelistLeagueSeries7participationcard[] =
+{
+	{ITEM_CARD_TOON_GOBLIN_ATTACK_FORCE, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGDuelistLeagueSeries8participationcard[] =
+{
+};
+
+const struct PackContents gTCGDuelistLeagueSeries9participationcard[] =
+{
+};
+
+const struct PackContents gTCGDuelistNexus[] =
+{
+	{ITEM_CARD_RED_EYES_BLACK_METEOR_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_THESTALOS_THE_SHADOWFIRE_MONARCH, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGDuelistNexusPremierepromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGDuelistPackCollectionTin2008[] =
+{
+};
+
+const struct PackContents gTCGDuelistPackCollectionTin2009[] =
+{
+};
+
+const struct PackContents gTCGDuelistPackCollectionTin2010[] =
+{
+};
+
+const struct PackContents gTCGDuelistPackCollectionTin2011[] =
+{
+};
+
+const struct PackContents gTCGDuelistPackCollectionTinJadenYuki[] =
+{
+};
+
+const struct PackContents gTCGDuelistPackAsterPhoenix[] =
+{
+};
+
+const struct PackContents gTCGDuelistPackBattleCity[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_SUPER_RARE},
+	{ITEM_CARD_CRUSH_CARD_VIRUS, RARITY_RARE},
+	{ITEM_CARD_KURIBOH, RARITY_COMMON},
+	{ITEM_CARD_TOON_GEMINI_ELF, RARITY_COMMON},
+	{ITEM_CARD_DRAGGED_DOWN_INTO_THE_GRAVE, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_SUPER_RARE},
+	{ITEM_CARD_JINZO, RARITY_RARE},
+	{ITEM_CARD_BUSTER_BLADER, RARITY_RARE},
+	{ITEM_CARD_ARCHFIEND_OF_GILFER, RARITY_COMMON},
+	{ITEM_CARD_TOON_DARK_MAGICIAN_GIRL, RARITY_COMMON},
+	{ITEM_CARD_BLUE_EYES_TOON_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_COMMON},
+	{ITEM_CARD_TOON_TABLE_OF_CONTENTS, RARITY_RARE},
+	{ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_LORD_OF_D_, RARITY_COMMON},
+};
+
+const struct PackContents gTCGDuelistPackChazzPrinceton[] =
+{
+	{ITEM_CARD_OJAMA_TRIO, RARITY_COMMON},
+	{ITEM_CARD_OJAMA_KING, RARITY_COMMON},
+	{ITEM_CARD_X_HEAD_CANNON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGDuelistPackCrow[] =
+{
+};
+
+const struct PackContents gTCGDuelistPackDimensionalGuardians[] =
+{
+};
+
+const struct PackContents gTCGDuelistPackJadenYuki[] =
+{
+	{ITEM_CARD_WROUGHTWEILER, RARITY_COMMON},
+	{ITEM_CARD_ELEMENTAL_HERO_CLAYMAN, RARITY_COMMON},
+	{ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGDuelistPackJadenYuki2[] =
+{
+	{ITEM_CARD_ELEMENTAL_HERO_WILDHEART, RARITY_COMMON},
+};
+
+const struct PackContents gTCGDuelistPackJadenYuki3[] =
+{
+};
+
+const struct PackContents gTCGDuelistPackJesseAnderson[] =
+{
+};
+
+const struct PackContents gTCGDuelistPackKaiba[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_KAISER_SEA_HORSE, RARITY_RARE},
+	{ITEM_CARD_MALEFIC_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RING_OF_DESTRUCTION, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_VAMPIRE_LORD, RARITY_RARE},
+	{ITEM_CARD_THE_WHITE_STONE_OF_LEGEND, RARITY_SUPER_RARE},
+	{ITEM_CARD_CRUSH_CARD_VIRUS, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_CYBER_JAR, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_JUDGE_MAN, RARITY_COMMON},
+	{ITEM_CARD_WHITE_DRAGON_RITUAL, RARITY_COMMON},
+	{ITEM_CARD_RETURN_FROM_THE_DIFFERENT_DIMENSION, RARITY_SUPER_RARE},
+	{ITEM_CARD_PALADIN_OF_WHITE_DRAGON, RARITY_RARE},
+	{ITEM_CARD_CHAOS_EMPEROR_DRAGON_ENVOY_OF_THE_END, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP, RARITY_COMMON},
+	{ITEM_CARD_VORSE_RAIDER, RARITY_RARE},
+	{ITEM_CARD_BLUE_EYES_ULTIMATE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_X_HEAD_CANNON, RARITY_COMMON},
+	{ITEM_CARD_POT_OF_GREED, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_LORD_OF_D_, RARITY_COMMON},
+};
+
+const struct PackContents gTCGDuelistPackRivalsofthePharaoh[] =
+{
+	{ITEM_CARD_DARK_MAGICIAN_OF_CHAOS, RARITY_RARE},
+	{ITEM_CARD_DRAGON_S_MIRROR, RARITY_RARE},
+	{ITEM_CARD_EXCHANGE_OF_THE_SPIRIT, RARITY_COMMON},
+	{ITEM_CARD_THOUSAND_EYES_RESTRICT, RARITY_RARE},
+	{ITEM_CARD_SANGAN, RARITY_COMMON},
+	{ITEM_CARD_METAL_REFLECT_SLIME, RARITY_RARE},
+	{ITEM_CARD_BLUE_EYES_ULTIMATE_DRAGON, RARITY_RARE},
+};
+
+const struct PackContents gTCGDuelistPackSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGDuelistPackYugi[] =
+{
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_SUPER_RARE},
+	{ITEM_CARD_POLYMERIZATION, RARITY_SUPER_RARE},
+	{ITEM_CARD_DARK_PALADIN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_KURIBOH, RARITY_COMMON},
+	{ITEM_CARD_BRAIN_CONTROL, RARITY_COMMON},
+	{ITEM_CARD_BIG_SHIELD_GARDNA, RARITY_COMMON},
+	{ITEM_CARD_SUMMONED_SKULL, RARITY_SUPER_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_RARE},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BUSTER_BLADER, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_RARE},
+	{ITEM_CARD_CATAPULT_TURTLE, RARITY_COMMON},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_COMMON},
+	{ITEM_CARD_EXCHANGE, RARITY_RARE},
+};
+
+const struct PackContents gTCGDuelistPackYusei[] =
+{
+};
+
+const struct PackContents gTCGDuelistPackYusei2[] =
+{
+};
+
+const struct PackContents gTCGDuelistPackYusei3[] =
+{
+};
+
+const struct PackContents gTCGDuelistPackZaneTruesdale[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_RARE},
+	{ITEM_CARD_CREATURE_SWAP, RARITY_COMMON},
+	{ITEM_CARD_LIMITER_REMOVAL, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+	{ITEM_CARD_CYBER_END_DRAGON, RARITY_RARE},
+	{ITEM_CARD_CYBER_TWIN_DRAGON, RARITY_RARE},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGDuelistRevolution[] =
+{
+};
+
+const struct PackContents gTCGDuelistRevolutionSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGDuelistRevolutionSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGDuelistSaga[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_MAGICIAN_OF_CHAOS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_TSUKUYOMI, RARITY_ULTRA_RARE},
+	{ITEM_CARD_NECROVALLEY, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MAGICIAN_OF_FAITH, RARITY_ULTRA_RARE},
+	{ITEM_CARD_IMPERIAL_ORDER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MONSTER_GATE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BRAIN_CONTROL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_D_D_WARRIOR_LADY, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_JINZO, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_ULTRA_RARE},
+	{ITEM_CARD_VISION_HERO_VYON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_ROYAL_DECREE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_TREEBORN_FROG, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RESCUE_CAT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RED_EYES_DARKNESS_METAL_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DOOMCALIBER_KNIGHT, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGDuelistsAdvance[] =
+{
+	{ITEM_CARD_EIDOS_THE_UNDERWORLD_MONARCH, RARITY_ULTRA_RARE},
+	{ITEM_CARD_EIDOS_THE_UNDERWORLD_MONARCH, RARITY_STARLIGHT_RARE},
+};
+
+const struct PackContents gTCGDuelistsAdvancePremierepromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGEgyptianGodDeckObelisktheTormentor[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_HARPIE_S_FEATHER_DUSTER, RARITY_SUPER_RARE},
+	{ITEM_CARD_NIMBLE_MOMONGA, RARITY_COMMON},
+	{ITEM_CARD_BRAIN_CONTROL, RARITY_COMMON},
+	{ITEM_CARD_BAZOO_THE_SOUL_EATER, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_COMMON},
+	{ITEM_CARD_POT_OF_AVARICE, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+};
+
+const struct PackContents gTCGEgyptianGodDeckSlifertheSkyDragon[] =
+{
+	{ITEM_CARD_HARPIE_S_FEATHER_DUSTER, RARITY_SUPER_RARE},
+	{ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR, RARITY_COMMON},
+	{ITEM_CARD_RECKLESS_GREED, RARITY_COMMON},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_COMMON},
+	{ITEM_CARD_POT_OF_AVARICE, RARITY_COMMON},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_COMMON},
+	{ITEM_CARD_METAL_REFLECT_SLIME, RARITY_COMMON},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGElementalEnergy[] =
+{
+	{ITEM_CARD_SCARR_SCOUT_OF_DARK_WORLD, RARITY_COMMON},
+	{ITEM_CARD_DARK_WORLD_LIGHTNING, RARITY_COMMON},
+	{ITEM_CARD_BEIIGE_VANGUARD_OF_DARK_WORLD, RARITY_COMMON},
+	{ITEM_CARD_ELEMENTAL_HERO_WILDHEART, RARITY_COMMON},
+	{ITEM_CARD_FAMILIAR_POSSESSED_WYNN, RARITY_COMMON},
+	{ITEM_CARD_ZURE_KNIGHT_OF_DARK_WORLD, RARITY_COMMON},
+	{ITEM_CARD_SILLVA_WARLORD_OF_DARK_WORLD, RARITY_RARE},
+	{ITEM_CARD_SILLVA_WARLORD_OF_DARK_WORLD, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_FAMILIAR_POSSESSED_HIITA, RARITY_COMMON},
+	{ITEM_CARD_BROWW_HUNTSMAN_OF_DARK_WORLD, RARITY_RARE},
+	{ITEM_CARD_BROWW_HUNTSMAN_OF_DARK_WORLD, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_POT_OF_AVARICE, RARITY_SUPER_RARE},
+	{ITEM_CARD_POT_OF_AVARICE, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_FAMILIAR_POSSESSED_ERIA, RARITY_COMMON},
+	{ITEM_CARD_DARK_DEAL, RARITY_COMMON},
+	{ITEM_CARD_FAMILIAR_POSSESSED_AUSSA, RARITY_COMMON},
+	{ITEM_CARD_HYDROGEDDON, RARITY_COMMON},
+	{ITEM_CARD_BRRON_MAD_KING_OF_DARK_WORLD, RARITY_RARE},
+	{ITEM_CARD_BRRON_MAD_KING_OF_DARK_WORLD, RARITY_ULTIMATE_RARE},
+};
+
+const struct PackContents gTCGElementalEnergySneakPeekParticipationCard[] =
+{
+	{ITEM_CARD_EXCHANGE_OF_THE_SPIRIT, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGElementalEnergySpecialEdition[] =
+{
+	{ITEM_CARD_SACRED_PHOENIX_OF_NEPHTHYS, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGEmperorofDarknessStructureDeck[] =
+{
+	{ITEM_CARD_EHTHER_THE_HEAVENLY_MONARCH, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SOUL_EXCHANGE, RARITY_COMMON},
+	{ITEM_CARD_MOBIUS_THE_FROST_MONARCH, RARITY_COMMON},
+	{ITEM_CARD_BERLINETH_THE_FIRESTORM_VASSAL, RARITY_COMMON},
+	{ITEM_CARD_EREBUS_THE_UNDERWORLD_MONARCH, RARITY_ULTRA_RARE},
+	{ITEM_CARD_LUCIUS_THE_SHADOW_VASSAL, RARITY_COMMON},
+	{ITEM_CARD_GRANMARG_THE_ROCK_MONARCH, RARITY_COMMON},
+	{ITEM_CARD_ZABORG_THE_THUNDER_MONARCH, RARITY_COMMON},
+	{ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH, RARITY_COMMON},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_COMMON},
+	{ITEM_CARD_CAIUS_THE_SHADOW_MONARCH, RARITY_COMMON},
+	{ITEM_CARD_EIDOS_THE_UNDERWORLD_SQUIRE, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGEnemyofJustice[] =
+{
+};
+
+const struct PackContents gTCGEnemyofJusticeSneakPeekParticipationCard[] =
+{
+	{ITEM_CARD_TOON_DARK_MAGICIAN_GIRL, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGEternityCode[] =
+{
+	{ITEM_CARD_THUNDER_DRAGONLORD, RARITY_COMMON},
+};
+
+const struct PackContents gTCGEternityCodePremierepromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGEventPackSpeedDuel[] =
+{
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_COMMON},
+};
+
+const struct PackContents gTCGExclusivePack[] =
+{
+	{ITEM_CARD_RETURN_FROM_THE_DIFFERENT_DIMENSION, RARITY_COMMON},
+};
+
+const struct PackContents gTCGExtremeForce[] =
+{
+};
+
+const struct PackContents gTCGExtremeForceSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGExtremeForceSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGExtremeVictory[] =
+{
+	{ITEM_CARD_TRADETOAD, RARITY_RARE},
+};
+
+const struct PackContents gTCGExtremeVictorySneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGFireFistsSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGFistsoftheGadgets[] =
+{
+};
+
+const struct PackContents gTCGFlamesofDestruction[] =
+{
+};
+
+const struct PackContents gTCGFlamesofDestructionSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGFlamesofDestructionSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGFlamingEternity[] =
+{
+	{ITEM_CARD_SACRED_PHOENIX_OF_NEPHTHYS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SACRED_PHOENIX_OF_NEPHTHYS, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_THE_LIGHT_HEX_SEALED_FUSION, RARITY_COMMON},
+	{ITEM_CARD_THE_BIG_MARCH_OF_ANIMALS, RARITY_COMMON},
+	{ITEM_CARD_KING_DRAGUN, RARITY_SUPER_RARE},
+	{ITEM_CARD_KING_DRAGUN, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_GATLING_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GATLING_DRAGON, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_CHIRON_THE_MAGE, RARITY_RARE},
+	{ITEM_CARD_CHIRON_THE_MAGE, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_HAND_OF_NEPHTHYS, RARITY_COMMON},
+	{ITEM_CARD_LIGHTNING_VORTEX, RARITY_SUPER_RARE},
+	{ITEM_CARD_LIGHTNING_VORTEX, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_GRANMARG_THE_ROCK_MONARCH, RARITY_SUPER_RARE},
+	{ITEM_CARD_GRANMARG_THE_ROCK_MONARCH, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_PHOENIX_WING_WIND_BLAST, RARITY_RARE},
+	{ITEM_CARD_PHOENIX_WING_WIND_BLAST, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_THE_EARTH_HEX_SEALED_FUSION, RARITY_COMMON},
+	{ITEM_CARD_THREATENING_ROAR, RARITY_COMMON},
+	{ITEM_CARD_RESCUE_CAT, RARITY_COMMON},
+	{ITEM_CARD_BIG_TUSKED_MAMMOTH, RARITY_RARE},
+	{ITEM_CARD_BIG_TUSKED_MAMMOTH, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_ULTIMATE_INSECT_LV5, RARITY_RARE},
+	{ITEM_CARD_ULTIMATE_INSECT_LV5, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_GOLEM_SENTRY, RARITY_COMMON},
+	{ITEM_CARD_DECK_DEVASTATION_VIRUS, RARITY_SUPER_RARE},
+	{ITEM_CARD_DECK_DEVASTATION_VIRUS, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_THE_DARK_HEX_SEALED_FUSION, RARITY_COMMON},
+	{ITEM_CARD_INSECT_KNIGHT, RARITY_COMMON},
+};
+
+const struct PackContents gTCGFlamingEternitySneakPeekParticipationCard[] =
+{
+	{ITEM_CARD_CYBER_HARPIE_LADY, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGForbiddenLegacy[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_KURIBOH, RARITY_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGForceoftheBreaker[] =
+{
+};
+
+const struct PackContents gTCGForceoftheBreakerSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGForceoftheBreakerSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGFusionEnforcers[] =
+{
+	{ITEM_CARD_POLYMERIZATION, RARITY_SUPER_RARE},
+	{ITEM_CARD_PHOENIX_WING_WIND_BLAST, RARITY_SUPER_RARE},
+	{ITEM_CARD_KING_OF_THE_SWAMP, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGGXNextGeneration[] =
+{
+};
+
+const struct PackContents gTCGGalacticOverlord[] =
+{
+};
+
+const struct PackContents gTCGGalacticOverlordSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGGatesoftheUnderworldStructureDeck[] =
+{
+	{ITEM_CARD_NEWDORIA, RARITY_COMMON},
+	{ITEM_CARD_SCARR_SCOUT_OF_DARK_WORLD, RARITY_COMMON},
+	{ITEM_CARD_DARK_WORLD_LIGHTNING, RARITY_COMMON},
+	{ITEM_CARD_BEIIGE_VANGUARD_OF_DARK_WORLD, RARITY_COMMON},
+	{ITEM_CARD_CARD_DESTRUCTION, RARITY_COMMON},
+	{ITEM_CARD_RENGE_GATEKEEPER_OF_DARK_WORLD, RARITY_COMMON},
+	{ITEM_CARD_ZURE_KNIGHT_OF_DARK_WORLD, RARITY_COMMON},
+	{ITEM_CARD_SILLVA_WARLORD_OF_DARK_WORLD, RARITY_COMMON},
+	{ITEM_CARD_SNOWW_UNLIGHT_OF_DARK_WORLD, RARITY_SUPER_RARE},
+	{ITEM_CARD_BROWW_HUNTSMAN_OF_DARK_WORLD, RARITY_COMMON},
+	{ITEM_CARD_SANGAN, RARITY_COMMON},
+	{ITEM_CARD_DARK_DEAL, RARITY_COMMON},
+	{ITEM_CARD_TERRAFORMING, RARITY_COMMON},
+	{ITEM_CARD_GREN_TACTICIAN_OF_DARK_WORLD, RARITY_COMMON},
+	{ITEM_CARD_DECK_DEVASTATION_VIRUS, RARITY_COMMON},
+	{ITEM_CARD_BRRON_MAD_KING_OF_DARK_WORLD, RARITY_COMMON},
+	{ITEM_CARD_GRAPHA_DRAGON_LORD_OF_DARK_WORLD, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGGeargiaRampageStructureDeck[] =
+{
+	{ITEM_CARD_CREATURE_SWAP, RARITY_COMMON},
+	{ITEM_CARD_SMASHING_GROUND, RARITY_COMMON},
+	{ITEM_CARD_LIMITER_REMOVAL, RARITY_COMMON},
+	{ITEM_CARD_GIANT_RAT, RARITY_COMMON},
+	{ITEM_CARD_FISSURE, RARITY_COMMON},
+	{ITEM_CARD_TERRAFORMING, RARITY_COMMON},
+};
+
+const struct PackContents gTCGGenerationForce[] =
+{
+	{ITEM_CARD_GEM_ELEPHANT, RARITY_COMMON},
+};
+
+const struct PackContents gTCGGenerationForceSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGGenerationForceSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGGenesisImpact[] =
+{
+	{ITEM_CARD_BOTTOMLESS_TRAP_HOLE, RARITY_RARE},
+};
+
+const struct PackContents gTCGGhostsFromthePastset[] =
+{
+	{ITEM_CARD_SALVAGE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_GHOST_RARE},
+	{ITEM_CARD_GIGANTES, RARITY_ULTRA_RARE},
+	{ITEM_CARD_THESTALOS_THE_MEGA_MONARCH, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLUE_EYES_ALTERNATIVE_WHITE_DRAGON, RARITY_GHOST_RARE},
+};
+
+const struct PackContents gTCGGhostsFromthePastThe2ndHaunting[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_GHOST_RARE},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_GHOST_RARE},
+	{ITEM_CARD_CHRONICLE_MAGICIAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MANJU_OF_THE_TEN_THOUSAND_HANDS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_GHOST_RARE},
+	{ITEM_CARD_MALEFIC_CYBER_END_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_ALUBER_THE_JESTER_OF_DESPIA, RARITY_ULTRA_RARE},
+	{ITEM_CARD_VISION_HERO_VYON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_GHOST_RARE},
+	{ITEM_CARD_BLUE_EYES_ULTIMATE_DRAGON, RARITY_GHOST_RARE},
+	{ITEM_CARD_RAIZA_THE_MEGA_MONARCH, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGGladiatorsAssault[] =
+{
+	{ITEM_CARD_GIL_GARTH, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGGladiatorsAssaultSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGGladiatorsAssaultSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGGoldSeries[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_GOLD_RARE},
+	{ITEM_CARD_DARK_MAGICIAN_OF_CHAOS, RARITY_GOLD_RARE},
+	{ITEM_CARD_TORRENTIAL_TRIBUTE, RARITY_GOLD_RARE},
+	{ITEM_CARD_NEEDLE_CEILING, RARITY_COMMON},
+	{ITEM_CARD_NEWDORIA, RARITY_COMMON},
+	{ITEM_CARD_DES_LACOODA, RARITY_COMMON},
+	{ITEM_CARD_SONIC_BIRD, RARITY_COMMON},
+	{ITEM_CARD_SWARM_OF_LOCUSTS, RARITY_COMMON},
+	{ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR, RARITY_GOLD_RARE},
+	{ITEM_CARD_HEAVY_STORM, RARITY_GOLD_RARE},
+	{ITEM_CARD_CRUSH_CARD_VIRUS, RARITY_GOLD_RARE},
+	{ITEM_CARD_STEALTH_BIRD, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_GOLD_RARE},
+	{ITEM_CARD_7_COLORED_FISH, RARITY_COMMON},
+	{ITEM_CARD_BRAIN_CONTROL, RARITY_GOLD_RARE},
+	{ITEM_CARD_SILLVA_WARLORD_OF_DARK_WORLD, RARITY_COMMON},
+	{ITEM_CARD_D_D_WARRIOR_LADY, RARITY_GOLD_RARE},
+	{ITEM_CARD_DOOM_DOZER, RARITY_COMMON},
+	{ITEM_CARD_JINZO, RARITY_GOLD_RARE},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_GOLD_RARE},
+	{ITEM_CARD_SKILL_DRAIN, RARITY_COMMON},
+	{ITEM_CARD_SWARM_OF_SCARABS, RARITY_COMMON},
+	{ITEM_CARD_OFFERINGS_TO_THE_DOOMED, RARITY_COMMON},
+	{ITEM_CARD_BLUE_EYES_ULTIMATE_DRAGON, RARITY_GOLD_RARE},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_GOLD_RARE},
+	{ITEM_CARD_DON_ZALOOG, RARITY_GOLD_RARE},
+};
+
+const struct PackContents gTCGGoldSeries2009[] =
+{
+	{ITEM_CARD_SOLEMN_JUDGMENT, RARITY_GOLD_RARE},
+	{ITEM_CARD_MOBIUS_THE_FROST_MONARCH, RARITY_COMMON},
+	{ITEM_CARD_BOTTOMLESS_TRAP_HOLE, RARITY_GOLD_RARE},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_COMMON},
+	{ITEM_CARD_GIANT_TRUNADE, RARITY_COMMON},
+	{ITEM_CARD_SANGAN, RARITY_GOLD_RARE},
+	{ITEM_CARD_GRANMARG_THE_ROCK_MONARCH, RARITY_COMMON},
+	{ITEM_CARD_PHOENIX_WING_WIND_BLAST, RARITY_GOLD_RARE},
+	{ITEM_CARD_TREEBORN_FROG, RARITY_COMMON},
+	{ITEM_CARD_ZABORG_THE_THUNDER_MONARCH, RARITY_COMMON},
+	{ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH, RARITY_COMMON},
+	{ITEM_CARD_MIND_CONTROL, RARITY_GOLD_RARE},
+	{ITEM_CARD_CAIUS_THE_SHADOW_MONARCH, RARITY_GOLD_RARE},
+};
+
+const struct PackContents gTCGGoldSeries3[] =
+{
+	{ITEM_CARD_SMASHING_GROUND, RARITY_GOLD_RARE},
+	{ITEM_CARD_AMAZONESS_ARCHER, RARITY_COMMON},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_GOLD_RARE},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_GOLD_RARE},
+};
+
+const struct PackContents gTCGGoldSeries4PyramidsEdition[] =
+{
+	{ITEM_CARD_MORPHING_JAR, RARITY_GOLD_RARE},
+	{ITEM_CARD_SOUL_EXCHANGE, RARITY_COMMON},
+	{ITEM_CARD_ROYAL_OPPRESSION, RARITY_GOLD_RARE},
+	{ITEM_CARD_SPIRIT_REAPER, RARITY_GOLD_RARE},
+	{ITEM_CARD_ROBBIN_GOBLIN, RARITY_COMMON},
+	{ITEM_CARD_THE_WICKED_WORM_BEAST, RARITY_COMMON},
+	{ITEM_CARD_GRAVEKEEPER_S_SPY, RARITY_GOLD_RARE},
+	{ITEM_CARD_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_GOLD_RARE},
+	{ITEM_CARD_CHAOS_SORCERER, RARITY_GOLD_RARE},
+	{ITEM_CARD_TOON_DARK_MAGICIAN_GIRL, RARITY_COMMON},
+	{ITEM_CARD_INJECTION_FAIRY_LILY, RARITY_COMMON},
+	{ITEM_CARD_POT_OF_AVARICE, RARITY_GOLD_RARE},
+	{ITEM_CARD_XING_ZHEN_HU, RARITY_COMMON},
+	{ITEM_CARD_TOON_TABLE_OF_CONTENTS, RARITY_GOLD_RARE},
+	{ITEM_CARD_DECK_DEVASTATION_VIRUS, RARITY_COMMON},
+	{ITEM_CARD_DOOMCALIBER_KNIGHT, RARITY_GOLD_RARE},
+};
+
+const struct PackContents gTCGGoldSeriesHauntedMine[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_GHOST_GOLD_RARE},
+	{ITEM_CARD_SOLEMN_JUDGMENT, RARITY_GHOST_GOLD_RARE},
+	{ITEM_CARD_DARK_SCORPION_CLIFF_THE_TRAP_REMOVER, RARITY_COMMON},
+	{ITEM_CARD_DARK_HOLE, RARITY_GOLD_RARE},
+	{ITEM_CARD_DARK_MIMIC_LV1, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_LIFE, RARITY_COMMON},
+	{ITEM_CARD_DARK_MIMIC_LV3, RARITY_COMMON},
+	{ITEM_CARD_DARK_SCORPION_CHICK_THE_YELLOW, RARITY_COMMON},
+	{ITEM_CARD_PYRAMID_TURTLE, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_GOLD_RARE},
+	{ITEM_CARD_RYU_KOKKI, RARITY_COMMON},
+	{ITEM_CARD_DON_ZALOOG, RARITY_COMMON},
+	{ITEM_CARD_GRAPHA_DRAGON_LORD_OF_DARK_WORLD, RARITY_GOLD_RARE},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_GHOST_GOLD_RARE},
+};
+
+const struct PackContents gTCGHEROStrikeStructureDeck[] =
+{
+	{ITEM_CARD_ELEMENTAL_HERO_WILDHEART, RARITY_COMMON},
+	{ITEM_CARD_BOTTOMLESS_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_ELEMENTAL_HERO_WOODSMAN, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_COMMON},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+};
+
+const struct PackContents gTCGHiddenArsenal[] =
+{
+};
+
+const struct PackContents gTCGHiddenArsenal2[] =
+{
+};
+
+const struct PackContents gTCGHiddenArsenal3[] =
+{
+};
+
+const struct PackContents gTCGHiddenArsenal4TrishulasTriumph[] =
+{
+};
+
+const struct PackContents gTCGHiddenArsenal5SteelswarmInvasion[] =
+{
+	{ITEM_CARD_GEM_KNIGHT_TOURMALINE, RARITY_SUPER_RARE},
+	{ITEM_CARD_GEM_KNIGHT_GARNET, RARITY_SUPER_RARE},
+	{ITEM_CARD_GEM_ARMADILLO, RARITY_SECRET_RARE},
+	{ITEM_CARD_GISHKI_SHADOW, RARITY_SUPER_RARE},
+	{ITEM_CARD_GISHKI_VANITY, RARITY_SUPER_RARE},
+	{ITEM_CARD_GISHKI_CHAIN, RARITY_SECRET_RARE},
+	{ITEM_CARD_GISHKI_ARIEL, RARITY_SUPER_RARE},
+	{ITEM_CARD_GISHKI_ABYSS, RARITY_SUPER_RARE},
+	{ITEM_CARD_GEM_KNIGHT_SAPPHIRE, RARITY_SUPER_RARE},
+	{ITEM_CARD_GISHKI_MARKER, RARITY_SUPER_RARE},
+	{ITEM_CARD_GEM_KNIGHT_ALEXANDRITE, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGHiddenArsenal5SteelswarmInvasionSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGHiddenArsenal6OmegaXyz[] =
+{
+	{ITEM_CARD_GISHKI_VISION, RARITY_SUPER_RARE},
+	{ITEM_CARD_GISHKI_NOELLIA, RARITY_SUPER_RARE},
+	{ITEM_CARD_GISHKI_EMILIA, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGHiddenArsenal7KnightofStars[] =
+{
+	{ITEM_CARD_GISHKI_AVANCE, RARITY_SUPER_RARE},
+	{ITEM_CARD_EVILSWARM_HELIOTROPE, RARITY_SUPER_RARE},
+	{ITEM_CARD_EVILSWARM_KETOS, RARITY_SUPER_RARE},
+	{ITEM_CARD_GISHKI_NATALIA, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGHiddenArsenalChapter1[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_DUEL_TERMINAL_ULTRA_PARALLEL_RARE},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_DUEL_TERMINAL_ULTRA_PARALLEL_RARE},
+	{ITEM_CARD_WABOKU, RARITY_COMMON},
+	{ITEM_CARD_WABOKU, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_POLYMERIZATION, RARITY_DUEL_TERMINAL_ULTRA_PARALLEL_RARE},
+	{ITEM_CARD_DARK_PALADIN, RARITY_DUEL_TERMINAL_ULTRA_PARALLEL_RARE},
+	{ITEM_CARD_KURIBOH, RARITY_COMMON},
+	{ITEM_CARD_KURIBOH, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_DUST_TORNADO, RARITY_COMMON},
+	{ITEM_CARD_DUST_TORNADO, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_NIGHT_ASSAILANT, RARITY_DUEL_TERMINAL_ULTRA_PARALLEL_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_DUEL_TERMINAL_ULTRA_PARALLEL_RARE},
+	{ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN, RARITY_DUEL_TERMINAL_ULTRA_PARALLEL_RARE},
+	{ITEM_CARD_BUSTER_BLADER, RARITY_COMMON},
+	{ITEM_CARD_BUSTER_BLADER, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_SKILL_DRAIN, RARITY_DUEL_TERMINAL_ULTRA_PARALLEL_RARE},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_DUEL_TERMINAL_ULTRA_PARALLEL_RARE},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_COMMON},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_DUEL_TERMINAL_ULTRA_PARALLEL_RARE},
+	{ITEM_CARD_RED_EYES_DARKNESS_METAL_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_DARKNESS_METAL_DRAGON, RARITY_DUEL_TERMINAL_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_DUEL_TERMINAL_ULTRA_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGHiddenArsenalSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGHiddenSummoners[] =
+{
+	{ITEM_CARD_SACRED_PHOENIX_OF_NEPHTHYS, RARITY_SUPER_RARE},
+	{ITEM_CARD_DISCIPLE_OF_NEPHTHYS, RARITY_SECRET_RARE},
+	{ITEM_CARD_MANJU_OF_THE_TEN_THOUSAND_HANDS, RARITY_SUPER_RARE},
+	{ITEM_CARD_MATRIARCH_OF_NEPHTHYS, RARITY_SUPER_RARE},
+	{ITEM_CARD_THUNDER_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_HAND_OF_NEPHTHYS, RARITY_SUPER_RARE},
+	{ITEM_CARD_PHOENIX_WING_WIND_BLAST, RARITY_SUPER_RARE},
+	{ITEM_CARD_DEFENDER_OF_NEPHTHYS, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGHighSpeedRiders[] =
+{
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGHobbyLeague1participationcardsA[] =
+{
+};
+
+const struct PackContents gTCGHobbyLeague1participationcardsB[] =
+{
+	{ITEM_CARD_LEVIA_DRAGON_DAEDALUS, RARITY_SUPER_RARE},
+	{ITEM_CARD_A_LEGENDARY_OCEAN, RARITY_COMMON},
+};
+
+const struct PackContents gTCGHobbyLeague1participationcardsC[] =
+{
+	{ITEM_CARD_KING_OF_THE_SWAMP, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGHobbyLeague2participationcardA[] =
+{
+	{ITEM_CARD_CYBER_JAR, RARITY_ULTRA_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGHobbyLeague2participationcardB[] =
+{
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_ULTRA_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGHobbyLeague2participationcardC[] =
+{
+	{ITEM_CARD_SANGAN, RARITY_ULTRA_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGHobbyLeague2participationcardD[] =
+{
+	{ITEM_CARD_HEAVY_STORM, RARITY_ULTRA_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGHobbyLeague2participationcardE[] =
+{
+	{ITEM_CARD_MARAUDING_CAPTAIN, RARITY_ULTRA_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGHobbyLeague2participationcardF[] =
+{
+	{ITEM_CARD_FISSURE, RARITY_ULTRA_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGHobbyLeague3participationcardA[] =
+{
+	{ITEM_CARD_GIANT_RAT, RARITY_ULTRA_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGHobbyLeague3participationcardB[] =
+{
+	{ITEM_CARD_CREATURE_SWAP, RARITY_ULTRA_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGHobbyLeague3participationcardC[] =
+{
+	{ITEM_CARD_TRAP_HOLE, RARITY_ULTRA_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGHobbyLeague3participationcardD[] =
+{
+	{ITEM_CARD_SPEAR_DRAGON, RARITY_ULTRA_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGHobbyLeague3participationcardE[] =
+{
+	{ITEM_CARD_MYSTIC_TOMATO, RARITY_ULTRA_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGHobbyLeague3participationcardF[] =
+{
+	{ITEM_CARD_ROYAL_DECREE, RARITY_ULTRA_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGHobbyLeague3participationcardG[] =
+{
+};
+
+const struct PackContents gTCGHobbyLeague4participationcardA[] =
+{
+	{ITEM_CARD_EXILED_FORCE, RARITY_ULTRA_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGHobbyLeague4participationcardB[] =
+{
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_ULTRA_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGHobbyLeague4participationcardC[] =
+{
+	{ITEM_CARD_ASURA_PRIEST, RARITY_ULTRA_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGHobbyLeague4participationcardD[] =
+{
+	{ITEM_CARD_GRACEFUL_CHARITY, RARITY_ULTRA_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGHobbyLeague4participationcardE[] =
+{
+	{ITEM_CARD_KYCOO_THE_GHOST_DESTROYER, RARITY_ULTRA_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGHobbyLeague4participationcardF[] =
+{
+	{ITEM_CARD_TORRENTIAL_TRIBUTE, RARITY_ULTRA_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGHobbyLeague5participationcardA[] =
+{
+};
+
+const struct PackContents gTCGHobbyLeague5participationcardB[] =
+{
+};
+
+const struct PackContents gTCGHobbyLeague5participationcardC[] =
+{
+};
+
+const struct PackContents gTCGHobbyLeague5participationcardD[] =
+{
+	{ITEM_CARD_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE, RARITY_ULTRA_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGHobbyLeague5participationcardE[] =
+{
+};
+
+const struct PackContents gTCGHobbyLeague5participationcardF[] =
+{
+	{ITEM_CARD_SCAPEGOAT, RARITY_ULTRA_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGHobbyLeague6participationcardA[] =
+{
+	{ITEM_CARD_NOBLEMAN_OF_CROSSOUT, RARITY_ULTRA_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGHobbyLeague6participationcardB[] =
+{
+	{ITEM_CARD_LIMITER_REMOVAL, RARITY_ULTRA_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGHobbyLeague6participationcardC[] =
+{
+	{ITEM_CARD_D_D_WARRIOR_LADY, RARITY_ULTRA_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGHobbyLeague6participationcardD[] =
+{
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_ULTRA_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGHobbyLeague6participationcardE[] =
+{
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_ULTRA_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGHobbyLeague6participationcardF[] =
+{
+	{ITEM_CARD_SHINING_ANGEL, RARITY_ULTRA_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGHobbyLeague7participationcardA[] =
+{
+	{ITEM_CARD_MONSTER_REBORN, RARITY_ULTRA_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGHobbyLeague7participationcardB[] =
+{
+};
+
+const struct PackContents gTCGHobbyLeague7participationcardC[] =
+{
+};
+
+const struct PackContents gTCGHobbyLeague7participationcardD[] =
+{
+};
+
+const struct PackContents gTCGHobbyLeague7participationcardE[] =
+{
+};
+
+const struct PackContents gTCGHobbyLeague7participationcardF[] =
+{
+};
+
+const struct PackContents gTCGIgnitionAssault[] =
+{
+};
+
+const struct PackContents gTCGIgnitionAssaultSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGIgnitionAssaultSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGInvasionofChaos[] =
+{
+	{ITEM_CARD_SEA_SERPENT_WARRIOR_OF_DARKNESS, RARITY_COMMON},
+	{ITEM_CARD_SEA_SERPENT_WARRIOR_OF_DARKNESS, RARITY_COMMON},
+	{ITEM_CARD_BLAZING_INPACHI, RARITY_COMMON},
+	{ITEM_CARD_BLAZING_INPACHI, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN_OF_CHAOS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_MAGICIAN_OF_CHAOS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BERSERK_GORILLA, RARITY_RARE},
+	{ITEM_CARD_BERSERK_GORILLA, RARITY_RARE},
+	{ITEM_CARD_MANJU_OF_THE_TEN_THOUSAND_HANDS, RARITY_SHORT_PRINT},
+	{ITEM_CARD_MANJU_OF_THE_TEN_THOUSAND_HANDS, RARITY_SHORT_PRINT},
+	{ITEM_CARD_SMASHING_GROUND, RARITY_SHORT_PRINT},
+	{ITEM_CARD_SMASHING_GROUND, RARITY_SHORT_PRINT},
+	{ITEM_CARD_RELOAD, RARITY_SUPER_RARE},
+	{ITEM_CARD_RELOAD, RARITY_SUPER_RARE},
+	{ITEM_CARD_AMPHIBIOUS_BUGROTH_MK_3, RARITY_COMMON},
+	{ITEM_CARD_AMPHIBIOUS_BUGROTH_MK_3, RARITY_COMMON},
+	{ITEM_CARD_SALVAGE, RARITY_COMMON},
+	{ITEM_CARD_SALVAGE, RARITY_COMMON},
+	{ITEM_CARD_BOWGANIAN, RARITY_SHORT_PRINT},
+	{ITEM_CARD_BOWGANIAN, RARITY_SHORT_PRINT},
+	{ITEM_CARD_MANTICORE_OF_DARKNESS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MANTICORE_OF_DARKNESS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_HYPER_HAMMERHEAD, RARITY_COMMON},
+	{ITEM_CARD_HYPER_HAMMERHEAD, RARITY_COMMON},
+	{ITEM_CARD_PINCH_HOPPER, RARITY_SHORT_PRINT},
+	{ITEM_CARD_PINCH_HOPPER, RARITY_SHORT_PRINT},
+	{ITEM_CARD_MATAZA_THE_ZAPPER, RARITY_RARE},
+	{ITEM_CARD_MATAZA_THE_ZAPPER, RARITY_RARE},
+	{ITEM_CARD_STEALTH_BIRD, RARITY_COMMON},
+	{ITEM_CARD_STEALTH_BIRD, RARITY_COMMON},
+	{ITEM_CARD_TERRORKING_SALMON, RARITY_COMMON},
+	{ITEM_CARD_TERRORKING_SALMON, RARITY_COMMON},
+	{ITEM_CARD_MAD_DOG_OF_DARKNESS, RARITY_RARE},
+	{ITEM_CARD_MAD_DOG_OF_DARKNESS, RARITY_RARE},
+	{ITEM_CARD_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL, RARITY_COMMON},
+	{ITEM_CARD_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL, RARITY_COMMON},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_RARE},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_RARE},
+	{ITEM_CARD_SILPHEED, RARITY_COMMON},
+	{ITEM_CARD_SILPHEED, RARITY_COMMON},
+	{ITEM_CARD_GIGANTES, RARITY_COMMON},
+	{ITEM_CARD_GIGANTES, RARITY_COMMON},
+	{ITEM_CARD_SACRED_CRANE, RARITY_COMMON},
+	{ITEM_CARD_SACRED_CRANE, RARITY_COMMON},
+	{ITEM_CARD_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CHAOS_SORCERER, RARITY_COMMON},
+	{ITEM_CARD_CHAOS_SORCERER, RARITY_COMMON},
+	{ITEM_CARD_CHAIN_DISAPPEARANCE, RARITY_RARE},
+	{ITEM_CARD_CHAIN_DISAPPEARANCE, RARITY_RARE},
+	{ITEM_CARD_LEVIA_DRAGON_DAEDALUS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_LEVIA_DRAGON_DAEDALUS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CHAOS_EMPEROR_DRAGON_ENVOY_OF_THE_END, RARITY_SECRET_RARE},
+	{ITEM_CARD_CHAOS_EMPEROR_DRAGON_ENVOY_OF_THE_END, RARITY_SECRET_RARE},
+	{ITEM_CARD_CRIMSON_NINJA, RARITY_COMMON},
+	{ITEM_CARD_CRIMSON_NINJA, RARITY_COMMON},
+	{ITEM_CARD_DIMENSION_FUSION, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DIMENSION_FUSION, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SOUL_TIGER, RARITY_COMMON},
+	{ITEM_CARD_SOUL_TIGER, RARITY_COMMON},
+	{ITEM_CARD_NEO_BUG, RARITY_COMMON},
+	{ITEM_CARD_NEO_BUG, RARITY_COMMON},
+	{ITEM_CARD_SELF_DESTRUCT_BUTTON, RARITY_SHORT_PRINT},
+	{ITEM_CARD_SELF_DESTRUCT_BUTTON, RARITY_SHORT_PRINT},
+	{ITEM_CARD_PRICKLE_FAIRY, RARITY_COMMON},
+	{ITEM_CARD_PRICKLE_FAIRY, RARITY_COMMON},
+	{ITEM_CARD_RYU_KOKKI, RARITY_COMMON},
+	{ITEM_CARD_RYU_KOKKI, RARITY_COMMON},
+};
+
+const struct PackContents gTCGInvasionofChaos25thAnniversaryEdition[] =
+{
+	{ITEM_CARD_SEA_SERPENT_WARRIOR_OF_DARKNESS, RARITY_COMMON},
+	{ITEM_CARD_BLAZING_INPACHI, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN_OF_CHAOS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BERSERK_GORILLA, RARITY_RARE},
+	{ITEM_CARD_MANJU_OF_THE_TEN_THOUSAND_HANDS, RARITY_COMMON},
+	{ITEM_CARD_SMASHING_GROUND, RARITY_COMMON},
+	{ITEM_CARD_RELOAD, RARITY_SUPER_RARE},
+	{ITEM_CARD_AMPHIBIOUS_BUGROTH_MK_3, RARITY_COMMON},
+	{ITEM_CARD_SALVAGE, RARITY_COMMON},
+	{ITEM_CARD_BOWGANIAN, RARITY_COMMON},
+	{ITEM_CARD_MANTICORE_OF_DARKNESS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_HYPER_HAMMERHEAD, RARITY_COMMON},
+	{ITEM_CARD_PINCH_HOPPER, RARITY_COMMON},
+	{ITEM_CARD_MATAZA_THE_ZAPPER, RARITY_RARE},
+	{ITEM_CARD_STEALTH_BIRD, RARITY_COMMON},
+	{ITEM_CARD_TERRORKING_SALMON, RARITY_COMMON},
+	{ITEM_CARD_MAD_DOG_OF_DARKNESS, RARITY_RARE},
+	{ITEM_CARD_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL, RARITY_COMMON},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_RARE},
+	{ITEM_CARD_SILPHEED, RARITY_COMMON},
+	{ITEM_CARD_GIGANTES, RARITY_COMMON},
+	{ITEM_CARD_SACRED_CRANE, RARITY_COMMON},
+	{ITEM_CARD_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CHAOS_SORCERER, RARITY_COMMON},
+	{ITEM_CARD_CHAIN_DISAPPEARANCE, RARITY_RARE},
+	{ITEM_CARD_LEVIA_DRAGON_DAEDALUS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CHAOS_EMPEROR_DRAGON_ENVOY_OF_THE_END, RARITY_SECRET_RARE},
+	{ITEM_CARD_CRIMSON_NINJA, RARITY_COMMON},
+	{ITEM_CARD_DIMENSION_FUSION, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SOUL_TIGER, RARITY_COMMON},
+	{ITEM_CARD_NEO_BUG, RARITY_COMMON},
+	{ITEM_CARD_SELF_DESTRUCT_BUTTON, RARITY_COMMON},
+	{ITEM_CARD_PRICKLE_FAIRY, RARITY_COMMON},
+	{ITEM_CARD_RYU_KOKKI, RARITY_COMMON},
+};
+
+const struct PackContents gTCGInvasionofChaosSpecialEdition[] =
+{
+	{ITEM_CARD_MAGIC_CYLINDER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RING_OF_DESTRUCTION, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GEMINI_ELF, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGInvasionVengeance[] =
+{
+};
+
+const struct PackContents gTCGInvasionVengeanceSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGInvasionVengeanceSpecialEdition[] =
+{
+	{ITEM_CARD_RELINKURIBOH, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGJudgmentoftheLight[] =
+{
+	{ITEM_CARD_ARCHFIEND_CAVALRY, RARITY_RARE},
+	{ITEM_CARD_TRAPTRIX_MYRMELEO, RARITY_RARE},
+	{ITEM_CARD_TRAPTRIX_NEPENTHES, RARITY_COMMON},
+	{ITEM_CARD_TRAPTRIX_ATRAX, RARITY_RARE},
+	{ITEM_CARD_ARCHFIEND_HEIRESS, RARITY_RARE},
+};
+
+const struct PackContents gTCGJudgmentoftheLightSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGJudgmentoftheLightDeluxeEdition[] =
+{
+};
+
+const struct PackContents gTCGJumpPack2014Issue1promotionalcard[] =
+{
+	{ITEM_CARD_ARCHFIEND_COMMANDER, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGJumpPack2014Issue2promotionalcard[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGJumpPack2014Issue3promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGKCGrandTournament2021prizecard[] =
+{
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_EXTRA_SECRET_RARE},
+};
+
+const struct PackContents gTCGKCGrandTournament2022prizecard[] =
+{
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_EXTRA_SECRET_RARE},
+};
+
+const struct PackContents gTCGKCGrandTournamentprizecard[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_EXTRA_SECRET_RARE},
+};
+
+const struct PackContents gTCGKaibasCollectorBox[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGKidsWBDuelofDestinypromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGKingsCourt[] =
+{
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_RARE},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_COLLECTOR_S_RARE},
+	{ITEM_CARD_GRAVEKEEPER_S_SPY, RARITY_RARE},
+};
+
+const struct PackContents gTCGLabyrinthofNightmare[] =
+{
+	{ITEM_CARD_SKULL_LAIR, RARITY_COMMON},
+	{ITEM_CARD_SKULL_LAIR, RARITY_COMMON},
+	{ITEM_CARD_SKULL_LAIR, RARITY_COMMON},
+	{ITEM_CARD_UNITED_WE_STAND, RARITY_ULTRA_RARE},
+	{ITEM_CARD_UNITED_WE_STAND, RARITY_ULTRA_RARE},
+	{ITEM_CARD_UNITED_WE_STAND, RARITY_ULTRA_RARE},
+	{ITEM_CARD_TORRENTIAL_TRIBUTE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_TORRENTIAL_TRIBUTE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_TORRENTIAL_TRIBUTE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MASK_OF_RESTRICT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MASK_OF_RESTRICT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MASK_OF_RESTRICT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SPIRITUALISM, RARITY_RARE},
+	{ITEM_CARD_SPIRITUALISM, RARITY_RARE},
+	{ITEM_CARD_SPIRITUALISM, RARITY_RARE},
+	{ITEM_CARD_MAGIC_CYLINDER, RARITY_SECRET_RARE},
+	{ITEM_CARD_MAGIC_CYLINDER, RARITY_SECRET_RARE},
+	{ITEM_CARD_MAGIC_CYLINDER, RARITY_SECRET_RARE},
+	{ITEM_CARD_JAR_OF_GREED, RARITY_SUPER_RARE},
+	{ITEM_CARD_JAR_OF_GREED, RARITY_SUPER_RARE},
+	{ITEM_CARD_JAR_OF_GREED, RARITY_SUPER_RARE},
+	{ITEM_CARD_JOWGEN_THE_SPIRITUALIST, RARITY_RARE},
+	{ITEM_CARD_JOWGEN_THE_SPIRITUALIST, RARITY_RARE},
+	{ITEM_CARD_JOWGEN_THE_SPIRITUALIST, RARITY_RARE},
+	{ITEM_CARD_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET, RARITY_ULTRA_RARE},
+	{ITEM_CARD_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET, RARITY_ULTRA_RARE},
+	{ITEM_CARD_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GILASAURUS, RARITY_RARE},
+	{ITEM_CARD_GILASAURUS, RARITY_RARE},
+	{ITEM_CARD_GILASAURUS, RARITY_RARE},
+	{ITEM_CARD_AMAZONESS_ARCHER, RARITY_COMMON},
+	{ITEM_CARD_AMAZONESS_ARCHER, RARITY_COMMON},
+	{ITEM_CARD_AMAZONESS_ARCHER, RARITY_COMMON},
+	{ITEM_CARD_BAZOO_THE_SOUL_EATER, RARITY_SUPER_RARE},
+	{ITEM_CARD_BAZOO_THE_SOUL_EATER, RARITY_SUPER_RARE},
+	{ITEM_CARD_BAZOO_THE_SOUL_EATER, RARITY_SUPER_RARE},
+	{ITEM_CARD_KYCOO_THE_GHOST_DESTROYER, RARITY_SUPER_RARE},
+	{ITEM_CARD_KYCOO_THE_GHOST_DESTROYER, RARITY_SUPER_RARE},
+	{ITEM_CARD_KYCOO_THE_GHOST_DESTROYER, RARITY_SUPER_RARE},
+	{ITEM_CARD_AQUA_SPIRIT, RARITY_COMMON},
+	{ITEM_CARD_AQUA_SPIRIT, RARITY_COMMON},
+	{ITEM_CARD_AQUA_SPIRIT, RARITY_COMMON},
+	{ITEM_CARD_OFFERINGS_TO_THE_DOOMED, RARITY_COMMON},
+	{ITEM_CARD_OFFERINGS_TO_THE_DOOMED, RARITY_COMMON},
+	{ITEM_CARD_OFFERINGS_TO_THE_DOOMED, RARITY_COMMON},
+	{ITEM_CARD_MAGE_POWER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MAGE_POWER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MAGE_POWER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GEMINI_ELF, RARITY_SECRET_RARE},
+	{ITEM_CARD_GEMINI_ELF, RARITY_SECRET_RARE},
+	{ITEM_CARD_GEMINI_ELF, RARITY_SECRET_RARE},
+	{ITEM_CARD_ZOMBYRA_THE_DARK, RARITY_COMMON},
+	{ITEM_CARD_ZOMBYRA_THE_DARK, RARITY_COMMON},
+	{ITEM_CARD_ZOMBYRA_THE_DARK, RARITY_COMMON},
+	{ITEM_CARD_HUMANOID_SLIME, RARITY_SHORT_PRINT},
+	{ITEM_CARD_HUMANOID_SLIME, RARITY_SHORT_PRINT},
+	{ITEM_CARD_HUMANOID_SLIME, RARITY_SHORT_PRINT},
+	{ITEM_CARD_EARTHBOUND_SPIRIT, RARITY_SHORT_PRINT},
+	{ITEM_CARD_EARTHBOUND_SPIRIT, RARITY_SHORT_PRINT},
+	{ITEM_CARD_EARTHBOUND_SPIRIT, RARITY_SHORT_PRINT},
+	{ITEM_CARD_THE_FORGIVING_MAIDEN, RARITY_COMMON},
+	{ITEM_CARD_THE_FORGIVING_MAIDEN, RARITY_COMMON},
+	{ITEM_CARD_THE_FORGIVING_MAIDEN, RARITY_COMMON},
+};
+
+const struct PackContents gTCGLegacyofDarkness[] =
+{
+	{ITEM_CARD_CREATURE_SWAP, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CREATURE_SWAP, RARITY_ULTRA_RARE},
+	{ITEM_CARD_AIRKNIGHT_PARSHATH, RARITY_ULTRA_RARE},
+	{ITEM_CARD_AIRKNIGHT_PARSHATH, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DROP_OFF, RARITY_SUPER_RARE},
+	{ITEM_CARD_DROP_OFF, RARITY_SUPER_RARE},
+	{ITEM_CARD_FIBER_JAR, RARITY_ULTRA_RARE},
+	{ITEM_CARD_FIBER_JAR, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DRAGON_S_RAGE, RARITY_COMMON},
+	{ITEM_CARD_DRAGON_S_RAGE, RARITY_COMMON},
+	{ITEM_CARD_ROYAL_OPPRESSION, RARITY_RARE},
+	{ITEM_CARD_ROYAL_OPPRESSION, RARITY_RARE},
+	{ITEM_CARD_SPEAR_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_SPEAR_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_MARAUDING_CAPTAIN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MARAUDING_CAPTAIN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_THE_DRAGON_DWELLING_IN_THE_CAVE, RARITY_COMMON},
+	{ITEM_CARD_THE_DRAGON_DWELLING_IN_THE_CAVE, RARITY_COMMON},
+	{ITEM_CARD_BLAST_WITH_CHAIN, RARITY_RARE},
+	{ITEM_CARD_BLAST_WITH_CHAIN, RARITY_RARE},
+	{ITEM_CARD_BOTTOMLESS_TRAP_HOLE, RARITY_RARE},
+	{ITEM_CARD_BOTTOMLESS_TRAP_HOLE, RARITY_RARE},
+	{ITEM_CARD_SECOND_COIN_TOSS, RARITY_RARE},
+	{ITEM_CARD_SECOND_COIN_TOSS, RARITY_RARE},
+	{ITEM_CARD_LESSER_FIEND, RARITY_RARE},
+	{ITEM_CARD_LESSER_FIEND, RARITY_RARE},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_SUPER_RARE},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_SUPER_RARE},
+	{ITEM_CARD_YATA_GARASU, RARITY_SECRET_RARE},
+	{ITEM_CARD_YATA_GARASU, RARITY_SECRET_RARE},
+	{ITEM_CARD_THROWSTONE_UNIT, RARITY_COMMON},
+	{ITEM_CARD_THROWSTONE_UNIT, RARITY_COMMON},
+	{ITEM_CARD_EXILED_FORCE, RARITY_SUPER_RARE},
+	{ITEM_CARD_EXILED_FORCE, RARITY_SUPER_RARE},
+	{ITEM_CARD_INABA_WHITE_RABBIT, RARITY_SHORT_PRINT},
+	{ITEM_CARD_INABA_WHITE_RABBIT, RARITY_SHORT_PRINT},
+	{ITEM_CARD_OPTICLOPS, RARITY_RARE},
+	{ITEM_CARD_OPTICLOPS, RARITY_RARE},
+	{ITEM_CARD_INJECTION_FAIRY_LILY, RARITY_SECRET_RARE},
+	{ITEM_CARD_INJECTION_FAIRY_LILY, RARITY_SECRET_RARE},
+	{ITEM_CARD_TWIN_HEADED_BEHEMOTH, RARITY_SUPER_RARE},
+	{ITEM_CARD_TWIN_HEADED_BEHEMOTH, RARITY_SUPER_RARE},
+	{ITEM_CARD_A_LEGENDARY_OCEAN, RARITY_COMMON},
+	{ITEM_CARD_A_LEGENDARY_OCEAN, RARITY_COMMON},
+	{ITEM_CARD_ASURA_PRIEST, RARITY_SUPER_RARE},
+	{ITEM_CARD_ASURA_PRIEST, RARITY_SUPER_RARE},
+	{ITEM_CARD_EMERGENCY_PROVISIONS, RARITY_COMMON},
+	{ITEM_CARD_EMERGENCY_PROVISIONS, RARITY_COMMON},
+	{ITEM_CARD_SERPENTINE_PRINCESS, RARITY_COMMON},
+	{ITEM_CARD_SERPENTINE_PRINCESS, RARITY_COMMON},
+	{ITEM_CARD_THUNDER_NYAN_NYAN, RARITY_RARE},
+	{ITEM_CARD_THUNDER_NYAN_NYAN, RARITY_RARE},
+	{ITEM_CARD_DARK_RULER_HA_DES, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_RULER_HA_DES, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGLegacyofDestruction[] =
+{
+};
+
+const struct PackContents gTCGLegacyofDestructionPremierepromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGLegacyoftheValiant[] =
+{
+	{ITEM_CARD_MOBIUS_THE_MEGA_MONARCH, RARITY_SECRET_RARE},
+	{ITEM_CARD_MOBIUS_THE_MEGA_MONARCH, RARITY_GHOST_RARE},
+};
+
+const struct PackContents gTCGLegacyoftheValiantSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGLegacyoftheValiantDeluxeEdition[] =
+{
+};
+
+const struct PackContents gTCGLegendofBlueEyesWhiteDragon[] =
+{
+	{ITEM_CARD_SPIRIT_OF_THE_HARP, RARITY_RARE},
+	{ITEM_CARD_SPIRIT_OF_THE_HARP, RARITY_RARE},
+	{ITEM_CARD_SPIRIT_OF_THE_HARP, RARITY_RARE},
+	{ITEM_CARD_SPIRIT_OF_THE_HARP, RARITY_RARE},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_LEFT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_LEFT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_LEFT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_LEFT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MYSTICAL_ELF, RARITY_SUPER_RARE},
+	{ITEM_CARD_MYSTICAL_ELF, RARITY_SUPER_RARE},
+	{ITEM_CARD_MYSTICAL_ELF, RARITY_SUPER_RARE},
+	{ITEM_CARD_MYSTICAL_ELF, RARITY_SUPER_RARE},
+	{ITEM_CARD_TRAP_HOLE, RARITY_SUPER_RARE},
+	{ITEM_CARD_TRAP_HOLE, RARITY_SUPER_RARE},
+	{ITEM_CARD_TRAP_HOLE, RARITY_SUPER_RARE},
+	{ITEM_CARD_TRAP_HOLE, RARITY_SUPER_RARE},
+	{ITEM_CARD_DARK_HOLE, RARITY_SUPER_RARE},
+	{ITEM_CARD_DARK_HOLE, RARITY_SUPER_RARE},
+	{ITEM_CARD_DARK_HOLE, RARITY_SUPER_RARE},
+	{ITEM_CARD_DARK_HOLE, RARITY_SUPER_RARE},
+	{ITEM_CARD_FLAME_SWORDSMAN, RARITY_SUPER_RARE},
+	{ITEM_CARD_FLAME_SWORDSMAN, RARITY_SUPER_RARE},
+	{ITEM_CARD_FLAME_SWORDSMAN, RARITY_SUPER_RARE},
+	{ITEM_CARD_RIGHT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RIGHT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RIGHT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RIGHT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GAIA_THE_DRAGON_CHAMPION, RARITY_SECRET_RARE},
+	{ITEM_CARD_GAIA_THE_DRAGON_CHAMPION, RARITY_SECRET_RARE},
+	{ITEM_CARD_GAIA_THE_DRAGON_CHAMPION, RARITY_SECRET_RARE},
+	{ITEM_CARD_GAIA_THE_DRAGON_CHAMPION, RARITY_SECRET_RARE},
+	{ITEM_CARD_AQUA_MADOOR, RARITY_RARE},
+	{ITEM_CARD_AQUA_MADOOR, RARITY_RARE},
+	{ITEM_CARD_AQUA_MADOOR, RARITY_RARE},
+	{ITEM_CARD_AQUA_MADOOR, RARITY_RARE},
+	{ITEM_CARD_RIGHT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RIGHT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RIGHT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RIGHT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_FINAL_FLAME, RARITY_RARE},
+	{ITEM_CARD_FINAL_FLAME, RARITY_RARE},
+	{ITEM_CARD_FINAL_FLAME, RARITY_RARE},
+	{ITEM_CARD_FINAL_FLAME, RARITY_RARE},
+	{ITEM_CARD_HANE_HANE, RARITY_RARE},
+	{ITEM_CARD_HANE_HANE, RARITY_RARE},
+	{ITEM_CARD_HANE_HANE, RARITY_RARE},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_REMOVE_TRAP, RARITY_COMMON},
+	{ITEM_CARD_REMOVE_TRAP, RARITY_COMMON},
+	{ITEM_CARD_REMOVE_TRAP, RARITY_COMMON},
+	{ITEM_CARD_REMOVE_TRAP, RARITY_COMMON},
+	{ITEM_CARD_FISSURE, RARITY_RARE},
+	{ITEM_CARD_FISSURE, RARITY_RARE},
+	{ITEM_CARD_FISSURE, RARITY_RARE},
+	{ITEM_CARD_FISSURE, RARITY_RARE},
+	{ITEM_CARD_EXODIA_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_EXODIA_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_EXODIA_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_EXODIA_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GIANT_SOLDIER_OF_STONE, RARITY_RARE},
+	{ITEM_CARD_GIANT_SOLDIER_OF_STONE, RARITY_RARE},
+	{ITEM_CARD_GIANT_SOLDIER_OF_STONE, RARITY_RARE},
+	{ITEM_CARD_GIANT_SOLDIER_OF_STONE, RARITY_RARE},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GAIA_THE_FIERCE_KNIGHT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GAIA_THE_FIERCE_KNIGHT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GAIA_THE_FIERCE_KNIGHT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GAIA_THE_FIERCE_KNIGHT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RAIGEKI, RARITY_SUPER_RARE},
+	{ITEM_CARD_RAIGEKI, RARITY_SUPER_RARE},
+	{ITEM_CARD_RAIGEKI, RARITY_SUPER_RARE},
+	{ITEM_CARD_RAIGEKI, RARITY_SUPER_RARE},
+	{ITEM_CARD_ARMED_NINJA, RARITY_RARE},
+	{ITEM_CARD_ARMED_NINJA, RARITY_RARE},
+	{ITEM_CARD_ARMED_NINJA, RARITY_RARE},
+	{ITEM_CARD_ARMED_NINJA, RARITY_RARE},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_SUPER_RARE},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_SUPER_RARE},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_SUPER_RARE},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_SUPER_RARE},
+	{ITEM_CARD_STOP_DEFENSE, RARITY_RARE},
+	{ITEM_CARD_STOP_DEFENSE, RARITY_RARE},
+	{ITEM_CARD_STOP_DEFENSE, RARITY_RARE},
+	{ITEM_CARD_STOP_DEFENSE, RARITY_RARE},
+	{ITEM_CARD_MAN_EATER_BUG, RARITY_SUPER_RARE},
+	{ITEM_CARD_MAN_EATER_BUG, RARITY_SUPER_RARE},
+	{ITEM_CARD_MAN_EATER_BUG, RARITY_SUPER_RARE},
+	{ITEM_CARD_MAN_EATER_BUG, RARITY_SUPER_RARE},
+	{ITEM_CARD_LEFT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_LEFT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_LEFT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_LEFT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_POT_OF_GREED, RARITY_RARE},
+	{ITEM_CARD_POT_OF_GREED, RARITY_RARE},
+	{ITEM_CARD_POT_OF_GREED, RARITY_RARE},
+};
+
+const struct PackContents gTCGLegendofBlueEyesWhiteDragon25thAnniversaryEdition[] =
+{
+	{ITEM_CARD_SPIRIT_OF_THE_HARP, RARITY_RARE},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_LEFT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MYSTICAL_ELF, RARITY_SUPER_RARE},
+	{ITEM_CARD_TRAP_HOLE, RARITY_SUPER_RARE},
+	{ITEM_CARD_DARK_HOLE, RARITY_SUPER_RARE},
+	{ITEM_CARD_FLAME_SWORDSMAN, RARITY_SUPER_RARE},
+	{ITEM_CARD_RIGHT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GAIA_THE_DRAGON_CHAMPION, RARITY_SECRET_RARE},
+	{ITEM_CARD_AQUA_MADOOR, RARITY_RARE},
+	{ITEM_CARD_RIGHT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_FINAL_FLAME, RARITY_RARE},
+	{ITEM_CARD_HANE_HANE, RARITY_RARE},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_REMOVE_TRAP, RARITY_COMMON},
+	{ITEM_CARD_FISSURE, RARITY_RARE},
+	{ITEM_CARD_EXODIA_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GIANT_SOLDIER_OF_STONE, RARITY_RARE},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GAIA_THE_FIERCE_KNIGHT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RAIGEKI, RARITY_SUPER_RARE},
+	{ITEM_CARD_ARMED_NINJA, RARITY_RARE},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_SUPER_RARE},
+	{ITEM_CARD_STOP_DEFENSE, RARITY_RARE},
+	{ITEM_CARD_MAN_EATER_BUG, RARITY_SUPER_RARE},
+	{ITEM_CARD_LEFT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_POT_OF_GREED, RARITY_RARE},
+};
+
+const struct PackContents gTCGLegendaryCollection[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGLegendaryCollection2TheDuelAcademyYears[] =
+{
+	{ITEM_CARD_CYBER_LARVA, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGLegendaryCollection2TheDuelAcademyYearsMegaPack[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CYBER_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_WHITE_NIGHT_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_ELEMENTAL_HERO_WILDHEART, RARITY_COMMON},
+	{ITEM_CARD_ELEMENTAL_HERO_WOODSMAN, RARITY_SUPER_RARE},
+	{ITEM_CARD_WROUGHTWEILER, RARITY_COMMON},
+	{ITEM_CARD_ELEMENTAL_HERO_CLAYMAN, RARITY_COMMON},
+	{ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN, RARITY_SECRET_RARE},
+	{ITEM_CARD_D_D_SURVIVOR, RARITY_COMMON},
+	{ITEM_CARD_CYBER_END_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_CYBER_END_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_HYDROGEDDON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CYBER_TWIN_DRAGON, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGLegendaryCollection3YugisWorld[] =
+{
+};
+
+const struct PackContents gTCGLegendaryCollection3YugisWorldMegaPack[] =
+{
+	{ITEM_CARD_GIL_GARTH, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MYSTIC_TOMATO, RARITY_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGICIAN_OF_CHAOS, RARITY_SECRET_RARE},
+	{ITEM_CARD_SACRED_PHOENIX_OF_NEPHTHYS, RARITY_SUPER_RARE},
+	{ITEM_CARD_CREATURE_SWAP, RARITY_SUPER_RARE},
+	{ITEM_CARD_MORPHING_JAR, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CHANGE_OF_HEART, RARITY_SECRET_RARE},
+	{ITEM_CARD_MAGICIAN_S_CIRCLE, RARITY_SUPER_RARE},
+	{ITEM_CARD_GRAVEKEEPER_S_ASSAILANT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_TORRENTIAL_TRIBUTE, RARITY_SECRET_RARE},
+	{ITEM_CARD_DARK_NEPHTHYS, RARITY_COMMON},
+	{ITEM_CARD_GIANT_GERM, RARITY_COMMON},
+	{ITEM_CARD_THE_LIGHT_HEX_SEALED_FUSION, RARITY_COMMON},
+	{ITEM_CARD_MANJU_OF_THE_TEN_THOUSAND_HANDS, RARITY_COMMON},
+	{ITEM_CARD_SMASHING_GROUND, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MASK_OF_RESTRICT, RARITY_COMMON},
+	{ITEM_CARD_SPIRITUALISM, RARITY_COMMON},
+	{ITEM_CARD_SOLEMN_JUDGMENT, RARITY_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_SECRET_RARE},
+	{ITEM_CARD_MAGIC_CYLINDER, RARITY_SUPER_RARE},
+	{ITEM_CARD_LEFT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_SECRET_RARE},
+	{ITEM_CARD_MYSTICAL_ELF, RARITY_COMMON},
+	{ITEM_CARD_DARK_PALADIN, RARITY_SECRET_RARE},
+	{ITEM_CARD_BANISHER_OF_THE_LIGHT, RARITY_COMMON},
+	{ITEM_CARD_CARD_DESTRUCTION, RARITY_SECRET_RARE},
+	{ITEM_CARD_TOON_SUMMONED_SKULL, RARITY_RARE},
+	{ITEM_CARD_HARPIE_S_FEATHER_DUSTER, RARITY_SECRET_RARE},
+	{ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SALVAGE, RARITY_SUPER_RARE},
+	{ITEM_CARD_HEAVY_STORM, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RECKLESS_GREED, RARITY_SUPER_RARE},
+	{ITEM_CARD_BOTTOMLESS_TRAP_HOLE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_TRAP_HOLE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_KURIBOH, RARITY_SUPER_RARE},
+	{ITEM_CARD_DARK_HOLE, RARITY_SECRET_RARE},
+	{ITEM_CARD_BOWGANIAN, RARITY_SUPER_RARE},
+	{ITEM_CARD_NECROVALLEY, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DUST_TORNADO, RARITY_ULTRA_RARE},
+	{ITEM_CARD_IMPERIAL_ORDER, RARITY_SECRET_RARE},
+	{ITEM_CARD_TOON_GEMINI_ELF, RARITY_RARE},
+	{ITEM_CARD_MOTHER_GRIZZLY, RARITY_SECRET_RARE},
+	{ITEM_CARD_MECHANICALCHASER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GRAVEKEEPER_S_GUARD, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SPIRIT_REAPER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RIGHT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_SECRET_RARE},
+	{ITEM_CARD_MONSTER_REINCARNATION, RARITY_RARE},
+	{ITEM_CARD_ARSENAL_SUMMONER, RARITY_COMMON},
+	{ITEM_CARD_NIMBLE_MOMONGA, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_SUPER_RARE},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_SECRET_RARE},
+	{ITEM_CARD_COMMAND_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_MYSTIC_SWORDSMAN_LV4, RARITY_COMMON},
+	{ITEM_CARD_AQUA_MADOOR, RARITY_SECRET_RARE},
+	{ITEM_CARD_BRAIN_CONTROL, RARITY_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGIC_CURTAIN, RARITY_RARE},
+	{ITEM_CARD_BIG_SHIELD_GARDNA, RARITY_SECRET_RARE},
+	{ITEM_CARD_GRAVEKEEPER_S_WATCHER, RARITY_COMMON},
+	{ITEM_CARD_FLYING_KAMAKIRI_1, RARITY_SECRET_RARE},
+	{ITEM_CARD_RIGHT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_SECRET_RARE},
+	{ITEM_CARD_LEVEL_LIMIT_AREA_B, RARITY_COMMON},
+	{ITEM_CARD_MAGIC_JAMMER, RARITY_SECRET_RARE},
+	{ITEM_CARD_LIMITER_REMOVAL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_D_D_WARRIOR_LADY, RARITY_RARE},
+	{ITEM_CARD_BLACK_ILLUSION_RITUAL, RARITY_RARE},
+	{ITEM_CARD_DRAGGED_DOWN_INTO_THE_GRAVE, RARITY_SUPER_RARE},
+	{ITEM_CARD_RAIGEKI_BREAK, RARITY_SUPER_RARE},
+	{ITEM_CARD_GIANT_RAT, RARITY_SECRET_RARE},
+	{ITEM_CARD_SUMMONED_SKULL, RARITY_SUPER_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_SECRET_RARE},
+	{ITEM_CARD_KYCOO_THE_GHOST_DESTROYER, RARITY_SECRET_RARE},
+	{ITEM_CARD_GRAVEKEEPER_S_SPY, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_SECRET_RARE},
+	{ITEM_CARD_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_SECRET_RARE},
+	{ITEM_CARD_BUSTER_BLADER, RARITY_SECRET_RARE},
+	{ITEM_CARD_MESSENGER_OF_PEACE, RARITY_COMMON},
+	{ITEM_CARD_MIRAGE_OF_NIGHTMARE, RARITY_SECRET_RARE},
+	{ITEM_CARD_HAND_OF_NEPHTHYS, RARITY_RARE},
+	{ITEM_CARD_GRACEFUL_CHARITY, RARITY_SECRET_RARE},
+	{ITEM_CARD_SAKURETSU_ARMOR, RARITY_SUPER_RARE},
+	{ITEM_CARD_SINISTER_SERPENT, RARITY_SECRET_RARE},
+	{ITEM_CARD_CHAOS_SORCERER, RARITY_SUPER_RARE},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_ARCHFIEND_OF_GILFER, RARITY_RARE},
+	{ITEM_CARD_GRAVEKEEPER_S_SPEAR_SOLDIER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_TOON_DARK_MAGICIAN_GIRL, RARITY_RARE},
+	{ITEM_CARD_CHAIN_DISAPPEARANCE, RARITY_COMMON},
+	{ITEM_CARD_CATAPULT_TURTLE, RARITY_RARE},
+	{ITEM_CARD_LEVIA_DRAGON_DAEDALUS, RARITY_SECRET_RARE},
+	{ITEM_CARD_SANGAN, RARITY_SECRET_RARE},
+	{ITEM_CARD_RELINQUISHED, RARITY_RARE},
+	{ITEM_CARD_ROYAL_DECREE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_EMISSARY_OF_THE_AFTERLIFE, RARITY_COMMON},
+	{ITEM_CARD_FISSURE, RARITY_SUPER_RARE},
+	{ITEM_CARD_PHOENIX_WING_WIND_BLAST, RARITY_SECRET_RARE},
+	{ITEM_CARD_THE_EARTH_HEX_SEALED_FUSION, RARITY_COMMON},
+	{ITEM_CARD_THREATENING_ROAR, RARITY_SECRET_RARE},
+	{ITEM_CARD_BLUE_EYES_TOON_DRAGON, RARITY_RARE},
+	{ITEM_CARD_EXODIA_THE_FORBIDDEN_ONE, RARITY_SECRET_RARE},
+	{ITEM_CARD_TOON_CANNON_SOLDIER, RARITY_RARE},
+	{ITEM_CARD_GIANT_SOLDIER_OF_STONE, RARITY_COMMON},
+	{ITEM_CARD_GAIA_THE_FIERCE_KNIGHT, RARITY_SUPER_RARE},
+	{ITEM_CARD_RAIGEKI, RARITY_SECRET_RARE},
+	{ITEM_CARD_SHINING_ANGEL, RARITY_SECRET_RARE},
+	{ITEM_CARD_TOON_GOBLIN_ATTACK_FORCE, RARITY_RARE},
+	{ITEM_CARD_MYSTIC_SWORDSMAN_LV2, RARITY_COMMON},
+	{ITEM_CARD_TOON_TABLE_OF_CONTENTS, RARITY_RARE},
+	{ITEM_CARD_MAGICAL_DIMENSION, RARITY_COMMON},
+	{ITEM_CARD_MIND_CONTROL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_PYRAMID_TURTLE, RARITY_SECRET_RARE},
+	{ITEM_CARD_KING_OF_THE_SWAMP, RARITY_COMMON},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_EXCHANGE, RARITY_SECRET_RARE},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_SECRET_RARE},
+	{ITEM_CARD_MAN_EATER_BUG, RARITY_COMMON},
+	{ITEM_CARD_TOON_MASKED_SORCERER, RARITY_RARE},
+	{ITEM_CARD_LEFT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_SECRET_RARE},
+	{ITEM_CARD_THE_DARK_HEX_SEALED_FUSION, RARITY_COMMON},
+	{ITEM_CARD_D_D_ASSAILANT, RARITY_RARE},
+	{ITEM_CARD_UPSTART_GOBLIN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_HORN_OF_HEAVEN, RARITY_SECRET_RARE},
+	{ITEM_CARD_POT_OF_GREED, RARITY_SECRET_RARE},
+	{ITEM_CARD_GRAVITY_BIND, RARITY_SUPER_RARE},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_SECRET_RARE},
+	{ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGLegendaryCollection4JoeysWorld[] =
+{
+	{ITEM_CARD_BLUE_FLAME_SWORDSMAN, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGLegendaryCollection4JoeysWorldMegaPack[] =
+{
+	{ITEM_CARD_LABYRINTH_TANK, RARITY_COMMON},
+	{ITEM_CARD_TORRENTIAL_TRIBUTE, RARITY_SECRET_RARE},
+	{ITEM_CARD_DROP_OFF, RARITY_COMMON},
+	{ITEM_CARD_FIBER_JAR, RARITY_COMMON},
+	{ITEM_CARD_NEWDORIA, RARITY_COMMON},
+	{ITEM_CARD_SOLEMN_JUDGMENT, RARITY_SECRET_RARE},
+	{ITEM_CARD_SCARR_SCOUT_OF_DARK_WORLD, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_WYVERN, RARITY_COMMON},
+	{ITEM_CARD_DARK_WORLD_LIGHTNING, RARITY_SECRET_RARE},
+	{ITEM_CARD_JIRAI_GUMO, RARITY_COMMON},
+	{ITEM_CARD_GOBLIN_ATTACK_FORCE, RARITY_COMMON},
+	{ITEM_CARD_VAMPIRE_LORD, RARITY_COMMON},
+	{ITEM_CARD_BEIIGE_VANGUARD_OF_DARK_WORLD, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MARAUDING_CAPTAIN, RARITY_COMMON},
+	{ITEM_CARD_TOON_SUMMONED_SKULL, RARITY_RARE},
+	{ITEM_CARD_HARPIE_S_FEATHER_DUSTER, RARITY_SECRET_RARE},
+	{ITEM_CARD_GATLING_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_SCAPEGOAT, RARITY_SECRET_RARE},
+	{ITEM_CARD_HEAVY_STORM, RARITY_ULTRA_RARE},
+	{ITEM_CARD_NIGHTMARE_WHEEL, RARITY_COMMON},
+	{ITEM_CARD_BOTTOMLESS_TRAP_HOLE, RARITY_SECRET_RARE},
+	{ITEM_CARD_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_DARK_HOLE, RARITY_SECRET_RARE},
+	{ITEM_CARD_NECROVALLEY, RARITY_COMMON},
+	{ITEM_CARD_SPELL_REPRODUCTION, RARITY_COMMON},
+	{ITEM_CARD_HYPER_HAMMERHEAD, RARITY_COMMON},
+	{ITEM_CARD_BLACK_DRAGON_S_CHICK, RARITY_SUPER_RARE},
+	{ITEM_CARD_NEKO_MANE_KING, RARITY_COMMON},
+	{ITEM_CARD_BEAST_OF_TALWAR, RARITY_RARE},
+	{ITEM_CARD_GILASAURUS, RARITY_COMMON},
+	{ITEM_CARD_PREMATURE_BURIAL, RARITY_COMMON},
+	{ITEM_CARD_FLAME_SWORDSMAN, RARITY_COMMON},
+	{ITEM_CARD_SECOND_COIN_TOSS, RARITY_COMMON},
+	{ITEM_CARD_LESSER_FIEND, RARITY_RARE},
+	{ITEM_CARD_BOOK_OF_LIFE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SPIRIT_REAPER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DUNAMES_DARK_WITCH, RARITY_ULTRA_RARE},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SASUKE_SAMURAI, RARITY_COMMON},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_SECRET_RARE},
+	{ITEM_CARD_BLOWBACK_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_BLACK_SKULL_DRAGON, RARITY_RARE},
+	{ITEM_CARD_MAGIC_JAMMER, RARITY_COMMON},
+	{ITEM_CARD_SILLVA_WARLORD_OF_DARK_WORLD, RARITY_SECRET_RARE},
+	{ITEM_CARD_GIANT_TRUNADE, RARITY_COMMON},
+	{ITEM_CARD_SUMMONED_SKULL, RARITY_RARE},
+	{ITEM_CARD_THE_FIEND_MEGACYBER, RARITY_COMMON},
+	{ITEM_CARD_JINZO, RARITY_RARE},
+	{ITEM_CARD_GRAVEKEEPER_S_SPY, RARITY_SECRET_RARE},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_SECRET_RARE},
+	{ITEM_CARD_RED_EYES_ZOMBIE_DRAGON, RARITY_RARE},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SNOWW_UNLIGHT_OF_DARK_WORLD, RARITY_SECRET_RARE},
+	{ITEM_CARD_BROWW_HUNTSMAN_OF_DARK_WORLD, RARITY_SECRET_RARE},
+	{ITEM_CARD_INJECTION_FAIRY_LILY, RARITY_COMMON},
+	{ITEM_CARD_POT_OF_AVARICE, RARITY_SECRET_RARE},
+	{ITEM_CARD_BLACK_PENDANT, RARITY_COMMON},
+	{ITEM_CARD_CYBER_HARPIE_LADY, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RAIGEKI, RARITY_SECRET_RARE},
+	{ITEM_CARD_METAL_REFLECT_SLIME, RARITY_COMMON},
+	{ITEM_CARD_PYRAMID_TURTLE, RARITY_SUPER_RARE},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_SUPER_RARE},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_SECRET_RARE},
+	{ITEM_CARD_ROULETTE_BARREL, RARITY_COMMON},
+	{ITEM_CARD_MAKYURA_THE_DESTRUCTOR, RARITY_COMMON},
+	{ITEM_CARD_RYU_KOKKI, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_DARKNESS_METAL_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_BRRON_MAD_KING_OF_DARK_WORLD, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_HORN_OF_HEAVEN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_POT_OF_GREED, RARITY_SECRET_RARE},
+	{ITEM_CARD_GRAVITY_BIND, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGLegendaryCollection5Ds[] =
+{
+};
+
+const struct PackContents gTCGLegendaryCollection5DsMegaPack[] =
+{
+};
+
+const struct PackContents gTCGLegendaryCollectionKaiba[] =
+{
+};
+
+const struct PackContents gTCGLegendaryCollectionKaibaMegaPack[] =
+{
+	{ITEM_CARD_PROTECTOR_WITH_EYES_OF_BLUE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_KAIBAMAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SOUL_EXCHANGE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RING_OF_DESTRUCTION, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MAIDEN_WITH_EYES_OF_BLUE, RARITY_SECRET_RARE},
+	{ITEM_CARD_VAMPIRE_LORD, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RIDER_OF_THE_STORM_WINDS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_THE_WHITE_STONE_OF_LEGEND, RARITY_SECRET_RARE},
+	{ITEM_CARD_CRUSH_CARD_VIRUS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SPELL_REPRODUCTION, RARITY_ULTRA_RARE},
+	{ITEM_CARD_JUST_DESSERTS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_JUDGE_MAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SHRINK, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SAGE_WITH_EYES_OF_BLUE, RARITY_SECRET_RARE},
+	{ITEM_CARD_GIANT_RED_SEASNAKE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_THUNDER_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CHAIN_DISAPPEARANCE, RARITY_SECRET_RARE},
+	{ITEM_CARD_MASTER_WITH_EYES_OF_BLUE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_PRIESTESS_WITH_EYES_OF_BLUE, RARITY_SECRET_RARE},
+	{ITEM_CARD_DELINQUENT_DUO, RARITY_SECRET_RARE},
+	{ITEM_CARD_THE_WHITE_STONE_OF_ANCIENTS, RARITY_SECRET_RARE},
+	{ITEM_CARD_RAIGEKI, RARITY_ULTRA_RARE},
+	{ITEM_CARD_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP, RARITY_ULTRA_RARE},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_SECRET_RARE},
+	{ITEM_CARD_VORSE_RAIDER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLUE_EYES_ULTIMATE_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_TERRAFORMING, RARITY_SECRET_RARE},
+	{ITEM_CARD_X_HEAD_CANNON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DECK_DEVASTATION_VIRUS, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGLegendaryCollection25thAnniversaryEdition[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_QUARTER_CENTURY_SECRET_RARE},
+};
+
+const struct PackContents gTCGLegendaryCollectionGameboardEdition[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGLegendaryDecksII[] =
+{
+	{ITEM_CARD_PROTECTOR_WITH_EYES_OF_BLUE, RARITY_COMMON},
+	{ITEM_CARD_KAIBAMAN, RARITY_COMMON},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_MAGICIAN_S_CIRCLE, RARITY_COMMON},
+	{ITEM_CARD_TORRENTIAL_TRIBUTE, RARITY_COMMON},
+	{ITEM_CARD_BATTLE_OX, RARITY_COMMON},
+	{ITEM_CARD_MAGICIAN_S_VALKYRIA, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_COMMON},
+	{ITEM_CARD_MAGIC_CYLINDER, RARITY_COMMON},
+	{ITEM_CARD_GOBLIN_ATTACK_FORCE, RARITY_COMMON},
+	{ITEM_CARD_MAIDEN_WITH_EYES_OF_BLUE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_LEFT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_COMMON},
+	{ITEM_CARD_RIDER_OF_THE_STORM_WINDS, RARITY_COMMON},
+	{ITEM_CARD_SCAPEGOAT, RARITY_COMMON},
+	{ITEM_CARD_THE_WHITE_STONE_OF_LEGEND, RARITY_COMMON},
+	{ITEM_CARD_RIGHT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REINCARNATION, RARITY_COMMON},
+	{ITEM_CARD_COMMAND_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_BIG_SHIELD_GARDNA, RARITY_COMMON},
+	{ITEM_CARD_KEEPER_OF_THE_SHRINE, RARITY_COMMON},
+	{ITEM_CARD_RIGHT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_COMMON},
+	{ITEM_CARD_SHRINK, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_JINZO, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_RETRO_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_BLADE_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_COMMON},
+	{ITEM_CARD_BUSTER_BLADER, RARITY_COMMON},
+	{ITEM_CARD_MESSENGER_OF_PEACE, RARITY_COMMON},
+	{ITEM_CARD_SANGAN, RARITY_COMMON},
+	{ITEM_CARD_MASTER_WITH_EYES_OF_BLUE, RARITY_COMMON},
+	{ITEM_CARD_EXODIA_THE_FORBIDDEN_ONE, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_THE_WHITE_STONE_OF_ANCIENTS, RARITY_COMMON},
+	{ITEM_CARD_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP, RARITY_COMMON},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_COMMON},
+	{ITEM_CARD_VORSE_RAIDER, RARITY_COMMON},
+	{ITEM_CARD_BLUE_EYES_ULTIMATE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MAGICAL_DIMENSION, RARITY_COMMON},
+	{ITEM_CARD_KING_OF_THE_SWAMP, RARITY_COMMON},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_COMMON},
+	{ITEM_CARD_THE_BLACK_STONE_OF_LEGEND, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+	{ITEM_CARD_BLUE_FLAME_SWORDSMAN, RARITY_COMMON},
+	{ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_LEFT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_COMMON},
+	{ITEM_CARD_BLACK_METAL_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_GRAVITY_BIND, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGLegendaryDragonDecks[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_SKILLED_DARK_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_COMMON},
+	{ITEM_CARD_DARK_PALADIN, RARITY_COMMON},
+	{ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR, RARITY_COMMON},
+	{ITEM_CARD_CRUSH_CARD_VIRUS, RARITY_COMMON},
+	{ITEM_CARD_CYBER_DRAGON_ZWEI, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_COMMON},
+	{ITEM_CARD_CYBER_DRAGON_DREI, RARITY_COMMON},
+	{ITEM_CARD_ARMORED_CYBERN, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGIC_CURTAIN, RARITY_COMMON},
+	{ITEM_CARD_BIG_SHIELD_GARDNA, RARITY_COMMON},
+	{ITEM_CARD_LIMITER_REMOVAL, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_MAGICIAN_S_ROD, RARITY_COMMON},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_COMMON},
+	{ITEM_CARD_APPRENTICE_ILLUSION_MAGICIAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_TERRAFORMING, RARITY_COMMON},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_COMMON},
+	{ITEM_CARD_MAGICIAN_S_ROBE, RARITY_COMMON},
+	{ITEM_CARD_CYBER_END_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_CYBER_ELTANIN, RARITY_COMMON},
+	{ITEM_CARD_CYBER_TWIN_DRAGON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGLegendaryDuelists[] =
+{
+	{ITEM_CARD_SPHERE_KURIBOH, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REINCARNATION, RARITY_COMMON},
+	{ITEM_CARD_AMAZONESS_ARCHER, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_RETRO_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_GEARFRIED_THE_RED_EYES_IRON_KNIGHT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_YOMI_SHIP, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_BABY_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_A_LEGENDARY_OCEAN, RARITY_COMMON},
+	{ITEM_CARD_HYDROGEDDON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGLegendaryDuelistsAncientMillennium[] =
+{
+	{ITEM_CARD_ANCIENT_GEAR_GOLEM_ULTIMATE_POUND, RARITY_COMMON},
+	{ITEM_CARD_PINCH_HOPPER, RARITY_COMMON},
+	{ITEM_CARD_LIMITER_REMOVAL, RARITY_COMMON},
+	{ITEM_CARD_BLACK_ILLUSION_RITUAL, RARITY_COMMON},
+	{ITEM_CARD_THOUSAND_EYES_RESTRICT, RARITY_COMMON},
+	{ITEM_CARD_RELINQUISHED, RARITY_COMMON},
+};
+
+const struct PackContents gTCGLegendaryDuelistsDuelsFromtheDeep[] =
+{
+	{ITEM_CARD_TORRENTIAL_TRIBUTE, RARITY_COMMON},
+	{ITEM_CARD_LEVIA_DRAGON_DAEDALUS, RARITY_RARE},
+};
+
+const struct PackContents gTCGLegendaryDuelistsImmortalDestiny[] =
+{
+	{ITEM_CARD_DOOMCALIBER_KNIGHT, RARITY_COMMON},
+};
+
+const struct PackContents gTCGLegendaryDuelistsMagicalHero[] =
+{
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_COMMON},
+	{ITEM_CARD_MAGICIAN_OF_DARK_ILLUSION, RARITY_RARE},
+	{ITEM_CARD_MAGICIANS_SOULS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MAGICIAN_S_ROD, RARITY_COMMON},
+	{ITEM_CARD_APPRENTICE_ILLUSION_MAGICIAN, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGLegendaryDuelistsRageofRa[] =
+{
+	{ITEM_CARD_BRAIN_CONTROL, RARITY_COMMON},
+	{ITEM_CARD_JINZO, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_COMMON},
+	{ITEM_CARD_METAL_REFLECT_SLIME, RARITY_COMMON},
+	{ITEM_CARD_MIND_CONTROL, RARITY_COMMON},
+	{ITEM_CARD_MAKYURA_THE_DESTRUCTOR, RARITY_RARE},
+};
+
+const struct PackContents gTCGLegendaryDuelistsSeason1[] =
+{
+	{ITEM_CARD_RED_EYES_WYVERN, RARITY_COMMON},
+	{ITEM_CARD_TOON_CYBER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_TOON_SUMMONED_SKULL, RARITY_COMMON},
+	{ITEM_CARD_ANCIENT_GEAR_GOLEM_ULTIMATE_POUND, RARITY_COMMON},
+	{ITEM_CARD_BLACK_DRAGON_S_CHICK, RARITY_COMMON},
+	{ITEM_CARD_TOON_GEMINI_ELF, RARITY_COMMON},
+	{ITEM_CARD_BLACK_SKULL_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_BLACK_ILLUSION_RITUAL, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_RETRO_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_MALEFIC_RED_EYES_BLACK_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_GEARFRIED_THE_RED_EYES_IRON_KNIGHT, RARITY_SECRET_RARE},
+	{ITEM_CARD_THOUSAND_EYES_RESTRICT, RARITY_COMMON},
+	{ITEM_CARD_TOON_DARK_MAGICIAN_GIRL, RARITY_COMMON},
+	{ITEM_CARD_RELINQUISHED, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_BABY_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_BLUE_EYES_TOON_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_TOON_CANNON_SOLDIER, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_A_LEGENDARY_OCEAN, RARITY_COMMON},
+	{ITEM_CARD_TOON_GOBLIN_ATTACK_FORCE, RARITY_COMMON},
+	{ITEM_CARD_TOON_TABLE_OF_CONTENTS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_THE_BLACK_STONE_OF_LEGEND, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_TOON_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_TOON_MASKED_SORCERER, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_DARKNESS_METAL_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_BLACK_METAL_DRAGON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGLegendaryDuelistsSeason2[] =
+{
+	{ITEM_CARD_PROTECTOR_WITH_EYES_OF_BLUE, RARITY_COMMON},
+	{ITEM_CARD_KAIBAMAN, RARITY_COMMON},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MALEFIC_BLUE_EYES_WHITE_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_MAIDEN_WITH_EYES_OF_BLUE, RARITY_COMMON},
+	{ITEM_CARD_THE_WHITE_STONE_OF_LEGEND, RARITY_COMMON},
+	{ITEM_CARD_SAGE_WITH_EYES_OF_BLUE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MASTER_WITH_EYES_OF_BLUE, RARITY_COMMON},
+	{ITEM_CARD_PRIESTESS_WITH_EYES_OF_BLUE, RARITY_COMMON},
+	{ITEM_CARD_CYBER_HARPIE_LADY, RARITY_COMMON},
+	{ITEM_CARD_THE_WHITE_STONE_OF_ANCIENTS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLUE_EYES_ULTIMATE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLUE_EYES_ALTERNATIVE_WHITE_DRAGON, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGLegendaryDuelistsSeason3[] =
+{
+	{ITEM_CARD_MAGICIAN_S_CIRCLE, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_JOWGEN_THE_SPIRITUALIST, RARITY_COMMON},
+	{ITEM_CARD_GILTIA_THE_D_KNIGHT_SOUL_SPEAR, RARITY_SECRET_RARE},
+	{ITEM_CARD_MAGICIAN_OF_DARK_ILLUSION, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_ELF_WHITE_LIGHTNING, RARITY_SECRET_RARE},
+	{ITEM_CARD_MAGICIANS_SOULS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MAGICIAN_S_ROD, RARITY_COMMON},
+	{ITEM_CARD_SANGAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_APPRENTICE_ILLUSION_MAGICIAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MAGICIAN_S_ROBE, RARITY_COMMON},
+	{ITEM_CARD_DOOMCALIBER_KNIGHT, RARITY_COMMON},
+};
+
+const struct PackContents gTCGLegendaryDuelistsSistersoftheRose[] =
+{
+};
+
+const struct PackContents gTCGLegendaryDuelistsSoulburningVolcano[] =
+{
+};
+
+const struct PackContents gTCGLegendaryDuelistsSynchroStorm[] =
+{
+};
+
+const struct PackContents gTCGLegendaryDuelistsWhiteDragonAbyss[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_MAIDEN_WITH_EYES_OF_BLUE, RARITY_COMMON},
+	{ITEM_CARD_THE_WHITE_STONE_OF_LEGEND, RARITY_COMMON},
+	{ITEM_CARD_CYBER_DRAGON_DREI, RARITY_COMMON},
+	{ITEM_CARD_CYBER_END_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_CYBER_TWIN_DRAGON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGLegendaryHeroDecks[] =
+{
+	{ITEM_CARD_ELEMENTAL_HERO_BLAZEMAN, RARITY_COMMON},
+	{ITEM_CARD_DARK_HOLE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_HOLE, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_COMMON},
+	{ITEM_CARD_TERRAFORMING, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGLightandDarknessPowerPack[] =
+{
+};
+
+const struct PackContents gTCGLightofDestruction[] =
+{
+	{ITEM_CARD_SUBSTITOAD, RARITY_RARE},
+};
+
+const struct PackContents gTCGLightofDestructionSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGLightofDestructionSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGLightningOverdrive[] =
+{
+	{ITEM_CARD_TRAPTRIX_VESICULO, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGLightningOverdrivePremierepromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGLimitedEdition1[] =
+{
+};
+
+const struct PackContents gTCGLordoftheTachyonGalaxy[] =
+{
+};
+
+const struct PackContents gTCGLordoftheTachyonGalaxySneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGLostSanctuaryStructureDeck[] =
+{
+	{ITEM_CARD_AIRKNIGHT_PARSHATH, RARITY_COMMON},
+	{ITEM_CARD_TORRENTIAL_TRIBUTE, RARITY_COMMON},
+	{ITEM_CARD_SMASHING_GROUND, RARITY_COMMON},
+	{ITEM_CARD_SOLEMN_JUDGMENT, RARITY_COMMON},
+	{ITEM_CARD_RETURN_FROM_THE_DIFFERENT_DIMENSION, RARITY_COMMON},
+	{ITEM_CARD_SHINING_ANGEL, RARITY_COMMON},
+	{ITEM_CARD_TERRAFORMING, RARITY_COMMON},
+};
+
+const struct PackContents gTCGMachinaMayhemStructureDeck[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_CEASEFIRE, RARITY_COMMON},
+	{ITEM_CARD_CIPHER_SOLDIER, RARITY_COMMON},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_COMMON},
+	{ITEM_CARD_ARMORED_CYBERN, RARITY_COMMON},
+	{ITEM_CARD_SHRINK, RARITY_COMMON},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_COMMON},
+};
+
+const struct PackContents gTCGMachineReactorStructureDeck[] =
+{
+	{ITEM_CARD_LIMITER_REMOVAL, RARITY_COMMON},
+	{ITEM_CARD_GIGANTES, RARITY_COMMON},
+	{ITEM_CARD_TERRAFORMING, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+};
+
+const struct PackContents gTCGMagicRuler[] =
+{
+	{ITEM_CARD_MYSTIC_TOMATO, RARITY_RARE},
+	{ITEM_CARD_PAINFUL_CHOICE, RARITY_SUPER_RARE},
+	{ITEM_CARD_GIANT_GERM, RARITY_RARE},
+	{ITEM_CARD_SONIC_BIRD, RARITY_COMMON},
+	{ITEM_CARD_BANISHER_OF_THE_LIGHT, RARITY_SUPER_RARE},
+	{ITEM_CARD_TOON_SUMMONED_SKULL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SENJU_OF_THE_THOUSAND_HANDS, RARITY_RARE},
+	{ITEM_CARD_RUSH_RECKLESSLY, RARITY_RARE},
+	{ITEM_CARD_MOTHER_GRIZZLY, RARITY_RARE},
+	{ITEM_CARD_NIMBLE_MOMONGA, RARITY_RARE},
+	{ITEM_CARD_PENGUIN_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_CYBER_JAR, RARITY_RARE},
+	{ITEM_CARD_ELECTRIC_SNAKE, RARITY_COMMON},
+	{ITEM_CARD_THE_FORCEFUL_SENTRY, RARITY_ULTRA_RARE},
+	{ITEM_CARD_FLYING_KAMAKIRI_1, RARITY_RARE},
+	{ITEM_CARD_BLACK_ILLUSION_RITUAL, RARITY_SUPER_RARE},
+	{ITEM_CARD_GIANT_TRUNADE, RARITY_SUPER_RARE},
+	{ITEM_CARD_GIANT_RAT, RARITY_RARE},
+	{ITEM_CARD_SNATCH_STEAL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CHAIN_ENERGY, RARITY_COMMON},
+	{ITEM_CARD_MESSENGER_OF_PEACE, RARITY_SUPER_RARE},
+	{ITEM_CARD_RISING_AIR_CURRENT, RARITY_SHORT_PRINT},
+	{ITEM_CARD_RELINQUISHED, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLACK_PENDANT, RARITY_SUPER_RARE},
+	{ITEM_CARD_BLUE_EYES_TOON_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_DELINQUENT_DUO, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SHINING_ANGEL, RARITY_RARE},
+	{ITEM_CARD_SPEAR_CRETIN, RARITY_COMMON},
+	{ITEM_CARD_CONFISCATION, RARITY_SUPER_RARE},
+	{ITEM_CARD_AXE_OF_DESPAIR, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GAIA_POWER, RARITY_SHORT_PRINT},
+	{ITEM_CARD_MEGAMORPH, RARITY_ULTRA_RARE},
+	{ITEM_CARD_UPSTART_GOBLIN, RARITY_COMMON},
+	{ITEM_CARD_MINAR, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGMagiciansForce[] =
+{
+	{ITEM_CARD_SKILLED_DARK_MAGICIAN, RARITY_SUPER_RARE},
+	{ITEM_CARD_BIG_BANG_SHOT, RARITY_RARE},
+	{ITEM_CARD_POISON_OF_THE_OLD_MAN, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_SECRET_RARE},
+	{ITEM_CARD_DARK_PALADIN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_SCORPION_CLIFF_THE_TRAP_REMOVER, RARITY_COMMON},
+	{ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DES_DENDLE, RARITY_COMMON},
+	{ITEM_CARD_NEKO_MANE_KING, RARITY_COMMON},
+	{ITEM_CARD_SKILLED_WHITE_MAGICIAN, RARITY_SUPER_RARE},
+	{ITEM_CARD_DARK_BLADE, RARITY_RARE},
+	{ITEM_CARD_MIRACLE_RESTORING, RARITY_COMMON},
+	{ITEM_CARD_SPELL_CANCELLER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SECRET_BARREL, RARITY_SUPER_SHORT_PRINT},
+	{ITEM_CARD_DES_KOALA, RARITY_RARE},
+	{ITEM_CARD_TRIBE_INFECTING_VIRUS, RARITY_SUPER_RARE},
+	{ITEM_CARD_WHITE_DRAGON_RITUAL, RARITY_COMMON},
+	{ITEM_CARD_OPPRESSED_PEOPLE, RARITY_COMMON},
+	{ITEM_CARD_PALADIN_OF_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GIANT_ORC, RARITY_COMMON},
+	{ITEM_CARD_ROYAL_MAGICAL_LIBRARY, RARITY_COMMON},
+	{ITEM_CARD_MAGICAL_MERCHANT, RARITY_COMMON},
+	{ITEM_CARD_LUSTER_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MAGICAL_SCIENTIST, RARITY_COMMON},
+	{ITEM_CARD_D_D_CRAZY_BEAST, RARITY_RARE},
+	{ITEM_CARD_PITCH_BLACK_POWER_STONE, RARITY_SHORT_PRINT},
+	{ITEM_CARD_ROULETTE_BARREL, RARITY_COMMON},
+	{ITEM_CARD_WAVE_MOTION_CANNON, RARITY_COMMON},
+	{ITEM_CARD_X_HEAD_CANNON, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGMagnificentMavens[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE_PHARAOH_S_RARE_},
+	{ITEM_CARD_CHANGE_OF_HEART, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CHANGE_OF_HEART, RARITY_ULTRA_RARE_PHARAOH_S_RARE_},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_ULTRA_RARE_PHARAOH_S_RARE_},
+	{ITEM_CARD_HARPIE_S_FEATHER_DUSTER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SCAPEGOAT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_NECROVALLEY, RARITY_ULTRA_RARE_PHARAOH_S_RARE_},
+	{ITEM_CARD_EXCHANGE_OF_THE_SPIRIT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_ULTRA_RARE_PHARAOH_S_RARE_},
+	{ITEM_CARD_YATA_GARASU, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DOOM_DOZER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_ULTRA_RARE_PHARAOH_S_RARE_},
+	{ITEM_CARD_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SKILL_DRAIN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_ULTRA_RARE_PHARAOH_S_RARE_},
+	{ITEM_CARD_A_LEGENDARY_OCEAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_METAL_REFLECT_SLIME, RARITY_ULTRA_RARE},
+	{ITEM_CARD_ANTI_SPELL_FRAGRANCE, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGMasterCollectionVolume1[] =
+{
+	{ITEM_CARD_THOUSAND_EYES_RESTRICT, RARITY_SECRET_RARE},
+	{ITEM_CARD_RELINQUISHED, RARITY_SECRET_RARE},
+	{ITEM_CARD_EXODIA_THE_FORBIDDEN_ONE, RARITY_SECRET_RARE},
+	{ITEM_CARD_DARK_RULER_HA_DES, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGMasterCollectionVolume2[] =
+{
+	{ITEM_CARD_GUARDIAN_SPHINX, RARITY_SECRET_RARE},
+	{ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR, RARITY_SECRET_RARE},
+	{ITEM_CARD_BLOWBACK_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGMasterofPendulumStructureDeck[] =
+{
+	{ITEM_CARD_TORRENTIAL_TRIBUTE, RARITY_COMMON},
+	{ITEM_CARD_SCAPEGOAT, RARITY_COMMON},
+	{ITEM_CARD_FUSILIER_DRAGON_THE_DUAL_MODE_BEAST, RARITY_COMMON},
+	{ITEM_CARD_TERRAFORMING, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGMasterpieceSeriesPlatinumBlueEyesWhiteDragon[] =
+{
+};
+
+const struct PackContents gTCGMattelActionFigurepromotionalcardsSeries1[] =
+{
+};
+
+const struct PackContents gTCGMattelActionFigurepromotionalcardsSeries2[] =
+{
+	{ITEM_CARD_CYBER_END_DRAGON, RARITY_NORMAL_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGMattelActionFigurepromotionalcardsSeries3[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_ELEMENTAL_HERO_CLAYMAN, RARITY_NORMAL_PARALLEL_RARE},
+	{ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN, RARITY_NORMAL_PARALLEL_RARE},
+};
+
+const struct PackContents gTCGMaximumCrisis[] =
+{
+	{ITEM_CARD_ARIEL_PRIESTESS_OF_THE_NEKROZ, RARITY_RARE},
+};
+
+const struct PackContents gTCGMaximumCrisisSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGMaximumCrisisSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGMaximumGold[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_PREMIUM_GOLD_RARE},
+	{ITEM_CARD_DRAGON_S_MIRROR, RARITY_RARE},
+	{ITEM_CARD_SOLEMN_JUDGMENT, RARITY_PREMIUM_GOLD_RARE},
+	{ITEM_CARD_HARPIE_S_FEATHER_DUSTER, RARITY_PREMIUM_GOLD_RARE},
+	{ITEM_CARD_GAIA_THE_DRAGON_CHAMPION, RARITY_PREMIUM_GOLD_RARE},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_PREMIUM_GOLD_RARE},
+	{ITEM_CARD_D_D_WARRIOR_LADY, RARITY_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_PREMIUM_GOLD_RARE},
+	{ITEM_CARD_TRAPTRIX_DIONAEA, RARITY_RARE},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_PREMIUM_GOLD_RARE},
+	{ITEM_CARD_MAGE_POWER, RARITY_RARE},
+	{ITEM_CARD_TRAPTRIX_MYRMELEO, RARITY_RARE},
+	{ITEM_CARD_TRAPTRIX_MANTIS, RARITY_RARE},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_PREMIUM_GOLD_RARE},
+	{ITEM_CARD_THE_WHITE_STONE_OF_ANCIENTS, RARITY_RARE},
+	{ITEM_CARD_BUSTER_BLADER_THE_DESTRUCTION_SWORDMASTER, RARITY_RARE},
+	{ITEM_CARD_TERRAFORMING, RARITY_RARE},
+	{ITEM_CARD_MIND_CONTROL, RARITY_RARE},
+	{ITEM_CARD_GRAPHA_DRAGON_LORD_OF_DARK_WORLD, RARITY_RARE},
+};
+
+const struct PackContents gTCGMaximumGoldElDorado[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_PREMIUM_GOLD_RARE},
+	{ITEM_CARD_TORRENTIAL_TRIBUTE, RARITY_PREMIUM_GOLD_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_PREMIUM_GOLD_RARE},
+	{ITEM_CARD_EXODIA_THE_FORBIDDEN_ONE, RARITY_PREMIUM_GOLD_RARE},
+	{ITEM_CARD_RESCUE_CAT, RARITY_PREMIUM_GOLD_RARE},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_PREMIUM_GOLD_RARE},
+	{ITEM_CARD_RAIGEKI, RARITY_PREMIUM_GOLD_RARE},
+	{ITEM_CARD_MAGICAL_DIMENSION, RARITY_PREMIUM_GOLD_RARE},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_PREMIUM_GOLD_RARE},
+	{ITEM_CARD_RED_EYES_DARKNESS_METAL_DRAGON, RARITY_PREMIUM_GOLD_RARE},
+	{ITEM_CARD_UPSTART_GOBLIN, RARITY_RARE},
+};
+
+const struct PackContents gTCGMazeofMemories[] =
+{
+	{ITEM_CARD_SOLEMN_JUDGMENT, RARITY_SUPER_RARE},
+	{ITEM_CARD_SOLEMN_JUDGMENT, RARITY_COLLECTOR_S_RARE},
+	{ITEM_CARD_ROYAL_DECREE, RARITY_RARE},
+	{ITEM_CARD_RED_EYES_SOUL, RARITY_RARE},
+};
+
+const struct PackContents gTCGMazeofMillennia[] =
+{
+	{ITEM_CARD_SALAMANDRA_THE_FLYING_FLAME_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_FIGHTING_FLAME_SWORDSMAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_FIGHTING_FLAME_SWORDSMAN, RARITY_COLLECTOR_S_RARE},
+};
+
+const struct PackContents gTCGMazeoftheMaster[] =
+{
+	{ITEM_CARD_THUNDER_DRAGONROAR, RARITY_RARE},
+	{ITEM_CARD_THUNDER_DRAGONHAWK, RARITY_RARE},
+};
+
+const struct PackContents gTCGMcDonaldsPromotionalCards[] =
+{
+};
+
+const struct PackContents gTCGMcDonaldsPromotionalCards2[] =
+{
+	{ITEM_CARD_METEOR_DRAGON, RARITY_RARE},
+	{ITEM_CARD_METEOR_DRAGON, RARITY_RARE},
+	{ITEM_CARD_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP, RARITY_RARE},
+	{ITEM_CARD_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP, RARITY_RARE},
+};
+
+const struct PackContents gTCGMetalRaiders[] =
+{
+	{ITEM_CARD_BICKURIBOX, RARITY_COMMON},
+	{ITEM_CARD_BICKURIBOX, RARITY_COMMON},
+	{ITEM_CARD_BICKURIBOX, RARITY_COMMON},
+	{ITEM_CARD_LABYRINTH_TANK, RARITY_COMMON},
+	{ITEM_CARD_LABYRINTH_TANK, RARITY_COMMON},
+	{ITEM_CARD_LABYRINTH_TANK, RARITY_COMMON},
+	{ITEM_CARD_WITCH_OF_THE_BLACK_FOREST, RARITY_RARE},
+	{ITEM_CARD_WITCH_OF_THE_BLACK_FOREST, RARITY_RARE},
+	{ITEM_CARD_WITCH_OF_THE_BLACK_FOREST, RARITY_RARE},
+	{ITEM_CARD_CHANGE_OF_HEART, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CHANGE_OF_HEART, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CHANGE_OF_HEART, RARITY_ULTRA_RARE},
+	{ITEM_CARD_TREMENDOUS_FIRE, RARITY_COMMON},
+	{ITEM_CARD_TREMENDOUS_FIRE, RARITY_COMMON},
+	{ITEM_CARD_TREMENDOUS_FIRE, RARITY_COMMON},
+	{ITEM_CARD_SOLEMN_JUDGMENT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SOLEMN_JUDGMENT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SOLEMN_JUDGMENT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CRASS_CLOWN, RARITY_SHORT_PRINT},
+	{ITEM_CARD_CRASS_CLOWN, RARITY_SHORT_PRINT},
+	{ITEM_CARD_CRASS_CLOWN, RARITY_SHORT_PRINT},
+	{ITEM_CARD_JIRAI_GUMO, RARITY_COMMON},
+	{ITEM_CARD_JIRAI_GUMO, RARITY_COMMON},
+	{ITEM_CARD_JIRAI_GUMO, RARITY_COMMON},
+	{ITEM_CARD_MASK_OF_DARKNESS, RARITY_RARE},
+	{ITEM_CARD_MASK_OF_DARKNESS, RARITY_RARE},
+	{ITEM_CARD_MASK_OF_DARKNESS, RARITY_RARE},
+	{ITEM_CARD_MASKED_SORCERER, RARITY_RARE},
+	{ITEM_CARD_MASKED_SORCERER, RARITY_RARE},
+	{ITEM_CARD_MASKED_SORCERER, RARITY_RARE},
+	{ITEM_CARD_GIGA_TECH_WOLF, RARITY_COMMON},
+	{ITEM_CARD_GIGA_TECH_WOLF, RARITY_COMMON},
+	{ITEM_CARD_GIGA_TECH_WOLF, RARITY_COMMON},
+	{ITEM_CARD_HEAVY_STORM, RARITY_SUPER_RARE},
+	{ITEM_CARD_HEAVY_STORM, RARITY_SUPER_RARE},
+	{ITEM_CARD_HEAVY_STORM, RARITY_SUPER_RARE},
+	{ITEM_CARD_KURIBOH, RARITY_SUPER_RARE},
+	{ITEM_CARD_KURIBOH, RARITY_SUPER_RARE},
+	{ITEM_CARD_KURIBOH, RARITY_SUPER_RARE},
+	{ITEM_CARD_MAGICIAN_OF_FAITH, RARITY_RARE},
+	{ITEM_CARD_MAGICIAN_OF_FAITH, RARITY_RARE},
+	{ITEM_CARD_MAGICIAN_OF_FAITH, RARITY_RARE},
+	{ITEM_CARD_TWIN_HEADED_THUNDER_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_TWIN_HEADED_THUNDER_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_TWIN_HEADED_THUNDER_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_MUKA_MUKA, RARITY_RARE},
+	{ITEM_CARD_MUKA_MUKA, RARITY_RARE},
+	{ITEM_CARD_MUKA_MUKA, RARITY_RARE},
+	{ITEM_CARD_CANNON_SOLDIER, RARITY_RARE},
+	{ITEM_CARD_CANNON_SOLDIER, RARITY_RARE},
+	{ITEM_CARD_CANNON_SOLDIER, RARITY_RARE},
+	{ITEM_CARD_7_COLORED_FISH, RARITY_COMMON},
+	{ITEM_CARD_7_COLORED_FISH, RARITY_COMMON},
+	{ITEM_CARD_7_COLORED_FISH, RARITY_COMMON},
+	{ITEM_CARD_ROBBIN_GOBLIN, RARITY_RARE},
+	{ITEM_CARD_ROBBIN_GOBLIN, RARITY_RARE},
+	{ITEM_CARD_ROBBIN_GOBLIN, RARITY_RARE},
+	{ITEM_CARD_DARK_ELF, RARITY_RARE},
+	{ITEM_CARD_DARK_ELF, RARITY_RARE},
+	{ITEM_CARD_DARK_ELF, RARITY_RARE},
+	{ITEM_CARD_MILUS_RADIANT, RARITY_RARE},
+	{ITEM_CARD_MILUS_RADIANT, RARITY_RARE},
+	{ITEM_CARD_MILUS_RADIANT, RARITY_RARE},
+	{ITEM_CARD_BLACK_SKULL_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLACK_SKULL_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLACK_SKULL_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MAGIC_JAMMER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MAGIC_JAMMER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MAGIC_JAMMER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SUMMONED_SKULL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SUMMONED_SKULL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SUMMONED_SKULL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_WHITE_MAGICAL_HAT, RARITY_RARE},
+	{ITEM_CARD_WHITE_MAGICAL_HAT, RARITY_RARE},
+	{ITEM_CARD_WHITE_MAGICAL_HAT, RARITY_RARE},
+	{ITEM_CARD_THUNDER_DRAGON, RARITY_SHORT_PRINT},
+	{ITEM_CARD_THUNDER_DRAGON, RARITY_SHORT_PRINT},
+	{ITEM_CARD_THUNDER_DRAGON, RARITY_SHORT_PRINT},
+	{ITEM_CARD_PREVENT_RAT, RARITY_COMMON},
+	{ITEM_CARD_PREVENT_RAT, RARITY_COMMON},
+	{ITEM_CARD_PREVENT_RAT, RARITY_COMMON},
+	{ITEM_CARD_CATAPULT_TURTLE, RARITY_SUPER_RARE},
+	{ITEM_CARD_CATAPULT_TURTLE, RARITY_SUPER_RARE},
+	{ITEM_CARD_CATAPULT_TURTLE, RARITY_SUPER_RARE},
+	{ITEM_CARD_CASTLE_OF_DARK_ILLUSIONS, RARITY_COMMON},
+	{ITEM_CARD_CASTLE_OF_DARK_ILLUSIONS, RARITY_COMMON},
+	{ITEM_CARD_CASTLE_OF_DARK_ILLUSIONS, RARITY_COMMON},
+	{ITEM_CARD_SANGAN, RARITY_RARE},
+	{ITEM_CARD_SANGAN, RARITY_RARE},
+	{ITEM_CARD_SANGAN, RARITY_RARE},
+	{ITEM_CARD_FAKE_TRAP, RARITY_RARE},
+	{ITEM_CARD_FAKE_TRAP, RARITY_RARE},
+	{ITEM_CARD_FAKE_TRAP, RARITY_RARE},
+	{ITEM_CARD_DREAM_CLOWN, RARITY_SHORT_PRINT},
+	{ITEM_CARD_DREAM_CLOWN, RARITY_SHORT_PRINT},
+	{ITEM_CARD_DREAM_CLOWN, RARITY_SHORT_PRINT},
+	{ITEM_CARD_THE_LITTLE_SWORDSMAN_OF_AILE, RARITY_COMMON},
+	{ITEM_CARD_THE_LITTLE_SWORDSMAN_OF_AILE, RARITY_COMMON},
+	{ITEM_CARD_THE_LITTLE_SWORDSMAN_OF_AILE, RARITY_COMMON},
+	{ITEM_CARD_PRINCESS_OF_TSURUGI, RARITY_RARE},
+	{ITEM_CARD_PRINCESS_OF_TSURUGI, RARITY_RARE},
+	{ITEM_CARD_PRINCESS_OF_TSURUGI, RARITY_RARE},
+	{ITEM_CARD_BLOCK_ATTACK, RARITY_COMMON},
+	{ITEM_CARD_BLOCK_ATTACK, RARITY_COMMON},
+	{ITEM_CARD_BLOCK_ATTACK, RARITY_COMMON},
+	{ITEM_CARD_HORN_OF_HEAVEN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_HORN_OF_HEAVEN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_HORN_OF_HEAVEN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGMetalRaiders25thAnniversaryEdition[] =
+{
+	{ITEM_CARD_BICKURIBOX, RARITY_COMMON},
+	{ITEM_CARD_LABYRINTH_TANK, RARITY_COMMON},
+	{ITEM_CARD_WITCH_OF_THE_BLACK_FOREST, RARITY_RARE},
+	{ITEM_CARD_CHANGE_OF_HEART, RARITY_ULTRA_RARE},
+	{ITEM_CARD_TREMENDOUS_FIRE, RARITY_COMMON},
+	{ITEM_CARD_SOLEMN_JUDGMENT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CRASS_CLOWN, RARITY_COMMON},
+	{ITEM_CARD_JIRAI_GUMO, RARITY_COMMON},
+	{ITEM_CARD_MASK_OF_DARKNESS, RARITY_RARE},
+	{ITEM_CARD_MASKED_SORCERER, RARITY_RARE},
+	{ITEM_CARD_GIGA_TECH_WOLF, RARITY_COMMON},
+	{ITEM_CARD_HEAVY_STORM, RARITY_SUPER_RARE},
+	{ITEM_CARD_KURIBOH, RARITY_SUPER_RARE},
+	{ITEM_CARD_MAGICIAN_OF_FAITH, RARITY_RARE},
+	{ITEM_CARD_TWIN_HEADED_THUNDER_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_MUKA_MUKA, RARITY_RARE},
+	{ITEM_CARD_CANNON_SOLDIER, RARITY_RARE},
+	{ITEM_CARD_7_COLORED_FISH, RARITY_COMMON},
+	{ITEM_CARD_ROBBIN_GOBLIN, RARITY_RARE},
+	{ITEM_CARD_DARK_ELF, RARITY_RARE},
+	{ITEM_CARD_MILUS_RADIANT, RARITY_RARE},
+	{ITEM_CARD_BLACK_SKULL_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MAGIC_JAMMER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SUMMONED_SKULL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_WHITE_MAGICAL_HAT, RARITY_RARE},
+	{ITEM_CARD_THUNDER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_PREVENT_RAT, RARITY_COMMON},
+	{ITEM_CARD_CATAPULT_TURTLE, RARITY_SUPER_RARE},
+	{ITEM_CARD_CASTLE_OF_DARK_ILLUSIONS, RARITY_COMMON},
+	{ITEM_CARD_SANGAN, RARITY_RARE},
+	{ITEM_CARD_FAKE_TRAP, RARITY_RARE},
+	{ITEM_CARD_DREAM_CLOWN, RARITY_COMMON},
+	{ITEM_CARD_THE_LITTLE_SWORDSMAN_OF_AILE, RARITY_COMMON},
+	{ITEM_CARD_PRINCESS_OF_TSURUGI, RARITY_RARE},
+	{ITEM_CARD_BLOCK_ATTACK, RARITY_COMMON},
+	{ITEM_CARD_HORN_OF_HEAVEN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGMillenniumPack[] =
+{
+	{ITEM_CARD_RING_OF_DESTRUCTION, RARITY_COMMON},
+	{ITEM_CARD_DARK_PALADIN, RARITY_COMMON},
+	{ITEM_CARD_WIDESPREAD_RUIN, RARITY_RARE},
+	{ITEM_CARD_SCAPEGOAT, RARITY_COMMON},
+	{ITEM_CARD_CRUSH_CARD_VIRUS, RARITY_COMMON},
+	{ITEM_CARD_NIGHTMARE_WHEEL, RARITY_COMMON},
+	{ITEM_CARD_KURIBOH, RARITY_COMMON},
+	{ITEM_CARD_FLAME_SWORDSMAN, RARITY_RARE},
+	{ITEM_CARD_BLACK_SKULL_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_BLACK_ILLUSION_RITUAL, RARITY_COMMON},
+	{ITEM_CARD_SHRINK, RARITY_COMMON},
+	{ITEM_CARD_SUMMONED_SKULL, RARITY_COMMON},
+	{ITEM_CARD_RELINQUISHED, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_GAIA_THE_FIERCE_KNIGHT, RARITY_RARE},
+	{ITEM_CARD_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP, RARITY_COMMON},
+	{ITEM_CARD_VORSE_RAIDER, RARITY_COMMON},
+};
+
+const struct PackContents gTCGMoviePack[] =
+{
+};
+
+const struct PackContents gTCGMysticFighters[] =
+{
+	{ITEM_CARD_MONSTER_GATE, RARITY_SUPER_RARE},
+	{ITEM_CARD_JINZO, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGNobleKnightsoftheRoundTableBoxSet[] =
+{
+	{ITEM_CARD_DARK_HOLE, RARITY_PLATINUM_RARE},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_PLATINUM_RARE},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_PLATINUM_RARE},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_PLATINUM_RARE},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_PLATINUM_RARE},
+};
+
+const struct PackContents gTCGNobleKnightsoftheRoundTablePowerUpPack[] =
+{
+	{ITEM_CARD_TORRENTIAL_TRIBUTE, RARITY_PLATINUM_RARE},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_PLATINUM_RARE},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_PLATINUM_RARE},
+};
+
+const struct PackContents gTCGNumberHunters[] =
+{
+};
+
+const struct PackContents gTCGOTSTournamentPack1[] =
+{
+	{ITEM_CARD_THE_WHITE_STONE_OF_LEGEND, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_GATE, RARITY_COMMON},
+	{ITEM_CARD_OFFERINGS_TO_THE_DOOMED, RARITY_COMMON},
+	{ITEM_CARD_MAGE_POWER, RARITY_COMMON},
+	{ITEM_CARD_ANTI_SPELL_FRAGRANCE, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGOTSTournamentPack10[] =
+{
+	{ITEM_CARD_DRAGON_S_MIRROR, RARITY_COMMON},
+	{ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR, RARITY_COMMON},
+};
+
+const struct PackContents gTCGOTSTournamentPack11[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_LIMITER_REMOVAL, RARITY_COMMON},
+};
+
+const struct PackContents gTCGOTSTournamentPack12[] =
+{
+	{ITEM_CARD_SOLEMN_JUDGMENT, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_DARK_HOLE, RARITY_COMMON},
+	{ITEM_CARD_GIGANTES, RARITY_COMMON},
+	{ITEM_CARD_MAGICIAN_S_ROBE, RARITY_COMMON},
+};
+
+const struct PackContents gTCGOTSTournamentPack13[] =
+{
+	{ITEM_CARD_BOTTOMLESS_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_ULTIMATE_RARE},
+};
+
+const struct PackContents gTCGOTSTournamentPack14[] =
+{
+};
+
+const struct PackContents gTCGOTSTournamentPack15[] =
+{
+	{ITEM_CARD_SHADDOLL_DRAGON, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGOTSTournamentPack16[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_CYBER_STEIN, RARITY_SUPER_RARE},
+	{ITEM_CARD_ROYAL_MAGICAL_LIBRARY, RARITY_COMMON},
+};
+
+const struct PackContents gTCGOTSTournamentPack17[] =
+{
+};
+
+const struct PackContents gTCGOTSTournamentPack18[] =
+{
+	{ITEM_CARD_MANJU_OF_THE_TEN_THOUSAND_HANDS, RARITY_COMMON},
+};
+
+const struct PackContents gTCGOTSTournamentPack19[] =
+{
+	{ITEM_CARD_NIGHT_ASSAILANT, RARITY_COMMON},
+	{ITEM_CARD_FALLEN_OF_ALBAZ, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_SKILL_DRAIN, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_CAIUS_THE_SHADOW_MONARCH, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGOTSTournamentPack2[] =
+{
+	{ITEM_CARD_DARK_ERADICATOR_WARLOCK, RARITY_COMMON},
+	{ITEM_CARD_UNITED_WE_STAND, RARITY_COMMON},
+	{ITEM_CARD_MASK_OF_RESTRICT, RARITY_SUPER_RARE},
+	{ITEM_CARD_RAIGEKI, RARITY_ULTIMATE_RARE},
+};
+
+const struct PackContents gTCGOTSTournamentPack20[] =
+{
+	{ITEM_CARD_NEKO_MANE_KING, RARITY_SUPER_RARE},
+	{ITEM_CARD_NINJA_GRANDMASTER_HANZO, RARITY_COMMON},
+	{ITEM_CARD_ALUBER_THE_JESTER_OF_DESPIA, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_KING_OF_THE_SWAMP, RARITY_COMMON},
+};
+
+const struct PackContents gTCGOTSTournamentPack21[] =
+{
+	{ITEM_CARD_TOBARI_THE_SKY_NINJA, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGOTSTournamentPack22[] =
+{
+};
+
+const struct PackContents gTCGOTSTournamentPack23[] =
+{
+	{ITEM_CARD_DARK_HOLE, RARITY_COMMON},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_ULTIMATE_RARE},
+};
+
+const struct PackContents gTCGOTSTournamentPack24[] =
+{
+	{ITEM_CARD_KING_TIGER_WANGHU, RARITY_SUPER_RARE},
+	{ITEM_CARD_BYSER_SHOCK, RARITY_COMMON},
+	{ITEM_CARD_HARPIE_S_FEATHER_DUSTER, RARITY_ULTIMATE_RARE},
+};
+
+const struct PackContents gTCGOTSTournamentPack25[] =
+{
+	{ITEM_CARD_EXODIA_THE_FORBIDDEN_ONE, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_SERPENTINE_PRINCESS, RARITY_COMMON},
+};
+
+const struct PackContents gTCGOTSTournamentPack26[] =
+{
+	{ITEM_CARD_DECK_DEVASTATION_VIRUS, RARITY_COMMON},
+};
+
+const struct PackContents gTCGOTSTournamentPack27[] =
+{
+	{ITEM_CARD_SAGE_WITH_EYES_OF_BLUE, RARITY_ULTIMATE_RARE},
+};
+
+const struct PackContents gTCGOTSTournamentPack28[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_LUCIUS_THE_SHADOW_VASSAL, RARITY_SUPER_RARE},
+	{ITEM_CARD_BRAIN_CONTROL, RARITY_COMMON},
+	{ITEM_CARD_THESTALOS_THE_MEGA_MONARCH, RARITY_COMMON},
+};
+
+const struct PackContents gTCGOTSTournamentPack3[] =
+{
+	{ITEM_CARD_SWAP_FROG, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_CIPHER_SOLDIER, RARITY_COMMON},
+	{ITEM_CARD_BLACK_DRAGON_S_CHICK, RARITY_COMMON},
+	{ITEM_CARD_DUPE_FROG, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGOTSTournamentPack4[] =
+{
+	{ITEM_CARD_RONINTOADIN, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGOTSTournamentPack5[] =
+{
+	{ITEM_CARD_SCAPEGOAT, RARITY_COMMON},
+	{ITEM_CARD_TERRAFORMING, RARITY_ULTIMATE_RARE},
+};
+
+const struct PackContents gTCGOTSTournamentPack6[] =
+{
+	{ITEM_CARD_GEM_KNIGHT_GARNET, RARITY_COMMON},
+	{ITEM_CARD_BLACK_METAL_DRAGON, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGOTSTournamentPack7[] =
+{
+	{ITEM_CARD_GATLING_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_LIFE, RARITY_COMMON},
+	{ITEM_CARD_BLOWBACK_DRAGON, RARITY_SHORT_PRINT},
+	{ITEM_CARD_ROYAL_MAGICAL_LIBRARY, RARITY_SUPER_RARE},
+	{ITEM_CARD_PITCH_BLACK_POWER_STONE, RARITY_COMMON},
+	{ITEM_CARD_PRICKLE_FAIRY, RARITY_COMMON},
+};
+
+const struct PackContents gTCGOTSTournamentPack8[] =
+{
+	{ITEM_CARD_TWILIGHT_NINJA_GETSUGA_THE_SHOGUN, RARITY_COMMON},
+	{ITEM_CARD_SCAPEGOAT, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL, RARITY_COMMON},
+};
+
+const struct PackContents gTCGOTSTournamentPack9[] =
+{
+	{ITEM_CARD_MORPHING_JAR, RARITY_SUPER_RARE},
+	{ITEM_CARD_CARD_DESTRUCTION, RARITY_SUPER_RARE},
+	{ITEM_CARD_IMPERIAL_ORDER, RARITY_COMMON},
+	{ITEM_CARD_THUNDER_DRAGONMATRIX, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGOnslaughtoftheFireKingsStructureDeck[] =
+{
+	{ITEM_CARD_SACRED_PHOENIX_OF_NEPHTHYS, RARITY_COMMON},
+	{ITEM_CARD_CREATURE_SWAP, RARITY_COMMON},
+	{ITEM_CARD_BLAST_WITH_CHAIN, RARITY_COMMON},
+	{ITEM_CARD_NIGHTMARE_WHEEL, RARITY_COMMON},
+	{ITEM_CARD_MANTICORE_OF_DARKNESS, RARITY_COMMON},
+	{ITEM_CARD_PHOENIX_WING_WIND_BLAST, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+};
+
+const struct PackContents gTCGOrderofChaos[] =
+{
+	{ITEM_CARD_WHITE_DRAGON_NINJA, RARITY_SECRET_RARE},
+	{ITEM_CARD_MASKED_NINJA_EBISU, RARITY_COMMON},
+	{ITEM_CARD_UPSTART_GOLDEN_NINJA, RARITY_COMMON},
+	{ITEM_CARD_NINJA_GRANDMASTER_HANZO, RARITY_ULTRA_RARE},
+	{ITEM_CARD_NINJA_GRANDMASTER_HANZO, RARITY_ULTIMATE_RARE},
+};
+
+const struct PackContents gTCGOrderofChaosSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGOrderofChaosSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGPalladiumOracleMahadSweepstakes[] =
+{
+	{ITEM_CARD_PALLADIUM_ORACLE_MAHAD, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGPendulumDominationStructureDeck[] =
+{
+	{ITEM_CARD_EMERGENCY_PROVISIONS, RARITY_COMMON},
+};
+
+const struct PackContents gTCGPendulumEvolution[] =
+{
+	{ITEM_CARD_DRAGON_S_MIRROR, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGPhantomDarkness[] =
+{
+	{ITEM_CARD_DARK_NEPHTHYS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_NEPHTHYS, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_ARMORED_CYBERN, RARITY_COMMON},
+	{ITEM_CARD_METAL_REFLECT_SLIME, RARITY_ULTRA_RARE},
+	{ITEM_CARD_METAL_REFLECT_SLIME, RARITY_ULTIMATE_RARE},
+};
+
+const struct PackContents gTCGPhantomDarknessSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGPhantomDarknessSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGPhantomNightmare[] =
+{
+};
+
+const struct PackContents gTCGPhantomNightmarePremierepromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGPhantomRage[] =
+{
+};
+
+const struct PackContents gTCGPhantomRagePremierepromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGPharaohTour2005promotionalcards[] =
+{
+};
+
+const struct PackContents gTCGPharaohTour2006Finalprizecard[] =
+{
+	{ITEM_CARD_SHRINK, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGPharaohTour2006Stopparticipationcard[] =
+{
+	{ITEM_CARD_TOON_DARK_MAGICIAN_GIRL, RARITY_COMMON},
+};
+
+const struct PackContents gTCGPharaohTour2007promotionalcards[] =
+{
+};
+
+const struct PackContents gTCGPharaohsServant[] =
+{
+	{ITEM_CARD_SOLEMN_WISHES, RARITY_SHORT_PRINT},
+	{ITEM_CARD_SOLEMN_WISHES, RARITY_SHORT_PRINT},
+	{ITEM_CARD_SOLEMN_WISHES, RARITY_SHORT_PRINT},
+	{ITEM_CARD_GOBLIN_ATTACK_FORCE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GOBLIN_ATTACK_FORCE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GOBLIN_ATTACK_FORCE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CEASEFIRE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CEASEFIRE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CEASEFIRE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DUST_TORNADO, RARITY_SUPER_RARE},
+	{ITEM_CARD_DUST_TORNADO, RARITY_SUPER_RARE},
+	{ITEM_CARD_DUST_TORNADO, RARITY_SUPER_RARE},
+	{ITEM_CARD_IMPERIAL_ORDER, RARITY_SECRET_RARE},
+	{ITEM_CARD_IMPERIAL_ORDER, RARITY_SECRET_RARE},
+	{ITEM_CARD_IMPERIAL_ORDER, RARITY_SECRET_RARE},
+	{ITEM_CARD_LIGHT_OF_INTERVENTION, RARITY_COMMON},
+	{ITEM_CARD_LIGHT_OF_INTERVENTION, RARITY_COMMON},
+	{ITEM_CARD_LIGHT_OF_INTERVENTION, RARITY_COMMON},
+	{ITEM_CARD_BEAST_OF_TALWAR, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BEAST_OF_TALWAR, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BEAST_OF_TALWAR, RARITY_ULTRA_RARE},
+	{ITEM_CARD_PREMATURE_BURIAL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_PREMATURE_BURIAL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_PREMATURE_BURIAL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_TIME_SEAL, RARITY_SHORT_PRINT},
+	{ITEM_CARD_TIME_SEAL, RARITY_SHORT_PRINT},
+	{ITEM_CARD_TIME_SEAL, RARITY_SHORT_PRINT},
+	{ITEM_CARD_COLD_WAVE, RARITY_COMMON},
+	{ITEM_CARD_COLD_WAVE, RARITY_COMMON},
+	{ITEM_CARD_COLD_WAVE, RARITY_COMMON},
+	{ITEM_CARD_4_STARRED_LADYBUG_OF_DOOM, RARITY_COMMON},
+	{ITEM_CARD_4_STARRED_LADYBUG_OF_DOOM, RARITY_COMMON},
+	{ITEM_CARD_4_STARRED_LADYBUG_OF_DOOM, RARITY_COMMON},
+	{ITEM_CARD_NOBLEMAN_OF_CROSSOUT, RARITY_SUPER_RARE},
+	{ITEM_CARD_NOBLEMAN_OF_CROSSOUT, RARITY_SUPER_RARE},
+	{ITEM_CARD_NOBLEMAN_OF_CROSSOUT, RARITY_SUPER_RARE},
+	{ITEM_CARD_LIMITER_REMOVAL, RARITY_SUPER_RARE},
+	{ITEM_CARD_LIMITER_REMOVAL, RARITY_SUPER_RARE},
+	{ITEM_CARD_LIMITER_REMOVAL, RARITY_SUPER_RARE},
+	{ITEM_CARD_ISLAND_TURTLE, RARITY_SHORT_PRINT},
+	{ITEM_CARD_ISLAND_TURTLE, RARITY_SHORT_PRINT},
+	{ITEM_CARD_ISLAND_TURTLE, RARITY_SHORT_PRINT},
+	{ITEM_CARD_THE_FIEND_MEGACYBER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_THE_FIEND_MEGACYBER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_THE_FIEND_MEGACYBER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_JINZO, RARITY_SECRET_RARE},
+	{ITEM_CARD_JINZO, RARITY_SECRET_RARE},
+	{ITEM_CARD_JINZO, RARITY_SECRET_RARE},
+	{ITEM_CARD_BUSTER_BLADER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BUSTER_BLADER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BUSTER_BLADER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_THOUSAND_EYES_RESTRICT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_THOUSAND_EYES_RESTRICT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_THOUSAND_EYES_RESTRICT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_NOBLEMAN_OF_EXTERMINATION, RARITY_RARE},
+	{ITEM_CARD_NOBLEMAN_OF_EXTERMINATION, RARITY_RARE},
+	{ITEM_CARD_NOBLEMAN_OF_EXTERMINATION, RARITY_RARE},
+	{ITEM_CARD_SKY_SCOUT, RARITY_COMMON},
+	{ITEM_CARD_SKY_SCOUT, RARITY_COMMON},
+	{ITEM_CARD_SKY_SCOUT, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT, RARITY_SUPER_RARE},
+	{ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT, RARITY_SUPER_RARE},
+	{ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT, RARITY_SUPER_RARE},
+	{ITEM_CARD_GRAVITY_BIND, RARITY_RARE},
+	{ITEM_CARD_GRAVITY_BIND, RARITY_RARE},
+	{ITEM_CARD_GRAVITY_BIND, RARITY_RARE},
+};
+
+const struct PackContents gTCGPharaohsServant25thAnniversaryEdition[] =
+{
+	{ITEM_CARD_SOLEMN_WISHES, RARITY_COMMON},
+	{ITEM_CARD_GOBLIN_ATTACK_FORCE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CEASEFIRE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DUST_TORNADO, RARITY_SUPER_RARE},
+	{ITEM_CARD_IMPERIAL_ORDER, RARITY_SECRET_RARE},
+	{ITEM_CARD_LIGHT_OF_INTERVENTION, RARITY_COMMON},
+	{ITEM_CARD_BEAST_OF_TALWAR, RARITY_ULTRA_RARE},
+	{ITEM_CARD_PREMATURE_BURIAL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_TIME_SEAL, RARITY_COMMON},
+	{ITEM_CARD_COLD_WAVE, RARITY_COMMON},
+	{ITEM_CARD_4_STARRED_LADYBUG_OF_DOOM, RARITY_COMMON},
+	{ITEM_CARD_NOBLEMAN_OF_CROSSOUT, RARITY_SUPER_RARE},
+	{ITEM_CARD_LIMITER_REMOVAL, RARITY_SUPER_RARE},
+	{ITEM_CARD_ISLAND_TURTLE, RARITY_COMMON},
+	{ITEM_CARD_THE_FIEND_MEGACYBER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_JINZO, RARITY_SECRET_RARE},
+	{ITEM_CARD_BUSTER_BLADER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_THOUSAND_EYES_RESTRICT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_NOBLEMAN_OF_EXTERMINATION, RARITY_RARE},
+	{ITEM_CARD_SKY_SCOUT, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT, RARITY_SUPER_RARE},
+	{ITEM_CARD_GRAVITY_BIND, RARITY_RARE},
+};
+
+const struct PackContents gTCGPharaonicGuardian[] =
+{
+	{ITEM_CARD_KING_TIGER_WANGHU, RARITY_RARE},
+	{ITEM_CARD_GRAVEKEEPER_S_ASSAILANT, RARITY_COMMON},
+	{ITEM_CARD_NEEDLE_CEILING, RARITY_COMMON},
+	{ITEM_CARD_NEWDORIA, RARITY_RARE},
+	{ITEM_CARD_DES_LACOODA, RARITY_COMMON},
+	{ITEM_CARD_MAIDEN_OF_THE_AQUA, RARITY_SHORT_PRINT},
+	{ITEM_CARD_GUARDIAN_SPHINX, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BYSER_SHOCK, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RING_OF_DESTRUCTION, RARITY_SECRET_RARE},
+	{ITEM_CARD_ARSENAL_BUG, RARITY_COMMON},
+	{ITEM_CARD_SWARM_OF_LOCUSTS, RARITY_COMMON},
+	{ITEM_CARD_RECKLESS_GREED, RARITY_RARE},
+	{ITEM_CARD_NIGHTMARE_WHEEL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_TRAP_DUSTSHOOT, RARITY_COMMON},
+	{ITEM_CARD_NECROVALLEY, RARITY_SUPER_RARE},
+	{ITEM_CARD_BOOK_OF_TAIYOU, RARITY_SHORT_PRINT},
+	{ITEM_CARD_BOOK_OF_LIFE, RARITY_SUPER_RARE},
+	{ITEM_CARD_GORA_TURTLE, RARITY_RARE},
+	{ITEM_CARD_GRAVEKEEPER_S_GUARD, RARITY_COMMON},
+	{ITEM_CARD_SPIRIT_REAPER, RARITY_RARE},
+	{ITEM_CARD_REAPER_ON_THE_NIGHTMARE, RARITY_SUPER_RARE},
+	{ITEM_CARD_SASUKE_SAMURAI, RARITY_SUPER_RARE},
+	{ITEM_CARD_GRAVEKEEPER_S_WATCHER, RARITY_RARE},
+	{ITEM_CARD_REASONING, RARITY_COMMON},
+	{ITEM_CARD_RAIGEKI_BREAK, RARITY_COMMON},
+	{ITEM_CARD_GRAVEKEEPER_S_SPY, RARITY_COMMON},
+	{ITEM_CARD_METAMORPHOSIS, RARITY_COMMON},
+	{ITEM_CARD_MIRAGE_OF_NIGHTMARE, RARITY_SUPER_RARE},
+	{ITEM_CARD_INPACHI, RARITY_COMMON},
+	{ITEM_CARD_YOMI_SHIP, RARITY_COMMON},
+	{ITEM_CARD_GRAVEKEEPER_S_SPEAR_SOLDIER, RARITY_COMMON},
+	{ITEM_CARD_SWARM_OF_SCARABS, RARITY_COMMON},
+	{ITEM_CARD_TERRAFORMING, RARITY_COMMON},
+	{ITEM_CARD_PYRAMID_TURTLE, RARITY_RARE},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_RARE},
+	{ITEM_CARD_BARREL_BEHIND_THE_DOOR, RARITY_SUPER_RARE},
+	{ITEM_CARD_DON_ZALOOG, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGPhotonHypernova[] =
+{
+	{ITEM_CARD_GISHKI_GRIMNESS, RARITY_COMMON},
+	{ITEM_CARD_GREEN_NINJA, RARITY_SUPER_RARE},
+	{ITEM_CARD_JIOH_THE_GRAVITY_NINJA, RARITY_COMMON},
+};
+
+const struct PackContents gTCGPhotonHypernovaPremierepromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGPhotonShockwave[] =
+{
+	{ITEM_CARD_GISHKI_BEAST, RARITY_RARE},
+	{ITEM_CARD_SENIOR_SILVER_NINJA, RARITY_COMMON},
+	{ITEM_CARD_GEM_KNIGHT_EMERALD, RARITY_RARE},
+	{ITEM_CARD_GOBLIN_POTHOLE_SQUAD, RARITY_SHORT_PRINT},
+	{ITEM_CARD_GEM_TURTLE, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGPhotonShockwaveSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGPoweroftheDuelist[] =
+{
+};
+
+const struct PackContents gTCGPoweroftheDuelistSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGPoweroftheElements[] =
+{
+	{ITEM_CARD_ALBAZ_THE_ASHEN, RARITY_SUPER_RARE},
+	{ITEM_CARD_GEM_KNIGHT_QUARTZ, RARITY_SUPER_RARE},
+	{ITEM_CARD_BRILLIANT_ROSE, RARITY_COMMON},
+};
+
+const struct PackContents gTCGPoweroftheElementsPremierepromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGPremiumCollectionTin[] =
+{
+	{ITEM_CARD_METEOR_DRAGON, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGPremiumGold[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_GOLD_RARE},
+	{ITEM_CARD_MORPHING_JAR, RARITY_GOLD_RARE},
+	{ITEM_CARD_TORRENTIAL_TRIBUTE, RARITY_GOLD_RARE},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_GOLD_RARE},
+	{ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR, RARITY_GOLD_RARE},
+	{ITEM_CARD_BOTTOMLESS_TRAP_HOLE, RARITY_GOLD_RARE},
+	{ITEM_CARD_SPIRIT_REAPER, RARITY_GOLD_RARE},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_GOLD_RARE},
+	{ITEM_CARD_JINZO, RARITY_GOLD_RARE},
+	{ITEM_CARD_GRAVEKEEPER_S_SPY, RARITY_GOLD_RARE},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_GOLD_RARE},
+	{ITEM_CARD_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_GOLD_RARE},
+	{ITEM_CARD_CHAOS_SORCERER, RARITY_GOLD_RARE},
+	{ITEM_CARD_PHOENIX_WING_WIND_BLAST, RARITY_GOLD_RARE},
+	{ITEM_CARD_BLUE_EYES_ULTIMATE_DRAGON, RARITY_GOLD_RARE},
+	{ITEM_CARD_MIND_CONTROL, RARITY_GOLD_RARE},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_GOLD_RARE},
+	{ITEM_CARD_CAIUS_THE_SHADOW_MONARCH, RARITY_GOLD_RARE},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_GOLD_RARE},
+};
+
+const struct PackContents gTCGPremiumGoldInfiniteGold[] =
+{
+	{ITEM_CARD_ANGMARL_THE_FIENDISH_MONARCH, RARITY_GOLD_SECRET_RARE},
+	{ITEM_CARD_REASONING, RARITY_GOLD_RARE},
+	{ITEM_CARD_HORN_OF_HEAVEN, RARITY_GOLD_SECRET_RARE},
+};
+
+const struct PackContents gTCGPremiumGoldReturnoftheBling[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_GOLD_RARE},
+	{ITEM_CARD_SMASHING_GROUND, RARITY_GOLD_RARE},
+	{ITEM_CARD_RING_OF_DESTRUCTION, RARITY_GOLD_RARE},
+	{ITEM_CARD_LEFT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_GOLD_RARE},
+	{ITEM_CARD_CEASEFIRE, RARITY_GOLD_RARE},
+	{ITEM_CARD_CRUSH_CARD_VIRUS, RARITY_GOLD_RARE},
+	{ITEM_CARD_DARK_HOLE, RARITY_GOLD_RARE},
+	{ITEM_CARD_KARMA_CUT, RARITY_GOLD_RARE},
+	{ITEM_CARD_RIGHT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_GOLD_RARE},
+	{ITEM_CARD_EXCHANGE_OF_THE_SPIRIT, RARITY_GOLD_RARE},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_GOLD_RARE},
+	{ITEM_CARD_RIGHT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_GOLD_RARE},
+	{ITEM_CARD_TRAPTRIX_DIONAEA, RARITY_GOLD_RARE},
+	{ITEM_CARD_SINISTER_SERPENT, RARITY_GOLD_RARE},
+	{ITEM_CARD_CHAIN_DISAPPEARANCE, RARITY_GOLD_RARE},
+	{ITEM_CARD_TRAPTRIX_MYRMELEO, RARITY_GOLD_RARE},
+	{ITEM_CARD_TRAPTRIX_NEPENTHES, RARITY_GOLD_RARE},
+	{ITEM_CARD_EXODIA_THE_FORBIDDEN_ONE, RARITY_GOLD_RARE},
+	{ITEM_CARD_TRAPTRIX_ATRAX, RARITY_GOLD_RARE},
+	{ITEM_CARD_RAIGEKI, RARITY_GOLD_RARE},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_GOLD_RARE},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_GOLD_RARE},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_GOLD_RARE},
+	{ITEM_CARD_LEFT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_GOLD_RARE},
+	{ITEM_CARD_GRAPHA_DRAGON_LORD_OF_DARK_WORLD, RARITY_GOLD_RARE},
+	{ITEM_CARD_DOOMCALIBER_KNIGHT, RARITY_GOLD_RARE},
+};
+
+const struct PackContents gTCGPremiumPackTCG[] =
+{
+	{ITEM_CARD_DARK_MAGIC_CURTAIN, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGPremiumPack2TCG[] =
+{
+	{ITEM_CARD_ELEMENTAL_HERO_WOODSMAN, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGPrimalOrigin[] =
+{
+	{ITEM_CARD_LUCENT_NETHERLORD_OF_DARK_WORLD, RARITY_SUPER_RARE},
+	{ITEM_CARD_TRAPTRIX_DIONAEA, RARITY_RARE},
+	{ITEM_CARD_THESTALOS_THE_MEGA_MONARCH, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGPrimalOriginPlus[] =
+{
+};
+
+const struct PackContents gTCGPrimalOriginSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGPrimalOriginDeluxeEdition[] =
+{
+};
+
+const struct PackContents gTCGQuarterCenturyBonanza[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_CYBER_DRAGON, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGICIAN_OF_CHAOS, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGICIAN_OF_CHAOS, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_SACRED_PHOENIX_OF_NEPHTHYS, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_SACRED_PHOENIX_OF_NEPHTHYS, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_CREATURE_SWAP, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_CREATURE_SWAP, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_MORPHING_JAR, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_MORPHING_JAR, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_UNITED_WE_STAND, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_UNITED_WE_STAND, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_SWAP_FROG, RARITY_SUPER_RARE},
+	{ITEM_CARD_SWAP_FROG, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SWAP_FROG, RARITY_SECRET_RARE},
+	{ITEM_CARD_SWAP_FROG, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_SWAP_FROG, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_SWAP_FROG, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_SWAP_FROG, RARITY_COLLECTOR_S_RARE},
+	{ITEM_CARD_WITCH_OF_THE_BLACK_FOREST, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_WITCH_OF_THE_BLACK_FOREST, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_SMASHING_GROUND, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_SMASHING_GROUND, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_MAGIC_CYLINDER, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_MAGIC_CYLINDER, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_GOBLIN_ATTACK_FORCE, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_GOBLIN_ATTACK_FORCE, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_POLYMERIZATION, RARITY_SUPER_RARE},
+	{ITEM_CARD_POLYMERIZATION, RARITY_ULTRA_RARE},
+	{ITEM_CARD_POLYMERIZATION, RARITY_SECRET_RARE},
+	{ITEM_CARD_POLYMERIZATION, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_POLYMERIZATION, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_POLYMERIZATION, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_POLYMERIZATION, RARITY_COLLECTOR_S_RARE},
+	{ITEM_CARD_VAMPIRE_LORD, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_VAMPIRE_LORD, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_DARK_PALADIN, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_DARK_PALADIN, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_MOBIUS_THE_FROST_MONARCH, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_MOBIUS_THE_FROST_MONARCH, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_MARAUDING_CAPTAIN, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_MARAUDING_CAPTAIN, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_CEASEFIRE, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_CEASEFIRE, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_ELEMENTAL_HERO_WILDHEART, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_ELEMENTAL_HERO_WILDHEART, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_THE_WHITE_STONE_OF_LEGEND, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_THE_WHITE_STONE_OF_LEGEND, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_HEAVY_STORM, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_HEAVY_STORM, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_TRAP_HOLE, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_TRAP_HOLE, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_CYBER_STEIN, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_CYBER_STEIN, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_MAGICIAN_OF_FAITH, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_MAGICIAN_OF_FAITH, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_IMPERIAL_ORDER, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_IMPERIAL_ORDER, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_PREMATURE_BURIAL, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_PREMATURE_BURIAL, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_SUBSTITOAD, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_SUBSTITOAD, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_MECHANICALCHASER, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_MECHANICALCHASER, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_SPIRIT_REAPER, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_SPIRIT_REAPER, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_COLD_WAVE, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_COLD_WAVE, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_CYBER_JAR, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_CYBER_JAR, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL, RARITY_SUPER_RARE},
+	{ITEM_CARD_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL, RARITY_SECRET_RARE},
+	{ITEM_CARD_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL, RARITY_COLLECTOR_S_RARE},
+	{ITEM_CARD_PALLADIUM_ORACLE_MAHAD, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_PALLADIUM_ORACLE_MAHAD, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_BRAIN_CONTROL, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_BRAIN_CONTROL, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_RONINTOADIN, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_RONINTOADIN, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_NOBLEMAN_OF_CROSSOUT, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_NOBLEMAN_OF_CROSSOUT, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_NIGHT_ASSAILANT, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_NIGHT_ASSAILANT, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_THUNDER_DRAGONDARK, RARITY_SUPER_RARE},
+	{ITEM_CARD_THUNDER_DRAGONDARK, RARITY_ULTRA_RARE},
+	{ITEM_CARD_THUNDER_DRAGONDARK, RARITY_SECRET_RARE},
+	{ITEM_CARD_THUNDER_DRAGONDARK, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_THUNDER_DRAGONDARK, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_THUNDER_DRAGONDARK, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_THUNDER_DRAGONDARK, RARITY_COLLECTOR_S_RARE},
+	{ITEM_CARD_BLOWBACK_DRAGON, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_BLOWBACK_DRAGON, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_SILLVA_WARLORD_OF_DARK_WORLD, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_SILLVA_WARLORD_OF_DARK_WORLD, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_D_D_WARRIOR_LADY, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_D_D_WARRIOR_LADY, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_GIANT_TRUNADE, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_GIANT_TRUNADE, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_SHRINK, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_SHRINK, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_BAZOO_THE_SOUL_EATER, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_BAZOO_THE_SOUL_EATER, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_SUMMONED_SKULL, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_SUMMONED_SKULL, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_KYCOO_THE_GHOST_DESTROYER, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_KYCOO_THE_GHOST_DESTROYER, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_JINZO, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_JINZO, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_EXILED_FORCE, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_EXILED_FORCE, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_GRAVEKEEPER_S_SPY, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_GRAVEKEEPER_S_SPY, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_ULTIMATE_OFFERING, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_ULTIMATE_OFFERING, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_GRACEFUL_CHARITY, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_GRACEFUL_CHARITY, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_SAKURETSU_ARMOR, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_SAKURETSU_ARMOR, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_SUPER_RARE},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_SECRET_RARE},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_COLLECTOR_S_RARE},
+	{ITEM_CARD_SANGAN, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_SANGAN, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_RETURN_FROM_THE_DIFFERENT_DIMENSION, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_RETURN_FROM_THE_DIFFERENT_DIMENSION, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_LIGHTNING_VORTEX, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_LIGHTNING_VORTEX, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_MAGE_POWER, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_MAGE_POWER, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_INJECTION_FAIRY_LILY, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_INJECTION_FAIRY_LILY, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_CHAOS_EMPEROR_DRAGON_ENVOY_OF_THE_END, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_CHAOS_EMPEROR_DRAGON_ENVOY_OF_THE_END, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_POT_OF_AVARICE, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_POT_OF_AVARICE, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_FISSURE, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_FISSURE, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_PHOENIX_WING_WIND_BLAST, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_PHOENIX_WING_WIND_BLAST, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_TREEBORN_FROG, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_TREEBORN_FROG, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_GEMINI_ELF, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_GEMINI_ELF, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_RAIGEKI, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_RAIGEKI, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_SHURIT_STRATEGIST_OF_THE_NEKROZ, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_SHURIT_STRATEGIST_OF_THE_NEKROZ, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_BLUE_EYES_ULTIMATE_DRAGON, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_BLUE_EYES_ULTIMATE_DRAGON, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_DIMENSION_FUSION, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_DIMENSION_FUSION, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_CAIUS_THE_SHADOW_MONARCH, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_CAIUS_THE_SHADOW_MONARCH, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_CYBER_END_DRAGON, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_CYBER_END_DRAGON, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_WAVE_MOTION_CANNON, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_WAVE_MOTION_CANNON, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_MAN_EATER_BUG, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_MAN_EATER_BUG, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_DECK_DEVASTATION_VIRUS, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_DECK_DEVASTATION_VIRUS, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_RED_EYES_DARKNESS_METAL_DRAGON, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_RED_EYES_DARKNESS_METAL_DRAGON, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_D_D_ASSAILANT, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_D_D_ASSAILANT, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_UPSTART_GOBLIN, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_UPSTART_GOBLIN, RARITY_QUARTER_CENTURY_SECRET_RARE},
+};
+
+const struct PackContents gTCGQuarterCenturyStampede[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_EHTHER_THE_HEAVENLY_MONARCH, RARITY_SUPER_RARE},
+	{ITEM_CARD_EHTHER_THE_HEAVENLY_MONARCH, RARITY_ULTRA_RARE},
+	{ITEM_CARD_EHTHER_THE_HEAVENLY_MONARCH, RARITY_SECRET_RARE},
+	{ITEM_CARD_EHTHER_THE_HEAVENLY_MONARCH, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_EHTHER_THE_HEAVENLY_MONARCH, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_EHTHER_THE_HEAVENLY_MONARCH, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_EHTHER_THE_HEAVENLY_MONARCH, RARITY_COLLECTOR_S_RARE},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_ROYAL_OPPRESSION, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_ROYAL_OPPRESSION, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_RING_OF_DESTRUCTION, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_RING_OF_DESTRUCTION, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_SHADDOLL_DRAGON, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_SHADDOLL_DRAGON, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_TRAP_DUSTSHOOT, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_TRAP_DUSTSHOOT, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_NECROVALLEY, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_NECROVALLEY, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_EREBUS_THE_UNDERWORLD_MONARCH, RARITY_SUPER_RARE},
+	{ITEM_CARD_EREBUS_THE_UNDERWORLD_MONARCH, RARITY_ULTRA_RARE},
+	{ITEM_CARD_EREBUS_THE_UNDERWORLD_MONARCH, RARITY_SECRET_RARE},
+	{ITEM_CARD_EREBUS_THE_UNDERWORLD_MONARCH, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_EREBUS_THE_UNDERWORLD_MONARCH, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_EREBUS_THE_UNDERWORLD_MONARCH, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_EREBUS_THE_UNDERWORLD_MONARCH, RARITY_COLLECTOR_S_RARE},
+	{ITEM_CARD_KARMA_CUT, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_KARMA_CUT, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_NINJA_GRANDMASTER_HANZO, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_NINJA_GRANDMASTER_HANZO, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_SAGE_WITH_EYES_OF_BLUE, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_SAGE_WITH_EYES_OF_BLUE, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_BUSTER_BLADER, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_BUSTER_BLADER, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_METAMORPHOSIS, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_METAMORPHOSIS, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_ALUBER_THE_JESTER_OF_DESPIA, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_FALLEN_OF_ALBAZ, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_APPRENTICE_ILLUSION_MAGICIAN, RARITY_SUPER_RARE},
+	{ITEM_CARD_APPRENTICE_ILLUSION_MAGICIAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_APPRENTICE_ILLUSION_MAGICIAN, RARITY_SECRET_RARE},
+	{ITEM_CARD_APPRENTICE_ILLUSION_MAGICIAN, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_APPRENTICE_ILLUSION_MAGICIAN, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_APPRENTICE_ILLUSION_MAGICIAN, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_APPRENTICE_ILLUSION_MAGICIAN, RARITY_COLLECTOR_S_RARE},
+	{ITEM_CARD_ROYAL_DECREE, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_ROYAL_DECREE, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_TRAPTRIX_MYRMELEO, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_TRAPTRIX_MYRMELEO, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_DELINQUENT_DUO, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_DELINQUENT_DUO, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_THE_WHITE_STONE_OF_ANCIENTS, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_THE_WHITE_STONE_OF_ANCIENTS, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_ZABORG_THE_THUNDER_MONARCH, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_ZABORG_THE_THUNDER_MONARCH, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_TERRAFORMING, RARITY_SUPER_RARE},
+	{ITEM_CARD_TERRAFORMING, RARITY_ULTRA_RARE},
+	{ITEM_CARD_TERRAFORMING, RARITY_SECRET_RARE},
+	{ITEM_CARD_TERRAFORMING, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_TERRAFORMING, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_TERRAFORMING, RARITY_COLLECTOR_S_RARE},
+	{ITEM_CARD_BLAZING_CARTESIA_THE_VIRTUOUS, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_RED_EYES_DARKNESS_METAL_DRAGON, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_BLACK_METAL_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_BLACK_METAL_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLACK_METAL_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_BLACK_METAL_DRAGON, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_BLACK_METAL_DRAGON, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_BLACK_METAL_DRAGON, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_BLACK_METAL_DRAGON, RARITY_COLLECTOR_S_RARE},
+	{ITEM_CARD_GRAPHA_DRAGON_LORD_OF_DARK_WORLD, RARITY_PLATINUM_SECRET_RARE},
+	{ITEM_CARD_GRAPHA_DRAGON_LORD_OF_DARK_WORLD, RARITY_QUARTER_CENTURY_SECRET_RARE},
+};
+
+const struct PackContents gTCGRaYellowMegaPack[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_CYBER_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN, RARITY_RARE},
+	{ITEM_CARD_D_D_SURVIVOR, RARITY_COMMON},
+	{ITEM_CARD_CYBER_END_DRAGON, RARITY_RARE},
+};
+
+const struct PackContents gTCGRaYellowMegaPackSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGRageoftheAbyss[] =
+{
+	{ITEM_CARD_HEART_OF_THE_BLUE_EYES, RARITY_SECRET_RARE},
+	{ITEM_CARD_HEART_OF_THE_BLUE_EYES, RARITY_QUARTER_CENTURY_SECRET_RARE},
+};
+
+const struct PackContents gTCGRageoftheAbyssPremierepromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGRagingBattle[] =
+{
+};
+
+const struct PackContents gTCGRagingBattleSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGRagingBattleSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGRagingTempest[] =
+{
+	{ITEM_CARD_ENVOY_OF_CHAOS, RARITY_RARE},
+};
+
+const struct PackContents gTCGRagingTempestSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGRagingTempestSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGRagingTempestSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGRealmofLightStructureDeck[] =
+{
+	{ITEM_CARD_MONSTER_REINCARNATION, RARITY_COMMON},
+};
+
+const struct PackContents gTCGRealmoftheSeaEmperorStructureDeck[] =
+{
+	{ITEM_CARD_TORRENTIAL_TRIBUTE, RARITY_COMMON},
+	{ITEM_CARD_SALVAGE, RARITY_COMMON},
+	{ITEM_CARD_DARK_HOLE, RARITY_COMMON},
+	{ITEM_CARD_MOTHER_GRIZZLY, RARITY_COMMON},
+	{ITEM_CARD_SPIRITUAL_WATER_ART_AOI, RARITY_COMMON},
+	{ITEM_CARD_A_LEGENDARY_OCEAN, RARITY_COMMON},
+	{ITEM_CARD_TERRAFORMING, RARITY_COMMON},
+	{ITEM_CARD_ABYSS_SOLDIER, RARITY_COMMON},
+	{ITEM_CARD_GRAVITY_BIND, RARITY_COMMON},
+};
+
+const struct PackContents gTCGRemoteDuelatHomeSweepstakes[] =
+{
+	{ITEM_CARD_UNITED_WE_STAND, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGRetroPack[] =
+{
+	{ITEM_CARD_KAIBAMAN, RARITY_SECRET_RARE},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MYSTIC_TOMATO, RARITY_COMMON},
+	{ITEM_CARD_PAINFUL_CHOICE, RARITY_RARE},
+	{ITEM_CARD_GIANT_GERM, RARITY_COMMON},
+	{ITEM_CARD_SOLEMN_JUDGMENT, RARITY_SUPER_RARE},
+	{ITEM_CARD_SONIC_BIRD, RARITY_COMMON},
+	{ITEM_CARD_JIRAI_GUMO, RARITY_COMMON},
+	{ITEM_CARD_LEFT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_RARE},
+	{ITEM_CARD_MASK_OF_DARKNESS, RARITY_COMMON},
+	{ITEM_CARD_CARD_DESTRUCTION, RARITY_RARE},
+	{ITEM_CARD_TOON_SUMMONED_SKULL, RARITY_COMMON},
+	{ITEM_CARD_SCAPEGOAT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_HEAVY_STORM, RARITY_RARE},
+	{ITEM_CARD_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_KURIBOH, RARITY_RARE},
+	{ITEM_CARD_MAGICIAN_OF_FAITH, RARITY_RARE},
+	{ITEM_CARD_SENJU_OF_THE_THOUSAND_HANDS, RARITY_COMMON},
+	{ITEM_CARD_TWIN_HEADED_THUNDER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_MOTHER_GRIZZLY, RARITY_COMMON},
+	{ITEM_CARD_FLAME_SWORDSMAN, RARITY_COMMON},
+	{ITEM_CARD_WALL_OF_ILLUSION, RARITY_COMMON},
+	{ITEM_CARD_CANNON_SOLDIER, RARITY_COMMON},
+	{ITEM_CARD_RIGHT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_RARE},
+	{ITEM_CARD_NIMBLE_MOMONGA, RARITY_COMMON},
+	{ITEM_CARD_EXCHANGE_OF_THE_SPIRIT, RARITY_SECRET_RARE},
+	{ITEM_CARD_GAIA_THE_DRAGON_CHAMPION, RARITY_SUPER_RARE},
+	{ITEM_CARD_FLYING_KAMAKIRI_1, RARITY_COMMON},
+	{ITEM_CARD_RIGHT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_RARE},
+	{ITEM_CARD_BLACK_SKULL_DRAGON, RARITY_RARE},
+	{ITEM_CARD_MAGIC_JAMMER, RARITY_COMMON},
+	{ITEM_CARD_BLACK_ILLUSION_RITUAL, RARITY_COMMON},
+	{ITEM_CARD_GIANT_TRUNADE, RARITY_COMMON},
+	{ITEM_CARD_GIANT_RAT, RARITY_COMMON},
+	{ITEM_CARD_SUMMONED_SKULL, RARITY_SUPER_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MESSENGER_OF_PEACE, RARITY_RARE},
+	{ITEM_CARD_THUNDER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_GRACEFUL_CHARITY, RARITY_RARE},
+	{ITEM_CARD_HANE_HANE, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_SUPER_RARE},
+	{ITEM_CARD_CATAPULT_TURTLE, RARITY_SUPER_RARE},
+	{ITEM_CARD_RISING_AIR_CURRENT, RARITY_COMMON},
+	{ITEM_CARD_SANGAN, RARITY_SUPER_RARE},
+	{ITEM_CARD_RELINQUISHED, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLACK_PENDANT, RARITY_COMMON},
+	{ITEM_CARD_FISSURE, RARITY_RARE},
+	{ITEM_CARD_BLUE_EYES_TOON_DRAGON, RARITY_RARE},
+	{ITEM_CARD_EXODIA_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CYBER_HARPIE_LADY, RARITY_SECRET_RARE},
+	{ITEM_CARD_GIANT_SOLDIER_OF_STONE, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GAIA_THE_FIERCE_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_RAIGEKI, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SHINING_ANGEL, RARITY_COMMON},
+	{ITEM_CARD_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP, RARITY_SUPER_RARE},
+	{ITEM_CARD_BLUE_EYES_ULTIMATE_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_AXE_OF_DESPAIR, RARITY_RARE},
+	{ITEM_CARD_ARMED_NINJA, RARITY_COMMON},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_SUPER_RARE},
+	{ITEM_CARD_GAIA_POWER, RARITY_COMMON},
+	{ITEM_CARD_MEGAMORPH, RARITY_RARE},
+	{ITEM_CARD_MAN_EATER_BUG, RARITY_COMMON},
+	{ITEM_CARD_LEFT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_RARE},
+	{ITEM_CARD_UPSTART_GOBLIN, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+	{ITEM_CARD_LORD_OF_D_, RARITY_RARE},
+	{ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT, RARITY_COMMON},
+};
+
+const struct PackContents gTCGRetroPack2[] =
+{
+	{ITEM_CARD_CREATURE_SWAP, RARITY_COMMON},
+	{ITEM_CARD_MORPHING_JAR, RARITY_RARE},
+	{ITEM_CARD_UNITED_WE_STAND, RARITY_ULTRA_RARE},
+	{ITEM_CARD_KAISER_SEA_HORSE, RARITY_RARE},
+	{ITEM_CARD_AIRKNIGHT_PARSHATH, RARITY_RARE},
+	{ITEM_CARD_GRAVEKEEPER_S_ASSAILANT, RARITY_COMMON},
+	{ITEM_CARD_TORRENTIAL_TRIBUTE, RARITY_COMMON},
+	{ITEM_CARD_NEWDORIA, RARITY_RARE},
+	{ITEM_CARD_MASK_OF_RESTRICT, RARITY_COMMON},
+	{ITEM_CARD_MAGIC_CYLINDER, RARITY_RARE},
+	{ITEM_CARD_GUARDIAN_SPHINX, RARITY_COMMON},
+	{ITEM_CARD_RING_OF_DESTRUCTION, RARITY_SECRET_RARE},
+	{ITEM_CARD_GOBLIN_ATTACK_FORCE, RARITY_COMMON},
+	{ITEM_CARD_SPEAR_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_CEASEFIRE, RARITY_RARE},
+	{ITEM_CARD_RECKLESS_GREED, RARITY_COMMON},
+	{ITEM_CARD_NIGHTMARE_WHEEL, RARITY_RARE},
+	{ITEM_CARD_BOTTOMLESS_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_NECROVALLEY, RARITY_RARE},
+	{ITEM_CARD_DUST_TORNADO, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_TAIYOU, RARITY_COMMON},
+	{ITEM_CARD_GILASAURUS, RARITY_COMMON},
+	{ITEM_CARD_PREMATURE_BURIAL, RARITY_COMMON},
+	{ITEM_CARD_YATA_GARASU, RARITY_COMMON},
+	{ITEM_CARD_4_STARRED_LADYBUG_OF_DOOM, RARITY_COMMON},
+	{ITEM_CARD_NOBLEMAN_OF_CROSSOUT, RARITY_COMMON},
+	{ITEM_CARD_LIMITER_REMOVAL, RARITY_SUPER_RARE},
+	{ITEM_CARD_BAZOO_THE_SOUL_EATER, RARITY_COMMON},
+	{ITEM_CARD_KYCOO_THE_GHOST_DESTROYER, RARITY_COMMON},
+	{ITEM_CARD_JINZO, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GRAVEKEEPER_S_SPY, RARITY_COMMON},
+	{ITEM_CARD_BUSTER_BLADER, RARITY_SUPER_RARE},
+	{ITEM_CARD_THOUSAND_EYES_RESTRICT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_ARCHFIEND_OF_GILFER, RARITY_SECRET_RARE},
+	{ITEM_CARD_OPTICLOPS, RARITY_COMMON},
+	{ITEM_CARD_MAGE_POWER, RARITY_RARE},
+	{ITEM_CARD_ROYAL_DECREE, RARITY_RARE},
+	{ITEM_CARD_INJECTION_FAIRY_LILY, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GEMINI_ELF, RARITY_COMMON},
+	{ITEM_CARD_A_LEGENDARY_OCEAN, RARITY_COMMON},
+	{ITEM_CARD_ASURA_PRIEST, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+	{ITEM_CARD_EMERGENCY_PROVISIONS, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_COMMON},
+	{ITEM_CARD_BARREL_BEHIND_THE_DOOR, RARITY_COMMON},
+	{ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT, RARITY_RARE},
+	{ITEM_CARD_DON_ZALOOG, RARITY_RARE},
+	{ITEM_CARD_GRAVITY_BIND, RARITY_COMMON},
+	{ITEM_CARD_DARK_RULER_HA_DES, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGReturnoftheDuelist[] =
+{
+};
+
+const struct PackContents gTCGReturnoftheDuelistSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGReturnoftheDuelistSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGRiseofDestiny[] =
+{
+	{ITEM_CARD_PIKERU_S_CIRCLE_OF_ENCHANTMENT, RARITY_SUPER_RARE},
+	{ITEM_CARD_PIKERU_S_CIRCLE_OF_ENCHANTMENT, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_ULTIMATE_INSECT_LV3, RARITY_RARE},
+	{ITEM_CARD_ULTIMATE_INSECT_LV3, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_SERIAL_SPELL, RARITY_RARE},
+	{ITEM_CARD_SERIAL_SPELL, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_MONSTER_REINCARNATION, RARITY_SUPER_RARE},
+	{ITEM_CARD_MONSTER_REINCARNATION, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_FUSILIER_DRAGON_THE_DUAL_MODE_BEAST, RARITY_RARE},
+	{ITEM_CARD_FUSILIER_DRAGON_THE_DUAL_MODE_BEAST, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_MIRAGE_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_XING_ZHEN_HU, RARITY_COMMON},
+	{ITEM_CARD_DARK_BLADE_THE_DRAGON_KNIGHT, RARITY_RARE},
+	{ITEM_CARD_DARK_BLADE_THE_DRAGON_KNIGHT, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE, RARITY_RARE},
+	{ITEM_CARD_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH, RARITY_SUPER_RARE},
+	{ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_SASUKE_SAMURAI_4, RARITY_RARE},
+	{ITEM_CARD_SASUKE_SAMURAI_4, RARITY_ULTIMATE_RARE},
+};
+
+const struct PackContents gTCGRiseofDestinySpecialEdition[] =
+{
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_VAMPIRE_LORD, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGRiseoftheDragonLordsStructureDeck[] =
+{
+	{ITEM_CARD_MORPHING_JAR, RARITY_COMMON},
+	{ITEM_CARD_KAISER_SEA_HORSE, RARITY_COMMON},
+	{ITEM_CARD_BIG_BANG_SHOT, RARITY_COMMON},
+	{ITEM_CARD_SOUL_EXCHANGE, RARITY_COMMON},
+	{ITEM_CARD_DUST_TORNADO, RARITY_COMMON},
+	{ITEM_CARD_PREMATURE_BURIAL, RARITY_COMMON},
+	{ITEM_CARD_BRAIN_CONTROL, RARITY_COMMON},
+	{ITEM_CARD_MAGIC_JAMMER, RARITY_COMMON},
+	{ITEM_CARD_GIANT_TRUNADE, RARITY_COMMON},
+	{ITEM_CARD_MYSTIK_WOK, RARITY_COMMON},
+	{ITEM_CARD_SAKURETSU_ARMOR, RARITY_COMMON},
+	{ITEM_CARD_LIGHTNING_VORTEX, RARITY_COMMON},
+	{ITEM_CARD_TWIN_HEADED_BEHEMOTH, RARITY_COMMON},
+	{ITEM_CARD_SPEAR_CRETIN, RARITY_COMMON},
+	{ITEM_CARD_MASKED_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_TERRAFORMING, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+};
+
+const struct PackContents gTCGRiseoftheDuelist[] =
+{
+	{ITEM_CARD_FALLEN_OF_ALBAZ, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGRiseoftheDuelistPremierepromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGRiseoftheTrueDragonsStructureDeck[] =
+{
+	{ITEM_CARD_RED_EYES_WYVERN, RARITY_COMMON},
+	{ITEM_CARD_WHITE_NIGHT_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_COMMON},
+	{ITEM_CARD_KEEPER_OF_THE_SHRINE, RARITY_COMMON},
+	{ITEM_CARD_TERRAFORMING, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_DARKNESS_METAL_DRAGON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGRisingRampage[] =
+{
+	{ITEM_CARD_TLAKALEL_HIS_MALEVOLENT_MAJESTY, RARITY_RARE},
+};
+
+const struct PackContents gTCGRisingRampageSneakPeekParticipationCard[] =
+{
+	{ITEM_CARD_TLAKALEL_HIS_MALEVOLENT_MAJESTY, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGRisingRampageSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGSaberForceStarterDeck[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_POISON_OF_THE_OLD_MAN, RARITY_COMMON},
+	{ITEM_CARD_SMASHING_GROUND, RARITY_SHATTERFOIL_RARE},
+	{ITEM_CARD_MAGIC_CYLINDER, RARITY_SHATTERFOIL_RARE},
+	{ITEM_CARD_MYSTICAL_ELF, RARITY_COMMON},
+	{ITEM_CARD_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_DARK_HOLE, RARITY_SHATTERFOIL_RARE},
+	{ITEM_CARD_DUST_TORNADO, RARITY_COMMON},
+	{ITEM_CARD_RUSH_RECKLESSLY, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REINCARNATION, RARITY_COMMON},
+	{ITEM_CARD_BLADE_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_SHATTERFOIL_RARE},
+	{ITEM_CARD_MIRAGE_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_BLACK_PENDANT, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGSagaofBlueEyesWhiteDragonStructureDeck[] =
+{
+	{ITEM_CARD_KAIBAMAN, RARITY_COMMON},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_KAISER_SEA_HORSE, RARITY_COMMON},
+	{ITEM_CARD_SOUL_EXCHANGE, RARITY_COMMON},
+	{ITEM_CARD_MAIDEN_WITH_EYES_OF_BLUE, RARITY_SUPER_RARE},
+	{ITEM_CARD_RIDER_OF_THE_STORM_WINDS, RARITY_COMMON},
+	{ITEM_CARD_THE_WHITE_STONE_OF_LEGEND, RARITY_COMMON},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_COMMON},
+	{ITEM_CARD_MIRAGE_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_LUSTER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_SHINING_ANGEL, RARITY_COMMON},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_COMMON},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+};
+
+const struct PackContents gTCGSamuraiAssault[] =
+{
+};
+
+const struct PackContents gTCGSamuraiWarlordsStructureDeck[] =
+{
+	{ITEM_CARD_DARK_HOLE, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_COMMON},
+};
+
+const struct PackContents gTCGSavageStrike[] =
+{
+};
+
+const struct PackContents gTCGSavageStrikeSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGSavageStrikeSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGSecretSlayers[] =
+{
+	{ITEM_CARD_SOLEMN_JUDGMENT, RARITY_SUPER_RARE},
+	{ITEM_CARD_UPSTART_GOBLIN, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGSecretsofEternity[] =
+{
+	{ITEM_CARD_CAIUS_THE_MEGA_MONARCH, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DANCE_PRINCESS_OF_THE_NEKROZ, RARITY_RARE},
+};
+
+const struct PackContents gTCGSecretsofEternitySneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGSecretsofEternitySuperEdition[] =
+{
+};
+
+const struct PackContents gTCGShadowSpecters[] =
+{
+	{ITEM_CARD_GRANMARG_THE_MEGA_MONARCH, RARITY_SECRET_RARE},
+	{ITEM_CARD_ARCHFIEND_GIANT, RARITY_RARE},
+};
+
+const struct PackContents gTCGShadowSpectersSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGShadowSpectersSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGShadowofInfinity[] =
+{
+	{ITEM_CARD_SAND_MOTH, RARITY_COMMON},
+	{ITEM_CARD_CHAINSAW_INSECT, RARITY_RARE},
+	{ITEM_CARD_CHAINSAW_INSECT, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_GOKIPON, RARITY_COMMON},
+	{ITEM_CARD_KARMA_CUT, RARITY_RARE},
+	{ITEM_CARD_KARMA_CUT, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_DOOM_DOZER, RARITY_RARE},
+	{ITEM_CARD_DOOM_DOZER, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_TREEBORN_FROG, RARITY_RARE},
+	{ITEM_CARD_TREEBORN_FROG, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_SABER_BEETLE, RARITY_COMMON},
+};
+
+const struct PackContents gTCGShadowofInfinitySneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGShadowofInfinitySpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGShadowsinValhalla[] =
+{
+	{ITEM_CARD_WHITE_DRAGON_NINJA, RARITY_SUPER_RARE},
+	{ITEM_CARD_UPSTART_GOLDEN_NINJA, RARITY_SUPER_RARE},
+	{ITEM_CARD_NINJA_GRANDMASTER_HANZO, RARITY_SUPER_RARE},
+	{ITEM_CARD_YELLOW_NINJA, RARITY_SUPER_RARE},
+	{ITEM_CARD_RED_DRAGON_NINJA, RARITY_SUPER_RARE},
+	{ITEM_CARD_YELLOW_DRAGON_NINJA, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGShiningVictories[] =
+{
+	{ITEM_CARD_PROTECTOR_WITH_EYES_OF_BLUE, RARITY_COMMON},
+	{ITEM_CARD_TENMATAITEI, RARITY_RARE},
+	{ITEM_CARD_SAGE_WITH_EYES_OF_BLUE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MASTER_WITH_EYES_OF_BLUE, RARITY_COMMON},
+	{ITEM_CARD_PRIESTESS_WITH_EYES_OF_BLUE, RARITY_SUPER_RARE},
+	{ITEM_CARD_THE_WHITE_STONE_OF_ANCIENTS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RED_EYES_TOON_DRAGON, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGShiningVictoriesSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGShiningVictoriesSpecialEdition[] =
+{
+	{ITEM_CARD_MAGICIAN_S_ROBE, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGShonenJump2007subscriptionbonus[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpAugust2008subscriptionbonus[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpChampionship2004PrizeCard[] =
+{
+	{ITEM_CARD_CYBER_STEIN, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGShonenJumpChampionship2005PrizeCard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpChampionship2006PrizeCard[] =
+{
+	{ITEM_CARD_SHRINK, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGShonenJumpChampionship2007PrizeCardA[] =
+{
+	{ITEM_CARD_CRUSH_CARD_VIRUS, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGShonenJumpChampionship2007PrizeCardB[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpChampionship2008PrizeCard[] =
+{
+	{ITEM_CARD_DOOMCALIBER_KNIGHT, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGShonenJumpChampionship2009PrizeCard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpDecember2010subscriptionbonus[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpDecember2011subscriptionbonus[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpFebruary2009subscriptionbonus[] =
+{
+	{ITEM_CARD_RED_EYES_DARKNESS_METAL_DRAGON, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGShonenJumpFifthAnniversaryCollectorsIssuepromotionalcard[] =
+{
+	{ITEM_CARD_MAGICIAN_S_VALKYRIA, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGShonenJumpJuneJuly2011subscriptionbonus[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpMarch2010subscriptionbonus[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpMay2006subscriptionbonus[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpMay2008subscriptionbonus[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpMay2010subscriptionbonus[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpScholasticEditionVol9Issue1promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpVol1Issue1promotionalcard[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGShonenJumpVol10Issue1promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpVol10Issue3promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpVol10Issue4promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpVol2Issue1promotionalcard[] =
+{
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGShonenJumpVol3Issue1promotionalcard[] =
+{
+	{ITEM_CARD_ARCHFIEND_OF_GILFER, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGShonenJumpVol3Issue11promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpVol3Issue6promotionalcard[] =
+{
+	{ITEM_CARD_CYBER_HARPIE_LADY, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGShonenJumpVol3Issue9promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpVol4Issue1promotionalcard[] =
+{
+	{ITEM_CARD_BLUE_EYES_ULTIMATE_DRAGON, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGShonenJumpVol4Issue10promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpVol4Issue11promotionalcard[] =
+{
+	{ITEM_CARD_MAGICIAN_S_VALKYRIA, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGShonenJumpVol4Issue12promotionalcard[] =
+{
+	{ITEM_CARD_TOON_DARK_MAGICIAN_GIRL, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGShonenJumpVol4Issue2promotionalcard[] =
+{
+	{ITEM_CARD_EXCHANGE_OF_THE_SPIRIT, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGShonenJumpVol4Issue5promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpVol5Issue1promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpVol5Issue11promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpVol5Issue4promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpVol5Issue6promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpVol5Issue9promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpVol6Issue1promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpVol6Issue12promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpVol6Issue3promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpVol6Issue5promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpVol6Issue9promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpVol7Issue1promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpVol7Issue11promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpVol7Issue3promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpVol7Issue6promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpVol7Issue9promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpVol8Issue1promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpVol8Issue11promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpVol8Issue3promotionalcard[] =
+{
+	{ITEM_CARD_CYBER_ELTANIN, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGShonenJumpVol8Issue5promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpVol8Issue7promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpVol8Issue9promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpVol9Issue1promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpVol9Issue10promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpVol9Issue3promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpVol9Issue4promotionalcard[] =
+{
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGShonenJumpVol9Issue6promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGShonenJumpVol9Issue8promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGSoulFusion[] =
+{
+	{ITEM_CARD_THUNDER_DRAGONROAR, RARITY_ULTRA_RARE},
+	{ITEM_CARD_THUNDER_DRAGONDUO, RARITY_SUPER_RARE},
+	{ITEM_CARD_THUNDER_DRAGONMATRIX, RARITY_RARE},
+	{ITEM_CARD_THUNDER_DRAGONDARK, RARITY_ULTRA_RARE},
+	{ITEM_CARD_THUNDER_DRAGONHAWK, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGSoulFusionSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGSoulFusionSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGSouloftheDuelist[] =
+{
+	{ITEM_CARD_MOBIUS_THE_FROST_MONARCH, RARITY_SUPER_RARE},
+	{ITEM_CARD_MOBIUS_THE_FROST_MONARCH, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_BLACK_DRAGON_S_CHICK, RARITY_COMMON},
+	{ITEM_CARD_DARK_MIMIC_LV1, RARITY_COMMON},
+	{ITEM_CARD_HOWLING_INSECT, RARITY_COMMON},
+	{ITEM_CARD_MYSTIC_SWORDSMAN_LV4, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MYSTIC_SWORDSMAN_LV4, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_SKULL_DOG_MARRON, RARITY_COMMON},
+	{ITEM_CARD_NINJA_GRANDMASTER_SASUKE, RARITY_RARE},
+	{ITEM_CARD_NINJA_GRANDMASTER_SASUKE, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_DARK_MIMIC_LV3, RARITY_RARE},
+	{ITEM_CARD_DARK_MIMIC_LV3, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_MYSTIC_SWORDSMAN_LV2, RARITY_RARE},
+	{ITEM_CARD_MYSTIC_SWORDSMAN_LV2, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_MASKED_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_OJAMA_KING, RARITY_RARE},
+	{ITEM_CARD_OJAMA_KING, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_CHARCOAL_INPACHI, RARITY_RARE},
+	{ITEM_CARD_CHARCOAL_INPACHI, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_HALLOWED_LIFE_BARRIER, RARITY_SUPER_RARE},
+	{ITEM_CARD_HALLOWED_LIFE_BARRIER, RARITY_ULTIMATE_RARE},
+};
+
+const struct PackContents gTCGSpaceTimeShowdownPowerUpPack[] =
+{
+	{ITEM_CARD_MAGIC_CYLINDER, RARITY_COMMON},
+	{ITEM_CARD_DARK_HOLE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_COMMON},
+	{ITEM_CARD_D_D_WARRIOR_LADY, RARITY_COMMON},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_COMMON},
+	{ITEM_CARD_SACRED_CRANE, RARITY_COMMON},
+	{ITEM_CARD_INJECTION_FAIRY_LILY, RARITY_COMMON},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+};
+
+const struct PackContents gTCGSpeedDuelDemoDeck[] =
+{
+	{ITEM_CARD_BATTLE_OX, RARITY_COMMON},
+	{ITEM_CARD_METEOR_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_GRAVEKEEPER_S_SPEAR_SOLDIER, RARITY_COMMON},
+};
+
+const struct PackContents gTCGSpeedDuelDemoDeck2020[] =
+{
+	{ITEM_CARD_BATTLE_OX, RARITY_COMMON},
+	{ITEM_CARD_METEOR_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_YOMI_SHIP, RARITY_COMMON},
+	{ITEM_CARD_GRAVEKEEPER_S_SPEAR_SOLDIER, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENTS, RARITY_COMMON},
+	{ITEM_CARD_BLOCK_ATTACK, RARITY_COMMON},
+};
+
+const struct PackContents gTCGSpeedDuelGXDuelAcademyBox[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_CYBER_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_BLAZING_INPACHI, RARITY_COMMON},
+	{ITEM_CARD_SONIC_BIRD, RARITY_COMMON},
+	{ITEM_CARD_ELEMENTAL_HERO_WILDHEART, RARITY_COMMON},
+	{ITEM_CARD_CHIRON_THE_MAGE, RARITY_COMMON},
+	{ITEM_CARD_SENJU_OF_THE_THOUSAND_HANDS, RARITY_COMMON},
+	{ITEM_CARD_SPHERE_KURIBOH, RARITY_COMMON},
+	{ITEM_CARD_SPHERE_KURIBOH, RARITY_SECRET_RARE},
+	{ITEM_CARD_MECHANICALCHASER, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_COMMON},
+	{ITEM_CARD_WROUGHTWEILER, RARITY_COMMON},
+	{ITEM_CARD_D_D_WARRIOR_LADY, RARITY_COMMON},
+	{ITEM_CARD_D_D_WARRIOR_LADY, RARITY_SECRET_RARE},
+	{ITEM_CARD_ELEMENTAL_HERO_CLAYMAN, RARITY_COMMON},
+	{ITEM_CARD_GIANT_RAT, RARITY_COMMON},
+	{ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN, RARITY_COMMON},
+	{ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN, RARITY_SECRET_RARE},
+	{ITEM_CARD_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE, RARITY_COMMON},
+	{ITEM_CARD_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE, RARITY_SECRET_RARE},
+	{ITEM_CARD_OJAMA_KING, RARITY_COMMON},
+	{ITEM_CARD_OJAMA_KING, RARITY_SECRET_RARE},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_SECRET_RARE},
+	{ITEM_CARD_CYBER_END_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_CYBER_END_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_HYDROGEDDON, RARITY_COMMON},
+	{ITEM_CARD_HYDROGEDDON, RARITY_SECRET_RARE},
+	{ITEM_CARD_CHARCOAL_INPACHI, RARITY_COMMON},
+	{ITEM_CARD_DON_ZALOOG, RARITY_COMMON},
+	{ITEM_CARD_DON_ZALOOG, RARITY_SECRET_RARE},
+	{ITEM_CARD_HALLOWED_LIFE_BARRIER, RARITY_COMMON},
+};
+
+const struct PackContents gTCGSpeedDuelGXDuelistsofShadows[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_CYBER_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_DRAGON_S_RAGE, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_WYVERN, RARITY_COMMON},
+	{ITEM_CARD_DARK_WORLD_LIGHTNING, RARITY_COMMON},
+	{ITEM_CARD_SOUL_EXCHANGE, RARITY_COMMON},
+	{ITEM_CARD_VAMPIRE_LORD, RARITY_COMMON},
+	{ITEM_CARD_SPEAR_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_SAND_MOTH, RARITY_COMMON},
+	{ITEM_CARD_DARK_SCORPION_CLIFF_THE_TRAP_REMOVER, RARITY_COMMON},
+	{ITEM_CARD_ELEMENTAL_HERO_WILDHEART, RARITY_COMMON},
+	{ITEM_CARD_NIGHTMARE_WHEEL, RARITY_COMMON},
+	{ITEM_CARD_LEGENDARY_JUJITSU_MASTER, RARITY_COMMON},
+	{ITEM_CARD_LEGENDARY_JUJITSU_MASTER, RARITY_SECRET_RARE},
+	{ITEM_CARD_BLACK_DRAGON_S_CHICK, RARITY_COMMON},
+	{ITEM_CARD_TERRORKING_SALMON, RARITY_COMMON},
+	{ITEM_CARD_MOTHER_GRIZZLY, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_LIFE, RARITY_COMMON},
+	{ITEM_CARD_ARCHFIEND_SOLDIER, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_COMMON},
+	{ITEM_CARD_ZURE_KNIGHT_OF_DARK_WORLD, RARITY_COMMON},
+	{ITEM_CARD_ELEMENTAL_HERO_CLAYMAN, RARITY_COMMON},
+	{ITEM_CARD_GAGAGIGO, RARITY_COMMON},
+	{ITEM_CARD_BAZOO_THE_SOUL_EATER, RARITY_COMMON},
+	{ITEM_CARD_AQUA_SPIRIT, RARITY_COMMON},
+	{ITEM_CARD_GIANT_ORC, RARITY_COMMON},
+	{ITEM_CARD_MIRAGE_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_DARK_DEAL, RARITY_COMMON},
+	{ITEM_CARD_LUSTER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_DARK_SCORPION_CHICK_THE_YELLOW, RARITY_COMMON},
+	{ITEM_CARD_AXE_OF_DESPAIR, RARITY_COMMON},
+	{ITEM_CARD_D_D_SURVIVOR, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_COMMON},
+	{ITEM_CARD_RYU_KOKKI, RARITY_COMMON},
+	{ITEM_CARD_BRRON_MAD_KING_OF_DARK_WORLD, RARITY_COMMON},
+	{ITEM_CARD_BLACK_METAL_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_DARK_RULER_HA_DES, RARITY_COMMON},
+};
+
+const struct PackContents gTCGSpeedDuelGXMidtermDestruction[] =
+{
+	{ITEM_CARD_SPIRITUAL_EARTH_ART_KUROGANE, RARITY_COMMON},
+	{ITEM_CARD_GILASAURUS, RARITY_COMMON},
+	{ITEM_CARD_SAKURETSU_ARMOR, RARITY_COMMON},
+	{ITEM_CARD_SAKURETSU_ARMOR, RARITY_SECRET_RARE},
+	{ITEM_CARD_POT_OF_AVARICE, RARITY_COMMON},
+	{ITEM_CARD_POT_OF_AVARICE, RARITY_SECRET_RARE},
+	{ITEM_CARD_BIG_TUSKED_MAMMOTH, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGSpeedDuelGXMidtermParadox[] =
+{
+	{ITEM_CARD_PIKERU_S_CIRCLE_OF_ENCHANTMENT, RARITY_COMMON},
+	{ITEM_CARD_KAISER_SEA_HORSE, RARITY_COMMON},
+	{ITEM_CARD_ELEMENTAL_HERO_BLAZEMAN, RARITY_COMMON},
+	{ITEM_CARD_SOUL_EXCHANGE, RARITY_COMMON},
+	{ITEM_CARD_CRASS_CLOWN, RARITY_COMMON},
+	{ITEM_CARD_JIRAI_GUMO, RARITY_COMMON},
+	{ITEM_CARD_ELEMENTAL_HERO_WILDHEART, RARITY_COMMON},
+	{ITEM_CARD_STONE_STATUE_OF_THE_AZTECS, RARITY_COMMON},
+	{ITEM_CARD_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL, RARITY_COMMON},
+	{ITEM_CARD_ELEMENTAL_HERO_CLAYMAN, RARITY_COMMON},
+	{ITEM_CARD_DES_KOALA, RARITY_COMMON},
+	{ITEM_CARD_DRILLROID, RARITY_COMMON},
+	{ITEM_CARD_DRILLROID, RARITY_SECRET_RARE},
+	{ITEM_CARD_DREAM_CLOWN, RARITY_COMMON},
+	{ITEM_CARD_A_LEGENDARY_OCEAN, RARITY_COMMON},
+	{ITEM_CARD_DES_WOMBAT, RARITY_COMMON},
+	{ITEM_CARD_HYDROGEDDON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGSpeedDuelRemoteDuelExtravaganzaMainEventprizecards[] =
+{
+	{ITEM_CARD_JINZO, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGSpeedDuelStarterDecksDestinyMasters[] =
+{
+	{ITEM_CARD_MAGICIAN_S_CIRCLE, RARITY_COMMON},
+	{ITEM_CARD_GRAVEKEEPER_S_ASSAILANT, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_COMMON},
+	{ITEM_CARD_JAR_OF_GREED, RARITY_COMMON},
+	{ITEM_CARD_TOON_SUMMONED_SKULL, RARITY_COMMON},
+	{ITEM_CARD_MAGIC_JAMMER, RARITY_COMMON},
+	{ITEM_CARD_BLACK_ILLUSION_RITUAL, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_GRAVEKEEPER_S_SPEAR_SOLDIER, RARITY_COMMON},
+	{ITEM_CARD_RELINQUISHED, RARITY_COMMON},
+	{ITEM_CARD_TOON_TABLE_OF_CONTENTS, RARITY_COMMON},
+	{ITEM_CARD_TOON_MASKED_SORCERER, RARITY_COMMON},
+	{ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT, RARITY_COMMON},
+};
+
+const struct PackContents gTCGSpeedDuelStarterDecksDuelistsofTomorrow[] =
+{
+	{ITEM_CARD_KAIBAMAN, RARITY_COMMON},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_BATTLE_OX, RARITY_COMMON},
+	{ITEM_CARD_METEOR_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_FLAME_SWORDSMAN, RARITY_COMMON},
+	{ITEM_CARD_TWIN_HEADED_BEHEMOTH, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_LORD_OF_D_, RARITY_COMMON},
+};
+
+const struct PackContents gTCGSpeedDuelStarterDecksMatchoftheMillennium[] =
+{
+	{ITEM_CARD_SONIC_BIRD, RARITY_COMMON},
+	{ITEM_CARD_TOON_SUMMONED_SKULL, RARITY_COMMON},
+	{ITEM_CARD_KURIBOH, RARITY_COMMON},
+	{ITEM_CARD_MAGICIAN_OF_FAITH, RARITY_COMMON},
+	{ITEM_CARD_DUST_TORNADO, RARITY_COMMON},
+	{ITEM_CARD_SENJU_OF_THE_THOUSAND_HANDS, RARITY_COMMON},
+	{ITEM_CARD_SPHERE_KURIBOH, RARITY_COMMON},
+	{ITEM_CARD_TOON_GEMINI_ELF, RARITY_COMMON},
+	{ITEM_CARD_GAIA_THE_DRAGON_CHAMPION, RARITY_COMMON},
+	{ITEM_CARD_CHARGING_GAIA_THE_FIERCE_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_MAGIC_JAMMER, RARITY_COMMON},
+	{ITEM_CARD_BLACK_ILLUSION_RITUAL, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_THOUSAND_EYES_RESTRICT, RARITY_COMMON},
+	{ITEM_CARD_RELINQUISHED, RARITY_COMMON},
+	{ITEM_CARD_GIANT_SOLDIER_OF_STONE, RARITY_COMMON},
+	{ITEM_CARD_GAIA_THE_FIERCE_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_TOON_TABLE_OF_CONTENTS, RARITY_COMMON},
+	{ITEM_CARD_TOON_MASKED_SORCERER, RARITY_COMMON},
+	{ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT, RARITY_COMMON},
+};
+
+const struct PackContents gTCGSpeedDuelStarterDecksTwistedNightmares[] =
+{
+	{ITEM_CARD_GIL_GARTH, RARITY_COMMON},
+	{ITEM_CARD_NEWDORIA, RARITY_COMMON},
+	{ITEM_CARD_BYSER_SHOCK, RARITY_COMMON},
+	{ITEM_CARD_MASK_OF_DARKNESS, RARITY_COMMON},
+	{ITEM_CARD_NIGHTMARE_WHEEL, RARITY_COMMON},
+	{ITEM_CARD_BOWGANIAN, RARITY_COMMON},
+	{ITEM_CARD_DARK_MIMIC_LV1, RARITY_COMMON},
+	{ITEM_CARD_LESSER_FIEND, RARITY_COMMON},
+	{ITEM_CARD_LANCER_ARCHFIEND, RARITY_COMMON},
+	{ITEM_CARD_OFFERINGS_TO_THE_DOOMED, RARITY_COMMON},
+	{ITEM_CARD_DARK_MIMIC_LV3, RARITY_COMMON},
+	{ITEM_CARD_EARTHBOUND_SPIRIT, RARITY_COMMON},
+	{ITEM_CARD_METAL_REFLECT_SLIME, RARITY_COMMON},
+	{ITEM_CARD_DARK_RULER_HA_DES, RARITY_COMMON},
+};
+
+const struct PackContents gTCGSpeedDuelStarterDecksUltimatePredators[] =
+{
+	{ITEM_CARD_GOKIPON, RARITY_COMMON},
+	{ITEM_CARD_HYPER_HAMMERHEAD, RARITY_COMMON},
+	{ITEM_CARD_PINCH_HOPPER, RARITY_COMMON},
+	{ITEM_CARD_GILASAURUS, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENTS, RARITY_COMMON},
+	{ITEM_CARD_MAN_EATER_BUG, RARITY_COMMON},
+};
+
+const struct PackContents gTCGSpeedDuelTournamentPack1[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_SUPER_RARE},
+	{ITEM_CARD_BLACK_ILLUSION_RITUAL, RARITY_SUPER_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RELINQUISHED, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_TOON_TABLE_OF_CONTENTS, RARITY_SUPER_RARE},
+	{ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT, RARITY_SUPER_RARE},
+	{ITEM_CARD_LORD_OF_D_, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGSpeedDuelTournamentPack2[] =
+{
+	{ITEM_CARD_HYPER_HAMMERHEAD, RARITY_SUPER_RARE},
+	{ITEM_CARD_MAN_EATER_BUG, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGSpeedDuelTournamentPack3[] =
+{
+	{ITEM_CARD_NIGHTMARE_WHEEL, RARITY_SUPER_RARE},
+	{ITEM_CARD_DUST_TORNADO, RARITY_COMMON},
+	{ITEM_CARD_CHARGING_GAIA_THE_FIERCE_KNIGHT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_OFFERINGS_TO_THE_DOOMED, RARITY_SUPER_RARE},
+	{ITEM_CARD_DARK_RULER_HA_DES, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGSpeedDuelTournamentPack4[] =
+{
+	{ITEM_CARD_CREATURE_SWAP, RARITY_ULTRA_RARE},
+	{ITEM_CARD_NEWDORIA, RARITY_SUPER_RARE},
+	{ITEM_CARD_MASK_OF_DARKNESS, RARITY_COMMON},
+	{ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR, RARITY_SUPER_RARE},
+	{ITEM_CARD_BOOK_OF_LIFE, RARITY_COMMON},
+	{ITEM_CARD_NOBLEMAN_OF_CROSSOUT, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGIC_CURTAIN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GIANT_RAT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLADE_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_LEVIA_DRAGON_DAEDALUS, RARITY_COMMON},
+};
+
+const struct PackContents gTCGSpeedDuelTournamentPack5[] =
+{
+	{ITEM_CARD_JAR_OF_GREED, RARITY_SUPER_RARE},
+	{ITEM_CARD_ELEMENTAL_HERO_WILDHEART, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SPHERE_KURIBOH, RARITY_COMMON},
+	{ITEM_CARD_JINZO, RARITY_COMMON},
+	{ITEM_CARD_SINISTER_SERPENT, RARITY_COMMON},
+	{ITEM_CARD_YOMI_SHIP, RARITY_COMMON},
+	{ITEM_CARD_TWIN_HEADED_BEHEMOTH, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_COMMON},
+	{ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT, RARITY_COMMON},
+};
+
+const struct PackContents gTCGSpeedDuelTournamentPack6[] =
+{
+	{ITEM_CARD_ELEMENTAL_HERO_BLAZEMAN, RARITY_SUPER_RARE},
+	{ITEM_CARD_DROP_OFF, RARITY_COMMON},
+	{ITEM_CARD_WABOKU, RARITY_COMMON},
+	{ITEM_CARD_WIDESPREAD_RUIN, RARITY_SUPER_RARE},
+	{ITEM_CARD_NIGHT_ASSAILANT, RARITY_COMMON},
+	{ITEM_CARD_NOBLEMAN_OF_EXTERMINATION, RARITY_COMMON},
+	{ITEM_CARD_D_D_SURVIVOR, RARITY_ULTRA_RARE},
+	{ITEM_CARD_LORD_OF_D_, RARITY_COMMON},
+};
+
+const struct PackContents gTCGSpeedDuelTournamentPack7[] =
+{
+	{ITEM_CARD_UNITED_WE_STAND, RARITY_SUPER_RARE},
+	{ITEM_CARD_SKILLED_DARK_MAGICIAN, RARITY_SUPER_RARE},
+	{ITEM_CARD_COMMAND_KNIGHT, RARITY_SUPER_RARE},
+	{ITEM_CARD_BLACK_ILLUSION_RITUAL, RARITY_COMMON},
+	{ITEM_CARD_SHRINK, RARITY_COMMON},
+	{ITEM_CARD_JINZO, RARITY_SUPER_RARE},
+	{ITEM_CARD_GEARFRIED_THE_RED_EYES_IRON_KNIGHT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_THOUSAND_EYES_RESTRICT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RELINQUISHED, RARITY_SUPER_RARE},
+	{ITEM_CARD_OFFERINGS_TO_THE_DOOMED, RARITY_COMMON},
+	{ITEM_CARD_GRANMARG_THE_ROCK_MONARCH, RARITY_COMMON},
+	{ITEM_CARD_GAIA_THE_FIERCE_KNIGHT, RARITY_SUPER_RARE},
+	{ITEM_CARD_METAL_REFLECT_SLIME, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGSpeedDuelArenaofLostSouls[] =
+{
+	{ITEM_CARD_SENJU_OF_THE_THOUSAND_HANDS, RARITY_SUPER_RARE},
+	{ITEM_CARD_SPHERE_KURIBOH, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BUSTER_BLADER, RARITY_COMMON},
+	{ITEM_CARD_DE_SPELL, RARITY_COMMON},
+	{ITEM_CARD_BLUE_EYES_ULTIMATE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLOCK_ATTACK, RARITY_COMMON},
+};
+
+const struct PackContents gTCGSpeedDuelAttackfromtheDeep[] =
+{
+	{ITEM_CARD_SONIC_BIRD, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MYSTICAL_ELF, RARITY_COMMON},
+	{ITEM_CARD_MAGICIAN_OF_FAITH, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DUST_TORNADO, RARITY_SUPER_RARE},
+	{ITEM_CARD_GREAT_WHITE, RARITY_COMMON},
+	{ITEM_CARD_BLADE_KNIGHT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SINISTER_SERPENT, RARITY_COMMON},
+	{ITEM_CARD_YOMI_SHIP, RARITY_SUPER_RARE},
+	{ITEM_CARD_LEVIA_DRAGON_DAEDALUS, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGSpeedDuelBattleCityBox[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_CREATURE_SWAP, RARITY_COMMON},
+	{ITEM_CARD_UNITED_WE_STAND, RARITY_COMMON},
+	{ITEM_CARD_AIRKNIGHT_PARSHATH, RARITY_COMMON},
+	{ITEM_CARD_AIRKNIGHT_PARSHATH, RARITY_SECRET_RARE},
+	{ITEM_CARD_DROP_OFF, RARITY_COMMON},
+	{ITEM_CARD_THE_BIG_MARCH_OF_ANIMALS, RARITY_COMMON},
+	{ITEM_CARD_SOUL_EXCHANGE, RARITY_COMMON},
+	{ITEM_CARD_DES_LACOODA, RARITY_COMMON},
+	{ITEM_CARD_WABOKU, RARITY_COMMON},
+	{ITEM_CARD_SKILLED_RED_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_DARK_PALADIN, RARITY_COMMON},
+	{ITEM_CARD_DARK_PALADIN, RARITY_SECRET_RARE},
+	{ITEM_CARD_BANISHER_OF_THE_LIGHT, RARITY_COMMON},
+	{ITEM_CARD_SPEAR_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_WIDESPREAD_RUIN, RARITY_COMMON},
+	{ITEM_CARD_SWARM_OF_LOCUSTS, RARITY_COMMON},
+	{ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR, RARITY_COMMON},
+	{ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR, RARITY_SECRET_RARE},
+	{ITEM_CARD_MANTICORE_OF_DARKNESS, RARITY_COMMON},
+	{ITEM_CARD_BEAST_OF_TALWAR, RARITY_COMMON},
+	{ITEM_CARD_SKILLED_WHITE_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_DARK_BLADE, RARITY_COMMON},
+	{ITEM_CARD_WALL_OF_ILLUSION, RARITY_COMMON},
+	{ITEM_CARD_DUNAMES_DARK_WITCH, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_SECRET_RARE},
+	{ITEM_CARD_AQUA_MADOOR, RARITY_COMMON},
+	{ITEM_CARD_NOBLEMAN_OF_CROSSOUT, RARITY_COMMON},
+	{ITEM_CARD_NOBLEMAN_OF_CROSSOUT, RARITY_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGIC_CURTAIN, RARITY_COMMON},
+	{ITEM_CARD_NIGHT_ASSAILANT, RARITY_COMMON},
+	{ITEM_CARD_BLOWBACK_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_SPELL_CANCELLER, RARITY_COMMON},
+	{ITEM_CARD_SPELL_CANCELLER, RARITY_SECRET_RARE},
+	{ITEM_CARD_SHRINK, RARITY_COMMON},
+	{ITEM_CARD_BAZOO_THE_SOUL_EATER, RARITY_COMMON},
+	{ITEM_CARD_GIANT_RAT, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_SECRET_RARE},
+	{ITEM_CARD_KYCOO_THE_GHOST_DESTROYER, RARITY_COMMON},
+	{ITEM_CARD_THE_FIEND_MEGACYBER, RARITY_COMMON},
+	{ITEM_CARD_JINZO, RARITY_COMMON},
+	{ITEM_CARD_JINZO, RARITY_SECRET_RARE},
+	{ITEM_CARD_EXILED_FORCE, RARITY_COMMON},
+	{ITEM_CARD_BUSTER_BLADER, RARITY_COMMON},
+	{ITEM_CARD_BUSTER_BLADER, RARITY_SECRET_RARE},
+	{ITEM_CARD_WHITE_DRAGON_RITUAL, RARITY_COMMON},
+	{ITEM_CARD_ARCHFIEND_OF_GILFER, RARITY_COMMON},
+	{ITEM_CARD_SWARM_OF_SCARABS, RARITY_COMMON},
+	{ITEM_CARD_OPTICLOPS, RARITY_COMMON},
+	{ITEM_CARD_MAGE_POWER, RARITY_COMMON},
+	{ITEM_CARD_PALADIN_OF_WHITE_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_GRANMARG_THE_ROCK_MONARCH, RARITY_COMMON},
+	{ITEM_CARD_CYBER_HARPIE_LADY, RARITY_COMMON},
+	{ITEM_CARD_GIANT_SOLDIER_OF_STONE, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_ZOMBYRA_THE_DARK, RARITY_COMMON},
+	{ITEM_CARD_NOBLEMAN_OF_EXTERMINATION, RARITY_COMMON},
+	{ITEM_CARD_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP, RARITY_COMMON},
+	{ITEM_CARD_VORSE_RAIDER, RARITY_COMMON},
+	{ITEM_CARD_BUSTER_BLADER_THE_DESTRUCTION_SWORDMASTER, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_COMMON},
+	{ITEM_CARD_X_HEAD_CANNON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGSpeedDuelBattleCityFinals[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_MYSTIC_TOMATO, RARITY_COMMON},
+	{ITEM_CARD_UNITED_WE_STAND, RARITY_COMMON},
+	{ITEM_CARD_AIRKNIGHT_PARSHATH, RARITY_COMMON},
+	{ITEM_CARD_WITCH_OF_THE_BLACK_FOREST, RARITY_COMMON},
+	{ITEM_CARD_FUSION_DEVOURER, RARITY_COMMON},
+	{ITEM_CARD_NEWDORIA, RARITY_COMMON},
+	{ITEM_CARD_MAGICIAN_S_VALKYRIA, RARITY_COMMON},
+	{ITEM_CARD_SPIRITUALISM, RARITY_COMMON},
+	{ITEM_CARD_DES_LACOODA, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_WABOKU, RARITY_COMMON},
+	{ITEM_CARD_GUARDIAN_SPHINX, RARITY_COMMON},
+	{ITEM_CARD_MOBIUS_THE_FROST_MONARCH, RARITY_COMMON},
+	{ITEM_CARD_MOBIUS_THE_FROST_MONARCH, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_BLAST_WITH_CHAIN, RARITY_COMMON},
+	{ITEM_CARD_SWARM_OF_LOCUSTS, RARITY_COMMON},
+	{ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR, RARITY_COMMON},
+	{ITEM_CARD_NIGHTMARE_WHEEL, RARITY_COMMON},
+	{ITEM_CARD_NECROVALLEY, RARITY_COMMON},
+	{ITEM_CARD_NECROVALLEY, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_DUST_TORNADO, RARITY_COMMON},
+	{ITEM_CARD_PREMATURE_BURIAL, RARITY_COMMON},
+	{ITEM_CARD_GRAVEKEEPER_S_GUARD, RARITY_COMMON},
+	{ITEM_CARD_SPIRIT_REAPER, RARITY_COMMON},
+	{ITEM_CARD_SPIRIT_REAPER, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_EXCHANGE_OF_THE_SPIRIT, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_COMMON},
+	{ITEM_CARD_COMMAND_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_BIG_SHIELD_GARDNA, RARITY_COMMON},
+	{ITEM_CARD_FLYING_KAMAKIRI_1, RARITY_COMMON},
+	{ITEM_CARD_NIGHT_ASSAILANT, RARITY_COMMON},
+	{ITEM_CARD_DRAGGED_DOWN_INTO_THE_GRAVE, RARITY_COMMON},
+	{ITEM_CARD_SHRINK, RARITY_COMMON},
+	{ITEM_CARD_SHRINK, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_JINZO, RARITY_COMMON},
+	{ITEM_CARD_TRIBE_INFECTING_VIRUS, RARITY_COMMON},
+	{ITEM_CARD_TRIBE_INFECTING_VIRUS, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_GRAVEKEEPER_S_SPY, RARITY_COMMON},
+	{ITEM_CARD_GRAVEKEEPER_S_SPY, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_MIRAGE_OF_NIGHTMARE, RARITY_COMMON},
+	{ITEM_CARD_MIRAGE_OF_NIGHTMARE, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_SAKURETSU_ARMOR, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_COMMON},
+	{ITEM_CARD_SANGAN, RARITY_COMMON},
+	{ITEM_CARD_SWARM_OF_SCARABS, RARITY_COMMON},
+	{ITEM_CARD_OFFERINGS_TO_THE_DOOMED, RARITY_COMMON},
+	{ITEM_CARD_INJECTION_FAIRY_LILY, RARITY_COMMON},
+	{ITEM_CARD_INJECTION_FAIRY_LILY, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_REMOVE_TRAP, RARITY_COMMON},
+	{ITEM_CARD_FISSURE, RARITY_COMMON},
+	{ITEM_CARD_CYBER_HARPIE_LADY, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_SHINING_ANGEL, RARITY_COMMON},
+	{ITEM_CARD_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP, RARITY_COMMON},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_COMMON},
+	{ITEM_CARD_METAL_REFLECT_SLIME, RARITY_COMMON},
+	{ITEM_CARD_ASURA_PRIEST, RARITY_COMMON},
+	{ITEM_CARD_ASURA_PRIEST, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_BLUE_EYES_ULTIMATE_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_KING_OF_THE_SWAMP, RARITY_COMMON},
+	{ITEM_CARD_KING_OF_THE_SWAMP, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_COMMON},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_COMMON},
+	{ITEM_CARD_MAGIKURIBOH, RARITY_COMMON},
+	{ITEM_CARD_BLUE_FLAME_SWORDSMAN, RARITY_COMMON},
+	{ITEM_CARD_X_HEAD_CANNON, RARITY_COMMON},
+	{ITEM_CARD_MAKYURA_THE_DESTRUCTOR, RARITY_COMMON},
+	{ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+	{ITEM_CARD_DOOMCALIBER_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_DOOMCALIBER_KNIGHT, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_DARK_RULER_HA_DES, RARITY_COMMON},
+};
+
+const struct PackContents gTCGSpeedDuelScarsofBattle[] =
+{
+	{ITEM_CARD_VAMPIRE_LORD, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MASK_OF_DARKNESS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BOOK_OF_LIFE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_COMMAND_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGSpeedDuelStreetsofBattleCity[] =
+{
+	{ITEM_CARD_CREATURE_SWAP, RARITY_COMMON},
+	{ITEM_CARD_CREATURE_SWAP, RARITY_SECRET_RARE},
+	{ITEM_CARD_UNITED_WE_STAND, RARITY_COMMON},
+	{ITEM_CARD_AIRKNIGHT_PARSHATH, RARITY_COMMON},
+	{ITEM_CARD_SKILLED_DARK_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_SECRET_RARE},
+	{ITEM_CARD_SOLEMN_WISHES, RARITY_COMMON},
+	{ITEM_CARD_MAIDEN_OF_THE_AQUA, RARITY_COMMON},
+	{ITEM_CARD_GOBLIN_ATTACK_FORCE, RARITY_COMMON},
+	{ITEM_CARD_GOBLIN_ATTACK_FORCE, RARITY_SECRET_RARE},
+	{ITEM_CARD_SKILLED_RED_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_DARK_PALADIN, RARITY_COMMON},
+	{ITEM_CARD_MASK_OF_DARKNESS, RARITY_COMMON},
+	{ITEM_CARD_WIDESPREAD_RUIN, RARITY_COMMON},
+	{ITEM_CARD_WIDESPREAD_RUIN, RARITY_SECRET_RARE},
+	{ITEM_CARD_MARAUDING_CAPTAIN, RARITY_COMMON},
+	{ITEM_CARD_MARAUDING_CAPTAIN, RARITY_SECRET_RARE},
+	{ITEM_CARD_BLAST_WITH_CHAIN, RARITY_COMMON},
+	{ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR, RARITY_COMMON},
+	{ITEM_CARD_SALVAGE, RARITY_COMMON},
+	{ITEM_CARD_CHAINSAW_INSECT, RARITY_COMMON},
+	{ITEM_CARD_MAGICIAN_OF_FAITH, RARITY_COMMON},
+	{ITEM_CARD_MAGICIAN_OF_FAITH, RARITY_COMMON},
+	{ITEM_CARD_DUST_TORNADO, RARITY_COMMON},
+	{ITEM_CARD_DUST_TORNADO, RARITY_SECRET_RARE},
+	{ITEM_CARD_PINCH_HOPPER, RARITY_COMMON},
+	{ITEM_CARD_GEAR_GOLEM_THE_MOVING_FORTRESS, RARITY_COMMON},
+	{ITEM_CARD_SPHERE_KURIBOH, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_TAIYOU, RARITY_COMMON},
+	{ITEM_CARD_SKILLED_WHITE_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_MOTHER_GRIZZLY, RARITY_COMMON},
+	{ITEM_CARD_FLAME_SWORDSMAN, RARITY_COMMON},
+	{ITEM_CARD_FLAME_SWORDSMAN, RARITY_SECRET_RARE},
+	{ITEM_CARD_MUKA_MUKA, RARITY_COMMON},
+	{ITEM_CARD_MIRACLE_RESTORING, RARITY_COMMON},
+	{ITEM_CARD_HOWLING_INSECT, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_COMMON},
+	{ITEM_CARD_COMMAND_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_7_COLORED_FISH, RARITY_COMMON},
+	{ITEM_CARD_NOBLEMAN_OF_CROSSOUT, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGIC_CURTAIN, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGIC_CURTAIN, RARITY_SECRET_RARE},
+	{ITEM_CARD_BLOWBACK_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_SPELL_CANCELLER, RARITY_COMMON},
+	{ITEM_CARD_SUMMONED_SKULL, RARITY_COMMON},
+	{ITEM_CARD_SUMMONED_SKULL, RARITY_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_SECRET_RARE},
+	{ITEM_CARD_KYCOO_THE_GHOST_DESTROYER, RARITY_COMMON},
+	{ITEM_CARD_KYCOO_THE_GHOST_DESTROYER, RARITY_SECRET_RARE},
+	{ITEM_CARD_THE_FIEND_MEGACYBER, RARITY_COMMON},
+	{ITEM_CARD_JINZO, RARITY_COMMON},
+	{ITEM_CARD_BUSTER_BLADER, RARITY_COMMON},
+	{ITEM_CARD_GEARFRIED_THE_RED_EYES_IRON_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_SINISTER_SERPENT, RARITY_COMMON},
+	{ITEM_CARD_MAGE_POWER, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_BABY_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_A_LEGENDARY_OCEAN, RARITY_COMMON},
+	{ITEM_CARD_HUMANOID_SLIME, RARITY_COMMON},
+	{ITEM_CARD_METAL_REFLECT_SLIME, RARITY_COMMON},
+	{ITEM_CARD_EXCHANGE, RARITY_COMMON},
+	{ITEM_CARD_EXCHANGE, RARITY_SECRET_RARE},
+	{ITEM_CARD_REFLECT_BOUNDER, RARITY_COMMON},
+	{ITEM_CARD_REFLECT_BOUNDER, RARITY_SECRET_RARE},
+	{ITEM_CARD_EMERGENCY_PROVISIONS, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_COMMON},
+	{ITEM_CARD_PITCH_BLACK_POWER_STONE, RARITY_COMMON},
+	{ITEM_CARD_PRICKLE_FAIRY, RARITY_COMMON},
+	{ITEM_CARD_BARREL_BEHIND_THE_DOOR, RARITY_COMMON},
+	{ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGSpeedDuelTrialsoftheKingdom[] =
+{
+	{ITEM_CARD_SASUKE_SAMURAI, RARITY_COMMON},
+	{ITEM_CARD_DON_ZALOOG, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGSpeedDuelTrialsoftheKingdomSneakPeekparticipationcards[] =
+{
+	{ITEM_CARD_SPHERE_KURIBOH, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENTS, RARITY_COMMON},
+};
+
+const struct PackContents gTCGSpellRuler[] =
+{
+	{ITEM_CARD_MYSTIC_TOMATO, RARITY_RARE},
+	{ITEM_CARD_MYSTIC_TOMATO, RARITY_RARE},
+	{ITEM_CARD_MYSTIC_TOMATO, RARITY_RARE},
+	{ITEM_CARD_PAINFUL_CHOICE, RARITY_SUPER_RARE},
+	{ITEM_CARD_PAINFUL_CHOICE, RARITY_SUPER_RARE},
+	{ITEM_CARD_PAINFUL_CHOICE, RARITY_SUPER_RARE},
+	{ITEM_CARD_GIANT_GERM, RARITY_RARE},
+	{ITEM_CARD_GIANT_GERM, RARITY_RARE},
+	{ITEM_CARD_GIANT_GERM, RARITY_RARE},
+	{ITEM_CARD_SONIC_BIRD, RARITY_COMMON},
+	{ITEM_CARD_SONIC_BIRD, RARITY_COMMON},
+	{ITEM_CARD_SONIC_BIRD, RARITY_COMMON},
+	{ITEM_CARD_BANISHER_OF_THE_LIGHT, RARITY_SUPER_RARE},
+	{ITEM_CARD_BANISHER_OF_THE_LIGHT, RARITY_SUPER_RARE},
+	{ITEM_CARD_BANISHER_OF_THE_LIGHT, RARITY_SUPER_RARE},
+	{ITEM_CARD_TOON_SUMMONED_SKULL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_TOON_SUMMONED_SKULL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_TOON_SUMMONED_SKULL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SENJU_OF_THE_THOUSAND_HANDS, RARITY_RARE},
+	{ITEM_CARD_SENJU_OF_THE_THOUSAND_HANDS, RARITY_RARE},
+	{ITEM_CARD_SENJU_OF_THE_THOUSAND_HANDS, RARITY_RARE},
+	{ITEM_CARD_RUSH_RECKLESSLY, RARITY_RARE},
+	{ITEM_CARD_RUSH_RECKLESSLY, RARITY_RARE},
+	{ITEM_CARD_RUSH_RECKLESSLY, RARITY_RARE},
+	{ITEM_CARD_OOKAZI, RARITY_COMMON},
+	{ITEM_CARD_MOTHER_GRIZZLY, RARITY_RARE},
+	{ITEM_CARD_MOTHER_GRIZZLY, RARITY_RARE},
+	{ITEM_CARD_MOTHER_GRIZZLY, RARITY_RARE},
+	{ITEM_CARD_FLAME_SWORDSMAN, RARITY_COMMON},
+	{ITEM_CARD_NIMBLE_MOMONGA, RARITY_RARE},
+	{ITEM_CARD_NIMBLE_MOMONGA, RARITY_RARE},
+	{ITEM_CARD_NIMBLE_MOMONGA, RARITY_RARE},
+	{ITEM_CARD_PENGUIN_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_PENGUIN_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_PENGUIN_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_CYBER_JAR, RARITY_RARE},
+	{ITEM_CARD_CYBER_JAR, RARITY_RARE},
+	{ITEM_CARD_CYBER_JAR, RARITY_RARE},
+	{ITEM_CARD_ELECTRIC_SNAKE, RARITY_COMMON},
+	{ITEM_CARD_ELECTRIC_SNAKE, RARITY_COMMON},
+	{ITEM_CARD_ELECTRIC_SNAKE, RARITY_COMMON},
+	{ITEM_CARD_THE_FORCEFUL_SENTRY, RARITY_ULTRA_RARE},
+	{ITEM_CARD_THE_FORCEFUL_SENTRY, RARITY_ULTRA_RARE},
+	{ITEM_CARD_THE_FORCEFUL_SENTRY, RARITY_ULTRA_RARE},
+	{ITEM_CARD_FLYING_KAMAKIRI_1, RARITY_RARE},
+	{ITEM_CARD_FLYING_KAMAKIRI_1, RARITY_RARE},
+	{ITEM_CARD_FLYING_KAMAKIRI_1, RARITY_RARE},
+	{ITEM_CARD_BLACK_ILLUSION_RITUAL, RARITY_SUPER_RARE},
+	{ITEM_CARD_BLACK_ILLUSION_RITUAL, RARITY_SUPER_RARE},
+	{ITEM_CARD_BLACK_ILLUSION_RITUAL, RARITY_SUPER_RARE},
+	{ITEM_CARD_GIANT_TRUNADE, RARITY_SUPER_RARE},
+	{ITEM_CARD_GIANT_TRUNADE, RARITY_SUPER_RARE},
+	{ITEM_CARD_GIANT_TRUNADE, RARITY_SUPER_RARE},
+	{ITEM_CARD_GIANT_RAT, RARITY_RARE},
+	{ITEM_CARD_GIANT_RAT, RARITY_RARE},
+	{ITEM_CARD_GIANT_RAT, RARITY_RARE},
+	{ITEM_CARD_SNATCH_STEAL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SNATCH_STEAL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SNATCH_STEAL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CHAIN_ENERGY, RARITY_COMMON},
+	{ITEM_CARD_CHAIN_ENERGY, RARITY_COMMON},
+	{ITEM_CARD_CHAIN_ENERGY, RARITY_COMMON},
+	{ITEM_CARD_MESSENGER_OF_PEACE, RARITY_SUPER_RARE},
+	{ITEM_CARD_MESSENGER_OF_PEACE, RARITY_SUPER_RARE},
+	{ITEM_CARD_MESSENGER_OF_PEACE, RARITY_SUPER_RARE},
+	{ITEM_CARD_HANE_HANE, RARITY_COMMON},
+	{ITEM_CARD_RISING_AIR_CURRENT, RARITY_SHORT_PRINT},
+	{ITEM_CARD_RISING_AIR_CURRENT, RARITY_SHORT_PRINT},
+	{ITEM_CARD_RISING_AIR_CURRENT, RARITY_SHORT_PRINT},
+	{ITEM_CARD_RELINQUISHED, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RELINQUISHED, RARITY_ULTRA_RARE},
+	{ITEM_CARD_RELINQUISHED, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLACK_PENDANT, RARITY_SUPER_RARE},
+	{ITEM_CARD_BLACK_PENDANT, RARITY_SUPER_RARE},
+	{ITEM_CARD_BLACK_PENDANT, RARITY_SUPER_RARE},
+	{ITEM_CARD_BLUE_EYES_TOON_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_BLUE_EYES_TOON_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_BLUE_EYES_TOON_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_DELINQUENT_DUO, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DELINQUENT_DUO, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DELINQUENT_DUO, RARITY_ULTRA_RARE},
+	{ITEM_CARD_NEO_THE_MAGIC_SWORDSMAN, RARITY_COMMON},
+	{ITEM_CARD_SHINING_ANGEL, RARITY_RARE},
+	{ITEM_CARD_SHINING_ANGEL, RARITY_RARE},
+	{ITEM_CARD_SHINING_ANGEL, RARITY_RARE},
+	{ITEM_CARD_SPEAR_CRETIN, RARITY_COMMON},
+	{ITEM_CARD_SPEAR_CRETIN, RARITY_COMMON},
+	{ITEM_CARD_SPEAR_CRETIN, RARITY_COMMON},
+	{ITEM_CARD_CONFISCATION, RARITY_SUPER_RARE},
+	{ITEM_CARD_CONFISCATION, RARITY_SUPER_RARE},
+	{ITEM_CARD_CONFISCATION, RARITY_SUPER_RARE},
+	{ITEM_CARD_AXE_OF_DESPAIR, RARITY_ULTRA_RARE},
+	{ITEM_CARD_AXE_OF_DESPAIR, RARITY_ULTRA_RARE},
+	{ITEM_CARD_AXE_OF_DESPAIR, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GAIA_POWER, RARITY_SHORT_PRINT},
+	{ITEM_CARD_GAIA_POWER, RARITY_SHORT_PRINT},
+	{ITEM_CARD_GAIA_POWER, RARITY_SHORT_PRINT},
+	{ITEM_CARD_MEGAMORPH, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MEGAMORPH, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MEGAMORPH, RARITY_ULTRA_RARE},
+	{ITEM_CARD_UPSTART_GOBLIN, RARITY_COMMON},
+	{ITEM_CARD_UPSTART_GOBLIN, RARITY_COMMON},
+	{ITEM_CARD_UPSTART_GOBLIN, RARITY_COMMON},
+	{ITEM_CARD_POT_OF_GREED, RARITY_RARE},
+	{ITEM_CARD_MINAR, RARITY_COMMON},
+	{ITEM_CARD_MINAR, RARITY_COMMON},
+	{ITEM_CARD_MINAR, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGSpellRuler25thAnniversaryEdition[] =
+{
+	{ITEM_CARD_MYSTIC_TOMATO, RARITY_RARE},
+	{ITEM_CARD_PAINFUL_CHOICE, RARITY_SUPER_RARE},
+	{ITEM_CARD_GIANT_GERM, RARITY_RARE},
+	{ITEM_CARD_SONIC_BIRD, RARITY_COMMON},
+	{ITEM_CARD_BANISHER_OF_THE_LIGHT, RARITY_SUPER_RARE},
+	{ITEM_CARD_TOON_SUMMONED_SKULL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SENJU_OF_THE_THOUSAND_HANDS, RARITY_RARE},
+	{ITEM_CARD_RUSH_RECKLESSLY, RARITY_RARE},
+	{ITEM_CARD_MOTHER_GRIZZLY, RARITY_RARE},
+	{ITEM_CARD_NIMBLE_MOMONGA, RARITY_RARE},
+	{ITEM_CARD_PENGUIN_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_CYBER_JAR, RARITY_RARE},
+	{ITEM_CARD_ELECTRIC_SNAKE, RARITY_COMMON},
+	{ITEM_CARD_THE_FORCEFUL_SENTRY, RARITY_ULTRA_RARE},
+	{ITEM_CARD_FLYING_KAMAKIRI_1, RARITY_RARE},
+	{ITEM_CARD_BLACK_ILLUSION_RITUAL, RARITY_SUPER_RARE},
+	{ITEM_CARD_GIANT_TRUNADE, RARITY_SUPER_RARE},
+	{ITEM_CARD_GIANT_RAT, RARITY_RARE},
+	{ITEM_CARD_SNATCH_STEAL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CHAIN_ENERGY, RARITY_COMMON},
+	{ITEM_CARD_MESSENGER_OF_PEACE, RARITY_SUPER_RARE},
+	{ITEM_CARD_RISING_AIR_CURRENT, RARITY_COMMON},
+	{ITEM_CARD_RELINQUISHED, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLACK_PENDANT, RARITY_SUPER_RARE},
+	{ITEM_CARD_BLUE_EYES_TOON_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_DELINQUENT_DUO, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SHINING_ANGEL, RARITY_RARE},
+	{ITEM_CARD_SPEAR_CRETIN, RARITY_COMMON},
+	{ITEM_CARD_CONFISCATION, RARITY_SUPER_RARE},
+	{ITEM_CARD_AXE_OF_DESPAIR, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GAIA_POWER, RARITY_COMMON},
+	{ITEM_CARD_MEGAMORPH, RARITY_ULTRA_RARE},
+	{ITEM_CARD_UPSTART_GOBLIN, RARITY_COMMON},
+	{ITEM_CARD_MINAR, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGSpellcastersCommandStructureDeck[] =
+{
+	{ITEM_CARD_MAGICIAN_S_CIRCLE, RARITY_COMMON},
+	{ITEM_CARD_SKILLED_DARK_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_MAGIC_CYLINDER, RARITY_COMMON},
+	{ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR, RARITY_COMMON},
+	{ITEM_CARD_GIANT_TRUNADE, RARITY_COMMON},
+	{ITEM_CARD_MAGE_POWER, RARITY_COMMON},
+	{ITEM_CARD_FISSURE, RARITY_COMMON},
+	{ITEM_CARD_ROYAL_MAGICAL_LIBRARY, RARITY_COMMON},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_COMMON},
+	{ITEM_CARD_MAGICAL_DIMENSION, RARITY_COMMON},
+	{ITEM_CARD_TERRAFORMING, RARITY_COMMON},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_COMMON},
+	{ITEM_CARD_PITCH_BLACK_POWER_STONE, RARITY_COMMON},
+};
+
+const struct PackContents gTCGSpellcastersCommandStructureDeckSpecialEdition[] =
+{
+	{ITEM_CARD_MAGICIAN_S_VALKYRIA, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGSpiritWarriors[] =
+{
+};
+
+const struct PackContents gTCGStainlessSteelCardDarkMagicianGirl[] =
+{
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGStainlessSteelEgyptianGodCardsSweepstakes[] =
+{
+};
+
+const struct PackContents gTCGStarPack2013[] =
+{
+};
+
+const struct PackContents gTCGStarPack2014[] =
+{
+	{ITEM_CARD_REASONING, RARITY_COMMON},
+	{ITEM_CARD_REASONING, RARITY_STARFOIL_RARE},
+	{ITEM_CARD_MAGICAL_MERCHANT, RARITY_COMMON},
+	{ITEM_CARD_MAGICAL_MERCHANT, RARITY_STARFOIL_RARE},
+};
+
+const struct PackContents gTCGStarPackARCV[] =
+{
+	{ITEM_CARD_GEM_KNIGHT_TOURMALINE, RARITY_COMMON},
+	{ITEM_CARD_GEM_KNIGHT_TOURMALINE, RARITY_SHATTERFOIL_RARE},
+	{ITEM_CARD_MOBIUS_THE_FROST_MONARCH, RARITY_COMMON},
+	{ITEM_CARD_MOBIUS_THE_FROST_MONARCH, RARITY_SHATTERFOIL_RARE},
+	{ITEM_CARD_MOBIUS_THE_MEGA_MONARCH, RARITY_COMMON},
+	{ITEM_CARD_MOBIUS_THE_MEGA_MONARCH, RARITY_SHATTERFOIL_RARE},
+};
+
+const struct PackContents gTCGStarPackBattleRoyal[] =
+{
+	{ITEM_CARD_CRYSTAL_ROSE, RARITY_COMMON},
+	{ITEM_CARD_CRYSTAL_ROSE, RARITY_STARFOIL_RARE},
+};
+
+const struct PackContents gTCGStarPackVRAINS[] =
+{
+};
+
+const struct PackContents gTCGStardustOverdrive[] =
+{
+	{ITEM_CARD_SWAP_FROG, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStardustOverdriveSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGStardustOverdriveSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGStarstrikeBlast[] =
+{
+	{ITEM_CARD_DELG_THE_DARK_MONARCH, RARITY_SUPER_RARE},
+	{ITEM_CARD_LANCER_ARCHFIEND, RARITY_RARE},
+};
+
+const struct PackContents gTCGStarstrikeBlastSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGStarterDeck2006[] =
+{
+	{ITEM_CARD_MAGIC_CYLINDER, RARITY_COMMON},
+	{ITEM_CARD_JAR_OF_GREED, RARITY_COMMON},
+	{ITEM_CARD_SPEAR_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_HEAVY_STORM, RARITY_COMMON},
+	{ITEM_CARD_KURIBOH, RARITY_COMMON},
+	{ITEM_CARD_MAGICIAN_OF_FAITH, RARITY_COMMON},
+	{ITEM_CARD_DUST_TORNADO, RARITY_COMMON},
+	{ITEM_CARD_OOKAZI, RARITY_COMMON},
+	{ITEM_CARD_DARK_BLADE, RARITY_COMMON},
+	{ITEM_CARD_PREMATURE_BURIAL, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REINCARNATION, RARITY_COMMON},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_COMMON},
+	{ITEM_CARD_BRAIN_CONTROL, RARITY_COMMON},
+	{ITEM_CARD_ELEMENTAL_HERO_CLAYMAN, RARITY_COMMON},
+	{ITEM_CARD_SAKURETSU_ARMOR, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENTS, RARITY_COMMON},
+	{ITEM_CARD_MIRAGE_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_BLACK_PENDANT, RARITY_COMMON},
+	{ITEM_CARD_FISSURE, RARITY_COMMON},
+	{ITEM_CARD_LUSTER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_CASTLE_WALLS, RARITY_COMMON},
+	{ITEM_CARD_GAIA_POWER, RARITY_COMMON},
+	{ITEM_CARD_PRINCESS_OF_TSURUGI, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStarterDeck2006SpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGStarterDeckCodebreaker[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_UNITED_WE_STAND, RARITY_COMMON},
+	{ITEM_CARD_TORRENTIAL_TRIBUTE, RARITY_COMMON},
+	{ITEM_CARD_SCAPEGOAT, RARITY_COMMON},
+	{ITEM_CARD_BOTTOMLESS_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_DARK_HOLE, RARITY_COMMON},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_COMMON},
+	{ITEM_CARD_EXARION_UNIVERSE, RARITY_COMMON},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStarterDeckDawnoftheXyz[] =
+{
+	{ITEM_CARD_SPIRIT_OF_THE_HARP, RARITY_COMMON},
+	{ITEM_CARD_POISON_OF_THE_OLD_MAN, RARITY_COMMON},
+	{ITEM_CARD_MARAUDING_CAPTAIN, RARITY_COMMON},
+	{ITEM_CARD_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_DUST_TORNADO, RARITY_COMMON},
+	{ITEM_CARD_DARK_BLADE, RARITY_COMMON},
+	{ITEM_CARD_RAIGEKI_BREAK, RARITY_COMMON},
+	{ITEM_CARD_GIANT_RAT, RARITY_COMMON},
+	{ITEM_CARD_BLADE_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_COMMON},
+	{ITEM_CARD_FISSURE, RARITY_COMMON},
+	{ITEM_CARD_SHINING_ANGEL, RARITY_COMMON},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+	{ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStarterDeckDuelistToolbox[] =
+{
+	{ITEM_CARD_BLAZING_INPACHI, RARITY_COMMON},
+	{ITEM_CARD_CARD_DESTRUCTION, RARITY_COMMON},
+	{ITEM_CARD_CHAINSAW_INSECT, RARITY_COMMON},
+	{ITEM_CARD_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_DUST_TORNADO, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REINCARNATION, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_COMMON},
+	{ITEM_CARD_GIANT_TRUNADE, RARITY_COMMON},
+	{ITEM_CARD_RAIGEKI_BREAK, RARITY_COMMON},
+	{ITEM_CARD_SECRET_BARREL, RARITY_COMMON},
+	{ITEM_CARD_SAKURETSU_ARMOR, RARITY_COMMON},
+	{ITEM_CARD_THREATENING_ROAR, RARITY_COMMON},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_COMMON},
+	{ITEM_CARD_MAN_EATER_BUG, RARITY_COMMON},
+	{ITEM_CARD_BATTLE_FOOTBALLER, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStarterDeckJadenYuki[] =
+{
+	{ITEM_CARD_SMASHING_GROUND, RARITY_COMMON},
+	{ITEM_CARD_MAGIC_CYLINDER, RARITY_COMMON},
+	{ITEM_CARD_MASK_OF_DARKNESS, RARITY_COMMON},
+	{ITEM_CARD_ELEMENTAL_HERO_WILDHEART, RARITY_COMMON},
+	{ITEM_CARD_HEAVY_STORM, RARITY_COMMON},
+	{ITEM_CARD_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_CHIRON_THE_MAGE, RARITY_COMMON},
+	{ITEM_CARD_DUST_TORNADO, RARITY_COMMON},
+	{ITEM_CARD_RUSH_RECKLESSLY, RARITY_COMMON},
+	{ITEM_CARD_MATAZA_THE_ZAPPER, RARITY_COMMON},
+	{ITEM_CARD_DARK_BLADE, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REINCARNATION, RARITY_COMMON},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_COMMON},
+	{ITEM_CARD_BRAIN_CONTROL, RARITY_COMMON},
+	{ITEM_CARD_MAGIC_JAMMER, RARITY_COMMON},
+	{ITEM_CARD_GIANT_TRUNADE, RARITY_COMMON},
+	{ITEM_CARD_ELEMENTAL_HERO_CLAYMAN, RARITY_COMMON},
+	{ITEM_CARD_EXILED_FORCE, RARITY_COMMON},
+	{ITEM_CARD_NINJA_GRANDMASTER_SASUKE, RARITY_COMMON},
+	{ITEM_CARD_SAKURETSU_ARMOR, RARITY_COMMON},
+	{ITEM_CARD_LIGHTNING_VORTEX, RARITY_COMMON},
+	{ITEM_CARD_GEMINI_ELF, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStarterDeckJoey[] =
+{
+	{ITEM_CARD_SPIRIT_OF_THE_HARP, RARITY_COMMON},
+	{ITEM_CARD_CHANGE_OF_HEART, RARITY_COMMON},
+	{ITEM_CARD_WABOKU, RARITY_COMMON},
+	{ITEM_CARD_SCAPEGOAT, RARITY_SUPER_RARE},
+	{ITEM_CARD_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_DARK_HOLE, RARITY_COMMON},
+	{ITEM_CARD_MAGICIAN_OF_FAITH, RARITY_COMMON},
+	{ITEM_CARD_DIAN_KETO_THE_CURE_MASTER, RARITY_COMMON},
+	{ITEM_CARD_FLAME_SWORDSMAN, RARITY_COMMON},
+	{ITEM_CARD_JUST_DESSERTS, RARITY_COMMON},
+	{ITEM_CARD_7_COLORED_FISH, RARITY_COMMON},
+	{ITEM_CARD_MILUS_RADIANT, RARITY_COMMON},
+	{ITEM_CARD_GIANT_TRUNADE, RARITY_COMMON},
+	{ITEM_CARD_ISLAND_TURTLE, RARITY_COMMON},
+	{ITEM_CARD_ULTIMATE_OFFERING, RARITY_COMMON},
+	{ITEM_CARD_WHITE_MAGICAL_HAT, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_COMMON},
+	{ITEM_CARD_SANGAN, RARITY_COMMON},
+	{ITEM_CARD_FAKE_TRAP, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENTS, RARITY_COMMON},
+	{ITEM_CARD_REMOVE_TRAP, RARITY_COMMON},
+	{ITEM_CARD_FISSURE, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SKY_SCOUT, RARITY_COMMON},
+	{ITEM_CARD_DE_SPELL, RARITY_COMMON},
+	{ITEM_CARD_CASTLE_WALLS, RARITY_COMMON},
+	{ITEM_CARD_PRINCESS_OF_TSURUGI, RARITY_COMMON},
+	{ITEM_CARD_BLOCK_ATTACK, RARITY_COMMON},
+	{ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStarterDeckKaiba[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BATTLE_OX, RARITY_COMMON},
+	{ITEM_CARD_BATTLE_OX, RARITY_COMMON},
+	{ITEM_CARD_BATTLE_OX, RARITY_COMMON},
+	{ITEM_CARD_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_DARK_HOLE, RARITY_COMMON},
+	{ITEM_CARD_DARK_HOLE, RARITY_COMMON},
+	{ITEM_CARD_DARK_HOLE, RARITY_COMMON},
+	{ITEM_CARD_OOKAZI, RARITY_COMMON},
+	{ITEM_CARD_OOKAZI, RARITY_COMMON},
+	{ITEM_CARD_JUST_DESSERTS, RARITY_COMMON},
+	{ITEM_CARD_JUST_DESSERTS, RARITY_COMMON},
+	{ITEM_CARD_JUST_DESSERTS, RARITY_COMMON},
+	{ITEM_CARD_GYAKUTENNO_MEGAMI, RARITY_COMMON},
+	{ITEM_CARD_GYAKUTENNO_MEGAMI, RARITY_COMMON},
+	{ITEM_CARD_GYAKUTENNO_MEGAMI, RARITY_COMMON},
+	{ITEM_CARD_TRAP_MASTER, RARITY_COMMON},
+	{ITEM_CARD_TRAP_MASTER, RARITY_COMMON},
+	{ITEM_CARD_TRAP_MASTER, RARITY_COMMON},
+	{ITEM_CARD_JUDGE_MAN, RARITY_COMMON},
+	{ITEM_CARD_JUDGE_MAN, RARITY_COMMON},
+	{ITEM_CARD_JUDGE_MAN, RARITY_COMMON},
+	{ITEM_CARD_THE_WICKED_WORM_BEAST, RARITY_COMMON},
+	{ITEM_CARD_THE_WICKED_WORM_BEAST, RARITY_COMMON},
+	{ITEM_CARD_THE_WICKED_WORM_BEAST, RARITY_COMMON},
+	{ITEM_CARD_ULTIMATE_OFFERING, RARITY_COMMON},
+	{ITEM_CARD_ULTIMATE_OFFERING, RARITY_COMMON},
+	{ITEM_CARD_ULTIMATE_OFFERING, RARITY_COMMON},
+	{ITEM_CARD_HANE_HANE, RARITY_COMMON},
+	{ITEM_CARD_HANE_HANE, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENTS, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENTS, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENTS, RARITY_COMMON},
+	{ITEM_CARD_REMOVE_TRAP, RARITY_COMMON},
+	{ITEM_CARD_REMOVE_TRAP, RARITY_COMMON},
+	{ITEM_CARD_REMOVE_TRAP, RARITY_COMMON},
+	{ITEM_CARD_FISSURE, RARITY_COMMON},
+	{ITEM_CARD_FISSURE, RARITY_COMMON},
+	{ITEM_CARD_FISSURE, RARITY_COMMON},
+	{ITEM_CARD_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP, RARITY_COMMON},
+	{ITEM_CARD_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP, RARITY_COMMON},
+	{ITEM_CARD_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP, RARITY_COMMON},
+	{ITEM_CARD_DE_SPELL, RARITY_COMMON},
+	{ITEM_CARD_DE_SPELL, RARITY_COMMON},
+	{ITEM_CARD_DE_SPELL, RARITY_COMMON},
+	{ITEM_CARD_CASTLE_WALLS, RARITY_COMMON},
+	{ITEM_CARD_CASTLE_WALLS, RARITY_COMMON},
+	{ITEM_CARD_CASTLE_WALLS, RARITY_COMMON},
+	{ITEM_CARD_LORD_OF_D_, RARITY_SUPER_RARE},
+	{ITEM_CARD_LORD_OF_D_, RARITY_SUPER_RARE},
+	{ITEM_CARD_LORD_OF_D_, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGStarterDeckKaibaEvolution[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_MYSTIC_TOMATO, RARITY_COMMON},
+	{ITEM_CARD_KAISER_SEA_HORSE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_WITCH_OF_THE_BLACK_FOREST, RARITY_COMMON},
+	{ITEM_CARD_CHANGE_OF_HEART, RARITY_COMMON},
+	{ITEM_CARD_BATTLE_OX, RARITY_COMMON},
+	{ITEM_CARD_SOUL_EXCHANGE, RARITY_COMMON},
+	{ITEM_CARD_JAR_OF_GREED, RARITY_COMMON},
+	{ITEM_CARD_THE_DRAGON_DWELLING_IN_THE_CAVE, RARITY_COMMON},
+	{ITEM_CARD_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_DUST_TORNADO, RARITY_COMMON},
+	{ITEM_CARD_RUSH_RECKLESSLY, RARITY_COMMON},
+	{ITEM_CARD_LIGHT_OF_INTERVENTION, RARITY_COMMON},
+	{ITEM_CARD_OOKAZI, RARITY_COMMON},
+	{ITEM_CARD_PREMATURE_BURIAL, RARITY_COMMON},
+	{ITEM_CARD_JUST_DESSERTS, RARITY_COMMON},
+	{ITEM_CARD_NOBLEMAN_OF_CROSSOUT, RARITY_COMMON},
+	{ITEM_CARD_TRAP_MASTER, RARITY_COMMON},
+	{ITEM_CARD_HANE_HANE, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_COMMON},
+	{ITEM_CARD_WHITE_DRAGON_RITUAL, RARITY_COMMON},
+	{ITEM_CARD_OPTICLOPS, RARITY_COMMON},
+	{ITEM_CARD_PALADIN_OF_WHITE_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_FISSURE, RARITY_COMMON},
+	{ITEM_CARD_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP, RARITY_COMMON},
+	{ITEM_CARD_DE_SPELL, RARITY_COMMON},
+	{ITEM_CARD_MEGAMORPH, RARITY_COMMON},
+	{ITEM_CARD_LORD_OF_D_, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStarterDeckKaibaReloaded[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_KAISER_SEA_HORSE, RARITY_COMMON},
+	{ITEM_CARD_BATTLE_OX, RARITY_COMMON},
+	{ITEM_CARD_SOUL_EXCHANGE, RARITY_COMMON},
+	{ITEM_CARD_WIDESPREAD_RUIN, RARITY_COMMON},
+	{ITEM_CARD_THE_DRAGON_DWELLING_IN_THE_CAVE, RARITY_COMMON},
+	{ITEM_CARD_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_DARK_HOLE, RARITY_COMMON},
+	{ITEM_CARD_RUSH_RECKLESSLY, RARITY_COMMON},
+	{ITEM_CARD_MAD_DOG_OF_DARKNESS, RARITY_COMMON},
+	{ITEM_CARD_AQUA_MADOOR, RARITY_COMMON},
+	{ITEM_CARD_SHRINK, RARITY_COMMON},
+	{ITEM_CARD_BLADE_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_SAKURETSU_ARMOR, RARITY_COMMON},
+	{ITEM_CARD_YOMI_SHIP, RARITY_COMMON},
+	{ITEM_CARD_OPTICLOPS, RARITY_COMMON},
+	{ITEM_CARD_OFFERINGS_TO_THE_DOOMED, RARITY_COMMON},
+	{ITEM_CARD_TWIN_HEADED_BEHEMOTH, RARITY_COMMON},
+	{ITEM_CARD_THREATENING_ROAR, RARITY_COMMON},
+	{ITEM_CARD_LUSTER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP, RARITY_COMMON},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_COMMON},
+	{ITEM_CARD_VORSE_RAIDER, RARITY_COMMON},
+	{ITEM_CARD_X_HEAD_CANNON, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStarterDeckLinkStrike[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_UNITED_WE_STAND, RARITY_COMMON},
+	{ITEM_CARD_TORRENTIAL_TRIBUTE, RARITY_COMMON},
+	{ITEM_CARD_RING_OF_DESTRUCTION, RARITY_COMMON},
+	{ITEM_CARD_MARAUDING_CAPTAIN, RARITY_COMMON},
+	{ITEM_CARD_BOTTOMLESS_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_DARK_HOLE, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REINCARNATION, RARITY_COMMON},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_COMMON},
+	{ITEM_CARD_EXARION_UNIVERSE, RARITY_COMMON},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_COMMON},
+	{ITEM_CARD_SANGAN, RARITY_COMMON},
+	{ITEM_CARD_TERRAFORMING, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStarterDeckPegasus[] =
+{
+	{ITEM_CARD_WITCH_OF_THE_BLACK_FOREST, RARITY_COMMON},
+	{ITEM_CARD_CHANGE_OF_HEART, RARITY_COMMON},
+	{ITEM_CARD_SONIC_BIRD, RARITY_COMMON},
+	{ITEM_CARD_WABOKU, RARITY_COMMON},
+	{ITEM_CARD_MASK_OF_DARKNESS, RARITY_COMMON},
+	{ITEM_CARD_TOON_SUMMONED_SKULL, RARITY_COMMON},
+	{ITEM_CARD_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_DARK_HOLE, RARITY_COMMON},
+	{ITEM_CARD_RUSH_RECKLESSLY, RARITY_COMMON},
+	{ITEM_CARD_DIAN_KETO_THE_CURE_MASTER, RARITY_COMMON},
+	{ITEM_CARD_MUKA_MUKA, RARITY_COMMON},
+	{ITEM_CARD_AQUA_MADOOR, RARITY_COMMON},
+	{ITEM_CARD_ROBBIN_GOBLIN, RARITY_COMMON},
+	{ITEM_CARD_MAGIC_JAMMER, RARITY_COMMON},
+	{ITEM_CARD_BLACK_ILLUSION_RITUAL, RARITY_COMMON},
+	{ITEM_CARD_ULTIMATE_OFFERING, RARITY_COMMON},
+	{ITEM_CARD_GRACEFUL_CHARITY, RARITY_SUPER_RARE},
+	{ITEM_CARD_HANE_HANE, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_COMMON},
+	{ITEM_CARD_RELINQUISHED, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DREAM_CLOWN, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENTS, RARITY_COMMON},
+	{ITEM_CARD_BLACK_PENDANT, RARITY_COMMON},
+	{ITEM_CARD_REMOVE_TRAP, RARITY_COMMON},
+	{ITEM_CARD_FISSURE, RARITY_COMMON},
+	{ITEM_CARD_BLUE_EYES_TOON_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_GIANT_SOLDIER_OF_STONE, RARITY_COMMON},
+	{ITEM_CARD_DE_SPELL, RARITY_COMMON},
+	{ITEM_CARD_ARMED_NINJA, RARITY_COMMON},
+	{ITEM_CARD_CASTLE_WALLS, RARITY_COMMON},
+	{ITEM_CARD_STOP_DEFENSE, RARITY_COMMON},
+	{ITEM_CARD_MAN_EATER_BUG, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+	{ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStarterDeckSyrusTruesdale[] =
+{
+	{ITEM_CARD_SMASHING_GROUND, RARITY_COMMON},
+	{ITEM_CARD_MAGIC_CYLINDER, RARITY_COMMON},
+	{ITEM_CARD_MASK_OF_DARKNESS, RARITY_COMMON},
+	{ITEM_CARD_HEAVY_STORM, RARITY_COMMON},
+	{ITEM_CARD_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_CHIRON_THE_MAGE, RARITY_COMMON},
+	{ITEM_CARD_RUSH_RECKLESSLY, RARITY_COMMON},
+	{ITEM_CARD_DARK_BLADE, RARITY_COMMON},
+	{ITEM_CARD_ARCHFIEND_SOLDIER, RARITY_COMMON},
+	{ITEM_CARD_BRAIN_CONTROL, RARITY_COMMON},
+	{ITEM_CARD_ZURE_KNIGHT_OF_DARK_WORLD, RARITY_COMMON},
+	{ITEM_CARD_MAGIC_JAMMER, RARITY_COMMON},
+	{ITEM_CARD_GIANT_TRUNADE, RARITY_COMMON},
+	{ITEM_CARD_SAKURETSU_ARMOR, RARITY_COMMON},
+	{ITEM_CARD_DRILLROID, RARITY_SUPER_RARE},
+	{ITEM_CARD_LIGHTNING_VORTEX, RARITY_COMMON},
+	{ITEM_CARD_BLACK_PENDANT, RARITY_COMMON},
+	{ITEM_CARD_THREATENING_ROAR, RARITY_COMMON},
+	{ITEM_CARD_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE, RARITY_COMMON},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_COMMON},
+	{ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStarterDeckXyzSymphony[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_SPIRIT_OF_THE_HARP, RARITY_COMMON},
+	{ITEM_CARD_MAGIC_CYLINDER, RARITY_COMMON},
+	{ITEM_CARD_MARAUDING_CAPTAIN, RARITY_COMMON},
+	{ITEM_CARD_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_CHIRON_THE_MAGE, RARITY_COMMON},
+	{ITEM_CARD_DUST_TORNADO, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_COMMON},
+	{ITEM_CARD_RAIGEKI_BREAK, RARITY_COMMON},
+	{ITEM_CARD_GIANT_RAT, RARITY_COMMON},
+	{ITEM_CARD_SANGAN, RARITY_COMMON},
+	{ITEM_CARD_FISSURE, RARITY_COMMON},
+	{ITEM_CARD_SHINING_ANGEL, RARITY_COMMON},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+	{ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStarterDeckYuGiOh5Ds[] =
+{
+	{ITEM_CARD_MYSTIC_TOMATO, RARITY_COMMON},
+	{ITEM_CARD_SMASHING_GROUND, RARITY_COMMON},
+	{ITEM_CARD_MARAUDING_CAPTAIN, RARITY_COMMON},
+	{ITEM_CARD_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_RUSH_RECKLESSLY, RARITY_COMMON},
+	{ITEM_CARD_DARK_BLADE, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REINCARNATION, RARITY_COMMON},
+	{ITEM_CARD_RENGE_GATEKEEPER_OF_DARK_WORLD, RARITY_COMMON},
+	{ITEM_CARD_EXILED_FORCE, RARITY_COMMON},
+	{ITEM_CARD_SAKURETSU_ARMOR, RARITY_COMMON},
+	{ITEM_CARD_LIGHTNING_VORTEX, RARITY_COMMON},
+	{ITEM_CARD_THREATENING_ROAR, RARITY_COMMON},
+	{ITEM_CARD_CHARCOAL_INPACHI, RARITY_COMMON},
+	{ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStarterDeckYuGiOh5Ds2009[] =
+{
+	{ITEM_CARD_CREATURE_SWAP, RARITY_COMMON},
+	{ITEM_CARD_GOBLIN_ATTACK_FORCE, RARITY_COMMON},
+	{ITEM_CARD_WIDESPREAD_RUIN, RARITY_COMMON},
+	{ITEM_CARD_THE_DRAGON_DWELLING_IN_THE_CAVE, RARITY_COMMON},
+	{ITEM_CARD_DUST_TORNADO, RARITY_COMMON},
+	{ITEM_CARD_RUSH_RECKLESSLY, RARITY_COMMON},
+	{ITEM_CARD_OOKAZI, RARITY_COMMON},
+	{ITEM_CARD_SASUKE_SAMURAI, RARITY_COMMON},
+	{ITEM_CARD_GIANT_TRUNADE, RARITY_COMMON},
+	{ITEM_CARD_RAIGEKI_BREAK, RARITY_COMMON},
+	{ITEM_CARD_DES_KOALA, RARITY_COMMON},
+	{ITEM_CARD_SABER_BEETLE, RARITY_COMMON},
+	{ITEM_CARD_EMERGENCY_PROVISIONS, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStarterDeckYugi[] =
+{
+	{ITEM_CARD_CHANGE_OF_HEART, RARITY_COMMON},
+	{ITEM_CARD_CHANGE_OF_HEART, RARITY_COMMON},
+	{ITEM_CARD_CHANGE_OF_HEART, RARITY_COMMON},
+	{ITEM_CARD_SOUL_EXCHANGE, RARITY_SUPER_RARE},
+	{ITEM_CARD_SOUL_EXCHANGE, RARITY_SUPER_RARE},
+	{ITEM_CARD_SOUL_EXCHANGE, RARITY_SUPER_RARE},
+	{ITEM_CARD_WABOKU, RARITY_COMMON},
+	{ITEM_CARD_WABOKU, RARITY_COMMON},
+	{ITEM_CARD_WABOKU, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_ELF, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_ELF, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_ELF, RARITY_COMMON},
+	{ITEM_CARD_CARD_DESTRUCTION, RARITY_SUPER_RARE},
+	{ITEM_CARD_CARD_DESTRUCTION, RARITY_SUPER_RARE},
+	{ITEM_CARD_CARD_DESTRUCTION, RARITY_SUPER_RARE},
+	{ITEM_CARD_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_DARK_HOLE, RARITY_COMMON},
+	{ITEM_CARD_DARK_HOLE, RARITY_COMMON},
+	{ITEM_CARD_DARK_HOLE, RARITY_COMMON},
+	{ITEM_CARD_DIAN_KETO_THE_CURE_MASTER, RARITY_COMMON},
+	{ITEM_CARD_DIAN_KETO_THE_CURE_MASTER, RARITY_COMMON},
+	{ITEM_CARD_DIAN_KETO_THE_CURE_MASTER, RARITY_COMMON},
+	{ITEM_CARD_WALL_OF_ILLUSION, RARITY_COMMON},
+	{ITEM_CARD_WALL_OF_ILLUSION, RARITY_COMMON},
+	{ITEM_CARD_WALL_OF_ILLUSION, RARITY_COMMON},
+	{ITEM_CARD_TRAP_MASTER, RARITY_COMMON},
+	{ITEM_CARD_TRAP_MASTER, RARITY_COMMON},
+	{ITEM_CARD_TRAP_MASTER, RARITY_COMMON},
+	{ITEM_CARD_LAST_WILL, RARITY_COMMON},
+	{ITEM_CARD_LAST_WILL, RARITY_COMMON},
+	{ITEM_CARD_LAST_WILL, RARITY_COMMON},
+	{ITEM_CARD_GREAT_WHITE, RARITY_COMMON},
+	{ITEM_CARD_GREAT_WHITE, RARITY_COMMON},
+	{ITEM_CARD_GREAT_WHITE, RARITY_COMMON},
+	{ITEM_CARD_SUMMONED_SKULL, RARITY_COMMON},
+	{ITEM_CARD_SUMMONED_SKULL, RARITY_COMMON},
+	{ITEM_CARD_SUMMONED_SKULL, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_ULTIMATE_OFFERING, RARITY_COMMON},
+	{ITEM_CARD_ULTIMATE_OFFERING, RARITY_COMMON},
+	{ITEM_CARD_ULTIMATE_OFFERING, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENTS, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENTS, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENTS, RARITY_COMMON},
+	{ITEM_CARD_REMOVE_TRAP, RARITY_COMMON},
+	{ITEM_CARD_REMOVE_TRAP, RARITY_COMMON},
+	{ITEM_CARD_REMOVE_TRAP, RARITY_COMMON},
+	{ITEM_CARD_FISSURE, RARITY_COMMON},
+	{ITEM_CARD_FISSURE, RARITY_COMMON},
+	{ITEM_CARD_FISSURE, RARITY_COMMON},
+	{ITEM_CARD_GIANT_SOLDIER_OF_STONE, RARITY_COMMON},
+	{ITEM_CARD_GIANT_SOLDIER_OF_STONE, RARITY_COMMON},
+	{ITEM_CARD_GIANT_SOLDIER_OF_STONE, RARITY_COMMON},
+	{ITEM_CARD_NEO_THE_MAGIC_SWORDSMAN, RARITY_COMMON},
+	{ITEM_CARD_NEO_THE_MAGIC_SWORDSMAN, RARITY_COMMON},
+	{ITEM_CARD_GAIA_THE_FIERCE_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_GAIA_THE_FIERCE_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_GAIA_THE_FIERCE_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_DE_SPELL, RARITY_COMMON},
+	{ITEM_CARD_DE_SPELL, RARITY_COMMON},
+	{ITEM_CARD_DE_SPELL, RARITY_COMMON},
+	{ITEM_CARD_CASTLE_WALLS, RARITY_COMMON},
+	{ITEM_CARD_CASTLE_WALLS, RARITY_COMMON},
+	{ITEM_CARD_CASTLE_WALLS, RARITY_COMMON},
+	{ITEM_CARD_MAN_EATER_BUG, RARITY_COMMON},
+	{ITEM_CARD_MAN_EATER_BUG, RARITY_COMMON},
+	{ITEM_CARD_MAN_EATER_BUG, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStarterDeckYugiEvolution[] =
+{
+	{ITEM_CARD_CHANGE_OF_HEART, RARITY_COMMON},
+	{ITEM_CARD_SONIC_BIRD, RARITY_COMMON},
+	{ITEM_CARD_WABOKU, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_ELF, RARITY_COMMON},
+	{ITEM_CARD_CARD_DESTRUCTION, RARITY_COMMON},
+	{ITEM_CARD_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_KURIBOH, RARITY_COMMON},
+	{ITEM_CARD_DARK_HOLE, RARITY_COMMON},
+	{ITEM_CARD_DARK_BLADE, RARITY_COMMON},
+	{ITEM_CARD_DIAN_KETO_THE_CURE_MASTER, RARITY_COMMON},
+	{ITEM_CARD_WALL_OF_ILLUSION, RARITY_COMMON},
+	{ITEM_CARD_LAST_WILL, RARITY_COMMON},
+	{ITEM_CARD_MAGIC_JAMMER, RARITY_COMMON},
+	{ITEM_CARD_GREAT_WHITE, RARITY_COMMON},
+	{ITEM_CARD_RAIGEKI_BREAK, RARITY_COMMON},
+	{ITEM_CARD_GIANT_RAT, RARITY_COMMON},
+	{ITEM_CARD_SUMMONED_SKULL, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_SUPER_RARE},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_COMMON},
+	{ITEM_CARD_SANGAN, RARITY_COMMON},
+	{ITEM_CARD_REMOVE_TRAP, RARITY_COMMON},
+	{ITEM_CARD_FISSURE, RARITY_COMMON},
+	{ITEM_CARD_ROYAL_MAGICAL_LIBRARY, RARITY_COMMON},
+	{ITEM_CARD_GIANT_SOLDIER_OF_STONE, RARITY_COMMON},
+	{ITEM_CARD_NEO_THE_MAGIC_SWORDSMAN, RARITY_COMMON},
+	{ITEM_CARD_ZOMBYRA_THE_DARK, RARITY_COMMON},
+	{ITEM_CARD_GAIA_THE_FIERCE_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_AXE_OF_DESPAIR, RARITY_COMMON},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_COMMON},
+	{ITEM_CARD_MAN_EATER_BUG, RARITY_COMMON},
+	{ITEM_CARD_POT_OF_GREED, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+	{ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStarterDeckYugiReloaded[] =
+{
+	{ITEM_CARD_SKILLED_DARK_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_MAGICIAN_S_VALKYRIA, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_COMMON},
+	{ITEM_CARD_WABOKU, RARITY_COMMON},
+	{ITEM_CARD_MAGIC_CYLINDER, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_ELF, RARITY_COMMON},
+	{ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR, RARITY_COMMON},
+	{ITEM_CARD_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_KURIBOH, RARITY_COMMON},
+	{ITEM_CARD_DARK_HOLE, RARITY_COMMON},
+	{ITEM_CARD_SKILLED_WHITE_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_DARK_BLADE, RARITY_COMMON},
+	{ITEM_CARD_MIRACLE_RESTORING, RARITY_COMMON},
+	{ITEM_CARD_4_STARRED_LADYBUG_OF_DOOM, RARITY_COMMON},
+	{ITEM_CARD_SUMMONED_SKULL, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_COMMON},
+	{ITEM_CARD_BUSTER_BLADER, RARITY_COMMON},
+	{ITEM_CARD_MAGE_POWER, RARITY_COMMON},
+	{ITEM_CARD_BLACK_PENDANT, RARITY_COMMON},
+	{ITEM_CARD_GEMINI_ELF, RARITY_COMMON},
+	{ITEM_CARD_GIANT_SOLDIER_OF_STONE, RARITY_COMMON},
+	{ITEM_CARD_NEO_THE_MAGIC_SWORDSMAN, RARITY_COMMON},
+	{ITEM_CARD_MAGICAL_DIMENSION, RARITY_COMMON},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStarterDeckYuya[] =
+{
+	{ITEM_CARD_CEASEFIRE, RARITY_COMMON},
+	{ITEM_CARD_RAIGEKI_BREAK, RARITY_COMMON},
+	{ITEM_CARD_GIANT_RAT, RARITY_COMMON},
+	{ITEM_CARD_LIGHTNING_VORTEX, RARITY_COMMON},
+	{ITEM_CARD_THREATENING_ROAR, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStormofRagnarok[] =
+{
+};
+
+const struct PackContents gTCGStormofRagnarokSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGStormofRagnarokSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGStrikeofNeos[] =
+{
+	{ITEM_CARD_FUSION_DEVOURER, RARITY_RARE},
+	{ITEM_CARD_FUSION_DEVOURER, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_GREN_TACTICIAN_OF_DARK_WORLD, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStrikeofNeosSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGStrikeofNeosSpecialEdition[] =
+{
+	{ITEM_CARD_SHRINK, RARITY_SUPER_RARE},
+	{ITEM_CARD_CYBER_END_DRAGON, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGStructureDeckAlbazStrike[] =
+{
+	{ITEM_CARD_KEEPER_OF_DRAGON_MAGIC, RARITY_COMMON},
+	{ITEM_CARD_THE_GOLDEN_SWORDSOUL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_FALLEN_OF_ALBAZ, RARITY_COMMON},
+	{ITEM_CARD_ALBION_THE_SHROUDED_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_DARKNESS_METAL_DRAGON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStructureDeckBewareofTraptrix[] =
+{
+	{ITEM_CARD_HARPIE_S_FEATHER_DUSTER, RARITY_COMMON},
+	{ITEM_CARD_BOTTOMLESS_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_TRAPTRIX_GENLISEA, RARITY_COMMON},
+	{ITEM_CARD_TRAPTRIX_DIONAEA, RARITY_COMMON},
+	{ITEM_CARD_TRAPTRIX_MYRMELEO, RARITY_COMMON},
+	{ITEM_CARD_TRAPTRIX_MANTIS, RARITY_COMMON},
+	{ITEM_CARD_TRAPTRIX_NEPENTHES, RARITY_COMMON},
+	{ITEM_CARD_TRAPTRIX_ATRAX, RARITY_COMMON},
+	{ITEM_CARD_TRAPTRIX_ARACHNOCAMPA, RARITY_SUPER_RARE},
+	{ITEM_CARD_RAIGEKI, RARITY_COMMON},
+	{ITEM_CARD_TRAPTRIX_VESICULO, RARITY_COMMON},
+	{ITEM_CARD_TRAPTRIX_PUDICA, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGStructureDeckBlazeofDestruction[] =
+{
+	{ITEM_CARD_BLAZING_INPACHI, RARITY_COMMON},
+	{ITEM_CARD_RELOAD, RARITY_COMMON},
+	{ITEM_CARD_JAR_OF_GREED, RARITY_COMMON},
+	{ITEM_CARD_HEAVY_STORM, RARITY_COMMON},
+	{ITEM_CARD_DUST_TORNADO, RARITY_COMMON},
+	{ITEM_CARD_PREMATURE_BURIAL, RARITY_COMMON},
+	{ITEM_CARD_NOBLEMAN_OF_CROSSOUT, RARITY_COMMON},
+	{ITEM_CARD_LEVEL_LIMIT_AREA_B, RARITY_COMMON},
+	{ITEM_CARD_SNATCH_STEAL, RARITY_COMMON},
+	{ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+	{ITEM_CARD_POT_OF_GREED, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStructureDeckBlueEyesWhiteDestiny[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_MAIDEN_OF_WHITE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MAIDEN_OF_WHITE, RARITY_SECRET_RARE},
+	{ITEM_CARD_MAIDEN_OF_WHITE, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_THE_WHITE_STONE_OF_LEGEND, RARITY_COMMON},
+	{ITEM_CARD_NEO_KAISER_SEA_HORSE, RARITY_SUPER_RARE},
+	{ITEM_CARD_DICTATOR_OF_D_, RARITY_COMMON},
+	{ITEM_CARD_SAGE_WITH_EYES_OF_BLUE, RARITY_COMMON},
+	{ITEM_CARD_BLUE_EYES_JET_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_MASTER_WITH_EYES_OF_BLUE, RARITY_COMMON},
+	{ITEM_CARD_THE_WHITE_STONE_OF_ANCIENTS, RARITY_COMMON},
+	{ITEM_CARD_BLUE_EYES_ULTIMATE_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_BLUE_EYES_ALTERNATIVE_WHITE_DRAGON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStructureDeckCyberStrike[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_CYBER_DRAGON_ZWEI, RARITY_COMMON},
+	{ITEM_CARD_CYBER_DRAGON_DREI, RARITY_COMMON},
+	{ITEM_CARD_LIMITER_REMOVAL, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+	{ITEM_CARD_CYBER_END_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CYBER_DRAGON_VIER, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStructureDeckCyberseLink[] =
+{
+	{ITEM_CARD_MAGICIAN_OF_FAITH, RARITY_COMMON},
+	{ITEM_CARD_MIND_CONTROL, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStructureDeckDarkWorld[] =
+{
+	{ITEM_CARD_REIGN_BEAUX_OVERKING_OF_DARK_WORLD, RARITY_ULTRA_RARE},
+	{ITEM_CARD_LUCENT_NETHERLORD_OF_DARK_WORLD, RARITY_COMMON},
+	{ITEM_CARD_SCARR_SCOUT_OF_DARK_WORLD, RARITY_COMMON},
+	{ITEM_CARD_DARK_WORLD_LIGHTNING, RARITY_COMMON},
+	{ITEM_CARD_BEIIGE_VANGUARD_OF_DARK_WORLD, RARITY_COMMON},
+	{ITEM_CARD_CARD_DESTRUCTION, RARITY_COMMON},
+	{ITEM_CARD_RENGE_GATEKEEPER_OF_DARK_WORLD, RARITY_COMMON},
+	{ITEM_CARD_ZURE_KNIGHT_OF_DARK_WORLD, RARITY_COMMON},
+	{ITEM_CARD_SILLVA_WARLORD_OF_DARK_WORLD, RARITY_COMMON},
+	{ITEM_CARD_DRAGGED_DOWN_INTO_THE_GRAVE, RARITY_COMMON},
+	{ITEM_CARD_SKILL_DRAIN, RARITY_COMMON},
+	{ITEM_CARD_SNOWW_UNLIGHT_OF_DARK_WORLD, RARITY_COMMON},
+	{ITEM_CARD_GENTA_GATEMAN_OF_DARK_WORLD, RARITY_SUPER_RARE},
+	{ITEM_CARD_BROWW_HUNTSMAN_OF_DARK_WORLD, RARITY_COMMON},
+	{ITEM_CARD_GREN_TACTICIAN_OF_DARK_WORLD, RARITY_COMMON},
+	{ITEM_CARD_PARL_HERMIT_OF_DARK_WORLD, RARITY_SUPER_RARE},
+	{ITEM_CARD_DECK_DEVASTATION_VIRUS, RARITY_COMMON},
+	{ITEM_CARD_BRRON_MAD_KING_OF_DARK_WORLD, RARITY_COMMON},
+	{ITEM_CARD_GRAPHA_DRAGON_LORD_OF_DARK_WORLD, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStructureDeckDeluxeEdition[] =
+{
+};
+
+const struct PackContents gTCGStructureDeckDinosaursRage[] =
+{
+	{ITEM_CARD_HEAVY_STORM, RARITY_COMMON},
+	{ITEM_CARD_HYPER_HAMMERHEAD, RARITY_COMMON},
+	{ITEM_CARD_GILASAURUS, RARITY_COMMON},
+	{ITEM_CARD_LIGHTNING_VORTEX, RARITY_COMMON},
+	{ITEM_CARD_MEGAMORPH, RARITY_COMMON},
+	{ITEM_CARD_HYDROGEDDON, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStructureDeckDinosaursRageSpecialSet[] =
+{
+};
+
+const struct PackContents gTCGStructureDeckDragonsRoar[] =
+{
+	{ITEM_CARD_CREATURE_SWAP, RARITY_COMMON},
+	{ITEM_CARD_RELOAD, RARITY_COMMON},
+	{ITEM_CARD_DRAGON_S_RAGE, RARITY_COMMON},
+	{ITEM_CARD_CEASEFIRE, RARITY_COMMON},
+	{ITEM_CARD_HEAVY_STORM, RARITY_COMMON},
+	{ITEM_CARD_RECKLESS_GREED, RARITY_COMMON},
+	{ITEM_CARD_BLACK_DRAGON_S_CHICK, RARITY_COMMON},
+	{ITEM_CARD_PREMATURE_BURIAL, RARITY_COMMON},
+	{ITEM_CARD_NOBLEMAN_OF_CROSSOUT, RARITY_COMMON},
+	{ITEM_CARD_SNATCH_STEAL, RARITY_COMMON},
+	{ITEM_CARD_TWIN_HEADED_BEHEMOTH, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_LUSTER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_MASKED_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+	{ITEM_CARD_POT_OF_GREED, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStructureDeckFireKings[] =
+{
+	{ITEM_CARD_SACRED_PHOENIX_OF_NEPHTHYS, RARITY_COMMON},
+	{ITEM_CARD_TORRENTIAL_TRIBUTE, RARITY_COMMON},
+	{ITEM_CARD_SOLEMN_JUDGMENT, RARITY_COMMON},
+	{ITEM_CARD_DARK_HOLE, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStructureDeckFreezingChains[] =
+{
+	{ITEM_CARD_SALVAGE, RARITY_COMMON},
+	{ITEM_CARD_DUPE_FROG, RARITY_COMMON},
+	{ITEM_CARD_RONINTOADIN, RARITY_COMMON},
+	{ITEM_CARD_AQUA_SPIRIT, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStructureDeckFuryfromtheDeep[] =
+{
+	{ITEM_CARD_SEA_SERPENT_WARRIOR_OF_DARKNESS, RARITY_COMMON},
+	{ITEM_CARD_CREATURE_SWAP, RARITY_COMMON},
+	{ITEM_CARD_TORRENTIAL_TRIBUTE, RARITY_COMMON},
+	{ITEM_CARD_RELOAD, RARITY_COMMON},
+	{ITEM_CARD_MOBIUS_THE_FROST_MONARCH, RARITY_COMMON},
+	{ITEM_CARD_AMPHIBIOUS_BUGROTH_MK_3, RARITY_COMMON},
+	{ITEM_CARD_SALVAGE, RARITY_COMMON},
+	{ITEM_CARD_HEAVY_STORM, RARITY_COMMON},
+	{ITEM_CARD_DUST_TORNADO, RARITY_COMMON},
+	{ITEM_CARD_MOTHER_GRIZZLY, RARITY_COMMON},
+	{ITEM_CARD_PREMATURE_BURIAL, RARITY_COMMON},
+	{ITEM_CARD_7_COLORED_FISH, RARITY_COMMON},
+	{ITEM_CARD_SNATCH_STEAL, RARITY_COMMON},
+	{ITEM_CARD_TRIBE_INFECTING_VIRUS, RARITY_COMMON},
+	{ITEM_CARD_LEVIA_DRAGON_DAEDALUS, RARITY_COMMON},
+	{ITEM_CARD_MERMAID_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_XING_ZHEN_HU, RARITY_COMMON},
+	{ITEM_CARD_A_LEGENDARY_OCEAN, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+	{ITEM_CARD_POT_OF_GREED, RARITY_COMMON},
+	{ITEM_CARD_GRAVITY_BIND, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStructureDeckInvincibleFortress[] =
+{
+	{ITEM_CARD_HIERACOSPHINX, RARITY_COMMON},
+	{ITEM_CARD_WABOKU, RARITY_COMMON},
+	{ITEM_CARD_GUARDIAN_SPHINX, RARITY_COMMON},
+	{ITEM_CARD_SAND_MOTH, RARITY_COMMON},
+	{ITEM_CARD_RECKLESS_GREED, RARITY_COMMON},
+	{ITEM_CARD_STONE_STATUE_OF_THE_AZTECS, RARITY_COMMON},
+	{ITEM_CARD_PREMATURE_BURIAL, RARITY_COMMON},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_COMMON},
+	{ITEM_CARD_BRAIN_CONTROL, RARITY_COMMON},
+	{ITEM_CARD_ROBBIN_GOBLIN, RARITY_COMMON},
+	{ITEM_CARD_GIANT_RAT, RARITY_COMMON},
+	{ITEM_CARD_GIGANTES, RARITY_COMMON},
+	{ITEM_CARD_ULTIMATE_OFFERING, RARITY_COMMON},
+	{ITEM_CARD_MOAI_INTERCEPTOR_CANNONS, RARITY_COMMON},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_COMMON},
+	{ITEM_CARD_GOLEM_SENTRY, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStructureDeckLairofDarkness[] =
+{
+	{ITEM_CARD_CRUSH_CARD_VIRUS, RARITY_COMMON},
+	{ITEM_CARD_ARCHFIEND_CAVALRY, RARITY_COMMON},
+	{ITEM_CARD_CAIUS_THE_MEGA_MONARCH, RARITY_COMMON},
+	{ITEM_CARD_RELINKURIBOH, RARITY_COMMON},
+	{ITEM_CARD_DECK_DEVASTATION_VIRUS, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStructureDeckLegendoftheCrystalBeasts[] =
+{
+};
+
+const struct PackContents gTCGStructureDeckLordoftheStorm[] =
+{
+	{ITEM_CARD_RELOAD, RARITY_COMMON},
+	{ITEM_CARD_CARD_DESTRUCTION, RARITY_COMMON},
+	{ITEM_CARD_HEAVY_STORM, RARITY_COMMON},
+	{ITEM_CARD_RECKLESS_GREED, RARITY_COMMON},
+	{ITEM_CARD_DUST_TORNADO, RARITY_COMMON},
+	{ITEM_CARD_NOBLEMAN_OF_CROSSOUT, RARITY_COMMON},
+	{ITEM_CARD_FLYING_KAMAKIRI_1, RARITY_COMMON},
+	{ITEM_CARD_MAGIC_JAMMER, RARITY_COMMON},
+	{ITEM_CARD_SILPHEED, RARITY_COMMON},
+	{ITEM_CARD_SAKURETSU_ARMOR, RARITY_COMMON},
+	{ITEM_CARD_LIGHTNING_VORTEX, RARITY_COMMON},
+	{ITEM_CARD_SLATE_WARRIOR, RARITY_COMMON},
+	{ITEM_CARD_LADY_NINJA_YAE, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStructureDeckMachineReVolt[] =
+{
+	{ITEM_CARD_HEAVY_STORM, RARITY_COMMON},
+	{ITEM_CARD_GEAR_GOLEM_THE_MOVING_FORTRESS, RARITY_COMMON},
+	{ITEM_CARD_CANNON_SOLDIER, RARITY_COMMON},
+	{ITEM_CARD_MECHANICALCHASER, RARITY_COMMON},
+	{ITEM_CARD_LIMITER_REMOVAL, RARITY_COMMON},
+	{ITEM_CARD_ULTIMATE_OFFERING, RARITY_COMMON},
+	{ITEM_CARD_SAKURETSU_ARMOR, RARITY_COMMON},
+	{ITEM_CARD_POT_OF_AVARICE, RARITY_COMMON},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStructureDeckMarikTCG[] =
+{
+	{ITEM_CARD_GIL_GARTH, RARITY_COMMON},
+	{ITEM_CARD_MYSTIC_TOMATO, RARITY_COMMON},
+	{ITEM_CARD_CREATURE_SWAP, RARITY_COMMON},
+	{ITEM_CARD_GRAVEKEEPER_S_ASSAILANT, RARITY_COMMON},
+	{ITEM_CARD_NEWDORIA, RARITY_COMMON},
+	{ITEM_CARD_NIGHTMARE_S_STEELCAGE, RARITY_COMMON},
+	{ITEM_CARD_NIGHTMARE_WHEEL, RARITY_COMMON},
+	{ITEM_CARD_BOWGANIAN, RARITY_COMMON},
+	{ITEM_CARD_NECROVALLEY, RARITY_COMMON},
+	{ITEM_CARD_GRAVEKEEPER_S_GUARD, RARITY_COMMON},
+	{ITEM_CARD_GRAVEKEEPER_S_SPY, RARITY_COMMON},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_COMMON},
+	{ITEM_CARD_GRAVEKEEPER_S_SPEAR_SOLDIER, RARITY_COMMON},
+	{ITEM_CARD_METAL_REFLECT_SLIME, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStructureDeckMechanizedMadness[] =
+{
+	{ITEM_CARD_LIMITER_REMOVAL, RARITY_COMMON},
+	{ITEM_CARD_POT_OF_AVARICE, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStructureDeckOrderoftheSpellcasters[] =
+{
+	{ITEM_CARD_DARK_MAGICIAN_OF_CHAOS, RARITY_COMMON},
+	{ITEM_CARD_MAGICIAN_S_CIRCLE, RARITY_COMMON},
+	{ITEM_CARD_MAGICIAN_OF_FAITH, RARITY_COMMON},
+	{ITEM_CARD_MAGICAL_DIMENSION, RARITY_COMMON},
+	{ITEM_CARD_TERRAFORMING, RARITY_COMMON},
+	{ITEM_CARD_PITCH_BLACK_POWER_STONE, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStructureDeckPowercodeLink[] =
+{
+	{ITEM_CARD_SCAPEGOAT, RARITY_COMMON},
+	{ITEM_CARD_RECKLESS_GREED, RARITY_COMMON},
+	{ITEM_CARD_REASONING, RARITY_COMMON},
+	{ITEM_CARD_OFFERINGS_TO_THE_DOOMED, RARITY_COMMON},
+	{ITEM_CARD_MAGICAL_MERCHANT, RARITY_COMMON},
+	{ITEM_CARD_TERRAFORMING, RARITY_COMMON},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStructureDeckRokketRevolt[] =
+{
+	{ITEM_CARD_MAGIC_CYLINDER, RARITY_COMMON},
+	{ITEM_CARD_IMPERIAL_ORDER, RARITY_COMMON},
+	{ITEM_CARD_KEEPER_OF_THE_SHRINE, RARITY_COMMON},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStructureDeckSacredBeasts[] =
+{
+	{ITEM_CARD_TERRAFORMING, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStructureDeckSetoKaiba[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_RING_OF_DESTRUCTION, RARITY_COMMON},
+	{ITEM_CARD_VAMPIRE_LORD, RARITY_COMMON},
+	{ITEM_CARD_CRUSH_CARD_VIRUS, RARITY_COMMON},
+	{ITEM_CARD_KEEPER_OF_THE_SHRINE, RARITY_COMMON},
+	{ITEM_CARD_LIMITER_REMOVAL, RARITY_COMMON},
+	{ITEM_CARD_SHRINK, RARITY_COMMON},
+	{ITEM_CARD_LUSTER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+	{ITEM_CARD_MEGAMORPH, RARITY_COMMON},
+	{ITEM_CARD_X_HEAD_CANNON, RARITY_COMMON},
+	{ITEM_CARD_LORD_OF_D_, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStructureDeckShaddollShowdown[] =
+{
+	{ITEM_CARD_REESHADDOLL_WENDI, RARITY_SUPER_RARE},
+	{ITEM_CARD_SHADDOLL_BEAST, RARITY_COMMON},
+	{ITEM_CARD_SHADDOLL_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_SHADDOLL_HOUND, RARITY_COMMON},
+	{ITEM_CARD_SHADDOLL_HEDGEHOG, RARITY_COMMON},
+	{ITEM_CARD_QADSHADDOLL_KEIOS, RARITY_SUPER_RARE},
+	{ITEM_CARD_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_COMMON},
+	{ITEM_CARD_SHADDOLL_FALCO, RARITY_COMMON},
+	{ITEM_CARD_POT_OF_AVARICE, RARITY_COMMON},
+	{ITEM_CARD_NAELSHADDOLL_ARIEL, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGStructureDeckSoulburner[] =
+{
+	{ITEM_CARD_MONSTER_REINCARNATION, RARITY_COMMON},
+	{ITEM_CARD_THREATENING_ROAR, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStructureDeckSpellcastersJudgment[] =
+{
+	{ITEM_CARD_DARK_ERADICATOR_WARLOCK, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SKILLED_DARK_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_RELOAD, RARITY_COMMON},
+	{ITEM_CARD_NIGHTMARE_S_STEELCAGE, RARITY_COMMON},
+	{ITEM_CARD_MAGIC_CYLINDER, RARITY_COMMON},
+	{ITEM_CARD_TSUKUYOMI, RARITY_COMMON},
+	{ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR, RARITY_COMMON},
+	{ITEM_CARD_HEAVY_STORM, RARITY_COMMON},
+	{ITEM_CARD_MAGICIAN_OF_FAITH, RARITY_COMMON},
+	{ITEM_CARD_PREMATURE_BURIAL, RARITY_COMMON},
+	{ITEM_CARD_NOBLEMAN_OF_CROSSOUT, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_CHAOS_SORCERER, RARITY_COMMON},
+	{ITEM_CARD_LIGHTNING_VORTEX, RARITY_COMMON},
+	{ITEM_CARD_MAGE_POWER, RARITY_COMMON},
+	{ITEM_CARD_ROYAL_MAGICAL_LIBRARY, RARITY_COMMON},
+	{ITEM_CARD_GEMINI_ELF, RARITY_COMMON},
+	{ITEM_CARD_MAGICAL_DIMENSION, RARITY_COMMON},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+	{ITEM_CARD_PITCH_BLACK_POWER_STONE, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStructureDeckSpiritCharmers[] =
+{
+	{ITEM_CARD_SPIRITUAL_EARTH_ART_KUROGANE, RARITY_COMMON},
+	{ITEM_CARD_WITCH_OF_THE_BLACK_FOREST, RARITY_COMMON},
+	{ITEM_CARD_FAMILIAR_POSSESSED_WYNN, RARITY_COMMON},
+	{ITEM_CARD_FAMILIAR_POSSESSED_WYNN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SPIRITUAL_WIND_ART_MIYABI, RARITY_COMMON},
+	{ITEM_CARD_FAMILIAR_POSSESSED_HIITA, RARITY_COMMON},
+	{ITEM_CARD_FAMILIAR_POSSESSED_HIITA, RARITY_ULTRA_RARE},
+	{ITEM_CARD_FAMILIAR_POSSESSED_ERIA, RARITY_COMMON},
+	{ITEM_CARD_FAMILIAR_POSSESSED_ERIA, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SPIRITUAL_WATER_ART_AOI, RARITY_COMMON},
+	{ITEM_CARD_RAIGEKI, RARITY_SUPER_RARE},
+	{ITEM_CARD_FAMILIAR_POSSESSED_AUSSA, RARITY_COMMON},
+	{ITEM_CARD_FAMILIAR_POSSESSED_AUSSA, RARITY_ULTRA_RARE},
+	{ITEM_CARD_TERRAFORMING, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStructureDeckTheCrimsonKing[] =
+{
+	{ITEM_CARD_WITCH_OF_THE_BLACK_FOREST, RARITY_COMMON},
+	{ITEM_CARD_BONE_ARCHFIEND, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStructureDeckWarriorsTriumph[] =
+{
+	{ITEM_CARD_RELOAD, RARITY_COMMON},
+	{ITEM_CARD_GOBLIN_ATTACK_FORCE, RARITY_COMMON},
+	{ITEM_CARD_MARAUDING_CAPTAIN, RARITY_COMMON},
+	{ITEM_CARD_BLAST_WITH_CHAIN, RARITY_COMMON},
+	{ITEM_CARD_HEAVY_STORM, RARITY_COMMON},
+	{ITEM_CARD_MATAZA_THE_ZAPPER, RARITY_COMMON},
+	{ITEM_CARD_DARK_BLADE, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_COMMON},
+	{ITEM_CARD_COMMAND_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_MYSTIC_SWORDSMAN_LV4, RARITY_COMMON},
+	{ITEM_CARD_MAGIC_JAMMER, RARITY_COMMON},
+	{ITEM_CARD_D_D_WARRIOR_LADY, RARITY_COMMON},
+	{ITEM_CARD_GIANT_TRUNADE, RARITY_COMMON},
+	{ITEM_CARD_SNATCH_STEAL, RARITY_COMMON},
+	{ITEM_CARD_EXILED_FORCE, RARITY_COMMON},
+	{ITEM_CARD_NINJA_GRANDMASTER_SASUKE, RARITY_COMMON},
+	{ITEM_CARD_LIGHTNING_VORTEX, RARITY_COMMON},
+	{ITEM_CARD_ROYAL_DECREE, RARITY_COMMON},
+	{ITEM_CARD_MYSTIC_SWORDSMAN_LV2, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+	{ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStructureDeckWaveofLight[] =
+{
+	{ITEM_CARD_AIRKNIGHT_PARSHATH, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStructureDeckYugiMuto[] =
+{
+	{ITEM_CARD_MAGICIAN_S_CIRCLE, RARITY_COMMON},
+	{ITEM_CARD_SKILLED_DARK_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_COMMON},
+	{ITEM_CARD_MAGIC_CYLINDER, RARITY_COMMON},
+	{ITEM_CARD_DARK_PALADIN, RARITY_COMMON},
+	{ITEM_CARD_KURIBOH, RARITY_COMMON},
+	{ITEM_CARD_SKILLED_WHITE_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGIC_CURTAIN, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_COMMON},
+	{ITEM_CARD_BUSTER_BLADER, RARITY_COMMON},
+	{ITEM_CARD_TWIN_HEADED_BEHEMOTH, RARITY_COMMON},
+	{ITEM_CARD_GIANT_SOLDIER_OF_STONE, RARITY_COMMON},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStructureDeckZombieHorde[] =
+{
+	{ITEM_CARD_MASK_OF_RESTRICT, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_GATE, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_LIFE, RARITY_COMMON},
+	{ITEM_CARD_DRAGGED_DOWN_INTO_THE_GRAVE, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_ZOMBIE_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_ANTI_SPELL_FRAGRANCE, RARITY_COMMON},
+	{ITEM_CARD_PYRAMID_TURTLE, RARITY_COMMON},
+};
+
+const struct PackContents gTCGStructureDeckZombieMadness[] =
+{
+	{ITEM_CARD_CREATURE_SWAP, RARITY_COMMON},
+	{ITEM_CARD_TORRENTIAL_TRIBUTE, RARITY_COMMON},
+	{ITEM_CARD_RELOAD, RARITY_COMMON},
+	{ITEM_CARD_VAMPIRE_LORD, RARITY_COMMON},
+	{ITEM_CARD_HEAVY_STORM, RARITY_COMMON},
+	{ITEM_CARD_RECKLESS_GREED, RARITY_COMMON},
+	{ITEM_CARD_DUST_TORNADO, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_LIFE, RARITY_COMMON},
+	{ITEM_CARD_SPIRIT_REAPER, RARITY_COMMON},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_COMMON},
+	{ITEM_CARD_NOBLEMAN_OF_CROSSOUT, RARITY_COMMON},
+	{ITEM_CARD_MAGIC_JAMMER, RARITY_COMMON},
+	{ITEM_CARD_GIANT_TRUNADE, RARITY_COMMON},
+	{ITEM_CARD_SNATCH_STEAL, RARITY_COMMON},
+	{ITEM_CARD_PYRAMID_TURTLE, RARITY_COMMON},
+	{ITEM_CARD_RYU_KOKKI, RARITY_COMMON},
+	{ITEM_CARD_POT_OF_GREED, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGSummonedSkullSamplepromotionalcard[] =
+{
+	{ITEM_CARD_SUMMONED_SKULL, RARITY_COMMON},
+};
+
+const struct PackContents gTCGSuperStarterPowerUpPack[] =
+{
+	{ITEM_CARD_MAGIC_CYLINDER, RARITY_SUPER_RARE},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_SUPER_RARE},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_SUPER_RARE},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGSuperStarterSpaceTimeShowdown[] =
+{
+	{ITEM_CARD_POISON_OF_THE_OLD_MAN, RARITY_COMMON},
+	{ITEM_CARD_JAR_OF_GREED, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_ELF, RARITY_COMMON},
+	{ITEM_CARD_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_DUST_TORNADO, RARITY_COMMON},
+	{ITEM_CARD_DARK_BLADE, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REINCARNATION, RARITY_COMMON},
+	{ITEM_CARD_MAGIC_JAMMER, RARITY_COMMON},
+	{ITEM_CARD_RAIGEKI_BREAK, RARITY_COMMON},
+	{ITEM_CARD_SAKURETSU_ARMOR, RARITY_COMMON},
+	{ITEM_CARD_LIGHTNING_VORTEX, RARITY_COMMON},
+	{ITEM_CARD_LUSTER_DRAGON, RARITY_COMMON},
+	{ITEM_CARD_AXE_OF_DESPAIR, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+	{ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT, RARITY_COMMON},
+};
+
+const struct PackContents gTCGSuperStarterVforVictory[] =
+{
+	{ITEM_CARD_MYSTICAL_ELF, RARITY_COMMON},
+	{ITEM_CARD_MARAUDING_CAPTAIN, RARITY_COMMON},
+	{ITEM_CARD_DUST_TORNADO, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_COMMON},
+	{ITEM_CARD_NEO_THE_MAGIC_SWORDSMAN, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+};
+
+const struct PackContents gTCGSupremeDarkness[] =
+{
+	{ITEM_CARD_BEAST_OF_TALWAR_THE_SWORD_SUMMIT, RARITY_COMMON},
+	{ITEM_CARD_METALFLAME_SWORDSMAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_METALFLAME_SWORDSMAN, RARITY_QUARTER_CENTURY_SECRET_RARE},
+};
+
+const struct PackContents gTCGSupremeDarknessPremierepromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGSwedishShonenJump2004Issue2promotionalcard[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGSwedishShonenJump2005Issue12promotionalcard[] =
+{
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGSynchronExtremeStructureDeck[] =
+{
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+};
+
+const struct PackContents gTCGTacticalEvolution[] =
+{
+	{ITEM_CARD_RENGE_GATEKEEPER_OF_DARK_WORLD, RARITY_COMMON},
+};
+
+const struct PackContents gTCGTacticalEvolutionSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGTacticalEvolutionSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGTacticalMasters[] =
+{
+	{ITEM_CARD_SCAPEGOAT, RARITY_RARE},
+	{ITEM_CARD_SCAPEGOAT, RARITY_COLLECTOR_S_RARE},
+	{ITEM_CARD_RECKLESS_GREED, RARITY_RARE},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_RARE},
+	{ITEM_CARD_LABRYNTH_ARCHFIEND, RARITY_RARE},
+	{ITEM_CARD_ANTI_SPELL_FRAGRANCE, RARITY_RARE},
+	{ITEM_CARD_ANTI_SPELL_FRAGRANCE, RARITY_COLLECTOR_S_RARE},
+};
+
+const struct PackContents gTCGTheDarkEmperorStructureDeck[] =
+{
+	{ITEM_CARD_TORRENTIAL_TRIBUTE, RARITY_COMMON},
+	{ITEM_CARD_BIG_BANG_SHOT, RARITY_COMMON},
+	{ITEM_CARD_BOTTOMLESS_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_KARMA_CUT, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_COMMON},
+	{ITEM_CARD_BRAIN_CONTROL, RARITY_COMMON},
+	{ITEM_CARD_NOBLEMAN_OF_CROSSOUT, RARITY_COMMON},
+	{ITEM_CARD_D_D_WARRIOR_LADY, RARITY_COMMON},
+	{ITEM_CARD_BAZOO_THE_SOUL_EATER, RARITY_COMMON},
+	{ITEM_CARD_KYCOO_THE_GHOST_DESTROYER, RARITY_COMMON},
+	{ITEM_CARD_EXILED_FORCE, RARITY_COMMON},
+	{ITEM_CARD_SAKURETSU_ARMOR, RARITY_COMMON},
+	{ITEM_CARD_RETURN_FROM_THE_DIFFERENT_DIMENSION, RARITY_COMMON},
+	{ITEM_CARD_LIGHTNING_VORTEX, RARITY_COMMON},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_COMMON},
+	{ITEM_CARD_D_D_SURVIVOR, RARITY_COMMON},
+	{ITEM_CARD_CAIUS_THE_SHADOW_MONARCH, RARITY_ULTRA_RARE},
+	{ITEM_CARD_D_D_ASSAILANT, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGTheDarkIllusion[] =
+{
+	{ITEM_CARD_MAGICIAN_OF_DARK_ILLUSION, RARITY_SUPER_RARE},
+	{ITEM_CARD_MAGICIAN_S_ROD, RARITY_SUPER_RARE},
+	{ITEM_CARD_MAGICIAN_S_ROBE, RARITY_COMMON},
+};
+
+const struct PackContents gTCGTheDarkIllusionSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGTheDarkIllusionSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGTheDuelistGenesis[] =
+{
+};
+
+const struct PackContents gTCGTheDuelistGenesisSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGTheDuelistGenesisSpecialEdition[] =
+{
+};
+
+const struct PackContents gTCGTheGrandCreators[] =
+{
+	{ITEM_CARD_TORRENTIAL_TRIBUTE, RARITY_RARE},
+	{ITEM_CARD_TORRENTIAL_TRIBUTE, RARITY_COLLECTOR_S_RARE},
+};
+
+const struct PackContents gTCGTheInfiniteForbidden[] =
+{
+};
+
+const struct PackContents gTCGTheInfiniteForbiddenPremierepromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGTheInfinityChasers[] =
+{
+	{ITEM_CARD_MAGIC_CYLINDER, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGTheLostArtPromotion2019A[] =
+{
+	{ITEM_CARD_RING_OF_DESTRUCTION, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGTheLostArtPromotion2019B[] =
+{
+	{ITEM_CARD_LESSER_FIEND, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGTheLostArtPromotion2019C[] =
+{
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGTheLostArtPromotion2019D[] =
+{
+	{ITEM_CARD_DARK_RULER_HA_DES, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGTheLostArtPromotion2019E[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2019F[] =
+{
+	{ITEM_CARD_SKILL_DRAIN, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGTheLostArtPromotion2020A[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2020B[] =
+{
+	{ITEM_CARD_SOLEMN_JUDGMENT, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGTheLostArtPromotion2020C[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2020D[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2020E[] =
+{
+	{ITEM_CARD_OFFERINGS_TO_THE_DOOMED, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGTheLostArtPromotion2020F[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2020G[] =
+{
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGTheLostArtPromotion2020H[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2020I[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2020J[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2020K[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2020L[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2020M[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2020N[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2020O[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2020P[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2020Q[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2020R[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2021A[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2021B[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2021C[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2021D[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2021E[] =
+{
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGTheLostArtPromotion2021F[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2021G[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2021H[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2021I[] =
+{
+	{ITEM_CARD_GEMINI_ELF, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGTheLostArtPromotion2021J[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2021K[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2021L[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2022A[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2022B[] =
+{
+	{ITEM_CARD_DON_ZALOOG, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGTheLostArtPromotion2022C[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2022D[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2022E[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2022F[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2022G[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2022H[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2022I[] =
+{
+	{ITEM_CARD_AXE_OF_DESPAIR, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGTheLostArtPromotion2022J[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2022K[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2023A[] =
+{
+	{ITEM_CARD_DON_ZALOOG, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGTheLostArtPromotion2023B[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2023C[] =
+{
+	{ITEM_CARD_TRAPTRIX_GENLISEA, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGTheLostArtPromotion2023D[] =
+{
+	{ITEM_CARD_SENJU_OF_THE_THOUSAND_HANDS, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGTheLostArtPromotion2023E[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2023F[] =
+{
+	{ITEM_CARD_ZOMBYRA_THE_DARK, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGTheLostArtPromotion2023G[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2023H[] =
+{
+	{ITEM_CARD_MITSU_THE_INSECT_NINJA, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGTheLostArtPromotion2023I[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2023J[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2023K[] =
+{
+	{ITEM_CARD_MASKED_NINJA_EBISU, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGTheLostArtPromotion2023L[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2024A[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2024B[] =
+{
+	{ITEM_CARD_TREEBORN_FROG, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGTheLostArtPromotion2024C[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2024D[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2024E[] =
+{
+	{ITEM_CARD_ULTIMATE_OFFERING, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGTheLostArtPromotion2024F[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2024G[] =
+{
+};
+
+const struct PackContents gTCGTheLostArtPromotion2024H[] =
+{
+	{ITEM_CARD_MONSTER_REBORN, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGTheLostArtPromotionA[] =
+{
+	{ITEM_CARD_MONSTER_REBORN, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGTheLostArtPromotionB[] =
+{
+	{ITEM_CARD_RIGHT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGTheLostArtPromotionC[] =
+{
+	{ITEM_CARD_LEFT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGTheLostArtPromotionD[] =
+{
+	{ITEM_CARD_EXODIA_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGTheLostArtPromotionE[] =
+{
+	{ITEM_CARD_LEFT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGTheLostArtPromotionF[] =
+{
+	{ITEM_CARD_RIGHT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGTheLostMillennium[] =
+{
+	{ITEM_CARD_HIERACOSPHINX, RARITY_SUPER_RARE},
+	{ITEM_CARD_HIERACOSPHINX, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_WHITE_NINJA, RARITY_COMMON},
+	{ITEM_CARD_BRAIN_CONTROL, RARITY_SUPER_RARE},
+	{ITEM_CARD_BRAIN_CONTROL, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_ULTIMATE_INSECT_LV7, RARITY_SUPER_RARE},
+	{ITEM_CARD_ULTIMATE_INSECT_LV7, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_MINE_GOLEM, RARITY_COMMON},
+	{ITEM_CARD_ELEMENTAL_HERO_CLAYMAN, RARITY_COMMON},
+	{ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_MOAI_INTERCEPTOR_CANNONS, RARITY_COMMON},
+	{ITEM_CARD_D_D_SURVIVOR, RARITY_RARE},
+	{ITEM_CARD_D_D_SURVIVOR, RARITY_ULTIMATE_RARE},
+	{ITEM_CARD_DES_WOMBAT, RARITY_COMMON},
+};
+
+const struct PackContents gTCGTheLostMillenniumSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGTheLostMillenniumSpecialEdition[] =
+{
+	{ITEM_CARD_CHAOS_EMPEROR_DRAGON_ENVOY_OF_THE_END, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGTheNewChallengers[] =
+{
+	{ITEM_CARD_SHADDOLL_HOUND, RARITY_COMMON},
+};
+
+const struct PackContents gTCGTheNewChallengersSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGTheNewChallengersSuperEdition[] =
+{
+};
+
+const struct PackContents gTCGThePotCollection[] =
+{
+	{ITEM_CARD_POT_OF_GENEROSITY, RARITY_ULTRA_PARALLEL_RARE},
+	{ITEM_CARD_POT_OF_AVARICE, RARITY_ULTRA_PARALLEL_RARE},
+	{ITEM_CARD_POT_OF_GREED, RARITY_ULTRA_PARALLEL_RARE},
+	{ITEM_CARD_POT_OF_GREED, RARITY_QUARTER_CENTURY_SECRET_RARE},
+};
+
+const struct PackContents gTCGTheSecretForces[] =
+{
+	{ITEM_CARD_MANJU_OF_THE_TEN_THOUSAND_HANDS, RARITY_SUPER_RARE},
+	{ITEM_CARD_GISHKI_VISION, RARITY_SUPER_RARE},
+	{ITEM_CARD_GISHKI_SHADOW, RARITY_SUPER_RARE},
+	{ITEM_CARD_GISHKI_CHAIN, RARITY_SUPER_RARE},
+	{ITEM_CARD_GISHKI_NOELLIA, RARITY_SUPER_RARE},
+	{ITEM_CARD_ROYAL_DECREE, RARITY_SUPER_RARE},
+	{ITEM_CARD_EXA_ENFORCER_OF_THE_NEKROZ, RARITY_SUPER_RARE},
+	{ITEM_CARD_SHURIT_STRATEGIST_OF_THE_NEKROZ, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGTheShiningDarkness[] =
+{
+	{ITEM_CARD_RONINTOADIN, RARITY_COMMON},
+	{ITEM_CARD_ARCHFIEND_INTERCEPTOR, RARITY_COMMON},
+};
+
+const struct PackContents gTCGTheShiningDarknessSneakPeekParticipationCard[] =
+{
+};
+
+const struct PackContents gTCGToonChaos[] =
+{
+	{ITEM_CARD_WITCH_OF_THE_BLACK_FOREST, RARITY_RARE},
+	{ITEM_CARD_KEEPER_OF_DRAGON_MAGIC, RARITY_RARE},
+	{ITEM_CARD_ENVOY_OF_CHAOS, RARITY_RARE},
+	{ITEM_CARD_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_RARE},
+	{ITEM_CARD_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_COLLECTOR_S_RARE},
+	{ITEM_CARD_CHAOS_SORCERER, RARITY_RARE},
+	{ITEM_CARD_SANGAN, RARITY_RARE},
+	{ITEM_CARD_CHAOS_EMPEROR_DRAGON_ENVOY_OF_THE_END, RARITY_RARE},
+	{ITEM_CARD_CHAOS_EMPEROR_DRAGON_ENVOY_OF_THE_END, RARITY_COLLECTOR_S_RARE},
+};
+
+const struct PackContents gTCGTournamentPack4[] =
+{
+	{ITEM_CARD_MYSTIC_TOMATO, RARITY_COMMON},
+	{ITEM_CARD_MORPHING_JAR, RARITY_SUPER_RARE},
+	{ITEM_CARD_SENJU_OF_THE_THOUSAND_HANDS, RARITY_COMMON},
+	{ITEM_CARD_RUSH_RECKLESSLY, RARITY_COMMON},
+	{ITEM_CARD_NIMBLE_MOMONGA, RARITY_COMMON},
+	{ITEM_CARD_GIANT_RAT, RARITY_COMMON},
+	{ITEM_CARD_THE_FIEND_MEGACYBER, RARITY_SUPER_RARE},
+	{ITEM_CARD_GIANT_RED_SEASNAKE, RARITY_RARE},
+	{ITEM_CARD_ROYAL_DECREE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_NOBLEMAN_OF_EXTERMINATION, RARITY_COMMON},
+	{ITEM_CARD_MEGAMORPH, RARITY_SUPER_RARE},
+	{ITEM_CARD_GRAVITY_BIND, RARITY_COMMON},
+};
+
+const struct PackContents gTCGTournamentPack5[] =
+{
+	{ITEM_CARD_JOWGEN_THE_SPIRITUALIST, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_LIFE, RARITY_RARE},
+	{ITEM_CARD_BIG_SHIELD_GARDNA, RARITY_SUPER_RARE},
+	{ITEM_CARD_BAZOO_THE_SOUL_EATER, RARITY_RARE},
+	{ITEM_CARD_KYCOO_THE_GHOST_DESTROYER, RARITY_RARE},
+	{ITEM_CARD_LUSTER_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_PYRAMID_TURTLE, RARITY_COMMON},
+};
+
+const struct PackContents gTCGTournamentPack6[] =
+{
+	{ITEM_CARD_AIRKNIGHT_PARSHATH, RARITY_RARE},
+	{ITEM_CARD_SPEAR_DRAGON, RARITY_RARE},
+	{ITEM_CARD_ROYAL_DECREE, RARITY_SUPER_RARE},
+	{ITEM_CARD_TOON_CANNON_SOLDIER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_TOON_TABLE_OF_CONTENTS, RARITY_SUPER_RARE},
+	{ITEM_CARD_EMERGENCY_PROVISIONS, RARITY_COMMON},
+	{ITEM_CARD_THUNDER_NYAN_NYAN, RARITY_COMMON},
+};
+
+const struct PackContents gTCGTournamentPack7[] =
+{
+	{ITEM_CARD_SKILLED_DARK_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_SOUL_EXCHANGE, RARITY_COMMON},
+	{ITEM_CARD_GOBLIN_ATTACK_FORCE, RARITY_RARE},
+	{ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR, RARITY_SUPER_RARE},
+	{ITEM_CARD_SCAPEGOAT, RARITY_RARE},
+	{ITEM_CARD_SKILLED_WHITE_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_WALL_OF_ILLUSION, RARITY_COMMON},
+	{ITEM_CARD_LAST_WILL, RARITY_COMMON},
+};
+
+const struct PackContents gTCGTournamentPack8[] =
+{
+	{ITEM_CARD_BERSERK_GORILLA, RARITY_COMMON},
+	{ITEM_CARD_MOBIUS_THE_FROST_MONARCH, RARITY_RARE},
+	{ITEM_CARD_HARPIE_S_FEATHER_DUSTER, RARITY_SUPER_RARE},
+	{ITEM_CARD_DUNAMES_DARK_WITCH, RARITY_SUPER_RARE},
+	{ITEM_CARD_ULTIMATE_OFFERING, RARITY_COMMON},
+	{ITEM_CARD_GRANMARG_THE_ROCK_MONARCH, RARITY_RARE},
+	{ITEM_CARD_SLATE_WARRIOR, RARITY_SUPER_RARE},
+	{ITEM_CARD_ZABORG_THE_THUNDER_MONARCH, RARITY_RARE},
+	{ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH, RARITY_RARE},
+};
+
+const struct PackContents gTCGTournamentPack1stSeason[] =
+{
+	{ITEM_CARD_MECHANICALCHASER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MECHANICALCHASER, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGTournamentPack2ndSeason[] =
+{
+	{ITEM_CARD_MORPHING_JAR, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GIANT_RED_SEASNAKE, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGTournamentPack3rdSeason[] =
+{
+	{ITEM_CARD_SPIRIT_OF_THE_HARP, RARITY_COMMON},
+	{ITEM_CARD_MECHANICALCHASER, RARITY_SUPER_RARE},
+	{ITEM_CARD_DARK_ELF, RARITY_COMMON},
+	{ITEM_CARD_BLACK_SKULL_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_FINAL_FLAME, RARITY_COMMON},
+	{ITEM_CARD_HORN_OF_HEAVEN, RARITY_SUPER_RARE},
+	{ITEM_CARD_POT_OF_GREED, RARITY_COMMON},
+};
+
+const struct PackContents gTCGTrialsofthePharaohMatchoftheMillenniumTwistedNightmarespromotionalcard[] =
+{
+	{ITEM_CARD_JINZO, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGTrialsofthePharaohSpeedDuelGXDuelAcademyBoxpromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGTrialsofthePharaohSpeedDuelGXMidtermParadoxpromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGTrialsofthePharaohSpeedDuelBattleCityBoxpromotionalcard[] =
+{
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGTrialsofthePharaohTrialsoftheKingdompromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGTurboPackBoosterEight[] =
+{
+	{ITEM_CARD_MAGICIAN_S_CIRCLE, RARITY_COMMON},
+	{ITEM_CARD_SKILL_DRAIN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_UPSTART_GOBLIN, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGTurboPackBoosterFive[] =
+{
+	{ITEM_CARD_TORRENTIAL_TRIBUTE, RARITY_RARE},
+	{ITEM_CARD_MANJU_OF_THE_TEN_THOUSAND_HANDS, RARITY_COMMON},
+	{ITEM_CARD_DARK_HOLE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_CYBER_ELTANIN, RARITY_RARE},
+	{ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT, RARITY_COMMON},
+};
+
+const struct PackContents gTCGTurboPackBoosterFour[] =
+{
+	{ITEM_CARD_DARK_HOLE, RARITY_COMMON},
+	{ITEM_CARD_DUNAMES_DARK_WITCH, RARITY_RARE},
+	{ITEM_CARD_COMPULSORY_EVACUATION_DEVICE, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGTurboPackBoosterOne[] =
+{
+	{ITEM_CARD_CRUSH_CARD_VIRUS, RARITY_RARE},
+	{ITEM_CARD_RESCUE_CAT, RARITY_RARE},
+	{ITEM_CARD_TERRAFORMING, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_COMMON},
+	{ITEM_CARD_DOOMCALIBER_KNIGHT, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGTurboPackBoosterSeven[] =
+{
+	{ITEM_CARD_GOKIPON, RARITY_COMMON},
+	{ITEM_CARD_NINJA_GRANDMASTER_SASUKE, RARITY_SUPER_RARE},
+	{ITEM_CARD_BOOK_OF_MOON, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGTurboPackBoosterSix[] =
+{
+	{ITEM_CARD_CREATURE_SWAP, RARITY_COMMON},
+	{ITEM_CARD_CIPHER_SOLDIER, RARITY_COMMON},
+	{ITEM_CARD_CHAIN_DISAPPEARANCE, RARITY_SUPER_RARE},
+	{ITEM_CARD_SANGAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MASKED_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_MAGICAL_DIMENSION, RARITY_COMMON},
+};
+
+const struct PackContents gTCGTurboPackBoosterThree[] =
+{
+	{ITEM_CARD_NOBLEMAN_OF_CROSSOUT, RARITY_COMMON},
+	{ITEM_CARD_KYCOO_THE_GHOST_DESTROYER, RARITY_COMMON},
+	{ITEM_CARD_RESCUE_CAT, RARITY_SUPER_RARE},
+	{ITEM_CARD_CAIUS_THE_SHADOW_MONARCH, RARITY_ULTIMATE_RARE},
+};
+
+const struct PackContents gTCGTurboPackBoosterTwo[] =
+{
+	{ITEM_CARD_GRAVEKEEPER_S_ASSAILANT, RARITY_SUPER_RARE},
+	{ITEM_CARD_NECROVALLEY, RARITY_COMMON},
+	{ITEM_CARD_CHAOS_SORCERER, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GRAVEKEEPER_S_SPEAR_SOLDIER, RARITY_RARE},
+	{ITEM_CARD_ANTI_SPELL_FRAGRANCE, RARITY_COMMON},
+	{ITEM_CARD_MAGICAL_DIMENSION, RARITY_SUPER_RARE},
+	{ITEM_CARD_REFLECT_BOUNDER, RARITY_COMMON},
+};
+
+const struct PackContents gTCGTwilightEdition[] =
+{
+};
+
+const struct PackContents gTCGUltimateEdition[] =
+{
+	{ITEM_CARD_BLUE_EYES_ULTIMATE_DRAGON, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGUltimateEdition2[] =
+{
+};
+
+const struct PackContents gTCGValiantSmashers[] =
+{
+	{ITEM_CARD_TERRAFORMING, RARITY_RARE},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_RARE},
+};
+
+const struct PackContents gTCGWSJJumpPackFall2016promotionalcard[] =
+{
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGWSJJumpPackFall2017promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGWSJJumpPackFall2018promotionalcard[] =
+{
+	{ITEM_CARD_APPRENTICE_ILLUSION_MAGICIAN, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGWSJJumpPackSpring2016promotionalcard[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGWSJJumpPackSpring2017promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGWSJJumpPackSpring2018promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGWSJJumpPackSpring2019promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGWaroftheGiantsReinforcements[] =
+{
+	{ITEM_CARD_BERSERK_GORILLA, RARITY_COMMON},
+	{ITEM_CARD_NEEDLE_CEILING, RARITY_COMMON},
+	{ITEM_CARD_EVILSWARM_HELIOTROPE, RARITY_COMMON},
+	{ITEM_CARD_EVILSWARM_KETOS, RARITY_SUPER_RARE},
+	{ITEM_CARD_LEGENDARY_JUJITSU_MASTER, RARITY_SUPER_RARE},
+	{ITEM_CARD_WALL_OF_ILLUSION, RARITY_SUPER_RARE},
+	{ITEM_CARD_BLADE_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_YOMI_SHIP, RARITY_SUPER_RARE},
+	{ITEM_CARD_ARCHFIEND_OF_GILFER, RARITY_SUPER_RARE},
+	{ITEM_CARD_BLACK_PENDANT, RARITY_COMMON},
+	{ITEM_CARD_BIG_TUSKED_MAMMOTH, RARITY_SUPER_RARE},
+	{ITEM_CARD_MEGAMORPH, RARITY_SUPER_RARE},
+	{ITEM_CARD_GOLEM_SENTRY, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGWaroftheGiantsRound2[] =
+{
+	{ITEM_CARD_BERSERK_GORILLA, RARITY_COMMON},
+	{ITEM_CARD_NEEDLE_CEILING, RARITY_COMMON},
+	{ITEM_CARD_EVILSWARM_HELIOTROPE, RARITY_COMMON},
+	{ITEM_CARD_EVILSWARM_KETOS, RARITY_SUPER_RARE},
+	{ITEM_CARD_LEGENDARY_JUJITSU_MASTER, RARITY_SUPER_RARE},
+	{ITEM_CARD_WALL_OF_ILLUSION, RARITY_SUPER_RARE},
+	{ITEM_CARD_BLADE_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_YOMI_SHIP, RARITY_SUPER_RARE},
+	{ITEM_CARD_ARCHFIEND_OF_GILFER, RARITY_SUPER_RARE},
+	{ITEM_CARD_BLACK_PENDANT, RARITY_COMMON},
+	{ITEM_CARD_BIG_TUSKED_MAMMOTH, RARITY_SUPER_RARE},
+	{ITEM_CARD_MEGAMORPH, RARITY_SUPER_RARE},
+	{ITEM_CARD_GOLEM_SENTRY, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGWarriorsStrikeStructureDeck[] =
+{
+	{ITEM_CARD_BIG_BANG_SHOT, RARITY_COMMON},
+	{ITEM_CARD_NIGHTMARE_S_STEELCAGE, RARITY_COMMON},
+	{ITEM_CARD_MARAUDING_CAPTAIN, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_COMMON},
+	{ITEM_CARD_D_D_WARRIOR_LADY, RARITY_COMMON},
+	{ITEM_CARD_EXILED_FORCE, RARITY_COMMON},
+	{ITEM_CARD_SAKURETSU_ARMOR, RARITY_COMMON},
+	{ITEM_CARD_MIND_CONTROL, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGWeeklyShonenJumpAlphaApril2012membershippromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGWeeklyShonenJumpAlphaDecember2012membershippromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGWeeklyShonenJumpAlphaJuly2012membershippromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGWeeklyShonenJumpAlphaSeptember2012membershippromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGWeeklyShonenJumpApril2015membershippromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGWeeklyShonenJumpApril2016membershippromotionalcard[] =
+{
+	{ITEM_CARD_RELINKURIBOH, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGWeeklyShonenJumpApril2017membershippromotionalcard[] =
+{
+	{ITEM_CARD_APPRENTICE_ILLUSION_MAGICIAN, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGWeeklyShonenJumpAugust2014membershippromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGWeeklyShonenJumpDecember2013membershippromotionalcard[] =
+{
+	{ITEM_CARD_ARCHFIEND_COMMANDER, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGWeeklyShonenJumpFebruary2015membershippromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGWeeklyShonenJumpJanuary2016membershippromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGWeeklyShonenJumpJanuary2017membershippromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGWeeklyShonenJumpJanuary2018membershippromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGWeeklyShonenJumpJuly2013membershippromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGWeeklyShonenJumpJuly2015membershippromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGWeeklyShonenJumpJuly2016membershippromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGWeeklyShonenJumpJuly2017membershippromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGWeeklyShonenJumpJuly2018membershippromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGWeeklyShonenJumpJune2019membershippromotionalcards[] =
+{
+};
+
+const struct PackContents gTCGWeeklyShonenJumpMarch2013membershippromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGWeeklyShonenJumpMarch2014membershippromotionalcard[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGWeeklyShonenJumpMay2018membershippromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGWeeklyShonenJumpNovember2014membershippromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGWeeklyShonenJumpNovember2017membershippromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGWeeklyShonenJumpNovember2018membershippromotionalcard[] =
+{
+	{ITEM_CARD_CHAOS_EMPEROR_DRAGON_ENVOY_OF_THE_END, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGWeeklyShonenJumpOctober2015membershippromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGWeeklyShonenJumpOctober2016membershippromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGWeeklyShonenJumpSeptember2013membershippromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGWildSurvivors[] =
+{
+	{ITEM_CARD_MANJU_OF_THE_TEN_THOUSAND_HANDS, RARITY_RARE},
+	{ITEM_CARD_ENEMY_CONTROLLER, RARITY_RARE},
+	{ITEM_CARD_DECK_DEVASTATION_VIRUS, RARITY_RARE},
+};
+
+const struct PackContents gTCGWingRaiders[] =
+{
+	{ITEM_CARD_BOTTOMLESS_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_REINFORCEMENT_OF_THE_ARMY, RARITY_COMMON},
+	{ITEM_CARD_CALL_OF_THE_HAUNTED, RARITY_COMMON},
+	{ITEM_CARD_MYSTICAL_SPACE_TYPHOON, RARITY_COMMON},
+};
+
+const struct PackContents gTCGWorldChampionship2010CardPack[] =
+{
+	{ITEM_CARD_DARK_ERADICATOR_WARLOCK, RARITY_RARE},
+};
+
+const struct PackContents gTCGWorldChampionship2011CardPack[] =
+{
+	{ITEM_CARD_METEOR_DRAGON, RARITY_SUPER_RARE},
+	{ITEM_CARD_GIANT_RED_SEASNAKE, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGWorldSuperstars[] =
+{
+	{ITEM_CARD_ELEMENTAL_HERO_BLAZEMAN, RARITY_PRISMATIC_SECRET_RARE},
+};
+
+const struct PackContents gTCGXSaberPowerUp[] =
+{
+};
+
+const struct PackContents gTCGYuGiOh3DBondsBeyondTimeBluraypromotionalcard[] =
+{
+	{ITEM_CARD_MALEFIC_RED_EYES_BLACK_DRAGON, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGYuGiOh3DBondsBeyondTimeDVDpromotionalcard[] =
+{
+	{ITEM_CARD_MALEFIC_RED_EYES_BLACK_DRAGON, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGYuGiOh3DBondsBeyondTimeMoviePack[] =
+{
+	{ITEM_CARD_MALEFIC_BLUE_EYES_WHITE_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_MALEFIC_CYBER_END_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_MALEFIC_RED_EYES_BLACK_DRAGON, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGYuGiOh3DBondsBeyondTimeTheaterdistributioncard[] =
+{
+	{ITEM_CARD_MALEFIC_RED_EYES_BLACK_DRAGON, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGYuGiOh5DsDuelTranserpromotionalcards[] =
+{
+};
+
+const struct PackContents gTCGYuGiOh5DsTagForce4promotionalcards[] =
+{
+};
+
+const struct PackContents gTCGYuGiOh5DsTagForce5promotionalcards[] =
+{
+};
+
+const struct PackContents gTCGYuGiOh5DsVolume1promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOh5DsVolume2promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOh5DsVolume3promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOh5DsVolume4promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOh5DsVolume5promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOh5DsVolume6promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOh5DsVolume7promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOh5DsVolume8promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOh5DsVolume9promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOh5DsWheelieBreakerspromotionalcards[] =
+{
+};
+
+const struct PackContents gTCGYuGiOh5DsWorldChampionship2009StardustAcceleratorpromotionalcards[] =
+{
+};
+
+const struct PackContents gTCGYuGiOh5DsWorldChampionship2010ReverseofArcadiapromotionalcards[] =
+{
+};
+
+const struct PackContents gTCGYuGiOh5DsWorldChampionship2011OvertheNexuspromotionalcards[] =
+{
+};
+
+const struct PackContents gTCGYuGiOh7TrialstoGloryWorldChampionshipTournament2005promotionalcards[] =
+{
+	{ITEM_CARD_KAIBAMAN, RARITY_SUPER_RARE},
+	{ITEM_CARD_MIND_CONTROL, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGYuGiOhARCVVolume1promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhARCVVolume2promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhARCVVolume3promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhARCVVolume4promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhARCVVolume5promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhARCVVolume6promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhARCVVolume7promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhAdventCalendar2018[] =
+{
+	{ITEM_CARD_SACRED_PHOENIX_OF_NEPHTHYS, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGYuGiOhAdventCalendar2019[] =
+{
+	{ITEM_CARD_KURIBOH, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SPHERE_KURIBOH, RARITY_SUPER_RARE},
+	{ITEM_CARD_RELINKURIBOH, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGYuGiOhCapsuleMonsterColiseumpromotionalcards[] =
+{
+	{ITEM_CARD_ABYSS_SOLDIER, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGYuGiOhChampionshipSeries2010PrizeCards[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhChampionshipSeries2011PrizeCard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhChampionshipSeries2012PrizeCard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhChampionshipSeries2013PrizeCard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhChampionshipSeries2014PrizeCard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhChampionshipSeries2015PrizeCard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhChampionshipSeries2016PrizeCard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhChampionshipSeries2017prizecard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhChampionshipSeries2018prizecard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhChampionshipSeries2019prizecard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhChampionshipSeries2022prizecard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhChampionshipSeries2023prizecard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhChampionshipSeries2024prizecard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhChampionshipSeries2025prizecards[] =
+{
+	{ITEM_CARD_CYBER_DRAGON, RARITY_RARE},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_RARE},
+};
+
+const struct PackContents gTCGYuGiOhDarkDuelStoriespromotionalcards[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_EXODIA_THE_FORBIDDEN_ONE, RARITY_PRISMATIC_SECRET_RARE},
+};
+
+const struct PackContents gTCGYuGiOhDestinyBoardTravelerpromotionalcards[] =
+{
+	{ITEM_CARD_D_D_ASSAILANT, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGYuGiOhDoublePackpromotionalcards[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhDuelistVolume16promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhEarlyDaysCollectionpromotionalcards[] =
+{
+	{ITEM_CARD_HARPIE_S_FEATHER_DUSTER, RARITY_QUARTER_CENTURY_SECRET_RARE},
+};
+
+const struct PackContents gTCGYuGiOhElementalHeroCollection1[] =
+{
+	{ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGYuGiOhElementalHeroCollection2[] =
+{
+	{ITEM_CARD_ELEMENTAL_HERO_WILDHEART, RARITY_SECRET_RARE},
+	{ITEM_CARD_ELEMENTAL_HERO_CLAYMAN, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGYuGiOhForbiddenMemoriesPremiumEditionpromotionalcards[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhGXCardAlmanacpromotionalcards[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhGXDuelAcademypromotionalcards[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhGXSpecialEdition[] =
+{
+	{ITEM_CARD_ELEMENTAL_HERO_WILDHEART, RARITY_ULTRA_SECRET_RARE},
+};
+
+const struct PackContents gTCGYuGiOhGXSpiritCallerpromotionalcards[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhGXTagForce2promotionalcards[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhGXTagForce3promotionalcards[] =
+{
+	{ITEM_CARD_RED_EYES_WYVERN, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGYuGiOhGXTagForceEvolutionpromotionalcards[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhGXTagForcepromotionalcards[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhGXTheBeginningofDestinypromotionalcards[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhGXUltimateBeginnersPack[] =
+{
+	{ITEM_CARD_LEFT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_SECRET_RARE},
+	{ITEM_CARD_RIGHT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_SECRET_RARE},
+	{ITEM_CARD_RIGHT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_SECRET_RARE},
+	{ITEM_CARD_EXODIA_THE_FORBIDDEN_ONE, RARITY_SECRET_RARE},
+	{ITEM_CARD_LEFT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGYuGiOhGXVolume1promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhGXVolume2promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhGXVolume3promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhGXVolume4promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhGXVolume5promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhGXVolume6promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhGXVolume7promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhGXVolume8promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhGXVolume9promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhLegacyoftheDuelistLinkEvolutionpromotionalcards[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhMillenniumWorldVolume4promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhNightmareTroubadourpromotionalcards[] =
+{
+	{ITEM_CARD_MAGICIAN_S_CIRCLE, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGYuGiOhPowerofChaosJoeythePassionpromotionalcards[] =
+{
+	{ITEM_CARD_RED_EYES_BLACK_DRAGON, RARITY_PRISMATIC_SECRET_RARE},
+};
+
+const struct PackContents gTCGYuGiOhPowerofChaosKaibatheRevengepromotionalcards[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_PRISMATIC_SECRET_RARE},
+};
+
+const struct PackContents gTCGYuGiOhPowerofChaosYugitheDestinyLimitedCollectorsEdition[] =
+{
+	{ITEM_CARD_KURIBOH, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_KURIBOH, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_PRISMATIC_SECRET_RARE},
+};
+
+const struct PackContents gTCGYuGiOhPowerofChaosYugitheDestinypromotionalcards[] =
+{
+	{ITEM_CARD_ANTI_SPELL_FRAGRANCE, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_ANTI_SPELL_FRAGRANCE, RARITY_PRISMATIC_SECRET_RARE},
+};
+
+const struct PackContents gTCGYuGiOhRVolume1promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhRVolume3promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhRVolume4promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhRVolume5promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhRemoteDuelExtravaganzaparticipationcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhReshefofDestructionpromotionalcards[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhTheDarkSideofDimensionsBlurayDVDpromotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhTheDarkSideofDimensionsMoviePack[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_PALLADIUM_ORACLE_MAHAD, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DEEP_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLUE_EYES_ALTERNATIVE_WHITE_DRAGON, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGYuGiOhTheDarkSideofDimensionsMoviePackSecretEdition[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_SECRET_RARE},
+	{ITEM_CARD_PALLADIUM_ORACLE_MAHAD, RARITY_SECRET_RARE},
+	{ITEM_CARD_DEEP_EYES_WHITE_DRAGON, RARITY_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_SECRET_RARE},
+	{ITEM_CARD_BLUE_EYES_ALTERNATIVE_WHITE_DRAGON, RARITY_SECRET_RARE},
+};
+
+const struct PackContents gTCGYuGiOhTheDarkSideofDimensionsMoviePackSpecialEdition[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGYuGiOhTheDarkSideofDimensionsMoviePackGoldEdition[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_GOLD_SECRET_RARE},
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_GOLD_RARE},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_GOLD_RARE},
+	{ITEM_CARD_PALLADIUM_ORACLE_MAHAD, RARITY_GOLD_RARE},
+	{ITEM_CARD_DEEP_EYES_WHITE_DRAGON, RARITY_GOLD_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_GOLD_SECRET_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_GOLD_RARE},
+	{ITEM_CARD_BLUE_EYES_ALTERNATIVE_WHITE_DRAGON, RARITY_GOLD_RARE},
+};
+
+const struct PackContents gTCGYuGiOhTheDarkSideofDimensionsTheaterdistributioncards[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhTheDawnofDestinypromotionalcards[] =
+{
+	{ITEM_CARD_WIDESPREAD_RUIN, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_WIDESPREAD_RUIN, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGYuGiOhTheDuelistsoftheRosespromotionalcards[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhTheEternalDuelistSoulpromotionalcards[] =
+{
+	{ITEM_CARD_EXCHANGE, RARITY_PRISMATIC_SECRET_RARE},
+};
+
+const struct PackContents gTCGYuGiOhTheFalseboundKingdompromotionalcards[] =
+{
+	{ITEM_CARD_CIPHER_SOLDIER, RARITY_SUPER_RARE},
+	{ITEM_CARD_SLATE_WARRIOR, RARITY_SUPER_RARE},
+};
+
+const struct PackContents gTCGYuGiOhTheSacredCardspromotionalcards[] =
+{
+	{ITEM_CARD_EXCHANGE, RARITY_PRISMATIC_SECRET_RARE},
+};
+
+const struct PackContents gTCGYuGiOhTradingCardGameTour2004promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhUltimateMastersWorldChampionshipTournament2006promotionalcards[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhWorldChampionship2004tournamentpromotionalcards[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhWorldChampionship2007promotionalcards[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhWorldChampionship2008promotionalcards[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhWorldChampionship2024CelebrationEventprizecards[] =
+{
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_QUARTER_CENTURY_SECRET_RARE},
+	{ITEM_CARD_DOOMCALIBER_KNIGHT, RARITY_QUARTER_CENTURY_SECRET_RARE},
+};
+
+const struct PackContents gTCGYuGiOhWorldChampionshipQualifierNationalChampionships2011prizecards[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhWorldChampionshipTournament2004promotionalcards[] =
+{
+	{ITEM_CARD_HARPIE_S_FEATHER_DUSTER, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_CIPHER_SOLDIER, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_SINISTER_SERPENT, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_SLATE_WARRIOR, RARITY_PRISMATIC_SECRET_RARE},
+};
+
+const struct PackContents gTCGYuGiOhWorldwideEditionStairwaytotheDestinedDuelpromotionalcards[] =
+{
+	{ITEM_CARD_HARPIE_S_FEATHER_DUSTER, RARITY_PRISMATIC_SECRET_RARE},
+	{ITEM_CARD_SINISTER_SERPENT, RARITY_PRISMATIC_SECRET_RARE},
+};
+
+const struct PackContents gTCGYuGiOhZEXALVolume1promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhZEXALVolume2promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhZEXALVolume3promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhZEXALVolume4promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhZEXALVolume5promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhZEXALVolume6promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhZEXALVolume7promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhZEXALVolume8promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhZEXALVolume9promotionalcard[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhZEXALWorldDuelCarnivalpromotionalcards[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhatHomeSweepstakes[] =
+{
+};
+
+const struct PackContents gTCGYuGiOhtheMovieVHSandDVDpromotionalcards[] =
+{
+};
+
+const struct PackContents gTCGYugiKaibaCollectorBox[] =
+{
+	{ITEM_CARD_BLUE_EYES_WHITE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGYugisCollectorBox[] =
+{
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_ULTRA_RARE},
+};
+
+const struct PackContents gTCGYugisLegendaryDecks[] =
+{
+	{ITEM_CARD_DARK_MAGICIAN_OF_CHAOS, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MAGICIAN_S_CIRCLE, RARITY_COMMON},
+	{ITEM_CARD_SKILLED_DARK_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_ULTRA_RARE},
+	{ITEM_CARD_DARK_MAGICIAN_GIRL, RARITY_COMMON},
+	{ITEM_CARD_MAGIC_CYLINDER, RARITY_COMMON},
+	{ITEM_CARD_LEFT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MYSTICAL_ELF, RARITY_COMMON},
+	{ITEM_CARD_DARK_PALADIN, RARITY_COMMON},
+	{ITEM_CARD_CARD_DESTRUCTION, RARITY_COMMON},
+	{ITEM_CARD_KURIBOH, RARITY_COMMON},
+	{ITEM_CARD_KURIBOH, RARITY_COMMON},
+	{ITEM_CARD_KURIBOH, RARITY_COMMON},
+	{ITEM_CARD_SKILLED_WHITE_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_MIRACLE_RESTORING, RARITY_COMMON},
+	{ITEM_CARD_RIGHT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GAIA_THE_DRAGON_CHAMPION, RARITY_COMMON},
+	{ITEM_CARD_BRAIN_CONTROL, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGIC_CURTAIN, RARITY_COMMON},
+	{ITEM_CARD_BIG_SHIELD_GARDNA, RARITY_COMMON},
+	{ITEM_CARD_RIGHT_LEG_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SUMMONED_SKULL, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_COMMON},
+	{ITEM_CARD_DARK_MAGICIAN, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_COMMON},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_MIRROR_FORCE, RARITY_COMMON},
+	{ITEM_CARD_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING, RARITY_COMMON},
+	{ITEM_CARD_BUSTER_BLADER, RARITY_COMMON},
+	{ITEM_CARD_BUSTER_BLADER, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_COMMON},
+	{ITEM_CARD_MONSTER_REBORN, RARITY_COMMON},
+	{ITEM_CARD_ARCHFIEND_OF_GILFER, RARITY_COMMON},
+	{ITEM_CARD_CATAPULT_TURTLE, RARITY_COMMON},
+	{ITEM_CARD_EXODIA_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_GIANT_SOLDIER_OF_STONE, RARITY_COMMON},
+	{ITEM_CARD_GAIA_THE_FIERCE_KNIGHT, RARITY_COMMON},
+	{ITEM_CARD_MAGICAL_DIMENSION, RARITY_COMMON},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_COMMON},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_ULTRA_RARE},
+	{ITEM_CARD_SWORDS_OF_REVEALING_LIGHT, RARITY_COMMON},
+	{ITEM_CARD_EXCHANGE, RARITY_COMMON},
+	{ITEM_CARD_LEFT_ARM_OF_THE_FORBIDDEN_ONE, RARITY_ULTRA_RARE},
+	{ITEM_CARD_POT_OF_GREED, RARITY_COMMON},
+};
+
+const struct PackContents gTCGZexalCollectionTin[] =
+{
+};
+
+const struct PackContents gTCGZombieWorldStructureDeck[] =
+{
+	{ITEM_CARD_CREATURE_SWAP, RARITY_COMMON},
+	{ITEM_CARD_DES_LACOODA, RARITY_COMMON},
+	{ITEM_CARD_WABOKU, RARITY_COMMON},
+	{ITEM_CARD_CARD_DESTRUCTION, RARITY_COMMON},
+	{ITEM_CARD_BOTTOMLESS_TRAP_HOLE, RARITY_COMMON},
+	{ITEM_CARD_DUST_TORNADO, RARITY_COMMON},
+	{ITEM_CARD_BOOK_OF_LIFE, RARITY_COMMON},
+	{ITEM_CARD_SPIRIT_REAPER, RARITY_COMMON},
+	{ITEM_CARD_COLD_WAVE, RARITY_COMMON},
+	{ITEM_CARD_SHRINK, RARITY_COMMON},
+	{ITEM_CARD_RED_EYES_ZOMBIE_DRAGON, RARITY_ULTRA_RARE},
+	{ITEM_CARD_POT_OF_AVARICE, RARITY_COMMON},
+	{ITEM_CARD_TERRAFORMING, RARITY_COMMON},
+	{ITEM_CARD_PYRAMID_TURTLE, RARITY_COMMON},
+	{ITEM_CARD_RYU_KOKKI, RARITY_COMMON},
+};
+
 const struct PackContents gOCGVol1[] =
 {
 	{ITEM_CARD_DARK_MAGICIAN, RARITY_COMMON},
