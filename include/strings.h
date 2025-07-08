@@ -3046,5 +3046,16 @@ extern const u8 gText_Tuner[];
 extern const u8 gText_XYZ[];
 extern const u8 gText_Synchro[];
 extern const u8 gText_SynchroTuner[];
+extern const u8 gText_SynchroPendulum[];
+extern const u8 gText_Link[];
+extern const u8 gText_XYZPendulum[];
+extern const u8 gText_NormalTuner[];
+extern const u8 gText_PendulumEffect[];
+extern const u8 gText_PendulumRitual[];
+extern const u8 gText_PendulumFusion[];
+extern const u8 gText_PendulumNormal[];
+extern const u8 gText_PendulumTuner[];
+extern const u8 gText_PendulumFlip[];
+extern const u8 gText_FlipTuner[];
 
 #endif // GUARD_STRINGS_H

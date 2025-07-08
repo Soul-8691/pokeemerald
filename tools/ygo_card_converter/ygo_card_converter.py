@@ -13,6 +13,28 @@ from tqdm import tqdm
 # data = json.dumps(res.json(), indent=4)
 # f.write(data)
 # f.close()
+# url = 'https://dawnbrandbots.github.io/yaml-yugi/cards.json'  # Example URL for a JSON endpoint
+
+# try:
+#     response = requests.get(url)
+#     response.raise_for_status()  # Raise an exception for bad status codes (4xx or 5xx)
+
+#     json_data = response.json()  # Automatically parses the JSON response into a Python dictionary or list
+
+#     # Option 1: Process the JSON data in Python
+#     print("Fetched JSON data:")
+#     # print(json_data)
+
+#     # Option 2: Save the JSON data to a file
+#     file_path = 'bastion.json'
+#     with open(file_path, 'w', encoding='utf-8') as f:
+#         json.dump(json_data, f, indent=4)  # `indent=4` for pretty-printing
+#     print(f"\nJSON data successfully saved to '{file_path}'")
+
+# except requests.exceptions.RequestException as e:
+#     print(f"Error fetching data from URL: {e}")
+# except json.JSONDecodeError as e:
+#     print(f"Error decoding JSON response: {e}")
 
 formats = ['Yugi-Kaiba', 'Critter', 'Treasure', 'Imperial', 'Android', 'Joey-Pegasus', 'Fiber', 'Yata', 'Scientist', 'Vampire', 'Chaos', 'Warrior', 'Goat', 'Cyber', 'Reaper', 'Chaos Return', 'Demise', 'Trooper', 'Zombie', 'Perfect Circle', 'DAD Return', 'Gladiator', 'TeleDAD', 'Cat', 'Edison', 'Frog', 'Starstrike', 'Tengu', 'Dino Rabbit', 'Wind-Up', 'Miami', 'Meadowlands', 'Baby Ruler', 'Ravine Ruler', 'Fire-Water', 'HAT', 'Vegas']
 
@@ -22,21 +44,24 @@ for format in formats:
    highest_usage[format] = 0
    cards_by_format[format] = {}
 
-with open('FL.json', 'r') as f:
-    data = json.load(f)
-    for card in data:
-        if card['Format'] in formats:
-            cards_by_format[card['Format']][card['Card']] = card['Usage']
-            if card['Usage (Weighted)'] > highest_usage[card['Format']]:
-            	highest_usage[card['Format']] = card['Usage (Weighted)']
+cards_by_pack = dict()
+# packs = set()
+with open('bastion.json', 'r') as f:
+	data = json.load(f)
+	for card in data:
+		cards_by_pack[card['name']['en']] = card
+		# try:
+		# 	for set_tcg in card['sets']['en']:
+		# 		packs.add('TCG_' + set_tcg['set_name'])
+		# except:
+		# 	pass
+		# try:
+		# 	for set_ocg in card['sets']['ja']:
+		# 		packs.add('OCG_' + set_ocg['set_name'])
+		# except:
+		# 	pass
 
-wct06_ranks = {}
-with open('wct06.json', 'r') as f:
-    data = json.load(f)
-    for card in data:
-        wct06_ranks[card['Card']] = 1
-        if card['Rank']:
-           wct06_ranks[card['Card']] = card['Rank']
+# packs = sorted(list(packs))
 
 def move_palette_color(img, old_index, new_index):
     """
@@ -85,686 +110,96 @@ def move_palette_color(img, old_index, new_index):
     
     return img
 
+# with open('ocg_sets.json', 'r') as f:
+# 	data = json.load(f)
+# 	for series in tqdm(data):
+# 		for set_ in tqdm(pack_names):
+# 			print(set_)
+# 			try:
+# 				set_url = data[series][set_[4:]]['image_url']
+# 				res = requests.get(set_url)
+# 				image = 'Sets/' + set_ + '.jpg'
+# 				if not os.path.exists(image):
+# 					with open(image, 'wb') as file:
+# 						file.write(res.content)
+# 						print(set_ + ' image written')
+# 				outfile = 'Sets/Icons/' + re.sub(r'\W+', '_', set_).lower() + '_icon.jpg'
+# 				if not os.path.exists(outfile):
+# 					master = Image.new(
+# 						mode='RGBA',
+# 						size=(32, 32),
+# 						color=(57,255,20,0))
+# 					size = 32, 32
+# 					im = Image.open(image)
+# 					im.thumbnail(size, Image.Resampling.LANCZOS)
+# 					pillow_width, pillow_height = im.size
+# 					# Calculate the top-left coordinates for pasting
+# 					paste_x = (32 - pillow_width) // 2
+# 					paste_y = (32 - pillow_height) // 2
+# 					master.paste(im, box=(paste_x,paste_y))
+# 					master.save(outfile, "PNG")
+# 					master = Image.open(outfile)
+# 					master = master.convert(
+# 						"P", palette=Image.ADAPTIVE, colors=15
+# 					)
+# 					master = move_palette_color(master, 15, 0)
+# 					master.save(outfile, "PNG")
+# 					subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
+# 					print(set_ + ' icon written')
+# 			except:
+# 				pass
+
+FL_ = dict()
+banlists = set()
+with open('FL.json', 'r') as f:
+	data = json.load(f)
+	with open('FL_cards.json', 'w', encoding='utf8') as FL:
+		for card in data:
+			if card['Index (TCG)'] != -1:
+				card_ = card['Card']
+				if card_ not in FL_:
+					FL_[card_] = {}
+				banlists.add(card['Month'])
+				FL_[card_][card['Month']] = {}
+				FL_[card_][card['Month']]['Usage'] = card['Usage (% - Weighted)']
+				FL_[card_][card['Month']]['Banlist'] = card['Banlist']
+			if card['Format'] in formats:
+				cards_by_format[card['Format']][card['Card']] = card['Usage']
+				if card['Usage (Weighted)'] > highest_usage[card['Format']]:
+					highest_usage[card['Format']] = card['Usage (Weighted)']
+		json.dump(dict(sorted(FL_.items())), FL, indent=4)
+		FL.close()
+
+for month in tqdm(sorted(banlists)):
+	print(month)
+	banlist = requests.get("https://formatlibrary.com/api/banlists/" + month.replace(' ', '%20') + "?category=TCG").json()
+	with open('FL_cards.json', 'r') as f:
+		dt = json.load(f)
+		with open('FL_cards.json', 'w', encoding='utf8') as FL:
+			for card in sorted(list(dt)):
+				print(card)
+				for card_index in range(len(banlist['forbidden'])):
+					if card == banlist['forbidden'][card_index]['cardName']:
+						FL_[card][month] = {}
+						FL_[card][month]['Banlist'] = 'Forbidden'
+						FL_[card][month]['Usage'] = 0
+			json.dump(dict(sorted(FL_.items())), FL, indent=4)
+			FL.close()
+
+wct06_ranks = {}
+with open('wct06.json', 'r') as f:
+    data = json.load(f)
+    for card in data:
+        wct06_ranks[card['Card']] = 1
+        if card['Rank']:
+           wct06_ranks[card['Card']] = card['Rank']
+
 card_names = [
-	"4-Starred Ladybug of Doom",
-	"7 Colored Fish",
-	"A Legendary Ocean",
-	"Abyss Soldier",
-	"Airknight Parshath",
-	"Amazoness Archer",
-	"Amphibious Bugroth MK-3",
-	"Anti-Spell Fragrance",
-	"Aqua Madoor",
-	"Aqua Spirit",
-	"Archfiend Soldier",
-	"Arsenal Bug",
-	"Arsenal Summoner",
-	"Asura Priest",
-	"Axe of Despair",
-	"Banisher of the Light",
-	"Barrel Behind the Door",
-	"Battle Footballer",
-	"Battle Ox",
-	"Bazoo the Soul-Eater",
-	"Berserk Gorilla",
-	"Bickuribox",
-	"Big Bang Shot",
-	"Big Shield Gardna",
-	"Big-Tusked Mammoth",
-	"Black Illusion Ritual",
-	"Black Luster Soldier - Envoy of the Beginning",
-	"Black Pendant",
-	"Black Skull Dragon",
-	"Blade Knight",
-	"Blast with Chain",
-	"Blazing Inpachi",
-	"Blindly Loyal Goblin",
-	"Block Attack",
-	"Blowback Dragon",
-	"Blue-Eyes Ultimate Dragon",
-	"Blue-Eyes White Dragon",
-	"Book of Life",
-	"Book of Moon",
-	"Book of Taiyou",
-	"Bottomless Trap Hole",
-	"Bowganian",
-	"Brain Control",
-	"Breaker the Magical Warrior",
-	"Broww, Huntsman of Dark World",
-	"Brron, Mad King of Dark World",
-	"Buster Blader",
-	"Byser Shock",
-	"Call of the Haunted",
-	"Cannon Soldier",
-	"Card Destruction",
-	"Castle of Dark Illusions",
-	"Castle Walls",
-	"Catapult Turtle",
-	"Ceasefire",
-	"Chain Disappearance",
-	"Chain Energy",
-	"Chainsaw Insect",
-	"Change of Heart",
-	"Chaos Emperor Dragon - Envoy of the End",
-	"Chaos Sorcerer",
-	"Charcoal Inpachi",
-	"Chiron the Mage",
-	"Cipher Soldier",
-	"Cold Wave",
-	"Command Knight",
-	"Compulsory Evacuation Device",
-	"Confiscation",
-	"Crass Clown",
-	"Creature Swap",
-	"Crush Card Virus",
-	"Cursed Seal of the Forbidden Spell",
-	"Cyber Dragon",
-	"Cyber End Dragon",
-	"Cyber Harpie Lady",
-	"Cyber Jar",
-	"Cyber Twin Dragon",
-	"Cyber-Stein",
-	"D.D. Assailant",
-	"D.D. Crazy Beast",
-	"D.D. Survivor",
-	"D.D. Trainer",
-	"D.D. Warrior Lady",
-	"Dark Blade",
-	"Dark Blade the Dragon Knight",
-	"Dark Deal",
-	"Dark Elf",
-	"Dark Hole",
-	"Dark Magic Curtain",
-	"Dark Magician",
-	"Dark Magician of Chaos",
-	"Dark Mimic LV1",
-	"Dark Mimic LV3",
-	"Dark Paladin",
-	"Dark Ruler Ha Des",
-	"Dark Scorpion - Chick the Yellow",
-	"Dark Scorpion - Cliff the Trap Remover",
-	"Dark World Lightning",
-	"De-Spell",
-	"Deck Devastation Virus",
-	"Dekoichi the Battlechanted Locomotive",
-	"Delinquent Duo",
-	"Des Dendle",
-	"Des Koala",
-	"Des Lacooda",
-	"Des Wombat",
-	"Desert Sunlight",
-	"Dian Keto the Cure Master",
-	"Dimension Fusion",
-	"Don Zaloog",
-	"Doom Dozer",
-	"Doomcaliber Knight",
-	"Dragged Down into the Grave",
-	"Dragon's Mirror",
-	"Dragon's Rage",
-	"Dream Clown",
-	"Drillroid",
-	"Drop Off",
-	"Dunames Dark Witch",
-	"Dust Tornado",
-	"Earthbound Spirit",
-	"Electric Snake",
-	"Elemental HERO Clayman",
-	"Elemental HERO Flame Wingman",
-	"Elemental HERO Wildheart",
-	"Emergency Provisions",
-	"Emissary of the Afterlife",
-	"Enemy Controller",
-	"Exarion Universe",
-	"Exchange",
-	"Exchange of the Spirit",
-	"Exiled Force",
-	"Exodia the Forbidden One",
-	"Fake Trap",
-	"Familiar-Possessed - Aussa",
-	"Familiar-Possessed - Eria",
-	"Familiar-Possessed - Hiita",
-	"Familiar-Possessed - Wynn",
-	"Fiber Jar",
-	"Final Flame",
-	"Fissure",
-	"Flame Swordsman",
-	"Flying Kamakiri #1",
-	"Fusilier Dragon, the Dual-Mode Beast",
-	"Gagagigo",
-	"Gaia Power",
-	"Gaia the Dragon Champion",
-	"Gatling Dragon",
-	"Gear Golem the Moving Fortress",
-	"Gearfried the Iron Knight",
-	"Gemini Elf",
-	"Giant Germ",
-	"Giant Orc",
-	"Giant Rat",
-	"Giant Red Seasnake",
-	"Giant Soldier of Stone",
-	"Giant Trunade",
-	"Giga-Tech Wolf",
-	"Gigantes",
-	"Gil Garth",
-	"Gilasaurus",
-	"Goblin Attack Force",
-	"Goblin Elite Attack Force",
-	"Gokipon",
-	"Golem Sentry",
-	"Gora Turtle",
-	"Graceful Charity",
-	"Gravekeeper's Assailant",
-	"Gravekeeper's Guard",
-	"Gravekeeper's Spear Soldier",
-	"Gravekeeper's Spy",
-	"Gravekeeper's Watcher",
-	"Gravity Bind",
-	"Great White",
-	"Guardian Sphinx",
-	"Gyaku-Gire Panda",
-	"Gyakutenno Megami",
-	"Hallowed Life Barrier",
-	"Hane-Hane",
-	"Harpie's Feather Duster",
-	"Heavy Storm",
-	"Hieracosphinx",
-	"Horn of Heaven",
-	"Howling Insect",
-	"Humanoid Slime",
-	"Hydrogeddon",
-	"Hyper Hammerhead",
-	"Imperial Order",
-	"Inaba White Rabbit",
-	"Indomitable Fighter Lei Lei",
-	"Injection Fairy Lily",
-	"Inpachi",
-	"Insect Knight",
-	"Island Turtle",
-	"Jar of Greed",
-	"Jinzo",
-	"Jirai Gumo",
-	"Jowgen the Spiritualist",
-	"Judge Man",
-	"Just Desserts",
-	"Kaiser Sea Horse",
-	"Karma Cut",
-	"King Dragun",
-	"King of the Swamp",
-	"King Tiger Wanghu",
-	"Kuriboh",
-	"Kycoo the Ghost Destroyer",
-	"La Jinn the Mystical Genie of the Lamp",
-	"Labyrinth Tank",
-	"Lady Ninja Yae",
-	"Last Will",
-	"Left Arm of the Forbidden One",
-	"Left Leg of the Forbidden One",
-	"Legendary Jujitsu Master",
-	"Level Limit - Area B",
-	"Levia-Dragon - Daedalus",
-	"Light of Intervention",
-	"Lightning Vortex",
-	"Limiter Removal",
-	"Luster Dragon",
-	"Mad Dog of Darkness",
-	"Mage Power",
-	"Magic Cylinder",
-	"Magic Jammer",
-	"Magical Dimension",
-	"Magical Merchant",
-	"Magical Scientist",
-	"Magician of Faith",
-	"Magician's Circle",
-	"Magician's Valkyria",
-	"Maiden of the Aqua",
-	"Makyura the Destructor",
-	"Man-Eater Bug",
-	"Manju of the Ten Thousand Hands",
-	"Manticore of Darkness",
-	"Marauding Captain",
-	"Mask of Darkness",
-	"Mask of Restrict",
-	"Masked Dragon",
-	"Masked Sorcerer",
-	"Mataza the Zapper",
-	"Mechanicalchaser",
-	"Megamorph",
-	"Mermaid Knight",
-	"Messenger of Peace",
-	"Metal Reflect Slime",
-	"Metamorphosis",
-	"Milus Radiant",
-	"Minar",
-	"Mind Control",
-	"Mine Golem",
-	"Miracle Restoring",
-	"Mirage Dragon",
-	"Mirage of Nightmare",
-	"Mirror Force",
-	"Moai Interceptor Cannons",
-	"Mobius the Frost Monarch",
-	"Monster Gate",
-	"Monster Reborn",
-	"Monster Reincarnation",
-	"Morphing Jar",
-	"Mother Grizzly",
-	"Muka Muka",
-	"Mystic Swordsman LV2",
-	"Mystic Swordsman LV4",
-	"Mystic Tomato",
-	"Mystical Elf",
-	"Mystical Space Typhoon",
-	"Mystik Wok",
-	"Necrovalley",
-	"Needle Ceiling",
-	"Neko Mane King",
-	"Neo Bug",
-	"Neo the Magic Swordsman",
-	"Newdoria",
-	"Night Assailant",
-	"Nightmare Wheel",
-	"Nightmare's Steelcage",
-	"Nimble Momonga",
-	"Nin-Ken Dog",
-	"Ninja Grandmaster Sasuke",
-	"Nobleman of Crossout",
-	"Nobleman of Extermination",
-	"Offerings to the Doomed",
-	"Ojama King",
-	"Ojama Trio",
-	"Ookazi",
-	"Oppressed People",
-	"Opticlops",
-	"Painful Choice",
-	"Paladin of White Dragon",
-	"Penguin Knight",
-	"Phoenix Wing Wind Blast",
-	"Pikeru's Circle of Enchantment",
-	"Pinch Hopper",
-	"Pitch-Black Power Stone",
-	"Poison of the Old Man",
-	"Polymerization",
-	"Pot of Avarice",
-	"Pot of Generosity",
-	"Pot of Greed",
-	"Premature Burial",
-	"Prevent Rat",
-	"Prickle Fairy",
-	"Princess of Tsurugi",
-	"Protector of the Sanctuary",
-	"Pyramid Turtle",
-	"Raigeki",
-	"Raigeki Break",
-	"Reaper on the Nightmare",
-	"Reasoning",
-	"Reckless Greed",
-	"Reflect Bounder",
-	"Reinforcement of the Army",
-	"Reinforcements",
-	"Relinquished",
-	"Reload",
-	"Remove Trap",
-	"Rescue Cat",
-	"Return from the Different Dimension",
-	"Right Arm of the Forbidden One",
-	"Right Leg of the Forbidden One",
-	"Ring of Destruction",
-	"Rising Air Current",
-	"Robbin' Goblin",
-	"Roulette Barrel",
-	"Royal Decree",
-	"Royal Magical Library",
-	"Royal Oppression",
-	"Rush Recklessly",
-	"Ryu Kokki",
-	"Saber Beetle",
-	"Sacred Crane",
-	"Sacred Phoenix of Nephthys",
-	"Sakuretsu Armor",
-	"Salvage",
-	"Sand Moth",
-	"Sangan",
-	"Sasuke Samurai",
-	"Sasuke Samurai #4",
-	"Scapegoat",
-	"Sea Serpent Warrior of Darkness",
-	"Second Coin Toss",
-	"Secret Barrel",
-	"Self-Destruct Button",
-	"Serial Spell",
-	"Serpentine Princess",
-	"Seven Tools of the Bandit",
-	"Shining Angel",
-	"Shrink",
-	"Sillva, Warlord of Dark World",
-	"Silpheed",
-	"Sinister Serpent",
-	"Skill Drain",
-	"Skilled Dark Magician",
-	"Skilled White Magician",
-	"Skull Dog Marron",
-	"Skull Lair",
-	"Sky Scout",
-	"Slate Warrior",
-	"Smashing Ground",
-	"Snatch Steal",
-	"Solemn Judgment",
-	"Solemn Wishes",
-	"Soul Exchange",
-	"Soul Tiger",
-	"Spear Cretin",
-	"Spear Dragon",
-	"Spell Canceller",
-	"Spell Reproduction",
-	"Spirit of the Harp",
-	"Spirit Reaper",
-	"Spiritual Earth Art - Kurogane",
-	"Spiritual Water Art - Aoi",
-	"Spiritual Wind Art - Miyabi",
-	"Spiritualism",
-	"Stealth Bird",
-	"Stone Statue of the Aztecs",
-	"Stop Defense",
-	"Summoned Skull",
-	"Swarm of Locusts",
-	"Swarm of Scarabs",
-	"Swords of Revealing Light",
-	"Terraforming",
-	"The Big March of Animals",
-	"The Dragon Dwelling in the Cave",
-	"The Fiend Megacyber",
-	"The Forceful Sentry",
-	"The Forgiving Maiden",
-	"The Last Warrior from Another Planet",
-	"The Little Swordsman of Aile",
-	"The Wicked Worm Beast",
-	"Thestalos the Firestorm Monarch",
-	"Thousand-Eyes Restrict",
-	"Threatening Roar",
-	"Throwstone Unit",
-	"Thunder Dragon",
-	"Thunder Nyan Nyan",
-	"Time Seal",
-	"Toon Cannon Soldier",
-	"Toon Dark Magician Girl",
-	"Toon Gemini Elf",
-	"Toon Goblin Attack Force",
-	"Toon Masked Sorcerer",
-	"Toon Table of Contents",
-	"Torrential Tribute",
-	"Trap Dustshoot",
-	"Trap Hole",
-	"Trap Master",
-	"Treeborn Frog",
-	"Tremendous Fire",
-	"Tribe-Infecting Virus",
-	"Tribute to the Doomed",
-	"Tsukuyomi",
-	"Twin-Headed Behemoth",
-	"Twin-Headed Thunder Dragon",
-	"Ultimate Insect LV3",
-	"Ultimate Insect LV5",
-	"Ultimate Insect LV7",
-	"Ultimate Offering",
-	"United We Stand",
-	"Upstart Goblin",
-	"Vampire Lord",
-	"Vorse Raider",
-	"Waboku",
-	"Wall of Illusion",
-	"Wall of Revealing Light",
-	"Wave-Motion Cannon",
-	"White Dragon Ritual",
-	"White Magical Hat",
-	"Widespread Ruin",
-	"Witch of the Black Forest",
-	"X-Head Cannon",
-	"Xing Zhen Hu",
-	"Yata-Garasu",
-	"Yomi Ship",
-	"Zaborg the Thunder Monarch",
-	"Zombyra the Dark",
-	"Zure, Knight of Dark World",
-	# Archetypal/series-related cards (new cards)
-	"Albaz the Ashen",
-	"Albion the Shrouded Dragon",
-	"Aluber the Jester of Despia",
-	"Amazoness Spiritualist",
-	"Ancient Gear Dragon",
-	"Ancient Gear Golem - Ultimate Pound",
-	"Angmarl the Fiendish Monarch",
-	"Apprentice Illusion Magician",
-	"Archfiend Cavalry",
-	"Archfiend Commander",
-	"Archfiend Giant",
-	"Archfiend Heiress",
-	"Archfiend Interceptor",
-	"Archfiend of Gilfer",
-	"Archfiend's Advent",
-	"Ariel, Priestess of the Nekroz",
-	"Arisen Gaia the Fierce Knight",
-	"Armed Ninja",
-	"Armored Cybern",
-	"Avance, Swordsman of the Nekroz",
-	"Baku the Beast Ninja",
-	"Beast of Talwar",
-	"Beast of Talwar - The Sword Summit",
-	"Beginning Knight",
-	"Beiige, Vanguard of Dark World",
-	"Berlineth the Firestorm Vassal",
-	"Black Dragon's Chick",
-	"Black Metal Dragon",
-	"Blazing Cartesia, the Virtuous",
-	"Blue Flame Swordsman",
-	"Blue-Eyes Alternative White Dragon",
-	"Blue-Eyes Jet Dragon",
-	"Blue-Eyes Toon Dragon",
-	"Bone Archfiend",
-	"Brilliant Rose",
-	"Buster Blader, the Destruction Swordmaster",
-	"Caius the Mega Monarch",
-	"Caius the Shadow Monarch",
-	"Chaos Nephthys",
-	"Charging Gaia the Fierce Knight",
-	"Chronicle Magician",
-	"Chronicle Sorceress",
-	"Crimson Ninja",
-	"Crystal Rose",
-	"Cyber Dragon Drei",
-	"Cyber Dragon Vier",
-	"Cyber Dragon Zwei",
-	"Cyber Eltanin",
-	"Cyber Larva",
-	"Cyberdark Wurm",
-	"Dance Princess of the Nekroz",
-	"Dark Eradicator Warlock",
-	"Dark Magician Girl",
-	"Dark Magician Girl the Magician's Apprentice",
-	"Dark Nephthys",
-	"Deep-Eyes White Dragon",
-	"Defender of Nephthys",
-	"Delg the Dark Monarch",
-	"Dictator of D.",
-	"Dimension Conjurer",
-	"Disciple of Nephthys",
-	"Dupe Frog",
-	"Ehther the Heavenly Monarch",
-	"Eidos the Underworld Monarch",
-	"Eidos the Underworld Squire",
-	"Elemental HERO Blazeman",
-	"Elemental HERO Woodsman",
-	"Emilia, Dance Priestess of the Nekroz",
-	"Envoy of Chaos",
-	"Erebus the Underworld Monarch",
-	"Evening Twilight Knight",
-	"Evilswarm Heliotrope",
-	"Evilswarm Ketos",
-	"Exa, Enforcer of the Nekroz",
-	"Fallen of Albaz",
-	"Fighting Flame Swordsman",
-	"Flip Flop Frog",
-	"Fusion Devourer",
-	"Gaia The Fierce Knight",
-	"Gearfried the Red-Eyes Iron Knight",
-	"Gem-Armadillo",
-	"Gem-Elephant",
-	"Gem-Knight Alexandrite",
-	"Gem-Knight Emerald",
-	"Gem-Knight Garnet",
-	"Gem-Knight Hollowcore",
-	"Gem-Knight Nepyrim",
-	"Gem-Knight Quartz",
-	"Gem-Knight Sapphire",
-	"Gem-Knight Tourmaline",
-	"Gem-Turtle",
-	"Genta, Gateman of Dark World",
-	"Giltia the D. Knight - Soul Spear",
-	"Gishki Abyss",
-	"Gishki Ariel",
-	"Gishki Avance",
-	"Gishki Beast",
-	"Gishki Chain",
-	"Gishki Emilia",
-	"Gishki Grimness",
-	"Gishki Marker",
-	"Gishki Natalia",
-	"Gishki Noellia",
-	"Gishki Shadow",
-	"Gishki Vanity",
-	"Gishki Vision",
-	"Goblin Pothole Squad",
-	"Granmarg the Mega Monarch",
-	"Granmarg the Rock Monarch",
-	"Grapha, Dragon Lord of Dark World",
-	"Green Ninja",
-	"Gren, Tactician of Dark World",
-	"Hand of Nephthys",
-	"Heart of the Blue-Eyes",
-	"Ice Knight",
-	"Infernalqueen Salmon",
-	"Jioh the Gravity Ninja",
-	"Kagero the Cannon Ninja",
-	"Kaibaman",
-	"Keeper of Dragon Magic",
-	"Keeper of the Shrine",
-	"Labrynth Archfiend",
-	"Lancer Archfiend",
-	"Lesser Fiend",
-	"Lord of D.",
-	"Lucent, Netherlord of Dark World",
-	"Lucius the Shadow Vassal",
-	"Mad Archfiend",
-	"Magician of Dark Illusion",
-	"Magician's Robe",
-	"Magician's Rod",
-	"Magicians' Souls",
-	"Magikuriboh",
-	"Maiden of White",
-	"Maiden with Eyes of Blue",
-	"Malefic Blue-Eyes White Dragon",
-	"Malefic Cyber End Dragon",
-	"Malefic Red-Eyes Black Dragon",
-	"Masked Ninja Ebisu",
-	"Master with Eyes of Blue",
-	"Matriarch of Nephthys",
-	"Metalflame Swordsman",
-	"Meteor Dragon",
-	"Mitsu the Insect Ninja",
-	"Mobius the Mega Monarch",
-	"Mystical Elf - White Lightning",
-	"Naelshaddoll Ariel",
-	"Neo Kaiser Sea Horse",
-	"Ninja Grandmaster Hanzo",
-	"Palladium Oracle Mahad",
-	"Parl, Hermit of Dark World",
-	"Penguin Ninja",
-	"Priestess with Eyes of Blue",
-	"Protector with Eyes of Blue",
-	"Qadshaddoll Keios",
-	"Raiza the Mega Monarch",
-	"Red Dragon Ninja",
-	"Red-Eyes Alternative Black Dragon",
-	"Red-Eyes Baby Dragon",
-	"Red-Eyes Black Dragon",
-	"Red-Eyes Black Meteor Dragon",
-	"Red-Eyes Darkness Metal Dragon",
-	"Red-Eyes Retro Dragon",
-	"Red-Eyes Soul",
-	"Red-Eyes Toon Dragon",
-	"Red-Eyes Wyvern",
-	"Red-Eyes Zombie Dragon",
-	"Reeshaddoll Wendi",
-	"Reign-Beaux, Overking of Dark World",
-	"Relinkuriboh",
-	"Renge, Gatekeeper of Dark World",
-	"Rider of the Storm Winds",
-	"Ronintoadin",
-	"Sage with Eyes of Blue",
-	"Salamandra, the Flying Flame Dragon",
-	"Scarr, Scout of Dark World",
-	"Senior Silver Ninja",
-	"Senju of the Thousand Hands",
-	"Shaddoll Beast",
-	"Shaddoll Dragon",
-	"Shaddoll Falco",
-	"Shaddoll Hedgehog",
-	"Shaddoll Hound",
-	"Shurit, Strategist of the Nekroz",
-	"Skilled Red Magician",
-	"Snoww, Unlight of Dark World",
-	"Sonic Bird",
-	"Sphere Kuriboh",
-	"Substitoad",
-	"Super Soldier Soul",
-	"Swap Frog",
-	"T.A.D.P.O.L.E.",
-	"Tenmataitei",
-	"Terrorking Salmon",
-	"Tessera the Prime Squire",
-	"The Black Stone of Legend",
-	"The Bystial Aluber",
-	"The Bystial Lubellion",
-	"The Dark - Hex-Sealed Fusion",
-	"The Earth - Hex-Sealed Fusion",
-	"The Golden Swordsoul",
-	"The Light - Hex-Sealed Fusion",
-	"The White Stone of Ancients",
-	"The White Stone of Legend",
-	"Thestalos the Mega Monarch",
-	"Thestalos the Shadowfire Monarch",
-	"Thunder Dragondark",
-	"Thunder Dragonduo",
-	"Thunder Dragonhawk",
-	"Thunder Dragonlord",
-	"Thunder Dragonmatrix",
-	"Thunder Dragonroar",
-	"Thunder Sea Horse",
-	"Timaeus the United Dragon",
-	"Tlakalel, His Malevolent Majesty",
-	"Tobari the Sky Ninja",
-	"Toon Cyber Dragon",
-	"Toon Summoned Skull",
-	"Tradetoad",
-	"Traptrix Arachnocampa",
-	"Traptrix Atrax",
-	"Traptrix Dionaea",
-	"Traptrix Genlisea",
-	"Traptrix Mantis",
-	"Traptrix Myrmeleo",
-	"Traptrix Nepenthes",
-	"Traptrix Pudica",
-	"Traptrix Vesiculo",
-	"Twilight Ninja Getsuga, the Shogun",
-	"Twilight Ninja Nichirin, the Chunin",
-	"Twilight Ninja Shingetsu",
-	"Upstart Golden Ninja",
-	"Vision HERO Vyon",
-	"White Dragon Ninja",
-	"White Night Dragon",
-	"White Ninja",
-	"Wroughtweiler",
-	"Yellow Dragon Ninja",
-	"Yellow Ninja",
+
+]
+
+pack_names = [
+
 ]
 
 card_info_data = open('YGOProDeck_Card_Info.json')
@@ -784,20 +219,20 @@ Scripts = ''
 Graphics_File_Rules = ''
 SRCDataItemDescs = ''
 card_counter = 1
-pack_counter = 2044
+pack_counter = 1
 description_lines = dict()
 
 ItemUse = ''
 Item = ''
 for format_ in formats:
-    Item += '''    else if (VarGet(VAR_YGO_SHOP) == BANLIST_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').upper() + ''')
+    Item += '''    else if (VarGet(VAR_YGO_SHOP) == BANLIST_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ''')
     {
         if (gCardInfo[card].ban''' + re.sub(r'[^a-zA-Z0-9]', '', format_) + ''')
             return gCardInfo[card].ban''' + re.sub(r'[^a-zA-Z0-9]', '', format_) + ''';
         else
             return 3;
     }\n'''
-    ItemUse += '''    else if (pack == PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').upper() + ''')
+    ItemUse += '''    else if (pack == PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ''')
     {
         u16 cards[NUM_CARDS];
         for (i = 0; i < NUM_CARDS; i++)
@@ -846,7 +281,6 @@ ItemUsePrinter.close()
 print('src/item_use.c written')
 
 tcg_sets = set()
-# TCG_Set_Writer = open('tcg_sets.json', 'w', encoding='utf-8')
 for data in card_info_data['data']:
 	try:
 		for set_ in data['card_sets']:
@@ -854,58 +288,120 @@ for data in card_info_data['data']:
 	except:
 		pass
 
-tcg_sets_write = {}
-for set_ in sorted(list(tcg_sets)):
-    tcg_sets_write[set_] = {}
-    for data in card_info_data['data']:
-        try:
-            for set__ in data['card_sets']:
-                if set_ == set__['set_name']:
-                    tcg_sets_write[set_][data['name']] = set__['set_rarity']
-        except:
-             pass
+# Set_Writer = open('sets.json', 'w', encoding='utf-8')
+# sets_write = {}
+# for set_ in tqdm(pack_names):
+#     print(set_)
+#     sets_write[set_] = {}
+#     for card in cards_by_pack:
+#         try:
+#             for set__ in cards_by_pack[card]['sets']['ja']:
+#                 if set_[4:] == set__['set_name']:
+#                     for rarity in set__['rarities']:
+#                         sets_write[set_][card] = rarity
+#         except:
+#             pass
+#         try:
+#             for set__ in cards_by_pack[card]['sets']['en']:
+#                 if set_[4:] == set__['set_name']:
+#                     for rarity in set__['rarities']:
+#                         sets_write[set_][card] = rarity
+#         except:
+#             pass
 
-# json.dump(dict(sorted(tcg_sets_write.items())), TCG_Set_Writer, indent=4)
-# TCG_Set_Writer.close()
+# json.dump(dict(sorted(sets_write.items())), Set_Writer, indent=4)
+# Set_Writer.close()
+# print('sets.json written')
 
 sets_print = ''
-with open('tcg_sets.json', 'r') as f:
-    data = json.load(f)
-    for set_ in data:
-        sets_print += 'const struct PackContents g' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '[] =\n{\n'
-        for card in data[set_]:
-            if card in card_names:
-                sets_print += '\t{ITEM_CARD_' + re.sub(r'[^a-zA-Z0-9]', '_', card).replace('__', '_').replace('__', '_').upper() + ', RARITY_' + re.sub(r'[^a-zA-Z0-9]', '_', data[set_][card]).replace('__', '_').replace('__', '_').upper() + '},\n'
-        sets_print += '};\n\n'
+for set_ in tqdm(pack_names):
+	print(set_)
+	if set_[0:3] == 'TCG':
+		sets_print += 'const struct PackContents gTCG' + re.sub(r'[^a-zA-Z0-9]', '', set_[4:]) + '[] =\n{\n'
+		for card in cards_by_pack:
+			if card in card_names:
+				try:
+					for set__ in cards_by_pack[card]['sets']['en']:
+						if set__['set_name'] == set_[4:]:
+							for rarity in set__['rarities']:
+								sets_print += '\t{ITEM_CARD_' + re.sub(r'[^a-zA-Z0-9]', '_', card).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ', RARITY_' + re.sub(r'[^a-zA-Z0-9]', '_', rarity).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '},\n'
+				except:
+					pass
+		sets_print += '};\n\n'
+	if set_[0:3] == 'OCG':
+		sets_print += 'const struct PackContents gOCG' + re.sub(r'[^a-zA-Z0-9]', '', set_[4:]) + '[] =\n{\n'
+		for card in cards_by_pack:
+			if card in card_names:
+				try:
+					for set__ in cards_by_pack[card]['sets']['en']:
+						if set__['set_name'] == set_[4:]:
+							for rarity in set__['rarities']:
+								sets_print += '\t{ITEM_CARD_' + re.sub(r'[^a-zA-Z0-9]', '_', card).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ', RARITY_' + re.sub(r'[^a-zA-Z0-9]', '_', rarity).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '},\n'
+				except:
+					pass
+		sets_print += '};\n\n'
 
-for set_ in sorted(list(tcg_sets)):
-    Scripts += '\tadditem ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').upper() + ' 10\n' 
+# with open('tcg_sets.json', 'r') as f:
+#     data = json.load(f)
+#     for set_ in data:
+#         sets_print += 'const struct PackContents gTCG' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '[] =\n{\n'
+#         for card in data[set_]:
+#             if card in card_names:
+#                 sets_print += '\t{ITEM_CARD_' + re.sub(r'[^a-zA-Z0-9]', '_', card).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ', RARITY_' + re.sub(r'[^a-zA-Z0-9]', '_', data[set_][card]).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '},\n'
+#         sets_print += '};\n\n'
+
+# with open('ocg_sets.json', 'r') as f:
+# 	data = json.load(f)
+# 	for series in data:
+# 		for set_ in data[series]:
+# 			sets_print += 'const struct PackContents gOCG' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '[] =\n{\n'
+# 			for card in data[series][set_]['cards']:
+# 				if card in card_names:
+# 					sets_print += '\t{ITEM_CARD_' + re.sub(r'[^a-zA-Z0-9]', '_', card).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ', RARITY_COMMON},\n'
+# 			sets_print += '};\n\n'
+
+for set_ in pack_names:
+    Scripts += '\tadditem ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ' 10\n' 
 Scripts += '\n'
 
 YGO_C += '\nconst u16 PackIdMapping[] = \n{\n'
-with open('tcg_sets.json', 'r') as f:
-    data = json.load(f)
-    for set_ in data:
-        YGO_C += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').upper() + '] = ' + str(sorted(list(tcg_sets)).index(set_)) + ',\n'
+for set_ in pack_names:
+	YGO_C += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] = ' + str(pack_names.index(set_)) + ',\n'
+	pack_counter += 1
 
 for format_ in formats:
-    YGO_C += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').upper() + '] = ' + str(pack_counter) + ',\n'
+    YGO_C += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] = ' + str(pack_counter) + ',\n'
     pack_counter += 1
 
 YGO_C += '};\n\n'
 
 sets_print += '\nconst struct Pack gPacks[] =\n{\n'
 card_count = 0
-with open('tcg_sets.json', 'r') as f:
-    data = json.load(f)
-    for set_ in data:
-        sets_print += '\t[PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').upper() + '] =\n\t{\n        .pack = g' + re.sub(r'[^a-zA-Z0-9]', '', set_) + ',\n        .length = '
-        for card in data[set_]:
-            if card in card_names:
-                 card_count += 1
-        sets_print += str(card_count)
-        sets_print += ',\n\t},\n'
-        card_count = 0
+with open('sets.json', 'r') as f:
+	data = json.load(f)
+	for set_ in pack_names:
+		if set_[0:3] == 'TCG':
+			sets_print += '\t[PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] =\n\t{\n        .pack = gTCG' + re.sub(r'[^a-zA-Z0-9]', '', set_[4:]) + ',\n        .length = '
+		else:
+			sets_print += '\t[PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] =\n\t{\n        .pack = gOCG' + re.sub(r'[^a-zA-Z0-9]', '', set_[4:]) + ',\n        .length = '
+		for card in data[set_]:
+			if card in card_names:
+				card_count += 1
+		sets_print += str(card_count)
+		sets_print += ',\n\t},\n'
+		card_count = 0
+
+# with open('ocg_sets.json', 'r') as f:
+# 	data = json.load(f)
+# 	for series in data:
+# 		for set_ in data[series]:
+# 			sets_print += '\t[PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] =\n\t{\n        .pack = gOCG' + re.sub(r'[^a-zA-Z0-9]', '', set_) + ',\n        .length = '
+# 			for card in data[series][set_]['cards']:
+# 				if card in card_names:
+# 					card_count += 1
+# 			sets_print += str(card_count)
+# 			sets_print += ',\n\t},\n'
+# 			card_count = 0
 
 sets_print += '};\n'
 PacksWrite = open('src/data/ygo/packs.h', 'w', encoding='utf-8')
@@ -914,10 +410,8 @@ PacksWrite.close()
 print('src/data/ygo/packs.h written')
 
 card_count = 0
-with open('tcg_sets.json', 'r') as f:
-    data = json.load(f)
-    for set_ in data:
-        SRCDataItemDescs += 'static const u8 s' + re.sub(r'[^a-zA-Z0-9]', '', set_) + 'Desc[] = _(\n    "' + textwrap.fill(set_, width=16).replace('\n', '\\n"\n    "') + '.");\n\n'
+for set_ in pack_names:
+	SRCDataItemDescs += 'static const u8 s' + re.sub(r'[^a-zA-Z0-9]', '', set_) + 'Desc[] = _(\n    "' + textwrap.fill(set_[4:].replace('"', ''), width=16).replace('\n', '\\n"\n    "') + '.");\n\n'
 
 for format_ in formats:
     SRCDataItemDescs += 'static const u8 s' + re.sub(r'[^a-zA-Z0-9]', '', format_) + 'Desc[] = _("' + textwrap.fill(format_, width=20).replace('\n', '\\n') + '.");\n\n'
@@ -933,9 +427,9 @@ for card_name in card_names:
 		if card_name == data['name']:
 			gCardInfo += ('const u8 gCardName_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("' + card_name.replace('#', '') + '");\n'
 					+ 'const u8 gCardNameShort_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("'
-			+ card_name[:19].replace('#', '') + '");\n'
+			+ card_name[:19].replace('#', '').replace('"', '') + '");\n'
 					+ 'const u8 gCardNameShortBag_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("'
-			+ card_name[:26].replace('#', '') + '");\n')
+			+ card_name[:26].replace('#', '').replace('"', '') + '");\n')
 			YGO_C += 'const u8 gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("' + textwrap.fill(data['desc'].replace('"', '').replace('\r\n', '').replace('\n', '').replace("''", ''), width=30).replace('\n', '\\n').replace('●', '-').replace('#', '') + '");\n'
 			for line in range(textwrap.fill(data['desc'].replace('"', '').replace('\r\n', '').replace('\n', '').replace("''", ''), width=30).replace('\n', '\\n').count('\\n')):
 				description_lines[card_name] += 1
@@ -948,8 +442,8 @@ for card_name in card_names:
 						+ 'extern const u32 gCardIconSmallPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
 						+ 'extern const u32 gCardIconTiny_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
 						+ 'extern const u32 gCardIconTinyPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n')
-			ItemIconTable += '\t[ITEM_CARD_' + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').upper() + '] = {gCardIconSquare_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ', gCardIconSquarePalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '},\n'
-			Scripts += '\tadditem ITEM_CARD_' + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').upper() + '\n'
+			ItemIconTable += '\t[ITEM_CARD_' + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] = {gCardIconSquare_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ', gCardIconSquarePalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '},\n'
+			Scripts += '\tadditem ITEM_CARD_' + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '\n'
 			YGO_Graphics_C += ('const u32 gCardPicLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '_Big[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/pic_large_big.8bpp.lz");\n'
 						+ 'const u16 gCardPalLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U16("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/pic_large_big.gbapal");\n'
 						+ 'const u32 gCardIconSquare_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/pic_small.4bpp.lz");\n'
@@ -958,20 +452,19 @@ for card_name in card_names:
 						+ 'const u32 gCardIconSmallPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/icon_small.gbapal.lz");\n'
 						+ 'const u32 gCardIconTiny_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/icon_tiny.4bpp.lz");\n'
 						+ 'const u32 gCardIconTinyPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/icon_tiny.gbapal.lz");\n')
-			YGO_Constants += '#define CARD_' + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').upper() + ' ' + str(card_counter) + '\n'
-			Item_Constants += '#define ITEM_CARD_' + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').upper() + ' ' + str(card_counter + 376) + '\n'
-			card_counter += 1
-			Items += '''\t[ITEM_CARD_''' + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').upper() + '''] =
+			YGO_Constants += '#define CARD_' + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ' ' + str(card_counter) + '\n'
+			Item_Constants += '#define ITEM_CARD_' + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ' ' + str(card_counter + 376) + '\n'
+			Items += '''\t[ITEM_CARD_''' + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '''] =
 	{
 		.name = _("''' + re.sub(r'[^a-zA-Z0-9]', '', data['name'])[:13] + '''"),
-		.itemId = ITEM_CARD_''' + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').upper() + ''',
+		.itemId = ITEM_CARD_''' + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ''',
 		.price = 0,
 		.description = sDummyDesc,
 		.pocket = POCKET_TRUNK,
 		.type = ITEM_USE_FIELD,
 		.fieldUseFunc = ItemUseOutOfBattle_Card,
 	},\n
-	'''
+'''
 			UI_Menu += '''    {
 		.data = gCardPicLarge_''' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '''_Big,
 		.size = 80*80,
@@ -979,24 +472,23 @@ for card_name in card_names:
 	},\n'''
 			Graphics_File_Rules += 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '''/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64\n\n'''
+			card_counter += 1
 
 Item_Constants += '\n'
-sets_count = 1054
-for set_ in sorted(list(tcg_sets)):
-    Item_Constants += '#define ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').upper() + ' ' + str(sets_count) + '\n'
-    sets_count += 1
+for set_ in pack_names:
+    Item_Constants += '#define ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ' ' + str(card_counter) + '\n'
+    card_counter += 1
 Item_Constants += '\n'
 
-pack_counter = 2044
 for format_ in formats:
-    Item_Constants += '#define ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').upper() + ' ' + str(pack_counter) + '\n'
-    pack_counter += 1
+    Item_Constants += '#define ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ' ' + str(card_counter) + '\n'
+    card_counter += 1
 
-for set_ in sorted(list(tcg_sets)):
-    Items += '''	[ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').upper() + '''] =
+for set_ in pack_names:
+    Items += '''	[ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '''] =
     {
-        .name = _("''' + set_[:13] + '''"),
-        .itemId = ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').upper() + ''',
+        .name = _("''' + set_[4:17] + '''"),
+        .itemId = ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ''',
         .price = 0,
         .description = s''' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '''Desc,
         .pocket = POCKET_ITEMS,
@@ -1006,10 +498,10 @@ for set_ in sorted(list(tcg_sets)):
 Items += '\n'
 
 for format_ in formats:
-    Items += '''	[ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').upper() + '''] =
+    Items += '''	[ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '''] =
     {
         .name = _("''' + format_[:13] + '''"),
-        .itemId = ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').upper() + ''',
+        .itemId = ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ''',
         .price = 0,
         .description = s''' + re.sub(r'[^a-zA-Z0-9]', '', format_) + '''Desc,
         .pocket = POCKET_ITEMS,
@@ -1018,22 +510,23 @@ for format_ in formats:
     },\n\n'''
 
 ItemIconTable += '\n'
-for set_ in sorted(list(tcg_sets)):
-    ItemIconTable += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').upper() + '] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},\n'
+for set_ in pack_names:
+    ItemIconTable += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},\n'
     sets_count += 1
 
 ItemIconTable += '\n'
 for format_ in formats:
-    ItemIconTable += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').upper() + '] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},\n'
+    ItemIconTable += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},\n'
+
+pack_counter = 1
+YGO_Constants += '\n'
+for set_ in pack_names:
+	YGO_Constants += '#define PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ' ' + str(pack_counter) + '\n'
+	pack_counter += 1
 
 YGO_Constants += '\n'
-for set_ in sorted(list(tcg_sets)):
-    YGO_Constants += '#define PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').upper() + ' ' + str(sorted(list(tcg_sets)).index(set_)) + '\n'
-
-YGO_Constants += '\n'
-pack_counter = 990
 for format_ in formats:
-    YGO_Constants += '#define PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').upper() + ' ' + str(pack_counter) + '\n'
+    YGO_Constants += '#define PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ' ' + str(pack_counter) + '\n'
     pack_counter += 1
 
 YGO_Output = open('include/ygo.h', 'w')
@@ -1080,7 +573,7 @@ for format in cards_by_format:
 	Scripts += '''InsideOfTruck_EventScript_Clerk_''' + re.sub(r'\W+', '', format) + '''::
 	lock
 	faceplayer
-	setvar VAR_YGO_SHOP, FORMAT_''' + re.sub(r'\W+', '_', format).replace('__', '_').replace('__', '_').upper() + '''
+	setvar VAR_YGO_SHOP, FORMAT_''' + re.sub(r'\W+', '_', format).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '''
 	message gText_''' + re.sub(r'\W+', '', format) + '''Clerk
 	waitmessage
 	pokemart InsideOfTruck_Pokemart''' + re.sub(r'\W+', '', format) + '''
@@ -1096,7 +589,7 @@ InsideOfTruck_Pokemart''' + re.sub(r'\W+', '', format) + ''':\n'''
 		if card_name in card_names:
 			for card_ in cards_by_format[format]:
 				if card_ == card_name and cards_by_format[format][card_]:
-					Scripts += '\t.2byte  ITEM_CARD_' + re.sub(r'\W+', '_', card_name).replace('__', '_').replace('__', '_').upper() + '\n'
+					Scripts += '\t.2byte  ITEM_CARD_' + re.sub(r'\W+', '_', card_name).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '\n'
 	Scripts += '\tpokemartlistend\n\n'
 
 for format in cards_by_format:
@@ -1127,7 +620,7 @@ with open('FL.json', 'r') as f:
 		Scripts += '''InsideOfTruck_EventScript_Clerk_''' + re.sub(r'\W+', '', format) + '''Banlist::
 	lock
 	faceplayer
-	setvar VAR_YGO_SHOP, BANLIST_''' + re.sub(r'\W+', '_', format).replace('__', '_').replace('__', '_').upper() + '''
+	setvar VAR_YGO_SHOP, BANLIST_''' + re.sub(r'\W+', '_', format).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '''
 	message gText_''' + re.sub(r'\W+', '', format) + '''BanlistClerk
 	waitmessage
 	pokemart InsideOfTruck_Pokemart''' + re.sub(r'\W+', '', format) + '''Banlist
@@ -1145,7 +638,7 @@ InsideOfTruck_Pokemart''' + re.sub(r'\W+', '', format) + '''Banlist:\n'''
 					if card_ == card_name and cards_by_format[format][card_]:
 						for card__ in data_:
 							if card__['Card'] == card_name and card__['Format'] == format and card__['Banlist'] == 'Limited':
-								Scripts += '\t.2byte  ITEM_CARD_' + re.sub(r'\W+', '_', card_name).replace('__', '_').replace('__', '_').upper() + '\n'
+								Scripts += '\t.2byte  ITEM_CARD_' + re.sub(r'\W+', '_', card_name).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '\n'
 		for data in card_info_data['data']:
 			card_name = data['name']
 			if card_name in card_names:
@@ -1153,7 +646,7 @@ InsideOfTruck_Pokemart''' + re.sub(r'\W+', '', format) + '''Banlist:\n'''
 					if card_ == card_name and cards_by_format[format][card_]:
 						for card__ in data_:
 							if card__['Card'] == card_name and card__['Format'] == format and card__['Banlist'] == 'Semi-Limited':
-								Scripts += '\t.2byte  ITEM_CARD_' + re.sub(r'\W+', '_', card_name).replace('__', '_').replace('__', '_').upper() + '\n'
+								Scripts += '\t.2byte  ITEM_CARD_' + re.sub(r'\W+', '_', card_name).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '\n'
 		for data in card_info_data['data']:
 			card_name = data['name']
 			if card_name in card_names:
@@ -1161,15 +654,15 @@ InsideOfTruck_Pokemart''' + re.sub(r'\W+', '', format) + '''Banlist:\n'''
 					if card_ == card_name and cards_by_format[format][card_]:
 						for card__ in data_:
 							if card__['Card'] == card_name and card__['Format'] == format and card__['Banlist'] != 'Limited' and card__['Banlist'] != 'Semi-Limited':
-								Scripts += '\t.2byte  ITEM_CARD_' + re.sub(r'\W+', '_', card_name).replace('__', '_').replace('__', '_').upper() + '\n'
+								Scripts += '\t.2byte  ITEM_CARD_' + re.sub(r'\W+', '_', card_name).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '\n'
 		Scripts += '\tpokemartlistend\n\n'
 
-for set_ in sorted(list(tcg_sets)):
-	Scripts += '\t.2byte  ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').upper() + '\n'
+for set_ in pack_names:
+	Scripts += '\t.2byte  ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '\n'
 Scripts += '\tpokemartlistend\n\n'
 
 for card in card_names:
-	Scripts += '\t.2byte  ITEM_CARD_' + re.sub(r'\W+', '_', card).replace('__', '_').replace('__', '_').upper() + '\n'
+	Scripts += '\t.2byte  ITEM_CARD_' + re.sub(r'\W+', '_', card).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '\n'
 
 Scripts_Output = open('data/scripts/scripts.inc', 'w')
 Scripts_Output.write(Scripts)
@@ -1189,9 +682,12 @@ for card_name in tqdm(card_names):
 				res = requests.get(image_cropped_url)
 				image = 'Artwork/' + card_name + '_' + card_id + '.jpg'
 				if not os.path.exists(image):
-					with open(image, 'wb') as file:
-						file.write(res.content)
-						print(card_name + ' image written')
+					try:
+						with open(image, 'wb') as file:
+							file.write(res.content)
+							print(card_name + ' image written')
+					except:
+						continue
 				res = requests.get(image_cropped_url_cropped)
 				image_cropped = 'Artwork/' + card_name + '_' + card_id + '_Cropped.jpg'
 				if not os.path.exists(image_cropped):
@@ -1212,10 +708,27 @@ for card_name in tqdm(card_names):
 					)
 					im = move_palette_color(im, 63, 0)
 					im.save(outfile, "PNG")
+					pillow_width, pillow_height = im.size
+					print(card_name, pillow_width, pillow_height)
+					if pillow_width != 80 or pillow_height != 80:
+						master = Image.new(
+							mode='RGBA',
+							size=(80, 80),
+							color=(57,255,20,0))
+						master.paste(im, box=((80 - pillow_width) // 2,(80 - pillow_height) // 2))
+						master.save(outfile, "PNG")
+						master = Image.open(outfile)
+						master = master.convert(
+							"P", palette=Image.ADAPTIVE, colors=63
+						)
+						master = move_palette_color(master, 63, 0)
+						master.save(outfile, "PNG")
+						subprocess.run(['./magick', outfile, '-colors', "64", '-define', 'png:exclude-chunk=bKGD', outfile])
 					subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.8bpp')])
 					subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.pal')])
 					subprocess.run(['../gbagfx/gbagfx', outfile.replace('.png', '.8bpp'), outfile.replace('.png', '.8bpp')])
 					subprocess.run(['../gbagfx/gbagfx', outfile.replace('.png', '.8bpp'), outfile.replace('.png', '.png'), '-palette', outfile.replace('.png', '.pal'), '-mwidth', '10'])
+					print(card_name + ' 80x80 written')
 				size = 32, 32
 				folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
 				if not os.path.exists(folder_path):
@@ -1229,6 +742,21 @@ for card_name in tqdm(card_names):
 					)
 					im = move_palette_color(im, 15, 0)
 					im.save(outfile, "PNG")
+					pillow_width, pillow_height = im.size
+					if pillow_width != 32 or pillow_height != 32:
+						master = Image.new(
+							mode='RGBA',
+							size=(32, 32),
+							color=(57,255,20,0))
+						master.paste(im, box=((32 - pillow_width) // 2,(32 - pillow_height) // 2))
+						master.save(outfile, "PNG")
+						master = Image.open(outfile)
+						master = master.convert(
+							"P", palette=Image.ADAPTIVE, colors=15
+						)
+						master = move_palette_color(master, 15, 0)
+						master.save(outfile, "PNG")
+						subprocess.run(['./magick', outfile, '-colors', "15", '-define', 'png:exclude-chunk=bKGD', outfile])
 				size = 16, 16
 				master = Image.new(
 					mode='RGBA',
@@ -1272,7 +800,7 @@ for card_name in tqdm(card_names):
 					master.save(outfile, "PNG")
 					subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
 			card = data['name']
-			gCardInfo += ("\t[CARD_" + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').upper() + "] =\n"
+			gCardInfo += ("\t[CARD_" + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + "] =\n"
 					+ "\t{\n"
 					+ '\t\t.name = gCardName_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
 					+ '\t\t.nameShort = gCardNameShort_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
@@ -1288,13 +816,13 @@ for card_name in tqdm(card_names):
 					+ '\t\t.iconTiny = gCardIconTiny_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
 					+ '\t\t.palIconTiny = gCardIconTinyPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
 					+ '\t\t.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},\n'
-					+ ("\t\t.type = TYPE_" + re.sub(r'\W+', '_', data['type']).replace('__', '_').replace('__', '_').upper() + ",\n"))
+					+ ("\t\t.type = TYPE_" + re.sub(r'\W+', '_', data['type']).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ",\n"))
 			try:
 				gCardInfo += ("\t\t.attribute = ATTRIBUTE_" + data['attribute'] + ",\n"
 						+ "\t\t.level = " + str(data['level']) + ",\n"
 						+ "\t\t.atk = " + str(int(data['atk']/10)) + ",\n"
 						+ "\t\t.def = " + str(int(data['def']/10)) + ",\n"
-						+ "\t\t.race = RACE_" + re.sub(r'\W+', '_', data['race']).replace('__', '_').replace('__', '_').upper() + ",\n")
+						+ "\t\t.race = RACE_" + re.sub(r'\W+', '_', data['race']).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ",\n")
 			except:
 				gCardInfo += ("\t\t.attribute = ATTRIBUTE_NONE,\n"
 						+ "\t\t.level = 0,\n"
@@ -1535,7 +1063,7 @@ for card_name in tqdm(card_names):
 					+ "\t\t.priceVendor2 = 0,\n"
 					+ "\t\t.priceVendor3 = 0,\n"
 					+ '\t},\n')
-			YGO_C += '    [ITEM_CARD_' + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').upper() + '] = ' + str(card_counter) + ',\n'
+			YGO_C += '    [ITEM_CARD_' + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] = ' + str(card_counter) + ',\n'
 			card_counter += 1
 
 gCardInfo_Output = open('src/data/ygo/card_info.h', 'w')

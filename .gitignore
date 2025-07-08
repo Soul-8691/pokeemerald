@@ -50,3 +50,6 @@ prefabs.json
 /tools/ygo_card_converter/graphics/cards/*/*.4bpp
 /tools/ygo_card_converter/graphics/cards/*/*.8bpp
 *.Identifier
+/tools/ygo_card_converter/bastion.json
+/tools/ygo_card_converter/Sets/*.jpg
+/tools/ygo_card_converter/Sets/Icons/*.jpg
