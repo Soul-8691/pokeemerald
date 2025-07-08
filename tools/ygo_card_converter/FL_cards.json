@@ -296,10 +296,6 @@
         }
     },
     "Abyss Dweller": {
-        "2014-03-20": {
-            "Usage": 16.7,
-            "Banlist": "Unlimited"
-        },
         "2013-02-17": {
             "Usage": 28.8,
             "Banlist": "Unlimited"
@@ -658,10 +654,6 @@
         }
     },
     "Acid Trap Hole": {
-        "1999-08-25": {
-            "Usage": 66.7,
-            "Banlist": "Unlimited"
-        },
         "2014-03-22": {
             "Usage": 1.9,
             "Banlist": "Unlimited"
@@ -1022,18 +1014,6 @@
         }
     },
     "Allure of Darkness": {
-        "2010-11-01": {
-            "Usage": 33.3,
-            "Banlist": "Limited"
-        },
-        "2011-08-31": {
-            "Usage": 25,
-            "Banlist": "Limited"
-        },
-        "2014-03-20": {
-            "Usage": 16.7,
-            "Banlist": "Limited"
-        },
         "2008-04-12": {
             "Usage": 88.3,
             "Banlist": "Unlimited"
@@ -1176,14 +1156,6 @@
         }
     },
     "Ally of Justice Catastor": {
-        "2010-11-01": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 29.2,
-            "Banlist": "Unlimited"
-        },
         "2010-02-27": {
             "Usage": 26.3,
             "Banlist": "Unlimited"
@@ -1290,10 +1262,6 @@
         }
     },
     "Alsei, the Sylvan High Protector": {
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2014-03-22": {
             "Usage": 0.9,
             "Banlist": "Unlimited"
@@ -1550,14 +1518,6 @@
         }
     },
     "Ancient Fairy Dragon": {
-        "2010-11-01": {
-            "Usage": 12.5,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
         "2010-02-27": {
             "Usage": 10.3,
             "Banlist": "Unlimited"
@@ -1622,10 +1582,6 @@
         }
     },
     "Ancient Gear Box": {
-        "2014-03-20": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2023-07-08": {
             "Usage": 0.7,
             "Banlist": "Unlimited"
@@ -2020,10 +1976,6 @@
         }
     },
     "Apprentice Magician": {
-        "2005-04-09": {
-            "Usage": 22.2,
-            "Banlist": "Unlimited"
-        },
         "2003-11-21": {
             "Usage": 10,
             "Banlist": "Unlimited"
@@ -2060,10 +2012,6 @@
         }
     },
     "Aqua Madoor": {
-        "1999-08-25": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
         "2002-05-15": {
             "Usage": 54.5,
             "Banlist": "Unlimited"
@@ -2128,14 +2076,6 @@
         }
     },
     "Arcanite Magician": {
-        "2010-11-01": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 12.5,
-            "Banlist": "Unlimited"
-        },
         "2009-07-26": {
             "Usage": 34.6,
             "Banlist": "Unlimited"
@@ -2406,10 +2346,6 @@
         }
     },
     "Armageddon Knight": {
-        "2011-08-31": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
         "2008-04-12": {
             "Usage": 29.7,
             "Banlist": "Unlimited"
@@ -2532,18 +2468,6 @@
         }
     },
     "Armory Arm": {
-        "2010-11-01": {
-            "Usage": 13.9,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 16.7,
-            "Banlist": "Unlimited"
-        },
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2009-07-26": {
             "Usage": 10.5,
             "Banlist": "Unlimited"
@@ -2664,10 +2588,6 @@
         }
     },
     "Artifact Beagalltach": {
-        "2014-03-20": {
-            "Usage": 11.1,
-            "Banlist": "Unlimited"
-        },
         "2014-07-12": {
             "Usage": 11.8,
             "Banlist": "Unlimited"
@@ -2708,10 +2628,6 @@
         }
     },
     "Artifact Durendal": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2014-07-12": {
             "Usage": 7.9,
             "Banlist": "Unlimited"
@@ -2764,10 +2680,6 @@
         }
     },
     "Artifact Ignition": {
-        "2014-03-20": {
-            "Usage": 16.7,
-            "Banlist": "Unlimited"
-        },
         "2014-07-12": {
             "Usage": 19.7,
             "Banlist": "Unlimited"
@@ -2856,10 +2768,6 @@
         }
     },
     "Artifact Moralltach": {
-        "2014-03-20": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
         "2014-07-12": {
             "Usage": 31.6,
             "Banlist": "Unlimited"
@@ -2886,10 +2794,6 @@
         }
     },
     "Artifact Sanctum": {
-        "2014-03-20": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
         "2014-07-12": {
             "Usage": 31.6,
             "Banlist": "Unlimited"
@@ -2994,10 +2898,6 @@
         }
     },
     "Asceticism of the Six Samurai": {
-        "2011-08-31": {
-            "Usage": 25,
-            "Banlist": "Unlimited"
-        },
         "2011-06-18": {
             "Usage": 5,
             "Banlist": "Unlimited"
@@ -3452,10 +3352,6 @@
         }
     },
     "Azure-Eyes Silver Dragon": {
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2014-03-22": {
             "Usage": 3.7,
             "Banlist": "Unlimited"
@@ -3760,10 +3656,6 @@
         }
     },
     "Barrel Behind the Door": {
-        "2005-04-09": {
-            "Usage": 22.2,
-            "Banlist": "Unlimited"
-        },
         "2003-08-10": {
             "Usage": 1,
             "Banlist": "Unlimited"
@@ -4125,12 +4017,6 @@
             "Banlist": "Limited"
         }
     },
-    "Beautiful Headhuntress": {
-        "1999-08-25": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        }
-    },
     "Beckoning Light": {
         "2008-07-26": {
             "Usage": 1.4,
@@ -4170,10 +4056,6 @@
         }
     },
     "Beiige, Vanguard of Dark World": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2012-06-30": {
             "Usage": 1,
             "Banlist": "Unlimited"
@@ -4224,10 +4106,6 @@
         }
     },
     "Berserk Gorilla": {
-        "2005-04-09": {
-            "Usage": 22.2,
-            "Banlist": "Unlimited"
-        },
         "2004-06-26": {
             "Usage": 0.7,
             "Banlist": "Unlimited"
@@ -4456,14 +4334,6 @@
         }
     },
     "Black Horn of Heaven": {
-        "2011-08-31": {
-            "Usage": 16.7,
-            "Banlist": "Unlimited"
-        },
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2008-04-12": {
             "Usage": 1.4,
             "Banlist": "Unlimited"
@@ -4556,10 +4426,6 @@
         }
     },
     "Black Luster Soldier - Envoy of the Beginning": {
-        "2005-04-09": {
-            "Usage": 33.3,
-            "Banlist": "Limited"
-        },
         "2004-06-26": {
             "Usage": 100,
             "Banlist": "Limited"
@@ -4682,18 +4548,6 @@
         }
     },
     "Black Rose Dragon": {
-        "2010-11-01": {
-            "Usage": 37.5,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 20.8,
-            "Banlist": "Unlimited"
-        },
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2009-01-17": {
             "Usage": 36.9,
             "Banlist": "Unlimited"
@@ -4824,10 +4678,6 @@
         }
     },
     "Black Rose Moonlight Dragon": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2022-04-09": {
             "Usage": 3.8,
             "Banlist": "Unlimited"
@@ -4910,10 +4760,6 @@
         }
     },
     "Black Whirlwind": {
-        "2010-11-01": {
-            "Usage": 29.2,
-            "Banlist": "Limited"
-        },
         "2009-07-26": {
             "Usage": 14.8,
             "Banlist": "Unlimited"
@@ -4972,10 +4818,6 @@
         }
     },
     "Blackwing - Blizzard the Far North": {
-        "2010-11-01": {
-            "Usage": 29.2,
-            "Banlist": "Unlimited"
-        },
         "2009-07-26": {
             "Usage": 10.5,
             "Banlist": "Unlimited"
@@ -5002,10 +4844,6 @@
         }
     },
     "Blackwing - Bora the Spear": {
-        "2010-11-01": {
-            "Usage": 29.2,
-            "Banlist": "Unlimited"
-        },
         "2009-07-26": {
             "Usage": 16.7,
             "Banlist": "Unlimited"
@@ -5044,10 +4882,6 @@
         }
     },
     "Blackwing - Gale the Whirlwind": {
-        "2010-11-01": {
-            "Usage": 29.2,
-            "Banlist": "Limited"
-        },
         "2009-07-26": {
             "Usage": 29,
             "Banlist": "Unlimited"
@@ -5092,10 +4926,6 @@
         }
     },
     "Blackwing - Kalut the Moon Shadow": {
-        "2010-11-01": {
-            "Usage": 29.2,
-            "Banlist": "Unlimited"
-        },
         "2009-07-26": {
             "Usage": 14.8,
             "Banlist": "Unlimited"
@@ -5140,10 +4970,6 @@
         }
     },
     "Blackwing - Shura the Blue Flame": {
-        "2010-11-01": {
-            "Usage": 29.2,
-            "Banlist": "Unlimited"
-        },
         "2009-07-26": {
             "Usage": 15.4,
             "Banlist": "Unlimited"
@@ -5170,10 +4996,6 @@
         }
     },
     "Blackwing - Silverwind the Ascendant": {
-        "2010-11-01": {
-            "Usage": 9.7,
-            "Banlist": "Unlimited"
-        },
         "2010-02-27": {
             "Usage": 1.4,
             "Banlist": "Unlimited"
@@ -5192,10 +5014,6 @@
         }
     },
     "Blackwing - Sirocco the Dawn": {
-        "2010-11-01": {
-            "Usage": 36.1,
-            "Banlist": "Unlimited"
-        },
         "2009-07-26": {
             "Usage": 21,
             "Banlist": "Unlimited"
@@ -5222,10 +5040,6 @@
         }
     },
     "Blackwing - Vayu the Emblem of Honor": {
-        "2010-11-01": {
-            "Usage": 9.7,
-            "Banlist": "Unlimited"
-        },
         "2010-02-27": {
             "Usage": 5.2,
             "Banlist": "Unlimited"
@@ -5244,18 +5058,6 @@
         }
     },
     "Blackwing - Zephyros the Elite": {
-        "2010-11-01": {
-            "Usage": 12.5,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
-        "2014-03-20": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2011-06-18": {
             "Usage": 1.7,
             "Banlist": "Unlimited"
@@ -5294,10 +5096,6 @@
         }
     },
     "Blackwing Armed Wing": {
-        "2010-11-01": {
-            "Usage": 19.4,
-            "Banlist": "Unlimited"
-        },
         "2009-07-26": {
             "Usage": 13,
             "Banlist": "Unlimited"
@@ -5332,10 +5130,6 @@
         }
     },
     "Blackwing Armor Master": {
-        "2010-11-01": {
-            "Usage": 19.4,
-            "Banlist": "Unlimited"
-        },
         "2009-07-26": {
             "Usage": 24.1,
             "Banlist": "Unlimited"
@@ -5388,14 +5182,6 @@
         }
     },
     "Blade Knight": {
-        "2002-08-18": {
-            "Usage": 66.7,
-            "Banlist": "Unlimited"
-        },
-        "2005-04-09": {
-            "Usage": 22.2,
-            "Banlist": "Unlimited"
-        },
         "2005-02-13": {
             "Usage": 20.3,
             "Banlist": "Unlimited"
@@ -5428,10 +5214,6 @@
         }
     },
     "Blaster, Dragon Ruler of Infernos": {
-        "2014-03-20": {
-            "Usage": 41.7,
-            "Banlist": "Semi-Limited"
-        },
         "2013-07-13": {
             "Usage": 63.5,
             "Banlist": "Unlimited"
@@ -5708,10 +5490,6 @@
         }
     },
     "Blue-Eyes White Dragon": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2010-04-24": {
             "Usage": 6.7,
             "Banlist": "Unlimited"
@@ -5884,18 +5662,6 @@
         }
     },
     "Book of Moon": {
-        "2011-08-31": {
-            "Usage": 50,
-            "Banlist": "Limited"
-        },
-        "2010-11-01": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
-        "2014-03-20": {
-            "Usage": 16.7,
-            "Banlist": "Limited"
-        },
         "2003-08-10": {
             "Usage": 18.2,
             "Banlist": "Unlimited"
@@ -6232,22 +5998,6 @@
         }
     },
     "Bottomless Trap Hole": {
-        "2010-11-01": {
-            "Usage": 33.3,
-            "Banlist": "Semi-Limited"
-        },
-        "2014-03-20": {
-            "Usage": 62.5,
-            "Banlist": "Semi-Limited"
-        },
-        "2011-08-31": {
-            "Usage": 50,
-            "Banlist": "Semi-Limited"
-        },
-        "2005-04-09": {
-            "Usage": 22.2,
-            "Banlist": "Unlimited"
-        },
         "2004-02-28": {
             "Usage": 3.5,
             "Banlist": "Unlimited"
@@ -6416,14 +6166,6 @@
         }
     },
     "Brain Control": {
-        "2007-04-06": {
-            "Usage": 100,
-            "Banlist": "Unlimited"
-        },
-        "2005-04-09": {
-            "Usage": 11.1,
-            "Banlist": "Unlimited"
-        },
         "2005-08-20": {
             "Usage": 4.1,
             "Banlist": "Unlimited"
@@ -6716,14 +6458,6 @@
         }
     },
     "Breaker the Magical Warrior": {
-        "2005-04-09": {
-            "Usage": 66.7,
-            "Banlist": "Limited"
-        },
-        "2010-11-01": {
-            "Usage": 6.9,
-            "Banlist": "Unlimited"
-        },
         "2003-11-21": {
             "Usage": 80,
             "Banlist": "Limited"
@@ -6822,10 +6556,6 @@
         }
     },
     "Breakthrough Skill": {
-        "2014-03-20": {
-            "Usage": 52.8,
-            "Banlist": "Unlimited"
-        },
         "2013-02-17": {
             "Usage": 4.5,
             "Banlist": "Unlimited"
@@ -6932,14 +6662,6 @@
         }
     },
     "Brionac, Dragon of the Ice Barrier": {
-        "2010-11-01": {
-            "Usage": 95.8,
-            "Banlist": "Limited"
-        },
-        "2011-08-31": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
         "2010-02-27": {
             "Usage": 37.1,
             "Banlist": "Unlimited"
@@ -7156,10 +6878,6 @@
         }
     },
     "Broww, Huntsman of Dark World": {
-        "2014-03-20": {
-            "Usage": 16.7,
-            "Banlist": "Unlimited"
-        },
         "2008-04-12": {
             "Usage": 2.7,
             "Banlist": "Unlimited"
@@ -7428,10 +7146,6 @@
         }
     },
     "Burial from a Different Dimension": {
-        "2014-03-20": {
-            "Usage": 25,
-            "Banlist": "Limited"
-        },
         "2008-04-12": {
             "Usage": 8.1,
             "Banlist": "Unlimited"
@@ -7776,10 +7490,6 @@
         }
     },
     "Caius the Shadow Monarch": {
-        "2010-11-01": {
-            "Usage": 13.9,
-            "Banlist": "Unlimited"
-        },
         "2008-04-12": {
             "Usage": 4.5,
             "Banlist": "Unlimited"
@@ -7852,34 +7562,6 @@
         }
     },
     "Call of the Haunted": {
-        "2010-11-01": {
-            "Usage": 41.7,
-            "Banlist": "Limited"
-        },
-        "2011-08-31": {
-            "Usage": 37.5,
-            "Banlist": "Limited"
-        },
-        "2005-04-09": {
-            "Usage": 66.7,
-            "Banlist": "Limited"
-        },
-        "2014-03-20": {
-            "Usage": 13.9,
-            "Banlist": "Unlimited"
-        },
-        "2001-08-12": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2002-08-18": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2007-04-06": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
         "2003-02-16": {
             "Usage": 100,
             "Banlist": "Limited"
@@ -8112,18 +7794,6 @@
         }
     },
     "Cannon Soldier": {
-        "2000-08-20": {
-            "Usage": 100,
-            "Banlist": "Unlimited"
-        },
-        "2001-08-12": {
-            "Usage": 66.7,
-            "Banlist": "Unlimited"
-        },
-        "2002-08-18": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
         "2002-07-01": {
             "Usage": 43.2,
             "Banlist": "Unlimited"
@@ -8194,14 +7864,6 @@
         }
     },
     "Card Destruction": {
-        "2014-03-20": {
-            "Usage": 25,
-            "Banlist": "Limited"
-        },
-        "2011-08-31": {
-            "Usage": 12.5,
-            "Banlist": "Limited"
-        },
         "2002-05-15": {
             "Usage": 69.5,
             "Banlist": "Semi-Limited"
@@ -8352,18 +8014,6 @@
         }
     },
     "Card Trooper": {
-        "2010-11-01": {
-            "Usage": 37.5,
-            "Banlist": "Limited"
-        },
-        "2014-03-20": {
-            "Usage": 25,
-            "Banlist": "Semi-Limited"
-        },
-        "2011-08-31": {
-            "Usage": 25,
-            "Banlist": "Semi-Limited"
-        },
         "2007-04-28": {
             "Usage": 40,
             "Banlist": "Unlimited"
@@ -8518,10 +8168,6 @@
         }
     },
     "Cardcar D": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2012-06-30": {
             "Usage": 2.1,
             "Banlist": "Unlimited"
@@ -8572,10 +8218,6 @@
         }
     },
     "Cards for Black Feathers": {
-        "2010-11-01": {
-            "Usage": 9.7,
-            "Banlist": "Unlimited"
-        },
         "2010-08-07": {
             "Usage": 1.5,
             "Banlist": "Unlimited"
@@ -8592,10 +8234,6 @@
         }
     },
     "Cards of Consonance": {
-        "2014-03-20": {
-            "Usage": 13.9,
-            "Banlist": "Unlimited"
-        },
         "2010-04-24": {
             "Usage": 6.7,
             "Banlist": "Unlimited"
@@ -8668,10 +8306,6 @@
         }
     },
     "Castle Walls": {
-        "1999-08-25": {
-            "Usage": 16.7,
-            "Banlist": "Unlimited"
-        },
         "2002-05-15": {
             "Usage": 4.1,
             "Banlist": "Unlimited"
@@ -9012,14 +8646,6 @@
         }
     },
     "Chain Disappearance": {
-        "2011-08-31": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
-        "2010-11-01": {
-            "Usage": 1.4,
-            "Banlist": "Unlimited"
-        },
         "2005-08-20": {
             "Usage": 0.7,
             "Banlist": "Unlimited"
@@ -9128,18 +8754,6 @@
         }
     },
     "Change of Heart": {
-        "2000-08-20": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2001-08-12": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2002-08-18": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
         "2002-05-15": {
             "Usage": 100,
             "Banlist": "Limited"
@@ -9376,14 +8990,6 @@
         }
     },
     "Chaos Sorcerer": {
-        "2010-11-01": {
-            "Usage": 29.2,
-            "Banlist": "Semi-Limited"
-        },
-        "2011-08-31": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
         "2004-06-26": {
             "Usage": 9.6,
             "Banlist": "Unlimited"
@@ -9536,14 +9142,6 @@
         }
     },
     "Charge of the Light Brigade": {
-        "2010-11-01": {
-            "Usage": 33.3,
-            "Banlist": "Limited"
-        },
-        "2011-08-31": {
-            "Usage": 37.5,
-            "Banlist": "Limited"
-        },
         "2009-01-17": {
             "Usage": 8.1,
             "Banlist": "Unlimited"
@@ -9736,18 +9334,6 @@
         }
     },
     "Chimeratech Fortress Dragon": {
-        "2010-11-01": {
-            "Usage": 34.7,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 12.5,
-            "Banlist": "Unlimited"
-        },
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2009-07-26": {
             "Usage": 9.3,
             "Banlist": "Unlimited"
@@ -9903,47 +9489,13 @@
             "Banlist": "Unlimited"
         }
     },
-    "Chronomaly City Babylon": {
-        "2014-03-20": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        }
-    },
-    "Chronomaly Crystal Bones": {
-        "2014-03-20": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        }
-    },
     "Chronomaly Crystal Chrononaut": {
         "2014-11-24": {
             "Usage": 1.8,
             "Banlist": "Unlimited"
         }
     },
-    "Chronomaly Crystal Skull": {
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        }
-    },
-    "Chronomaly Golden Jet": {
-        "2014-03-20": {
-            "Usage": 13.9,
-            "Banlist": "Unlimited"
-        }
-    },
-    "Chronomaly Nebra Disk": {
-        "2014-03-20": {
-            "Usage": 16.7,
-            "Banlist": "Unlimited"
-        }
-    },
     "Cipher Soldier": {
-        "2010-11-01": {
-            "Usage": 6.9,
-            "Banlist": "Unlimited"
-        },
         "2004-02-28": {
             "Usage": 1.8,
             "Banlist": "Unlimited"
@@ -10136,10 +9688,6 @@
         }
     },
     "Coach King Giantrainer": {
-        "2014-03-20": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2024-06-02": {
             "Usage": 0.4,
             "Banlist": "Unlimited"
@@ -10180,10 +9728,6 @@
         }
     },
     "Cold Wave": {
-        "2010-11-01": {
-            "Usage": 8.3,
-            "Banlist": "Limited"
-        },
         "2003-08-10": {
             "Usage": 2,
             "Banlist": "Unlimited"
@@ -10242,14 +9786,6 @@
         }
     },
     "Colossal Fighter": {
-        "2010-11-01": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
-        "2014-03-20": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2008-07-26": {
             "Usage": 0.5,
             "Banlist": "Unlimited"
@@ -10332,18 +9868,6 @@
         }
     },
     "Compulsory Evacuation Device": {
-        "2014-03-20": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 16.7,
-            "Banlist": "Unlimited"
-        },
-        "2010-11-01": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2005-02-13": {
             "Usage": 4.3,
             "Banlist": "Unlimited"
@@ -10486,10 +10010,6 @@
         }
     },
     "Confiscation": {
-        "2002-08-18": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
         "2002-10-01": {
             "Usage": 100,
             "Banlist": "Limited"
@@ -10562,10 +10082,6 @@
         }
     },
     "Consecrated Light": {
-        "2010-11-01": {
-            "Usage": 6.9,
-            "Banlist": "Unlimited"
-        },
         "2010-02-27": {
             "Usage": 4.7,
             "Banlist": "Unlimited"
@@ -10658,10 +10174,6 @@
         }
     },
     "Constellar Pleiades": {
-        "2014-03-20": {
-            "Usage": 19.4,
-            "Banlist": "Unlimited"
-        },
         "2013-07-13": {
             "Usage": 3.1,
             "Banlist": "Unlimited"
@@ -10744,10 +10256,6 @@
         }
     },
     "Constellar Ptolemy M7": {
-        "2014-03-20": {
-            "Usage": 11.1,
-            "Banlist": "Unlimited"
-        },
         "2013-05-11": {
             "Usage": 1.4,
             "Banlist": "Unlimited"
@@ -11080,10 +10588,6 @@
         }
     },
     "Creature Swap": {
-        "2005-04-09": {
-            "Usage": 50,
-            "Banlist": "Semi-Limited"
-        },
         "2003-07-08": {
             "Usage": 53.5,
             "Banlist": "Semi-Limited"
@@ -11192,10 +10696,6 @@
         }
     },
     "Crimson Blader": {
-        "2014-03-20": {
-            "Usage": 16.7,
-            "Banlist": "Unlimited"
-        },
         "2013-05-11": {
             "Usage": 2.8,
             "Banlist": "Unlimited"
@@ -11328,10 +10828,6 @@
         }
     },
     "Crusader of Endymion": {
-        "2011-08-31": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
         "2010-08-07": {
             "Usage": 2.3,
             "Banlist": "Unlimited"
@@ -11348,18 +10844,6 @@
         }
     },
     "Crush Card Virus": {
-        "1999-08-25": {
-            "Usage": 50,
-            "Banlist": "Unlimited"
-        },
-        "2007-04-06": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2000-08-20": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
         "2007-04-28": {
             "Usage": 7.5,
             "Banlist": "Limited"
@@ -11664,22 +11148,6 @@
         }
     },
     "Cyber Dragon": {
-        "2010-11-01": {
-            "Usage": 63.9,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 16.7,
-            "Banlist": "Unlimited"
-        },
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
-        "2007-04-06": {
-            "Usage": 66.7,
-            "Banlist": "Unlimited"
-        },
         "2005-09-10": {
             "Usage": 84.8,
             "Banlist": "Unlimited"
@@ -11794,10 +11262,6 @@
         }
     },
     "Cyber Dragon Core": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2016-01-16": {
             "Usage": 15.6,
             "Banlist": "Unlimited"
@@ -11812,10 +11276,6 @@
         }
     },
     "Cyber Dragon Drei": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2016-01-16": {
             "Usage": 3.7,
             "Banlist": "Unlimited"
@@ -11856,10 +11316,6 @@
         }
     },
     "Cyber Dragon Nova": {
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2016-01-16": {
             "Usage": 26.7,
             "Banlist": "Unlimited"
@@ -11896,12 +11352,6 @@
     "Cyber Dragon Sieger": {
         "2021-07-10": {
             "Usage": 1.3,
-            "Banlist": "Unlimited"
-        }
-    },
-    "Cyber Eltanin": {
-        "2014-03-20": {
-            "Usage": 5.6,
             "Banlist": "Unlimited"
         }
     },
@@ -11972,14 +11422,6 @@
         }
     },
     "Cyber Jar": {
-        "2001-08-12": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2000-08-20": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
         "2002-10-01": {
             "Usage": 26.7,
             "Banlist": "Limited"
@@ -12033,12 +11475,6 @@
             "Banlist": "Limited"
         }
     },
-    "Cyber Network": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        }
-    },
     "Cyber Ogre 2": {
         "2006-12-09": {
             "Usage": 3.4,
@@ -12088,10 +11524,6 @@
         }
     },
     "Cyber Repair Plant": {
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2021-07-10": {
             "Usage": 1.3,
             "Banlist": "Unlimited"
@@ -12174,10 +11606,6 @@
         }
     },
     "Cyber Twin Dragon": {
-        "2014-03-20": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2005-09-10": {
             "Usage": 34.8,
             "Banlist": "Unlimited"
@@ -12228,10 +11656,6 @@
         }
     },
     "Cyber Valley": {
-        "2010-11-01": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2008-04-12": {
             "Usage": 24.8,
             "Banlist": "Unlimited"
@@ -12398,10 +11822,6 @@
         }
     },
     "D.D. Assailant": {
-        "2005-04-09": {
-            "Usage": 44.4,
-            "Banlist": "Unlimited"
-        },
         "2005-02-13": {
             "Usage": 7.2,
             "Banlist": "Unlimited"
@@ -12451,29 +11871,7 @@
             "Banlist": "Unlimited"
         }
     },
-    "D.D. Crazy Beast": {
-        "2002-08-18": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        }
-    },
     "D.D. Crow": {
-        "2010-11-01": {
-            "Usage": 72.2,
-            "Banlist": "Unlimited"
-        },
-        "2014-03-20": {
-            "Usage": 36.1,
-            "Banlist": "Unlimited"
-        },
-        "2007-04-06": {
-            "Usage": 66.7,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2007-04-28": {
             "Usage": 12.5,
             "Banlist": "Unlimited"
@@ -12678,14 +12076,6 @@
         }
     },
     "D.D. Survivor": {
-        "2007-04-06": {
-            "Usage": 66.7,
-            "Banlist": "Unlimited"
-        },
-        "2005-04-09": {
-            "Usage": 11.1,
-            "Banlist": "Unlimited"
-        },
         "2006-08-12": {
             "Usage": 7.3,
             "Banlist": "Unlimited"
@@ -12738,18 +12128,6 @@
         }
     },
     "D.D. Warrior": {
-        "2002-08-18": {
-            "Usage": 100,
-            "Banlist": "Unlimited"
-        },
-        "2005-04-09": {
-            "Usage": 22.2,
-            "Banlist": "Unlimited"
-        },
-        "2001-08-12": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
         "2006-08-12": {
             "Usage": 1,
             "Banlist": "Unlimited"
@@ -12772,18 +12150,6 @@
         }
     },
     "D.D. Warrior Lady": {
-        "2005-04-09": {
-            "Usage": 66.7,
-            "Banlist": "Limited"
-        },
-        "2010-11-01": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
-        "2007-04-06": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
         "2004-02-28": {
             "Usage": 91.2,
             "Banlist": "Unlimited"
@@ -12884,10 +12250,6 @@
         }
     },
     "D.D.R. - Different Dimension Reincarnation": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2008-04-12": {
             "Usage": 2.3,
             "Banlist": "Unlimited"
@@ -13180,14 +12542,6 @@
         }
     },
     "Dandylion": {
-        "2010-11-01": {
-            "Usage": 37.5,
-            "Banlist": "Semi-Limited"
-        },
-        "2011-08-31": {
-            "Usage": 37.5,
-            "Banlist": "Limited"
-        },
         "2009-07-26": {
             "Usage": 1.9,
             "Banlist": "Limited"
@@ -13380,14 +12734,6 @@
         }
     },
     "Dark Armed Dragon": {
-        "2010-11-01": {
-            "Usage": 29.2,
-            "Banlist": "Limited"
-        },
-        "2011-08-31": {
-            "Usage": 37.5,
-            "Banlist": "Limited"
-        },
         "2008-04-12": {
             "Usage": 74.3,
             "Banlist": "Unlimited"
@@ -13656,10 +13002,6 @@
         }
     },
     "Dark Bribe": {
-        "2011-08-31": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
         "2007-10-13": {
             "Usage": 11.5,
             "Banlist": "Unlimited"
@@ -13790,10 +13132,6 @@
         }
     },
     "Dark End Dragon": {
-        "2010-11-01": {
-            "Usage": 9.7,
-            "Banlist": "Unlimited"
-        },
         "2010-02-27": {
             "Usage": 7,
             "Banlist": "Unlimited"
@@ -13956,34 +13294,6 @@
         }
     },
     "Dark Hole": {
-        "2010-11-01": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2011-08-31": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2014-03-20": {
-            "Usage": 25,
-            "Banlist": "Limited"
-        },
-        "1999-08-25": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2000-08-20": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2001-08-12": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2002-08-18": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
         "2002-05-15": {
             "Usage": 100,
             "Banlist": "Limited"
@@ -14498,10 +13808,6 @@
         }
     },
     "Dark Smog": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2012-06-30": {
             "Usage": 1,
             "Banlist": "Unlimited"
@@ -14554,14 +13860,6 @@
         }
     },
     "Dark World Dealings": {
-        "2014-03-20": {
-            "Usage": 16.7,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 12.5,
-            "Banlist": "Unlimited"
-        },
         "2008-04-12": {
             "Usage": 2.7,
             "Banlist": "Unlimited"
@@ -14626,10 +13924,6 @@
         }
     },
     "Darkfire Dragon": {
-        "1999-08-25": {
-            "Usage": 50,
-            "Banlist": "Unlimited"
-        },
         "2002-05-15": {
             "Usage": 21.1,
             "Banlist": "Unlimited"
@@ -14866,10 +14160,6 @@
         }
     },
     "De-Synchro": {
-        "2011-08-31": {
-            "Usage": 12.5,
-            "Banlist": "Unlimited"
-        },
         "2013-02-17": {
             "Usage": 2.7,
             "Banlist": "Unlimited"
@@ -14880,18 +14170,6 @@
         }
     },
     "Debris Dragon": {
-        "2010-11-01": {
-            "Usage": 37.5,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 25,
-            "Banlist": "Semi-Limited"
-        },
-        "2014-03-20": {
-            "Usage": 16.7,
-            "Banlist": "Unlimited"
-        },
         "2009-07-26": {
             "Usage": 1.2,
             "Banlist": "Unlimited"
@@ -14934,10 +14212,6 @@
         }
     },
     "Debunk": {
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2011-09-17": {
             "Usage": 8.6,
             "Banlist": "Unlimited"
@@ -14988,10 +14262,6 @@
         }
     },
     "Deck Devastation Virus": {
-        "2014-03-20": {
-            "Usage": 11.1,
-            "Banlist": "Unlimited"
-        },
         "2006-12-09": {
             "Usage": 2.6,
             "Banlist": "Semi-Limited"
@@ -15238,10 +14508,6 @@
         }
     },
     "Deepsea Shark": {
-        "1999-08-25": {
-            "Usage": 50,
-            "Banlist": "Unlimited"
-        },
         "2002-07-01": {
             "Usage": 16,
             "Banlist": "Unlimited"
@@ -15330,18 +14596,6 @@
         }
     },
     "Delinquent Duo": {
-        "2005-04-09": {
-            "Usage": 66.7,
-            "Banlist": "Limited"
-        },
-        "2000-08-20": {
-            "Usage": 100,
-            "Banlist": "Semi-Limited"
-        },
-        "2002-08-18": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
         "2002-10-01": {
             "Usage": 100,
             "Banlist": "Limited"
@@ -15388,10 +14642,6 @@
         }
     },
     "Delta Crow - Anti Reverse": {
-        "2010-11-01": {
-            "Usage": 16.7,
-            "Banlist": "Unlimited"
-        },
         "2009-07-26": {
             "Usage": 5.6,
             "Banlist": "Unlimited"
@@ -15684,10 +14934,6 @@
         }
     },
     "Destiny Draw": {
-        "2007-04-06": {
-            "Usage": 100,
-            "Banlist": "Unlimited"
-        },
         "2007-04-28": {
             "Usage": 17.5,
             "Banlist": "Unlimited"
@@ -15880,10 +15126,6 @@
         }
     },
     "Destiny HERO - Disk Commander": {
-        "2007-04-06": {
-            "Usage": 66.7,
-            "Banlist": "Unlimited"
-        },
         "2007-04-28": {
             "Usage": 2.5,
             "Banlist": "Unlimited"
@@ -15940,10 +15182,6 @@
         }
     },
     "Destiny HERO - Fear Monger": {
-        "2007-04-06": {
-            "Usage": 66.7,
-            "Banlist": "Unlimited"
-        },
         "2007-04-28": {
             "Usage": 1.7,
             "Banlist": "Unlimited"
@@ -15978,10 +15216,6 @@
         }
     },
     "Destiny HERO - Malicious": {
-        "2007-04-06": {
-            "Usage": 100,
-            "Banlist": "Unlimited"
-        },
         "2007-04-28": {
             "Usage": 17.5,
             "Banlist": "Unlimited"
@@ -16136,10 +15370,6 @@
         }
     },
     "Dewloren, Tiger King of the Ice Barrier": {
-        "2010-11-01": {
-            "Usage": 2.1,
-            "Banlist": "Semi-Limited"
-        },
         "2013-02-17": {
             "Usage": 5.4,
             "Banlist": "Semi-Limited"
@@ -16266,10 +15496,6 @@
         }
     },
     "Diamond Dire Wolf": {
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2013-02-17": {
             "Usage": 13.5,
             "Banlist": "Unlimited"
@@ -16676,10 +15902,6 @@
         }
     },
     "Dimensional Fissure": {
-        "2011-08-31": {
-            "Usage": 12.5,
-            "Banlist": "Unlimited"
-        },
         "2006-08-12": {
             "Usage": 6.2,
             "Banlist": "Unlimited"
@@ -16822,18 +16044,6 @@
         }
     },
     "Dimensional Prison": {
-        "2010-11-01": {
-            "Usage": 31.9,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 29.2,
-            "Banlist": "Unlimited"
-        },
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2008-01-26": {
             "Usage": 58.9,
             "Banlist": "Unlimited"
@@ -17114,10 +16324,6 @@
         }
     },
     "Divine Dragon Knight Felgrand": {
-        "2014-03-20": {
-            "Usage": 22.2,
-            "Banlist": "Unlimited"
-        },
         "2013-10-05": {
             "Usage": 1,
             "Banlist": "Unlimited"
@@ -17432,14 +16638,6 @@
         }
     },
     "Don Zaloog": {
-        "2002-08-18": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
-        "2005-04-09": {
-            "Usage": 11.1,
-            "Banlist": "Unlimited"
-        },
         "2003-08-10": {
             "Usage": 41.4,
             "Banlist": "Unlimited"
@@ -17599,12 +16797,6 @@
             "Banlist": "Unlimited"
         }
     },
-    "Doppelwarrior": {
-        "2011-08-31": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        }
-    },
     "Dora Dora": {
         "2024-07-19": {
             "Usage": 6,
@@ -17628,10 +16820,6 @@
         }
     },
     "Double Cyclone": {
-        "2014-03-20": {
-            "Usage": 13.9,
-            "Banlist": "Unlimited"
-        },
         "2014-04-14": {
             "Usage": 8.7,
             "Banlist": "Unlimited"
@@ -17694,10 +16882,6 @@
         }
     },
     "Double Summon": {
-        "2014-03-20": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2007-10-13": {
             "Usage": 1.1,
             "Banlist": "Unlimited"
@@ -17708,10 +16892,6 @@
         }
     },
     "Double-Edged Sword Technique": {
-        "2011-08-31": {
-            "Usage": 20.8,
-            "Banlist": "Unlimited"
-        },
         "2011-06-18": {
             "Usage": 6.7,
             "Banlist": "Unlimited"
@@ -17886,10 +17066,6 @@
         }
     },
     "Dragged Down into the Grave": {
-        "2014-03-20": {
-            "Usage": 16.7,
-            "Banlist": "Unlimited"
-        },
         "2012-06-30": {
             "Usage": 3.1,
             "Banlist": "Unlimited"
@@ -17934,10 +17110,6 @@
         }
     },
     "Dragon Knight Draco-Equiste": {
-        "2011-08-31": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
         "2011-06-18": {
             "Usage": 1.7,
             "Banlist": "Unlimited"
@@ -17966,10 +17138,6 @@
         }
     },
     "Dragon Ravine": {
-        "2014-03-20": {
-            "Usage": 41.7,
-            "Banlist": "Unlimited"
-        },
         "2011-06-18": {
             "Usage": 5,
             "Banlist": "Unlimited"
@@ -18004,10 +17172,6 @@
         }
     },
     "Dragon Shrine": {
-        "2014-03-20": {
-            "Usage": 30.6,
-            "Banlist": "Unlimited"
-        },
         "2014-03-22": {
             "Usage": 22.2,
             "Banlist": "Unlimited"
@@ -18054,10 +17218,6 @@
         }
     },
     "Dragoness the Wicked Knight": {
-        "1999-08-25": {
-            "Usage": 50,
-            "Banlist": "Unlimited"
-        },
         "2002-05-15": {
             "Usage": 22.8,
             "Banlist": "Unlimited"
@@ -18214,10 +17374,6 @@
         }
     },
     "Dragunity Arma Mystletainn": {
-        "2014-03-20": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2013-10-05": {
             "Usage": 6.8,
             "Banlist": "Unlimited"
@@ -18234,10 +17390,6 @@
         }
     },
     "Dragunity Corsesca": {
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2013-07-13": {
             "Usage": 16.4,
             "Banlist": "Unlimited"
@@ -18266,10 +17418,6 @@
         }
     },
     "Dragunity Dux": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2011-06-18": {
             "Usage": 5,
             "Banlist": "Unlimited"
@@ -18280,10 +17428,6 @@
         }
     },
     "Dragunity Knight - Gae Dearg": {
-        "2014-03-20": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2011-01-08": {
             "Usage": 0.6,
             "Banlist": "Unlimited"
@@ -18324,10 +17468,6 @@
         }
     },
     "Dragunity Knight - Vajrayana": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2011-06-18": {
             "Usage": 5,
             "Banlist": "Unlimited"
@@ -18348,10 +17488,6 @@
         }
     },
     "Dragunity Phalanx": {
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2011-06-18": {
             "Usage": 5,
             "Banlist": "Unlimited"
@@ -18396,10 +17532,6 @@
         }
     },
     "Drill Warrior": {
-        "2010-11-01": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2010-08-07": {
             "Usage": 1.9,
             "Banlist": "Unlimited"
@@ -18694,18 +17826,6 @@
         }
     },
     "Dust Tornado": {
-        "2010-11-01": {
-            "Usage": 25,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 37.5,
-            "Banlist": "Unlimited"
-        },
-        "2005-04-09": {
-            "Usage": 11.1,
-            "Banlist": "Unlimited"
-        },
         "2003-02-16": {
             "Usage": 61.9,
             "Banlist": "Unlimited"
@@ -18904,14 +18024,6 @@
         }
     },
     "E - Emergency Call": {
-        "2010-11-01": {
-            "Usage": 13.9,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 16.7,
-            "Banlist": "Unlimited"
-        },
         "2007-04-28": {
             "Usage": 0.8,
             "Banlist": "Unlimited"
@@ -19060,10 +18172,6 @@
         }
     },
     "Eclipse Wyvern": {
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2012-06-30": {
             "Usage": 12.5,
             "Banlist": "Unlimited"
@@ -19144,18 +18252,6 @@
         }
     },
     "Effect Veiler": {
-        "2010-11-01": {
-            "Usage": 43.1,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 25,
-            "Banlist": "Unlimited"
-        },
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2011-01-08": {
             "Usage": 43.6,
             "Banlist": "Unlimited"
@@ -19302,10 +18398,6 @@
         }
     },
     "Ehren, Lightsworn Monk": {
-        "2011-08-31": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
         "2008-07-26": {
             "Usage": 7.3,
             "Banlist": "Unlimited"
@@ -19618,10 +18710,6 @@
         }
     },
     "Elder of the Six Samurai": {
-        "2011-08-31": {
-            "Usage": 16.7,
-            "Banlist": "Unlimited"
-        },
         "2011-06-18": {
             "Usage": 5,
             "Banlist": "Unlimited"
@@ -19682,14 +18770,6 @@
         }
     },
     "Electric Virus": {
-        "2011-08-31": {
-            "Usage": 16.7,
-            "Banlist": "Unlimited"
-        },
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2007-08-18": {
             "Usage": 5.6,
             "Banlist": "Unlimited"
@@ -19742,14 +18822,6 @@
         }
     },
     "Elemental HERO Absolute Zero": {
-        "2010-11-01": {
-            "Usage": 11.1,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 12.5,
-            "Banlist": "Unlimited"
-        },
         "2010-02-27": {
             "Usage": 5.6,
             "Banlist": "Unlimited"
@@ -19812,10 +18884,6 @@
         }
     },
     "Elemental HERO Bubbleman": {
-        "2011-08-31": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
         "2010-02-27": {
             "Usage": 0.9,
             "Banlist": "Unlimited"
@@ -19908,10 +18976,6 @@
         }
     },
     "Elemental HERO Escuridao": {
-        "2011-08-31": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2012-10-21": {
             "Usage": 3.4,
             "Banlist": "Unlimited"
@@ -19972,14 +19036,6 @@
         }
     },
     "Elemental HERO Gaia": {
-        "2010-11-01": {
-            "Usage": 6.9,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2010-04-24": {
             "Usage": 4.4,
             "Banlist": "Unlimited"
@@ -20024,14 +19080,6 @@
         }
     },
     "Elemental HERO Great Tornado": {
-        "2010-11-01": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2012-10-21": {
             "Usage": 3.4,
             "Banlist": "Unlimited"
@@ -20088,14 +19136,6 @@
         }
     },
     "Elemental HERO Neos Alius": {
-        "2010-11-01": {
-            "Usage": 22.2,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 25,
-            "Banlist": "Unlimited"
-        },
         "2007-10-13": {
             "Usage": 2.3,
             "Banlist": "Unlimited"
@@ -20154,14 +19194,6 @@
         }
     },
     "Elemental HERO Nova Master": {
-        "2010-11-01": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 12.5,
-            "Banlist": "Unlimited"
-        },
         "2012-10-21": {
             "Usage": 3.4,
             "Banlist": "Unlimited"
@@ -20304,18 +19336,6 @@
         }
     },
     "Elemental HERO Stratos": {
-        "2010-11-01": {
-            "Usage": 25,
-            "Banlist": "Limited"
-        },
-        "2011-08-31": {
-            "Usage": 25,
-            "Banlist": "Limited"
-        },
-        "2007-04-06": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
         "2007-04-28": {
             "Usage": 22.5,
             "Banlist": "Limited"
@@ -20404,14 +19424,6 @@
         }
     },
     "Elemental HERO The Shining": {
-        "2010-11-01": {
-            "Usage": 20.8,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 20.8,
-            "Banlist": "Unlimited"
-        },
         "2011-06-18": {
             "Usage": 5,
             "Banlist": "Unlimited"
@@ -20722,14 +19734,6 @@
         }
     },
     "Enemy Controller": {
-        "2010-11-01": {
-            "Usage": 9.7,
-            "Banlist": "Unlimited"
-        },
-        "2005-04-09": {
-            "Usage": 11.1,
-            "Banlist": "Unlimited"
-        },
         "2005-08-20": {
             "Usage": 1.4,
             "Banlist": "Unlimited"
@@ -20976,10 +19980,6 @@
         }
     },
     "Eradicator Epidemic Virus": {
-        "2014-03-20": {
-            "Usage": 13.9,
-            "Banlist": "Unlimited"
-        },
         "2010-02-27": {
             "Usage": 1.4,
             "Banlist": "Unlimited"
@@ -21194,10 +20194,6 @@
         }
     },
     "Evigishki Merrowgeist": {
-        "2011-08-31": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
         "2012-10-21": {
             "Usage": 1.1,
             "Banlist": "Unlimited"
@@ -21208,12 +20204,6 @@
         },
         "2014-03-22": {
             "Usage": 3.7,
-            "Banlist": "Unlimited"
-        }
-    },
-    "Evigishki Mind Augus": {
-        "2010-11-01": {
-            "Usage": 5.6,
             "Banlist": "Unlimited"
         }
     },
@@ -21328,10 +20318,6 @@
         }
     },
     "Evilswarm Exciton Knight": {
-        "2014-03-20": {
-            "Usage": 22.2,
-            "Banlist": "Unlimited"
-        },
         "2014-03-22": {
             "Usage": 29.6,
             "Banlist": "Unlimited"
@@ -21790,10 +20776,6 @@
         }
     },
     "Exarion Universe": {
-        "2005-04-09": {
-            "Usage": 11.1,
-            "Banlist": "Unlimited"
-        },
         "2005-09-10": {
             "Usage": 18.2,
             "Banlist": "Unlimited"
@@ -21838,18 +20820,6 @@
         }
     },
     "Exiled Force": {
-        "2005-04-09": {
-            "Usage": 66.7,
-            "Banlist": "Limited"
-        },
-        "2002-08-18": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2007-04-06": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
         "2003-07-08": {
             "Usage": 100,
             "Banlist": "Limited"
@@ -22088,10 +21058,6 @@
         }
     },
     "Exploder Dragon": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2011-01-08": {
             "Usage": 0.6,
             "Banlist": "Unlimited"
@@ -22167,18 +21133,6 @@
             "Banlist": "Unlimited"
         }
     },
-    "Fabled Grimro": {
-        "2011-08-31": {
-            "Usage": 12.5,
-            "Banlist": "Unlimited"
-        }
-    },
-    "Fabled Krus": {
-        "2011-08-31": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        }
-    },
     "Fabled Kushano": {
         "2011-09-17": {
             "Usage": 3.2,
@@ -22192,10 +21146,6 @@
         }
     },
     "Fabled Lurrie": {
-        "2011-08-31": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
         "2024-07-19": {
             "Usage": 27.6,
             "Banlist": "Unlimited"
@@ -22210,10 +21160,6 @@
         }
     },
     "Fabled Ragin": {
-        "2011-08-31": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2011-09-17": {
             "Usage": 3.2,
             "Banlist": "Unlimited"
@@ -22474,10 +21420,6 @@
         }
     },
     "Fencing Fire Ferret": {
-        "2014-03-20": {
-            "Usage": 13.9,
-            "Banlist": "Unlimited"
-        },
         "2013-10-05": {
             "Usage": 18.4,
             "Banlist": "Unlimited"
@@ -22622,10 +21564,6 @@
         }
     },
     "Fiendish Chain": {
-        "2010-11-01": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
         "2011-06-18": {
             "Usage": 11.7,
             "Banlist": "Unlimited"
@@ -23274,10 +22212,6 @@
         }
     },
     "Fishborg Blaster": {
-        "2010-11-01": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2010-04-24": {
             "Usage": 5.2,
             "Banlist": "Unlimited"
@@ -23292,10 +22226,6 @@
         }
     },
     "Fissure": {
-        "1999-08-25": {
-            "Usage": 100,
-            "Banlist": "Unlimited"
-        },
         "2002-05-15": {
             "Usage": 100,
             "Banlist": "Unlimited"
@@ -23426,10 +22356,6 @@
         }
     },
     "Flame Ghost": {
-        "1999-08-25": {
-            "Usage": 50,
-            "Banlist": "Unlimited"
-        },
         "2002-05-15": {
             "Usage": 35.8,
             "Banlist": "Unlimited"
@@ -23598,10 +22524,6 @@
         }
     },
     "Flamvell Guard": {
-        "2014-03-20": {
-            "Usage": 22.2,
-            "Banlist": "Unlimited"
-        },
         "2010-04-24": {
             "Usage": 2.2,
             "Banlist": "Unlimited"
@@ -24112,22 +23034,6 @@
         }
     },
     "Foolish Burial": {
-        "2010-11-01": {
-            "Usage": 37.5,
-            "Banlist": "Limited"
-        },
-        "2014-03-20": {
-            "Usage": 41.7,
-            "Banlist": "Limited"
-        },
-        "2011-08-31": {
-            "Usage": 50,
-            "Banlist": "Limited"
-        },
-        "2007-04-06": {
-            "Usage": 66.7,
-            "Banlist": "Unlimited"
-        },
         "2008-01-26": {
             "Usage": 3.3,
             "Banlist": "Unlimited"
@@ -24352,10 +23258,6 @@
         }
     },
     "Forbidden Chalice": {
-        "2010-11-01": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2010-04-24": {
             "Usage": 0.7,
             "Banlist": "Unlimited"
@@ -24542,14 +23444,6 @@
         }
     },
     "Forbidden Lance": {
-        "2011-08-31": {
-            "Usage": 16.7,
-            "Banlist": "Unlimited"
-        },
-        "2014-03-20": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2011-06-18": {
             "Usage": 13.3,
             "Banlist": "Unlimited"
@@ -24622,14 +23516,6 @@
         }
     },
     "Formula Synchron": {
-        "2010-11-01": {
-            "Usage": 30.6,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 50,
-            "Banlist": "Unlimited"
-        },
         "2011-01-08": {
             "Usage": 21.8,
             "Banlist": "Unlimited"
@@ -24706,10 +23592,6 @@
         }
     },
     "Fossil Dyna Pachycephalo": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2008-07-26": {
             "Usage": 2.3,
             "Banlist": "Unlimited"
@@ -25172,10 +24054,6 @@
         }
     },
     "Future Fusion": {
-        "2010-11-01": {
-            "Usage": 12.5,
-            "Banlist": "Limited"
-        },
         "2006-12-09": {
             "Usage": 5.1,
             "Banlist": "Limited"
@@ -25338,10 +24216,6 @@
         }
     },
     "Gagaga Cowboy": {
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2013-02-17": {
             "Usage": 16.2,
             "Banlist": "Unlimited"
@@ -25484,10 +24358,6 @@
         }
     },
     "Gaia Dragon, the Thunder Charger": {
-        "2014-03-20": {
-            "Usage": 13.9,
-            "Banlist": "Unlimited"
-        },
         "2012-06-30": {
             "Usage": 13.5,
             "Banlist": "Unlimited"
@@ -25570,10 +24440,6 @@
         }
     },
     "Gaia Knight, the Force of Earth": {
-        "2011-08-31": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
         "2008-07-26": {
             "Usage": 0.5,
             "Banlist": "Unlimited"
@@ -25738,10 +24604,6 @@
         }
     },
     "Galaxy Soldier": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2016-11-26": {
             "Usage": 3.8,
             "Banlist": "Unlimited"
@@ -25942,10 +24804,6 @@
         }
     },
     "Gateway of the Six": {
-        "2011-08-31": {
-            "Usage": 25,
-            "Banlist": "Limited"
-        },
         "2011-06-18": {
             "Usage": 15,
             "Banlist": "Limited"
@@ -26056,10 +24914,6 @@
         }
     },
     "Gear Gigant X": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2012-10-21": {
             "Usage": 11.5,
             "Banlist": "Unlimited"
@@ -26112,10 +24966,6 @@
         }
     },
     "Geargiaccelerator": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2012-10-21": {
             "Usage": 10.3,
             "Banlist": "Unlimited"
@@ -26138,10 +24988,6 @@
         }
     },
     "Geargiagear": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2013-10-05": {
             "Usage": 5.3,
             "Banlist": "Unlimited"
@@ -26159,17 +25005,7 @@
             "Banlist": "Unlimited"
         }
     },
-    "Geargiagear Gigant XG": {
-        "2014-03-20": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        }
-    },
     "Geargiano": {
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2012-10-21": {
             "Usage": 2.3,
             "Banlist": "Unlimited"
@@ -26188,10 +25024,6 @@
         }
     },
     "Geargiano Mk-II": {
-        "2014-03-20": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2012-10-21": {
             "Usage": 4.6,
             "Banlist": "Unlimited"
@@ -26213,17 +25045,7 @@
             "Banlist": "Unlimited"
         }
     },
-    "Geargiano Mk-III": {
-        "2014-03-20": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        }
-    },
     "Geargiarmor": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2012-10-21": {
             "Usage": 10.3,
             "Banlist": "Unlimited"
@@ -26246,10 +25068,6 @@
         }
     },
     "Geargiarsenal": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2012-10-21": {
             "Usage": 10.3,
             "Banlist": "Unlimited"
@@ -26268,12 +25086,6 @@
         },
         "2014-07-12": {
             "Usage": 7.9,
-            "Banlist": "Unlimited"
-        }
-    },
-    "Geargiauger": {
-        "2014-03-20": {
-            "Usage": 5.6,
             "Banlist": "Unlimited"
         }
     },
@@ -26332,10 +25144,6 @@
         }
     },
     "Gem-Knight Pearl": {
-        "2011-08-31": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2012-06-30": {
             "Usage": 8.3,
             "Banlist": "Unlimited"
@@ -26410,10 +25218,6 @@
         }
     },
     "Gemini Imps": {
-        "2011-08-31": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
         "2010-08-07": {
             "Usage": 2.3,
             "Banlist": "Unlimited"
@@ -26440,14 +25244,6 @@
         }
     },
     "Gemini Spark": {
-        "2010-11-01": {
-            "Usage": 20.8,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 25,
-            "Banlist": "Unlimited"
-        },
         "2010-02-27": {
             "Usage": 1.4,
             "Banlist": "Unlimited"
@@ -26542,10 +25338,6 @@
         }
     },
     "Genex Controller": {
-        "2010-11-01": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2013-02-17": {
             "Usage": 1.8,
             "Banlist": "Unlimited"
@@ -26584,10 +25376,6 @@
         }
     },
     "Genex Undine": {
-        "2010-11-01": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2013-02-17": {
             "Usage": 2.7,
             "Banlist": "Unlimited"
@@ -26964,10 +25752,6 @@
         }
     },
     "Ghostrick Alucard": {
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2014-03-22": {
             "Usage": 12,
             "Banlist": "Unlimited"
@@ -27048,14 +25832,6 @@
         }
     },
     "Giant Rat": {
-        "2002-08-18": {
-            "Usage": 66.7,
-            "Banlist": "Unlimited"
-        },
-        "2005-04-09": {
-            "Usage": 11.1,
-            "Banlist": "Unlimited"
-        },
         "2002-10-01": {
             "Usage": 13.3,
             "Banlist": "Unlimited"
@@ -27128,14 +25904,6 @@
         }
     },
     "Giant Soldier of Stone": {
-        "1999-08-25": {
-            "Usage": 100,
-            "Banlist": "Unlimited"
-        },
-        "2000-08-20": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
         "2002-05-15": {
             "Usage": 96.7,
             "Banlist": "Unlimited"
@@ -27154,18 +25922,6 @@
         }
     },
     "Giant Trunade": {
-        "2011-08-31": {
-            "Usage": 62.5,
-            "Banlist": "Limited"
-        },
-        "2010-11-01": {
-            "Usage": 16.7,
-            "Banlist": "Limited"
-        },
-        "2005-04-09": {
-            "Usage": 22.2,
-            "Banlist": "Unlimited"
-        },
         "2002-10-01": {
             "Usage": 42.2,
             "Banlist": "Unlimited"
@@ -27434,30 +26190,6 @@
         },
         "2024-11-24": {
             "Usage": 3.8,
-            "Banlist": "Unlimited"
-        }
-    },
-    "Gishki Abyss": {
-        "2010-11-01": {
-            "Usage": 6.9,
-            "Banlist": "Unlimited"
-        }
-    },
-    "Gishki Aquamirror": {
-        "2010-11-01": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        }
-    },
-    "Gishki Beast": {
-        "2010-11-01": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        }
-    },
-    "Gishki Shadow": {
-        "2010-11-01": {
-            "Usage": 6.9,
             "Banlist": "Unlimited"
         }
     },
@@ -27930,14 +26662,6 @@
         }
     },
     "Glow-Up Bulb": {
-        "2010-11-01": {
-            "Usage": 12.5,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 16.7,
-            "Banlist": "Unlimited"
-        },
         "2011-01-08": {
             "Usage": 10.3,
             "Banlist": "Unlimited"
@@ -27988,10 +26712,6 @@
         }
     },
     "Goblin Attack Force": {
-        "2001-08-12": {
-            "Usage": 66.7,
-            "Banlist": "Unlimited"
-        },
         "2003-02-16": {
             "Usage": 23.8,
             "Banlist": "Unlimited"
@@ -28178,14 +26898,6 @@
         }
     },
     "Gold Sarcophagus": {
-        "2014-03-20": {
-            "Usage": 41.7,
-            "Banlist": "Limited"
-        },
-        "2007-04-06": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
         "2007-10-13": {
             "Usage": 10.3,
             "Banlist": "Limited"
@@ -28391,25 +27103,7 @@
             "Banlist": "Unlimited"
         }
     },
-    "Gorgonic Guardian": {
-        "2014-03-20": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        }
-    },
     "Gorz the Emissary of Darkness": {
-        "2010-11-01": {
-            "Usage": 50,
-            "Banlist": "Limited"
-        },
-        "2011-08-31": {
-            "Usage": 50,
-            "Banlist": "Limited"
-        },
-        "2007-04-06": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
         "2009-01-17": {
             "Usage": 73,
             "Banlist": "Limited"
@@ -28544,10 +27238,6 @@
         }
     },
     "Goyo Guardian": {
-        "2010-11-01": {
-            "Usage": 95.8,
-            "Banlist": "Limited"
-        },
         "2009-01-17": {
             "Usage": 78.4,
             "Banlist": "Unlimited"
@@ -28590,14 +27280,6 @@
         }
     },
     "Gozen Match": {
-        "2010-11-01": {
-            "Usage": 19.4,
-            "Banlist": "Unlimited"
-        },
-        "2014-03-20": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
         "2011-06-18": {
             "Usage": 6.7,
             "Banlist": "Unlimited"
@@ -28674,22 +27356,6 @@
         }
     },
     "Graceful Charity": {
-        "2005-04-09": {
-            "Usage": 66.7,
-            "Banlist": "Limited"
-        },
-        "2000-08-20": {
-            "Usage": 100,
-            "Banlist": "Semi-Limited"
-        },
-        "2001-08-12": {
-            "Usage": 100,
-            "Banlist": "Semi-Limited"
-        },
-        "2002-08-18": {
-            "Usage": 100,
-            "Banlist": "Semi-Limited"
-        },
         "2003-05-08": {
             "Usage": 100,
             "Banlist": "Semi-Limited"
@@ -28800,10 +27466,6 @@
         }
     },
     "Grandmaster of the Six Samurai": {
-        "2011-08-31": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2007-04-28": {
             "Usage": 5,
             "Banlist": "Unlimited"
@@ -28886,10 +27548,6 @@
         }
     },
     "Grapha, Dragon Lord of Dark World": {
-        "2014-03-20": {
-            "Usage": 16.7,
-            "Banlist": "Unlimited"
-        },
         "2012-06-30": {
             "Usage": 3.1,
             "Banlist": "Unlimited"
@@ -29002,10 +27660,6 @@
         }
     },
     "Gravekeeper's Descendant": {
-        "2010-11-01": {
-            "Usage": 1.4,
-            "Banlist": "Unlimited"
-        },
         "2010-04-24": {
             "Usage": 0.7,
             "Banlist": "Unlimited"
@@ -29124,10 +27778,6 @@
         }
     },
     "Gravekeeper's Spy": {
-        "2010-11-01": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
         "2003-08-10": {
             "Usage": 54.5,
             "Banlist": "Unlimited"
@@ -29380,10 +28030,6 @@
         }
     },
     "Great White": {
-        "1999-08-25": {
-            "Usage": 50,
-            "Banlist": "Unlimited"
-        },
         "2002-05-15": {
             "Usage": 7.3,
             "Banlist": "Unlimited"
@@ -29438,10 +28084,6 @@
         }
     },
     "Greenkappa": {
-        "2010-11-01": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2008-01-26": {
             "Usage": 1.1,
             "Banlist": "Unlimited"
@@ -29660,10 +28302,6 @@
         }
     },
     "Gungnir, Dragon of the Ice Barrier": {
-        "2010-11-01": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
         "2011-06-18": {
             "Usage": 1.7,
             "Banlist": "Unlimited"
@@ -29820,10 +28458,6 @@
         }
     },
     "Hand of Nephthys": {
-        "2005-04-09": {
-            "Usage": 11.1,
-            "Banlist": "Unlimited"
-        },
         "2006-03-25": {
             "Usage": 2.1,
             "Banlist": "Unlimited"
@@ -29938,22 +28572,6 @@
         }
     },
     "Harpie's Feather Duster": {
-        "1999-08-25": {
-            "Usage": 100,
-            "Banlist": "Unlimited"
-        },
-        "2000-08-20": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2001-08-12": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2002-08-18": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
         "2003-05-08": {
             "Usage": 100,
             "Banlist": "Limited"
@@ -30156,30 +28774,6 @@
         }
     },
     "Heavy Storm": {
-        "2014-03-20": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2005-04-09": {
-            "Usage": 66.7,
-            "Banlist": "Limited"
-        },
-        "2001-08-12": {
-            "Usage": 100,
-            "Banlist": "Semi-Limited"
-        },
-        "2002-08-18": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2007-04-06": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2000-08-20": {
-            "Usage": 66.7,
-            "Banlist": "Unlimited"
-        },
         "2002-07-01": {
             "Usage": 100,
             "Banlist": "Semi-Limited"
@@ -30568,14 +29162,6 @@
         }
     },
     "Hero Blast": {
-        "2010-11-01": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 12.5,
-            "Banlist": "Unlimited"
-        },
         "2008-07-26": {
             "Usage": 1.4,
             "Banlist": "Unlimited"
@@ -30716,10 +29302,6 @@
         }
     },
     "Hieratic Dragon King of Atum": {
-        "2014-03-20": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2012-06-30": {
             "Usage": 5.2,
             "Banlist": "Unlimited"
@@ -30918,10 +29500,6 @@
         }
     },
     "Hieratic Sun Dragon Overlord of Heliopolis": {
-        "2014-03-20": {
-            "Usage": 16.7,
-            "Banlist": "Unlimited"
-        },
         "2012-06-30": {
             "Usage": 1,
             "Banlist": "Unlimited"
@@ -31086,18 +29664,6 @@
         }
     },
     "Honest": {
-        "2010-11-01": {
-            "Usage": 20.8,
-            "Banlist": "Semi-Limited"
-        },
-        "2011-08-31": {
-            "Usage": 25,
-            "Banlist": "Limited"
-        },
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Semi-Limited"
-        },
         "2008-07-26": {
             "Usage": 11,
             "Banlist": "Unlimited"
@@ -31246,12 +29812,6 @@
         },
         "2013-07-13": {
             "Usage": 5,
-            "Banlist": "Unlimited"
-        }
-    },
-    "Hot Red Dragon Archfiend": {
-        "2014-03-20": {
-            "Usage": 13.9,
             "Banlist": "Unlimited"
         }
     },
@@ -31502,10 +30062,6 @@
         }
     },
     "Icarus Attack": {
-        "2010-11-01": {
-            "Usage": 29.2,
-            "Banlist": "Unlimited"
-        },
         "2008-01-26": {
             "Usage": 6.7,
             "Banlist": "Unlimited"
@@ -31700,14 +30256,6 @@
         }
     },
     "Imperial Iron Wall": {
-        "2014-03-20": {
-            "Usage": 25,
-            "Banlist": "Unlimited"
-        },
-        "2010-11-01": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2009-01-17": {
             "Usage": 1.8,
             "Banlist": "Unlimited"
@@ -31770,14 +30318,6 @@
         }
     },
     "Imperial Order": {
-        "2001-08-12": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2002-08-18": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
         "2003-02-16": {
             "Usage": 100,
             "Banlist": "Limited"
@@ -32402,10 +30942,6 @@
         }
     },
     "Infestation Terminus": {
-        "2014-03-20": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2013-07-13": {
             "Usage": 0.6,
             "Banlist": "Unlimited"
@@ -32586,10 +31122,6 @@
         }
     },
     "Injection Fairy Lily": {
-        "2005-04-09": {
-            "Usage": 33.3,
-            "Banlist": "Limited"
-        },
         "2003-07-08": {
             "Usage": 100,
             "Banlist": "Limited"
@@ -32688,10 +31220,6 @@
         }
     },
     "Instant Fusion": {
-        "2014-03-20": {
-            "Usage": 11.1,
-            "Banlist": "Unlimited"
-        },
         "2006-12-09": {
             "Usage": 2.6,
             "Banlist": "Unlimited"
@@ -32828,10 +31356,6 @@
         }
     },
     "Into the Void": {
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2015-06-27": {
             "Usage": 6,
             "Banlist": "Unlimited"
@@ -33050,14 +31574,6 @@
         }
     },
     "Iron Chain Dragon": {
-        "2010-11-01": {
-            "Usage": 13.9,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2009-01-17": {
             "Usage": 1.8,
             "Banlist": "Unlimited"
@@ -33304,22 +31820,6 @@
         }
     },
     "Jinzo": {
-        "2005-04-09": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2001-08-12": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2002-08-18": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2007-04-06": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
         "2003-02-16": {
             "Usage": 100,
             "Banlist": "Limited"
@@ -33588,20 +32088,12 @@
         }
     },
     "Junk Archer": {
-        "2010-11-01": {
-            "Usage": 1.4,
-            "Banlist": "Unlimited"
-        },
         "2010-08-07": {
             "Usage": 0.4,
             "Banlist": "Unlimited"
         }
     },
     "Junk Destroyer": {
-        "2010-11-01": {
-            "Usage": 1.4,
-            "Banlist": "Unlimited"
-        },
         "2010-08-07": {
             "Usage": 2.7,
             "Banlist": "Unlimited"
@@ -33628,10 +32120,6 @@
         }
     },
     "Junk Synchron": {
-        "2011-08-31": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2010-04-24": {
             "Usage": 2.2,
             "Banlist": "Unlimited"
@@ -33860,10 +32348,6 @@
         }
     },
     "Kagemusha of the Six Samurai": {
-        "2011-08-31": {
-            "Usage": 25,
-            "Banlist": "Unlimited"
-        },
         "2011-06-18": {
             "Usage": 15,
             "Banlist": "Unlimited"
@@ -33946,10 +32430,6 @@
         }
     },
     "Kamionwizard": {
-        "2014-03-20": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2013-10-05": {
             "Usage": 0.5,
             "Banlist": "Unlimited"
@@ -34144,10 +32624,6 @@
         }
     },
     "Karbonala Warrior": {
-        "1999-08-25": {
-            "Usage": 50,
-            "Banlist": "Unlimited"
-        },
         "2002-05-15": {
             "Usage": 20.3,
             "Banlist": "Unlimited"
@@ -34206,10 +32682,6 @@
         }
     },
     "Karma Cut": {
-        "2010-11-01": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2007-04-28": {
             "Usage": 1.7,
             "Banlist": "Unlimited"
@@ -34986,10 +33458,6 @@
         }
     },
     "Koa'ki Meiru Drago": {
-        "2014-03-20": {
-            "Usage": 11.1,
-            "Banlist": "Unlimited"
-        },
         "2010-04-24": {
             "Usage": 4.4,
             "Banlist": "Unlimited"
@@ -35329,12 +33797,6 @@
             "Banlist": "Unlimited"
         }
     },
-    "Kunai with Chain": {
-        "1999-08-25": {
-            "Usage": 100,
-            "Banlist": "Unlimited"
-        }
-    },
     "Kuraz the Light Monarch": {
         "2016-01-16": {
             "Usage": 1.5,
@@ -35352,18 +33814,6 @@
         }
     },
     "Kuriboh": {
-        "2007-04-06": {
-            "Usage": 100,
-            "Banlist": "Unlimited"
-        },
-        "2001-08-12": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
-        "2002-08-18": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
         "2002-07-01": {
             "Usage": 7.4,
             "Banlist": "Unlimited"
@@ -35464,18 +33914,6 @@
         }
     },
     "Kycoo the Ghost Destroyer": {
-        "2010-11-01": {
-            "Usage": 11.1,
-            "Banlist": "Unlimited"
-        },
-        "2002-08-18": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
-        "2007-04-06": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
         "2003-04-01": {
             "Usage": 89.7,
             "Banlist": "Unlimited"
@@ -35978,10 +34416,6 @@
         }
     },
     "Lavalval Chain": {
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2013-05-11": {
             "Usage": 6.9,
             "Banlist": "Unlimited"
@@ -36042,10 +34476,6 @@
         }
     },
     "Leeching the Light": {
-        "2011-08-31": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
         "2011-06-18": {
             "Usage": 6.7,
             "Banlist": "Unlimited"
@@ -36210,10 +34640,6 @@
         }
     },
     "Legendary Six Samurai - Enishi": {
-        "2011-08-31": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2011-06-18": {
             "Usage": 1.7,
             "Banlist": "Unlimited"
@@ -36232,10 +34658,6 @@
         }
     },
     "Legendary Six Samurai - Kageki": {
-        "2011-08-31": {
-            "Usage": 20.8,
-            "Banlist": "Unlimited"
-        },
         "2011-06-18": {
             "Usage": 11.7,
             "Banlist": "Unlimited"
@@ -36254,10 +34676,6 @@
         }
     },
     "Legendary Six Samurai - Kizan": {
-        "2011-08-31": {
-            "Usage": 25,
-            "Banlist": "Unlimited"
-        },
         "2011-06-18": {
             "Usage": 15,
             "Banlist": "Unlimited"
@@ -36282,10 +34700,6 @@
         }
     },
     "Legendary Six Samurai - Shi En": {
-        "2011-08-31": {
-            "Usage": 16.7,
-            "Banlist": "Unlimited"
-        },
         "2011-06-18": {
             "Usage": 11.7,
             "Banlist": "Unlimited"
@@ -36360,10 +34774,6 @@
         }
     },
     "Level Eater": {
-        "2011-08-31": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2011-01-08": {
             "Usage": 0.6,
             "Banlist": "Unlimited"
@@ -36440,14 +34850,6 @@
         }
     },
     "Leviair the Sea Dragon": {
-        "2014-03-20": {
-            "Usage": 11.1,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 12.5,
-            "Banlist": "Unlimited"
-        },
         "2011-09-17": {
             "Usage": 31.2,
             "Banlist": "Unlimited"
@@ -36540,10 +34942,6 @@
         }
     },
     "Liberty at Last!": {
-        "2010-11-01": {
-            "Usage": 1.4,
-            "Banlist": "Unlimited"
-        },
         "2011-01-08": {
             "Usage": 1.2,
             "Banlist": "Unlimited"
@@ -36612,10 +35010,6 @@
         }
     },
     "Light and Darkness Dragon": {
-        "2007-04-06": {
-            "Usage": 100,
-            "Banlist": "Unlimited"
-        },
         "2008-01-26": {
             "Usage": 20,
             "Banlist": "Unlimited"
@@ -36654,10 +35048,6 @@
         }
     },
     "Light-Imprisoning Mirror": {
-        "2014-03-20": {
-            "Usage": 25,
-            "Banlist": "Unlimited"
-        },
         "2008-07-26": {
             "Usage": 46.6,
             "Banlist": "Unlimited"
@@ -36800,10 +35190,6 @@
         }
     },
     "Lightning Vortex": {
-        "2005-04-09": {
-            "Usage": 33.3,
-            "Banlist": "Limited"
-        },
         "2005-08-20": {
             "Usage": 2,
             "Banlist": "Limited"
@@ -36920,14 +35306,6 @@
         }
     },
     "Limit Reverse": {
-        "2011-08-31": {
-            "Usage": 25,
-            "Banlist": "Unlimited"
-        },
-        "2010-11-01": {
-            "Usage": 1.4,
-            "Banlist": "Unlimited"
-        },
         "2008-07-26": {
             "Usage": 2.7,
             "Banlist": "Unlimited"
@@ -36946,10 +35324,6 @@
         }
     },
     "Limiter Removal": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Limited"
-        },
         "2003-05-08": {
             "Usage": 7.1,
             "Banlist": "Limited"
@@ -37262,14 +35636,6 @@
         }
     },
     "Lonefire Blossom": {
-        "2010-11-01": {
-            "Usage": 29.2,
-            "Banlist": "Semi-Limited"
-        },
-        "2011-08-31": {
-            "Usage": 37.5,
-            "Banlist": "Semi-Limited"
-        },
         "2009-07-26": {
             "Usage": 1.9,
             "Banlist": "Unlimited"
@@ -37594,14 +35960,6 @@
         }
     },
     "Lyla, Lightsworn Sorceress": {
-        "2011-08-31": {
-            "Usage": 20.8,
-            "Banlist": "Unlimited"
-        },
-        "2010-11-01": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
         "2008-07-26": {
             "Usage": 13.2,
             "Banlist": "Unlimited"
@@ -37810,10 +36168,6 @@
         }
     },
     "M-X-Saber Invoker": {
-        "2014-03-20": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2013-07-13": {
             "Usage": 0.6,
             "Banlist": "Unlimited"
@@ -37872,10 +36226,6 @@
         }
     },
     "Machina Force": {
-        "2010-11-01": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2010-04-24": {
             "Usage": 4.4,
             "Banlist": "Unlimited"
@@ -37894,14 +36244,6 @@
         }
     },
     "Machina Fortress": {
-        "2010-11-01": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
-        "2014-03-20": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2010-04-24": {
             "Usage": 6.7,
             "Banlist": "Unlimited"
@@ -37936,14 +36278,6 @@
         }
     },
     "Machina Gearframe": {
-        "2010-11-01": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
-        "2014-03-20": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2010-04-24": {
             "Usage": 6.7,
             "Banlist": "Unlimited"
@@ -38034,10 +36368,6 @@
         }
     },
     "Macro Cosmos": {
-        "2011-08-31": {
-            "Usage": 12.5,
-            "Banlist": "Unlimited"
-        },
         "2006-08-12": {
             "Usage": 3.1,
             "Banlist": "Unlimited"
@@ -38156,20 +36486,12 @@
         }
     },
     "Madolche Anjelly": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2014-07-12": {
             "Usage": 3.9,
             "Banlist": "Unlimited"
         }
     },
     "Madolche Chateau": {
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2013-07-13": {
             "Usage": 1.3,
             "Banlist": "Unlimited"
@@ -38194,10 +36516,6 @@
         }
     },
     "Madolche Hootcake": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2013-07-13": {
             "Usage": 1.9,
             "Banlist": "Unlimited"
@@ -38216,10 +36534,6 @@
         }
     },
     "Madolche Magileine": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2013-07-13": {
             "Usage": 1.9,
             "Banlist": "Unlimited"
@@ -38244,10 +36558,6 @@
         }
     },
     "Madolche Messengelato": {
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2013-07-13": {
             "Usage": 1.3,
             "Banlist": "Unlimited"
@@ -38266,10 +36576,6 @@
         }
     },
     "Madolche Mewfeuille": {
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2013-07-13": {
             "Usage": 0.6,
             "Banlist": "Unlimited"
@@ -38306,10 +36612,6 @@
         }
     },
     "Madolche Queen Tiaramisu": {
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2013-07-13": {
             "Usage": 1.3,
             "Banlist": "Unlimited"
@@ -38338,10 +36640,6 @@
         }
     },
     "Madolche Ticket": {
-        "2014-03-20": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2013-07-13": {
             "Usage": 1.3,
             "Banlist": "Unlimited"
@@ -38360,10 +36658,6 @@
         }
     },
     "Madolchepalooza": {
-        "2014-03-20": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2013-07-13": {
             "Usage": 0.6,
             "Banlist": "Unlimited"
@@ -38438,18 +36732,6 @@
         }
     },
     "Magic Cylinder": {
-        "2005-04-09": {
-            "Usage": 66.7,
-            "Banlist": "Limited"
-        },
-        "2001-08-12": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2002-08-18": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
         "2003-04-01": {
             "Usage": 26.9,
             "Banlist": "Limited"
@@ -38628,10 +36910,6 @@
         }
     },
     "Magic Jammer": {
-        "2000-08-20": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
         "2002-07-01": {
             "Usage": 16,
             "Banlist": "Unlimited"
@@ -38682,10 +36960,6 @@
         }
     },
     "Magical Android": {
-        "2010-11-01": {
-            "Usage": 26.4,
-            "Banlist": "Unlimited"
-        },
         "2009-01-17": {
             "Usage": 35.1,
             "Banlist": "Unlimited"
@@ -38952,22 +37226,6 @@
         }
     },
     "Magician of Faith": {
-        "1999-08-25": {
-            "Usage": 100,
-            "Banlist": "Unlimited"
-        },
-        "2000-08-20": {
-            "Usage": 100,
-            "Banlist": "Unlimited"
-        },
-        "2005-04-09": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
-        "2001-08-12": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
         "2002-07-01": {
             "Usage": 88.9,
             "Banlist": "Unlimited"
@@ -39294,10 +37552,6 @@
         }
     },
     "Malefic Stardust Dragon": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2010-08-07": {
             "Usage": 0.4,
             "Banlist": "Unlimited"
@@ -39316,14 +37570,6 @@
         }
     },
     "Malevolent Catastrophe": {
-        "2010-11-01": {
-            "Usage": 9.7,
-            "Banlist": "Unlimited"
-        },
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2008-01-26": {
             "Usage": 13.3,
             "Banlist": "Unlimited"
@@ -39456,10 +37702,6 @@
         }
     },
     "Man-Eater Bug": {
-        "1999-08-25": {
-            "Usage": 100,
-            "Banlist": "Unlimited"
-        },
         "2002-05-15": {
             "Usage": 100,
             "Banlist": "Unlimited"
@@ -39720,10 +37962,6 @@
         }
     },
     "Marshmallon": {
-        "2007-04-06": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
         "2007-10-13": {
             "Usage": 5.2,
             "Banlist": "Limited"
@@ -39792,14 +38030,6 @@
         }
     },
     "Mask of Darkness": {
-        "1999-08-25": {
-            "Usage": 50,
-            "Banlist": "Unlimited"
-        },
-        "2000-08-20": {
-            "Usage": 66.7,
-            "Banlist": "Unlimited"
-        },
         "2002-07-01": {
             "Usage": 1.2,
             "Banlist": "Unlimited"
@@ -40322,10 +38552,6 @@
         }
     },
     "Maxx \"C\"": {
-        "2014-03-20": {
-            "Usage": 97.2,
-            "Banlist": "Unlimited"
-        },
         "2011-06-18": {
             "Usage": 55,
             "Banlist": "Unlimited"
@@ -40432,10 +38658,6 @@
         }
     },
     "Mecha Phantom Beast Dracossack": {
-        "2014-03-20": {
-            "Usage": 16.7,
-            "Banlist": "Unlimited"
-        },
         "2013-07-13": {
             "Usage": 66,
             "Banlist": "Unlimited"
@@ -41370,10 +39592,6 @@
         }
     },
     "Messenger of Peace": {
-        "2011-08-31": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2005-08-20": {
             "Usage": 2.7,
             "Banlist": "Unlimited"
@@ -41862,18 +40080,6 @@
         }
     },
     "Mind Control": {
-        "2010-11-01": {
-            "Usage": 33.3,
-            "Banlist": "Limited"
-        },
-        "2011-08-31": {
-            "Usage": 50,
-            "Banlist": "Limited"
-        },
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Limited"
-        },
         "2005-08-20": {
             "Usage": 40.8,
             "Banlist": "Unlimited"
@@ -42028,10 +40234,6 @@
         }
     },
     "Mind Crush": {
-        "2010-11-01": {
-            "Usage": 4.2,
-            "Banlist": "Limited"
-        },
         "2005-02-13": {
             "Usage": 4.3,
             "Banlist": "Unlimited"
@@ -42206,10 +40408,6 @@
         }
     },
     "Miracle Dig": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2014-03-22": {
             "Usage": 1.9,
             "Banlist": "Unlimited"
@@ -42226,14 +40424,6 @@
         }
     },
     "Miracle Fusion": {
-        "2010-11-01": {
-            "Usage": 20.8,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 25,
-            "Banlist": "Unlimited"
-        },
         "2010-02-27": {
             "Usage": 4.2,
             "Banlist": "Unlimited"
@@ -42322,38 +40512,6 @@
         }
     },
     "Mirror Force": {
-        "2010-11-01": {
-            "Usage": 91.7,
-            "Banlist": "Limited"
-        },
-        "2011-08-31": {
-            "Usage": 62.5,
-            "Banlist": "Limited"
-        },
-        "2005-04-09": {
-            "Usage": 66.7,
-            "Banlist": "Limited"
-        },
-        "2014-03-20": {
-            "Usage": 11.1,
-            "Banlist": "Unlimited"
-        },
-        "2000-08-20": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2001-08-12": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2002-08-18": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2007-04-06": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
         "2002-07-01": {
             "Usage": 100,
             "Banlist": "Limited"
@@ -42798,10 +40956,6 @@
         }
     },
     "Mistake": {
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2013-10-05": {
             "Usage": 1,
             "Banlist": "Unlimited"
@@ -42882,18 +41036,6 @@
         }
     },
     "Mobius the Frost Monarch": {
-        "2007-04-06": {
-            "Usage": 100,
-            "Banlist": "Unlimited"
-        },
-        "2010-11-01": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
-        "2005-04-09": {
-            "Usage": 11.1,
-            "Banlist": "Unlimited"
-        },
         "2005-02-13": {
             "Usage": 21.7,
             "Banlist": "Unlimited"
@@ -43052,34 +41194,6 @@
         }
     },
     "Monster Reborn": {
-        "2010-11-01": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2011-08-31": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2014-03-20": {
-            "Usage": 50,
-            "Banlist": "Limited"
-        },
-        "1999-08-25": {
-            "Usage": 100,
-            "Banlist": "Unlimited"
-        },
-        "2000-08-20": {
-            "Usage": 100,
-            "Banlist": "Semi-Limited"
-        },
-        "2001-08-12": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2002-08-18": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
         "2002-05-15": {
             "Usage": 100,
             "Banlist": "Limited"
@@ -43210,10 +41324,6 @@
         }
     },
     "Monster Reincarnation": {
-        "2011-08-31": {
-            "Usage": 12.5,
-            "Banlist": "Unlimited"
-        },
         "2005-02-13": {
             "Usage": 11.6,
             "Banlist": "Unlimited"
@@ -43306,10 +41416,6 @@
         }
     },
     "Morphing Jar": {
-        "2010-11-01": {
-            "Usage": 4.2,
-            "Banlist": "Limited"
-        },
         "2003-02-16": {
             "Usage": 78.6,
             "Banlist": "Limited"
@@ -43622,10 +41728,6 @@
         }
     },
     "Muka Muka": {
-        "2000-08-20": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
         "2002-07-01": {
             "Usage": 85.2,
             "Banlist": "Unlimited"
@@ -43706,10 +41808,6 @@
         }
     },
     "Musakani Magatama": {
-        "2011-08-31": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
         "2011-06-18": {
             "Usage": 5,
             "Banlist": "Unlimited"
@@ -43804,10 +41902,6 @@
         }
     },
     "My Body as a Shield": {
-        "2014-03-20": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2007-01-27": {
             "Usage": 2.4,
             "Banlist": "Unlimited"
@@ -43918,10 +42012,6 @@
         }
     },
     "Mystic Swordsman LV2": {
-        "2005-04-09": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
         "2005-02-13": {
             "Usage": 13,
             "Banlist": "Unlimited"
@@ -43964,10 +42054,6 @@
         }
     },
     "Mystic Tomato": {
-        "2002-08-18": {
-            "Usage": 66.7,
-            "Banlist": "Unlimited"
-        },
         "2002-10-01": {
             "Usage": 100,
             "Banlist": "Unlimited"
@@ -44072,10 +42158,6 @@
         }
     },
     "Mystical Refpanel": {
-        "2002-08-18": {
-            "Usage": 66.7,
-            "Banlist": "Unlimited"
-        },
         "2013-10-05": {
             "Usage": 8.7,
             "Banlist": "Unlimited"
@@ -44110,30 +42192,6 @@
         }
     },
     "Mystical Space Typhoon": {
-        "2010-11-01": {
-            "Usage": 100,
-            "Banlist": "Semi-Limited"
-        },
-        "2014-03-20": {
-            "Usage": 83.3,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 100,
-            "Banlist": "Semi-Limited"
-        },
-        "2005-04-09": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2002-08-18": {
-            "Usage": 100,
-            "Banlist": "Unlimited"
-        },
-        "2001-08-12": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
         "2002-10-01": {
             "Usage": 86.7,
             "Banlist": "Unlimited"
@@ -44408,10 +42466,6 @@
         }
     },
     "Mythic Tree Dragon": {
-        "2014-03-20": {
-            "Usage": 11.1,
-            "Banlist": "Unlimited"
-        },
         "2013-10-05": {
             "Usage": 0.5,
             "Banlist": "Unlimited"
@@ -44426,10 +42480,6 @@
         }
     },
     "Mythic Water Dragon": {
-        "2014-03-20": {
-            "Usage": 11.1,
-            "Banlist": "Unlimited"
-        },
         "2013-10-05": {
             "Usage": 0.5,
             "Banlist": "Unlimited"
@@ -44502,14 +42552,6 @@
         }
     },
     "Naturia Barkion": {
-        "2011-08-31": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
-        "2010-11-01": {
-            "Usage": 1.4,
-            "Banlist": "Unlimited"
-        },
         "2011-01-08": {
             "Usage": 0.6,
             "Banlist": "Unlimited"
@@ -44540,14 +42582,6 @@
         }
     },
     "Naturia Beast": {
-        "2011-08-31": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
-        "2010-11-01": {
-            "Usage": 1.4,
-            "Banlist": "Unlimited"
-        },
         "2010-08-07": {
             "Usage": 3.4,
             "Banlist": "Unlimited"
@@ -44612,10 +42646,6 @@
         }
     },
     "Naturia Landoise": {
-        "2011-08-31": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2011-06-18": {
             "Usage": 5,
             "Banlist": "Unlimited"
@@ -44652,10 +42682,6 @@
         }
     },
     "Necro Gardna": {
-        "2011-08-31": {
-            "Usage": 25,
-            "Banlist": "Limited"
-        },
         "2007-10-13": {
             "Usage": 0.6,
             "Banlist": "Unlimited"
@@ -45114,10 +43140,6 @@
         }
     },
     "Neo-Spacian Grand Mole": {
-        "2011-08-31": {
-            "Usage": 25,
-            "Banlist": "Limited"
-        },
         "2007-04-28": {
             "Usage": 7.5,
             "Banlist": "Limited"
@@ -45646,10 +43668,6 @@
         }
     },
     "Ninja Grandmaster Sasuke": {
-        "2005-04-09": {
-            "Usage": 11.1,
-            "Banlist": "Unlimited"
-        },
         "2005-02-13": {
             "Usage": 10.1,
             "Banlist": "Unlimited"
@@ -45696,10 +43714,6 @@
         }
     },
     "Nitro Warrior": {
-        "2010-11-01": {
-            "Usage": 1.4,
-            "Banlist": "Unlimited"
-        },
         "2010-08-07": {
             "Usage": 2.3,
             "Banlist": "Unlimited"
@@ -45728,26 +43742,6 @@
         }
     },
     "Nobleman of Crossout": {
-        "2010-11-01": {
-            "Usage": 36.1,
-            "Banlist": "Unlimited"
-        },
-        "2005-04-09": {
-            "Usage": 66.7,
-            "Banlist": "Semi-Limited"
-        },
-        "2002-08-18": {
-            "Usage": 100,
-            "Banlist": "Semi-Limited"
-        },
-        "2001-08-12": {
-            "Usage": 50,
-            "Banlist": "Semi-Limited"
-        },
-        "2011-08-31": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
         "2003-02-16": {
             "Usage": 100,
             "Banlist": "Semi-Limited"
@@ -46056,10 +44050,6 @@
         }
     },
     "Number 101: Silent Honor ARK": {
-        "2014-03-20": {
-            "Usage": 25,
-            "Banlist": "Unlimited"
-        },
         "2014-03-22": {
             "Usage": 32.4,
             "Banlist": "Unlimited"
@@ -46114,10 +44104,6 @@
         }
     },
     "Number 103: Ragnazero": {
-        "2014-03-20": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2014-07-12": {
             "Usage": 18.4,
             "Banlist": "Unlimited"
@@ -46214,10 +44200,6 @@
         }
     },
     "Number 11: Big Eye": {
-        "2014-03-20": {
-            "Usage": 41.7,
-            "Banlist": "Limited"
-        },
         "2012-10-21": {
             "Usage": 5.7,
             "Banlist": "Unlimited"
@@ -46332,10 +44314,6 @@
         }
     },
     "Number 15: Gimmick Puppet Giant Grinder": {
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2013-10-05": {
             "Usage": 0.5,
             "Banlist": "Unlimited"
@@ -46366,14 +44344,6 @@
         }
     },
     "Number 16: Shock Master": {
-        "2011-08-31": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2012-06-30": {
             "Usage": 1,
             "Banlist": "Unlimited"
@@ -46396,14 +44366,6 @@
         }
     },
     "Number 17: Leviathan Dragon": {
-        "2011-08-31": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
-        "2014-03-20": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2011-09-17": {
             "Usage": 41.9,
             "Banlist": "Unlimited"
@@ -46469,12 +44431,6 @@
             "Banlist": "Unlimited"
         }
     },
-    "Number 19: Freezadon": {
-        "2014-03-20": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        }
-    },
     "Number 1: Infection Buzzking": {
         "2023-12-10": {
             "Usage": 0.4,
@@ -46524,10 +44480,6 @@
         }
     },
     "Number 22: Zombiestein": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2014-03-22": {
             "Usage": 1.9,
             "Banlist": "Unlimited"
@@ -46622,14 +44574,6 @@
         }
     },
     "Number 30: Acid Golem of Destruction": {
-        "2011-08-31": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
-        "2014-03-20": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2012-06-30": {
             "Usage": 27.1,
             "Banlist": "Unlimited"
@@ -46721,12 +44665,6 @@
             "Banlist": "Unlimited"
         }
     },
-    "Number 36: Chronomaly Chateau Huyuk": {
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        }
-    },
     "Number 38: Hope Harbinger Dragon Titanic Galaxy": {
         "2016-07-09": {
             "Usage": 15.1,
@@ -46758,10 +44696,6 @@
         }
     },
     "Number 39: Utopia": {
-        "2011-08-31": {
-            "Usage": 20.8,
-            "Banlist": "Unlimited"
-        },
         "2011-09-17": {
             "Usage": 34.4,
             "Banlist": "Unlimited"
@@ -46897,12 +44831,6 @@
             "Banlist": "Unlimited"
         }
     },
-    "Number 46: Dragluon": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        }
-    },
     "Number 47: Nightmare Shark": {
         "2014-04-14": {
             "Usage": 5.8,
@@ -47032,10 +44960,6 @@
         }
     },
     "Number 52: Diamond Crab King": {
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2015-06-27": {
             "Usage": 0.5,
             "Banlist": "Unlimited"
@@ -47064,10 +44988,6 @@
         }
     },
     "Number 61: Volcasaurus": {
-        "2014-03-20": {
-            "Usage": 11.1,
-            "Banlist": "Unlimited"
-        },
         "2013-05-11": {
             "Usage": 1.4,
             "Banlist": "Unlimited"
@@ -47276,10 +45196,6 @@
         }
     },
     "Number 80: Rhapsody in Berserk": {
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2014-07-12": {
             "Usage": 17.1,
             "Banlist": "Unlimited"
@@ -47340,10 +45256,6 @@
         }
     },
     "Number 82: Heartlandraco": {
-        "2014-03-20": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2014-04-14": {
             "Usage": 4.3,
             "Banlist": "Unlimited"
@@ -47392,10 +45304,6 @@
         }
     },
     "Number 85: Crazy Box": {
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2013-10-05": {
             "Usage": 5.8,
             "Banlist": "Unlimited"
@@ -47470,12 +45378,6 @@
     "Number 91: Thunder Spark Dragon": {
         "2013-10-05": {
             "Usage": 0.5,
-            "Banlist": "Unlimited"
-        }
-    },
-    "Number 94: Crystalzero": {
-        "2014-03-20": {
-            "Usage": 2.8,
             "Banlist": "Unlimited"
         }
     },
@@ -48096,14 +45998,6 @@
         }
     },
     "One for One": {
-        "2010-11-01": {
-            "Usage": 33.3,
-            "Banlist": "Limited"
-        },
-        "2011-08-31": {
-            "Usage": 50,
-            "Banlist": "Limited"
-        },
         "2010-02-27": {
             "Usage": 1.4,
             "Banlist": "Limited"
@@ -48832,10 +46726,6 @@
         }
     },
     "Painful Choice": {
-        "2000-08-20": {
-            "Usage": 100,
-            "Banlist": "Unlimited"
-        },
         "2002-10-01": {
             "Usage": 66.7,
             "Banlist": "Limited"
@@ -49040,10 +46930,6 @@
         }
     },
     "Panzer Dragon": {
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2016-07-09": {
             "Usage": 0.6,
             "Banlist": "Unlimited"
@@ -49822,10 +47708,6 @@
         }
     },
     "Plaguespreader Zombie": {
-        "2011-08-31": {
-            "Usage": 25,
-            "Banlist": "Limited"
-        },
         "2009-01-17": {
             "Usage": 43.2,
             "Banlist": "Unlimited"
@@ -50042,18 +47924,6 @@
         }
     },
     "Pot of Avarice": {
-        "2010-11-01": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 25,
-            "Banlist": "Unlimited"
-        },
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Limited"
-        },
         "2006-03-25": {
             "Usage": 1,
             "Banlist": "Unlimited"
@@ -50228,18 +48098,6 @@
         }
     },
     "Pot of Duality": {
-        "2010-11-01": {
-            "Usage": 59.7,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 25,
-            "Banlist": "Unlimited"
-        },
-        "2014-03-20": {
-            "Usage": 16.7,
-            "Banlist": "Unlimited"
-        },
         "2011-01-08": {
             "Usage": 57.6,
             "Banlist": "Unlimited"
@@ -50408,26 +48266,6 @@
         }
     },
     "Pot of Greed": {
-        "1999-08-25": {
-            "Usage": 100,
-            "Banlist": "Unlimited"
-        },
-        "2005-04-09": {
-            "Usage": 66.7,
-            "Banlist": "Limited"
-        },
-        "2000-08-20": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2001-08-12": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2002-08-18": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
         "2002-05-15": {
             "Usage": 100,
             "Banlist": "Limited"
@@ -50834,22 +48672,6 @@
         }
     },
     "Premature Burial": {
-        "2005-04-09": {
-            "Usage": 66.7,
-            "Banlist": "Limited"
-        },
-        "2002-08-18": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2007-04-06": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2001-08-12": {
-            "Usage": 66.7,
-            "Banlist": "Unlimited"
-        },
         "2003-02-16": {
             "Usage": 85.7,
             "Banlist": "Limited"
@@ -50936,10 +48758,6 @@
         }
     },
     "Preparation of Rites": {
-        "2010-11-01": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2015-06-27": {
             "Usage": 41.8,
             "Banlist": "Limited"
@@ -51028,10 +48846,6 @@
         }
     },
     "Prime Material Dragon": {
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2008-04-12": {
             "Usage": 2.3,
             "Banlist": "Unlimited"
@@ -51488,14 +49302,6 @@
         }
     },
     "Puppet Plant": {
-        "2011-08-31": {
-            "Usage": 62.5,
-            "Banlist": "Unlimited"
-        },
-        "2010-11-01": {
-            "Usage": 9.7,
-            "Banlist": "Unlimited"
-        },
         "2007-08-18": {
             "Usage": 1.9,
             "Banlist": "Unlimited"
@@ -51694,10 +49500,6 @@
         }
     },
     "Pyramid Turtle": {
-        "2005-04-09": {
-            "Usage": 22.2,
-            "Banlist": "Unlimited"
-        },
         "2003-08-10": {
             "Usage": 2,
             "Banlist": "Unlimited"
@@ -52052,10 +49854,6 @@
         }
     },
     "Quickdraw Synchron": {
-        "2010-11-01": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
         "2010-08-07": {
             "Usage": 3.4,
             "Banlist": "Unlimited"
@@ -52256,22 +50054,6 @@
         }
     },
     "Raigeki": {
-        "1999-08-25": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2000-08-20": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2001-08-12": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2002-08-18": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
         "2002-05-15": {
             "Usage": 100,
             "Banlist": "Limited"
@@ -52406,10 +50188,6 @@
         }
     },
     "Raigeki Break": {
-        "2011-08-31": {
-            "Usage": 16.7,
-            "Banlist": "Unlimited"
-        },
         "2003-08-10": {
             "Usage": 5.1,
             "Banlist": "Unlimited"
@@ -52510,12 +50288,6 @@
         },
         "2023-12-10": {
             "Usage": 0.4,
-            "Banlist": "Unlimited"
-        }
-    },
-    "Rainbow Kuriboh": {
-        "2014-03-20": {
-            "Usage": 11.1,
             "Banlist": "Unlimited"
         }
     },
@@ -52876,10 +50648,6 @@
         }
     },
     "Reckless Greed": {
-        "2014-03-20": {
-            "Usage": 25,
-            "Banlist": "Unlimited"
-        },
         "2005-08-20": {
             "Usage": 4.1,
             "Banlist": "Limited"
@@ -53154,10 +50922,6 @@
         }
     },
     "Red-Eyes Darkness Metal Dragon": {
-        "2014-03-20": {
-            "Usage": 25,
-            "Banlist": "Limited"
-        },
         "2010-04-24": {
             "Usage": 6.7,
             "Banlist": "Unlimited"
@@ -53272,10 +51036,6 @@
         }
     },
     "Redox, Dragon Ruler of Boulders": {
-        "2014-03-20": {
-            "Usage": 41.7,
-            "Banlist": "Semi-Limited"
-        },
         "2013-07-13": {
             "Usage": 62.3,
             "Banlist": "Unlimited"
@@ -53352,22 +51112,6 @@
         }
     },
     "Reinforcement of the Army": {
-        "2010-11-01": {
-            "Usage": 20.8,
-            "Banlist": "Limited"
-        },
-        "2011-08-31": {
-            "Usage": 62.5,
-            "Banlist": "Limited"
-        },
-        "2005-04-09": {
-            "Usage": 33.3,
-            "Banlist": "Semi-Limited"
-        },
-        "2007-04-06": {
-            "Usage": 100,
-            "Banlist": "Semi-Limited"
-        },
         "2003-07-08": {
             "Usage": 3.5,
             "Banlist": "Semi-Limited"
@@ -53590,10 +51334,6 @@
         }
     },
     "Reinforcements": {
-        "1999-08-25": {
-            "Usage": 83.3,
-            "Banlist": "Unlimited"
-        },
         "2002-05-15": {
             "Usage": 97.6,
             "Banlist": "Unlimited"
@@ -54292,18 +52032,6 @@
         }
     },
     "Ring of Destruction": {
-        "2005-04-09": {
-            "Usage": 66.7,
-            "Banlist": "Limited"
-        },
-        "2001-08-12": {
-            "Usage": 100,
-            "Banlist": "Semi-Limited"
-        },
-        "2002-08-18": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
         "2003-08-10": {
             "Usage": 100,
             "Banlist": "Limited"
@@ -54618,14 +52346,6 @@
         }
     },
     "Rivalry of Warlords": {
-        "2010-11-01": {
-            "Usage": 19.4,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 16.7,
-            "Banlist": "Unlimited"
-        },
         "2008-07-26": {
             "Usage": 1.4,
             "Banlist": "Unlimited"
@@ -54735,12 +52455,6 @@
             "Banlist": "Limited"
         }
     },
-    "Road Warrior": {
-        "2010-11-01": {
-            "Usage": 1.4,
-            "Banlist": "Unlimited"
-        }
-    },
     "Roar of the Blue-Eyed Dragons": {
         "2025-04-05": {
             "Usage": 0.3,
@@ -54818,12 +52532,6 @@
         },
         "2024-03-30": {
             "Usage": 0.7,
-            "Banlist": "Unlimited"
-        }
-    },
-    "Rogue Doll": {
-        "1999-08-25": {
-            "Usage": 100,
             "Banlist": "Unlimited"
         }
     },
@@ -54996,22 +52704,6 @@
         }
     },
     "Royal Decree": {
-        "2010-11-01": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
-        "2005-04-09": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
-        "2007-04-06": {
-            "Usage": 100,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 12.5,
-            "Banlist": "Unlimited"
-        },
         "2003-11-21": {
             "Usage": 10,
             "Banlist": "Unlimited"
@@ -55170,14 +52862,6 @@
         }
     },
     "Royal Oppression": {
-        "2010-11-01": {
-            "Usage": 62.5,
-            "Banlist": "Limited"
-        },
-        "2011-08-31": {
-            "Usage": 37.5,
-            "Banlist": "Limited"
-        },
         "2004-06-26": {
             "Usage": 8.9,
             "Banlist": "Unlimited"
@@ -55654,14 +53338,6 @@
         }
     },
     "Ryko, Lightsworn Hunter": {
-        "2010-11-01": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 37.5,
-            "Banlist": "Unlimited"
-        },
         "2008-07-26": {
             "Usage": 12.8,
             "Banlist": "Unlimited"
@@ -56032,10 +53708,6 @@
         }
     },
     "Sacred Phoenix of Nephthys": {
-        "2005-04-09": {
-            "Usage": 33.3,
-            "Banlist": "Limited"
-        },
         "2006-03-25": {
             "Usage": 3.1,
             "Banlist": "Limited"
@@ -56054,10 +53726,6 @@
         }
     },
     "Sacred Sword of Seven Stars": {
-        "2014-03-20": {
-            "Usage": 41.7,
-            "Banlist": "Limited"
-        },
         "2013-07-13": {
             "Usage": 42.8,
             "Banlist": "Unlimited"
@@ -56154,10 +53822,6 @@
         }
     },
     "Sakuretsu Armor": {
-        "2005-04-09": {
-            "Usage": 11.1,
-            "Banlist": "Unlimited"
-        },
         "2004-02-28": {
             "Usage": 36.8,
             "Banlist": "Unlimited"
@@ -56538,10 +54202,6 @@
         }
     },
     "Salvage": {
-        "2010-11-01": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2005-02-13": {
             "Usage": 2.9,
             "Banlist": "Unlimited"
@@ -56626,34 +54286,6 @@
         }
     },
     "Sangan": {
-        "2010-11-01": {
-            "Usage": 37.5,
-            "Banlist": "Limited"
-        },
-        "2011-08-31": {
-            "Usage": 50,
-            "Banlist": "Limited"
-        },
-        "2005-04-09": {
-            "Usage": 66.7,
-            "Banlist": "Limited"
-        },
-        "2000-08-20": {
-            "Usage": 100,
-            "Banlist": "Unlimited"
-        },
-        "2001-08-12": {
-            "Usage": 100,
-            "Banlist": "Semi-Limited"
-        },
-        "2002-08-18": {
-            "Usage": 100,
-            "Banlist": "Semi-Limited"
-        },
-        "2007-04-06": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
         "2002-07-01": {
             "Usage": 100,
             "Banlist": "Semi-Limited"
@@ -56874,10 +54506,6 @@
         }
     },
     "Santa Claws": {
-        "2014-03-20": {
-            "Usage": 11.1,
-            "Banlist": "Unlimited"
-        },
         "2024-06-02": {
             "Usage": 2,
             "Banlist": "Unlimited"
@@ -56994,10 +54622,6 @@
         }
     },
     "Sasuke Samurai": {
-        "2005-04-09": {
-            "Usage": 11.1,
-            "Banlist": "Unlimited"
-        },
         "2003-08-10": {
             "Usage": 6.1,
             "Banlist": "Unlimited"
@@ -57220,26 +54844,6 @@
         }
     },
     "Scapegoat": {
-        "2010-11-01": {
-            "Usage": 37.5,
-            "Banlist": "Limited"
-        },
-        "2005-04-09": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 12.5,
-            "Banlist": "Limited"
-        },
-        "2001-08-12": {
-            "Usage": 66.7,
-            "Banlist": "Unlimited"
-        },
-        "2002-08-18": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
         "2003-05-08": {
             "Usage": 21.4,
             "Banlist": "Unlimited"
@@ -57564,10 +55168,6 @@
         }
     },
     "Scrap Beast": {
-        "2010-11-01": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
         "2011-01-08": {
             "Usage": 3.6,
             "Banlist": "Unlimited"
@@ -57578,10 +55178,6 @@
         }
     },
     "Scrap Chimera": {
-        "2010-11-01": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
         "2011-01-08": {
             "Usage": 3.6,
             "Banlist": "Unlimited"
@@ -57596,18 +55192,6 @@
         }
     },
     "Scrap Dragon": {
-        "2010-11-01": {
-            "Usage": 34.7,
-            "Banlist": "Unlimited"
-        },
-        "2014-03-20": {
-            "Usage": 13.9,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 16.7,
-            "Banlist": "Unlimited"
-        },
         "2011-01-08": {
             "Usage": 32.7,
             "Banlist": "Unlimited"
@@ -57716,10 +55300,6 @@
         }
     },
     "Scrap Twin Dragon": {
-        "2010-11-01": {
-            "Usage": 1.4,
-            "Banlist": "Unlimited"
-        },
         "2011-01-08": {
             "Usage": 1.8,
             "Banlist": "Unlimited"
@@ -57742,10 +55322,6 @@
         }
     },
     "Scrapstorm": {
-        "2010-11-01": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
         "2011-01-08": {
             "Usage": 3.6,
             "Banlist": "Unlimited"
@@ -57756,10 +55332,6 @@
         }
     },
     "Scrapyard": {
-        "2010-11-01": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2011-01-08": {
             "Usage": 1.2,
             "Banlist": "Unlimited"
@@ -58068,10 +55640,6 @@
         }
     },
     "Seven Tools of the Bandit": {
-        "2011-08-31": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
         "2002-07-01": {
             "Usage": 59.3,
             "Banlist": "Unlimited"
@@ -58434,14 +56002,6 @@
         }
     },
     "Shadow-Imprisoning Mirror": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2008-04-12": {
             "Usage": 6.8,
             "Banlist": "Unlimited"
@@ -58634,10 +56194,6 @@
         }
     },
     "Shield Crush": {
-        "2005-04-09": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
         "2008-01-26": {
             "Usage": 3.3,
             "Banlist": "Unlimited"
@@ -58674,10 +56230,6 @@
         }
     },
     "Shien's Smoke Signal": {
-        "2011-08-31": {
-            "Usage": 25,
-            "Banlist": "Unlimited"
-        },
         "2011-06-18": {
             "Usage": 15,
             "Banlist": "Unlimited"
@@ -58718,12 +56270,6 @@
     "Shinato, King of a Higher Plane": {
         "2007-04-28": {
             "Usage": 0.8,
-            "Banlist": "Unlimited"
-        }
-    },
-    "Shine Palace": {
-        "1999-08-25": {
-            "Usage": 16.7,
             "Banlist": "Unlimited"
         }
     },
@@ -58822,10 +56368,6 @@
         }
     },
     "Shooting Quasar Dragon": {
-        "2011-08-31": {
-            "Usage": 12.5,
-            "Banlist": "Unlimited"
-        },
         "2015-06-27": {
             "Usage": 6.5,
             "Banlist": "Unlimited"
@@ -58854,14 +56396,6 @@
         }
     },
     "Shooting Star Dragon": {
-        "2010-11-01": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
         "2011-01-08": {
             "Usage": 9.7,
             "Banlist": "Unlimited"
@@ -59122,18 +56656,6 @@
         }
     },
     "Sinister Serpent": {
-        "2005-04-09": {
-            "Usage": 66.7,
-            "Banlist": "Limited"
-        },
-        "2000-08-20": {
-            "Usage": 100,
-            "Banlist": "Unlimited"
-        },
-        "2002-08-18": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
         "2003-05-08": {
             "Usage": 100,
             "Banlist": "Limited"
@@ -59200,10 +56722,6 @@
         }
     },
     "Six Samurai United": {
-        "2011-08-31": {
-            "Usage": 25,
-            "Banlist": "Unlimited"
-        },
         "2008-04-12": {
             "Usage": 3.6,
             "Banlist": "Unlimited"
@@ -59231,25 +56749,7 @@
             "Banlist": "Unlimited"
         }
     },
-    "Skelengel": {
-        "1999-08-25": {
-            "Usage": 50,
-            "Banlist": "Unlimited"
-        }
-    },
     "Skill Drain": {
-        "2010-11-01": {
-            "Usage": 16.7,
-            "Banlist": "Semi-Limited"
-        },
-        "2014-03-20": {
-            "Usage": 13.9,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 16.7,
-            "Banlist": "Unlimited"
-        },
         "2005-02-13": {
             "Usage": 2.9,
             "Banlist": "Unlimited"
@@ -60118,14 +57618,6 @@
         }
     },
     "Smashing Ground": {
-        "2007-04-06": {
-            "Usage": 66.7,
-            "Banlist": "Unlimited"
-        },
-        "2010-11-01": {
-            "Usage": 1.4,
-            "Banlist": "Unlimited"
-        },
         "2005-02-13": {
             "Usage": 34.8,
             "Banlist": "Unlimited"
@@ -60372,26 +57864,6 @@
         }
     },
     "Snatch Steal": {
-        "2005-04-09": {
-            "Usage": 66.7,
-            "Banlist": "Limited"
-        },
-        "2000-08-20": {
-            "Usage": 100,
-            "Banlist": "Semi-Limited"
-        },
-        "2001-08-12": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2002-08-18": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2007-04-06": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
         "2002-10-01": {
             "Usage": 86.7,
             "Banlist": "Limited"
@@ -60470,10 +57942,6 @@
         }
     },
     "Snipe Hunter": {
-        "2007-04-06": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
         "2006-12-09": {
             "Usage": 4.3,
             "Banlist": "Unlimited"
@@ -60542,14 +58010,6 @@
         }
     },
     "Snowman Eater": {
-        "2010-11-01": {
-            "Usage": 18.1,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 25,
-            "Banlist": "Unlimited"
-        },
         "2010-02-27": {
             "Usage": 0.9,
             "Banlist": "Unlimited"
@@ -60604,10 +58064,6 @@
         }
     },
     "Snoww, Unlight of Dark World": {
-        "2014-03-20": {
-            "Usage": 16.7,
-            "Banlist": "Unlimited"
-        },
         "2012-06-30": {
             "Usage": 3.1,
             "Banlist": "Unlimited"
@@ -60636,10 +58092,6 @@
         }
     },
     "Solar Recharge": {
-        "2011-08-31": {
-            "Usage": 25,
-            "Banlist": "Unlimited"
-        },
         "2008-07-26": {
             "Usage": 11,
             "Banlist": "Unlimited"
@@ -60712,22 +58164,6 @@
         }
     },
     "Solemn Judgment": {
-        "2010-11-01": {
-            "Usage": 66.7,
-            "Banlist": "Limited"
-        },
-        "2014-03-20": {
-            "Usage": 50,
-            "Banlist": "Limited"
-        },
-        "2011-08-31": {
-            "Usage": 50,
-            "Banlist": "Limited"
-        },
-        "2000-08-20": {
-            "Usage": 66.7,
-            "Banlist": "Unlimited"
-        },
         "2002-07-01": {
             "Usage": 84,
             "Banlist": "Unlimited"
@@ -61038,18 +58474,6 @@
         }
     },
     "Solemn Warning": {
-        "2010-11-01": {
-            "Usage": 73.6,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 62.5,
-            "Banlist": "Semi-Limited"
-        },
-        "2014-03-20": {
-            "Usage": 41.7,
-            "Banlist": "Limited"
-        },
         "2011-01-08": {
             "Usage": 53.3,
             "Banlist": "Unlimited"
@@ -61446,14 +58870,6 @@
         }
     },
     "Soul Release": {
-        "2010-11-01": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
-        "2002-08-18": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
         "2003-04-01": {
             "Usage": 2.6,
             "Banlist": "Unlimited"
@@ -61500,10 +58916,6 @@
         }
     },
     "Soul Taker": {
-        "2011-08-31": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2008-01-26": {
             "Usage": 2.2,
             "Banlist": "Unlimited"
@@ -61592,12 +59004,6 @@
         },
         "2014-07-12": {
             "Usage": 3.9,
-            "Banlist": "Unlimited"
-        }
-    },
-    "Soul of the Pure": {
-        "1999-08-25": {
-            "Usage": 33.3,
             "Banlist": "Unlimited"
         }
     },
@@ -61788,10 +59194,6 @@
         }
     },
     "Spell Shattering Arrow": {
-        "2005-04-09": {
-            "Usage": 22.2,
-            "Banlist": "Unlimited"
-        },
         "2014-11-24": {
             "Usage": 26.5,
             "Banlist": "Unlimited"
@@ -62202,18 +59604,6 @@
         }
     },
     "Spirit Reaper": {
-        "2010-11-01": {
-            "Usage": 20.8,
-            "Banlist": "Limited"
-        },
-        "2007-04-06": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2005-04-09": {
-            "Usage": 11.1,
-            "Banlist": "Unlimited"
-        },
         "2003-08-10": {
             "Usage": 37.4,
             "Banlist": "Unlimited"
@@ -62496,10 +59886,6 @@
         }
     },
     "Spiritualism": {
-        "2014-03-20": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2003-11-21": {
             "Usage": 13.3,
             "Banlist": "Unlimited"
@@ -62546,14 +59932,6 @@
         }
     },
     "Spore": {
-        "2010-11-01": {
-            "Usage": 11.1,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 12.5,
-            "Banlist": "Unlimited"
-        },
         "2010-08-07": {
             "Usage": 0.4,
             "Banlist": "Unlimited"
@@ -62932,10 +60310,6 @@
         }
     },
     "Star Eater": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2013-10-05": {
             "Usage": 18,
             "Banlist": "Unlimited"
@@ -62998,18 +60372,6 @@
         }
     },
     "Stardust Dragon": {
-        "2010-11-01": {
-            "Usage": 34.7,
-            "Banlist": "Unlimited"
-        },
-        "2014-03-20": {
-            "Usage": 22.2,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 12.5,
-            "Banlist": "Unlimited"
-        },
         "2009-01-17": {
             "Usage": 81.1,
             "Banlist": "Unlimited"
@@ -63114,10 +60476,6 @@
         }
     },
     "Stardust Spark Dragon": {
-        "2014-03-20": {
-            "Usage": 13.9,
-            "Banlist": "Unlimited"
-        },
         "2014-03-22": {
             "Usage": 8.3,
             "Banlist": "Unlimited"
@@ -63136,10 +60494,6 @@
         }
     },
     "Starliege Paladynamo": {
-        "2014-03-20": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2013-07-13": {
             "Usage": 1.3,
             "Banlist": "Unlimited"
@@ -63198,14 +60552,6 @@
         }
     },
     "Starlight Road": {
-        "2010-11-01": {
-            "Usage": 11.1,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
         "2010-04-24": {
             "Usage": 10.4,
             "Banlist": "Unlimited"
@@ -63344,10 +60690,6 @@
         }
     },
     "Steelswarm Roach": {
-        "2011-08-31": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2011-09-17": {
             "Usage": 12.9,
             "Banlist": "Unlimited"
@@ -63496,10 +60838,6 @@
         }
     },
     "Stop Defense": {
-        "1999-08-25": {
-            "Usage": 16.7,
-            "Banlist": "Unlimited"
-        },
         "2002-05-15": {
             "Usage": 13.8,
             "Banlist": "Unlimited"
@@ -63800,10 +61138,6 @@
         }
     },
     "Summoned Skull": {
-        "1999-08-25": {
-            "Usage": 50,
-            "Banlist": "Unlimited"
-        },
         "2002-05-15": {
             "Usage": 93.5,
             "Banlist": "Unlimited"
@@ -64028,14 +61362,6 @@
         }
     },
     "Super Polymerization": {
-        "2010-11-01": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 12.5,
-            "Banlist": "Unlimited"
-        },
         "2011-01-08": {
             "Usage": 0.6,
             "Banlist": "Unlimited"
@@ -64302,14 +61628,6 @@
         }
     },
     "Super-Nimble Mega Hamster": {
-        "2010-11-01": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2010-04-24": {
             "Usage": 8.1,
             "Banlist": "Unlimited"
@@ -64554,10 +61872,6 @@
         }
     },
     "Swap Frog": {
-        "2010-11-01": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
         "2010-04-24": {
             "Usage": 14.8,
             "Banlist": "Unlimited"
@@ -64606,10 +61920,6 @@
         }
     },
     "Swift Scarecrow": {
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2012-10-21": {
             "Usage": 3.4,
             "Banlist": "Unlimited"
@@ -64664,26 +61974,6 @@
         }
     },
     "Swords of Revealing Light": {
-        "1999-08-25": {
-            "Usage": 100,
-            "Banlist": "Unlimited"
-        },
-        "2001-08-12": {
-            "Usage": 100,
-            "Banlist": "Semi-Limited"
-        },
-        "2005-04-09": {
-            "Usage": 33.3,
-            "Banlist": "Limited"
-        },
-        "2007-04-06": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2000-08-20": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
         "2002-05-15": {
             "Usage": 100,
             "Banlist": "Semi-Limited"
@@ -65042,10 +62332,6 @@
         }
     },
     "System Down": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2007-01-27": {
             "Usage": 7.9,
             "Banlist": "Unlimited"
@@ -65126,10 +62412,6 @@
         }
     },
     "T.G. Hyper Librarian": {
-        "2011-08-31": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
         "2011-09-17": {
             "Usage": 58.1,
             "Banlist": "Limited"
@@ -65628,10 +62910,6 @@
         }
     },
     "Tempest, Dragon Ruler of Storms": {
-        "2014-03-20": {
-            "Usage": 41.7,
-            "Banlist": "Semi-Limited"
-        },
         "2013-07-13": {
             "Usage": 62.3,
             "Banlist": "Unlimited"
@@ -65850,10 +63128,6 @@
         }
     },
     "Terraforming": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2003-08-10": {
             "Usage": 3,
             "Banlist": "Unlimited"
@@ -66266,38 +63540,12 @@
         }
     },
     "The Fabled Cerburrel": {
-        "2011-08-31": {
-            "Usage": 12.5,
-            "Banlist": "Unlimited"
-        },
         "2011-09-17": {
             "Usage": 3.2,
             "Banlist": "Unlimited"
         }
     },
-    "The Fabled Chawa": {
-        "2011-08-31": {
-            "Usage": 12.5,
-            "Banlist": "Unlimited"
-        }
-    },
-    "The Fabled Ganashia": {
-        "2011-08-31": {
-            "Usage": 12.5,
-            "Banlist": "Unlimited"
-        }
-    },
-    "The Fabled Nozoochee": {
-        "2011-08-31": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        }
-    },
     "The Fabled Unicore": {
-        "2011-08-31": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
         "2011-09-17": {
             "Usage": 2.2,
             "Banlist": "Unlimited"
@@ -66322,10 +63570,6 @@
         }
     },
     "The Forceful Sentry": {
-        "2002-08-18": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
         "2002-10-01": {
             "Usage": 100,
             "Banlist": "Limited"
@@ -66368,10 +63612,6 @@
         }
     },
     "The Gates of Dark World": {
-        "2014-03-20": {
-            "Usage": 16.7,
-            "Banlist": "Unlimited"
-        },
         "2012-06-30": {
             "Usage": 3.1,
             "Banlist": "Unlimited"
@@ -66838,10 +64078,6 @@
         }
     },
     "The Six Samurai - Irou": {
-        "2011-08-31": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
         "2007-04-28": {
             "Usage": 2.5,
             "Banlist": "Unlimited"
@@ -66888,10 +64124,6 @@
         }
     },
     "The Six Samurai - Yaichi": {
-        "2011-08-31": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
         "2007-04-28": {
             "Usage": 5,
             "Banlist": "Unlimited"
@@ -66914,10 +64146,6 @@
         }
     },
     "The Six Samurai - Zanji": {
-        "2011-08-31": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2007-04-28": {
             "Usage": 5,
             "Banlist": "Unlimited"
@@ -66944,10 +64172,6 @@
         }
     },
     "The Transmigration Prophecy": {
-        "2014-03-20": {
-            "Usage": 41.7,
-            "Banlist": "Limited"
-        },
         "2007-10-13": {
             "Usage": 17.2,
             "Banlist": "Limited"
@@ -67034,10 +64258,6 @@
         }
     },
     "The White Stone of Legend": {
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2010-04-24": {
             "Usage": 6.7,
             "Banlist": "Unlimited"
@@ -67702,18 +64922,6 @@
         }
     },
     "Thunder King Rai-Oh": {
-        "2010-11-01": {
-            "Usage": 44.4,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2009-01-17": {
             "Usage": 29.7,
             "Banlist": "Unlimited"
@@ -67852,10 +65060,6 @@
         }
     },
     "Tidal, Dragon Ruler of Waterfalls": {
-        "2014-03-20": {
-            "Usage": 33.3,
-            "Banlist": "Semi-Limited"
-        },
         "2013-07-13": {
             "Usage": 64.2,
             "Banlist": "Unlimited"
@@ -68020,10 +65224,6 @@
         }
     },
     "Tiras, Keeper of Genesis": {
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2012-06-30": {
             "Usage": 8.3,
             "Banlist": "Unlimited"
@@ -68274,26 +65474,6 @@
         }
     },
     "Torrential Tribute": {
-        "2010-11-01": {
-            "Usage": 87.5,
-            "Banlist": "Limited"
-        },
-        "2014-03-20": {
-            "Usage": 58.3,
-            "Banlist": "Semi-Limited"
-        },
-        "2011-08-31": {
-            "Usage": 50,
-            "Banlist": "Limited"
-        },
-        "2005-04-09": {
-            "Usage": 66.7,
-            "Banlist": "Limited"
-        },
-        "2002-08-18": {
-            "Usage": 66.7,
-            "Banlist": "Unlimited"
-        },
         "2003-04-01": {
             "Usage": 79.5,
             "Banlist": "Unlimited"
@@ -68542,10 +65722,6 @@
         }
     },
     "Tour Guide From the Underworld": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Semi-Limited"
-        },
         "2011-09-17": {
             "Usage": 73.1,
             "Banlist": "Unlimited"
@@ -68620,10 +65796,6 @@
         }
     },
     "Trade-In": {
-        "2014-03-20": {
-            "Usage": 16.7,
-            "Banlist": "Unlimited"
-        },
         "2008-01-26": {
             "Usage": 6.7,
             "Banlist": "Unlimited"
@@ -68674,10 +65846,6 @@
         }
     },
     "Tragoedia": {
-        "2010-11-01": {
-            "Usage": 8.3,
-            "Banlist": "Limited"
-        },
         "2009-07-26": {
             "Usage": 0.6,
             "Banlist": "Unlimited"
@@ -68736,10 +65904,6 @@
         }
     },
     "Trance Archfiend": {
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2012-10-21": {
             "Usage": 4.6,
             "Banlist": "Unlimited"
@@ -68800,14 +65964,6 @@
         }
     },
     "Trap Dustshoot": {
-        "2010-11-01": {
-            "Usage": 91.7,
-            "Banlist": "Limited"
-        },
-        "2011-08-31": {
-            "Usage": 37.5,
-            "Banlist": "Limited"
-        },
         "2003-08-10": {
             "Usage": 8.1,
             "Banlist": "Unlimited"
@@ -68924,14 +66080,6 @@
         }
     },
     "Trap Hole": {
-        "1999-08-25": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2005-04-09": {
-            "Usage": 22.2,
-            "Banlist": "Unlimited"
-        },
         "2002-05-15": {
             "Usage": 100,
             "Banlist": "Unlimited"
@@ -69028,18 +66176,6 @@
         }
     },
     "Trap Stun": {
-        "2014-03-20": {
-            "Usage": 22.2,
-            "Banlist": "Unlimited"
-        },
-        "2010-11-01": {
-            "Usage": 6.9,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
         "2009-07-26": {
             "Usage": 2.5,
             "Banlist": "Unlimited"
@@ -69214,10 +66350,6 @@
         }
     },
     "Traptrix Myrmeleo": {
-        "2014-03-20": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2014-03-22": {
             "Usage": 8.3,
             "Banlist": "Unlimited"
@@ -69316,10 +66448,6 @@
         }
     },
     "Treacherous Trap Hole": {
-        "2014-03-20": {
-            "Usage": 5.6,
-            "Banlist": "Unlimited"
-        },
         "2010-02-27": {
             "Usage": 0.5,
             "Banlist": "Unlimited"
@@ -69356,14 +66484,6 @@
         }
     },
     "Treeborn Frog": {
-        "2007-04-06": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
-        "2010-11-01": {
-            "Usage": 4.2,
-            "Banlist": "Unlimited"
-        },
         "2006-03-25": {
             "Usage": 46.9,
             "Banlist": "Unlimited"
@@ -69644,10 +66764,6 @@
         }
     },
     "Tribe-Infecting Virus": {
-        "2005-04-09": {
-            "Usage": 66.7,
-            "Banlist": "Limited"
-        },
         "2003-11-21": {
             "Usage": 90,
             "Banlist": "Limited"
@@ -69674,10 +66790,6 @@
         }
     },
     "Tribute to the Doomed": {
-        "2000-08-20": {
-            "Usage": 66.7,
-            "Banlist": "Unlimited"
-        },
         "2002-07-01": {
             "Usage": 4.9,
             "Banlist": "Unlimited"
@@ -69920,14 +67032,6 @@
         }
     },
     "Trishula, Dragon of the Ice Barrier": {
-        "2010-11-01": {
-            "Usage": 95.8,
-            "Banlist": "Limited"
-        },
-        "2011-08-31": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
         "2011-06-18": {
             "Usage": 33.3,
             "Banlist": "Unlimited"
@@ -70054,10 +67158,6 @@
         }
     },
     "Tsukuyomi": {
-        "2005-04-09": {
-            "Usage": 11.1,
-            "Banlist": "Unlimited"
-        },
         "2004-06-26": {
             "Usage": 8.9,
             "Banlist": "Unlimited"
@@ -70116,10 +67216,6 @@
         }
     },
     "Turbo Warrior": {
-        "2010-11-01": {
-            "Usage": 1.4,
-            "Banlist": "Unlimited"
-        },
         "2010-08-07": {
             "Usage": 2.3,
             "Banlist": "Unlimited"
@@ -70422,10 +67518,6 @@
         }
     },
     "Tytannial, Princess of Camellias": {
-        "2010-11-01": {
-            "Usage": 1.4,
-            "Banlist": "Unlimited"
-        },
         "2009-07-26": {
             "Usage": 0.6,
             "Banlist": "Unlimited"
@@ -70580,18 +67672,6 @@
         }
     },
     "Ultimate Offering": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Limited"
-        },
-        "1999-08-25": {
-            "Usage": 16.7,
-            "Banlist": "Unlimited"
-        },
-        "2000-08-20": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
         "2002-05-15": {
             "Usage": 70.7,
             "Banlist": "Unlimited"
@@ -71024,18 +68104,6 @@
         }
     },
     "Upstart Goblin": {
-        "2010-11-01": {
-            "Usage": 37.5,
-            "Banlist": "Unlimited"
-        },
-        "2014-03-20": {
-            "Usage": 25,
-            "Banlist": "Unlimited"
-        },
-        "2011-08-31": {
-            "Usage": 25,
-            "Banlist": "Unlimited"
-        },
         "2002-10-01": {
             "Usage": 20,
             "Banlist": "Limited"
@@ -71254,14 +68322,6 @@
         }
     },
     "Vampire Lord": {
-        "2005-04-09": {
-            "Usage": 33.3,
-            "Banlist": "Semi-Limited"
-        },
-        "2002-08-18": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
         "2004-02-28": {
             "Usage": 5.3,
             "Banlist": "Limited"
@@ -71292,10 +68352,6 @@
         }
     },
     "Vanity's Emptiness": {
-        "2014-03-20": {
-            "Usage": 27.8,
-            "Banlist": "Unlimited"
-        },
         "2011-09-17": {
             "Usage": 12.9,
             "Banlist": "Unlimited"
@@ -72016,14 +69072,6 @@
         }
     },
     "Vorse Raider": {
-        "2001-08-12": {
-            "Usage": 100,
-            "Banlist": "Unlimited"
-        },
-        "2002-08-18": {
-            "Usage": 100,
-            "Banlist": "Unlimited"
-        },
         "2013-02-17": {
             "Usage": 13.5,
             "Banlist": "Unlimited"
@@ -72228,10 +69276,6 @@
         }
     },
     "Wall of Illusion": {
-        "2000-08-20": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
         "2002-05-15": {
             "Usage": 71.5,
             "Banlist": "Unlimited"
@@ -72638,10 +69682,6 @@
         }
     },
     "Widespread Ruin": {
-        "2001-08-12": {
-            "Usage": 33.3,
-            "Banlist": "Unlimited"
-        },
         "2005-02-13": {
             "Usage": 2.9,
             "Banlist": "Unlimited"
@@ -72728,10 +69768,6 @@
         }
     },
     "Wind-Up Arsenal Zenmaioh": {
-        "2014-03-20": {
-            "Usage": 2.8,
-            "Banlist": "Unlimited"
-        },
         "2012-06-30": {
             "Usage": 5.2,
             "Banlist": "Unlimited"
@@ -72890,10 +69926,6 @@
         }
     },
     "Wind-Up Zenmaines": {
-        "2014-03-20": {
-            "Usage": 8.3,
-            "Banlist": "Unlimited"
-        },
         "2012-06-30": {
             "Usage": 34.4,
             "Banlist": "Unlimited"
@@ -73070,18 +70102,6 @@
         }
     },
     "Witch of the Black Forest": {
-        "2000-08-20": {
-            "Usage": 100,
-            "Banlist": "Unlimited"
-        },
-        "2001-08-12": {
-            "Usage": 100,
-            "Banlist": "Semi-Limited"
-        },
-        "2002-08-18": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
         "2002-07-01": {
             "Usage": 100,
             "Banlist": "Semi-Limited"
@@ -73722,10 +70742,6 @@
         }
     },
     "Yata-Garasu": {
-        "2002-08-18": {
-            "Usage": 100,
-            "Banlist": "Limited"
-        },
         "2003-07-08": {
             "Usage": 81.4,
             "Banlist": "Limited"

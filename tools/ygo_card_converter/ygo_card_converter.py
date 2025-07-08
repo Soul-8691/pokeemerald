@@ -154,12 +154,13 @@ with open('FL.json', 'r') as f:
 	data = json.load(f)
 	with open('FL_cards.json', 'w', encoding='utf8') as FL:
 		for card in data:
-			card_ = card['Card']
-			if card_ not in FL_:
-				FL_[card_] = {}
-			FL_[card_][card['Date']] = {}
-			FL_[card_][card['Date']]['Usage'] = card['Usage (% - Weighted)']
-			FL_[card_][card['Date']]['Banlist'] = card['Banlist']
+			if card['Index (TCG)'] != -1:
+				card_ = card['Card']
+				if card_ not in FL_:
+					FL_[card_] = {}
+				FL_[card_][card['Date']] = {}
+				FL_[card_][card['Date']]['Usage'] = card['Usage (% - Weighted)']
+				FL_[card_][card['Date']]['Banlist'] = card['Banlist']
 			if card['Format'] in formats:
 				cards_by_format[card['Format']][card['Card']] = card['Usage']
 				if card['Usage (Weighted)'] > highest_usage[card['Format']]:
