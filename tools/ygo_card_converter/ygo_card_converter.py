@@ -61,7 +61,7 @@ with open('bastion.json', 'r') as f:
 		# except:
 		# 	pass
 
-packs = sorted(list(packs))
+# packs = sorted(list(packs))
 
 def move_palette_color(img, old_index, new_index):
     """
@@ -149,13 +149,23 @@ def move_palette_color(img, old_index, new_index):
 # 			except:
 # 				pass
 
+FL_ = dict()
 with open('FL.json', 'r') as f:
-    data = json.load(f)
-    for card in data:
-        if card['Format'] in formats:
-            cards_by_format[card['Format']][card['Card']] = card['Usage']
-            if card['Usage (Weighted)'] > highest_usage[card['Format']]:
-            	highest_usage[card['Format']] = card['Usage (Weighted)']
+	data = json.load(f)
+	with open('FL_cards.json', 'w', encoding='utf8') as FL:
+		for card in data:
+			card_ = card['Card']
+			if card_ not in FL_:
+				FL_[card_] = {}
+			FL_[card_][card['Date']] = {}
+			FL_[card_][card['Date']]['Usage'] = card['Usage (% - Weighted)']
+			FL_[card_][card['Date']]['Banlist'] = card['Banlist']
+			if card['Format'] in formats:
+				cards_by_format[card['Format']][card['Card']] = card['Usage']
+				if card['Usage (Weighted)'] > highest_usage[card['Format']]:
+					highest_usage[card['Format']] = card['Usage (Weighted)']
+		json.dump(dict(sorted(FL_.items())), FL, indent=4)
+		FL.close()
 
 wct06_ranks = {}
 with open('wct06.json', 'r') as f:
