@@ -190,7 +190,7 @@ Scripts = ''
 Graphics_File_Rules = ''
 SRCDataItemDescs = ''
 card_counter = 1
-pack_counter = 2044
+pack_counter = 1
 description_lines = dict()
 
 ItemUse = ''
@@ -261,7 +261,7 @@ for data in card_info_data['data']:
 
 # Set_Writer = open('sets.json', 'w', encoding='utf-8')
 # sets_write = {}
-# for set_ in tqdm(in pack_names):
+# for set_ in tqdm(pack_names):
 #     print(set_)
 #     sets_write[set_] = {}
 #     for card in cards_by_pack:
@@ -337,7 +337,8 @@ Scripts += '\n'
 
 YGO_C += '\nconst u16 PackIdMapping[] = \n{\n'
 for set_ in pack_names:
-	YGO_C += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] = ' + str(in pack_names.index(set_)) + ',\n'
+	YGO_C += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] = ' + str(pack_names.index(set_)) + ',\n'
+	pack_counter += 1
 
 for format_ in formats:
     YGO_C += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] = ' + str(pack_counter) + ',\n'
@@ -424,7 +425,6 @@ for card_name in card_names:
 						+ 'const u32 gCardIconTinyPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/icon_tiny.gbapal.lz");\n')
 			YGO_Constants += '#define CARD_' + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ' ' + str(card_counter) + '\n'
 			Item_Constants += '#define ITEM_CARD_' + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ' ' + str(card_counter + 376) + '\n'
-			card_counter += 1
 			Items += '''\t[ITEM_CARD_''' + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '''] =
 	{
 		.name = _("''' + re.sub(r'[^a-zA-Z0-9]', '', data['name'])[:13] + '''"),
@@ -443,18 +443,17 @@ for card_name in card_names:
 	},\n'''
 			Graphics_File_Rules += 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '''/pic_large.gbapal: %.gbapal: %.pal
 		$(GFX) $< $@ -num_colors 64\n\n'''
+			card_counter += 1
 
 Item_Constants += '\n'
-sets_count = 2432
 for set_ in pack_names:
-    Item_Constants += '#define ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ' ' + str(sets_count) + '\n'
-    sets_count += 1
+    Item_Constants += '#define ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ' ' + str(card_counter) + '\n'
+    card_counter += 1
 Item_Constants += '\n'
 
-pack_counter = 4809
 for format_ in formats:
-    Item_Constants += '#define ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ' ' + str(pack_counter) + '\n'
-    pack_counter += 1
+    Item_Constants += '#define ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ' ' + str(card_counter) + '\n'
+    card_counter += 1
 
 for set_ in pack_names:
     Items += '''	[ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '''] =
@@ -490,12 +489,13 @@ ItemIconTable += '\n'
 for format_ in formats:
     ItemIconTable += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},\n'
 
+pack_counter = 1
 YGO_Constants += '\n'
 for set_ in pack_names:
-    YGO_Constants += '#define PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ' ' + str(pack_names.index(set_)) + '\n'
+	YGO_Constants += '#define PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ' ' + str(pack_counter) + '\n'
+	pack_counter += 1
 
 YGO_Constants += '\n'
-pack_counter = 2377
 for format_ in formats:
     YGO_Constants += '#define PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ' ' + str(pack_counter) + '\n'
     pack_counter += 1
