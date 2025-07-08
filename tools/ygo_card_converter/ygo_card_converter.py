@@ -150,6 +150,7 @@ def move_palette_color(img, old_index, new_index):
 # 				pass
 
 FL_ = dict()
+banlists = set()
 with open('FL.json', 'r') as f:
 	data = json.load(f)
 	with open('FL_cards.json', 'w', encoding='utf8') as FL:
@@ -158,15 +159,32 @@ with open('FL.json', 'r') as f:
 				card_ = card['Card']
 				if card_ not in FL_:
 					FL_[card_] = {}
-				FL_[card_][card['Date']] = {}
-				FL_[card_][card['Date']]['Usage'] = card['Usage (% - Weighted)']
-				FL_[card_][card['Date']]['Banlist'] = card['Banlist']
+				banlists.add(card['Month'])
+				FL_[card_][card['Month']] = {}
+				FL_[card_][card['Month']]['Usage'] = card['Usage (% - Weighted)']
+				FL_[card_][card['Month']]['Banlist'] = card['Banlist']
 			if card['Format'] in formats:
 				cards_by_format[card['Format']][card['Card']] = card['Usage']
 				if card['Usage (Weighted)'] > highest_usage[card['Format']]:
 					highest_usage[card['Format']] = card['Usage (Weighted)']
 		json.dump(dict(sorted(FL_.items())), FL, indent=4)
 		FL.close()
+
+for month in tqdm(sorted(banlists)):
+	print(month)
+	banlist = requests.get("https://formatlibrary.com/api/banlists/" + month.replace(' ', '%20') + "?category=TCG").json()
+	with open('FL_cards.json', 'r') as f:
+		dt = json.load(f)
+		with open('FL_cards.json', 'w', encoding='utf8') as FL:
+			for card in sorted(list(dt)):
+				print(card)
+				for card_index in range(len(banlist['forbidden'])):
+					if card == banlist['forbidden'][card_index]['cardName']:
+						FL_[card][month] = {}
+						FL_[card][month]['Banlist'] = 'Forbidden'
+						FL_[card][month]['Usage'] = 0
+			json.dump(dict(sorted(FL_.items())), FL, indent=4)
+			FL.close()
 
 wct06_ranks = {}
 with open('wct06.json', 'r') as f:
