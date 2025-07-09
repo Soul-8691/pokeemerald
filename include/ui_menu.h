@@ -48,6 +48,9 @@ extern const u16 sRitualMonsterPalette[];
 extern const u32 sBackgroundTiles[];
 extern const u32 sBackgroundTilemap[];
 extern const u16 sBackgroundPalette[];
+extern const u32 gDuelTiles[];
+extern const u32 gDuelTilemap[];
+extern const u32 gDuelPalette[];
 //==========DEFINES==========//
 struct MenuResources
 {
