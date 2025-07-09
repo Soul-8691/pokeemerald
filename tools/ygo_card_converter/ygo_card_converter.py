@@ -111,45 +111,6 @@ def move_palette_color(img, old_index, new_index):
     
     return img
 
-# with open('ocg_sets.json', 'r') as f:
-# 	data = json.load(f)
-# 	for series in tqdm(data):
-# 		for set_ in tqdm(pack_names):
-# 			print(set_)
-# 			try:
-# 				set_url = data[series][set_[4:]]['image_url']
-# 				res = requests.get(set_url)
-# 				image = 'Sets/' + set_ + '.jpg'
-# 				if not os.path.exists(image):
-# 					with open(image, 'wb') as file:
-# 						file.write(res.content)
-# 						print(set_ + ' image written')
-# 				outfile = 'Sets/Icons/' + re.sub(r'\W+', '_', set_).lower() + '_icon.jpg'
-# 				if not os.path.exists(outfile):
-# 					master = Image.new(
-# 						mode='RGBA',
-# 						size=(32, 32),
-# 						color=(57,255,20,0))
-# 					size = 32, 32
-# 					im = Image.open(image)
-# 					im.thumbnail(size, Image.Resampling.LANCZOS)
-# 					pillow_width, pillow_height = im.size
-# 					# Calculate the top-left coordinates for pasting
-# 					paste_x = (32 - pillow_width) // 2
-# 					paste_y = (32 - pillow_height) // 2
-# 					master.paste(im, box=(paste_x,paste_y))
-# 					master.save(outfile, "PNG")
-# 					master = Image.open(outfile)
-# 					master = master.convert(
-# 						"P", palette=Image.ADAPTIVE, colors=15
-# 					)
-# 					master = move_palette_color(master, 15, 0)
-# 					master.save(outfile, "PNG")
-# 					subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
-# 					print(set_ + ' icon written')
-# 			except:
-# 				pass
-
 FL_ = dict()
 banlists = set()
 with open('FL.json', 'r') as f:
@@ -171,21 +132,21 @@ with open('FL.json', 'r') as f:
 		json.dump(dict(sorted(FL_.items())), FL, indent=4)
 		FL.close()
 
-# for month in tqdm(sorted(banlists)):
-# 	print(month)
-# 	banlist = requests.get("https://formatlibrary.com/api/banlists/" + month.replace(' ', '%20') + "?category=TCG").json()
-# 	with open('FL_cards.json', 'r') as f:
-# 		dt = json.load(f)
-# 		with open('FL_cards.json', 'w', encoding='utf8') as FL:
-# 			for card in sorted(list(dt)):
-# 				print(card)
-# 				for card_index in range(len(banlist['forbidden'])):
-# 					if card == banlist['forbidden'][card_index]['cardName']:
-# 						FL_[card][month] = {}
-# 						FL_[card][month]['Banlist'] = 'Forbidden'
-# 						FL_[card][month]['Usage'] = 0
-# 			json.dump(dict(sorted(FL_.items())), FL, indent=4)
-# 			FL.close()
+for month in tqdm(sorted(banlists)):
+	print(month)
+	banlist = requests.get("https://formatlibrary.com/api/banlists/" + month.replace(' ', '%20') + "?category=TCG").json()
+	with open('FL_cards.json', 'r') as f:
+		dt = json.load(f)
+		with open('FL_cards.json', 'w', encoding='utf8') as FL:
+			for card in sorted(list(dt)):
+				print(card)
+				for card_index in range(len(banlist['forbidden'])):
+					if card == banlist['forbidden'][card_index]['cardName']:
+						FL_[card][month] = {}
+						FL_[card][month]['Banlist'] = 'Forbidden'
+						FL_[card][month]['Usage'] = 0
+			json.dump(dict(sorted(FL_.items())), FL, indent=4)
+			FL.close()
 
 wct06_ranks = {}
 with open('wct06.json', 'r') as f:
@@ -1757,6 +1718,45 @@ pack_names = [
 	'''TCG_Zombie World Structure Deck''',
 ]
 
+with open('ocg_sets.json', 'r') as f:
+	data = json.load(f)
+	for series in tqdm(data):
+		for set_ in tqdm(pack_names):
+			print(set_)
+			try:
+				set_url = data[series][set_[4:]]['image_url']
+				res = requests.get(set_url)
+				image = 'Sets/' + set_ + '.jpg'
+				if not os.path.exists(image):
+					with open(image, 'wb') as file:
+						file.write(res.content)
+						print(set_ + ' image written')
+				outfile = 'Sets/Icons/' + re.sub(r'\W+', '_', set_).lower() + '_icon.jpg'
+				if not os.path.exists(outfile):
+					master = Image.new(
+						mode='RGBA',
+						size=(32, 32),
+						color=(57,255,20,0))
+					size = 32, 32
+					im = Image.open(image)
+					im.thumbnail(size, Image.Resampling.LANCZOS)
+					pillow_width, pillow_height = im.size
+					# Calculate the top-left coordinates for pasting
+					paste_x = (32 - pillow_width) // 2
+					paste_y = (32 - pillow_height) // 2
+					master.paste(im, box=(paste_x,paste_y))
+					master.save(outfile, "PNG")
+					master = Image.open(outfile)
+					master = master.convert(
+						"P", palette=Image.ADAPTIVE, colors=15
+					)
+					master = move_palette_color(master, 15, 0)
+					master.save(outfile, "PNG")
+					subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
+					print(set_ + ' icon written')
+			except:
+				pass
+
 card_info_data = open('YGOProDeck_Card_Info.json')
 card_info_data = json.load(card_info_data)
 card_info = {}
@@ -1780,6 +1780,11 @@ for card_name in tqdm(card_names):
 	for data in card_info_data['data']:
 		if card_name == data['name']:
 			YGO_C += 'const u8 gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("' + textwrap.fill(data['desc'].replace('"', '').replace('\r\n', '').replace('\n', '').replace("''", '').replace('[ ', '').replace(' ]', ':'), width=30).replace('\n', '\\n').replace('●', '-').replace('#', '') + '");\n'
+
+for card_name in tqdm(card_names):
+	for data in card_info_data['data']:
+		if card_name == data['name']:
+			YGO_C += '    [ITEM_CARD_' + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] = ' + str(card_counter) + ',\n'
 
 YGO_C += '\t[ITEM_LIST_END] = 0,};\n\n'
 
@@ -1941,7 +1946,7 @@ for set_ in tqdm(pack_names):
 # 			sets_print += '};\n\n'
 
 for set_ in pack_names:
-    Scripts += '\.2byte ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ' 10\n' 
+    Scripts += '\t.2byte ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ' 10\n' 
 Scripts += '\n'
 
 sets_print += '\nconst struct Pack gPacks[] =\n{\n'
@@ -2625,7 +2630,6 @@ for card_name in tqdm(card_names):
 					+ "\t\t.priceVendor2 = 0,\n"
 					+ "\t\t.priceVendor3 = 0,\n"
 					+ '\t},\n')
-			YGO_C += '    [ITEM_CARD_' + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] = ' + str(card_counter) + ',\n'
 			card_counter += 1
 
 gCardInfo_Output = open('src/data/ygo/card_info.h', 'w')
