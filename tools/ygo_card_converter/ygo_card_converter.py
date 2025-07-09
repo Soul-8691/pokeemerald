@@ -1781,6 +1781,7 @@ for card_name in tqdm(card_names):
 		if card_name == data['name']:
 			YGO_C += 'const u8 gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("' + textwrap.fill(data['desc'].replace('"', '').replace('\r\n', '').replace('\n', '').replace("''", '').replace('[ ', '').replace(' ]', ':'), width=30).replace('\n', '\\n').replace('●', '-').replace('#', '') + '");\n'
 
+YGO_C += '\nconst u16 CardIdMapping[] = \n{\n\t    [ITEM_NONE] = 0,\n'
 for card_name in tqdm(card_names):
 	for data in card_info_data['data']:
 		if card_name == data['name']:
@@ -2137,7 +2138,6 @@ Graphics_File_Rules_Output.close()
 print('graphics_file_rules.mk written')
 
 gCardInfo += '\n'
-YGO_C += '\nconst u16 CardIdMapping[] = \n{\n\t    [ITEM_NONE] = 0,\n'
 Scripts += '\n'
 for format in cards_by_format:
 	Scripts += '''InsideOfTruck_EventScript_Clerk_''' + re.sub(r'\W+', '', format) + '''::
