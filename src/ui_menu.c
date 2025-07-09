@@ -102,6 +102,7 @@ EWRAM_DATA struct MenuResources *sMenuDataPtr = NULL;
 EWRAM_DATA u8 *sTilemapBuffers[2];
 EWRAM_DATA u8 sScrollDown = 0;
 EWRAM_DATA bool8 sDidInitialDraw = FALSE;
+EWRAM_DATA bool8 sDidVeryFirstInitialDraw = FALSE;
 
 //==========STATIC=DEFINES==========//
 
