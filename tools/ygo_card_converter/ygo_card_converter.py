@@ -1918,7 +1918,7 @@ for set_ in tqdm(pack_names):
 # 			sets_print += '};\n\n'
 
 for set_ in pack_names:
-    Scripts += '\tadditem ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ' 10\n' 
+    Scripts += '\.2byte ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ' 10\n' 
 Scripts += '\n'
 
 sets_print += '\nconst struct Pack gPacks[] =\n{\n'

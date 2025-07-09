@@ -318,35 +318,6 @@ const u16 *const sCardTypeIconPals[NUM_TYPES + 1] =
     [TYPE_TRAP_CARD] = gTrapIconPal,
 };
 
-#define TYPE_NORMAL_MONSTER 0
-#define TYPE_EFFECT_MONSTER 1
-#define TYPE_FLIP_EFFECT_MONSTER 2
-#define TYPE_FLIP_TUNER_EFFECT_MONSTER 3
-#define TYPE_FUSION_MONSTER 4
-#define TYPE_GEMINI_MONSTER 5
-#define TYPE_LINK_MONSTER 6
-#define TYPE_NORMAL_TUNER_MONSTER 7
-#define TYPE_PENDULUM_EFFECT_FUSION_MONSTER 8
-#define TYPE_PENDULUM_EFFECT_MONSTER 9
-#define TYPE_PENDULUM_EFFECT_RITUAL_MONSTER 10
-#define TYPE_PENDULUM_FLIP_EFFECT_MONSTER 11
-#define TYPE_PENDULUM_NORMAL_MONSTER 12
-#define TYPE_PENDULUM_TUNER_EFFECT_MONSTER 13
-#define TYPE_RITUAL_EFFECT_MONSTER 14
-#define TYPE_RITUAL_MONSTER 15
-#define TYPE_SPELL_CARD 16
-#define TYPE_SPIRIT_MONSTER 17
-#define TYPE_SYNCHRO_MONSTER 18
-#define TYPE_SYNCHRO_PENDULUM_EFFECT_MONSTER 19
-#define TYPE_SYNCHRO_TUNER_MONSTER 20
-#define TYPE_TOKEN 21
-#define TYPE_TOON_MONSTER 22
-#define TYPE_TRAP_CARD 23
-#define TYPE_TUNER_MONSTER 24
-#define TYPE_UNION_EFFECT_MONSTER 25
-#define TYPE_XYZ_MONSTER 26
-#define TYPE_XYZ_PENDULUM_EFFECT_MONSTER 27
-
 const u8 *const gCardTypeText[NUM_TYPES + 1] =
 {
     [TYPE_EFFECT_MONSTER] = gText_Effect,
@@ -379,21 +350,32 @@ const u8 *const gCardTypeText[NUM_TYPES + 1] =
 
 const u8 gSupportedTypes[NUM_TYPES + 1] =
 {
-    [TYPE_SPELL_CARD] = 1,
-    [TYPE_TRAP_CARD] = 1,
-    [TYPE_SPIRIT_MONSTER] = 1,
     [TYPE_EFFECT_MONSTER] = 1,
     [TYPE_FLIP_EFFECT_MONSTER] = 1,
-    [TYPE_RITUAL_MONSTER] = 1,
-    [TYPE_RITUAL_EFFECT_MONSTER] = 1,
+    [TYPE_FLIP_TUNER_EFFECT_MONSTER] = 1,
     [TYPE_FUSION_MONSTER] = 1,
-    [TYPE_UNION_EFFECT_MONSTER] = 1,
+    [TYPE_LINK_MONSTER] = 1,
     [TYPE_NORMAL_MONSTER] = 1,
-    [TYPE_TOON_MONSTER] = 1,
-    [TYPE_XYZ_MONSTER] = 1,
+    [TYPE_NORMAL_TUNER_MONSTER] = 1,
+    [TYPE_PENDULUM_EFFECT_FUSION_MONSTER] = 1,
+    [TYPE_PENDULUM_EFFECT_MONSTER] = 1,
+    [TYPE_PENDULUM_EFFECT_RITUAL_MONSTER] = 1,
+    [TYPE_PENDULUM_FLIP_EFFECT_MONSTER] = 1,
+    [TYPE_PENDULUM_NORMAL_MONSTER] = 1,
+    [TYPE_PENDULUM_TUNER_EFFECT_MONSTER] = 1,
+    [TYPE_RITUAL_EFFECT_MONSTER] = 1,
+    [TYPE_RITUAL_MONSTER] = 1,
+    [TYPE_SPELL_CARD] = 1,
+    [TYPE_SPIRIT_MONSTER] = 1,
     [TYPE_SYNCHRO_MONSTER] = 1,
-    [TYPE_TUNER_MONSTER] = 1,
+    [TYPE_SYNCHRO_PENDULUM_EFFECT_MONSTER] = 1,
     [TYPE_SYNCHRO_TUNER_MONSTER] = 1,
+    [TYPE_TOON_MONSTER] = 1,
+    [TYPE_TRAP_CARD] = 1,
+    [TYPE_TUNER_MONSTER] = 1,
+    [TYPE_UNION_EFFECT_MONSTER] = 1,
+    [TYPE_XYZ_MONSTER] = 1,
+    [TYPE_XYZ_PENDULUM_EFFECT_MONSTER] = 1,
 };
 
 const u8 sMenuWindowFontColors[][3] = 
@@ -7352,7 +7334,7 @@ static const struct OamData sCardLeftOamData =
     .matrixNum = 0,
     .size = SPRITE_SIZE(64x64),
     .tileNum = 0,
-    .priority = 0,
+    .priority = 2,
     .paletteNum = 0,
     .affineParam = 0,
 };
@@ -7540,7 +7522,7 @@ bool8 Menu_LoadGraphics(void)
     case 0:
         ResetTempTileDataBuffers();
         DecompressAndCopyTileDataToVram(2, sBackgroundTiles, 0, 0, 0);
-        if (cardType == TYPE_NORMAL_MONSTER || TYPE_NORMAL_TUNER_MONSTER)
+        if (cardType == TYPE_NORMAL_MONSTER || cardType == TYPE_NORMAL_TUNER_MONSTER)
             DecompressAndCopyTileDataToVram(1, sNormalMonsterTiles, 0, 0, 0);
         else if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER || cardType == TYPE_SPIRIT_MONSTER || cardType == TYPE_UNION_EFFECT_MONSTER || cardType == TYPE_TOON_MONSTER || cardType == TYPE_FLIP_TUNER_EFFECT_MONSTER || cardType == TYPE_GEMINI_MONSTER)
             DecompressAndCopyTileDataToVram(1, sEffectMonsterTiles, 0, 0, 0);
@@ -7550,7 +7532,7 @@ bool8 Menu_LoadGraphics(void)
             DecompressAndCopyTileDataToVram(1, sLinkMonsterTiles, 0, 0, 0);
 		else if (cardType == TYPE_XYZ_PENDULUM_EFFECT_MONSTER || cardType == TYPE_XYZ_MONSTER)
             DecompressAndCopyTileDataToVram(1, sXYZMonsterTiles, 0, 0, 0);
-		else if (cardType == TYPE_PENDULUM_EFFECT_FUSION_MONSTER || cardType == TYPE_PENDULUM_EFFECT_FUSION_MONSTER || cardType == TYPE_PENDULUM_EFFECT_RITUAL_MONSTER || cardType == TYPE_PENDULUM_FLIP_EFFECT_MONSTER || cardType == TYPE_PENDULUM_NORMAL_MONSTER || cardType == TYPE_PENDULUM_TUNER_EFFECT_MONSTER || cardType == TYPE_SYNCHRO_PENDULUM_EFFECT_MONSTER)
+		else if (cardType == TYPE_PENDULUM_EFFECT_FUSION_MONSTER || cardType == TYPE_PENDULUM_EFFECT_FUSION_MONSTER || cardType == TYPE_PENDULUM_EFFECT_RITUAL_MONSTER || cardType == TYPE_PENDULUM_FLIP_EFFECT_MONSTER || cardType == TYPE_PENDULUM_NORMAL_MONSTER || cardType == TYPE_PENDULUM_TUNER_EFFECT_MONSTER || cardType == TYPE_SYNCHRO_PENDULUM_EFFECT_MONSTER || cardType == TYPE_PENDULUM_EFFECT_MONSTER)
             DecompressAndCopyTileDataToVram(1, sPendulumMonsterTiles, 0, 0, 0);
         else if (cardType == TYPE_SPELL_CARD)
             DecompressAndCopyTileDataToVram(1, sSpellCardTiles, 0, 0, 0);
@@ -7576,7 +7558,7 @@ bool8 Menu_LoadGraphics(void)
 				LZDecompressWram(sLinkMonsterTilemap, sTilemapBuffers[0]);
 			else if (cardType == TYPE_XYZ_PENDULUM_EFFECT_MONSTER || cardType == TYPE_XYZ_MONSTER)
 				LZDecompressWram(sXYZMonsterTilemap, sTilemapBuffers[0]);
-			else if (cardType == TYPE_PENDULUM_EFFECT_FUSION_MONSTER || cardType == TYPE_PENDULUM_EFFECT_FUSION_MONSTER || cardType == TYPE_PENDULUM_EFFECT_RITUAL_MONSTER || cardType == TYPE_PENDULUM_FLIP_EFFECT_MONSTER || cardType == TYPE_PENDULUM_NORMAL_MONSTER || cardType == TYPE_PENDULUM_TUNER_EFFECT_MONSTER || cardType == TYPE_SYNCHRO_PENDULUM_EFFECT_MONSTER)
+			else if (cardType == TYPE_PENDULUM_EFFECT_FUSION_MONSTER || cardType == TYPE_PENDULUM_EFFECT_FUSION_MONSTER || cardType == TYPE_PENDULUM_EFFECT_RITUAL_MONSTER || cardType == TYPE_PENDULUM_FLIP_EFFECT_MONSTER || cardType == TYPE_PENDULUM_NORMAL_MONSTER || cardType == TYPE_PENDULUM_TUNER_EFFECT_MONSTER || cardType == TYPE_SYNCHRO_PENDULUM_EFFECT_MONSTER || cardType == TYPE_PENDULUM_EFFECT_MONSTER)
 				LZDecompressWram(sPendulumMonsterTilemap, sTilemapBuffers[0]);
             else if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER || cardType == TYPE_SPIRIT_MONSTER || cardType == TYPE_UNION_EFFECT_MONSTER || cardType == TYPE_TOON_MONSTER)
                 LZDecompressWram(sEffectMonsterTilemap, sTilemapBuffers[0]);
@@ -7690,13 +7672,13 @@ void PrintToWindow(u8 windowId, u8 colorIdx, u16 card)
     if (cardType == TYPE_NORMAL_MONSTER)
         LoadPalette(sNormalMonsterPalette, 0, 32*3);
 	else if (cardType == TYPE_SYNCHRO_MONSTER || cardType == TYPE_SYNCHRO_TUNER_MONSTER)
-		LoadPalette(sNormalMonsterPalette, 0, 32*3);
+		LoadPalette(sSynchroMonsterPalette, 0, 32*3);
 	else if (cardType == TYPE_LINK_MONSTER)
-		LoadPalette(sNormalMonsterPalette, 0, 32*3);
+		LoadPalette(sLinkMonsterPalette, 0, 32*3);
 	else if (cardType == TYPE_XYZ_PENDULUM_EFFECT_MONSTER || cardType == TYPE_XYZ_MONSTER)
-		LoadPalette(sNormalMonsterPalette, 0, 32*3);
-	else if (cardType == TYPE_PENDULUM_EFFECT_FUSION_MONSTER || cardType == TYPE_PENDULUM_EFFECT_FUSION_MONSTER || cardType == TYPE_PENDULUM_EFFECT_RITUAL_MONSTER || cardType == TYPE_PENDULUM_FLIP_EFFECT_MONSTER || cardType == TYPE_PENDULUM_NORMAL_MONSTER || cardType == TYPE_PENDULUM_TUNER_EFFECT_MONSTER || cardType == TYPE_SYNCHRO_PENDULUM_EFFECT_MONSTER)
-		LoadPalette(sNormalMonsterPalette, 0, 32*3);
+		LoadPalette(sXYZMonsterPalette, 0, 32*3);
+	else if (cardType == TYPE_PENDULUM_EFFECT_FUSION_MONSTER || cardType == TYPE_PENDULUM_EFFECT_FUSION_MONSTER || cardType == TYPE_PENDULUM_EFFECT_RITUAL_MONSTER || cardType == TYPE_PENDULUM_FLIP_EFFECT_MONSTER || cardType == TYPE_PENDULUM_NORMAL_MONSTER || cardType == TYPE_PENDULUM_TUNER_EFFECT_MONSTER || cardType == TYPE_SYNCHRO_PENDULUM_EFFECT_MONSTER || cardType == TYPE_PENDULUM_EFFECT_MONSTER)
+		LoadPalette(sPendulumMonsterPalette, 0, 32*3);
     else if (cardType == TYPE_EFFECT_MONSTER || cardType == TYPE_FLIP_EFFECT_MONSTER || cardType == TYPE_SPIRIT_MONSTER || cardType == TYPE_UNION_EFFECT_MONSTER || cardType == TYPE_TOON_MONSTER)
         LoadPalette(sEffectMonsterPalette, 0, 32*3);
     else if (cardType == TYPE_SPELL_CARD)
