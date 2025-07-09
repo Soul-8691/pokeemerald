@@ -3,6 +3,9 @@
 
 #define NUM_CARDS 1373
 #define CARD_NONE 0
+#define PACK_NONE 0
+
+// Start here
 #define CARD_4_STARRED_LADYBUG_OF_DOOM 1
 #define CARD_7_COLORED_FISH 2
 #define CARD_A_LEGENDARY_OCEAN 3

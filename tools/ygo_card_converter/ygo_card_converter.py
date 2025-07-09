@@ -171,21 +171,21 @@ with open('FL.json', 'r') as f:
 		json.dump(dict(sorted(FL_.items())), FL, indent=4)
 		FL.close()
 
-for month in tqdm(sorted(banlists)):
-	print(month)
-	banlist = requests.get("https://formatlibrary.com/api/banlists/" + month.replace(' ', '%20') + "?category=TCG").json()
-	with open('FL_cards.json', 'r') as f:
-		dt = json.load(f)
-		with open('FL_cards.json', 'w', encoding='utf8') as FL:
-			for card in sorted(list(dt)):
-				print(card)
-				for card_index in range(len(banlist['forbidden'])):
-					if card == banlist['forbidden'][card_index]['cardName']:
-						FL_[card][month] = {}
-						FL_[card][month]['Banlist'] = 'Forbidden'
-						FL_[card][month]['Usage'] = 0
-			json.dump(dict(sorted(FL_.items())), FL, indent=4)
-			FL.close()
+# for month in tqdm(sorted(banlists)):
+# 	print(month)
+# 	banlist = requests.get("https://formatlibrary.com/api/banlists/" + month.replace(' ', '%20') + "?category=TCG").json()
+# 	with open('FL_cards.json', 'r') as f:
+# 		dt = json.load(f)
+# 		with open('FL_cards.json', 'w', encoding='utf8') as FL:
+# 			for card in sorted(list(dt)):
+# 				print(card)
+# 				for card_index in range(len(banlist['forbidden'])):
+# 					if card == banlist['forbidden'][card_index]['cardName']:
+# 						FL_[card][month] = {}
+# 						FL_[card][month]['Banlist'] = 'Forbidden'
+# 						FL_[card][month]['Usage'] = 0
+# 			json.dump(dict(sorted(FL_.items())), FL, indent=4)
+# 			FL.close()
 
 wct06_ranks = {}
 with open('wct06.json', 'r') as f:
@@ -1775,7 +1775,30 @@ Graphics_File_Rules = ''
 SRCDataItemDescs = ''
 card_counter = 1
 pack_counter = 1
-description_lines = dict()
+
+for card_name in tqdm(card_names):
+	for data in card_info_data['data']:
+		if card_name == data['name']:
+			YGO_C += 'const u8 gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("' + textwrap.fill(data['desc'].replace('"', '').replace('\r\n', '').replace('\n', '').replace("''", '').replace('[ ', '').replace(' ]', ':'), width=30).replace('\n', '\\n').replace('●', '-').replace('#', '') + '");\n'
+
+YGO_C += '\t[ITEM_LIST_END] = 0,};\n\n'
+
+pack_counter = 1
+YGO_C += '\nconst u16 PackIdMapping[] = \n{\n'
+for set_ in pack_names:
+	YGO_C += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] = ' + str(pack_counter) + ',\n'
+	pack_counter += 1
+
+for format_ in formats:
+    YGO_C += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] = ' + str(pack_counter) + ',\n'
+    pack_counter += 1
+
+YGO_C += '};\n'
+
+YGO_C_Output = open('src/ygo.c', 'w')
+YGO_C_Output.write(YGO_C)
+YGO_C_Output.close()
+print('src/ygo.c written')
 
 ItemUse = ''
 Item = ''
@@ -1970,16 +1993,12 @@ print('src/data/text/item_descriptions.h written')
 
 for card_name in card_names:
 	for data in card_info_data['data']:
-		description_lines[card_name] = 1
 		if card_name == data['name']:
 			gCardInfo += ('const u8 gCardName_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("' + card_name.replace('#', '').replace('"', '') + '");\n'
 					+ 'const u8 gCardNameShort_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("'
 			+ card_name[:19].replace('#', '').replace('"', '') + '");\n'
 					+ 'const u8 gCardNameShortBag_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("'
 			+ card_name[:26].replace('#', '').replace('"', '') + '");\n')
-			YGO_C += 'const u8 gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("' + textwrap.fill(data['desc'].replace('"', '').replace('\r\n', '').replace('\n', '').replace("''", '').replace('[ ', '').replace(' ]', ':'), width=30).replace('\n', '\\n').replace('●', '-').replace('#', '') + '");\n'
-			for line in range(textwrap.fill(data['desc'].replace('"', '').replace('\r\n', '').replace('\n', '').replace("''", ''), width=30).replace('\n', '\\n').count('\\n')):
-				description_lines[card_name] += 1
 			YGO += 'extern const u8 gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
 			YGO_Graphics += ('extern const u32 gCardPicLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '_Big[];\n'
 						+ 'extern const u16 gCardPalLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[];\n'
@@ -2350,7 +2369,6 @@ for card_name in tqdm(card_names):
 					+ '\t\t.nameShort = gCardNameShort_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
 					+ '\t\t.nameShortBag = gCardNameShortBag_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
 					+ '\t\t.description = gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
-					# + "\t\t.descriptionLines = " + str(description_lines[card]) + ",\n"
 					+ '\t\t.password = _("' + str(data['id']) + '"),\n'
 					+ '\t\t.pic = gCardPicLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '_Big,\n'
 					+ '\t\t.pal = gCardPalLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
@@ -2610,24 +2628,7 @@ for card_name in tqdm(card_names):
 			YGO_C += '    [ITEM_CARD_' + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] = ' + str(card_counter) + ',\n'
 			card_counter += 1
 
-YGO_C += '\t[ITEM_LIST_END] = 0,};\n\n'
-
-YGO_C += '\nconst u16 PackIdMapping[] = \n{\n'
-for set_ in pack_names:
-	YGO_C += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] = ' + str(pack_names.index(set_)) + ',\n'
-	pack_counter += 1
-
-for format_ in formats:
-    YGO_C += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] = ' + str(pack_counter) + ',\n'
-    pack_counter += 1
-
-YGO_C += '};\n'
-
 gCardInfo_Output = open('src/data/ygo/card_info.h', 'w')
 gCardInfo_Output.write(gCardInfo)
 gCardInfo_Output.close()
 print('src/data/ygo/card_info.h written')
-YGO_C_Output = open('src/ygo.c', 'w')
-YGO_C_Output.write(YGO_C)
-YGO_C_Output.close()
-print('src/ygo.c written')
