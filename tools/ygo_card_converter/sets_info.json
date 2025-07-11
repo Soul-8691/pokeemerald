@@ -1,0 +1,7121 @@
+[
+ {
+   "Abbr.": "AC18",
+   "Name": "Yu-Gi-Oh! Advent Calendar (2018)",
+   "Type": "Advent calendar",
+   "Release date": "2 November 2018",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "AC19",
+   "Name": "Yu-Gi-Oh! Advent Calendar (2019)",
+   "Type": "Advent calendar",
+   "Release date": "26 September 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "AP01",
+   "Name": "Astral Pack One",
+   "Type": "Astral Pack",
+   "Release date": "16 November 2012",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "YZ02",
+   "Name": "Yu-Gi-Oh! ZEXAL Volume 2 promotional card",
+   "Type": "Astral Pack",
+   "Release date": "4 December 2012",
+   "Notes": "Number 50: Blackship of Corn (UR)"
+ },
+ {
+   "Abbr.": "AP02",
+   "Name": "Astral Pack Two",
+   "Type": "Astral Pack",
+   "Release date": "19 April 2013",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "AP03",
+   "Name": "Astral Pack Three",
+   "Type": "Astral Pack",
+   "Release date": "12 September 2013",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "AP04",
+   "Name": "Astral Pack Four",
+   "Type": "Astral Pack",
+   "Release date": "6 February 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "AP05",
+   "Name": "Astral Pack Five",
+   "Type": "Astral Pack",
+   "Release date": "25 July 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "AP06",
+   "Name": "Astral Pack Six",
+   "Type": "Astral Pack",
+   "Release date": "5 December 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "AP07",
+   "Name": "Astral Pack Seven",
+   "Type": "Astral Pack",
+   "Release date": "5 June 2015",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DMG",
+   "Name": "Duel Master's Guide promotional cards",
+   "Type": "Book promotion",
+   "Release date": "28 October 2003",
+   "Notes": "Dark Paladin (ScR)"
+ },
+ {
+   "Abbr.": "DB1",
+   "Name": "Dark Beginning 1",
+   "Type": "Booster Pack",
+   "Release date": "12 October 2004",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DR1",
+   "Name": "Dark Revelation Volume 1",
+   "Type": "Booster Pack",
+   "Release date": "19 March 2005",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DB2",
+   "Name": "Dark Beginning 2",
+   "Type": "Booster Pack",
+   "Release date": "27 July 2005",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DR2",
+   "Name": "Dark Revelation Volume 2",
+   "Type": "Booster Pack",
+   "Release date": "20 October 2005",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DR3",
+   "Name": "Dark Revelation Volume 3",
+   "Type": "Booster Pack",
+   "Release date": "25 November 2006",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DR04",
+   "Name": "Dark Revelation Volume 4",
+   "Type": "Booster Pack",
+   "Release date": "14 November 2007",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "RP01",
+   "Name": "Retro Pack",
+   "Type": "Booster Pack",
+   "Release date": "8 July 2008",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DLG1",
+   "Name": "Dark Legends",
+   "Type": "Booster Pack",
+   "Release date": "21 November 2008",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "YAP1",
+   "Name": "Anniversary Pack",
+   "Type": "Booster Pack",
+   "Release date": "8 December 2008",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "RP02",
+   "Name": "Retro Pack 2",
+   "Type": "Booster Pack",
+   "Release date": "28 July 2009",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "WCPP",
+   "Name": "World Championship 2010 Card Pack",
+   "Type": "Booster Pack",
+   "Release date": "14 August 2010",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "YMP1",
+   "Name": "Yu-Gi-Oh! 3D Bonds Beyond Time Movie Pack",
+   "Type": "Booster Pack",
+   "Release date": "26 February 2011",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "WP11",
+   "Name": "World Championship 2011 Card Pack",
+   "Type": "Booster Pack",
+   "Release date": "August 2011",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "RYMP",
+   "Name": "Ra Yellow Mega Pack",
+   "Type": "Booster Pack",
+   "Release date": "16 February 2012",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "BP01",
+   "Name": "Battle Pack: Epic Dawn",
+   "Type": "Booster Pack",
+   "Release date": "28 May 2012",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LC03",
+   "Name": "Legendary Collection 3: Yugi's World",
+   "Type": "Booster Pack",
+   "Release date": "27 September 2012",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LCYW",
+   "Name": "Legendary Collection 3: Yugi's World Mega Pack",
+   "Type": "Booster Pack",
+   "Release date": "27 September 2012",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "BP02",
+   "Name": "Battle Pack 2: War of the Giants",
+   "Type": "Booster Pack",
+   "Release date": "28 June 2013",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LC04",
+   "Name": "Legendary Collection 4: Joey's World",
+   "Type": "Booster Pack",
+   "Release date": "11 October 2013",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LCJW",
+   "Name": "Legendary Collection 4: Joey's World Mega Pack",
+   "Type": "Booster Pack",
+   "Release date": "11 October 2013",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "BPW2",
+   "Name": "War of the Giants: Round 2",
+   "Type": "Booster Pack",
+   "Release date": "17 January 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "BP03",
+   "Name": "Battle Pack 3: Monster League",
+   "Type": "Booster Pack",
+   "Release date": "1 August 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "MP14",
+   "Name": "2014 Mega-Tin Mega Pack",
+   "Type": "Booster Pack",
+   "Release date": "29 August 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LC05",
+   "Name": "Legendary Collection 5D's",
+   "Type": "Booster Pack",
+   "Release date": "23 October 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LC5D",
+   "Name": "Legendary Collection 5D's Mega Pack",
+   "Type": "Booster Pack",
+   "Release date": "23 October 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "WSUP",
+   "Name": "World Superstars",
+   "Type": "Booster Pack",
+   "Release date": "17 April 2015",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "MP15",
+   "Name": "2015 Mega-Tin Mega Pack",
+   "Type": "Booster Pack",
+   "Release date": "17 September 2015",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "MIL1",
+   "Name": "Millennium Pack",
+   "Type": "Booster Pack",
+   "Release date": "15 April 2016",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "MVP1",
+   "Name": "Yu-Gi-Oh! The Dark Side of Dimensions Movie Pack",
+   "Type": "Booster Pack",
+   "Release date": "22 July 2016",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "MP16",
+   "Name": "2016 Mega-Tin Mega Pack",
+   "Type": "Booster Pack",
+   "Release date": "1 September 2016",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "PEVO",
+   "Name": "Pendulum Evolution",
+   "Type": "Booster Pack",
+   "Release date": "23 June 2017",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "MP17",
+   "Name": "2017 Mega-Tin Mega Pack",
+   "Type": "Booster Pack",
+   "Release date": "25 August 2017",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LCKC",
+   "Name": "Legendary Collection Kaiba Mega Pack",
+   "Type": "Booster Pack",
+   "Release date": "8 March 2018",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SHVA",
+   "Name": "Shadows in Valhalla",
+   "Type": "Booster Pack",
+   "Release date": "16 August 2018",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "MP18",
+   "Name": "2018 Mega-Tin Mega Pack",
+   "Type": "Booster Pack",
+   "Release date": "30 August 2018",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "FIGA",
+   "Name": "Fists of the Gadgets",
+   "Type": "Booster Pack",
+   "Release date": "23 August 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "MP19",
+   "Name": "2019 Gold Sarcophagus Tin Mega Pack",
+   "Type": "Booster Pack",
+   "Release date": "30 August 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TOCH",
+   "Name": "Toon Chaos",
+   "Type": "Booster Pack",
+   "Release date": "18 June 2020",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "KICO",
+   "Name": "King's Court",
+   "Type": "Booster Pack",
+   "Release date": "8 July 2021",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "MAMA",
+   "Name": "Magnificent Mavens",
+   "Type": "Booster Pack",
+   "Release date": "3 November 2022",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "MAZE",
+   "Name": "Maze of Memories",
+   "Type": "Booster Pack",
+   "Release date": "9 March 2023",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "MP23",
+   "Name": "25th Anniversary Tin: Dueling Heroes Mega Pack",
+   "Type": "Booster Pack",
+   "Release date": "7 September 2023",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "RA01",
+   "Name": "25th Anniversary Rarity Collection",
+   "Type": "Booster Pack",
+   "Release date": "2 November 2023",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "MZMI",
+   "Name": "Maze of Millennia",
+   "Type": "Booster Pack",
+   "Release date": "18 January 2024",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "RA02",
+   "Name": "25th Anniversary Rarity Collection II",
+   "Type": "Booster pack",
+   "Release date": "23 May 2024",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "BLTR",
+   "Name": "Battles of Legend: Terminal Revenge",
+   "Type": "Booster Pack",
+   "Release date": "20 June 2024",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "RA03",
+   "Name": "Quarter Century Bonanza",
+   "Type": "Booster pack",
+   "Release date": "7 November 2024",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "MZTM",
+   "Name": "Maze of the Master",
+   "Type": "Booster pack",
+   "Release date": "13 March 2025",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "RA04",
+   "Name": "Quarter Century Stampede",
+   "Type": "Booster pack",
+   "Release date": "11 April 2025",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "BLMM",
+   "Name": "Battles of Legend: Monster Mayhem",
+   "Type": "Booster Pack",
+   "Release date": "13 June 2025",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "25LP",
+   "Name": "Limited Pack World Championship 2025",
+   "Type": "Booster Pack",
+   "Release date": "30 August 2025",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "THSF",
+   "Name": "The Secret Forces",
+   "Type": "Booster SP",
+   "Release date": "13 February 2015",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "HSRD",
+   "Name": "High-Speed Riders",
+   "Type": "Booster SP",
+   "Release date": "2 October 2015",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "WIRA",
+   "Name": "Wing Raiders",
+   "Type": "Booster SP",
+   "Release date": "12 February 2016",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DESO",
+   "Name": "Destiny Soldiers",
+   "Type": "Booster SP",
+   "Release date": "18 November 2016",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "FUEN",
+   "Name": "Fusion Enforcers",
+   "Type": "Booster SP",
+   "Release date": "23 February 2017",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "NKRT",
+   "Name": "Noble Knights of the Round Table Box Set",
+   "Type": "Box set",
+   "Release date": "20 November 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "",
+   "Name": "Starter Deck: Joey Deluxe Edition",
+   "Type": "Bundle",
+   "Release date": "April 2003",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "",
+   "Name": "Star Pack 2014 Beginner's Kit",
+   "Type": "Bundle",
+   "Release date": "21 February 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "",
+   "Name": "Star Pack ARC-V Beginner's Kit",
+   "Type": "Bundle",
+   "Release date": "18 June 2015",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CP01",
+   "Name": "Champion Pack: Game One",
+   "Type": "Champion Pack",
+   "Release date": "11 November 2006",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CP02",
+   "Name": "Champion Pack: Game Two",
+   "Type": "Champion Pack",
+   "Release date": "6 February 2007",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CP03",
+   "Name": "Champion Pack: Game Three",
+   "Type": "Champion Pack",
+   "Release date": "15 May 2007",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CP04",
+   "Name": "Champion Pack: Game Four",
+   "Type": "Champion Pack",
+   "Release date": "4 September 2007",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CP05",
+   "Name": "Champion Pack: Game Five",
+   "Type": "Champion Pack",
+   "Release date": "8 January 2008",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CP06",
+   "Name": "Champion Pack: Game Six",
+   "Type": "Champion Pack",
+   "Release date": "12 May 2008",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CP07",
+   "Name": "Champion Pack: Game Seven",
+   "Type": "Champion Pack",
+   "Release date": "1 September 2008",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CP08",
+   "Name": "Champion Pack: Game Eight",
+   "Type": "Champion Pack",
+   "Release date": "5 January 2009",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "YUCB",
+   "Name": "Yugi's Collector Box",
+   "Type": "Collector Box",
+   "Release date": "15 September 2017",
+   "Notes": "Dark Magician (UR)"
+ },
+ {
+   "Abbr.": "KACB",
+   "Name": "Kaiba's Collector Box",
+   "Type": "Collector Box",
+   "Release date": "17 November 2017",
+   "Notes": "Blue-Eyes White Dragon (UR)"
+ },
+ {
+   "Abbr.": "YUCB/KACB",
+   "Name": "Yugi & Kaiba Collector Box",
+   "Type": "Collector Box",
+   "Release date": "29 March 2018",
+   "Notes": "Dark Magician (UR)"
+ },
+ {
+   "Abbr.": "MC1",
+   "Name": "Master Collection Volume 1",
+   "Type": "Collector's set",
+   "Release date": "1 December 2004",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "MC2",
+   "Name": "Master Collection Volume 2",
+   "Type": "Collector's set",
+   "Release date": "24 October 2005",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LC01",
+   "Name": "Legendary Collection",
+   "Type": "Collector's set",
+   "Release date": "5 October 2010",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LC02",
+   "Name": "Legendary Collection 2: The Duel Academy Years",
+   "Type": "Collector's set",
+   "Release date": "4 October 2011",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LCGX",
+   "Name": "Legendary Collection 2: The Duel Academy Years Mega Pack",
+   "Type": "Collector's set",
+   "Release date": "4 October 2011",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "YGLD",
+   "Name": "Yugi's Legendary Decks",
+   "Type": "Collector's set",
+   "Release date": "13 November 2015",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LDK2",
+   "Name": "Legendary Decks II",
+   "Type": "Collector's set",
+   "Release date": "6 October 2016",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DUSA",
+   "Name": "Duelist Saga",
+   "Type": "Collector's set",
+   "Release date": "31 March 2017",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LEDD",
+   "Name": "Legendary Dragon Decks",
+   "Type": "Collector's set",
+   "Release date": "6 October 2017",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LC06",
+   "Name": "Legendary Collection Kaiba",
+   "Type": "Collector's set",
+   "Release date": "8 March 2018",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LEHD",
+   "Name": "Legendary Hero Decks",
+   "Type": "Collector's Set",
+   "Release date": "5 October 2018",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DUPO",
+   "Name": "Duel Power",
+   "Type": "Collector's set",
+   "Release date": "3 April 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DUDE",
+   "Name": "Duel Devastator",
+   "Type": "Collector's set",
+   "Release date": "11 October 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DUOV",
+   "Name": "Duel Overload",
+   "Type": "Collector's set",
+   "Release date": "19 March 2020",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "GFTP",
+   "Name": "Ghosts From the Past",
+   "Type": "Collector's set",
+   "Release date": "15 April 2021",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "GFP2",
+   "Name": "Ghosts From the Past: The 2nd Haunting",
+   "Type": "Collector's set",
+   "Release date": "19 May 2022",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LC01",
+   "Name": "Legendary Collection: 25th Anniversary Edition",
+   "Type": "Collector's set",
+   "Release date": "20 April 2023",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TBC1",
+   "Name": "The Pot Collection",
+   "Type": "Collector's set",
+   "Release date": "September 2023",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "KC01",
+   "Name": "25th Anniversary Ultimate Kaiba Set",
+   "Type": "Collector's set",
+   "Release date": "February 2024",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "KC01",
+   "Name": "25th Anniversary Ultimate Kaiba Set",
+   "Type": "Collector's set",
+   "Release date": "1 March 2024",
+   "Notes": "Blue-Eyes White Dragon (SR)"
+ },
+ {
+   "Abbr.": "NUMH",
+   "Name": "Number Hunters",
+   "Type": "Collectors Pack",
+   "Release date": "11 July 2013",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DRLG",
+   "Name": "Dragons of Legend",
+   "Type": "Collectors Pack",
+   "Release date": "25 April 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DRL2",
+   "Name": "Dragons of Legend 2",
+   "Type": "Collectors Pack",
+   "Release date": "17 July 2015",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DRL3",
+   "Name": "Dragons of Legend: Unleashed",
+   "Type": "Collectors Pack",
+   "Release date": "19 August 2016",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "BLLR",
+   "Name": "Battles of Legend: Light's Revenge",
+   "Type": "Collectors Pack",
+   "Release date": "7 July 2017",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "BLHR",
+   "Name": "Battles of Legend: Hero's Revenge",
+   "Type": "Collectors Pack",
+   "Release date": "12 July 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "BLAR",
+   "Name": "Battles of Legend: Armageddon",
+   "Type": "Collectors Pack",
+   "Release date": "23 July 2020",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DLCS",
+   "Name": "Dragons of Legend: The Complete Series",
+   "Type": "Collectors Pack",
+   "Release date": "11 September 2020",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "BROL",
+   "Name": "Brothers of Legend",
+   "Type": "Collectors Pack",
+   "Release date": "3 December 2021",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "BLCR",
+   "Name": "Battles of Legend: Crystal Revenge",
+   "Type": "Collectors Pack",
+   "Release date": "17 November 2022",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "BLMR",
+   "Name": "Battles of Legend: Monstrous Revenge",
+   "Type": "Collectors Pack",
+   "Release date": "22 June 2023",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "BLC1",
+   "Name": "Battles of Legend: Chapter 1",
+   "Type": "Collectors Pack",
+   "Release date": "22 February 2024",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LOB",
+   "Name": "Legend of Blue Eyes White Dragon",
+   "Type": "Core Booster",
+   "Release date": "8 March 2002",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "MRD",
+   "Name": "Metal Raiders",
+   "Type": "Core Booster",
+   "Release date": "26 June 2002",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SRL",
+   "Name": "Spell Ruler",
+   "Type": "Core Booster",
+   "Release date": "16 September 2002",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "PSV",
+   "Name": "Pharaoh's Servant",
+   "Type": "Core Booster",
+   "Release date": "20 October 2002",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LON",
+   "Name": "Labyrinth of Nightmare",
+   "Type": "Core Booster",
+   "Release date": "1 March 2003",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LOD",
+   "Name": "Legacy of Darkness",
+   "Type": "Core Booster",
+   "Release date": "6 June 2003",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "PGD",
+   "Name": "Pharaonic Guardian",
+   "Type": "Core Booster",
+   "Release date": "18 July 2003",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "MFC",
+   "Name": "Magician's Force",
+   "Type": "Core Booster",
+   "Release date": "10 October 2003",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DCR",
+   "Name": "Dark Crisis",
+   "Type": "Core Booster",
+   "Release date": "1 December 2003",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "IOC",
+   "Name": "Invasion of Chaos",
+   "Type": "Core Booster",
+   "Release date": "1 March 2004",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "AST",
+   "Name": "Ancient Sanctuary",
+   "Type": "Core Booster",
+   "Release date": "1 June 2004",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SOD",
+   "Name": "Soul of the Duelist",
+   "Type": "Core Booster",
+   "Release date": "1 October 2004",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "RDS",
+   "Name": "Rise of Destiny",
+   "Type": "Core Booster",
+   "Release date": "1 December 2004",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "FET",
+   "Name": "Flaming Eternity",
+   "Type": "Core Booster",
+   "Release date": "1 March 2005",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TLM",
+   "Name": "The Lost Millennium",
+   "Type": "Core Booster",
+   "Release date": "1 June 2005",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CRV",
+   "Name": "Cybernetic Revolution",
+   "Type": "Core Booster",
+   "Release date": "17 August 2005",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "EEN",
+   "Name": "Elemental Energy",
+   "Type": "Core Booster",
+   "Release date": "16 November 2005",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SOI",
+   "Name": "Shadow of Infinity",
+   "Type": "Core Booster",
+   "Release date": "18 February 2006",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "EOJ",
+   "Name": "Enemy of Justice",
+   "Type": "Core Booster",
+   "Release date": "17 May 2006",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "P0TD",
+   "Name": "Power of the Duelist",
+   "Type": "Core Booster",
+   "Release date": "16 August 2006",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CDIP",
+   "Name": "Cyberdark Impact",
+   "Type": "Core Booster",
+   "Release date": "15 November 2006",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "STON",
+   "Name": "Strike of Neos",
+   "Type": "Core Booster",
+   "Release date": "28 February 2007",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "FOTB",
+   "Name": "Force of the Breaker",
+   "Type": "Core Booster",
+   "Release date": "16 May 2007",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TAEV",
+   "Name": "Tactical Evolution",
+   "Type": "Core Booster",
+   "Release date": "12 August 2007",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "GLAS",
+   "Name": "Gladiator's Assault",
+   "Type": "Core Booster",
+   "Release date": "14 November 2007",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "PTDN",
+   "Name": "Phantom Darkness",
+   "Type": "Core Booster",
+   "Release date": "13 February 2008",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LODT",
+   "Name": "Light of Destruction",
+   "Type": "Core Booster",
+   "Release date": "13 May 2008",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TDGS",
+   "Name": "The Duelist Genesis",
+   "Type": "Core Booster",
+   "Release date": "2 September 2008",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CSOC",
+   "Name": "Crossroads of Chaos",
+   "Type": "Core Booster",
+   "Release date": "18 November 2008",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CRMS",
+   "Name": "Crimson Crisis",
+   "Type": "Core Booster",
+   "Release date": "28 February 2009",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "RGBT",
+   "Name": "Raging Battle",
+   "Type": "Core Booster",
+   "Release date": "12 May 2009",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "ANPR",
+   "Name": "Ancient Prophecy",
+   "Type": "Core Booster",
+   "Release date": "1 September 2009",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SOVR",
+   "Name": "Stardust Overdrive",
+   "Type": "Core Booster",
+   "Release date": "12 November 2009",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "ABPF",
+   "Name": "Absolute Powerforce",
+   "Type": "Core Booster",
+   "Release date": "16 February 2010",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TSHD",
+   "Name": "The Shining Darkness",
+   "Type": "Core Booster",
+   "Release date": "11 May 2010",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DREV",
+   "Name": "Duelist Revolution",
+   "Type": "Core Booster",
+   "Release date": "17 August 2010",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "STBL",
+   "Name": "Starstrike Blast",
+   "Type": "Core Booster",
+   "Release date": "16 November 2010",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "STOR",
+   "Name": "Storm of Ragnarok",
+   "Type": "Core Booster",
+   "Release date": "8 February 2011",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "EXVC",
+   "Name": "Extreme Victory",
+   "Type": "Core Booster",
+   "Release date": "5 May 2011",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "GENF",
+   "Name": "Generation Force",
+   "Type": "Core Booster",
+   "Release date": "16 August 2011",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "PHSW",
+   "Name": "Photon Shockwave",
+   "Type": "Core Booster",
+   "Release date": "15 November 2011",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "ORCS",
+   "Name": "Order of Chaos",
+   "Type": "Core Booster",
+   "Release date": "24 January 2012",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "GAOV",
+   "Name": "Galactic Overlord",
+   "Type": "Core Booster",
+   "Release date": "8 May 2012",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "REDU",
+   "Name": "Return of the Duelist",
+   "Type": "Core Booster",
+   "Release date": "28 August 2012",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "ABYR",
+   "Name": "Abyss Rising",
+   "Type": "Core Booster",
+   "Release date": "9 November 2012",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CBLZ",
+   "Name": "Cosmo Blazer",
+   "Type": "Core Booster",
+   "Release date": "25 January 2013",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LTGY",
+   "Name": "Lord of the Tachyon Galaxy",
+   "Type": "Core Booster",
+   "Release date": "17 May 2013",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "JOTL",
+   "Name": "Judgment of the Light",
+   "Type": "Core Booster",
+   "Release date": "9 August 2013",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SHSP",
+   "Name": "Shadow Specters",
+   "Type": "Core Booster",
+   "Release date": "8 November 2013",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LVAL",
+   "Name": "Legacy of the Valiant",
+   "Type": "Core Booster",
+   "Release date": "24 January 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "PRIO",
+   "Name": "Primal Origin",
+   "Type": "Core Booster",
+   "Release date": "12 May 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DUEA",
+   "Name": "Duelist Alliance",
+   "Type": "Core Booster",
+   "Release date": "15 August 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "NECH",
+   "Name": "The New Challengers",
+   "Type": "Core Booster",
+   "Release date": "7 November 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SECE",
+   "Name": "Secrets of Eternity",
+   "Type": "Core Booster",
+   "Release date": "16 January 2015",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CROS",
+   "Name": "Crossed Souls",
+   "Type": "Core Booster",
+   "Release date": "15 May 2015",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CORE",
+   "Name": "Clash of Rebellions",
+   "Type": "Core Booster",
+   "Release date": "7 August 2015",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DOCS",
+   "Name": "Dimension of Chaos",
+   "Type": "Core Booster",
+   "Release date": "6 November 2015",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "BOSH",
+   "Name": "Breakers of Shadow",
+   "Type": "Core Booster",
+   "Release date": "15 January 2016",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SHVI",
+   "Name": "Shining Victories",
+   "Type": "Core Booster",
+   "Release date": "6 May 2016",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TDIL",
+   "Name": "The Dark Illusion",
+   "Type": "Core Booster",
+   "Release date": "5 August 2016",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "INOV",
+   "Name": "Invasion: Vengeance",
+   "Type": "Core Booster",
+   "Release date": "4 November 2016",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "RATE",
+   "Name": "Raging Tempest",
+   "Type": "Core Booster",
+   "Release date": "10 February 2017",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "MACR",
+   "Name": "Maximum Crisis",
+   "Type": "Core Booster",
+   "Release date": "5 May 2017",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "COTD",
+   "Name": "Code of the Duelist",
+   "Type": "Core Booster",
+   "Release date": "4 August 2017",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CIBR",
+   "Name": "Circuit Break",
+   "Type": "Core Booster",
+   "Release date": "20 October 2017",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "EXFO",
+   "Name": "Extreme Force",
+   "Type": "Core Booster",
+   "Release date": "2 February 2018",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "FLOD",
+   "Name": "Flames of Destruction",
+   "Type": "Core Booster",
+   "Release date": "4 May 2018",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CYHO",
+   "Name": "Cybernetic Horizon",
+   "Type": "Core Booster",
+   "Release date": "27 July 2018",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SOFU",
+   "Name": "Soul Fusion",
+   "Type": "Core Booster",
+   "Release date": "19 October 2018",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SAST",
+   "Name": "Savage Strike",
+   "Type": "Core Booster",
+   "Release date": "1 February 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DANE",
+   "Name": "Dark Neostorm",
+   "Type": "Core Booster",
+   "Release date": "3 May 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "RIRA",
+   "Name": "Rising Rampage",
+   "Type": "Core Booster",
+   "Release date": "26 July 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CHIM",
+   "Name": "Chaos Impact",
+   "Type": "Core Booster",
+   "Release date": "25 October 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "IGAS",
+   "Name": "Ignition Assault",
+   "Type": "Core Booster",
+   "Release date": "30 January 2020",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "ETCO",
+   "Name": "Eternity Code",
+   "Type": "Core Booster",
+   "Release date": "1 May 2020",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "ROTD",
+   "Name": "Rise of the Duelist",
+   "Type": "Core Booster",
+   "Release date": "6 August 2020",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "PHRA",
+   "Name": "Phantom Rage",
+   "Type": "Core Booster",
+   "Release date": "6 November 2020",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "BLVO",
+   "Name": "Blazing Vortex",
+   "Type": "Core Booster",
+   "Release date": "4 February 2021",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LIOV",
+   "Name": "Lightning Overdrive",
+   "Type": "Core Booster",
+   "Release date": "3 June 2021",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DAMA",
+   "Name": "Dawn of Majesty",
+   "Type": "Core Booster",
+   "Release date": "13 August 2021",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "BODE",
+   "Name": "Burst of Destiny",
+   "Type": "Core Booster",
+   "Release date": "5 November 2021",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "BACH",
+   "Name": "Battle of Chaos",
+   "Type": "Core Booster",
+   "Release date": "11 February 2022",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DIFO",
+   "Name": "Dimension Force",
+   "Type": "Core Booster",
+   "Release date": "20 May 2022",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "POTE",
+   "Name": "Power of the Elements",
+   "Type": "Core Booster",
+   "Release date": "5 August 2022",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DABL",
+   "Name": "Darkwing Blast",
+   "Type": "Core Booster",
+   "Release date": "21 October 2022",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "PHHY",
+   "Name": "Photon Hypernova",
+   "Type": "Core Booster",
+   "Release date": "9 February 2023",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CYAC",
+   "Name": "Cyberstorm Access",
+   "Type": "Core Booster",
+   "Release date": "5 May 2023",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DUNE",
+   "Name": "Duelist Nexus",
+   "Type": "Core Booster",
+   "Release date": "27 July 2023",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "AGOV",
+   "Name": "Age of Overlord",
+   "Type": "Core Booster",
+   "Release date": "19 October 2023",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "PHNI",
+   "Name": "Phantom Nightmare",
+   "Type": "Core Booster",
+   "Release date": "8 February 2024",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LEDE",
+   "Name": "Legacy of Destruction",
+   "Type": "Core Booster",
+   "Release date": "26 April 2024",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "INFO",
+   "Name": "The Infinite Forbidden",
+   "Type": "Core Booster",
+   "Release date": "19 July 2024",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "ROTA",
+   "Name": "Rage of the Abyss",
+   "Type": "Core Booster",
+   "Release date": "10 October 2024",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SUDA",
+   "Name": "Supreme Darkness",
+   "Type": "Core Booster",
+   "Release date": "23 January 2025",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "ALIN",
+   "Name": "Alliance Insight",
+   "Type": "Core Booster",
+   "Release date": "1 May 2025",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DUAD",
+   "Name": "Duelist's Advance",
+   "Type": "Core Booster",
+   "Release date": "4 July 2025",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DOOD",
+   "Name": "Doom of Dimensions",
+   "Type": "Core Booster",
+   "Release date": "25 September 2025",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SPWA",
+   "Name": "Spirit Warriors",
+   "Type": "Deck-Build Pack",
+   "Release date": "16 November 2017",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DASA",
+   "Name": "Dark Saviors",
+   "Type": "Deck-Build Pack",
+   "Release date": "24 May 2018",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "HISU",
+   "Name": "Hidden Summoners",
+   "Type": "Deck-Build Pack",
+   "Release date": "18 November 2018",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "INCH",
+   "Name": "The Infinity Chasers",
+   "Type": "Deck-Build Pack",
+   "Release date": "22 March 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "MYFI",
+   "Name": "Mystic Fighters",
+   "Type": "Deck-Build Pack",
+   "Release date": "22 November 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SESL",
+   "Name": "Secret Slayers",
+   "Type": "Deck-Build Pack",
+   "Release date": "16 April 2020",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "GEIM",
+   "Name": "Genesis Impact",
+   "Type": "Deck-Build Pack",
+   "Release date": "4 December 2020",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "ANGU",
+   "Name": "Ancient Guardians",
+   "Type": "Deck-Build Pack",
+   "Release date": "6 May 2021",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "GRCR",
+   "Name": "The Grand Creators",
+   "Type": "Deck-Build Pack",
+   "Release date": "28 January 2022",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TAMA",
+   "Name": "Tactical Masters",
+   "Type": "Deck-Build Pack",
+   "Release date": "25 August 2022",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "AMDE",
+   "Name": "Amazing Defenders",
+   "Type": "Deck-Build Pack",
+   "Release date": "20 January 2023",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "WISU",
+   "Name": "Wild Survivors",
+   "Type": "Deck-Build Pack",
+   "Release date": "1 June 2023",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "VASM",
+   "Name": "Valiant Smashers",
+   "Type": "Deck-Build Pack",
+   "Release date": "16 November 2023",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CRBR",
+   "Name": "Crossover Breakers",
+   "Type": "Deck-Build Pack",
+   "Release date": "6 December 2024",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "JUSH",
+   "Name": "Justice Hunters",
+   "Type": "Deck-Build Pack",
+   "Release date": "1 August 2025",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "JOTL-DE",
+   "Name": "Judgment of the Light: Deluxe Edition",
+   "Type": "Deluxe Edition",
+   "Release date": "27 September 2013",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LVAL-DE",
+   "Name": "Legacy of the Valiant: Deluxe Edition",
+   "Type": "Deluxe Edition",
+   "Release date": "6 March 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "PRIO-DE",
+   "Name": "Primal Origin: Deluxe Edition",
+   "Type": "Deluxe Edition",
+   "Release date": "12 June 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DUEA-DE",
+   "Name": "Duelist Alliance: Deluxe Edition",
+   "Type": "Deluxe Edition",
+   "Release date": "11 September 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DEM1",
+   "Name": "Demo Pack",
+   "Type": "Demo deck",
+   "Release date": "12 February 2011",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DEM2",
+   "Name": "Demo Deck 2015",
+   "Type": "Demo Deck",
+   "Release date": "30 March 2015",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DEM3",
+   "Name": "Demo Deck 2016",
+   "Type": "Demo Deck",
+   "Release date": "14 January 2016",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DTP1",
+   "Name": "Duel Terminal - Preview Wave 1",
+   "Type": "Duel Terminal",
+   "Release date": "4 August 2008",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DTP1",
+   "Name": "Duel Terminal - Preview Wave 2",
+   "Type": "Duel Terminal",
+   "Release date": "20 June 2009",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DT01",
+   "Name": "Duel Terminal 1",
+   "Type": "Duel Terminal",
+   "Release date": "29 January 2010",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DT02",
+   "Name": "Duel Terminal 2",
+   "Type": "Duel Terminal",
+   "Release date": "25 May 2010",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DT03",
+   "Name": "Duel Terminal 3",
+   "Type": "Duel Terminal",
+   "Release date": "25 September 2010",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DT04",
+   "Name": "Duel Terminal 4",
+   "Type": "Duel Terminal",
+   "Release date": "25 January 2011",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DT05",
+   "Name": "Duel Terminal 5a",
+   "Type": "Duel Terminal",
+   "Release date": "29 May 2011",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DT05",
+   "Name": "Duel Terminal 5b",
+   "Type": "Duel Terminal",
+   "Release date": "29 September 2011",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DT06",
+   "Name": "Duel Terminal 6a",
+   "Type": "Duel Terminal",
+   "Release date": "3 February 2012",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DT06",
+   "Name": "Duel Terminal 6b",
+   "Type": "Duel Terminal",
+   "Release date": "25 May 2012",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DT07",
+   "Name": "Duel Terminal 7a",
+   "Type": "Duel Terminal",
+   "Release date": "28 September 2012",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DT07",
+   "Name": "Duel Terminal 7b",
+   "Type": "Duel Terminal",
+   "Release date": "1 February 2013",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DP2",
+   "Name": "Duelist Pack: Chazz Princeton",
+   "Type": "Duelist Pack",
+   "Release date": "8 February 2006",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DP1",
+   "Name": "Duelist Pack: Jaden Yuki",
+   "Type": "Duelist Pack",
+   "Release date": "8 February 2006",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DP04",
+   "Name": "Duelist Pack: Aster Phoenix",
+   "Type": "Duelist Pack",
+   "Release date": "7 February 2007",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DP03",
+   "Name": "Duelist Pack: Jaden Yuki 2",
+   "Type": "Duelist Pack",
+   "Release date": "7 February 2007",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DP05",
+   "Name": "Duelist Pack: Zane Truesdale",
+   "Type": "Duelist Pack",
+   "Release date": "7 March 2007",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DP06",
+   "Name": "Duelist Pack: Jaden Yuki 3",
+   "Type": "Duelist Pack",
+   "Release date": "26 January 2008",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DP07",
+   "Name": "Duelist Pack: Jesse Anderson",
+   "Type": "Duelist Pack",
+   "Release date": "26 January 2008",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DP08",
+   "Name": "Duelist Pack: Yusei",
+   "Type": "Duelist Pack",
+   "Release date": "24 February 2009",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DPYG",
+   "Name": "Duelist Pack: Yugi",
+   "Type": "Duelist Pack",
+   "Release date": "7 July 2009",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DP09",
+   "Name": "Duelist Pack: Yusei 2",
+   "Type": "Duelist Pack",
+   "Release date": "26 January 2010",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DPKB",
+   "Name": "Duelist Pack: Kaiba",
+   "Type": "Duelist Pack",
+   "Release date": "20 April 2010",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DP10",
+   "Name": "Duelist Pack: Yusei 3",
+   "Type": "Duelist Pack",
+   "Release date": "25 January 2011",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DP11",
+   "Name": "Duelist Pack: Crow",
+   "Type": "Duelist Pack",
+   "Release date": "31 May 2011",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DPBC",
+   "Name": "Duelist Pack: Battle City",
+   "Type": "Duelist Pack",
+   "Release date": "19 June 2015",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DPRP",
+   "Name": "Duelist Pack: Rivals of the Pharaoh",
+   "Type": "Duelist Pack",
+   "Release date": "15 September 2016",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DPDG",
+   "Name": "Duelist Pack: Dimensional Guardians",
+   "Type": "Duelist Pack",
+   "Release date": "26 May 2017",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LEDU",
+   "Name": "Legendary Duelists",
+   "Type": "Duelist Pack",
+   "Release date": "8 September 2017",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LED2",
+   "Name": "Legendary Duelists: Ancient Millennium",
+   "Type": "Duelist Pack",
+   "Release date": "23 February 2018",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LED3",
+   "Name": "Legendary Duelists: White Dragon Abyss",
+   "Type": "Duelist Pack",
+   "Release date": "28 September 2018",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LED4",
+   "Name": "Legendary Duelists: Sisters of the Rose",
+   "Type": "Duelist Pack",
+   "Release date": "11 January 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LED5",
+   "Name": "Legendary Duelists: Immortal Destiny",
+   "Type": "Duelist Pack",
+   "Release date": "26 September 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LED6",
+   "Name": "Legendary Duelists: Magical Hero",
+   "Type": "Duelist Pack",
+   "Release date": "17 January 2020",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LDS1",
+   "Name": "Legendary Duelists: Season 1",
+   "Type": "Duelist Pack",
+   "Release date": "2 July 2020",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LED7",
+   "Name": "Legendary Duelists: Rage of Ra",
+   "Type": "Duelist Pack",
+   "Release date": "25 September 2020",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LDS2",
+   "Name": "Legendary Duelists: Season 2",
+   "Type": "Duelist Pack",
+   "Release date": "22 January 2021",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LED8",
+   "Name": "Legendary Duelists: Synchro Storm",
+   "Type": "Duelist Pack",
+   "Release date": "29 October 2021",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LED9",
+   "Name": "Legendary Duelists: Duels From the Deep",
+   "Type": "Duelist Pack",
+   "Release date": "17 June 2022",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LDS3",
+   "Name": "Legendary Duelists: Season 3",
+   "Type": "Duelist Pack",
+   "Release date": "21 July 2022",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LD10",
+   "Name": "Legendary Duelists: Soulburning Volcano",
+   "Type": "Duelist Pack",
+   "Release date": "10 August 2023",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "GLD1",
+   "Name": "Gold Series",
+   "Type": "Gold Series",
+   "Release date": "2 April 2008",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "GLD2",
+   "Name": "Gold Series 2009",
+   "Type": "Gold Series",
+   "Release date": "21 April 2009",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "GLD3",
+   "Name": "Gold Series 3",
+   "Type": "Gold Series",
+   "Release date": "23 June 2010",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "GLD4",
+   "Name": "Gold Series 4: Pyramids Edition",
+   "Type": "Gold Series",
+   "Release date": "1 July 2011",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "GLD5",
+   "Name": "Gold Series: Haunted Mine",
+   "Type": "Gold Series",
+   "Release date": "12 June 2012",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "PGLD",
+   "Name": "Premium Gold",
+   "Type": "Gold Series",
+   "Release date": "27 March 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "PGL2",
+   "Name": "Premium Gold: Return of the Bling",
+   "Type": "Gold Series",
+   "Release date": "20 March 2015",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "PGL3",
+   "Name": "Premium Gold: Infinite Gold",
+   "Type": "Gold Series",
+   "Release date": "17 March 2016",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "MAGO",
+   "Name": "Maximum Gold",
+   "Type": "Gold Series",
+   "Release date": "12 November 2020",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "MGED",
+   "Name": "Maximum Gold: El Dorado",
+   "Type": "Gold Series",
+   "Release date": "19 November 2021",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "HA01",
+   "Name": "Hidden Arsenal",
+   "Type": "Hidden Arsenal",
+   "Release date": "5 November 2009",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "HA02",
+   "Name": "Hidden Arsenal 2",
+   "Type": "Hidden Arsenal",
+   "Release date": "20 July 2010",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "HL03",
+   "Name": "Hidden Arsenal 3",
+   "Type": "Hidden Arsenal",
+   "Release date": "2 December 2010",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "HA04",
+   "Name": "Hidden Arsenal 4: Trishula's Triumph",
+   "Type": "Hidden Arsenal",
+   "Release date": "14 April 2011",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "HA05",
+   "Name": "Hidden Arsenal 5: Steelswarm Invasion",
+   "Type": "Hidden Arsenal",
+   "Release date": "6 December 2011",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "HA06",
+   "Name": "Hidden Arsenal 6: Omega Xyz",
+   "Type": "Hidden Arsenal",
+   "Release date": "24 July 2012",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "HA07",
+   "Name": "Hidden Arsenal 7: Knight of Stars",
+   "Type": "Hidden Arsenal",
+   "Release date": "25 April 2013",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "HAC1",
+   "Name": "Hidden Arsenal: Chapter 1",
+   "Type": "Hidden Arsenal",
+   "Release date": "10 March 2022",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LC02",
+   "Name": "Legendary Collection 2: Gameboard Edition",
+   "Type": "Legendary Collection",
+   "Release date": "May 2013",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LART",
+   "Name": "The Lost Art Promotion",
+   "Type": "Lost Art Promotion",
+   "Release date": "1 March 2018",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LART",
+   "Name": "The Lost Art Promotion 2019",
+   "Type": "Lost Art Promotion",
+   "Release date": "1 January 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LART",
+   "Name": "The Lost Art Promotion 2020",
+   "Type": "Lost Art Promotion",
+   "Release date": "1 January 2020",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LART",
+   "Name": "The Lost Art Promotion 2021",
+   "Type": "Lost Art Promotion",
+   "Release date": "1 January 2021",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LART",
+   "Name": "The Lost Art Promotion 2022",
+   "Type": "Lost Art Promotion",
+   "Release date": "1 January 2022",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LART",
+   "Name": "The Lost Art Promotion 2023",
+   "Type": "Lost Art Promotion",
+   "Release date": "1 January 2023",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LART",
+   "Name": "The Lost Art Promotion 2024",
+   "Type": "Lost Art Promotion",
+   "Release date": "1 January 2024",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "JMP",
+   "Name": "Shonen Jump Vol. 1, Issue 1 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "26 November 2002",
+   "Notes": "Blue-Eyes White Dragon (UR)"
+ },
+ {
+   "Abbr.": "JMP",
+   "Name": "Shonen Jump Vol. 2, Issue 1 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "1 January 2004",
+   "Notes": "Red-Eyes Black Dragon (UR)"
+ },
+ {
+   "Abbr.": "JMP",
+   "Name": "Shonen Jump Vol. 3, Issue 1 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "1 January 2005",
+   "Notes": "Archfiend of Gilfer (SR)"
+ },
+ {
+   "Abbr.": "SP1",
+   "Name": "Shonen Jump Vol. 3, Issue 6 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "June 2005",
+   "Notes": "Cyber Harpie Lady (UR)"
+ },
+ {
+   "Abbr.": "SP1",
+   "Name": "Shonen Jump Vol. 3, Issue 9 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "September 2005",
+   "Notes": "Amazoness Chain Master (UR)"
+ },
+ {
+   "Abbr.": "SP1",
+   "Name": "Shonen Jump Vol. 3, Issue 11 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "November 2005",
+   "Notes": "Embodiment of Apophis (UR)"
+ },
+ {
+   "Abbr.": "JMP",
+   "Name": "Shonen Jump Vol. 4, Issue 1 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "1 January 2006",
+   "Notes": "Blue-Eyes Ultimate Dragon (ScR)"
+ },
+ {
+   "Abbr.": "SP1",
+   "Name": "Shonen Jump Vol. 4, Issue 2 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "February 2006",
+   "Notes": "Exchange of the Spirit (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump May 2006 subscription bonus",
+   "Type": "Magazine promotion",
+   "Release date": "May 2006",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SP2",
+   "Name": "Shonen Jump Vol. 4, Issue 5 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "May 2006",
+   "Notes": "Ancient Lamp (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Vol. 4, Issue 10 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "1 August 2006",
+   "Notes": "Unity (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Vol. 4, Issue 11 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "1 November 2006",
+   "Notes": "Magician's Valkyria (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Vol. 4, Issue 12 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "1 December 2006",
+   "Notes": "Toon Dark Magician Girl (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Vol. 5, Issue 1 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "1 January 2007",
+   "Notes": "Victory Dragon (ScR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Vol. 5, Issue 4 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "21 April 2007",
+   "Notes": "Elemental HERO Stratos (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Vol. 5, Issue 6 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "1 June 2007",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump 2007 subscription bonus",
+   "Type": "Magazine promotion",
+   "Release date": "15 July 2007",
+   "Notes": "Green Baboon, Defender of the Forest (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Vol. 5, Issue 9 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "1 September 2007",
+   "Notes": "The Wicked Eraser (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Vol. 5, Issue 11 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "1 November 2007",
+   "Notes": "The Wicked Avatar (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Vol. 6, Issue 1 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "1 January 2008",
+   "Notes": "The Wicked Dreadroot (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Limited Edition 1",
+   "Type": "Magazine promotion",
+   "Release date": "16 January 2008",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Vol. 6, Issue 3 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "1 February 2008",
+   "Notes": "Van'Dalgyon the Dark Dragon Lord (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump May 2008 subscription bonus",
+   "Type": "Magazine promotion",
+   "Release date": "May 2008",
+   "Notes": "Exodius the Ultimate Forbidden Lord (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Vol. 6, Issue 5 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "1 May 2008",
+   "Notes": "Cyber Dinosaur (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump August 2008 subscription bonus",
+   "Type": "Magazine promotion",
+   "Release date": "1 August 2008",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Fifth Anniversary Collector's Issue promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "5 August 2008",
+   "Notes": "Magician's Valkyria (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Vol. 6, Issue 9 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "September 2008",
+   "Notes": "Dragonic Knight (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Vol. 6, Issue 12 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "5 November 2008",
+   "Notes": "Arcana Force EX - The Light Ruler (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Vol. 7, Issue 1 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "1 January 2009",
+   "Notes": "Gandora the Dragon of Destruction (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump February 2009 subscription bonus",
+   "Type": "Magazine promotion",
+   "Release date": "February 2009",
+   "Notes": "Dandylion (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Vol. 7, Issue 3 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "February 2009",
+   "Notes": "Chimeratech Fortress Dragon (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Vol. 7, Issue 6 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "May 2009",
+   "Notes": "Beast King Barbaros (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Vol. 7, Issue 9 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "September 2009",
+   "Notes": "Tragoedia (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Vol. 7, Issue 11 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "November 2009",
+   "Notes": "Darkness Neosphere (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Vol. 8, Issue 1 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "1 January 2010",
+   "Notes": "Obelisk the Tormentor (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump March 2010 subscription bonus",
+   "Type": "Magazine promotion",
+   "Release date": "March 2010",
+   "Notes": "Genesis Dragon (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Vol. 8, Issue 3 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "1 March 2010",
+   "Notes": "Cyber Eltanin (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump May 2010 subscription bonus",
+   "Type": "Magazine promotion",
+   "Release date": "May 2010",
+   "Notes": "The Tyrant Neptune (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Vol. 8, Issue 5 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "1 May 2010",
+   "Notes": "Hundred Eyes Dragon (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Vol. 8, Issue 7 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "1 July 2010",
+   "Notes": "Golem Dragon (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Vol. 8, Issue 9 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "1 September 2010",
+   "Notes": "Malefic Stardust Dragon (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Vol. 8, Issue 11 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "1 November 2010",
+   "Notes": "Dark End Dragon (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump December 2010 subscription bonus",
+   "Type": "Magazine promotion",
+   "Release date": "December 2010",
+   "Notes": "Lightning Warrior (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Scholastic Edition Vol. 9, Issue 1 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "1 January 2011",
+   "Notes": "Troposphere (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Vol. 9, Issue 1 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "1 January 2011",
+   "Notes": "The Winged Dragon of Ra (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Vol. 9, Issue 3 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "March 2011",
+   "Notes": "Malefic Truth Dragon (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Vol. 9, Issue 4 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "April 2011",
+   "Notes": "Dark Magician (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Vol. 9, Issue 6 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "April 2011",
+   "Notes": "Meklord Emperor Granel (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump June/July 2011 subscription bonus",
+   "Type": "Magazine promotion",
+   "Release date": "June 2011",
+   "Notes": "Meklord Astro Mekanikle (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Vol. 9, Issue 8 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "September 2011",
+   "Notes": "Meklord Emperor Wisel (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump December 2011 subscription bonus",
+   "Type": "Magazine promotion",
+   "Release date": "December 2011",
+   "Notes": "Sephylon, the Ultimate Timelord (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Vol. 9, Issue 10 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "December 2011",
+   "Notes": "Endless Decay (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Vol. 10, Issue 1 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "January 2012",
+   "Notes": "The Supremacy Sun (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Vol. 10, Issue 3 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "March 2012",
+   "Notes": "X-Saber Souza (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Shonen Jump Vol. 10, Issue 4 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "April 2012",
+   "Notes": "Number 30: Acid Golem of Destruction (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Weekly Shonen Jump Alpha April 2012 membership promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "30 May 2012",
+   "Notes": "Number 16: Shock Master (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Weekly Shonen Jump Alpha July 2012 membership promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "27 August 2012",
+   "Notes": "Slifer the Sky Dragon (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Weekly Shonen Jump Alpha September 2012 membership promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "12 October 2012",
+   "Notes": "Superdreadnought Rail Cannon Gustav Max (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Weekly Shonen Jump Alpha December 2012 membership promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "25 December 2012",
+   "Notes": "Number 40: Gimmick Puppet of Strings (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Weekly Shonen Jump March 2013 membership promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "15 March 2013",
+   "Notes": "Number 88: Gimmick Puppet of Leo (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Weekly Shonen Jump July 2013 membership promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "9 July 2013",
+   "Notes": "Zubaba General (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Weekly Shonen Jump September 2013 membership promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "24 October 2013",
+   "Notes": "Vulcan the Divine (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Weekly Shonen Jump December 2013 membership promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "15 December 2013",
+   "Notes": "Archfiend Commander (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Jump Pack 2014 Issue 1 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "31 January 2014",
+   "Notes": "Archfiend Commander (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Weekly Shonen Jump March 2014 membership promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "13 March 2014",
+   "Notes": "Blue-Eyes White Dragon (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Jump Pack 2014 Issue 2 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "15 April 2014",
+   "Notes": "Blue-Eyes White Dragon (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Weekly Shonen Jump August 2014 membership promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "18 August 2014",
+   "Notes": "Black Luster Soldier - Envoy of the Evening Twilight (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Jump Pack 2014 Issue 3 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "22 August 2014",
+   "Notes": "Black Luster Soldier - Envoy of the Evening Twilight (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Weekly Shonen Jump November 2014 membership promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "8 October 2014",
+   "Notes": "Ebon Illusion Magician (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Weekly Shonen Jump February 2015 membership promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "19 February 2015",
+   "Notes": "Elemental HERO Core (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Weekly Shonen Jump April 2015 membership promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "7 May 2015",
+   "Notes": "Ultimaya Tzolkin (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Weekly Shonen Jump July 2015 membership promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "1 July 2015",
+   "Notes": "Frightfur Tiger (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Weekly Shonen Jump October 2015 membership promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "7 October 2015",
+   "Notes": "Beast-Eyes Pendulum Dragon (UR)"
+ },
+ {
+   "Abbr.": "AP08",
+   "Name": "Astral Pack Eight",
+   "Type": "Magazine promotion",
+   "Release date": "23 October 2015",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Weekly Shonen Jump April 2017 membership promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "16 January 2016",
+   "Notes": "Apprentice Illusion Magician (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Weekly Shonen Jump January 2017 membership promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "16 January 2016",
+   "Notes": "Odd-Eyes Persona Dragon (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Weekly Shonen Jump January 2016 membership promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "18 January 2016",
+   "Notes": "Dystopia the Despondent (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "WSJ Jump Pack Spring 2016 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "1 February 2016",
+   "Notes": "Blue-Eyes White Dragon (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Weekly Shonen Jump April 2016 membership promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "20 April 2016",
+   "Notes": "Relinkuriboh (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "WSJ Jump Pack Fall 2016 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "1 July 2016",
+   "Notes": "Dark Magician (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Weekly Shonen Jump July 2016 membership promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "4 July 2016",
+   "Notes": "Number S0: Utopic ZEXAL (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Weekly Shonen Jump October 2016 membership promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "6 October 2016",
+   "Notes": "Masked HERO Blast (UR)"
+ },
+ {
+   "Abbr.": "JMPS",
+   "Name": "WSJ Jump Pack Spring 2017 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "January 2017",
+   "Notes": "Obelisk the Tormentor (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Weekly Shonen Jump July 2017 membership promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "30 June 2017",
+   "Notes": "Galaxy-Eyes Cipher Blade Dragon (UR)"
+ },
+ {
+   "Abbr.": "JMPS",
+   "Name": "WSJ Jump Pack Fall 2017 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "1 August 2017",
+   "Notes": "Slifer the Sky Dragon (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Weekly Shonen Jump November 2017 membership promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "December 2017",
+   "Notes": "Linkuriboh (UR)"
+ },
+ {
+   "Abbr.": "JMPS",
+   "Name": "WSJ Jump Pack Spring 2018 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "1 January 2018",
+   "Notes": "The Winged Dragon of Ra (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Weekly Shonen Jump January 2018 membership promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "February 2018",
+   "Notes": "Trickstar Crimson Heart (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Weekly Shonen Jump May 2018 membership promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "1 May 2018",
+   "Notes": "Summon Sorceress (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Weekly Shonen Jump July 2018 membership promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "12 August 2018",
+   "Notes": "Shooting Riser Dragon (UR)"
+ },
+ {
+   "Abbr.": "JMPS",
+   "Name": "WSJ Jump Pack Fall 2018 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "1 September 2018",
+   "Notes": "Apprentice Illusion Magician (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Weekly Shonen Jump November 2018 membership promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "21 November 2018",
+   "Notes": "Chaos Emperor Dragon - Envoy of the End (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "WSJ Jump Pack Spring 2019 promotional card",
+   "Type": "Magazine promotion",
+   "Release date": "1 January 2019",
+   "Notes": "Elemental HERO Stratos (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Weekly Shonen Jump June 2019 membership promotional cards",
+   "Type": "Magazine promotion",
+   "Release date": "18 June 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "YMA",
+   "Name": "Yu-Gi-Oh! The Movie Ani-Manga promotional card",
+   "Type": "Manga promotion",
+   "Release date": "1 November 2004",
+   "Notes": "Slifer the Sky Dragon (PScR) (English)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Yu-Gi-Oh! Duelist Volume 16 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "1 August 2006",
+   "Notes": "Yu-Jo Friendship (UR)"
+ },
+ {
+   "Abbr.": "JUMP",
+   "Name": "Yu-Gi-Oh! Millennium World Volume 4 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "1 August 2006",
+   "Notes": "Judgment of the Pharaoh (UR)"
+ },
+ {
+   "Abbr.": "YG01",
+   "Name": "Yu-Gi-Oh! GX Volume 1 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "6 November 2007",
+   "Notes": "Light and Darkness Dragon (UR)"
+ },
+ {
+   "Abbr.": "YG02",
+   "Name": "Yu-Gi-Oh! GX Volume 2 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "4 November 2008",
+   "Notes": "Thunder King Rai-Oh (ScR)"
+ },
+ {
+   "Abbr.": "YG03",
+   "Name": "Yu-Gi-Oh! GX Volume 3 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "2 June 2009",
+   "Notes": "Winged Kuriboh LV9 (UR)"
+ },
+ {
+   "Abbr.": "YR01",
+   "Name": "Yu-Gi-Oh! R Volume 1 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "10 June 2009",
+   "Notes": "Van'Dalgyon the Dark Dragon Lord (ScR)"
+ },
+ {
+   "Abbr.": "YG04",
+   "Name": "Yu-Gi-Oh! GX Volume 4 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "4 January 2010",
+   "Notes": "Elemental HERO Absolute Zero (UR)"
+ },
+ {
+   "Abbr.": "YR03",
+   "Name": "Yu-Gi-Oh! R Volume 3 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "2 February 2010",
+   "Notes": "Gorz the Emissary of Darkness (UR)"
+ },
+ {
+   "Abbr.": "YR04",
+   "Name": "Yu-Gi-Oh! R Volume 4 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "29 April 2010",
+   "Notes": "Angel O7 (UR)"
+ },
+ {
+   "Abbr.": "YR05",
+   "Name": "Yu-Gi-Oh! R Volume 5 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "2 June 2010",
+   "Notes": "Alector, Sovereign of Birds (UR)"
+ },
+ {
+   "Abbr.": "YG05",
+   "Name": "Yu-Gi-Oh! GX Volume 5 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "5 October 2010",
+   "Notes": "Darklord Desire (UR)"
+ },
+ {
+   "Abbr.": "YG06",
+   "Name": "Yu-Gi-Oh! GX Volume 6 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "1 March 2011",
+   "Notes": "Elemental HERO The Shining (UR)"
+ },
+ {
+   "Abbr.": "YF01",
+   "Name": "Yu-Gi-Oh! 5D's Volume 1 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "6 July 2011",
+   "Notes": "Dark Highlander (UR)"
+ },
+ {
+   "Abbr.": "YG07",
+   "Name": "Yu-Gi-Oh! GX Volume 7 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "18 August 2011",
+   "Notes": "Blizzard Princess (UR)"
+ },
+ {
+   "Abbr.": "YG08",
+   "Name": "Yu-Gi-Oh! GX Volume 8 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "3 January 2012",
+   "Notes": "Barbaroid, the Ultimate Battle Machine (UR)"
+ },
+ {
+   "Abbr.": "YF02",
+   "Name": "Yu-Gi-Oh! 5D's Volume 2 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "7 February 2012",
+   "Notes": "Catapult Warrior (UR)"
+ },
+ {
+   "Abbr.": "YZ01",
+   "Name": "Yu-Gi-Oh! ZEXAL Volume 1 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "5 June 2012",
+   "Notes": "Kachi Kochi Dragon (UR)"
+ },
+ {
+   "Abbr.": "YG09",
+   "Name": "Yu-Gi-Oh! GX Volume 9 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "7 August 2012",
+   "Notes": "Elemental HERO Escuridao (UR)"
+ },
+ {
+   "Abbr.": "YF03",
+   "Name": "Yu-Gi-Oh! 5D's Volume 3 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "2 October 2012",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "YF04",
+   "Name": "Yu-Gi-Oh! 5D's Volume 4 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "2 April 2013",
+   "Notes": "Blackwing - Gram the Shining Star (UR)"
+ },
+ {
+   "Abbr.": "YZ03",
+   "Name": "Yu-Gi-Oh! ZEXAL Volume 3 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "4 June 2013",
+   "Notes": "Number 22: Zombiestein (UR)"
+ },
+ {
+   "Abbr.": "YF05",
+   "Name": "Yu-Gi-Oh! 5D's Volume 5 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "5 November 2013",
+   "Notes": "Stardust Spark Dragon (UR)"
+ },
+ {
+   "Abbr.": "YZ04",
+   "Name": "Yu-Gi-Oh! ZEXAL Volume 4 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "7 January 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "YZ01",
+   "Name": "Yu-Gi-Oh! ZEXAL Volume 5 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "1 July 2014",
+   "Notes": "Number 72: Shogi Rook (UR)"
+ },
+ {
+   "Abbr.": "YF06",
+   "Name": "Yu-Gi-Oh! 5D's Volume 6 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "2 September 2014",
+   "Notes": "Hot Red Dragon Archfiend (UR)"
+ },
+ {
+   "Abbr.": "YZ06",
+   "Name": "Yu-Gi-Oh! ZEXAL Volume 6 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "3 February 2015",
+   "Notes": "Number 52: Diamond Crab King (UR)"
+ },
+ {
+   "Abbr.": "YF07",
+   "Name": "Yu-Gi-Oh! 5D's Volume 7 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "3 March 2015",
+   "Notes": "Black Rose Moonlight Dragon (UR)"
+ },
+ {
+   "Abbr.": "YZ07",
+   "Name": "Yu-Gi-Oh! ZEXAL Volume 7 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "1 September 2015",
+   "Notes": "Number 23: Lancelot, Dark Knight of the Underworld (UR)"
+ },
+ {
+   "Abbr.": "YF08",
+   "Name": "Yu-Gi-Oh! 5D's Volume 8 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "6 October 2015",
+   "Notes": "Beelzeus of the Diabolic Dragons (UR)"
+ },
+ {
+   "Abbr.": "YZO8",
+   "Name": "Yu-Gi-Oh! ZEXAL Volume 8 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "1 March 2016",
+   "Notes": "Number S39: Utopia the Lightning (UR)"
+ },
+ {
+   "Abbr.": "YF09",
+   "Name": "Yu-Gi-Oh! 5D's Volume 9 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "5 April 2016",
+   "Notes": "Stardust Chronicle Spark Dragon (UR)"
+ },
+ {
+   "Abbr.": "YZ09",
+   "Name": "Yu-Gi-Oh! ZEXAL Volume 9 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "1 September 2016",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "YA01",
+   "Name": "Yu-Gi-Oh! ARC-V Volume 1 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "4 April 2017",
+   "Notes": "Odd-Eyes Phantom Dragon (UR)"
+ },
+ {
+   "Abbr.": "YA02",
+   "Name": "Yu-Gi-Oh! ARC-V Volume 2 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "5 September 2017",
+   "Notes": "Clear Wing Fast Dragon (UR)"
+ },
+ {
+   "Abbr.": "YA03",
+   "Name": "Yu-Gi-Oh! ARC-V Volume 3 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "6 March 2018",
+   "Notes": "D/D/D Destiny King Zero Laplace (UR)"
+ },
+ {
+   "Abbr.": "YA04",
+   "Name": "Yu-Gi-Oh! ARC-V Volume 4 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "2 November 2018",
+   "Notes": "White Aura Bihamut (UR)"
+ },
+ {
+   "Abbr.": "YA05",
+   "Name": "Yu-Gi-Oh! ARC-V Volume 5 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "5 March 2019",
+   "Notes": "Odd-Eyes Phantasma Dragon (UR)"
+ },
+ {
+   "Abbr.": "YA06",
+   "Name": "Yu-Gi-Oh! ARC-V Volume 6 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "3 September 2019",
+   "Notes": "Timelord Progenitor Vorpgate (UR)"
+ },
+ {
+   "Abbr.": "YA07",
+   "Name": "Yu-Gi-Oh! ARC-V Volume 7 promotional card",
+   "Type": "Manga promotion",
+   "Release date": "2 June 2020",
+   "Notes": "Go! - D/D/D Divine Zero King Rage (UR)"
+ },
+ {
+   "Abbr.": "TYL",
+   "Name": "Make-A-Wish Foundation promotional card",
+   "Type": "One of a kind",
+   "Release date": "5 August 2005",
+   "Notes": "Tyler the Great Warrior (UR)"
+ },
+ {
+   "Abbr.": "OP01",
+   "Name": "OTS Tournament Pack 1",
+   "Type": "OTS Tournament Pack",
+   "Release date": "18 March 2016",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "OP02",
+   "Name": "OTS Tournament Pack 2",
+   "Type": "OTS Tournament Pack",
+   "Release date": "22 July 2016",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "OP03",
+   "Name": "OTS Tournament Pack 3",
+   "Type": "OTS Tournament Pack",
+   "Release date": "18 November 2016",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "OP04",
+   "Name": "OTS Tournament Pack 4",
+   "Type": "OTS Tournament Pack",
+   "Release date": "7 April 2017",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "OP05",
+   "Name": "OTS Tournament Pack 5",
+   "Type": "OTS Tournament Pack",
+   "Release date": "5 August 2017",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "OP06",
+   "Name": "OTS Tournament Pack 6",
+   "Type": "OTS Tournament Pack",
+   "Release date": "7 December 2017",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "OP07",
+   "Name": "OTS Tournament Pack 7",
+   "Type": "OTS Tournament Pack",
+   "Release date": "13 April 2018",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "OP08",
+   "Name": "OTS Tournament Pack 8",
+   "Type": "OTS Tournament Pack",
+   "Release date": "17 August 2018",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "OP09",
+   "Name": "OTS Tournament Pack 9",
+   "Type": "OTS Tournament Pack",
+   "Release date": "7 December 2018",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "OP10",
+   "Name": "OTS Tournament Pack 10",
+   "Type": "OTS Tournament Pack",
+   "Release date": "18 April 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "OP11",
+   "Name": "OTS Tournament Pack 11",
+   "Type": "OTS Tournament Pack",
+   "Release date": "15 August 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "OP12",
+   "Name": "OTS Tournament Pack 12",
+   "Type": "OTS Tournament Pack",
+   "Release date": "5 December 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "OP13",
+   "Name": "OTS Tournament Pack 13",
+   "Type": "OTS Tournament Pack",
+   "Release date": "16 April 2020",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "OP14",
+   "Name": "OTS Tournament Pack 14",
+   "Type": "OTS Tournament Pack",
+   "Release date": "8 October 2020",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "OP15",
+   "Name": "OTS Tournament Pack 15",
+   "Type": "OTS Tournament Pack",
+   "Release date": "17 February 2021",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "OP16",
+   "Name": "OTS Tournament Pack 16",
+   "Type": "OTS Tournament Pack",
+   "Release date": "10 June 2021",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "OP17",
+   "Name": "OTS Tournament Pack 17",
+   "Type": "OTS Tournament Pack",
+   "Release date": "13 October 2021",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "OP18",
+   "Name": "OTS Tournament Pack 18",
+   "Type": "OTS Tournament Pack",
+   "Release date": "17 February 2022",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "OP19",
+   "Name": "OTS Tournament Pack 19",
+   "Type": "OTS Tournament Pack",
+   "Release date": "15 June 2022",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "OP20",
+   "Name": "OTS Tournament Pack 20",
+   "Type": "OTS Tournament Pack",
+   "Release date": "5 October 2022",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "OP21",
+   "Name": "OTS Tournament Pack 21",
+   "Type": "OTS Tournament Pack",
+   "Release date": "8 February 2023",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "OP22",
+   "Name": "OTS Tournament Pack 22",
+   "Type": "OTS Tournament Pack",
+   "Release date": "19 June 2023",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "OP23",
+   "Name": "OTS Tournament Pack 23",
+   "Type": "OTS Tournament Pack",
+   "Release date": "25 October 2023",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "OP24",
+   "Name": "OTS Tournament Pack 24",
+   "Type": "OTS Tournament Pack",
+   "Release date": "14 February 2024",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "OP25",
+   "Name": "OTS Tournament Pack 25",
+   "Type": "OTS Tournament Pack",
+   "Release date": "12 June 2024",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "OP26",
+   "Name": "OTS Tournament Pack 26",
+   "Type": "OTS Tournament Pack",
+   "Release date": "16 October 2024",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "OP27",
+   "Name": "OTS Tournament Pack 27",
+   "Type": "OTS Tournament Pack",
+   "Release date": "26 February 2025",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "OP28",
+   "Name": "OTS Tournament Pack 28",
+   "Type": "OTS Tournament Pack",
+   "Release date": "18 June 2025",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "OP29",
+   "Name": "OTS Tournament Pack 29",
+   "Type": "OTS Tournament Pack",
+   "Release date": "15 October 2025",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "YS13-V",
+   "Name": "Super Starter Power-Up Pack",
+   "Type": "Power-Up Pack",
+   "Release date": "14 June 2013",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "YS14-A",
+   "Name": "Space-Time Showdown Power-Up Pack",
+   "Type": "Power-Up Pack",
+   "Release date": "11 July 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "NKRT",
+   "Name": "Noble Knights of the Round Table Power-Up Pack",
+   "Type": "Power-Up Pack",
+   "Release date": "20 November 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "PP01",
+   "Name": "Premium Pack",
+   "Type": "Premium Pack",
+   "Release date": "26 July 2007",
+   "Notes": "Dekoichi the Battlechanted Locomotive (UPR)"
+ },
+ {
+   "Abbr.": "PP02",
+   "Name": "Premium Pack 2",
+   "Type": "Premium Pack",
+   "Release date": "31 July 2008",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "EP1",
+   "Name": "Kids' WB! Duel of Destiny promotional card",
+   "Type": "Promotional card",
+   "Release date": "5 May 2004",
+   "Notes": "Card of Sanctity (C)"
+ },
+ {
+   "Abbr.": "MOV2",
+   "Name": "Yu-Gi-Oh! 3D Bonds Beyond Time Theater distribution card",
+   "Type": "Promotional card",
+   "Release date": "26 February 2011",
+   "Notes": "Malefic Red-Eyes Black Dragon (UR)"
+ },
+ {
+   "Abbr.": "MVPC",
+   "Name": "Yu-Gi-Oh! The Dark Side of Dimensions Blu-ray & DVD promotional card",
+   "Type": "Promotional card",
+   "Release date": "7 June 2017",
+   "Notes": "Obelisk the Tormentor (GUR)"
+ },
+ {
+   "Abbr.": "TKN4",
+   "Name": "Yu-Gi-Oh! Day July 2017 promotional card",
+   "Type": "Promotional card",
+   "Release date": "22 July 2017",
+   "Notes": "Token (SR)"
+ },
+ {
+   "Abbr.": "",
+   "Name": "Masterpiece Series: Platinum Blue-Eyes White Dragon",
+   "Type": "Promotional card",
+   "Release date": "August 2021",
+   "Notes": "Blue-Eyes White Dragon"
+ },
+ {
+   "Abbr.": "",
+   "Name": "Masterpiece Series: Platinum Dark Magician",
+   "Type": "Promotional card",
+   "Release date": "6 September 2023",
+   "Notes": "Dark Magician"
+ },
+ {
+   "Abbr.": "",
+   "Name": "Stainless Steel Egyptian God Cards",
+   "Type": "Promotional card",
+   "Release date": "March 2024",
+   "Notes": "Obelisk the Tormentor (UR)"
+ },
+ {
+   "Abbr.": "",
+   "Name": "Stainless Steel Egyptian God Cards Sweepstakes",
+   "Type": "Promotional card",
+   "Release date": "22 March 2024",
+   "Notes": "Black Luster Soldier (UR)"
+ },
+ {
+   "Abbr.": "",
+   "Name": "Stainless Steel Card: Dark Magician Girl",
+   "Type": "Promotional card",
+   "Release date": "August 2024",
+   "Notes": "Dark Magician Girl (UR)"
+ },
+ {
+   "Abbr.": "UBP1",
+   "Name": "Yu-Gi-Oh! GX Ultimate Beginner's Pack",
+   "Type": "Promotional cards",
+   "Release date": "19 July 2006",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TKN1",
+   "Name": "Duel the Master: Orichalcos Challenge 2006 promotional card",
+   "Type": "Promotional cards",
+   "Release date": "20 July 2006",
+   "Notes": "Sheep Token (C)"
+ },
+ {
+   "Abbr.": "MP1",
+   "Name": "McDonald's Promotional Cards",
+   "Type": "Promotional set",
+   "Release date": "20 December 2002",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "EP1",
+   "Name": "Exclusive Pack",
+   "Type": "Promotional set",
+   "Release date": "1 August 2004",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "MOV",
+   "Name": "Movie Pack",
+   "Type": "Promotional set",
+   "Release date": "13 August 2004",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "MDP2",
+   "Name": "McDonald's Promotional Cards 2",
+   "Type": "Promotional set",
+   "Release date": "26 December 2006",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "EHC1",
+   "Name": "Yu-Gi-Oh! Elemental Hero Collection 1",
+   "Type": "Promotional set",
+   "Release date": "13 November 2007",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "EHC2",
+   "Name": "Yu-Gi-Oh! Elemental Hero Collection 2",
+   "Type": "Promotional set",
+   "Release date": "13 November 2007",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DDY1",
+   "Name": "Duel Disk - Yusei Version",
+   "Type": "Promotional set",
+   "Release date": "November 2009",
+   "Notes": "Vice Dragon (UR)"
+ },
+ {
+   "Abbr.": "LC01",
+   "Name": "Legendary Collection: Gameboard Edition",
+   "Type": "Promotional set",
+   "Release date": "27 September 2013",
+   "Notes": "Stardust Spark Dragon (UR)"
+ },
+ {
+   "Abbr.": "TKN4",
+   "Name": "Battle City Tournament Kit",
+   "Type": "Promotional set",
+   "Release date": "1 January 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SP1",
+   "Name": "Flaming Eternity Sneak Peek Participation Card",
+   "Type": "Sneak peek",
+   "Release date": "26 February 2005",
+   "Notes": "Cyber Harpie Lady (UR)"
+ },
+ {
+   "Abbr.": "SP1",
+   "Name": "The Lost Millennium Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "28 May 2005",
+   "Notes": "Amazoness Chain Master (UR)"
+ },
+ {
+   "Abbr.": "SP1",
+   "Name": "Cybernetic Revolution Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "6 August 2005",
+   "Notes": "Embodiment of Apophis (UR)"
+ },
+ {
+   "Abbr.": "SP1",
+   "Name": "Elemental Energy Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "5 November 2005",
+   "Notes": "Exchange of the Spirit (UR)"
+ },
+ {
+   "Abbr.": "SP2",
+   "Name": "Shadow of Infinity Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "18 February 2006",
+   "Notes": "Ancient Lamp (UR)"
+ },
+ {
+   "Abbr.": "SP2",
+   "Name": "Enemy of Justice Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "13 May 2006",
+   "Notes": "Toon Dark Magician Girl (UR)"
+ },
+ {
+   "Abbr.": "SP02",
+   "Name": "Power of the Duelist Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "5 August 2006",
+   "Notes": "Hidden Soldiers (UR)"
+ },
+ {
+   "Abbr.": "SP02",
+   "Name": "Cyberdark Impact Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "4 November 2006",
+   "Notes": "Justi-Break (UR)"
+ },
+ {
+   "Abbr.": "STON-SP",
+   "Name": "Strike of Neos Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "24 February 2007",
+   "Notes": "Grandmaster of the Six Samurai (SR)"
+ },
+ {
+   "Abbr.": "FOTB-SP",
+   "Name": "Force of the Breaker Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "5 May 2007",
+   "Notes": "Volcanic Rocket (SR)"
+ },
+ {
+   "Abbr.": "TAEV-SP",
+   "Name": "Tactical Evolution Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "4 August 2007",
+   "Notes": "Gemini Summoner (SR)"
+ },
+ {
+   "Abbr.": "GLAS-SP",
+   "Name": "Gladiator's Assault Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "3 November 2007",
+   "Notes": "Gladiator Beast Octavius (SR)"
+ },
+ {
+   "Abbr.": "PTDN-SP",
+   "Name": "Phantom Darkness Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "26 January 2008",
+   "Notes": "Dark Grepher (SR)"
+ },
+ {
+   "Abbr.": "LODT-SP",
+   "Name": "Light of Destruction Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "3 May 2008",
+   "Notes": "Guardian of Order (SR)"
+ },
+ {
+   "Abbr.": "TDGS-SP",
+   "Name": "The Duelist Genesis Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "9 August 2008",
+   "Notes": "Avenging Knight Parshath (SR)"
+ },
+ {
+   "Abbr.": "CSOC-SP",
+   "Name": "Crossroads of Chaos Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "1 November 2008",
+   "Notes": "Rose, Warrior of Revenge (SR)"
+ },
+ {
+   "Abbr.": "CRMS-SP",
+   "Name": "Crimson Crisis Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "28 February 2009",
+   "Notes": "Colossal Fighter/Assault Mode (SR)"
+ },
+ {
+   "Abbr.": "RGBT-SP",
+   "Name": "Raging Battle Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "2 May 2009",
+   "Notes": "Battlestorm (SR)"
+ },
+ {
+   "Abbr.": "ANPR-SP",
+   "Name": "Ancient Prophecy Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "15 August 2009",
+   "Notes": "XX-Saber Gardestrike (UR)"
+ },
+ {
+   "Abbr.": "SOVR-SP",
+   "Name": "Stardust Overdrive Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "31 October 2009",
+   "Notes": "Koa'ki Meiru Beetle (UR)"
+ },
+ {
+   "Abbr.": "ABPF-SP",
+   "Name": "Absolute Powerforce Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "6 February 2010",
+   "Notes": "Gravekeeper's Priestess (UR)"
+ },
+ {
+   "Abbr.": "TSHD-SP",
+   "Name": "The Shining Darkness Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "1 May 2010",
+   "Notes": "XX-Saber Boggart Knight (UR)"
+ },
+ {
+   "Abbr.": "DREV",
+   "Name": "Duelist Revolution Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "7 August 2010",
+   "Notes": "Scrap Archfiend (UR)"
+ },
+ {
+   "Abbr.": "STBL-SP",
+   "Name": "Starstrike Blast Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "6 November 2010",
+   "Notes": "Archfiend Empress (UR)"
+ },
+ {
+   "Abbr.": "STOR-SP",
+   "Name": "Storm of Ragnarok Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "5 February 2011",
+   "Notes": "Vortex the Whirlwind (UR)"
+ },
+ {
+   "Abbr.": "EXVC-SP",
+   "Name": "Extreme Victory Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "30 April 2011",
+   "Notes": "Reborn Tengu (UR)"
+ },
+ {
+   "Abbr.": "GENF-SP",
+   "Name": "Generation Force Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "6 August 2011",
+   "Notes": "Xyz Veil (UR)"
+ },
+ {
+   "Abbr.": "PHSW-SP",
+   "Name": "Photon Shockwave Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "5 November 2011",
+   "Notes": "Alexandrite Dragon (UR)"
+ },
+ {
+   "Abbr.": "ORCS-SP",
+   "Name": "Order of Chaos Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "14 January 2012",
+   "Notes": "Inzektor Axe - Zektahawk (UR)"
+ },
+ {
+   "Abbr.": "GAOV-SP",
+   "Name": "Galactic Overlord Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "28 April 2012",
+   "Notes": "Noble Knight Artorigus (UR)"
+ },
+ {
+   "Abbr.": "REDU-SP",
+   "Name": "Return of the Duelist Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "18 August 2012",
+   "Notes": "Noble Knight Gawayn (UR)"
+ },
+ {
+   "Abbr.": "ABYR-SP",
+   "Name": "Abyss Rising Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "3 November 2012",
+   "Notes": "Ignoble Knight of Black Laundsallyn (UR)"
+ },
+ {
+   "Abbr.": "CBLZ-SP",
+   "Name": "Cosmo Blazer Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "19 January 2013",
+   "Notes": "Noble Arms - Caliburn (UR)"
+ },
+ {
+   "Abbr.": "LTGY-SP",
+   "Name": "Lord of the Tachyon Galaxy Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "11 May 2013",
+   "Notes": "Mecha Phantom Beast Turtletracer (UR)"
+ },
+ {
+   "Abbr.": "JOTL-SP",
+   "Name": "Judgment of the Light Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "3 August 2013",
+   "Notes": "Galaxy Serpent (UR)"
+ },
+ {
+   "Abbr.": "SHSP-SP",
+   "Name": "Shadow Specters Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "2 November 2013",
+   "Notes": "Ghostrick Ghoul (UR)"
+ },
+ {
+   "Abbr.": "LVAL-SP",
+   "Name": "Legacy of the Valiant Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "18 January 2014",
+   "Notes": "Sylvan Bladefender (SR)"
+ },
+ {
+   "Abbr.": "PRIO-SE",
+   "Name": "Primal Origin Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "10 May 2014",
+   "Notes": "Artifact Scythe (UR)"
+ },
+ {
+   "Abbr.": "DUEA-SP",
+   "Name": "Duelist Alliance Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "9 August 2014",
+   "Notes": "Dragon Horn Hunter (UR)"
+ },
+ {
+   "Abbr.": "NECH-SP",
+   "Name": "The New Challengers Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "1 November 2014",
+   "Notes": "Lancephorhynchus (UR)"
+ },
+ {
+   "Abbr.": "SECE-SP",
+   "Name": "Secrets of Eternity Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "10 January 2015",
+   "Notes": "Dragoons of Draconia (UR)"
+ },
+ {
+   "Abbr.": "CROS-SP",
+   "Name": "Crossed Souls Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "9 May 2015",
+   "Notes": "Sea Dragoons of Draconia (UR)"
+ },
+ {
+   "Abbr.": "CORE-SP",
+   "Name": "Clash of Rebellions Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "1 August 2015",
+   "Notes": "Sky Dragoons of Draconia (UR)"
+ },
+ {
+   "Abbr.": "DOCS-SP",
+   "Name": "Dimension of Chaos Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "31 October 2015",
+   "Notes": "Samurai Cavalry of Reptier (UR)"
+ },
+ {
+   "Abbr.": "BOSH-SP",
+   "Name": "Breakers of Shadow Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "9 January 2016",
+   "Notes": "Steel Cavalry of Dinon (UR)"
+ },
+ {
+   "Abbr.": "SHVI-SP",
+   "Name": "Shining Victories Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "30 April 2016",
+   "Notes": "Magical Cavalry of Cxulub (UR)"
+ },
+ {
+   "Abbr.": "TDIL-SP",
+   "Name": "The Dark Illusion Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "30 July 2016",
+   "Notes": "Magical Something (UR)"
+ },
+ {
+   "Abbr.": "INOV-SP",
+   "Name": "Invasion: Vengeance Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "29 October 2016",
+   "Notes": "Space Dragster (UR)"
+ },
+ {
+   "Abbr.": "RATE-SP",
+   "Name": "Raging Tempest Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "4 February 2017",
+   "Notes": "Fusion Recycling Plant (UR)"
+ },
+ {
+   "Abbr.": "MACR-SP",
+   "Name": "Maximum Crisis Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "29 April 2017",
+   "Notes": "Pendulum Switch (UR)"
+ },
+ {
+   "Abbr.": "COTD-SP",
+   "Name": "Code of the Duelist Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "29 July 2017",
+   "Notes": "Vendread Houndhorde (UR)"
+ },
+ {
+   "Abbr.": "CIBR-SP",
+   "Name": "Circuit Break Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "14 October 2017",
+   "Notes": "Hallohallo (UR)"
+ },
+ {
+   "Abbr.": "EXFO-SP",
+   "Name": "Extreme Force Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "27 January 2018",
+   "Notes": "World Legacy Scars (UR)"
+ },
+ {
+   "Abbr.": "FLOD-SP",
+   "Name": "Flames of Destruction Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "28 April 2018",
+   "Notes": "Monster Reborn Reborn (UR)"
+ },
+ {
+   "Abbr.": "CYHO-SP",
+   "Name": "Cybernetic Horizon Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "21 July 2018",
+   "Notes": "Contact Gate (UR)"
+ },
+ {
+   "Abbr.": "SOFU-SP",
+   "Name": "Soul Fusion Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "13 October 2018",
+   "Notes": "Token Collector (UR)"
+ },
+ {
+   "Abbr.": "SAST-SP",
+   "Name": "Savage Strike Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "26 January 2019",
+   "Notes": "Shiranui Squiresaga (UR)"
+ },
+ {
+   "Abbr.": "DANE-SP",
+   "Name": "Dark Neostorm Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "27 April 2019",
+   "Notes": "Amphibious Swarmship Amblowhale (UR)"
+ },
+ {
+   "Abbr.": "RIRA-SP",
+   "Name": "Rising Rampage Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "20 July 2019",
+   "Notes": "Tlakalel, His Malevolent Majesty (UR)"
+ },
+ {
+   "Abbr.": "CHIM-SP",
+   "Name": "Chaos Impact Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "19 October 2019",
+   "Notes": "Gladiator Beast Vespasius (UR)"
+ },
+ {
+   "Abbr.": "IGAS-SP",
+   "Name": "Ignition Assault Sneak Peek Participation Card",
+   "Type": "Sneak Peek",
+   "Release date": "25 January 2020",
+   "Notes": "Sky Striker Maneuver - Scissors Cross (UR)"
+ },
+ {
+   "Abbr.": "ETCO-SP",
+   "Name": "Eternity Code Premiere! promotional card",
+   "Type": "Sneak Peek",
+   "Release date": "25 April 2020",
+   "Notes": "Malice, Lady of Lament (UR)"
+ },
+ {
+   "Abbr.": "ROTD-SP",
+   "Name": "Rise of the Duelist Premiere! promotional card",
+   "Type": "Sneak Peek",
+   "Release date": "1 August 2020",
+   "Notes": "Gaia the Fierce Knight Origin (UR)"
+ },
+ {
+   "Abbr.": "PHRA-SP",
+   "Name": "Phantom Rage Premiere! promotional card",
+   "Type": "Sneak Peek",
+   "Release date": "31 October 2020",
+   "Notes": "Tri-Brigade Airborne Assault (UR)"
+ },
+ {
+   "Abbr.": "BLVO-SP",
+   "Name": "Blazing Vortex Premiere! promotional card",
+   "Type": "Sneak Peek",
+   "Release date": "30 January 2021",
+   "Notes": "Armed Dragon Flash (UR)"
+ },
+ {
+   "Abbr.": "LIOV-SP",
+   "Name": "Lightning Overdrive Premiere! promotional card",
+   "Type": "Sneak Peek",
+   "Release date": "29 May 2021",
+   "Notes": "Amazing Time Ticket (UR)"
+ },
+ {
+   "Abbr.": "DAMA-SP",
+   "Name": "Dawn of Majesty Premiere! promotional card",
+   "Type": "Sneak Peek",
+   "Release date": "7 August 2021",
+   "Notes": "Beetrooper Scout Buggy (UR)"
+ },
+ {
+   "Abbr.": "BODE-SP",
+   "Name": "Burst of Destiny Premiere! promotional card",
+   "Type": "Sneak Peek",
+   "Release date": "30 October 2021",
+   "Notes": "Floowandereeze & Empen (UR)"
+ },
+ {
+   "Abbr.": "BACH-SP",
+   "Name": "Battle of Chaos Premiere! promotional card",
+   "Type": "Sneak Peek",
+   "Release date": "5 February 2022",
+   "Notes": "Libromancer Geek Boy (UR)"
+ },
+ {
+   "Abbr.": "DIFO-SP",
+   "Name": "Dimension Force Premiere! promotional card",
+   "Type": "Sneak Peek",
+   "Release date": "14 May 2022",
+   "Notes": "Visas Starfrost (UR)"
+ },
+ {
+   "Abbr.": "POTE-SP",
+   "Name": "Power of the Elements Premiere! promotional card",
+   "Type": "Sneak Peek",
+   "Release date": "30 July 2022",
+   "Notes": "Ghoti of the Deep Beyond (UR)"
+ },
+ {
+   "Abbr.": "DABL-SP",
+   "Name": "Darkwing Blast Premiere! promotional card",
+   "Type": "Sneak Peek",
+   "Release date": "15 October 2022",
+   "Notes": "Muckraker From the Underworld (UR)"
+ },
+ {
+   "Abbr.": "PHHY-SP",
+   "Name": "Photon Hypernova Premiere! promotional card",
+   "Type": "Sneak Peek",
+   "Release date": "4 February 2023",
+   "Notes": "Gold Pride - Leon (UR)"
+ },
+ {
+   "Abbr.": "CYAC-SP",
+   "Name": "Cyberstorm Access Premiere! promotional card",
+   "Type": "Sneak Peek",
+   "Release date": "29 April 2023",
+   "Notes": "Tsumuha-Kutsunagi the Lord of Swords (UR)"
+ },
+ {
+   "Abbr.": "DUNE-SP",
+   "Name": "Duelist Nexus Premiere! promotional card",
+   "Type": "Sneak Peek",
+   "Release date": "22 July 2023",
+   "Notes": "Crimson Dragon (UR)"
+ },
+ {
+   "Abbr.": "AGOV-SP",
+   "Name": "Age of Overlord Premiere! promotional card",
+   "Type": "Sneak Peek",
+   "Release date": "14 October 2023",
+   "Notes": "Duamutef, Blessing of Horus (UR)"
+ },
+ {
+   "Abbr.": "PHNI-SP",
+   "Name": "Phantom Nightmare Premiere! promotional card",
+   "Type": "Sneak Peek",
+   "Release date": "3 February 2024",
+   "Notes": "Goblin Biker Grand Entrance (UR)"
+ },
+ {
+   "Abbr.": "LEDE-SP",
+   "Name": "Legacy of Destruction Premiere! promotional card",
+   "Type": "Sneak Peek",
+   "Release date": "20 April 2024",
+   "Notes": "Silent Magician Zero (UR)"
+ },
+ {
+   "Abbr.": "INFO-SP",
+   "Name": "The Infinite Forbidden Premiere! promotional card",
+   "Type": "Sneak Peek",
+   "Release date": "13 July 2024",
+   "Notes": "Millennium Ankh (UR)"
+ },
+ {
+   "Abbr.": "ROTA-SP",
+   "Name": "Rage of the Abyss Premiere! promotional card",
+   "Type": "Sneak Peek",
+   "Release date": "4 October 2024",
+   "Notes": "Mimighoul Charm (UR)"
+ },
+ {
+   "Abbr.": "SUDA-SP",
+   "Name": "Supreme Darkness Premiere! promotional card",
+   "Type": "Sneak Peek",
+   "Release date": "17 January 2025",
+   "Notes": "Argostars - Glorious Adra (UR)"
+ },
+ {
+   "Abbr.": "ALIN-SP",
+   "Name": "Alliance Insight Premiere! promotional card",
+   "Type": "Sneak Peek",
+   "Release date": "25 April 2025",
+   "Notes": "Regenesis Archfiend (UR)"
+ },
+ {
+   "Abbr.": "DUAD-SP",
+   "Name": "Duelist's Advance Premiere! promotional card",
+   "Type": "Sneak Peek",
+   "Release date": "27 June 2025",
+   "Notes": "Medius the Pure (UR)"
+ },
+ {
+   "Abbr.": "IOC-SE",
+   "Name": "Invasion of Chaos: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "1 April 2004",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "RDS-SE",
+   "Name": "Rise of Destiny: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "1 February 2005",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TLM-SE",
+   "Name": "The Lost Millennium: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "10 June 2005",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "FL1",
+   "Name": "Forbidden Legacy",
+   "Type": "Special Edition",
+   "Release date": "1 October 2005",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "JMP",
+   "Name": "Ultimate Edition",
+   "Type": "Special Edition",
+   "Release date": "26 October 2005",
+   "Notes": "Blue-Eyes Ultimate Dragon (UR)"
+ },
+ {
+   "Abbr.": "EEN-SE",
+   "Name": "Elemental Energy: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "30 November 2005",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DPK-SE",
+   "Name": "Duelist Pack: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "9 March 2006",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SOI-SE",
+   "Name": "Shadow of Infinity: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "1 April 2006",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "GSE",
+   "Name": "Yu-Gi-Oh! GX Special Edition",
+   "Type": "Special Edition",
+   "Release date": "1 April 2006",
+   "Notes": "Elemental HERO Wildheart (UScR)"
+ },
+ {
+   "Abbr.": "SD09-SS",
+   "Name": "Structure Deck: Dinosaur's Rage Special Set",
+   "Type": "Special Edition",
+   "Release date": "25 October 2006",
+   "Notes": "Five-Headed Dragon (UR)"
+ },
+ {
+   "Abbr.": "UE02",
+   "Name": "Ultimate Edition 2",
+   "Type": "Special Edition",
+   "Release date": "11 November 2006",
+   "Notes": "Dragon Master Knight (UR)"
+ },
+ {
+   "Abbr.": "STON-SE",
+   "Name": "Strike of Neos: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "14 March 2007",
+   "Notes": "Cyber End Dragon (SR)"
+ },
+ {
+   "Abbr.": "FOTB-SE",
+   "Name": "Force of the Breaker: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "25 June 2007",
+   "Notes": "Phantom Beast Rock-Lizard (SR)"
+ },
+ {
+   "Abbr.": "TAEV-SE",
+   "Name": "Tactical Evolution: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "12 September 2007",
+   "Notes": "Masked Beast Des Gardius (UR)"
+ },
+ {
+   "Abbr.": "GXNG",
+   "Name": "GX Next Generation",
+   "Type": "Special Edition",
+   "Release date": "3 November 2007",
+   "Notes": "Gladiator Beast Octavius (SR)"
+ },
+ {
+   "Abbr.": "LDPP",
+   "Name": "Light and Darkness Power Pack",
+   "Type": "Special Edition",
+   "Release date": "14 November 2007",
+   "Notes": "Light and Darkness Dragon (UR)"
+ },
+ {
+   "Abbr.": "GLAS-SE",
+   "Name": "Gladiator's Assault: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "12 December 2007",
+   "Notes": "Phantom of Chaos (UR)"
+ },
+ {
+   "Abbr.": "PTDN-SE",
+   "Name": "Phantom Darkness: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "18 March 2008",
+   "Notes": "Mutant Mindmaster (SR)"
+ },
+ {
+   "Abbr.": "LODT-SE",
+   "Name": "Light of Destruction: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "18 June 2008",
+   "Notes": "Kuraz the Light Monarch (SR)"
+ },
+ {
+   "Abbr.": "TDGS-SE",
+   "Name": "The Duelist Genesis: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "7 October 2008",
+   "Notes": "Eradicator Epidemic Virus (SR)"
+ },
+ {
+   "Abbr.": "CSOC-SE",
+   "Name": "Crossroads of Chaos: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "9 December 2008",
+   "Notes": "Harvest Angel of Wisdom (SR)"
+ },
+ {
+   "Abbr.": "SDSC-SE",
+   "Name": "Spellcaster's Command Structure Deck: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "31 March 2009",
+   "Notes": "Magician's Valkyria (UR)"
+ },
+ {
+   "Abbr.": "CRMS-SE",
+   "Name": "Crimson Crisis: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "7 April 2009",
+   "Notes": "Necroface (SR)"
+ },
+ {
+   "Abbr.": "RGBT-SE",
+   "Name": "Raging Battle: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "23 June 2009",
+   "Notes": "The Dark Creator (SR)"
+ },
+ {
+   "Abbr.": "ANPR-SE",
+   "Name": "Ancient Prophecy: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "9 October 2009",
+   "Notes": "Solar Recharge (SR)"
+ },
+ {
+   "Abbr.": "ANPR-TK",
+   "Name": "Ancient Prophecy Plus",
+   "Type": "Special Edition",
+   "Release date": "November 2009",
+   "Notes": "Ghost Token (C)"
+ },
+ {
+   "Abbr.": "SOVR-TK",
+   "Name": "Stardust Overdrive Plus",
+   "Type": "Special Edition",
+   "Release date": "December 2009",
+   "Notes": "Soul Token (C)"
+ },
+ {
+   "Abbr.": "SOVR-SE",
+   "Name": "Stardust Overdrive: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "15 December 2009",
+   "Notes": "Tempest Magician (SR)"
+ },
+ {
+   "Abbr.": "TWED",
+   "Name": "Twilight Edition",
+   "Type": "Special Edition",
+   "Release date": "5 January 2010",
+   "Notes": "Honest (UR)"
+ },
+ {
+   "Abbr.": "ABPF-TK",
+   "Name": "Absolute Powerforce Plus",
+   "Type": "Special Edition",
+   "Release date": "February 2010",
+   "Notes": "Ceremonial Token (C)"
+ },
+ {
+   "Abbr.": "ABPF-SP",
+   "Name": "Absolute Powerforce: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "30 March 2010",
+   "Notes": "Dandylion (UR)"
+ },
+ {
+   "Abbr.": "DREV-SE",
+   "Name": "Duelist Revolution: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "21 September 2010",
+   "Notes": "Drill Warrior (SR)"
+ },
+ {
+   "Abbr.": "XSPU",
+   "Name": "X-Saber Power-Up",
+   "Type": "Special Edition",
+   "Release date": "23 November 2010",
+   "Notes": "XX-Saber Fulhelmknight (SR)"
+ },
+ {
+   "Abbr.": "STOR-SE",
+   "Name": "Storm of Ragnarok: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "22 March 2011",
+   "Notes": "Light and Darkness Dragon (SR)"
+ },
+ {
+   "Abbr.": "HASE",
+   "Name": "Hidden Arsenal: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "12 June 2011",
+   "Notes": "XX-Saber Emmersblade (SR)"
+ },
+ {
+   "Abbr.": "HASE",
+   "Name": "Hidden Arsenal: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "21 July 2011",
+   "Notes": "XX-Saber Emmersblade (SR)"
+ },
+ {
+   "Abbr.": "GENF-SE",
+   "Name": "Generation Force: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "15 September 2011",
+   "Notes": "Elemental HERO Absolute Zero (SR)"
+ },
+ {
+   "Abbr.": "SAAS",
+   "Name": "Samurai Assault",
+   "Type": "Special Edition",
+   "Release date": "6 December 2011",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "ORCS-SE",
+   "Name": "Order of Chaos: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "1 March 2012",
+   "Notes": "Effect Veiler (SR)"
+ },
+ {
+   "Abbr.": "H5SE",
+   "Name": "Hidden Arsenal 5: Steelswarm Invasion: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "30 March 2012",
+   "Notes": "Brionac, Dragon of the Ice Barrier (SR)"
+ },
+ {
+   "Abbr.": "RYMP-SE",
+   "Name": "Ra Yellow Mega Pack: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "12 June 2012",
+   "Notes": "Legendary Six Samurai - Shi En (SR)"
+ },
+ {
+   "Abbr.": "REDU-SE",
+   "Name": "Return of the Duelist: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "20 September 2012",
+   "Notes": "T.G. Hyper Librarian (SR)"
+ },
+ {
+   "Abbr.": "ABYR-SE",
+   "Name": "Abyss Rising: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "5 December 2012",
+   "Notes": "Gagaga Girl (SR)"
+ },
+ {
+   "Abbr.": "CBLZ-SE",
+   "Name": "Cosmo Blazer: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "21 March 2013",
+   "Notes": "Wind-Up Shark (SR)"
+ },
+ {
+   "Abbr.": "",
+   "Name": "Super Starter: Power Box",
+   "Type": "Special Edition",
+   "Release date": "14 June 2013",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "",
+   "Name": "Duelist Pack: Yugi & Kaiba Special Edition",
+   "Type": "Special Edition",
+   "Release date": "25 October 2013",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SHSP-SE",
+   "Name": "Shadow Specters: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "12 December 2013",
+   "Notes": "Stardust Dragon (SR)"
+ },
+ {
+   "Abbr.": "FFSE",
+   "Name": "Fire Fists: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "4 April 2014",
+   "Notes": "Fire Formation - Tenki (SR)"
+ },
+ {
+   "Abbr.": "PRIO-PL",
+   "Name": "Primal Origin Plus",
+   "Type": "Special Edition",
+   "Release date": "9 June 2014",
+   "Notes": "Sylvan Snapdrassinagon (UR)"
+ },
+ {
+   "Abbr.": "",
+   "Name": "Space-Time Showdown Power Box",
+   "Type": "Special Edition",
+   "Release date": "11 June 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "",
+   "Name": "HERO Strike Elite",
+   "Type": "Special Edition",
+   "Release date": "29 January 2015",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SECE-S",
+   "Name": "Secrets of Eternity: Super Edition",
+   "Type": "Special Edition",
+   "Release date": "27 February 2015",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CROS-AE",
+   "Name": "Crossed Souls: Advance Edition",
+   "Type": "Special Edition",
+   "Release date": "2 July 2015",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DOCS-SE",
+   "Name": "Dimension of Chaos: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "10 December 2015",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CORE-SE",
+   "Name": "Clash of Rebellions: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "11 December 2015",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "BOSH-SE",
+   "Name": "Breakers of Shadow: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "12 February 2016",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SHVI-SE",
+   "Name": "Shining Victories: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "17 June 2016",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TDIL-SE",
+   "Name": "The Dark Illusion Special Edition",
+   "Type": "Special Edition",
+   "Release date": "15 September 2016",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "INOV-SE",
+   "Name": "Invasion: Vengeance: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "9 December 2016",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "MVP1-G",
+   "Name": "Yu-Gi-Oh! The Dark Side of Dimensions Movie Pack: Gold Edition",
+   "Type": "Special Edition",
+   "Release date": "13 January 2017",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "RATE-SE",
+   "Name": "Raging Tempest: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "17 March 2017",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "MACR-SE",
+   "Name": "Maximum Crisis: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "9 June 2017",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "COTD-SE",
+   "Name": "Code of the Duelist: Special Edition",
+   "Type": "Special Edition",
+   "Release date": "21 September 2017",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CIBR-SE",
+   "Name": "Circuit Break Special Edition",
+   "Type": "Special Edition",
+   "Release date": "8 December 2017",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "EXFO-SE",
+   "Name": "Extreme Force Special Edition",
+   "Type": "Special Edition",
+   "Release date": "23 March 2018",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "FLOD-SE",
+   "Name": "Flames of Destruction Special Edition",
+   "Type": "Special Edition",
+   "Release date": "8 June 2018",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "BLRR",
+   "Name": "Battles of Legend: Relentless Revenge",
+   "Type": "Special Edition",
+   "Release date": "29 June 2018",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "MVP1-SE",
+   "Name": "Yu-Gi-Oh! The Dark Side of Dimensions Movie Pack Special Edition",
+   "Type": "Special Edition",
+   "Release date": "7 September 2018",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CYHO-SE",
+   "Name": "Cybernetic Horizon Special Edition",
+   "Type": "Special Edition",
+   "Release date": "13 September 2018",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SOFU-SE",
+   "Name": "Soul Fusion Special Edition",
+   "Type": "Special Edition",
+   "Release date": "7 December 2018",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SAST-SE",
+   "Name": "Savage Strike Special Edition",
+   "Type": "Special Edition",
+   "Release date": "8 March 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DANE-SE",
+   "Name": "Dark Neostorm Special Edition",
+   "Type": "Special Edition",
+   "Release date": "14 June 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "RIRA-SE",
+   "Name": "Rising Rampage Special Edition",
+   "Type": "Special Edition",
+   "Release date": "13 September 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CHIM-SE",
+   "Name": "Chaos Impact Special Edition",
+   "Type": "Special Edition",
+   "Release date": "5 December 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "MVP1-S",
+   "Name": "Yu-Gi-Oh! The Dark Side of Dimensions Movie Pack Secret Edition",
+   "Type": "Special Edition",
+   "Release date": "24 January 2020",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "IGAS-SE",
+   "Name": "Ignition Assault Special Edition",
+   "Type": "Special Edition",
+   "Release date": "5 March 2020",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SBLS",
+   "Name": "Speed Duel: Arena of Lost Souls",
+   "Type": "Speed Duel Booster Pack",
+   "Release date": "22 March 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SBAD",
+   "Name": "Speed Duel: Attack from the Deep",
+   "Type": "Speed Duel Booster Pack",
+   "Release date": "31 May 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SBSC",
+   "Name": "Speed Duel: Scars of Battle",
+   "Type": "Speed Duel Booster Pack",
+   "Release date": "2 August 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SBTK",
+   "Name": "Speed Duel: Trials of the Kingdom",
+   "Type": "Speed Duel Booster Pack",
+   "Release date": "5 December 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SBCB",
+   "Name": "Speed Duel: Battle City Box",
+   "Type": "Speed Duel collector's set",
+   "Release date": "20 November 2020",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SGX1",
+   "Name": "Speed Duel GX: Duel Academy Box",
+   "Type": "Speed Duel collector's set",
+   "Release date": "18 March 2022",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SGX2",
+   "Name": "Speed Duel GX: Midterm Paradox",
+   "Type": "Speed Duel collector's set",
+   "Release date": "6 October 2022",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SGX3",
+   "Name": "Speed Duel GX: Duelists of Shadows",
+   "Type": "Speed Duel collector's set",
+   "Release date": "30 March 2023",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SBC1",
+   "Name": "Speed Duel: Streets of Battle City",
+   "Type": "Speed Duel collector's set",
+   "Release date": "24 August 2023",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SGX4",
+   "Name": "Speed Duel GX: Midterm Destruction",
+   "Type": "Speed Duel collector's set",
+   "Release date": "29 March 2024",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SBC2",
+   "Name": "Speed Duel: Battle City Finals",
+   "Type": "Speed Duel collector's set",
+   "Release date": "13 December 2024",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DEM5",
+   "Name": "Speed Duel Demo Deck",
+   "Type": "Speed Duel demo deck",
+   "Release date": "8 June 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "JMPS-S",
+   "Name": "SJ Jump Pack Spring 2020 promotional card",
+   "Type": "Speed Duel magazine promotion",
+   "Release date": "1 February 2020",
+   "Notes": "Beatdown! (UR)"
+ },
+ {
+   "Abbr.": "YDPR-S",
+   "Name": "Yu-Gi-Oh! Day April 2019 promotional card",
+   "Type": "Speed Duel promotional card",
+   "Release date": "6 April 2019",
+   "Notes": "Destiny Draw (UR)"
+ },
+ {
+   "Abbr.": "EVSD",
+   "Name": "Event Pack Speed Duel",
+   "Type": "Speed Duel promotional card",
+   "Release date": "2 August 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "EVSD-S",
+   "Name": "Speed Duel: Scars of Battle Launch Event participation card",
+   "Type": "Speed Duel promotional card",
+   "Release date": "17 August 2019",
+   "Notes": "Bandit (UR)"
+ },
+ {
+   "Abbr.": "OPTP",
+   "Name": "Trials of the Pharaoh - Speed Duel GX: Duel Academy Box promotional card",
+   "Type": "Speed Duel promotional card",
+   "Release date": "9 April 2022",
+   "Notes": "Elemental HERO Sparkman (SR)"
+ },
+ {
+   "Abbr.": "OPTP",
+   "Name": "Trials of the Pharaoh - Speed Duel GX: Midterm Paradox promotional card",
+   "Type": "Speed Duel promotional card",
+   "Release date": "16 January 2023",
+   "Notes": "Skyscraper 2 - Hero City (SR)"
+ },
+ {
+   "Abbr.": "SBTK-SP",
+   "Name": "Speed Duel: Trials of the Kingdom Sneak Peek participation cards",
+   "Type": "Speed Duel Sneak Peek",
+   "Release date": "30 November 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SS01",
+   "Name": "Speed Duel Starter Decks: Destiny Masters",
+   "Type": "Speed Duel Starter Deck",
+   "Release date": "24 January 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SS02",
+   "Name": "Speed Duel Starter Decks: Duelists of Tomorrow",
+   "Type": "Speed Duel Starter Deck",
+   "Release date": "24 January 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SS03",
+   "Name": "Speed Duel Starter Decks: Ultimate Predators",
+   "Type": "Speed Duel Starter Deck",
+   "Release date": "2 August 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SS04",
+   "Name": "Speed Duel Starter Decks: Match of the Millennium",
+   "Type": "Speed Duel Starter Deck",
+   "Release date": "15 May 2020",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SS05",
+   "Name": "Speed Duel Starter Decks: Twisted Nightmares",
+   "Type": "Speed Duel Starter Deck",
+   "Release date": "15 May 2020",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "STP1",
+   "Name": "Speed Duel Tournament Pack 1",
+   "Type": "Speed Duel Tournament Pack",
+   "Release date": "18 April 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "STP2",
+   "Name": "Speed Duel Tournament Pack 2",
+   "Type": "Speed Duel Tournament Pack",
+   "Release date": "10 October 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "STP3",
+   "Name": "Speed Duel Tournament Pack 3",
+   "Type": "Speed Duel Tournament Pack",
+   "Release date": "24 March 2022",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "STP4",
+   "Name": "Speed Duel Tournament Pack 4",
+   "Type": "Speed Duel Tournament Pack",
+   "Release date": "28 September 2022",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "STP5",
+   "Name": "Speed Duel Tournament Pack 5",
+   "Type": "Speed Duel Tournament Pack",
+   "Release date": "8 March 2023",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "STP6",
+   "Name": "Speed Duel Tournament Pack 6",
+   "Type": "Speed Duel Tournament Pack",
+   "Release date": "6 September 2023",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "STP7",
+   "Name": "Speed Duel Tournament Pack 7",
+   "Type": "Speed Duel Tournament Pack",
+   "Release date": "3 April 2024",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SP13",
+   "Name": "Star Pack 2013",
+   "Type": "Star Pack",
+   "Release date": "1 March 2013",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SP14",
+   "Name": "Star Pack 2014",
+   "Type": "Star Pack",
+   "Release date": "21 February 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SP15",
+   "Name": "Star Pack ARC-V",
+   "Type": "Star Pack",
+   "Release date": "12 June 2015",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SP17",
+   "Name": "Star Pack Battle Royal",
+   "Type": "Star Pack",
+   "Release date": "10 March 2017",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SP18",
+   "Name": "Star Pack VRAINS",
+   "Type": "Star Pack",
+   "Release date": "30 March 2018",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDK",
+   "Name": "Starter Deck: Kaiba",
+   "Type": "Starter Deck",
+   "Release date": "29 March 2002",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDY",
+   "Name": "Starter Deck: Yugi",
+   "Type": "Starter Deck",
+   "Release date": "29 March 2002",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDJ",
+   "Name": "Starter Deck: Joey",
+   "Type": "Starter Deck",
+   "Release date": "30 March 2003",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDP",
+   "Name": "Starter Deck: Pegasus",
+   "Type": "Starter Deck",
+   "Release date": "30 March 2003",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SKE",
+   "Name": "Starter Deck: Kaiba Evolution",
+   "Type": "Starter Deck",
+   "Release date": "1 March 2004",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SYE",
+   "Name": "Starter Deck: Yugi Evolution",
+   "Type": "Starter Deck",
+   "Release date": "1 March 2004",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "YSD",
+   "Name": "Starter Deck 2006",
+   "Type": "Starter Deck",
+   "Release date": "23 March 2006",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "YSDJ",
+   "Name": "Starter Deck: Jaden Yuki",
+   "Type": "Starter Deck",
+   "Release date": "25 July 2007",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "YSDS",
+   "Name": "Starter Deck: Syrus Truesdale",
+   "Type": "Starter Deck",
+   "Release date": "25 July 2007",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "5DS1",
+   "Name": "Starter Deck: Yu-Gi-Oh! 5D's",
+   "Type": "Starter Deck",
+   "Release date": "5 August 2008",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "5DS2",
+   "Name": "Starter Deck: Yu-Gi-Oh! 5D's 2009",
+   "Type": "Starter Deck",
+   "Release date": "9 June 2009",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "5DS3",
+   "Name": "Starter Deck: Duelist Toolbox",
+   "Type": "Starter Deck",
+   "Release date": "1 June 2010",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "YS11",
+   "Name": "Starter Deck: Dawn of the Xyz",
+   "Type": "Starter Deck",
+   "Release date": "12 July 2011",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "YS12",
+   "Name": "Starter Deck: Xyz Symphony",
+   "Type": "Starter Deck",
+   "Release date": "12 April 2012",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "YS13",
+   "Name": "Super Starter: V for Victory",
+   "Type": "Starter Deck",
+   "Release date": "14 June 2013",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "YSKR",
+   "Name": "Starter Deck: Kaiba Reloaded",
+   "Type": "Starter Deck",
+   "Release date": "5 December 2013",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "YSYR",
+   "Name": "Starter Deck: Yugi Reloaded",
+   "Type": "Starter Deck",
+   "Release date": "5 December 2013",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "YS14",
+   "Name": "Super Starter: Space-Time Showdown",
+   "Type": "Starter Deck",
+   "Release date": "11 July 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "YS15-L",
+   "Name": "Dark Legion Starter Deck",
+   "Type": "Starter Deck",
+   "Release date": "29 May 2015",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "YS15-F",
+   "Name": "Saber Force Starter Deck",
+   "Type": "Starter Deck",
+   "Release date": "29 May 2015",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "YS16",
+   "Name": "Starter Deck: Yuya",
+   "Type": "Starter Deck",
+   "Release date": "27 May 2016",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "YS17",
+   "Name": "Starter Deck: Link Strike",
+   "Type": "Starter Deck",
+   "Release date": "21 July 2017",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "YS18",
+   "Name": "Starter Deck: Codebreaker",
+   "Type": "Starter Deck",
+   "Release date": "13 July 2018",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "EGO1",
+   "Name": "Egyptian God Deck: Obelisk the Tormentor",
+   "Type": "Starter Deck",
+   "Release date": "17 June 2021",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "EGS1",
+   "Name": "Egyptian God Deck: Slifer the Sky Dragon",
+   "Type": "Starter Deck",
+   "Release date": "17 June 2021",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "STAX",
+   "Name": "2-Player Starter Set",
+   "Type": "Starter Deck",
+   "Release date": "26 January 2024",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SD1",
+   "Name": "Structure Deck: Dragon's Roar",
+   "Type": "Structure Deck",
+   "Release date": "1 January 2005",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SD2",
+   "Name": "Structure Deck: Zombie Madness",
+   "Type": "Structure Deck",
+   "Release date": "1 January 2005",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SD3",
+   "Name": "Structure Deck: Blaze of Destruction",
+   "Type": "Structure Deck",
+   "Release date": "6 May 2005",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SD4",
+   "Name": "Structure Deck: Fury from the Deep",
+   "Type": "Structure Deck",
+   "Release date": "6 May 2005",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SD5",
+   "Name": "Structure Deck: Warrior's Triumph",
+   "Type": "Structure Deck",
+   "Release date": "28 October 2005",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SD6",
+   "Name": "Structure Deck: Spellcaster's Judgment",
+   "Type": "Structure Deck",
+   "Release date": "18 January 2006",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SD7",
+   "Name": "Structure Deck: Invincible Fortress",
+   "Type": "Structure Deck",
+   "Release date": "15 May 2006",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SD8",
+   "Name": "Structure Deck: Lord of the Storm",
+   "Type": "Structure Deck",
+   "Release date": "12 July 2006",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SD09",
+   "Name": "Structure Deck: Dinosaur's Rage",
+   "Type": "Structure Deck",
+   "Release date": "20 October 2006",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SD10",
+   "Name": "Structure Deck: Machine Re-Volt",
+   "Type": "Structure Deck",
+   "Release date": "17 January 2007",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDRL",
+   "Name": "Rise of the Dragon Lords Structure Deck",
+   "Type": "Structure Deck",
+   "Release date": "24 October 2007",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDDE",
+   "Name": "The Dark Emperor Structure Deck",
+   "Type": "Structure Deck",
+   "Release date": "2 April 2008",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDZW",
+   "Name": "Zombie World Structure Deck",
+   "Type": "Structure Deck",
+   "Release date": "21 October 2008",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDSC",
+   "Name": "Spellcaster's Command Structure Deck",
+   "Type": "Structure Deck",
+   "Release date": "31 March 2009",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDWS",
+   "Name": "Warriors' Strike Structure Deck",
+   "Type": "Structure Deck",
+   "Release date": "27 October 2009",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDMM",
+   "Name": "Machina Mayhem Structure Deck",
+   "Type": "Structure Deck",
+   "Release date": "23 February 2010",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDMA",
+   "Name": "Structure Deck: Marik",
+   "Type": "Structure Deck",
+   "Release date": "19 October 2010",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDDL",
+   "Name": "Dragunity Legion Structure Deck",
+   "Type": "Structure Deck",
+   "Release date": "4 March 2011",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDLS",
+   "Name": "Lost Sanctuary Structure Deck",
+   "Type": "Structure Deck",
+   "Release date": "9 June 2011",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDGU",
+   "Name": "Gates of the Underworld Structure Deck",
+   "Type": "Structure Deck",
+   "Release date": "18 October 2011",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDDC",
+   "Name": "Dragons Collide Structure Deck",
+   "Type": "Structure Deck",
+   "Release date": "7 February 2012",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDWA",
+   "Name": "Samurai Warlords Structure Deck",
+   "Type": "Structure Deck",
+   "Release date": "21 June 2012",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDRE",
+   "Name": "Realm of the Sea Emperor Structure Deck",
+   "Type": "Structure Deck",
+   "Release date": "10 October 2012",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDOK",
+   "Name": "Onslaught of the Fire Kings Structure Deck",
+   "Type": "Structure Deck",
+   "Release date": "8 February 2013",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDBE",
+   "Name": "Saga of Blue-Eyes White Dragon Structure Deck",
+   "Type": "Structure Deck",
+   "Release date": "12 September 2013",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDCR",
+   "Name": "Cyber Dragon Revolution Structure Deck",
+   "Type": "Structure Deck",
+   "Release date": "6 February 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDLI",
+   "Name": "Realm of Light Structure Deck",
+   "Type": "Structure Deck",
+   "Release date": "26 June 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDGR",
+   "Name": "Geargia Rampage Structure Deck",
+   "Type": "Structure Deck",
+   "Release date": "16 October 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDHS",
+   "Name": "HERO Strike Structure Deck",
+   "Type": "Structure Deck",
+   "Release date": "30 January 2015",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDSE",
+   "Name": "Synchron Extreme Structure Deck",
+   "Type": "Structure Deck",
+   "Release date": "28 August 2015",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDMP",
+   "Name": "Master of Pendulum Structure Deck",
+   "Type": "Structure Deck",
+   "Release date": "4 December 2015",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SR01",
+   "Name": "Emperor of Darkness Structure Deck",
+   "Type": "Structure Deck",
+   "Release date": "29 January 2016",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SR02",
+   "Name": "Rise of the True Dragons Structure Deck",
+   "Type": "Structure Deck",
+   "Release date": "8 July 2016",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDKS",
+   "Name": "Structure Deck: Seto Kaiba",
+   "Type": "Structure Deck",
+   "Release date": "20 October 2016",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDMY",
+   "Name": "Structure Deck: Yugi Muto",
+   "Type": "Structure Deck",
+   "Release date": "20 October 2016",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDPD",
+   "Name": "Pendulum Domination Structure Deck",
+   "Type": "Structure Deck",
+   "Release date": "20 January 2017",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SR04",
+   "Name": "Dinosmasher's Fury Structure Deck",
+   "Type": "Structure Deck",
+   "Release date": "14 April 2017",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SR03",
+   "Name": "Machine Reactor Structure Deck",
+   "Type": "Structure Deck",
+   "Release date": "14 April 2017",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDCL",
+   "Name": "Structure Deck: Cyberse Link",
+   "Type": "Structure Deck",
+   "Release date": "2 November 2017",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SR05",
+   "Name": "Structure Deck: Wave of Light",
+   "Type": "Structure Deck",
+   "Release date": "19 January 2018",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SR06",
+   "Name": "Structure Deck: Lair of Darkness",
+   "Type": "Structure Deck",
+   "Release date": "20 April 2018",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDPL",
+   "Name": "Structure Deck: Powercode Link",
+   "Type": "Structure Deck",
+   "Release date": "10 August 2018",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SR07",
+   "Name": "Structure Deck: Zombie Horde",
+   "Type": "Structure Deck",
+   "Release date": "2 November 2018",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDSB",
+   "Name": "Structure Deck: Soulburner",
+   "Type": "Structure Deck",
+   "Release date": "15 February 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SR08",
+   "Name": "Structure Deck: Order of the Spellcasters",
+   "Type": "Structure Deck",
+   "Release date": "19 April 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDRR",
+   "Name": "Structure Deck: Rokket Revolt",
+   "Type": "Structure Deck",
+   "Release date": "16 August 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDSH",
+   "Name": "Structure Deck: Shaddoll Showdown",
+   "Type": "Structure Deck",
+   "Release date": "14 February 2020",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SR10",
+   "Name": "Structure Deck: Mechanized Madness",
+   "Type": "Structure Deck",
+   "Release date": "16 April 2020",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDSA",
+   "Name": "Structure Deck: Sacred Beasts",
+   "Type": "Structure Deck",
+   "Release date": "9 July 2020",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDCH",
+   "Name": "Structure Deck: Spirit Charmers",
+   "Type": "Structure Deck",
+   "Release date": "23 October 2020",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDFC",
+   "Name": "Structure Deck: Freezing Chains",
+   "Type": "Structure Deck",
+   "Release date": "18 February 2021",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDCS",
+   "Name": "Structure Deck: Cyber Strike",
+   "Type": "Structure Deck",
+   "Release date": "15 October 2021",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDAZ",
+   "Name": "Structure Deck: Albaz Strike",
+   "Type": "Structure Deck",
+   "Release date": "14 April 2022",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDCB",
+   "Name": "Structure Deck: Legend of the Crystal Beasts",
+   "Type": "Structure Deck",
+   "Release date": "29 September 2022",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SR13",
+   "Name": "Structure Deck: Dark World",
+   "Type": "Structure Deck",
+   "Release date": "2 December 2022",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDBT",
+   "Name": "Structure Deck: Beware of Traptrix",
+   "Type": "Structure Deck",
+   "Release date": "24 February 2023",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDCK",
+   "Name": "Structure Deck: The Crimson King",
+   "Type": "Structure Deck",
+   "Release date": "22 September 2023",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SR14",
+   "Name": "Structure Deck: Fire Kings",
+   "Type": "Structure Deck",
+   "Release date": "7 December 2023",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDWD",
+   "Name": "Structure Deck: Blue-Eyes White Destiny",
+   "Type": "Structure Deck",
+   "Release date": "14 February 2025",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "NECH-SE",
+   "Name": "The New Challengers: Super Edition",
+   "Type": "Super Edition",
+   "Release date": "4 December 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "BPT",
+   "Name": "Booster Pack Collectors Tins 2002",
+   "Type": "Tin",
+   "Release date": "4 October 2002",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "BPT",
+   "Name": "Collectible Tins 2003",
+   "Type": "Tin",
+   "Release date": "1 September 2003",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CT1",
+   "Name": "Collectible Tins 2004",
+   "Type": "Tin",
+   "Release date": "1 September 2004",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CT2",
+   "Name": "Collectible Tins 2005",
+   "Type": "Tin",
+   "Release date": "1 September 2005",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CT03",
+   "Name": "Collectible Tins 2006 Wave 1",
+   "Type": "Tin",
+   "Release date": "11 September 2006",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CT03",
+   "Name": "Collectible Tins 2006 Wave 2",
+   "Type": "Tin",
+   "Release date": "1 November 2006",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CT04",
+   "Name": "Collectible Tins 2007 Wave 1",
+   "Type": "Tin",
+   "Release date": "29 August 2007",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CT04",
+   "Name": "Collectible Tins 2007 Wave 2",
+   "Type": "Tin",
+   "Release date": "15 November 2007",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DPCT",
+   "Name": "Duelist Pack Collection Tin 2008",
+   "Type": "Tin",
+   "Release date": "11 March 2008",
+   "Notes": "Card Ejector (UR)"
+ },
+ {
+   "Abbr.": "DPCT",
+   "Name": "Duelist Pack Collection Tin: Jaden Yuki",
+   "Type": "Tin",
+   "Release date": "23 March 2008",
+   "Notes": "Elemental HERO Prisma (UR)"
+ },
+ {
+   "Abbr.": "CT05",
+   "Name": "Collectible Tins 2008 Wave 1",
+   "Type": "Tin",
+   "Release date": "18 August 2008",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CT05-S",
+   "Name": "Collectible Tins Exclusive 2008",
+   "Type": "Tin",
+   "Release date": "23 September 2008",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CT05",
+   "Name": "Collectible Tins 2008 Wave 2",
+   "Type": "Tin",
+   "Release date": "3 November 2008",
+   "Notes": "Black Rose Dragon (ScR)"
+ },
+ {
+   "Abbr.": "DPCT",
+   "Name": "Duelist Pack Collection Tin 2009",
+   "Type": "Tin",
+   "Release date": "10 March 2009",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CT06",
+   "Name": "Collectible Tins 2009 Wave 1",
+   "Type": "Tin",
+   "Release date": "18 August 2009",
+   "Notes": "Power Tool Dragon (ScR)"
+ },
+ {
+   "Abbr.": "CT06",
+   "Name": "Collectible Tins 2009 Wave 2",
+   "Type": "Tin",
+   "Release date": "3 November 2009",
+   "Notes": "Majestic Star Dragon (ScR)"
+ },
+ {
+   "Abbr.": "DPCT",
+   "Name": "Duelist Pack Collection Tin 2010",
+   "Type": "Tin",
+   "Release date": "4 March 2010",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CT07",
+   "Name": "Collectible Tins 2010 Wave 1",
+   "Type": "Tin",
+   "Release date": "26 August 2010",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CT07",
+   "Name": "Collectible Tins 2010 Wave 2",
+   "Type": "Tin",
+   "Release date": "2 November 2010",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DPCT",
+   "Name": "Duelist Pack Collection Tin 2011",
+   "Type": "Tin",
+   "Release date": "5 April 2011",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CT08",
+   "Name": "Collectible Tins 2011 Wave 1",
+   "Type": "Tin",
+   "Release date": "25 August 2011",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CT08",
+   "Name": "Collectible Tins 2011 Wave 2",
+   "Type": "Tin",
+   "Release date": "1 November 2011",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "PRC1",
+   "Name": "Premium Collection Tin",
+   "Type": "Tin",
+   "Release date": "20 March 2012",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CT09",
+   "Name": "Collectible Tins 2012 Wave 1",
+   "Type": "Tin",
+   "Release date": "14 August 2012",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CT09",
+   "Name": "Collectible Tins 2012 Wave 2",
+   "Type": "Tin",
+   "Release date": "25 October 2012",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CT09",
+   "Name": "Collectible Tins 2012 Wave 2.5",
+   "Type": "Tin",
+   "Release date": "18 January 2013",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "ZTIN",
+   "Name": "Zexal Collection Tin",
+   "Type": "Tin",
+   "Release date": "7 March 2013",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CT10",
+   "Name": "2013 Collectible Tins Wave 1",
+   "Type": "Tin",
+   "Release date": "30 August 2013",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CT10",
+   "Name": "2013 Collectible Tins Wave 2",
+   "Type": "Tin",
+   "Release date": "22 November 2013",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CT11",
+   "Name": "2014 Mega-Tins",
+   "Type": "Tin",
+   "Release date": "29 August 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CT12",
+   "Name": "2015 Mega-Tins",
+   "Type": "Tin",
+   "Release date": "17 September 2015",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CT13",
+   "Name": "2016 Mega-Tins",
+   "Type": "Tin",
+   "Release date": "1 September 2016",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CT14",
+   "Name": "2017 Mega-Tins",
+   "Type": "Tin",
+   "Release date": "25 August 2017",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CT15",
+   "Name": "2018 Mega-Tins",
+   "Type": "Tin",
+   "Release date": "30 August 2018",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TN19",
+   "Name": "2019 Gold Sarcophagus Tin",
+   "Type": "Tin",
+   "Release date": "30 August 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "MP20",
+   "Name": "2020 Tin of Lost Memories",
+   "Type": "Tin",
+   "Release date": "27 August 2020",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "MP21",
+   "Name": "2021 Tin of Ancient Battles",
+   "Type": "Tin",
+   "Release date": "1 October 2021",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "MP22",
+   "Name": "2022 Tin of the Pharaoh's Gods",
+   "Type": "Tin",
+   "Release date": "16 September 2022",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TN23",
+   "Name": "25th Anniversary Tin: Dueling Heroes",
+   "Type": "Tin",
+   "Release date": "7 September 2023",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "MP24",
+   "Name": "25th Anniversary Tin: Dueling Mirrors",
+   "Type": "Tin",
+   "Release date": "19 September 2024",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "MP25",
+   "Name": "2025 Mega-Pack Tin",
+   "Type": "Tin",
+   "Release date": "4 September 2025",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TP1",
+   "Name": "Tournament Pack: 1st Season",
+   "Type": "Tournament Pack",
+   "Release date": "1 September 2002",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TP2",
+   "Name": "Tournament Pack: 2nd Season",
+   "Type": "Tournament Pack",
+   "Release date": "1 October 2002",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TP3",
+   "Name": "Tournament Pack: 3rd Season",
+   "Type": "Tournament Pack",
+   "Release date": "1 March 2003",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TP4",
+   "Name": "Tournament Pack 4",
+   "Type": "Tournament Pack",
+   "Release date": "1 October 2003",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TP5",
+   "Name": "Tournament Pack 5",
+   "Type": "Tournament Pack",
+   "Release date": "1 November 2004",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TP6",
+   "Name": "Tournament Pack 6",
+   "Type": "Tournament Pack",
+   "Release date": "1 June 2005",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TP7",
+   "Name": "Tournament Pack 7",
+   "Type": "Tournament Pack",
+   "Release date": "1 November 2005",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TP8",
+   "Name": "Tournament Pack 8",
+   "Type": "Tournament Pack",
+   "Release date": "28 April 2006",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DL1",
+   "Name": "Duelist League Series 1 participation cards",
+   "Type": "Tournament promotion",
+   "Release date": "1 January 2003",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DL2",
+   "Name": "Duelist League Series 2 participation cards",
+   "Type": "Tournament promotion",
+   "Release date": "15 July 2003",
+   "Notes": "The Masked Beast (SR)"
+ },
+ {
+   "Abbr.": "EM1",
+   "Name": "Yu-Gi-Oh! Trading Card Game Tour 2004 promotional card",
+   "Type": "Tournament promotion",
+   "Release date": "19 June 2004",
+   "Notes": "Machine King (UR)"
+ },
+ {
+   "Abbr.": "WCS",
+   "Name": "Yu-Gi-Oh! World Championship 2004 prize cards",
+   "Type": "Tournament promotion",
+   "Release date": "25 July 2004",
+   "Notes": "Ulevo (UR)"
+ },
+ {
+   "Abbr.": "DL5",
+   "Name": "Duelist League Series 5 participation card",
+   "Type": "Tournament promotion",
+   "Release date": "1 September 2004",
+   "Notes": "Restructer Revolution (SR)"
+ },
+ {
+   "Abbr.": "HL1",
+   "Name": "Hobby League 1 participation cards A",
+   "Type": "Tournament promotion",
+   "Release date": "1 October 2004",
+   "Notes": "Lord of the Lamp (C)"
+ },
+ {
+   "Abbr.": "DL6",
+   "Name": "Duelist League Series 6 participation card",
+   "Type": "Tournament promotion",
+   "Release date": "1 December 2004",
+   "Notes": "Toon Gemini Elf (SR)"
+ },
+ {
+   "Abbr.": "HL1",
+   "Name": "Hobby League 1 participation cards B",
+   "Type": "Tournament promotion",
+   "Release date": "December 2004",
+   "Notes": "A Legendary Ocean (C)"
+ },
+ {
+   "Abbr.": "SJC",
+   "Name": "Shonen Jump Championship 2004 Prize Card",
+   "Type": "Tournament promotion",
+   "Release date": "1 December 2004",
+   "Notes": "Cyber Stein (SR)"
+ },
+ {
+   "Abbr.": "HL1",
+   "Name": "Hobby League 1 participation cards C",
+   "Type": "Tournament promotion",
+   "Release date": "February 2005",
+   "Notes": "Fusion Gate (C)"
+ },
+ {
+   "Abbr.": "DL7",
+   "Name": "Duelist League Series 7 participation card",
+   "Type": "Tournament promotion",
+   "Release date": "1 April 2005",
+   "Notes": "Toon Goblin Attack Force (SR)"
+ },
+ {
+   "Abbr.": "DL8",
+   "Name": "Duelist League Series 8 participation card",
+   "Type": "Tournament promotion",
+   "Release date": "30 June 2005",
+   "Notes": "Acid Rain (SR)"
+ },
+ {
+   "Abbr.": "WCS-5",
+   "Name": "Yu-Gi-Oh! World Championship 2005 prize cards",
+   "Type": "Tournament promotion",
+   "Release date": "7 August 2005",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SJC",
+   "Name": "Shonen Jump Championship 2005 Prize Card",
+   "Type": "Tournament promotion",
+   "Release date": "20 August 2005",
+   "Notes": "Des Volstgalph (UR)"
+ },
+ {
+   "Abbr.": "PT1",
+   "Name": "Pharaoh Tour 2005 promotional cards",
+   "Type": "Tournament promotion",
+   "Release date": "17 December 2005",
+   "Notes": "Zoa (C)"
+ },
+ {
+   "Abbr.": "HL2",
+   "Name": "Hobby League 2 participation card A",
+   "Type": "Tournament promotion",
+   "Release date": "January 2006",
+   "Notes": "Cyber Jar (UPR)"
+ },
+ {
+   "Abbr.": "HL2",
+   "Name": "Hobby League 2 participation card D",
+   "Type": "Tournament promotion",
+   "Release date": "January 2006",
+   "Notes": "Heavy Storm (UPR)"
+ },
+ {
+   "Abbr.": "DL9",
+   "Name": "Duelist League Series 9 participation card",
+   "Type": "Tournament promotion",
+   "Release date": "3 January 2006",
+   "Notes": "Last Day of Witch (SR)"
+ },
+ {
+   "Abbr.": "HL2",
+   "Name": "Hobby League 2 participation card B",
+   "Type": "Tournament promotion",
+   "Release date": "February 2006",
+   "Notes": "Mystical Space Typhoon (UPR)"
+ },
+ {
+   "Abbr.": "HL2",
+   "Name": "Hobby League 2 participation card C",
+   "Type": "Tournament promotion",
+   "Release date": "March 2006",
+   "Notes": "Sangan (UPR)"
+ },
+ {
+   "Abbr.": "DL10",
+   "Name": "Duelist League Series 10 participation card",
+   "Type": "Tournament promotion",
+   "Release date": "28 April 2006",
+   "Notes": "Breath of Light (SR)"
+ },
+ {
+   "Abbr.": "HL2",
+   "Name": "Hobby League 2 participation card E",
+   "Type": "Tournament promotion",
+   "Release date": "May 2006",
+   "Notes": "Marauding Captain (UPR)"
+ },
+ {
+   "Abbr.": "SJC",
+   "Name": "Shonen Jump Championship 2006 Prize Card",
+   "Type": "Tournament promotion",
+   "Release date": "6 May 2006",
+   "Notes": "Shrink (UR)"
+ },
+ {
+   "Abbr.": "HL2",
+   "Name": "Hobby League 2 participation card F",
+   "Type": "Tournament promotion",
+   "Release date": "June 2006",
+   "Notes": "Fissure (UPR)"
+ },
+ {
+   "Abbr.": "HL03",
+   "Name": "Hobby League 3 participation card A",
+   "Type": "Tournament promotion",
+   "Release date": "July 2006",
+   "Notes": "Giant Rat (UPR)"
+ },
+ {
+   "Abbr.": "WCPS",
+   "Name": "Yu-Gi-Oh! World Championship 2006 prize cards",
+   "Type": "Tournament promotion",
+   "Release date": "2 July 2006",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "HL03",
+   "Name": "Hobby League 3 participation card B",
+   "Type": "Tournament promotion",
+   "Release date": "August 2006",
+   "Notes": "Creature Swap (UPR)"
+ },
+ {
+   "Abbr.": "HL03",
+   "Name": "Hobby League 3 participation card C",
+   "Type": "Tournament promotion",
+   "Release date": "September 2006",
+   "Notes": "Trap Hole (UPR)"
+ },
+ {
+   "Abbr.": "HL03",
+   "Name": "Hobby League 3 participation card D",
+   "Type": "Tournament promotion",
+   "Release date": "September 2006",
+   "Notes": "Spear Dragon (UPR)"
+ },
+ {
+   "Abbr.": "PT02",
+   "Name": "Pharaoh Tour 2006 Stop participation card",
+   "Type": "Tournament promotion",
+   "Release date": "17 September 2006",
+   "Notes": "Toon Dark Magician Girl (C)"
+ },
+ {
+   "Abbr.": "HL03",
+   "Name": "Hobby League 3 participation card E",
+   "Type": "Tournament promotion",
+   "Release date": "October 2006",
+   "Notes": "Mystic Tomato (UPR)"
+ },
+ {
+   "Abbr.": "HL03",
+   "Name": "Hobby League 3 participation card F",
+   "Type": "Tournament promotion",
+   "Release date": "October 2006",
+   "Notes": "Royal Decree (UPR)"
+ },
+ {
+   "Abbr.": "TKN1",
+   "Name": "Pharaoh Tour 2006 promotional cards",
+   "Type": "Tournament promotion",
+   "Release date": "28 October 2006",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "HL03",
+   "Name": "Hobby League 3 participation card G",
+   "Type": "Tournament promotion",
+   "Release date": "December 2006",
+   "Notes": "Dark Balter the Terrible (UPR)"
+ },
+ {
+   "Abbr.": "SJCS",
+   "Name": "Shonen Jump Championship 2007 Prize Card A",
+   "Type": "Tournament promotion",
+   "Release date": "27 January 2007",
+   "Notes": "Crush Card Virus (UR)"
+ },
+ {
+   "Abbr.": "HL04",
+   "Name": "Hobby League 4 participation card A",
+   "Type": "Tournament promotion",
+   "Release date": "April 2007",
+   "Notes": "Exiled Force (UPR)"
+ },
+ {
+   "Abbr.": "HL04",
+   "Name": "Hobby League 4 participation card B",
+   "Type": "Tournament promotion",
+   "Release date": "April 2007",
+   "Notes": "Swords of Revealing Light (UPR)"
+ },
+ {
+   "Abbr.": "TKN2",
+   "Name": "Toys \"R\" Us Throwdown promotional cards",
+   "Type": "Tournament promotion",
+   "Release date": "7 April 2007",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "HL04",
+   "Name": "Hobby League 4 participation card C",
+   "Type": "Tournament promotion",
+   "Release date": "May 2007",
+   "Notes": "Asura Priest (UPR)"
+ },
+ {
+   "Abbr.": "HL04",
+   "Name": "Hobby League 4 participation card F",
+   "Type": "Tournament promotion",
+   "Release date": "June 2007",
+   "Notes": "Torrential Tribute (UPR)"
+ },
+ {
+   "Abbr.": "HL05",
+   "Name": "Hobby League 5 participation card A",
+   "Type": "Tournament promotion",
+   "Release date": "July 2007",
+   "Notes": "Crystal Beast Ruby Carbuncle (UPR)"
+ },
+ {
+   "Abbr.": "WCPS",
+   "Name": "Yu-Gi-Oh! World Championship 2007 prize cards",
+   "Type": "Tournament promotion",
+   "Release date": "28 July 2007",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "HL05",
+   "Name": "Hobby League 5 participation card B",
+   "Type": "Tournament promotion",
+   "Release date": "August 2007",
+   "Notes": "Green Gadget (UPR)"
+ },
+ {
+   "Abbr.": "HL04",
+   "Name": "Hobby League 4 participation card D",
+   "Type": "Tournament promotion",
+   "Release date": "4 August 2007",
+   "Notes": "Graceful Charity (UPR)"
+ },
+ {
+   "Abbr.": "SJCS",
+   "Name": "Shonen Jump Championship 2007 Prize Card B",
+   "Type": "Tournament promotion",
+   "Release date": "18 August 2007",
+   "Notes": "Gold Sarcophagus (UR)"
+ },
+ {
+   "Abbr.": "HL05",
+   "Name": "Hobby League 5 participation card C",
+   "Type": "Tournament promotion",
+   "Release date": "September 2007",
+   "Notes": "Crystal Beacon (UPR)"
+ },
+ {
+   "Abbr.": "HL05",
+   "Name": "Hobby League 5 participation card D",
+   "Type": "Tournament promotion",
+   "Release date": "October 2007",
+   "Notes": "Dekoichi the Battlechanted Locomotive (UPR)"
+ },
+ {
+   "Abbr.": "PT03",
+   "Name": "Pharaoh Tour 2007 promotional cards",
+   "Type": "Tournament promotion",
+   "Release date": "13 October 2007",
+   "Notes": "Gold Sarcophagus (UR)"
+ },
+ {
+   "Abbr.": "HL05",
+   "Name": "Hobby League 5 participation card E",
+   "Type": "Tournament promotion",
+   "Release date": "November 2007",
+   "Notes": "The Six Samurai - Zanji (UPR)"
+ },
+ {
+   "Abbr.": "HL04",
+   "Name": "Hobby League 4 participation card E",
+   "Type": "Tournament promotion",
+   "Release date": "10 November 2007",
+   "Notes": "Kycoo the Ghost Destroyer (UPR)"
+ },
+ {
+   "Abbr.": "HL05",
+   "Name": "Hobby League 5 participation card F",
+   "Type": "Tournament promotion",
+   "Release date": "December 2007",
+   "Notes": "Scapegoat (UPR)"
+ },
+ {
+   "Abbr.": "HL06",
+   "Name": "Hobby League 6 participation card A",
+   "Type": "Tournament promotion",
+   "Release date": "21 January 2008",
+   "Notes": "Nobleman of Crossout (UPR)"
+ },
+ {
+   "Abbr.": "HL06",
+   "Name": "Hobby League 6 participation card B",
+   "Type": "Tournament promotion",
+   "Release date": "February 2008",
+   "Notes": "Limiter Removal (UPR)"
+ },
+ {
+   "Abbr.": "HL06",
+   "Name": "Hobby League 6 participation card C",
+   "Type": "Tournament promotion",
+   "Release date": "March 2008",
+   "Notes": "D.D. Warrior Lady (UPR)"
+ },
+ {
+   "Abbr.": "SJCS",
+   "Name": "Shonen Jump Championship 2008 Prize Card",
+   "Type": "Tournament promotion",
+   "Release date": "8 March 2008",
+   "Notes": "Doomcaliber Knight (UR)"
+ },
+ {
+   "Abbr.": "HL06",
+   "Name": "Hobby League 6 participation card D",
+   "Type": "Tournament promotion",
+   "Release date": "April 2008",
+   "Notes": "Reinforcement of the Army (UPR)"
+ },
+ {
+   "Abbr.": "HL06",
+   "Name": "Hobby League 6 participation card E",
+   "Type": "Tournament promotion",
+   "Release date": "May 2008",
+   "Notes": "Call of the Haunted (UPR)"
+ },
+ {
+   "Abbr.": "HL06",
+   "Name": "Hobby League 6 participation card F",
+   "Type": "Tournament promotion",
+   "Release date": "June 2008",
+   "Notes": "Shining Angel (UPR)"
+ },
+ {
+   "Abbr.": "HL07",
+   "Name": "Hobby League 7 participation card A",
+   "Type": "Tournament promotion",
+   "Release date": "July 2008",
+   "Notes": "Monster Reborn (UPR)"
+ },
+ {
+   "Abbr.": "HL07",
+   "Name": "Hobby League 7 participation card B",
+   "Type": "Tournament promotion",
+   "Release date": "August 2008",
+   "Notes": "Neo-Spacian Grand Mole (UPR)"
+ },
+ {
+   "Abbr.": "WCPS",
+   "Name": "Yu-Gi-Oh! World Championship 2008 prize cards",
+   "Type": "Tournament promotion",
+   "Release date": "10 August 2008",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TKN3",
+   "Name": "Token Pack",
+   "Type": "Tournament promotion",
+   "Release date": "18 August 2008",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "HL07",
+   "Name": "Hobby League 7 participation card C",
+   "Type": "Tournament promotion",
+   "Release date": "1 September 2008",
+   "Notes": "Dark Dust Spirit (UPR)"
+ },
+ {
+   "Abbr.": "HL07",
+   "Name": "Hobby League 7 participation card D",
+   "Type": "Tournament promotion",
+   "Release date": "1 October 2008",
+   "Notes": "Red Gadget (UPR)"
+ },
+ {
+   "Abbr.": "HL07",
+   "Name": "Hobby League 7 participation card E",
+   "Type": "Tournament promotion",
+   "Release date": "1 November 2008",
+   "Notes": "Card of Safe Return (UPR)"
+ },
+ {
+   "Abbr.": "HL07",
+   "Name": "Hobby League 7 participation card F",
+   "Type": "Tournament promotion",
+   "Release date": "1 December 2008",
+   "Notes": "Yellow Gadget (UPR)"
+ },
+ {
+   "Abbr.": "SJCS",
+   "Name": "Shonen Jump Championship 2009 Prize Card",
+   "Type": "Tournament promotion",
+   "Release date": "26 April 2009",
+   "Notes": "Dark End Dragon (UR)"
+ },
+ {
+   "Abbr.": "TKN4",
+   "Name": "Yu-Gi-Oh! 5D's National Championship 2009 promotional cards",
+   "Type": "Tournament promotion",
+   "Release date": "10 July 2009",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DL09",
+   "Name": "Duelist League 2010 participation cards",
+   "Type": "Tournament promotion",
+   "Release date": "1 August 2009",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "WCPS",
+   "Name": "Yu-Gi-Oh! World Championship 2009 prize cards",
+   "Type": "Tournament promotion",
+   "Release date": "9 August 2009",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "YCSW",
+   "Name": "Yu-Gi-Oh! Championship Series 2010 Prize Cards",
+   "Type": "Tournament promotion",
+   "Release date": "15 May 2010",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "2010",
+   "Name": "Yu-Gi-Oh! World Championship 2010 prize cards",
+   "Type": "Tournament promotion",
+   "Release date": "15 August 2010",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DL11",
+   "Name": "Duelist League 2 participation cards",
+   "Type": "Tournament promotion",
+   "Release date": "1 December 2010",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "WQ11",
+   "Name": "Yu-Gi-Oh! World Championship Qualifier National Championships 2011 prize cards",
+   "Type": "Tournament promotion",
+   "Release date": "15 May 2011",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DL12",
+   "Name": "Duelist League 3 participation cards",
+   "Type": "Tournament promotion",
+   "Release date": "1 June 2011",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "YCSW",
+   "Name": "Yu-Gi-Oh! Championship Series 2011 Prize Card",
+   "Type": "Tournament promotion",
+   "Release date": "6 August 2011",
+   "Notes": "Blood Mefist (SR/UR)"
+ },
+ {
+   "Abbr.": "2011",
+   "Name": "Yu-Gi-Oh! World Championship 2011 prize cards",
+   "Type": "Tournament promotion",
+   "Release date": "14 August 2011",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DL13",
+   "Name": "Duelist League 13 participation cards",
+   "Type": "Tournament promotion",
+   "Release date": "1 December 2011",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "",
+   "Name": "Custom Token Card",
+   "Type": "Tournament promotion",
+   "Release date": "24 March 2012",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TKN4",
+   "Name": "Yu-Gi-Oh! Championship Series 2012 pre-registration card",
+   "Type": "Tournament promotion",
+   "Release date": "30 March 2012",
+   "Notes": "Token (SR)"
+ },
+ {
+   "Abbr.": "BATT",
+   "Name": "Battle Pack Tournament Prize Cards",
+   "Type": "Tournament promotion",
+   "Release date": "29 May 2012",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DL14",
+   "Name": "Duelist League 14 participation cards",
+   "Type": "Tournament promotion",
+   "Release date": "1 June 2012",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "2012",
+   "Name": "Yu-Gi-Oh! World Championship 2012 prize cards",
+   "Type": "Tournament promotion",
+   "Release date": "11 August 2012",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "YCSW",
+   "Name": "Yu-Gi-Oh! Championship Series 2012 Prize Card",
+   "Type": "Tournament promotion",
+   "Release date": "1 September 2012",
+   "Notes": "Digvorzhak, King of Heavy Industry (UR)"
+ },
+ {
+   "Abbr.": "DL15",
+   "Name": "Duelist League 15 participation cards",
+   "Type": "Tournament promotion",
+   "Release date": "15 December 2012",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TKN4",
+   "Name": "Yu-Gi-Oh! Championship Series 2013 pre-registration card",
+   "Type": "Tournament promotion",
+   "Release date": "19 April 2013",
+   "Notes": "Token (SR)"
+ },
+ {
+   "Abbr.": "DL16",
+   "Name": "Duelist League 16 participation cards",
+   "Type": "Tournament promotion",
+   "Release date": "1 July 2013",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "2013",
+   "Name": "Yu-Gi-Oh! World Championship 2013 prize cards",
+   "Type": "Tournament promotion",
+   "Release date": "11 August 2013",
+   "Notes": "Grandopolis, The Eternal Golden City (UR)"
+ },
+ {
+   "Abbr.": "YCSW",
+   "Name": "Yu-Gi-Oh! Championship Series 2013 Prize Card",
+   "Type": "Tournament promotion",
+   "Release date": "1 September 2013",
+   "Notes": "Number 106: Giant Hand (UR)"
+ },
+ {
+   "Abbr.": "DL17",
+   "Name": "Duelist League 17 participation cards",
+   "Type": "Tournament promotion",
+   "Release date": "13 December 2013",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TKN4",
+   "Name": "Yu-Gi-Oh! Championship Series 2014 pre-registration card",
+   "Type": "Tournament promotion",
+   "Release date": "7 March 2014",
+   "Notes": "Token (SR)"
+ },
+ {
+   "Abbr.": "DL18",
+   "Name": "Duelist League 18 participation cards",
+   "Type": "Tournament promotion",
+   "Release date": "27 June 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "2014",
+   "Name": "Yu-Gi-Oh! World Championship 2014 prize cards",
+   "Type": "Tournament promotion",
+   "Release date": "11 August 2014",
+   "Notes": "The Twin Kings, Founders of the Empire (UR)"
+ },
+ {
+   "Abbr.": "YCSW",
+   "Name": "Yu-Gi-Oh! Championship Series 2014 Prize Card",
+   "Type": "Tournament promotion",
+   "Release date": "7 September 2014",
+   "Notes": "Ascension Sky Dragon (UR)"
+ },
+ {
+   "Abbr.": "TKN4",
+   "Name": "Yu-Gi-Oh! Championship Series 2015 pre-registration card",
+   "Type": "Tournament promotion",
+   "Release date": "10 April 2015",
+   "Notes": "Token (SR)"
+ },
+ {
+   "Abbr.": "2015-P",
+   "Name": "Yu-Gi-Oh! World Championship 2015 attendance cards",
+   "Type": "Tournament promotion",
+   "Release date": "30 August 2015",
+   "Notes": "Blue-Eyes White Dragon (MLR)"
+ },
+ {
+   "Abbr.": "2015",
+   "Name": "Yu-Gi-Oh! World Championship 2015 prize cards",
+   "Type": "Tournament promotion",
+   "Release date": "30 August 2015",
+   "Notes": "Kuzunoha, the Onmyojin (EScR)"
+ },
+ {
+   "Abbr.": "YCSW",
+   "Name": "Yu-Gi-Oh! Championship Series 2015 Prize Card",
+   "Type": "Tournament promotion",
+   "Release date": "1 September 2015",
+   "Notes": "Minerva, the Exalted Lightsworn (SR/UR)"
+ },
+ {
+   "Abbr.": "TKN4",
+   "Name": "Yu-Gi-Oh! Championship Series 2016 pre-registration card",
+   "Type": "Tournament promotion",
+   "Release date": "26 February 2016",
+   "Notes": "Token (SR)"
+ },
+ {
+   "Abbr.": "2016",
+   "Name": "Yu-Gi-Oh! World Championship 2016 prize cards",
+   "Type": "Tournament promotion",
+   "Release date": "21 August 2016",
+   "Notes": "Juno, the Celestial Goddess (EScR)"
+ },
+ {
+   "Abbr.": "YCSW",
+   "Name": "Yu-Gi-Oh! Championship Series 2016 Prize Card",
+   "Type": "Tournament promotion",
+   "Release date": "28 August 2016",
+   "Notes": "Number 93: Utopia Kaiser (UR)"
+ },
+ {
+   "Abbr.": "2017",
+   "Name": "Yu-Gi-Oh! World Championship 2017 prize cards",
+   "Type": "Tournament promotion",
+   "Release date": "13 August 2017",
+   "Notes": "Sanctity of Dragon (EScR)"
+ },
+ {
+   "Abbr.": "YCSW",
+   "Name": "Yu-Gi-Oh! Championship Series 2017 prize card",
+   "Type": "Tournament promotion",
+   "Release date": "27 August 2017",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "2018",
+   "Name": "Yu-Gi-Oh! World Championship 2018 prize cards",
+   "Type": "Tournament promotion",
+   "Release date": "5 August 2018",
+   "Notes": "Noritoshi in Darkest Rainment (EScR)"
+ },
+ {
+   "Abbr.": "YCSW",
+   "Name": "Yu-Gi-Oh! Championship Series 2018 prize card",
+   "Type": "Tournament promotion",
+   "Release date": "23 September 2018",
+   "Notes": "Chaos Emperor, the Dragon of Armageddon (SR/UR)"
+ },
+ {
+   "Abbr.": "2019",
+   "Name": "Yu-Gi-Oh! World Championship 2019 prize cards",
+   "Type": "Tournament promotion",
+   "Release date": "11 August 2019",
+   "Notes": "Kaiser Eagle, the Heavens' Mandate (EScR)"
+ },
+ {
+   "Abbr.": "YCSW",
+   "Name": "Yu-Gi-Oh! Championship Series 2019 prize card",
+   "Type": "Tournament promotion",
+   "Release date": "25 August 2019",
+   "Notes": "Duel Link Dragon, the Duel Dragon (UR)"
+ },
+ {
+   "Abbr.": "2020",
+   "Name": "KC Grand Tournament prize card",
+   "Type": "Tournament promotion",
+   "Release date": "27 August 2020",
+   "Notes": "Blue-Eyes White Dragon (EScR)"
+ },
+ {
+   "Abbr.": "21CC",
+   "Name": "Yu-Gi-Oh! Remote Duel Extravaganza participation card",
+   "Type": "Tournament promotion",
+   "Release date": "22 May 2021",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "2021",
+   "Name": "KC Grand Tournament 2021 prize card",
+   "Type": "Tournament promotion",
+   "Release date": "28 August 2021",
+   "Notes": "Dark Magician (EScR)"
+ },
+ {
+   "Abbr.": "2022",
+   "Name": "Japan Championship 2022 Shop Qualifiers prize cards",
+   "Type": "Tournament promotion",
+   "Release date": "9 April 2022",
+   "Notes": "Skyfaring Castle of the Black Forest (UR)"
+ },
+ {
+   "Abbr.": "2022",
+   "Name": "KC Grand Tournament 2022 prize card",
+   "Type": "Tournament promotion",
+   "Release date": "27 August 2022",
+   "Notes": "Red-Eyes Black Dragon (EScR)"
+ },
+ {
+   "Abbr.": "YCSW",
+   "Name": "Yu-Gi-Oh! Championship Series 2022 prize card",
+   "Type": "Tournament promotion",
+   "Release date": "28 August 2022",
+   "Notes": "Anotherverse Dragon (SR/SR)"
+ },
+ {
+   "Abbr.": "2023",
+   "Name": "Yu-Gi-Oh! World Championship 2023 prize cards",
+   "Type": "Tournament promotion",
+   "Release date": "6 August 2023",
+   "Notes": "Masterful Magician, Servant of the Sanctuary (EScR)"
+ },
+ {
+   "Abbr.": "YCSW",
+   "Name": "Yu-Gi-Oh! Championship Series 2023 prize card",
+   "Type": "Tournament promotion",
+   "Release date": "3 September 2023",
+   "Notes": "Anotherverse Gluttonia (SR/UR)"
+ },
+ {
+   "Abbr.": "2024",
+   "Name": "Japan Championship 2024 Shop Qualifiers prize card 1",
+   "Type": "Tournament promotion",
+   "Release date": "1 March 2024",
+   "Notes": "Gatebridgeo the Waterfront Warbeast (UR)"
+ },
+ {
+   "Abbr.": "2024",
+   "Name": "Japan Championship 2024 Shop Qualifiers prize card 2",
+   "Type": "Tournament promotion",
+   "Release date": "1 May 2024",
+   "Notes": "Masterful Magician, Servant of the Sanctuary (UR)"
+ },
+ {
+   "Abbr.": "YCSW",
+   "Name": "Yu-Gi-Oh! Championship Series 2024 prize card",
+   "Type": "Tournament promotion",
+   "Release date": "18 August 2024",
+   "Notes": "Anotherverse Solaria (SR/UR)"
+ },
+ {
+   "Abbr.": "2024",
+   "Name": "Yu-Gi-Oh! World Championship 2024 Celebration Event prize cards",
+   "Type": "Tournament promotion",
+   "Release date": "7 September 2024",
+   "Notes": "Doomcaliber Knight (QCScR)"
+ },
+ {
+   "Abbr.": "TKN4",
+   "Name": "Yu-Gi-Oh! World Championship 2024 participation cards",
+   "Type": "Tournament promotion",
+   "Release date": "7 September 2024",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "2024",
+   "Name": "Yu-Gi-Oh! World Championship 2024 prize cards",
+   "Type": "Tournament promotion",
+   "Release date": "8 September 2024",
+   "Notes": "Dragon of Illumination, Sanctuary's Shield (EScR)"
+ },
+ {
+   "Abbr.": "2025",
+   "Name": "Japan Championship 2025 Shop Qualifiers prize card 1",
+   "Type": "Tournament promotion",
+   "Release date": "1 March 2025",
+   "Notes": "Elttaes, the MASTER of DUELS (UR)"
+ },
+ {
+   "Abbr.": "2025",
+   "Name": "Japan Championship 2025 Shop Qualifiers prize card 2",
+   "Type": "Tournament promotion",
+   "Release date": "1 May 2025",
+   "Notes": "Dragon of Illumination, Sanctuary's Shield (UR)"
+ },
+ {
+   "Abbr.": "25YC",
+   "Name": "Yu-Gi-Oh! Championship Series 2025 prize cards",
+   "Type": "Tournament promotion",
+   "Release date": "8 June 2025",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DL3",
+   "Name": "Duelist League Series 3 participation card",
+   "Type": "Tournament promotion",
+   "Release date": "Unknown 2003",
+   "Notes": "Necrovalley (R)"
+ },
+ {
+   "Abbr.": "DL4",
+   "Name": "Duelist League Series 4 participation card",
+   "Type": "Tournament promotion",
+   "Release date": "Unknown 2004",
+   "Notes": "Machine King (R)"
+ },
+ {
+   "Abbr.": "TU01",
+   "Name": "Turbo Pack: Booster One",
+   "Type": "Turbo Pack",
+   "Release date": "12 August 2009",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TU02",
+   "Name": "Turbo Pack: Booster Two",
+   "Type": "Turbo Pack",
+   "Release date": "9 January 2010",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TU03",
+   "Name": "Turbo Pack: Booster Three",
+   "Type": "Turbo Pack",
+   "Release date": "12 July 2010",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TU04",
+   "Name": "Turbo Pack: Booster Four",
+   "Type": "Turbo Pack",
+   "Release date": "19 November 2010",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TU05",
+   "Name": "Turbo Pack: Booster Five",
+   "Type": "Turbo Pack",
+   "Release date": "9 April 2011",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TU06",
+   "Name": "Turbo Pack: Booster Six",
+   "Type": "Turbo Pack",
+   "Release date": "4 August 2011",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TU07",
+   "Name": "Turbo Pack: Booster Seven",
+   "Type": "Turbo Pack",
+   "Release date": "1 January 2012",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TU08",
+   "Name": "Turbo Pack: Booster Eight",
+   "Type": "Turbo Pack",
+   "Release date": "June 2012",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "Abbr.",
+   "Name": "Name",
+   "Type": "Type",
+   "Release date": "Release date",
+   "Notes": "Notes"
+ },
+ {
+   "Abbr.": "Abbr.",
+   "Name": "Name",
+   "Type": "Type",
+   "Release date": "Release date",
+   "Notes": "Notes"
+ },
+ {
+   "Abbr.": "Abbr.",
+   "Name": "Name",
+   "Type": "Type",
+   "Release date": "Release date",
+   "Notes": "Notes"
+ },
+ {
+   "Abbr.": "Abbr.",
+   "Name": "Name",
+   "Type": "Type",
+   "Release date": "Release date",
+   "Notes": "Notes"
+ },
+ {
+   "Abbr.": "Abbr.",
+   "Name": "Name",
+   "Type": "Type",
+   "Release date": "Release date",
+   "Notes": "Notes"
+ },
+ {
+   "Abbr.": "Abbr.",
+   "Name": "Name",
+   "Type": "Type",
+   "Release date": "Release date",
+   "Notes": "Notes"
+ },
+ {
+   "Abbr.": "Abbr.",
+   "Name": "Name",
+   "Type": "Type",
+   "Release date": "Release date",
+   "Notes": "Notes"
+ },
+ {
+   "Abbr.": "Abbr.",
+   "Name": "Name",
+   "Type": "Type",
+   "Release date": "Release date",
+   "Notes": "Notes"
+ },
+ {
+   "Abbr.": "YS11",
+   "Name": "Next-Gen Dueling Kit",
+   "Type": "Value box",
+   "Release date": "November 2011",
+   "Notes": "Grenosaurus (SR)"
+ },
+ {
+   "Abbr.": "SDDL",
+   "Name": "Dragunity Blast",
+   "Type": "Value Box",
+   "Release date": "January 2012",
+   "Notes": "Dragunity Arma Leyvaten (UR)"
+ },
+ {
+   "Abbr.": "YS11",
+   "Name": "Utopia Value Box",
+   "Type": "Value Box",
+   "Release date": "February 2012",
+   "Notes": "Number 39: Utopia (UR)"
+ },
+ {
+   "Abbr.": "SDLS",
+   "Name": "Master Hyperion Value Box",
+   "Type": "Value Box",
+   "Release date": "9 April 2013",
+   "Notes": "Master Hyperion (UR)"
+ },
+ {
+   "Abbr.": "SDBE",
+   "Name": "[[Silver Dragon Value Box",
+   "Type": "Value Box",
+   "Release date": "13 September 2013",
+   "Notes": "Azure-Eyes Silver Dragon (UR)"
+ },
+ {
+   "Abbr.": "SDRE",
+   "Name": "Poseidra Value Box",
+   "Type": "Value Box",
+   "Release date": "13 September 2013",
+   "Notes": "Poseidra, the Atlantean Dragon (UR)"
+ },
+ {
+   "Abbr.": "SDWA",
+   "Name": "Shadow Samurai Value Box",
+   "Type": "Value Box",
+   "Release date": "13 September 2013",
+   "Notes": "Shadow of the Six Samurai - Shien (UR)"
+ },
+ {
+   "Abbr.": "",
+   "Name": "Premium Collection Value Box",
+   "Type": "Value Box",
+   "Release date": "January 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "",
+   "Name": "Machine Madness Value Box",
+   "Type": "Value Box",
+   "Release date": "28 February 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LTGY",
+   "Name": "2015 Value Box",
+   "Type": "Value Box",
+   "Release date": "December 2015",
+   "Notes": "Mecha Phantom Beast Dracossack (ScR)"
+ },
+ {
+   "Abbr.": "DDS",
+   "Name": "Yu-Gi-Oh! Dark Duel Stories promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "19 March 2002",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "EDS",
+   "Name": "Yu-Gi-Oh! The Eternal Duelist Soul promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "15 October 2002",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "FMR",
+   "Name": "Yu-Gi-Oh! Forbidden Memories Premium Edition promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "26 November 2002",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DOR",
+   "Name": "Yu-Gi-Oh! The Duelists of the Roses promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "16 February 2003",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "SDD",
+   "Name": "Yu-Gi-Oh! Worldwide Edition: Stairway to the Destined Duel promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "15 April 2003",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TFK",
+   "Name": "Yu-Gi-Oh! The Falsebound Kingdom promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "4 November 2003",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TSC",
+   "Name": "Yu-Gi-Oh! The Sacred Cards promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "4 November 2003",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "PCY",
+   "Name": "Yu-Gi-Oh! Power of Chaos: Yugi the Destiny promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "18 November 2003",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "PCY",
+   "Name": "Yu-Gi-Oh! Power of Chaos: Yugi the Destiny Limited Collector's Edition",
+   "Type": "Video game promotion",
+   "Release date": "28 November 2003",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "WC4",
+   "Name": "Yu-Gi-Oh! World Championship Tournament 2004 promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "10 February 2004",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DOD",
+   "Name": "Yu-Gi-Oh! The Dawn of Destiny promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "23 March 2004",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "PCK",
+   "Name": "Yu-Gi-Oh! Power of Chaos: Kaiba the Revenge promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "6 April 2004",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "PCJ",
+   "Name": "Yu-Gi-Oh! Power of Chaos: Joey the Passion promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "29 June 2004",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "ROD",
+   "Name": "Yu-Gi-Oh! Reshef of Destruction promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "29 June 2004",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "DBT",
+   "Name": "Yu-Gi-Oh! Destiny Board Traveler promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "26 October 2004",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "CMC",
+   "Name": "Yu-Gi-Oh! Capsule Monster Coliseum promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "26 November 2004",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "WC5",
+   "Name": "Yu-Gi-Oh! 7 Trials to Glory: World Championship Tournament 2005 promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "15 February 2005",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "NTR",
+   "Name": "Yu-Gi-Oh! Nightmare Troubadour promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "30 August 2005",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "GX1",
+   "Name": "Yu-Gi-Oh! GX Duel Academy promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "10 January 2006",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "ROD",
+   "Name": "Yu-Gi-Oh! Double Pack promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "22 February 2006",
+   "Notes": "Dark Magician Knight (SPR)"
+ },
+ {
+   "Abbr.": "WC6",
+   "Name": "Yu-Gi-Oh! Ultimate Masters: World Championship Tournament 2006 promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "14 March 2006",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "GX02",
+   "Name": "Yu-Gi-Oh! GX Tag Force promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "16 November 2006",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "GX03",
+   "Name": "Yu-Gi-Oh! GX Spirit Caller promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "2 January 2007",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "WC07",
+   "Name": "Yu-Gi-Oh! World Championship 2007 promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "15 March 2007",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "GX04",
+   "Name": "Yu-Gi-Oh! GX Tag Force 2 promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "27 September 2007",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "YDB1",
+   "Name": "Yu-Gi-Oh! GX Card Almanac promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "30 November 2007",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "WC08",
+   "Name": "Yu-Gi-Oh! World Championship 2008 promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "4 December 2007",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "GX05",
+   "Name": "Yu-Gi-Oh! GX Tag Force Evolution promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "8 January 2008",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "GX06",
+   "Name": "Yu-Gi-Oh! GX Tag Force 3 promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "28 November 2008",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "WB01",
+   "Name": "Yu-Gi-Oh! 5D's Wheelie Breakers promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "19 May 2009",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "WC09",
+   "Name": "Yu-Gi-Oh! 5D's World Championship 2009: Stardust Accelerator promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "19 May 2009",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TF04",
+   "Name": "Yu-Gi-Oh! 5D's Tag Force 4 promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "17 November 2009",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "WC10",
+   "Name": "Yu-Gi-Oh! 5D's World Championship 2010: Reverse of Arcadia promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "23 February 2010",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "TF05",
+   "Name": "Yu-Gi-Oh! 5D's Tag Force 5 promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "26 October 2010",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "YDT1",
+   "Name": "Yu-Gi-Oh! 5D's Duel Transer promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "21 November 2010",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "WC11",
+   "Name": "Yu-Gi-Oh! 5D's World Championship 2011: Over the Nexus promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "24 March 2011",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "ZDC1",
+   "Name": "Yu-Gi-Oh! ZEXAL World Duel Carnival promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "26 June 2014",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "LOD2",
+   "Name": "Yu-Gi-Oh! Legacy of the Duelist: Link Evolution promotional cards",
+   "Type": "Video game promotion",
+   "Release date": "20 August 2019",
+   "Notes": ""
+ },
+ {
+   "Abbr.": "EDC1",
+   "Name": "Yu-Gi-Oh! Early Days Collection promotional cards",
+   "Type": "Video Game promotion",
+   "Release date": "27 February 2025",
+   "Notes": "Harpie's Feather Duster (QCScR)"
+ },
+ {
+   "Abbr.": "TKN4",
+   "Name": "Yu-Gi-Oh! Day January 2014 promotional card",
+   "Type": "Yu-Gi-Oh! Day",
+   "Release date": "25 January 2014",
+   "Notes": "Token (SR)"
+ },
+ {
+   "Abbr.": "TKN4",
+   "Name": "Yu-Gi-Oh! Day July 2014 promotional card",
+   "Type": "Yu-Gi-Oh! Day",
+   "Release date": "26 July 2014",
+   "Notes": "Token (SR)"
+ },
+ {
+   "Abbr.": "TKN4",
+   "Name": "Yu-Gi-Oh! Day January 2015 promotional card",
+   "Type": "Yu-Gi-Oh! Day",
+   "Release date": "24 January 2015",
+   "Notes": "Token (SR)"
+ },
+ {
+   "Abbr.": "TKN4",
+   "Name": "Yu-Gi-Oh! Day July 2015 promotional card",
+   "Type": "Yu-Gi-Oh! Day",
+   "Release date": "25 July 2015",
+   "Notes": "Token (SR)"
+ },
+ {
+   "Abbr.": "TKN4",
+   "Name": "Yu-Gi-Oh! Day January 2016 promotional card",
+   "Type": "Yu-Gi-Oh! Day",
+   "Release date": "30 January 2016",
+   "Notes": "Token (SR)"
+ },
+ {
+   "Abbr.": "TKN4",
+   "Name": "Yu-Gi-Oh! Day July 2016 promotional card",
+   "Type": "Yu-Gi-Oh! Day",
+   "Release date": "23 July 2016",
+   "Notes": "Token (SR)"
+ },
+ {
+   "Abbr.": "TKN4",
+   "Name": "Yu-Gi-Oh! Day January 2017 promotional card",
+   "Type": "Yu-Gi-Oh! Day",
+   "Release date": "28 January 2017",
+   "Notes": "Token (SR)"
+ }
+]

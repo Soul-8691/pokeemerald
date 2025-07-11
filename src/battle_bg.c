@@ -25,6 +25,7 @@
 #include "constants/songs.h"
 #include "constants/trainers.h"
 #include "ygo_graphics.h"
+#include "ui_menu.h"
 
 struct BattleBackground
 {
@@ -1307,7 +1308,9 @@ bool8 LoadChosenBattleElement(u8 caseId)
             default:
             case MAP_BATTLE_SCENE_NORMAL:
                 if (gBattleTypeFlags & BATTLE_TYPE_YGO)
+                {
                     LZDecompressVram(gDuelBGTiles, (void *)(BG_CHAR_ADDR(2)));
+                }
                 else
                     (sBattleEnvironmentTable[gBattleEnvironment].tileset, (void *)(BG_CHAR_ADDR(2)));
                 break;
@@ -1372,7 +1375,9 @@ bool8 LoadChosenBattleElement(u8 caseId)
             default:
             case MAP_BATTLE_SCENE_NORMAL:
                 if (gBattleTypeFlags & BATTLE_TYPE_YGO)
+                {
                     LZDecompressVram(gDuelBGTiles, (void *)(BG_SCREEN_ADDR(31)));
+                }
                 else
                     LZDecompressVram(sBattleEnvironmentTable[gBattleEnvironment].tilemap, (void *)(BG_SCREEN_ADDR(26)));
                 break;
@@ -1437,7 +1442,9 @@ bool8 LoadChosenBattleElement(u8 caseId)
             default:
             case MAP_BATTLE_SCENE_NORMAL:
                 if (gBattleTypeFlags & BATTLE_TYPE_YGO)
+                {
                     LoadCompressedPalette(gDuelBGPalette, BG_PLTT_ID(0), PLTT_SIZE_4BPP);
+                }
                 else
                     LoadCompressedPalette(sBattleEnvironmentTable[gBattleEnvironment].palette, BG_PLTT_ID(2), 3 * PLTT_SIZE_4BPP);
                 break;

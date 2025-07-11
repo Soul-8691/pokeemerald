@@ -102,5 +102,6 @@ extern const u8 gStatusConditionString_ConfusionJpn[8];
 extern const u8 gStatusConditionString_LoveJpn[8];
 
 extern const u8 *const gStatusConditionStringsTable[7][2];
+bool8 containsElement(u16 arr[], int size, int target);
 
 #endif // GUARD_BATTLE_MAIN_H

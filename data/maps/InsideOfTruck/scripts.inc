@@ -48,7 +48,7 @@ InsideOfTruck_EventScript_SetIntroFlagsFemale::
 	end
 
 InsideOfTruck_EventScript_MovingBox::
-	@ msgbox InsideOfTruck_Text_BoxPrintedWithMonLogo, MSGBOX_SIGN
+	@ msgbox gText_BoxPrintedWithMonLogo, MSGBOX_SIGN
 	additem ITEM_CARD_4_STARRED_LADYBUG_OF_DOOM
 	additem ITEM_CARD_7_COLORED_FISH
 	additem ITEM_CARD_A_LEGENDARY_OCEAN
@@ -510,15 +510,1803 @@ InsideOfTruck_EventScript_MovingBox3::
 	setvar VAR_YGO_BATTLE, 0
 	end
 
+gText_TCG2PlayerStarterSetClerk::
+			.string "Welcome!\p"
+			.string "I'm the 2-Player Starter\n"
+			.string "Set clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGAbsolutePowerforceClerk::
+			.string "Welcome!\p"
+			.string "I'm the Absolute\n"
+			.string "Powerforce clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGAbyssRisingClerk::
+			.string "Welcome!\p"
+			.string "I'm the Abyss Rising clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGAgeofOverlordClerk::
+			.string "Welcome!\p"
+			.string "I'm the Age of Overlord clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGAllianceInsightClerk::
+			.string "Welcome!\p"
+			.string "I'm the Alliance Insight clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGAncientProphecyClerk::
+			.string "Welcome!\p"
+			.string "I'm the Ancient Prophecy clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGAncientSanctuaryClerk::
+			.string "Welcome!\p"
+			.string "I'm the Ancient\n"
+			.string "Sanctuary clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGBattleofChaosClerk::
+			.string "Welcome!\p"
+			.string "I'm the Battle of Chaos clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGBlazingVortexClerk::
+			.string "Welcome!\p"
+			.string "I'm the Blazing Vortex clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGBreakersofShadowClerk::
+			.string "Welcome!\p"
+			.string "I'm the Breakers of\n"
+			.string "Shadow clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGBurstofDestinyClerk::
+			.string "Welcome!\p"
+			.string "I'm the Burst of Destiny clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGChaosImpactClerk::
+			.string "Welcome!\p"
+			.string "I'm the Chaos Impact clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGCircuitBreakClerk::
+			.string "Welcome!\p"
+			.string "I'm the Circuit Break clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGClashofRebellionsClerk::
+			.string "Welcome!\p"
+			.string "I'm the Clash of\n"
+			.string "Rebellions clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGCodeoftheDuelistClerk::
+			.string "Welcome!\p"
+			.string "I'm the Code of the\n"
+			.string "Duelist clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGCosmoBlazerClerk::
+			.string "Welcome!\p"
+			.string "I'm the Cosmo Blazer clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGCrimsonCrisisClerk::
+			.string "Welcome!\p"
+			.string "I'm the Crimson Crisis clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGCrossedSoulsClerk::
+			.string "Welcome!\p"
+			.string "I'm the Crossed Souls clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGCrossroadsofChaosClerk::
+			.string "Welcome!\p"
+			.string "I'm the Crossroads of\n"
+			.string "Chaos clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGCyberDragonRevolutionStructureDeckClerk::
+			.string "Welcome!\p"
+			.string "I'm the Cyber Dragon\n"
+			.string "Revolution\n"
+			.string "Structure Deck clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGCyberdarkImpactClerk::
+			.string "Welcome!\p"
+			.string "I'm the Cyberdark Impact clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGCyberneticHorizonClerk::
+			.string "Welcome!\p"
+			.string "I'm the Cybernetic\n"
+			.string "Horizon clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGCyberneticRevolutionClerk::
+			.string "Welcome!\p"
+			.string "I'm the Cybernetic\n"
+			.string "Revolution clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGCyberstormAccessClerk::
+			.string "Welcome!\p"
+			.string "I'm the Cyberstorm\n"
+			.string "Access clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGDarkCrisisClerk::
+			.string "Welcome!\p"
+			.string "I'm the Dark Crisis clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGDarkLegionStarterDeckClerk::
+			.string "Welcome!\p"
+			.string "I'm the Dark Legion\n"
+			.string "Starter Deck clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGDarkNeostormClerk::
+			.string "Welcome!\p"
+			.string "I'm the Dark Neostorm clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGDarkwingBlastClerk::
+			.string "Welcome!\p"
+			.string "I'm the Darkwing Blast clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGDawnofMajestyClerk::
+			.string "Welcome!\p"
+			.string "I'm the Dawn of Majesty clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGDimensionForceClerk::
+			.string "Welcome!\p"
+			.string "I'm the Dimension Force clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGDimensionofChaosClerk::
+			.string "Welcome!\p"
+			.string "I'm the Dimension of\n"
+			.string "Chaos clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGDinosmashersFuryStructureDeckClerk::
+			.string "Welcome!\p"
+			.string "I'm the Dinosmasher's\n"
+			.string "Fury Structure\n"
+			.string "Deck clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGDragonsCollideStructureDeckClerk::
+			.string "Welcome!\p"
+			.string "I'm the Dragons Collide\n"
+			.string "Structure Deck clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGDragunityLegionStructureDeckClerk::
+			.string "Welcome!\p"
+			.string "I'm the Dragunity Legion\n"
+			.string "Structure Deck clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGDuelistAllianceClerk::
+			.string "Welcome!\p"
+			.string "I'm the Duelist Alliance clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGDuelistNexusClerk::
+			.string "Welcome!\p"
+			.string "I'm the Duelist Nexus clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGDuelistRevolutionClerk::
+			.string "Welcome!\p"
+			.string "I'm the Duelist\n"
+			.string "Revolution clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGDuelistsAdvanceClerk::
+			.string "Welcome!\p"
+			.string "I'm the Duelist's\n"
+			.string "Advance clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGEgyptianGodDeckObelisktheTormentorClerk::
+			.string "Welcome!\p"
+			.string "I'm the Egyptian God\n"
+			.string "Deck: Obelisk\n"
+			.string "the Tormentor clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGEgyptianGodDeckSlifertheSkyDragonClerk::
+			.string "Welcome!\p"
+			.string "I'm the Egyptian God\n"
+			.string "Deck: Slifer the\n"
+			.string "Sky Dragon clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGElementalEnergyClerk::
+			.string "Welcome!\p"
+			.string "I'm the Elemental Energy clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGEmperorofDarknessStructureDeckClerk::
+			.string "Welcome!\p"
+			.string "I'm the Emperor of\n"
+			.string "Darkness\n"
+			.string "Structure Deck clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGEnemyofJusticeClerk::
+			.string "Welcome!\p"
+			.string "I'm the Enemy of Justice clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGEternityCodeClerk::
+			.string "Welcome!\p"
+			.string "I'm the Eternity Code clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGExtremeForceClerk::
+			.string "Welcome!\p"
+			.string "I'm the Extreme Force clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGExtremeVictoryClerk::
+			.string "Welcome!\p"
+			.string "I'm the Extreme Victory clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGFlamesofDestructionClerk::
+			.string "Welcome!\p"
+			.string "I'm the Flames of\n"
+			.string "Destruction clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGFlamingEternityClerk::
+			.string "Welcome!\p"
+			.string "I'm the Flaming Eternity clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGForceoftheBreakerClerk::
+			.string "Welcome!\p"
+			.string "I'm the Force of the\n"
+			.string "Breaker clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGGalacticOverlordClerk::
+			.string "Welcome!\p"
+			.string "I'm the Galactic\n"
+			.string "Overlord clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGGatesoftheUnderworldStructureDeckClerk::
+			.string "Welcome!\p"
+			.string "I'm the Gates of the\n"
+			.string "Underworld\n"
+			.string "Structure Deck clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGGeargiaRampageStructureDeckClerk::
+			.string "Welcome!\p"
+			.string "I'm the Geargia Rampage\n"
+			.string "Structure Deck clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGGenerationForceClerk::
+			.string "Welcome!\p"
+			.string "I'm the Generation Force clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGGladiatorsAssaultClerk::
+			.string "Welcome!\p"
+			.string "I'm the Gladiator's\n"
+			.string "Assault clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGHEROStrikeStructureDeckClerk::
+			.string "Welcome!\p"
+			.string "I'm the HERO Strike\n"
+			.string "Structure Deck clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGIgnitionAssaultClerk::
+			.string "Welcome!\p"
+			.string "I'm the Ignition Assault clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGInvasionofChaosClerk::
+			.string "Welcome!\p"
+			.string "I'm the Invasion of\n"
+			.string "Chaos clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGInvasionVengeanceClerk::
+			.string "Welcome!\p"
+			.string "I'm the Invasion:\n"
+			.string "Vengeance clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGJudgmentoftheLightClerk::
+			.string "Welcome!\p"
+			.string "I'm the Judgment of the\n"
+			.string "Light clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGLabyrinthofNightmareClerk::
+			.string "Welcome!\p"
+			.string "I'm the Labyrinth of\n"
+			.string "Nightmare clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGLegacyofDarknessClerk::
+			.string "Welcome!\p"
+			.string "I'm the Legacy of\n"
+			.string "Darkness clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGLegacyofDestructionClerk::
+			.string "Welcome!\p"
+			.string "I'm the Legacy of\n"
+			.string "Destruction clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGLegacyoftheValiantClerk::
+			.string "Welcome!\p"
+			.string "I'm the Legacy of the\n"
+			.string "Valiant clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGLegendofBlueEyesWhiteDragonClerk::
+			.string "Welcome!\p"
+			.string "I'm the Legend of Blue\n"
+			.string "Eyes White\n"
+			.string "Dragon clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGLightofDestructionClerk::
+			.string "Welcome!\p"
+			.string "I'm the Light of\n"
+			.string "Destruction clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGLightningOverdriveClerk::
+			.string "Welcome!\p"
+			.string "I'm the Lightning\n"
+			.string "Overdrive clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGLordoftheTachyonGalaxyClerk::
+			.string "Welcome!\p"
+			.string "I'm the Lord of the\n"
+			.string "Tachyon Galaxy clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGLostSanctuaryStructureDeckClerk::
+			.string "Welcome!\p"
+			.string "I'm the Lost Sanctuary\n"
+			.string "Structure Deck clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGMachinaMayhemStructureDeckClerk::
+			.string "Welcome!\p"
+			.string "I'm the Machina Mayhem\n"
+			.string "Structure Deck clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGMachineReactorStructureDeckClerk::
+			.string "Welcome!\p"
+			.string "I'm the Machine Reactor\n"
+			.string "Structure Deck clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGMagiciansForceClerk::
+			.string "Welcome!\p"
+			.string "I'm the Magician's Force clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGMasterofPendulumStructureDeckClerk::
+			.string "Welcome!\p"
+			.string "I'm the Master of\n"
+			.string "Pendulum\n"
+			.string "Structure Deck clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGMaximumCrisisClerk::
+			.string "Welcome!\p"
+			.string "I'm the Maximum Crisis clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGMetalRaidersClerk::
+			.string "Welcome!\p"
+			.string "I'm the Metal Raiders clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGOnslaughtoftheFireKingsStructureDeckClerk::
+			.string "Welcome!\p"
+			.string "I'm the Onslaught of the\n"
+			.string "Fire Kings\n"
+			.string "Structure Deck clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGOrderofChaosClerk::
+			.string "Welcome!\p"
+			.string "I'm the Order of Chaos clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGPendulumDominationStructureDeckClerk::
+			.string "Welcome!\p"
+			.string "I'm the Pendulum\n"
+			.string "Domination\n"
+			.string "Structure Deck clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGPhantomDarknessClerk::
+			.string "Welcome!\p"
+			.string "I'm the Phantom Darkness clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGPhantomNightmareClerk::
+			.string "Welcome!\p"
+			.string "I'm the Phantom\n"
+			.string "Nightmare clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGPhantomRageClerk::
+			.string "Welcome!\p"
+			.string "I'm the Phantom Rage clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGPharaohsServantClerk::
+			.string "Welcome!\p"
+			.string "I'm the Pharaoh's\n"
+			.string "Servant clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGPharaonicGuardianClerk::
+			.string "Welcome!\p"
+			.string "I'm the Pharaonic\n"
+			.string "Guardian clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGPhotonHypernovaClerk::
+			.string "Welcome!\p"
+			.string "I'm the Photon Hypernova clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGPhotonShockwaveClerk::
+			.string "Welcome!\p"
+			.string "I'm the Photon Shockwave clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGPoweroftheDuelistClerk::
+			.string "Welcome!\p"
+			.string "I'm the Power of the\n"
+			.string "Duelist clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGPoweroftheElementsClerk::
+			.string "Welcome!\p"
+			.string "I'm the Power of the\n"
+			.string "Elements clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGPrimalOriginClerk::
+			.string "Welcome!\p"
+			.string "I'm the Primal Origin clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGRageoftheAbyssClerk::
+			.string "Welcome!\p"
+			.string "I'm the Rage of the\n"
+			.string "Abyss clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGRagingBattleClerk::
+			.string "Welcome!\p"
+			.string "I'm the Raging Battle clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGRagingTempestClerk::
+			.string "Welcome!\p"
+			.string "I'm the Raging Tempest clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGRealmofLightStructureDeckClerk::
+			.string "Welcome!\p"
+			.string "I'm the Realm of Light\n"
+			.string "Structure Deck clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGRealmoftheSeaEmperorStructureDeckClerk::
+			.string "Welcome!\p"
+			.string "I'm the Realm of the Sea\n"
+			.string "Emperor\n"
+			.string "Structure Deck clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGReturnoftheDuelistClerk::
+			.string "Welcome!\p"
+			.string "I'm the Return of the\n"
+			.string "Duelist clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGRiseofDestinyClerk::
+			.string "Welcome!\p"
+			.string "I'm the Rise of Destiny clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGRiseoftheDragonLordsStructureDeckClerk::
+			.string "Welcome!\p"
+			.string "I'm the Rise of the\n"
+			.string "Dragon Lords\n"
+			.string "Structure Deck clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGRiseoftheDuelistClerk::
+			.string "Welcome!\p"
+			.string "I'm the Rise of the\n"
+			.string "Duelist clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGRiseoftheTrueDragonsStructureDeckClerk::
+			.string "Welcome!\p"
+			.string "I'm the Rise of the True\n"
+			.string "Dragons\n"
+			.string "Structure Deck clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGRisingRampageClerk::
+			.string "Welcome!\p"
+			.string "I'm the Rising Rampage clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGSaberForceStarterDeckClerk::
+			.string "Welcome!\p"
+			.string "I'm the Saber Force\n"
+			.string "Starter Deck clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGSagaofBlueEyesWhiteDragonStructureDeckClerk::
+			.string "Welcome!\p"
+			.string "I'm the Saga of Blue-\n"
+			.string "Eyes White\n"
+			.string "Dragon Structure\n"
+			.string "Deck clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGSamuraiWarlordsStructureDeckClerk::
+			.string "Welcome!\p"
+			.string "I'm the Samurai Warlords\n"
+			.string "Structure Deck clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGSavageStrikeClerk::
+			.string "Welcome!\p"
+			.string "I'm the Savage Strike clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGSecretsofEternityClerk::
+			.string "Welcome!\p"
+			.string "I'm the Secrets of\n"
+			.string "Eternity clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGShadowSpectersClerk::
+			.string "Welcome!\p"
+			.string "I'm the Shadow Specters clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGShadowofInfinityClerk::
+			.string "Welcome!\p"
+			.string "I'm the Shadow of\n"
+			.string "Infinity clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGShiningVictoriesClerk::
+			.string "Welcome!\p"
+			.string "I'm the Shining\n"
+			.string "Victories clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGSoulFusionClerk::
+			.string "Welcome!\p"
+			.string "I'm the Soul Fusion clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGSouloftheDuelistClerk::
+			.string "Welcome!\p"
+			.string "I'm the Soul of the\n"
+			.string "Duelist clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGSpellRulerClerk::
+			.string "Welcome!\p"
+			.string "I'm the Spell Ruler clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGSpellcastersCommandStructureDeckClerk::
+			.string "Welcome!\p"
+			.string "I'm the Spellcaster's\n"
+			.string "Command\n"
+			.string "Structure Deck clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStardustOverdriveClerk::
+			.string "Welcome!\p"
+			.string "I'm the Stardust\n"
+			.string "Overdrive clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStarstrikeBlastClerk::
+			.string "Welcome!\p"
+			.string "I'm the Starstrike Blast clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStarterDeck2006Clerk::
+			.string "Welcome!\p"
+			.string "I'm the Starter Deck\n"
+			.string "2006 clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStarterDeckCodebreakerClerk::
+			.string "Welcome!\p"
+			.string "I'm the Starter Deck:\n"
+			.string "Codebreaker clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStarterDeckDawnoftheXyzClerk::
+			.string "Welcome!\p"
+			.string "I'm the Starter Deck:\n"
+			.string "Dawn of the Xyz clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStarterDeckDuelistToolboxClerk::
+			.string "Welcome!\p"
+			.string "I'm the Starter Deck:\n"
+			.string "Duelist Toolbox clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStarterDeckJadenYukiClerk::
+			.string "Welcome!\p"
+			.string "I'm the Starter Deck:\n"
+			.string "Jaden Yuki clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStarterDeckJoeyClerk::
+			.string "Welcome!\p"
+			.string "I'm the Starter Deck:\n"
+			.string "Joey clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStarterDeckKaibaClerk::
+			.string "Welcome!\p"
+			.string "I'm the Starter Deck:\n"
+			.string "Kaiba clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStarterDeckKaibaEvolutionClerk::
+			.string "Welcome!\p"
+			.string "I'm the Starter Deck:\n"
+			.string "Kaiba Evolution clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStarterDeckKaibaReloadedClerk::
+			.string "Welcome!\p"
+			.string "I'm the Starter Deck:\n"
+			.string "Kaiba Reloaded clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStarterDeckLinkStrikeClerk::
+			.string "Welcome!\p"
+			.string "I'm the Starter Deck:\n"
+			.string "Link Strike clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStarterDeckPegasusClerk::
+			.string "Welcome!\p"
+			.string "I'm the Starter Deck:\n"
+			.string "Pegasus clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStarterDeckSyrusTruesdaleClerk::
+			.string "Welcome!\p"
+			.string "I'm the Starter Deck:\n"
+			.string "Syrus Truesdale clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStarterDeckXyzSymphonyClerk::
+			.string "Welcome!\p"
+			.string "I'm the Starter Deck:\n"
+			.string "Xyz Symphony clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStarterDeckYuGiOh5DsClerk::
+			.string "Welcome!\p"
+			.string "I'm the Starter Deck:\n"
+			.string "Yu-Gi-Oh! 5D's clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStarterDeckYuGiOh5Ds2009Clerk::
+			.string "Welcome!\p"
+			.string "I'm the Starter Deck:\n"
+			.string "Yu-Gi-Oh! 5D's\n"
+			.string "2009 clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStarterDeckYugiClerk::
+			.string "Welcome!\p"
+			.string "I'm the Starter Deck:\n"
+			.string "Yugi clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStarterDeckYugiEvolutionClerk::
+			.string "Welcome!\p"
+			.string "I'm the Starter Deck:\n"
+			.string "Yugi Evolution clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStarterDeckYugiReloadedClerk::
+			.string "Welcome!\p"
+			.string "I'm the Starter Deck:\n"
+			.string "Yugi Reloaded clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStarterDeckYuyaClerk::
+			.string "Welcome!\p"
+			.string "I'm the Starter Deck:\n"
+			.string "Yuya clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStormofRagnarokClerk::
+			.string "Welcome!\p"
+			.string "I'm the Storm of\n"
+			.string "Ragnarok clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStrikeofNeosClerk::
+			.string "Welcome!\p"
+			.string "I'm the Strike of Neos clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStructureDeckAlbazStrikeClerk::
+			.string "Welcome!\p"
+			.string "I'm the Structure Deck:\n"
+			.string "Albaz Strike clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStructureDeckBewareofTraptrixClerk::
+			.string "Welcome!\p"
+			.string "I'm the Structure Deck:\n"
+			.string "Beware of\n"
+			.string "Traptrix clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStructureDeckBlazeofDestructionClerk::
+			.string "Welcome!\p"
+			.string "I'm the Structure Deck:\n"
+			.string "Blaze of\n"
+			.string "Destruction clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStructureDeckBlueEyesWhiteDestinyClerk::
+			.string "Welcome!\p"
+			.string "I'm the Structure Deck:\n"
+			.string "Blue-Eyes White\n"
+			.string "Destiny clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStructureDeckCyberStrikeClerk::
+			.string "Welcome!\p"
+			.string "I'm the Structure Deck:\n"
+			.string "Cyber Strike clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStructureDeckCyberseLinkClerk::
+			.string "Welcome!\p"
+			.string "I'm the Structure Deck:\n"
+			.string "Cyberse Link clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStructureDeckDarkWorldClerk::
+			.string "Welcome!\p"
+			.string "I'm the Structure Deck:\n"
+			.string "Dark World clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStructureDeckDinosaursRageClerk::
+			.string "Welcome!\p"
+			.string "I'm the Structure Deck:\n"
+			.string "Dinosaur's Rage clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStructureDeckDragonsRoarClerk::
+			.string "Welcome!\p"
+			.string "I'm the Structure Deck:\n"
+			.string "Dragon's Roar clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStructureDeckFireKingsClerk::
+			.string "Welcome!\p"
+			.string "I'm the Structure Deck:\n"
+			.string "Fire Kings clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStructureDeckFreezingChainsClerk::
+			.string "Welcome!\p"
+			.string "I'm the Structure Deck:\n"
+			.string "Freezing Chains clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStructureDeckFuryfromtheDeepClerk::
+			.string "Welcome!\p"
+			.string "I'm the Structure Deck:\n"
+			.string "Fury from the\n"
+			.string "Deep clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStructureDeckInvincibleFortressClerk::
+			.string "Welcome!\p"
+			.string "I'm the Structure Deck:\n"
+			.string "Invincible\n"
+			.string "Fortress clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStructureDeckLairofDarknessClerk::
+			.string "Welcome!\p"
+			.string "I'm the Structure Deck:\n"
+			.string "Lair of Darkness clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStructureDeckLegendoftheCrystalBeastsClerk::
+			.string "Welcome!\p"
+			.string "I'm the Structure Deck:\n"
+			.string "Legend of the\n"
+			.string "Crystal Beasts clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStructureDeckLordoftheStormClerk::
+			.string "Welcome!\p"
+			.string "I'm the Structure Deck:\n"
+			.string "Lord of the\n"
+			.string "Storm clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStructureDeckMachineReVoltClerk::
+			.string "Welcome!\p"
+			.string "I'm the Structure Deck:\n"
+			.string "Machine Re-Volt clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStructureDeckMechanizedMadnessClerk::
+			.string "Welcome!\p"
+			.string "I'm the Structure Deck:\n"
+			.string "Mechanized\n"
+			.string "Madness clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStructureDeckOrderoftheSpellcastersClerk::
+			.string "Welcome!\p"
+			.string "I'm the Structure Deck:\n"
+			.string "Order of the\n"
+			.string "Spellcasters clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStructureDeckPowercodeLinkClerk::
+			.string "Welcome!\p"
+			.string "I'm the Structure Deck:\n"
+			.string "Powercode Link clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStructureDeckRokketRevoltClerk::
+			.string "Welcome!\p"
+			.string "I'm the Structure Deck:\n"
+			.string "Rokket Revolt clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStructureDeckSacredBeastsClerk::
+			.string "Welcome!\p"
+			.string "I'm the Structure Deck:\n"
+			.string "Sacred Beasts clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStructureDeckSetoKaibaClerk::
+			.string "Welcome!\p"
+			.string "I'm the Structure Deck:\n"
+			.string "Seto Kaiba clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStructureDeckShaddollShowdownClerk::
+			.string "Welcome!\p"
+			.string "I'm the Structure Deck:\n"
+			.string "Shaddoll\n"
+			.string "Showdown clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStructureDeckSoulburnerClerk::
+			.string "Welcome!\p"
+			.string "I'm the Structure Deck:\n"
+			.string "Soulburner clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStructureDeckSpellcastersJudgmentClerk::
+			.string "Welcome!\p"
+			.string "I'm the Structure Deck:\n"
+			.string "Spellcaster's\n"
+			.string "Judgment clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStructureDeckSpiritCharmersClerk::
+			.string "Welcome!\p"
+			.string "I'm the Structure Deck:\n"
+			.string "Spirit Charmers clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStructureDeckTheCrimsonKingClerk::
+			.string "Welcome!\p"
+			.string "I'm the Structure Deck:\n"
+			.string "The Crimson King clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStructureDeckWarriorsTriumphClerk::
+			.string "Welcome!\p"
+			.string "I'm the Structure Deck:\n"
+			.string "Warrior's\n"
+			.string "Triumph clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStructureDeckWaveofLightClerk::
+			.string "Welcome!\p"
+			.string "I'm the Structure Deck:\n"
+			.string "Wave of Light clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStructureDeckYugiMutoClerk::
+			.string "Welcome!\p"
+			.string "I'm the Structure Deck:\n"
+			.string "Yugi Muto clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStructureDeckZombieHordeClerk::
+			.string "Welcome!\p"
+			.string "I'm the Structure Deck:\n"
+			.string "Zombie Horde clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGStructureDeckZombieMadnessClerk::
+			.string "Welcome!\p"
+			.string "I'm the Structure Deck:\n"
+			.string "Zombie Madness clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGSuperStarterSpaceTimeShowdownClerk::
+			.string "Welcome!\p"
+			.string "I'm the Super Starter:\n"
+			.string "Space-Time\n"
+			.string "Showdown clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGSuperStarterVforVictoryClerk::
+			.string "Welcome!\p"
+			.string "I'm the Super Starter: V\n"
+			.string "for Victory clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGSupremeDarknessClerk::
+			.string "Welcome!\p"
+			.string "I'm the Supreme Darkness clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGSynchronExtremeStructureDeckClerk::
+			.string "Welcome!\p"
+			.string "I'm the Synchron Extreme\n"
+			.string "Structure Deck clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGTacticalEvolutionClerk::
+			.string "Welcome!\p"
+			.string "I'm the Tactical\n"
+			.string "Evolution clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGTheDarkEmperorStructureDeckClerk::
+			.string "Welcome!\p"
+			.string "I'm the The Dark Emperor\n"
+			.string "Structure Deck clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGTheDarkIllusionClerk::
+			.string "Welcome!\p"
+			.string "I'm the The Dark\n"
+			.string "Illusion clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGTheDuelistGenesisClerk::
+			.string "Welcome!\p"
+			.string "I'm the The Duelist\n"
+			.string "Genesis clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGTheInfiniteForbiddenClerk::
+			.string "Welcome!\p"
+			.string "I'm the The Infinite\n"
+			.string "Forbidden clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGTheLostMillenniumClerk::
+			.string "Welcome!\p"
+			.string "I'm the The Lost\n"
+			.string "Millennium clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGTheNewChallengersClerk::
+			.string "Welcome!\p"
+			.string "I'm the The New\n"
+			.string "Challengers clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGTheShiningDarknessClerk::
+			.string "Welcome!\p"
+			.string "I'm the The Shining\n"
+			.string "Darkness clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGWarriorsStrikeStructureDeckClerk::
+			.string "Welcome!\p"
+			.string "I'm the Warriors' Strike\n"
+			.string "Structure Deck clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCGZombieWorldStructureDeckClerk::
+			.string "Welcome!\p"
+			.string "I'm the Zombie World\n"
+			.string "Structure Deck clerk.\n"
+			.string "How may I serve you?$"
+
+gText_TCG2PlayerStarterSet:
+	.string "2-Player Starter Set$"
+
+gText_TCGAbsolutePowerforce:
+	.string "Absolute Powerforce$"
+
+gText_TCGAbyssRising:
+	.string "Abyss Rising$"
+
+gText_TCGAgeofOverlord:
+	.string "Age of Overlord$"
+
+gText_TCGAllianceInsight:
+	.string "Alliance Insight$"
+
+gText_TCGAncientProphecy:
+	.string "Ancient Prophecy$"
+
+gText_TCGAncientSanctuary:
+	.string "Ancient Sanctuary$"
+
+gText_TCGBattleofChaos:
+	.string "Battle of Chaos$"
+
+gText_TCGBlazingVortex:
+	.string "Blazing Vortex$"
+
+gText_TCGBreakersofShadow:
+	.string "Breakers of Shadow$"
+
+gText_TCGBurstofDestiny:
+	.string "Burst of Destiny$"
+
+gText_TCGChaosImpact:
+	.string "Chaos Impact$"
+
+gText_TCGCircuitBreak:
+	.string "Circuit Break$"
+
+gText_TCGClashofRebellions:
+	.string "Clash of Rebellions$"
+
+gText_TCGCodeoftheDuelist:
+	.string "Code of the Duelist$"
+
+gText_TCGCosmoBlazer:
+	.string "Cosmo Blazer$"
+
+gText_TCGCrimsonCrisis:
+	.string "Crimson Crisis$"
+
+gText_TCGCrossedSouls:
+	.string "Crossed Souls$"
+
+gText_TCGCrossroadsofChaos:
+	.string "Crossroads of Chaos$"
+
+gText_TCGCyberDragonRevolutionStructureDeck:
+	.string "Cyber Dragon Revolution Structure $"
+
+gText_TCGCyberdarkImpact:
+	.string "Cyberdark Impact$"
+
+gText_TCGCyberneticHorizon:
+	.string "Cybernetic Horizon$"
+
+gText_TCGCyberneticRevolution:
+	.string "Cybernetic Revolution$"
+
+gText_TCGCyberstormAccess:
+	.string "Cyberstorm Access$"
+
+gText_TCGDarkCrisis:
+	.string "Dark Crisis$"
+
+gText_TCGDarkLegionStarterDeck:
+	.string "Dark Legion Starter Deck$"
+
+gText_TCGDarkNeostorm:
+	.string "Dark Neostorm$"
+
+gText_TCGDarkwingBlast:
+	.string "Darkwing Blast$"
+
+gText_TCGDawnofMajesty:
+	.string "Dawn of Majesty$"
+
+gText_TCGDimensionForce:
+	.string "Dimension Force$"
+
+gText_TCGDimensionofChaos:
+	.string "Dimension of Chaos$"
+
+gText_TCGDinosmashersFuryStructureDeck:
+	.string "Dinosmasher's Fury Structure Deck$"
+
+gText_TCGDragonsCollideStructureDeck:
+	.string "Dragons Collide Structure Deck$"
+
+gText_TCGDragunityLegionStructureDeck:
+	.string "Dragunity Legion Structure Deck$"
+
+gText_TCGDuelistAlliance:
+	.string "Duelist Alliance$"
+
+gText_TCGDuelistNexus:
+	.string "Duelist Nexus$"
+
+gText_TCGDuelistRevolution:
+	.string "Duelist Revolution$"
+
+gText_TCGDuelistsAdvance:
+	.string "Duelist's Advance$"
+
+gText_TCGEgyptianGodDeckObelisktheTormentor:
+	.string "Egyptian God Deck: Obelisk the Tor$"
+
+gText_TCGEgyptianGodDeckSlifertheSkyDragon:
+	.string "Egyptian God Deck: Slifer the Sky $"
+
+gText_TCGElementalEnergy:
+	.string "Elemental Energy$"
+
+gText_TCGEmperorofDarknessStructureDeck:
+	.string "Emperor of Darkness Structure Deck$"
+
+gText_TCGEnemyofJustice:
+	.string "Enemy of Justice$"
+
+gText_TCGEternityCode:
+	.string "Eternity Code$"
+
+gText_TCGExtremeForce:
+	.string "Extreme Force$"
+
+gText_TCGExtremeVictory:
+	.string "Extreme Victory$"
+
+gText_TCGFlamesofDestruction:
+	.string "Flames of Destruction$"
+
+gText_TCGFlamingEternity:
+	.string "Flaming Eternity$"
+
+gText_TCGForceoftheBreaker:
+	.string "Force of the Breaker$"
+
+gText_TCGGalacticOverlord:
+	.string "Galactic Overlord$"
+
+gText_TCGGatesoftheUnderworldStructureDeck:
+	.string "Gates of the Underworld Structure $"
+
+gText_TCGGeargiaRampageStructureDeck:
+	.string "Geargia Rampage Structure Deck$"
+
+gText_TCGGenerationForce:
+	.string "Generation Force$"
+
+gText_TCGGladiatorsAssault:
+	.string "Gladiator's Assault$"
+
+gText_TCGHEROStrikeStructureDeck:
+	.string "HERO Strike Structure Deck$"
+
+gText_TCGIgnitionAssault:
+	.string "Ignition Assault$"
+
+gText_TCGInvasionofChaos:
+	.string "Invasion of Chaos$"
+
+gText_TCGInvasionVengeance:
+	.string "Invasion: Vengeance$"
+
+gText_TCGJudgmentoftheLight:
+	.string "Judgment of the Light$"
+
+gText_TCGLabyrinthofNightmare:
+	.string "Labyrinth of Nightmare$"
+
+gText_TCGLegacyofDarkness:
+	.string "Legacy of Darkness$"
+
+gText_TCGLegacyofDestruction:
+	.string "Legacy of Destruction$"
+
+gText_TCGLegacyoftheValiant:
+	.string "Legacy of the Valiant$"
+
+gText_TCGLegendofBlueEyesWhiteDragon:
+	.string "Legend of Blue Eyes White Dragon$"
+
+gText_TCGLightofDestruction:
+	.string "Light of Destruction$"
+
+gText_TCGLightningOverdrive:
+	.string "Lightning Overdrive$"
+
+gText_TCGLordoftheTachyonGalaxy:
+	.string "Lord of the Tachyon Galaxy$"
+
+gText_TCGLostSanctuaryStructureDeck:
+	.string "Lost Sanctuary Structure Deck$"
+
+gText_TCGMachinaMayhemStructureDeck:
+	.string "Machina Mayhem Structure Deck$"
+
+gText_TCGMachineReactorStructureDeck:
+	.string "Machine Reactor Structure Deck$"
+
+gText_TCGMagiciansForce:
+	.string "Magician's Force$"
+
+gText_TCGMasterofPendulumStructureDeck:
+	.string "Master of Pendulum Structure Deck$"
+
+gText_TCGMaximumCrisis:
+	.string "Maximum Crisis$"
+
+gText_TCGMetalRaiders:
+	.string "Metal Raiders$"
+
+gText_TCGOnslaughtoftheFireKingsStructureDeck:
+	.string "Onslaught of the Fire Kings Struct$"
+
+gText_TCGOrderofChaos:
+	.string "Order of Chaos$"
+
+gText_TCGPendulumDominationStructureDeck:
+	.string "Pendulum Domination Structure Deck$"
+
+gText_TCGPhantomDarkness:
+	.string "Phantom Darkness$"
+
+gText_TCGPhantomNightmare:
+	.string "Phantom Nightmare$"
+
+gText_TCGPhantomRage:
+	.string "Phantom Rage$"
+
+gText_TCGPharaohsServant:
+	.string "Pharaoh's Servant$"
+
+gText_TCGPharaonicGuardian:
+	.string "Pharaonic Guardian$"
+
+gText_TCGPhotonHypernova:
+	.string "Photon Hypernova$"
+
+gText_TCGPhotonShockwave:
+	.string "Photon Shockwave$"
+
+gText_TCGPoweroftheDuelist:
+	.string "Power of the Duelist$"
+
+gText_TCGPoweroftheElements:
+	.string "Power of the Elements$"
+
+gText_TCGPrimalOrigin:
+	.string "Primal Origin$"
+
+gText_TCGRageoftheAbyss:
+	.string "Rage of the Abyss$"
+
+gText_TCGRagingBattle:
+	.string "Raging Battle$"
+
+gText_TCGRagingTempest:
+	.string "Raging Tempest$"
+
+gText_TCGRealmofLightStructureDeck:
+	.string "Realm of Light Structure Deck$"
+
+gText_TCGRealmoftheSeaEmperorStructureDeck:
+	.string "Realm of the Sea Emperor Structure$"
+
+gText_TCGReturnoftheDuelist:
+	.string "Return of the Duelist$"
+
+gText_TCGRiseofDestiny:
+	.string "Rise of Destiny$"
+
+gText_TCGRiseoftheDragonLordsStructureDeck:
+	.string "Rise of the Dragon Lords Structure$"
+
+gText_TCGRiseoftheDuelist:
+	.string "Rise of the Duelist$"
+
+gText_TCGRiseoftheTrueDragonsStructureDeck:
+	.string "Rise of the True Dragons Structure$"
+
+gText_TCGRisingRampage:
+	.string "Rising Rampage$"
+
+gText_TCGSaberForceStarterDeck:
+	.string "Saber Force Starter Deck$"
+
+gText_TCGSagaofBlueEyesWhiteDragonStructureDeck:
+	.string "Saga of Blue-Eyes White Dragon Str$"
+
+gText_TCGSamuraiWarlordsStructureDeck:
+	.string "Samurai Warlords Structure Deck$"
+
+gText_TCGSavageStrike:
+	.string "Savage Strike$"
+
+gText_TCGSecretsofEternity:
+	.string "Secrets of Eternity$"
+
+gText_TCGShadowSpecters:
+	.string "Shadow Specters$"
+
+gText_TCGShadowofInfinity:
+	.string "Shadow of Infinity$"
+
+gText_TCGShiningVictories:
+	.string "Shining Victories$"
+
+gText_TCGSoulFusion:
+	.string "Soul Fusion$"
+
+gText_TCGSouloftheDuelist:
+	.string "Soul of the Duelist$"
+
+gText_TCGSpellRuler:
+	.string "Spell Ruler$"
+
+gText_TCGSpellcastersCommandStructureDeck:
+	.string "Spellcaster's Command Structure De$"
+
+gText_TCGStardustOverdrive:
+	.string "Stardust Overdrive$"
+
+gText_TCGStarstrikeBlast:
+	.string "Starstrike Blast$"
+
+gText_TCGStarterDeck2006:
+	.string "Starter Deck 2006$"
+
+gText_TCGStarterDeckCodebreaker:
+	.string "Starter Deck: Codebreaker$"
+
+gText_TCGStarterDeckDawnoftheXyz:
+	.string "Starter Deck: Dawn of the Xyz$"
+
+gText_TCGStarterDeckDuelistToolbox:
+	.string "Starter Deck: Duelist Toolbox$"
+
+gText_TCGStarterDeckJadenYuki:
+	.string "Starter Deck: Jaden Yuki$"
+
+gText_TCGStarterDeckJoey:
+	.string "Starter Deck: Joey$"
+
+gText_TCGStarterDeckKaiba:
+	.string "Starter Deck: Kaiba$"
+
+gText_TCGStarterDeckKaibaEvolution:
+	.string "Starter Deck: Kaiba Evolution$"
+
+gText_TCGStarterDeckKaibaReloaded:
+	.string "Starter Deck: Kaiba Reloaded$"
+
+gText_TCGStarterDeckLinkStrike:
+	.string "Starter Deck: Link Strike$"
+
+gText_TCGStarterDeckPegasus:
+	.string "Starter Deck: Pegasus$"
+
+gText_TCGStarterDeckSyrusTruesdale:
+	.string "Starter Deck: Syrus Truesdale$"
+
+gText_TCGStarterDeckXyzSymphony:
+	.string "Starter Deck: Xyz Symphony$"
+
+gText_TCGStarterDeckYuGiOh5Ds:
+	.string "Starter Deck: Yu-Gi-Oh! 5D's$"
+
+gText_TCGStarterDeckYuGiOh5Ds2009:
+	.string "Starter Deck: Yu-Gi-Oh! 5D's 2009$"
+
+gText_TCGStarterDeckYugi:
+	.string "Starter Deck: Yugi$"
+
+gText_TCGStarterDeckYugiEvolution:
+	.string "Starter Deck: Yugi Evolution$"
+
+gText_TCGStarterDeckYugiReloaded:
+	.string "Starter Deck: Yugi Reloaded$"
+
+gText_TCGStarterDeckYuya:
+	.string "Starter Deck: Yuya$"
+
+gText_TCGStormofRagnarok:
+	.string "Storm of Ragnarok$"
+
+gText_TCGStrikeofNeos:
+	.string "Strike of Neos$"
+
+gText_TCGStructureDeckAlbazStrike:
+	.string "Structure Deck: Albaz Strike$"
+
+gText_TCGStructureDeckBewareofTraptrix:
+	.string "Structure Deck: Beware of Traptrix$"
+
+gText_TCGStructureDeckBlazeofDestruction:
+	.string "Structure Deck: Blaze of Destructi$"
+
+gText_TCGStructureDeckBlueEyesWhiteDestiny:
+	.string "Structure Deck: Blue-Eyes White De$"
+
+gText_TCGStructureDeckCyberStrike:
+	.string "Structure Deck: Cyber Strike$"
+
+gText_TCGStructureDeckCyberseLink:
+	.string "Structure Deck: Cyberse Link$"
+
+gText_TCGStructureDeckDarkWorld:
+	.string "Structure Deck: Dark World$"
+
+gText_TCGStructureDeckDinosaursRage:
+	.string "Structure Deck: Dinosaur's Rage$"
+
+gText_TCGStructureDeckDragonsRoar:
+	.string "Structure Deck: Dragon's Roar$"
+
+gText_TCGStructureDeckFireKings:
+	.string "Structure Deck: Fire Kings$"
+
+gText_TCGStructureDeckFreezingChains:
+	.string "Structure Deck: Freezing Chains$"
+
+gText_TCGStructureDeckFuryfromtheDeep:
+	.string "Structure Deck: Fury from the Deep$"
+
+gText_TCGStructureDeckInvincibleFortress:
+	.string "Structure Deck: Invincible Fortres$"
+
+gText_TCGStructureDeckLairofDarkness:
+	.string "Structure Deck: Lair of Darkness$"
+
+gText_TCGStructureDeckLegendoftheCrystalBeasts:
+	.string "Structure Deck: Legend of the Crys$"
+
+gText_TCGStructureDeckLordoftheStorm:
+	.string "Structure Deck: Lord of the Storm$"
+
+gText_TCGStructureDeckMachineReVolt:
+	.string "Structure Deck: Machine Re-Volt$"
+
+gText_TCGStructureDeckMechanizedMadness:
+	.string "Structure Deck: Mechanized Madness$"
+
+gText_TCGStructureDeckOrderoftheSpellcasters:
+	.string "Structure Deck: Order of the Spell$"
+
+gText_TCGStructureDeckPowercodeLink:
+	.string "Structure Deck: Powercode Link$"
+
+gText_TCGStructureDeckRokketRevolt:
+	.string "Structure Deck: Rokket Revolt$"
+
+gText_TCGStructureDeckSacredBeasts:
+	.string "Structure Deck: Sacred Beasts$"
+
+gText_TCGStructureDeckSetoKaiba:
+	.string "Structure Deck: Seto Kaiba$"
+
+gText_TCGStructureDeckShaddollShowdown:
+	.string "Structure Deck: Shaddoll Showdown$"
+
+gText_TCGStructureDeckSoulburner:
+	.string "Structure Deck: Soulburner$"
+
+gText_TCGStructureDeckSpellcastersJudgment:
+	.string "Structure Deck: Spellcaster's Judg$"
+
+gText_TCGStructureDeckSpiritCharmers:
+	.string "Structure Deck: Spirit Charmers$"
+
+gText_TCGStructureDeckTheCrimsonKing:
+	.string "Structure Deck: The Crimson King$"
+
+gText_TCGStructureDeckWarriorsTriumph:
+	.string "Structure Deck: Warrior's Triumph$"
+
+gText_TCGStructureDeckWaveofLight:
+	.string "Structure Deck: Wave of Light$"
+
+gText_TCGStructureDeckYugiMuto:
+	.string "Structure Deck: Yugi Muto$"
+
+gText_TCGStructureDeckZombieHorde:
+	.string "Structure Deck: Zombie Horde$"
+
+gText_TCGStructureDeckZombieMadness:
+	.string "Structure Deck: Zombie Madness$"
+
+gText_TCGSuperStarterSpaceTimeShowdown:
+	.string "Super Starter: Space-Time Showdown$"
+
+gText_TCGSuperStarterVforVictory:
+	.string "Super Starter: V for Victory$"
+
+gText_TCGSupremeDarkness:
+	.string "Supreme Darkness$"
+
+gText_TCGSynchronExtremeStructureDeck:
+	.string "Synchron Extreme Structure Deck$"
+
+gText_TCGTacticalEvolution:
+	.string "Tactical Evolution$"
+
+gText_TCGTheDarkEmperorStructureDeck:
+	.string "The Dark Emperor Structure Deck$"
+
+gText_TCGTheDarkIllusion:
+	.string "The Dark Illusion$"
+
+gText_TCGTheDuelistGenesis:
+	.string "The Duelist Genesis$"
+
+gText_TCGTheInfiniteForbidden:
+	.string "The Infinite Forbidden$"
+
+gText_TCGTheLostMillennium:
+	.string "The Lost Millennium$"
+
+gText_TCGTheNewChallengers:
+	.string "The New Challengers$"
+
+gText_TCGTheShiningDarkness:
+	.string "The Shining Darkness$"
+
+gText_TCGWarriorsStrikeStructureDeck:
+	.string "Warriors' Strike Structure Deck$"
+
+gText_TCGZombieWorldStructureDeck:
+	.string "Zombie World Structure Deck$"
+
 InsideOfTruck_EventScript_MovingBox5::
-	trainerbattle_no_intro TRAINER_STEVEN, MeteorFalls_StevensCave_Text_StevenDefeat
+	msgbox gText_WhichPackList, MSGBOX_DEFAULT
+	dynmultichoice 0, 0, FALSE, 6, 0, DYN_MULTICHOICE_CB_NONE, gText_TCG2PlayerStarterSet, gText_TCGAbsolutePowerforce, gText_TCGAbyssRising, gText_TCGAgeofOverlord, gText_TCGAllianceInsight, gText_TCGAncientProphecy, gText_TCGAncientSanctuary, gText_TCGBattleofChaos, gText_TCGBlazingVortex, gText_TCGBreakersofShadow, gText_TCGBurstofDestiny, gText_TCGChaosImpact, gText_TCGCircuitBreak, gText_TCGClashofRebellions, gText_TCGCodeoftheDuelist, gText_TCGCosmoBlazer, gText_TCGCrimsonCrisis, gText_TCGCrossedSouls, gText_TCGCrossroadsofChaos, gText_TCGCyberDragonRevolutionStructureDeck, gText_TCGCyberdarkImpact, gText_TCGCyberneticHorizon, gText_TCGCyberneticRevolution, gText_TCGCyberstormAccess, gText_TCGDarkCrisis, gText_TCGDarkLegionStarterDeck, gText_TCGDarkNeostorm, gText_TCGDarkwingBlast, gText_TCGDawnofMajesty, gText_TCGDimensionForce, gText_TCGDimensionofChaos, gText_TCGDinosmashersFuryStructureDeck, gText_TCGDragonsCollideStructureDeck, gText_TCGDragunityLegionStructureDeck, gText_TCGDuelistAlliance, gText_TCGDuelistNexus, gText_TCGDuelistRevolution, gText_TCGDuelistsAdvance, gText_TCGEgyptianGodDeckObelisktheTormentor, gText_TCGEgyptianGodDeckSlifertheSkyDragon, gText_TCGElementalEnergy, gText_TCGEmperorofDarknessStructureDeck, gText_TCGEnemyofJustice, gText_TCGEternityCode, gText_TCGExtremeForce, gText_TCGExtremeVictory, gText_TCGFlamesofDestruction, gText_TCGFlamingEternity, gText_TCGForceoftheBreaker, gText_TCGGalacticOverlord, gText_TCGGatesoftheUnderworldStructureDeck, gText_TCGGeargiaRampageStructureDeck, gText_TCGGenerationForce, gText_TCGGladiatorsAssault, gText_TCGHEROStrikeStructureDeck, gText_TCGIgnitionAssault, gText_TCGInvasionofChaos, gText_TCGInvasionVengeance, gText_TCGJudgmentoftheLight, gText_TCGLabyrinthofNightmare, gText_TCGLegacyofDarkness, gText_TCGLegacyofDestruction, gText_TCGLegacyoftheValiant, gText_TCGLegendofBlueEyesWhiteDragon, gText_TCGLightofDestruction, gText_TCGLightningOverdrive, gText_TCGLordoftheTachyonGalaxy, gText_TCGLostSanctuaryStructureDeck, gText_TCGMachinaMayhemStructureDeck, gText_TCGMachineReactorStructureDeck, gText_TCGMagiciansForce, gText_TCGMasterofPendulumStructureDeck, gText_TCGMaximumCrisis, gText_TCGMetalRaiders, gText_TCGOnslaughtoftheFireKingsStructureDeck, gText_TCGOrderofChaos, gText_TCGPendulumDominationStructureDeck, gText_TCGPhantomDarkness, gText_TCGPhantomNightmare, gText_TCGPhantomRage, gText_TCGPharaohsServant, gText_TCGPharaonicGuardian, gText_TCGPhotonHypernova, gText_TCGPhotonShockwave, gText_TCGPoweroftheDuelist, gText_TCGPoweroftheElements, gText_TCGPrimalOrigin, gText_TCGRageoftheAbyss, gText_TCGRagingBattle, gText_TCGRagingTempest, gText_TCGRealmofLightStructureDeck, gText_TCGRealmoftheSeaEmperorStructureDeck, gText_TCGReturnoftheDuelist, gText_TCGRiseofDestiny, gText_TCGRiseoftheDragonLordsStructureDeck, gText_TCGRiseoftheDuelist, gText_TCGRiseoftheTrueDragonsStructureDeck, gText_TCGRisingRampage, gText_TCGSaberForceStarterDeck, gText_TCGSagaofBlueEyesWhiteDragonStructureDeck, gText_TCGSamuraiWarlordsStructureDeck, gText_TCGSavageStrike, gText_TCGSecretsofEternity, gText_TCGShadowSpecters, gText_TCGShadowofInfinity, gText_TCGShiningVictories, gText_TCGSoulFusion, gText_TCGSouloftheDuelist, gText_TCGSpellRuler, gText_TCGSpellcastersCommandStructureDeck, gText_TCGStardustOverdrive, gText_TCGStarstrikeBlast, gText_TCGStarterDeck2006, gText_TCGStarterDeckCodebreaker, gText_TCGStarterDeckDawnoftheXyz, gText_TCGStarterDeckDuelistToolbox, gText_TCGStarterDeckJadenYuki, gText_TCGStarterDeckJoey, gText_TCGStarterDeckKaiba, gText_TCGStarterDeckKaibaEvolution, gText_TCGStarterDeckKaibaReloaded, gText_TCGStarterDeckLinkStrike, gText_TCGStarterDeckPegasus, gText_TCGStarterDeckSyrusTruesdale, gText_TCGStarterDeckXyzSymphony, gText_TCGStarterDeckYuGiOh5Ds, gText_TCGStarterDeckYuGiOh5Ds2009, gText_TCGStarterDeckYugi, gText_TCGStarterDeckYugiEvolution, gText_TCGStarterDeckYugiReloaded, gText_TCGStarterDeckYuya, gText_TCGStormofRagnarok, gText_TCGStrikeofNeos, gText_TCGStructureDeckAlbazStrike, gText_TCGStructureDeckBewareofTraptrix, gText_TCGStructureDeckBlazeofDestruction, gText_TCGStructureDeckBlueEyesWhiteDestiny, gText_TCGStructureDeckCyberStrike, gText_TCGStructureDeckCyberseLink, gText_TCGStructureDeckDarkWorld, gText_TCGStructureDeckDinosaursRage, gText_TCGStructureDeckDragonsRoar, gText_TCGStructureDeckFireKings, gText_TCGStructureDeckFreezingChains, gText_TCGStructureDeckFuryfromtheDeep, gText_TCGStructureDeckInvincibleFortress, gText_TCGStructureDeckLairofDarkness, gText_TCGStructureDeckLegendoftheCrystalBeasts, gText_TCGStructureDeckLordoftheStorm, gText_TCGStructureDeckMachineReVolt, gText_TCGStructureDeckMechanizedMadness, gText_TCGStructureDeckOrderoftheSpellcasters, gText_TCGStructureDeckPowercodeLink, gText_TCGStructureDeckRokketRevolt, gText_TCGStructureDeckSacredBeasts, gText_TCGStructureDeckSetoKaiba, gText_TCGStructureDeckShaddollShowdown, gText_TCGStructureDeckSoulburner, gText_TCGStructureDeckSpellcastersJudgment, gText_TCGStructureDeckSpiritCharmers, gText_TCGStructureDeckTheCrimsonKing, gText_TCGStructureDeckWarriorsTriumph, gText_TCGStructureDeckWaveofLight, gText_TCGStructureDeckYugiMuto, gText_TCGStructureDeckZombieHorde, gText_TCGStructureDeckZombieMadness, gText_TCGSuperStarterSpaceTimeShowdown, gText_TCGSuperStarterVforVictory, gText_TCGSupremeDarkness, gText_TCGSynchronExtremeStructureDeck, gText_TCGTacticalEvolution, gText_TCGTheDarkEmperorStructureDeck, gText_TCGTheDarkIllusion, gText_TCGTheDuelistGenesis, gText_TCGTheInfiniteForbidden, gText_TCGTheLostMillennium, gText_TCGTheNewChallengers, gText_TCGTheShiningDarkness, gText_TCGWarriorsStrikeStructureDeck, gText_TCGZombieWorldStructureDeck
+	switch VAR_RESULT
+	case 0, InsideOfTruck_EventScript_Clerk_TCG2PlayerStarterSet
+	case 1, InsideOfTruck_EventScript_Clerk_TCGAbsolutePowerforce
+	case 2, InsideOfTruck_EventScript_Clerk_TCGAbyssRising
+	case 3, InsideOfTruck_EventScript_Clerk_TCGAgeofOverlord
+	case 4, InsideOfTruck_EventScript_Clerk_TCGAllianceInsight
+	case 5, InsideOfTruck_EventScript_Clerk_TCGAncientProphecy
+	case 6, InsideOfTruck_EventScript_Clerk_TCGAncientSanctuary
+	case 7, InsideOfTruck_EventScript_Clerk_TCGBattleofChaos
+	case 8, InsideOfTruck_EventScript_Clerk_TCGBlazingVortex
+	case 9, InsideOfTruck_EventScript_Clerk_TCGBreakersofShadow
+	case 10, InsideOfTruck_EventScript_Clerk_TCGBurstofDestiny
+	case 11, InsideOfTruck_EventScript_Clerk_TCGChaosImpact
+	case 12, InsideOfTruck_EventScript_Clerk_TCGCircuitBreak
+	case 13, InsideOfTruck_EventScript_Clerk_TCGClashofRebellions
+	case 14, InsideOfTruck_EventScript_Clerk_TCGCodeoftheDuelist
+	case 15, InsideOfTruck_EventScript_Clerk_TCGCosmoBlazer
+	case 16, InsideOfTruck_EventScript_Clerk_TCGCrimsonCrisis
+	case 17, InsideOfTruck_EventScript_Clerk_TCGCrossedSouls
+	case 18, InsideOfTruck_EventScript_Clerk_TCGCrossroadsofChaos
+	case 19, InsideOfTruck_EventScript_Clerk_TCGCyberDragonRevolutionStructureDeck
+	case 20, InsideOfTruck_EventScript_Clerk_TCGCyberdarkImpact
+	case 21, InsideOfTruck_EventScript_Clerk_TCGCyberneticHorizon
+	case 22, InsideOfTruck_EventScript_Clerk_TCGCyberneticRevolution
+	case 23, InsideOfTruck_EventScript_Clerk_TCGCyberstormAccess
+	case 24, InsideOfTruck_EventScript_Clerk_TCGDarkCrisis
+	case 25, InsideOfTruck_EventScript_Clerk_TCGDarkLegionStarterDeck
+	case 26, InsideOfTruck_EventScript_Clerk_TCGDarkNeostorm
+	case 27, InsideOfTruck_EventScript_Clerk_TCGDarkwingBlast
+	case 28, InsideOfTruck_EventScript_Clerk_TCGDawnofMajesty
+	case 29, InsideOfTruck_EventScript_Clerk_TCGDimensionForce
+	case 30, InsideOfTruck_EventScript_Clerk_TCGDimensionofChaos
+	case 31, InsideOfTruck_EventScript_Clerk_TCGDinosmashersFuryStructureDeck
+	case 32, InsideOfTruck_EventScript_Clerk_TCGDragonsCollideStructureDeck
+	case 33, InsideOfTruck_EventScript_Clerk_TCGDragunityLegionStructureDeck
+	case 34, InsideOfTruck_EventScript_Clerk_TCGDuelistAlliance
+	case 35, InsideOfTruck_EventScript_Clerk_TCGDuelistNexus
+	case 36, InsideOfTruck_EventScript_Clerk_TCGDuelistRevolution
+	case 37, InsideOfTruck_EventScript_Clerk_TCGDuelistsAdvance
+	case 38, InsideOfTruck_EventScript_Clerk_TCGEgyptianGodDeckObelisktheTormentor
+	case 39, InsideOfTruck_EventScript_Clerk_TCGEgyptianGodDeckSlifertheSkyDragon
+	case 40, InsideOfTruck_EventScript_Clerk_TCGElementalEnergy
+	case 41, InsideOfTruck_EventScript_Clerk_TCGEmperorofDarknessStructureDeck
+	case 42, InsideOfTruck_EventScript_Clerk_TCGEnemyofJustice
+	case 43, InsideOfTruck_EventScript_Clerk_TCGEternityCode
+	case 44, InsideOfTruck_EventScript_Clerk_TCGExtremeForce
+	case 45, InsideOfTruck_EventScript_Clerk_TCGExtremeVictory
+	case 46, InsideOfTruck_EventScript_Clerk_TCGFlamesofDestruction
+	case 47, InsideOfTruck_EventScript_Clerk_TCGFlamingEternity
+	case 48, InsideOfTruck_EventScript_Clerk_TCGForceoftheBreaker
+	case 49, InsideOfTruck_EventScript_Clerk_TCGGalacticOverlord
+	case 50, InsideOfTruck_EventScript_Clerk_TCGGatesoftheUnderworldStructureDeck
+	case 51, InsideOfTruck_EventScript_Clerk_TCGGeargiaRampageStructureDeck
+	case 52, InsideOfTruck_EventScript_Clerk_TCGGenerationForce
+	case 53, InsideOfTruck_EventScript_Clerk_TCGGladiatorsAssault
+	case 54, InsideOfTruck_EventScript_Clerk_TCGHEROStrikeStructureDeck
+	case 55, InsideOfTruck_EventScript_Clerk_TCGIgnitionAssault
+	case 56, InsideOfTruck_EventScript_Clerk_TCGInvasionofChaos
+	case 57, InsideOfTruck_EventScript_Clerk_TCGInvasionVengeance
+	case 58, InsideOfTruck_EventScript_Clerk_TCGJudgmentoftheLight
+	case 59, InsideOfTruck_EventScript_Clerk_TCGLabyrinthofNightmare
+	case 60, InsideOfTruck_EventScript_Clerk_TCGLegacyofDarkness
+	case 61, InsideOfTruck_EventScript_Clerk_TCGLegacyofDestruction
+	case 62, InsideOfTruck_EventScript_Clerk_TCGLegacyoftheValiant
+	case 63, InsideOfTruck_EventScript_Clerk_TCGLegendofBlueEyesWhiteDragon
+	case 64, InsideOfTruck_EventScript_Clerk_TCGLightofDestruction
+	case 65, InsideOfTruck_EventScript_Clerk_TCGLightningOverdrive
+	case 66, InsideOfTruck_EventScript_Clerk_TCGLordoftheTachyonGalaxy
+	case 67, InsideOfTruck_EventScript_Clerk_TCGLostSanctuaryStructureDeck
+	case 68, InsideOfTruck_EventScript_Clerk_TCGMachinaMayhemStructureDeck
+	case 69, InsideOfTruck_EventScript_Clerk_TCGMachineReactorStructureDeck
+	case 70, InsideOfTruck_EventScript_Clerk_TCGMagiciansForce
+	case 71, InsideOfTruck_EventScript_Clerk_TCGMasterofPendulumStructureDeck
+	case 72, InsideOfTruck_EventScript_Clerk_TCGMaximumCrisis
+	case 73, InsideOfTruck_EventScript_Clerk_TCGMetalRaiders
+	case 74, InsideOfTruck_EventScript_Clerk_TCGOnslaughtoftheFireKingsStructureDeck
+	case 75, InsideOfTruck_EventScript_Clerk_TCGOrderofChaos
+	case 76, InsideOfTruck_EventScript_Clerk_TCGPendulumDominationStructureDeck
+	case 77, InsideOfTruck_EventScript_Clerk_TCGPhantomDarkness
+	case 78, InsideOfTruck_EventScript_Clerk_TCGPhantomNightmare
+	case 79, InsideOfTruck_EventScript_Clerk_TCGPhantomRage
+	case 80, InsideOfTruck_EventScript_Clerk_TCGPharaohsServant
+	case 81, InsideOfTruck_EventScript_Clerk_TCGPharaonicGuardian
+	case 82, InsideOfTruck_EventScript_Clerk_TCGPhotonHypernova
+	case 83, InsideOfTruck_EventScript_Clerk_TCGPhotonShockwave
+	case 84, InsideOfTruck_EventScript_Clerk_TCGPoweroftheDuelist
+	case 85, InsideOfTruck_EventScript_Clerk_TCGPoweroftheElements
+	case 86, InsideOfTruck_EventScript_Clerk_TCGPrimalOrigin
+	case 87, InsideOfTruck_EventScript_Clerk_TCGRageoftheAbyss
+	case 88, InsideOfTruck_EventScript_Clerk_TCGRagingBattle
+	case 89, InsideOfTruck_EventScript_Clerk_TCGRagingTempest
+	case 90, InsideOfTruck_EventScript_Clerk_TCGRealmofLightStructureDeck
+	case 91, InsideOfTruck_EventScript_Clerk_TCGRealmoftheSeaEmperorStructureDeck
+	case 92, InsideOfTruck_EventScript_Clerk_TCGReturnoftheDuelist
+	case 93, InsideOfTruck_EventScript_Clerk_TCGRiseofDestiny
+	case 94, InsideOfTruck_EventScript_Clerk_TCGRiseoftheDragonLordsStructureDeck
+	case 95, InsideOfTruck_EventScript_Clerk_TCGRiseoftheDuelist
+	case 96, InsideOfTruck_EventScript_Clerk_TCGRiseoftheTrueDragonsStructureDeck
+	case 97, InsideOfTruck_EventScript_Clerk_TCGRisingRampage
+	case 98, InsideOfTruck_EventScript_Clerk_TCGSaberForceStarterDeck
+	case 99, InsideOfTruck_EventScript_Clerk_TCGSagaofBlueEyesWhiteDragonStructureDeck
+	case 100, InsideOfTruck_EventScript_Clerk_TCGSamuraiWarlordsStructureDeck
+	case 101, InsideOfTruck_EventScript_Clerk_TCGSavageStrike
+	case 102, InsideOfTruck_EventScript_Clerk_TCGSecretsofEternity
+	case 103, InsideOfTruck_EventScript_Clerk_TCGShadowSpecters
+	case 104, InsideOfTruck_EventScript_Clerk_TCGShadowofInfinity
+	case 105, InsideOfTruck_EventScript_Clerk_TCGShiningVictories
+	case 106, InsideOfTruck_EventScript_Clerk_TCGSoulFusion
+	case 107, InsideOfTruck_EventScript_Clerk_TCGSouloftheDuelist
+	case 108, InsideOfTruck_EventScript_Clerk_TCGSpellRuler
+	case 109, InsideOfTruck_EventScript_Clerk_TCGSpellcastersCommandStructureDeck
+	case 110, InsideOfTruck_EventScript_Clerk_TCGStardustOverdrive
+	case 111, InsideOfTruck_EventScript_Clerk_TCGStarstrikeBlast
+	case 112, InsideOfTruck_EventScript_Clerk_TCGStarterDeck2006
+	case 113, InsideOfTruck_EventScript_Clerk_TCGStarterDeckCodebreaker
+	case 114, InsideOfTruck_EventScript_Clerk_TCGStarterDeckDawnoftheXyz
+	case 115, InsideOfTruck_EventScript_Clerk_TCGStarterDeckDuelistToolbox
+	case 116, InsideOfTruck_EventScript_Clerk_TCGStarterDeckJadenYuki
+	case 117, InsideOfTruck_EventScript_Clerk_TCGStarterDeckJoey
+	case 118, InsideOfTruck_EventScript_Clerk_TCGStarterDeckKaiba
+	case 119, InsideOfTruck_EventScript_Clerk_TCGStarterDeckKaibaEvolution
+	case 120, InsideOfTruck_EventScript_Clerk_TCGStarterDeckKaibaReloaded
+	case 121, InsideOfTruck_EventScript_Clerk_TCGStarterDeckLinkStrike
+	case 122, InsideOfTruck_EventScript_Clerk_TCGStarterDeckPegasus
+	case 123, InsideOfTruck_EventScript_Clerk_TCGStarterDeckSyrusTruesdale
+	case 124, InsideOfTruck_EventScript_Clerk_TCGStarterDeckXyzSymphony
+	case 125, InsideOfTruck_EventScript_Clerk_TCGStarterDeckYuGiOh5Ds
+	case 126, InsideOfTruck_EventScript_Clerk_TCGStarterDeckYuGiOh5Ds2009
+	case 127, InsideOfTruck_EventScript_Clerk_TCGStarterDeckYugi
+	case 128, InsideOfTruck_EventScript_Clerk_TCGStarterDeckYugiEvolution
+	case 129, InsideOfTruck_EventScript_Clerk_TCGStarterDeckYugiReloaded
+	case 130, InsideOfTruck_EventScript_Clerk_TCGStarterDeckYuya
+	case 131, InsideOfTruck_EventScript_Clerk_TCGStormofRagnarok
+	case 132, InsideOfTruck_EventScript_Clerk_TCGStrikeofNeos
+	case 133, InsideOfTruck_EventScript_Clerk_TCGStructureDeckAlbazStrike
+	case 134, InsideOfTruck_EventScript_Clerk_TCGStructureDeckBewareofTraptrix
+	case 135, InsideOfTruck_EventScript_Clerk_TCGStructureDeckBlazeofDestruction
+	case 136, InsideOfTruck_EventScript_Clerk_TCGStructureDeckBlueEyesWhiteDestiny
+	case 137, InsideOfTruck_EventScript_Clerk_TCGStructureDeckCyberStrike
+	case 138, InsideOfTruck_EventScript_Clerk_TCGStructureDeckCyberseLink
+	case 139, InsideOfTruck_EventScript_Clerk_TCGStructureDeckDarkWorld
+	case 140, InsideOfTruck_EventScript_Clerk_TCGStructureDeckDinosaursRage
+	case 141, InsideOfTruck_EventScript_Clerk_TCGStructureDeckDragonsRoar
+	case 142, InsideOfTruck_EventScript_Clerk_TCGStructureDeckFireKings
+	case 143, InsideOfTruck_EventScript_Clerk_TCGStructureDeckFreezingChains
+	case 144, InsideOfTruck_EventScript_Clerk_TCGStructureDeckFuryfromtheDeep
+	case 145, InsideOfTruck_EventScript_Clerk_TCGStructureDeckInvincibleFortress
+	case 146, InsideOfTruck_EventScript_Clerk_TCGStructureDeckLairofDarkness
+	case 147, InsideOfTruck_EventScript_Clerk_TCGStructureDeckLegendoftheCrystalBeasts
+	case 148, InsideOfTruck_EventScript_Clerk_TCGStructureDeckLordoftheStorm
+	case 149, InsideOfTruck_EventScript_Clerk_TCGStructureDeckMachineReVolt
+	case 150, InsideOfTruck_EventScript_Clerk_TCGStructureDeckMechanizedMadness
+	case 151, InsideOfTruck_EventScript_Clerk_TCGStructureDeckOrderoftheSpellcasters
+	case 152, InsideOfTruck_EventScript_Clerk_TCGStructureDeckPowercodeLink
+	case 153, InsideOfTruck_EventScript_Clerk_TCGStructureDeckRokketRevolt
+	case 154, InsideOfTruck_EventScript_Clerk_TCGStructureDeckSacredBeasts
+	case 155, InsideOfTruck_EventScript_Clerk_TCGStructureDeckSetoKaiba
+	case 156, InsideOfTruck_EventScript_Clerk_TCGStructureDeckShaddollShowdown
+	case 157, InsideOfTruck_EventScript_Clerk_TCGStructureDeckSoulburner
+	case 158, InsideOfTruck_EventScript_Clerk_TCGStructureDeckSpellcastersJudgment
+	case 159, InsideOfTruck_EventScript_Clerk_TCGStructureDeckSpiritCharmers
+	case 160, InsideOfTruck_EventScript_Clerk_TCGStructureDeckTheCrimsonKing
+	case 161, InsideOfTruck_EventScript_Clerk_TCGStructureDeckWarriorsTriumph
+	case 162, InsideOfTruck_EventScript_Clerk_TCGStructureDeckWaveofLight
+	case 163, InsideOfTruck_EventScript_Clerk_TCGStructureDeckYugiMuto
+	case 164, InsideOfTruck_EventScript_Clerk_TCGStructureDeckZombieHorde
+	case 165, InsideOfTruck_EventScript_Clerk_TCGStructureDeckZombieMadness
+	case 166, InsideOfTruck_EventScript_Clerk_TCGSuperStarterSpaceTimeShowdown
+	case 167, InsideOfTruck_EventScript_Clerk_TCGSuperStarterVforVictory
+	case 168, InsideOfTruck_EventScript_Clerk_TCGSupremeDarkness
+	case 169, InsideOfTruck_EventScript_Clerk_TCGSynchronExtremeStructureDeck
+	case 170, InsideOfTruck_EventScript_Clerk_TCGTacticalEvolution
+	case 171, InsideOfTruck_EventScript_Clerk_TCGTheDarkEmperorStructureDeck
+	case 172, InsideOfTruck_EventScript_Clerk_TCGTheDarkIllusion
+	case 173, InsideOfTruck_EventScript_Clerk_TCGTheDuelistGenesis
+	case 174, InsideOfTruck_EventScript_Clerk_TCGTheInfiniteForbidden
+	case 175, InsideOfTruck_EventScript_Clerk_TCGTheLostMillennium
+	case 176, InsideOfTruck_EventScript_Clerk_TCGTheNewChallengers
+	case 177, InsideOfTruck_EventScript_Clerk_TCGTheShiningDarkness
+	case 178, InsideOfTruck_EventScript_Clerk_TCGWarriorsStrikeStructureDeck
+	case 179, InsideOfTruck_EventScript_Clerk_TCGZombieWorldStructureDeck
+	case MULTI_B_PRESSED, InsideOfTruck_EventScript_End
 	end
 
-InsideOfTruck_Text_WhichCardList:
+gText_WhichCardList:
 	.string "Which card list?$"
 
-InsideOfTruck_Text_WhichFormat:
+gText_WhichFormat:
 	.string "Which format?$"
+
+gText_WhichPackList:
+	.string "Which pack list?$"
 
 gText_YGOPackClerk::
 	.string "Welcome!\p"
@@ -537,2024 +2325,119 @@ InsideOfTruck_EventScript_Clerk_YGOPacks::
 
 	.align 2
 InsideOfTruck_PokemartYGOPacks:
-	.2byte ITEM_PACK_OCG_AMABIE_SAN_PRESENT_CAMPAIGN
-	.2byte ITEM_PACK_OCG_BLUE_EYES_WHITE_DRAGON_20TH_ANNIVERSARY_GOLD_EDITION
-	.2byte ITEM_PACK_OCG_BLUE_EYES_WHITE_DRAGON_20TH_ANNIVERSARY_SILVER_EDITION
-	.2byte ITEM_PACK_OCG_DARK_MAGICIAN_GIRL_SPECIAL_CARD
-	.2byte ITEM_PACK_OCG_DARK_MAGICIAN_ULTRA_RARE_SPECIAL_ILLUSTRATION_VERSION_GET_CAMPAIGN
-	.2byte ITEM_PACK_OCG_DARK_MAGICIAN_SPECIAL_CARD
-	.2byte ITEM_PACK_OCG_DUELIST_KINGDOM_COLLECT_STAR_CHIPS_LIMITED_PACK
-	.2byte ITEM_PACK_OCG_20TH_ANNIVERSARY_DUEL_SET_OBELISK_THE_TORMENTOR_
-	.2byte ITEM_PACK_OCG_20TH_ANNIVERSARY_DUEL_SET_SLIFER_THE_SKY_DRAGON_
-	.2byte ITEM_PACK_OCG_20TH_ANNIVERSARY_DUELIST_BOX
-	.2byte ITEM_PACK_OCG_20TH_ANNIVERSARY_LEGEND_COLLECTION
-	.2byte ITEM_PACK_OCG_20TH_ANNIVERSARY_LEGEND_SELECTION
-	.2byte ITEM_PACK_OCG_20TH_ANNIVERSARY_LEGENDARY_DRAGONS
-	.2byte ITEM_PACK_OCG_20TH_ANNIVERSARY_PACK_1ST_WAVE
-	.2byte ITEM_PACK_OCG_20TH_ANNIVERSARY_PACK_2ND_WAVE
-	.2byte ITEM_PACK_OCG_20TH_ANNIVERSARY_SECRET_SELECTION
-	.2byte ITEM_PACK_OCG_20TH_ANNIVERSARY_SET
-	.2byte ITEM_PACK_OCG_20TH_LEGENDARY_COLLECTION
-	.2byte ITEM_PACK_OCG_20TH_RIVAL_COLLECTION
-	.2byte ITEM_PACK_OCG_20TH_SECRET_RARE_CHALLENGE_PACK
-	.2byte ITEM_PACK_OCG_20TH_SECRET_RARE_FINAL_CHALLENGE_PACK
-	.2byte ITEM_PACK_OCG_20TH_SECRET_RARE_SPECIAL_PACK
-	.2byte ITEM_PACK_OCG_25TH_ANNIVERSARY_ULTIMATE_KAIBA_SET
-	.2byte ITEM_PACK_OCG_3X3_JAPAN_CHAMPIONSHIP_2025_FINALS_PRIZE_CARDS
-	.2byte ITEM_PACK_OCG_3X3_JAPAN_CHAMPIONSHIP_2025_QUALIFIERS_APRIL_PRIZE_CARD
-	.2byte ITEM_PACK_OCG_IGNISTER_DUEL_SET
-	.2byte ITEM_PACK_OCG_ABSOLUTE_POWERFORCE
-	.2byte ITEM_PACK_OCG_ABSOLUTE_POWERFORCE_2_PACK_SET
-	.2byte ITEM_PACK_OCG_ABYSS_RISING
-	.2byte ITEM_PACK_OCG_ACADEMY_DUEL_DISK_SET_
-	.2byte ITEM_PACK_OCG_ACADEMY_DUEL_DISK_LIMITED_EDITION
-	.2byte ITEM_PACK_OCG_ACADEMY_DUEL_DISK_OSIRIS_RED_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_ACADEMY_DUEL_DISK_SPECIAL_SET
-	.2byte ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2013_VOL_1
-	.2byte ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2013_VOL_2
-	.2byte ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2013_VOL_3
-	.2byte ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2013_VOL_4
-	.2byte ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2014_VOL_1
-	.2byte ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2014_VOL_2
-	.2byte ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2014_VOL_3
-	.2byte ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2014_VOL_4
-	.2byte ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2015_VOL_1
-	.2byte ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2015_VOL_2
-	.2byte ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2015_VOL_3
-	.2byte ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2015_VOL_4
-	.2byte ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2016_VOL_1
-	.2byte ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2016_VOL_2
-	.2byte ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2016_VOL_3
-	.2byte ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2016_VOL_4
-	.2byte ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2017_VOL_1
-	.2byte ITEM_PACK_OCG_ADVENT_OF_UNION
-	.2byte ITEM_PACK_OCG_AGE_OF_OVERLORD
-	.2byte ITEM_PACK_OCG_AGE_OF_OVERLORD_1_BONUS_PACK
-	.2byte ITEM_PACK_OCG_ALLIANCE_INSIGHT
-	.2byte ITEM_PACK_OCG_ALLIANCE_INSIGHT_1_BONUS_PACK
-	.2byte ITEM_PACK_OCG_ANCIENT_PROPHECY
-	.2byte ITEM_PACK_OCG_ANCIENT_PROPHECY_2_PACK_SET
-	.2byte ITEM_PACK_OCG_ANIMATION_CHRONICLE_2021
-	.2byte ITEM_PACK_OCG_ANIMATION_CHRONICLE_2022
-	.2byte ITEM_PACK_OCG_ANIMATION_CHRONICLE_2023
-	.2byte ITEM_PACK_OCG_ANIMATION_CHRONICLE_2024
-	.2byte ITEM_PACK_OCG_ANNIVERSARY_PACK
-	.2byte ITEM_PACK_OCG_AREA_CHAMPIONSHIP_2023_PRIZE_CARD
-	.2byte ITEM_PACK_OCG_AREA_CHAMPIONSHIP_2024_AUGUST_PRIZE_CARD
-	.2byte ITEM_PACK_OCG_AREA_CHAMPIONSHIP_2024_DECEMBER_PRIZE_CARD
-	.2byte ITEM_PACK_OCG_AREA_CHAMPIONSHIP_2024_JUNE_PRIZE_CARD
-	.2byte ITEM_PACK_OCG_ARMILLYRE_THE_STARLEADER_DRAGON_DUEL_SET
-	.2byte ITEM_PACK_OCG_ASIA_CHAMPIONSHIP_2001_PRIZE_CARDS
-	.2byte ITEM_PACK_OCG_AWAKENING_OF_THE_POSSESSED_DUEL_SET
-	.2byte ITEM_PACK_OCG_BATTLE_OF_CHAOS
-	.2byte ITEM_PACK_OCG_BATTLE_OF_CHAOS_1_BONUS_PACK
-	.2byte ITEM_PACK_OCG_BEGINNER_S_EDITION_1
-	.2byte ITEM_PACK_OCG_BEGINNER_S_EDITION_1_2011_
-	.2byte ITEM_PACK_OCG_BEGINNER_S_EDITION_2
-	.2byte ITEM_PACK_OCG_BEGINNER_S_EDITION_2_2011_
-	.2byte ITEM_PACK_OCG_BEGINNERS_PACK
-	.2byte ITEM_PACK_OCG_BEGINNERS_CLASS_2012_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_BLAZING_VORTEX
-	.2byte ITEM_PACK_OCG_BLAZING_VORTEX_1_BONUS_PACK
-	.2byte ITEM_PACK_OCG_BOOSTER_1
-	.2byte ITEM_PACK_OCG_BOOSTER_2
-	.2byte ITEM_PACK_OCG_BOOSTER_3
-	.2byte ITEM_PACK_OCG_BOOSTER_4
-	.2byte ITEM_PACK_OCG_BOOSTER_5
-	.2byte ITEM_PACK_OCG_BOOSTER_6
-	.2byte ITEM_PACK_OCG_BOOSTER_7
-	.2byte ITEM_PACK_OCG_BOOSTER_CHRONICLE
-	.2byte ITEM_PACK_OCG_BOOSTER_PACK_COLLECTORS_TIN_2003
-	.2byte ITEM_PACK_OCG_BOOSTER_PACK_COLLECTORS_TIN_2004
-	.2byte ITEM_PACK_OCG_BOOSTER_PACK_COLLECTORS_TIN_2005
-	.2byte ITEM_PACK_OCG_BOOSTER_PACK_COLLECTORS_TIN_2006
-	.2byte ITEM_PACK_OCG_BOOSTER_PACK_COLLECTORS_TIN_2007
-	.2byte ITEM_PACK_OCG_BOOSTER_R1
-	.2byte ITEM_PACK_OCG_BOOSTER_R2
-	.2byte ITEM_PACK_OCG_BOOSTER_R3
-	.2byte ITEM_PACK_OCG_BOOSTER_SP_DESTINY_SOLDIERS
-	.2byte ITEM_PACK_OCG_BOOSTER_SP_FUSION_ENFORCERS
-	.2byte ITEM_PACK_OCG_BOOSTER_SP_HIGH_SPEED_RIDERS
-	.2byte ITEM_PACK_OCG_BOOSTER_SP_RAGING_MASTERS
-	.2byte ITEM_PACK_OCG_BOOSTER_SP_TRIBE_FORCE
-	.2byte ITEM_PACK_OCG_BOOSTER_SP_WING_RAIDERS
-	.2byte ITEM_PACK_OCG_BREAKERS_OF_SHADOW
-	.2byte ITEM_PACK_OCG_BURST_OF_DESTINY
-	.2byte ITEM_PACK_OCG_BURST_OF_DESTINY_1_BONUS_PACK
-	.2byte ITEM_PACK_OCG_CENTUR_ION_DUEL_SET
-	.2byte ITEM_PACK_OCG_CHAMPION_OF_BLACK_MAGIC
-	.2byte ITEM_PACK_OCG_CHAOS_IMPACT
-	.2byte ITEM_PACK_OCG_CIRCUIT_BREAK
-	.2byte ITEM_PACK_OCG_CLASH_OF_REBELLIONS
-	.2byte ITEM_PACK_OCG_COCO_S_X_YU_GI_OH_CARD_GAME_ANNIVERSARY_CAMPAIGN_2024_PART_1
-	.2byte ITEM_PACK_OCG_COCO_S_X_YU_GI_OH_CARD_GAME_ANNIVERSARY_CAMPAIGN_2024_PART_2
-	.2byte ITEM_PACK_OCG_COCO_S_X_YU_GI_OH_CARD_GAME_ANNIVERSARY_CAMPAIGN_PART_1
-	.2byte ITEM_PACK_OCG_COCO_S_X_YU_GI_OH_CARD_GAME_ANNIVERSARY_CAMPAIGN_PART_2
-	.2byte ITEM_PACK_OCG_CODE_OF_THE_DUELIST
-	.2byte ITEM_PACK_OCG_COLLECTION_PACK_2020
-	.2byte ITEM_PACK_OCG_COLLECTION_PACK_DUELIST_OF_REVOLUTION_VERSION
-	.2byte ITEM_PACK_OCG_COLLECTOR_S_PACK_DUELIST_OF_LEGEND_VERSION
-	.2byte ITEM_PACK_OCG_COLLECTORS_PACK_2017
-	.2byte ITEM_PACK_OCG_COLLECTORS_PACK_2018
-	.2byte ITEM_PACK_OCG_COLLECTORS_PACK_DUELIST_OF_DESTINY_VERSION
-	.2byte ITEM_PACK_OCG_COLLECTORS_PACK_DUELIST_OF_FLASH_VERSION
-	.2byte ITEM_PACK_OCG_COLLECTORS_PACK_DUELIST_OF_LEGEND_VERSION
-	.2byte ITEM_PACK_OCG_COLLECTORS_PACK_ZEXAL_VERSION
-	.2byte ITEM_PACK_OCG_COLLECTORS_TIN_2009
-	.2byte ITEM_PACK_OCG_COMPLETE_FILE_STORY_OF_WHITE
-	.2byte ITEM_PACK_OCG_CONTROLLER_OF_CHAOS
-	.2byte ITEM_PACK_OCG_COSMO_BLAZER
-	.2byte ITEM_PACK_OCG_CRIMSON_CRISIS
-	.2byte ITEM_PACK_OCG_CRIMSON_CRISIS_2_PACK_SET
-	.2byte ITEM_PACK_OCG_CROSSED_SOULS
-	.2byte ITEM_PACK_OCG_CROSSROADS_OF_CHAOS
-	.2byte ITEM_PACK_OCG_CROSSROADS_OF_CHAOS_2_PACK_SET
-	.2byte ITEM_PACK_OCG_CURSE_OF_ANUBIS_SET_
-	.2byte ITEM_PACK_OCG_CYBERDARK_IMPACT
-	.2byte ITEM_PACK_OCG_CYBERDARK_IMPACT_VENDOR_EDITION
-	.2byte ITEM_PACK_OCG_CYBERNETIC_HORIZON
-	.2byte ITEM_PACK_OCG_CYBERNETIC_REVOLUTION
-	.2byte ITEM_PACK_OCG_CYBERNETIC_REVOLUTION_VENDOR_EDITION
-	.2byte ITEM_PACK_OCG_CYBERSTORM_ACCESS
-	.2byte ITEM_PACK_OCG_CYBERSTORM_ACCESS_1_BONUS_PACK
-	.2byte ITEM_PACK_OCG_DARK_CEREMONY_EDITION
-	.2byte ITEM_PACK_OCG_DARK_NEOSTORM
-	.2byte ITEM_PACK_OCG_DARKWING_BLAST
-	.2byte ITEM_PACK_OCG_DARKWING_BLAST_1_BONUS_PACK
-	.2byte ITEM_PACK_OCG_DAWN_OF_MAJESTY
-	.2byte ITEM_PACK_OCG_DAWN_OF_MAJESTY_1_BONUS_PACK
-	.2byte ITEM_PACK_OCG_DECK_CUSTOM_PACK_01
-	.2byte ITEM_PACK_OCG_DECK_BUILD_PACK_AMAZING_DEFENDERS
-	.2byte ITEM_PACK_OCG_DECK_BUILD_PACK_ANCIENT_GUARDIANS
-	.2byte ITEM_PACK_OCG_DECK_BUILD_PACK_CROSSOVER_BREAKERS
-	.2byte ITEM_PACK_OCG_DECK_BUILD_PACK_DARK_SAVIORS
-	.2byte ITEM_PACK_OCG_DECK_BUILD_PACK_GENESIS_IMPACTORS
-	.2byte ITEM_PACK_OCG_DECK_BUILD_PACK_GRAND_CREATORS
-	.2byte ITEM_PACK_OCG_DECK_BUILD_PACK_HIDDEN_SUMMONERS
-	.2byte ITEM_PACK_OCG_DECK_BUILD_PACK_INFINITY_CHASERS
-	.2byte ITEM_PACK_OCG_DECK_BUILD_PACK_JUSTICE_HUNTERS
-	.2byte ITEM_PACK_OCG_DECK_BUILD_PACK_MYSTIC_FIGHTERS
-	.2byte ITEM_PACK_OCG_DECK_BUILD_PACK_SECRET_SLAYERS
-	.2byte ITEM_PACK_OCG_DECK_BUILD_PACK_SPIRIT_WARRIORS
-	.2byte ITEM_PACK_OCG_DECK_BUILD_PACK_TACTICAL_MASTERS
-	.2byte ITEM_PACK_OCG_DECK_BUILD_PACK_VALIANT_SMASHERS
-	.2byte ITEM_PACK_OCG_DECK_BUILD_PACK_WILD_SURVIVORS
-	.2byte ITEM_PACK_OCG_DELUXE_DUEL_SET_EXOSISTER
-	.2byte ITEM_PACK_OCG_DIABELLSTAR_DUEL_SET
-	.2byte ITEM_PACK_OCG_DIMENSION_BOX_LIMITED_EDITION
-	.2byte ITEM_PACK_OCG_DIMENSION_FORCE
-	.2byte ITEM_PACK_OCG_DIMENSION_FORCE_1_BONUS_PACK
-	.2byte ITEM_PACK_OCG_DIMENSION_OF_CHAOS
-	.2byte ITEM_PACK_OCG_DOOM_OF_DIMENSIONS
-	.2byte ITEM_PACK_OCG_DRAGON_RULER_DUEL_SET
-	.2byte ITEM_PACK_OCG_DUEL_ACADEMIA_SELECTION
-	.2byte ITEM_PACK_OCG_DUEL_ART_CAMPAIGN_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_DUEL_DISK_SET_
-	.2byte ITEM_PACK_OCG_DUEL_DISK_YUSEI_VERSION
-	.2byte ITEM_PACK_OCG_DUEL_DISK_YUSEI_VERSION_DX
-	.2byte ITEM_PACK_OCG_DUEL_DISK_YUSEI_VERSION_DX_LIMITED_EDITION
-	.2byte ITEM_PACK_OCG_DUEL_DISK_YUSEI_VERSION_DX_2010
-	.2byte ITEM_PACK_OCG_DUEL_FIELD_EX_EPIC_OF_NOBLE_KNIGHTS_HOLY_SWORD_OF_GUIDANCE
-	.2byte ITEM_PACK_OCG_DUEL_MASTER_S_GUIDE_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_DUEL_MONSTERS_II_TOURNAMENT_MEETING_EXPERIENCE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_DUEL_ROYALE_DECK_SET_EX
-	.2byte ITEM_PACK_OCG_DUEL_ROYALE_DECK_SET_EX_ROUND_2
-	.2byte ITEM_PACK_OCG_DUEL_TERMINAL_CHAMPION_OF_CHAOS_
-	.2byte ITEM_PACK_OCG_DUEL_TERMINAL_CHARGE_OF_THE_GENEX_
-	.2byte ITEM_PACK_OCG_DUEL_TERMINAL_DEMON_ROAR_GOD_REVIVAL_
-	.2byte ITEM_PACK_OCG_DUEL_TERMINAL_DRAGUNITY_OF_THE_HURRICANE_
-	.2byte ITEM_PACK_OCG_DUEL_TERMINAL_INVASION_OF_WORMS_
-	.2byte ITEM_PACK_OCG_DUEL_TERMINAL_JUDGMENT_OF_OMEGA_
-	.2byte ITEM_PACK_OCG_DUEL_TERMINAL_JUSTICE_STRIKES_BACK_
-	.2byte ITEM_PACK_OCG_DUEL_TERMINAL_OUROBOROS_WICKED_DRAGON_OF_DESTRUCTION_
-	.2byte ITEM_PACK_OCG_DUEL_TERMINAL_PULSE_OF_THE_TRISHULA_
-	.2byte ITEM_PACK_OCG_DUEL_TERMINAL_RAID_OF_THE_INVERZ_
-	.2byte ITEM_PACK_OCG_DUEL_TERMINAL_SACRED_STAR_KNIGHTS_
-	.2byte ITEM_PACK_OCG_DUEL_TERMINAL_SYNCHRO_AWAKENING_
-	.2byte ITEM_PACK_OCG_DUEL_TERMINAL_VYLON_DESCENDS_
-	.2byte ITEM_PACK_OCG_DUEL_TERMINAL_XYZ_STARTUP_
-	.2byte ITEM_PACK_OCG_DUEL_TERMINAL_ACCELERATION_GUIDE_2_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_DUEL_TERMINAL_ACCELERATION_GUIDE_3_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_DUEL_TERMINAL_ACCELERATION_GUIDE_4_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_DUEL_TERMINAL_ACCELERATION_GUIDE_5_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_DUEL_TERMINAL_ACCELERATION_GUIDE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_DUEL_TERMINAL_CHRONICLE_1_CHAPTER_OF_AWAKENING
-	.2byte ITEM_PACK_OCG_DUEL_TERMINAL_CHRONICLE_2_CHAPTER_OF_CHAOS
-	.2byte ITEM_PACK_OCG_DUEL_TERMINAL_CHRONICLE_3_CHAPTER_OF_DESTRUCTION
-	.2byte ITEM_PACK_OCG_DUEL_TERMINAL_CHRONICLE_4_CHAPTER_OF_OPPOSITES
-	.2byte ITEM_PACK_OCG_DUEL_TERMINAL_OVERLAY_GUIDE_2_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_DUEL_TERMINAL_OVERLAY_GUIDE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_DUELIST_ADVANCE_1_ASSIST_PACK
-	.2byte ITEM_PACK_OCG_DUELIST_ALLIANCE
-	.2byte ITEM_PACK_OCG_DUELIST_BOX
-	.2byte ITEM_PACK_OCG_DUELIST_BOX_2012
-	.2byte ITEM_PACK_OCG_DUELIST_CARD_PROTECTOR_EX_BUJINTEI_SUSANOWO
-	.2byte ITEM_PACK_OCG_DUELIST_CARD_PROTECTOR_EX_GHOSTRICK
-	.2byte ITEM_PACK_OCG_DUELIST_CARD_PROTECTOR_EX_MASTER_OF_HERO
-	.2byte ITEM_PACK_OCG_DUELIST_CARD_PROTECTOR_EX_SHADOW_OF_THE_SIX_SAMURAI_SHIEN
-	.2byte ITEM_PACK_OCG_DUELIST_CARD_PROTECTOR_SIX_ATTRIBUTE_SET
-	.2byte ITEM_PACK_OCG_DUELIST_CUP_2021_QUALIFIERS_PARTICIPATION_CARD
-	.2byte ITEM_PACK_OCG_DUELIST_EDITION_VOLUME_1
-	.2byte ITEM_PACK_OCG_DUELIST_EDITION_VOLUME_2
-	.2byte ITEM_PACK_OCG_DUELIST_EDITION_VOLUME_3
-	.2byte ITEM_PACK_OCG_DUELIST_EDITION_VOLUME_4
-	.2byte ITEM_PACK_OCG_DUELIST_ENTRY_DECK_VS
-	.2byte ITEM_PACK_OCG_DUELIST_FESTIVAL_2016_PROMOTION_PACK
-	.2byte ITEM_PACK_OCG_DUELIST_KING_CUP_APRIL_2024_PRIZE_CARD
-	.2byte ITEM_PACK_OCG_DUELIST_KING_CUP_APRIL_2025_PRIZE_CARD
-	.2byte ITEM_PACK_OCG_DUELIST_KING_CUP_AUGUST_2024_PRIZE_CARD
-	.2byte ITEM_PACK_OCG_DUELIST_KING_CUP_DECEMBER_2024_PRIZE_CARD
-	.2byte ITEM_PACK_OCG_DUELIST_KING_CUP_JULY_2025_PRIZE_CARD
-	.2byte ITEM_PACK_OCG_DUELIST_LEGACY_VOLUME_1
-	.2byte ITEM_PACK_OCG_DUELIST_LEGACY_VOLUME_2
-	.2byte ITEM_PACK_OCG_DUELIST_LEGACY_VOLUME_3
-	.2byte ITEM_PACK_OCG_DUELIST_LEGACY_VOLUME_4
-	.2byte ITEM_PACK_OCG_DUELIST_LEGACY_VOLUME_5
-	.2byte ITEM_PACK_OCG_DUELIST_NEXUS
-	.2byte ITEM_PACK_OCG_DUELIST_NEXUS_1_BONUS_PACK
-	.2byte ITEM_PACK_OCG_DUELIST_PACK_COLLECTION
-	.2byte ITEM_PACK_OCG_DUELIST_PACK_ASTER_PHOENIX
-	.2byte ITEM_PACK_OCG_DUELIST_PACK_BATTLE_CITY
-	.2byte ITEM_PACK_OCG_DUELIST_PACK_CHAZZ_PRINCETON
-	.2byte ITEM_PACK_OCG_DUELIST_PACK_CROW
-	.2byte ITEM_PACK_OCG_DUELIST_PACK_DUELISTS_OF_BRILLIANCE
-	.2byte ITEM_PACK_OCG_DUELIST_PACK_DUELISTS_OF_EXPLOSION
-	.2byte ITEM_PACK_OCG_DUELIST_PACK_DUELISTS_OF_GLOOM
-	.2byte ITEM_PACK_OCG_DUELIST_PACK_DUELISTS_OF_PYROXENE
-	.2byte ITEM_PACK_OCG_DUELIST_PACK_DUELISTS_OF_WHIRLWIND
-	.2byte ITEM_PACK_OCG_DUELIST_PACK_DUELISTS_OF_THE_ABYSS
-	.2byte ITEM_PACK_OCG_DUELIST_PACK_JADEN_YUKI
-	.2byte ITEM_PACK_OCG_DUELIST_PACK_JADEN_YUKI_2
-	.2byte ITEM_PACK_OCG_DUELIST_PACK_JADEN_YUKI_3
-	.2byte ITEM_PACK_OCG_DUELIST_PACK_JESSE_ANDERSON
-	.2byte ITEM_PACK_OCG_DUELIST_PACK_KASTLE_SIBLINGS
-	.2byte ITEM_PACK_OCG_DUELIST_PACK_KITE
-	.2byte ITEM_PACK_OCG_DUELIST_PACK_LEGEND_DUELIST
-	.2byte ITEM_PACK_OCG_DUELIST_PACK_LEGEND_DUELIST_2
-	.2byte ITEM_PACK_OCG_DUELIST_PACK_LEGEND_DUELIST_3
-	.2byte ITEM_PACK_OCG_DUELIST_PACK_LEGEND_DUELIST_4
-	.2byte ITEM_PACK_OCG_DUELIST_PACK_LEGEND_DUELIST_5
-	.2byte ITEM_PACK_OCG_DUELIST_PACK_LEGEND_DUELIST_6
-	.2byte ITEM_PACK_OCG_DUELIST_PACK_PHARAOH_S_MEMORIES
-	.2byte ITEM_PACK_OCG_DUELIST_PACK_YUMA
-	.2byte ITEM_PACK_OCG_DUELIST_PACK_YUMA_2_GOGOGO_DODODO
-	.2byte ITEM_PACK_OCG_DUELIST_PACK_YUSEI
-	.2byte ITEM_PACK_OCG_DUELIST_PACK_YUSEI_2
-	.2byte ITEM_PACK_OCG_DUELIST_PACK_YUSEI_3
-	.2byte ITEM_PACK_OCG_DUELIST_PACK_ZANE_TRUESDALE
-	.2byte ITEM_PACK_OCG_DUELIST_REVOLUTION
-	.2byte ITEM_PACK_OCG_DUELIST_REVOLUTION_2_PACK_SET
-	.2byte ITEM_PACK_OCG_DUELIST_ROAD_PIECE_OF_MEMORY_SIDE_YAMI_YUGI
-	.2byte ITEM_PACK_OCG_DUELIST_ROAD_PIECE_OF_MEMORY_SIDE_YUGI_MUTO
-	.2byte ITEM_PACK_OCG_DUELIST_SET_DX_DOUBLE_UNION
-	.2byte ITEM_PACK_OCG_DUELIST_SET_VERSION_DARK_RETURNER
-	.2byte ITEM_PACK_OCG_DUELIST_SET_VERSION_LIGHTNING_STAR
-	.2byte ITEM_PACK_OCG_DUELIST_SET_VERSION_LIGHTSWORN_JUDGMENT
-	.2byte ITEM_PACK_OCG_DUELIST_SET_VERSION_LIGHTSWORN_JUDGMENT_ENHANCEMENT_PACK
-	.2byte ITEM_PACK_OCG_DUELIST_SET_VERSION_MACHINE_GEAR_TROOPERS
-	.2byte ITEM_PACK_OCG_DUELIST_SET_VERSION_MACHINE_GEAR_TROOPERS_ENHANCEMENT_PACK
-	.2byte ITEM_PACK_OCG_DUELIST_S_ADVANCE
-	.2byte ITEM_PACK_OCG_EX_STARTER_BOX
-	.2byte ITEM_PACK_OCG_EX_R_STARTER_BOX
-	.2byte ITEM_PACK_OCG_ELEMENTAL_ENERGY
-	.2byte ITEM_PACK_OCG_ELEMENTAL_ENERGY_VENDOR_EDITION
-	.2byte ITEM_PACK_OCG_ENEMY_OF_JUSTICE
-	.2byte ITEM_PACK_OCG_ENEMY_OF_JUSTICE_VENDOR_EDITION
-	.2byte ITEM_PACK_OCG_ENTRY_PACK
-	.2byte ITEM_PACK_OCG_ETERNITY_CODE
-	.2byte ITEM_PACK_OCG_EVENT_PACK_2024_VOL_1
-	.2byte ITEM_PACK_OCG_EVENT_PACK_2024_VOL_2
-	.2byte ITEM_PACK_OCG_EVENT_PACK_2024_VOL_3
-	.2byte ITEM_PACK_OCG_EVENT_PACK_2024_VOL_4
-	.2byte ITEM_PACK_OCG_EVIL_TWIN_DUEL_SET
-	.2byte ITEM_PACK_OCG_EXOSISTER_DUEL_SET
-	.2byte ITEM_PACK_OCG_EXPERT_EDITION_2
-	.2byte ITEM_PACK_OCG_EXPERT_EDITION_VOLUME_3
-	.2byte ITEM_PACK_OCG_EXPERT_EDITION_VOLUME_4
-	.2byte ITEM_PACK_OCG_EXPERT_EDITION_VOLUME_1
-	.2byte ITEM_PACK_OCG_EXPERT_EDITION_VOLUME_2
-	.2byte ITEM_PACK_OCG_EXTRA_PACK
-	.2byte ITEM_PACK_OCG_EXTRA_PACK_2012
-	.2byte ITEM_PACK_OCG_EXTRA_PACK_2015
-	.2byte ITEM_PACK_OCG_EXTRA_PACK_2016
-	.2byte ITEM_PACK_OCG_EXTRA_PACK_2017
-	.2byte ITEM_PACK_OCG_EXTRA_PACK_2018
-	.2byte ITEM_PACK_OCG_EXTRA_PACK_2019
-	.2byte ITEM_PACK_OCG_EXTRA_PACK_VOLUME_2
-	.2byte ITEM_PACK_OCG_EXTRA_PACK_VOLUME_3
-	.2byte ITEM_PACK_OCG_EXTRA_PACK_VOLUME_4
-	.2byte ITEM_PACK_OCG_EXTRA_PACK_KNIGHTS_OF_ORDER
-	.2byte ITEM_PACK_OCG_EXTRA_PACK_SWORD_OF_KNIGHTS
-	.2byte ITEM_PACK_OCG_EXTREME_FORCE
-	.2byte ITEM_PACK_OCG_EXTREME_VICTORY
-	.2byte ITEM_PACK_OCG_EXTREME_VICTORY_2_PACK_SET
-	.2byte ITEM_PACK_OCG_FIENDSMITH_DUEL_SET
-	.2byte ITEM_PACK_OCG_FLAMES_OF_DESTRUCTION
-	.2byte ITEM_PACK_OCG_FLAMING_ETERNITY
-	.2byte ITEM_PACK_OCG_FLAMING_ETERNITY_VENDOR_EDITION
-	.2byte ITEM_PACK_OCG_FORCE_OF_THE_BREAKER
-	.2byte ITEM_PACK_OCG_FORCE_OF_THE_BREAKER_VENDOR_EDITION
-	.2byte ITEM_PACK_OCG_GU_COLLABORATION_CARDS
-	.2byte ITEM_PACK_OCG_GALACTIC_OVERLORD
-	.2byte ITEM_PACK_OCG_GENERATION_FORCE
-	.2byte ITEM_PACK_OCG_GENERATION_FORCE_2_PACK_SET
-	.2byte ITEM_PACK_OCG_GLADIATOR_S_ASSAULT
-	.2byte ITEM_PACK_OCG_GLADIATOR_S_ASSAULT_2_PACK_SET
-	.2byte ITEM_PACK_OCG_GOLD_PACK_2016
-	.2byte ITEM_PACK_OCG_GOLD_SERIES_OCG_
-	.2byte ITEM_PACK_OCG_GOLD_SERIES_2010
-	.2byte ITEM_PACK_OCG_GOLD_SERIES_2011
-	.2byte ITEM_PACK_OCG_GOLD_SERIES_2012
-	.2byte ITEM_PACK_OCG_GOLD_SERIES_2013
-	.2byte ITEM_PACK_OCG_GOLD_SERIES_2014
-	.2byte ITEM_PACK_OCG_HALF_DECK_2018_DARK
-	.2byte ITEM_PACK_OCG_HALF_DECK_2018_LIGHT
-	.2byte ITEM_PACK_OCG_HALF_DECK_DARK
-	.2byte ITEM_PACK_OCG_HALF_DECK_LIGHT
-	.2byte ITEM_PACK_OCG_HIGH_RESOLUTION_ARTWORK_SERIES
-	.2byte ITEM_PACK_OCG_HISTORY_ARCHIVE_COLLECTION
-	.2byte ITEM_PACK_OCG_IGNITION_ASSAULT
-	.2byte ITEM_PACK_OCG_INFINITE_FORBIDDEN_1_BONUS_PACK
-	.2byte ITEM_PACK_OCG_INVADER_OF_DARKNESS_SET_
-	.2byte ITEM_PACK_OCG_INVASION_VENGEANCE
-	.2byte ITEM_PACK_OCG_JAPAN_CHAMPIONSHIP_2021_SHOP_QUALIFIERS_PARTICIPATION_CARD
-	.2byte ITEM_PACK_OCG_JAPAN_CHAMPIONSHIP_2023_SHOP_QUALIFIERS_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_JAPAN_CHAMPIONSHIP_2025_FINALS_PRIZE_CARD
-	.2byte ITEM_PACK_OCG_JUDGMENT_OF_THE_LIGHT
-	.2byte ITEM_PACK_OCG_JUMP_FESTA_2004_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_JUMP_FESTA_2005_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_JUMP_FESTA_2007_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_JUMP_FESTA_2008_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_JUMP_FESTA_2009_PROMOTION_PACK
-	.2byte ITEM_PACK_OCG_JUMP_FESTA_2010_PROMOTION_PACK
-	.2byte ITEM_PACK_OCG_JUMP_FESTA_2011_PROMOTION_PACK
-	.2byte ITEM_PACK_OCG_JUMP_FESTA_2012_PROMOTION_PACK_A
-	.2byte ITEM_PACK_OCG_JUMP_FESTA_2012_PROMOTION_PACK_B
-	.2byte ITEM_PACK_OCG_JUMP_FESTA_2013_PROMOTION_PACK_A
-	.2byte ITEM_PACK_OCG_JUMP_FESTA_2013_PROMOTION_PACK_B
-	.2byte ITEM_PACK_OCG_JUMP_FESTA_2014_PROMOTION_PACK
-	.2byte ITEM_PACK_OCG_JUMP_FESTA_2015_PROMOTION_PACK
-	.2byte ITEM_PACK_OCG_JUMP_FESTA_2018_SPECIAL_SET
-	.2byte ITEM_PACK_OCG_JUMP_FESTA_LIMITED_PACK_2019
-	.2byte ITEM_PACK_OCG_JUMP_FESTA_LIMITED_PACK_2020
-	.2byte ITEM_PACK_OCG_JUMP_HEROES_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_JUMP_RY_VOL_08_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_JUMP_SUPER_ANIME_TOUR_2008_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_JUMP_VICTORY_CARNIVAL_2014_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_JUMP_VICTORY_CARNIVAL_2015_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_JUMP_VICTORY_CARNIVAL_2016_PROMOTION_PACK
-	.2byte ITEM_PACK_OCG_JUMP_VICTORY_CARNIVAL_2016_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_JUMP_VICTORY_CARNIVAL_2017_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_JUMP_VICTORY_CARNIVAL_2018_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_JUMP_VICTORY_CARNIVAL_2019_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_LINK_VRAINS_BOX
-	.2byte ITEM_PACK_OCG_LINK_VRAINS_DUELIST_SET
-	.2byte ITEM_PACK_OCG_LINK_VRAINS_EDITION
-	.2byte ITEM_PACK_OCG_LINK_VRAINS_PACK
-	.2byte ITEM_PACK_OCG_LINK_VRAINS_PACK_2
-	.2byte ITEM_PACK_OCG_LINK_VRAINS_PACK_3
-	.2byte ITEM_PACK_OCG_LABRYNTH_DUEL_SET
-	.2byte ITEM_PACK_OCG_LABYRINTH_OF_NIGHTMARE_JAPANESE_
-	.2byte ITEM_PACK_OCG_LEGACY_OF_DESTRUCTION
-	.2byte ITEM_PACK_OCG_LEGACY_OF_DESTRUCTION_1_BONUS_PACK
-	.2byte ITEM_PACK_OCG_LEGACY_OF_THE_VALIANT
-	.2byte ITEM_PACK_OCG_LEGEND_OF_BLUE_EYES_WHITE_DRAGON_JAPANESE_
-	.2byte ITEM_PACK_OCG_LEGENDARY_BLACK_LUSTER_SOLDIER_GET_CAMPAIGN
-	.2byte ITEM_PACK_OCG_LEGENDARY_GOLD_BOX
-	.2byte ITEM_PACK_OCG_LEGENDARY_MONSTERS_PACK
-	.2byte ITEM_PACK_OCG_LIGHT_OF_DESTRUCTION
-	.2byte ITEM_PACK_OCG_LIGHT_OF_DESTRUCTION_2_PACK_SET
-	.2byte ITEM_PACK_OCG_LIGHTNING_OVERDRIVE
-	.2byte ITEM_PACK_OCG_LIGHTNING_OVERDRIVE_1_BONUS_PACK
-	.2byte ITEM_PACK_OCG_LIMITED_EDITION_10_CHAOS_BLACK
-	.2byte ITEM_PACK_OCG_LIMITED_EDITION_10_HOLY_WHITE
-	.2byte ITEM_PACK_OCG_LIMITED_EDITION_11
-	.2byte ITEM_PACK_OCG_LIMITED_EDITION_12
-	.2byte ITEM_PACK_OCG_LIMITED_EDITION_13
-	.2byte ITEM_PACK_OCG_LIMITED_EDITION_14
-	.2byte ITEM_PACK_OCG_LIMITED_EDITION_15
-	.2byte ITEM_PACK_OCG_LIMITED_EDITION_16
-	.2byte ITEM_PACK_OCG_LIMITED_EDITION_17
-	.2byte ITEM_PACK_OCG_LIMITED_EDITION_2_JOEY_PACK
-	.2byte ITEM_PACK_OCG_LIMITED_EDITION_2_KEITH_PACK
-	.2byte ITEM_PACK_OCG_LIMITED_EDITION_2_YUGI_PACK
-	.2byte ITEM_PACK_OCG_LIMITED_EDITION_3_JOEY_PACK
-	.2byte ITEM_PACK_OCG_LIMITED_EDITION_3_KAIBA_PACK
-	.2byte ITEM_PACK_OCG_LIMITED_EDITION_3_YUGI_PACK
-	.2byte ITEM_PACK_OCG_LIMITED_EDITION_4
-	.2byte ITEM_PACK_OCG_LIMITED_EDITION_4_MARIK_PACK
-	.2byte ITEM_PACK_OCG_LIMITED_EDITION_4_YUGI_PACK
-	.2byte ITEM_PACK_OCG_LIMITED_EDITION_5_KAIBA_PACK
-	.2byte ITEM_PACK_OCG_LIMITED_EDITION_5_YUGI_PACK
-	.2byte ITEM_PACK_OCG_LIMITED_EDITION_6
-	.2byte ITEM_PACK_OCG_LIMITED_EDITION_7
-	.2byte ITEM_PACK_OCG_LIMITED_EDITION_8
-	.2byte ITEM_PACK_OCG_LIMITED_EDITION_9_ULTIMATE_SEVEN_PACK
-	.2byte ITEM_PACK_OCG_LIMITED_EDITION_JOEY_PACK
-	.2byte ITEM_PACK_OCG_LIMITED_EDITION_KAIBA_PACK
-	.2byte ITEM_PACK_OCG_LIMITED_EDITION_YUGI_PACK
-	.2byte ITEM_PACK_OCG_LIMITED_PACK_GX_SLIFER_RED
-	.2byte ITEM_PACK_OCG_LINK_MONSTER_PRESENT
-	.2byte ITEM_PACK_OCG_LORD_OF_THE_TACHYON_GALAXY
-	.2byte ITEM_PACK_OCG_MAGIC_RULER_JAPANESE_
-	.2byte ITEM_PACK_OCG_MAGICIANS_COMBINATION_DUEL_SET
-	.2byte ITEM_PACK_OCG_MALISS_DUEL_SET
-	.2byte ITEM_PACK_OCG_MASTER_COLLECTION_VOLUME_1
-	.2byte ITEM_PACK_OCG_MASTER_COLLECTION_VOLUME_2
-	.2byte ITEM_PACK_OCG_MASTER_COLLECTION_VOLUME_3
-	.2byte ITEM_PACK_OCG_MASTER_GUIDE_2_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_MASTER_GUIDE_3_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_MASTER_GUIDE_4_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_MASTER_GUIDE_5_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_MASTER_GUIDE_6_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_MASTER_GUIDE_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_MAXIMUM_CRISIS
-	.2byte ITEM_PACK_OCG_MEMORIES_OF_THE_DUEL_KING_BATTLE_CITY_ARC
-	.2byte ITEM_PACK_OCG_MEMORIES_OF_THE_DUEL_KING_CEREMONIAL_BATTLE_ARC
-	.2byte ITEM_PACK_OCG_MEMORIES_OF_THE_DUEL_KING_DUELIST_KINGDOM_ARC
-	.2byte ITEM_PACK_OCG_METAL_RAIDERS_JAPANESE_
-	.2byte ITEM_PACK_OCG_MILLENNIUM_BOX_GOLD_EDITION
-	.2byte ITEM_PACK_OCG_MILLENNIUM_PACK_OCG_
-	.2byte ITEM_PACK_OCG_MONSTER_FIGURE_COLLECTION_VOLUME_2_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_MONSTER_FIGURE_COLLECTION_VOLUME_3_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_MONSTER_FIGURE_COLLECTION_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_MONSTER_STRIKE_COLLABORATION_CARDS
-	.2byte ITEM_PACK_OCG_MOVIE_PACK
-	.2byte ITEM_PACK_OCG_MYTHOLOGICAL_AGE
-	.2byte ITEM_PACK_OCG_NUMBER_COMPLETE_FILE_PIECE_OF_MEMORIES_
-	.2byte ITEM_PACK_OCG_NUMBERS_GUIDE_2_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_NUMBERS_GUIDE_3_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_NUMBERS_GUIDE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_OFFICIAL_GUIDE_STARTER_BOOK_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_ORDER_OF_CHAOS
-	.2byte ITEM_PACK_OCG_ORDER_OF_CHAOS_2_PACK_SET
-	.2byte ITEM_PACK_OCG_PERFECT_RULEBOOK_2015_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_PERFECT_RULEBOOK_2016_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_PERFECT_RULEBOOK_2017_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_PERFECT_RULEBOOK_2018_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_PERFECT_RULEBOOK_2020_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_PERFECT_RULEBOOK_2024_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_PERFECT_RULEBOOK_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_PHANTOM_DARKNESS
-	.2byte ITEM_PACK_OCG_PHANTOM_DARKNESS_2_PACK_SET
-	.2byte ITEM_PACK_OCG_PHANTOM_GOD
-	.2byte ITEM_PACK_OCG_PHANTOM_NIGHTMARE
-	.2byte ITEM_PACK_OCG_PHANTOM_NIGHTMARE_1_BONUS_PACK
-	.2byte ITEM_PACK_OCG_PHANTOM_RAGE
-	.2byte ITEM_PACK_OCG_PHANTOM_RAGE_1_BONUS_PACK
-	.2byte ITEM_PACK_OCG_PHARAOH_S_INHERITANCE
-	.2byte ITEM_PACK_OCG_PHARAOH_S_INHERITANCE_VENDOR_EDITION
-	.2byte ITEM_PACK_OCG_PHARAOH_S_SERVANT_JAPANESE_
-	.2byte ITEM_PACK_OCG_PHARAONIC_GUARDIAN_JAPANESE_
-	.2byte ITEM_PACK_OCG_PHARAONIC_LEGEND_PACK
-	.2byte ITEM_PACK_OCG_PHOTON_HYPERNOVA
-	.2byte ITEM_PACK_OCG_PHOTON_HYPERNOVA_1_BONUS_PACK
-	.2byte ITEM_PACK_OCG_PHOTON_SHOCKWAVE
-	.2byte ITEM_PACK_OCG_PHOTON_SHOCKWAVE_2_PACK_SET
-	.2byte ITEM_PACK_OCG_POWER_PROS_2023_COLLABORATION_CARDS
-	.2byte ITEM_PACK_OCG_POWER_PROS_COLLABORATION_CARDS
-	.2byte ITEM_PACK_OCG_POWER_OF_THE_DUELIST
-	.2byte ITEM_PACK_OCG_POWER_OF_THE_DUELIST_VENDOR_EDITION
-	.2byte ITEM_PACK_OCG_POWER_OF_THE_ELEMENTS
-	.2byte ITEM_PACK_OCG_POWER_OF_THE_ELEMENTS_1_BONUS_PACK
-	.2byte ITEM_PACK_OCG_POWER_OF_THE_GUARDIAN
-	.2byte ITEM_PACK_OCG_PREMIUM_PACK_JAPANESE_
-	.2byte ITEM_PACK_OCG_PREMIUM_PACK_10
-	.2byte ITEM_PACK_OCG_PREMIUM_PACK_11
-	.2byte ITEM_PACK_OCG_PREMIUM_PACK_12
-	.2byte ITEM_PACK_OCG_PREMIUM_PACK_13
-	.2byte ITEM_PACK_OCG_PREMIUM_PACK_14
-	.2byte ITEM_PACK_OCG_PREMIUM_PACK_15
-	.2byte ITEM_PACK_OCG_PREMIUM_PACK_16
-	.2byte ITEM_PACK_OCG_PREMIUM_PACK_17
-	.2byte ITEM_PACK_OCG_PREMIUM_PACK_18
-	.2byte ITEM_PACK_OCG_PREMIUM_PACK_19
-	.2byte ITEM_PACK_OCG_PREMIUM_PACK_2_JAPANESE_
-	.2byte ITEM_PACK_OCG_PREMIUM_PACK_20
-	.2byte ITEM_PACK_OCG_PREMIUM_PACK_2019
-	.2byte ITEM_PACK_OCG_PREMIUM_PACK_2020
-	.2byte ITEM_PACK_OCG_PREMIUM_PACK_2021
-	.2byte ITEM_PACK_OCG_PREMIUM_PACK_2022
-	.2byte ITEM_PACK_OCG_PREMIUM_PACK_2023
-	.2byte ITEM_PACK_OCG_PREMIUM_PACK_2024
-	.2byte ITEM_PACK_OCG_PREMIUM_PACK_2025
-	.2byte ITEM_PACK_OCG_PREMIUM_PACK_3
-	.2byte ITEM_PACK_OCG_PREMIUM_PACK_4
-	.2byte ITEM_PACK_OCG_PREMIUM_PACK_5
-	.2byte ITEM_PACK_OCG_PREMIUM_PACK_6
-	.2byte ITEM_PACK_OCG_PREMIUM_PACK_7
-	.2byte ITEM_PACK_OCG_PREMIUM_PACK_8
-	.2byte ITEM_PACK_OCG_PREMIUM_PACK_9
-	.2byte ITEM_PACK_OCG_PREMIUM_PACK_THE_LEGEND_OF_DUELIST_QUARTER_CENTURY_EDITION
-	.2byte ITEM_PACK_OCG_PRIMAL_ORIGIN
-	.2byte ITEM_PACK_OCG_PRIMAL_ORIGIN_BOOSTER_PACK_GUIDE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_PRISMATIC_ART_COLLECTION
-	.2byte ITEM_PACK_OCG_PRISMATIC_GOD_BOX
-	.2byte ITEM_PACK_OCG_PRISMATIC_SECRET_RARE_BLACK_LUSTER_SOLDIER_GET_CAMPAIGN
-	.2byte ITEM_PACK_OCG_PRISMATIC_SECRET_RARE_BLUE_EYES_WHITE_DRAGON_GET_CAMPAIGN
-	.2byte ITEM_PACK_OCG_PRISMATIC_SECRET_RARE_DARK_MAGICIAN_GET_CAMPAIGN
-	.2byte ITEM_PACK_OCG_PRISMATIC_SECRET_RARE_RED_EYES_BLACK_DRAGON_GET_CAMPAIGN
-	.2byte ITEM_PACK_OCG_PRISMATIC_SPECIAL_PACK
-	.2byte ITEM_PACK_OCG_PROMOTION_PACK
-	.2byte ITEM_PACK_OCG_PROMOTION_PACK_2
-	.2byte ITEM_PACK_OCG_PROMOTION_PACK_2017
-	.2byte ITEM_PACK_OCG_PROMOTION_PACK_2018
-	.2byte ITEM_PACK_OCG_PROMOTION_PACK_2019
-	.2byte ITEM_PACK_OCG_PROMOTION_PACK_2023
-	.2byte ITEM_PACK_OCG_PROMOTION_PACK_2024
-	.2byte ITEM_PACK_OCG_PROMOTION_PACK_2025
-	.2byte ITEM_PACK_OCG_PROMOTION_PACK_3_PART_A
-	.2byte ITEM_PACK_OCG_PROMOTION_PACK_3_PART_B
-	.2byte ITEM_PACK_OCG_PROMOTION_PACK_4_PART_A
-	.2byte ITEM_PACK_OCG_PROMOTION_PACK_4_PART_B
-	.2byte ITEM_PACK_OCG_QUARTER_CENTURY_ANNIVERSARY_SELECTION
-	.2byte ITEM_PACK_OCG_QUARTER_CENTURY_ART_COLLECTION
-	.2byte ITEM_PACK_OCG_QUARTER_CENTURY_CHRONICLE_SIDE_PRIDE
-	.2byte ITEM_PACK_OCG_QUARTER_CENTURY_CHRONICLE_SIDE_UNITY
-	.2byte ITEM_PACK_OCG_QUARTER_CENTURY_DUEL_SET_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING_
-	.2byte ITEM_PACK_OCG_QUARTER_CENTURY_DUEL_SET_THE_WINGED_DRAGON_OF_RA_
-	.2byte ITEM_PACK_OCG_QUARTER_CENTURY_DUELIST_BOX
-	.2byte ITEM_PACK_OCG_QUARTER_CENTURY_LEGENDARY_SELECTION
-	.2byte ITEM_PACK_OCG_QUARTER_CENTURY_LIMITED_PACK
-	.2byte ITEM_PACK_OCG_QUARTER_CENTURY_TRINITY_BOX
-	.2byte ITEM_PACK_OCG_QUARTER_CENTURY_UNITY_PRIDE_CAMPAIGN_SIDE_PRIDE
-	.2byte ITEM_PACK_OCG_QUARTER_CENTURY_UNITY_PRIDE_CAMPAIGN_SIDE_UNITY
-	.2byte ITEM_PACK_OCG_RAGE_OF_THE_ABYSS
-	.2byte ITEM_PACK_OCG_RAGE_OF_THE_ABYSS_1_BONUS_PACK
-	.2byte ITEM_PACK_OCG_RAGING_BATTLE
-	.2byte ITEM_PACK_OCG_RAGING_BATTLE_2_PACK_SET
-	.2byte ITEM_PACK_OCG_RAGING_TEMPEST
-	.2byte ITEM_PACK_OCG_RARITY_COLLECTION_20TH_ANNIVERSARY_EDITION
-	.2byte ITEM_PACK_OCG_RARITY_COLLECTION_PREMIUM_GOLD_EDITION
-	.2byte ITEM_PACK_OCG_RARITY_COLLECTION_QUARTER_CENTURY_EDITION
-	.2byte ITEM_PACK_OCG_RED_EYES_DUEL_SET
-	.2byte ITEM_PACK_OCG_REMOTE_DUEL_DISCORD_OFFICIAL_SERVER_REGISTRATION_CAMPAIGN
-	.2byte ITEM_PACK_OCG_REMOTE_DUEL_GIVEAWAY_CAMPAIGN
-	.2byte ITEM_PACK_OCG_REMOTE_DUEL_TWITTER_CAMPAIGNS
-	.2byte ITEM_PACK_OCG_RETURN_OF_THE_DUELIST
-	.2byte ITEM_PACK_OCG_REVIVAL_OF_BLACK_DEMONS_DRAGON
-	.2byte ITEM_PACK_OCG_RISE_OF_DESTINY
-	.2byte ITEM_PACK_OCG_RISE_OF_DESTINY_VENDOR_EDITION
-	.2byte ITEM_PACK_OCG_RISE_OF_THE_DUELIST
-	.2byte ITEM_PACK_OCG_RISE_OF_THE_DUELIST_1_BONUS_PACK
-	.2byte ITEM_PACK_OCG_RISING_RAMPAGE
-	.2byte ITEM_PACK_OCG_SAIKY_JUMP_MARCH_2015_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_SAIKY_JUMP_MAY_2016_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_SAIKY_JUMP_NOVEMBER_2019_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_SAIKY_JUMP_SEPTEMBER_2012_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_SAIKY_JUMP_SEPTEMBER_2015_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_SAIKY_JUMP_SEPTEMBER_2016_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_SAIKY_JUMP_SEPTEMBER_2017_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_SAIKY_JUMP_SEPTEMBER_2018_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_SAIKY_V_JUMP_FESTA_2012_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_SAIKY_V_JUMP_FESTA_2013_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_SAVAGE_STRIKE
-	.2byte ITEM_PACK_OCG_SECRET_SHINY_BOX
-	.2byte ITEM_PACK_OCG_SECRET_UTILITY_BOX
-	.2byte ITEM_PACK_OCG_SECRETS_OF_ETERNITY
-	.2byte ITEM_PACK_OCG_SELECTION_10
-	.2byte ITEM_PACK_OCG_SELECTION_5
-	.2byte ITEM_PACK_OCG_SHADOW_SPECTERS
-	.2byte ITEM_PACK_OCG_SHADOW_OF_INFINITY
-	.2byte ITEM_PACK_OCG_SHADOW_OF_INFINITY_VENDOR_EDITION
-	.2byte ITEM_PACK_OCG_SHINING_SARCOPHAGUS_DUEL_SET
-	.2byte ITEM_PACK_OCG_SHINING_VICTORIES
-	.2byte ITEM_PACK_OCG_SKY_STRIKER_ACE_DUEL_SET
-	.2byte ITEM_PACK_OCG_SKY_STRIKER_ACE_DUEL_SET_2
-	.2byte ITEM_PACK_OCG_SNAKE_EYE_DUEL_SET
-	.2byte ITEM_PACK_OCG_SOUL_FUSION
-	.2byte ITEM_PACK_OCG_SOUL_OF_THE_DUELIST
-	.2byte ITEM_PACK_OCG_SOUL_OF_THE_DUELIST_VENDOR_EDITION
-	.2byte ITEM_PACK_OCG_SPECIAL_PACK
-	.2byte ITEM_PACK_OCG_SPECIAL_PACK_20TH_ANNIVERSARY_EDITION_VOL_1
-	.2byte ITEM_PACK_OCG_SPECIAL_PACK_20TH_ANNIVERSARY_EDITION_VOL_2
-	.2byte ITEM_PACK_OCG_SPECIAL_PACK_20TH_ANNIVERSARY_EDITION_VOL_3
-	.2byte ITEM_PACK_OCG_SPECIAL_PACK_20TH_ANNIVERSARY_EDITION_VOL_4
-	.2byte ITEM_PACK_OCG_SPECIAL_PACK_20TH_ANNIVERSARY_EDITION_VOL_5
-	.2byte ITEM_PACK_OCG_SPECIAL_PACK_20TH_ANNIVERSARY_EDITION_VOL_6
-	.2byte ITEM_PACK_OCG_SPECIAL_SUMMON_EVOLUTION
-	.2byte ITEM_PACK_OCG_SPEED_START_DECK_LINK_EDITION
-	.2byte ITEM_PACK_OCG_SPEED_START_DECK_SYNCHRO_EDITION
-	.2byte ITEM_PACK_OCG_SPELL_OF_MASK
-	.2byte ITEM_PACK_OCG_SPRIGHT_DUEL_SET
-	.2byte ITEM_PACK_OCG_STARDUST_OVERDRIVE
-	.2byte ITEM_PACK_OCG_STARDUST_OVERDRIVE_2_PACK_SET
-	.2byte ITEM_PACK_OCG_STARSTRIKE_BLAST
-	.2byte ITEM_PACK_OCG_STARSTRIKE_BLAST_2_PACK_SET
-	.2byte ITEM_PACK_OCG_STARTER_BOX
-	.2byte ITEM_PACK_OCG_STARTER_BOX_PRE_ORDER_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_STARTER_BOX_THEATRICAL_RELEASE
-	.2byte ITEM_PACK_OCG_STARTER_DECK_2006
-	.2byte ITEM_PACK_OCG_STARTER_DECK_2006_SPECIAL_EDITION
-	.2byte ITEM_PACK_OCG_STARTER_DECK_2007
-	.2byte ITEM_PACK_OCG_STARTER_DECK_2007_SPECIAL_SET
-	.2byte ITEM_PACK_OCG_STARTER_DECK_2008
-	.2byte ITEM_PACK_OCG_STARTER_DECK_2008_TOURNAMENT_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_STARTER_DECK_2009
-	.2byte ITEM_PACK_OCG_STARTER_DECK_2010
-	.2byte ITEM_PACK_OCG_STARTER_DECK_2011
-	.2byte ITEM_PACK_OCG_STARTER_DECK_2012
-	.2byte ITEM_PACK_OCG_STARTER_DECK_2013
-	.2byte ITEM_PACK_OCG_STARTER_DECK_2013_ENHANCEMENT_PACK
-	.2byte ITEM_PACK_OCG_STARTER_DECK_2014
-	.2byte ITEM_PACK_OCG_STARTER_DECK_2014_ENHANCEMENT_PACK
-	.2byte ITEM_PACK_OCG_STARTER_DECK_2016
-	.2byte ITEM_PACK_OCG_STARTER_DECK_2017
-	.2byte ITEM_PACK_OCG_STARTER_DECK_2018
-	.2byte ITEM_PACK_OCG_STARTER_DECK_2019
-	.2byte ITEM_PACK_OCG_STORM_OF_RAGNAROK
-	.2byte ITEM_PACK_OCG_STORM_OF_RAGNAROK_2_PACK_SET
-	.2byte ITEM_PACK_OCG_STRIKE_OF_NEOS
-	.2byte ITEM_PACK_OCG_STRIKE_OF_NEOS_VENDOR_EDITION
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_R_ADVENT_OF_THE_TRUE_MONARCH
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_R_CURSE_OF_THE_DARK
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_R_DEVIL_S_GATE
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_R_DEVIL_S_GATE_THE_DOORS_OF_THE_ABYSS_OPENED_PACK
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_R_DRAGUNITY_DRIVE
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_R_DRAGUNITY_DRIVE_LEGEND_OF_THE_DRAGON_RAVINE_PACK
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_R_LORD_OF_MAGICIAN
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_R_LOST_SANCTUARY
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_R_LOST_SANCTUARY_ARRIVAL_OF_THE_SUN_GOD_PACK
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_R_MACHINE_DRAGON_RE_VOLT
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_R_MACHINERS_COMMAND
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_R_ONSLAUGHT_OF_THE_FIRE_KINGS
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_R_ONSLAUGHT_OF_THE_FIRE_KINGS_SECOND_COMING_OF_THE_ETERNAL_FLAMES_RULER_PACK
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_R_REVIVAL_OF_THE_GREAT_DIVINE_DRAGON
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_R_SURGE_OF_DIVINE_LIGHT
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_R_TYRANNO_S_RAGE
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_R_UNDEAD_WORLD
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_R_WARRIORS_STRIKE
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_ADVENT_OF_THE_EMPEROR
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_ADVENT_OF_THE_EYES_OF_BLUE
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_ADVENT_OF_THE_EYES_OF_BLUE_LEGENDARY_MAJESTY_INHERITANCE_PACK
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_ALBA_STRIKE
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_BLAZE_OF_DESTRUCTION
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_BLITZKRIEG_OF_THE_MECHLIGHT_DRAGONS
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_CURSE_OF_DARKNESS
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_CYBER_STYLE_S_SUCCESSOR
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_CYBER_STYLE_S_SUCCESSOR_SECRET_TECHNIQUE_INHERITANCE_PACK
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_CYBERSE_LINK
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_DELUXE_SET
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_DELUXE_SET_VOLUME_2
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_DEVIL_S_GATE
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_DINOSAUR_S_RAGE
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_DINOSAUR_S_RAGE_SPECIAL_EDITION_JAPANESE_
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_DRAGON_S_ROAR
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_DRAGONIC_LEGION
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_DRAGUNITY_DRIVE
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_FOREST_OF_THE_TRAPTRIX
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_FOREST_OF_THE_TRAPTRIX_THE_LEGEND_OF_DUELIST_QUARTER_CENTURY_EDITION
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_FOREST_OF_THE_TRAPTRIX_BANQUET_INVITATION_PACK
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_FURY_FROM_THE_DEEP
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_HERO_S_STRIKE
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_ICE_BARRIER_OF_THE_FROZEN_PRISON
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_ICE_BARRIER_OF_THE_FROZEN_PRISON_MELTING_DESTINY_PACK
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_INVINCIBLE_FORTRESS
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_JOEY
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_JOEY_VOLUME_2
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_KAIBA
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_KAIBA_VOLUME_2
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_LEGEND_OF_THE_CRYSTALS
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_LEGEND_OF_THE_CRYSTALS_LIGHT_OF_TRANSCENDING_BONDS_PACK
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_LIGHTNING_STRIKE_OF_THE_MECHLIGHT_DRAGON
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_LORD_OF_MAGICIAN
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_LORD_OF_MAGICIAN_LIMITED_EDITION
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_LORD_OF_THE_STORM
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_LOST_SANCTUARY
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_MACHINE_RE_VOLT
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_MACHINE_RE_VOLT_SPECIAL_EDITION
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_MACHINERS_COMMAND
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_MARIK_OCG_
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_MASTER_LINK
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_MASTER_OF_PENDULUM
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_MASTERS_OF_THE_SPIRITUAL_ARTS
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_MASTERS_OF_THE_SPIRITUAL_ARTS_THE_LEGEND_OF_DUELIST_QUARTER_CENTURY_EDITION
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_MASTERS_OF_THE_SPIRITUAL_ARTS_SPIRIT_ART_AWAKENING_PACK
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_ONSLAUGHT_OF_THE_FIRE_KINGS
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_OVERLAY_UNIVERSE
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_OVERLAY_UNIVERSE_EMPEROR_S_DOOR_PACK
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_PEGASUS
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_PENDULUM_DOMINATION
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_PENDULUM_EVOLUTION
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_POWER_OF_FELLOWS
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_POWERCODE_LINK
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_PULSE_OF_THE_KING
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_PULSE_OF_THE_KING_RUMBLING_OF_HEAVEN_AND_EARTH_PACK
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_REBIRTH_OF_SHADDOLL
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_REBIRTH_OF_SHADDOLL_DECK_ENHANCEMENT_PACK
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_REVIVAL_OF_THE_GREAT_DRAGON
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_REVOLVER
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_REVOLVER_EXTRA_DECK_ENHANCEMENT_PACK
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_ROAR_OF_THE_SEA_EMPEROR
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_SACRED_BEASTS_OF_CHAOS
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_SACRED_BEASTS_OF_CHAOS_SACRED_BEASTS_UNLEASHED_PACK
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_SETO_KAIBA
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_SOULBURNER
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_SOULBURNER_EXTRA_DECK_ENHANCEMENT_PACK
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_SPELLCASTER_S_JUDGMENT
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_SURGE_OF_RADIANCE
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_SURGE_OF_RADIANCE_SPECIAL_EDITION
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_SYNCHRON_EXTREME
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_THE_BLUE_EYED_DRAGON_S_THUNDERING_DESCENT
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_UNDEAD_WORLD
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_WARRIOR_S_TRIUMPH
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_WARRIORS_STRIKE
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_YUGI
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_YUGI_MUTO
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_YUGI_VOLUME_2
-	.2byte ITEM_PACK_OCG_STRUCTURE_DECK_ZOMBIE_MADNESS
-	.2byte ITEM_PACK_OCG_STRUGGLE_OF_CHAOS
-	.2byte ITEM_PACK_OCG_SUMMER_NATIONAL_GENERAL_YU_GI_OH_OCG_TEST_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_SUNSTAR_TONIC_COLLABORATION_CARD
-	.2byte ITEM_PACK_OCG_SUPREME_DARKNESS
-	.2byte ITEM_PACK_OCG_SUPREME_DARKNESS_1_BONUS_PACK
-	.2byte ITEM_PACK_OCG_SURPASSING_10000_CARDS_COMMEMORATION_CARD
-	.2byte ITEM_PACK_OCG_SURPASSING_10000_CARDS_COMMEMORATION_SPECIAL_PACK
-	.2byte ITEM_PACK_OCG_TV_TOKYO_FESTIVAL_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_TACTICAL_EVOLUTION
-	.2byte ITEM_PACK_OCG_TACTICAL_TRY_DECK_DECISIVE_STRIKE_CYBER_DRAGON
-	.2byte ITEM_PACK_OCG_TACTICAL_TRY_DECK_ELDLICH_THE_CONQUEROR
-	.2byte ITEM_PACK_OCG_TACTICAL_TRY_DECK_EVIL_TWIN_THE_KAITO_PAIR
-	.2byte ITEM_PACK_OCG_TACTICAL_TRY_DECK_EXOSISTER
-	.2byte ITEM_PACK_OCG_TACTICAL_TRY_DECK_RESCUE_ACE
-	.2byte ITEM_PACK_OCG_TACTICAL_TRY_PACK_DARK_MAGIC_HERO_MIKANKO
-	.2byte ITEM_PACK_OCG_TEARLAMENTS_DUEL_SET
-	.2byte ITEM_PACK_OCG_TERMINAL_WORLD_SET_
-	.2byte ITEM_PACK_OCG_TERMINAL_WORLD_2
-	.2byte ITEM_PACK_OCG_THE_DARK_ILLUSION
-	.2byte ITEM_PACK_OCG_THE_DINOSAUR_EXPO_2023_PROMOTION_PACK
-	.2byte ITEM_PACK_OCG_THE_DUELIST_GENESIS
-	.2byte ITEM_PACK_OCG_THE_DUELIST_GENESIS_2_PACK_SET
-	.2byte ITEM_PACK_OCG_THE_GOLD_BOX
-	.2byte ITEM_PACK_OCG_THE_INFINITE_FORBIDDEN
-	.2byte ITEM_PACK_OCG_THE_LEGEND_OF_DUELIST_PROMOTION_PACK
-	.2byte ITEM_PACK_OCG_THE_LOST_MILLENNIUM
-	.2byte ITEM_PACK_OCG_THE_LOST_MILLENNIUM_VENDOR_EDITION
-	.2byte ITEM_PACK_OCG_THE_NEW_CHALLENGERS
-	.2byte ITEM_PACK_OCG_THE_NEW_RULER
-	.2byte ITEM_PACK_OCG_THE_POT_COLLECTION
-	.2byte ITEM_PACK_OCG_THE_RARITY_COLLECTION
-	.2byte ITEM_PACK_OCG_THE_SANCTUARY_IN_THE_SKY_SET_
-	.2byte ITEM_PACK_OCG_THE_SHINING_DARKNESS
-	.2byte ITEM_PACK_OCG_THE_SHINING_DARKNESS_2_PACK_SET
-	.2byte ITEM_PACK_OCG_THE_THOUSAND_RULE_BIBLE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_THE_VALUABLE_BOOK_1_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_THE_VALUABLE_BOOK_10_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_THE_VALUABLE_BOOK_11_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_THE_VALUABLE_BOOK_12_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_THE_VALUABLE_BOOK_13_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_THE_VALUABLE_BOOK_14_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_THE_VALUABLE_BOOK_15_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_THE_VALUABLE_BOOK_16_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_THE_VALUABLE_BOOK_17_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_THE_VALUABLE_BOOK_18_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_THE_VALUABLE_BOOK_19_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_THE_VALUABLE_BOOK_2_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_THE_VALUABLE_BOOK_20_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_THE_VALUABLE_BOOK_21_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_THE_VALUABLE_BOOK_22_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_THE_VALUABLE_BOOK_3_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_THE_VALUABLE_BOOK_4_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_THE_VALUABLE_BOOK_5_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_THE_VALUABLE_BOOK_6_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_THE_VALUABLE_BOOK_7_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_THE_VALUABLE_BOOK_8_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_THE_VALUABLE_BOOK_9_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_THE_VALUABLE_BOOK_EX_2_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_THE_VALUABLE_BOOK_EX_3_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_THE_VALUABLE_BOOK_EX_4_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_THE_VALUABLE_BOOK_EX_5_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_THE_VALUABLE_BOOK_EX_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_THOUSAND_EYES_BIBLE
-	.2byte ITEM_PACK_OCG_THREAT_OF_THE_DARK_DEMON_WORLD
-	.2byte ITEM_PACK_OCG_TOKYO_GAME_SHOW_2022_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_TOP_PRIZE_PACK_2023_VOL_1
-	.2byte ITEM_PACK_OCG_TOP_PRIZE_PACK_2023_VOL_2
-	.2byte ITEM_PACK_OCG_TOP_PRIZE_PACK_2023_VOL_3
-	.2byte ITEM_PACK_OCG_TOP_PRIZE_PACK_2023_VOL_4
-	.2byte ITEM_PACK_OCG_TOP_PRIZE_PACK_2024_VOL_1
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2007_VOL_1
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2007_VOL_2
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2007_VOL_3
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2007_VOL_4
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2008_VOL_1
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2008_VOL_2
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2008_VOL_3
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2008_VOL_4
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2009_VOL_1
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2009_VOL_2
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2009_VOL_3
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2009_VOL_4
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2010_VOL_1
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2010_VOL_2
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2010_VOL_3
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2010_VOL_4
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2011_VOL_1
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2011_VOL_2
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2011_VOL_3
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2011_VOL_4
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2012_VOL_1
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2012_VOL_2
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2012_VOL_3
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2017_VOL_2
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2017_VOL_3
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2017_VOL_4
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2018_VOL_1
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2018_VOL_2
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2018_VOL_3
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2018_VOL_4
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2019_VOL_1
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2019_VOL_2
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2019_VOL_3
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2019_VOL_4
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2020_VOL_1
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2020_VOL_2
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2020_VOL_3
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2020_VOL_4
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2021_VOL_1
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2021_VOL_2
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2021_VOL_3
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2021_VOL_4
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2022_VOL_1
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2022_VOL_2
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2022_VOL_3
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2022_VOL_4
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2023_VOL_1
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2023_VOL_2
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2023_VOL_3
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2023_VOL_4
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2024_VOL_1
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2024_VOL_2
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2024_VOL_3
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2024_VOL_4
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2024_VOL_5
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2025_VOL_1
-	.2byte ITEM_PACK_OCG_TOURNAMENT_PACK_2025_VOL_2
-	.2byte ITEM_PACK_OCG_TRANSCENDOSAURUS_DUEL_SET
-	.2byte ITEM_PACK_OCG_ULTIMATE_SPECIAL_PACK
-	.2byte ITEM_PACK_OCG_V_JUMP_APRIL_2008_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_APRIL_2009_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_APRIL_2010_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_APRIL_2011_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_APRIL_2012_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_APRIL_2013_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_APRIL_2014_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_APRIL_2015_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_APRIL_2016_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_APRIL_2017_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_APRIL_2018_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_APRIL_2019_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_APRIL_2020_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_APRIL_2021_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_APRIL_2022_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_APRIL_2023_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_APRIL_2024_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_APRIL_2025_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_AUGUST_1999_SPECIAL_PRESENT_SET_A
-	.2byte ITEM_PACK_OCG_V_JUMP_AUGUST_1999_SPECIAL_PRESENT_SET_B
-	.2byte ITEM_PACK_OCG_V_JUMP_AUGUST_2014_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_AUGUST_2015_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_AUGUST_2016_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_AUGUST_2017_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_AUGUST_2018_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_AUGUST_2019_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_AUGUST_2020_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_AUGUST_2021_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_AUGUST_2022_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_AUGUST_2023_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_AUGUST_2024_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_AUGUST_2025_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_CARD_FESTA_2008_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_CARD_FESTA_2009_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_CARD_FESTA_2010_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_DECEMBER_2015_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_DECEMBER_2016_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_DECEMBER_2017_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_DECEMBER_2018_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_DECEMBER_2019_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_DECEMBER_2020_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_DECEMBER_2021_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_DECEMBER_2022_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_DECEMBER_2023_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_DECEMBER_2024_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_EDITION
-	.2byte ITEM_PACK_OCG_V_JUMP_EDITION_10
-	.2byte ITEM_PACK_OCG_V_JUMP_EDITION_2
-	.2byte ITEM_PACK_OCG_V_JUMP_EDITION_3
-	.2byte ITEM_PACK_OCG_V_JUMP_EDITION_4
-	.2byte ITEM_PACK_OCG_V_JUMP_EDITION_5
-	.2byte ITEM_PACK_OCG_V_JUMP_EDITION_6
-	.2byte ITEM_PACK_OCG_V_JUMP_EDITION_7
-	.2byte ITEM_PACK_OCG_V_JUMP_EDITION_8
-	.2byte ITEM_PACK_OCG_V_JUMP_EDITION_9
-	.2byte ITEM_PACK_OCG_V_JUMP_EDITION_PENDULUM_VICTORY_PACK
-	.2byte ITEM_PACK_OCG_V_JUMP_FALL_2005_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_FALL_2006_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_FALL_2007_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_FALL_2008_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_FALL_2009_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_FALL_2010_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_FALL_2011_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_FALL_2012_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_FALL_2013_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_FALL_2014_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_FALL_2015_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_FALL_2016_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_FALL_2017_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_FALL_2018_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_FALL_2019_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_FALL_2020_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_FALL_2021_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_FALL_2022_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_FALL_2023_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_FALL_2024_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_FALL_2025_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_FEBRUARY_2002_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_FEBRUARY_2005_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_FEBRUARY_2006_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_FEBRUARY_2007_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_FEBRUARY_2008_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_FEBRUARY_2009_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_FEBRUARY_2010_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_FEBRUARY_2011_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_FEBRUARY_2012_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_FEBRUARY_2013_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_FEBRUARY_2014_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_FEBRUARY_2015_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_FEBRUARY_2016_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_FEBRUARY_2017_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_FEBRUARY_2018_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_FEBRUARY_2019_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_FEBRUARY_2020_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_FEBRUARY_2021_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_FEBRUARY_2022_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_FEBRUARY_2023_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_FEBRUARY_2024_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_FEBRUARY_2025_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_FESTA_1999_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_FESTA_2011_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JANUARY_2001_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JANUARY_2014_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JANUARY_2016_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JANUARY_2017_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JANUARY_2018_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JANUARY_2019_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JANUARY_2020_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JANUARY_2021_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JANUARY_2022_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JANUARY_2023_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JANUARY_2024_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JANUARY_2025_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JULY_2000_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JULY_2001_LOTTERY_PRIZE_CARDS
-	.2byte ITEM_PACK_OCG_V_JUMP_JULY_2001_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JULY_2002_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JULY_2013_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JULY_2016_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JULY_2017_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JULY_2018_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JULY_2019_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JULY_2020_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JULY_2021_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JULY_2022_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JULY_2023_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JULY_2024_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JULY_2025_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JUNE_2004_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JUNE_2005_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JUNE_2006_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JUNE_2007_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JUNE_2008_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JUNE_2009_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JUNE_2010_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JUNE_2011_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JUNE_2012_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JUNE_2013_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JUNE_2014_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JUNE_2015_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JUNE_2016_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JUNE_2017_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JUNE_2018_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JUNE_2019_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JUNE_2020_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JUNE_2021_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JUNE_2022_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JUNE_2023_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JUNE_2024_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_JUNE_2025_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_MARCH_2007_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_MARCH_2008_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_MARCH_2009_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_MARCH_2010_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_MARCH_2011_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_MARCH_2012_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_MARCH_2013_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_MARCH_2015_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_MARCH_2016_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_MARCH_2017_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_MARCH_2018_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_MARCH_2019_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_MARCH_2020_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_MARCH_2021_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_MARCH_2022_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_MARCH_2023_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_MARCH_2024_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_MARCH_2025_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_MAY_2016_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_MAY_2017_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_MAY_2018_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_MAY_2019_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_MAY_2020_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_MAY_2021_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_MAY_2022_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_MAY_2023_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_MAY_2024_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_MAY_2025_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_NOVEMBER_2005_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_NOVEMBER_2014_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_NOVEMBER_2015_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_NOVEMBER_2016_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_NOVEMBER_2017_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_NOVEMBER_2018_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_NOVEMBER_2019_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_NOVEMBER_2020_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_NOVEMBER_2021_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_NOVEMBER_2022_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_NOVEMBER_2023_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_NOVEMBER_2024_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_OCTOBER_2004_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_OCTOBER_2006_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_OCTOBER_2007_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_OCTOBER_2008_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_OCTOBER_2009_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_OCTOBER_2010_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_OCTOBER_2011_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_OCTOBER_2012_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_OCTOBER_2015_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_OCTOBER_2016_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_OCTOBER_2017_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_OCTOBER_2018_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_OCTOBER_2019_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_OCTOBER_2020_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_OCTOBER_2021_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_OCTOBER_2022_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_OCTOBER_2023_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_OCTOBER_2024_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_SEPTEMBER_2012_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_SEPTEMBER_2013_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_SEPTEMBER_2014_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_SEPTEMBER_2015_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_SEPTEMBER_2016_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_SEPTEMBER_2017_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_SEPTEMBER_2018_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_SEPTEMBER_2019_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_SEPTEMBER_2020_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_SEPTEMBER_2021_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_SEPTEMBER_2022_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_SEPTEMBER_2023_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_SEPTEMBER_2024_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_SEPTEMBER_2025_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_V_JUMP_SPRING_2006_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_SPRING_2007_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_SPRING_2008_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_SPRING_2009_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_SPRING_2010_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_SPRING_2011_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_SPRING_2012_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_SPRING_2013_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_SPRING_2014_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_SPRING_2015_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_SPRING_2016_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_SPRING_2017_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_SPRING_2018_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_SPRING_2019_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_SPRING_2020_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_SPRING_2021_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_SPRING_2022_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_SPRING_2023_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_SPRING_2024_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_V_JUMP_SPRING_2025_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_OCG_VOL_1
-	.2byte ITEM_PACK_OCG_VOL_2
-	.2byte ITEM_PACK_OCG_VOL_3
-	.2byte ITEM_PACK_OCG_VOL_4
-	.2byte ITEM_PACK_OCG_VOL_5
-	.2byte ITEM_PACK_OCG_VOL_6
-	.2byte ITEM_PACK_OCG_VOL_7
-	.2byte ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2001_ISSUE_11_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2001_ISSUE_35_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2001_ISSUE_36_37_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2002_ISSUE_4_5_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2003_ISSUE_3_4_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2006_ISSUE_2_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2006_ISSUE_35_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2007_ISSUE_2_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2007_ISSUE_35_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2008_ISSUE_18_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2008_ISSUE_3_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2008_ISSUE_36_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2009_ISSUE_3_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2009_ISSUE_36_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2010_ISSUE_2_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2010_ISSUE_36_37_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2011_ISSUE_2_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2011_ISSUE_35_36_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2012_ISSUE_2_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2012_ISSUE_35_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2013_ISSUE_36_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2013_ISSUE_4_5_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2014_ISSUE_3_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2014_ISSUE_36_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2015_ISSUE_3_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2015_ISSUE_34_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2016_ISSUE_19_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2017_ISSUE_21_22_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2018_ISSUE_21_22_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2019_ISSUE_22_23_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_WINNER_S_PACK_2025_VOL_1
-	.2byte ITEM_PACK_OCG_WINNER_S_PACK_2025_VOL_2
-	.2byte ITEM_PACK_OCG_WITCHCRAFTER_DUEL_SET
-	.2byte ITEM_PACK_OCG_WORLD_PREMIERE_PACK_2020
-	.2byte ITEM_PACK_OCG_WORLD_PREMIERE_PACK_2021
-	.2byte ITEM_PACK_OCG_WORLD_PREMIERE_PACK_2022
-	.2byte ITEM_PACK_OCG_WORLD_PREMIERE_PACK_2023
-	.2byte ITEM_PACK_OCG_WORLD_PREMIERE_PACK_2024
-	.2byte ITEM_PACK_OCG_WORLD_RANKING_PROMOS_SERIES_1
-	.2byte ITEM_PACK_OCG_WORLD_RANKING_PROMOS_SERIES_2
-	.2byte ITEM_PACK_OCG_WORLD_RANKING_PROMOS_SERIES_3
-	.2byte ITEM_PACK_OCG_WORLD_RANKING_PROMOS_SERIES_4
-	.2byte ITEM_PACK_OCG_WORLD_RANKING_PROMOS_SERIES_5
-	.2byte ITEM_PACK_OCG_WORLD_RANKING_PROMOS_SERIES_6
-	.2byte ITEM_PACK_OCG_WORLD_RANKING_PROMOS_SERIES_7
-	.2byte ITEM_PACK_OCG_WORLD_RANKING_PROMOS_SERIES_8
-	.2byte ITEM_PACK_OCG_WORLD_RANKING_PROMOS_SERIES_9
-	.2byte ITEM_PACK_OCG_YU_GI_OH_3D_BONDS_BEYOND_TIME_BLU_RAY_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_3D_BONDS_BEYOND_TIME_DVD_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_3D_BONDS_BEYOND_TIME_MOVIE_PACK
-	.2byte ITEM_PACK_OCG_YU_GI_OH_3D_BONDS_BEYOND_TIME_THEATER_DISTRIBUTION_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_5D_S_DUEL_TRANSER_GENERATE_GUIDE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_5D_S_DUEL_TRANSER_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_5D_S_TAG_FORCE_4_COMPLETE_TAG_DUEL_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_5D_S_TAG_FORCE_4_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_5D_S_TAG_FORCE_5_ADVANCE_TAG_DUEL_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_5D_S_TAG_FORCE_5_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_5D_S_TAG_FORCE_6_LIMIT_OVER_TAG_DUEL_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_5D_S_TAG_FORCE_6_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_5D_S_VOLUME_1_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_5D_S_VOLUME_2_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_5D_S_VOLUME_3_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_5D_S_VOLUME_4_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_5D_S_VOLUME_5_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_5D_S_VOLUME_6_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_5D_S_VOLUME_7_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_5D_S_VOLUME_8_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_5D_S_VOLUME_9_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_5D_S_WHEELIE_BREAKERS_PERFECT_RIDE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_5D_S_WHEELIE_BREAKERS_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_5D_S_WORLD_CHAMPIONSHIP_2009_STARDUST_ACCELERATOR_VICTORY_ROAD_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_5D_S_WORLD_CHAMPIONSHIP_2009_STARDUST_ACCELERATOR_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_5D_S_WORLD_CHAMPIONSHIP_2010_REVERSE_OF_ARCADIA_PERFECT_DUEL_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_5D_S_WORLD_CHAMPIONSHIP_2010_REVERSE_OF_ARCADIA_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_5D_S_WORLD_CHAMPIONSHIP_2011_OVER_THE_NEXUS_ROAD_TO_VICTORY_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_5D_S_WORLD_CHAMPIONSHIP_2011_OVER_THE_NEXUS_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_ARC_V_TAG_FORCE_SPECIAL_LEGEND_TAG_GUIDE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_ARC_V_THE_STRONGEST_DUELIST_YUYA_VOLUME_1_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_ARC_V_THE_STRONGEST_DUELIST_YUYA_VOLUME_2_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_ARC_V_VOLUME_1_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_ARC_V_VOLUME_2_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_ARC_V_VOLUME_3_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_ARC_V_VOLUME_4_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_ARC_V_VOLUME_5_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_ARC_V_VOLUME_6_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_ARC_V_VOLUME_7_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_CAPSULE_MONSTER_COLISEUM_GUIDE_BOOK_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_CAPSULE_MONSTER_COLISEUM_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_CARD_GAME_25TH_ANNIVERSARY_BLUE_EYES_WHITE_DRAGON_UKIYO_E_STYLE_LIMITED_OCG_CARD_WITH_FRAMED_STAMP_SET
-	.2byte ITEM_PACK_OCG_YU_GI_OH_CARD_GAME_ART_WORKS_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_CARD_GAME_X_7_ELEVEN_2024_COLLABORATION_CAMPAIGN
-	.2byte ITEM_PACK_OCG_YU_GI_OH_CARD_GAME_X_7_ELEVEN_COLLABORATION_CAMPAIGN
-	.2byte ITEM_PACK_OCG_YU_GI_OH_CHAMPIONSHIP_SERIES_JAPAN_2019_PRIZE_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_CHAMPIONSHIP_SERIES_JAPAN_2023_PRIZE_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_CHAMPIONSHIP_SERIES_JAPAN_2024_PRIZE_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_CHAMPIONSHIP_SERIES_JAPAN_2025_PRIZE_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_CHARACTER_GUIDEBOOK_MILLENNIUM_BOOK_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_CHARACTER_GUIDEBOOK_THE_GOSPEL_OF_TRUTH_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_CHIPS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_LINKS_LEGEND_DECK_GUIDE_YAMI_YUGI_VS_SETO_KAIBA_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_4_BATTLE_OF_GREAT_DUELIST_GAME_GUIDE_1_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_4_BATTLE_OF_GREAT_DUELIST_GAME_GUIDE_2_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_4_BATTLE_OF_GREAT_DUELIST_JONOUCHI_DECK_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_4_BATTLE_OF_GREAT_DUELIST_KAIBA_DECK_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_4_BATTLE_OF_GREAT_DUELIST_YUGI_DECK_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_5_EXPERT_1_FIRST_VOLUME_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_5_EXPERT_1_SECOND_VOLUME_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_5_EXPERT_1_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_6_EXPERT_2_FIRST_VOLUME_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_6_EXPERT_2_SECOND_VOLUME_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_6_EXPERT_2_PRE_ORDER_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_6_EXPERT_2_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_7_THE_DUELCITY_LEGEND_GAME_GUIDE_1_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_7_THE_DUELCITY_LEGEND_GAME_GUIDE_2_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_7_THE_DUELCITY_LEGEND_PRE_ORDER_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_7_THE_DUELCITY_LEGEND_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_8_RESHEF_OF_DESTRUCTION_GAME_GUIDE_1_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_8_RESHEF_OF_DESTRUCTION_GAME_GUIDE_2_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_8_RESHEF_OF_DESTRUCTION_PRE_ORDER_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_8_RESHEF_OF_DESTRUCTION_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_ANIME_COMPLETE_GUIDE_MILLENNIUM_MEMORY_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_EXPERT_3_GAME_GUIDE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_EXPERT_3_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_II_DARK_DUEL_STORIES_DUELIST_LEGEND_IN_TOKYO_DOME_ATTENDANCE_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_II_DARK_DUEL_STORIES_DUELIST_LEGEND_IN_TOKYO_DOME_PARTICIPATION_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_II_DARK_DUEL_STORIES_DUELIST_LEGEND_IN_TOKYO_DOME_PRIZE_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_II_DARK_DUEL_STORIES_GAME_GUIDE_1_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_II_DARK_DUEL_STORIES_GAME_GUIDE_2_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_II_DARK_DUEL_STORIES_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_III_TRI_HOLY_GOD_ADVENT_GAME_GUIDE_1_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_III_TRI_HOLY_GOD_ADVENT_GAME_GUIDE_2_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_III_TRI_HOLY_GOD_ADVENT_OFFICIAL_TOURNAMENT_STREET_DUEL_LEGEND_OF_POWER_PRIZE_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_III_TRI_HOLY_GOD_ADVENT_PRE_ORDER_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_III_TRI_HOLY_GOD_ADVENT_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_INTERNATIONAL_2_GAME_GUIDE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_INTERNATIONAL_2_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_INTERNATIONAL_WORLDWIDE_EDITION_GAME_GUIDE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_MILLENNIUM_SCENES_BLU_RAY_DVD_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_NATIONAL_TOURNAMENT_ATTENDANCE_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_NATIONAL_TOURNAMENT_PRIZE_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_SAIKYO_CARD_BATTLE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_THE_LEGEND_OF_DUELIST_QUARTER_CENTURY_ATTENDANCE_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUEL_TERMINAL_MASTER_GUIDE_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_DUELIST_AND_MONSTERS_MEMORIAL_DISC_BLU_RAY_DVD_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_EARLY_DAYS_COLLECTION_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_GX_CARD_ALMANAC_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_GX_DUEL_ACADEMY_GAME_GUIDE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_GX_DUEL_ACADEMY_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_GX_SPIRIT_CALLER_GAME_GUIDE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_GX_SPIRIT_CALLER_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_GX_TAG_FORCE_2_MASTER_TAG_DUEL_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_GX_TAG_FORCE_2_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_GX_TAG_FORCE_3_CLIMAX_TAG_DUEL_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_GX_TAG_FORCE_3_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_GX_TAG_FORCE_EVOLUTION_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_GX_TAG_FORCE_FRIENDSHIP_TAG_DUEL_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_GX_TAG_FORCE_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_GX_VOLUME_1_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_GX_VOLUME_2_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_GX_VOLUME_3_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_GX_VOLUME_4_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_GX_VOLUME_5_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_GX_VOLUME_6_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_GX_VOLUME_7_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_GX_VOLUME_8_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_GX_VOLUME_9_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_LEGACY_OF_THE_DUELIST_LINK_EVOLUTION_DUELIST_COMPLETE_GUIDE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_NIGHTMARE_TROUBADOUR_GAME_GUIDE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_NIGHTMARE_TROUBADOUR_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_OCG_STORIES_MAGISTUS_ARC_VOLUME_4_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_OCG_STORIES_SKY_STRIKER_ACE_ARC_VOLUME_1_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_OCG_STORIES_SKY_STRIKER_ACE_ARC_VOLUME_2_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_OCG_STORIES_SKY_STRIKER_ACE_ARC_VOLUME_3_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_OCG_STORIES_VOLUME_5_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_OCG_STRUCTURES_VOLUME_1_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_OCG_STRUCTURES_VOLUME_10_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_OCG_STRUCTURES_VOLUME_2_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_OCG_STRUCTURES_VOLUME_3_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_OCG_STRUCTURES_VOLUME_4_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_OCG_STRUCTURES_VOLUME_5_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_OCG_STRUCTURES_VOLUME_6_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_OCG_STRUCTURES_VOLUME_7_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_OCG_STRUCTURES_VOLUME_8_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_OCG_STRUCTURES_VOLUME_9_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_QUARTER_CENTURY_SUMMONSCENE_SELECTION_BLU_RAY_DVD_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_R_VOLUME_1_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_R_VOLUME_3_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_R_VOLUME_4_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_R_VOLUME_5_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_SOUND_DUEL_QUARTER_CENTURY_SELECTION_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_SUMMER_CHALLENGE_2009_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_4D_THEATER_DISTRIBUTION_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_ADVANCE_TICKET_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_BLU_RAY_DVD_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_CINEMILEAGE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_COCO_ICHIBANYA_PROMOTIONAL_CARD_1
-	.2byte ITEM_PACK_OCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_COCO_ICHIBANYA_PROMOTIONAL_CARD_2
-	.2byte ITEM_PACK_OCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_DUEL_SET
-	.2byte ITEM_PACK_OCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_MOVIE_PACK
-	.2byte ITEM_PACK_OCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_THEATER_DISTRIBUTION_CARD_1
-	.2byte ITEM_PACK_OCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_THEATER_DISTRIBUTION_CARD_2
-	.2byte ITEM_PACK_OCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_THEATER_DISTRIBUTION_CARD_3
-	.2byte ITEM_PACK_OCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_THEATER_DISTRIBUTION_CARD_4
-	.2byte ITEM_PACK_OCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_YOKOHAMA_EVENT_DISTRIBUTION_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_THE_MOVIE_PREVIEW_DISTRIBUTION_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_TRUE_DUEL_MONSTERS_2_SUCCEEDED_MEMORIES_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_TRUE_DUEL_MONSTERS_II_SUCCEEDED_MEMORIES_GAME_GUIDE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_TRUE_DUEL_MONSTERS_SEALED_MEMORIES_GAME_GUIDE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_TRUE_DUEL_MONSTERS_SEALED_MEMORIES_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_ULTIMATE_MASTERS_WORLD_CHAMPIONSHIP_TOURNAMENT_2006_GAME_GUIDE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_ULTIMATE_MASTERS_WORLD_CHAMPIONSHIP_TOURNAMENT_2006_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_UNITED_DUEL_TOURNAMENT_2020_PRIZE_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_UNITED_DUEL_TOURNAMENT_AUGUST_2022_PRIZE_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_UNITED_DUEL_TOURNAMENT_FEBRUARY_2023_PRIZE_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_UNITED_DUEL_TOURNAMENT_MAY_2021_PRIZE_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_UNITED_DUEL_TOURNAMENT_NOVEMBER_2021_PRIZE_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_VOLUME_31_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_WORLD_CHAMPIONSHIP_2006_SET
-	.2byte ITEM_PACK_OCG_YU_GI_OH_WORLD_CHAMPIONSHIP_2007_ROAD_TO_FINAL_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_WORLD_CHAMPIONSHIP_2007_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_WORLD_CHAMPIONSHIP_2008_COMPLETE_EDITION_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_WORLD_CHAMPIONSHIP_2008_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_WORLD_CHAMPIONSHIP_2017_ATTENDANCE_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_WORLD_CHAMPIONSHIP_2018_ATTENDANCE_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_WORLD_CHAMPIONSHIP_2019_ATTENDANCE_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_WORLD_CHAMPIONSHIP_2023_ATTENDANCE_CARDS
-	.2byte ITEM_PACK_OCG_YU_GI_OH_ZEXAL_VOLUME_1_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_ZEXAL_VOLUME_2_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_ZEXAL_VOLUME_3_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_ZEXAL_VOLUME_4_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_ZEXAL_VOLUME_5_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_ZEXAL_VOLUME_6_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_ZEXAL_VOLUME_7_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_ZEXAL_VOLUME_8_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_ZEXAL_VOLUME_9_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_ZEXAL_WORLD_DUEL_CARNIVAL_DUEL_CHAMPION_GUIDE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_OCG_YU_GI_OH_ZEXAL_WORLD_DUEL_CARNIVAL_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_2_PLAYER_STARTER_DECK_YUYA_DECLAN
 	.2byte ITEM_PACK_TCG_2_PLAYER_STARTER_SET
-	.2byte ITEM_PACK_TCG_2013_COLLECTIBLE_TINS_WAVE_1
-	.2byte ITEM_PACK_TCG_2013_COLLECTIBLE_TINS_WAVE_2
-	.2byte ITEM_PACK_TCG_2014_MEGA_TIN_MEGA_PACK
-	.2byte ITEM_PACK_TCG_2014_MEGA_TINS
-	.2byte ITEM_PACK_TCG_2015_MEGA_TIN
-	.2byte ITEM_PACK_TCG_2015_MEGA_TIN_MEGA_PACK
-	.2byte ITEM_PACK_TCG_2015_MEGA_TINS
-	.2byte ITEM_PACK_TCG_2016_MEGA_TIN_MEGA_PACK
-	.2byte ITEM_PACK_TCG_2016_MEGA_TINS
-	.2byte ITEM_PACK_TCG_2017_MEGA_TIN_MEGA_PACK
-	.2byte ITEM_PACK_TCG_2017_MEGA_TINS
-	.2byte ITEM_PACK_TCG_2018_MEGA_TIN_MEGA_PACK
-	.2byte ITEM_PACK_TCG_2018_MEGA_TINS
-	.2byte ITEM_PACK_TCG_2019_GOLD_SARCOPHAGUS_TIN
-	.2byte ITEM_PACK_TCG_2019_GOLD_SARCOPHAGUS_TIN_MEGA_PACK
-	.2byte ITEM_PACK_TCG_2020_TIN_OF_LOST_MEMORIES
-	.2byte ITEM_PACK_TCG_2021_TIN_OF_ANCIENT_BATTLES
-	.2byte ITEM_PACK_TCG_2022_TIN_OF_THE_PHARAOH_S_GODS
-	.2byte ITEM_PACK_TCG_25TH_ANNIVERSARY_RARITY_COLLECTION
-	.2byte ITEM_PACK_TCG_25TH_ANNIVERSARY_RARITY_COLLECTION_II
-	.2byte ITEM_PACK_TCG_25TH_ANNIVERSARY_TIN_DUELING_HEROES
-	.2byte ITEM_PACK_TCG_25TH_ANNIVERSARY_TIN_DUELING_HEROES_MEGA_PACK
-	.2byte ITEM_PACK_TCG_25TH_ANNIVERSARY_TIN_DUELING_MIRRORS
-	.2byte ITEM_PACK_TCG_25TH_ANNIVERSARY_ULTIMATE_KAIBA_SET
 	.2byte ITEM_PACK_TCG_ABSOLUTE_POWERFORCE
-	.2byte ITEM_PACK_TCG_ABSOLUTE_POWERFORCE_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_ABSOLUTE_POWERFORCE_SPECIAL_EDITION
 	.2byte ITEM_PACK_TCG_ABYSS_RISING
-	.2byte ITEM_PACK_TCG_ABYSS_RISING_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_ABYSS_RISING_SPECIAL_EDITION
-	.2byte ITEM_PACK_TCG_ADIDAS_COLLABORATION_CARD
-	.2byte ITEM_PACK_TCG_ADVANCED_DEMO_DECK_EXTRA_PACK
 	.2byte ITEM_PACK_TCG_AGE_OF_OVERLORD
-	.2byte ITEM_PACK_TCG_AGE_OF_OVERLORD_PREMIERE_PROMOTIONAL_CARD
 	.2byte ITEM_PACK_TCG_ALLIANCE_INSIGHT
-	.2byte ITEM_PACK_TCG_ALLIANCE_INSIGHT_PREMIERE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_AMAZING_DEFENDERS
-	.2byte ITEM_PACK_TCG_ANCIENT_GUARDIANS
 	.2byte ITEM_PACK_TCG_ANCIENT_PROPHECY
-	.2byte ITEM_PACK_TCG_ANCIENT_PROPHECY_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_ANCIENT_PROPHECY_SPECIAL_EDITION
 	.2byte ITEM_PACK_TCG_ANCIENT_SANCTUARY
-	.2byte ITEM_PACK_TCG_ANNIVERSARY_PACK
-	.2byte ITEM_PACK_TCG_ASTRAL_PACK_EIGHT
-	.2byte ITEM_PACK_TCG_ASTRAL_PACK_FIVE
-	.2byte ITEM_PACK_TCG_ASTRAL_PACK_FOUR
-	.2byte ITEM_PACK_TCG_ASTRAL_PACK_ONE
-	.2byte ITEM_PACK_TCG_ASTRAL_PACK_SEVEN
-	.2byte ITEM_PACK_TCG_ASTRAL_PACK_SIX
-	.2byte ITEM_PACK_TCG_ASTRAL_PACK_THREE
-	.2byte ITEM_PACK_TCG_ASTRAL_PACK_TWO
-	.2byte ITEM_PACK_TCG_BATTLE_PACK_2_WAR_OF_THE_GIANTS
-	.2byte ITEM_PACK_TCG_BATTLE_PACK_3_MONSTER_LEAGUE
-	.2byte ITEM_PACK_TCG_BATTLE_PACK_TOURNAMENT_PRIZE_CARDS
-	.2byte ITEM_PACK_TCG_BATTLE_PACK_EPIC_DAWN
 	.2byte ITEM_PACK_TCG_BATTLE_OF_CHAOS
-	.2byte ITEM_PACK_TCG_BATTLE_OF_CHAOS_PREMIERE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_BATTLES_OF_LEGEND_ARMAGEDDON
-	.2byte ITEM_PACK_TCG_BATTLES_OF_LEGEND_CHAPTER_1
-	.2byte ITEM_PACK_TCG_BATTLES_OF_LEGEND_CRYSTAL_REVENGE
-	.2byte ITEM_PACK_TCG_BATTLES_OF_LEGEND_HERO_S_REVENGE
-	.2byte ITEM_PACK_TCG_BATTLES_OF_LEGEND_LIGHT_S_REVENGE
-	.2byte ITEM_PACK_TCG_BATTLES_OF_LEGEND_MONSTER_MAYHEM
-	.2byte ITEM_PACK_TCG_BATTLES_OF_LEGEND_MONSTROUS_REVENGE
-	.2byte ITEM_PACK_TCG_BATTLES_OF_LEGEND_RELENTLESS_REVENGE
-	.2byte ITEM_PACK_TCG_BATTLES_OF_LEGEND_TERMINAL_REVENGE
 	.2byte ITEM_PACK_TCG_BLAZING_VORTEX
-	.2byte ITEM_PACK_TCG_BLAZING_VORTEX_PREMIERE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_BLUE_EYES_ALTERNATIVE_WHITE_DRAGON_SWEEPSTAKES
-	.2byte ITEM_PACK_TCG_BOOSTER_PACK_COLLECTORS_TINS_2002
 	.2byte ITEM_PACK_TCG_BREAKERS_OF_SHADOW
-	.2byte ITEM_PACK_TCG_BREAKERS_OF_SHADOW_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_BREAKERS_OF_SHADOW_SPECIAL_EDITION
-	.2byte ITEM_PACK_TCG_BROTHERS_OF_LEGEND
 	.2byte ITEM_PACK_TCG_BURST_OF_DESTINY
-	.2byte ITEM_PACK_TCG_BURST_OF_DESTINY_PREMIERE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_CHAMPION_PACK_GAME_EIGHT
-	.2byte ITEM_PACK_TCG_CHAMPION_PACK_GAME_FIVE
-	.2byte ITEM_PACK_TCG_CHAMPION_PACK_GAME_FOUR
-	.2byte ITEM_PACK_TCG_CHAMPION_PACK_GAME_ONE
-	.2byte ITEM_PACK_TCG_CHAMPION_PACK_GAME_SEVEN
-	.2byte ITEM_PACK_TCG_CHAMPION_PACK_GAME_SIX
-	.2byte ITEM_PACK_TCG_CHAMPION_PACK_GAME_THREE
-	.2byte ITEM_PACK_TCG_CHAMPION_PACK_GAME_TWO
 	.2byte ITEM_PACK_TCG_CHAOS_IMPACT
-	.2byte ITEM_PACK_TCG_CHAOS_IMPACT_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_CHAOS_IMPACT_SPECIAL_EDITION
 	.2byte ITEM_PACK_TCG_CIRCUIT_BREAK
-	.2byte ITEM_PACK_TCG_CIRCUIT_BREAK_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_CIRCUIT_BREAK_SPECIAL_EDITION
 	.2byte ITEM_PACK_TCG_CLASH_OF_REBELLIONS
-	.2byte ITEM_PACK_TCG_CLASH_OF_REBELLIONS_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_CLASH_OF_REBELLIONS_SPECIAL_EDITION
 	.2byte ITEM_PACK_TCG_CODE_OF_THE_DUELIST
-	.2byte ITEM_PACK_TCG_CODE_OF_THE_DUELIST_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_CODE_OF_THE_DUELIST_SPECIAL_EDITION
-	.2byte ITEM_PACK_TCG_COLLECTIBLE_TINS_2003
-	.2byte ITEM_PACK_TCG_COLLECTIBLE_TINS_2004
-	.2byte ITEM_PACK_TCG_COLLECTIBLE_TINS_2005
-	.2byte ITEM_PACK_TCG_COLLECTIBLE_TINS_2006_WAVE_1
-	.2byte ITEM_PACK_TCG_COLLECTIBLE_TINS_2006_WAVE_2
-	.2byte ITEM_PACK_TCG_COLLECTIBLE_TINS_2007_WAVE_1
-	.2byte ITEM_PACK_TCG_COLLECTIBLE_TINS_2007_WAVE_2
-	.2byte ITEM_PACK_TCG_COLLECTIBLE_TINS_2008_WAVE_1
-	.2byte ITEM_PACK_TCG_COLLECTIBLE_TINS_2008_WAVE_2
-	.2byte ITEM_PACK_TCG_COLLECTIBLE_TINS_2009_WAVE_1
-	.2byte ITEM_PACK_TCG_COLLECTIBLE_TINS_2009_WAVE_2
-	.2byte ITEM_PACK_TCG_COLLECTIBLE_TINS_2010_WAVE_1
-	.2byte ITEM_PACK_TCG_COLLECTIBLE_TINS_2010_WAVE_2
-	.2byte ITEM_PACK_TCG_COLLECTIBLE_TINS_2011_WAVE_1
-	.2byte ITEM_PACK_TCG_COLLECTIBLE_TINS_2011_WAVE_2
-	.2byte ITEM_PACK_TCG_COLLECTIBLE_TINS_2012_WAVE_1
-	.2byte ITEM_PACK_TCG_COLLECTIBLE_TINS_2012_WAVE_2
-	.2byte ITEM_PACK_TCG_COLLECTIBLE_TINS_2012_WAVE_2_5
-	.2byte ITEM_PACK_TCG_COLLECTIBLE_TINS_EXCLUSIVE_2008
-	.2byte ITEM_PACK_TCG_COLLECTIBLE_TINS_EXCLUSIVE_2009
 	.2byte ITEM_PACK_TCG_COSMO_BLAZER
-	.2byte ITEM_PACK_TCG_COSMO_BLAZER_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_COSMO_BLAZER_SPECIAL_EDITION
 	.2byte ITEM_PACK_TCG_CRIMSON_CRISIS
-	.2byte ITEM_PACK_TCG_CRIMSON_CRISIS_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_CRIMSON_CRISIS_SPECIAL_EDITION
 	.2byte ITEM_PACK_TCG_CROSSED_SOULS
-	.2byte ITEM_PACK_TCG_CROSSED_SOULS_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_CROSSED_SOULS_ADVANCE_EDITION
-	.2byte ITEM_PACK_TCG_CROSSOVER_BREAKERS
 	.2byte ITEM_PACK_TCG_CROSSROADS_OF_CHAOS
-	.2byte ITEM_PACK_TCG_CROSSROADS_OF_CHAOS_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_CROSSROADS_OF_CHAOS_SPECIAL_EDITION
 	.2byte ITEM_PACK_TCG_CYBER_DRAGON_REVOLUTION_STRUCTURE_DECK
 	.2byte ITEM_PACK_TCG_CYBERDARK_IMPACT
-	.2byte ITEM_PACK_TCG_CYBERDARK_IMPACT_SNEAK_PEEK_PARTICIPATION_CARD
 	.2byte ITEM_PACK_TCG_CYBERNETIC_HORIZON
-	.2byte ITEM_PACK_TCG_CYBERNETIC_HORIZON_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_CYBERNETIC_HORIZON_SPECIAL_EDITION
 	.2byte ITEM_PACK_TCG_CYBERNETIC_REVOLUTION
-	.2byte ITEM_PACK_TCG_CYBERNETIC_REVOLUTION_SNEAK_PEEK_PARTICIPATION_CARD
 	.2byte ITEM_PACK_TCG_CYBERSTORM_ACCESS
-	.2byte ITEM_PACK_TCG_CYBERSTORM_ACCESS_PREMIERE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_DARK_BEGINNING_1
-	.2byte ITEM_PACK_TCG_DARK_BEGINNING_2
 	.2byte ITEM_PACK_TCG_DARK_CRISIS
-	.2byte ITEM_PACK_TCG_DARK_CRISIS_25TH_ANNIVERSARY_EDITION_
-	.2byte ITEM_PACK_TCG_DARK_LEGENDS
 	.2byte ITEM_PACK_TCG_DARK_LEGION_STARTER_DECK
 	.2byte ITEM_PACK_TCG_DARK_NEOSTORM
-	.2byte ITEM_PACK_TCG_DARK_NEOSTORM_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_DARK_NEOSTORM_SPECIAL_EDITION
-	.2byte ITEM_PACK_TCG_DARK_REVELATION_VOLUME_1
-	.2byte ITEM_PACK_TCG_DARK_REVELATION_VOLUME_2
-	.2byte ITEM_PACK_TCG_DARK_REVELATION_VOLUME_3
-	.2byte ITEM_PACK_TCG_DARK_REVELATION_VOLUME_4
-	.2byte ITEM_PACK_TCG_DARK_SAVIORS
 	.2byte ITEM_PACK_TCG_DARKWING_BLAST
-	.2byte ITEM_PACK_TCG_DARKWING_BLAST_PREMIERE_PROMOTIONAL_CARD
 	.2byte ITEM_PACK_TCG_DAWN_OF_MAJESTY
-	.2byte ITEM_PACK_TCG_DAWN_OF_MAJESTY_PREMIERE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_DEMO_DECK_2015
-	.2byte ITEM_PACK_TCG_DEMO_DECK_2016
-	.2byte ITEM_PACK_TCG_DEMO_PACK
-	.2byte ITEM_PACK_TCG_DEMO_SPEED_DUELING_KIT
-	.2byte ITEM_PACK_TCG_DESTINY_SOLDIERS
 	.2byte ITEM_PACK_TCG_DIMENSION_FORCE
-	.2byte ITEM_PACK_TCG_DIMENSION_FORCE_PREMIERE_PROMOTIONAL_CARD
 	.2byte ITEM_PACK_TCG_DIMENSION_OF_CHAOS
-	.2byte ITEM_PACK_TCG_DIMENSION_OF_CHAOS_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_DIMENSION_OF_CHAOS_SPECIAL_EDITION
 	.2byte ITEM_PACK_TCG_DINOSMASHER_S_FURY_STRUCTURE_DECK
 	.2byte ITEM_PACK_TCG_DRAGONS_COLLIDE_STRUCTURE_DECK
-	.2byte ITEM_PACK_TCG_DRAGONS_OF_LEGEND
-	.2byte ITEM_PACK_TCG_DRAGONS_OF_LEGEND_2
-	.2byte ITEM_PACK_TCG_DRAGONS_OF_LEGEND_THE_COMPLETE_SERIES
-	.2byte ITEM_PACK_TCG_DRAGONS_OF_LEGEND_UNLEASHED
 	.2byte ITEM_PACK_TCG_DRAGUNITY_LEGION_STRUCTURE_DECK
-	.2byte ITEM_PACK_TCG_DUEL_DEVASTATOR
-	.2byte ITEM_PACK_TCG_DUEL_DISK_YUSEI_VERSION
-	.2byte ITEM_PACK_TCG_DUEL_MASTER_S_GUIDE_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_DUEL_OVERLOAD
-	.2byte ITEM_PACK_TCG_DUEL_POWER
-	.2byte ITEM_PACK_TCG_DUEL_TERMINAL_PREVIEW_WAVE_1
-	.2byte ITEM_PACK_TCG_DUEL_TERMINAL_PREVIEW_WAVE_2
-	.2byte ITEM_PACK_TCG_DUEL_TERMINAL_1
-	.2byte ITEM_PACK_TCG_DUEL_TERMINAL_2
-	.2byte ITEM_PACK_TCG_DUEL_TERMINAL_3
-	.2byte ITEM_PACK_TCG_DUEL_TERMINAL_4
-	.2byte ITEM_PACK_TCG_DUEL_TERMINAL_5A
-	.2byte ITEM_PACK_TCG_DUEL_TERMINAL_5B
-	.2byte ITEM_PACK_TCG_DUEL_TERMINAL_6A
-	.2byte ITEM_PACK_TCG_DUEL_TERMINAL_6B
-	.2byte ITEM_PACK_TCG_DUEL_TERMINAL_7A
-	.2byte ITEM_PACK_TCG_DUEL_TERMINAL_7B
-	.2byte ITEM_PACK_TCG_DUELIN_MONSTERS_GIVEAWAY
 	.2byte ITEM_PACK_TCG_DUELIST_ALLIANCE
-	.2byte ITEM_PACK_TCG_DUELIST_ALLIANCE_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_DUELIST_ALLIANCE_DELUXE_EDITION
-	.2byte ITEM_PACK_TCG_DUELIST_LEAGUE_13_PARTICIPATION_CARDS
-	.2byte ITEM_PACK_TCG_DUELIST_LEAGUE_14_PARTICIPATION_CARDS
-	.2byte ITEM_PACK_TCG_DUELIST_LEAGUE_15_PARTICIPATION_CARDS
-	.2byte ITEM_PACK_TCG_DUELIST_LEAGUE_16_PARTICIPATION_CARDS
-	.2byte ITEM_PACK_TCG_DUELIST_LEAGUE_17_PARTICIPATION_CARDS
-	.2byte ITEM_PACK_TCG_DUELIST_LEAGUE_18_PARTICIPATION_CARDS
-	.2byte ITEM_PACK_TCG_DUELIST_LEAGUE_2_PARTICIPATION_CARDS
-	.2byte ITEM_PACK_TCG_DUELIST_LEAGUE_2010_PARTICIPATION_CARDS
-	.2byte ITEM_PACK_TCG_DUELIST_LEAGUE_3_PARTICIPATION_CARDS
-	.2byte ITEM_PACK_TCG_DUELIST_LEAGUE_DEMO_2010
-	.2byte ITEM_PACK_TCG_DUELIST_LEAGUE_SERIES_1_PARTICIPATION_CARDS
-	.2byte ITEM_PACK_TCG_DUELIST_LEAGUE_SERIES_10_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_DUELIST_LEAGUE_SERIES_2_PARTICIPATION_CARDS
-	.2byte ITEM_PACK_TCG_DUELIST_LEAGUE_SERIES_3_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_DUELIST_LEAGUE_SERIES_4_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_DUELIST_LEAGUE_SERIES_5_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_DUELIST_LEAGUE_SERIES_6_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_DUELIST_LEAGUE_SERIES_7_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_DUELIST_LEAGUE_SERIES_8_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_DUELIST_LEAGUE_SERIES_9_PARTICIPATION_CARD
 	.2byte ITEM_PACK_TCG_DUELIST_NEXUS
-	.2byte ITEM_PACK_TCG_DUELIST_NEXUS_PREMIERE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_DUELIST_PACK_COLLECTION_TIN_2008
-	.2byte ITEM_PACK_TCG_DUELIST_PACK_COLLECTION_TIN_2009
-	.2byte ITEM_PACK_TCG_DUELIST_PACK_COLLECTION_TIN_2010
-	.2byte ITEM_PACK_TCG_DUELIST_PACK_COLLECTION_TIN_2011
-	.2byte ITEM_PACK_TCG_DUELIST_PACK_COLLECTION_TIN_JADEN_YUKI
-	.2byte ITEM_PACK_TCG_DUELIST_PACK_ASTER_PHOENIX
-	.2byte ITEM_PACK_TCG_DUELIST_PACK_BATTLE_CITY
-	.2byte ITEM_PACK_TCG_DUELIST_PACK_CHAZZ_PRINCETON
-	.2byte ITEM_PACK_TCG_DUELIST_PACK_CROW
-	.2byte ITEM_PACK_TCG_DUELIST_PACK_DIMENSIONAL_GUARDIANS
-	.2byte ITEM_PACK_TCG_DUELIST_PACK_JADEN_YUKI
-	.2byte ITEM_PACK_TCG_DUELIST_PACK_JADEN_YUKI_2
-	.2byte ITEM_PACK_TCG_DUELIST_PACK_JADEN_YUKI_3
-	.2byte ITEM_PACK_TCG_DUELIST_PACK_JESSE_ANDERSON
-	.2byte ITEM_PACK_TCG_DUELIST_PACK_KAIBA
-	.2byte ITEM_PACK_TCG_DUELIST_PACK_RIVALS_OF_THE_PHARAOH
-	.2byte ITEM_PACK_TCG_DUELIST_PACK_SPECIAL_EDITION
-	.2byte ITEM_PACK_TCG_DUELIST_PACK_YUGI
-	.2byte ITEM_PACK_TCG_DUELIST_PACK_YUSEI
-	.2byte ITEM_PACK_TCG_DUELIST_PACK_YUSEI_2
-	.2byte ITEM_PACK_TCG_DUELIST_PACK_YUSEI_3
-	.2byte ITEM_PACK_TCG_DUELIST_PACK_ZANE_TRUESDALE
 	.2byte ITEM_PACK_TCG_DUELIST_REVOLUTION
-	.2byte ITEM_PACK_TCG_DUELIST_REVOLUTION_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_DUELIST_REVOLUTION_SPECIAL_EDITION
-	.2byte ITEM_PACK_TCG_DUELIST_SAGA
 	.2byte ITEM_PACK_TCG_DUELIST_S_ADVANCE
-	.2byte ITEM_PACK_TCG_DUELIST_S_ADVANCE_PREMIERE_PROMOTIONAL_CARD
 	.2byte ITEM_PACK_TCG_EGYPTIAN_GOD_DECK_OBELISK_THE_TORMENTOR
 	.2byte ITEM_PACK_TCG_EGYPTIAN_GOD_DECK_SLIFER_THE_SKY_DRAGON
 	.2byte ITEM_PACK_TCG_ELEMENTAL_ENERGY
-	.2byte ITEM_PACK_TCG_ELEMENTAL_ENERGY_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_ELEMENTAL_ENERGY_SPECIAL_EDITION
 	.2byte ITEM_PACK_TCG_EMPEROR_OF_DARKNESS_STRUCTURE_DECK
 	.2byte ITEM_PACK_TCG_ENEMY_OF_JUSTICE
-	.2byte ITEM_PACK_TCG_ENEMY_OF_JUSTICE_SNEAK_PEEK_PARTICIPATION_CARD
 	.2byte ITEM_PACK_TCG_ETERNITY_CODE
-	.2byte ITEM_PACK_TCG_ETERNITY_CODE_PREMIERE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_EVENT_PACK_SPEED_DUEL
-	.2byte ITEM_PACK_TCG_EXCLUSIVE_PACK
 	.2byte ITEM_PACK_TCG_EXTREME_FORCE
-	.2byte ITEM_PACK_TCG_EXTREME_FORCE_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_EXTREME_FORCE_SPECIAL_EDITION
 	.2byte ITEM_PACK_TCG_EXTREME_VICTORY
-	.2byte ITEM_PACK_TCG_EXTREME_VICTORY_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_FIRE_FISTS_SPECIAL_EDITION
-	.2byte ITEM_PACK_TCG_FISTS_OF_THE_GADGETS
 	.2byte ITEM_PACK_TCG_FLAMES_OF_DESTRUCTION
-	.2byte ITEM_PACK_TCG_FLAMES_OF_DESTRUCTION_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_FLAMES_OF_DESTRUCTION_SPECIAL_EDITION
 	.2byte ITEM_PACK_TCG_FLAMING_ETERNITY
-	.2byte ITEM_PACK_TCG_FLAMING_ETERNITY_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_FORBIDDEN_LEGACY
 	.2byte ITEM_PACK_TCG_FORCE_OF_THE_BREAKER
-	.2byte ITEM_PACK_TCG_FORCE_OF_THE_BREAKER_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_FORCE_OF_THE_BREAKER_SPECIAL_EDITION
-	.2byte ITEM_PACK_TCG_FUSION_ENFORCERS
-	.2byte ITEM_PACK_TCG_GX_NEXT_GENERATION
 	.2byte ITEM_PACK_TCG_GALACTIC_OVERLORD
-	.2byte ITEM_PACK_TCG_GALACTIC_OVERLORD_SNEAK_PEEK_PARTICIPATION_CARD
 	.2byte ITEM_PACK_TCG_GATES_OF_THE_UNDERWORLD_STRUCTURE_DECK
 	.2byte ITEM_PACK_TCG_GEARGIA_RAMPAGE_STRUCTURE_DECK
 	.2byte ITEM_PACK_TCG_GENERATION_FORCE
-	.2byte ITEM_PACK_TCG_GENERATION_FORCE_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_GENERATION_FORCE_SPECIAL_EDITION
-	.2byte ITEM_PACK_TCG_GENESIS_IMPACT
-	.2byte ITEM_PACK_TCG_GHOSTS_FROM_THE_PAST_SET_
-	.2byte ITEM_PACK_TCG_GHOSTS_FROM_THE_PAST_THE_2ND_HAUNTING
 	.2byte ITEM_PACK_TCG_GLADIATOR_S_ASSAULT
-	.2byte ITEM_PACK_TCG_GLADIATOR_S_ASSAULT_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_GLADIATOR_S_ASSAULT_SPECIAL_EDITION
-	.2byte ITEM_PACK_TCG_GOLD_SERIES
-	.2byte ITEM_PACK_TCG_GOLD_SERIES_2009
-	.2byte ITEM_PACK_TCG_GOLD_SERIES_3
-	.2byte ITEM_PACK_TCG_GOLD_SERIES_4_PYRAMIDS_EDITION
-	.2byte ITEM_PACK_TCG_GOLD_SERIES_HAUNTED_MINE
 	.2byte ITEM_PACK_TCG_HERO_STRIKE_STRUCTURE_DECK
-	.2byte ITEM_PACK_TCG_HIDDEN_ARSENAL
-	.2byte ITEM_PACK_TCG_HIDDEN_ARSENAL_2
-	.2byte ITEM_PACK_TCG_HIDDEN_ARSENAL_3
-	.2byte ITEM_PACK_TCG_HIDDEN_ARSENAL_4_TRISHULA_S_TRIUMPH
-	.2byte ITEM_PACK_TCG_HIDDEN_ARSENAL_5_STEELSWARM_INVASION
-	.2byte ITEM_PACK_TCG_HIDDEN_ARSENAL_5_STEELSWARM_INVASION_SPECIAL_EDITION
-	.2byte ITEM_PACK_TCG_HIDDEN_ARSENAL_6_OMEGA_XYZ
-	.2byte ITEM_PACK_TCG_HIDDEN_ARSENAL_7_KNIGHT_OF_STARS
-	.2byte ITEM_PACK_TCG_HIDDEN_ARSENAL_CHAPTER_1
-	.2byte ITEM_PACK_TCG_HIDDEN_ARSENAL_SPECIAL_EDITION
-	.2byte ITEM_PACK_TCG_HIDDEN_SUMMONERS
-	.2byte ITEM_PACK_TCG_HIGH_SPEED_RIDERS
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_1_PARTICIPATION_CARDS_A
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_1_PARTICIPATION_CARDS_B
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_1_PARTICIPATION_CARDS_C
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_2_PARTICIPATION_CARD_A
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_2_PARTICIPATION_CARD_B
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_2_PARTICIPATION_CARD_C
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_2_PARTICIPATION_CARD_D
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_2_PARTICIPATION_CARD_E
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_2_PARTICIPATION_CARD_F
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_3_PARTICIPATION_CARD_A
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_3_PARTICIPATION_CARD_B
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_3_PARTICIPATION_CARD_C
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_3_PARTICIPATION_CARD_D
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_3_PARTICIPATION_CARD_E
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_3_PARTICIPATION_CARD_F
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_3_PARTICIPATION_CARD_G
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_4_PARTICIPATION_CARD_A
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_4_PARTICIPATION_CARD_B
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_4_PARTICIPATION_CARD_C
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_4_PARTICIPATION_CARD_D
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_4_PARTICIPATION_CARD_E
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_4_PARTICIPATION_CARD_F
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_5_PARTICIPATION_CARD_A
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_5_PARTICIPATION_CARD_B
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_5_PARTICIPATION_CARD_C
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_5_PARTICIPATION_CARD_D
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_5_PARTICIPATION_CARD_E
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_5_PARTICIPATION_CARD_F
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_6_PARTICIPATION_CARD_A
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_6_PARTICIPATION_CARD_B
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_6_PARTICIPATION_CARD_C
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_6_PARTICIPATION_CARD_D
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_6_PARTICIPATION_CARD_E
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_6_PARTICIPATION_CARD_F
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_7_PARTICIPATION_CARD_A
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_7_PARTICIPATION_CARD_B
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_7_PARTICIPATION_CARD_C
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_7_PARTICIPATION_CARD_D
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_7_PARTICIPATION_CARD_E
-	.2byte ITEM_PACK_TCG_HOBBY_LEAGUE_7_PARTICIPATION_CARD_F
 	.2byte ITEM_PACK_TCG_IGNITION_ASSAULT
-	.2byte ITEM_PACK_TCG_IGNITION_ASSAULT_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_IGNITION_ASSAULT_SPECIAL_EDITION
 	.2byte ITEM_PACK_TCG_INVASION_OF_CHAOS
-	.2byte ITEM_PACK_TCG_INVASION_OF_CHAOS_25TH_ANNIVERSARY_EDITION_
-	.2byte ITEM_PACK_TCG_INVASION_OF_CHAOS_SPECIAL_EDITION
 	.2byte ITEM_PACK_TCG_INVASION_VENGEANCE
-	.2byte ITEM_PACK_TCG_INVASION_VENGEANCE_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_INVASION_VENGEANCE_SPECIAL_EDITION
 	.2byte ITEM_PACK_TCG_JUDGMENT_OF_THE_LIGHT
-	.2byte ITEM_PACK_TCG_JUDGMENT_OF_THE_LIGHT_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_JUDGMENT_OF_THE_LIGHT_DELUXE_EDITION
-	.2byte ITEM_PACK_TCG_JUMP_PACK_2014_ISSUE_1_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_JUMP_PACK_2014_ISSUE_2_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_JUMP_PACK_2014_ISSUE_3_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_KC_GRAND_TOURNAMENT_2021_PRIZE_CARD
-	.2byte ITEM_PACK_TCG_KC_GRAND_TOURNAMENT_2022_PRIZE_CARD
-	.2byte ITEM_PACK_TCG_KC_GRAND_TOURNAMENT_PRIZE_CARD
-	.2byte ITEM_PACK_TCG_KAIBA_S_COLLECTOR_BOX
-	.2byte ITEM_PACK_TCG_KIDS_WB_DUEL_OF_DESTINY_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_KING_S_COURT
 	.2byte ITEM_PACK_TCG_LABYRINTH_OF_NIGHTMARE
 	.2byte ITEM_PACK_TCG_LEGACY_OF_DARKNESS
 	.2byte ITEM_PACK_TCG_LEGACY_OF_DESTRUCTION
-	.2byte ITEM_PACK_TCG_LEGACY_OF_DESTRUCTION_PREMIERE_PROMOTIONAL_CARD
 	.2byte ITEM_PACK_TCG_LEGACY_OF_THE_VALIANT
-	.2byte ITEM_PACK_TCG_LEGACY_OF_THE_VALIANT_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_LEGACY_OF_THE_VALIANT_DELUXE_EDITION
 	.2byte ITEM_PACK_TCG_LEGEND_OF_BLUE_EYES_WHITE_DRAGON
-	.2byte ITEM_PACK_TCG_LEGEND_OF_BLUE_EYES_WHITE_DRAGON_25TH_ANNIVERSARY_EDITION_
-	.2byte ITEM_PACK_TCG_LEGENDARY_COLLECTION
-	.2byte ITEM_PACK_TCG_LEGENDARY_COLLECTION_2_THE_DUEL_ACADEMY_YEARS
-	.2byte ITEM_PACK_TCG_LEGENDARY_COLLECTION_2_THE_DUEL_ACADEMY_YEARS_MEGA_PACK
-	.2byte ITEM_PACK_TCG_LEGENDARY_COLLECTION_3_YUGI_S_WORLD
-	.2byte ITEM_PACK_TCG_LEGENDARY_COLLECTION_3_YUGI_S_WORLD_MEGA_PACK
-	.2byte ITEM_PACK_TCG_LEGENDARY_COLLECTION_4_JOEY_S_WORLD
-	.2byte ITEM_PACK_TCG_LEGENDARY_COLLECTION_4_JOEY_S_WORLD_MEGA_PACK
-	.2byte ITEM_PACK_TCG_LEGENDARY_COLLECTION_5D_S
-	.2byte ITEM_PACK_TCG_LEGENDARY_COLLECTION_5D_S_MEGA_PACK
-	.2byte ITEM_PACK_TCG_LEGENDARY_COLLECTION_KAIBA
-	.2byte ITEM_PACK_TCG_LEGENDARY_COLLECTION_KAIBA_MEGA_PACK
-	.2byte ITEM_PACK_TCG_LEGENDARY_COLLECTION_25TH_ANNIVERSARY_EDITION
-	.2byte ITEM_PACK_TCG_LEGENDARY_COLLECTION_GAMEBOARD_EDITION
-	.2byte ITEM_PACK_TCG_LEGENDARY_DECKS_II
-	.2byte ITEM_PACK_TCG_LEGENDARY_DRAGON_DECKS
-	.2byte ITEM_PACK_TCG_LEGENDARY_DUELISTS
-	.2byte ITEM_PACK_TCG_LEGENDARY_DUELISTS_ANCIENT_MILLENNIUM
-	.2byte ITEM_PACK_TCG_LEGENDARY_DUELISTS_DUELS_FROM_THE_DEEP
-	.2byte ITEM_PACK_TCG_LEGENDARY_DUELISTS_IMMORTAL_DESTINY
-	.2byte ITEM_PACK_TCG_LEGENDARY_DUELISTS_MAGICAL_HERO
-	.2byte ITEM_PACK_TCG_LEGENDARY_DUELISTS_RAGE_OF_RA
-	.2byte ITEM_PACK_TCG_LEGENDARY_DUELISTS_SEASON_1
-	.2byte ITEM_PACK_TCG_LEGENDARY_DUELISTS_SEASON_2
-	.2byte ITEM_PACK_TCG_LEGENDARY_DUELISTS_SEASON_3
-	.2byte ITEM_PACK_TCG_LEGENDARY_DUELISTS_SISTERS_OF_THE_ROSE
-	.2byte ITEM_PACK_TCG_LEGENDARY_DUELISTS_SOULBURNING_VOLCANO
-	.2byte ITEM_PACK_TCG_LEGENDARY_DUELISTS_SYNCHRO_STORM
-	.2byte ITEM_PACK_TCG_LEGENDARY_DUELISTS_WHITE_DRAGON_ABYSS
-	.2byte ITEM_PACK_TCG_LEGENDARY_HERO_DECKS
-	.2byte ITEM_PACK_TCG_LIGHT_AND_DARKNESS_POWER_PACK
 	.2byte ITEM_PACK_TCG_LIGHT_OF_DESTRUCTION
-	.2byte ITEM_PACK_TCG_LIGHT_OF_DESTRUCTION_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_LIGHT_OF_DESTRUCTION_SPECIAL_EDITION
 	.2byte ITEM_PACK_TCG_LIGHTNING_OVERDRIVE
-	.2byte ITEM_PACK_TCG_LIGHTNING_OVERDRIVE_PREMIERE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_LIMITED_EDITION_1
 	.2byte ITEM_PACK_TCG_LORD_OF_THE_TACHYON_GALAXY
-	.2byte ITEM_PACK_TCG_LORD_OF_THE_TACHYON_GALAXY_SNEAK_PEEK_PARTICIPATION_CARD
 	.2byte ITEM_PACK_TCG_LOST_SANCTUARY_STRUCTURE_DECK
 	.2byte ITEM_PACK_TCG_MACHINA_MAYHEM_STRUCTURE_DECK
 	.2byte ITEM_PACK_TCG_MACHINE_REACTOR_STRUCTURE_DECK
-	.2byte ITEM_PACK_TCG_MAGIC_RULER
 	.2byte ITEM_PACK_TCG_MAGICIAN_S_FORCE
-	.2byte ITEM_PACK_TCG_MAGNIFICENT_MAVENS
-	.2byte ITEM_PACK_TCG_MASTER_COLLECTION_VOLUME_1
-	.2byte ITEM_PACK_TCG_MASTER_COLLECTION_VOLUME_2
 	.2byte ITEM_PACK_TCG_MASTER_OF_PENDULUM_STRUCTURE_DECK
-	.2byte ITEM_PACK_TCG_MASTERPIECE_SERIES_PLATINUM_BLUE_EYES_WHITE_DRAGON
-	.2byte ITEM_PACK_TCG_MATTEL_ACTION_FIGURE_PROMOTIONAL_CARDS_SERIES_1
-	.2byte ITEM_PACK_TCG_MATTEL_ACTION_FIGURE_PROMOTIONAL_CARDS_SERIES_2
-	.2byte ITEM_PACK_TCG_MATTEL_ACTION_FIGURE_PROMOTIONAL_CARDS_SERIES_3
 	.2byte ITEM_PACK_TCG_MAXIMUM_CRISIS
-	.2byte ITEM_PACK_TCG_MAXIMUM_CRISIS_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_MAXIMUM_CRISIS_SPECIAL_EDITION
-	.2byte ITEM_PACK_TCG_MAXIMUM_GOLD
-	.2byte ITEM_PACK_TCG_MAXIMUM_GOLD_EL_DORADO
-	.2byte ITEM_PACK_TCG_MAZE_OF_MEMORIES
-	.2byte ITEM_PACK_TCG_MAZE_OF_MILLENNIA
-	.2byte ITEM_PACK_TCG_MAZE_OF_THE_MASTER
-	.2byte ITEM_PACK_TCG_MCDONALD_S_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_MCDONALD_S_PROMOTIONAL_CARDS_2
 	.2byte ITEM_PACK_TCG_METAL_RAIDERS
-	.2byte ITEM_PACK_TCG_METAL_RAIDERS_25TH_ANNIVERSARY_EDITION_
-	.2byte ITEM_PACK_TCG_MILLENNIUM_PACK
-	.2byte ITEM_PACK_TCG_MOVIE_PACK
-	.2byte ITEM_PACK_TCG_MYSTIC_FIGHTERS
-	.2byte ITEM_PACK_TCG_NOBLE_KNIGHTS_OF_THE_ROUND_TABLE_BOX_SET
-	.2byte ITEM_PACK_TCG_NOBLE_KNIGHTS_OF_THE_ROUND_TABLE_POWER_UP_PACK
-	.2byte ITEM_PACK_TCG_NUMBER_HUNTERS
-	.2byte ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_1
-	.2byte ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_10
-	.2byte ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_11
-	.2byte ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_12
-	.2byte ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_13
-	.2byte ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_14
-	.2byte ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_15
-	.2byte ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_16
-	.2byte ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_17
-	.2byte ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_18
-	.2byte ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_19
-	.2byte ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_2
-	.2byte ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_20
-	.2byte ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_21
-	.2byte ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_22
-	.2byte ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_23
-	.2byte ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_24
-	.2byte ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_25
-	.2byte ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_26
-	.2byte ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_27
-	.2byte ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_28
-	.2byte ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_3
-	.2byte ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_4
-	.2byte ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_5
-	.2byte ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_6
-	.2byte ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_7
-	.2byte ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_8
-	.2byte ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_9
 	.2byte ITEM_PACK_TCG_ONSLAUGHT_OF_THE_FIRE_KINGS_STRUCTURE_DECK
 	.2byte ITEM_PACK_TCG_ORDER_OF_CHAOS
-	.2byte ITEM_PACK_TCG_ORDER_OF_CHAOS_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_ORDER_OF_CHAOS_SPECIAL_EDITION
-	.2byte ITEM_PACK_TCG_PALLADIUM_ORACLE_MAHAD_SWEEPSTAKES
 	.2byte ITEM_PACK_TCG_PENDULUM_DOMINATION_STRUCTURE_DECK
-	.2byte ITEM_PACK_TCG_PENDULUM_EVOLUTION
 	.2byte ITEM_PACK_TCG_PHANTOM_DARKNESS
-	.2byte ITEM_PACK_TCG_PHANTOM_DARKNESS_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_PHANTOM_DARKNESS_SPECIAL_EDITION
 	.2byte ITEM_PACK_TCG_PHANTOM_NIGHTMARE
-	.2byte ITEM_PACK_TCG_PHANTOM_NIGHTMARE_PREMIERE_PROMOTIONAL_CARD
 	.2byte ITEM_PACK_TCG_PHANTOM_RAGE
-	.2byte ITEM_PACK_TCG_PHANTOM_RAGE_PREMIERE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_PHARAOH_TOUR_2005_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_PHARAOH_TOUR_2006_FINAL_PRIZE_CARD
-	.2byte ITEM_PACK_TCG_PHARAOH_TOUR_2006_STOP_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_PHARAOH_TOUR_2007_PROMOTIONAL_CARDS
 	.2byte ITEM_PACK_TCG_PHARAOH_S_SERVANT
-	.2byte ITEM_PACK_TCG_PHARAOH_S_SERVANT_25TH_ANNIVERSARY_EDITION_
 	.2byte ITEM_PACK_TCG_PHARAONIC_GUARDIAN
 	.2byte ITEM_PACK_TCG_PHOTON_HYPERNOVA
-	.2byte ITEM_PACK_TCG_PHOTON_HYPERNOVA_PREMIERE_PROMOTIONAL_CARD
 	.2byte ITEM_PACK_TCG_PHOTON_SHOCKWAVE
-	.2byte ITEM_PACK_TCG_PHOTON_SHOCKWAVE_SNEAK_PEEK_PARTICIPATION_CARD
 	.2byte ITEM_PACK_TCG_POWER_OF_THE_DUELIST
-	.2byte ITEM_PACK_TCG_POWER_OF_THE_DUELIST_SNEAK_PEEK_PARTICIPATION_CARD
 	.2byte ITEM_PACK_TCG_POWER_OF_THE_ELEMENTS
-	.2byte ITEM_PACK_TCG_POWER_OF_THE_ELEMENTS_PREMIERE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_PREMIUM_COLLECTION_TIN
-	.2byte ITEM_PACK_TCG_PREMIUM_GOLD
-	.2byte ITEM_PACK_TCG_PREMIUM_GOLD_INFINITE_GOLD
-	.2byte ITEM_PACK_TCG_PREMIUM_GOLD_RETURN_OF_THE_BLING
-	.2byte ITEM_PACK_TCG_PREMIUM_PACK_TCG_
-	.2byte ITEM_PACK_TCG_PREMIUM_PACK_2_TCG_
 	.2byte ITEM_PACK_TCG_PRIMAL_ORIGIN
-	.2byte ITEM_PACK_TCG_PRIMAL_ORIGIN_PLUS
-	.2byte ITEM_PACK_TCG_PRIMAL_ORIGIN_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_PRIMAL_ORIGIN_DELUXE_EDITION
-	.2byte ITEM_PACK_TCG_QUARTER_CENTURY_BONANZA
-	.2byte ITEM_PACK_TCG_QUARTER_CENTURY_STAMPEDE
-	.2byte ITEM_PACK_TCG_RA_YELLOW_MEGA_PACK
-	.2byte ITEM_PACK_TCG_RA_YELLOW_MEGA_PACK_SPECIAL_EDITION
 	.2byte ITEM_PACK_TCG_RAGE_OF_THE_ABYSS
-	.2byte ITEM_PACK_TCG_RAGE_OF_THE_ABYSS_PREMIERE_PROMOTIONAL_CARD
 	.2byte ITEM_PACK_TCG_RAGING_BATTLE
-	.2byte ITEM_PACK_TCG_RAGING_BATTLE_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_RAGING_BATTLE_SPECIAL_EDITION
 	.2byte ITEM_PACK_TCG_RAGING_TEMPEST
-	.2byte ITEM_PACK_TCG_RAGING_TEMPEST_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_RAGING_TEMPEST_SPECIAL_EDITION
-	.2byte ITEM_PACK_TCG_RAGING_TEMPEST_SPECIAL_EDITION
 	.2byte ITEM_PACK_TCG_REALM_OF_LIGHT_STRUCTURE_DECK
 	.2byte ITEM_PACK_TCG_REALM_OF_THE_SEA_EMPEROR_STRUCTURE_DECK
-	.2byte ITEM_PACK_TCG_REMOTE_DUEL_AT_HOME_SWEEPSTAKES
-	.2byte ITEM_PACK_TCG_RETRO_PACK
-	.2byte ITEM_PACK_TCG_RETRO_PACK_2
 	.2byte ITEM_PACK_TCG_RETURN_OF_THE_DUELIST
-	.2byte ITEM_PACK_TCG_RETURN_OF_THE_DUELIST_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_RETURN_OF_THE_DUELIST_SPECIAL_EDITION
 	.2byte ITEM_PACK_TCG_RISE_OF_DESTINY
-	.2byte ITEM_PACK_TCG_RISE_OF_DESTINY_SPECIAL_EDITION
 	.2byte ITEM_PACK_TCG_RISE_OF_THE_DRAGON_LORDS_STRUCTURE_DECK
 	.2byte ITEM_PACK_TCG_RISE_OF_THE_DUELIST
-	.2byte ITEM_PACK_TCG_RISE_OF_THE_DUELIST_PREMIERE_PROMOTIONAL_CARD
 	.2byte ITEM_PACK_TCG_RISE_OF_THE_TRUE_DRAGONS_STRUCTURE_DECK
 	.2byte ITEM_PACK_TCG_RISING_RAMPAGE
-	.2byte ITEM_PACK_TCG_RISING_RAMPAGE_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_RISING_RAMPAGE_SPECIAL_EDITION
 	.2byte ITEM_PACK_TCG_SABER_FORCE_STARTER_DECK
 	.2byte ITEM_PACK_TCG_SAGA_OF_BLUE_EYES_WHITE_DRAGON_STRUCTURE_DECK
-	.2byte ITEM_PACK_TCG_SAMURAI_ASSAULT
 	.2byte ITEM_PACK_TCG_SAMURAI_WARLORDS_STRUCTURE_DECK
 	.2byte ITEM_PACK_TCG_SAVAGE_STRIKE
-	.2byte ITEM_PACK_TCG_SAVAGE_STRIKE_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_SAVAGE_STRIKE_SPECIAL_EDITION
-	.2byte ITEM_PACK_TCG_SECRET_SLAYERS
 	.2byte ITEM_PACK_TCG_SECRETS_OF_ETERNITY
-	.2byte ITEM_PACK_TCG_SECRETS_OF_ETERNITY_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_SECRETS_OF_ETERNITY_SUPER_EDITION
 	.2byte ITEM_PACK_TCG_SHADOW_SPECTERS
-	.2byte ITEM_PACK_TCG_SHADOW_SPECTERS_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_SHADOW_SPECTERS_SPECIAL_EDITION
 	.2byte ITEM_PACK_TCG_SHADOW_OF_INFINITY
-	.2byte ITEM_PACK_TCG_SHADOW_OF_INFINITY_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_SHADOW_OF_INFINITY_SPECIAL_EDITION
-	.2byte ITEM_PACK_TCG_SHADOWS_IN_VALHALLA
 	.2byte ITEM_PACK_TCG_SHINING_VICTORIES
-	.2byte ITEM_PACK_TCG_SHINING_VICTORIES_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_SHINING_VICTORIES_SPECIAL_EDITION
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_2007_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_AUGUST_2008_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_CHAMPIONSHIP_2004_PRIZE_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_CHAMPIONSHIP_2005_PRIZE_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_CHAMPIONSHIP_2006_PRIZE_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_CHAMPIONSHIP_2007_PRIZE_CARD_A
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_CHAMPIONSHIP_2007_PRIZE_CARD_B
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_CHAMPIONSHIP_2008_PRIZE_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_CHAMPIONSHIP_2009_PRIZE_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_DECEMBER_2010_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_DECEMBER_2011_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_FEBRUARY_2009_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_FIFTH_ANNIVERSARY_COLLECTOR_S_ISSUE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_JUNE_JULY_2011_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_MARCH_2010_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_MAY_2006_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_MAY_2008_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_MAY_2010_SUBSCRIPTION_BONUS
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_SCHOLASTIC_EDITION_VOL_9_ISSUE_1_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_1_ISSUE_1_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_10_ISSUE_1_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_10_ISSUE_3_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_10_ISSUE_4_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_2_ISSUE_1_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_3_ISSUE_1_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_3_ISSUE_11_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_3_ISSUE_6_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_3_ISSUE_9_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_4_ISSUE_1_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_4_ISSUE_10_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_4_ISSUE_11_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_4_ISSUE_12_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_4_ISSUE_2_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_4_ISSUE_5_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_5_ISSUE_1_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_5_ISSUE_11_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_5_ISSUE_4_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_5_ISSUE_6_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_5_ISSUE_9_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_6_ISSUE_1_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_6_ISSUE_12_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_6_ISSUE_3_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_6_ISSUE_5_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_6_ISSUE_9_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_7_ISSUE_1_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_7_ISSUE_11_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_7_ISSUE_3_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_7_ISSUE_6_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_7_ISSUE_9_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_8_ISSUE_1_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_8_ISSUE_11_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_8_ISSUE_3_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_8_ISSUE_5_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_8_ISSUE_7_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_8_ISSUE_9_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_9_ISSUE_1_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_9_ISSUE_10_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_9_ISSUE_3_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_9_ISSUE_4_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_9_ISSUE_6_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SHONEN_JUMP_VOL_9_ISSUE_8_PROMOTIONAL_CARD
 	.2byte ITEM_PACK_TCG_SOUL_FUSION
-	.2byte ITEM_PACK_TCG_SOUL_FUSION_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_SOUL_FUSION_SPECIAL_EDITION
 	.2byte ITEM_PACK_TCG_SOUL_OF_THE_DUELIST
-	.2byte ITEM_PACK_TCG_SPACE_TIME_SHOWDOWN_POWER_UP_PACK
-	.2byte ITEM_PACK_TCG_SPEED_DUEL_DEMO_DECK
-	.2byte ITEM_PACK_TCG_SPEED_DUEL_DEMO_DECK_2020
-	.2byte ITEM_PACK_TCG_SPEED_DUEL_GX_DUEL_ACADEMY_BOX
-	.2byte ITEM_PACK_TCG_SPEED_DUEL_GX_DUELISTS_OF_SHADOWS
-	.2byte ITEM_PACK_TCG_SPEED_DUEL_GX_MIDTERM_DESTRUCTION
-	.2byte ITEM_PACK_TCG_SPEED_DUEL_GX_MIDTERM_PARADOX
-	.2byte ITEM_PACK_TCG_SPEED_DUEL_REMOTE_DUEL_EXTRAVAGANZA_MAIN_EVENT_PRIZE_CARDS
-	.2byte ITEM_PACK_TCG_SPEED_DUEL_STARTER_DECKS_DESTINY_MASTERS
-	.2byte ITEM_PACK_TCG_SPEED_DUEL_STARTER_DECKS_DUELISTS_OF_TOMORROW
-	.2byte ITEM_PACK_TCG_SPEED_DUEL_STARTER_DECKS_MATCH_OF_THE_MILLENNIUM
-	.2byte ITEM_PACK_TCG_SPEED_DUEL_STARTER_DECKS_TWISTED_NIGHTMARES
-	.2byte ITEM_PACK_TCG_SPEED_DUEL_STARTER_DECKS_ULTIMATE_PREDATORS
-	.2byte ITEM_PACK_TCG_SPEED_DUEL_TOURNAMENT_PACK_1
-	.2byte ITEM_PACK_TCG_SPEED_DUEL_TOURNAMENT_PACK_2
-	.2byte ITEM_PACK_TCG_SPEED_DUEL_TOURNAMENT_PACK_3
-	.2byte ITEM_PACK_TCG_SPEED_DUEL_TOURNAMENT_PACK_4
-	.2byte ITEM_PACK_TCG_SPEED_DUEL_TOURNAMENT_PACK_5
-	.2byte ITEM_PACK_TCG_SPEED_DUEL_TOURNAMENT_PACK_6
-	.2byte ITEM_PACK_TCG_SPEED_DUEL_TOURNAMENT_PACK_7
-	.2byte ITEM_PACK_TCG_SPEED_DUEL_ARENA_OF_LOST_SOULS
-	.2byte ITEM_PACK_TCG_SPEED_DUEL_ATTACK_FROM_THE_DEEP
-	.2byte ITEM_PACK_TCG_SPEED_DUEL_BATTLE_CITY_BOX
-	.2byte ITEM_PACK_TCG_SPEED_DUEL_BATTLE_CITY_FINALS
-	.2byte ITEM_PACK_TCG_SPEED_DUEL_SCARS_OF_BATTLE
-	.2byte ITEM_PACK_TCG_SPEED_DUEL_STREETS_OF_BATTLE_CITY
-	.2byte ITEM_PACK_TCG_SPEED_DUEL_TRIALS_OF_THE_KINGDOM
-	.2byte ITEM_PACK_TCG_SPEED_DUEL_TRIALS_OF_THE_KINGDOM_SNEAK_PEEK_PARTICIPATION_CARDS
 	.2byte ITEM_PACK_TCG_SPELL_RULER
-	.2byte ITEM_PACK_TCG_SPELL_RULER_25TH_ANNIVERSARY_EDITION_
 	.2byte ITEM_PACK_TCG_SPELLCASTER_S_COMMAND_STRUCTURE_DECK
-	.2byte ITEM_PACK_TCG_SPELLCASTER_S_COMMAND_STRUCTURE_DECK_SPECIAL_EDITION
-	.2byte ITEM_PACK_TCG_SPIRIT_WARRIORS
-	.2byte ITEM_PACK_TCG_STAINLESS_STEEL_CARD_DARK_MAGICIAN_GIRL
-	.2byte ITEM_PACK_TCG_STAINLESS_STEEL_EGYPTIAN_GOD_CARDS_SWEEPSTAKES
-	.2byte ITEM_PACK_TCG_STAR_PACK_2013
-	.2byte ITEM_PACK_TCG_STAR_PACK_2014
-	.2byte ITEM_PACK_TCG_STAR_PACK_ARC_V
-	.2byte ITEM_PACK_TCG_STAR_PACK_BATTLE_ROYAL
-	.2byte ITEM_PACK_TCG_STAR_PACK_VRAINS
 	.2byte ITEM_PACK_TCG_STARDUST_OVERDRIVE
-	.2byte ITEM_PACK_TCG_STARDUST_OVERDRIVE_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_STARDUST_OVERDRIVE_SPECIAL_EDITION
 	.2byte ITEM_PACK_TCG_STARSTRIKE_BLAST
-	.2byte ITEM_PACK_TCG_STARSTRIKE_BLAST_SNEAK_PEEK_PARTICIPATION_CARD
 	.2byte ITEM_PACK_TCG_STARTER_DECK_2006
-	.2byte ITEM_PACK_TCG_STARTER_DECK_2006_SPECIAL_EDITION
 	.2byte ITEM_PACK_TCG_STARTER_DECK_CODEBREAKER
 	.2byte ITEM_PACK_TCG_STARTER_DECK_DAWN_OF_THE_XYZ
 	.2byte ITEM_PACK_TCG_STARTER_DECK_DUELIST_TOOLBOX
@@ -2574,11 +2457,7 @@ InsideOfTruck_PokemartYGOPacks:
 	.2byte ITEM_PACK_TCG_STARTER_DECK_YUGI_RELOADED
 	.2byte ITEM_PACK_TCG_STARTER_DECK_YUYA
 	.2byte ITEM_PACK_TCG_STORM_OF_RAGNAROK
-	.2byte ITEM_PACK_TCG_STORM_OF_RAGNAROK_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_STORM_OF_RAGNAROK_SPECIAL_EDITION
 	.2byte ITEM_PACK_TCG_STRIKE_OF_NEOS
-	.2byte ITEM_PACK_TCG_STRIKE_OF_NEOS_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_STRIKE_OF_NEOS_SPECIAL_EDITION
 	.2byte ITEM_PACK_TCG_STRUCTURE_DECK_ALBAZ_STRIKE
 	.2byte ITEM_PACK_TCG_STRUCTURE_DECK_BEWARE_OF_TRAPTRIX
 	.2byte ITEM_PACK_TCG_STRUCTURE_DECK_BLAZE_OF_DESTRUCTION
@@ -2586,9 +2465,7 @@ InsideOfTruck_PokemartYGOPacks:
 	.2byte ITEM_PACK_TCG_STRUCTURE_DECK_CYBER_STRIKE
 	.2byte ITEM_PACK_TCG_STRUCTURE_DECK_CYBERSE_LINK
 	.2byte ITEM_PACK_TCG_STRUCTURE_DECK_DARK_WORLD
-	.2byte ITEM_PACK_TCG_STRUCTURE_DECK_DELUXE_EDITION
 	.2byte ITEM_PACK_TCG_STRUCTURE_DECK_DINOSAUR_S_RAGE
-	.2byte ITEM_PACK_TCG_STRUCTURE_DECK_DINOSAUR_S_RAGE_SPECIAL_SET
 	.2byte ITEM_PACK_TCG_STRUCTURE_DECK_DRAGON_S_ROAR
 	.2byte ITEM_PACK_TCG_STRUCTURE_DECK_FIRE_KINGS
 	.2byte ITEM_PACK_TCG_STRUCTURE_DECK_FREEZING_CHAINS
@@ -2598,7 +2475,6 @@ InsideOfTruck_PokemartYGOPacks:
 	.2byte ITEM_PACK_TCG_STRUCTURE_DECK_LEGEND_OF_THE_CRYSTAL_BEASTS
 	.2byte ITEM_PACK_TCG_STRUCTURE_DECK_LORD_OF_THE_STORM
 	.2byte ITEM_PACK_TCG_STRUCTURE_DECK_MACHINE_RE_VOLT
-	.2byte ITEM_PACK_TCG_STRUCTURE_DECK_MARIK_TCG_
 	.2byte ITEM_PACK_TCG_STRUCTURE_DECK_MECHANIZED_MADNESS
 	.2byte ITEM_PACK_TCG_STRUCTURE_DECK_ORDER_OF_THE_SPELLCASTERS
 	.2byte ITEM_PACK_TCG_STRUCTURE_DECK_POWERCODE_LINK
@@ -2615,320 +2491,36 @@ InsideOfTruck_PokemartYGOPacks:
 	.2byte ITEM_PACK_TCG_STRUCTURE_DECK_YUGI_MUTO
 	.2byte ITEM_PACK_TCG_STRUCTURE_DECK_ZOMBIE_HORDE
 	.2byte ITEM_PACK_TCG_STRUCTURE_DECK_ZOMBIE_MADNESS
-	.2byte ITEM_PACK_TCG_SUMMONED_SKULL_SAMPLE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SUPER_STARTER_POWER_UP_PACK
 	.2byte ITEM_PACK_TCG_SUPER_STARTER_SPACE_TIME_SHOWDOWN
 	.2byte ITEM_PACK_TCG_SUPER_STARTER_V_FOR_VICTORY
 	.2byte ITEM_PACK_TCG_SUPREME_DARKNESS
-	.2byte ITEM_PACK_TCG_SUPREME_DARKNESS_PREMIERE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SWEDISH_SHONEN_JUMP_2004_ISSUE_2_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_SWEDISH_SHONEN_JUMP_2005_ISSUE_12_PROMOTIONAL_CARD
 	.2byte ITEM_PACK_TCG_SYNCHRON_EXTREME_STRUCTURE_DECK
 	.2byte ITEM_PACK_TCG_TACTICAL_EVOLUTION
-	.2byte ITEM_PACK_TCG_TACTICAL_EVOLUTION_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_TACTICAL_EVOLUTION_SPECIAL_EDITION
-	.2byte ITEM_PACK_TCG_TACTICAL_MASTERS
 	.2byte ITEM_PACK_TCG_THE_DARK_EMPEROR_STRUCTURE_DECK
 	.2byte ITEM_PACK_TCG_THE_DARK_ILLUSION
-	.2byte ITEM_PACK_TCG_THE_DARK_ILLUSION_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_THE_DARK_ILLUSION_SPECIAL_EDITION
 	.2byte ITEM_PACK_TCG_THE_DUELIST_GENESIS
-	.2byte ITEM_PACK_TCG_THE_DUELIST_GENESIS_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_THE_DUELIST_GENESIS_SPECIAL_EDITION
-	.2byte ITEM_PACK_TCG_THE_GRAND_CREATORS
 	.2byte ITEM_PACK_TCG_THE_INFINITE_FORBIDDEN
-	.2byte ITEM_PACK_TCG_THE_INFINITE_FORBIDDEN_PREMIERE_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_THE_INFINITY_CHASERS
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2019_A
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2019_B
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2019_C
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2019_D
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2019_E
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2019_F
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_A
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_B
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_C
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_D
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_E
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_F
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_G
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_H
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_I
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_J
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_K
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_L
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_M
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_N
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_O
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_P
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_Q
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_R
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2021_A
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2021_B
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2021_C
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2021_D
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2021_E
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2021_F
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2021_G
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2021_H
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2021_I
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2021_J
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2021_K
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2021_L
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2022_A
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2022_B
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2022_C
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2022_D
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2022_E
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2022_F
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2022_G
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2022_H
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2022_I
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2022_J
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2022_K
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2023_A
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2023_B
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2023_C
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2023_D
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2023_E
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2023_F
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2023_G
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2023_H
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2023_I
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2023_J
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2023_K
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2023_L
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2024_A
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2024_B
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2024_C
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2024_D
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2024_E
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2024_F
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2024_G
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2024_H
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_A
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_B
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_C
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_D
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_E
-	.2byte ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_F
 	.2byte ITEM_PACK_TCG_THE_LOST_MILLENNIUM
-	.2byte ITEM_PACK_TCG_THE_LOST_MILLENNIUM_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_THE_LOST_MILLENNIUM_SPECIAL_EDITION
 	.2byte ITEM_PACK_TCG_THE_NEW_CHALLENGERS
-	.2byte ITEM_PACK_TCG_THE_NEW_CHALLENGERS_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_THE_NEW_CHALLENGERS_SUPER_EDITION
-	.2byte ITEM_PACK_TCG_THE_POT_COLLECTION
-	.2byte ITEM_PACK_TCG_THE_SECRET_FORCES
 	.2byte ITEM_PACK_TCG_THE_SHINING_DARKNESS
-	.2byte ITEM_PACK_TCG_THE_SHINING_DARKNESS_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_TOON_CHAOS
-	.2byte ITEM_PACK_TCG_TOURNAMENT_PACK_4
-	.2byte ITEM_PACK_TCG_TOURNAMENT_PACK_5
-	.2byte ITEM_PACK_TCG_TOURNAMENT_PACK_6
-	.2byte ITEM_PACK_TCG_TOURNAMENT_PACK_7
-	.2byte ITEM_PACK_TCG_TOURNAMENT_PACK_8
-	.2byte ITEM_PACK_TCG_TOURNAMENT_PACK_1ST_SEASON
-	.2byte ITEM_PACK_TCG_TOURNAMENT_PACK_2ND_SEASON
-	.2byte ITEM_PACK_TCG_TOURNAMENT_PACK_3RD_SEASON
-	.2byte ITEM_PACK_TCG_TRIALS_OF_THE_PHARAOH_MATCH_OF_THE_MILLENNIUM_TWISTED_NIGHTMARES_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_TRIALS_OF_THE_PHARAOH_SPEED_DUEL_GX_DUEL_ACADEMY_BOX_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_TRIALS_OF_THE_PHARAOH_SPEED_DUEL_GX_MIDTERM_PARADOX_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_TRIALS_OF_THE_PHARAOH_SPEED_DUEL_BATTLE_CITY_BOX_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_TRIALS_OF_THE_PHARAOH_TRIALS_OF_THE_KINGDOM_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_TURBO_PACK_BOOSTER_EIGHT
-	.2byte ITEM_PACK_TCG_TURBO_PACK_BOOSTER_FIVE
-	.2byte ITEM_PACK_TCG_TURBO_PACK_BOOSTER_FOUR
-	.2byte ITEM_PACK_TCG_TURBO_PACK_BOOSTER_ONE
-	.2byte ITEM_PACK_TCG_TURBO_PACK_BOOSTER_SEVEN
-	.2byte ITEM_PACK_TCG_TURBO_PACK_BOOSTER_SIX
-	.2byte ITEM_PACK_TCG_TURBO_PACK_BOOSTER_THREE
-	.2byte ITEM_PACK_TCG_TURBO_PACK_BOOSTER_TWO
-	.2byte ITEM_PACK_TCG_TWILIGHT_EDITION
-	.2byte ITEM_PACK_TCG_ULTIMATE_EDITION
-	.2byte ITEM_PACK_TCG_ULTIMATE_EDITION_2
-	.2byte ITEM_PACK_TCG_VALIANT_SMASHERS
-	.2byte ITEM_PACK_TCG_WSJ_JUMP_PACK_FALL_2016_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WSJ_JUMP_PACK_FALL_2017_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WSJ_JUMP_PACK_FALL_2018_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WSJ_JUMP_PACK_SPRING_2016_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WSJ_JUMP_PACK_SPRING_2017_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WSJ_JUMP_PACK_SPRING_2018_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WSJ_JUMP_PACK_SPRING_2019_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WAR_OF_THE_GIANTS_REINFORCEMENTS
-	.2byte ITEM_PACK_TCG_WAR_OF_THE_GIANTS_ROUND_2
 	.2byte ITEM_PACK_TCG_WARRIORS_STRIKE_STRUCTURE_DECK
-	.2byte ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_ALPHA_APRIL_2012_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_ALPHA_DECEMBER_2012_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_ALPHA_JULY_2012_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_ALPHA_SEPTEMBER_2012_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_APRIL_2015_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_APRIL_2016_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_APRIL_2017_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_AUGUST_2014_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_DECEMBER_2013_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_FEBRUARY_2015_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_JANUARY_2016_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_JANUARY_2017_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_JANUARY_2018_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_JULY_2013_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_JULY_2015_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_JULY_2016_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_JULY_2017_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_JULY_2018_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_JUNE_2019_MEMBERSHIP_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_MARCH_2013_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_MARCH_2014_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_MAY_2018_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_NOVEMBER_2014_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_NOVEMBER_2017_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_NOVEMBER_2018_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_OCTOBER_2015_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_OCTOBER_2016_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_SEPTEMBER_2013_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_WILD_SURVIVORS
-	.2byte ITEM_PACK_TCG_WING_RAIDERS
-	.2byte ITEM_PACK_TCG_WORLD_CHAMPIONSHIP_2010_CARD_PACK
-	.2byte ITEM_PACK_TCG_WORLD_CHAMPIONSHIP_2011_CARD_PACK
-	.2byte ITEM_PACK_TCG_WORLD_SUPERSTARS
-	.2byte ITEM_PACK_TCG_X_SABER_POWER_UP
-	.2byte ITEM_PACK_TCG_YU_GI_OH_3D_BONDS_BEYOND_TIME_BLU_RAY_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_3D_BONDS_BEYOND_TIME_DVD_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_3D_BONDS_BEYOND_TIME_MOVIE_PACK
-	.2byte ITEM_PACK_TCG_YU_GI_OH_3D_BONDS_BEYOND_TIME_THEATER_DISTRIBUTION_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_5D_S_DUEL_TRANSER_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_5D_S_TAG_FORCE_4_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_5D_S_TAG_FORCE_5_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_5D_S_VOLUME_1_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_5D_S_VOLUME_2_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_5D_S_VOLUME_3_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_5D_S_VOLUME_4_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_5D_S_VOLUME_5_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_5D_S_VOLUME_6_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_5D_S_VOLUME_7_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_5D_S_VOLUME_8_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_5D_S_VOLUME_9_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_5D_S_WHEELIE_BREAKERS_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_5D_S_WORLD_CHAMPIONSHIP_2009_STARDUST_ACCELERATOR_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_5D_S_WORLD_CHAMPIONSHIP_2010_REVERSE_OF_ARCADIA_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_5D_S_WORLD_CHAMPIONSHIP_2011_OVER_THE_NEXUS_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_7_TRIALS_TO_GLORY_WORLD_CHAMPIONSHIP_TOURNAMENT_2005_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_ARC_V_VOLUME_1_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_ARC_V_VOLUME_2_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_ARC_V_VOLUME_3_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_ARC_V_VOLUME_4_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_ARC_V_VOLUME_5_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_ARC_V_VOLUME_6_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_ARC_V_VOLUME_7_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_ADVENT_CALENDAR_2018_
-	.2byte ITEM_PACK_TCG_YU_GI_OH_ADVENT_CALENDAR_2019_
-	.2byte ITEM_PACK_TCG_YU_GI_OH_CAPSULE_MONSTER_COLISEUM_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_CHAMPIONSHIP_SERIES_2010_PRIZE_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_CHAMPIONSHIP_SERIES_2011_PRIZE_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_CHAMPIONSHIP_SERIES_2012_PRIZE_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_CHAMPIONSHIP_SERIES_2013_PRIZE_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_CHAMPIONSHIP_SERIES_2014_PRIZE_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_CHAMPIONSHIP_SERIES_2015_PRIZE_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_CHAMPIONSHIP_SERIES_2016_PRIZE_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_CHAMPIONSHIP_SERIES_2017_PRIZE_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_CHAMPIONSHIP_SERIES_2018_PRIZE_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_CHAMPIONSHIP_SERIES_2019_PRIZE_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_CHAMPIONSHIP_SERIES_2022_PRIZE_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_CHAMPIONSHIP_SERIES_2023_PRIZE_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_CHAMPIONSHIP_SERIES_2024_PRIZE_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_CHAMPIONSHIP_SERIES_2025_PRIZE_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_DARK_DUEL_STORIES_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_DESTINY_BOARD_TRAVELER_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_DOUBLE_PACK_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_DUELIST_VOLUME_16_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_EARLY_DAYS_COLLECTION_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_ELEMENTAL_HERO_COLLECTION_1
-	.2byte ITEM_PACK_TCG_YU_GI_OH_ELEMENTAL_HERO_COLLECTION_2
-	.2byte ITEM_PACK_TCG_YU_GI_OH_FORBIDDEN_MEMORIES_PREMIUM_EDITION_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_GX_CARD_ALMANAC_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_GX_DUEL_ACADEMY_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_GX_SPECIAL_EDITION
-	.2byte ITEM_PACK_TCG_YU_GI_OH_GX_SPIRIT_CALLER_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_GX_TAG_FORCE_2_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_GX_TAG_FORCE_3_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_GX_TAG_FORCE_EVOLUTION_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_GX_TAG_FORCE_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_GX_THE_BEGINNING_OF_DESTINY_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_GX_ULTIMATE_BEGINNER_S_PACK
-	.2byte ITEM_PACK_TCG_YU_GI_OH_GX_VOLUME_1_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_GX_VOLUME_2_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_GX_VOLUME_3_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_GX_VOLUME_4_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_GX_VOLUME_5_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_GX_VOLUME_6_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_GX_VOLUME_7_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_GX_VOLUME_8_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_GX_VOLUME_9_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_LEGACY_OF_THE_DUELIST_LINK_EVOLUTION_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_MILLENNIUM_WORLD_VOLUME_4_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_NIGHTMARE_TROUBADOUR_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_POWER_OF_CHAOS_JOEY_THE_PASSION_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_POWER_OF_CHAOS_KAIBA_THE_REVENGE_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_POWER_OF_CHAOS_YUGI_THE_DESTINY_LIMITED_COLLECTOR_S_EDITION
-	.2byte ITEM_PACK_TCG_YU_GI_OH_POWER_OF_CHAOS_YUGI_THE_DESTINY_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_R_VOLUME_1_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_R_VOLUME_3_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_R_VOLUME_4_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_R_VOLUME_5_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_REMOTE_DUEL_EXTRAVAGANZA_PARTICIPATION_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_RESHEF_OF_DESTRUCTION_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_BLU_RAY_DVD_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_MOVIE_PACK
-	.2byte ITEM_PACK_TCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_MOVIE_PACK_SECRET_EDITION
-	.2byte ITEM_PACK_TCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_MOVIE_PACK_SPECIAL_EDITION
-	.2byte ITEM_PACK_TCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_MOVIE_PACK_GOLD_EDITION
-	.2byte ITEM_PACK_TCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_THEATER_DISTRIBUTION_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_THE_DAWN_OF_DESTINY_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_THE_DUELISTS_OF_THE_ROSES_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_THE_ETERNAL_DUELIST_SOUL_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_THE_FALSEBOUND_KINGDOM_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_THE_SACRED_CARDS_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_TRADING_CARD_GAME_TOUR_2004_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_ULTIMATE_MASTERS_WORLD_CHAMPIONSHIP_TOURNAMENT_2006_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_WORLD_CHAMPIONSHIP_2004_TOURNAMENT_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_WORLD_CHAMPIONSHIP_2007_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_WORLD_CHAMPIONSHIP_2008_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_WORLD_CHAMPIONSHIP_2024_CELEBRATION_EVENT_PRIZE_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_WORLD_CHAMPIONSHIP_QUALIFIER_NATIONAL_CHAMPIONSHIPS_2011_PRIZE_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_WORLD_CHAMPIONSHIP_TOURNAMENT_2004_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_WORLDWIDE_EDITION_STAIRWAY_TO_THE_DESTINED_DUEL_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_ZEXAL_VOLUME_1_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_ZEXAL_VOLUME_2_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_ZEXAL_VOLUME_3_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_ZEXAL_VOLUME_4_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_ZEXAL_VOLUME_5_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_ZEXAL_VOLUME_6_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_ZEXAL_VOLUME_7_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_ZEXAL_VOLUME_8_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_ZEXAL_VOLUME_9_PROMOTIONAL_CARD
-	.2byte ITEM_PACK_TCG_YU_GI_OH_ZEXAL_WORLD_DUEL_CARNIVAL_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YU_GI_OH_AT_HOME_SWEEPSTAKES
-	.2byte ITEM_PACK_TCG_YU_GI_OH_THE_MOVIE_VHS_AND_DVD_PROMOTIONAL_CARDS
-	.2byte ITEM_PACK_TCG_YUGI_KAIBA_COLLECTOR_BOX
-	.2byte ITEM_PACK_TCG_YUGI_S_COLLECTOR_BOX
-	.2byte ITEM_PACK_TCG_YUGI_S_LEGENDARY_DECKS
-	.2byte ITEM_PACK_TCG_ZEXAL_COLLECTION_TIN
 	.2byte ITEM_PACK_TCG_ZOMBIE_WORLD_STRUCTURE_DECK
 	pokemartlistend
 
 InsideOfTruck_EventScript_MovingBox4::
 	lock
-	msgbox InsideOfTruck_Text_WhichCardList, MSGBOX_DEFAULT
-	dynmultichoice 0, 0, FALSE, 6, 0, DYN_MULTICHOICE_CB_NONE, InsideOfTruck_Text_CardShop, InsideOfTruck_Text_CardBanlists, InsideOfTruck_Text_Packs
+	msgbox gText_WhichCardList, MSGBOX_DEFAULT
+	dynmultichoice 0, 0, FALSE, 6, 0, DYN_MULTICHOICE_CB_NONE, gText_CardShop, gText_CardBanlists, gText_Packs, gText_PackLists
 	switch VAR_RESULT
 	case 0, InsideOfTruck_EventScript_CardShops
 	case 1, InsideOfTruck_EventScript_CardBanlists
 	case 2, InsideOfTruck_EventScript_Clerk_YGOPacks
+	case 3, InsideOfTruck_EventScript_MovingBox5
 	case MULTI_B_PRESSED, InsideOfTruck_EventScript_End
 
 InsideOfTruck_EventScript_CardShops::
-	msgbox InsideOfTruck_Text_WhichFormat, MSGBOX_DEFAULT
-	dynmultichoice 0, 0, FALSE, 6, 0, DYN_MULTICHOICE_CB_NONE, InsideOfTruck_Text_YugiKaiba, InsideOfTruck_Text_Critter, InsideOfTruck_Text_Treasure, InsideOfTruck_Text_Imperial, InsideOfTruck_Text_Android, InsideOfTruck_Text_JoeyPegasus, InsideOfTruck_Text_Fiber, InsideOfTruck_Text_Yata, InsideOfTruck_Text_Scientist, InsideOfTruck_Text_Vampire, InsideOfTruck_Text_Chaos, InsideOfTruck_Text_Warrior, InsideOfTruck_Text_Goat, InsideOfTruck_Text_Cyber, InsideOfTruck_Text_Reaper, InsideOfTruck_Text_ChaosReturn, InsideOfTruck_Text_Demise, InsideOfTruck_Text_Trooper, InsideOfTruck_Text_Zombie, InsideOfTruck_Text_PerfectCircle, InsideOfTruck_Text_DADReturn, InsideOfTruck_Text_Gladiator, InsideOfTruck_Text_TeleDAD, InsideOfTruck_Text_Cat, InsideOfTruck_Text_Edison, InsideOfTruck_Text_Frog, InsideOfTruck_Text_Starstrike, InsideOfTruck_Text_Tengu, InsideOfTruck_Text_DinoRabbit, InsideOfTruck_Text_WindUp, InsideOfTruck_Text_Miami, InsideOfTruck_Text_Meadowlands, InsideOfTruck_Text_BabyRuler, InsideOfTruck_Text_RavineRuler, InsideOfTruck_Text_FireWater, InsideOfTruck_Text_HAT, InsideOfTruck_Text_Vegas, InsideOfTruck_Text_Custom
+	msgbox gText_WhichFormat, MSGBOX_DEFAULT
+	dynmultichoice 0, 0, FALSE, 6, 0, DYN_MULTICHOICE_CB_NONE, gText_YugiKaiba, gText_Critter, gText_Treasure, gText_Imperial, gText_Android, gText_JoeyPegasus, gText_Fiber, gText_Yata, gText_Scientist, gText_Vampire, gText_Chaos, gText_Warrior, gText_Goat, gText_Cyber, gText_Reaper, gText_ChaosReturn, gText_Demise, gText_Trooper, gText_Zombie, gText_PerfectCircle, gText_DADReturn, gText_Gladiator, gText_TeleDAD, gText_Cat, gText_Edison, gText_Frog, gText_Starstrike, gText_Tengu, gText_DinoRabbit, gText_WindUp, gText_Miami, gText_Meadowlands, gText_BabyRuler, gText_RavineRuler, gText_FireWater, gText_HAT, gText_Vegas, gText_Custom
 	switch VAR_RESULT
 	case 0, InsideOfTruck_EventScript_Clerk_YugiKaiba
 	case 1, InsideOfTruck_EventScript_Clerk_Critter
@@ -2971,8 +2563,8 @@ InsideOfTruck_EventScript_CardShops::
 	case MULTI_B_PRESSED, InsideOfTruck_EventScript_End
 
 InsideOfTruck_EventScript_CardBanlists::
-	msgbox InsideOfTruck_Text_WhichFormat, MSGBOX_DEFAULT
-	dynmultichoice 0, 0, FALSE, 6, 0, DYN_MULTICHOICE_CB_NONE, InsideOfTruck_Text_YugiKaibaBanlist, InsideOfTruck_Text_CritterBanlist, InsideOfTruck_Text_TreasureBanlist, InsideOfTruck_Text_ImperialBanlist, InsideOfTruck_Text_AndroidBanlist, InsideOfTruck_Text_JoeyPegasusBanlist, InsideOfTruck_Text_FiberBanlist, InsideOfTruck_Text_YataBanlist, InsideOfTruck_Text_ScientistBanlist, InsideOfTruck_Text_VampireBanlist, InsideOfTruck_Text_ChaosBanlist, InsideOfTruck_Text_WarriorBanlist, InsideOfTruck_Text_GoatBanlist, InsideOfTruck_Text_CyberBanlist, InsideOfTruck_Text_ReaperBanlist, InsideOfTruck_Text_ChaosReturnBanlist, InsideOfTruck_Text_DemiseBanlist, InsideOfTruck_Text_TrooperBanlist, InsideOfTruck_Text_ZombieBanlist, InsideOfTruck_Text_PerfectCircleBanlist, InsideOfTruck_Text_DADReturnBanlist, InsideOfTruck_Text_GladiatorBanlist, InsideOfTruck_Text_TeleDADBanlist, InsideOfTruck_Text_CatBanlist, InsideOfTruck_Text_EdisonBanlist, InsideOfTruck_Text_FrogBanlist, InsideOfTruck_Text_StarstrikeBanlist, InsideOfTruck_Text_TenguBanlist, InsideOfTruck_Text_DinoRabbitBanlist, InsideOfTruck_Text_WindUpBanlist, InsideOfTruck_Text_MiamiBanlist, InsideOfTruck_Text_MeadowlandsBanlist, InsideOfTruck_Text_BabyRulerBanlist, InsideOfTruck_Text_RavineRulerBanlist, InsideOfTruck_Text_FireWaterBanlist, InsideOfTruck_Text_HATBanlist, InsideOfTruck_Text_VegasBanlist
+	msgbox gText_WhichFormat, MSGBOX_DEFAULT
+	dynmultichoice 0, 0, FALSE, 6, 0, DYN_MULTICHOICE_CB_NONE, gText_YugiKaibaBanlist, gText_CritterBanlist, gText_TreasureBanlist, gText_ImperialBanlist, gText_AndroidBanlist, gText_JoeyPegasusBanlist, gText_FiberBanlist, gText_YataBanlist, gText_ScientistBanlist, gText_VampireBanlist, gText_ChaosBanlist, gText_WarriorBanlist, gText_GoatBanlist, gText_CyberBanlist, gText_ReaperBanlist, gText_ChaosReturnBanlist, gText_DemiseBanlist, gText_TrooperBanlist, gText_ZombieBanlist, gText_PerfectCircleBanlist, gText_DADReturnBanlist, gText_GladiatorBanlist, gText_TeleDADBanlist, gText_CatBanlist, gText_EdisonBanlist, gText_FrogBanlist, gText_StarstrikeBanlist, gText_TenguBanlist, gText_DinoRabbitBanlist, gText_WindUpBanlist, gText_MiamiBanlist, gText_MeadowlandsBanlist, gText_BabyRulerBanlist, gText_RavineRulerBanlist, gText_FireWaterBanlist, gText_HATBanlist, gText_VegasBanlist
 	switch VAR_RESULT
 	case 0, InsideOfTruck_EventScript_Clerk_YugiKaibaBanlist
 	case 1, InsideOfTruck_EventScript_Clerk_CritterBanlist
@@ -3017,16 +2609,19 @@ InsideOfTruck_EventScript_End::
 	releaseall
 	end
 
-InsideOfTruck_Text_CardShop:
+gText_CardShop:
 	.string "Card shop$"
 	
-InsideOfTruck_Text_CardBanlists:
+gText_CardBanlists:
 	.string "Card banlists$"
 	
-InsideOfTruck_Text_Packs:
+gText_Packs:
 	.string "Packs$"
 
-InsideOfTruck_Text_Custom:
+gText_PackLists:
+	.string "Pack rarities$"
+
+gText_Custom:
 	.string "Custom$"
 
 gText_CustomClerk::
@@ -3050,39 +2645,21 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_4_STARRED_LADYBUG_OF_DOOM
 	.2byte  ITEM_CARD_7_COLORED_FISH
 	.2byte  ITEM_CARD_A_LEGENDARY_OCEAN
-	.2byte  ITEM_CARD_A_WINGBEAT_OF_GIANT_DRAGON
-	.2byte  ITEM_CARD_A_ASSAULT_CORE
-	.2byte  ITEM_CARD_A_I_MEET_YOU
-	.2byte  ITEM_CARD_ALERT_
-	.2byte  ITEM_CARD_ABOMINABLE_CHAMBER_OF_THE_UNCHAINED
-	.2byte  ITEM_CARD_ABOMINATION_S_PRISON
-	.2byte  ITEM_CARD_ABSOLUTE_KING_BACK_JACK
-	.2byte  ITEM_CARD_ABYSS_ACTOR_CURTAIN_RAISER
+	.2byte  ITEM_CARD_ABC_DRAGON_BUSTER
 	.2byte  ITEM_CARD_ABYSS_DWELLER
 	.2byte  ITEM_CARD_ABYSS_SOLDIER
 	.2byte  ITEM_CARD_ABYSS_SPHERE
-	.2byte  ITEM_CARD_ACCUMULATED_FORTUNE
-	.2byte  ITEM_CARD_ACHICHI_IGNISTER
-	.2byte  ITEM_CARD_ACID_TRAP_HOLE
 	.2byte  ITEM_CARD_ADVANCED_RITUAL_ART
-	.2byte  ITEM_CARD_AGAVE_DRAGON
 	.2byte  ITEM_CARD_AGIDO_THE_ANCIENT_SENTINEL
 	.2byte  ITEM_CARD_AIRKNIGHT_PARSHATH
 	.2byte  ITEM_CARD_ALBA_LENATUS_THE_ABYSS_DRAGON
 	.2byte  ITEM_CARD_ALBAZ_THE_ASHEN
 	.2byte  ITEM_CARD_ALBION_THE_SANCTIFIRE_DRAGON
 	.2byte  ITEM_CARD_ALBION_THE_SHROUDED_DRAGON
-	.2byte  ITEM_CARD_ALEISTER_THE_INVOKER
 	.2byte  ITEM_CARD_ALEXANDRITE_DRAGON
-	.2byte  ITEM_CARD_ALICH_MALEBRANCHE_OF_THE_BURNING_ABYSS
 	.2byte  ITEM_CARD_ALLURE_OF_DARKNESS
 	.2byte  ITEM_CARD_ALLY_OF_JUSTICE_CATASTOR
 	.2byte  ITEM_CARD_ALLY_OF_JUSTICE_CYCLE_READER
-	.2byte  ITEM_CARD_ALOOF_LUPINE
-	.2byte  ITEM_CARD_ALTERGEIST_MARIONETTER
-	.2byte  ITEM_CARD_ALTERGEIST_MELUSEEK
-	.2byte  ITEM_CARD_ALTERGEIST_MULTIFAKER
-	.2byte  ITEM_CARD_ALTERGEIST_PROTOCOL
 	.2byte  ITEM_CARD_ALUBER_THE_JESTER_OF_DESPIA
 	.2byte  ITEM_CARD_AMAZONESS_ARCHER
 	.2byte  ITEM_CARD_AMAZONESS_SPIRITUALIST
@@ -3091,15 +2668,10 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_ANCIENT_FAIRY_DRAGON
 	.2byte  ITEM_CARD_ANCIENT_GEAR_DRAGON
 	.2byte  ITEM_CARD_ANCIENT_GEAR_GOLEM_ULTIMATE_POUND
-	.2byte  ITEM_CARD_ANGEL_STATUE_AZURUNE
-	.2byte  ITEM_CARD_ANGEL_OF_BLUE_TEARS
 	.2byte  ITEM_CARD_ANGMARL_THE_FIENDISH_MONARCH
-	.2byte  ITEM_CARD_ANTI_MAGIC_ARROWS
 	.2byte  ITEM_CARD_ANTI_SPELL_FRAGRANCE
 	.2byte  ITEM_CARD_APOLLOUSA_BOW_OF_THE_GODDESS
-	.2byte  ITEM_CARD_APPOINTER_OF_THE_RED_LOTUS
 	.2byte  ITEM_CARD_APPRENTICE_ILLUSION_MAGICIAN
-	.2byte  ITEM_CARD_APPRENTICE_MAGICIAN
 	.2byte  ITEM_CARD_AQUA_MADOOR
 	.2byte  ITEM_CARD_AQUA_SPIRIT
 	.2byte  ITEM_CARD_ARCANITE_MAGICIAN
@@ -3111,62 +2683,43 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_ARCHFIEND_GIANT
 	.2byte  ITEM_CARD_ARCHFIEND_HEIRESS
 	.2byte  ITEM_CARD_ARCHFIEND_INTERCEPTOR
-	.2byte  ITEM_CARD_ARCHFIEND_SOLDIER
 	.2byte  ITEM_CARD_ARCHFIEND_OF_GILFER
+	.2byte  ITEM_CARD_ARCHFIEND_SOLDIER
 	.2byte  ITEM_CARD_ARCHFIEND_S_ADVENT
 	.2byte  ITEM_CARD_ARCHFIEND_S_MANIFESTATION
-	.2byte  ITEM_CARD_ARCHLORD_KRISTYA
 	.2byte  ITEM_CARD_ARCHNEMESES_PROTOS
-	.2byte  ITEM_CARD_ARIANNA_THE_LABRYNTH_SERVANT
-	.2byte  ITEM_CARD_ARIAS_THE_LABRYNTH_BUTLER
 	.2byte  ITEM_CARD_ARIEL_PRIESTESS_OF_THE_NEKROZ
 	.2byte  ITEM_CARD_ARISEN_GAIA_THE_FIERCE_KNIGHT
 	.2byte  ITEM_CARD_ARMAGEDDON_KNIGHT
 	.2byte  ITEM_CARD_ARMED_NINJA
 	.2byte  ITEM_CARD_ARMORED_CYBERN
+	.2byte  ITEM_CARD_ARMORY_ARM
 	.2byte  ITEM_CARD_ARSENAL_BUG
 	.2byte  ITEM_CARD_ARSENAL_SUMMONER
-	.2byte  ITEM_CARD_ARTIFACT_BEAGALLTACH
-	.2byte  ITEM_CARD_ARTIFACT_IGNITION
 	.2byte  ITEM_CARD_ARTIFACT_LANCEA
 	.2byte  ITEM_CARD_ARTIFACT_MORALLTACH
 	.2byte  ITEM_CARD_ARTIFACT_SANCTUM
-	.2byte  ITEM_CARD_ARTIFACT_SCYTHE
-	.2byte  ITEM_CARD_ASCETICISM_OF_THE_SIX_SAMURAI
 	.2byte  ITEM_CARD_ASH_BLOSSOM_JOYOUS_SPRING
 	.2byte  ITEM_CARD_ASURA_PRIEST
 	.2byte  ITEM_CARD_ATLANTEAN_DRAGOONS
 	.2byte  ITEM_CARD_ATLANTEAN_HEAVY_INFANTRY
 	.2byte  ITEM_CARD_ATLANTEAN_MARKSMAN
 	.2byte  ITEM_CARD_AURKUS_LIGHTSWORN_DRUID
-	.2byte  ITEM_CARD_AUTONOMOUS_ACTION_UNIT
 	.2byte  ITEM_CARD_AVANCE_SWORDSMAN_OF_THE_NEKROZ
 	.2byte  ITEM_CARD_AXE_DRAGONUTE
 	.2byte  ITEM_CARD_AXE_OF_DESPAIR
-	.2byte  ITEM_CARD_B_BUSTER_DRAKE
-	.2byte  ITEM_CARD_BM_4_BLAST_SPIDER
-	.2byte  ITEM_CARD_BABYCERASAURUS
-	.2byte  ITEM_CARD_BACKUP_SOLDIER
 	.2byte  ITEM_CARD_BAKU_THE_BEAST_NINJA
-	.2byte  ITEM_CARD_BALANCE_OF_JUDGMENT
 	.2byte  ITEM_CARD_BANISHER_OF_THE_LIGHT
 	.2byte  ITEM_CARD_BANISHER_OF_THE_RADIANCE
-	.2byte  ITEM_CARD_BANISHMENT_OF_THE_DARKLORDS
 	.2byte  ITEM_CARD_BAOBABOON
-	.2byte  ITEM_CARD_BARBAR_MALEBRANCHE_OF_THE_BURNING_ABYSS
 	.2byte  ITEM_CARD_BARREL_BEHIND_THE_DOOR
-	.2byte  ITEM_CARD_BARRIER_STATUE_OF_THE_STORMWINDS
-	.2byte  ITEM_CARD_BARRIER_OF_THE_VOICELESS_VOICE
-	.2byte  ITEM_CARD_BATTERYMAN_SOLAR
-	.2byte  ITEM_CARD_BATTLE_FADER
 	.2byte  ITEM_CARD_BATTLE_FOOTBALLER
 	.2byte  ITEM_CARD_BATTLE_OX
 	.2byte  ITEM_CARD_BAXIA_BRIGHTNESS_OF_THE_YANG_ZING
 	.2byte  ITEM_CARD_BAZOO_THE_SOUL_EATER
-	.2byte  ITEM_CARD_BEAST_OF_TALWAR_THE_SWORD_SUMMIT
 	.2byte  ITEM_CARD_BEAST_OF_TALWAR
+	.2byte  ITEM_CARD_BEAST_OF_TALWAR_THE_SWORD_SUMMIT
 	.2byte  ITEM_CARD_BEATRICE_LADY_OF_THE_ETERNAL
-	.2byte  ITEM_CARD_BEAUTIFUL_HEADHUNTRESS
 	.2byte  ITEM_CARD_BECKONING_LIGHT
 	.2byte  ITEM_CARD_BEGINNING_KNIGHT
 	.2byte  ITEM_CARD_BEIIGE_VANGUARD_OF_DARK_WORLD
@@ -3176,9 +2729,7 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_BICKURIBOX
 	.2byte  ITEM_CARD_BIG_BANG_SHOT
 	.2byte  ITEM_CARD_BIG_SHIELD_GARDNA
-	.2byte  ITEM_CARD_BIG_WELCOME_LABRYNTH
 	.2byte  ITEM_CARD_BIG_TUSKED_MAMMOTH
-	.2byte  ITEM_CARD_BLACK_DRAGON_COLLAPSERPENT
 	.2byte  ITEM_CARD_BLACK_DRAGON_S_CHICK
 	.2byte  ITEM_CARD_BLACK_HORN_OF_HEAVEN
 	.2byte  ITEM_CARD_BLACK_ILLUSION_RITUAL
@@ -3187,18 +2738,16 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_BLACK_METAL_DRAGON
 	.2byte  ITEM_CARD_BLACK_PENDANT
 	.2byte  ITEM_CARD_BLACK_ROSE_DRAGON
-	.2byte  ITEM_CARD_BLACK_SALVO
 	.2byte  ITEM_CARD_BLACK_SKULL_DRAGON
 	.2byte  ITEM_CARD_BLACK_WHIRLWIND
 	.2byte  ITEM_CARD_BLACKWING_BLIZZARD_THE_FAR_NORTH
 	.2byte  ITEM_CARD_BLACKWING_BORA_THE_SPEAR
 	.2byte  ITEM_CARD_BLACKWING_GALE_THE_WHIRLWIND
-	.2byte  ITEM_CARD_BLACKWING_GOFU_THE_VAGUE_SHADOW
 	.2byte  ITEM_CARD_BLACKWING_KALUT_THE_MOON_SHADOW
 	.2byte  ITEM_CARD_BLACKWING_SHURA_THE_BLUE_FLAME
+	.2byte  ITEM_CARD_BLACKWING_SILVERWIND_THE_ASCENDANT
 	.2byte  ITEM_CARD_BLACKWING_SIROCCO_THE_DAWN
 	.2byte  ITEM_CARD_BLACKWING_VAYU_THE_EMBLEM_OF_HONOR
-	.2byte  ITEM_CARD_BLACKWING_ZEPHYROS_THE_ELITE
 	.2byte  ITEM_CARD_BLACKWING_ARMED_WING
 	.2byte  ITEM_CARD_BLACKWING_ARMOR_MASTER
 	.2byte  ITEM_CARD_BLADE_KNIGHT
@@ -3206,8 +2755,6 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_BLASTER_DRAGON_RULER_OF_INFERNOS
 	.2byte  ITEM_CARD_BLAZING_CARTESIA_THE_VIRTUOUS
 	.2byte  ITEM_CARD_BLAZING_INPACHI
-	.2byte  ITEM_CARD_BLAZING_MIRROR_FORCE
-	.2byte  ITEM_CARD_BLIND_OBLITERATION
 	.2byte  ITEM_CARD_BLINDLY_LOYAL_GOBLIN
 	.2byte  ITEM_CARD_BLOCK_ATTACK
 	.2byte  ITEM_CARD_BLOWBACK_DRAGON
@@ -3220,43 +2767,28 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_BLUE_EYES_TYRANT_DRAGON
 	.2byte  ITEM_CARD_BLUE_EYES_ULTIMATE_DRAGON
 	.2byte  ITEM_CARD_BLUE_EYES_WHITE_DRAGON
+	.2byte  ITEM_CARD_BM_4_BLAST_SPIDER
 	.2byte  ITEM_CARD_BONE_ARCHFIEND
 	.2byte  ITEM_CARD_BONFIRE
 	.2byte  ITEM_CARD_BOOK_OF_ECLIPSE
 	.2byte  ITEM_CARD_BOOK_OF_LIFE
-	.2byte  ITEM_CARD_BOOK_OF_LUNAR_ECLIPSE
 	.2byte  ITEM_CARD_BOOK_OF_MOON
 	.2byte  ITEM_CARD_BOOK_OF_TAIYOU
 	.2byte  ITEM_CARD_BORRELOAD_DRAGON
 	.2byte  ITEM_CARD_BOTTOMLESS_TRAP_HOLE
 	.2byte  ITEM_CARD_BOWGANIAN
 	.2byte  ITEM_CARD_BRAIN_CONTROL
-	.2byte  ITEM_CARD_BRANDED_BEAST
-	.2byte  ITEM_CARD_BRANDED_FUSION
-	.2byte  ITEM_CARD_BRANDED_OPENING
-	.2byte  ITEM_CARD_BRANDED_REGAINED
 	.2byte  ITEM_CARD_BRANDED_IN_HIGH_SPIRITS
-	.2byte  ITEM_CARD_BRANDED_IN_RED
 	.2byte  ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR
 	.2byte  ITEM_CARD_BREAKTHROUGH_SKILL
 	.2byte  ITEM_CARD_BRIGRAND_THE_GLORY_DRAGON
-	.2byte  ITEM_CARD_BRILLIANT_FUSION
 	.2byte  ITEM_CARD_BRILLIANT_ROSE
 	.2byte  ITEM_CARD_BRIONAC_DRAGON_OF_THE_ICE_BARRIER
 	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_BEAR
-	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_DRAGON
-	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_GORILLA
 	.2byte  ITEM_CARD_BROWW_HUNTSMAN_OF_DARK_WORLD
 	.2byte  ITEM_CARD_BRRON_MAD_KING_OF_DARK_WORLD
-	.2byte  ITEM_CARD_BUJIN_MIKAZUCHI
-	.2byte  ITEM_CARD_BUJIN_YAMATO
-	.2byte  ITEM_CARD_BUJINCARNATION
-	.2byte  ITEM_CARD_BUJINGI_CRANE
-	.2byte  ITEM_CARD_BUJINGI_HARE
-	.2byte  ITEM_CARD_BUJINGI_TURTLE
 	.2byte  ITEM_CARD_BURIAL_FROM_A_DIFFERENT_DIMENSION
 	.2byte  ITEM_CARD_BURNER_DRAGON_RULER_OF_SPARKS
-	.2byte  ITEM_CARD_BURST_REBIRTH
 	.2byte  ITEM_CARD_BUSTER_BLADER
 	.2byte  ITEM_CARD_BUSTER_BLADER_THE_DESTRUCTION_SWORDMASTER
 	.2byte  ITEM_CARD_BUSTER_BLADER_THE_DRAGON_DESTROYER_SWORDSMAN
@@ -3265,40 +2797,31 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_BYSTIAL_DRUISWURM
 	.2byte  ITEM_CARD_BYSTIAL_MAGNAMHUT
 	.2byte  ITEM_CARD_BYSTIAL_SARONIR
-	.2byte  ITEM_CARD_C_CRUSH_WYVERN
-	.2byte  ITEM_CARD_CONTAIN_
-	.2byte  ITEM_CARD_CAGNA_MALEBRANCHE_OF_THE_BURNING_ABYSS
 	.2byte  ITEM_CARD_CAIUS_THE_MEGA_MONARCH
 	.2byte  ITEM_CARD_CAIUS_THE_SHADOW_MONARCH
-	.2byte  ITEM_CARD_CALCAB_MALEBRANCHE_OF_THE_BURNING_ABYSS
 	.2byte  ITEM_CARD_CALL_OF_THE_HAUNTED
 	.2byte  ITEM_CARD_CALLED_BY_THE_GRAVE
 	.2byte  ITEM_CARD_CANNON_SOLDIER
 	.2byte  ITEM_CARD_CARD_DESTRUCTION
-	.2byte  ITEM_CARD_CARD_TROOPER
 	.2byte  ITEM_CARD_CARD_OF_DEMISE
 	.2byte  ITEM_CARD_CARD_OF_SAFE_RETURN
-	.2byte  ITEM_CARD_CARDCAR_D
-	.2byte  ITEM_CARD_CARDS_FOR_BLACK_FEATHERS
+	.2byte  ITEM_CARD_CARD_TROOPER
 	.2byte  ITEM_CARD_CARDS_FROM_THE_SKY
 	.2byte  ITEM_CARD_CARDS_OF_CONSONANCE
 	.2byte  ITEM_CARD_CASTEL_THE_SKYBLASTER_MUSKETEER
-	.2byte  ITEM_CARD_CASTLE_WALLS
 	.2byte  ITEM_CARD_CASTLE_OF_DARK_ILLUSIONS
+	.2byte  ITEM_CARD_CASTLE_WALLS
 	.2byte  ITEM_CARD_CATAPULT_TURTLE
 	.2byte  ITEM_CARD_CEASEFIRE
 	.2byte  ITEM_CARD_CELESTIA_LIGHTSWORN_ANGEL
 	.2byte  ITEM_CARD_CHAIN_DISAPPEARANCE
 	.2byte  ITEM_CARD_CHAIN_ENERGY
-	.2byte  ITEM_CARD_CHAIN_STRIKE
 	.2byte  ITEM_CARD_CHAINSAW_INSECT
 	.2byte  ITEM_CARD_CHANGE_OF_HEART
 	.2byte  ITEM_CARD_CHAOS_EMPEROR_DRAGON_ENVOY_OF_THE_END
 	.2byte  ITEM_CARD_CHAOS_HUNTER
 	.2byte  ITEM_CARD_CHAOS_NEPHTHYS
 	.2byte  ITEM_CARD_CHAOS_SORCERER
-	.2byte  ITEM_CARD_CHAOS_SPACE
-	.2byte  ITEM_CARD_CHAOS_TRAP_HOLE
 	.2byte  ITEM_CARD_CHARCOAL_INPACHI
 	.2byte  ITEM_CARD_CHARGE_OF_THE_LIGHT_BRIGADE
 	.2byte  ITEM_CARD_CHARGING_GAIA_THE_FIERCE_KNIGHT
@@ -3308,27 +2831,16 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_CHIRON_THE_MAGE
 	.2byte  ITEM_CARD_CHRONICLE_MAGICIAN
 	.2byte  ITEM_CARD_CHRONICLE_SORCERESS
-	.2byte  ITEM_CARD_CHRONOGRAPH_SORCERER
-	.2byte  ITEM_CARD_CHRONOMALY_CRYSTAL_SKULL
-	.2byte  ITEM_CARD_CHRONOMALY_GOLDEN_JET
-	.2byte  ITEM_CARD_CHRONOMALY_NEBRA_DISK
 	.2byte  ITEM_CARD_CIPHER_SOLDIER
 	.2byte  ITEM_CARD_CIR_MALEBRANCHE_OF_THE_BURNING_ABYSS
 	.2byte  ITEM_CARD_CLORLESS_CHAOS_KING_OF_DARK_WORLD
-	.2byte  ITEM_CARD_CLOSED_FOREST
-	.2byte  ITEM_CARD_COACH_SOLDIER_WOLFBARK
 	.2byte  ITEM_CARD_COLD_WAVE
 	.2byte  ITEM_CARD_COLOSSAL_FIGHTER
 	.2byte  ITEM_CARD_COMMAND_KNIGHT
-	.2byte  ITEM_CARD_COMPULSORY_ESCAPE_DEVICE
 	.2byte  ITEM_CARD_COMPULSORY_EVACUATION_DEVICE
 	.2byte  ITEM_CARD_CONFISCATION
-	.2byte  ITEM_CARD_CONQUISTADOR_OF_THE_GOLDEN_LAND
 	.2byte  ITEM_CARD_CONSECRATED_LIGHT
-	.2byte  ITEM_CARD_CONTACT_C_
 	.2byte  ITEM_CARD_COSMIC_CYCLONE
-	.2byte  ITEM_CARD_COUPLET_THE_MELODIOUS_SONGSTRESS
-	.2byte  ITEM_CARD_CRACKDOWN
 	.2byte  ITEM_CARD_CRASS_CLOWN
 	.2byte  ITEM_CARD_CREATURE_SWAP
 	.2byte  ITEM_CARD_CREVICE_INTO_THE_DIFFERENT_DIMENSION
@@ -3337,62 +2849,40 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_CROSSOUT_DESIGNATOR
 	.2byte  ITEM_CARD_CRUSH_CARD_VIRUS
 	.2byte  ITEM_CARD_CRYSTAL_ROSE
-	.2byte  ITEM_CARD_CRYSTRON_HALQIFIBRAX
-	.2byte  ITEM_CARD_CURSED_ELDLAND
 	.2byte  ITEM_CARD_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL
-	.2byte  ITEM_CARD_CYBER_ANGEL_BENTEN
-	.2byte  ITEM_CARD_CYBER_ANGEL_IDATEN
-	.2byte  ITEM_CARD_CYBER_ANGEL_NATASHA
-	.2byte  ITEM_CARD_CYBER_DRAGON_CORE
+	.2byte  ITEM_CARD_CYBER_DRAGON
 	.2byte  ITEM_CARD_CYBER_DRAGON_DREI
 	.2byte  ITEM_CARD_CYBER_DRAGON_INFINITY
 	.2byte  ITEM_CARD_CYBER_DRAGON_NOVA
 	.2byte  ITEM_CARD_CYBER_DRAGON_VIER
 	.2byte  ITEM_CARD_CYBER_DRAGON_ZWEI
-	.2byte  ITEM_CARD_CYBER_DRAGON
 	.2byte  ITEM_CARD_CYBER_ELTANIN
-	.2byte  ITEM_CARD_CYBER_EMERGENCY
 	.2byte  ITEM_CARD_CYBER_END_DRAGON
 	.2byte  ITEM_CARD_CYBER_HARPIE_LADY
 	.2byte  ITEM_CARD_CYBER_JAR
 	.2byte  ITEM_CARD_CYBER_LARVA
-	.2byte  ITEM_CARD_CYBER_NETWORK
 	.2byte  ITEM_CARD_CYBER_PHOENIX
-	.2byte  ITEM_CARD_CYBER_REPAIR_PLANT
 	.2byte  ITEM_CARD_CYBER_TWIN_DRAGON
 	.2byte  ITEM_CARD_CYBER_VALLEY
 	.2byte  ITEM_CARD_CYBER_STEIN
 	.2byte  ITEM_CARD_CYBERDARK_WURM
-	.2byte  ITEM_CARD_CYBERSE_GADGET
 	.2byte  ITEM_CARD_CYNET_MINING
 	.2byte  ITEM_CARD_D_D_ASSAILANT
 	.2byte  ITEM_CARD_D_D_CRAZY_BEAST
 	.2byte  ITEM_CARD_D_D_CROW
-	.2byte  ITEM_CARD_D_D_DESIGNATOR
 	.2byte  ITEM_CARD_D_D_SURVIVOR
 	.2byte  ITEM_CARD_D_D_TRAINER
 	.2byte  ITEM_CARD_D_D_WARRIOR_LADY
-	.2byte  ITEM_CARD_D_D_WARRIOR
-	.2byte  ITEM_CARD_D_D_R_DIFFERENT_DIMENSION_REINCARNATION
-	.2byte  ITEM_CARD_D_D_SAVANT_KEPLER
-	.2byte  ITEM_CARD_DNA_SURGERY
 	.2byte  ITEM_CARD_DAIGUSTO_EMERAL
 	.2byte  ITEM_CARD_DANCE_PRINCESS_OF_THE_NEKROZ
 	.2byte  ITEM_CARD_DANDYLION
-	.2byte  ITEM_CARD_DANGER_BIGFOOT_
-	.2byte  ITEM_CARD_DANGER_MOTHMAN_
 	.2byte  ITEM_CARD_DANGER_NESSIE_
-	.2byte  ITEM_CARD_DANGER_JACKALOPE_
-	.2byte  ITEM_CARD_DANGER_TSUCHINOKO_
 	.2byte  ITEM_CARD_DANTE_TRAVELER_OF_THE_BURNING_ABYSS
 	.2byte  ITEM_CARD_DARK_ARMED_DRAGON
 	.2byte  ITEM_CARD_DARK_BALTER_THE_TERRIBLE
-	.2byte  ITEM_CARD_DARK_BECKONING_BEAST
-	.2byte  ITEM_CARD_DARK_BLADE_THE_DRAGON_KNIGHT
 	.2byte  ITEM_CARD_DARK_BLADE
-	.2byte  ITEM_CARD_DARK_BRIBE
+	.2byte  ITEM_CARD_DARK_BLADE_THE_DRAGON_KNIGHT
 	.2byte  ITEM_CARD_DARK_CAVALRY
-	.2byte  ITEM_CARD_DARK_CONTRACT_WITH_THE_GATE
 	.2byte  ITEM_CARD_DARK_DEAL
 	.2byte  ITEM_CARD_DARK_ELF
 	.2byte  ITEM_CARD_DARK_END_DRAGON
@@ -3401,13 +2891,13 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_DARK_GREPHER
 	.2byte  ITEM_CARD_DARK_HOLE
 	.2byte  ITEM_CARD_DARK_MAGIC_CURTAIN
+	.2byte  ITEM_CARD_DARK_MAGICIAN
+	.2byte  ITEM_CARD_DARK_MAGICIAN_GIRL
 	.2byte  ITEM_CARD_DARK_MAGICIAN_GIRL_THE_DRAGON_KNIGHT
 	.2byte  ITEM_CARD_DARK_MAGICIAN_GIRL_THE_MAGICIAN_S_APPRENTICE
-	.2byte  ITEM_CARD_DARK_MAGICIAN_GIRL
 	.2byte  ITEM_CARD_DARK_MAGICIAN_OF_CHAOS
 	.2byte  ITEM_CARD_DARK_MAGICIAN_THE_DRAGON_KNIGHT
 	.2byte  ITEM_CARD_DARK_MAGICIAN_THE_KNIGHT_OF_DRAGON_MAGIC
-	.2byte  ITEM_CARD_DARK_MAGICIAN
 	.2byte  ITEM_CARD_DARK_MIMIC_LV1
 	.2byte  ITEM_CARD_DARK_MIMIC_LV3
 	.2byte  ITEM_CARD_DARK_NEPHTHYS
@@ -3416,70 +2906,45 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_DARK_RULER_NO_MORE
 	.2byte  ITEM_CARD_DARK_SCORPION_CHICK_THE_YELLOW
 	.2byte  ITEM_CARD_DARK_SCORPION_CLIFF_THE_TRAP_REMOVER
-	.2byte  ITEM_CARD_DARK_SMOG
 	.2byte  ITEM_CARD_DARK_STRIKE_FIGHTER
-	.2byte  ITEM_CARD_DARK_WORLD_DEALINGS
 	.2byte  ITEM_CARD_DARK_WORLD_LIGHTNING
-	.2byte  ITEM_CARD_DARKEST_DIABOLOS_LORD_OF_THE_LAIR
 	.2byte  ITEM_CARD_DARKFIRE_DRAGON
-	.2byte  ITEM_CARD_DARKFLARE_DRAGON
-	.2byte  ITEM_CARD_DARKLORD_CONTACT
-	.2byte  ITEM_CARD_DARKLORD_IXCHEL
-	.2byte  ITEM_CARD_DARKLORD_NASTEN
-	.2byte  ITEM_CARD_DARKLORD_REBELLION
-	.2byte  ITEM_CARD_DARKLORD_SUPERBIA
 	.2byte  ITEM_CARD_DARKLORD_ZERATO
 	.2byte  ITEM_CARD_DE_FUSION
 	.2byte  ITEM_CARD_DE_SPELL
-	.2byte  ITEM_CARD_DE_SYNCHRO
 	.2byte  ITEM_CARD_DEBRIS_DRAGON
 	.2byte  ITEM_CARD_DEBUNK
-	.2byte  ITEM_CARD_DECEPTION_OF_THE_SINFUL_SPOILS
 	.2byte  ITEM_CARD_DECK_DEVASTATION_VIRUS
-	.2byte  ITEM_CARD_DECK_LOCKDOWN
-	.2byte  ITEM_CARD_DEEP_DARK_TRAP_HOLE
 	.2byte  ITEM_CARD_DEEP_SEA_DIVA
 	.2byte  ITEM_CARD_DEEP_EYES_WHITE_DRAGON
 	.2byte  ITEM_CARD_DEFENDER_OF_NEPHTHYS
 	.2byte  ITEM_CARD_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE
 	.2byte  ITEM_CARD_DELG_THE_DARK_MONARCH
 	.2byte  ITEM_CARD_DELINQUENT_DUO
-	.2byte  ITEM_CARD_DELTA_CROW_ANTI_REVERSE
 	.2byte  ITEM_CARD_DEMISE_KING_OF_ARMAGEDDON
 	.2byte  ITEM_CARD_DENKO_SEKKA
 	.2byte  ITEM_CARD_DES_DENDLE
-	.2byte  ITEM_CARD_DES_FROG
 	.2byte  ITEM_CARD_DES_KOALA
 	.2byte  ITEM_CARD_DES_LACOODA
 	.2byte  ITEM_CARD_DES_WOMBAT
 	.2byte  ITEM_CARD_DESERT_SUNLIGHT
-	.2byte  ITEM_CARD_DESKBOT_001
-	.2byte  ITEM_CARD_DESPIAN_TRAGEDY
-	.2byte  ITEM_CARD_DESROOK_ARCHFIEND
 	.2byte  ITEM_CARD_DESTINY_DRAW
 	.2byte  ITEM_CARD_DESTINY_HERO_CELESTIAL
 	.2byte  ITEM_CARD_DESTINY_HERO_DASHER
 	.2byte  ITEM_CARD_DESTINY_HERO_DESTROYER_PHOENIX_ENFORCER
 	.2byte  ITEM_CARD_DESTINY_HERO_DIAMOND_DUDE
 	.2byte  ITEM_CARD_DESTINY_HERO_DISK_COMMANDER
-	.2byte  ITEM_CARD_DESTINY_HERO_DOOM_LORD
 	.2byte  ITEM_CARD_DESTINY_HERO_FEAR_MONGER
 	.2byte  ITEM_CARD_DESTINY_HERO_MALICIOUS
-	.2byte  ITEM_CARD_DESTINY_HERO_PLASMA
-	.2byte  ITEM_CARD_DESTRUCTIVE_DARUMA_KARMA_CANNON
-	.2byte  ITEM_CARD_DESTRUDO_THE_LOST_DRAGON_S_FRISSON
 	.2byte  ITEM_CARD_DHARC_THE_DARK_CHARMER_GLOOMY
 	.2byte  ITEM_CARD_DIABELLSTAR_THE_BLACK_WITCH
 	.2byte  ITEM_CARD_DIAMOND_DIRE_WOLF
-	.2byte  ITEM_CARD_DIAMOND_DUST
 	.2byte  ITEM_CARD_DIAN_KETO_THE_CURE_MASTER
 	.2byte  ITEM_CARD_DICTATOR_OF_D_
-	.2byte  ITEM_CARD_DIFFERENT_DIMENSION_GROUND
 	.2byte  ITEM_CARD_DIMENSION_CONJURER
 	.2byte  ITEM_CARD_DIMENSION_FUSION
 	.2byte  ITEM_CARD_DIMENSION_SHIFTER
 	.2byte  ITEM_CARD_DIMENSION_WALL
-	.2byte  ITEM_CARD_DIMENSIONAL_ALCHEMIST
 	.2byte  ITEM_CARD_DIMENSIONAL_BARRIER
 	.2byte  ITEM_CARD_DIMENSIONAL_FISSURE
 	.2byte  ITEM_CARD_DIMENSIONAL_PRISON
@@ -3490,29 +2955,16 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_DINOWRESTLER_PANKRATOPS
 	.2byte  ITEM_CARD_DINOWRESTLER_VALEONYX
 	.2byte  ITEM_CARD_DISCIPLE_OF_NEPHTHYS
-	.2byte  ITEM_CARD_DISCIPLES_OF_THE_TRUE_DRACOPHOENIX
 	.2byte  ITEM_CARD_DIVINE_ARSENAL_AA_ZEUS_SKY_THUNDER
 	.2byte  ITEM_CARD_DIVINE_DRAGON_KNIGHT_FELGRAND
-	.2byte  ITEM_CARD_DIVINE_SWORD_PHOENIX_BLADE
 	.2byte  ITEM_CARD_DIVINE_TEMPLE_OF_THE_SNAKE_EYE
 	.2byte  ITEM_CARD_DIVINE_WRATH
-	.2byte  ITEM_CARD_DIVINER_OF_THE_HERALD
-	.2byte  ITEM_CARD_DJINN_RELEASER_OF_RITUALS
-	.2byte  ITEM_CARD_DOGMATIKA_ECCLESIA_THE_VIRTUOUS
-	.2byte  ITEM_CARD_DOGMATIKA_MAXIMUS
-	.2byte  ITEM_CARD_DOGMATIKA_PUNISHMENT
-	.2byte  ITEM_CARD_DOGORAN_THE_MAD_FLAME_KAIJU
-	.2byte  ITEM_CARD_DOMAIN_OF_THE_TRUE_MONARCHS
+	.2byte  ITEM_CARD_DNA_SURGERY
 	.2byte  ITEM_CARD_DOMINUS_IMPULSE
-	.2byte  ITEM_CARD_DOMINUS_PURGE
 	.2byte  ITEM_CARD_DON_ZALOOG
 	.2byte  ITEM_CARD_DOOM_DOZER
 	.2byte  ITEM_CARD_DOOMCALIBER_KNIGHT
-	.2byte  ITEM_CARD_DOPPELWARRIOR
-	.2byte  ITEM_CARD_DORA_DORA
-	.2byte  ITEM_CARD_DOTSCAPER
-	.2byte  ITEM_CARD_DOUBLE_CYCLONE
-	.2byte  ITEM_CARD_DOUBLE_EDGED_SWORD_TECHNIQUE
+	.2byte  ITEM_CARD_DOOMKAISER_DRAGON
 	.2byte  ITEM_CARD_DOWNERD_MAGICIAN
 	.2byte  ITEM_CARD_DRACO_FACE_OFF
 	.2byte  ITEM_CARD_DRACOBACK_THE_RIDEABLE_DRAGON
@@ -3521,39 +2973,19 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_DRAGON_SHRINE
 	.2byte  ITEM_CARD_DRAGON_S_MIRROR
 	.2byte  ITEM_CARD_DRAGON_S_RAGE
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DRAGONIC_DIAGRAM
-	.2byte  ITEM_CARD_DRAGONPIT_MAGICIAN
-	.2byte  ITEM_CARD_DRAGOONS_OF_DRACONIA
-	.2byte  ITEM_CARD_DRAGUNITY_ARMA_MYSTLETAINN
 	.2byte  ITEM_CARD_DRAGUNITY_CORSESCA
-	.2byte  ITEM_CARD_DRAGUNITY_DUX
-	.2byte  ITEM_CARD_DRAGUNITY_PHALANX
 	.2byte  ITEM_CARD_DREAM_CLOWN
 	.2byte  ITEM_CARD_DRILLROID
 	.2byte  ITEM_CARD_DROLL_LOCK_BIRD
 	.2byte  ITEM_CARD_DROP_OFF
-	.2byte  ITEM_CARD_DROWNING_MIRROR_FORCE
-	.2byte  ITEM_CARD_DRYTRON_ALPHA_THUBAN
-	.2byte  ITEM_CARD_DRYTRON_DELTA_ALTAIS
-	.2byte  ITEM_CARD_DRYTRON_FAFNIR
-	.2byte  ITEM_CARD_DRYTRON_GAMMA_ELTANIN
-	.2byte  ITEM_CARD_DRYTRON_NOVA
-	.2byte  ITEM_CARD_DRYTRON_ZETA_ALDHIBAH
-	.2byte  ITEM_CARD_DUELIST_ALLIANCE
 	.2byte  ITEM_CARD_DUNAMES_DARK_WITCH
 	.2byte  ITEM_CARD_DUPE_FROG
 	.2byte  ITEM_CARD_DUST_TORNADO
-	.2byte  ITEM_CARD_DYNATHERIUM
-	.2byte  ITEM_CARD_E_EMERGENCY_CALL
-	.2byte  ITEM_CARD_EMERGENCY_
-	.2byte  ITEM_CARD_EXTINGUISH_
 	.2byte  ITEM_CARD_EARTH_EFFIGY
 	.2byte  ITEM_CARD_EARTHBOUND_SPIRIT
-	.2byte  ITEM_CARD_ECLIPSE_WYVERN
-	.2byte  ITEM_CARD_EDEA_THE_HEAVENLY_SQUIRE
-	.2byte  ITEM_CARD_EDGE_IMP_CHAIN
 	.2byte  ITEM_CARD_EFFECT_VEILER
-	.2byte  ITEM_CARD_EHREN_LIGHTSWORN_MONK
 	.2byte  ITEM_CARD_EHTHER_THE_HEAVENLY_MONARCH
 	.2byte  ITEM_CARD_EIDOS_THE_UNDERWORLD_MONARCH
 	.2byte  ITEM_CARD_EIDOS_THE_UNDERWORLD_SQUIRE
@@ -3565,18 +2997,12 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_EL_SHADDOLL_SHEKHINAGA
 	.2byte  ITEM_CARD_EL_SHADDOLL_WENDIGO
 	.2byte  ITEM_CARD_EL_SHADDOLL_WINDA
-	.2byte  ITEM_CARD_ELDER_ENTITY_N_TSS
 	.2byte  ITEM_CARD_ELDER_ENTITY_NORDEN
-	.2byte  ITEM_CARD_ELDER_OF_THE_SIX_SAMURAI
-	.2byte  ITEM_CARD_ELDLICH_THE_GOLDEN_LORD
-	.2byte  ITEM_CARD_ELDLIXIR_OF_SCARLET_SANGUINE
 	.2byte  ITEM_CARD_ELECTRIC_SNAKE
 	.2byte  ITEM_CARD_ELECTRIC_VIRUS
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_BLAZEMAN
-	.2byte  ITEM_CARD_ELEMENTAL_HERO_BUBBLEMAN
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_CLAYMAN
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN
-	.2byte  ITEM_CARD_ELEMENTAL_HERO_NEOS_ALIUS
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_PRISMA
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_STRATOS
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_WILDHEART
@@ -3585,41 +3011,25 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_EMERGENCY_TELEPORT
 	.2byte  ITEM_CARD_EMILIA_DANCE_PRIESTESS_OF_THE_NEKROZ
 	.2byte  ITEM_CARD_EMISSARY_OF_THE_AFTERLIFE
+	.2byte  ITEM_CARD_EMPRESS_JUDGE
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
 	.2byte  ITEM_CARD_ENVOY_OF_CHAOS
 	.2byte  ITEM_CARD_ERADICATOR_EPIDEMIC_VIRUS
 	.2byte  ITEM_CARD_EREBUS_THE_UNDERWORLD_MONARCH
 	.2byte  ITEM_CARD_ESCAPE_FROM_THE_DARK_DIMENSION
-	.2byte  ITEM_CARD_ESCAPE_OF_THE_UNCHAINED
-	.2byte  ITEM_CARD_EVA
 	.2byte  ITEM_CARD_EVENING_TWILIGHT_KNIGHT
 	.2byte  ITEM_CARD_EVENLY_MATCHED
-	.2byte  ITEM_CARD_EVIGISHKI_MIND_AUGUS
-	.2byte  ITEM_CARD_EVILSWARM_CASTOR
 	.2byte  ITEM_CARD_EVILSWARM_EXCITON_KNIGHT
 	.2byte  ITEM_CARD_EVILSWARM_HELIOTROPE
-	.2byte  ITEM_CARD_EVILSWARM_KERYKEION
 	.2byte  ITEM_CARD_EVILSWARM_KETOS
-	.2byte  ITEM_CARD_EVILSWARM_MANDRAGORA
-	.2byte  ITEM_CARD_EVILSWARM_THUNDERBIRD
-	.2byte  ITEM_CARD_EVIL_TWINS_KI_SIKIL_LIL_LA
 	.2byte  ITEM_CARD_EVOLZAR_LAGGIA
 	.2byte  ITEM_CARD_EXA_ENFORCER_OF_THE_NEKROZ
 	.2byte  ITEM_CARD_EXARION_UNIVERSE
-	.2byte  ITEM_CARD_EXCHANGE_OF_THE_SPIRIT
 	.2byte  ITEM_CARD_EXCHANGE
+	.2byte  ITEM_CARD_EXCHANGE_OF_THE_SPIRIT
 	.2byte  ITEM_CARD_EXILED_FORCE
 	.2byte  ITEM_CARD_EXODIA_THE_FORBIDDEN_ONE
-	.2byte  ITEM_CARD_EXOSISTER_ELIS
-	.2byte  ITEM_CARD_EXOSISTER_MARTHA
-	.2byte  ITEM_CARD_EXOSISTER_PAX
-	.2byte  ITEM_CARD_EXOSISTER_RETURNIA
-	.2byte  ITEM_CARD_EXOSISTER_SOPHIA
-	.2byte  ITEM_CARD_EXOSISTER_STELLA
-	.2byte  ITEM_CARD_EXOSISTER_VADIS
-	.2byte  ITEM_CARD_EXPLODER_DRAGON
 	.2byte  ITEM_CARD_EXT_RYZEAL
-	.2byte  ITEM_CARD_FABLED_GRIMRO
 	.2byte  ITEM_CARD_FABLED_LURRIE
 	.2byte  ITEM_CARD_FAIRY_TAIL_SNOW
 	.2byte  ITEM_CARD_FAIRY_WIND
@@ -3632,101 +3042,59 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_FANTASTICAL_DRAGON_PHANTAZMAY
 	.2byte  ITEM_CARD_FARFA_MALEBRANCHE_OF_THE_BURNING_ABYSS
 	.2byte  ITEM_CARD_FATEFUL_ADVENTURE
-	.2byte  ITEM_CARD_FELIS_LIGHTSWORN_ARCHER
-	.2byte  ITEM_CARD_FENCING_FIRE_FERRET
 	.2byte  ITEM_CARD_FIBER_JAR
 	.2byte  ITEM_CARD_FIEND_GRIEFING
 	.2byte  ITEM_CARD_FIEND_SKULL_DRAGON
 	.2byte  ITEM_CARD_FIENDISH_CHAIN
 	.2byte  ITEM_CARD_FIENDSMITH_ENGRAVER
-	.2byte  ITEM_CARD_FIENDSMITH_IN_PARADISE
 	.2byte  ITEM_CARD_FIENDSMITH_S_LACRIMA
 	.2byte  ITEM_CARD_FIENDSMITH_S_REQUIEM
 	.2byte  ITEM_CARD_FIENDSMITH_S_SEQUENCE
 	.2byte  ITEM_CARD_FIENDSMITH_S_TRACT
 	.2byte  ITEM_CARD_FIGHTING_FLAME_SWORDSMAN
 	.2byte  ITEM_CARD_FINAL_FLAME
-	.2byte  ITEM_CARD_FIRE_CRACKER
-	.2byte  ITEM_CARD_FIRE_FORMATION_GYOKKOU
-	.2byte  ITEM_CARD_FIRE_FORMATION_TENKEN
 	.2byte  ITEM_CARD_FIRE_FORMATION_TENKI
-	.2byte  ITEM_CARD_FIRE_FORMATION_TENSEN
-	.2byte  ITEM_CARD_FIRE_FORMATION_TENSU
 	.2byte  ITEM_CARD_FIRE_HAND
-	.2byte  ITEM_CARD_FIRE_KING_AVATAR_ARVATA
-	.2byte  ITEM_CARD_FIRE_KING_AVATAR_BARONG
-	.2byte  ITEM_CARD_FIRE_KING_AVATAR_YAKSHA
-	.2byte  ITEM_CARD_FIRE_KING_COURTIER_ULCANIX
-	.2byte  ITEM_CARD_FIRE_KING_HIGH_AVATAR_GARUNIX
 	.2byte  ITEM_CARD_FIRE_KING_HIGH_AVATAR_KIRIN
-	.2byte  ITEM_CARD_FIRE_KING_ISLAND
-	.2byte  ITEM_CARD_FIRE_KING_SANCTUARY
 	.2byte  ITEM_CARD_FIRE_LAKE_OF_THE_BURNING_ABYSS
 	.2byte  ITEM_CARD_FIREWALL_DRAGON
-	.2byte  ITEM_CARD_FISHBORG_BLASTER
 	.2byte  ITEM_CARD_FISSURE
 	.2byte  ITEM_CARD_FLAME_BUFFERLO
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_FLAME_SWORDSMAN
-	.2byte  ITEM_CARD_FLAMVELL_FIREDOG
 	.2byte  ITEM_CARD_FLAMVELL_GUARD
 	.2byte  ITEM_CARD_FLIP_FLOP_FROG
 	.2byte  ITEM_CARD_FLOODGATE_TRAP_HOLE
-	.2byte  ITEM_CARD_FLOOWANDEREEZE_EGLEN
-	.2byte  ITEM_CARD_FLOOWANDEREEZE_EMPEN
-	.2byte  ITEM_CARD_FLOOWANDEREEZE_ROBINA
-	.2byte  ITEM_CARD_FLOOWANDEREEZE_STRI
-	.2byte  ITEM_CARD_FLOOWANDEREEZE_TOCCAN
-	.2byte  ITEM_CARD_FLOOWANDEREEZE_AND_THE_ADVENT_OF_ADVENTURE
-	.2byte  ITEM_CARD_FLOOWANDEREEZE_AND_THE_DREAMING_TOWN
-	.2byte  ITEM_CARD_FLOOWANDEREEZE_AND_THE_MAGNIFICENT_MAP
-	.2byte  ITEM_CARD_FLOOWANDEREEZE_AND_THE_UNEXPLORED_WINDS
 	.2byte  ITEM_CARD_FLYING_C_
 	.2byte  ITEM_CARD_FLYING_KAMAKIRI_1
-	.2byte  ITEM_CARD_FOG_KING
-	.2byte  ITEM_CARD_FOOLISH_BURIAL_GOODS
 	.2byte  ITEM_CARD_FOOLISH_BURIAL
 	.2byte  ITEM_CARD_FORBIDDEN_APOCRYPHA
 	.2byte  ITEM_CARD_FORBIDDEN_CHALICE
 	.2byte  ITEM_CARD_FORBIDDEN_DROPLET
 	.2byte  ITEM_CARD_FORBIDDEN_LANCE
 	.2byte  ITEM_CARD_FORMULA_SYNCHRON
-	.2byte  ITEM_CARD_FOSSIL_DIG
 	.2byte  ITEM_CARD_FOSSIL_DYNA_PACHYCEPHALO
-	.2byte  ITEM_CARD_FRIGHTFUR_PATCHWORK
 	.2byte  ITEM_CARD_FRONTIER_WISEMAN
 	.2byte  ITEM_CARD_FULL_HOUSE
-	.2byte  ITEM_CARD_FULLMETALFOES_FUSION
 	.2byte  ITEM_CARD_FUSILIER_DRAGON_THE_DUAL_MODE_BEAST
-	.2byte  ITEM_CARD_FUSION_DEPLOYMENT
 	.2byte  ITEM_CARD_FUSION_DESTINY
 	.2byte  ITEM_CARD_FUSION_DEVOURER
 	.2byte  ITEM_CARD_FUSION_SUBSTITUTE
-	.2byte  ITEM_CARD_FUTURE_FUSION
-	.2byte  ITEM_CARD_GADARLA_THE_MYSTERY_DUST_KAIJU
 	.2byte  ITEM_CARD_GAGAGA_COWBOY
 	.2byte  ITEM_CARD_GAGAGIGO
+	.2byte  ITEM_CARD_GAIA_KNIGHT_THE_FORCE_OF_EARTH
 	.2byte  ITEM_CARD_GAIA_POWER
-	.2byte  ITEM_CARD_GAIA_THE_FIERCE_KNIGHT
 	.2byte  ITEM_CARD_GAIA_THE_DRAGON_CHAMPION
+	.2byte  ITEM_CARD_GAIA_THE_FIERCE_KNIGHT
 	.2byte  ITEM_CARD_GALATEA_THE_ORCUST_AUTOMATON
 	.2byte  ITEM_CARD_GALAXY_CYCLONE
-	.2byte  ITEM_CARD_GALAXY_SOLDIER
-	.2byte  ITEM_CARD_GALE_DOGRA
 	.2byte  ITEM_CARD_GAMECIEL_THE_SEA_TURTLE_KAIJU
 	.2byte  ITEM_CARD_GAROTH_LIGHTSWORN_WARRIOR
 	.2byte  ITEM_CARD_GARURA_WINGS_OF_RESONANT_LIFE
-	.2byte  ITEM_CARD_GATEWAY_OF_THE_SIX
 	.2byte  ITEM_CARD_GATLING_DRAGON
 	.2byte  ITEM_CARD_GEAR_GOLEM_THE_MOVING_FORTRESS
 	.2byte  ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT
 	.2byte  ITEM_CARD_GEARFRIED_THE_RED_EYES_IRON_KNIGHT
-	.2byte  ITEM_CARD_GEARGIACCELERATOR
-	.2byte  ITEM_CARD_GEARGIAGEAR
-	.2byte  ITEM_CARD_GEARGIANO_MK_II
-	.2byte  ITEM_CARD_GEARGIANO
-	.2byte  ITEM_CARD_GEARGIARMOR
-	.2byte  ITEM_CARD_GEARGIARSENAL
-	.2byte  ITEM_CARD_GEARGIAUGER
 	.2byte  ITEM_CARD_GEM_ARMADILLO
 	.2byte  ITEM_CARD_GEM_ELEPHANT
 	.2byte  ITEM_CARD_GEM_KNIGHT_ALEXANDRITE
@@ -3744,11 +3112,7 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_GEM_TURTLE
 	.2byte  ITEM_CARD_GEMINI_ELF
 	.2byte  ITEM_CARD_GEMINI_IMPS
-	.2byte  ITEM_CARD_GEMINI_SPARK
 	.2byte  ITEM_CARD_GENE_WARPED_WARWOLF
-	.2byte  ITEM_CARD_GENEX_ALLY_BIRDMAN
-	.2byte  ITEM_CARD_GENEX_CONTROLLER
-	.2byte  ITEM_CARD_GENEX_UNDINE
 	.2byte  ITEM_CARD_GENTA_GATEMAN_OF_DARK_WORLD
 	.2byte  ITEM_CARD_GHOST_BELLE_HAUNTED_MANSION
 	.2byte  ITEM_CARD_GHOST_MOURNER_MOONLIT_CHILL
@@ -3780,78 +3144,41 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_GISHKI_SHADOW
 	.2byte  ITEM_CARD_GISHKI_VANITY
 	.2byte  ITEM_CARD_GISHKI_VISION
-	.2byte  ITEM_CARD_GIZMEK_OROCHI_THE_SERPENTRON_SKY_SLASHER
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_BESTIARI
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_DARIUS
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_EQUESTE
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_GAIODIAZ
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_GYZARUS
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_HERAKLINOS
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_HOPLOMUS
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_LAQUARI
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_MURMILLO
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_SAMNITE
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_SECUTOR
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_WAR_CHARIOT
-	.2byte  ITEM_CARD_GLADIATOR_PROVING_GROUND
-	.2byte  ITEM_CARD_GLOW_UP_BULB
-	.2byte  ITEM_CARD_GNOMATERIAL
 	.2byte  ITEM_CARD_GOBLIN_ATTACK_FORCE
-	.2byte  ITEM_CARD_GOBLIN_BIKER_GRAND_BREAKOUT
 	.2byte  ITEM_CARD_GOBLIN_ELITE_ATTACK_FORCE
 	.2byte  ITEM_CARD_GOBLIN_POTHOLE_SQUAD
 	.2byte  ITEM_CARD_GOBLIN_ZOMBIE
-	.2byte  ITEM_CARD_GOBLINDBERGH
 	.2byte  ITEM_CARD_GOKIPON
-	.2byte  ITEM_CARD_GOLD_GADGET
 	.2byte  ITEM_CARD_GOLD_SARCOPHAGUS
 	.2byte  ITEM_CARD_GOLDD_WU_LORD_OF_DARK_WORLD
 	.2byte  ITEM_CARD_GOLEM_SENTRY
-	.2byte  ITEM_CARD_GOOD_GOBLIN_HOUSEKEEPING
 	.2byte  ITEM_CARD_GORA_TURTLE
 	.2byte  ITEM_CARD_GORZ_THE_EMISSARY_OF_DARKNESS
 	.2byte  ITEM_CARD_GOTTOMS_EMERGENCY_CALL
-	.2byte  ITEM_CARD_GOUKI_BEARHUG
-	.2byte  ITEM_CARD_GOUKI_HEADBATT
-	.2byte  ITEM_CARD_GOUKI_OCTOSTRETCH
-	.2byte  ITEM_CARD_GOUKI_RE_MATCH
-	.2byte  ITEM_CARD_GOUKI_RISCORPIO
-	.2byte  ITEM_CARD_GOUKI_SUPREX
-	.2byte  ITEM_CARD_GOUKI_TWISTCOBRA
 	.2byte  ITEM_CARD_GOYO_GUARDIAN
-	.2byte  ITEM_CARD_GOZEN_MATCH
 	.2byte  ITEM_CARD_GRACEFUL_CHARITY
 	.2byte  ITEM_CARD_GRAFF_MALEBRANCHE_OF_THE_BURNING_ABYSS
-	.2byte  ITEM_CARD_GRAND_HORN_OF_HEAVEN
-	.2byte  ITEM_CARD_GRANDMASTER_OF_THE_SIX_SAMURAI
-	.2byte  ITEM_CARD_GRANDSOIL_THE_ELEMENTAL_LORD
 	.2byte  ITEM_CARD_GRANGUIGNOL_THE_DUSK_DRAGON
 	.2byte  ITEM_CARD_GRANMARG_THE_MEGA_MONARCH
 	.2byte  ITEM_CARD_GRANMARG_THE_ROCK_MONARCH
 	.2byte  ITEM_CARD_GRAPHA_DRAGON_LORD_OF_DARK_WORLD
 	.2byte  ITEM_CARD_GRAPHA_DRAGON_OVERLORD_OF_DARK_WORLD
-	.2byte  ITEM_CARD_GRAVE_OF_THE_SUPER_ANCIENT_ORGANISM
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_ASSAILANT
-	.2byte  ITEM_CARD_GRAVEKEEPER_S_COMMANDANT
-	.2byte  ITEM_CARD_GRAVEKEEPER_S_DESCENDANT
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_GUARD
-	.2byte  ITEM_CARD_GRAVEKEEPER_S_INSCRIPTION
-	.2byte  ITEM_CARD_GRAVEKEEPER_S_RECRUITER
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_SPEAR_SOLDIER
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_SPY
-	.2byte  ITEM_CARD_GRAVEKEEPER_S_STELE
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_WATCHER
-	.2byte  ITEM_CARD_GRAVEROBBER
 	.2byte  ITEM_CARD_GRAVITY_BIND
-	.2byte  ITEM_CARD_GREAT_SHOGUN_SHIEN
-	.2byte  ITEM_CARD_GREAT_SORCERER_OF_THE_NEKROZ
 	.2byte  ITEM_CARD_GREAT_WHITE
-	.2byte  ITEM_CARD_GREEN_BABOON_DEFENDER_OF_THE_FOREST
-	.2byte  ITEM_CARD_GREEN_GADGET
 	.2byte  ITEM_CARD_GREEN_NINJA
 	.2byte  ITEM_CARD_GREN_TACTICIAN_OF_DARK_WORLD
-	.2byte  ITEM_CARD_GRISAILLE_PRISON
-	.2byte  ITEM_CARD_GRUESOME_GRAVE_SQUIRMER
 	.2byte  ITEM_CARD_GUARDIAN_SPHINX
 	.2byte  ITEM_CARD_GUARDRAGON_GARMIDES
 	.2byte  ITEM_CARD_GUIDING_ARIADNE
@@ -3860,127 +3187,71 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_GYAKUTENNO_MEGAMI
 	.2byte  ITEM_CARD_HALLOWED_LIFE_BARRIER
 	.2byte  ITEM_CARD_HAMMER_SHOT
-	.2byte  ITEM_CARD_HAND_DESTRUCTION
 	.2byte  ITEM_CARD_HAND_OF_NEPHTHYS
 	.2byte  ITEM_CARD_HANE_HANE
 	.2byte  ITEM_CARD_HANEWATA
-	.2byte  ITEM_CARD_HARMONIZING_MAGICIAN
 	.2byte  ITEM_CARD_HARPIE_S_FEATHER_DUSTER
-	.2byte  ITEM_CARD_HARPIE_S_FEATHER_STORM
 	.2byte  ITEM_CARD_HEART_OF_THE_BLUE_EYES
-	.2byte  ITEM_CARD_HEAT_WAVE
-	.2byte  ITEM_CARD_HEAVENLY_DRAGON_CIRCLE
-	.2byte  ITEM_CARD_HEAVY_STORM_DUSTER
 	.2byte  ITEM_CARD_HEAVY_STORM
-	.2byte  ITEM_CARD_HERALD_OF_GREEN_LIGHT
+	.2byte  ITEM_CARD_HEAVY_STORM_DUSTER
 	.2byte  ITEM_CARD_HERALD_OF_ORANGE_LIGHT
 	.2byte  ITEM_CARD_HERALD_OF_THE_ARC_LIGHT
-	.2byte  ITEM_CARD_HERO_BLAST
-	.2byte  ITEM_CARD_HERO_S_RULE_2
-	.2byte  ITEM_CARD_HIDDEN_ARMORY
 	.2byte  ITEM_CARD_HIERACOSPHINX
-	.2byte  ITEM_CARD_HIERATIC_DRAGON_OF_ESET
-	.2byte  ITEM_CARD_HIERATIC_DRAGON_OF_SU
-	.2byte  ITEM_CARD_HIERATIC_DRAGON_OF_TEFNUIT
-	.2byte  ITEM_CARD_HIERATIC_SEAL_FROM_THE_ASHES
-	.2byte  ITEM_CARD_HIERATIC_SEAL_OF_CONVOCATION
-	.2byte  ITEM_CARD_HIGH_PRIESTESS_OF_PROPHECY
 	.2byte  ITEM_CARD_HIITA_THE_FIRE_CHARMER_ABLAZE
-	.2byte  ITEM_CARD_HOLDING_LEGS
 	.2byte  ITEM_CARD_HONEST
 	.2byte  ITEM_CARD_HORN_OF_HEAVEN
 	.2byte  ITEM_CARD_HORN_OF_THE_PHANTOM_BEAST
 	.2byte  ITEM_CARD_HOWLING_INSECT
-	.2byte  ITEM_CARD_HUAQUERO_OF_THE_GOLDEN_LAND
 	.2byte  ITEM_CARD_HUMANOID_SLIME
-	.2byte  ITEM_CARD_HUNTER_OWL
 	.2byte  ITEM_CARD_HYDROGEDDON
 	.2byte  ITEM_CARD_HYPER_HAMMERHEAD
 	.2byte  ITEM_CARD_I_P_MASQUERENA
 	.2byte  ITEM_CARD_ICARUS_ATTACK
-	.2byte  ITEM_CARD_ICE_DRAGON_S_PRISON
 	.2byte  ITEM_CARD_ICE_HAND
 	.2byte  ITEM_CARD_ICE_KNIGHT
 	.2byte  ITEM_CARD_ICE_RYZEAL
-	.2byte  ITEM_CARD_IGNIS_HEAT_THE_TRUE_DRACOWARRIOR
-	.2byte  ITEM_CARD_IGNISTER_A_I_LAND
 	.2byte  ITEM_CARD_IGNISTER_PROMINENCE_THE_BLASTING_DRACOSLAYER
-	.2byte  ITEM_CARD_IL_BLUD
 	.2byte  ITEM_CARD_ILLUSION_OF_CHAOS
 	.2byte  ITEM_CARD_ILLUSORY_SNATCHER
 	.2byte  ITEM_CARD_IMPERIAL_IRON_WALL
 	.2byte  ITEM_CARD_IMPERIAL_ORDER
-	.2byte  ITEM_CARD_IMSETY_GLORY_OF_HORUS
 	.2byte  ITEM_CARD_INABA_WHITE_RABBIT
 	.2byte  ITEM_CARD_INCREDIBLE_ECCLESIA_THE_VIRTUOUS
 	.2byte  ITEM_CARD_INDOMITABLE_FIGHTER_LEI_LEI
 	.2byte  ITEM_CARD_INFERNALQUEEN_SALMON
 	.2byte  ITEM_CARD_INFERNITY_ARCHFIEND
-	.2byte  ITEM_CARD_INFERNITY_AVENGER
 	.2byte  ITEM_CARD_INFERNITY_BARRIER
 	.2byte  ITEM_CARD_INFERNITY_BEETLE
-	.2byte  ITEM_CARD_INFERNITY_BREAK
 	.2byte  ITEM_CARD_INFERNITY_INFERNO
 	.2byte  ITEM_CARD_INFERNITY_LAUNCHER
-	.2byte  ITEM_CARD_INFERNITY_MIRAGE
 	.2byte  ITEM_CARD_INFERNITY_NECROMANCER
-	.2byte  ITEM_CARD_INFERNOID_ATTONDEL
 	.2byte  ITEM_CARD_INFERNOID_DECATRON
-	.2byte  ITEM_CARD_INFERNOID_DEVYATY
 	.2byte  ITEM_CARD_INFERNOID_HARMADIK
-	.2byte  ITEM_CARD_INFERNOID_ONUNCU
 	.2byte  ITEM_CARD_INFERNOID_PATRULEA
-	.2byte  ITEM_CARD_INFERNOID_SEITSEMAS
-	.2byte  ITEM_CARD_INFERNOID_SJETTE
-	.2byte  ITEM_CARD_INFESTATION_PANDEMIC
 	.2byte  ITEM_CARD_INFINITE_IMPERMANENCE
 	.2byte  ITEM_CARD_INJECTION_FAIRY_LILY
 	.2byte  ITEM_CARD_INPACHI
 	.2byte  ITEM_CARD_INSECT_KNIGHT
-	.2byte  ITEM_CARD_INSPECTOR_BOARDER
 	.2byte  ITEM_CARD_INSTANT_FUSION
 	.2byte  ITEM_CARD_INTERRUPTED_KAIJU_SLUMBER
-	.2byte  ITEM_CARD_INTO_THE_VOID
-	.2byte  ITEM_CARD_INVOCATION
-	.2byte  ITEM_CARD_INZEKTOR_CENTIPEDE
-	.2byte  ITEM_CARD_INZEKTOR_DRAGONFLY
-	.2byte  ITEM_CARD_INZEKTOR_HORNET
-	.2byte  ITEM_CARD_INZEKTOR_LADYBUG
-	.2byte  ITEM_CARD_INZEKTOR_SWORD_ZEKTKALIBER
-	.2byte  ITEM_CARD_IPIRIA
 	.2byte  ITEM_CARD_ISLAND_TURTLE
 	.2byte  ITEM_CARD_ISOLDE_TWO_TALES_OF_THE_NOBLE_KNIGHTS
-	.2byte  ITEM_CARD_JAIN_LIGHTSWORN_PALADIN
 	.2byte  ITEM_CARD_JAR_OF_GREED
-	.2byte  ITEM_CARD_JET_SYNCHRON
-	.2byte  ITEM_CARD_JIGABYTE
 	.2byte  ITEM_CARD_JINZO
 	.2byte  ITEM_CARD_JIOH_THE_GRAVITY_NINJA
 	.2byte  ITEM_CARD_JIRAI_GUMO
-	.2byte  ITEM_CARD_JIZUKIRU_THE_STAR_DESTROYING_KAIJU
 	.2byte  ITEM_CARD_JONGLEUR_GHOUL_ILLUSIONIST
 	.2byte  ITEM_CARD_JOWGEN_THE_SPIRITUALIST
 	.2byte  ITEM_CARD_JUDGE_MAN
 	.2byte  ITEM_CARD_JUDGMENT_DRAGON
-	.2byte  ITEM_CARD_JUNK_FORWARD
-	.2byte  ITEM_CARD_JUNK_SYNCHRON
 	.2byte  ITEM_CARD_JURRAC_GUAIBA
 	.2byte  ITEM_CARD_JUST_DESSERTS
-	.2byte  ITEM_CARD_JUSTICE_OF_PROPHECY
 	.2byte  ITEM_CARD_KABAZAULS
 	.2byte  ITEM_CARD_KAGEMUSHA_OF_THE_SIX_SAMURAI
 	.2byte  ITEM_CARD_KAGERO_THE_CANNON_NINJA
-	.2byte  ITEM_CARD_KAGETOKAGE
 	.2byte  ITEM_CARD_KAIBAMAN
-	.2byte  ITEM_CARD_KAISER_COLOSSEUM
 	.2byte  ITEM_CARD_KAISER_SEA_HORSE
-	.2byte  ITEM_CARD_KARAKURI_KOMACHI_MDL_224_NINISHI_
-	.2byte  ITEM_CARD_KARAKURI_MERCHANT_MDL_177_INASHICHI_
-	.2byte  ITEM_CARD_KARAKURI_NINJA_MDL_919_KUICK_
-	.2byte  ITEM_CARD_KARAKURI_SOLDIER_MDL_236_NISAMU_
 	.2byte  ITEM_CARD_KARMA_CUT
-	.2byte  ITEM_CARD_KASHTIRA_ARISE_HEART
-	.2byte  ITEM_CARD_KASHTIRA_BIG_BANG
 	.2byte  ITEM_CARD_KASHTIRA_BIRTH
 	.2byte  ITEM_CARD_KASHTIRA_FENRIR
 	.2byte  ITEM_CARD_KASHTIRA_RISEHEART
@@ -3991,65 +3262,40 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_KELBEK_THE_ANCIENT_VANGUARD
 	.2byte  ITEM_CARD_KELDO_THE_SACRED_PROTECTOR
 	.2byte  ITEM_CARD_KING_DRAGUN
-	.2byte  ITEM_CARD_KING_TIGER_WANGHU
 	.2byte  ITEM_CARD_KING_OF_THE_FERAL_IMPS
 	.2byte  ITEM_CARD_KING_OF_THE_SWAMP
-	.2byte  ITEM_CARD_KING_S_SARCOPHAGUS
+	.2byte  ITEM_CARD_KING_TIGER_WANGHU
 	.2byte  ITEM_CARD_KNIGHTMARE_CERBERUS
-	.2byte  ITEM_CARD_KNIGHTMARE_CORRUPTOR_IBLEE
 	.2byte  ITEM_CARD_KNIGHTMARE_GOBLIN
 	.2byte  ITEM_CARD_KNIGHTMARE_PHOENIX
 	.2byte  ITEM_CARD_KNIGHTMARE_UNICORN
-	.2byte  ITEM_CARD_KOA_KI_MEIRU_DRAGO
-	.2byte  ITEM_CARD_KOZMO_DOG_FIGHTER
 	.2byte  ITEM_CARD_KOZMO_DARK_DESTROYER
 	.2byte  ITEM_CARD_KOZMO_FARMGIRL
-	.2byte  ITEM_CARD_KOZMO_FORERUNNER
-	.2byte  ITEM_CARD_KOZMO_GOODWITCH
 	.2byte  ITEM_CARD_KOZMO_SLIPRIDER
-	.2byte  ITEM_CARD_KOZMO_STRAWMAN
 	.2byte  ITEM_CARD_KOZMO_TINCAN
 	.2byte  ITEM_CARD_KOZMOJO
-	.2byte  ITEM_CARD_KOZMOLL_DARK_LADY
 	.2byte  ITEM_CARD_KOZMOLL_WICKEDWITCH
 	.2byte  ITEM_CARD_KOZMOTOWN
 	.2byte  ITEM_CARD_KREBONS
 	.2byte  ITEM_CARD_KUMONGOUS_THE_STICKY_STRING_KAIJU
-	.2byte  ITEM_CARD_KUNAI_WITH_CHAIN
-	.2byte  ITEM_CARD_KURAZ_THE_LIGHT_MONARCH
-	.2byte  ITEM_CARD_KURIBANDIT
 	.2byte  ITEM_CARD_KURIBOH
 	.2byte  ITEM_CARD_KURIKARA_DIVINCARNATE
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
 	.2byte  ITEM_CARD_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP
-	.2byte  ITEM_CARD_LABRADORITE_DRAGON
 	.2byte  ITEM_CARD_LABRYNTH_ARCHFIEND
-	.2byte  ITEM_CARD_LABRYNTH_CHANDRAGLIER
-	.2byte  ITEM_CARD_LABRYNTH_COOCLOCK
-	.2byte  ITEM_CARD_LABRYNTH_STOVIE_TORBIE
 	.2byte  ITEM_CARD_LABYRINTH_TANK
 	.2byte  ITEM_CARD_LACRIMA_THE_CRIMSON_TEARS
-	.2byte  ITEM_CARD_LADY_DEBUG
-	.2byte  ITEM_CARD_LADY_LABRYNTH_OF_THE_SILVER_CASTLE
 	.2byte  ITEM_CARD_LADY_NINJA_YAE
 	.2byte  ITEM_CARD_LANCER_ARCHFIEND
-	.2byte  ITEM_CARD_LAST_DAY_OF_WITCH
 	.2byte  ITEM_CARD_LAST_WILL
-	.2byte  ITEM_CARD_LAVA_GOLEM
-	.2byte  ITEM_CARD_LAZION_THE_TIMELORD
 	.2byte  ITEM_CARD_LEECHING_THE_LIGHT
-	.2byte  ITEM_CARD_LEFT_ARM_OFFERING
 	.2byte  ITEM_CARD_LEFT_ARM_OF_THE_FORBIDDEN_ONE
 	.2byte  ITEM_CARD_LEFT_LEG_OF_THE_FORBIDDEN_ONE
 	.2byte  ITEM_CARD_LEGACY_OF_YATA_GARASU
-	.2byte  ITEM_CARD_LEGENDARY_FIRE_KING_PONIX
 	.2byte  ITEM_CARD_LEGENDARY_JUJITSU_MASTER
-	.2byte  ITEM_CARD_LEGENDARY_SIX_SAMURAI_ENISHI
-	.2byte  ITEM_CARD_LEGENDARY_SIX_SAMURAI_KAGEKI
 	.2byte  ITEM_CARD_LEGENDARY_SIX_SAMURAI_KIZAN
 	.2byte  ITEM_CARD_LEOTRON
 	.2byte  ITEM_CARD_LESSER_FIEND
-	.2byte  ITEM_CARD_LEVEL_EATER
 	.2byte  ITEM_CARD_LEVEL_LIMIT_AREA_B
 	.2byte  ITEM_CARD_LEVIA_DRAGON_DAEDALUS
 	.2byte  ITEM_CARD_LEVIAIR_THE_SEA_DRAGON
@@ -4061,44 +3307,25 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_LIGHTNING_VORTEX
 	.2byte  ITEM_CARD_LIGHTNING_DRAGON_RULER_OF_DRAFTS
 	.2byte  ITEM_CARD_LIGHTPULSAR_DRAGON
-	.2byte  ITEM_CARD_LIMIT_REVERSE
 	.2byte  ITEM_CARD_LIMITER_REMOVAL
 	.2byte  ITEM_CARD_LINK_SPIDER
 	.2byte  ITEM_CARD_LINKURIBOH
-	.2byte  ITEM_CARD_LIVE_TWIN_KI_SIKIL
-	.2byte  ITEM_CARD_LIVE_TWIN_LIL_LA
-	.2byte  ITEM_CARD_LO_THE_PRAYERS_OF_THE_VOICELESS_VOICE
 	.2byte  ITEM_CARD_LONEFIRE_BLOSSOM
 	.2byte  ITEM_CARD_LORD_OF_D_
-	.2byte  ITEM_CARD_LOSE_1_TURN
-	.2byte  ITEM_CARD_LOST_WIND
 	.2byte  ITEM_CARD_LUBELLION_THE_SEARING_DRAGON
 	.2byte  ITEM_CARD_LUCENT_NETHERLORD_OF_DARK_WORLD
 	.2byte  ITEM_CARD_LUCIUS_THE_SHADOW_VASSAL
 	.2byte  ITEM_CARD_LULLABY_OF_OBEDIENCE
 	.2byte  ITEM_CARD_LUMINA_LIGHTSWORN_SUMMONER
-	.2byte  ITEM_CARD_LUNA_LIGHT_PERFUME
 	.2byte  ITEM_CARD_LUNALIGHT_BLACK_SHEEP
-	.2byte  ITEM_CARD_LUNALIGHT_KALEIDO_CHICK
-	.2byte  ITEM_CARD_LUNALIGHT_TIGER
-	.2byte  ITEM_CARD_LUNALIGHT_YELLOW_MARTEN
 	.2byte  ITEM_CARD_LUSTER_DRAGON
 	.2byte  ITEM_CARD_LUSTER_PENDULUM_THE_DRACOSLAYER
 	.2byte  ITEM_CARD_LYLA_LIGHTSWORN_SORCERESS
 	.2byte  ITEM_CARD_M_X_SABER_INVOKER
-	.2byte  ITEM_CARD_MACHINA_CANNON
-	.2byte  ITEM_CARD_MACHINA_FORTRESS
-	.2byte  ITEM_CARD_MACHINA_GEARFRAME
 	.2byte  ITEM_CARD_MACHINE_DUPLICATION
 	.2byte  ITEM_CARD_MACRO_COSMOS
 	.2byte  ITEM_CARD_MAD_ARCHFIEND
 	.2byte  ITEM_CARD_MAD_DOG_OF_DARKNESS
-	.2byte  ITEM_CARD_MADOLCHE_ANJELLY
-	.2byte  ITEM_CARD_MADOLCHE_CHATEAU
-	.2byte  ITEM_CARD_MADOLCHE_HOOTCAKE
-	.2byte  ITEM_CARD_MADOLCHE_MAGILEINE
-	.2byte  ITEM_CARD_MADOLCHE_MESSENGELATO
-	.2byte  ITEM_CARD_MADOLCHE_MEWFEUILLE
 	.2byte  ITEM_CARD_MAESTROKE_THE_SYMPHONY_DJINN
 	.2byte  ITEM_CARD_MAGE_POWER
 	.2byte  ITEM_CARD_MAGIC_CYLINDER
@@ -4107,11 +3334,8 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_MAGICAL_ABDUCTOR
 	.2byte  ITEM_CARD_MAGICAL_ANDROID
 	.2byte  ITEM_CARD_MAGICAL_DIMENSION
-	.2byte  ITEM_CARD_MAGICAL_MELTDOWN
 	.2byte  ITEM_CARD_MAGICAL_MERCHANT
 	.2byte  ITEM_CARD_MAGICAL_SCIENTIST
-	.2byte  ITEM_CARD_MAGICAL_SPRING
-	.2byte  ITEM_CARD_MAGICAL_STONE_EXCAVATION
 	.2byte  ITEM_CARD_MAGICIAN_OF_DARK_ILLUSION
 	.2byte  ITEM_CARD_MAGICIAN_OF_FAITH
 	.2byte  ITEM_CARD_MAGICIAN_S_CIRCLE
@@ -4120,8 +3344,8 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_MAGICIAN_S_VALKYRIA
 	.2byte  ITEM_CARD_MAGICIANS_SOULS
 	.2byte  ITEM_CARD_MAGIKURIBOH
-	.2byte  ITEM_CARD_MAIDEN_OF_WHITE
 	.2byte  ITEM_CARD_MAIDEN_OF_THE_AQUA
+	.2byte  ITEM_CARD_MAIDEN_OF_WHITE
 	.2byte  ITEM_CARD_MAIDEN_WITH_EYES_OF_BLUE
 	.2byte  ITEM_CARD_MAJESPECTER_RACCOON_BUNBUKU
 	.2byte  ITEM_CARD_MAJESPECTER_UNICORN_KIRIN
@@ -4131,78 +3355,54 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_MALEFIC_BLUE_EYES_WHITE_DRAGON
 	.2byte  ITEM_CARD_MALEFIC_CYBER_END_DRAGON
 	.2byte  ITEM_CARD_MALEFIC_RED_EYES_BLACK_DRAGON
-	.2byte  ITEM_CARD_MALEFIC_STARDUST_DRAGON
 	.2byte  ITEM_CARD_MALEVOLENT_CATASTROPHE
-	.2byte  ITEM_CARD_MALISS_C_GWC_06
-	.2byte  ITEM_CARD_MALISS_C_MTP_07
-	.2byte  ITEM_CARD_MALISS_C_TB_11
-	.2byte  ITEM_CARD_MALISS_P_CHESSY_CAT
+	.2byte  ITEM_CARD_MALISS_IN_UNDERGROUND
 	.2byte  ITEM_CARD_MALISS_P_DORMOUSE
 	.2byte  ITEM_CARD_MALISS_P_WHITE_RABBIT
-	.2byte  ITEM_CARD_MALISS_IN_UNDERGROUND
 	.2byte  ITEM_CARD_MAN_EATER_BUG
 	.2byte  ITEM_CARD_MANJU_OF_THE_TEN_THOUSAND_HANDS
-	.2byte  ITEM_CARD_MANNADIUM_MEEK
-	.2byte  ITEM_CARD_MANNADIUM_RIUMHEART
 	.2byte  ITEM_CARD_MANTICORE_OF_DARKNESS
 	.2byte  ITEM_CARD_MARAUDING_CAPTAIN
-	.2byte  ITEM_CARD_MARSHMALLON
-	.2byte  ITEM_CARD_MASK_CHANGE_II
 	.2byte  ITEM_CARD_MASK_OF_DARKNESS
 	.2byte  ITEM_CARD_MASK_OF_RESTRICT
 	.2byte  ITEM_CARD_MASKED_DRAGON
 	.2byte  ITEM_CARD_MASKED_NINJA_EBISU
 	.2byte  ITEM_CARD_MASKED_SORCERER
-	.2byte  ITEM_CARD_MASS_DRIVER
 	.2byte  ITEM_CARD_MASTER_HYPERION
-	.2byte  ITEM_CARD_MASTER_PEACE_THE_TRUE_DRACOSLAYING_KING
-	.2byte  ITEM_CARD_MASTER_PENDULUM_THE_DRACOSLAYER
 	.2byte  ITEM_CARD_MASTER_OF_CHAOS
 	.2byte  ITEM_CARD_MASTER_OF_OZ
+	.2byte  ITEM_CARD_MASTER_PEACE_THE_TRUE_DRACOSLAYING_KING
+	.2byte  ITEM_CARD_MASTER_PENDULUM_THE_DRACOSLAYER
 	.2byte  ITEM_CARD_MASTER_WITH_EYES_OF_BLUE
 	.2byte  ITEM_CARD_MATAZA_THE_ZAPPER
 	.2byte  ITEM_CARD_MATHEMATICIAN
 	.2byte  ITEM_CARD_MATRIARCH_OF_NEPHTHYS
 	.2byte  ITEM_CARD_MAXX_C_
 	.2byte  ITEM_CARD_MECHA_PHANTOM_BEAST_DRACOSSACK
-	.2byte  ITEM_CARD_MECHA_DOG_MARRON
 	.2byte  ITEM_CARD_MECHANICALCHASER
 	.2byte  ITEM_CARD_MEGALOSMASHER_X
 	.2byte  ITEM_CARD_MEGAMORPH
-	.2byte  ITEM_CARD_MEI_KOU_MASTER_OF_BARRIERS
 	.2byte  ITEM_CARD_MEIZEN_THE_BATTLE_NINJA
 	.2byte  ITEM_CARD_MEKK_KNIGHT_AVRAM
-	.2byte  ITEM_CARD_MEMENTOTLAN_ANGWITCH
-	.2byte  ITEM_CARD_MEMENTOTLAN_BONE_PARTY
-	.2byte  ITEM_CARD_MEMENTOTLAN_DARK_BLADE
-	.2byte  ITEM_CARD_MEMENTOTLAN_FUSION
-	.2byte  ITEM_CARD_MEMENTOTLAN_TATSUNOOTOSHIGO
 	.2byte  ITEM_CARD_MEREOLOGIC_AGGREGATOR
 	.2byte  ITEM_CARD_MERMAID_KNIGHT
 	.2byte  ITEM_CARD_MERMAIL_ABYSSGAIOS
 	.2byte  ITEM_CARD_MERMAIL_ABYSSGUNDE
-	.2byte  ITEM_CARD_MERMAIL_ABYSSLEED
 	.2byte  ITEM_CARD_MERMAIL_ABYSSLINDE
 	.2byte  ITEM_CARD_MERMAIL_ABYSSMEGALO
 	.2byte  ITEM_CARD_MERMAIL_ABYSSPIKE
 	.2byte  ITEM_CARD_MERMAIL_ABYSSTEUS
 	.2byte  ITEM_CARD_MERMAIL_ABYSSTRITE
 	.2byte  ITEM_CARD_MERMAIL_ABYSSTURGE
-	.2byte  ITEM_CARD_MERMAIL_SHADOW_SQUAD
 	.2byte  ITEM_CARD_MESSENGER_OF_PEACE
 	.2byte  ITEM_CARD_METAL_REFLECT_SLIME
 	.2byte  ITEM_CARD_METALFLAME_SWORDSMAN
-	.2byte  ITEM_CARD_METALFOES_COMBINATION
-	.2byte  ITEM_CARD_METALFOES_COUNTER
-	.2byte  ITEM_CARD_METALFOES_FUSION
 	.2byte  ITEM_CARD_METALFOES_GOLDRIVER
 	.2byte  ITEM_CARD_METALFOES_SILVERD
 	.2byte  ITEM_CARD_METALFOES_STEELEN
 	.2byte  ITEM_CARD_METALFOES_VOLFLAME
 	.2byte  ITEM_CARD_METALTRONUS
 	.2byte  ITEM_CARD_METAMORPHOSIS
-	.2byte  ITEM_CARD_METAVERSE
-	.2byte  ITEM_CARD_METEONIS_DRYTRON
 	.2byte  ITEM_CARD_METEOR_BLACK_COMET_DRAGON
 	.2byte  ITEM_CARD_METEOR_DRAGON
 	.2byte  ITEM_CARD_MEZUKI
@@ -4210,28 +3410,19 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_MINAR
 	.2byte  ITEM_CARD_MIND_CONTROL
 	.2byte  ITEM_CARD_MIND_CRUSH
-	.2byte  ITEM_CARD_MIND_DRAIN
 	.2byte  ITEM_CARD_MIND_PROTECTOR
 	.2byte  ITEM_CARD_MINE_GOLEM
-	.2byte  ITEM_CARD_MIRACLE_DIG
-	.2byte  ITEM_CARD_MIRACLE_FUSION
 	.2byte  ITEM_CARD_MIRACLE_RESTORING
 	.2byte  ITEM_CARD_MIRAGE_DRAGON
 	.2byte  ITEM_CARD_MIRAGE_KNIGHT
-	.2byte  ITEM_CARD_MIRAGE_SWORDSMAN
 	.2byte  ITEM_CARD_MIRAGE_OF_NIGHTMARE
+	.2byte  ITEM_CARD_MIRAGE_SWORDSMAN
 	.2byte  ITEM_CARD_MIRROR_FORCE
 	.2byte  ITEM_CARD_MIRROR_OF_OATHS
-	.2byte  ITEM_CARD_MISCELLANEOUSAURUS
 	.2byte  ITEM_CARD_MISSUS_RADIANT
-	.2byte  ITEM_CARD_MIST_VALLEY_APEX_AVIAN
 	.2byte  ITEM_CARD_MIST_WURM
 	.2byte  ITEM_CARD_MISTAKE
-	.2byte  ITEM_CARD_MISTAKEN_ARREST
 	.2byte  ITEM_CARD_MITSU_THE_INSECT_NINJA
-	.2byte  ITEM_CARD_MITSURUGI_PRAYERS
-	.2byte  ITEM_CARD_MITSURUGI_RITUAL
-	.2byte  ITEM_CARD_MITSURUGI_NO_MIKOTO_SAJI
 	.2byte  ITEM_CARD_MOAI_INTERCEPTOR_CANNONS
 	.2byte  ITEM_CARD_MOBIUS_THE_FROST_MONARCH
 	.2byte  ITEM_CARD_MOBIUS_THE_MEGA_MONARCH
@@ -4240,40 +3431,28 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_MONSTER_REBORN
 	.2byte  ITEM_CARD_MONSTER_REINCARNATION
 	.2byte  ITEM_CARD_MOON_OF_THE_CLOSED_HEAVEN
-	.2byte  ITEM_CARD_MORAY_OF_GREED
-	.2byte  ITEM_CARD_MORPHING_JAR_2
 	.2byte  ITEM_CARD_MORPHING_JAR
+	.2byte  ITEM_CARD_MORPHING_JAR_2
 	.2byte  ITEM_CARD_MOTHER_GRIZZLY
-	.2byte  ITEM_CARD_MOULINGLACIA_THE_ELEMENTAL_LORD
-	.2byte  ITEM_CARD_MUDAN_THE_RIKKA_FAIRY
 	.2byte  ITEM_CARD_MUDORA_THE_SWORD_ORACLE
 	.2byte  ITEM_CARD_MUDRAGON_OF_THE_SWAMP
 	.2byte  ITEM_CARD_MUKA_MUKA
-	.2byte  ITEM_CARD_MUKO
 	.2byte  ITEM_CARD_MULCHARMY_FUWALOS
 	.2byte  ITEM_CARD_MULCHARMY_MEOWLS
 	.2byte  ITEM_CARD_MULCHARMY_PURULIA
 	.2byte  ITEM_CARD_MY_BODY_AS_A_SHIELD
-	.2byte  ITEM_CARD_MY_FRIEND_PURRELY
 	.2byte  ITEM_CARD_MYSTERY_SHELL_DRAGON
 	.2byte  ITEM_CARD_MYSTIC_MINE
 	.2byte  ITEM_CARD_MYSTIC_SWORDSMAN_LV2
 	.2byte  ITEM_CARD_MYSTIC_SWORDSMAN_LV4
 	.2byte  ITEM_CARD_MYSTIC_TOMATO
-	.2byte  ITEM_CARD_MYSTICAL_ELF_WHITE_LIGHTNING
 	.2byte  ITEM_CARD_MYSTICAL_ELF
-	.2byte  ITEM_CARD_MYSTICAL_REFPANEL
-	.2byte  ITEM_CARD_MYSTICAL_SHINE_BALL
+	.2byte  ITEM_CARD_MYSTICAL_ELF_WHITE_LIGHTNING
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
 	.2byte  ITEM_CARD_MYSTIK_WOK
-	.2byte  ITEM_CARD_MYTHIC_TREE_DRAGON
-	.2byte  ITEM_CARD_MYTHIC_WATER_DRAGON
-	.2byte  ITEM_CARD_MYTHICAL_BEAST_MASTER_CERBERUS
-	.2byte  ITEM_CARD_NADIR_SERVANT
 	.2byte  ITEM_CARD_NAELSHADDOLL_ARIEL
 	.2byte  ITEM_CARD_NECRO_GARDNA
 	.2byte  ITEM_CARD_NECROVALLEY
-	.2byte  ITEM_CARD_NECROWORLD_BANSHEE
 	.2byte  ITEM_CARD_NEEDLE_CEILING
 	.2byte  ITEM_CARD_NEKO_MANE_KING
 	.2byte  ITEM_CARD_NEKROZ_CYCLE
@@ -4281,25 +3460,17 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_NEKROZ_MIRROR
 	.2byte  ITEM_CARD_NEKROZ_OF_BRIONAC
 	.2byte  ITEM_CARD_NEKROZ_OF_CLAUSOLAS
-	.2byte  ITEM_CARD_NEKROZ_OF_DECISIVE_ARMOR
-	.2byte  ITEM_CARD_NEKROZ_OF_GUNGNIR
-	.2byte  ITEM_CARD_NEKROZ_OF_TRISHULA
 	.2byte  ITEM_CARD_NEKROZ_OF_UNICORE
 	.2byte  ITEM_CARD_NEKROZ_OF_VALKYRUS
 	.2byte  ITEM_CARD_NEO_BUG
 	.2byte  ITEM_CARD_NEO_KAISER_SEA_HORSE
 	.2byte  ITEM_CARD_NEO_THE_MAGIC_SWORDSMAN
 	.2byte  ITEM_CARD_NEO_SPACIAN_DARK_PANTHER
-	.2byte  ITEM_CARD_NEO_SPACIAN_GRAND_MOLE
-	.2byte  ITEM_CARD_NEPTABYSS_THE_ATLANTEAN_PRINCE
 	.2byte  ITEM_CARD_NEWDORIA
 	.2byte  ITEM_CARD_NIBIRU_THE_PRIMAL_BEING
 	.2byte  ITEM_CARD_NIGHT_ASSAILANT
 	.2byte  ITEM_CARD_NIGHT_BEAM
-	.2byte  ITEM_CARD_NIGHT_SWORD_SERPENT
 	.2byte  ITEM_CARD_NIGHTMARE_MAGICIAN
-	.2byte  ITEM_CARD_NIGHTMARE_PAIN
-	.2byte  ITEM_CARD_NIGHTMARE_THRONE
 	.2byte  ITEM_CARD_NIGHTMARE_WHEEL
 	.2byte  ITEM_CARD_NIGHTMARE_S_STEELCAGE
 	.2byte  ITEM_CARD_NIMBLE_ANGLER
@@ -4308,102 +3479,65 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_NIN_KEN_DOG
 	.2byte  ITEM_CARD_NINJA_GRANDMASTER_HANZO
 	.2byte  ITEM_CARD_NINJA_GRANDMASTER_SASUKE
-	.2byte  ITEM_CARD_NINJITSU_ART_OF_SUPER_TRANSFORMATION
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
 	.2byte  ITEM_CARD_NOBLEMAN_OF_EXTERMINATION
-	.2byte  ITEM_CARD_NOCTOVISION_DRAGON
-	.2byte  ITEM_CARD_NODE_RYZEAL
-	.2byte  ITEM_CARD_NON_AGGRESSION_AREA
-	.2byte  ITEM_CARD_NON_FUSION_AREA
 	.2byte  ITEM_CARD_NUMBER_101_SILENT_HONOR_ARK
 	.2byte  ITEM_CARD_NUMBER_11_BIG_EYE
 	.2byte  ITEM_CARD_NUMBER_17_LEVIATHAN_DRAGON
 	.2byte  ITEM_CARD_NUMBER_30_ACID_GOLEM_OF_DESTRUCTION
 	.2byte  ITEM_CARD_NUMBER_39_UTOPIA
+	.2byte  ITEM_CARD_NUMBER_41_BAGOOSKA_THE_TERRIBLY_TIRED_TAPIR
 	.2byte  ITEM_CARD_NUMBER_66_MASTER_KEY_BEETLE
-	.2byte  ITEM_CARD_NUMBER_85_CRAZY_BOX
-	.2byte  ITEM_CARD_OAFDRAGON_MAGICIAN
-	.2byte  ITEM_CARD_OASIS_OF_DRAGON_SOULS
-	.2byte  ITEM_CARD_ODD_EYES_FUSION
-	.2byte  ITEM_CARD_ODD_EYES_PENDULUM_DRAGON
 	.2byte  ITEM_CARD_OFFERINGS_TO_THE_DOOMED
 	.2byte  ITEM_CARD_OJAMA_KING
 	.2byte  ITEM_CARD_OJAMA_TRIO
-	.2byte  ITEM_CARD_OLD_VINDICTIVE_MAGICIAN
-	.2byte  ITEM_CARD_ONE_DAY_OF_PEACE
-	.2byte  ITEM_CARD_ONE_FOR_ONE
-	.2byte  ITEM_CARD_ONSLAUGHT_OF_THE_FIRE_KINGS
 	.2byte  ITEM_CARD_OOKAZI
-	.2byte  ITEM_CARD_OPENING_OF_THE_SPIRIT_GATES
 	.2byte  ITEM_CARD_OPPRESSED_PEOPLE
 	.2byte  ITEM_CARD_OPTICLOPS
-	.2byte  ITEM_CARD_ORCUST_CRESCENDO
 	.2byte  ITEM_CARD_ORCUST_CYMBAL_SKELETON
 	.2byte  ITEM_CARD_ORCUST_HARP_HORROR
 	.2byte  ITEM_CARD_ORCUST_KNIGHTMARE
-	.2byte  ITEM_CARD_ORCUSTRATED_BABEL
 	.2byte  ITEM_CARD_ORCUSTRATED_RETURN
 	.2byte  ITEM_CARD_ORIGINAL_SINFUL_SPOILS_SNAKE_EYE
-	.2byte  ITEM_CARD_OSTINATO
 	.2byte  ITEM_CARD_OVERLOAD_FUSION
-	.2byte  ITEM_CARD_OVERWORKED
-	.2byte  ITEM_CARD_PSY_FRAME_DRIVER
-	.2byte  ITEM_CARD_PSY_FRAMEGEAR_DELTA
-	.2byte  ITEM_CARD_PSY_FRAMEGEAR_GAMMA
 	.2byte  ITEM_CARD_PAINFUL_CHOICE
 	.2byte  ITEM_CARD_PAINFUL_DECISION
 	.2byte  ITEM_CARD_PALADIN_OF_WHITE_DRAGON
+	.2byte  ITEM_CARD_PALEOZOIC_ANOMALOCARIS
 	.2byte  ITEM_CARD_PALEOZOIC_CANADIA
 	.2byte  ITEM_CARD_PALEOZOIC_DINOMISCHUS
-	.2byte  ITEM_CARD_PALEOZOIC_LEANCHOILIA
 	.2byte  ITEM_CARD_PALEOZOIC_MARRELLA
 	.2byte  ITEM_CARD_PALEOZOIC_OLENOIDES
 	.2byte  ITEM_CARD_PALEOZOIC_OPABINIA
-	.2byte  ITEM_CARD_PALEOZOIC_PIKAIA
 	.2byte  ITEM_CARD_PALLADIUM_ORACLE_MAHAD
 	.2byte  ITEM_CARD_PANTHEISM_OF_THE_MONARCHS
-	.2byte  ITEM_CARD_PARALLEL_EXCEED
 	.2byte  ITEM_CARD_PARL_HERMIT_OF_DARK_WORLD
-	.2byte  ITEM_CARD_PENDULUM_CALL
 	.2byte  ITEM_CARD_PENGUIN_KNIGHT
 	.2byte  ITEM_CARD_PENGUIN_NINJA
 	.2byte  ITEM_CARD_PERFORMAGE_DAMAGE_JUGGLER
 	.2byte  ITEM_CARD_PERFORMAGE_HAT_TRICKER
 	.2byte  ITEM_CARD_PERFORMAGE_MIRROR_CONDUCTOR
 	.2byte  ITEM_CARD_PERFORMAGE_PLUSHFIRE
+	.2byte  ITEM_CARD_PERFORMAGE_TRAPEZE_MAGICIAN
 	.2byte  ITEM_CARD_PERFORMAGE_TRICK_CLOWN
 	.2byte  ITEM_CARD_PERFORMAPAL_GUITARTLE
 	.2byte  ITEM_CARD_PERFORMAPAL_LIZARDRAW
 	.2byte  ITEM_CARD_PERFORMAPAL_MONKEYBOARD
-	.2byte  ITEM_CARD_PERFORMAPAL_ODD_EYES_LIGHT_PHOENIX
-	.2byte  ITEM_CARD_PERFORMAPAL_ODD_EYES_UNICORN
-	.2byte  ITEM_CARD_PERFORMAPAL_PARTNAGA
 	.2byte  ITEM_CARD_PERFORMAPAL_PENDULUM_SORCERER
 	.2byte  ITEM_CARD_PERFORMAPAL_SILVER_CLAW
 	.2byte  ITEM_CARD_PERFORMAPAL_SKULLCROBAT_JOKER
-	.2byte  ITEM_CARD_PERFORMAPAL_TRAMPOLYNX
-	.2byte  ITEM_CARD_PEROPERO_CERPERUS
-	.2byte  ITEM_CARD_PERSONAL_SPOOFING
-	.2byte  ITEM_CARD_PETITERANODON
-	.2byte  ITEM_CARD_PHANTOM_DRAGON
 	.2byte  ITEM_CARD_PHANTOM_GRYPHON
 	.2byte  ITEM_CARD_PHANTOM_KNIGHTS_FOG_BLADE
-	.2byte  ITEM_CARD_PHANTOM_OF_CHAOS
 	.2byte  ITEM_CARD_PHOENIX_WING_WIND_BLAST
-	.2byte  ITEM_CARD_PHOTON_THRASHER
-	.2byte  ITEM_CARD_PIANISSIMO
-	.2byte  ITEM_CARD_PIKARI_IGNISTER
 	.2byte  ITEM_CARD_PIKERU_S_CIRCLE_OF_ENCHANTMENT
 	.2byte  ITEM_CARD_PINCH_HOPPER
 	.2byte  ITEM_CARD_PITCH_BLACK_POWER_STONE
 	.2byte  ITEM_CARD_PLAGUESPREADER_ZOMBIE
-	.2byte  ITEM_CARD_POISON_DRAW_FROG
 	.2byte  ITEM_CARD_POISON_OF_THE_OLD_MAN
 	.2byte  ITEM_CARD_POLYMERIZATION
 	.2byte  ITEM_CARD_POT_OF_AVARICE
 	.2byte  ITEM_CARD_POT_OF_DESIRES
 	.2byte  ITEM_CARD_POT_OF_DUALITY
-	.2byte  ITEM_CARD_POT_OF_EXTRAVAGANCE
 	.2byte  ITEM_CARD_POT_OF_GENEROSITY
 	.2byte  ITEM_CARD_POT_OF_GREED
 	.2byte  ITEM_CARD_POT_OF_PROSPERITY
@@ -4411,66 +3545,38 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_PRANK_KIDS_DROPSIES
 	.2byte  ITEM_CARD_PRANK_KIDS_FANSIES
 	.2byte  ITEM_CARD_PRANK_KIDS_LAMPSIES
-	.2byte  ITEM_CARD_PRANK_KIDS_MEOW_MEOW_MU
-	.2byte  ITEM_CARD_PRANK_KIDS_PANDEMONIUM
 	.2byte  ITEM_CARD_PRANK_KIDS_PLACE
-	.2byte  ITEM_CARD_PRANK_KIDS_PRANKS
 	.2byte  ITEM_CARD_PRANK_KIDS_ROCKSIES
-	.2byte  ITEM_CARD_PRAYERS_OF_THE_VOICELESS_VOICE
-	.2byte  ITEM_CARD_PRE_PREPARATION_OF_RITES
 	.2byte  ITEM_CARD_PREDAPLANT_DRAGOSTAPELIA
 	.2byte  ITEM_CARD_PREDAPLANT_VERTE_ANACONDA
 	.2byte  ITEM_CARD_PREMATURE_BURIAL
-	.2byte  ITEM_CARD_PREPARATION_OF_RITES
 	.2byte  ITEM_CARD_PRESSURED_PLANET_WRAITSOTH
 	.2byte  ITEM_CARD_PREVENT_RAT
 	.2byte  ITEM_CARD_PRICKLE_FAIRY
 	.2byte  ITEM_CARD_PRIESTESS_WITH_EYES_OF_BLUE
 	.2byte  ITEM_CARD_PRIMAL_DRAGON_THE_PRIMORDIAL
-	.2byte  ITEM_CARD_PRIME_MATERIAL_DRAGON
 	.2byte  ITEM_CARD_PRIMEVAL_PLANET_PERLEREINO
 	.2byte  ITEM_CARD_PRINCESS_OF_TSURUGI
 	.2byte  ITEM_CARD_PROHIBITION
 	.2byte  ITEM_CARD_PROMETHEAN_PRINCESS_BESTOWER_OF_FLAMES
-	.2byte  ITEM_CARD_PROMETHEUS_KING_OF_THE_SHADOWS
 	.2byte  ITEM_CARD_PROTECTOR_OF_THE_SANCTUARY
 	.2byte  ITEM_CARD_PROTECTOR_WITH_EYES_OF_BLUE
 	.2byte  ITEM_CARD_PSI_BLOCKER
-	.2byte  ITEM_CARD_PSYCHIC_COMMANDER
+	.2byte  ITEM_CARD_PSY_FRAME_DRIVER
+	.2byte  ITEM_CARD_PSY_FRAMEGEAR_GAMMA
 	.2byte  ITEM_CARD_PULLING_THE_RUG
+	.2byte  ITEM_CARD_PUNISHED_EAGLE
 	.2byte  ITEM_CARD_PUPPET_PLANT
-	.2byte  ITEM_CARD_PURRELY_DELICIOUS_MEMORY
-	.2byte  ITEM_CARD_PURRELY_HAPPY_MEMORY
-	.2byte  ITEM_CARD_PURRELY_PRETTY_MEMORY
-	.2byte  ITEM_CARD_PURRELY_SLEEPY_MEMORY
-	.2byte  ITEM_CARD_PURRELY
-	.2byte  ITEM_CARD_PURRELYLY
 	.2byte  ITEM_CARD_PYRAMID_TURTLE
 	.2byte  ITEM_CARD_QADSHADDOLL_KEIOS
-	.2byte  ITEM_CARD_QLIMATE_CHANGE
 	.2byte  ITEM_CARD_QLIPHORT_CARRIER
-	.2byte  ITEM_CARD_QLIPHORT_CEPHALOPOD
 	.2byte  ITEM_CARD_QLIPHORT_DISK
 	.2byte  ITEM_CARD_QLIPHORT_HELIX
-	.2byte  ITEM_CARD_QLIPHORT_MONOLITH
 	.2byte  ITEM_CARD_QLIPHORT_SCOUT
-	.2byte  ITEM_CARD_QLIPHORT_SHELL
-	.2byte  ITEM_CARD_QLIPHORT_STEALTH
-	.2byte  ITEM_CARD_QUAKING_MIRROR_FORCE
-	.2byte  ITEM_CARD_QUICK_LAUNCH
-	.2byte  ITEM_CARD_QUICKDRAW_SYNCHRON
-	.2byte  ITEM_CARD_RESCUE_
-	.2byte  ITEM_CARD_RADIAN_THE_MULTIDIMENSIONAL_KAIJU
-	.2byte  ITEM_CARD_RAIDEN_HAND_OF_THE_LIGHTSWORN
-	.2byte  ITEM_CARD_RAIGEKI_BREAK
 	.2byte  ITEM_CARD_RAIGEKI
-	.2byte  ITEM_CARD_RAINBOW_KURIBOH
-	.2byte  ITEM_CARD_RAINBOW_LIFE
+	.2byte  ITEM_CARD_RAIGEKI_BREAK
 	.2byte  ITEM_CARD_RAIZA_THE_MEGA_MONARCH
 	.2byte  ITEM_CARD_RAIZA_THE_STORM_MONARCH
-	.2byte  ITEM_CARD_RAREMETALFOES_BISMUGEAR
-	.2byte  ITEM_CARD_RE_COVER
-	.2byte  ITEM_CARD_RE_QLIATE
 	.2byte  ITEM_CARD_REACTAN_DRAGON_RULER_OF_PEBBLES
 	.2byte  ITEM_CARD_REAPER_ON_THE_NIGHTMARE
 	.2byte  ITEM_CARD_REASONING
@@ -4478,19 +3584,15 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_RECKLESS_GREED
 	.2byte  ITEM_CARD_RED_DRAGON_ARCHFIEND
 	.2byte  ITEM_CARD_RED_DRAGON_NINJA
-	.2byte  ITEM_CARD_RED_GADGET
 	.2byte  ITEM_CARD_RED_REBOOT
-	.2byte  ITEM_CARD_RED_RESONATOR
-	.2byte  ITEM_CARD_RED_ROSE_DRAGON
 	.2byte  ITEM_CARD_RED_EYES_ALTERNATIVE_BLACK_DRAGON
 	.2byte  ITEM_CARD_RED_EYES_BABY_DRAGON
-	.2byte  ITEM_CARD_RED_EYES_BLACK_DRAGON_SWORD
 	.2byte  ITEM_CARD_RED_EYES_BLACK_DRAGON
+	.2byte  ITEM_CARD_RED_EYES_BLACK_DRAGON_SWORD
 	.2byte  ITEM_CARD_RED_EYES_BLACK_FULLMETAL_DRAGON
 	.2byte  ITEM_CARD_RED_EYES_BLACK_METAL_DRAGON
 	.2byte  ITEM_CARD_RED_EYES_BLACK_METEOR_DRAGON
 	.2byte  ITEM_CARD_RED_EYES_DARKNESS_METAL_DRAGON
-	.2byte  ITEM_CARD_RED_EYES_FUSION
 	.2byte  ITEM_CARD_RED_EYES_RETRO_DRAGON
 	.2byte  ITEM_CARD_RED_EYES_SLASH_DRAGON
 	.2byte  ITEM_CARD_RED_EYES_SOUL
@@ -4500,62 +3602,38 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_REDOX_DRAGON_RULER_OF_BOULDERS
 	.2byte  ITEM_CARD_REESHADDOLL_WENDI
 	.2byte  ITEM_CARD_REFLECT_BOUNDER
-	.2byte  ITEM_CARD_REFRAIN_THE_MELODIOUS_SONGSTRESS
 	.2byte  ITEM_CARD_REIGN_BEAUX_OVERKING_OF_DARK_WORLD
 	.2byte  ITEM_CARD_REIGN_BEAUX_OVERLORD_OF_DARK_WORLD
 	.2byte  ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
 	.2byte  ITEM_CARD_REINFORCEMENTS
-	.2byte  ITEM_CARD_REKINDLING
 	.2byte  ITEM_CARD_RELINKURIBOH
-	.2byte  ITEM_CARD_RELINQUISHED_ANIMA
 	.2byte  ITEM_CARD_RELINQUISHED
+	.2byte  ITEM_CARD_RELINQUISHED_ANIMA
 	.2byte  ITEM_CARD_RELOAD
 	.2byte  ITEM_CARD_REMOVE_TRAP
 	.2byte  ITEM_CARD_RENGE_GATEKEEPER_OF_DARK_WORLD
 	.2byte  ITEM_CARD_RESCUE_CAT
 	.2byte  ITEM_CARD_RESCUE_RABBIT
-	.2byte  ITEM_CARD_RESCUE_ACE_AIR_LIFTER
-	.2byte  ITEM_CARD_RESCUE_ACE_HQ
-	.2byte  ITEM_CARD_RESCUE_ACE_HYDRANT
-	.2byte  ITEM_CARD_RESCUE_ACE_IMPULSE
-	.2byte  ITEM_CARD_RESCUE_ACE_PREVENTER
-	.2byte  ITEM_CARD_RESCUE_ACE_TURBULENCE
 	.2byte  ITEM_CARD_RETALIATING_C_
 	.2byte  ITEM_CARD_RETURN_FROM_THE_DIFFERENT_DIMENSION
-	.2byte  ITEM_CARD_RETURN_OF_THE_MONARCHS
-	.2byte  ITEM_CARD_REX_FREIGHT_FUR_HIRE
 	.2byte  ITEM_CARD_RIDER_OF_THE_STORM_WINDS
 	.2byte  ITEM_CARD_RIGHT_ARM_OF_THE_FORBIDDEN_ONE
 	.2byte  ITEM_CARD_RIGHT_LEG_OF_THE_FORBIDDEN_ONE
-	.2byte  ITEM_CARD_RIKKA_GLAMOUR
-	.2byte  ITEM_CARD_RIKKA_KONKON
-	.2byte  ITEM_CARD_RIKKA_PETAL
-	.2byte  ITEM_CARD_RIKKA_PRINCESS
-	.2byte  ITEM_CARD_RING_OF_DEFENSE
 	.2byte  ITEM_CARD_RING_OF_DESTRUCTION
 	.2byte  ITEM_CARD_RISING_AIR_CURRENT
 	.2byte  ITEM_CARD_RITE_OF_ARAMESIR
-	.2byte  ITEM_CARD_RITUAL_BEAST_AMBUSH
-	.2byte  ITEM_CARD_RITUAL_BEAST_INHERITANCE
-	.2byte  ITEM_CARD_RITUAL_BEAST_STEEDS
-	.2byte  ITEM_CARD_RITUAL_BEAST_TAMER_ELDER
 	.2byte  ITEM_CARD_RIVALRY_OF_WARLORDS
 	.2byte  ITEM_CARD_ROARING_OCEAN_SNAKE
 	.2byte  ITEM_CARD_ROBBIN_GOBLIN
-	.2byte  ITEM_CARD_ROGUE_DOLL
-	.2byte  ITEM_CARD_ROKKET_TRACER
 	.2byte  ITEM_CARD_RONINTOADIN
 	.2byte  ITEM_CARD_ROULETTE_BARREL
 	.2byte  ITEM_CARD_ROYAL_DECREE
 	.2byte  ITEM_CARD_ROYAL_MAGICAL_LIBRARY
 	.2byte  ITEM_CARD_ROYAL_OPPRESSION
-	.2byte  ITEM_CARD_ROYAL_TRIBUTE
 	.2byte  ITEM_CARD_RUBIC_MALEBRANCHE_OF_THE_BURNING_ABYSS
 	.2byte  ITEM_CARD_RUNICK_DESTRUCTION
 	.2byte  ITEM_CARD_RUNICK_FLASHING_FIRE
-	.2byte  ITEM_CARD_RUNICK_FOUNTAIN
 	.2byte  ITEM_CARD_RUNICK_FREEZING_CURSES
-	.2byte  ITEM_CARD_RUNICK_SLUMBER
 	.2byte  ITEM_CARD_RUNICK_TIP
 	.2byte  ITEM_CARD_RUSH_RECKLESSLY
 	.2byte  ITEM_CARD_RYKO_LIGHTSWORN_HUNTER
@@ -4564,72 +3642,42 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_RYZEAL_CROSS
 	.2byte  ITEM_CARD_RYZEAL_DETONATOR
 	.2byte  ITEM_CARD_RYZEAL_DUO_DRIVE
-	.2byte  ITEM_CARD_RYZEAL_PLUGIN
 	.2byte  ITEM_CARD_S_P_LITTLE_KNIGHT
-	.2byte  ITEM_CARD_SPYRAL_GEAR_DRONE
-	.2byte  ITEM_CARD_SPYRAL_MISSION_RESCUE
-	.2byte  ITEM_CARD_SPYRAL_QUIK_FIX
-	.2byte  ITEM_CARD_SPYRAL_RESORT
-	.2byte  ITEM_CARD_SPYRAL_SUPER_AGENT
-	.2byte  ITEM_CARD_SPYRAL_TOUGH
 	.2byte  ITEM_CARD_SABER_BEETLE
-	.2byte  ITEM_CARD_SABER_SLASH
 	.2byte  ITEM_CARD_SABERSAURUS
 	.2byte  ITEM_CARD_SACRED_CRANE
-	.2byte  ITEM_CARD_SACRED_FIRE_KING_GARUNIX
 	.2byte  ITEM_CARD_SACRED_PHOENIX_OF_NEPHTHYS
 	.2byte  ITEM_CARD_SACRED_SWORD_OF_SEVEN_STARS
-	.2byte  ITEM_CARD_SAFFIRA_DRAGON_QUEEN_OF_THE_VOICELESS_VOICE
 	.2byte  ITEM_CARD_SAGE_WITH_EYES_OF_BLUE
 	.2byte  ITEM_CARD_SAKURETSU_ARMOR
 	.2byte  ITEM_CARD_SALAMANDRA_THE_FLYING_FLAME_DRAGON
 	.2byte  ITEM_CARD_SALAMANGREAT_BALELYNX
-	.2byte  ITEM_CARD_SALAMANGREAT_CIRCLE
-	.2byte  ITEM_CARD_SALAMANGREAT_FALCO
 	.2byte  ITEM_CARD_SALAMANGREAT_FOXY
-	.2byte  ITEM_CARD_SALAMANGREAT_GAZELLE
-	.2byte  ITEM_CARD_SALAMANGREAT_JACK_JAGUAR
-	.2byte  ITEM_CARD_SALAMANGREAT_RAGE
 	.2byte  ITEM_CARD_SALAMANGREAT_RAGING_PHOENIX
-	.2byte  ITEM_CARD_SALAMANGREAT_ROAR
-	.2byte  ITEM_CARD_SALAMANGREAT_SANCTUARY
 	.2byte  ITEM_CARD_SALAMANGREAT_SPINNY
 	.2byte  ITEM_CARD_SALAMANGREAT_SUNLIGHT_WOLF
 	.2byte  ITEM_CARD_SALVAGE
-	.2byte  ITEM_CARD_SAMSARA_D_LOTUS
 	.2byte  ITEM_CARD_SAND_MOTH
 	.2byte  ITEM_CARD_SANGAN
 	.2byte  ITEM_CARD_SANGEN_KAIMEN
 	.2byte  ITEM_CARD_SANGEN_SUMMONING
-	.2byte  ITEM_CARD_SANTA_CLAWS
 	.2byte  ITEM_CARD_SAQLIFICE
-	.2byte  ITEM_CARD_SASUKE_SAMURAI_4
 	.2byte  ITEM_CARD_SASUKE_SAMURAI
-	.2byte  ITEM_CARD_SATELLARKNIGHT_ALTAIR
-	.2byte  ITEM_CARD_SATELLARKNIGHT_DENEB
-	.2byte  ITEM_CARD_SATELLARKNIGHT_UNUKALHAI
-	.2byte  ITEM_CARD_SATELLARKNIGHT_VEGA
-	.2byte  ITEM_CARD_SAURAVIS_THE_ANCIENT_AND_ASCENDED
+	.2byte  ITEM_CARD_SASUKE_SAMURAI_4
 	.2byte  ITEM_CARD_SCAPEGOAT
-	.2byte  ITEM_CARD_SCARECLAW_KASHTIRA
 	.2byte  ITEM_CARD_SCARM_MALEBRANCHE_OF_THE_BURNING_ABYSS
 	.2byte  ITEM_CARD_SCARR_SCOUT_OF_DARK_WORLD
 	.2byte  ITEM_CARD_SCRAP_DRAGON
-	.2byte  ITEM_CARD_SEA_ARCHIVER
 	.2byte  ITEM_CARD_SEA_SERPENT_WARRIOR_OF_DARKNESS
 	.2byte  ITEM_CARD_SECOND_COIN_TOSS
 	.2byte  ITEM_CARD_SECRET_BARREL
-	.2byte  ITEM_CARD_SECRET_BLAST
-	.2byte  ITEM_CARD_SECRET_VILLAGE_OF_THE_SPELLCASTERS
 	.2byte  ITEM_CARD_SELF_DESTRUCT_BUTTON
 	.2byte  ITEM_CARD_SENIOR_SILVER_NINJA
 	.2byte  ITEM_CARD_SENJU_OF_THE_THOUSAND_HANDS
 	.2byte  ITEM_CARD_SERIAL_SPELL
 	.2byte  ITEM_CARD_SERPENTINE_PRINCESS
-	.2byte  ITEM_CARD_SET_ROTATION
 	.2byte  ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT
 	.2byte  ITEM_CARD_SHADDOLL_BEAST
-	.2byte  ITEM_CARD_SHADDOLL_CORE
 	.2byte  ITEM_CARD_SHADDOLL_DRAGON
 	.2byte  ITEM_CARD_SHADDOLL_FALCO
 	.2byte  ITEM_CARD_SHADDOLL_FUSION
@@ -4638,50 +3686,36 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_SHADDOLL_SQUAMATA
 	.2byte  ITEM_CARD_SHADOW_IMPRISONING_MIRROR
 	.2byte  ITEM_CARD_SHARED_RIDE
-	.2byte  ITEM_CARD_SHIELD_CRUSH
 	.2byte  ITEM_CARD_SHIEN_S_SMOKE_SIGNAL
-	.2byte  ITEM_CARD_SHINE_PALACE
 	.2byte  ITEM_CARD_SHINING_ANGEL
-	.2byte  ITEM_CARD_SHINY_BLACK_C_SQUADDER
 	.2byte  ITEM_CARD_SHINY_BLACK_C_
-	.2byte  ITEM_CARD_SHIRANUI_SOLITAIRE
+	.2byte  ITEM_CARD_SHINY_BLACK_C_SQUADDER
 	.2byte  ITEM_CARD_SHRINK
 	.2byte  ITEM_CARD_SHUFFLE_REBORN
 	.2byte  ITEM_CARD_SHURIT_STRATEGIST_OF_THE_NEKROZ
 	.2byte  ITEM_CARD_SILLVA_WARLORD_OF_DARK_WORLD
 	.2byte  ITEM_CARD_SILPHEED
-	.2byte  ITEM_CARD_SILVER_GADGET
 	.2byte  ITEM_CARD_SINISTER_SERPENT
 	.2byte  ITEM_CARD_SINISTER_SHADOW_GAMES
 	.2byte  ITEM_CARD_SIX_SAMURAI_UNITED
-	.2byte  ITEM_CARD_SIXTH_SENSE
-	.2byte  ITEM_CARD_SKELENGEL
 	.2byte  ITEM_CARD_SKILL_DRAIN
 	.2byte  ITEM_CARD_SKILLED_DARK_MAGICIAN
 	.2byte  ITEM_CARD_SKILLED_RED_MAGICIAN
 	.2byte  ITEM_CARD_SKILLED_WHITE_MAGICIAN
 	.2byte  ITEM_CARD_SKULL_DOG_MARRON
-	.2byte  ITEM_CARD_SKULL_GUARDIAN_PROTECTOR_OF_THE_VOICELESS_VOICE
 	.2byte  ITEM_CARD_SKULL_LAIR
-	.2byte  ITEM_CARD_SKULL_MEISTER
-	.2byte  ITEM_CARD_SKULL_MARK_LADYBUG
 	.2byte  ITEM_CARD_SKY_IRIS
 	.2byte  ITEM_CARD_SKY_SCOUT
 	.2byte  ITEM_CARD_SKY_STRIKER_ACE_KAGARI
 	.2byte  ITEM_CARD_SKY_STRIKER_ACE_RAYE
 	.2byte  ITEM_CARD_SKY_STRIKER_ACE_ROZE
 	.2byte  ITEM_CARD_SKY_STRIKER_ACE_SHIZUKU
-	.2byte  ITEM_CARD_SKY_STRIKER_AIRSPACE_AREA_ZERO
 	.2byte  ITEM_CARD_SKY_STRIKER_MANEUVER_AFTERBURNERS_
-	.2byte  ITEM_CARD_SKY_STRIKER_MANEUVER_JAMMING_WAVES_
-	.2byte  ITEM_CARD_SKY_STRIKER_MECHA_EAGLE_BOOSTER
 	.2byte  ITEM_CARD_SKY_STRIKER_MECHA_HORNET_DRONES
 	.2byte  ITEM_CARD_SKY_STRIKER_MECHA_SHARK_CANNON
 	.2byte  ITEM_CARD_SKY_STRIKER_MECHA_WIDOW_ANCHOR
-	.2byte  ITEM_CARD_SKY_STRIKER_MECHA_MODULES_MULTIROLE
 	.2byte  ITEM_CARD_SKY_STRIKER_MOBILIZE_ENGAGE_
 	.2byte  ITEM_CARD_SLATE_WARRIOR
-	.2byte  ITEM_CARD_SMALL_WORLD
 	.2byte  ITEM_CARD_SMASHING_GROUND
 	.2byte  ITEM_CARD_SNAKE_EYE_ASH
 	.2byte  ITEM_CARD_SNAKE_EYE_BIRCH
@@ -4695,117 +3729,74 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_SNOWW_UNLIGHT_OF_DARK_WORLD
 	.2byte  ITEM_CARD_SOLAR_RECHARGE
 	.2byte  ITEM_CARD_SOLEMN_JUDGMENT
-	.2byte  ITEM_CARD_SOLEMN_SCOLDING
 	.2byte  ITEM_CARD_SOLEMN_STRIKE
 	.2byte  ITEM_CARD_SOLEMN_WARNING
 	.2byte  ITEM_CARD_SOLEMN_WISHES
 	.2byte  ITEM_CARD_SONIC_BIRD
 	.2byte  ITEM_CARD_SOUL_CHARGE
-	.2byte  ITEM_CARD_SOUL_DRAIN
 	.2byte  ITEM_CARD_SOUL_EXCHANGE
-	.2byte  ITEM_CARD_SOUL_RELEASE
 	.2byte  ITEM_CARD_SOUL_TAKER
 	.2byte  ITEM_CARD_SOUL_TIGER
-	.2byte  ITEM_CARD_SOUL_TRANSITION
-	.2byte  ITEM_CARD_SOUL_OF_THE_PURE
-	.2byte  ITEM_CARD_SOULEATING_OVIRAPTOR
 	.2byte  ITEM_CARD_SPEAR_CRETIN
 	.2byte  ITEM_CARD_SPEAR_DRAGON
-	.2byte  ITEM_CARD_SPEEDROID_MENKO
-	.2byte  ITEM_CARD_SPEEDROID_PASSINGLIDER
 	.2byte  ITEM_CARD_SPEEDROID_TAKETOMBORG
 	.2byte  ITEM_CARD_SPEEDROID_TERRORTOP
 	.2byte  ITEM_CARD_SPELL_CANCELLER
 	.2byte  ITEM_CARD_SPELL_REPRODUCTION
 	.2byte  ITEM_CARD_SPELL_SHATTERING_ARROW
-	.2byte  ITEM_CARD_SPELLBOOK_LIBRARY_OF_THE_CRESCENT
 	.2byte  ITEM_CARD_SPELLBOOK_MAGICIAN_OF_PROPHECY
-	.2byte  ITEM_CARD_SPELLBOOK_STAR_HALL
-	.2byte  ITEM_CARD_SPELLBOOK_OF_ETERNITY
-	.2byte  ITEM_CARD_SPELLBOOK_OF_FATE
 	.2byte  ITEM_CARD_SPELLBOOK_OF_JUDGMENT
-	.2byte  ITEM_CARD_SPELLBOOK_OF_LIFE
-	.2byte  ITEM_CARD_SPELLBOOK_OF_POWER
 	.2byte  ITEM_CARD_SPELLBOOK_OF_SECRETS
-	.2byte  ITEM_CARD_SPELLBOOK_OF_WISDOM
-	.2byte  ITEM_CARD_SPELLBOOK_OF_THE_MASTER
 	.2byte  ITEM_CARD_SPHERE_KURIBOH
-	.2byte  ITEM_CARD_SPIRIT_REAPER
-	.2byte  ITEM_CARD_SPIRIT_OF_YUBEL
 	.2byte  ITEM_CARD_SPIRIT_OF_THE_HARP
-	.2byte  ITEM_CARD_SPIRITUAL_BEAST_APELIO
-	.2byte  ITEM_CARD_SPIRITUAL_BEAST_CANNAHAWK
-	.2byte  ITEM_CARD_SPIRITUAL_BEAST_RAMPENGU
-	.2byte  ITEM_CARD_SPIRITUAL_BEAST_TAMER_LARA
+	.2byte  ITEM_CARD_SPIRIT_REAPER
 	.2byte  ITEM_CARD_SPIRITUAL_EARTH_ART_KUROGANE
 	.2byte  ITEM_CARD_SPIRITUAL_WATER_ART_AOI
 	.2byte  ITEM_CARD_SPIRITUAL_WIND_ART_MIYABI
 	.2byte  ITEM_CARD_SPIRITUALISM
-	.2byte  ITEM_CARD_SPORE
 	.2byte  ITEM_CARD_SPRIGHT_BLUE
 	.2byte  ITEM_CARD_SPRIGHT_CARROT
-	.2byte  ITEM_CARD_SPRIGHT_DOUBLE_CROSS
 	.2byte  ITEM_CARD_SPRIGHT_ELF
 	.2byte  ITEM_CARD_SPRIGHT_JET
-	.2byte  ITEM_CARD_SPRIGHT_PIXIES
 	.2byte  ITEM_CARD_SPRIGHT_RED
 	.2byte  ITEM_CARD_SPRIGHT_SMASHERS
 	.2byte  ITEM_CARD_SPRIGHT_SPRIND
 	.2byte  ITEM_CARD_SPRIGHT_STARTER
 	.2byte  ITEM_CARD_STARDUST_DRAGON
-	.2byte  ITEM_CARD_STARLIEGE_SEYFERT
 	.2byte  ITEM_CARD_STARLIGHT_ROAD
 	.2byte  ITEM_CARD_STEALTH_BIRD
 	.2byte  ITEM_CARD_STEELSWARM_ROACH
-	.2byte  ITEM_CARD_STELLARNOVA_ALPHA
 	.2byte  ITEM_CARD_STONE_STATUE_OF_THE_AZTECS
 	.2byte  ITEM_CARD_STOP_DEFENSE
-	.2byte  ITEM_CARD_STORM
-	.2byte  ITEM_CARD_STORMING_MIRROR_FORCE
-	.2byte  ITEM_CARD_STRAY_PURRELY_STREET
 	.2byte  ITEM_CARD_STREAM_DRAGON_RULER_OF_DROPLETS
 	.2byte  ITEM_CARD_STRIKE_NINJA
-	.2byte  ITEM_CARD_STYGIAN_DIRGE
-	.2byte  ITEM_CARD_STYGIAN_STREET_PATROL
 	.2byte  ITEM_CARD_SUBSTITOAD
 	.2byte  ITEM_CARD_SUMMON_LIMIT
 	.2byte  ITEM_CARD_SUMMONED_SKULL
 	.2byte  ITEM_CARD_SUMMONER_MONK
 	.2byte  ITEM_CARD_SUMMONER_S_ART
-	.2byte  ITEM_CARD_SUNSEED_GENIUS_LOCI
-	.2byte  ITEM_CARD_SUNVINE_SOWING
 	.2byte  ITEM_CARD_SUPER_POLYMERIZATION
-	.2byte  ITEM_CARD_SUPER_QUANTUM_RED_LAYER
 	.2byte  ITEM_CARD_SUPER_REJUVENATION
 	.2byte  ITEM_CARD_SUPER_SOLDIER_SOUL
 	.2byte  ITEM_CARD_SUPER_STARSLAYER_TY_PHON_SKY_CRISIS
-	.2byte  ITEM_CARD_SUPER_NIMBLE_MEGA_HAMSTER
-	.2byte  ITEM_CARD_SUPPLY_SQUAD
-	.2byte  ITEM_CARD_SUPREME_KING_DRAGON_DARKWURM
-	.2byte  ITEM_CARD_SWALLOW_FLIP
 	.2byte  ITEM_CARD_SWAP_FROG
 	.2byte  ITEM_CARD_SWARM_OF_LOCUSTS
 	.2byte  ITEM_CARD_SWARM_OF_SCARABS
 	.2byte  ITEM_CARD_SWIFT_SCARECROW
 	.2byte  ITEM_CARD_SWORD_RYZEAL
-	.2byte  ITEM_CARD_SWORDS_OF_CONCEALING_LIGHT
 	.2byte  ITEM_CARD_SWORDS_OF_REVEALING_LIGHT
 	.2byte  ITEM_CARD_SWORDSOUL_BLACKOUT
 	.2byte  ITEM_CARD_SWORDSOUL_EMERGENCE
 	.2byte  ITEM_CARD_SWORDSOUL_GRANDMASTER_CHIXIAO
-	.2byte  ITEM_CARD_SWORDSOUL_SACRED_SUMMIT
-	.2byte  ITEM_CARD_SWORDSOUL_STRATEGIST_LONGYUAN
 	.2byte  ITEM_CARD_SWORDSOUL_OF_MO_YE
 	.2byte  ITEM_CARD_SWORDSOUL_OF_TAIA
+	.2byte  ITEM_CARD_SWORDSOUL_STRATEGIST_LONGYUAN
 	.2byte  ITEM_CARD_SYSTEM_DOWN
 	.2byte  ITEM_CARD_T_A_D_P_O_L_E_
-	.2byte  ITEM_CARD_T_G_HYPER_LIBRARIAN
 	.2byte  ITEM_CARD_T_G_RUSH_RHINO
 	.2byte  ITEM_CARD_T_G_STRIKER
 	.2byte  ITEM_CARD_T_G_WARWOLF
-	.2byte  ITEM_CARD_TG1_EM1
 	.2byte  ITEM_CARD_TEARLAMENTS_CRYME
-	.2byte  ITEM_CARD_TEARLAMENTS_GRIEF
 	.2byte  ITEM_CARD_TEARLAMENTS_HAVNIS
 	.2byte  ITEM_CARD_TEARLAMENTS_HEARTBEAT
 	.2byte  ITEM_CARD_TEARLAMENTS_KALEIDO_HEART
@@ -4818,31 +3809,25 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_TEARLAMENTS_SCREAM
 	.2byte  ITEM_CARD_TEARLAMENTS_SULLIEK
 	.2byte  ITEM_CARD_TELLARKNIGHT_PTOLEMAEUS
-	.2byte  ITEM_CARD_TEMPERANCE_OF_PROPHECY
+	.2byte  ITEM_CARD_TEMPEST_MAGICIAN
 	.2byte  ITEM_CARD_TEMPEST_DRAGON_RULER_OF_STORMS
 	.2byte  ITEM_CARD_TEMTEMPO_THE_PERCUSSION_DJINN
 	.2byte  ITEM_CARD_TENACITY_OF_THE_MONARCHS
 	.2byte  ITEM_CARD_TENMATAITEI
 	.2byte  ITEM_CARD_TENPAI_DRAGON_CHUNDRA
 	.2byte  ITEM_CARD_TENPAI_DRAGON_FADRA
-	.2byte  ITEM_CARD_TENPAI_DRAGON_GENROKU
-	.2byte  ITEM_CARD_TENPAI_DRAGON_PAIDRA
 	.2byte  ITEM_CARD_TENYI_SPIRIT_ADHARA
 	.2byte  ITEM_CARD_TENYI_SPIRIT_ASHUNA
-	.2byte  ITEM_CARD_TENYI_SPIRIT_SHTHANA
 	.2byte  ITEM_CARD_TENYI_SPIRIT_VISHUDA
 	.2byte  ITEM_CARD_TERRAFORMING
-	.2byte  ITEM_CARD_TERRORKING_ARCHFIEND
 	.2byte  ITEM_CARD_TERRORKING_SALMON
 	@.2byte  ITEM_CARD_TESSERA_THE_PRIME_SQUIRE
 	.2byte  ITEM_CARD_TEST_TIGER
+	.2byte  ITEM_CARD_TG1_EM1
 	.2byte  ITEM_CARD_THAT_GRASS_LOOKS_GREENER
-	.2byte  ITEM_CARD_THE_AGENT_OF_CREATION_VENUS
 	.2byte  ITEM_CARD_THE_AGENT_OF_MIRACLES_JUPITER
 	.2byte  ITEM_CARD_THE_AGENT_OF_MYSTERY_EARTH
-	.2byte  ITEM_CARD_THE_BEGINNING_OF_THE_END
 	.2byte  ITEM_CARD_THE_BIG_MARCH_OF_ANIMALS
-	.2byte  ITEM_CARD_THE_BLACK_GOAT_LAUGHS
 	.2byte  ITEM_CARD_THE_BLACK_STONE_OF_LEGEND
 	.2byte  ITEM_CARD_THE_BYSTIAL_ALUBER
 	.2byte  ITEM_CARD_THE_BYSTIAL_LUBELLION
@@ -4850,41 +3835,24 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_THE_DARK_MAGICIANS
 	.2byte  ITEM_CARD_THE_DRAGON_DWELLING_IN_THE_CAVE
 	.2byte  ITEM_CARD_THE_EARTH_HEX_SEALED_FUSION
-	.2byte  ITEM_CARD_THE_FABLED_CATSITH
-	.2byte  ITEM_CARD_THE_FABLED_CERBURREL
-	.2byte  ITEM_CARD_THE_FABLED_CHAWA
-	.2byte  ITEM_CARD_THE_FABLED_GANASHIA
-	.2byte  ITEM_CARD_THE_FABLED_NOZOOCHEE
 	.2byte  ITEM_CARD_THE_FIEND_MEGACYBER
 	.2byte  ITEM_CARD_THE_FORCEFUL_SENTRY
 	.2byte  ITEM_CARD_THE_FORGIVING_MAIDEN
-	.2byte  ITEM_CARD_THE_GATES_OF_DARK_WORLD
 	.2byte  ITEM_CARD_THE_GOLDEN_SWORDSOUL
-	.2byte  ITEM_CARD_THE_GRAND_SPELLBOOK_TOWER
-	.2byte  ITEM_CARD_THE_HALLOWED_AZAMINA
 	.2byte  ITEM_CARD_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET
 	.2byte  ITEM_CARD_THE_LIGHT_HEX_SEALED_FUSION
 	.2byte  ITEM_CARD_THE_LITTLE_SWORDSMAN_OF_AILE
-	.2byte  ITEM_CARD_THE_MONARCHS_ERUPT
 	.2byte  ITEM_CARD_THE_MONARCHS_STORMFORTH
 	.2byte  ITEM_CARD_THE_PHANTOM_KNIGHTS_OF_ANCIENT_CLOAK
 	.2byte  ITEM_CARD_THE_PHANTOM_KNIGHTS_OF_BREAK_SWORD
-	.2byte  ITEM_CARD_THE_PHANTOM_KNIGHTS_OF_RAGGED_GLOVES
 	.2byte  ITEM_CARD_THE_PHANTOM_KNIGHTS_OF_SILENT_BOOTS
 	.2byte  ITEM_CARD_THE_PRIME_MONARCH
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_IROU
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_YAICHI
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_ZANJI
-	.2byte  ITEM_CARD_THE_TRANSMIGRATION_PROPHECY
-	.2byte  ITEM_CARD_THE_TRAVELER_AND_THE_BURNING_ABYSS
 	.2byte  ITEM_CARD_THE_TRICKY
 	.2byte  ITEM_CARD_THE_WHITE_STONE_OF_ANCIENTS
 	.2byte  ITEM_CARD_THE_WHITE_STONE_OF_LEGEND
 	.2byte  ITEM_CARD_THE_WICKED_WORM_BEAST
 	.2byte  ITEM_CARD_THE_WINGED_DRAGON_OF_RA_SPHERE_MODE
 	.2byte  ITEM_CARD_THERE_CAN_BE_ONLY_ONE
-	.2byte  ITEM_CARD_THERION_KING_REGULUS
-	.2byte  ITEM_CARD_THERION_LILY_BOREA
 	.2byte  ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH
 	.2byte  ITEM_CARD_THESTALOS_THE_MEGA_MONARCH
 	.2byte  ITEM_CARD_THESTALOS_THE_SHADOWFIRE_MONARCH
@@ -4892,10 +3860,9 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_THOUSAND_EYES_RESTRICT
 	.2byte  ITEM_CARD_THREATENING_ROAR
 	.2byte  ITEM_CARD_THROWSTONE_UNIT
-	.2byte  ITEM_CARD_THUNDER_DRAGON_COLOSSUS
-	.2byte  ITEM_CARD_THUNDER_DRAGON_FUSION
-	.2byte  ITEM_CARD_THUNDER_DRAGON_TITAN
 	.2byte  ITEM_CARD_THUNDER_DRAGON
+	.2byte  ITEM_CARD_THUNDER_DRAGON_COLOSSUS
+	.2byte  ITEM_CARD_THUNDER_DRAGON_TITAN
 	.2byte  ITEM_CARD_THUNDER_DRAGONDARK
 	.2byte  ITEM_CARD_THUNDER_DRAGONDUO
 	.2byte  ITEM_CARD_THUNDER_DRAGONHAWK
@@ -4909,7 +3876,6 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_TIMAEUS_THE_UNITED_DRAGON
 	.2byte  ITEM_CARD_TIME_SEAL
 	.2byte  ITEM_CARD_TIME_SPACE_TRAP_HOLE
-	.2byte  ITEM_CARD_TIN_GOLDFISH
 	.2byte  ITEM_CARD_TITANIKLAD_THE_ASH_DRAGON
 	.2byte  ITEM_CARD_TLAKALEL_HIS_MALEVOLENT_MAJESTY
 	.2byte  ITEM_CARD_TOADALLY_AWESOME
@@ -4925,18 +3891,15 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_TOON_TABLE_OF_CONTENTS
 	.2byte  ITEM_CARD_TORNADO_DRAGON
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
+	.2byte  ITEM_CARD_TOTEM_BIRD
 	.2byte  ITEM_CARD_TOUR_GUIDE_FROM_THE_UNDERWORLD
-	.2byte  ITEM_CARD_TRADE_IN
 	.2byte  ITEM_CARD_TRADETOAD
 	.2byte  ITEM_CARD_TRAGOEDIA
-	.2byte  ITEM_CARD_TRANCE_ARCHFIEND
-	.2byte  ITEM_CARD_TRANSACTION_ROLLBACK
 	.2byte  ITEM_CARD_TRAP_DUSTSHOOT
 	.2byte  ITEM_CARD_TRAP_EATER
 	.2byte  ITEM_CARD_TRAP_HOLE
 	.2byte  ITEM_CARD_TRAP_MASTER
 	.2byte  ITEM_CARD_TRAP_STUN
-	.2byte  ITEM_CARD_TRAP_TRICK
 	.2byte  ITEM_CARD_TRAPTRIX_ARACHNOCAMPA
 	.2byte  ITEM_CARD_TRAPTRIX_ATRAX
 	.2byte  ITEM_CARD_TRAPTRIX_DIONAEA
@@ -4948,11 +3911,9 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_TRAPTRIX_RAFFLESIA
 	.2byte  ITEM_CARD_TRAPTRIX_TRAP_HOLE_NIGHTMARE
 	.2byte  ITEM_CARD_TRAPTRIX_VESICULO
-	.2byte  ITEM_CARD_TREACHEROUS_TRAP_HOLE
 	.2byte  ITEM_CARD_TREEBORN_FROG
 	.2byte  ITEM_CARD_TREMENDOUS_FIRE
 	.2byte  ITEM_CARD_TRI_BRIGADE_FRAKTALL
-	.2byte  ITEM_CARD_TRI_BRIGADE_KERASS
 	.2byte  ITEM_CARD_TRI_BRIGADE_KITT
 	.2byte  ITEM_CARD_TRI_BRIGADE_NERVALL
 	.2byte  ITEM_CARD_TRI_BRIGADE_REVOLT
@@ -4960,20 +3921,14 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_TRIBUTE_TO_THE_DOOMED
 	.2byte  ITEM_CARD_TRICKSTAR_CANDINA
 	.2byte  ITEM_CARD_TRICKSTAR_LIGHT_STAGE
-	.2byte  ITEM_CARD_TRICKSTAR_LILYBELL
 	.2byte  ITEM_CARD_TRICKSTAR_LYCORIS
 	.2byte  ITEM_CARD_TRICKSTAR_REINCARNATION
-	.2byte  ITEM_CARD_TRIGON
 	.2byte  ITEM_CARD_TRIPLE_TACTICS_TALENT
 	.2byte  ITEM_CARD_TRIPLE_TACTICS_THRUST
 	.2byte  ITEM_CARD_TRISHULA_DRAGON_OF_THE_ICE_BARRIER
-	.2byte  ITEM_CARD_TRIVIKARMA
-	.2byte  ITEM_CARD_TRUE_DRACO_APOCALYPSE
 	.2byte  ITEM_CARD_TRUE_DRACO_HERITAGE
-	.2byte  ITEM_CARD_TRUE_KING_LITHOSAGYM_THE_DISASTER
 	.2byte  ITEM_CARD_TRUE_KING_S_RETURN
 	.2byte  ITEM_CARD_TSUKUYOMI
-	.2byte  ITEM_CARD_TUNING
 	.2byte  ITEM_CARD_TWILIGHT_NINJA_GETSUGA_THE_SHOGUN
 	.2byte  ITEM_CARD_TWILIGHT_NINJA_NICHIRIN_THE_CHUNIN
 	.2byte  ITEM_CARD_TWILIGHT_NINJA_SHINGETSU
@@ -4982,15 +3937,6 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_TWIN_HEADED_THUNDER_DRAGON
 	.2byte  ITEM_CARD_TWISTER
 	.2byte  ITEM_CARD_TYPHOON
-	.2byte  ITEM_CARD_TYTANNIAL_PRINCESS_OF_CAMELLIAS
-	.2byte  ITEM_CARD_U_A_MIDFIELDER
-	.2byte  ITEM_CARD_U_A_MIGHTY_SLUGGER
-	.2byte  ITEM_CARD_U_A_PENALTY_BOX
-	.2byte  ITEM_CARD_U_A_PERFECT_ACE
-	.2byte  ITEM_CARD_U_A_POWERED_JERSEY
-	.2byte  ITEM_CARD_U_A_RIVAL_REBOUNDER
-	.2byte  ITEM_CARD_U_A_SIGNING_DEAL
-	.2byte  ITEM_CARD_U_A_STADIUM
 	.2byte  ITEM_CARD_UFO_TURTLE
 	.2byte  ITEM_CARD_ULTIMATE_FLAME_SWORDSMAN
 	.2byte  ITEM_CARD_ULTIMATE_INSECT_LV3
@@ -4998,74 +3944,48 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_ULTIMATE_INSECT_LV7
 	.2byte  ITEM_CARD_ULTIMATE_OFFERING
 	.2byte  ITEM_CARD_ULTIMATE_SLAYER
-	.2byte  ITEM_CARD_UNCHAINED_SOUL_OF_SHARVARA
-	.2byte  ITEM_CARD_UNCHAINED_TWINS_ARUHA
-	.2byte  ITEM_CARD_UNENDING_NIGHTMARE
-	.2byte  ITEM_CARD_UNEXPECTED_DAI
-	.2byte  ITEM_CARD_UNIFROG
-	.2byte  ITEM_CARD_UNION_HANGAR
 	.2byte  ITEM_CARD_UNITED_WE_STAND
 	.2byte  ITEM_CARD_UPSTART_GOBLIN
 	.2byte  ITEM_CARD_UPSTART_GOLDEN_NINJA
 	.2byte  ITEM_CARD_VAMPIRE_LORD
 	.2byte  ITEM_CARD_VANITY_S_EMPTINESS
 	.2byte  ITEM_CARD_VANITY_S_FIEND
-	.2byte  ITEM_CARD_VANITY_S_RULER
 	.2byte  ITEM_CARD_VECTOR_PENDULUM_THE_DRACOVERLORD
 	.2byte  ITEM_CARD_VESSEL_FOR_THE_DRAGON_CYCLE
 	.2byte  ITEM_CARD_VIRGIL_ROCK_STAR_OF_THE_BURNING_ABYSS
-	.2byte  ITEM_CARD_VIRTUAL_WORLD_CITY_KAUWLOON
-	.2byte  ITEM_CARD_VIRTUAL_WORLD_GATE_CHUCHE
-	.2byte  ITEM_CARD_VIRTUAL_WORLD_GATE_QINGLONG
-	.2byte  ITEM_CARD_VIRTUAL_WORLD_GATE_XUANWU
-	.2byte  ITEM_CARD_VIRTUAL_WORLD_HIME_NYANNYAN
-	.2byte  ITEM_CARD_VIRTUAL_WORLD_KIRIN_LILI
-	.2byte  ITEM_CARD_VIRTUAL_WORLD_MAI_HIME_LULU
-	.2byte  ITEM_CARD_VIRTUAL_WORLD_ROSHI_LAOLAO
-	.2byte  ITEM_CARD_VIRTUAL_WORLD_XIEZHI_JIJI
 	.2byte  ITEM_CARD_VISION_HERO_VYON
 	.2byte  ITEM_CARD_VOID_FEAST
-	.2byte  ITEM_CARD_VOID_IMAGINATION
 	.2byte  ITEM_CARD_VOID_VANISHMENT
 	.2byte  ITEM_CARD_VOLCANIC_SCATTERSHOT
 	.2byte  ITEM_CARD_VORSE_RAIDER
-	.2byte  ITEM_CARD_WANTED_SEEKER_OF_SINFUL_SPOILS
 	.2byte  ITEM_CARD_WABOKU
 	.2byte  ITEM_CARD_WALL_OF_ILLUSION
 	.2byte  ITEM_CARD_WALL_OF_REVEALING_LIGHT
 	.2byte  ITEM_CARD_WANDERING_GRYPHON_RIDER
+	.2byte  ITEM_CARD_WANTED_SEEKER_OF_SINFUL_SPOILS
 	.2byte  ITEM_CARD_WATER_ENCHANTRESS_OF_THE_TEMPLE
 	.2byte  ITEM_CARD_WAVE_MOTION_CANNON
 	.2byte  ITEM_CARD_WAVERING_EYES
-	.2byte  ITEM_CARD_WELCOME_LABRYNTH
-	.2byte  ITEM_CARD_WHERE_ARF_THOU_
 	.2byte  ITEM_CARD_WHITE_DRAGON_NINJA
 	.2byte  ITEM_CARD_WHITE_DRAGON_RITUAL
 	.2byte  ITEM_CARD_WHITE_DRAGON_WYVERBURSTER
 	.2byte  ITEM_CARD_WHITE_MAGICAL_HAT
 	.2byte  ITEM_CARD_WHITE_NIGHT_DRAGON
 	.2byte  ITEM_CARD_WHITE_NINJA
-	.2byte  ITEM_CARD_WIDESPREAD_DUD
 	.2byte  ITEM_CARD_WIDESPREAD_RUIN
-	.2byte  ITEM_CARD_WILL_OF_THE_SALAMANGREAT
-	.2byte  ITEM_CARD_WIND_UP_CARRIER_ZENMAITY
 	.2byte  ITEM_CARD_WIND_UP_FACTORY
-	.2byte  ITEM_CARD_WIND_UP_HUNTER
 	.2byte  ITEM_CARD_WIND_UP_MAGICIAN
 	.2byte  ITEM_CARD_WIND_UP_RABBIT
 	.2byte  ITEM_CARD_WIND_UP_RAT
 	.2byte  ITEM_CARD_WIND_UP_SHARK
 	.2byte  ITEM_CARD_WIND_UP_ZENMAINES
-	.2byte  ITEM_CARD_WINGED_RHYNOS
-	.2byte  ITEM_CARD_WIRETAP
-	.2byte  ITEM_CARD_WISDOM_EYE_MAGICIAN
 	.2byte  ITEM_CARD_WITCH_OF_THE_BLACK_FOREST
-	.2byte  ITEM_CARD_WORLD_LEGACY_WORLD_WAND_
 	.2byte  ITEM_CARD_WROUGHTWEILER
 	.2byte  ITEM_CARD_WULF_LIGHTSWORN_BEAST
 	.2byte  ITEM_CARD_X_HEAD_CANNON
 	.2byte  ITEM_CARD_X_SABER_AIRBELLUM
-	.2byte  ITEM_CARD_X_SABER_PASHUUL
+	.2byte  ITEM_CARD_X_SABER_URBELLUM
+	.2byte  ITEM_CARD_XING_ZHEN_HU
 	.2byte  ITEM_CARD_XX_SABER_BOGGART_KNIGHT
 	.2byte  ITEM_CARD_XX_SABER_DARKSOUL
 	.2byte  ITEM_CARD_XX_SABER_EMMERSBLADE
@@ -5073,19 +3993,12 @@ InsideOfTruck_PokemartCustom:
 	.2byte  ITEM_CARD_XX_SABER_FULHELMKNIGHT
 	.2byte  ITEM_CARD_XX_SABER_GOTTOMS
 	.2byte  ITEM_CARD_XX_SABER_HYUNLEI
-	.2byte  ITEM_CARD_XING_ZHEN_HU
 	.2byte  ITEM_CARD_XYZ_ENCORE
-	.2byte  ITEM_CARD_XYZ_UNIVERSE
 	.2byte  ITEM_CARD_YATA_GARASU
 	.2byte  ITEM_CARD_YELLOW_DRAGON_NINJA
-	.2byte  ITEM_CARD_YELLOW_GADGET
 	.2byte  ITEM_CARD_YELLOW_NINJA
 	.2byte  ITEM_CARD_YOMI_SHIP
-	.2byte  ITEM_CARD_YUBEL_TERROR_INCARNATE
-	.2byte  ITEM_CARD_YUBEL
 	.2byte  ITEM_CARD_ZABORG_THE_THUNDER_MONARCH
-	.2byte  ITEM_CARD_ZAPHION_THE_TIMELORD
-	.2byte  ITEM_CARD_ZEFRASABER_SWORDMASTER_OF_THE_NEKROZ
 	.2byte  ITEM_CARD_ZOMBIE_MASTER
 	.2byte  ITEM_CARD_ZOMBIE_WORLD
 	.2byte  ITEM_CARD_ZOMBINO
@@ -5131,8 +4044,10 @@ InsideOfTruck_PokemartYugiKaiba:
 	.2byte  ITEM_CARD_DARKFIRE_DRAGON
 	.2byte  ITEM_CARD_DE_SPELL
 	.2byte  ITEM_CARD_DIAN_KETO_THE_CURE_MASTER
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_FINAL_FLAME
 	.2byte  ITEM_CARD_FISSURE
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_FLAME_SWORDSMAN
 	.2byte  ITEM_CARD_GAIA_THE_DRAGON_CHAMPION
 	.2byte  ITEM_CARD_GIANT_SOLDIER_OF_STONE
@@ -5191,10 +4106,13 @@ InsideOfTruck_PokemartCritter:
 	.2byte  ITEM_CARD_DARK_HOLE
 	.2byte  ITEM_CARD_DARKFIRE_DRAGON
 	.2byte  ITEM_CARD_DE_SPELL
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DREAM_CLOWN
+	.2byte  ITEM_CARD_EMPRESS_JUDGE
 	.2byte  ITEM_CARD_EXODIA_THE_FORBIDDEN_ONE
 	.2byte  ITEM_CARD_FAKE_TRAP
 	.2byte  ITEM_CARD_FISSURE
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_FLAME_SWORDSMAN
 	.2byte  ITEM_CARD_GAIA_THE_DRAGON_CHAMPION
 	.2byte  ITEM_CARD_GIANT_SOLDIER_OF_STONE
@@ -5218,6 +4136,7 @@ InsideOfTruck_PokemartCritter:
 	.2byte  ITEM_CARD_MUKA_MUKA
 	.2byte  ITEM_CARD_POLYMERIZATION
 	.2byte  ITEM_CARD_POT_OF_GREED
+	.2byte  ITEM_CARD_PUNISHED_EAGLE
 	.2byte  ITEM_CARD_RAIGEKI
 	.2byte  ITEM_CARD_REINFORCEMENTS
 	.2byte  ITEM_CARD_REMOVE_TRAP
@@ -5272,7 +4191,10 @@ InsideOfTruck_PokemartTreasure:
 	.2byte  ITEM_CARD_DARK_HOLE
 	.2byte  ITEM_CARD_DARKFIRE_DRAGON
 	.2byte  ITEM_CARD_DELINQUENT_DUO
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
+	.2byte  ITEM_CARD_EMPRESS_JUDGE
 	.2byte  ITEM_CARD_FISSURE
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_FLAME_SWORDSMAN
 	.2byte  ITEM_CARD_GAIA_POWER
 	.2byte  ITEM_CARD_GAIA_THE_DRAGON_CHAMPION
@@ -5350,14 +4272,15 @@ InsideOfTruck_PokemartImperial:
 	.2byte  ITEM_CARD_DARK_HOLE
 	.2byte  ITEM_CARD_DARKFIRE_DRAGON
 	.2byte  ITEM_CARD_DELINQUENT_DUO
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DUST_TORNADO
 	.2byte  ITEM_CARD_FISSURE
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_FLAME_SWORDSMAN
 	.2byte  ITEM_CARD_GAIA_THE_DRAGON_CHAMPION
 	.2byte  ITEM_CARD_GIANT_SOLDIER_OF_STONE
 	.2byte  ITEM_CARD_GIANT_TRUNADE
 	.2byte  ITEM_CARD_GOBLIN_ATTACK_FORCE
-	.2byte  ITEM_CARD_GRAVEROBBER
 	.2byte  ITEM_CARD_HEAVY_STORM
 	.2byte  ITEM_CARD_IMPERIAL_ORDER
 	.2byte  ITEM_CARD_JINZO
@@ -5375,6 +4298,7 @@ InsideOfTruck_PokemartImperial:
 	.2byte  ITEM_CARD_PAINFUL_CHOICE
 	.2byte  ITEM_CARD_POT_OF_GREED
 	.2byte  ITEM_CARD_PREMATURE_BURIAL
+	.2byte  ITEM_CARD_PUNISHED_EAGLE
 	.2byte  ITEM_CARD_RAIGEKI
 	.2byte  ITEM_CARD_ROARING_OCEAN_SNAKE
 	.2byte  ITEM_CARD_SANGAN
@@ -5426,10 +4350,12 @@ InsideOfTruck_PokemartAndroid:
 	.2byte  ITEM_CARD_DARK_HOLE
 	.2byte  ITEM_CARD_DARKFIRE_DRAGON
 	.2byte  ITEM_CARD_DELINQUENT_DUO
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DUST_TORNADO
 	.2byte  ITEM_CARD_EARTHBOUND_SPIRIT
 	.2byte  ITEM_CARD_EXCHANGE
 	.2byte  ITEM_CARD_FISSURE
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_FLAME_SWORDSMAN
 	.2byte  ITEM_CARD_GAIA_THE_DRAGON_CHAMPION
 	.2byte  ITEM_CARD_GEMINI_ELF
@@ -5471,7 +4397,6 @@ InsideOfTruck_PokemartAndroid:
 	.2byte  ITEM_CARD_SNATCH_STEAL
 	.2byte  ITEM_CARD_SOLEMN_JUDGMENT
 	.2byte  ITEM_CARD_SOLEMN_WISHES
-	.2byte  ITEM_CARD_SOUL_RELEASE
 	.2byte  ITEM_CARD_SUMMONED_SKULL
 	.2byte  ITEM_CARD_SWORDS_OF_REVEALING_LIGHT
 	.2byte  ITEM_CARD_THE_FORCEFUL_SENTRY
@@ -5505,7 +4430,6 @@ InsideOfTruck_EventScript_Clerk_JoeyPegasus::
 InsideOfTruck_PokemartJoeyPegasus:
 	.2byte  ITEM_CARD_ARMED_NINJA
 	.2byte  ITEM_CARD_AXE_OF_DESPAIR
-	.2byte  ITEM_CARD_BACKUP_SOLDIER
 	.2byte  ITEM_CARD_BAZOO_THE_SOUL_EATER
 	.2byte  ITEM_CARD_BICKURIBOX
 	.2byte  ITEM_CARD_BLACK_SKULL_DRAGON
@@ -5518,10 +4442,13 @@ InsideOfTruck_PokemartJoeyPegasus:
 	.2byte  ITEM_CARD_DARK_HOLE
 	.2byte  ITEM_CARD_DARKFIRE_DRAGON
 	.2byte  ITEM_CARD_DELINQUENT_DUO
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DUST_TORNADO
+	.2byte  ITEM_CARD_EMPRESS_JUDGE
 	.2byte  ITEM_CARD_EXCHANGE
 	.2byte  ITEM_CARD_EXODIA_THE_FORBIDDEN_ONE
 	.2byte  ITEM_CARD_FISSURE
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_FLAME_SWORDSMAN
 	.2byte  ITEM_CARD_GAIA_THE_DRAGON_CHAMPION
 	.2byte  ITEM_CARD_GEMINI_ELF
@@ -5617,11 +4544,14 @@ InsideOfTruck_PokemartFiber:
 	.2byte  ITEM_CARD_DARK_RULER_HA_DES
 	.2byte  ITEM_CARD_DARKFIRE_DRAGON
 	.2byte  ITEM_CARD_DELINQUENT_DUO
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DUST_TORNADO
+	.2byte  ITEM_CARD_EMPRESS_JUDGE
 	.2byte  ITEM_CARD_EXILED_FORCE
 	.2byte  ITEM_CARD_FIBER_JAR
 	.2byte  ITEM_CARD_FIEND_SKULL_DRAGON
 	.2byte  ITEM_CARD_FISSURE
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_FLAME_SWORDSMAN
 	.2byte  ITEM_CARD_GAIA_THE_DRAGON_CHAMPION
 	.2byte  ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT
@@ -5727,13 +4657,16 @@ InsideOfTruck_PokemartYata:
 	.2byte  ITEM_CARD_DARKFIRE_DRAGON
 	.2byte  ITEM_CARD_DELINQUENT_DUO
 	.2byte  ITEM_CARD_DON_ZALOOG
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DROP_OFF
 	.2byte  ITEM_CARD_DUST_TORNADO
 	.2byte  ITEM_CARD_ELECTRIC_SNAKE
+	.2byte  ITEM_CARD_EMPRESS_JUDGE
 	.2byte  ITEM_CARD_EXILED_FORCE
 	.2byte  ITEM_CARD_FIBER_JAR
 	.2byte  ITEM_CARD_FIEND_SKULL_DRAGON
 	.2byte  ITEM_CARD_FISSURE
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_FLAME_SWORDSMAN
 	.2byte  ITEM_CARD_GAIA_THE_DRAGON_CHAMPION
 	.2byte  ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT
@@ -5759,7 +4692,6 @@ InsideOfTruck_PokemartYata:
 	.2byte  ITEM_CARD_KURIBOH
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
 	.2byte  ITEM_CARD_LABYRINTH_TANK
-	.2byte  ITEM_CARD_LAVA_GOLEM
 	.2byte  ITEM_CARD_LESSER_FIEND
 	.2byte  ITEM_CARD_MAGIC_CYLINDER
 	.2byte  ITEM_CARD_MAGIC_JAMMER
@@ -5782,6 +4714,7 @@ InsideOfTruck_PokemartYata:
 	.2byte  ITEM_CARD_POT_OF_GREED
 	.2byte  ITEM_CARD_PREMATURE_BURIAL
 	.2byte  ITEM_CARD_PRINCESS_OF_TSURUGI
+	.2byte  ITEM_CARD_PUNISHED_EAGLE
 	.2byte  ITEM_CARD_PYRAMID_TURTLE
 	.2byte  ITEM_CARD_RAIGEKI
 	.2byte  ITEM_CARD_RAIGEKI_BREAK
@@ -5789,7 +4722,6 @@ InsideOfTruck_PokemartYata:
 	.2byte  ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
 	.2byte  ITEM_CARD_RING_OF_DESTRUCTION
 	.2byte  ITEM_CARD_ROARING_OCEAN_SNAKE
-	.2byte  ITEM_CARD_ROYAL_TRIBUTE
 	.2byte  ITEM_CARD_RYU_SENSHI
 	.2byte  ITEM_CARD_SANGAN
 	.2byte  ITEM_CARD_SASUKE_SAMURAI
@@ -5833,7 +4765,6 @@ InsideOfTruck_EventScript_Clerk_Scientist::
 InsideOfTruck_PokemartScientist:
 	.2byte  ITEM_CARD_AIRKNIGHT_PARSHATH
 	.2byte  ITEM_CARD_AMAZONESS_ARCHER
-	.2byte  ITEM_CARD_APPRENTICE_MAGICIAN
 	.2byte  ITEM_CARD_BOOK_OF_MOON
 	.2byte  ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR
 	.2byte  ITEM_CARD_CALL_OF_THE_HAUNTED
@@ -5854,7 +4785,9 @@ InsideOfTruck_PokemartScientist:
 	.2byte  ITEM_CARD_DARKFIRE_DRAGON
 	.2byte  ITEM_CARD_DELINQUENT_DUO
 	.2byte  ITEM_CARD_DON_ZALOOG
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DUST_TORNADO
+	.2byte  ITEM_CARD_EMPRESS_JUDGE
 	.2byte  ITEM_CARD_EXILED_FORCE
 	.2byte  ITEM_CARD_FIBER_JAR
 	.2byte  ITEM_CARD_FIEND_SKULL_DRAGON
@@ -5887,12 +4820,12 @@ InsideOfTruck_PokemartScientist:
 	.2byte  ITEM_CARD_NEWDORIA
 	.2byte  ITEM_CARD_NIMBLE_MOMONGA
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
-	.2byte  ITEM_CARD_NON_AGGRESSION_AREA
 	.2byte  ITEM_CARD_OFFERINGS_TO_THE_DOOMED
 	.2byte  ITEM_CARD_PAINFUL_CHOICE
 	.2byte  ITEM_CARD_POISON_OF_THE_OLD_MAN
 	.2byte  ITEM_CARD_POT_OF_GREED
 	.2byte  ITEM_CARD_PREMATURE_BURIAL
+	.2byte  ITEM_CARD_PUNISHED_EAGLE
 	.2byte  ITEM_CARD_RAIGEKI
 	.2byte  ITEM_CARD_RAIGEKI_BREAK
 	.2byte  ITEM_CARD_REAPER_ON_THE_NIGHTMARE
@@ -5964,12 +4897,14 @@ InsideOfTruck_PokemartVampire:
 	.2byte  ITEM_CARD_DARKFIRE_DRAGON
 	.2byte  ITEM_CARD_DELINQUENT_DUO
 	.2byte  ITEM_CARD_DES_KOALA
-	.2byte  ITEM_CARD_DESROOK_ARCHFIEND
 	.2byte  ITEM_CARD_DON_ZALOOG
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DUST_TORNADO
+	.2byte  ITEM_CARD_EMPRESS_JUDGE
 	.2byte  ITEM_CARD_EXILED_FORCE
 	.2byte  ITEM_CARD_FIBER_JAR
 	.2byte  ITEM_CARD_FIEND_SKULL_DRAGON
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_GIANT_TRUNADE
 	.2byte  ITEM_CARD_GRACEFUL_CHARITY
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_SPY
@@ -6003,6 +4938,7 @@ InsideOfTruck_PokemartVampire:
 	.2byte  ITEM_CARD_POISON_OF_THE_OLD_MAN
 	.2byte  ITEM_CARD_POT_OF_GREED
 	.2byte  ITEM_CARD_PREMATURE_BURIAL
+	.2byte  ITEM_CARD_PUNISHED_EAGLE
 	.2byte  ITEM_CARD_PYRAMID_TURTLE
 	.2byte  ITEM_CARD_RAIGEKI
 	.2byte  ITEM_CARD_RAIGEKI_BREAK
@@ -6026,7 +4962,6 @@ InsideOfTruck_PokemartVampire:
 	.2byte  ITEM_CARD_SUMMONED_SKULL
 	.2byte  ITEM_CARD_SWORDS_OF_REVEALING_LIGHT
 	.2byte  ITEM_CARD_TERRAFORMING
-	.2byte  ITEM_CARD_TERRORKING_ARCHFIEND
 	.2byte  ITEM_CARD_THE_FORCEFUL_SENTRY
 	.2byte  ITEM_CARD_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET
 	.2byte  ITEM_CARD_THE_LITTLE_SWORDSMAN_OF_AILE
@@ -6094,12 +5029,15 @@ InsideOfTruck_PokemartChaos:
 	.2byte  ITEM_CARD_DELINQUENT_DUO
 	.2byte  ITEM_CARD_DIMENSION_FUSION
 	.2byte  ITEM_CARD_DON_ZALOOG
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DUST_TORNADO
 	.2byte  ITEM_CARD_EMERGENCY_PROVISIONS
+	.2byte  ITEM_CARD_EMPRESS_JUDGE
 	.2byte  ITEM_CARD_EXCHANGE
 	.2byte  ITEM_CARD_EXILED_FORCE
 	.2byte  ITEM_CARD_FIBER_JAR
 	.2byte  ITEM_CARD_FIEND_SKULL_DRAGON
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_FLAME_SWORDSMAN
 	.2byte  ITEM_CARD_GAIA_THE_DRAGON_CHAMPION
 	.2byte  ITEM_CARD_GRACEFUL_CHARITY
@@ -6134,6 +5072,7 @@ InsideOfTruck_PokemartChaos:
 	.2byte  ITEM_CARD_POT_OF_GREED
 	.2byte  ITEM_CARD_PREMATURE_BURIAL
 	.2byte  ITEM_CARD_PROHIBITION
+	.2byte  ITEM_CARD_PUNISHED_EAGLE
 	.2byte  ITEM_CARD_RAIGEKI
 	.2byte  ITEM_CARD_RAIGEKI_BREAK
 	.2byte  ITEM_CARD_REAPER_ON_THE_NIGHTMARE
@@ -6156,7 +5095,6 @@ InsideOfTruck_PokemartChaos:
 	.2byte  ITEM_CARD_SKILLED_DARK_MAGICIAN
 	.2byte  ITEM_CARD_SNATCH_STEAL
 	.2byte  ITEM_CARD_SOLEMN_JUDGMENT
-	.2byte  ITEM_CARD_SOUL_RELEASE
 	.2byte  ITEM_CARD_SPIRIT_REAPER
 	.2byte  ITEM_CARD_SPIRITUALISM
 	.2byte  ITEM_CARD_SWORDS_OF_REVEALING_LIGHT
@@ -6197,7 +5135,6 @@ InsideOfTruck_PokemartWarrior:
 	.2byte  ITEM_CARD_AIRKNIGHT_PARSHATH
 	.2byte  ITEM_CARD_AMAZONESS_ARCHER
 	.2byte  ITEM_CARD_ANTI_SPELL_FRAGRANCE
-	.2byte  ITEM_CARD_APPRENTICE_MAGICIAN
 	.2byte  ITEM_CARD_ASURA_PRIEST
 	.2byte  ITEM_CARD_BERSERK_GORILLA
 	.2byte  ITEM_CARD_BIG_SHIELD_GARDNA
@@ -6237,11 +5174,14 @@ InsideOfTruck_PokemartWarrior:
 	.2byte  ITEM_CARD_DES_KOALA
 	.2byte  ITEM_CARD_DIMENSION_FUSION
 	.2byte  ITEM_CARD_DON_ZALOOG
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DUST_TORNADO
 	.2byte  ITEM_CARD_EMERGENCY_PROVISIONS
+	.2byte  ITEM_CARD_EMPRESS_JUDGE
 	.2byte  ITEM_CARD_EXILED_FORCE
 	.2byte  ITEM_CARD_FIBER_JAR
 	.2byte  ITEM_CARD_FIEND_SKULL_DRAGON
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT
 	.2byte  ITEM_CARD_GIANT_RAT
 	.2byte  ITEM_CARD_GIANT_TRUNADE
@@ -6296,6 +5236,7 @@ InsideOfTruck_PokemartWarrior:
 	.2byte  ITEM_CARD_PIKERU_S_CIRCLE_OF_ENCHANTMENT
 	.2byte  ITEM_CARD_POT_OF_GREED
 	.2byte  ITEM_CARD_PREMATURE_BURIAL
+	.2byte  ITEM_CARD_PUNISHED_EAGLE
 	.2byte  ITEM_CARD_RAIGEKI_BREAK
 	.2byte  ITEM_CARD_REAPER_ON_THE_NIGHTMARE
 	.2byte  ITEM_CARD_REASONING
@@ -6364,7 +5305,6 @@ InsideOfTruck_PokemartGoat:
 	.2byte  ITEM_CARD_AMAZONESS_ARCHER
 	.2byte  ITEM_CARD_ANTI_SPELL_FRAGRANCE
 	.2byte  ITEM_CARD_ASURA_PRIEST
-	.2byte  ITEM_CARD_BARREL_BEHIND_THE_DOOR
 	.2byte  ITEM_CARD_BERSERK_GORILLA
 	.2byte  ITEM_CARD_BICKURIBOX
 	.2byte  ITEM_CARD_BIG_BANG_SHOT
@@ -6384,10 +5324,8 @@ InsideOfTruck_PokemartGoat:
 	.2byte  ITEM_CARD_CARD_DESTRUCTION
 	.2byte  ITEM_CARD_CEASEFIRE
 	.2byte  ITEM_CARD_CHAIN_DISAPPEARANCE
-	.2byte  ITEM_CARD_CHAIN_ENERGY
 	.2byte  ITEM_CARD_CHAOS_SORCERER
 	.2byte  ITEM_CARD_CIPHER_SOLDIER
-	.2byte  ITEM_CARD_COLD_WAVE
 	.2byte  ITEM_CARD_COMPULSORY_EVACUATION_DEVICE
 	.2byte  ITEM_CARD_CREATURE_SWAP
 	.2byte  ITEM_CARD_CYBER_JAR
@@ -6408,6 +5346,7 @@ InsideOfTruck_PokemartGoat:
 	.2byte  ITEM_CARD_DESERT_SUNLIGHT
 	.2byte  ITEM_CARD_DIMENSION_FUSION
 	.2byte  ITEM_CARD_DON_ZALOOG
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DROP_OFF
 	.2byte  ITEM_CARD_DUST_TORNADO
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN
@@ -6416,7 +5355,7 @@ InsideOfTruck_PokemartGoat:
 	.2byte  ITEM_CARD_EXILED_FORCE
 	.2byte  ITEM_CARD_FAKE_TRAP
 	.2byte  ITEM_CARD_FIEND_SKULL_DRAGON
-	.2byte  ITEM_CARD_FLAME_SWORDSMAN
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_FUSILIER_DRAGON_THE_DUAL_MODE_BEAST
 	.2byte  ITEM_CARD_GATLING_DRAGON
 	.2byte  ITEM_CARD_GIANT_ORC
@@ -6425,6 +5364,7 @@ InsideOfTruck_PokemartGoat:
 	.2byte  ITEM_CARD_GOBLIN_ATTACK_FORCE
 	.2byte  ITEM_CARD_GOLEM_SENTRY
 	.2byte  ITEM_CARD_GRACEFUL_CHARITY
+	.2byte  ITEM_CARD_GRAVEKEEPER_S_ASSAILANT
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_SPY
 	.2byte  ITEM_CARD_GRAVITY_BIND
 	.2byte  ITEM_CARD_GYAKU_GIRE_PANDA
@@ -6435,7 +5375,6 @@ InsideOfTruck_PokemartGoat:
 	.2byte  ITEM_CARD_JIRAI_GUMO
 	.2byte  ITEM_CARD_JOWGEN_THE_SPIRITUALIST
 	.2byte  ITEM_CARD_JUST_DESSERTS
-	.2byte  ITEM_CARD_KAISER_COLOSSEUM
 	.2byte  ITEM_CARD_KING_DRAGUN
 	.2byte  ITEM_CARD_KING_TIGER_WANGHU
 	.2byte  ITEM_CARD_KURIBOH
@@ -6443,7 +5382,6 @@ InsideOfTruck_PokemartGoat:
 	.2byte  ITEM_CARD_LABYRINTH_TANK
 	.2byte  ITEM_CARD_LAST_WILL
 	.2byte  ITEM_CARD_LEVEL_LIMIT_AREA_B
-	.2byte  ITEM_CARD_LIGHT_OF_INTERVENTION
 	.2byte  ITEM_CARD_LIGHTNING_VORTEX
 	.2byte  ITEM_CARD_LIMITER_REMOVAL
 	.2byte  ITEM_CARD_MAGIC_CYLINDER
@@ -6452,7 +5390,6 @@ InsideOfTruck_PokemartGoat:
 	.2byte  ITEM_CARD_MANJU_OF_THE_TEN_THOUSAND_HANDS
 	.2byte  ITEM_CARD_MASK_OF_DARKNESS
 	.2byte  ITEM_CARD_MASK_OF_RESTRICT
-	.2byte  ITEM_CARD_MASS_DRIVER
 	.2byte  ITEM_CARD_MASTER_OF_OZ
 	.2byte  ITEM_CARD_MATAZA_THE_ZAPPER
 	.2byte  ITEM_CARD_MEGAMORPH
@@ -6464,12 +5401,11 @@ InsideOfTruck_PokemartGoat:
 	.2byte  ITEM_CARD_MOBIUS_THE_FROST_MONARCH
 	.2byte  ITEM_CARD_MONSTER_GATE
 	.2byte  ITEM_CARD_MORPHING_JAR
-	.2byte  ITEM_CARD_MORPHING_JAR_2
-	.2byte  ITEM_CARD_MY_BODY_AS_A_SHIELD
 	.2byte  ITEM_CARD_MYSTIC_SWORDSMAN_LV2
 	.2byte  ITEM_CARD_MYSTIC_TOMATO
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
 	.2byte  ITEM_CARD_MYSTIK_WOK
+	.2byte  ITEM_CARD_NECROVALLEY
 	.2byte  ITEM_CARD_NEEDLE_CEILING
 	.2byte  ITEM_CARD_NEWDORIA
 	.2byte  ITEM_CARD_NIGHT_ASSAILANT
@@ -6481,7 +5417,6 @@ InsideOfTruck_PokemartGoat:
 	.2byte  ITEM_CARD_PHOENIX_WING_WIND_BLAST
 	.2byte  ITEM_CARD_POT_OF_GREED
 	.2byte  ITEM_CARD_PREMATURE_BURIAL
-	.2byte  ITEM_CARD_PROTECTOR_OF_THE_SANCTUARY
 	.2byte  ITEM_CARD_RAIGEKI_BREAK
 	.2byte  ITEM_CARD_REAPER_ON_THE_NIGHTMARE
 	.2byte  ITEM_CARD_REASONING
@@ -6510,11 +5445,11 @@ InsideOfTruck_PokemartGoat:
 	.2byte  ITEM_CARD_SMASHING_GROUND
 	.2byte  ITEM_CARD_SNATCH_STEAL
 	.2byte  ITEM_CARD_SOLEMN_JUDGMENT
-	.2byte  ITEM_CARD_SPEAR_DRAGON
 	.2byte  ITEM_CARD_SPELL_CANCELLER
 	.2byte  ITEM_CARD_SPIRIT_REAPER
 	.2byte  ITEM_CARD_STRIKE_NINJA
 	.2byte  ITEM_CARD_SWORDS_OF_REVEALING_LIGHT
+	.2byte  ITEM_CARD_TERRAFORMING
 	.2byte  ITEM_CARD_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET
 	.2byte  ITEM_CARD_THOUSAND_EYES_RESTRICT
 	.2byte  ITEM_CARD_THREATENING_ROAR
@@ -6584,6 +5519,7 @@ InsideOfTruck_PokemartCyber:
 	.2byte  ITEM_CARD_DELINQUENT_DUO
 	.2byte  ITEM_CARD_DES_KOALA
 	.2byte  ITEM_CARD_DON_ZALOOG
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DUST_TORNADO
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN
 	.2byte  ITEM_CARD_EMISSARY_OF_THE_AFTERLIFE
@@ -6591,6 +5527,7 @@ InsideOfTruck_PokemartCyber:
 	.2byte  ITEM_CARD_EXARION_UNIVERSE
 	.2byte  ITEM_CARD_EXILED_FORCE
 	.2byte  ITEM_CARD_FIEND_SKULL_DRAGON
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_FUSILIER_DRAGON_THE_DUAL_MODE_BEAST
 	.2byte  ITEM_CARD_GAIA_THE_DRAGON_CHAMPION
 	.2byte  ITEM_CARD_GATLING_DRAGON
@@ -6728,7 +5665,9 @@ InsideOfTruck_PokemartReaper:
 	.2byte  ITEM_CARD_DIVINE_WRATH
 	.2byte  ITEM_CARD_DON_ZALOOG
 	.2byte  ITEM_CARD_DOOM_DOZER
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DUST_TORNADO
+	.2byte  ITEM_CARD_EMPRESS_JUDGE
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
 	.2byte  ITEM_CARD_EXILED_FORCE
 	.2byte  ITEM_CARD_FIEND_SKULL_DRAGON
@@ -6849,7 +5788,6 @@ InsideOfTruck_EventScript_Clerk_ChaosReturn::
 	.align 2
 InsideOfTruck_PokemartChaosReturn:
 	.2byte  ITEM_CARD_AMAZONESS_ARCHER
-	.2byte  ITEM_CARD_APPRENTICE_MAGICIAN
 	.2byte  ITEM_CARD_ARCHFIEND_SOLDIER
 	.2byte  ITEM_CARD_ASURA_PRIEST
 	.2byte  ITEM_CARD_BANISHER_OF_THE_RADIANCE
@@ -6878,7 +5816,6 @@ InsideOfTruck_PokemartChaosReturn:
 	.2byte  ITEM_CARD_CYBER_STEIN
 	.2byte  ITEM_CARD_D_D_ASSAILANT
 	.2byte  ITEM_CARD_D_D_SURVIVOR
-	.2byte  ITEM_CARD_D_D_WARRIOR
 	.2byte  ITEM_CARD_D_D_WARRIOR_LADY
 	.2byte  ITEM_CARD_DARK_BALTER_THE_TERRIBLE
 	.2byte  ITEM_CARD_DARK_BLADE_THE_DRAGON_KNIGHT
@@ -6890,6 +5827,7 @@ InsideOfTruck_PokemartChaosReturn:
 	.2byte  ITEM_CARD_DIMENSION_WALL
 	.2byte  ITEM_CARD_DIMENSIONAL_FISSURE
 	.2byte  ITEM_CARD_DON_ZALOOG
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DRILLROID
 	.2byte  ITEM_CARD_DUST_TORNADO
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_WILDHEART
@@ -6897,6 +5835,7 @@ InsideOfTruck_PokemartChaosReturn:
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
 	.2byte  ITEM_CARD_EXILED_FORCE
 	.2byte  ITEM_CARD_FIEND_SKULL_DRAGON
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_GATLING_DRAGON
 	.2byte  ITEM_CARD_GIANT_RAT
 	.2byte  ITEM_CARD_GIANT_TRUNADE
@@ -6938,7 +5877,6 @@ InsideOfTruck_PokemartChaosReturn:
 	.2byte  ITEM_CARD_NINJA_GRANDMASTER_SASUKE
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
 	.2byte  ITEM_CARD_OJAMA_KING
-	.2byte  ITEM_CARD_OLD_VINDICTIVE_MAGICIAN
 	.2byte  ITEM_CARD_POISON_OF_THE_OLD_MAN
 	.2byte  ITEM_CARD_POT_OF_AVARICE
 	.2byte  ITEM_CARD_PREMATURE_BURIAL
@@ -6989,10 +5927,8 @@ InsideOfTruck_EventScript_Clerk_Demise::
 
 	.align 2
 InsideOfTruck_PokemartDemise:
-	.2byte  ITEM_CARD_ACCUMULATED_FORTUNE
 	.2byte  ITEM_CARD_ADVANCED_RITUAL_ART
 	.2byte  ITEM_CARD_AMAZONESS_ARCHER
-	.2byte  ITEM_CARD_APPRENTICE_MAGICIAN
 	.2byte  ITEM_CARD_ASURA_PRIEST
 	.2byte  ITEM_CARD_BANISHER_OF_THE_RADIANCE
 	.2byte  ITEM_CARD_BAZOO_THE_SOUL_EATER
@@ -7006,7 +5942,6 @@ InsideOfTruck_PokemartDemise:
 	.2byte  ITEM_CARD_CARD_TROOPER
 	.2byte  ITEM_CARD_CEASEFIRE
 	.2byte  ITEM_CARD_CHAIN_DISAPPEARANCE
-	.2byte  ITEM_CARD_CHAIN_STRIKE
 	.2byte  ITEM_CARD_CHIMERATECH_OVERDRAGON
 	.2byte  ITEM_CARD_CHIRON_THE_MAGE
 	.2byte  ITEM_CARD_CIPHER_SOLDIER
@@ -7020,7 +5955,6 @@ InsideOfTruck_PokemartDemise:
 	.2byte  ITEM_CARD_CYBER_TWIN_DRAGON
 	.2byte  ITEM_CARD_D_D_ASSAILANT
 	.2byte  ITEM_CARD_D_D_CROW
-	.2byte  ITEM_CARD_D_D_DESIGNATOR
 	.2byte  ITEM_CARD_D_D_SURVIVOR
 	.2byte  ITEM_CARD_D_D_TRAINER
 	.2byte  ITEM_CARD_D_D_WARRIOR_LADY
@@ -7044,28 +5978,24 @@ InsideOfTruck_PokemartDemise:
 	.2byte  ITEM_CARD_DIMENSION_FUSION
 	.2byte  ITEM_CARD_DIMENSION_WALL
 	.2byte  ITEM_CARD_DIMENSIONAL_FISSURE
-	.2byte  ITEM_CARD_DIVINE_SWORD_PHOENIX_BLADE
 	.2byte  ITEM_CARD_DON_ZALOOG
 	.2byte  ITEM_CARD_DOOM_DOZER
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DRILLROID
 	.2byte  ITEM_CARD_DUST_TORNADO
-	.2byte  ITEM_CARD_E_EMERGENCY_CALL
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_STRATOS
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_WILDHEART
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
 	.2byte  ITEM_CARD_EXILED_FORCE
 	.2byte  ITEM_CARD_FIEND_SKULL_DRAGON
 	.2byte  ITEM_CARD_FISSURE
-	.2byte  ITEM_CARD_FUTURE_FUSION
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_GATLING_DRAGON
 	.2byte  ITEM_CARD_GIANT_RAT
 	.2byte  ITEM_CARD_GIANT_TRUNADE
 	.2byte  ITEM_CARD_GOLDD_WU_LORD_OF_DARK_WORLD
-	.2byte  ITEM_CARD_GRANDMASTER_OF_THE_SIX_SAMURAI
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_SPY
 	.2byte  ITEM_CARD_GRAVITY_BIND
-	.2byte  ITEM_CARD_GREAT_SHOGUN_SHIEN
-	.2byte  ITEM_CARD_GREEN_GADGET
 	.2byte  ITEM_CARD_HEAVY_STORM
 	.2byte  ITEM_CARD_HYDROGEDDON
 	.2byte  ITEM_CARD_INABA_WHITE_RABBIT
@@ -7078,7 +6008,6 @@ InsideOfTruck_PokemartDemise:
 	.2byte  ITEM_CARD_KING_DRAGUN
 	.2byte  ITEM_CARD_KURIBOH
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
-	.2byte  ITEM_CARD_LAVA_GOLEM
 	.2byte  ITEM_CARD_LEGENDARY_JUJITSU_MASTER
 	.2byte  ITEM_CARD_LEVEL_LIMIT_AREA_B
 	.2byte  ITEM_CARD_LIGHTNING_VORTEX
@@ -7087,11 +6016,9 @@ InsideOfTruck_PokemartDemise:
 	.2byte  ITEM_CARD_MACRO_COSMOS
 	.2byte  ITEM_CARD_MAGIC_CYLINDER
 	.2byte  ITEM_CARD_MAGICAL_MERCHANT
-	.2byte  ITEM_CARD_MAGICAL_STONE_EXCAVATION
 	.2byte  ITEM_CARD_MANJU_OF_THE_TEN_THOUSAND_HANDS
 	.2byte  ITEM_CARD_MASK_OF_RESTRICT
 	.2byte  ITEM_CARD_MASTER_OF_OZ
-	.2byte  ITEM_CARD_MECHA_DOG_MARRON
 	.2byte  ITEM_CARD_MEGAMORPH
 	.2byte  ITEM_CARD_MESSENGER_OF_PEACE
 	.2byte  ITEM_CARD_METAMORPHOSIS
@@ -7107,7 +6034,6 @@ InsideOfTruck_PokemartDemise:
 	.2byte  ITEM_CARD_MYSTIK_WOK
 	.2byte  ITEM_CARD_NEKO_MANE_KING
 	.2byte  ITEM_CARD_NEO_BUG
-	.2byte  ITEM_CARD_NEO_SPACIAN_GRAND_MOLE
 	.2byte  ITEM_CARD_NEWDORIA
 	.2byte  ITEM_CARD_NIGHTMARE_S_STEELCAGE
 	.2byte  ITEM_CARD_NIMBLE_MOMONGA
@@ -7116,7 +6042,6 @@ InsideOfTruck_PokemartDemise:
 	.2byte  ITEM_CARD_OFFERINGS_TO_THE_DOOMED
 	.2byte  ITEM_CARD_OJAMA_KING
 	.2byte  ITEM_CARD_OJAMA_TRIO
-	.2byte  ITEM_CARD_OLD_VINDICTIVE_MAGICIAN
 	.2byte  ITEM_CARD_OVERLOAD_FUSION
 	.2byte  ITEM_CARD_PHOENIX_WING_WIND_BLAST
 	.2byte  ITEM_CARD_POISON_OF_THE_OLD_MAN
@@ -7126,7 +6051,6 @@ InsideOfTruck_PokemartDemise:
 	.2byte  ITEM_CARD_REAPER_ON_THE_NIGHTMARE
 	.2byte  ITEM_CARD_REASONING
 	.2byte  ITEM_CARD_RECKLESS_GREED
-	.2byte  ITEM_CARD_RED_GADGET
 	.2byte  ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
 	.2byte  ITEM_CARD_RELINQUISHED
 	.2byte  ITEM_CARD_RETURN_FROM_THE_DIFFERENT_DIMENSION
@@ -7154,9 +6078,6 @@ InsideOfTruck_PokemartDemise:
 	.2byte  ITEM_CARD_SWORDS_OF_REVEALING_LIGHT
 	.2byte  ITEM_CARD_SYSTEM_DOWN
 	.2byte  ITEM_CARD_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_IROU
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_YAICHI
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_ZANJI
 	.2byte  ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH
 	.2byte  ITEM_CARD_THREATENING_ROAR
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
@@ -7170,7 +6091,6 @@ InsideOfTruck_PokemartDemise:
 	.2byte  ITEM_CARD_WABOKU
 	.2byte  ITEM_CARD_WAVE_MOTION_CANNON
 	.2byte  ITEM_CARD_WIDESPREAD_RUIN
-	.2byte  ITEM_CARD_YELLOW_GADGET
 	.2byte  ITEM_CARD_ZABORG_THE_THUNDER_MONARCH
 	.2byte  ITEM_CARD_ZOMBYRA_THE_DARK
 	pokemartlistend
@@ -7223,6 +6143,7 @@ InsideOfTruck_PokemartTrooper:
 	.2byte  ITEM_CARD_DESTINY_HERO_FEAR_MONGER
 	.2byte  ITEM_CARD_DESTINY_HERO_MALICIOUS
 	.2byte  ITEM_CARD_DIMENSION_WALL
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DRILLROID
 	.2byte  ITEM_CARD_DUST_TORNADO
 	.2byte  ITEM_CARD_ELECTRIC_VIRUS
@@ -7230,18 +6151,15 @@ InsideOfTruck_PokemartTrooper:
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
 	.2byte  ITEM_CARD_EXILED_FORCE
 	.2byte  ITEM_CARD_FIEND_SKULL_DRAGON
-	.2byte  ITEM_CARD_FUTURE_FUSION
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_GATLING_DRAGON
 	.2byte  ITEM_CARD_GIANT_RAT
 	.2byte  ITEM_CARD_GIANT_TRUNADE
 	.2byte  ITEM_CARD_GIGANTES
 	.2byte  ITEM_CARD_GOLDD_WU_LORD_OF_DARK_WORLD
-	.2byte  ITEM_CARD_GRANDMASTER_OF_THE_SIX_SAMURAI
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_GUARD
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_SPY
 	.2byte  ITEM_CARD_GRAVITY_BIND
-	.2byte  ITEM_CARD_GREAT_SHOGUN_SHIEN
-	.2byte  ITEM_CARD_GREEN_BABOON_DEFENDER_OF_THE_FOREST
 	.2byte  ITEM_CARD_GYAKU_GIRE_PANDA
 	.2byte  ITEM_CARD_HEAVY_STORM
 	.2byte  ITEM_CARD_INJECTION_FAIRY_LILY
@@ -7263,7 +6181,6 @@ InsideOfTruck_PokemartTrooper:
 	.2byte  ITEM_CARD_MYSTIC_TOMATO
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
 	.2byte  ITEM_CARD_MYSTIK_WOK
-	.2byte  ITEM_CARD_NEO_SPACIAN_GRAND_MOLE
 	.2byte  ITEM_CARD_NIMBLE_MOMONGA
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
 	.2byte  ITEM_CARD_OJAMA_KING
@@ -7295,9 +6212,6 @@ InsideOfTruck_PokemartTrooper:
 	.2byte  ITEM_CARD_SYSTEM_DOWN
 	.2byte  ITEM_CARD_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET
 	.2byte  ITEM_CARD_THE_LIGHT_HEX_SEALED_FUSION
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_IROU
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_YAICHI
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_ZANJI
 	.2byte  ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH
 	.2byte  ITEM_CARD_THREATENING_ROAR
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
@@ -7329,9 +6243,7 @@ InsideOfTruck_EventScript_Clerk_Zombie::
 InsideOfTruck_PokemartZombie:
 	.2byte  ITEM_CARD_ADVANCED_RITUAL_ART
 	.2byte  ITEM_CARD_AMAZONESS_ARCHER
-	.2byte  ITEM_CARD_APPRENTICE_MAGICIAN
 	.2byte  ITEM_CARD_ASURA_PRIEST
-	.2byte  ITEM_CARD_AUTONOMOUS_ACTION_UNIT
 	.2byte  ITEM_CARD_BANISHER_OF_THE_RADIANCE
 	.2byte  ITEM_CARD_BAZOO_THE_SOUL_EATER
 	.2byte  ITEM_CARD_BIG_SHIELD_GARDNA
@@ -7360,11 +6272,9 @@ InsideOfTruck_PokemartZombie:
 	.2byte  ITEM_CARD_CYBER_TWIN_DRAGON
 	.2byte  ITEM_CARD_D_D_ASSAILANT
 	.2byte  ITEM_CARD_D_D_CROW
-	.2byte  ITEM_CARD_D_D_DESIGNATOR
 	.2byte  ITEM_CARD_D_D_SURVIVOR
 	.2byte  ITEM_CARD_D_D_WARRIOR_LADY
 	.2byte  ITEM_CARD_DARK_BALTER_THE_TERRIBLE
-	.2byte  ITEM_CARD_DARK_BRIBE
 	.2byte  ITEM_CARD_DARK_MAGICIAN_OF_CHAOS
 	.2byte  ITEM_CARD_DARK_MIMIC_LV3
 	.2byte  ITEM_CARD_DARK_PALADIN
@@ -7382,14 +6292,11 @@ InsideOfTruck_PokemartZombie:
 	.2byte  ITEM_CARD_DIMENSION_FUSION
 	.2byte  ITEM_CARD_DIMENSION_WALL
 	.2byte  ITEM_CARD_DIMENSIONAL_FISSURE
-	.2byte  ITEM_CARD_DIVINE_SWORD_PHOENIX_BLADE
 	.2byte  ITEM_CARD_DON_ZALOOG
 	.2byte  ITEM_CARD_DOOM_DOZER
 	.2byte  ITEM_CARD_DRILLROID
 	.2byte  ITEM_CARD_DUST_TORNADO
-	.2byte  ITEM_CARD_E_EMERGENCY_CALL
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN
-	.2byte  ITEM_CARD_ELEMENTAL_HERO_NEOS_ALIUS
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_STRATOS
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_WILDHEART
 	.2byte  ITEM_CARD_EMERGENCY_PROVISIONS
@@ -7398,27 +6305,22 @@ InsideOfTruck_PokemartZombie:
 	.2byte  ITEM_CARD_FAKE_TRAP
 	.2byte  ITEM_CARD_FIEND_SKULL_DRAGON
 	.2byte  ITEM_CARD_FISSURE
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_FLAME_SWORDSMAN
 	.2byte  ITEM_CARD_FLYING_KAMAKIRI_1
-	.2byte  ITEM_CARD_FUTURE_FUSION
 	.2byte  ITEM_CARD_GAIA_THE_DRAGON_CHAMPION
 	.2byte  ITEM_CARD_GIANT_RAT
 	.2byte  ITEM_CARD_GIANT_TRUNADE
 	.2byte  ITEM_CARD_GOLD_SARCOPHAGUS
 	.2byte  ITEM_CARD_GOLDD_WU_LORD_OF_DARK_WORLD
-	.2byte  ITEM_CARD_GRANDMASTER_OF_THE_SIX_SAMURAI
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_GUARD
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_SPY
 	.2byte  ITEM_CARD_GRAVITY_BIND
-	.2byte  ITEM_CARD_GREAT_SHOGUN_SHIEN
-	.2byte  ITEM_CARD_GREEN_BABOON_DEFENDER_OF_THE_FOREST
-	.2byte  ITEM_CARD_GREEN_GADGET
 	.2byte  ITEM_CARD_GYAKU_GIRE_PANDA
 	.2byte  ITEM_CARD_HALLOWED_LIFE_BARRIER
 	.2byte  ITEM_CARD_HAMMER_SHOT
 	.2byte  ITEM_CARD_HEAVY_STORM
 	.2byte  ITEM_CARD_HYDROGEDDON
-	.2byte  ITEM_CARD_IL_BLUD
 	.2byte  ITEM_CARD_INJECTION_FAIRY_LILY
 	.2byte  ITEM_CARD_INSECT_KNIGHT
 	.2byte  ITEM_CARD_JINZO
@@ -7431,14 +6333,11 @@ InsideOfTruck_PokemartZombie:
 	.2byte  ITEM_CARD_LIMITER_REMOVAL
 	.2byte  ITEM_CARD_MAGIC_CYLINDER
 	.2byte  ITEM_CARD_MAGICAL_MERCHANT
-	.2byte  ITEM_CARD_MAGICAL_STONE_EXCAVATION
 	.2byte  ITEM_CARD_MAGICIAN_OF_FAITH
 	.2byte  ITEM_CARD_MANJU_OF_THE_TEN_THOUSAND_HANDS
-	.2byte  ITEM_CARD_MARSHMALLON
 	.2byte  ITEM_CARD_MASK_OF_RESTRICT
 	.2byte  ITEM_CARD_MASTER_OF_OZ
 	.2byte  ITEM_CARD_MEGAMORPH
-	.2byte  ITEM_CARD_MEI_KOU_MASTER_OF_BARRIERS
 	.2byte  ITEM_CARD_MESSENGER_OF_PEACE
 	.2byte  ITEM_CARD_MIND_CRUSH
 	.2byte  ITEM_CARD_MIRAGE_DRAGON
@@ -7454,13 +6353,11 @@ InsideOfTruck_PokemartZombie:
 	.2byte  ITEM_CARD_NEEDLE_CEILING
 	.2byte  ITEM_CARD_NEO_BUG
 	.2byte  ITEM_CARD_NEO_SPACIAN_DARK_PANTHER
-	.2byte  ITEM_CARD_NEO_SPACIAN_GRAND_MOLE
 	.2byte  ITEM_CARD_NEWDORIA
 	.2byte  ITEM_CARD_NIGHTMARE_S_STEELCAGE
 	.2byte  ITEM_CARD_NIMBLE_MOMONGA
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
 	.2byte  ITEM_CARD_OJAMA_TRIO
-	.2byte  ITEM_CARD_OLD_VINDICTIVE_MAGICIAN
 	.2byte  ITEM_CARD_OVERLOAD_FUSION
 	.2byte  ITEM_CARD_PHOENIX_WING_WIND_BLAST
 	.2byte  ITEM_CARD_POISON_OF_THE_OLD_MAN
@@ -7472,7 +6369,6 @@ InsideOfTruck_PokemartZombie:
 	.2byte  ITEM_CARD_RAIZA_THE_STORM_MONARCH
 	.2byte  ITEM_CARD_REAPER_ON_THE_NIGHTMARE
 	.2byte  ITEM_CARD_REASONING
-	.2byte  ITEM_CARD_RED_GADGET
 	.2byte  ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
 	.2byte  ITEM_CARD_RESCUE_CAT
 	.2byte  ITEM_CARD_RETURN_FROM_THE_DIFFERENT_DIMENSION
@@ -7499,10 +6395,6 @@ InsideOfTruck_PokemartZombie:
 	.2byte  ITEM_CARD_SWORDS_OF_REVEALING_LIGHT
 	.2byte  ITEM_CARD_SYSTEM_DOWN
 	.2byte  ITEM_CARD_THE_LIGHT_HEX_SEALED_FUSION
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_IROU
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_YAICHI
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_ZANJI
-	.2byte  ITEM_CARD_THE_TRANSMIGRATION_PROPHECY
 	.2byte  ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH
 	.2byte  ITEM_CARD_THREATENING_ROAR
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
@@ -7520,7 +6412,6 @@ InsideOfTruck_PokemartZombie:
 	.2byte  ITEM_CARD_WAVE_MOTION_CANNON
 	.2byte  ITEM_CARD_WIDESPREAD_RUIN
 	.2byte  ITEM_CARD_XING_ZHEN_HU
-	.2byte  ITEM_CARD_YELLOW_GADGET
 	.2byte  ITEM_CARD_ZABORG_THE_THUNDER_MONARCH
 	.2byte  ITEM_CARD_ZOMBIE_MASTER
 	.2byte  ITEM_CARD_ZOMBYRA_THE_DARK
@@ -7541,66 +6432,65 @@ InsideOfTruck_EventScript_Clerk_PerfectCircle::
 	.align 2
 InsideOfTruck_PokemartPerfectCircle:
 	.2byte  ITEM_CARD_4_STARRED_LADYBUG_OF_DOOM
-	.2byte  ITEM_CARD_ACCUMULATED_FORTUNE
 	.2byte  ITEM_CARD_AMAZONESS_ARCHER
-	.2byte  ITEM_CARD_AUTONOMOUS_ACTION_UNIT
 	.2byte  ITEM_CARD_BANISHER_OF_THE_RADIANCE
+	.2byte  ITEM_CARD_BARREL_BEHIND_THE_DOOR
 	.2byte  ITEM_CARD_BAZOO_THE_SOUL_EATER
 	.2byte  ITEM_CARD_BICKURIBOX
 	.2byte  ITEM_CARD_BLACK_SKULL_DRAGON
 	.2byte  ITEM_CARD_BLUE_EYES_ULTIMATE_DRAGON
+	.2byte  ITEM_CARD_BOOK_OF_LIFE
 	.2byte  ITEM_CARD_BOOK_OF_MOON
 	.2byte  ITEM_CARD_BOTTOMLESS_TRAP_HOLE
 	.2byte  ITEM_CARD_BRAIN_CONTROL
 	.2byte  ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR
 	.2byte  ITEM_CARD_CALL_OF_THE_HAUNTED
 	.2byte  ITEM_CARD_CARD_DESTRUCTION
+	.2byte  ITEM_CARD_CARD_OF_SAFE_RETURN
 	.2byte  ITEM_CARD_CARD_TROOPER
 	.2byte  ITEM_CARD_CEASEFIRE
 	.2byte  ITEM_CARD_CHIMERATECH_OVERDRAGON
 	.2byte  ITEM_CARD_CIPHER_SOLDIER
 	.2byte  ITEM_CARD_CREATURE_SWAP
 	.2byte  ITEM_CARD_CRUSH_CARD_VIRUS
+	.2byte  ITEM_CARD_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL
 	.2byte  ITEM_CARD_CYBER_DRAGON
 	.2byte  ITEM_CARD_CYBER_END_DRAGON
+	.2byte  ITEM_CARD_CYBER_PHOENIX
 	.2byte  ITEM_CARD_CYBER_TWIN_DRAGON
 	.2byte  ITEM_CARD_D_D_ASSAILANT
 	.2byte  ITEM_CARD_D_D_CROW
 	.2byte  ITEM_CARD_D_D_SURVIVOR
-	.2byte  ITEM_CARD_D_D_WARRIOR
 	.2byte  ITEM_CARD_D_D_WARRIOR_LADY
 	.2byte  ITEM_CARD_DARK_BALTER_THE_TERRIBLE
 	.2byte  ITEM_CARD_DARK_BLADE_THE_DRAGON_KNIGHT
-	.2byte  ITEM_CARD_DARK_BRIBE
 	.2byte  ITEM_CARD_DARK_FLARE_KNIGHT
 	.2byte  ITEM_CARD_DARK_MAGICIAN_OF_CHAOS
 	.2byte  ITEM_CARD_DARK_PALADIN
 	.2byte  ITEM_CARD_DARKFIRE_DRAGON
+	.2byte  ITEM_CARD_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE
 	.2byte  ITEM_CARD_DESTINY_DRAW
 	.2byte  ITEM_CARD_DESTINY_HERO_DASHER
 	.2byte  ITEM_CARD_DESTINY_HERO_DIAMOND_DUDE
 	.2byte  ITEM_CARD_DESTINY_HERO_DISK_COMMANDER
 	.2byte  ITEM_CARD_DESTINY_HERO_FEAR_MONGER
 	.2byte  ITEM_CARD_DESTINY_HERO_MALICIOUS
-	.2byte  ITEM_CARD_DESTINY_HERO_PLASMA
 	.2byte  ITEM_CARD_DIMENSION_FUSION
+	.2byte  ITEM_CARD_DIMENSION_WALL
 	.2byte  ITEM_CARD_DIMENSIONAL_FISSURE
 	.2byte  ITEM_CARD_DIMENSIONAL_PRISON
-	.2byte  ITEM_CARD_DIVINE_SWORD_PHOENIX_BLADE
-	.2byte  ITEM_CARD_DON_ZALOOG
-	.2byte  ITEM_CARD_DRILLROID
 	.2byte  ITEM_CARD_DUST_TORNADO
-	.2byte  ITEM_CARD_E_EMERGENCY_CALL
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN
-	.2byte  ITEM_CARD_ELEMENTAL_HERO_NEOS_ALIUS
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_STRATOS
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_WILDHEART
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
 	.2byte  ITEM_CARD_EXILED_FORCE
 	.2byte  ITEM_CARD_FIEND_SKULL_DRAGON
 	.2byte  ITEM_CARD_FISSURE
+	.2byte  ITEM_CARD_FLAME_GHOST
+	.2byte  ITEM_CARD_FLAME_SWORDSMAN
 	.2byte  ITEM_CARD_FLYING_KAMAKIRI_1
-	.2byte  ITEM_CARD_FUTURE_FUSION
+	.2byte  ITEM_CARD_FOOLISH_BURIAL
 	.2byte  ITEM_CARD_GAIA_THE_DRAGON_CHAMPION
 	.2byte  ITEM_CARD_GATLING_DRAGON
 	.2byte  ITEM_CARD_GIANT_RAT
@@ -7608,29 +6498,22 @@ InsideOfTruck_PokemartPerfectCircle:
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_BESTIARI
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_GAIODIAZ
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_HERAKLINOS
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_HOPLOMUS
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_LAQUARI
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_MURMILLO
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_SECUTOR
 	.2byte  ITEM_CARD_GOLD_SARCOPHAGUS
 	.2byte  ITEM_CARD_GOLEM_SENTRY
-	.2byte  ITEM_CARD_GOOD_GOBLIN_HOUSEKEEPING
-	.2byte  ITEM_CARD_GRANDMASTER_OF_THE_SIX_SAMURAI
+	.2byte  ITEM_CARD_GRAVEKEEPER_S_ASSAILANT
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_GUARD
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_SPY
 	.2byte  ITEM_CARD_GRAVITY_BIND
-	.2byte  ITEM_CARD_GREAT_SHOGUN_SHIEN
-	.2byte  ITEM_CARD_GREEN_BABOON_DEFENDER_OF_THE_FOREST
-	.2byte  ITEM_CARD_GREEN_GADGET
 	.2byte  ITEM_CARD_GYAKU_GIRE_PANDA
 	.2byte  ITEM_CARD_HAMMER_SHOT
 	.2byte  ITEM_CARD_HEAVY_STORM
-	.2byte  ITEM_CARD_HUNTER_OWL
-	.2byte  ITEM_CARD_HYDROGEDDON
 	.2byte  ITEM_CARD_ICARUS_ATTACK
 	.2byte  ITEM_CARD_INJECTION_FAIRY_LILY
 	.2byte  ITEM_CARD_JAR_OF_GREED
 	.2byte  ITEM_CARD_JINZO
+	.2byte  ITEM_CARD_JUST_DESSERTS
 	.2byte  ITEM_CARD_KING_DRAGUN
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
 	.2byte  ITEM_CARD_LABYRINTH_TANK
@@ -7641,10 +6524,8 @@ InsideOfTruck_PokemartPerfectCircle:
 	.2byte  ITEM_CARD_LIGHTNING_VORTEX
 	.2byte  ITEM_CARD_MACRO_COSMOS
 	.2byte  ITEM_CARD_MAGIC_CYLINDER
-	.2byte  ITEM_CARD_MAGICAL_STONE_EXCAVATION
 	.2byte  ITEM_CARD_MAGICIAN_OF_FAITH
 	.2byte  ITEM_CARD_MALEVOLENT_CATASTROPHE
-	.2byte  ITEM_CARD_MARSHMALLON
 	.2byte  ITEM_CARD_MASK_OF_DARKNESS
 	.2byte  ITEM_CARD_MASK_OF_RESTRICT
 	.2byte  ITEM_CARD_MASTER_OF_OZ
@@ -7659,33 +6540,35 @@ InsideOfTruck_PokemartPerfectCircle:
 	.2byte  ITEM_CARD_MYSTIC_TOMATO
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
 	.2byte  ITEM_CARD_MYSTIK_WOK
-	.2byte  ITEM_CARD_NEO_SPACIAN_GRAND_MOLE
-	.2byte  ITEM_CARD_NEWDORIA
+	.2byte  ITEM_CARD_NECROVALLEY
 	.2byte  ITEM_CARD_NIGHT_ASSAILANT
 	.2byte  ITEM_CARD_NIMBLE_MOMONGA
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
+	.2byte  ITEM_CARD_OFFERINGS_TO_THE_DOOMED
 	.2byte  ITEM_CARD_OJAMA_KING
 	.2byte  ITEM_CARD_OJAMA_TRIO
+	.2byte  ITEM_CARD_OVERLOAD_FUSION
 	.2byte  ITEM_CARD_PHOENIX_WING_WIND_BLAST
 	.2byte  ITEM_CARD_POT_OF_AVARICE
 	.2byte  ITEM_CARD_PREMATURE_BURIAL
+	.2byte  ITEM_CARD_PROTECTOR_OF_THE_SANCTUARY
 	.2byte  ITEM_CARD_PULLING_THE_RUG
+	.2byte  ITEM_CARD_PYRAMID_TURTLE
 	.2byte  ITEM_CARD_RAIZA_THE_STORM_MONARCH
 	.2byte  ITEM_CARD_REAPER_ON_THE_NIGHTMARE
 	.2byte  ITEM_CARD_REASONING
-	.2byte  ITEM_CARD_RED_GADGET
 	.2byte  ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
 	.2byte  ITEM_CARD_RESCUE_CAT
 	.2byte  ITEM_CARD_RETURN_FROM_THE_DIFFERENT_DIMENSION
 	.2byte  ITEM_CARD_RISING_AIR_CURRENT
 	.2byte  ITEM_CARD_ROYAL_DECREE
-	.2byte  ITEM_CARD_ROYAL_OPPRESSION
+	.2byte  ITEM_CARD_RYU_KOKKI
 	.2byte  ITEM_CARD_RYU_SENSHI
 	.2byte  ITEM_CARD_SAKURETSU_ARMOR
 	.2byte  ITEM_CARD_SANGAN
 	.2byte  ITEM_CARD_SCAPEGOAT
+	.2byte  ITEM_CARD_SECRET_BARREL
 	.2byte  ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT
-	.2byte  ITEM_CARD_SHIELD_CRUSH
 	.2byte  ITEM_CARD_SHRINK
 	.2byte  ITEM_CARD_SMASHING_GROUND
 	.2byte  ITEM_CARD_SNIPE_HUNTER
@@ -7693,25 +6576,22 @@ InsideOfTruck_PokemartPerfectCircle:
 	.2byte  ITEM_CARD_SOUL_EXCHANGE
 	.2byte  ITEM_CARD_SOUL_TAKER
 	.2byte  ITEM_CARD_SPIRIT_REAPER
+	.2byte  ITEM_CARD_STRIKE_NINJA
 	.2byte  ITEM_CARD_SWORDS_OF_REVEALING_LIGHT
 	.2byte  ITEM_CARD_SYSTEM_DOWN
 	.2byte  ITEM_CARD_TEST_TIGER
 	.2byte  ITEM_CARD_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_IROU
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_YAICHI
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_ZANJI
-	.2byte  ITEM_CARD_THE_TRANSMIGRATION_PROPHECY
 	.2byte  ITEM_CARD_THREATENING_ROAR
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
-	.2byte  ITEM_CARD_TRADE_IN
 	.2byte  ITEM_CARD_TRAP_DUSTSHOOT
 	.2byte  ITEM_CARD_TREEBORN_FROG
+	.2byte  ITEM_CARD_TWISTER
+	.2byte  ITEM_CARD_UNITED_WE_STAND
 	.2byte  ITEM_CARD_VANITY_S_FIEND
 	.2byte  ITEM_CARD_WABOKU
 	.2byte  ITEM_CARD_WAVE_MOTION_CANNON
-	.2byte  ITEM_CARD_WINGED_RHYNOS
-	.2byte  ITEM_CARD_YELLOW_GADGET
 	.2byte  ITEM_CARD_ZABORG_THE_THUNDER_MONARCH
+	.2byte  ITEM_CARD_ZOMBIE_MASTER
 	pokemartlistend
 
 InsideOfTruck_EventScript_Clerk_DADReturn::
@@ -7758,20 +6638,16 @@ InsideOfTruck_PokemartDADReturn:
 	.2byte  ITEM_CARD_CYBER_TWIN_DRAGON
 	.2byte  ITEM_CARD_CYBER_VALLEY
 	.2byte  ITEM_CARD_D_D_CROW
-	.2byte  ITEM_CARD_D_D_DESIGNATOR
 	.2byte  ITEM_CARD_D_D_SURVIVOR
 	.2byte  ITEM_CARD_D_D_WARRIOR_LADY
-	.2byte  ITEM_CARD_D_D_R_DIFFERENT_DIMENSION_REINCARNATION
 	.2byte  ITEM_CARD_DARK_ARMED_DRAGON
 	.2byte  ITEM_CARD_DARK_BALTER_THE_TERRIBLE
 	.2byte  ITEM_CARD_DARK_BLADE_THE_DRAGON_KNIGHT
-	.2byte  ITEM_CARD_DARK_BRIBE
 	.2byte  ITEM_CARD_DARK_GREPHER
 	.2byte  ITEM_CARD_DARK_MAGICIAN_GIRL
 	.2byte  ITEM_CARD_DARK_MAGICIAN_OF_CHAOS
 	.2byte  ITEM_CARD_DARK_MIMIC_LV3
 	.2byte  ITEM_CARD_DARK_NEPHTHYS
-	.2byte  ITEM_CARD_DARK_WORLD_DEALINGS
 	.2byte  ITEM_CARD_DARKFIRE_DRAGON
 	.2byte  ITEM_CARD_DARKLORD_ZERATO
 	.2byte  ITEM_CARD_DECK_DEVASTATION_VIRUS
@@ -7781,21 +6657,18 @@ InsideOfTruck_PokemartDADReturn:
 	.2byte  ITEM_CARD_DESTINY_HERO_DASHER
 	.2byte  ITEM_CARD_DESTINY_HERO_DIAMOND_DUDE
 	.2byte  ITEM_CARD_DESTINY_HERO_DISK_COMMANDER
-	.2byte  ITEM_CARD_DESTINY_HERO_DOOM_LORD
 	.2byte  ITEM_CARD_DESTINY_HERO_FEAR_MONGER
 	.2byte  ITEM_CARD_DESTINY_HERO_MALICIOUS
-	.2byte  ITEM_CARD_DESTINY_HERO_PLASMA
 	.2byte  ITEM_CARD_DIMENSION_FUSION
 	.2byte  ITEM_CARD_DIMENSION_WALL
 	.2byte  ITEM_CARD_DIMENSIONAL_FISSURE
 	.2byte  ITEM_CARD_DIMENSIONAL_PRISON
-	.2byte  ITEM_CARD_DIVINE_SWORD_PHOENIX_BLADE
 	.2byte  ITEM_CARD_DIVINE_WRATH
 	.2byte  ITEM_CARD_DON_ZALOOG
 	.2byte  ITEM_CARD_DOOMCALIBER_KNIGHT
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DRILLROID
 	.2byte  ITEM_CARD_DUST_TORNADO
-	.2byte  ITEM_CARD_E_EMERGENCY_CALL
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_STRATOS
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
@@ -7803,6 +6676,7 @@ InsideOfTruck_PokemartDADReturn:
 	.2byte  ITEM_CARD_EXILED_FORCE
 	.2byte  ITEM_CARD_FIEND_SKULL_DRAGON
 	.2byte  ITEM_CARD_FISSURE
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_FOOLISH_BURIAL
 	.2byte  ITEM_CARD_GAIA_THE_DRAGON_CHAMPION
 	.2byte  ITEM_CARD_GATLING_DRAGON
@@ -7811,24 +6685,16 @@ InsideOfTruck_PokemartDADReturn:
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_DARIUS
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_GAIODIAZ
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_HERAKLINOS
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_HOPLOMUS
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_LAQUARI
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_MURMILLO
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_SECUTOR
-	.2byte  ITEM_CARD_GLADIATOR_PROVING_GROUND
 	.2byte  ITEM_CARD_GOBLIN_ZOMBIE
 	.2byte  ITEM_CARD_GOLD_SARCOPHAGUS
-	.2byte  ITEM_CARD_GRANDMASTER_OF_THE_SIX_SAMURAI
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_GUARD
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_SPY
 	.2byte  ITEM_CARD_GRAVITY_BIND
-	.2byte  ITEM_CARD_GREAT_SHOGUN_SHIEN
-	.2byte  ITEM_CARD_GREEN_GADGET
 	.2byte  ITEM_CARD_HALLOWED_LIFE_BARRIER
 	.2byte  ITEM_CARD_HAMMER_SHOT
-	.2byte  ITEM_CARD_HAND_DESTRUCTION
 	.2byte  ITEM_CARD_HEAVY_STORM
-	.2byte  ITEM_CARD_IL_BLUD
 	.2byte  ITEM_CARD_JINZO
 	.2byte  ITEM_CARD_KING_DRAGUN
 	.2byte  ITEM_CARD_KING_TIGER_WANGHU
@@ -7841,9 +6707,7 @@ InsideOfTruck_PokemartDADReturn:
 	.2byte  ITEM_CARD_MACHINE_DUPLICATION
 	.2byte  ITEM_CARD_MACRO_COSMOS
 	.2byte  ITEM_CARD_MAGIC_CYLINDER
-	.2byte  ITEM_CARD_MAGICAL_STONE_EXCAVATION
 	.2byte  ITEM_CARD_MALEVOLENT_CATASTROPHE
-	.2byte  ITEM_CARD_MARSHMALLON
 	.2byte  ITEM_CARD_MASTER_OF_OZ
 	.2byte  ITEM_CARD_MESSENGER_OF_PEACE
 	.2byte  ITEM_CARD_MIND_CONTROL
@@ -7861,31 +6725,23 @@ InsideOfTruck_PokemartDADReturn:
 	.2byte  ITEM_CARD_NEEDLE_CEILING
 	.2byte  ITEM_CARD_NEKO_MANE_KING
 	.2byte  ITEM_CARD_NEO_SPACIAN_DARK_PANTHER
-	.2byte  ITEM_CARD_NEO_SPACIAN_GRAND_MOLE
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
 	.2byte  ITEM_CARD_OJAMA_KING
 	.2byte  ITEM_CARD_OJAMA_TRIO
-	.2byte  ITEM_CARD_OLD_VINDICTIVE_MAGICIAN
-	.2byte  ITEM_CARD_PHANTOM_OF_CHAOS
 	.2byte  ITEM_CARD_PHOENIX_WING_WIND_BLAST
 	.2byte  ITEM_CARD_POT_OF_AVARICE
 	.2byte  ITEM_CARD_PREMATURE_BURIAL
-	.2byte  ITEM_CARD_PRIME_MATERIAL_DRAGON
-	.2byte  ITEM_CARD_PROMETHEUS_KING_OF_THE_SHADOWS
 	.2byte  ITEM_CARD_PROTECTOR_OF_THE_SANCTUARY
 	.2byte  ITEM_CARD_PULLING_THE_RUG
 	.2byte  ITEM_CARD_PUPPET_PLANT
 	.2byte  ITEM_CARD_PYRAMID_TURTLE
 	.2byte  ITEM_CARD_RAIGEKI_BREAK
-	.2byte  ITEM_CARD_RAINBOW_LIFE
 	.2byte  ITEM_CARD_RAIZA_THE_STORM_MONARCH
 	.2byte  ITEM_CARD_REAPER_ON_THE_NIGHTMARE
 	.2byte  ITEM_CARD_REASONING
-	.2byte  ITEM_CARD_RED_GADGET
 	.2byte  ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
 	.2byte  ITEM_CARD_RESCUE_CAT
 	.2byte  ITEM_CARD_RETURN_FROM_THE_DIFFERENT_DIMENSION
-	.2byte  ITEM_CARD_RING_OF_DEFENSE
 	.2byte  ITEM_CARD_ROYAL_DECREE
 	.2byte  ITEM_CARD_ROYAL_MAGICAL_LIBRARY
 	.2byte  ITEM_CARD_ROYAL_OPPRESSION
@@ -7895,7 +6751,6 @@ InsideOfTruck_PokemartDADReturn:
 	.2byte  ITEM_CARD_SCAPEGOAT
 	.2byte  ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT
 	.2byte  ITEM_CARD_SHADOW_IMPRISONING_MIRROR
-	.2byte  ITEM_CARD_SHIELD_CRUSH
 	.2byte  ITEM_CARD_SHRINK
 	.2byte  ITEM_CARD_SILLVA_WARLORD_OF_DARK_WORLD
 	.2byte  ITEM_CARD_SIX_SAMURAI_UNITED
@@ -7904,26 +6759,19 @@ InsideOfTruck_PokemartDADReturn:
 	.2byte  ITEM_CARD_SNIPE_HUNTER
 	.2byte  ITEM_CARD_SOLEMN_JUDGMENT
 	.2byte  ITEM_CARD_SOUL_EXCHANGE
-	.2byte  ITEM_CARD_SOUL_RELEASE
 	.2byte  ITEM_CARD_SOUL_TAKER
 	.2byte  ITEM_CARD_SPELL_CANCELLER
 	.2byte  ITEM_CARD_SPIRIT_REAPER
 	.2byte  ITEM_CARD_STRIKE_NINJA
 	.2byte  ITEM_CARD_SWORDS_OF_REVEALING_LIGHT
 	.2byte  ITEM_CARD_TEST_TIGER
-	.2byte  ITEM_CARD_THE_BEGINNING_OF_THE_END
 	.2byte  ITEM_CARD_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_IROU
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_YAICHI
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_ZANJI
-	.2byte  ITEM_CARD_THE_TRANSMIGRATION_PROPHECY
 	.2byte  ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH
 	.2byte  ITEM_CARD_THREATENING_ROAR
 	.2byte  ITEM_CARD_THUNDER_DRAGON
 	.2byte  ITEM_CARD_TOON_CANNON_SOLDIER
 	.2byte  ITEM_CARD_TOON_TABLE_OF_CONTENTS
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
-	.2byte  ITEM_CARD_TRADE_IN
 	.2byte  ITEM_CARD_TRAP_DUSTSHOOT
 	.2byte  ITEM_CARD_TREEBORN_FROG
 	.2byte  ITEM_CARD_TWISTER
@@ -7931,7 +6779,6 @@ InsideOfTruck_PokemartDADReturn:
 	.2byte  ITEM_CARD_VANITY_S_FIEND
 	.2byte  ITEM_CARD_WABOKU
 	.2byte  ITEM_CARD_WAVE_MOTION_CANNON
-	.2byte  ITEM_CARD_YELLOW_GADGET
 	.2byte  ITEM_CARD_ZABORG_THE_THUNDER_MONARCH
 	.2byte  ITEM_CARD_ZOMBIE_MASTER
 	.2byte  ITEM_CARD_ZOMBYRA_THE_DARK
@@ -7977,35 +6824,27 @@ InsideOfTruck_PokemartGladiator:
 	.2byte  ITEM_CARD_CYBER_VALLEY
 	.2byte  ITEM_CARD_D_D_ASSAILANT
 	.2byte  ITEM_CARD_D_D_CROW
-	.2byte  ITEM_CARD_D_D_WARRIOR
 	.2byte  ITEM_CARD_D_D_WARRIOR_LADY
-	.2byte  ITEM_CARD_D_D_R_DIFFERENT_DIMENSION_REINCARNATION
 	.2byte  ITEM_CARD_DARK_ARMED_DRAGON
 	.2byte  ITEM_CARD_DARK_BALTER_THE_TERRIBLE
 	.2byte  ITEM_CARD_DARK_BLADE_THE_DRAGON_KNIGHT
-	.2byte  ITEM_CARD_DARK_BRIBE
 	.2byte  ITEM_CARD_DARK_FLARE_KNIGHT
 	.2byte  ITEM_CARD_DARK_GREPHER
 	.2byte  ITEM_CARD_DARK_MAGICIAN_OF_CHAOS
 	.2byte  ITEM_CARD_DARK_SCORPION_CLIFF_THE_TRAP_REMOVER
 	.2byte  ITEM_CARD_DARKLORD_ZERATO
 	.2byte  ITEM_CARD_DECK_DEVASTATION_VIRUS
-	.2byte  ITEM_CARD_DECK_LOCKDOWN
 	.2byte  ITEM_CARD_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE
 	.2byte  ITEM_CARD_DESTINY_DRAW
 	.2byte  ITEM_CARD_DESTINY_HERO_DASHER
 	.2byte  ITEM_CARD_DESTINY_HERO_DISK_COMMANDER
 	.2byte  ITEM_CARD_DESTINY_HERO_FEAR_MONGER
 	.2byte  ITEM_CARD_DESTINY_HERO_MALICIOUS
-	.2byte  ITEM_CARD_DESTINY_HERO_PLASMA
 	.2byte  ITEM_CARD_DIMENSIONAL_PRISON
 	.2byte  ITEM_CARD_DIVINE_WRATH
 	.2byte  ITEM_CARD_DOOMCALIBER_KNIGHT
 	.2byte  ITEM_CARD_DUST_TORNADO
-	.2byte  ITEM_CARD_E_EMERGENCY_CALL
-	.2byte  ITEM_CARD_EHREN_LIGHTSWORN_MONK
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN
-	.2byte  ITEM_CARD_ELEMENTAL_HERO_NEOS_ALIUS
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_PRISMA
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_STRATOS
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
@@ -8014,6 +6853,7 @@ InsideOfTruck_PokemartGladiator:
 	.2byte  ITEM_CARD_FLAME_SWORDSMAN
 	.2byte  ITEM_CARD_FOOLISH_BURIAL
 	.2byte  ITEM_CARD_FOSSIL_DYNA_PACHYCEPHALO
+	.2byte  ITEM_CARD_GAIA_KNIGHT_THE_FORCE_OF_EARTH
 	.2byte  ITEM_CARD_GAIA_THE_DRAGON_CHAMPION
 	.2byte  ITEM_CARD_GAROTH_LIGHTSWORN_WARRIOR
 	.2byte  ITEM_CARD_GATLING_DRAGON
@@ -8022,19 +6862,13 @@ InsideOfTruck_PokemartGladiator:
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_GAIODIAZ
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_GYZARUS
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_HERAKLINOS
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_HOPLOMUS
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_LAQUARI
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_MURMILLO
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_SECUTOR
-	.2byte  ITEM_CARD_GLADIATOR_PROVING_GROUND
 	.2byte  ITEM_CARD_GOLD_SARCOPHAGUS
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_GUARD
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_SPY
 	.2byte  ITEM_CARD_HEAVY_STORM
-	.2byte  ITEM_CARD_HERO_BLAST
-	.2byte  ITEM_CARD_HERO_S_RULE_2
 	.2byte  ITEM_CARD_HONEST
-	.2byte  ITEM_CARD_JAIN_LIGHTSWORN_PALADIN
 	.2byte  ITEM_CARD_JINZO
 	.2byte  ITEM_CARD_JUDGMENT_DRAGON
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
@@ -8042,7 +6876,6 @@ InsideOfTruck_PokemartGladiator:
 	.2byte  ITEM_CARD_LIGHT_AND_DARKNESS_DRAGON
 	.2byte  ITEM_CARD_LIGHT_IMPRISONING_MIRROR
 	.2byte  ITEM_CARD_LIGHTNING_VORTEX
-	.2byte  ITEM_CARD_LIMIT_REVERSE
 	.2byte  ITEM_CARD_LUMINA_LIGHTSWORN_SUMMONER
 	.2byte  ITEM_CARD_LYLA_LIGHTSWORN_SORCERESS
 	.2byte  ITEM_CARD_MACRO_COSMOS
@@ -8056,25 +6889,20 @@ InsideOfTruck_PokemartGladiator:
 	.2byte  ITEM_CARD_MONSTER_REBORN
 	.2byte  ITEM_CARD_MONSTER_REINCARNATION
 	.2byte  ITEM_CARD_MORPHING_JAR
-	.2byte  ITEM_CARD_MUKO
 	.2byte  ITEM_CARD_MY_BODY_AS_A_SHIELD
 	.2byte  ITEM_CARD_MYSTIC_SWORDSMAN_LV2
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
 	.2byte  ITEM_CARD_NECRO_GARDNA
 	.2byte  ITEM_CARD_NEO_SPACIAN_DARK_PANTHER
-	.2byte  ITEM_CARD_NEO_SPACIAN_GRAND_MOLE
 	.2byte  ITEM_CARD_NIGHT_ASSAILANT
 	.2byte  ITEM_CARD_NINJA_GRANDMASTER_SASUKE
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
 	.2byte  ITEM_CARD_NOBLEMAN_OF_EXTERMINATION
 	.2byte  ITEM_CARD_OJAMA_KING
-	.2byte  ITEM_CARD_PHANTOM_OF_CHAOS
 	.2byte  ITEM_CARD_PHOENIX_WING_WIND_BLAST
 	.2byte  ITEM_CARD_POT_OF_AVARICE
 	.2byte  ITEM_CARD_PREMATURE_BURIAL
-	.2byte  ITEM_CARD_PRIME_MATERIAL_DRAGON
 	.2byte  ITEM_CARD_PROHIBITION
-	.2byte  ITEM_CARD_PROMETHEUS_KING_OF_THE_SHADOWS
 	.2byte  ITEM_CARD_PULLING_THE_RUG
 	.2byte  ITEM_CARD_RAIZA_THE_STORM_MONARCH
 	.2byte  ITEM_CARD_REAPER_ON_THE_NIGHTMARE
@@ -8090,7 +6918,6 @@ InsideOfTruck_PokemartGladiator:
 	.2byte  ITEM_CARD_SCAPEGOAT
 	.2byte  ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT
 	.2byte  ITEM_CARD_SHADOW_IMPRISONING_MIRROR
-	.2byte  ITEM_CARD_SHIELD_CRUSH
 	.2byte  ITEM_CARD_SHRINK
 	.2byte  ITEM_CARD_SKILL_DRAIN
 	.2byte  ITEM_CARD_SMASHING_GROUND
@@ -8101,11 +6928,9 @@ InsideOfTruck_PokemartGladiator:
 	.2byte  ITEM_CARD_SPIRIT_REAPER
 	.2byte  ITEM_CARD_STRIKE_NINJA
 	.2byte  ITEM_CARD_TEST_TIGER
-	.2byte  ITEM_CARD_THE_TRANSMIGRATION_PROPHECY
 	.2byte  ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH
 	.2byte  ITEM_CARD_THREATENING_ROAR
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
-	.2byte  ITEM_CARD_TRADE_IN
 	.2byte  ITEM_CARD_TRAP_DUSTSHOOT
 	.2byte  ITEM_CARD_TREEBORN_FROG
 	.2byte  ITEM_CARD_TWISTER
@@ -8160,13 +6985,11 @@ InsideOfTruck_PokemartTeleDAD:
 	.2byte  ITEM_CARD_DESTINY_DRAW
 	.2byte  ITEM_CARD_DESTINY_HERO_DASHER
 	.2byte  ITEM_CARD_DESTINY_HERO_DIAMOND_DUDE
-	.2byte  ITEM_CARD_DESTINY_HERO_DOOM_LORD
 	.2byte  ITEM_CARD_DESTINY_HERO_MALICIOUS
-	.2byte  ITEM_CARD_DESTINY_HERO_PLASMA
 	.2byte  ITEM_CARD_DIMENSIONAL_PRISON
 	.2byte  ITEM_CARD_DIVINE_WRATH
+	.2byte  ITEM_CARD_DOOMKAISER_DRAGON
 	.2byte  ITEM_CARD_DUST_TORNADO
-	.2byte  ITEM_CARD_EHREN_LIGHTSWORN_MONK
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_STRATOS
 	.2byte  ITEM_CARD_EMERGENCY_TELEPORT
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
@@ -8175,15 +6998,11 @@ InsideOfTruck_PokemartTeleDAD:
 	.2byte  ITEM_CARD_GIANT_TRUNADE
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_BESTIARI
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_DARIUS
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_EQUESTE
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_GAIODIAZ
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_GYZARUS
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_HERAKLINOS
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_HOPLOMUS
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_LAQUARI
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_MURMILLO
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_WAR_CHARIOT
-	.2byte  ITEM_CARD_GLADIATOR_PROVING_GROUND
 	.2byte  ITEM_CARD_GOBLIN_ZOMBIE
 	.2byte  ITEM_CARD_GORZ_THE_EMISSARY_OF_DARKNESS
 	.2byte  ITEM_CARD_GOYO_GUARDIAN
@@ -8192,7 +7011,6 @@ InsideOfTruck_PokemartTeleDAD:
 	.2byte  ITEM_CARD_HEAVY_STORM
 	.2byte  ITEM_CARD_HONEST
 	.2byte  ITEM_CARD_IMPERIAL_IRON_WALL
-	.2byte  ITEM_CARD_JAIN_LIGHTSWORN_PALADIN
 	.2byte  ITEM_CARD_JUDGMENT_DRAGON
 	.2byte  ITEM_CARD_KREBONS
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
@@ -8215,13 +7033,10 @@ InsideOfTruck_PokemartTeleDAD:
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
 	.2byte  ITEM_CARD_NECRO_GARDNA
 	.2byte  ITEM_CARD_NEEDLE_CEILING
-	.2byte  ITEM_CARD_NEO_SPACIAN_GRAND_MOLE
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
 	.2byte  ITEM_CARD_PHOENIX_WING_WIND_BLAST
 	.2byte  ITEM_CARD_PLAGUESPREADER_ZOMBIE
 	.2byte  ITEM_CARD_PROHIBITION
-	.2byte  ITEM_CARD_PROMETHEUS_KING_OF_THE_SHADOWS
-	.2byte  ITEM_CARD_PSYCHIC_COMMANDER
 	.2byte  ITEM_CARD_PYRAMID_TURTLE
 	.2byte  ITEM_CARD_RAIZA_THE_STORM_MONARCH
 	.2byte  ITEM_CARD_RECKLESS_GREED
@@ -8233,7 +7048,6 @@ InsideOfTruck_PokemartTeleDAD:
 	.2byte  ITEM_CARD_RYKO_LIGHTSWORN_HUNTER
 	.2byte  ITEM_CARD_SANGAN
 	.2byte  ITEM_CARD_SCAPEGOAT
-	.2byte  ITEM_CARD_SECRET_VILLAGE_OF_THE_SPELLCASTERS
 	.2byte  ITEM_CARD_SHADOW_IMPRISONING_MIRROR
 	.2byte  ITEM_CARD_SHRINK
 	.2byte  ITEM_CARD_SKILL_DRAIN
@@ -8244,6 +7058,7 @@ InsideOfTruck_PokemartTeleDAD:
 	.2byte  ITEM_CARD_SOUL_EXCHANGE
 	.2byte  ITEM_CARD_SPIRIT_REAPER
 	.2byte  ITEM_CARD_STARDUST_DRAGON
+	.2byte  ITEM_CARD_TEMPEST_MAGICIAN
 	.2byte  ITEM_CARD_THOUGHT_RULER_ARCHFIEND
 	.2byte  ITEM_CARD_THREATENING_ROAR
 	.2byte  ITEM_CARD_THUNDER_KING_RAI_OH
@@ -8274,11 +7089,10 @@ InsideOfTruck_EventScript_Clerk_Cat::
 InsideOfTruck_PokemartCat:
 	.2byte  ITEM_CARD_ALLURE_OF_DARKNESS
 	.2byte  ITEM_CARD_ARCANITE_MAGICIAN
+	.2byte  ITEM_CARD_ARMORY_ARM
 	.2byte  ITEM_CARD_AURKUS_LIGHTSWORN_DRUID
-	.2byte  ITEM_CARD_AUTONOMOUS_ACTION_UNIT
 	.2byte  ITEM_CARD_BECKONING_LIGHT
 	.2byte  ITEM_CARD_BLACK_ROSE_DRAGON
-	.2byte  ITEM_CARD_BLACK_SALVO
 	.2byte  ITEM_CARD_BLACK_WHIRLWIND
 	.2byte  ITEM_CARD_BLACKWING_BLIZZARD_THE_FAR_NORTH
 	.2byte  ITEM_CARD_BLACKWING_BORA_THE_SPEAR
@@ -8312,31 +7126,22 @@ InsideOfTruck_PokemartCat:
 	.2byte  ITEM_CARD_D_D_WARRIOR_LADY
 	.2byte  ITEM_CARD_DANDYLION
 	.2byte  ITEM_CARD_DARK_ARMED_DRAGON
-	.2byte  ITEM_CARD_DARK_BRIBE
 	.2byte  ITEM_CARD_DARK_DEAL
 	.2byte  ITEM_CARD_DARK_GREPHER
 	.2byte  ITEM_CARD_DARK_STRIKE_FIGHTER
-	.2byte  ITEM_CARD_DARK_WORLD_DEALINGS
 	.2byte  ITEM_CARD_DEBRIS_DRAGON
 	.2byte  ITEM_CARD_DECK_DEVASTATION_VIRUS
-	.2byte  ITEM_CARD_DECK_LOCKDOWN
 	.2byte  ITEM_CARD_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE
-	.2byte  ITEM_CARD_DELTA_CROW_ANTI_REVERSE
 	.2byte  ITEM_CARD_DES_KOALA
 	.2byte  ITEM_CARD_DESTINY_DRAW
 	.2byte  ITEM_CARD_DESTINY_HERO_DIAMOND_DUDE
 	.2byte  ITEM_CARD_DESTINY_HERO_FEAR_MONGER
 	.2byte  ITEM_CARD_DESTINY_HERO_MALICIOUS
-	.2byte  ITEM_CARD_DESTINY_HERO_PLASMA
 	.2byte  ITEM_CARD_DIMENSIONAL_FISSURE
 	.2byte  ITEM_CARD_DIMENSIONAL_PRISON
-	.2byte  ITEM_CARD_DIVINE_SWORD_PHOENIX_BLADE
 	.2byte  ITEM_CARD_DIVINE_WRATH
 	.2byte  ITEM_CARD_DOOMCALIBER_KNIGHT
 	.2byte  ITEM_CARD_DUST_TORNADO
-	.2byte  ITEM_CARD_E_EMERGENCY_CALL
-	.2byte  ITEM_CARD_EHREN_LIGHTSWORN_MONK
-	.2byte  ITEM_CARD_ELEMENTAL_HERO_NEOS_ALIUS
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_PRISMA
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_STRATOS
 	.2byte  ITEM_CARD_EMERGENCY_TELEPORT
@@ -8344,35 +7149,27 @@ InsideOfTruck_PokemartCat:
 	.2byte  ITEM_CARD_FISSURE
 	.2byte  ITEM_CARD_FOOLISH_BURIAL
 	.2byte  ITEM_CARD_FOSSIL_DYNA_PACHYCEPHALO
+	.2byte  ITEM_CARD_GAIA_KNIGHT_THE_FORCE_OF_EARTH
 	.2byte  ITEM_CARD_GAROTH_LIGHTSWORN_WARRIOR
 	.2byte  ITEM_CARD_GIANT_ORC
 	.2byte  ITEM_CARD_GIANT_TRUNADE
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_BESTIARI
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_DARIUS
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_EQUESTE
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_GYZARUS
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_HERAKLINOS
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_HOPLOMUS
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_LAQUARI
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_MURMILLO
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_SAMNITE
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_SECUTOR
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_WAR_CHARIOT
-	.2byte  ITEM_CARD_GLADIATOR_PROVING_GROUND
 	.2byte  ITEM_CARD_GOLD_SARCOPHAGUS
 	.2byte  ITEM_CARD_GOLDD_WU_LORD_OF_DARK_WORLD
 	.2byte  ITEM_CARD_GORZ_THE_EMISSARY_OF_DARKNESS
 	.2byte  ITEM_CARD_GOYO_GUARDIAN
-	.2byte  ITEM_CARD_GRAVE_OF_THE_SUPER_ANCIENT_ORGANISM
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_GUARD
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_SPY
 	.2byte  ITEM_CARD_HEAVY_STORM
 	.2byte  ITEM_CARD_HONEST
 	.2byte  ITEM_CARD_ICARUS_ATTACK
 	.2byte  ITEM_CARD_IMPERIAL_IRON_WALL
-	.2byte  ITEM_CARD_JAIN_LIGHTSWORN_PALADIN
 	.2byte  ITEM_CARD_JUDGMENT_DRAGON
-	.2byte  ITEM_CARD_KAISER_COLOSSEUM
 	.2byte  ITEM_CARD_KING_TIGER_WANGHU
 	.2byte  ITEM_CARD_KREBONS
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
@@ -8387,7 +7184,6 @@ InsideOfTruck_PokemartCat:
 	.2byte  ITEM_CARD_MAGIC_JAMMER
 	.2byte  ITEM_CARD_MAGICAL_ANDROID
 	.2byte  ITEM_CARD_MALEVOLENT_CATASTROPHE
-	.2byte  ITEM_CARD_MARSHMALLON
 	.2byte  ITEM_CARD_METAL_REFLECT_SLIME
 	.2byte  ITEM_CARD_MIND_CONTROL
 	.2byte  ITEM_CARD_MIND_CRUSH
@@ -8402,16 +7198,12 @@ InsideOfTruck_PokemartCat:
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
 	.2byte  ITEM_CARD_NECRO_GARDNA
 	.2byte  ITEM_CARD_NEO_SPACIAN_DARK_PANTHER
-	.2byte  ITEM_CARD_NEO_SPACIAN_GRAND_MOLE
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
 	.2byte  ITEM_CARD_NOBLEMAN_OF_EXTERMINATION
-	.2byte  ITEM_CARD_PHANTOM_DRAGON
-	.2byte  ITEM_CARD_PHANTOM_OF_CHAOS
 	.2byte  ITEM_CARD_PHOENIX_WING_WIND_BLAST
 	.2byte  ITEM_CARD_PLAGUESPREADER_ZOMBIE
 	.2byte  ITEM_CARD_POT_OF_AVARICE
 	.2byte  ITEM_CARD_PROHIBITION
-	.2byte  ITEM_CARD_PSYCHIC_COMMANDER
 	.2byte  ITEM_CARD_RAIZA_THE_STORM_MONARCH
 	.2byte  ITEM_CARD_RECKLESS_GREED
 	.2byte  ITEM_CARD_RED_DRAGON_ARCHFIEND
@@ -8432,14 +7224,13 @@ InsideOfTruck_PokemartCat:
 	.2byte  ITEM_CARD_SOLAR_RECHARGE
 	.2byte  ITEM_CARD_SOLEMN_JUDGMENT
 	.2byte  ITEM_CARD_SOUL_EXCHANGE
-	.2byte  ITEM_CARD_SOUL_RELEASE
 	.2byte  ITEM_CARD_SPIRIT_REAPER
 	.2byte  ITEM_CARD_STARDUST_DRAGON
 	.2byte  ITEM_CARD_SUMMON_LIMIT
 	.2byte  ITEM_CARD_SUMMONER_MONK
 	.2byte  ITEM_CARD_SWORDS_OF_REVEALING_LIGHT
+	.2byte  ITEM_CARD_TEMPEST_MAGICIAN
 	.2byte  ITEM_CARD_TEST_TIGER
-	.2byte  ITEM_CARD_THE_TRANSMIGRATION_PROPHECY
 	.2byte  ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH
 	.2byte  ITEM_CARD_THOUGHT_RULER_ARCHFIEND
 	.2byte  ITEM_CARD_THREATENING_ROAR
@@ -8451,10 +7242,10 @@ InsideOfTruck_PokemartCat:
 	.2byte  ITEM_CARD_TRAP_HOLE
 	.2byte  ITEM_CARD_TRAP_STUN
 	.2byte  ITEM_CARD_TWISTER
-	.2byte  ITEM_CARD_TYTANNIAL_PRINCESS_OF_CAMELLIAS
 	.2byte  ITEM_CARD_WABOKU
 	.2byte  ITEM_CARD_WULF_LIGHTSWORN_BEAST
 	.2byte  ITEM_CARD_X_SABER_AIRBELLUM
+	.2byte  ITEM_CARD_X_SABER_URBELLUM
 	.2byte  ITEM_CARD_ZOMBYRA_THE_DARK
 	pokemartlistend
 
@@ -8478,10 +7269,8 @@ InsideOfTruck_PokemartEdison:
 	.2byte  ITEM_CARD_ANTI_SPELL_FRAGRANCE
 	.2byte  ITEM_CARD_ARCANITE_MAGICIAN
 	.2byte  ITEM_CARD_ARMAGEDDON_KNIGHT
+	.2byte  ITEM_CARD_ARMORY_ARM
 	.2byte  ITEM_CARD_AURKUS_LIGHTSWORN_DRUID
-	.2byte  ITEM_CARD_AUTONOMOUS_ACTION_UNIT
-	.2byte  ITEM_CARD_BATTLE_FADER
-	.2byte  ITEM_CARD_BECKONING_LIGHT
 	.2byte  ITEM_CARD_BLACK_ROSE_DRAGON
 	.2byte  ITEM_CARD_BLACK_WHIRLWIND
 	.2byte  ITEM_CARD_BLACKWING_BLIZZARD_THE_FAR_NORTH
@@ -8489,6 +7278,7 @@ InsideOfTruck_PokemartEdison:
 	.2byte  ITEM_CARD_BLACKWING_GALE_THE_WHIRLWIND
 	.2byte  ITEM_CARD_BLACKWING_KALUT_THE_MOON_SHADOW
 	.2byte  ITEM_CARD_BLACKWING_SHURA_THE_BLUE_FLAME
+	.2byte  ITEM_CARD_BLACKWING_SILVERWIND_THE_ASCENDANT
 	.2byte  ITEM_CARD_BLACKWING_SIROCCO_THE_DAWN
 	.2byte  ITEM_CARD_BLACKWING_VAYU_THE_EMBLEM_OF_HONOR
 	.2byte  ITEM_CARD_BLACKWING_ARMED_WING
@@ -8521,7 +7311,6 @@ InsideOfTruck_PokemartEdison:
 	.2byte  ITEM_CARD_D_D_ASSAILANT
 	.2byte  ITEM_CARD_D_D_CROW
 	.2byte  ITEM_CARD_D_D_WARRIOR_LADY
-	.2byte  ITEM_CARD_D_D_R_DIFFERENT_DIMENSION_REINCARNATION
 	.2byte  ITEM_CARD_DANDYLION
 	.2byte  ITEM_CARD_DARK_ARMED_DRAGON
 	.2byte  ITEM_CARD_DARK_ELF
@@ -8531,62 +7320,49 @@ InsideOfTruck_PokemartEdison:
 	.2byte  ITEM_CARD_DEBRIS_DRAGON
 	.2byte  ITEM_CARD_DECK_DEVASTATION_VIRUS
 	.2byte  ITEM_CARD_DEEP_SEA_DIVA
-	.2byte  ITEM_CARD_DES_FROG
 	.2byte  ITEM_CARD_DESTINY_HERO_MALICIOUS
 	.2byte  ITEM_CARD_DIMENSIONAL_PRISON
+	.2byte  ITEM_CARD_DOOMKAISER_DRAGON
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DUPE_FROG
 	.2byte  ITEM_CARD_DUST_TORNADO
-	.2byte  ITEM_CARD_E_EMERGENCY_CALL
-	.2byte  ITEM_CARD_EHREN_LIGHTSWORN_MONK
-	.2byte  ITEM_CARD_ELEMENTAL_HERO_NEOS_ALIUS
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_PRISMA
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_STRATOS
 	.2byte  ITEM_CARD_EMERGENCY_TELEPORT
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
 	.2byte  ITEM_CARD_ERADICATOR_EPIDEMIC_VIRUS
 	.2byte  ITEM_CARD_ESCAPE_FROM_THE_DARK_DIMENSION
-	.2byte  ITEM_CARD_FISHBORG_BLASTER
 	.2byte  ITEM_CARD_FISSURE
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_FLAMVELL_GUARD
 	.2byte  ITEM_CARD_FLIP_FLOP_FROG
 	.2byte  ITEM_CARD_FOOLISH_BURIAL
 	.2byte  ITEM_CARD_FORBIDDEN_CHALICE
 	.2byte  ITEM_CARD_FOSSIL_DYNA_PACHYCEPHALO
-	.2byte  ITEM_CARD_FUTURE_FUSION
+	.2byte  ITEM_CARD_GAIA_KNIGHT_THE_FORCE_OF_EARTH
 	.2byte  ITEM_CARD_GAROTH_LIGHTSWORN_WARRIOR
 	.2byte  ITEM_CARD_GIANT_TRUNADE
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_BESTIARI
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_DARIUS
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_EQUESTE
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_GYZARUS
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_HERAKLINOS
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_LAQUARI
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_MURMILLO
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_SAMNITE
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_SECUTOR
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_WAR_CHARIOT
 	.2byte  ITEM_CARD_GOBLIN_ZOMBIE
 	.2byte  ITEM_CARD_GOLD_SARCOPHAGUS
 	.2byte  ITEM_CARD_GORZ_THE_EMISSARY_OF_DARKNESS
 	.2byte  ITEM_CARD_GOYO_GUARDIAN
-	.2byte  ITEM_CARD_GRAVEKEEPER_S_DESCENDANT
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_SPY
 	.2byte  ITEM_CARD_HEAVY_STORM
-	.2byte  ITEM_CARD_HIDDEN_ARMORY
 	.2byte  ITEM_CARD_HONEST
 	.2byte  ITEM_CARD_ICARUS_ATTACK
-	.2byte  ITEM_CARD_IMPERIAL_IRON_WALL
 	.2byte  ITEM_CARD_INSTANT_FUSION
-	.2byte  ITEM_CARD_JAIN_LIGHTSWORN_PALADIN
 	.2byte  ITEM_CARD_JAR_OF_GREED
 	.2byte  ITEM_CARD_JINZO
 	.2byte  ITEM_CARD_JUDGMENT_DRAGON
-	.2byte  ITEM_CARD_JUNK_SYNCHRON
 	.2byte  ITEM_CARD_KARMA_CUT
-	.2byte  ITEM_CARD_KOA_KI_MEIRU_DRAGO
 	.2byte  ITEM_CARD_KREBONS
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
-	.2byte  ITEM_CARD_LAVA_GOLEM
 	.2byte  ITEM_CARD_LEGACY_OF_YATA_GARASU
 	.2byte  ITEM_CARD_LEGENDARY_JUJITSU_MASTER
 	.2byte  ITEM_CARD_LIGHT_AND_DARKNESS_DRAGON
@@ -8595,22 +7371,17 @@ InsideOfTruck_PokemartEdison:
 	.2byte  ITEM_CARD_LONEFIRE_BLOSSOM
 	.2byte  ITEM_CARD_LUMINA_LIGHTSWORN_SUMMONER
 	.2byte  ITEM_CARD_LYLA_LIGHTSWORN_SORCERESS
-	.2byte  ITEM_CARD_MACHINA_FORTRESS
-	.2byte  ITEM_CARD_MACHINA_GEARFRAME
 	.2byte  ITEM_CARD_MAGIC_CYLINDER
 	.2byte  ITEM_CARD_MAGICAL_ANDROID
-	.2byte  ITEM_CARD_MAGICAL_STONE_EXCAVATION
 	.2byte  ITEM_CARD_MASK_OF_RESTRICT
 	.2byte  ITEM_CARD_MEGAMORPH
 	.2byte  ITEM_CARD_MEZUKI
 	.2byte  ITEM_CARD_MIND_CONTROL
 	.2byte  ITEM_CARD_MIND_CRUSH
-	.2byte  ITEM_CARD_MIRACLE_FUSION
 	.2byte  ITEM_CARD_MIRROR_FORCE
 	.2byte  ITEM_CARD_MIRROR_OF_OATHS
 	.2byte  ITEM_CARD_MIST_WURM
 	.2byte  ITEM_CARD_MONSTER_REINCARNATION
-	.2byte  ITEM_CARD_MORAY_OF_GREED
 	.2byte  ITEM_CARD_MORPHING_JAR
 	.2byte  ITEM_CARD_MORPHING_JAR_2
 	.2byte  ITEM_CARD_MY_BODY_AS_A_SHIELD
@@ -8621,13 +7392,10 @@ InsideOfTruck_PokemartEdison:
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
 	.2byte  ITEM_CARD_NOBLEMAN_OF_EXTERMINATION
 	.2byte  ITEM_CARD_OFFERINGS_TO_THE_DOOMED
-	.2byte  ITEM_CARD_ONE_FOR_ONE
 	.2byte  ITEM_CARD_OVERLOAD_FUSION
 	.2byte  ITEM_CARD_PHOENIX_WING_WIND_BLAST
 	.2byte  ITEM_CARD_PLAGUESPREADER_ZOMBIE
 	.2byte  ITEM_CARD_POT_OF_AVARICE
-	.2byte  ITEM_CARD_PRIME_MATERIAL_DRAGON
-	.2byte  ITEM_CARD_PSYCHIC_COMMANDER
 	.2byte  ITEM_CARD_PULLING_THE_RUG
 	.2byte  ITEM_CARD_PYRAMID_TURTLE
 	.2byte  ITEM_CARD_RAIGEKI_BREAK
@@ -8649,10 +7417,10 @@ InsideOfTruck_PokemartEdison:
 	.2byte  ITEM_CARD_SKILL_DRAIN
 	.2byte  ITEM_CARD_SMASHING_GROUND
 	.2byte  ITEM_CARD_SNIPE_HUNTER
+	.2byte  ITEM_CARD_SNOWMAN_EATER
 	.2byte  ITEM_CARD_SOLAR_RECHARGE
 	.2byte  ITEM_CARD_SOLEMN_JUDGMENT
 	.2byte  ITEM_CARD_SOUL_EXCHANGE
-	.2byte  ITEM_CARD_SOUL_RELEASE
 	.2byte  ITEM_CARD_SPIRIT_REAPER
 	.2byte  ITEM_CARD_SPIRITUAL_WATER_ART_AOI
 	.2byte  ITEM_CARD_STARDUST_DRAGON
@@ -8660,29 +7428,25 @@ InsideOfTruck_PokemartEdison:
 	.2byte  ITEM_CARD_SUBSTITOAD
 	.2byte  ITEM_CARD_SUMMONER_MONK
 	.2byte  ITEM_CARD_SUPER_REJUVENATION
-	.2byte  ITEM_CARD_SUPER_NIMBLE_MEGA_HAMSTER
 	.2byte  ITEM_CARD_SWAP_FROG
 	.2byte  ITEM_CARD_SYSTEM_DOWN
+	.2byte  ITEM_CARD_TEMPEST_MAGICIAN
 	.2byte  ITEM_CARD_TEST_TIGER
-	.2byte  ITEM_CARD_THE_TRANSMIGRATION_PROPHECY
 	.2byte  ITEM_CARD_THE_TRICKY
 	.2byte  ITEM_CARD_THE_WHITE_STONE_OF_LEGEND
 	.2byte  ITEM_CARD_THOUGHT_RULER_ARCHFIEND
 	.2byte  ITEM_CARD_THREATENING_ROAR
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
-	.2byte  ITEM_CARD_TRADE_IN
 	.2byte  ITEM_CARD_TRAGOEDIA
 	.2byte  ITEM_CARD_TRAP_DUSTSHOOT
 	.2byte  ITEM_CARD_TRAP_HOLE
 	.2byte  ITEM_CARD_TRAP_STUN
-	.2byte  ITEM_CARD_TREACHEROUS_TRAP_HOLE
 	.2byte  ITEM_CARD_TREEBORN_FROG
-	.2byte  ITEM_CARD_TYTANNIAL_PRINCESS_OF_CAMELLIAS
-	.2byte  ITEM_CARD_UNIFROG
 	.2byte  ITEM_CARD_UPSTART_GOBLIN
 	.2byte  ITEM_CARD_VANITY_S_FIEND
 	.2byte  ITEM_CARD_WULF_LIGHTSWORN_BEAST
 	.2byte  ITEM_CARD_X_SABER_AIRBELLUM
+	.2byte  ITEM_CARD_X_SABER_URBELLUM
 	.2byte  ITEM_CARD_XX_SABER_GOTTOMS
 	.2byte  ITEM_CARD_ZOMBIE_MASTER
 	pokemartlistend
@@ -8705,13 +7469,10 @@ InsideOfTruck_PokemartFrog:
 	.2byte  ITEM_CARD_ALLY_OF_JUSTICE_CATASTOR
 	.2byte  ITEM_CARD_ANCIENT_FAIRY_DRAGON
 	.2byte  ITEM_CARD_ANTI_SPELL_FRAGRANCE
-	.2byte  ITEM_CARD_APPOINTER_OF_THE_RED_LOTUS
 	.2byte  ITEM_CARD_ARCANITE_MAGICIAN
-	.2byte  ITEM_CARD_ARCHLORD_KRISTYA
+	.2byte  ITEM_CARD_ARMORY_ARM
 	.2byte  ITEM_CARD_AURKUS_LIGHTSWORN_DRUID
-	.2byte  ITEM_CARD_AUTONOMOUS_ACTION_UNIT
 	.2byte  ITEM_CARD_BANISHER_OF_THE_RADIANCE
-	.2byte  ITEM_CARD_BATTLE_FADER
 	.2byte  ITEM_CARD_BECKONING_LIGHT
 	.2byte  ITEM_CARD_BLACK_ROSE_DRAGON
 	.2byte  ITEM_CARD_BLACK_WHIRLWIND
@@ -8720,6 +7481,7 @@ InsideOfTruck_PokemartFrog:
 	.2byte  ITEM_CARD_BLACKWING_GALE_THE_WHIRLWIND
 	.2byte  ITEM_CARD_BLACKWING_KALUT_THE_MOON_SHADOW
 	.2byte  ITEM_CARD_BLACKWING_SHURA_THE_BLUE_FLAME
+	.2byte  ITEM_CARD_BLACKWING_SILVERWIND_THE_ASCENDANT
 	.2byte  ITEM_CARD_BLACKWING_SIROCCO_THE_DAWN
 	.2byte  ITEM_CARD_BLACKWING_VAYU_THE_EMBLEM_OF_HONOR
 	.2byte  ITEM_CARD_BLACKWING_ARMED_WING
@@ -8736,7 +7498,6 @@ InsideOfTruck_PokemartFrog:
 	.2byte  ITEM_CARD_CALL_OF_THE_HAUNTED
 	.2byte  ITEM_CARD_CARD_DESTRUCTION
 	.2byte  ITEM_CARD_CARD_TROOPER
-	.2byte  ITEM_CARD_CARDS_FOR_BLACK_FEATHERS
 	.2byte  ITEM_CARD_CELESTIA_LIGHTSWORN_ANGEL
 	.2byte  ITEM_CARD_CHAOS_SORCERER
 	.2byte  ITEM_CARD_CHARGE_OF_THE_LIGHT_BRIGADE
@@ -8754,85 +7515,61 @@ InsideOfTruck_PokemartFrog:
 	.2byte  ITEM_CARD_DANDYLION
 	.2byte  ITEM_CARD_DARK_ARMED_DRAGON
 	.2byte  ITEM_CARD_DARK_BALTER_THE_TERRIBLE
-	.2byte  ITEM_CARD_DARK_BRIBE
 	.2byte  ITEM_CARD_DARK_GREPHER
 	.2byte  ITEM_CARD_DEBRIS_DRAGON
 	.2byte  ITEM_CARD_DEEP_SEA_DIVA
-	.2byte  ITEM_CARD_DELTA_CROW_ANTI_REVERSE
-	.2byte  ITEM_CARD_DES_FROG
 	.2byte  ITEM_CARD_DESTINY_HERO_MALICIOUS
 	.2byte  ITEM_CARD_DIMENSIONAL_FISSURE
 	.2byte  ITEM_CARD_DIMENSIONAL_PRISON
 	.2byte  ITEM_CARD_DIVINE_WRATH
 	.2byte  ITEM_CARD_DOOMCALIBER_KNIGHT
+	.2byte  ITEM_CARD_DOOMKAISER_DRAGON
 	.2byte  ITEM_CARD_DUPE_FROG
 	.2byte  ITEM_CARD_DUST_TORNADO
-	.2byte  ITEM_CARD_E_EMERGENCY_CALL
-	.2byte  ITEM_CARD_EHREN_LIGHTSWORN_MONK
-	.2byte  ITEM_CARD_ELEMENTAL_HERO_NEOS_ALIUS
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_PRISMA
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_STRATOS
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
 	.2byte  ITEM_CARD_ESCAPE_FROM_THE_DARK_DIMENSION
-	.2byte  ITEM_CARD_FISHBORG_BLASTER
 	.2byte  ITEM_CARD_FISSURE
 	.2byte  ITEM_CARD_FLIP_FLOP_FROG
-	.2byte  ITEM_CARD_FOG_KING
 	.2byte  ITEM_CARD_FOOLISH_BURIAL
 	.2byte  ITEM_CARD_FOSSIL_DYNA_PACHYCEPHALO
-	.2byte  ITEM_CARD_FUTURE_FUSION
+	.2byte  ITEM_CARD_GAIA_KNIGHT_THE_FORCE_OF_EARTH
 	.2byte  ITEM_CARD_GAROTH_LIGHTSWORN_WARRIOR
 	.2byte  ITEM_CARD_GEMINI_IMPS
-	.2byte  ITEM_CARD_GEMINI_SPARK
 	.2byte  ITEM_CARD_GIANT_RAT
 	.2byte  ITEM_CARD_GIANT_TRUNADE
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_BESTIARI
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_DARIUS
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_EQUESTE
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_GYZARUS
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_HERAKLINOS
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_HOPLOMUS
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_LAQUARI
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_MURMILLO
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_SAMNITE
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_SECUTOR
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_WAR_CHARIOT
-	.2byte  ITEM_CARD_GLADIATOR_PROVING_GROUND
 	.2byte  ITEM_CARD_GOBLIN_ZOMBIE
 	.2byte  ITEM_CARD_GOLD_SARCOPHAGUS
 	.2byte  ITEM_CARD_GOLDD_WU_LORD_OF_DARK_WORLD
 	.2byte  ITEM_CARD_GORZ_THE_EMISSARY_OF_DARKNESS
 	.2byte  ITEM_CARD_GOTTOMS_EMERGENCY_CALL
 	.2byte  ITEM_CARD_GOYO_GUARDIAN
-	.2byte  ITEM_CARD_GRAVEKEEPER_S_COMMANDANT
-	.2byte  ITEM_CARD_GRAVEKEEPER_S_DESCENDANT
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_GUARD
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_SPY
-	.2byte  ITEM_CARD_GREEN_GADGET
 	.2byte  ITEM_CARD_HAMMER_SHOT
-	.2byte  ITEM_CARD_HAND_DESTRUCTION
 	.2byte  ITEM_CARD_HANEWATA
 	.2byte  ITEM_CARD_HEAVY_STORM
-	.2byte  ITEM_CARD_HERO_S_RULE_2
 	.2byte  ITEM_CARD_HONEST
 	.2byte  ITEM_CARD_ICARUS_ATTACK
 	.2byte  ITEM_CARD_IMPERIAL_IRON_WALL
 	.2byte  ITEM_CARD_INFERNITY_ARCHFIEND
-	.2byte  ITEM_CARD_INFERNITY_AVENGER
 	.2byte  ITEM_CARD_INFERNITY_BARRIER
 	.2byte  ITEM_CARD_INFERNITY_BEETLE
-	.2byte  ITEM_CARD_INFERNITY_BREAK
 	.2byte  ITEM_CARD_INFERNITY_INFERNO
 	.2byte  ITEM_CARD_INFERNITY_LAUNCHER
-	.2byte  ITEM_CARD_INFERNITY_MIRAGE
 	.2byte  ITEM_CARD_INFERNITY_NECROMANCER
 	.2byte  ITEM_CARD_INJECTION_FAIRY_LILY
 	.2byte  ITEM_CARD_JINZO
 	.2byte  ITEM_CARD_JUDGMENT_DRAGON
-	.2byte  ITEM_CARD_JUNK_SYNCHRON
 	.2byte  ITEM_CARD_KING_TIGER_WANGHU
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
-	.2byte  ITEM_CARD_LAVA_GOLEM
 	.2byte  ITEM_CARD_LEGENDARY_JUJITSU_MASTER
 	.2byte  ITEM_CARD_LIGHT_AND_DARKNESS_DRAGON
 	.2byte  ITEM_CARD_LIGHT_IMPRISONING_MIRROR
@@ -8841,21 +7578,15 @@ InsideOfTruck_PokemartFrog:
 	.2byte  ITEM_CARD_LONEFIRE_BLOSSOM
 	.2byte  ITEM_CARD_LUMINA_LIGHTSWORN_SUMMONER
 	.2byte  ITEM_CARD_LYLA_LIGHTSWORN_SORCERESS
-	.2byte  ITEM_CARD_MACHINA_FORTRESS
-	.2byte  ITEM_CARD_MACHINA_GEARFRAME
 	.2byte  ITEM_CARD_MACRO_COSMOS
 	.2byte  ITEM_CARD_MAGICAL_ANDROID
-	.2byte  ITEM_CARD_MALEFIC_STARDUST_DRAGON
 	.2byte  ITEM_CARD_MASK_OF_RESTRICT
-	.2byte  ITEM_CARD_MASS_DRIVER
 	.2byte  ITEM_CARD_MEZUKI
 	.2byte  ITEM_CARD_MIND_CONTROL
 	.2byte  ITEM_CARD_MIND_CRUSH
-	.2byte  ITEM_CARD_MIRACLE_FUSION
 	.2byte  ITEM_CARD_MIRROR_FORCE
 	.2byte  ITEM_CARD_MIRROR_OF_OATHS
 	.2byte  ITEM_CARD_MIST_WURM
-	.2byte  ITEM_CARD_MORAY_OF_GREED
 	.2byte  ITEM_CARD_MORPHING_JAR
 	.2byte  ITEM_CARD_MOTHER_GRIZZLY
 	.2byte  ITEM_CARD_MY_BODY_AS_A_SHIELD
@@ -8864,30 +7595,23 @@ InsideOfTruck_PokemartFrog:
 	.2byte  ITEM_CARD_NECROVALLEY
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
 	.2byte  ITEM_CARD_NOBLEMAN_OF_EXTERMINATION
-	.2byte  ITEM_CARD_ONE_FOR_ONE
 	.2byte  ITEM_CARD_PHOENIX_WING_WIND_BLAST
 	.2byte  ITEM_CARD_PLAGUESPREADER_ZOMBIE
-	.2byte  ITEM_CARD_POISON_DRAW_FROG
 	.2byte  ITEM_CARD_POT_OF_AVARICE
-	.2byte  ITEM_CARD_PRIME_MATERIAL_DRAGON
 	.2byte  ITEM_CARD_PROHIBITION
 	.2byte  ITEM_CARD_PULLING_THE_RUG
 	.2byte  ITEM_CARD_PYRAMID_TURTLE
-	.2byte  ITEM_CARD_QUICKDRAW_SYNCHRON
 	.2byte  ITEM_CARD_RAIGEKI_BREAK
 	.2byte  ITEM_CARD_RAIZA_THE_STORM_MONARCH
 	.2byte  ITEM_CARD_RED_DRAGON_ARCHFIEND
-	.2byte  ITEM_CARD_RED_GADGET
 	.2byte  ITEM_CARD_REIGN_BEAUX_OVERLORD_OF_DARK_WORLD
 	.2byte  ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
 	.2byte  ITEM_CARD_RESCUE_CAT
 	.2byte  ITEM_CARD_RONINTOADIN
 	.2byte  ITEM_CARD_ROYAL_DECREE
 	.2byte  ITEM_CARD_ROYAL_OPPRESSION
-	.2byte  ITEM_CARD_ROYAL_TRIBUTE
 	.2byte  ITEM_CARD_RYKO_LIGHTSWORN_HUNTER
 	.2byte  ITEM_CARD_RYU_SENSHI
-	.2byte  ITEM_CARD_SABER_SLASH
 	.2byte  ITEM_CARD_SAKURETSU_ARMOR
 	.2byte  ITEM_CARD_SALVAGE
 	.2byte  ITEM_CARD_SANGAN
@@ -8903,18 +7627,15 @@ InsideOfTruck_PokemartFrog:
 	.2byte  ITEM_CARD_SOUL_EXCHANGE
 	.2byte  ITEM_CARD_SPIRIT_REAPER
 	.2byte  ITEM_CARD_SPIRITUAL_WATER_ART_AOI
-	.2byte  ITEM_CARD_SPORE
 	.2byte  ITEM_CARD_STARDUST_DRAGON
 	.2byte  ITEM_CARD_STARLIGHT_ROAD
 	.2byte  ITEM_CARD_SUBSTITOAD
 	.2byte  ITEM_CARD_SUMMONER_MONK
-	.2byte  ITEM_CARD_SUPER_NIMBLE_MEGA_HAMSTER
-	.2byte  ITEM_CARD_SWALLOW_FLIP
 	.2byte  ITEM_CARD_SWAP_FROG
 	.2byte  ITEM_CARD_SYSTEM_DOWN
+	.2byte  ITEM_CARD_TEMPEST_MAGICIAN
 	.2byte  ITEM_CARD_TEST_TIGER
 	.2byte  ITEM_CARD_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET
-	.2byte  ITEM_CARD_THE_TRANSMIGRATION_PROPHECY
 	.2byte  ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH
 	.2byte  ITEM_CARD_THOUGHT_RULER_ARCHFIEND
 	.2byte  ITEM_CARD_THREATENING_ROAR
@@ -8927,14 +7648,12 @@ InsideOfTruck_PokemartFrog:
 	.2byte  ITEM_CARD_TRAP_STUN
 	.2byte  ITEM_CARD_TREEBORN_FROG
 	.2byte  ITEM_CARD_TWISTER
-	.2byte  ITEM_CARD_TYTANNIAL_PRINCESS_OF_CAMELLIAS
-	.2byte  ITEM_CARD_UNIFROG
 	.2byte  ITEM_CARD_UPSTART_GOBLIN
 	.2byte  ITEM_CARD_VANITY_S_FIEND
 	.2byte  ITEM_CARD_WABOKU
 	.2byte  ITEM_CARD_WULF_LIGHTSWORN_BEAST
 	.2byte  ITEM_CARD_X_SABER_AIRBELLUM
-	.2byte  ITEM_CARD_X_SABER_PASHUUL
+	.2byte  ITEM_CARD_X_SABER_URBELLUM
 	.2byte  ITEM_CARD_XX_SABER_BOGGART_KNIGHT
 	.2byte  ITEM_CARD_XX_SABER_DARKSOUL
 	.2byte  ITEM_CARD_XX_SABER_EMMERSBLADE
@@ -8942,7 +7661,6 @@ InsideOfTruck_PokemartFrog:
 	.2byte  ITEM_CARD_XX_SABER_FULHELMKNIGHT
 	.2byte  ITEM_CARD_XX_SABER_GOTTOMS
 	.2byte  ITEM_CARD_XX_SABER_HYUNLEI
-	.2byte  ITEM_CARD_YELLOW_GADGET
 	.2byte  ITEM_CARD_ZOMBIE_MASTER
 	.2byte  ITEM_CARD_ZOMBIE_WORLD
 	pokemartlistend
@@ -8966,9 +7684,9 @@ InsideOfTruck_PokemartStarstrike:
 	.2byte  ITEM_CARD_ANCIENT_FAIRY_DRAGON
 	.2byte  ITEM_CARD_ARCANITE_MAGICIAN
 	.2byte  ITEM_CARD_ARMAGEDDON_KNIGHT
+	.2byte  ITEM_CARD_ARMORY_ARM
 	.2byte  ITEM_CARD_AURKUS_LIGHTSWORN_DRUID
 	.2byte  ITEM_CARD_BANISHER_OF_THE_RADIANCE
-	.2byte  ITEM_CARD_BATTLE_FADER
 	.2byte  ITEM_CARD_BLACK_ROSE_DRAGON
 	.2byte  ITEM_CARD_BLACK_WHIRLWIND
 	.2byte  ITEM_CARD_BLACKWING_BLIZZARD_THE_FAR_NORTH
@@ -8976,6 +7694,7 @@ InsideOfTruck_PokemartStarstrike:
 	.2byte  ITEM_CARD_BLACKWING_GALE_THE_WHIRLWIND
 	.2byte  ITEM_CARD_BLACKWING_KALUT_THE_MOON_SHADOW
 	.2byte  ITEM_CARD_BLACKWING_SHURA_THE_BLUE_FLAME
+	.2byte  ITEM_CARD_BLACKWING_SILVERWIND_THE_ASCENDANT
 	.2byte  ITEM_CARD_BLACKWING_SIROCCO_THE_DAWN
 	.2byte  ITEM_CARD_BLACKWING_VAYU_THE_EMBLEM_OF_HONOR
 	.2byte  ITEM_CARD_BLACKWING_ARMED_WING
@@ -8989,14 +7708,12 @@ InsideOfTruck_PokemartStarstrike:
 	.2byte  ITEM_CARD_CAIUS_THE_SHADOW_MONARCH
 	.2byte  ITEM_CARD_CALL_OF_THE_HAUNTED
 	.2byte  ITEM_CARD_CARD_TROOPER
-	.2byte  ITEM_CARD_CARDS_FOR_BLACK_FEATHERS
 	.2byte  ITEM_CARD_CEASEFIRE
 	.2byte  ITEM_CARD_CELESTIA_LIGHTSWORN_ANGEL
 	.2byte  ITEM_CARD_CHAIN_DISAPPEARANCE
 	.2byte  ITEM_CARD_CHAOS_SORCERER
 	.2byte  ITEM_CARD_CHARGE_OF_THE_LIGHT_BRIGADE
 	.2byte  ITEM_CARD_CHIMERATECH_FORTRESS_DRAGON
-	.2byte  ITEM_CARD_CLOSED_FOREST
 	.2byte  ITEM_CARD_COLD_WAVE
 	.2byte  ITEM_CARD_COLOSSAL_FIGHTER
 	.2byte  ITEM_CARD_COMPULSORY_EVACUATION_DEVICE
@@ -9015,7 +7732,6 @@ InsideOfTruck_PokemartStarstrike:
 	.2byte  ITEM_CARD_DEBRIS_DRAGON
 	.2byte  ITEM_CARD_DECK_DEVASTATION_VIRUS
 	.2byte  ITEM_CARD_DEEP_SEA_DIVA
-	.2byte  ITEM_CARD_DELTA_CROW_ANTI_REVERSE
 	.2byte  ITEM_CARD_DESTINY_DRAW
 	.2byte  ITEM_CARD_DESTINY_HERO_DIAMOND_DUDE
 	.2byte  ITEM_CARD_DESTINY_HERO_MALICIOUS
@@ -9023,88 +7739,61 @@ InsideOfTruck_PokemartStarstrike:
 	.2byte  ITEM_CARD_DIMENSIONAL_PRISON
 	.2byte  ITEM_CARD_DIVINE_WRATH
 	.2byte  ITEM_CARD_DOOMCALIBER_KNIGHT
+	.2byte  ITEM_CARD_DOOMKAISER_DRAGON
 	.2byte  ITEM_CARD_DUPE_FROG
 	.2byte  ITEM_CARD_DUST_TORNADO
-	.2byte  ITEM_CARD_E_EMERGENCY_CALL
 	.2byte  ITEM_CARD_EFFECT_VEILER
-	.2byte  ITEM_CARD_EHREN_LIGHTSWORN_MONK
-	.2byte  ITEM_CARD_ELEMENTAL_HERO_NEOS_ALIUS
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_PRISMA
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_STRATOS
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
 	.2byte  ITEM_CARD_ESCAPE_FROM_THE_DARK_DIMENSION
-	.2byte  ITEM_CARD_EXPLODER_DRAGON
-	.2byte  ITEM_CARD_FISHBORG_BLASTER
 	.2byte  ITEM_CARD_FISSURE
 	.2byte  ITEM_CARD_FOOLISH_BURIAL
 	.2byte  ITEM_CARD_FORBIDDEN_CHALICE
 	.2byte  ITEM_CARD_FORMULA_SYNCHRON
 	.2byte  ITEM_CARD_FOSSIL_DYNA_PACHYCEPHALO
-	.2byte  ITEM_CARD_FUTURE_FUSION
+	.2byte  ITEM_CARD_GAIA_KNIGHT_THE_FORCE_OF_EARTH
 	.2byte  ITEM_CARD_GAROTH_LIGHTSWORN_WARRIOR
-	.2byte  ITEM_CARD_GEMINI_SPARK
 	.2byte  ITEM_CARD_GIANT_TRUNADE
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_BESTIARI
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_DARIUS
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_EQUESTE
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_GYZARUS
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_HERAKLINOS
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_HOPLOMUS
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_LAQUARI
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_MURMILLO
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_WAR_CHARIOT
-	.2byte  ITEM_CARD_GLOW_UP_BULB
 	.2byte  ITEM_CARD_GOBLIN_ZOMBIE
 	.2byte  ITEM_CARD_GOLD_SARCOPHAGUS
 	.2byte  ITEM_CARD_GORZ_THE_EMISSARY_OF_DARKNESS
 	.2byte  ITEM_CARD_GOTTOMS_EMERGENCY_CALL
 	.2byte  ITEM_CARD_GOYO_GUARDIAN
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_ASSAILANT
-	.2byte  ITEM_CARD_GRAVEKEEPER_S_COMMANDANT
-	.2byte  ITEM_CARD_GRAVEKEEPER_S_DESCENDANT
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_GUARD
-	.2byte  ITEM_CARD_GRAVEKEEPER_S_RECRUITER
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_SPY
-	.2byte  ITEM_CARD_GRAVEKEEPER_S_STELE
-	.2byte  ITEM_CARD_GREEN_GADGET
-	.2byte  ITEM_CARD_HERO_BLAST
-	.2byte  ITEM_CARD_HERO_S_RULE_2
 	.2byte  ITEM_CARD_HONEST
 	.2byte  ITEM_CARD_ICARUS_ATTACK
 	.2byte  ITEM_CARD_INFERNITY_ARCHFIEND
-	.2byte  ITEM_CARD_INFERNITY_AVENGER
 	.2byte  ITEM_CARD_INFERNITY_BARRIER
-	.2byte  ITEM_CARD_INFERNITY_BREAK
 	.2byte  ITEM_CARD_INFERNITY_INFERNO
 	.2byte  ITEM_CARD_INFERNITY_LAUNCHER
-	.2byte  ITEM_CARD_INFERNITY_MIRAGE
 	.2byte  ITEM_CARD_INFERNITY_NECROMANCER
-	.2byte  ITEM_CARD_JAIN_LIGHTSWORN_PALADIN
 	.2byte  ITEM_CARD_JUDGMENT_DRAGON
 	.2byte  ITEM_CARD_KING_TIGER_WANGHU
-	.2byte  ITEM_CARD_KOA_KI_MEIRU_DRAGO
 	.2byte  ITEM_CARD_LEGENDARY_JUJITSU_MASTER
-	.2byte  ITEM_CARD_LEVEL_EATER
 	.2byte  ITEM_CARD_LIGHT_AND_DARKNESS_DRAGON
 	.2byte  ITEM_CARD_LIGHT_IMPRISONING_MIRROR
 	.2byte  ITEM_CARD_LIGHTNING_VORTEX
-	.2byte  ITEM_CARD_LIMIT_REVERSE
 	.2byte  ITEM_CARD_LIMITER_REMOVAL
 	.2byte  ITEM_CARD_LONEFIRE_BLOSSOM
 	.2byte  ITEM_CARD_LUMINA_LIGHTSWORN_SUMMONER
 	.2byte  ITEM_CARD_LYLA_LIGHTSWORN_SORCERESS
-	.2byte  ITEM_CARD_MACHINA_FORTRESS
-	.2byte  ITEM_CARD_MACHINA_GEARFRAME
 	.2byte  ITEM_CARD_MACRO_COSMOS
 	.2byte  ITEM_CARD_MAGICAL_ANDROID
-	.2byte  ITEM_CARD_MALEFIC_STARDUST_DRAGON
 	.2byte  ITEM_CARD_MALEVOLENT_CATASTROPHE
 	.2byte  ITEM_CARD_MASK_OF_RESTRICT
 	.2byte  ITEM_CARD_MASKED_DRAGON
 	.2byte  ITEM_CARD_MEZUKI
 	.2byte  ITEM_CARD_MIND_CONTROL
 	.2byte  ITEM_CARD_MIND_CRUSH
-	.2byte  ITEM_CARD_MIRACLE_FUSION
 	.2byte  ITEM_CARD_MIRROR_FORCE
 	.2byte  ITEM_CARD_MIRROR_OF_OATHS
 	.2byte  ITEM_CARD_MIST_WURM
@@ -9116,19 +7805,15 @@ InsideOfTruck_PokemartStarstrike:
 	.2byte  ITEM_CARD_NECROVALLEY
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
 	.2byte  ITEM_CARD_NOBLEMAN_OF_EXTERMINATION
-	.2byte  ITEM_CARD_ONE_FOR_ONE
 	.2byte  ITEM_CARD_PLAGUESPREADER_ZOMBIE
 	.2byte  ITEM_CARD_POISON_OF_THE_OLD_MAN
 	.2byte  ITEM_CARD_POT_OF_AVARICE
 	.2byte  ITEM_CARD_POT_OF_DUALITY
-	.2byte  ITEM_CARD_PRIME_MATERIAL_DRAGON
 	.2byte  ITEM_CARD_PROHIBITION
 	.2byte  ITEM_CARD_PULLING_THE_RUG
-	.2byte  ITEM_CARD_QUICKDRAW_SYNCHRON
 	.2byte  ITEM_CARD_RAIZA_THE_STORM_MONARCH
 	.2byte  ITEM_CARD_RECKLESS_GREED
 	.2byte  ITEM_CARD_RED_DRAGON_ARCHFIEND
-	.2byte  ITEM_CARD_RED_GADGET
 	.2byte  ITEM_CARD_RED_EYES_DARKNESS_METAL_DRAGON
 	.2byte  ITEM_CARD_RED_EYES_WYVERN
 	.2byte  ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
@@ -9136,14 +7821,12 @@ InsideOfTruck_PokemartStarstrike:
 	.2byte  ITEM_CARD_RONINTOADIN
 	.2byte  ITEM_CARD_ROYAL_DECREE
 	.2byte  ITEM_CARD_ROYAL_OPPRESSION
-	.2byte  ITEM_CARD_ROYAL_TRIBUTE
 	.2byte  ITEM_CARD_RYKO_LIGHTSWORN_HUNTER
 	.2byte  ITEM_CARD_SANGAN
 	.2byte  ITEM_CARD_SCAPEGOAT
 	.2byte  ITEM_CARD_SCRAP_DRAGON
 	.2byte  ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT
 	.2byte  ITEM_CARD_SHADOW_IMPRISONING_MIRROR
-	.2byte  ITEM_CARD_SHIELD_CRUSH
 	.2byte  ITEM_CARD_SKILL_DRAIN
 	.2byte  ITEM_CARD_SMASHING_GROUND
 	.2byte  ITEM_CARD_SNOWMAN_EATER
@@ -9151,19 +7834,15 @@ InsideOfTruck_PokemartStarstrike:
 	.2byte  ITEM_CARD_SOLEMN_JUDGMENT
 	.2byte  ITEM_CARD_SOLEMN_WARNING
 	.2byte  ITEM_CARD_SOUL_EXCHANGE
-	.2byte  ITEM_CARD_SOUL_RELEASE
 	.2byte  ITEM_CARD_SPIRIT_REAPER
-	.2byte  ITEM_CARD_SPORE
 	.2byte  ITEM_CARD_STARDUST_DRAGON
 	.2byte  ITEM_CARD_STARLIGHT_ROAD
-	.2byte  ITEM_CARD_STYGIAN_STREET_PATROL
 	.2byte  ITEM_CARD_SUMMON_LIMIT
 	.2byte  ITEM_CARD_SUMMONER_MONK
 	.2byte  ITEM_CARD_SUPER_POLYMERIZATION
-	.2byte  ITEM_CARD_SUPER_NIMBLE_MEGA_HAMSTER
-	.2byte  ITEM_CARD_SWALLOW_FLIP
 	.2byte  ITEM_CARD_SWAP_FROG
 	.2byte  ITEM_CARD_SYSTEM_DOWN
+	.2byte  ITEM_CARD_TEMPEST_MAGICIAN
 	.2byte  ITEM_CARD_TEST_TIGER
 	.2byte  ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH
 	.2byte  ITEM_CARD_THOUGHT_RULER_ARCHFIEND
@@ -9174,13 +7853,11 @@ InsideOfTruck_PokemartStarstrike:
 	.2byte  ITEM_CARD_TRAP_HOLE
 	.2byte  ITEM_CARD_TRAP_STUN
 	.2byte  ITEM_CARD_TREEBORN_FROG
-	.2byte  ITEM_CARD_TUNING
 	.2byte  ITEM_CARD_TWISTER
-	.2byte  ITEM_CARD_TYTANNIAL_PRINCESS_OF_CAMELLIAS
 	.2byte  ITEM_CARD_UPSTART_GOBLIN
 	.2byte  ITEM_CARD_VANITY_S_FIEND
 	.2byte  ITEM_CARD_X_SABER_AIRBELLUM
-	.2byte  ITEM_CARD_X_SABER_PASHUUL
+	.2byte  ITEM_CARD_X_SABER_URBELLUM
 	.2byte  ITEM_CARD_XX_SABER_BOGGART_KNIGHT
 	.2byte  ITEM_CARD_XX_SABER_DARKSOUL
 	.2byte  ITEM_CARD_XX_SABER_EMMERSBLADE
@@ -9188,7 +7865,6 @@ InsideOfTruck_PokemartStarstrike:
 	.2byte  ITEM_CARD_XX_SABER_FULHELMKNIGHT
 	.2byte  ITEM_CARD_XX_SABER_GOTTOMS
 	.2byte  ITEM_CARD_XX_SABER_HYUNLEI
-	.2byte  ITEM_CARD_YELLOW_GADGET
 	.2byte  ITEM_CARD_ZOMBIE_MASTER
 	pokemartlistend
 
@@ -9211,17 +7887,14 @@ InsideOfTruck_PokemartTengu:
 	.2byte  ITEM_CARD_ALLY_OF_JUSTICE_CYCLE_READER
 	.2byte  ITEM_CARD_ANCIENT_FAIRY_DRAGON
 	.2byte  ITEM_CARD_ANTI_SPELL_FRAGRANCE
-	.2byte  ITEM_CARD_APPOINTER_OF_THE_RED_LOTUS
 	.2byte  ITEM_CARD_ARCANITE_MAGICIAN
-	.2byte  ITEM_CARD_ARCHLORD_KRISTYA
 	.2byte  ITEM_CARD_ARMAGEDDON_KNIGHT
-	.2byte  ITEM_CARD_AUTONOMOUS_ACTION_UNIT
+	.2byte  ITEM_CARD_ARMORY_ARM
 	.2byte  ITEM_CARD_BANISHER_OF_THE_RADIANCE
 	.2byte  ITEM_CARD_BLACK_HORN_OF_HEAVEN
 	.2byte  ITEM_CARD_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING
 	.2byte  ITEM_CARD_BLACK_ROSE_DRAGON
 	.2byte  ITEM_CARD_BLACKWING_GALE_THE_WHIRLWIND
-	.2byte  ITEM_CARD_BLACKWING_ZEPHYROS_THE_ELITE
 	.2byte  ITEM_CARD_BLACKWING_ARMED_WING
 	.2byte  ITEM_CARD_BLACKWING_ARMOR_MASTER
 	.2byte  ITEM_CARD_BOOK_OF_LIFE
@@ -9234,10 +7907,8 @@ InsideOfTruck_PokemartTengu:
 	.2byte  ITEM_CARD_CARD_DESTRUCTION
 	.2byte  ITEM_CARD_CARD_TROOPER
 	.2byte  ITEM_CARD_CHAOS_SORCERER
-	.2byte  ITEM_CARD_CHAOS_TRAP_HOLE
 	.2byte  ITEM_CARD_CHARGE_OF_THE_LIGHT_BRIGADE
 	.2byte  ITEM_CARD_CHIMERATECH_FORTRESS_DRAGON
-	.2byte  ITEM_CARD_CLOSED_FOREST
 	.2byte  ITEM_CARD_COLOSSAL_FIGHTER
 	.2byte  ITEM_CARD_COMPULSORY_EVACUATION_DEVICE
 	.2byte  ITEM_CARD_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL
@@ -9247,7 +7918,6 @@ InsideOfTruck_PokemartTengu:
 	.2byte  ITEM_CARD_D_D_SURVIVOR
 	.2byte  ITEM_CARD_DANDYLION
 	.2byte  ITEM_CARD_DARK_ARMED_DRAGON
-	.2byte  ITEM_CARD_DARK_BRIBE
 	.2byte  ITEM_CARD_DARK_END_DRAGON
 	.2byte  ITEM_CARD_DARK_GREPHER
 	.2byte  ITEM_CARD_DARK_HOLE
@@ -9255,13 +7925,10 @@ InsideOfTruck_PokemartTengu:
 	.2byte  ITEM_CARD_DEBRIS_DRAGON
 	.2byte  ITEM_CARD_DEBUNK
 	.2byte  ITEM_CARD_DECK_DEVASTATION_VIRUS
-	.2byte  ITEM_CARD_DIMENSIONAL_ALCHEMIST
 	.2byte  ITEM_CARD_DIMENSIONAL_FISSURE
 	.2byte  ITEM_CARD_DIMENSIONAL_PRISON
 	.2byte  ITEM_CARD_DUST_TORNADO
-	.2byte  ITEM_CARD_E_EMERGENCY_CALL
 	.2byte  ITEM_CARD_EFFECT_VEILER
-	.2byte  ITEM_CARD_ELEMENTAL_HERO_NEOS_ALIUS
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_PRISMA
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_STRATOS
 	.2byte  ITEM_CARD_EMERGENCY_TELEPORT
@@ -9272,44 +7939,28 @@ InsideOfTruck_PokemartTengu:
 	.2byte  ITEM_CARD_FORBIDDEN_CHALICE
 	.2byte  ITEM_CARD_FORBIDDEN_LANCE
 	.2byte  ITEM_CARD_FORMULA_SYNCHRON
-	.2byte  ITEM_CARD_FOSSIL_DIG
 	.2byte  ITEM_CARD_FOSSIL_DYNA_PACHYCEPHALO
 	.2byte  ITEM_CARD_FULL_HOUSE
-	.2byte  ITEM_CARD_FUTURE_FUSION
-	.2byte  ITEM_CARD_GEMINI_SPARK
-	.2byte  ITEM_CARD_GENEX_ALLY_BIRDMAN
-	.2byte  ITEM_CARD_GLOW_UP_BULB
+	.2byte  ITEM_CARD_GAIA_KNIGHT_THE_FORCE_OF_EARTH
 	.2byte  ITEM_CARD_GOBLIN_ZOMBIE
 	.2byte  ITEM_CARD_GOLD_SARCOPHAGUS
 	.2byte  ITEM_CARD_GORZ_THE_EMISSARY_OF_DARKNESS
-	.2byte  ITEM_CARD_GOZEN_MATCH
-	.2byte  ITEM_CARD_GRAVEKEEPER_S_DESCENDANT
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_SPY
 	.2byte  ITEM_CARD_HEAVY_STORM
-	.2byte  ITEM_CARD_HERALD_OF_GREEN_LIGHT
 	.2byte  ITEM_CARD_HERALD_OF_ORANGE_LIGHT
-	.2byte  ITEM_CARD_HERO_BLAST
 	.2byte  ITEM_CARD_HONEST
 	.2byte  ITEM_CARD_HORN_OF_HEAVEN
 	.2byte  ITEM_CARD_HORN_OF_THE_PHANTOM_BEAST
 	.2byte  ITEM_CARD_IMPERIAL_IRON_WALL
 	.2byte  ITEM_CARD_INFERNITY_ARCHFIEND
-	.2byte  ITEM_CARD_INFERNITY_AVENGER
 	.2byte  ITEM_CARD_INFERNITY_BARRIER
-	.2byte  ITEM_CARD_INFERNITY_BREAK
 	.2byte  ITEM_CARD_INFERNITY_INFERNO
 	.2byte  ITEM_CARD_INFERNITY_LAUNCHER
-	.2byte  ITEM_CARD_INFERNITY_MIRAGE
 	.2byte  ITEM_CARD_INFERNITY_NECROMANCER
 	.2byte  ITEM_CARD_INSTANT_FUSION
-	.2byte  ITEM_CARD_JAIN_LIGHTSWORN_PALADIN
 	.2byte  ITEM_CARD_JINZO
 	.2byte  ITEM_CARD_JURRAC_GUAIBA
 	.2byte  ITEM_CARD_KAGEMUSHA_OF_THE_SIX_SAMURAI
-	.2byte  ITEM_CARD_KARAKURI_KOMACHI_MDL_224_NINISHI_
-	.2byte  ITEM_CARD_KARAKURI_MERCHANT_MDL_177_INASHICHI_
-	.2byte  ITEM_CARD_KARAKURI_NINJA_MDL_919_KUICK_
-	.2byte  ITEM_CARD_KARAKURI_SOLDIER_MDL_236_NISAMU_
 	.2byte  ITEM_CARD_KARMA_CUT
 	.2byte  ITEM_CARD_KING_TIGER_WANGHU
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
@@ -9318,11 +7969,8 @@ InsideOfTruck_PokemartTengu:
 	.2byte  ITEM_CARD_LEVIAIR_THE_SEA_DRAGON
 	.2byte  ITEM_CARD_LIGHT_IMPRISONING_MIRROR
 	.2byte  ITEM_CARD_LIGHTNING_VORTEX
-	.2byte  ITEM_CARD_LIMIT_REVERSE
 	.2byte  ITEM_CARD_LONEFIRE_BLOSSOM
 	.2byte  ITEM_CARD_LYLA_LIGHTSWORN_SORCERESS
-	.2byte  ITEM_CARD_MACHINA_FORTRESS
-	.2byte  ITEM_CARD_MACHINA_GEARFRAME
 	.2byte  ITEM_CARD_MACRO_COSMOS
 	.2byte  ITEM_CARD_MAGICAL_ANDROID
 	.2byte  ITEM_CARD_MALEVOLENT_CATASTROPHE
@@ -9332,33 +7980,26 @@ InsideOfTruck_PokemartTengu:
 	.2byte  ITEM_CARD_MEZUKI
 	.2byte  ITEM_CARD_MIND_CONTROL
 	.2byte  ITEM_CARD_MIND_CRUSH
-	.2byte  ITEM_CARD_MIRACLE_FUSION
 	.2byte  ITEM_CARD_MIRROR_FORCE
 	.2byte  ITEM_CARD_MIST_WURM
 	.2byte  ITEM_CARD_MONSTER_REBORN
 	.2byte  ITEM_CARD_MONSTER_REINCARNATION
-	.2byte  ITEM_CARD_MYSTICAL_SHINE_BALL
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
 	.2byte  ITEM_CARD_NECROVALLEY
 	.2byte  ITEM_CARD_NEEDLE_CEILING
-	.2byte  ITEM_CARD_NEO_SPACIAN_GRAND_MOLE
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
 	.2byte  ITEM_CARD_NUMBER_17_LEVIATHAN_DRAGON
 	.2byte  ITEM_CARD_NUMBER_39_UTOPIA
-	.2byte  ITEM_CARD_ONE_FOR_ONE
-	.2byte  ITEM_CARD_OVERWORKED
 	.2byte  ITEM_CARD_PHOENIX_WING_WIND_BLAST
 	.2byte  ITEM_CARD_PLAGUESPREADER_ZOMBIE
 	.2byte  ITEM_CARD_POT_OF_AVARICE
 	.2byte  ITEM_CARD_POT_OF_DUALITY
-	.2byte  ITEM_CARD_PSYCHIC_COMMANDER
 	.2byte  ITEM_CARD_PUPPET_PLANT
 	.2byte  ITEM_CARD_PYRAMID_TURTLE
 	.2byte  ITEM_CARD_RAIGEKI_BREAK
 	.2byte  ITEM_CARD_REBORN_TENGU
 	.2byte  ITEM_CARD_RED_DRAGON_ARCHFIEND
 	.2byte  ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
-	.2byte  ITEM_CARD_REKINDLING
 	.2byte  ITEM_CARD_RETURN_FROM_THE_DIFFERENT_DIMENSION
 	.2byte  ITEM_CARD_RIVALRY_OF_WARLORDS
 	.2byte  ITEM_CARD_ROYAL_DECREE
@@ -9378,24 +8019,18 @@ InsideOfTruck_PokemartTengu:
 	.2byte  ITEM_CARD_SOUL_EXCHANGE
 	.2byte  ITEM_CARD_SOUL_TAKER
 	.2byte  ITEM_CARD_SPIRIT_REAPER
-	.2byte  ITEM_CARD_SPORE
 	.2byte  ITEM_CARD_STARDUST_DRAGON
 	.2byte  ITEM_CARD_STARLIGHT_ROAD
 	.2byte  ITEM_CARD_STEELSWARM_ROACH
-	.2byte  ITEM_CARD_STYGIAN_STREET_PATROL
 	.2byte  ITEM_CARD_SUMMONER_MONK
 	.2byte  ITEM_CARD_SUPER_POLYMERIZATION
 	.2byte  ITEM_CARD_SYSTEM_DOWN
-	.2byte  ITEM_CARD_T_G_HYPER_LIBRARIAN
 	.2byte  ITEM_CARD_T_G_RUSH_RHINO
 	.2byte  ITEM_CARD_T_G_STRIKER
 	.2byte  ITEM_CARD_T_G_WARWOLF
 	.2byte  ITEM_CARD_TG1_EM1
-	.2byte  ITEM_CARD_THE_AGENT_OF_CREATION_VENUS
 	.2byte  ITEM_CARD_THE_AGENT_OF_MIRACLES_JUPITER
 	.2byte  ITEM_CARD_THE_AGENT_OF_MYSTERY_EARTH
-	.2byte  ITEM_CARD_THE_FABLED_CATSITH
-	.2byte  ITEM_CARD_THE_FABLED_CERBURREL
 	.2byte  ITEM_CARD_THOUGHT_RULER_ARCHFIEND
 	.2byte  ITEM_CARD_THUNDER_KING_RAI_OH
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
@@ -9428,8 +8063,8 @@ InsideOfTruck_EventScript_Clerk_DinoRabbit::
 InsideOfTruck_PokemartDinoRabbit:
 	.2byte  ITEM_CARD_ALLURE_OF_DARKNESS
 	.2byte  ITEM_CARD_ALLY_OF_JUSTICE_CATASTOR
+	.2byte  ITEM_CARD_ARMORY_ARM
 	.2byte  ITEM_CARD_BANISHER_OF_THE_RADIANCE
-	.2byte  ITEM_CARD_BATTLE_FADER
 	.2byte  ITEM_CARD_BEIIGE_VANGUARD_OF_DARK_WORLD
 	.2byte  ITEM_CARD_BLACK_HORN_OF_HEAVEN
 	.2byte  ITEM_CARD_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING
@@ -9443,7 +8078,6 @@ InsideOfTruck_PokemartDinoRabbit:
 	.2byte  ITEM_CARD_CALL_OF_THE_HAUNTED
 	.2byte  ITEM_CARD_CARD_DESTRUCTION
 	.2byte  ITEM_CARD_CARD_TROOPER
-	.2byte  ITEM_CARD_CARDCAR_D
 	.2byte  ITEM_CARD_CATAPULT_TURTLE
 	.2byte  ITEM_CARD_CHAIN_DISAPPEARANCE
 	.2byte  ITEM_CARD_CHAOS_SORCERER
@@ -9455,17 +8089,12 @@ InsideOfTruck_PokemartDinoRabbit:
 	.2byte  ITEM_CARD_CYBER_DRAGON
 	.2byte  ITEM_CARD_D_D_CROW
 	.2byte  ITEM_CARD_DARK_ARMED_DRAGON
-	.2byte  ITEM_CARD_DARK_BRIBE
 	.2byte  ITEM_CARD_DARK_HOLE
-	.2byte  ITEM_CARD_DARK_SMOG
-	.2byte  ITEM_CARD_DARK_WORLD_DEALINGS
-	.2byte  ITEM_CARD_DARKFLARE_DRAGON
 	.2byte  ITEM_CARD_DECK_DEVASTATION_VIRUS
 	.2byte  ITEM_CARD_DIMENSIONAL_FISSURE
 	.2byte  ITEM_CARD_DIMENSIONAL_PRISON
 	.2byte  ITEM_CARD_DRAGGED_DOWN_INTO_THE_GRAVE
 	.2byte  ITEM_CARD_DUST_TORNADO
-	.2byte  ITEM_CARD_ECLIPSE_WYVERN
 	.2byte  ITEM_CARD_EFFECT_VEILER
 	.2byte  ITEM_CARD_ELECTRIC_VIRUS
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
@@ -9477,28 +8106,15 @@ InsideOfTruck_PokemartDinoRabbit:
 	.2byte  ITEM_CARD_FORBIDDEN_CHALICE
 	.2byte  ITEM_CARD_FORBIDDEN_LANCE
 	.2byte  ITEM_CARD_FORMULA_SYNCHRON
-	.2byte  ITEM_CARD_FUTURE_FUSION
+	.2byte  ITEM_CARD_GAIA_KNIGHT_THE_FORCE_OF_EARTH
 	.2byte  ITEM_CARD_GEMINI_IMPS
-	.2byte  ITEM_CARD_GENEX_ALLY_BIRDMAN
 	.2byte  ITEM_CARD_GORZ_THE_EMISSARY_OF_DARKNESS
-	.2byte  ITEM_CARD_GOZEN_MATCH
 	.2byte  ITEM_CARD_GRAPHA_DRAGON_LORD_OF_DARK_WORLD
 	.2byte  ITEM_CARD_HEAVY_STORM
-	.2byte  ITEM_CARD_HIERATIC_DRAGON_OF_ESET
-	.2byte  ITEM_CARD_HIERATIC_DRAGON_OF_SU
-	.2byte  ITEM_CARD_HIERATIC_DRAGON_OF_TEFNUIT
-	.2byte  ITEM_CARD_HIERATIC_SEAL_OF_CONVOCATION
 	.2byte  ITEM_CARD_HORN_OF_THE_PHANTOM_BEAST
-	.2byte  ITEM_CARD_INZEKTOR_CENTIPEDE
-	.2byte  ITEM_CARD_INZEKTOR_DRAGONFLY
-	.2byte  ITEM_CARD_INZEKTOR_HORNET
-	.2byte  ITEM_CARD_INZEKTOR_LADYBUG
-	.2byte  ITEM_CARD_INZEKTOR_SWORD_ZEKTKALIBER
-	.2byte  ITEM_CARD_JAIN_LIGHTSWORN_PALADIN
 	.2byte  ITEM_CARD_JINZO
 	.2byte  ITEM_CARD_JURRAC_GUAIBA
 	.2byte  ITEM_CARD_KABAZAULS
-	.2byte  ITEM_CARD_KOA_KI_MEIRU_DRAGO
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
 	.2byte  ITEM_CARD_LEVEL_LIMIT_AREA_B
 	.2byte  ITEM_CARD_LEVIAIR_THE_SEA_DRAGON
@@ -9516,7 +8132,6 @@ InsideOfTruck_PokemartDinoRabbit:
 	.2byte  ITEM_CARD_MONSTER_REBORN
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
 	.2byte  ITEM_CARD_NEEDLE_CEILING
-	.2byte  ITEM_CARD_NEO_SPACIAN_GRAND_MOLE
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
 	.2byte  ITEM_CARD_NUMBER_17_LEVIATHAN_DRAGON
 	.2byte  ITEM_CARD_NUMBER_30_ACID_GOLEM_OF_DESTRUCTION
@@ -9554,20 +8169,16 @@ InsideOfTruck_PokemartDinoRabbit:
 	.2byte  ITEM_CARD_T_G_STRIKER
 	.2byte  ITEM_CARD_T_G_WARWOLF
 	.2byte  ITEM_CARD_TEMTEMPO_THE_PERCUSSION_DJINN
-	.2byte  ITEM_CARD_THE_GATES_OF_DARK_WORLD
 	.2byte  ITEM_CARD_THUNDER_KING_RAI_OH
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
 	.2byte  ITEM_CARD_TOUR_GUIDE_FROM_THE_UNDERWORLD
 	.2byte  ITEM_CARD_TRAGOEDIA
-	.2byte  ITEM_CARD_TREACHEROUS_TRAP_HOLE
 	.2byte  ITEM_CARD_TREEBORN_FROG
 	.2byte  ITEM_CARD_TWISTER
 	.2byte  ITEM_CARD_UPSTART_GOBLIN
 	.2byte  ITEM_CARD_VANITY_S_EMPTINESS
 	.2byte  ITEM_CARD_VANITY_S_FIEND
-	.2byte  ITEM_CARD_WIND_UP_CARRIER_ZENMAITY
 	.2byte  ITEM_CARD_WIND_UP_FACTORY
-	.2byte  ITEM_CARD_WIND_UP_HUNTER
 	.2byte  ITEM_CARD_WIND_UP_MAGICIAN
 	.2byte  ITEM_CARD_WIND_UP_RABBIT
 	.2byte  ITEM_CARD_WIND_UP_RAT
@@ -9589,25 +8200,23 @@ InsideOfTruck_EventScript_Clerk_WindUp::
 
 	.align 2
 InsideOfTruck_PokemartWindUp:
-	.2byte  ITEM_CARD_ACCUMULATED_FORTUNE
 	.2byte  ITEM_CARD_ALLURE_OF_DARKNESS
 	.2byte  ITEM_CARD_ALLY_OF_JUSTICE_CATASTOR
-	.2byte  ITEM_CARD_ARCHLORD_KRISTYA
-	.2byte  ITEM_CARD_ASCETICISM_OF_THE_SIX_SAMURAI
+	.2byte  ITEM_CARD_ARMORY_ARM
 	.2byte  ITEM_CARD_AXE_DRAGONUTE
 	.2byte  ITEM_CARD_BANISHER_OF_THE_RADIANCE
 	.2byte  ITEM_CARD_BEIIGE_VANGUARD_OF_DARK_WORLD
+	.2byte  ITEM_CARD_BLACK_HORN_OF_HEAVEN
 	.2byte  ITEM_CARD_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING
 	.2byte  ITEM_CARD_BLACK_ROSE_DRAGON
 	.2byte  ITEM_CARD_BOOK_OF_MOON
 	.2byte  ITEM_CARD_BOTTOMLESS_TRAP_HOLE
+	.2byte  ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR
 	.2byte  ITEM_CARD_BROWW_HUNTSMAN_OF_DARK_WORLD
 	.2byte  ITEM_CARD_CALL_OF_THE_HAUNTED
 	.2byte  ITEM_CARD_CARD_DESTRUCTION
 	.2byte  ITEM_CARD_CARD_TROOPER
-	.2byte  ITEM_CARD_CARDCAR_D
 	.2byte  ITEM_CARD_CEASEFIRE
-	.2byte  ITEM_CARD_CHAIN_STRIKE
 	.2byte  ITEM_CARD_CHAOS_SORCERER
 	.2byte  ITEM_CARD_CHARGE_OF_THE_LIGHT_BRIGADE
 	.2byte  ITEM_CARD_CHIMERATECH_FORTRESS_DRAGON
@@ -9616,27 +8225,16 @@ InsideOfTruck_PokemartWindUp:
 	.2byte  ITEM_CARD_CYBER_END_DRAGON
 	.2byte  ITEM_CARD_D_D_CROW
 	.2byte  ITEM_CARD_DARK_ARMED_DRAGON
-	.2byte  ITEM_CARD_DARK_BRIBE
 	.2byte  ITEM_CARD_DARK_HOLE
-	.2byte  ITEM_CARD_DARK_SMOG
-	.2byte  ITEM_CARD_DARK_WORLD_DEALINGS
-	.2byte  ITEM_CARD_DARKFLARE_DRAGON
-	.2byte  ITEM_CARD_DE_SYNCHRO
 	.2byte  ITEM_CARD_DECK_DEVASTATION_VIRUS
 	.2byte  ITEM_CARD_DIMENSION_WALL
 	.2byte  ITEM_CARD_DIMENSIONAL_FISSURE
 	.2byte  ITEM_CARD_DIMENSIONAL_PRISON
-	.2byte  ITEM_CARD_DOUBLE_EDGED_SWORD_TECHNIQUE
 	.2byte  ITEM_CARD_DRAGGED_DOWN_INTO_THE_GRAVE
 	.2byte  ITEM_CARD_DUST_TORNADO
-	.2byte  ITEM_CARD_E_EMERGENCY_CALL
-	.2byte  ITEM_CARD_ECLIPSE_WYVERN
 	.2byte  ITEM_CARD_EFFECT_VEILER
-	.2byte  ITEM_CARD_ELDER_OF_THE_SIX_SAMURAI
 	.2byte  ITEM_CARD_ELECTRIC_VIRUS
-	.2byte  ITEM_CARD_ELEMENTAL_HERO_BUBBLEMAN
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_CLAYMAN
-	.2byte  ITEM_CARD_ELEMENTAL_HERO_NEOS_ALIUS
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_STRATOS
 	.2byte  ITEM_CARD_EMERGENCY_TELEPORT
 	.2byte  ITEM_CARD_ERADICATOR_EPIDEMIC_VIRUS
@@ -9646,48 +8244,23 @@ InsideOfTruck_PokemartWindUp:
 	.2byte  ITEM_CARD_FORBIDDEN_CHALICE
 	.2byte  ITEM_CARD_FORBIDDEN_LANCE
 	.2byte  ITEM_CARD_FOSSIL_DYNA_PACHYCEPHALO
-	.2byte  ITEM_CARD_GATEWAY_OF_THE_SIX
-	.2byte  ITEM_CARD_GEARGIACCELERATOR
-	.2byte  ITEM_CARD_GEARGIANO
-	.2byte  ITEM_CARD_GEARGIANO_MK_II
-	.2byte  ITEM_CARD_GEARGIARMOR
-	.2byte  ITEM_CARD_GEARGIARSENAL
+	.2byte  ITEM_CARD_GAIA_KNIGHT_THE_FORCE_OF_EARTH
 	.2byte  ITEM_CARD_GEMINI_IMPS
-	.2byte  ITEM_CARD_GEMINI_SPARK
-	.2byte  ITEM_CARD_GENEX_ALLY_BIRDMAN
 	.2byte  ITEM_CARD_GIANT_RAT
 	.2byte  ITEM_CARD_GIGANTES
 	.2byte  ITEM_CARD_GORZ_THE_EMISSARY_OF_DARKNESS
-	.2byte  ITEM_CARD_GOZEN_MATCH
-	.2byte  ITEM_CARD_GRANDMASTER_OF_THE_SIX_SAMURAI
-	.2byte  ITEM_CARD_GRANDSOIL_THE_ELEMENTAL_LORD
 	.2byte  ITEM_CARD_GRAPHA_DRAGON_LORD_OF_DARK_WORLD
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_WATCHER
 	.2byte  ITEM_CARD_HEAVY_STORM
 	.2byte  ITEM_CARD_HERALD_OF_ORANGE_LIGHT
-	.2byte  ITEM_CARD_HERO_BLAST
 	.2byte  ITEM_CARD_HONEST
-	.2byte  ITEM_CARD_IMPERIAL_IRON_WALL
-	.2byte  ITEM_CARD_INSTANT_FUSION
-	.2byte  ITEM_CARD_INZEKTOR_CENTIPEDE
-	.2byte  ITEM_CARD_INZEKTOR_DRAGONFLY
-	.2byte  ITEM_CARD_INZEKTOR_HORNET
-	.2byte  ITEM_CARD_INZEKTOR_LADYBUG
-	.2byte  ITEM_CARD_INZEKTOR_SWORD_ZEKTKALIBER
 	.2byte  ITEM_CARD_JAR_OF_GREED
 	.2byte  ITEM_CARD_JURRAC_GUAIBA
 	.2byte  ITEM_CARD_JUST_DESSERTS
 	.2byte  ITEM_CARD_KABAZAULS
 	.2byte  ITEM_CARD_KAGEMUSHA_OF_THE_SIX_SAMURAI
-	.2byte  ITEM_CARD_KARAKURI_KOMACHI_MDL_224_NINISHI_
-	.2byte  ITEM_CARD_KARAKURI_MERCHANT_MDL_177_INASHICHI_
 	.2byte  ITEM_CARD_KING_TIGER_WANGHU
-	.2byte  ITEM_CARD_KOA_KI_MEIRU_DRAGO
-	.2byte  ITEM_CARD_LAVA_GOLEM
-	.2byte  ITEM_CARD_LEECHING_THE_LIGHT
 	.2byte  ITEM_CARD_LEGACY_OF_YATA_GARASU
-	.2byte  ITEM_CARD_LEGENDARY_SIX_SAMURAI_ENISHI
-	.2byte  ITEM_CARD_LEGENDARY_SIX_SAMURAI_KAGEKI
 	.2byte  ITEM_CARD_LEGENDARY_SIX_SAMURAI_KIZAN
 	.2byte  ITEM_CARD_LEVEL_LIMIT_AREA_B
 	.2byte  ITEM_CARD_LEVIAIR_THE_SEA_DRAGON
@@ -9695,9 +8268,6 @@ InsideOfTruck_PokemartWindUp:
 	.2byte  ITEM_CARD_LIGHTPULSAR_DRAGON
 	.2byte  ITEM_CARD_LIMITER_REMOVAL
 	.2byte  ITEM_CARD_LYLA_LIGHTSWORN_SORCERESS
-	.2byte  ITEM_CARD_MACHINA_CANNON
-	.2byte  ITEM_CARD_MACHINA_FORTRESS
-	.2byte  ITEM_CARD_MACHINA_GEARFRAME
 	.2byte  ITEM_CARD_MACRO_COSMOS
 	.2byte  ITEM_CARD_MAESTROKE_THE_SYMPHONY_DJINN
 	.2byte  ITEM_CARD_MAGIC_CYLINDER
@@ -9707,32 +8277,25 @@ InsideOfTruck_PokemartWindUp:
 	.2byte  ITEM_CARD_MAXX_C_
 	.2byte  ITEM_CARD_MESSENGER_OF_PEACE
 	.2byte  ITEM_CARD_MIND_CONTROL
-	.2byte  ITEM_CARD_MIRACLE_FUSION
 	.2byte  ITEM_CARD_MIRROR_FORCE
 	.2byte  ITEM_CARD_MIST_WURM
 	.2byte  ITEM_CARD_MONSTER_REBORN
 	.2byte  ITEM_CARD_MORPHING_JAR
-	.2byte  ITEM_CARD_MYSTICAL_SHINE_BALL
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
 	.2byte  ITEM_CARD_NECROVALLEY
 	.2byte  ITEM_CARD_NEEDLE_CEILING
-	.2byte  ITEM_CARD_NEO_SPACIAN_GRAND_MOLE
 	.2byte  ITEM_CARD_NIGHT_ASSAILANT
 	.2byte  ITEM_CARD_NIGHT_BEAM
 	.2byte  ITEM_CARD_NINJA_GRANDMASTER_HANZO
-	.2byte  ITEM_CARD_NINJITSU_ART_OF_SUPER_TRANSFORMATION
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
 	.2byte  ITEM_CARD_NUMBER_11_BIG_EYE
 	.2byte  ITEM_CARD_NUMBER_17_LEVIATHAN_DRAGON
 	.2byte  ITEM_CARD_NUMBER_30_ACID_GOLEM_OF_DESTRUCTION
 	.2byte  ITEM_CARD_NUMBER_39_UTOPIA
 	.2byte  ITEM_CARD_OJAMA_TRIO
-	.2byte  ITEM_CARD_ONE_DAY_OF_PEACE
-	.2byte  ITEM_CARD_PHOTON_THRASHER
 	.2byte  ITEM_CARD_POT_OF_AVARICE
 	.2byte  ITEM_CARD_POT_OF_DUALITY
 	.2byte  ITEM_CARD_PROTECTOR_OF_THE_SANCTUARY
-	.2byte  ITEM_CARD_PSYCHIC_COMMANDER
 	.2byte  ITEM_CARD_REASONING
 	.2byte  ITEM_CARD_RECKLESS_GREED
 	.2byte  ITEM_CARD_RED_EYES_DARKNESS_METAL_DRAGON
@@ -9746,12 +8309,12 @@ InsideOfTruck_PokemartWindUp:
 	.2byte  ITEM_CARD_SANGAN
 	.2byte  ITEM_CARD_SCRAP_DRAGON
 	.2byte  ITEM_CARD_SECRET_BARREL
-	.2byte  ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT
 	.2byte  ITEM_CARD_SHADOW_IMPRISONING_MIRROR
 	.2byte  ITEM_CARD_SHIEN_S_SMOKE_SIGNAL
 	.2byte  ITEM_CARD_SILLVA_WARLORD_OF_DARK_WORLD
 	.2byte  ITEM_CARD_SIX_SAMURAI_UNITED
 	.2byte  ITEM_CARD_SKILL_DRAIN
+	.2byte  ITEM_CARD_SMASHING_GROUND
 	.2byte  ITEM_CARD_SNOWMAN_EATER
 	.2byte  ITEM_CARD_SNOWW_UNLIGHT_OF_DARK_WORLD
 	.2byte  ITEM_CARD_SOLAR_RECHARGE
@@ -9767,28 +8330,19 @@ InsideOfTruck_PokemartWindUp:
 	.2byte  ITEM_CARD_SYSTEM_DOWN
 	.2byte  ITEM_CARD_TEMTEMPO_THE_PERCUSSION_DJINN
 	.2byte  ITEM_CARD_TERRAFORMING
-	.2byte  ITEM_CARD_THE_AGENT_OF_CREATION_VENUS
 	.2byte  ITEM_CARD_THE_AGENT_OF_MYSTERY_EARTH
-	.2byte  ITEM_CARD_THE_GATES_OF_DARK_WORLD
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_IROU
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_ZANJI
 	.2byte  ITEM_CARD_THOUGHT_RULER_ARCHFIEND
 	.2byte  ITEM_CARD_THREATENING_ROAR
 	.2byte  ITEM_CARD_THUNDER_KING_RAI_OH
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
 	.2byte  ITEM_CARD_TOUR_GUIDE_FROM_THE_UNDERWORLD
-	.2byte  ITEM_CARD_TRADE_IN
 	.2byte  ITEM_CARD_TRAGOEDIA
-	.2byte  ITEM_CARD_TRANCE_ARCHFIEND
 	.2byte  ITEM_CARD_TRAP_STUN
-	.2byte  ITEM_CARD_TREACHEROUS_TRAP_HOLE
 	.2byte  ITEM_CARD_TWISTER
 	.2byte  ITEM_CARD_UPSTART_GOBLIN
 	.2byte  ITEM_CARD_UPSTART_GOLDEN_NINJA
 	.2byte  ITEM_CARD_WABOKU
-	.2byte  ITEM_CARD_WIND_UP_CARRIER_ZENMAITY
 	.2byte  ITEM_CARD_WIND_UP_FACTORY
-	.2byte  ITEM_CARD_WIND_UP_HUNTER
 	.2byte  ITEM_CARD_WIND_UP_MAGICIAN
 	.2byte  ITEM_CARD_WIND_UP_RABBIT
 	.2byte  ITEM_CARD_WIND_UP_RAT
@@ -9811,14 +8365,13 @@ InsideOfTruck_EventScript_Clerk_Miami::
 
 	.align 2
 InsideOfTruck_PokemartMiami:
-	.2byte  ITEM_CARD_A_WINGBEAT_OF_GIANT_DRAGON
 	.2byte  ITEM_CARD_ABYSS_DWELLER
 	.2byte  ITEM_CARD_ABYSS_SPHERE
 	.2byte  ITEM_CARD_ALLURE_OF_DARKNESS
 	.2byte  ITEM_CARD_ALLY_OF_JUSTICE_CATASTOR
 	.2byte  ITEM_CARD_AQUA_SPIRIT
 	.2byte  ITEM_CARD_ARCANITE_MAGICIAN
-	.2byte  ITEM_CARD_ASCETICISM_OF_THE_SIX_SAMURAI
+	.2byte  ITEM_CARD_ARMORY_ARM
 	.2byte  ITEM_CARD_ATLANTEAN_DRAGOONS
 	.2byte  ITEM_CARD_ATLANTEAN_HEAVY_INFANTRY
 	.2byte  ITEM_CARD_ATLANTEAN_MARKSMAN
@@ -9830,13 +8383,10 @@ InsideOfTruck_PokemartMiami:
 	.2byte  ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR
 	.2byte  ITEM_CARD_BREAKTHROUGH_SKILL
 	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_BEAR
-	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_DRAGON
-	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_GORILLA
 	.2byte  ITEM_CARD_BROWW_HUNTSMAN_OF_DARK_WORLD
 	.2byte  ITEM_CARD_CALL_OF_THE_HAUNTED
 	.2byte  ITEM_CARD_CARD_DESTRUCTION
 	.2byte  ITEM_CARD_CARD_TROOPER
-	.2byte  ITEM_CARD_CARDCAR_D
 	.2byte  ITEM_CARD_CHAOS_SORCERER
 	.2byte  ITEM_CARD_CHARGE_OF_THE_LIGHT_BRIGADE
 	.2byte  ITEM_CARD_CHIMERATECH_FORTRESS_DRAGON
@@ -9846,25 +8396,14 @@ InsideOfTruck_PokemartMiami:
 	.2byte  ITEM_CARD_D_D_CROW
 	.2byte  ITEM_CARD_DARK_ARMED_DRAGON
 	.2byte  ITEM_CARD_DARK_HOLE
-	.2byte  ITEM_CARD_DARK_SMOG
-	.2byte  ITEM_CARD_DARK_WORLD_DEALINGS
-	.2byte  ITEM_CARD_DARKFLARE_DRAGON
-	.2byte  ITEM_CARD_DE_SYNCHRO
 	.2byte  ITEM_CARD_DECK_DEVASTATION_VIRUS
-	.2byte  ITEM_CARD_DEEP_DARK_TRAP_HOLE
 	.2byte  ITEM_CARD_DEEP_SEA_DIVA
 	.2byte  ITEM_CARD_DIAMOND_DIRE_WOLF
 	.2byte  ITEM_CARD_DIMENSIONAL_FISSURE
 	.2byte  ITEM_CARD_DIMENSIONAL_PRISON
-	.2byte  ITEM_CARD_DOUBLE_EDGED_SWORD_TECHNIQUE
 	.2byte  ITEM_CARD_DRAGGED_DOWN_INTO_THE_GRAVE
 	.2byte  ITEM_CARD_DUST_TORNADO
-	.2byte  ITEM_CARD_E_EMERGENCY_CALL
-	.2byte  ITEM_CARD_ECLIPSE_WYVERN
 	.2byte  ITEM_CARD_EFFECT_VEILER
-	.2byte  ITEM_CARD_ELDER_OF_THE_SIX_SAMURAI
-	.2byte  ITEM_CARD_ELEMENTAL_HERO_BUBBLEMAN
-	.2byte  ITEM_CARD_ELEMENTAL_HERO_NEOS_ALIUS
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_STRATOS
 	.2byte  ITEM_CARD_EMERGENCY_PROVISIONS
 	.2byte  ITEM_CARD_EMERGENCY_TELEPORT
@@ -9872,49 +8411,25 @@ InsideOfTruck_PokemartMiami:
 	.2byte  ITEM_CARD_ERADICATOR_EPIDEMIC_VIRUS
 	.2byte  ITEM_CARD_EVOLZAR_LAGGIA
 	.2byte  ITEM_CARD_FIENDISH_CHAIN
-	.2byte  ITEM_CARD_FIRE_FORMATION_TENKEN
 	.2byte  ITEM_CARD_FIRE_FORMATION_TENKI
-	.2byte  ITEM_CARD_FIRE_FORMATION_TENSEN
-	.2byte  ITEM_CARD_FIRE_FORMATION_TENSU
-	.2byte  ITEM_CARD_FIRE_KING_AVATAR_BARONG
-	.2byte  ITEM_CARD_FIRE_KING_HIGH_AVATAR_GARUNIX
-	.2byte  ITEM_CARD_FLAMVELL_FIREDOG
 	.2byte  ITEM_CARD_FOOLISH_BURIAL
 	.2byte  ITEM_CARD_FORBIDDEN_CHALICE
 	.2byte  ITEM_CARD_FORBIDDEN_LANCE
 	.2byte  ITEM_CARD_FOSSIL_DYNA_PACHYCEPHALO
 	.2byte  ITEM_CARD_FULL_HOUSE
 	.2byte  ITEM_CARD_GAGAGA_COWBOY
-	.2byte  ITEM_CARD_GATEWAY_OF_THE_SIX
-	.2byte  ITEM_CARD_GEMINI_SPARK
+	.2byte  ITEM_CARD_GAIA_KNIGHT_THE_FORCE_OF_EARTH
 	.2byte  ITEM_CARD_GENE_WARPED_WARWOLF
-	.2byte  ITEM_CARD_GENEX_ALLY_BIRDMAN
-	.2byte  ITEM_CARD_GENEX_CONTROLLER
-	.2byte  ITEM_CARD_GENEX_UNDINE
 	.2byte  ITEM_CARD_GOLDD_WU_LORD_OF_DARK_WORLD
 	.2byte  ITEM_CARD_GORZ_THE_EMISSARY_OF_DARKNESS
-	.2byte  ITEM_CARD_GOZEN_MATCH
-	.2byte  ITEM_CARD_GRANDMASTER_OF_THE_SIX_SAMURAI
 	.2byte  ITEM_CARD_GRAPHA_DRAGON_LORD_OF_DARK_WORLD
 	.2byte  ITEM_CARD_HEAVY_STORM
-	.2byte  ITEM_CARD_HIERATIC_DRAGON_OF_ESET
-	.2byte  ITEM_CARD_HIERATIC_DRAGON_OF_SU
-	.2byte  ITEM_CARD_HIERATIC_DRAGON_OF_TEFNUIT
-	.2byte  ITEM_CARD_HIERATIC_SEAL_OF_CONVOCATION
-	.2byte  ITEM_CARD_HIGH_PRIESTESS_OF_PROPHECY
 	.2byte  ITEM_CARD_INSTANT_FUSION
 	.2byte  ITEM_CARD_JURRAC_GUAIBA
 	.2byte  ITEM_CARD_KABAZAULS
 	.2byte  ITEM_CARD_KAGEMUSHA_OF_THE_SIX_SAMURAI
-	.2byte  ITEM_CARD_KARAKURI_KOMACHI_MDL_224_NINISHI_
-	.2byte  ITEM_CARD_KARAKURI_MERCHANT_MDL_177_INASHICHI_
-	.2byte  ITEM_CARD_KARAKURI_NINJA_MDL_919_KUICK_
-	.2byte  ITEM_CARD_KARAKURI_SOLDIER_MDL_236_NISAMU_
 	.2byte  ITEM_CARD_KING_TIGER_WANGHU
-	.2byte  ITEM_CARD_KOA_KI_MEIRU_DRAGO
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
-	.2byte  ITEM_CARD_LEGENDARY_SIX_SAMURAI_ENISHI
-	.2byte  ITEM_CARD_LEGENDARY_SIX_SAMURAI_KAGEKI
 	.2byte  ITEM_CARD_LEGENDARY_SIX_SAMURAI_KIZAN
 	.2byte  ITEM_CARD_LEVEL_LIMIT_AREA_B
 	.2byte  ITEM_CARD_LEVIAIR_THE_SEA_DRAGON
@@ -9927,7 +8442,6 @@ InsideOfTruck_PokemartMiami:
 	.2byte  ITEM_CARD_MAXX_C_
 	.2byte  ITEM_CARD_MERMAIL_ABYSSGAIOS
 	.2byte  ITEM_CARD_MERMAIL_ABYSSGUNDE
-	.2byte  ITEM_CARD_MERMAIL_ABYSSLEED
 	.2byte  ITEM_CARD_MERMAIL_ABYSSLINDE
 	.2byte  ITEM_CARD_MERMAIL_ABYSSMEGALO
 	.2byte  ITEM_CARD_MERMAIL_ABYSSPIKE
@@ -9937,12 +8451,10 @@ InsideOfTruck_PokemartMiami:
 	.2byte  ITEM_CARD_MESSENGER_OF_PEACE
 	.2byte  ITEM_CARD_MIND_CONTROL
 	.2byte  ITEM_CARD_MIND_CRUSH
-	.2byte  ITEM_CARD_MIRACLE_FUSION
 	.2byte  ITEM_CARD_MIRROR_FORCE
 	.2byte  ITEM_CARD_MIST_WURM
 	.2byte  ITEM_CARD_MONSTER_REBORN
 	.2byte  ITEM_CARD_MORPHING_JAR_2
-	.2byte  ITEM_CARD_MOULINGLACIA_THE_ELEMENTAL_LORD
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
 	.2byte  ITEM_CARD_NEEDLE_CEILING
 	.2byte  ITEM_CARD_NEKO_MANE_KING
@@ -9953,14 +8465,9 @@ InsideOfTruck_PokemartMiami:
 	.2byte  ITEM_CARD_NUMBER_17_LEVIATHAN_DRAGON
 	.2byte  ITEM_CARD_NUMBER_30_ACID_GOLEM_OF_DESTRUCTION
 	.2byte  ITEM_CARD_NUMBER_39_UTOPIA
-	.2byte  ITEM_CARD_ONE_DAY_OF_PEACE
-	.2byte  ITEM_CARD_ONSLAUGHT_OF_THE_FIRE_KINGS
-	.2byte  ITEM_CARD_OVERWORKED
-	.2byte  ITEM_CARD_PHOTON_THRASHER
 	.2byte  ITEM_CARD_POT_OF_AVARICE
 	.2byte  ITEM_CARD_POT_OF_DUALITY
 	.2byte  ITEM_CARD_PROHIBITION
-	.2byte  ITEM_CARD_PSYCHIC_COMMANDER
 	.2byte  ITEM_CARD_RAIGEKI_BREAK
 	.2byte  ITEM_CARD_REASONING
 	.2byte  ITEM_CARD_REBORN_TENGU
@@ -9986,16 +8493,9 @@ InsideOfTruck_PokemartMiami:
 	.2byte  ITEM_CARD_SOLAR_RECHARGE
 	.2byte  ITEM_CARD_SOLEMN_JUDGMENT
 	.2byte  ITEM_CARD_SOLEMN_WARNING
-	.2byte  ITEM_CARD_SOUL_DRAIN
 	.2byte  ITEM_CARD_SOUL_TAKER
 	.2byte  ITEM_CARD_SPELLBOOK_MAGICIAN_OF_PROPHECY
-	.2byte  ITEM_CARD_SPELLBOOK_OF_ETERNITY
-	.2byte  ITEM_CARD_SPELLBOOK_OF_FATE
-	.2byte  ITEM_CARD_SPELLBOOK_OF_LIFE
-	.2byte  ITEM_CARD_SPELLBOOK_OF_POWER
 	.2byte  ITEM_CARD_SPELLBOOK_OF_SECRETS
-	.2byte  ITEM_CARD_SPELLBOOK_OF_THE_MASTER
-	.2byte  ITEM_CARD_SPELLBOOK_OF_WISDOM
 	.2byte  ITEM_CARD_SPIRIT_REAPER
 	.2byte  ITEM_CARD_STARDUST_DRAGON
 	.2byte  ITEM_CARD_STARLIGHT_ROAD
@@ -10003,25 +8503,18 @@ InsideOfTruck_PokemartMiami:
 	.2byte  ITEM_CARD_SUMMON_LIMIT
 	.2byte  ITEM_CARD_SUPER_POLYMERIZATION
 	.2byte  ITEM_CARD_SYSTEM_DOWN
-	.2byte  ITEM_CARD_T_G_HYPER_LIBRARIAN
-	.2byte  ITEM_CARD_TEMPERANCE_OF_PROPHECY
 	.2byte  ITEM_CARD_TEMTEMPO_THE_PERCUSSION_DJINN
-	.2byte  ITEM_CARD_THE_GATES_OF_DARK_WORLD
-	.2byte  ITEM_CARD_THE_GRAND_SPELLBOOK_TOWER
 	.2byte  ITEM_CARD_THREATENING_ROAR
 	.2byte  ITEM_CARD_THUNDER_KING_RAI_OH
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
 	.2byte  ITEM_CARD_TOUR_GUIDE_FROM_THE_UNDERWORLD
 	.2byte  ITEM_CARD_TRAGOEDIA
-	.2byte  ITEM_CARD_TRANCE_ARCHFIEND
 	.2byte  ITEM_CARD_TRAP_HOLE
 	.2byte  ITEM_CARD_TRAP_STUN
 	.2byte  ITEM_CARD_TSUKUYOMI
 	.2byte  ITEM_CARD_UPSTART_GOBLIN
 	.2byte  ITEM_CARD_VORSE_RAIDER
-	.2byte  ITEM_CARD_WIND_UP_CARRIER_ZENMAITY
 	.2byte  ITEM_CARD_WIND_UP_FACTORY
-	.2byte  ITEM_CARD_WIND_UP_HUNTER
 	.2byte  ITEM_CARD_WIND_UP_MAGICIAN
 	.2byte  ITEM_CARD_WIND_UP_RABBIT
 	.2byte  ITEM_CARD_WIND_UP_RAT
@@ -10044,15 +8537,14 @@ InsideOfTruck_EventScript_Clerk_Meadowlands::
 
 	.align 2
 InsideOfTruck_PokemartMeadowlands:
-	.2byte  ITEM_CARD_A_WINGBEAT_OF_GIANT_DRAGON
 	.2byte  ITEM_CARD_ABYSS_DWELLER
 	.2byte  ITEM_CARD_ABYSS_SPHERE
 	.2byte  ITEM_CARD_ALLURE_OF_DARKNESS
 	.2byte  ITEM_CARD_ALLY_OF_JUSTICE_CATASTOR
 	.2byte  ITEM_CARD_ANCIENT_FAIRY_DRAGON
 	.2byte  ITEM_CARD_AQUA_SPIRIT
-	.2byte  ITEM_CARD_ARCHLORD_KRISTYA
 	.2byte  ITEM_CARD_ARMAGEDDON_KNIGHT
+	.2byte  ITEM_CARD_ARMORY_ARM
 	.2byte  ITEM_CARD_ATLANTEAN_DRAGOONS
 	.2byte  ITEM_CARD_ATLANTEAN_HEAVY_INFANTRY
 	.2byte  ITEM_CARD_ATLANTEAN_MARKSMAN
@@ -10063,14 +8555,11 @@ InsideOfTruck_PokemartMeadowlands:
 	.2byte  ITEM_CARD_BOTTOMLESS_TRAP_HOLE
 	.2byte  ITEM_CARD_BREAKTHROUGH_SKILL
 	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_BEAR
-	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_GORILLA
 	.2byte  ITEM_CARD_CALL_OF_THE_HAUNTED
 	.2byte  ITEM_CARD_CARD_DESTRUCTION
 	.2byte  ITEM_CARD_CARD_TROOPER
-	.2byte  ITEM_CARD_CARDCAR_D
 	.2byte  ITEM_CARD_CHAOS_SORCERER
 	.2byte  ITEM_CARD_CHIMERATECH_FORTRESS_DRAGON
-	.2byte  ITEM_CARD_COMPULSORY_ESCAPE_DEVICE
 	.2byte  ITEM_CARD_COMPULSORY_EVACUATION_DEVICE
 	.2byte  ITEM_CARD_CRIMSON_BLADER
 	.2byte  ITEM_CARD_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL
@@ -10078,20 +8567,16 @@ InsideOfTruck_PokemartMeadowlands:
 	.2byte  ITEM_CARD_CYBER_VALLEY
 	.2byte  ITEM_CARD_D_D_CROW
 	.2byte  ITEM_CARD_D_D_SURVIVOR
-	.2byte  ITEM_CARD_D_D_R_DIFFERENT_DIMENSION_REINCARNATION
 	.2byte  ITEM_CARD_DAIGUSTO_EMERAL
 	.2byte  ITEM_CARD_DANDYLION
-	.2byte  ITEM_CARD_DARK_BRIBE
 	.2byte  ITEM_CARD_DARK_END_DRAGON
 	.2byte  ITEM_CARD_DARK_GREPHER
 	.2byte  ITEM_CARD_DARK_HOLE
 	.2byte  ITEM_CARD_DARKFIRE_DRAGON
-	.2byte  ITEM_CARD_DE_SYNCHRO
 	.2byte  ITEM_CARD_DEBRIS_DRAGON
 	.2byte  ITEM_CARD_DEBUNK
 	.2byte  ITEM_CARD_DEEP_SEA_DIVA
 	.2byte  ITEM_CARD_DIAMOND_DIRE_WOLF
-	.2byte  ITEM_CARD_DIFFERENT_DIMENSION_GROUND
 	.2byte  ITEM_CARD_DIMENSIONAL_FISSURE
 	.2byte  ITEM_CARD_DIMENSIONAL_PRISON
 	.2byte  ITEM_CARD_DOOMCALIBER_KNIGHT
@@ -10101,52 +8586,34 @@ InsideOfTruck_PokemartMeadowlands:
 	.2byte  ITEM_CARD_ELECTRIC_VIRUS
 	.2byte  ITEM_CARD_EMERGENCY_TELEPORT
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
-	.2byte  ITEM_CARD_EVILSWARM_THUNDERBIRD
 	.2byte  ITEM_CARD_EVOLZAR_LAGGIA
 	.2byte  ITEM_CARD_FIENDISH_CHAIN
 	.2byte  ITEM_CARD_FIRE_FORMATION_TENKI
-	.2byte  ITEM_CARD_FIRE_FORMATION_TENSU
 	.2byte  ITEM_CARD_FOOLISH_BURIAL
 	.2byte  ITEM_CARD_FORBIDDEN_LANCE
 	.2byte  ITEM_CARD_FORMULA_SYNCHRON
 	.2byte  ITEM_CARD_FOSSIL_DYNA_PACHYCEPHALO
 	.2byte  ITEM_CARD_FULL_HOUSE
 	.2byte  ITEM_CARD_GAGAGA_COWBOY
+	.2byte  ITEM_CARD_GAIA_KNIGHT_THE_FORCE_OF_EARTH
 	.2byte  ITEM_CARD_GEMINI_IMPS
 	.2byte  ITEM_CARD_GENE_WARPED_WARWOLF
-	.2byte  ITEM_CARD_GENEX_ALLY_BIRDMAN
 	.2byte  ITEM_CARD_GORZ_THE_EMISSARY_OF_DARKNESS
-	.2byte  ITEM_CARD_GREEN_GADGET
 	.2byte  ITEM_CARD_HEAVY_STORM
 	.2byte  ITEM_CARD_HERALD_OF_ORANGE_LIGHT
-	.2byte  ITEM_CARD_HIERATIC_DRAGON_OF_ESET
-	.2byte  ITEM_CARD_HIERATIC_DRAGON_OF_SU
-	.2byte  ITEM_CARD_HIERATIC_DRAGON_OF_TEFNUIT
-	.2byte  ITEM_CARD_HIERATIC_SEAL_OF_CONVOCATION
-	.2byte  ITEM_CARD_HIGH_PRIESTESS_OF_PROPHECY
 	.2byte  ITEM_CARD_HONEST
 	.2byte  ITEM_CARD_INFERNITY_ARCHFIEND
 	.2byte  ITEM_CARD_INFERNITY_BARRIER
-	.2byte  ITEM_CARD_INFERNITY_BREAK
 	.2byte  ITEM_CARD_INFERNITY_LAUNCHER
 	.2byte  ITEM_CARD_INFERNITY_NECROMANCER
 	.2byte  ITEM_CARD_INSTANT_FUSION
 	.2byte  ITEM_CARD_JURRAC_GUAIBA
-	.2byte  ITEM_CARD_JUSTICE_OF_PROPHECY
 	.2byte  ITEM_CARD_KABAZAULS
-	.2byte  ITEM_CARD_KARAKURI_KOMACHI_MDL_224_NINISHI_
-	.2byte  ITEM_CARD_KARAKURI_MERCHANT_MDL_177_INASHICHI_
-	.2byte  ITEM_CARD_KARAKURI_NINJA_MDL_919_KUICK_
-	.2byte  ITEM_CARD_KARAKURI_SOLDIER_MDL_236_NISAMU_
-	.2byte  ITEM_CARD_KOA_KI_MEIRU_DRAGO
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
 	.2byte  ITEM_CARD_LEVIAIR_THE_SEA_DRAGON
 	.2byte  ITEM_CARD_LIGHT_IMPRISONING_MIRROR
 	.2byte  ITEM_CARD_LIMITER_REMOVAL
 	.2byte  ITEM_CARD_LONEFIRE_BLOSSOM
-	.2byte  ITEM_CARD_MACHINA_CANNON
-	.2byte  ITEM_CARD_MACHINA_FORTRESS
-	.2byte  ITEM_CARD_MACHINA_GEARFRAME
 	.2byte  ITEM_CARD_MACHINE_DUPLICATION
 	.2byte  ITEM_CARD_MACRO_COSMOS
 	.2byte  ITEM_CARD_MAESTROKE_THE_SYMPHONY_DJINN
@@ -10155,7 +8622,6 @@ InsideOfTruck_PokemartMeadowlands:
 	.2byte  ITEM_CARD_MAXX_C_
 	.2byte  ITEM_CARD_MERMAIL_ABYSSGAIOS
 	.2byte  ITEM_CARD_MERMAIL_ABYSSGUNDE
-	.2byte  ITEM_CARD_MERMAIL_ABYSSLEED
 	.2byte  ITEM_CARD_MERMAIL_ABYSSLINDE
 	.2byte  ITEM_CARD_MERMAIL_ABYSSMEGALO
 	.2byte  ITEM_CARD_MERMAIL_ABYSSPIKE
@@ -10166,26 +8632,18 @@ InsideOfTruck_PokemartMeadowlands:
 	.2byte  ITEM_CARD_MIND_CRUSH
 	.2byte  ITEM_CARD_MIRROR_FORCE
 	.2byte  ITEM_CARD_MONSTER_REBORN
-	.2byte  ITEM_CARD_MOULINGLACIA_THE_ELEMENTAL_LORD
-	.2byte  ITEM_CARD_MYSTICAL_SHINE_BALL
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
 	.2byte  ITEM_CARD_NEEDLE_CEILING
-	.2byte  ITEM_CARD_NEO_SPACIAN_GRAND_MOLE
 	.2byte  ITEM_CARD_NIGHT_ASSAILANT
 	.2byte  ITEM_CARD_NIGHT_BEAM
 	.2byte  ITEM_CARD_NUMBER_11_BIG_EYE
 	.2byte  ITEM_CARD_NUMBER_17_LEVIATHAN_DRAGON
 	.2byte  ITEM_CARD_NUMBER_30_ACID_GOLEM_OF_DESTRUCTION
 	.2byte  ITEM_CARD_NUMBER_39_UTOPIA
-	.2byte  ITEM_CARD_ONE_DAY_OF_PEACE
-	.2byte  ITEM_CARD_ONE_FOR_ONE
-	.2byte  ITEM_CARD_PHOTON_THRASHER
 	.2byte  ITEM_CARD_POT_OF_AVARICE
 	.2byte  ITEM_CARD_POT_OF_DUALITY
-	.2byte  ITEM_CARD_PSYCHIC_COMMANDER
 	.2byte  ITEM_CARD_REBORN_TENGU
 	.2byte  ITEM_CARD_RED_DRAGON_ARCHFIEND
-	.2byte  ITEM_CARD_RED_GADGET
 	.2byte  ITEM_CARD_RED_EYES_DARKNESS_METAL_DRAGON
 	.2byte  ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
 	.2byte  ITEM_CARD_RESCUE_RABBIT
@@ -10200,35 +8658,20 @@ InsideOfTruck_PokemartMeadowlands:
 	.2byte  ITEM_CARD_SNOWMAN_EATER
 	.2byte  ITEM_CARD_SOLEMN_JUDGMENT
 	.2byte  ITEM_CARD_SOLEMN_WARNING
-	.2byte  ITEM_CARD_SOUL_DRAIN
 	.2byte  ITEM_CARD_SOUL_TAKER
-	.2byte  ITEM_CARD_SPELLBOOK_LIBRARY_OF_THE_CRESCENT
 	.2byte  ITEM_CARD_SPELLBOOK_MAGICIAN_OF_PROPHECY
-	.2byte  ITEM_CARD_SPELLBOOK_OF_ETERNITY
-	.2byte  ITEM_CARD_SPELLBOOK_OF_FATE
-	.2byte  ITEM_CARD_SPELLBOOK_OF_LIFE
-	.2byte  ITEM_CARD_SPELLBOOK_OF_POWER
 	.2byte  ITEM_CARD_SPELLBOOK_OF_SECRETS
-	.2byte  ITEM_CARD_SPELLBOOK_OF_THE_MASTER
-	.2byte  ITEM_CARD_SPELLBOOK_OF_WISDOM
 	.2byte  ITEM_CARD_SPIRITUALISM
-	.2byte  ITEM_CARD_SPORE
 	.2byte  ITEM_CARD_STARDUST_DRAGON
 	.2byte  ITEM_CARD_STARLIGHT_ROAD
 	.2byte  ITEM_CARD_STEELSWARM_ROACH
-	.2byte  ITEM_CARD_STYGIAN_STREET_PATROL
 	.2byte  ITEM_CARD_SUMMONER_MONK
 	.2byte  ITEM_CARD_SWIFT_SCARECROW
-	.2byte  ITEM_CARD_T_G_HYPER_LIBRARIAN
-	.2byte  ITEM_CARD_TEMPERANCE_OF_PROPHECY
 	.2byte  ITEM_CARD_TEMTEMPO_THE_PERCUSSION_DJINN
 	.2byte  ITEM_CARD_TERRAFORMING
-	.2byte  ITEM_CARD_THE_AGENT_OF_CREATION_VENUS
 	.2byte  ITEM_CARD_THE_AGENT_OF_MYSTERY_EARTH
-	.2byte  ITEM_CARD_THE_GRAND_SPELLBOOK_TOWER
 	.2byte  ITEM_CARD_THOUGHT_RULER_ARCHFIEND
 	.2byte  ITEM_CARD_THUNDER_KING_RAI_OH
-	.2byte  ITEM_CARD_TIN_GOLDFISH
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
 	.2byte  ITEM_CARD_TOUR_GUIDE_FROM_THE_UNDERWORLD
 	.2byte  ITEM_CARD_TRAGOEDIA
@@ -10238,8 +8681,6 @@ InsideOfTruck_PokemartMeadowlands:
 	.2byte  ITEM_CARD_UPSTART_GOBLIN
 	.2byte  ITEM_CARD_WIND_UP_RABBIT
 	.2byte  ITEM_CARD_WIND_UP_ZENMAINES
-	.2byte  ITEM_CARD_WINGED_RHYNOS
-	.2byte  ITEM_CARD_YELLOW_GADGET
 	pokemartlistend
 
 InsideOfTruck_EventScript_Clerk_BabyRuler::
@@ -10262,6 +8703,7 @@ InsideOfTruck_PokemartBabyRuler:
 	.2byte  ITEM_CARD_ALLY_OF_JUSTICE_CATASTOR
 	.2byte  ITEM_CARD_ANTI_SPELL_FRAGRANCE
 	.2byte  ITEM_CARD_ARCANITE_MAGICIAN
+	.2byte  ITEM_CARD_ARMORY_ARM
 	.2byte  ITEM_CARD_ATLANTEAN_DRAGOONS
 	.2byte  ITEM_CARD_ATLANTEAN_HEAVY_INFANTRY
 	.2byte  ITEM_CARD_ATLANTEAN_MARKSMAN
@@ -10275,11 +8717,9 @@ InsideOfTruck_PokemartBabyRuler:
 	.2byte  ITEM_CARD_BOTTOMLESS_TRAP_HOLE
 	.2byte  ITEM_CARD_BREAKTHROUGH_SKILL
 	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_BEAR
-	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_DRAGON
 	.2byte  ITEM_CARD_BURNER_DRAGON_RULER_OF_SPARKS
 	.2byte  ITEM_CARD_CALL_OF_THE_HAUNTED
 	.2byte  ITEM_CARD_CARD_DESTRUCTION
-	.2byte  ITEM_CARD_CARDCAR_D
 	.2byte  ITEM_CARD_CHIMERATECH_FORTRESS_DRAGON
 	.2byte  ITEM_CARD_COLOSSAL_FIGHTER
 	.2byte  ITEM_CARD_COMPULSORY_EVACUATION_DEVICE
@@ -10288,11 +8728,9 @@ InsideOfTruck_PokemartBabyRuler:
 	.2byte  ITEM_CARD_CYBER_DRAGON
 	.2byte  ITEM_CARD_DAIGUSTO_EMERAL
 	.2byte  ITEM_CARD_DARK_ARMED_DRAGON
-	.2byte  ITEM_CARD_DARK_BRIBE
 	.2byte  ITEM_CARD_DARK_HOLE
 	.2byte  ITEM_CARD_DEBUNK
 	.2byte  ITEM_CARD_DECK_DEVASTATION_VIRUS
-	.2byte  ITEM_CARD_DECK_LOCKDOWN
 	.2byte  ITEM_CARD_DEEP_SEA_DIVA
 	.2byte  ITEM_CARD_DIAMOND_DIRE_WOLF
 	.2byte  ITEM_CARD_DIMENSIONAL_FISSURE
@@ -10300,25 +8738,17 @@ InsideOfTruck_PokemartBabyRuler:
 	.2byte  ITEM_CARD_DNA_SURGERY
 	.2byte  ITEM_CARD_DRAGUNITY_CORSESCA
 	.2byte  ITEM_CARD_DROLL_LOCK_BIRD
-	.2byte  ITEM_CARD_ECLIPSE_WYVERN
 	.2byte  ITEM_CARD_EFFECT_VEILER
 	.2byte  ITEM_CARD_ELECTRIC_VIRUS
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
 	.2byte  ITEM_CARD_ERADICATOR_EPIDEMIC_VIRUS
-	.2byte  ITEM_CARD_EVILSWARM_CASTOR
 	.2byte  ITEM_CARD_EVILSWARM_HELIOTROPE
-	.2byte  ITEM_CARD_EVILSWARM_KERYKEION
-	.2byte  ITEM_CARD_EVILSWARM_MANDRAGORA
-	.2byte  ITEM_CARD_EVILSWARM_THUNDERBIRD
 	.2byte  ITEM_CARD_EVOLZAR_LAGGIA
 	.2byte  ITEM_CARD_EXCHANGE
-	.2byte  ITEM_CARD_EXPLODER_DRAGON
 	.2byte  ITEM_CARD_FAIRY_WIND
 	.2byte  ITEM_CARD_FIENDISH_CHAIN
 	.2byte  ITEM_CARD_FIRE_FORMATION_TENKI
-	.2byte  ITEM_CARD_FIRE_FORMATION_TENSEN
-	.2byte  ITEM_CARD_FIRE_FORMATION_TENSU
 	.2byte  ITEM_CARD_FLAMVELL_GUARD
 	.2byte  ITEM_CARD_FORBIDDEN_CHALICE
 	.2byte  ITEM_CARD_FORBIDDEN_LANCE
@@ -10327,17 +8757,12 @@ InsideOfTruck_PokemartBabyRuler:
 	.2byte  ITEM_CARD_FUSILIER_DRAGON_THE_DUAL_MODE_BEAST
 	.2byte  ITEM_CARD_GAGAGA_COWBOY
 	.2byte  ITEM_CARD_GOLD_SARCOPHAGUS
-	.2byte  ITEM_CARD_GOZEN_MATCH
 	.2byte  ITEM_CARD_HEAVY_STORM
-	.2byte  ITEM_CARD_HIGH_PRIESTESS_OF_PROPHECY
 	.2byte  ITEM_CARD_HONEST
 	.2byte  ITEM_CARD_HORN_OF_HEAVEN
 	.2byte  ITEM_CARD_IMPERIAL_IRON_WALL
-	.2byte  ITEM_CARD_INFESTATION_PANDEMIC
 	.2byte  ITEM_CARD_JOWGEN_THE_SPIRITUALIST
-	.2byte  ITEM_CARD_JUSTICE_OF_PROPHECY
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
-	.2byte  ITEM_CARD_LAST_DAY_OF_WITCH
 	.2byte  ITEM_CARD_LEFT_LEG_OF_THE_FORBIDDEN_ONE
 	.2byte  ITEM_CARD_LEVIAIR_THE_SEA_DRAGON
 	.2byte  ITEM_CARD_LIGHT_AND_DARKNESS_DRAGON
@@ -10345,21 +8770,14 @@ InsideOfTruck_PokemartBabyRuler:
 	.2byte  ITEM_CARD_LIGHTNING_DRAGON_RULER_OF_DRAFTS
 	.2byte  ITEM_CARD_M_X_SABER_INVOKER
 	.2byte  ITEM_CARD_MACRO_COSMOS
-	.2byte  ITEM_CARD_MADOLCHE_CHATEAU
-	.2byte  ITEM_CARD_MADOLCHE_HOOTCAKE
-	.2byte  ITEM_CARD_MADOLCHE_MAGILEINE
-	.2byte  ITEM_CARD_MADOLCHE_MESSENGELATO
-	.2byte  ITEM_CARD_MADOLCHE_MEWFEUILLE
 	.2byte  ITEM_CARD_MAESTROKE_THE_SYMPHONY_DJINN
 	.2byte  ITEM_CARD_MAGE_POWER
 	.2byte  ITEM_CARD_MAGICAL_ANDROID
-	.2byte  ITEM_CARD_MARSHMALLON
 	.2byte  ITEM_CARD_MASTER_OF_OZ
 	.2byte  ITEM_CARD_MAXX_C_
 	.2byte  ITEM_CARD_MECHA_PHANTOM_BEAST_DRACOSSACK
 	.2byte  ITEM_CARD_MERMAIL_ABYSSGAIOS
 	.2byte  ITEM_CARD_MERMAIL_ABYSSGUNDE
-	.2byte  ITEM_CARD_MERMAIL_ABYSSLEED
 	.2byte  ITEM_CARD_MERMAIL_ABYSSLINDE
 	.2byte  ITEM_CARD_MERMAIL_ABYSSMEGALO
 	.2byte  ITEM_CARD_MERMAIL_ABYSSPIKE
@@ -10368,13 +8786,10 @@ InsideOfTruck_PokemartBabyRuler:
 	.2byte  ITEM_CARD_MERMAIL_ABYSSTURGE
 	.2byte  ITEM_CARD_MIND_CONTROL
 	.2byte  ITEM_CARD_MIND_CRUSH
-	.2byte  ITEM_CARD_MIND_DRAIN
 	.2byte  ITEM_CARD_MIRROR_FORCE
 	.2byte  ITEM_CARD_MONSTER_REBORN
 	.2byte  ITEM_CARD_MORPHING_JAR_2
-	.2byte  ITEM_CARD_MOULINGLACIA_THE_ELEMENTAL_LORD
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
-	.2byte  ITEM_CARD_NEO_SPACIAN_GRAND_MOLE
 	.2byte  ITEM_CARD_NIGHT_BEAM
 	.2byte  ITEM_CARD_NUMBER_11_BIG_EYE
 	.2byte  ITEM_CARD_NUMBER_17_LEVIATHAN_DRAGON
@@ -10382,18 +8797,15 @@ InsideOfTruck_PokemartBabyRuler:
 	.2byte  ITEM_CARD_NUMBER_39_UTOPIA
 	.2byte  ITEM_CARD_OFFERINGS_TO_THE_DOOMED
 	.2byte  ITEM_CARD_OJAMA_KING
-	.2byte  ITEM_CARD_ONE_DAY_OF_PEACE
 	.2byte  ITEM_CARD_PHOENIX_WING_WIND_BLAST
 	.2byte  ITEM_CARD_POT_OF_AVARICE
 	.2byte  ITEM_CARD_POT_OF_DUALITY
 	.2byte  ITEM_CARD_PSI_BLOCKER
 	.2byte  ITEM_CARD_PUPPET_PLANT
-	.2byte  ITEM_CARD_RAINBOW_LIFE
 	.2byte  ITEM_CARD_REACTAN_DRAGON_RULER_OF_PEBBLES
 	.2byte  ITEM_CARD_RED_DRAGON_ARCHFIEND
 	.2byte  ITEM_CARD_REDOX_DRAGON_RULER_OF_BOULDERS
 	.2byte  ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
-	.2byte  ITEM_CARD_REKINDLING
 	.2byte  ITEM_CARD_RELOAD
 	.2byte  ITEM_CARD_RESCUE_RABBIT
 	.2byte  ITEM_CARD_RIVALRY_OF_WARLORDS
@@ -10408,36 +8820,25 @@ InsideOfTruck_PokemartBabyRuler:
 	.2byte  ITEM_CARD_SNOWMAN_EATER
 	.2byte  ITEM_CARD_SOLEMN_JUDGMENT
 	.2byte  ITEM_CARD_SOLEMN_WARNING
-	.2byte  ITEM_CARD_SOUL_DRAIN
 	.2byte  ITEM_CARD_SPELL_CANCELLER
-	.2byte  ITEM_CARD_SPELLBOOK_LIBRARY_OF_THE_CRESCENT
 	.2byte  ITEM_CARD_SPELLBOOK_MAGICIAN_OF_PROPHECY
-	.2byte  ITEM_CARD_SPELLBOOK_OF_ETERNITY
-	.2byte  ITEM_CARD_SPELLBOOK_OF_FATE
 	.2byte  ITEM_CARD_SPELLBOOK_OF_JUDGMENT
-	.2byte  ITEM_CARD_SPELLBOOK_OF_LIFE
-	.2byte  ITEM_CARD_SPELLBOOK_OF_POWER
 	.2byte  ITEM_CARD_SPELLBOOK_OF_SECRETS
-	.2byte  ITEM_CARD_SPELLBOOK_OF_THE_MASTER
-	.2byte  ITEM_CARD_SPELLBOOK_OF_WISDOM
-	.2byte  ITEM_CARD_SPELLBOOK_STAR_HALL
 	.2byte  ITEM_CARD_STARDUST_DRAGON
 	.2byte  ITEM_CARD_STARLIGHT_ROAD
 	.2byte  ITEM_CARD_STREAM_DRAGON_RULER_OF_DROPLETS
 	.2byte  ITEM_CARD_SUPER_REJUVENATION
 	.2byte  ITEM_CARD_SWIFT_SCARECROW
 	.2byte  ITEM_CARD_SWORDS_OF_REVEALING_LIGHT
-	.2byte  ITEM_CARD_T_G_HYPER_LIBRARIAN
+	.2byte  ITEM_CARD_TEMPEST_MAGICIAN
 	.2byte  ITEM_CARD_TEMPEST_DRAGON_RULER_OF_STORMS
 	.2byte  ITEM_CARD_TEMTEMPO_THE_PERCUSSION_DJINN
 	.2byte  ITEM_CARD_TERRAFORMING
-	.2byte  ITEM_CARD_THE_GRAND_SPELLBOOK_TOWER
 	.2byte  ITEM_CARD_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET
 	.2byte  ITEM_CARD_THOUGHT_RULER_ARCHFIEND
 	.2byte  ITEM_CARD_THUNDER_KING_RAI_OH
 	.2byte  ITEM_CARD_TIDAL_DRAGON_RULER_OF_WATERFALLS
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
-	.2byte  ITEM_CARD_TREACHEROUS_TRAP_HOLE
 	.2byte  ITEM_CARD_TSUKUYOMI
 	.2byte  ITEM_CARD_ULTIMATE_OFFERING
 	.2byte  ITEM_CARD_UPSTART_GOBLIN
@@ -10462,20 +8863,17 @@ InsideOfTruck_EventScript_Clerk_RavineRuler::
 InsideOfTruck_PokemartRavineRuler:
 	.2byte  ITEM_CARD_ABYSS_DWELLER
 	.2byte  ITEM_CARD_ABYSS_SPHERE
-	.2byte  ITEM_CARD_ACCUMULATED_FORTUNE
 	.2byte  ITEM_CARD_ALLURE_OF_DARKNESS
 	.2byte  ITEM_CARD_ALLY_OF_JUSTICE_CATASTOR
 	.2byte  ITEM_CARD_ANCIENT_FAIRY_DRAGON
-	.2byte  ITEM_CARD_APPRENTICE_MAGICIAN
 	.2byte  ITEM_CARD_ARCHFIEND_HEIRESS
 	.2byte  ITEM_CARD_ARMAGEDDON_KNIGHT
+	.2byte  ITEM_CARD_ARMORY_ARM
 	.2byte  ITEM_CARD_ATLANTEAN_DRAGOONS
 	.2byte  ITEM_CARD_ATLANTEAN_HEAVY_INFANTRY
 	.2byte  ITEM_CARD_ATLANTEAN_MARKSMAN
-	.2byte  ITEM_CARD_BATTLE_FADER
 	.2byte  ITEM_CARD_BLACK_HORN_OF_HEAVEN
 	.2byte  ITEM_CARD_BLACK_ROSE_DRAGON
-	.2byte  ITEM_CARD_BLACKWING_ZEPHYROS_THE_ELITE
 	.2byte  ITEM_CARD_BLASTER_DRAGON_RULER_OF_INFERNOS
 	.2byte  ITEM_CARD_BLUE_EYES_WHITE_DRAGON
 	.2byte  ITEM_CARD_BOOK_OF_MOON
@@ -10483,31 +8881,18 @@ InsideOfTruck_PokemartRavineRuler:
 	.2byte  ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR
 	.2byte  ITEM_CARD_BREAKTHROUGH_SKILL
 	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_BEAR
-	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_DRAGON
-	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_GORILLA
-	.2byte  ITEM_CARD_BUJIN_MIKAZUCHI
-	.2byte  ITEM_CARD_BUJIN_YAMATO
-	.2byte  ITEM_CARD_BUJINCARNATION
-	.2byte  ITEM_CARD_BUJINGI_CRANE
-	.2byte  ITEM_CARD_BUJINGI_TURTLE
 	.2byte  ITEM_CARD_BURIAL_FROM_A_DIFFERENT_DIMENSION
 	.2byte  ITEM_CARD_CALL_OF_THE_HAUNTED
 	.2byte  ITEM_CARD_CARD_TROOPER
-	.2byte  ITEM_CARD_CARDCAR_D
 	.2byte  ITEM_CARD_CARDS_OF_CONSONANCE
 	.2byte  ITEM_CARD_CEASEFIRE
 	.2byte  ITEM_CARD_CHAIN_DISAPPEARANCE
-	.2byte  ITEM_CARD_CHAIN_STRIKE
-	.2byte  ITEM_CARD_CHAOS_TRAP_HOLE
 	.2byte  ITEM_CARD_CHARGE_OF_THE_LIGHT_BRIGADE
-	.2byte  ITEM_CARD_CLOSED_FOREST
-	.2byte  ITEM_CARD_COACH_SOLDIER_WOLFBARK
 	.2byte  ITEM_CARD_COLOSSAL_FIGHTER
 	.2byte  ITEM_CARD_COMPULSORY_EVACUATION_DEVICE
 	.2byte  ITEM_CARD_CRIMSON_BLADER
 	.2byte  ITEM_CARD_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL
 	.2byte  ITEM_CARD_D_D_CROW
-	.2byte  ITEM_CARD_D_D_R_DIFFERENT_DIMENSION_REINCARNATION
 	.2byte  ITEM_CARD_DAIGUSTO_EMERAL
 	.2byte  ITEM_CARD_DANDYLION
 	.2byte  ITEM_CARD_DARK_ARMED_DRAGON
@@ -10524,80 +8909,44 @@ InsideOfTruck_PokemartRavineRuler:
 	.2byte  ITEM_CARD_DIVINE_WRATH
 	.2byte  ITEM_CARD_DNA_SURGERY
 	.2byte  ITEM_CARD_DRAGON_RAVINE
-	.2byte  ITEM_CARD_DRAGUNITY_ARMA_MYSTLETAINN
 	.2byte  ITEM_CARD_DRAGUNITY_CORSESCA
-	.2byte  ITEM_CARD_DRAGUNITY_DUX
-	.2byte  ITEM_CARD_DRAGUNITY_PHALANX
 	.2byte  ITEM_CARD_DUST_TORNADO
-	.2byte  ITEM_CARD_ECLIPSE_WYVERN
 	.2byte  ITEM_CARD_EFFECT_VEILER
 	.2byte  ITEM_CARD_ELECTRIC_VIRUS
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
 	.2byte  ITEM_CARD_ERADICATOR_EPIDEMIC_VIRUS
-	.2byte  ITEM_CARD_EVILSWARM_CASTOR
 	.2byte  ITEM_CARD_EVILSWARM_HELIOTROPE
-	.2byte  ITEM_CARD_EVILSWARM_KERYKEION
 	.2byte  ITEM_CARD_EVILSWARM_KETOS
-	.2byte  ITEM_CARD_EVILSWARM_MANDRAGORA
-	.2byte  ITEM_CARD_EVILSWARM_THUNDERBIRD
-	.2byte  ITEM_CARD_FENCING_FIRE_FERRET
 	.2byte  ITEM_CARD_FIENDISH_CHAIN
-	.2byte  ITEM_CARD_FIRE_FORMATION_GYOKKOU
 	.2byte  ITEM_CARD_FIRE_FORMATION_TENKI
-	.2byte  ITEM_CARD_FIRE_FORMATION_TENSEN
-	.2byte  ITEM_CARD_FIRE_FORMATION_TENSU
 	.2byte  ITEM_CARD_FLAMVELL_GUARD
-	.2byte  ITEM_CARD_FOG_KING
 	.2byte  ITEM_CARD_FOOLISH_BURIAL
 	.2byte  ITEM_CARD_FORBIDDEN_CHALICE
 	.2byte  ITEM_CARD_FORBIDDEN_LANCE
 	.2byte  ITEM_CARD_FORMULA_SYNCHRON
 	.2byte  ITEM_CARD_FOSSIL_DYNA_PACHYCEPHALO
 	.2byte  ITEM_CARD_GAGAGA_COWBOY
-	.2byte  ITEM_CARD_GEARGIACCELERATOR
-	.2byte  ITEM_CARD_GEARGIAGEAR
-	.2byte  ITEM_CARD_GEARGIANO
-	.2byte  ITEM_CARD_GEARGIANO_MK_II
-	.2byte  ITEM_CARD_GEARGIARMOR
-	.2byte  ITEM_CARD_GEARGIARSENAL
-	.2byte  ITEM_CARD_GENEX_ALLY_BIRDMAN
-	.2byte  ITEM_CARD_GENEX_CONTROLLER
-	.2byte  ITEM_CARD_GENEX_UNDINE
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_HERAKLINOS
 	.2byte  ITEM_CARD_GOLD_SARCOPHAGUS
 	.2byte  ITEM_CARD_GORZ_THE_EMISSARY_OF_DARKNESS
-	.2byte  ITEM_CARD_GOZEN_MATCH
-	.2byte  ITEM_CARD_HIGH_PRIESTESS_OF_PROPHECY
 	.2byte  ITEM_CARD_HONEST
 	.2byte  ITEM_CARD_IMPERIAL_IRON_WALL
 	.2byte  ITEM_CARD_INFERNITY_ARCHFIEND
 	.2byte  ITEM_CARD_INFERNITY_BARRIER
-	.2byte  ITEM_CARD_INFERNITY_BREAK
 	.2byte  ITEM_CARD_INFERNITY_LAUNCHER
 	.2byte  ITEM_CARD_INFERNITY_NECROMANCER
-	.2byte  ITEM_CARD_INFESTATION_PANDEMIC
 	.2byte  ITEM_CARD_INSTANT_FUSION
 	.2byte  ITEM_CARD_JOWGEN_THE_SPIRITUALIST
 	.2byte  ITEM_CARD_JUST_DESSERTS
-	.2byte  ITEM_CARD_JUSTICE_OF_PROPHECY
-	.2byte  ITEM_CARD_KAGETOKAGE
-	.2byte  ITEM_CARD_KAISER_COLOSSEUM
 	.2byte  ITEM_CARD_KARMA_CUT
 	.2byte  ITEM_CARD_KING_OF_THE_FERAL_IMPS
-	.2byte  ITEM_CARD_KOA_KI_MEIRU_DRAGO
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
-	.2byte  ITEM_CARD_LAVA_GOLEM
 	.2byte  ITEM_CARD_LEGACY_OF_YATA_GARASU
 	.2byte  ITEM_CARD_LEVIAIR_THE_SEA_DRAGON
 	.2byte  ITEM_CARD_LIGHT_AND_DARKNESS_DRAGON
 	.2byte  ITEM_CARD_LONEFIRE_BLOSSOM
 	.2byte  ITEM_CARD_M_X_SABER_INVOKER
 	.2byte  ITEM_CARD_MACRO_COSMOS
-	.2byte  ITEM_CARD_MADOLCHE_CHATEAU
-	.2byte  ITEM_CARD_MADOLCHE_HOOTCAKE
-	.2byte  ITEM_CARD_MADOLCHE_MAGILEINE
-	.2byte  ITEM_CARD_MADOLCHE_MESSENGELATO
-	.2byte  ITEM_CARD_MADOLCHE_MEWFEUILLE
 	.2byte  ITEM_CARD_MAESTROKE_THE_SYMPHONY_DJINN
 	.2byte  ITEM_CARD_MAGIC_CYLINDER
 	.2byte  ITEM_CARD_MALEVOLENT_CATASTROPHE
@@ -10605,7 +8954,6 @@ InsideOfTruck_PokemartRavineRuler:
 	.2byte  ITEM_CARD_MECHA_PHANTOM_BEAST_DRACOSSACK
 	.2byte  ITEM_CARD_MERMAIL_ABYSSGAIOS
 	.2byte  ITEM_CARD_MERMAIL_ABYSSGUNDE
-	.2byte  ITEM_CARD_MERMAIL_ABYSSLEED
 	.2byte  ITEM_CARD_MERMAIL_ABYSSLINDE
 	.2byte  ITEM_CARD_MERMAIL_ABYSSMEGALO
 	.2byte  ITEM_CARD_MERMAIL_ABYSSPIKE
@@ -10615,24 +8963,16 @@ InsideOfTruck_PokemartRavineRuler:
 	.2byte  ITEM_CARD_MIRROR_FORCE
 	.2byte  ITEM_CARD_MISTAKE
 	.2byte  ITEM_CARD_MORPHING_JAR_2
-	.2byte  ITEM_CARD_MYSTICAL_REFPANEL
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
 	.2byte  ITEM_CARD_MYSTIK_WOK
-	.2byte  ITEM_CARD_MYTHIC_TREE_DRAGON
-	.2byte  ITEM_CARD_MYTHIC_WATER_DRAGON
 	.2byte  ITEM_CARD_NEEDLE_CEILING
-	.2byte  ITEM_CARD_NEO_SPACIAN_GRAND_MOLE
 	.2byte  ITEM_CARD_NIGHT_BEAM
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
-	.2byte  ITEM_CARD_NON_AGGRESSION_AREA
 	.2byte  ITEM_CARD_NUMBER_11_BIG_EYE
 	.2byte  ITEM_CARD_NUMBER_17_LEVIATHAN_DRAGON
 	.2byte  ITEM_CARD_NUMBER_30_ACID_GOLEM_OF_DESTRUCTION
 	.2byte  ITEM_CARD_NUMBER_66_MASTER_KEY_BEETLE
-	.2byte  ITEM_CARD_NUMBER_85_CRAZY_BOX
 	.2byte  ITEM_CARD_OJAMA_TRIO
-	.2byte  ITEM_CARD_OLD_VINDICTIVE_MAGICIAN
-	.2byte  ITEM_CARD_ONE_DAY_OF_PEACE
 	.2byte  ITEM_CARD_PHOENIX_WING_WIND_BLAST
 	.2byte  ITEM_CARD_POISON_OF_THE_OLD_MAN
 	.2byte  ITEM_CARD_POT_OF_DUALITY
@@ -10655,46 +8995,27 @@ InsideOfTruck_PokemartRavineRuler:
 	.2byte  ITEM_CARD_SECRET_BARREL
 	.2byte  ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT
 	.2byte  ITEM_CARD_SHADOW_IMPRISONING_MIRROR
-	.2byte  ITEM_CARD_SIXTH_SENSE
 	.2byte  ITEM_CARD_SKILL_DRAIN
 	.2byte  ITEM_CARD_SMASHING_GROUND
 	.2byte  ITEM_CARD_SNIPE_HUNTER
 	.2byte  ITEM_CARD_SOLEMN_WARNING
-	.2byte  ITEM_CARD_SOUL_DRAIN
-	.2byte  ITEM_CARD_SPELLBOOK_LIBRARY_OF_THE_CRESCENT
 	.2byte  ITEM_CARD_SPELLBOOK_MAGICIAN_OF_PROPHECY
-	.2byte  ITEM_CARD_SPELLBOOK_OF_ETERNITY
-	.2byte  ITEM_CARD_SPELLBOOK_OF_FATE
-	.2byte  ITEM_CARD_SPELLBOOK_OF_LIFE
-	.2byte  ITEM_CARD_SPELLBOOK_OF_POWER
 	.2byte  ITEM_CARD_SPELLBOOK_OF_SECRETS
-	.2byte  ITEM_CARD_SPELLBOOK_OF_THE_MASTER
-	.2byte  ITEM_CARD_SPELLBOOK_OF_WISDOM
-	.2byte  ITEM_CARD_SPORE
 	.2byte  ITEM_CARD_STARDUST_DRAGON
 	.2byte  ITEM_CARD_STARLIGHT_ROAD
-	.2byte  ITEM_CARD_STYGIAN_STREET_PATROL
 	.2byte  ITEM_CARD_SUMMONER_MONK
 	.2byte  ITEM_CARD_SWIFT_SCARECROW
-	.2byte  ITEM_CARD_SWORDS_OF_CONCEALING_LIGHT
-	.2byte  ITEM_CARD_T_G_HYPER_LIBRARIAN
-	.2byte  ITEM_CARD_TEMPERANCE_OF_PROPHECY
 	.2byte  ITEM_CARD_TEMPEST_DRAGON_RULER_OF_STORMS
 	.2byte  ITEM_CARD_TEMTEMPO_THE_PERCUSSION_DJINN
 	.2byte  ITEM_CARD_TERRAFORMING
-	.2byte  ITEM_CARD_THE_FABLED_CATSITH
-	.2byte  ITEM_CARD_THE_GRAND_SPELLBOOK_TOWER
-	.2byte  ITEM_CARD_THE_TRANSMIGRATION_PROPHECY
 	.2byte  ITEM_CARD_THE_WHITE_STONE_OF_LEGEND
 	.2byte  ITEM_CARD_THOUGHT_RULER_ARCHFIEND
 	.2byte  ITEM_CARD_THUNDER_KING_RAI_OH
 	.2byte  ITEM_CARD_TIDAL_DRAGON_RULER_OF_WATERFALLS
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
 	.2byte  ITEM_CARD_TOUR_GUIDE_FROM_THE_UNDERWORLD
-	.2byte  ITEM_CARD_TRADE_IN
 	.2byte  ITEM_CARD_TRAP_HOLE
 	.2byte  ITEM_CARD_TRAP_STUN
-	.2byte  ITEM_CARD_TRIGON
 	.2byte  ITEM_CARD_TWISTER
 	.2byte  ITEM_CARD_UPSTART_GOBLIN
 	.2byte  ITEM_CARD_VANITY_S_EMPTINESS
@@ -10721,14 +9042,12 @@ InsideOfTruck_EventScript_Clerk_FireWater::
 
 	.align 2
 InsideOfTruck_PokemartFireWater:
-	.2byte  ITEM_CARD_A_WINGBEAT_OF_GIANT_DRAGON
 	.2byte  ITEM_CARD_ABYSS_DWELLER
 	.2byte  ITEM_CARD_ABYSS_SPHERE
-	.2byte  ITEM_CARD_ACID_TRAP_HOLE
 	.2byte  ITEM_CARD_ALLURE_OF_DARKNESS
 	.2byte  ITEM_CARD_ALLY_OF_JUSTICE_CATASTOR
 	.2byte  ITEM_CARD_AQUA_SPIRIT
-	.2byte  ITEM_CARD_ASCETICISM_OF_THE_SIX_SAMURAI
+	.2byte  ITEM_CARD_ARMORY_ARM
 	.2byte  ITEM_CARD_ATLANTEAN_DRAGOONS
 	.2byte  ITEM_CARD_ATLANTEAN_HEAVY_INFANTRY
 	.2byte  ITEM_CARD_ATLANTEAN_MARKSMAN
@@ -10736,68 +9055,45 @@ InsideOfTruck_PokemartFireWater:
 	.2byte  ITEM_CARD_BLACK_HORN_OF_HEAVEN
 	.2byte  ITEM_CARD_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING
 	.2byte  ITEM_CARD_BLACK_ROSE_DRAGON
-	.2byte  ITEM_CARD_BLACKWING_ZEPHYROS_THE_ELITE
 	.2byte  ITEM_CARD_BLASTER_DRAGON_RULER_OF_INFERNOS
 	.2byte  ITEM_CARD_BLUE_EYES_WHITE_DRAGON
 	.2byte  ITEM_CARD_BOOK_OF_MOON
 	.2byte  ITEM_CARD_BOTTOMLESS_TRAP_HOLE
 	.2byte  ITEM_CARD_BREAKTHROUGH_SKILL
 	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_BEAR
-	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_GORILLA
 	.2byte  ITEM_CARD_BROWW_HUNTSMAN_OF_DARK_WORLD
 	.2byte  ITEM_CARD_BURIAL_FROM_A_DIFFERENT_DIMENSION
 	.2byte  ITEM_CARD_CALL_OF_THE_HAUNTED
 	.2byte  ITEM_CARD_CARD_TROOPER
-	.2byte  ITEM_CARD_CARDCAR_D
 	.2byte  ITEM_CARD_CARDS_OF_CONSONANCE
 	.2byte  ITEM_CARD_CHAOS_SORCERER
-	.2byte  ITEM_CARD_CLOSED_FOREST
-	.2byte  ITEM_CARD_COACH_SOLDIER_WOLFBARK
 	.2byte  ITEM_CARD_COLOSSAL_FIGHTER
 	.2byte  ITEM_CARD_COMPULSORY_EVACUATION_DEVICE
 	.2byte  ITEM_CARD_CRIMSON_BLADER
 	.2byte  ITEM_CARD_D_D_CROW
-	.2byte  ITEM_CARD_D_D_R_DIFFERENT_DIMENSION_REINCARNATION
 	.2byte  ITEM_CARD_DAIGUSTO_EMERAL
 	.2byte  ITEM_CARD_DARK_ARMED_DRAGON
 	.2byte  ITEM_CARD_DARK_HOLE
-	.2byte  ITEM_CARD_DARK_SMOG
-	.2byte  ITEM_CARD_DARK_WORLD_DEALINGS
 	.2byte  ITEM_CARD_DEBRIS_DRAGON
 	.2byte  ITEM_CARD_DEBUNK
 	.2byte  ITEM_CARD_DECK_DEVASTATION_VIRUS
-	.2byte  ITEM_CARD_DEEP_DARK_TRAP_HOLE
 	.2byte  ITEM_CARD_DIAMOND_DIRE_WOLF
 	.2byte  ITEM_CARD_DIMENSIONAL_FISSURE
 	.2byte  ITEM_CARD_DIMENSIONAL_PRISON
 	.2byte  ITEM_CARD_DIVINE_DRAGON_KNIGHT_FELGRAND
 	.2byte  ITEM_CARD_DIVINE_WRATH
 	.2byte  ITEM_CARD_DNA_SURGERY
-	.2byte  ITEM_CARD_DOUBLE_EDGED_SWORD_TECHNIQUE
 	.2byte  ITEM_CARD_DOWNERD_MAGICIAN
 	.2byte  ITEM_CARD_DRAGGED_DOWN_INTO_THE_GRAVE
 	.2byte  ITEM_CARD_DRAGON_SHRINE
 	.2byte  ITEM_CARD_DRAGUNITY_CORSESCA
 	.2byte  ITEM_CARD_DUST_TORNADO
 	.2byte  ITEM_CARD_EFFECT_VEILER
-	.2byte  ITEM_CARD_ELDER_OF_THE_SIX_SAMURAI
 	.2byte  ITEM_CARD_ERADICATOR_EPIDEMIC_VIRUS
-	.2byte  ITEM_CARD_EVILSWARM_CASTOR
 	.2byte  ITEM_CARD_EVILSWARM_EXCITON_KNIGHT
 	.2byte  ITEM_CARD_EVILSWARM_HELIOTROPE
-	.2byte  ITEM_CARD_EVILSWARM_KERYKEION
-	.2byte  ITEM_CARD_EVILSWARM_MANDRAGORA
-	.2byte  ITEM_CARD_EVILSWARM_THUNDERBIRD
-	.2byte  ITEM_CARD_FENCING_FIRE_FERRET
 	.2byte  ITEM_CARD_FIENDISH_CHAIN
-	.2byte  ITEM_CARD_FIRE_FORMATION_GYOKKOU
 	.2byte  ITEM_CARD_FIRE_FORMATION_TENKI
-	.2byte  ITEM_CARD_FIRE_FORMATION_TENSEN
-	.2byte  ITEM_CARD_FIRE_FORMATION_TENSU
-	.2byte  ITEM_CARD_FIRE_KING_AVATAR_BARONG
-	.2byte  ITEM_CARD_FIRE_KING_AVATAR_YAKSHA
-	.2byte  ITEM_CARD_FIRE_KING_HIGH_AVATAR_GARUNIX
-	.2byte  ITEM_CARD_FLAMVELL_FIREDOG
 	.2byte  ITEM_CARD_FLAMVELL_GUARD
 	.2byte  ITEM_CARD_FLYING_C_
 	.2byte  ITEM_CARD_FOOLISH_BURIAL
@@ -10806,48 +9102,26 @@ InsideOfTruck_PokemartFireWater:
 	.2byte  ITEM_CARD_FOSSIL_DYNA_PACHYCEPHALO
 	.2byte  ITEM_CARD_FULL_HOUSE
 	.2byte  ITEM_CARD_GAGAGA_COWBOY
-	.2byte  ITEM_CARD_GEARGIACCELERATOR
-	.2byte  ITEM_CARD_GEARGIAGEAR
-	.2byte  ITEM_CARD_GEARGIANO
-	.2byte  ITEM_CARD_GEARGIANO_MK_II
-	.2byte  ITEM_CARD_GEARGIARMOR
-	.2byte  ITEM_CARD_GEARGIARSENAL
 	.2byte  ITEM_CARD_GEMINI_IMPS
-	.2byte  ITEM_CARD_GENEX_CONTROLLER
-	.2byte  ITEM_CARD_GENEX_UNDINE
 	.2byte  ITEM_CARD_GOLD_SARCOPHAGUS
 	.2byte  ITEM_CARD_GRAPHA_DRAGON_LORD_OF_DARK_WORLD
-	.2byte  ITEM_CARD_HIERATIC_DRAGON_OF_ESET
-	.2byte  ITEM_CARD_HIERATIC_DRAGON_OF_SU
-	.2byte  ITEM_CARD_HIERATIC_DRAGON_OF_TEFNUIT
-	.2byte  ITEM_CARD_HIERATIC_SEAL_FROM_THE_ASHES
-	.2byte  ITEM_CARD_HIERATIC_SEAL_OF_CONVOCATION
-	.2byte  ITEM_CARD_HIGH_PRIESTESS_OF_PROPHECY
 	.2byte  ITEM_CARD_HONEST
 	.2byte  ITEM_CARD_HORN_OF_THE_PHANTOM_BEAST
 	.2byte  ITEM_CARD_IMPERIAL_IRON_WALL
-	.2byte  ITEM_CARD_INFESTATION_PANDEMIC
 	.2byte  ITEM_CARD_INSTANT_FUSION
-	.2byte  ITEM_CARD_JUSTICE_OF_PROPHECY
 	.2byte  ITEM_CARD_KAGEMUSHA_OF_THE_SIX_SAMURAI
-	.2byte  ITEM_CARD_KAGETOKAGE
 	.2byte  ITEM_CARD_KING_OF_THE_FERAL_IMPS
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
-	.2byte  ITEM_CARD_LABRADORITE_DRAGON
-	.2byte  ITEM_CARD_LEGENDARY_SIX_SAMURAI_ENISHI
-	.2byte  ITEM_CARD_LEGENDARY_SIX_SAMURAI_KAGEKI
 	.2byte  ITEM_CARD_LEGENDARY_SIX_SAMURAI_KIZAN
 	.2byte  ITEM_CARD_LEVIAIR_THE_SEA_DRAGON
 	.2byte  ITEM_CARD_LIGHT_IMPRISONING_MIRROR
 	.2byte  ITEM_CARD_MACRO_COSMOS
 	.2byte  ITEM_CARD_MAIDEN_WITH_EYES_OF_BLUE
-	.2byte  ITEM_CARD_MALEFIC_STARDUST_DRAGON
 	.2byte  ITEM_CARD_MALEVOLENT_CATASTROPHE
 	.2byte  ITEM_CARD_MAXX_C_
 	.2byte  ITEM_CARD_MECHA_PHANTOM_BEAST_DRACOSSACK
 	.2byte  ITEM_CARD_MERMAIL_ABYSSGAIOS
 	.2byte  ITEM_CARD_MERMAIL_ABYSSGUNDE
-	.2byte  ITEM_CARD_MERMAIL_ABYSSLEED
 	.2byte  ITEM_CARD_MERMAIL_ABYSSLINDE
 	.2byte  ITEM_CARD_MERMAIL_ABYSSMEGALO
 	.2byte  ITEM_CARD_MERMAIL_ABYSSPIKE
@@ -10856,13 +9130,9 @@ InsideOfTruck_PokemartFireWater:
 	.2byte  ITEM_CARD_MERMAIL_ABYSSTURGE
 	.2byte  ITEM_CARD_MIND_CONTROL
 	.2byte  ITEM_CARD_MIND_CRUSH
-	.2byte  ITEM_CARD_MIRACLE_DIG
 	.2byte  ITEM_CARD_MIRROR_FORCE
 	.2byte  ITEM_CARD_MIST_WURM
-	.2byte  ITEM_CARD_MOULINGLACIA_THE_ELEMENTAL_LORD
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
-	.2byte  ITEM_CARD_MYTHIC_TREE_DRAGON
-	.2byte  ITEM_CARD_MYTHIC_WATER_DRAGON
 	.2byte  ITEM_CARD_NEEDLE_CEILING
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
 	.2byte  ITEM_CARD_NUMBER_101_SILENT_HONOR_ARK
@@ -10870,17 +9140,12 @@ InsideOfTruck_PokemartFireWater:
 	.2byte  ITEM_CARD_NUMBER_17_LEVIATHAN_DRAGON
 	.2byte  ITEM_CARD_NUMBER_30_ACID_GOLEM_OF_DESTRUCTION
 	.2byte  ITEM_CARD_NUMBER_66_MASTER_KEY_BEETLE
-	.2byte  ITEM_CARD_NUMBER_85_CRAZY_BOX
-	.2byte  ITEM_CARD_ONSLAUGHT_OF_THE_FIRE_KINGS
-	.2byte  ITEM_CARD_OVERWORKED
 	.2byte  ITEM_CARD_PHOENIX_WING_WIND_BLAST
-	.2byte  ITEM_CARD_PHOTON_THRASHER
 	.2byte  ITEM_CARD_POT_OF_DUALITY
 	.2byte  ITEM_CARD_RAIGEKI_BREAK
 	.2byte  ITEM_CARD_RED_EYES_DARKNESS_METAL_DRAGON
 	.2byte  ITEM_CARD_REDOX_DRAGON_RULER_OF_BOULDERS
 	.2byte  ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
-	.2byte  ITEM_CARD_REKINDLING
 	.2byte  ITEM_CARD_RESCUE_RABBIT
 	.2byte  ITEM_CARD_RIVALRY_OF_WARLORDS
 	.2byte  ITEM_CARD_ROYAL_DECREE
@@ -10895,33 +9160,18 @@ InsideOfTruck_PokemartFireWater:
 	.2byte  ITEM_CARD_SNOWMAN_EATER
 	.2byte  ITEM_CARD_SNOWW_UNLIGHT_OF_DARK_WORLD
 	.2byte  ITEM_CARD_SOLEMN_WARNING
-	.2byte  ITEM_CARD_SOUL_DRAIN
-	.2byte  ITEM_CARD_SPELLBOOK_LIBRARY_OF_THE_CRESCENT
 	.2byte  ITEM_CARD_SPELLBOOK_MAGICIAN_OF_PROPHECY
-	.2byte  ITEM_CARD_SPELLBOOK_OF_ETERNITY
-	.2byte  ITEM_CARD_SPELLBOOK_OF_FATE
-	.2byte  ITEM_CARD_SPELLBOOK_OF_LIFE
-	.2byte  ITEM_CARD_SPELLBOOK_OF_POWER
 	.2byte  ITEM_CARD_SPELLBOOK_OF_SECRETS
-	.2byte  ITEM_CARD_SPELLBOOK_OF_THE_MASTER
-	.2byte  ITEM_CARD_SPELLBOOK_OF_WISDOM
 	.2byte  ITEM_CARD_STARDUST_DRAGON
 	.2byte  ITEM_CARD_STEELSWARM_ROACH
 	.2byte  ITEM_CARD_SWIFT_SCARECROW
-	.2byte  ITEM_CARD_TEMPERANCE_OF_PROPHECY
 	.2byte  ITEM_CARD_TEMPEST_DRAGON_RULER_OF_STORMS
-	.2byte  ITEM_CARD_THE_GATES_OF_DARK_WORLD
-	.2byte  ITEM_CARD_THE_GRAND_SPELLBOOK_TOWER
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_ZANJI
-	.2byte  ITEM_CARD_THE_TRANSMIGRATION_PROPHECY
 	.2byte  ITEM_CARD_THE_WHITE_STONE_OF_LEGEND
 	.2byte  ITEM_CARD_THUNDER_KING_RAI_OH
 	.2byte  ITEM_CARD_TIDAL_DRAGON_RULER_OF_WATERFALLS
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
 	.2byte  ITEM_CARD_TOUR_GUIDE_FROM_THE_UNDERWORLD
-	.2byte  ITEM_CARD_TRADE_IN
 	.2byte  ITEM_CARD_TRAGOEDIA
-	.2byte  ITEM_CARD_TRANCE_ARCHFIEND
 	.2byte  ITEM_CARD_TRAP_HOLE
 	.2byte  ITEM_CARD_TRAP_STUN
 	.2byte  ITEM_CARD_TRAPTRIX_MYRMELEO
@@ -10947,18 +9197,12 @@ InsideOfTruck_EventScript_Clerk_HAT::
 
 	.align 2
 InsideOfTruck_PokemartHAT:
-	.2byte  ITEM_CARD_A_WINGBEAT_OF_GIANT_DRAGON
 	.2byte  ITEM_CARD_ABYSS_DWELLER
 	.2byte  ITEM_CARD_ABYSS_SPHERE
-	.2byte  ITEM_CARD_ACID_TRAP_HOLE
 	.2byte  ITEM_CARD_ALLURE_OF_DARKNESS
-	.2byte  ITEM_CARD_ALLY_OF_JUSTICE_CATASTOR
 	.2byte  ITEM_CARD_ALLY_OF_JUSTICE_CYCLE_READER
-	.2byte  ITEM_CARD_ARTIFACT_BEAGALLTACH
-	.2byte  ITEM_CARD_ARTIFACT_IGNITION
 	.2byte  ITEM_CARD_ARTIFACT_MORALLTACH
 	.2byte  ITEM_CARD_ARTIFACT_SANCTUM
-	.2byte  ITEM_CARD_ARTIFACT_SCYTHE
 	.2byte  ITEM_CARD_ATLANTEAN_DRAGOONS
 	.2byte  ITEM_CARD_ATLANTEAN_HEAVY_INFANTRY
 	.2byte  ITEM_CARD_ATLANTEAN_MARKSMAN
@@ -10970,42 +9214,29 @@ InsideOfTruck_PokemartHAT:
 	.2byte  ITEM_CARD_BOTTOMLESS_TRAP_HOLE
 	.2byte  ITEM_CARD_BREAKTHROUGH_SKILL
 	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_BEAR
-	.2byte  ITEM_CARD_BUJIN_MIKAZUCHI
-	.2byte  ITEM_CARD_BUJIN_YAMATO
-	.2byte  ITEM_CARD_BUJINCARNATION
-	.2byte  ITEM_CARD_BUJINGI_CRANE
-	.2byte  ITEM_CARD_BUJINGI_HARE
-	.2byte  ITEM_CARD_BUJINGI_TURTLE
+	.2byte  ITEM_CARD_BURIAL_FROM_A_DIFFERENT_DIMENSION
 	.2byte  ITEM_CARD_CALL_OF_THE_HAUNTED
-	.2byte  ITEM_CARD_CARDCAR_D
+	.2byte  ITEM_CARD_CARD_TROOPER
 	.2byte  ITEM_CARD_CARDS_OF_CONSONANCE
-	.2byte  ITEM_CARD_CHIMERATECH_FORTRESS_DRAGON
 	.2byte  ITEM_CARD_COLOSSAL_FIGHTER
 	.2byte  ITEM_CARD_COMPULSORY_EVACUATION_DEVICE
 	.2byte  ITEM_CARD_CRIMSON_BLADER
-	.2byte  ITEM_CARD_CYBER_DRAGON
 	.2byte  ITEM_CARD_D_D_CROW
 	.2byte  ITEM_CARD_DAIGUSTO_EMERAL
 	.2byte  ITEM_CARD_DARK_HOLE
 	.2byte  ITEM_CARD_DEBRIS_DRAGON
 	.2byte  ITEM_CARD_DEBUNK
-	.2byte  ITEM_CARD_DEEP_DARK_TRAP_HOLE
 	.2byte  ITEM_CARD_DIAMOND_DIRE_WOLF
 	.2byte  ITEM_CARD_DIMENSIONAL_FISSURE
 	.2byte  ITEM_CARD_DIMENSIONAL_PRISON
 	.2byte  ITEM_CARD_DIVINE_DRAGON_KNIGHT_FELGRAND
 	.2byte  ITEM_CARD_DNA_SURGERY
-	.2byte  ITEM_CARD_DOUBLE_CYCLONE
 	.2byte  ITEM_CARD_DOWNERD_MAGICIAN
 	.2byte  ITEM_CARD_DRAGON_SHRINE
 	.2byte  ITEM_CARD_DRAGUNITY_CORSESCA
 	.2byte  ITEM_CARD_ELECTRIC_VIRUS
-	.2byte  ITEM_CARD_EVILSWARM_CASTOR
 	.2byte  ITEM_CARD_EVILSWARM_EXCITON_KNIGHT
 	.2byte  ITEM_CARD_EVILSWARM_HELIOTROPE
-	.2byte  ITEM_CARD_EVILSWARM_KERYKEION
-	.2byte  ITEM_CARD_EVILSWARM_MANDRAGORA
-	.2byte  ITEM_CARD_EVILSWARM_THUNDERBIRD
 	.2byte  ITEM_CARD_FIENDISH_CHAIN
 	.2byte  ITEM_CARD_FIRE_FORMATION_TENKI
 	.2byte  ITEM_CARD_FIRE_HAND
@@ -11014,49 +9245,21 @@ InsideOfTruck_PokemartHAT:
 	.2byte  ITEM_CARD_FOOLISH_BURIAL
 	.2byte  ITEM_CARD_FORBIDDEN_CHALICE
 	.2byte  ITEM_CARD_FORBIDDEN_LANCE
-	.2byte  ITEM_CARD_FOSSIL_DIG
 	.2byte  ITEM_CARD_FULL_HOUSE
 	.2byte  ITEM_CARD_GAGAGA_COWBOY
-	.2byte  ITEM_CARD_GEARGIACCELERATOR
-	.2byte  ITEM_CARD_GEARGIAGEAR
-	.2byte  ITEM_CARD_GEARGIANO_MK_II
-	.2byte  ITEM_CARD_GEARGIARMOR
-	.2byte  ITEM_CARD_GEARGIARSENAL
-	.2byte  ITEM_CARD_GENEX_CONTROLLER
-	.2byte  ITEM_CARD_GENEX_UNDINE
 	.2byte  ITEM_CARD_GOLD_SARCOPHAGUS
-	.2byte  ITEM_CARD_HIERATIC_DRAGON_OF_ESET
-	.2byte  ITEM_CARD_HIERATIC_DRAGON_OF_SU
-	.2byte  ITEM_CARD_HIERATIC_DRAGON_OF_TEFNUIT
-	.2byte  ITEM_CARD_HIERATIC_SEAL_OF_CONVOCATION
-	.2byte  ITEM_CARD_HIGH_PRIESTESS_OF_PROPHECY
 	.2byte  ITEM_CARD_HONEST
 	.2byte  ITEM_CARD_ICE_HAND
-	.2byte  ITEM_CARD_IMPERIAL_IRON_WALL
-	.2byte  ITEM_CARD_INFESTATION_PANDEMIC
 	.2byte  ITEM_CARD_INSTANT_FUSION
-	.2byte  ITEM_CARD_JUNK_SYNCHRON
-	.2byte  ITEM_CARD_JUSTICE_OF_PROPHECY
-	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
-	.2byte  ITEM_CARD_LABRADORITE_DRAGON
 	.2byte  ITEM_CARD_LEVIAIR_THE_SEA_DRAGON
 	.2byte  ITEM_CARD_LIGHT_IMPRISONING_MIRROR
 	.2byte  ITEM_CARD_M_X_SABER_INVOKER
 	.2byte  ITEM_CARD_MACRO_COSMOS
-	.2byte  ITEM_CARD_MADOLCHE_ANJELLY
-	.2byte  ITEM_CARD_MADOLCHE_CHATEAU
-	.2byte  ITEM_CARD_MADOLCHE_HOOTCAKE
-	.2byte  ITEM_CARD_MADOLCHE_MAGILEINE
-	.2byte  ITEM_CARD_MADOLCHE_MESSENGELATO
-	.2byte  ITEM_CARD_MADOLCHE_MEWFEUILLE
-	.2byte  ITEM_CARD_MAGICAL_ANDROID
 	.2byte  ITEM_CARD_MALEVOLENT_CATASTROPHE
-	.2byte  ITEM_CARD_MATHEMATICIAN
 	.2byte  ITEM_CARD_MAXX_C_
 	.2byte  ITEM_CARD_MECHA_PHANTOM_BEAST_DRACOSSACK
 	.2byte  ITEM_CARD_MERMAIL_ABYSSGAIOS
 	.2byte  ITEM_CARD_MERMAIL_ABYSSGUNDE
-	.2byte  ITEM_CARD_MERMAIL_ABYSSLEED
 	.2byte  ITEM_CARD_MERMAIL_ABYSSLINDE
 	.2byte  ITEM_CARD_MERMAIL_ABYSSMEGALO
 	.2byte  ITEM_CARD_MERMAIL_ABYSSPIKE
@@ -11065,14 +9268,13 @@ InsideOfTruck_PokemartHAT:
 	.2byte  ITEM_CARD_MERMAIL_ABYSSTURGE
 	.2byte  ITEM_CARD_MIND_CONTROL
 	.2byte  ITEM_CARD_MIND_CRUSH
-	.2byte  ITEM_CARD_MOULINGLACIA_THE_ELEMENTAL_LORD
+	.2byte  ITEM_CARD_MIRROR_FORCE
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
 	.2byte  ITEM_CARD_NEEDLE_CEILING
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
 	.2byte  ITEM_CARD_NUMBER_101_SILENT_HONOR_ARK
 	.2byte  ITEM_CARD_NUMBER_11_BIG_EYE
 	.2byte  ITEM_CARD_NUMBER_66_MASTER_KEY_BEETLE
-	.2byte  ITEM_CARD_NUMBER_85_CRAZY_BOX
 	.2byte  ITEM_CARD_PHOENIX_WING_WIND_BLAST
 	.2byte  ITEM_CARD_POT_OF_DUALITY
 	.2byte  ITEM_CARD_REASONING
@@ -11081,41 +9283,30 @@ InsideOfTruck_PokemartHAT:
 	.2byte  ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
 	.2byte  ITEM_CARD_RESCUE_RABBIT
 	.2byte  ITEM_CARD_RIVALRY_OF_WARLORDS
+	.2byte  ITEM_CARD_SACRED_SWORD_OF_SEVEN_STARS
 	.2byte  ITEM_CARD_SALVAGE
 	.2byte  ITEM_CARD_SCRAP_DRAGON
 	.2byte  ITEM_CARD_SKILL_DRAIN
-	.2byte  ITEM_CARD_SKULL_MEISTER
 	.2byte  ITEM_CARD_SOLEMN_WARNING
 	.2byte  ITEM_CARD_SOUL_CHARGE
-	.2byte  ITEM_CARD_SOUL_DRAIN
-	.2byte  ITEM_CARD_SPELLBOOK_LIBRARY_OF_THE_CRESCENT
 	.2byte  ITEM_CARD_SPELLBOOK_MAGICIAN_OF_PROPHECY
-	.2byte  ITEM_CARD_SPELLBOOK_OF_ETERNITY
-	.2byte  ITEM_CARD_SPELLBOOK_OF_FATE
-	.2byte  ITEM_CARD_SPELLBOOK_OF_LIFE
-	.2byte  ITEM_CARD_SPELLBOOK_OF_POWER
 	.2byte  ITEM_CARD_SPELLBOOK_OF_SECRETS
-	.2byte  ITEM_CARD_SPELLBOOK_OF_THE_MASTER
-	.2byte  ITEM_CARD_SPELLBOOK_OF_WISDOM
 	.2byte  ITEM_CARD_STARDUST_DRAGON
-	.2byte  ITEM_CARD_TEMPERANCE_OF_PROPHECY
+	.2byte  ITEM_CARD_SUPER_POLYMERIZATION
 	.2byte  ITEM_CARD_TEMPEST_DRAGON_RULER_OF_STORMS
-	.2byte  ITEM_CARD_THE_GRAND_SPELLBOOK_TOWER
-	.2byte  ITEM_CARD_THE_TRANSMIGRATION_PROPHECY
+	.2byte  ITEM_CARD_TEMTEMPO_THE_PERCUSSION_DJINN
 	.2byte  ITEM_CARD_THE_WHITE_STONE_OF_LEGEND
+	.2byte  ITEM_CARD_THUNDER_KING_RAI_OH
 	.2byte  ITEM_CARD_TIDAL_DRAGON_RULER_OF_WATERFALLS
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
-	.2byte  ITEM_CARD_TRADE_IN
 	.2byte  ITEM_CARD_TRAP_STUN
 	.2byte  ITEM_CARD_TRAPTRIX_DIONAEA
 	.2byte  ITEM_CARD_TRAPTRIX_MYRMELEO
 	.2byte  ITEM_CARD_TRAPTRIX_TRAP_HOLE_NIGHTMARE
-	.2byte  ITEM_CARD_TUNING
 	.2byte  ITEM_CARD_TWISTER
 	.2byte  ITEM_CARD_UPSTART_GOBLIN
 	.2byte  ITEM_CARD_VANITY_S_EMPTINESS
 	.2byte  ITEM_CARD_WIND_UP_ZENMAINES
-	.2byte  ITEM_CARD_WIRETAP
 	.2byte  ITEM_CARD_ZOMBIE_WORLD
 	pokemartlistend
 
@@ -11135,8 +9326,6 @@ InsideOfTruck_EventScript_Clerk_Vegas::
 InsideOfTruck_PokemartVegas:
 	.2byte  ITEM_CARD_ABYSS_DWELLER
 	.2byte  ITEM_CARD_ABYSS_SPHERE
-	.2byte  ITEM_CARD_ACCUMULATED_FORTUNE
-	.2byte  ITEM_CARD_ACID_TRAP_HOLE
 	.2byte  ITEM_CARD_ALLURE_OF_DARKNESS
 	.2byte  ITEM_CARD_ALLY_OF_JUSTICE_CATASTOR
 	.2byte  ITEM_CARD_ANTI_SPELL_FRAGRANCE
@@ -11156,27 +9345,15 @@ InsideOfTruck_PokemartVegas:
 	.2byte  ITEM_CARD_BLACKWING_KALUT_THE_MOON_SHADOW
 	.2byte  ITEM_CARD_BLACKWING_SHURA_THE_BLUE_FLAME
 	.2byte  ITEM_CARD_BLACKWING_SIROCCO_THE_DAWN
-	.2byte  ITEM_CARD_BLACKWING_ZEPHYROS_THE_ELITE
 	.2byte  ITEM_CARD_BLACKWING_ARMED_WING
 	.2byte  ITEM_CARD_BLACKWING_ARMOR_MASTER
 	.2byte  ITEM_CARD_BOOK_OF_MOON
 	.2byte  ITEM_CARD_BOTTOMLESS_TRAP_HOLE
 	.2byte  ITEM_CARD_BREAKTHROUGH_SKILL
 	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_BEAR
-	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_DRAGON
-	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_GORILLA
-	.2byte  ITEM_CARD_BUJIN_MIKAZUCHI
-	.2byte  ITEM_CARD_BUJIN_YAMATO
-	.2byte  ITEM_CARD_BUJINCARNATION
-	.2byte  ITEM_CARD_BUJINGI_CRANE
-	.2byte  ITEM_CARD_BUJINGI_HARE
-	.2byte  ITEM_CARD_BUJINGI_TURTLE
 	.2byte  ITEM_CARD_CALL_OF_THE_HAUNTED
-	.2byte  ITEM_CARD_CARDCAR_D
 	.2byte  ITEM_CARD_CHAOS_SORCERER
 	.2byte  ITEM_CARD_CHIMERATECH_FORTRESS_DRAGON
-	.2byte  ITEM_CARD_COACH_SOLDIER_WOLFBARK
-	.2byte  ITEM_CARD_COMPULSORY_ESCAPE_DEVICE
 	.2byte  ITEM_CARD_COMPULSORY_EVACUATION_DEVICE
 	.2byte  ITEM_CARD_CRIMSON_BLADER
 	.2byte  ITEM_CARD_CYBER_DRAGON
@@ -11187,54 +9364,34 @@ InsideOfTruck_PokemartVegas:
 	.2byte  ITEM_CARD_DARK_GREPHER
 	.2byte  ITEM_CARD_DARK_HOLE
 	.2byte  ITEM_CARD_DEBUNK
-	.2byte  ITEM_CARD_DEEP_DARK_TRAP_HOLE
-	.2byte  ITEM_CARD_DELTA_CROW_ANTI_REVERSE
 	.2byte  ITEM_CARD_DIAMOND_DIRE_WOLF
 	.2byte  ITEM_CARD_DIMENSIONAL_FISSURE
 	.2byte  ITEM_CARD_DIMENSIONAL_PRISON
 	.2byte  ITEM_CARD_DNA_SURGERY
 	.2byte  ITEM_CARD_DOOMCALIBER_KNIGHT
-	.2byte  ITEM_CARD_DOUBLE_CYCLONE
 	.2byte  ITEM_CARD_DOWNERD_MAGICIAN
 	.2byte  ITEM_CARD_DUST_TORNADO
-	.2byte  ITEM_CARD_DYNATHERIUM
 	.2byte  ITEM_CARD_EFFECT_VEILER
 	.2byte  ITEM_CARD_EVILSWARM_EXCITON_KNIGHT
-	.2byte  ITEM_CARD_EVILSWARM_THUNDERBIRD
 	.2byte  ITEM_CARD_FIENDISH_CHAIN
 	.2byte  ITEM_CARD_FIRE_FORMATION_TENKI
-	.2byte  ITEM_CARD_FIRE_FORMATION_TENSEN
-	.2byte  ITEM_CARD_FIRE_FORMATION_TENSU
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_FOOLISH_BURIAL
 	.2byte  ITEM_CARD_FORBIDDEN_LANCE
 	.2byte  ITEM_CARD_FULL_HOUSE
 	.2byte  ITEM_CARD_GAGAGA_COWBOY
-	.2byte  ITEM_CARD_GEARGIACCELERATOR
-	.2byte  ITEM_CARD_GEARGIAGEAR
-	.2byte  ITEM_CARD_GEARGIANO
-	.2byte  ITEM_CARD_GEARGIANO_MK_II
-	.2byte  ITEM_CARD_GEARGIARMOR
-	.2byte  ITEM_CARD_GEARGIARSENAL
 	.2byte  ITEM_CARD_GEMINI_IMPS
-	.2byte  ITEM_CARD_GENEX_CONTROLLER
-	.2byte  ITEM_CARD_GENEX_UNDINE
 	.2byte  ITEM_CARD_GOLD_SARCOPHAGUS
-	.2byte  ITEM_CARD_GOOD_GOBLIN_HOUSEKEEPING
 	.2byte  ITEM_CARD_GORZ_THE_EMISSARY_OF_DARKNESS
-	.2byte  ITEM_CARD_HIGH_PRIESTESS_OF_PROPHECY
 	.2byte  ITEM_CARD_HONEST
 	.2byte  ITEM_CARD_ICARUS_ATTACK
 	.2byte  ITEM_CARD_IMPERIAL_IRON_WALL
 	.2byte  ITEM_CARD_INFERNITY_ARCHFIEND
 	.2byte  ITEM_CARD_INFERNITY_BARRIER
-	.2byte  ITEM_CARD_INFERNITY_BREAK
 	.2byte  ITEM_CARD_INFERNITY_LAUNCHER
 	.2byte  ITEM_CARD_INFERNITY_NECROMANCER
 	.2byte  ITEM_CARD_INSTANT_FUSION
 	.2byte  ITEM_CARD_JAR_OF_GREED
-	.2byte  ITEM_CARD_JUSTICE_OF_PROPHECY
-	.2byte  ITEM_CARD_KAGETOKAGE
-	.2byte  ITEM_CARD_KAISER_COLOSSEUM
 	.2byte  ITEM_CARD_KING_OF_THE_FERAL_IMPS
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
 	.2byte  ITEM_CARD_LEGACY_OF_YATA_GARASU
@@ -11242,17 +9399,11 @@ InsideOfTruck_PokemartVegas:
 	.2byte  ITEM_CARD_LIGHT_IMPRISONING_MIRROR
 	.2byte  ITEM_CARD_M_X_SABER_INVOKER
 	.2byte  ITEM_CARD_MACRO_COSMOS
-	.2byte  ITEM_CARD_MADOLCHE_CHATEAU
-	.2byte  ITEM_CARD_MADOLCHE_HOOTCAKE
-	.2byte  ITEM_CARD_MADOLCHE_MAGILEINE
-	.2byte  ITEM_CARD_MADOLCHE_MESSENGELATO
-	.2byte  ITEM_CARD_MADOLCHE_MEWFEUILLE
 	.2byte  ITEM_CARD_MALEVOLENT_CATASTROPHE
 	.2byte  ITEM_CARD_MAXX_C_
 	.2byte  ITEM_CARD_MECHA_PHANTOM_BEAST_DRACOSSACK
 	.2byte  ITEM_CARD_MERMAIL_ABYSSGAIOS
 	.2byte  ITEM_CARD_MERMAIL_ABYSSGUNDE
-	.2byte  ITEM_CARD_MERMAIL_ABYSSLEED
 	.2byte  ITEM_CARD_MERMAIL_ABYSSLINDE
 	.2byte  ITEM_CARD_MERMAIL_ABYSSMEGALO
 	.2byte  ITEM_CARD_MERMAIL_ABYSSPIKE
@@ -11264,7 +9415,6 @@ InsideOfTruck_PokemartVegas:
 	.2byte  ITEM_CARD_MIRROR_FORCE
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
 	.2byte  ITEM_CARD_NEEDLE_CEILING
-	.2byte  ITEM_CARD_NEO_SPACIAN_GRAND_MOLE
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
 	.2byte  ITEM_CARD_NUMBER_101_SILENT_HONOR_ARK
 	.2byte  ITEM_CARD_NUMBER_11_BIG_EYE
@@ -11272,11 +9422,8 @@ InsideOfTruck_PokemartVegas:
 	.2byte  ITEM_CARD_NUMBER_30_ACID_GOLEM_OF_DESTRUCTION
 	.2byte  ITEM_CARD_NUMBER_39_UTOPIA
 	.2byte  ITEM_CARD_NUMBER_66_MASTER_KEY_BEETLE
-	.2byte  ITEM_CARD_NUMBER_85_CRAZY_BOX
 	.2byte  ITEM_CARD_OFFERINGS_TO_THE_DOOMED
-	.2byte  ITEM_CARD_OVERWORKED
 	.2byte  ITEM_CARD_PHOENIX_WING_WIND_BLAST
-	.2byte  ITEM_CARD_PHOTON_THRASHER
 	.2byte  ITEM_CARD_POT_OF_DUALITY
 	.2byte  ITEM_CARD_RAIGEKI_BREAK
 	.2byte  ITEM_CARD_RECKLESS_GREED
@@ -11287,27 +9434,15 @@ InsideOfTruck_PokemartVegas:
 	.2byte  ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT
 	.2byte  ITEM_CARD_SHADOW_IMPRISONING_MIRROR
 	.2byte  ITEM_CARD_SOLEMN_WARNING
-	.2byte  ITEM_CARD_SOUL_DRAIN
-	.2byte  ITEM_CARD_SPELLBOOK_LIBRARY_OF_THE_CRESCENT
 	.2byte  ITEM_CARD_SPELLBOOK_MAGICIAN_OF_PROPHECY
-	.2byte  ITEM_CARD_SPELLBOOK_OF_ETERNITY
-	.2byte  ITEM_CARD_SPELLBOOK_OF_FATE
-	.2byte  ITEM_CARD_SPELLBOOK_OF_LIFE
-	.2byte  ITEM_CARD_SPELLBOOK_OF_POWER
 	.2byte  ITEM_CARD_SPELLBOOK_OF_SECRETS
-	.2byte  ITEM_CARD_SPELLBOOK_OF_THE_MASTER
-	.2byte  ITEM_CARD_SPELLBOOK_OF_WISDOM
 	.2byte  ITEM_CARD_STEELSWARM_ROACH
-	.2byte  ITEM_CARD_STYGIAN_STREET_PATROL
 	.2byte  ITEM_CARD_SUMMONER_MONK
-	.2byte  ITEM_CARD_TEMPERANCE_OF_PROPHECY
 	.2byte  ITEM_CARD_TEMPEST_DRAGON_RULER_OF_STORMS
 	.2byte  ITEM_CARD_TEMTEMPO_THE_PERCUSSION_DJINN
-	.2byte  ITEM_CARD_THE_GRAND_SPELLBOOK_TOWER
 	.2byte  ITEM_CARD_THUNDER_KING_RAI_OH
 	.2byte  ITEM_CARD_THUNDER_SEA_HORSE
 	.2byte  ITEM_CARD_TIDAL_DRAGON_RULER_OF_WATERFALLS
-	.2byte  ITEM_CARD_TIN_GOLDFISH
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
 	.2byte  ITEM_CARD_TRAGOEDIA
 	.2byte  ITEM_CARD_TRAP_HOLE
@@ -11316,239 +9451,237 @@ InsideOfTruck_PokemartVegas:
 	.2byte  ITEM_CARD_TRAPTRIX_TRAP_HOLE_NIGHTMARE
 	.2byte  ITEM_CARD_UPSTART_GOBLIN
 	.2byte  ITEM_CARD_VANITY_S_EMPTINESS
-	.2byte  ITEM_CARD_WIDESPREAD_DUD
 	.2byte  ITEM_CARD_WIND_UP_RABBIT
 	.2byte  ITEM_CARD_WIND_UP_ZENMAINES
-	.2byte  ITEM_CARD_WINGED_RHYNOS
 	pokemartlistend
 
-InsideOfTruck_Text_YugiKaiba:
+gText_YugiKaiba:
 	.string "Yugi-Kaiba$"
 
-InsideOfTruck_Text_Critter:
+gText_Critter:
 	.string "Critter$"
 
-InsideOfTruck_Text_Treasure:
+gText_Treasure:
 	.string "Treasure$"
 
-InsideOfTruck_Text_Imperial:
+gText_Imperial:
 	.string "Imperial$"
 
-InsideOfTruck_Text_Android:
+gText_Android:
 	.string "Android$"
 
-InsideOfTruck_Text_JoeyPegasus:
+gText_JoeyPegasus:
 	.string "Joey-Pegasus$"
 
-InsideOfTruck_Text_Fiber:
+gText_Fiber:
 	.string "Fiber$"
 
-InsideOfTruck_Text_Yata:
+gText_Yata:
 	.string "Yata$"
 
-InsideOfTruck_Text_Scientist:
+gText_Scientist:
 	.string "Scientist$"
 
-InsideOfTruck_Text_Vampire:
+gText_Vampire:
 	.string "Vampire$"
 
-InsideOfTruck_Text_Chaos:
+gText_Chaos:
 	.string "Chaos$"
 
-InsideOfTruck_Text_Warrior:
+gText_Warrior:
 	.string "Warrior$"
 
-InsideOfTruck_Text_Goat:
+gText_Goat:
 	.string "Goat$"
 
-InsideOfTruck_Text_Cyber:
+gText_Cyber:
 	.string "Cyber$"
 
-InsideOfTruck_Text_Reaper:
+gText_Reaper:
 	.string "Reaper$"
 
-InsideOfTruck_Text_ChaosReturn:
+gText_ChaosReturn:
 	.string "Chaos Return$"
 
-InsideOfTruck_Text_Demise:
+gText_Demise:
 	.string "Demise$"
 
-InsideOfTruck_Text_Trooper:
+gText_Trooper:
 	.string "Trooper$"
 
-InsideOfTruck_Text_Zombie:
+gText_Zombie:
 	.string "Zombie$"
 
-InsideOfTruck_Text_PerfectCircle:
+gText_PerfectCircle:
 	.string "Perfect Circle$"
 
-InsideOfTruck_Text_DADReturn:
+gText_DADReturn:
 	.string "DAD Return$"
 
-InsideOfTruck_Text_Gladiator:
+gText_Gladiator:
 	.string "Gladiator$"
 
-InsideOfTruck_Text_TeleDAD:
+gText_TeleDAD:
 	.string "TeleDAD$"
 
-InsideOfTruck_Text_Cat:
+gText_Cat:
 	.string "Cat$"
 
-InsideOfTruck_Text_Edison:
+gText_Edison:
 	.string "Edison$"
 
-InsideOfTruck_Text_Frog:
+gText_Frog:
 	.string "Frog$"
 
-InsideOfTruck_Text_Starstrike:
+gText_Starstrike:
 	.string "Starstrike$"
 
-InsideOfTruck_Text_Tengu:
+gText_Tengu:
 	.string "Tengu$"
 
-InsideOfTruck_Text_DinoRabbit:
+gText_DinoRabbit:
 	.string "Dino Rabbit$"
 
-InsideOfTruck_Text_WindUp:
+gText_WindUp:
 	.string "Wind-Up$"
 
-InsideOfTruck_Text_Miami:
+gText_Miami:
 	.string "Miami$"
 
-InsideOfTruck_Text_Meadowlands:
+gText_Meadowlands:
 	.string "Meadowlands$"
 
-InsideOfTruck_Text_BabyRuler:
+gText_BabyRuler:
 	.string "Baby Ruler$"
 
-InsideOfTruck_Text_RavineRuler:
+gText_RavineRuler:
 	.string "Ravine Ruler$"
 
-InsideOfTruck_Text_FireWater:
+gText_FireWater:
 	.string "Fire-Water$"
 
-InsideOfTruck_Text_HAT:
+gText_HAT:
 	.string "HAT$"
 
-InsideOfTruck_Text_Vegas:
+gText_Vegas:
 	.string "Vegas$"
 
 
 
-InsideOfTruck_Text_YugiKaibaBanlist:
+gText_YugiKaibaBanlist:
 	.string "Yugi-Kaiba banlist$"
 
-InsideOfTruck_Text_CritterBanlist:
+gText_CritterBanlist:
 	.string "Critter banlist$"
 
-InsideOfTruck_Text_TreasureBanlist:
+gText_TreasureBanlist:
 	.string "Treasure banlist$"
 
-InsideOfTruck_Text_ImperialBanlist:
+gText_ImperialBanlist:
 	.string "Imperial banlist$"
 
-InsideOfTruck_Text_AndroidBanlist:
+gText_AndroidBanlist:
 	.string "Android banlist$"
 
-InsideOfTruck_Text_JoeyPegasusBanlist:
+gText_JoeyPegasusBanlist:
 	.string "Joey-Pegasus banlist$"
 
-InsideOfTruck_Text_FiberBanlist:
+gText_FiberBanlist:
 	.string "Fiber banlist$"
 
-InsideOfTruck_Text_YataBanlist:
+gText_YataBanlist:
 	.string "Yata banlist$"
 
-InsideOfTruck_Text_ScientistBanlist:
+gText_ScientistBanlist:
 	.string "Scientist banlist$"
 
-InsideOfTruck_Text_VampireBanlist:
+gText_VampireBanlist:
 	.string "Vampire banlist$"
 
-InsideOfTruck_Text_ChaosBanlist:
+gText_ChaosBanlist:
 	.string "Chaos banlist$"
 
-InsideOfTruck_Text_WarriorBanlist:
+gText_WarriorBanlist:
 	.string "Warrior banlist$"
 
-InsideOfTruck_Text_GoatBanlist:
+gText_GoatBanlist:
 	.string "Goat banlist$"
 
-InsideOfTruck_Text_CyberBanlist:
+gText_CyberBanlist:
 	.string "Cyber banlist$"
 
-InsideOfTruck_Text_ReaperBanlist:
+gText_ReaperBanlist:
 	.string "Reaper banlist$"
 
-InsideOfTruck_Text_ChaosReturnBanlist:
+gText_ChaosReturnBanlist:
 	.string "Chaos Return banlist$"
 
-InsideOfTruck_Text_DemiseBanlist:
+gText_DemiseBanlist:
 	.string "Demise banlist$"
 
-InsideOfTruck_Text_TrooperBanlist:
+gText_TrooperBanlist:
 	.string "Trooper banlist$"
 
-InsideOfTruck_Text_ZombieBanlist:
+gText_ZombieBanlist:
 	.string "Zombie banlist$"
 
-InsideOfTruck_Text_PerfectCircleBanlist:
+gText_PerfectCircleBanlist:
 	.string "Perfect Circle banlist$"
 
-InsideOfTruck_Text_DADReturnBanlist:
+gText_DADReturnBanlist:
 	.string "DAD Return banlist$"
 
-InsideOfTruck_Text_GladiatorBanlist:
+gText_GladiatorBanlist:
 	.string "Gladiator banlist$"
 
-InsideOfTruck_Text_TeleDADBanlist:
+gText_TeleDADBanlist:
 	.string "TeleDAD banlist$"
 
-InsideOfTruck_Text_CatBanlist:
+gText_CatBanlist:
 	.string "Cat banlist$"
 
-InsideOfTruck_Text_EdisonBanlist:
+gText_EdisonBanlist:
 	.string "Edison banlist$"
 
-InsideOfTruck_Text_FrogBanlist:
+gText_FrogBanlist:
 	.string "Frog banlist$"
 
-InsideOfTruck_Text_StarstrikeBanlist:
+gText_StarstrikeBanlist:
 	.string "Starstrike banlist$"
 
-InsideOfTruck_Text_TenguBanlist:
+gText_TenguBanlist:
 	.string "Tengu banlist$"
 
-InsideOfTruck_Text_DinoRabbitBanlist:
+gText_DinoRabbitBanlist:
 	.string "Dino Rabbit banlist$"
 
-InsideOfTruck_Text_WindUpBanlist:
+gText_WindUpBanlist:
 	.string "Wind-Up banlist$"
 
-InsideOfTruck_Text_MiamiBanlist:
+gText_MiamiBanlist:
 	.string "Miami banlist$"
 
-InsideOfTruck_Text_MeadowlandsBanlist:
+gText_MeadowlandsBanlist:
 	.string "Meadowlands banlist$"
 
-InsideOfTruck_Text_BabyRulerBanlist:
+gText_BabyRulerBanlist:
 	.string "Baby Ruler banlist$"
 
-InsideOfTruck_Text_RavineRulerBanlist:
+gText_RavineRulerBanlist:
 	.string "Ravine Ruler banlist$"
 
-InsideOfTruck_Text_FireWaterBanlist:
+gText_FireWaterBanlist:
 	.string "Fire-Water banlist$"
 
-InsideOfTruck_Text_HATBanlist:
+gText_HATBanlist:
 	.string "HAT banlist$"
 
-InsideOfTruck_Text_VegasBanlist:
+gText_VegasBanlist:
 	.string "Vegas banlist$"
 
 gText_YugiKaibaClerk::
 	.string "Welcome!\p"
-	.string "I'm the YugiKaiba clerk.\n"
+	.string "I'm the Yugi-Kaiba clerk.\n"
 	.string "How may I serve you?$"
 
 gText_CritterClerk::
@@ -11573,7 +9706,7 @@ gText_AndroidClerk::
 
 gText_JoeyPegasusClerk::
 	.string "Welcome!\p"
-	.string "I'm the JoeyPegasus clerk.\n"
+	.string "I'm the Joey-Pegasus clerk.\n"
 	.string "How may I serve you?$"
 
 gText_FiberClerk::
@@ -11623,7 +9756,7 @@ gText_ReaperClerk::
 
 gText_ChaosReturnClerk::
 	.string "Welcome!\p"
-	.string "I'm the ChaosReturn clerk.\n"
+	.string "I'm the Chaos Return clerk.\n"
 	.string "How may I serve you?$"
 
 gText_DemiseClerk::
@@ -11643,12 +9776,12 @@ gText_ZombieClerk::
 
 gText_PerfectCircleClerk::
 	.string "Welcome!\p"
-	.string "I'm the PerfectCircle clerk.\n"
+	.string "I'm the Perfect Circle clerk.\n"
 	.string "How may I serve you?$"
 
 gText_DADReturnClerk::
 	.string "Welcome!\p"
-	.string "I'm the DADReturn clerk.\n"
+	.string "I'm the DAD Return clerk.\n"
 	.string "How may I serve you?$"
 
 gText_GladiatorClerk::
@@ -11688,12 +9821,12 @@ gText_TenguClerk::
 
 gText_DinoRabbitClerk::
 	.string "Welcome!\p"
-	.string "I'm the DinoRabbit clerk.\n"
+	.string "I'm the Dino Rabbit clerk.\n"
 	.string "How may I serve you?$"
 
 gText_WindUpClerk::
 	.string "Welcome!\p"
-	.string "I'm the WindUp clerk.\n"
+	.string "I'm the Wind-Up clerk.\n"
 	.string "How may I serve you?$"
 
 gText_MiamiClerk::
@@ -11708,17 +9841,17 @@ gText_MeadowlandsClerk::
 
 gText_BabyRulerClerk::
 	.string "Welcome!\p"
-	.string "I'm the BabyRuler clerk.\n"
+	.string "I'm the Baby Ruler clerk.\n"
 	.string "How may I serve you?$"
 
 gText_RavineRulerClerk::
 	.string "Welcome!\p"
-	.string "I'm the RavineRuler clerk.\n"
+	.string "I'm the Ravine Ruler clerk.\n"
 	.string "How may I serve you?$"
 
 gText_FireWaterClerk::
 	.string "Welcome!\p"
-	.string "I'm the FireWater clerk.\n"
+	.string "I'm the Fire-Water clerk.\n"
 	.string "How may I serve you?$"
 
 gText_HATClerk::
@@ -11733,7 +9866,7 @@ gText_VegasClerk::
 
 gText_YugiKaibaBanlistClerk::
 	.string "Welcome!\p"
-	.string "I'm the YugiKaiba banlist clerk.\n"
+	.string "I'm the Yugi-Kaiba banlist clerk.\n"
 	.string "How may I serve you?$"
 
 gText_CritterBanlistClerk::
@@ -11758,7 +9891,7 @@ gText_AndroidBanlistClerk::
 
 gText_JoeyPegasusBanlistClerk::
 	.string "Welcome!\p"
-	.string "I'm the JoeyPegasus banlist clerk.\n"
+	.string "I'm the Joey-Pegasus banlist clerk.\n"
 	.string "How may I serve you?$"
 
 gText_FiberBanlistClerk::
@@ -11808,7 +9941,7 @@ gText_ReaperBanlistClerk::
 
 gText_ChaosReturnBanlistClerk::
 	.string "Welcome!\p"
-	.string "I'm the ChaosReturn banlist clerk.\n"
+	.string "I'm the Chaos Return banlist clerk.\n"
 	.string "How may I serve you?$"
 
 gText_DemiseBanlistClerk::
@@ -11828,12 +9961,12 @@ gText_ZombieBanlistClerk::
 
 gText_PerfectCircleBanlistClerk::
 	.string "Welcome!\p"
-	.string "I'm the PerfectCircle banlist clerk.\n"
+	.string "I'm the Perfect Circle banlist clerk.\n"
 	.string "How may I serve you?$"
 
 gText_DADReturnBanlistClerk::
 	.string "Welcome!\p"
-	.string "I'm the DADReturn banlist clerk.\n"
+	.string "I'm the DAD Return banlist clerk.\n"
 	.string "How may I serve you?$"
 
 gText_GladiatorBanlistClerk::
@@ -11873,12 +10006,12 @@ gText_TenguBanlistClerk::
 
 gText_DinoRabbitBanlistClerk::
 	.string "Welcome!\p"
-	.string "I'm the DinoRabbit banlist clerk.\n"
+	.string "I'm the Dino Rabbit banlist clerk.\n"
 	.string "How may I serve you?$"
 
 gText_WindUpBanlistClerk::
 	.string "Welcome!\p"
-	.string "I'm the WindUp banlist clerk.\n"
+	.string "I'm the Wind-Up banlist clerk.\n"
 	.string "How may I serve you?$"
 
 gText_MiamiBanlistClerk::
@@ -11893,17 +10026,17 @@ gText_MeadowlandsBanlistClerk::
 
 gText_BabyRulerBanlistClerk::
 	.string "Welcome!\p"
-	.string "I'm the BabyRuler banlist clerk.\n"
+	.string "I'm the Baby Ruler banlist clerk.\n"
 	.string "How may I serve you?$"
 
 gText_RavineRulerBanlistClerk::
 	.string "Welcome!\p"
-	.string "I'm the RavineRuler banlist clerk.\n"
+	.string "I'm the Ravine Ruler banlist clerk.\n"
 	.string "How may I serve you?$"
 
 gText_FireWaterBanlistClerk::
 	.string "Welcome!\p"
-	.string "I'm the FireWater banlist clerk.\n"
+	.string "I'm the Fire-Water banlist clerk.\n"
 	.string "How may I serve you?$"
 
 gText_HATBanlistClerk::
@@ -11944,8 +10077,10 @@ InsideOfTruck_PokemartYugiKaibaBanlist:
 	.2byte  ITEM_CARD_DARKFIRE_DRAGON
 	.2byte  ITEM_CARD_DE_SPELL
 	.2byte  ITEM_CARD_DIAN_KETO_THE_CURE_MASTER
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_FINAL_FLAME
 	.2byte  ITEM_CARD_FISSURE
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_FLAME_SWORDSMAN
 	.2byte  ITEM_CARD_GAIA_THE_DRAGON_CHAMPION
 	.2byte  ITEM_CARD_GIANT_SOLDIER_OF_STONE
@@ -12013,9 +10148,12 @@ InsideOfTruck_PokemartCritterBanlist:
 	.2byte  ITEM_CARD_DARK_ELF
 	.2byte  ITEM_CARD_DARKFIRE_DRAGON
 	.2byte  ITEM_CARD_DE_SPELL
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DREAM_CLOWN
+	.2byte  ITEM_CARD_EMPRESS_JUDGE
 	.2byte  ITEM_CARD_FAKE_TRAP
 	.2byte  ITEM_CARD_FISSURE
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_FLAME_SWORDSMAN
 	.2byte  ITEM_CARD_GAIA_THE_DRAGON_CHAMPION
 	.2byte  ITEM_CARD_GIANT_SOLDIER_OF_STONE
@@ -12033,6 +10171,7 @@ InsideOfTruck_PokemartCritterBanlist:
 	.2byte  ITEM_CARD_MASKED_SORCERER
 	.2byte  ITEM_CARD_MUKA_MUKA
 	.2byte  ITEM_CARD_POLYMERIZATION
+	.2byte  ITEM_CARD_PUNISHED_EAGLE
 	.2byte  ITEM_CARD_REINFORCEMENTS
 	.2byte  ITEM_CARD_REMOVE_TRAP
 	.2byte  ITEM_CARD_ROARING_OCEAN_SNAKE
@@ -12093,7 +10232,10 @@ InsideOfTruck_PokemartTreasureBanlist:
 	.2byte  ITEM_CARD_CHAIN_ENERGY
 	.2byte  ITEM_CARD_CRASS_CLOWN
 	.2byte  ITEM_CARD_DARKFIRE_DRAGON
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
+	.2byte  ITEM_CARD_EMPRESS_JUDGE
 	.2byte  ITEM_CARD_FISSURE
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_FLAME_SWORDSMAN
 	.2byte  ITEM_CARD_GAIA_POWER
 	.2byte  ITEM_CARD_GAIA_THE_DRAGON_CHAMPION
@@ -12175,14 +10317,15 @@ InsideOfTruck_PokemartImperialBanlist:
 	.2byte  ITEM_CARD_BLACK_SKULL_DRAGON
 	.2byte  ITEM_CARD_CANNON_SOLDIER
 	.2byte  ITEM_CARD_DARKFIRE_DRAGON
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DUST_TORNADO
 	.2byte  ITEM_CARD_FISSURE
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_FLAME_SWORDSMAN
 	.2byte  ITEM_CARD_GAIA_THE_DRAGON_CHAMPION
 	.2byte  ITEM_CARD_GIANT_SOLDIER_OF_STONE
 	.2byte  ITEM_CARD_GIANT_TRUNADE
 	.2byte  ITEM_CARD_GOBLIN_ATTACK_FORCE
-	.2byte  ITEM_CARD_GRAVEROBBER
 	.2byte  ITEM_CARD_LABYRINTH_TANK
 	.2byte  ITEM_CARD_MAGICIAN_OF_FAITH
 	.2byte  ITEM_CARD_MAN_EATER_BUG
@@ -12190,6 +10333,7 @@ InsideOfTruck_PokemartImperialBanlist:
 	.2byte  ITEM_CARD_MECHANICALCHASER
 	.2byte  ITEM_CARD_MYSTIC_TOMATO
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
+	.2byte  ITEM_CARD_PUNISHED_EAGLE
 	.2byte  ITEM_CARD_ROARING_OCEAN_SNAKE
 	.2byte  ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT
 	.2byte  ITEM_CARD_SOLEMN_JUDGMENT
@@ -12254,10 +10398,12 @@ InsideOfTruck_PokemartAndroidBanlist:
 	.2byte  ITEM_CARD_CASTLE_OF_DARK_ILLUSIONS
 	.2byte  ITEM_CARD_DARK_ELF
 	.2byte  ITEM_CARD_DARKFIRE_DRAGON
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DUST_TORNADO
 	.2byte  ITEM_CARD_EARTHBOUND_SPIRIT
 	.2byte  ITEM_CARD_EXCHANGE
 	.2byte  ITEM_CARD_FISSURE
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_FLAME_SWORDSMAN
 	.2byte  ITEM_CARD_GAIA_THE_DRAGON_CHAMPION
 	.2byte  ITEM_CARD_GEMINI_ELF
@@ -12284,7 +10430,6 @@ InsideOfTruck_PokemartAndroidBanlist:
 	.2byte  ITEM_CARD_SKULL_LAIR
 	.2byte  ITEM_CARD_SOLEMN_JUDGMENT
 	.2byte  ITEM_CARD_SOLEMN_WISHES
-	.2byte  ITEM_CARD_SOUL_RELEASE
 	.2byte  ITEM_CARD_SUMMONED_SKULL
 	.2byte  ITEM_CARD_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET
 	.2byte  ITEM_CARD_THOUSAND_EYES_RESTRICT
@@ -12346,7 +10491,6 @@ InsideOfTruck_PokemartJoeyPegasusBanlist:
 	.2byte  ITEM_CARD_UNITED_WE_STAND
 	.2byte  ITEM_CARD_UPSTART_GOBLIN
 	.2byte  ITEM_CARD_WITCH_OF_THE_BLACK_FOREST
-	.2byte  ITEM_CARD_BACKUP_SOLDIER
 	.2byte  ITEM_CARD_GRACEFUL_CHARITY
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
 	.2byte  ITEM_CARD_ARMED_NINJA
@@ -12356,9 +10500,12 @@ InsideOfTruck_PokemartJoeyPegasusBanlist:
 	.2byte  ITEM_CARD_BLACK_SKULL_DRAGON
 	.2byte  ITEM_CARD_CANNON_SOLDIER
 	.2byte  ITEM_CARD_DARKFIRE_DRAGON
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DUST_TORNADO
+	.2byte  ITEM_CARD_EMPRESS_JUDGE
 	.2byte  ITEM_CARD_EXCHANGE
 	.2byte  ITEM_CARD_FISSURE
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_FLAME_SWORDSMAN
 	.2byte  ITEM_CARD_GAIA_THE_DRAGON_CHAMPION
 	.2byte  ITEM_CARD_GEMINI_ELF
@@ -12456,9 +10603,12 @@ InsideOfTruck_PokemartFiberBanlist:
 	.2byte  ITEM_CARD_DARK_BALTER_THE_TERRIBLE
 	.2byte  ITEM_CARD_DARK_RULER_HA_DES
 	.2byte  ITEM_CARD_DARKFIRE_DRAGON
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DUST_TORNADO
+	.2byte  ITEM_CARD_EMPRESS_JUDGE
 	.2byte  ITEM_CARD_FIEND_SKULL_DRAGON
 	.2byte  ITEM_CARD_FISSURE
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_FLAME_SWORDSMAN
 	.2byte  ITEM_CARD_GAIA_THE_DRAGON_CHAMPION
 	.2byte  ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT
@@ -12563,11 +10713,14 @@ InsideOfTruck_PokemartYataBanlist:
 	.2byte  ITEM_CARD_DARK_RULER_HA_DES
 	.2byte  ITEM_CARD_DARKFIRE_DRAGON
 	.2byte  ITEM_CARD_DON_ZALOOG
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DROP_OFF
 	.2byte  ITEM_CARD_DUST_TORNADO
 	.2byte  ITEM_CARD_ELECTRIC_SNAKE
+	.2byte  ITEM_CARD_EMPRESS_JUDGE
 	.2byte  ITEM_CARD_FIEND_SKULL_DRAGON
 	.2byte  ITEM_CARD_FISSURE
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_FLAME_SWORDSMAN
 	.2byte  ITEM_CARD_GAIA_THE_DRAGON_CHAMPION
 	.2byte  ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT
@@ -12587,7 +10740,6 @@ InsideOfTruck_PokemartYataBanlist:
 	.2byte  ITEM_CARD_KURIBOH
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
 	.2byte  ITEM_CARD_LABYRINTH_TANK
-	.2byte  ITEM_CARD_LAVA_GOLEM
 	.2byte  ITEM_CARD_LESSER_FIEND
 	.2byte  ITEM_CARD_MAGIC_JAMMER
 	.2byte  ITEM_CARD_MAGICIAN_OF_FAITH
@@ -12601,11 +10753,11 @@ InsideOfTruck_PokemartYataBanlist:
 	.2byte  ITEM_CARD_NIGHTMARE_WHEEL
 	.2byte  ITEM_CARD_NIMBLE_MOMONGA
 	.2byte  ITEM_CARD_PRINCESS_OF_TSURUGI
+	.2byte  ITEM_CARD_PUNISHED_EAGLE
 	.2byte  ITEM_CARD_PYRAMID_TURTLE
 	.2byte  ITEM_CARD_RAIGEKI_BREAK
 	.2byte  ITEM_CARD_REAPER_ON_THE_NIGHTMARE
 	.2byte  ITEM_CARD_ROARING_OCEAN_SNAKE
-	.2byte  ITEM_CARD_ROYAL_TRIBUTE
 	.2byte  ITEM_CARD_RYU_SENSHI
 	.2byte  ITEM_CARD_SASUKE_SAMURAI
 	.2byte  ITEM_CARD_SCAPEGOAT
@@ -12678,7 +10830,6 @@ InsideOfTruck_PokemartScientistBanlist:
 	.2byte  ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
 	.2byte  ITEM_CARD_AIRKNIGHT_PARSHATH
 	.2byte  ITEM_CARD_AMAZONESS_ARCHER
-	.2byte  ITEM_CARD_APPRENTICE_MAGICIAN
 	.2byte  ITEM_CARD_BOOK_OF_MOON
 	.2byte  ITEM_CARD_CANNON_SOLDIER
 	.2byte  ITEM_CARD_CATAPULT_TURTLE
@@ -12689,7 +10840,9 @@ InsideOfTruck_PokemartScientistBanlist:
 	.2byte  ITEM_CARD_DARK_RULER_HA_DES
 	.2byte  ITEM_CARD_DARKFIRE_DRAGON
 	.2byte  ITEM_CARD_DON_ZALOOG
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DUST_TORNADO
+	.2byte  ITEM_CARD_EMPRESS_JUDGE
 	.2byte  ITEM_CARD_FIEND_SKULL_DRAGON
 	.2byte  ITEM_CARD_FISSURE
 	.2byte  ITEM_CARD_GIANT_TRUNADE
@@ -12710,9 +10863,9 @@ InsideOfTruck_PokemartScientistBanlist:
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
 	.2byte  ITEM_CARD_NEWDORIA
 	.2byte  ITEM_CARD_NIMBLE_MOMONGA
-	.2byte  ITEM_CARD_NON_AGGRESSION_AREA
 	.2byte  ITEM_CARD_OFFERINGS_TO_THE_DOOMED
 	.2byte  ITEM_CARD_POISON_OF_THE_OLD_MAN
+	.2byte  ITEM_CARD_PUNISHED_EAGLE
 	.2byte  ITEM_CARD_RAIGEKI_BREAK
 	.2byte  ITEM_CARD_REAPER_ON_THE_NIGHTMARE
 	.2byte  ITEM_CARD_REASONING
@@ -12806,10 +10959,12 @@ InsideOfTruck_PokemartVampireBanlist:
 	.2byte  ITEM_CARD_DARK_RULER_HA_DES
 	.2byte  ITEM_CARD_DARKFIRE_DRAGON
 	.2byte  ITEM_CARD_DES_KOALA
-	.2byte  ITEM_CARD_DESROOK_ARCHFIEND
 	.2byte  ITEM_CARD_DON_ZALOOG
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DUST_TORNADO
+	.2byte  ITEM_CARD_EMPRESS_JUDGE
 	.2byte  ITEM_CARD_FIEND_SKULL_DRAGON
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_GIANT_TRUNADE
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_SPY
 	.2byte  ITEM_CARD_GYAKU_GIRE_PANDA
@@ -12826,6 +10981,7 @@ InsideOfTruck_PokemartVampireBanlist:
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
 	.2byte  ITEM_CARD_OJAMA_TRIO
 	.2byte  ITEM_CARD_POISON_OF_THE_OLD_MAN
+	.2byte  ITEM_CARD_PUNISHED_EAGLE
 	.2byte  ITEM_CARD_PYRAMID_TURTLE
 	.2byte  ITEM_CARD_RAIGEKI_BREAK
 	.2byte  ITEM_CARD_REAPER_ON_THE_NIGHTMARE
@@ -12842,7 +10998,6 @@ InsideOfTruck_PokemartVampireBanlist:
 	.2byte  ITEM_CARD_SPIRIT_REAPER
 	.2byte  ITEM_CARD_SUMMONED_SKULL
 	.2byte  ITEM_CARD_TERRAFORMING
-	.2byte  ITEM_CARD_TERRORKING_ARCHFIEND
 	.2byte  ITEM_CARD_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET
 	.2byte  ITEM_CARD_THE_LITTLE_SWORDSMAN_OF_AILE
 	.2byte  ITEM_CARD_THOUSAND_EYES_RESTRICT
@@ -12934,10 +11089,13 @@ InsideOfTruck_PokemartChaosBanlist:
 	.2byte  ITEM_CARD_DARKFIRE_DRAGON
 	.2byte  ITEM_CARD_DIMENSION_FUSION
 	.2byte  ITEM_CARD_DON_ZALOOG
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DUST_TORNADO
 	.2byte  ITEM_CARD_EMERGENCY_PROVISIONS
+	.2byte  ITEM_CARD_EMPRESS_JUDGE
 	.2byte  ITEM_CARD_EXCHANGE
 	.2byte  ITEM_CARD_FIEND_SKULL_DRAGON
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_FLAME_SWORDSMAN
 	.2byte  ITEM_CARD_GAIA_THE_DRAGON_CHAMPION
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_GUARD
@@ -12956,6 +11114,7 @@ InsideOfTruck_PokemartChaosBanlist:
 	.2byte  ITEM_CARD_NEKO_MANE_KING
 	.2byte  ITEM_CARD_POISON_OF_THE_OLD_MAN
 	.2byte  ITEM_CARD_PROHIBITION
+	.2byte  ITEM_CARD_PUNISHED_EAGLE
 	.2byte  ITEM_CARD_RAIGEKI_BREAK
 	.2byte  ITEM_CARD_REAPER_ON_THE_NIGHTMARE
 	.2byte  ITEM_CARD_RELINQUISHED
@@ -12971,7 +11130,6 @@ InsideOfTruck_PokemartChaosBanlist:
 	.2byte  ITEM_CARD_SHINING_ANGEL
 	.2byte  ITEM_CARD_SKILLED_DARK_MAGICIAN
 	.2byte  ITEM_CARD_SOLEMN_JUDGMENT
-	.2byte  ITEM_CARD_SOUL_RELEASE
 	.2byte  ITEM_CARD_SPIRIT_REAPER
 	.2byte  ITEM_CARD_SPIRITUALISM
 	.2byte  ITEM_CARD_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET
@@ -13039,7 +11197,6 @@ InsideOfTruck_PokemartWarriorBanlist:
 	.2byte  ITEM_CARD_AIRKNIGHT_PARSHATH
 	.2byte  ITEM_CARD_AMAZONESS_ARCHER
 	.2byte  ITEM_CARD_ANTI_SPELL_FRAGRANCE
-	.2byte  ITEM_CARD_APPRENTICE_MAGICIAN
 	.2byte  ITEM_CARD_ASURA_PRIEST
 	.2byte  ITEM_CARD_BERSERK_GORILLA
 	.2byte  ITEM_CARD_BIG_SHIELD_GARDNA
@@ -13069,9 +11226,12 @@ InsideOfTruck_PokemartWarriorBanlist:
 	.2byte  ITEM_CARD_DES_KOALA
 	.2byte  ITEM_CARD_DIMENSION_FUSION
 	.2byte  ITEM_CARD_DON_ZALOOG
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DUST_TORNADO
 	.2byte  ITEM_CARD_EMERGENCY_PROVISIONS
+	.2byte  ITEM_CARD_EMPRESS_JUDGE
 	.2byte  ITEM_CARD_FIEND_SKULL_DRAGON
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT
 	.2byte  ITEM_CARD_GIANT_RAT
 	.2byte  ITEM_CARD_GIANT_TRUNADE
@@ -13114,6 +11274,7 @@ InsideOfTruck_PokemartWarriorBanlist:
 	.2byte  ITEM_CARD_OJAMA_KING
 	.2byte  ITEM_CARD_OJAMA_TRIO
 	.2byte  ITEM_CARD_PIKERU_S_CIRCLE_OF_ENCHANTMENT
+	.2byte  ITEM_CARD_PUNISHED_EAGLE
 	.2byte  ITEM_CARD_RAIGEKI_BREAK
 	.2byte  ITEM_CARD_REAPER_ON_THE_NIGHTMARE
 	.2byte  ITEM_CARD_REASONING
@@ -13189,7 +11350,6 @@ InsideOfTruck_PokemartGoatBanlist:
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
 	.2byte  ITEM_CARD_POT_OF_GREED
 	.2byte  ITEM_CARD_PREMATURE_BURIAL
-	.2byte  ITEM_CARD_PROTECTOR_OF_THE_SANCTUARY
 	.2byte  ITEM_CARD_RECKLESS_GREED
 	.2byte  ITEM_CARD_RING_OF_DESTRUCTION
 	.2byte  ITEM_CARD_SANGAN
@@ -13211,7 +11371,6 @@ InsideOfTruck_PokemartGoatBanlist:
 	.2byte  ITEM_CARD_AMAZONESS_ARCHER
 	.2byte  ITEM_CARD_ANTI_SPELL_FRAGRANCE
 	.2byte  ITEM_CARD_ASURA_PRIEST
-	.2byte  ITEM_CARD_BARREL_BEHIND_THE_DOOR
 	.2byte  ITEM_CARD_BERSERK_GORILLA
 	.2byte  ITEM_CARD_BICKURIBOX
 	.2byte  ITEM_CARD_BIG_BANG_SHOT
@@ -13226,10 +11385,8 @@ InsideOfTruck_PokemartGoatBanlist:
 	.2byte  ITEM_CARD_BYSER_SHOCK
 	.2byte  ITEM_CARD_CANNON_SOLDIER
 	.2byte  ITEM_CARD_CHAIN_DISAPPEARANCE
-	.2byte  ITEM_CARD_CHAIN_ENERGY
 	.2byte  ITEM_CARD_CHAOS_SORCERER
 	.2byte  ITEM_CARD_CIPHER_SOLDIER
-	.2byte  ITEM_CARD_COLD_WAVE
 	.2byte  ITEM_CARD_COMPULSORY_EVACUATION_DEVICE
 	.2byte  ITEM_CARD_CYBER_STEIN
 	.2byte  ITEM_CARD_D_D_ASSAILANT
@@ -13245,6 +11402,7 @@ InsideOfTruck_PokemartGoatBanlist:
 	.2byte  ITEM_CARD_DESERT_SUNLIGHT
 	.2byte  ITEM_CARD_DIMENSION_FUSION
 	.2byte  ITEM_CARD_DON_ZALOOG
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DROP_OFF
 	.2byte  ITEM_CARD_DUST_TORNADO
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN
@@ -13252,7 +11410,7 @@ InsideOfTruck_PokemartGoatBanlist:
 	.2byte  ITEM_CARD_EXCHANGE
 	.2byte  ITEM_CARD_FAKE_TRAP
 	.2byte  ITEM_CARD_FIEND_SKULL_DRAGON
-	.2byte  ITEM_CARD_FLAME_SWORDSMAN
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_FUSILIER_DRAGON_THE_DUAL_MODE_BEAST
 	.2byte  ITEM_CARD_GATLING_DRAGON
 	.2byte  ITEM_CARD_GIANT_ORC
@@ -13260,27 +11418,25 @@ InsideOfTruck_PokemartGoatBanlist:
 	.2byte  ITEM_CARD_GIANT_TRUNADE
 	.2byte  ITEM_CARD_GOBLIN_ATTACK_FORCE
 	.2byte  ITEM_CARD_GOLEM_SENTRY
+	.2byte  ITEM_CARD_GRAVEKEEPER_S_ASSAILANT
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_SPY
 	.2byte  ITEM_CARD_GYAKU_GIRE_PANDA
 	.2byte  ITEM_CARD_JAR_OF_GREED
 	.2byte  ITEM_CARD_JIRAI_GUMO
 	.2byte  ITEM_CARD_JOWGEN_THE_SPIRITUALIST
 	.2byte  ITEM_CARD_JUST_DESSERTS
-	.2byte  ITEM_CARD_KAISER_COLOSSEUM
 	.2byte  ITEM_CARD_KING_DRAGUN
 	.2byte  ITEM_CARD_KING_TIGER_WANGHU
 	.2byte  ITEM_CARD_KURIBOH
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
 	.2byte  ITEM_CARD_LABYRINTH_TANK
 	.2byte  ITEM_CARD_LAST_WILL
-	.2byte  ITEM_CARD_LIGHT_OF_INTERVENTION
 	.2byte  ITEM_CARD_LIMITER_REMOVAL
 	.2byte  ITEM_CARD_MAGICAL_MERCHANT
 	.2byte  ITEM_CARD_MAGICIAN_OF_FAITH
 	.2byte  ITEM_CARD_MANJU_OF_THE_TEN_THOUSAND_HANDS
 	.2byte  ITEM_CARD_MASK_OF_DARKNESS
 	.2byte  ITEM_CARD_MASK_OF_RESTRICT
-	.2byte  ITEM_CARD_MASS_DRIVER
 	.2byte  ITEM_CARD_MASTER_OF_OZ
 	.2byte  ITEM_CARD_MATAZA_THE_ZAPPER
 	.2byte  ITEM_CARD_MEGAMORPH
@@ -13290,11 +11446,10 @@ InsideOfTruck_PokemartGoatBanlist:
 	.2byte  ITEM_CARD_MIND_CONTROL
 	.2byte  ITEM_CARD_MOBIUS_THE_FROST_MONARCH
 	.2byte  ITEM_CARD_MONSTER_GATE
-	.2byte  ITEM_CARD_MORPHING_JAR_2
-	.2byte  ITEM_CARD_MY_BODY_AS_A_SHIELD
 	.2byte  ITEM_CARD_MYSTIC_SWORDSMAN_LV2
 	.2byte  ITEM_CARD_MYSTIC_TOMATO
 	.2byte  ITEM_CARD_MYSTIK_WOK
+	.2byte  ITEM_CARD_NECROVALLEY
 	.2byte  ITEM_CARD_NEEDLE_CEILING
 	.2byte  ITEM_CARD_NEWDORIA
 	.2byte  ITEM_CARD_NIGHTMARE_WHEEL
@@ -13324,10 +11479,10 @@ InsideOfTruck_PokemartGoatBanlist:
 	.2byte  ITEM_CARD_SKILLED_DARK_MAGICIAN
 	.2byte  ITEM_CARD_SMASHING_GROUND
 	.2byte  ITEM_CARD_SOLEMN_JUDGMENT
-	.2byte  ITEM_CARD_SPEAR_DRAGON
 	.2byte  ITEM_CARD_SPELL_CANCELLER
 	.2byte  ITEM_CARD_SPIRIT_REAPER
 	.2byte  ITEM_CARD_STRIKE_NINJA
+	.2byte  ITEM_CARD_TERRAFORMING
 	.2byte  ITEM_CARD_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET
 	.2byte  ITEM_CARD_THOUSAND_EYES_RESTRICT
 	.2byte  ITEM_CARD_THREATENING_ROAR
@@ -13418,12 +11573,14 @@ InsideOfTruck_PokemartCyberBanlist:
 	.2byte  ITEM_CARD_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE
 	.2byte  ITEM_CARD_DES_KOALA
 	.2byte  ITEM_CARD_DON_ZALOOG
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DUST_TORNADO
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN
 	.2byte  ITEM_CARD_EMISSARY_OF_THE_AFTERLIFE
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
 	.2byte  ITEM_CARD_EXARION_UNIVERSE
 	.2byte  ITEM_CARD_FIEND_SKULL_DRAGON
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_FUSILIER_DRAGON_THE_DUAL_MODE_BEAST
 	.2byte  ITEM_CARD_GAIA_THE_DRAGON_CHAMPION
 	.2byte  ITEM_CARD_GATLING_DRAGON
@@ -13563,7 +11720,9 @@ InsideOfTruck_PokemartReaperBanlist:
 	.2byte  ITEM_CARD_DIVINE_WRATH
 	.2byte  ITEM_CARD_DON_ZALOOG
 	.2byte  ITEM_CARD_DOOM_DOZER
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DUST_TORNADO
+	.2byte  ITEM_CARD_EMPRESS_JUDGE
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
 	.2byte  ITEM_CARD_FIEND_SKULL_DRAGON
 	.2byte  ITEM_CARD_FLYING_KAMAKIRI_1
@@ -13688,7 +11847,6 @@ InsideOfTruck_PokemartChaosReturnBanlist:
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
 	.2byte  ITEM_CARD_TREEBORN_FROG
 	.2byte  ITEM_CARD_TSUKUYOMI
-	.2byte  ITEM_CARD_APPRENTICE_MAGICIAN
 	.2byte  ITEM_CARD_CREATURE_SWAP
 	.2byte  ITEM_CARD_EMERGENCY_PROVISIONS
 	.2byte  ITEM_CARD_MAGICIAN_OF_FAITH
@@ -13715,7 +11873,6 @@ InsideOfTruck_PokemartChaosReturnBanlist:
 	.2byte  ITEM_CARD_CYBER_TWIN_DRAGON
 	.2byte  ITEM_CARD_CYBER_STEIN
 	.2byte  ITEM_CARD_D_D_SURVIVOR
-	.2byte  ITEM_CARD_D_D_WARRIOR
 	.2byte  ITEM_CARD_DARK_BALTER_THE_TERRIBLE
 	.2byte  ITEM_CARD_DARK_BLADE_THE_DRAGON_KNIGHT
 	.2byte  ITEM_CARD_DARK_FLARE_KNIGHT
@@ -13726,11 +11883,13 @@ InsideOfTruck_PokemartChaosReturnBanlist:
 	.2byte  ITEM_CARD_DIMENSION_WALL
 	.2byte  ITEM_CARD_DIMENSIONAL_FISSURE
 	.2byte  ITEM_CARD_DON_ZALOOG
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DRILLROID
 	.2byte  ITEM_CARD_DUST_TORNADO
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_WILDHEART
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
 	.2byte  ITEM_CARD_FIEND_SKULL_DRAGON
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_GATLING_DRAGON
 	.2byte  ITEM_CARD_GIANT_RAT
 	.2byte  ITEM_CARD_GIANT_TRUNADE
@@ -13758,7 +11917,6 @@ InsideOfTruck_PokemartChaosReturnBanlist:
 	.2byte  ITEM_CARD_NEWDORIA
 	.2byte  ITEM_CARD_NINJA_GRANDMASTER_SASUKE
 	.2byte  ITEM_CARD_OJAMA_KING
-	.2byte  ITEM_CARD_OLD_VINDICTIVE_MAGICIAN
 	.2byte  ITEM_CARD_POISON_OF_THE_OLD_MAN
 	.2byte  ITEM_CARD_PYRAMID_TURTLE
 	.2byte  ITEM_CARD_RAIGEKI_BREAK
@@ -13802,14 +11960,12 @@ InsideOfTruck_PokemartDemiseBanlist:
 	.2byte  ITEM_CARD_CALL_OF_THE_HAUNTED
 	.2byte  ITEM_CARD_CARD_DESTRUCTION
 	.2byte  ITEM_CARD_CEASEFIRE
-	.2byte  ITEM_CARD_CHAIN_STRIKE
 	.2byte  ITEM_CARD_CONFISCATION
 	.2byte  ITEM_CARD_CRUSH_CARD_VIRUS
 	.2byte  ITEM_CARD_D_D_WARRIOR_LADY
 	.2byte  ITEM_CARD_DARK_MAGICIAN_OF_CHAOS
 	.2byte  ITEM_CARD_DIMENSION_FUSION
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_STRATOS
-	.2byte  ITEM_CARD_FUTURE_FUSION
 	.2byte  ITEM_CARD_GIANT_TRUNADE
 	.2byte  ITEM_CARD_GRAVITY_BIND
 	.2byte  ITEM_CARD_HEAVY_STORM
@@ -13821,7 +11977,6 @@ InsideOfTruck_PokemartDemiseBanlist:
 	.2byte  ITEM_CARD_MIRROR_FORCE
 	.2byte  ITEM_CARD_MORPHING_JAR
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
-	.2byte  ITEM_CARD_NEO_SPACIAN_GRAND_MOLE
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
 	.2byte  ITEM_CARD_OVERLOAD_FUSION
 	.2byte  ITEM_CARD_POT_OF_AVARICE
@@ -13836,13 +11991,11 @@ InsideOfTruck_PokemartDemiseBanlist:
 	.2byte  ITEM_CARD_TREEBORN_FROG
 	.2byte  ITEM_CARD_TWIN_HEADED_BEHEMOTH
 	.2byte  ITEM_CARD_UNITED_WE_STAND
-	.2byte  ITEM_CARD_APPRENTICE_MAGICIAN
 	.2byte  ITEM_CARD_CREATURE_SWAP
 	.2byte  ITEM_CARD_D_D_ASSAILANT
 	.2byte  ITEM_CARD_METAMORPHOSIS
 	.2byte  ITEM_CARD_RECKLESS_GREED
 	.2byte  ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
-	.2byte  ITEM_CARD_ACCUMULATED_FORTUNE
 	.2byte  ITEM_CARD_ADVANCED_RITUAL_ART
 	.2byte  ITEM_CARD_AMAZONESS_ARCHER
 	.2byte  ITEM_CARD_ASURA_PRIEST
@@ -13863,7 +12016,6 @@ InsideOfTruck_PokemartDemiseBanlist:
 	.2byte  ITEM_CARD_CYBER_PHOENIX
 	.2byte  ITEM_CARD_CYBER_TWIN_DRAGON
 	.2byte  ITEM_CARD_D_D_CROW
-	.2byte  ITEM_CARD_D_D_DESIGNATOR
 	.2byte  ITEM_CARD_D_D_SURVIVOR
 	.2byte  ITEM_CARD_D_D_TRAINER
 	.2byte  ITEM_CARD_DARK_BALTER_THE_TERRIBLE
@@ -13884,24 +12036,21 @@ InsideOfTruck_PokemartDemiseBanlist:
 	.2byte  ITEM_CARD_DESTINY_HERO_MALICIOUS
 	.2byte  ITEM_CARD_DIMENSION_WALL
 	.2byte  ITEM_CARD_DIMENSIONAL_FISSURE
-	.2byte  ITEM_CARD_DIVINE_SWORD_PHOENIX_BLADE
 	.2byte  ITEM_CARD_DON_ZALOOG
 	.2byte  ITEM_CARD_DOOM_DOZER
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DRILLROID
 	.2byte  ITEM_CARD_DUST_TORNADO
-	.2byte  ITEM_CARD_E_EMERGENCY_CALL
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_WILDHEART
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
 	.2byte  ITEM_CARD_EXILED_FORCE
 	.2byte  ITEM_CARD_FIEND_SKULL_DRAGON
 	.2byte  ITEM_CARD_FISSURE
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_GATLING_DRAGON
 	.2byte  ITEM_CARD_GIANT_RAT
 	.2byte  ITEM_CARD_GOLDD_WU_LORD_OF_DARK_WORLD
-	.2byte  ITEM_CARD_GRANDMASTER_OF_THE_SIX_SAMURAI
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_SPY
-	.2byte  ITEM_CARD_GREAT_SHOGUN_SHIEN
-	.2byte  ITEM_CARD_GREEN_GADGET
 	.2byte  ITEM_CARD_HYDROGEDDON
 	.2byte  ITEM_CARD_INABA_WHITE_RABBIT
 	.2byte  ITEM_CARD_INJECTION_FAIRY_LILY
@@ -13912,17 +12061,14 @@ InsideOfTruck_PokemartDemiseBanlist:
 	.2byte  ITEM_CARD_KING_DRAGUN
 	.2byte  ITEM_CARD_KURIBOH
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
-	.2byte  ITEM_CARD_LAVA_GOLEM
 	.2byte  ITEM_CARD_LEGENDARY_JUJITSU_MASTER
 	.2byte  ITEM_CARD_LIGHTNING_VORTEX
 	.2byte  ITEM_CARD_MACHINE_DUPLICATION
 	.2byte  ITEM_CARD_MACRO_COSMOS
 	.2byte  ITEM_CARD_MAGICAL_MERCHANT
-	.2byte  ITEM_CARD_MAGICAL_STONE_EXCAVATION
 	.2byte  ITEM_CARD_MANJU_OF_THE_TEN_THOUSAND_HANDS
 	.2byte  ITEM_CARD_MASK_OF_RESTRICT
 	.2byte  ITEM_CARD_MASTER_OF_OZ
-	.2byte  ITEM_CARD_MECHA_DOG_MARRON
 	.2byte  ITEM_CARD_MEGAMORPH
 	.2byte  ITEM_CARD_MESSENGER_OF_PEACE
 	.2byte  ITEM_CARD_MOBIUS_THE_FROST_MONARCH
@@ -13940,13 +12086,11 @@ InsideOfTruck_PokemartDemiseBanlist:
 	.2byte  ITEM_CARD_OFFERINGS_TO_THE_DOOMED
 	.2byte  ITEM_CARD_OJAMA_KING
 	.2byte  ITEM_CARD_OJAMA_TRIO
-	.2byte  ITEM_CARD_OLD_VINDICTIVE_MAGICIAN
 	.2byte  ITEM_CARD_PHOENIX_WING_WIND_BLAST
 	.2byte  ITEM_CARD_POISON_OF_THE_OLD_MAN
 	.2byte  ITEM_CARD_PULLING_THE_RUG
 	.2byte  ITEM_CARD_REAPER_ON_THE_NIGHTMARE
 	.2byte  ITEM_CARD_REASONING
-	.2byte  ITEM_CARD_RED_GADGET
 	.2byte  ITEM_CARD_RELINQUISHED
 	.2byte  ITEM_CARD_RETURN_FROM_THE_DIFFERENT_DIMENSION
 	.2byte  ITEM_CARD_ROYAL_DECREE
@@ -13967,9 +12111,6 @@ InsideOfTruck_PokemartDemiseBanlist:
 	.2byte  ITEM_CARD_STEALTH_BIRD
 	.2byte  ITEM_CARD_SYSTEM_DOWN
 	.2byte  ITEM_CARD_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_IROU
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_YAICHI
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_ZANJI
 	.2byte  ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH
 	.2byte  ITEM_CARD_THREATENING_ROAR
 	.2byte  ITEM_CARD_TRAP_DUSTSHOOT
@@ -13979,7 +12120,6 @@ InsideOfTruck_PokemartDemiseBanlist:
 	.2byte  ITEM_CARD_WABOKU
 	.2byte  ITEM_CARD_WAVE_MOTION_CANNON
 	.2byte  ITEM_CARD_WIDESPREAD_RUIN
-	.2byte  ITEM_CARD_YELLOW_GADGET
 	.2byte  ITEM_CARD_ZABORG_THE_THUNDER_MONARCH
 	.2byte  ITEM_CARD_ZOMBYRA_THE_DARK
 	pokemartlistend
@@ -14007,10 +12147,8 @@ InsideOfTruck_PokemartTrooperBanlist:
 	.2byte  ITEM_CARD_D_D_WARRIOR_LADY
 	.2byte  ITEM_CARD_DARK_MAGICIAN_OF_CHAOS
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_STRATOS
-	.2byte  ITEM_CARD_FUTURE_FUSION
 	.2byte  ITEM_CARD_GIANT_TRUNADE
 	.2byte  ITEM_CARD_GRAVITY_BIND
-	.2byte  ITEM_CARD_GREEN_BABOON_DEFENDER_OF_THE_FOREST
 	.2byte  ITEM_CARD_HEAVY_STORM
 	.2byte  ITEM_CARD_JINZO
 	.2byte  ITEM_CARD_LEVEL_LIMIT_AREA_B
@@ -14020,7 +12158,6 @@ InsideOfTruck_PokemartTrooperBanlist:
 	.2byte  ITEM_CARD_MIRROR_FORCE
 	.2byte  ITEM_CARD_MORPHING_JAR
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
-	.2byte  ITEM_CARD_NEO_SPACIAN_GRAND_MOLE
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
 	.2byte  ITEM_CARD_OVERLOAD_FUSION
 	.2byte  ITEM_CARD_POT_OF_AVARICE
@@ -14063,20 +12200,20 @@ InsideOfTruck_PokemartTrooperBanlist:
 	.2byte  ITEM_CARD_DESTINY_HERO_FEAR_MONGER
 	.2byte  ITEM_CARD_DESTINY_HERO_MALICIOUS
 	.2byte  ITEM_CARD_DIMENSION_WALL
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DRILLROID
 	.2byte  ITEM_CARD_DUST_TORNADO
 	.2byte  ITEM_CARD_ELECTRIC_VIRUS
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
 	.2byte  ITEM_CARD_EXILED_FORCE
 	.2byte  ITEM_CARD_FIEND_SKULL_DRAGON
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_GATLING_DRAGON
 	.2byte  ITEM_CARD_GIANT_RAT
 	.2byte  ITEM_CARD_GIGANTES
 	.2byte  ITEM_CARD_GOLDD_WU_LORD_OF_DARK_WORLD
-	.2byte  ITEM_CARD_GRANDMASTER_OF_THE_SIX_SAMURAI
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_GUARD
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_SPY
-	.2byte  ITEM_CARD_GREAT_SHOGUN_SHIEN
 	.2byte  ITEM_CARD_GYAKU_GIRE_PANDA
 	.2byte  ITEM_CARD_INJECTION_FAIRY_LILY
 	.2byte  ITEM_CARD_JUST_DESSERTS
@@ -14108,9 +12245,6 @@ InsideOfTruck_PokemartTrooperBanlist:
 	.2byte  ITEM_CARD_SYSTEM_DOWN
 	.2byte  ITEM_CARD_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET
 	.2byte  ITEM_CARD_THE_LIGHT_HEX_SEALED_FUSION
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_IROU
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_YAICHI
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_ZANJI
 	.2byte  ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH
 	.2byte  ITEM_CARD_THREATENING_ROAR
 	.2byte  ITEM_CARD_TRAP_DUSTSHOOT
@@ -14150,24 +12284,19 @@ InsideOfTruck_PokemartZombieBanlist:
 	.2byte  ITEM_CARD_DIMENSION_FUSION
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_STRATOS
 	.2byte  ITEM_CARD_FISSURE
-	.2byte  ITEM_CARD_FUTURE_FUSION
 	.2byte  ITEM_CARD_GIANT_TRUNADE
 	.2byte  ITEM_CARD_GOLD_SARCOPHAGUS
 	.2byte  ITEM_CARD_GRAVITY_BIND
-	.2byte  ITEM_CARD_GREEN_BABOON_DEFENDER_OF_THE_FOREST
 	.2byte  ITEM_CARD_HEAVY_STORM
 	.2byte  ITEM_CARD_LEVEL_LIMIT_AREA_B
 	.2byte  ITEM_CARD_LIMITER_REMOVAL
 	.2byte  ITEM_CARD_MAGIC_CYLINDER
-	.2byte  ITEM_CARD_MAGICAL_STONE_EXCAVATION
 	.2byte  ITEM_CARD_MAGICIAN_OF_FAITH
-	.2byte  ITEM_CARD_MARSHMALLON
 	.2byte  ITEM_CARD_MEGAMORPH
 	.2byte  ITEM_CARD_MIND_CRUSH
 	.2byte  ITEM_CARD_MIRROR_FORCE
 	.2byte  ITEM_CARD_MORPHING_JAR
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
-	.2byte  ITEM_CARD_NEO_SPACIAN_GRAND_MOLE
 	.2byte  ITEM_CARD_OVERLOAD_FUSION
 	.2byte  ITEM_CARD_PREMATURE_BURIAL
 	.2byte  ITEM_CARD_SANGAN
@@ -14176,27 +12305,21 @@ InsideOfTruck_PokemartZombieBanlist:
 	.2byte  ITEM_CARD_SNIPE_HUNTER
 	.2byte  ITEM_CARD_SPIRIT_REAPER
 	.2byte  ITEM_CARD_SWORDS_OF_REVEALING_LIGHT
-	.2byte  ITEM_CARD_THE_TRANSMIGRATION_PROPHECY
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
 	.2byte  ITEM_CARD_TRAP_DUSTSHOOT
 	.2byte  ITEM_CARD_TREEBORN_FROG
 	.2byte  ITEM_CARD_UNITED_WE_STAND
 	.2byte  ITEM_CARD_WALL_OF_REVEALING_LIGHT
-	.2byte  ITEM_CARD_APPRENTICE_MAGICIAN
 	.2byte  ITEM_CARD_CREATURE_SWAP
 	.2byte  ITEM_CARD_DESTINY_HERO_MALICIOUS
-	.2byte  ITEM_CARD_GREEN_GADGET
 	.2byte  ITEM_CARD_JINZO
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
 	.2byte  ITEM_CARD_POT_OF_AVARICE
-	.2byte  ITEM_CARD_RED_GADGET
 	.2byte  ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
 	.2byte  ITEM_CARD_ROYAL_DECREE
-	.2byte  ITEM_CARD_YELLOW_GADGET
 	.2byte  ITEM_CARD_ADVANCED_RITUAL_ART
 	.2byte  ITEM_CARD_AMAZONESS_ARCHER
 	.2byte  ITEM_CARD_ASURA_PRIEST
-	.2byte  ITEM_CARD_AUTONOMOUS_ACTION_UNIT
 	.2byte  ITEM_CARD_BANISHER_OF_THE_RADIANCE
 	.2byte  ITEM_CARD_BAZOO_THE_SOUL_EATER
 	.2byte  ITEM_CARD_BIG_SHIELD_GARDNA
@@ -14216,10 +12339,8 @@ InsideOfTruck_PokemartZombieBanlist:
 	.2byte  ITEM_CARD_CYBER_TWIN_DRAGON
 	.2byte  ITEM_CARD_D_D_ASSAILANT
 	.2byte  ITEM_CARD_D_D_CROW
-	.2byte  ITEM_CARD_D_D_DESIGNATOR
 	.2byte  ITEM_CARD_D_D_SURVIVOR
 	.2byte  ITEM_CARD_DARK_BALTER_THE_TERRIBLE
-	.2byte  ITEM_CARD_DARK_BRIBE
 	.2byte  ITEM_CARD_DARK_MIMIC_LV3
 	.2byte  ITEM_CARD_DARK_PALADIN
 	.2byte  ITEM_CARD_DARKFIRE_DRAGON
@@ -14233,34 +12354,29 @@ InsideOfTruck_PokemartZombieBanlist:
 	.2byte  ITEM_CARD_DESTINY_HERO_FEAR_MONGER
 	.2byte  ITEM_CARD_DIMENSION_WALL
 	.2byte  ITEM_CARD_DIMENSIONAL_FISSURE
-	.2byte  ITEM_CARD_DIVINE_SWORD_PHOENIX_BLADE
 	.2byte  ITEM_CARD_DON_ZALOOG
 	.2byte  ITEM_CARD_DOOM_DOZER
 	.2byte  ITEM_CARD_DRILLROID
 	.2byte  ITEM_CARD_DUST_TORNADO
-	.2byte  ITEM_CARD_E_EMERGENCY_CALL
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN
-	.2byte  ITEM_CARD_ELEMENTAL_HERO_NEOS_ALIUS
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_WILDHEART
 	.2byte  ITEM_CARD_EMERGENCY_PROVISIONS
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
 	.2byte  ITEM_CARD_EXILED_FORCE
 	.2byte  ITEM_CARD_FAKE_TRAP
 	.2byte  ITEM_CARD_FIEND_SKULL_DRAGON
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_FLAME_SWORDSMAN
 	.2byte  ITEM_CARD_FLYING_KAMAKIRI_1
 	.2byte  ITEM_CARD_GAIA_THE_DRAGON_CHAMPION
 	.2byte  ITEM_CARD_GIANT_RAT
 	.2byte  ITEM_CARD_GOLDD_WU_LORD_OF_DARK_WORLD
-	.2byte  ITEM_CARD_GRANDMASTER_OF_THE_SIX_SAMURAI
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_GUARD
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_SPY
-	.2byte  ITEM_CARD_GREAT_SHOGUN_SHIEN
 	.2byte  ITEM_CARD_GYAKU_GIRE_PANDA
 	.2byte  ITEM_CARD_HALLOWED_LIFE_BARRIER
 	.2byte  ITEM_CARD_HAMMER_SHOT
 	.2byte  ITEM_CARD_HYDROGEDDON
-	.2byte  ITEM_CARD_IL_BLUD
 	.2byte  ITEM_CARD_INJECTION_FAIRY_LILY
 	.2byte  ITEM_CARD_INSECT_KNIGHT
 	.2byte  ITEM_CARD_JUST_DESSERTS
@@ -14272,7 +12388,6 @@ InsideOfTruck_PokemartZombieBanlist:
 	.2byte  ITEM_CARD_MANJU_OF_THE_TEN_THOUSAND_HANDS
 	.2byte  ITEM_CARD_MASK_OF_RESTRICT
 	.2byte  ITEM_CARD_MASTER_OF_OZ
-	.2byte  ITEM_CARD_MEI_KOU_MASTER_OF_BARRIERS
 	.2byte  ITEM_CARD_MESSENGER_OF_PEACE
 	.2byte  ITEM_CARD_MIRAGE_DRAGON
 	.2byte  ITEM_CARD_MOBIUS_THE_FROST_MONARCH
@@ -14288,7 +12403,6 @@ InsideOfTruck_PokemartZombieBanlist:
 	.2byte  ITEM_CARD_NIGHTMARE_S_STEELCAGE
 	.2byte  ITEM_CARD_NIMBLE_MOMONGA
 	.2byte  ITEM_CARD_OJAMA_TRIO
-	.2byte  ITEM_CARD_OLD_VINDICTIVE_MAGICIAN
 	.2byte  ITEM_CARD_PHOENIX_WING_WIND_BLAST
 	.2byte  ITEM_CARD_POISON_OF_THE_OLD_MAN
 	.2byte  ITEM_CARD_PULLING_THE_RUG
@@ -14315,9 +12429,6 @@ InsideOfTruck_PokemartZombieBanlist:
 	.2byte  ITEM_CARD_SPIRITUALISM
 	.2byte  ITEM_CARD_SYSTEM_DOWN
 	.2byte  ITEM_CARD_THE_LIGHT_HEX_SEALED_FUSION
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_IROU
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_YAICHI
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_ZANJI
 	.2byte  ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH
 	.2byte  ITEM_CARD_THREATENING_ROAR
 	.2byte  ITEM_CARD_TRAP_HOLE
@@ -14363,23 +12474,19 @@ InsideOfTruck_PokemartPerfectCircleBanlist:
 	.2byte  ITEM_CARD_DIMENSION_FUSION
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_STRATOS
 	.2byte  ITEM_CARD_FISSURE
-	.2byte  ITEM_CARD_FUTURE_FUSION
 	.2byte  ITEM_CARD_GIANT_TRUNADE
 	.2byte  ITEM_CARD_GOLD_SARCOPHAGUS
 	.2byte  ITEM_CARD_GRAVITY_BIND
-	.2byte  ITEM_CARD_GREEN_BABOON_DEFENDER_OF_THE_FOREST
 	.2byte  ITEM_CARD_HEAVY_STORM
 	.2byte  ITEM_CARD_LEVEL_LIMIT_AREA_B
 	.2byte  ITEM_CARD_MAGIC_CYLINDER
-	.2byte  ITEM_CARD_MAGICAL_STONE_EXCAVATION
 	.2byte  ITEM_CARD_MAGICIAN_OF_FAITH
-	.2byte  ITEM_CARD_MARSHMALLON
 	.2byte  ITEM_CARD_MIND_CRUSH
 	.2byte  ITEM_CARD_MIRROR_FORCE
 	.2byte  ITEM_CARD_MORPHING_JAR
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
-	.2byte  ITEM_CARD_NEO_SPACIAN_GRAND_MOLE
 	.2byte  ITEM_CARD_NIGHT_ASSAILANT
+	.2byte  ITEM_CARD_OVERLOAD_FUSION
 	.2byte  ITEM_CARD_PREMATURE_BURIAL
 	.2byte  ITEM_CARD_SANGAN
 	.2byte  ITEM_CARD_SCAPEGOAT
@@ -14387,88 +12494,80 @@ InsideOfTruck_PokemartPerfectCircleBanlist:
 	.2byte  ITEM_CARD_SNIPE_HUNTER
 	.2byte  ITEM_CARD_SPIRIT_REAPER
 	.2byte  ITEM_CARD_SWORDS_OF_REVEALING_LIGHT
-	.2byte  ITEM_CARD_THE_TRANSMIGRATION_PROPHECY
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
 	.2byte  ITEM_CARD_TRAP_DUSTSHOOT
 	.2byte  ITEM_CARD_TREEBORN_FROG
+	.2byte  ITEM_CARD_UNITED_WE_STAND
 	.2byte  ITEM_CARD_CREATURE_SWAP
 	.2byte  ITEM_CARD_DESTINY_HERO_MALICIOUS
-	.2byte  ITEM_CARD_GREEN_GADGET
 	.2byte  ITEM_CARD_JINZO
 	.2byte  ITEM_CARD_MASK_OF_DARKNESS
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
 	.2byte  ITEM_CARD_POT_OF_AVARICE
-	.2byte  ITEM_CARD_RED_GADGET
 	.2byte  ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
 	.2byte  ITEM_CARD_ROYAL_DECREE
-	.2byte  ITEM_CARD_YELLOW_GADGET
 	.2byte  ITEM_CARD_4_STARRED_LADYBUG_OF_DOOM
-	.2byte  ITEM_CARD_ACCUMULATED_FORTUNE
 	.2byte  ITEM_CARD_AMAZONESS_ARCHER
-	.2byte  ITEM_CARD_AUTONOMOUS_ACTION_UNIT
 	.2byte  ITEM_CARD_BANISHER_OF_THE_RADIANCE
+	.2byte  ITEM_CARD_BARREL_BEHIND_THE_DOOR
 	.2byte  ITEM_CARD_BAZOO_THE_SOUL_EATER
 	.2byte  ITEM_CARD_BICKURIBOX
 	.2byte  ITEM_CARD_BLACK_SKULL_DRAGON
 	.2byte  ITEM_CARD_BLUE_EYES_ULTIMATE_DRAGON
+	.2byte  ITEM_CARD_BOOK_OF_LIFE
 	.2byte  ITEM_CARD_BOTTOMLESS_TRAP_HOLE
+	.2byte  ITEM_CARD_CARD_OF_SAFE_RETURN
 	.2byte  ITEM_CARD_CHIMERATECH_OVERDRAGON
 	.2byte  ITEM_CARD_CIPHER_SOLDIER
+	.2byte  ITEM_CARD_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL
 	.2byte  ITEM_CARD_CYBER_DRAGON
 	.2byte  ITEM_CARD_CYBER_END_DRAGON
+	.2byte  ITEM_CARD_CYBER_PHOENIX
 	.2byte  ITEM_CARD_CYBER_TWIN_DRAGON
 	.2byte  ITEM_CARD_D_D_ASSAILANT
 	.2byte  ITEM_CARD_D_D_CROW
 	.2byte  ITEM_CARD_D_D_SURVIVOR
-	.2byte  ITEM_CARD_D_D_WARRIOR
 	.2byte  ITEM_CARD_DARK_BALTER_THE_TERRIBLE
 	.2byte  ITEM_CARD_DARK_BLADE_THE_DRAGON_KNIGHT
-	.2byte  ITEM_CARD_DARK_BRIBE
 	.2byte  ITEM_CARD_DARK_FLARE_KNIGHT
 	.2byte  ITEM_CARD_DARK_PALADIN
 	.2byte  ITEM_CARD_DARKFIRE_DRAGON
+	.2byte  ITEM_CARD_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE
 	.2byte  ITEM_CARD_DESTINY_DRAW
 	.2byte  ITEM_CARD_DESTINY_HERO_DASHER
 	.2byte  ITEM_CARD_DESTINY_HERO_DIAMOND_DUDE
 	.2byte  ITEM_CARD_DESTINY_HERO_FEAR_MONGER
-	.2byte  ITEM_CARD_DESTINY_HERO_PLASMA
+	.2byte  ITEM_CARD_DIMENSION_WALL
 	.2byte  ITEM_CARD_DIMENSIONAL_FISSURE
 	.2byte  ITEM_CARD_DIMENSIONAL_PRISON
-	.2byte  ITEM_CARD_DIVINE_SWORD_PHOENIX_BLADE
-	.2byte  ITEM_CARD_DON_ZALOOG
-	.2byte  ITEM_CARD_DRILLROID
 	.2byte  ITEM_CARD_DUST_TORNADO
-	.2byte  ITEM_CARD_E_EMERGENCY_CALL
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN
-	.2byte  ITEM_CARD_ELEMENTAL_HERO_NEOS_ALIUS
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_WILDHEART
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
 	.2byte  ITEM_CARD_EXILED_FORCE
 	.2byte  ITEM_CARD_FIEND_SKULL_DRAGON
+	.2byte  ITEM_CARD_FLAME_GHOST
+	.2byte  ITEM_CARD_FLAME_SWORDSMAN
 	.2byte  ITEM_CARD_FLYING_KAMAKIRI_1
+	.2byte  ITEM_CARD_FOOLISH_BURIAL
 	.2byte  ITEM_CARD_GAIA_THE_DRAGON_CHAMPION
 	.2byte  ITEM_CARD_GATLING_DRAGON
 	.2byte  ITEM_CARD_GIANT_RAT
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_BESTIARI
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_GAIODIAZ
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_HERAKLINOS
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_HOPLOMUS
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_LAQUARI
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_MURMILLO
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_SECUTOR
 	.2byte  ITEM_CARD_GOLEM_SENTRY
-	.2byte  ITEM_CARD_GOOD_GOBLIN_HOUSEKEEPING
-	.2byte  ITEM_CARD_GRANDMASTER_OF_THE_SIX_SAMURAI
+	.2byte  ITEM_CARD_GRAVEKEEPER_S_ASSAILANT
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_GUARD
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_SPY
-	.2byte  ITEM_CARD_GREAT_SHOGUN_SHIEN
 	.2byte  ITEM_CARD_GYAKU_GIRE_PANDA
 	.2byte  ITEM_CARD_HAMMER_SHOT
-	.2byte  ITEM_CARD_HUNTER_OWL
-	.2byte  ITEM_CARD_HYDROGEDDON
 	.2byte  ITEM_CARD_ICARUS_ATTACK
 	.2byte  ITEM_CARD_INJECTION_FAIRY_LILY
 	.2byte  ITEM_CARD_JAR_OF_GREED
+	.2byte  ITEM_CARD_JUST_DESSERTS
 	.2byte  ITEM_CARD_KING_DRAGUN
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
 	.2byte  ITEM_CARD_LABYRINTH_TANK
@@ -14487,40 +12586,41 @@ InsideOfTruck_PokemartPerfectCircleBanlist:
 	.2byte  ITEM_CARD_MY_BODY_AS_A_SHIELD
 	.2byte  ITEM_CARD_MYSTIC_TOMATO
 	.2byte  ITEM_CARD_MYSTIK_WOK
-	.2byte  ITEM_CARD_NEWDORIA
+	.2byte  ITEM_CARD_NECROVALLEY
 	.2byte  ITEM_CARD_NIMBLE_MOMONGA
+	.2byte  ITEM_CARD_OFFERINGS_TO_THE_DOOMED
 	.2byte  ITEM_CARD_OJAMA_KING
 	.2byte  ITEM_CARD_OJAMA_TRIO
 	.2byte  ITEM_CARD_PHOENIX_WING_WIND_BLAST
+	.2byte  ITEM_CARD_PROTECTOR_OF_THE_SANCTUARY
 	.2byte  ITEM_CARD_PULLING_THE_RUG
+	.2byte  ITEM_CARD_PYRAMID_TURTLE
 	.2byte  ITEM_CARD_RAIZA_THE_STORM_MONARCH
 	.2byte  ITEM_CARD_REAPER_ON_THE_NIGHTMARE
 	.2byte  ITEM_CARD_REASONING
 	.2byte  ITEM_CARD_RESCUE_CAT
 	.2byte  ITEM_CARD_RETURN_FROM_THE_DIFFERENT_DIMENSION
 	.2byte  ITEM_CARD_RISING_AIR_CURRENT
-	.2byte  ITEM_CARD_ROYAL_OPPRESSION
+	.2byte  ITEM_CARD_RYU_KOKKI
 	.2byte  ITEM_CARD_RYU_SENSHI
 	.2byte  ITEM_CARD_SAKURETSU_ARMOR
+	.2byte  ITEM_CARD_SECRET_BARREL
 	.2byte  ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT
-	.2byte  ITEM_CARD_SHIELD_CRUSH
 	.2byte  ITEM_CARD_SHRINK
 	.2byte  ITEM_CARD_SOLEMN_JUDGMENT
 	.2byte  ITEM_CARD_SOUL_EXCHANGE
 	.2byte  ITEM_CARD_SOUL_TAKER
+	.2byte  ITEM_CARD_STRIKE_NINJA
 	.2byte  ITEM_CARD_SYSTEM_DOWN
 	.2byte  ITEM_CARD_TEST_TIGER
 	.2byte  ITEM_CARD_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_IROU
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_YAICHI
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_ZANJI
 	.2byte  ITEM_CARD_THREATENING_ROAR
-	.2byte  ITEM_CARD_TRADE_IN
+	.2byte  ITEM_CARD_TWISTER
 	.2byte  ITEM_CARD_VANITY_S_FIEND
 	.2byte  ITEM_CARD_WABOKU
 	.2byte  ITEM_CARD_WAVE_MOTION_CANNON
-	.2byte  ITEM_CARD_WINGED_RHYNOS
 	.2byte  ITEM_CARD_ZABORG_THE_THUNDER_MONARCH
+	.2byte  ITEM_CARD_ZOMBIE_MASTER
 	pokemartlistend
 
 InsideOfTruck_EventScript_Clerk_DADReturnBanlist::
@@ -14555,13 +12655,11 @@ InsideOfTruck_PokemartDADReturnBanlist:
 	.2byte  ITEM_CARD_LEVEL_LIMIT_AREA_B
 	.2byte  ITEM_CARD_LIMITER_REMOVAL
 	.2byte  ITEM_CARD_MAGIC_CYLINDER
-	.2byte  ITEM_CARD_MARSHMALLON
 	.2byte  ITEM_CARD_MIND_CRUSH
 	.2byte  ITEM_CARD_MIRROR_FORCE
 	.2byte  ITEM_CARD_MONSTER_REBORN
 	.2byte  ITEM_CARD_MORPHING_JAR
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
-	.2byte  ITEM_CARD_NEO_SPACIAN_GRAND_MOLE
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
 	.2byte  ITEM_CARD_OJAMA_TRIO
 	.2byte  ITEM_CARD_PREMATURE_BURIAL
@@ -14572,7 +12670,6 @@ InsideOfTruck_PokemartDADReturnBanlist:
 	.2byte  ITEM_CARD_SNIPE_HUNTER
 	.2byte  ITEM_CARD_SPIRIT_REAPER
 	.2byte  ITEM_CARD_SWORDS_OF_REVEALING_LIGHT
-	.2byte  ITEM_CARD_THE_TRANSMIGRATION_PROPHECY
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
 	.2byte  ITEM_CARD_TRAP_DUSTSHOOT
 	.2byte  ITEM_CARD_TREEBORN_FROG
@@ -14581,7 +12678,6 @@ InsideOfTruck_PokemartDADReturnBanlist:
 	.2byte  ITEM_CARD_DESTINY_HERO_MALICIOUS
 	.2byte  ITEM_CARD_FOOLISH_BURIAL
 	.2byte  ITEM_CARD_LIGHT_AND_DARKNESS_DRAGON
-	.2byte  ITEM_CARD_MAGICAL_STONE_EXCAVATION
 	.2byte  ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
 	.2byte  ITEM_CARD_ROYAL_DECREE
 	.2byte  ITEM_CARD_7_COLORED_FISH
@@ -14607,18 +12703,14 @@ InsideOfTruck_PokemartDADReturnBanlist:
 	.2byte  ITEM_CARD_CYBER_TWIN_DRAGON
 	.2byte  ITEM_CARD_CYBER_VALLEY
 	.2byte  ITEM_CARD_D_D_CROW
-	.2byte  ITEM_CARD_D_D_DESIGNATOR
 	.2byte  ITEM_CARD_D_D_SURVIVOR
-	.2byte  ITEM_CARD_D_D_R_DIFFERENT_DIMENSION_REINCARNATION
 	.2byte  ITEM_CARD_DARK_ARMED_DRAGON
 	.2byte  ITEM_CARD_DARK_BALTER_THE_TERRIBLE
 	.2byte  ITEM_CARD_DARK_BLADE_THE_DRAGON_KNIGHT
-	.2byte  ITEM_CARD_DARK_BRIBE
 	.2byte  ITEM_CARD_DARK_GREPHER
 	.2byte  ITEM_CARD_DARK_MAGICIAN_GIRL
 	.2byte  ITEM_CARD_DARK_MIMIC_LV3
 	.2byte  ITEM_CARD_DARK_NEPHTHYS
-	.2byte  ITEM_CARD_DARK_WORLD_DEALINGS
 	.2byte  ITEM_CARD_DARKFIRE_DRAGON
 	.2byte  ITEM_CARD_DARKLORD_ZERATO
 	.2byte  ITEM_CARD_DECK_DEVASTATION_VIRUS
@@ -14627,45 +12719,35 @@ InsideOfTruck_PokemartDADReturnBanlist:
 	.2byte  ITEM_CARD_DESTINY_DRAW
 	.2byte  ITEM_CARD_DESTINY_HERO_DASHER
 	.2byte  ITEM_CARD_DESTINY_HERO_DIAMOND_DUDE
-	.2byte  ITEM_CARD_DESTINY_HERO_DOOM_LORD
 	.2byte  ITEM_CARD_DESTINY_HERO_FEAR_MONGER
-	.2byte  ITEM_CARD_DESTINY_HERO_PLASMA
 	.2byte  ITEM_CARD_DIMENSION_WALL
 	.2byte  ITEM_CARD_DIMENSIONAL_FISSURE
 	.2byte  ITEM_CARD_DIMENSIONAL_PRISON
-	.2byte  ITEM_CARD_DIVINE_SWORD_PHOENIX_BLADE
 	.2byte  ITEM_CARD_DIVINE_WRATH
 	.2byte  ITEM_CARD_DON_ZALOOG
 	.2byte  ITEM_CARD_DOOMCALIBER_KNIGHT
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DRILLROID
 	.2byte  ITEM_CARD_DUST_TORNADO
-	.2byte  ITEM_CARD_E_EMERGENCY_CALL
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
 	.2byte  ITEM_CARD_ESCAPE_FROM_THE_DARK_DIMENSION
 	.2byte  ITEM_CARD_EXILED_FORCE
 	.2byte  ITEM_CARD_FIEND_SKULL_DRAGON
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_GAIA_THE_DRAGON_CHAMPION
 	.2byte  ITEM_CARD_GATLING_DRAGON
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_BESTIARI
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_DARIUS
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_GAIODIAZ
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_HERAKLINOS
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_HOPLOMUS
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_LAQUARI
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_MURMILLO
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_SECUTOR
-	.2byte  ITEM_CARD_GLADIATOR_PROVING_GROUND
 	.2byte  ITEM_CARD_GOBLIN_ZOMBIE
-	.2byte  ITEM_CARD_GRANDMASTER_OF_THE_SIX_SAMURAI
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_GUARD
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_SPY
-	.2byte  ITEM_CARD_GREAT_SHOGUN_SHIEN
-	.2byte  ITEM_CARD_GREEN_GADGET
 	.2byte  ITEM_CARD_HALLOWED_LIFE_BARRIER
 	.2byte  ITEM_CARD_HAMMER_SHOT
-	.2byte  ITEM_CARD_HAND_DESTRUCTION
-	.2byte  ITEM_CARD_IL_BLUD
 	.2byte  ITEM_CARD_JINZO
 	.2byte  ITEM_CARD_KING_DRAGUN
 	.2byte  ITEM_CARD_KING_TIGER_WANGHU
@@ -14688,59 +12770,44 @@ InsideOfTruck_PokemartDADReturnBanlist:
 	.2byte  ITEM_CARD_NEKO_MANE_KING
 	.2byte  ITEM_CARD_NEO_SPACIAN_DARK_PANTHER
 	.2byte  ITEM_CARD_OJAMA_KING
-	.2byte  ITEM_CARD_OLD_VINDICTIVE_MAGICIAN
-	.2byte  ITEM_CARD_PHANTOM_OF_CHAOS
 	.2byte  ITEM_CARD_PHOENIX_WING_WIND_BLAST
 	.2byte  ITEM_CARD_POT_OF_AVARICE
-	.2byte  ITEM_CARD_PRIME_MATERIAL_DRAGON
-	.2byte  ITEM_CARD_PROMETHEUS_KING_OF_THE_SHADOWS
 	.2byte  ITEM_CARD_PROTECTOR_OF_THE_SANCTUARY
 	.2byte  ITEM_CARD_PULLING_THE_RUG
 	.2byte  ITEM_CARD_PUPPET_PLANT
 	.2byte  ITEM_CARD_PYRAMID_TURTLE
 	.2byte  ITEM_CARD_RAIGEKI_BREAK
-	.2byte  ITEM_CARD_RAINBOW_LIFE
 	.2byte  ITEM_CARD_REAPER_ON_THE_NIGHTMARE
 	.2byte  ITEM_CARD_REASONING
-	.2byte  ITEM_CARD_RED_GADGET
 	.2byte  ITEM_CARD_RESCUE_CAT
 	.2byte  ITEM_CARD_RETURN_FROM_THE_DIFFERENT_DIMENSION
-	.2byte  ITEM_CARD_RING_OF_DEFENSE
 	.2byte  ITEM_CARD_ROYAL_MAGICAL_LIBRARY
 	.2byte  ITEM_CARD_ROYAL_OPPRESSION
 	.2byte  ITEM_CARD_RYU_KOKKI
 	.2byte  ITEM_CARD_RYU_SENSHI
 	.2byte  ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT
 	.2byte  ITEM_CARD_SHADOW_IMPRISONING_MIRROR
-	.2byte  ITEM_CARD_SHIELD_CRUSH
 	.2byte  ITEM_CARD_SHRINK
 	.2byte  ITEM_CARD_SILLVA_WARLORD_OF_DARK_WORLD
 	.2byte  ITEM_CARD_SIX_SAMURAI_UNITED
 	.2byte  ITEM_CARD_SKILL_DRAIN
 	.2byte  ITEM_CARD_SOLEMN_JUDGMENT
 	.2byte  ITEM_CARD_SOUL_EXCHANGE
-	.2byte  ITEM_CARD_SOUL_RELEASE
 	.2byte  ITEM_CARD_SOUL_TAKER
 	.2byte  ITEM_CARD_SPELL_CANCELLER
 	.2byte  ITEM_CARD_STRIKE_NINJA
 	.2byte  ITEM_CARD_TEST_TIGER
-	.2byte  ITEM_CARD_THE_BEGINNING_OF_THE_END
 	.2byte  ITEM_CARD_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_IROU
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_YAICHI
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_ZANJI
 	.2byte  ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH
 	.2byte  ITEM_CARD_THREATENING_ROAR
 	.2byte  ITEM_CARD_THUNDER_DRAGON
 	.2byte  ITEM_CARD_TOON_CANNON_SOLDIER
 	.2byte  ITEM_CARD_TOON_TABLE_OF_CONTENTS
-	.2byte  ITEM_CARD_TRADE_IN
 	.2byte  ITEM_CARD_TWISTER
 	.2byte  ITEM_CARD_UPSTART_GOBLIN
 	.2byte  ITEM_CARD_VANITY_S_FIEND
 	.2byte  ITEM_CARD_WABOKU
 	.2byte  ITEM_CARD_WAVE_MOTION_CANNON
-	.2byte  ITEM_CARD_YELLOW_GADGET
 	.2byte  ITEM_CARD_ZABORG_THE_THUNDER_MONARCH
 	.2byte  ITEM_CARD_ZOMBIE_MASTER
 	.2byte  ITEM_CARD_ZOMBYRA_THE_DARK
@@ -14776,7 +12843,6 @@ InsideOfTruck_PokemartGladiatorBanlist:
 	.2byte  ITEM_CARD_MONSTER_REBORN
 	.2byte  ITEM_CARD_MORPHING_JAR
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
-	.2byte  ITEM_CARD_NEO_SPACIAN_GRAND_MOLE
 	.2byte  ITEM_CARD_NIGHT_ASSAILANT
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
 	.2byte  ITEM_CARD_PREMATURE_BURIAL
@@ -14787,7 +12853,6 @@ InsideOfTruck_PokemartGladiatorBanlist:
 	.2byte  ITEM_CARD_SMASHING_GROUND
 	.2byte  ITEM_CARD_SNIPE_HUNTER
 	.2byte  ITEM_CARD_SPIRIT_REAPER
-	.2byte  ITEM_CARD_THE_TRANSMIGRATION_PROPHECY
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
 	.2byte  ITEM_CARD_TRAP_DUSTSHOOT
 	.2byte  ITEM_CARD_TREEBORN_FROG
@@ -14819,36 +12884,29 @@ InsideOfTruck_PokemartGladiatorBanlist:
 	.2byte  ITEM_CARD_CYBER_VALLEY
 	.2byte  ITEM_CARD_D_D_ASSAILANT
 	.2byte  ITEM_CARD_D_D_CROW
-	.2byte  ITEM_CARD_D_D_WARRIOR
-	.2byte  ITEM_CARD_D_D_R_DIFFERENT_DIMENSION_REINCARNATION
 	.2byte  ITEM_CARD_DARK_ARMED_DRAGON
 	.2byte  ITEM_CARD_DARK_BALTER_THE_TERRIBLE
 	.2byte  ITEM_CARD_DARK_BLADE_THE_DRAGON_KNIGHT
-	.2byte  ITEM_CARD_DARK_BRIBE
 	.2byte  ITEM_CARD_DARK_FLARE_KNIGHT
 	.2byte  ITEM_CARD_DARK_GREPHER
 	.2byte  ITEM_CARD_DARK_SCORPION_CLIFF_THE_TRAP_REMOVER
 	.2byte  ITEM_CARD_DARKLORD_ZERATO
 	.2byte  ITEM_CARD_DECK_DEVASTATION_VIRUS
-	.2byte  ITEM_CARD_DECK_LOCKDOWN
 	.2byte  ITEM_CARD_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE
 	.2byte  ITEM_CARD_DESTINY_DRAW
 	.2byte  ITEM_CARD_DESTINY_HERO_DASHER
 	.2byte  ITEM_CARD_DESTINY_HERO_FEAR_MONGER
-	.2byte  ITEM_CARD_DESTINY_HERO_PLASMA
 	.2byte  ITEM_CARD_DIMENSIONAL_PRISON
 	.2byte  ITEM_CARD_DIVINE_WRATH
 	.2byte  ITEM_CARD_DOOMCALIBER_KNIGHT
 	.2byte  ITEM_CARD_DUST_TORNADO
-	.2byte  ITEM_CARD_E_EMERGENCY_CALL
-	.2byte  ITEM_CARD_EHREN_LIGHTSWORN_MONK
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN
-	.2byte  ITEM_CARD_ELEMENTAL_HERO_NEOS_ALIUS
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_PRISMA
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
 	.2byte  ITEM_CARD_EXILED_FORCE
 	.2byte  ITEM_CARD_FLAME_SWORDSMAN
 	.2byte  ITEM_CARD_FOSSIL_DYNA_PACHYCEPHALO
+	.2byte  ITEM_CARD_GAIA_KNIGHT_THE_FORCE_OF_EARTH
 	.2byte  ITEM_CARD_GAIA_THE_DRAGON_CHAMPION
 	.2byte  ITEM_CARD_GAROTH_LIGHTSWORN_WARRIOR
 	.2byte  ITEM_CARD_GATLING_DRAGON
@@ -14857,24 +12915,17 @@ InsideOfTruck_PokemartGladiatorBanlist:
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_GAIODIAZ
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_GYZARUS
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_HERAKLINOS
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_HOPLOMUS
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_LAQUARI
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_MURMILLO
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_SECUTOR
-	.2byte  ITEM_CARD_GLADIATOR_PROVING_GROUND
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_GUARD
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_SPY
-	.2byte  ITEM_CARD_HERO_BLAST
-	.2byte  ITEM_CARD_HERO_S_RULE_2
 	.2byte  ITEM_CARD_HONEST
-	.2byte  ITEM_CARD_JAIN_LIGHTSWORN_PALADIN
 	.2byte  ITEM_CARD_JINZO
 	.2byte  ITEM_CARD_JUDGMENT_DRAGON
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
 	.2byte  ITEM_CARD_LEGENDARY_JUJITSU_MASTER
 	.2byte  ITEM_CARD_LIGHT_IMPRISONING_MIRROR
 	.2byte  ITEM_CARD_LIGHTNING_VORTEX
-	.2byte  ITEM_CARD_LIMIT_REVERSE
 	.2byte  ITEM_CARD_LUMINA_LIGHTSWORN_SUMMONER
 	.2byte  ITEM_CARD_LYLA_LIGHTSWORN_SORCERESS
 	.2byte  ITEM_CARD_MACRO_COSMOS
@@ -14883,7 +12934,6 @@ InsideOfTruck_PokemartGladiatorBanlist:
 	.2byte  ITEM_CARD_MIND_CONTROL
 	.2byte  ITEM_CARD_MOBIUS_THE_FROST_MONARCH
 	.2byte  ITEM_CARD_MONSTER_REINCARNATION
-	.2byte  ITEM_CARD_MUKO
 	.2byte  ITEM_CARD_MY_BODY_AS_A_SHIELD
 	.2byte  ITEM_CARD_MYSTIC_SWORDSMAN_LV2
 	.2byte  ITEM_CARD_NECRO_GARDNA
@@ -14891,12 +12941,9 @@ InsideOfTruck_PokemartGladiatorBanlist:
 	.2byte  ITEM_CARD_NINJA_GRANDMASTER_SASUKE
 	.2byte  ITEM_CARD_NOBLEMAN_OF_EXTERMINATION
 	.2byte  ITEM_CARD_OJAMA_KING
-	.2byte  ITEM_CARD_PHANTOM_OF_CHAOS
 	.2byte  ITEM_CARD_PHOENIX_WING_WIND_BLAST
 	.2byte  ITEM_CARD_POT_OF_AVARICE
-	.2byte  ITEM_CARD_PRIME_MATERIAL_DRAGON
 	.2byte  ITEM_CARD_PROHIBITION
-	.2byte  ITEM_CARD_PROMETHEUS_KING_OF_THE_SHADOWS
 	.2byte  ITEM_CARD_PULLING_THE_RUG
 	.2byte  ITEM_CARD_REAPER_ON_THE_NIGHTMARE
 	.2byte  ITEM_CARD_RECKLESS_GREED
@@ -14906,7 +12953,6 @@ InsideOfTruck_PokemartGladiatorBanlist:
 	.2byte  ITEM_CARD_RYKO_LIGHTSWORN_HUNTER
 	.2byte  ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT
 	.2byte  ITEM_CARD_SHADOW_IMPRISONING_MIRROR
-	.2byte  ITEM_CARD_SHIELD_CRUSH
 	.2byte  ITEM_CARD_SHRINK
 	.2byte  ITEM_CARD_SKILL_DRAIN
 	.2byte  ITEM_CARD_SOLAR_RECHARGE
@@ -14916,7 +12962,6 @@ InsideOfTruck_PokemartGladiatorBanlist:
 	.2byte  ITEM_CARD_TEST_TIGER
 	.2byte  ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH
 	.2byte  ITEM_CARD_THREATENING_ROAR
-	.2byte  ITEM_CARD_TRADE_IN
 	.2byte  ITEM_CARD_TWISTER
 	.2byte  ITEM_CARD_UPSTART_GOBLIN
 	.2byte  ITEM_CARD_VANITY_S_FIEND
@@ -14953,7 +12998,6 @@ InsideOfTruck_PokemartTeleDADBanlist:
 	.2byte  ITEM_CARD_MONSTER_REBORN
 	.2byte  ITEM_CARD_MORPHING_JAR
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
-	.2byte  ITEM_CARD_NEO_SPACIAN_GRAND_MOLE
 	.2byte  ITEM_CARD_RAIZA_THE_STORM_MONARCH
 	.2byte  ITEM_CARD_RETURN_FROM_THE_DIFFERENT_DIMENSION
 	.2byte  ITEM_CARD_SANGAN
@@ -14992,34 +13036,27 @@ InsideOfTruck_PokemartTeleDADBanlist:
 	.2byte  ITEM_CARD_DESTINY_DRAW
 	.2byte  ITEM_CARD_DESTINY_HERO_DASHER
 	.2byte  ITEM_CARD_DESTINY_HERO_DIAMOND_DUDE
-	.2byte  ITEM_CARD_DESTINY_HERO_DOOM_LORD
 	.2byte  ITEM_CARD_DESTINY_HERO_MALICIOUS
-	.2byte  ITEM_CARD_DESTINY_HERO_PLASMA
 	.2byte  ITEM_CARD_DIMENSIONAL_PRISON
 	.2byte  ITEM_CARD_DIVINE_WRATH
+	.2byte  ITEM_CARD_DOOMKAISER_DRAGON
 	.2byte  ITEM_CARD_DUST_TORNADO
-	.2byte  ITEM_CARD_EHREN_LIGHTSWORN_MONK
 	.2byte  ITEM_CARD_EMERGENCY_TELEPORT
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
 	.2byte  ITEM_CARD_GAROTH_LIGHTSWORN_WARRIOR
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_BESTIARI
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_DARIUS
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_EQUESTE
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_GAIODIAZ
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_GYZARUS
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_HERAKLINOS
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_HOPLOMUS
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_LAQUARI
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_MURMILLO
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_WAR_CHARIOT
-	.2byte  ITEM_CARD_GLADIATOR_PROVING_GROUND
 	.2byte  ITEM_CARD_GOBLIN_ZOMBIE
 	.2byte  ITEM_CARD_GOYO_GUARDIAN
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_GUARD
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_SPY
 	.2byte  ITEM_CARD_HONEST
 	.2byte  ITEM_CARD_IMPERIAL_IRON_WALL
-	.2byte  ITEM_CARD_JAIN_LIGHTSWORN_PALADIN
 	.2byte  ITEM_CARD_KREBONS
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
 	.2byte  ITEM_CARD_LEGENDARY_JUJITSU_MASTER
@@ -15039,8 +13076,6 @@ InsideOfTruck_PokemartTeleDADBanlist:
 	.2byte  ITEM_CARD_PHOENIX_WING_WIND_BLAST
 	.2byte  ITEM_CARD_PLAGUESPREADER_ZOMBIE
 	.2byte  ITEM_CARD_PROHIBITION
-	.2byte  ITEM_CARD_PROMETHEUS_KING_OF_THE_SHADOWS
-	.2byte  ITEM_CARD_PSYCHIC_COMMANDER
 	.2byte  ITEM_CARD_PYRAMID_TURTLE
 	.2byte  ITEM_CARD_RECKLESS_GREED
 	.2byte  ITEM_CARD_RED_DRAGON_ARCHFIEND
@@ -15048,7 +13083,6 @@ InsideOfTruck_PokemartTeleDADBanlist:
 	.2byte  ITEM_CARD_ROYAL_DECREE
 	.2byte  ITEM_CARD_ROYAL_OPPRESSION
 	.2byte  ITEM_CARD_RYKO_LIGHTSWORN_HUNTER
-	.2byte  ITEM_CARD_SECRET_VILLAGE_OF_THE_SPELLCASTERS
 	.2byte  ITEM_CARD_SHADOW_IMPRISONING_MIRROR
 	.2byte  ITEM_CARD_SHRINK
 	.2byte  ITEM_CARD_SKILL_DRAIN
@@ -15056,6 +13090,7 @@ InsideOfTruck_PokemartTeleDADBanlist:
 	.2byte  ITEM_CARD_SOLEMN_JUDGMENT
 	.2byte  ITEM_CARD_SOUL_EXCHANGE
 	.2byte  ITEM_CARD_STARDUST_DRAGON
+	.2byte  ITEM_CARD_TEMPEST_MAGICIAN
 	.2byte  ITEM_CARD_THOUGHT_RULER_ARCHFIEND
 	.2byte  ITEM_CARD_THREATENING_ROAR
 	.2byte  ITEM_CARD_THUNDER_KING_RAI_OH
@@ -15102,12 +13137,10 @@ InsideOfTruck_PokemartCatBanlist:
 	.2byte  ITEM_CARD_GOYO_GUARDIAN
 	.2byte  ITEM_CARD_HEAVY_STORM
 	.2byte  ITEM_CARD_MAGIC_CYLINDER
-	.2byte  ITEM_CARD_MARSHMALLON
 	.2byte  ITEM_CARD_MIRROR_FORCE
 	.2byte  ITEM_CARD_MONSTER_REBORN
 	.2byte  ITEM_CARD_MORPHING_JAR
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
-	.2byte  ITEM_CARD_NEO_SPACIAN_GRAND_MOLE
 	.2byte  ITEM_CARD_PLAGUESPREADER_ZOMBIE
 	.2byte  ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
 	.2byte  ITEM_CARD_RETURN_FROM_THE_DIFFERENT_DIMENSION
@@ -15117,7 +13150,6 @@ InsideOfTruck_PokemartCatBanlist:
 	.2byte  ITEM_CARD_SNIPE_HUNTER
 	.2byte  ITEM_CARD_SPIRIT_REAPER
 	.2byte  ITEM_CARD_SWORDS_OF_REVEALING_LIGHT
-	.2byte  ITEM_CARD_THE_TRANSMIGRATION_PROPHECY
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
 	.2byte  ITEM_CARD_TRAP_DUSTSHOOT
 	.2byte  ITEM_CARD_ALLURE_OF_DARKNESS
@@ -15131,11 +13163,10 @@ InsideOfTruck_PokemartCatBanlist:
 	.2byte  ITEM_CARD_RESCUE_CAT
 	.2byte  ITEM_CARD_SUMMONER_MONK
 	.2byte  ITEM_CARD_ARCANITE_MAGICIAN
+	.2byte  ITEM_CARD_ARMORY_ARM
 	.2byte  ITEM_CARD_AURKUS_LIGHTSWORN_DRUID
-	.2byte  ITEM_CARD_AUTONOMOUS_ACTION_UNIT
 	.2byte  ITEM_CARD_BECKONING_LIGHT
 	.2byte  ITEM_CARD_BLACK_ROSE_DRAGON
-	.2byte  ITEM_CARD_BLACK_SALVO
 	.2byte  ITEM_CARD_BLACK_WHIRLWIND
 	.2byte  ITEM_CARD_BLACKWING_BLIZZARD_THE_FAR_NORTH
 	.2byte  ITEM_CARD_BLACKWING_BORA_THE_SPEAR
@@ -15157,54 +13188,37 @@ InsideOfTruck_PokemartCatBanlist:
 	.2byte  ITEM_CARD_COMPULSORY_EVACUATION_DEVICE
 	.2byte  ITEM_CARD_CYBER_VALLEY
 	.2byte  ITEM_CARD_D_D_CROW
-	.2byte  ITEM_CARD_DARK_BRIBE
 	.2byte  ITEM_CARD_DARK_DEAL
 	.2byte  ITEM_CARD_DARK_GREPHER
 	.2byte  ITEM_CARD_DARK_STRIKE_FIGHTER
-	.2byte  ITEM_CARD_DARK_WORLD_DEALINGS
 	.2byte  ITEM_CARD_DEBRIS_DRAGON
 	.2byte  ITEM_CARD_DECK_DEVASTATION_VIRUS
-	.2byte  ITEM_CARD_DECK_LOCKDOWN
 	.2byte  ITEM_CARD_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE
-	.2byte  ITEM_CARD_DELTA_CROW_ANTI_REVERSE
 	.2byte  ITEM_CARD_DES_KOALA
 	.2byte  ITEM_CARD_DESTINY_HERO_DIAMOND_DUDE
 	.2byte  ITEM_CARD_DESTINY_HERO_FEAR_MONGER
-	.2byte  ITEM_CARD_DESTINY_HERO_PLASMA
 	.2byte  ITEM_CARD_DIMENSIONAL_FISSURE
 	.2byte  ITEM_CARD_DIMENSIONAL_PRISON
-	.2byte  ITEM_CARD_DIVINE_SWORD_PHOENIX_BLADE
 	.2byte  ITEM_CARD_DIVINE_WRATH
 	.2byte  ITEM_CARD_DOOMCALIBER_KNIGHT
 	.2byte  ITEM_CARD_DUST_TORNADO
-	.2byte  ITEM_CARD_E_EMERGENCY_CALL
-	.2byte  ITEM_CARD_EHREN_LIGHTSWORN_MONK
-	.2byte  ITEM_CARD_ELEMENTAL_HERO_NEOS_ALIUS
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_PRISMA
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
 	.2byte  ITEM_CARD_FOSSIL_DYNA_PACHYCEPHALO
+	.2byte  ITEM_CARD_GAIA_KNIGHT_THE_FORCE_OF_EARTH
 	.2byte  ITEM_CARD_GAROTH_LIGHTSWORN_WARRIOR
 	.2byte  ITEM_CARD_GIANT_ORC
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_DARIUS
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_EQUESTE
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_GYZARUS
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_HERAKLINOS
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_HOPLOMUS
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_LAQUARI
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_MURMILLO
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_SAMNITE
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_SECUTOR
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_WAR_CHARIOT
-	.2byte  ITEM_CARD_GLADIATOR_PROVING_GROUND
 	.2byte  ITEM_CARD_GOLDD_WU_LORD_OF_DARK_WORLD
-	.2byte  ITEM_CARD_GRAVE_OF_THE_SUPER_ANCIENT_ORGANISM
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_GUARD
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_SPY
 	.2byte  ITEM_CARD_HONEST
 	.2byte  ITEM_CARD_ICARUS_ATTACK
 	.2byte  ITEM_CARD_IMPERIAL_IRON_WALL
-	.2byte  ITEM_CARD_JAIN_LIGHTSWORN_PALADIN
-	.2byte  ITEM_CARD_KAISER_COLOSSEUM
 	.2byte  ITEM_CARD_KING_TIGER_WANGHU
 	.2byte  ITEM_CARD_KREBONS
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
@@ -15229,12 +13243,9 @@ InsideOfTruck_PokemartCatBanlist:
 	.2byte  ITEM_CARD_NEO_SPACIAN_DARK_PANTHER
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
 	.2byte  ITEM_CARD_NOBLEMAN_OF_EXTERMINATION
-	.2byte  ITEM_CARD_PHANTOM_DRAGON
-	.2byte  ITEM_CARD_PHANTOM_OF_CHAOS
 	.2byte  ITEM_CARD_PHOENIX_WING_WIND_BLAST
 	.2byte  ITEM_CARD_POT_OF_AVARICE
 	.2byte  ITEM_CARD_PROHIBITION
-	.2byte  ITEM_CARD_PSYCHIC_COMMANDER
 	.2byte  ITEM_CARD_RECKLESS_GREED
 	.2byte  ITEM_CARD_RED_DRAGON_ARCHFIEND
 	.2byte  ITEM_CARD_ROYAL_DECREE
@@ -15247,9 +13258,9 @@ InsideOfTruck_PokemartCatBanlist:
 	.2byte  ITEM_CARD_SOLAR_RECHARGE
 	.2byte  ITEM_CARD_SOLEMN_JUDGMENT
 	.2byte  ITEM_CARD_SOUL_EXCHANGE
-	.2byte  ITEM_CARD_SOUL_RELEASE
 	.2byte  ITEM_CARD_STARDUST_DRAGON
 	.2byte  ITEM_CARD_SUMMON_LIMIT
+	.2byte  ITEM_CARD_TEMPEST_MAGICIAN
 	.2byte  ITEM_CARD_TEST_TIGER
 	.2byte  ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH
 	.2byte  ITEM_CARD_THOUGHT_RULER_ARCHFIEND
@@ -15260,10 +13271,10 @@ InsideOfTruck_PokemartCatBanlist:
 	.2byte  ITEM_CARD_TRAP_HOLE
 	.2byte  ITEM_CARD_TRAP_STUN
 	.2byte  ITEM_CARD_TWISTER
-	.2byte  ITEM_CARD_TYTANNIAL_PRINCESS_OF_CAMELLIAS
 	.2byte  ITEM_CARD_WABOKU
 	.2byte  ITEM_CARD_WULF_LIGHTSWORN_BEAST
 	.2byte  ITEM_CARD_X_SABER_AIRBELLUM
+	.2byte  ITEM_CARD_X_SABER_URBELLUM
 	.2byte  ITEM_CARD_ZOMBYRA_THE_DARK
 	pokemartlistend
 
@@ -15297,7 +13308,6 @@ InsideOfTruck_PokemartEdisonBanlist:
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_STRATOS
 	.2byte  ITEM_CARD_EMERGENCY_TELEPORT
 	.2byte  ITEM_CARD_FOOLISH_BURIAL
-	.2byte  ITEM_CARD_FUTURE_FUSION
 	.2byte  ITEM_CARD_GIANT_TRUNADE
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_BESTIARI
 	.2byte  ITEM_CARD_GORZ_THE_EMISSARY_OF_DARKNESS
@@ -15314,7 +13324,6 @@ InsideOfTruck_PokemartEdisonBanlist:
 	.2byte  ITEM_CARD_MORPHING_JAR
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
 	.2byte  ITEM_CARD_NECRO_GARDNA
-	.2byte  ITEM_CARD_ONE_FOR_ONE
 	.2byte  ITEM_CARD_OVERLOAD_FUSION
 	.2byte  ITEM_CARD_PLAGUESPREADER_ZOMBIE
 	.2byte  ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
@@ -15326,7 +13335,6 @@ InsideOfTruck_PokemartEdisonBanlist:
 	.2byte  ITEM_CARD_SOLEMN_JUDGMENT
 	.2byte  ITEM_CARD_SPIRIT_REAPER
 	.2byte  ITEM_CARD_SUMMONER_MONK
-	.2byte  ITEM_CARD_THE_TRANSMIGRATION_PROPHECY
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
 	.2byte  ITEM_CARD_TRAGOEDIA
 	.2byte  ITEM_CARD_TRAP_DUSTSHOOT
@@ -15340,7 +13348,6 @@ InsideOfTruck_PokemartEdisonBanlist:
 	.2byte  ITEM_CARD_HONEST
 	.2byte  ITEM_CARD_JUDGMENT_DRAGON
 	.2byte  ITEM_CARD_LONEFIRE_BLOSSOM
-	.2byte  ITEM_CARD_MAGICAL_STONE_EXCAVATION
 	.2byte  ITEM_CARD_ROYAL_DECREE
 	.2byte  ITEM_CARD_ROYAL_OPPRESSION
 	.2byte  ITEM_CARD_SKILL_DRAIN
@@ -15350,14 +13357,13 @@ InsideOfTruck_PokemartEdisonBanlist:
 	.2byte  ITEM_CARD_ANTI_SPELL_FRAGRANCE
 	.2byte  ITEM_CARD_ARCANITE_MAGICIAN
 	.2byte  ITEM_CARD_ARMAGEDDON_KNIGHT
+	.2byte  ITEM_CARD_ARMORY_ARM
 	.2byte  ITEM_CARD_AURKUS_LIGHTSWORN_DRUID
-	.2byte  ITEM_CARD_AUTONOMOUS_ACTION_UNIT
-	.2byte  ITEM_CARD_BATTLE_FADER
-	.2byte  ITEM_CARD_BECKONING_LIGHT
 	.2byte  ITEM_CARD_BLACKWING_BLIZZARD_THE_FAR_NORTH
 	.2byte  ITEM_CARD_BLACKWING_BORA_THE_SPEAR
 	.2byte  ITEM_CARD_BLACKWING_KALUT_THE_MOON_SHADOW
 	.2byte  ITEM_CARD_BLACKWING_SHURA_THE_BLUE_FLAME
+	.2byte  ITEM_CARD_BLACKWING_SILVERWIND_THE_ASCENDANT
 	.2byte  ITEM_CARD_BLACKWING_SIROCCO_THE_DAWN
 	.2byte  ITEM_CARD_BLACKWING_VAYU_THE_EMBLEM_OF_HONOR
 	.2byte  ITEM_CARD_BLACKWING_ARMED_WING
@@ -15379,7 +13385,6 @@ InsideOfTruck_PokemartEdisonBanlist:
 	.2byte  ITEM_CARD_D_D_ASSAILANT
 	.2byte  ITEM_CARD_D_D_CROW
 	.2byte  ITEM_CARD_D_D_WARRIOR_LADY
-	.2byte  ITEM_CARD_D_D_R_DIFFERENT_DIMENSION_REINCARNATION
 	.2byte  ITEM_CARD_DARK_ELF
 	.2byte  ITEM_CARD_DARK_END_DRAGON
 	.2byte  ITEM_CARD_DARK_GREPHER
@@ -15387,62 +13392,46 @@ InsideOfTruck_PokemartEdisonBanlist:
 	.2byte  ITEM_CARD_DEBRIS_DRAGON
 	.2byte  ITEM_CARD_DECK_DEVASTATION_VIRUS
 	.2byte  ITEM_CARD_DEEP_SEA_DIVA
-	.2byte  ITEM_CARD_DES_FROG
 	.2byte  ITEM_CARD_DIMENSIONAL_PRISON
+	.2byte  ITEM_CARD_DOOMKAISER_DRAGON
+	.2byte  ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
 	.2byte  ITEM_CARD_DUPE_FROG
 	.2byte  ITEM_CARD_DUST_TORNADO
-	.2byte  ITEM_CARD_E_EMERGENCY_CALL
-	.2byte  ITEM_CARD_EHREN_LIGHTSWORN_MONK
-	.2byte  ITEM_CARD_ELEMENTAL_HERO_NEOS_ALIUS
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_PRISMA
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
 	.2byte  ITEM_CARD_ERADICATOR_EPIDEMIC_VIRUS
 	.2byte  ITEM_CARD_ESCAPE_FROM_THE_DARK_DIMENSION
-	.2byte  ITEM_CARD_FISHBORG_BLASTER
 	.2byte  ITEM_CARD_FISSURE
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_FLAMVELL_GUARD
 	.2byte  ITEM_CARD_FLIP_FLOP_FROG
 	.2byte  ITEM_CARD_FORBIDDEN_CHALICE
 	.2byte  ITEM_CARD_FOSSIL_DYNA_PACHYCEPHALO
+	.2byte  ITEM_CARD_GAIA_KNIGHT_THE_FORCE_OF_EARTH
 	.2byte  ITEM_CARD_GAROTH_LIGHTSWORN_WARRIOR
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_DARIUS
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_EQUESTE
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_GYZARUS
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_HERAKLINOS
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_LAQUARI
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_MURMILLO
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_SAMNITE
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_SECUTOR
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_WAR_CHARIOT
-	.2byte  ITEM_CARD_GRAVEKEEPER_S_DESCENDANT
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_SPY
-	.2byte  ITEM_CARD_HIDDEN_ARMORY
 	.2byte  ITEM_CARD_ICARUS_ATTACK
-	.2byte  ITEM_CARD_IMPERIAL_IRON_WALL
 	.2byte  ITEM_CARD_INSTANT_FUSION
-	.2byte  ITEM_CARD_JAIN_LIGHTSWORN_PALADIN
 	.2byte  ITEM_CARD_JAR_OF_GREED
 	.2byte  ITEM_CARD_JINZO
-	.2byte  ITEM_CARD_JUNK_SYNCHRON
 	.2byte  ITEM_CARD_KARMA_CUT
-	.2byte  ITEM_CARD_KOA_KI_MEIRU_DRAGO
 	.2byte  ITEM_CARD_KREBONS
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
-	.2byte  ITEM_CARD_LAVA_GOLEM
 	.2byte  ITEM_CARD_LEGACY_OF_YATA_GARASU
 	.2byte  ITEM_CARD_LEGENDARY_JUJITSU_MASTER
 	.2byte  ITEM_CARD_LIGHT_AND_DARKNESS_DRAGON
 	.2byte  ITEM_CARD_LIGHTNING_VORTEX
 	.2byte  ITEM_CARD_LYLA_LIGHTSWORN_SORCERESS
-	.2byte  ITEM_CARD_MACHINA_FORTRESS
-	.2byte  ITEM_CARD_MACHINA_GEARFRAME
 	.2byte  ITEM_CARD_MAGICAL_ANDROID
 	.2byte  ITEM_CARD_MASK_OF_RESTRICT
-	.2byte  ITEM_CARD_MIRACLE_FUSION
 	.2byte  ITEM_CARD_MIRROR_OF_OATHS
 	.2byte  ITEM_CARD_MIST_WURM
 	.2byte  ITEM_CARD_MONSTER_REINCARNATION
-	.2byte  ITEM_CARD_MORAY_OF_GREED
 	.2byte  ITEM_CARD_MORPHING_JAR_2
 	.2byte  ITEM_CARD_MY_BODY_AS_A_SHIELD
 	.2byte  ITEM_CARD_NEEDLE_CEILING
@@ -15452,8 +13441,6 @@ InsideOfTruck_PokemartEdisonBanlist:
 	.2byte  ITEM_CARD_OFFERINGS_TO_THE_DOOMED
 	.2byte  ITEM_CARD_PHOENIX_WING_WIND_BLAST
 	.2byte  ITEM_CARD_POT_OF_AVARICE
-	.2byte  ITEM_CARD_PRIME_MATERIAL_DRAGON
-	.2byte  ITEM_CARD_PSYCHIC_COMMANDER
 	.2byte  ITEM_CARD_PULLING_THE_RUG
 	.2byte  ITEM_CARD_PYRAMID_TURTLE
 	.2byte  ITEM_CARD_RAIGEKI_BREAK
@@ -15466,32 +13453,29 @@ InsideOfTruck_PokemartEdisonBanlist:
 	.2byte  ITEM_CARD_SALVAGE
 	.2byte  ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT
 	.2byte  ITEM_CARD_SMASHING_GROUND
+	.2byte  ITEM_CARD_SNOWMAN_EATER
 	.2byte  ITEM_CARD_SOLAR_RECHARGE
 	.2byte  ITEM_CARD_SOUL_EXCHANGE
-	.2byte  ITEM_CARD_SOUL_RELEASE
 	.2byte  ITEM_CARD_SPIRITUAL_WATER_ART_AOI
 	.2byte  ITEM_CARD_STARDUST_DRAGON
 	.2byte  ITEM_CARD_STARLIGHT_ROAD
 	.2byte  ITEM_CARD_SUBSTITOAD
 	.2byte  ITEM_CARD_SUPER_REJUVENATION
-	.2byte  ITEM_CARD_SUPER_NIMBLE_MEGA_HAMSTER
 	.2byte  ITEM_CARD_SWAP_FROG
 	.2byte  ITEM_CARD_SYSTEM_DOWN
+	.2byte  ITEM_CARD_TEMPEST_MAGICIAN
 	.2byte  ITEM_CARD_TEST_TIGER
 	.2byte  ITEM_CARD_THE_TRICKY
 	.2byte  ITEM_CARD_THE_WHITE_STONE_OF_LEGEND
 	.2byte  ITEM_CARD_THOUGHT_RULER_ARCHFIEND
 	.2byte  ITEM_CARD_THREATENING_ROAR
-	.2byte  ITEM_CARD_TRADE_IN
 	.2byte  ITEM_CARD_TRAP_HOLE
 	.2byte  ITEM_CARD_TRAP_STUN
-	.2byte  ITEM_CARD_TREACHEROUS_TRAP_HOLE
-	.2byte  ITEM_CARD_TYTANNIAL_PRINCESS_OF_CAMELLIAS
-	.2byte  ITEM_CARD_UNIFROG
 	.2byte  ITEM_CARD_UPSTART_GOBLIN
 	.2byte  ITEM_CARD_VANITY_S_FIEND
 	.2byte  ITEM_CARD_WULF_LIGHTSWORN_BEAST
 	.2byte  ITEM_CARD_X_SABER_AIRBELLUM
+	.2byte  ITEM_CARD_X_SABER_URBELLUM
 	.2byte  ITEM_CARD_XX_SABER_GOTTOMS
 	.2byte  ITEM_CARD_ZOMBIE_MASTER
 	pokemartlistend
@@ -15525,7 +13509,6 @@ InsideOfTruck_PokemartFrogBanlist:
 	.2byte  ITEM_CARD_DARK_ARMED_DRAGON
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_STRATOS
 	.2byte  ITEM_CARD_FOOLISH_BURIAL
-	.2byte  ITEM_CARD_FUTURE_FUSION
 	.2byte  ITEM_CARD_GIANT_TRUNADE
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_BESTIARI
 	.2byte  ITEM_CARD_GORZ_THE_EMISSARY_OF_DARKNESS
@@ -15540,7 +13523,6 @@ InsideOfTruck_PokemartFrogBanlist:
 	.2byte  ITEM_CARD_MORPHING_JAR
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
 	.2byte  ITEM_CARD_NECRO_GARDNA
-	.2byte  ITEM_CARD_ONE_FOR_ONE
 	.2byte  ITEM_CARD_PLAGUESPREADER_ZOMBIE
 	.2byte  ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
 	.2byte  ITEM_CARD_RESCUE_CAT
@@ -15550,7 +13532,6 @@ InsideOfTruck_PokemartFrogBanlist:
 	.2byte  ITEM_CARD_SOLEMN_JUDGMENT
 	.2byte  ITEM_CARD_SPIRIT_REAPER
 	.2byte  ITEM_CARD_SUMMONER_MONK
-	.2byte  ITEM_CARD_THE_TRANSMIGRATION_PROPHECY
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
 	.2byte  ITEM_CARD_TRAGOEDIA
 	.2byte  ITEM_CARD_TRAP_DUSTSHOOT
@@ -15571,18 +13552,16 @@ InsideOfTruck_PokemartFrogBanlist:
 	.2byte  ITEM_CARD_ALLY_OF_JUSTICE_CATASTOR
 	.2byte  ITEM_CARD_ANCIENT_FAIRY_DRAGON
 	.2byte  ITEM_CARD_ANTI_SPELL_FRAGRANCE
-	.2byte  ITEM_CARD_APPOINTER_OF_THE_RED_LOTUS
 	.2byte  ITEM_CARD_ARCANITE_MAGICIAN
-	.2byte  ITEM_CARD_ARCHLORD_KRISTYA
+	.2byte  ITEM_CARD_ARMORY_ARM
 	.2byte  ITEM_CARD_AURKUS_LIGHTSWORN_DRUID
-	.2byte  ITEM_CARD_AUTONOMOUS_ACTION_UNIT
 	.2byte  ITEM_CARD_BANISHER_OF_THE_RADIANCE
-	.2byte  ITEM_CARD_BATTLE_FADER
 	.2byte  ITEM_CARD_BECKONING_LIGHT
 	.2byte  ITEM_CARD_BLACKWING_BLIZZARD_THE_FAR_NORTH
 	.2byte  ITEM_CARD_BLACKWING_BORA_THE_SPEAR
 	.2byte  ITEM_CARD_BLACKWING_KALUT_THE_MOON_SHADOW
 	.2byte  ITEM_CARD_BLACKWING_SHURA_THE_BLUE_FLAME
+	.2byte  ITEM_CARD_BLACKWING_SILVERWIND_THE_ASCENDANT
 	.2byte  ITEM_CARD_BLACKWING_SIROCCO_THE_DAWN
 	.2byte  ITEM_CARD_BLACKWING_VAYU_THE_EMBLEM_OF_HONOR
 	.2byte  ITEM_CARD_BLACKWING_ARMED_WING
@@ -15592,7 +13571,6 @@ InsideOfTruck_PokemartFrogBanlist:
 	.2byte  ITEM_CARD_BOOK_OF_MOON
 	.2byte  ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR
 	.2byte  ITEM_CARD_CAIUS_THE_SHADOW_MONARCH
-	.2byte  ITEM_CARD_CARDS_FOR_BLACK_FEATHERS
 	.2byte  ITEM_CARD_CELESTIA_LIGHTSWORN_ANGEL
 	.2byte  ITEM_CARD_CHIMERATECH_FORTRESS_DRAGON
 	.2byte  ITEM_CARD_COLOSSAL_FIGHTER
@@ -15604,111 +13582,76 @@ InsideOfTruck_PokemartFrogBanlist:
 	.2byte  ITEM_CARD_D_D_CROW
 	.2byte  ITEM_CARD_D_D_WARRIOR_LADY
 	.2byte  ITEM_CARD_DARK_BALTER_THE_TERRIBLE
-	.2byte  ITEM_CARD_DARK_BRIBE
 	.2byte  ITEM_CARD_DARK_GREPHER
 	.2byte  ITEM_CARD_DEBRIS_DRAGON
 	.2byte  ITEM_CARD_DEEP_SEA_DIVA
-	.2byte  ITEM_CARD_DELTA_CROW_ANTI_REVERSE
-	.2byte  ITEM_CARD_DES_FROG
 	.2byte  ITEM_CARD_DIMENSIONAL_FISSURE
 	.2byte  ITEM_CARD_DIMENSIONAL_PRISON
 	.2byte  ITEM_CARD_DIVINE_WRATH
 	.2byte  ITEM_CARD_DOOMCALIBER_KNIGHT
+	.2byte  ITEM_CARD_DOOMKAISER_DRAGON
 	.2byte  ITEM_CARD_DUPE_FROG
 	.2byte  ITEM_CARD_DUST_TORNADO
-	.2byte  ITEM_CARD_E_EMERGENCY_CALL
-	.2byte  ITEM_CARD_EHREN_LIGHTSWORN_MONK
-	.2byte  ITEM_CARD_ELEMENTAL_HERO_NEOS_ALIUS
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_PRISMA
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
 	.2byte  ITEM_CARD_ESCAPE_FROM_THE_DARK_DIMENSION
-	.2byte  ITEM_CARD_FISHBORG_BLASTER
 	.2byte  ITEM_CARD_FISSURE
 	.2byte  ITEM_CARD_FLIP_FLOP_FROG
-	.2byte  ITEM_CARD_FOG_KING
 	.2byte  ITEM_CARD_FOSSIL_DYNA_PACHYCEPHALO
+	.2byte  ITEM_CARD_GAIA_KNIGHT_THE_FORCE_OF_EARTH
 	.2byte  ITEM_CARD_GAROTH_LIGHTSWORN_WARRIOR
 	.2byte  ITEM_CARD_GEMINI_IMPS
-	.2byte  ITEM_CARD_GEMINI_SPARK
 	.2byte  ITEM_CARD_GIANT_RAT
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_DARIUS
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_EQUESTE
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_GYZARUS
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_HERAKLINOS
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_HOPLOMUS
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_LAQUARI
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_MURMILLO
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_SAMNITE
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_SECUTOR
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_WAR_CHARIOT
-	.2byte  ITEM_CARD_GLADIATOR_PROVING_GROUND
 	.2byte  ITEM_CARD_GOLDD_WU_LORD_OF_DARK_WORLD
 	.2byte  ITEM_CARD_GOTTOMS_EMERGENCY_CALL
-	.2byte  ITEM_CARD_GRAVEKEEPER_S_COMMANDANT
-	.2byte  ITEM_CARD_GRAVEKEEPER_S_DESCENDANT
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_GUARD
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_SPY
-	.2byte  ITEM_CARD_GREEN_GADGET
 	.2byte  ITEM_CARD_HAMMER_SHOT
-	.2byte  ITEM_CARD_HAND_DESTRUCTION
 	.2byte  ITEM_CARD_HANEWATA
-	.2byte  ITEM_CARD_HERO_S_RULE_2
 	.2byte  ITEM_CARD_ICARUS_ATTACK
 	.2byte  ITEM_CARD_IMPERIAL_IRON_WALL
 	.2byte  ITEM_CARD_INFERNITY_ARCHFIEND
-	.2byte  ITEM_CARD_INFERNITY_AVENGER
 	.2byte  ITEM_CARD_INFERNITY_BARRIER
 	.2byte  ITEM_CARD_INFERNITY_BEETLE
-	.2byte  ITEM_CARD_INFERNITY_BREAK
 	.2byte  ITEM_CARD_INFERNITY_INFERNO
 	.2byte  ITEM_CARD_INFERNITY_LAUNCHER
-	.2byte  ITEM_CARD_INFERNITY_MIRAGE
 	.2byte  ITEM_CARD_INFERNITY_NECROMANCER
 	.2byte  ITEM_CARD_INJECTION_FAIRY_LILY
 	.2byte  ITEM_CARD_JINZO
-	.2byte  ITEM_CARD_JUNK_SYNCHRON
 	.2byte  ITEM_CARD_KING_TIGER_WANGHU
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
-	.2byte  ITEM_CARD_LAVA_GOLEM
 	.2byte  ITEM_CARD_LEGENDARY_JUJITSU_MASTER
 	.2byte  ITEM_CARD_LIGHT_AND_DARKNESS_DRAGON
 	.2byte  ITEM_CARD_LIGHT_IMPRISONING_MIRROR
 	.2byte  ITEM_CARD_LIGHTNING_VORTEX
 	.2byte  ITEM_CARD_LYLA_LIGHTSWORN_SORCERESS
-	.2byte  ITEM_CARD_MACHINA_FORTRESS
-	.2byte  ITEM_CARD_MACHINA_GEARFRAME
 	.2byte  ITEM_CARD_MACRO_COSMOS
 	.2byte  ITEM_CARD_MAGICAL_ANDROID
-	.2byte  ITEM_CARD_MALEFIC_STARDUST_DRAGON
 	.2byte  ITEM_CARD_MASK_OF_RESTRICT
-	.2byte  ITEM_CARD_MASS_DRIVER
-	.2byte  ITEM_CARD_MIRACLE_FUSION
 	.2byte  ITEM_CARD_MIRROR_OF_OATHS
 	.2byte  ITEM_CARD_MIST_WURM
-	.2byte  ITEM_CARD_MORAY_OF_GREED
 	.2byte  ITEM_CARD_MOTHER_GRIZZLY
 	.2byte  ITEM_CARD_MY_BODY_AS_A_SHIELD
 	.2byte  ITEM_CARD_NECROVALLEY
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
 	.2byte  ITEM_CARD_NOBLEMAN_OF_EXTERMINATION
 	.2byte  ITEM_CARD_PHOENIX_WING_WIND_BLAST
-	.2byte  ITEM_CARD_POISON_DRAW_FROG
 	.2byte  ITEM_CARD_POT_OF_AVARICE
-	.2byte  ITEM_CARD_PRIME_MATERIAL_DRAGON
 	.2byte  ITEM_CARD_PROHIBITION
 	.2byte  ITEM_CARD_PULLING_THE_RUG
 	.2byte  ITEM_CARD_PYRAMID_TURTLE
-	.2byte  ITEM_CARD_QUICKDRAW_SYNCHRON
 	.2byte  ITEM_CARD_RAIGEKI_BREAK
 	.2byte  ITEM_CARD_RAIZA_THE_STORM_MONARCH
 	.2byte  ITEM_CARD_RED_DRAGON_ARCHFIEND
-	.2byte  ITEM_CARD_RED_GADGET
 	.2byte  ITEM_CARD_REIGN_BEAUX_OVERLORD_OF_DARK_WORLD
 	.2byte  ITEM_CARD_RONINTOADIN
-	.2byte  ITEM_CARD_ROYAL_TRIBUTE
 	.2byte  ITEM_CARD_RYKO_LIGHTSWORN_HUNTER
 	.2byte  ITEM_CARD_RYU_SENSHI
-	.2byte  ITEM_CARD_SABER_SLASH
 	.2byte  ITEM_CARD_SAKURETSU_ARMOR
 	.2byte  ITEM_CARD_SALVAGE
 	.2byte  ITEM_CARD_SHADOW_IMPRISONING_MIRROR
@@ -15718,14 +13661,12 @@ InsideOfTruck_PokemartFrogBanlist:
 	.2byte  ITEM_CARD_SOLAR_RECHARGE
 	.2byte  ITEM_CARD_SOUL_EXCHANGE
 	.2byte  ITEM_CARD_SPIRITUAL_WATER_ART_AOI
-	.2byte  ITEM_CARD_SPORE
 	.2byte  ITEM_CARD_STARDUST_DRAGON
 	.2byte  ITEM_CARD_STARLIGHT_ROAD
 	.2byte  ITEM_CARD_SUBSTITOAD
-	.2byte  ITEM_CARD_SUPER_NIMBLE_MEGA_HAMSTER
-	.2byte  ITEM_CARD_SWALLOW_FLIP
 	.2byte  ITEM_CARD_SWAP_FROG
 	.2byte  ITEM_CARD_SYSTEM_DOWN
+	.2byte  ITEM_CARD_TEMPEST_MAGICIAN
 	.2byte  ITEM_CARD_TEST_TIGER
 	.2byte  ITEM_CARD_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET
 	.2byte  ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH
@@ -15736,14 +13677,12 @@ InsideOfTruck_PokemartFrogBanlist:
 	.2byte  ITEM_CARD_TRAP_HOLE
 	.2byte  ITEM_CARD_TRAP_STUN
 	.2byte  ITEM_CARD_TWISTER
-	.2byte  ITEM_CARD_TYTANNIAL_PRINCESS_OF_CAMELLIAS
-	.2byte  ITEM_CARD_UNIFROG
 	.2byte  ITEM_CARD_UPSTART_GOBLIN
 	.2byte  ITEM_CARD_VANITY_S_FIEND
 	.2byte  ITEM_CARD_WABOKU
 	.2byte  ITEM_CARD_WULF_LIGHTSWORN_BEAST
 	.2byte  ITEM_CARD_X_SABER_AIRBELLUM
-	.2byte  ITEM_CARD_X_SABER_PASHUUL
+	.2byte  ITEM_CARD_X_SABER_URBELLUM
 	.2byte  ITEM_CARD_XX_SABER_BOGGART_KNIGHT
 	.2byte  ITEM_CARD_XX_SABER_DARKSOUL
 	.2byte  ITEM_CARD_XX_SABER_EMMERSBLADE
@@ -15751,7 +13690,6 @@ InsideOfTruck_PokemartFrogBanlist:
 	.2byte  ITEM_CARD_XX_SABER_FULHELMKNIGHT
 	.2byte  ITEM_CARD_XX_SABER_GOTTOMS
 	.2byte  ITEM_CARD_XX_SABER_HYUNLEI
-	.2byte  ITEM_CARD_YELLOW_GADGET
 	.2byte  ITEM_CARD_ZOMBIE_MASTER
 	.2byte  ITEM_CARD_ZOMBIE_WORLD
 	pokemartlistend
@@ -15785,7 +13723,6 @@ InsideOfTruck_PokemartStarstrikeBanlist:
 	.2byte  ITEM_CARD_DESTINY_DRAW
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_STRATOS
 	.2byte  ITEM_CARD_FOOLISH_BURIAL
-	.2byte  ITEM_CARD_FUTURE_FUSION
 	.2byte  ITEM_CARD_GIANT_TRUNADE
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_BESTIARI
 	.2byte  ITEM_CARD_GORZ_THE_EMISSARY_OF_DARKNESS
@@ -15799,7 +13736,6 @@ InsideOfTruck_PokemartStarstrikeBanlist:
 	.2byte  ITEM_CARD_MIRROR_FORCE
 	.2byte  ITEM_CARD_MONSTER_REBORN
 	.2byte  ITEM_CARD_NECRO_GARDNA
-	.2byte  ITEM_CARD_ONE_FOR_ONE
 	.2byte  ITEM_CARD_PLAGUESPREADER_ZOMBIE
 	.2byte  ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
 	.2byte  ITEM_CARD_ROYAL_OPPRESSION
@@ -15825,14 +13761,15 @@ InsideOfTruck_PokemartStarstrikeBanlist:
 	.2byte  ITEM_CARD_ANCIENT_FAIRY_DRAGON
 	.2byte  ITEM_CARD_ARCANITE_MAGICIAN
 	.2byte  ITEM_CARD_ARMAGEDDON_KNIGHT
+	.2byte  ITEM_CARD_ARMORY_ARM
 	.2byte  ITEM_CARD_AURKUS_LIGHTSWORN_DRUID
 	.2byte  ITEM_CARD_BANISHER_OF_THE_RADIANCE
-	.2byte  ITEM_CARD_BATTLE_FADER
 	.2byte  ITEM_CARD_BLACK_ROSE_DRAGON
 	.2byte  ITEM_CARD_BLACKWING_BLIZZARD_THE_FAR_NORTH
 	.2byte  ITEM_CARD_BLACKWING_BORA_THE_SPEAR
 	.2byte  ITEM_CARD_BLACKWING_KALUT_THE_MOON_SHADOW
 	.2byte  ITEM_CARD_BLACKWING_SHURA_THE_BLUE_FLAME
+	.2byte  ITEM_CARD_BLACKWING_SILVERWIND_THE_ASCENDANT
 	.2byte  ITEM_CARD_BLACKWING_SIROCCO_THE_DAWN
 	.2byte  ITEM_CARD_BLACKWING_VAYU_THE_EMBLEM_OF_HONOR
 	.2byte  ITEM_CARD_BLACKWING_ARMED_WING
@@ -15841,11 +13778,9 @@ InsideOfTruck_PokemartStarstrikeBanlist:
 	.2byte  ITEM_CARD_BOOK_OF_MOON
 	.2byte  ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR
 	.2byte  ITEM_CARD_CAIUS_THE_SHADOW_MONARCH
-	.2byte  ITEM_CARD_CARDS_FOR_BLACK_FEATHERS
 	.2byte  ITEM_CARD_CELESTIA_LIGHTSWORN_ANGEL
 	.2byte  ITEM_CARD_CHAIN_DISAPPEARANCE
 	.2byte  ITEM_CARD_CHIMERATECH_FORTRESS_DRAGON
-	.2byte  ITEM_CARD_CLOSED_FOREST
 	.2byte  ITEM_CARD_COLOSSAL_FIGHTER
 	.2byte  ITEM_CARD_COMPULSORY_EVACUATION_DEVICE
 	.2byte  ITEM_CARD_CONSECRATED_LIGHT
@@ -15860,77 +13795,50 @@ InsideOfTruck_PokemartStarstrikeBanlist:
 	.2byte  ITEM_CARD_DEBRIS_DRAGON
 	.2byte  ITEM_CARD_DECK_DEVASTATION_VIRUS
 	.2byte  ITEM_CARD_DEEP_SEA_DIVA
-	.2byte  ITEM_CARD_DELTA_CROW_ANTI_REVERSE
 	.2byte  ITEM_CARD_DESTINY_HERO_DIAMOND_DUDE
 	.2byte  ITEM_CARD_DIMENSIONAL_FISSURE
 	.2byte  ITEM_CARD_DIMENSIONAL_PRISON
 	.2byte  ITEM_CARD_DIVINE_WRATH
 	.2byte  ITEM_CARD_DOOMCALIBER_KNIGHT
+	.2byte  ITEM_CARD_DOOMKAISER_DRAGON
 	.2byte  ITEM_CARD_DUPE_FROG
 	.2byte  ITEM_CARD_DUST_TORNADO
-	.2byte  ITEM_CARD_E_EMERGENCY_CALL
 	.2byte  ITEM_CARD_EFFECT_VEILER
-	.2byte  ITEM_CARD_EHREN_LIGHTSWORN_MONK
-	.2byte  ITEM_CARD_ELEMENTAL_HERO_NEOS_ALIUS
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_PRISMA
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
 	.2byte  ITEM_CARD_ESCAPE_FROM_THE_DARK_DIMENSION
-	.2byte  ITEM_CARD_EXPLODER_DRAGON
-	.2byte  ITEM_CARD_FISHBORG_BLASTER
 	.2byte  ITEM_CARD_FISSURE
 	.2byte  ITEM_CARD_FORBIDDEN_CHALICE
 	.2byte  ITEM_CARD_FORMULA_SYNCHRON
 	.2byte  ITEM_CARD_FOSSIL_DYNA_PACHYCEPHALO
+	.2byte  ITEM_CARD_GAIA_KNIGHT_THE_FORCE_OF_EARTH
 	.2byte  ITEM_CARD_GAROTH_LIGHTSWORN_WARRIOR
-	.2byte  ITEM_CARD_GEMINI_SPARK
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_DARIUS
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_EQUESTE
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_GYZARUS
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_HERAKLINOS
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_HOPLOMUS
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_LAQUARI
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_MURMILLO
-	.2byte  ITEM_CARD_GLADIATOR_BEAST_WAR_CHARIOT
-	.2byte  ITEM_CARD_GLOW_UP_BULB
 	.2byte  ITEM_CARD_GOBLIN_ZOMBIE
 	.2byte  ITEM_CARD_GOTTOMS_EMERGENCY_CALL
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_ASSAILANT
-	.2byte  ITEM_CARD_GRAVEKEEPER_S_COMMANDANT
-	.2byte  ITEM_CARD_GRAVEKEEPER_S_DESCENDANT
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_GUARD
-	.2byte  ITEM_CARD_GRAVEKEEPER_S_RECRUITER
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_SPY
-	.2byte  ITEM_CARD_GRAVEKEEPER_S_STELE
-	.2byte  ITEM_CARD_GREEN_GADGET
-	.2byte  ITEM_CARD_HERO_BLAST
-	.2byte  ITEM_CARD_HERO_S_RULE_2
 	.2byte  ITEM_CARD_ICARUS_ATTACK
 	.2byte  ITEM_CARD_INFERNITY_ARCHFIEND
-	.2byte  ITEM_CARD_INFERNITY_AVENGER
 	.2byte  ITEM_CARD_INFERNITY_BARRIER
-	.2byte  ITEM_CARD_INFERNITY_BREAK
 	.2byte  ITEM_CARD_INFERNITY_INFERNO
-	.2byte  ITEM_CARD_INFERNITY_MIRAGE
 	.2byte  ITEM_CARD_INFERNITY_NECROMANCER
-	.2byte  ITEM_CARD_JAIN_LIGHTSWORN_PALADIN
 	.2byte  ITEM_CARD_KING_TIGER_WANGHU
-	.2byte  ITEM_CARD_KOA_KI_MEIRU_DRAGO
 	.2byte  ITEM_CARD_LEGENDARY_JUJITSU_MASTER
-	.2byte  ITEM_CARD_LEVEL_EATER
 	.2byte  ITEM_CARD_LIGHT_AND_DARKNESS_DRAGON
 	.2byte  ITEM_CARD_LIGHT_IMPRISONING_MIRROR
 	.2byte  ITEM_CARD_LIGHTNING_VORTEX
-	.2byte  ITEM_CARD_LIMIT_REVERSE
 	.2byte  ITEM_CARD_LYLA_LIGHTSWORN_SORCERESS
-	.2byte  ITEM_CARD_MACHINA_FORTRESS
-	.2byte  ITEM_CARD_MACHINA_GEARFRAME
 	.2byte  ITEM_CARD_MACRO_COSMOS
 	.2byte  ITEM_CARD_MAGICAL_ANDROID
-	.2byte  ITEM_CARD_MALEFIC_STARDUST_DRAGON
 	.2byte  ITEM_CARD_MALEVOLENT_CATASTROPHE
 	.2byte  ITEM_CARD_MASK_OF_RESTRICT
 	.2byte  ITEM_CARD_MASKED_DRAGON
-	.2byte  ITEM_CARD_MIRACLE_FUSION
 	.2byte  ITEM_CARD_MIRROR_OF_OATHS
 	.2byte  ITEM_CARD_MIST_WURM
 	.2byte  ITEM_CARD_MOBIUS_THE_FROST_MONARCH
@@ -15941,41 +13849,32 @@ InsideOfTruck_PokemartStarstrikeBanlist:
 	.2byte  ITEM_CARD_POISON_OF_THE_OLD_MAN
 	.2byte  ITEM_CARD_POT_OF_AVARICE
 	.2byte  ITEM_CARD_POT_OF_DUALITY
-	.2byte  ITEM_CARD_PRIME_MATERIAL_DRAGON
 	.2byte  ITEM_CARD_PROHIBITION
 	.2byte  ITEM_CARD_PULLING_THE_RUG
-	.2byte  ITEM_CARD_QUICKDRAW_SYNCHRON
 	.2byte  ITEM_CARD_RAIZA_THE_STORM_MONARCH
 	.2byte  ITEM_CARD_RECKLESS_GREED
 	.2byte  ITEM_CARD_RED_DRAGON_ARCHFIEND
-	.2byte  ITEM_CARD_RED_GADGET
 	.2byte  ITEM_CARD_RED_EYES_DARKNESS_METAL_DRAGON
 	.2byte  ITEM_CARD_RED_EYES_WYVERN
 	.2byte  ITEM_CARD_RIVALRY_OF_WARLORDS
 	.2byte  ITEM_CARD_RONINTOADIN
 	.2byte  ITEM_CARD_ROYAL_DECREE
-	.2byte  ITEM_CARD_ROYAL_TRIBUTE
 	.2byte  ITEM_CARD_RYKO_LIGHTSWORN_HUNTER
 	.2byte  ITEM_CARD_SCRAP_DRAGON
 	.2byte  ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT
 	.2byte  ITEM_CARD_SHADOW_IMPRISONING_MIRROR
-	.2byte  ITEM_CARD_SHIELD_CRUSH
 	.2byte  ITEM_CARD_SMASHING_GROUND
 	.2byte  ITEM_CARD_SNOWMAN_EATER
 	.2byte  ITEM_CARD_SOLAR_RECHARGE
 	.2byte  ITEM_CARD_SOLEMN_WARNING
 	.2byte  ITEM_CARD_SOUL_EXCHANGE
-	.2byte  ITEM_CARD_SOUL_RELEASE
-	.2byte  ITEM_CARD_SPORE
 	.2byte  ITEM_CARD_STARDUST_DRAGON
 	.2byte  ITEM_CARD_STARLIGHT_ROAD
-	.2byte  ITEM_CARD_STYGIAN_STREET_PATROL
 	.2byte  ITEM_CARD_SUMMON_LIMIT
 	.2byte  ITEM_CARD_SUPER_POLYMERIZATION
-	.2byte  ITEM_CARD_SUPER_NIMBLE_MEGA_HAMSTER
-	.2byte  ITEM_CARD_SWALLOW_FLIP
 	.2byte  ITEM_CARD_SWAP_FROG
 	.2byte  ITEM_CARD_SYSTEM_DOWN
+	.2byte  ITEM_CARD_TEMPEST_MAGICIAN
 	.2byte  ITEM_CARD_TEST_TIGER
 	.2byte  ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH
 	.2byte  ITEM_CARD_THOUGHT_RULER_ARCHFIEND
@@ -15983,13 +13882,11 @@ InsideOfTruck_PokemartStarstrikeBanlist:
 	.2byte  ITEM_CARD_TRAP_HOLE
 	.2byte  ITEM_CARD_TRAP_STUN
 	.2byte  ITEM_CARD_TREEBORN_FROG
-	.2byte  ITEM_CARD_TUNING
 	.2byte  ITEM_CARD_TWISTER
-	.2byte  ITEM_CARD_TYTANNIAL_PRINCESS_OF_CAMELLIAS
 	.2byte  ITEM_CARD_UPSTART_GOBLIN
 	.2byte  ITEM_CARD_VANITY_S_FIEND
 	.2byte  ITEM_CARD_X_SABER_AIRBELLUM
-	.2byte  ITEM_CARD_X_SABER_PASHUUL
+	.2byte  ITEM_CARD_X_SABER_URBELLUM
 	.2byte  ITEM_CARD_XX_SABER_BOGGART_KNIGHT
 	.2byte  ITEM_CARD_XX_SABER_DARKSOUL
 	.2byte  ITEM_CARD_XX_SABER_EMMERSBLADE
@@ -15997,7 +13894,6 @@ InsideOfTruck_PokemartStarstrikeBanlist:
 	.2byte  ITEM_CARD_XX_SABER_FULHELMKNIGHT
 	.2byte  ITEM_CARD_XX_SABER_GOTTOMS
 	.2byte  ITEM_CARD_XX_SABER_HYUNLEI
-	.2byte  ITEM_CARD_YELLOW_GADGET
 	.2byte  ITEM_CARD_ZOMBIE_MASTER
 	pokemartlistend
 
@@ -16030,7 +13926,6 @@ InsideOfTruck_PokemartTenguBanlist:
 	.2byte  ITEM_CARD_EMERGENCY_TELEPORT
 	.2byte  ITEM_CARD_FOOLISH_BURIAL
 	.2byte  ITEM_CARD_FORMULA_SYNCHRON
-	.2byte  ITEM_CARD_FUTURE_FUSION
 	.2byte  ITEM_CARD_GORZ_THE_EMISSARY_OF_DARKNESS
 	.2byte  ITEM_CARD_HEAVY_STORM
 	.2byte  ITEM_CARD_HONEST
@@ -16040,8 +13935,6 @@ InsideOfTruck_PokemartTenguBanlist:
 	.2byte  ITEM_CARD_MIND_CONTROL
 	.2byte  ITEM_CARD_MIRROR_FORCE
 	.2byte  ITEM_CARD_MONSTER_REBORN
-	.2byte  ITEM_CARD_NEO_SPACIAN_GRAND_MOLE
-	.2byte  ITEM_CARD_ONE_FOR_ONE
 	.2byte  ITEM_CARD_PLAGUESPREADER_ZOMBIE
 	.2byte  ITEM_CARD_POT_OF_AVARICE
 	.2byte  ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
@@ -16050,11 +13943,9 @@ InsideOfTruck_PokemartTenguBanlist:
 	.2byte  ITEM_CARD_SCAPEGOAT
 	.2byte  ITEM_CARD_SHIEN_S_SMOKE_SIGNAL
 	.2byte  ITEM_CARD_SOLEMN_JUDGMENT
-	.2byte  ITEM_CARD_T_G_HYPER_LIBRARIAN
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
 	.2byte  ITEM_CARD_TRAP_DUSTSHOOT
 	.2byte  ITEM_CARD_TRISHULA_DRAGON_OF_THE_ICE_BARRIER
-	.2byte  ITEM_CARD_ARCHLORD_KRISTYA
 	.2byte  ITEM_CARD_BOTTOMLESS_TRAP_HOLE
 	.2byte  ITEM_CARD_CALL_OF_THE_HAUNTED
 	.2byte  ITEM_CARD_CARD_TROOPER
@@ -16066,23 +13957,19 @@ InsideOfTruck_PokemartTenguBanlist:
 	.2byte  ITEM_CARD_ALLY_OF_JUSTICE_CYCLE_READER
 	.2byte  ITEM_CARD_ANCIENT_FAIRY_DRAGON
 	.2byte  ITEM_CARD_ANTI_SPELL_FRAGRANCE
-	.2byte  ITEM_CARD_APPOINTER_OF_THE_RED_LOTUS
 	.2byte  ITEM_CARD_ARCANITE_MAGICIAN
 	.2byte  ITEM_CARD_ARMAGEDDON_KNIGHT
-	.2byte  ITEM_CARD_AUTONOMOUS_ACTION_UNIT
+	.2byte  ITEM_CARD_ARMORY_ARM
 	.2byte  ITEM_CARD_BANISHER_OF_THE_RADIANCE
 	.2byte  ITEM_CARD_BLACK_HORN_OF_HEAVEN
 	.2byte  ITEM_CARD_BLACK_ROSE_DRAGON
-	.2byte  ITEM_CARD_BLACKWING_ZEPHYROS_THE_ELITE
 	.2byte  ITEM_CARD_BLACKWING_ARMED_WING
 	.2byte  ITEM_CARD_BLACKWING_ARMOR_MASTER
 	.2byte  ITEM_CARD_BOOK_OF_LIFE
 	.2byte  ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR
 	.2byte  ITEM_CARD_CAIUS_THE_SHADOW_MONARCH
 	.2byte  ITEM_CARD_CHAOS_SORCERER
-	.2byte  ITEM_CARD_CHAOS_TRAP_HOLE
 	.2byte  ITEM_CARD_CHIMERATECH_FORTRESS_DRAGON
-	.2byte  ITEM_CARD_CLOSED_FOREST
 	.2byte  ITEM_CARD_COLOSSAL_FIGHTER
 	.2byte  ITEM_CARD_COMPULSORY_EVACUATION_DEVICE
 	.2byte  ITEM_CARD_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL
@@ -16090,58 +13977,39 @@ InsideOfTruck_PokemartTenguBanlist:
 	.2byte  ITEM_CARD_CYBER_VALLEY
 	.2byte  ITEM_CARD_D_D_CROW
 	.2byte  ITEM_CARD_D_D_SURVIVOR
-	.2byte  ITEM_CARD_DARK_BRIBE
 	.2byte  ITEM_CARD_DARK_END_DRAGON
 	.2byte  ITEM_CARD_DARK_GREPHER
 	.2byte  ITEM_CARD_DARK_MIMIC_LV3
 	.2byte  ITEM_CARD_DEBUNK
 	.2byte  ITEM_CARD_DECK_DEVASTATION_VIRUS
-	.2byte  ITEM_CARD_DIMENSIONAL_ALCHEMIST
 	.2byte  ITEM_CARD_DIMENSIONAL_FISSURE
 	.2byte  ITEM_CARD_DIMENSIONAL_PRISON
 	.2byte  ITEM_CARD_DUST_TORNADO
-	.2byte  ITEM_CARD_E_EMERGENCY_CALL
 	.2byte  ITEM_CARD_EFFECT_VEILER
-	.2byte  ITEM_CARD_ELEMENTAL_HERO_NEOS_ALIUS
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_PRISMA
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
 	.2byte  ITEM_CARD_FAKE_TRAP
 	.2byte  ITEM_CARD_FIENDISH_CHAIN
 	.2byte  ITEM_CARD_FORBIDDEN_CHALICE
 	.2byte  ITEM_CARD_FORBIDDEN_LANCE
-	.2byte  ITEM_CARD_FOSSIL_DIG
 	.2byte  ITEM_CARD_FOSSIL_DYNA_PACHYCEPHALO
 	.2byte  ITEM_CARD_FULL_HOUSE
-	.2byte  ITEM_CARD_GEMINI_SPARK
-	.2byte  ITEM_CARD_GENEX_ALLY_BIRDMAN
-	.2byte  ITEM_CARD_GLOW_UP_BULB
+	.2byte  ITEM_CARD_GAIA_KNIGHT_THE_FORCE_OF_EARTH
 	.2byte  ITEM_CARD_GOBLIN_ZOMBIE
 	.2byte  ITEM_CARD_GOLD_SARCOPHAGUS
-	.2byte  ITEM_CARD_GOZEN_MATCH
-	.2byte  ITEM_CARD_GRAVEKEEPER_S_DESCENDANT
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_SPY
-	.2byte  ITEM_CARD_HERALD_OF_GREEN_LIGHT
 	.2byte  ITEM_CARD_HERALD_OF_ORANGE_LIGHT
-	.2byte  ITEM_CARD_HERO_BLAST
 	.2byte  ITEM_CARD_HORN_OF_HEAVEN
 	.2byte  ITEM_CARD_HORN_OF_THE_PHANTOM_BEAST
 	.2byte  ITEM_CARD_IMPERIAL_IRON_WALL
 	.2byte  ITEM_CARD_INFERNITY_ARCHFIEND
-	.2byte  ITEM_CARD_INFERNITY_AVENGER
 	.2byte  ITEM_CARD_INFERNITY_BARRIER
-	.2byte  ITEM_CARD_INFERNITY_BREAK
 	.2byte  ITEM_CARD_INFERNITY_INFERNO
-	.2byte  ITEM_CARD_INFERNITY_MIRAGE
 	.2byte  ITEM_CARD_INFERNITY_NECROMANCER
 	.2byte  ITEM_CARD_INSTANT_FUSION
-	.2byte  ITEM_CARD_JAIN_LIGHTSWORN_PALADIN
 	.2byte  ITEM_CARD_JINZO
 	.2byte  ITEM_CARD_JURRAC_GUAIBA
 	.2byte  ITEM_CARD_KAGEMUSHA_OF_THE_SIX_SAMURAI
-	.2byte  ITEM_CARD_KARAKURI_KOMACHI_MDL_224_NINISHI_
-	.2byte  ITEM_CARD_KARAKURI_MERCHANT_MDL_177_INASHICHI_
-	.2byte  ITEM_CARD_KARAKURI_NINJA_MDL_919_KUICK_
-	.2byte  ITEM_CARD_KARAKURI_SOLDIER_MDL_236_NISAMU_
 	.2byte  ITEM_CARD_KARMA_CUT
 	.2byte  ITEM_CARD_KING_TIGER_WANGHU
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
@@ -16150,36 +14018,28 @@ InsideOfTruck_PokemartTenguBanlist:
 	.2byte  ITEM_CARD_LEVIAIR_THE_SEA_DRAGON
 	.2byte  ITEM_CARD_LIGHT_IMPRISONING_MIRROR
 	.2byte  ITEM_CARD_LIGHTNING_VORTEX
-	.2byte  ITEM_CARD_LIMIT_REVERSE
 	.2byte  ITEM_CARD_LYLA_LIGHTSWORN_SORCERESS
-	.2byte  ITEM_CARD_MACHINA_FORTRESS
-	.2byte  ITEM_CARD_MACHINA_GEARFRAME
 	.2byte  ITEM_CARD_MACRO_COSMOS
 	.2byte  ITEM_CARD_MAGICAL_ANDROID
 	.2byte  ITEM_CARD_MALEVOLENT_CATASTROPHE
 	.2byte  ITEM_CARD_MASTER_HYPERION
 	.2byte  ITEM_CARD_MAXX_C_
 	.2byte  ITEM_CARD_MESSENGER_OF_PEACE
-	.2byte  ITEM_CARD_MIRACLE_FUSION
 	.2byte  ITEM_CARD_MIST_WURM
 	.2byte  ITEM_CARD_MONSTER_REINCARNATION
-	.2byte  ITEM_CARD_MYSTICAL_SHINE_BALL
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
 	.2byte  ITEM_CARD_NECROVALLEY
 	.2byte  ITEM_CARD_NEEDLE_CEILING
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
 	.2byte  ITEM_CARD_NUMBER_17_LEVIATHAN_DRAGON
 	.2byte  ITEM_CARD_NUMBER_39_UTOPIA
-	.2byte  ITEM_CARD_OVERWORKED
 	.2byte  ITEM_CARD_PHOENIX_WING_WIND_BLAST
 	.2byte  ITEM_CARD_POT_OF_DUALITY
-	.2byte  ITEM_CARD_PSYCHIC_COMMANDER
 	.2byte  ITEM_CARD_PUPPET_PLANT
 	.2byte  ITEM_CARD_PYRAMID_TURTLE
 	.2byte  ITEM_CARD_RAIGEKI_BREAK
 	.2byte  ITEM_CARD_REBORN_TENGU
 	.2byte  ITEM_CARD_RED_DRAGON_ARCHFIEND
-	.2byte  ITEM_CARD_REKINDLING
 	.2byte  ITEM_CARD_RIVALRY_OF_WARLORDS
 	.2byte  ITEM_CARD_ROYAL_DECREE
 	.2byte  ITEM_CARD_RYKO_LIGHTSWORN_HUNTER
@@ -16193,22 +14053,17 @@ InsideOfTruck_PokemartTenguBanlist:
 	.2byte  ITEM_CARD_SOUL_EXCHANGE
 	.2byte  ITEM_CARD_SOUL_TAKER
 	.2byte  ITEM_CARD_SPIRIT_REAPER
-	.2byte  ITEM_CARD_SPORE
 	.2byte  ITEM_CARD_STARDUST_DRAGON
 	.2byte  ITEM_CARD_STARLIGHT_ROAD
 	.2byte  ITEM_CARD_STEELSWARM_ROACH
-	.2byte  ITEM_CARD_STYGIAN_STREET_PATROL
 	.2byte  ITEM_CARD_SUPER_POLYMERIZATION
 	.2byte  ITEM_CARD_SYSTEM_DOWN
 	.2byte  ITEM_CARD_T_G_RUSH_RHINO
 	.2byte  ITEM_CARD_T_G_STRIKER
 	.2byte  ITEM_CARD_T_G_WARWOLF
 	.2byte  ITEM_CARD_TG1_EM1
-	.2byte  ITEM_CARD_THE_AGENT_OF_CREATION_VENUS
 	.2byte  ITEM_CARD_THE_AGENT_OF_MIRACLES_JUPITER
 	.2byte  ITEM_CARD_THE_AGENT_OF_MYSTERY_EARTH
-	.2byte  ITEM_CARD_THE_FABLED_CATSITH
-	.2byte  ITEM_CARD_THE_FABLED_CERBURREL
 	.2byte  ITEM_CARD_THOUGHT_RULER_ARCHFIEND
 	.2byte  ITEM_CARD_THUNDER_KING_RAI_OH
 	.2byte  ITEM_CARD_TOUR_GUIDE_FROM_THE_UNDERWORLD
@@ -16246,13 +14101,11 @@ InsideOfTruck_PokemartDinoRabbitBanlist:
 	.2byte  ITEM_CARD_DARK_HOLE
 	.2byte  ITEM_CARD_FOOLISH_BURIAL
 	.2byte  ITEM_CARD_FORMULA_SYNCHRON
-	.2byte  ITEM_CARD_FUTURE_FUSION
 	.2byte  ITEM_CARD_GORZ_THE_EMISSARY_OF_DARKNESS
 	.2byte  ITEM_CARD_HEAVY_STORM
 	.2byte  ITEM_CARD_MIND_CONTROL
 	.2byte  ITEM_CARD_MIRROR_FORCE
 	.2byte  ITEM_CARD_MONSTER_REBORN
-	.2byte  ITEM_CARD_NEO_SPACIAN_GRAND_MOLE
 	.2byte  ITEM_CARD_POT_OF_AVARICE
 	.2byte  ITEM_CARD_SANGAN
 	.2byte  ITEM_CARD_SOLEMN_JUDGMENT
@@ -16266,15 +14119,14 @@ InsideOfTruck_PokemartDinoRabbitBanlist:
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
 	.2byte  ITEM_CARD_TRAGOEDIA
 	.2byte  ITEM_CARD_ALLY_OF_JUSTICE_CATASTOR
+	.2byte  ITEM_CARD_ARMORY_ARM
 	.2byte  ITEM_CARD_BANISHER_OF_THE_RADIANCE
-	.2byte  ITEM_CARD_BATTLE_FADER
 	.2byte  ITEM_CARD_BEIIGE_VANGUARD_OF_DARK_WORLD
 	.2byte  ITEM_CARD_BLACK_HORN_OF_HEAVEN
 	.2byte  ITEM_CARD_BLACK_ROSE_DRAGON
 	.2byte  ITEM_CARD_BROWW_HUNTSMAN_OF_DARK_WORLD
 	.2byte  ITEM_CARD_CAIUS_THE_SHADOW_MONARCH
 	.2byte  ITEM_CARD_CALL_OF_THE_HAUNTED
-	.2byte  ITEM_CARD_CARDCAR_D
 	.2byte  ITEM_CARD_CATAPULT_TURTLE
 	.2byte  ITEM_CARD_CHAIN_DISAPPEARANCE
 	.2byte  ITEM_CARD_CHAOS_SORCERER
@@ -16284,16 +14136,11 @@ InsideOfTruck_PokemartDinoRabbitBanlist:
 	.2byte  ITEM_CARD_CREATURE_SWAP
 	.2byte  ITEM_CARD_CYBER_DRAGON
 	.2byte  ITEM_CARD_D_D_CROW
-	.2byte  ITEM_CARD_DARK_BRIBE
-	.2byte  ITEM_CARD_DARK_SMOG
-	.2byte  ITEM_CARD_DARK_WORLD_DEALINGS
-	.2byte  ITEM_CARD_DARKFLARE_DRAGON
 	.2byte  ITEM_CARD_DECK_DEVASTATION_VIRUS
 	.2byte  ITEM_CARD_DIMENSIONAL_FISSURE
 	.2byte  ITEM_CARD_DIMENSIONAL_PRISON
 	.2byte  ITEM_CARD_DRAGGED_DOWN_INTO_THE_GRAVE
 	.2byte  ITEM_CARD_DUST_TORNADO
-	.2byte  ITEM_CARD_ECLIPSE_WYVERN
 	.2byte  ITEM_CARD_EFFECT_VEILER
 	.2byte  ITEM_CARD_ELECTRIC_VIRUS
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
@@ -16303,25 +14150,13 @@ InsideOfTruck_PokemartDinoRabbitBanlist:
 	.2byte  ITEM_CARD_FIENDISH_CHAIN
 	.2byte  ITEM_CARD_FORBIDDEN_CHALICE
 	.2byte  ITEM_CARD_FORBIDDEN_LANCE
+	.2byte  ITEM_CARD_GAIA_KNIGHT_THE_FORCE_OF_EARTH
 	.2byte  ITEM_CARD_GEMINI_IMPS
-	.2byte  ITEM_CARD_GENEX_ALLY_BIRDMAN
-	.2byte  ITEM_CARD_GOZEN_MATCH
 	.2byte  ITEM_CARD_GRAPHA_DRAGON_LORD_OF_DARK_WORLD
-	.2byte  ITEM_CARD_HIERATIC_DRAGON_OF_ESET
-	.2byte  ITEM_CARD_HIERATIC_DRAGON_OF_SU
-	.2byte  ITEM_CARD_HIERATIC_DRAGON_OF_TEFNUIT
-	.2byte  ITEM_CARD_HIERATIC_SEAL_OF_CONVOCATION
 	.2byte  ITEM_CARD_HORN_OF_THE_PHANTOM_BEAST
-	.2byte  ITEM_CARD_INZEKTOR_CENTIPEDE
-	.2byte  ITEM_CARD_INZEKTOR_DRAGONFLY
-	.2byte  ITEM_CARD_INZEKTOR_HORNET
-	.2byte  ITEM_CARD_INZEKTOR_LADYBUG
-	.2byte  ITEM_CARD_INZEKTOR_SWORD_ZEKTKALIBER
-	.2byte  ITEM_CARD_JAIN_LIGHTSWORN_PALADIN
 	.2byte  ITEM_CARD_JINZO
 	.2byte  ITEM_CARD_JURRAC_GUAIBA
 	.2byte  ITEM_CARD_KABAZAULS
-	.2byte  ITEM_CARD_KOA_KI_MEIRU_DRAGO
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
 	.2byte  ITEM_CARD_LEVIAIR_THE_SEA_DRAGON
 	.2byte  ITEM_CARD_LIGHT_AND_DARKNESS_DRAGON
@@ -16365,18 +14200,14 @@ InsideOfTruck_PokemartDinoRabbitBanlist:
 	.2byte  ITEM_CARD_T_G_RUSH_RHINO
 	.2byte  ITEM_CARD_T_G_WARWOLF
 	.2byte  ITEM_CARD_TEMTEMPO_THE_PERCUSSION_DJINN
-	.2byte  ITEM_CARD_THE_GATES_OF_DARK_WORLD
 	.2byte  ITEM_CARD_THUNDER_KING_RAI_OH
 	.2byte  ITEM_CARD_TOUR_GUIDE_FROM_THE_UNDERWORLD
-	.2byte  ITEM_CARD_TREACHEROUS_TRAP_HOLE
 	.2byte  ITEM_CARD_TREEBORN_FROG
 	.2byte  ITEM_CARD_TWISTER
 	.2byte  ITEM_CARD_UPSTART_GOBLIN
 	.2byte  ITEM_CARD_VANITY_S_EMPTINESS
 	.2byte  ITEM_CARD_VANITY_S_FIEND
-	.2byte  ITEM_CARD_WIND_UP_CARRIER_ZENMAITY
 	.2byte  ITEM_CARD_WIND_UP_FACTORY
-	.2byte  ITEM_CARD_WIND_UP_HUNTER
 	.2byte  ITEM_CARD_WIND_UP_MAGICIAN
 	.2byte  ITEM_CARD_WIND_UP_RABBIT
 	.2byte  ITEM_CARD_WIND_UP_RAT
@@ -16409,17 +14240,13 @@ InsideOfTruck_PokemartWindUpBanlist:
 	.2byte  ITEM_CARD_DARK_HOLE
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_STRATOS
 	.2byte  ITEM_CARD_FOOLISH_BURIAL
-	.2byte  ITEM_CARD_GATEWAY_OF_THE_SIX
 	.2byte  ITEM_CARD_GORZ_THE_EMISSARY_OF_DARKNESS
 	.2byte  ITEM_CARD_HEAVY_STORM
 	.2byte  ITEM_CARD_HONEST
-	.2byte  ITEM_CARD_INZEKTOR_DRAGONFLY
-	.2byte  ITEM_CARD_INZEKTOR_HORNET
 	.2byte  ITEM_CARD_LIMITER_REMOVAL
 	.2byte  ITEM_CARD_MIND_CONTROL
 	.2byte  ITEM_CARD_MONSTER_REBORN
 	.2byte  ITEM_CARD_MORPHING_JAR
-	.2byte  ITEM_CARD_NEO_SPACIAN_GRAND_MOLE
 	.2byte  ITEM_CARD_NIGHT_ASSAILANT
 	.2byte  ITEM_CARD_POT_OF_AVARICE
 	.2byte  ITEM_CARD_RED_EYES_DARKNESS_METAL_DRAGON
@@ -16427,12 +14254,8 @@ InsideOfTruck_PokemartWindUpBanlist:
 	.2byte  ITEM_CARD_RETURN_FROM_THE_DIFFERENT_DIMENSION
 	.2byte  ITEM_CARD_SANGAN
 	.2byte  ITEM_CARD_SOLEMN_JUDGMENT
-	.2byte  ITEM_CARD_WIND_UP_CARRIER_ZENMAITY
-	.2byte  ITEM_CARD_ARCHLORD_KRISTYA
 	.2byte  ITEM_CARD_BOTTOMLESS_TRAP_HOLE
 	.2byte  ITEM_CARD_CARD_TROOPER
-	.2byte  ITEM_CARD_CHAIN_STRIKE
-	.2byte  ITEM_CARD_E_EMERGENCY_CALL
 	.2byte  ITEM_CARD_MIRROR_FORCE
 	.2byte  ITEM_CARD_OJAMA_TRIO
 	.2byte  ITEM_CARD_POT_OF_DUALITY
@@ -16444,40 +14267,30 @@ InsideOfTruck_PokemartWindUpBanlist:
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
 	.2byte  ITEM_CARD_TOUR_GUIDE_FROM_THE_UNDERWORLD
 	.2byte  ITEM_CARD_TRAGOEDIA
-	.2byte  ITEM_CARD_ACCUMULATED_FORTUNE
 	.2byte  ITEM_CARD_ALLY_OF_JUSTICE_CATASTOR
-	.2byte  ITEM_CARD_ASCETICISM_OF_THE_SIX_SAMURAI
+	.2byte  ITEM_CARD_ARMORY_ARM
 	.2byte  ITEM_CARD_AXE_DRAGONUTE
 	.2byte  ITEM_CARD_BANISHER_OF_THE_RADIANCE
 	.2byte  ITEM_CARD_BEIIGE_VANGUARD_OF_DARK_WORLD
+	.2byte  ITEM_CARD_BLACK_HORN_OF_HEAVEN
 	.2byte  ITEM_CARD_BLACK_ROSE_DRAGON
+	.2byte  ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR
 	.2byte  ITEM_CARD_BROWW_HUNTSMAN_OF_DARK_WORLD
 	.2byte  ITEM_CARD_CALL_OF_THE_HAUNTED
-	.2byte  ITEM_CARD_CARDCAR_D
 	.2byte  ITEM_CARD_CHIMERATECH_FORTRESS_DRAGON
 	.2byte  ITEM_CARD_COMPULSORY_EVACUATION_DEVICE
 	.2byte  ITEM_CARD_CYBER_DRAGON
 	.2byte  ITEM_CARD_CYBER_END_DRAGON
 	.2byte  ITEM_CARD_D_D_CROW
-	.2byte  ITEM_CARD_DARK_BRIBE
-	.2byte  ITEM_CARD_DARK_SMOG
-	.2byte  ITEM_CARD_DARK_WORLD_DEALINGS
-	.2byte  ITEM_CARD_DARKFLARE_DRAGON
-	.2byte  ITEM_CARD_DE_SYNCHRO
 	.2byte  ITEM_CARD_DECK_DEVASTATION_VIRUS
 	.2byte  ITEM_CARD_DIMENSION_WALL
 	.2byte  ITEM_CARD_DIMENSIONAL_FISSURE
 	.2byte  ITEM_CARD_DIMENSIONAL_PRISON
-	.2byte  ITEM_CARD_DOUBLE_EDGED_SWORD_TECHNIQUE
 	.2byte  ITEM_CARD_DRAGGED_DOWN_INTO_THE_GRAVE
 	.2byte  ITEM_CARD_DUST_TORNADO
-	.2byte  ITEM_CARD_ECLIPSE_WYVERN
 	.2byte  ITEM_CARD_EFFECT_VEILER
-	.2byte  ITEM_CARD_ELDER_OF_THE_SIX_SAMURAI
 	.2byte  ITEM_CARD_ELECTRIC_VIRUS
-	.2byte  ITEM_CARD_ELEMENTAL_HERO_BUBBLEMAN
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_CLAYMAN
-	.2byte  ITEM_CARD_ELEMENTAL_HERO_NEOS_ALIUS
 	.2byte  ITEM_CARD_EMERGENCY_TELEPORT
 	.2byte  ITEM_CARD_ERADICATOR_EPIDEMIC_VIRUS
 	.2byte  ITEM_CARD_EVOLZAR_LAGGIA
@@ -16485,51 +14298,26 @@ InsideOfTruck_PokemartWindUpBanlist:
 	.2byte  ITEM_CARD_FORBIDDEN_CHALICE
 	.2byte  ITEM_CARD_FORBIDDEN_LANCE
 	.2byte  ITEM_CARD_FOSSIL_DYNA_PACHYCEPHALO
-	.2byte  ITEM_CARD_GEARGIACCELERATOR
-	.2byte  ITEM_CARD_GEARGIANO
-	.2byte  ITEM_CARD_GEARGIANO_MK_II
-	.2byte  ITEM_CARD_GEARGIARMOR
-	.2byte  ITEM_CARD_GEARGIARSENAL
+	.2byte  ITEM_CARD_GAIA_KNIGHT_THE_FORCE_OF_EARTH
 	.2byte  ITEM_CARD_GEMINI_IMPS
-	.2byte  ITEM_CARD_GEMINI_SPARK
-	.2byte  ITEM_CARD_GENEX_ALLY_BIRDMAN
 	.2byte  ITEM_CARD_GIANT_RAT
 	.2byte  ITEM_CARD_GIGANTES
-	.2byte  ITEM_CARD_GOZEN_MATCH
-	.2byte  ITEM_CARD_GRANDMASTER_OF_THE_SIX_SAMURAI
-	.2byte  ITEM_CARD_GRANDSOIL_THE_ELEMENTAL_LORD
 	.2byte  ITEM_CARD_GRAPHA_DRAGON_LORD_OF_DARK_WORLD
 	.2byte  ITEM_CARD_GRAVEKEEPER_S_WATCHER
 	.2byte  ITEM_CARD_HERALD_OF_ORANGE_LIGHT
-	.2byte  ITEM_CARD_HERO_BLAST
-	.2byte  ITEM_CARD_IMPERIAL_IRON_WALL
-	.2byte  ITEM_CARD_INSTANT_FUSION
-	.2byte  ITEM_CARD_INZEKTOR_CENTIPEDE
-	.2byte  ITEM_CARD_INZEKTOR_LADYBUG
-	.2byte  ITEM_CARD_INZEKTOR_SWORD_ZEKTKALIBER
 	.2byte  ITEM_CARD_JAR_OF_GREED
 	.2byte  ITEM_CARD_JURRAC_GUAIBA
 	.2byte  ITEM_CARD_JUST_DESSERTS
 	.2byte  ITEM_CARD_KABAZAULS
 	.2byte  ITEM_CARD_KAGEMUSHA_OF_THE_SIX_SAMURAI
-	.2byte  ITEM_CARD_KARAKURI_KOMACHI_MDL_224_NINISHI_
-	.2byte  ITEM_CARD_KARAKURI_MERCHANT_MDL_177_INASHICHI_
 	.2byte  ITEM_CARD_KING_TIGER_WANGHU
-	.2byte  ITEM_CARD_KOA_KI_MEIRU_DRAGO
-	.2byte  ITEM_CARD_LAVA_GOLEM
-	.2byte  ITEM_CARD_LEECHING_THE_LIGHT
 	.2byte  ITEM_CARD_LEGACY_OF_YATA_GARASU
-	.2byte  ITEM_CARD_LEGENDARY_SIX_SAMURAI_ENISHI
-	.2byte  ITEM_CARD_LEGENDARY_SIX_SAMURAI_KAGEKI
 	.2byte  ITEM_CARD_LEGENDARY_SIX_SAMURAI_KIZAN
 	.2byte  ITEM_CARD_LEVEL_LIMIT_AREA_B
 	.2byte  ITEM_CARD_LEVIAIR_THE_SEA_DRAGON
 	.2byte  ITEM_CARD_LIGHT_IMPRISONING_MIRROR
 	.2byte  ITEM_CARD_LIGHTPULSAR_DRAGON
 	.2byte  ITEM_CARD_LYLA_LIGHTSWORN_SORCERESS
-	.2byte  ITEM_CARD_MACHINA_CANNON
-	.2byte  ITEM_CARD_MACHINA_FORTRESS
-	.2byte  ITEM_CARD_MACHINA_GEARFRAME
 	.2byte  ITEM_CARD_MACRO_COSMOS
 	.2byte  ITEM_CARD_MAESTROKE_THE_SYMPHONY_DJINN
 	.2byte  ITEM_CARD_MAGIC_CYLINDER
@@ -16538,24 +14326,18 @@ InsideOfTruck_PokemartWindUpBanlist:
 	.2byte  ITEM_CARD_MASTER_HYPERION
 	.2byte  ITEM_CARD_MAXX_C_
 	.2byte  ITEM_CARD_MESSENGER_OF_PEACE
-	.2byte  ITEM_CARD_MIRACLE_FUSION
 	.2byte  ITEM_CARD_MIST_WURM
-	.2byte  ITEM_CARD_MYSTICAL_SHINE_BALL
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
 	.2byte  ITEM_CARD_NECROVALLEY
 	.2byte  ITEM_CARD_NEEDLE_CEILING
 	.2byte  ITEM_CARD_NIGHT_BEAM
 	.2byte  ITEM_CARD_NINJA_GRANDMASTER_HANZO
-	.2byte  ITEM_CARD_NINJITSU_ART_OF_SUPER_TRANSFORMATION
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
 	.2byte  ITEM_CARD_NUMBER_11_BIG_EYE
 	.2byte  ITEM_CARD_NUMBER_17_LEVIATHAN_DRAGON
 	.2byte  ITEM_CARD_NUMBER_30_ACID_GOLEM_OF_DESTRUCTION
 	.2byte  ITEM_CARD_NUMBER_39_UTOPIA
-	.2byte  ITEM_CARD_ONE_DAY_OF_PEACE
-	.2byte  ITEM_CARD_PHOTON_THRASHER
 	.2byte  ITEM_CARD_PROTECTOR_OF_THE_SANCTUARY
-	.2byte  ITEM_CARD_PSYCHIC_COMMANDER
 	.2byte  ITEM_CARD_RECKLESS_GREED
 	.2byte  ITEM_CARD_RIVALRY_OF_WARLORDS
 	.2byte  ITEM_CARD_ROYAL_DECREE
@@ -16563,11 +14345,11 @@ InsideOfTruck_PokemartWindUpBanlist:
 	.2byte  ITEM_CARD_SABERSAURUS
 	.2byte  ITEM_CARD_SCRAP_DRAGON
 	.2byte  ITEM_CARD_SECRET_BARREL
-	.2byte  ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT
 	.2byte  ITEM_CARD_SHADOW_IMPRISONING_MIRROR
 	.2byte  ITEM_CARD_SILLVA_WARLORD_OF_DARK_WORLD
 	.2byte  ITEM_CARD_SIX_SAMURAI_UNITED
 	.2byte  ITEM_CARD_SKILL_DRAIN
+	.2byte  ITEM_CARD_SMASHING_GROUND
 	.2byte  ITEM_CARD_SNOWMAN_EATER
 	.2byte  ITEM_CARD_SNOWW_UNLIGHT_OF_DARK_WORLD
 	.2byte  ITEM_CARD_SOLAR_RECHARGE
@@ -16581,23 +14363,15 @@ InsideOfTruck_PokemartWindUpBanlist:
 	.2byte  ITEM_CARD_SYSTEM_DOWN
 	.2byte  ITEM_CARD_TEMTEMPO_THE_PERCUSSION_DJINN
 	.2byte  ITEM_CARD_TERRAFORMING
-	.2byte  ITEM_CARD_THE_AGENT_OF_CREATION_VENUS
-	.2byte  ITEM_CARD_THE_GATES_OF_DARK_WORLD
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_IROU
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_ZANJI
 	.2byte  ITEM_CARD_THOUGHT_RULER_ARCHFIEND
 	.2byte  ITEM_CARD_THREATENING_ROAR
 	.2byte  ITEM_CARD_THUNDER_KING_RAI_OH
-	.2byte  ITEM_CARD_TRADE_IN
-	.2byte  ITEM_CARD_TRANCE_ARCHFIEND
 	.2byte  ITEM_CARD_TRAP_STUN
-	.2byte  ITEM_CARD_TREACHEROUS_TRAP_HOLE
 	.2byte  ITEM_CARD_TWISTER
 	.2byte  ITEM_CARD_UPSTART_GOBLIN
 	.2byte  ITEM_CARD_UPSTART_GOLDEN_NINJA
 	.2byte  ITEM_CARD_WABOKU
 	.2byte  ITEM_CARD_WIND_UP_FACTORY
-	.2byte  ITEM_CARD_WIND_UP_HUNTER
 	.2byte  ITEM_CARD_WIND_UP_MAGICIAN
 	.2byte  ITEM_CARD_WIND_UP_RABBIT
 	.2byte  ITEM_CARD_WIND_UP_RAT
@@ -16630,7 +14404,6 @@ InsideOfTruck_PokemartMiamiBanlist:
 	.2byte  ITEM_CARD_DARK_HOLE
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_STRATOS
 	.2byte  ITEM_CARD_FOOLISH_BURIAL
-	.2byte  ITEM_CARD_GATEWAY_OF_THE_SIX
 	.2byte  ITEM_CARD_GORZ_THE_EMISSARY_OF_DARKNESS
 	.2byte  ITEM_CARD_HEAVY_STORM
 	.2byte  ITEM_CARD_MIND_CONTROL
@@ -16642,13 +14415,9 @@ InsideOfTruck_PokemartMiamiBanlist:
 	.2byte  ITEM_CARD_RETURN_FROM_THE_DIFFERENT_DIMENSION
 	.2byte  ITEM_CARD_SANGAN
 	.2byte  ITEM_CARD_SOLEMN_JUDGMENT
-	.2byte  ITEM_CARD_T_G_HYPER_LIBRARIAN
 	.2byte  ITEM_CARD_TSUKUYOMI
-	.2byte  ITEM_CARD_WIND_UP_CARRIER_ZENMAITY
 	.2byte  ITEM_CARD_BOTTOMLESS_TRAP_HOLE
 	.2byte  ITEM_CARD_CARD_TROOPER
-	.2byte  ITEM_CARD_E_EMERGENCY_CALL
-	.2byte  ITEM_CARD_HIERATIC_SEAL_OF_CONVOCATION
 	.2byte  ITEM_CARD_MIND_CRUSH
 	.2byte  ITEM_CARD_MIRROR_FORCE
 	.2byte  ITEM_CARD_POT_OF_DUALITY
@@ -16660,13 +14429,12 @@ InsideOfTruck_PokemartMiamiBanlist:
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
 	.2byte  ITEM_CARD_TOUR_GUIDE_FROM_THE_UNDERWORLD
 	.2byte  ITEM_CARD_TRAGOEDIA
-	.2byte  ITEM_CARD_A_WINGBEAT_OF_GIANT_DRAGON
 	.2byte  ITEM_CARD_ABYSS_DWELLER
 	.2byte  ITEM_CARD_ABYSS_SPHERE
 	.2byte  ITEM_CARD_ALLY_OF_JUSTICE_CATASTOR
 	.2byte  ITEM_CARD_AQUA_SPIRIT
 	.2byte  ITEM_CARD_ARCANITE_MAGICIAN
-	.2byte  ITEM_CARD_ASCETICISM_OF_THE_SIX_SAMURAI
+	.2byte  ITEM_CARD_ARMORY_ARM
 	.2byte  ITEM_CARD_ATLANTEAN_DRAGOONS
 	.2byte  ITEM_CARD_ATLANTEAN_HEAVY_INFANTRY
 	.2byte  ITEM_CARD_ATLANTEAN_MARKSMAN
@@ -16675,78 +14443,43 @@ InsideOfTruck_PokemartMiamiBanlist:
 	.2byte  ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR
 	.2byte  ITEM_CARD_BREAKTHROUGH_SKILL
 	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_BEAR
-	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_DRAGON
-	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_GORILLA
 	.2byte  ITEM_CARD_BROWW_HUNTSMAN_OF_DARK_WORLD
 	.2byte  ITEM_CARD_CALL_OF_THE_HAUNTED
-	.2byte  ITEM_CARD_CARDCAR_D
 	.2byte  ITEM_CARD_CHIMERATECH_FORTRESS_DRAGON
 	.2byte  ITEM_CARD_COMPULSORY_EVACUATION_DEVICE
 	.2byte  ITEM_CARD_CREATURE_SWAP
 	.2byte  ITEM_CARD_CYBER_DRAGON
 	.2byte  ITEM_CARD_D_D_CROW
-	.2byte  ITEM_CARD_DARK_SMOG
-	.2byte  ITEM_CARD_DARK_WORLD_DEALINGS
-	.2byte  ITEM_CARD_DARKFLARE_DRAGON
-	.2byte  ITEM_CARD_DE_SYNCHRO
 	.2byte  ITEM_CARD_DECK_DEVASTATION_VIRUS
-	.2byte  ITEM_CARD_DEEP_DARK_TRAP_HOLE
 	.2byte  ITEM_CARD_DEEP_SEA_DIVA
 	.2byte  ITEM_CARD_DIAMOND_DIRE_WOLF
 	.2byte  ITEM_CARD_DIMENSIONAL_FISSURE
 	.2byte  ITEM_CARD_DIMENSIONAL_PRISON
-	.2byte  ITEM_CARD_DOUBLE_EDGED_SWORD_TECHNIQUE
 	.2byte  ITEM_CARD_DRAGGED_DOWN_INTO_THE_GRAVE
 	.2byte  ITEM_CARD_DUST_TORNADO
-	.2byte  ITEM_CARD_ECLIPSE_WYVERN
 	.2byte  ITEM_CARD_EFFECT_VEILER
-	.2byte  ITEM_CARD_ELDER_OF_THE_SIX_SAMURAI
-	.2byte  ITEM_CARD_ELEMENTAL_HERO_BUBBLEMAN
-	.2byte  ITEM_CARD_ELEMENTAL_HERO_NEOS_ALIUS
 	.2byte  ITEM_CARD_EMERGENCY_PROVISIONS
 	.2byte  ITEM_CARD_EMERGENCY_TELEPORT
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
 	.2byte  ITEM_CARD_ERADICATOR_EPIDEMIC_VIRUS
 	.2byte  ITEM_CARD_EVOLZAR_LAGGIA
 	.2byte  ITEM_CARD_FIENDISH_CHAIN
-	.2byte  ITEM_CARD_FIRE_FORMATION_TENKEN
 	.2byte  ITEM_CARD_FIRE_FORMATION_TENKI
-	.2byte  ITEM_CARD_FIRE_FORMATION_TENSEN
-	.2byte  ITEM_CARD_FIRE_FORMATION_TENSU
-	.2byte  ITEM_CARD_FIRE_KING_AVATAR_BARONG
-	.2byte  ITEM_CARD_FIRE_KING_HIGH_AVATAR_GARUNIX
-	.2byte  ITEM_CARD_FLAMVELL_FIREDOG
 	.2byte  ITEM_CARD_FORBIDDEN_CHALICE
 	.2byte  ITEM_CARD_FORBIDDEN_LANCE
 	.2byte  ITEM_CARD_FOSSIL_DYNA_PACHYCEPHALO
 	.2byte  ITEM_CARD_FULL_HOUSE
 	.2byte  ITEM_CARD_GAGAGA_COWBOY
-	.2byte  ITEM_CARD_GEMINI_SPARK
+	.2byte  ITEM_CARD_GAIA_KNIGHT_THE_FORCE_OF_EARTH
 	.2byte  ITEM_CARD_GENE_WARPED_WARWOLF
-	.2byte  ITEM_CARD_GENEX_ALLY_BIRDMAN
-	.2byte  ITEM_CARD_GENEX_CONTROLLER
-	.2byte  ITEM_CARD_GENEX_UNDINE
 	.2byte  ITEM_CARD_GOLDD_WU_LORD_OF_DARK_WORLD
-	.2byte  ITEM_CARD_GOZEN_MATCH
-	.2byte  ITEM_CARD_GRANDMASTER_OF_THE_SIX_SAMURAI
 	.2byte  ITEM_CARD_GRAPHA_DRAGON_LORD_OF_DARK_WORLD
-	.2byte  ITEM_CARD_HIERATIC_DRAGON_OF_ESET
-	.2byte  ITEM_CARD_HIERATIC_DRAGON_OF_SU
-	.2byte  ITEM_CARD_HIERATIC_DRAGON_OF_TEFNUIT
-	.2byte  ITEM_CARD_HIGH_PRIESTESS_OF_PROPHECY
 	.2byte  ITEM_CARD_INSTANT_FUSION
 	.2byte  ITEM_CARD_JURRAC_GUAIBA
 	.2byte  ITEM_CARD_KABAZAULS
 	.2byte  ITEM_CARD_KAGEMUSHA_OF_THE_SIX_SAMURAI
-	.2byte  ITEM_CARD_KARAKURI_KOMACHI_MDL_224_NINISHI_
-	.2byte  ITEM_CARD_KARAKURI_MERCHANT_MDL_177_INASHICHI_
-	.2byte  ITEM_CARD_KARAKURI_NINJA_MDL_919_KUICK_
-	.2byte  ITEM_CARD_KARAKURI_SOLDIER_MDL_236_NISAMU_
 	.2byte  ITEM_CARD_KING_TIGER_WANGHU
-	.2byte  ITEM_CARD_KOA_KI_MEIRU_DRAGO
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
-	.2byte  ITEM_CARD_LEGENDARY_SIX_SAMURAI_ENISHI
-	.2byte  ITEM_CARD_LEGENDARY_SIX_SAMURAI_KAGEKI
 	.2byte  ITEM_CARD_LEGENDARY_SIX_SAMURAI_KIZAN
 	.2byte  ITEM_CARD_LEVEL_LIMIT_AREA_B
 	.2byte  ITEM_CARD_LEVIAIR_THE_SEA_DRAGON
@@ -16759,7 +14492,6 @@ InsideOfTruck_PokemartMiamiBanlist:
 	.2byte  ITEM_CARD_MAXX_C_
 	.2byte  ITEM_CARD_MERMAIL_ABYSSGAIOS
 	.2byte  ITEM_CARD_MERMAIL_ABYSSGUNDE
-	.2byte  ITEM_CARD_MERMAIL_ABYSSLEED
 	.2byte  ITEM_CARD_MERMAIL_ABYSSLINDE
 	.2byte  ITEM_CARD_MERMAIL_ABYSSMEGALO
 	.2byte  ITEM_CARD_MERMAIL_ABYSSPIKE
@@ -16767,10 +14499,8 @@ InsideOfTruck_PokemartMiamiBanlist:
 	.2byte  ITEM_CARD_MERMAIL_ABYSSTRITE
 	.2byte  ITEM_CARD_MERMAIL_ABYSSTURGE
 	.2byte  ITEM_CARD_MESSENGER_OF_PEACE
-	.2byte  ITEM_CARD_MIRACLE_FUSION
 	.2byte  ITEM_CARD_MIST_WURM
 	.2byte  ITEM_CARD_MORPHING_JAR_2
-	.2byte  ITEM_CARD_MOULINGLACIA_THE_ELEMENTAL_LORD
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
 	.2byte  ITEM_CARD_NEEDLE_CEILING
 	.2byte  ITEM_CARD_NEKO_MANE_KING
@@ -16780,12 +14510,7 @@ InsideOfTruck_PokemartMiamiBanlist:
 	.2byte  ITEM_CARD_NUMBER_17_LEVIATHAN_DRAGON
 	.2byte  ITEM_CARD_NUMBER_30_ACID_GOLEM_OF_DESTRUCTION
 	.2byte  ITEM_CARD_NUMBER_39_UTOPIA
-	.2byte  ITEM_CARD_ONE_DAY_OF_PEACE
-	.2byte  ITEM_CARD_ONSLAUGHT_OF_THE_FIRE_KINGS
-	.2byte  ITEM_CARD_OVERWORKED
-	.2byte  ITEM_CARD_PHOTON_THRASHER
 	.2byte  ITEM_CARD_PROHIBITION
-	.2byte  ITEM_CARD_PSYCHIC_COMMANDER
 	.2byte  ITEM_CARD_RAIGEKI_BREAK
 	.2byte  ITEM_CARD_RIVALRY_OF_WARLORDS
 	.2byte  ITEM_CARD_ROYAL_DECREE
@@ -16801,16 +14526,9 @@ InsideOfTruck_PokemartMiamiBanlist:
 	.2byte  ITEM_CARD_SNOWMAN_EATER
 	.2byte  ITEM_CARD_SNOWW_UNLIGHT_OF_DARK_WORLD
 	.2byte  ITEM_CARD_SOLAR_RECHARGE
-	.2byte  ITEM_CARD_SOUL_DRAIN
 	.2byte  ITEM_CARD_SOUL_TAKER
 	.2byte  ITEM_CARD_SPELLBOOK_MAGICIAN_OF_PROPHECY
-	.2byte  ITEM_CARD_SPELLBOOK_OF_ETERNITY
-	.2byte  ITEM_CARD_SPELLBOOK_OF_FATE
-	.2byte  ITEM_CARD_SPELLBOOK_OF_LIFE
-	.2byte  ITEM_CARD_SPELLBOOK_OF_POWER
 	.2byte  ITEM_CARD_SPELLBOOK_OF_SECRETS
-	.2byte  ITEM_CARD_SPELLBOOK_OF_THE_MASTER
-	.2byte  ITEM_CARD_SPELLBOOK_OF_WISDOM
 	.2byte  ITEM_CARD_SPIRIT_REAPER
 	.2byte  ITEM_CARD_STARDUST_DRAGON
 	.2byte  ITEM_CARD_STARLIGHT_ROAD
@@ -16818,19 +14536,14 @@ InsideOfTruck_PokemartMiamiBanlist:
 	.2byte  ITEM_CARD_SUMMON_LIMIT
 	.2byte  ITEM_CARD_SUPER_POLYMERIZATION
 	.2byte  ITEM_CARD_SYSTEM_DOWN
-	.2byte  ITEM_CARD_TEMPERANCE_OF_PROPHECY
 	.2byte  ITEM_CARD_TEMTEMPO_THE_PERCUSSION_DJINN
-	.2byte  ITEM_CARD_THE_GATES_OF_DARK_WORLD
-	.2byte  ITEM_CARD_THE_GRAND_SPELLBOOK_TOWER
 	.2byte  ITEM_CARD_THREATENING_ROAR
 	.2byte  ITEM_CARD_THUNDER_KING_RAI_OH
-	.2byte  ITEM_CARD_TRANCE_ARCHFIEND
 	.2byte  ITEM_CARD_TRAP_HOLE
 	.2byte  ITEM_CARD_TRAP_STUN
 	.2byte  ITEM_CARD_UPSTART_GOBLIN
 	.2byte  ITEM_CARD_VORSE_RAIDER
 	.2byte  ITEM_CARD_WIND_UP_FACTORY
-	.2byte  ITEM_CARD_WIND_UP_HUNTER
 	.2byte  ITEM_CARD_WIND_UP_MAGICIAN
 	.2byte  ITEM_CARD_WIND_UP_RABBIT
 	.2byte  ITEM_CARD_WIND_UP_RAT
@@ -16870,10 +14583,7 @@ InsideOfTruck_PokemartMeadowlandsBanlist:
 	.2byte  ITEM_CARD_LONEFIRE_BLOSSOM
 	.2byte  ITEM_CARD_MIND_CONTROL
 	.2byte  ITEM_CARD_MONSTER_REBORN
-	.2byte  ITEM_CARD_NEO_SPACIAN_GRAND_MOLE
 	.2byte  ITEM_CARD_NIGHT_ASSAILANT
-	.2byte  ITEM_CARD_ONE_DAY_OF_PEACE
-	.2byte  ITEM_CARD_ONE_FOR_ONE
 	.2byte  ITEM_CARD_POT_OF_AVARICE
 	.2byte  ITEM_CARD_RED_EYES_DARKNESS_METAL_DRAGON
 	.2byte  ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
@@ -16881,13 +14591,10 @@ InsideOfTruck_PokemartMeadowlandsBanlist:
 	.2byte  ITEM_CARD_SCAPEGOAT
 	.2byte  ITEM_CARD_SOLEMN_JUDGMENT
 	.2byte  ITEM_CARD_SOLEMN_WARNING
-	.2byte  ITEM_CARD_T_G_HYPER_LIBRARIAN
 	.2byte  ITEM_CARD_ULTIMATE_OFFERING
-	.2byte  ITEM_CARD_ARCHLORD_KRISTYA
 	.2byte  ITEM_CARD_BOTTOMLESS_TRAP_HOLE
 	.2byte  ITEM_CARD_CARD_TROOPER
 	.2byte  ITEM_CARD_DEBRIS_DRAGON
-	.2byte  ITEM_CARD_HIERATIC_SEAL_OF_CONVOCATION
 	.2byte  ITEM_CARD_MIRROR_FORCE
 	.2byte  ITEM_CARD_POT_OF_DUALITY
 	.2byte  ITEM_CARD_REBORN_TENGU
@@ -16898,13 +14605,13 @@ InsideOfTruck_PokemartMeadowlandsBanlist:
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
 	.2byte  ITEM_CARD_TOUR_GUIDE_FROM_THE_UNDERWORLD
 	.2byte  ITEM_CARD_TRAGOEDIA
-	.2byte  ITEM_CARD_A_WINGBEAT_OF_GIANT_DRAGON
 	.2byte  ITEM_CARD_ABYSS_DWELLER
 	.2byte  ITEM_CARD_ABYSS_SPHERE
 	.2byte  ITEM_CARD_ALLY_OF_JUSTICE_CATASTOR
 	.2byte  ITEM_CARD_ANCIENT_FAIRY_DRAGON
 	.2byte  ITEM_CARD_AQUA_SPIRIT
 	.2byte  ITEM_CARD_ARMAGEDDON_KNIGHT
+	.2byte  ITEM_CARD_ARMORY_ARM
 	.2byte  ITEM_CARD_ATLANTEAN_DRAGOONS
 	.2byte  ITEM_CARD_ATLANTEAN_HEAVY_INFANTRY
 	.2byte  ITEM_CARD_ATLANTEAN_MARKSMAN
@@ -16912,11 +14619,8 @@ InsideOfTruck_PokemartMeadowlandsBanlist:
 	.2byte  ITEM_CARD_BLACK_ROSE_DRAGON
 	.2byte  ITEM_CARD_BREAKTHROUGH_SKILL
 	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_BEAR
-	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_GORILLA
 	.2byte  ITEM_CARD_CALL_OF_THE_HAUNTED
-	.2byte  ITEM_CARD_CARDCAR_D
 	.2byte  ITEM_CARD_CHIMERATECH_FORTRESS_DRAGON
-	.2byte  ITEM_CARD_COMPULSORY_ESCAPE_DEVICE
 	.2byte  ITEM_CARD_COMPULSORY_EVACUATION_DEVICE
 	.2byte  ITEM_CARD_CRIMSON_BLADER
 	.2byte  ITEM_CARD_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL
@@ -16924,17 +14628,13 @@ InsideOfTruck_PokemartMeadowlandsBanlist:
 	.2byte  ITEM_CARD_CYBER_VALLEY
 	.2byte  ITEM_CARD_D_D_CROW
 	.2byte  ITEM_CARD_D_D_SURVIVOR
-	.2byte  ITEM_CARD_D_D_R_DIFFERENT_DIMENSION_REINCARNATION
 	.2byte  ITEM_CARD_DAIGUSTO_EMERAL
-	.2byte  ITEM_CARD_DARK_BRIBE
 	.2byte  ITEM_CARD_DARK_END_DRAGON
 	.2byte  ITEM_CARD_DARK_GREPHER
 	.2byte  ITEM_CARD_DARKFIRE_DRAGON
-	.2byte  ITEM_CARD_DE_SYNCHRO
 	.2byte  ITEM_CARD_DEBUNK
 	.2byte  ITEM_CARD_DEEP_SEA_DIVA
 	.2byte  ITEM_CARD_DIAMOND_DIRE_WOLF
-	.2byte  ITEM_CARD_DIFFERENT_DIMENSION_GROUND
 	.2byte  ITEM_CARD_DIMENSIONAL_FISSURE
 	.2byte  ITEM_CARD_DIMENSIONAL_PRISON
 	.2byte  ITEM_CARD_DOOMCALIBER_KNIGHT
@@ -16944,43 +14644,26 @@ InsideOfTruck_PokemartMeadowlandsBanlist:
 	.2byte  ITEM_CARD_ELECTRIC_VIRUS
 	.2byte  ITEM_CARD_EMERGENCY_TELEPORT
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
-	.2byte  ITEM_CARD_EVILSWARM_THUNDERBIRD
 	.2byte  ITEM_CARD_EVOLZAR_LAGGIA
 	.2byte  ITEM_CARD_FIENDISH_CHAIN
 	.2byte  ITEM_CARD_FIRE_FORMATION_TENKI
-	.2byte  ITEM_CARD_FIRE_FORMATION_TENSU
 	.2byte  ITEM_CARD_FORBIDDEN_LANCE
 	.2byte  ITEM_CARD_FOSSIL_DYNA_PACHYCEPHALO
 	.2byte  ITEM_CARD_FULL_HOUSE
 	.2byte  ITEM_CARD_GAGAGA_COWBOY
+	.2byte  ITEM_CARD_GAIA_KNIGHT_THE_FORCE_OF_EARTH
 	.2byte  ITEM_CARD_GEMINI_IMPS
 	.2byte  ITEM_CARD_GENE_WARPED_WARWOLF
-	.2byte  ITEM_CARD_GENEX_ALLY_BIRDMAN
-	.2byte  ITEM_CARD_GREEN_GADGET
 	.2byte  ITEM_CARD_HERALD_OF_ORANGE_LIGHT
-	.2byte  ITEM_CARD_HIERATIC_DRAGON_OF_ESET
-	.2byte  ITEM_CARD_HIERATIC_DRAGON_OF_SU
-	.2byte  ITEM_CARD_HIERATIC_DRAGON_OF_TEFNUIT
-	.2byte  ITEM_CARD_HIGH_PRIESTESS_OF_PROPHECY
 	.2byte  ITEM_CARD_INFERNITY_ARCHFIEND
 	.2byte  ITEM_CARD_INFERNITY_BARRIER
-	.2byte  ITEM_CARD_INFERNITY_BREAK
 	.2byte  ITEM_CARD_INFERNITY_NECROMANCER
 	.2byte  ITEM_CARD_INSTANT_FUSION
 	.2byte  ITEM_CARD_JURRAC_GUAIBA
-	.2byte  ITEM_CARD_JUSTICE_OF_PROPHECY
 	.2byte  ITEM_CARD_KABAZAULS
-	.2byte  ITEM_CARD_KARAKURI_KOMACHI_MDL_224_NINISHI_
-	.2byte  ITEM_CARD_KARAKURI_MERCHANT_MDL_177_INASHICHI_
-	.2byte  ITEM_CARD_KARAKURI_NINJA_MDL_919_KUICK_
-	.2byte  ITEM_CARD_KARAKURI_SOLDIER_MDL_236_NISAMU_
-	.2byte  ITEM_CARD_KOA_KI_MEIRU_DRAGO
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
 	.2byte  ITEM_CARD_LEVIAIR_THE_SEA_DRAGON
 	.2byte  ITEM_CARD_LIGHT_IMPRISONING_MIRROR
-	.2byte  ITEM_CARD_MACHINA_CANNON
-	.2byte  ITEM_CARD_MACHINA_FORTRESS
-	.2byte  ITEM_CARD_MACHINA_GEARFRAME
 	.2byte  ITEM_CARD_MACHINE_DUPLICATION
 	.2byte  ITEM_CARD_MACRO_COSMOS
 	.2byte  ITEM_CARD_MAESTROKE_THE_SYMPHONY_DJINN
@@ -16989,7 +14672,6 @@ InsideOfTruck_PokemartMeadowlandsBanlist:
 	.2byte  ITEM_CARD_MAXX_C_
 	.2byte  ITEM_CARD_MERMAIL_ABYSSGAIOS
 	.2byte  ITEM_CARD_MERMAIL_ABYSSGUNDE
-	.2byte  ITEM_CARD_MERMAIL_ABYSSLEED
 	.2byte  ITEM_CARD_MERMAIL_ABYSSLINDE
 	.2byte  ITEM_CARD_MERMAIL_ABYSSMEGALO
 	.2byte  ITEM_CARD_MERMAIL_ABYSSPIKE
@@ -16997,8 +14679,6 @@ InsideOfTruck_PokemartMeadowlandsBanlist:
 	.2byte  ITEM_CARD_MERMAIL_ABYSSTRITE
 	.2byte  ITEM_CARD_MERMAIL_ABYSSTURGE
 	.2byte  ITEM_CARD_MIND_CRUSH
-	.2byte  ITEM_CARD_MOULINGLACIA_THE_ELEMENTAL_LORD
-	.2byte  ITEM_CARD_MYSTICAL_SHINE_BALL
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
 	.2byte  ITEM_CARD_NEEDLE_CEILING
 	.2byte  ITEM_CARD_NIGHT_BEAM
@@ -17006,10 +14686,7 @@ InsideOfTruck_PokemartMeadowlandsBanlist:
 	.2byte  ITEM_CARD_NUMBER_17_LEVIATHAN_DRAGON
 	.2byte  ITEM_CARD_NUMBER_30_ACID_GOLEM_OF_DESTRUCTION
 	.2byte  ITEM_CARD_NUMBER_39_UTOPIA
-	.2byte  ITEM_CARD_PHOTON_THRASHER
-	.2byte  ITEM_CARD_PSYCHIC_COMMANDER
 	.2byte  ITEM_CARD_RED_DRAGON_ARCHFIEND
-	.2byte  ITEM_CARD_RED_GADGET
 	.2byte  ITEM_CARD_RIVALRY_OF_WARLORDS
 	.2byte  ITEM_CARD_SABERSAURUS
 	.2byte  ITEM_CARD_SCRAP_DRAGON
@@ -17017,38 +14694,22 @@ InsideOfTruck_PokemartMeadowlandsBanlist:
 	.2byte  ITEM_CARD_SHRINK
 	.2byte  ITEM_CARD_SKILL_DRAIN
 	.2byte  ITEM_CARD_SNOWMAN_EATER
-	.2byte  ITEM_CARD_SOUL_DRAIN
 	.2byte  ITEM_CARD_SOUL_TAKER
-	.2byte  ITEM_CARD_SPELLBOOK_LIBRARY_OF_THE_CRESCENT
 	.2byte  ITEM_CARD_SPELLBOOK_MAGICIAN_OF_PROPHECY
-	.2byte  ITEM_CARD_SPELLBOOK_OF_ETERNITY
-	.2byte  ITEM_CARD_SPELLBOOK_OF_FATE
-	.2byte  ITEM_CARD_SPELLBOOK_OF_LIFE
-	.2byte  ITEM_CARD_SPELLBOOK_OF_POWER
 	.2byte  ITEM_CARD_SPELLBOOK_OF_SECRETS
-	.2byte  ITEM_CARD_SPELLBOOK_OF_THE_MASTER
-	.2byte  ITEM_CARD_SPELLBOOK_OF_WISDOM
 	.2byte  ITEM_CARD_SPIRITUALISM
-	.2byte  ITEM_CARD_SPORE
 	.2byte  ITEM_CARD_STARDUST_DRAGON
 	.2byte  ITEM_CARD_STARLIGHT_ROAD
 	.2byte  ITEM_CARD_STEELSWARM_ROACH
-	.2byte  ITEM_CARD_STYGIAN_STREET_PATROL
 	.2byte  ITEM_CARD_SWIFT_SCARECROW
-	.2byte  ITEM_CARD_TEMPERANCE_OF_PROPHECY
 	.2byte  ITEM_CARD_TEMTEMPO_THE_PERCUSSION_DJINN
 	.2byte  ITEM_CARD_TERRAFORMING
-	.2byte  ITEM_CARD_THE_AGENT_OF_CREATION_VENUS
-	.2byte  ITEM_CARD_THE_GRAND_SPELLBOOK_TOWER
 	.2byte  ITEM_CARD_THOUGHT_RULER_ARCHFIEND
-	.2byte  ITEM_CARD_TIN_GOLDFISH
 	.2byte  ITEM_CARD_TRAP_STUN
 	.2byte  ITEM_CARD_TWISTER
 	.2byte  ITEM_CARD_UPSTART_GOBLIN
 	.2byte  ITEM_CARD_WIND_UP_RABBIT
 	.2byte  ITEM_CARD_WIND_UP_ZENMAINES
-	.2byte  ITEM_CARD_WINGED_RHYNOS
-	.2byte  ITEM_CARD_YELLOW_GADGET
 	pokemartlistend
 
 InsideOfTruck_EventScript_Clerk_BabyRulerBanlist::
@@ -17076,13 +14737,10 @@ InsideOfTruck_PokemartBabyRulerBanlist:
 	.2byte  ITEM_CARD_LEFT_LEG_OF_THE_FORBIDDEN_ONE
 	.2byte  ITEM_CARD_MIND_CONTROL
 	.2byte  ITEM_CARD_MONSTER_REBORN
-	.2byte  ITEM_CARD_NEO_SPACIAN_GRAND_MOLE
-	.2byte  ITEM_CARD_ONE_DAY_OF_PEACE
 	.2byte  ITEM_CARD_POT_OF_AVARICE
 	.2byte  ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
 	.2byte  ITEM_CARD_SOLEMN_JUDGMENT
 	.2byte  ITEM_CARD_SOLEMN_WARNING
-	.2byte  ITEM_CARD_T_G_HYPER_LIBRARIAN
 	.2byte  ITEM_CARD_ULTIMATE_OFFERING
 	.2byte  ITEM_CARD_BOTTOMLESS_TRAP_HOLE
 	.2byte  ITEM_CARD_MIRROR_FORCE
@@ -17096,6 +14754,7 @@ InsideOfTruck_PokemartBabyRulerBanlist:
 	.2byte  ITEM_CARD_ALLY_OF_JUSTICE_CATASTOR
 	.2byte  ITEM_CARD_ANTI_SPELL_FRAGRANCE
 	.2byte  ITEM_CARD_ARCANITE_MAGICIAN
+	.2byte  ITEM_CARD_ARMORY_ARM
 	.2byte  ITEM_CARD_ATLANTEAN_DRAGOONS
 	.2byte  ITEM_CARD_ATLANTEAN_HEAVY_INFANTRY
 	.2byte  ITEM_CARD_ATLANTEAN_MARKSMAN
@@ -17107,10 +14766,8 @@ InsideOfTruck_PokemartBabyRulerBanlist:
 	.2byte  ITEM_CARD_BOOK_OF_ECLIPSE
 	.2byte  ITEM_CARD_BREAKTHROUGH_SKILL
 	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_BEAR
-	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_DRAGON
 	.2byte  ITEM_CARD_BURNER_DRAGON_RULER_OF_SPARKS
 	.2byte  ITEM_CARD_CALL_OF_THE_HAUNTED
-	.2byte  ITEM_CARD_CARDCAR_D
 	.2byte  ITEM_CARD_CHIMERATECH_FORTRESS_DRAGON
 	.2byte  ITEM_CARD_COLOSSAL_FIGHTER
 	.2byte  ITEM_CARD_COMPULSORY_EVACUATION_DEVICE
@@ -17118,10 +14775,8 @@ InsideOfTruck_PokemartBabyRulerBanlist:
 	.2byte  ITEM_CARD_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL
 	.2byte  ITEM_CARD_CYBER_DRAGON
 	.2byte  ITEM_CARD_DAIGUSTO_EMERAL
-	.2byte  ITEM_CARD_DARK_BRIBE
 	.2byte  ITEM_CARD_DEBUNK
 	.2byte  ITEM_CARD_DECK_DEVASTATION_VIRUS
-	.2byte  ITEM_CARD_DECK_LOCKDOWN
 	.2byte  ITEM_CARD_DEEP_SEA_DIVA
 	.2byte  ITEM_CARD_DIAMOND_DIRE_WOLF
 	.2byte  ITEM_CARD_DIMENSIONAL_FISSURE
@@ -17129,25 +14784,17 @@ InsideOfTruck_PokemartBabyRulerBanlist:
 	.2byte  ITEM_CARD_DNA_SURGERY
 	.2byte  ITEM_CARD_DRAGUNITY_CORSESCA
 	.2byte  ITEM_CARD_DROLL_LOCK_BIRD
-	.2byte  ITEM_CARD_ECLIPSE_WYVERN
 	.2byte  ITEM_CARD_EFFECT_VEILER
 	.2byte  ITEM_CARD_ELECTRIC_VIRUS
 	.2byte  ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
 	.2byte  ITEM_CARD_ERADICATOR_EPIDEMIC_VIRUS
-	.2byte  ITEM_CARD_EVILSWARM_CASTOR
 	.2byte  ITEM_CARD_EVILSWARM_HELIOTROPE
-	.2byte  ITEM_CARD_EVILSWARM_KERYKEION
-	.2byte  ITEM_CARD_EVILSWARM_MANDRAGORA
-	.2byte  ITEM_CARD_EVILSWARM_THUNDERBIRD
 	.2byte  ITEM_CARD_EVOLZAR_LAGGIA
 	.2byte  ITEM_CARD_EXCHANGE
-	.2byte  ITEM_CARD_EXPLODER_DRAGON
 	.2byte  ITEM_CARD_FAIRY_WIND
 	.2byte  ITEM_CARD_FIENDISH_CHAIN
 	.2byte  ITEM_CARD_FIRE_FORMATION_TENKI
-	.2byte  ITEM_CARD_FIRE_FORMATION_TENSEN
-	.2byte  ITEM_CARD_FIRE_FORMATION_TENSU
 	.2byte  ITEM_CARD_FLAMVELL_GUARD
 	.2byte  ITEM_CARD_FORBIDDEN_CHALICE
 	.2byte  ITEM_CARD_FORBIDDEN_LANCE
@@ -17155,36 +14802,24 @@ InsideOfTruck_PokemartBabyRulerBanlist:
 	.2byte  ITEM_CARD_FUSILIER_DRAGON_THE_DUAL_MODE_BEAST
 	.2byte  ITEM_CARD_GAGAGA_COWBOY
 	.2byte  ITEM_CARD_GOLD_SARCOPHAGUS
-	.2byte  ITEM_CARD_GOZEN_MATCH
-	.2byte  ITEM_CARD_HIGH_PRIESTESS_OF_PROPHECY
 	.2byte  ITEM_CARD_HORN_OF_HEAVEN
 	.2byte  ITEM_CARD_IMPERIAL_IRON_WALL
-	.2byte  ITEM_CARD_INFESTATION_PANDEMIC
 	.2byte  ITEM_CARD_JOWGEN_THE_SPIRITUALIST
-	.2byte  ITEM_CARD_JUSTICE_OF_PROPHECY
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
-	.2byte  ITEM_CARD_LAST_DAY_OF_WITCH
 	.2byte  ITEM_CARD_LEVIAIR_THE_SEA_DRAGON
 	.2byte  ITEM_CARD_LIGHT_AND_DARKNESS_DRAGON
 	.2byte  ITEM_CARD_LIGHTNING_VORTEX
 	.2byte  ITEM_CARD_LIGHTNING_DRAGON_RULER_OF_DRAFTS
 	.2byte  ITEM_CARD_M_X_SABER_INVOKER
 	.2byte  ITEM_CARD_MACRO_COSMOS
-	.2byte  ITEM_CARD_MADOLCHE_CHATEAU
-	.2byte  ITEM_CARD_MADOLCHE_HOOTCAKE
-	.2byte  ITEM_CARD_MADOLCHE_MAGILEINE
-	.2byte  ITEM_CARD_MADOLCHE_MESSENGELATO
-	.2byte  ITEM_CARD_MADOLCHE_MEWFEUILLE
 	.2byte  ITEM_CARD_MAESTROKE_THE_SYMPHONY_DJINN
 	.2byte  ITEM_CARD_MAGE_POWER
 	.2byte  ITEM_CARD_MAGICAL_ANDROID
-	.2byte  ITEM_CARD_MARSHMALLON
 	.2byte  ITEM_CARD_MASTER_OF_OZ
 	.2byte  ITEM_CARD_MAXX_C_
 	.2byte  ITEM_CARD_MECHA_PHANTOM_BEAST_DRACOSSACK
 	.2byte  ITEM_CARD_MERMAIL_ABYSSGAIOS
 	.2byte  ITEM_CARD_MERMAIL_ABYSSGUNDE
-	.2byte  ITEM_CARD_MERMAIL_ABYSSLEED
 	.2byte  ITEM_CARD_MERMAIL_ABYSSLINDE
 	.2byte  ITEM_CARD_MERMAIL_ABYSSMEGALO
 	.2byte  ITEM_CARD_MERMAIL_ABYSSPIKE
@@ -17192,9 +14827,7 @@ InsideOfTruck_PokemartBabyRulerBanlist:
 	.2byte  ITEM_CARD_MERMAIL_ABYSSTRITE
 	.2byte  ITEM_CARD_MERMAIL_ABYSSTURGE
 	.2byte  ITEM_CARD_MIND_CRUSH
-	.2byte  ITEM_CARD_MIND_DRAIN
 	.2byte  ITEM_CARD_MORPHING_JAR_2
-	.2byte  ITEM_CARD_MOULINGLACIA_THE_ELEMENTAL_LORD
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
 	.2byte  ITEM_CARD_NIGHT_BEAM
 	.2byte  ITEM_CARD_NUMBER_11_BIG_EYE
@@ -17206,11 +14839,9 @@ InsideOfTruck_PokemartBabyRulerBanlist:
 	.2byte  ITEM_CARD_PHOENIX_WING_WIND_BLAST
 	.2byte  ITEM_CARD_PSI_BLOCKER
 	.2byte  ITEM_CARD_PUPPET_PLANT
-	.2byte  ITEM_CARD_RAINBOW_LIFE
 	.2byte  ITEM_CARD_REACTAN_DRAGON_RULER_OF_PEBBLES
 	.2byte  ITEM_CARD_RED_DRAGON_ARCHFIEND
 	.2byte  ITEM_CARD_REDOX_DRAGON_RULER_OF_BOULDERS
-	.2byte  ITEM_CARD_REKINDLING
 	.2byte  ITEM_CARD_RELOAD
 	.2byte  ITEM_CARD_RIVALRY_OF_WARLORDS
 	.2byte  ITEM_CARD_ROYAL_DECREE
@@ -17222,33 +14853,23 @@ InsideOfTruck_PokemartBabyRulerBanlist:
 	.2byte  ITEM_CARD_SCRAP_DRAGON
 	.2byte  ITEM_CARD_SKILL_DRAIN
 	.2byte  ITEM_CARD_SNOWMAN_EATER
-	.2byte  ITEM_CARD_SOUL_DRAIN
 	.2byte  ITEM_CARD_SPELL_CANCELLER
-	.2byte  ITEM_CARD_SPELLBOOK_LIBRARY_OF_THE_CRESCENT
 	.2byte  ITEM_CARD_SPELLBOOK_MAGICIAN_OF_PROPHECY
-	.2byte  ITEM_CARD_SPELLBOOK_OF_ETERNITY
-	.2byte  ITEM_CARD_SPELLBOOK_OF_FATE
 	.2byte  ITEM_CARD_SPELLBOOK_OF_JUDGMENT
-	.2byte  ITEM_CARD_SPELLBOOK_OF_LIFE
-	.2byte  ITEM_CARD_SPELLBOOK_OF_POWER
 	.2byte  ITEM_CARD_SPELLBOOK_OF_SECRETS
-	.2byte  ITEM_CARD_SPELLBOOK_OF_THE_MASTER
-	.2byte  ITEM_CARD_SPELLBOOK_OF_WISDOM
-	.2byte  ITEM_CARD_SPELLBOOK_STAR_HALL
 	.2byte  ITEM_CARD_STARDUST_DRAGON
 	.2byte  ITEM_CARD_STARLIGHT_ROAD
 	.2byte  ITEM_CARD_STREAM_DRAGON_RULER_OF_DROPLETS
 	.2byte  ITEM_CARD_SUPER_REJUVENATION
 	.2byte  ITEM_CARD_SWIFT_SCARECROW
 	.2byte  ITEM_CARD_SWORDS_OF_REVEALING_LIGHT
+	.2byte  ITEM_CARD_TEMPEST_MAGICIAN
 	.2byte  ITEM_CARD_TEMPEST_DRAGON_RULER_OF_STORMS
 	.2byte  ITEM_CARD_TEMTEMPO_THE_PERCUSSION_DJINN
 	.2byte  ITEM_CARD_TERRAFORMING
-	.2byte  ITEM_CARD_THE_GRAND_SPELLBOOK_TOWER
 	.2byte  ITEM_CARD_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET
 	.2byte  ITEM_CARD_THOUGHT_RULER_ARCHFIEND
 	.2byte  ITEM_CARD_TIDAL_DRAGON_RULER_OF_WATERFALLS
-	.2byte  ITEM_CARD_TREACHEROUS_TRAP_HOLE
 	.2byte  ITEM_CARD_UPSTART_GOBLIN
 	.2byte  ITEM_CARD_VANITY_S_EMPTINESS
 	.2byte  ITEM_CARD_WABOKU
@@ -17284,7 +14905,6 @@ InsideOfTruck_PokemartRavineRulerBanlist:
 	.2byte  ITEM_CARD_ERADICATOR_EPIDEMIC_VIRUS
 	.2byte  ITEM_CARD_FOOLISH_BURIAL
 	.2byte  ITEM_CARD_FORMULA_SYNCHRON
-	.2byte  ITEM_CARD_GENEX_ALLY_BIRDMAN
 	.2byte  ITEM_CARD_GOLD_SARCOPHAGUS
 	.2byte  ITEM_CARD_GORZ_THE_EMISSARY_OF_DARKNESS
 	.2byte  ITEM_CARD_HONEST
@@ -17292,20 +14912,14 @@ InsideOfTruck_PokemartRavineRulerBanlist:
 	.2byte  ITEM_CARD_LONEFIRE_BLOSSOM
 	.2byte  ITEM_CARD_MACRO_COSMOS
 	.2byte  ITEM_CARD_MIND_CONTROL
-	.2byte  ITEM_CARD_NEO_SPACIAN_GRAND_MOLE
-	.2byte  ITEM_CARD_ONE_DAY_OF_PEACE
 	.2byte  ITEM_CARD_RED_EYES_DARKNESS_METAL_DRAGON
 	.2byte  ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
 	.2byte  ITEM_CARD_RESCUE_RABBIT
 	.2byte  ITEM_CARD_RETURN_FROM_THE_DIFFERENT_DIMENSION
 	.2byte  ITEM_CARD_SOLEMN_WARNING
-	.2byte  ITEM_CARD_SOUL_DRAIN
-	.2byte  ITEM_CARD_T_G_HYPER_LIBRARIAN
-	.2byte  ITEM_CARD_THE_TRANSMIGRATION_PROPHECY
 	.2byte  ITEM_CARD_THUNDER_KING_RAI_OH
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
 	.2byte  ITEM_CARD_CARD_TROOPER
-	.2byte  ITEM_CARD_CHAIN_STRIKE
 	.2byte  ITEM_CARD_DEBRIS_DRAGON
 	.2byte  ITEM_CARD_DIMENSIONAL_PRISON
 	.2byte  ITEM_CARD_FIRE_FORMATION_TENKI
@@ -17315,42 +14929,27 @@ InsideOfTruck_PokemartRavineRulerBanlist:
 	.2byte  ITEM_CARD_TOUR_GUIDE_FROM_THE_UNDERWORLD
 	.2byte  ITEM_CARD_ABYSS_DWELLER
 	.2byte  ITEM_CARD_ABYSS_SPHERE
-	.2byte  ITEM_CARD_ACCUMULATED_FORTUNE
 	.2byte  ITEM_CARD_ALLY_OF_JUSTICE_CATASTOR
 	.2byte  ITEM_CARD_ANCIENT_FAIRY_DRAGON
-	.2byte  ITEM_CARD_APPRENTICE_MAGICIAN
 	.2byte  ITEM_CARD_ARCHFIEND_HEIRESS
 	.2byte  ITEM_CARD_ARMAGEDDON_KNIGHT
+	.2byte  ITEM_CARD_ARMORY_ARM
 	.2byte  ITEM_CARD_ATLANTEAN_HEAVY_INFANTRY
 	.2byte  ITEM_CARD_ATLANTEAN_MARKSMAN
-	.2byte  ITEM_CARD_BATTLE_FADER
 	.2byte  ITEM_CARD_BLACK_HORN_OF_HEAVEN
 	.2byte  ITEM_CARD_BLACK_ROSE_DRAGON
-	.2byte  ITEM_CARD_BLACKWING_ZEPHYROS_THE_ELITE
 	.2byte  ITEM_CARD_BLASTER_DRAGON_RULER_OF_INFERNOS
 	.2byte  ITEM_CARD_BLUE_EYES_WHITE_DRAGON
 	.2byte  ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR
 	.2byte  ITEM_CARD_BREAKTHROUGH_SKILL
 	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_BEAR
-	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_DRAGON
-	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_GORILLA
-	.2byte  ITEM_CARD_BUJIN_MIKAZUCHI
-	.2byte  ITEM_CARD_BUJIN_YAMATO
-	.2byte  ITEM_CARD_BUJINCARNATION
-	.2byte  ITEM_CARD_BUJINGI_CRANE
-	.2byte  ITEM_CARD_BUJINGI_TURTLE
 	.2byte  ITEM_CARD_CALL_OF_THE_HAUNTED
-	.2byte  ITEM_CARD_CARDCAR_D
 	.2byte  ITEM_CARD_CARDS_OF_CONSONANCE
 	.2byte  ITEM_CARD_CHAIN_DISAPPEARANCE
-	.2byte  ITEM_CARD_CHAOS_TRAP_HOLE
-	.2byte  ITEM_CARD_CLOSED_FOREST
-	.2byte  ITEM_CARD_COACH_SOLDIER_WOLFBARK
 	.2byte  ITEM_CARD_COLOSSAL_FIGHTER
 	.2byte  ITEM_CARD_CRIMSON_BLADER
 	.2byte  ITEM_CARD_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL
 	.2byte  ITEM_CARD_D_D_CROW
-	.2byte  ITEM_CARD_D_D_R_DIFFERENT_DIMENSION_REINCARNATION
 	.2byte  ITEM_CARD_DAIGUSTO_EMERAL
 	.2byte  ITEM_CARD_DARK_GREPHER
 	.2byte  ITEM_CARD_DEBUNK
@@ -17361,69 +14960,34 @@ InsideOfTruck_PokemartRavineRulerBanlist:
 	.2byte  ITEM_CARD_DIVINE_WRATH
 	.2byte  ITEM_CARD_DNA_SURGERY
 	.2byte  ITEM_CARD_DRAGON_RAVINE
-	.2byte  ITEM_CARD_DRAGUNITY_ARMA_MYSTLETAINN
 	.2byte  ITEM_CARD_DRAGUNITY_CORSESCA
-	.2byte  ITEM_CARD_DRAGUNITY_DUX
-	.2byte  ITEM_CARD_DRAGUNITY_PHALANX
 	.2byte  ITEM_CARD_DUST_TORNADO
-	.2byte  ITEM_CARD_ECLIPSE_WYVERN
 	.2byte  ITEM_CARD_EFFECT_VEILER
 	.2byte  ITEM_CARD_ELECTRIC_VIRUS
 	.2byte  ITEM_CARD_ENEMY_CONTROLLER
-	.2byte  ITEM_CARD_EVILSWARM_CASTOR
 	.2byte  ITEM_CARD_EVILSWARM_HELIOTROPE
-	.2byte  ITEM_CARD_EVILSWARM_KERYKEION
 	.2byte  ITEM_CARD_EVILSWARM_KETOS
-	.2byte  ITEM_CARD_EVILSWARM_MANDRAGORA
-	.2byte  ITEM_CARD_EVILSWARM_THUNDERBIRD
-	.2byte  ITEM_CARD_FENCING_FIRE_FERRET
 	.2byte  ITEM_CARD_FIENDISH_CHAIN
-	.2byte  ITEM_CARD_FIRE_FORMATION_GYOKKOU
-	.2byte  ITEM_CARD_FIRE_FORMATION_TENSEN
-	.2byte  ITEM_CARD_FIRE_FORMATION_TENSU
 	.2byte  ITEM_CARD_FLAMVELL_GUARD
-	.2byte  ITEM_CARD_FOG_KING
 	.2byte  ITEM_CARD_FORBIDDEN_CHALICE
 	.2byte  ITEM_CARD_FORBIDDEN_LANCE
 	.2byte  ITEM_CARD_FOSSIL_DYNA_PACHYCEPHALO
 	.2byte  ITEM_CARD_GAGAGA_COWBOY
-	.2byte  ITEM_CARD_GEARGIACCELERATOR
-	.2byte  ITEM_CARD_GEARGIAGEAR
-	.2byte  ITEM_CARD_GEARGIANO
-	.2byte  ITEM_CARD_GEARGIANO_MK_II
-	.2byte  ITEM_CARD_GEARGIARMOR
-	.2byte  ITEM_CARD_GEARGIARSENAL
-	.2byte  ITEM_CARD_GENEX_CONTROLLER
-	.2byte  ITEM_CARD_GENEX_UNDINE
 	.2byte  ITEM_CARD_GLADIATOR_BEAST_HERAKLINOS
-	.2byte  ITEM_CARD_GOZEN_MATCH
-	.2byte  ITEM_CARD_HIGH_PRIESTESS_OF_PROPHECY
 	.2byte  ITEM_CARD_IMPERIAL_IRON_WALL
 	.2byte  ITEM_CARD_INFERNITY_ARCHFIEND
 	.2byte  ITEM_CARD_INFERNITY_BARRIER
-	.2byte  ITEM_CARD_INFERNITY_BREAK
 	.2byte  ITEM_CARD_INFERNITY_NECROMANCER
-	.2byte  ITEM_CARD_INFESTATION_PANDEMIC
 	.2byte  ITEM_CARD_INSTANT_FUSION
 	.2byte  ITEM_CARD_JOWGEN_THE_SPIRITUALIST
 	.2byte  ITEM_CARD_JUST_DESSERTS
-	.2byte  ITEM_CARD_JUSTICE_OF_PROPHECY
-	.2byte  ITEM_CARD_KAGETOKAGE
-	.2byte  ITEM_CARD_KAISER_COLOSSEUM
 	.2byte  ITEM_CARD_KARMA_CUT
 	.2byte  ITEM_CARD_KING_OF_THE_FERAL_IMPS
-	.2byte  ITEM_CARD_KOA_KI_MEIRU_DRAGO
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
-	.2byte  ITEM_CARD_LAVA_GOLEM
 	.2byte  ITEM_CARD_LEGACY_OF_YATA_GARASU
 	.2byte  ITEM_CARD_LEVIAIR_THE_SEA_DRAGON
 	.2byte  ITEM_CARD_LIGHT_AND_DARKNESS_DRAGON
 	.2byte  ITEM_CARD_M_X_SABER_INVOKER
-	.2byte  ITEM_CARD_MADOLCHE_CHATEAU
-	.2byte  ITEM_CARD_MADOLCHE_HOOTCAKE
-	.2byte  ITEM_CARD_MADOLCHE_MAGILEINE
-	.2byte  ITEM_CARD_MADOLCHE_MESSENGELATO
-	.2byte  ITEM_CARD_MADOLCHE_MEWFEUILLE
 	.2byte  ITEM_CARD_MAESTROKE_THE_SYMPHONY_DJINN
 	.2byte  ITEM_CARD_MAGIC_CYLINDER
 	.2byte  ITEM_CARD_MALEVOLENT_CATASTROPHE
@@ -17431,7 +14995,6 @@ InsideOfTruck_PokemartRavineRulerBanlist:
 	.2byte  ITEM_CARD_MECHA_PHANTOM_BEAST_DRACOSSACK
 	.2byte  ITEM_CARD_MERMAIL_ABYSSGAIOS
 	.2byte  ITEM_CARD_MERMAIL_ABYSSGUNDE
-	.2byte  ITEM_CARD_MERMAIL_ABYSSLEED
 	.2byte  ITEM_CARD_MERMAIL_ABYSSLINDE
 	.2byte  ITEM_CARD_MERMAIL_ABYSSMEGALO
 	.2byte  ITEM_CARD_MERMAIL_ABYSSPIKE
@@ -17439,21 +15002,15 @@ InsideOfTruck_PokemartRavineRulerBanlist:
 	.2byte  ITEM_CARD_MIND_CRUSH
 	.2byte  ITEM_CARD_MISTAKE
 	.2byte  ITEM_CARD_MORPHING_JAR_2
-	.2byte  ITEM_CARD_MYSTICAL_REFPANEL
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
 	.2byte  ITEM_CARD_MYSTIK_WOK
-	.2byte  ITEM_CARD_MYTHIC_TREE_DRAGON
-	.2byte  ITEM_CARD_MYTHIC_WATER_DRAGON
 	.2byte  ITEM_CARD_NEEDLE_CEILING
 	.2byte  ITEM_CARD_NIGHT_BEAM
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
-	.2byte  ITEM_CARD_NON_AGGRESSION_AREA
 	.2byte  ITEM_CARD_NUMBER_11_BIG_EYE
 	.2byte  ITEM_CARD_NUMBER_17_LEVIATHAN_DRAGON
 	.2byte  ITEM_CARD_NUMBER_30_ACID_GOLEM_OF_DESTRUCTION
 	.2byte  ITEM_CARD_NUMBER_66_MASTER_KEY_BEETLE
-	.2byte  ITEM_CARD_NUMBER_85_CRAZY_BOX
-	.2byte  ITEM_CARD_OLD_VINDICTIVE_MAGICIAN
 	.2byte  ITEM_CARD_PHOENIX_WING_WIND_BLAST
 	.2byte  ITEM_CARD_POISON_OF_THE_OLD_MAN
 	.2byte  ITEM_CARD_POT_OF_DUALITY
@@ -17472,38 +15029,22 @@ InsideOfTruck_PokemartRavineRulerBanlist:
 	.2byte  ITEM_CARD_SECRET_BARREL
 	.2byte  ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT
 	.2byte  ITEM_CARD_SHADOW_IMPRISONING_MIRROR
-	.2byte  ITEM_CARD_SIXTH_SENSE
 	.2byte  ITEM_CARD_SKILL_DRAIN
 	.2byte  ITEM_CARD_SMASHING_GROUND
 	.2byte  ITEM_CARD_SNIPE_HUNTER
-	.2byte  ITEM_CARD_SPELLBOOK_LIBRARY_OF_THE_CRESCENT
 	.2byte  ITEM_CARD_SPELLBOOK_MAGICIAN_OF_PROPHECY
-	.2byte  ITEM_CARD_SPELLBOOK_OF_ETERNITY
-	.2byte  ITEM_CARD_SPELLBOOK_OF_FATE
-	.2byte  ITEM_CARD_SPELLBOOK_OF_LIFE
-	.2byte  ITEM_CARD_SPELLBOOK_OF_POWER
 	.2byte  ITEM_CARD_SPELLBOOK_OF_SECRETS
-	.2byte  ITEM_CARD_SPELLBOOK_OF_THE_MASTER
-	.2byte  ITEM_CARD_SPELLBOOK_OF_WISDOM
-	.2byte  ITEM_CARD_SPORE
 	.2byte  ITEM_CARD_STARDUST_DRAGON
 	.2byte  ITEM_CARD_STARLIGHT_ROAD
-	.2byte  ITEM_CARD_STYGIAN_STREET_PATROL
 	.2byte  ITEM_CARD_SWIFT_SCARECROW
-	.2byte  ITEM_CARD_SWORDS_OF_CONCEALING_LIGHT
-	.2byte  ITEM_CARD_TEMPERANCE_OF_PROPHECY
 	.2byte  ITEM_CARD_TEMPEST_DRAGON_RULER_OF_STORMS
 	.2byte  ITEM_CARD_TEMTEMPO_THE_PERCUSSION_DJINN
 	.2byte  ITEM_CARD_TERRAFORMING
-	.2byte  ITEM_CARD_THE_FABLED_CATSITH
-	.2byte  ITEM_CARD_THE_GRAND_SPELLBOOK_TOWER
 	.2byte  ITEM_CARD_THE_WHITE_STONE_OF_LEGEND
 	.2byte  ITEM_CARD_THOUGHT_RULER_ARCHFIEND
 	.2byte  ITEM_CARD_TIDAL_DRAGON_RULER_OF_WATERFALLS
-	.2byte  ITEM_CARD_TRADE_IN
 	.2byte  ITEM_CARD_TRAP_HOLE
 	.2byte  ITEM_CARD_TRAP_STUN
-	.2byte  ITEM_CARD_TRIGON
 	.2byte  ITEM_CARD_TWISTER
 	.2byte  ITEM_CARD_UPSTART_GOBLIN
 	.2byte  ITEM_CARD_VANITY_S_EMPTINESS
@@ -17554,10 +15095,7 @@ InsideOfTruck_PokemartFireWaterBanlist:
 	.2byte  ITEM_CARD_RESCUE_RABBIT
 	.2byte  ITEM_CARD_SACRED_SWORD_OF_SEVEN_STARS
 	.2byte  ITEM_CARD_SOLEMN_WARNING
-	.2byte  ITEM_CARD_SOUL_DRAIN
-	.2byte  ITEM_CARD_SPELLBOOK_OF_FATE
 	.2byte  ITEM_CARD_TEMPEST_DRAGON_RULER_OF_STORMS
-	.2byte  ITEM_CARD_THE_TRANSMIGRATION_PROPHECY
 	.2byte  ITEM_CARD_THUNDER_KING_RAI_OH
 	.2byte  ITEM_CARD_TIDAL_DRAGON_RULER_OF_WATERFALLS
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
@@ -17566,67 +15104,42 @@ InsideOfTruck_PokemartFireWaterBanlist:
 	.2byte  ITEM_CARD_DIMENSIONAL_PRISON
 	.2byte  ITEM_CARD_MIRROR_FORCE
 	.2byte  ITEM_CARD_TRAGOEDIA
-	.2byte  ITEM_CARD_A_WINGBEAT_OF_GIANT_DRAGON
 	.2byte  ITEM_CARD_ABYSS_DWELLER
 	.2byte  ITEM_CARD_ABYSS_SPHERE
-	.2byte  ITEM_CARD_ACID_TRAP_HOLE
 	.2byte  ITEM_CARD_ALLY_OF_JUSTICE_CATASTOR
 	.2byte  ITEM_CARD_AQUA_SPIRIT
-	.2byte  ITEM_CARD_ASCETICISM_OF_THE_SIX_SAMURAI
+	.2byte  ITEM_CARD_ARMORY_ARM
 	.2byte  ITEM_CARD_ATLANTEAN_HEAVY_INFANTRY
 	.2byte  ITEM_CARD_ATLANTEAN_MARKSMAN
 	.2byte  ITEM_CARD_BEIIGE_VANGUARD_OF_DARK_WORLD
 	.2byte  ITEM_CARD_BLACK_HORN_OF_HEAVEN
 	.2byte  ITEM_CARD_BLACK_ROSE_DRAGON
-	.2byte  ITEM_CARD_BLACKWING_ZEPHYROS_THE_ELITE
 	.2byte  ITEM_CARD_BLUE_EYES_WHITE_DRAGON
 	.2byte  ITEM_CARD_BREAKTHROUGH_SKILL
 	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_BEAR
-	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_GORILLA
 	.2byte  ITEM_CARD_BROWW_HUNTSMAN_OF_DARK_WORLD
 	.2byte  ITEM_CARD_CALL_OF_THE_HAUNTED
-	.2byte  ITEM_CARD_CARDCAR_D
 	.2byte  ITEM_CARD_CARDS_OF_CONSONANCE
-	.2byte  ITEM_CARD_CLOSED_FOREST
-	.2byte  ITEM_CARD_COACH_SOLDIER_WOLFBARK
 	.2byte  ITEM_CARD_COLOSSAL_FIGHTER
 	.2byte  ITEM_CARD_CRIMSON_BLADER
 	.2byte  ITEM_CARD_D_D_CROW
-	.2byte  ITEM_CARD_D_D_R_DIFFERENT_DIMENSION_REINCARNATION
 	.2byte  ITEM_CARD_DAIGUSTO_EMERAL
-	.2byte  ITEM_CARD_DARK_SMOG
-	.2byte  ITEM_CARD_DARK_WORLD_DEALINGS
 	.2byte  ITEM_CARD_DEBUNK
 	.2byte  ITEM_CARD_DECK_DEVASTATION_VIRUS
-	.2byte  ITEM_CARD_DEEP_DARK_TRAP_HOLE
 	.2byte  ITEM_CARD_DIAMOND_DIRE_WOLF
 	.2byte  ITEM_CARD_DIVINE_DRAGON_KNIGHT_FELGRAND
 	.2byte  ITEM_CARD_DIVINE_WRATH
 	.2byte  ITEM_CARD_DNA_SURGERY
-	.2byte  ITEM_CARD_DOUBLE_EDGED_SWORD_TECHNIQUE
 	.2byte  ITEM_CARD_DOWNERD_MAGICIAN
 	.2byte  ITEM_CARD_DRAGGED_DOWN_INTO_THE_GRAVE
 	.2byte  ITEM_CARD_DRAGON_SHRINE
 	.2byte  ITEM_CARD_DRAGUNITY_CORSESCA
 	.2byte  ITEM_CARD_DUST_TORNADO
 	.2byte  ITEM_CARD_EFFECT_VEILER
-	.2byte  ITEM_CARD_ELDER_OF_THE_SIX_SAMURAI
-	.2byte  ITEM_CARD_EVILSWARM_CASTOR
 	.2byte  ITEM_CARD_EVILSWARM_EXCITON_KNIGHT
 	.2byte  ITEM_CARD_EVILSWARM_HELIOTROPE
-	.2byte  ITEM_CARD_EVILSWARM_KERYKEION
-	.2byte  ITEM_CARD_EVILSWARM_MANDRAGORA
-	.2byte  ITEM_CARD_EVILSWARM_THUNDERBIRD
-	.2byte  ITEM_CARD_FENCING_FIRE_FERRET
 	.2byte  ITEM_CARD_FIENDISH_CHAIN
-	.2byte  ITEM_CARD_FIRE_FORMATION_GYOKKOU
 	.2byte  ITEM_CARD_FIRE_FORMATION_TENKI
-	.2byte  ITEM_CARD_FIRE_FORMATION_TENSEN
-	.2byte  ITEM_CARD_FIRE_FORMATION_TENSU
-	.2byte  ITEM_CARD_FIRE_KING_AVATAR_BARONG
-	.2byte  ITEM_CARD_FIRE_KING_AVATAR_YAKSHA
-	.2byte  ITEM_CARD_FIRE_KING_HIGH_AVATAR_GARUNIX
-	.2byte  ITEM_CARD_FLAMVELL_FIREDOG
 	.2byte  ITEM_CARD_FLAMVELL_GUARD
 	.2byte  ITEM_CARD_FLYING_C_
 	.2byte  ITEM_CARD_FORBIDDEN_CHALICE
@@ -17634,45 +15147,23 @@ InsideOfTruck_PokemartFireWaterBanlist:
 	.2byte  ITEM_CARD_FOSSIL_DYNA_PACHYCEPHALO
 	.2byte  ITEM_CARD_FULL_HOUSE
 	.2byte  ITEM_CARD_GAGAGA_COWBOY
-	.2byte  ITEM_CARD_GEARGIACCELERATOR
-	.2byte  ITEM_CARD_GEARGIAGEAR
-	.2byte  ITEM_CARD_GEARGIANO
-	.2byte  ITEM_CARD_GEARGIANO_MK_II
-	.2byte  ITEM_CARD_GEARGIARMOR
-	.2byte  ITEM_CARD_GEARGIARSENAL
 	.2byte  ITEM_CARD_GEMINI_IMPS
-	.2byte  ITEM_CARD_GENEX_CONTROLLER
-	.2byte  ITEM_CARD_GENEX_UNDINE
 	.2byte  ITEM_CARD_GRAPHA_DRAGON_LORD_OF_DARK_WORLD
-	.2byte  ITEM_CARD_HIERATIC_DRAGON_OF_ESET
-	.2byte  ITEM_CARD_HIERATIC_DRAGON_OF_SU
-	.2byte  ITEM_CARD_HIERATIC_DRAGON_OF_TEFNUIT
-	.2byte  ITEM_CARD_HIERATIC_SEAL_FROM_THE_ASHES
-	.2byte  ITEM_CARD_HIERATIC_SEAL_OF_CONVOCATION
-	.2byte  ITEM_CARD_HIGH_PRIESTESS_OF_PROPHECY
 	.2byte  ITEM_CARD_HORN_OF_THE_PHANTOM_BEAST
 	.2byte  ITEM_CARD_IMPERIAL_IRON_WALL
-	.2byte  ITEM_CARD_INFESTATION_PANDEMIC
 	.2byte  ITEM_CARD_INSTANT_FUSION
-	.2byte  ITEM_CARD_JUSTICE_OF_PROPHECY
 	.2byte  ITEM_CARD_KAGEMUSHA_OF_THE_SIX_SAMURAI
-	.2byte  ITEM_CARD_KAGETOKAGE
 	.2byte  ITEM_CARD_KING_OF_THE_FERAL_IMPS
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
-	.2byte  ITEM_CARD_LABRADORITE_DRAGON
-	.2byte  ITEM_CARD_LEGENDARY_SIX_SAMURAI_ENISHI
-	.2byte  ITEM_CARD_LEGENDARY_SIX_SAMURAI_KAGEKI
 	.2byte  ITEM_CARD_LEGENDARY_SIX_SAMURAI_KIZAN
 	.2byte  ITEM_CARD_LEVIAIR_THE_SEA_DRAGON
 	.2byte  ITEM_CARD_LIGHT_IMPRISONING_MIRROR
 	.2byte  ITEM_CARD_MAIDEN_WITH_EYES_OF_BLUE
-	.2byte  ITEM_CARD_MALEFIC_STARDUST_DRAGON
 	.2byte  ITEM_CARD_MALEVOLENT_CATASTROPHE
 	.2byte  ITEM_CARD_MAXX_C_
 	.2byte  ITEM_CARD_MECHA_PHANTOM_BEAST_DRACOSSACK
 	.2byte  ITEM_CARD_MERMAIL_ABYSSGAIOS
 	.2byte  ITEM_CARD_MERMAIL_ABYSSGUNDE
-	.2byte  ITEM_CARD_MERMAIL_ABYSSLEED
 	.2byte  ITEM_CARD_MERMAIL_ABYSSLINDE
 	.2byte  ITEM_CARD_MERMAIL_ABYSSMEGALO
 	.2byte  ITEM_CARD_MERMAIL_ABYSSPIKE
@@ -17680,12 +15171,8 @@ InsideOfTruck_PokemartFireWaterBanlist:
 	.2byte  ITEM_CARD_MERMAIL_ABYSSTRITE
 	.2byte  ITEM_CARD_MERMAIL_ABYSSTURGE
 	.2byte  ITEM_CARD_MIND_CRUSH
-	.2byte  ITEM_CARD_MIRACLE_DIG
 	.2byte  ITEM_CARD_MIST_WURM
-	.2byte  ITEM_CARD_MOULINGLACIA_THE_ELEMENTAL_LORD
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
-	.2byte  ITEM_CARD_MYTHIC_TREE_DRAGON
-	.2byte  ITEM_CARD_MYTHIC_WATER_DRAGON
 	.2byte  ITEM_CARD_NEEDLE_CEILING
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
 	.2byte  ITEM_CARD_NUMBER_101_SILENT_HONOR_ARK
@@ -17693,14 +15180,9 @@ InsideOfTruck_PokemartFireWaterBanlist:
 	.2byte  ITEM_CARD_NUMBER_17_LEVIATHAN_DRAGON
 	.2byte  ITEM_CARD_NUMBER_30_ACID_GOLEM_OF_DESTRUCTION
 	.2byte  ITEM_CARD_NUMBER_66_MASTER_KEY_BEETLE
-	.2byte  ITEM_CARD_NUMBER_85_CRAZY_BOX
-	.2byte  ITEM_CARD_ONSLAUGHT_OF_THE_FIRE_KINGS
-	.2byte  ITEM_CARD_OVERWORKED
 	.2byte  ITEM_CARD_PHOENIX_WING_WIND_BLAST
-	.2byte  ITEM_CARD_PHOTON_THRASHER
 	.2byte  ITEM_CARD_POT_OF_DUALITY
 	.2byte  ITEM_CARD_RAIGEKI_BREAK
-	.2byte  ITEM_CARD_REKINDLING
 	.2byte  ITEM_CARD_RIVALRY_OF_WARLORDS
 	.2byte  ITEM_CARD_ROYAL_DECREE
 	.2byte  ITEM_CARD_SACRED_PHOENIX_OF_NEPHTHYS
@@ -17712,25 +15194,13 @@ InsideOfTruck_PokemartFireWaterBanlist:
 	.2byte  ITEM_CARD_SKILL_DRAIN
 	.2byte  ITEM_CARD_SNOWMAN_EATER
 	.2byte  ITEM_CARD_SNOWW_UNLIGHT_OF_DARK_WORLD
-	.2byte  ITEM_CARD_SPELLBOOK_LIBRARY_OF_THE_CRESCENT
 	.2byte  ITEM_CARD_SPELLBOOK_MAGICIAN_OF_PROPHECY
-	.2byte  ITEM_CARD_SPELLBOOK_OF_ETERNITY
-	.2byte  ITEM_CARD_SPELLBOOK_OF_LIFE
-	.2byte  ITEM_CARD_SPELLBOOK_OF_POWER
 	.2byte  ITEM_CARD_SPELLBOOK_OF_SECRETS
-	.2byte  ITEM_CARD_SPELLBOOK_OF_THE_MASTER
-	.2byte  ITEM_CARD_SPELLBOOK_OF_WISDOM
 	.2byte  ITEM_CARD_STARDUST_DRAGON
 	.2byte  ITEM_CARD_STEELSWARM_ROACH
 	.2byte  ITEM_CARD_SWIFT_SCARECROW
-	.2byte  ITEM_CARD_TEMPERANCE_OF_PROPHECY
-	.2byte  ITEM_CARD_THE_GATES_OF_DARK_WORLD
-	.2byte  ITEM_CARD_THE_GRAND_SPELLBOOK_TOWER
-	.2byte  ITEM_CARD_THE_SIX_SAMURAI_ZANJI
 	.2byte  ITEM_CARD_THE_WHITE_STONE_OF_LEGEND
 	.2byte  ITEM_CARD_TOUR_GUIDE_FROM_THE_UNDERWORLD
-	.2byte  ITEM_CARD_TRADE_IN
-	.2byte  ITEM_CARD_TRANCE_ARCHFIEND
 	.2byte  ITEM_CARD_TRAP_HOLE
 	.2byte  ITEM_CARD_TRAP_STUN
 	.2byte  ITEM_CARD_TRAPTRIX_MYRMELEO
@@ -17761,6 +15231,7 @@ InsideOfTruck_PokemartHATBanlist:
 	.2byte  ITEM_CARD_BLASTER_DRAGON_RULER_OF_INFERNOS
 	.2byte  ITEM_CARD_BOOK_OF_MOON
 	.2byte  ITEM_CARD_BOTTOMLESS_TRAP_HOLE
+	.2byte  ITEM_CARD_BURIAL_FROM_A_DIFFERENT_DIMENSION
 	.2byte  ITEM_CARD_COMPULSORY_EVACUATION_DEVICE
 	.2byte  ITEM_CARD_DARK_HOLE
 	.2byte  ITEM_CARD_DEBRIS_DRAGON
@@ -17774,27 +15245,21 @@ InsideOfTruck_PokemartHATBanlist:
 	.2byte  ITEM_CARD_REDOX_DRAGON_RULER_OF_BOULDERS
 	.2byte  ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
 	.2byte  ITEM_CARD_RESCUE_RABBIT
+	.2byte  ITEM_CARD_SACRED_SWORD_OF_SEVEN_STARS
 	.2byte  ITEM_CARD_SOLEMN_WARNING
-	.2byte  ITEM_CARD_SOUL_DRAIN
-	.2byte  ITEM_CARD_SPELLBOOK_OF_FATE
 	.2byte  ITEM_CARD_TEMPEST_DRAGON_RULER_OF_STORMS
-	.2byte  ITEM_CARD_THE_TRANSMIGRATION_PROPHECY
+	.2byte  ITEM_CARD_THUNDER_KING_RAI_OH
 	.2byte  ITEM_CARD_TIDAL_DRAGON_RULER_OF_WATERFALLS
 	.2byte  ITEM_CARD_TORRENTIAL_TRIBUTE
+	.2byte  ITEM_CARD_CARD_TROOPER
 	.2byte  ITEM_CARD_DIMENSIONAL_PRISON
-	.2byte  ITEM_CARD_HIERATIC_SEAL_OF_CONVOCATION
+	.2byte  ITEM_CARD_MIRROR_FORCE
 	.2byte  ITEM_CARD_REASONING
-	.2byte  ITEM_CARD_A_WINGBEAT_OF_GIANT_DRAGON
 	.2byte  ITEM_CARD_ABYSS_DWELLER
 	.2byte  ITEM_CARD_ABYSS_SPHERE
-	.2byte  ITEM_CARD_ACID_TRAP_HOLE
-	.2byte  ITEM_CARD_ALLY_OF_JUSTICE_CATASTOR
 	.2byte  ITEM_CARD_ALLY_OF_JUSTICE_CYCLE_READER
-	.2byte  ITEM_CARD_ARTIFACT_BEAGALLTACH
-	.2byte  ITEM_CARD_ARTIFACT_IGNITION
 	.2byte  ITEM_CARD_ARTIFACT_MORALLTACH
 	.2byte  ITEM_CARD_ARTIFACT_SANCTUM
-	.2byte  ITEM_CARD_ARTIFACT_SCYTHE
 	.2byte  ITEM_CARD_ATLANTEAN_HEAVY_INFANTRY
 	.2byte  ITEM_CARD_ATLANTEAN_MARKSMAN
 	.2byte  ITEM_CARD_BLACK_HORN_OF_HEAVEN
@@ -17802,37 +15267,22 @@ InsideOfTruck_PokemartHATBanlist:
 	.2byte  ITEM_CARD_BLUE_EYES_WHITE_DRAGON
 	.2byte  ITEM_CARD_BREAKTHROUGH_SKILL
 	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_BEAR
-	.2byte  ITEM_CARD_BUJIN_MIKAZUCHI
-	.2byte  ITEM_CARD_BUJIN_YAMATO
-	.2byte  ITEM_CARD_BUJINCARNATION
-	.2byte  ITEM_CARD_BUJINGI_CRANE
-	.2byte  ITEM_CARD_BUJINGI_HARE
-	.2byte  ITEM_CARD_BUJINGI_TURTLE
 	.2byte  ITEM_CARD_CALL_OF_THE_HAUNTED
-	.2byte  ITEM_CARD_CARDCAR_D
 	.2byte  ITEM_CARD_CARDS_OF_CONSONANCE
-	.2byte  ITEM_CARD_CHIMERATECH_FORTRESS_DRAGON
 	.2byte  ITEM_CARD_COLOSSAL_FIGHTER
 	.2byte  ITEM_CARD_CRIMSON_BLADER
-	.2byte  ITEM_CARD_CYBER_DRAGON
 	.2byte  ITEM_CARD_D_D_CROW
 	.2byte  ITEM_CARD_DAIGUSTO_EMERAL
 	.2byte  ITEM_CARD_DEBUNK
-	.2byte  ITEM_CARD_DEEP_DARK_TRAP_HOLE
 	.2byte  ITEM_CARD_DIAMOND_DIRE_WOLF
 	.2byte  ITEM_CARD_DIVINE_DRAGON_KNIGHT_FELGRAND
 	.2byte  ITEM_CARD_DNA_SURGERY
-	.2byte  ITEM_CARD_DOUBLE_CYCLONE
 	.2byte  ITEM_CARD_DOWNERD_MAGICIAN
 	.2byte  ITEM_CARD_DRAGON_SHRINE
 	.2byte  ITEM_CARD_DRAGUNITY_CORSESCA
 	.2byte  ITEM_CARD_ELECTRIC_VIRUS
-	.2byte  ITEM_CARD_EVILSWARM_CASTOR
 	.2byte  ITEM_CARD_EVILSWARM_EXCITON_KNIGHT
 	.2byte  ITEM_CARD_EVILSWARM_HELIOTROPE
-	.2byte  ITEM_CARD_EVILSWARM_KERYKEION
-	.2byte  ITEM_CARD_EVILSWARM_MANDRAGORA
-	.2byte  ITEM_CARD_EVILSWARM_THUNDERBIRD
 	.2byte  ITEM_CARD_FIENDISH_CHAIN
 	.2byte  ITEM_CARD_FIRE_FORMATION_TENKI
 	.2byte  ITEM_CARD_FIRE_HAND
@@ -17840,44 +15290,17 @@ InsideOfTruck_PokemartHATBanlist:
 	.2byte  ITEM_CARD_FLYING_C_
 	.2byte  ITEM_CARD_FORBIDDEN_CHALICE
 	.2byte  ITEM_CARD_FORBIDDEN_LANCE
-	.2byte  ITEM_CARD_FOSSIL_DIG
 	.2byte  ITEM_CARD_FULL_HOUSE
 	.2byte  ITEM_CARD_GAGAGA_COWBOY
-	.2byte  ITEM_CARD_GEARGIACCELERATOR
-	.2byte  ITEM_CARD_GEARGIAGEAR
-	.2byte  ITEM_CARD_GEARGIANO_MK_II
-	.2byte  ITEM_CARD_GEARGIARMOR
-	.2byte  ITEM_CARD_GEARGIARSENAL
-	.2byte  ITEM_CARD_GENEX_CONTROLLER
-	.2byte  ITEM_CARD_GENEX_UNDINE
-	.2byte  ITEM_CARD_HIERATIC_DRAGON_OF_ESET
-	.2byte  ITEM_CARD_HIERATIC_DRAGON_OF_SU
-	.2byte  ITEM_CARD_HIERATIC_DRAGON_OF_TEFNUIT
-	.2byte  ITEM_CARD_HIGH_PRIESTESS_OF_PROPHECY
 	.2byte  ITEM_CARD_ICE_HAND
-	.2byte  ITEM_CARD_IMPERIAL_IRON_WALL
-	.2byte  ITEM_CARD_INFESTATION_PANDEMIC
 	.2byte  ITEM_CARD_INSTANT_FUSION
-	.2byte  ITEM_CARD_JUNK_SYNCHRON
-	.2byte  ITEM_CARD_JUSTICE_OF_PROPHECY
-	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
-	.2byte  ITEM_CARD_LABRADORITE_DRAGON
 	.2byte  ITEM_CARD_LEVIAIR_THE_SEA_DRAGON
 	.2byte  ITEM_CARD_LIGHT_IMPRISONING_MIRROR
 	.2byte  ITEM_CARD_M_X_SABER_INVOKER
-	.2byte  ITEM_CARD_MADOLCHE_ANJELLY
-	.2byte  ITEM_CARD_MADOLCHE_CHATEAU
-	.2byte  ITEM_CARD_MADOLCHE_HOOTCAKE
-	.2byte  ITEM_CARD_MADOLCHE_MAGILEINE
-	.2byte  ITEM_CARD_MADOLCHE_MESSENGELATO
-	.2byte  ITEM_CARD_MADOLCHE_MEWFEUILLE
-	.2byte  ITEM_CARD_MAGICAL_ANDROID
 	.2byte  ITEM_CARD_MALEVOLENT_CATASTROPHE
-	.2byte  ITEM_CARD_MATHEMATICIAN
 	.2byte  ITEM_CARD_MAXX_C_
 	.2byte  ITEM_CARD_MECHA_PHANTOM_BEAST_DRACOSSACK
 	.2byte  ITEM_CARD_MERMAIL_ABYSSGAIOS
-	.2byte  ITEM_CARD_MERMAIL_ABYSSLEED
 	.2byte  ITEM_CARD_MERMAIL_ABYSSLINDE
 	.2byte  ITEM_CARD_MERMAIL_ABYSSMEGALO
 	.2byte  ITEM_CARD_MERMAIL_ABYSSPIKE
@@ -17885,14 +15308,12 @@ InsideOfTruck_PokemartHATBanlist:
 	.2byte  ITEM_CARD_MERMAIL_ABYSSTRITE
 	.2byte  ITEM_CARD_MERMAIL_ABYSSTURGE
 	.2byte  ITEM_CARD_MIND_CRUSH
-	.2byte  ITEM_CARD_MOULINGLACIA_THE_ELEMENTAL_LORD
 	.2byte  ITEM_CARD_MYSTICAL_SPACE_TYPHOON
 	.2byte  ITEM_CARD_NEEDLE_CEILING
 	.2byte  ITEM_CARD_NOBLEMAN_OF_CROSSOUT
 	.2byte  ITEM_CARD_NUMBER_101_SILENT_HONOR_ARK
 	.2byte  ITEM_CARD_NUMBER_11_BIG_EYE
 	.2byte  ITEM_CARD_NUMBER_66_MASTER_KEY_BEETLE
-	.2byte  ITEM_CARD_NUMBER_85_CRAZY_BOX
 	.2byte  ITEM_CARD_PHOENIX_WING_WIND_BLAST
 	.2byte  ITEM_CARD_POT_OF_DUALITY
 	.2byte  ITEM_CARD_RED_DRAGON_ARCHFIEND
@@ -17900,31 +15321,21 @@ InsideOfTruck_PokemartHATBanlist:
 	.2byte  ITEM_CARD_SALVAGE
 	.2byte  ITEM_CARD_SCRAP_DRAGON
 	.2byte  ITEM_CARD_SKILL_DRAIN
-	.2byte  ITEM_CARD_SKULL_MEISTER
 	.2byte  ITEM_CARD_SOUL_CHARGE
-	.2byte  ITEM_CARD_SPELLBOOK_LIBRARY_OF_THE_CRESCENT
 	.2byte  ITEM_CARD_SPELLBOOK_MAGICIAN_OF_PROPHECY
-	.2byte  ITEM_CARD_SPELLBOOK_OF_ETERNITY
-	.2byte  ITEM_CARD_SPELLBOOK_OF_LIFE
-	.2byte  ITEM_CARD_SPELLBOOK_OF_POWER
 	.2byte  ITEM_CARD_SPELLBOOK_OF_SECRETS
-	.2byte  ITEM_CARD_SPELLBOOK_OF_THE_MASTER
-	.2byte  ITEM_CARD_SPELLBOOK_OF_WISDOM
 	.2byte  ITEM_CARD_STARDUST_DRAGON
-	.2byte  ITEM_CARD_TEMPERANCE_OF_PROPHECY
-	.2byte  ITEM_CARD_THE_GRAND_SPELLBOOK_TOWER
+	.2byte  ITEM_CARD_SUPER_POLYMERIZATION
+	.2byte  ITEM_CARD_TEMTEMPO_THE_PERCUSSION_DJINN
 	.2byte  ITEM_CARD_THE_WHITE_STONE_OF_LEGEND
-	.2byte  ITEM_CARD_TRADE_IN
 	.2byte  ITEM_CARD_TRAP_STUN
 	.2byte  ITEM_CARD_TRAPTRIX_DIONAEA
 	.2byte  ITEM_CARD_TRAPTRIX_MYRMELEO
 	.2byte  ITEM_CARD_TRAPTRIX_TRAP_HOLE_NIGHTMARE
-	.2byte  ITEM_CARD_TUNING
 	.2byte  ITEM_CARD_TWISTER
 	.2byte  ITEM_CARD_UPSTART_GOBLIN
 	.2byte  ITEM_CARD_VANITY_S_EMPTINESS
 	.2byte  ITEM_CARD_WIND_UP_ZENMAINES
-	.2byte  ITEM_CARD_WIRETAP
 	.2byte  ITEM_CARD_ZOMBIE_WORLD
 	pokemartlistend
 
@@ -17948,7 +15359,6 @@ InsideOfTruck_PokemartVegasBanlist:
 	.2byte  ITEM_CARD_BLACKWING_GALE_THE_WHIRLWIND
 	.2byte  ITEM_CARD_BOOK_OF_MOON
 	.2byte  ITEM_CARD_BOTTOMLESS_TRAP_HOLE
-	.2byte  ITEM_CARD_COACH_SOLDIER_WOLFBARK
 	.2byte  ITEM_CARD_COMPULSORY_EVACUATION_DEVICE
 	.2byte  ITEM_CARD_DARK_ARMED_DRAGON
 	.2byte  ITEM_CARD_DARK_HOLE
@@ -17962,11 +15372,8 @@ InsideOfTruck_PokemartVegasBanlist:
 	.2byte  ITEM_CARD_MACRO_COSMOS
 	.2byte  ITEM_CARD_MERMAIL_ABYSSGUNDE
 	.2byte  ITEM_CARD_MIND_CONTROL
-	.2byte  ITEM_CARD_NEO_SPACIAN_GRAND_MOLE
 	.2byte  ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
 	.2byte  ITEM_CARD_SOLEMN_WARNING
-	.2byte  ITEM_CARD_SOUL_DRAIN
-	.2byte  ITEM_CARD_SPELLBOOK_OF_FATE
 	.2byte  ITEM_CARD_TEMPEST_DRAGON_RULER_OF_STORMS
 	.2byte  ITEM_CARD_THUNDER_KING_RAI_OH
 	.2byte  ITEM_CARD_TIDAL_DRAGON_RULER_OF_WATERFALLS
@@ -17978,8 +15385,6 @@ InsideOfTruck_PokemartVegasBanlist:
 	.2byte  ITEM_CARD_TRAGOEDIA
 	.2byte  ITEM_CARD_ABYSS_DWELLER
 	.2byte  ITEM_CARD_ABYSS_SPHERE
-	.2byte  ITEM_CARD_ACCUMULATED_FORTUNE
-	.2byte  ITEM_CARD_ACID_TRAP_HOLE
 	.2byte  ITEM_CARD_ALLY_OF_JUSTICE_CATASTOR
 	.2byte  ITEM_CARD_ANTI_SPELL_FRAGRANCE
 	.2byte  ITEM_CARD_AQUA_SPIRIT
@@ -17995,23 +15400,12 @@ InsideOfTruck_PokemartVegasBanlist:
 	.2byte  ITEM_CARD_BLACKWING_KALUT_THE_MOON_SHADOW
 	.2byte  ITEM_CARD_BLACKWING_SHURA_THE_BLUE_FLAME
 	.2byte  ITEM_CARD_BLACKWING_SIROCCO_THE_DAWN
-	.2byte  ITEM_CARD_BLACKWING_ZEPHYROS_THE_ELITE
 	.2byte  ITEM_CARD_BLACKWING_ARMED_WING
 	.2byte  ITEM_CARD_BLACKWING_ARMOR_MASTER
 	.2byte  ITEM_CARD_BREAKTHROUGH_SKILL
 	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_BEAR
-	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_DRAGON
-	.2byte  ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_GORILLA
-	.2byte  ITEM_CARD_BUJIN_MIKAZUCHI
-	.2byte  ITEM_CARD_BUJIN_YAMATO
-	.2byte  ITEM_CARD_BUJINCARNATION
-	.2byte  ITEM_CARD_BUJINGI_CRANE
-	.2byte  ITEM_CARD_BUJINGI_HARE
-	.2byte  ITEM_CARD_BUJINGI_TURTLE
 	.2byte  ITEM_CARD_CALL_OF_THE_HAUNTED
-	.2byte  ITEM_CARD_CARDCAR_D
 	.2byte  ITEM_CARD_CHIMERATECH_FORTRESS_DRAGON
-	.2byte  ITEM_CARD_COMPULSORY_ESCAPE_DEVICE
 	.2byte  ITEM_CARD_CRIMSON_BLADER
 	.2byte  ITEM_CARD_CYBER_DRAGON
 	.2byte  ITEM_CARD_CYBER_HARPIE_LADY
@@ -18019,62 +15413,36 @@ InsideOfTruck_PokemartVegasBanlist:
 	.2byte  ITEM_CARD_DAIGUSTO_EMERAL
 	.2byte  ITEM_CARD_DARK_GREPHER
 	.2byte  ITEM_CARD_DEBUNK
-	.2byte  ITEM_CARD_DEEP_DARK_TRAP_HOLE
-	.2byte  ITEM_CARD_DELTA_CROW_ANTI_REVERSE
 	.2byte  ITEM_CARD_DIAMOND_DIRE_WOLF
 	.2byte  ITEM_CARD_DNA_SURGERY
 	.2byte  ITEM_CARD_DOOMCALIBER_KNIGHT
-	.2byte  ITEM_CARD_DOUBLE_CYCLONE
 	.2byte  ITEM_CARD_DOWNERD_MAGICIAN
 	.2byte  ITEM_CARD_DUST_TORNADO
-	.2byte  ITEM_CARD_DYNATHERIUM
 	.2byte  ITEM_CARD_EFFECT_VEILER
 	.2byte  ITEM_CARD_EVILSWARM_EXCITON_KNIGHT
-	.2byte  ITEM_CARD_EVILSWARM_THUNDERBIRD
 	.2byte  ITEM_CARD_FIENDISH_CHAIN
 	.2byte  ITEM_CARD_FIRE_FORMATION_TENKI
-	.2byte  ITEM_CARD_FIRE_FORMATION_TENSEN
-	.2byte  ITEM_CARD_FIRE_FORMATION_TENSU
+	.2byte  ITEM_CARD_FLAME_GHOST
 	.2byte  ITEM_CARD_FORBIDDEN_LANCE
 	.2byte  ITEM_CARD_FULL_HOUSE
 	.2byte  ITEM_CARD_GAGAGA_COWBOY
-	.2byte  ITEM_CARD_GEARGIACCELERATOR
-	.2byte  ITEM_CARD_GEARGIAGEAR
-	.2byte  ITEM_CARD_GEARGIANO
-	.2byte  ITEM_CARD_GEARGIANO_MK_II
-	.2byte  ITEM_CARD_GEARGIARMOR
-	.2byte  ITEM_CARD_GEARGIARSENAL
 	.2byte  ITEM_CARD_GEMINI_IMPS
-	.2byte  ITEM_CARD_GENEX_CONTROLLER
-	.2byte  ITEM_CARD_GENEX_UNDINE
-	.2byte  ITEM_CARD_GOOD_GOBLIN_HOUSEKEEPING
-	.2byte  ITEM_CARD_HIGH_PRIESTESS_OF_PROPHECY
 	.2byte  ITEM_CARD_ICARUS_ATTACK
 	.2byte  ITEM_CARD_IMPERIAL_IRON_WALL
 	.2byte  ITEM_CARD_INFERNITY_ARCHFIEND
-	.2byte  ITEM_CARD_INFERNITY_BREAK
 	.2byte  ITEM_CARD_INFERNITY_NECROMANCER
 	.2byte  ITEM_CARD_INSTANT_FUSION
 	.2byte  ITEM_CARD_JAR_OF_GREED
-	.2byte  ITEM_CARD_JUSTICE_OF_PROPHECY
-	.2byte  ITEM_CARD_KAGETOKAGE
-	.2byte  ITEM_CARD_KAISER_COLOSSEUM
 	.2byte  ITEM_CARD_KING_OF_THE_FERAL_IMPS
 	.2byte  ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
 	.2byte  ITEM_CARD_LEGACY_OF_YATA_GARASU
 	.2byte  ITEM_CARD_LEVIAIR_THE_SEA_DRAGON
 	.2byte  ITEM_CARD_LIGHT_IMPRISONING_MIRROR
 	.2byte  ITEM_CARD_M_X_SABER_INVOKER
-	.2byte  ITEM_CARD_MADOLCHE_CHATEAU
-	.2byte  ITEM_CARD_MADOLCHE_HOOTCAKE
-	.2byte  ITEM_CARD_MADOLCHE_MAGILEINE
-	.2byte  ITEM_CARD_MADOLCHE_MESSENGELATO
-	.2byte  ITEM_CARD_MADOLCHE_MEWFEUILLE
 	.2byte  ITEM_CARD_MALEVOLENT_CATASTROPHE
 	.2byte  ITEM_CARD_MAXX_C_
 	.2byte  ITEM_CARD_MECHA_PHANTOM_BEAST_DRACOSSACK
 	.2byte  ITEM_CARD_MERMAIL_ABYSSGAIOS
-	.2byte  ITEM_CARD_MERMAIL_ABYSSLEED
 	.2byte  ITEM_CARD_MERMAIL_ABYSSLINDE
 	.2byte  ITEM_CARD_MERMAIL_ABYSSMEGALO
 	.2byte  ITEM_CARD_MERMAIL_ABYSSPIKE
@@ -18091,11 +15459,8 @@ InsideOfTruck_PokemartVegasBanlist:
 	.2byte  ITEM_CARD_NUMBER_30_ACID_GOLEM_OF_DESTRUCTION
 	.2byte  ITEM_CARD_NUMBER_39_UTOPIA
 	.2byte  ITEM_CARD_NUMBER_66_MASTER_KEY_BEETLE
-	.2byte  ITEM_CARD_NUMBER_85_CRAZY_BOX
 	.2byte  ITEM_CARD_OFFERINGS_TO_THE_DOOMED
-	.2byte  ITEM_CARD_OVERWORKED
 	.2byte  ITEM_CARD_PHOENIX_WING_WIND_BLAST
-	.2byte  ITEM_CARD_PHOTON_THRASHER
 	.2byte  ITEM_CARD_POT_OF_DUALITY
 	.2byte  ITEM_CARD_RAIGEKI_BREAK
 	.2byte  ITEM_CARD_RECKLESS_GREED
@@ -18104,2051 +15469,134 @@ InsideOfTruck_PokemartVegasBanlist:
 	.2byte  ITEM_CARD_SCRAP_DRAGON
 	.2byte  ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT
 	.2byte  ITEM_CARD_SHADOW_IMPRISONING_MIRROR
-	.2byte  ITEM_CARD_SPELLBOOK_LIBRARY_OF_THE_CRESCENT
 	.2byte  ITEM_CARD_SPELLBOOK_MAGICIAN_OF_PROPHECY
-	.2byte  ITEM_CARD_SPELLBOOK_OF_ETERNITY
-	.2byte  ITEM_CARD_SPELLBOOK_OF_LIFE
-	.2byte  ITEM_CARD_SPELLBOOK_OF_POWER
 	.2byte  ITEM_CARD_SPELLBOOK_OF_SECRETS
-	.2byte  ITEM_CARD_SPELLBOOK_OF_THE_MASTER
-	.2byte  ITEM_CARD_SPELLBOOK_OF_WISDOM
 	.2byte  ITEM_CARD_STEELSWARM_ROACH
-	.2byte  ITEM_CARD_STYGIAN_STREET_PATROL
-	.2byte  ITEM_CARD_TEMPERANCE_OF_PROPHECY
 	.2byte  ITEM_CARD_TEMTEMPO_THE_PERCUSSION_DJINN
-	.2byte  ITEM_CARD_THE_GRAND_SPELLBOOK_TOWER
 	.2byte  ITEM_CARD_THUNDER_SEA_HORSE
-	.2byte  ITEM_CARD_TIN_GOLDFISH
 	.2byte  ITEM_CARD_TRAP_HOLE
 	.2byte  ITEM_CARD_TRAP_STUN
 	.2byte  ITEM_CARD_TRAPTRIX_MYRMELEO
 	.2byte  ITEM_CARD_TRAPTRIX_TRAP_HOLE_NIGHTMARE
 	.2byte  ITEM_CARD_UPSTART_GOBLIN
 	.2byte  ITEM_CARD_VANITY_S_EMPTINESS
-	.2byte  ITEM_CARD_WIDESPREAD_DUD
 	.2byte  ITEM_CARD_WIND_UP_RABBIT
 	.2byte  ITEM_CARD_WIND_UP_ZENMAINES
-	.2byte  ITEM_CARD_WINGED_RHYNOS
 	pokemartlistend
 
-	.2byte  ITEM_PACK_OCG_AMABIE_SAN_PRESENT_CAMPAIGN
-	.2byte  ITEM_PACK_OCG_BLUE_EYES_WHITE_DRAGON_20TH_ANNIVERSARY_GOLD_EDITION
-	.2byte  ITEM_PACK_OCG_BLUE_EYES_WHITE_DRAGON_20TH_ANNIVERSARY_SILVER_EDITION
-	.2byte  ITEM_PACK_OCG_DARK_MAGICIAN_GIRL_SPECIAL_CARD
-	.2byte  ITEM_PACK_OCG_DARK_MAGICIAN_ULTRA_RARE_SPECIAL_ILLUSTRATION_VERSION_GET_CAMPAIGN
-	.2byte  ITEM_PACK_OCG_DARK_MAGICIAN_SPECIAL_CARD
-	.2byte  ITEM_PACK_OCG_DUELIST_KINGDOM_COLLECT_STAR_CHIPS_LIMITED_PACK
-	.2byte  ITEM_PACK_OCG_20TH_ANNIVERSARY_DUEL_SET_OBELISK_THE_TORMENTOR_
-	.2byte  ITEM_PACK_OCG_20TH_ANNIVERSARY_DUEL_SET_SLIFER_THE_SKY_DRAGON_
-	.2byte  ITEM_PACK_OCG_20TH_ANNIVERSARY_DUELIST_BOX
-	.2byte  ITEM_PACK_OCG_20TH_ANNIVERSARY_LEGEND_COLLECTION
-	.2byte  ITEM_PACK_OCG_20TH_ANNIVERSARY_LEGEND_SELECTION
-	.2byte  ITEM_PACK_OCG_20TH_ANNIVERSARY_LEGENDARY_DRAGONS
-	.2byte  ITEM_PACK_OCG_20TH_ANNIVERSARY_PACK_1ST_WAVE
-	.2byte  ITEM_PACK_OCG_20TH_ANNIVERSARY_PACK_2ND_WAVE
-	.2byte  ITEM_PACK_OCG_20TH_ANNIVERSARY_SECRET_SELECTION
-	.2byte  ITEM_PACK_OCG_20TH_ANNIVERSARY_SET
-	.2byte  ITEM_PACK_OCG_20TH_LEGENDARY_COLLECTION
-	.2byte  ITEM_PACK_OCG_20TH_RIVAL_COLLECTION
-	.2byte  ITEM_PACK_OCG_20TH_SECRET_RARE_CHALLENGE_PACK
-	.2byte  ITEM_PACK_OCG_20TH_SECRET_RARE_FINAL_CHALLENGE_PACK
-	.2byte  ITEM_PACK_OCG_20TH_SECRET_RARE_SPECIAL_PACK
-	.2byte  ITEM_PACK_OCG_25TH_ANNIVERSARY_ULTIMATE_KAIBA_SET
-	.2byte  ITEM_PACK_OCG_3X3_JAPAN_CHAMPIONSHIP_2025_FINALS_PRIZE_CARDS
-	.2byte  ITEM_PACK_OCG_3X3_JAPAN_CHAMPIONSHIP_2025_QUALIFIERS_APRIL_PRIZE_CARD
-	.2byte  ITEM_PACK_OCG_IGNISTER_DUEL_SET
-	.2byte  ITEM_PACK_OCG_ABSOLUTE_POWERFORCE
-	.2byte  ITEM_PACK_OCG_ABSOLUTE_POWERFORCE_2_PACK_SET
-	.2byte  ITEM_PACK_OCG_ABYSS_RISING
-	.2byte  ITEM_PACK_OCG_ACADEMY_DUEL_DISK_SET_
-	.2byte  ITEM_PACK_OCG_ACADEMY_DUEL_DISK_LIMITED_EDITION
-	.2byte  ITEM_PACK_OCG_ACADEMY_DUEL_DISK_OSIRIS_RED_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_ACADEMY_DUEL_DISK_SPECIAL_SET
-	.2byte  ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2013_VOL_1
-	.2byte  ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2013_VOL_2
-	.2byte  ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2013_VOL_3
-	.2byte  ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2013_VOL_4
-	.2byte  ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2014_VOL_1
-	.2byte  ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2014_VOL_2
-	.2byte  ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2014_VOL_3
-	.2byte  ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2014_VOL_4
-	.2byte  ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2015_VOL_1
-	.2byte  ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2015_VOL_2
-	.2byte  ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2015_VOL_3
-	.2byte  ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2015_VOL_4
-	.2byte  ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2016_VOL_1
-	.2byte  ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2016_VOL_2
-	.2byte  ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2016_VOL_3
-	.2byte  ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2016_VOL_4
-	.2byte  ITEM_PACK_OCG_ADVANCED_TOURNAMENT_PACK_2017_VOL_1
-	.2byte  ITEM_PACK_OCG_ADVENT_OF_UNION
-	.2byte  ITEM_PACK_OCG_AGE_OF_OVERLORD
-	.2byte  ITEM_PACK_OCG_AGE_OF_OVERLORD_1_BONUS_PACK
-	.2byte  ITEM_PACK_OCG_ALLIANCE_INSIGHT
-	.2byte  ITEM_PACK_OCG_ALLIANCE_INSIGHT_1_BONUS_PACK
-	.2byte  ITEM_PACK_OCG_ANCIENT_PROPHECY
-	.2byte  ITEM_PACK_OCG_ANCIENT_PROPHECY_2_PACK_SET
-	.2byte  ITEM_PACK_OCG_ANIMATION_CHRONICLE_2021
-	.2byte  ITEM_PACK_OCG_ANIMATION_CHRONICLE_2022
-	.2byte  ITEM_PACK_OCG_ANIMATION_CHRONICLE_2023
-	.2byte  ITEM_PACK_OCG_ANIMATION_CHRONICLE_2024
-	.2byte  ITEM_PACK_OCG_ANNIVERSARY_PACK
-	.2byte  ITEM_PACK_OCG_AREA_CHAMPIONSHIP_2023_PRIZE_CARD
-	.2byte  ITEM_PACK_OCG_AREA_CHAMPIONSHIP_2024_AUGUST_PRIZE_CARD
-	.2byte  ITEM_PACK_OCG_AREA_CHAMPIONSHIP_2024_DECEMBER_PRIZE_CARD
-	.2byte  ITEM_PACK_OCG_AREA_CHAMPIONSHIP_2024_JUNE_PRIZE_CARD
-	.2byte  ITEM_PACK_OCG_ARMILLYRE_THE_STARLEADER_DRAGON_DUEL_SET
-	.2byte  ITEM_PACK_OCG_ASIA_CHAMPIONSHIP_2001_PRIZE_CARDS
-	.2byte  ITEM_PACK_OCG_AWAKENING_OF_THE_POSSESSED_DUEL_SET
-	.2byte  ITEM_PACK_OCG_BATTLE_OF_CHAOS
-	.2byte  ITEM_PACK_OCG_BATTLE_OF_CHAOS_1_BONUS_PACK
-	.2byte  ITEM_PACK_OCG_BEGINNER_S_EDITION_1
-	.2byte  ITEM_PACK_OCG_BEGINNER_S_EDITION_1_2011_
-	.2byte  ITEM_PACK_OCG_BEGINNER_S_EDITION_2
-	.2byte  ITEM_PACK_OCG_BEGINNER_S_EDITION_2_2011_
-	.2byte  ITEM_PACK_OCG_BEGINNERS_PACK
-	.2byte  ITEM_PACK_OCG_BEGINNERS_CLASS_2012_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_BLAZING_VORTEX
-	.2byte  ITEM_PACK_OCG_BLAZING_VORTEX_1_BONUS_PACK
-	.2byte  ITEM_PACK_OCG_BOOSTER_1
-	.2byte  ITEM_PACK_OCG_BOOSTER_2
-	.2byte  ITEM_PACK_OCG_BOOSTER_3
-	.2byte  ITEM_PACK_OCG_BOOSTER_4
-	.2byte  ITEM_PACK_OCG_BOOSTER_5
-	.2byte  ITEM_PACK_OCG_BOOSTER_6
-	.2byte  ITEM_PACK_OCG_BOOSTER_7
-	.2byte  ITEM_PACK_OCG_BOOSTER_CHRONICLE
-	.2byte  ITEM_PACK_OCG_BOOSTER_PACK_COLLECTORS_TIN_2003
-	.2byte  ITEM_PACK_OCG_BOOSTER_PACK_COLLECTORS_TIN_2004
-	.2byte  ITEM_PACK_OCG_BOOSTER_PACK_COLLECTORS_TIN_2005
-	.2byte  ITEM_PACK_OCG_BOOSTER_PACK_COLLECTORS_TIN_2006
-	.2byte  ITEM_PACK_OCG_BOOSTER_PACK_COLLECTORS_TIN_2007
-	.2byte  ITEM_PACK_OCG_BOOSTER_R1
-	.2byte  ITEM_PACK_OCG_BOOSTER_R2
-	.2byte  ITEM_PACK_OCG_BOOSTER_R3
-	.2byte  ITEM_PACK_OCG_BOOSTER_SP_DESTINY_SOLDIERS
-	.2byte  ITEM_PACK_OCG_BOOSTER_SP_FUSION_ENFORCERS
-	.2byte  ITEM_PACK_OCG_BOOSTER_SP_HIGH_SPEED_RIDERS
-	.2byte  ITEM_PACK_OCG_BOOSTER_SP_RAGING_MASTERS
-	.2byte  ITEM_PACK_OCG_BOOSTER_SP_TRIBE_FORCE
-	.2byte  ITEM_PACK_OCG_BOOSTER_SP_WING_RAIDERS
-	.2byte  ITEM_PACK_OCG_BREAKERS_OF_SHADOW
-	.2byte  ITEM_PACK_OCG_BURST_OF_DESTINY
-	.2byte  ITEM_PACK_OCG_BURST_OF_DESTINY_1_BONUS_PACK
-	.2byte  ITEM_PACK_OCG_CENTUR_ION_DUEL_SET
-	.2byte  ITEM_PACK_OCG_CHAMPION_OF_BLACK_MAGIC
-	.2byte  ITEM_PACK_OCG_CHAOS_IMPACT
-	.2byte  ITEM_PACK_OCG_CIRCUIT_BREAK
-	.2byte  ITEM_PACK_OCG_CLASH_OF_REBELLIONS
-	.2byte  ITEM_PACK_OCG_COCO_S_X_YU_GI_OH_CARD_GAME_ANNIVERSARY_CAMPAIGN_2024_PART_1
-	.2byte  ITEM_PACK_OCG_COCO_S_X_YU_GI_OH_CARD_GAME_ANNIVERSARY_CAMPAIGN_2024_PART_2
-	.2byte  ITEM_PACK_OCG_COCO_S_X_YU_GI_OH_CARD_GAME_ANNIVERSARY_CAMPAIGN_PART_1
-	.2byte  ITEM_PACK_OCG_COCO_S_X_YU_GI_OH_CARD_GAME_ANNIVERSARY_CAMPAIGN_PART_2
-	.2byte  ITEM_PACK_OCG_CODE_OF_THE_DUELIST
-	.2byte  ITEM_PACK_OCG_COLLECTION_PACK_2020
-	.2byte  ITEM_PACK_OCG_COLLECTION_PACK_DUELIST_OF_REVOLUTION_VERSION
-	.2byte  ITEM_PACK_OCG_COLLECTOR_S_PACK_DUELIST_OF_LEGEND_VERSION
-	.2byte  ITEM_PACK_OCG_COLLECTORS_PACK_2017
-	.2byte  ITEM_PACK_OCG_COLLECTORS_PACK_2018
-	.2byte  ITEM_PACK_OCG_COLLECTORS_PACK_DUELIST_OF_DESTINY_VERSION
-	.2byte  ITEM_PACK_OCG_COLLECTORS_PACK_DUELIST_OF_FLASH_VERSION
-	.2byte  ITEM_PACK_OCG_COLLECTORS_PACK_DUELIST_OF_LEGEND_VERSION
-	.2byte  ITEM_PACK_OCG_COLLECTORS_PACK_ZEXAL_VERSION
-	.2byte  ITEM_PACK_OCG_COLLECTORS_TIN_2009
-	.2byte  ITEM_PACK_OCG_COMPLETE_FILE_STORY_OF_WHITE
-	.2byte  ITEM_PACK_OCG_CONTROLLER_OF_CHAOS
-	.2byte  ITEM_PACK_OCG_COSMO_BLAZER
-	.2byte  ITEM_PACK_OCG_CRIMSON_CRISIS
-	.2byte  ITEM_PACK_OCG_CRIMSON_CRISIS_2_PACK_SET
-	.2byte  ITEM_PACK_OCG_CROSSED_SOULS
-	.2byte  ITEM_PACK_OCG_CROSSROADS_OF_CHAOS
-	.2byte  ITEM_PACK_OCG_CROSSROADS_OF_CHAOS_2_PACK_SET
-	.2byte  ITEM_PACK_OCG_CURSE_OF_ANUBIS_SET_
-	.2byte  ITEM_PACK_OCG_CYBERDARK_IMPACT
-	.2byte  ITEM_PACK_OCG_CYBERDARK_IMPACT_VENDOR_EDITION
-	.2byte  ITEM_PACK_OCG_CYBERNETIC_HORIZON
-	.2byte  ITEM_PACK_OCG_CYBERNETIC_REVOLUTION
-	.2byte  ITEM_PACK_OCG_CYBERNETIC_REVOLUTION_VENDOR_EDITION
-	.2byte  ITEM_PACK_OCG_CYBERSTORM_ACCESS
-	.2byte  ITEM_PACK_OCG_CYBERSTORM_ACCESS_1_BONUS_PACK
-	.2byte  ITEM_PACK_OCG_DARK_CEREMONY_EDITION
-	.2byte  ITEM_PACK_OCG_DARK_NEOSTORM
-	.2byte  ITEM_PACK_OCG_DARKWING_BLAST
-	.2byte  ITEM_PACK_OCG_DARKWING_BLAST_1_BONUS_PACK
-	.2byte  ITEM_PACK_OCG_DAWN_OF_MAJESTY
-	.2byte  ITEM_PACK_OCG_DAWN_OF_MAJESTY_1_BONUS_PACK
-	.2byte  ITEM_PACK_OCG_DECK_CUSTOM_PACK_01
-	.2byte  ITEM_PACK_OCG_DECK_BUILD_PACK_AMAZING_DEFENDERS
-	.2byte  ITEM_PACK_OCG_DECK_BUILD_PACK_ANCIENT_GUARDIANS
-	.2byte  ITEM_PACK_OCG_DECK_BUILD_PACK_CROSSOVER_BREAKERS
-	.2byte  ITEM_PACK_OCG_DECK_BUILD_PACK_DARK_SAVIORS
-	.2byte  ITEM_PACK_OCG_DECK_BUILD_PACK_GENESIS_IMPACTORS
-	.2byte  ITEM_PACK_OCG_DECK_BUILD_PACK_GRAND_CREATORS
-	.2byte  ITEM_PACK_OCG_DECK_BUILD_PACK_HIDDEN_SUMMONERS
-	.2byte  ITEM_PACK_OCG_DECK_BUILD_PACK_INFINITY_CHASERS
-	.2byte  ITEM_PACK_OCG_DECK_BUILD_PACK_JUSTICE_HUNTERS
-	.2byte  ITEM_PACK_OCG_DECK_BUILD_PACK_MYSTIC_FIGHTERS
-	.2byte  ITEM_PACK_OCG_DECK_BUILD_PACK_SECRET_SLAYERS
-	.2byte  ITEM_PACK_OCG_DECK_BUILD_PACK_SPIRIT_WARRIORS
-	.2byte  ITEM_PACK_OCG_DECK_BUILD_PACK_TACTICAL_MASTERS
-	.2byte  ITEM_PACK_OCG_DECK_BUILD_PACK_VALIANT_SMASHERS
-	.2byte  ITEM_PACK_OCG_DECK_BUILD_PACK_WILD_SURVIVORS
-	.2byte  ITEM_PACK_OCG_DELUXE_DUEL_SET_EXOSISTER
-	.2byte  ITEM_PACK_OCG_DIABELLSTAR_DUEL_SET
-	.2byte  ITEM_PACK_OCG_DIMENSION_BOX_LIMITED_EDITION
-	.2byte  ITEM_PACK_OCG_DIMENSION_FORCE
-	.2byte  ITEM_PACK_OCG_DIMENSION_FORCE_1_BONUS_PACK
-	.2byte  ITEM_PACK_OCG_DIMENSION_OF_CHAOS
-	.2byte  ITEM_PACK_OCG_DOOM_OF_DIMENSIONS
-	.2byte  ITEM_PACK_OCG_DRAGON_RULER_DUEL_SET
-	.2byte  ITEM_PACK_OCG_DUEL_ACADEMIA_SELECTION
-	.2byte  ITEM_PACK_OCG_DUEL_ART_CAMPAIGN_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_DUEL_DISK_SET_
-	.2byte  ITEM_PACK_OCG_DUEL_DISK_YUSEI_VERSION
-	.2byte  ITEM_PACK_OCG_DUEL_DISK_YUSEI_VERSION_DX
-	.2byte  ITEM_PACK_OCG_DUEL_DISK_YUSEI_VERSION_DX_LIMITED_EDITION
-	.2byte  ITEM_PACK_OCG_DUEL_DISK_YUSEI_VERSION_DX_2010
-	.2byte  ITEM_PACK_OCG_DUEL_FIELD_EX_EPIC_OF_NOBLE_KNIGHTS_HOLY_SWORD_OF_GUIDANCE
-	.2byte  ITEM_PACK_OCG_DUEL_MASTER_S_GUIDE_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_DUEL_MONSTERS_II_TOURNAMENT_MEETING_EXPERIENCE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_DUEL_ROYALE_DECK_SET_EX
-	.2byte  ITEM_PACK_OCG_DUEL_ROYALE_DECK_SET_EX_ROUND_2
-	.2byte  ITEM_PACK_OCG_DUEL_TERMINAL_CHAMPION_OF_CHAOS_
-	.2byte  ITEM_PACK_OCG_DUEL_TERMINAL_CHARGE_OF_THE_GENEX_
-	.2byte  ITEM_PACK_OCG_DUEL_TERMINAL_DEMON_ROAR_GOD_REVIVAL_
-	.2byte  ITEM_PACK_OCG_DUEL_TERMINAL_DRAGUNITY_OF_THE_HURRICANE_
-	.2byte  ITEM_PACK_OCG_DUEL_TERMINAL_INVASION_OF_WORMS_
-	.2byte  ITEM_PACK_OCG_DUEL_TERMINAL_JUDGMENT_OF_OMEGA_
-	.2byte  ITEM_PACK_OCG_DUEL_TERMINAL_JUSTICE_STRIKES_BACK_
-	.2byte  ITEM_PACK_OCG_DUEL_TERMINAL_OUROBOROS_WICKED_DRAGON_OF_DESTRUCTION_
-	.2byte  ITEM_PACK_OCG_DUEL_TERMINAL_PULSE_OF_THE_TRISHULA_
-	.2byte  ITEM_PACK_OCG_DUEL_TERMINAL_RAID_OF_THE_INVERZ_
-	.2byte  ITEM_PACK_OCG_DUEL_TERMINAL_SACRED_STAR_KNIGHTS_
-	.2byte  ITEM_PACK_OCG_DUEL_TERMINAL_SYNCHRO_AWAKENING_
-	.2byte  ITEM_PACK_OCG_DUEL_TERMINAL_VYLON_DESCENDS_
-	.2byte  ITEM_PACK_OCG_DUEL_TERMINAL_XYZ_STARTUP_
-	.2byte  ITEM_PACK_OCG_DUEL_TERMINAL_ACCELERATION_GUIDE_2_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_DUEL_TERMINAL_ACCELERATION_GUIDE_3_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_DUEL_TERMINAL_ACCELERATION_GUIDE_4_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_DUEL_TERMINAL_ACCELERATION_GUIDE_5_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_DUEL_TERMINAL_ACCELERATION_GUIDE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_DUEL_TERMINAL_CHRONICLE_1_CHAPTER_OF_AWAKENING
-	.2byte  ITEM_PACK_OCG_DUEL_TERMINAL_CHRONICLE_2_CHAPTER_OF_CHAOS
-	.2byte  ITEM_PACK_OCG_DUEL_TERMINAL_CHRONICLE_3_CHAPTER_OF_DESTRUCTION
-	.2byte  ITEM_PACK_OCG_DUEL_TERMINAL_CHRONICLE_4_CHAPTER_OF_OPPOSITES
-	.2byte  ITEM_PACK_OCG_DUEL_TERMINAL_OVERLAY_GUIDE_2_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_DUEL_TERMINAL_OVERLAY_GUIDE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_DUELIST_ADVANCE_1_ASSIST_PACK
-	.2byte  ITEM_PACK_OCG_DUELIST_ALLIANCE
-	.2byte  ITEM_PACK_OCG_DUELIST_BOX
-	.2byte  ITEM_PACK_OCG_DUELIST_BOX_2012
-	.2byte  ITEM_PACK_OCG_DUELIST_CARD_PROTECTOR_EX_BUJINTEI_SUSANOWO
-	.2byte  ITEM_PACK_OCG_DUELIST_CARD_PROTECTOR_EX_GHOSTRICK
-	.2byte  ITEM_PACK_OCG_DUELIST_CARD_PROTECTOR_EX_MASTER_OF_HERO
-	.2byte  ITEM_PACK_OCG_DUELIST_CARD_PROTECTOR_EX_SHADOW_OF_THE_SIX_SAMURAI_SHIEN
-	.2byte  ITEM_PACK_OCG_DUELIST_CARD_PROTECTOR_SIX_ATTRIBUTE_SET
-	.2byte  ITEM_PACK_OCG_DUELIST_CUP_2021_QUALIFIERS_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_OCG_DUELIST_EDITION_VOLUME_1
-	.2byte  ITEM_PACK_OCG_DUELIST_EDITION_VOLUME_2
-	.2byte  ITEM_PACK_OCG_DUELIST_EDITION_VOLUME_3
-	.2byte  ITEM_PACK_OCG_DUELIST_EDITION_VOLUME_4
-	.2byte  ITEM_PACK_OCG_DUELIST_ENTRY_DECK_VS
-	.2byte  ITEM_PACK_OCG_DUELIST_FESTIVAL_2016_PROMOTION_PACK
-	.2byte  ITEM_PACK_OCG_DUELIST_KING_CUP_APRIL_2024_PRIZE_CARD
-	.2byte  ITEM_PACK_OCG_DUELIST_KING_CUP_APRIL_2025_PRIZE_CARD
-	.2byte  ITEM_PACK_OCG_DUELIST_KING_CUP_AUGUST_2024_PRIZE_CARD
-	.2byte  ITEM_PACK_OCG_DUELIST_KING_CUP_DECEMBER_2024_PRIZE_CARD
-	.2byte  ITEM_PACK_OCG_DUELIST_KING_CUP_JULY_2025_PRIZE_CARD
-	.2byte  ITEM_PACK_OCG_DUELIST_LEGACY_VOLUME_1
-	.2byte  ITEM_PACK_OCG_DUELIST_LEGACY_VOLUME_2
-	.2byte  ITEM_PACK_OCG_DUELIST_LEGACY_VOLUME_3
-	.2byte  ITEM_PACK_OCG_DUELIST_LEGACY_VOLUME_4
-	.2byte  ITEM_PACK_OCG_DUELIST_LEGACY_VOLUME_5
-	.2byte  ITEM_PACK_OCG_DUELIST_NEXUS
-	.2byte  ITEM_PACK_OCG_DUELIST_NEXUS_1_BONUS_PACK
-	.2byte  ITEM_PACK_OCG_DUELIST_PACK_COLLECTION
-	.2byte  ITEM_PACK_OCG_DUELIST_PACK_ASTER_PHOENIX
-	.2byte  ITEM_PACK_OCG_DUELIST_PACK_BATTLE_CITY
-	.2byte  ITEM_PACK_OCG_DUELIST_PACK_CHAZZ_PRINCETON
-	.2byte  ITEM_PACK_OCG_DUELIST_PACK_CROW
-	.2byte  ITEM_PACK_OCG_DUELIST_PACK_DUELISTS_OF_BRILLIANCE
-	.2byte  ITEM_PACK_OCG_DUELIST_PACK_DUELISTS_OF_EXPLOSION
-	.2byte  ITEM_PACK_OCG_DUELIST_PACK_DUELISTS_OF_GLOOM
-	.2byte  ITEM_PACK_OCG_DUELIST_PACK_DUELISTS_OF_PYROXENE
-	.2byte  ITEM_PACK_OCG_DUELIST_PACK_DUELISTS_OF_WHIRLWIND
-	.2byte  ITEM_PACK_OCG_DUELIST_PACK_DUELISTS_OF_THE_ABYSS
-	.2byte  ITEM_PACK_OCG_DUELIST_PACK_JADEN_YUKI
-	.2byte  ITEM_PACK_OCG_DUELIST_PACK_JADEN_YUKI_2
-	.2byte  ITEM_PACK_OCG_DUELIST_PACK_JADEN_YUKI_3
-	.2byte  ITEM_PACK_OCG_DUELIST_PACK_JESSE_ANDERSON
-	.2byte  ITEM_PACK_OCG_DUELIST_PACK_KASTLE_SIBLINGS
-	.2byte  ITEM_PACK_OCG_DUELIST_PACK_KITE
-	.2byte  ITEM_PACK_OCG_DUELIST_PACK_LEGEND_DUELIST
-	.2byte  ITEM_PACK_OCG_DUELIST_PACK_LEGEND_DUELIST_2
-	.2byte  ITEM_PACK_OCG_DUELIST_PACK_LEGEND_DUELIST_3
-	.2byte  ITEM_PACK_OCG_DUELIST_PACK_LEGEND_DUELIST_4
-	.2byte  ITEM_PACK_OCG_DUELIST_PACK_LEGEND_DUELIST_5
-	.2byte  ITEM_PACK_OCG_DUELIST_PACK_LEGEND_DUELIST_6
-	.2byte  ITEM_PACK_OCG_DUELIST_PACK_PHARAOH_S_MEMORIES
-	.2byte  ITEM_PACK_OCG_DUELIST_PACK_YUMA
-	.2byte  ITEM_PACK_OCG_DUELIST_PACK_YUMA_2_GOGOGO_DODODO
-	.2byte  ITEM_PACK_OCG_DUELIST_PACK_YUSEI
-	.2byte  ITEM_PACK_OCG_DUELIST_PACK_YUSEI_2
-	.2byte  ITEM_PACK_OCG_DUELIST_PACK_YUSEI_3
-	.2byte  ITEM_PACK_OCG_DUELIST_PACK_ZANE_TRUESDALE
-	.2byte  ITEM_PACK_OCG_DUELIST_REVOLUTION
-	.2byte  ITEM_PACK_OCG_DUELIST_REVOLUTION_2_PACK_SET
-	.2byte  ITEM_PACK_OCG_DUELIST_ROAD_PIECE_OF_MEMORY_SIDE_YAMI_YUGI
-	.2byte  ITEM_PACK_OCG_DUELIST_ROAD_PIECE_OF_MEMORY_SIDE_YUGI_MUTO
-	.2byte  ITEM_PACK_OCG_DUELIST_SET_DX_DOUBLE_UNION
-	.2byte  ITEM_PACK_OCG_DUELIST_SET_VERSION_DARK_RETURNER
-	.2byte  ITEM_PACK_OCG_DUELIST_SET_VERSION_LIGHTNING_STAR
-	.2byte  ITEM_PACK_OCG_DUELIST_SET_VERSION_LIGHTSWORN_JUDGMENT
-	.2byte  ITEM_PACK_OCG_DUELIST_SET_VERSION_LIGHTSWORN_JUDGMENT_ENHANCEMENT_PACK
-	.2byte  ITEM_PACK_OCG_DUELIST_SET_VERSION_MACHINE_GEAR_TROOPERS
-	.2byte  ITEM_PACK_OCG_DUELIST_SET_VERSION_MACHINE_GEAR_TROOPERS_ENHANCEMENT_PACK
-	.2byte  ITEM_PACK_OCG_DUELIST_S_ADVANCE
-	.2byte  ITEM_PACK_OCG_EX_STARTER_BOX
-	.2byte  ITEM_PACK_OCG_EX_R_STARTER_BOX
-	.2byte  ITEM_PACK_OCG_ELEMENTAL_ENERGY
-	.2byte  ITEM_PACK_OCG_ELEMENTAL_ENERGY_VENDOR_EDITION
-	.2byte  ITEM_PACK_OCG_ENEMY_OF_JUSTICE
-	.2byte  ITEM_PACK_OCG_ENEMY_OF_JUSTICE_VENDOR_EDITION
-	.2byte  ITEM_PACK_OCG_ENTRY_PACK
-	.2byte  ITEM_PACK_OCG_ETERNITY_CODE
-	.2byte  ITEM_PACK_OCG_EVENT_PACK_2024_VOL_1
-	.2byte  ITEM_PACK_OCG_EVENT_PACK_2024_VOL_2
-	.2byte  ITEM_PACK_OCG_EVENT_PACK_2024_VOL_3
-	.2byte  ITEM_PACK_OCG_EVENT_PACK_2024_VOL_4
-	.2byte  ITEM_PACK_OCG_EVIL_TWIN_DUEL_SET
-	.2byte  ITEM_PACK_OCG_EXOSISTER_DUEL_SET
-	.2byte  ITEM_PACK_OCG_EXPERT_EDITION_2
-	.2byte  ITEM_PACK_OCG_EXPERT_EDITION_VOLUME_3
-	.2byte  ITEM_PACK_OCG_EXPERT_EDITION_VOLUME_4
-	.2byte  ITEM_PACK_OCG_EXPERT_EDITION_VOLUME_1
-	.2byte  ITEM_PACK_OCG_EXPERT_EDITION_VOLUME_2
-	.2byte  ITEM_PACK_OCG_EXTRA_PACK
-	.2byte  ITEM_PACK_OCG_EXTRA_PACK_2012
-	.2byte  ITEM_PACK_OCG_EXTRA_PACK_2015
-	.2byte  ITEM_PACK_OCG_EXTRA_PACK_2016
-	.2byte  ITEM_PACK_OCG_EXTRA_PACK_2017
-	.2byte  ITEM_PACK_OCG_EXTRA_PACK_2018
-	.2byte  ITEM_PACK_OCG_EXTRA_PACK_2019
-	.2byte  ITEM_PACK_OCG_EXTRA_PACK_VOLUME_2
-	.2byte  ITEM_PACK_OCG_EXTRA_PACK_VOLUME_3
-	.2byte  ITEM_PACK_OCG_EXTRA_PACK_VOLUME_4
-	.2byte  ITEM_PACK_OCG_EXTRA_PACK_KNIGHTS_OF_ORDER
-	.2byte  ITEM_PACK_OCG_EXTRA_PACK_SWORD_OF_KNIGHTS
-	.2byte  ITEM_PACK_OCG_EXTREME_FORCE
-	.2byte  ITEM_PACK_OCG_EXTREME_VICTORY
-	.2byte  ITEM_PACK_OCG_EXTREME_VICTORY_2_PACK_SET
-	.2byte  ITEM_PACK_OCG_FIENDSMITH_DUEL_SET
-	.2byte  ITEM_PACK_OCG_FLAMES_OF_DESTRUCTION
-	.2byte  ITEM_PACK_OCG_FLAMING_ETERNITY
-	.2byte  ITEM_PACK_OCG_FLAMING_ETERNITY_VENDOR_EDITION
-	.2byte  ITEM_PACK_OCG_FORCE_OF_THE_BREAKER
-	.2byte  ITEM_PACK_OCG_FORCE_OF_THE_BREAKER_VENDOR_EDITION
-	.2byte  ITEM_PACK_OCG_GU_COLLABORATION_CARDS
-	.2byte  ITEM_PACK_OCG_GALACTIC_OVERLORD
-	.2byte  ITEM_PACK_OCG_GENERATION_FORCE
-	.2byte  ITEM_PACK_OCG_GENERATION_FORCE_2_PACK_SET
-	.2byte  ITEM_PACK_OCG_GLADIATOR_S_ASSAULT
-	.2byte  ITEM_PACK_OCG_GLADIATOR_S_ASSAULT_2_PACK_SET
-	.2byte  ITEM_PACK_OCG_GOLD_PACK_2016
-	.2byte  ITEM_PACK_OCG_GOLD_SERIES_OCG_
-	.2byte  ITEM_PACK_OCG_GOLD_SERIES_2010
-	.2byte  ITEM_PACK_OCG_GOLD_SERIES_2011
-	.2byte  ITEM_PACK_OCG_GOLD_SERIES_2012
-	.2byte  ITEM_PACK_OCG_GOLD_SERIES_2013
-	.2byte  ITEM_PACK_OCG_GOLD_SERIES_2014
-	.2byte  ITEM_PACK_OCG_HALF_DECK_2018_DARK
-	.2byte  ITEM_PACK_OCG_HALF_DECK_2018_LIGHT
-	.2byte  ITEM_PACK_OCG_HALF_DECK_DARK
-	.2byte  ITEM_PACK_OCG_HALF_DECK_LIGHT
-	.2byte  ITEM_PACK_OCG_HIGH_RESOLUTION_ARTWORK_SERIES
-	.2byte  ITEM_PACK_OCG_HISTORY_ARCHIVE_COLLECTION
-	.2byte  ITEM_PACK_OCG_IGNITION_ASSAULT
-	.2byte  ITEM_PACK_OCG_INFINITE_FORBIDDEN_1_BONUS_PACK
-	.2byte  ITEM_PACK_OCG_INVADER_OF_DARKNESS_SET_
-	.2byte  ITEM_PACK_OCG_INVASION_VENGEANCE
-	.2byte  ITEM_PACK_OCG_JAPAN_CHAMPIONSHIP_2021_SHOP_QUALIFIERS_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_OCG_JAPAN_CHAMPIONSHIP_2023_SHOP_QUALIFIERS_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_JAPAN_CHAMPIONSHIP_2025_FINALS_PRIZE_CARD
-	.2byte  ITEM_PACK_OCG_JUDGMENT_OF_THE_LIGHT
-	.2byte  ITEM_PACK_OCG_JUMP_FESTA_2004_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_JUMP_FESTA_2005_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_JUMP_FESTA_2007_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_JUMP_FESTA_2008_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_JUMP_FESTA_2009_PROMOTION_PACK
-	.2byte  ITEM_PACK_OCG_JUMP_FESTA_2010_PROMOTION_PACK
-	.2byte  ITEM_PACK_OCG_JUMP_FESTA_2011_PROMOTION_PACK
-	.2byte  ITEM_PACK_OCG_JUMP_FESTA_2012_PROMOTION_PACK_A
-	.2byte  ITEM_PACK_OCG_JUMP_FESTA_2012_PROMOTION_PACK_B
-	.2byte  ITEM_PACK_OCG_JUMP_FESTA_2013_PROMOTION_PACK_A
-	.2byte  ITEM_PACK_OCG_JUMP_FESTA_2013_PROMOTION_PACK_B
-	.2byte  ITEM_PACK_OCG_JUMP_FESTA_2014_PROMOTION_PACK
-	.2byte  ITEM_PACK_OCG_JUMP_FESTA_2015_PROMOTION_PACK
-	.2byte  ITEM_PACK_OCG_JUMP_FESTA_2018_SPECIAL_SET
-	.2byte  ITEM_PACK_OCG_JUMP_FESTA_LIMITED_PACK_2019
-	.2byte  ITEM_PACK_OCG_JUMP_FESTA_LIMITED_PACK_2020
-	.2byte  ITEM_PACK_OCG_JUMP_HEROES_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_JUMP_RY_VOL_08_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_JUMP_SUPER_ANIME_TOUR_2008_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_JUMP_VICTORY_CARNIVAL_2014_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_JUMP_VICTORY_CARNIVAL_2015_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_JUMP_VICTORY_CARNIVAL_2016_PROMOTION_PACK
-	.2byte  ITEM_PACK_OCG_JUMP_VICTORY_CARNIVAL_2016_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_JUMP_VICTORY_CARNIVAL_2017_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_JUMP_VICTORY_CARNIVAL_2018_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_JUMP_VICTORY_CARNIVAL_2019_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_LINK_VRAINS_BOX
-	.2byte  ITEM_PACK_OCG_LINK_VRAINS_DUELIST_SET
-	.2byte  ITEM_PACK_OCG_LINK_VRAINS_EDITION
-	.2byte  ITEM_PACK_OCG_LINK_VRAINS_PACK
-	.2byte  ITEM_PACK_OCG_LINK_VRAINS_PACK_2
-	.2byte  ITEM_PACK_OCG_LINK_VRAINS_PACK_3
-	.2byte  ITEM_PACK_OCG_LABRYNTH_DUEL_SET
-	.2byte  ITEM_PACK_OCG_LABYRINTH_OF_NIGHTMARE_JAPANESE_
-	.2byte  ITEM_PACK_OCG_LEGACY_OF_DESTRUCTION
-	.2byte  ITEM_PACK_OCG_LEGACY_OF_DESTRUCTION_1_BONUS_PACK
-	.2byte  ITEM_PACK_OCG_LEGACY_OF_THE_VALIANT
-	.2byte  ITEM_PACK_OCG_LEGEND_OF_BLUE_EYES_WHITE_DRAGON_JAPANESE_
-	.2byte  ITEM_PACK_OCG_LEGENDARY_BLACK_LUSTER_SOLDIER_GET_CAMPAIGN
-	.2byte  ITEM_PACK_OCG_LEGENDARY_GOLD_BOX
-	.2byte  ITEM_PACK_OCG_LEGENDARY_MONSTERS_PACK
-	.2byte  ITEM_PACK_OCG_LIGHT_OF_DESTRUCTION
-	.2byte  ITEM_PACK_OCG_LIGHT_OF_DESTRUCTION_2_PACK_SET
-	.2byte  ITEM_PACK_OCG_LIGHTNING_OVERDRIVE
-	.2byte  ITEM_PACK_OCG_LIGHTNING_OVERDRIVE_1_BONUS_PACK
-	.2byte  ITEM_PACK_OCG_LIMITED_EDITION_10_CHAOS_BLACK
-	.2byte  ITEM_PACK_OCG_LIMITED_EDITION_10_HOLY_WHITE
-	.2byte  ITEM_PACK_OCG_LIMITED_EDITION_11
-	.2byte  ITEM_PACK_OCG_LIMITED_EDITION_12
-	.2byte  ITEM_PACK_OCG_LIMITED_EDITION_13
-	.2byte  ITEM_PACK_OCG_LIMITED_EDITION_14
-	.2byte  ITEM_PACK_OCG_LIMITED_EDITION_15
-	.2byte  ITEM_PACK_OCG_LIMITED_EDITION_16
-	.2byte  ITEM_PACK_OCG_LIMITED_EDITION_17
-	.2byte  ITEM_PACK_OCG_LIMITED_EDITION_2_JOEY_PACK
-	.2byte  ITEM_PACK_OCG_LIMITED_EDITION_2_KEITH_PACK
-	.2byte  ITEM_PACK_OCG_LIMITED_EDITION_2_YUGI_PACK
-	.2byte  ITEM_PACK_OCG_LIMITED_EDITION_3_JOEY_PACK
-	.2byte  ITEM_PACK_OCG_LIMITED_EDITION_3_KAIBA_PACK
-	.2byte  ITEM_PACK_OCG_LIMITED_EDITION_3_YUGI_PACK
-	.2byte  ITEM_PACK_OCG_LIMITED_EDITION_4
-	.2byte  ITEM_PACK_OCG_LIMITED_EDITION_4_MARIK_PACK
-	.2byte  ITEM_PACK_OCG_LIMITED_EDITION_4_YUGI_PACK
-	.2byte  ITEM_PACK_OCG_LIMITED_EDITION_5_KAIBA_PACK
-	.2byte  ITEM_PACK_OCG_LIMITED_EDITION_5_YUGI_PACK
-	.2byte  ITEM_PACK_OCG_LIMITED_EDITION_6
-	.2byte  ITEM_PACK_OCG_LIMITED_EDITION_7
-	.2byte  ITEM_PACK_OCG_LIMITED_EDITION_8
-	.2byte  ITEM_PACK_OCG_LIMITED_EDITION_9_ULTIMATE_SEVEN_PACK
-	.2byte  ITEM_PACK_OCG_LIMITED_EDITION_JOEY_PACK
-	.2byte  ITEM_PACK_OCG_LIMITED_EDITION_KAIBA_PACK
-	.2byte  ITEM_PACK_OCG_LIMITED_EDITION_YUGI_PACK
-	.2byte  ITEM_PACK_OCG_LIMITED_PACK_GX_SLIFER_RED
-	.2byte  ITEM_PACK_OCG_LINK_MONSTER_PRESENT
-	.2byte  ITEM_PACK_OCG_LORD_OF_THE_TACHYON_GALAXY
-	.2byte  ITEM_PACK_OCG_MAGIC_RULER_JAPANESE_
-	.2byte  ITEM_PACK_OCG_MAGICIANS_COMBINATION_DUEL_SET
-	.2byte  ITEM_PACK_OCG_MALISS_DUEL_SET
-	.2byte  ITEM_PACK_OCG_MASTER_COLLECTION_VOLUME_1
-	.2byte  ITEM_PACK_OCG_MASTER_COLLECTION_VOLUME_2
-	.2byte  ITEM_PACK_OCG_MASTER_COLLECTION_VOLUME_3
-	.2byte  ITEM_PACK_OCG_MASTER_GUIDE_2_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_MASTER_GUIDE_3_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_MASTER_GUIDE_4_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_MASTER_GUIDE_5_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_MASTER_GUIDE_6_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_MASTER_GUIDE_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_MAXIMUM_CRISIS
-	.2byte  ITEM_PACK_OCG_MEMORIES_OF_THE_DUEL_KING_BATTLE_CITY_ARC
-	.2byte  ITEM_PACK_OCG_MEMORIES_OF_THE_DUEL_KING_CEREMONIAL_BATTLE_ARC
-	.2byte  ITEM_PACK_OCG_MEMORIES_OF_THE_DUEL_KING_DUELIST_KINGDOM_ARC
-	.2byte  ITEM_PACK_OCG_METAL_RAIDERS_JAPANESE_
-	.2byte  ITEM_PACK_OCG_MILLENNIUM_BOX_GOLD_EDITION
-	.2byte  ITEM_PACK_OCG_MILLENNIUM_PACK_OCG_
-	.2byte  ITEM_PACK_OCG_MONSTER_FIGURE_COLLECTION_VOLUME_2_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_MONSTER_FIGURE_COLLECTION_VOLUME_3_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_MONSTER_FIGURE_COLLECTION_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_MONSTER_STRIKE_COLLABORATION_CARDS
-	.2byte  ITEM_PACK_OCG_MOVIE_PACK
-	.2byte  ITEM_PACK_OCG_MYTHOLOGICAL_AGE
-	.2byte  ITEM_PACK_OCG_NUMBER_COMPLETE_FILE_PIECE_OF_MEMORIES_
-	.2byte  ITEM_PACK_OCG_NUMBERS_GUIDE_2_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_NUMBERS_GUIDE_3_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_NUMBERS_GUIDE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_OFFICIAL_GUIDE_STARTER_BOOK_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_ORDER_OF_CHAOS
-	.2byte  ITEM_PACK_OCG_ORDER_OF_CHAOS_2_PACK_SET
-	.2byte  ITEM_PACK_OCG_PERFECT_RULEBOOK_2015_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_PERFECT_RULEBOOK_2016_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_PERFECT_RULEBOOK_2017_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_PERFECT_RULEBOOK_2018_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_PERFECT_RULEBOOK_2020_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_PERFECT_RULEBOOK_2024_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_PERFECT_RULEBOOK_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_PHANTOM_DARKNESS
-	.2byte  ITEM_PACK_OCG_PHANTOM_DARKNESS_2_PACK_SET
-	.2byte  ITEM_PACK_OCG_PHANTOM_GOD
-	.2byte  ITEM_PACK_OCG_PHANTOM_NIGHTMARE
-	.2byte  ITEM_PACK_OCG_PHANTOM_NIGHTMARE_1_BONUS_PACK
-	.2byte  ITEM_PACK_OCG_PHANTOM_RAGE
-	.2byte  ITEM_PACK_OCG_PHANTOM_RAGE_1_BONUS_PACK
-	.2byte  ITEM_PACK_OCG_PHARAOH_S_INHERITANCE
-	.2byte  ITEM_PACK_OCG_PHARAOH_S_INHERITANCE_VENDOR_EDITION
-	.2byte  ITEM_PACK_OCG_PHARAOH_S_SERVANT_JAPANESE_
-	.2byte  ITEM_PACK_OCG_PHARAONIC_GUARDIAN_JAPANESE_
-	.2byte  ITEM_PACK_OCG_PHARAONIC_LEGEND_PACK
-	.2byte  ITEM_PACK_OCG_PHOTON_HYPERNOVA
-	.2byte  ITEM_PACK_OCG_PHOTON_HYPERNOVA_1_BONUS_PACK
-	.2byte  ITEM_PACK_OCG_PHOTON_SHOCKWAVE
-	.2byte  ITEM_PACK_OCG_PHOTON_SHOCKWAVE_2_PACK_SET
-	.2byte  ITEM_PACK_OCG_POWER_PROS_2023_COLLABORATION_CARDS
-	.2byte  ITEM_PACK_OCG_POWER_PROS_COLLABORATION_CARDS
-	.2byte  ITEM_PACK_OCG_POWER_OF_THE_DUELIST
-	.2byte  ITEM_PACK_OCG_POWER_OF_THE_DUELIST_VENDOR_EDITION
-	.2byte  ITEM_PACK_OCG_POWER_OF_THE_ELEMENTS
-	.2byte  ITEM_PACK_OCG_POWER_OF_THE_ELEMENTS_1_BONUS_PACK
-	.2byte  ITEM_PACK_OCG_POWER_OF_THE_GUARDIAN
-	.2byte  ITEM_PACK_OCG_PREMIUM_PACK_JAPANESE_
-	.2byte  ITEM_PACK_OCG_PREMIUM_PACK_10
-	.2byte  ITEM_PACK_OCG_PREMIUM_PACK_11
-	.2byte  ITEM_PACK_OCG_PREMIUM_PACK_12
-	.2byte  ITEM_PACK_OCG_PREMIUM_PACK_13
-	.2byte  ITEM_PACK_OCG_PREMIUM_PACK_14
-	.2byte  ITEM_PACK_OCG_PREMIUM_PACK_15
-	.2byte  ITEM_PACK_OCG_PREMIUM_PACK_16
-	.2byte  ITEM_PACK_OCG_PREMIUM_PACK_17
-	.2byte  ITEM_PACK_OCG_PREMIUM_PACK_18
-	.2byte  ITEM_PACK_OCG_PREMIUM_PACK_19
-	.2byte  ITEM_PACK_OCG_PREMIUM_PACK_2_JAPANESE_
-	.2byte  ITEM_PACK_OCG_PREMIUM_PACK_20
-	.2byte  ITEM_PACK_OCG_PREMIUM_PACK_2019
-	.2byte  ITEM_PACK_OCG_PREMIUM_PACK_2020
-	.2byte  ITEM_PACK_OCG_PREMIUM_PACK_2021
-	.2byte  ITEM_PACK_OCG_PREMIUM_PACK_2022
-	.2byte  ITEM_PACK_OCG_PREMIUM_PACK_2023
-	.2byte  ITEM_PACK_OCG_PREMIUM_PACK_2024
-	.2byte  ITEM_PACK_OCG_PREMIUM_PACK_2025
-	.2byte  ITEM_PACK_OCG_PREMIUM_PACK_3
-	.2byte  ITEM_PACK_OCG_PREMIUM_PACK_4
-	.2byte  ITEM_PACK_OCG_PREMIUM_PACK_5
-	.2byte  ITEM_PACK_OCG_PREMIUM_PACK_6
-	.2byte  ITEM_PACK_OCG_PREMIUM_PACK_7
-	.2byte  ITEM_PACK_OCG_PREMIUM_PACK_8
-	.2byte  ITEM_PACK_OCG_PREMIUM_PACK_9
-	.2byte  ITEM_PACK_OCG_PREMIUM_PACK_THE_LEGEND_OF_DUELIST_QUARTER_CENTURY_EDITION
-	.2byte  ITEM_PACK_OCG_PRIMAL_ORIGIN
-	.2byte  ITEM_PACK_OCG_PRIMAL_ORIGIN_BOOSTER_PACK_GUIDE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_PRISMATIC_ART_COLLECTION
-	.2byte  ITEM_PACK_OCG_PRISMATIC_GOD_BOX
-	.2byte  ITEM_PACK_OCG_PRISMATIC_SECRET_RARE_BLACK_LUSTER_SOLDIER_GET_CAMPAIGN
-	.2byte  ITEM_PACK_OCG_PRISMATIC_SECRET_RARE_BLUE_EYES_WHITE_DRAGON_GET_CAMPAIGN
-	.2byte  ITEM_PACK_OCG_PRISMATIC_SECRET_RARE_DARK_MAGICIAN_GET_CAMPAIGN
-	.2byte  ITEM_PACK_OCG_PRISMATIC_SECRET_RARE_RED_EYES_BLACK_DRAGON_GET_CAMPAIGN
-	.2byte  ITEM_PACK_OCG_PRISMATIC_SPECIAL_PACK
-	.2byte  ITEM_PACK_OCG_PROMOTION_PACK
-	.2byte  ITEM_PACK_OCG_PROMOTION_PACK_2
-	.2byte  ITEM_PACK_OCG_PROMOTION_PACK_2017
-	.2byte  ITEM_PACK_OCG_PROMOTION_PACK_2018
-	.2byte  ITEM_PACK_OCG_PROMOTION_PACK_2019
-	.2byte  ITEM_PACK_OCG_PROMOTION_PACK_2023
-	.2byte  ITEM_PACK_OCG_PROMOTION_PACK_2024
-	.2byte  ITEM_PACK_OCG_PROMOTION_PACK_2025
-	.2byte  ITEM_PACK_OCG_PROMOTION_PACK_3_PART_A
-	.2byte  ITEM_PACK_OCG_PROMOTION_PACK_3_PART_B
-	.2byte  ITEM_PACK_OCG_PROMOTION_PACK_4_PART_A
-	.2byte  ITEM_PACK_OCG_PROMOTION_PACK_4_PART_B
-	.2byte  ITEM_PACK_OCG_QUARTER_CENTURY_ANNIVERSARY_SELECTION
-	.2byte  ITEM_PACK_OCG_QUARTER_CENTURY_ART_COLLECTION
-	.2byte  ITEM_PACK_OCG_QUARTER_CENTURY_CHRONICLE_SIDE_PRIDE
-	.2byte  ITEM_PACK_OCG_QUARTER_CENTURY_CHRONICLE_SIDE_UNITY
-	.2byte  ITEM_PACK_OCG_QUARTER_CENTURY_DUEL_SET_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING_
-	.2byte  ITEM_PACK_OCG_QUARTER_CENTURY_DUEL_SET_THE_WINGED_DRAGON_OF_RA_
-	.2byte  ITEM_PACK_OCG_QUARTER_CENTURY_DUELIST_BOX
-	.2byte  ITEM_PACK_OCG_QUARTER_CENTURY_LEGENDARY_SELECTION
-	.2byte  ITEM_PACK_OCG_QUARTER_CENTURY_LIMITED_PACK
-	.2byte  ITEM_PACK_OCG_QUARTER_CENTURY_TRINITY_BOX
-	.2byte  ITEM_PACK_OCG_QUARTER_CENTURY_UNITY_PRIDE_CAMPAIGN_SIDE_PRIDE
-	.2byte  ITEM_PACK_OCG_QUARTER_CENTURY_UNITY_PRIDE_CAMPAIGN_SIDE_UNITY
-	.2byte  ITEM_PACK_OCG_RAGE_OF_THE_ABYSS
-	.2byte  ITEM_PACK_OCG_RAGE_OF_THE_ABYSS_1_BONUS_PACK
-	.2byte  ITEM_PACK_OCG_RAGING_BATTLE
-	.2byte  ITEM_PACK_OCG_RAGING_BATTLE_2_PACK_SET
-	.2byte  ITEM_PACK_OCG_RAGING_TEMPEST
-	.2byte  ITEM_PACK_OCG_RARITY_COLLECTION_20TH_ANNIVERSARY_EDITION
-	.2byte  ITEM_PACK_OCG_RARITY_COLLECTION_PREMIUM_GOLD_EDITION
-	.2byte  ITEM_PACK_OCG_RARITY_COLLECTION_QUARTER_CENTURY_EDITION
-	.2byte  ITEM_PACK_OCG_RED_EYES_DUEL_SET
-	.2byte  ITEM_PACK_OCG_REMOTE_DUEL_DISCORD_OFFICIAL_SERVER_REGISTRATION_CAMPAIGN
-	.2byte  ITEM_PACK_OCG_REMOTE_DUEL_GIVEAWAY_CAMPAIGN
-	.2byte  ITEM_PACK_OCG_REMOTE_DUEL_TWITTER_CAMPAIGNS
-	.2byte  ITEM_PACK_OCG_RETURN_OF_THE_DUELIST
-	.2byte  ITEM_PACK_OCG_REVIVAL_OF_BLACK_DEMONS_DRAGON
-	.2byte  ITEM_PACK_OCG_RISE_OF_DESTINY
-	.2byte  ITEM_PACK_OCG_RISE_OF_DESTINY_VENDOR_EDITION
-	.2byte  ITEM_PACK_OCG_RISE_OF_THE_DUELIST
-	.2byte  ITEM_PACK_OCG_RISE_OF_THE_DUELIST_1_BONUS_PACK
-	.2byte  ITEM_PACK_OCG_RISING_RAMPAGE
-	.2byte  ITEM_PACK_OCG_SAIKY_JUMP_MARCH_2015_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_SAIKY_JUMP_MAY_2016_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_SAIKY_JUMP_NOVEMBER_2019_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_SAIKY_JUMP_SEPTEMBER_2012_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_SAIKY_JUMP_SEPTEMBER_2015_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_SAIKY_JUMP_SEPTEMBER_2016_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_SAIKY_JUMP_SEPTEMBER_2017_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_SAIKY_JUMP_SEPTEMBER_2018_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_SAIKY_V_JUMP_FESTA_2012_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_SAIKY_V_JUMP_FESTA_2013_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_SAVAGE_STRIKE
-	.2byte  ITEM_PACK_OCG_SECRET_SHINY_BOX
-	.2byte  ITEM_PACK_OCG_SECRET_UTILITY_BOX
-	.2byte  ITEM_PACK_OCG_SECRETS_OF_ETERNITY
-	.2byte  ITEM_PACK_OCG_SELECTION_10
-	.2byte  ITEM_PACK_OCG_SELECTION_5
-	.2byte  ITEM_PACK_OCG_SHADOW_SPECTERS
-	.2byte  ITEM_PACK_OCG_SHADOW_OF_INFINITY
-	.2byte  ITEM_PACK_OCG_SHADOW_OF_INFINITY_VENDOR_EDITION
-	.2byte  ITEM_PACK_OCG_SHINING_SARCOPHAGUS_DUEL_SET
-	.2byte  ITEM_PACK_OCG_SHINING_VICTORIES
-	.2byte  ITEM_PACK_OCG_SKY_STRIKER_ACE_DUEL_SET
-	.2byte  ITEM_PACK_OCG_SKY_STRIKER_ACE_DUEL_SET_2
-	.2byte  ITEM_PACK_OCG_SNAKE_EYE_DUEL_SET
-	.2byte  ITEM_PACK_OCG_SOUL_FUSION
-	.2byte  ITEM_PACK_OCG_SOUL_OF_THE_DUELIST
-	.2byte  ITEM_PACK_OCG_SOUL_OF_THE_DUELIST_VENDOR_EDITION
-	.2byte  ITEM_PACK_OCG_SPECIAL_PACK
-	.2byte  ITEM_PACK_OCG_SPECIAL_PACK_20TH_ANNIVERSARY_EDITION_VOL_1
-	.2byte  ITEM_PACK_OCG_SPECIAL_PACK_20TH_ANNIVERSARY_EDITION_VOL_2
-	.2byte  ITEM_PACK_OCG_SPECIAL_PACK_20TH_ANNIVERSARY_EDITION_VOL_3
-	.2byte  ITEM_PACK_OCG_SPECIAL_PACK_20TH_ANNIVERSARY_EDITION_VOL_4
-	.2byte  ITEM_PACK_OCG_SPECIAL_PACK_20TH_ANNIVERSARY_EDITION_VOL_5
-	.2byte  ITEM_PACK_OCG_SPECIAL_PACK_20TH_ANNIVERSARY_EDITION_VOL_6
-	.2byte  ITEM_PACK_OCG_SPECIAL_SUMMON_EVOLUTION
-	.2byte  ITEM_PACK_OCG_SPEED_START_DECK_LINK_EDITION
-	.2byte  ITEM_PACK_OCG_SPEED_START_DECK_SYNCHRO_EDITION
-	.2byte  ITEM_PACK_OCG_SPELL_OF_MASK
-	.2byte  ITEM_PACK_OCG_SPRIGHT_DUEL_SET
-	.2byte  ITEM_PACK_OCG_STARDUST_OVERDRIVE
-	.2byte  ITEM_PACK_OCG_STARDUST_OVERDRIVE_2_PACK_SET
-	.2byte  ITEM_PACK_OCG_STARSTRIKE_BLAST
-	.2byte  ITEM_PACK_OCG_STARSTRIKE_BLAST_2_PACK_SET
-	.2byte  ITEM_PACK_OCG_STARTER_BOX
-	.2byte  ITEM_PACK_OCG_STARTER_BOX_PRE_ORDER_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_STARTER_BOX_THEATRICAL_RELEASE
-	.2byte  ITEM_PACK_OCG_STARTER_DECK_2006
-	.2byte  ITEM_PACK_OCG_STARTER_DECK_2006_SPECIAL_EDITION
-	.2byte  ITEM_PACK_OCG_STARTER_DECK_2007
-	.2byte  ITEM_PACK_OCG_STARTER_DECK_2007_SPECIAL_SET
-	.2byte  ITEM_PACK_OCG_STARTER_DECK_2008
-	.2byte  ITEM_PACK_OCG_STARTER_DECK_2008_TOURNAMENT_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_STARTER_DECK_2009
-	.2byte  ITEM_PACK_OCG_STARTER_DECK_2010
-	.2byte  ITEM_PACK_OCG_STARTER_DECK_2011
-	.2byte  ITEM_PACK_OCG_STARTER_DECK_2012
-	.2byte  ITEM_PACK_OCG_STARTER_DECK_2013
-	.2byte  ITEM_PACK_OCG_STARTER_DECK_2013_ENHANCEMENT_PACK
-	.2byte  ITEM_PACK_OCG_STARTER_DECK_2014
-	.2byte  ITEM_PACK_OCG_STARTER_DECK_2014_ENHANCEMENT_PACK
-	.2byte  ITEM_PACK_OCG_STARTER_DECK_2016
-	.2byte  ITEM_PACK_OCG_STARTER_DECK_2017
-	.2byte  ITEM_PACK_OCG_STARTER_DECK_2018
-	.2byte  ITEM_PACK_OCG_STARTER_DECK_2019
-	.2byte  ITEM_PACK_OCG_STORM_OF_RAGNAROK
-	.2byte  ITEM_PACK_OCG_STORM_OF_RAGNAROK_2_PACK_SET
-	.2byte  ITEM_PACK_OCG_STRIKE_OF_NEOS
-	.2byte  ITEM_PACK_OCG_STRIKE_OF_NEOS_VENDOR_EDITION
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_R_ADVENT_OF_THE_TRUE_MONARCH
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_R_CURSE_OF_THE_DARK
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_R_DEVIL_S_GATE
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_R_DEVIL_S_GATE_THE_DOORS_OF_THE_ABYSS_OPENED_PACK
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_R_DRAGUNITY_DRIVE
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_R_DRAGUNITY_DRIVE_LEGEND_OF_THE_DRAGON_RAVINE_PACK
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_R_LORD_OF_MAGICIAN
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_R_LOST_SANCTUARY
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_R_LOST_SANCTUARY_ARRIVAL_OF_THE_SUN_GOD_PACK
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_R_MACHINE_DRAGON_RE_VOLT
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_R_MACHINERS_COMMAND
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_R_ONSLAUGHT_OF_THE_FIRE_KINGS
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_R_ONSLAUGHT_OF_THE_FIRE_KINGS_SECOND_COMING_OF_THE_ETERNAL_FLAMES_RULER_PACK
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_R_REVIVAL_OF_THE_GREAT_DIVINE_DRAGON
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_R_SURGE_OF_DIVINE_LIGHT
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_R_TYRANNO_S_RAGE
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_R_UNDEAD_WORLD
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_R_WARRIORS_STRIKE
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_ADVENT_OF_THE_EMPEROR
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_ADVENT_OF_THE_EYES_OF_BLUE
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_ADVENT_OF_THE_EYES_OF_BLUE_LEGENDARY_MAJESTY_INHERITANCE_PACK
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_ALBA_STRIKE
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_BLAZE_OF_DESTRUCTION
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_BLITZKRIEG_OF_THE_MECHLIGHT_DRAGONS
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_CURSE_OF_DARKNESS
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_CYBER_STYLE_S_SUCCESSOR
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_CYBER_STYLE_S_SUCCESSOR_SECRET_TECHNIQUE_INHERITANCE_PACK
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_CYBERSE_LINK
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_DELUXE_SET
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_DELUXE_SET_VOLUME_2
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_DEVIL_S_GATE
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_DINOSAUR_S_RAGE
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_DINOSAUR_S_RAGE_SPECIAL_EDITION_JAPANESE_
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_DRAGON_S_ROAR
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_DRAGONIC_LEGION
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_DRAGUNITY_DRIVE
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_FOREST_OF_THE_TRAPTRIX
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_FOREST_OF_THE_TRAPTRIX_THE_LEGEND_OF_DUELIST_QUARTER_CENTURY_EDITION
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_FOREST_OF_THE_TRAPTRIX_BANQUET_INVITATION_PACK
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_FURY_FROM_THE_DEEP
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_HERO_S_STRIKE
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_ICE_BARRIER_OF_THE_FROZEN_PRISON
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_ICE_BARRIER_OF_THE_FROZEN_PRISON_MELTING_DESTINY_PACK
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_INVINCIBLE_FORTRESS
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_JOEY
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_JOEY_VOLUME_2
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_KAIBA
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_KAIBA_VOLUME_2
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_LEGEND_OF_THE_CRYSTALS
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_LEGEND_OF_THE_CRYSTALS_LIGHT_OF_TRANSCENDING_BONDS_PACK
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_LIGHTNING_STRIKE_OF_THE_MECHLIGHT_DRAGON
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_LORD_OF_MAGICIAN
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_LORD_OF_MAGICIAN_LIMITED_EDITION
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_LORD_OF_THE_STORM
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_LOST_SANCTUARY
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_MACHINE_RE_VOLT
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_MACHINE_RE_VOLT_SPECIAL_EDITION
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_MACHINERS_COMMAND
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_MARIK_OCG_
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_MASTER_LINK
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_MASTER_OF_PENDULUM
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_MASTERS_OF_THE_SPIRITUAL_ARTS
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_MASTERS_OF_THE_SPIRITUAL_ARTS_THE_LEGEND_OF_DUELIST_QUARTER_CENTURY_EDITION
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_MASTERS_OF_THE_SPIRITUAL_ARTS_SPIRIT_ART_AWAKENING_PACK
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_ONSLAUGHT_OF_THE_FIRE_KINGS
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_OVERLAY_UNIVERSE
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_OVERLAY_UNIVERSE_EMPEROR_S_DOOR_PACK
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_PEGASUS
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_PENDULUM_DOMINATION
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_PENDULUM_EVOLUTION
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_POWER_OF_FELLOWS
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_POWERCODE_LINK
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_PULSE_OF_THE_KING
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_PULSE_OF_THE_KING_RUMBLING_OF_HEAVEN_AND_EARTH_PACK
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_REBIRTH_OF_SHADDOLL
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_REBIRTH_OF_SHADDOLL_DECK_ENHANCEMENT_PACK
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_REVIVAL_OF_THE_GREAT_DRAGON
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_REVOLVER
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_REVOLVER_EXTRA_DECK_ENHANCEMENT_PACK
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_ROAR_OF_THE_SEA_EMPEROR
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_SACRED_BEASTS_OF_CHAOS
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_SACRED_BEASTS_OF_CHAOS_SACRED_BEASTS_UNLEASHED_PACK
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_SETO_KAIBA
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_SOULBURNER
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_SOULBURNER_EXTRA_DECK_ENHANCEMENT_PACK
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_SPELLCASTER_S_JUDGMENT
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_SURGE_OF_RADIANCE
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_SURGE_OF_RADIANCE_SPECIAL_EDITION
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_SYNCHRON_EXTREME
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_THE_BLUE_EYED_DRAGON_S_THUNDERING_DESCENT
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_UNDEAD_WORLD
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_WARRIOR_S_TRIUMPH
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_WARRIORS_STRIKE
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_YUGI
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_YUGI_MUTO
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_YUGI_VOLUME_2
-	.2byte  ITEM_PACK_OCG_STRUCTURE_DECK_ZOMBIE_MADNESS
-	.2byte  ITEM_PACK_OCG_STRUGGLE_OF_CHAOS
-	.2byte  ITEM_PACK_OCG_SUMMER_NATIONAL_GENERAL_YU_GI_OH_OCG_TEST_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_SUNSTAR_TONIC_COLLABORATION_CARD
-	.2byte  ITEM_PACK_OCG_SUPREME_DARKNESS
-	.2byte  ITEM_PACK_OCG_SUPREME_DARKNESS_1_BONUS_PACK
-	.2byte  ITEM_PACK_OCG_SURPASSING_10000_CARDS_COMMEMORATION_CARD
-	.2byte  ITEM_PACK_OCG_SURPASSING_10000_CARDS_COMMEMORATION_SPECIAL_PACK
-	.2byte  ITEM_PACK_OCG_TV_TOKYO_FESTIVAL_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_TACTICAL_EVOLUTION
-	.2byte  ITEM_PACK_OCG_TACTICAL_TRY_DECK_DECISIVE_STRIKE_CYBER_DRAGON
-	.2byte  ITEM_PACK_OCG_TACTICAL_TRY_DECK_ELDLICH_THE_CONQUEROR
-	.2byte  ITEM_PACK_OCG_TACTICAL_TRY_DECK_EVIL_TWIN_THE_KAITO_PAIR
-	.2byte  ITEM_PACK_OCG_TACTICAL_TRY_DECK_EXOSISTER
-	.2byte  ITEM_PACK_OCG_TACTICAL_TRY_DECK_RESCUE_ACE
-	.2byte  ITEM_PACK_OCG_TACTICAL_TRY_PACK_DARK_MAGIC_HERO_MIKANKO
-	.2byte  ITEM_PACK_OCG_TEARLAMENTS_DUEL_SET
-	.2byte  ITEM_PACK_OCG_TERMINAL_WORLD_SET_
-	.2byte  ITEM_PACK_OCG_TERMINAL_WORLD_2
-	.2byte  ITEM_PACK_OCG_THE_DARK_ILLUSION
-	.2byte  ITEM_PACK_OCG_THE_DINOSAUR_EXPO_2023_PROMOTION_PACK
-	.2byte  ITEM_PACK_OCG_THE_DUELIST_GENESIS
-	.2byte  ITEM_PACK_OCG_THE_DUELIST_GENESIS_2_PACK_SET
-	.2byte  ITEM_PACK_OCG_THE_GOLD_BOX
-	.2byte  ITEM_PACK_OCG_THE_INFINITE_FORBIDDEN
-	.2byte  ITEM_PACK_OCG_THE_LEGEND_OF_DUELIST_PROMOTION_PACK
-	.2byte  ITEM_PACK_OCG_THE_LOST_MILLENNIUM
-	.2byte  ITEM_PACK_OCG_THE_LOST_MILLENNIUM_VENDOR_EDITION
-	.2byte  ITEM_PACK_OCG_THE_NEW_CHALLENGERS
-	.2byte  ITEM_PACK_OCG_THE_NEW_RULER
-	.2byte  ITEM_PACK_OCG_THE_POT_COLLECTION
-	.2byte  ITEM_PACK_OCG_THE_RARITY_COLLECTION
-	.2byte  ITEM_PACK_OCG_THE_SANCTUARY_IN_THE_SKY_SET_
-	.2byte  ITEM_PACK_OCG_THE_SHINING_DARKNESS
-	.2byte  ITEM_PACK_OCG_THE_SHINING_DARKNESS_2_PACK_SET
-	.2byte  ITEM_PACK_OCG_THE_THOUSAND_RULE_BIBLE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_THE_VALUABLE_BOOK_1_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_THE_VALUABLE_BOOK_10_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_THE_VALUABLE_BOOK_11_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_THE_VALUABLE_BOOK_12_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_THE_VALUABLE_BOOK_13_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_THE_VALUABLE_BOOK_14_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_THE_VALUABLE_BOOK_15_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_THE_VALUABLE_BOOK_16_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_THE_VALUABLE_BOOK_17_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_THE_VALUABLE_BOOK_18_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_THE_VALUABLE_BOOK_19_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_THE_VALUABLE_BOOK_2_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_THE_VALUABLE_BOOK_20_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_THE_VALUABLE_BOOK_21_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_THE_VALUABLE_BOOK_22_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_THE_VALUABLE_BOOK_3_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_THE_VALUABLE_BOOK_4_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_THE_VALUABLE_BOOK_5_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_THE_VALUABLE_BOOK_6_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_THE_VALUABLE_BOOK_7_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_THE_VALUABLE_BOOK_8_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_THE_VALUABLE_BOOK_9_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_THE_VALUABLE_BOOK_EX_2_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_THE_VALUABLE_BOOK_EX_3_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_THE_VALUABLE_BOOK_EX_4_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_THE_VALUABLE_BOOK_EX_5_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_THE_VALUABLE_BOOK_EX_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_THOUSAND_EYES_BIBLE
-	.2byte  ITEM_PACK_OCG_THREAT_OF_THE_DARK_DEMON_WORLD
-	.2byte  ITEM_PACK_OCG_TOKYO_GAME_SHOW_2022_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_TOP_PRIZE_PACK_2023_VOL_1
-	.2byte  ITEM_PACK_OCG_TOP_PRIZE_PACK_2023_VOL_2
-	.2byte  ITEM_PACK_OCG_TOP_PRIZE_PACK_2023_VOL_3
-	.2byte  ITEM_PACK_OCG_TOP_PRIZE_PACK_2023_VOL_4
-	.2byte  ITEM_PACK_OCG_TOP_PRIZE_PACK_2024_VOL_1
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2007_VOL_1
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2007_VOL_2
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2007_VOL_3
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2007_VOL_4
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2008_VOL_1
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2008_VOL_2
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2008_VOL_3
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2008_VOL_4
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2009_VOL_1
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2009_VOL_2
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2009_VOL_3
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2009_VOL_4
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2010_VOL_1
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2010_VOL_2
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2010_VOL_3
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2010_VOL_4
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2011_VOL_1
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2011_VOL_2
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2011_VOL_3
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2011_VOL_4
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2012_VOL_1
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2012_VOL_2
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2012_VOL_3
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2017_VOL_2
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2017_VOL_3
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2017_VOL_4
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2018_VOL_1
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2018_VOL_2
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2018_VOL_3
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2018_VOL_4
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2019_VOL_1
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2019_VOL_2
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2019_VOL_3
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2019_VOL_4
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2020_VOL_1
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2020_VOL_2
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2020_VOL_3
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2020_VOL_4
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2021_VOL_1
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2021_VOL_2
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2021_VOL_3
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2021_VOL_4
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2022_VOL_1
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2022_VOL_2
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2022_VOL_3
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2022_VOL_4
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2023_VOL_1
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2023_VOL_2
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2023_VOL_3
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2023_VOL_4
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2024_VOL_1
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2024_VOL_2
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2024_VOL_3
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2024_VOL_4
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2024_VOL_5
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2025_VOL_1
-	.2byte  ITEM_PACK_OCG_TOURNAMENT_PACK_2025_VOL_2
-	.2byte  ITEM_PACK_OCG_TRANSCENDOSAURUS_DUEL_SET
-	.2byte  ITEM_PACK_OCG_ULTIMATE_SPECIAL_PACK
-	.2byte  ITEM_PACK_OCG_V_JUMP_APRIL_2008_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_APRIL_2009_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_APRIL_2010_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_APRIL_2011_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_APRIL_2012_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_APRIL_2013_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_APRIL_2014_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_APRIL_2015_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_APRIL_2016_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_APRIL_2017_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_APRIL_2018_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_APRIL_2019_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_APRIL_2020_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_APRIL_2021_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_APRIL_2022_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_APRIL_2023_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_APRIL_2024_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_APRIL_2025_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_AUGUST_1999_SPECIAL_PRESENT_SET_A
-	.2byte  ITEM_PACK_OCG_V_JUMP_AUGUST_1999_SPECIAL_PRESENT_SET_B
-	.2byte  ITEM_PACK_OCG_V_JUMP_AUGUST_2014_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_AUGUST_2015_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_AUGUST_2016_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_AUGUST_2017_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_AUGUST_2018_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_AUGUST_2019_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_AUGUST_2020_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_AUGUST_2021_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_AUGUST_2022_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_AUGUST_2023_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_AUGUST_2024_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_AUGUST_2025_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_CARD_FESTA_2008_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_CARD_FESTA_2009_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_CARD_FESTA_2010_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_DECEMBER_2015_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_DECEMBER_2016_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_DECEMBER_2017_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_DECEMBER_2018_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_DECEMBER_2019_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_DECEMBER_2020_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_DECEMBER_2021_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_DECEMBER_2022_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_DECEMBER_2023_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_DECEMBER_2024_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_EDITION
-	.2byte  ITEM_PACK_OCG_V_JUMP_EDITION_10
-	.2byte  ITEM_PACK_OCG_V_JUMP_EDITION_2
-	.2byte  ITEM_PACK_OCG_V_JUMP_EDITION_3
-	.2byte  ITEM_PACK_OCG_V_JUMP_EDITION_4
-	.2byte  ITEM_PACK_OCG_V_JUMP_EDITION_5
-	.2byte  ITEM_PACK_OCG_V_JUMP_EDITION_6
-	.2byte  ITEM_PACK_OCG_V_JUMP_EDITION_7
-	.2byte  ITEM_PACK_OCG_V_JUMP_EDITION_8
-	.2byte  ITEM_PACK_OCG_V_JUMP_EDITION_9
-	.2byte  ITEM_PACK_OCG_V_JUMP_EDITION_PENDULUM_VICTORY_PACK
-	.2byte  ITEM_PACK_OCG_V_JUMP_FALL_2005_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_FALL_2006_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_FALL_2007_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_FALL_2008_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_FALL_2009_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_FALL_2010_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_FALL_2011_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_FALL_2012_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_FALL_2013_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_FALL_2014_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_FALL_2015_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_FALL_2016_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_FALL_2017_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_FALL_2018_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_FALL_2019_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_FALL_2020_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_FALL_2021_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_FALL_2022_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_FALL_2023_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_FALL_2024_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_FALL_2025_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_FEBRUARY_2002_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_FEBRUARY_2005_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_FEBRUARY_2006_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_FEBRUARY_2007_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_FEBRUARY_2008_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_FEBRUARY_2009_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_FEBRUARY_2010_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_FEBRUARY_2011_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_FEBRUARY_2012_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_FEBRUARY_2013_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_FEBRUARY_2014_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_FEBRUARY_2015_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_FEBRUARY_2016_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_FEBRUARY_2017_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_FEBRUARY_2018_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_FEBRUARY_2019_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_FEBRUARY_2020_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_FEBRUARY_2021_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_FEBRUARY_2022_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_FEBRUARY_2023_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_FEBRUARY_2024_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_FEBRUARY_2025_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_FESTA_1999_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_FESTA_2011_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JANUARY_2001_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JANUARY_2014_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JANUARY_2016_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JANUARY_2017_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JANUARY_2018_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JANUARY_2019_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JANUARY_2020_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JANUARY_2021_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JANUARY_2022_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JANUARY_2023_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JANUARY_2024_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JANUARY_2025_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JULY_2000_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JULY_2001_LOTTERY_PRIZE_CARDS
-	.2byte  ITEM_PACK_OCG_V_JUMP_JULY_2001_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JULY_2002_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JULY_2013_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JULY_2016_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JULY_2017_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JULY_2018_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JULY_2019_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JULY_2020_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JULY_2021_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JULY_2022_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JULY_2023_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JULY_2024_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JULY_2025_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JUNE_2004_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JUNE_2005_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JUNE_2006_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JUNE_2007_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JUNE_2008_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JUNE_2009_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JUNE_2010_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JUNE_2011_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JUNE_2012_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JUNE_2013_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JUNE_2014_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JUNE_2015_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JUNE_2016_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JUNE_2017_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JUNE_2018_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JUNE_2019_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JUNE_2020_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JUNE_2021_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JUNE_2022_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JUNE_2023_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JUNE_2024_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_JUNE_2025_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_MARCH_2007_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_MARCH_2008_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_MARCH_2009_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_MARCH_2010_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_MARCH_2011_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_MARCH_2012_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_MARCH_2013_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_MARCH_2015_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_MARCH_2016_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_MARCH_2017_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_MARCH_2018_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_MARCH_2019_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_MARCH_2020_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_MARCH_2021_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_MARCH_2022_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_MARCH_2023_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_MARCH_2024_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_MARCH_2025_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_MAY_2016_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_MAY_2017_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_MAY_2018_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_MAY_2019_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_MAY_2020_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_MAY_2021_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_MAY_2022_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_MAY_2023_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_MAY_2024_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_MAY_2025_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_NOVEMBER_2005_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_NOVEMBER_2014_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_NOVEMBER_2015_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_NOVEMBER_2016_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_NOVEMBER_2017_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_NOVEMBER_2018_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_NOVEMBER_2019_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_NOVEMBER_2020_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_NOVEMBER_2021_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_NOVEMBER_2022_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_NOVEMBER_2023_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_NOVEMBER_2024_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_OCTOBER_2004_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_OCTOBER_2006_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_OCTOBER_2007_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_OCTOBER_2008_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_OCTOBER_2009_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_OCTOBER_2010_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_OCTOBER_2011_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_OCTOBER_2012_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_OCTOBER_2015_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_OCTOBER_2016_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_OCTOBER_2017_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_OCTOBER_2018_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_OCTOBER_2019_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_OCTOBER_2020_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_OCTOBER_2021_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_OCTOBER_2022_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_OCTOBER_2023_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_OCTOBER_2024_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_SEPTEMBER_2012_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_SEPTEMBER_2013_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_SEPTEMBER_2014_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_SEPTEMBER_2015_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_SEPTEMBER_2016_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_SEPTEMBER_2017_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_SEPTEMBER_2018_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_SEPTEMBER_2019_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_SEPTEMBER_2020_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_SEPTEMBER_2021_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_SEPTEMBER_2022_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_SEPTEMBER_2023_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_SEPTEMBER_2024_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_SEPTEMBER_2025_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_V_JUMP_SPRING_2006_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_SPRING_2007_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_SPRING_2008_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_SPRING_2009_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_SPRING_2010_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_SPRING_2011_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_SPRING_2012_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_SPRING_2013_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_SPRING_2014_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_SPRING_2015_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_SPRING_2016_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_SPRING_2017_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_SPRING_2018_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_SPRING_2019_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_SPRING_2020_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_SPRING_2021_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_SPRING_2022_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_SPRING_2023_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_SPRING_2024_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_V_JUMP_SPRING_2025_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_OCG_VOL_1
-	.2byte  ITEM_PACK_OCG_VOL_2
-	.2byte  ITEM_PACK_OCG_VOL_3
-	.2byte  ITEM_PACK_OCG_VOL_4
-	.2byte  ITEM_PACK_OCG_VOL_5
-	.2byte  ITEM_PACK_OCG_VOL_6
-	.2byte  ITEM_PACK_OCG_VOL_7
-	.2byte  ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2001_ISSUE_11_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2001_ISSUE_35_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2001_ISSUE_36_37_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2002_ISSUE_4_5_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2003_ISSUE_3_4_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2006_ISSUE_2_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2006_ISSUE_35_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2007_ISSUE_2_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2007_ISSUE_35_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2008_ISSUE_18_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2008_ISSUE_3_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2008_ISSUE_36_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2009_ISSUE_3_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2009_ISSUE_36_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2010_ISSUE_2_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2010_ISSUE_36_37_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2011_ISSUE_2_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2011_ISSUE_35_36_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2012_ISSUE_2_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2012_ISSUE_35_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2013_ISSUE_36_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2013_ISSUE_4_5_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2014_ISSUE_3_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2014_ISSUE_36_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2015_ISSUE_3_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2015_ISSUE_34_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2016_ISSUE_19_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2017_ISSUE_21_22_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2018_ISSUE_21_22_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_WEEKLY_SH_NEN_JUMP_2019_ISSUE_22_23_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_WINNER_S_PACK_2025_VOL_1
-	.2byte  ITEM_PACK_OCG_WINNER_S_PACK_2025_VOL_2
-	.2byte  ITEM_PACK_OCG_WITCHCRAFTER_DUEL_SET
-	.2byte  ITEM_PACK_OCG_WORLD_PREMIERE_PACK_2020
-	.2byte  ITEM_PACK_OCG_WORLD_PREMIERE_PACK_2021
-	.2byte  ITEM_PACK_OCG_WORLD_PREMIERE_PACK_2022
-	.2byte  ITEM_PACK_OCG_WORLD_PREMIERE_PACK_2023
-	.2byte  ITEM_PACK_OCG_WORLD_PREMIERE_PACK_2024
-	.2byte  ITEM_PACK_OCG_WORLD_RANKING_PROMOS_SERIES_1
-	.2byte  ITEM_PACK_OCG_WORLD_RANKING_PROMOS_SERIES_2
-	.2byte  ITEM_PACK_OCG_WORLD_RANKING_PROMOS_SERIES_3
-	.2byte  ITEM_PACK_OCG_WORLD_RANKING_PROMOS_SERIES_4
-	.2byte  ITEM_PACK_OCG_WORLD_RANKING_PROMOS_SERIES_5
-	.2byte  ITEM_PACK_OCG_WORLD_RANKING_PROMOS_SERIES_6
-	.2byte  ITEM_PACK_OCG_WORLD_RANKING_PROMOS_SERIES_7
-	.2byte  ITEM_PACK_OCG_WORLD_RANKING_PROMOS_SERIES_8
-	.2byte  ITEM_PACK_OCG_WORLD_RANKING_PROMOS_SERIES_9
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_3D_BONDS_BEYOND_TIME_BLU_RAY_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_3D_BONDS_BEYOND_TIME_DVD_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_3D_BONDS_BEYOND_TIME_MOVIE_PACK
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_3D_BONDS_BEYOND_TIME_THEATER_DISTRIBUTION_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_5D_S_DUEL_TRANSER_GENERATE_GUIDE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_5D_S_DUEL_TRANSER_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_5D_S_TAG_FORCE_4_COMPLETE_TAG_DUEL_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_5D_S_TAG_FORCE_4_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_5D_S_TAG_FORCE_5_ADVANCE_TAG_DUEL_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_5D_S_TAG_FORCE_5_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_5D_S_TAG_FORCE_6_LIMIT_OVER_TAG_DUEL_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_5D_S_TAG_FORCE_6_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_5D_S_VOLUME_1_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_5D_S_VOLUME_2_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_5D_S_VOLUME_3_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_5D_S_VOLUME_4_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_5D_S_VOLUME_5_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_5D_S_VOLUME_6_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_5D_S_VOLUME_7_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_5D_S_VOLUME_8_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_5D_S_VOLUME_9_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_5D_S_WHEELIE_BREAKERS_PERFECT_RIDE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_5D_S_WHEELIE_BREAKERS_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_5D_S_WORLD_CHAMPIONSHIP_2009_STARDUST_ACCELERATOR_VICTORY_ROAD_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_5D_S_WORLD_CHAMPIONSHIP_2009_STARDUST_ACCELERATOR_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_5D_S_WORLD_CHAMPIONSHIP_2010_REVERSE_OF_ARCADIA_PERFECT_DUEL_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_5D_S_WORLD_CHAMPIONSHIP_2010_REVERSE_OF_ARCADIA_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_5D_S_WORLD_CHAMPIONSHIP_2011_OVER_THE_NEXUS_ROAD_TO_VICTORY_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_5D_S_WORLD_CHAMPIONSHIP_2011_OVER_THE_NEXUS_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_ARC_V_TAG_FORCE_SPECIAL_LEGEND_TAG_GUIDE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_ARC_V_THE_STRONGEST_DUELIST_YUYA_VOLUME_1_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_ARC_V_THE_STRONGEST_DUELIST_YUYA_VOLUME_2_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_ARC_V_VOLUME_1_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_ARC_V_VOLUME_2_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_ARC_V_VOLUME_3_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_ARC_V_VOLUME_4_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_ARC_V_VOLUME_5_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_ARC_V_VOLUME_6_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_ARC_V_VOLUME_7_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_CAPSULE_MONSTER_COLISEUM_GUIDE_BOOK_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_CAPSULE_MONSTER_COLISEUM_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_CARD_GAME_25TH_ANNIVERSARY_BLUE_EYES_WHITE_DRAGON_UKIYO_E_STYLE_LIMITED_OCG_CARD_WITH_FRAMED_STAMP_SET
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_CARD_GAME_ART_WORKS_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_CARD_GAME_X_7_ELEVEN_2024_COLLABORATION_CAMPAIGN
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_CARD_GAME_X_7_ELEVEN_COLLABORATION_CAMPAIGN
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_CHAMPIONSHIP_SERIES_JAPAN_2019_PRIZE_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_CHAMPIONSHIP_SERIES_JAPAN_2023_PRIZE_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_CHAMPIONSHIP_SERIES_JAPAN_2024_PRIZE_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_CHAMPIONSHIP_SERIES_JAPAN_2025_PRIZE_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_CHARACTER_GUIDEBOOK_MILLENNIUM_BOOK_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_CHARACTER_GUIDEBOOK_THE_GOSPEL_OF_TRUTH_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_CHIPS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_LINKS_LEGEND_DECK_GUIDE_YAMI_YUGI_VS_SETO_KAIBA_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_4_BATTLE_OF_GREAT_DUELIST_GAME_GUIDE_1_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_4_BATTLE_OF_GREAT_DUELIST_GAME_GUIDE_2_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_4_BATTLE_OF_GREAT_DUELIST_JONOUCHI_DECK_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_4_BATTLE_OF_GREAT_DUELIST_KAIBA_DECK_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_4_BATTLE_OF_GREAT_DUELIST_YUGI_DECK_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_5_EXPERT_1_FIRST_VOLUME_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_5_EXPERT_1_SECOND_VOLUME_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_5_EXPERT_1_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_6_EXPERT_2_FIRST_VOLUME_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_6_EXPERT_2_SECOND_VOLUME_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_6_EXPERT_2_PRE_ORDER_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_6_EXPERT_2_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_7_THE_DUELCITY_LEGEND_GAME_GUIDE_1_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_7_THE_DUELCITY_LEGEND_GAME_GUIDE_2_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_7_THE_DUELCITY_LEGEND_PRE_ORDER_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_7_THE_DUELCITY_LEGEND_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_8_RESHEF_OF_DESTRUCTION_GAME_GUIDE_1_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_8_RESHEF_OF_DESTRUCTION_GAME_GUIDE_2_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_8_RESHEF_OF_DESTRUCTION_PRE_ORDER_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_8_RESHEF_OF_DESTRUCTION_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_ANIME_COMPLETE_GUIDE_MILLENNIUM_MEMORY_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_EXPERT_3_GAME_GUIDE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_EXPERT_3_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_II_DARK_DUEL_STORIES_DUELIST_LEGEND_IN_TOKYO_DOME_ATTENDANCE_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_II_DARK_DUEL_STORIES_DUELIST_LEGEND_IN_TOKYO_DOME_PARTICIPATION_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_II_DARK_DUEL_STORIES_DUELIST_LEGEND_IN_TOKYO_DOME_PRIZE_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_II_DARK_DUEL_STORIES_GAME_GUIDE_1_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_II_DARK_DUEL_STORIES_GAME_GUIDE_2_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_II_DARK_DUEL_STORIES_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_III_TRI_HOLY_GOD_ADVENT_GAME_GUIDE_1_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_III_TRI_HOLY_GOD_ADVENT_GAME_GUIDE_2_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_III_TRI_HOLY_GOD_ADVENT_OFFICIAL_TOURNAMENT_STREET_DUEL_LEGEND_OF_POWER_PRIZE_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_III_TRI_HOLY_GOD_ADVENT_PRE_ORDER_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_III_TRI_HOLY_GOD_ADVENT_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_INTERNATIONAL_2_GAME_GUIDE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_INTERNATIONAL_2_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_INTERNATIONAL_WORLDWIDE_EDITION_GAME_GUIDE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_MILLENNIUM_SCENES_BLU_RAY_DVD_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_NATIONAL_TOURNAMENT_ATTENDANCE_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_NATIONAL_TOURNAMENT_PRIZE_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_SAIKYO_CARD_BATTLE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_MONSTERS_THE_LEGEND_OF_DUELIST_QUARTER_CENTURY_ATTENDANCE_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUEL_TERMINAL_MASTER_GUIDE_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_DUELIST_AND_MONSTERS_MEMORIAL_DISC_BLU_RAY_DVD_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_EARLY_DAYS_COLLECTION_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_GX_CARD_ALMANAC_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_GX_DUEL_ACADEMY_GAME_GUIDE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_GX_DUEL_ACADEMY_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_GX_SPIRIT_CALLER_GAME_GUIDE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_GX_SPIRIT_CALLER_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_GX_TAG_FORCE_2_MASTER_TAG_DUEL_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_GX_TAG_FORCE_2_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_GX_TAG_FORCE_3_CLIMAX_TAG_DUEL_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_GX_TAG_FORCE_3_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_GX_TAG_FORCE_EVOLUTION_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_GX_TAG_FORCE_FRIENDSHIP_TAG_DUEL_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_GX_TAG_FORCE_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_GX_VOLUME_1_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_GX_VOLUME_2_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_GX_VOLUME_3_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_GX_VOLUME_4_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_GX_VOLUME_5_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_GX_VOLUME_6_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_GX_VOLUME_7_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_GX_VOLUME_8_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_GX_VOLUME_9_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_LEGACY_OF_THE_DUELIST_LINK_EVOLUTION_DUELIST_COMPLETE_GUIDE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_NIGHTMARE_TROUBADOUR_GAME_GUIDE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_NIGHTMARE_TROUBADOUR_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_OCG_STORIES_MAGISTUS_ARC_VOLUME_4_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_OCG_STORIES_SKY_STRIKER_ACE_ARC_VOLUME_1_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_OCG_STORIES_SKY_STRIKER_ACE_ARC_VOLUME_2_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_OCG_STORIES_SKY_STRIKER_ACE_ARC_VOLUME_3_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_OCG_STORIES_VOLUME_5_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_OCG_STRUCTURES_VOLUME_1_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_OCG_STRUCTURES_VOLUME_10_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_OCG_STRUCTURES_VOLUME_2_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_OCG_STRUCTURES_VOLUME_3_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_OCG_STRUCTURES_VOLUME_4_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_OCG_STRUCTURES_VOLUME_5_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_OCG_STRUCTURES_VOLUME_6_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_OCG_STRUCTURES_VOLUME_7_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_OCG_STRUCTURES_VOLUME_8_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_OCG_STRUCTURES_VOLUME_9_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_QUARTER_CENTURY_SUMMONSCENE_SELECTION_BLU_RAY_DVD_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_R_VOLUME_1_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_R_VOLUME_3_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_R_VOLUME_4_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_R_VOLUME_5_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_SOUND_DUEL_QUARTER_CENTURY_SELECTION_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_SUMMER_CHALLENGE_2009_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_4D_THEATER_DISTRIBUTION_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_ADVANCE_TICKET_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_BLU_RAY_DVD_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_CINEMILEAGE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_COCO_ICHIBANYA_PROMOTIONAL_CARD_1
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_COCO_ICHIBANYA_PROMOTIONAL_CARD_2
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_DUEL_SET
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_MOVIE_PACK
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_THEATER_DISTRIBUTION_CARD_1
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_THEATER_DISTRIBUTION_CARD_2
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_THEATER_DISTRIBUTION_CARD_3
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_THEATER_DISTRIBUTION_CARD_4
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_YOKOHAMA_EVENT_DISTRIBUTION_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_THE_MOVIE_PREVIEW_DISTRIBUTION_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_TRUE_DUEL_MONSTERS_2_SUCCEEDED_MEMORIES_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_TRUE_DUEL_MONSTERS_II_SUCCEEDED_MEMORIES_GAME_GUIDE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_TRUE_DUEL_MONSTERS_SEALED_MEMORIES_GAME_GUIDE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_TRUE_DUEL_MONSTERS_SEALED_MEMORIES_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_ULTIMATE_MASTERS_WORLD_CHAMPIONSHIP_TOURNAMENT_2006_GAME_GUIDE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_ULTIMATE_MASTERS_WORLD_CHAMPIONSHIP_TOURNAMENT_2006_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_UNITED_DUEL_TOURNAMENT_2020_PRIZE_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_UNITED_DUEL_TOURNAMENT_AUGUST_2022_PRIZE_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_UNITED_DUEL_TOURNAMENT_FEBRUARY_2023_PRIZE_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_UNITED_DUEL_TOURNAMENT_MAY_2021_PRIZE_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_UNITED_DUEL_TOURNAMENT_NOVEMBER_2021_PRIZE_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_VOLUME_31_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_WORLD_CHAMPIONSHIP_2006_SET
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_WORLD_CHAMPIONSHIP_2007_ROAD_TO_FINAL_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_WORLD_CHAMPIONSHIP_2007_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_WORLD_CHAMPIONSHIP_2008_COMPLETE_EDITION_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_WORLD_CHAMPIONSHIP_2008_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_WORLD_CHAMPIONSHIP_2017_ATTENDANCE_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_WORLD_CHAMPIONSHIP_2018_ATTENDANCE_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_WORLD_CHAMPIONSHIP_2019_ATTENDANCE_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_WORLD_CHAMPIONSHIP_2023_ATTENDANCE_CARDS
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_ZEXAL_VOLUME_1_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_ZEXAL_VOLUME_2_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_ZEXAL_VOLUME_3_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_ZEXAL_VOLUME_4_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_ZEXAL_VOLUME_5_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_ZEXAL_VOLUME_6_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_ZEXAL_VOLUME_7_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_ZEXAL_VOLUME_8_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_ZEXAL_VOLUME_9_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_ZEXAL_WORLD_DUEL_CARNIVAL_DUEL_CHAMPION_GUIDE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_OCG_YU_GI_OH_ZEXAL_WORLD_DUEL_CARNIVAL_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_2_PLAYER_STARTER_DECK_YUYA_DECLAN
 	.2byte  ITEM_PACK_TCG_2_PLAYER_STARTER_SET
-	.2byte  ITEM_PACK_TCG_2013_COLLECTIBLE_TINS_WAVE_1
-	.2byte  ITEM_PACK_TCG_2013_COLLECTIBLE_TINS_WAVE_2
-	.2byte  ITEM_PACK_TCG_2014_MEGA_TIN_MEGA_PACK
-	.2byte  ITEM_PACK_TCG_2014_MEGA_TINS
-	.2byte  ITEM_PACK_TCG_2015_MEGA_TIN
-	.2byte  ITEM_PACK_TCG_2015_MEGA_TIN_MEGA_PACK
-	.2byte  ITEM_PACK_TCG_2015_MEGA_TINS
-	.2byte  ITEM_PACK_TCG_2016_MEGA_TIN_MEGA_PACK
-	.2byte  ITEM_PACK_TCG_2016_MEGA_TINS
-	.2byte  ITEM_PACK_TCG_2017_MEGA_TIN_MEGA_PACK
-	.2byte  ITEM_PACK_TCG_2017_MEGA_TINS
-	.2byte  ITEM_PACK_TCG_2018_MEGA_TIN_MEGA_PACK
-	.2byte  ITEM_PACK_TCG_2018_MEGA_TINS
-	.2byte  ITEM_PACK_TCG_2019_GOLD_SARCOPHAGUS_TIN
-	.2byte  ITEM_PACK_TCG_2019_GOLD_SARCOPHAGUS_TIN_MEGA_PACK
-	.2byte  ITEM_PACK_TCG_2020_TIN_OF_LOST_MEMORIES
-	.2byte  ITEM_PACK_TCG_2021_TIN_OF_ANCIENT_BATTLES
-	.2byte  ITEM_PACK_TCG_2022_TIN_OF_THE_PHARAOH_S_GODS
-	.2byte  ITEM_PACK_TCG_25TH_ANNIVERSARY_RARITY_COLLECTION
-	.2byte  ITEM_PACK_TCG_25TH_ANNIVERSARY_RARITY_COLLECTION_II
-	.2byte  ITEM_PACK_TCG_25TH_ANNIVERSARY_TIN_DUELING_HEROES
-	.2byte  ITEM_PACK_TCG_25TH_ANNIVERSARY_TIN_DUELING_HEROES_MEGA_PACK
-	.2byte  ITEM_PACK_TCG_25TH_ANNIVERSARY_TIN_DUELING_MIRRORS
-	.2byte  ITEM_PACK_TCG_25TH_ANNIVERSARY_ULTIMATE_KAIBA_SET
 	.2byte  ITEM_PACK_TCG_ABSOLUTE_POWERFORCE
-	.2byte  ITEM_PACK_TCG_ABSOLUTE_POWERFORCE_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_ABSOLUTE_POWERFORCE_SPECIAL_EDITION
 	.2byte  ITEM_PACK_TCG_ABYSS_RISING
-	.2byte  ITEM_PACK_TCG_ABYSS_RISING_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_ABYSS_RISING_SPECIAL_EDITION
-	.2byte  ITEM_PACK_TCG_ADIDAS_COLLABORATION_CARD
-	.2byte  ITEM_PACK_TCG_ADVANCED_DEMO_DECK_EXTRA_PACK
 	.2byte  ITEM_PACK_TCG_AGE_OF_OVERLORD
-	.2byte  ITEM_PACK_TCG_AGE_OF_OVERLORD_PREMIERE_PROMOTIONAL_CARD
 	.2byte  ITEM_PACK_TCG_ALLIANCE_INSIGHT
-	.2byte  ITEM_PACK_TCG_ALLIANCE_INSIGHT_PREMIERE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_AMAZING_DEFENDERS
-	.2byte  ITEM_PACK_TCG_ANCIENT_GUARDIANS
 	.2byte  ITEM_PACK_TCG_ANCIENT_PROPHECY
-	.2byte  ITEM_PACK_TCG_ANCIENT_PROPHECY_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_ANCIENT_PROPHECY_SPECIAL_EDITION
 	.2byte  ITEM_PACK_TCG_ANCIENT_SANCTUARY
-	.2byte  ITEM_PACK_TCG_ANNIVERSARY_PACK
-	.2byte  ITEM_PACK_TCG_ASTRAL_PACK_EIGHT
-	.2byte  ITEM_PACK_TCG_ASTRAL_PACK_FIVE
-	.2byte  ITEM_PACK_TCG_ASTRAL_PACK_FOUR
-	.2byte  ITEM_PACK_TCG_ASTRAL_PACK_ONE
-	.2byte  ITEM_PACK_TCG_ASTRAL_PACK_SEVEN
-	.2byte  ITEM_PACK_TCG_ASTRAL_PACK_SIX
-	.2byte  ITEM_PACK_TCG_ASTRAL_PACK_THREE
-	.2byte  ITEM_PACK_TCG_ASTRAL_PACK_TWO
-	.2byte  ITEM_PACK_TCG_BATTLE_PACK_2_WAR_OF_THE_GIANTS
-	.2byte  ITEM_PACK_TCG_BATTLE_PACK_3_MONSTER_LEAGUE
-	.2byte  ITEM_PACK_TCG_BATTLE_PACK_TOURNAMENT_PRIZE_CARDS
-	.2byte  ITEM_PACK_TCG_BATTLE_PACK_EPIC_DAWN
 	.2byte  ITEM_PACK_TCG_BATTLE_OF_CHAOS
-	.2byte  ITEM_PACK_TCG_BATTLE_OF_CHAOS_PREMIERE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_BATTLES_OF_LEGEND_ARMAGEDDON
-	.2byte  ITEM_PACK_TCG_BATTLES_OF_LEGEND_CHAPTER_1
-	.2byte  ITEM_PACK_TCG_BATTLES_OF_LEGEND_CRYSTAL_REVENGE
-	.2byte  ITEM_PACK_TCG_BATTLES_OF_LEGEND_HERO_S_REVENGE
-	.2byte  ITEM_PACK_TCG_BATTLES_OF_LEGEND_LIGHT_S_REVENGE
-	.2byte  ITEM_PACK_TCG_BATTLES_OF_LEGEND_MONSTER_MAYHEM
-	.2byte  ITEM_PACK_TCG_BATTLES_OF_LEGEND_MONSTROUS_REVENGE
-	.2byte  ITEM_PACK_TCG_BATTLES_OF_LEGEND_RELENTLESS_REVENGE
-	.2byte  ITEM_PACK_TCG_BATTLES_OF_LEGEND_TERMINAL_REVENGE
 	.2byte  ITEM_PACK_TCG_BLAZING_VORTEX
-	.2byte  ITEM_PACK_TCG_BLAZING_VORTEX_PREMIERE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_BLUE_EYES_ALTERNATIVE_WHITE_DRAGON_SWEEPSTAKES
-	.2byte  ITEM_PACK_TCG_BOOSTER_PACK_COLLECTORS_TINS_2002
 	.2byte  ITEM_PACK_TCG_BREAKERS_OF_SHADOW
-	.2byte  ITEM_PACK_TCG_BREAKERS_OF_SHADOW_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_BREAKERS_OF_SHADOW_SPECIAL_EDITION
-	.2byte  ITEM_PACK_TCG_BROTHERS_OF_LEGEND
 	.2byte  ITEM_PACK_TCG_BURST_OF_DESTINY
-	.2byte  ITEM_PACK_TCG_BURST_OF_DESTINY_PREMIERE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_CHAMPION_PACK_GAME_EIGHT
-	.2byte  ITEM_PACK_TCG_CHAMPION_PACK_GAME_FIVE
-	.2byte  ITEM_PACK_TCG_CHAMPION_PACK_GAME_FOUR
-	.2byte  ITEM_PACK_TCG_CHAMPION_PACK_GAME_ONE
-	.2byte  ITEM_PACK_TCG_CHAMPION_PACK_GAME_SEVEN
-	.2byte  ITEM_PACK_TCG_CHAMPION_PACK_GAME_SIX
-	.2byte  ITEM_PACK_TCG_CHAMPION_PACK_GAME_THREE
-	.2byte  ITEM_PACK_TCG_CHAMPION_PACK_GAME_TWO
 	.2byte  ITEM_PACK_TCG_CHAOS_IMPACT
-	.2byte  ITEM_PACK_TCG_CHAOS_IMPACT_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_CHAOS_IMPACT_SPECIAL_EDITION
 	.2byte  ITEM_PACK_TCG_CIRCUIT_BREAK
-	.2byte  ITEM_PACK_TCG_CIRCUIT_BREAK_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_CIRCUIT_BREAK_SPECIAL_EDITION
 	.2byte  ITEM_PACK_TCG_CLASH_OF_REBELLIONS
-	.2byte  ITEM_PACK_TCG_CLASH_OF_REBELLIONS_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_CLASH_OF_REBELLIONS_SPECIAL_EDITION
 	.2byte  ITEM_PACK_TCG_CODE_OF_THE_DUELIST
-	.2byte  ITEM_PACK_TCG_CODE_OF_THE_DUELIST_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_CODE_OF_THE_DUELIST_SPECIAL_EDITION
-	.2byte  ITEM_PACK_TCG_COLLECTIBLE_TINS_2003
-	.2byte  ITEM_PACK_TCG_COLLECTIBLE_TINS_2004
-	.2byte  ITEM_PACK_TCG_COLLECTIBLE_TINS_2005
-	.2byte  ITEM_PACK_TCG_COLLECTIBLE_TINS_2006_WAVE_1
-	.2byte  ITEM_PACK_TCG_COLLECTIBLE_TINS_2006_WAVE_2
-	.2byte  ITEM_PACK_TCG_COLLECTIBLE_TINS_2007_WAVE_1
-	.2byte  ITEM_PACK_TCG_COLLECTIBLE_TINS_2007_WAVE_2
-	.2byte  ITEM_PACK_TCG_COLLECTIBLE_TINS_2008_WAVE_1
-	.2byte  ITEM_PACK_TCG_COLLECTIBLE_TINS_2008_WAVE_2
-	.2byte  ITEM_PACK_TCG_COLLECTIBLE_TINS_2009_WAVE_1
-	.2byte  ITEM_PACK_TCG_COLLECTIBLE_TINS_2009_WAVE_2
-	.2byte  ITEM_PACK_TCG_COLLECTIBLE_TINS_2010_WAVE_1
-	.2byte  ITEM_PACK_TCG_COLLECTIBLE_TINS_2010_WAVE_2
-	.2byte  ITEM_PACK_TCG_COLLECTIBLE_TINS_2011_WAVE_1
-	.2byte  ITEM_PACK_TCG_COLLECTIBLE_TINS_2011_WAVE_2
-	.2byte  ITEM_PACK_TCG_COLLECTIBLE_TINS_2012_WAVE_1
-	.2byte  ITEM_PACK_TCG_COLLECTIBLE_TINS_2012_WAVE_2
-	.2byte  ITEM_PACK_TCG_COLLECTIBLE_TINS_2012_WAVE_2_5
-	.2byte  ITEM_PACK_TCG_COLLECTIBLE_TINS_EXCLUSIVE_2008
-	.2byte  ITEM_PACK_TCG_COLLECTIBLE_TINS_EXCLUSIVE_2009
 	.2byte  ITEM_PACK_TCG_COSMO_BLAZER
-	.2byte  ITEM_PACK_TCG_COSMO_BLAZER_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_COSMO_BLAZER_SPECIAL_EDITION
 	.2byte  ITEM_PACK_TCG_CRIMSON_CRISIS
-	.2byte  ITEM_PACK_TCG_CRIMSON_CRISIS_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_CRIMSON_CRISIS_SPECIAL_EDITION
 	.2byte  ITEM_PACK_TCG_CROSSED_SOULS
-	.2byte  ITEM_PACK_TCG_CROSSED_SOULS_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_CROSSED_SOULS_ADVANCE_EDITION
-	.2byte  ITEM_PACK_TCG_CROSSOVER_BREAKERS
 	.2byte  ITEM_PACK_TCG_CROSSROADS_OF_CHAOS
-	.2byte  ITEM_PACK_TCG_CROSSROADS_OF_CHAOS_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_CROSSROADS_OF_CHAOS_SPECIAL_EDITION
 	.2byte  ITEM_PACK_TCG_CYBER_DRAGON_REVOLUTION_STRUCTURE_DECK
 	.2byte  ITEM_PACK_TCG_CYBERDARK_IMPACT
-	.2byte  ITEM_PACK_TCG_CYBERDARK_IMPACT_SNEAK_PEEK_PARTICIPATION_CARD
 	.2byte  ITEM_PACK_TCG_CYBERNETIC_HORIZON
-	.2byte  ITEM_PACK_TCG_CYBERNETIC_HORIZON_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_CYBERNETIC_HORIZON_SPECIAL_EDITION
 	.2byte  ITEM_PACK_TCG_CYBERNETIC_REVOLUTION
-	.2byte  ITEM_PACK_TCG_CYBERNETIC_REVOLUTION_SNEAK_PEEK_PARTICIPATION_CARD
 	.2byte  ITEM_PACK_TCG_CYBERSTORM_ACCESS
-	.2byte  ITEM_PACK_TCG_CYBERSTORM_ACCESS_PREMIERE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_DARK_BEGINNING_1
-	.2byte  ITEM_PACK_TCG_DARK_BEGINNING_2
 	.2byte  ITEM_PACK_TCG_DARK_CRISIS
-	.2byte  ITEM_PACK_TCG_DARK_CRISIS_25TH_ANNIVERSARY_EDITION_
-	.2byte  ITEM_PACK_TCG_DARK_LEGENDS
 	.2byte  ITEM_PACK_TCG_DARK_LEGION_STARTER_DECK
 	.2byte  ITEM_PACK_TCG_DARK_NEOSTORM
-	.2byte  ITEM_PACK_TCG_DARK_NEOSTORM_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_DARK_NEOSTORM_SPECIAL_EDITION
-	.2byte  ITEM_PACK_TCG_DARK_REVELATION_VOLUME_1
-	.2byte  ITEM_PACK_TCG_DARK_REVELATION_VOLUME_2
-	.2byte  ITEM_PACK_TCG_DARK_REVELATION_VOLUME_3
-	.2byte  ITEM_PACK_TCG_DARK_REVELATION_VOLUME_4
-	.2byte  ITEM_PACK_TCG_DARK_SAVIORS
 	.2byte  ITEM_PACK_TCG_DARKWING_BLAST
-	.2byte  ITEM_PACK_TCG_DARKWING_BLAST_PREMIERE_PROMOTIONAL_CARD
 	.2byte  ITEM_PACK_TCG_DAWN_OF_MAJESTY
-	.2byte  ITEM_PACK_TCG_DAWN_OF_MAJESTY_PREMIERE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_DEMO_DECK_2015
-	.2byte  ITEM_PACK_TCG_DEMO_DECK_2016
-	.2byte  ITEM_PACK_TCG_DEMO_PACK
-	.2byte  ITEM_PACK_TCG_DEMO_SPEED_DUELING_KIT
-	.2byte  ITEM_PACK_TCG_DESTINY_SOLDIERS
 	.2byte  ITEM_PACK_TCG_DIMENSION_FORCE
-	.2byte  ITEM_PACK_TCG_DIMENSION_FORCE_PREMIERE_PROMOTIONAL_CARD
 	.2byte  ITEM_PACK_TCG_DIMENSION_OF_CHAOS
-	.2byte  ITEM_PACK_TCG_DIMENSION_OF_CHAOS_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_DIMENSION_OF_CHAOS_SPECIAL_EDITION
 	.2byte  ITEM_PACK_TCG_DINOSMASHER_S_FURY_STRUCTURE_DECK
 	.2byte  ITEM_PACK_TCG_DRAGONS_COLLIDE_STRUCTURE_DECK
-	.2byte  ITEM_PACK_TCG_DRAGONS_OF_LEGEND
-	.2byte  ITEM_PACK_TCG_DRAGONS_OF_LEGEND_2
-	.2byte  ITEM_PACK_TCG_DRAGONS_OF_LEGEND_THE_COMPLETE_SERIES
-	.2byte  ITEM_PACK_TCG_DRAGONS_OF_LEGEND_UNLEASHED
 	.2byte  ITEM_PACK_TCG_DRAGUNITY_LEGION_STRUCTURE_DECK
-	.2byte  ITEM_PACK_TCG_DUEL_DEVASTATOR
-	.2byte  ITEM_PACK_TCG_DUEL_DISK_YUSEI_VERSION
-	.2byte  ITEM_PACK_TCG_DUEL_MASTER_S_GUIDE_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_DUEL_OVERLOAD
-	.2byte  ITEM_PACK_TCG_DUEL_POWER
-	.2byte  ITEM_PACK_TCG_DUEL_TERMINAL_PREVIEW_WAVE_1
-	.2byte  ITEM_PACK_TCG_DUEL_TERMINAL_PREVIEW_WAVE_2
-	.2byte  ITEM_PACK_TCG_DUEL_TERMINAL_1
-	.2byte  ITEM_PACK_TCG_DUEL_TERMINAL_2
-	.2byte  ITEM_PACK_TCG_DUEL_TERMINAL_3
-	.2byte  ITEM_PACK_TCG_DUEL_TERMINAL_4
-	.2byte  ITEM_PACK_TCG_DUEL_TERMINAL_5A
-	.2byte  ITEM_PACK_TCG_DUEL_TERMINAL_5B
-	.2byte  ITEM_PACK_TCG_DUEL_TERMINAL_6A
-	.2byte  ITEM_PACK_TCG_DUEL_TERMINAL_6B
-	.2byte  ITEM_PACK_TCG_DUEL_TERMINAL_7A
-	.2byte  ITEM_PACK_TCG_DUEL_TERMINAL_7B
-	.2byte  ITEM_PACK_TCG_DUELIN_MONSTERS_GIVEAWAY
 	.2byte  ITEM_PACK_TCG_DUELIST_ALLIANCE
-	.2byte  ITEM_PACK_TCG_DUELIST_ALLIANCE_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_DUELIST_ALLIANCE_DELUXE_EDITION
-	.2byte  ITEM_PACK_TCG_DUELIST_LEAGUE_13_PARTICIPATION_CARDS
-	.2byte  ITEM_PACK_TCG_DUELIST_LEAGUE_14_PARTICIPATION_CARDS
-	.2byte  ITEM_PACK_TCG_DUELIST_LEAGUE_15_PARTICIPATION_CARDS
-	.2byte  ITEM_PACK_TCG_DUELIST_LEAGUE_16_PARTICIPATION_CARDS
-	.2byte  ITEM_PACK_TCG_DUELIST_LEAGUE_17_PARTICIPATION_CARDS
-	.2byte  ITEM_PACK_TCG_DUELIST_LEAGUE_18_PARTICIPATION_CARDS
-	.2byte  ITEM_PACK_TCG_DUELIST_LEAGUE_2_PARTICIPATION_CARDS
-	.2byte  ITEM_PACK_TCG_DUELIST_LEAGUE_2010_PARTICIPATION_CARDS
-	.2byte  ITEM_PACK_TCG_DUELIST_LEAGUE_3_PARTICIPATION_CARDS
-	.2byte  ITEM_PACK_TCG_DUELIST_LEAGUE_DEMO_2010
-	.2byte  ITEM_PACK_TCG_DUELIST_LEAGUE_SERIES_1_PARTICIPATION_CARDS
-	.2byte  ITEM_PACK_TCG_DUELIST_LEAGUE_SERIES_10_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_DUELIST_LEAGUE_SERIES_2_PARTICIPATION_CARDS
-	.2byte  ITEM_PACK_TCG_DUELIST_LEAGUE_SERIES_3_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_DUELIST_LEAGUE_SERIES_4_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_DUELIST_LEAGUE_SERIES_5_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_DUELIST_LEAGUE_SERIES_6_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_DUELIST_LEAGUE_SERIES_7_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_DUELIST_LEAGUE_SERIES_8_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_DUELIST_LEAGUE_SERIES_9_PARTICIPATION_CARD
 	.2byte  ITEM_PACK_TCG_DUELIST_NEXUS
-	.2byte  ITEM_PACK_TCG_DUELIST_NEXUS_PREMIERE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_DUELIST_PACK_COLLECTION_TIN_2008
-	.2byte  ITEM_PACK_TCG_DUELIST_PACK_COLLECTION_TIN_2009
-	.2byte  ITEM_PACK_TCG_DUELIST_PACK_COLLECTION_TIN_2010
-	.2byte  ITEM_PACK_TCG_DUELIST_PACK_COLLECTION_TIN_2011
-	.2byte  ITEM_PACK_TCG_DUELIST_PACK_COLLECTION_TIN_JADEN_YUKI
-	.2byte  ITEM_PACK_TCG_DUELIST_PACK_ASTER_PHOENIX
-	.2byte  ITEM_PACK_TCG_DUELIST_PACK_BATTLE_CITY
-	.2byte  ITEM_PACK_TCG_DUELIST_PACK_CHAZZ_PRINCETON
-	.2byte  ITEM_PACK_TCG_DUELIST_PACK_CROW
-	.2byte  ITEM_PACK_TCG_DUELIST_PACK_DIMENSIONAL_GUARDIANS
-	.2byte  ITEM_PACK_TCG_DUELIST_PACK_JADEN_YUKI
-	.2byte  ITEM_PACK_TCG_DUELIST_PACK_JADEN_YUKI_2
-	.2byte  ITEM_PACK_TCG_DUELIST_PACK_JADEN_YUKI_3
-	.2byte  ITEM_PACK_TCG_DUELIST_PACK_JESSE_ANDERSON
-	.2byte  ITEM_PACK_TCG_DUELIST_PACK_KAIBA
-	.2byte  ITEM_PACK_TCG_DUELIST_PACK_RIVALS_OF_THE_PHARAOH
-	.2byte  ITEM_PACK_TCG_DUELIST_PACK_SPECIAL_EDITION
-	.2byte  ITEM_PACK_TCG_DUELIST_PACK_YUGI
-	.2byte  ITEM_PACK_TCG_DUELIST_PACK_YUSEI
-	.2byte  ITEM_PACK_TCG_DUELIST_PACK_YUSEI_2
-	.2byte  ITEM_PACK_TCG_DUELIST_PACK_YUSEI_3
-	.2byte  ITEM_PACK_TCG_DUELIST_PACK_ZANE_TRUESDALE
 	.2byte  ITEM_PACK_TCG_DUELIST_REVOLUTION
-	.2byte  ITEM_PACK_TCG_DUELIST_REVOLUTION_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_DUELIST_REVOLUTION_SPECIAL_EDITION
-	.2byte  ITEM_PACK_TCG_DUELIST_SAGA
 	.2byte  ITEM_PACK_TCG_DUELIST_S_ADVANCE
-	.2byte  ITEM_PACK_TCG_DUELIST_S_ADVANCE_PREMIERE_PROMOTIONAL_CARD
 	.2byte  ITEM_PACK_TCG_EGYPTIAN_GOD_DECK_OBELISK_THE_TORMENTOR
 	.2byte  ITEM_PACK_TCG_EGYPTIAN_GOD_DECK_SLIFER_THE_SKY_DRAGON
 	.2byte  ITEM_PACK_TCG_ELEMENTAL_ENERGY
-	.2byte  ITEM_PACK_TCG_ELEMENTAL_ENERGY_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_ELEMENTAL_ENERGY_SPECIAL_EDITION
 	.2byte  ITEM_PACK_TCG_EMPEROR_OF_DARKNESS_STRUCTURE_DECK
 	.2byte  ITEM_PACK_TCG_ENEMY_OF_JUSTICE
-	.2byte  ITEM_PACK_TCG_ENEMY_OF_JUSTICE_SNEAK_PEEK_PARTICIPATION_CARD
 	.2byte  ITEM_PACK_TCG_ETERNITY_CODE
-	.2byte  ITEM_PACK_TCG_ETERNITY_CODE_PREMIERE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_EVENT_PACK_SPEED_DUEL
-	.2byte  ITEM_PACK_TCG_EXCLUSIVE_PACK
 	.2byte  ITEM_PACK_TCG_EXTREME_FORCE
-	.2byte  ITEM_PACK_TCG_EXTREME_FORCE_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_EXTREME_FORCE_SPECIAL_EDITION
 	.2byte  ITEM_PACK_TCG_EXTREME_VICTORY
-	.2byte  ITEM_PACK_TCG_EXTREME_VICTORY_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_FIRE_FISTS_SPECIAL_EDITION
-	.2byte  ITEM_PACK_TCG_FISTS_OF_THE_GADGETS
 	.2byte  ITEM_PACK_TCG_FLAMES_OF_DESTRUCTION
-	.2byte  ITEM_PACK_TCG_FLAMES_OF_DESTRUCTION_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_FLAMES_OF_DESTRUCTION_SPECIAL_EDITION
 	.2byte  ITEM_PACK_TCG_FLAMING_ETERNITY
-	.2byte  ITEM_PACK_TCG_FLAMING_ETERNITY_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_FORBIDDEN_LEGACY
 	.2byte  ITEM_PACK_TCG_FORCE_OF_THE_BREAKER
-	.2byte  ITEM_PACK_TCG_FORCE_OF_THE_BREAKER_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_FORCE_OF_THE_BREAKER_SPECIAL_EDITION
-	.2byte  ITEM_PACK_TCG_FUSION_ENFORCERS
-	.2byte  ITEM_PACK_TCG_GX_NEXT_GENERATION
 	.2byte  ITEM_PACK_TCG_GALACTIC_OVERLORD
-	.2byte  ITEM_PACK_TCG_GALACTIC_OVERLORD_SNEAK_PEEK_PARTICIPATION_CARD
 	.2byte  ITEM_PACK_TCG_GATES_OF_THE_UNDERWORLD_STRUCTURE_DECK
 	.2byte  ITEM_PACK_TCG_GEARGIA_RAMPAGE_STRUCTURE_DECK
 	.2byte  ITEM_PACK_TCG_GENERATION_FORCE
-	.2byte  ITEM_PACK_TCG_GENERATION_FORCE_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_GENERATION_FORCE_SPECIAL_EDITION
-	.2byte  ITEM_PACK_TCG_GENESIS_IMPACT
-	.2byte  ITEM_PACK_TCG_GHOSTS_FROM_THE_PAST_SET_
-	.2byte  ITEM_PACK_TCG_GHOSTS_FROM_THE_PAST_THE_2ND_HAUNTING
 	.2byte  ITEM_PACK_TCG_GLADIATOR_S_ASSAULT
-	.2byte  ITEM_PACK_TCG_GLADIATOR_S_ASSAULT_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_GLADIATOR_S_ASSAULT_SPECIAL_EDITION
-	.2byte  ITEM_PACK_TCG_GOLD_SERIES
-	.2byte  ITEM_PACK_TCG_GOLD_SERIES_2009
-	.2byte  ITEM_PACK_TCG_GOLD_SERIES_3
-	.2byte  ITEM_PACK_TCG_GOLD_SERIES_4_PYRAMIDS_EDITION
-	.2byte  ITEM_PACK_TCG_GOLD_SERIES_HAUNTED_MINE
 	.2byte  ITEM_PACK_TCG_HERO_STRIKE_STRUCTURE_DECK
-	.2byte  ITEM_PACK_TCG_HIDDEN_ARSENAL
-	.2byte  ITEM_PACK_TCG_HIDDEN_ARSENAL_2
-	.2byte  ITEM_PACK_TCG_HIDDEN_ARSENAL_3
-	.2byte  ITEM_PACK_TCG_HIDDEN_ARSENAL_4_TRISHULA_S_TRIUMPH
-	.2byte  ITEM_PACK_TCG_HIDDEN_ARSENAL_5_STEELSWARM_INVASION
-	.2byte  ITEM_PACK_TCG_HIDDEN_ARSENAL_5_STEELSWARM_INVASION_SPECIAL_EDITION
-	.2byte  ITEM_PACK_TCG_HIDDEN_ARSENAL_6_OMEGA_XYZ
-	.2byte  ITEM_PACK_TCG_HIDDEN_ARSENAL_7_KNIGHT_OF_STARS
-	.2byte  ITEM_PACK_TCG_HIDDEN_ARSENAL_CHAPTER_1
-	.2byte  ITEM_PACK_TCG_HIDDEN_ARSENAL_SPECIAL_EDITION
-	.2byte  ITEM_PACK_TCG_HIDDEN_SUMMONERS
-	.2byte  ITEM_PACK_TCG_HIGH_SPEED_RIDERS
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_1_PARTICIPATION_CARDS_A
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_1_PARTICIPATION_CARDS_B
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_1_PARTICIPATION_CARDS_C
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_2_PARTICIPATION_CARD_A
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_2_PARTICIPATION_CARD_B
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_2_PARTICIPATION_CARD_C
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_2_PARTICIPATION_CARD_D
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_2_PARTICIPATION_CARD_E
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_2_PARTICIPATION_CARD_F
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_3_PARTICIPATION_CARD_A
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_3_PARTICIPATION_CARD_B
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_3_PARTICIPATION_CARD_C
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_3_PARTICIPATION_CARD_D
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_3_PARTICIPATION_CARD_E
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_3_PARTICIPATION_CARD_F
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_3_PARTICIPATION_CARD_G
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_4_PARTICIPATION_CARD_A
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_4_PARTICIPATION_CARD_B
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_4_PARTICIPATION_CARD_C
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_4_PARTICIPATION_CARD_D
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_4_PARTICIPATION_CARD_E
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_4_PARTICIPATION_CARD_F
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_5_PARTICIPATION_CARD_A
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_5_PARTICIPATION_CARD_B
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_5_PARTICIPATION_CARD_C
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_5_PARTICIPATION_CARD_D
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_5_PARTICIPATION_CARD_E
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_5_PARTICIPATION_CARD_F
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_6_PARTICIPATION_CARD_A
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_6_PARTICIPATION_CARD_B
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_6_PARTICIPATION_CARD_C
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_6_PARTICIPATION_CARD_D
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_6_PARTICIPATION_CARD_E
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_6_PARTICIPATION_CARD_F
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_7_PARTICIPATION_CARD_A
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_7_PARTICIPATION_CARD_B
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_7_PARTICIPATION_CARD_C
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_7_PARTICIPATION_CARD_D
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_7_PARTICIPATION_CARD_E
-	.2byte  ITEM_PACK_TCG_HOBBY_LEAGUE_7_PARTICIPATION_CARD_F
 	.2byte  ITEM_PACK_TCG_IGNITION_ASSAULT
-	.2byte  ITEM_PACK_TCG_IGNITION_ASSAULT_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_IGNITION_ASSAULT_SPECIAL_EDITION
 	.2byte  ITEM_PACK_TCG_INVASION_OF_CHAOS
-	.2byte  ITEM_PACK_TCG_INVASION_OF_CHAOS_25TH_ANNIVERSARY_EDITION_
-	.2byte  ITEM_PACK_TCG_INVASION_OF_CHAOS_SPECIAL_EDITION
 	.2byte  ITEM_PACK_TCG_INVASION_VENGEANCE
-	.2byte  ITEM_PACK_TCG_INVASION_VENGEANCE_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_INVASION_VENGEANCE_SPECIAL_EDITION
 	.2byte  ITEM_PACK_TCG_JUDGMENT_OF_THE_LIGHT
-	.2byte  ITEM_PACK_TCG_JUDGMENT_OF_THE_LIGHT_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_JUDGMENT_OF_THE_LIGHT_DELUXE_EDITION
-	.2byte  ITEM_PACK_TCG_JUMP_PACK_2014_ISSUE_1_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_JUMP_PACK_2014_ISSUE_2_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_JUMP_PACK_2014_ISSUE_3_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_KC_GRAND_TOURNAMENT_2021_PRIZE_CARD
-	.2byte  ITEM_PACK_TCG_KC_GRAND_TOURNAMENT_2022_PRIZE_CARD
-	.2byte  ITEM_PACK_TCG_KC_GRAND_TOURNAMENT_PRIZE_CARD
-	.2byte  ITEM_PACK_TCG_KAIBA_S_COLLECTOR_BOX
-	.2byte  ITEM_PACK_TCG_KIDS_WB_DUEL_OF_DESTINY_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_KING_S_COURT
 	.2byte  ITEM_PACK_TCG_LABYRINTH_OF_NIGHTMARE
 	.2byte  ITEM_PACK_TCG_LEGACY_OF_DARKNESS
 	.2byte  ITEM_PACK_TCG_LEGACY_OF_DESTRUCTION
-	.2byte  ITEM_PACK_TCG_LEGACY_OF_DESTRUCTION_PREMIERE_PROMOTIONAL_CARD
 	.2byte  ITEM_PACK_TCG_LEGACY_OF_THE_VALIANT
-	.2byte  ITEM_PACK_TCG_LEGACY_OF_THE_VALIANT_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_LEGACY_OF_THE_VALIANT_DELUXE_EDITION
 	.2byte  ITEM_PACK_TCG_LEGEND_OF_BLUE_EYES_WHITE_DRAGON
-	.2byte  ITEM_PACK_TCG_LEGEND_OF_BLUE_EYES_WHITE_DRAGON_25TH_ANNIVERSARY_EDITION_
-	.2byte  ITEM_PACK_TCG_LEGENDARY_COLLECTION
-	.2byte  ITEM_PACK_TCG_LEGENDARY_COLLECTION_2_THE_DUEL_ACADEMY_YEARS
-	.2byte  ITEM_PACK_TCG_LEGENDARY_COLLECTION_2_THE_DUEL_ACADEMY_YEARS_MEGA_PACK
-	.2byte  ITEM_PACK_TCG_LEGENDARY_COLLECTION_3_YUGI_S_WORLD
-	.2byte  ITEM_PACK_TCG_LEGENDARY_COLLECTION_3_YUGI_S_WORLD_MEGA_PACK
-	.2byte  ITEM_PACK_TCG_LEGENDARY_COLLECTION_4_JOEY_S_WORLD
-	.2byte  ITEM_PACK_TCG_LEGENDARY_COLLECTION_4_JOEY_S_WORLD_MEGA_PACK
-	.2byte  ITEM_PACK_TCG_LEGENDARY_COLLECTION_5D_S
-	.2byte  ITEM_PACK_TCG_LEGENDARY_COLLECTION_5D_S_MEGA_PACK
-	.2byte  ITEM_PACK_TCG_LEGENDARY_COLLECTION_KAIBA
-	.2byte  ITEM_PACK_TCG_LEGENDARY_COLLECTION_KAIBA_MEGA_PACK
-	.2byte  ITEM_PACK_TCG_LEGENDARY_COLLECTION_25TH_ANNIVERSARY_EDITION
-	.2byte  ITEM_PACK_TCG_LEGENDARY_COLLECTION_GAMEBOARD_EDITION
-	.2byte  ITEM_PACK_TCG_LEGENDARY_DECKS_II
-	.2byte  ITEM_PACK_TCG_LEGENDARY_DRAGON_DECKS
-	.2byte  ITEM_PACK_TCG_LEGENDARY_DUELISTS
-	.2byte  ITEM_PACK_TCG_LEGENDARY_DUELISTS_ANCIENT_MILLENNIUM
-	.2byte  ITEM_PACK_TCG_LEGENDARY_DUELISTS_DUELS_FROM_THE_DEEP
-	.2byte  ITEM_PACK_TCG_LEGENDARY_DUELISTS_IMMORTAL_DESTINY
-	.2byte  ITEM_PACK_TCG_LEGENDARY_DUELISTS_MAGICAL_HERO
-	.2byte  ITEM_PACK_TCG_LEGENDARY_DUELISTS_RAGE_OF_RA
-	.2byte  ITEM_PACK_TCG_LEGENDARY_DUELISTS_SEASON_1
-	.2byte  ITEM_PACK_TCG_LEGENDARY_DUELISTS_SEASON_2
-	.2byte  ITEM_PACK_TCG_LEGENDARY_DUELISTS_SEASON_3
-	.2byte  ITEM_PACK_TCG_LEGENDARY_DUELISTS_SISTERS_OF_THE_ROSE
-	.2byte  ITEM_PACK_TCG_LEGENDARY_DUELISTS_SOULBURNING_VOLCANO
-	.2byte  ITEM_PACK_TCG_LEGENDARY_DUELISTS_SYNCHRO_STORM
-	.2byte  ITEM_PACK_TCG_LEGENDARY_DUELISTS_WHITE_DRAGON_ABYSS
-	.2byte  ITEM_PACK_TCG_LEGENDARY_HERO_DECKS
-	.2byte  ITEM_PACK_TCG_LIGHT_AND_DARKNESS_POWER_PACK
 	.2byte  ITEM_PACK_TCG_LIGHT_OF_DESTRUCTION
-	.2byte  ITEM_PACK_TCG_LIGHT_OF_DESTRUCTION_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_LIGHT_OF_DESTRUCTION_SPECIAL_EDITION
 	.2byte  ITEM_PACK_TCG_LIGHTNING_OVERDRIVE
-	.2byte  ITEM_PACK_TCG_LIGHTNING_OVERDRIVE_PREMIERE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_LIMITED_EDITION_1
 	.2byte  ITEM_PACK_TCG_LORD_OF_THE_TACHYON_GALAXY
-	.2byte  ITEM_PACK_TCG_LORD_OF_THE_TACHYON_GALAXY_SNEAK_PEEK_PARTICIPATION_CARD
 	.2byte  ITEM_PACK_TCG_LOST_SANCTUARY_STRUCTURE_DECK
 	.2byte  ITEM_PACK_TCG_MACHINA_MAYHEM_STRUCTURE_DECK
 	.2byte  ITEM_PACK_TCG_MACHINE_REACTOR_STRUCTURE_DECK
-	.2byte  ITEM_PACK_TCG_MAGIC_RULER
 	.2byte  ITEM_PACK_TCG_MAGICIAN_S_FORCE
-	.2byte  ITEM_PACK_TCG_MAGNIFICENT_MAVENS
-	.2byte  ITEM_PACK_TCG_MASTER_COLLECTION_VOLUME_1
-	.2byte  ITEM_PACK_TCG_MASTER_COLLECTION_VOLUME_2
 	.2byte  ITEM_PACK_TCG_MASTER_OF_PENDULUM_STRUCTURE_DECK
-	.2byte  ITEM_PACK_TCG_MASTERPIECE_SERIES_PLATINUM_BLUE_EYES_WHITE_DRAGON
-	.2byte  ITEM_PACK_TCG_MATTEL_ACTION_FIGURE_PROMOTIONAL_CARDS_SERIES_1
-	.2byte  ITEM_PACK_TCG_MATTEL_ACTION_FIGURE_PROMOTIONAL_CARDS_SERIES_2
-	.2byte  ITEM_PACK_TCG_MATTEL_ACTION_FIGURE_PROMOTIONAL_CARDS_SERIES_3
 	.2byte  ITEM_PACK_TCG_MAXIMUM_CRISIS
-	.2byte  ITEM_PACK_TCG_MAXIMUM_CRISIS_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_MAXIMUM_CRISIS_SPECIAL_EDITION
-	.2byte  ITEM_PACK_TCG_MAXIMUM_GOLD
-	.2byte  ITEM_PACK_TCG_MAXIMUM_GOLD_EL_DORADO
-	.2byte  ITEM_PACK_TCG_MAZE_OF_MEMORIES
-	.2byte  ITEM_PACK_TCG_MAZE_OF_MILLENNIA
-	.2byte  ITEM_PACK_TCG_MAZE_OF_THE_MASTER
-	.2byte  ITEM_PACK_TCG_MCDONALD_S_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_MCDONALD_S_PROMOTIONAL_CARDS_2
 	.2byte  ITEM_PACK_TCG_METAL_RAIDERS
-	.2byte  ITEM_PACK_TCG_METAL_RAIDERS_25TH_ANNIVERSARY_EDITION_
-	.2byte  ITEM_PACK_TCG_MILLENNIUM_PACK
-	.2byte  ITEM_PACK_TCG_MOVIE_PACK
-	.2byte  ITEM_PACK_TCG_MYSTIC_FIGHTERS
-	.2byte  ITEM_PACK_TCG_NOBLE_KNIGHTS_OF_THE_ROUND_TABLE_BOX_SET
-	.2byte  ITEM_PACK_TCG_NOBLE_KNIGHTS_OF_THE_ROUND_TABLE_POWER_UP_PACK
-	.2byte  ITEM_PACK_TCG_NUMBER_HUNTERS
-	.2byte  ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_1
-	.2byte  ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_10
-	.2byte  ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_11
-	.2byte  ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_12
-	.2byte  ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_13
-	.2byte  ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_14
-	.2byte  ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_15
-	.2byte  ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_16
-	.2byte  ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_17
-	.2byte  ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_18
-	.2byte  ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_19
-	.2byte  ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_2
-	.2byte  ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_20
-	.2byte  ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_21
-	.2byte  ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_22
-	.2byte  ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_23
-	.2byte  ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_24
-	.2byte  ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_25
-	.2byte  ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_26
-	.2byte  ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_27
-	.2byte  ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_28
-	.2byte  ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_3
-	.2byte  ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_4
-	.2byte  ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_5
-	.2byte  ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_6
-	.2byte  ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_7
-	.2byte  ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_8
-	.2byte  ITEM_PACK_TCG_OTS_TOURNAMENT_PACK_9
 	.2byte  ITEM_PACK_TCG_ONSLAUGHT_OF_THE_FIRE_KINGS_STRUCTURE_DECK
 	.2byte  ITEM_PACK_TCG_ORDER_OF_CHAOS
-	.2byte  ITEM_PACK_TCG_ORDER_OF_CHAOS_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_ORDER_OF_CHAOS_SPECIAL_EDITION
-	.2byte  ITEM_PACK_TCG_PALLADIUM_ORACLE_MAHAD_SWEEPSTAKES
 	.2byte  ITEM_PACK_TCG_PENDULUM_DOMINATION_STRUCTURE_DECK
-	.2byte  ITEM_PACK_TCG_PENDULUM_EVOLUTION
 	.2byte  ITEM_PACK_TCG_PHANTOM_DARKNESS
-	.2byte  ITEM_PACK_TCG_PHANTOM_DARKNESS_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_PHANTOM_DARKNESS_SPECIAL_EDITION
 	.2byte  ITEM_PACK_TCG_PHANTOM_NIGHTMARE
-	.2byte  ITEM_PACK_TCG_PHANTOM_NIGHTMARE_PREMIERE_PROMOTIONAL_CARD
 	.2byte  ITEM_PACK_TCG_PHANTOM_RAGE
-	.2byte  ITEM_PACK_TCG_PHANTOM_RAGE_PREMIERE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_PHARAOH_TOUR_2005_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_PHARAOH_TOUR_2006_FINAL_PRIZE_CARD
-	.2byte  ITEM_PACK_TCG_PHARAOH_TOUR_2006_STOP_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_PHARAOH_TOUR_2007_PROMOTIONAL_CARDS
 	.2byte  ITEM_PACK_TCG_PHARAOH_S_SERVANT
-	.2byte  ITEM_PACK_TCG_PHARAOH_S_SERVANT_25TH_ANNIVERSARY_EDITION_
 	.2byte  ITEM_PACK_TCG_PHARAONIC_GUARDIAN
 	.2byte  ITEM_PACK_TCG_PHOTON_HYPERNOVA
-	.2byte  ITEM_PACK_TCG_PHOTON_HYPERNOVA_PREMIERE_PROMOTIONAL_CARD
 	.2byte  ITEM_PACK_TCG_PHOTON_SHOCKWAVE
-	.2byte  ITEM_PACK_TCG_PHOTON_SHOCKWAVE_SNEAK_PEEK_PARTICIPATION_CARD
 	.2byte  ITEM_PACK_TCG_POWER_OF_THE_DUELIST
-	.2byte  ITEM_PACK_TCG_POWER_OF_THE_DUELIST_SNEAK_PEEK_PARTICIPATION_CARD
 	.2byte  ITEM_PACK_TCG_POWER_OF_THE_ELEMENTS
-	.2byte  ITEM_PACK_TCG_POWER_OF_THE_ELEMENTS_PREMIERE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_PREMIUM_COLLECTION_TIN
-	.2byte  ITEM_PACK_TCG_PREMIUM_GOLD
-	.2byte  ITEM_PACK_TCG_PREMIUM_GOLD_INFINITE_GOLD
-	.2byte  ITEM_PACK_TCG_PREMIUM_GOLD_RETURN_OF_THE_BLING
-	.2byte  ITEM_PACK_TCG_PREMIUM_PACK_TCG_
-	.2byte  ITEM_PACK_TCG_PREMIUM_PACK_2_TCG_
 	.2byte  ITEM_PACK_TCG_PRIMAL_ORIGIN
-	.2byte  ITEM_PACK_TCG_PRIMAL_ORIGIN_PLUS
-	.2byte  ITEM_PACK_TCG_PRIMAL_ORIGIN_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_PRIMAL_ORIGIN_DELUXE_EDITION
-	.2byte  ITEM_PACK_TCG_QUARTER_CENTURY_BONANZA
-	.2byte  ITEM_PACK_TCG_QUARTER_CENTURY_STAMPEDE
-	.2byte  ITEM_PACK_TCG_RA_YELLOW_MEGA_PACK
-	.2byte  ITEM_PACK_TCG_RA_YELLOW_MEGA_PACK_SPECIAL_EDITION
 	.2byte  ITEM_PACK_TCG_RAGE_OF_THE_ABYSS
-	.2byte  ITEM_PACK_TCG_RAGE_OF_THE_ABYSS_PREMIERE_PROMOTIONAL_CARD
 	.2byte  ITEM_PACK_TCG_RAGING_BATTLE
-	.2byte  ITEM_PACK_TCG_RAGING_BATTLE_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_RAGING_BATTLE_SPECIAL_EDITION
 	.2byte  ITEM_PACK_TCG_RAGING_TEMPEST
-	.2byte  ITEM_PACK_TCG_RAGING_TEMPEST_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_RAGING_TEMPEST_SPECIAL_EDITION
-	.2byte  ITEM_PACK_TCG_RAGING_TEMPEST_SPECIAL_EDITION
 	.2byte  ITEM_PACK_TCG_REALM_OF_LIGHT_STRUCTURE_DECK
 	.2byte  ITEM_PACK_TCG_REALM_OF_THE_SEA_EMPEROR_STRUCTURE_DECK
-	.2byte  ITEM_PACK_TCG_REMOTE_DUEL_AT_HOME_SWEEPSTAKES
-	.2byte  ITEM_PACK_TCG_RETRO_PACK
-	.2byte  ITEM_PACK_TCG_RETRO_PACK_2
 	.2byte  ITEM_PACK_TCG_RETURN_OF_THE_DUELIST
-	.2byte  ITEM_PACK_TCG_RETURN_OF_THE_DUELIST_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_RETURN_OF_THE_DUELIST_SPECIAL_EDITION
 	.2byte  ITEM_PACK_TCG_RISE_OF_DESTINY
-	.2byte  ITEM_PACK_TCG_RISE_OF_DESTINY_SPECIAL_EDITION
 	.2byte  ITEM_PACK_TCG_RISE_OF_THE_DRAGON_LORDS_STRUCTURE_DECK
 	.2byte  ITEM_PACK_TCG_RISE_OF_THE_DUELIST
-	.2byte  ITEM_PACK_TCG_RISE_OF_THE_DUELIST_PREMIERE_PROMOTIONAL_CARD
 	.2byte  ITEM_PACK_TCG_RISE_OF_THE_TRUE_DRAGONS_STRUCTURE_DECK
 	.2byte  ITEM_PACK_TCG_RISING_RAMPAGE
-	.2byte  ITEM_PACK_TCG_RISING_RAMPAGE_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_RISING_RAMPAGE_SPECIAL_EDITION
 	.2byte  ITEM_PACK_TCG_SABER_FORCE_STARTER_DECK
 	.2byte  ITEM_PACK_TCG_SAGA_OF_BLUE_EYES_WHITE_DRAGON_STRUCTURE_DECK
-	.2byte  ITEM_PACK_TCG_SAMURAI_ASSAULT
 	.2byte  ITEM_PACK_TCG_SAMURAI_WARLORDS_STRUCTURE_DECK
 	.2byte  ITEM_PACK_TCG_SAVAGE_STRIKE
-	.2byte  ITEM_PACK_TCG_SAVAGE_STRIKE_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_SAVAGE_STRIKE_SPECIAL_EDITION
-	.2byte  ITEM_PACK_TCG_SECRET_SLAYERS
 	.2byte  ITEM_PACK_TCG_SECRETS_OF_ETERNITY
-	.2byte  ITEM_PACK_TCG_SECRETS_OF_ETERNITY_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_SECRETS_OF_ETERNITY_SUPER_EDITION
 	.2byte  ITEM_PACK_TCG_SHADOW_SPECTERS
-	.2byte  ITEM_PACK_TCG_SHADOW_SPECTERS_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_SHADOW_SPECTERS_SPECIAL_EDITION
 	.2byte  ITEM_PACK_TCG_SHADOW_OF_INFINITY
-	.2byte  ITEM_PACK_TCG_SHADOW_OF_INFINITY_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_SHADOW_OF_INFINITY_SPECIAL_EDITION
-	.2byte  ITEM_PACK_TCG_SHADOWS_IN_VALHALLA
 	.2byte  ITEM_PACK_TCG_SHINING_VICTORIES
-	.2byte  ITEM_PACK_TCG_SHINING_VICTORIES_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_SHINING_VICTORIES_SPECIAL_EDITION
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_2007_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_AUGUST_2008_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_CHAMPIONSHIP_2004_PRIZE_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_CHAMPIONSHIP_2005_PRIZE_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_CHAMPIONSHIP_2006_PRIZE_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_CHAMPIONSHIP_2007_PRIZE_CARD_A
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_CHAMPIONSHIP_2007_PRIZE_CARD_B
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_CHAMPIONSHIP_2008_PRIZE_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_CHAMPIONSHIP_2009_PRIZE_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_DECEMBER_2010_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_DECEMBER_2011_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_FEBRUARY_2009_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_FIFTH_ANNIVERSARY_COLLECTOR_S_ISSUE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_JUNE_JULY_2011_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_MARCH_2010_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_MAY_2006_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_MAY_2008_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_MAY_2010_SUBSCRIPTION_BONUS
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_SCHOLASTIC_EDITION_VOL_9_ISSUE_1_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_1_ISSUE_1_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_10_ISSUE_1_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_10_ISSUE_3_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_10_ISSUE_4_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_2_ISSUE_1_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_3_ISSUE_1_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_3_ISSUE_11_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_3_ISSUE_6_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_3_ISSUE_9_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_4_ISSUE_1_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_4_ISSUE_10_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_4_ISSUE_11_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_4_ISSUE_12_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_4_ISSUE_2_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_4_ISSUE_5_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_5_ISSUE_1_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_5_ISSUE_11_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_5_ISSUE_4_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_5_ISSUE_6_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_5_ISSUE_9_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_6_ISSUE_1_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_6_ISSUE_12_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_6_ISSUE_3_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_6_ISSUE_5_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_6_ISSUE_9_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_7_ISSUE_1_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_7_ISSUE_11_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_7_ISSUE_3_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_7_ISSUE_6_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_7_ISSUE_9_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_8_ISSUE_1_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_8_ISSUE_11_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_8_ISSUE_3_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_8_ISSUE_5_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_8_ISSUE_7_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_8_ISSUE_9_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_9_ISSUE_1_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_9_ISSUE_10_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_9_ISSUE_3_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_9_ISSUE_4_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_9_ISSUE_6_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SHONEN_JUMP_VOL_9_ISSUE_8_PROMOTIONAL_CARD
 	.2byte  ITEM_PACK_TCG_SOUL_FUSION
-	.2byte  ITEM_PACK_TCG_SOUL_FUSION_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_SOUL_FUSION_SPECIAL_EDITION
 	.2byte  ITEM_PACK_TCG_SOUL_OF_THE_DUELIST
-	.2byte  ITEM_PACK_TCG_SPACE_TIME_SHOWDOWN_POWER_UP_PACK
-	.2byte  ITEM_PACK_TCG_SPEED_DUEL_DEMO_DECK
-	.2byte  ITEM_PACK_TCG_SPEED_DUEL_DEMO_DECK_2020
-	.2byte  ITEM_PACK_TCG_SPEED_DUEL_GX_DUEL_ACADEMY_BOX
-	.2byte  ITEM_PACK_TCG_SPEED_DUEL_GX_DUELISTS_OF_SHADOWS
-	.2byte  ITEM_PACK_TCG_SPEED_DUEL_GX_MIDTERM_DESTRUCTION
-	.2byte  ITEM_PACK_TCG_SPEED_DUEL_GX_MIDTERM_PARADOX
-	.2byte  ITEM_PACK_TCG_SPEED_DUEL_REMOTE_DUEL_EXTRAVAGANZA_MAIN_EVENT_PRIZE_CARDS
-	.2byte  ITEM_PACK_TCG_SPEED_DUEL_STARTER_DECKS_DESTINY_MASTERS
-	.2byte  ITEM_PACK_TCG_SPEED_DUEL_STARTER_DECKS_DUELISTS_OF_TOMORROW
-	.2byte  ITEM_PACK_TCG_SPEED_DUEL_STARTER_DECKS_MATCH_OF_THE_MILLENNIUM
-	.2byte  ITEM_PACK_TCG_SPEED_DUEL_STARTER_DECKS_TWISTED_NIGHTMARES
-	.2byte  ITEM_PACK_TCG_SPEED_DUEL_STARTER_DECKS_ULTIMATE_PREDATORS
-	.2byte  ITEM_PACK_TCG_SPEED_DUEL_TOURNAMENT_PACK_1
-	.2byte  ITEM_PACK_TCG_SPEED_DUEL_TOURNAMENT_PACK_2
-	.2byte  ITEM_PACK_TCG_SPEED_DUEL_TOURNAMENT_PACK_3
-	.2byte  ITEM_PACK_TCG_SPEED_DUEL_TOURNAMENT_PACK_4
-	.2byte  ITEM_PACK_TCG_SPEED_DUEL_TOURNAMENT_PACK_5
-	.2byte  ITEM_PACK_TCG_SPEED_DUEL_TOURNAMENT_PACK_6
-	.2byte  ITEM_PACK_TCG_SPEED_DUEL_TOURNAMENT_PACK_7
-	.2byte  ITEM_PACK_TCG_SPEED_DUEL_ARENA_OF_LOST_SOULS
-	.2byte  ITEM_PACK_TCG_SPEED_DUEL_ATTACK_FROM_THE_DEEP
-	.2byte  ITEM_PACK_TCG_SPEED_DUEL_BATTLE_CITY_BOX
-	.2byte  ITEM_PACK_TCG_SPEED_DUEL_BATTLE_CITY_FINALS
-	.2byte  ITEM_PACK_TCG_SPEED_DUEL_SCARS_OF_BATTLE
-	.2byte  ITEM_PACK_TCG_SPEED_DUEL_STREETS_OF_BATTLE_CITY
-	.2byte  ITEM_PACK_TCG_SPEED_DUEL_TRIALS_OF_THE_KINGDOM
-	.2byte  ITEM_PACK_TCG_SPEED_DUEL_TRIALS_OF_THE_KINGDOM_SNEAK_PEEK_PARTICIPATION_CARDS
 	.2byte  ITEM_PACK_TCG_SPELL_RULER
-	.2byte  ITEM_PACK_TCG_SPELL_RULER_25TH_ANNIVERSARY_EDITION_
 	.2byte  ITEM_PACK_TCG_SPELLCASTER_S_COMMAND_STRUCTURE_DECK
-	.2byte  ITEM_PACK_TCG_SPELLCASTER_S_COMMAND_STRUCTURE_DECK_SPECIAL_EDITION
-	.2byte  ITEM_PACK_TCG_SPIRIT_WARRIORS
-	.2byte  ITEM_PACK_TCG_STAINLESS_STEEL_CARD_DARK_MAGICIAN_GIRL
-	.2byte  ITEM_PACK_TCG_STAINLESS_STEEL_EGYPTIAN_GOD_CARDS_SWEEPSTAKES
-	.2byte  ITEM_PACK_TCG_STAR_PACK_2013
-	.2byte  ITEM_PACK_TCG_STAR_PACK_2014
-	.2byte  ITEM_PACK_TCG_STAR_PACK_ARC_V
-	.2byte  ITEM_PACK_TCG_STAR_PACK_BATTLE_ROYAL
-	.2byte  ITEM_PACK_TCG_STAR_PACK_VRAINS
 	.2byte  ITEM_PACK_TCG_STARDUST_OVERDRIVE
-	.2byte  ITEM_PACK_TCG_STARDUST_OVERDRIVE_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_STARDUST_OVERDRIVE_SPECIAL_EDITION
 	.2byte  ITEM_PACK_TCG_STARSTRIKE_BLAST
-	.2byte  ITEM_PACK_TCG_STARSTRIKE_BLAST_SNEAK_PEEK_PARTICIPATION_CARD
 	.2byte  ITEM_PACK_TCG_STARTER_DECK_2006
-	.2byte  ITEM_PACK_TCG_STARTER_DECK_2006_SPECIAL_EDITION
 	.2byte  ITEM_PACK_TCG_STARTER_DECK_CODEBREAKER
 	.2byte  ITEM_PACK_TCG_STARTER_DECK_DAWN_OF_THE_XYZ
 	.2byte  ITEM_PACK_TCG_STARTER_DECK_DUELIST_TOOLBOX
@@ -20168,11 +15616,7 @@ InsideOfTruck_PokemartVegasBanlist:
 	.2byte  ITEM_PACK_TCG_STARTER_DECK_YUGI_RELOADED
 	.2byte  ITEM_PACK_TCG_STARTER_DECK_YUYA
 	.2byte  ITEM_PACK_TCG_STORM_OF_RAGNAROK
-	.2byte  ITEM_PACK_TCG_STORM_OF_RAGNAROK_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_STORM_OF_RAGNAROK_SPECIAL_EDITION
 	.2byte  ITEM_PACK_TCG_STRIKE_OF_NEOS
-	.2byte  ITEM_PACK_TCG_STRIKE_OF_NEOS_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_STRIKE_OF_NEOS_SPECIAL_EDITION
 	.2byte  ITEM_PACK_TCG_STRUCTURE_DECK_ALBAZ_STRIKE
 	.2byte  ITEM_PACK_TCG_STRUCTURE_DECK_BEWARE_OF_TRAPTRIX
 	.2byte  ITEM_PACK_TCG_STRUCTURE_DECK_BLAZE_OF_DESTRUCTION
@@ -20180,9 +15624,7 @@ InsideOfTruck_PokemartVegasBanlist:
 	.2byte  ITEM_PACK_TCG_STRUCTURE_DECK_CYBER_STRIKE
 	.2byte  ITEM_PACK_TCG_STRUCTURE_DECK_CYBERSE_LINK
 	.2byte  ITEM_PACK_TCG_STRUCTURE_DECK_DARK_WORLD
-	.2byte  ITEM_PACK_TCG_STRUCTURE_DECK_DELUXE_EDITION
 	.2byte  ITEM_PACK_TCG_STRUCTURE_DECK_DINOSAUR_S_RAGE
-	.2byte  ITEM_PACK_TCG_STRUCTURE_DECK_DINOSAUR_S_RAGE_SPECIAL_SET
 	.2byte  ITEM_PACK_TCG_STRUCTURE_DECK_DRAGON_S_ROAR
 	.2byte  ITEM_PACK_TCG_STRUCTURE_DECK_FIRE_KINGS
 	.2byte  ITEM_PACK_TCG_STRUCTURE_DECK_FREEZING_CHAINS
@@ -20192,7 +15634,6 @@ InsideOfTruck_PokemartVegasBanlist:
 	.2byte  ITEM_PACK_TCG_STRUCTURE_DECK_LEGEND_OF_THE_CRYSTAL_BEASTS
 	.2byte  ITEM_PACK_TCG_STRUCTURE_DECK_LORD_OF_THE_STORM
 	.2byte  ITEM_PACK_TCG_STRUCTURE_DECK_MACHINE_RE_VOLT
-	.2byte  ITEM_PACK_TCG_STRUCTURE_DECK_MARIK_TCG_
 	.2byte  ITEM_PACK_TCG_STRUCTURE_DECK_MECHANIZED_MADNESS
 	.2byte  ITEM_PACK_TCG_STRUCTURE_DECK_ORDER_OF_THE_SPELLCASTERS
 	.2byte  ITEM_PACK_TCG_STRUCTURE_DECK_POWERCODE_LINK
@@ -20209,304 +15650,5385 @@ InsideOfTruck_PokemartVegasBanlist:
 	.2byte  ITEM_PACK_TCG_STRUCTURE_DECK_YUGI_MUTO
 	.2byte  ITEM_PACK_TCG_STRUCTURE_DECK_ZOMBIE_HORDE
 	.2byte  ITEM_PACK_TCG_STRUCTURE_DECK_ZOMBIE_MADNESS
-	.2byte  ITEM_PACK_TCG_SUMMONED_SKULL_SAMPLE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SUPER_STARTER_POWER_UP_PACK
 	.2byte  ITEM_PACK_TCG_SUPER_STARTER_SPACE_TIME_SHOWDOWN
 	.2byte  ITEM_PACK_TCG_SUPER_STARTER_V_FOR_VICTORY
 	.2byte  ITEM_PACK_TCG_SUPREME_DARKNESS
-	.2byte  ITEM_PACK_TCG_SUPREME_DARKNESS_PREMIERE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SWEDISH_SHONEN_JUMP_2004_ISSUE_2_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_SWEDISH_SHONEN_JUMP_2005_ISSUE_12_PROMOTIONAL_CARD
 	.2byte  ITEM_PACK_TCG_SYNCHRON_EXTREME_STRUCTURE_DECK
 	.2byte  ITEM_PACK_TCG_TACTICAL_EVOLUTION
-	.2byte  ITEM_PACK_TCG_TACTICAL_EVOLUTION_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_TACTICAL_EVOLUTION_SPECIAL_EDITION
-	.2byte  ITEM_PACK_TCG_TACTICAL_MASTERS
 	.2byte  ITEM_PACK_TCG_THE_DARK_EMPEROR_STRUCTURE_DECK
 	.2byte  ITEM_PACK_TCG_THE_DARK_ILLUSION
-	.2byte  ITEM_PACK_TCG_THE_DARK_ILLUSION_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_THE_DARK_ILLUSION_SPECIAL_EDITION
 	.2byte  ITEM_PACK_TCG_THE_DUELIST_GENESIS
-	.2byte  ITEM_PACK_TCG_THE_DUELIST_GENESIS_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_THE_DUELIST_GENESIS_SPECIAL_EDITION
-	.2byte  ITEM_PACK_TCG_THE_GRAND_CREATORS
 	.2byte  ITEM_PACK_TCG_THE_INFINITE_FORBIDDEN
-	.2byte  ITEM_PACK_TCG_THE_INFINITE_FORBIDDEN_PREMIERE_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_THE_INFINITY_CHASERS
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2019_A
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2019_B
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2019_C
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2019_D
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2019_E
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2019_F
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_A
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_B
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_C
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_D
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_E
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_F
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_G
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_H
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_I
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_J
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_K
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_L
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_M
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_N
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_O
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_P
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_Q
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2020_R
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2021_A
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2021_B
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2021_C
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2021_D
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2021_E
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2021_F
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2021_G
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2021_H
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2021_I
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2021_J
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2021_K
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2021_L
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2022_A
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2022_B
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2022_C
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2022_D
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2022_E
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2022_F
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2022_G
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2022_H
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2022_I
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2022_J
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2022_K
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2023_A
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2023_B
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2023_C
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2023_D
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2023_E
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2023_F
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2023_G
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2023_H
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2023_I
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2023_J
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2023_K
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2023_L
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2024_A
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2024_B
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2024_C
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2024_D
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2024_E
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2024_F
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2024_G
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_2024_H
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_A
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_B
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_C
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_D
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_E
-	.2byte  ITEM_PACK_TCG_THE_LOST_ART_PROMOTION_F
 	.2byte  ITEM_PACK_TCG_THE_LOST_MILLENNIUM
-	.2byte  ITEM_PACK_TCG_THE_LOST_MILLENNIUM_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_THE_LOST_MILLENNIUM_SPECIAL_EDITION
 	.2byte  ITEM_PACK_TCG_THE_NEW_CHALLENGERS
-	.2byte  ITEM_PACK_TCG_THE_NEW_CHALLENGERS_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_THE_NEW_CHALLENGERS_SUPER_EDITION
-	.2byte  ITEM_PACK_TCG_THE_POT_COLLECTION
-	.2byte  ITEM_PACK_TCG_THE_SECRET_FORCES
 	.2byte  ITEM_PACK_TCG_THE_SHINING_DARKNESS
-	.2byte  ITEM_PACK_TCG_THE_SHINING_DARKNESS_SNEAK_PEEK_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_TOON_CHAOS
-	.2byte  ITEM_PACK_TCG_TOURNAMENT_PACK_4
-	.2byte  ITEM_PACK_TCG_TOURNAMENT_PACK_5
-	.2byte  ITEM_PACK_TCG_TOURNAMENT_PACK_6
-	.2byte  ITEM_PACK_TCG_TOURNAMENT_PACK_7
-	.2byte  ITEM_PACK_TCG_TOURNAMENT_PACK_8
-	.2byte  ITEM_PACK_TCG_TOURNAMENT_PACK_1ST_SEASON
-	.2byte  ITEM_PACK_TCG_TOURNAMENT_PACK_2ND_SEASON
-	.2byte  ITEM_PACK_TCG_TOURNAMENT_PACK_3RD_SEASON
-	.2byte  ITEM_PACK_TCG_TRIALS_OF_THE_PHARAOH_MATCH_OF_THE_MILLENNIUM_TWISTED_NIGHTMARES_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_TRIALS_OF_THE_PHARAOH_SPEED_DUEL_GX_DUEL_ACADEMY_BOX_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_TRIALS_OF_THE_PHARAOH_SPEED_DUEL_GX_MIDTERM_PARADOX_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_TRIALS_OF_THE_PHARAOH_SPEED_DUEL_BATTLE_CITY_BOX_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_TRIALS_OF_THE_PHARAOH_TRIALS_OF_THE_KINGDOM_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_TURBO_PACK_BOOSTER_EIGHT
-	.2byte  ITEM_PACK_TCG_TURBO_PACK_BOOSTER_FIVE
-	.2byte  ITEM_PACK_TCG_TURBO_PACK_BOOSTER_FOUR
-	.2byte  ITEM_PACK_TCG_TURBO_PACK_BOOSTER_ONE
-	.2byte  ITEM_PACK_TCG_TURBO_PACK_BOOSTER_SEVEN
-	.2byte  ITEM_PACK_TCG_TURBO_PACK_BOOSTER_SIX
-	.2byte  ITEM_PACK_TCG_TURBO_PACK_BOOSTER_THREE
-	.2byte  ITEM_PACK_TCG_TURBO_PACK_BOOSTER_TWO
-	.2byte  ITEM_PACK_TCG_TWILIGHT_EDITION
-	.2byte  ITEM_PACK_TCG_ULTIMATE_EDITION
-	.2byte  ITEM_PACK_TCG_ULTIMATE_EDITION_2
-	.2byte  ITEM_PACK_TCG_VALIANT_SMASHERS
-	.2byte  ITEM_PACK_TCG_WSJ_JUMP_PACK_FALL_2016_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WSJ_JUMP_PACK_FALL_2017_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WSJ_JUMP_PACK_FALL_2018_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WSJ_JUMP_PACK_SPRING_2016_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WSJ_JUMP_PACK_SPRING_2017_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WSJ_JUMP_PACK_SPRING_2018_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WSJ_JUMP_PACK_SPRING_2019_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WAR_OF_THE_GIANTS_REINFORCEMENTS
-	.2byte  ITEM_PACK_TCG_WAR_OF_THE_GIANTS_ROUND_2
 	.2byte  ITEM_PACK_TCG_WARRIORS_STRIKE_STRUCTURE_DECK
-	.2byte  ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_ALPHA_APRIL_2012_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_ALPHA_DECEMBER_2012_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_ALPHA_JULY_2012_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_ALPHA_SEPTEMBER_2012_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_APRIL_2015_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_APRIL_2016_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_APRIL_2017_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_AUGUST_2014_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_DECEMBER_2013_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_FEBRUARY_2015_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_JANUARY_2016_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_JANUARY_2017_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_JANUARY_2018_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_JULY_2013_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_JULY_2015_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_JULY_2016_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_JULY_2017_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_JULY_2018_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_JUNE_2019_MEMBERSHIP_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_MARCH_2013_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_MARCH_2014_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_MAY_2018_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_NOVEMBER_2014_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_NOVEMBER_2017_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_NOVEMBER_2018_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_OCTOBER_2015_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_OCTOBER_2016_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WEEKLY_SHONEN_JUMP_SEPTEMBER_2013_MEMBERSHIP_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_WILD_SURVIVORS
-	.2byte  ITEM_PACK_TCG_WING_RAIDERS
-	.2byte  ITEM_PACK_TCG_WORLD_CHAMPIONSHIP_2010_CARD_PACK
-	.2byte  ITEM_PACK_TCG_WORLD_CHAMPIONSHIP_2011_CARD_PACK
-	.2byte  ITEM_PACK_TCG_WORLD_SUPERSTARS
-	.2byte  ITEM_PACK_TCG_X_SABER_POWER_UP
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_3D_BONDS_BEYOND_TIME_BLU_RAY_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_3D_BONDS_BEYOND_TIME_DVD_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_3D_BONDS_BEYOND_TIME_MOVIE_PACK
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_3D_BONDS_BEYOND_TIME_THEATER_DISTRIBUTION_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_5D_S_DUEL_TRANSER_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_5D_S_TAG_FORCE_4_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_5D_S_TAG_FORCE_5_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_5D_S_VOLUME_1_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_5D_S_VOLUME_2_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_5D_S_VOLUME_3_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_5D_S_VOLUME_4_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_5D_S_VOLUME_5_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_5D_S_VOLUME_6_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_5D_S_VOLUME_7_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_5D_S_VOLUME_8_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_5D_S_VOLUME_9_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_5D_S_WHEELIE_BREAKERS_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_5D_S_WORLD_CHAMPIONSHIP_2009_STARDUST_ACCELERATOR_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_5D_S_WORLD_CHAMPIONSHIP_2010_REVERSE_OF_ARCADIA_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_5D_S_WORLD_CHAMPIONSHIP_2011_OVER_THE_NEXUS_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_7_TRIALS_TO_GLORY_WORLD_CHAMPIONSHIP_TOURNAMENT_2005_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_ARC_V_VOLUME_1_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_ARC_V_VOLUME_2_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_ARC_V_VOLUME_3_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_ARC_V_VOLUME_4_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_ARC_V_VOLUME_5_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_ARC_V_VOLUME_6_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_ARC_V_VOLUME_7_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_ADVENT_CALENDAR_2018_
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_ADVENT_CALENDAR_2019_
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_CAPSULE_MONSTER_COLISEUM_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_CHAMPIONSHIP_SERIES_2010_PRIZE_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_CHAMPIONSHIP_SERIES_2011_PRIZE_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_CHAMPIONSHIP_SERIES_2012_PRIZE_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_CHAMPIONSHIP_SERIES_2013_PRIZE_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_CHAMPIONSHIP_SERIES_2014_PRIZE_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_CHAMPIONSHIP_SERIES_2015_PRIZE_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_CHAMPIONSHIP_SERIES_2016_PRIZE_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_CHAMPIONSHIP_SERIES_2017_PRIZE_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_CHAMPIONSHIP_SERIES_2018_PRIZE_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_CHAMPIONSHIP_SERIES_2019_PRIZE_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_CHAMPIONSHIP_SERIES_2022_PRIZE_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_CHAMPIONSHIP_SERIES_2023_PRIZE_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_CHAMPIONSHIP_SERIES_2024_PRIZE_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_CHAMPIONSHIP_SERIES_2025_PRIZE_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_DARK_DUEL_STORIES_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_DESTINY_BOARD_TRAVELER_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_DOUBLE_PACK_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_DUELIST_VOLUME_16_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_EARLY_DAYS_COLLECTION_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_ELEMENTAL_HERO_COLLECTION_1
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_ELEMENTAL_HERO_COLLECTION_2
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_FORBIDDEN_MEMORIES_PREMIUM_EDITION_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_GX_CARD_ALMANAC_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_GX_DUEL_ACADEMY_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_GX_SPECIAL_EDITION
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_GX_SPIRIT_CALLER_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_GX_TAG_FORCE_2_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_GX_TAG_FORCE_3_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_GX_TAG_FORCE_EVOLUTION_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_GX_TAG_FORCE_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_GX_THE_BEGINNING_OF_DESTINY_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_GX_ULTIMATE_BEGINNER_S_PACK
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_GX_VOLUME_1_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_GX_VOLUME_2_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_GX_VOLUME_3_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_GX_VOLUME_4_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_GX_VOLUME_5_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_GX_VOLUME_6_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_GX_VOLUME_7_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_GX_VOLUME_8_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_GX_VOLUME_9_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_LEGACY_OF_THE_DUELIST_LINK_EVOLUTION_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_MILLENNIUM_WORLD_VOLUME_4_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_NIGHTMARE_TROUBADOUR_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_POWER_OF_CHAOS_JOEY_THE_PASSION_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_POWER_OF_CHAOS_KAIBA_THE_REVENGE_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_POWER_OF_CHAOS_YUGI_THE_DESTINY_LIMITED_COLLECTOR_S_EDITION
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_POWER_OF_CHAOS_YUGI_THE_DESTINY_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_R_VOLUME_1_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_R_VOLUME_3_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_R_VOLUME_4_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_R_VOLUME_5_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_REMOTE_DUEL_EXTRAVAGANZA_PARTICIPATION_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_RESHEF_OF_DESTRUCTION_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_BLU_RAY_DVD_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_MOVIE_PACK
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_MOVIE_PACK_SECRET_EDITION
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_MOVIE_PACK_SPECIAL_EDITION
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_MOVIE_PACK_GOLD_EDITION
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_THE_DARK_SIDE_OF_DIMENSIONS_THEATER_DISTRIBUTION_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_THE_DAWN_OF_DESTINY_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_THE_DUELISTS_OF_THE_ROSES_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_THE_ETERNAL_DUELIST_SOUL_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_THE_FALSEBOUND_KINGDOM_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_THE_SACRED_CARDS_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_TRADING_CARD_GAME_TOUR_2004_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_ULTIMATE_MASTERS_WORLD_CHAMPIONSHIP_TOURNAMENT_2006_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_WORLD_CHAMPIONSHIP_2004_TOURNAMENT_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_WORLD_CHAMPIONSHIP_2007_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_WORLD_CHAMPIONSHIP_2008_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_WORLD_CHAMPIONSHIP_2024_CELEBRATION_EVENT_PRIZE_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_WORLD_CHAMPIONSHIP_QUALIFIER_NATIONAL_CHAMPIONSHIPS_2011_PRIZE_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_WORLD_CHAMPIONSHIP_TOURNAMENT_2004_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_WORLDWIDE_EDITION_STAIRWAY_TO_THE_DESTINED_DUEL_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_ZEXAL_VOLUME_1_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_ZEXAL_VOLUME_2_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_ZEXAL_VOLUME_3_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_ZEXAL_VOLUME_4_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_ZEXAL_VOLUME_5_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_ZEXAL_VOLUME_6_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_ZEXAL_VOLUME_7_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_ZEXAL_VOLUME_8_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_ZEXAL_VOLUME_9_PROMOTIONAL_CARD
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_ZEXAL_WORLD_DUEL_CARNIVAL_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_AT_HOME_SWEEPSTAKES
-	.2byte  ITEM_PACK_TCG_YU_GI_OH_THE_MOVIE_VHS_AND_DVD_PROMOTIONAL_CARDS
-	.2byte  ITEM_PACK_TCG_YUGI_KAIBA_COLLECTOR_BOX
-	.2byte  ITEM_PACK_TCG_YUGI_S_COLLECTOR_BOX
-	.2byte  ITEM_PACK_TCG_YUGI_S_LEGENDARY_DECKS
-	.2byte  ITEM_PACK_TCG_ZEXAL_COLLECTION_TIN
 	.2byte  ITEM_PACK_TCG_ZOMBIE_WORLD_STRUCTURE_DECK
 	pokemartlistend
 
+InsideOfTruck_EventScript_Clerk_TCG2PlayerStarterSet::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_2_PLAYER_STARTER_SET
+	message gText_TCG2PlayerStarterSetClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCG2PlayerStarterSet
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCG2PlayerStarterSet:
+	.2byte ITEM_CARD_BOOK_OF_MOON
+	.2byte ITEM_CARD_CALL_OF_THE_HAUNTED
+	.2byte ITEM_CARD_CARD_TROOPER
+	.2byte ITEM_CARD_CASTEL_THE_SKYBLASTER_MUSKETEER
+	.2byte ITEM_CARD_CHIRON_THE_MAGE
+	.2byte ITEM_CARD_CYBER_DRAGON
+	.2byte ITEM_CARD_D_D_CROW
+	.2byte ITEM_CARD_DAIGUSTO_EMERAL
+	.2byte ITEM_CARD_DARK_HOLE
+	.2byte ITEM_CARD_DARK_MAGICIAN
+	.2byte ITEM_CARD_DARK_MAGICIAN_GIRL
+	.2byte ITEM_CARD_DIVINE_ARSENAL_AA_ZEUS_SKY_THUNDER
+	.2byte ITEM_CARD_FISSURE
+	.2byte ITEM_CARD_GALAXY_CYCLONE
+	.2byte ITEM_CARD_GIANT_SOLDIER_OF_STONE
+	.2byte ITEM_CARD_GIL_GARTH
+	.2byte ITEM_CARD_INPACHI
+	.2byte ITEM_CARD_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP
+	.2byte ITEM_CARD_MAGE_POWER
+	.2byte ITEM_CARD_MAGIC_CYLINDER
+	.2byte ITEM_CARD_MAGICIAN_OF_FAITH
+	.2byte ITEM_CARD_MASK_OF_DARKNESS
+	.2byte ITEM_CARD_MOBIUS_THE_FROST_MONARCH
+	.2byte ITEM_CARD_MYSTICAL_SPACE_TYPHOON
+	.2byte ITEM_CARD_NEEDLE_CEILING
+	.2byte ITEM_CARD_NIGHT_BEAM
+	.2byte ITEM_CARD_SCAPEGOAT
+	.2byte ITEM_CARD_SPIRIT_OF_THE_HARP
+	.2byte ITEM_CARD_SWORDS_OF_REVEALING_LIGHT
+	.2byte ITEM_CARD_WHITE_NINJA
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGAbsolutePowerforce::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_ABSOLUTE_POWERFORCE
+	message gText_TCGAbsolutePowerforceClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGAbsolutePowerforce
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGAbsolutePowerforce:
+	.2byte ITEM_CARD_CARDS_OF_CONSONANCE
+	.2byte ITEM_CARD_CONSECRATED_LIGHT
+	.2byte ITEM_CARD_CYBER_DRAGON_ZWEI
+	.2byte ITEM_CARD_FIENDISH_CHAIN
+	.2byte ITEM_CARD_XX_SABER_EMMERSBLADE
+	.2byte ITEM_CARD_XX_SABER_HYUNLEI
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGAbyssRising::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_ABYSS_RISING
+	message gText_TCGAbyssRisingClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGAbyssRising
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGAbyssRising:
+	.2byte ITEM_CARD_ABYSS_DWELLER
+	.2byte ITEM_CARD_ABYSS_SPHERE
+	.2byte ITEM_CARD_GAGAGA_COWBOY
+	.2byte ITEM_CARD_MAGIC_DEFLECTOR
+	.2byte ITEM_CARD_MERMAIL_ABYSSGAIOS
+	.2byte ITEM_CARD_MERMAIL_ABYSSGUNDE
+	.2byte ITEM_CARD_MERMAIL_ABYSSLINDE
+	.2byte ITEM_CARD_MERMAIL_ABYSSMEGALO
+	.2byte ITEM_CARD_MERMAIL_ABYSSPIKE
+	.2byte ITEM_CARD_MERMAIL_ABYSSTURGE
+	.2byte ITEM_CARD_NIMBLE_ANGLER
+	.2byte ITEM_CARD_RED_DRAGON_NINJA
+	.2byte ITEM_CARD_THUNDER_SEA_HORSE
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGAgeofOverlord::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_AGE_OF_OVERLORD
+	message gText_TCGAgeofOverlordClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGAgeofOverlord
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGAgeofOverlord:
+	.2byte ITEM_CARD_DIABELLSTAR_THE_BLACK_WITCH
+	.2byte ITEM_CARD_DIVINE_TEMPLE_OF_THE_SNAKE_EYE
+	.2byte ITEM_CARD_ORIGINAL_SINFUL_SPOILS_SNAKE_EYE
+	.2byte ITEM_CARD_S_P_LITTLE_KNIGHT
+	.2byte ITEM_CARD_SNAKE_EYE_ASH
+	.2byte ITEM_CARD_SNAKE_EYE_BIRCH
+	.2byte ITEM_CARD_SNAKE_EYE_OAK
+	.2byte ITEM_CARD_SNAKE_EYES_FLAMBERGE_DRAGON
+	.2byte ITEM_CARD_SUPER_STARSLAYER_TY_PHON_SKY_CRISIS
+	.2byte ITEM_CARD_WANTED_SEEKER_OF_SINFUL_SPOILS
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGAllianceInsight::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_ALLIANCE_INSIGHT
+	message gText_TCGAllianceInsightClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGAllianceInsight
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGAllianceInsight:
+	.2byte ITEM_CARD_CYBERDARK_WURM
+	.2byte ITEM_CARD_DARK_MAGICIAN_GIRL_THE_MAGICIAN_S_APPRENTICE
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGAncientProphecy::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_ANCIENT_PROPHECY
+	message gText_TCGAncientProphecyClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGAncientProphecy
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGAncientProphecy:
+	.2byte ITEM_CARD_ANCIENT_FAIRY_DRAGON
+	.2byte ITEM_CARD_BLACKWING_VAYU_THE_EMBLEM_OF_HONOR
+	.2byte ITEM_CARD_FAIRY_WIND
+	.2byte ITEM_CARD_SHINY_BLACK_C_
+	.2byte ITEM_CARD_WHITE_NIGHT_DRAGON
+	.2byte ITEM_CARD_XX_SABER_FAULTROLL
+	.2byte ITEM_CARD_XX_SABER_FULHELMKNIGHT
+	.2byte ITEM_CARD_XX_SABER_GOTTOMS
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGAncientSanctuary::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_ANCIENT_SANCTUARY
+	message gText_TCGAncientSanctuaryClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGAncientSanctuary
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGAncientSanctuary:
+	.2byte ITEM_CARD_BECKONING_LIGHT
+	.2byte ITEM_CARD_BLOWBACK_DRAGON
+	.2byte ITEM_CARD_DESERT_SUNLIGHT
+	.2byte ITEM_CARD_EMISSARY_OF_THE_AFTERLIFE
+	.2byte ITEM_CARD_ENEMY_CONTROLLER
+	.2byte ITEM_CARD_GEAR_GOLEM_THE_MOVING_FORTRESS
+	.2byte ITEM_CARD_KING_OF_THE_SWAMP
+	.2byte ITEM_CARD_LADY_NINJA_YAE
+	.2byte ITEM_CARD_LEGENDARY_JUJITSU_MASTER
+	.2byte ITEM_CARD_LEVEL_LIMIT_AREA_B
+	.2byte ITEM_CARD_MERMAID_KNIGHT
+	.2byte ITEM_CARD_MONSTER_GATE
+	.2byte ITEM_CARD_MYSTIK_WOK
+	.2byte ITEM_CARD_NIGHT_ASSAILANT
+	.2byte ITEM_CARD_PROTECTOR_OF_THE_SANCTUARY
+	.2byte ITEM_CARD_STONE_STATUE_OF_THE_AZTECS
+	.2byte ITEM_CARD_WALL_OF_REVEALING_LIGHT
+	.2byte ITEM_CARD_ZABORG_THE_THUNDER_MONARCH
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGBattleofChaos::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_BATTLE_OF_CHAOS
+	message gText_TCGBattleofChaosClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGBattleofChaos
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGBattleofChaos:
+	.2byte ITEM_CARD_BLUE_EYES_JET_DRAGON
+	.2byte ITEM_CARD_BLUE_EYES_TYRANT_DRAGON
+	.2byte ITEM_CARD_CHAOS_NEPHTHYS
+	.2byte ITEM_CARD_DARK_MAGICIAN
+	.2byte ITEM_CARD_DHARC_THE_DARK_CHARMER_GLOOMY
+	.2byte ITEM_CARD_DICTATOR_OF_D_
+	.2byte ITEM_CARD_DIMENSION_CONJURER
+	.2byte ITEM_CARD_ILLUSION_OF_CHAOS
+	.2byte ITEM_CARD_MAGIKURIBOH
+	.2byte ITEM_CARD_MASTER_OF_CHAOS
+	.2byte ITEM_CARD_THE_DARK_MAGICIANS
+	.2byte ITEM_CARD_TIMAEUS_THE_UNITED_DRAGON
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGBlazingVortex::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_BLAZING_VORTEX
+	message gText_TCGBlazingVortexClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGBlazingVortex
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGBlazingVortex:
+	.2byte ITEM_CARD_POT_OF_PROSPERITY
+	.2byte ITEM_CARD_TRI_BRIGADE_KITT
+	.2byte ITEM_CARD_TRISHULA_DRAGON_OF_THE_ICE_BARRIER
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGBreakersofShadow::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_BREAKERS_OF_SHADOW
+	message gText_TCGBreakersofShadowClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGBreakersofShadow
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGBreakersofShadow:
+	.2byte ITEM_CARD_ARISEN_GAIA_THE_FIERCE_KNIGHT
+	.2byte ITEM_CARD_BUSTER_BLADER_THE_DESTRUCTION_SWORDMASTER
+	.2byte ITEM_CARD_BUSTER_BLADER_THE_DRAGON_DESTROYER_SWORDSMAN
+	.2byte ITEM_CARD_CYBER_DRAGON_INFINITY
+	.2byte ITEM_CARD_DINOSTER_POWER_THE_MIGHTY_DRACOSLAYER
+	.2byte ITEM_CARD_DRACO_FACE_OFF
+	.2byte ITEM_CARD_FORBIDDEN_APOCRYPHA
+	.2byte ITEM_CARD_GUIDING_ARIADNE
+	.2byte ITEM_CARD_INTERRUPTED_KAIJU_SLUMBER
+	.2byte ITEM_CARD_KOZMO_TINCAN
+	.2byte ITEM_CARD_KOZMOJO
+	.2byte ITEM_CARD_MASTER_PENDULUM_THE_DRACOSLAYER
+	.2byte ITEM_CARD_PERFORMAPAL_GUITARTLE
+	.2byte ITEM_CARD_PERFORMAPAL_MONKEYBOARD
+	.2byte ITEM_CARD_PERFORMAPAL_PENDULUM_SORCERER
+	.2byte ITEM_CARD_RED_EYES_RETRO_DRAGON
+	.2byte ITEM_CARD_SOLEMN_STRIKE
+	.2byte ITEM_CARD_TRAPTRIX_RAFFLESIA
+	.2byte ITEM_CARD_TWILIGHT_NINJA_GETSUGA_THE_SHOGUN
+	.2byte ITEM_CARD_TWILIGHT_NINJA_NICHIRIN_THE_CHUNIN
+	.2byte ITEM_CARD_TWILIGHT_NINJA_SHINGETSU
+	.2byte ITEM_CARD_TWIN_TWISTERS
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGBurstofDestiny::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_BURST_OF_DESTINY
+	message gText_TCGBurstofDestinyClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGBurstofDestiny
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGBurstofDestiny:
+	.2byte ITEM_CARD_BRANDED_IN_HIGH_SPIRITS
+	.2byte ITEM_CARD_DESTINY_HERO_DESTROYER_PHOENIX_ENFORCER
+	.2byte ITEM_CARD_ELEMENTAL_HERO_STRATOS
+	.2byte ITEM_CARD_INCREDIBLE_ECCLESIA_THE_VIRTUOUS
+	.2byte ITEM_CARD_PENGUIN_NINJA
+	.2byte ITEM_CARD_SWORDSOUL_BLACKOUT
+	.2byte ITEM_CARD_SWORDSOUL_EMERGENCE
+	.2byte ITEM_CARD_SWORDSOUL_GRANDMASTER_CHIXIAO
+	.2byte ITEM_CARD_SWORDSOUL_STRATEGIST_LONGYUAN
+	.2byte ITEM_CARD_SWORDSOUL_OF_MO_YE
+	.2byte ITEM_CARD_SWORDSOUL_OF_TAIA
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGChaosImpact::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_CHAOS_IMPACT
+	message gText_TCGChaosImpactClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGChaosImpact
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGChaosImpact:
+	.2byte ITEM_CARD_DINOWRESTLER_VALEONYX
+	.2byte ITEM_CARD_I_P_MASQUERENA
+	.2byte ITEM_CARD_TENYI_SPIRIT_ASHUNA
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGCircuitBreak::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_CIRCUIT_BREAK
+	message gText_TCGCircuitBreakClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGCircuitBreak
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGCircuitBreak:
+	.2byte ITEM_CARD_BORRELOAD_DRAGON
+	.2byte ITEM_CARD_EVENLY_MATCHED
+	.2byte ITEM_CARD_NIMBLE_BEAVER
+	.2byte ITEM_CARD_NUMBER_41_BAGOOSKA_THE_TERRIBLY_TIRED_TAPIR
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGClashofRebellions::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_CLASH_OF_REBELLIONS
+	message gText_TCGClashofRebellionsClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGClashofRebellions
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGClashofRebellions:
+	.2byte ITEM_CARD_ARCHFIEND_BLACK_SKULL_DRAGON
+	.2byte ITEM_CARD_ARCHFIEND_ECCENTRICK
+	.2byte ITEM_CARD_BLACK_METAL_DRAGON
+	.2byte ITEM_CARD_CHICKEN_GAME
+	.2byte ITEM_CARD_CRYSTAL_ROSE
+	.2byte ITEM_CARD_IGNISTER_PROMINENCE_THE_BLASTING_DRACOSLAYER
+	.2byte ITEM_CARD_INFERNOID_DECATRON
+	.2byte ITEM_CARD_KEEPER_OF_THE_SHRINE
+	.2byte ITEM_CARD_KOZMO_FARMGIRL
+	.2byte ITEM_CARD_KOZMO_SLIPRIDER
+	.2byte ITEM_CARD_KOZMOTOWN
+	.2byte ITEM_CARD_KUMONGOUS_THE_STICKY_STRING_KAIJU
+	.2byte ITEM_CARD_LUSTER_PENDULUM_THE_DRACOSLAYER
+	.2byte ITEM_CARD_MAGICAL_ABDUCTOR
+	.2byte ITEM_CARD_MYSTERY_SHELL_DRAGON
+	.2byte ITEM_CARD_PERFORMAGE_DAMAGE_JUGGLER
+	.2byte ITEM_CARD_PERFORMAGE_HAT_TRICKER
+	.2byte ITEM_CARD_PERFORMAGE_TRAPEZE_MAGICIAN
+	.2byte ITEM_CARD_PERFORMAGE_TRICK_CLOWN
+	.2byte ITEM_CARD_PERFORMAPAL_SILVER_CLAW
+	.2byte ITEM_CARD_RETALIATING_C_
+	.2byte ITEM_CARD_THE_BLACK_STONE_OF_LEGEND
+	.2byte ITEM_CARD_TOON_CYBER_DRAGON
+	.2byte ITEM_CARD_WAVERING_EYES
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGCodeoftheDuelist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_CODE_OF_THE_DUELIST
+	message gText_TCGCodeoftheDuelistClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGCodeoftheDuelist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGCodeoftheDuelist:
+	.2byte ITEM_CARD_ANCIENT_GEAR_GOLEM_ULTIMATE_POUND
+	.2byte ITEM_CARD_FIREWALL_DRAGON
+	.2byte ITEM_CARD_HEAVY_STORM_DUSTER
+	.2byte ITEM_CARD_MISSUS_RADIANT
+	.2byte ITEM_CARD_TRAPTRIX_MANTIS
+	.2byte ITEM_CARD_TRICKSTAR_CANDINA
+	.2byte ITEM_CARD_TRICKSTAR_LIGHT_STAGE
+	.2byte ITEM_CARD_TRICKSTAR_LYCORIS
+	.2byte ITEM_CARD_TRICKSTAR_REINCARNATION
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGCosmoBlazer::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_COSMO_BLAZER
+	message gText_TCGCosmoBlazerClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGCosmoBlazer
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGCosmoBlazer:
+	.2byte ITEM_CARD_BREAKTHROUGH_SKILL
+	.2byte ITEM_CARD_BROTHERHOOD_OF_THE_FIRE_FIST_BEAR
+	.2byte ITEM_CARD_CRIMSON_BLADER
+	.2byte ITEM_CARD_DIAMOND_DIRE_WOLF
+	.2byte ITEM_CARD_FIRE_FORMATION_TENKI
+	.2byte ITEM_CARD_MERMAIL_ABYSSTEUS
+	.2byte ITEM_CARD_MERMAIL_ABYSSTRITE
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGCrimsonCrisis::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_CRIMSON_CRISIS
+	message gText_TCGCrimsonCrisisClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGCrimsonCrisis
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGCrimsonCrisis:
+	.2byte ITEM_CARD_ARCANITE_MAGICIAN
+	.2byte ITEM_CARD_BLACKWING_BORA_THE_SPEAR
+	.2byte ITEM_CARD_BLACKWING_GALE_THE_WHIRLWIND
+	.2byte ITEM_CARD_BLACKWING_SIROCCO_THE_DAWN
+	.2byte ITEM_CARD_BLACKWING_ARMOR_MASTER
+	.2byte ITEM_CARD_DARK_STRIKE_FIGHTER
+	.2byte ITEM_CARD_DEBRIS_DRAGON
+	.2byte ITEM_CARD_DUPE_FROG
+	.2byte ITEM_CARD_FLIP_FLOP_FROG
+	.2byte ITEM_CARD_TRAP_EATER
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGCrossedSouls::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_CROSSED_SOULS
+	message gText_TCGCrossedSoulsClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGCrossedSouls
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGCrossedSouls:
+	.2byte ITEM_CARD_BERLINETH_THE_FIRESTORM_VASSAL
+	.2byte ITEM_CARD_CYBER_DRAGON_INFINITY
+	.2byte ITEM_CARD_EL_SHADDOLL_ANOYATYLLIS
+	.2byte ITEM_CARD_FIEND_GRIEFING
+	.2byte ITEM_CARD_GALAXY_CYCLONE
+	.2byte ITEM_CARD_GHOST_OGRE_SNOW_RABBIT
+	.2byte ITEM_CARD_LUCIUS_THE_SHADOW_VASSAL
+	.2byte ITEM_CARD_PERFORMAPAL_LIZARDRAW
+	.2byte ITEM_CARD_PHANTOM_GRYPHON
+	.2byte ITEM_CARD_TELLARKNIGHT_PTOLEMAEUS
+	.2byte ITEM_CARD_VOID_VANISHMENT
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGCrossroadsofChaos::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_CROSSROADS_OF_CHAOS
+	message gText_TCGCrossroadsofChaosClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGCrossroadsofChaos
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGCrossroadsofChaos:
+	.2byte ITEM_CARD_BLACK_ROSE_DRAGON
+	.2byte ITEM_CARD_DOOMKAISER_DRAGON
+	.2byte ITEM_CARD_HANEWATA
+	.2byte ITEM_CARD_MAD_ARCHFIEND
+	.2byte ITEM_CARD_PLAGUESPREADER_ZOMBIE
+	.2byte ITEM_CARD_TEMPEST_MAGICIAN
+	.2byte ITEM_CARD_THE_WHITE_STONE_OF_LEGEND
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGCyberDragonRevolutionStructureDeck::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_CYBER_DRAGON_REVOLUTION_STRUCTURE_DECK
+	message gText_TCGCyberDragonRevolutionStructureDeckClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGCyberDragonRevolutionStructureDeck
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGCyberDragonRevolutionStructureDeck:
+	.2byte ITEM_CARD_ARMORED_CYBERN
+	.2byte ITEM_CARD_CALL_OF_THE_HAUNTED
+	.2byte ITEM_CARD_CYBER_DRAGON
+	.2byte ITEM_CARD_CYBER_DRAGON_DREI
+	.2byte ITEM_CARD_CYBER_DRAGON_NOVA
+	.2byte ITEM_CARD_CYBER_DRAGON_ZWEI
+	.2byte ITEM_CARD_CYBER_ELTANIN
+	.2byte ITEM_CARD_CYBER_LARVA
+	.2byte ITEM_CARD_CYBER_PHOENIX
+	.2byte ITEM_CARD_CYBER_TWIN_DRAGON
+	.2byte ITEM_CARD_CYBER_VALLEY
+	.2byte ITEM_CARD_DIMENSIONAL_PRISON
+	.2byte ITEM_CARD_LIMITER_REMOVAL
+	.2byte ITEM_CARD_MALEVOLENT_CATASTROPHE
+	.2byte ITEM_CARD_MEGAMORPH
+	.2byte ITEM_CARD_MYSTICAL_SPACE_TYPHOON
+	.2byte ITEM_CARD_REFLECT_BOUNDER
+	.2byte ITEM_CARD_SHINING_ANGEL
+	.2byte ITEM_CARD_SUPER_POLYMERIZATION
+	.2byte ITEM_CARD_THE_LIGHT_HEX_SEALED_FUSION
+	.2byte ITEM_CARD_TRAP_STUN
+	.2byte ITEM_CARD_WABOKU
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGCyberdarkImpact::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_CYBERDARK_IMPACT
+	message gText_TCGCyberdarkImpactClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGCyberdarkImpact
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGCyberdarkImpact:
+	.2byte ITEM_CARD_BLACK_HORN_OF_HEAVEN
+	.2byte ITEM_CARD_INSTANT_FUSION
+	.2byte ITEM_CARD_SNIPE_HUNTER
+	.2byte ITEM_CARD_VANITY_S_FIEND
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGCyberneticHorizon::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_CYBERNETIC_HORIZON
+	message gText_TCGCyberneticHorizonClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGCyberneticHorizon
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGCyberneticHorizon:
+	.2byte ITEM_CARD_CYBER_DRAGON_VIER
+	.2byte ITEM_CARD_DANGER_NESSIE_
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGCyberneticRevolution::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_CYBERNETIC_REVOLUTION
+	message gText_TCGCyberneticRevolutionClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGCyberneticRevolution
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGCyberneticRevolution:
+	.2byte ITEM_CARD_CYBER_DRAGON
+	.2byte ITEM_CARD_CYBER_END_DRAGON
+	.2byte ITEM_CARD_CYBER_TWIN_DRAGON
+	.2byte ITEM_CARD_DIMENSION_WALL
+	.2byte ITEM_CARD_DRAGON_S_MIRROR
+	.2byte ITEM_CARD_DRILLROID
+	.2byte ITEM_CARD_GOBLIN_ELITE_ATTACK_FORCE
+	.2byte ITEM_CARD_INDOMITABLE_FIGHTER_LEI_LEI
+	.2byte ITEM_CARD_POT_OF_GENEROSITY
+	.2byte ITEM_CARD_SPIRITUAL_EARTH_ART_KUROGANE
+	.2byte ITEM_CARD_SPIRITUAL_WATER_ART_AOI
+	.2byte ITEM_CARD_SPIRITUAL_WIND_ART_MIYABI
+	.2byte ITEM_CARD_SYSTEM_DOWN
+	.2byte ITEM_CARD_T_A_D_P_O_L_E_
+	.2byte ITEM_CARD_WROUGHTWEILER
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGCyberstormAccess::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_CYBERSTORM_ACCESS
+	message gText_TCGCyberstormAccessClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGCyberstormAccess
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGCyberstormAccess:
+	.2byte ITEM_CARD_ALBION_THE_SANCTIFIRE_DRAGON
+	.2byte ITEM_CARD_THE_BYSTIAL_ALUBER
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGDarkCrisis::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_DARK_CRISIS
+	message gText_TCGDarkCrisisClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGDarkCrisis
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGDarkCrisis:
+	.2byte ITEM_CARD_ARCHFIEND_SOLDIER
+	.2byte ITEM_CARD_ARSENAL_SUMMONER
+	.2byte ITEM_CARD_BATTLE_FOOTBALLER
+	.2byte ITEM_CARD_BERSERK_DRAGON
+	.2byte ITEM_CARD_BLINDLY_LOYAL_GOBLIN
+	.2byte ITEM_CARD_D_D_TRAINER
+	.2byte ITEM_CARD_D_D_WARRIOR_LADY
+	.2byte ITEM_CARD_DARK_FLARE_KNIGHT
+	.2byte ITEM_CARD_DARK_SCORPION_CHICK_THE_YELLOW
+	.2byte ITEM_CARD_DRAGGED_DOWN_INTO_THE_GRAVE
+	.2byte ITEM_CARD_GAGAGIGO
+	.2byte ITEM_CARD_GYAKU_GIRE_PANDA
+	.2byte ITEM_CARD_MIRAGE_KNIGHT
+	.2byte ITEM_CARD_NIN_KEN_DOG
+	.2byte ITEM_CARD_OJAMA_TRIO
+	.2byte ITEM_CARD_REFLECT_BOUNDER
+	.2byte ITEM_CARD_SAKURETSU_ARMOR
+	.2byte ITEM_CARD_SKILL_DRAIN
+	.2byte ITEM_CARD_SPELL_REPRODUCTION
+	.2byte ITEM_CARD_TSUKUYOMI
+	.2byte ITEM_CARD_VAMPIRE_LORD
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGDarkLegionStarterDeck::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_DARK_LEGION_STARTER_DECK
+	message gText_TCGDarkLegionStarterDeckClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGDarkLegionStarterDeck
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGDarkLegionStarterDeck:
+	.2byte ITEM_CARD_ARCHFIEND_SOLDIER
+	.2byte ITEM_CARD_AXE_DRAGONUTE
+	.2byte ITEM_CARD_AXE_OF_DESPAIR
+	.2byte ITEM_CARD_BEAST_OF_TALWAR
+	.2byte ITEM_CARD_CALL_OF_THE_HAUNTED
+	.2byte ITEM_CARD_DARK_HOLE
+	.2byte ITEM_CARD_DUST_TORNADO
+	.2byte ITEM_CARD_GOBLIN_ELITE_ATTACK_FORCE
+	.2byte ITEM_CARD_MAD_ARCHFIEND
+	.2byte ITEM_CARD_MAGIC_CYLINDER
+	.2byte ITEM_CARD_MIRROR_FORCE
+	.2byte ITEM_CARD_MONSTER_REINCARNATION
+	.2byte ITEM_CARD_MYSTICAL_SPACE_TYPHOON
+	.2byte ITEM_CARD_RUSH_RECKLESSLY
+	.2byte ITEM_CARD_SMASHING_GROUND
+	.2byte ITEM_CARD_THE_DRAGON_DWELLING_IN_THE_CAVE
+	.2byte ITEM_CARD_TRAP_HOLE
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGDarkNeostorm::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_DARK_NEOSTORM
+	message gText_TCGDarkNeostormClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGDarkNeostorm
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGDarkNeostorm:
+	.2byte ITEM_CARD_CYNET_MINING
+	.2byte ITEM_CARD_DINGIRSU_THE_ORCUST_OF_THE_EVENING_STAR
+	.2byte ITEM_CARD_FUSION_DESTINY
+	.2byte ITEM_CARD_GHOST_SISTER_SPOOKY_DOGWOOD
+	.2byte ITEM_CARD_MYSTIC_MINE
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGDarkwingBlast::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_DARKWING_BLAST
+	message gText_TCGDarkwingBlastClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGDarkwingBlast
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGDarkwingBlast:
+	.2byte ITEM_CARD_AMAZONESS_SPIRITUALIST
+	.2byte ITEM_CARD_BAKU_THE_BEAST_NINJA
+	.2byte ITEM_CARD_BLAZING_CARTESIA_THE_VIRTUOUS
+	.2byte ITEM_CARD_BYSTIAL_DRUISWURM
+	.2byte ITEM_CARD_BYSTIAL_MAGNAMHUT
+	.2byte ITEM_CARD_BYSTIAL_SARONIR
+	.2byte ITEM_CARD_INFERNALQUEEN_SALMON
+	.2byte ITEM_CARD_KAGERO_THE_CANNON_NINJA
+	.2byte ITEM_CARD_KASHTIRA_BIRTH
+	.2byte ITEM_CARD_KASHTIRA_FENRIR
+	.2byte ITEM_CARD_KASHTIRA_UNICORN
+	.2byte ITEM_CARD_MEIZEN_THE_BATTLE_NINJA
+	.2byte ITEM_CARD_MEREOLOGIC_AGGREGATOR
+	.2byte ITEM_CARD_MITSU_THE_INSECT_NINJA
+	.2byte ITEM_CARD_SPRIGHT_SPRIND
+	.2byte ITEM_CARD_TEARLAMENTS_HEARTBEAT
+	.2byte ITEM_CARD_TEARLAMENTS_RULKALLOS
+	.2byte ITEM_CARD_TEARLAMENTS_SCREAM
+	.2byte ITEM_CARD_THE_BYSTIAL_LUBELLION
+	.2byte ITEM_CARD_TOBARI_THE_SKY_NINJA
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGDawnofMajesty::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_DAWN_OF_MAJESTY
+	message gText_TCGDawnofMajestyClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGDawnofMajesty
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGDawnofMajesty:
+	.2byte ITEM_CARD_ALBION_THE_SHROUDED_DRAGON
+	.2byte ITEM_CARD_ALUBER_THE_JESTER_OF_DESPIA
+	.2byte ITEM_CARD_GUNKAN_SUSHIP_SHARI
+	.2byte ITEM_CARD_STARDUST_DRAGON
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGDimensionForce::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_DIMENSION_FORCE
+	message gText_TCGDimensionForceClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGDimensionForce
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGDimensionForce:
+	.2byte ITEM_CARD_ALBA_LENATUS_THE_ABYSS_DRAGON
+	.2byte ITEM_CARD_GHOST_BELLE_HAUNTED_MANSION
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGDimensionofChaos::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_DIMENSION_OF_CHAOS
+	message gText_TCGDimensionofChaosClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGDimensionofChaos
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGDimensionofChaos:
+	.2byte ITEM_CARD_BEGINNING_KNIGHT
+	.2byte ITEM_CARD_CHARGING_GAIA_THE_FIERCE_KNIGHT
+	.2byte ITEM_CARD_EVENING_TWILIGHT_KNIGHT
+	.2byte ITEM_CARD_GAMECIEL_THE_SEA_TURTLE_KAIJU
+	.2byte ITEM_CARD_KOZMO_DARK_DESTROYER
+	.2byte ITEM_CARD_KOZMOLL_WICKEDWITCH
+	.2byte ITEM_CARD_MAJESPECTER_RACCOON_BUNBUKU
+	.2byte ITEM_CARD_MAJESPECTER_UNICORN_KIRIN
+	.2byte ITEM_CARD_MAJESTER_PALADIN_THE_ASCENDING_DRACOSLAYER
+	.2byte ITEM_CARD_PAINFUL_DECISION
+	.2byte ITEM_CARD_PERFORMAGE_MIRROR_CONDUCTOR
+	.2byte ITEM_CARD_PERFORMAGE_PLUSHFIRE
+	.2byte ITEM_CARD_SHUFFLE_REBORN
+	.2byte ITEM_CARD_SKILLED_RED_MAGICIAN
+	.2byte ITEM_CARD_SPHERE_KURIBOH
+	.2byte ITEM_CARD_SUPER_SOLDIER_SOUL
+	.2byte ITEM_CARD_TRAPTRIX_RAFFLESIA
+	.2byte ITEM_CARD_VECTOR_PENDULUM_THE_DRACOVERLORD
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGDinosmashersFuryStructureDeck::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_DINOSMASHER_S_FURY_STRUCTURE_DECK
+	message gText_TCGDinosmashersFuryStructureDeckClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGDinosmashersFuryStructureDeck
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGDinosmashersFuryStructureDeck:
+	.2byte ITEM_CARD_BURIAL_FROM_A_DIFFERENT_DIMENSION
+	.2byte ITEM_CARD_GILASAURUS
+	.2byte ITEM_CARD_MEGALOSMASHER_X
+	.2byte ITEM_CARD_OJAMA_TRIO
+	.2byte ITEM_CARD_PAINFUL_DECISION
+	.2byte ITEM_CARD_RESCUE_RABBIT
+	.2byte ITEM_CARD_SABERSAURUS
+	.2byte ITEM_CARD_TERRAFORMING
+	.2byte ITEM_CARD_TWIN_TWISTERS
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGDragonsCollideStructureDeck::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_DRAGONS_COLLIDE_STRUCTURE_DECK
+	message gText_TCGDragonsCollideStructureDeckClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGDragonsCollideStructureDeck
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGDragonsCollideStructureDeck:
+	.2byte ITEM_CARD_AXE_DRAGONUTE
+	.2byte ITEM_CARD_BLACK_DRAGON_S_CHICK
+	.2byte ITEM_CARD_BLUE_EYES_WHITE_DRAGON
+	.2byte ITEM_CARD_BOOK_OF_MOON
+	.2byte ITEM_CARD_CALL_OF_THE_HAUNTED
+	.2byte ITEM_CARD_CHAOS_SORCERER
+	.2byte ITEM_CARD_CHARGE_OF_THE_LIGHT_BRIGADE
+	.2byte ITEM_CARD_DARK_ARMED_DRAGON
+	.2byte ITEM_CARD_ESCAPE_FROM_THE_DARK_DIMENSION
+	.2byte ITEM_CARD_KAIBAMAN
+	.2byte ITEM_CARD_LIGHTPULSAR_DRAGON
+	.2byte ITEM_CARD_LORD_OF_D_
+	.2byte ITEM_CARD_LYLA_LIGHTSWORN_SORCERESS
+	.2byte ITEM_CARD_MONSTER_GATE
+	.2byte ITEM_CARD_MYSTIC_TOMATO
+	.2byte ITEM_CARD_REASONING
+	.2byte ITEM_CARD_RED_EYES_BLACK_DRAGON
+	.2byte ITEM_CARD_RED_EYES_DARKNESS_METAL_DRAGON
+	.2byte ITEM_CARD_RYKO_LIGHTSWORN_HUNTER
+	.2byte ITEM_CARD_SNIPE_HUNTER
+	.2byte ITEM_CARD_SUMMONER_MONK
+	.2byte ITEM_CARD_THE_WHITE_STONE_OF_LEGEND
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGDragunityLegionStructureDeck::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_DRAGUNITY_LEGION_STRUCTURE_DECK
+	message gText_TCGDragunityLegionStructureDeckClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGDragunityLegionStructureDeck
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGDragunityLegionStructureDeck:
+	.2byte ITEM_CARD_BOTTOMLESS_TRAP_HOLE
+	.2byte ITEM_CARD_CARD_DESTRUCTION
+	.2byte ITEM_CARD_CREATURE_SWAP
+	.2byte ITEM_CARD_DRAGON_RAVINE
+	.2byte ITEM_CARD_DRAGON_S_RAGE
+	.2byte ITEM_CARD_FLYING_KAMAKIRI_1
+	.2byte ITEM_CARD_FOOLISH_BURIAL
+	.2byte ITEM_CARD_ICARUS_ATTACK
+	.2byte ITEM_CARD_LEGACY_OF_YATA_GARASU
+	.2byte ITEM_CARD_MAGE_POWER
+	.2byte ITEM_CARD_MASKED_DRAGON
+	.2byte ITEM_CARD_MIRROR_FORCE
+	.2byte ITEM_CARD_MONSTER_REINCARNATION
+	.2byte ITEM_CARD_SPEAR_DRAGON
+	.2byte ITEM_CARD_SPIRITUAL_WIND_ART_MIYABI
+	.2byte ITEM_CARD_TWIN_HEADED_BEHEMOTH
+	.2byte ITEM_CARD_UNITED_WE_STAND
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGDuelistAlliance::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_DUELIST_ALLIANCE
+	message gText_TCGDuelistAllianceClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGDuelistAlliance
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGDuelistAlliance:
+	.2byte ITEM_CARD_ARTIFACT_LANCEA
+	.2byte ITEM_CARD_BAXIA_BRIGHTNESS_OF_THE_YANG_ZING
+	.2byte ITEM_CARD_CASTEL_THE_SKYBLASTER_MUSKETEER
+	.2byte ITEM_CARD_CIR_MALEBRANCHE_OF_THE_BURNING_ABYSS
+	.2byte ITEM_CARD_DANTE_TRAVELER_OF_THE_BURNING_ABYSS
+	.2byte ITEM_CARD_EL_SHADDOLL_CONSTRUCT
+	.2byte ITEM_CARD_EL_SHADDOLL_WINDA
+	.2byte ITEM_CARD_GRAFF_MALEBRANCHE_OF_THE_BURNING_ABYSS
+	.2byte ITEM_CARD_RAIZA_THE_MEGA_MONARCH
+	.2byte ITEM_CARD_SCARM_MALEBRANCHE_OF_THE_BURNING_ABYSS
+	.2byte ITEM_CARD_SHADDOLL_BEAST
+	.2byte ITEM_CARD_SHADDOLL_DRAGON
+	.2byte ITEM_CARD_SHADDOLL_FALCO
+	.2byte ITEM_CARD_SHADDOLL_FUSION
+	.2byte ITEM_CARD_SHADDOLL_HEDGEHOG
+	.2byte ITEM_CARD_SHADDOLL_SQUAMATA
+	.2byte ITEM_CARD_SINISTER_SHADOW_GAMES
+	.2byte ITEM_CARD_THE_MONARCHS_STORMFORTH
+	.2byte ITEM_CARD_TIME_SPACE_TRAP_HOLE
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGDuelistNexus::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_DUELIST_NEXUS
+	message gText_TCGDuelistNexusClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGDuelistNexus
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGDuelistNexus:
+	.2byte ITEM_CARD_NIGHTMARE_MAGICIAN
+	.2byte ITEM_CARD_RED_EYES_BLACK_METEOR_DRAGON
+	.2byte ITEM_CARD_THESTALOS_THE_SHADOWFIRE_MONARCH
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGDuelistRevolution::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_DUELIST_REVOLUTION
+	message gText_TCGDuelistRevolutionClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGDuelistRevolution
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGDuelistRevolution:
+	.2byte ITEM_CARD_EFFECT_VEILER
+	.2byte ITEM_CARD_HORN_OF_THE_PHANTOM_BEAST
+	.2byte ITEM_CARD_POT_OF_DUALITY
+	.2byte ITEM_CARD_SCRAP_DRAGON
+	.2byte ITEM_CARD_SOLEMN_WARNING
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGDuelistsAdvance::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_DUELIST_S_ADVANCE
+	message gText_TCGDuelistsAdvanceClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGDuelistsAdvance
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGDuelistsAdvance:
+	.2byte ITEM_CARD_EIDOS_THE_UNDERWORLD_MONARCH
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGEgyptianGodDeckObelisktheTormentor::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_EGYPTIAN_GOD_DECK_OBELISK_THE_TORMENTOR
+	message gText_TCGEgyptianGodDeckObelisktheTormentorClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGEgyptianGodDeckObelisktheTormentor
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGEgyptianGodDeckObelisktheTormentor:
+	.2byte ITEM_CARD_BAZOO_THE_SOUL_EATER
+	.2byte ITEM_CARD_BRAIN_CONTROL
+	.2byte ITEM_CARD_CALL_OF_THE_HAUNTED
+	.2byte ITEM_CARD_CYBER_DRAGON
+	.2byte ITEM_CARD_FORBIDDEN_CHALICE
+	.2byte ITEM_CARD_FORBIDDEN_LANCE
+	.2byte ITEM_CARD_HARPIE_S_FEATHER_DUSTER
+	.2byte ITEM_CARD_MONSTER_REBORN
+	.2byte ITEM_CARD_NIMBLE_BEAVER
+	.2byte ITEM_CARD_NIMBLE_MOMONGA
+	.2byte ITEM_CARD_POT_OF_AVARICE
+	.2byte ITEM_CARD_THE_MONARCHS_STORMFORTH
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGEgyptianGodDeckSlifertheSkyDragon::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_EGYPTIAN_GOD_DECK_SLIFER_THE_SKY_DRAGON
+	message gText_TCGEgyptianGodDeckSlifertheSkyDragonClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGEgyptianGodDeckSlifertheSkyDragon
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGEgyptianGodDeckSlifertheSkyDragon:
+	.2byte ITEM_CARD_BOOK_OF_MOON
+	.2byte ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR
+	.2byte ITEM_CARD_ENEMY_CONTROLLER
+	.2byte ITEM_CARD_HARPIE_S_FEATHER_DUSTER
+	.2byte ITEM_CARD_METAL_REFLECT_SLIME
+	.2byte ITEM_CARD_MIRROR_FORCE
+	.2byte ITEM_CARD_MONSTER_REBORN
+	.2byte ITEM_CARD_POT_OF_AVARICE
+	.2byte ITEM_CARD_RECKLESS_GREED
+	.2byte ITEM_CARD_SWORDS_OF_REVEALING_LIGHT
+	.2byte ITEM_CARD_TENYI_SPIRIT_VISHUDA
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGElementalEnergy::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_ELEMENTAL_ENERGY
+	message gText_TCGElementalEnergyClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGElementalEnergy
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGElementalEnergy:
+	.2byte ITEM_CARD_BEIIGE_VANGUARD_OF_DARK_WORLD
+	.2byte ITEM_CARD_BROWW_HUNTSMAN_OF_DARK_WORLD
+	.2byte ITEM_CARD_BRRON_MAD_KING_OF_DARK_WORLD
+	.2byte ITEM_CARD_DARK_DEAL
+	.2byte ITEM_CARD_DARK_WORLD_LIGHTNING
+	.2byte ITEM_CARD_ELEMENTAL_HERO_WILDHEART
+	.2byte ITEM_CARD_FAMILIAR_POSSESSED_AUSSA
+	.2byte ITEM_CARD_FAMILIAR_POSSESSED_ERIA
+	.2byte ITEM_CARD_FAMILIAR_POSSESSED_HIITA
+	.2byte ITEM_CARD_FAMILIAR_POSSESSED_WYNN
+	.2byte ITEM_CARD_GOLDD_WU_LORD_OF_DARK_WORLD
+	.2byte ITEM_CARD_HYDROGEDDON
+	.2byte ITEM_CARD_POT_OF_AVARICE
+	.2byte ITEM_CARD_SCARR_SCOUT_OF_DARK_WORLD
+	.2byte ITEM_CARD_SILLVA_WARLORD_OF_DARK_WORLD
+	.2byte ITEM_CARD_ZURE_KNIGHT_OF_DARK_WORLD
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGEmperorofDarknessStructureDeck::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_EMPEROR_OF_DARKNESS_STRUCTURE_DECK
+	message gText_TCGEmperorofDarknessStructureDeckClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGEmperorofDarknessStructureDeck
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGEmperorofDarknessStructureDeck:
+	.2byte ITEM_CARD_BERLINETH_THE_FIRESTORM_VASSAL
+	.2byte ITEM_CARD_CAIUS_THE_SHADOW_MONARCH
+	.2byte ITEM_CARD_DANDYLION
+	.2byte ITEM_CARD_EHTHER_THE_HEAVENLY_MONARCH
+	.2byte ITEM_CARD_EIDOS_THE_UNDERWORLD_SQUIRE
+	.2byte ITEM_CARD_ENEMY_CONTROLLER
+	.2byte ITEM_CARD_EREBUS_THE_UNDERWORLD_MONARCH
+	.2byte ITEM_CARD_GRANMARG_THE_ROCK_MONARCH
+	.2byte ITEM_CARD_ILLUSORY_SNATCHER
+	.2byte ITEM_CARD_LUCIUS_THE_SHADOW_VASSAL
+	.2byte ITEM_CARD_MATHEMATICIAN
+	.2byte ITEM_CARD_MOBIUS_THE_FROST_MONARCH
+	.2byte ITEM_CARD_PANTHEISM_OF_THE_MONARCHS
+	.2byte ITEM_CARD_RAIZA_THE_STORM_MONARCH
+	.2byte ITEM_CARD_SOUL_CHARGE
+	.2byte ITEM_CARD_SOUL_EXCHANGE
+	.2byte ITEM_CARD_TENACITY_OF_THE_MONARCHS
+	.2byte ITEM_CARD_THE_MONARCHS_STORMFORTH
+	.2byte ITEM_CARD_THE_PRIME_MONARCH
+	.2byte ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH
+	.2byte ITEM_CARD_TRAGOEDIA
+	.2byte ITEM_CARD_ZABORG_THE_THUNDER_MONARCH
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGEnemyofJustice::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_ENEMY_OF_JUSTICE
+	message gText_TCGEnemyofJusticeClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGEnemyofJustice
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGEnemyofJustice:
+	.2byte ITEM_CARD_BANISHER_OF_THE_RADIANCE
+	.2byte ITEM_CARD_CYBER_PHOENIX
+	.2byte ITEM_CARD_DESTINY_HERO_DIAMOND_DUDE
+	.2byte ITEM_CARD_DIMENSIONAL_FISSURE
+	.2byte ITEM_CARD_ICARUS_ATTACK
+	.2byte ITEM_CARD_MACRO_COSMOS
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGEternityCode::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_ETERNITY_CODE
+	message gText_TCGEternityCodeClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGEternityCode
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGEternityCode:
+	.2byte ITEM_CARD_ARCHNEMESES_PROTOS
+	.2byte ITEM_CARD_EFFECT_VEILER
+	.2byte ITEM_CARD_GHOST_MOURNER_MOONLIT_CHILL
+	.2byte ITEM_CARD_THUNDER_DRAGONLORD
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGExtremeForce::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_EXTREME_FORCE
+	message gText_TCGExtremeForceClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGExtremeForce
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGExtremeForce:
+	.2byte ITEM_CARD_ISOLDE_TWO_TALES_OF_THE_NOBLE_KNIGHTS
+	.2byte ITEM_CARD_THERE_CAN_BE_ONLY_ONE
+	.2byte ITEM_CARD_ZOMBINO
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGExtremeVictory::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_EXTREME_VICTORY
+	message gText_TCGExtremeVictoryClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGExtremeVictory
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGExtremeVictory:
+	.2byte ITEM_CARD_AXE_DRAGONUTE
+	.2byte ITEM_CARD_DEBUNK
+	.2byte ITEM_CARD_FULL_HOUSE
+	.2byte ITEM_CARD_REBORN_TENGU
+	.2byte ITEM_CARD_T_G_RUSH_RHINO
+	.2byte ITEM_CARD_T_G_STRIKER
+	.2byte ITEM_CARD_T_G_WARWOLF
+	.2byte ITEM_CARD_TG1_EM1
+	.2byte ITEM_CARD_TOUR_GUIDE_FROM_THE_UNDERWORLD
+	.2byte ITEM_CARD_TRADETOAD
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGFlamesofDestruction::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_FLAMES_OF_DESTRUCTION
+	message gText_TCGFlamesofDestructionClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGFlamesofDestruction
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGFlamesofDestruction:
+	.2byte ITEM_CARD_CALLED_BY_THE_GRAVE
+	.2byte ITEM_CARD_GHOST_BELLE_HAUNTED_MANSION
+	.2byte ITEM_CARD_INFINITE_IMPERMANENCE
+	.2byte ITEM_CARD_KNIGHTMARE_CERBERUS
+	.2byte ITEM_CARD_KNIGHTMARE_GOBLIN
+	.2byte ITEM_CARD_KNIGHTMARE_PHOENIX
+	.2byte ITEM_CARD_KNIGHTMARE_UNICORN
+	.2byte ITEM_CARD_MEKK_KNIGHT_AVRAM
+	.2byte ITEM_CARD_RED_REBOOT
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGFlamingEternity::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_FLAMING_ETERNITY
+	message gText_TCGFlamingEternityClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGFlamingEternity
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGFlamingEternity:
+	.2byte ITEM_CARD_BIG_TUSKED_MAMMOTH
+	.2byte ITEM_CARD_CHIRON_THE_MAGE
+	.2byte ITEM_CARD_DECK_DEVASTATION_VIRUS
+	.2byte ITEM_CARD_GATLING_DRAGON
+	.2byte ITEM_CARD_GOLEM_SENTRY
+	.2byte ITEM_CARD_GRANMARG_THE_ROCK_MONARCH
+	.2byte ITEM_CARD_HAND_OF_NEPHTHYS
+	.2byte ITEM_CARD_INSECT_KNIGHT
+	.2byte ITEM_CARD_KING_DRAGUN
+	.2byte ITEM_CARD_LIGHTNING_VORTEX
+	.2byte ITEM_CARD_PHOENIX_WING_WIND_BLAST
+	.2byte ITEM_CARD_RESCUE_CAT
+	.2byte ITEM_CARD_SACRED_PHOENIX_OF_NEPHTHYS
+	.2byte ITEM_CARD_THE_BIG_MARCH_OF_ANIMALS
+	.2byte ITEM_CARD_THE_DARK_HEX_SEALED_FUSION
+	.2byte ITEM_CARD_THE_EARTH_HEX_SEALED_FUSION
+	.2byte ITEM_CARD_THE_LIGHT_HEX_SEALED_FUSION
+	.2byte ITEM_CARD_THREATENING_ROAR
+	.2byte ITEM_CARD_ULTIMATE_INSECT_LV5
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGForceoftheBreaker::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_FORCE_OF_THE_BREAKER
+	message gText_TCGForceoftheBreakerClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGForceoftheBreaker
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGForceoftheBreaker:
+	.2byte ITEM_CARD_ERADICATOR_EPIDEMIC_VIRUS
+	.2byte ITEM_CARD_RAIZA_THE_STORM_MONARCH
+	.2byte ITEM_CARD_VOLCANIC_SCATTERSHOT
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGGalacticOverlord::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_GALACTIC_OVERLORD
+	message gText_TCGGalacticOverlordClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGGalacticOverlord
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGGalacticOverlord:
+	.2byte ITEM_CARD_NIGHT_BEAM
+	.2byte ITEM_CARD_NUMBER_11_BIG_EYE
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGGatesoftheUnderworldStructureDeck::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_GATES_OF_THE_UNDERWORLD_STRUCTURE_DECK
+	message gText_TCGGatesoftheUnderworldStructureDeckClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGGatesoftheUnderworldStructureDeck
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGGatesoftheUnderworldStructureDeck:
+	.2byte ITEM_CARD_ALLURE_OF_DARKNESS
+	.2byte ITEM_CARD_BEIIGE_VANGUARD_OF_DARK_WORLD
+	.2byte ITEM_CARD_BROWW_HUNTSMAN_OF_DARK_WORLD
+	.2byte ITEM_CARD_BRRON_MAD_KING_OF_DARK_WORLD
+	.2byte ITEM_CARD_CARD_DESTRUCTION
+	.2byte ITEM_CARD_DARK_DEAL
+	.2byte ITEM_CARD_DARK_WORLD_LIGHTNING
+	.2byte ITEM_CARD_DECK_DEVASTATION_VIRUS
+	.2byte ITEM_CARD_ERADICATOR_EPIDEMIC_VIRUS
+	.2byte ITEM_CARD_ESCAPE_FROM_THE_DARK_DIMENSION
+	.2byte ITEM_CARD_GOLDD_WU_LORD_OF_DARK_WORLD
+	.2byte ITEM_CARD_GRAPHA_DRAGON_LORD_OF_DARK_WORLD
+	.2byte ITEM_CARD_GREN_TACTICIAN_OF_DARK_WORLD
+	.2byte ITEM_CARD_MIND_CRUSH
+	.2byte ITEM_CARD_NEWDORIA
+	.2byte ITEM_CARD_REIGN_BEAUX_OVERLORD_OF_DARK_WORLD
+	.2byte ITEM_CARD_RENGE_GATEKEEPER_OF_DARK_WORLD
+	.2byte ITEM_CARD_SANGAN
+	.2byte ITEM_CARD_SCARR_SCOUT_OF_DARK_WORLD
+	.2byte ITEM_CARD_SILLVA_WARLORD_OF_DARK_WORLD
+	.2byte ITEM_CARD_SNOWW_UNLIGHT_OF_DARK_WORLD
+	.2byte ITEM_CARD_TERRAFORMING
+	.2byte ITEM_CARD_TRAGOEDIA
+	.2byte ITEM_CARD_ZURE_KNIGHT_OF_DARK_WORLD
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGGeargiaRampageStructureDeck::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_GEARGIA_RAMPAGE_STRUCTURE_DECK
+	message gText_TCGGeargiaRampageStructureDeckClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGGeargiaRampageStructureDeck
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGGeargiaRampageStructureDeck:
+	.2byte ITEM_CARD_CARD_TROOPER
+	.2byte ITEM_CARD_CREATURE_SWAP
+	.2byte ITEM_CARD_FISSURE
+	.2byte ITEM_CARD_GIANT_RAT
+	.2byte ITEM_CARD_LIMITER_REMOVAL
+	.2byte ITEM_CARD_SMASHING_GROUND
+	.2byte ITEM_CARD_SWIFT_SCARECROW
+	.2byte ITEM_CARD_TERRAFORMING
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGGenerationForce::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_GENERATION_FORCE
+	message gText_TCGGenerationForceClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGGenerationForce
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGGenerationForce:
+	.2byte ITEM_CARD_GEM_ELEPHANT
+	.2byte ITEM_CARD_LEVIAIR_THE_SEA_DRAGON
+	.2byte ITEM_CARD_NUMBER_17_LEVIATHAN_DRAGON
+	.2byte ITEM_CARD_STEELSWARM_ROACH
+	.2byte ITEM_CARD_WIND_UP_FACTORY
+	.2byte ITEM_CARD_WIND_UP_MAGICIAN
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGGladiatorsAssault::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_GLADIATOR_S_ASSAULT
+	message gText_TCGGladiatorsAssaultClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGGladiatorsAssault
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGGladiatorsAssault:
+	.2byte ITEM_CARD_GIL_GARTH
+	.2byte ITEM_CARD_GLADIATOR_BEAST_BESTIARI
+	.2byte ITEM_CARD_GLADIATOR_BEAST_GAIODIAZ
+	.2byte ITEM_CARD_GLADIATOR_BEAST_HERAKLINOS
+	.2byte ITEM_CARD_GLADIATOR_BEAST_LAQUARI
+	.2byte ITEM_CARD_GLADIATOR_BEAST_MURMILLO
+	.2byte ITEM_CARD_LIGHT_IMPRISONING_MIRROR
+	.2byte ITEM_CARD_SHADOW_IMPRISONING_MIRROR
+	.2byte ITEM_CARD_SOUL_TAKER
+	.2byte ITEM_CARD_TEST_TIGER
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGHEROStrikeStructureDeck::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_HERO_STRIKE_STRUCTURE_DECK
+	message gText_TCGHEROStrikeStructureDeckClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGHEROStrikeStructureDeck
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGHEROStrikeStructureDeck:
+	.2byte ITEM_CARD_BOTTOMLESS_TRAP_HOLE
+	.2byte ITEM_CARD_CALL_OF_THE_HAUNTED
+	.2byte ITEM_CARD_CARD_TROOPER
+	.2byte ITEM_CARD_COMPULSORY_EVACUATION_DEVICE
+	.2byte ITEM_CARD_ELEMENTAL_HERO_WILDHEART
+	.2byte ITEM_CARD_ELEMENTAL_HERO_WOODSMAN
+	.2byte ITEM_CARD_HONEST
+	.2byte ITEM_CARD_POT_OF_DUALITY
+	.2byte ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
+	.2byte ITEM_CARD_SUMMONER_MONK
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGIgnitionAssault::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_IGNITION_ASSAULT
+	message gText_TCGIgnitionAssaultClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGIgnitionAssault
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGIgnitionAssault:
+	.2byte ITEM_CARD_LIGHTNING_STORM
+	.2byte ITEM_CARD_SHINY_BLACK_C_SQUADDER
+	.2byte ITEM_CARD_SKY_STRIKER_ACE_ROZE
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGInvasionofChaos::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_INVASION_OF_CHAOS
+	message gText_TCGInvasionofChaosClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGInvasionofChaos
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGInvasionofChaos:
+	.2byte ITEM_CARD_AMPHIBIOUS_BUGROTH_MK_3
+	.2byte ITEM_CARD_BERSERK_GORILLA
+	.2byte ITEM_CARD_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING
+	.2byte ITEM_CARD_BLAZING_INPACHI
+	.2byte ITEM_CARD_BOWGANIAN
+	.2byte ITEM_CARD_CHAIN_DISAPPEARANCE
+	.2byte ITEM_CARD_CHAOS_EMPEROR_DRAGON_ENVOY_OF_THE_END
+	.2byte ITEM_CARD_CHAOS_SORCERER
+	.2byte ITEM_CARD_COMPULSORY_EVACUATION_DEVICE
+	.2byte ITEM_CARD_CRIMSON_NINJA
+	.2byte ITEM_CARD_CURSED_SEAL_OF_THE_FORBIDDEN_SPELL
+	.2byte ITEM_CARD_DARK_MAGICIAN_OF_CHAOS
+	.2byte ITEM_CARD_DIMENSION_FUSION
+	.2byte ITEM_CARD_GIGANTES
+	.2byte ITEM_CARD_HYPER_HAMMERHEAD
+	.2byte ITEM_CARD_LEVIA_DRAGON_DAEDALUS
+	.2byte ITEM_CARD_MAD_DOG_OF_DARKNESS
+	.2byte ITEM_CARD_MANJU_OF_THE_TEN_THOUSAND_HANDS
+	.2byte ITEM_CARD_MANTICORE_OF_DARKNESS
+	.2byte ITEM_CARD_MATAZA_THE_ZAPPER
+	.2byte ITEM_CARD_NEO_BUG
+	.2byte ITEM_CARD_PINCH_HOPPER
+	.2byte ITEM_CARD_PRICKLE_FAIRY
+	.2byte ITEM_CARD_RELOAD
+	.2byte ITEM_CARD_RYU_KOKKI
+	.2byte ITEM_CARD_SACRED_CRANE
+	.2byte ITEM_CARD_SALVAGE
+	.2byte ITEM_CARD_SEA_SERPENT_WARRIOR_OF_DARKNESS
+	.2byte ITEM_CARD_SELF_DESTRUCT_BUTTON
+	.2byte ITEM_CARD_SILPHEED
+	.2byte ITEM_CARD_SMASHING_GROUND
+	.2byte ITEM_CARD_SOUL_TIGER
+	.2byte ITEM_CARD_STEALTH_BIRD
+	.2byte ITEM_CARD_STRIKE_NINJA
+	.2byte ITEM_CARD_TERRORKING_SALMON
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGInvasionVengeance::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_INVASION_VENGEANCE
+	message gText_TCGInvasionVengeanceClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGInvasionVengeance
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGInvasionVengeance:
+	.2byte ITEM_CARD_DIMENSIONAL_BARRIER
+	.2byte ITEM_CARD_METEOR_BLACK_COMET_DRAGON
+	.2byte ITEM_CARD_PALEOZOIC_DINOMISCHUS
+	.2byte ITEM_CARD_PALEOZOIC_MARRELLA
+	.2byte ITEM_CARD_PALEOZOIC_OPABINIA
+	.2byte ITEM_CARD_TOADALLY_AWESOME
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGJudgmentoftheLight::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_JUDGMENT_OF_THE_LIGHT
+	message gText_TCGJudgmentoftheLightClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGJudgmentoftheLight
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGJudgmentoftheLight:
+	.2byte ITEM_CARD_ARCHFIEND_CAVALRY
+	.2byte ITEM_CARD_ARCHFIEND_HEIRESS
+	.2byte ITEM_CARD_FLYING_C_
+	.2byte ITEM_CARD_NUMBER_66_MASTER_KEY_BEETLE
+	.2byte ITEM_CARD_TRAPTRIX_ATRAX
+	.2byte ITEM_CARD_TRAPTRIX_MYRMELEO
+	.2byte ITEM_CARD_TRAPTRIX_NEPENTHES
+	.2byte ITEM_CARD_TRAPTRIX_TRAP_HOLE_NIGHTMARE
+	.2byte ITEM_CARD_XYZ_ENCORE
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGLabyrinthofNightmare::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_LABYRINTH_OF_NIGHTMARE
+	message gText_TCGLabyrinthofNightmareClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGLabyrinthofNightmare
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGLabyrinthofNightmare:
+	.2byte ITEM_CARD_AMAZONESS_ARCHER
+	.2byte ITEM_CARD_AQUA_SPIRIT
+	.2byte ITEM_CARD_BAZOO_THE_SOUL_EATER
+	.2byte ITEM_CARD_CARD_OF_SAFE_RETURN
+	.2byte ITEM_CARD_DE_FUSION
+	.2byte ITEM_CARD_EARTHBOUND_SPIRIT
+	.2byte ITEM_CARD_GEMINI_ELF
+	.2byte ITEM_CARD_GILASAURUS
+	.2byte ITEM_CARD_HUMANOID_SLIME
+	.2byte ITEM_CARD_JAR_OF_GREED
+	.2byte ITEM_CARD_JOWGEN_THE_SPIRITUALIST
+	.2byte ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
+	.2byte ITEM_CARD_MAGE_POWER
+	.2byte ITEM_CARD_MAGIC_CYLINDER
+	.2byte ITEM_CARD_MASK_OF_RESTRICT
+	.2byte ITEM_CARD_OFFERINGS_TO_THE_DOOMED
+	.2byte ITEM_CARD_SKULL_LAIR
+	.2byte ITEM_CARD_SPIRITUALISM
+	.2byte ITEM_CARD_THE_FORGIVING_MAIDEN
+	.2byte ITEM_CARD_THE_LAST_WARRIOR_FROM_ANOTHER_PLANET
+	.2byte ITEM_CARD_TORRENTIAL_TRIBUTE
+	.2byte ITEM_CARD_UNITED_WE_STAND
+	.2byte ITEM_CARD_ZOMBYRA_THE_DARK
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGLegacyofDarkness::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_LEGACY_OF_DARKNESS
+	message gText_TCGLegacyofDarknessClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGLegacyofDarkness
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGLegacyofDarkness:
+	.2byte ITEM_CARD_A_LEGENDARY_OCEAN
+	.2byte ITEM_CARD_AIRKNIGHT_PARSHATH
+	.2byte ITEM_CARD_ASURA_PRIEST
+	.2byte ITEM_CARD_BLAST_WITH_CHAIN
+	.2byte ITEM_CARD_BOTTOMLESS_TRAP_HOLE
+	.2byte ITEM_CARD_CREATURE_SWAP
+	.2byte ITEM_CARD_DARK_BALTER_THE_TERRIBLE
+	.2byte ITEM_CARD_DARK_RULER_HA_DES
+	.2byte ITEM_CARD_DRAGON_S_RAGE
+	.2byte ITEM_CARD_DROP_OFF
+	.2byte ITEM_CARD_EMERGENCY_PROVISIONS
+	.2byte ITEM_CARD_EXILED_FORCE
+	.2byte ITEM_CARD_FIBER_JAR
+	.2byte ITEM_CARD_FIEND_SKULL_DRAGON
+	.2byte ITEM_CARD_FRONTIER_WISEMAN
+	.2byte ITEM_CARD_INABA_WHITE_RABBIT
+	.2byte ITEM_CARD_INJECTION_FAIRY_LILY
+	.2byte ITEM_CARD_LESSER_FIEND
+	.2byte ITEM_CARD_MARAUDING_CAPTAIN
+	.2byte ITEM_CARD_OPTICLOPS
+	.2byte ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
+	.2byte ITEM_CARD_ROYAL_OPPRESSION
+	.2byte ITEM_CARD_RYU_SENSHI
+	.2byte ITEM_CARD_SECOND_COIN_TOSS
+	.2byte ITEM_CARD_SERPENTINE_PRINCESS
+	.2byte ITEM_CARD_SPEAR_DRAGON
+	.2byte ITEM_CARD_SUPER_REJUVENATION
+	.2byte ITEM_CARD_THE_DRAGON_DWELLING_IN_THE_CAVE
+	.2byte ITEM_CARD_THROWSTONE_UNIT
+	.2byte ITEM_CARD_THUNDER_NYAN_NYAN
+	.2byte ITEM_CARD_TWIN_HEADED_BEHEMOTH
+	.2byte ITEM_CARD_YATA_GARASU
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGLegacyofDestruction::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_LEGACY_OF_DESTRUCTION
+	message gText_TCGLegacyofDestructionClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGLegacyofDestruction
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGLegacyofDestruction:
+	.2byte ITEM_CARD_METALTRONUS
+	.2byte ITEM_CARD_SANGEN_KAIMEN
+	.2byte ITEM_CARD_SANGEN_SUMMONING
+	.2byte ITEM_CARD_SNAKE_EYES_DIABELLSTAR
+	.2byte ITEM_CARD_TENPAI_DRAGON_CHUNDRA
+	.2byte ITEM_CARD_TENPAI_DRAGON_FADRA
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGLegacyoftheValiant::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_LEGACY_OF_THE_VALIANT
+	message gText_TCGLegacyoftheValiantClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGLegacyoftheValiant
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGLegacyoftheValiant:
+	.2byte ITEM_CARD_DOWNERD_MAGICIAN
+	.2byte ITEM_CARD_EVILSWARM_EXCITON_KNIGHT
+	.2byte ITEM_CARD_MOBIUS_THE_MEGA_MONARCH
+	.2byte ITEM_CARD_NUMBER_101_SILENT_HONOR_ARK
+	.2byte ITEM_CARD_SHARED_RIDE
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGLegendofBlueEyesWhiteDragon::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_LEGEND_OF_BLUE_EYES_WHITE_DRAGON
+	message gText_TCGLegendofBlueEyesWhiteDragonClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGLegendofBlueEyesWhiteDragon
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGLegendofBlueEyesWhiteDragon:
+	.2byte ITEM_CARD_AQUA_MADOOR
+	.2byte ITEM_CARD_ARMED_NINJA
+	.2byte ITEM_CARD_BLUE_EYES_WHITE_DRAGON
+	.2byte ITEM_CARD_DARK_HOLE
+	.2byte ITEM_CARD_DARK_MAGICIAN
+	.2byte ITEM_CARD_DARKFIRE_DRAGON
+	.2byte ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
+	.2byte ITEM_CARD_EXODIA_THE_FORBIDDEN_ONE
+	.2byte ITEM_CARD_FINAL_FLAME
+	.2byte ITEM_CARD_FISSURE
+	.2byte ITEM_CARD_FLAME_GHOST
+	.2byte ITEM_CARD_FLAME_SWORDSMAN
+	.2byte ITEM_CARD_GAIA_THE_FIERCE_KNIGHT
+	.2byte ITEM_CARD_GAIA_THE_DRAGON_CHAMPION
+	.2byte ITEM_CARD_GIANT_SOLDIER_OF_STONE
+	.2byte ITEM_CARD_HANE_HANE
+	.2byte ITEM_CARD_LEFT_ARM_OF_THE_FORBIDDEN_ONE
+	.2byte ITEM_CARD_LEFT_LEG_OF_THE_FORBIDDEN_ONE
+	.2byte ITEM_CARD_MAN_EATER_BUG
+	.2byte ITEM_CARD_MONSTER_REBORN
+	.2byte ITEM_CARD_MYSTICAL_ELF
+	.2byte ITEM_CARD_POT_OF_GREED
+	.2byte ITEM_CARD_RAIGEKI
+	.2byte ITEM_CARD_RED_EYES_BLACK_DRAGON
+	.2byte ITEM_CARD_REMOVE_TRAP
+	.2byte ITEM_CARD_RIGHT_ARM_OF_THE_FORBIDDEN_ONE
+	.2byte ITEM_CARD_RIGHT_LEG_OF_THE_FORBIDDEN_ONE
+	.2byte ITEM_CARD_SPIRIT_OF_THE_HARP
+	.2byte ITEM_CARD_STOP_DEFENSE
+	.2byte ITEM_CARD_SWORDS_OF_REVEALING_LIGHT
+	.2byte ITEM_CARD_TRAP_HOLE
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGLightofDestruction::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_LIGHT_OF_DESTRUCTION
+	message gText_TCGLightofDestructionClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGLightofDestruction
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGLightofDestruction:
+	.2byte ITEM_CARD_AURKUS_LIGHTSWORN_DRUID
+	.2byte ITEM_CARD_CELESTIA_LIGHTSWORN_ANGEL
+	.2byte ITEM_CARD_FOSSIL_DYNA_PACHYCEPHALO
+	.2byte ITEM_CARD_GAROTH_LIGHTSWORN_WARRIOR
+	.2byte ITEM_CARD_GLADIATOR_BEAST_GYZARUS
+	.2byte ITEM_CARD_HONEST
+	.2byte ITEM_CARD_JUDGMENT_DRAGON
+	.2byte ITEM_CARD_LUMINA_LIGHTSWORN_SUMMONER
+	.2byte ITEM_CARD_LYLA_LIGHTSWORN_SORCERESS
+	.2byte ITEM_CARD_RYKO_LIGHTSWORN_HUNTER
+	.2byte ITEM_CARD_SOLAR_RECHARGE
+	.2byte ITEM_CARD_SUBSTITOAD
+	.2byte ITEM_CARD_SUMMON_LIMIT
+	.2byte ITEM_CARD_WULF_LIGHTSWORN_BEAST
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGLightningOverdrive::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_LIGHTNING_OVERDRIVE
+	message gText_TCGLightningOverdriveClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGLightningOverdrive
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGLightningOverdrive:
+	.2byte ITEM_CARD_BLACK_ROSE_DRAGON
+	.2byte ITEM_CARD_TRAPTRIX_VESICULO
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGLordoftheTachyonGalaxy::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_LORD_OF_THE_TACHYON_GALAXY
+	message gText_TCGLordoftheTachyonGalaxyClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGLordoftheTachyonGalaxy
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGLordoftheTachyonGalaxy:
+	.2byte ITEM_CARD_BLASTER_DRAGON_RULER_OF_INFERNOS
+	.2byte ITEM_CARD_BURNER_DRAGON_RULER_OF_SPARKS
+	.2byte ITEM_CARD_KING_OF_THE_FERAL_IMPS
+	.2byte ITEM_CARD_LIGHTNING_DRAGON_RULER_OF_DRAFTS
+	.2byte ITEM_CARD_MECHA_PHANTOM_BEAST_DRACOSSACK
+	.2byte ITEM_CARD_REACTAN_DRAGON_RULER_OF_PEBBLES
+	.2byte ITEM_CARD_REDOX_DRAGON_RULER_OF_BOULDERS
+	.2byte ITEM_CARD_SACRED_SWORD_OF_SEVEN_STARS
+	.2byte ITEM_CARD_SPELLBOOK_OF_JUDGMENT
+	.2byte ITEM_CARD_STREAM_DRAGON_RULER_OF_DROPLETS
+	.2byte ITEM_CARD_TEMPEST_DRAGON_RULER_OF_STORMS
+	.2byte ITEM_CARD_TIDAL_DRAGON_RULER_OF_WATERFALLS
+	.2byte ITEM_CARD_TOTEM_BIRD
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGLostSanctuaryStructureDeck::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_LOST_SANCTUARY_STRUCTURE_DECK
+	message gText_TCGLostSanctuaryStructureDeckClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGLostSanctuaryStructureDeck
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGLostSanctuaryStructureDeck:
+	.2byte ITEM_CARD_AIRKNIGHT_PARSHATH
+	.2byte ITEM_CARD_BECKONING_LIGHT
+	.2byte ITEM_CARD_BURIAL_FROM_A_DIFFERENT_DIMENSION
+	.2byte ITEM_CARD_CARDS_FROM_THE_SKY
+	.2byte ITEM_CARD_CONSECRATED_LIGHT
+	.2byte ITEM_CARD_HANEWATA
+	.2byte ITEM_CARD_HONEST
+	.2byte ITEM_CARD_MASTER_HYPERION
+	.2byte ITEM_CARD_RETURN_FROM_THE_DIFFERENT_DIMENSION
+	.2byte ITEM_CARD_SHINING_ANGEL
+	.2byte ITEM_CARD_SMASHING_GROUND
+	.2byte ITEM_CARD_SOLEMN_JUDGMENT
+	.2byte ITEM_CARD_TERRAFORMING
+	.2byte ITEM_CARD_THE_AGENT_OF_MIRACLES_JUPITER
+	.2byte ITEM_CARD_THE_AGENT_OF_MYSTERY_EARTH
+	.2byte ITEM_CARD_TORRENTIAL_TRIBUTE
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGMachinaMayhemStructureDeck::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_MACHINA_MAYHEM_STRUCTURE_DECK
+	message gText_TCGMachinaMayhemStructureDeckClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGMachinaMayhemStructureDeck
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGMachinaMayhemStructureDeck:
+	.2byte ITEM_CARD_ARMORED_CYBERN
+	.2byte ITEM_CARD_CEASEFIRE
+	.2byte ITEM_CARD_CIPHER_SOLDIER
+	.2byte ITEM_CARD_COMPULSORY_EVACUATION_DEVICE
+	.2byte ITEM_CARD_CYBER_DRAGON
+	.2byte ITEM_CARD_CYBER_VALLEY
+	.2byte ITEM_CARD_DIMENSIONAL_PRISON
+	.2byte ITEM_CARD_MACHINE_DUPLICATION
+	.2byte ITEM_CARD_PROHIBITION
+	.2byte ITEM_CARD_SHRINK
+	.2byte ITEM_CARD_SWORDS_OF_REVEALING_LIGHT
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGMachineReactorStructureDeck::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_MACHINE_REACTOR_STRUCTURE_DECK
+	message gText_TCGMachineReactorStructureDeckClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGMachineReactorStructureDeck
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGMachineReactorStructureDeck:
+	.2byte ITEM_CARD_CALL_OF_THE_HAUNTED
+	.2byte ITEM_CARD_CARD_TROOPER
+	.2byte ITEM_CARD_FIENDISH_CHAIN
+	.2byte ITEM_CARD_GALAXY_CYCLONE
+	.2byte ITEM_CARD_GIGANTES
+	.2byte ITEM_CARD_LIMITER_REMOVAL
+	.2byte ITEM_CARD_MACHINE_DUPLICATION
+	.2byte ITEM_CARD_MAXX_C_
+	.2byte ITEM_CARD_TERRAFORMING
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGMagiciansForce::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_MAGICIAN_S_FORCE
+	message gText_TCGMagiciansForceClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGMagiciansForce
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGMagiciansForce:
+	.2byte ITEM_CARD_BIG_BANG_SHOT
+	.2byte ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR
+	.2byte ITEM_CARD_D_D_CRAZY_BEAST
+	.2byte ITEM_CARD_DARK_BLADE
+	.2byte ITEM_CARD_DARK_MAGICIAN_GIRL
+	.2byte ITEM_CARD_DARK_PALADIN
+	.2byte ITEM_CARD_DARK_SCORPION_CLIFF_THE_TRAP_REMOVER
+	.2byte ITEM_CARD_DES_DENDLE
+	.2byte ITEM_CARD_DES_KOALA
+	.2byte ITEM_CARD_GIANT_ORC
+	.2byte ITEM_CARD_LUSTER_DRAGON
+	.2byte ITEM_CARD_MAGICAL_MERCHANT
+	.2byte ITEM_CARD_MAGICAL_SCIENTIST
+	.2byte ITEM_CARD_MIRACLE_RESTORING
+	.2byte ITEM_CARD_MY_BODY_AS_A_SHIELD
+	.2byte ITEM_CARD_NEKO_MANE_KING
+	.2byte ITEM_CARD_OPPRESSED_PEOPLE
+	.2byte ITEM_CARD_PALADIN_OF_WHITE_DRAGON
+	.2byte ITEM_CARD_PITCH_BLACK_POWER_STONE
+	.2byte ITEM_CARD_POISON_OF_THE_OLD_MAN
+	.2byte ITEM_CARD_RIVALRY_OF_WARLORDS
+	.2byte ITEM_CARD_ROULETTE_BARREL
+	.2byte ITEM_CARD_ROYAL_MAGICAL_LIBRARY
+	.2byte ITEM_CARD_SECRET_BARREL
+	.2byte ITEM_CARD_SKILLED_DARK_MAGICIAN
+	.2byte ITEM_CARD_SKILLED_WHITE_MAGICIAN
+	.2byte ITEM_CARD_SPELL_CANCELLER
+	.2byte ITEM_CARD_TRIBE_INFECTING_VIRUS
+	.2byte ITEM_CARD_WAVE_MOTION_CANNON
+	.2byte ITEM_CARD_WHITE_DRAGON_RITUAL
+	.2byte ITEM_CARD_X_HEAD_CANNON
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGMasterofPendulumStructureDeck::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_MASTER_OF_PENDULUM_STRUCTURE_DECK
+	message gText_TCGMasterofPendulumStructureDeckClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGMasterofPendulumStructureDeck
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGMasterofPendulumStructureDeck:
+	.2byte ITEM_CARD_CHAOS_HUNTER
+	.2byte ITEM_CARD_ERADICATOR_EPIDEMIC_VIRUS
+	.2byte ITEM_CARD_FUSILIER_DRAGON_THE_DUAL_MODE_BEAST
+	.2byte ITEM_CARD_LYLA_LIGHTSWORN_SORCERESS
+	.2byte ITEM_CARD_MYSTICAL_SPACE_TYPHOON
+	.2byte ITEM_CARD_PERFORMAPAL_SILVER_CLAW
+	.2byte ITEM_CARD_PERFORMAPAL_SKULLCROBAT_JOKER
+	.2byte ITEM_CARD_SACRED_SWORD_OF_SEVEN_STARS
+	.2byte ITEM_CARD_SCAPEGOAT
+	.2byte ITEM_CARD_SKY_IRIS
+	.2byte ITEM_CARD_SUMMONER_S_ART
+	.2byte ITEM_CARD_TERRAFORMING
+	.2byte ITEM_CARD_TORRENTIAL_TRIBUTE
+	.2byte ITEM_CARD_TRAPTRIX_TRAP_HOLE_NIGHTMARE
+	.2byte ITEM_CARD_X_SABER_AIRBELLUM
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGMaximumCrisis::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_MAXIMUM_CRISIS
+	message gText_TCGMaximumCrisisClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGMaximumCrisis
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGMaximumCrisis:
+	.2byte ITEM_CARD_ARIEL_PRIESTESS_OF_THE_NEKROZ
+	.2byte ITEM_CARD_ASH_BLOSSOM_JOYOUS_SPRING
+	.2byte ITEM_CARD_BAOBABOON
+	.2byte ITEM_CARD_DINOMIGHT_KNIGHT_THE_TRUE_DRACOFIGHTER
+	.2byte ITEM_CARD_DRAGONIC_DIAGRAM
+	.2byte ITEM_CARD_MASTER_PEACE_THE_TRUE_DRACOSLAYING_KING
+	.2byte ITEM_CARD_TORNADO_DRAGON
+	.2byte ITEM_CARD_TRUE_DRACO_HERITAGE
+	.2byte ITEM_CARD_TRUE_KING_S_RETURN
+	.2byte ITEM_CARD_ZOODIAC_CHAKANINE
+	.2byte ITEM_CARD_ZOODIAC_HAMMERKONG
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGMetalRaiders::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_METAL_RAIDERS
+	message gText_TCGMetalRaidersClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGMetalRaiders
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGMetalRaiders:
+	.2byte ITEM_CARD_7_COLORED_FISH
+	.2byte ITEM_CARD_BICKURIBOX
+	.2byte ITEM_CARD_BLACK_SKULL_DRAGON
+	.2byte ITEM_CARD_BLOCK_ATTACK
+	.2byte ITEM_CARD_CANNON_SOLDIER
+	.2byte ITEM_CARD_CASTLE_OF_DARK_ILLUSIONS
+	.2byte ITEM_CARD_CATAPULT_TURTLE
+	.2byte ITEM_CARD_CHANGE_OF_HEART
+	.2byte ITEM_CARD_CRASS_CLOWN
+	.2byte ITEM_CARD_DARK_ELF
+	.2byte ITEM_CARD_DREAM_CLOWN
+	.2byte ITEM_CARD_EMPRESS_JUDGE
+	.2byte ITEM_CARD_FAKE_TRAP
+	.2byte ITEM_CARD_GIGA_TECH_WOLF
+	.2byte ITEM_CARD_HEAVY_STORM
+	.2byte ITEM_CARD_HORN_OF_HEAVEN
+	.2byte ITEM_CARD_JIRAI_GUMO
+	.2byte ITEM_CARD_KURIBOH
+	.2byte ITEM_CARD_LABYRINTH_TANK
+	.2byte ITEM_CARD_MAGIC_JAMMER
+	.2byte ITEM_CARD_MAGICIAN_OF_FAITH
+	.2byte ITEM_CARD_MASK_OF_DARKNESS
+	.2byte ITEM_CARD_MASKED_SORCERER
+	.2byte ITEM_CARD_MILUS_RADIANT
+	.2byte ITEM_CARD_MIRROR_FORCE
+	.2byte ITEM_CARD_MUKA_MUKA
+	.2byte ITEM_CARD_PREVENT_RAT
+	.2byte ITEM_CARD_PRINCESS_OF_TSURUGI
+	.2byte ITEM_CARD_PUNISHED_EAGLE
+	.2byte ITEM_CARD_ROARING_OCEAN_SNAKE
+	.2byte ITEM_CARD_ROBBIN_GOBLIN
+	.2byte ITEM_CARD_SANGAN
+	.2byte ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT
+	.2byte ITEM_CARD_SOLEMN_JUDGMENT
+	.2byte ITEM_CARD_SUMMONED_SKULL
+	.2byte ITEM_CARD_THE_LITTLE_SWORDSMAN_OF_AILE
+	.2byte ITEM_CARD_THUNDER_DRAGON
+	.2byte ITEM_CARD_TREMENDOUS_FIRE
+	.2byte ITEM_CARD_TWIN_HEADED_THUNDER_DRAGON
+	.2byte ITEM_CARD_WHITE_MAGICAL_HAT
+	.2byte ITEM_CARD_WITCH_OF_THE_BLACK_FOREST
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGOnslaughtoftheFireKingsStructureDeck::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_ONSLAUGHT_OF_THE_FIRE_KINGS_STRUCTURE_DECK
+	message gText_TCGOnslaughtoftheFireKingsStructureDeckClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGOnslaughtoftheFireKingsStructureDeck
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGOnslaughtoftheFireKingsStructureDeck:
+	.2byte ITEM_CARD_BLAST_WITH_CHAIN
+	.2byte ITEM_CARD_CALL_OF_THE_HAUNTED
+	.2byte ITEM_CARD_CREATURE_SWAP
+	.2byte ITEM_CARD_HORN_OF_THE_PHANTOM_BEAST
+	.2byte ITEM_CARD_MANTICORE_OF_DARKNESS
+	.2byte ITEM_CARD_NIGHTMARE_WHEEL
+	.2byte ITEM_CARD_PHOENIX_WING_WIND_BLAST
+	.2byte ITEM_CARD_POT_OF_DUALITY
+	.2byte ITEM_CARD_SACRED_PHOENIX_OF_NEPHTHYS
+	.2byte ITEM_CARD_UFO_TURTLE
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGOrderofChaos::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_ORDER_OF_CHAOS
+	message gText_TCGOrderofChaosClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGOrderofChaos
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGOrderofChaos:
+	.2byte ITEM_CARD_M_X_SABER_INVOKER
+	.2byte ITEM_CARD_MASKED_NINJA_EBISU
+	.2byte ITEM_CARD_NINJA_GRANDMASTER_HANZO
+	.2byte ITEM_CARD_UPSTART_GOLDEN_NINJA
+	.2byte ITEM_CARD_WHITE_DRAGON_NINJA
+	.2byte ITEM_CARD_WIND_UP_RAT
+	.2byte ITEM_CARD_WIND_UP_SHARK
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGPendulumDominationStructureDeck::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_PENDULUM_DOMINATION_STRUCTURE_DECK
+	message gText_TCGPendulumDominationStructureDeckClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGPendulumDominationStructureDeck
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGPendulumDominationStructureDeck:
+	.2byte ITEM_CARD_ALLURE_OF_DARKNESS
+	.2byte ITEM_CARD_ARMAGEDDON_KNIGHT
+	.2byte ITEM_CARD_DARK_ARMED_DRAGON
+	.2byte ITEM_CARD_DARK_GREPHER
+	.2byte ITEM_CARD_EMERGENCY_PROVISIONS
+	.2byte ITEM_CARD_ESCAPE_FROM_THE_DARK_DIMENSION
+	.2byte ITEM_CARD_FOOLISH_BURIAL
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGPhantomDarkness::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_PHANTOM_DARKNESS
+	message gText_TCGPhantomDarknessClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGPhantomDarkness
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGPhantomDarkness:
+	.2byte ITEM_CARD_ALLURE_OF_DARKNESS
+	.2byte ITEM_CARD_ARMAGEDDON_KNIGHT
+	.2byte ITEM_CARD_ARMORED_CYBERN
+	.2byte ITEM_CARD_CYBER_VALLEY
+	.2byte ITEM_CARD_DARK_ARMED_DRAGON
+	.2byte ITEM_CARD_DARK_GREPHER
+	.2byte ITEM_CARD_DARK_NEPHTHYS
+	.2byte ITEM_CARD_DARKLORD_ZERATO
+	.2byte ITEM_CARD_EARTH_EFFIGY
+	.2byte ITEM_CARD_ESCAPE_FROM_THE_DARK_DIMENSION
+	.2byte ITEM_CARD_GLADIATOR_BEAST_DARIUS
+	.2byte ITEM_CARD_GOBLIN_ZOMBIE
+	.2byte ITEM_CARD_LONEFIRE_BLOSSOM
+	.2byte ITEM_CARD_METAL_REFLECT_SLIME
+	.2byte ITEM_CARD_SIX_SAMURAI_UNITED
+	.2byte ITEM_CARD_SUPER_POLYMERIZATION
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGPhantomNightmare::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_PHANTOM_NIGHTMARE
+	message gText_TCGPhantomNightmareClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGPhantomNightmare
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGPhantomNightmare:
+	.2byte ITEM_CARD_JONGLEUR_GHOUL_ILLUSIONIST
+	.2byte ITEM_CARD_PROMETHEAN_PRINCESS_BESTOWER_OF_FLAMES
+	.2byte ITEM_CARD_SNAKE_EYES_POPLAR
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGPhantomRage::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_PHANTOM_RAGE
+	message gText_TCGPhantomRageClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGPhantomRage
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGPhantomRage:
+	.2byte ITEM_CARD_BRIGRAND_THE_GLORY_DRAGON
+	.2byte ITEM_CARD_DIVINE_ARSENAL_AA_ZEUS_SKY_THUNDER
+	.2byte ITEM_CARD_HIITA_THE_FIRE_CHARMER_ABLAZE
+	.2byte ITEM_CARD_TRI_BRIGADE_FRAKTALL
+	.2byte ITEM_CARD_TRI_BRIGADE_NERVALL
+	.2byte ITEM_CARD_TRI_BRIGADE_REVOLT
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGPharaohsServant::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_PHARAOH_S_SERVANT
+	message gText_TCGPharaohsServantClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGPharaohsServant
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGPharaohsServant:
+	.2byte ITEM_CARD_4_STARRED_LADYBUG_OF_DOOM
+	.2byte ITEM_CARD_BEAST_OF_TALWAR
+	.2byte ITEM_CARD_BUSTER_BLADER
+	.2byte ITEM_CARD_CALL_OF_THE_HAUNTED
+	.2byte ITEM_CARD_CEASEFIRE
+	.2byte ITEM_CARD_COLD_WAVE
+	.2byte ITEM_CARD_DNA_SURGERY
+	.2byte ITEM_CARD_DUST_TORNADO
+	.2byte ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT
+	.2byte ITEM_CARD_GOBLIN_ATTACK_FORCE
+	.2byte ITEM_CARD_GRAVITY_BIND
+	.2byte ITEM_CARD_IMPERIAL_ORDER
+	.2byte ITEM_CARD_ISLAND_TURTLE
+	.2byte ITEM_CARD_JINZO
+	.2byte ITEM_CARD_LIGHT_OF_INTERVENTION
+	.2byte ITEM_CARD_LIMITER_REMOVAL
+	.2byte ITEM_CARD_MORPHING_JAR_2
+	.2byte ITEM_CARD_NOBLEMAN_OF_CROSSOUT
+	.2byte ITEM_CARD_NOBLEMAN_OF_EXTERMINATION
+	.2byte ITEM_CARD_PREMATURE_BURIAL
+	.2byte ITEM_CARD_PROHIBITION
+	.2byte ITEM_CARD_SKY_SCOUT
+	.2byte ITEM_CARD_SOLEMN_WISHES
+	.2byte ITEM_CARD_THE_FIEND_MEGACYBER
+	.2byte ITEM_CARD_THOUSAND_EYES_RESTRICT
+	.2byte ITEM_CARD_TIME_SEAL
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGPharaonicGuardian::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_PHARAONIC_GUARDIAN
+	message gText_TCGPharaonicGuardianClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGPharaonicGuardian
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGPharaonicGuardian:
+	.2byte ITEM_CARD_ARSENAL_BUG
+	.2byte ITEM_CARD_BARREL_BEHIND_THE_DOOR
+	.2byte ITEM_CARD_BOOK_OF_LIFE
+	.2byte ITEM_CARD_BOOK_OF_MOON
+	.2byte ITEM_CARD_BOOK_OF_TAIYOU
+	.2byte ITEM_CARD_BYSER_SHOCK
+	.2byte ITEM_CARD_DES_LACOODA
+	.2byte ITEM_CARD_DON_ZALOOG
+	.2byte ITEM_CARD_GORA_TURTLE
+	.2byte ITEM_CARD_GRAVEKEEPER_S_ASSAILANT
+	.2byte ITEM_CARD_GRAVEKEEPER_S_GUARD
+	.2byte ITEM_CARD_GRAVEKEEPER_S_SPEAR_SOLDIER
+	.2byte ITEM_CARD_GRAVEKEEPER_S_SPY
+	.2byte ITEM_CARD_GRAVEKEEPER_S_WATCHER
+	.2byte ITEM_CARD_GUARDIAN_SPHINX
+	.2byte ITEM_CARD_INPACHI
+	.2byte ITEM_CARD_KABAZAULS
+	.2byte ITEM_CARD_KING_TIGER_WANGHU
+	.2byte ITEM_CARD_MAIDEN_OF_THE_AQUA
+	.2byte ITEM_CARD_METAMORPHOSIS
+	.2byte ITEM_CARD_MIRAGE_OF_NIGHTMARE
+	.2byte ITEM_CARD_NECROVALLEY
+	.2byte ITEM_CARD_NEEDLE_CEILING
+	.2byte ITEM_CARD_NEWDORIA
+	.2byte ITEM_CARD_NIGHTMARE_WHEEL
+	.2byte ITEM_CARD_PYRAMID_TURTLE
+	.2byte ITEM_CARD_RAIGEKI_BREAK
+	.2byte ITEM_CARD_REAPER_ON_THE_NIGHTMARE
+	.2byte ITEM_CARD_REASONING
+	.2byte ITEM_CARD_RECKLESS_GREED
+	.2byte ITEM_CARD_RING_OF_DESTRUCTION
+	.2byte ITEM_CARD_SASUKE_SAMURAI
+	.2byte ITEM_CARD_SPIRIT_REAPER
+	.2byte ITEM_CARD_SWARM_OF_LOCUSTS
+	.2byte ITEM_CARD_SWARM_OF_SCARABS
+	.2byte ITEM_CARD_TERRAFORMING
+	.2byte ITEM_CARD_TRAP_DUSTSHOOT
+	.2byte ITEM_CARD_YOMI_SHIP
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGPhotonHypernova::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_PHOTON_HYPERNOVA
+	message gText_TCGPhotonHypernovaClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGPhotonHypernova
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGPhotonHypernova:
+	.2byte ITEM_CARD_BYSTIAL_BALDRAKE
+	.2byte ITEM_CARD_GISHKI_GRIMNESS
+	.2byte ITEM_CARD_GRANGUIGNOL_THE_DUSK_DRAGON
+	.2byte ITEM_CARD_GREEN_NINJA
+	.2byte ITEM_CARD_JIOH_THE_GRAVITY_NINJA
+	.2byte ITEM_CARD_KASHTIRA_RISEHEART
+	.2byte ITEM_CARD_KASHTIRATHEOSIS
+	.2byte ITEM_CARD_PRESSURED_PLANET_WRAITSOTH
+	.2byte ITEM_CARD_TEARLAMENTS_KASHTIRA
+	.2byte ITEM_CARD_TRIPLE_TACTICS_THRUST
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGPhotonShockwave::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_PHOTON_SHOCKWAVE
+	message gText_TCGPhotonShockwaveClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGPhotonShockwave
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGPhotonShockwave:
+	.2byte ITEM_CARD_ALEXANDRITE_DRAGON
+	.2byte ITEM_CARD_EVOLZAR_LAGGIA
+	.2byte ITEM_CARD_GEM_KNIGHT_EMERALD
+	.2byte ITEM_CARD_GEM_TURTLE
+	.2byte ITEM_CARD_GISHKI_BEAST
+	.2byte ITEM_CARD_GOBLIN_POTHOLE_SQUAD
+	.2byte ITEM_CARD_RESCUE_RABBIT
+	.2byte ITEM_CARD_SENIOR_SILVER_NINJA
+	.2byte ITEM_CARD_WIND_UP_RABBIT
+	.2byte ITEM_CARD_WIND_UP_ZENMAINES
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGPoweroftheDuelist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_POWER_OF_THE_DUELIST
+	message gText_TCGPoweroftheDuelistClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGPoweroftheDuelist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGPoweroftheDuelist:
+	.2byte ITEM_CARD_CHIMERATECH_OVERDRAGON
+	.2byte ITEM_CARD_DESTINY_HERO_DASHER
+	.2byte ITEM_CARD_DESTINY_HERO_FEAR_MONGER
+	.2byte ITEM_CARD_NEO_SPACIAN_DARK_PANTHER
+	.2byte ITEM_CARD_OVERLOAD_FUSION
+	.2byte ITEM_CARD_SABERSAURUS
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGPoweroftheElements::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_POWER_OF_THE_ELEMENTS
+	message gText_TCGPoweroftheElementsClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGPoweroftheElements
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGPoweroftheElements:
+	.2byte ITEM_CARD_ALBAZ_THE_ASHEN
+	.2byte ITEM_CARD_BRILLIANT_ROSE
+	.2byte ITEM_CARD_DESTINY_HERO_DESTROYER_PHOENIX_ENFORCER
+	.2byte ITEM_CARD_GARURA_WINGS_OF_RESONANT_LIFE
+	.2byte ITEM_CARD_GEM_KNIGHT_LADY_ROSE_DIAMOND
+	.2byte ITEM_CARD_GEM_KNIGHT_QUARTZ
+	.2byte ITEM_CARD_GIGANTIC_SPRIGHT
+	.2byte ITEM_CARD_KURIKARA_DIVINCARNATE
+	.2byte ITEM_CARD_PRIMEVAL_PLANET_PERLEREINO
+	.2byte ITEM_CARD_SPRIGHT_BLUE
+	.2byte ITEM_CARD_SPRIGHT_CARROT
+	.2byte ITEM_CARD_SPRIGHT_ELF
+	.2byte ITEM_CARD_SPRIGHT_JET
+	.2byte ITEM_CARD_SPRIGHT_RED
+	.2byte ITEM_CARD_SPRIGHT_SMASHERS
+	.2byte ITEM_CARD_SPRIGHT_STARTER
+	.2byte ITEM_CARD_TEARLAMENTS_CRYME
+	.2byte ITEM_CARD_TEARLAMENTS_HAVNIS
+	.2byte ITEM_CARD_TEARLAMENTS_KALEIDO_HEART
+	.2byte ITEM_CARD_TEARLAMENTS_KITKALLOS
+	.2byte ITEM_CARD_TEARLAMENTS_MERRLI
+	.2byte ITEM_CARD_TEARLAMENTS_REINOHEART
+	.2byte ITEM_CARD_TEARLAMENTS_SCHEIREN
+	.2byte ITEM_CARD_TEARLAMENTS_SULLIEK
+	.2byte ITEM_CARD_ULTIMATE_SLAYER
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGPrimalOrigin::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_PRIMAL_ORIGIN
+	message gText_TCGPrimalOriginClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGPrimalOrigin
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGPrimalOrigin:
+	.2byte ITEM_CARD_ARTIFACT_MORALLTACH
+	.2byte ITEM_CARD_ARTIFACT_SANCTUM
+	.2byte ITEM_CARD_LUCENT_NETHERLORD_OF_DARK_WORLD
+	.2byte ITEM_CARD_MAJESTY_S_FIEND
+	.2byte ITEM_CARD_THESTALOS_THE_MEGA_MONARCH
+	.2byte ITEM_CARD_TRAPTRIX_DIONAEA
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGRageoftheAbyss::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_RAGE_OF_THE_ABYSS
+	message gText_TCGRageoftheAbyssClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGRageoftheAbyss
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGRageoftheAbyss:
+	.2byte ITEM_CARD_DOMINUS_IMPULSE
+	.2byte ITEM_CARD_HEART_OF_THE_BLUE_EYES
+	.2byte ITEM_CARD_LACRIMA_THE_CRIMSON_TEARS
+	.2byte ITEM_CARD_MULCHARMY_FUWALOS
+	.2byte ITEM_CARD_RED_EYES_BLACK_FULLMETAL_DRAGON
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGRagingBattle::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_RAGING_BATTLE
+	message gText_TCGRagingBattleClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGRagingBattle
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGRagingBattle:
+	.2byte ITEM_CARD_BLACK_WHIRLWIND
+	.2byte ITEM_CARD_BLACKWING_BLIZZARD_THE_FAR_NORTH
+	.2byte ITEM_CARD_BLACKWING_KALUT_THE_MOON_SHADOW
+	.2byte ITEM_CARD_BLACKWING_SHURA_THE_BLUE_FLAME
+	.2byte ITEM_CARD_BLACKWING_ARMED_WING
+	.2byte ITEM_CARD_DEEP_SEA_DIVA
+	.2byte ITEM_CARD_FORBIDDEN_CHALICE
+	.2byte ITEM_CARD_MIRROR_OF_OATHS
+	.2byte ITEM_CARD_SNOWMAN_EATER
+	.2byte ITEM_CARD_TRAP_STUN
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGRagingTempest::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_RAGING_TEMPEST
+	message gText_TCGRagingTempestClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGRagingTempest
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGRagingTempest:
+	.2byte ITEM_CARD_ENVOY_OF_CHAOS
+	.2byte ITEM_CARD_THAT_GRASS_LOOKS_GREENER
+	.2byte ITEM_CARD_VOID_FEAST
+	.2byte ITEM_CARD_ZOODIAC_BARRAGE
+	.2byte ITEM_CARD_ZOODIAC_BOARBOW
+	.2byte ITEM_CARD_ZOODIAC_BROADBULL
+	.2byte ITEM_CARD_ZOODIAC_COMBO
+	.2byte ITEM_CARD_ZOODIAC_DRIDENT
+	.2byte ITEM_CARD_ZOODIAC_RAMRAM
+	.2byte ITEM_CARD_ZOODIAC_RATPIER
+	.2byte ITEM_CARD_ZOODIAC_THOROUGHBLADE
+	.2byte ITEM_CARD_ZOODIAC_TIGERMORTAR
+	.2byte ITEM_CARD_ZOODIAC_WHIPTAIL
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGRealmofLightStructureDeck::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_REALM_OF_LIGHT_STRUCTURE_DECK
+	message gText_TCGRealmofLightStructureDeckClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGRealmofLightStructureDeck
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGRealmofLightStructureDeck:
+	.2byte ITEM_CARD_ALEXANDRITE_DRAGON
+	.2byte ITEM_CARD_AURKUS_LIGHTSWORN_DRUID
+	.2byte ITEM_CARD_BECKONING_LIGHT
+	.2byte ITEM_CARD_BREAKTHROUGH_SKILL
+	.2byte ITEM_CARD_CELESTIA_LIGHTSWORN_ANGEL
+	.2byte ITEM_CARD_CHARGE_OF_THE_LIGHT_BRIGADE
+	.2byte ITEM_CARD_FOOLISH_BURIAL
+	.2byte ITEM_CARD_GAROTH_LIGHTSWORN_WARRIOR
+	.2byte ITEM_CARD_HONEST
+	.2byte ITEM_CARD_JUDGMENT_DRAGON
+	.2byte ITEM_CARD_LUMINA_LIGHTSWORN_SUMMONER
+	.2byte ITEM_CARD_LYLA_LIGHTSWORN_SORCERESS
+	.2byte ITEM_CARD_MONSTER_REINCARNATION
+	.2byte ITEM_CARD_NECRO_GARDNA
+	.2byte ITEM_CARD_RYKO_LIGHTSWORN_HUNTER
+	.2byte ITEM_CARD_SOLAR_RECHARGE
+	.2byte ITEM_CARD_WULF_LIGHTSWORN_BEAST
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGRealmoftheSeaEmperorStructureDeck::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_REALM_OF_THE_SEA_EMPEROR_STRUCTURE_DECK
+	message gText_TCGRealmoftheSeaEmperorStructureDeckClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGRealmoftheSeaEmperorStructureDeck
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGRealmoftheSeaEmperorStructureDeck:
+	.2byte ITEM_CARD_A_LEGENDARY_OCEAN
+	.2byte ITEM_CARD_ABYSS_SOLDIER
+	.2byte ITEM_CARD_ATLANTEAN_DRAGOONS
+	.2byte ITEM_CARD_ATLANTEAN_HEAVY_INFANTRY
+	.2byte ITEM_CARD_ATLANTEAN_MARKSMAN
+	.2byte ITEM_CARD_DARK_HOLE
+	.2byte ITEM_CARD_DEEP_SEA_DIVA
+	.2byte ITEM_CARD_GRAVITY_BIND
+	.2byte ITEM_CARD_MOTHER_GRIZZLY
+	.2byte ITEM_CARD_SALVAGE
+	.2byte ITEM_CARD_SNOWMAN_EATER
+	.2byte ITEM_CARD_SPIRITUAL_WATER_ART_AOI
+	.2byte ITEM_CARD_TERRAFORMING
+	.2byte ITEM_CARD_TORRENTIAL_TRIBUTE
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGReturnoftheDuelist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_RETURN_OF_THE_DUELIST
+	message gText_TCGReturnoftheDuelistClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGReturnoftheDuelist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGReturnoftheDuelist:
+	.2byte ITEM_CARD_ILLUSORY_SNATCHER
+	.2byte ITEM_CARD_SPELLBOOK_MAGICIAN_OF_PROPHECY
+	.2byte ITEM_CARD_SPELLBOOK_OF_SECRETS
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGRiseofDestiny::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_RISE_OF_DESTINY
+	message gText_TCGRiseofDestinyClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGRiseofDestiny
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGRiseofDestiny:
+	.2byte ITEM_CARD_DARK_BLADE_THE_DRAGON_KNIGHT
+	.2byte ITEM_CARD_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE
+	.2byte ITEM_CARD_DIVINE_WRATH
+	.2byte ITEM_CARD_FUSILIER_DRAGON_THE_DUAL_MODE_BEAST
+	.2byte ITEM_CARD_MACHINE_DUPLICATION
+	.2byte ITEM_CARD_MIRAGE_DRAGON
+	.2byte ITEM_CARD_MONSTER_REINCARNATION
+	.2byte ITEM_CARD_PIKERU_S_CIRCLE_OF_ENCHANTMENT
+	.2byte ITEM_CARD_SASUKE_SAMURAI_4
+	.2byte ITEM_CARD_SERIAL_SPELL
+	.2byte ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH
+	.2byte ITEM_CARD_ULTIMATE_INSECT_LV3
+	.2byte ITEM_CARD_XING_ZHEN_HU
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGRiseoftheDragonLordsStructureDeck::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_RISE_OF_THE_DRAGON_LORDS_STRUCTURE_DECK
+	message gText_TCGRiseoftheDragonLordsStructureDeckClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGRiseoftheDragonLordsStructureDeck
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGRiseoftheDragonLordsStructureDeck:
+	.2byte ITEM_CARD_BIG_BANG_SHOT
+	.2byte ITEM_CARD_BRAIN_CONTROL
+	.2byte ITEM_CARD_CALL_OF_THE_HAUNTED
+	.2byte ITEM_CARD_DUST_TORNADO
+	.2byte ITEM_CARD_FOOLISH_BURIAL
+	.2byte ITEM_CARD_GIANT_TRUNADE
+	.2byte ITEM_CARD_KAISER_SEA_HORSE
+	.2byte ITEM_CARD_LIGHTNING_VORTEX
+	.2byte ITEM_CARD_MAGIC_JAMMER
+	.2byte ITEM_CARD_MALEVOLENT_CATASTROPHE
+	.2byte ITEM_CARD_MASKED_DRAGON
+	.2byte ITEM_CARD_MORPHING_JAR
+	.2byte ITEM_CARD_MYSTIK_WOK
+	.2byte ITEM_CARD_PREMATURE_BURIAL
+	.2byte ITEM_CARD_SAKURETSU_ARMOR
+	.2byte ITEM_CARD_SNIPE_HUNTER
+	.2byte ITEM_CARD_SOUL_EXCHANGE
+	.2byte ITEM_CARD_SPEAR_CRETIN
+	.2byte ITEM_CARD_TERRAFORMING
+	.2byte ITEM_CARD_TWIN_HEADED_BEHEMOTH
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGRiseoftheDuelist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_RISE_OF_THE_DUELIST
+	message gText_TCGRiseoftheDuelistClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGRiseoftheDuelist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGRiseoftheDuelist:
+	.2byte ITEM_CARD_D_D_CROW
+	.2byte ITEM_CARD_FALLEN_OF_ALBAZ
+	.2byte ITEM_CARD_FORBIDDEN_DROPLET
+	.2byte ITEM_CARD_TITANIKLAD_THE_ASH_DRAGON
+	.2byte ITEM_CARD_TRIPLE_TACTICS_TALENT
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGRiseoftheTrueDragonsStructureDeck::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_RISE_OF_THE_TRUE_DRAGONS_STRUCTURE_DECK
+	message gText_TCGRiseoftheTrueDragonsStructureDeckClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGRiseoftheTrueDragonsStructureDeck
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGRiseoftheTrueDragonsStructureDeck:
+	.2byte ITEM_CARD_BREAKTHROUGH_SKILL
+	.2byte ITEM_CARD_CALL_OF_THE_HAUNTED
+	.2byte ITEM_CARD_CARD_TROOPER
+	.2byte ITEM_CARD_CHARGE_OF_THE_LIGHT_BRIGADE
+	.2byte ITEM_CARD_DRAGON_RAVINE
+	.2byte ITEM_CARD_FOOLISH_BURIAL
+	.2byte ITEM_CARD_KEEPER_OF_THE_SHRINE
+	.2byte ITEM_CARD_RED_EYES_DARKNESS_METAL_DRAGON
+	.2byte ITEM_CARD_RED_EYES_WYVERN
+	.2byte ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
+	.2byte ITEM_CARD_TERRAFORMING
+	.2byte ITEM_CARD_WHITE_DRAGON_WYVERBURSTER
+	.2byte ITEM_CARD_WHITE_NIGHT_DRAGON
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGRisingRampage::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_RISING_RAMPAGE
+	message gText_TCGRisingRampageClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGRisingRampage
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGRisingRampage:
+	.2byte ITEM_CARD_APOLLOUSA_BOW_OF_THE_GODDESS
+	.2byte ITEM_CARD_MONK_OF_THE_TENYI
+	.2byte ITEM_CARD_TENYI_SPIRIT_ADHARA
+	.2byte ITEM_CARD_TENYI_SPIRIT_VISHUDA
+	.2byte ITEM_CARD_TLAKALEL_HIS_MALEVOLENT_MAJESTY
+	.2byte ITEM_CARD_VESSEL_FOR_THE_DRAGON_CYCLE
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGSaberForceStarterDeck::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_SABER_FORCE_STARTER_DECK
+	message gText_TCGSaberForceStarterDeckClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGSaberForceStarterDeck
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGSaberForceStarterDeck:
+	.2byte ITEM_CARD_ALEXANDRITE_DRAGON
+	.2byte ITEM_CARD_BLACK_PENDANT
+	.2byte ITEM_CARD_BLADE_KNIGHT
+	.2byte ITEM_CARD_CALL_OF_THE_HAUNTED
+	.2byte ITEM_CARD_CYBER_DRAGON
+	.2byte ITEM_CARD_DARK_HOLE
+	.2byte ITEM_CARD_DUST_TORNADO
+	.2byte ITEM_CARD_MAGIC_CYLINDER
+	.2byte ITEM_CARD_MIRAGE_DRAGON
+	.2byte ITEM_CARD_MIRROR_FORCE
+	.2byte ITEM_CARD_MONSTER_REINCARNATION
+	.2byte ITEM_CARD_MYSTICAL_ELF
+	.2byte ITEM_CARD_MYSTICAL_SPACE_TYPHOON
+	.2byte ITEM_CARD_POISON_OF_THE_OLD_MAN
+	.2byte ITEM_CARD_RUSH_RECKLESSLY
+	.2byte ITEM_CARD_SMASHING_GROUND
+	.2byte ITEM_CARD_TRAP_HOLE
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGSagaofBlueEyesWhiteDragonStructureDeck::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_SAGA_OF_BLUE_EYES_WHITE_DRAGON_STRUCTURE_DECK
+	message gText_TCGSagaofBlueEyesWhiteDragonStructureDeckClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGSagaofBlueEyesWhiteDragonStructureDeck
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGSagaofBlueEyesWhiteDragonStructureDeck:
+	.2byte ITEM_CARD_ALEXANDRITE_DRAGON
+	.2byte ITEM_CARD_BLUE_EYES_WHITE_DRAGON
+	.2byte ITEM_CARD_CALL_OF_THE_HAUNTED
+	.2byte ITEM_CARD_CARDS_OF_CONSONANCE
+	.2byte ITEM_CARD_COMPULSORY_EVACUATION_DEVICE
+	.2byte ITEM_CARD_DRAGON_SHRINE
+	.2byte ITEM_CARD_ENEMY_CONTROLLER
+	.2byte ITEM_CARD_FIENDISH_CHAIN
+	.2byte ITEM_CARD_FLAMVELL_GUARD
+	.2byte ITEM_CARD_HONEST
+	.2byte ITEM_CARD_KAIBAMAN
+	.2byte ITEM_CARD_KAISER_SEA_HORSE
+	.2byte ITEM_CARD_LUSTER_DRAGON
+	.2byte ITEM_CARD_MAIDEN_WITH_EYES_OF_BLUE
+	.2byte ITEM_CARD_MIRAGE_DRAGON
+	.2byte ITEM_CARD_MONSTER_REBORN
+	.2byte ITEM_CARD_RIDER_OF_THE_STORM_WINDS
+	.2byte ITEM_CARD_SHINING_ANGEL
+	.2byte ITEM_CARD_SOUL_EXCHANGE
+	.2byte ITEM_CARD_SWORDS_OF_REVEALING_LIGHT
+	.2byte ITEM_CARD_THE_WHITE_STONE_OF_LEGEND
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGSamuraiWarlordsStructureDeck::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_SAMURAI_WARLORDS_STRUCTURE_DECK
+	message gText_TCGSamuraiWarlordsStructureDeckClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGSamuraiWarlordsStructureDeck
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGSamuraiWarlordsStructureDeck:
+	.2byte ITEM_CARD_DARK_HOLE
+	.2byte ITEM_CARD_FIENDISH_CHAIN
+	.2byte ITEM_CARD_LEGENDARY_SIX_SAMURAI_KIZAN
+	.2byte ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
+	.2byte ITEM_CARD_RIVALRY_OF_WARLORDS
+	.2byte ITEM_CARD_SHIEN_S_SMOKE_SIGNAL
+	.2byte ITEM_CARD_SIX_SAMURAI_UNITED
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGSavageStrike::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_SAVAGE_STRIKE
+	message gText_TCGSavageStrikeClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGSavageStrike
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGSavageStrike:
+	.2byte ITEM_CARD_FANTASTICAL_DRAGON_PHANTAZMAY
+	.2byte ITEM_CARD_GUARDRAGON_GARMIDES
+	.2byte ITEM_CARD_HIITA_THE_FIRE_CHARMER_ABLAZE
+	.2byte ITEM_CARD_ORCUST_KNIGHTMARE
+	.2byte ITEM_CARD_PRANK_KIDS_ROCKSIES
+	.2byte ITEM_CARD_SALAMANGREAT_SUNLIGHT_WOLF
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGSecretsofEternity::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_SECRETS_OF_ETERNITY
+	message gText_TCGSecretsofEternityClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGSecretsofEternity
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGSecretsofEternity:
+	.2byte ITEM_CARD_CAIUS_THE_MEGA_MONARCH
+	.2byte ITEM_CARD_DANCE_PRINCESS_OF_THE_NEKROZ
+	.2byte ITEM_CARD_EL_SHADDOLL_WENDIGO
+	.2byte ITEM_CARD_FARFA_MALEBRANCHE_OF_THE_BURNING_ABYSS
+	.2byte ITEM_CARD_INFERNOID_HARMADIK
+	.2byte ITEM_CARD_INFERNOID_PATRULEA
+	.2byte ITEM_CARD_LIBIC_MALEBRANCHE_OF_THE_BURNING_ABYSS
+	.2byte ITEM_CARD_NEKROZ_CYCLE
+	.2byte ITEM_CARD_TENACITY_OF_THE_MONARCHS
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGShadowSpecters::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_SHADOW_SPECTERS
+	message gText_TCGShadowSpectersClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGShadowSpecters
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGShadowSpecters:
+	.2byte ITEM_CARD_ARCHFIEND_GIANT
+	.2byte ITEM_CARD_DIVINE_DRAGON_KNIGHT_FELGRAND
+	.2byte ITEM_CARD_GRANMARG_THE_MEGA_MONARCH
+	.2byte ITEM_CARD_MISTAKE
+	.2byte ITEM_CARD_WHITE_DRAGON_WYVERBURSTER
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGShadowofInfinity::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_SHADOW_OF_INFINITY
+	message gText_TCGShadowofInfinityClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGShadowofInfinity
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGShadowofInfinity:
+	.2byte ITEM_CARD_CHAINSAW_INSECT
+	.2byte ITEM_CARD_DEMISE_KING_OF_ARMAGEDDON
+	.2byte ITEM_CARD_DOOM_DOZER
+	.2byte ITEM_CARD_GOKIPON
+	.2byte ITEM_CARD_KARMA_CUT
+	.2byte ITEM_CARD_SABER_BEETLE
+	.2byte ITEM_CARD_SAND_MOTH
+	.2byte ITEM_CARD_TREEBORN_FROG
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGShiningVictories::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_SHINING_VICTORIES
+	message gText_TCGShiningVictoriesClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGShiningVictories
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGShiningVictories:
+	.2byte ITEM_CARD_BLUE_EYES_TWIN_BURST_DRAGON
+	.2byte ITEM_CARD_GHOST_REAPER_WINTER_CHERRIES
+	.2byte ITEM_CARD_LUNALIGHT_BLACK_SHEEP
+	.2byte ITEM_CARD_MASTER_WITH_EYES_OF_BLUE
+	.2byte ITEM_CARD_PRIESTESS_WITH_EYES_OF_BLUE
+	.2byte ITEM_CARD_PROTECTOR_WITH_EYES_OF_BLUE
+	.2byte ITEM_CARD_RED_EYES_TOON_DRAGON
+	.2byte ITEM_CARD_SAGE_WITH_EYES_OF_BLUE
+	.2byte ITEM_CARD_TENMATAITEI
+	.2byte ITEM_CARD_THE_WHITE_STONE_OF_ANCIENTS
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGSoulFusion::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_SOUL_FUSION
+	message gText_TCGSoulFusionClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGSoulFusion
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGSoulFusion:
+	.2byte ITEM_CARD_DINOWRESTLER_CAPAPTERA
+	.2byte ITEM_CARD_DINOWRESTLER_PANKRATOPS
+	.2byte ITEM_CARD_GALATEA_THE_ORCUST_AUTOMATON
+	.2byte ITEM_CARD_ORCUST_CYMBAL_SKELETON
+	.2byte ITEM_CARD_ORCUST_HARP_HORROR
+	.2byte ITEM_CARD_ORCUSTRATED_RETURN
+	.2byte ITEM_CARD_PREDAPLANT_DRAGOSTAPELIA
+	.2byte ITEM_CARD_SALAMANGREAT_FOXY
+	.2byte ITEM_CARD_THUNDER_DRAGON_COLOSSUS
+	.2byte ITEM_CARD_THUNDER_DRAGON_TITAN
+	.2byte ITEM_CARD_THUNDER_DRAGONDARK
+	.2byte ITEM_CARD_THUNDER_DRAGONDUO
+	.2byte ITEM_CARD_THUNDER_DRAGONHAWK
+	.2byte ITEM_CARD_THUNDER_DRAGONMATRIX
+	.2byte ITEM_CARD_THUNDER_DRAGONROAR
+	.2byte ITEM_CARD_TOKEN_COLLECTOR
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGSouloftheDuelist::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_SOUL_OF_THE_DUELIST
+	message gText_TCGSouloftheDuelistClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGSouloftheDuelist
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGSouloftheDuelist:
+	.2byte ITEM_CARD_BLACK_DRAGON_S_CHICK
+	.2byte ITEM_CARD_CHARCOAL_INPACHI
+	.2byte ITEM_CARD_DARK_MIMIC_LV1
+	.2byte ITEM_CARD_DARK_MIMIC_LV3
+	.2byte ITEM_CARD_HALLOWED_LIFE_BARRIER
+	.2byte ITEM_CARD_HAMMER_SHOT
+	.2byte ITEM_CARD_HOWLING_INSECT
+	.2byte ITEM_CARD_MASKED_DRAGON
+	.2byte ITEM_CARD_MASTER_OF_OZ
+	.2byte ITEM_CARD_MIND_CRUSH
+	.2byte ITEM_CARD_MOBIUS_THE_FROST_MONARCH
+	.2byte ITEM_CARD_MYSTIC_SWORDSMAN_LV2
+	.2byte ITEM_CARD_MYSTIC_SWORDSMAN_LV4
+	.2byte ITEM_CARD_NINJA_GRANDMASTER_SASUKE
+	.2byte ITEM_CARD_OJAMA_KING
+	.2byte ITEM_CARD_SKULL_DOG_MARRON
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGSpellRuler::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_SPELL_RULER
+	message gText_TCGSpellRulerClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGSpellRuler
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGSpellRuler:
+	.2byte ITEM_CARD_AXE_OF_DESPAIR
+	.2byte ITEM_CARD_BANISHER_OF_THE_LIGHT
+	.2byte ITEM_CARD_BLACK_ILLUSION_RITUAL
+	.2byte ITEM_CARD_BLACK_PENDANT
+	.2byte ITEM_CARD_BLUE_EYES_TOON_DRAGON
+	.2byte ITEM_CARD_CHAIN_ENERGY
+	.2byte ITEM_CARD_CONFISCATION
+	.2byte ITEM_CARD_CYBER_JAR
+	.2byte ITEM_CARD_DELINQUENT_DUO
+	.2byte ITEM_CARD_DRAGONESS_THE_WICKED_KNIGHT
+	.2byte ITEM_CARD_ELECTRIC_SNAKE
+	.2byte ITEM_CARD_FLAME_SWORDSMAN
+	.2byte ITEM_CARD_FLYING_KAMAKIRI_1
+	.2byte ITEM_CARD_GAIA_POWER
+	.2byte ITEM_CARD_GIANT_GERM
+	.2byte ITEM_CARD_GIANT_RAT
+	.2byte ITEM_CARD_GIANT_TRUNADE
+	.2byte ITEM_CARD_HANE_HANE
+	.2byte ITEM_CARD_MEGAMORPH
+	.2byte ITEM_CARD_MESSENGER_OF_PEACE
+	.2byte ITEM_CARD_MINAR
+	.2byte ITEM_CARD_MOTHER_GRIZZLY
+	.2byte ITEM_CARD_MYSTIC_TOMATO
+	.2byte ITEM_CARD_MYSTICAL_SPACE_TYPHOON
+	.2byte ITEM_CARD_NEO_THE_MAGIC_SWORDSMAN
+	.2byte ITEM_CARD_NIMBLE_MOMONGA
+	.2byte ITEM_CARD_OOKAZI
+	.2byte ITEM_CARD_PAINFUL_CHOICE
+	.2byte ITEM_CARD_PENGUIN_KNIGHT
+	.2byte ITEM_CARD_POT_OF_GREED
+	.2byte ITEM_CARD_RELINQUISHED
+	.2byte ITEM_CARD_RISING_AIR_CURRENT
+	.2byte ITEM_CARD_RUSH_RECKLESSLY
+	.2byte ITEM_CARD_SENJU_OF_THE_THOUSAND_HANDS
+	.2byte ITEM_CARD_SHINING_ANGEL
+	.2byte ITEM_CARD_SNATCH_STEAL
+	.2byte ITEM_CARD_SONIC_BIRD
+	.2byte ITEM_CARD_SPEAR_CRETIN
+	.2byte ITEM_CARD_THE_FORCEFUL_SENTRY
+	.2byte ITEM_CARD_TOON_SUMMONED_SKULL
+	.2byte ITEM_CARD_UFO_TURTLE
+	.2byte ITEM_CARD_UPSTART_GOBLIN
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGSpellcastersCommandStructureDeck::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_SPELLCASTER_S_COMMAND_STRUCTURE_DECK
+	message gText_TCGSpellcastersCommandStructureDeckClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGSpellcastersCommandStructureDeck
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGSpellcastersCommandStructureDeck:
+	.2byte ITEM_CARD_BOOK_OF_MOON
+	.2byte ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR
+	.2byte ITEM_CARD_ENEMY_CONTROLLER
+	.2byte ITEM_CARD_FISSURE
+	.2byte ITEM_CARD_GIANT_TRUNADE
+	.2byte ITEM_CARD_MAGE_POWER
+	.2byte ITEM_CARD_MAGIC_CYLINDER
+	.2byte ITEM_CARD_MAGICAL_DIMENSION
+	.2byte ITEM_CARD_MAGICIAN_S_CIRCLE
+	.2byte ITEM_CARD_PITCH_BLACK_POWER_STONE
+	.2byte ITEM_CARD_ROYAL_MAGICAL_LIBRARY
+	.2byte ITEM_CARD_SKILLED_DARK_MAGICIAN
+	.2byte ITEM_CARD_SUMMONER_MONK
+	.2byte ITEM_CARD_SWORDS_OF_REVEALING_LIGHT
+	.2byte ITEM_CARD_TERRAFORMING
+	.2byte ITEM_CARD_TWISTER
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStardustOverdrive::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STARDUST_OVERDRIVE
+	message gText_TCGStardustOverdriveClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStardustOverdrive
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStardustOverdrive:
+	.2byte ITEM_CARD_BLACKWING_SILVERWIND_THE_ASCENDANT
+	.2byte ITEM_CARD_INFERNITY_NECROMANCER
+	.2byte ITEM_CARD_SWAP_FROG
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStarstrikeBlast::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STARSTRIKE_BLAST
+	message gText_TCGStarstrikeBlastClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStarstrikeBlast
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStarstrikeBlast:
+	.2byte ITEM_CARD_ARCHFIEND_EMPRESS
+	.2byte ITEM_CARD_DELG_THE_DARK_MONARCH
+	.2byte ITEM_CARD_DROLL_LOCK_BIRD
+	.2byte ITEM_CARD_FORMULA_SYNCHRON
+	.2byte ITEM_CARD_LANCER_ARCHFIEND
+	.2byte ITEM_CARD_PSI_BLOCKER
+	.2byte ITEM_CARD_SWIFT_SCARECROW
+	.2byte ITEM_CARD_VANITY_S_EMPTINESS
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStarterDeck2006::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STARTER_DECK_2006
+	message gText_TCGStarterDeck2006Clerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStarterDeck2006
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStarterDeck2006:
+	.2byte ITEM_CARD_BLACK_PENDANT
+	.2byte ITEM_CARD_BRAIN_CONTROL
+	.2byte ITEM_CARD_CASTLE_WALLS
+	.2byte ITEM_CARD_COMPULSORY_EVACUATION_DEVICE
+	.2byte ITEM_CARD_DARK_BLADE
+	.2byte ITEM_CARD_DUST_TORNADO
+	.2byte ITEM_CARD_ELEMENTAL_HERO_CLAYMAN
+	.2byte ITEM_CARD_FISSURE
+	.2byte ITEM_CARD_GAIA_POWER
+	.2byte ITEM_CARD_HEAVY_STORM
+	.2byte ITEM_CARD_JAR_OF_GREED
+	.2byte ITEM_CARD_KURIBOH
+	.2byte ITEM_CARD_LUSTER_DRAGON
+	.2byte ITEM_CARD_MAGIC_CYLINDER
+	.2byte ITEM_CARD_MAGICIAN_OF_FAITH
+	.2byte ITEM_CARD_MIRAGE_DRAGON
+	.2byte ITEM_CARD_MONSTER_REINCARNATION
+	.2byte ITEM_CARD_OOKAZI
+	.2byte ITEM_CARD_PREMATURE_BURIAL
+	.2byte ITEM_CARD_PRINCESS_OF_TSURUGI
+	.2byte ITEM_CARD_REINFORCEMENTS
+	.2byte ITEM_CARD_SAKURETSU_ARMOR
+	.2byte ITEM_CARD_SPEAR_DRAGON
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStarterDeckCodebreaker::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STARTER_DECK_CODEBREAKER
+	message gText_TCGStarterDeckCodebreakerClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStarterDeckCodebreaker
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStarterDeckCodebreaker:
+	.2byte ITEM_CARD_BOOK_OF_MOON
+	.2byte ITEM_CARD_BOTTOMLESS_TRAP_HOLE
+	.2byte ITEM_CARD_CALL_OF_THE_HAUNTED
+	.2byte ITEM_CARD_COMPULSORY_EVACUATION_DEVICE
+	.2byte ITEM_CARD_CYBER_DRAGON
+	.2byte ITEM_CARD_DARK_HOLE
+	.2byte ITEM_CARD_EXARION_UNIVERSE
+	.2byte ITEM_CARD_FLAMVELL_GUARD
+	.2byte ITEM_CARD_LEOTRON
+	.2byte ITEM_CARD_LINK_SPIDER
+	.2byte ITEM_CARD_LINKURIBOH
+	.2byte ITEM_CARD_MIRROR_FORCE
+	.2byte ITEM_CARD_MONSTER_REBORN
+	.2byte ITEM_CARD_MYSTICAL_SPACE_TYPHOON
+	.2byte ITEM_CARD_RYKO_LIGHTSWORN_HUNTER
+	.2byte ITEM_CARD_SCAPEGOAT
+	.2byte ITEM_CARD_SWIFT_SCARECROW
+	.2byte ITEM_CARD_TORRENTIAL_TRIBUTE
+	.2byte ITEM_CARD_UNITED_WE_STAND
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStarterDeckDawnoftheXyz::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STARTER_DECK_DAWN_OF_THE_XYZ
+	message gText_TCGStarterDeckDawnoftheXyzClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStarterDeckDawnoftheXyz
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStarterDeckDawnoftheXyz:
+	.2byte ITEM_CARD_BLADE_KNIGHT
+	.2byte ITEM_CARD_DARK_BLADE
+	.2byte ITEM_CARD_DUST_TORNADO
+	.2byte ITEM_CARD_FISSURE
+	.2byte ITEM_CARD_GENE_WARPED_WARWOLF
+	.2byte ITEM_CARD_GIANT_RAT
+	.2byte ITEM_CARD_MARAUDING_CAPTAIN
+	.2byte ITEM_CARD_MIRROR_FORCE
+	.2byte ITEM_CARD_MYSTICAL_SPACE_TYPHOON
+	.2byte ITEM_CARD_NUMBER_39_UTOPIA
+	.2byte ITEM_CARD_POISON_OF_THE_OLD_MAN
+	.2byte ITEM_CARD_RAIGEKI_BREAK
+	.2byte ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT
+	.2byte ITEM_CARD_SHINING_ANGEL
+	.2byte ITEM_CARD_SPIRIT_OF_THE_HARP
+	.2byte ITEM_CARD_SWORDS_OF_REVEALING_LIGHT
+	.2byte ITEM_CARD_TRAP_HOLE
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStarterDeckDuelistToolbox::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STARTER_DECK_DUELIST_TOOLBOX
+	message gText_TCGStarterDeckDuelistToolboxClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStarterDeckDuelistToolbox
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStarterDeckDuelistToolbox:
+	.2byte ITEM_CARD_BATTLE_FOOTBALLER
+	.2byte ITEM_CARD_BLAZING_INPACHI
+	.2byte ITEM_CARD_CARD_DESTRUCTION
+	.2byte ITEM_CARD_CHAINSAW_INSECT
+	.2byte ITEM_CARD_DUST_TORNADO
+	.2byte ITEM_CARD_ENEMY_CONTROLLER
+	.2byte ITEM_CARD_GAIA_KNIGHT_THE_FORCE_OF_EARTH
+	.2byte ITEM_CARD_GIANT_TRUNADE
+	.2byte ITEM_CARD_HAMMER_SHOT
+	.2byte ITEM_CARD_MAN_EATER_BUG
+	.2byte ITEM_CARD_MONSTER_REINCARNATION
+	.2byte ITEM_CARD_RAIGEKI_BREAK
+	.2byte ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
+	.2byte ITEM_CARD_SAKURETSU_ARMOR
+	.2byte ITEM_CARD_SECRET_BARREL
+	.2byte ITEM_CARD_THREATENING_ROAR
+	.2byte ITEM_CARD_TRAP_HOLE
+	.2byte ITEM_CARD_X_SABER_URBELLUM
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStarterDeckJadenYuki::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STARTER_DECK_JADEN_YUKI
+	message gText_TCGStarterDeckJadenYukiClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStarterDeckJadenYuki
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStarterDeckJadenYuki:
+	.2byte ITEM_CARD_BRAIN_CONTROL
+	.2byte ITEM_CARD_CHIRON_THE_MAGE
+	.2byte ITEM_CARD_COMPULSORY_EVACUATION_DEVICE
+	.2byte ITEM_CARD_DARK_BLADE
+	.2byte ITEM_CARD_DUST_TORNADO
+	.2byte ITEM_CARD_ELEMENTAL_HERO_CLAYMAN
+	.2byte ITEM_CARD_ELEMENTAL_HERO_WILDHEART
+	.2byte ITEM_CARD_EXILED_FORCE
+	.2byte ITEM_CARD_GEMINI_ELF
+	.2byte ITEM_CARD_GIANT_TRUNADE
+	.2byte ITEM_CARD_HEAVY_STORM
+	.2byte ITEM_CARD_LIGHTNING_VORTEX
+	.2byte ITEM_CARD_MAGIC_CYLINDER
+	.2byte ITEM_CARD_MAGIC_JAMMER
+	.2byte ITEM_CARD_MASK_OF_DARKNESS
+	.2byte ITEM_CARD_MATAZA_THE_ZAPPER
+	.2byte ITEM_CARD_MONSTER_REINCARNATION
+	.2byte ITEM_CARD_NINJA_GRANDMASTER_SASUKE
+	.2byte ITEM_CARD_RUSH_RECKLESSLY
+	.2byte ITEM_CARD_SAKURETSU_ARMOR
+	.2byte ITEM_CARD_SMASHING_GROUND
+	.2byte ITEM_CARD_TRAP_HOLE
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStarterDeckJoey::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STARTER_DECK_JOEY
+	message gText_TCGStarterDeckJoeyClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStarterDeckJoey
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStarterDeckJoey:
+	.2byte ITEM_CARD_7_COLORED_FISH
+	.2byte ITEM_CARD_BLOCK_ATTACK
+	.2byte ITEM_CARD_CASTLE_WALLS
+	.2byte ITEM_CARD_CHANGE_OF_HEART
+	.2byte ITEM_CARD_DARK_HOLE
+	.2byte ITEM_CARD_DE_SPELL
+	.2byte ITEM_CARD_DIAN_KETO_THE_CURE_MASTER
+	.2byte ITEM_CARD_FAKE_TRAP
+	.2byte ITEM_CARD_FISSURE
+	.2byte ITEM_CARD_FLAME_SWORDSMAN
+	.2byte ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT
+	.2byte ITEM_CARD_GIANT_TRUNADE
+	.2byte ITEM_CARD_ISLAND_TURTLE
+	.2byte ITEM_CARD_JUST_DESSERTS
+	.2byte ITEM_CARD_MAGICIAN_OF_FAITH
+	.2byte ITEM_CARD_MILUS_RADIANT
+	.2byte ITEM_CARD_MONSTER_REBORN
+	.2byte ITEM_CARD_PRINCESS_OF_TSURUGI
+	.2byte ITEM_CARD_RED_EYES_BLACK_DRAGON
+	.2byte ITEM_CARD_REINFORCEMENTS
+	.2byte ITEM_CARD_REMOVE_TRAP
+	.2byte ITEM_CARD_SANGAN
+	.2byte ITEM_CARD_SCAPEGOAT
+	.2byte ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT
+	.2byte ITEM_CARD_SKY_SCOUT
+	.2byte ITEM_CARD_SPIRIT_OF_THE_HARP
+	.2byte ITEM_CARD_TRAP_HOLE
+	.2byte ITEM_CARD_ULTIMATE_OFFERING
+	.2byte ITEM_CARD_WABOKU
+	.2byte ITEM_CARD_WHITE_MAGICAL_HAT
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStarterDeckKaiba::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STARTER_DECK_KAIBA
+	message gText_TCGStarterDeckKaibaClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStarterDeckKaiba
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStarterDeckKaiba:
+	.2byte ITEM_CARD_BATTLE_OX
+	.2byte ITEM_CARD_BLUE_EYES_WHITE_DRAGON
+	.2byte ITEM_CARD_CASTLE_WALLS
+	.2byte ITEM_CARD_DARK_HOLE
+	.2byte ITEM_CARD_DE_SPELL
+	.2byte ITEM_CARD_FISSURE
+	.2byte ITEM_CARD_GYAKUTENNO_MEGAMI
+	.2byte ITEM_CARD_HANE_HANE
+	.2byte ITEM_CARD_JUDGE_MAN
+	.2byte ITEM_CARD_JUST_DESSERTS
+	.2byte ITEM_CARD_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP
+	.2byte ITEM_CARD_LORD_OF_D_
+	.2byte ITEM_CARD_MONSTER_REBORN
+	.2byte ITEM_CARD_OOKAZI
+	.2byte ITEM_CARD_REINFORCEMENTS
+	.2byte ITEM_CARD_REMOVE_TRAP
+	.2byte ITEM_CARD_THE_WICKED_WORM_BEAST
+	.2byte ITEM_CARD_TRAP_HOLE
+	.2byte ITEM_CARD_TRAP_MASTER
+	.2byte ITEM_CARD_ULTIMATE_OFFERING
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStarterDeckKaibaEvolution::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STARTER_DECK_KAIBA_EVOLUTION
+	message gText_TCGStarterDeckKaibaEvolutionClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStarterDeckKaibaEvolution
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStarterDeckKaibaEvolution:
+	.2byte ITEM_CARD_BATTLE_OX
+	.2byte ITEM_CARD_BLUE_EYES_WHITE_DRAGON
+	.2byte ITEM_CARD_CHANGE_OF_HEART
+	.2byte ITEM_CARD_DE_SPELL
+	.2byte ITEM_CARD_DUST_TORNADO
+	.2byte ITEM_CARD_FISSURE
+	.2byte ITEM_CARD_HANE_HANE
+	.2byte ITEM_CARD_JAR_OF_GREED
+	.2byte ITEM_CARD_JUST_DESSERTS
+	.2byte ITEM_CARD_KAISER_SEA_HORSE
+	.2byte ITEM_CARD_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP
+	.2byte ITEM_CARD_LIGHT_OF_INTERVENTION
+	.2byte ITEM_CARD_LORD_OF_D_
+	.2byte ITEM_CARD_MEGAMORPH
+	.2byte ITEM_CARD_MONSTER_REBORN
+	.2byte ITEM_CARD_MYSTIC_TOMATO
+	.2byte ITEM_CARD_NOBLEMAN_OF_CROSSOUT
+	.2byte ITEM_CARD_OOKAZI
+	.2byte ITEM_CARD_OPTICLOPS
+	.2byte ITEM_CARD_PALADIN_OF_WHITE_DRAGON
+	.2byte ITEM_CARD_PREMATURE_BURIAL
+	.2byte ITEM_CARD_RUSH_RECKLESSLY
+	.2byte ITEM_CARD_SOUL_EXCHANGE
+	.2byte ITEM_CARD_THE_DRAGON_DWELLING_IN_THE_CAVE
+	.2byte ITEM_CARD_TRAP_HOLE
+	.2byte ITEM_CARD_TRAP_MASTER
+	.2byte ITEM_CARD_WHITE_DRAGON_RITUAL
+	.2byte ITEM_CARD_WITCH_OF_THE_BLACK_FOREST
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStarterDeckKaibaReloaded::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STARTER_DECK_KAIBA_RELOADED
+	message gText_TCGStarterDeckKaibaReloadedClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStarterDeckKaibaReloaded
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStarterDeckKaibaReloaded:
+	.2byte ITEM_CARD_ALEXANDRITE_DRAGON
+	.2byte ITEM_CARD_AQUA_MADOOR
+	.2byte ITEM_CARD_BATTLE_OX
+	.2byte ITEM_CARD_BLADE_KNIGHT
+	.2byte ITEM_CARD_BLUE_EYES_WHITE_DRAGON
+	.2byte ITEM_CARD_DARK_HOLE
+	.2byte ITEM_CARD_ENEMY_CONTROLLER
+	.2byte ITEM_CARD_KAISER_SEA_HORSE
+	.2byte ITEM_CARD_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP
+	.2byte ITEM_CARD_LUSTER_DRAGON
+	.2byte ITEM_CARD_MAD_DOG_OF_DARKNESS
+	.2byte ITEM_CARD_MYSTICAL_SPACE_TYPHOON
+	.2byte ITEM_CARD_OFFERINGS_TO_THE_DOOMED
+	.2byte ITEM_CARD_OPTICLOPS
+	.2byte ITEM_CARD_PUPPET_PLANT
+	.2byte ITEM_CARD_RUSH_RECKLESSLY
+	.2byte ITEM_CARD_SAKURETSU_ARMOR
+	.2byte ITEM_CARD_SHRINK
+	.2byte ITEM_CARD_SOUL_EXCHANGE
+	.2byte ITEM_CARD_THE_DRAGON_DWELLING_IN_THE_CAVE
+	.2byte ITEM_CARD_THREATENING_ROAR
+	.2byte ITEM_CARD_TRAP_HOLE
+	.2byte ITEM_CARD_TWIN_HEADED_BEHEMOTH
+	.2byte ITEM_CARD_VORSE_RAIDER
+	.2byte ITEM_CARD_WIDESPREAD_RUIN
+	.2byte ITEM_CARD_X_HEAD_CANNON
+	.2byte ITEM_CARD_YOMI_SHIP
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStarterDeckLinkStrike::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STARTER_DECK_LINK_STRIKE
+	message gText_TCGStarterDeckLinkStrikeClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStarterDeckLinkStrike
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStarterDeckLinkStrike:
+	.2byte ITEM_CARD_BOOK_OF_MOON
+	.2byte ITEM_CARD_BOTTOMLESS_TRAP_HOLE
+	.2byte ITEM_CARD_CALL_OF_THE_HAUNTED
+	.2byte ITEM_CARD_COMPULSORY_EVACUATION_DEVICE
+	.2byte ITEM_CARD_CYBER_DRAGON
+	.2byte ITEM_CARD_DARK_HOLE
+	.2byte ITEM_CARD_EFFECT_VEILER
+	.2byte ITEM_CARD_EXARION_UNIVERSE
+	.2byte ITEM_CARD_FIENDISH_CHAIN
+	.2byte ITEM_CARD_FORBIDDEN_LANCE
+	.2byte ITEM_CARD_LINK_SPIDER
+	.2byte ITEM_CARD_MARAUDING_CAPTAIN
+	.2byte ITEM_CARD_MIRROR_FORCE
+	.2byte ITEM_CARD_MONSTER_REINCARNATION
+	.2byte ITEM_CARD_MYSTERY_SHELL_DRAGON
+	.2byte ITEM_CARD_MYSTICAL_SPACE_TYPHOON
+	.2byte ITEM_CARD_POT_OF_DUALITY
+	.2byte ITEM_CARD_RING_OF_DESTRUCTION
+	.2byte ITEM_CARD_RYKO_LIGHTSWORN_HUNTER
+	.2byte ITEM_CARD_SANGAN
+	.2byte ITEM_CARD_SWIFT_SCARECROW
+	.2byte ITEM_CARD_TERRAFORMING
+	.2byte ITEM_CARD_TORRENTIAL_TRIBUTE
+	.2byte ITEM_CARD_UNITED_WE_STAND
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStarterDeckPegasus::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STARTER_DECK_PEGASUS
+	message gText_TCGStarterDeckPegasusClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStarterDeckPegasus
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStarterDeckPegasus:
+	.2byte ITEM_CARD_AQUA_MADOOR
+	.2byte ITEM_CARD_ARMED_NINJA
+	.2byte ITEM_CARD_BLACK_ILLUSION_RITUAL
+	.2byte ITEM_CARD_BLACK_PENDANT
+	.2byte ITEM_CARD_BLUE_EYES_TOON_DRAGON
+	.2byte ITEM_CARD_CASTLE_WALLS
+	.2byte ITEM_CARD_CHANGE_OF_HEART
+	.2byte ITEM_CARD_DARK_HOLE
+	.2byte ITEM_CARD_DE_SPELL
+	.2byte ITEM_CARD_DIAN_KETO_THE_CURE_MASTER
+	.2byte ITEM_CARD_DREAM_CLOWN
+	.2byte ITEM_CARD_FISSURE
+	.2byte ITEM_CARD_GIANT_SOLDIER_OF_STONE
+	.2byte ITEM_CARD_GRACEFUL_CHARITY
+	.2byte ITEM_CARD_HANE_HANE
+	.2byte ITEM_CARD_MAGIC_JAMMER
+	.2byte ITEM_CARD_MAN_EATER_BUG
+	.2byte ITEM_CARD_MASK_OF_DARKNESS
+	.2byte ITEM_CARD_MONSTER_REBORN
+	.2byte ITEM_CARD_MUKA_MUKA
+	.2byte ITEM_CARD_MYSTICAL_SPACE_TYPHOON
+	.2byte ITEM_CARD_REINFORCEMENTS
+	.2byte ITEM_CARD_RELINQUISHED
+	.2byte ITEM_CARD_REMOVE_TRAP
+	.2byte ITEM_CARD_ROBBIN_GOBLIN
+	.2byte ITEM_CARD_RUSH_RECKLESSLY
+	.2byte ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT
+	.2byte ITEM_CARD_SONIC_BIRD
+	.2byte ITEM_CARD_STOP_DEFENSE
+	.2byte ITEM_CARD_TOON_SUMMONED_SKULL
+	.2byte ITEM_CARD_TRAP_HOLE
+	.2byte ITEM_CARD_ULTIMATE_OFFERING
+	.2byte ITEM_CARD_WABOKU
+	.2byte ITEM_CARD_WITCH_OF_THE_BLACK_FOREST
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStarterDeckSyrusTruesdale::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STARTER_DECK_SYRUS_TRUESDALE
+	message gText_TCGStarterDeckSyrusTruesdaleClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStarterDeckSyrusTruesdale
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStarterDeckSyrusTruesdale:
+	.2byte ITEM_CARD_ARCHFIEND_SOLDIER
+	.2byte ITEM_CARD_BLACK_PENDANT
+	.2byte ITEM_CARD_BOOK_OF_MOON
+	.2byte ITEM_CARD_BRAIN_CONTROL
+	.2byte ITEM_CARD_CHIRON_THE_MAGE
+	.2byte ITEM_CARD_DARK_BLADE
+	.2byte ITEM_CARD_DEKOICHI_THE_BATTLECHANTED_LOCOMOTIVE
+	.2byte ITEM_CARD_DRILLROID
+	.2byte ITEM_CARD_ENEMY_CONTROLLER
+	.2byte ITEM_CARD_GIANT_TRUNADE
+	.2byte ITEM_CARD_HEAVY_STORM
+	.2byte ITEM_CARD_LIGHTNING_VORTEX
+	.2byte ITEM_CARD_MAGIC_CYLINDER
+	.2byte ITEM_CARD_MAGIC_JAMMER
+	.2byte ITEM_CARD_MASK_OF_DARKNESS
+	.2byte ITEM_CARD_RUSH_RECKLESSLY
+	.2byte ITEM_CARD_SAKURETSU_ARMOR
+	.2byte ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT
+	.2byte ITEM_CARD_SMASHING_GROUND
+	.2byte ITEM_CARD_THREATENING_ROAR
+	.2byte ITEM_CARD_TRAP_HOLE
+	.2byte ITEM_CARD_ZURE_KNIGHT_OF_DARK_WORLD
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStarterDeckXyzSymphony::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STARTER_DECK_XYZ_SYMPHONY
+	message gText_TCGStarterDeckXyzSymphonyClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStarterDeckXyzSymphony
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStarterDeckXyzSymphony:
+	.2byte ITEM_CARD_ALEXANDRITE_DRAGON
+	.2byte ITEM_CARD_CALL_OF_THE_HAUNTED
+	.2byte ITEM_CARD_CHIRON_THE_MAGE
+	.2byte ITEM_CARD_CYBER_DRAGON
+	.2byte ITEM_CARD_DUST_TORNADO
+	.2byte ITEM_CARD_FISSURE
+	.2byte ITEM_CARD_GIANT_RAT
+	.2byte ITEM_CARD_MAESTROKE_THE_SYMPHONY_DJINN
+	.2byte ITEM_CARD_MAGIC_CYLINDER
+	.2byte ITEM_CARD_MARAUDING_CAPTAIN
+	.2byte ITEM_CARD_MYSTICAL_SPACE_TYPHOON
+	.2byte ITEM_CARD_NUMBER_39_UTOPIA
+	.2byte ITEM_CARD_RAIGEKI_BREAK
+	.2byte ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
+	.2byte ITEM_CARD_SANGAN
+	.2byte ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT
+	.2byte ITEM_CARD_SHINING_ANGEL
+	.2byte ITEM_CARD_SPIRIT_OF_THE_HARP
+	.2byte ITEM_CARD_SWORDS_OF_REVEALING_LIGHT
+	.2byte ITEM_CARD_TEMTEMPO_THE_PERCUSSION_DJINN
+	.2byte ITEM_CARD_TRAP_HOLE
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStarterDeckYuGiOh5Ds::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STARTER_DECK_YU_GI_OH_5D_S
+	message gText_TCGStarterDeckYuGiOh5DsClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStarterDeckYuGiOh5Ds
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStarterDeckYuGiOh5Ds:
+	.2byte ITEM_CARD_CHARCOAL_INPACHI
+	.2byte ITEM_CARD_COLOSSAL_FIGHTER
+	.2byte ITEM_CARD_DARK_BLADE
+	.2byte ITEM_CARD_DIVINE_WRATH
+	.2byte ITEM_CARD_EXILED_FORCE
+	.2byte ITEM_CARD_GAIA_KNIGHT_THE_FORCE_OF_EARTH
+	.2byte ITEM_CARD_LIGHTNING_VORTEX
+	.2byte ITEM_CARD_MARAUDING_CAPTAIN
+	.2byte ITEM_CARD_MONSTER_REINCARNATION
+	.2byte ITEM_CARD_MYSTIC_TOMATO
+	.2byte ITEM_CARD_RENGE_GATEKEEPER_OF_DARK_WORLD
+	.2byte ITEM_CARD_RUSH_RECKLESSLY
+	.2byte ITEM_CARD_SAKURETSU_ARMOR
+	.2byte ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT
+	.2byte ITEM_CARD_SMASHING_GROUND
+	.2byte ITEM_CARD_THREATENING_ROAR
+	.2byte ITEM_CARD_TRAP_HOLE
+	.2byte ITEM_CARD_TWISTER
+	.2byte ITEM_CARD_UFO_TURTLE
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStarterDeckYuGiOh5Ds2009::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STARTER_DECK_YU_GI_OH_5D_S_2009
+	message gText_TCGStarterDeckYuGiOh5Ds2009Clerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStarterDeckYuGiOh5Ds2009
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStarterDeckYuGiOh5Ds2009:
+	.2byte ITEM_CARD_CREATURE_SWAP
+	.2byte ITEM_CARD_DES_KOALA
+	.2byte ITEM_CARD_DUST_TORNADO
+	.2byte ITEM_CARD_EMERGENCY_PROVISIONS
+	.2byte ITEM_CARD_GIANT_TRUNADE
+	.2byte ITEM_CARD_GOBLIN_ATTACK_FORCE
+	.2byte ITEM_CARD_GOTTOMS_EMERGENCY_CALL
+	.2byte ITEM_CARD_OOKAZI
+	.2byte ITEM_CARD_RAIGEKI_BREAK
+	.2byte ITEM_CARD_RUSH_RECKLESSLY
+	.2byte ITEM_CARD_SABER_BEETLE
+	.2byte ITEM_CARD_SABERSAURUS
+	.2byte ITEM_CARD_SASUKE_SAMURAI
+	.2byte ITEM_CARD_THE_DRAGON_DWELLING_IN_THE_CAVE
+	.2byte ITEM_CARD_TWISTER
+	.2byte ITEM_CARD_WIDESPREAD_RUIN
+	.2byte ITEM_CARD_X_SABER_AIRBELLUM
+	.2byte ITEM_CARD_X_SABER_URBELLUM
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStarterDeckYugi::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STARTER_DECK_YUGI
+	message gText_TCGStarterDeckYugiClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStarterDeckYugi
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStarterDeckYugi:
+	.2byte ITEM_CARD_CARD_DESTRUCTION
+	.2byte ITEM_CARD_CASTLE_WALLS
+	.2byte ITEM_CARD_CHANGE_OF_HEART
+	.2byte ITEM_CARD_DARK_HOLE
+	.2byte ITEM_CARD_DARK_MAGICIAN
+	.2byte ITEM_CARD_DE_SPELL
+	.2byte ITEM_CARD_DIAN_KETO_THE_CURE_MASTER
+	.2byte ITEM_CARD_FISSURE
+	.2byte ITEM_CARD_GAIA_THE_FIERCE_KNIGHT
+	.2byte ITEM_CARD_GIANT_SOLDIER_OF_STONE
+	.2byte ITEM_CARD_GREAT_WHITE
+	.2byte ITEM_CARD_LAST_WILL
+	.2byte ITEM_CARD_MAN_EATER_BUG
+	.2byte ITEM_CARD_MONSTER_REBORN
+	.2byte ITEM_CARD_MYSTICAL_ELF
+	.2byte ITEM_CARD_NEO_THE_MAGIC_SWORDSMAN
+	.2byte ITEM_CARD_REINFORCEMENTS
+	.2byte ITEM_CARD_REMOVE_TRAP
+	.2byte ITEM_CARD_SOUL_EXCHANGE
+	.2byte ITEM_CARD_SUMMONED_SKULL
+	.2byte ITEM_CARD_TRAP_HOLE
+	.2byte ITEM_CARD_TRAP_MASTER
+	.2byte ITEM_CARD_ULTIMATE_OFFERING
+	.2byte ITEM_CARD_WABOKU
+	.2byte ITEM_CARD_WALL_OF_ILLUSION
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStarterDeckYugiEvolution::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STARTER_DECK_YUGI_EVOLUTION
+	message gText_TCGStarterDeckYugiEvolutionClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStarterDeckYugiEvolution
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStarterDeckYugiEvolution:
+	.2byte ITEM_CARD_AXE_OF_DESPAIR
+	.2byte ITEM_CARD_CARD_DESTRUCTION
+	.2byte ITEM_CARD_CHANGE_OF_HEART
+	.2byte ITEM_CARD_DARK_BLADE
+	.2byte ITEM_CARD_DARK_HOLE
+	.2byte ITEM_CARD_DARK_MAGICIAN
+	.2byte ITEM_CARD_DIAN_KETO_THE_CURE_MASTER
+	.2byte ITEM_CARD_FISSURE
+	.2byte ITEM_CARD_GAIA_THE_FIERCE_KNIGHT
+	.2byte ITEM_CARD_GIANT_RAT
+	.2byte ITEM_CARD_GIANT_SOLDIER_OF_STONE
+	.2byte ITEM_CARD_GREAT_WHITE
+	.2byte ITEM_CARD_KURIBOH
+	.2byte ITEM_CARD_LAST_WILL
+	.2byte ITEM_CARD_MAGIC_JAMMER
+	.2byte ITEM_CARD_MAN_EATER_BUG
+	.2byte ITEM_CARD_MONSTER_REBORN
+	.2byte ITEM_CARD_MYSTICAL_ELF
+	.2byte ITEM_CARD_MYSTICAL_SPACE_TYPHOON
+	.2byte ITEM_CARD_NEO_THE_MAGIC_SWORDSMAN
+	.2byte ITEM_CARD_POT_OF_GREED
+	.2byte ITEM_CARD_RAIGEKI_BREAK
+	.2byte ITEM_CARD_REMOVE_TRAP
+	.2byte ITEM_CARD_ROYAL_MAGICAL_LIBRARY
+	.2byte ITEM_CARD_SANGAN
+	.2byte ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT
+	.2byte ITEM_CARD_SONIC_BIRD
+	.2byte ITEM_CARD_SUMMONED_SKULL
+	.2byte ITEM_CARD_SWORDS_OF_REVEALING_LIGHT
+	.2byte ITEM_CARD_TRAP_HOLE
+	.2byte ITEM_CARD_WABOKU
+	.2byte ITEM_CARD_WALL_OF_ILLUSION
+	.2byte ITEM_CARD_ZOMBYRA_THE_DARK
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStarterDeckYugiReloaded::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STARTER_DECK_YUGI_RELOADED
+	message gText_TCGStarterDeckYugiReloadedClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStarterDeckYugiReloaded
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStarterDeckYugiReloaded:
+	.2byte ITEM_CARD_4_STARRED_LADYBUG_OF_DOOM
+	.2byte ITEM_CARD_BLACK_PENDANT
+	.2byte ITEM_CARD_BOOK_OF_MOON
+	.2byte ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR
+	.2byte ITEM_CARD_BUSTER_BLADER
+	.2byte ITEM_CARD_CALL_OF_THE_HAUNTED
+	.2byte ITEM_CARD_DARK_BLADE
+	.2byte ITEM_CARD_DARK_HOLE
+	.2byte ITEM_CARD_DARK_MAGICIAN
+	.2byte ITEM_CARD_DARK_MAGICIAN_GIRL
+	.2byte ITEM_CARD_ELECTRIC_VIRUS
+	.2byte ITEM_CARD_GEMINI_ELF
+	.2byte ITEM_CARD_GIANT_SOLDIER_OF_STONE
+	.2byte ITEM_CARD_KURIBOH
+	.2byte ITEM_CARD_MAGE_POWER
+	.2byte ITEM_CARD_MAGIC_CYLINDER
+	.2byte ITEM_CARD_MAGICAL_DIMENSION
+	.2byte ITEM_CARD_MAGICIAN_S_VALKYRIA
+	.2byte ITEM_CARD_MIRACLE_RESTORING
+	.2byte ITEM_CARD_MIRROR_FORCE
+	.2byte ITEM_CARD_MYSTICAL_ELF
+	.2byte ITEM_CARD_MYSTICAL_SPACE_TYPHOON
+	.2byte ITEM_CARD_NEO_THE_MAGIC_SWORDSMAN
+	.2byte ITEM_CARD_SKILLED_DARK_MAGICIAN
+	.2byte ITEM_CARD_SKILLED_WHITE_MAGICIAN
+	.2byte ITEM_CARD_SOUL_TAKER
+	.2byte ITEM_CARD_SUMMONED_SKULL
+	.2byte ITEM_CARD_SWORDS_OF_REVEALING_LIGHT
+	.2byte ITEM_CARD_THE_TRICKY
+	.2byte ITEM_CARD_TRAP_HOLE
+	.2byte ITEM_CARD_WABOKU
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStarterDeckYuya::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STARTER_DECK_YUYA
+	message gText_TCGStarterDeckYuyaClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStarterDeckYuya
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStarterDeckYuya:
+	.2byte ITEM_CARD_ARCHFIEND_ECCENTRICK
+	.2byte ITEM_CARD_BOOK_OF_MOON
+	.2byte ITEM_CARD_CEASEFIRE
+	.2byte ITEM_CARD_GENE_WARPED_WARWOLF
+	.2byte ITEM_CARD_GIANT_RAT
+	.2byte ITEM_CARD_LIGHTNING_VORTEX
+	.2byte ITEM_CARD_MYSTICAL_SPACE_TYPHOON
+	.2byte ITEM_CARD_RAIGEKI_BREAK
+	.2byte ITEM_CARD_THREATENING_ROAR
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStormofRagnarok::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STORM_OF_RAGNAROK
+	message gText_TCGStormofRagnarokClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStormofRagnarok
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStormofRagnarok:
+	.2byte ITEM_CARD_CHAOS_HUNTER
+	.2byte ITEM_CARD_FORBIDDEN_LANCE
+	.2byte ITEM_CARD_KAGEMUSHA_OF_THE_SIX_SAMURAI
+	.2byte ITEM_CARD_LEGENDARY_SIX_SAMURAI_KIZAN
+	.2byte ITEM_CARD_MAXX_C_
+	.2byte ITEM_CARD_SHIEN_S_SMOKE_SIGNAL
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStrikeofNeos::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRIKE_OF_NEOS
+	message gText_TCGStrikeofNeosClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStrikeofNeos
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStrikeofNeos:
+	.2byte ITEM_CARD_ADVANCED_RITUAL_ART
+	.2byte ITEM_CARD_D_D_CROW
+	.2byte ITEM_CARD_ELECTRIC_VIRUS
+	.2byte ITEM_CARD_FUSION_DEVOURER
+	.2byte ITEM_CARD_GENE_WARPED_WARWOLF
+	.2byte ITEM_CARD_GREN_TACTICIAN_OF_DARK_WORLD
+	.2byte ITEM_CARD_PULLING_THE_RUG
+	.2byte ITEM_CARD_PUPPET_PLANT
+	.2byte ITEM_CARD_REIGN_BEAUX_OVERLORD_OF_DARK_WORLD
+	.2byte ITEM_CARD_TWISTER
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStructureDeckAlbazStrike::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRUCTURE_DECK_ALBAZ_STRIKE
+	message gText_TCGStructureDeckAlbazStrikeClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStructureDeckAlbazStrike
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStructureDeckAlbazStrike:
+	.2byte ITEM_CARD_ALBION_THE_SHROUDED_DRAGON
+	.2byte ITEM_CARD_BRIGRAND_THE_GLORY_DRAGON
+	.2byte ITEM_CARD_CALLED_BY_THE_GRAVE
+	.2byte ITEM_CARD_DARK_RULER_NO_MORE
+	.2byte ITEM_CARD_DIMENSIONAL_BARRIER
+	.2byte ITEM_CARD_EFFECT_VEILER
+	.2byte ITEM_CARD_FALLEN_OF_ALBAZ
+	.2byte ITEM_CARD_FUSION_SUBSTITUTE
+	.2byte ITEM_CARD_GHOST_OGRE_SNOW_RABBIT
+	.2byte ITEM_CARD_GOLD_SARCOPHAGUS
+	.2byte ITEM_CARD_KEEPER_OF_DRAGON_MAGIC
+	.2byte ITEM_CARD_LUBELLION_THE_SEARING_DRAGON
+	.2byte ITEM_CARD_RED_EYES_DARKNESS_METAL_DRAGON
+	.2byte ITEM_CARD_SUMMONER_MONK
+	.2byte ITEM_CARD_THE_GOLDEN_SWORDSOUL
+	.2byte ITEM_CARD_THERE_CAN_BE_ONLY_ONE
+	.2byte ITEM_CARD_TITANIKLAD_THE_ASH_DRAGON
+	.2byte ITEM_CARD_WHITE_DRAGON_WYVERBURSTER
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStructureDeckBewareofTraptrix::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRUCTURE_DECK_BEWARE_OF_TRAPTRIX
+	message gText_TCGStructureDeckBewareofTraptrixClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStructureDeckBewareofTraptrix
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStructureDeckBewareofTraptrix:
+	.2byte ITEM_CARD_ARTIFACT_MORALLTACH
+	.2byte ITEM_CARD_ARTIFACT_SANCTUM
+	.2byte ITEM_CARD_ASH_BLOSSOM_JOYOUS_SPRING
+	.2byte ITEM_CARD_BOTTOMLESS_TRAP_HOLE
+	.2byte ITEM_CARD_EVENLY_MATCHED
+	.2byte ITEM_CARD_FIRE_HAND
+	.2byte ITEM_CARD_FLOODGATE_TRAP_HOLE
+	.2byte ITEM_CARD_HARPIE_S_FEATHER_DUSTER
+	.2byte ITEM_CARD_ICE_HAND
+	.2byte ITEM_CARD_KUMONGOUS_THE_STICKY_STRING_KAIJU
+	.2byte ITEM_CARD_LONEFIRE_BLOSSOM
+	.2byte ITEM_CARD_RAIGEKI
+	.2byte ITEM_CARD_RETALIATING_C_
+	.2byte ITEM_CARD_TRAP_HOLE
+	.2byte ITEM_CARD_TRAPTRIX_ARACHNOCAMPA
+	.2byte ITEM_CARD_TRAPTRIX_ATRAX
+	.2byte ITEM_CARD_TRAPTRIX_DIONAEA
+	.2byte ITEM_CARD_TRAPTRIX_GENLISEA
+	.2byte ITEM_CARD_TRAPTRIX_MANTIS
+	.2byte ITEM_CARD_TRAPTRIX_MYRMELEO
+	.2byte ITEM_CARD_TRAPTRIX_NEPENTHES
+	.2byte ITEM_CARD_TRAPTRIX_PUDICA
+	.2byte ITEM_CARD_TRAPTRIX_RAFFLESIA
+	.2byte ITEM_CARD_TRAPTRIX_TRAP_HOLE_NIGHTMARE
+	.2byte ITEM_CARD_TRAPTRIX_VESICULO
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStructureDeckBlazeofDestruction::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRUCTURE_DECK_BLAZE_OF_DESTRUCTION
+	message gText_TCGStructureDeckBlazeofDestructionClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStructureDeckBlazeofDestruction
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStructureDeckBlazeofDestruction:
+	.2byte ITEM_CARD_BLAZING_INPACHI
+	.2byte ITEM_CARD_CALL_OF_THE_HAUNTED
+	.2byte ITEM_CARD_DUST_TORNADO
+	.2byte ITEM_CARD_HEAVY_STORM
+	.2byte ITEM_CARD_JAR_OF_GREED
+	.2byte ITEM_CARD_LEVEL_LIMIT_AREA_B
+	.2byte ITEM_CARD_MYSTICAL_SPACE_TYPHOON
+	.2byte ITEM_CARD_NOBLEMAN_OF_CROSSOUT
+	.2byte ITEM_CARD_POT_OF_GREED
+	.2byte ITEM_CARD_PREMATURE_BURIAL
+	.2byte ITEM_CARD_RELOAD
+	.2byte ITEM_CARD_SNATCH_STEAL
+	.2byte ITEM_CARD_THESTALOS_THE_FIRESTORM_MONARCH
+	.2byte ITEM_CARD_UFO_TURTLE
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStructureDeckBlueEyesWhiteDestiny::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRUCTURE_DECK_BLUE_EYES_WHITE_DESTINY
+	message gText_TCGStructureDeckBlueEyesWhiteDestinyClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStructureDeckBlueEyesWhiteDestiny
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStructureDeckBlueEyesWhiteDestiny:
+	.2byte ITEM_CARD_ASH_BLOSSOM_JOYOUS_SPRING
+	.2byte ITEM_CARD_BLUE_EYES_ALTERNATIVE_WHITE_DRAGON
+	.2byte ITEM_CARD_BLUE_EYES_JET_DRAGON
+	.2byte ITEM_CARD_BLUE_EYES_TWIN_BURST_DRAGON
+	.2byte ITEM_CARD_BLUE_EYES_TYRANT_DRAGON
+	.2byte ITEM_CARD_BLUE_EYES_ULTIMATE_DRAGON
+	.2byte ITEM_CARD_BLUE_EYES_WHITE_DRAGON
+	.2byte ITEM_CARD_CALLED_BY_THE_GRAVE
+	.2byte ITEM_CARD_DICTATOR_OF_D_
+	.2byte ITEM_CARD_EFFECT_VEILER
+	.2byte ITEM_CARD_INFINITE_IMPERMANENCE
+	.2byte ITEM_CARD_MAIDEN_OF_WHITE
+	.2byte ITEM_CARD_MASTER_WITH_EYES_OF_BLUE
+	.2byte ITEM_CARD_NEO_KAISER_SEA_HORSE
+	.2byte ITEM_CARD_NIBIRU_THE_PRIMAL_BEING
+	.2byte ITEM_CARD_SAGE_WITH_EYES_OF_BLUE
+	.2byte ITEM_CARD_THE_WHITE_STONE_OF_ANCIENTS
+	.2byte ITEM_CARD_THE_WHITE_STONE_OF_LEGEND
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStructureDeckCyberStrike::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRUCTURE_DECK_CYBER_STRIKE
+	message gText_TCGStructureDeckCyberStrikeClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStructureDeckCyberStrike
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStructureDeckCyberStrike:
+	.2byte ITEM_CARD_CALL_OF_THE_HAUNTED
+	.2byte ITEM_CARD_CHIMERATECH_OVERDRAGON
+	.2byte ITEM_CARD_CYBER_DRAGON
+	.2byte ITEM_CARD_CYBER_DRAGON_DREI
+	.2byte ITEM_CARD_CYBER_DRAGON_VIER
+	.2byte ITEM_CARD_CYBER_DRAGON_ZWEI
+	.2byte ITEM_CARD_CYBER_END_DRAGON
+	.2byte ITEM_CARD_CYBER_PHOENIX
+	.2byte ITEM_CARD_CYBER_VALLEY
+	.2byte ITEM_CARD_INFINITE_IMPERMANENCE
+	.2byte ITEM_CARD_LIMITER_REMOVAL
+	.2byte ITEM_CARD_MACHINE_DUPLICATION
+	.2byte ITEM_CARD_OVERLOAD_FUSION
+	.2byte ITEM_CARD_PALEOZOIC_CANADIA
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStructureDeckCyberseLink::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRUCTURE_DECK_CYBERSE_LINK
+	message gText_TCGStructureDeckCyberseLinkClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStructureDeckCyberseLink
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStructureDeckCyberseLink:
+	.2byte ITEM_CARD_CARD_TROOPER
+	.2byte ITEM_CARD_COSMIC_CYCLONE
+	.2byte ITEM_CARD_DEBRIS_DRAGON
+	.2byte ITEM_CARD_DIMENSIONAL_BARRIER
+	.2byte ITEM_CARD_GOLD_SARCOPHAGUS
+	.2byte ITEM_CARD_MAGICIAN_OF_FAITH
+	.2byte ITEM_CARD_MATHEMATICIAN
+	.2byte ITEM_CARD_MIND_CONTROL
+	.2byte ITEM_CARD_MORPHING_JAR
+	.2byte ITEM_CARD_SHUFFLE_REBORN
+	.2byte ITEM_CARD_SOLEMN_STRIKE
+	.2byte ITEM_CARD_SOUL_CHARGE
+	.2byte ITEM_CARD_SUMMONER_MONK
+	.2byte ITEM_CARD_TRAGOEDIA
+	.2byte ITEM_CARD_TREEBORN_FROG
+	.2byte ITEM_CARD_WHITE_DRAGON_WYVERBURSTER
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStructureDeckDarkWorld::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRUCTURE_DECK_DARK_WORLD
+	message gText_TCGStructureDeckDarkWorldClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStructureDeckDarkWorld
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStructureDeckDarkWorld:
+	.2byte ITEM_CARD_BEIIGE_VANGUARD_OF_DARK_WORLD
+	.2byte ITEM_CARD_BROWW_HUNTSMAN_OF_DARK_WORLD
+	.2byte ITEM_CARD_BRRON_MAD_KING_OF_DARK_WORLD
+	.2byte ITEM_CARD_CARD_DESTRUCTION
+	.2byte ITEM_CARD_DARK_WORLD_LIGHTNING
+	.2byte ITEM_CARD_DECK_DEVASTATION_VIRUS
+	.2byte ITEM_CARD_DRAGGED_DOWN_INTO_THE_GRAVE
+	.2byte ITEM_CARD_GENTA_GATEMAN_OF_DARK_WORLD
+	.2byte ITEM_CARD_GOLDD_WU_LORD_OF_DARK_WORLD
+	.2byte ITEM_CARD_GRAPHA_DRAGON_LORD_OF_DARK_WORLD
+	.2byte ITEM_CARD_GRAPHA_DRAGON_OVERLORD_OF_DARK_WORLD
+	.2byte ITEM_CARD_GREN_TACTICIAN_OF_DARK_WORLD
+	.2byte ITEM_CARD_LUCENT_NETHERLORD_OF_DARK_WORLD
+	.2byte ITEM_CARD_MIND_CRUSH
+	.2byte ITEM_CARD_PALEOZOIC_DINOMISCHUS
+	.2byte ITEM_CARD_PARL_HERMIT_OF_DARK_WORLD
+	.2byte ITEM_CARD_REIGN_BEAUX_OVERKING_OF_DARK_WORLD
+	.2byte ITEM_CARD_REIGN_BEAUX_OVERLORD_OF_DARK_WORLD
+	.2byte ITEM_CARD_RENGE_GATEKEEPER_OF_DARK_WORLD
+	.2byte ITEM_CARD_SCARR_SCOUT_OF_DARK_WORLD
+	.2byte ITEM_CARD_SILLVA_WARLORD_OF_DARK_WORLD
+	.2byte ITEM_CARD_SKILL_DRAIN
+	.2byte ITEM_CARD_SNOWW_UNLIGHT_OF_DARK_WORLD
+	.2byte ITEM_CARD_ZURE_KNIGHT_OF_DARK_WORLD
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStructureDeckDinosaursRage::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRUCTURE_DECK_DINOSAUR_S_RAGE
+	message gText_TCGStructureDeckDinosaursRageClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStructureDeckDinosaursRage
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStructureDeckDinosaursRage:
+	.2byte ITEM_CARD_GILASAURUS
+	.2byte ITEM_CARD_HEAVY_STORM
+	.2byte ITEM_CARD_HYDROGEDDON
+	.2byte ITEM_CARD_HYPER_HAMMERHEAD
+	.2byte ITEM_CARD_KABAZAULS
+	.2byte ITEM_CARD_LIGHTNING_VORTEX
+	.2byte ITEM_CARD_MEGAMORPH
+	.2byte ITEM_CARD_MYSTICAL_SPACE_TYPHOON
+	.2byte ITEM_CARD_SABERSAURUS
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStructureDeckDragonsRoar::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRUCTURE_DECK_DRAGON_S_ROAR
+	message gText_TCGStructureDeckDragonsRoarClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStructureDeckDragonsRoar
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStructureDeckDragonsRoar:
+	.2byte ITEM_CARD_BLACK_DRAGON_S_CHICK
+	.2byte ITEM_CARD_CALL_OF_THE_HAUNTED
+	.2byte ITEM_CARD_CEASEFIRE
+	.2byte ITEM_CARD_CREATURE_SWAP
+	.2byte ITEM_CARD_DRAGON_S_RAGE
+	.2byte ITEM_CARD_HEAVY_STORM
+	.2byte ITEM_CARD_LUSTER_DRAGON
+	.2byte ITEM_CARD_MASKED_DRAGON
+	.2byte ITEM_CARD_MYSTICAL_SPACE_TYPHOON
+	.2byte ITEM_CARD_NOBLEMAN_OF_CROSSOUT
+	.2byte ITEM_CARD_POT_OF_GREED
+	.2byte ITEM_CARD_PREMATURE_BURIAL
+	.2byte ITEM_CARD_RECKLESS_GREED
+	.2byte ITEM_CARD_RED_EYES_BLACK_DRAGON
+	.2byte ITEM_CARD_RELOAD
+	.2byte ITEM_CARD_SNATCH_STEAL
+	.2byte ITEM_CARD_SWORDS_OF_REVEALING_LIGHT
+	.2byte ITEM_CARD_TWIN_HEADED_BEHEMOTH
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStructureDeckFireKings::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRUCTURE_DECK_FIRE_KINGS
+	message gText_TCGStructureDeckFireKingsClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStructureDeckFireKings
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStructureDeckFireKings:
+	.2byte ITEM_CARD_BLASTER_DRAGON_RULER_OF_INFERNOS
+	.2byte ITEM_CARD_BURNER_DRAGON_RULER_OF_SPARKS
+	.2byte ITEM_CARD_DARK_HOLE
+	.2byte ITEM_CARD_DIAMOND_DIRE_WOLF
+	.2byte ITEM_CARD_DROLL_LOCK_BIRD
+	.2byte ITEM_CARD_FIRE_FORMATION_TENKI
+	.2byte ITEM_CARD_FIRE_KING_HIGH_AVATAR_KIRIN
+	.2byte ITEM_CARD_HIITA_THE_FIRE_CHARMER_ABLAZE
+	.2byte ITEM_CARD_INFINITE_IMPERMANENCE
+	.2byte ITEM_CARD_SACRED_PHOENIX_OF_NEPHTHYS
+	.2byte ITEM_CARD_SOLEMN_JUDGMENT
+	.2byte ITEM_CARD_TORRENTIAL_TRIBUTE
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStructureDeckFreezingChains::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRUCTURE_DECK_FREEZING_CHAINS
+	message gText_TCGStructureDeckFreezingChainsClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStructureDeckFreezingChains
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStructureDeckFreezingChains:
+	.2byte ITEM_CARD_AQUA_SPIRIT
+	.2byte ITEM_CARD_BRIONAC_DRAGON_OF_THE_ICE_BARRIER
+	.2byte ITEM_CARD_DUPE_FROG
+	.2byte ITEM_CARD_FIENDISH_CHAIN
+	.2byte ITEM_CARD_HEAVY_STORM_DUSTER
+	.2byte ITEM_CARD_RONINTOADIN
+	.2byte ITEM_CARD_SALVAGE
+	.2byte ITEM_CARD_TRISHULA_DRAGON_OF_THE_ICE_BARRIER
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStructureDeckFuryfromtheDeep::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRUCTURE_DECK_FURY_FROM_THE_DEEP
+	message gText_TCGStructureDeckFuryfromtheDeepClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStructureDeckFuryfromtheDeep
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStructureDeckFuryfromtheDeep:
+	.2byte ITEM_CARD_7_COLORED_FISH
+	.2byte ITEM_CARD_A_LEGENDARY_OCEAN
+	.2byte ITEM_CARD_AMPHIBIOUS_BUGROTH_MK_3
+	.2byte ITEM_CARD_CALL_OF_THE_HAUNTED
+	.2byte ITEM_CARD_CREATURE_SWAP
+	.2byte ITEM_CARD_DUST_TORNADO
+	.2byte ITEM_CARD_GRAVITY_BIND
+	.2byte ITEM_CARD_HAMMER_SHOT
+	.2byte ITEM_CARD_HEAVY_STORM
+	.2byte ITEM_CARD_LEVIA_DRAGON_DAEDALUS
+	.2byte ITEM_CARD_MERMAID_KNIGHT
+	.2byte ITEM_CARD_MOBIUS_THE_FROST_MONARCH
+	.2byte ITEM_CARD_MOTHER_GRIZZLY
+	.2byte ITEM_CARD_MYSTICAL_SPACE_TYPHOON
+	.2byte ITEM_CARD_POT_OF_GREED
+	.2byte ITEM_CARD_PREMATURE_BURIAL
+	.2byte ITEM_CARD_RELOAD
+	.2byte ITEM_CARD_SALVAGE
+	.2byte ITEM_CARD_SEA_SERPENT_WARRIOR_OF_DARKNESS
+	.2byte ITEM_CARD_SNATCH_STEAL
+	.2byte ITEM_CARD_TORRENTIAL_TRIBUTE
+	.2byte ITEM_CARD_TRIBE_INFECTING_VIRUS
+	.2byte ITEM_CARD_XING_ZHEN_HU
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStructureDeckInvincibleFortress::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRUCTURE_DECK_INVINCIBLE_FORTRESS
+	message gText_TCGStructureDeckInvincibleFortressClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStructureDeckInvincibleFortress
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStructureDeckInvincibleFortress:
+	.2byte ITEM_CARD_BRAIN_CONTROL
+	.2byte ITEM_CARD_COMPULSORY_EVACUATION_DEVICE
+	.2byte ITEM_CARD_GIANT_RAT
+	.2byte ITEM_CARD_GIGANTES
+	.2byte ITEM_CARD_GOLEM_SENTRY
+	.2byte ITEM_CARD_GUARDIAN_SPHINX
+	.2byte ITEM_CARD_HAMMER_SHOT
+	.2byte ITEM_CARD_HIERACOSPHINX
+	.2byte ITEM_CARD_MOAI_INTERCEPTOR_CANNONS
+	.2byte ITEM_CARD_MYSTICAL_SPACE_TYPHOON
+	.2byte ITEM_CARD_PREMATURE_BURIAL
+	.2byte ITEM_CARD_RECKLESS_GREED
+	.2byte ITEM_CARD_ROBBIN_GOBLIN
+	.2byte ITEM_CARD_SAND_MOTH
+	.2byte ITEM_CARD_STONE_STATUE_OF_THE_AZTECS
+	.2byte ITEM_CARD_SWORDS_OF_REVEALING_LIGHT
+	.2byte ITEM_CARD_ULTIMATE_OFFERING
+	.2byte ITEM_CARD_WABOKU
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStructureDeckLairofDarkness::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRUCTURE_DECK_LAIR_OF_DARKNESS
+	message gText_TCGStructureDeckLairofDarknessClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStructureDeckLairofDarkness
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStructureDeckLairofDarkness:
+	.2byte ITEM_CARD_ALLURE_OF_DARKNESS
+	.2byte ITEM_CARD_ARCHFIEND_CAVALRY
+	.2byte ITEM_CARD_CAIUS_THE_MEGA_MONARCH
+	.2byte ITEM_CARD_CRUSH_CARD_VIRUS
+	.2byte ITEM_CARD_DECK_DEVASTATION_VIRUS
+	.2byte ITEM_CARD_ERADICATOR_EPIDEMIC_VIRUS
+	.2byte ITEM_CARD_MIND_CRUSH
+	.2byte ITEM_CARD_RELINKURIBOH
+	.2byte ITEM_CARD_TOUR_GUIDE_FROM_THE_UNDERWORLD
+	.2byte ITEM_CARD_VANITY_S_FIEND
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStructureDeckLegendoftheCrystalBeasts::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRUCTURE_DECK_LEGEND_OF_THE_CRYSTAL_BEASTS
+	message gText_TCGStructureDeckLegendoftheCrystalBeastsClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStructureDeckLegendoftheCrystalBeasts
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStructureDeckLegendoftheCrystalBeasts:
+	.2byte ITEM_CARD_ASH_BLOSSOM_JOYOUS_SPRING
+	.2byte ITEM_CARD_COSMIC_CYCLONE
+	.2byte ITEM_CARD_DIMENSION_SHIFTER
+	.2byte ITEM_CARD_GHOST_BELLE_HAUNTED_MANSION
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStructureDeckLordoftheStorm::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRUCTURE_DECK_LORD_OF_THE_STORM
+	message gText_TCGStructureDeckLordoftheStormClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStructureDeckLordoftheStorm
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStructureDeckLordoftheStorm:
+	.2byte ITEM_CARD_CALL_OF_THE_HAUNTED
+	.2byte ITEM_CARD_CARD_DESTRUCTION
+	.2byte ITEM_CARD_DUST_TORNADO
+	.2byte ITEM_CARD_FLYING_KAMAKIRI_1
+	.2byte ITEM_CARD_HEAVY_STORM
+	.2byte ITEM_CARD_ICARUS_ATTACK
+	.2byte ITEM_CARD_LADY_NINJA_YAE
+	.2byte ITEM_CARD_LIGHTNING_VORTEX
+	.2byte ITEM_CARD_MAGIC_JAMMER
+	.2byte ITEM_CARD_MYSTICAL_SPACE_TYPHOON
+	.2byte ITEM_CARD_NOBLEMAN_OF_CROSSOUT
+	.2byte ITEM_CARD_RECKLESS_GREED
+	.2byte ITEM_CARD_RELOAD
+	.2byte ITEM_CARD_SAKURETSU_ARMOR
+	.2byte ITEM_CARD_SILPHEED
+	.2byte ITEM_CARD_SLATE_WARRIOR
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStructureDeckMachineReVolt::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRUCTURE_DECK_MACHINE_RE_VOLT
+	message gText_TCGStructureDeckMachineReVoltClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStructureDeckMachineReVolt
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStructureDeckMachineReVolt:
+	.2byte ITEM_CARD_CANNON_SOLDIER
+	.2byte ITEM_CARD_ENEMY_CONTROLLER
+	.2byte ITEM_CARD_GEAR_GOLEM_THE_MOVING_FORTRESS
+	.2byte ITEM_CARD_HEAVY_STORM
+	.2byte ITEM_CARD_LIMITER_REMOVAL
+	.2byte ITEM_CARD_MACHINE_DUPLICATION
+	.2byte ITEM_CARD_MECHANICALCHASER
+	.2byte ITEM_CARD_MYSTICAL_SPACE_TYPHOON
+	.2byte ITEM_CARD_POT_OF_AVARICE
+	.2byte ITEM_CARD_SAKURETSU_ARMOR
+	.2byte ITEM_CARD_ULTIMATE_OFFERING
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStructureDeckMechanizedMadness::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRUCTURE_DECK_MECHANIZED_MADNESS
+	message gText_TCGStructureDeckMechanizedMadnessClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStructureDeckMechanizedMadness
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStructureDeckMechanizedMadness:
+	.2byte ITEM_CARD_COSMIC_CYCLONE
+	.2byte ITEM_CARD_LIMITER_REMOVAL
+	.2byte ITEM_CARD_POT_OF_AVARICE
+	.2byte ITEM_CARD_SOLEMN_STRIKE
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStructureDeckOrderoftheSpellcasters::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRUCTURE_DECK_ORDER_OF_THE_SPELLCASTERS
+	message gText_TCGStructureDeckOrderoftheSpellcastersClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStructureDeckOrderoftheSpellcasters
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStructureDeckOrderoftheSpellcasters:
+	.2byte ITEM_CARD_DARK_MAGICIAN_OF_CHAOS
+	.2byte ITEM_CARD_DROLL_LOCK_BIRD
+	.2byte ITEM_CARD_MAGICAL_ABDUCTOR
+	.2byte ITEM_CARD_MAGICAL_DIMENSION
+	.2byte ITEM_CARD_MAGICIAN_OF_FAITH
+	.2byte ITEM_CARD_MAGICIAN_S_CIRCLE
+	.2byte ITEM_CARD_PITCH_BLACK_POWER_STONE
+	.2byte ITEM_CARD_POT_OF_DESIRES
+	.2byte ITEM_CARD_SPELLBOOK_MAGICIAN_OF_PROPHECY
+	.2byte ITEM_CARD_SPELLBOOK_OF_SECRETS
+	.2byte ITEM_CARD_SUMMONER_MONK
+	.2byte ITEM_CARD_TERRAFORMING
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStructureDeckPowercodeLink::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRUCTURE_DECK_POWERCODE_LINK
+	message gText_TCGStructureDeckPowercodeLinkClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStructureDeckPowercodeLink
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStructureDeckPowercodeLink:
+	.2byte ITEM_CARD_CALL_OF_THE_HAUNTED
+	.2byte ITEM_CARD_DEBUNK
+	.2byte ITEM_CARD_DROLL_LOCK_BIRD
+	.2byte ITEM_CARD_EFFECT_VEILER
+	.2byte ITEM_CARD_FLAME_BUFFERLO
+	.2byte ITEM_CARD_FORBIDDEN_CHALICE
+	.2byte ITEM_CARD_MAGICAL_MERCHANT
+	.2byte ITEM_CARD_NIGHT_BEAM
+	.2byte ITEM_CARD_OFFERINGS_TO_THE_DOOMED
+	.2byte ITEM_CARD_REASONING
+	.2byte ITEM_CARD_REBORN_TENGU
+	.2byte ITEM_CARD_RECKLESS_GREED
+	.2byte ITEM_CARD_SCAPEGOAT
+	.2byte ITEM_CARD_SWORDS_OF_REVEALING_LIGHT
+	.2byte ITEM_CARD_TERRAFORMING
+	.2byte ITEM_CARD_TRAP_STUN
+	.2byte ITEM_CARD_TRAPTRIX_TRAP_HOLE_NIGHTMARE
+	.2byte ITEM_CARD_TRIBE_INFECTING_VIRUS
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStructureDeckRokketRevolt::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRUCTURE_DECK_ROKKET_REVOLT
+	message gText_TCGStructureDeckRokketRevoltClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStructureDeckRokketRevolt
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStructureDeckRokketRevolt:
+	.2byte ITEM_CARD_BORRELOAD_DRAGON
+	.2byte ITEM_CARD_DRAGON_SHRINE
+	.2byte ITEM_CARD_IMPERIAL_ORDER
+	.2byte ITEM_CARD_KEEPER_OF_THE_SHRINE
+	.2byte ITEM_CARD_MAGIC_CYLINDER
+	.2byte ITEM_CARD_MIRROR_FORCE
+	.2byte ITEM_CARD_RED_REBOOT
+	.2byte ITEM_CARD_TWIN_TWISTERS
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStructureDeckSacredBeasts::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRUCTURE_DECK_SACRED_BEASTS
+	message gText_TCGStructureDeckSacredBeastsClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStructureDeckSacredBeasts
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStructureDeckSacredBeasts:
+	.2byte ITEM_CARD_CHAOS_HUNTER
+	.2byte ITEM_CARD_ESCAPE_FROM_THE_DARK_DIMENSION
+	.2byte ITEM_CARD_FARFA_MALEBRANCHE_OF_THE_BURNING_ABYSS
+	.2byte ITEM_CARD_MISTAKE
+	.2byte ITEM_CARD_MYSTICAL_SPACE_TYPHOON
+	.2byte ITEM_CARD_POT_OF_DESIRES
+	.2byte ITEM_CARD_TERRAFORMING
+	.2byte ITEM_CARD_TRAGOEDIA
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStructureDeckSetoKaiba::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRUCTURE_DECK_SETO_KAIBA
+	message gText_TCGStructureDeckSetoKaibaClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStructureDeckSetoKaiba
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStructureDeckSetoKaiba:
+	.2byte ITEM_CARD_ABC_DRAGON_BUSTER
+	.2byte ITEM_CARD_BLADE_KNIGHT
+	.2byte ITEM_CARD_BLUE_EYES_WHITE_DRAGON
+	.2byte ITEM_CARD_CALL_OF_THE_HAUNTED
+	.2byte ITEM_CARD_CRUSH_CARD_VIRUS
+	.2byte ITEM_CARD_ENEMY_CONTROLLER
+	.2byte ITEM_CARD_FIENDISH_CHAIN
+	.2byte ITEM_CARD_KEEPER_OF_THE_SHRINE
+	.2byte ITEM_CARD_LA_JINN_THE_MYSTICAL_GENIE_OF_THE_LAMP
+	.2byte ITEM_CARD_LIMITER_REMOVAL
+	.2byte ITEM_CARD_LORD_OF_D_
+	.2byte ITEM_CARD_LUSTER_DRAGON
+	.2byte ITEM_CARD_MEGAMORPH
+	.2byte ITEM_CARD_MONSTER_REBORN
+	.2byte ITEM_CARD_RING_OF_DESTRUCTION
+	.2byte ITEM_CARD_SHRINK
+	.2byte ITEM_CARD_SOUL_EXCHANGE
+	.2byte ITEM_CARD_VAMPIRE_LORD
+	.2byte ITEM_CARD_VORSE_RAIDER
+	.2byte ITEM_CARD_X_HEAD_CANNON
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStructureDeckShaddollShowdown::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRUCTURE_DECK_SHADDOLL_SHOWDOWN
+	message gText_TCGStructureDeckShaddollShowdownClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStructureDeckShaddollShowdown
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStructureDeckShaddollShowdown:
+	.2byte ITEM_CARD_ALLURE_OF_DARKNESS
+	.2byte ITEM_CARD_ARMAGEDDON_KNIGHT
+	.2byte ITEM_CARD_BLACK_LUSTER_SOLDIER_ENVOY_OF_THE_BEGINNING
+	.2byte ITEM_CARD_DARK_ARMED_DRAGON
+	.2byte ITEM_CARD_EL_SHADDOLL_ANOYATYLLIS
+	.2byte ITEM_CARD_EL_SHADDOLL_APKALLONE
+	.2byte ITEM_CARD_EL_SHADDOLL_CONSTRUCT
+	.2byte ITEM_CARD_EL_SHADDOLL_FUSION
+	.2byte ITEM_CARD_EL_SHADDOLL_GRYSTA
+	.2byte ITEM_CARD_EL_SHADDOLL_SHEKHINAGA
+	.2byte ITEM_CARD_EL_SHADDOLL_WENDIGO
+	.2byte ITEM_CARD_EL_SHADDOLL_WINDA
+	.2byte ITEM_CARD_FOOLISH_BURIAL
+	.2byte ITEM_CARD_INSTANT_FUSION
+	.2byte ITEM_CARD_MATHEMATICIAN
+	.2byte ITEM_CARD_NAELSHADDOLL_ARIEL
+	.2byte ITEM_CARD_PERFORMAGE_TRICK_CLOWN
+	.2byte ITEM_CARD_POT_OF_AVARICE
+	.2byte ITEM_CARD_QADSHADDOLL_KEIOS
+	.2byte ITEM_CARD_REESHADDOLL_WENDI
+	.2byte ITEM_CARD_SHADDOLL_BEAST
+	.2byte ITEM_CARD_SHADDOLL_DRAGON
+	.2byte ITEM_CARD_SHADDOLL_FALCO
+	.2byte ITEM_CARD_SHADDOLL_FUSION
+	.2byte ITEM_CARD_SHADDOLL_HEDGEHOG
+	.2byte ITEM_CARD_SHADDOLL_HOUND
+	.2byte ITEM_CARD_SHADDOLL_SQUAMATA
+	.2byte ITEM_CARD_SINISTER_SHADOW_GAMES
+	.2byte ITEM_CARD_SUPER_POLYMERIZATION
+	.2byte ITEM_CARD_TWIN_TWISTERS
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStructureDeckSoulburner::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRUCTURE_DECK_SOULBURNER
+	message gText_TCGStructureDeckSoulburnerClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStructureDeckSoulburner
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStructureDeckSoulburner:
+	.2byte ITEM_CARD_ASH_BLOSSOM_JOYOUS_SPRING
+	.2byte ITEM_CARD_MONSTER_REINCARNATION
+	.2byte ITEM_CARD_SALAMANGREAT_BALELYNX
+	.2byte ITEM_CARD_SALAMANGREAT_FOXY
+	.2byte ITEM_CARD_SALAMANGREAT_SPINNY
+	.2byte ITEM_CARD_THREATENING_ROAR
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStructureDeckSpellcastersJudgment::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRUCTURE_DECK_SPELLCASTER_S_JUDGMENT
+	message gText_TCGStructureDeckSpellcastersJudgmentClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStructureDeckSpellcastersJudgment
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStructureDeckSpellcastersJudgment:
+	.2byte ITEM_CARD_BREAKER_THE_MAGICAL_WARRIOR
+	.2byte ITEM_CARD_CALL_OF_THE_HAUNTED
+	.2byte ITEM_CARD_CHAOS_SORCERER
+	.2byte ITEM_CARD_DARK_ERADICATOR_WARLOCK
+	.2byte ITEM_CARD_DARK_MAGICIAN
+	.2byte ITEM_CARD_DIVINE_WRATH
+	.2byte ITEM_CARD_GEMINI_ELF
+	.2byte ITEM_CARD_HEAVY_STORM
+	.2byte ITEM_CARD_LIGHTNING_VORTEX
+	.2byte ITEM_CARD_MAGE_POWER
+	.2byte ITEM_CARD_MAGIC_CYLINDER
+	.2byte ITEM_CARD_MAGICAL_DIMENSION
+	.2byte ITEM_CARD_MAGICIAN_OF_FAITH
+	.2byte ITEM_CARD_MYSTICAL_SPACE_TYPHOON
+	.2byte ITEM_CARD_NIGHTMARE_S_STEELCAGE
+	.2byte ITEM_CARD_NOBLEMAN_OF_CROSSOUT
+	.2byte ITEM_CARD_PITCH_BLACK_POWER_STONE
+	.2byte ITEM_CARD_PREMATURE_BURIAL
+	.2byte ITEM_CARD_RELOAD
+	.2byte ITEM_CARD_ROYAL_MAGICAL_LIBRARY
+	.2byte ITEM_CARD_SKILLED_DARK_MAGICIAN
+	.2byte ITEM_CARD_SWORDS_OF_REVEALING_LIGHT
+	.2byte ITEM_CARD_TSUKUYOMI
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStructureDeckSpiritCharmers::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRUCTURE_DECK_SPIRIT_CHARMERS
+	message gText_TCGStructureDeckSpiritCharmersClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStructureDeckSpiritCharmers
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStructureDeckSpiritCharmers:
+	.2byte ITEM_CARD_BOOK_OF_ECLIPSE
+	.2byte ITEM_CARD_DARK_RULER_NO_MORE
+	.2byte ITEM_CARD_DENKO_SEKKA
+	.2byte ITEM_CARD_DIMENSIONAL_BARRIER
+	.2byte ITEM_CARD_EFFECT_VEILER
+	.2byte ITEM_CARD_FAMILIAR_POSSESSED_AUSSA
+	.2byte ITEM_CARD_FAMILIAR_POSSESSED_ERIA
+	.2byte ITEM_CARD_FAMILIAR_POSSESSED_HIITA
+	.2byte ITEM_CARD_FAMILIAR_POSSESSED_WYNN
+	.2byte ITEM_CARD_RAIGEKI
+	.2byte ITEM_CARD_SOLEMN_WARNING
+	.2byte ITEM_CARD_SPIRITUAL_EARTH_ART_KUROGANE
+	.2byte ITEM_CARD_SPIRITUAL_WATER_ART_AOI
+	.2byte ITEM_CARD_SPIRITUAL_WIND_ART_MIYABI
+	.2byte ITEM_CARD_TERRAFORMING
+	.2byte ITEM_CARD_TWIN_TWISTERS
+	.2byte ITEM_CARD_WITCH_OF_THE_BLACK_FOREST
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStructureDeckTheCrimsonKing::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRUCTURE_DECK_THE_CRIMSON_KING
+	message gText_TCGStructureDeckTheCrimsonKingClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStructureDeckTheCrimsonKing
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStructureDeckTheCrimsonKing:
+	.2byte ITEM_CARD_BONE_ARCHFIEND
+	.2byte ITEM_CARD_DANGER_NESSIE_
+	.2byte ITEM_CARD_FIENDISH_CHAIN
+	.2byte ITEM_CARD_RED_DRAGON_ARCHFIEND
+	.2byte ITEM_CARD_WITCH_OF_THE_BLACK_FOREST
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStructureDeckWarriorsTriumph::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRUCTURE_DECK_WARRIOR_S_TRIUMPH
+	message gText_TCGStructureDeckWarriorsTriumphClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStructureDeckWarriorsTriumph
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStructureDeckWarriorsTriumph:
+	.2byte ITEM_CARD_BLAST_WITH_CHAIN
+	.2byte ITEM_CARD_CALL_OF_THE_HAUNTED
+	.2byte ITEM_CARD_COMMAND_KNIGHT
+	.2byte ITEM_CARD_D_D_WARRIOR_LADY
+	.2byte ITEM_CARD_DARK_BLADE
+	.2byte ITEM_CARD_EXILED_FORCE
+	.2byte ITEM_CARD_GEARFRIED_THE_IRON_KNIGHT
+	.2byte ITEM_CARD_GIANT_TRUNADE
+	.2byte ITEM_CARD_GOBLIN_ATTACK_FORCE
+	.2byte ITEM_CARD_HEAVY_STORM
+	.2byte ITEM_CARD_LIGHTNING_VORTEX
+	.2byte ITEM_CARD_MAGIC_JAMMER
+	.2byte ITEM_CARD_MARAUDING_CAPTAIN
+	.2byte ITEM_CARD_MATAZA_THE_ZAPPER
+	.2byte ITEM_CARD_MYSTIC_SWORDSMAN_LV2
+	.2byte ITEM_CARD_MYSTIC_SWORDSMAN_LV4
+	.2byte ITEM_CARD_MYSTICAL_SPACE_TYPHOON
+	.2byte ITEM_CARD_NINJA_GRANDMASTER_SASUKE
+	.2byte ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
+	.2byte ITEM_CARD_RELOAD
+	.2byte ITEM_CARD_ROYAL_DECREE
+	.2byte ITEM_CARD_SNATCH_STEAL
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStructureDeckWaveofLight::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRUCTURE_DECK_WAVE_OF_LIGHT
+	message gText_TCGStructureDeckWaveofLightClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStructureDeckWaveofLight
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStructureDeckWaveofLight:
+	.2byte ITEM_CARD_AIRKNIGHT_PARSHATH
+	.2byte ITEM_CARD_CARDS_FROM_THE_SKY
+	.2byte ITEM_CARD_GUIDING_ARIADNE
+	.2byte ITEM_CARD_HANEWATA
+	.2byte ITEM_CARD_HERALD_OF_ORANGE_LIGHT
+	.2byte ITEM_CARD_HONEST
+	.2byte ITEM_CARD_SOLEMN_WARNING
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStructureDeckYugiMuto::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRUCTURE_DECK_YUGI_MUTO
+	message gText_TCGStructureDeckYugiMutoClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStructureDeckYugiMuto
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStructureDeckYugiMuto:
+	.2byte ITEM_CARD_BUSTER_BLADER
+	.2byte ITEM_CARD_BUSTER_BLADER_THE_DRAGON_DESTROYER_SWORDSMAN
+	.2byte ITEM_CARD_CARD_DESTRUCTION
+	.2byte ITEM_CARD_DARK_MAGIC_CURTAIN
+	.2byte ITEM_CARD_DARK_MAGICIAN
+	.2byte ITEM_CARD_DARK_MAGICIAN_GIRL
+	.2byte ITEM_CARD_DARK_PALADIN
+	.2byte ITEM_CARD_DE_FUSION
+	.2byte ITEM_CARD_GAIA_THE_FIERCE_KNIGHT
+	.2byte ITEM_CARD_GAIA_THE_DRAGON_CHAMPION
+	.2byte ITEM_CARD_GIANT_SOLDIER_OF_STONE
+	.2byte ITEM_CARD_KURIBOH
+	.2byte ITEM_CARD_MAGIC_CYLINDER
+	.2byte ITEM_CARD_MAGICIAN_S_CIRCLE
+	.2byte ITEM_CARD_MIRROR_FORCE
+	.2byte ITEM_CARD_MONSTER_REBORN
+	.2byte ITEM_CARD_SKILLED_DARK_MAGICIAN
+	.2byte ITEM_CARD_SKILLED_WHITE_MAGICIAN
+	.2byte ITEM_CARD_SPELL_SHATTERING_ARROW
+	.2byte ITEM_CARD_SWORDS_OF_REVEALING_LIGHT
+	.2byte ITEM_CARD_TWIN_HEADED_BEHEMOTH
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStructureDeckZombieHorde::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRUCTURE_DECK_ZOMBIE_HORDE
+	message gText_TCGStructureDeckZombieHordeClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStructureDeckZombieHorde
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStructureDeckZombieHorde:
+	.2byte ITEM_CARD_ANTI_SPELL_FRAGRANCE
+	.2byte ITEM_CARD_BOOK_OF_LIFE
+	.2byte ITEM_CARD_BURIAL_FROM_A_DIFFERENT_DIMENSION
+	.2byte ITEM_CARD_DRAGGED_DOWN_INTO_THE_GRAVE
+	.2byte ITEM_CARD_FOOLISH_BURIAL
+	.2byte ITEM_CARD_GOBLIN_ZOMBIE
+	.2byte ITEM_CARD_MASK_OF_RESTRICT
+	.2byte ITEM_CARD_MEZUKI
+	.2byte ITEM_CARD_MONSTER_GATE
+	.2byte ITEM_CARD_PYRAMID_TURTLE
+	.2byte ITEM_CARD_RED_EYES_ZOMBIE_DRAGON
+	.2byte ITEM_CARD_SHARED_RIDE
+	.2byte ITEM_CARD_ZOMBIE_MASTER
+	.2byte ITEM_CARD_ZOMBIE_WORLD
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGStructureDeckZombieMadness::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_STRUCTURE_DECK_ZOMBIE_MADNESS
+	message gText_TCGStructureDeckZombieMadnessClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGStructureDeckZombieMadness
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGStructureDeckZombieMadness:
+	.2byte ITEM_CARD_BOOK_OF_LIFE
+	.2byte ITEM_CARD_CARD_OF_SAFE_RETURN
+	.2byte ITEM_CARD_COMPULSORY_EVACUATION_DEVICE
+	.2byte ITEM_CARD_CREATURE_SWAP
+	.2byte ITEM_CARD_DUST_TORNADO
+	.2byte ITEM_CARD_GIANT_TRUNADE
+	.2byte ITEM_CARD_HEAVY_STORM
+	.2byte ITEM_CARD_MAGIC_JAMMER
+	.2byte ITEM_CARD_MYSTICAL_SPACE_TYPHOON
+	.2byte ITEM_CARD_NOBLEMAN_OF_CROSSOUT
+	.2byte ITEM_CARD_POT_OF_GREED
+	.2byte ITEM_CARD_PYRAMID_TURTLE
+	.2byte ITEM_CARD_RECKLESS_GREED
+	.2byte ITEM_CARD_RELOAD
+	.2byte ITEM_CARD_RYU_KOKKI
+	.2byte ITEM_CARD_SNATCH_STEAL
+	.2byte ITEM_CARD_SPIRIT_REAPER
+	.2byte ITEM_CARD_TORRENTIAL_TRIBUTE
+	.2byte ITEM_CARD_VAMPIRE_LORD
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGSuperStarterSpaceTimeShowdown::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_SUPER_STARTER_SPACE_TIME_SHOWDOWN
+	message gText_TCGSuperStarterSpaceTimeShowdownClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGSuperStarterSpaceTimeShowdown
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGSuperStarterSpaceTimeShowdown:
+	.2byte ITEM_CARD_AXE_OF_DESPAIR
+	.2byte ITEM_CARD_DARK_BLADE
+	.2byte ITEM_CARD_DUST_TORNADO
+	.2byte ITEM_CARD_JAR_OF_GREED
+	.2byte ITEM_CARD_LIGHTNING_VORTEX
+	.2byte ITEM_CARD_LUSTER_DRAGON
+	.2byte ITEM_CARD_MAGIC_JAMMER
+	.2byte ITEM_CARD_MONSTER_REINCARNATION
+	.2byte ITEM_CARD_MYSTICAL_ELF
+	.2byte ITEM_CARD_MYSTICAL_SPACE_TYPHOON
+	.2byte ITEM_CARD_POISON_OF_THE_OLD_MAN
+	.2byte ITEM_CARD_RAIGEKI_BREAK
+	.2byte ITEM_CARD_SAKURETSU_ARMOR
+	.2byte ITEM_CARD_SEVEN_TOOLS_OF_THE_BANDIT
+	.2byte ITEM_CARD_TRAP_HOLE
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGSuperStarterVforVictory::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_SUPER_STARTER_V_FOR_VICTORY
+	message gText_TCGSuperStarterVforVictoryClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGSuperStarterVforVictory
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGSuperStarterVforVictory:
+	.2byte ITEM_CARD_CALL_OF_THE_HAUNTED
+	.2byte ITEM_CARD_DUST_TORNADO
+	.2byte ITEM_CARD_MARAUDING_CAPTAIN
+	.2byte ITEM_CARD_MYSTICAL_ELF
+	.2byte ITEM_CARD_NEO_THE_MAGIC_SWORDSMAN
+	.2byte ITEM_CARD_NUMBER_39_UTOPIA
+	.2byte ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGSupremeDarkness::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_SUPREME_DARKNESS
+	message gText_TCGSupremeDarknessClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGSupremeDarkness
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGSupremeDarkness:
+	.2byte ITEM_CARD_BEAST_OF_TALWAR_THE_SWORD_SUMMIT
+	.2byte ITEM_CARD_METALFLAME_SWORDSMAN
+	.2byte ITEM_CARD_MULCHARMY_MEOWLS
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGSynchronExtremeStructureDeck::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_SYNCHRON_EXTREME_STRUCTURE_DECK
+	message gText_TCGSynchronExtremeStructureDeckClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGSynchronExtremeStructureDeck
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGSynchronExtremeStructureDeck:
+	.2byte ITEM_CARD_CALL_OF_THE_HAUNTED
+	.2byte ITEM_CARD_EFFECT_VEILER
+	.2byte ITEM_CARD_IMPERIAL_IRON_WALL
+	.2byte ITEM_CARD_NIGHT_BEAM
+	.2byte ITEM_CARD_PLAGUESPREADER_ZOMBIE
+	.2byte ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
+	.2byte ITEM_CARD_SOLEMN_WARNING
+	.2byte ITEM_CARD_SWIFT_SCARECROW
+	.2byte ITEM_CARD_WHITE_DRAGON_WYVERBURSTER
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGTacticalEvolution::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_TACTICAL_EVOLUTION
+	message gText_TCGTacticalEvolutionClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGTacticalEvolution
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGTacticalEvolution:
+	.2byte ITEM_CARD_NECRO_GARDNA
+	.2byte ITEM_CARD_RENGE_GATEKEEPER_OF_DARK_WORLD
+	.2byte ITEM_CARD_SUMMONER_S_ART
+	.2byte ITEM_CARD_ZOMBIE_MASTER
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGTheDarkEmperorStructureDeck::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_THE_DARK_EMPEROR_STRUCTURE_DECK
+	message gText_TCGTheDarkEmperorStructureDeckClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGTheDarkEmperorStructureDeck
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGTheDarkEmperorStructureDeck:
+	.2byte ITEM_CARD_BANISHER_OF_THE_RADIANCE
+	.2byte ITEM_CARD_BAZOO_THE_SOUL_EATER
+	.2byte ITEM_CARD_BIG_BANG_SHOT
+	.2byte ITEM_CARD_BOTTOMLESS_TRAP_HOLE
+	.2byte ITEM_CARD_BRAIN_CONTROL
+	.2byte ITEM_CARD_CAIUS_THE_SHADOW_MONARCH
+	.2byte ITEM_CARD_D_D_ASSAILANT
+	.2byte ITEM_CARD_D_D_SURVIVOR
+	.2byte ITEM_CARD_D_D_WARRIOR_LADY
+	.2byte ITEM_CARD_DIMENSIONAL_FISSURE
+	.2byte ITEM_CARD_ENEMY_CONTROLLER
+	.2byte ITEM_CARD_EXILED_FORCE
+	.2byte ITEM_CARD_KARMA_CUT
+	.2byte ITEM_CARD_KYCOO_THE_GHOST_DESTROYER
+	.2byte ITEM_CARD_LIGHTNING_VORTEX
+	.2byte ITEM_CARD_MACRO_COSMOS
+	.2byte ITEM_CARD_MYSTICAL_SPACE_TYPHOON
+	.2byte ITEM_CARD_NOBLEMAN_OF_CROSSOUT
+	.2byte ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
+	.2byte ITEM_CARD_RETURN_FROM_THE_DIFFERENT_DIMENSION
+	.2byte ITEM_CARD_SAKURETSU_ARMOR
+	.2byte ITEM_CARD_TORRENTIAL_TRIBUTE
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGTheDarkIllusion::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_THE_DARK_ILLUSION
+	message gText_TCGTheDarkIllusionClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGTheDarkIllusion
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGTheDarkIllusion:
+	.2byte ITEM_CARD_COSMIC_CYCLONE
+	.2byte ITEM_CARD_FAIRY_TAIL_SNOW
+	.2byte ITEM_CARD_FLOODGATE_TRAP_HOLE
+	.2byte ITEM_CARD_MAGICIAN_OF_DARK_ILLUSION
+	.2byte ITEM_CARD_MAGICIAN_S_ROBE
+	.2byte ITEM_CARD_MAGICIAN_S_ROD
+	.2byte ITEM_CARD_METALFOES_GOLDRIVER
+	.2byte ITEM_CARD_METALFOES_SILVERD
+	.2byte ITEM_CARD_METALFOES_STEELEN
+	.2byte ITEM_CARD_METALFOES_VOLFLAME
+	.2byte ITEM_CARD_PALEOZOIC_ANOMALOCARIS
+	.2byte ITEM_CARD_PALEOZOIC_CANADIA
+	.2byte ITEM_CARD_PALEOZOIC_OLENOIDES
+	.2byte ITEM_CARD_POT_OF_DESIRES
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGTheDuelistGenesis::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_THE_DUELIST_GENESIS
+	message gText_TCGTheDuelistGenesisClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGTheDuelistGenesis
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGTheDuelistGenesis:
+	.2byte ITEM_CARD_BOOK_OF_ECLIPSE
+	.2byte ITEM_CARD_CHARGE_OF_THE_LIGHT_BRIGADE
+	.2byte ITEM_CARD_EMERGENCY_TELEPORT
+	.2byte ITEM_CARD_GOYO_GUARDIAN
+	.2byte ITEM_CARD_HERALD_OF_ORANGE_LIGHT
+	.2byte ITEM_CARD_KREBONS
+	.2byte ITEM_CARD_MAGICAL_ANDROID
+	.2byte ITEM_CARD_MIND_PROTECTOR
+	.2byte ITEM_CARD_RED_DRAGON_ARCHFIEND
+	.2byte ITEM_CARD_STARDUST_DRAGON
+	.2byte ITEM_CARD_THE_TRICKY
+	.2byte ITEM_CARD_THOUGHT_RULER_ARCHFIEND
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGTheInfiniteForbidden::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_THE_INFINITE_FORBIDDEN
+	message gText_TCGTheInfiniteForbiddenClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGTheInfiniteForbidden
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGTheInfiniteForbidden:
+	.2byte ITEM_CARD_FIENDSMITH_ENGRAVER
+	.2byte ITEM_CARD_FIENDSMITH_S_LACRIMA
+	.2byte ITEM_CARD_FIENDSMITH_S_REQUIEM
+	.2byte ITEM_CARD_FIENDSMITH_S_SEQUENCE
+	.2byte ITEM_CARD_FIENDSMITH_S_TRACT
+	.2byte ITEM_CARD_MOON_OF_THE_CLOSED_HEAVEN
+	.2byte ITEM_CARD_MULCHARMY_PURULIA
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGTheLostMillennium::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_THE_LOST_MILLENNIUM
+	message gText_TCGTheLostMillenniumClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGTheLostMillennium
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGTheLostMillennium:
+	.2byte ITEM_CARD_BRAIN_CONTROL
+	.2byte ITEM_CARD_D_D_SURVIVOR
+	.2byte ITEM_CARD_DES_WOMBAT
+	.2byte ITEM_CARD_ELEMENTAL_HERO_CLAYMAN
+	.2byte ITEM_CARD_ELEMENTAL_HERO_FLAME_WINGMAN
+	.2byte ITEM_CARD_HIERACOSPHINX
+	.2byte ITEM_CARD_MINE_GOLEM
+	.2byte ITEM_CARD_MOAI_INTERCEPTOR_CANNONS
+	.2byte ITEM_CARD_ULTIMATE_INSECT_LV7
+	.2byte ITEM_CARD_WHITE_NINJA
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGTheNewChallengers::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_THE_NEW_CHALLENGERS
+	message gText_TCGTheNewChallengersClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGTheNewChallengers
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGTheNewChallengers:
+	.2byte ITEM_CARD_DENKO_SEKKA
+	.2byte ITEM_CARD_EL_SHADDOLL_FUSION
+	.2byte ITEM_CARD_EL_SHADDOLL_GRYSTA
+	.2byte ITEM_CARD_EL_SHADDOLL_SHEKHINAGA
+	.2byte ITEM_CARD_ELEMENTAL_HERO_BLAZEMAN
+	.2byte ITEM_CARD_FIRE_LAKE_OF_THE_BURNING_ABYSS
+	.2byte ITEM_CARD_FUSION_SUBSTITUTE
+	.2byte ITEM_CARD_HERALD_OF_THE_ARC_LIGHT
+	.2byte ITEM_CARD_QLIPHORT_CARRIER
+	.2byte ITEM_CARD_QLIPHORT_DISK
+	.2byte ITEM_CARD_QLIPHORT_HELIX
+	.2byte ITEM_CARD_QLIPHORT_SCOUT
+	.2byte ITEM_CARD_RUBIC_MALEBRANCHE_OF_THE_BURNING_ABYSS
+	.2byte ITEM_CARD_SAQLIFICE
+	.2byte ITEM_CARD_SHADDOLL_HOUND
+	.2byte ITEM_CARD_VIRGIL_ROCK_STAR_OF_THE_BURNING_ABYSS
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGTheShiningDarkness::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_THE_SHINING_DARKNESS
+	message gText_TCGTheShiningDarknessClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGTheShiningDarkness
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGTheShiningDarkness:
+	.2byte ITEM_CARD_ARCHFIEND_INTERCEPTOR
+	.2byte ITEM_CARD_CREVICE_INTO_THE_DIFFERENT_DIMENSION
+	.2byte ITEM_CARD_INFERNITY_BARRIER
+	.2byte ITEM_CARD_INFERNITY_BEETLE
+	.2byte ITEM_CARD_INFERNITY_INFERNO
+	.2byte ITEM_CARD_INFERNITY_LAUNCHER
+	.2byte ITEM_CARD_LEECHING_THE_LIGHT
+	.2byte ITEM_CARD_RONINTOADIN
+	.2byte ITEM_CARD_XX_SABER_BOGGART_KNIGHT
+	.2byte ITEM_CARD_XX_SABER_DARKSOUL
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGWarriorsStrikeStructureDeck::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_WARRIORS_STRIKE_STRUCTURE_DECK
+	message gText_TCGWarriorsStrikeStructureDeckClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGWarriorsStrikeStructureDeck
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGWarriorsStrikeStructureDeck:
+	.2byte ITEM_CARD_BIG_BANG_SHOT
+	.2byte ITEM_CARD_CARD_TROOPER
+	.2byte ITEM_CARD_D_D_WARRIOR_LADY
+	.2byte ITEM_CARD_EXILED_FORCE
+	.2byte ITEM_CARD_MARAUDING_CAPTAIN
+	.2byte ITEM_CARD_MIND_CONTROL
+	.2byte ITEM_CARD_MYSTICAL_SPACE_TYPHOON
+	.2byte ITEM_CARD_NIGHTMARE_S_STEELCAGE
+	.2byte ITEM_CARD_REINFORCEMENT_OF_THE_ARMY
+	.2byte ITEM_CARD_SAKURETSU_ARMOR
+	pokemartlistend
+
+InsideOfTruck_EventScript_Clerk_TCGZombieWorldStructureDeck::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_TCG_ZOMBIE_WORLD_STRUCTURE_DECK
+	message gText_TCGZombieWorldStructureDeckClerk
+	waitmessage
+	pokemart InsideOfTruck_PokemartTCGZombieWorldStructureDeck
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_PokemartTCGZombieWorldStructureDeck:
+	.2byte ITEM_CARD_BOOK_OF_LIFE
+	.2byte ITEM_CARD_BOTTOMLESS_TRAP_HOLE
+	.2byte ITEM_CARD_CARD_DESTRUCTION
+	.2byte ITEM_CARD_CARD_OF_SAFE_RETURN
+	.2byte ITEM_CARD_COLD_WAVE
+	.2byte ITEM_CARD_CREATURE_SWAP
+	.2byte ITEM_CARD_DES_LACOODA
+	.2byte ITEM_CARD_DUST_TORNADO
+	.2byte ITEM_CARD_IMPERIAL_IRON_WALL
+	.2byte ITEM_CARD_POT_OF_AVARICE
+	.2byte ITEM_CARD_PYRAMID_TURTLE
+	.2byte ITEM_CARD_RED_EYES_ZOMBIE_DRAGON
+	.2byte ITEM_CARD_RYU_KOKKI
+	.2byte ITEM_CARD_SHRINK
+	.2byte ITEM_CARD_SOUL_TAKER
+	.2byte ITEM_CARD_SPELL_SHATTERING_ARROW
+	.2byte ITEM_CARD_SPIRIT_REAPER
+	.2byte ITEM_CARD_TERRAFORMING
+	.2byte ITEM_CARD_WABOKU
+	.2byte ITEM_CARD_ZOMBIE_MASTER
+	.2byte ITEM_CARD_ZOMBIE_WORLD
+	pokemartlistend

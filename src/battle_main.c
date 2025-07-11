@@ -3940,11 +3940,12 @@ void Task_HandleYGOTurn(void)
     u8 y = 0;
     u8 spriteId;
 
-    if (!sDidInitialDraw)
+    if (!sDidVeryFirstInitialDraw)
     {
         playerLP = 8000;
         enemyLP = 8000;
         LoadPalette(sBackgroundPalette, 48, 32);
+        sDidVeryFirstInitialDraw = TRUE;
     }
 
     FillWindowPixelBuffer(WINDOW_TEXT, PIXEL_FILL(TEXT_COLOR_TRANSPARENT));

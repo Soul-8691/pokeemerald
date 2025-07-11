@@ -21,12 +21,12 @@ extern const u8 *const gCardTypeText[NUM_TYPES + 1];
 extern const u8 gSupportedTypes[NUM_TYPES + 1];
 extern const u8 sMenuWindowFontColors[4][3];
 extern bool8 sDidInitialDraw;
+extern bool8 sDidVeryFirstInitialDraw;
 extern u8 sScrollDown;
 extern const struct SpriteSheet sSpriteSheet_Icons[];
 extern const struct SpritePalette sIcon_SpritePalettes[];
 extern const struct SpriteTemplate sStarSpriteTemplate;
 bool8 Menu_InitBgs(void);
-extern const u16 sBackgroundPalette[];
 extern const u32 sNormalMonsterTiles[];
 extern const u32 sNormalMonsterTilemap[];
 extern const u16 sNormalMonsterPalette[];
@@ -48,6 +48,9 @@ extern const u16 sRitualMonsterPalette[];
 extern const u32 sBackgroundTiles[];
 extern const u32 sBackgroundTilemap[];
 extern const u16 sBackgroundPalette[];
+extern const u32 gDuelTiles[];
+extern const u32 gDuelTilemap[];
+extern const u32 gDuelPalette[];
 //==========DEFINES==========//
 struct MenuResources
 {
