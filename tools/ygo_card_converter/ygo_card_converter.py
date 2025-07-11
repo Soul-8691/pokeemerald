@@ -14,27 +14,23 @@ from tqdm import tqdm
 # f.write(data)
 # f.close()
 
-url = 'https://dawnbrandbots.github.io/yaml-yugi/cards.json'  # Example URL for a JSON endpoint
+# url = 'https://dawnbrandbots.github.io/yaml-yugi/cards.json'  # Example URL for a JSON endpoint
 
-try:
-    response = requests.get(url)
-    response.raise_for_status()  # Raise an exception for bad status codes (4xx or 5xx)
+# try:
+#     response = requests.get(url)
+#     response.raise_for_status()  # Raise an exception for bad status codes (4xx or 5xx)
 
-    json_data = response.json()  # Automatically parses the JSON response into a Python dictionary or list
+#     json_data = response.json()  # Automatically parses the JSON response into a Python dictionary or list
 
-    # Option 1: Process the JSON data in Python
-    print("Fetched JSON data")
+#     file_path = 'bastion.json'
+#     with open(file_path, 'w', encoding='utf-8') as f:
+#         json.dump(json_data, f, indent=4)  # `indent=4` for pretty-printing
+#     print(f"JSON data successfully saved to '{file_path}'")
 
-    # Option 2: Save the JSON data to a file
-    file_path = 'bastion.json'
-    with open(file_path, 'w', encoding='utf-8') as f:
-        json.dump(json_data, f, indent=4)  # `indent=4` for pretty-printing
-    print(f"\nJSON data successfully saved to '{file_path}'")
-
-except requests.exceptions.RequestException as e:
-    print(f"Error fetching data from URL: {e}")
-except json.JSONDecodeError as e:
-    print(f"Error decoding JSON response: {e}")
+# except requests.exceptions.RequestException as e:
+#     print(f"Error fetching data from URL: {e}")
+# except json.JSONDecodeError as e:
+#     print(f"Error decoding JSON response: {e}")
 
 formats = ['Yugi-Kaiba', 'Critter', 'Treasure', 'Imperial', 'Android', 'Joey-Pegasus', 'Fiber', 'Yata', 'Scientist', 'Vampire', 'Chaos', 'Warrior', 'Goat', 'Cyber', 'Reaper', 'Chaos Return', 'Demise', 'Trooper', 'Zombie', 'Perfect Circle', 'DAD Return', 'Gladiator', 'TeleDAD', 'Cat', 'Edison', 'Frog', 'Starstrike', 'Tengu', 'Dino Rabbit', 'Wind-Up', 'Miami', 'Meadowlands', 'Baby Ruler', 'Ravine Ruler', 'Fire-Water', 'HAT', 'Vegas']
 
@@ -49,6 +45,8 @@ with open('bastion.json', 'r') as f:
 	data = json.load(f)
 	for card in data:
 		cards_by_pack[card['name']['en']] = card
+
+cards_by_pack = dict(sorted(cards_by_pack.items()))
 
 def move_palette_color(img, old_index, new_index):
     """
@@ -1704,44 +1702,44 @@ pack_names = [
 	'''TCG_Zombie World Structure Deck''',
 ]
 
-with open('ocg_sets.json', 'r') as f:
-	data = json.load(f)
-	for series in tqdm(data):
-		for set_ in tqdm(pack_names):
-			print(set_)
-			try:
-				set_url = data[series][set_[4:]]['image_url']
-				res = requests.get(set_url)
-				image = 'Sets/' + set_ + '.jpg'
-				if not os.path.exists(image):
-					with open(image, 'wb') as file:
-						file.write(res.content)
-						print(set_ + ' image written')
-				outfile = 'Sets/Icons/' + re.sub(r'\W+', '_', set_).lower() + '_icon.jpg'
-				if not os.path.exists(outfile):
-					master = Image.new(
-						mode='RGBA',
-						size=(32, 32),
-						color=(57,255,20,0))
-					size = 32, 32
-					im = Image.open(image)
-					im.thumbnail(size, Image.Resampling.LANCZOS)
-					pillow_width, pillow_height = im.size
-					# Calculate the top-left coordinates for pasting
-					paste_x = (32 - pillow_width) // 2
-					paste_y = (32 - pillow_height) // 2
-					master.paste(im, box=(paste_x,paste_y))
-					master.save(outfile, "PNG")
-					master = Image.open(outfile)
-					master = master.convert(
-						"P", palette=Image.ADAPTIVE, colors=15
-					)
-					master = move_palette_color(master, 15, 0)
-					master.save(outfile, "PNG")
-					subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
-					print(set_ + ' icon written')
-			except:
-				pass
+# with open('ocg_sets.json', 'r') as f:
+# 	data = json.load(f)
+# 	for series in tqdm(data):
+# 		for set_ in tqdm(pack_names):
+# 			print(set_)
+# 			try:
+# 				set_url = data[series][set_[4:]]['image_url']
+# 				res = requests.get(set_url)
+# 				image = 'Sets/' + set_ + '.jpg'
+# 				if not os.path.exists(image):
+# 					with open(image, 'wb') as file:
+# 						file.write(res.content)
+# 						print(set_ + ' image written')
+# 				outfile = 'Sets/Icons/' + re.sub(r'\W+', '_', set_).lower() + '_icon.jpg'
+# 				if not os.path.exists(outfile):
+# 					master = Image.new(
+# 						mode='RGBA',
+# 						size=(32, 32),
+# 						color=(57,255,20,0))
+# 					size = 32, 32
+# 					im = Image.open(image)
+# 					im.thumbnail(size, Image.Resampling.LANCZOS)
+# 					pillow_width, pillow_height = im.size
+# 					# Calculate the top-left coordinates for pasting
+# 					paste_x = (32 - pillow_width) // 2
+# 					paste_y = (32 - pillow_height) // 2
+# 					master.paste(im, box=(paste_x,paste_y))
+# 					master.save(outfile, "PNG")
+# 					master = Image.open(outfile)
+# 					master = master.convert(
+# 						"P", palette=Image.ADAPTIVE, colors=15
+# 					)
+# 					master = move_palette_color(master, 15, 0)
+# 					master.save(outfile, "PNG")
+# 					subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
+# 					print(set_ + ' icon written')
+# 			except:
+# 				pass
 
 card_info_data = open('YGOProDeck_Card_Info.json')
 card_info_data = json.load(card_info_data)
@@ -1941,17 +1939,62 @@ card_count = 0
 with open('sets.json', 'r') as f:
 	data = json.load(f)
 	for set_ in pack_names:
+		Scripts += '''InsideOfTruck_EventScript_Clerk_''' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '''::
+	lock
+	faceplayer
+	setvar VAR_YGO_SHOP, VIEW_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '''
+	message gText_''' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '''Clerk
+	waitmessage
+	pokemart InsideOfTruck_Pokemart''' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '''
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	setvar VAR_YGO_SHOP, 0
+	release
+	end
+
+	.align 2
+InsideOfTruck_Pokemart''' + re.sub(r'[^a-zA-Z0-9]', '', set_) + ''':\n'''
 		if set_[0:3] == 'TCG':
 			sets_print += '\t[PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] =\n\t{\n        .pack = gTCG' + re.sub(r'[^a-zA-Z0-9]', '', set_[4:]) + ',\n        .length = '
 		else:
 			sets_print += '\t[PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] =\n\t{\n        .pack = gOCG' + re.sub(r'[^a-zA-Z0-9]', '', set_[4:]) + ',\n        .length = '
 		for card in data[set_]:
 			if card in card_names:
+				Scripts += '\t.2byte ITEM_CARD_' + re.sub(r'[^a-zA-Z0-9]', '_', card).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '\n'
 				for rarity in data[set_][card]:
 					card_count += 1
+		Scripts += '\tpokemartlistend\n\n'
 		sets_print += str(card_count)
 		sets_print += ',\n\t},\n'
 		card_count = 0
+
+with open('sets.json', 'r') as f:
+	data = json.load(f)
+	for set_ in pack_names:
+		Scripts += '''gText_''' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '''Clerk::
+			.string "Welcome!\\p"
+			.string "I'm the ''' + textwrap.fill(set_[4:].replace('"', ''), width=16).replace('\n', '\\n"\n\t\t\t.string "') + ''' clerk.\\n"
+			.string "How may I serve you?$"\n\n'''
+
+with open('sets.json', 'r') as f:
+	data = json.load(f)
+	for set_ in pack_names:
+		Scripts += 'gText_' + re.sub(r'[^a-zA-Z0-9]', '', set_) + ', '
+
+Scripts += '\n\n'
+
+with open('sets.json', 'r') as f:
+	data = json.load(f)
+	for set_ in pack_names:
+		Scripts += 'gText_' + re.sub(r'[^a-zA-Z0-9]', '', set_) + ':\n\t.string "' + set_[4:38] + '$"\n\n'
+
+counter = 0
+with open('sets.json', 'r') as f:
+	data = json.load(f)
+	for set_ in pack_names:
+		Scripts += 'case ' + str(counter) + ', InsideOfTruck_EventScript_Clerk_' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '\n'
+		counter += 1
+
+Scripts += '\n\n'
 
 # with open('ocg_sets.json', 'r') as f:
 # 	data = json.load(f)
@@ -2160,13 +2203,13 @@ for format in cards_by_format:
 for format in cards_by_format:
 	Scripts += '''gText_''' + re.sub(r'\W+', '', format) + '''Clerk::
 	.string "Welcome!\\p"
-	.string "I'm the ''' + re.sub(r'\W+', '', format) + ''' clerk.\\n"
+	.string "I'm the ''' + format + ''' clerk.\\n"
 	.string "How may I serve you?$"\n\n'''
 	
 for format in cards_by_format:
 	Scripts += '''gText_''' + re.sub(r'\W+', '', format) + '''BanlistClerk::
 	.string "Welcome!\\p"
-	.string "I'm the ''' + re.sub(r'\W+', '', format) + ''' banlist clerk.\\n"
+	.string "I'm the ''' + format + ''' banlist clerk.\\n"
 	.string "How may I serve you?$"\n\n'''
 
 with open('FL.json', 'r') as f:
