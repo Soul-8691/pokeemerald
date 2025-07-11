@@ -15,6 +15,7 @@
 #include "constants/items.h"
 #include "constants/hold_effects.h"
 #include "constants/ygo.h"
+#include "battle_main.h"
 
 static bool8 CheckPyramidBagHasItem(u16 itemId, u16 count);
 static bool8 CheckPyramidBagHasSpace(u16 itemId, u16 count);
@@ -1112,6 +1113,26 @@ u16 round_5(u16 num) {
   return num;
 }
 
+bool8 packContainsElement(const struct PackContents *arr, int size, int target) {
+    u32 i;
+    for (i = 0; i < size; i++) {
+        if (arr[i].card == target) {
+            return TRUE; // Element found
+        }
+    }
+    return FALSE; // Element not found
+}
+
+int findIndexInPack(const struct PackContents *arr, int size, int target) {
+    u32 i;
+    for (i = 0; i < size; i++) {
+        if (arr[i].card == target) {
+            return i; // Return the index if found
+        }
+    }
+    return -1; // Return -1 if not found
+}
+
 u16 GetItemPrice(u16 itemId)
 {
     u16 card = CardIdMapping[itemId];
@@ -1449,6 +1470,13 @@ u16 GetItemPrice(u16 itemId)
             return gCardInfo[card].banVegas;
         else
             return 3;
+    }
+    else if (VarGet(VAR_YGO_SHOP) >= VIEW_PACK_TCG_2_PLAYER_STARTER_SET)
+    {
+        if (packContainsElement(gPacks[VarGet(VAR_YGO_SHOP) - 74].pack, gPacks[VarGet(VAR_YGO_SHOP) - 74].length, itemId))
+            return gPacks[VarGet(VAR_YGO_SHOP) - 74].pack[findIndexInPack(gPacks[VarGet(VAR_YGO_SHOP) - 74].pack, gPacks[VarGet(VAR_YGO_SHOP) - 74].length, itemId)].rarity;
+        else
+            return 0;
     }
 }
 
