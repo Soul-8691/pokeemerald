@@ -1985,7 +1985,7 @@ Scripts += '\n\n'
 with open('sets.json', 'r') as f:
 	data = json.load(f)
 	for set_ in pack_names:
-		Scripts += 'gText_' + re.sub(r'[^a-zA-Z0-9]', '', set_) + ':\n\t.string "' + set_[4:38] + '$"\n\n'
+		Scripts += 'gText_' + re.sub(r'[^a-zA-Z0-9]', '', set_) + ':\n\t.string "' + set_[4:40] + '$"\n\n'
 
 counter = 0
 with open('sets.json', 'r') as f:
