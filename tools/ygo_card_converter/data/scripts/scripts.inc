@@ -6668,7 +6668,7 @@ gText_TCGCrossroadsofChaos:
 	.string "Crossroads of Chaos$"
 
 gText_TCGCyberDragonRevolutionStructureDeck:
-	.string "Cyber Dragon Revolution Struct$"
+	.string "Cyber Dragon Revolution Structure $"
 
 gText_TCGCyberdarkImpact:
 	.string "Cyberdark Impact$"
@@ -6704,13 +6704,13 @@ gText_TCGDimensionofChaos:
 	.string "Dimension of Chaos$"
 
 gText_TCGDinosmashersFuryStructureDeck:
-	.string "Dinosmasher's Fury Structure D$"
+	.string "Dinosmasher's Fury Structure Deck$"
 
 gText_TCGDragonsCollideStructureDeck:
 	.string "Dragons Collide Structure Deck$"
 
 gText_TCGDragunityLegionStructureDeck:
-	.string "Dragunity Legion Structure Dec$"
+	.string "Dragunity Legion Structure Deck$"
 
 gText_TCGDuelistAlliance:
 	.string "Duelist Alliance$"
@@ -6725,16 +6725,16 @@ gText_TCGDuelistsAdvance:
 	.string "Duelist's Advance$"
 
 gText_TCGEgyptianGodDeckObelisktheTormentor:
-	.string "Egyptian God Deck: Obelisk the$"
+	.string "Egyptian God Deck: Obelisk the Tor$"
 
 gText_TCGEgyptianGodDeckSlifertheSkyDragon:
-	.string "Egyptian God Deck: Slifer the $"
+	.string "Egyptian God Deck: Slifer the Sky $"
 
 gText_TCGElementalEnergy:
 	.string "Elemental Energy$"
 
 gText_TCGEmperorofDarknessStructureDeck:
-	.string "Emperor of Darkness Structure $"
+	.string "Emperor of Darkness Structure Deck$"
 
 gText_TCGEnemyofJustice:
 	.string "Enemy of Justice$"
@@ -6761,7 +6761,7 @@ gText_TCGGalacticOverlord:
 	.string "Galactic Overlord$"
 
 gText_TCGGatesoftheUnderworldStructureDeck:
-	.string "Gates of the Underworld Struct$"
+	.string "Gates of the Underworld Structure $"
 
 gText_TCGGeargiaRampageStructureDeck:
 	.string "Geargia Rampage Structure Deck$"
@@ -6800,7 +6800,7 @@ gText_TCGLegacyoftheValiant:
 	.string "Legacy of the Valiant$"
 
 gText_TCGLegendofBlueEyesWhiteDragon:
-	.string "Legend of Blue Eyes White Drag$"
+	.string "Legend of Blue Eyes White Dragon$"
 
 gText_TCGLightofDestruction:
 	.string "Light of Destruction$"
@@ -6824,7 +6824,7 @@ gText_TCGMagiciansForce:
 	.string "Magician's Force$"
 
 gText_TCGMasterofPendulumStructureDeck:
-	.string "Master of Pendulum Structure D$"
+	.string "Master of Pendulum Structure Deck$"
 
 gText_TCGMaximumCrisis:
 	.string "Maximum Crisis$"
@@ -6833,13 +6833,13 @@ gText_TCGMetalRaiders:
 	.string "Metal Raiders$"
 
 gText_TCGOnslaughtoftheFireKingsStructureDeck:
-	.string "Onslaught of the Fire Kings St$"
+	.string "Onslaught of the Fire Kings Struct$"
 
 gText_TCGOrderofChaos:
 	.string "Order of Chaos$"
 
 gText_TCGPendulumDominationStructureDeck:
-	.string "Pendulum Domination Structure $"
+	.string "Pendulum Domination Structure Deck$"
 
 gText_TCGPhantomDarkness:
 	.string "Phantom Darkness$"
@@ -6884,7 +6884,7 @@ gText_TCGRealmofLightStructureDeck:
 	.string "Realm of Light Structure Deck$"
 
 gText_TCGRealmoftheSeaEmperorStructureDeck:
-	.string "Realm of the Sea Emperor Struc$"
+	.string "Realm of the Sea Emperor Structure$"
 
 gText_TCGReturnoftheDuelist:
 	.string "Return of the Duelist$"
@@ -6893,13 +6893,13 @@ gText_TCGRiseofDestiny:
 	.string "Rise of Destiny$"
 
 gText_TCGRiseoftheDragonLordsStructureDeck:
-	.string "Rise of the Dragon Lords Struc$"
+	.string "Rise of the Dragon Lords Structure$"
 
 gText_TCGRiseoftheDuelist:
 	.string "Rise of the Duelist$"
 
 gText_TCGRiseoftheTrueDragonsStructureDeck:
-	.string "Rise of the True Dragons Struc$"
+	.string "Rise of the True Dragons Structure$"
 
 gText_TCGRisingRampage:
 	.string "Rising Rampage$"
@@ -6908,10 +6908,10 @@ gText_TCGSaberForceStarterDeck:
 	.string "Saber Force Starter Deck$"
 
 gText_TCGSagaofBlueEyesWhiteDragonStructureDeck:
-	.string "Saga of Blue-Eyes White Dragon$"
+	.string "Saga of Blue-Eyes White Dragon Str$"
 
 gText_TCGSamuraiWarlordsStructureDeck:
-	.string "Samurai Warlords Structure Dec$"
+	.string "Samurai Warlords Structure Deck$"
 
 gText_TCGSavageStrike:
 	.string "Savage Strike$"
@@ -6938,7 +6938,7 @@ gText_TCGSpellRuler:
 	.string "Spell Ruler$"
 
 gText_TCGSpellcastersCommandStructureDeck:
-	.string "Spellcaster's Command Structur$"
+	.string "Spellcaster's Command Structure De$"
 
 gText_TCGStardustOverdrive:
 	.string "Stardust Overdrive$"
@@ -6989,7 +6989,7 @@ gText_TCGStarterDeckYuGiOh5Ds:
 	.string "Starter Deck: Yu-Gi-Oh! 5D's$"
 
 gText_TCGStarterDeckYuGiOh5Ds2009:
-	.string "Starter Deck: Yu-Gi-Oh! 5D's 2$"
+	.string "Starter Deck: Yu-Gi-Oh! 5D's 2009$"
 
 gText_TCGStarterDeckYugi:
 	.string "Starter Deck: Yugi$"
@@ -7013,13 +7013,13 @@ gText_TCGStructureDeckAlbazStrike:
 	.string "Structure Deck: Albaz Strike$"
 
 gText_TCGStructureDeckBewareofTraptrix:
-	.string "Structure Deck: Beware of Trap$"
+	.string "Structure Deck: Beware of Traptrix$"
 
 gText_TCGStructureDeckBlazeofDestruction:
-	.string "Structure Deck: Blaze of Destr$"
+	.string "Structure Deck: Blaze of Destructi$"
 
 gText_TCGStructureDeckBlueEyesWhiteDestiny:
-	.string "Structure Deck: Blue-Eyes Whit$"
+	.string "Structure Deck: Blue-Eyes White De$"
 
 gText_TCGStructureDeckCyberStrike:
 	.string "Structure Deck: Cyber Strike$"
@@ -7031,7 +7031,7 @@ gText_TCGStructureDeckDarkWorld:
 	.string "Structure Deck: Dark World$"
 
 gText_TCGStructureDeckDinosaursRage:
-	.string "Structure Deck: Dinosaur's Rag$"
+	.string "Structure Deck: Dinosaur's Rage$"
 
 gText_TCGStructureDeckDragonsRoar:
 	.string "Structure Deck: Dragon's Roar$"
@@ -7040,31 +7040,31 @@ gText_TCGStructureDeckFireKings:
 	.string "Structure Deck: Fire Kings$"
 
 gText_TCGStructureDeckFreezingChains:
-	.string "Structure Deck: Freezing Chain$"
+	.string "Structure Deck: Freezing Chains$"
 
 gText_TCGStructureDeckFuryfromtheDeep:
-	.string "Structure Deck: Fury from the $"
+	.string "Structure Deck: Fury from the Deep$"
 
 gText_TCGStructureDeckInvincibleFortress:
-	.string "Structure Deck: Invincible For$"
+	.string "Structure Deck: Invincible Fortres$"
 
 gText_TCGStructureDeckLairofDarkness:
-	.string "Structure Deck: Lair of Darkne$"
+	.string "Structure Deck: Lair of Darkness$"
 
 gText_TCGStructureDeckLegendoftheCrystalBeasts:
-	.string "Structure Deck: Legend of the $"
+	.string "Structure Deck: Legend of the Crys$"
 
 gText_TCGStructureDeckLordoftheStorm:
-	.string "Structure Deck: Lord of the St$"
+	.string "Structure Deck: Lord of the Storm$"
 
 gText_TCGStructureDeckMachineReVolt:
-	.string "Structure Deck: Machine Re-Vol$"
+	.string "Structure Deck: Machine Re-Volt$"
 
 gText_TCGStructureDeckMechanizedMadness:
-	.string "Structure Deck: Mechanized Mad$"
+	.string "Structure Deck: Mechanized Madness$"
 
 gText_TCGStructureDeckOrderoftheSpellcasters:
-	.string "Structure Deck: Order of the S$"
+	.string "Structure Deck: Order of the Spell$"
 
 gText_TCGStructureDeckPowercodeLink:
 	.string "Structure Deck: Powercode Link$"
@@ -7079,22 +7079,22 @@ gText_TCGStructureDeckSetoKaiba:
 	.string "Structure Deck: Seto Kaiba$"
 
 gText_TCGStructureDeckShaddollShowdown:
-	.string "Structure Deck: Shaddoll Showd$"
+	.string "Structure Deck: Shaddoll Showdown$"
 
 gText_TCGStructureDeckSoulburner:
 	.string "Structure Deck: Soulburner$"
 
 gText_TCGStructureDeckSpellcastersJudgment:
-	.string "Structure Deck: Spellcaster's $"
+	.string "Structure Deck: Spellcaster's Judg$"
 
 gText_TCGStructureDeckSpiritCharmers:
-	.string "Structure Deck: Spirit Charmer$"
+	.string "Structure Deck: Spirit Charmers$"
 
 gText_TCGStructureDeckTheCrimsonKing:
-	.string "Structure Deck: The Crimson Ki$"
+	.string "Structure Deck: The Crimson King$"
 
 gText_TCGStructureDeckWarriorsTriumph:
-	.string "Structure Deck: Warrior's Triu$"
+	.string "Structure Deck: Warrior's Triumph$"
 
 gText_TCGStructureDeckWaveofLight:
 	.string "Structure Deck: Wave of Light$"
@@ -7109,7 +7109,7 @@ gText_TCGStructureDeckZombieMadness:
 	.string "Structure Deck: Zombie Madness$"
 
 gText_TCGSuperStarterSpaceTimeShowdown:
-	.string "Super Starter: Space-Time Show$"
+	.string "Super Starter: Space-Time Showdown$"
 
 gText_TCGSuperStarterVforVictory:
 	.string "Super Starter: V for Victory$"
@@ -7118,13 +7118,13 @@ gText_TCGSupremeDarkness:
 	.string "Supreme Darkness$"
 
 gText_TCGSynchronExtremeStructureDeck:
-	.string "Synchron Extreme Structure Dec$"
+	.string "Synchron Extreme Structure Deck$"
 
 gText_TCGTacticalEvolution:
 	.string "Tactical Evolution$"
 
 gText_TCGTheDarkEmperorStructureDeck:
-	.string "The Dark Emperor Structure Dec$"
+	.string "The Dark Emperor Structure Deck$"
 
 gText_TCGTheDarkIllusion:
 	.string "The Dark Illusion$"
@@ -7145,7 +7145,7 @@ gText_TCGTheShiningDarkness:
 	.string "The Shining Darkness$"
 
 gText_TCGWarriorsStrikeStructureDeck:
-	.string "Warriors' Strike Structure Dec$"
+	.string "Warriors' Strike Structure Deck$"
 
 gText_TCGZombieWorldStructureDeck:
 	.string "Zombie World Structure Deck$"
