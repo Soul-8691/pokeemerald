@@ -1,6 +1,8 @@
 #ifndef GUARD_BATTLE_MAIN_H
 #define GUARD_BATTLE_MAIN_H
 
+#include "constants/ygo.h"
+
 extern u32 battle;
 void CB2_InitYGODuelInternal(void);
 void Task_HandleYGOTurn(void);
@@ -100,6 +102,7 @@ extern const u8 gStatusConditionString_BurnJpn[8];
 extern const u8 gStatusConditionString_IceJpn[8];
 extern const u8 gStatusConditionString_ConfusionJpn[8];
 extern const u8 gStatusConditionString_LoveJpn[8];
+extern u16 items[NUM_CARDS*3];
 
 extern const u8 *const gStatusConditionStringsTable[7][2];
 bool8 containsElement(u16 arr[], int size, int target);
