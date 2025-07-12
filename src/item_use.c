@@ -1147,7 +1147,6 @@ static u16 PullCardFromPack(u16 pack)
 {
     u32 i, random;
     u32 j, k, l, length = 0;
-    DebugPrintf("%d", pack);
     if (pack < PACK_YUGI_KAIBA)
     {
         length = gPacks[pack].length;

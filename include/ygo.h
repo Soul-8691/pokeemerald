@@ -1,7 +1,7 @@
 #ifndef GUARD_YGO_H
 #define GUARD_YGO_H
 
-struct CardInfo
+struct ALIGNED(4) CardInfo
 {
     /* 0x00 */ const u8 *name;
     /* 0x04 */ const u8 *nameShort;
@@ -29,45 +29,59 @@ struct CardInfo
     /* 0x58 */ u32 priceYK:10;
     /* 0x59 */ u32 priceCritter:10;
     /* 0x5A */ u32 priceTreasure:10;
+    /* 0x5B */ u32 unused3:2;
     /* 0x5C */ u32 priceImperial:10;
     /* 0x5D */ u32 priceAndroid:10;
     /* 0x5E */ u32 priceJoeyPegasus:10;
+    /* 0x5F */ u32 unused4:2;
     /* 0x60 */ u32 priceFiber:10;
     /* 0x61 */ u32 priceYata:10;
     /* 0x62 */ u32 priceScientist:10;
+    /* 0x63 */ u32 unused5:2;
     /* 0x64 */ u32 priceVampire:10;
     /* 0x65 */ u32 priceChaos:10;
     /* 0x66 */ u32 priceWarrior:10;
+    /* 0x67 */ u32 unused6:2;
     /* 0x68 */ u32 priceGoat:10;
     /* 0x69 */ u32 priceCyber:10;
     /* 0x6A */ u32 priceReaper:10;
+    /* 0x6B */ u32 unused7:2;
     /* 0x6C */ u32 priceChaosReturn:10;
     /* 0x6D */ u32 priceDemise:10;
     /* 0x6E */ u32 priceTrooper:10;
+    /* 0x6F */ u32 unused8:2;
     /* 0x70 */ u32 priceZombie:10;
     /* 0x71 */ u32 pricePerfectCircle:10;
     /* 0x72 */ u32 priceDADReturn:10;
+    /* 0x73 */ u32 unused9:2;
     /* 0x74 */ u32 priceGladiator:10;
     /* 0x75 */ u32 priceTeleDAD:10;
     /* 0x76 */ u32 priceCat:10;
+    /* 0x77 */ u32 unused10:2;
     /* 0x78 */ u32 priceEdison:10;
     /* 0x79 */ u32 priceFrog:10;
     /* 0x7A */ u32 priceStarstrike:10;
+    /* 0x7B */ u32 unused11:2;
     /* 0x7C */ u32 priceTengu:10;
     /* 0x7D */ u32 priceDinoRabbit:10;
     /* 0x7E */ u32 priceWindUp:10;
+    /* 0x7F */ u32 unused12:2;
     /* 0x80 */ u32 priceMiami:10;
     /* 0x81 */ u32 priceMeadowlands:10;
     /* 0x82 */ u32 priceBabyRuler:10;
+    /* 0x83 */ u32 unused13:2;
     /* 0x84 */ u32 priceRavineRuler:10;
     /* 0x85 */ u32 priceFireWater:10;
     /* 0x86 */ u32 priceHAT:10;
+    /* 0x87 */ u32 unused14:2;
     /* 0x88 */ u32 priceVegas:10;
     /* 0x89 */ u32 priceWCT06:10;
     /* 0x8A */ u32 priceCustom:10;
+    /* 0x8B */ u32 unused15:2;
     /* 0x8C */ u32 priceVendor1:10;
     /* 0x8D */ u32 priceVendor2:10;
     /* 0x8E */ u32 priceVendor3:10;
+    /* 0x8F */ u32 unused16:2;
     /* 0x90 */ u32 banYK:2;
     /* 0x90 */ u32 banCritter:2;
     /* 0x90 */ u32 banTreasure:2;
@@ -110,6 +124,7 @@ struct CardInfo
     /* 0x9A */ u32 banVendor1:2;
     /* 0x9A */ u32 banVendor2:2;
     /* 0x9A */ u32 banVendor3:2;
+    /* 0x9A */ u32 unused17:10;
 };
 
 struct PackContents

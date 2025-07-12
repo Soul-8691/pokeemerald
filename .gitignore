@@ -53,3 +53,4 @@ prefabs.json
 /tools/ygo_card_converter/bastion.json
 /tools/ygo_card_converter/Sets/*.jpg
 /tools/ygo_card_converter/Sets/Icons/*.jpg
+*.toml
