@@ -1967,32 +1967,24 @@ InsideOfTruck_Pokemart''' + re.sub(r'[^a-zA-Z0-9]', '', set_) + ''':\n'''
 		sets_print += ',\n\t},\n'
 		card_count = 0
 
-with open('sets.json', 'r') as f:
-	data = json.load(f)
-	for set_ in pack_names:
-		Scripts += '''gText_''' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '''Clerk::
-			.string "Welcome!\\p"
-			.string "I'm the ''' + textwrap.fill(set_[4:].replace('"', ''), width=16).replace('\n', '\\n"\n\t\t\t.string "') + ''' clerk.\\n"
-			.string "How may I serve you?$"\n\n'''
+for set_ in pack_names:
+	Scripts += '''gText_''' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '''Clerk::
+		.string "Welcome!\\p"
+		.string "I'm the ''' + textwrap.fill(set_[4:].replace('"', ''), width=16).replace('\n', '\\n"\n\t\t\t.string "') + ''' clerk.\\n"
+		.string "How may I serve you?$"\n\n'''
 
-with open('sets.json', 'r') as f:
-	data = json.load(f)
-	for set_ in pack_names:
-		Scripts += 'gText_' + re.sub(r'[^a-zA-Z0-9]', '', set_) + ', '
+for set_ in pack_names:
+	Scripts += 'gText_' + re.sub(r'[^a-zA-Z0-9]', '', set_) + ', '
 
 Scripts += '\n\n'
 
-with open('sets.json', 'r') as f:
-	data = json.load(f)
-	for set_ in pack_names:
-		Scripts += 'gText_' + re.sub(r'[^a-zA-Z0-9]', '', set_) + ':\n\t.string "' + set_[4:40] + '$"\n\n'
+for set_ in pack_names:
+	Scripts += 'gText_' + re.sub(r'[^a-zA-Z0-9]', '', set_) + ':\n\t.string "' + set_[4:40] + '$"\n\n'
 
 counter = 0
-with open('sets.json', 'r') as f:
-	data = json.load(f)
-	for set_ in pack_names:
-		Scripts += 'case ' + str(counter) + ', InsideOfTruck_EventScript_Clerk_' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '\n'
-		counter += 1
+for set_ in pack_names:
+	Scripts += 'case ' + str(counter) + ', InsideOfTruck_EventScript_Clerk_' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '\n'
+	counter += 1
 
 Scripts += '\n\n'
 
@@ -2025,6 +2017,12 @@ SRCDataItemDescsWrite = open('src/data/text/item_descriptions.h', 'w', encoding=
 SRCDataItemDescsWrite.write(SRCDataItemDescs)
 SRCDataItemDescsWrite.close()
 print('src/data/text/item_descriptions.h written')
+
+for set_ in pack_names:
+	YGO_Graphics_C += 'const u32 gPack_' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', set_).lower() + '.4bpp.lz");\n'
+	YGO_Graphics_C += 'const u32 gPack_' + re.sub(r'[^a-zA-Z0-9]', '', set_) + 'Pal[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', set_).lower() + '.gbapal.lz");\n'
+	YGO_Graphics += 'extern const u32 gPack_' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '[];\n'
+	YGO_Graphics += 'extern const u32 gPack_' + re.sub(r'[^a-zA-Z0-9]', '', set_) + 'Pal[];\n'
 
 for card_name in card_names:
 	for data in card_info_data['data']:
