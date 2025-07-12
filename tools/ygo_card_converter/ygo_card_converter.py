@@ -1969,8 +1969,14 @@ InsideOfTruck_Pokemart''' + re.sub(r'[^a-zA-Z0-9]', '', set_) + ''':\n'''
 
 for set_ in pack_names:
 	Scripts += '''gText_''' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '''Clerk::
-		.string "Welcome!\\p"
-		.string "I'm the ''' + textwrap.fill(set_[4:].replace('"', ''), width=16).replace('\n', '\\n"\n\t\t\t.string "') + ''' clerk.\\n"
+		.string "Welcome!\\p"\n'''
+	if len(set_) <= 24:
+		Scripts += '''		.string "I'm the ''' + set_[4:].replace('"', '') + ''' clerk.\\n"
+		.string "How may I serve you?$"\n\n'''
+	else:
+		wrap_short = textwrap.wrap(set_[4:].replace('"', ''), width=20)
+		wrap = textwrap.fill(' '.join(wrap_short[1:]).replace('"', ''), width=32)
+		Scripts += '''		.string "I'm the ''' + wrap_short[0] + '"\n\t\t.string "' + wrap.replace('\n', '\\n"\n\t\t.string "') + ''' clerk.\\n"
 		.string "How may I serve you?$"\n\n'''
 
 for set_ in pack_names:

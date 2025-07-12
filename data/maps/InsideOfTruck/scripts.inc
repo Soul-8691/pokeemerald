@@ -511,1066 +511,993 @@ InsideOfTruck_EventScript_MovingBox3::
 	end
 
 gText_TCG2PlayerStarterSetClerk::
-			.string "Welcome!\p"
-			.string "I'm the 2-Player Starter\n"
-			.string "Set clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the 2-Player Starter Set clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGAbsolutePowerforceClerk::
-			.string "Welcome!\p"
-			.string "I'm the Absolute\n"
-			.string "Powerforce clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Absolute Powerforce clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGAbyssRisingClerk::
-			.string "Welcome!\p"
-			.string "I'm the Abyss Rising clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Abyss Rising clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGAgeofOverlordClerk::
-			.string "Welcome!\p"
-			.string "I'm the Age of Overlord clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Age of Overlord clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGAllianceInsightClerk::
-			.string "Welcome!\p"
-			.string "I'm the Alliance Insight clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Alliance Insight clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGAncientProphecyClerk::
-			.string "Welcome!\p"
-			.string "I'm the Ancient Prophecy clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Ancient Prophecy clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGAncientSanctuaryClerk::
-			.string "Welcome!\p"
-			.string "I'm the Ancient\n"
-			.string "Sanctuary clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Ancient Sanctuary clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGBattleofChaosClerk::
-			.string "Welcome!\p"
-			.string "I'm the Battle of Chaos clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Battle of Chaos clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGBlazingVortexClerk::
-			.string "Welcome!\p"
-			.string "I'm the Blazing Vortex clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Blazing Vortex clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGBreakersofShadowClerk::
-			.string "Welcome!\p"
-			.string "I'm the Breakers of\n"
-			.string "Shadow clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Breakers of Shadow clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGBurstofDestinyClerk::
-			.string "Welcome!\p"
-			.string "I'm the Burst of Destiny clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Burst of Destiny clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGChaosImpactClerk::
-			.string "Welcome!\p"
-			.string "I'm the Chaos Impact clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Chaos Impact clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGCircuitBreakClerk::
-			.string "Welcome!\p"
-			.string "I'm the Circuit Break clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Circuit Break clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGClashofRebellionsClerk::
-			.string "Welcome!\p"
-			.string "I'm the Clash of\n"
-			.string "Rebellions clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Clash of Rebellions clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGCodeoftheDuelistClerk::
-			.string "Welcome!\p"
-			.string "I'm the Code of the\n"
-			.string "Duelist clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Code of the Duelist clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGCosmoBlazerClerk::
-			.string "Welcome!\p"
-			.string "I'm the Cosmo Blazer clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Cosmo Blazer clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGCrimsonCrisisClerk::
-			.string "Welcome!\p"
-			.string "I'm the Crimson Crisis clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Crimson Crisis clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGCrossedSoulsClerk::
-			.string "Welcome!\p"
-			.string "I'm the Crossed Souls clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Crossed Souls clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGCrossroadsofChaosClerk::
-			.string "Welcome!\p"
-			.string "I'm the Crossroads of\n"
-			.string "Chaos clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Crossroads of Chaos clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGCyberDragonRevolutionStructureDeckClerk::
-			.string "Welcome!\p"
-			.string "I'm the Cyber Dragon\n"
-			.string "Revolution\n"
-			.string "Structure Deck clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Cyber Dragon"
+		.string "Revolution Structure Deck clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGCyberdarkImpactClerk::
-			.string "Welcome!\p"
-			.string "I'm the Cyberdark Impact clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Cyberdark Impact clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGCyberneticHorizonClerk::
-			.string "Welcome!\p"
-			.string "I'm the Cybernetic\n"
-			.string "Horizon clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Cybernetic Horizon clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGCyberneticRevolutionClerk::
-			.string "Welcome!\p"
-			.string "I'm the Cybernetic\n"
-			.string "Revolution clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Cybernetic"
+		.string "Revolution clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGCyberstormAccessClerk::
-			.string "Welcome!\p"
-			.string "I'm the Cyberstorm\n"
-			.string "Access clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Cyberstorm Access clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGDarkCrisisClerk::
-			.string "Welcome!\p"
-			.string "I'm the Dark Crisis clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Dark Crisis clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGDarkLegionStarterDeckClerk::
-			.string "Welcome!\p"
-			.string "I'm the Dark Legion\n"
-			.string "Starter Deck clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Dark Legion Starter"
+		.string "Deck clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGDarkNeostormClerk::
-			.string "Welcome!\p"
-			.string "I'm the Dark Neostorm clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Dark Neostorm clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGDarkwingBlastClerk::
-			.string "Welcome!\p"
-			.string "I'm the Darkwing Blast clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Darkwing Blast clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGDawnofMajestyClerk::
-			.string "Welcome!\p"
-			.string "I'm the Dawn of Majesty clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Dawn of Majesty clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGDimensionForceClerk::
-			.string "Welcome!\p"
-			.string "I'm the Dimension Force clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Dimension Force clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGDimensionofChaosClerk::
-			.string "Welcome!\p"
-			.string "I'm the Dimension of\n"
-			.string "Chaos clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Dimension of Chaos clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGDinosmashersFuryStructureDeckClerk::
-			.string "Welcome!\p"
-			.string "I'm the Dinosmasher's\n"
-			.string "Fury Structure\n"
-			.string "Deck clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Dinosmasher's Fury"
+		.string "Structure Deck clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGDragonsCollideStructureDeckClerk::
-			.string "Welcome!\p"
-			.string "I'm the Dragons Collide\n"
-			.string "Structure Deck clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Dragons Collide"
+		.string "Structure Deck clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGDragunityLegionStructureDeckClerk::
-			.string "Welcome!\p"
-			.string "I'm the Dragunity Legion\n"
-			.string "Structure Deck clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Dragunity Legion"
+		.string "Structure Deck clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGDuelistAllianceClerk::
-			.string "Welcome!\p"
-			.string "I'm the Duelist Alliance clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Duelist Alliance clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGDuelistNexusClerk::
-			.string "Welcome!\p"
-			.string "I'm the Duelist Nexus clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Duelist Nexus clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGDuelistRevolutionClerk::
-			.string "Welcome!\p"
-			.string "I'm the Duelist\n"
-			.string "Revolution clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Duelist Revolution clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGDuelistsAdvanceClerk::
-			.string "Welcome!\p"
-			.string "I'm the Duelist's\n"
-			.string "Advance clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Duelist's Advance clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGEgyptianGodDeckObelisktheTormentorClerk::
-			.string "Welcome!\p"
-			.string "I'm the Egyptian God\n"
-			.string "Deck: Obelisk\n"
-			.string "the Tormentor clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Egyptian God Deck:"
+		.string "Obelisk the Tormentor clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGEgyptianGodDeckSlifertheSkyDragonClerk::
-			.string "Welcome!\p"
-			.string "I'm the Egyptian God\n"
-			.string "Deck: Slifer the\n"
-			.string "Sky Dragon clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Egyptian God Deck:"
+		.string "Slifer the Sky Dragon clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGElementalEnergyClerk::
-			.string "Welcome!\p"
-			.string "I'm the Elemental Energy clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Elemental Energy clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGEmperorofDarknessStructureDeckClerk::
-			.string "Welcome!\p"
-			.string "I'm the Emperor of\n"
-			.string "Darkness\n"
-			.string "Structure Deck clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Emperor of Darkness"
+		.string "Structure Deck clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGEnemyofJusticeClerk::
-			.string "Welcome!\p"
-			.string "I'm the Enemy of Justice clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Enemy of Justice clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGEternityCodeClerk::
-			.string "Welcome!\p"
-			.string "I'm the Eternity Code clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Eternity Code clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGExtremeForceClerk::
-			.string "Welcome!\p"
-			.string "I'm the Extreme Force clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Extreme Force clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGExtremeVictoryClerk::
-			.string "Welcome!\p"
-			.string "I'm the Extreme Victory clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Extreme Victory clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGFlamesofDestructionClerk::
-			.string "Welcome!\p"
-			.string "I'm the Flames of\n"
-			.string "Destruction clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Flames of"
+		.string "Destruction clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGFlamingEternityClerk::
-			.string "Welcome!\p"
-			.string "I'm the Flaming Eternity clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Flaming Eternity clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGForceoftheBreakerClerk::
-			.string "Welcome!\p"
-			.string "I'm the Force of the\n"
-			.string "Breaker clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Force of the Breaker clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGGalacticOverlordClerk::
-			.string "Welcome!\p"
-			.string "I'm the Galactic\n"
-			.string "Overlord clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Galactic Overlord clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGGatesoftheUnderworldStructureDeckClerk::
-			.string "Welcome!\p"
-			.string "I'm the Gates of the\n"
-			.string "Underworld\n"
-			.string "Structure Deck clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Gates of the"
+		.string "Underworld Structure Deck clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGGeargiaRampageStructureDeckClerk::
-			.string "Welcome!\p"
-			.string "I'm the Geargia Rampage\n"
-			.string "Structure Deck clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Geargia Rampage"
+		.string "Structure Deck clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGGenerationForceClerk::
-			.string "Welcome!\p"
-			.string "I'm the Generation Force clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Generation Force clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGGladiatorsAssaultClerk::
-			.string "Welcome!\p"
-			.string "I'm the Gladiator's\n"
-			.string "Assault clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Gladiator's Assault clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGHEROStrikeStructureDeckClerk::
-			.string "Welcome!\p"
-			.string "I'm the HERO Strike\n"
-			.string "Structure Deck clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the HERO Strike"
+		.string "Structure Deck clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGIgnitionAssaultClerk::
-			.string "Welcome!\p"
-			.string "I'm the Ignition Assault clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Ignition Assault clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGInvasionofChaosClerk::
-			.string "Welcome!\p"
-			.string "I'm the Invasion of\n"
-			.string "Chaos clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Invasion of Chaos clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGInvasionVengeanceClerk::
-			.string "Welcome!\p"
-			.string "I'm the Invasion:\n"
-			.string "Vengeance clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Invasion: Vengeance clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGJudgmentoftheLightClerk::
-			.string "Welcome!\p"
-			.string "I'm the Judgment of the\n"
-			.string "Light clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Judgment of the"
+		.string "Light clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGLabyrinthofNightmareClerk::
-			.string "Welcome!\p"
-			.string "I'm the Labyrinth of\n"
-			.string "Nightmare clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Labyrinth of"
+		.string "Nightmare clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGLegacyofDarknessClerk::
-			.string "Welcome!\p"
-			.string "I'm the Legacy of\n"
-			.string "Darkness clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Legacy of Darkness clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGLegacyofDestructionClerk::
-			.string "Welcome!\p"
-			.string "I'm the Legacy of\n"
-			.string "Destruction clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Legacy of"
+		.string "Destruction clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGLegacyoftheValiantClerk::
-			.string "Welcome!\p"
-			.string "I'm the Legacy of the\n"
-			.string "Valiant clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Legacy of the"
+		.string "Valiant clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGLegendofBlueEyesWhiteDragonClerk::
-			.string "Welcome!\p"
-			.string "I'm the Legend of Blue\n"
-			.string "Eyes White\n"
-			.string "Dragon clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Legend of Blue Eyes"
+		.string "White Dragon clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGLightofDestructionClerk::
-			.string "Welcome!\p"
-			.string "I'm the Light of\n"
-			.string "Destruction clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Light of Destruction clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGLightningOverdriveClerk::
-			.string "Welcome!\p"
-			.string "I'm the Lightning\n"
-			.string "Overdrive clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Lightning Overdrive clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGLordoftheTachyonGalaxyClerk::
-			.string "Welcome!\p"
-			.string "I'm the Lord of the\n"
-			.string "Tachyon Galaxy clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Lord of the Tachyon"
+		.string "Galaxy clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGLostSanctuaryStructureDeckClerk::
-			.string "Welcome!\p"
-			.string "I'm the Lost Sanctuary\n"
-			.string "Structure Deck clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Lost Sanctuary"
+		.string "Structure Deck clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGMachinaMayhemStructureDeckClerk::
-			.string "Welcome!\p"
-			.string "I'm the Machina Mayhem\n"
-			.string "Structure Deck clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Machina Mayhem"
+		.string "Structure Deck clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGMachineReactorStructureDeckClerk::
-			.string "Welcome!\p"
-			.string "I'm the Machine Reactor\n"
-			.string "Structure Deck clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Machine Reactor"
+		.string "Structure Deck clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGMagiciansForceClerk::
-			.string "Welcome!\p"
-			.string "I'm the Magician's Force clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Magician's Force clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGMasterofPendulumStructureDeckClerk::
-			.string "Welcome!\p"
-			.string "I'm the Master of\n"
-			.string "Pendulum\n"
-			.string "Structure Deck clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Master of Pendulum"
+		.string "Structure Deck clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGMaximumCrisisClerk::
-			.string "Welcome!\p"
-			.string "I'm the Maximum Crisis clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Maximum Crisis clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGMetalRaidersClerk::
-			.string "Welcome!\p"
-			.string "I'm the Metal Raiders clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Metal Raiders clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGOnslaughtoftheFireKingsStructureDeckClerk::
-			.string "Welcome!\p"
-			.string "I'm the Onslaught of the\n"
-			.string "Fire Kings\n"
-			.string "Structure Deck clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Onslaught of the"
+		.string "Fire Kings Structure Deck clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGOrderofChaosClerk::
-			.string "Welcome!\p"
-			.string "I'm the Order of Chaos clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Order of Chaos clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGPendulumDominationStructureDeckClerk::
-			.string "Welcome!\p"
-			.string "I'm the Pendulum\n"
-			.string "Domination\n"
-			.string "Structure Deck clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Pendulum Domination"
+		.string "Structure Deck clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGPhantomDarknessClerk::
-			.string "Welcome!\p"
-			.string "I'm the Phantom Darkness clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Phantom Darkness clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGPhantomNightmareClerk::
-			.string "Welcome!\p"
-			.string "I'm the Phantom\n"
-			.string "Nightmare clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Phantom Nightmare clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGPhantomRageClerk::
-			.string "Welcome!\p"
-			.string "I'm the Phantom Rage clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Phantom Rage clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGPharaohsServantClerk::
-			.string "Welcome!\p"
-			.string "I'm the Pharaoh's\n"
-			.string "Servant clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Pharaoh's Servant clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGPharaonicGuardianClerk::
-			.string "Welcome!\p"
-			.string "I'm the Pharaonic\n"
-			.string "Guardian clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Pharaonic Guardian clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGPhotonHypernovaClerk::
-			.string "Welcome!\p"
-			.string "I'm the Photon Hypernova clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Photon Hypernova clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGPhotonShockwaveClerk::
-			.string "Welcome!\p"
-			.string "I'm the Photon Shockwave clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Photon Shockwave clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGPoweroftheDuelistClerk::
-			.string "Welcome!\p"
-			.string "I'm the Power of the\n"
-			.string "Duelist clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Power of the Duelist clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGPoweroftheElementsClerk::
-			.string "Welcome!\p"
-			.string "I'm the Power of the\n"
-			.string "Elements clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Power of the"
+		.string "Elements clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGPrimalOriginClerk::
-			.string "Welcome!\p"
-			.string "I'm the Primal Origin clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Primal Origin clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGRageoftheAbyssClerk::
-			.string "Welcome!\p"
-			.string "I'm the Rage of the\n"
-			.string "Abyss clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Rage of the Abyss clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGRagingBattleClerk::
-			.string "Welcome!\p"
-			.string "I'm the Raging Battle clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Raging Battle clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGRagingTempestClerk::
-			.string "Welcome!\p"
-			.string "I'm the Raging Tempest clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Raging Tempest clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGRealmofLightStructureDeckClerk::
-			.string "Welcome!\p"
-			.string "I'm the Realm of Light\n"
-			.string "Structure Deck clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Realm of Light"
+		.string "Structure Deck clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGRealmoftheSeaEmperorStructureDeckClerk::
-			.string "Welcome!\p"
-			.string "I'm the Realm of the Sea\n"
-			.string "Emperor\n"
-			.string "Structure Deck clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Realm of the Sea"
+		.string "Emperor Structure Deck clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGReturnoftheDuelistClerk::
-			.string "Welcome!\p"
-			.string "I'm the Return of the\n"
-			.string "Duelist clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Return of the"
+		.string "Duelist clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGRiseofDestinyClerk::
-			.string "Welcome!\p"
-			.string "I'm the Rise of Destiny clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Rise of Destiny clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGRiseoftheDragonLordsStructureDeckClerk::
-			.string "Welcome!\p"
-			.string "I'm the Rise of the\n"
-			.string "Dragon Lords\n"
-			.string "Structure Deck clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Rise of the Dragon"
+		.string "Lords Structure Deck clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGRiseoftheDuelistClerk::
-			.string "Welcome!\p"
-			.string "I'm the Rise of the\n"
-			.string "Duelist clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Rise of the Duelist clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGRiseoftheTrueDragonsStructureDeckClerk::
-			.string "Welcome!\p"
-			.string "I'm the Rise of the True\n"
-			.string "Dragons\n"
-			.string "Structure Deck clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Rise of the True"
+		.string "Dragons Structure Deck clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGRisingRampageClerk::
-			.string "Welcome!\p"
-			.string "I'm the Rising Rampage clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Rising Rampage clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGSaberForceStarterDeckClerk::
-			.string "Welcome!\p"
-			.string "I'm the Saber Force\n"
-			.string "Starter Deck clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Saber Force Starter"
+		.string "Deck clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGSagaofBlueEyesWhiteDragonStructureDeckClerk::
-			.string "Welcome!\p"
-			.string "I'm the Saga of Blue-\n"
-			.string "Eyes White\n"
-			.string "Dragon Structure\n"
-			.string "Deck clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Saga of Blue-Eyes"
+		.string "White Dragon Structure Deck clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGSamuraiWarlordsStructureDeckClerk::
-			.string "Welcome!\p"
-			.string "I'm the Samurai Warlords\n"
-			.string "Structure Deck clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Samurai Warlords"
+		.string "Structure Deck clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGSavageStrikeClerk::
-			.string "Welcome!\p"
-			.string "I'm the Savage Strike clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Savage Strike clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGSecretsofEternityClerk::
-			.string "Welcome!\p"
-			.string "I'm the Secrets of\n"
-			.string "Eternity clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Secrets of Eternity clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGShadowSpectersClerk::
-			.string "Welcome!\p"
-			.string "I'm the Shadow Specters clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Shadow Specters clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGShadowofInfinityClerk::
-			.string "Welcome!\p"
-			.string "I'm the Shadow of\n"
-			.string "Infinity clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Shadow of Infinity clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGShiningVictoriesClerk::
-			.string "Welcome!\p"
-			.string "I'm the Shining\n"
-			.string "Victories clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Shining Victories clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGSoulFusionClerk::
-			.string "Welcome!\p"
-			.string "I'm the Soul Fusion clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Soul Fusion clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGSouloftheDuelistClerk::
-			.string "Welcome!\p"
-			.string "I'm the Soul of the\n"
-			.string "Duelist clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Soul of the Duelist clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGSpellRulerClerk::
-			.string "Welcome!\p"
-			.string "I'm the Spell Ruler clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Spell Ruler clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGSpellcastersCommandStructureDeckClerk::
-			.string "Welcome!\p"
-			.string "I'm the Spellcaster's\n"
-			.string "Command\n"
-			.string "Structure Deck clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Spellcaster's"
+		.string "Command Structure Deck clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStardustOverdriveClerk::
-			.string "Welcome!\p"
-			.string "I'm the Stardust\n"
-			.string "Overdrive clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Stardust Overdrive clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStarstrikeBlastClerk::
-			.string "Welcome!\p"
-			.string "I'm the Starstrike Blast clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Starstrike Blast clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStarterDeck2006Clerk::
-			.string "Welcome!\p"
-			.string "I'm the Starter Deck\n"
-			.string "2006 clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Starter Deck 2006 clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStarterDeckCodebreakerClerk::
-			.string "Welcome!\p"
-			.string "I'm the Starter Deck:\n"
-			.string "Codebreaker clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Starter Deck:"
+		.string "Codebreaker clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStarterDeckDawnoftheXyzClerk::
-			.string "Welcome!\p"
-			.string "I'm the Starter Deck:\n"
-			.string "Dawn of the Xyz clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Starter Deck: Dawn"
+		.string "of the Xyz clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStarterDeckDuelistToolboxClerk::
-			.string "Welcome!\p"
-			.string "I'm the Starter Deck:\n"
-			.string "Duelist Toolbox clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Starter Deck:"
+		.string "Duelist Toolbox clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStarterDeckJadenYukiClerk::
-			.string "Welcome!\p"
-			.string "I'm the Starter Deck:\n"
-			.string "Jaden Yuki clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Starter Deck: Jaden"
+		.string "Yuki clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStarterDeckJoeyClerk::
-			.string "Welcome!\p"
-			.string "I'm the Starter Deck:\n"
-			.string "Joey clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Starter Deck: Joey clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStarterDeckKaibaClerk::
-			.string "Welcome!\p"
-			.string "I'm the Starter Deck:\n"
-			.string "Kaiba clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Starter Deck: Kaiba clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStarterDeckKaibaEvolutionClerk::
-			.string "Welcome!\p"
-			.string "I'm the Starter Deck:\n"
-			.string "Kaiba Evolution clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Starter Deck: Kaiba"
+		.string "Evolution clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStarterDeckKaibaReloadedClerk::
-			.string "Welcome!\p"
-			.string "I'm the Starter Deck:\n"
-			.string "Kaiba Reloaded clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Starter Deck: Kaiba"
+		.string "Reloaded clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStarterDeckLinkStrikeClerk::
-			.string "Welcome!\p"
-			.string "I'm the Starter Deck:\n"
-			.string "Link Strike clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Starter Deck: Link"
+		.string "Strike clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStarterDeckPegasusClerk::
-			.string "Welcome!\p"
-			.string "I'm the Starter Deck:\n"
-			.string "Pegasus clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Starter Deck:"
+		.string "Pegasus clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStarterDeckSyrusTruesdaleClerk::
-			.string "Welcome!\p"
-			.string "I'm the Starter Deck:\n"
-			.string "Syrus Truesdale clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Starter Deck: Syrus"
+		.string "Truesdale clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStarterDeckXyzSymphonyClerk::
-			.string "Welcome!\p"
-			.string "I'm the Starter Deck:\n"
-			.string "Xyz Symphony clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Starter Deck: Xyz"
+		.string "Symphony clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStarterDeckYuGiOh5DsClerk::
-			.string "Welcome!\p"
-			.string "I'm the Starter Deck:\n"
-			.string "Yu-Gi-Oh! 5D's clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Starter Deck: Yu-Gi-"
+		.string "Oh! 5D's clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStarterDeckYuGiOh5Ds2009Clerk::
-			.string "Welcome!\p"
-			.string "I'm the Starter Deck:\n"
-			.string "Yu-Gi-Oh! 5D's\n"
-			.string "2009 clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Starter Deck: Yu-Gi-"
+		.string "Oh! 5D's 2009 clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStarterDeckYugiClerk::
-			.string "Welcome!\p"
-			.string "I'm the Starter Deck:\n"
-			.string "Yugi clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Starter Deck: Yugi clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStarterDeckYugiEvolutionClerk::
-			.string "Welcome!\p"
-			.string "I'm the Starter Deck:\n"
-			.string "Yugi Evolution clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Starter Deck: Yugi"
+		.string "Evolution clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStarterDeckYugiReloadedClerk::
-			.string "Welcome!\p"
-			.string "I'm the Starter Deck:\n"
-			.string "Yugi Reloaded clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Starter Deck: Yugi"
+		.string "Reloaded clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStarterDeckYuyaClerk::
-			.string "Welcome!\p"
-			.string "I'm the Starter Deck:\n"
-			.string "Yuya clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Starter Deck: Yuya clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStormofRagnarokClerk::
-			.string "Welcome!\p"
-			.string "I'm the Storm of\n"
-			.string "Ragnarok clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Storm of Ragnarok clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStrikeofNeosClerk::
-			.string "Welcome!\p"
-			.string "I'm the Strike of Neos clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Strike of Neos clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStructureDeckAlbazStrikeClerk::
-			.string "Welcome!\p"
-			.string "I'm the Structure Deck:\n"
-			.string "Albaz Strike clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Structure Deck:"
+		.string "Albaz Strike clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStructureDeckBewareofTraptrixClerk::
-			.string "Welcome!\p"
-			.string "I'm the Structure Deck:\n"
-			.string "Beware of\n"
-			.string "Traptrix clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Structure Deck:"
+		.string "Beware of Traptrix clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStructureDeckBlazeofDestructionClerk::
-			.string "Welcome!\p"
-			.string "I'm the Structure Deck:\n"
-			.string "Blaze of\n"
-			.string "Destruction clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Structure Deck:"
+		.string "Blaze of Destruction clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStructureDeckBlueEyesWhiteDestinyClerk::
-			.string "Welcome!\p"
-			.string "I'm the Structure Deck:\n"
-			.string "Blue-Eyes White\n"
-			.string "Destiny clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Structure Deck:"
+		.string "Blue-Eyes White Destiny clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStructureDeckCyberStrikeClerk::
-			.string "Welcome!\p"
-			.string "I'm the Structure Deck:\n"
-			.string "Cyber Strike clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Structure Deck:"
+		.string "Cyber Strike clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStructureDeckCyberseLinkClerk::
-			.string "Welcome!\p"
-			.string "I'm the Structure Deck:\n"
-			.string "Cyberse Link clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Structure Deck:"
+		.string "Cyberse Link clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStructureDeckDarkWorldClerk::
-			.string "Welcome!\p"
-			.string "I'm the Structure Deck:\n"
-			.string "Dark World clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Structure Deck: Dark"
+		.string "World clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStructureDeckDinosaursRageClerk::
-			.string "Welcome!\p"
-			.string "I'm the Structure Deck:\n"
-			.string "Dinosaur's Rage clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Structure Deck:"
+		.string "Dinosaur's Rage clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStructureDeckDragonsRoarClerk::
-			.string "Welcome!\p"
-			.string "I'm the Structure Deck:\n"
-			.string "Dragon's Roar clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Structure Deck:"
+		.string "Dragon's Roar clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStructureDeckFireKingsClerk::
-			.string "Welcome!\p"
-			.string "I'm the Structure Deck:\n"
-			.string "Fire Kings clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Structure Deck: Fire"
+		.string "Kings clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStructureDeckFreezingChainsClerk::
-			.string "Welcome!\p"
-			.string "I'm the Structure Deck:\n"
-			.string "Freezing Chains clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Structure Deck:"
+		.string "Freezing Chains clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStructureDeckFuryfromtheDeepClerk::
-			.string "Welcome!\p"
-			.string "I'm the Structure Deck:\n"
-			.string "Fury from the\n"
-			.string "Deep clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Structure Deck: Fury"
+		.string "from the Deep clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStructureDeckInvincibleFortressClerk::
-			.string "Welcome!\p"
-			.string "I'm the Structure Deck:\n"
-			.string "Invincible\n"
-			.string "Fortress clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Structure Deck:"
+		.string "Invincible Fortress clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStructureDeckLairofDarknessClerk::
-			.string "Welcome!\p"
-			.string "I'm the Structure Deck:\n"
-			.string "Lair of Darkness clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Structure Deck: Lair"
+		.string "of Darkness clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStructureDeckLegendoftheCrystalBeastsClerk::
-			.string "Welcome!\p"
-			.string "I'm the Structure Deck:\n"
-			.string "Legend of the\n"
-			.string "Crystal Beasts clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Structure Deck:"
+		.string "Legend of the Crystal Beasts clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStructureDeckLordoftheStormClerk::
-			.string "Welcome!\p"
-			.string "I'm the Structure Deck:\n"
-			.string "Lord of the\n"
-			.string "Storm clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Structure Deck: Lord"
+		.string "of the Storm clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStructureDeckMachineReVoltClerk::
-			.string "Welcome!\p"
-			.string "I'm the Structure Deck:\n"
-			.string "Machine Re-Volt clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Structure Deck:"
+		.string "Machine Re-Volt clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStructureDeckMechanizedMadnessClerk::
-			.string "Welcome!\p"
-			.string "I'm the Structure Deck:\n"
-			.string "Mechanized\n"
-			.string "Madness clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Structure Deck:"
+		.string "Mechanized Madness clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStructureDeckOrderoftheSpellcastersClerk::
-			.string "Welcome!\p"
-			.string "I'm the Structure Deck:\n"
-			.string "Order of the\n"
-			.string "Spellcasters clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Structure Deck:"
+		.string "Order of the Spellcasters clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStructureDeckPowercodeLinkClerk::
-			.string "Welcome!\p"
-			.string "I'm the Structure Deck:\n"
-			.string "Powercode Link clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Structure Deck:"
+		.string "Powercode Link clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStructureDeckRokketRevoltClerk::
-			.string "Welcome!\p"
-			.string "I'm the Structure Deck:\n"
-			.string "Rokket Revolt clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Structure Deck:"
+		.string "Rokket Revolt clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStructureDeckSacredBeastsClerk::
-			.string "Welcome!\p"
-			.string "I'm the Structure Deck:\n"
-			.string "Sacred Beasts clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Structure Deck:"
+		.string "Sacred Beasts clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStructureDeckSetoKaibaClerk::
-			.string "Welcome!\p"
-			.string "I'm the Structure Deck:\n"
-			.string "Seto Kaiba clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Structure Deck: Seto"
+		.string "Kaiba clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStructureDeckShaddollShowdownClerk::
-			.string "Welcome!\p"
-			.string "I'm the Structure Deck:\n"
-			.string "Shaddoll\n"
-			.string "Showdown clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Structure Deck:"
+		.string "Shaddoll Showdown clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStructureDeckSoulburnerClerk::
-			.string "Welcome!\p"
-			.string "I'm the Structure Deck:\n"
-			.string "Soulburner clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Structure Deck:"
+		.string "Soulburner clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStructureDeckSpellcastersJudgmentClerk::
-			.string "Welcome!\p"
-			.string "I'm the Structure Deck:\n"
-			.string "Spellcaster's\n"
-			.string "Judgment clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Structure Deck:"
+		.string "Spellcaster's Judgment clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStructureDeckSpiritCharmersClerk::
-			.string "Welcome!\p"
-			.string "I'm the Structure Deck:\n"
-			.string "Spirit Charmers clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Structure Deck:"
+		.string "Spirit Charmers clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStructureDeckTheCrimsonKingClerk::
-			.string "Welcome!\p"
-			.string "I'm the Structure Deck:\n"
-			.string "The Crimson King clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Structure Deck: The"
+		.string "Crimson King clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStructureDeckWarriorsTriumphClerk::
-			.string "Welcome!\p"
-			.string "I'm the Structure Deck:\n"
-			.string "Warrior's\n"
-			.string "Triumph clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Structure Deck:"
+		.string "Warrior's Triumph clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStructureDeckWaveofLightClerk::
-			.string "Welcome!\p"
-			.string "I'm the Structure Deck:\n"
-			.string "Wave of Light clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Structure Deck: Wave"
+		.string "of Light clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStructureDeckYugiMutoClerk::
-			.string "Welcome!\p"
-			.string "I'm the Structure Deck:\n"
-			.string "Yugi Muto clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Structure Deck: Yugi"
+		.string "Muto clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStructureDeckZombieHordeClerk::
-			.string "Welcome!\p"
-			.string "I'm the Structure Deck:\n"
-			.string "Zombie Horde clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Structure Deck:"
+		.string "Zombie Horde clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGStructureDeckZombieMadnessClerk::
-			.string "Welcome!\p"
-			.string "I'm the Structure Deck:\n"
-			.string "Zombie Madness clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Structure Deck:"
+		.string "Zombie Madness clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGSuperStarterSpaceTimeShowdownClerk::
-			.string "Welcome!\p"
-			.string "I'm the Super Starter:\n"
-			.string "Space-Time\n"
-			.string "Showdown clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Super Starter:"
+		.string "Space-Time Showdown clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGSuperStarterVforVictoryClerk::
-			.string "Welcome!\p"
-			.string "I'm the Super Starter: V\n"
-			.string "for Victory clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Super Starter: V for"
+		.string "Victory clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGSupremeDarknessClerk::
-			.string "Welcome!\p"
-			.string "I'm the Supreme Darkness clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Supreme Darkness clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGSynchronExtremeStructureDeckClerk::
-			.string "Welcome!\p"
-			.string "I'm the Synchron Extreme\n"
-			.string "Structure Deck clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Synchron Extreme"
+		.string "Structure Deck clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGTacticalEvolutionClerk::
-			.string "Welcome!\p"
-			.string "I'm the Tactical\n"
-			.string "Evolution clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Tactical Evolution clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGTheDarkEmperorStructureDeckClerk::
-			.string "Welcome!\p"
-			.string "I'm the The Dark Emperor\n"
-			.string "Structure Deck clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the The Dark Emperor"
+		.string "Structure Deck clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGTheDarkIllusionClerk::
-			.string "Welcome!\p"
-			.string "I'm the The Dark\n"
-			.string "Illusion clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the The Dark Illusion clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGTheDuelistGenesisClerk::
-			.string "Welcome!\p"
-			.string "I'm the The Duelist\n"
-			.string "Genesis clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the The Duelist Genesis clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGTheInfiniteForbiddenClerk::
-			.string "Welcome!\p"
-			.string "I'm the The Infinite\n"
-			.string "Forbidden clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the The Infinite"
+		.string "Forbidden clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGTheLostMillenniumClerk::
-			.string "Welcome!\p"
-			.string "I'm the The Lost\n"
-			.string "Millennium clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the The Lost Millennium clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGTheNewChallengersClerk::
-			.string "Welcome!\p"
-			.string "I'm the The New\n"
-			.string "Challengers clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the The New Challengers clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGTheShiningDarknessClerk::
-			.string "Welcome!\p"
-			.string "I'm the The Shining\n"
-			.string "Darkness clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the The Shining Darkness clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGWarriorsStrikeStructureDeckClerk::
-			.string "Welcome!\p"
-			.string "I'm the Warriors' Strike\n"
-			.string "Structure Deck clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Warriors' Strike"
+		.string "Structure Deck clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCGZombieWorldStructureDeckClerk::
-			.string "Welcome!\p"
-			.string "I'm the Zombie World\n"
-			.string "Structure Deck clerk.\n"
-			.string "How may I serve you?$"
+		.string "Welcome!\p"
+		.string "I'm the Zombie World"
+		.string "Structure Deck clerk.\n"
+		.string "How may I serve you?$"
 
 gText_TCG2PlayerStarterSet:
 	.string "2-Player Starter Set$"
@@ -2616,10 +2543,10 @@ gText_CardBanlists:
 	.string "Card banlists$"
 	
 gText_Packs:
-	.string "Packs$"
+	.string "Pack shop$"
 
 gText_PackLists:
-	.string "Pack rarities$"
+	.string "Pack viewer$"
 
 gText_Custom:
 	.string "Custom$"
