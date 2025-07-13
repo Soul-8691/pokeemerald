@@ -7,30 +7,43 @@ import re
 import textwrap
 from tqdm import tqdm
 
-# f = open("YGOProDeck_Card_Info.json", "w")
-# url = "https://db.ygoprodeck.com/api/v7/cardinfo.php?misc=yes"
-# res = requests.get(url)
-# data = json.dumps(res.json(), indent=4)
-# f.write(data)
-# f.close()
+ygoprodeck = False
+bastion = False
+FL = False
+set_icons = False
+YGO_C_Write = False
+Items_Write = False
+Sets_Write = False
+Scripts_Write = False
+Item_Descs_Write = False
+YGO_Graphics_Write = False
 
-# url = 'https://dawnbrandbots.github.io/yaml-yugi/cards.json'  # Example URL for a JSON endpoint
+if ygoprodeck:
+	f = open("YGOProDeck_Card_Info.json", "w")
+	url = "https://db.ygoprodeck.com/api/v7/cardinfo.php?misc=yes"
+	res = requests.get(url)
+	data = json.dumps(res.json(), indent=4)
+	f.write(data)
+	f.close()
 
-# try:
-#     response = requests.get(url)
-#     response.raise_for_status()  # Raise an exception for bad status codes (4xx or 5xx)
+if bastion:
+	url = 'https://dawnbrandbots.github.io/yaml-yugi/cards.json'  # Example URL for a JSON endpoint
 
-#     json_data = response.json()  # Automatically parses the JSON response into a Python dictionary or list
+	try:
+		response = requests.get(url)
+		response.raise_for_status()  # Raise an exception for bad status codes (4xx or 5xx)
 
-#     file_path = 'bastion.json'
-#     with open(file_path, 'w', encoding='utf-8') as f:
-#         json.dump(json_data, f, indent=4)  # `indent=4` for pretty-printing
-#     print(f"JSON data successfully saved to '{file_path}'")
+		json_data = response.json()  # Automatically parses the JSON response into a Python dictionary or list
 
-# except requests.exceptions.RequestException as e:
-#     print(f"Error fetching data from URL: {e}")
-# except json.JSONDecodeError as e:
-#     print(f"Error decoding JSON response: {e}")
+		file_path = 'bastion.json'
+		with open(file_path, 'w', encoding='utf-8') as f:
+			json.dump(json_data, f, indent=4)  # `indent=4` for pretty-printing
+		print(f"JSON data successfully saved to '{file_path}'")
+
+	except requests.exceptions.RequestException as e:
+		print(f"Error fetching data from URL: {e}")
+	except json.JSONDecodeError as e:
+		print(f"Error decoding JSON response: {e}")
 
 formats = ['Yugi-Kaiba', 'Critter', 'Treasure', 'Imperial', 'Android', 'Joey-Pegasus', 'Fiber', 'Yata', 'Scientist', 'Vampire', 'Chaos', 'Warrior', 'Goat', 'Cyber', 'Reaper', 'Chaos Return', 'Demise', 'Trooper', 'Zombie', 'Perfect Circle', 'DAD Return', 'Gladiator', 'TeleDAD', 'Cat', 'Edison', 'Frog', 'Starstrike', 'Tengu', 'Dino Rabbit', 'Wind-Up', 'Miami', 'Meadowlands', 'Baby Ruler', 'Ravine Ruler', 'Fire-Water', 'HAT', 'Vegas']
 
@@ -95,42 +108,43 @@ def move_palette_color(img, old_index, new_index):
     
     return img
 
-FL_ = dict()
-banlists = set()
-with open('FL.json', 'r') as f:
-	data = json.load(f)
-	with open('FL_cards.json', 'w', encoding='utf8') as FL:
-		for card in data:
-			if card['Index (TCG)'] != -1:
-				card_ = card['Card']
-				if card_ not in FL_:
-					FL_[card_] = {}
-				banlists.add(card['Month'])
-				FL_[card_][card['Month']] = {}
-				FL_[card_][card['Month']]['Usage'] = card['Usage (% - Weighted)']
-				FL_[card_][card['Month']]['Banlist'] = card['Banlist']
-			if card['Format'] in formats:
-				cards_by_format[card['Format']][card['Card']] = card['Usage']
-				if card['Usage (Weighted)'] > highest_usage[card['Format']]:
-					highest_usage[card['Format']] = card['Usage (Weighted)']
-		json.dump(dict(sorted(FL_.items())), FL, indent=4)
-		FL.close()
+if FL:
+	FL_ = dict()
+	banlists = set()
+	with open('FL.json', 'r') as f:
+		data = json.load(f)
+		with open('FL_cards.json', 'w', encoding='utf8') as FL__:
+			for card in data:
+				if card['Index (TCG)'] != -1:
+					card_ = card['Card']
+					if card_ not in FL_:
+						FL_[card_] = {}
+					banlists.add(card['Month'])
+					FL_[card_][card['Month']] = {}
+					FL_[card_][card['Month']]['Usage'] = card['Usage (% - Weighted)']
+					FL_[card_][card['Month']]['Banlist'] = card['Banlist']
+				if card['Format'] in formats:
+					cards_by_format[card['Format']][card['Card']] = card['Usage']
+					if card['Usage (Weighted)'] > highest_usage[card['Format']]:
+						highest_usage[card['Format']] = card['Usage (Weighted)']
+			json.dump(dict(sorted(FL_.items())), FL__, indent=4)
+			FL__.close()
 
-for month in tqdm(sorted(banlists)):
-	print(month)
-	banlist = requests.get("https://formatlibrary.com/api/banlists/" + month.replace(' ', '%20') + "?category=TCG").json()
-	with open('FL_cards.json', 'r') as f:
-		dt = json.load(f)
-		with open('FL_cards.json', 'w', encoding='utf8') as FL:
-			for card in sorted(list(dt)):
-				print(card)
-				for card_index in range(len(banlist['forbidden'])):
-					if card == banlist['forbidden'][card_index]['cardName']:
-						FL_[card][month] = {}
-						FL_[card][month]['Banlist'] = 'Forbidden'
-						FL_[card][month]['Usage'] = 0
-			json.dump(dict(sorted(FL_.items())), FL, indent=4)
-			FL.close()
+	for month in tqdm(sorted(banlists)):
+		print(month)
+		banlist = requests.get("https://formatlibrary.com/api/banlists/" + month.replace(' ', '%20') + "?category=TCG").json()
+		with open('FL_cards.json', 'r') as f:
+			dt = json.load(f)
+			with open('FL_cards.json', 'w', encoding='utf8') as FL__:
+				for card in sorted(list(dt)):
+					print(card)
+					for card_index in range(len(banlist['forbidden'])):
+						if card == banlist['forbidden'][card_index]['cardName']:
+							FL_[card][month] = {}
+							FL_[card][month]['Banlist'] = 'Forbidden'
+							FL_[card][month]['Usage'] = 0
+				json.dump(dict(sorted(FL_.items())), FL__, indent=4)
+				FL__.close()
 
 wct06_ranks = {}
 with open('wct06.json', 'r') as f:
@@ -1701,45 +1715,45 @@ pack_names = [
 	'''TCG_Warriors' Strike Structure Deck''',
 	'''TCG_Zombie World Structure Deck''',
 ]
-
-# with open('ocg_sets.json', 'r') as f:
-# 	data = json.load(f)
-# 	for series in tqdm(data):
-# 		for set_ in tqdm(pack_names):
-# 			print(set_)
-# 			try:
-# 				set_url = data[series][set_[4:]]['image_url']
-# 				res = requests.get(set_url)
-# 				image = 'Sets/' + set_ + '.jpg'
-# 				if not os.path.exists(image):
-# 					with open(image, 'wb') as file:
-# 						file.write(res.content)
-# 						print(set_ + ' image written')
-# 				outfile = 'Sets/Icons/' + re.sub(r'\W+', '_', set_).lower() + '_icon.jpg'
-# 				if not os.path.exists(outfile):
-# 					master = Image.new(
-# 						mode='RGBA',
-# 						size=(32, 32),
-# 						color=(57,255,20,0))
-# 					size = 32, 32
-# 					im = Image.open(image)
-# 					im.thumbnail(size, Image.Resampling.LANCZOS)
-# 					pillow_width, pillow_height = im.size
-# 					# Calculate the top-left coordinates for pasting
-# 					paste_x = (32 - pillow_width) // 2
-# 					paste_y = (32 - pillow_height) // 2
-# 					master.paste(im, box=(paste_x,paste_y))
-# 					master.save(outfile, "PNG")
-# 					master = Image.open(outfile)
-# 					master = master.convert(
-# 						"P", palette=Image.ADAPTIVE, colors=15
-# 					)
-# 					master = move_palette_color(master, 15, 0)
-# 					master.save(outfile, "PNG")
-# 					subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
-# 					print(set_ + ' icon written')
-# 			except:
-# 				pass
+if set_icons:
+	with open('ocg_sets.json', 'r') as f:
+		data = json.load(f)
+		for series in tqdm(data):
+			for set_ in tqdm(pack_names):
+				print(set_)
+				try:
+					set_url = data[series][set_[4:]]['image_url']
+					res = requests.get(set_url)
+					image = 'Sets/' + set_ + '.jpg'
+					if not os.path.exists(image):
+						with open(image, 'wb') as file:
+							file.write(res.content)
+							print(set_ + ' image written')
+					outfile = 'Sets/Icons/' + re.sub(r'\W+', '_', set_).lower() + '_icon.jpg'
+					if not os.path.exists(outfile):
+						master = Image.new(
+							mode='RGBA',
+							size=(32, 32),
+							color=(57,255,20,0))
+						size = 32, 32
+						im = Image.open(image)
+						im.thumbnail(size, Image.Resampling.LANCZOS)
+						pillow_width, pillow_height = im.size
+						# Calculate the top-left coordinates for pasting
+						paste_x = (32 - pillow_width) // 2
+						paste_y = (32 - pillow_height) // 2
+						master.paste(im, box=(paste_x,paste_y))
+						master.save(outfile, "PNG")
+						master = Image.open(outfile)
+						master = master.convert(
+							"P", palette=Image.ADAPTIVE, colors=15
+						)
+						master = move_palette_color(master, 15, 0)
+						master.save(outfile, "PNG")
+						subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
+						print(set_ + ' icon written')
+				except:
+					pass
 
 card_info_data = open('YGOProDeck_Card_Info.json')
 card_info_data = json.load(card_info_data)
@@ -1752,7 +1766,6 @@ YGO_Graphics_C = ''
 YGO_Constants = ''
 Item_Constants = ''
 Items = ''
-YGO_C = ''
 UI_Menu = ''
 Scripts = ''
 Graphics_File_Rules = ''
@@ -1760,93 +1773,96 @@ SRCDataItemDescs = ''
 card_counter = 1
 pack_counter = 1
 
-for card_name in tqdm(card_names):
-	for data in card_info_data['data']:
-		if card_name == data['name']:
-			YGO_C += 'const u8 gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("' + textwrap.fill(data['desc'].replace('"', '').replace('\r\n', '').replace('\n', '').replace("''", '').replace('[ ', '').replace(' ]', ':'), width=30).replace('\n', '\\n').replace('●', '-').replace('#', '') + '");\n'
+if YGO_C_Write:
+	YGO_C = ''
+	for card_name in tqdm(card_names):
+		for data in card_info_data['data']:
+			if card_name == data['name']:
+				YGO_C += 'const u8 gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("' + textwrap.fill(data['desc'].replace('"', '').replace('\r\n', '').replace('\n', '').replace("''", '').replace('[ ', '').replace(' ]', ':'), width=30).replace('\n', '\\n').replace('●', '-').replace('#', '') + '");\n'
 
-YGO_C += '\nconst u16 CardIdMapping[] = \n{\n\t    [ITEM_NONE] = 0,\n'
-for card_name in tqdm(card_names):
-	for data in card_info_data['data']:
-		if card_name == data['name']:
-			YGO_C += '    [ITEM_CARD_' + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] = ' + str(card_counter) + ',\n'
+	YGO_C += '\nconst u16 CardIdMapping[] = \n{\n\t    [ITEM_NONE] = 0,\n'
+	for card_name in tqdm(card_names):
+		for data in card_info_data['data']:
+			if card_name == data['name']:
+				YGO_C += '    [ITEM_CARD_' + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] = ' + str(card_counter) + ',\n'
 
-YGO_C += '\t[ITEM_LIST_END] = 0,};\n\n'
+	YGO_C += '\t[ITEM_LIST_END] = 0,};\n\n'
 
-pack_counter = 1
-YGO_C += '\nconst u16 PackIdMapping[] = \n{\n'
-for set_ in pack_names:
-	YGO_C += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] = ' + str(pack_counter) + ',\n'
-	pack_counter += 1
+	pack_counter = 1
+	YGO_C += '\nconst u16 PackIdMapping[] = \n{\n'
+	for set_ in pack_names:
+		YGO_C += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] = ' + str(pack_counter) + ',\n'
+		pack_counter += 1
 
-for format_ in formats:
-    YGO_C += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] = ' + str(pack_counter) + ',\n'
-    pack_counter += 1
+	for format_ in formats:
+		YGO_C += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] = ' + str(pack_counter) + ',\n'
+		pack_counter += 1
 
-YGO_C += '};\n'
+	YGO_C += '};\n'
 
-YGO_C_Output = open('src/ygo.c', 'w')
-YGO_C_Output.write(YGO_C)
-YGO_C_Output.close()
-print('src/ygo.c written')
+	YGO_C_Output = open('src/ygo.c', 'w')
+	YGO_C_Output.write(YGO_C)
+	YGO_C_Output.close()
+	print('src/ygo.c written')
 
-ItemUse = ''
-Item = ''
-for format_ in formats:
-    Item += '''    else if (VarGet(VAR_YGO_SHOP) == BANLIST_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ''')
-    {
-        if (gCardInfo[card].ban''' + re.sub(r'[^a-zA-Z0-9]', '', format_) + ''')
-            return gCardInfo[card].ban''' + re.sub(r'[^a-zA-Z0-9]', '', format_) + ''';
-        else
-            return 3;
-    }\n'''
-    ItemUse += '''    else if (pack == PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ''')
-    {
-        u16 cards[NUM_CARDS];
-        for (i = 0; i < NUM_CARDS; i++)
-        {
-            if (gCardInfo[i].price''' + re.sub(r'[^a-zA-Z0-9]', '', format_) + ''')
-            {
-                j += 1000 - gCardInfo[i].price''' + re.sub(r'[^a-zA-Z0-9]', '', format_) + ''';
-                cards[length] = i;
-                length += 1;
-            }
-        }
-        for (k = 0; k < 5; k++)
-        {
-            random = Random() % j;
-            l = random;
-            for (i = 0; i < length; i++)
-            {
-                u16 rarity = 1000 - gCardInfo[cards[i]].price''' + re.sub(r'[^a-zA-Z0-9]', '', format_) + ''';
-                u16 card = cards[i];
-                l -= rarity;
-                if (l <= rarity)
-                {
-                    if (k == 0)
-                        gSpecialVar_0x8004 = card + 376;
-                    else if (k == 1)
-                        gSpecialVar_0x8005 = card + 376;
-                    else if (k == 2)
-                        gSpecialVar_0x8006 = card + 376;
-                    else if (k == 3)
-                        gSpecialVar_0x8007 = card + 376;
-                    else if (k == 4)
-                        gSpecialVar_0x8008 = card + 376;
-                    break;
-                }
-            }
-        }
-    }\n'''
+if Items_Write:
+	ItemUse = ''
+	Item = ''
+	for format_ in formats:
+		Item += '''    else if (VarGet(VAR_YGO_SHOP) == BANLIST_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ''')
+		{
+			if (gCardInfo[card].ban''' + re.sub(r'[^a-zA-Z0-9]', '', format_) + ''')
+				return gCardInfo[card].ban''' + re.sub(r'[^a-zA-Z0-9]', '', format_) + ''';
+			else
+				return 3;
+		}\n'''
+		ItemUse += '''    else if (pack == PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ''')
+		{
+			u16 cards[NUM_CARDS];
+			for (i = 0; i < NUM_CARDS; i++)
+			{
+				if (gCardInfo[i].price''' + re.sub(r'[^a-zA-Z0-9]', '', format_) + ''')
+				{
+					j += 1000 - gCardInfo[i].price''' + re.sub(r'[^a-zA-Z0-9]', '', format_) + ''';
+					cards[length] = i;
+					length += 1;
+				}
+			}
+			for (k = 0; k < 5; k++)
+			{
+				random = Random() % j;
+				l = random;
+				for (i = 0; i < length; i++)
+				{
+					u16 rarity = 1000 - gCardInfo[cards[i]].price''' + re.sub(r'[^a-zA-Z0-9]', '', format_) + ''';
+					u16 card = cards[i];
+					l -= rarity;
+					if (l <= rarity)
+					{
+						if (k == 0)
+							gSpecialVar_0x8004 = card + 376;
+						else if (k == 1)
+							gSpecialVar_0x8005 = card + 376;
+						else if (k == 2)
+							gSpecialVar_0x8006 = card + 376;
+						else if (k == 3)
+							gSpecialVar_0x8007 = card + 376;
+						else if (k == 4)
+							gSpecialVar_0x8008 = card + 376;
+						break;
+					}
+				}
+			}
+		}\n'''
 
-ItemPrinter = open('src/item.c', 'w', encoding='utf-8')
-ItemPrinter.write(Item)
-ItemPrinter.close()
-print('src/item.c written')
-ItemUsePrinter = open('src/item_use.c', 'w', encoding='utf-8')
-ItemUsePrinter.write(ItemUse)
-ItemUsePrinter.close()
-print('src/item_use.c written')
+	ItemPrinter = open('src/item.c', 'w', encoding='utf-8')
+	ItemPrinter.write(Item)
+	ItemPrinter.close()
+	print('src/item.c written')
+	ItemUsePrinter = open('src/item_use.c', 'w', encoding='utf-8')
+	ItemUsePrinter.write(ItemUse)
+	ItemUsePrinter.close()
+	print('src/item_use.c written')
 
 tcg_sets = set()
 for data in card_info_data['data']:
@@ -1856,179 +1872,157 @@ for data in card_info_data['data']:
 	except:
 		pass
 
-Set_Writer = open('sets.json', 'w', encoding='utf-8')
-sets_write = {}
-for set_ in tqdm(pack_names):
-    print(set_)
-    sets_write[set_] = {}
-    for card in cards_by_pack:
-        try:
-            for set__ in cards_by_pack[card]['sets']['ja']:
-                if set_[4:] == set__['set_name']:
-                    sets_write[set_][card] = list()
-                    for rarity in set__['rarities']:
-                        sets_write[set_][card].append(rarity)
-        except:
-            pass
-        try:
-            for set__ in cards_by_pack[card]['sets']['en']:
-                if set_[4:] == set__['set_name']:
-                    sets_write[set_][card] = list()
-                    for rarity in set__['rarities']:
-                        sets_write[set_][card].append(rarity)
-        except:
-            pass
-
-json.dump(dict(sorted(sets_write.items())), Set_Writer, indent=4)
-Set_Writer.close()
-print('sets.json written')
-
-sets_print = ''
-for set_ in tqdm(pack_names):
-	print(set_)
-	if set_[0:3] == 'TCG':
-		sets_print += 'const struct PackContents gTCG' + re.sub(r'[^a-zA-Z0-9]', '', set_[4:]) + '[] =\n{\n'
+if Sets_Write:
+	Set_Writer = open('sets.json', 'w', encoding='utf-8')
+	sets_write = {}
+	for set_ in tqdm(pack_names):
+		print(set_)
+		sets_write[set_] = {}
 		for card in cards_by_pack:
-			if card in card_names:
-				try:
-					for set__ in cards_by_pack[card]['sets']['en']:
-						if set__['set_name'] == set_[4:]:
-							for rarity in set__['rarities']:
-								sets_print += '\t{ITEM_CARD_' + re.sub(r'[^a-zA-Z0-9]', '_', card).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ', RARITY_' + re.sub(r'[^a-zA-Z0-9]', '_', rarity).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '},\n'
-				except:
-					pass
-		sets_print += '};\n\n'
-	if set_[0:3] == 'OCG':
-		sets_print += 'const struct PackContents gOCG' + re.sub(r'[^a-zA-Z0-9]', '', set_[4:]) + '[] =\n{\n'
-		for card in cards_by_pack:
-			if card in card_names:
-				try:
-					for set__ in cards_by_pack[card]['sets']['en']:
-						if set__['set_name'] == set_[4:]:
-							for rarity in set__['rarities']:
-								sets_print += '\t{ITEM_CARD_' + re.sub(r'[^a-zA-Z0-9]', '_', card).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ', RARITY_' + re.sub(r'[^a-zA-Z0-9]', '_', rarity).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '},\n'
-				except:
-					pass
-		sets_print += '};\n\n'
+			try:
+				for set__ in cards_by_pack[card]['sets']['ja']:
+					if set_[4:] == set__['set_name']:
+						sets_write[set_][card] = list()
+						for rarity in set__['rarities']:
+							sets_write[set_][card].append(rarity)
+			except:
+				pass
+			try:
+				for set__ in cards_by_pack[card]['sets']['en']:
+					if set_[4:] == set__['set_name']:
+						sets_write[set_][card] = list()
+						for rarity in set__['rarities']:
+							sets_write[set_][card].append(rarity)
+			except:
+				pass
 
-# with open('tcg_sets.json', 'r') as f:
-#     data = json.load(f)
-#     for set_ in data:
-#         sets_print += 'const struct PackContents gTCG' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '[] =\n{\n'
-#         for card in data[set_]:
-#             if card in card_names:
-#                 sets_print += '\t{ITEM_CARD_' + re.sub(r'[^a-zA-Z0-9]', '_', card).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ', RARITY_' + re.sub(r'[^a-zA-Z0-9]', '_', data[set_][card]).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '},\n'
-#         sets_print += '};\n\n'
+	json.dump(dict(sorted(sets_write.items())), Set_Writer, indent=4)
+	Set_Writer.close()
+	print('sets.json written')
 
-# with open('ocg_sets.json', 'r') as f:
-# 	data = json.load(f)
-# 	for series in data:
-# 		for set_ in data[series]:
-# 			sets_print += 'const struct PackContents gOCG' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '[] =\n{\n'
-# 			for card in data[series][set_]['cards']:
-# 				if card in card_names:
-# 					sets_print += '\t{ITEM_CARD_' + re.sub(r'[^a-zA-Z0-9]', '_', card).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ', RARITY_COMMON},\n'
-# 			sets_print += '};\n\n'
-
-for set_ in pack_names:
-    Scripts += '\t.2byte ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ' 10\n' 
-Scripts += '\n'
-
-sets_print += '\nconst struct Pack gPacks[] =\n{\n'
-card_count = 0
-with open('sets.json', 'r') as f:
-	data = json.load(f)
-	for set_ in pack_names:
-		Scripts += '''InsideOfTruck_EventScript_Clerk_''' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '''::
-	lock
-	faceplayer
-	setvar VAR_YGO_SHOP, VIEW_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '''
-	message gText_''' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '''Clerk
-	waitmessage
-	pokemart InsideOfTruck_Pokemart''' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '''
-	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
-	setvar VAR_YGO_SHOP, 0
-	release
-	end
-
-	.align 2
-InsideOfTruck_Pokemart''' + re.sub(r'[^a-zA-Z0-9]', '', set_) + ''':\n'''
+	sets_print = ''
+	for set_ in tqdm(pack_names):
+		print(set_)
 		if set_[0:3] == 'TCG':
-			sets_print += '\t[PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] =\n\t{\n        .pack = gTCG' + re.sub(r'[^a-zA-Z0-9]', '', set_[4:]) + ',\n        .length = '
+			sets_print += 'const struct PackContents gTCG' + re.sub(r'[^a-zA-Z0-9]', '', set_[4:]) + '[] =\n{\n'
+			for card in cards_by_pack:
+				if card in card_names:
+					try:
+						for set__ in cards_by_pack[card]['sets']['en']:
+							if set__['set_name'] == set_[4:]:
+								for rarity in set__['rarities']:
+									sets_print += '\t{ITEM_CARD_' + re.sub(r'[^a-zA-Z0-9]', '_', card).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ', RARITY_' + re.sub(r'[^a-zA-Z0-9]', '_', rarity).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '},\n'
+					except:
+						pass
+			sets_print += '};\n\n'
+		if set_[0:3] == 'OCG':
+			sets_print += 'const struct PackContents gOCG' + re.sub(r'[^a-zA-Z0-9]', '', set_[4:]) + '[] =\n{\n'
+			for card in cards_by_pack:
+				if card in card_names:
+					try:
+						for set__ in cards_by_pack[card]['sets']['en']:
+							if set__['set_name'] == set_[4:]:
+								for rarity in set__['rarities']:
+									sets_print += '\t{ITEM_CARD_' + re.sub(r'[^a-zA-Z0-9]', '_', card).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ', RARITY_' + re.sub(r'[^a-zA-Z0-9]', '_', rarity).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '},\n'
+					except:
+						pass
+			sets_print += '};\n\n'
+
+	sets_print += '\nconst struct Pack gPacks[] =\n{\n'
+	card_count = 0
+	with open('sets.json', 'r') as f:
+		data = json.load(f)
+		for set_ in pack_names:
+			if set_[0:3] == 'TCG':
+				sets_print += '\t[PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] =\n\t{\n        .pack = gTCG' + re.sub(r'[^a-zA-Z0-9]', '', set_[4:]) + ',\n        .length = '
+			else:
+				sets_print += '\t[PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] =\n\t{\n        .pack = gOCG' + re.sub(r'[^a-zA-Z0-9]', '', set_[4:]) + ',\n        .length = '
+			for card in data[set_]:
+				if card in card_names:
+					for rarity in data[set_][card]:
+						card_count += 1
+			sets_print += str(card_count)
+			sets_print += ',\n\t},\n'
+			card_count = 0
+
+	sets_print += '};\n'
+	PacksWrite = open('src/data/ygo/packs.h', 'w', encoding='utf-8')
+	PacksWrite.write(sets_print)
+	PacksWrite.close()
+	print('src/data/ygo/packs.h written')
+
+if Scripts_Write:
+	with open('sets.json', 'r') as f:
+		data = json.load(f)
+		for set_ in pack_names:
+			Scripts += '''InsideOfTruck_EventScript_Clerk_''' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '''::
+		lock
+		faceplayer
+		setvar VAR_YGO_SHOP, VIEW_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '''
+		message gText_''' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '''Clerk
+		waitmessage
+		pokemart InsideOfTruck_Pokemart''' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '''
+		msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+		setvar VAR_YGO_SHOP, 0
+		release
+		end
+
+		.align 2
+	InsideOfTruck_Pokemart''' + re.sub(r'[^a-zA-Z0-9]', '', set_) + ''':\n'''
+			for card in data[set_]:
+				if card in card_names:
+					Scripts += '\t.2byte ITEM_CARD_' + re.sub(r'[^a-zA-Z0-9]', '_', card).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '\n'
+			Scripts += '\tpokemartlistend\n\n'
+	for set_ in pack_names:
+		Scripts += '\t.2byte ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ' 10\n' 
+	Scripts += '\n'
+
+	for set_ in pack_names:
+		Scripts += '''gText_''' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '''Clerk::
+			.string "Welcome!\\p"\n'''
+		if len(set_) <= 24:
+			Scripts += '''		.string "I'm the ''' + set_[4:].replace('"', '') + ''' clerk.\\n"
+			.string "How may I serve you?$"\n\n'''
 		else:
-			sets_print += '\t[PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] =\n\t{\n        .pack = gOCG' + re.sub(r'[^a-zA-Z0-9]', '', set_[4:]) + ',\n        .length = '
-		for card in data[set_]:
-			if card in card_names:
-				Scripts += '\t.2byte ITEM_CARD_' + re.sub(r'[^a-zA-Z0-9]', '_', card).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '\n'
-				for rarity in data[set_][card]:
-					card_count += 1
-		Scripts += '\tpokemartlistend\n\n'
-		sets_print += str(card_count)
-		sets_print += ',\n\t},\n'
-		card_count = 0
+			wrap_short = textwrap.wrap(set_[4:].replace('"', ''), width=20)
+			wrap = textwrap.fill(' '.join(wrap_short[1:]).replace('"', ''), width=32)
+			Scripts += '''		.string "I'm the ''' + wrap_short[0] + '"\n\t\t.string "' + wrap.replace('\n', '\\n"\n\t\t.string "') + ''' clerk.\\n"
+			.string "How may I serve you?$"\n\n'''
 
-for set_ in pack_names:
-	Scripts += '''gText_''' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '''Clerk::
-		.string "Welcome!\\p"\n'''
-	if len(set_) <= 24:
-		Scripts += '''		.string "I'm the ''' + set_[4:].replace('"', '') + ''' clerk.\\n"
-		.string "How may I serve you?$"\n\n'''
-	else:
-		wrap_short = textwrap.wrap(set_[4:].replace('"', ''), width=20)
-		wrap = textwrap.fill(' '.join(wrap_short[1:]).replace('"', ''), width=32)
-		Scripts += '''		.string "I'm the ''' + wrap_short[0] + '"\n\t\t.string "' + wrap.replace('\n', '\\n"\n\t\t.string "') + ''' clerk.\\n"
-		.string "How may I serve you?$"\n\n'''
+	for set_ in pack_names:
+		Scripts += 'gText_' + re.sub(r'[^a-zA-Z0-9]', '', set_) + ', '
 
-for set_ in pack_names:
-	Scripts += 'gText_' + re.sub(r'[^a-zA-Z0-9]', '', set_) + ', '
+	Scripts += '\n\n'
 
-Scripts += '\n\n'
+	for set_ in pack_names:
+		Scripts += 'gText_' + re.sub(r'[^a-zA-Z0-9]', '', set_) + ':\n\t.string "' + set_[4:40] + '$"\n\n'
 
-for set_ in pack_names:
-	Scripts += 'gText_' + re.sub(r'[^a-zA-Z0-9]', '', set_) + ':\n\t.string "' + set_[4:40] + '$"\n\n'
+	counter = 0
+	for set_ in pack_names:
+		Scripts += 'case ' + str(counter) + ', InsideOfTruck_EventScript_Clerk_' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '\n'
+		counter += 1
 
-counter = 0
-for set_ in pack_names:
-	Scripts += 'case ' + str(counter) + ', InsideOfTruck_EventScript_Clerk_' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '\n'
-	counter += 1
+	Scripts += '\n\n'
 
-Scripts += '\n\n'
+if Item_Descs_Write:
+	card_count = 0
+	for set_ in pack_names:
+		SRCDataItemDescs += 'static const u8 s' + re.sub(r'[^a-zA-Z0-9]', '', set_) + 'Desc[] = _(\n    "' + textwrap.fill(set_[4:].replace('"', ''), width=16).replace('\n', '\\n"\n    "') + '.");\n\n'
 
-# with open('ocg_sets.json', 'r') as f:
-# 	data = json.load(f)
-# 	for series in data:
-# 		for set_ in data[series]:
-# 			sets_print += '\t[PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] =\n\t{\n        .pack = gOCG' + re.sub(r'[^a-zA-Z0-9]', '', set_) + ',\n        .length = '
-# 			for card in data[series][set_]['cards']:
-# 				if card in card_names:
-# 					card_count += 1
-# 			sets_print += str(card_count)
-# 			sets_print += ',\n\t},\n'
-# 			card_count = 0
+	for format_ in formats:
+		SRCDataItemDescs += 'static const u8 s' + re.sub(r'[^a-zA-Z0-9]', '', format_) + 'Desc[] = _("' + textwrap.fill(format_, width=20).replace('\n', '\\n') + '.");\n\n'
 
-sets_print += '};\n'
-PacksWrite = open('src/data/ygo/packs.h', 'w', encoding='utf-8')
-PacksWrite.write(sets_print)
-PacksWrite.close()
-print('src/data/ygo/packs.h written')
+	SRCDataItemDescsWrite = open('src/data/text/item_descriptions.h', 'w', encoding='utf-8')
+	SRCDataItemDescsWrite.write(SRCDataItemDescs)
+	SRCDataItemDescsWrite.close()
+	print('src/data/text/item_descriptions.h written')
 
-card_count = 0
-for set_ in pack_names:
-	SRCDataItemDescs += 'static const u8 s' + re.sub(r'[^a-zA-Z0-9]', '', set_) + 'Desc[] = _(\n    "' + textwrap.fill(set_[4:].replace('"', ''), width=16).replace('\n', '\\n"\n    "') + '.");\n\n'
-
-for format_ in formats:
-    SRCDataItemDescs += 'static const u8 s' + re.sub(r'[^a-zA-Z0-9]', '', format_) + 'Desc[] = _("' + textwrap.fill(format_, width=20).replace('\n', '\\n') + '.");\n\n'
-
-SRCDataItemDescsWrite = open('src/data/text/item_descriptions.h', 'w', encoding='utf-8')
-SRCDataItemDescsWrite.write(SRCDataItemDescs)
-SRCDataItemDescsWrite.close()
-print('src/data/text/item_descriptions.h written')
-
-for set_ in pack_names:
-	YGO_Graphics_C += 'const u32 gPack_' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', set_).lower() + '.4bpp.lz");\n'
-	YGO_Graphics_C += 'const u32 gPack_' + re.sub(r'[^a-zA-Z0-9]', '', set_) + 'Pal[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', set_).lower() + '.gbapal.lz");\n'
-	YGO_Graphics += 'extern const u32 gPack_' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '[];\n'
-	YGO_Graphics += 'extern const u32 gPack_' + re.sub(r'[^a-zA-Z0-9]', '', set_) + 'Pal[];\n'
+if YGO_Graphics_Write:
+	for set_ in pack_names:
+		YGO_Graphics_C += 'const u32 gPack_' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', set_).lower() + '.4bpp.lz");\n'
+		YGO_Graphics_C += 'const u32 gPack_' + re.sub(r'[^a-zA-Z0-9]', '', set_) + 'Pal[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', set_).lower() + '.gbapal.lz");\n'
+		YGO_Graphics += 'extern const u32 gPack_' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '[];\n'
+		YGO_Graphics += 'extern const u32 gPack_' + re.sub(r'[^a-zA-Z0-9]', '', set_) + 'Pal[];\n'
 
 for card_name in card_names:
 	for data in card_info_data['data']:
@@ -2357,7 +2351,7 @@ for card_name in tqdm(card_names):
 						)
 						master = move_palette_color(master, 15, 0)
 						master.save(outfile, "PNG")
-						subprocess.run(['./magick', outfile, '-colors', "15", '-define', 'png:exclude-chunk=bKGD', outfile])
+						subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
 				size = 16, 16
 				master = Image.new(
 					mode='RGBA',
@@ -2379,6 +2373,12 @@ for card_name in tqdm(card_names):
 					master = move_palette_color(master, 15, 0)
 					master.save(outfile, "PNG")
 					subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
+					subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.pal')])
+					out_pal = open(outfile.replace('.png', '.pal'), 'r')
+					lines = out_pal.readlines()
+					lines[2] = 16
+					lines[17] += '\n0 0 0'
+					out_pal.close()
 				size = 24, 24
 				master = Image.new(
 					mode='RGBA',
@@ -2400,6 +2400,12 @@ for card_name in tqdm(card_names):
 					master = move_palette_color(master, 15, 0)
 					master.save(outfile, "PNG")
 					subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
+					subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.pal')])
+					out_pal = open(outfile.replace('.png', '.pal'), 'r')
+					lines = out_pal.readlines()
+					lines[2] = 16
+					lines[17] += '\n0 0 0'
+					out_pal.close()
 			card = data['name']
 			gCardInfo += ("\t[CARD_" + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + "] =\n"
 					+ "\t{\n"
