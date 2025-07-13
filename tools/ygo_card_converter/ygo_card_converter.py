@@ -7,16 +7,16 @@ import re
 import textwrap
 from tqdm import tqdm
 
-ygoprodeck = False
-bastion = False
-FL = False
-set_icons = False
-YGO_C_Write = False
-Items_Write = False
-Sets_Write = False
-Scripts_Write = False
-Item_Descs_Write = False
-YGO_Graphics_Write = False
+ygoprodeck = True
+bastion = True
+FL = True
+set_icons = True
+YGO_C_Write = True
+Items_Write = True
+Sets_Write = True
+Scripts_Write = True
+Item_Descs_Write = True
+YGO_Graphics_Write = True
 
 if ygoprodeck:
 	f = open("YGOProDeck_Card_Info.json", "w")
@@ -2045,7 +2045,6 @@ for card_name in card_names:
 			Scripts += '\tadditem ITEM_CARD_' + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '\n'
 			YGO_Graphics_C += ('const u32 gCardPicLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '_Big[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/pic_large_big.8bpp.lz");\n'
 						+ 'const u16 gCardPalLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U16("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/pic_large_big.gbapal");\n'
-						+ 'const u32 gCardIconSquare_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/pic_small.4bpp.lz");\n'
 						+ 'const u32 gCardIconSquarePalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/pic_small.gbapal.lz");\n'
 						+ 'const u32 gCardIconSmall_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/icon_small.4bpp.lz");\n'
 						+ 'const u32 gCardIconSmallPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = INCBIN_U32("graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower() + '/icon_small.gbapal.lz");\n'
@@ -2376,8 +2375,11 @@ for card_name in tqdm(card_names):
 					subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.pal')])
 					out_pal = open(outfile.replace('.png', '.pal'), 'r')
 					lines = out_pal.readlines()
-					lines[2] = 16
-					lines[17] += '\n0 0 0'
+					out_pal = open(outfile.replace('.png', '.pal'), 'w')
+					lines[2] = '16\n'
+					lines.append('0 0 0\n')
+					print(lines)
+					out_pal.writelines(lines)
 					out_pal.close()
 				size = 24, 24
 				master = Image.new(
@@ -2403,8 +2405,10 @@ for card_name in tqdm(card_names):
 					subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.pal')])
 					out_pal = open(outfile.replace('.png', '.pal'), 'r')
 					lines = out_pal.readlines()
-					lines[2] = 16
-					lines[17] += '\n0 0 0'
+					out_pal = open(outfile.replace('.png', '.pal'), 'w')
+					lines[2] = '16\n'
+					lines.append('0 0 0\n')
+					out_pal.writelines(lines)
 					out_pal.close()
 			card = data['name']
 			gCardInfo += ("\t[CARD_" + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + "] =\n"
@@ -2416,7 +2420,6 @@ for card_name in tqdm(card_names):
 					+ '\t\t.password = _("' + str(data['id']) + '"),\n'
 					+ '\t\t.pic = gCardPicLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '_Big,\n'
 					+ '\t\t.pal = gCardPalLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
-					+ '\t\t.iconSquare = gCardIconSquare_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
 					+ '\t\t.iconSmall = gCardIconSmall_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
 					+ '\t\t.palIconSmall = gCardIconSmallPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
 					+ '\t\t.iconTiny = gCardIconTiny_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
@@ -2459,6 +2462,7 @@ for card_name in tqdm(card_names):
 						elif (card_['Banlist'] == 'Semi-Limited'):
 							gCardInfo += "\t\t.banTreasure = 2,\n"
 					if card_['Card'] == card and card_['Format'] == 'Imperial':
+						print(card_['Usage (Weighted)'])
 						gCardInfo += "\t\t.priceImperial = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
 						if (card_['Banlist'] == 'Limited'):
 							gCardInfo += "\t\t.banImperial = 1,\n"
