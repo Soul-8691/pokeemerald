@@ -54,3 +54,5 @@ prefabs.json
 /tools/ygo_card_converter/Sets/*.jpg
 /tools/ygo_card_converter/Sets/Icons/*.jpg
 *.toml
+/tools/ygo_card_converter/in/*
+/tools/ygo_card_converter/out/*
