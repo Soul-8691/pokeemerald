@@ -7,16 +7,17 @@ import re
 import textwrap
 from tqdm import tqdm
 
-ygoprodeck = True
-bastion = True
+ygoprodeck = False
+bastion = False
 FL = True
-set_icons = True
-YGO_C_Write = True
-Items_Write = True
-Sets_Write = True
-Scripts_Write = True
-Item_Descs_Write = True
-YGO_Graphics_Write = True
+set_icons = False
+YGO_C_Write = False
+Items_Write = False
+Sets_Write = False
+Scripts_Write = False
+Item_Descs_Write = False
+YGO_Graphics_Write = False
+YGO_Write = False
 
 if ygoprodeck:
 	f = open("YGOProDeck_Card_Info.json", "w")
@@ -2024,7 +2025,7 @@ if YGO_Graphics_Write:
 		YGO_Graphics += 'extern const u32 gPack_' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '[];\n'
 		YGO_Graphics += 'extern const u32 gPack_' + re.sub(r'[^a-zA-Z0-9]', '', set_) + 'Pal[];\n'
 
-for card_name in card_names:
+for card_name in tqdm(card_names):
 	for data in card_info_data['data']:
 		if card_name == data['name']:
 			gCardInfo += ('const u8 gCardName_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '[] = _("' + card_name.replace('#', '').replace('"', '') + '");\n'
@@ -2072,88 +2073,96 @@ for card_name in card_names:
 		$(GFX) $< $@ -num_colors 64\n\n'''
 			card_counter += 1
 
-Item_Constants += '\n'
-for set_ in pack_names:
-    Item_Constants += '#define ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ' ' + str(card_counter + 376) + '\n'
-    card_counter += 1
-Item_Constants += '\n'
+gCardInfo += '\n'
 
-for format_ in formats:
-    Item_Constants += '#define ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ' ' + str(card_counter + 376) + '\n'
-    card_counter += 1
+if Items_Write:
+	Item_Constants += '\n'
+	for set_ in pack_names:
+		Item_Constants += '#define ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ' ' + str(card_counter + 376) + '\n'
+		card_counter += 1
+	Item_Constants += '\n'
 
-for set_ in pack_names:
-    Items += '''	[ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '''] =
-    {
-        .name = _("''' + set_[4:17] + '''"),
-        .itemId = ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ''',
-        .price = 0,
-        .description = s''' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '''Desc,
-        .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Pack,
-    },\n\n'''
-Items += '\n'
+	for format_ in formats:
+		Item_Constants += '#define ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ' ' + str(card_counter + 376) + '\n'
+		card_counter += 1
 
-for format_ in formats:
-    Items += '''	[ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '''] =
-    {
-        .name = _("''' + format_[:13] + '''"),
-        .itemId = ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ''',
-        .price = 0,
-        .description = s''' + re.sub(r'[^a-zA-Z0-9]', '', format_) + '''Desc,
-        .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_Pack,
-    },\n\n'''
+	for set_ in pack_names:
+		Items += '''	[ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '''] =
+		{
+			.name = _("''' + set_[4:17] + '''"),
+			.itemId = ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ''',
+			.price = 0,
+			.description = s''' + re.sub(r'[^a-zA-Z0-9]', '', set_) + '''Desc,
+			.pocket = POCKET_ITEMS,
+			.type = ITEM_USE_FIELD,
+			.fieldUseFunc = ItemUseOutOfBattle_Pack,
+		},\n\n'''
+	Items += '\n'
 
-ItemIconTable += '\n'
-for set_ in pack_names:
-    ItemIconTable += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},\n'
+	for format_ in formats:
+		Items += '''	[ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '''] =
+		{
+			.name = _("''' + format_[:13] + '''"),
+			.itemId = ITEM_PACK_''' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ''',
+			.price = 0,
+			.description = s''' + re.sub(r'[^a-zA-Z0-9]', '', format_) + '''Desc,
+			.pocket = POCKET_ITEMS,
+			.type = ITEM_USE_FIELD,
+			.fieldUseFunc = ItemUseOutOfBattle_Pack,
+		},\n\n'''
 
-ItemIconTable += '\n'
-for format_ in formats:
-    ItemIconTable += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},\n'
+	ItemIconTable += '\n'
+	for set_ in pack_names:
+		ItemIconTable += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},\n'
 
-pack_counter = 1
-YGO_Constants += '\n'
-for set_ in pack_names:
-	YGO_Constants += '#define PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ' ' + str(pack_counter) + '\n'
-	pack_counter += 1
+	ItemIconTable += '\n'
+	for format_ in formats:
+		ItemIconTable += '\t[ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},\n'
+	
+	ItemIconTable_Output = open('src/data/item_icon_table.h', 'w')
+	ItemIconTable_Output.write(ItemIconTable)
+	ItemIconTable_Output.close()
+	print('src/data/item_icon_table.h written')
+	Item_Constants_Output = open('include/constants/items.h', 'w')
+	Item_Constants_Output.write(Item_Constants)
+	Item_Constants_Output.close()
+	print('include/constants/items.h written')
+	Items_Output = open('src/data/items.h', 'w')
+	Items_Output.write(Items)
+	Items_Output.close()
+	print('src/data/items.h written')
 
-YGO_Constants += '\n'
-for format_ in formats:
-    YGO_Constants += '#define PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ' ' + str(pack_counter) + '\n'
-    pack_counter += 1
+if YGO_Write:
+	pack_counter = 1
+	YGO_Constants += '\n'
+	for set_ in pack_names:
+		YGO_Constants += '#define PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ' ' + str(pack_counter) + '\n'
+		pack_counter += 1
 
-YGO_Output = open('include/ygo.h', 'w')
-YGO_Output.write(YGO)
-YGO_Output.close()
-print('include/ygo.h written')
-YGO_Graphics_Output = open('include/ygo_graphics.h', 'w')
-YGO_Graphics_Output.write(YGO_Graphics)
-YGO_Graphics_Output.close()
-print('include/ygo_graphics.h written')
-ItemIconTable_Output = open('src/data/item_icon_table.h', 'w')
-ItemIconTable_Output.write(ItemIconTable)
-ItemIconTable_Output.close()
-print('src/data/item_icon_table.h written')
-YGO_Graphics_C_Output = open('src/ygo_graphics.c', 'w')
-YGO_Graphics_C_Output.write(YGO_Graphics_C)
-YGO_Graphics_C_Output.close()
-print('src/ygo_graphics.c written')
-YGO_Constants_Output = open('include/constants/ygo.h', 'w')
-YGO_Constants_Output.write(YGO_Constants)
-YGO_Constants_Output.close()
-print('include/constants/ygo.h written')
-Item_Constants_Output = open('include/constants/items.h', 'w')
-Item_Constants_Output.write(Item_Constants)
-Item_Constants_Output.close()
-print('include/constants/items.h written')
-Items_Output = open('src/data/items.h', 'w')
-Items_Output.write(Items)
-Items_Output.close()
-print('src/data/items.h written')
+	YGO_Constants += '\n'
+	for format_ in formats:
+		YGO_Constants += '#define PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', format_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ' ' + str(pack_counter) + '\n'
+		pack_counter += 1
+
+	YGO_Output = open('include/ygo.h', 'w')
+	YGO_Output.write(YGO)
+	YGO_Output.close()
+	print('include/ygo.h written')
+	YGO_Constants_Output = open('include/constants/ygo.h', 'w')
+	YGO_Constants_Output.write(YGO_Constants)
+	YGO_Constants_Output.close()
+	print('include/constants/ygo.h written')
+
+if YGO_Graphics_Write:
+	YGO_Graphics_Output = open('include/ygo_graphics.h', 'w')
+	YGO_Graphics_Output.write(YGO_Graphics)
+	YGO_Graphics_Output.close()
+	print('include/ygo_graphics.h written')
+	YGO_Graphics_C_Output = open('src/ygo_graphics.c', 'w')
+	YGO_Graphics_C_Output.write(YGO_Graphics_C)
+	YGO_Graphics_C_Output.close()
+	print('src/ygo_graphics.c written')
+
 UI_Menu_Output = open('src/ui_menu.c', 'w')
 UI_Menu_Output.write(UI_Menu)
 UI_Menu_Output.close()
@@ -2163,107 +2172,107 @@ Graphics_File_Rules_Output.write(Graphics_File_Rules)
 Graphics_File_Rules_Output.close()
 print('graphics_file_rules.mk written')
 
-gCardInfo += '\n'
-Scripts += '\n'
-for format in cards_by_format:
-	Scripts += '''InsideOfTruck_EventScript_Clerk_''' + re.sub(r'\W+', '', format) + '''::
-	lock
-	faceplayer
-	setvar VAR_YGO_SHOP, FORMAT_''' + re.sub(r'\W+', '_', format).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '''
-	message gText_''' + re.sub(r'\W+', '', format) + '''Clerk
-	waitmessage
-	pokemart InsideOfTruck_Pokemart''' + re.sub(r'\W+', '', format) + '''
-	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
-	setvar VAR_YGO_SHOP, 0
-	release
-	end
+if Scripts_Write:
+	Scripts += '\n'
+	for format in cards_by_format:
+		Scripts += '''InsideOfTruck_EventScript_Clerk_''' + re.sub(r'\W+', '', format) + '''::
+		lock
+		faceplayer
+		setvar VAR_YGO_SHOP, FORMAT_''' + re.sub(r'\W+', '_', format).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '''
+		message gText_''' + re.sub(r'\W+', '', format) + '''Clerk
+		waitmessage
+		pokemart InsideOfTruck_Pokemart''' + re.sub(r'\W+', '', format) + '''
+		msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+		setvar VAR_YGO_SHOP, 0
+		release
+		end
 
-	.align 2
-InsideOfTruck_Pokemart''' + re.sub(r'\W+', '', format) + ''':\n'''
-	for data in card_info_data['data']:
-		card_name = data['name']
-		if card_name in card_names:
-			for card_ in cards_by_format[format]:
-				if card_ == card_name and cards_by_format[format][card_]:
-					Scripts += '\t.2byte  ITEM_CARD_' + re.sub(r'\W+', '_', card_name).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '\n'
-	Scripts += '\tpokemartlistend\n\n'
-
-for format in cards_by_format:
-	Scripts += '''InsideOfTruck_Text_''' + re.sub(r'\W+', '', format) + ''':
-	.string "''' + format + '''$"\n\n'''
-
-Scripts += '\n\n'
-for format in cards_by_format:
-	Scripts += '''InsideOfTruck_Text_''' + re.sub(r'\W+', '', format) + '''Banlist:
-	.string "''' + format + ''' banlist$"\n\n'''
-
-for format in cards_by_format:
-	Scripts += '''gText_''' + re.sub(r'\W+', '', format) + '''Clerk::
-	.string "Welcome!\\p"
-	.string "I'm the ''' + format + ''' clerk.\\n"
-	.string "How may I serve you?$"\n\n'''
-	
-for format in cards_by_format:
-	Scripts += '''gText_''' + re.sub(r'\W+', '', format) + '''BanlistClerk::
-	.string "Welcome!\\p"
-	.string "I'm the ''' + format + ''' banlist clerk.\\n"
-	.string "How may I serve you?$"\n\n'''
-
-with open('FL.json', 'r') as f:
-	data_ = json.load(f)
-	for format in tqdm(cards_by_format):
-		print(format)
-		Scripts += '''InsideOfTruck_EventScript_Clerk_''' + re.sub(r'\W+', '', format) + '''Banlist::
-	lock
-	faceplayer
-	setvar VAR_YGO_SHOP, BANLIST_''' + re.sub(r'\W+', '_', format).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '''
-	message gText_''' + re.sub(r'\W+', '', format) + '''BanlistClerk
-	waitmessage
-	pokemart InsideOfTruck_Pokemart''' + re.sub(r'\W+', '', format) + '''Banlist
-	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
-	setvar VAR_YGO_SHOP, 0
-	release
-	end
-
-	.align 2
-InsideOfTruck_Pokemart''' + re.sub(r'\W+', '', format) + '''Banlist:\n'''
+		.align 2
+	InsideOfTruck_Pokemart''' + re.sub(r'\W+', '', format) + ''':\n'''
 		for data in card_info_data['data']:
 			card_name = data['name']
 			if card_name in card_names:
 				for card_ in cards_by_format[format]:
 					if card_ == card_name and cards_by_format[format][card_]:
-						for card__ in data_:
-							if card__['Card'] == card_name and card__['Format'] == format and card__['Banlist'] == 'Limited':
-								Scripts += '\t.2byte  ITEM_CARD_' + re.sub(r'\W+', '_', card_name).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '\n'
-		for data in card_info_data['data']:
-			card_name = data['name']
-			if card_name in card_names:
-				for card_ in cards_by_format[format]:
-					if card_ == card_name and cards_by_format[format][card_]:
-						for card__ in data_:
-							if card__['Card'] == card_name and card__['Format'] == format and card__['Banlist'] == 'Semi-Limited':
-								Scripts += '\t.2byte  ITEM_CARD_' + re.sub(r'\W+', '_', card_name).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '\n'
-		for data in card_info_data['data']:
-			card_name = data['name']
-			if card_name in card_names:
-				for card_ in cards_by_format[format]:
-					if card_ == card_name and cards_by_format[format][card_]:
-						for card__ in data_:
-							if card__['Card'] == card_name and card__['Format'] == format and card__['Banlist'] != 'Limited' and card__['Banlist'] != 'Semi-Limited':
-								Scripts += '\t.2byte  ITEM_CARD_' + re.sub(r'\W+', '_', card_name).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '\n'
+						Scripts += '\t.2byte  ITEM_CARD_' + re.sub(r'\W+', '_', card_name).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '\n'
 		Scripts += '\tpokemartlistend\n\n'
 
-for set_ in pack_names:
-	Scripts += '\t.2byte  ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '\n'
-Scripts += '\tpokemartlistend\n\n'
+	for format in cards_by_format:
+		Scripts += '''InsideOfTruck_Text_''' + re.sub(r'\W+', '', format) + ''':
+		.string "''' + format + '''$"\n\n'''
 
-for card in card_names:
-	Scripts += '\t.2byte  ITEM_CARD_' + re.sub(r'\W+', '_', card).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '\n'
+	Scripts += '\n\n'
+	for format in cards_by_format:
+		Scripts += '''InsideOfTruck_Text_''' + re.sub(r'\W+', '', format) + '''Banlist:
+		.string "''' + format + ''' banlist$"\n\n'''
 
-Scripts_Output = open('data/scripts/scripts.inc', 'w')
-Scripts_Output.write(Scripts)
-Scripts_Output.close()
-print('data/scripts/scripts.inc written')
+	for format in cards_by_format:
+		Scripts += '''gText_''' + re.sub(r'\W+', '', format) + '''Clerk::
+		.string "Welcome!\\p"
+		.string "I'm the ''' + format + ''' clerk.\\n"
+		.string "How may I serve you?$"\n\n'''
+		
+	for format in cards_by_format:
+		Scripts += '''gText_''' + re.sub(r'\W+', '', format) + '''BanlistClerk::
+		.string "Welcome!\\p"
+		.string "I'm the ''' + format + ''' banlist clerk.\\n"
+		.string "How may I serve you?$"\n\n'''
+
+	with open('FL.json', 'r') as f:
+		data_ = json.load(f)
+		for format in tqdm(cards_by_format):
+			print(format)
+			Scripts += '''InsideOfTruck_EventScript_Clerk_''' + re.sub(r'\W+', '', format) + '''Banlist::
+		lock
+		faceplayer
+		setvar VAR_YGO_SHOP, BANLIST_''' + re.sub(r'\W+', '_', format).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '''
+		message gText_''' + re.sub(r'\W+', '', format) + '''BanlistClerk
+		waitmessage
+		pokemart InsideOfTruck_Pokemart''' + re.sub(r'\W+', '', format) + '''Banlist
+		msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+		setvar VAR_YGO_SHOP, 0
+		release
+		end
+
+		.align 2
+	InsideOfTruck_Pokemart''' + re.sub(r'\W+', '', format) + '''Banlist:\n'''
+			for data in card_info_data['data']:
+				card_name = data['name']
+				if card_name in card_names:
+					for card_ in cards_by_format[format]:
+						if card_ == card_name and cards_by_format[format][card_]:
+							for card__ in data_:
+								if card__['Card'] == card_name and card__['Format'] == format and card__['Banlist'] == 'Limited':
+									Scripts += '\t.2byte  ITEM_CARD_' + re.sub(r'\W+', '_', card_name).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '\n'
+			for data in card_info_data['data']:
+				card_name = data['name']
+				if card_name in card_names:
+					for card_ in cards_by_format[format]:
+						if card_ == card_name and cards_by_format[format][card_]:
+							for card__ in data_:
+								if card__['Card'] == card_name and card__['Format'] == format and card__['Banlist'] == 'Semi-Limited':
+									Scripts += '\t.2byte  ITEM_CARD_' + re.sub(r'\W+', '_', card_name).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '\n'
+			for data in card_info_data['data']:
+				card_name = data['name']
+				if card_name in card_names:
+					for card_ in cards_by_format[format]:
+						if card_ == card_name and cards_by_format[format][card_]:
+							for card__ in data_:
+								if card__['Card'] == card_name and card__['Format'] == format and card__['Banlist'] != 'Limited' and card__['Banlist'] != 'Semi-Limited':
+									Scripts += '\t.2byte  ITEM_CARD_' + re.sub(r'\W+', '_', card_name).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '\n'
+			Scripts += '\tpokemartlistend\n\n'
+
+	for set_ in pack_names:
+		Scripts += '\t.2byte  ITEM_PACK_' + re.sub(r'[^a-zA-Z0-9]', '_', set_).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '\n'
+	Scripts += '\tpokemartlistend\n\n'
+
+	for card in card_names:
+		Scripts += '\t.2byte  ITEM_CARD_' + re.sub(r'\W+', '_', card).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + '\n'
+
+	Scripts_Output = open('data/scripts/scripts.inc', 'w')
+	Scripts_Output.write(Scripts)
+	Scripts_Output.close()
+	print('data/scripts/scripts.inc written')
 
 # Image conversion
 card_counter = 1
@@ -2293,56 +2302,77 @@ for card_name in tqdm(card_names):
 				folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
 				if not os.path.exists(folder_path):
 					os.mkdir(folder_path)
-				# Special format used by GBA for 80x80 sprite stitch
-				outfile = folder_path + '/pic_large_big.png'
-				if not os.path.exists(outfile):
-					size = 80, 80
-					im = Image.open(image_cropped)
-					im.thumbnail(size, Image.Resampling.LANCZOS)
-					im = im.convert(
-						"P", palette=Image.ADAPTIVE, colors=63
-					)
-					im = move_palette_color(im, 63, 0)
-					im.save(outfile, "PNG")
-					pillow_width, pillow_height = im.size
-					if pillow_width != 80 or pillow_height != 80:
-						master = Image.new(
-							mode='RGBA',
-							size=(80, 80),
-							color=(57,255,20,0))
-						master.paste(im, box=((80 - pillow_width) // 2,(80 - pillow_height) // 2))
-						master.save(outfile, "PNG")
-						master = Image.open(outfile)
-						master = master.convert(
+					# Special format used by GBA for 80x80 sprite stitch
+					outfile = folder_path + '/pic_large_big.png'
+					if not os.path.exists(outfile):
+						size = 80, 80
+						im = Image.open(image_cropped)
+						im.thumbnail(size, Image.Resampling.LANCZOS)
+						im = im.convert(
 							"P", palette=Image.ADAPTIVE, colors=63
 						)
-						master = move_palette_color(master, 63, 0)
-						master.save(outfile, "PNG")
-						subprocess.run(['./magick', outfile, '-colors', "64", '-define', 'png:exclude-chunk=bKGD', outfile])
-					subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.8bpp')])
-					subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.pal')])
-					subprocess.run(['../gbagfx/gbagfx', outfile.replace('.png', '.8bpp'), outfile.replace('.png', '.8bpp')])
-					subprocess.run(['../gbagfx/gbagfx', outfile.replace('.png', '.8bpp'), outfile.replace('.png', '.png'), '-palette', outfile.replace('.png', '.pal'), '-mwidth', '10'])
-				size = 32, 32
-				folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
-				if not os.path.exists(folder_path):
-					os.mkdir(folder_path)
-				outfile = folder_path + '/pic_small.png'
-				if not os.path.exists(outfile):
-					im = Image.open(image_cropped)
-					im.thumbnail(size, Image.Resampling.LANCZOS)
-					im = im.convert(
-						"P", palette=Image.ADAPTIVE, colors=15
-					)
-					im = move_palette_color(im, 15, 0)
-					im.save(outfile, "PNG")
-					pillow_width, pillow_height = im.size
-					if pillow_width != 32 or pillow_height != 32:
-						master = Image.new(
-							mode='RGBA',
-							size=(32, 32),
-							color=(57,255,20,0))
-						master.paste(im, box=((32 - pillow_width) // 2,(32 - pillow_height) // 2))
+						im = move_palette_color(im, 63, 0)
+						im.save(outfile, "PNG")
+						pillow_width, pillow_height = im.size
+						if pillow_width != 80 or pillow_height != 80:
+							master = Image.new(
+								mode='RGBA',
+								size=(80, 80),
+								color=(57,255,20,0))
+							master.paste(im, box=((80 - pillow_width) // 2,(80 - pillow_height) // 2))
+							master.save(outfile, "PNG")
+							master = Image.open(outfile)
+							master = master.convert(
+								"P", palette=Image.ADAPTIVE, colors=63
+							)
+							master = move_palette_color(master, 63, 0)
+							master.save(outfile, "PNG")
+							subprocess.run(['./magick', outfile, '-colors', "64", '-define', 'png:exclude-chunk=bKGD', outfile])
+						subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.8bpp')])
+						subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.pal')])
+						subprocess.run(['../gbagfx/gbagfx', outfile.replace('.png', '.8bpp'), outfile.replace('.png', '.8bpp')])
+						subprocess.run(['../gbagfx/gbagfx', outfile.replace('.png', '.8bpp'), outfile.replace('.png', '.png'), '-palette', outfile.replace('.png', '.pal'), '-mwidth', '10'])
+					size = 32, 32
+					folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
+					if not os.path.exists(folder_path):
+						os.mkdir(folder_path)
+					outfile = folder_path + '/pic_small.png'
+					if not os.path.exists(outfile):
+						im = Image.open(image_cropped)
+						im.thumbnail(size, Image.Resampling.LANCZOS)
+						im = im.convert(
+							"P", palette=Image.ADAPTIVE, colors=15
+						)
+						im = move_palette_color(im, 15, 0)
+						im.save(outfile, "PNG")
+						pillow_width, pillow_height = im.size
+						if pillow_width != 32 or pillow_height != 32:
+							master = Image.new(
+								mode='RGBA',
+								size=(32, 32),
+								color=(57,255,20,0))
+							master.paste(im, box=((32 - pillow_width) // 2,(32 - pillow_height) // 2))
+							master.save(outfile, "PNG")
+							master = Image.open(outfile)
+							master = master.convert(
+								"P", palette=Image.ADAPTIVE, colors=15
+							)
+							master = move_palette_color(master, 15, 0)
+							master.save(outfile, "PNG")
+							subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
+					size = 16, 16
+					master = Image.new(
+						mode='RGBA',
+						size=(16, 24),
+						color=(57,255,20,0))
+					folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
+					if not os.path.exists(folder_path):
+						os.mkdir(folder_path)
+					outfile = folder_path + '/icon_tiny.png'
+					if not os.path.exists(outfile):
+						im = Image.open(image_cropped)
+						im.thumbnail(size, Image.Resampling.LANCZOS)
+						master.paste(im, box=(0,4))
 						master.save(outfile, "PNG")
 						master = Image.open(outfile)
 						master = master.convert(
@@ -2351,65 +2381,43 @@ for card_name in tqdm(card_names):
 						master = move_palette_color(master, 15, 0)
 						master.save(outfile, "PNG")
 						subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
-				size = 16, 16
-				master = Image.new(
-					mode='RGBA',
-					size=(16, 24),
-					color=(57,255,20,0))
-				folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
-				if not os.path.exists(folder_path):
-					os.mkdir(folder_path)
-				outfile = folder_path + '/icon_tiny.png'
-				if not os.path.exists(outfile):
-					im = Image.open(image_cropped)
-					im.thumbnail(size, Image.Resampling.LANCZOS)
-					master.paste(im, box=(0,4))
-					master.save(outfile, "PNG")
-					master = Image.open(outfile)
-					master = master.convert(
-						"P", palette=Image.ADAPTIVE, colors=15
-					)
-					master = move_palette_color(master, 15, 0)
-					master.save(outfile, "PNG")
-					subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
-					subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.pal')])
-					out_pal = open(outfile.replace('.png', '.pal'), 'r')
-					lines = out_pal.readlines()
-					out_pal = open(outfile.replace('.png', '.pal'), 'w')
-					lines[2] = '16\n'
-					lines.append('0 0 0\n')
-					print(lines)
-					out_pal.writelines(lines)
-					out_pal.close()
-				size = 24, 24
-				master = Image.new(
-					mode='RGBA',
-					size=(24, 32),
-					color=(57,255,20,0))
-				folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
-				if not os.path.exists(folder_path):
-					os.mkdir(folder_path)
-				outfile = folder_path + '/icon_small.png'
-				if not os.path.exists(outfile):
-					im = Image.open(image_cropped)
-					im.thumbnail(size, Image.Resampling.LANCZOS)
-					master.paste(im, box=(0,4))
-					master.save(outfile, "PNG")
-					master = Image.open(outfile)
-					master = master.convert(
-						"P", palette=Image.ADAPTIVE, colors=15
-					)
-					master = move_palette_color(master, 15, 0)
-					master.save(outfile, "PNG")
-					subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
-					subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.pal')])
-					out_pal = open(outfile.replace('.png', '.pal'), 'r')
-					lines = out_pal.readlines()
-					out_pal = open(outfile.replace('.png', '.pal'), 'w')
-					lines[2] = '16\n'
-					lines.append('0 0 0\n')
-					out_pal.writelines(lines)
-					out_pal.close()
+						subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.pal')])
+						out_pal = open(outfile.replace('.png', '.pal'), 'r')
+						lines = out_pal.readlines()
+						out_pal = open(outfile.replace('.png', '.pal'), 'w')
+						lines[2] = '16\n'
+						lines.append('0 0 0\n')
+						out_pal.writelines(lines)
+						out_pal.close()
+					size = 24, 24
+					master = Image.new(
+						mode='RGBA',
+						size=(24, 32),
+						color=(57,255,20,0))
+					folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
+					if not os.path.exists(folder_path):
+						os.mkdir(folder_path)
+					outfile = folder_path + '/icon_small.png'
+					if not os.path.exists(outfile):
+						im = Image.open(image_cropped)
+						im.thumbnail(size, Image.Resampling.LANCZOS)
+						master.paste(im, box=(0,4))
+						master.save(outfile, "PNG")
+						master = Image.open(outfile)
+						master = master.convert(
+							"P", palette=Image.ADAPTIVE, colors=15
+						)
+						master = move_palette_color(master, 15, 0)
+						master.save(outfile, "PNG")
+						subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
+						subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.pal')])
+						out_pal = open(outfile.replace('.png', '.pal'), 'r')
+						lines = out_pal.readlines()
+						out_pal = open(outfile.replace('.png', '.pal'), 'w')
+						lines[2] = '16\n'
+						lines.append('0 0 0\n')
+						out_pal.writelines(lines)
+						out_pal.close()
 			card = data['name']
 			gCardInfo += ("\t[CARD_" + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + "] =\n"
 					+ "\t{\n"
