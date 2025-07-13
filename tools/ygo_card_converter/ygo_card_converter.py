@@ -18,6 +18,9 @@ Scripts_Write = False
 Item_Descs_Write = False
 YGO_Graphics_Write = False
 YGO_Write = False
+UI_Write = False
+Graphics_Rules_Write = False
+Card_Info_Write = True
 
 if ygoprodeck:
 	f = open("YGOProDeck_Card_Info.json", "w")
@@ -2163,14 +2166,16 @@ if YGO_Graphics_Write:
 	YGO_Graphics_C_Output.close()
 	print('src/ygo_graphics.c written')
 
-UI_Menu_Output = open('src/ui_menu.c', 'w')
-UI_Menu_Output.write(UI_Menu)
-UI_Menu_Output.close()
-print('src/ui_menu.c written')
-Graphics_File_Rules_Output = open('graphics_file_rules.mk', 'w')
-Graphics_File_Rules_Output.write(Graphics_File_Rules)
-Graphics_File_Rules_Output.close()
-print('graphics_file_rules.mk written')
+if UI_Write:
+	UI_Menu_Output = open('src/ui_menu.c', 'w')
+	UI_Menu_Output.write(UI_Menu)
+	UI_Menu_Output.close()
+	print('src/ui_menu.c written')
+if Graphics_Rules_Write:
+	Graphics_File_Rules_Output = open('graphics_file_rules.mk', 'w')
+	Graphics_File_Rules_Output.write(Graphics_File_Rules)
+	Graphics_File_Rules_Output.close()
+	print('graphics_file_rules.mk written')
 
 if Scripts_Write:
 	Scripts += '\n'
@@ -2274,84 +2279,106 @@ if Scripts_Write:
 	Scripts_Output.close()
 	print('data/scripts/scripts.inc written')
 
-# Image conversion
-card_counter = 1
-for card_name in tqdm(card_names):
-	print(card_name)
-	for data in card_info_data['data']:
-		if card_name == data['name']:
-			for card_image_cropped in data['card_images']:
-				card_id = str(card_image_cropped['id'])
-				image_cropped_url = 'https://images.ygoprodeck.com/images/cards/' + card_id + '.jpg'
-				image_cropped_url_cropped = 'https://images.ygoprodeck.com/images/cards_cropped/' + card_id + '.jpg'
-				res = requests.get(image_cropped_url)
-				image = 'Artwork/' + card_name + '_' + card_id + '.jpg'
-				if not os.path.exists(image):
-					try:
-						with open(image, 'wb') as file:
+if Card_Info_Write:
+	# Image conversion
+	card_counter = 1
+	for card_name in tqdm(card_names):
+		print(card_name)
+		for data in card_info_data['data']:
+			if card_name == data['name']:
+				for card_image_cropped in data['card_images']:
+					card_id = str(card_image_cropped['id'])
+					image_cropped_url = 'https://images.ygoprodeck.com/images/cards/' + card_id + '.jpg'
+					image_cropped_url_cropped = 'https://images.ygoprodeck.com/images/cards_cropped/' + card_id + '.jpg'
+					res = requests.get(image_cropped_url)
+					image = 'Artwork/' + card_name + '_' + card_id + '.jpg'
+					if not os.path.exists(image):
+						try:
+							with open(image, 'wb') as file:
+								file.write(res.content)
+								print(card_name + ' image written')
+						except:
+							continue
+					res = requests.get(image_cropped_url_cropped)
+					image_cropped = 'Artwork/' + card_name + '_' + card_id + '_Cropped.jpg'
+					if not os.path.exists(image_cropped):
+						with open(image_cropped, 'wb') as file:
 							file.write(res.content)
-							print(card_name + ' image written')
-					except:
-						continue
-				res = requests.get(image_cropped_url_cropped)
-				image_cropped = 'Artwork/' + card_name + '_' + card_id + '_Cropped.jpg'
-				if not os.path.exists(image_cropped):
-					with open(image_cropped, 'wb') as file:
-						file.write(res.content)
-						print(card_name + ' art written')
-				folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
-				if not os.path.exists(folder_path):
-					os.mkdir(folder_path)
-					# Special format used by GBA for 80x80 sprite stitch
-					outfile = folder_path + '/pic_large_big.png'
-					if not os.path.exists(outfile):
-						size = 80, 80
-						im = Image.open(image_cropped)
-						im.thumbnail(size, Image.Resampling.LANCZOS)
-						im = im.convert(
-							"P", palette=Image.ADAPTIVE, colors=63
-						)
-						im = move_palette_color(im, 63, 0)
-						im.save(outfile, "PNG")
-						pillow_width, pillow_height = im.size
-						if pillow_width != 80 or pillow_height != 80:
-							master = Image.new(
-								mode='RGBA',
-								size=(80, 80),
-								color=(57,255,20,0))
-							master.paste(im, box=((80 - pillow_width) // 2,(80 - pillow_height) // 2))
-							master.save(outfile, "PNG")
-							master = Image.open(outfile)
-							master = master.convert(
-								"P", palette=Image.ADAPTIVE, colors=63
-							)
-							master = move_palette_color(master, 63, 0)
-							master.save(outfile, "PNG")
-							subprocess.run(['./magick', outfile, '-colors', "64", '-define', 'png:exclude-chunk=bKGD', outfile])
-						subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.8bpp')])
-						subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.pal')])
-						subprocess.run(['../gbagfx/gbagfx', outfile.replace('.png', '.8bpp'), outfile.replace('.png', '.8bpp')])
-						subprocess.run(['../gbagfx/gbagfx', outfile.replace('.png', '.8bpp'), outfile.replace('.png', '.png'), '-palette', outfile.replace('.png', '.pal'), '-mwidth', '10'])
-					size = 32, 32
+							print(card_name + ' art written')
 					folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
 					if not os.path.exists(folder_path):
 						os.mkdir(folder_path)
-					outfile = folder_path + '/pic_small.png'
-					if not os.path.exists(outfile):
-						im = Image.open(image_cropped)
-						im.thumbnail(size, Image.Resampling.LANCZOS)
-						im = im.convert(
-							"P", palette=Image.ADAPTIVE, colors=15
-						)
-						im = move_palette_color(im, 15, 0)
-						im.save(outfile, "PNG")
-						pillow_width, pillow_height = im.size
-						if pillow_width != 32 or pillow_height != 32:
-							master = Image.new(
-								mode='RGBA',
-								size=(32, 32),
-								color=(57,255,20,0))
-							master.paste(im, box=((32 - pillow_width) // 2,(32 - pillow_height) // 2))
+						# Special format used by GBA for 80x80 sprite stitch
+						outfile = folder_path + '/pic_large_big.png'
+						if not os.path.exists(outfile):
+							size = 80, 80
+							im = Image.open(image_cropped)
+							im.thumbnail(size, Image.Resampling.LANCZOS)
+							im = im.convert(
+								"P", palette=Image.ADAPTIVE, colors=63
+							)
+							im = move_palette_color(im, 63, 0)
+							im.save(outfile, "PNG")
+							pillow_width, pillow_height = im.size
+							if pillow_width != 80 or pillow_height != 80:
+								master = Image.new(
+									mode='RGBA',
+									size=(80, 80),
+									color=(57,255,20,0))
+								master.paste(im, box=((80 - pillow_width) // 2,(80 - pillow_height) // 2))
+								master.save(outfile, "PNG")
+								master = Image.open(outfile)
+								master = master.convert(
+									"P", palette=Image.ADAPTIVE, colors=63
+								)
+								master = move_palette_color(master, 63, 0)
+								master.save(outfile, "PNG")
+								subprocess.run(['./magick', outfile, '-colors', "64", '-define', 'png:exclude-chunk=bKGD', outfile])
+							subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.8bpp')])
+							subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.pal')])
+							subprocess.run(['../gbagfx/gbagfx', outfile.replace('.png', '.8bpp'), outfile.replace('.png', '.8bpp')])
+							subprocess.run(['../gbagfx/gbagfx', outfile.replace('.png', '.8bpp'), outfile.replace('.png', '.png'), '-palette', outfile.replace('.png', '.pal'), '-mwidth', '10'])
+						size = 32, 32
+						folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
+						if not os.path.exists(folder_path):
+							os.mkdir(folder_path)
+						outfile = folder_path + '/pic_small.png'
+						if not os.path.exists(outfile):
+							im = Image.open(image_cropped)
+							im.thumbnail(size, Image.Resampling.LANCZOS)
+							im = im.convert(
+								"P", palette=Image.ADAPTIVE, colors=15
+							)
+							im = move_palette_color(im, 15, 0)
+							im.save(outfile, "PNG")
+							pillow_width, pillow_height = im.size
+							if pillow_width != 32 or pillow_height != 32:
+								master = Image.new(
+									mode='RGBA',
+									size=(32, 32),
+									color=(57,255,20,0))
+								master.paste(im, box=((32 - pillow_width) // 2,(32 - pillow_height) // 2))
+								master.save(outfile, "PNG")
+								master = Image.open(outfile)
+								master = master.convert(
+									"P", palette=Image.ADAPTIVE, colors=15
+								)
+								master = move_palette_color(master, 15, 0)
+								master.save(outfile, "PNG")
+								subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
+						size = 16, 16
+						master = Image.new(
+							mode='RGBA',
+							size=(16, 24),
+							color=(57,255,20,0))
+						folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
+						if not os.path.exists(folder_path):
+							os.mkdir(folder_path)
+						outfile = folder_path + '/icon_tiny.png'
+						if not os.path.exists(outfile):
+							im = Image.open(image_cropped)
+							im.thumbnail(size, Image.Resampling.LANCZOS)
+							master.paste(im, box=(0,4))
 							master.save(outfile, "PNG")
 							master = Image.open(outfile)
 							master = master.convert(
@@ -2360,330 +2387,309 @@ for card_name in tqdm(card_names):
 							master = move_palette_color(master, 15, 0)
 							master.save(outfile, "PNG")
 							subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
-					size = 16, 16
-					master = Image.new(
-						mode='RGBA',
-						size=(16, 24),
-						color=(57,255,20,0))
-					folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
-					if not os.path.exists(folder_path):
-						os.mkdir(folder_path)
-					outfile = folder_path + '/icon_tiny.png'
-					if not os.path.exists(outfile):
-						im = Image.open(image_cropped)
-						im.thumbnail(size, Image.Resampling.LANCZOS)
-						master.paste(im, box=(0,4))
-						master.save(outfile, "PNG")
-						master = Image.open(outfile)
-						master = master.convert(
-							"P", palette=Image.ADAPTIVE, colors=15
-						)
-						master = move_palette_color(master, 15, 0)
-						master.save(outfile, "PNG")
-						subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
-						subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.pal')])
-						out_pal = open(outfile.replace('.png', '.pal'), 'r')
-						lines = out_pal.readlines()
-						out_pal = open(outfile.replace('.png', '.pal'), 'w')
-						lines[2] = '16\n'
-						lines.append('0 0 0\n')
-						out_pal.writelines(lines)
-						out_pal.close()
-					size = 24, 24
-					master = Image.new(
-						mode='RGBA',
-						size=(24, 32),
-						color=(57,255,20,0))
-					folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
-					if not os.path.exists(folder_path):
-						os.mkdir(folder_path)
-					outfile = folder_path + '/icon_small.png'
-					if not os.path.exists(outfile):
-						im = Image.open(image_cropped)
-						im.thumbnail(size, Image.Resampling.LANCZOS)
-						master.paste(im, box=(0,4))
-						master.save(outfile, "PNG")
-						master = Image.open(outfile)
-						master = master.convert(
-							"P", palette=Image.ADAPTIVE, colors=15
-						)
-						master = move_palette_color(master, 15, 0)
-						master.save(outfile, "PNG")
-						subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
-						subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.pal')])
-						out_pal = open(outfile.replace('.png', '.pal'), 'r')
-						lines = out_pal.readlines()
-						out_pal = open(outfile.replace('.png', '.pal'), 'w')
-						lines[2] = '16\n'
-						lines.append('0 0 0\n')
-						out_pal.writelines(lines)
-						out_pal.close()
-			card = data['name']
-			gCardInfo += ("\t[CARD_" + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + "] =\n"
-					+ "\t{\n"
-					+ '\t\t.name = gCardName_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
-					+ '\t\t.nameShort = gCardNameShort_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
-					+ '\t\t.nameShortBag = gCardNameShortBag_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
-					+ '\t\t.description = gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
-					+ '\t\t.password = _("' + str(data['id']) + '"),\n'
-					+ '\t\t.pic = gCardPicLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '_Big,\n'
-					+ '\t\t.pal = gCardPalLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
-					+ '\t\t.iconSmall = gCardIconSmall_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
-					+ '\t\t.palIconSmall = gCardIconSmallPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
-					+ '\t\t.iconTiny = gCardIconTiny_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
-					+ '\t\t.palIconTiny = gCardIconTinyPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
-					+ '\t\t.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},\n'
-					+ ("\t\t.type = TYPE_" + re.sub(r'\W+', '_', data['type']).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ",\n"))
-			try:
-				gCardInfo += ("\t\t.attribute = ATTRIBUTE_" + data['attribute'] + ",\n"
-						+ "\t\t.level = " + str(data['level']) + ",\n"
-						+ "\t\t.atk = " + str(int(data['atk']/10)) + ",\n"
-						+ "\t\t.def = " + str(int(data['def']/10)) + ",\n"
-						+ "\t\t.race = RACE_" + re.sub(r'\W+', '_', data['race']).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ",\n")
-			except:
-				gCardInfo += ("\t\t.attribute = ATTRIBUTE_NONE,\n"
-						+ "\t\t.level = 0,\n"
-						+  "\t\t.atk = 0,\n"
-						+ "\t\t.def = 0,\n"
-						+ "\t\t.race = RACE_NONE,\n")
-			gCardInfo += ("\t\t.id = " + str(data['misc_info'][0]['konami_id']) + ",\n"
-						+ "\t\t.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},\n")
-			with open('FL.json', 'r') as f:
-				data_ = json.load(f)
-				for card_ in data_:
-					if card_['Card'] == card and card_['Format'] == 'Yugi-Kaiba':
-						gCardInfo += "\t\t.priceYK = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banYK = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banYK = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'Critter':
-						gCardInfo += "\t\t.priceCritter = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banCritter = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banCritter = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'Treasure':
-						gCardInfo += "\t\t.priceTreasure = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banTreasure = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banTreasure = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'Imperial':
-						print(card_['Usage (Weighted)'])
-						gCardInfo += "\t\t.priceImperial = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banImperial = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banImperial = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'Android':
-						gCardInfo += "\t\t.priceAndroid = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banAndroid = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banAndroid = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'Joey-Pegasus':
-						gCardInfo += "\t\t.priceJoeyPegasus = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banJoeyPegasus = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banJoeyPegasus = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'Fiber':
-						gCardInfo += "\t\t.priceFiber = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banFiber = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banFiber = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'Yata':
-						gCardInfo += "\t\t.priceYata = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banYata = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banYata = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'Scientist':
-						gCardInfo += "\t\t.priceScientist = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banScientist = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banScientist = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'Vampire':
-						gCardInfo += "\t\t.priceVampire = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banVampire = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banVampire = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'Chaos':
-						gCardInfo += "\t\t.priceChaos = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banChaos = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banChaos = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'Warrior':
-						gCardInfo += "\t\t.priceWarrior = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banWarrior = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banWarrior = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'Goat':
-						gCardInfo += "\t\t.priceGoat = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banGoat = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banGoat = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'Cyber':
-						gCardInfo += "\t\t.priceCyber = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banCyber = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banCyber = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'Reaper':
-						gCardInfo += "\t\t.priceReaper = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banReaper = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banReaper = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'Chaos Return':
-						gCardInfo += "\t\t.priceChaosReturn = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banChaosReturn = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banChaosReturn = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'Demise':
-						gCardInfo += "\t\t.priceDemise = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banDemise = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banDemise = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'Trooper':
-						gCardInfo += "\t\t.priceTrooper = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banTrooper = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banTrooper = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'Zombie':
-						gCardInfo += "\t\t.priceZombie = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banZombie = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banZombie = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'Perfect Circle':
-						gCardInfo += "\t\t.pricePerfectCircle = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banPerfectCircle = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banPerfectCircle = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'DAD Return':
-						gCardInfo += "\t\t.priceDADReturn = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banDADReturn = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banDADReturn = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'Gladiator':
-						gCardInfo += "\t\t.priceGladiator = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banGladiator = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banGladiator = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'TeleDAD':
-						gCardInfo += "\t\t.priceTeleDAD = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banTeleDAD = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banTeleDAD = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'Cat':
-						gCardInfo += "\t\t.priceCat = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banCat = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banCat = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'Edison':
-						gCardInfo += "\t\t.priceEdison = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banEdison = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banEdison = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'Frog':
-						gCardInfo += "\t\t.priceFrog = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banFrog = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banFrog = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'Starstrike':
-						gCardInfo += "\t\t.priceStarstrike = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banStarstrike = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banStarstrike = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'Tengu':
-						gCardInfo += "\t\t.priceTengu = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banTengu = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banTengu = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'Dino Rabbit':
-						gCardInfo += "\t\t.priceDinoRabbit = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banDinoRabbit = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banDinoRabbit = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'Wind-Up':
-						gCardInfo += "\t\t.priceWindUp = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banWindUp = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banWindUp = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'Miami':
-						gCardInfo += "\t\t.priceMiami = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banMiami = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banMiami = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'Meadowlands':
-						gCardInfo += "\t\t.priceMeadowlands = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banMeadowlands = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banMeadowlands = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'Baby Ruler':
-						gCardInfo += "\t\t.priceBabyRuler = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banBabyRuler = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banBabyRuler = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'Ravine Ruler':
-						gCardInfo += "\t\t.priceRavineRuler = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banRavineRuler = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banRavineRuler = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'Fire-Water':
-						gCardInfo += "\t\t.priceFireWater = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banFireWater = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banFireWater = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'HAT':
-						gCardInfo += "\t\t.priceHAT = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banHAT = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banHAT = 2,\n"
-					if card_['Card'] == card and card_['Format'] == 'Vegas':
-						gCardInfo += "\t\t.priceVegas = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
-						if (card_['Banlist'] == 'Limited'):
-							gCardInfo += "\t\t.banVegas = 1,\n"
-						elif (card_['Banlist'] == 'Semi-Limited'):
-							gCardInfo += "\t\t.banVegas = 2,\n"
-			if card in wct06_ranks:
-						gCardInfo += "\t\t.priceWCT06 = " + str((wct06_ranks[card]) * 50) + ",\n"
-			gCardInfo += ("\t\t.priceCustom = 0,\n"
-					+ "\t\t.priceVendor1 = 0,\n"
-					+ "\t\t.priceVendor2 = 0,\n"
-					+ "\t\t.priceVendor3 = 0,\n"
-					+ '\t},\n')
-			card_counter += 1
+							subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.pal')])
+							out_pal = open(outfile.replace('.png', '.pal'), 'r')
+							lines = out_pal.readlines()
+							out_pal = open(outfile.replace('.png', '.pal'), 'w')
+							lines[2] = '16\n'
+							lines.append('0 0 0\n')
+							out_pal.writelines(lines)
+							out_pal.close()
+						size = 24, 24
+						master = Image.new(
+							mode='RGBA',
+							size=(24, 32),
+							color=(57,255,20,0))
+						folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
+						if not os.path.exists(folder_path):
+							os.mkdir(folder_path)
+						outfile = folder_path + '/icon_small.png'
+						if not os.path.exists(outfile):
+							im = Image.open(image_cropped)
+							im.thumbnail(size, Image.Resampling.LANCZOS)
+							master.paste(im, box=(0,4))
+							master.save(outfile, "PNG")
+							master = Image.open(outfile)
+							master = master.convert(
+								"P", palette=Image.ADAPTIVE, colors=15
+							)
+							master = move_palette_color(master, 15, 0)
+							master.save(outfile, "PNG")
+							subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
+							subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.pal')])
+							out_pal = open(outfile.replace('.png', '.pal'), 'r')
+							lines = out_pal.readlines()
+							out_pal = open(outfile.replace('.png', '.pal'), 'w')
+							lines[2] = '16\n'
+							lines.append('0 0 0\n')
+							out_pal.writelines(lines)
+							out_pal.close()
+				card = data['name']
+				gCardInfo += ("\t[CARD_" + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + "] =\n"
+						+ "\t{\n"
+						+ '\t\t.name = gCardName_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
+						+ '\t\t.nameShort = gCardNameShort_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
+						+ '\t\t.nameShortBag = gCardNameShortBag_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
+						+ '\t\t.description = gCardDescription_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
+						+ '\t\t.password = _("' + str(data['id']) + '"),\n'
+						+ '\t\t.pic = gCardPicLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + '_Big,\n'
+						+ '\t\t.pal = gCardPalLarge_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
+						+ '\t\t.iconSmall = gCardIconSmall_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
+						+ '\t\t.palIconSmall = gCardIconSmallPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
+						+ '\t\t.iconTiny = gCardIconTiny_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
+						+ '\t\t.palIconTiny = gCardIconTinyPalette_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
+						+ '\t\t.effects = {EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE, EFFECT_NONE},\n'
+						+ ("\t\t.type = TYPE_" + re.sub(r'\W+', '_', data['type']).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ",\n"))
+				try:
+					gCardInfo += ("\t\t.attribute = ATTRIBUTE_" + data['attribute'] + ",\n"
+							+ "\t\t.level = " + str(data['level']) + ",\n"
+							+ "\t\t.atk = " + str(int(data['atk']/10)) + ",\n"
+							+ "\t\t.def = " + str(int(data['def']/10)) + ",\n"
+							+ "\t\t.race = RACE_" + re.sub(r'\W+', '_', data['race']).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + ",\n")
+				except:
+					gCardInfo += ("\t\t.attribute = ATTRIBUTE_NONE,\n"
+							+ "\t\t.level = 0,\n"
+							+  "\t\t.atk = 0,\n"
+							+ "\t\t.def = 0,\n"
+							+ "\t\t.race = RACE_NONE,\n")
+				gCardInfo += ("\t\t.id = " + str(data['misc_info'][0]['konami_id']) + ",\n"
+							+ "\t\t.archetypesSeries = {ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE, ARCHETYPE_SERIES_NONE},\n")
+				with open('FL.json', 'r') as f:
+					data_ = json.load(f)
+					for card_ in data_:
+						if card_['Card'] == card and card_['Format'] == 'Yugi-Kaiba':
+							gCardInfo += "\t\t.priceYK = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banYK = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banYK = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'Critter':
+							gCardInfo += "\t\t.priceCritter = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banCritter = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banCritter = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'Treasure':
+							gCardInfo += "\t\t.priceTreasure = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banTreasure = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banTreasure = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'Imperial':
+							print(card_['Usage (Weighted)'])
+							gCardInfo += "\t\t.priceImperial = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banImperial = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banImperial = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'Android':
+							gCardInfo += "\t\t.priceAndroid = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banAndroid = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banAndroid = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'Joey-Pegasus':
+							gCardInfo += "\t\t.priceJoeyPegasus = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banJoeyPegasus = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banJoeyPegasus = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'Fiber':
+							gCardInfo += "\t\t.priceFiber = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banFiber = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banFiber = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'Yata':
+							gCardInfo += "\t\t.priceYata = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banYata = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banYata = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'Scientist':
+							gCardInfo += "\t\t.priceScientist = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banScientist = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banScientist = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'Vampire':
+							gCardInfo += "\t\t.priceVampire = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banVampire = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banVampire = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'Chaos':
+							gCardInfo += "\t\t.priceChaos = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banChaos = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banChaos = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'Warrior':
+							gCardInfo += "\t\t.priceWarrior = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banWarrior = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banWarrior = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'Goat':
+							gCardInfo += "\t\t.priceGoat = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banGoat = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banGoat = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'Cyber':
+							gCardInfo += "\t\t.priceCyber = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banCyber = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banCyber = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'Reaper':
+							gCardInfo += "\t\t.priceReaper = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banReaper = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banReaper = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'Chaos Return':
+							gCardInfo += "\t\t.priceChaosReturn = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banChaosReturn = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banChaosReturn = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'Demise':
+							gCardInfo += "\t\t.priceDemise = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banDemise = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banDemise = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'Trooper':
+							gCardInfo += "\t\t.priceTrooper = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banTrooper = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banTrooper = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'Zombie':
+							gCardInfo += "\t\t.priceZombie = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banZombie = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banZombie = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'Perfect Circle':
+							gCardInfo += "\t\t.pricePerfectCircle = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banPerfectCircle = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banPerfectCircle = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'DAD Return':
+							gCardInfo += "\t\t.priceDADReturn = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banDADReturn = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banDADReturn = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'Gladiator':
+							gCardInfo += "\t\t.priceGladiator = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banGladiator = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banGladiator = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'TeleDAD':
+							gCardInfo += "\t\t.priceTeleDAD = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banTeleDAD = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banTeleDAD = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'Cat':
+							gCardInfo += "\t\t.priceCat = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banCat = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banCat = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'Edison':
+							gCardInfo += "\t\t.priceEdison = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banEdison = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banEdison = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'Frog':
+							gCardInfo += "\t\t.priceFrog = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banFrog = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banFrog = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'Starstrike':
+							gCardInfo += "\t\t.priceStarstrike = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banStarstrike = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banStarstrike = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'Tengu':
+							gCardInfo += "\t\t.priceTengu = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banTengu = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banTengu = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'Dino Rabbit':
+							gCardInfo += "\t\t.priceDinoRabbit = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banDinoRabbit = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banDinoRabbit = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'Wind-Up':
+							gCardInfo += "\t\t.priceWindUp = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banWindUp = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banWindUp = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'Miami':
+							gCardInfo += "\t\t.priceMiami = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banMiami = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banMiami = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'Meadowlands':
+							gCardInfo += "\t\t.priceMeadowlands = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banMeadowlands = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banMeadowlands = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'Baby Ruler':
+							gCardInfo += "\t\t.priceBabyRuler = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banBabyRuler = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banBabyRuler = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'Ravine Ruler':
+							gCardInfo += "\t\t.priceRavineRuler = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banRavineRuler = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banRavineRuler = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'Fire-Water':
+							gCardInfo += "\t\t.priceFireWater = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banFireWater = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banFireWater = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'HAT':
+							gCardInfo += "\t\t.priceHAT = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banHAT = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banHAT = 2,\n"
+						if card_['Card'] == card and card_['Format'] == 'Vegas':
+							gCardInfo += "\t\t.priceVegas = " + str(round((card_['Usage (Weighted)']/highest_usage[card_['Format']]) * 1000)) + ",\n"
+							if (card_['Banlist'] == 'Limited'):
+								gCardInfo += "\t\t.banVegas = 1,\n"
+							elif (card_['Banlist'] == 'Semi-Limited'):
+								gCardInfo += "\t\t.banVegas = 2,\n"
+				if card in wct06_ranks:
+							gCardInfo += "\t\t.priceWCT06 = " + str((wct06_ranks[card]) * 50) + ",\n"
+				gCardInfo += ("\t\t.priceCustom = 0,\n"
+						+ "\t\t.priceVendor1 = 0,\n"
+						+ "\t\t.priceVendor2 = 0,\n"
+						+ "\t\t.priceVendor3 = 0,\n"
+						+ '\t},\n')
+				card_counter += 1
 
-gCardInfo_Output = open('src/data/ygo/card_info.h', 'w')
-gCardInfo_Output.write(gCardInfo)
-gCardInfo_Output.close()
-print('src/data/ygo/card_info.h written')
+	gCardInfo_Output = open('src/data/ygo/card_info.h', 'w')
+	gCardInfo_Output.write(gCardInfo)
+	gCardInfo_Output.close()
+	print('src/data/ygo/card_info.h written')
