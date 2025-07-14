@@ -2281,7 +2281,6 @@ if Scripts_Write:
 	print('data/scripts/scripts.inc written')
 
 if Card_Info_Write:
-	# Image conversion
 	card_counter = 1
 	for card in tqdm(card_names):
 		print(card_name)
