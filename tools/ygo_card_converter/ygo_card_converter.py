@@ -9,7 +9,7 @@ from tqdm import tqdm
 
 ygoprodeck = False
 bastion = False
-FL = True
+FL = False
 set_icons = False
 YGO_C_Write = False
 Items_Write = False
@@ -20,7 +20,8 @@ YGO_Graphics_Write = False
 YGO_Write = False
 UI_Write = False
 Graphics_Rules_Write = False
-Card_Info_Write = True
+Card_Info_Write = False
+Graphics_Write = True
 
 if ygoprodeck:
 	f = open("YGOProDeck_Card_Info.json", "w")
@@ -2282,151 +2283,10 @@ if Scripts_Write:
 if Card_Info_Write:
 	# Image conversion
 	card_counter = 1
-	for card_name in tqdm(card_names):
+	for card in tqdm(card_names):
 		print(card_name)
 		for data in card_info_data['data']:
-			if card_name == data['name']:
-				for card_image_cropped in data['card_images']:
-					card_id = str(card_image_cropped['id'])
-					image_cropped_url = 'https://images.ygoprodeck.com/images/cards/' + card_id + '.jpg'
-					image_cropped_url_cropped = 'https://images.ygoprodeck.com/images/cards_cropped/' + card_id + '.jpg'
-					res = requests.get(image_cropped_url)
-					image = 'Artwork/' + card_name + '_' + card_id + '.jpg'
-					if not os.path.exists(image):
-						try:
-							with open(image, 'wb') as file:
-								file.write(res.content)
-								print(card_name + ' image written')
-						except:
-							continue
-					res = requests.get(image_cropped_url_cropped)
-					image_cropped = 'Artwork/' + card_name + '_' + card_id + '_Cropped.jpg'
-					if not os.path.exists(image_cropped):
-						with open(image_cropped, 'wb') as file:
-							file.write(res.content)
-							print(card_name + ' art written')
-					folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
-					if not os.path.exists(folder_path):
-						os.mkdir(folder_path)
-						# Special format used by GBA for 80x80 sprite stitch
-						outfile = folder_path + '/pic_large_big.png'
-						if not os.path.exists(outfile):
-							size = 80, 80
-							im = Image.open(image_cropped)
-							im.thumbnail(size, Image.Resampling.LANCZOS)
-							im = im.convert(
-								"P", palette=Image.ADAPTIVE, colors=63
-							)
-							im = move_palette_color(im, 63, 0)
-							im.save(outfile, "PNG")
-							pillow_width, pillow_height = im.size
-							if pillow_width != 80 or pillow_height != 80:
-								master = Image.new(
-									mode='RGBA',
-									size=(80, 80),
-									color=(57,255,20,0))
-								master.paste(im, box=((80 - pillow_width) // 2,(80 - pillow_height) // 2))
-								master.save(outfile, "PNG")
-								master = Image.open(outfile)
-								master = master.convert(
-									"P", palette=Image.ADAPTIVE, colors=63
-								)
-								master = move_palette_color(master, 63, 0)
-								master.save(outfile, "PNG")
-								subprocess.run(['./magick', outfile, '-colors', "64", '-define', 'png:exclude-chunk=bKGD', outfile])
-							subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.8bpp')])
-							subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.pal')])
-							subprocess.run(['../gbagfx/gbagfx', outfile.replace('.png', '.8bpp'), outfile.replace('.png', '.8bpp')])
-							subprocess.run(['../gbagfx/gbagfx', outfile.replace('.png', '.8bpp'), outfile.replace('.png', '.png'), '-palette', outfile.replace('.png', '.pal'), '-mwidth', '10'])
-						size = 32, 32
-						folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
-						if not os.path.exists(folder_path):
-							os.mkdir(folder_path)
-						outfile = folder_path + '/pic_small.png'
-						if not os.path.exists(outfile):
-							im = Image.open(image_cropped)
-							im.thumbnail(size, Image.Resampling.LANCZOS)
-							im = im.convert(
-								"P", palette=Image.ADAPTIVE, colors=15
-							)
-							im = move_palette_color(im, 15, 0)
-							im.save(outfile, "PNG")
-							pillow_width, pillow_height = im.size
-							if pillow_width != 32 or pillow_height != 32:
-								master = Image.new(
-									mode='RGBA',
-									size=(32, 32),
-									color=(57,255,20,0))
-								master.paste(im, box=((32 - pillow_width) // 2,(32 - pillow_height) // 2))
-								master.save(outfile, "PNG")
-								master = Image.open(outfile)
-								master = master.convert(
-									"P", palette=Image.ADAPTIVE, colors=15
-								)
-								master = move_palette_color(master, 15, 0)
-								master.save(outfile, "PNG")
-								subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
-						size = 16, 16
-						master = Image.new(
-							mode='RGBA',
-							size=(16, 24),
-							color=(57,255,20,0))
-						folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
-						if not os.path.exists(folder_path):
-							os.mkdir(folder_path)
-						outfile = folder_path + '/icon_tiny.png'
-						if not os.path.exists(outfile):
-							im = Image.open(image_cropped)
-							im.thumbnail(size, Image.Resampling.LANCZOS)
-							master.paste(im, box=(0,4))
-							master.save(outfile, "PNG")
-							subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
-							master = Image.open(outfile)
-							master = master.convert("P")
-							master = move_palette_color(master, 0, 0)
-							master.save(outfile, "PNG")
-							subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.pal')])
-							out_pal = open(outfile.replace('.png', '.pal'), 'r')
-							lines = out_pal.readlines()
-							out_pal = open(outfile.replace('.png', '.pal'), 'w')
-							lines[2] = '16\n'
-							for num_times in range(19 - len(lines)):
-								lines.append('0 0 0\n')
-							for line_index in range(len(lines)):
-								lines[line_index] = lines[line_index].replace('\n', '\r\n')
-							out_pal.writelines(lines)
-							out_pal.close()
-						size = 24, 24
-						master = Image.new(
-							mode='RGBA',
-							size=(24, 32),
-							color=(57,255,20,0))
-						folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
-						if not os.path.exists(folder_path):
-							os.mkdir(folder_path)
-						outfile = folder_path + '/icon_small.png'
-						if not os.path.exists(outfile):
-							im = Image.open(image_cropped)
-							im.thumbnail(size, Image.Resampling.LANCZOS)
-							master.paste(im, box=(0,4))
-							master.save(outfile, "PNG")
-							subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
-							master = Image.open(outfile)
-							master = master.convert("P")
-							master = move_palette_color(master, 0, 0)
-							master.save(outfile, "PNG")
-							subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.pal')])
-							out_pal = open(outfile.replace('.png', '.pal'), 'r')
-							lines = out_pal.readlines()
-							out_pal = open(outfile.replace('.png', '.pal'), 'w')
-							lines[2] = '16\n'
-							for num_times in range(19 - len(lines)):
-								lines.append('0 0 0\n')
-							for line_index in range(len(lines)):
-								lines[line_index] = lines[line_index].replace('\n', '\r\n')
-							out_pal.writelines(lines)
-							out_pal.close()
-				card = data['name']
+			if card == data['name']:
 				gCardInfo += ("\t[CARD_" + re.sub(r'\W+', '_', data['name']).replace('__', '_').replace('__', '_').replace('★', ' ').replace('ū', 'u').replace('ō', 'o').replace('☆', ' ').replace('"', '').upper() + "] =\n"
 						+ "\t{\n"
 						+ '\t\t.name = gCardName_' + re.sub(r'[^a-zA-Z0-9]', '', data['name']) + ',\n'
@@ -2695,3 +2555,151 @@ if Card_Info_Write:
 	gCardInfo_Output.write(gCardInfo)
 	gCardInfo_Output.close()
 	print('src/data/ygo/card_info.h written')
+
+if Graphics_Write:
+	# Image conversion
+	card_counter = 1
+	for card_name in tqdm(card_names):
+		print(card_name)
+		for data in card_info_data['data']:
+			if card_name == data['name']:
+				for card_image_cropped in data['card_images']:
+					card_id = str(card_image_cropped['id'])
+					image_cropped_url = 'https://images.ygoprodeck.com/images/cards/' + card_id + '.jpg'
+					image_cropped_url_cropped = 'https://images.ygoprodeck.com/images/cards_cropped/' + card_id + '.jpg'
+					res = requests.get(image_cropped_url)
+					image = 'Artwork/' + card_name + '_' + card_id + '.jpg'
+					if not os.path.exists(image):
+						try:
+							with open(image, 'wb') as file:
+								file.write(res.content)
+								print(card_name + ' image written')
+						except:
+							continue
+					res = requests.get(image_cropped_url_cropped)
+					image_cropped = 'Artwork/' + card_name + '_' + card_id + '_Cropped.jpg'
+					if not os.path.exists(image_cropped):
+						with open(image_cropped, 'wb') as file:
+							file.write(res.content)
+							print(card_name + ' art written')
+					folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
+					if not os.path.exists(folder_path):
+						os.mkdir(folder_path)
+						# Special format used by GBA for 80x80 sprite stitch
+						outfile = folder_path + '/pic_large_big.png'
+						if not os.path.exists(outfile):
+							size = 80, 80
+							im = Image.open(image_cropped)
+							im.thumbnail(size, Image.Resampling.LANCZOS)
+							im = im.convert(
+								"P", palette=Image.ADAPTIVE, colors=63
+							)
+							im = move_palette_color(im, 63, 0)
+							im.save(outfile, "PNG")
+							pillow_width, pillow_height = im.size
+							if pillow_width != 80 or pillow_height != 80:
+								master = Image.new(
+									mode='RGBA',
+									size=(80, 80),
+									color=(57,255,20,0))
+								master.paste(im, box=((80 - pillow_width) // 2,(80 - pillow_height) // 2))
+								master.save(outfile, "PNG")
+								master = Image.open(outfile)
+								master = master.convert(
+									"P", palette=Image.ADAPTIVE, colors=63
+								)
+								master = move_palette_color(master, 63, 0)
+								master.save(outfile, "PNG")
+								subprocess.run(['./magick', outfile, '-colors', "64", '-define', 'png:exclude-chunk=bKGD', outfile])
+							subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.8bpp')])
+							subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.pal')])
+							subprocess.run(['../gbagfx/gbagfx', outfile.replace('.png', '.8bpp'), outfile.replace('.png', '.8bpp')])
+							subprocess.run(['../gbagfx/gbagfx', outfile.replace('.png', '.8bpp'), outfile.replace('.png', '.png'), '-palette', outfile.replace('.png', '.pal'), '-mwidth', '10'])
+						size = 32, 32
+						folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
+						if not os.path.exists(folder_path):
+							os.mkdir(folder_path)
+						outfile = folder_path + '/pic_small.png'
+						if not os.path.exists(outfile):
+							im = Image.open(image_cropped)
+							im.thumbnail(size, Image.Resampling.LANCZOS)
+							im = im.convert(
+								"P", palette=Image.ADAPTIVE, colors=15
+							)
+							im = move_palette_color(im, 15, 0)
+							im.save(outfile, "PNG")
+							pillow_width, pillow_height = im.size
+							if pillow_width != 32 or pillow_height != 32:
+								master = Image.new(
+									mode='RGBA',
+									size=(32, 32),
+									color=(57,255,20,0))
+								master.paste(im, box=((32 - pillow_width) // 2,(32 - pillow_height) // 2))
+								master.save(outfile, "PNG")
+								master = Image.open(outfile)
+								master = master.convert(
+									"P", palette=Image.ADAPTIVE, colors=15
+								)
+								master = move_palette_color(master, 15, 0)
+								master.save(outfile, "PNG")
+								subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
+						size = 16, 16
+						master = Image.new(
+							mode='RGBA',
+							size=(16, 24),
+							color=(57,255,20,0))
+						folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
+						if not os.path.exists(folder_path):
+							os.mkdir(folder_path)
+						outfile = folder_path + '/icon_tiny.png'
+						if not os.path.exists(outfile):
+							im = Image.open(image_cropped)
+							im.thumbnail(size, Image.Resampling.LANCZOS)
+							master.paste(im, box=(0,4))
+							master.save(outfile, "PNG")
+							subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
+							master = Image.open(outfile)
+							master = master.convert("P")
+							master = move_palette_color(master, 0, 0)
+							master.save(outfile, "PNG")
+							subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.pal')])
+							out_pal = open(outfile.replace('.png', '.pal'), 'r')
+							lines = out_pal.readlines()
+							out_pal = open(outfile.replace('.png', '.pal'), 'w')
+							lines[2] = '16\n'
+							for num_times in range(19 - len(lines)):
+								lines.append('0 0 0\n')
+							for line_index in range(len(lines)):
+								lines[line_index] = lines[line_index].replace('\n', '\r\n')
+							out_pal.writelines(lines)
+							out_pal.close()
+						size = 24, 24
+						master = Image.new(
+							mode='RGBA',
+							size=(24, 32),
+							color=(57,255,20,0))
+						folder_path = 'graphics/cards/' + re.sub(r'\W+', '_', data['name']).lower()
+						if not os.path.exists(folder_path):
+							os.mkdir(folder_path)
+						outfile = folder_path + '/icon_small.png'
+						if not os.path.exists(outfile):
+							im = Image.open(image_cropped)
+							im.thumbnail(size, Image.Resampling.LANCZOS)
+							master.paste(im, box=(0,4))
+							master.save(outfile, "PNG")
+							subprocess.run(['./magick', outfile, '-colors', "16", '-define', 'png:exclude-chunk=bKGD', outfile])
+							master = Image.open(outfile)
+							master = master.convert("P")
+							master = move_palette_color(master, 0, 0)
+							master.save(outfile, "PNG")
+							subprocess.run(['../gbagfx/gbagfx', outfile, outfile.replace('.png', '.pal')])
+							out_pal = open(outfile.replace('.png', '.pal'), 'r')
+							lines = out_pal.readlines()
+							out_pal = open(outfile.replace('.png', '.pal'), 'w')
+							lines[2] = '16\n'
+							for num_times in range(19 - len(lines)):
+								lines.append('0 0 0\n')
+							for line_index in range(len(lines)):
+								lines[line_index] = lines[line_index].replace('\n', '\r\n')
+							out_pal.writelines(lines)
+							out_pal.close()
