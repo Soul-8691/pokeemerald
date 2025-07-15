@@ -56,3 +56,4 @@ prefabs.json
 *.toml
 /tools/ygo_card_converter/in/*
 /tools/ygo_card_converter/out/*
+/tools/porytiles-linux-amd64/*
