@@ -1,6 +1,6 @@
 CXX ?= g++
 
-CXXFLAGS := -Wall -std=c++17 -O2
+CXXFLAGS := -g -Og -Wall -std=c++17 -O2
 
 INCLUDES := -I .
 
