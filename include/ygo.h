@@ -1,7 +1,7 @@
 #ifndef GUARD_YGO_H
 #define GUARD_YGO_H
 
-struct ALIGNED(4) CardInfo
+struct CardInfo
 {
     /* 0x00 */ const u8 *name;
     /* 0x04 */ const u8 *nameShort;
@@ -20,6 +20,7 @@ struct ALIGNED(4) CardInfo
     /* 0x45 */ u32 level:4;
     /* 0x45 */ u32 atk:9;
     /* 0x46 */ u32 def:9;
+    /* 0x47 */ u32 padding:2;
     /* 0x48 */ u8 race;
     /* 0x49 */ u8 unused1;
     /* 0x4A */ u16 id;
