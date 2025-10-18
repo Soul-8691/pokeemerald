@@ -1710,7 +1710,7 @@ static const struct TrainerMon sParty_Winston1[] = {
     {
     .iv = 0,
     .lvl = 7,
-    .species = SPECIES_ZIGZAGOON,
+    .species = SPECIES_GROWLITHE,
     .heldItem = ITEM_NUGGET
     }
 };
@@ -4478,17 +4478,17 @@ static const struct TrainerMon sParty_Ivan[] = {
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_MAGIKARP,
+    .species = SPECIES_TENTACOOL,
     },
     {
     .iv = 0,
     .lvl = 6,
-    .species = SPECIES_MAGIKARP,
+    .species = SPECIES_TENTACOOL,
     },
     {
     .iv = 0,
     .lvl = 7,
-    .species = SPECIES_MAGIKARP,
+    .species = SPECIES_TENTACOOL,
     }
 };
 
@@ -6270,12 +6270,12 @@ static const struct TrainerMon sParty_GinaAndMia1[] = {
     {
     .iv = 0,
     .lvl = 6,
-    .species = SPECIES_SEEDOT,
+    .species = SPECIES_TEDDIURSA,
     },
     {
     .iv = 0,
     .lvl = 6,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SENTRET,
     }
 };
 
@@ -7995,12 +7995,12 @@ static const struct TrainerMon sParty_Haley1[] = {
     {
     .iv = 0,
     .lvl = 6,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_MAREEP,
     },
     {
     .iv = 0,
     .lvl = 6,
-    .species = SPECIES_SHROOMISH,
+    .species = SPECIES_TEDDIURSA,
     }
 };
 
