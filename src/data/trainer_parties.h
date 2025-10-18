@@ -167,7 +167,7 @@ static const struct TrainerMon sParty_GruntRusturfTunnel[] = {
     {
     .iv = 0,
     .lvl = 11,
-    .species = SPECIES_POOCHYENA,
+    .species = SPECIES_MURKROW,
     }
 };
 
@@ -3707,7 +3707,7 @@ static const struct TrainerMon sParty_Karen1[] = {
     {
     .iv = TRAINER_PARTY_IVS(1, 1, 1, 1, 1, 1),
     .lvl = 9,
-    .species = SPECIES_SHROOMISH,
+    .species = SPECIES_MAREEP,
     }
 };
 
@@ -4249,7 +4249,7 @@ static const struct TrainerMon sParty_Joey[] = {
     {
     .iv = 0,
     .lvl = 9,
-    .species = SPECIES_MACHOP,
+    .species = SPECIES_SANDSHREW,
     }
 };
 
@@ -4513,17 +4513,17 @@ static const struct TrainerMon sParty_Elliot1[] = {
     {
     .iv = 0,
     .lvl = 10,
-    .species = SPECIES_MAGIKARP,
+    .species = SPECIES_SLOWPOKE,
     },
     {
     .iv = 0,
     .lvl = 7,
-    .species = SPECIES_TENTACOOL,
+    .species = SPECIES_WAILMER,
     },
     {
     .iv = 0,
     .lvl = 10,
-    .species = SPECIES_MAGIKARP,
+    .species = SPECIES_SLOWPOKE,
     }
 };
 
@@ -4531,7 +4531,7 @@ static const struct TrainerMon sParty_Ned[] = {
     {
     .iv = TRAINER_PARTY_IVS(1, 1, 1, 1, 1, 1),
     .lvl = 11,
-    .species = SPECIES_TENTACOOL,
+    .species = SPECIES_SLOWPOKE,
     }
 };
 
@@ -8173,12 +8173,12 @@ static const struct TrainerMon sParty_Jose[] = {
     {
     .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
     .lvl = 8,
-    .species = SPECIES_WURMPLE,
+    .species = SPECIES_SPINARAK,
     },
     {
     .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
     .lvl = 8,
-    .species = SPECIES_NINCADA,
+    .species = SPECIES_PINECO,
     }
 };
 
@@ -8370,7 +8370,7 @@ static const struct TrainerMon sParty_Clark[] = {
     {
     .iv = 0,
     .lvl = 8,
-    .species = SPECIES_GEODUDE,
+    .species = SPECIES_ONIX,
     }
 };
 
@@ -10056,12 +10056,12 @@ static const struct TrainerMon sParty_Devan[] = {
     {
     .iv = 0,
     .lvl = 8,
-    .species = SPECIES_GEODUDE,
+    .species = SPECIES_MACHOP,
     },
     {
     .iv = 0,
     .lvl = 8,
-    .species = SPECIES_GEODUDE,
+    .species = SPECIES_ZUBAT,
     }
 };
 
@@ -10069,12 +10069,12 @@ static const struct TrainerMon sParty_Johnson[] = {
     {
     .iv = 0,
     .lvl = 8,
-    .species = SPECIES_SHROOMISH,
+    .species = SPECIES_GROWLITHE,
     },
     {
     .iv = 0,
     .lvl = 8,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_MURKROW,
     }
 };
 
