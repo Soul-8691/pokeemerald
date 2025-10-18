@@ -104,7 +104,7 @@ static const struct TrainerMon sParty_GruntPetalburgWoods[] = {
     {
     .iv = 0,
     .lvl = 9,
-    .species = SPECIES_POOCHYENA,
+    .species = SPECIES_MURKROW,
     }
 };
 
@@ -1452,7 +1452,7 @@ static const struct TrainerMon sParty_Cindy1[] = {
     {
     .iv = 0,
     .lvl = 7,
-    .species = SPECIES_ZIGZAGOON,
+    .species = SPECIES_VULPIX,
     .heldItem = ITEM_NUGGET
     }
 };
@@ -4215,12 +4215,12 @@ static const struct TrainerMon sParty_Billy[] = {
     {
     .iv = 0,
     .lvl = 5,
-    .species = SPECIES_ZIGZAGOON,
+    .species = SPECIES_ELECTRIKE,
     },
     {
     .iv = 0,
     .lvl = 7,
-    .species = SPECIES_SEEDOT,
+    .species = SPECIES_GROWLITHE,
     }
 };
 
@@ -8151,22 +8151,22 @@ static const struct TrainerMon sParty_Lyle[] = {
     {
     .iv = 0,
     .lvl = 3,
-    .species = SPECIES_WURMPLE,
+    .species = SPECIES_SPINARAK,
     },
     {
     .iv = 0,
     .lvl = 3,
-    .species = SPECIES_WURMPLE,
+    .species = SPECIES_SPINARAK,
     },
     {
     .iv = 0,
     .lvl = 3,
-    .species = SPECIES_WURMPLE,
+    .species = SPECIES_SPINARAK,
     },
     {
     .iv = 0,
     .lvl = 3,
-    .species = SPECIES_WURMPLE,
+    .species = SPECIES_SPINARAK,
     }
 };
 
@@ -8221,12 +8221,12 @@ static const struct TrainerMon sParty_James1[] = {
     {
     .iv = 0,
     .lvl = 6,
-    .species = SPECIES_NINCADA,
+    .species = SPECIES_PINECO,
     },
     {
     .iv = 0,
     .lvl = 6,
-    .species = SPECIES_NINCADA,
+    .species = SPECIES_PINECO,
     }
 };
 
@@ -9424,7 +9424,7 @@ static const struct TrainerMon sParty_Darian[] = {
     {
     .iv = 0,
     .lvl = 9,
-    .species = SPECIES_MAGIKARP,
+    .species = SPECIES_TENTACOOL,
     }
 };
 
