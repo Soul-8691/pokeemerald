@@ -28,6 +28,7 @@ enum {
 enum {
     REGION_HOENN,
     REGION_KANTO,
+    REGION_ORANGE_ISLANDS,
     NUM_REGION
 };
 

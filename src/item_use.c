@@ -231,7 +231,8 @@ static void ItemUseOnFieldCB_Bike(u8 taskId)
         static const u16 sRegionalBikeMusic[NUM_REGION] =
         {
             [REGION_HOENN] = MUS_CYCLING,
-            [REGION_KANTO] = MUS_RG_CYCLING
+            [REGION_KANTO] = MUS_RG_CYCLING,
+            [REGION_ORANGE_ISLANDS] = MUS_RG_CYCLING
         };
         u16 bikeMusic;
 	

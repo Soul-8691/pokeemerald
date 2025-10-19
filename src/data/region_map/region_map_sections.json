@@ -1916,6 +1916,15 @@
       "width": 1,
       "height": 1,
       "region": "REGION_HOENN"
+    },
+    {
+      "map_section": "MAPSEC_ORANGE_ISLANDS",
+      "name": "ORANGE ISLANDS",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "region": "REGION_KANTO"
     }
   ]
 }

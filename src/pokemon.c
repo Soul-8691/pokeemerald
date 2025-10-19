@@ -6123,6 +6123,12 @@ u16 GetBattleBGM(void)
             MUS_RG_VS_GYM_LEADER,
             MUS_RG_VS_TRAINER,
             MUS_RG_VS_WILD
+        },
+        [REGION_ORANGE_ISLANDS] =
+        {
+            MUS_RG_VS_GYM_LEADER,
+            MUS_RG_VS_TRAINER,
+            MUS_RG_VS_WILD
         }
     };
     const u16 *regionalBattleMusic = sRegionalBattleMusic[GetCurrentRegion()];

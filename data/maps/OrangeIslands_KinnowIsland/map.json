@@ -3,7 +3,7 @@
   "name": "OrangeIslands_KinnowIsland",
   "layout": "LAYOUT_ORANGE_ISLANDS_KINNOW_ISLAND",
   "music": "MUS_RG_CELADON",
-  "region_map_section": "MAPSEC_ABANDONED_SHIP",
+  "region_map_section": "MAPSEC_ORANGE_ISLANDS",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_TOWN",

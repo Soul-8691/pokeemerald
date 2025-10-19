@@ -350,6 +350,7 @@ const u16 gRegionalSurfMusic[NUM_REGION] =
 {
     [REGION_HOENN] = MUS_SURF,
     [REGION_KANTO] = MUS_RG_SURF,
+    [REGION_ORANGE_ISLANDS] = MUS_RG_SURF,
 };
 
 // code
