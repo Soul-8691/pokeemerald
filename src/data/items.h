@@ -3603,13 +3603,16 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },
 
-    [ITEM_10B] =
+    [ITEM_TICKET] =
     {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
+        .name = _("TICKET"),
+        .itemId = ITEM_TICKET,
         .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_ITEMS,
+        .description = COMPOUND_STRING("The ticket required\n"
+                                       "for sailing on a\n"
+                                       "ferry."),
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },

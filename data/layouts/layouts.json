@@ -8352,6 +8352,18 @@
       "secondary_tileset": "gTileset_RG_MtEmber",
       "border_filepath": "data/layouts/RG_OneIsland_KindleRoad_EmberSpa/border.bin",
       "blockdata_filepath": "data/layouts/RG_OneIsland_KindleRoad_EmberSpa/map.bin"
+    },
+    {
+      "id": "LAYOUT_ORANGE_ISLANDS_KINNOW_ISLAND",
+      "name": "OrangeIslands_KinnowIsland_Layout",
+      "width": 60,
+      "height": 40,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_OrangeIslands_General",
+      "secondary_tileset": "gTileset_OrangeIslands_KinnowIsland",
+      "border_filepath": "data/layouts/OrangeIslands_KinnowIsland/border.bin",
+      "blockdata_filepath": "data/layouts/OrangeIslands_KinnowIsland/map.bin"
     }
   ]
 }

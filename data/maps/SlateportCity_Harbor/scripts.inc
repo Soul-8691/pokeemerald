@@ -164,8 +164,18 @@ SlateportCity_Harbor_EventScript_FerryAttendant::
 	lock
 	faceplayer
 	goto_if_set FLAG_SYS_GAME_CLEAR, SlateportCity_Harbor_EventScript_AskForTicket
+	additem ITEM_TICKET
+	checkitem ITEM_TICKET
+	goto_if_eq VAR_RESULT, TRUE, SlateportCity_Harbor_EventScript_AskForTicket2
 	msgbox SlateportCity_Harbor_Text_FerryServiceUnavailable, MSGBOX_DEFAULT
 	release
+	end
+
+SlateportCity_Harbor_EventScript_AskForTicket2::
+	msgbox SlateportCity_Harbor_Text_MayISeeYourTicket, MSGBOX_DEFAULT
+	message SlateportCity_Harbor_Text_FlashedTicketWhereTo
+	waitmessage
+	goto SlateportCity_Harbor_EventScript_ChooseDestination2
 	end
 
 SlateportCity_Harbor_EventScript_AskForTicket::
@@ -173,6 +183,14 @@ SlateportCity_Harbor_EventScript_AskForTicket::
 	message SlateportCity_Harbor_Text_FlashedTicketWhereTo
 	waitmessage
 	goto SlateportCity_Harbor_EventScript_ChooseDestination
+	end
+
+SlateportCity_Harbor_EventScript_ChooseDestination2::
+	multichoicedefault 18, 8, MULTI_SSTIDAL_SLATEPORT_NO_BF_2, 2, FALSE
+	switch VAR_RESULT
+	case 0, SlateportCity_Harbor_EventScript_KinnowIsland
+	case 1, SlateportCity_Harbor_EventScript_CancelDestinationSelect
+	case MULTI_B_PRESSED, SlateportCity_Harbor_EventScript_CancelDestinationSelect
 	end
 
 SlateportCity_Harbor_EventScript_ChooseDestination::
@@ -205,6 +223,16 @@ SlateportCity_Harbor_EventScript_Lilycove::
 	setvar VAR_SS_TIDAL_STATE, SS_TIDAL_BOARD_SLATEPORT
 	call SlateportCity_Harbor_EventScript_BoardFerry
 	warp MAP_SS_TIDAL_CORRIDOR, 1, 10
+	waitstate
+	release
+	end
+
+SlateportCity_Harbor_EventScript_KinnowIsland::
+	msgbox SlateportCity_Harbor_Text_KinnowItIs, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, SlateportCity_Harbor_EventScript_ChooseNewDestination
+	setvar VAR_SS_TIDAL_STATE, SS_TIDAL_BOARD_SLATEPORT
+	call SlateportCity_Harbor_EventScript_BoardFerry
+	warp MAP_ORANGE_ISLANDS_KINNOW_ISLAND, 43, 34
 	waitstate
 	release
 	end
@@ -412,6 +440,9 @@ SlateportCity_Harbor_Text_SailAnotherTime:
 
 SlateportCity_Harbor_Text_LilycoveItIs:
 	.string "LILYCOVE CITY it is, then!$"
+
+SlateportCity_Harbor_Text_KinnowItIs:
+	.string "KINNOW ISLAND it is, then!$"
 
 SlateportCity_Harbor_Text_BattleFrontierItIs:
 	.string "BATTLE FRONTIER it is, then!$"

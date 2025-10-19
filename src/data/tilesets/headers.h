@@ -1532,3 +1532,27 @@ const struct Tileset gTileset_Custom_General =
     .metatileAttributes = gMetatileAttributes_Custom_General,
     .callback = InitTilesetAnim_RG_General,
 };
+
+const struct Tileset gTileset_OrangeIslands_General =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .numTiles = NUM_TILES_IN_PRIMARY_FRLG,
+    .tiles = gTilesetTiles_OrangeIslands_General,
+    .palettes = gTilesetPalettes_OrangeIslands_General,
+    .metatiles = gMetatiles_OrangeIslands_General,
+    .metatileAttributes = gMetatileAttributes_OrangeIslands_General,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_OrangeIslands_KinnowIsland =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .dontUsePal7 = TRUE,
+    .tiles = gTilesetTiles_OrangeIslands_KinnowIsland,
+    .palettes = gTilesetPalettes_OrangeIslands_KinnowIsland,
+    .metatiles = gMetatiles_OrangeIslands_KinnowIsland,
+    .metatileAttributes = gMetatileAttributes_OrangeIslands_KinnowIsland,
+    .callback = NULL,
+};

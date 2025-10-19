@@ -853,6 +853,7 @@ const u8 gText_PPUp3000[] = _("PP UP{CLEAR_TO 99}{FONT_SMALL}3,000");
 const u8 gText_RankingHall[] = _("RANKING HALL");
 const u8 gText_ExchangeService[] = _("EXCHANGE SERVICE");
 const u8 gText_LilycoveCity[] = _("LILYCOVE CITY");
+const u8 gText_KinnowIsland[] = _("KINNOW ISLAND");
 const u8 gText_SlateportCity[] = _("SLATEPORT CITY");
 const u8 gText_CaveOfOrigin[] = _("CAVE OF ORIGIN");
 const u8 gText_MtPyre[] = _("MT. PYRE");

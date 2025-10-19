@@ -375,3 +375,9 @@ const u32 gMetatileAttributes_RG_PokemonLeague[] = INCBIN_U32("data/tilesets/frl
 
 const u16 gMetatiles_Custom_General[] = INCBIN_U16("data/tilesets/custom/primary/general/metatiles.bin");
 const u32 gMetatileAttributes_Custom_General[] = INCBIN_U32("data/tilesets/custom/primary/general/metatile_attributes.bin");
+
+const u16 gMetatiles_OrangeIslands_General[] = INCBIN_U16("data/tilesets/primary/orange_islands_general/metatiles.bin");
+const u32 gMetatileAttributes_OrangeIslands_General[] = INCBIN_U32("data/tilesets/primary/orange_islands_general/metatile_attributes.bin");
+
+const u16 gMetatiles_OrangeIslands_KinnowIsland[] = INCBIN_U16("data/tilesets/secondary/orange_islands_kinnow_island/metatiles.bin");
+const u32 gMetatileAttributes_OrangeIslands_KinnowIsland[] = INCBIN_U32("data/tilesets/secondary/orange_islands_kinnow_island/metatile_attributes.bin");

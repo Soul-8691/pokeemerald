@@ -314,6 +314,12 @@ static const struct MenuAction MultichoiceList_SSTidalSlateportNoBF[] =
     {gText_Exit},
 };
 
+static const struct MenuAction MultichoiceList_SSTidalSlateportNoBF2[] =
+{
+    {gText_KinnowIsland},
+    {gText_Exit},
+};
+
 static const struct MenuAction MultichoiceList_Floors[] =
 {
     {gText_5F},
@@ -873,7 +879,7 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTI_FORCED_START_MENU]          = MULTICHOICE(MultichoiceList_ForcedStartMenu),
     [MULTI_FRONTIER_GAMBLER_BET]       = MULTICHOICE(MultichoiceList_FrontierGamblerBet),
     [MULTI_TENT]                       = MULTICHOICE(MultichoiceList_Tent),
-    [MULTI_UNUSED_SSTIDAL_1]           = MULTICHOICE(MultichoiceList_UnusedSSTidal1),
+    [MULTI_SSTIDAL_SLATEPORT_NO_BF_2]  = MULTICHOICE(MultichoiceList_SSTidalSlateportNoBF2),
     [MULTI_UNUSED_SSTIDAL_2]           = MULTICHOICE(MultichoiceList_UnusedSSTidal2),
     [MULTI_UNUSED_SSTIDAL_3]           = MULTICHOICE(MultichoiceList_UnusedSSTidal3),
     [MULTI_UNUSED_SSTIDAL_4]           = MULTICHOICE(MultichoiceList_UnusedSSTidal4),
