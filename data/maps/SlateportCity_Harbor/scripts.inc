@@ -63,6 +63,7 @@ SlateportCity_Harbor_EventScript_IvyAide::
 
 SlateportCity_Harbor_EventScript_ReceivedTicket::
 	giveitem ITEM_TICKET
+	giveitem ITEM_FLY_TOOL
 	setvar VAR_RECEIVED_TICKET, 2
 	msgbox SlateportCity_Harbor_Text_IllMeetYouThere, MSGBOX_DEFAULT
 	fadedefaultbgm

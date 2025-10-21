@@ -424,12 +424,12 @@ static const u8 sCutToolDesc[] = _(
     "cutting trees.");
 
 static const u8 sFlyToolDesc[] = _(
-	"This tool\n"
+	"This Pidgeot\n"
     "is used for\n"
     "going places.");
 
 static const u8 sSurfToolDesc[] = _(
-	"This tool\n"
+	"This Lapras\n"
     "is used for\n"
     "riding waves.");
 
