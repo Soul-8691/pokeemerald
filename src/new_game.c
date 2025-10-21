@@ -125,8 +125,10 @@ static void ClearFrontierRecord(void)
 
 static void WarpToTruck(void)
 {
-    if (gSaveBlock2Ptr->quickStart)
+    if (gSaveBlock2Ptr->quickStart) {
         SetWarpDestination(MAP_GROUP(SLATEPORT_CITY), MAP_NUM(SLATEPORT_CITY), WARP_ID_NONE, 28, 13);
+        FlagSet(FLAG_QUICK_START);
+    }
     else
         SetWarpDestination(MAP_GROUP(INSIDE_OF_TRUCK), MAP_NUM(INSIDE_OF_TRUCK), WARP_ID_NONE, -1, -1);
     WarpIntoMap();
