@@ -194,7 +194,7 @@ void NewGameInitData(void)
     InitDewfordTrend();
     ResetFanClub();
     ResetLotteryCorner();
-    FlagSet(FLAG_QUICK_START);
+    // FlagSet(FLAG_QUICK_START);
     WarpToTruck();
     RunScriptImmediately(EventScript_ResetAllMapFlags);
     ResetMiniGamesRecords();
