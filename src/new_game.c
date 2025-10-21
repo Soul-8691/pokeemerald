@@ -125,7 +125,7 @@ static void ClearFrontierRecord(void)
 
 static void WarpToTruck(void)
 {
-    if (FlagGet(FLAG_QUICK_START))
+    if (gSaveBlock2Ptr->quickStart)
         SetWarpDestination(MAP_GROUP(SLATEPORT_CITY), MAP_NUM(SLATEPORT_CITY), WARP_ID_NONE, 28, 13);
     else
         SetWarpDestination(MAP_GROUP(INSIDE_OF_TRUCK), MAP_NUM(INSIDE_OF_TRUCK), WARP_ID_NONE, -1, -1);
@@ -194,7 +194,6 @@ void NewGameInitData(void)
     InitDewfordTrend();
     ResetFanClub();
     ResetLotteryCorner();
-    // FlagSet(FLAG_QUICK_START);
     WarpToTruck();
     RunScriptImmediately(EventScript_ResetAllMapFlags);
     ResetMiniGamesRecords();

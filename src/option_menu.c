@@ -194,7 +194,7 @@ static void ReadAllCurrentSettings(u8 taskId)
     gTasks[taskId].data[TD_SOUND] = gSaveBlock2Ptr->optionsSound;
     gTasks[taskId].data[TD_BUTTONMODE] = gSaveBlock2Ptr->optionsButtonMode;
     gTasks[taskId].data[TD_FRAMETYPE] = gSaveBlock2Ptr->optionsWindowFrameType;
-    gTasks[taskId].data[TD_QUICKSTART] = FlagGet(FLAG_QUICK_START);
+    gTasks[taskId].data[TD_QUICKSTART] = gSaveBlock2Ptr->quickStart;
 }
 
 static void DrawOptionsPg1(u8 taskId)
@@ -528,6 +528,7 @@ static void Task_OptionMenuSave(u8 taskId)
     gSaveBlock2Ptr->optionsButtonMode = gTasks[taskId].tButtonMode;
     gSaveBlock2Ptr->optionsWindowFrameType = gTasks[taskId].tWindowFrameType;
     gTasks[taskId].data[TD_QUICKSTART] == 0 ? FlagClear(FLAG_QUICK_START) : FlagSet(FLAG_QUICK_START);
+    gSaveBlock2Ptr->quickStart = FlagGet(FLAG_QUICK_START);
 
     BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
     gTasks[taskId].func = Task_OptionMenuFadeOut;
