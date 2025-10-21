@@ -273,4 +273,25 @@ EventScript_ResetAllMapFlags::
 	setflag FLAG_HIDE_SKY_PILLAR_WALLACE
 	setflag FLAG_HIDE_SKY_PILLAR_TOP_RAYQUAZA_STILL
 	call EventScript_ResetAllBerries
+	call_if_set FLAG_QUICK_START, EventScript_QuickStart
 	end
+
+EventScript_QuickStart::
+	givemon SPECIES_IVYSAUR, 25
+	givemon SPECIES_GROWLITHE, 10
+	setflag FLAG_SYS_POKEMON_GET
+	setflag FLAG_SYS_POKEDEX_GET
+	special SetUnlockedPokedexFlags
+	setflag FLAG_SYS_NATIONAL_DEX
+	special EnableNationalPokedex
+	setflag FLAG_SYS_POKENAV_GET
+	setflag FLAG_RECEIVED_POKENAV
+	setflag FLAG_SYS_B_DASH
+	setflag FLAG_HIDE_SLATEPORT_CITY_TEAM_AQUA
+	additem ITEM_DEVON_GOODS
+	setflag FLAG_DEFEATED_RUSTBORO_GYM
+	setflag FLAG_BADGE01_GET
+	additem ITEM_TM_ROCK_TOMB
+	setflag FLAG_DEFEATED_DEWFORD_GYM
+	setflag FLAG_BADGE02_GET
+	additem ITEM_TM_BULK_UP

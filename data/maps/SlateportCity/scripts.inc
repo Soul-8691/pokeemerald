@@ -244,6 +244,11 @@ SlateportCity_EventScript_RichBoySternInterview::
 	release
 	end
 
+SlateportCity_EventScript_TeamRocket::
+	msgbox SlateportCity_Text_TeamRocket, MSGBOX_DEFAULT
+	release
+	end
+
 SlateportCity_EventScript_FatMan::
 	goto_if_eq VAR_SLATEPORT_CITY_STATE, 1, SlateportCity_EventScript_FatManSternInterview
 	msgbox SlateportCity_Text_BushedHikingFromMauville, MSGBOX_NPC
@@ -1154,6 +1159,11 @@ SlateportCity_Text_SternSaysDiscoveredSomething:
 	.string "something at the bottom of the sea.\p"
 	.string "I wonder what it is?\n"
 	.string "What could it be?$"
+
+SlateportCity_Text_TeamRocket:
+	.string "Heh. We're blocking off access to\n"
+	.string "this route until further notice.\p"
+	.string "Scram! Shoo!$"
 
 SlateportCity_Text_CaptainComeBackWithBigFish:
 	.string "What's going on here?\p"
