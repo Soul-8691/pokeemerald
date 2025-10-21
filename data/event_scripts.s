@@ -1443,3 +1443,4 @@ Common_EventScript_LegendaryFlewAway::
 
 	.include "data/maps/OrangeIslands_KinnowIsland/scripts.inc"
 	.include "data/maps/OrangeIslands_KinnowIsland/text.inc"
+    .include "data/scripts/qol_field_move_scripts.inc" @ qol_field_moves 
