@@ -52,7 +52,7 @@ enum
 
 enum
 {
-    MENUITEM_QUICKSTART_PG2,
+    MENUITEM_QUICKSTART,
     MENUITEM_CANCEL_PG2,
     MENUITEM_COUNT_PG2,
 };
@@ -69,7 +69,7 @@ enum
 #define YPOS_SOUND        (MENUITEM_SOUND * 16)
 #define YPOS_BUTTONMODE   (MENUITEM_BUTTONMODE * 16)
 #define YPOS_FRAMETYPE    (MENUITEM_FRAMETYPE * 16)
-#define YPOS_QUICKSTART   (MENUITEM_QUICKSTART_PG2 * 16)
+#define YPOS_QUICKSTART   (MENUITEM_QUICKSTART * 16)
 
 #define PAGE_COUNT  2
 
@@ -119,8 +119,8 @@ static const u8 *const sOptionMenuItemsNames[MENUITEM_COUNT] =
 
 static const u8 *const sOptionMenuItemsNames_Pg2[MENUITEM_COUNT_PG2] =
 {
-    [MENUITEM_QUICKSTART_PG2]  = gText_QuickStart,
-    [MENUITEM_CANCEL_PG2]      = gText_OptionMenuCancel,
+    [MENUITEM_QUICKSTART]  = gText_QuickStart,
+    [MENUITEM_CANCEL_PG2]  = gText_OptionMenuCancel,
 };
 
 static const struct WindowTemplate sOptionMenuWinTemplates[] =
@@ -371,7 +371,7 @@ static void Task_OptionMenuProcessInput(u8 taskId)
     }
     else if (JOY_NEW(A_BUTTON))
     {
-        if (gTasks[taskId].tMenuSelection == MENUITEM_CANCEL)
+        if (gTasks[taskId].data[TD_MENUSELECTION] == MENUITEM_CANCEL)
             gTasks[taskId].func = Task_OptionMenuSave;
     }
     else if (JOY_NEW(B_BUTTON))
@@ -380,25 +380,25 @@ static void Task_OptionMenuProcessInput(u8 taskId)
     }
     else if (JOY_NEW(DPAD_UP))
     {
-        if (gTasks[taskId].tMenuSelection > 0)
-            gTasks[taskId].tMenuSelection--;
+        if (gTasks[taskId].data[TD_MENUSELECTION] > 0)
+            gTasks[taskId].data[TD_MENUSELECTION]--;
         else
-            gTasks[taskId].tMenuSelection = MENUITEM_CANCEL;
-        HighlightOptionMenuItem(gTasks[taskId].tMenuSelection);
+            gTasks[taskId].data[TD_MENUSELECTION] = MENUITEM_CANCEL;
+        HighlightOptionMenuItem(gTasks[taskId].data[TD_MENUSELECTION]);
     }
     else if (JOY_NEW(DPAD_DOWN))
     {
-        if (gTasks[taskId].tMenuSelection < MENUITEM_CANCEL)
-            gTasks[taskId].tMenuSelection++;
+        if (gTasks[taskId].data[TD_MENUSELECTION] < MENUITEM_CANCEL)
+            gTasks[taskId].data[TD_MENUSELECTION]++;
         else
-            gTasks[taskId].tMenuSelection = 0;
-        HighlightOptionMenuItem(gTasks[taskId].tMenuSelection);
+            gTasks[taskId].data[TD_MENUSELECTION] = 0;
+        HighlightOptionMenuItem(gTasks[taskId].data[TD_MENUSELECTION]);
     }
     else
     {
         u8 previousOption;
 
-        switch (gTasks[taskId].tMenuSelection)
+        switch (gTasks[taskId].data[TD_MENUSELECTION])
         {
         case MENUITEM_TEXTSPEED:
             previousOption = gTasks[taskId].tTextSpeed;
@@ -500,7 +500,7 @@ static void Task_OptionMenuProcessInput_Pg2(u8 taskId)
 
         switch (gTasks[taskId].data[TD_MENUSELECTION])
         {
-        case MENUITEM_QUICKSTART_PG2:
+        case MENUITEM_QUICKSTART:
             previousOption = gTasks[taskId].data[TD_QUICKSTART];
             gTasks[taskId].data[TD_QUICKSTART] = QuickStart_ProcessInput(gTasks[taskId].data[TD_QUICKSTART]);
 
@@ -550,8 +550,8 @@ static void QuickStart_DrawChoices(u8 selection)
     styles[0] = 0;
     styles[1] = 0;
     styles[selection] = 1;
-    DrawOptionMenuChoice(gText_Off, 104, YPOS_QUICKSTART, styles[0]);
-    DrawOptionMenuChoice(gText_On, GetStringRightAlignXOffset(FONT_NORMAL, gText_On, 198), YPOS_QUICKSTART, styles[1]);
+    DrawOptionMenuChoice(gText_BattleSceneOff, 104, YPOS_QUICKSTART, styles[0]);
+    DrawOptionMenuChoice(gText_BattleSceneOn, GetStringRightAlignXOffset(FONT_NORMAL, gText_BattleSceneOn, 198), YPOS_QUICKSTART, styles[1]);
 }
 
 static void Task_OptionMenuFadeOut(u8 taskId)
@@ -829,8 +829,8 @@ static void DrawHeaderText(void)
     AddTextPrinterParameterized(WIN_HEADER, FONT_NORMAL, pageDots, xMid, 1, TEXT_SKIP_DRAW, NULL);
     AddTextPrinterParameterized(WIN_HEADER, FONT_NORMAL, gText_PageNav, GetStringRightAlignXOffset(FONT_NORMAL, gText_PageNav, 198), 1, TEXT_SKIP_DRAW, NULL);
     CopyWindowToVram(WIN_HEADER, COPYWIN_FULL);
- }
- 
+}
+
 static void DrawOptionMenuTexts(void)
 {
     u8 i, items;
