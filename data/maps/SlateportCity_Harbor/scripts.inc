@@ -3,17 +3,68 @@
 .set LOCALID_GRUNT, 6
 .set LOCALID_ARCHIE, 7
 .set LOCALID_SUBMARINE, 8
+.set LOCALID_IVY_AIDE, 9
 
 SlateportCity_Harbor_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, SlateportCity_Harbor_OnTransition
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, SlateportCity_Harbor_On
 	.byte 0
+
+SlateportCity_Harbor_On:
+	map_script_2 VAR_RECEIVED_TICKET, 0, SlateportCity_Harbor_EventScript_IvyAide
+	.2byte 0
 
 SlateportCity_Harbor_OnTransition:
 	setescapewarp MAP_SLATEPORT_CITY, 28, 13
 	setvar VAR_TEMP_1, 0
 	call_if_eq VAR_SLATEPORT_HARBOR_STATE, 1, SlateportCity_Harbor_EventScript_ReadyAquaEscapeScene
-	call_if_set FLAG_SYS_GAME_CLEAR, SlateportCity_Harbor_EventScript_ShowSSTidal
+	call SlateportCity_Harbor_EventScript_ShowSSTidal
 	end
+
+SlateportCity_Harbor_Movement_IvyAideApproachPlayer:
+	walk_down
+	walk_left
+	walk_down
+	step_end
+
+SlateportCity_Harbor_EventScript_IvyAide::
+	lockall
+	applymovement LOCALID_IVY_AIDE, SlateportCity_Harbor_Movement_IvyAideApproachPlayer
+	msgbox SlateportCity_Harbor_Text_Ticket, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, SlateportCity_Harbor_EventScript_ReceivedTicket
+	releaseall
+	end
+
+SlateportCity_Harbor_EventScript_ReceivedTicket::
+	additem ITEM_TICKET
+	setvar VAR_RECEIVED_TICKET, 1
+	releaseall
+	end
+
+SlateportCity_Harbor_Text_Ticket:
+	.string "PROF. IVY'S AIDE: Yo, {PLAYER}{KUN}!\p"
+	.string "I am an aide for Professor Ivy, of\n"
+	.string "Orange Islands fame.\p"
+	.string "She is looking for someone to work for\n"
+	.string "her while taking the Orange League\p"
+	.string "challenge.\p"
+	.string "If agreed, I can provide you with a\n"
+	.string "TICKET that can take you to Kinnow\p"
+	.string "Island, and a Pidgeot Courier item\n"
+	.string "that can get you to and from Valencia\p"
+	.string "Island.\p"
+	.string "She would be calling you on occasion\n"
+	.string "to check up on progress, and if you\p"
+	.string "finish your current task, you would not\n"
+	.string "be able to progress further unless you\p"
+	.string "return to Valencia Island with the\n"
+	.string "species you have collected, and handed\p"
+	.string "them over to her.\p"
+	.string "Rest assured, you would be given rewards\n"
+	.string "like items and currency in return!\p"
+	.string "What do you say, {PLAYER}{KUN}!\p"
+	.string "This is a once-in-a-lifetime\n"
+	.string "opportunity!$"
 
 SlateportCity_Harbor_EventScript_ShowSSTidal::
 	clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_SS_TIDAL
