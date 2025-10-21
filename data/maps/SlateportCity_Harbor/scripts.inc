@@ -46,15 +46,18 @@ SlateportCity_Harbor_EventScript_IvyAideOkayIllBeWaiting::
 	lock
 	msgbox SlateportCity_Harbor_Text_OkayIllBeWaiting, MSGBOX_DEFAULT
 	setvar VAR_RECEIVED_TICKET, 1
+	fadedefaultbgm
 	release
 	end
 
 SlateportCity_Harbor_EventScript_IvyAide::
 	lockall
+	playbgm MUS_RG_OAK, FALSE
 	applymovement LOCALID_IVY_AIDE, SlateportCity_Harbor_Movement_IvyAideApproachPlayer
 	msgbox SlateportCity_Harbor_Text_Ticket, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, SlateportCity_Harbor_EventScript_IvyAideOkayIllBeWaiting
 	goto_if_eq VAR_RESULT, YES, SlateportCity_Harbor_EventScript_ReceivedTicket
+	fadedefaultbgm
 	releaseall
 	end
 
@@ -62,6 +65,7 @@ SlateportCity_Harbor_EventScript_ReceivedTicket::
 	giveitem ITEM_TICKET
 	setvar VAR_RECEIVED_TICKET, 2
 	msgbox SlateportCity_Harbor_Text_IllMeetYouThere, MSGBOX_DEFAULT
+	fadedefaultbgm
 	releaseall
 	end
 
