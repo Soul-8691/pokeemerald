@@ -27,19 +27,56 @@ SlateportCity_Harbor_Movement_IvyAideApproachPlayer:
 	walk_down
 	step_end
 
+SlateportCity_Harbor_EventScript_IvyAideReceivedTicket::
+	lock
+	msgbox SlateportCity_Harbor_Text_IllMeetYouThere, MSGBOX_DEFAULT
+	release
+	end
+
+SlateportCity_Harbor_EventScript_IvyAideIdle::
+	lock
+	goto_if_eq VAR_RECEIVED_TICKET, 2, SlateportCity_Harbor_EventScript_IvyAideReceivedTicket
+	msgbox SlateportCity_Harbor_Text_AreYouSure, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, SlateportCity_Harbor_EventScript_IvyAideOkayIllBeWaiting
+	goto_if_eq VAR_RESULT, YES, SlateportCity_Harbor_EventScript_ReceivedTicket
+	release
+	end
+
+SlateportCity_Harbor_EventScript_IvyAideOkayIllBeWaiting::
+	lock
+	msgbox SlateportCity_Harbor_Text_OkayIllBeWaiting, MSGBOX_DEFAULT
+	setvar VAR_RECEIVED_TICKET, 1
+	release
+	end
+
 SlateportCity_Harbor_EventScript_IvyAide::
 	lockall
 	applymovement LOCALID_IVY_AIDE, SlateportCity_Harbor_Movement_IvyAideApproachPlayer
 	msgbox SlateportCity_Harbor_Text_Ticket, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, SlateportCity_Harbor_EventScript_IvyAideOkayIllBeWaiting
 	goto_if_eq VAR_RESULT, YES, SlateportCity_Harbor_EventScript_ReceivedTicket
 	releaseall
 	end
 
 SlateportCity_Harbor_EventScript_ReceivedTicket::
-	additem ITEM_TICKET
-	setvar VAR_RECEIVED_TICKET, 1
+	giveitem ITEM_TICKET
+	setvar VAR_RECEIVED_TICKET, 2
+	msgbox SlateportCity_Harbor_Text_IllMeetYouThere, MSGBOX_DEFAULT
 	releaseall
 	end
+
+SlateportCity_Harbor_Text_IllMeetYouThere:
+	.string "PROF. IVY'S AIDE: I will meet\n"
+	.string "you in the lab.$"
+
+SlateportCity_Harbor_Text_AreYouSure:
+	.string "PROF. IVY'S AIDE: Are you sure\n"
+	.string "you don't want that ticket?\p"
+	.string "It's free!$"
+
+SlateportCity_Harbor_Text_OkayIllBeWaiting:
+	.string "PROF. IVY'S AIDE: Okay, I'll be waiting\n"
+	.string "in case you change your mind.$"
 
 SlateportCity_Harbor_Text_Ticket:
 	.string "PROF. IVY'S AIDE: Yo, {PLAYER}{KUN}!\p"
@@ -215,7 +252,6 @@ SlateportCity_Harbor_EventScript_FerryAttendant::
 	lock
 	faceplayer
 	goto_if_set FLAG_SYS_GAME_CLEAR, SlateportCity_Harbor_EventScript_AskForTicket
-	additem ITEM_TICKET
 	checkitem ITEM_TICKET
 	goto_if_eq VAR_RESULT, TRUE, SlateportCity_Harbor_EventScript_AskForTicket2
 	msgbox SlateportCity_Harbor_Text_FerryServiceUnavailable, MSGBOX_DEFAULT
