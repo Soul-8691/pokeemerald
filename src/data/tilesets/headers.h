@@ -1532,3 +1532,27 @@ const struct Tileset gTileset_Custom_General =
     .metatileAttributes = gMetatileAttributes_Custom_General,
     .callback = InitTilesetAnim_RG_General,
 };
+
+const struct Tileset gTileset_OI_General =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .numTiles = NUM_TILES_IN_PRIMARY_FRLG,
+    .tiles = gTilesetTiles_OI_General,
+    .palettes = gTilesetPalettes_OI_General,
+    .metatiles = gMetatiles_OI_General,
+    .metatileAttributes = gMetatileAttributes_OI_General,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_OI_ValenciaIsland =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .dontUsePal7 = TRUE,
+    .tiles = gTilesetTiles_OI_ValenciaIsland,
+    .palettes = gTilesetPalettes_OI_ValenciaIsland,
+    .metatiles = gMetatiles_OI_ValenciaIsland,
+    .metatileAttributes = gMetatileAttributes_OI_ValenciaIsland,
+    .callback = NULL,
+};

@@ -8352,6 +8352,18 @@
       "secondary_tileset": "gTileset_RG_MtEmber",
       "border_filepath": "data/layouts/RG_OneIsland_KindleRoad_EmberSpa/border.bin",
       "blockdata_filepath": "data/layouts/RG_OneIsland_KindleRoad_EmberSpa/map.bin"
+    },
+    {
+      "id": "LAYOUT_VALENCIA_ISLAND",
+      "name": "ValenciaIsland_Layout",
+      "width": 48,
+      "height": 40,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_OI_General",
+      "secondary_tileset": "gTileset_OI_ValenciaIsland",
+      "border_filepath": "data/layouts/ValenciaIsland/border.bin",
+      "blockdata_filepath": "data/layouts/ValenciaIsland/map.bin"
     }
   ]
 }
