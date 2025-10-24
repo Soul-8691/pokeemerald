@@ -294,10 +294,10 @@ static void FindMapsWithMon(u16 species)
                 case MAP_GROUP_TOWNS_AND_ROUTES:
                     SetAreaHasMon(gWildMonHeaders[i].mapGroup, gWildMonHeaders[i].mapNum);
                     break;
-                case MAP_GROUP_DUNGEONS:
-                case MAP_GROUP_SPECIAL_AREA:
-                    SetSpecialMapHasMon(gWildMonHeaders[i].mapGroup, gWildMonHeaders[i].mapNum);
-                    break;
+                // case MAP_GROUP_DUNGEONS:
+                // case MAP_GROUP_SPECIAL_AREA:
+                //     SetSpecialMapHasMon(gWildMonHeaders[i].mapGroup, gWildMonHeaders[i].mapNum);
+                //     break;
                 }
             }
         }
