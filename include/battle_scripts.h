@@ -223,4 +223,14 @@ extern const u8 BattleScript_ActionWatchesCarefully[];
 extern const u8 BattleScript_ActionGetNear[];
 extern const u8 BattleScript_ActionThrowPokeblock[];
 
+extern const u8 BattleScript_ReverseModeTurnDmg[];
+extern const u8 BattleScript_SuccessBallThrowShadow[];
+extern const u8 BattleScript_ShowCaughtTargetAsFainted[];
+extern const u8 BattleScript_TryPrintSnaggedMonInfo[];
+extern const u8 BattleScript_TrainerCallToMonNormal[];
+extern const u8 BattleScript_TrainerCallToMonReverse[];
+extern const u8 BattleScript_ShadowSkyContinues[];
+extern const u8 BattleScript_ShadowSkyEnd[];
+extern const u8 BattleScript_EffectShadowSky[];
+
 #endif // GUARD_BATTLE_SCRIPTS_H

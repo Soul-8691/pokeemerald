@@ -295,5 +295,6 @@ extern const u8 gText_BattleTourney[];
 
 extern const u16 gMissStringIds[];
 extern const u16 gTrappingMoves[];
+extern const u8 gText_BattleMenuTrainer[];
 
 #endif // GUARD_BATTLE_MESSAGE_H

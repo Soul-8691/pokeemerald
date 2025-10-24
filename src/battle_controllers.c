@@ -1576,3 +1576,14 @@ void BtlController_EmitEndLinkBattle(u8 bufferId, u8 battleOutcome)
     sBattleBuffersTransferData[5] = sBattleBuffersTransferData[4] = RecordedBattle_BufferNewBattlerData(&sBattleBuffersTransferData[6]);
     PrepareBufferDataTransfer(bufferId, sBattleBuffersTransferData, sBattleBuffersTransferData[4] + 6);
 }
+
+void BtlController_EmitHeartValueUpdate(u32 battler, u8 bufferId, u8 partyId, s32 amount)
+{
+    gBattleResources->transferBuffer[0] = CONTROLLER_HEARTVALUEUPDATE;
+    gBattleResources->transferBuffer[1] = partyId;
+    gBattleResources->transferBuffer[2] = amount;
+    gBattleResources->transferBuffer[3] = (amount & 0x0000FF00) >> 8;
+    gBattleResources->transferBuffer[4] = (amount & 0x00FF0000) >> 16;
+    gBattleResources->transferBuffer[5] = (amount & 0xFF000000) >> 24;
+    PrepareBufferDataTransfer(battler, bufferId, gBattleResources->transferBuffer, 6);
+}

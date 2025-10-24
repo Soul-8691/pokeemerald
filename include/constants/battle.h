@@ -229,6 +229,7 @@ enum BattlerId
 // Battle Weather flags
 #define B_WEATHER_RAIN_TEMPORARY      (1 << 0)
 #define B_WEATHER_RAIN_DOWNPOUR       (1 << 1)  // unused
+#define B_WEATHER_SHADOW_SKY          (1 << 1)
 #define B_WEATHER_RAIN_PERMANENT      (1 << 2)
 #define B_WEATHER_RAIN                (B_WEATHER_RAIN_TEMPORARY | B_WEATHER_RAIN_DOWNPOUR | B_WEATHER_RAIN_PERMANENT)
 #define B_WEATHER_SANDSTORM_TEMPORARY (1 << 3)
@@ -239,7 +240,7 @@ enum BattlerId
 #define B_WEATHER_SUN                 (B_WEATHER_SUN_TEMPORARY | B_WEATHER_SUN_PERMANENT)
 #define B_WEATHER_HAIL_TEMPORARY      (1 << 7)
 #define B_WEATHER_HAIL                (B_WEATHER_HAIL_TEMPORARY)
-#define B_WEATHER_ANY                 (B_WEATHER_RAIN | B_WEATHER_SANDSTORM | B_WEATHER_SUN | B_WEATHER_HAIL)
+#define B_WEATHER_ANY                 (B_WEATHER_RAIN | B_WEATHER_SANDSTORM | B_WEATHER_SUN | B_WEATHER_HAIL | B_WEATHER_SHADOW_SKY)
 
 // Move Effects
 #define MOVE_EFFECT_SLEEP               1

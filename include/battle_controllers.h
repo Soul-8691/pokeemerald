@@ -62,6 +62,10 @@ enum {
     REQUEST_CUTE_RIBBON_BATTLE,
     REQUEST_SMART_RIBBON_BATTLE,
     REQUEST_TOUGH_RIBBON_BATTLE,
+    REQUEST_IS_SHADOW_BATTLE,
+    REQUEST_REVERSE_MODE_BATTLE,
+    REQUEST_HEART_VALUE_BATTLE,
+    REQUEST_HEART_MAX_BATTLE,
 };
 
 // Accessors for gBattleControllerExecFlags.
@@ -239,6 +243,7 @@ enum
     CONTROLLER_LINKSTANDBYMSG,
     CONTROLLER_RESETACTIONMOVESELECTION,
     CONTROLLER_ENDLINKBATTLE,
+    CONTROLLER_HEARTVALUEUPDATE,    
     /*new controllers should go here*/
     CONTROLLER_TERMINATOR_NOP,
     CONTROLLER_CMDS_COUNT
@@ -296,6 +301,7 @@ void BtlController_EmitBattleAnimation(u8 bufferId, u8 animationId, u16 argument
 void BtlController_EmitLinkStandbyMsg(u8 bufferId, u8 mode, bool32 record);
 void BtlController_EmitResetActionMoveSelection(u8 bufferId, u8 caseId);
 void BtlController_EmitEndLinkBattle(u8 bufferId, u8 battleOutcome);
+void BtlController_EmitHeartValueUpdate(u32 battler, u8 bufferId, u8 partyId, s32 amount);
 
 // player controller
 void SetControllerToPlayer(void);

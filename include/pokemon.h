@@ -94,6 +94,56 @@ enum {
     MON_DATA_SPEED2,
     MON_DATA_SPATK2,
     MON_DATA_SPDEF2,
+    MON_DATA_IS_SHADOW,
+    MON_DATA_SHADOW_ID,
+    MON_DATA_SHADOW_AGGRO,
+    MON_DATA_REVERSE_MODE,
+    MON_DATA_SNAGGED,
+    MON_DATA_HEART_VALUE,
+    MON_DATA_HEART_MAX,
+};
+
+union __attribute__((packed, aligned(2))) NicknameShadowdata
+{
+    u8 nickname[min(10, POKEMON_NAME_LENGTH)];
+    struct Shadowdata
+    {
+    /* 0x00 */ u16 heartValue;
+    /* 0x02 */ u16 heartMax;
+    /* 0x04 */ u8 shadowID;
+    /* 0x05 */ u8 shadowAggro:3; //Determines chance to enter Reverse Mode
+    /* 0x05 */ u8 isXD:1; //for Shadow Lugia's special case
+    /* 0x05 */ u8 isReverse:1;
+    /* 0x05 */ u8 snagFlag:1; //Set when catching from another trainer, so that the mon is given to you after winning. Unset afterward.
+    /* 0x05 */ u8 filler:2;
+    /* 0x06 */ 
+    /* 0x07 */ 
+    /* 0x08 */ 
+    /* 0x09 */ 
+    /* size = 10 */
+
+    } shadowData;
+};
+
+enum {
+    SHADOW_AGGRO_NONE,
+    SHADOW_AGGRO_VERY_LOW,
+    SHADOW_AGGRO_LOW,
+    SHADOW_AGGRO_MEDIUM,
+    SHADOW_AGGRO_HIGH,
+    SHADOW_AGGRO_VERY_HIGH,
+    SHADOW_AGGRO_TEST,
+    NUM_AGGRO_LEVELS
+};
+
+enum {
+    HEART_GAUGE_EMPTY,
+    HEART_SECTION_1,
+    HEART_SECTION_2,
+    HEART_SECTION_3,
+    HEART_SECTION_4,
+    HEART_GAUGE_FULL,
+    HEART_GAUGE_LEVELS
 };
 
 struct PokemonSubstruct0
@@ -197,7 +247,7 @@ struct BoxPokemon
 {
     u32 personality;
     u32 otId;
-    u8 nickname[POKEMON_NAME_LENGTH];
+    union NicknameShadowdata nickData;
     u8 language;
     u8 isBadEgg:1;
     u8 hasSpecies:1;
@@ -292,6 +342,14 @@ struct BattlePokemon
     /*0x4C*/ u32 status1;
     /*0x50*/ u32 status2;
     /*0x54*/ u32 otId;
+    /*0x5B*/ u8 isShadow:1;
+    /*0x5B*/ u8 shadowAggro:3;
+    /*0x5B*/ u8 isReverse:1;
+    /*0x5B*/ u8 snagged:1;
+    /*0x5B*/ u8 filler:3;
+    /*0x5C*/ u8 shadowID;
+    /*0x5D*/ u16 heartVal;
+    /*0x5F*/ u16 heartMax;
 };
 
 struct SpeciesInfo
@@ -543,5 +601,15 @@ bool8 HasTwoFramesAnimation(u16 species);
 struct MonSpritesGfxManager *CreateMonSpritesGfxManager(u8 managerId, u8 mode);
 void DestroyMonSpritesGfxManager(u8 managerId);
 u8 *MonSpritesGfxManager_GetSpritePtr(u8 managerId, u8 spriteNum);
+
+extern const u8 gShadowAggressionTable[][6];
+#define CalculateMonStats(...) CAT(CalculateMonStats, NARG_8(__VA_ARGS__))(__VA_ARGS__)
+void CalculateMonStats2(struct Pokemon *mon, u8 levelBoost);
+void CalculateMonStats1(struct Pokemon *mon);
+u8 GetHeartGaugeSection(u16 heartVal, u16 heartMax);
+u8 GetReverseModeChance(struct BattlePokemon *mon);
+u8 ShdwCanMonGainEXP(struct Pokemon *mon);
+u16 ModifyHeartValueInBattle(u8 battlerId, u16 amount);
+u8 CheckPartyShadow(struct Pokemon *party, u8 selection);
 
 #endif // GUARD_POKEMON_H

@@ -36,32 +36,55 @@ struct TrainerMonNoItemDefaultMoves
 {
     u16 iv;
     u8 lvl;
-    u16 species;
+    u16 species:14;
+    bool8 isShadow:1;
+    bool8 isXD:1;
+    u8 boostLevel;
+    u8 shadowAggro;
+    u8 shadowID;
+    u16 heartGauge;
 };
 
 struct TrainerMonItemDefaultMoves
 {
     u16 iv;
     u8 lvl;
-    u16 species;
+    u16 species:14;
+    bool8 isShadow:1;
+    bool8 isXD:1;
     u16 heldItem;
+    u8 boostLevel;
+    u8 shadowAggro;
+    u8 shadowID;
+    u16 heartGauge;
 };
 
 struct TrainerMonNoItemCustomMoves
 {
     u16 iv;
     u8 lvl;
-    u16 species;
+    u16 species:14;
+    bool8 isShadow:1;
+    bool8 isXD:1;
     u16 moves[MAX_MON_MOVES];
+    u8 boostLevel;
+    u8 shadowAggro;
+    u8 shadowID;
+    u16 heartGauge;
 };
 
 struct TrainerMonItemCustomMoves
 {
     u16 iv;
-    u8 lvl;
-    u16 species;
+    u16 species:14;
+    bool8 isShadow:1;
+    bool8 isXD:1;
     u16 heldItem;
     u16 moves[MAX_MON_MOVES];
+    u8 boostLevel;
+    u8 shadowAggro;
+    u8 shadowID;
+    u16 heartGauge;
 };
 
 #define NO_ITEM_DEFAULT_MOVES(party) { .NoItemDefaultMoves = party }, .partySize = ARRAY_COUNT(party), .partyFlags = 0

@@ -29,6 +29,7 @@
 #define sWINDOWS_TYPE                (gBattleScripting + 0x24) // windowsType
 #define sMULTIPLAYER_ID              (gBattleScripting + 0x25) // multiplayerId
 #define sSPECIAL_TRAINER_BATTLE_TYPE (gBattleScripting + 0x26) // specialTrainerBattleType
+#define sHEARTVALUE_STATE            (gBattleScripting + 0x27) // heartValueState
 
 // Array entries for battle communication
 #define MULTIUSE_STATE          0
@@ -105,6 +106,8 @@
 #define VARIOUS_PALACE_TRY_ESCAPE_STATUS        24
 #define VARIOUS_SET_TELEPORT_OUTCOME            25
 #define VARIOUS_PLAY_TRAINER_DEFEATED_MUSIC     26
+#define VARIOUS_MODIFY_HEART_VALUE              27
+#define VARIOUS_COLLECT_SNAGGED_MONS            28
 
 // Cmd_manipulatedmg
 #define DMG_CHANGE_SIGN            0
@@ -155,5 +158,6 @@
 #define MOVEEND_MIRROR_MOVE                       15
 #define MOVEEND_NEXT_TARGET                       16
 #define MOVEEND_COUNT                             17
+#define MOVEEND_ENTER_REVERSE_MODE                18
 
 #endif // GUARD_CONSTANTS_BATTLE_SCRIPT_COMMANDS_H

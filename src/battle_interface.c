@@ -156,6 +156,24 @@ enum
     HEALTHBOX_GFX_115,
     HEALTHBOX_GFX_FRAME_END,
     HEALTHBOX_GFX_FRAME_END_BAR,
+    HEALTHBOX_GFX_118, //shadow bar [0 pixels]
+    HEALTHBOX_GFX_119, //shadow bar [1 pixels]
+    HEALTHBOX_GFX_120, //shadow bar [2 pixels]
+    HEALTHBOX_GFX_121, //shadow bar [3 pixels]
+    HEALTHBOX_GFX_122, //shadow bar [4 pixels]
+    HEALTHBOX_GFX_123, //shadow bar [5 pixels]
+    HEALTHBOX_GFX_124, //shadow bar [6 pixels]
+    HEALTHBOX_GFX_125, //shadow bar [7 pixels]
+    HEALTHBOX_GFX_126, //shadow bar [8 pixels]
+    HEALTHBOX_GFX_127, //shadow bar with lines [0 pixels]
+    HEALTHBOX_GFX_128, //shadow bar with lines [1 pixels]
+    HEALTHBOX_GFX_129, //shadow bar with lines [2 pixels]
+    HEALTHBOX_GFX_130, //shadow bar with lines [3 pixels]
+    HEALTHBOX_GFX_131, //shadow bar with lines [4 pixels]
+    HEALTHBOX_GFX_132, //shadow bar with lines [5 pixels]
+    HEALTHBOX_GFX_133, //shadow bar with lines [6 pixels]
+    HEALTHBOX_GFX_134, //shadow bar with lines [7 pixels]
+    HEALTHBOX_GFX_135, //shadow bar with lines [8 pixels]
 };
 
 static const u8 *GetHealthboxElementGfxPtr(u8);
@@ -210,7 +228,7 @@ static const struct SpriteTemplate sHealthboxPlayerSpriteTemplates[2] =
 {
     {
         .tileTag = TAG_HEALTHBOX_PLAYER1_TILE,
-        .paletteTag = TAG_HEALTHBOX_PAL,
+        .paletteTag = TAG_HEALTHBOX_PLAYER1_PAL,
         .oam = &sOamData_64x32,
         .anims = gDummySpriteAnimTable,
         .images = NULL,
@@ -219,7 +237,7 @@ static const struct SpriteTemplate sHealthboxPlayerSpriteTemplates[2] =
     },
     {
         .tileTag = TAG_HEALTHBOX_PLAYER2_TILE,
-        .paletteTag = TAG_HEALTHBOX_PAL,
+        .paletteTag = TAG_HEALTHBOX_PLAYER2_PAL,
         .oam = &sOamData_64x32,
         .anims = gDummySpriteAnimTable,
         .images = NULL,
@@ -232,7 +250,7 @@ static const struct SpriteTemplate sHealthboxOpponentSpriteTemplates[2] =
 {
     {
         .tileTag = TAG_HEALTHBOX_OPPONENT1_TILE,
-        .paletteTag = TAG_HEALTHBOX_PAL,
+        .paletteTag = TAG_HEALTHBOX_OPPONENT1_PAL,
         .oam = &sOamData_64x32,
         .anims = gDummySpriteAnimTable,
         .images = NULL,
@@ -241,7 +259,7 @@ static const struct SpriteTemplate sHealthboxOpponentSpriteTemplates[2] =
     },
     {
         .tileTag = TAG_HEALTHBOX_OPPONENT2_TILE,
-        .paletteTag = TAG_HEALTHBOX_PAL,
+        .paletteTag = TAG_HEALTHBOX_OPPONENT2_PAL,
         .oam = &sOamData_64x32,
         .anims = gDummySpriteAnimTable,
         .images = NULL,
@@ -1808,12 +1826,6 @@ static void Task_HidePartyStatusSummary_DuringBattle(u8 taskId)
     }
 }
 
-#undef tBattler
-#undef tSummaryBarSpriteId
-#undef tBallIconSpriteId
-#undef tIsBattleStart
-#undef tBlend
-
 static void SpriteCB_StatusSummaryBar_Enter(struct Sprite *sprite)
 {
     if (sprite->x2 != 0)
@@ -2197,12 +2209,24 @@ void UpdateHealthboxAttribute(u8 healthboxSpriteId, struct Pokemon *mon, u8 elem
             LoadBattleBarGfx(3);
             species = GetMonData(mon, MON_DATA_SPECIES);
             level = GetMonData(mon, MON_DATA_LEVEL);
-            exp = GetMonData(mon, MON_DATA_EXP);
-            currLevelExp = gExperienceTables[gSpeciesInfo[species].growthRate][level];
-            currExpBarValue = exp - currLevelExp;
-            maxExpBarValue = gExperienceTables[gSpeciesInfo[species].growthRate][level + 1] - currLevelExp;
+            if (GetMonData(mon, MON_DATA_IS_SHADOW))
+            {
+                currExpBarValue = GetMonData(mon, MON_DATA_HEART_VALUE);
+                maxExpBarValue = GetMonData(mon, MON_DATA_HEART_MAX);
+                whichBar = HEART_GAUGE;
+            }
+            else
+            {
+                exp = GetMonData(mon, MON_DATA_EXP);
+                currLevelExp = gExperienceTables[gSpeciesInfo[species].growthRate][level];
+                currExpBarValue = exp - currLevelExp;
+                maxExpBarValue = gExperienceTables[gSpeciesInfo[species].growthRate][level + 1] - currLevelExp;
+                whichBar = EXP_BAR;
+            }
+            DebugPrintf("UpdateHealthboxAttribute/SetBattleBarStruct battler:%d, healthboxSpriteId:%d, maxExpBarValue:%d, currExpBarValue:%d, isDoubles:%d",
+                battler, healthboxSpriteId, maxExpBarValue, currExpBarValue, isDoubles);
             SetBattleBarStruct(battler, healthboxSpriteId, maxExpBarValue, currExpBarValue, isDoubles);
-            MoveBattleBar(battler, healthboxSpriteId, EXP_BAR, 0);
+            MoveBattleBar(battler, healthboxSpriteId, whichBar, 0);
         }
         if (elementId == HEALTHBOX_NICK || elementId == HEALTHBOX_ALL)
             UpdateNickInHealthbox(healthboxSpriteId, mon);
@@ -2212,6 +2236,31 @@ void UpdateHealthboxAttribute(u8 healthboxSpriteId, struct Pokemon *mon, u8 elem
             UpdateSafariBallsTextOnHealthbox(healthboxSpriteId);
         if (elementId == HEALTHBOX_SAFARI_ALL_TEXT || elementId == HEALTHBOX_SAFARI_BALLS_TEXT)
             UpdateLeftNoOfBallsTextOnHealthbox(healthboxSpriteId);
+    }
+    else if (whichBar == HEART_GAUGE)
+    {
+        s32 heartFraction = GetScaledExpFraction(gBattleSpritesDataPtr->battleBars[battler].oldValue,
+                    gBattleSpritesDataPtr->battleBars[battler].receivedValue,
+                    gBattleSpritesDataPtr->battleBars[battler].maxValue, 8);
+        //DebugPrintf("heartFraction: %d", heartFraction);
+        if (heartFraction == 0)
+            heartFraction = 1;
+
+        /* DebugPrintf("old %d, received %d, maxval %d", 
+        gBattleSpritesDataPtr->battleBars[battler].oldValue,
+        gBattleSpritesDataPtr->battleBars[battler].receivedValue,
+        gBattleSpritesDataPtr->battleBars[battler].maxValue); */
+
+        heartFraction = abs(gBattleSpritesDataPtr->battleBars[battler].receivedValue / heartFraction);
+
+        //DebugPrintf("new heartfraction %d", heartFraction);
+
+        currentBarValue = CalcNewBarValue(gBattleSpritesDataPtr->battleBars[battler].maxValue,
+                    gBattleSpritesDataPtr->battleBars[battler].oldValue,
+                    gBattleSpritesDataPtr->battleBars[battler].receivedValue,
+                    &gBattleSpritesDataPtr->battleBars[battler].currValue,
+                    B_EXPBAR_PIXELS / 8, heartFraction);
+        //DebugPrintf("currentBarValue: %d", currentBarValue);
     }
     else
     {

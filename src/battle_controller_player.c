@@ -120,6 +120,14 @@ static void PlayerDoMoveAnimation(void);
 static void Task_StartSendOutAnim(u8);
 static void EndDrawPartyStatusSummary(void);
 
+// Shadow Pokemon
+static void PlayerHandleHeartValueUpdate(u32 battler);
+static s32 GetTaskHeartValue(u8 taskId);
+static void Task_LowerHeartValue(u8 taskId);
+static void Task_PrepareToLowerHeartValWithBar(u8 taskId);
+static void Task_LowerHeartValWithBar(u8 taskId);
+static void Task_LaunchSectionUnlockAnim(u8 taskId);
+
 static void (*const sPlayerBufferCommands[CONTROLLER_CMDS_COUNT])(void) =
 {
     [CONTROLLER_GETMONDATA]               = PlayerHandleGetMonData,
@@ -178,6 +186,7 @@ static void (*const sPlayerBufferCommands[CONTROLLER_CMDS_COUNT])(void) =
     [CONTROLLER_LINKSTANDBYMSG]           = PlayerHandleLinkStandbyMsg,
     [CONTROLLER_RESETACTIONMOVESELECTION] = PlayerHandleResetActionMoveSelection,
     [CONTROLLER_ENDLINKBATTLE]            = PlayerHandleEndLinkBattle,
+    [CONTROLLER_HEARTVALUEUPDATE]         = PlayerHandleHeartValueUpdate,
     [CONTROLLER_TERMINATOR_NOP]           = PlayerCmdEnd
 };
 
@@ -3145,3 +3154,161 @@ static void PlayerHandleEndLinkBattle(void)
 static void PlayerCmdEnd(void)
 {
 }
+
+#define tHgTask_monId         data[0]
+#define tHgTask_battler       data[2]
+#define tHgTask_amount_1      data[3]
+#define tHgTask_amount_2      data[4] // Stored as two half-words containing a word.
+#define tHgTask_frames        data[10]
+
+static s32 GetTaskHeartValue(u8 taskId)
+{
+    DebugPrintf("GetTaskHeartValue: %d", (gTasks[taskId].tHgTask_amount_1) | (gTasks[taskId].tHgTask_amount_2 << 16));
+    return (gTasks[taskId].tHgTask_amount_1) | (gTasks[taskId].tHgTask_amount_2 << 16);
+}
+
+static void Task_LowerHeartValue(u8 taskId)
+{
+    u32 monId = (u8)(gTasks[taskId].tHgTask_monId);
+    u8 battler = gTasks[taskId].tHgTask_battler;
+    s32 amount = GetTaskHeartValue(taskId);
+    struct Pokemon *mon = &gPlayerParty[monId];
+    u16 hVal = GetMonData(mon, MON_DATA_HEART_VALUE);
+    u16 hMax = GetMonData(mon, MON_DATA_HEART_MAX);
+    u8 UNUSED hgCurrSection = GetHeartGaugeSection(hVal, hMax);
+    u8 UNUSED hgNewSection = GetHeartGaugeSection(hVal + amount, hMax);
+
+    if ((IsDoubleBattle() == TRUE || monId != gBattlerPartyIndexes[battler])) // no bar anim
+    {
+        // TODOSHADOW if (hgCurrSection != hgNewSection) // handle new section unlock?
+        if (0)
+        {
+            //SetMonData(mon, MON_DATA_HEART_VALUE, &newVal);
+            //CalculateMonStats(mon);
+            //TODO BtlController_EmitTwoReturnValues(battler, B_COMM_TO_ENGINE, RET_VALUE_LEVELED_UP, amount);
+
+            if (IsDoubleBattle() == TRUE
+             && ((u16)(monId) == gBattlerPartyIndexes[battler] || (u16)(monId) == gBattlerPartyIndexes[BATTLE_PARTNER(battler)]))
+                gTasks[taskId].func = Task_LaunchSectionUnlockAnim;
+            else
+            {
+                gBattlerControllerFuncs[battler] = Controller_WaitForString;
+                DestroyTask(taskId);
+            }
+        }
+        else
+        {
+            hVal += amount;
+            SetMonData(mon, MON_DATA_HEART_VALUE, &hVal);
+            gBattlerControllerFuncs[battler] = Controller_WaitForString;
+            DestroyTask(taskId);
+        }
+    }
+    else
+    {
+        //SetMonData(mon, MON_DATA_HEART_VALUE, &newVal);
+        gTasks[taskId].func = Task_PrepareToLowerHeartValWithBar;
+    }
+}
+
+static void Task_PrepareToLowerHeartValWithBar(u8 taskId)
+{
+    u32 monIndex = gTasks[taskId].tHgTask_monId;
+    s32 amount = GetTaskHeartValue(taskId);
+    u8 battler = gTasks[taskId].tHgTask_battler;
+    struct Pokemon *mon = &gPlayerParty[monIndex];
+    u16 hVal = GetMonData(mon, MON_DATA_HEART_VALUE);
+    u16 hMax = GetMonData(mon, MON_DATA_HEART_MAX);
+    \
+    DebugPrintf("Task_PrepareToLowerHeartValWithBar/SetBattleBarStruct: %d, %d, %d, %d, %d", 
+    battler, gHealthboxSpriteIds[battler], hMax, hVal, -amount);
+
+    SetBattleBarStruct(battler, gHealthboxSpriteIds[battler], hMax, hVal, -amount);
+    PlaySE(SE_EXP);
+    gTasks[taskId].func = Task_LowerHeartValWithBar;
+}
+
+static void Task_LowerHeartValWithBar(u8 taskId)
+{
+    if (gTasks[taskId].tHgTask_frames < 13)
+    {
+        gTasks[taskId].tHgTask_frames++;
+    }
+    else
+    {
+        u8 monId = gTasks[taskId].tHgTask_monId;
+        s32 gainedVal = GetTaskHeartValue(taskId);
+        u8 battler = gTasks[taskId].tHgTask_battler;
+        s32 newHeartVal;
+
+        newHeartVal = MoveBattleBar(battler, gHealthboxSpriteIds[battler], HEART_GAUGE, 0);
+        SetHealthboxSpriteVisible(gHealthboxSpriteIds[battler]);
+        if (newHeartVal == -1) // The bar has been filled with given exp points.
+        {
+            u16 hVal = GetMonData(&gPlayerParty[monId], MON_DATA_HEART_VALUE);
+            u16 hMax = GetMonData(&gPlayerParty[monId], MON_DATA_HEART_MAX);
+            u8 UNUSED currSection = GetHeartGaugeSection(hVal, hMax);
+            u8 UNUSED newSection = GetHeartGaugeSection(newHeartVal, hMax);
+
+            m4aSongNumStop(SE_EXP);
+
+            //TODO if (currSection != newSection) // handle new section unlock
+            if (0)
+            {
+                SetMonData(&gPlayerParty[monId], MON_DATA_HEART_VALUE, &hVal);
+                // CalculateMonStats(&gPlayerParty[monId]);
+                //TODO BtlController_EmitTwoReturnValues(battler, B_COMM_TO_ENGINE, RET_VALUE_LEVELED_UP, amount);
+                gTasks[taskId].func = Task_LaunchSectionUnlockAnim;
+            }
+            else
+            {
+                hVal += gainedVal;
+                SetMonData(&gPlayerParty[monId], MON_DATA_HEART_VALUE, &hVal);
+                gBattlerControllerFuncs[battler] = Controller_WaitForString;
+                DestroyTask(taskId);
+            }
+        }
+    }
+}
+
+static void Task_LaunchSectionUnlockAnim(u8 taskId)
+{
+    u8 battlerId = gTasks[taskId].tHgTask_battler;
+    u8 monIndex = gTasks[taskId].tHgTask_monId;
+
+    if (IsDoubleBattle() == TRUE && monIndex == gBattlerPartyIndexes[BATTLE_PARTNER(battlerId)])
+        battlerId ^= BIT_FLANK;
+
+    InitAndLaunchSpecialAnimation(battlerId, battlerId, battlerId, B_ANIM_SECTION_UNLOCK);
+
+    gBattlerControllerFuncs[battlerId] = Controller_WaitForString;
+    DestroyTask(taskId);
+}
+
+static void PlayerHandleHeartValueUpdate(u32 battler)
+{
+    u8 monId = gBattleResources->bufferA[battler][1];
+    s32 taskId, amount;
+
+    if (GetMonData(&gPlayerParty[monId], MON_DATA_HEART_VALUE) == 0)
+    {
+        PlayerBufferExecCompleted(battler);
+    }
+    else
+    {
+        LoadBattleBarGfx(1);
+        amount = T1_READ_32(&gBattleResources->bufferA[battler][2]);
+        taskId = CreateTask(Task_LowerHeartValue, 10);
+        gTasks[taskId].tHgTask_monId = monId;
+        gTasks[taskId].tHgTask_amount_1 = amount;
+        gTasks[taskId].tHgTask_amount_2 = amount >> 16;
+        gTasks[taskId].tHgTask_battler = battler;
+        gBattlerControllerFuncs[battler] = BattleControllerDummy;
+    }
+}
+
+#undef tHgTask_monId
+#undef tHgTask_battler
+#undef tHgTask_amount_1
+#undef tHgTask_amount_2
+#undef tHgTask_frames

@@ -296,6 +296,8 @@
 #define ANIM_TAG_SLASH_2                    (ANIM_SPRITES_START + 286)
 #define ANIM_TAG_WHIP_HIT                   (ANIM_SPRITES_START + 287)
 #define ANIM_TAG_BLUE_RING_2                (ANIM_SPRITES_START + 288)
+#define ANIM_TAG_SHADOW_PARTICLES           (ANIM_SPRITES_START + 289)
+#define ANIM_TAG_REVERSE_PARTICLES          (ANIM_SPRITES_START + 290)
 
 // battlers
 #define ANIM_ATTACKER         0
@@ -352,6 +354,7 @@
 #define BG_SOLAR_BEAM_OPPONENT 24
 #define BG_SOLAR_BEAM_PLAYER 25
 #define BG_SOLAR_BEAM_CONTESTS 26
+#define BG_SHADOWSTORM 27
 
 // table ids for general animations (gBattleAnims_General)
 #define B_ANIM_CASTFORM_CHANGE          0
@@ -377,6 +380,8 @@
 #define B_ANIM_FOCUS_PUNCH_SETUP        20
 #define B_ANIM_INGRAIN_HEAL             21
 #define B_ANIM_WISH_HEAL                22
+#define B_ANIM_SHADOW_SKY_CONTINUES     23
+#define B_ANIM_CALL_REVERSE_MODE        24
 
 // special animations table (gBattleAnims_Special)
 #define B_ANIM_LVL_UP                   0
@@ -386,6 +391,7 @@
 #define B_ANIM_BALL_THROW_WITH_TRAINER  4
 #define B_ANIM_SUBSTITUTE_TO_MON        5
 #define B_ANIM_MON_TO_SUBSTITUTE        6
+#define B_ANIM_SECTION_UNLOCK           7
 
 // status animation table (gBattleAnims_StatusConditions)
 #define B_ANIM_STATUS_PSN               0
@@ -398,6 +404,9 @@
 #define B_ANIM_STATUS_CURSED            7
 #define B_ANIM_STATUS_NIGHTMARE         8
 #define B_ANIM_STATUS_WRAPPED           9 // does not actually exist
+#define B_ANIM_STATUS_SHADOW            10
+#define B_ANIM_ENTER_REVERSE_MODE       11
+#define B_ANIM_STATUS_REVERSE_MODE      12
 
 // Tasks with return values often assign them to gBattleAnimArgs[7].
 #define ARG_RET_ID 7
@@ -419,6 +428,7 @@
 #define ANIM_WEATHER_RAIN 2
 #define ANIM_WEATHER_SANDSTORM 3
 #define ANIM_WEATHER_HAIL 4
+#define ANIM_WEATHER_SHADOW_SKY 5
 
 // Flags given to various functions to indicate which palettes to consider.
 // Handled by UnpackSelectedBattlePalettes

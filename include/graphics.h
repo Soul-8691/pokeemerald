@@ -5070,4 +5070,17 @@ extern const u32 gMailTilemap_Retro[];
 extern const u8 gMonMarkingsMenu_Gfx[];
 extern const u16 gMonMarkingsMenu_Pal[];
 
+// Shadow
+extern const u32 gSummaryShadow_Gfx[];
+extern const u32 gSummaryShadow_Pal[];
+extern const u16 gBattleInterface_ShadowMenuPal[];
+extern const u32 gHealthboxSinglesPlayerShadowGfx[];
+extern const u16 gBattleInterface_ShadowMenuPal[];
+
+//Shadow Pokemon effects
+extern const u32 gBattleAnimSpriteGfx_ShadowParticles[];
+extern const u16 gBattleAnimSpritePal_ShadowParticles[];
+extern const u16 gBattleAnimSpritePal_ReverseParticles[];
+extern const u16 gBattleAnimBgPalette_ShadowStorm[];
+
 #endif //GUARD_GRAPHICS_H
