@@ -39,3 +39,4 @@ prefabs.json
 *.sym
 *.js
 *:Zone.Identifier
+*.bak
