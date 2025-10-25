@@ -1,13 +1,18 @@
 gText_Birch_Welcome::
-	.string "Hi! Sorry to keep you waiting!\p"
-	.string "Welcome to the world of POKéMON!\p"
-	.string "My name is BIRCH.\p"
-	.string "But everyone calls me the POKéMON\n"
-	.string "PROFESSOR.\p"
+	.string "Hello, and welcome to Radiant Orange!\p"
+	.string "I am Champion Drake of the Orange\n"
+	.string "Islands Orange League.\p"
+	.string "You are Ash, who is deciding to go\n"
+	.string "on an adventure to the Orange Islands.\p"
+	.string "You have accepted a job as a part time\n"
+	.string "research aide for Professor Ivy as well.\p"
+	.string "You've got your hands full!\p"
 	.string "$"
 
 gText_Birch_Pokemon::
-	.string "This is what we call a “POKéMON.”\p"
+	.string "This is my Dragonite.{PAUSE 96}\p"
+	.string "When you climb to the top, you will\n"
+	.string "get to meet him!\p"
 	.string "\n"
 	.string "$"
 
