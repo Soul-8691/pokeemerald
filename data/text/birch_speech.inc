@@ -28,6 +28,18 @@ gText_Birch_MainSpeech::
 	.string "those bases and restoring order to the\p"
 	.string "Orange Islands by releasing Lugia from\n"
 	.string "Giovanni's control.\p"
+	.string "You're a busy guy, so you like to juggle\n"
+	.string "impossible tasks. As well as taking the\p"
+	.string "Orange League challenge, you made it\n"
+	.string "your personal goal to compete in the\p"
+	.string "Battle Tower challenges in the newly\n"
+	.string "renovated Battle Frontier.\p"
+	.string "After earning each gym badge, you are\n"
+	.string "determined to at least make the top 16\p"
+	.string "in each level of Battle Tower\n"
+	.string "competition, starting at level 10 and\p"
+	.string "working your way up to level 50.\p"
+	.string "You're a real competitor!\p"
 	.string "$"
 
 gText_Birch_AndYouAre::
