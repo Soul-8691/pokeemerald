@@ -7,4 +7,8 @@ ValenciaIsland_EventScript_Debug::
 	setflag FLAG_SYS_NATIONAL_DEX
 	special EnableNationalPokedex
 	setflag FLAG_SYS_POKENAV_GET
+	setflag FLAG_BADGE01_GET
+	setflag FLAG_BADGE03_GET
+	setflag FLAG_BADGE05_GET
+	setflag FLAG_BADGE07_GET
 	end
