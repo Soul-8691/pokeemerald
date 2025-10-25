@@ -8364,6 +8364,18 @@
       "secondary_tileset": "gTileset_OI_ValenciaIsland",
       "border_filepath": "data/layouts/ValenciaIsland/border.bin",
       "blockdata_filepath": "data/layouts/ValenciaIsland/map.bin"
+    },
+    {
+      "id": "LAYOUT_VALENCIA_ISLAND_PROFESSOR_IVYS_LAB",
+      "name": "ValenciaIsland_ProfessorIvysLab_Layout",
+      "width": 13,
+      "height": 14,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_OI_Building",
+      "secondary_tileset": "gTileset_OI_Lab",
+      "border_filepath": "data/layouts/ValenciaIsland_ProfessorIvysLab/border.bin",
+      "blockdata_filepath": "data/layouts/ValenciaIsland_ProfessorIvysLab/map.bin"
     }
   ]
 }

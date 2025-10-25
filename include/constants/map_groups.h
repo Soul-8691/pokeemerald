@@ -801,10 +801,11 @@
 #define MAP_RG_SEVEN_ISLAND_TANOBY_RUINS            (60 | (35 << 8))
 
 // gMapGroup_RG_IndoorPallet
-#define MAP_RG_PALLET_TOWN_PLAYERS_HOUSE_1F   (0 | (36 << 8))
-#define MAP_RG_PALLET_TOWN_PLAYERS_HOUSE_2F   (1 | (36 << 8))
-#define MAP_RG_PALLET_TOWN_RIVALS_HOUSE       (2 | (36 << 8))
-#define MAP_RG_PALLET_TOWN_PROFESSOR_OAKS_LAB (3 | (36 << 8))
+#define MAP_RG_PALLET_TOWN_PLAYERS_HOUSE_1F    (0 | (36 << 8))
+#define MAP_RG_PALLET_TOWN_PLAYERS_HOUSE_2F    (1 | (36 << 8))
+#define MAP_RG_PALLET_TOWN_RIVALS_HOUSE        (2 | (36 << 8))
+#define MAP_RG_PALLET_TOWN_PROFESSOR_OAKS_LAB  (3 | (36 << 8))
+#define MAP_VALENCIA_ISLAND_PROFESSOR_IVYS_LAB (4 | (36 << 8))
 
 // gMapGroup_RG_IndoorViridian
 #define MAP_RG_VIRIDIAN_CITY_HOUSE             (0 | (37 << 8))

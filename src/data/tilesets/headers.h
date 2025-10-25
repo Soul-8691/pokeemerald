@@ -1556,3 +1556,25 @@ const struct Tileset gTileset_OI_ValenciaIsland =
     .metatileAttributes = gMetatileAttributes_OI_ValenciaIsland,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_OI_Building =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_OI_Building,
+    .palettes = gTilesetPalettes_OI_Building,
+    .metatiles = gMetatiles_OI_Building,
+    .metatileAttributes = gMetatileAttributes_OI_Building,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_OI_Lab =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_OI_Lab,
+    .palettes = gTilesetPalettes_OI_Lab,
+    .metatiles = gMetatiles_OI_Lab,
+    .metatileAttributes = gMetatileAttributes_OI_Lab,
+    .callback = NULL,
+};

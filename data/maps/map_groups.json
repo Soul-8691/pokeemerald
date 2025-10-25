@@ -873,7 +873,8 @@
     "RG_PalletTown_PlayersHouse_1F",
     "RG_PalletTown_PlayersHouse_2F",
     "RG_PalletTown_RivalsHouse",
-    "RG_PalletTown_ProfessorOaksLab"
+    "RG_PalletTown_ProfessorOaksLab",
+    "ValenciaIsland_ProfessorIvysLab"
   ],
   "gMapGroup_RG_IndoorViridian": [
     "RG_ViridianCity_House",
