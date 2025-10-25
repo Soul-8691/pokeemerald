@@ -8376,6 +8376,18 @@
       "secondary_tileset": "gTileset_OI_Lab",
       "border_filepath": "data/layouts/ValenciaIsland_ProfessorIvysLab/border.bin",
       "blockdata_filepath": "data/layouts/ValenciaIsland_ProfessorIvysLab/map.bin"
+    },
+    {
+      "id": "LAYOUT_SHAMOUTI_ISLAND",
+      "name": "ShamoutiIsland_Layout",
+      "width": 48,
+      "height": 72,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_OI_General",
+      "secondary_tileset": "gTileset_OI_ShamoutiIsland",
+      "border_filepath": "data/layouts/ShamoutiIsland/border.bin",
+      "blockdata_filepath": "data/layouts/ShamoutiIsland/map.bin"
     }
   ]
 }

@@ -2931,3 +2931,22 @@ const u16 gTilesetPalettes_OI_Lab[][16] =
 };
 
 const u32 gTilesetTiles_OI_Lab[] = INCBIN_U32("data/tilesets/secondary/oi_lab/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_OI_ShamoutiIsland[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/oi_shamouti_island/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oi_shamouti_island/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oi_shamouti_island/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oi_shamouti_island/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oi_shamouti_island/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oi_shamouti_island/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oi_shamouti_island/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oi_shamouti_island/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oi_shamouti_island/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oi_shamouti_island/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oi_shamouti_island/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oi_shamouti_island/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oi_shamouti_island/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_OI_ShamoutiIsland[] = INCBIN_U32("data/tilesets/secondary/oi_shamouti_island/tiles.4bpp.lz");

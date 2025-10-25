@@ -1578,3 +1578,14 @@ const struct Tileset gTileset_OI_Lab =
     .metatileAttributes = gMetatileAttributes_OI_Lab,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_OI_ShamoutiIsland =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_OI_ShamoutiIsland,
+    .palettes = gTilesetPalettes_OI_ShamoutiIsland,
+    .metatiles = gMetatiles_OI_ShamoutiIsland,
+    .metatileAttributes = gMetatileAttributes_OI_ShamoutiIsland,
+    .callback = NULL,
+};

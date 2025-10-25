@@ -387,3 +387,6 @@ const u32 gMetatileAttributes_OI_Building[] = INCBIN_U32("data/tilesets/primary/
 
 const u16 gMetatiles_OI_Lab[] = INCBIN_U16("data/tilesets/secondary/oi_lab/metatiles.bin");
 const u32 gMetatileAttributes_OI_Lab[] = INCBIN_U32("data/tilesets/secondary/oi_lab/metatile_attributes.bin");
+
+const u16 gMetatiles_OI_ShamoutiIsland[] = INCBIN_U16("data/tilesets/secondary/oi_shamouti_island/metatiles.bin");
+const u32 gMetatileAttributes_OI_ShamoutiIsland[] = INCBIN_U32("data/tilesets/secondary/oi_shamouti_island/metatile_attributes.bin");

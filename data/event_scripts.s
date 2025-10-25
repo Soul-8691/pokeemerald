@@ -1446,3 +1446,6 @@ Common_EventScript_LegendaryFlewAway::
 
 	.include "data/maps/ValenciaIsland_ProfessorIvysLab/scripts.inc"
 	.include "data/maps/ValenciaIsland_ProfessorIvysLab/text.inc"
+
+	.include "data/maps/ShamoutiIsland/scripts.inc"
+	.include "data/maps/ShamoutiIsland/text.inc"
