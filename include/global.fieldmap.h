@@ -336,6 +336,11 @@ enum
     COLLISION_VERTICAL_RAIL,
     COLLISION_HORIZONTAL_RAIL,
     COLLISION_DIRECTIONAL_STAIR_WARP,
+    //Start qol_field_moves
+    COLLISION_START_SURFING,
+    COLLISION_START_CUT,
+    COLLISION_START_ROCK_SMASH
+    //End qol_field_moves
 };
 
 // player running states

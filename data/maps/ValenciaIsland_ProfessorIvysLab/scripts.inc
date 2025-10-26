@@ -18,6 +18,8 @@ ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvy::
 	lock
 	faceplayer
 	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvy, MSGBOX_DEFAULT
+	giveitem ITEM_SURF_TOOL
+	giveitem ITEM_FLY_TOOL
 	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvy2, MSGBOX_DEFAULT
 	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvy3, MSGBOX_DEFAULT
 	giveitem ITEM_POKE_BALL, 10

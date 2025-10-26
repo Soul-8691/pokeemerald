@@ -757,7 +757,7 @@ static void Task_DoStairWarp(u8 taskId)
     case 0:
         LockPlayerFieldControls();
         FreezeObjectEvents();
-        CameraObjectReset2();
+        CameraObjectFreeze();
         tState++;
         break;
     case 1:
@@ -855,7 +855,7 @@ static void Task_ExitStairs(u8 taskId)
     default:
         if (WaitForWeatherFadeIn())
         {
-            CameraObjectReset1();
+            CameraObjectReset();
             UnlockPlayerFieldControls();
             DestroyTask(taskId);
         }
