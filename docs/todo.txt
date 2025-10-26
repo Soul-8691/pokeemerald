@@ -1,0 +1,80 @@
+Remake
+Lugia plot
+Battle Frontier plot
+Professor Ivy quests
+Town Map
+Pokedex Map
+Map importing
+Overworld sprite importing
+Trainer sprite importing
+New maps (5qwerty/Demonheadge)
+New sprites (Eru/Invis/gnomo/Brolunite)
+New tiles (gnomo)
+Tileset adjusting
+Tileset making
+Battle Frontier coding
+Quest menu
+Trainer card
+Battle Tower
+Battle Factory
+Battle Dome
+Battle Pike
+Battle Pyramid
+Battle Castle
+Stadium
+Orre Colosseum
+OU
+Ubers
+UU
+RU
+NU
+LC
+Doubles
+1v1
+UUBL
+PU
+ZU
+Monotype
+Level 50 (Stadium)
+Level 10-90 (Battle Tower)
+Easy/Normal/Hard/Insane Tiers
+Pools (of Pokemon)
+Randomized teams
+Battle Points
+Ranking Hall
+Banlists
+Species Clause
+Item Clause
+Sleep Clause
+Freeze Clause
+Evasion Clause
+Baton Pass Clause
+Battle Timer
+TMs/HMs
+Move Tutors
+Move Reminder
+Item vendors
+Pokemon vendor NPCs
+Nature changing NPC
+IV changer NPC (including preset Hidden Power spreads)
+EV changer NPC
+Egg Move Learner item
+Move Learner (scales learnsets based on flags/vars/saveblock variables)
+Ability capsule
+AI presets
+Trainer class randomization
+Team Validator
+Team Builder
+Custom UI
+Facility leaders
+Informational NPCs
+NPCs
+New facility tiles
+Rainbow Isle background tiles
+Mapping
+Music
+JPAN saveblock
+ASM
+Wild Pokemon
+Progression-based gatekeeping
+Shadow Pokemon
