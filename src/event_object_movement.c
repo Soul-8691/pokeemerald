@@ -463,6 +463,7 @@ const struct SpritePalette gObjectEventSpritePalettes[] = {
     {gObjectEventPal_CustomBlue,            OBJ_EVENT_PAL_TAG_CUSTOM_BLUE},
     {gObjectEventPal_ProfessorIvy,          OBJ_EVENT_PAL_TAG_PROFESSOR_IVY},
     {gObjectEventPal_ProfessorIvyAide,      OBJ_EVENT_PAL_TAG_PROFESSOR_IVY_AIDE},
+    {gObjectEventPal_Rhydon,                OBJ_EVENT_PAL_TAG_RHYDON},
     {NULL,                                  OBJ_EVENT_PAL_TAG_NONE},
 };
 

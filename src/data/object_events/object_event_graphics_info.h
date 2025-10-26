@@ -6222,18 +6222,18 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_FRLGCelebi = {
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_FRLGCubone = {
     .tileTag = TAG_NONE,
-    .paletteTag = OBJ_EVENT_PAL_TAG_FRLG_NPC_WHITE,
-    .size = 128,
-    .width = 16,
-    .height = 16,
+    .paletteTag = OBJ_EVENT_PAL_TAG_RHYDON,
+    .size = 512,
+    .width = 32,
+    .height = 32,
     .textColor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .disableReflectionPaletteLoad = FALSE,
     .tracks = TRACKS_FOOT,
-    .anims = OBJ_EVENT_ANIM_SURFING,
-    .oam = &gObjectEventBaseOam_16x16,
-    .subspriteTables = sOamTables_16x16,
+    .anims = OBJ_EVENT_ANIM_INANIMATE,
+    .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = sOamTables_32x32,
     .images = sPicTable_FRLGCubone,
 };
 

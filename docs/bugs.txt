@@ -6,3 +6,5 @@ Title screen bg doesn't show up at first
 Lugia doesn't face up
 Sand shows glitched tiles
 Tiles don't animate
+Giovanni is the wrong palette
+Rhydon doesn't show up

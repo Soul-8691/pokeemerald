@@ -1031,8 +1031,8 @@ $(RGOBJEVENTGFXDIR)/pokemon/chansey.4bpp: %.4bpp: %.png
 $(RGOBJEVENTGFXDIR)/pokemon/clefairy.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 2
 
-$(RGOBJEVENTGFXDIR)/pokemon/cubone.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 2 -mheight 2
+$(RGOBJEVENTGFXDIR)/pokemon/rhydon.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
 
 $(RGOBJEVENTGFXDIR)/pokemon/deoxys_a.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4

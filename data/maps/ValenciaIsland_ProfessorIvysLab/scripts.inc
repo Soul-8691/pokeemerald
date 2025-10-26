@@ -24,6 +24,8 @@ ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvy::
 	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvy3, MSGBOX_DEFAULT
 	giveitem ITEM_POKE_BALL, 10
 	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvy4, MSGBOX_DEFAULT
+	warpsilent MAP_SHAMOUTI_ISLAND, 255, 30, 39
+	waitstate
 	release
 	end
 
@@ -52,4 +54,6 @@ ValenciaIsland_ProfessorIvysLab_Text_ProfIvy4:
 	.string "Every time you bring the species back\n"
 	.string "to me, I will give you a reward, rest\p"
 	.string "assured; whether it be an item or Poké-\n"
-	.string "Dollars.$"
+	.string "Dollars.\p"
+	.string "Be careful out there. Let me tell you\n"
+	.string "a story.$"

@@ -1578,7 +1578,7 @@ static const struct SpriteFrameImage sPicTable_FRLGCelebi[] = {
 };
 
 static const struct SpriteFrameImage sPicTable_FRLGCubone[] = {
-    overworld_ascending_frames(gObjectEventPic_FRLGCubone, 2, 2),
+    overworld_ascending_frames(gObjectEventPic_FRLGCubone, 4, 4),
 };
 
 static const struct SpriteFrameImage sPicTable_FRLGPoliwrath[] = {
