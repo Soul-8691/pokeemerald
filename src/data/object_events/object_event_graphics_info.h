@@ -799,7 +799,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Beauty = {
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Scientist1 = {
     .tileTag = TAG_NONE,
-    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_3,
+    .paletteTag = OBJ_EVENT_PAL_TAG_PROFESSOR_IVY_AIDE,
     .size = 256,
     .width = 16,
     .height = 32,
@@ -1088,11 +1088,11 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BerryTreeLateStage
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ProfBirch = {
     .tileTag = TAG_NONE,
-    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_3,
+    .paletteTag = OBJ_EVENT_PAL_TAG_PROFESSOR_IVY,
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    .textColor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .disableReflectionPaletteLoad = FALSE,

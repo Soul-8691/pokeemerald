@@ -1363,7 +1363,7 @@ static void Task_NewGameBirchSpeech_MainSpeech(u8 taskId)
         AddTextPrinterForMessage(TRUE);
         gSaveBlock2Ptr->playerGender = 0;
         NewGameBirchSpeech_SetDefaultPlayerName(0);
-        gTasks[taskId].func = Task_NewGameBirchSpeech_AreYouReady;
+        gTasks[taskId].func = Task_NewGameBirchSpeech_AndYouAre;
     }
 }
 
@@ -1418,7 +1418,7 @@ static void Task_NewGameBirchSpeech_AndYouAre(u8 taskId)
         sStartedPokeBallTask = FALSE;
         StringExpandPlaceholders(gStringVar4, gText_Birch_AndYouAre);
         AddTextPrinterForMessage(TRUE);
-        gTasks[taskId].func = Task_NewGameBirchSpeech_StartBirchLotadPlatformFade;
+        gTasks[taskId].func = Task_NewGameBirchSpeech_AreYouReady;
     }
 }
 

@@ -500,3 +500,5 @@ const u32 gObjectEventPic_SalacBerryTree[] = INCBIN_U32("graphics/object_events/
 const u16 gFieldEffectObjectPalette2[] = INCBIN_U16("graphics/field_effects/palettes/general_2.gbapal");
 const u16 gFieldEffectObjectPalette3[] = INCBIN_U16("graphics/field_effects/palettes/general_3.gbapal");
 const u32 gFieldEffectObjectPic_LongGrassCovered[] = INCBIN_U32("graphics/field_effects/pics/long_grass_covered.4bpp");
+const u16 gObjectEventPal_ProfessorIvy[] = INCBIN_U16("graphics/object_events/pics/people/prof_ivy.gbapal");
+const u16 gObjectEventPal_ProfessorIvyAide[] = INCBIN_U16("graphics/object_events/pics/people/prof_ivy_aide.gbapal");

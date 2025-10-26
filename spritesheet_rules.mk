@@ -303,7 +303,7 @@ $(OBJEVENTGFXDIR)/people/old_woman.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/people/picnicker.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
-$(OBJEVENTGFXDIR)/people/prof_birch.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/people/prof_ivy.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 $(OBJEVENTGFXDIR)/people/psychic_m.4bpp: %.4bpp: %.png
@@ -336,7 +336,7 @@ $(OBJEVENTGFXDIR)/people/sailor.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/people/school_kid_m.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
-$(OBJEVENTGFXDIR)/people/scientist_1.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/people/prof_ivy_aide.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 $(OBJEVENTGFXDIR)/people/scientist_2.4bpp: %.4bpp: %.png

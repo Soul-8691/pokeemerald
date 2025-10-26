@@ -1561,6 +1561,7 @@ const struct Tileset gTileset_OI_Building =
 {
     .isCompressed = TRUE,
     .isSecondary = FALSE,
+    .numTiles = NUM_TILES_IN_PRIMARY_FRLG,
     .tiles = gTilesetTiles_OI_Building,
     .palettes = gTilesetPalettes_OI_Building,
     .metatiles = gMetatiles_OI_Building,
@@ -1572,6 +1573,7 @@ const struct Tileset gTileset_OI_Lab =
 {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
+    .dontUsePal7 = TRUE,
     .tiles = gTilesetTiles_OI_Lab,
     .palettes = gTilesetPalettes_OI_Lab,
     .metatiles = gMetatiles_OI_Lab,
@@ -1583,6 +1585,7 @@ const struct Tileset gTileset_OI_ShamoutiIsland =
 {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
+    .dontUsePal7 = TRUE,
     .tiles = gTilesetTiles_OI_ShamoutiIsland,
     .palettes = gTilesetPalettes_OI_ShamoutiIsland,
     .metatiles = gMetatiles_OI_ShamoutiIsland,
