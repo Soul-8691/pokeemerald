@@ -4132,7 +4132,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RubySapphireMayNor
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Lugia = {
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_LUGIA,
-    .size = 512,
+    .size = 2048,
     .width = 64,
     .height = 64,
     .textColor = NPC_TEXT_COLOR_MON,
@@ -4140,7 +4140,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Lugia = {
     .inanimate = TRUE,
     .disableReflectionPaletteLoad = FALSE,
     .tracks = TRACKS_FOOT,
-    .anims = OBJ_EVENT_ANIM_INANIMATE,
+    .anims = OBJ_EVENT_ANIM_QUINTY_PLUMP,
     .oam = &gObjectEventBaseOam_64x64,
     .subspriteTables = sOamTables_64x64,
     .images = sPicTable_Lugia,
