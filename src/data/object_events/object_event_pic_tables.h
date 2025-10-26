@@ -953,7 +953,7 @@ static const struct SpriteFrameImage sPicTable_Brandon[] = {
 };
 
 static const struct SpriteFrameImage sPicTable_Lugia[] = {
-    obj_frame_tiles(gObjectEventPic_Lugia),
+    overworld_ascending_frames(gObjectEventPic_Lugia, 8, 8),
 };
 
 static const struct SpriteFrameImage sPicTable_HoOh[] = {
