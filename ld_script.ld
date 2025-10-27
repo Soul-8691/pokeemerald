@@ -340,6 +340,7 @@ SECTIONS {
         src/pokemon_forms.o(.text);
         src/trainer_control.o(.text);
         src/merrp_dns.o(.text);
+        src/quests.o(.text);
     } > ROM =0
 
     script_data :
@@ -704,6 +705,7 @@ SECTIONS {
         src/m4a_tables.o(.rodata);
         data/sound_data.o(.rodata);
         src/merrp_dns.o(.rodata);
+        src/quests.o(.rodata);
     } > ROM =0
 
     song_data :
