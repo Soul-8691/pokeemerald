@@ -18,8 +18,8 @@
     {
       "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ANABEL",
-      "x": 28,
-      "y": 17,
+      "x": 12,
+      "y": 26,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -40,7 +40,33 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 24,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "0",
+      "script": "ValenciaIsland_EventScript_LabTriggerRight"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 25,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "0",
+      "script": "ValenciaIsland_EventScript_LabTriggerDown"
+    },
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 24,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "0",
+      "script": "ValenciaIsland_EventScript_LabTriggerLeft"
+    }
   ],
   "bg_events": [
 

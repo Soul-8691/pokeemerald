@@ -9,8 +9,10 @@ ShamoutiIsland_OnFrame:
 	.2byte 0
 
 ShamoutiIsland_EventScript_Giovanni::
+	playbgm MUS_RG_ROCKET_HIDEOUT, FALSE
 	setobjectxy 0xFF, 30, 29
 	removeobject LOCALID_RHYDON
+	textcolor NPC_TEXT_COLOR_MALE
 	msgbox ShamoutiIsland_Text_Giovanni, MSGBOX_DEFAULT
 	addobject LOCALID_RHYDON
 	setvar VAR_TEAM_ROCKET, 1

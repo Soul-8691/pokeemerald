@@ -1,5 +1,10 @@
 ValenciaIsland_ProfessorIvysLab_MapScripts::
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, ValenciaIsland_ProfessorIvysLab_OnFrame
 	.byte 0
+
+ValenciaIsland_ProfessorIvysLab_OnFrame:
+	map_script_2 VAR_PROFESSOR_IVY, 0, ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvy
+	.2byte 0
 
 ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvyAide::
 	lock
@@ -15,8 +20,10 @@ ValenciaIsland_ProfessorIvysLab_Text_Aide:
 	.string "evolve without being traded.$"
 
 ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvy::
-	lock
-	faceplayer
+	lockall
+	applymovement OBJ_EVENT_ID_PLAYER, ValenciaIsland_ProfessorIvysLab_Movement_WalkToProfIvy
+	waitmovement 0
+	textcolor NPC_TEXT_COLOR_FEMALE
 	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvy, MSGBOX_DEFAULT
 	giveitem ITEM_SURF_TOOL
 	giveitem ITEM_FLY_TOOL
@@ -26,8 +33,18 @@ ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvy::
 	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvy4, MSGBOX_DEFAULT
 	warpsilent MAP_SHAMOUTI_ISLAND, 255, 30, 39
 	waitstate
-	release
+	releaseall
 	end
+
+ValenciaIsland_ProfessorIvysLab_Movement_WalkToProfIvy:
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	step_end
 
 ValenciaIsland_ProfessorIvysLab_Text_ProfIvy:
 	.string "{PLAYER}{KUN}! Welcome back!\p"
