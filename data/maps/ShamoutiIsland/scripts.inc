@@ -19,10 +19,10 @@ ShamoutiIsland_OnFrame:
 	.2byte 0
 
 ShamoutiIsland_EventScript_Archer::
-	playbgm MUS_RG_ROCKET_HIDEOUT, FALSE
 	textcolor NPC_TEXT_COLOR_MALE
 	msgbox ShamoutiIsland_Text_Archer, MSGBOX_DEFAULT
 	addobject LOCALID_HOUNDOOM
+	playmoncry SPECIES_HOUNDOOM, CRY_MODE_NORMAL
 	setvar VAR_TEAM_ROCKET, 1
 	end
 
