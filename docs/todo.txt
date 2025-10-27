@@ -15,6 +15,7 @@ Tileset making
 Battle Frontier coding
 Quest menu
 Trainer card
+Misc quests
 Battle Tower
 Battle Factory
 Battle Dome
