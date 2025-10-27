@@ -31,6 +31,7 @@ ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvy::
 	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvy3, MSGBOX_DEFAULT
 	giveitem ITEM_POKE_BALL, 10
 	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvy4, MSGBOX_DEFAULT
+	fadescreen FADE_TO_BLACK
 	warpsilent MAP_SHAMOUTI_ISLAND, 255, 30, 39
 	waitstate
 	releaseall
@@ -47,7 +48,7 @@ ValenciaIsland_ProfessorIvysLab_Movement_WalkToProfIvy:
 	step_end
 
 ValenciaIsland_ProfessorIvysLab_Text_ProfIvy:
-	.string "{PLAYER}{KUN}! Welcome back!\p"
+	.string "PROF. IVY: {PLAYER}{KUN}! Welcome back!\p"
 	.string "I hope you're ready for your first\n"
 	.string "task!\p"
 	.string "Before you begin, I want you to have\n"

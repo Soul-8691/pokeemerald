@@ -339,7 +339,7 @@ $(OBJEVENTGFXDIR)/people/school_kid_m.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/people/prof_ivy_aide.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
-$(OBJEVENTGFXDIR)/people/scientist_2.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/people/archer.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 $(OBJEVENTGFXDIR)/people/scott.4bpp: %.4bpp: %.png
@@ -1031,7 +1031,7 @@ $(RGOBJEVENTGFXDIR)/pokemon/chansey.4bpp: %.4bpp: %.png
 $(RGOBJEVENTGFXDIR)/pokemon/clefairy.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 2
 
-$(RGOBJEVENTGFXDIR)/pokemon/rhydon.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/pokemon/houndoom.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
 $(RGOBJEVENTGFXDIR)/pokemon/deoxys_a.4bpp: %.4bpp: %.png

@@ -1,24 +1,32 @@
-.set LOCALID_RHYDON, 3
+.set LOCALID_HOUNDOOM, 3
 
 ShamoutiIsland_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, ShamoutiIsland_OnFrame
+	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, ShamoutiIsland_OnWarp
 	.byte 0
 
-ShamoutiIsland_OnFrame:
-	map_script_2 VAR_TEAM_ROCKET, 0, ShamoutiIsland_EventScript_Giovanni
+ShamoutiIsland_OnWarp:
+	map_script_2 VAR_TEAM_ROCKET, 0, ShamoutiIsland_EventScript_HidePlayer
 	.2byte 0
 
-ShamoutiIsland_EventScript_Giovanni::
+ShamoutiIsland_EventScript_HidePlayer::
+	removeobject LOCALID_HOUNDOOM
+	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_SHAMOUTI_ISLAND
+	end
+
+ShamoutiIsland_OnFrame:
+	map_script_2 VAR_TEAM_ROCKET, 0, ShamoutiIsland_EventScript_Archer
+	.2byte 0
+
+ShamoutiIsland_EventScript_Archer::
 	playbgm MUS_RG_ROCKET_HIDEOUT, FALSE
-	setobjectxy 0xFF, 30, 29
-	removeobject LOCALID_RHYDON
 	textcolor NPC_TEXT_COLOR_MALE
-	msgbox ShamoutiIsland_Text_Giovanni, MSGBOX_DEFAULT
-	addobject LOCALID_RHYDON
+	msgbox ShamoutiIsland_Text_Archer, MSGBOX_DEFAULT
+	addobject LOCALID_HOUNDOOM
 	setvar VAR_TEAM_ROCKET, 1
 	end
 
-ShamoutiIsland_Text_Giovanni:
-	.string "LUGIA! I have come here to test your\n"
-	.string "power!\p"
-	.string "Go, Rhydon!$"
+ShamoutiIsland_Text_Archer:
+	.string "ARCHER: Lugia! I have come here to test\n"
+	.string "your power!\p"
+	.string "Go, Houndoom!$"
