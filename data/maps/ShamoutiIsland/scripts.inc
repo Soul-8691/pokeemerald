@@ -11,7 +11,7 @@ ShamoutiIsland_OnWarp:
 
 ShamoutiIsland_EventScript_HidePlayer::
 	removeobject LOCALID_HOUNDOOM
-	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_SHAMOUTI_ISLAND
+	setobjectxy OBJ_EVENT_ID_PLAYER, 30, 29
 	end
 
 ShamoutiIsland_OnFrame:
