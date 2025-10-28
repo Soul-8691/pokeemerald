@@ -1,26 +1,25 @@
 Remake
+Vanilla plot changes
 Lugia plot
 Battle Frontier plot
-Professor Ivy quests
+Professor Ivy mandatory quests
+Miscellaneous side quests
 Town Map
 Pokedex Map
 Map importing
 Overworld sprite importing
 Trainer sprite importing
-New maps (5qwerty/Demonheadge)
-New sprites (Eru/Invis/gnomo/Brolunite)
+New maps (5qwerty/Demonheadge/Tardysoap)
+New sprites (Eru/Invis/gnomo/Brolunite/Rushay)
 New tiles (gnomo)
+Coder (Agustin)
+Story writer (RainiSkies/PCG)
 Tileset adjusting
 Tileset making
 Battle Frontier coding
-Quest menu
 Trainer card
-Misc quests
-Battle Tower
-Battle Factory
-Battle Dome
-Battle Pike
-Battle Pyramid
+Recolor UI
+Code new UI
 Battle Castle
 Stadium
 Orre Colosseum
@@ -38,10 +37,8 @@ ZU
 Monotype
 Level 50 (Stadium)
 Level 10-90 (Battle Tower)
-Easy/Normal/Hard/Insane Tiers
 Pools (of Pokemon)
 Randomized teams
-Battle Points
 Ranking Hall
 Banlists
 Species Clause
@@ -62,20 +59,14 @@ EV changer NPC
 Egg Move Learner item
 Move Learner (scales learnsets based on flags/vars/saveblock variables)
 Ability capsule
-AI presets
-Trainer class randomization
+Better AI (DA)
 Team Validator
 Team Builder
 Custom UI
 Facility leaders
 Informational NPCs
-NPCs
+Miscellaneous NPCs
 New facility tiles
-Rainbow Isle background tiles
 Mapping
-Music
-JPAN saveblock
-ASM
-Wild Pokemon
-Progression-based gatekeeping
-Shadow Pokemon
+Music (Avir)
+Progression-based gatekeeping/"locks and keys"
