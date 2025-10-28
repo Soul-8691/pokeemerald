@@ -2950,3 +2950,22 @@ const u16 gTilesetPalettes_OI_ShamoutiIsland[][16] =
 };
 
 const u32 gTilesetTiles_OI_ShamoutiIsland[] = INCBIN_U32("data/tilesets/secondary/oi_shamouti_island/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_OI_TeamRocketHideout[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/oi_team_rocket_hideout/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oi_team_rocket_hideout/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oi_team_rocket_hideout/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oi_team_rocket_hideout/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oi_team_rocket_hideout/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oi_team_rocket_hideout/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oi_team_rocket_hideout/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oi_team_rocket_hideout/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oi_team_rocket_hideout/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oi_team_rocket_hideout/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oi_team_rocket_hideout/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oi_team_rocket_hideout/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oi_team_rocket_hideout/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_OI_TeamRocketHideout[] = INCBIN_U32("data/tilesets/secondary/oi_team_rocket_hideout/tiles.4bpp.lz");

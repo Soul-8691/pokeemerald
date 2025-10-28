@@ -1592,3 +1592,15 @@ const struct Tileset gTileset_OI_ShamoutiIsland =
     .metatileAttributes = gMetatileAttributes_OI_ShamoutiIsland,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_OI_TeamRocketHideout =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .dontUsePal7 = TRUE,
+    .tiles = gTilesetTiles_OI_TeamRocketHideout,
+    .palettes = gTilesetPalettes_OI_TeamRocketHideout,
+    .metatiles = gMetatiles_OI_TeamRocketHideout,
+    .metatileAttributes = gMetatileAttributes_OI_TeamRocketHideout,
+    .callback = NULL,
+};
