@@ -51,6 +51,20 @@
       "elevation": 0,
       "dest_map": "MAP_VALENCIA_PARK",
       "dest_warp_id": "1"
+    },
+    {
+      "x": 26,
+      "y": 26,
+      "elevation": 0,
+      "dest_map": "MAP_VALENCIA_PARK",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 26,
+      "y": 27,
+      "elevation": 0,
+      "dest_map": "MAP_VALENCIA_PARK",
+      "dest_warp_id": "3"
     }
   ],
   "coord_events": [
