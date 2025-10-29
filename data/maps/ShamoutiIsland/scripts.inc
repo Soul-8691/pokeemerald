@@ -38,6 +38,7 @@ ShamoutiIsland_EventScript_Archer::
 	playmoncry SPECIES_HOUNDOOM, CRY_MODE_NORMAL
 	waitmoncry
 	setvar VAR_TEAM_ROCKET, 1
+	clearflag FLAG_CUTSCENE
 	end
 
 ShamoutiIsland_Text_Archer:
