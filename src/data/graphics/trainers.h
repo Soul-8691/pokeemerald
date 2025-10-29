@@ -446,7 +446,7 @@ const u16 gTrainerPalette_FRLGPainter[] = INCBIN_U16("graphics/trainers/front_pi
 
 const u32 gTrainerFrontPic_FRLGTuberM[] = INCBIN_U32("graphics/trainers/front_pics/frlg/tuber_m.4bpp.lz");
 
-const u8 gTrainerBackPic_Brendan[] = INCBIN_U8("graphics/trainers/back_pics/brendan.4bpp");
+const u8 gTrainerBackPic_Brendan[] = INCBIN_U8("graphics/trainers/back_pics/ash.4bpp");
 const u8 gTrainerBackPic_May[] = INCBIN_U8("graphics/trainers/back_pics/may.4bpp");
 const u8 gTrainerBackPic_FRLGRed[] = INCBIN_U8("graphics/trainers/back_pics/frlg/red.4bpp");
 const u8 gTrainerBackPic_FRLGLeaf[] = INCBIN_U8("graphics/trainers/back_pics/frlg/leaf.4bpp");
