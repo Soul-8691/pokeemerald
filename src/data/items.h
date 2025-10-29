@@ -4703,13 +4703,12 @@ const struct Item gItems[] =
 
     [ITEM_OAKS_PARCEL] =
     {
-        .name = _("OAK'S PARCEL"),
+        .name = _("SILVER WING"),
         .itemId = ITEM_OAKS_PARCEL,
         .price = 0,
-        .description = COMPOUND_STRING("A parcel for PROF.\n"
-                                       "OAK from a POKéMON\n"
-                                       "MART's clerk."),
-        .importance = 2,
+        .description = COMPOUND_STRING("A strange, silver-\n"
+                                       "colored feather."),
+        .importance = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
