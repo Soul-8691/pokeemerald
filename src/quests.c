@@ -243,7 +243,7 @@ static const u8 sText_AZ[] = _(" A-Z");
 
 //Declaration of subquest structures. Edits to subquests are made here.
 #define sub_quest(i, n, d, m, s, st, t) {.id = i, .name = n, .desc = d, .map = m, .sprite = s, .spritetype = st, .type = t}
-static const struct SubQuest sSubQuests1[QUEST_1_SUB_COUNT] =
+static const struct SubQuest sSubQuests0[QUEST_0_SUB_COUNT] =
 {
 	sub_quest(
 	      0,
@@ -252,6 +252,28 @@ static const struct SubQuest sSubQuests1[QUEST_1_SUB_COUNT] =
 	      gText_SideQuestMap1,
 	      SPECIES_SLAKOTH,
 	      PKMN,
+	      sText_Found
+	),
+	sub_quest(
+	      1,
+	      gText_SubQuest1_Name2,
+	      gText_SubQuest1_Desc2,
+	      gText_SideQuestMap1,
+	      OBJ_EVENT_GFX_ITEM_BALL,
+	      OBJECT,
+	      sText_Found
+	),
+};
+
+static const struct SubQuest sSubQuests1[QUEST_1_SUB_COUNT] =
+{
+	sub_quest(
+	      0,
+	      gText_SubQuest1_Name1,
+	      gText_SubQuest1_Desc1,
+	      gText_SideQuestMap1,
+	      OBJ_EVENT_GFX_WALLY,
+	      OBJECT,
 	      sText_Found
 	),
 

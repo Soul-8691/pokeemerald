@@ -78,6 +78,7 @@
 #define SUB_QUEST_29        28
 #define SUB_QUEST_30        29
 
+#define QUEST_0_SUB_COUNT 2
 #define QUEST_1_SUB_COUNT 10
 #define QUEST_2_SUB_COUNT 20
 #define SUB_QUEST_COUNT (QUEST_1_SUB_COUNT + QUEST_2_SUB_COUNT)
