@@ -1451,3 +1451,6 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/ShamoutiIsland/scripts.inc"
 	.include "data/maps/ShamoutiIsland/text.inc"
     .include "data/scripts/qol_field_move_scripts.inc" @ qol_field_moves 
+
+	.include "data/maps/ValenciaPark/scripts.inc"
+	.include "data/maps/ValenciaPark/text.inc"

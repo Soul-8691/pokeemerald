@@ -8388,6 +8388,18 @@
       "secondary_tileset": "gTileset_OI_ShamoutiIsland",
       "border_filepath": "data/layouts/ShamoutiIsland/border.bin",
       "blockdata_filepath": "data/layouts/ShamoutiIsland/map.bin"
+    },
+    {
+      "id": "LAYOUT_VALENCIA_PARK",
+      "name": "ValenciaPark_Layout",
+      "width": 54,
+      "height": 54,
+      "border_width": 3,
+      "border_height": 2,
+      "primary_tileset": "gTileset_OI_General",
+      "secondary_tileset": "gTileset_OI_ValenciaPark",
+      "border_filepath": "data/layouts/ValenciaPark/border.bin",
+      "blockdata_filepath": "data/layouts/ValenciaPark/map.bin"
     }
   ]
 }

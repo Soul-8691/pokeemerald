@@ -1604,3 +1604,15 @@ const struct Tileset gTileset_OI_TeamRocketHideout =
     .metatileAttributes = gMetatileAttributes_OI_TeamRocketHideout,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_OI_ValenciaPark =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .dontUsePal7 = TRUE,
+    .tiles = gTilesetTiles_OI_ValenciaPark,
+    .palettes = gTilesetPalettes_OI_ValenciaPark,
+    .metatiles = gMetatiles_OI_ValenciaPark,
+    .metatileAttributes = gMetatileAttributes_OI_ValenciaPark,
+    .callback = NULL,
+};

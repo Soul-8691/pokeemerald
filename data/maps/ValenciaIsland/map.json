@@ -37,6 +37,20 @@
       "elevation": 0,
       "dest_map": "MAP_VALENCIA_ISLAND_PROFESSOR_IVYS_LAB",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 13,
+      "y": 24,
+      "elevation": 0,
+      "dest_map": "MAP_VALENCIA_PARK",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 13,
+      "y": 25,
+      "elevation": 0,
+      "dest_map": "MAP_VALENCIA_PARK",
+      "dest_warp_id": "1"
     }
   ],
   "coord_events": [

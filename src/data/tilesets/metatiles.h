@@ -393,3 +393,6 @@ const u32 gMetatileAttributes_OI_ShamoutiIsland[] = INCBIN_U32("data/tilesets/se
 
 const u16 gMetatiles_OI_TeamRocketHideout[] = INCBIN_U16("data/tilesets/secondary/oi_team_rocket_hideout/metatiles.bin");
 const u32 gMetatileAttributes_OI_TeamRocketHideout[] = INCBIN_U32("data/tilesets/secondary/oi_team_rocket_hideout/metatile_attributes.bin");
+
+const u16 gMetatiles_OI_ValenciaPark[] = INCBIN_U16("data/tilesets/secondary/oi_valencia_park/metatiles.bin");
+const u32 gMetatileAttributes_OI_ValenciaPark[] = INCBIN_U32("data/tilesets/secondary/oi_valencia_park/metatile_attributes.bin");
