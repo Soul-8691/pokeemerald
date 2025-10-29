@@ -5,3 +5,4 @@ Title screen bg doesn't show up at first
 Orange Island tiles don't animate
 Surf blob overworlds
 Can't find Route A
+No triple layer tiles (binary implementation)
