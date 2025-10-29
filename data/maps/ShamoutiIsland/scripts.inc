@@ -51,6 +51,8 @@ ShamoutiIsland_EventScript_Archer::
 	delay B_WAIT_TIME_SHORT
 	hideitemdesc
 	delay B_WAIT_TIME_SHORT
+	playmoncry SPECIES_LUGIA, CRY_MODE_NORMAL
+	waitmoncry
 	removeobject LOCALID_LUGIA
 	delay 100
 	setvar VAR_TEAM_ROCKET, 1
