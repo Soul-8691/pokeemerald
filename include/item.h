@@ -76,7 +76,9 @@ u8 ItemId_GetBattleUsage(u16 itemId);
 ItemUseFunc ItemId_GetBattleFunc(u16 itemId);
 u8 ItemId_GetSecondaryId(u16 itemId);
 void DrawHeaderBox(void);
+void ShowItemIconSprite(u16 item, bool8 firstTime, bool8 flash);
 void HideHeaderBox(void);
+void DestroyItemIconSprite(void);
 
 enum ItemObtainFlags
 {

@@ -22,8 +22,6 @@
 
 static bool8 CheckPyramidBagHasItem(u16 itemId, u16 count);
 static bool8 CheckPyramidBagHasSpace(u16 itemId, u16 count);
-static void ShowItemIconSprite(u16 item, bool8 firstTime, bool8 flash);
-static void DestroyItemIconSprite(void);
 
 EWRAM_DATA struct BagPocket gBagPockets[POCKETS_COUNT] = {0};
 EWRAM_DATA static u8 sHeaderBoxWindowId = 0;
@@ -1076,7 +1074,7 @@ void HideHeaderBox(void)
 #include "gpu_regs.h"
 
 #define ITEM_TAG 0x2722 //same as money label
-static void ShowItemIconSprite(u16 item, bool8 firstTime, bool8 flash)
+void ShowItemIconSprite(u16 item, bool8 firstTime, bool8 flash)
 {
     s16 x, y;
     u8 iconSpriteId;   
@@ -1098,6 +1096,12 @@ static void ShowItemIconSprite(u16 item, bool8 firstTime, bool8 flash)
             //show in message box
             x = 213;
             y = 140;
+        }
+        else if (FlagGet(FLAG_CUTSCENE))
+        {
+            // show in middle of screen
+            x = gSpecialVar_0x8005;
+            y = gSpecialVar_0x8006;
         }
         else
         {
@@ -1123,7 +1127,7 @@ static void ShowItemIconSprite(u16 item, bool8 firstTime, bool8 flash)
     sItemIconSpriteId = iconSpriteId;
 }
 
-static void DestroyItemIconSprite(void)
+void DestroyItemIconSprite(void)
 {
     FreeSpriteTilesByTag(ITEM_TAG);
     FreeSpritePaletteByTag(ITEM_TAG);

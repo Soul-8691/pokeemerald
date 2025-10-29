@@ -2536,12 +2536,18 @@ bool8 ScrCmd_warpcontinuescript(struct ScriptContext *ctx)
 
 bool8 ScrCmd_showitemdesc(struct ScriptContext *ctx)
 {
-    DrawHeaderBox();
+    if (!FlagGet(FLAG_CUTSCENE))
+        DrawHeaderBox();
+    else
+        ShowItemIconSprite(gSpecialVar_0x8004, TRUE, FALSE);
     return FALSE;
 }
 
 bool8 ScrCmd_hideitemdesc(struct ScriptContext *ctx)
 {
-    HideHeaderBox();
+    if (!FlagGet(FLAG_CUTSCENE))
+        HideHeaderBox();
+    else
+        DestroyItemIconSprite();
     return FALSE;
 }
