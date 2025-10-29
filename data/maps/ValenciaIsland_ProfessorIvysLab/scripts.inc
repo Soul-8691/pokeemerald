@@ -27,8 +27,6 @@ ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvy2::
 	setflag FLAG_SYS_QUEST_MENU_GET
 	questmenu QUEST_MENU_UNLOCK_QUEST QUEST_1
 	startquest QUEST_1
-	textcolor NPC_TEXT_COLOR_NEUTRAL
-	msgbox ValenciaIsland_ProfessorIvysLab_Text_Quest1Unlocked, MSGBOX_SIGN
 	textcolor NPC_TEXT_COLOR_FEMALE
 	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvy6, MSGBOX_DEFAULT
 	setvar VAR_PROFESSOR_IVY, 2
@@ -110,12 +108,9 @@ ValenciaIsland_ProfessorIvysLab_Text_ProfIvy5:
 	.string "the POKéMON for reward!\p"
 	.string "Here is a Quest Log.$"
 
-ValenciaIsland_ProfessorIvysLab_Text_Quest1Unlocked:
-	.string "LAZY LOAFER unlocked.$"
-
 ValenciaIsland_ProfessorIvysLab_Text_ProfIvy6:
 	.string "Good luck out there! Feel free to\n"
-	.string "Surf out to Route E and battle some\p"
+	.string "Surf out to Route A/E and battle some\p"
 	.string "trainers, but I will guilt trip you\n"
 	.string "into returning to my employment if\p"
 	.string "you go too far!$"
