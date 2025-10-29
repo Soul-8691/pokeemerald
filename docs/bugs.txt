@@ -6,3 +6,4 @@ Orange Island tiles don't animate
 Surf blob overworlds
 Can't find Route A
 No triple layer tiles (binary implementation)
+Make player face Prof. Ivy after returning
