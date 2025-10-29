@@ -7,3 +7,4 @@ Surf blob overworlds
 Can't find Route A
 No triple layer tiles (binary implementation)
 Make player face Prof. Ivy after returning
+Too many Start menu options
