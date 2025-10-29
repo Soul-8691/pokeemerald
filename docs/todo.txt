@@ -76,5 +76,5 @@ Informational NPCs
 Miscellaneous NPCs
 New facility tiles
 Mapping
-Music (Avir)
+Music (Avir/Ristar)
 Progression-based gatekeeping/"locks and keys"
