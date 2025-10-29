@@ -278,5 +278,7 @@ EventScript_ResetAllMapFlags::
 	setflag FLAG_SYS_POKEDEX_GET
 	setflag FLAG_SYS_NATIONAL_DEX
 	special EnableNationalPokedex
+	setflag FLAG_SYS_POKENAV_GET
+	setflag FLAG_SYS_FRONTIER_PASS
 	setflag FLAG_SYS_B_DASH
 	end
