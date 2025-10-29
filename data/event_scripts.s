@@ -1454,3 +1454,9 @@ Common_EventScript_LegendaryFlewAway::
 
 	.include "data/maps/ValenciaPark/scripts.inc"
 	.include "data/maps/ValenciaPark/text.inc"
+
+	.include "data/maps/RouteE/scripts.inc"
+	.include "data/maps/RouteE/text.inc"
+
+	.include "data/maps/RouteA/scripts.inc"
+	.include "data/maps/RouteA/text.inc"

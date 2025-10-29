@@ -8400,6 +8400,30 @@
       "secondary_tileset": "gTileset_OI_ValenciaPark",
       "border_filepath": "data/layouts/ValenciaPark/border.bin",
       "blockdata_filepath": "data/layouts/ValenciaPark/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE_E",
+      "name": "RouteE_Layout",
+      "width": 32,
+      "height": 40,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_OI_General",
+      "secondary_tileset": "gTileset_OI_ValenciaIsland",
+      "border_filepath": "data/layouts/RouteE/border.bin",
+      "blockdata_filepath": "data/layouts/RouteE/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE_A",
+      "name": "RouteA_Layout",
+      "width": 64,
+      "height": 32,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_OI_General",
+      "secondary_tileset": "gTileset_OI_ValenciaIsland",
+      "border_filepath": "data/layouts/RouteA/border.bin",
+      "blockdata_filepath": "data/layouts/RouteA/map.bin"
     }
   ]
 }

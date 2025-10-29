@@ -133,7 +133,9 @@
     "Underwater_Route105",
     "Underwater_Route125",
     "ValenciaIsland",
-    "ShamoutiIsland"
+    "ShamoutiIsland",
+    "RouteE",
+    "RouteA"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
