@@ -250,8 +250,8 @@ static const struct SubQuest sSubQuests1[QUEST_1_SUB_COUNT] =
 	      gText_SubQuest1_Name1,
 	      gText_SubQuest1_Desc1,
 	      gText_SideQuestMap1,
-	      OBJ_EVENT_GFX_WALLY,
-	      OBJECT,
+	      SPECIES_SLAKOTH,
+	      PKMN,
 	      sText_Found
 	),
 
@@ -566,8 +566,8 @@ static const struct SideQuest sSideQuests[QUEST_COUNT] =
 	      gText_SideQuestDesc_1,
 	      gText_SideQuestDoneDesc_1,
 	      gText_SideQuestMap1,
-	      OBJ_EVENT_GFX_WALLY,
-	      OBJECT,
+	      SPECIES_SLAKOTH,
+	      PKMN,
 	      NULL,
 	      0
 	),
