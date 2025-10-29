@@ -234,6 +234,8 @@ gScriptCmdTable::
 	.4byte ScrCmd_warpcontinuescript                @ 0xe7
 	.4byte ScrCmd_showitemdesc              		@ 0xe8
 	.4byte ScrCmd_hideitemdesc              		@ 0xe9
+	.4byte ScrCmd_dynmultichoice                    @ 0xea
+	.4byte ScrCmd_dynmultipush                      @ 0xeb
 
 gScriptCmdTableEnd::
 	.4byte ScrCmd_nop
