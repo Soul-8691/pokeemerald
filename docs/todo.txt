@@ -9,7 +9,7 @@ Pokedex Map
 Map importing
 Overworld sprite importing
 Trainer sprite importing
-New maps (5qwerty/Demonheadge/Tardysoap)
+New maps (5qwerty/Demonheadge)
 New sprites (Eru/Invis/gnomo/Brolunite/Rushay)
 New tiles (gnomo)
 Coder (Agustin)
