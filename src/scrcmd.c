@@ -2533,3 +2533,15 @@ bool8 ScrCmd_warpcontinuescript(struct ScriptContext *ctx)
     SetMainCallback2(CB2_LoadMap);
     return TRUE;
 }
+
+bool8 ScrCmd_showitemdesc(struct ScriptContext *ctx)
+{
+    DrawHeaderBox();
+    return FALSE;
+}
+
+bool8 ScrCmd_hideitemdesc(struct ScriptContext *ctx)
+{
+    HideHeaderBox();
+    return FALSE;
+}

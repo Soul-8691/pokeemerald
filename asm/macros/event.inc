@@ -1731,13 +1731,13 @@
 	.endm
 
     .macro questmenu case:req, questId:req
-    .byte 0xe3
+    .byte 0xe4
     .byte \case
     .byte \questId
     .endm
 
     .macro subquestmenu case:req, parentId:req, childId:req
-    .byte 0xe4
+    .byte 0xe5
     .byte \case
     .2byte \parentId
     .2byte \childId
@@ -1745,7 +1745,7 @@
 
     @ Check the quest state and return a number associated with quest state
     .macro returnqueststate questId:req
-    .byte 0xe5
+    .byte 0xe6
     .byte \questId
     .endm
     
@@ -1881,6 +1881,24 @@
     subquestmenu QUEST_MENU_CHECK_COMPLETE \parent \child
     call_if_eq VAR_RESULT, FALSE, \dest
     .endm
+	.macro showdescription
+	.byte 0xe8
+	.endm
+
+	.macro showitemdesc
+	setvar VAR_0x8009, 0
+	showdescription
+	.endm
+
+	.macro showberrydesc
+	setvar VAR_0x8009, 1
+	showdescription
+	.endm
+
+	.macro hideitemdesc
+	.byte 0xe9
+	.endm
+
 
 @ Supplementary
 
