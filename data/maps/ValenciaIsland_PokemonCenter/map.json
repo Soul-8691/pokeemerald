@@ -18,7 +18,13 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 7,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_VALENCIA_ISLAND",
+      "dest_warp_id": "5"
+    }
   ],
   "coord_events": [
 
