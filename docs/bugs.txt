@@ -3,6 +3,3 @@ Town/Catch maps uses weird palette assignment
 Title screen bg palette needs to be clipped to 224 colors
 Title screen bg doesn't show up at first
 Orange Island tiles don't animate
-No triple layer tiles (binary implementation)
-Make player face Prof. Ivy after returning
-Too many Start menu options

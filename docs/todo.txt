@@ -2,10 +2,13 @@ Pressing:
 Prof. Ivy gatekeeping scripts
 Complete quest when turning in Slakoth
 Checkpartymon scripting command (port from expansion)
+Make player face Prof. Ivy after returning
+Too many Start menu options
 
 Somewhat pressing:
 Battle Tower cutscene
 Title screen music
+No triple layer tiles (binary implementation)
 
 General:
 Remake
