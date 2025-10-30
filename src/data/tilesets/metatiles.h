@@ -396,3 +396,9 @@ const u32 gMetatileAttributes_OI_TeamRocketHideout[] = INCBIN_U32("data/tilesets
 
 const u16 gMetatiles_OI_ValenciaPark[] = INCBIN_U16("data/tilesets/secondary/oi_valencia_park/metatiles.bin");
 const u32 gMetatileAttributes_OI_ValenciaPark[] = INCBIN_U32("data/tilesets/secondary/oi_valencia_park/metatile_attributes.bin");
+
+const u16 gMetatiles_OI_Indoor[] = INCBIN_U16("data/tilesets/secondary/oi_indoor/metatiles.bin");
+const u32 gMetatileAttributes_OI_Indoor[] = INCBIN_U32("data/tilesets/secondary/oi_indoor/metatile_attributes.bin");
+
+const u16 gMetatiles_OI_PokemonCenter[] = INCBIN_U16("data/tilesets/secondary/oi_pokemon_center/metatiles.bin");
+const u32 gMetatileAttributes_OI_PokemonCenter[] = INCBIN_U32("data/tilesets/secondary/oi_pokemon_center/metatile_attributes.bin");

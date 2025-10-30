@@ -8424,6 +8424,18 @@
       "secondary_tileset": "gTileset_OI_ValenciaIsland",
       "border_filepath": "data/layouts/RouteA/border.bin",
       "blockdata_filepath": "data/layouts/RouteA/map.bin"
+    },
+    {
+      "id": "LAYOUT_VALENCIA_ISLAND_POKEMON_CENTER",
+      "name": "ValenciaIsland_PokemonCenter_Layout",
+      "width": 15,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_OI_Building",
+      "secondary_tileset": "gTileset_OI_PokemonCenter",
+      "border_filepath": "data/layouts/ValenciaIsland_PokemonCenter/border.bin",
+      "blockdata_filepath": "data/layouts/ValenciaIsland_PokemonCenter/map.bin"
     }
   ]
 }

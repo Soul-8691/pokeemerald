@@ -76,6 +76,13 @@
       "elevation": 0,
       "dest_map": "MAP_VALENCIA_PARK",
       "dest_warp_id": "3"
+    },
+    {
+      "x": 27,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_VALENCIA_ISLAND_POKEMON_CENTER",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

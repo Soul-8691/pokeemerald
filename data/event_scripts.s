@@ -1460,3 +1460,6 @@ Common_EventScript_LegendaryFlewAway::
 
 	.include "data/maps/RouteA/scripts.inc"
 	.include "data/maps/RouteA/text.inc"
+
+	.include "data/maps/ValenciaIsland_PokemonCenter/scripts.inc"
+	.include "data/maps/ValenciaIsland_PokemonCenter/text.inc"

@@ -1616,3 +1616,25 @@ const struct Tileset gTileset_OI_ValenciaPark =
     .metatileAttributes = gMetatileAttributes_OI_ValenciaPark,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_OI_Indoor =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_OI_Indoor,
+    .palettes = gTilesetPalettes_OI_Indoor,
+    .metatiles = gMetatiles_OI_Indoor,
+    .metatileAttributes = gMetatileAttributes_OI_Indoor,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_OI_PokemonCenter =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_OI_PokemonCenter,
+    .palettes = gTilesetPalettes_OI_PokemonCenter,
+    .metatiles = gMetatiles_OI_PokemonCenter,
+    .metatileAttributes = gMetatileAttributes_OI_PokemonCenter,
+    .callback = NULL,
+};
