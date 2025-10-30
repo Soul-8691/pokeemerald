@@ -4,6 +4,7 @@ Prof. Ivy gatekeeping scripts
 Complete quest when turning in Slakoth
 Checkpartymon scripting command (port from expansion)
 Battle Tower cutscene
+Title screen music
 
 General:
 Remake
