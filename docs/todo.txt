@@ -3,6 +3,7 @@ Valencia Island and Route A/E wild Pokemon
 Prof. Ivy gatekeeping scripts
 Complete quest when turning in Slakoth
 Checkpartymon scripting command (port from expansion)
+Battle Tower cutscene
 
 General:
 Remake
