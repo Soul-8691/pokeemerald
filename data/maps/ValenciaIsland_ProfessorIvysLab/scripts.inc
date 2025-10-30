@@ -27,6 +27,7 @@ ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvy2::
 	setflag FLAG_SYS_QUEST_MENU_GET
 	questmenu QUEST_MENU_UNLOCK_QUEST QUEST_1
 	startquest QUEST_1
+	lockall
 	textcolor NPC_TEXT_COLOR_FEMALE
 	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvy6, MSGBOX_DEFAULT
 	setvar VAR_PROFESSOR_IVY, 2
@@ -106,7 +107,8 @@ ValenciaIsland_ProfessorIvysLab_Text_ProfIvy5:
 	.string "will not be able to progress to an\p"
 	.string "unvisited map until you bring me back\n"
 	.string "the POKéMON for reward!\p"
-	.string "Here is a Quest Log.$"
+	.string "I have updated your Start Menu with\n"
+	.string "the Quest menu item.$"
 
 ValenciaIsland_ProfessorIvysLab_Text_ProfIvy6:
 	.string "Good luck out there! Feel free to\n"

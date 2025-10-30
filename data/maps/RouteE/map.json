@@ -27,7 +27,195 @@
 
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 7,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "2",
+      "script": "EventScript_LabTriggerUp"
+    },
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "2",
+      "script": "EventScript_LabTriggerUp"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "2",
+      "script": "EventScript_LabTriggerUp"
+    },
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "2",
+      "script": "EventScript_LabTriggerUp"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "2",
+      "script": "EventScript_LabTriggerUp"
+    },
+    {
+      "type": "trigger",
+      "x": 12,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "2",
+      "script": "EventScript_LabTriggerUp"
+    },
+    {
+      "type": "trigger",
+      "x": 13,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "2",
+      "script": "EventScript_LabTriggerUp"
+    },
+    {
+      "type": "trigger",
+      "x": 14,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "2",
+      "script": "EventScript_LabTriggerUp"
+    },
+    {
+      "type": "trigger",
+      "x": 15,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "2",
+      "script": "EventScript_LabTriggerUp"
+    },
+    {
+      "type": "trigger",
+      "x": 16,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "2",
+      "script": "EventScript_LabTriggerUp"
+    },
+    {
+      "type": "trigger",
+      "x": 17,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "2",
+      "script": "EventScript_LabTriggerUp"
+    },
+    {
+      "type": "trigger",
+      "x": 18,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "2",
+      "script": "EventScript_LabTriggerUp"
+    },
+    {
+      "type": "trigger",
+      "x": 23,
+      "y": 15,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "2",
+      "script": "EventScript_LabTriggerRight"
+    },
+    {
+      "type": "trigger",
+      "x": 23,
+      "y": 16,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "2",
+      "script": "EventScript_LabTriggerRight"
+    },
+    {
+      "type": "trigger",
+      "x": 23,
+      "y": 17,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "2",
+      "script": "EventScript_LabTriggerRight"
+    },
+    {
+      "type": "trigger",
+      "x": 23,
+      "y": 18,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "2",
+      "script": "EventScript_LabTriggerRight"
+    },
+    {
+      "type": "trigger",
+      "x": 23,
+      "y": 19,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "2",
+      "script": "EventScript_LabTriggerRight"
+    },
+    {
+      "type": "trigger",
+      "x": 23,
+      "y": 20,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "2",
+      "script": "EventScript_LabTriggerRight"
+    },
+    {
+      "type": "trigger",
+      "x": 23,
+      "y": 21,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "2",
+      "script": "EventScript_LabTriggerRight"
+    },
+    {
+      "type": "trigger",
+      "x": 23,
+      "y": 22,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "2",
+      "script": "EventScript_LabTriggerRight"
+    },
+    {
+      "type": "trigger",
+      "x": 23,
+      "y": 23,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "2",
+      "script": "EventScript_LabTriggerRight"
+    }
   ],
   "bg_events": [
 

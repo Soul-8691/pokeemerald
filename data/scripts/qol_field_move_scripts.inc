@@ -80,3 +80,55 @@ EventScript_UseTeleportTool::
 EventScript_CancelTeleportTool::
     releaseall
     end
+
+EventScript_LabTriggerUp::
+	lockall
+	msgbox Text_Assignment, MSGBOX_DEFAULT
+	applymovement OBJ_EVENT_ID_PLAYER, Movement_StepDown
+	waitmovement 0
+	releaseall
+	end
+
+EventScript_LabTriggerRight::
+	lockall
+	msgbox Text_Assignment, MSGBOX_DEFAULT
+	applymovement OBJ_EVENT_ID_PLAYER, Movement_StepLeft
+	waitmovement 0
+	releaseall
+	end
+
+EventScript_LabTriggerDown::
+	lockall
+	msgbox Text_Assignment, MSGBOX_DEFAULT
+	applymovement OBJ_EVENT_ID_PLAYER, Movement_StepUp
+	waitmovement 0
+	releaseall
+	end
+
+EventScript_LabTriggerLeft::
+	lockall
+	msgbox Text_Assignment, MSGBOX_DEFAULT
+	applymovement OBJ_EVENT_ID_PLAYER, Movement_StepRight
+	waitmovement 0
+	releaseall
+	end
+
+Text_Assignment:
+	.string "I should finish Professor Ivy's\n"
+    .string "assignment before continuing.$"
+
+Movement_StepRight:
+	walk_right
+	step_end
+
+Movement_StepLeft:
+	walk_left
+	step_end
+
+Movement_StepUp:
+	walk_up
+	step_end
+
+Movement_StepDown:
+	walk_down
+	step_end

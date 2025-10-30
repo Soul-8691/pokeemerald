@@ -27,7 +27,96 @@
 
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 23,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "2",
+      "script": "EventScript_LabTriggerUp"
+    },
+    {
+      "type": "trigger",
+      "x": 22,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "2",
+      "script": "EventScript_LabTriggerUp"
+    },
+    {
+      "type": "trigger",
+      "x": 21,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "2",
+      "script": "EventScript_LabTriggerUp"
+    },
+    {
+      "type": "trigger",
+      "x": 20,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "2",
+      "script": "EventScript_LabTriggerUp"
+    },
+    {
+      "type": "trigger",
+      "x": 19,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "2",
+      "script": "EventScript_LabTriggerUp"
+    },
+    {
+      "type": "trigger",
+      "x": 18,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "2",
+      "script": "EventScript_LabTriggerUp"
+    },
+    {
+      "type": "trigger",
+      "x": 17,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "2",
+      "script": "EventScript_LabTriggerUp"
+    },
+    {
+      "type": "trigger",
+      "x": 16,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "2",
+      "script": "EventScript_LabTriggerUp"
+    },
+    {
+      "type": "trigger",
+      "x": 15,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "2",
+      "script": "EventScript_LabTriggerUp"
+    },
+    {
+      "type": "trigger",
+      "x": 14,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_PROFESSOR_IVY",
+      "var_value": "2",
+      "script": "EventScript_LabTriggerUp"
+    }
   ],
   "bg_events": [
 
