@@ -43,6 +43,19 @@ ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvy2::
 	releaseall
 	end
 
+ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvy3::
+	lock
+	checkspecies SPECIES_SLAKOTH
+	goto_if_eq VAR_RESULT, TRUE, ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvy4
+	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvy7, MSGBOX_DEFAULT
+	release
+	end
+
+ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvy4::
+	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvy8, MSGBOX_DEFAULT
+	release
+	end
+
 ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvy::
 	lockall
 	applymovement OBJ_EVENT_ID_PLAYER, ValenciaIsland_ProfessorIvysLab_Movement_WalkToProfIvy
@@ -129,3 +142,9 @@ ValenciaIsland_ProfessorIvysLab_Text_ProfIvy6:
 	.string "trainers, but I will guilt trip you\n"
 	.string "into returning to my employment if\p"
 	.string "you go too far!$"
+
+ValenciaIsland_ProfessorIvysLab_Text_ProfIvy7:
+	.string "That is not a SLAKOTH.$"
+
+ValenciaIsland_ProfessorIvysLab_Text_ProfIvy8:
+	.string "That is indeed a SLAKOTH.$"

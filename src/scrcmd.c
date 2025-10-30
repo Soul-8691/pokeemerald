@@ -2649,3 +2649,21 @@ bool8 ScrCmd_hideitemdesc(struct ScriptContext *ctx)
         DestroyItemIconSprite();
     return FALSE;
 }
+
+bool8 Scrcmd_checkspecies(struct ScriptContext *ctx)
+{
+    u16 givenSpecies = VarGet(ScriptReadHalfword(ctx));
+
+    gSpecialVar_Result = CheckPartyHasSpecies(givenSpecies);
+
+    return FALSE;
+}
+
+bool8 Scrcmd_checkspecies_choose(struct ScriptContext *ctx)
+{
+    u16 givenSpecies = VarGet(ScriptReadHalfword(ctx));
+
+    gSpecialVar_Result = (GetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_SPECIES) == givenSpecies);
+
+    return FALSE;
+}
