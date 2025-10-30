@@ -12082,7 +12082,7 @@
           "map": "MAP_VALENCIA_ISLAND",
           "base_label": "gValenciaIsland0",
           "water_mons": {
-            "encounter_rate": 4,
+            "encounter_rate": 1,
             "mons": [
               {
                 "min_level": 5,
@@ -12240,7 +12240,7 @@
           "map": "MAP_ROUTE_A",
           "base_label": "gRouteA0",
           "water_mons": {
-            "encounter_rate": 4,
+            "encounter_rate": 2,
             "mons": [
               {
                 "min_level": 6,
