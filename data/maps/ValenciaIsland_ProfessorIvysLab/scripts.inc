@@ -54,6 +54,14 @@ ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvy3::
 ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvy4::
 	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvy8, MSGBOX_DEFAULT
 	callnative RemovePartyMon
+	completequest QUEST_1
+	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvy9, MSGBOX_DEFAULT
+	addmoney 3000
+	textcolor NPC_TEXT_COLOR_NEUTRAL
+	playfanfare MUS_OBTAIN_ITEM
+	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvy10, MSGBOX_SIGN
+	textcolor NPC_TEXT_COLOR_FEMALE
+	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvy11, MSGBOX_DEFAULT
 	release
 	end
 
@@ -145,7 +153,25 @@ ValenciaIsland_ProfessorIvysLab_Text_ProfIvy6:
 	.string "you go too far!$"
 
 ValenciaIsland_ProfessorIvysLab_Text_ProfIvy7:
-	.string "That is not a SLAKOTH.$"
+	.string "That is not a SLAKOTH. Please bring\n"
+	.string "me a SLAKOTH so I can give you your\p"
+	.string "reward.$"
 
 ValenciaIsland_ProfessorIvysLab_Text_ProfIvy8:
-	.string "That is indeed a SLAKOTH.$"
+	.string "That is indeed a SLAKOTH. Here, let\n"
+	.string "me take that from you.$"
+
+ValenciaIsland_ProfessorIvysLab_Text_ProfIvy9:
+	.string "Pretty easy, right? Your tasks from\n"
+	.string "here on out will get progressively\p"
+	.string "harder as you go.\p"
+	.string "Now, as promised, here is your\n"
+	.string "reward.$"
+
+ValenciaIsland_ProfessorIvysLab_Text_ProfIvy10:
+	.string "{PLAYER} received ¥3000!$"
+
+ValenciaIsland_ProfessorIvysLab_Text_ProfIvy11:
+	.string "Your next assignment is to catch\n"
+	.string "a FEEBAS. I am not sure where\p"
+	.string "they are located, so good luck!$"

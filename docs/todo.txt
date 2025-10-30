@@ -1,6 +1,5 @@
 Pressing:
 Complete quest when turning in Slakoth
-Checkpartymon scripting command (port from expansion)
 Too many Start menu options
 Pokemon Center respawn
 
