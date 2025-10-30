@@ -53,6 +53,7 @@ ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvy3::
 
 ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvy4::
 	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvy8, MSGBOX_DEFAULT
+	callnative RemovePartyMon
 	release
 	end
 
