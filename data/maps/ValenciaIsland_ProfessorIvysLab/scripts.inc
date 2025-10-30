@@ -1,6 +1,15 @@
 ValenciaIsland_ProfessorIvysLab_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, ValenciaIsland_ProfessorIvysLab_OnFrame
+	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, ValenciaIsland_ProfessorIvysLab_OnWarp
 	.byte 0
+
+ValenciaIsland_ProfessorIvysLab_OnWarp:
+	map_script_2 VAR_PROFESSOR_IVY, 1, ValenciaIsland_ProfessorIvysLab_EventScript_FaceUp
+	.2byte 0
+
+ValenciaIsland_ProfessorIvysLab_EventScript_FaceUp::
+	applymovement OBJ_EVENT_ID_PLAYER, ValenciaIsland_ProfessorIvysLab_Movement_FaceUp
+	end
 
 ValenciaIsland_ProfessorIvysLab_OnFrame:
 	map_script_2 VAR_PROFESSOR_IVY, 0, ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvy
@@ -51,6 +60,10 @@ ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvy::
 	waitstate
 	releaseall
 	end
+
+ValenciaIsland_ProfessorIvysLab_Movement_FaceUp:
+	face_up
+	step_end
 
 ValenciaIsland_ProfessorIvysLab_Movement_WalkToProfIvy:
 	walk_up

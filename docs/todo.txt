@@ -1,7 +1,6 @@
 Pressing:
 Complete quest when turning in Slakoth
 Checkpartymon scripting command (port from expansion)
-Make player face Prof. Ivy after returning
 Too many Start menu options
 Pokemon Center respawn
 
