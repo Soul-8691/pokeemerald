@@ -1,7 +1,8 @@
 Pressing:
-Complete quest when turning in Slakoth
+Set Lazy Loafer quest to reward when capturing Slakoth
 Too many Start menu options
 Pokemon Center respawn
+Trainers
 
 Somewhat pressing:
 Battle Tower cutscene
