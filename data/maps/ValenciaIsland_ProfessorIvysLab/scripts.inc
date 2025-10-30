@@ -62,6 +62,7 @@ ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvy4::
 	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvy10, MSGBOX_SIGN
 	textcolor NPC_TEXT_COLOR_FEMALE
 	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvy11, MSGBOX_DEFAULT
+	setvar VAR_PROFESSOR_IVY, 3
 	release
 	end
 
