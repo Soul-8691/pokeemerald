@@ -139,7 +139,7 @@ void ReturnToFieldFromFlyToolMapSelect(void)
 
 static void Task_UseFlyTool(void)
 {
-    Overworld_ResetStateAfterTeleport();
+    Overworld_ResetState();
     WarpIntoMap();
     SetMainCallback2(CB2_LoadMap);
     gFieldCallback = FieldCallback_UseFlyTool;

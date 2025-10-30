@@ -1,5 +1,10 @@
 ValenciaIsland_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, ValenciaIsland_OnTransition
 	.byte 0
+
+ValenciaIsland_OnTransition:
+	setflag FLAG_VISITED_LITTLEROOT_TOWN
+	end
 
 ValenciaIsland_EventScript_Fisherman::
 	lock
