@@ -1542,7 +1542,7 @@ const struct Tileset gTileset_OI_General =
     .palettes = gTilesetPalettes_OI_General,
     .metatiles = gMetatiles_OI_General,
     .metatileAttributes = gMetatileAttributes_OI_General,
-    .callback = NULL,
+    .callback = InitTilesetAnim_RG_General,
 };
 
 const struct Tileset gTileset_OI_ValenciaIsland =
