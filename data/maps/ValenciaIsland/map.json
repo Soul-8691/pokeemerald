@@ -83,6 +83,27 @@
       "elevation": 0,
       "dest_map": "MAP_VALENCIA_ISLAND_POKEMON_CENTER",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 13,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_VALENCIA_ISLAND_HOUSE1",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 29,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_VALENCIA_ISLAND_HOUSE2",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 21,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_VALENCIA_ISLAND_SCHOOL",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

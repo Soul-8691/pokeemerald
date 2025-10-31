@@ -1463,3 +1463,12 @@ Common_EventScript_LegendaryFlewAway::
 
 	.include "data/maps/ValenciaIsland_PokemonCenter/scripts.inc"
 	.include "data/maps/ValenciaIsland_PokemonCenter/text.inc"
+
+	.include "data/maps/ValenciaIsland_House1/scripts.inc"
+	.include "data/maps/ValenciaIsland_House1/text.inc"
+
+	.include "data/maps/ValenciaIsland_House2/scripts.inc"
+	.include "data/maps/ValenciaIsland_House2/text.inc"
+
+	.include "data/maps/ValenciaIsland_School/scripts.inc"
+	.include "data/maps/ValenciaIsland_School/text.inc"

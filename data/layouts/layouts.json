@@ -8436,6 +8436,42 @@
       "secondary_tileset": "gTileset_OI_PokemonCenter",
       "border_filepath": "data/layouts/ValenciaIsland_PokemonCenter/border.bin",
       "blockdata_filepath": "data/layouts/ValenciaIsland_PokemonCenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_VALENCIA_ISLAND_HOUSE1",
+      "name": "ValenciaIsland_House1_Layout",
+      "width": 11,
+      "height": 9,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_OI_Building",
+      "secondary_tileset": "gTileset_OI_Indoor",
+      "border_filepath": "data/layouts/ValenciaIsland_House1/border.bin",
+      "blockdata_filepath": "data/layouts/ValenciaIsland_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_VALENCIA_ISLAND_HOUSE2",
+      "name": "ValenciaIsland_House2_Layout",
+      "width": 11,
+      "height": 9,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_OI_Building",
+      "secondary_tileset": "gTileset_OI_Indoor",
+      "border_filepath": "data/layouts/ValenciaIsland_House2/border.bin",
+      "blockdata_filepath": "data/layouts/ValenciaIsland_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_VALENCIA_ISLAND_SCHOOL",
+      "name": "ValenciaIsland_School_Layout",
+      "width": 10,
+      "height": 9,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_OI_Building",
+      "secondary_tileset": "gTileset_RG_School",
+      "border_filepath": "data/layouts/ValenciaIsland_School/border.bin",
+      "blockdata_filepath": "data/layouts/ValenciaIsland_School/map.bin"
     }
   ]
 }

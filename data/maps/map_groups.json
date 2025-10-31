@@ -879,7 +879,10 @@
     "RG_PalletTown_RivalsHouse",
     "RG_PalletTown_ProfessorOaksLab",
     "ValenciaIsland_ProfessorIvysLab",
-    "ValenciaIsland_PokemonCenter"
+    "ValenciaIsland_PokemonCenter",
+    "ValenciaIsland_House1",
+    "ValenciaIsland_House2",
+    "ValenciaIsland_School"
   ],
   "gMapGroup_RG_IndoorViridian": [
     "RG_ViridianCity_House",

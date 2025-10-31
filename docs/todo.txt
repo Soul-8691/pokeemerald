@@ -3,6 +3,7 @@ Set Lazy Loafer quest to reward when capturing Slakoth
 Too many Start menu options
 Pokemon Center respawn
 Trainers
+NPCs
 
 Somewhat pressing:
 Battle Tower cutscene

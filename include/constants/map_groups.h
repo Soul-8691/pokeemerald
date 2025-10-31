@@ -811,6 +811,9 @@
 #define MAP_RG_PALLET_TOWN_PROFESSOR_OAKS_LAB  (3 | (36 << 8))
 #define MAP_VALENCIA_ISLAND_PROFESSOR_IVYS_LAB (4 | (36 << 8))
 #define MAP_VALENCIA_ISLAND_POKEMON_CENTER     (5 | (36 << 8))
+#define MAP_VALENCIA_ISLAND_HOUSE1             (6 | (36 << 8))
+#define MAP_VALENCIA_ISLAND_HOUSE2             (7 | (36 << 8))
+#define MAP_VALENCIA_ISLAND_SCHOOL             (8 | (36 << 8))
 
 // gMapGroup_RG_IndoorViridian
 #define MAP_RG_VIRIDIAN_CITY_HOUSE             (0 | (37 << 8))
