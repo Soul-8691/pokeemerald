@@ -412,7 +412,10 @@ $(MID_SUBDIR)/mus_rg_pallet.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G_rg_pallet -V100
 
 $(MID_SUBDIR)/mus_valencia_island.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V127
+	$(MID) $< $@ -E -R$(STD_REVERB) -G_valencia_island -V100
+
+$(MID_SUBDIR)/mus_title_screen_island.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G_rg_title -V100
 
 $(MID_SUBDIR)/mus_rg_surf.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G_rg_surf -V071

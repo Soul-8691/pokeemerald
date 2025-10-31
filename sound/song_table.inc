@@ -529,3 +529,4 @@ gSongTable::
 	song ph_nurse_held, 2, 2
 	song ph_nurse_solo, 2, 2
 	song mus_valencia_island, 0, 0
+	song mus_title_screen_island, 0, 0

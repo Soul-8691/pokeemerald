@@ -8,7 +8,6 @@ NPCs
 Somewhat pressing:
 Battle Tower cutscene
 Title screen music
-Valencia Island music
 No triple layer tiles (binary implementation)
 Lapras Surf/Pidgeot Fly item sprites
 Archer (scientist) overworld
