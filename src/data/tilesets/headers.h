@@ -1621,6 +1621,7 @@ const struct Tileset gTileset_OI_Indoor =
 {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
+    .dontUsePal7 = TRUE,
     .tiles = gTilesetTiles_OI_Indoor,
     .palettes = gTilesetPalettes_OI_Indoor,
     .metatiles = gMetatiles_OI_Indoor,
@@ -1632,6 +1633,7 @@ const struct Tileset gTileset_OI_PokemonCenter =
 {
     .isCompressed = TRUE,
     .isSecondary = TRUE,
+    .dontUsePal7 = TRUE,
     .tiles = gTilesetTiles_OI_PokemonCenter,
     .palettes = gTilesetPalettes_OI_PokemonCenter,
     .metatiles = gMetatiles_OI_PokemonCenter,
