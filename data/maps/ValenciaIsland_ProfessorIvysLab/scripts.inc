@@ -107,7 +107,7 @@ ValenciaIsland_ProfessorIvysLab_Text_ProfIvy:
 
 ValenciaIsland_ProfessorIvysLab_Text_ProfIvy2:
 	.string "They are the Lapras Paddle and the\n"
-	.string "Pidgeot Courier. To get around, you'll\p"
+	.string "Pidgeot Express. To get around, you'll\p"
 	.string "need items like these to Surf and to\n"
 	.string "avoid backtracking.$"
 
