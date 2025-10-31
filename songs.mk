@@ -411,6 +411,9 @@ $(MID_SUBDIR)/mus_rg_route11.s: %.s: %.mid
 $(MID_SUBDIR)/mus_rg_pallet.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G_rg_pallet -V100
 
+$(MID_SUBDIR)/mus_valencia_island.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V127
+
 $(MID_SUBDIR)/mus_rg_surf.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G_rg_surf -V071
 

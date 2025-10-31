@@ -183,3 +183,4 @@
 .include "sound/voicegroups/voicegroup_rg_sevii_45.inc"
 .include "sound/voicegroups/voicegroup_rg_sevii_67.inc"
 .include "sound/voicegroups/voicegroup_drums_rg_credits.inc"
+.include "sound/voicegroups/voicegroup_valencia_island.inc"
