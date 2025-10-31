@@ -4,11 +4,11 @@ Too many Start menu options
 Pokemon Center respawn
 Trainers
 NPCs
+Title screen music
 
 Somewhat pressing:
 Battle Tower cutscene
-Title screen music
-No triple layer tiles (binary implementation)
+Triple layer tiles (binary implementation)
 Lapras Surf/Pidgeot Fly item sprites
 Archer (scientist) overworld
 Team Rocket Hideout (main base) inside/outside map
