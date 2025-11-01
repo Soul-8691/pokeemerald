@@ -6,6 +6,31 @@ ValenciaIsland_OnTransition:
 	setflag FLAG_VISITED_LITTLEROOT_TOWN
 	end
 
+ValenciaIsland_Text_TownSign:
+	.string "VALENCIA ISLAND$"
+
+ValenciaIsland_EventScript_TownSign::
+	msgbox ValenciaIsland_Text_TownSign, MSGBOX_SIGN
+	end
+
+ValenciaIsland_Text_ParkSign:
+	.string "{RIGHT_ARROW} VALENCIA PARK$"
+
+ValenciaIsland_EventScript_ParkSign::
+	msgbox ValenciaIsland_Text_ParkSign, MSGBOX_SIGN
+	end
+
+ValenciaIsland_Text_TrainerTipsSign:
+	.string "TRAINER TIPS\p"
+	.string "Catch POKéMON and expand your\n"
+	.string "collection.\p"
+	.string "The more you have, the easier it\n"
+	.string "is to battle.$"
+
+ValenciaIsland_EventScript_TrainerTipsSign::
+	msgbox ValenciaIsland_Text_TrainerTipsSign, MSGBOX_SIGN
+	end
+
 ValenciaIsland_EventScript_Fisherman::
 	lock
 	faceplayer
