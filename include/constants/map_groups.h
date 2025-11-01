@@ -814,6 +814,7 @@
 #define MAP_VALENCIA_ISLAND_HOUSE1             (6 | (36 << 8))
 #define MAP_VALENCIA_ISLAND_HOUSE2             (7 | (36 << 8))
 #define MAP_VALENCIA_ISLAND_SCHOOL             (8 | (36 << 8))
+#define MAP_VALENCIA_ISLAND_POKEMON_CENTER_2F  (9 | (36 << 8))
 
 // gMapGroup_RG_IndoorViridian
 #define MAP_RG_VIRIDIAN_CITY_HOUSE             (0 | (37 << 8))
