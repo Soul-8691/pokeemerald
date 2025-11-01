@@ -94,6 +94,16 @@ void UpdateTimeOfDay(void)
         gCurrentTimeBlend.altWeight = 0;
         gTimeOfDay = gCurrentTimeBlend.time0 = gCurrentTimeBlend.time1 = TIME_NIGHT;
     }
+    
+    // if (VarGet(VAR_DARKNESS) == 0)
+    // {
+    //     if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(VALENCIA_ISLAND) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(VALENCIA_ISLAND))
+    //     {
+    //         gCurrentTimeBlend.weight = 256;
+    //         gCurrentTimeBlend.altWeight = 0;
+    //         gTimeOfDay = gCurrentTimeBlend.time0 = gCurrentTimeBlend.time1 = TIME_NIGHT;
+    //     }
+    // }
 }
 
 // Apply weighted average to palettes, preserving high bits of dst throughout
