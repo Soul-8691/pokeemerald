@@ -27,7 +27,8 @@ New maps (5qwerty/Demonheadge)
 New sprites (Eru/Invis/gnomo/Brolunite/Rushay)
 New tiles (gnomo)
 Coder (Agustin)
-Story writer (RainiSkies/PCG)
+Story writer (PCG)
+Dialogue writer
 Tileset adjusting
 Tileset making
 Battle Frontier coding
