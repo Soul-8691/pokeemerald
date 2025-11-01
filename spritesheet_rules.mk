@@ -339,7 +339,7 @@ $(OBJEVENTGFXDIR)/people/school_kid_m.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/people/prof_ivy_aide.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
-$(OBJEVENTGFXDIR)/people/archer.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/people/archer_scientist.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 $(OBJEVENTGFXDIR)/people/scott.4bpp: %.4bpp: %.png

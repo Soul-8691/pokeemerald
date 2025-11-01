@@ -9,7 +9,6 @@ Somewhat pressing:
 Battle Tower cutscene
 Triple layer tiles (binary implementation)
 Lapras Surf/Pidgeot Fly item sprites
-Archer (scientist) overworld
 Team Rocket Hideout (main base) inside/outside map
 Trainer card preview image
 
