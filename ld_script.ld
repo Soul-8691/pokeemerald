@@ -342,6 +342,7 @@ SECTIONS {
         src/merrp_dns.o(.text);
         src/quests.o(.text);
         src/map_preview_screen.o(.text);
+        src/mugshot.o(.text);
     } > ROM =0
 
     script_data :
@@ -708,6 +709,7 @@ SECTIONS {
         src/merrp_dns.o(.rodata);
         src/quests.o(.rodata);
         src/map_preview_screen.o(.rodata);
+        src/mugshot.o(.rodata);
     } > ROM =0
 
     song_data :

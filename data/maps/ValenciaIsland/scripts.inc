@@ -36,6 +36,8 @@ ValenciaIsland_EventScript_Wingull1::
 	faceplayer
 	setwildbattle SPECIES_WINGULL, 10
 	waitse
+	setvar VAR_0x8000, MUGSHOT_WINGULL_ANGRY
+	callnative DrawMugshot
 	playmoncry SPECIES_WINGULL, CRY_MODE_ENCOUNTER
 	msgbox ValenciaIsland_Text_Wingull, MSGBOX_NPC
 	waitmoncry
@@ -60,6 +62,8 @@ ValenciaIsland_EventScript_Wingull2::
 	faceplayer
 	setwildbattle SPECIES_WINGULL, 10
 	waitse
+	setvar VAR_0x8000, MUGSHOT_WINGULL_ANGRY
+	callnative DrawMugshot
 	playmoncry SPECIES_WINGULL, CRY_MODE_ENCOUNTER
 	msgbox ValenciaIsland_Text_Wingull, MSGBOX_NPC
 	waitmoncry
@@ -84,6 +88,8 @@ ValenciaIsland_EventScript_Wingull3::
 	faceplayer
 	setwildbattle SPECIES_WINGULL, 10
 	waitse
+	setvar VAR_0x8000, MUGSHOT_WINGULL_ANGRY
+	callnative DrawMugshot
 	playmoncry SPECIES_WINGULL, CRY_MODE_ENCOUNTER
 	msgbox ValenciaIsland_Text_Wingull, MSGBOX_NPC
 	waitmoncry
