@@ -12217,7 +12217,7 @@
             ]
           },
           "tree_mons": {
-            "encounter_rate": 180,
+            "encounter_rate": 90,
             "mons": [
               {
                 "min_level": 5,
