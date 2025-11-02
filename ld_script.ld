@@ -341,6 +341,7 @@ SECTIONS {
         src/trainer_control.o(.text);
         src/merrp_dns.o(.text);
         src/quests.o(.text);
+        src/map_preview_screen.o(.text);
     } > ROM =0
 
     script_data :
@@ -706,6 +707,7 @@ SECTIONS {
         data/sound_data.o(.rodata);
         src/merrp_dns.o(.rodata);
         src/quests.o(.rodata);
+        src/map_preview_screen.o(.rodata);
     } > ROM =0
 
     song_data :

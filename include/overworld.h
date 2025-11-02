@@ -155,5 +155,7 @@ bool32 Overworld_SendKeysToLinkIsRunning(void);
 bool32 IsSendingKeysOverCable(void);
 void ClearLinkPlayerObjectEvents(void);
 void ChooseAmbientCrySpecies(void);
+u8 GetLastUsedWarpMapSectionId(void);
+u8 GetDestinationWarpMapSectionId(void);
 
 #endif // GUARD_OVERWORLD_H

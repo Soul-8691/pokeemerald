@@ -36,6 +36,7 @@
 #include "fldeff.h"
 #include "constants/metatile_behaviors.h"
 #include "m4a.h"
+#include "map_preview_screen.h"
 
 static void Task_ExitNonAnimDoor(u8);
 static void Task_ExitNonDoor(u8);
@@ -116,7 +117,10 @@ void WarpFadeOutScreen(void)
         FadeScreen(FADE_TO_BLACK, 0);
         break;
     case 1:
-        FadeScreen(FADE_TO_WHITE, 0);
+        if (MapHasPreviewScreen_HandleQLState2(GetDestinationWarpMapSectionId(), MPS_TYPE_CAVE))
+            FadeScreen(FADE_TO_BLACK, 0);
+        else
+            FadeScreen(FADE_TO_WHITE, 0);
     }
 }
 

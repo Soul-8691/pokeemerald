@@ -119,7 +119,7 @@ static EWRAM_DATA u8 ALIGNED(2) sBasePaletteColorMapTypes[32] =
     COLOR_MAP_DARK_CONTRAST,
     COLOR_MAP_DARK_CONTRAST,
     COLOR_MAP_DARK_CONTRAST,
-    COLOR_MAP_DARK_CONTRAST,
+    COLOR_MAP_NONE, // This was changed from COLOR_MAP_DARK_CONTRAST to make sure certain weather effects don't affect map preview colors.
     COLOR_MAP_NONE,
     COLOR_MAP_NONE,
     // sprite palettes
