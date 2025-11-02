@@ -5,6 +5,7 @@ NPCs
 Consistent Surf music
 Feebas quest
 Sand encounters
+Valencia Island/Shamouti Island map previews
 
 Somewhat pressing:
 Battle Tower cutscene
@@ -93,3 +94,4 @@ DNS events
 Swarms
 BBGs
 Sand encounters
+Map previews
