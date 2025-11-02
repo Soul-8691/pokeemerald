@@ -15,6 +15,7 @@ Team Rocket Hideout (main base) inside/outside map
 Trainer card preview image
 Ocean with islands BBG
 DNS encounters
+Gen 7 swimmer overworlds/trainer sprites
 
 General:
 Remake
