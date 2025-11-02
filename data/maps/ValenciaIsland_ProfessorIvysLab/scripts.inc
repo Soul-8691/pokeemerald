@@ -9,11 +9,12 @@ ValenciaIsland_ProfessorIvysLab_OnWarp:
 
 ValenciaIsland_ProfessorIvysLab_EventScript_FaceUp::
 	applymovement OBJ_EVENT_ID_PLAYER, ValenciaIsland_ProfessorIvysLab_Movement_FaceUp
+	setvar VAR_PROFESSOR_IVY, 2
 	end
 
 ValenciaIsland_ProfessorIvysLab_OnFrame:
 	map_script_2 VAR_PROFESSOR_IVY, 0, ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvy
-	map_script_2 VAR_PROFESSOR_IVY, 1, ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvy2
+	map_script_2 VAR_PROFESSOR_IVY, 2, ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvy2
 	.2byte 0
 
 ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvyAide::
@@ -39,7 +40,7 @@ ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvy2::
 	lockall
 	textcolor NPC_TEXT_COLOR_FEMALE
 	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvy6, MSGBOX_DEFAULT
-	setvar VAR_PROFESSOR_IVY, 2
+	setvar VAR_PROFESSOR_IVY, 3
 	releaseall
 	end
 
@@ -62,7 +63,7 @@ ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvy4::
 	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvy10, MSGBOX_SIGN
 	textcolor NPC_TEXT_COLOR_FEMALE
 	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvy11, MSGBOX_DEFAULT
-	setvar VAR_PROFESSOR_IVY, 3
+	setvar VAR_PROFESSOR_IVY, 4
 	release
 	end
 
