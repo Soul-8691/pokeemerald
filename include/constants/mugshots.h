@@ -3,5 +3,7 @@
 
 //Add your mugshot constants here
 #define MUGSHOT_WINGULL_ANGRY 0
+#define MUGSHOT_BEAUTIFLY_NORMAL 1
+#define MUGSHOT_DUSTOX_NORMAL 2
 
 #endif

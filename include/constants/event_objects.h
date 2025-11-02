@@ -375,8 +375,10 @@
 #define OBJ_EVENT_GFX_FRLG_DEOXYS_A              371
 #define OBJ_EVENT_GFX_FRLG_DEOXYS_N              372
 #define OBJ_EVENT_GFX_FRLG_SS_ANNE               373
+#define OBJ_EVENT_GFX_BEAUTIFLY                  374
+#define OBJ_EVENT_GFX_DUSTOX                     375
 
-#define NUM_OBJ_EVENT_GFX                        374
+#define NUM_OBJ_EVENT_GFX                        376
 
 
 // These are dynamic object gfx ids.
@@ -447,6 +449,8 @@
 #define OBJ_EVENT_PAL_TAG_RHYDON                  0x112C
 #define OBJ_EVENT_PAL_TAG_ARCHER                  0x112D
 #define OBJ_EVENT_PAL_TAG_WINGULL                 0x112E
+#define OBJ_EVENT_PAL_TAG_BEAUTIFLY               0x112F
+#define OBJ_EVENT_PAL_TAG_DUSTOX                  0x1130
 #define OBJ_EVENT_PAL_TAG_NONE                    0x11FF
 
 #define SHADOW_SIZE_S   0

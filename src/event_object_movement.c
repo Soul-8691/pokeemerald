@@ -466,6 +466,8 @@ const struct SpritePalette gObjectEventSpritePalettes[] = {
     {gObjectEventPal_Rhydon,                OBJ_EVENT_PAL_TAG_RHYDON},
     {gObjectEventPal_Archer,                OBJ_EVENT_PAL_TAG_ARCHER},
     {gObjectEventPal_Wingull,               OBJ_EVENT_PAL_TAG_WINGULL},
+    {gObjectEventPal_Beautifly,             OBJ_EVENT_PAL_TAG_BEAUTIFLY},
+    {gObjectEventPal_Dustox,                OBJ_EVENT_PAL_TAG_DUSTOX},
     {NULL,                                  OBJ_EVENT_PAL_TAG_NONE},
 };
 

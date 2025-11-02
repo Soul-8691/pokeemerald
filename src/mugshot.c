@@ -23,10 +23,16 @@ void ClearMugshot(void);
 
 static const u32 sMugshotImg_WingullAngry[] = INCBIN_U32("graphics/mugshots/wingull_angry.4bpp.lz");
 static const u16 sMugshotPal_WingullAngry[] = INCBIN_U16("graphics/mugshots/wingull_angry.gbapal");
+static const u32 sMugshotImg_BeautiflyNormal[] = INCBIN_U32("graphics/mugshots/beautifly_normal.4bpp.lz");
+static const u16 sMugshotPal_BeautiflyNormal[] = INCBIN_U16("graphics/mugshots/beautifly_normal.gbapal");
+static const u32 sMugshotImg_DustoxNormal[] = INCBIN_U32("graphics/mugshots/dustox_normal.4bpp.lz");
+static const u16 sMugshotPal_DustoxNormal[] = INCBIN_U16("graphics/mugshots/dustox_normal.gbapal");
 
 static const struct Mugshot sMugshots[] = {
     //ADD YOUR MUGSHOTS HERE
     [MUGSHOT_WINGULL_ANGRY] = {.x = 16, .y = 5, .width = 64, .height = 64, .image = sMugshotImg_WingullAngry, .palette = sMugshotPal_WingullAngry},
+    [MUGSHOT_BEAUTIFLY_NORMAL] = {.x = 16, .y = 5, .width = 64, .height = 64, .image = sMugshotImg_BeautiflyNormal, .palette = sMugshotPal_BeautiflyNormal},
+    [MUGSHOT_DUSTOX_NORMAL] = {.x = 16, .y = 5, .width = 64, .height = 64, .image = sMugshotImg_DustoxNormal, .palette = sMugshotPal_DustoxNormal},
 };
 
 

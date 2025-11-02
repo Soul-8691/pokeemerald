@@ -15,7 +15,34 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": 0,
   "object_events": [
-
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_BEAUTIFLY",
+      "x": 11,
+      "y": 34,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "FLAG_TRAINER_SIGHT",
+      "trainer_sight_or_berry_tree_id": "2",
+      "script": "ValenciaIsland_EventScript_Beautifly",
+      "flag": "FLAG_VALENCIA_PARK_BEAUTIFLY"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_DUSTOX",
+      "x": 34,
+      "y": 37,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "FLAG_TRAINER_SIGHT",
+      "trainer_sight_or_berry_tree_id": "2",
+      "script": "ValenciaIsland_EventScript_Dustox",
+      "flag": "FLAG_VALENCIA_PARK_DUSTOX"
+    }
   ],
   "warp_events": [
     {
