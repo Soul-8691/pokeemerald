@@ -1,3 +1,4 @@
 gTimeOfDay
+gTimeOfDayActual
 gCurrentTimeBlend
 gTimeUpdateCounter

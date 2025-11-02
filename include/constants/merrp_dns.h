@@ -4,5 +4,6 @@
 #define TIME_NIGHT 0
 #define TIME_TWILIGHT 1
 #define TIME_DAY 2
+#define TIME_MORNING 3
 
 #endif //GUARD_CONSTANTS_MERRP_DNS_H

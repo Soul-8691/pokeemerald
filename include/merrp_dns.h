@@ -20,6 +20,7 @@ struct BlendSettings
 };
 
 extern u8 gTimeOfDay;
+extern u8 gTimeOfDayActual;
 extern u16 gTimeUpdateCounter;
 extern struct TimeBlendSettings gCurrentTimeBlend;
 

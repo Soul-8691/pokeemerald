@@ -1,5 +1,25 @@
+.set LOCALID_BEAUTIFLY, 1
+.set LOCALID_DUSTOX, 2
+
 ValenciaPark_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, ValenciaPark_OnTransition
 	.byte 0
+
+ValenciaPark_OnTransition:
+	gettime
+	call_if_ne VAR_RESULT, TIME_NIGHT, ValenciaPark_EventScript_HideDustox
+	call_if_ne VAR_RESULT, TIME_MORNING, ValenciaPark_EventScript_HideBeautifly
+	end
+
+ValenciaPark_EventScript_HideDustox::
+	removeobject LOCALID_DUSTOX, MAP_VALENCIA_PARK
+	setflag FLAG_VALENCIA_PARK_DUSTOX
+	return
+
+ValenciaPark_EventScript_HideBeautifly::
+	removeobject LOCALID_BEAUTIFLY, MAP_VALENCIA_PARK
+	setflag FLAG_VALENCIA_PARK_BEAUTIFLY
+	return
 
 ValenciaPark_Text_TrainerTipsSign:
 	.string "TRAINER TIPS\p"

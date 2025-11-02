@@ -56,6 +56,7 @@
 #include "constants/weather.h"
 #include "constants/quests.h"
 #include "constants/mugshots.h"
+#include "constants/merrp_dns.h"
 	.include "asm/macros.inc"
 	.include "asm/macros/event.inc"
 	.include "constants/constants.inc"

@@ -25,6 +25,7 @@
 #include "constants/rgb.h"
 
 u8 gTimeOfDay;
+u8 gTimeOfDayActual;
 struct TimeBlendSettings gCurrentTimeBlend;
 u16 gTimeUpdateCounter; // playTimeVBlanks will eventually overflow, so this is used to update TOD
 
@@ -50,6 +51,7 @@ void UpdateTimeOfDay(void)
         gCurrentTimeBlend.weight = 256;
         gCurrentTimeBlend.altWeight = 0;
         gTimeOfDay = gCurrentTimeBlend.time0 = gCurrentTimeBlend.time1 = TIME_NIGHT;
+        gTimeOfDayActual = TIME_NIGHT;
     }
     else if (hours < 7) // night->twilight
     {
@@ -58,6 +60,7 @@ void UpdateTimeOfDay(void)
         gCurrentTimeBlend.weight = 256 - 256 * ((hours - 4) * 60 + minutes) / ((7 - 4) * 60);
         gCurrentTimeBlend.altWeight = (256 - gCurrentTimeBlend.weight) / 2;
         gTimeOfDay = TIME_NIGHT;
+        gTimeOfDayActual = TIME_MORNING;
     }
     else if (hours < 10) // twilight->day
     {
@@ -66,11 +69,13 @@ void UpdateTimeOfDay(void)
         gCurrentTimeBlend.weight = 256 - 256 * ((hours - 7) * 60 + minutes) / ((10 - 7) * 60);
         gCurrentTimeBlend.altWeight = (256 - gCurrentTimeBlend.weight) / 2 + 128;
         gTimeOfDay = TIME_DAY;
+        gTimeOfDayActual = TIME_MORNING;
     }
     else if (hours < 18) // day
     {
         gCurrentTimeBlend.weight = gCurrentTimeBlend.altWeight = 256;
         gTimeOfDay = gCurrentTimeBlend.time0 = gCurrentTimeBlend.time1 = TIME_DAY;
+        gTimeOfDayActual = TIME_DAY;
     }
     else if (hours < 20) // day->twilight
     {
@@ -79,6 +84,7 @@ void UpdateTimeOfDay(void)
         gCurrentTimeBlend.weight = 256 - 256 * ((hours - 18) * 60 + minutes) / ((20 - 18) * 60);
         gCurrentTimeBlend.altWeight = gCurrentTimeBlend.weight / 2 + 128;
         gTimeOfDay = TIME_DAY;
+        gTimeOfDayActual = TIME_TWILIGHT;
     }
     else if (hours < 22) // twilight->night
     {
@@ -87,12 +93,14 @@ void UpdateTimeOfDay(void)
         gCurrentTimeBlend.weight = 256 - 256 * ((hours - 20) * 60 + minutes) / ((22 - 20) * 60);
         gCurrentTimeBlend.altWeight = gCurrentTimeBlend.weight / 2;
         gTimeOfDay = TIME_NIGHT;
+        gTimeOfDayActual = TIME_NIGHT;
     }
     else // 22-24, night
     {
         gCurrentTimeBlend.weight = 256;
         gCurrentTimeBlend.altWeight = 0;
         gTimeOfDay = gCurrentTimeBlend.time0 = gCurrentTimeBlend.time1 = TIME_NIGHT;
+        gTimeOfDayActual = TIME_NIGHT;
     }
     
     // if (VarGet(VAR_DARKNESS) == 0)

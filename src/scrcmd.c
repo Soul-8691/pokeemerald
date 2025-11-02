@@ -705,6 +705,7 @@ bool8 ScrCmd_gettime(struct ScriptContext *ctx)
     gSpecialVar_0x8001 = gLocalTime.minutes;
     gSpecialVar_0x8002 = gLocalTime.seconds;
     gSpecialVar_0x8003 = gTimeOfDay;
+    gSpecialVar_Result = gTimeOfDayActual;
     return FALSE;
 }
 
