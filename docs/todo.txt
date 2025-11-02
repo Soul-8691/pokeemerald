@@ -5,6 +5,7 @@ NPCs
 Consistent Surf music
 Feebas quest
 Remove Pokemon overworlds when caught
+Beautifly/Dustox time of day spawns
 
 Somewhat pressing:
 Battle Tower cutscene
