@@ -96,6 +96,8 @@ Music (Avir/Ristar)
 Progression-based gatekeeping/"locks and keys"
 DNS events
 Swarms
-BBGs
+BBGs (darkest.lariat/DogPond)
 Sand encounters
-Map previews
+Map previews (darkest.lariat/DogPond)
+Pokemon overworld encounters
+Mugshots (Eru/Invis/gnomo/Brolunite/Rushay)
