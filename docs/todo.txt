@@ -4,6 +4,7 @@ Trainers
 NPCs
 Consistent Surf music
 Feebas quest
+Sand encounters
 
 Somewhat pressing:
 Battle Tower cutscene
@@ -11,6 +12,8 @@ Triple layer tiles (binary implementation)
 Lapras Surf/Pidgeot Fly item sprites
 Team Rocket Hideout (main base) inside/outside map
 Trainer card preview image
+Ocean with islands BBG
+DNS encounters
 
 General:
 Remake
@@ -86,6 +89,7 @@ New facility tiles
 Mapping
 Music (Avir/Ristar)
 Progression-based gatekeeping/"locks and keys"
-DNS
+DNS events
 Swarms
 BBGs
+Sand encounters
