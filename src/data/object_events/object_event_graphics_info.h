@@ -3638,7 +3638,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Azumarill = {
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wingull = {
     .tileTag = TAG_NONE,
-    .paletteTag = OBJ_EVENT_PAL_TAG_LUGIA,
+    .paletteTag = OBJ_EVENT_PAL_TAG_WINGULL,
     .size = 128,
     .width = 16,
     .height = 16,

@@ -31,6 +31,81 @@ ValenciaIsland_EventScript_TrainerTipsSign::
 	msgbox ValenciaIsland_Text_TrainerTipsSign, MSGBOX_SIGN
 	end
 
+ValenciaIsland_EventScript_Wingull1::
+	lock
+	faceplayer
+	setwildbattle SPECIES_WINGULL, 10
+	waitse
+	playmoncry SPECIES_WINGULL, CRY_MODE_ENCOUNTER
+	msgbox ValenciaIsland_Text_Wingull, MSGBOX_NPC
+	waitmoncry
+	setflag FLAG_SYS_CTRL_OBJ_DELETE
+	dowildbattle
+	clearflag FLAG_SYS_CTRL_OBJ_DELETE
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, ValenciaIsland_EventScript_DefeatedWingull1
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, ValenciaIsland_EventScript_DefeatedWingull1
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, ValenciaIsland_EventScript_DefeatedWingull1
+	setflag FLAG_VALENCIA_ISLAND_WINGULL_1
+	release
+	end
+
+ValenciaIsland_EventScript_DefeatedWingull1::
+	setflag FLAG_VALENCIA_ISLAND_WINGULL_1
+	goto Common_EventScript_RemoveStaticPokemon
+	end
+
+ValenciaIsland_EventScript_Wingull2::
+	lock
+	faceplayer
+	setwildbattle SPECIES_WINGULL, 10
+	waitse
+	playmoncry SPECIES_WINGULL, CRY_MODE_ENCOUNTER
+	msgbox ValenciaIsland_Text_Wingull, MSGBOX_NPC
+	waitmoncry
+	setflag FLAG_SYS_CTRL_OBJ_DELETE
+	dowildbattle
+	clearflag FLAG_SYS_CTRL_OBJ_DELETE
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, ValenciaIsland_EventScript_DefeatedWingull2
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, ValenciaIsland_EventScript_DefeatedWingull2
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, ValenciaIsland_EventScript_DefeatedWingull2
+	setflag FLAG_VALENCIA_ISLAND_WINGULL_1
+	release
+	end
+
+ValenciaIsland_EventScript_DefeatedWingull2::
+	setflag FLAG_VALENCIA_ISLAND_WINGULL_2
+	goto Common_EventScript_RemoveStaticPokemon
+	end
+
+ValenciaIsland_EventScript_Wingull3::
+	lock
+	faceplayer
+	setwildbattle SPECIES_WINGULL, 10
+	waitse
+	playmoncry SPECIES_WINGULL, CRY_MODE_ENCOUNTER
+	msgbox ValenciaIsland_Text_Wingull, MSGBOX_NPC
+	waitmoncry
+	setflag FLAG_SYS_CTRL_OBJ_DELETE
+	dowildbattle
+	clearflag FLAG_SYS_CTRL_OBJ_DELETE
+	specialvar VAR_RESULT, GetBattleOutcome
+	goto_if_eq VAR_RESULT, B_OUTCOME_WON, ValenciaIsland_EventScript_DefeatedWingull3
+	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, ValenciaIsland_EventScript_DefeatedWingull3
+	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, ValenciaIsland_EventScript_DefeatedWingull3
+	setflag FLAG_VALENCIA_ISLAND_WINGULL_3
+	release
+	end
+
+ValenciaIsland_EventScript_DefeatedWingull3::
+	setflag FLAG_VALENCIA_ISLAND_WINGULL_3
+	goto Common_EventScript_RemoveStaticPokemon
+	end
+
+ValenciaIsland_Text_Wingull:
+	.string "GULL!$"
+
 ValenciaIsland_EventScript_Fisherman::
 	lock
 	faceplayer

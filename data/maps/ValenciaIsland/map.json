@@ -37,8 +37,50 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "ValenciaIsland_EventScript_Fisherman",
+      "script": "ValenciaIsland_EventScript_Wingull1",
       "flag": "0"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_WINGULL",
+      "x": 32,
+      "y": 13,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "FLAG_TRAINER_SIGHT",
+      "trainer_sight_or_berry_tree_id": "3",
+      "script": "ValenciaIsland_EventScript_Wingull3",
+      "flag": "FLAG_VALENCIA_ISLAND_WINGULL_3"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_WINGULL",
+      "x": 22,
+      "y": 6,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "FLAG_TRAINER_SIGHT",
+      "trainer_sight_or_berry_tree_id": "3",
+      "script": "ValenciaIsland_EventScript_Wingull2",
+      "flag": "FLAG_VALENCIA_ISLAND_WINGULL_2"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_WINGULL",
+      "x": 8,
+      "y": 8,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "FLAG_TRAINER_SIGHT",
+      "trainer_sight_or_berry_tree_id": "3",
+      "script": "ValenciaIsland_EventScript_Wingull1",
+      "flag": "FLAG_VALENCIA_ISLAND_WINGULL_1"
     }
   ],
   "warp_events": [

@@ -446,6 +446,7 @@
 #define OBJ_EVENT_PAL_TAG_PROFESSOR_IVY_AIDE      0x112B
 #define OBJ_EVENT_PAL_TAG_RHYDON                  0x112C
 #define OBJ_EVENT_PAL_TAG_ARCHER                  0x112D
+#define OBJ_EVENT_PAL_TAG_WINGULL                 0x112E
 #define OBJ_EVENT_PAL_TAG_NONE                    0x11FF
 
 #define SHADOW_SIZE_S   0
