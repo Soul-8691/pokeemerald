@@ -4,7 +4,6 @@ Trainers
 NPCs
 Consistent Surf music
 Feebas quest
-Remove Pokemon overworlds when caught
 
 Somewhat pressing:
 Battle Tower cutscene
