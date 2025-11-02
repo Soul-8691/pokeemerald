@@ -43,6 +43,7 @@ enum {
     WILD_AREA_ROCKS,
     WILD_AREA_FISHING,
     WILD_AREA_SAND,
+    WILD_AREA_TREE,
 };
 
 #define WILD_CHECK_REPEL    (1 << 0)
@@ -208,8 +209,8 @@ static u8 ChooseWildMonIndex_Land(void)
         return 11;
 }
 
-// SAND_WILD_COUNT
-static u8 ChooseWildMonIndex_Sand(void)
+// SAND_WILD_COUNT / TREE_WILD_COUNT
+static u8 ChooseWildMonIndex_SandTree(void)
 {
     u8 rand = Random() % ENCOUNTER_CHANCE_SAND_MONS_TOTAL;
 
@@ -463,7 +464,10 @@ static bool8 TryGenerateWildMon(const struct WildPokemonInfo *wildMonInfo, u8 ar
         wildMonIndex = ChooseWildMonIndex_Land();
         break;
     case WILD_AREA_SAND:
-        wildMonIndex = ChooseWildMonIndex_Sand();
+        wildMonIndex = ChooseWildMonIndex_SandTree();
+        break;
+    case WILD_AREA_TREE:
+        wildMonIndex = ChooseWildMonIndex_SandTree();
         break;
     case WILD_AREA_WATER:
         if (TRY_GET_ABILITY_INFLUENCED_WILD_MON_INDEX(wildMonInfo->wildPokemon, TYPE_ELECTRIC, ABILITY_STATIC, &wildMonIndex, WATER_WILD_COUNT))
@@ -746,6 +750,35 @@ void RockSmashWildEncounter(void)
     }
 }
 
+void HeadbuttWildEncounter(void)
+{
+    u16 headerId = GetCurrentMapWildMonHeaderId();
+
+    if (headerId != HEADER_NONE)
+    {
+        const struct WildPokemonInfo *wildPokemonInfo = gWildMonHeaders[headerId].treeMonsInfo;
+
+        if (wildPokemonInfo == NULL)
+        {
+            gSpecialVar_Result = FALSE;
+        }
+        else if (WildEncounterCheck(wildPokemonInfo->encounterRate, TRUE) == TRUE
+         && TryGenerateWildMon(wildPokemonInfo, WILD_AREA_TREE, WILD_CHECK_REPEL | WILD_CHECK_KEEN_EYE) == TRUE)
+        {
+            BattleSetup_StartWildBattle(0);
+            gSpecialVar_Result = TRUE;
+        }
+        else
+        {
+            gSpecialVar_Result = FALSE;
+        }
+    }
+    else
+    {
+        gSpecialVar_Result = FALSE;
+    }
+}
+
 bool8 SweetScentWildEncounter(void)
 {
     s16 x, y;
@@ -872,7 +905,7 @@ u16 GetLocalWildMon(bool8 *isWaterMon)
         return landMonsInfo->wildPokemon[ChooseWildMonIndex_Land()].species;
     // Sand Pokémon
     else if (sandMonsInfo != NULL && waterMonsInfo == NULL)
-        return sandMonsInfo->wildPokemon[ChooseWildMonIndex_Sand()].species;
+        return sandMonsInfo->wildPokemon[ChooseWildMonIndex_SandTree()].species;
     // Water Pokémon
     else if (landMonsInfo == NULL && sandMonsInfo == NULL && waterMonsInfo != NULL)
     {

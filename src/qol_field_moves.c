@@ -438,6 +438,17 @@ u32 UseRockSmash(u32 fieldMoveStatus)
     return COLLISION_START_ROCK_SMASH;
 }
 
+u32 UseHeadbutt(u32 fieldMoveStatus)
+{
+    HideMapNamePopUpWindow();
+    LockPlayerAndLoadMon();
+
+    if(fieldMoveStatus == FIELD_MOVE_POKEMON)
+        ScriptContext_SetupScript(EventScript_Headbutt);
+
+    return COLLISION_START_HEADBUTT;
+}
+
 //Waterfall
 
 u32 CanUseWaterfallFromInteractedWater(void)

@@ -83,6 +83,16 @@
             20,
             10
           ]
+        },
+        {
+          "type": "tree_mons",
+          "encounter_rates": [
+            30,
+            20,
+            20,
+            20,
+            10
+          ]
         }
       ],
       "encounters": [
@@ -12202,6 +12212,36 @@
               {
                 "min_level": 5,
                 "max_level": 5,
+                "species": "SPECIES_EXEGGCUTE"
+              }
+            ]
+          },
+          "tree_mons": {
+            "encounter_rate": 180,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 7,
+                "species": "SPECIES_WINGULL"
+              },
+              {
+                "min_level": 5,
+                "max_level": 7,
+                "species": "SPECIES_WINGULL"
+              },
+              {
+                "min_level": 5,
+                "max_level": 7,
+                "species": "SPECIES_EXEGGCUTE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 7,
+                "species": "SPECIES_EXEGGCUTE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 7,
                 "species": "SPECIES_EXEGGCUTE"
               }
             ]

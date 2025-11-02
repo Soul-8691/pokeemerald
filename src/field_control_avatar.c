@@ -511,6 +511,8 @@ static const u8 *GetInteractedMetatileScript(struct MapPosition *position, u8 me
         return EventScript_BlinkingLights;
     if (metatileBehavior == MB_NEATLY_LINED_UP_TOOLS)
         return EventScript_NeatlyLinedUpTools;
+    if (MetatileBehavior_IsHeadbuttTree(metatileBehavior))
+        return EventScript_Headbutt;
     if (direction == DIR_NORTH)
     {
         if (metatileBehavior == MB_TELEVISION)

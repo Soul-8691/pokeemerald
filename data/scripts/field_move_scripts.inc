@@ -107,12 +107,41 @@ EventScript_SmashRock::
 	releaseall
 	end
 
+EventScript_Headbutt::
+	lockall
+@ Start qol_field_moves
+	checkpartymove MOVE_HEADBUTT
+	goto_if_eq VAR_RESULT, PARTY_SIZE, EventScript_CantHeadbutt
+	setfieldeffectargument 0, VAR_RESULT
+	bufferpartymonnick STR_VAR_1, VAR_RESULT
+	buffermovename STR_VAR_2, MOVE_HEADBUTT
+	msgbox Text_WantToHeadbutt, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, EventScript_CancelSmash
+	msgbox Text_MonUsedFieldMove, MSGBOX_DEFAULT
+	closemessage
+	setvar VAR_0x8004, 1  @ vertical pan
+	setvar VAR_0x8005, 1  @ horizontal pan
+	setvar VAR_0x8006, 8  @ num shakes
+	setvar VAR_0x8007, 5  @ shake delay
+	special ShakeCamera
+	waitstate
+	special HeadbuttWildEncounter
+	goto_if_eq VAR_RESULT, FALSE, EventScript_EndSmash
+	waitstate
+	releaseall
+	end
+
 EventScript_EndSmash::
 	releaseall
 	end
 
 EventScript_CantSmashRock::
 	msgbox Text_CantSmash, MSGBOX_DEFAULT
+	releaseall
+	end
+
+EventScript_CantHeadbutt::
+	msgbox Text_CantHeadbutt, MSGBOX_DEFAULT
 	releaseall
 	end
 
@@ -125,9 +154,17 @@ Text_WantToSmash:
 	.string "This rock appears to be breakable.\n"
 	.string "Would you like to use ROCK SMASH?$"
 
+Text_WantToHeadbutt:
+	.string "It's a moderately sized tree.\n"
+	.string "Would you like to use Headbutt?$"
+
 Text_CantSmash:
 	.string "It's a rugged rock, but a POKéMON\n"
 	.string "may be able to smash it.$"
+
+Text_CantHeadbutt:
+	.string "There's a formidable tree that\n"
+	.string "looks like it can be headbutted!$"
 
 EventScript_StrengthBoulder::
 	lockall

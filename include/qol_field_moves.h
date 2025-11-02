@@ -21,6 +21,7 @@ void TryUseFlash(void);
 
 u32 CanUseRockSmash(s16 x, s16 y);
 u32 UseRockSmash(u32 fieldMoveStatus);
+u32 UseHeadbutt(u32 fieldMoveStatus);
 
 u32 CanUseWaterfall(u8);
 bool32 CanUseWaterfallTool(void);
