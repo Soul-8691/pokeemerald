@@ -8068,3 +8068,16 @@ u8 MovementAction_FlyDown_Step1(struct ObjectEvent *objectEvent, struct Sprite *
         sprite->sActionFuncId++;
     return FALSE;
 }
+
+// though this function returns TRUE without doing anything, this header is required due to being in an array of functions which needs it.
+u8 MovementAction_Fly_Finish(struct ObjectEvent *objectEvent, struct Sprite *sprite)
+{
+    return TRUE;
+}
+
+u16 GetObjectEventTrainerSightFlagByObjectEventId(u8 objEventId)
+{
+    // ideally, would use a the last two bytes of the object event template
+    return GetObjectEventTemplateByLocalIdAndMap(gObjectEvents[objEventId].localId, gObjectEvents[objEventId].mapNum, gObjectEvents[objEventId].mapGroup)->objUnion.normal.trainerType;
+}
+
