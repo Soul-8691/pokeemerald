@@ -6,6 +6,7 @@ Consistent Surf music
 Headbutt/Bite tutors (port from old project)
 Pokemon in overworld (Route A/E)
 Headbutt uses mugshots
+Valencia Island vendor
 
 Somewhat pressing:
 Finish Feebas quest
