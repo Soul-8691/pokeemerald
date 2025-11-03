@@ -103,3 +103,4 @@ Sand encounters
 Map previews (darkest.lariat/DogPond)
 Pokemon overworld encounters
 Mugshots (Eru/Invis/gnomo/Brolunite/Rushay)
+Headbutt trees
