@@ -7,6 +7,8 @@ Headbutt/Bite tutors (port from old project)
 Pokemon in overworld (Route A/E)
 Headbutt uses mugshots
 Valencia Island vendor
+Exp. All
+Valencia Park Headbutt trees
 
 Somewhat pressing:
 Finish Feebas quest
