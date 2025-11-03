@@ -46,14 +46,26 @@ ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvy2::
 
 ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvy3::
 	lock
+	goto_if_eq VAR_PROFESSOR_IVY, 3, ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvySlakoth
+	goto_if_eq VAR_PROFESSOR_IVY, 4, ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvyFeebas
+	end
+
+ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvySlakoth::
 	checkspecies SPECIES_SLAKOTH
-	goto_if_eq VAR_RESULT, TRUE, ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvy4
-	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvy7, MSGBOX_DEFAULT
+	goto_if_eq VAR_RESULT, TRUE, ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvyIsSlakoth
+	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvyIsNotSlakoth, MSGBOX_DEFAULT
 	release
 	end
 
-ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvy4::
-	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvy8, MSGBOX_DEFAULT
+ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvyFeebas::
+	checkspecies SPECIES_FEEBAS
+	goto_if_eq VAR_RESULT, TRUE, ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvyIsFeebas
+	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvyIsNotFeebas, MSGBOX_DEFAULT
+	release
+	end
+
+ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvyIsSlakoth::
+	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvyIsSlakoth, MSGBOX_DEFAULT
 	callnative RemovePartyMon
 	completequest QUEST_1
 	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvy9, MSGBOX_DEFAULT
@@ -63,7 +75,22 @@ ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvy4::
 	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvy10, MSGBOX_SIGN
 	textcolor NPC_TEXT_COLOR_FEMALE
 	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvy11, MSGBOX_DEFAULT
+	questmenu QUEST_MENU_UNLOCK_QUEST QUEST_2
+	startquest QUEST_2
 	setvar VAR_PROFESSOR_IVY, 4
+	release
+	end
+
+ValenciaIsland_ProfessorIvysLab_EventScript_ProfIvyIsFeebas::
+	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvyIsFeebas, MSGBOX_DEFAULT
+	callnative RemovePartyMon
+	completequest QUEST_2
+	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvy12, MSGBOX_DEFAULT
+	addmoney 5000
+	textcolor NPC_TEXT_COLOR_NEUTRAL
+	playfanfare MUS_OBTAIN_ITEM
+	msgbox ValenciaIsland_ProfessorIvysLab_Text_ProfIvy13, MSGBOX_SIGN
+	setvar VAR_PROFESSOR_IVY, 5
 	release
 	end
 
@@ -154,13 +181,22 @@ ValenciaIsland_ProfessorIvysLab_Text_ProfIvy6:
 	.string "into returning to my employment if\p"
 	.string "you go too far!$"
 
-ValenciaIsland_ProfessorIvysLab_Text_ProfIvy7:
+ValenciaIsland_ProfessorIvysLab_Text_ProfIvyIsNotSlakoth:
 	.string "That is not a SLAKOTH. Please bring\n"
 	.string "me a SLAKOTH so I can give you your\p"
 	.string "reward.$"
 
-ValenciaIsland_ProfessorIvysLab_Text_ProfIvy8:
+ValenciaIsland_ProfessorIvysLab_Text_ProfIvyIsSlakoth:
 	.string "That is indeed a SLAKOTH. Here, let\n"
+	.string "me take that from you.$"
+
+ValenciaIsland_ProfessorIvysLab_Text_ProfIvyIsNotFeebas:
+	.string "That is not a FEEBAS. Please bring\n"
+	.string "me a FEEBAS so I can give you your\p"
+	.string "reward.$"
+
+ValenciaIsland_ProfessorIvysLab_Text_ProfIvyIsFeebas:
+	.string "That is indeed a FEEBAS. Here, let\n"
 	.string "me take that from you.$"
 
 ValenciaIsland_ProfessorIvysLab_Text_ProfIvy9:
@@ -170,8 +206,15 @@ ValenciaIsland_ProfessorIvysLab_Text_ProfIvy9:
 	.string "Now, as promised, here is your\n"
 	.string "reward.$"
 
+ValenciaIsland_ProfessorIvysLab_Text_ProfIvy12:
+	.string "Now, as promised, here is your\n"
+	.string "reward.$"
+
 ValenciaIsland_ProfessorIvysLab_Text_ProfIvy10:
 	.string "{PLAYER} received ¥3000!$"
+
+ValenciaIsland_ProfessorIvysLab_Text_ProfIvy13:
+	.string "{PLAYER} received ¥5000!$"
 
 ValenciaIsland_ProfessorIvysLab_Text_ProfIvy11:
 	.string "Your next assignment is to catch\n"

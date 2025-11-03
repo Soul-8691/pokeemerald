@@ -12343,8 +12343,8 @@
                 "species": "SPECIES_HORSEA"
               },
               {
-                "min_level": 6,
-                "max_level": 9,
+                "min_level": 8,
+                "max_level": 10,
                 "species": "SPECIES_FEEBAS"
               }
             ]
@@ -12432,8 +12432,8 @@
                 "species": "SPECIES_REMORAID"
               },
               {
-                "min_level": 10,
-                "max_level": 12,
+                "min_level": 11,
+                "max_level": 13,
                 "species": "SPECIES_FEEBAS"
               }
             ]
