@@ -3,7 +3,6 @@ Set capture quests to reward when Pokemon is in party (HashtagMarky/Jamie)
 Trainers (placeholders)
 NPCs
 Consistent Surf music
-Sand encounters (Route A/E)
 Headbutt/Bite tutors (port from old project)
 Pokemon in overworld (Route A/E)
 Headbutt uses mugshots
