@@ -1,5 +1,5 @@
 Pressing:
-Set Lazy Loafer quest to reward when Slakoth is in party
+Set capture quests to reward when Pokemon is in party
 Trainers
 NPCs
 Consistent Surf music
