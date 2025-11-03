@@ -7,9 +7,9 @@ ValenciaPark_MapScripts::
 
 ValenciaPark_OnTransition:
 	gettime
-	call_if_ne VAR_RESULT, TIME_TWILIGHT, ValenciaPark_EventScript_HideDustox
+	call_if_ne VAR_RESULT, TIME_NIGHT, ValenciaPark_EventScript_HideDustox
 	call_if_ne VAR_RESULT, TIME_MORNING, ValenciaPark_EventScript_HideBeautifly
-	call_if_eq VAR_RESULT, TIME_TWILIGHT, ValenciaPark_EventScript_Dustox
+	call_if_eq VAR_RESULT, TIME_NIGHT, ValenciaPark_EventScript_Dustox
 	call_if_eq VAR_RESULT, TIME_MORNING, ValenciaPark_EventScript_Beautifly
 	end
 
