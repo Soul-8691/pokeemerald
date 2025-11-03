@@ -5,6 +5,7 @@ NPCs
 Consistent Surf music
 Finish Feebas quest
 Exclaim sound for trainer sight
+Sand encounters (Route A/E)
 
 Somewhat pressing:
 Battle Tower cutscene
