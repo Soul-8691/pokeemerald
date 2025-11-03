@@ -6,6 +6,7 @@ Consistent Surf music
 Finish Feebas quest
 Exclaim sound for trainer sight
 Sand encounters (Route A/E)
+Headbutt/Bite tutors (port from old project)
 
 Somewhat pressing:
 Battle Tower cutscene
@@ -19,6 +20,7 @@ Gen 7 swimmer overworlds/trainer sprites
 Valencia Island/Shamouti Island/Team Rocket Base map previews
 Pokemon in overworld
 PMD mugshots
+Headbutt uses mugshots
 
 General:
 Remake
