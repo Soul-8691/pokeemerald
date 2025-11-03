@@ -7,6 +7,7 @@ Finish Feebas quest
 Exclaim sound for trainer sight
 Sand encounters (Route A/E)
 Headbutt/Bite tutors (port from old project)
+Pokemon in overworld (Route A/E)
 
 Somewhat pressing:
 Battle Tower cutscene
@@ -18,8 +19,6 @@ Ocean with islands BBG
 DNS encounters
 Gen 7 swimmer overworlds/trainer sprites
 Valencia Island/Shamouti Island/Team Rocket Base map previews
-Pokemon in overworld
-PMD mugshots
 Headbutt uses mugshots
 
 General:
