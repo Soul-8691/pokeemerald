@@ -7,18 +7,34 @@ ValenciaPark_MapScripts::
 
 ValenciaPark_OnTransition:
 	gettime
-	call_if_ne VAR_RESULT, TIME_NIGHT, ValenciaPark_EventScript_HideDustox
+	call_if_ne VAR_RESULT, TIME_TWILIGHT, ValenciaPark_EventScript_HideDustox
 	call_if_ne VAR_RESULT, TIME_MORNING, ValenciaPark_EventScript_HideBeautifly
+	call_if_eq VAR_RESULT, TIME_TWILIGHT, ValenciaPark_EventScript_Dustox
+	call_if_eq VAR_RESULT, TIME_MORNING, ValenciaPark_EventScript_Beautifly
 	end
 
+ValenciaPark_EventScript_Dustox::
+	call_if_set FLAG_VALENCIA_PARK_DUSTOX, ValenciaPark_EventScript_HideDustoxPerma
+	return
+
+ValenciaPark_EventScript_HideDustoxPerma::
+	setflag FLAG_TEMP_2
+	return
+
+ValenciaPark_EventScript_Beautifly::
+	call_if_set FLAG_VALENCIA_PARK_BEAUTIFLY, ValenciaPark_EventScript_HideBeautiflyPerma
+	return
+
+ValenciaPark_EventScript_HideBeautiflyPerma::
+	setflag FLAG_TEMP_1
+	return
+
 ValenciaPark_EventScript_HideDustox::
-	removeobject LOCALID_DUSTOX, MAP_VALENCIA_PARK
-	setflag FLAG_VALENCIA_PARK_DUSTOX
+	setflag FLAG_TEMP_2
 	return
 
 ValenciaPark_EventScript_HideBeautifly::
-	removeobject LOCALID_BEAUTIFLY, MAP_VALENCIA_PARK
-	setflag FLAG_VALENCIA_PARK_BEAUTIFLY
+	setflag FLAG_TEMP_1
 	return
 
 ValenciaPark_Text_TrainerTipsSign:
