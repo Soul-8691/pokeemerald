@@ -7,6 +7,7 @@ Exclaim sound for trainer sight
 Sand encounters (Route A/E)
 Headbutt/Bite tutors (port from old project)
 Pokemon in overworld (Route A/E)
+Headbutt uses mugshots
 
 Somewhat pressing:
 Finish Feebas quest
@@ -16,10 +17,9 @@ Lapras Surf/Pidgeot Fly item sprites
 Team Rocket Hideout (main base) inside/outside map
 Trainer card preview image
 Ocean with islands BBG
-DNS encounters
+DNS encounters (RHH)
 Gen 7 swimmer overworlds/trainer sprites
 Valencia Island/Shamouti Island/Team Rocket Base map previews
-Headbutt uses mugshots
 
 General:
 Remake
