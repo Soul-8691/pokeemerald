@@ -3,7 +3,8 @@ Set Lazy Loafer quest to reward when Slakoth is in party
 Trainers
 NPCs
 Consistent Surf music
-Feebas quest
+Finish Feebas quest
+Exclaim sound for trainer sight
 
 Somewhat pressing:
 Battle Tower cutscene

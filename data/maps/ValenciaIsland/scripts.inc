@@ -74,7 +74,7 @@ ValenciaIsland_EventScript_Wingull2::
 	goto_if_eq VAR_RESULT, B_OUTCOME_WON, ValenciaIsland_EventScript_DefeatedWingull2
 	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, ValenciaIsland_EventScript_DefeatedWingull2
 	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, ValenciaIsland_EventScript_DefeatedWingull2
-	setflag FLAG_VALENCIA_ISLAND_WINGULL_1
+	setflag FLAG_VALENCIA_ISLAND_WINGULL_2
 	release
 	end
 

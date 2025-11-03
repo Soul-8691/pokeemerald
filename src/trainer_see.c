@@ -294,7 +294,7 @@ static u8 CheckTrainer(u8 objectEventId)
             if (!FlagGet(scriptFlag) && scriptPtr != NULL)
             {
                 // TRAINER_TYPE_RUN_SCRIPT
-                FlagSet(scriptFlag);
+                // FlagSet(scriptFlag);
                 numTrainers = 0xFF;
             }
             else
