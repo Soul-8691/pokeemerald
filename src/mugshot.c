@@ -30,9 +30,9 @@ static const u16 sMugshotPal_DustoxNormal[] = INCBIN_U16("graphics/mugshots/dust
 
 static const struct Mugshot sMugshots[] = {
     //ADD YOUR MUGSHOTS HERE
-    [MUGSHOT_WINGULL_ANGRY] = {.x = 16, .y = 5, .width = 64, .height = 64, .image = sMugshotImg_WingullAngry, .palette = sMugshotPal_WingullAngry},
-    [MUGSHOT_BEAUTIFLY_NORMAL] = {.x = 16, .y = 5, .width = 64, .height = 64, .image = sMugshotImg_BeautiflyNormal, .palette = sMugshotPal_BeautiflyNormal},
-    [MUGSHOT_DUSTOX_NORMAL] = {.x = 16, .y = 5, .width = 64, .height = 64, .image = sMugshotImg_DustoxNormal, .palette = sMugshotPal_DustoxNormal},
+    [MUGSHOT_WINGULL_ANGRY] = {.x = 20, .y = 5, .width = 64, .height = 64, .image = sMugshotImg_WingullAngry, .palette = sMugshotPal_WingullAngry},
+    [MUGSHOT_BEAUTIFLY_NORMAL] = {.x = 20, .y = 5, .width = 64, .height = 64, .image = sMugshotImg_BeautiflyNormal, .palette = sMugshotPal_BeautiflyNormal},
+    [MUGSHOT_DUSTOX_NORMAL] = {.x = 20, .y = 5, .width = 64, .height = 64, .image = sMugshotImg_DustoxNormal, .palette = sMugshotPal_DustoxNormal},
 };
 
 
