@@ -2,6 +2,69 @@ ValenciaIsland_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, ValenciaIsland_OnTransition
 	.byte 0
 
+ValenciaIsland_Text_HeadbuttTutor1:
+	.string "Listen up, kid! A real powerhouse\n"
+	.string "doesnt just charge blindly-nah,\p"
+	.string "it takes guts, power, and the right\n"
+	.string "angle!\p"
+	.string "You gotta hit ‘em where it hurts,\n"
+	.string "and nothing does that better than a\p"
+	.string "good ol' fashioned HEADBUTT!\p"
+	.string "Precision! Power! Thats what I'm\n"
+	.string "talkin' about!\p"
+	.string "Now, let's get your Pokémon ready\n"
+	.string "to smash through whatever stands in\p"
+	.string "its way! What say you?$"
+
+ValenciaIsland_Text_HeadbuttTutor2:
+	.string "This move can be learned only\n"
+	.string "once. Is that okay?$"
+
+ValenciaIsland_Text_HeadbuttTutor3:
+	.string "Which POKéMON wants to learn\n"
+	.string "the move?$"
+
+ValenciaIsland_EventScript_HeadbuttTutor1::
+	lock
+	faceplayer
+	goto_if_set FLAG_HEADBUTT_TUTOR, ValenciaIsland_EventScript_HeadbuttTutor3
+	msgbox ValenciaIsland_Text_HeadbuttTutor1, MSGBOX_YESNO
+	switch VAR_RESULT
+	case NO, ValenciaIsland_EventScript_HeadbuttTutor2
+	special DisableMsgBoxWalkaway
+	signmsg
+	msgbox ValenciaIsland_Text_HeadbuttTutor2, MSGBOX_YESNO
+	switch VAR_RESULT
+	case NO, ValenciaIsland_EventScript_HeadbuttTutor2
+	msgbox ValenciaIsland_Text_HeadbuttTutor3, MSGBOX_DEFAULT
+	setvar 0x8005 TUTOR_MOVE_HEADBUTT
+	special ChooseMonForMoveTutor
+	waitstate
+	lock
+	faceplayer
+	switch VAR_RESULT
+	case NO, ValenciaIsland_EventScript_HeadbuttTutor2
+	setflag FLAG_HEADBUTT_TUTOR
+
+ValenciaIsland_EventScript_HeadbuttTutor3::
+	msgbox ValenciaIsland_Text_HeadbuttTutor5, MSGBOX_DEFAULT
+	release
+	end
+
+ValenciaIsland_EventScript_HeadbuttTutor2::
+	msgbox ValenciaIsland_Text_HeadbuttTutor4, MSGBOX_DEFAULT
+	release
+	end
+
+ValenciaIsland_Text_HeadbuttTutor4:
+	.string "You're not ready for HEADBUTT,\n"
+	.string "then.$"
+
+ValenciaIsland_Text_HeadbuttTutor5:
+	.string "Yeah, thats it! Strong stance,\n"
+	.string "steady aim, then-BAM! Nothing\p"
+	.string "stands in your way now!$"
+
 ValenciaIsland_OnTransition:
 	setflag FLAG_VISITED_LITTLEROOT_TOWN
 	end

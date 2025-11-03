@@ -81,6 +81,20 @@
       "trainer_sight_or_berry_tree_id": "3",
       "script": "ValenciaIsland_EventScript_Wingull1",
       "flag": "FLAG_VALENCIA_ISLAND_WINGULL_1"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_FRLG_MAN",
+      "x": 37,
+      "y": 17,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN_UP_AND_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "ValenciaIsland_EventScript_HeadbuttTutor1",
+      "flag": "0"
     }
   ],
   "warp_events": [

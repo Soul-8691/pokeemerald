@@ -52,8 +52,8 @@
 #define FLAG_VALENCIA_ISLAND_WINGULL_3 0x27 // Unused Flag
 #define FLAG_VALENCIA_PARK_BEAUTIFLY 0x28 // Unused Flag
 #define FLAG_VALENCIA_PARK_DUSTOX 0x29 // Unused Flag
-#define FLAG_UNUSED_0x02A    0x2A // Unused Flag
-#define FLAG_UNUSED_0x02B    0x2B // Unused Flag
+#define FLAG_HEADBUTT_TUTOR   0x2A // Unused Flag
+#define FLAG_BITE_TUTOR      0x2B // Unused Flag
 #define FLAG_UNUSED_0x02C    0x2C // Unused Flag
 #define FLAG_UNUSED_0x02D    0x2D // Unused Flag
 #define FLAG_UNUSED_0x02E    0x2E // Unused Flag
