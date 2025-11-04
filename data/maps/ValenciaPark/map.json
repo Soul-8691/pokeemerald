@@ -26,7 +26,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_RUN_SCRIPT",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "ValenciaIsland_EventScript_Beautifly",
+      "script": "ValenciaPark_EventScript_Beautifly",
       "flag": "FLAG_TEMP_1"
     },
     {
@@ -40,8 +40,22 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_RUN_SCRIPT",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "ValenciaIsland_EventScript_Dustox",
+      "script": "ValenciaPark_EventScript_Dustox",
       "flag": "FLAG_TEMP_2"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_HEX_MANIAC",
+      "x": 31,
+      "y": 26,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "ValenciaPark_EventScript_BiteTutor1",
+      "flag": "FLAG_BITE_TUTOR"
     }
   ],
   "warp_events": [
