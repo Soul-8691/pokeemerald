@@ -212,6 +212,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Azumarill;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wingull;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Beautifly;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Dustox;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Seadra;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_FRLGRedSurfing;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TuberMSwimming;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Azurill;
@@ -755,8 +756,9 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_FRLG_DEOXYS_A] =            &gObjectEventGraphicsInfo_FRLGDeoxysA,
     [OBJ_EVENT_GFX_FRLG_DEOXYS_N] =            &gObjectEventGraphicsInfo_FRLGDeoxysN,
     [OBJ_EVENT_GFX_FRLG_SS_ANNE] =             &gObjectEventGraphicsInfo_FRLGSSAnne,
-    [OBJ_EVENT_GFX_BEAUTIFLY] =               &gObjectEventGraphicsInfo_Beautifly,
-    [OBJ_EVENT_GFX_DUSTOX] =               &gObjectEventGraphicsInfo_Dustox,
+    [OBJ_EVENT_GFX_BEAUTIFLY] =                &gObjectEventGraphicsInfo_Beautifly,
+    [OBJ_EVENT_GFX_DUSTOX] =                   &gObjectEventGraphicsInfo_Dustox,
+    [OBJ_EVENT_GFX_SEADRA] =                   &gObjectEventGraphicsInfo_Seadra,
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {

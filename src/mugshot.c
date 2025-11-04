@@ -27,12 +27,15 @@ static const u32 sMugshotImg_BeautiflyNormal[] = INCBIN_U32("graphics/mugshots/b
 static const u16 sMugshotPal_BeautiflyNormal[] = INCBIN_U16("graphics/mugshots/beautifly_normal.gbapal");
 static const u32 sMugshotImg_DustoxNormal[] = INCBIN_U32("graphics/mugshots/dustox_normal.4bpp.lz");
 static const u16 sMugshotPal_DustoxNormal[] = INCBIN_U16("graphics/mugshots/dustox_normal.gbapal");
+static const u32 sMugshotImg_SeadraNormal[] = INCBIN_U32("graphics/mugshots/seadra_normal.4bpp.lz");
+static const u16 sMugshotPal_SeadraNormal[] = INCBIN_U16("graphics/mugshots/seadra_normal.gbapal");
 
 static const struct Mugshot sMugshots[] = {
     //ADD YOUR MUGSHOTS HERE
     [MUGSHOT_WINGULL_ANGRY] = {.x = 20, .y = 5, .width = 64, .height = 64, .image = sMugshotImg_WingullAngry, .palette = sMugshotPal_WingullAngry},
     [MUGSHOT_BEAUTIFLY_NORMAL] = {.x = 20, .y = 5, .width = 64, .height = 64, .image = sMugshotImg_BeautiflyNormal, .palette = sMugshotPal_BeautiflyNormal},
     [MUGSHOT_DUSTOX_NORMAL] = {.x = 20, .y = 5, .width = 64, .height = 64, .image = sMugshotImg_DustoxNormal, .palette = sMugshotPal_DustoxNormal},
+    [MUGSHOT_SEADRA_NORMAL] = {.x = 20, .y = 5, .width = 64, .height = 64, .image = sMugshotImg_SeadraNormal, .palette = sMugshotPal_SeadraNormal},
 };
 
 

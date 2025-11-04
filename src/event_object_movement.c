@@ -468,6 +468,7 @@ const struct SpritePalette gObjectEventSpritePalettes[] = {
     {gObjectEventPal_Wingull,               OBJ_EVENT_PAL_TAG_WINGULL},
     {gObjectEventPal_Beautifly,             OBJ_EVENT_PAL_TAG_BEAUTIFLY},
     {gObjectEventPal_Dustox,                OBJ_EVENT_PAL_TAG_DUSTOX},
+    {gObjectEventPal_Seadra,                OBJ_EVENT_PAL_TAG_SEADRA},
     {NULL,                                  OBJ_EVENT_PAL_TAG_NONE},
 };
 

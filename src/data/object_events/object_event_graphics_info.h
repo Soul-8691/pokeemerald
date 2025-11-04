@@ -3670,6 +3670,23 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Dustox = {
     .images = sPicTable_Dustox,
 };
 
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Seadra = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_SEADRA,
+    .size = 512,
+    .width = 32,
+    .height = 32,
+    .textColor = NPC_TEXT_COLOR_MON,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .disableReflectionPaletteLoad = FALSE,
+    .tracks = TRACKS_FOOT,
+    .anims = OBJ_EVENT_ANIM_QUINTY_PLUMP,
+    .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = sOamTables_32x32,
+    .images = sPicTable_Seadra,
+};
+
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wingull = {
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_WINGULL,
