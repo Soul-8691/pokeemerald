@@ -4,4 +4,3 @@ Title screen bg doesn't show up at first
 Start menu exiting out of option freezes the menu in place
 Bulbasaur cry heard on Valencia Island
 PC tiles glitch out
-Pokemon in party not learning tutor moves lags game
