@@ -5,9 +5,9 @@ NPCs
 Consistent Surf music
 Headbutt uses mugshots
 Valencia Island vendor
-Exp. All
 
 Somewhat pressing:
+Exp. All
 Finish Feebas quest
 Battle Tower cutscene
 Triple layer tiles (binary implementation)
