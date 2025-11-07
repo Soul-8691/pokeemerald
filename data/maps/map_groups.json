@@ -131,11 +131,7 @@
     "Underwater_Route128",
     "Underwater_Route129",
     "Underwater_Route105",
-    "Underwater_Route125",
-    "ValenciaIsland",
-    "ShamoutiIsland",
-    "RouteE",
-    "RouteA"
+    "Underwater_Route125"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
@@ -465,8 +461,7 @@
     "TerraCave_Entrance",
     "TerraCave_End",
     "AlteringCave",
-    "MeteorFalls_StevensCave",
-    "ValenciaPark"
+    "MeteorFalls_StevensCave"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",
@@ -877,13 +872,7 @@
     "RG_PalletTown_PlayersHouse_1F",
     "RG_PalletTown_PlayersHouse_2F",
     "RG_PalletTown_RivalsHouse",
-    "RG_PalletTown_ProfessorOaksLab",
-    "ValenciaIsland_ProfessorIvysLab",
-    "ValenciaIsland_PokemonCenter",
-    "ValenciaIsland_House1",
-    "ValenciaIsland_House2",
-    "ValenciaIsland_School",
-    "ValenciaIsland_PokemonCenter_2F"
+    "RG_PalletTown_ProfessorOaksLab"
   ],
   "gMapGroup_RG_IndoorViridian": [
     "RG_ViridianCity_House",

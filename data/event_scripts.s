@@ -54,9 +54,6 @@
 #include "constants/union_room.h"
 #include "constants/vars.h"
 #include "constants/weather.h"
-#include "constants/quests.h"
-#include "constants/mugshots.h"
-#include "constants/merrp_dns.h"
 	.include "asm/macros.inc"
 	.include "asm/macros/event.inc"
 	.include "constants/constants.inc"
@@ -1443,37 +1440,3 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/text/frontier_brain.inc"
 	.include "data/text/save.inc"
 	.include "data/text/birch_speech.inc"
-
-	.include "data/maps/ValenciaIsland/scripts.inc"
-	.include "data/maps/ValenciaIsland/text.inc"
-
-	.include "data/maps/ValenciaIsland_ProfessorIvysLab/scripts.inc"
-	.include "data/maps/ValenciaIsland_ProfessorIvysLab/text.inc"
-
-	.include "data/maps/ShamoutiIsland/scripts.inc"
-	.include "data/maps/ShamoutiIsland/text.inc"
-    .include "data/scripts/qol_field_move_scripts.inc" @ qol_field_moves 
-
-	.include "data/maps/ValenciaPark/scripts.inc"
-	.include "data/maps/ValenciaPark/text.inc"
-
-	.include "data/maps/RouteE/scripts.inc"
-	.include "data/maps/RouteE/text.inc"
-
-	.include "data/maps/RouteA/scripts.inc"
-	.include "data/maps/RouteA/text.inc"
-
-	.include "data/maps/ValenciaIsland_PokemonCenter/scripts.inc"
-	.include "data/maps/ValenciaIsland_PokemonCenter/text.inc"
-
-	.include "data/maps/ValenciaIsland_House1/scripts.inc"
-	.include "data/maps/ValenciaIsland_House1/text.inc"
-
-	.include "data/maps/ValenciaIsland_House2/scripts.inc"
-	.include "data/maps/ValenciaIsland_House2/text.inc"
-
-	.include "data/maps/ValenciaIsland_School/scripts.inc"
-	.include "data/maps/ValenciaIsland_School/text.inc"
-
-	.include "data/maps/ValenciaIsland_PokemonCenter_2F/scripts.inc"
-	.include "data/maps/ValenciaIsland_PokemonCenter_2F/text.inc"

@@ -20,13 +20,3 @@ EventScript_GotoTrainerScript::
 	gotobeatenscript
 	releaseall
 	end
-
-EventScript_ObjectApproachPlayer::
-	lock
-	waitse
-	playse SE_PIN
-	special DoTrainerApproach
-	waitstate
-	gotonative LoadTrainerObjectScript
-	end
-

@@ -205,8 +205,8 @@ gScriptCmdTable::
 	.4byte ScrCmd_signmsg                           @ 0xca
 	.4byte ScrCmd_normalmsg                         @ 0xcb
 	.4byte ScrCmd_nop                               @ 0xcc
-	.4byte ScrCmd_setmodernfatefulencounter         @ 0xcd
-	.4byte ScrCmd_checkmodernfatefulencounter       @ 0xce
+	.4byte ScrCmd_setmonmodernfatefulencounter      @ 0xcd
+	.4byte ScrCmd_checkmonmodernfatefulencounter    @ 0xce
 	.4byte ScrCmd_trywondercardscript               @ 0xcf
 	.4byte ScrCmd_nop                               @ 0xd0
 	.4byte ScrCmd_warpspinenter                     @ 0xd1
@@ -227,16 +227,6 @@ gScriptCmdTable::
 	.4byte ScrCmd_warpwhitefade                     @ 0xe0
 	.4byte ScrCmd_buffercontestname                 @ 0xe1
 	.4byte ScrCmd_bufferitemnameplural              @ 0xe2
-    .4byte ScrCmd_checkpartylearnknowsfieldmove     @ 0xe3 // qol_field_moves
-	.4byte ScrCmd_questmenu                         @ 0xe4
-    .4byte ScrCmd_subquestmenu                      @ 0xe5
-    .4byte ScrCmd_returnqueststate                  @ 0xe6
-	.4byte ScrCmd_warpcontinuescript                @ 0xe7
-	.4byte ScrCmd_showitemdesc              		@ 0xe8
-	.4byte ScrCmd_hideitemdesc              		@ 0xe9
-	.4byte ScrCmd_dynmultichoice                    @ 0xea
-	.4byte ScrCmd_dynmultipush                      @ 0xeb
-	.4byte Scrcmd_checkspecies                      @ 0xec
 
 gScriptCmdTableEnd::
 	.4byte ScrCmd_nop
